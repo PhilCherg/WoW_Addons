@@ -1,0 +1,5 @@
+## Interface: 90001
+## Title: Auto Track Map Pin
+## Author: Zealo_s
+## Version: 1.0
+AutoTrackMapPin.lua

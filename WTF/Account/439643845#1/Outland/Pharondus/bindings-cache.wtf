@@ -1,0 +1,38 @@
+BINDINGMODE 0
+bind Q CLICK BT4Button13:LeftButton
+bind E CLICK BT4Button14:LeftButton
+bind X CLICK BT4Button62:LeftButton
+bind Z CLICK BT4Button61:LeftButton
+bind R CLICK BT4Button15:LeftButton
+bind SHIFT-R CLICK BT4Button20:LeftButton
+bind 6 NONE
+bind 7 NONE
+bind 8 NONE
+bind 9 NONE
+bind 0 NONE
+bind - NONE
+bind = NONE
+bind CTRL-F1 NONE
+bind CTRL-F2 NONE
+bind SHIFT-1 ACTIONBUTTON6
+bind SHIFT-2 ACTIONBUTTON7
+bind SHIFT-3 ACTIONBUTTON8
+bind SHIFT-4 ACTIONBUTTON9
+bind SHIFT-5 ACTIONBUTTON10
+bind TAB ACTIONBUTTON11
+bind SHIFT-TAB CLICK BT4Button23:LeftButton
+bind F CLICK BT4Button16:LeftButton
+bind V CLICK BT4Button64:LeftButton
+bind SHIFT-T CLICK BT4Button22:LeftButton
+bind C CLICK BT4Button63:LeftButton
+bind SHIFT-SPACE CLICK BT4Button60:LeftButton
+bind [ STARTAUTORUN
+bind ] STOPAUTORUN
+bind SHIFT-Q CLICK BT4Button18:LeftButton
+bind SHIFT-E CLICK BT4Button19:LeftButton
+bind SHIFT-F CLICK BT4Button21:LeftButton
+bind ` NONE
+bind CAPSLOCK ACTIONBUTTON12
+bind \ SITORSTAND
+bind T CLICK BT4Button17:LeftButton
+bind SHIFT-CAPSLOCK CLICK BT4Button24:LeftButton

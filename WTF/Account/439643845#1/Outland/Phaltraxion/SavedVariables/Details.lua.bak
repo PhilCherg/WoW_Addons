@@ -1,0 +1,4256 @@
+
+_detalhes_database = {
+	["savedbuffs"] = {
+	},
+	["mythic_dungeon_id"] = 0,
+	["tabela_historico"] = {
+		["tabelas"] = {
+			{
+				{
+					["combatId"] = 2,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.003793,
+							["damage_from"] = {
+								["Grand Astromancer Capernian"] = true,
+								["Infinity Blades"] = true,
+								["Master Engineer Telonicus"] = true,
+								["Netherstrand Longbow"] = true,
+								["Lord Sanguinar"] = true,
+								["Kael'thas Sunstrider"] = true,
+								["Phaseshift Bulwark"] = true,
+								["Thaladred the Darkener"] = true,
+								["Devastation"] = true,
+								["Warp Slicer"] = true,
+							},
+							["targets"] = {
+								["Grand Astromancer Capernian"] = 229925,
+								["Cosmic Infuser"] = 80405,
+								["Master Engineer Telonicus"] = 711074,
+								["Kael'thas Sunstrider"] = 1534016,
+								["Thaladred the Darkener"] = 507930,
+								["Netherstrand Longbow"] = 140464,
+								["Lord Sanguinar"] = 259673,
+								["Staff of Disintegration"] = 58438,
+								["Phaseshift Bulwark"] = 92937,
+								["Devastation"] = 38366,
+								["Infinity Blades"] = 79990,
+								["Warp Slicer"] = 80525,
+							},
+							["total"] = 3813743.003793,
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["boss_fight_component"] = true,
+							["aID"] = "1301-09D0C889",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 3813743.003793,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1618921740,
+							["classe"] = "MONK",
+							["friendlyfire_total"] = 0,
+							["nome"] = "Phaltraxion",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 395287,
+										["g_amt"] = 0,
+										["n_max"] = 96121,
+										["targets"] = {
+											["Thaladred the Darkener"] = 293433,
+											["Grand Astromancer Capernian"] = 96121,
+											["Lord Sanguinar"] = 92239,
+											["Kael'thas Sunstrider"] = 193839,
+											["Master Engineer Telonicus"] = 94584,
+											["Netherstrand Longbow"] = 92802,
+										},
+										["n_dmg"] = 467731,
+										["n_min"] = 91985,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 863018,
+										["c_max"] = 201448,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 193839,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 5,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[117418] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 410843,
+										["g_amt"] = 0,
+										["n_max"] = 205421,
+										["targets"] = {
+											["Kael'thas Sunstrider"] = 1222744,
+										},
+										["n_dmg"] = 811901,
+										["n_min"] = 195638,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 1222744,
+										["c_max"] = 410843,
+										["id"] = 117418,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 410843,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 4,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[100780] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 236787,
+										["g_amt"] = 0,
+										["n_max"] = 58438,
+										["targets"] = {
+											["Thaladred the Darkener"] = 174916,
+											["Grand Astromancer Capernian"] = 49400,
+											["Lord Sanguinar"] = 47154,
+											["Kael'thas Sunstrider"] = 117433,
+											["Netherstrand Longbow"] = 47662,
+											["Master Engineer Telonicus"] = 96895,
+											["Staff of Disintegration"] = 58438,
+										},
+										["n_dmg"] = 355111,
+										["n_min"] = 46711,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 591898,
+										["c_max"] = 119354,
+										["id"] = 100780,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 117433,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 7,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[107270] = {
+										["c_amt"] = 4,
+										["b_amt"] = 1,
+										["c_dmg"] = 309186,
+										["g_amt"] = 0,
+										["n_max"] = 42598,
+										["targets"] = {
+											["Devastation"] = 38366,
+											["Grand Astromancer Capernian"] = 84404,
+											["Lord Sanguinar"] = 120280,
+											["Thaladred the Darkener"] = 39581,
+											["Phaseshift Bulwark"] = 92937,
+											["Infinity Blades"] = 79990,
+											["Cosmic Infuser"] = 80405,
+											["Warp Slicer"] = 80525,
+										},
+										["n_dmg"] = 307302,
+										["n_min"] = 23221,
+										["g_dmg"] = 0,
+										["counter"] = 12,
+										["total"] = 616488,
+										["c_max"] = 80405,
+										["id"] = 107270,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 69716,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 8,
+										["b_dmg"] = 23221,
+										["r_amt"] = 0,
+									},
+									[185099] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 519595,
+										["targets"] = {
+											["Master Engineer Telonicus"] = 519595,
+										},
+										["n_dmg"] = 519595,
+										["n_min"] = 519595,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 519595,
+										["c_max"] = 0,
+										["id"] = 185099,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 269,
+							["serial"] = "Player-1301-09D0C889",
+							["last_dps"] = 16086.6519194052,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 90.003793,
+							["start_time"] = 1618921713,
+							["delay"] = 1618921693,
+							["last_event"] = 1618921740,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.004687,
+							["damage_from"] = {
+								["Phaltraxion"] = true,
+							},
+							["targets"] = {
+								["Phaltraxion"] = 24,
+							},
+							["total"] = 24.004687,
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 24.004687,
+							["boss_fight_component"] = true,
+							["monster"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1618921740,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Master Engineer Telonicus",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2,
+										["targets"] = {
+											["Phaltraxion"] = 3,
+										},
+										["n_dmg"] = 3,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 3,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[37036] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 7,
+										["targets"] = {
+											["Phaltraxion"] = 21,
+										},
+										["n_dmg"] = 21,
+										["n_min"] = 7,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 21,
+										["c_max"] = 0,
+										["id"] = 37036,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 3,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[37027] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 37027,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["aID"] = "20063",
+							["serial"] = "Creature-0-4251-550-10560-20063-00007EC7BA",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1618921686,
+							["damage_taken"] = 711074.0046870001,
+							["start_time"] = 1618921734,
+							["delay"] = 1618921686,
+							["tipo"] = 1,
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.00794,
+							["damage_from"] = {
+								["Phaltraxion"] = true,
+							},
+							["targets"] = {
+								["Phaltraxion"] = 18,
+							},
+							["total"] = 18.00794,
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 18.00794,
+							["boss_fight_component"] = true,
+							["monster"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1618921740,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Kael'thas Sunstrider",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 3,
+										["targets"] = {
+											["Phaltraxion"] = 6,
+										},
+										["n_dmg"] = 6,
+										["n_min"] = 3,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 6,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[36805] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 12,
+										["targets"] = {
+											["Phaltraxion"] = 12,
+										},
+										["n_dmg"] = 12,
+										["n_min"] = 12,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 12,
+										["c_max"] = 0,
+										["id"] = 36805,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["aID"] = "19622",
+							["serial"] = "Creature-0-4251-550-10560-19622-00007EC7BB",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1618921740,
+							["damage_taken"] = 1534016.00794,
+							["start_time"] = 1618921736,
+							["delay"] = 1618921692,
+							["tipo"] = 1,
+						}, -- [3]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.002315,
+							["damage_from"] = {
+								["Phaltraxion"] = true,
+							},
+							["targets"] = {
+								["Phaltraxion"] = 16,
+							},
+							["pets"] = {
+							},
+							["boss"] = true,
+							["total"] = 16.002315,
+							["aID"] = "20064",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 16.002315,
+							["monster"] = true,
+							["boss_fight_component"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1618921740,
+							["classe"] = "UNKNOW",
+							["on_hold"] = false,
+							["nome"] = "Thaladred the Darkener",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2,
+										["targets"] = {
+											["Phaltraxion"] = 2,
+										},
+										["n_dmg"] = 2,
+										["n_min"] = 2,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 2,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[20477] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 20477,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[36966] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 4,
+										["targets"] = {
+											["Phaltraxion"] = 4,
+										},
+										["n_dmg"] = 4,
+										["n_min"] = 4,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 4,
+										["c_max"] = 0,
+										["id"] = 36966,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[36965] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2,
+										["targets"] = {
+											["Phaltraxion"] = 10,
+										},
+										["n_dmg"] = 10,
+										["n_min"] = 2,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 10,
+										["c_max"] = 0,
+										["id"] = 36965,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 5,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["friendlyfire_total"] = 0,
+							["friendlyfire"] = {
+							},
+							["serial"] = "Creature-0-4251-550-10560-20064-00007EC7BB",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 507930.002315,
+							["start_time"] = 1618921722,
+							["delay"] = 1618921698,
+							["last_event"] = 1618921698,
+						}, -- [4]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.007171,
+							["damage_from"] = {
+								["Phaltraxion"] = true,
+							},
+							["targets"] = {
+								["Phaltraxion"] = 9,
+							},
+							["total"] = 9.007171,
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 9.007171,
+							["boss_fight_component"] = true,
+							["monster"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1618921740,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Phaseshift Bulwark",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2,
+										["targets"] = {
+											["Phaltraxion"] = 9,
+										},
+										["n_dmg"] = 9,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 9,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 5,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+							},
+							["aID"] = "21273",
+							["serial"] = "Creature-0-4251-550-10560-21273-00007EC869",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1618921592,
+							["damage_taken"] = 92937.007171,
+							["start_time"] = 1618921727,
+							["delay"] = 1618921592,
+							["tipo"] = 1,
+						}, -- [5]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.006771,
+							["damage_from"] = {
+								["Phaltraxion"] = true,
+							},
+							["targets"] = {
+								["Phaltraxion"] = 6,
+							},
+							["total"] = 6.006771000000001,
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 6.006771000000001,
+							["boss_fight_component"] = true,
+							["monster"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1618921740,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Netherstrand Longbow",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[36980] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2,
+										["targets"] = {
+											["Phaltraxion"] = 6,
+										},
+										["n_dmg"] = 6,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 6,
+										["c_max"] = 0,
+										["id"] = 36980,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 4,
+										["a_amt"] = 0,
+										["n_amt"] = 4,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["aID"] = "21268",
+							["serial"] = "Creature-0-4251-550-10560-21268-00007EC869",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1618921597,
+							["damage_taken"] = 140464.006771,
+							["start_time"] = 1618921724,
+							["delay"] = 1618921597,
+							["tipo"] = 1,
+						}, -- [6]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.005402,
+							["damage_from"] = {
+								["Phaltraxion"] = true,
+							},
+							["targets"] = {
+								["Phaltraxion"] = 6,
+							},
+							["total"] = 6.005402,
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 6.005402,
+							["boss_fight_component"] = true,
+							["monster"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1618921740,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Grand Astromancer Capernian",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1,
+										["targets"] = {
+											["Phaltraxion"] = 1,
+										},
+										["n_dmg"] = 1,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[36971] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 5,
+										["targets"] = {
+											["Phaltraxion"] = 5,
+										},
+										["n_dmg"] = 5,
+										["n_min"] = 5,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 5,
+										["c_max"] = 0,
+										["id"] = 36971,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[36970] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 36970,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["aID"] = "20062",
+							["serial"] = "Creature-0-4251-550-10560-20062-00007EC7BB",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1618921561,
+							["damage_taken"] = 229925.005402,
+							["start_time"] = 1618921737,
+							["delay"] = 1618921561,
+							["tipo"] = 1,
+						}, -- [7]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.004941,
+							["damage_from"] = {
+								["Phaltraxion"] = true,
+							},
+							["targets"] = {
+								["Phaltraxion"] = 5,
+							},
+							["total"] = 5.004941000000001,
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 5.004941000000001,
+							["boss_fight_component"] = true,
+							["monster"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1618921740,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Lord Sanguinar",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 3,
+										["targets"] = {
+											["Phaltraxion"] = 5,
+										},
+										["n_dmg"] = 5,
+										["n_min"] = 2,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 5,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+							},
+							["aID"] = "20060",
+							["serial"] = "Creature-0-4251-550-10560-20060-00007EC7BB",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1618921681,
+							["damage_taken"] = 259673.004941,
+							["start_time"] = 1618921739,
+							["delay"] = 1618921681,
+							["tipo"] = 1,
+						}, -- [8]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.003308,
+							["damage_from"] = {
+								["Phaltraxion"] = true,
+							},
+							["targets"] = {
+								["Phaltraxion"] = 3,
+							},
+							["total"] = 3.003308,
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 3.003308,
+							["boss_fight_component"] = true,
+							["monster"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1618921740,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Infinity Blades",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 3,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Phaltraxion"] = 3,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 13,
+										["total"] = 3,
+										["c_max"] = 3,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["MISS"] = 12,
+										["spellschool"] = 1,
+										["extra"] = {
+											["extra_attack"] = 1,
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 3,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[3391] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 3391,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["aID"] = "21271",
+							["serial"] = "Creature-0-4251-550-10560-21271-00007EC869",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1618921591,
+							["damage_taken"] = 79990.003308,
+							["start_time"] = 1618921735,
+							["delay"] = 1618921591,
+							["tipo"] = 1,
+						}, -- [9]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.008546,
+							["damage_from"] = {
+								["Phaltraxion"] = true,
+							},
+							["targets"] = {
+								["Phaltraxion"] = 2,
+							},
+							["total"] = 2.008546,
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 2.008546,
+							["boss_fight_component"] = true,
+							["monster"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1618921740,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Devastation",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2,
+										["targets"] = {
+											["Phaltraxion"] = 2,
+										},
+										["n_dmg"] = 2,
+										["n_min"] = 2,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 2,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["MISS"] = 3,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[36981] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 36981,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[36982] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Phaltraxion"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 36982,
+										["r_dmg"] = 0,
+										["MISS"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["aID"] = "21269",
+							["serial"] = "Creature-0-4251-550-10560-21269-00007EC869",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1618921591,
+							["damage_taken"] = 38366.008546,
+							["start_time"] = 1618921727,
+							["delay"] = 1618921591,
+							["tipo"] = 1,
+						}, -- [10]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.002679,
+							["damage_from"] = {
+								["Phaltraxion"] = true,
+							},
+							["targets"] = {
+								["Phaltraxion"] = 1,
+							},
+							["total"] = 1.002679,
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1.002679,
+							["boss_fight_component"] = true,
+							["monster"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1618921740,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Warp Slicer",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1,
+										["targets"] = {
+											["Phaltraxion"] = 1,
+										},
+										["n_dmg"] = 1,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 1,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["MISS"] = 6,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[36991] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Phaltraxion"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 36991,
+										["r_dmg"] = 0,
+										["MISS"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 2,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["aID"] = "21272",
+							["serial"] = "Creature-0-4251-550-10560-21272-00007EC869",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1618921592,
+							["damage_taken"] = 80525.002679,
+							["start_time"] = 1618921739,
+							["delay"] = 1618921592,
+							["tipo"] = 1,
+						}, -- [11]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.008672,
+							["damage_from"] = {
+								["Phaltraxion"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.008672,
+							["boss_fight_component"] = true,
+							["monster"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1618921740,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Staff of Disintegration",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[36990] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Phaltraxion"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 36990,
+										["r_dmg"] = 0,
+										["MISS"] = 5,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 5,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["aID"] = "21274",
+							["total"] = 0.008672,
+							["serial"] = "Creature-0-4251-550-10560-21274-00007EC869",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1618921595,
+							["damage_taken"] = 58438.008672,
+							["start_time"] = 1618921740,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [12]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.004195,
+							["damage_from"] = {
+								["Phaltraxion"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.004195,
+							["boss_fight_component"] = true,
+							["monster"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1618921740,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Cosmic Infuser",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Phaltraxion"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 0,
+										["c_max"] = 0,
+										["DODGE"] = 2,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["MISS"] = 4,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[36985] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Devastation"] = 0,
+											["Staff of Disintegration"] = 0,
+											["Phaltraxion"] = 0,
+											["Phaseshift Bulwark"] = 0,
+											["Infinity Blades"] = 0,
+											["Warp Slicer"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 12,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 36985,
+										["r_dmg"] = 0,
+										["IMMUNE"] = 10,
+										["MISS"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 2,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["aID"] = "21270",
+							["total"] = 0.004195,
+							["serial"] = "Creature-0-4251-550-10560-21270-00007EC869",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1618921591,
+							["damage_taken"] = 80405.004195,
+							["start_time"] = 1618921740,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [13]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 2,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 2632,
+							["totalabsorb"] = 0.001552,
+							["last_hps"] = 0,
+							["targets_overheal"] = {
+							},
+							["healing_from"] = {
+							},
+							["targets"] = {
+							},
+							["targets_absorbs"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["totalover_without_pet"] = 0.001552,
+							["healing_taken"] = 0.001552,
+							["totalover"] = 0.001552,
+							["total_without_pet"] = 0.001552,
+							["end_time"] = 1618921740,
+							["aID"] = "21270",
+							["monster"] = true,
+							["total"] = 0.001552,
+							["classe"] = "UNKNOW",
+							["boss_fight_component"] = true,
+							["nome"] = "Cosmic Infuser",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+								},
+							},
+							["heal_enemy_amt"] = 0,
+							["serial"] = "Creature-0-4251-550-10560-21270-00007EC869",
+							["heal_enemy"] = {
+								[36985] = 0,
+							},
+							["start_time"] = 1618921740,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["totaldenied"] = 0.001552,
+							["delay"] = 0,
+							["last_event"] = 1618921589,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 2,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 0.00835,
+							["resource"] = 8.00835,
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "MONK",
+							["passiveover"] = 1562.00835,
+							["total"] = 0.00835,
+							["boss_fight_component"] = true,
+							["resource_type"] = 12,
+							["nome"] = "Phaltraxion",
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 269,
+							["flag_original"] = 1297,
+							["alternatepower"] = 0.00835,
+							["last_event"] = 1618921740,
+							["aID"] = "1301-09D0C889",
+							["tipo"] = 3,
+							["serial"] = "Player-1301-09D0C889",
+							["totalover"] = 0.00835,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 2,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[113746] = {
+										["activedamt"] = 0,
+										["id"] = 113746,
+										["targets"] = {
+										},
+										["uptime"] = 200,
+										["appliedamt"] = 7,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[228287] = {
+										["activedamt"] = 0,
+										["id"] = 228287,
+										["targets"] = {
+										},
+										["uptime"] = 54,
+										["appliedamt"] = 5,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[115804] = {
+										["activedamt"] = 0,
+										["id"] = 115804,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 664,
+							["aID"] = "1301-09D0C889",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[166646] = {
+										["activedamt"] = 1,
+										["id"] = 166646,
+										["targets"] = {
+										},
+										["uptime"] = 203,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[186401] = {
+										["activedamt"] = 1,
+										["id"] = 186401,
+										["targets"] = {
+										},
+										["uptime"] = 203,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[196741] = {
+										["activedamt"] = 5,
+										["id"] = 196741,
+										["targets"] = {
+										},
+										["uptime"] = 33,
+										["appliedamt"] = 5,
+										["refreshamt"] = 3,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[93795] = {
+										["activedamt"] = 1,
+										["id"] = 93795,
+										["targets"] = {
+										},
+										["uptime"] = 203,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[113656] = {
+										["activedamt"] = 1,
+										["id"] = 113656,
+										["targets"] = {
+										},
+										["uptime"] = 4,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[261769] = {
+										["activedamt"] = 2,
+										["id"] = 261769,
+										["targets"] = {
+										},
+										["uptime"] = 18,
+										["appliedamt"] = 2,
+										["refreshamt"] = 6,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["debuff_uptime"] = 254,
+							["boss_fight_component"] = true,
+							["nome"] = "Phaltraxion",
+							["spec"] = 269,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[113656] = 1,
+								[100780] = 8,
+								[101546] = 2,
+								[107428] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1618921740,
+							["pets"] = {
+							},
+							["classe"] = "MONK",
+							["serial"] = "Player-1301-09D0C889",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["monster"] = true,
+							["boss_fight_component"] = true,
+							["flag_original"] = 68168,
+							["spell_cast"] = {
+								[36971] = 1,
+								[36970] = 1,
+							},
+							["classe"] = "UNKNOW",
+							["nome"] = "Grand Astromancer Capernian",
+							["last_event"] = 0,
+							["pets"] = {
+							},
+							["tipo"] = 4,
+							["serial"] = "Creature-0-4251-550-10560-20062-00007EC7BB",
+							["aID"] = "20062",
+						}, -- [2]
+						{
+							["monster"] = true,
+							["boss_fight_component"] = true,
+							["flag_original"] = 68168,
+							["spell_cast"] = {
+								[37036] = 3,
+								[37027] = 1,
+							},
+							["classe"] = "UNKNOW",
+							["nome"] = "Master Engineer Telonicus",
+							["last_event"] = 0,
+							["pets"] = {
+							},
+							["tipo"] = 4,
+							["serial"] = "Creature-0-4251-550-10560-20063-00007EC7BA",
+							["aID"] = "20063",
+						}, -- [3]
+						{
+							["monster"] = true,
+							["boss_fight_component"] = true,
+							["flag_original"] = 2632,
+							["spell_cast"] = {
+								[36990] = 5,
+							},
+							["classe"] = "UNKNOW",
+							["nome"] = "Staff of Disintegration",
+							["last_event"] = 0,
+							["pets"] = {
+							},
+							["tipo"] = 4,
+							["serial"] = "Creature-0-4251-550-10560-21274-00007EC869",
+							["aID"] = "21274",
+						}, -- [4]
+						{
+							["monster"] = true,
+							["boss_fight_component"] = true,
+							["flag_original"] = 2632,
+							["spell_cast"] = {
+								[36980] = 4,
+							},
+							["classe"] = "UNKNOW",
+							["nome"] = "Netherstrand Longbow",
+							["last_event"] = 0,
+							["pets"] = {
+							},
+							["tipo"] = 4,
+							["serial"] = "Creature-0-4251-550-10560-21268-00007EC869",
+							["aID"] = "21268",
+						}, -- [5]
+						{
+							["monster"] = true,
+							["boss_fight_component"] = true,
+							["flag_original"] = 2632,
+							["spell_cast"] = {
+								[36985] = 2,
+							},
+							["classe"] = "UNKNOW",
+							["nome"] = "Cosmic Infuser",
+							["last_event"] = 0,
+							["pets"] = {
+							},
+							["tipo"] = 4,
+							["serial"] = "Creature-0-4251-550-10560-21270-00007EC869",
+							["aID"] = "21270",
+						}, -- [6]
+						{
+							["monster"] = true,
+							["boss_fight_component"] = true,
+							["flag_original"] = 2632,
+							["spell_cast"] = {
+								[36991] = 2,
+							},
+							["classe"] = "UNKNOW",
+							["nome"] = "Warp Slicer",
+							["last_event"] = 0,
+							["pets"] = {
+							},
+							["tipo"] = 4,
+							["serial"] = "Creature-0-4251-550-10560-21272-00007EC869",
+							["aID"] = "21272",
+						}, -- [7]
+						{
+							["monster"] = true,
+							["boss_fight_component"] = true,
+							["flag_original"] = 68168,
+							["spell_cast"] = {
+								[36981] = 1,
+								[36982] = 1,
+							},
+							["classe"] = "UNKNOW",
+							["nome"] = "Devastation",
+							["last_event"] = 0,
+							["pets"] = {
+							},
+							["tipo"] = 4,
+							["serial"] = "Creature-0-4251-550-10560-21269-00007EC869",
+							["aID"] = "21269",
+						}, -- [8]
+						{
+							["monster"] = true,
+							["boss_fight_component"] = true,
+							["flag_original"] = 2632,
+							["spell_cast"] = {
+								[3391] = 1,
+							},
+							["classe"] = "UNKNOW",
+							["nome"] = "Infinity Blades",
+							["last_event"] = 0,
+							["pets"] = {
+							},
+							["tipo"] = 4,
+							["serial"] = "Creature-0-4251-550-10560-21271-00007EC869",
+							["aID"] = "21271",
+						}, -- [9]
+						{
+							["monster"] = true,
+							["boss_fight_component"] = true,
+							["flag_original"] = 2632,
+							["spell_cast"] = {
+								[20477] = 1,
+								[36966] = 1,
+								[36965] = 1,
+							},
+							["classe"] = "UNKNOW",
+							["nome"] = "Thaladred the Darkener",
+							["last_event"] = 0,
+							["pets"] = {
+							},
+							["tipo"] = 4,
+							["serial"] = "Creature-0-4251-550-10560-20064-00007EC7BB",
+							["aID"] = "20064",
+						}, -- [10]
+						{
+							["flag_original"] = 2632,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+								},
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["boss_debuff"] = true,
+							["monster"] = true,
+							["debuff_uptime"] = 0,
+							["spellschool"] = 64,
+							["nome"] = "Remote Toy",
+							["boss_fight_component"] = true,
+							["debuff_uptime_targets"] = {
+								["Phaltraxion"] = {
+									["uptime"] = 0,
+									["actived_at"] = 1618921683,
+									["appliedamt"] = 0,
+									["activedamt"] = 1,
+									["actived"] = true,
+									["refreshamt"] = 0,
+								},
+							},
+							["damage_spellid"] = 37027,
+							["tipo"] = 4,
+							["damage_twin"] = "Master Engineer Telonicus",
+							["aID"] = "20063",
+							["serial"] = "Creature-0-4251-550-10560-20063-00007EC7BA",
+							["last_event"] = 1618921683,
+						}, -- [11]
+						{
+							["flag_original"] = 68168,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+								},
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["boss_debuff"] = true,
+							["monster"] = true,
+							["debuff_uptime"] = 15,
+							["spellschool"] = 1,
+							["nome"] = "Rend",
+							["boss_fight_component"] = true,
+							["debuff_uptime_targets"] = {
+								["Phaltraxion"] = {
+									["uptime"] = 15,
+									["appliedamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["refreshamt"] = 0,
+								},
+							},
+							["damage_spellid"] = 36965,
+							["tipo"] = 4,
+							["damage_twin"] = "Thaladred the Darkener",
+							["aID"] = "20064",
+							["serial"] = "Creature-0-4251-550-10560-20064-00007EC7BB",
+							["last_event"] = 1618921698,
+						}, -- [12]
+						{
+							["monster"] = true,
+							["boss_fight_component"] = true,
+							["flag_original"] = 68168,
+							["spell_cast"] = {
+								[36805] = 1,
+							},
+							["classe"] = "UNKNOW",
+							["nome"] = "Kael'thas Sunstrider",
+							["last_event"] = 0,
+							["pets"] = {
+							},
+							["tipo"] = 4,
+							["serial"] = "Creature-0-4251-550-10560-19622-00007EC7BB",
+							["aID"] = "19622",
+						}, -- [13]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 2,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Phaltraxion"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"Phaltraxion", -- [1]
+				},
+				["tempo_start"] = 1618921537,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 1162,
+				["playing_solo"] = true,
+				["totals"] = {
+					3813833, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "raid",
+				["data_fim"] = "15:29:00",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Kael'thas Sunstrider",
+				["TotalElapsedCombatTime"] = 17860.648,
+				["CombatEndedAt"] = 17860.648,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "15:25:37",
+				["end_time"] = 17860.028,
+				["combat_id"] = 2,
+				["overall_added"] = true,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals_grupo"] = {
+					3813743, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags"] = {
+					["Grand Astromancer Capernian"] = 2,
+					["Cosmic Infuser"] = 1,
+					["Master Engineer Telonicus"] = 2,
+					["Kael'thas Sunstrider"] = 1,
+					["Devastation"] = 1,
+					["Netherstrand Longbow"] = 1,
+					["Lord Sanguinar"] = 2,
+					["Staff of Disintegration"] = 1,
+					["Phaseshift Bulwark"] = 1,
+					["Thaladred the Darkener"] = 2,
+					["Infinity Blades"] = 1,
+					["Warp Slicer"] = 1,
+				},
+				["is_boss"] = {
+					["diff_string"] = "25 Player",
+					["index"] = 1,
+					["zone"] = "Tempest Keep",
+					["encounter"] = "Kael'thas Sunstrider",
+					["mapid"] = 550,
+					["try_number"] = 1,
+					["name"] = "Kael'thas Sunstrider",
+					["diff"] = 4,
+					["id"] = 733,
+					["ej_instance_id"] = 749,
+					["killed"] = true,
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					{
+						2, -- [1]
+						36.24799999999959, -- [2]
+					}, -- [2]
+					{
+						3, -- [1]
+						141.2479999999996, -- [2]
+					}, -- [3]
+					{
+						4, -- [1]
+						151.5060000000012, -- [2]
+					}, -- [4]
+					{
+						5, -- [1]
+						201.3580000000002, -- [2]
+					}, -- [5]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Phaltraxion"] = 573756.003793,
+						}, -- [1]
+						{
+							["Phaltraxion"] = 571125,
+						}, -- [2]
+						{
+							["Phaltraxion"] = 1134846,
+						}, -- [3]
+						{
+							["Phaltraxion"] = 1222744,
+						}, -- [4]
+						{
+							["Phaltraxion"] = 311272,
+						}, -- [5]
+					},
+				},
+				["CombatSkillCache"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+				["start_time"] = 17622.953,
+				["contra"] = "Thaladred the Darkener",
+				["TimeData"] = {
+				},
+			}, -- [1]
+		},
+	},
+	["ocd_tracker"] = {
+		["enabled"] = false,
+		["current_cooldowns"] = {
+		},
+		["cooldowns"] = {
+		},
+		["show_conditions"] = {
+			["only_inside_instance"] = true,
+			["only_in_group"] = true,
+		},
+		["show_options"] = false,
+		["pos"] = {
+		},
+	},
+	["combat_counter"] = 1162,
+	["character_data"] = {
+		["logons"] = 78,
+	},
+	["tabela_instancias"] = {
+	},
+	["coach"] = {
+		["enabled"] = false,
+		["welcome_panel_pos"] = {
+		},
+		["last_coach_name"] = false,
+	},
+	["local_instances_config"] = {
+		{
+			["modo"] = 2,
+			["sub_attribute"] = 1,
+			["horizontalSnap"] = false,
+			["verticalSnap"] = false,
+			["isLocked"] = false,
+			["is_open"] = true,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["snap"] = {
+			},
+			["segment"] = 0,
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -420.8414993286133,
+					["x"] = 759.0111694335938,
+					["w"] = 404.9826965332031,
+					["h"] = 240.0071868896484,
+				},
+				["solo"] = {
+					["y"] = -40.9999084472656,
+					["x"] = 40.9998779296875,
+					["w"] = 300,
+					["h"] = 300,
+				},
+			},
+		}, -- [1]
+	},
+	["cached_talents"] = {
+	},
+	["last_instance_id"] = 550,
+	["announce_interrupts"] = {
+		["enabled"] = false,
+		["whisper"] = "",
+		["channel"] = "SAY",
+		["custom"] = "",
+		["next"] = "",
+	},
+	["announce_prepots"] = {
+		["enabled"] = false,
+		["channel"] = "SELF",
+		["reverse"] = false,
+	},
+	["active_profile"] = "Necrophagus-Outland",
+	["last_realversion"] = 144,
+	["benchmark_db"] = {
+		["frame"] = {
+		},
+	},
+	["plugin_database"] = {
+		["DETAILS_PLUGIN_TINY_THREAT"] = {
+			["updatespeed"] = 1,
+			["enabled"] = true,
+			["animate"] = false,
+			["useplayercolor"] = false,
+			["author"] = "Details! Team",
+			["useclasscolors"] = false,
+			["playercolor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["showamount"] = false,
+		},
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
+			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
+			["author"] = "Details! Team",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
+		},
+		["DETAILS_PLUGIN_VANGUARD"] = {
+			["enabled"] = true,
+			["tank_block_color"] = {
+				0.24705882, -- [1]
+				0.0039215, -- [2]
+				0, -- [3]
+				0.8, -- [4]
+			},
+			["show_inc_bars"] = false,
+			["author"] = "Details! Team",
+			["first_run"] = false,
+			["tank_block_size"] = 150,
+			["bar_height"] = 24,
+			["tank_block_texture"] = "Details Serenity",
+			["tank_block_height"] = 40,
+		},
+		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
+			["enabled"] = true,
+			["encounter_timers_bw"] = {
+			},
+			["max_emote_segments"] = 3,
+			["last_section_selected"] = "main",
+			["author"] = "Details! Team",
+			["window_scale"] = 1,
+			["encounter_timers_dbm"] = {
+			},
+			["show_icon"] = 5,
+			["opened"] = 0,
+			["hide_on_combat"] = false,
+		},
+		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
+			["font_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["is_first_run"] = false,
+			["grow_direction"] = "right",
+			["arrow_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["main_frame_size"] = {
+				300, -- [1]
+				500.000030517578, -- [2]
+			},
+			["minimap"] = {
+				["minimapPos"] = 188.826245774609,
+				["radius"] = 160,
+				["hide"] = true,
+			},
+			["use_square_mode"] = false,
+			["arrow_anchor_x"] = 0,
+			["main_frame_locked"] = false,
+			["row_texture"] = "Details Serenity",
+			["arrow_anchor_y"] = 0,
+			["font_size"] = 10,
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["y"] = 4.57763671875e-05,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["author"] = "Details! Team",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["use_spark"] = true,
+			["per_second"] = {
+				["enabled"] = false,
+				["point"] = "CENTER",
+				["scale"] = 1,
+				["font_shadow"] = true,
+				["y"] = 3.0517578125e-05,
+				["x"] = 3.0517578125e-05,
+				["attribute_type"] = 1,
+				["update_speed"] = 0.05,
+				["size"] = 32,
+			},
+			["x"] = 0,
+			["font_face"] = "Friz Quadrata TT",
+			["square_size"] = 32,
+			["main_frame_strata"] = "LOW",
+			["point"] = "CENTER",
+			["row_height"] = 20,
+			["scale"] = 1,
+		},
+	},
+	["last_day"] = "20",
+	["on_death_menu"] = true,
+	["cd_tracker"] = {
+		["enabled"] = false,
+		["cds_enabled"] = {
+		},
+		["show_conditions"] = {
+			["only_inside_instance"] = true,
+			["only_in_group"] = true,
+		},
+		["pos"] = {
+		},
+	},
+	["last_encounter"] = "Kael'thas Sunstrider",
+	["ignore_nicktag"] = false,
+	["last_version"] = "v9.0.5.8357",
+	["last_instance_time"] = 1618921403,
+	["combat_id"] = 2,
+	["savedStyles"] = {
+	},
+	["force_font_outline"] = "",
+	["mythic_dungeon_currentsaved"] = {
+		["dungeon_name"] = "",
+		["started"] = false,
+		["segment_id"] = 0,
+		["ej_id"] = 0,
+		["started_at"] = 0,
+		["run_id"] = 0,
+		["level"] = 0,
+		["dungeon_zone_id"] = 0,
+		["previous_boss_killed_at"] = 0,
+	},
+	["announce_deaths"] = {
+		["enabled"] = false,
+		["last_hits"] = 1,
+		["only_first"] = 5,
+		["where"] = 1,
+	},
+	["tabela_overall"] = {
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["totalabsorbed"] = 0.012392,
+					["damage_from"] = {
+						["Kael'thas Sunstrider"] = true,
+						["Infinity Blades"] = true,
+						["Master Engineer Telonicus"] = true,
+						["Thaladred the Darkener"] = true,
+						["Lord Sanguinar"] = true,
+						["Grand Astromancer Capernian"] = true,
+						["Phaseshift Bulwark"] = true,
+						["Devastation"] = true,
+						["Netherstrand Longbow"] = true,
+						["Warp Slicer"] = true,
+					},
+					["targets"] = {
+						["Kael'thas Sunstrider"] = 1534016,
+						["Cosmic Infuser"] = 80405,
+						["Master Engineer Telonicus"] = 711074,
+						["Staff of Disintegration"] = 58438,
+						["Netherstrand Longbow"] = 140464,
+						["Infinity Blades"] = 79990,
+						["Lord Sanguinar"] = 259673,
+						["Devastation"] = 38366,
+						["Phaseshift Bulwark"] = 92937,
+						["Thaladred the Darkener"] = 507930,
+						["Grand Astromancer Capernian"] = 229925,
+						["Warp Slicer"] = 80525,
+					},
+					["pets"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["friendlyfire"] = {
+					},
+					["classe"] = "MONK",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 3813743.012392,
+					["end_time"] = 1618921740,
+					["boss_fight_component"] = true,
+					["dps_started"] = false,
+					["total"] = 3813743.012392,
+					["aID"] = "1301-09D0C889",
+					["last_event"] = 0,
+					["nome"] = "Phaltraxion",
+					["spec"] = 269,
+					["grupo"] = true,
+					["on_hold"] = false,
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 395287,
+								["g_amt"] = 0,
+								["n_max"] = 96121,
+								["targets"] = {
+									["Thaladred the Darkener"] = 293433,
+									["Kael'thas Sunstrider"] = 193839,
+									["Lord Sanguinar"] = 92239,
+									["Netherstrand Longbow"] = 92802,
+									["Master Engineer Telonicus"] = 94584,
+									["Grand Astromancer Capernian"] = 96121,
+								},
+								["n_dmg"] = 467731,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 7,
+								["total"] = 863018,
+								["c_max"] = 201448,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 5,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+							[185099] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 519595,
+								["targets"] = {
+									["Master Engineer Telonicus"] = 519595,
+								},
+								["n_dmg"] = 519595,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 519595,
+								["c_max"] = 0,
+								["id"] = 185099,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 1,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[100780] = {
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 236787,
+								["g_amt"] = 0,
+								["n_max"] = 58438,
+								["targets"] = {
+									["Thaladred the Darkener"] = 174916,
+									["Kael'thas Sunstrider"] = 117433,
+									["Lord Sanguinar"] = 47154,
+									["Staff of Disintegration"] = 58438,
+									["Netherstrand Longbow"] = 47662,
+									["Master Engineer Telonicus"] = 96895,
+									["Grand Astromancer Capernian"] = 49400,
+								},
+								["n_dmg"] = 355111,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 9,
+								["total"] = 591898,
+								["c_max"] = 119354,
+								["id"] = 100780,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 7,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[107270] = {
+								["c_amt"] = 4,
+								["b_amt"] = 1,
+								["c_dmg"] = 309186,
+								["g_amt"] = 0,
+								["n_max"] = 42598,
+								["targets"] = {
+									["Thaladred the Darkener"] = 39581,
+									["Grand Astromancer Capernian"] = 84404,
+									["Lord Sanguinar"] = 120280,
+									["Devastation"] = 38366,
+									["Phaseshift Bulwark"] = 92937,
+									["Infinity Blades"] = 79990,
+									["Cosmic Infuser"] = 80405,
+									["Warp Slicer"] = 80525,
+								},
+								["n_dmg"] = 307302,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 12,
+								["total"] = 616488,
+								["c_max"] = 80405,
+								["id"] = 107270,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 8,
+								["b_dmg"] = 23221,
+								["r_amt"] = 0,
+							},
+							[117418] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 410843,
+								["g_amt"] = 0,
+								["n_max"] = 205421,
+								["targets"] = {
+									["Kael'thas Sunstrider"] = 1222744,
+								},
+								["n_dmg"] = 811901,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 5,
+								["total"] = 1222744,
+								["c_max"] = 410843,
+								["id"] = 117418,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 4,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+					},
+					["serial"] = "Player-1301-09D0C889",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 90.012392,
+					["start_time"] = 1618921710,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [1]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 0.006593999999999999,
+					["damage_from"] = {
+						["Phaltraxion"] = true,
+					},
+					["targets"] = {
+						["Phaltraxion"] = 16,
+					},
+					["pets"] = {
+					},
+					["boss"] = true,
+					["on_hold"] = false,
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 16.006594,
+					["end_time"] = 1618921740,
+					["friendlyfire"] = {
+					},
+					["monster"] = true,
+					["total"] = 16.006594,
+					["aID"] = "20064",
+					["boss_fight_component"] = true,
+					["nome"] = "Thaladred the Darkener",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 2,
+								["targets"] = {
+									["Phaltraxion"] = 2,
+								},
+								["n_dmg"] = 2,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 2,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 1,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+							[20477] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 20477,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[36966] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 4,
+								["targets"] = {
+									["Phaltraxion"] = 4,
+								},
+								["n_dmg"] = 4,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 4,
+								["c_max"] = 0,
+								["id"] = 36966,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["a_amt"] = 0,
+								["n_amt"] = 1,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[36965] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 2,
+								["targets"] = {
+									["Phaltraxion"] = 10,
+								},
+								["n_dmg"] = 10,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 5,
+								["total"] = 10,
+								["c_max"] = 0,
+								["id"] = 36965,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["a_amt"] = 0,
+								["n_amt"] = 5,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+					},
+					["dps_started"] = false,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
+					["serial"] = "Creature-0-4251-550-10560-20064-00007EC7BB",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 507930.006594,
+					["start_time"] = 1618921719,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [2]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 0.013337,
+					["damage_from"] = {
+						["Phaltraxion"] = true,
+					},
+					["targets"] = {
+						["Phaltraxion"] = 5,
+					},
+					["on_hold"] = false,
+					["pets"] = {
+					},
+					["monster"] = true,
+					["aID"] = "20060",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 5.013337000000001,
+					["friendlyfire"] = {
+					},
+					["end_time"] = 1618921740,
+					["dps_started"] = false,
+					["total"] = 5.013337000000001,
+					["boss_fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["nome"] = "Lord Sanguinar",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 3,
+								["targets"] = {
+									["Phaltraxion"] = 5,
+								},
+								["n_dmg"] = 5,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 5,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 2,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+						},
+					},
+					["last_event"] = 0,
+					["friendlyfire_total"] = 0,
+					["serial"] = "Creature-0-4251-550-10560-20060-00007EC7BB",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1618921736,
+					["delay"] = 0,
+					["damage_taken"] = 259673.013337,
+				}, -- [3]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 0.013753,
+					["damage_from"] = {
+						["Phaltraxion"] = true,
+					},
+					["targets"] = {
+						["Phaltraxion"] = 6,
+					},
+					["on_hold"] = false,
+					["pets"] = {
+					},
+					["monster"] = true,
+					["aID"] = "20062",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 6.013753,
+					["friendlyfire"] = {
+					},
+					["end_time"] = 1618921740,
+					["dps_started"] = false,
+					["total"] = 6.013753,
+					["boss_fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["nome"] = "Grand Astromancer Capernian",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 1,
+								["targets"] = {
+									["Phaltraxion"] = 1,
+								},
+								["n_dmg"] = 1,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 1,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 1,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+							[36971] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 5,
+								["targets"] = {
+									["Phaltraxion"] = 5,
+								},
+								["n_dmg"] = 5,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 5,
+								["c_max"] = 0,
+								["id"] = 36971,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["a_amt"] = 0,
+								["n_amt"] = 1,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[36970] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 36970,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+					},
+					["last_event"] = 0,
+					["friendlyfire_total"] = 0,
+					["serial"] = "Creature-0-4251-550-10560-20062-00007EC7BB",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1618921734,
+					["delay"] = 0,
+					["damage_taken"] = 229925.013753,
+				}, -- [4]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 0.008697,
+					["damage_from"] = {
+						["Phaltraxion"] = true,
+					},
+					["targets"] = {
+						["Phaltraxion"] = 24,
+					},
+					["on_hold"] = false,
+					["pets"] = {
+					},
+					["monster"] = true,
+					["aID"] = "20063",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 24.008697,
+					["friendlyfire"] = {
+					},
+					["end_time"] = 1618921740,
+					["dps_started"] = false,
+					["total"] = 24.008697,
+					["boss_fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["nome"] = "Master Engineer Telonicus",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 2,
+								["targets"] = {
+									["Phaltraxion"] = 3,
+								},
+								["n_dmg"] = 3,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 3,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 2,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+							[37036] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 7,
+								["targets"] = {
+									["Phaltraxion"] = 21,
+								},
+								["n_dmg"] = 21,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["total"] = 21,
+								["c_max"] = 0,
+								["id"] = 37036,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 3,
+								["a_amt"] = 0,
+								["n_amt"] = 3,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[37027] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 37027,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+					},
+					["last_event"] = 0,
+					["friendlyfire_total"] = 0,
+					["serial"] = "Creature-0-4251-550-10560-20063-00007EC7BA",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1618921731,
+					["delay"] = 0,
+					["damage_taken"] = 711074.0086970001,
+				}, -- [5]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 0.014258,
+					["damage_from"] = {
+						["Phaltraxion"] = true,
+					},
+					["targets"] = {
+						["Phaltraxion"] = 2,
+					},
+					["on_hold"] = false,
+					["pets"] = {
+					},
+					["monster"] = true,
+					["aID"] = "21269",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 2.014258,
+					["friendlyfire"] = {
+					},
+					["end_time"] = 1618921740,
+					["dps_started"] = false,
+					["total"] = 2.014258,
+					["boss_fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["nome"] = "Devastation",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 2,
+								["targets"] = {
+									["Phaltraxion"] = 2,
+								},
+								["n_dmg"] = 2,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 4,
+								["total"] = 2,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["MISS"] = 3,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 1,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+							[36981] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 36981,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[36982] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Phaltraxion"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 36982,
+								["r_dmg"] = 0,
+								["MISS"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+					},
+					["last_event"] = 0,
+					["friendlyfire_total"] = 0,
+					["serial"] = "Creature-0-4251-550-10560-21269-00007EC869",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1618921724,
+					["delay"] = 0,
+					["damage_taken"] = 38366.014258,
+				}, -- [6]
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 0.010581,
+					["damage_from"] = {
+						["Phaltraxion"] = true,
+					},
+					["targets"] = {
+						["Phaltraxion"] = 1,
+					},
+					["on_hold"] = false,
+					["pets"] = {
+					},
+					["monster"] = true,
+					["aID"] = "21272",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 1.010581,
+					["friendlyfire"] = {
+					},
+					["end_time"] = 1618921740,
+					["dps_started"] = false,
+					["total"] = 1.010581,
+					["boss_fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["nome"] = "Warp Slicer",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 1,
+								["targets"] = {
+									["Phaltraxion"] = 1,
+								},
+								["n_dmg"] = 1,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 7,
+								["total"] = 1,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["MISS"] = 6,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 1,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+							[36991] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Phaltraxion"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 36991,
+								["r_dmg"] = 0,
+								["MISS"] = 2,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 2,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+					},
+					["last_event"] = 0,
+					["friendlyfire_total"] = 0,
+					["serial"] = "Creature-0-4251-550-10560-21272-00007EC869",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1618921736,
+					["delay"] = 0,
+					["damage_taken"] = 80525.010581,
+				}, -- [7]
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 0.013114,
+					["damage_from"] = {
+						["Phaltraxion"] = true,
+					},
+					["targets"] = {
+						["Phaltraxion"] = 9,
+					},
+					["on_hold"] = false,
+					["pets"] = {
+					},
+					["monster"] = true,
+					["aID"] = "21273",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 9.013114,
+					["friendlyfire"] = {
+					},
+					["end_time"] = 1618921740,
+					["dps_started"] = false,
+					["total"] = 9.013114,
+					["boss_fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["nome"] = "Phaseshift Bulwark",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 2,
+								["targets"] = {
+									["Phaltraxion"] = 9,
+								},
+								["n_dmg"] = 9,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 5,
+								["total"] = 9,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 5,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+						},
+					},
+					["last_event"] = 0,
+					["friendlyfire_total"] = 0,
+					["serial"] = "Creature-0-4251-550-10560-21273-00007EC869",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1618921724,
+					["delay"] = 0,
+					["damage_taken"] = 92937.013114,
+				}, -- [8]
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 0.004707,
+					["damage_from"] = {
+						["Phaltraxion"] = true,
+					},
+					["targets"] = {
+						["Phaltraxion"] = 3,
+					},
+					["on_hold"] = false,
+					["pets"] = {
+					},
+					["monster"] = true,
+					["aID"] = "21271",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 3.004707,
+					["friendlyfire"] = {
+					},
+					["end_time"] = 1618921740,
+					["dps_started"] = false,
+					["total"] = 3.004707,
+					["boss_fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["nome"] = "Infinity Blades",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 3,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Phaltraxion"] = 3,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 13,
+								["total"] = 3,
+								["c_max"] = 3,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["MISS"] = 12,
+								["extra"] = {
+									["extra_attack"] = 1,
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+							[3391] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 3391,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+					},
+					["last_event"] = 0,
+					["friendlyfire_total"] = 0,
+					["serial"] = "Creature-0-4251-550-10560-21271-00007EC869",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1618921732,
+					["delay"] = 0,
+					["damage_taken"] = 79990.004707,
+				}, -- [9]
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 0.007707,
+					["damage_from"] = {
+						["Phaltraxion"] = true,
+					},
+					["targets"] = {
+					},
+					["on_hold"] = false,
+					["pets"] = {
+					},
+					["monster"] = true,
+					["aID"] = "21270",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.007707,
+					["friendlyfire"] = {
+					},
+					["end_time"] = 1618921740,
+					["dps_started"] = false,
+					["total"] = 0.007707,
+					["boss_fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["nome"] = "Cosmic Infuser",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Phaltraxion"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 6,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["MISS"] = 4,
+								["DODGE"] = 2,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+							[36985] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Devastation"] = 0,
+									["Staff of Disintegration"] = 0,
+									["Phaltraxion"] = 0,
+									["Phaseshift Bulwark"] = 0,
+									["Infinity Blades"] = 0,
+									["Warp Slicer"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 12,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 36985,
+								["r_dmg"] = 0,
+								["MISS"] = 2,
+								["IMMUNE"] = 10,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 2,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+					},
+					["last_event"] = 0,
+					["friendlyfire_total"] = 0,
+					["serial"] = "Creature-0-4251-550-10560-21270-00007EC869",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1618921737,
+					["delay"] = 0,
+					["damage_taken"] = 80405.007707,
+				}, -- [10]
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 0.012126,
+					["damage_from"] = {
+						["Phaltraxion"] = true,
+					},
+					["targets"] = {
+					},
+					["on_hold"] = false,
+					["pets"] = {
+					},
+					["monster"] = true,
+					["aID"] = "21274",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.012126,
+					["friendlyfire"] = {
+					},
+					["end_time"] = 1618921740,
+					["dps_started"] = false,
+					["total"] = 0.012126,
+					["boss_fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["nome"] = "Staff of Disintegration",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							[36990] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Phaltraxion"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 5,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 36990,
+								["r_dmg"] = 0,
+								["MISS"] = 5,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 5,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+					},
+					["last_event"] = 0,
+					["friendlyfire_total"] = 0,
+					["serial"] = "Creature-0-4251-550-10560-21274-00007EC869",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1618921737,
+					["delay"] = 0,
+					["damage_taken"] = 58438.012126,
+				}, -- [11]
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 0.012849,
+					["damage_from"] = {
+						["Phaltraxion"] = true,
+					},
+					["targets"] = {
+						["Phaltraxion"] = 6,
+					},
+					["on_hold"] = false,
+					["pets"] = {
+					},
+					["monster"] = true,
+					["aID"] = "21268",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 6.012849,
+					["friendlyfire"] = {
+					},
+					["end_time"] = 1618921740,
+					["dps_started"] = false,
+					["total"] = 6.012849,
+					["boss_fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["nome"] = "Netherstrand Longbow",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							[36980] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 2,
+								["targets"] = {
+									["Phaltraxion"] = 6,
+								},
+								["n_dmg"] = 6,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 4,
+								["total"] = 6,
+								["c_max"] = 0,
+								["id"] = 36980,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 4,
+								["a_amt"] = 0,
+								["n_amt"] = 4,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+					},
+					["last_event"] = 0,
+					["friendlyfire_total"] = 0,
+					["serial"] = "Creature-0-4251-550-10560-21268-00007EC869",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1618921721,
+					["delay"] = 0,
+					["damage_taken"] = 140464.012849,
+				}, -- [12]
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 0.016495,
+					["damage_from"] = {
+						["Phaltraxion"] = true,
+					},
+					["targets"] = {
+						["Phaltraxion"] = 18,
+					},
+					["on_hold"] = false,
+					["pets"] = {
+					},
+					["monster"] = true,
+					["aID"] = "19622",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 18.016495,
+					["friendlyfire"] = {
+					},
+					["end_time"] = 1618921740,
+					["dps_started"] = false,
+					["total"] = 18.016495,
+					["boss_fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["nome"] = "Kael'thas Sunstrider",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 3,
+								["targets"] = {
+									["Phaltraxion"] = 6,
+								},
+								["n_dmg"] = 6,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 6,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 2,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+							[36805] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 12,
+								["targets"] = {
+									["Phaltraxion"] = 12,
+								},
+								["n_dmg"] = 12,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 12,
+								["c_max"] = 0,
+								["id"] = 36805,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["a_amt"] = 0,
+								["n_amt"] = 1,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+					},
+					["last_event"] = 0,
+					["friendlyfire_total"] = 0,
+					["serial"] = "Creature-0-4251-550-10560-19622-00007EC7BB",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1618921733,
+					["delay"] = 0,
+					["damage_taken"] = 1534016.016495,
+				}, -- [13]
+			},
+		}, -- [1]
+		{
+			["tipo"] = 3,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 2632,
+					["targets_overheal"] = {
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["classe"] = "UNKNOW",
+					["totalover"] = 0.010427,
+					["total_without_pet"] = 0.010427,
+					["monster"] = true,
+					["total"] = 0.010427,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+						[36985] = 0,
+					},
+					["on_hold"] = false,
+					["serial"] = "Creature-0-4251-550-10560-21270-00007EC869",
+					["totalabsorb"] = 0.010427,
+					["last_hps"] = 0,
+					["targets"] = {
+					},
+					["totalover_without_pet"] = 0.010427,
+					["healing_taken"] = 0.010427,
+					["end_time"] = 1618921740,
+					["boss_fight_component"] = true,
+					["healing_from"] = {
+					},
+					["nome"] = "Cosmic Infuser",
+					["spells"] = {
+						["tipo"] = 3,
+						["_ActorTable"] = {
+						},
+					},
+					["heal_enemy_amt"] = 0,
+					["last_event"] = 0,
+					["custom"] = 0,
+					["tipo"] = 2,
+					["aID"] = "21270",
+					["start_time"] = 1618921737,
+					["delay"] = 0,
+					["totaldenied"] = 0.010427,
+				}, -- [1]
+			},
+		}, -- [2]
+		{
+			["tipo"] = 7,
+			["_ActorTable"] = {
+				{
+					["received"] = 0.013312,
+					["resource"] = 8.013312,
+					["targets"] = {
+					},
+					["pets"] = {
+					},
+					["powertype"] = 0,
+					["resource_type"] = 12,
+					["classe"] = "MONK",
+					["passiveover"] = 0.004962,
+					["boss_fight_component"] = true,
+					["total"] = 0.013312,
+					["tipo"] = 3,
+					["totalover"] = 0.004962,
+					["nome"] = "Phaltraxion",
+					["spells"] = {
+						["tipo"] = 7,
+						["_ActorTable"] = {
+						},
+					},
+					["grupo"] = true,
+					["spec"] = 269,
+					["flag_original"] = 1297,
+					["alternatepower"] = 0.013312,
+					["last_event"] = 0,
+					["aID"] = "1301-09D0C889",
+					["serial"] = "Player-1301-09D0C889",
+				}, -- [1]
+			},
+		}, -- [3]
+		{
+			["tipo"] = 9,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1047,
+					["debuff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[113746] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 7,
+								["id"] = 113746,
+								["uptime"] = 200,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[228287] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 5,
+								["id"] = 228287,
+								["uptime"] = 54,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[115804] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 1,
+								["id"] = 115804,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["pets"] = {
+					},
+					["classe"] = "MONK",
+					["buff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[166646] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 166646,
+								["uptime"] = 203,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[186401] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 186401,
+								["uptime"] = 203,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[196741] = {
+								["refreshamt"] = 3,
+								["activedamt"] = 5,
+								["appliedamt"] = 5,
+								["id"] = 196741,
+								["uptime"] = 33,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[93795] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 93795,
+								["uptime"] = 203,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[261769] = {
+								["refreshamt"] = 6,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 261769,
+								["uptime"] = 18,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[113656] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 113656,
+								["uptime"] = 4,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["debuff_uptime"] = 254,
+					["debuff_uptime_targets"] = {
+					},
+					["boss_fight_component"] = true,
+					["spec"] = 269,
+					["grupo"] = true,
+					["spell_cast"] = {
+						[107428] = 1,
+						[100780] = 8,
+						[101546] = 2,
+						[113656] = 1,
+					},
+					["last_event"] = 0,
+					["buff_uptime_targets"] = {
+					},
+					["tipo"] = 4,
+					["buff_uptime"] = 664,
+					["nome"] = "Phaltraxion",
+					["serial"] = "Player-1301-09D0C889",
+					["aID"] = "1301-09D0C889",
+				}, -- [1]
+				{
+					["flag_original"] = 68168,
+					["boss_fight_component"] = true,
+					["monster"] = true,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["nome"] = "Grand Astromancer Capernian",
+					["tipo"] = 4,
+					["spell_cast"] = {
+						[36971] = 1,
+						[36970] = 1,
+					},
+					["aID"] = "20062",
+					["serial"] = "Creature-0-4251-550-10560-20062-00007EC7BB",
+					["last_event"] = 0,
+				}, -- [2]
+				{
+					["flag_original"] = 68168,
+					["boss_fight_component"] = true,
+					["monster"] = true,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["nome"] = "Master Engineer Telonicus",
+					["tipo"] = 4,
+					["spell_cast"] = {
+						[37036] = 3,
+						[37027] = 1,
+					},
+					["aID"] = "20063",
+					["serial"] = "Creature-0-4251-550-10560-20063-00007EC7BA",
+					["last_event"] = 0,
+				}, -- [3]
+				{
+					["flag_original"] = 2632,
+					["boss_fight_component"] = true,
+					["monster"] = true,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["nome"] = "Staff of Disintegration",
+					["tipo"] = 4,
+					["spell_cast"] = {
+						[36990] = 5,
+					},
+					["aID"] = "21274",
+					["serial"] = "Creature-0-4251-550-10560-21274-00007EC869",
+					["last_event"] = 0,
+				}, -- [4]
+				{
+					["flag_original"] = 2632,
+					["boss_fight_component"] = true,
+					["monster"] = true,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["nome"] = "Netherstrand Longbow",
+					["tipo"] = 4,
+					["spell_cast"] = {
+						[36980] = 4,
+					},
+					["aID"] = "21268",
+					["serial"] = "Creature-0-4251-550-10560-21268-00007EC869",
+					["last_event"] = 0,
+				}, -- [5]
+				{
+					["flag_original"] = 2632,
+					["boss_fight_component"] = true,
+					["monster"] = true,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["nome"] = "Cosmic Infuser",
+					["tipo"] = 4,
+					["spell_cast"] = {
+						[36985] = 2,
+					},
+					["aID"] = "21270",
+					["serial"] = "Creature-0-4251-550-10560-21270-00007EC869",
+					["last_event"] = 0,
+				}, -- [6]
+				{
+					["flag_original"] = 2632,
+					["boss_fight_component"] = true,
+					["monster"] = true,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["nome"] = "Warp Slicer",
+					["tipo"] = 4,
+					["spell_cast"] = {
+						[36991] = 2,
+					},
+					["aID"] = "21272",
+					["serial"] = "Creature-0-4251-550-10560-21272-00007EC869",
+					["last_event"] = 0,
+				}, -- [7]
+				{
+					["flag_original"] = 68168,
+					["boss_fight_component"] = true,
+					["monster"] = true,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["nome"] = "Devastation",
+					["tipo"] = 4,
+					["spell_cast"] = {
+						[36981] = 1,
+						[36982] = 1,
+					},
+					["aID"] = "21269",
+					["serial"] = "Creature-0-4251-550-10560-21269-00007EC869",
+					["last_event"] = 0,
+				}, -- [8]
+				{
+					["flag_original"] = 2632,
+					["boss_fight_component"] = true,
+					["monster"] = true,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["nome"] = "Infinity Blades",
+					["tipo"] = 4,
+					["spell_cast"] = {
+						[3391] = 1,
+					},
+					["aID"] = "21271",
+					["serial"] = "Creature-0-4251-550-10560-21271-00007EC869",
+					["last_event"] = 0,
+				}, -- [9]
+				{
+					["flag_original"] = 2632,
+					["boss_fight_component"] = true,
+					["monster"] = true,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["nome"] = "Thaladred the Darkener",
+					["tipo"] = 4,
+					["spell_cast"] = {
+						[20477] = 1,
+						[36966] = 1,
+						[36965] = 1,
+					},
+					["aID"] = "20064",
+					["serial"] = "Creature-0-4251-550-10560-20064-00007EC7BB",
+					["last_event"] = 0,
+				}, -- [10]
+				{
+					["flag_original"] = 2632,
+					["debuff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+						},
+					},
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["boss_debuff"] = true,
+					["monster"] = true,
+					["debuff_uptime"] = 0,
+					["spellschool"] = 64,
+					["debuff_uptime_targets"] = {
+						["Phaltraxion"] = {
+							["uptime"] = 0,
+							["appliedamt"] = 0,
+							["activedamt"] = 1,
+							["actived"] = false,
+							["refreshamt"] = 0,
+						},
+					},
+					["damage_spellid"] = 37027,
+					["boss_fight_component"] = true,
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["damage_twin"] = "Master Engineer Telonicus",
+					["nome"] = "Remote Toy",
+					["serial"] = "Creature-0-4251-550-10560-20063-00007EC7BA",
+					["aID"] = "20063",
+				}, -- [11]
+				{
+					["flag_original"] = 68168,
+					["debuff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+						},
+					},
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["boss_debuff"] = true,
+					["monster"] = true,
+					["debuff_uptime"] = 15,
+					["spellschool"] = 1,
+					["debuff_uptime_targets"] = {
+						["Phaltraxion"] = {
+							["uptime"] = 15,
+							["appliedamt"] = 0,
+							["activedamt"] = 0,
+							["actived"] = false,
+							["refreshamt"] = 0,
+						},
+					},
+					["damage_spellid"] = 36965,
+					["boss_fight_component"] = true,
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["damage_twin"] = "Thaladred the Darkener",
+					["nome"] = "Rend",
+					["serial"] = "Creature-0-4251-550-10560-20064-00007EC7BB",
+					["aID"] = "20064",
+				}, -- [12]
+				{
+					["flag_original"] = 68168,
+					["boss_fight_component"] = true,
+					["monster"] = true,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["nome"] = "Kael'thas Sunstrider",
+					["tipo"] = 4,
+					["spell_cast"] = {
+						[36805] = 1,
+					},
+					["aID"] = "19622",
+					["serial"] = "Creature-0-4251-550-10560-19622-00007EC7BB",
+					["last_event"] = 0,
+				}, -- [13]
+			},
+		}, -- [4]
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+			},
+		}, -- [5]
+		["raid_roster"] = {
+		},
+		["raid_roster_indexed"] = {
+		},
+		["tempo_start"] = 1618921407,
+		["last_events_tables"] = {
+		},
+		["alternate_power"] = {
+		},
+		["combat_counter"] = 1153,
+		["spells_cast_timeline"] = {
+		},
+		["totals"] = {
+			3813833.070420001, -- [1]
+			0.001552, -- [2]
+			{
+				0, -- [1]
+				[0] = 0.00835,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+			["frags_total"] = 0,
+			["voidzone_damage"] = 0,
+		},
+		["player_last_events"] = {
+		},
+		["frags_need_refresh"] = false,
+		["aura_timeline"] = {
+		},
+		["__call"] = {
+		},
+		["data_inicio"] = "15:25:37",
+		["end_time"] = 17860.028,
+		["cleu_events"] = {
+			["n"] = 1,
+		},
+		["segments_added"] = {
+			{
+				["elapsed"] = 237.0750000000007,
+				["type"] = 8,
+				["name"] = "Kael'thas Sunstrider",
+				["clock"] = "15:25:37",
+			}, -- [1]
+		},
+		["totals_grupo"] = {
+			3813743.003793, -- [1]
+			0, -- [2]
+			{
+				0, -- [1]
+				[0] = 0.00835,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+		},
+		["frags"] = {
+		},
+		["data_fim"] = "15:29:00",
+		["overall_enemy_name"] = "Kael'thas Sunstrider",
+		["CombatSkillCache"] = {
+		},
+		["cleu_timeline"] = {
+		},
+		["start_time"] = 17622.953,
+		["TimeData"] = {
+			["Raid Damage Done"] = {
+			},
+		},
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage_section"] = {
+			},
+			["damage"] = {
+			},
+		},
+	},
+	["SoloTablesSaved"] = {
+		["Mode"] = 1,
+	},
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["nick_tag_cache"] = {
+		["nextreset"] = 1619726348,
+		["last_version"] = 14,
+	},
+	["announce_cooldowns"] = {
+		["ignored_cooldowns"] = {
+		},
+		["enabled"] = false,
+		["custom"] = "",
+		["channel"] = "RAID",
+	},
+	["rank_window"] = {
+		["last_difficulty"] = 15,
+		["last_raid"] = "",
+	},
+	["announce_damagerecord"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["cached_specs"] = {
+		["Player-1301-09D0C889"] = 269,
+	},
+}

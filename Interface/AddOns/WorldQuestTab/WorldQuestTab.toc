@@ -1,0 +1,10 @@
+﻿## Interface: 90005
+## Title: World Quest Tab
+## Notes: Creates a new quest tab to keep track of world quests.
+## Author: LanceDH
+## Version: 9.0.08.2
+## SavedVariables: BWQDB
+
+WorldQuestTab.xml
+External\External.xml
+Settings.xml

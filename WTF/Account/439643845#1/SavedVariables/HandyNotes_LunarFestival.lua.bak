@@ -1,0 +1,24 @@
+
+HandyNotes_LunarFestivalDB = {
+	["profileKeys"] = {
+		["Asefawefad - Outland"] = "Default",
+		["Barbaxius - Outland"] = "Default",
+		["Tinkerflame - Outland"] = "Default",
+		["Phelanara - Outland"] = "Default",
+		["Xanthoros - Outland"] = "Default",
+		["Phaltraxion - Outland"] = "Default",
+		["Phaladinus - Outland"] = "Default",
+		["Illyana - Outland"] = "Default",
+		["Destruxia - Outland"] = "Default",
+		["Käguya - Turalyon"] = "Default",
+		["Afadsfasdfs - Outland"] = "Default",
+		["Serthaxion - Outland"] = "Default",
+		["Luminaxia - Outland"] = "Default",
+		["Shadroxia - Outland"] = "Default",
+		["Necrophagus - Outland"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

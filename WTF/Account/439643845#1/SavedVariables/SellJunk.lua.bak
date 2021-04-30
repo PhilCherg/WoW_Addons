@@ -1,0 +1,8 @@
+
+SellJunkDB = {
+	["profileKeys"] = {
+		["Necrophagus - Outland"] = "Necrophagus - Outland",
+		["Pharondus - Outland"] = "Pharondus - Outland",
+		["Phenos - Outland"] = "Phenos - Outland",
+	},
+}

@@ -1,0 +1,7 @@
+Auctionator: enabled
+AuctionatorMiniFeatures: enabled
+Postal: enabled
+WorldQuestTracker: enabled
+ElvUI_Config: enabled
+ElvUI: enabled
+ArtifactPowerUser: enabled

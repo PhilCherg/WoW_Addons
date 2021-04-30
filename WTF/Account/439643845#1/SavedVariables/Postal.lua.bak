@@ -1,0 +1,25 @@
+
+Postal3DB = {
+	["profileKeys"] = {
+		["Necrophagus - Outland"] = "Necrophagus - Outland",
+		["Pharondus - Outland"] = "Pharondus - Outland",
+		["Phenos - Outland"] = "Phenos - Outland",
+	},
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Necrophagus|Outland|Alliance|110|WARLOCK", -- [1]
+				"Pharondus|Outland|Alliance|7|HUNTER", -- [2]
+				"Phenos|Outland|Alliance|50|WARRIOR", -- [3]
+			},
+		},
+	},
+	["profiles"] = {
+		["Necrophagus - Outland"] = {
+		},
+		["Pharondus - Outland"] = {
+		},
+		["Phenos - Outland"] = {
+		},
+	},
+}

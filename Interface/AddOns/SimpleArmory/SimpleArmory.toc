@@ -1,0 +1,19 @@
+## Interface: 90001
+## Title: SimpleArmory
+## Version: 0.0.9
+## Notes: Addon companion for simplearmory.com
+## Author: Marko (kevin)
+## SavedVariables: SimpleArmory
+## OptionalDependencies: Ace3
+
+libs\LibStub\LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+#@no-lib-strip@
+libs\AceAddon-3.0\AceAddon-3.0.xml
+libs\AceConsole-3.0\AceConsole-3.0.xml
+libs\AceEvent-3.0\AceEvent-3.0.xml
+#@end-no-lib-strip@
+
+JSON.lua
+SimpleArmory.xml
+SimpleArmory.lua

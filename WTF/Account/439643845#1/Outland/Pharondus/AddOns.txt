@@ -1,0 +1,2 @@
+Scrap_Spotlight: disabled
+MoveAnything: disabled

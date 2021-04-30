@@ -1,0 +1,5 @@
+Details: enabled
+HandyNotes_Achievements: disabled
+HandyNotes: enabled
+GatherMate2: enabled
+GatherMate2_Data: enabled

@@ -1,0 +1,16 @@
+
+BtWQuests_Settings = {
+	["useTomTom"] = true,
+	["gridView"] = false,
+	["showMapPins"] = true,
+}
+BtWQuests_AutoLoad = {
+	["BtWQuestsTheBurningCrusade"] = false,
+	["BtWQuestsCataclysm"] = false,
+	["BtWQuestsWrathOfTheLichKing"] = false,
+	["BtWQuestsWarlordsOfDraenor"] = false,
+	["BtWQuestsLegion"] = false,
+	["BtWQuestsShadowlands"] = true,
+	["BtWQuestsMistsOfPandaria"] = false,
+	["BtWQuestsBattleForAzerothPrologue"] = false,
+}

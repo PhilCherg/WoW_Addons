@@ -1,0 +1,25 @@
+
+HandyNotesArathiDB = {
+	["profileKeys"] = {
+		["Bankeristor - Outland"] = "Default",
+		["Necropharia - Outland"] = "Default",
+		["Lianxia - Draenor"] = "Default",
+		["Phelanara - Outland"] = "Default",
+		["Xanthoros - Outland"] = "Default",
+		["Phaltraxion - Outland"] = "Default",
+		["Necrophagus - Outland"] = "Default",
+		["Illyana - Outland"] = "Default",
+		["Destruxia - Outland"] = "Default",
+		["Serthaxion - Outland"] = "Default",
+		["Tempgoddess - Outland"] = "Default",
+		["Shadroxia - Outland"] = "Default",
+		["Luminaxia - Outland"] = "Default",
+		["Asdawdwd - Outland"] = "Default",
+		["Elementior - Outland"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["hideKnowLoot"] = false,
+		},
+	},
+}

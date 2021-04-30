@@ -1,0 +1,9 @@
+## Interface: 90005
+## Author: XAM
+## Title: Unlimited Map Pin Distance
+## Version: 1.1.1
+## Notes: Removes the 1000 yard limit on pins
+## SavedVariables: UMPD
+
+UnlimitedMapPinDistance.lua
+UnlimitedMapPinDistanceOptions.lua

@@ -1,0 +1,26 @@
+
+Postal3DB = {
+	["profileKeys"] = {
+		["Gengariscool - Outland"] = "Gengariscool - Outland",
+		["Trodgar - Outland"] = "Trodgar - Outland",
+	},
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Gengariscool|Outland|Alliance|110|DEMONHUNTER", -- [1]
+				"Trodgar|Outland|Alliance|110|WARLOCK", -- [2]
+			},
+		},
+	},
+	["profiles"] = {
+		["Gengariscool - Outland"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Grarrosh|Outland|Alliance", -- [1]
+				},
+			},
+		},
+		["Trodgar - Outland"] = {
+		},
+	},
+}

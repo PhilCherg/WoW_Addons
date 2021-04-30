@@ -1,0 +1,2 @@
+
+AllTheThingsSettingsPerCharacter = nil
