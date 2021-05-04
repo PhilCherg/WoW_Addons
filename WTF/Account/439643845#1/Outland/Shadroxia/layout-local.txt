@@ -1,11 +1,4 @@
 Version: 1
-Frame: scanner_button
-FrameLevel: 200
-Anchor: CENTER
-X: 368
-Y: 35
-W: 200
-H: 50
 Frame: AllTheThings-Window-CurrentInstance
 FrameLevel: 1
 Anchor: LEFT
@@ -24,7 +17,7 @@ Frame: ObjectiveTrackerFrame
 FrameLevel: 1
 Anchor: BOTTOMRIGHT
 X: -7
-Y: -1
+Y: -27
 W: 235
 H: 802
 Frame: PlayerPowerBarAlt
@@ -111,6 +104,13 @@ X: 4
 Y: -12
 W: 800
 H: 496
+Frame: scanner_button
+FrameLevel: 200
+Anchor: CENTER
+X: 368
+Y: 35
+W: 200
+H: 50
 Frame: AllTheThings-Window-AuctionData
 FrameLevel: 2
 Anchor: RIGHT

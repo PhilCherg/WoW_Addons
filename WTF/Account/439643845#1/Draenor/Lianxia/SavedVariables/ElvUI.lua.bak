@@ -24,28 +24,6 @@ ElvCharacterDB = {
 	},
 	["ChatHistoryLog"] = {
 		{
-			"HEEEY", -- [1]
-			"Zalkion-Draenor", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Zalkion-Draenor", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2355, -- [11]
-			"Player-1403-09E82342", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Zalkion|r",
-			[51] = 1619625495,
-			[50] = "CHAT_MSG_YELL",
-		}, -- [1]
-		{
 			"Offering   <LEVEL UP B.O.O.S.T>  <15-50> -  <50-60> and |cff71d5ff|Hspell:290718:0|h[Aerial Unit R-21/X]|h|r |cff71d5ff|Hspell:261395:0|h[The Hivemind]|h|r |cff71d5ff|Hspell:148428:0|h[Ashhide Mushan Beast]|h|r", -- [1]
 			"Tauruíd-Draenor", -- [2]
 			"", -- [3]
@@ -66,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Tauruíd|r",
 			[51] = 1619626361,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
+		}, -- [1]
 		{
 			"Selling / 15 in time = Just 200k / 10 = 79k / 11 = 89k / 12 = 99k / 13 = 105k / 14 in time =  110k  / 16 in time 430K / 17 in time 620 Only Gold / KEYSTONE MASTER = 1520 / And we are recruiting new boosters  /W For more info", -- [1]
 			"Boostingd-Draenor", -- [2]
@@ -88,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaBoostingd|r",
 			[51] = 1619626362,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
+		}, -- [2]
 		{
 			"WTS  : M+ (Keys  +15 = 200K / +14 = 110K /+16 = 430K / +17=620K  in time ) Keymaster :1480K /w  for more info", -- [1]
 			"Windroare-Draenor", -- [2]
@@ -110,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Windroare|r",
 			[51] = 1619626362,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
+		}, -- [3]
 		{
 			"<NOVA> is Offring Castle Nathria HC (10/10 270Kk) Last boss 40k  -Trader for 120k  / [Mythic 0-15  Shared loot + Armor Stack ][+15 200k /  +10  79Kk / +14 110k ]  /W For More !", -- [1]
 			"Novaalpas-Draenor", -- [2]
@@ -132,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNovaalpas|r",
 			[51] = 1619626363,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
+		}, -- [4]
 		{
 			"<NOVA> <M15=180k-200k> <M14=100k-110k>  |cff66bbff|Hjournal:0:1190:14|h[Castle Nathria]|h|r 10/10HC 270k VIP <Trader130k> <4x14=360k> <4x15=648k> <M12=100k> <M10=79k>  <2x More get your Discount > <2xfree armor stack> |cffffff00|Hachievement:14532:Player-1403-09DB34E0:0:0:0:-1:0:0:0:0|h[Shadowlands Keystone Master: Season One]|h|r <1490k>  <M15=180k>", -- [1]
 			"Novalex-Draenor", -- [2]
@@ -154,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novalex|r",
 			[51] = 1619626364,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
+		}, -- [5]
 		{
 			"<AEDRIN> WTS10-16  |cffffff00|Hachievement:14532:Player-3674-093CA626:1:2:19:21:4294967295:4294967295:4294967295:4294967295|h[Shadowlands Keystone Master: Season One]|h|r /HC LAST BOSS-LVLING w ! ONLY GOLD", -- [1]
 			"Alevadam-Draenor", -- [2]
@@ -176,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaAlevadam|r",
 			[51] = 1619626365,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
+		}, -- [6]
 		{
 			"<Paradise>  Offering HC |cff66bbff|Hjournal:1:2425:14|h[Stone Legion Generals]|h|r + |cff66bbff|Hjournal:1:2424:14|h[Sire Denathrius]|h|r Curve Boosts . Get Your Curve Achi  & 220+ İlvl İtem & Weapon Token ! ONLY FOR GOLD /w For More İnfo.", -- [1]
 			"Kosstokk-Draenor", -- [2]
@@ -198,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Kosstokk|r",
 			[51] = 1619626367,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
+		}, -- [7]
 		{
 			"<Icecrown> WTS  <+10= 80K> || <+12= 100K> || <+14= 110K> || <+15 =200K> || <4x +10=285K>--<4x +12=350k> -- <4x +14= 400K> -- <4x +15= 790K> -- < Keystone Master 1550K > -- <PvP Rating, Torghast & More> --  /w me <3", -- [1]
 			"Iccdark-Draenor", -- [2]
@@ -220,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Iccdark|r",
 			[51] = 1619626368,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
+		}, -- [8]
 		{
 			"<NOVA> Castle Nathria Raid HC 10/10 270K <Trader 130K>! Curve 40K! SLG 50K Every 30min! <<KeyStoneMaster =1490K>>! <M+15=180-200K> <M+14=100-110K>,<4xM14=360K>, Multi Run Discout! ||Mythic Raid 10/10 VIP 7700K , RBG  , Arena ,Torghast /w me", -- [1]
 			"Novasup-Draenor", -- [2]
@@ -242,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novasup|r",
 			[51] = 1619626368,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
+		}, -- [9]
 		{
 			"<Sylvanas Community> +15 FOR ONLY 205K /+10 for 80k ,Buy x2 runs and get FREE ARMOR STACK/Discounts on 3runs or more /+12 100k/+14 110k/Keystone Master 1.49M/Torghast/TONIGT HC (PL/VIP) Castle Nathria & Mythic Raid", -- [1]
 			"Lànàà-Draenor", -- [2]
@@ -264,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaLànàà|r",
 			[51] = 1619626368,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
+		}, -- [10]
 		{
 			"|cffffffff|Hitem:5863::::::::60:104:::::::|h[Guild Charter]|h|r 500gold for accept", -- [1]
 			"Shaxter-Draenor", -- [2]
@@ -286,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shaxter|r",
 			[51] = 1619626368,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
+		}, -- [11]
 		{
 			"<Dawn> [WTS]|cffffff00|Hachievement:14717:Player-1403-082618ED:1:3:20:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: Castle Nathria]|h|r10/10 HC 250k <VIP125K>|cffffff00|Hachievement:14532:Player-1403-082618ED:1:4:27:21:4294967295:4294967295:4294967295:4294967295|h[Shadowlands Keystone Master: Season One]|h|r 1500k || <Armor Stack> <M+14 110k> ||<<M+15 205k>>|| M+16/20 inTime || Torghast & LvlUp Boost 51/60 ||+Discount", -- [1]
 			"Toheavy-Draenor", -- [2]
@@ -308,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cToheavy|r",
 			[51] = 1619626369,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
+		}, -- [12]
 		{
 			"SYLVANAS BOOSTING COMMUNITY {WTS} mythic + {0-18) +15 <205k> +14 <110k> +12 <100k> 3x+15 <599k> discount on multiple runs , castle nathria full heroic <275k>  ,mythic castle narthia [7700k]with free 2 vip , last 2 bosses 85k, torg /w me for more info ", -- [1]
 			"Oddiinn-Draenor", -- [2]
@@ -330,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edOddiinn|r",
 			[51] = 1619626369,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
+		}, -- [13]
 		{
 			"<Dawn> [WTS] |cff66bbff|Hjournal:0:1190:16|h[Castle Nathria]|h|r<MYTHIC 7/10  3m   10/10  7.7M+2Free Trader>  <HC10/10 250k>  <LootShare 370k>  <VIP Traders>  <Sire 40k> INTIME  <M+10-22><M+14 110k> <M+15 205k>  <4x14 374k > <KSM 1500k>  <PVP 0-2400>", -- [1]
 			"Dawnadvertis-Draenor", -- [2]
@@ -352,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Dawnadvertis|r",
 			[51] = 1619626371,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
+		}, -- [14]
 		{
 			"<Dawn> |cff66bbff|Hjournal:0:1190:14|h[Castle Nathria]|h|r ||Mythic 7/10 3m  10/10  7.7M +2Free Trader|| ||HC 10/10  250k || LootShare 370k || VIP Traders 125k || <Sire 40k> INTIME <M+10-22> <M14 110k>  <M15 205k> <4x14 374k>  <KSM 1500k>||PVP 0-2400||", -- [1]
 			"Dawnadverte-Draenor", -- [2]
@@ -374,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDawnadverte|r",
 			[51] = 1619626371,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
+		}, -- [15]
 		{
 			"< NOVA > is OFFERING || KSM 1490K |||| M+10 79K |||| M+12 99K|||| M+14 110K |||| M+15 200K |||| Multiple Run Free Stack And Discount |||| MYTHIC CASTLE |||| HC CASTLE 270K Trader 130K, 120K if multi trader |||| Thorghast boosts /w for info now!", -- [1]
 			"Novashino-Draenor", -- [2]
@@ -396,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaNovashino|r",
 			[51] = 1619626371,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
+		}, -- [16]
 		{
 			"<ICECROWN> WTS M+0 to +20 HOT DEALS [M+10 80K][M+12 100K][M+14 100K][M+15 220K] 4x14 400K 4x15 840K Free armor stack for 2 runs **KSM 1.650k** !! Also HC and Mythic CN runs !! only for gold !!/w for more information", -- [1]
 			"Iccînglor-Draenor", -- [2]
@@ -418,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcIccînglor|r",
 			[51] = 1619626371,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
+		}, -- [17]
 		{
 			"<NOVA> OFFERING  |cffffff00|Hachievement:14532:Player-1403-09E515DA:0:0:0:-1:0:0:0:0|h[Shadowlands Keystone Master: Season One]|h|r 1490K! <M15=180-200K> <M14=100-110K>, 2x FREE ARMOR STACK , Heroic Full clear 270 <Trader 130K>!!Curve 40K || SLG 50K|| Mythic Raid 7.7mil! ,Torghast, Rbg ,Arena ", -- [1]
 			"Novadaddy-Draenor", -- [2]
@@ -440,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Novadaddy|r",
 			[51] = 1619626372,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
+		}, -- [18]
 		{
 			"<NOVA>|cff66bbff|Hjournal:0:1190:16|h[Castle Nathria]|h|r10/10HC 270k VIP Trader130k> <M15=180k-200k> <M14=100k-110k> <4x14=360k> <4x15=648k> <M12=100k> <M10=79k> <2x More get your Discount > <2xfree armor stack> |cffffff00|Hachievement:14532:Player-1403-09DB34E0:0:0:0:-1:0:0:0:0|h[Shadowlands Keystone Master: Season One]|h|r 1490k w/me for info !<M15=180k>", -- [1]
 			"Novazingoo-Draenor", -- [2]
@@ -462,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novazingoo|r",
 			[51] = 1619626373,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
+		}, -- [19]
 		{
 			"WTS any \"M0-20\" Armorstack /-->CASTLE<-- HC with VIP / Legacy achievements and mounts / Torghast / lvlup /w me", -- [1]
 			"Fixermaan-Draenor", -- [2]
@@ -484,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcFixermaan|r",
 			[51] = 1619626374,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
+		}, -- [20]
 		{
 			"<Sylvanas> Selling M+10-22 ||   Keystone master=1490k  ||  M+15 = 200k  ||  M+ 14 = 100k  ||  M+12 = 100k  || M+10 = 80k || Got discounts on multiple runs|| Also offering [Castle Nathria] Mythic/hc 10/10 /w me for more", -- [1]
 			"Ashleý-Draenor", -- [2]
@@ -506,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAshleý|r",
 			[51] = 1619626374,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
+		}, -- [21]
 		{
 			"< NOVA > is OFFERING || KSM 1490K |||| M+10 79K |||| M+12 99K|||| M+14 110K |||| M+15 205K |||| Multiple Run Free Stack And Discount |||| MYTHIC CASTLE |||| HC CASTLE 270K Trader 130K, 120K if multi trader |||| Thorghast boosts /w for info now!", -- [1]
 			"Novahand-Draenor", -- [2]
@@ -528,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Novahand|r",
 			[51] = 1619626374,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
+		}, -- [22]
 		{
 			"SYLVANAS SELLING 15 210k / +14 = 115 k in time guaranteed 5x15=945k only/KSM  1540k / 2 last boss every 20min / full |cff66bbff|Hjournal:0:1190:14|h[Castle Nathria]|h|r only at 250k/w me for more info !", -- [1]
 			"Silviananas-Draenor", -- [2]
@@ -550,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcSilviananas|r",
 			[51] = 1619626375,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
+		}, -- [23]
 		{
 			"LF a tailor", -- [1]
 			"Kojical-Draenor", -- [2]
@@ -572,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaKojical|r",
 			[51] = 1619626375,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
+		}, -- [24]
 		{
 			"<NOVA> OFFERING <|cff66bbff|Hjournal:0:1190:14|h[Castle Nathria]|h|r 10/10 HC 270k-VIP Trader130k><SIRE 40K><M15=180k-200k><M14=100k-110k> <4x14=360k><4x15=648k><M12=100k><M10=79k><2xfree armor stack><|cffffff00|Hachievement:14532:Player-1403-09E7E656:0:0:0:0:0:0:0:0|h[Shadowlands Keystone Master: Season One]|h|r1490k> <Torghast><pvp><Leveling>/w me for info", -- [1]
 			"Bestofferr-Draenor", -- [2]
@@ -594,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Bestofferr|r",
 			[51] = 1619626375,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
+		}, -- [25]
 		{
 			"<NOVA>  [M+15 = 180k] [Weekly M14 = 100k] Mega discount in 2x,3x,4x runs! |cffffff00|Hachievement:14532:Player-3674-0A5336FB:1:2:5:21:4294967295:4294967295:4294967295:4294967295|h[Shadowlands Keystone Master: Season One]|h|r  = 1490k.  Only for gold:)", -- [1]
 			"Jennyfear-Draenor", -- [2]
@@ -616,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Jennyfear|r",
 			[51] = 1619626376,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
+		}, -- [26]
 		{
 			"<<<<  M+15=200K INTIME >>>  // *** SYLVANAS *** //  3x15 = 570k  // |cff66bbff|Hjournal:1:2424:15|h[Sire Denathrius]|h|r + Generals HC \" 85k \" ///   5x+15=900k   ///   KEYSTONE MASTER   /// Castle Nathria Full HC + Trader & Mythic   // whis info", -- [1]
 			"Qalien-Draenor", -- [2]
@@ -638,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Qalien|r",
 			[51] = 1619626380,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
+		}, -- [27]
 		{
 			"(( M+15 = 200k intime + Loot ))  << SYLVANAS >>  (( M+14=100k ))  <>  M+12=90k  <>   5x12=400k  <>  3x15 = 570k   /   5x15=900k  <>  RUNS WITH LOOT <>\"|cff66bbff|Hjournal:0:1190:14|h[Castle Nathria]|h|r \"230K\"/ \"KEYSTONE Master \"1.4M\" / w Me", -- [1]
 			"Drnboost-Draenor", -- [2]
@@ -660,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcDrnboost|r",
 			[51] = 1619626380,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
+		}, -- [28]
 		{
 			"Sylvanas Community Selling||M+0-22||+10 80k||+14 115k||+15 210k on time||Keystone Master1540k||10/10 Heroic/Mythic PL/VIP TRADERS||Torghast||Mythic Raid||Discount on multi run||Leveling boost.", -- [1]
 			"Ccommando-Draenor", -- [2]
@@ -682,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaCcommando|r",
 			[51] = 1619626384,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
+		}, -- [29]
 		{
 			"WTS |cffa335ee|Hitem:183031::::::::60:71::4:5:7186:6652:7193:1459:6646:1:28:750:::|h[Soldier's Stoneband Wristguards]|h|r /w Price!!", -- [1]
 			"Wøøzy-Draenor", -- [2]
@@ -704,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWøøzy|r",
 			[51] = 1619626389,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
+		}, -- [30]
 		{
 			"<NOVA> || HEROIC  Castle Nathria 270k, || Trader 130k || Sire Heroic 40k || Mythic Castel Nathria 15% Off || 8/10 Heroic 230k|| [M+10 - 79k] [M+12 - 99k] [M+14 100k] [M+15 180k] [KeyStone Master 1490k]  Bulk Discount For Muli Runs", -- [1]
 			"Inoval-Draenor", -- [2]
@@ -726,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Inoval|r",
 			[51] = 1619626393,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
+		}, -- [31]
 		{
 			"<<NOVA>> OFFERING TODAY HEROIC  Castle Nathria Full Run 270k Trader 130k || || SIRE HC 40k || || MYTHIC Castle Nathria || || M+10=79k || || M+12=99k || || M+14=100k || || M+15=180k || || Multi Run Free Stack+Discount || || KeyStone Master 1490k ||", -- [1]
 			"Novahp-Draenor", -- [2]
@@ -748,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novahp|r",
 			[51] = 1619626397,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
+		}, -- [32]
 		{
 			"<\"Nova\"> OFFERING TODAY  ||  <HEROIC Castle Nathria 270k  Trader 130k> STARTING NOW ||  <MYTHIC Castle Nathria>  ||  <M+10=79k>  ||  <M+12=99k>  || <M+14=100k>  ||  <M+15=180k>  ||  <KEYSTONE MASTER=1490k>  ||", -- [1]
 			"Trickyshotq-Draenor", -- [2]
@@ -770,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Trickyshotq|r",
 			[51] = 1619626400,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
+		}, -- [33]
 		{
 			"<NOVA>RAID DEALS Sire=40k Last2=85k||CN HC 10/10=270k||VIP(personal trader)=130k 2 or more 120k each||CN MYTHIC  SALES||+10=79k +12=99k +14=100k(weekly)/110k(timed) +15=180k(weekly)/200k(timed) or any m+||KSM=1490k||Torghast||PVP and more/w me for info", -- [1]
 			"Jrswish-Draenor", -- [2]
@@ -792,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaJrswish|r",
 			[51] = 1619626401,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
+		}, -- [34]
 		{
 			"need 2  ppl for mythic expeditions", -- [1]
 			"Fraudin-Draenor", -- [2]
@@ -814,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Fraudin|r",
 			[51] = 1619626443,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
+		}, -- [35]
 		{
 			"Anyone need the Dark Chronilcer?  Says its a 3 person mob, I am but one lowly rogue", -- [1]
 			"Límbo-Turalyon", -- [2]
@@ -836,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Límbo-Turalyon|r",
 			[51] = 1619626669,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
+		}, -- [36]
 		{
 			"kill him like a man", -- [1]
 			"Azuminakama-Lightbringer", -- [2]
@@ -858,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaAzuminakama-Lightbringer|r",
 			[51] = 1619626694,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
+		}, -- [37]
 		{
 			"lol", -- [1]
 			"Límbo-Turalyon", -- [2]
@@ -880,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Límbo-Turalyon|r",
 			[51] = 1619626701,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
+		}, -- [38]
 		{
 			"Kill him gently", -- [1]
 			"Sneckeruu-Turalyon", -- [2]
@@ -902,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaSneckeruu-Turalyon|r",
 			[51] = 1619626719,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
+		}, -- [39]
 		{
 			"1 person for mythic island exp", -- [1]
 			"Fraudin-Draenor", -- [2]
@@ -924,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Fraudin|r",
 			[51] = 1619626725,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
+		}, -- [40]
 		{
 			"Yasss", -- [1]
 			"Azuminakama-Lightbringer", -- [2]
@@ -946,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaAzuminakama-Lightbringer|r",
 			[51] = 1619626725,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
+		}, -- [41]
 		{
 			"He looks angry", -- [1]
 			"Límbo-Turalyon", -- [2]
@@ -968,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Límbo-Turalyon|r",
 			[51] = 1619626730,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
+		}, -- [42]
 		{
 			"Whisper soflty in his ear", -- [1]
 			"Hopeofbacon-Doomhammer", -- [2]
@@ -990,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHopeofbacon-Doomhammer|r",
 			[51] = 1619626731,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
+		}, -- [43]
 		{
 			"Killing them softly", -- [1]
 			"Azuminakama-Lightbringer", -- [2]
@@ -1012,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaAzuminakama-Lightbringer|r",
 			[51] = 1619626735,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [44]
 		{
 			"I killed him like a man", -- [1]
 			"Límbo-Turalyon", -- [2]
@@ -1034,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Límbo-Turalyon|r",
 			[51] = 1619626993,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
+		}, -- [45]
 		{
 			"We are all proud on you", -- [1]
 			"Hopeofbacon-Doomhammer", -- [2]
@@ -1056,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHopeofbacon-Doomhammer|r",
 			[51] = 1619627016,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
+		}, -- [46]
 		{
 			"Congrats! You are now a man. ", -- [1]
 			"Azuminakama-Lightbringer", -- [2]
@@ -1078,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaAzuminakama-Lightbringer|r",
 			[51] = 1619627028,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [47]
 		{
 			"what do i get?", -- [1]
 			"Límbo-Turalyon", -- [2]
@@ -1100,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Límbo-Turalyon|r",
 			[51] = 1619627036,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+		}, -- [48]
 		{
 			"Now, go out there, son. And free the world!", -- [1]
 			"Azuminakama-Lightbringer", -- [2]
@@ -1122,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaAzuminakama-Lightbringer|r",
 			[51] = 1619627039,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
+		}, -- [49]
 		{
 			"Sylvanas Communtiy > M+15 Is 205k In time << M+14 is 110k > 4x15 is 738k < Specific key - M+12 is 100k - >>>   Keystone Master Is 1490k     <<<< 4x14 Is 396k >> 3x15 is 584k <<M+10 is 80k <<  Torghast  - Level up - Full run raid is 250k/Vip", -- [1]
 			"Naassimaa-Draenor", -- [2]
@@ -1144,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Naassimaa|r",
 			[51] = 1619627068,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
+		}, -- [50]
 		{
 			"<Sylvanas> Selling M+10-22 ||   Keystone master=1490k  ||  M+15 = 200k  ||  M+ 14 = 100k  ||  M+12 = 100k  || M+10 = 80k || Got discounts on multiple runs|| Also offering [Castle Nathria] Mythic/hc 10/10 /w me for more", -- [1]
 			"Ashleý-Draenor", -- [2]
@@ -1166,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAshleý|r",
 			[51] = 1619627068,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [51]
 		{
 			"<Dawn> [WTS]|cffffff00|Hachievement:14717:Player-1403-082618ED:1:3:20:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: Castle Nathria]|h|r10/10 HC 250k <VIP125K>|cffffff00|Hachievement:14532:Player-1403-082618ED:1:4:27:21:4294967295:4294967295:4294967295:4294967295|h[Shadowlands Keystone Master: Season One]|h|r 1500k || <Armor Stack> <M+14 110k> ||<<M+15 205k>>|| M+16/20 inTime || Torghast & LvlUp Boost 51/60 ||+Discount", -- [1]
 			"Toheavy-Draenor", -- [2]
@@ -1188,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cToheavy|r",
 			[51] = 1619627069,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [52]
 		{
 			"<NOVA> OFFERING <|cff66bbff|Hjournal:0:1190:14|h[Castle Nathria]|h|r 10/10 HC 270k-VIP Trader130k><SIRE 40K><M15=180k-200k><M14=100k-110k> <4x14=360k><4x15=648k><M12=100k><M10=79k><2xfree armor stack><|cffffff00|Hachievement:14532:Player-1403-09E7E656:0:0:0:0:0:0:0:0|h[Shadowlands Keystone Master: Season One]|h|r1490k> <Torghast><pvp><Leveling>/w me for info", -- [1]
 			"Bestofferr-Draenor", -- [2]
@@ -1210,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Bestofferr|r",
 			[51] = 1619627069,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [53]
 		{
 			"< NOVA > is OFFERING || KSM 1490K |||| M+10 79K |||| M+12 99K|||| M+14 110K |||| M+15 205K |||| Multiple Run Free Stack And Discount |||| MYTHIC CASTLE |||| HC CASTLE 270K Trader 130K, 120K if multi trader |||| Thorghast boosts /w for info now!", -- [1]
 			"Novahand-Draenor", -- [2]
@@ -1232,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Novahand|r",
 			[51] = 1619627069,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [54]
 		{
 			"<NOVA> Castle Nathria Raid HC 10/10 270K <Trader 130K>! Curve 40K! SLG 50K Every 30min! <<KeyStoneMaster =1490K>>! <M+15=180-200K> <M+14=100-110K>,<4xM14=360K>, Multi Run Discout! ||Mythic Raid 10/10 VIP 7700K , RBG  , Arena ,Torghast /w me", -- [1]
 			"Novasup-Draenor", -- [2]
@@ -1254,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novasup|r",
 			[51] = 1619627069,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
+		}, -- [55]
 		{
 			"<NOVA> <M15=180k-200k> <M14=100k-110k>  |cff66bbff|Hjournal:0:1190:14|h[Castle Nathria]|h|r 10/10HC 270k VIP <Trader130k> <4x14=360k> <4x15=648k> <M12=100k> <M10=79k>  <2x More get your Discount > <2xfree armor stack> |cffffff00|Hachievement:14532:Player-1403-09DB34E0:0:0:0:-1:0:0:0:0|h[Shadowlands Keystone Master: Season One]|h|r <1490k>  <M15=180k>", -- [1]
 			"Novalex-Draenor", -- [2]
@@ -1276,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novalex|r",
 			[51] = 1619627069,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
+		}, -- [56]
 		{
 			"Selling / 15 in time = Just 200k / 10 = 79k / 11 = 89k / 12 = 99k / 13 = 105k / 14 in time =  110k  / 16 in time 430K / 17 in time 620 Only Gold / KEYSTONE MASTER = 1520 / And we are recruiting new boosters  /W For more info", -- [1]
 			"Boostingd-Draenor", -- [2]
@@ -1298,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaBoostingd|r",
 			[51] = 1619627071,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [57]
 		{
 			"<NOVA>  [M+15 = 180k] [Weekly M14 = 100k] Mega discount in 2x,3x,4x runs! |cffffff00|Hachievement:14532:Player-3674-0A5336FB:1:2:5:21:4294967295:4294967295:4294967295:4294967295|h[Shadowlands Keystone Master: Season One]|h|r  = 1490k.  Only for gold:)", -- [1]
 			"Jennyfear-Draenor", -- [2]
@@ -1320,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Jennyfear|r",
 			[51] = 1619627074,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [58]
 		{
 			"<ICECROWN> 10-15M+ || KSM || 50-60 boost || Legacy Boost || Torghast 1-8 || 0-2100 rating || |cff66bbff|Hjournal:0:1190:14|h[Castle Nathria]|h|r HC10/10 > VIPS || M10/10 > VIPS ||   Gold Only - message me", -- [1]
 			"Xefydk-Draenor", -- [2]
@@ -1342,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Xefydk|r",
 			[51] = 1619627074,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [59]
 		{
 			"<AEDRIN> WTS10-16  |cffffff00|Hachievement:14532:Player-3674-093CA626:1:2:19:21:4294967295:4294967295:4294967295:4294967295|h[Shadowlands Keystone Master: Season One]|h|r /HC LAST BOSS-LVLING w ! ONLY GOLD", -- [1]
 			"Alevadam-Draenor", -- [2]
@@ -1364,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaAlevadam|r",
 			[51] = 1619627075,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [60]
 		{
 			"<DAWN> WTS |cff66bbff|Hjournal:0:1190:14|h[Castle Nathria]|h|r <MYTHIC OR HC 10/10 250k 1x VIP 420k>  iLVL 226 VAULT  < M+ IN TIME 0-24 >  < M+15 205k >  < M+14 110k >  < M+12 100k > <M+10 80k> >>> 2x RUNS 10% OFF 3x 12.5% 4x 15%<<< >KSM< 1520k <4x +15 714k><TORGHAST 2x L8 150k> GOLD ONLY", -- [1]
 			"Renektonton-Draenor", -- [2]
@@ -1386,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaRenektonton|r",
 			[51] = 1619627076,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [61]
 		{
 			"<Icecrown> WTS  <+10= 80K> || <+12= 100K> || <+14= 110K> || <+15 =200K> || <4x +10=285K>--<4x +12=350k> -- <4x +14= 400K> -- <4x +15= 790K> -- < Keystone Master 1550K > -- <PvP Rating, Torghast & More> --  /w me <3", -- [1]
 			"Iccdark-Draenor", -- [2]
@@ -1408,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Iccdark|r",
 			[51] = 1619627078,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [62]
 		{
 			"<<<<  M+15=205K INTIME >>>  // *** SYLVANAS *** //  3x15 = 584k  // |cff66bbff|Hjournal:1:2424:15|h[Sire Denathrius]|h|r + Generals HC \" 85k \" ///   5x+15=920k   ///   KEYSTONE MASTER   /// Castle Nathria Full HC + Trader & Mythic   // whis info", -- [1]
 			"Qalien-Draenor", -- [2]
@@ -1430,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Qalien|r",
 			[51] = 1619627078,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [63]
 		{
 			"(( M+15 = 200k intime + Loot ))  << SYLVANAS >>  (( M+14=100k ))  <>  M+12=90k  <>   5x12=400k  <>  3x15 = 570k   /   5x15=900k  <>  RUNS WITH LOOT <>\"|cff66bbff|Hjournal:0:1190:14|h[Castle Nathria]|h|r \"230K\"/ \"KEYSTONE Master \"1.4M\" / w Me", -- [1]
 			"Drnboost-Draenor", -- [2]
@@ -1452,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcDrnboost|r",
 			[51] = 1619627078,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [64]
 		{
 			"<NOVA>|cff66bbff|Hjournal:0:1190:16|h[Castle Nathria]|h|r10/10HC 270k VIP Trader130k> <M15=180k-200k> <M14=100k-110k> <4x14=360k> <4x15=648k> <M12=100k> <M10=79k> <2x More get your Discount > <2xfree armor stack> |cffffff00|Hachievement:14532:Player-1403-09DB34E0:0:0:0:-1:0:0:0:0|h[Shadowlands Keystone Master: Season One]|h|r 1490k w/me for info !<M15=180k>", -- [1]
 			"Novazingoo-Draenor", -- [2]
@@ -1474,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novazingoo|r",
 			[51] = 1619627079,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [65]
 		{
 			"<Paradise>  Offering HC |cff66bbff|Hjournal:1:2425:14|h[Stone Legion Generals]|h|r + |cff66bbff|Hjournal:1:2424:14|h[Sire Denathrius]|h|r Curve Boosts . Get Your Curve Achi  & 220+ İlvl İtem & Weapon Token ! ONLY FOR GOLD /w For More İnfo.", -- [1]
 			"Kosstokk-Draenor", -- [2]
@@ -1496,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Kosstokk|r",
 			[51] = 1619627079,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [66]
 		{
 			"<<NOVA>> OFFERING TODAY HEROIC  Castle Nathria Full Run 270k Trader 130k || || SIRE HC 40k || || MYTHIC Castle Nathria || || M+10=79k || || M+12=99k || || M+14=100k || || M+15=180k || || Multi Run Free Stack+Discount || || KeyStone Master 1490k ||", -- [1]
 			"Novahp-Draenor", -- [2]
@@ -1518,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novahp|r",
 			[51] = 1619627079,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [67]
 		{
 			"<NOVA> is Offring Castle Nathria HC (10/10 270Kk) Last boss 40k  -Trader for 120k  / [Mythic 0-15  Shared loot + Armor Stack ][+15 200k /  +10  79Kk / +14 110k ]  /W For More !", -- [1]
 			"Novaalpas-Draenor", -- [2]
@@ -1540,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNovaalpas|r",
 			[51] = 1619627080,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [68]
 		{
 			"<Dawn> [WTS] |cff66bbff|Hjournal:0:1190:16|h[Castle Nathria]|h|r<MYTHIC 7/10  3m   10/10  7.7M+2Free Trader>  <HC10/10 250k>  <LootShare 370k>  <VIP Traders>  <Sire 40k> INTIME  <M+10-22><M+14 110k> <M+15 205k>  <4x14 374k > <KSM 1500k>  <PVP 0-2400>", -- [1]
 			"Dawnadvertis-Draenor", -- [2]
@@ -1562,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Dawnadvertis|r",
 			[51] = 1619627081,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [69]
 		{
 			"Offering   <LEVEL UP B.O.O.S.T>  <15-50> -  <50-60> and |cff71d5ff|Hspell:290718:0|h[Aerial Unit R-21/X]|h|r |cff71d5ff|Hspell:261395:0|h[The Hivemind]|h|r |cff71d5ff|Hspell:148428:0|h[Ashhide Mushan Beast]|h|r", -- [1]
 			"Tauruíd-Draenor", -- [2]
@@ -1584,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Tauruíd|r",
 			[51] = 1619627081,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [70]
 		{
 			"<Dawn> |cff66bbff|Hjournal:0:1190:14|h[Castle Nathria]|h|r ||Mythic 7/10 3m  10/10  7.7M +2Free Trader|| ||HC 10/10  250k || LootShare 370k || VIP Traders 125k || <Sire 40k> INTIME <M+10-22> <M14 110k>  <M15 205k> <4x14 374k>  <KSM 1500k>||PVP 0-2400||", -- [1]
 			"Dawnadverte-Draenor", -- [2]
@@ -1606,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDawnadverte|r",
 			[51] = 1619627081,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [71]
 		{
 			"<NOVA> OFFERING  |cffffff00|Hachievement:14532:Player-1403-09E515DA:0:0:0:-1:0:0:0:0|h[Shadowlands Keystone Master: Season One]|h|r 1490K! <M15=180-200K> <M14=100-110K>, 2x FREE ARMOR STACK , Heroic Full clear 270 <Trader 130K>!!Curve 40K || SLG 50K|| Mythic Raid 7.7mil! ,Torghast, Rbg ,Arena ", -- [1]
 			"Novadaddy-Draenor", -- [2]
@@ -1628,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Novadaddy|r",
 			[51] = 1619627084,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [72]
 		{
 			"<<NOVA>> OFFERING TODAY HEROIC  Castle Nathria Full Run 270k Trader 130k || || SIRE HC 40k || || MYTHIC Castle Nathria || || M+10=79k || || M+12=99k || || M+14=100k || || M+15=180k || || Multi Run Free Stack+Discount || || KeyStone Master 1490k ||", -- [1]
 			"Deepchilz-Draenor", -- [2]
@@ -1650,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDeepchilz|r",
 			[51] = 1619627084,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [73]
 		{
 			"<ICECROWN> WTS M+0 to +20 HOT DEALS [M+10 80K][M+12 100K][M+14 100K][M+15 220K] 4x14 400K 4x15 840K Free armor stack for 2 runs **KSM 1.650k** !! Also HC and Mythic CN runs !! only for gold !!/w for more information", -- [1]
 			"Iccînglor-Draenor", -- [2]
@@ -1672,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcIccînglor|r",
 			[51] = 1619627085,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [74]
 		{
 			"< NOVA > is OFFERING || KSM 1490K |||| M+10 79K |||| M+12 99K|||| M+14 110K |||| M+15 200K |||| Multiple Run Free Stack And Discount |||| MYTHIC CASTLE |||| HC CASTLE 270K Trader 130K, 120K if multi trader |||| Thorghast boosts /w for info now!", -- [1]
 			"Novashino-Draenor", -- [2]
@@ -1694,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaNovashino|r",
 			[51] = 1619627085,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [75]
 		{
 			"< NOVA > is OFFERING || KSM 1490k || || M+10=79k || || M+12=99k || ||  M+14=100k || || M+15=180k || || Multipe Run Free Stack and Discount || || MYTHIC CASTLE || Caslte Nathria HEROIC 270k Trader 130k Today || || KeyStone Master 1490k ||", -- [1]
 			"Novahuge-Draenor", -- [2]
@@ -1716,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Novahuge|r",
 			[51] = 1619627086,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [76]
 		{
 			"<<NOVA>> OFFERING TODAY HEROIC  Castle Nathria Full Run 270k Trader 130k || || SIRE HC 40k || || MYTHIC Castle Nathria || || M+10=79k || || M+12=99k || || M+14=100k || || M+15=180k || || Multi Run Free Stack+Discount || || KeyStone Master 1490k ||", -- [1]
 			"Novajel-Draenor", -- [2]
@@ -1738,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Novajel|r",
 			[51] = 1619627086,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [77]
 		{
 			"SYLVANAS BOOSTING COMMUNITY {WTS} mythic + {0-18) +15 <205k> +14 <110k> +12 <100k> 3x+15 <599k> discount on multiple runs , castle nathria full heroic <275k>  ,mythic castle narthia [7700k]with free 2 vip , last 2 bosses 85k, torg /w me for more info ", -- [1]
 			"Oddiinn-Draenor", -- [2]
@@ -1760,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edOddiinn|r",
 			[51] = 1619627086,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [78]
 		{
 			"<<NOVA>> OFFERING TODAY HEROIC  Castle Nathria Full Run 270k Trader 130k || || SIRE HC 40k || || MYTHIC Castle Nathria || || M+10=79k || || M+12=99k || || M+14=100k || || M+15=180k || || Multi Run Free Stack+Discount || || KeyStone Master 1490k ||", -- [1]
 			"Novaop-Draenor", -- [2]
@@ -1782,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNovaop|r",
 			[51] = 1619627087,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [79]
 		{
 			"WTS  : M+ (Keys  +15 = 200K / +14 = 110K /+16 = 430K / +17=620K  in time ) Keymaster :1480K /w  for more info", -- [1]
 			"Windroare-Draenor", -- [2]
@@ -1804,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Windroare|r",
 			[51] = 1619627088,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [80]
 		{
 			"SYLVANAS SELLING 15 210k / +14 = 115 k in time guaranteed 5x15=945k only/KSM  1540k / 2 last boss every 20min / full |cff66bbff|Hjournal:0:1190:14|h[Castle Nathria]|h|r only at 250k/w me for more info !", -- [1]
 			"Silviananas-Draenor", -- [2]
@@ -1826,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcSilviananas|r",
 			[51] = 1619627094,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [81]
 		{
 			"WTS any \"M0-20\" Armorstack /-->CASTLE<-- HC with VIP / Legacy achievements and mounts / Torghast / lvlup /w me", -- [1]
 			"Fixermaan-Draenor", -- [2]
@@ -1848,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcFixermaan|r",
 			[51] = 1619627095,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [82]
 		{
 			"<Sylvanas Community> +15 FOR ONLY 205K /+10 for 80k ,Buy x2 runs and get FREE ARMOR STACK/Discounts on 3runs or more /+12 100k/+14 110k/Keystone Master 1.49M/Torghast/TONIGT HC (PL/VIP) Castle Nathria & Mythic Raid", -- [1]
 			"Lànàà-Draenor", -- [2]
@@ -1870,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaLànàà|r",
 			[51] = 1619627098,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [83]
 		{
 			"LF |cffffd000|Htrade:Player-1403-06360D5C:3908:197|h[Tailoring]|h|r|cffffd000|Htrade:Player-1403-06360D5C:3908:197|h[Tailoring]|h|r|cffffd000|Htrade:Player-1403-06360D5C:3908:197|h[Tailoring]|h|r", -- [1]
 			"Kojical-Draenor", -- [2]
@@ -1892,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaKojical|r",
 			[51] = 1619627107,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [84]
 		{
 			"WTS Torghast <both L8 90k> and level boost 10-60  228 ilvl booster, completed more than +100 runs you can stay afk w/info", -- [1]
 			"Ptpo-Draenor", -- [2]
@@ -1914,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ptpo|r",
 			[51] = 1619627107,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [85]
 		{
 			"<Twilight> sells |cff66bbff|Hjournal:0:1190:14|h[Castle Nathria]|h|r on Heroic! Next Run at 21:00 Server Time! We also sell VIP RAID <PL=250k><1VIP+LS=420k><110k for each extra trader>/w me for Pricing or book! :)", -- [1]
 			"Pandarnboss-Draenor", -- [2]
@@ -1936,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Pandarnboss|r",
 			[51] = 1619627111,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [86]
 		{
 			"<\"Nova\"> OFFERING TODAY  ||  <HEROIC Castle Nathria 270k  Trader 130k> STARTING NOW ||  <MYTHIC Castle Nathria>  ||  <M+10=79k>  ||  <M+12=99k>  || <M+14=100k>  ||  <M+15=180k>  ||  <KEYSTONE MASTER=1490k>  ||", -- [1]
 			"Trickyshotq-Draenor", -- [2]
@@ -1958,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Trickyshotq|r",
 			[51] = 1619627112,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [87]
 		{
 			"LF Leveling group 50-60 tonight all stealth need heal/dps", -- [1]
 			"Smokeyblunt-Draenor", -- [2]
@@ -1980,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Smokeyblunt|r",
 			[51] = 1619627116,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [88]
 		{
 			"Sylvanas Community Selling||M+0-22||+10 80k||+14 110k||+15 205k on time||Keystone Master1.52M||CN runs Last 2 Bosses every 30 mins Generals 50k , Sire 40k , Both 85k ||10/10 Heroic/Mythic PL/VIP TRADERS||Torghast||Mythic Raid||Leveling boost||Discounts", -- [1]
 			"Linzos-Draenor", -- [2]
@@ -2002,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edLinzos|r",
 			[51] = 1619627117,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [89]
 		{
 			"Shhhhhh.. *Puts finger over mouth* you will learn as you live... Now go... *pushes son out the door, and locks it*", -- [1]
 			"Azuminakama-Lightbringer", -- [2]
@@ -2024,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaAzuminakama-Lightbringer|r",
 			[51] = 1619627130,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [90]
 		{
 			"lol, on that note ill shush ;)", -- [1]
 			"Límbo-Turalyon", -- [2]
@@ -2046,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Límbo-Turalyon|r",
 			[51] = 1619627153,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [91]
 		{
 			"What level can you go to shadowlands?", -- [1]
 			"Dmanblink-TarrenMill", -- [2]
@@ -2068,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDmanblink-TarrenMill|r",
 			[51] = 1619627252,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [92]
 		{
 			"level 50", -- [1]
 			"Yungpally-Draenor", -- [2]
@@ -2090,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Yungpally|r",
 			[51] = 1619627258,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [93]
 		{
 			"Ah ok thanks", -- [1]
 			"Dmanblink-TarrenMill", -- [2]
@@ -2112,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDmanblink-TarrenMill|r",
 			[51] = 1619627264,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [94]
 		{
 			"wasn't the maw introductive scenario from 48?", -- [1]
 			"Ayrad-Quel'Thalas", -- [2]
@@ -2134,7 +2112,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Ayrad-Quel'Thalas|r",
 			[51] = 1619627273,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [95]
 		{
 			"48 you can stary questline in the maw", -- [1]
 			"Potomekswini-BurningLegion", -- [2]
@@ -2156,7 +2134,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Potomekswini-BurningLegion|r",
 			[51] = 1619627275,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [96]
 		{
 			"Hello thier <The Innkeepers>  10/10HC Guild with laid-back attitude is looking for Healers and DPS to start Mythic CN progress. Raid days: Friday&Tuesday 20:00-23:00. PM me if you're interested", -- [1]
 			"Decaiy-Draenor", -- [2]
@@ -2178,7 +2156,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDecaiy|r",
 			[51] = 1619630683,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [98]
+		}, -- [97]
 		{
 			"anyone who can help me to kill Jungo?", -- [1]
 			"Babakasia-Doomhammer", -- [2]
@@ -2200,6 +2178,28 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Babakasia-Doomhammer|r",
 			[51] = 1619717889,
 			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"hi", -- [1]
+			"Greabinda-Doomhammer", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Greabinda-Doomhammer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			464, -- [11]
+			"Player-1402-09E46F6F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Greabinda-Doomhammer|r",
+			[51] = 1619721864,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [99]
 	},
 }

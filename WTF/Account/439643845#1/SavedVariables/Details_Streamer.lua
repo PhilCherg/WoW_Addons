@@ -25,24 +25,24 @@ Details_StreamerDB = {
 		["Phaltraxion - Outland"] = "Necrophagus - Outland",
 		["Käguya - Turalyon"] = "Necrophagus - Outland",
 		["Adsfasdfasdf - Outland"] = "Necrophagus - Outland",
-		["Asdfsadfsadf - Outland"] = "Necrophagus - Outland",
-		["Presentone - Outland"] = "Necrophagus - Outland",
+		["Asdsaasdf - Outland"] = "Necrophagus - Outland",
+		["Necropharia - Outland"] = "Necrophagus - Outland",
 		["Asdawdwd - Outland"] = "Necrophagus - Outland",
 		["Bankeristor - Outland"] = "Necrophagus - Outland",
-		["Moneyfour - Outland"] = "Necrophagus - Outland",
-		["Asdqwdwq - Die Silberne Hand"] = "Necrophagus - Outland",
-		["Tempgoddess - Outland"] = "Necrophagus - Outland",
-		["Tinkerflame - Outland"] = "Necrophagus - Outland",
-		["Dominaria - Outland"] = "Necrophagus - Outland",
-		["Moneyeight - Outland"] = "Necrophagus - Outland",
-		["Illyana - Outland"] = "Necrophagus - Outland",
-		["Asdqaweqwd - Outland"] = "Necrophagus - Outland",
-		["Moneymakerii - Outland"] = "Necrophagus - Outland",
-		["Lianxia - Draenor"] = "Necrophagus - Outland",
 		["Moneythree - Outland"] = "Necrophagus - Outland",
+		["Asdqwdwq - Die Silberne Hand"] = "Necrophagus - Outland",
+		["Lianxia - Draenor"] = "Necrophagus - Outland",
+		["Moneymakerii - Outland"] = "Necrophagus - Outland",
+		["Asdqaweqwd - Outland"] = "Necrophagus - Outland",
+		["Illyana - Outland"] = "Necrophagus - Outland",
+		["Moneyeight - Outland"] = "Necrophagus - Outland",
+		["Dominaria - Outland"] = "Necrophagus - Outland",
+		["Tinkerflame - Outland"] = "Necrophagus - Outland",
+		["Tempgoddess - Outland"] = "Necrophagus - Outland",
+		["Moneyfour - Outland"] = "Necrophagus - Outland",
 		["Serthaxion - Outland"] = "Necrophagus - Outland",
-		["Necropharia - Outland"] = "Necrophagus - Outland",
-		["Asdsaasdf - Outland"] = "Necrophagus - Outland",
+		["Presentone - Outland"] = "Necrophagus - Outland",
+		["Asdfsadfsadf - Outland"] = "Necrophagus - Outland",
 		["Elementior - Outland"] = "Necrophagus - Outland",
 	},
 	["profiles"] = {
@@ -75,16 +75,26 @@ Details_StreamerDB = {
 			["row_height"] = 20,
 			["row_texture"] = "Details Serenity",
 			["point"] = "CENTER",
-			["author"] = "Details! Team",
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
 				0.1, -- [3]
 				0.4, -- [4]
 			},
+			["author"] = "Details! Team",
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
+			["font_size"] = 10,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -96,21 +106,11 @@ Details_StreamerDB = {
 				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
 			},
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
-			["main_frame_strata"] = "LOW",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["use_spark"] = true,
 			["y"] = 4.57763671875e-05,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
-			["font_size"] = 10,
+			["use_spark"] = true,
 			["arrow_anchor_y"] = 0,
 			["main_frame_locked"] = false,
 			["use_square_mode"] = false,

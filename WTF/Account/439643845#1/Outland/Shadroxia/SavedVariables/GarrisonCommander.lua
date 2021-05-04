@@ -6,6 +6,12 @@ dbGACperChar = {
 	["profiles"] = {
 		["Default"] = {
 			["history"] = {
+				[1246] = {
+					[1619819061] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+				},
 				[1220] = {
 					[1619715726] = {
 						["result"] = 100,

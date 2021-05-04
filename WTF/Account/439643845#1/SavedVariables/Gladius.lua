@@ -36,11 +36,11 @@ Gladius2DB = {
 		["Xanthoros - Outland"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["x"] = {
-				["arena1"] = 128.7998744948518,
-			},
 			["y"] = {
 				["arena1"] = 623.6154633307815,
+			},
+			["x"] = {
+				["arena1"] = 128.7998744948518,
 			},
 		},
 		["Phaltraxion - Outland"] = {

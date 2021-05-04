@@ -149,6 +149,35 @@ TomTomWaypointsM = {
 		["Moneyfive - Outland"] = {
 		},
 		["Necrophagus - Outland"] = {
+			[125] = {
+				["125:493700000:632600000:Back To The Orphanage"] = {
+					125, -- [1]
+					0.4937, -- [2]
+					0.6325999999999999, -- [3]
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["minimap_displayID"] = 25384,
+					["persistent"] = true,
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Back To The Orphanage",
+					["from"] = "ATT\nIf you are missing this quest resummon your Wolvar child to pick it up.",
+					["worldmap_displayID"] = 25384,
+					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["desc"] = "Back To The Orphanage",
+					["world"] = true,
+				},
+			},
 		},
 		["Lysanaria - Outland"] = {
 		},
@@ -161,12 +190,124 @@ TomTomWaypointsM = {
 		["Farmerixus - Outland"] = {
 		},
 		["Luminaxia - Outland"] = {
+			[1161] = {
+				["1161:477700000:393700000:Return to the Orphanage"] = {
+					1161, -- [1]
+					0.4777, -- [2]
+					0.3937, -- [3]
+					["crazy"] = true,
+					["minimap_displayID"] = 89265,
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["worldmap_displayID"] = 89265,
+					["persistent"] = true,
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Return to the Orphanage",
+					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
+					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["minimap"] = true,
+					["desc"] = "Return to the Orphanage",
+					["world"] = true,
+				},
+				["1161:480100000:402800000:Return to the Orphanage"] = {
+					1161, -- [1]
+					0.4801, -- [2]
+					0.4028, -- [3]
+					["crazy"] = true,
+					["minimap_displayID"] = 89265,
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["worldmap_displayID"] = 89265,
+					["persistent"] = true,
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Return to the Orphanage",
+					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
+					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["minimap"] = true,
+					["desc"] = "Return to the Orphanage",
+					["world"] = true,
+				},
+			},
 		},
 		["Testfirst - Outland"] = {
 		},
 		["Barbaxius - Outland"] = {
 		},
 		["Phelanara - Outland"] = {
+			[1161] = {
+				["1161:477700000:393700000:Return to the Orphanage"] = {
+					1161, -- [1]
+					0.4777, -- [2]
+					0.3937, -- [3]
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["desc"] = "Return to the Orphanage",
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["minimap"] = true,
+					["persistent"] = true,
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Return to the Orphanage",
+					["minimap_displayID"] = 89265,
+					["worldmap_displayID"] = 89265,
+					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
+					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["world"] = true,
+				},
+				["1161:480100000:402800000:Return to the Orphanage"] = {
+					1161, -- [1]
+					0.4801, -- [2]
+					0.4028, -- [3]
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["desc"] = "Return to the Orphanage",
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["minimap"] = true,
+					["persistent"] = true,
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Return to the Orphanage",
+					["minimap_displayID"] = 89265,
+					["worldmap_displayID"] = 89265,
+					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
+					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["world"] = true,
+				},
+			},
 		},
 		["Xanthoros - Outland"] = {
 		},
@@ -193,11 +334,11 @@ TomTomWaypointsM = {
 		["Moneymakerii - Outland"] = {
 		},
 		["Illyana - Outland"] = {
-			[121] = {
-				["121:400000000:680000000:TomTom waypoint"] = {
-					121, -- [1]
-					0.4, -- [2]
-					0.68, -- [3]
+			[830] = {
+				["830:410000000:630000000:TomTom waypoint"] = {
+					830, -- [1]
+					0.41, -- [2]
+					0.63, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
@@ -218,11 +359,11 @@ TomTomWaypointsM = {
 					["world"] = true,
 				},
 			},
-			[830] = {
-				["830:410000000:630000000:TomTom waypoint"] = {
-					830, -- [1]
-					0.41, -- [2]
-					0.63, -- [3]
+			[121] = {
+				["121:400000000:680000000:TomTom waypoint"] = {
+					121, -- [1]
+					0.4, -- [2]
+					0.68, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
@@ -257,6 +398,62 @@ TomTomWaypointsM = {
 		["Moneyfour - Outland"] = {
 		},
 		["Serthaxion - Outland"] = {
+			[1161] = {
+				["1161:477700000:393700000:Return to the Orphanage"] = {
+					1161, -- [1]
+					0.4777, -- [2]
+					0.3937, -- [3]
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["desc"] = "Return to the Orphanage",
+					["persistent"] = true,
+					["minimap"] = true,
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Return to the Orphanage",
+					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
+					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["minimap_displayID"] = 89265,
+					["worldmap_displayID"] = 89265,
+					["world"] = true,
+				},
+				["1161:480100000:402800000:Return to the Orphanage"] = {
+					1161, -- [1]
+					0.4801, -- [2]
+					0.4028, -- [3]
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["desc"] = "Return to the Orphanage",
+					["persistent"] = true,
+					["minimap"] = true,
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Return to the Orphanage",
+					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
+					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["minimap_displayID"] = 89265,
+					["worldmap_displayID"] = 89265,
+					["world"] = true,
+				},
+			},
 		},
 		["Presentone - Outland"] = {
 		},

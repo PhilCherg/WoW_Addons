@@ -356,7 +356,7 @@ CandyBuckets: enabled
 AutoTrackMapPin: enabled
 GarrisonCommander: enabled
 GarrisonCommander-Broker: enabled
-MythicDungeonTools: disabled
+MythicDungeonTools: enabled
 TomCats-Bundled-DeathsRising: enabled
 UnlimitedMapPinDistance: enabled
 WorldQuestTab: enabled

@@ -3,10 +3,10 @@ HandyNotesDB = {
 	["profileKeys"] = {
 		["Adsfasdfasdf - Outland"] = "Adsfasdfasdf - Outland",
 		["Barbaxius - Outland"] = "Barbaxius - Outland",
-		["Xanthoros - Outland"] = "Xanthoros - Outland",
+		["Moneyeight - Outland"] = "Moneyeight - Outland",
 		["Moneysix - Outland"] = "Moneysix - Outland",
 		["Phelanara - Outland"] = "Phelanara - Outland",
-		["Moneyeight - Outland"] = "Moneyeight - Outland",
+		["Moneynine - Outland"] = "Moneynine - Outland",
 		["Phaltraxion - Outland"] = "Phaltraxion - Outland",
 		["Moneymakerii - Outland"] = "Moneymakerii - Outland",
 		["Asdawdwd - Outland"] = "Asdawdwd - Outland",
@@ -31,7 +31,7 @@ HandyNotesDB = {
 		["Moneythree - Outland"] = "Moneythree - Outland",
 		["Serthaxion - Outland"] = "Serthaxion - Outland",
 		["Luminaxia - Outland"] = "Luminaxia - Outland",
-		["Moneynine - Outland"] = "Moneynine - Outland",
+		["Xanthoros - Outland"] = "Xanthoros - Outland",
 		["Elementior - Outland"] = "Elementior - Outland",
 	},
 	["profiles"] = {
@@ -39,13 +39,13 @@ HandyNotesDB = {
 		},
 		["Barbaxius - Outland"] = {
 		},
-		["Xanthoros - Outland"] = {
+		["Moneyeight - Outland"] = {
 		},
 		["Moneysix - Outland"] = {
 		},
 		["Phelanara - Outland"] = {
 		},
-		["Moneyeight - Outland"] = {
+		["Moneynine - Outland"] = {
 		},
 		["Phaltraxion - Outland"] = {
 		},
@@ -95,7 +95,7 @@ HandyNotesDB = {
 		},
 		["Luminaxia - Outland"] = {
 		},
-		["Moneynine - Outland"] = {
+		["Xanthoros - Outland"] = {
 		},
 		["Elementior - Outland"] = {
 		},
@@ -105,10 +105,10 @@ HandyNotes_HandyNotesDB = {
 	["profileKeys"] = {
 		["Adsfasdfasdf - Outland"] = "Adsfasdfasdf - Outland",
 		["Barbaxius - Outland"] = "Barbaxius - Outland",
-		["Xanthoros - Outland"] = "Xanthoros - Outland",
+		["Moneyeight - Outland"] = "Moneyeight - Outland",
 		["Moneysix - Outland"] = "Moneysix - Outland",
 		["Phelanara - Outland"] = "Phelanara - Outland",
-		["Moneyeight - Outland"] = "Moneyeight - Outland",
+		["Moneynine - Outland"] = "Moneynine - Outland",
 		["Phaltraxion - Outland"] = "Phaltraxion - Outland",
 		["Moneymakerii - Outland"] = "Moneymakerii - Outland",
 		["Asdawdwd - Outland"] = "Asdawdwd - Outland",
@@ -133,7 +133,7 @@ HandyNotes_HandyNotesDB = {
 		["Moneythree - Outland"] = "Moneythree - Outland",
 		["Serthaxion - Outland"] = "Serthaxion - Outland",
 		["Luminaxia - Outland"] = "Luminaxia - Outland",
-		["Moneynine - Outland"] = "Moneynine - Outland",
+		["Xanthoros - Outland"] = "Xanthoros - Outland",
 		["Elementior - Outland"] = "Elementior - Outland",
 	},
 	["profiles"] = {
@@ -141,13 +141,13 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Barbaxius - Outland"] = {
 		},
-		["Xanthoros - Outland"] = {
+		["Moneyeight - Outland"] = {
 		},
 		["Moneysix - Outland"] = {
 		},
 		["Phelanara - Outland"] = {
 		},
-		["Moneyeight - Outland"] = {
+		["Moneynine - Outland"] = {
 		},
 		["Phaltraxion - Outland"] = {
 		},
@@ -197,7 +197,7 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Luminaxia - Outland"] = {
 		},
-		["Moneynine - Outland"] = {
+		["Xanthoros - Outland"] = {
 		},
 		["Elementior - Outland"] = {
 		},

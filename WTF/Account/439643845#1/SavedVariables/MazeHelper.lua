@@ -31,28 +31,28 @@ MHMOTSConfig = {
 	},
 	["PrintResettedPlayerName"] = true,
 	["AutoToggleVisibility"] = true,
-	["ActiveColor"] = {
-		0.4, -- [1]
-		0.52, -- [2]
-		0.95, -- [3]
-		1, -- [4]
-	},
-	["SavedPositionLargeSymbol"] = {
-	},
-	["SetMarkerOnTargetClone"] = true,
 	["SolutionColor"] = {
 		0.2, -- [1]
 		0.8, -- [2]
 		0.4, -- [3]
 		1, -- [4]
 	},
+	["SavedPositionLargeSymbol"] = {
+	},
+	["SetMarkerOnTargetClone"] = true,
+	["AutoAnnouncerAsPartyLeader"] = true,
 	["SetMarkerOnTargetCloneModifier"] = 3,
 	["AutoAnnouncer"] = true,
 	["SetMarkerOnTargetCloneUseModifier"] = true,
+	["SavedBackgroundAlphaLargeSymbol"] = 0.8,
 	["AnnounceWithEnglish"] = true,
 	["SyncEnabled"] = true,
-	["SavedBackgroundAlphaLargeSymbol"] = 0.8,
 	["UseCloneAutoMarker"] = true,
 	["UseColoredSymbols"] = true,
-	["AutoAnnouncerAsPartyLeader"] = true,
+	["ActiveColor"] = {
+		0.4, -- [1]
+		0.52, -- [2]
+		0.95, -- [3]
+		1, -- [4]
+	},
 }

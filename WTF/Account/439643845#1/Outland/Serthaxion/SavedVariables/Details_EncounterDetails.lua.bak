@@ -1,124 +1,5 @@
 
 EncounterDetailsDB = {
-	["emotes"] = {
-		{
-			{
-				0.2020000000011351, -- [1]
-				"Prepare yourselves!", -- [2]
-				"Thaladred the Darkener", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				1.82300000000032, -- [1]
-				"You have persevered against some of my best advisors... but none can withstand the might of the Blood Hammer. Behold, Lord Sanguinar!", -- [2]
-				"Kael'thas Sunstrider", -- [3]
-				7, -- [4]
-			}, -- [2]
-			{
-				14.34000000000015, -- [1]
-				"Blood for blood!", -- [2]
-				"Lord Sanguinar", -- [3]
-				7, -- [4]
-			}, -- [3]
-			{
-				16.77800000000025, -- [1]
-				"Capernian will see to it that your stay here is a short one.", -- [2]
-				"Kael'thas Sunstrider", -- [3]
-				7, -- [4]
-			}, -- [4]
-			{
-				22.8130000000001, -- [1]
-				"The sin'dorei reign supreme!", -- [2]
-				"Grand Astromancer Capernian", -- [3]
-				7, -- [4]
-			}, -- [5]
-			{
-				25.23600000000079, -- [1]
-				"Well done, you have proven worthy to test your skills against my master engineer, Telonicus.", -- [2]
-				"Kael'thas Sunstrider", -- [3]
-				7, -- [4]
-			}, -- [6]
-			{
-				33.72900000000118, -- [1]
-				"Anar'alah belore!", -- [2]
-				"Master Engineer Telonicus", -- [3]
-				7, -- [4]
-			}, -- [7]
-			{
-				38.97600000000057, -- [1]
-				"As you see, I have many weapons in my arsenal....", -- [2]
-				"Kael'thas Sunstrider", -- [3]
-				7, -- [4]
-			}, -- [8]
-			{
-				133.5420000000013, -- [1]
-				"Perhaps I underestimated you. It would be unfair to make you fight all four advisors at once, but... fair treatment was never shown to my people. I'm just returning the favor.", -- [2]
-				"Kael'thas Sunstrider", -- [3]
-				7, -- [4]
-			}, -- [9]
-			{
-				146.8980000000011, -- [1]
-				"%s sets eyes on Serthaxion!", -- [2]
-				"Thaladred the Darkener", -- [3]
-				3, -- [4]
-			}, -- [10]
-			{
-				157.0240000000013, -- [1]
-				"More perils... await...", -- [2]
-				"Master Engineer Telonicus", -- [3]
-				7, -- [4]
-			}, -- [11]
-			{
-				157.0240000000013, -- [1]
-				"This is not over!", -- [2]
-				"Grand Astromancer Capernian", -- [3]
-				7, -- [4]
-			}, -- [12]
-			{
-				157.6850000000013, -- [1]
-				"%s sets eyes on Serthaxion!", -- [2]
-				"Thaladred the Darkener", -- [3]
-				3, -- [4]
-			}, -- [13]
-			{
-				160.0290000000005, -- [1]
-				"Forgive me, my prince! I have... failed.", -- [2]
-				"Thaladred the Darkener", -- [3]
-				7, -- [4]
-			}, -- [14]
-			{
-				160.0290000000005, -- [1]
-				"NO! I... will... not...", -- [2]
-				"Lord Sanguinar", -- [3]
-				7, -- [4]
-			}, -- [15]
-			{
-				162.6230000000014, -- [1]
-				"Alas, sometimes one must take matters into one's own hands. Balamore shanal!", -- [2]
-				"Kael'thas Sunstrider", -- [3]
-				7, -- [4]
-			}, -- [16]
-			{
-				163.8430000000008, -- [1]
-				"Anar'anel belore!", -- [2]
-				"Kael'thas Sunstrider", -- [3]
-				7, -- [4]
-			}, -- [17]
-			{
-				179.6400000000012, -- [1]
-				"Obey me!", -- [2]
-				"Kael'thas Sunstrider", -- [3]
-				7, -- [4]
-			}, -- [18]
-			{
-				203.9320000000007, -- [1]
-				"I have not come this far to be stopped! The future I have planned will not be jeopardized! Now you will taste true power!!", -- [2]
-				"Kael'thas Sunstrider", -- [3]
-				7, -- [4]
-			}, -- [19]
-			["boss"] = "Kael'thas Sunstrider",
-		}, -- [1]
-	},
 	["encounter_spells"] = {
 		[70362] = {
 			["school"] = 16,
@@ -188,6 +69,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Professor Putricide",
 		},
+		[72737] = {
+			["school"] = 64,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Deathbringer Saurfang",
+		},
 		[71861] = {
 			["school"] = 64,
 			["token"] = {
@@ -204,12 +94,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Risen Archmage",
 		},
-		[71893] = {
+		[35947] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Professor Putricide",
+			["source"] = "Bloodwarder Marshal",
 		},
 		[69869] = {
 			["school"] = 20,
@@ -246,12 +136,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kor'kron Reaver",
 		},
-		[36721] = {
-			["school"] = 4,
+		[71621] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Phoenix",
+			["source"] = "Professor Putricide",
 		},
 		[72754] = {
 			["school"] = 32,
@@ -270,29 +161,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kor'kron Defender",
 		},
-		[37274] = {
-			["school"] = 2,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Crimson Hand Inquisitor",
-		},
-		[35947] = {
+		[70475] = {
 			["school"] = 1,
-			["token"] = {
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Bloodwarder Marshal",
-		},
-		[71736] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Darkfallen Blood Knight",
+			["source"] = "Putricide's Trap",
+		},
+		[37270] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Crimson Hand Centurion",
+		},
+		[59247] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Ymirjar Witch Doctor",
 		},
 		[63830] = {
 			["school"] = 32,
@@ -310,13 +200,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tempest Falconer",
 		},
-		[34996] = {
+		[72149] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Bloodwarder Marshal",
+			["source"] = "Shambling Horror",
 		},
 		[69057] = {
 			["school"] = 1,
@@ -346,13 +236,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sindragosa",
 		},
-		[72378] = {
-			["school"] = 1,
+		[70189] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Deathbringer Saurfang",
+			["source"] = "Spire Gargoyle",
 		},
 		[70396] = {
 			["school"] = 1,
@@ -393,14 +285,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Brain of Yogg-Saron",
 		},
-		[70215] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[69934] = {
+			["school"] = 2,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Gas Cloud",
+			["source"] = "Kor'kron Vanquisher",
 		},
 		[70492] = {
 			["school"] = 40,
@@ -410,38 +301,40 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Volatile Ooze",
 		},
-		[37270] = {
-			["school"] = 64,
+		[29799] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Attumen the Huntsman",
+		},
+		[70409] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Crimson Hand Centurion",
+			["source"] = "Darkfallen Archmage",
 		},
-		[37268] = {
-			["school"] = 64,
+		[71465] = {
+			["school"] = 66,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Crimson Hand Centurion",
+			["source"] = "Sister Svalna",
 		},
-		[44863] = {
+		[69200] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Lord Sanguinar",
-		},
-		[39077] = {
-			["school"] = 2,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Crimson Hand Blood Knight",
+			["source"] = "The Lich King",
 		},
 		[16496] = {
 			["school"] = 1,
@@ -451,21 +344,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Master Engineer Telonicus",
 		},
-		[70475] = {
+		[69902] = {
 			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Kor'kron Defender",
+		},
+		[36990] = {
+			["school"] = 16,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Putricide's Trap",
-		},
-		[70346] = {
-			["school"] = 40,
-			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Growing Ooze Puddle",
+			["source"] = "Staff of Disintegration",
 		},
 		[35948] = {
 			["school"] = 1,
@@ -484,14 +379,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Plague Scientist",
 		},
-		[69967] = {
-			["school"] = 2,
+		[70460] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Kor'kron Templar",
+			["source"] = "Frost Freeze Trap",
 		},
 		[69903] = {
 			["school"] = 1,
@@ -503,23 +397,24 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kor'kron Defender",
 		},
-		[69278] = {
-			["school"] = 1,
+		[69968] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Kor'kron Primalist",
+		},
+		[37263] = {
+			["school"] = 16,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Festergut",
-		},
-		[71465] = {
-			["school"] = 66,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Sister Svalna",
+			["source"] = "Crimson Hand Battle Mage",
 		},
 		[37016] = {
 			["school"] = 1,
@@ -536,15 +431,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "The Lich King",
 		},
-		[36991] = {
+		[28747] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Warp Slicer",
+			["source"] = "Shambling Horror",
 		},
 		[63050] = {
 			["school"] = 1,
@@ -553,15 +447,15 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 		},
-		[37263] = {
-			["school"] = 16,
+		[72385] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Crimson Hand Battle Mage",
+			["source"] = "Deathbringer Saurfang",
 		},
 		[51336] = {
 			["school"] = 1,
@@ -571,35 +465,44 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Drakos the Interrogator",
 		},
-		[70985] = {
-			["school"] = 32,
+		[72295] = {
+			["school"] = 40,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Blood-Queen Lana'thel",
+			["source"] = "Professor Putricide",
 		},
-		[71254] = {
-			["school"] = 32,
+		[70361] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Lady Deathwhisper",
+			["source"] = "Spire Frostwyrm",
 		},
-		[36983] = {
+		[69679] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Kor'kron Rocketeer",
+		},
+		[70952] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Prince Valanar",
+		},
+		[36985] = {
 			["school"] = 2,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
 			},
 			["source"] = "Cosmic Infuser",
-		},
-		[71943] = {
-			["school"] = 96,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Prince Keleseth",
 		},
 		[70127] = {
 			["school"] = 64,
@@ -608,14 +511,6 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Sindragosa",
-		},
-		[29326] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Spectral Stallion",
 		},
 		[71163] = {
 			["school"] = 1,
@@ -659,14 +554,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Darkfallen Commander",
 		},
-		[69968] = {
-			["school"] = 8,
+		[57807] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Kor'kron Primalist",
+			["source"] = "Kor'kron Defender",
 		},
 		[71769] = {
 			["school"] = 32,
@@ -677,54 +571,57 @@ EncounterDetailsDB = {
 			},
 			["source"] = "The Lich King",
 		},
-		[72295] = {
-			["school"] = 40,
+		[71020] = {
+			["school"] = 34,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Professor Putricide",
+			["source"] = "Nerub'ar Broodkeeper",
 		},
-		[57807] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Kor'kron Defender",
-		},
-		[70409] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Darkfallen Archmage",
-		},
-		[70460] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Frost Freeze Trap",
-		},
-		[70702] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-		},
-		[36966] = {
+		[48640] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Thaladred the Darkener",
+			["source"] = "Ymirjar Warrior",
+		},
+		[70750] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Darkfallen Commander",
+		},
+		[73539] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "The Lich King",
+		},
+		[69898] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
+			},
+			["source"] = "Kor'kron Primalist",
+		},
+		[64163] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Yogg-Saron",
 		},
 		[70351] = {
 			["school"] = 32,
@@ -765,15 +662,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mana Feeder",
 		},
-		[69969] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[20477] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Kor'kron Necrolyte",
+			["source"] = "Thaladred the Darkener",
 		},
 		[70447] = {
 			["school"] = 40,
@@ -795,22 +689,24 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Spell Shade",
 		},
-		[73539] = {
+		[69969] = {
 			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "The Lich King",
+			["source"] = "Kor'kron Necrolyte",
 		},
-		[70750] = {
+		[57688] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Darkfallen Commander",
+			["source"] = "Crusher Tentacle",
 		},
 		[71021] = {
 			["school"] = 1,
@@ -835,27 +731,36 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Blood-Queen Lana'thel",
 		},
-		[70361] = {
-			["school"] = 1,
+		[70541] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Spire Frostwyrm",
+			["source"] = "The Lich King",
 		},
-		[70952] = {
-			["school"] = 1,
+		[70408] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Darkfallen Archmage",
+		},
+		[36970] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Prince Valanar",
-		},
-		[69712] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Sindragosa",
+			["source"] = "Grand Astromancer Capernian",
 		},
 		[36834] = {
 			["school"] = 64,
@@ -867,24 +772,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kael'thas Sunstrider",
 		},
-		[69679] = {
+		[36723] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Kael'thas Sunstrider",
+		},
+		[72378] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Kor'kron Rocketeer",
-		},
-		[70759] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Risen Archmage",
+			["source"] = "Deathbringer Saurfang",
 		},
 		[71420] = {
 			["school"] = 16,
@@ -904,16 +805,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nightmare Cloud",
 		},
-		[70541] = {
+		[69159] = {
 			["school"] = 32,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "The Lich King",
+			["source"] = "Festergut",
 		},
 		[64167] = {
 			["school"] = 32,
@@ -940,13 +837,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kor'kron Oracle",
 		},
-		[71022] = {
-			["school"] = 1,
+		[29323] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Deathbound Ward",
+			["source"] = "Spectral Stallion",
 		},
 		[3391] = {
 			["school"] = 1,
@@ -955,44 +853,36 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Infinity Blades",
 		},
-		[36970] = {
-			["school"] = 64,
-			["type"] = "DEBUFF",
+		[35369] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Phoenix",
+		},
+		[101406] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Deathbringer Saurfang",
+		},
+		[36971] = {
+			["school"] = 4,
+			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Grand Astromancer Capernian",
 		},
-		[69930] = {
-			["school"] = 2,
-			["type"] = "DEBUFF",
+		[71726] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Kor'kron Vanquisher",
-		},
-		[36731] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-		},
-		[30225] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Thaladred the Darkener",
+			["source"] = "Blood-Queen Lana'thel",
 		},
 		[70337] = {
 			["school"] = 32,
@@ -1002,27 +892,31 @@ EncounterDetailsDB = {
 			},
 			["source"] = "The Lich King",
 		},
-		[6016] = {
-			["school"] = 1,
+		[71778] = {
+			["school"] = 2,
 			["token"] = {
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Spectral Stable Hand",
+			["source"] = "Captain Arnath",
 		},
 		[72409] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_HEAL"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_HEAL"] = true,
 			},
 			["source"] = "Deathbringer Saurfang",
 		},
-		[36723] = {
-			["school"] = 1,
+		[71405] = {
+			["school"] = 32,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Kael'thas Sunstrider",
+			["source"] = "Prince Keleseth",
 		},
 		[18812] = {
 			["school"] = 1,
@@ -1069,14 +963,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Grand Astromancer Capernian",
 		},
-		[29323] = {
-			["school"] = 32,
+		[72272] = {
+			["school"] = 40,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Spectral Stallion",
+			["source"] = "Professor Putricide",
 		},
 		[57689] = {
 			["school"] = 1,
@@ -1109,20 +1003,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Professor Putricide",
 		},
-		[59331] = {
+		[71316] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Frostwarden Warrior",
+		},
+		[70965] = {
 			["school"] = 1,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Skadi the Ruthless",
-		},
-		[35369] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Phoenix",
+			["source"] = "Nerub'ar Broodkeeper",
 		},
 		[70338] = {
 			["school"] = 32,
@@ -1130,14 +1025,12 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 		},
-		[70371] = {
+		[69929] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Frenzied Abomination",
+			["source"] = "Ymirjar Deathbringer",
 		},
 		[72410] = {
 			["school"] = 32,
@@ -1163,16 +1056,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Corruptor Tentacle",
 		},
-		[59246] = {
-			["school"] = 32,
+		[70423] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Ymirjar Witch Doctor",
+			["source"] = "Darkfallen Lieutenant",
 		},
-		[69159] = {
-			["school"] = 32,
+		[72219] = {
+			["school"] = 40,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Festergut",
@@ -1202,14 +1099,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kor'kron Necrolyte",
 		},
-		[70961] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "The Damned",
-		},
 		[70084] = {
 			["school"] = 16,
 			["type"] = "DEBUFF",
@@ -1219,6 +1108,23 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Sindragosa",
+		},
+		[70960] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "The Damned",
+		},
+		[71614] = {
+			["school"] = 16,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "The Lich King",
 		},
 		[70116] = {
 			["school"] = 16,
@@ -1231,12 +1137,58 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Spire Frostwyrm",
 		},
-		[64059] = {
+		[70768] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Cult Adherent",
+		},
+		[65209] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Brain of Yogg-Saron",
+			["source"] = "Guardian of Yogg-Saron",
+		},
+		[70594] = {
+			["school"] = 48,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Cult Adherent",
+		},
+		[72905] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Lady Deathwhisper",
+		},
+		[70371] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Frenzied Abomination",
+		},
+		[36979] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Netherstrand Longbow",
 		},
 		[70435] = {
 			["school"] = 1,
@@ -1249,6 +1201,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Darkfallen Lieutenant",
 		},
+		[70961] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "The Damned",
+		},
+		[69925] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Kor'kron Oracle",
+		},
 		[73001] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -1259,73 +1226,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Prince Keleseth",
 		},
-		[41290] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Vampiric Fiend",
-		},
-		[72905] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Lady Deathwhisper",
-		},
-		[36971] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Grand Astromancer Capernian",
-		},
-		[36979] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Netherstrand Longbow",
-		},
-		[71204] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Lady Deathwhisper",
-		},
-		[41587] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Phoenix",
-		},
-		[69925] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Kor'kron Oracle",
-		},
-		[71726] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Blood-Queen Lana'thel",
-		},
 		[72762] = {
 			["school"] = 32,
 			["token"] = {
@@ -1334,14 +1234,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "The Lich King",
 		},
-		[69973] = {
-			["school"] = 4,
+		[37027] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Kor'kron Necrolyte",
+			["source"] = "Master Engineer Telonicus",
 		},
 		[69989] = {
 			["school"] = 64,
@@ -1362,31 +1262,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Festergut",
 		},
-		[37027] = {
-			["school"] = 64,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Master Engineer Telonicus",
-		},
-		[70768] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Cult Adherent",
-		},
-		[64160] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Immortal Guardian",
-		},
 		[70659] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -1397,35 +1272,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Cult Fanatic",
 		},
-		[72380] = {
-			["school"] = 1,
+		[69845] = {
+			["school"] = 16,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Deathbringer Saurfang",
-		},
-		[29714] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Midnight",
-		},
-		[70117] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Sindragosa",
-		},
-		[49092] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Ymirjar Harpooner",
+			["source"] = "Frost Bomb",
 		},
 		[64145] = {
 			["school"] = 32,
@@ -1436,6 +1288,56 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Crusher Tentacle",
+		},
+		[69911] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Kor'kron Reaver",
+		},
+		[72380] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Deathbringer Saurfang",
+		},
+		[69705] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Kor'kron Battle-Mage",
+		},
+		[70372] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "The Lich King",
+		},
+		[49092] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Ymirjar Harpooner",
+		},
+		[29714] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Midnight",
 		},
 		[64153] = {
 			["school"] = 8,
@@ -1454,13 +1356,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kor'kron Oracle",
 		},
-		[70372] = {
+		[64775] = {
 			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "The Lich King",
+			["source"] = "Sara",
 		},
 		[69958] = {
 			["school"] = 8,
@@ -1479,21 +1382,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kor'kron Sniper",
 		},
-		[69845] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Frost Bomb",
-		},
-		[36980] = {
+		[64162] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Netherstrand Longbow",
+			["source"] = "Immortal Guardian",
+		},
+		[63134] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Sara",
 		},
 		[71807] = {
 			["school"] = 4,
@@ -1504,13 +1406,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Prince Taldaram",
 		},
-		[64010] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[65301] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Deathsworn Zealot",
+			["source"] = "Sara",
 		},
 		[65719] = {
 			["school"] = 32,
@@ -1520,14 +1423,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Guardian of Yogg-Saron",
 		},
-		[69146] = {
-			["school"] = 16,
+		[69927] = {
+			["school"] = 2,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Coldflame",
+			["source"] = "Kor'kron Vanquisher",
 		},
 		[70341] = {
 			["school"] = 1,
@@ -1551,56 +1455,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Midnight",
 		},
-		[64775] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Sara",
-		},
-		[69927] = {
-			["school"] = 2,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Kor'kron Vanquisher",
-		},
-		[69911] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Kor'kron Reaver",
-		},
-		[50774] = {
+		[36980] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Drakos the Interrogator",
-		},
-		[63038] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Guardian of Yogg-Saron",
-		},
-		[37275] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Crimson Hand Inquisitor",
+			["source"] = "Netherstrand Longbow",
 		},
 		[69975] = {
 			["school"] = 4,
@@ -1613,14 +1475,55 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kor'kron Sniper",
 		},
-		[37036] = {
-			["school"] = 4,
+		[69146] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Coldflame",
+		},
+		[50774] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Master Engineer Telonicus",
+			["source"] = "Drakos the Interrogator",
+		},
+		[70358] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "The Lich King",
+		},
+		[37275] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Crimson Hand Inquisitor",
+		},
+		[63038] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Guardian of Yogg-Saron",
+		},
+		[34996] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Bloodwarder Marshal",
 		},
 		[69242] = {
 			["school"] = 32,
@@ -1661,6 +1564,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "The Lich King",
 		},
+		[64010] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Deathsworn Zealot",
+		},
+		[37036] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Master Engineer Telonicus",
+		},
 		[72143] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -1671,23 +1591,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Shambling Horror",
 		},
-		[71203] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Professor Putricide",
-		},
-		[70358] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "The Lich King",
-		},
 		[71139] = {
 			["school"] = 2,
 			["token"] = {
@@ -1695,13 +1598,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kor'kron Templar",
 		},
-		[69912] = {
+		[70437] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Kor'kron Reaver",
+			["source"] = "Darkfallen Tactician",
 		},
 		[63891] = {
 			["school"] = 8,
@@ -1711,12 +1614,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sara",
 		},
-		[63134] = {
-			["school"] = 32,
+		[69912] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Sara",
+			["source"] = "Kor'kron Reaver",
 		},
 		[29340] = {
 			["school"] = 8,
@@ -1734,23 +1638,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ancient Skeletal Soldier",
 		},
-		[69705] = {
-			["school"] = 32,
+		[70215] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Kor'kron Battle-Mage",
+			["source"] = "Gas Cloud",
 		},
-		[64162] = {
+		[71203] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Immortal Guardian",
+			["source"] = "Professor Putricide",
 		},
 		[48639] = {
 			["school"] = 1,
@@ -1761,45 +1663,45 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ymirjar Warrior",
 		},
-		[65301] = {
+		[70117] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Sindragosa",
+		},
+		[64160] = {
 			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Immortal Guardian",
+		},
+		[69973] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Sara",
+			["source"] = "Kor'kron Necrolyte",
 		},
-		[70437] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Darkfallen Tactician",
-		},
-		[65209] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Guardian of Yogg-Saron",
-		},
-		[70960] = {
-			["school"] = 1,
+		[37274] = {
+			["school"] = 2,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "The Damned",
+			["source"] = "Crimson Hand Inquisitor",
 		},
-		[71316] = {
-			["school"] = 16,
+		[70451] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Frostwarden Warrior",
+			["source"] = "Darkfallen Blood Knight",
 		},
 		[70343] = {
 			["school"] = 1,
@@ -1843,30 +1745,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Unstable Sphere",
 		},
-		[70423] = {
-			["school"] = 1,
+		[41587] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Phoenix",
+		},
+		[71204] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Darkfallen Lieutenant",
+			["source"] = "Lady Deathwhisper",
 		},
-		[69929] = {
-			["school"] = 1,
+		[37268] = {
+			["school"] = 64,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Ymirjar Deathbringer",
-		},
-		[70965] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Nerub'ar Broodkeeper",
+			["source"] = "Crimson Hand Centurion",
 		},
 		[37276] = {
 			["school"] = 32,
@@ -1875,23 +1777,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Crimson Hand Inquisitor",
 		},
-		[72272] = {
-			["school"] = 40,
-			["type"] = "DEBUFF",
+		[64059] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Professor Putricide",
-		},
-		[71778] = {
-			["school"] = 2,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Captain Arnath",
+			["source"] = "Brain of Yogg-Saron",
+		},
+		[39077] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Crimson Hand Blood Knight",
 		},
 		[71029] = {
 			["school"] = 16,
@@ -1901,37 +1799,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Servant of the Throne",
 		},
-		[70451] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Darkfallen Blood Knight",
-		},
-		[101406] = {
+		[59331] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Deathbringer Saurfang",
+			["source"] = "Skadi the Ruthless",
 		},
-		[70594] = {
-			["school"] = 48,
+		[59246] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Cult Adherent",
-		},
-		[36822] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Kael'thas Sunstrider",
+			["source"] = "Ymirjar Witch Doctor",
 		},
 		[70450] = {
 			["school"] = 32,
@@ -1940,22 +1821,37 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Darkfallen Blood Knight",
 		},
-		[72219] = {
-			["school"] = 40,
-			["type"] = "DEBUFF",
+		[36822] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Festergut",
+			["source"] = "Kael'thas Sunstrider",
 		},
-		[71614] = {
-			["school"] = 16,
+		[41290] = {
+			["school"] = 8,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "The Lich King",
+			["source"] = "Vampiric Fiend",
+		},
+		[6016] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Spectral Stable Hand",
+		},
+		[36731] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
 		},
 		[69882] = {
 			["school"] = 8,
@@ -1969,50 +1865,32 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kor'kron Primalist",
 		},
-		[69898] = {
+		[30225] = {
 			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_HEAL"] = true,
-			},
-			["source"] = "Kor'kron Primalist",
-		},
-		[71405] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Prince Keleseth",
-		},
-		[64163] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Yogg-Saron",
-		},
-		[70408] = {
-			["school"] = 64,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Darkfallen Archmage",
+			["source"] = "Thaladred the Darkener",
 		},
-		[71237] = {
-			["school"] = 32,
+		[71022] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Cult Adherent",
+			["source"] = "Deathbound Ward",
+		},
+		[69930] = {
+			["school"] = 2,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Kor'kron Vanquisher",
 		},
 		[68981] = {
 			["school"] = 16,
@@ -2024,13 +1902,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "The Lich King",
 		},
-		[48640] = {
-			["school"] = 1,
+		[71237] = {
+			["school"] = 32,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Cult Adherent",
+		},
+		[70702] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[70759] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ymirjar Warrior",
+			["source"] = "Risen Archmage",
 		},
 		[1604] = {
 			["school"] = 1,
@@ -2049,56 +1944,54 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Darkfallen Advisor",
 		},
-		[69902] = {
-			["school"] = 1,
+		[69712] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Kor'kron Defender",
+			["source"] = "Sindragosa",
 		},
-		[69200] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "The Lich King",
-		},
-		[57688] = {
+		[36132] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Crusher Tentacle",
+			["source"] = "Bloodwarder Marshal",
 		},
-		[72385] = {
+		[29326] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Spectral Stallion",
+		},
+		[44863] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Deathbringer Saurfang",
+			["source"] = "Lord Sanguinar",
 		},
-		[28747] = {
+		[36966] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Shambling Horror",
-		},
-		[36985] = {
-			["school"] = 2,
-			["token"] = {
 				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Cosmic Infuser",
+			["source"] = "Thaladred the Darkener",
+		},
+		[71943] = {
+			["school"] = 96,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Prince Keleseth",
 		},
 		[36982] = {
 			["school"] = 1,
@@ -2116,33 +2009,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kor'kron Primalist",
 		},
-		[36990] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
+		[69967] = {
+			["school"] = 2,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Staff of Disintegration",
+			["source"] = "Kor'kron Templar",
 		},
-		[71020] = {
-			["school"] = 34,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Nerub'ar Broodkeeper",
-		},
-		[36132] = {
-			["school"] = 1,
+		[71736] = {
+			["school"] = 32,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Bloodwarder Marshal",
+			["source"] = "Darkfallen Blood Knight",
+		},
+		[36721] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Phoenix",
 		},
 		[69963] = {
 			["school"] = 2,
@@ -2153,45 +2042,47 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kor'kron Templar",
 		},
-		[29799] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Attumen the Huntsman",
-		},
-		[69934] = {
-			["school"] = 2,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Kor'kron Vanquisher",
-		},
-		[70189] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Spire Gargoyle",
-		},
-		[72149] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Shambling Horror",
-		},
-		[59247] = {
+		[71254] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ymirjar Witch Doctor",
+			["source"] = "Lady Deathwhisper",
+		},
+		[36983] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Cosmic Infuser",
+		},
+		[36991] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Warp Slicer",
+		},
+		[70985] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Blood-Queen Lana'thel",
+		},
+		[69278] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Festergut",
 		},
 		[36815] = {
 			["school"] = 1,
@@ -2210,22 +2101,114 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lord Marrowgar",
 		},
-		[71621] = {
+		[70346] = {
+			["school"] = 40,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Growing Ooze Puddle",
+		},
+		[71893] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Professor Putricide",
 		},
-		[72737] = {
-			["school"] = 64,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Deathbringer Saurfang",
-		},
+	},
+	["emotes"] = {
+		{
+			{
+				0.5120000000006257, -- [1]
+				"You have persevered against some of my best advisors... but none can withstand the might of the Blood Hammer. Behold, Lord Sanguinar!", -- [2]
+				"Kael'thas Sunstrider", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				13.04500000000007, -- [1]
+				"Blood for blood!", -- [2]
+				"Lord Sanguinar", -- [3]
+				7, -- [4]
+			}, -- [2]
+			{
+				14.26600000000144, -- [1]
+				"Capernian will see to it that your stay here is a short one.", -- [2]
+				"Kael'thas Sunstrider", -- [3]
+				7, -- [4]
+			}, -- [3]
+			{
+				20.33500000000095, -- [1]
+				"The sin'dorei reign supreme!", -- [2]
+				"Grand Astromancer Capernian", -- [3]
+				7, -- [4]
+			}, -- [4]
+			{
+				22.74800000000141, -- [1]
+				"Well done, you have proven worthy to test your skills against my master engineer, Telonicus.", -- [2]
+				"Kael'thas Sunstrider", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				31.23400000000038, -- [1]
+				"Anar'alah belore!", -- [2]
+				"Master Engineer Telonicus", -- [3]
+				7, -- [4]
+			}, -- [6]
+			{
+				36.47600000000057, -- [1]
+				"As you see, I have many weapons in my arsenal....", -- [2]
+				"Kael'thas Sunstrider", -- [3]
+				7, -- [4]
+			}, -- [7]
+			{
+				131.0950000000012, -- [1]
+				"Perhaps I underestimated you. It would be unfair to make you fight all four advisors at once, but... fair treatment was never shown to my people. I'm just returning the favor.", -- [2]
+				"Kael'thas Sunstrider", -- [3]
+				7, -- [4]
+			}, -- [8]
+			{
+				144.4660000000004, -- [1]
+				"%s sets eyes on Serthaxion!", -- [2]
+				"Thaladred the Darkener", -- [3]
+				3, -- [4]
+			}, -- [9]
+			{
+				146.5150000000012, -- [1]
+				"Forgive me, my prince! I have... failed.", -- [2]
+				"Thaladred the Darkener", -- [3]
+				7, -- [4]
+			}, -- [10]
+			{
+				147.4930000000004, -- [1]
+				"This is not over!", -- [2]
+				"Grand Astromancer Capernian", -- [3]
+				7, -- [4]
+			}, -- [11]
+			{
+				147.4930000000004, -- [1]
+				"NO! I... will... not...", -- [2]
+				"Lord Sanguinar", -- [3]
+				7, -- [4]
+			}, -- [12]
+			{
+				150.0889999999999, -- [1]
+				"More perils... await...", -- [2]
+				"Master Engineer Telonicus", -- [3]
+				7, -- [4]
+			}, -- [13]
+			{
+				152.8860000000004, -- [1]
+				"Alas, sometimes one must take matters into one's own hands. Balamore shanal!", -- [2]
+				"Kael'thas Sunstrider", -- [3]
+				7, -- [4]
+			}, -- [14]
+			{
+				156.585000000001, -- [1]
+				"I have not come this far to be stopped! The future I have planned will not be jeopardized! Now you will taste true power!!", -- [2]
+				"Kael'thas Sunstrider", -- [3]
+				7, -- [4]
+			}, -- [15]
+			["boss"] = "Kael'thas Sunstrider",
+		}, -- [1]
 	},
 }

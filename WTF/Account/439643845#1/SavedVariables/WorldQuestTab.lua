@@ -66,22 +66,37 @@ BWQDB = {
 		["versionCheck"] = "9.0.08.2",
 		["profiles"] = {
 			[0] = {
+				["name"] = "Default",
 				["colors"] = {
 				},
-				["name"] = "Default",
 				["list"] = {
-				},
-				["external"] = {
-					["TomTom"] = {
-					},
-				},
-				["pin"] = {
 				},
 				["general"] = {
 					["useLFGButtons"] = true,
 					["sortBy"] = 6,
 				},
+				["pin"] = {
+				},
+				["external"] = {
+					["TomTom"] = {
+					},
+				},
 				["filters"] = {
+					[3] = {
+						["flags"] = {
+							["Conduits"] = false,
+							["Honor"] = false,
+							["Reputation"] = false,
+							["Experience"] = false,
+							["Currency"] = false,
+							["Item"] = false,
+							["Gold"] = false,
+							["Armor"] = false,
+							["Relic"] = false,
+							["Artifact"] = false,
+							["None"] = false,
+						},
+					},
 				},
 			},
 		},

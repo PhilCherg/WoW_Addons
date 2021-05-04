@@ -44,6 +44,12 @@ HandyNotes_ShadowlandsDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
+			["icon_display_pet_battles"] = false,
+			["icon_display_slime_cat"] = false,
+			["icon_display_rares"] = false,
+			["icon_display_treasures"] = false,
+			["use_char_achieves"] = true,
+			["hide_done_rares"] = true,
 		},
 	},
 }

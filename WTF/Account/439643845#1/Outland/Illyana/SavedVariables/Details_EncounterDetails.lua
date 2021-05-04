@@ -3,98 +3,98 @@ EncounterDetailsDB = {
 	["emotes"] = {
 		{
 			{
-				0.2010000000009313, -- [1]
-				"Prepare yourselves!", -- [2]
-				"Thaladred the Darkener", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				1.818999999999505, -- [1]
+				0.8580000000001746, -- [1]
 				"You have persevered against some of my best advisors... but none can withstand the might of the Blood Hammer. Behold, Lord Sanguinar!", -- [2]
 				"Kael'thas Sunstrider", -- [3]
 				7, -- [4]
-			}, -- [2]
+			}, -- [1]
 			{
-				14.71199999999953, -- [1]
+				13.36299999999756, -- [1]
 				"Blood for blood!", -- [2]
 				"Lord Sanguinar", -- [3]
 				7, -- [4]
-			}, -- [3]
+			}, -- [2]
 			{
-				16.40099999999984, -- [1]
+				14.96399999999994, -- [1]
 				"Capernian will see to it that your stay here is a short one.", -- [2]
 				"Kael'thas Sunstrider", -- [3]
 				7, -- [4]
-			}, -- [4]
+			}, -- [3]
 			{
-				23.28399999999965, -- [1]
+				21.89899999999761, -- [1]
 				"The sin'dorei reign supreme!", -- [2]
 				"Grand Astromancer Capernian", -- [3]
 				7, -- [4]
-			}, -- [5]
+			}, -- [4]
 			{
-				25.6810000000005, -- [1]
+				23.09799999999814, -- [1]
 				"Well done, you have proven worthy to test your skills against my master engineer, Telonicus.", -- [2]
 				"Kael'thas Sunstrider", -- [3]
 				7, -- [4]
-			}, -- [6]
+			}, -- [5]
 			{
-				34.17200000000048, -- [1]
+				31.61499999999796, -- [1]
 				"Anar'alah belore!", -- [2]
 				"Master Engineer Telonicus", -- [3]
 				7, -- [4]
+			}, -- [6]
+			{
+				35.6620000000039, -- [1]
+				"As you see, I have many weapons in my arsenal....", -- [2]
+				"Kael'thas Sunstrider", -- [3]
+				7, -- [4]
 			}, -- [7]
 			{
-				37.78800000000047, -- [1]
-				"As you see, I have many weapons in my arsenal....", -- [2]
+				130.4140000000043, -- [1]
+				"Perhaps I underestimated you. It would be unfair to make you fight all four advisors at once, but... fair treatment was never shown to my people. I'm just returning the favor.", -- [2]
 				"Kael'thas Sunstrider", -- [3]
 				7, -- [4]
 			}, -- [8]
 			{
-				132.5110000000004, -- [1]
-				"Perhaps I underestimated you. It would be unfair to make you fight all four advisors at once, but... fair treatment was never shown to my people. I'm just returning the favor.", -- [2]
-				"Kael'thas Sunstrider", -- [3]
-				7, -- [4]
+				144.2620000000024, -- [1]
+				"%s sets eyes on Illyana!", -- [2]
+				"Thaladred the Darkener", -- [3]
+				3, -- [4]
 			}, -- [9]
 			{
-				147.0529999999999, -- [1]
+				144.4660000000004, -- [1]
 				"NO! I... will... not...", -- [2]
 				"Lord Sanguinar", -- [3]
 				7, -- [4]
 			}, -- [10]
 			{
-				148.0490000000009, -- [1]
+				145.4539999999979, -- [1]
 				"Forgive me, my prince! I have... failed.", -- [2]
 				"Thaladred the Darkener", -- [3]
 				7, -- [4]
 			}, -- [11]
 			{
-				148.0490000000009, -- [1]
-				"More perils... await...", -- [2]
-				"Master Engineer Telonicus", -- [3]
-				7, -- [4]
-			}, -- [12]
-			{
-				161.5310000000009, -- [1]
+				146.4510000000009, -- [1]
 				"This is not over!", -- [2]
 				"Grand Astromancer Capernian", -- [3]
 				7, -- [4]
+			}, -- [12]
+			{
+				154.5180000000037, -- [1]
+				"More perils... await...", -- [2]
+				"Master Engineer Telonicus", -- [3]
+				7, -- [4]
 			}, -- [13]
 			{
-				164.0930000000008, -- [1]
+				157.2309999999998, -- [1]
 				"Alas, sometimes one must take matters into one's own hands. Balamore shanal!", -- [2]
 				"Kael'thas Sunstrider", -- [3]
 				7, -- [4]
 			}, -- [14]
 			{
-				168.9560000000001, -- [1]
-				"I have not come this far to be stopped! The future I have planned will not be jeopardized! Now you will taste true power!!", -- [2]
+				157.2309999999998, -- [1]
+				"By the power of the sun!", -- [2]
 				"Kael'thas Sunstrider", -- [3]
 				7, -- [4]
 			}, -- [15]
 			{
-				202.9760000000006, -- [1]
-				"Bow to my will!", -- [2]
+				170.5910000000004, -- [1]
+				"I have not come this far to be stopped! The future I have planned will not be jeopardized! Now you will taste true power!!", -- [2]
 				"Kael'thas Sunstrider", -- [3]
 				7, -- [4]
 			}, -- [16]
@@ -2033,10 +2033,10 @@ EncounterDetailsDB = {
 		[70189] = {
 			["school"] = 8,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Spire Gargoyle",
 		},
@@ -11904,12 +11904,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Onyx Brood General",
 		},
-		[197506] = {
-			["school"] = 4,
+		[181126] = {
+			["school"] = 32,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Creeping Doom",
+			["source"] = "Doom Lord Asrogol",
 		},
 		[107215] = {
 			["school"] = 4,
@@ -12276,12 +12278,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Flarecore Ember",
 		},
-		[143765] = {
+		[36981] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Kaz'tik the Manipulator",
+			["source"] = "Devastation",
 		},
 		[61295] = {
 			["school"] = 8,
@@ -12297,14 +12301,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Bloodwarder Marshal",
 		},
-		[36981] = {
+		[143765] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Devastation",
+			["source"] = "Kaz'tik the Manipulator",
 		},
 		[181132] = {
 			["school"] = 4,
@@ -12772,6 +12774,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Air Current",
 		},
+		[76509] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Crazed Mage",
+		},
 		[105174] = {
 			["school"] = 36,
 			["token"] = {
@@ -12779,13 +12788,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Shyanna-Minahonda",
-		},
-		[76509] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Crazed Mage",
 		},
 		[137118] = {
 			["school"] = 1,
@@ -12971,12 +12973,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kael'thas Sunstrider",
 		},
-		[334579] = {
+		[326389] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Erupting Ooze",
+			["source"] = "Echelon",
 		},
 		[203153] = {
 			["school"] = 32,
@@ -13127,14 +13130,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Garothi Worldbreaker",
 		},
-		[138659] = {
-			["school"] = 4,
+		[200084] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Dark Animus",
+			["source"] = "Ghostly Retainer",
 		},
 		[37110] = {
 			["school"] = 4,
@@ -13235,13 +13240,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fire Cyclone",
 		},
-		[182170] = {
-			["school"] = 32,
+		[259975] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Gorefiend",
+			["source"] = "The Sand Queen",
 		},
 		[257650] = {
 			["school"] = 1,
@@ -13259,12 +13265,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Hoptallus",
 		},
-		[101339] = {
-			["school"] = 1,
+		[182171] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Echo of Jaina",
 		},
 		[101625] = {
 			["school"] = 1,
@@ -13294,12 +13300,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Margrave Stradama",
 		},
-		[182171] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[101339] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
+			["source"] = "Echo of Jaina",
 		},
 		[215443] = {
 			["school"] = 8,
@@ -13873,6 +13879,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Vol'kaal",
 		},
+		[28863] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Lady Blaumeux",
+		},
 		[226713] = {
 			["school"] = 32,
 			["token"] = {
@@ -13880,13 +13893,6 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Corrupted Wisp",
-		},
-		[28863] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Lady Blaumeux",
 		},
 		[87622] = {
 			["school"] = 8,
@@ -13904,13 +13910,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Moroes",
 		},
-		[228249] = {
+		[75238] = {
 			["school"] = 4,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Shade of Medivh",
+			["source"] = "Invoked Flaming Spirit",
 		},
 		[100064] = {
 			["school"] = 1,
@@ -14252,13 +14260,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lady Velandras Ravencrest",
 		},
-		[153521] = {
-			["school"] = 1,
+		[145331] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Adept of the Dawn",
+			["source"] = "Garrosh Hellscream",
 		},
 		[115167] = {
 			["school"] = 16,
@@ -14274,12 +14281,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Auralea-ArgentDawn",
 		},
-		[145331] = {
-			["school"] = 32,
+		[153521] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Garrosh Hellscream",
+			["source"] = "Adept of the Dawn",
 		},
 		[108853] = {
 			["school"] = 4,
@@ -14419,13 +14427,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Haunting Nightmare",
 		},
-		[99812] = {
+		[268080] = {
 			["school"] = 1,
-			["type"] = "BUFF",
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Giant Fire Scorpion",
 		},
 		[269104] = {
 			["school"] = 32,
@@ -14489,15 +14496,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Reanimated Mage",
 		},
-		[200105] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[98021] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ghostly Protector",
+			["source"] = "Spirit Link Totem",
 		},
 		[266035] = {
 			["school"] = 1,
@@ -14609,15 +14614,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Grotesque Horror",
 		},
-		[260508] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Soulbound Goliath",
-		},
 		[231843] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -14633,6 +14629,15 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Appolyon-Boulderfist",
+		},
+		[260508] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Soulbound Goliath",
 		},
 		[288158] = {
 			["school"] = 1,
@@ -14664,10 +14669,10 @@ EncounterDetailsDB = {
 		[69869] = {
 			["school"] = 20,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Kor'kron Invoker",
 		},
@@ -14697,15 +14702,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tsulong",
 		},
-		[268088] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Sister Malady",
-		},
 		[228261] = {
 			["school"] = 4,
 			["type"] = "DEBUFF",
@@ -14714,6 +14710,15 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Shade of Medivh",
+		},
+		[268088] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Sister Malady",
 		},
 		[71405] = {
 			["school"] = 32,
@@ -14748,13 +14753,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kor'kron Vanquisher",
 		},
-		[210346] = {
-			["school"] = 32,
+		[113379] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Cenarius",
+			["source"] = "Peril",
 		},
 		[89757] = {
 			["school"] = 5,
@@ -14794,14 +14799,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gorebound Construct",
 		},
-		[75245] = {
-			["school"] = 36,
+		[276282] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Drahga Shadowburner",
+			["source"] = "Galecaller Apprentice",
 		},
 		[197550] = {
 			["school"] = 64,
@@ -14812,12 +14815,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "King Deepbeard",
 		},
-		[205741] = {
-			["school"] = 32,
+		[156601] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Xavius",
+			["source"] = "Marak the Blooded",
 		},
 		[137149] = {
 			["school"] = 8,
@@ -14835,12 +14840,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Naxxramas Acolyte",
 		},
-		[276282] = {
-			["school"] = 8,
+		[79340] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Galecaller Apprentice",
+			["source"] = "High Priestess Azil",
 		},
 		[269116] = {
 			["school"] = 1,
@@ -14850,12 +14855,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Imbued Stormcaller",
 		},
-		[69871] = {
+		[36991] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Plague Scientist",
+			["source"] = "Warp Slicer",
 		},
 		[96488] = {
 			["school"] = 8,
@@ -14864,14 +14869,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Zanzil",
 		},
-		[156601] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[205741] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Marak the Blooded",
+			["source"] = "Xavius",
 		},
 		[181683] = {
 			["school"] = 1,
@@ -14920,12 +14923,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gorebound Construct",
 		},
-		[36991] = {
+		[69871] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Warp Slicer",
+			["source"] = "Plague Scientist",
 		},
 		[29908] = {
 			["school"] = 64,
@@ -15182,15 +15185,6 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
-		[271174] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Pallid Gorger",
-		},
 		[201139] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -15200,6 +15194,15 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Wrathguard Bladelord",
+		},
+		[271174] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Pallid Gorger",
 		},
 		[280389] = {
 			["school"] = 1,
@@ -15483,12 +15486,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Irontide Marauder",
 		},
-		[157122] = {
-			["school"] = 2,
+		[281420] = {
+			["school"] = 16,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Auralea-ArgentDawn",
+			["source"] = "Bilge Rat Brinescale",
 		},
 		[186662] = {
 			["school"] = 4,
@@ -15555,12 +15560,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Smashspite the Hateful",
 		},
-		[93166] = {
-			["school"] = 8,
+		[202680] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Rohash",
+			["source"] = "Serpentrix",
 		},
 		[250096] = {
 			["school"] = 32,
@@ -15776,12 +15783,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fionara",
 		},
-		[254383] = {
-			["school"] = 32,
+		[332617] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Shatug",
+			["source"] = "Doctor Ickus",
 		},
 		[273239] = {
 			["school"] = 4,
@@ -15798,13 +15806,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dread Horror",
 		},
-		[332617] = {
-			["school"] = 8,
+		[116970] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Doctor Ickus",
+			["source"] = "Stone Quilen",
 		},
 		[36970] = {
 			["school"] = 64,
@@ -15940,12 +15947,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ebon Champion",
 		},
-		[116970] = {
-			["school"] = 1,
+		[254383] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Stone Quilen",
+			["source"] = "Shatug",
 		},
 		[198079] = {
 			["school"] = 1,
@@ -16084,14 +16091,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Master Engineer Telonicus",
 		},
-		[202680] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[93166] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Serpentrix",
+			["source"] = "Rohash",
 		},
 		[28407] = {
 			["school"] = 32,
@@ -16126,14 +16131,12 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 		},
-		[281420] = {
-			["school"] = 16,
+		[157122] = {
+			["school"] = 2,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Bilge Rat Brinescale",
+			["source"] = "Auralea-ArgentDawn",
 		},
 		[181190] = {
 			["school"] = 1,
@@ -16446,12 +16449,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rift-Daggerspine",
 		},
-		[79340] = {
-			["school"] = 32,
+		[75245] = {
+			["school"] = 36,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "High Priestess Azil",
+			["source"] = "Drahga Shadowburner",
 		},
 		[196157] = {
 			["school"] = 4,
@@ -16483,13 +16488,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sara",
 		},
-		[113379] = {
-			["school"] = 1,
+		[210346] = {
+			["school"] = 32,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Peril",
+			["source"] = "Cenarius",
 		},
 		[55210] = {
 			["school"] = 32,
@@ -16595,13 +16600,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Commander Ulthok",
 		},
-		[98021] = {
-			["school"] = 8,
+		[200105] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_HEAL"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Spirit Link Totem",
+			["source"] = "Ghostly Protector",
 		},
 		[142929] = {
 			["school"] = 1,
@@ -16622,12 +16629,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kael'thas Sunstrider",
 		},
-		[268080] = {
+		[99812] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
+			["source"] = "Giant Fire Scorpion",
 		},
 		[256955] = {
 			["school"] = 4,
@@ -16944,15 +16952,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Vampiric Fiend",
 		},
-		[75238] = {
+		[228249] = {
 			["school"] = 4,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Invoked Flaming Spirit",
+			["source"] = "Shade of Medivh",
 		},
 		[69968] = {
 			["school"] = 8,
@@ -17305,14 +17311,13 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
-		[259975] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[182170] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "The Sand Queen",
+			["source"] = "Gorefiend",
 		},
 		[145769] = {
 			["school"] = 1,
@@ -17387,16 +17392,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Frenzied Stone Quilen",
 		},
-		[200084] = {
-			["school"] = 32,
+		[138659] = {
+			["school"] = 4,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Ghostly Retainer",
+			["source"] = "Dark Animus",
 		},
 		[137122] = {
 			["school"] = 8,
@@ -17484,13 +17487,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Soulbound Goliath",
 		},
-		[326389] = {
+		[334579] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Echelon",
+			["source"] = "Erupting Ooze",
 		},
 		[106856] = {
 			["school"] = 4,
@@ -18131,14 +18133,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Shadow-Lord Iskar",
 		},
-		[181126] = {
-			["school"] = 32,
+		[197506] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Doom Lord Asrogol",
+			["source"] = "Creeping Doom",
 		},
 		[259711] = {
 			["school"] = 1,

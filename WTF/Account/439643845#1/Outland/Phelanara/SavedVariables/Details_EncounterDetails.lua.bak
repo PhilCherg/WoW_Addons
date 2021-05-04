@@ -3,95 +3,113 @@ EncounterDetailsDB = {
 	["emotes"] = {
 		{
 			{
-				0.842000000000553, -- [1]
-				"You have persevered against some of my best advisors... but none can withstand the might of the Blood Hammer. Behold, Lord Sanguinar!", -- [2]
+				0.1980000000003201, -- [1]
+				"Energy. Power. My people are addicted to it... a dependence made manifest after the Sunwell was destroyed. Welcome to the future. A pity you are too late to stop it. No one can stop me now! Selama ashal'anore!", -- [2]
 				"Kael'thas Sunstrider", -- [3]
 				7, -- [4]
 			}, -- [1]
 			{
-				13.33699999999953, -- [1]
-				"Blood for blood!", -- [2]
-				"Lord Sanguinar", -- [3]
+				25.30000000000109, -- [1]
+				"Let us see how your nerves hold up against the Darkener, Thaladred! ", -- [2]
+				"Kael'thas Sunstrider", -- [3]
 				7, -- [4]
 			}, -- [2]
 			{
-				14.93900000000031, -- [1]
-				"Capernian will see to it that your stay here is a short one.", -- [2]
-				"Kael'thas Sunstrider", -- [3]
+				31.40800000000127, -- [1]
+				"Prepare yourselves!", -- [2]
+				"Thaladred the Darkener", -- [3]
 				7, -- [4]
 			}, -- [3]
 			{
-				21.83699999999953, -- [1]
-				"The sin'dorei reign supreme!", -- [2]
-				"Grand Astromancer Capernian", -- [3]
+				33.01900000000023, -- [1]
+				"You have persevered against some of my best advisors... but none can withstand the might of the Blood Hammer. Behold, Lord Sanguinar!", -- [2]
+				"Kael'thas Sunstrider", -- [3]
 				7, -- [4]
 			}, -- [4]
 			{
-				25.47700000000077, -- [1]
-				"Well done, you have proven worthy to test your skills against my master engineer, Telonicus.", -- [2]
-				"Kael'thas Sunstrider", -- [3]
+				45.56000000000131, -- [1]
+				"Blood for blood!", -- [2]
+				"Lord Sanguinar", -- [3]
 				7, -- [4]
 			}, -- [5]
 			{
-				33.95600000000013, -- [1]
-				"Anar'alah belore!", -- [2]
-				"Master Engineer Telonicus", -- [3]
+				47.99300000000039, -- [1]
+				"Capernian will see to it that your stay here is a short one.", -- [2]
+				"Kael'thas Sunstrider", -- [3]
 				7, -- [4]
 			}, -- [6]
 			{
-				37.96900000000096, -- [1]
-				"As you see, I have many weapons in my arsenal....", -- [2]
-				"Kael'thas Sunstrider", -- [3]
+				54.06700000000092, -- [1]
+				"The sin'dorei reign supreme!", -- [2]
+				"Grand Astromancer Capernian", -- [3]
 				7, -- [4]
 			}, -- [7]
 			{
-				132.5950000000012, -- [1]
-				"Perhaps I underestimated you. It would be unfair to make you fight all four advisors at once, but... fair treatment was never shown to my people. I'm just returning the favor.", -- [2]
+				56.48100000000159, -- [1]
+				"Well done, you have proven worthy to test your skills against my master engineer, Telonicus.", -- [2]
 				"Kael'thas Sunstrider", -- [3]
 				7, -- [4]
 			}, -- [8]
 			{
-				145.9060000000009, -- [1]
-				"More perils... await...", -- [2]
+				64.59500000000116, -- [1]
+				"Anar'alah belore!", -- [2]
 				"Master Engineer Telonicus", -- [3]
 				7, -- [4]
 			}, -- [9]
 			{
-				145.9060000000009, -- [1]
-				"%s sets eyes on Phelanara!", -- [2]
-				"Thaladred the Darkener", -- [3]
-				3, -- [4]
+				69.04200000000128, -- [1]
+				"As you see, I have many weapons in my arsenal....", -- [2]
+				"Kael'thas Sunstrider", -- [3]
+				7, -- [4]
 			}, -- [10]
 			{
-				145.9060000000009, -- [1]
-				"This is not over!", -- [2]
-				"Grand Astromancer Capernian", -- [3]
+				163.5880000000016, -- [1]
+				"Perhaps I underestimated you. It would be unfair to make you fight all four advisors at once, but... fair treatment was never shown to my people. I'm just returning the favor.", -- [2]
+				"Kael'thas Sunstrider", -- [3]
 				7, -- [4]
 			}, -- [11]
 			{
-				145.9060000000009, -- [1]
-				"NO! I... will... not...", -- [2]
-				"Lord Sanguinar", -- [3]
+				176.8370000000014, -- [1]
+				"More perils... await...", -- [2]
+				"Master Engineer Telonicus", -- [3]
 				7, -- [4]
 			}, -- [12]
 			{
-				146.6470000000008, -- [1]
+				177.2170000000006, -- [1]
 				"Forgive me, my prince! I have... failed.", -- [2]
 				"Thaladred the Darkener", -- [3]
 				7, -- [4]
 			}, -- [13]
 			{
-				149.5640000000003, -- [1]
-				"Alas, sometimes one must take matters into one's own hands. Balamore shanal!", -- [2]
-				"Kael'thas Sunstrider", -- [3]
+				177.2170000000006, -- [1]
+				"NO! I... will... not...", -- [2]
+				"Lord Sanguinar", -- [3]
 				7, -- [4]
 			}, -- [14]
 			{
-				154.4570000000003, -- [1]
+				177.2170000000006, -- [1]
+				"This is not over!", -- [2]
+				"Grand Astromancer Capernian", -- [3]
+				7, -- [4]
+			}, -- [15]
+			{
+				180.4240000000009, -- [1]
+				"Alas, sometimes one must take matters into one's own hands. Balamore shanal!", -- [2]
+				"Kael'thas Sunstrider", -- [3]
+				7, -- [4]
+			}, -- [16]
+			{
+				184.0150000000012, -- [1]
+				"By the power of the sun!", -- [2]
+				"Kael'thas Sunstrider", -- [3]
+				7, -- [4]
+			}, -- [17]
+			{
+				193.902, -- [1]
 				"I have not come this far to be stopped! The future I have planned will not be jeopardized! Now you will taste true power!!", -- [2]
 				"Kael'thas Sunstrider", -- [3]
 				7, -- [4]
-			}, -- [15]
+			}, -- [18]
 			["boss"] = "Kael'thas Sunstrider",
 		}, -- [1]
 	},
@@ -285,6 +303,7 @@ EncounterDetailsDB = {
 		[41587] = {
 			["school"] = 4,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Phoenix",
@@ -312,15 +331,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Master Engineer Telonicus",
 		},
-		[37018] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[35947] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Grand Astromancer Capernian",
+			["source"] = "Bloodwarder Marshal",
 		},
 		[35949] = {
 			["school"] = 1,
@@ -330,12 +346,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Bloodwarder Marshal",
 		},
-		[29799] = {
-			["school"] = 1,
+		[37036] = {
+			["school"] = 4,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Attumen the Huntsman",
+			["source"] = "Master Engineer Telonicus",
 		},
 		[37276] = {
 			["school"] = 32,
@@ -366,14 +384,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Thaladred the Darkener",
 		},
-		[37036] = {
+		[36721] = {
 			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Master Engineer Telonicus",
+			["source"] = "Phoenix",
 		},
 		[1604] = {
 			["school"] = 1,
@@ -392,12 +408,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Grand Astromancer Capernian",
 		},
-		[36721] = {
-			["school"] = 4,
+		[29799] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Phoenix",
+			["source"] = "Attumen the Huntsman",
 		},
 		[36723] = {
 			["school"] = 1,
@@ -454,6 +470,7 @@ EncounterDetailsDB = {
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Phoenix",
@@ -489,12 +506,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Spectral Stallion",
 		},
-		[35947] = {
-			["school"] = 1,
+		[37018] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_HEAL"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Bloodwarder Marshal",
+			["source"] = "Grand Astromancer Capernian",
 		},
 		[36797] = {
 			["school"] = 32,

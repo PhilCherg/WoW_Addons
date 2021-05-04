@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0417,
+	["LastVersion"] = 2.0418,
 	["LastPlayerFullName"] = "Xanthoros-Outland",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
@@ -12,8 +12,8 @@ PawnOptions = {
 		}, -- [1]
 		{
 			["ID"] = 158075,
-			["Level"] = 55,
-			["Link"] = "|cffe6cc80|Hitem:158075::::::::50:103::11:4:4932:4933:4935:1469::::|h[Heart of Azeroth]|h|r",
+			["Level"] = 58,
+			["Link"] = "|cffe6cc80|Hitem:158075::::::::50:103::11:4:4932:4933:4935:1472::::|h[Heart of Azeroth]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 112668,

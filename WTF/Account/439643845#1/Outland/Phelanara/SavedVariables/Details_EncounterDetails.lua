@@ -201,12 +201,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kael'thas Sunstrider",
 		},
-		[35947] = {
-			["school"] = 1,
+		[37018] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_HEAL"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Bloodwarder Marshal",
+			["source"] = "Grand Astromancer Capernian",
 		},
 		[16496] = {
 			["school"] = 1,
@@ -217,15 +220,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Master Engineer Telonicus",
 		},
-		[37018] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[35947] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Grand Astromancer Capernian",
+			["source"] = "Bloodwarder Marshal",
 		},
 		[35949] = {
 			["school"] = 1,
@@ -298,12 +298,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Grand Astromancer Capernian",
 		},
-		[29799] = {
-			["school"] = 1,
+		[37036] = {
+			["school"] = 4,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Attumen the Huntsman",
+			["source"] = "Master Engineer Telonicus",
 		},
 		[36723] = {
 			["school"] = 1,
@@ -379,21 +381,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Warp Slicer",
 		},
+		[29799] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Attumen the Huntsman",
+		},
 		[36721] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Phoenix",
-		},
-		[37036] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Master Engineer Telonicus",
 		},
 		[37271] = {
 			["school"] = 64,
@@ -421,113 +421,119 @@ EncounterDetailsDB = {
 	["emotes"] = {
 		{
 			{
-				0.1980000000003201, -- [1]
+				0.2099999999991269, -- [1]
 				"Energy. Power. My people are addicted to it... a dependence made manifest after the Sunwell was destroyed. Welcome to the future. A pity you are too late to stop it. No one can stop me now! Selama ashal'anore!", -- [2]
 				"Kael'thas Sunstrider", -- [3]
 				7, -- [4]
 			}, -- [1]
 			{
-				25.30000000000109, -- [1]
+				25.2760000000053, -- [1]
 				"Let us see how your nerves hold up against the Darkener, Thaladred! ", -- [2]
 				"Kael'thas Sunstrider", -- [3]
 				7, -- [4]
 			}, -- [2]
 			{
-				31.40800000000127, -- [1]
+				31.32700000000477, -- [1]
 				"Prepare yourselves!", -- [2]
 				"Thaladred the Darkener", -- [3]
 				7, -- [4]
 			}, -- [3]
 			{
-				33.01900000000023, -- [1]
+				32.94900000000052, -- [1]
 				"You have persevered against some of my best advisors... but none can withstand the might of the Blood Hammer. Behold, Lord Sanguinar!", -- [2]
 				"Kael'thas Sunstrider", -- [3]
 				7, -- [4]
 			}, -- [4]
 			{
-				45.56000000000131, -- [1]
+				45.87299999999959, -- [1]
 				"Blood for blood!", -- [2]
 				"Lord Sanguinar", -- [3]
 				7, -- [4]
 			}, -- [5]
 			{
-				47.99300000000039, -- [1]
+				47.45799999999872, -- [1]
 				"Capernian will see to it that your stay here is a short one.", -- [2]
 				"Kael'thas Sunstrider", -- [3]
 				7, -- [4]
 			}, -- [6]
 			{
-				54.06700000000092, -- [1]
+				54.36800000000221, -- [1]
 				"The sin'dorei reign supreme!", -- [2]
 				"Grand Astromancer Capernian", -- [3]
 				7, -- [4]
 			}, -- [7]
 			{
-				56.48100000000159, -- [1]
+				65.28199999999924, -- [1]
 				"Well done, you have proven worthy to test your skills against my master engineer, Telonicus.", -- [2]
 				"Kael'thas Sunstrider", -- [3]
 				7, -- [4]
 			}, -- [8]
 			{
-				64.59500000000116, -- [1]
+				73.75200000000041, -- [1]
 				"Anar'alah belore!", -- [2]
 				"Master Engineer Telonicus", -- [3]
 				7, -- [4]
 			}, -- [9]
 			{
-				69.04200000000128, -- [1]
+				77.3640000000014, -- [1]
 				"As you see, I have many weapons in my arsenal....", -- [2]
 				"Kael'thas Sunstrider", -- [3]
 				7, -- [4]
 			}, -- [10]
 			{
-				163.5880000000016, -- [1]
+				171.8729999999996, -- [1]
 				"Perhaps I underestimated you. It would be unfair to make you fight all four advisors at once, but... fair treatment was never shown to my people. I'm just returning the favor.", -- [2]
 				"Kael'thas Sunstrider", -- [3]
 				7, -- [4]
 			}, -- [11]
 			{
-				176.8370000000014, -- [1]
-				"More perils... await...", -- [2]
-				"Master Engineer Telonicus", -- [3]
-				7, -- [4]
-			}, -- [12]
-			{
-				177.2170000000006, -- [1]
-				"Forgive me, my prince! I have... failed.", -- [2]
-				"Thaladred the Darkener", -- [3]
-				7, -- [4]
-			}, -- [13]
-			{
-				177.2170000000006, -- [1]
-				"NO! I... will... not...", -- [2]
-				"Lord Sanguinar", -- [3]
-				7, -- [4]
-			}, -- [14]
-			{
-				177.2170000000006, -- [1]
+				184.2050000000018, -- [1]
 				"This is not over!", -- [2]
 				"Grand Astromancer Capernian", -- [3]
 				7, -- [4]
+			}, -- [12]
+			{
+				184.2050000000018, -- [1]
+				"NO! I... will... not...", -- [2]
+				"Lord Sanguinar", -- [3]
+				7, -- [4]
+			}, -- [13]
+			{
+				184.5280000000057, -- [1]
+				"More perils... await...", -- [2]
+				"Master Engineer Telonicus", -- [3]
+				7, -- [4]
+			}, -- [14]
+			{
+				185.0690000000031, -- [1]
+				"Forgive me, my prince! I have... failed.", -- [2]
+				"Thaladred the Darkener", -- [3]
+				7, -- [4]
 			}, -- [15]
 			{
-				180.4240000000009, -- [1]
+				187.6290000000008, -- [1]
 				"Alas, sometimes one must take matters into one's own hands. Balamore shanal!", -- [2]
 				"Kael'thas Sunstrider", -- [3]
 				7, -- [4]
 			}, -- [16]
 			{
-				184.0150000000012, -- [1]
+				194.8899999999994, -- [1]
 				"By the power of the sun!", -- [2]
 				"Kael'thas Sunstrider", -- [3]
 				7, -- [4]
 			}, -- [17]
 			{
-				193.902, -- [1]
+				198.5430000000051, -- [1]
 				"I have not come this far to be stopped! The future I have planned will not be jeopardized! Now you will taste true power!!", -- [2]
 				"Kael'thas Sunstrider", -- [3]
 				7, -- [4]
 			}, -- [18]
+			{
+				249.4270000000033, -- [1]
+				"By the power of the sun!", -- [2]
+				"Kael'thas Sunstrider", -- [3]
+				7, -- [4]
+			}, -- [19]
 			["boss"] = "Kael'thas Sunstrider",
 		}, -- [1]
 	},

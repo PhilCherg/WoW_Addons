@@ -24,512 +24,6 @@ ElvCharacterDB = {
 	},
 	["ChatHistoryLog"] = {
 		{
-			"<NOVA> Selling CN - Castle Nathria 10/10HC For Only 300k + PER Trader for 130k  || Sire Lastboss  50k  /  Mythic CN Raid  || + M + 0 - 20+ / M+10 79k / M+12 99k / M+14 110k / M+15 200k || M+16 430k / M+17 620k / KeystoneMaster 1490k /w For More Info..", -- [1]
-			"Monkeydream-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Monkeydream-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1413, -- [11]
-			"Player-1301-0BEBDED6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Monkeydream|r",
-			[51] = 1619448439,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"är inte rädd föro flyyygaaaaaa", -- [1]
-			"Gladiáv-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gladiáv-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1414, -- [11]
-			"Player-1301-09342002", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Gladiáv|r",
-			[51] = 1619448456,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"<NOVA> Mega Sale ( Sire HC 50k ) ( Castle Nathria Only For 300k Vip Trader 130k)  We Also Selling M+ [ 10 - 20 ] +16 430k  +15  200k  +14  110k  +12  99k  +10  79k  /  Big Discount For Keystone Master ( All  +15s  Time  1490k ) /w for", -- [1]
-			"Novalovely-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novalovely-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1415, -- [11]
-			"Player-1301-0BF07A9F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Novalovely|r",
-			[51] = 1619448460,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"WTS|cffffff00|Hachievement:11987:Player-3686-098BAA61:1:8:17:20:4294967295:4294967295:4294967295:4294967295|h[Glory of the Argus Raider]|h|r=|cff71d5ff|Hspell:253087:0|h[Antoran Gloomhound]|h|rFor 80k/Start At 18:30 Realm Time /w !", -- [1]
-			"Hiverminder-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Hiverminder-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1416, -- [11]
-			"Player-1301-0BA20152", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaHiverminder|r",
-			[51] = 1619448464,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"WTS boost mythic 15-17 for gold wis me for more info...", -- [1]
-			"Bestshåmy-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Bestshåmy-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1417, -- [11]
-			"Player-1301-0877B8D3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcBestshåmy|r",
-			[51] = 1619448474,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
-		{
-			"jag känner mig.. somm. en sattelit. högyt upp ide blåååå", -- [1]
-			"Gladiáv-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gladiáv-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1418, -- [11]
-			"Player-1301-09342002", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Gladiáv|r",
-			[51] = 1619448478,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
-		{
-			"WTS CN HEROIC І Start in 17 30 cest І  FULL RUN 10/10 І  Guild run  І  Fast And smooth І DISCOUNTED SPOTS LEFT  І  PST for info!  200k!!!", -- [1]
-			"Goldus-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Goldus-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			482, -- [11]
-			"Player-1301-0BC8B3EC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cGoldus|r",
-			[51] = 1619533527,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
-		{
-			"<Nova> Get your M+ in time $SALE$ [+10=79K], [+12=99k], [+15 in time = 200K] [KSM = 1490K], pack offers with free armor stack. We also boost for Raid, $SALE$ PVP & TORGHAST...get yours today!!. /W for more info", -- [1]
-			"Edren-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Edren-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			488, -- [11]
-			"Player-1301-0BF6BA42", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Edren|r",
-			[51] = 1619533536,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
-		{
-			"WTS Castle Nathria HEROIC І Start in 17.30 CEST or Server Time І  FULL RUN 10/10 І  Guild run  І  Fast And smooth  І  Get you 213+ iLvl gear TONIGHT  І  PST for info!!", -- [1]
-			"Misjetta-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Misjetta-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			492, -- [11]
-			"Player-1301-0A6F2A2E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Misjetta|r",
-			[51] = 1619533542,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
-		{
-			"<NOVA> Selling CN - Castle Nathria 10/10HC For Only 300k + PER Trader for 130k  || Sire Lastboss  50k  /  Mythic CN Raid  || + M + 0 - 20+ / M+10 79k / M+12 99k / M+14 110k / M+15 200k || M+16 430k / M+17 620k / KeystoneMaster 1490k /w For More Info..", -- [1]
-			"Monkeydream-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Monkeydream-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			507, -- [11]
-			"Player-1301-0BEBDED6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Monkeydream|r",
-			[51] = 1619533630,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
-		{
-			"WTS |cffa335ee|Hitem:182982::::::::60:253::6:5:7187:6652:6935:1498:6646:1:28:753:::|h[Watchful Arbelist's Bracers]|h|r SOCKET 200K", -- [1]
-			"Turenóx-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Turenóx-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			508, -- [11]
-			"Player-1301-051C0C7D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Turenóx|r",
-			[51] = 1619533634,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
-		{
-			"<Nova> Get your M+ in time $SALE$ [+10=79K], [+12=99k], [+15 in time = 200K] [KSM = 1490K], pack offers with free armor stack. We also boost for Raid, $SALE$ PVP & TORGHAST...get yours today!!. /W for more info", -- [1]
-			"Edren-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Edren-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			510, -- [11]
-			"Player-1301-0BF6BA42", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Edren|r",
-			[51] = 1619533643,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
-		{
-			"<RCU> We are selling M+0 to 20, guaranteed intime and all gear traded! Armorstacks and specific keys! We're also offering Castle Nathria HC & Mythic, Torghast, PvP, Mounts & Legacy! Only accepting gold. /W me or visit us in <https://discord.gg/RCU>", -- [1]
-			"Ijustrcuone-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ijustrcuone-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1759, -- [11]
-			"Player-1301-0BF71FB5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Ijustrcuone|r",
-			[51] = 1619620480,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
-		{
-			"<NOVA> Mega Sale ( Castle Nathria Only For 300k Vip Trader 130k) ( Sire HC 50k ) We Also Selling M+ [ 10 - 20 ] +16 430k  +15  200k  +14  110k  +12  99k  +10  79k  /  Big Discount For Keystone Master ( All  +15s  Time  1490k ) /w for", -- [1]
-			"Novalovely-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novalovely-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1760, -- [11]
-			"Player-1301-0BF07A9F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Novalovely|r",
-			[51] = 1619620488,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
-		{
-			"<NOVA> Offering ||Keystone Master (All 15s  = 1490k|| ||M+10=79k|| ||M+12=99k|| ||M+14=110k|| ||M+15  = 200k|| ||M+16=430k|| ||M+17=620k|| ||M+18=900k|| SHARELOOT+ARMORSTACK! [Torghast, PVP 2s, 3s, RBG] /w for more info", -- [1]
-			"Novaselling-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novaselling-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1761, -- [11]
-			"Player-1301-0BF752BB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeNovaselling|r",
-			[51] = 1619620503,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
-		{
-			"<ICECROWN> M +14 115k +15 220k || 4x M+ Vault packages|| KSM = 1650K || 50-60 boost || Legacy-Glory || Torgast 1-8 ||  0-2100 rating!   HC 10/10CN || Mythic CN ||Mounts & Hunter Pets || /w me to book: ) Gold only <3  - Also recruiting boosters ! : )", -- [1]
-			"Disstressed-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Disstressed-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1770, -- [11]
-			"Player-1301-0BF4F4BA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaDisstressed|r",
-			[51] = 1619620540,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
-		{
-			"<NOVA> Selling CN - Castle Nathria 10/10HC For Only 300k + PER Trader for 130k  || Sire Lastboss  50k  /  Mythic CN Raid  || + M + 0 - 20+ / M+10 79k / M+12 99k / M+14 110k / M+15 205k || M+16 430k / M+17 620k / KeystoneMaster 1520k /w For More Info..", -- [1]
-			"Dreamymonk-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Dreamymonk-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1771, -- [11]
-			"Player-1301-0BE429E7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Dreamymonk|r",
-			[51] = 1619620572,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
-		{
-			" |cffffd100|HclubFinder:ClubFinder-1-227775-1301-100794970|h[Guild: Disciples of Chaos]|h|r A newly formed guild looking for Raiders and Socials. We are running heroic raids & mythic+ /w for more info.", -- [1]
-			"Saaoo-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Saaoo-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1773, -- [11]
-			"Player-1301-0BC89384", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Saaoo|r",
-			[51] = 1619620598,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
-		{
-			"[Guild: Shadow Within] is a Social guild who strives to have a balanced Raid and Social Life. We're 10/10 HC and expanding our roster for 9.1. Raid days on Mon and Wed 19.30 - 23.00 CET. During the weeks we do a variety of social events. Whisp for info", -- [1]
-			"Goateater-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Goateater-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1774, -- [11]
-			"Player-1301-0BEDFD77", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Goateater|r",
-			[51] = 1619620604,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
-		{
-			"<RCU> We are selling M+0 to 20, guaranteed intime and all gear traded! Armorstacks and specific keys! We're also offering Castle Nathria HC & Mythic, Torghast, PvP, Mounts & Legacy! Only accepting gold. /W me or visit us in <https://discord.gg/RCU>", -- [1]
-			"Ijustrcuone-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ijustrcuone-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1775, -- [11]
-			"Player-1301-0BF71FB5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Ijustrcuone|r",
-			[51] = 1619620618,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
-		{
-			">>((M+15=200k inTime)) << NBC >> (M+14=110k) >> (M+12=99k) >> (3x15=555k) >> (5x15=875k) >> (4x14=396k) >> (5x12=434k) >> keysToonmaster (all KEy in time +15 ) 1490k >> 10/10 hc/mythic every 30 min", -- [1]
-			"Novalilo-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novalilo-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1776, -- [11]
-			"Player-1301-0BF78495", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cNovalilo|r",
-			[51] = 1619620634,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
-		{
-			"<ICECROWN> M +14 115k +15 220k || 4x M+ Vault packages|| KSM = 1650K || 50-60 boost || Legacy-Glory || Torgast 1-8 ||  0-2100 rating!   HC 10/10CN || Mythic CN ||Mounts & Hunter Pets || /w me to book: ) Gold only <3  - Also recruiting boosters ! : )", -- [1]
-			"Disstressed-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Disstressed-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1777, -- [11]
-			"Player-1301-0BF4F4BA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaDisstressed|r",
-			[51] = 1619620636,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
-		{
-			"<NOVA> Mega Sale ( Castle Nathria Only For 300k Vip Trader 130k) ( Sire HC 50k ) We Also Selling M+ [ 10 - 20 ] +16 430k  +15  200k  +14  110k  +12  99k  +10  79k  /  Big Discount For Keystone Master ( All  +15s  Time  1490k ) /w for", -- [1]
-			"Novalovely-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novalovely-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1778, -- [11]
-			"Player-1301-0BF07A9F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Novalovely|r",
-			[51] = 1619620649,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
-		{
 			"Are You Sitting Half Naked In A Beanbag Chair Eating Cheetos?  Well Buy Some |cffffffff|Hitem:60838::::::::6:259:::::::|h[Mysterious Fortune Card]|h|r s off the AH Now.  You Won't Get A Life, but You Could Win |cffa335ee|Hitem:60844::::::::6:259:::::::|h[Fortune Card]|h|r!!", -- [1]
 			"Kyrafis-Outland", -- [2]
 			"", -- [3]
@@ -550,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Kyrafis|r",
 			[51] = 1619620668,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
+		}, -- [1]
 		{
 			"<NOVA> Offering ||Keystone Master (All 15s  = 1490k|| ||M+10=79k|| ||M+12=99k|| ||M+14=110k|| ||M+15  = 200k|| ||M+16=430k|| ||M+17=620k|| ||M+18=900k|| SHARELOOT+ARMORSTACK! [Torghast, PVP 2s, 3s, RBG] /w for more info", -- [1]
 			"Novaselling-Outland", -- [2]
@@ -572,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeNovaselling|r",
 			[51] = 1619620702,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
+		}, -- [2]
 		{
 			"<ICECROWN> M +14 115k +15 220k || 4x M+ Vault packages|| KSM = 1650K || 50-60 boost || Legacy-Glory || Torgast 1-8 ||  0-2100 rating!   HC 10/10CN || Mythic CN ||Mounts & Hunter Pets || /w me to book: ) Gold only <3  - Also recruiting boosters ! : )", -- [1]
 			"Disstressed-Outland", -- [2]
@@ -594,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDisstressed|r",
 			[51] = 1619620732,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
+		}, -- [3]
 		{
 			"<NOVA> Mega Sale ( Castle Nathria Only For 300k Vip Trader 130k) ( Sire HC 50k ) We Also Selling M+ [ 10 - 20 ] +16 430k  +15  200k  +14  110k  +12  99k  +10  79k  /  Big Discount For Keystone Master ( All  +15s  Time  1490k ) /w for", -- [1]
 			"Novalovely-Outland", -- [2]
@@ -616,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novalovely|r",
 			[51] = 1619622819,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
+		}, -- [4]
 		{
 			"WTS boost mythic 15-17 for gold wis me for more info...", -- [1]
 			"Bestshåmy-Outland", -- [2]
@@ -638,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcBestshåmy|r",
 			[51] = 1619622832,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
+		}, -- [5]
 		{
 			"<ICECROWN> M +14 115k +15 220k || 4x M+ Vault packages|| KSM = 1650K || 50-60 boost || Legacy-Glory || Torgast 1-8 ||  0-2100 rating!   HC 10/10CN || Mythic CN ||Mounts & Hunter Pets || /w me to book: ) Gold only <3  - Also recruiting boosters ! : )", -- [1]
 			"Disstressed-Outland", -- [2]
@@ -660,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDisstressed|r",
 			[51] = 1619622856,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
+		}, -- [6]
 		{
 			"[Guild: Shadow Within] is a Social guild who strives to have a balanced Raid and Social Life. We're 10/10 HC and expanding our roster for 9.1. Raid days on Mon and Wed 19.30 - 23.00 CET. During the weeks we do a variety of social events. Whisp for info", -- [1]
 			"Goatey-Outland", -- [2]
@@ -682,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGoatey|r",
 			[51] = 1619622861,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
+		}, -- [7]
 		{
 			"wtb |cffa335ee|Hitem:95416::::::::60:66:::::::|h[Sky Golem]|h|r", -- [1]
 			"Upsturge-Outland", -- [2]
@@ -704,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Upsturge|r",
 			[51] = 1619622907,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
+		}, -- [8]
 		{
 			">>((M+15=200k inTime)) << NBC >> (M+14=110k) >> (M+12=99k) >> (3x15=555k) >> (5x15=875k) >> (4x14=396k) >> (5x12=434k) >> keysToonmaster (all KEy in time +15 ) 1490k >> 10/10 hc/mythic every 30 min", -- [1]
 			"Novalilo-Outland", -- [2]
@@ -726,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cNovalilo|r",
 			[51] = 1619622939,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
+		}, -- [9]
 		{
 			"3k Season exp WTS 2v2 boost to healers and dps", -- [1]
 			"Hanik-Outland", -- [2]
@@ -748,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHanik|r",
 			[51] = 1619623478,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
+		}, -- [10]
 		{
 			"<RCU> We are selling M+0 to 20, guaranteed intime and all gear traded! Armorstacks and specific keys! We're also offering Castle Nathria HC & Mythic, Torghast, PvP, Mounts & Legacy! Only accepting gold. /W me or visit us in <https://discord.gg/RCU>", -- [1]
 			"Ijustrcuone-Outland", -- [2]
@@ -770,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Ijustrcuone|r",
 			[51] = 1619623480,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
+		}, -- [11]
 		{
 			"<Nova> Selling Boost  M+10=79k / M+14=110k / M+15= 200k /Keystone Master 1.49M /2 run 5%  discount or Stack armor FREE / Selling CASTLE NATHRIA Full HC 300k and per Stack Armor 130k /Curve 50k / Raid Mythic full clear /Torghast Boost /w for info", -- [1]
 			"Nbcboosterr-Outland", -- [2]
@@ -792,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaNbcboosterr|r",
 			[51] = 1619623513,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
+		}, -- [12]
 		{
 			"<NOVA> Selling CN - Castle Nathria 10/10HC For Only 300k + PER Trader for 130k  || Sire Lastboss  50k  /  Mythic CN Raid  || + M + 0 - 20+ / M+10 79k / M+12 99k / M+14 110k / M+15 205k || M+16 430k / M+17 620k / KeystoneMaster 1520k /w For More Info..", -- [1]
 			"Dreamymonk-Outland", -- [2]
@@ -814,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dreamymonk|r",
 			[51] = 1619623520,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
+		}, -- [13]
 		{
 			"<ICECROWN> M +14 115k +15 220k || 4x M+ Vault packages|| KSM = 1650K || 50-60 boost || Legacy-Glory || Torgast 1-8 ||  0-2100 rating!   HC 10/10CN || Mythic CN ||Mounts & Hunter Pets || /w me to book: ) Gold only <3  - Also recruiting boosters ! : )", -- [1]
 			"Disstressed-Outland", -- [2]
@@ -836,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDisstressed|r",
 			[51] = 1619623532,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
+		}, -- [14]
 		{
 			"3k Season exp WTS 2v2 boost to healers and dps", -- [1]
 			"Hanik-Outland", -- [2]
@@ -858,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHanik|r",
 			[51] = 1619623532,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
+		}, -- [15]
 		{
 			"dafuq", -- [1]
 			"Zhaò-Outland", -- [2]
@@ -880,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Zhaò|r",
 			[51] = 1619623548,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
+		}, -- [16]
 		{
 			"wts |cffa335ee|Hitem:184778::::::::60:269::6:4:7187:6652:1498:6646:1:28:753:::|h[Decadent Nathrian Shawl]|h|r offer me", -- [1]
 			"Mehranjoon-Outland", -- [2]
@@ -902,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Mehranjoon|r",
 			[51] = 1619623553,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
+		}, -- [17]
 		{
 			"<К R А К Е N В О О S Т> offering Myth+: m10 - 80k, m12 - 100k, m14 - 145k, m15 - 200k. CN Heroic 10/10 - 275k. Generals- 60k, Denathrius - 50k, Both bosses - 100k! /w me", -- [1]
 			"Loikanos-Outland", -- [2]
@@ -924,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Loikanos|r",
 			[51] = 1619639793,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
+		}, -- [18]
 		{
 			"<NOVA> Selling CN - Castle Nathria 10/10HC For Only 300k + PER Trader for 130k  || Sire Lastboss  50k  /  Mythic CN Raid  || + M + 0 - 20+ / M+10 79k / M+12 99k / M+14 110k / M+15 205k || M+16 430k / M+17 620k / KeystoneMaster 1520k /w For More Info..", -- [1]
 			"Dreamymonk-Outland", -- [2]
@@ -946,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dreamymonk|r",
 			[51] = 1619698396,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
+		}, -- [19]
 		{
 			"<ICECROWN> M +14 110k +15 200k || 4x M+ Vault packages|| KSM = 1500K || 50-60 boost || Legacy-Glory || Torgast 1-8 ||  0-2100 rating!   HC 10/10CN || Mythic CN ||Mounts & Hunter Pets || /w me to book: ) Gold only <3  - Also recruiting boosters ! : )", -- [1]
 			"Disstressed-Outland", -- [2]
@@ -968,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDisstressed|r",
 			[51] = 1619698417,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
+		}, -- [20]
 		{
 			"WTS torghast L8 Cheapest prices!  w/me for more info!", -- [1]
 			"Realrankone-Outland", -- [2]
@@ -990,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Realrankone|r",
 			[51] = 1619698450,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
+		}, -- [21]
 		{
 			"<Nova> Get your M+ in time $SALE$ [+10=79K], [+12=99k], [+15 in time = 200K] [KSM = 1490K], pack offers with free armor stack. We also boost for Raid, $SALE$ PVP & TORGHAST...get yours today!!. /W for more info", -- [1]
 			"Edren-Outland", -- [2]
@@ -1012,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Edren|r",
 			[51] = 1619698471,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [22]
 		{
 			"WTB All CSGO/Dota2/Rust/TF2/Steam Items for Classic/Retail Gold go to trade-raid.com", -- [1]
 			"Tradederaids-Outland", -- [2]
@@ -1034,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcTradederaids|r",
 			[51] = 1619698475,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
+		}, -- [23]
 		{
 			">>((M+15=200k inTime)) << NBC >> (M+14=110k) >> (M+12=99k) >> (3x15=555k) >> (5x15=875k) >> (4x14=396k) >> (5x12=434k) >> keysToonmaster (all KEy in time +15 ) 1490k >> 10/10 hc/mythic every 30 min", -- [1]
 			"Novalilo-Outland", -- [2]
@@ -1056,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cNovalilo|r",
 			[51] = 1619698888,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
+		}, -- [24]
 		{
 			"<ICECROWN> M +14 110k +15 200k || 4x M+ Vault packages|| KSM = 1500K || 50-60 boost || Legacy-Glory || Torgast 1-8 ||  0-2100 rating!   HC 10/10CN || Mythic CN ||Mounts & Hunter Pets || /w me to book: ) Gold only <3  - Also recruiting boosters ! : )", -- [1]
 			"Disstressed-Outland", -- [2]
@@ -1078,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDisstressed|r",
 			[51] = 1619698899,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [25]
 		{
 			"im offering a steady job for any native English speaker or a Scandinavian with good accent - recording yourself reading wiki pages. prefer age > 23", -- [1]
 			"Cpur-Outland", -- [2]
@@ -1100,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcCpur|r",
 			[51] = 1619698919,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+		}, -- [26]
 		{
 			"<NOVA> Selling CN - Castle Nathria 10/10HC For Only 300k + PER Trader for 130k  || Sire Lastboss  50k  /  Mythic CN Raid  || + M + 0 - 20+ / M+10 79k / M+12 99k / M+14 110k / M+15 205k || M+16 430k / M+17 620k / KeystoneMaster 1520k /w For More Info..", -- [1]
 			"Dreamymonk-Outland", -- [2]
@@ -1122,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dreamymonk|r",
 			[51] = 1619698931,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
+		}, -- [27]
 		{
 			"<NOVA> Mega Sale ( Castle Nathria Only For 300k Vip Trader 130k) ( Sire HC 50k ) We Also Selling M+ [ 10 - 20 ] +16 430k  +15  200k  +14  110k  +12  99k  +10  79k  /  Big Discount For Keystone Master ( All  +15s  Time  1490k ) /w for", -- [1]
 			"Novalovely-Outland", -- [2]
@@ -1144,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novalovely|r",
 			[51] = 1619698943,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
+		}, -- [28]
 		{
 			"WTS torghast L8 Cheapest prices!  w/me for more info!", -- [1]
 			"Realrankone-Outland", -- [2]
@@ -1166,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Realrankone|r",
 			[51] = 1619699010,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [29]
 		{
 			"WTB All CSGO/Dota2/Rust/TF2/Steam Items for Classic/Retail Gold go to trade-raid.com", -- [1]
 			"Tradederaids-Outland", -- [2]
@@ -1188,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcTradederaids|r",
 			[51] = 1619699014,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [30]
 		{
 			"<RCU> We are selling M+0 to 20, guaranteed intime and all gear traded! Armorstacks and specific keys! We're also offering Castle Nathria HC & Mythic, Torghast, PvP, Mounts & Legacy! Only accepting gold. /W me or visit us in <https://discord.gg/RCU>", -- [1]
 			"Ijustrcu-Outland", -- [2]
@@ -1210,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Ijustrcu|r",
 			[51] = 1619699431,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [31]
 		{
 			"WTS torghast L8 Cheapest prices!  w/me for more info!", -- [1]
 			"Realrankone-Outland", -- [2]
@@ -1232,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Realrankone|r",
 			[51] = 1619699432,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [32]
 		{
 			"<NOVA> Selling CN - Castle Nathria 10/10HC For Only 300k + PER Trader for 130k  || Sire Lastboss  50k  /  Mythic CN Raid  || + M + 0 - 20+ / M+10 79k / M+12 99k / M+14 110k / M+15 205k || M+16 430k / M+17 620k / KeystoneMaster 1520k /w For More Info..", -- [1]
 			"Dreamymonk-Outland", -- [2]
@@ -1254,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dreamymonk|r",
 			[51] = 1619699448,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
+		}, -- [33]
 		{
 			"<RCU> We are selling M+0 to 20, guaranteed intime and all gear traded! Armorstacks and specific keys! We're also offering Castle Nathria HC & Mythic, Torghast, PvP, Mounts & Legacy! Only accepting gold. /W me or visit us in <https://discord.gg/RCU>", -- [1]
 			"Ijustrcu-Outland", -- [2]
@@ -1276,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Ijustrcu|r",
 			[51] = 1619699609,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
+		}, -- [34]
 		{
 			"<NOVA> Selling CN - Castle Nathria 10/10HC For Only 300k + PER Trader for 130k  || Sire Lastboss  50k  /  Mythic CN Raid  || + M + 0 - 20+ / M+10 79k / M+12 99k / M+14 110k / M+15 205k || M+16 430k / M+17 620k / KeystoneMaster 1520k /w For More Info..", -- [1]
 			"Dreamymonk-Outland", -- [2]
@@ -1298,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dreamymonk|r",
 			[51] = 1619699612,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [35]
 		{
 			"WTS torghast L8 Cheapest prices!  w/me for more info!", -- [1]
 			"Realrankone-Outland", -- [2]
@@ -1320,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Realrankone|r",
 			[51] = 1619699638,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [36]
 		{
 			"is that TCG mount code ?", -- [1]
 			"Valadrie-Outland", -- [2]
@@ -1342,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaValadrie|r",
 			[51] = 1619706926,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [37]
 		{
 			"<ICECROWN> M +14 110k +15 200k || 4x M+ Vault packages|| KSM = 1500K || 50-60 boost || Legacy-Glory || Torgast 1-8 ||  0-2100 rating!   HC 10/10CN || Mythic CN ||Mounts & Hunter Pets || /w me to book: ) Gold only <3  - 10/10 HC -> 20:00 ST", -- [1]
 			"Disstressed-Outland", -- [2]
@@ -1364,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDisstressed|r",
 			[51] = 1619706942,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [38]
 		{
 			"yes", -- [1]
 			"Leeleelee-Outland", -- [2]
@@ -1386,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Leeleelee|r",
 			[51] = 1619706943,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [39]
 		{
 			"WTS lvl boosting |||| Curv Last boss HC=50k |||| <10-10  Castle Nathria HC=300k> trader +120k |||| M+(10-20) Share loot & Armorstack for (10-15) || M+15=200k || <KSM=1490k> || Torghast & ... W me for more :D", -- [1]
 			"Mythrissen-Outland", -- [2]
@@ -1408,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Mythrissen|r",
 			[51] = 1619706943,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [40]
 		{
 			">>((M+15=200k inTime)) << NBC >> (M+14=110k) >> (M+12=99k) >> (3x15=555k) >> (5x15=875k) >> (4x14=396k) >> (5x12=434k) >> keysToonmaster (all KEy in time +15 ) 1490k >> 10/10 hc/mythic every 30 min", -- [1]
 			"Novalilo-Outland", -- [2]
@@ -1430,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cNovalilo|r",
 			[51] = 1619706951,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [41]
 		{
 			"ah thanks for spectral tiger", -- [1]
 			"Valadrie-Outland", -- [2]
@@ -1452,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaValadrie|r",
 			[51] = 1619706953,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [42]
 		{
 			"<NOVA> Selling CN - Castle Nathria 10/10HC For Only 300k + PER Trader for 130k  || Sire Lastboss  50k  /  Mythic CN Raid  || + M + 0 - 20+ / M+10 79k / M+12 99k / M+14 110k / M+15 205k || M+16 430k / M+17 620k / KeystoneMaster 1520k /w For More Info..", -- [1]
 			"Dreamymonk-Outland", -- [2]
@@ -1474,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dreamymonk|r",
 			[51] = 1619706980,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [43]
 		{
 			"WTB All CSGO/Dota2/Rust/TF2/Steam Items for Classic/Retail Gold go to trade-raid.com", -- [1]
 			"Tradederaids-Outland", -- [2]
@@ -1496,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcTradederaids|r",
 			[51] = 1619712125,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [44]
 		{
 			"yooo can someone help me pls? i need 500g", -- [1]
 			"Gíantcigi-Outland", -- [2]
@@ -1518,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Gíantcigi|r",
 			[51] = 1619712128,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [45]
 		{
 			"for legendary xd", -- [1]
 			"Gíantcigi-Outland", -- [2]
@@ -1540,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Gíantcigi|r",
 			[51] = 1619712132,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [46]
 		{
 			"get a job", -- [1]
 			"Miamalkovaxo-Outland", -- [2]
@@ -1562,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMiamalkovaxo|r",
 			[51] = 1619712135,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [47]
 		{
 			"get a job", -- [1]
 			"Ysl-Outland", -- [2]
@@ -1584,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Ysl|r",
 			[51] = 1619712143,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [48]
 		{
 			"<ICECROWN> M +14 110k +15 200k || 4x M+ Vault packages|| KSM = 1500K || 50-60 boost || Legacy-Glory || Torgast 1-8 ||  0-2100 rating!   HC 10/10CN || Mythic CN ||Mounts & Hunter Pets || /w me to book: ) Gold only <3  - 10/10 HC -> 20:00 ST", -- [1]
 			"Disstressed-Outland", -- [2]
@@ -1606,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDisstressed|r",
 			[51] = 1619712156,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [49]
 		{
 			"riiiiiiip", -- [1]
 			"Gíantcigi-Outland", -- [2]
@@ -1628,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Gíantcigi|r",
 			[51] = 1619712158,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [50]
 		{
 			">>((M+15=200k inTime)) << NBC >> (M+14=110k) >> (M+12=99k) >> (3x15=555k) >> (5x15=875k) >> (4x14=396k) >> (5x12=434k) >> keysToonmaster (all KEy in time +15 ) 1490k >> 10/10 hc/mythic every 30 min", -- [1]
 			"Novalilo-Outland", -- [2]
@@ -1650,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cNovalilo|r",
 			[51] = 1619712183,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [51]
 		{
 			"<NOVA> Selling CN - Castle Nathria 10/10HC For Only 300k + PER Trader for 130k  || Sire Lastboss  50k  /  Mythic CN Raid  || + M + 0 - 20+ / M+10 79k / M+12 99k / M+14 110k / M+15 205k || M+16 430k / M+17 620k / KeystoneMaster 1520k /w For More Info..", -- [1]
 			"Dreamymonk-Outland", -- [2]
@@ -1672,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dreamymonk|r",
 			[51] = 1619712195,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [52]
 		{
 			"<Nangilima>(Outland) 6/10M A reasonably active PVE guild is looking for 1 Healer and 1 DPS for our mythic roster. Socials & Reserves are of course also welcome! We strive to achieve pleasant company and sick loot. Gnomes are allowed. /w", -- [1]
 			"Habbis-Outland", -- [2]
@@ -1694,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Habbis|r",
 			[51] = 1619712224,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [53]
 		{
 			"WTS lvl boosting |||| Curv Last boss HC=50k |||| <10-10  Castle Nathria HC=300k> trader +120k |||| M+(10-20) Share loot & Armorstack for (10-15) || M+15=200k || <KSM=1490k> || Torghast & ... W me for more :D", -- [1]
 			"Mythrissen-Outland", -- [2]
@@ -1716,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Mythrissen|r",
 			[51] = 1619712233,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [54]
 		{
 			"<ICECROWN> M +14 110k +15 200k || 4x M+ Vault packages|| KSM = 1500K || 50-60 boost || Legacy-Glory || Torgast 1-8 ||  0-2100 rating!   HC 10/10CN || Mythic CN ||Mounts & Hunter Pets || /w me to book: ) Gold only <3  - 10/10 HC -> 20:00 ST", -- [1]
 			"Disstressed-Outland", -- [2]
@@ -1738,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDisstressed|r",
 			[51] = 1619712252,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [55]
 		{
 			"WTB All CSGO/Dota2/Rust/TF2/Steam Items for Classic/Retail Gold go to trade-raid.com", -- [1]
 			"Tradederaids-Outland", -- [2]
@@ -1760,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcTradederaids|r",
 			[51] = 1619712260,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [56]
 		{
 			"<NOVA> Offering ||Keystone Master (All 15s  = 1490k|| ||M+10=79k|| ||M+12=99k|| ||M+14=110k|| ||M+15  = 200k|| ||M+16=430k|| ||M+17=620k|| ||M+18=900k|| SHARELOOT+ARMORSTACK! [Torghast, PVP 2s, 3s, RBG] /w for more info", -- [1]
 			"Novaselling-Outland", -- [2]
@@ -1782,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeNovaselling|r",
 			[51] = 1619712274,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [57]
 		{
 			"<Nova> Selling Boost  M+10=79k / M+14=110k / M+15= 200k /Keystone Master 1.49M /2 run 5%  discount or Stack armor FREE / Selling CASTLE NATHRIA Full HC 300k and per Stack Armor 130k /Curve 50k / Raid Mythic full clear /Torghast Boost /w for info", -- [1]
 			"Nbcboosterr-Outland", -- [2]
@@ -1804,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaNbcboosterr|r",
 			[51] = 1619712296,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [58]
 		{
 			"WTB Help with |cffffff00|Hachievement:11987:Player-1301-0BDCCA8F:0:0:0:-1:64:0:0:0|h[Glory of the Argus Raider]|h|r /w me", -- [1]
 			"Edosh-Outland", -- [2]
@@ -1826,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cEdosh|r",
 			[51] = 1619712339,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [59]
 		{
 			"<ICECROWN> M +14 110k +15 200k || 4x M+ Vault packages|| KSM = 1500K || 50-60 boost || Legacy-Glory || Torgast 1-8 ||  0-2100 rating!   HC 10/10CN || Mythic CN ||Mounts & Hunter Pets || /w me to book: ) Gold only <3  - 10/10 HC -> 20:00 ST", -- [1]
 			"Disstressed-Outland", -- [2]
@@ -1848,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDisstressed|r",
 			[51] = 1619712349,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [60]
 		{
 			">>((M+15=200k inTime)) << NBC >> (M+14=110k) >> (M+12=99k) >> (3x15=555k) >> (5x15=875k) >> (4x14=396k) >> (5x12=434k) >> keysToonmaster (all KEy in time +15 ) 1490k >> 10/10 hc/mythic every 30 min", -- [1]
 			"Novalilo-Outland", -- [2]
@@ -1870,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cNovalilo|r",
 			[51] = 1619712353,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [61]
 		{
 			"<Nangilima>(Outland) 6/10M A reasonably active PVE guild is looking for 1 Healer and 1 DPS for our mythic roster. Socials & Reserves are of course also welcome! We strive to achieve pleasant company and sick loot. Gnomes are allowed. /w", -- [1]
 			"Habbis-Outland", -- [2]
@@ -1892,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Habbis|r",
 			[51] = 1619712354,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [62]
 		{
 			"WTB |cffffff00|Hachievement:11987:Player-1301-0BDCCA8F:0:0:0:-1:64:0:0:0|h[Glory of the Argus Raider]|h|r /w me", -- [1]
 			"Edosh-Outland", -- [2]
@@ -1914,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cEdosh|r",
 			[51] = 1619712380,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [63]
 		{
 			"WTB a tank for lvling - i need u for the long run", -- [1]
 			"Wallstickers-Outland", -- [2]
@@ -1936,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Wallstickers|r",
 			[51] = 1619717013,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [64]
 		{
 			"<Nova> Selling Boost  M+10=79k / M+14=110k / M+15= 200k /Keystone Master 1.49M /2 run 5%  discount or Stack armor FREE / Selling CASTLE NATHRIA Full HC 300k and per Stack Armor 130k /Curve 50k / Raid Mythic full clear /Torghast Boost /w for info", -- [1]
 			"Nbcboosterr-Outland", -- [2]
@@ -1958,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaNbcboosterr|r",
 			[51] = 1619717019,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [65]
 		{
 			"alliance and horde", -- [1]
 			"Wallstickers-Outland", -- [2]
@@ -1980,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Wallstickers|r",
 			[51] = 1619717020,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [66]
 		{
 			"|cffffd100|HclubFinder:ClubFinder-1-222813-1301-102436968|h[Guild: Stand Firm]|h|r Easy going PvP Guild are now recruiting! New to Outland, Adult oriented guild, Arena, RBG, Social. Not serious just relaxed guild with a focus on PVP! But all Welcome!", -- [1]
 			"Bwez-Outland", -- [2]
@@ -2002,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Bwez|r",
 			[51] = 1619717022,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [67]
 		{
 			"<ICECROWN> M +14 110k +15 200k || 4x M+ Vault packages|| KSM = 1500K || 50-60 boost || Legacy-Glory || Torgast 1-8 ||  0-2100 rating!   HC 10/10CN || Mythic CN ||Mounts & Hunter Pets || /w me to book: ) Gold only <3  -", -- [1]
 			"Disstressed-Outland", -- [2]
@@ -2024,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDisstressed|r",
 			[51] = 1619717176,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [68]
 		{
 			"LFM BFA mythic mount runs (Freehold - Kings rest & The underrot)", -- [1]
 			"Happycoaty-Outland", -- [2]
@@ -2046,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Happycoaty|r",
 			[51] = 1619717351,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [69]
 		{
 			"<Nova> Selling Boost  M+10=79k / M+14=110k / M+15= 200k /Keystone Master 1.49M /2 run 5%  discount or Stack armor FREE / Selling CASTLE NATHRIA Full HC 300k and per Stack Armor 130k /Curve 50k / Raid Mythic full clear /Torghast Boost /w for info", -- [1]
 			"Exoservices-Outland", -- [2]
@@ -2068,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaExoservices|r",
 			[51] = 1619717360,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [70]
 		{
 			"<ICECROWN> M +14 110k +15 200k || 4x M+ Vault packages|| KSM = 1500K || 50-60 boost || Legacy-Glory || Torgast 1-8 ||  0-2100 rating!   HC 10/10CN || Mythic CN ||Mounts & Hunter Pets || /w me to book: ) Gold only <3  -", -- [1]
 			"Disstressed-Outland", -- [2]
@@ -2090,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDisstressed|r",
 			[51] = 1619717369,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [71]
 		{
 			"<NOVA> Selling CN - Castle Nathria 10/10HC For Only 300k + PER Trader for 130k  || Sire Lastboss  50k  /  Mythic CN Raid  || + M + 0 - 20+ / M+10 79k / M+12 99k / M+14 110k / M+15 205k || M+16 430k / M+17 620k / KeystoneMaster 1520k /w For More Info..", -- [1]
 			"Dreamymonk-Outland", -- [2]
@@ -2112,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dreamymonk|r",
 			[51] = 1619717403,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [72]
 		{
 			"WTB ALL KIND OF SHADOWLANDS HERB! /W FOR PRICES!", -- [1]
 			"Rexiá-Outland", -- [2]
@@ -2134,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcRexiá|r",
 			[51] = 1619717408,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [73]
 		{
 			"LFm warfront: stormgarde HC (bfa content) join via group finder!! NEED 1 more", -- [1]
 			"Melunae-Outland", -- [2]
@@ -2156,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMelunae|r",
 			[51] = 1619722996,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [74]
 		{
 			"LFm warfront: stormgarde HC (bfa content) join via group finder!! need 1 more", -- [1]
 			"Melunae-Outland", -- [2]
@@ -2178,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMelunae|r",
 			[51] = 1619723053,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [75]
 		{
 			"<ICECROWN> M +14 110k +15 200k || 4x M+ Vault packages|| KSM = 1500K || 50-60 boost || Legacy-Glory || Torgast 1-8 ||  0-2100 rating!   HC 10/10CN || Mythic CN ||Mounts & Hunter Pets || /w me to book: ) Gold only <3  -", -- [1]
 			"Disstressed-Outland", -- [2]
@@ -2199,6 +1693,512 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "|cff3ec6eaDisstressed|r",
 			[51] = 1619723064,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [76]
+		{
+			">>((M+15=200k inTime)) << NBC >> (M+14=110k) >> (M+12=99k) >> (3x15=555k) >> (5x15=875k) >> (4x14=396k) >> (5x12=434k) >> keysToonmaster (all KEy in time +15 ) 1490k >> 10/10 hc/mythic every 30 min", -- [1]
+			"Novalilo-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Novalilo-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1266, -- [11]
+			"Player-1301-0BF78495", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cNovalilo|r",
+			[51] = 1619806926,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [77]
+		{
+			"<Nova> Selling Boost  M+10=79k / M+14=110k / M+15= 200k /Keystone Master 1.49M /2 run 5%  discount or Stack armor FREE / Selling CASTLE NATHRIA Full HC 300k and per Stack Armor 130k /Curve 50k / Raid Mythic full clear /Torghast Boost /w for info", -- [1]
+			"Exoservices-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Exoservices-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1267, -- [11]
+			"Player-1301-0BDA7B25", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaExoservices|r",
+			[51] = 1619806958,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [78]
+		{
+			"<Nova> Selling Boost  M+10=79k / M+14=110k / M+15= 200k /Keystone Master 1.49M /2 run 5%  discount or Stack armor FREE / Selling CASTLE NATHRIA Full HC 300k and per Stack Armor 130k /Curve 50k / Raid Mythic full clear /Torghast Boost /w for info", -- [1]
+			"Nbcboosterr-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Nbcboosterr-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1285, -- [11]
+			"Player-1301-0BE4EE17", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaNbcboosterr|r",
+			[51] = 1619807075,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [79]
+		{
+			">>((M+15=200k inTime)) << NBC >> (M+14=110k) >> (M+12=99k) >> (3x15=555k) >> (5x15=875k) >> (4x14=396k) >> (5x12=434k) >> keysToonmaster (all KEy in time +15 ) 1490k >> 10/10 hc/mythic every 30 min", -- [1]
+			"Novalilo-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Novalilo-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1293, -- [11]
+			"Player-1301-0BF78495", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cNovalilo|r",
+			[51] = 1619807106,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [80]
+		{
+			"I AM A CAT AND CAPTAIN PLEASE GUILD INV :D", -- [1]
+			"Capmeow-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Capmeow-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1294, -- [11]
+			"Player-1301-0BF7F623", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Capmeow|r",
+			[51] = 1619807110,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [81]
+		{
+			"<NOVA> Mega Sale ( Castle Nathria Only For 300k Vip Trader 120k) ( Sire HC 50k ) We Also Selling M+ [ 10 - 20 ] +16 430k  +15  200k  +14  110k  +12  99k  +10  79k  /  Big Discount For Keystone Master ( All  +15s  Time  1490k ) /w for", -- [1]
+			"Novalovely-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Novalovely-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1310, -- [11]
+			"Player-1301-0BF07A9F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Novalovely|r",
+			[51] = 1619807153,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [82]
+		{
+			"Swirling Scythe on Shadroxia", -- [1]
+			"Shadroxia-Outland", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Shadroxia-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1383, -- [11]
+			"Player-1301-0B005465", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Shadroxia|r",
+			[51] = 1619807573,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [83]
+		{
+			"Arrow Barrage on Shadroxia", -- [1]
+			"Shadroxia-Outland", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Shadroxia-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1400, -- [11]
+			"Player-1301-0B005465", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Shadroxia|r",
+			[51] = 1619807752,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [84]
+		{
+			"Arrow Barrage on Shadroxia", -- [1]
+			"Shadroxia-Outland", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Shadroxia-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1401, -- [11]
+			"Player-1301-0B005465", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Shadroxia|r",
+			[51] = 1619807756,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [85]
+		{
+			"Brutal Glaive on Shadroxia", -- [1]
+			"Shadroxia-Outland", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Shadroxia-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1403, -- [11]
+			"Player-1301-0B005465", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Shadroxia|r",
+			[51] = 1619807804,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [86]
+		{
+			"Brutal Glaive on Shadroxia", -- [1]
+			"Shadroxia-Outland", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Shadroxia-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1407, -- [11]
+			"Player-1301-0B005465", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Shadroxia|r",
+			[51] = 1619807819,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [87]
+		{
+			"|cffa335ee|Hitem:184778::::::::60:63::6:4:7187:6652:1498:6646:1:28:753:::|h[Decadent Nathrian Shawl]|h|r WTS 226 /w me :) ", -- [1]
+			"Alev-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Alev-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1463, -- [11]
+			"Player-1301-0BED1D8F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaAlev|r",
+			[51] = 1619809675,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [88]
+		{
+			"WTS Key 0-18  14  =100k   - 15= 150K - 16=320K 17=500K    boost lvlup 50-60 under 4h Boost    keystone master   only 1150k gold and 100% guarantee For In time.... Whisper Me For More Inf", -- [1]
+			"Akcent-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Akcent-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1464, -- [11]
+			"Player-1301-0BDA1A7D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Akcent|r",
+			[51] = 1619809676,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [89]
+		{
+			"WTT 120k here for gold on classic, gehennas", -- [1]
+			"Goldfourdays-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Goldfourdays-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1478, -- [11]
+			"Player-1301-0B900C19", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Goldfourdays|r",
+			[51] = 1619809687,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [90]
+		{
+			"WTS Castle Nathria HEROIC  І Start in 22.30 CEST or Server Time І  FULL RUN 10/10 І  Guild run  І  Fast And smooth  І  Get you 213+ iLvl gear TONIGHT  І  PST for info!", -- [1]
+			"Misjetta-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Misjetta-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1482, -- [11]
+			"Player-1301-0A6F2A2E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Misjetta|r",
+			[51] = 1619809699,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [91]
+		{
+			"WTT 120k here, for some gold on classic-gehennas /w me", -- [1]
+			"Goldfourdays-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Goldfourdays-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1622, -- [11]
+			"Player-1301-0B900C19", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Goldfourdays|r",
+			[51] = 1619811018,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"<ICECROWN> M +14 110k +15 200k || 4x M+ Vault packages|| KSM = 1500K || 50-60 boost || Legacy-Glory || Torgast 1-8 ||  0-2100 rating!   HC 10/10CN || Mythic CN ||Mounts & Hunter Pets || /w me to book: ) Gold only <3  (HC run at 22:00 Tonight!)", -- [1]
+			"Disstressed-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Disstressed-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1629, -- [11]
+			"Player-1301-0BF4F4BA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaDisstressed|r",
+			[51] = 1619811055,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"<Nova> Selling Boost  M+10=79k / M+14=110k / M+15= 200k /Keystone Master 1.49M /2 run 5%  discount or Stack armor FREE / Selling CASTLE NATHRIA Full HC 300k and per Stack Armor 130k /Curve 50k / Raid Mythic full clear /Torghast Boost /w for info", -- [1]
+			"Exoservices-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Exoservices-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1643, -- [11]
+			"Player-1301-0BDA7B25", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaExoservices|r",
+			[51] = 1619811088,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"<NOVA> Selling CN - Castle Nathria 10/10HC For Only 300k + PER Trader for 120k  || Sire Lastboss  50k  /  Mythic CN Raid  || + M + 0 - 20+ / M+10 79k / M+12 99k / M+14 110k / M+15 200k || M+16 430k / M+17 620k / KeystoneMaster 1490k /w For More Info..", -- [1]
+			"Dreamymonk-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Dreamymonk-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1686, -- [11]
+			"Player-1301-0BE429E7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Dreamymonk|r",
+			[51] = 1619811538,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"WTT 120k here, for some gold on classic-gehennas (Horde ) /w me", -- [1]
+			"Goldfourdays-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Goldfourdays-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1687, -- [11]
+			"Player-1301-0B900C19", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Goldfourdays|r",
+			[51] = 1619811538,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"<ICECROWN> M +14 110k +15 200k || 4x M+ Vault packages|| KSM = 1500K || 50-60 boost || Legacy-Glory || Torgast 1-8 ||  0-2100 rating!   HC 10/10CN || Mythic CN ||Mounts & Hunter Pets || /w me to book: ) Gold only <3  ", -- [1]
+			"Disstressed-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Disstressed-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1688, -- [11]
+			"Player-1301-0BF4F4BA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaDisstressed|r",
+			[51] = 1619811540,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"<Nova> Selling Boost  M+10=79k / M+14=110k / M+15= 200k /Keystone Master 1.49M /2 run 5%  discount or Stack armor FREE / Selling CASTLE NATHRIA Full HC 300k and per Stack Armor 130k /Curve 50k / Raid Mythic full clear /Torghast Boost /w for info", -- [1]
+			"Exoservices-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Exoservices-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1689, -- [11]
+			"Player-1301-0BDA7B25", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaExoservices|r",
+			[51] = 1619811573,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"|cffffd100|HclubFinder:ClubFinder-1-196941-1301-48391459|h[Guild: Unused Icon]|h|r are recruiting! We are 6/10M and looking for healers for our main raid team Wed/Sun 8pm - 1am ST. We also welcome socials, have a HC raid night, run M+ and PvP.", -- [1]
+			"Zck-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Zck-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1, -- [11]
+			"Player-1301-0BE1F975", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Zck|r",
+			[51] = 1619815460,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},
