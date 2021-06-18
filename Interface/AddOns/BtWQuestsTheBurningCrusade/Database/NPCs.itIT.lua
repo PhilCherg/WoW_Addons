@@ -6,6 +6,9 @@ end
 
 loadstring([[
 BtWQuestsDatabase:UpdateNPCsTable({
+    [15991] = {
+        name = "Dama Dena Kennedy",
+    },
     [16574] = {
         name = "Chiaroveggente Regulkut",
     },
@@ -126,8 +129,14 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [18035] = {
         name = "Esploratore Jyoba",
     },
+    [18066] = {
+        name = "Chiaroveggente Kurkush",
+    },
     [18067] = {
         name = "Chiaroveggente Corhuk",
+    },
+    [18068] = {
+        name = "Chiaroveggente Margadesh",
     },
     [18070] = {
         name = "Invocatrice del Vento Zoccolo Nero",
@@ -143,6 +152,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [18090] = {
         name = "Capitano Kroghan",
+    },
+    [18091] = {
+        name = "Messaggero Gazgrigg",
     },
     [18099] = {
         name = "Gordag",
@@ -162,11 +174,23 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [18210] = {
         name = "Prigioniero Mag'har",
     },
+    [18222] = {
+        name = "Otonbu il Saggio",
+    },
     [18223] = {
         name = "Mo'mor il Distruttore",
     },
+    [18224] = {
+        name = "Poli'lukluk il Gran Saggio",
+    },
     [18229] = {
         name = "Faucisaure il Giovane",
+    },
+    [18233] = {
+        name = "Elementalista Ioki",
+    },
+    [18234] = {
+        name = "Elementalista Yal'hah",
     },
     [18238] = {
         name = "Invasore Sanguebuio",
@@ -183,11 +207,20 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [18267] = {
         name = "Urlaguerra Occhionero",
     },
+    [18285] = {
+        name = "\"Conte\" Ungula",
+    },
     [18295] = {
         name = "Prospettore Conall",
     },
+    [18300] = {
+        name = "Elkay'gan il Mistico",
+    },
     [18301] = {
         name = "Matrona Celestine",
+    },
+    [18335] = {
+        name = "Reclutatore del Consorzio",
     },
     [18340] = {
         name = "Sovrintendente della Pompa del Vapore",
@@ -200,6 +233,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [18408] = {
         name = "Custode Moi'bff Jill",
+    },
+    [18416] = {
+        name = "Cacciatrice Kima",
     },
     [18417] = {
         name = "Altruis il Sofferente",
@@ -251,6 +287,12 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [18931] = {
         name = "Amish Granmartello",
+    },
+    [19133] = {
+        name = "Ohlorn Lungo Passo",
+    },
+    [19137] = {
+        name = "Jones \"Cannemozze\"",
     },
     [19188] = {
         name = "Colosso Furente",
@@ -456,6 +498,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [21293] = {
         name = "Borak Figlio di Oronok",
     },
+    [21300] = {
+        name = "Vilcorruttore",
+    },
     [21311] = {
         name = "Rokgah Spillasangue",
     },
@@ -600,6 +645,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [22481] = {
         name = "Nanowitz",
     },
+    [22488] = {
+        name = "Sentinella Soffialuna",
+    },
     [23139] = {
         name = "Supremo Mor'ghor",
     },
@@ -608,6 +656,15 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [23267] = {
         name = "Arvoar il Rapace",
+    },
+    [23268] = {
+        name = "Veggente Jovar",
+    },
+    [24885] = {
+        name = "Esorcista Sullivan",
+    },
+    [24886] = {
+        name = "Esorcista Vaisha",
     },
 })
 ]])()

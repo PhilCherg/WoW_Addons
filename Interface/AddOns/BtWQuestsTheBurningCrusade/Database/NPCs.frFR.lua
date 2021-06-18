@@ -6,6 +6,9 @@ end
 
 loadstring([[
 BtWQuestsDatabase:UpdateNPCsTable({
+    [15991] = {
+        name = "Dame Dena Kennedy",
+    },
     [16574] = {
         name = "Long-voyante Regulkut",
     },
@@ -123,8 +126,14 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [18035] = {
         name = "Eclaireur Jyoba",
     },
+    [18066] = {
+        name = "Long-voyant Kurkush",
+    },
     [18067] = {
         name = "Long-voyant Corhuk",
+    },
+    [18068] = {
+        name = "Long-voyant Margadesh",
     },
     [18070] = {
         name = "Imploratrice céleste Sabot-Noir",
@@ -141,6 +150,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [18090] = {
         name = "Capitaine Kroghan",
     },
+    [18091] = {
+        name = "Messager Gazgrigg",
+    },
     [18106] = {
         name = "Jorin Oeil-mort",
     },
@@ -156,11 +168,23 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [18210] = {
         name = "Captif mag'har",
     },
+    [18222] = {
+        name = "Otonbu le Sage",
+    },
     [18223] = {
         name = "Mo'mor le Briseur",
     },
+    [18224] = {
+        name = "Poli'lukluk le Malin",
+    },
     [18229] = {
         name = "Saurcroc le jeune",
+    },
+    [18233] = {
+        name = "Elémentaliste Ioki",
+    },
+    [18234] = {
+        name = "Elémentaliste Yal'hah",
     },
     [18238] = {
         name = "Envahisseur bourbesang",
@@ -177,8 +201,14 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [18267] = {
         name = "Crieur-de-guerre Coquard",
     },
+    [18285] = {
+        name = "« Comte » Ungula",
+    },
     [18295] = {
         name = "Prospecteur Conall",
+    },
+    [18300] = {
+        name = "Elkay'gan le Mystique",
     },
     [18301] = {
         name = "Matrone Célestine",
@@ -197,6 +227,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [18408] = {
         name = "Gardien Moi'bff Jill",
+    },
+    [18416] = {
+        name = "Chasseresse Kima",
     },
     [18417] = {
         name = "Altruis le Souffrant",
@@ -251,6 +284,12 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [18931] = {
         name = "Amish Marteau-Hardi",
+    },
+    [19133] = {
+        name = "Ohlorn Pérégrin",
+    },
+    [19137] = {
+        name = "Jones « Fusil »",
     },
     [19188] = {
         name = "Colosse déchaîné",
@@ -453,6 +492,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [21293] = {
         name = "Borak, fils d'Oronok",
     },
+    [21300] = {
+        name = "Corrupteur gangrené",
+    },
     [21311] = {
         name = "Rokgah Poigne-sang",
     },
@@ -600,6 +642,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [22481] = {
         name = "Nanowitz",
     },
+    [22488] = {
+        name = "Sentinelle Murmelune",
+    },
     [23139] = {
         name = "Suzerain Mor'ghor",
     },
@@ -608,6 +653,15 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [23267] = {
         name = "Arvoar le Rapace",
+    },
+    [23268] = {
+        name = "Voyant Jovar",
+    },
+    [24885] = {
+        name = "Exorciste Sullivan",
+    },
+    [24886] = {
+        name = "Exorciste Vaisha",
     },
 })
 ]])()

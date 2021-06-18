@@ -47,9 +47,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178806::::::::60:267::35:6:7387:7359:6652:6935:1534:6646::::|h[Contaminated Gauze Wristwraps]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 183022,
-			["Level"] = 200,
-			["Link"] = "|cffa335ee|Hitem:183022::::::::60:267::3:4:7189:40:1472:6646::::|h[Impossibly Oversized Mitts]|h|r",
+			["ID"] = 178748,
+			["Level"] = 226,
+			["Link"] = "|cffa335ee|Hitem:178748::::::::60:267::35:5:7375:7359:6652:1540:6646::::|h[Gory Surgeon's Gloves]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 178870,
@@ -81,9 +81,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:183034::::::::60:267::5:4:7188:6652:1485:6646:1:28:752:::|h[Cowled Batwing Cloak]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 182405,
-			["Level"] = 207,
-			["Link"] = "|cffa335ee|Hitem:182405::::::::60:267::14:3:6639:1479:6646:1:28:807:::|h[Sinful Gladiator's Torch Staff]|h|r",
+			["ID"] = 178829,
+			["Level"] = 223,
+			["Link"] = "|cffa335ee|Hitem:178829:6229:::::::60:267::35:5:7416:7359:6652:1537:6646::::|h[Nathrian Ferula]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 178868,

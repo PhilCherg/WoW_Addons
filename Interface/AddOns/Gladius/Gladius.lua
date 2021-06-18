@@ -408,12 +408,18 @@ function Gladius:UNIT_NAME_UPDATE(event, unit)
 end
 
 function Gladius:ARENA_OPPONENT_UPDATE(event, unit, type)
+	if not IsActiveBattlefieldArena() then
+		return
+	end
+
 	if not self:IsValidUnit(unit) then
 		return
 	end
+
 	if not self.buttons[unit] then
 		self:CreateButton(unit)
 	end
+
 	local id = string.match(unit, "arena(%d)")
 	local specID = GetArenaOpponentSpec(id)
 	if specID and specID > 0 then

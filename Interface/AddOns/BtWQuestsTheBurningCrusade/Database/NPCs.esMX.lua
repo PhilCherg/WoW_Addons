@@ -123,8 +123,14 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [18035] = {
         name = "Explorador Jyoba",
     },
+    [18066] = {
+        name = "Clarividente Kurkush",
+    },
     [18067] = {
         name = "Clarividente Corhuk",
+    },
+    [18068] = {
+        name = "Clarividente Margadesh",
     },
     [18070] = {
         name = "Clamavientos Pezuñanegra",
@@ -140,6 +146,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [18090] = {
         name = "Capitán Kroghan",
+    },
+    [18091] = {
+        name = "Mensajero Gazgrigg",
     },
     [18106] = {
         name = "Jorin Mortojo",
@@ -159,11 +168,23 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [18218] = {
         name = "Harold Sendero",
     },
+    [18222] = {
+        name = "Otonbu el Sabio",
+    },
     [18223] = {
         name = "Mo'mor el Rompedor",
     },
+    [18224] = {
+        name = "Poli'lukluk el Más Sabio",
+    },
     [18229] = {
         name = "Colmillosauro el Joven",
+    },
+    [18233] = {
+        name = "Elementalista loki",
+    },
+    [18234] = {
+        name = "Elementalista Yal'hah",
     },
     [18238] = {
         name = "Invasor Sangreoscura",
@@ -180,8 +201,14 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [18267] = {
         name = "Gritabatalla Ojonegro",
     },
+    [18300] = {
+        name = "Elkay'gan el Místico",
+    },
     [18301] = {
         name = "Matrona Celestine",
+    },
+    [18302] = {
+        name = "Matrona Drakia",
     },
     [18340] = {
         name = "Sobrestante de bomba de vapor",
@@ -194,6 +221,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [18408] = {
         name = "Celador Moi'bff Jill",
+    },
+    [18416] = {
+        name = "Cazadora Kima",
     },
     [18417] = {
         name = "Altruis el Sufridor",
@@ -245,6 +275,12 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [18931] = {
         name = "Amish Martillo Salvaje",
+    },
+    [19133] = {
+        name = "Ohlorn Errante",
+    },
+    [19137] = {
+        name = "Jones \"Escopeta\"",
     },
     [19188] = {
         name = "Coloso enfurecido",
@@ -435,6 +471,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [21293] = {
         name = "Borak, hijo de Oronok",
     },
+    [21300] = {
+        name = "Corruptor vil",
+    },
     [21311] = {
         name = "Rokgah Agarre Sangriento",
     },
@@ -588,6 +627,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [22481] = {
         name = "Enaniski",
     },
+    [22488] = {
+        name = "Centinela Susurrolunar",
+    },
     [23139] = {
         name = "Señor supremo Mor'ghor",
     },
@@ -596,6 +638,15 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [23267] = {
         name = "Arvoar el Rapaz",
+    },
+    [23268] = {
+        name = "Vidente Jovar",
+    },
+    [24885] = {
+        name = "Exorcista Sullivan",
+    },
+    [24886] = {
+        name = "Exorcista Vaisha",
     },
 })
 ]])()

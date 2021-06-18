@@ -1,6 +1,6 @@
 ## Interface: 90005
 ## Title: BtWQuests: The Burning Crusade
-## Version: 3.6
+## Version: 4.1
 ## Notes: The Burning Crusade quest data for BtWQuests
 ## Author: Breen
 ## Dependencies: BtWQuests
@@ -14,6 +14,16 @@
 Defines.lua
 
 Localization.lua
+Localization.deDE.lua
+Localization.esES.lua
+Localization.esMX.lua
+Localization.frFR.lua
+Localization.itIT.lua
+Localization.koKR.lua
+Localization.ptBR.lua
+Localization.ruRU.lua
+Localization.zhCN.lua
+Localization.zhTW.lua
 
 Database/Quests.lua
 Database/Quests.deDE.lua
@@ -63,6 +73,7 @@ Database/Index.ruRU.lua
 Database/Index.zhCN.lua
 Database/Index.zhTW.lua
 
+Attunements.lua
 HellfirePeninsula.lua
 Zangarmarsh.lua
 TerokkarForest.lua

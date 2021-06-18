@@ -37,7 +37,7 @@ DBT_AllPersistentOptions = {
 			["BarXOffset"] = 0,
 			["EndColorB"] = 0,
 			["EndColorAR"] = 0.1490196078431373,
-			["EndColorG"] = 0,
+			["EndColorUIB"] = 0.01176470588235294,
 			["TextColorG"] = 1,
 			["StripCDText"] = true,
 			["StartColorDB"] = 1,
@@ -99,7 +99,7 @@ DBT_AllPersistentOptions = {
 			["StartColorB"] = 0,
 			["StartColorR"] = 1,
 			["StartColorIG"] = 0.9686274509803922,
-			["EndColorUIB"] = 0.01176470588235294,
+			["EndColorG"] = 0,
 		},
 	},
 }

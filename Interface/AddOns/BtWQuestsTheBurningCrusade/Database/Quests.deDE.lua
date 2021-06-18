@@ -180,8 +180,14 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [9727] = {
         name = "Jetzt, da wir immer noch Freunde sind...",
     },
+    [9728] = {
+        name = "Ein herzliches Willkommen",
+    },
     [9729] = {
         name = "Fhwoor zerschmettern!",
+    },
+    [9730] = {
+        name = "Anführer der Dunkelkämme",
     },
     [9731] = {
         name = "Kanalisationspläne",
@@ -189,8 +195,23 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [9732] = {
         name = "Rückkehr in die Marschen",
     },
+    [9739] = {
+        name = "Die Misere der Sporlinge",
+    },
+    [9742] = {
+        name = "Noch ein paar Sporensäcke",
+    },
+    [9743] = {
+        name = "Natürliche Feinde",
+    },
+    [9744] = {
+        name = "Mehr Ranken!",
+    },
     [9747] = {
         name = "Der Umbrafennstamm",
+    },
+    [9752] = {
+        name = "Flucht aus Umbrafenn",
     },
     [9769] = {
         name = "Mode kann man nicht erklären",
@@ -210,6 +231,18 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [9774] = {
         name = "Dicke Hydraschuppen",
     },
+    [9775] = {
+        name = "Bericht an Schattenjäger Denjai",
+    },
+    [9776] = {
+        name = "Die Oreborzuflucht",
+    },
+    [9777] = {
+        name = "Fulgorsporen",
+    },
+    [9778] = {
+        name = "Aufseher Hamuht",
+    },
     [9780] = {
         name = "Aalfilets von Umbrafenn",
     },
@@ -221,6 +254,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [9783] = {
         name = "Eine unnatürliche Dürre",
+    },
+    [9784] = {
+        name = "Pflanzenteile identifizieren",
+    },
+    [9785] = {
+        name = "Der Segen der Uralten",
     },
     [9786] = {
         name = "Die Ruinen von Boha'mu",
@@ -240,11 +279,32 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [9791] = {
         name = "Bedrohliche Marschenfänge",
     },
+    [9792] = {
+        name = "Eine Botschaft für Telaar",
+    },
+    [9793] = {
+        name = "Das Schicksal von Tuurem",
+    },
+    [9794] = {
+        name = "Keine Zeit für Neugier",
+    },
+    [9795] = {
+        name = "Die Ogerbedrohung",
+    },
+    [9796] = {
+        name = "Nachricht aus den Zangarmarschen",
+    },
+    [9797] = {
+        name = "Verstärkung für Garadar",
+    },
     [9800] = {
         name = "Eine seltene Bohne",
     },
     [9801] = {
         name = "Die Reagenzien sammeln",
+    },
+    [9802] = {
+        name = "Pflanzen der Zangarmarschen",
     },
     [9803] = {
         name = "Botschaft für den Wildfennstamm",
@@ -254,6 +314,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [9805] = {
         name = "Segen des Incineratus",
+    },
+    [9806] = {
+        name = "Fruchtbare Sporen",
+    },
+    [9808] = {
+        name = "Glühkappenpilze",
     },
     [9810] = {
         name = "Der verschmutzte Geist",
@@ -266,6 +332,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [9816] = {
         name = "Habt Ihr so was schon mal gesehen?",
+    },
+    [9817] = {
+        name = "Anführerin der Blutschuppen",
     },
     [9818] = {
         name = "Im Untergrund",
@@ -284,6 +353,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [9823] = {
         name = "Sie oder wir",
+    },
+    [9827] = {
+        name = "Siechendes Basidium",
+    },
+    [9828] = {
+        name = "Siechendes Basidium",
     },
     [9830] = {
         name = "Blutergift",
@@ -357,6 +432,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [9862] = {
         name = "Bösewichte der Finsterblut",
     },
+    [9863] = {
+        name = "Abscheulicher Götzendienst",
+    },
     [9864] = {
         name = "Der verschollene Kampftrupp",
     },
@@ -366,17 +444,56 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [9866] = {
         name = "Weiter...",
     },
+    [9867] = {
+        name = "Anführer der Finsterblut...",
+    },
     [9868] = {
         name = "Das Totem von Kar'dash",
     },
+    [9869] = {
+        name = "Der Thron der Elemente",
+    },
+    [9870] = {
+        name = "Der Thron der Elemente",
+    },
     [9871] = {
+        name = "Eindringlinge der Finsterblut",
+    },
+    [9872] = {
         name = "Eindringlinge der Finsterblut",
     },
     [9873] = {
         name = "Mein alter Freund Ortor...",
     },
+    [9874] = {
+        name = "Die Ausbreitung eindämmen",
+    },
+    [9875] = {
+        name = "Nicht katalogisierte Gattung",
+    },
+    [9878] = {
+        name = "Die Lösung des Problems",
+    },
     [9879] = {
         name = "Das Totem von Kar'dash",
+    },
+    [9882] = {
+        name = "Von Dieben stehlen",
+    },
+    [9883] = {
+        name = "Noch mehr Kristallfragmente",
+    },
+    [9884] = {
+        name = "Mitgliedervorteil",
+    },
+    [9885] = {
+        name = "Mitgliedervorteil",
+    },
+    [9886] = {
+        name = "Mitgliedervorteil",
+    },
+    [9887] = {
+        name = "Mitgliedervorteil",
     },
     [9888] = {
         name = "Der unfähige Anführer",
@@ -390,11 +507,20 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [9891] = {
         name = "Weil Kilrath ein Feigling ist",
     },
+    [9893] = {
+        name = "Obsidiankriegsperlen",
+    },
     [9894] = {
         name = "Schützt die Behüter",
     },
+    [9895] = {
+        name = "Aus dem Gleichgewicht geraten",
+    },
     [9896] = {
         name = "Schwarzsichels Fluch",
+    },
+    [9897] = {
+        name = "Ich bin gerettet!",
     },
     [9898] = {
         name = "Liebe ist ein großer Stachel",
@@ -408,6 +534,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [9902] = {
         name = "Der Schrecken des Sumpflichtsees",
     },
+    [9903] = {
+        name = "Der Größte von allen",
+    },
     [9904] = {
         name = "Jagd auf Terrorklaue",
     },
@@ -419,6 +548,27 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [9907] = {
         name = "Ein kühner Angriff",
+    },
+    [9910] = {
+        name = "Standarten",
+    },
+    [9911] = {
+        name = "Der Graf der Marschen",
+    },
+    [9912] = {
+        name = "Die Expedition des Cenarius",
+    },
+    [9913] = {
+        name = "Das Konsortium braucht Euch!",
+    },
+    [9914] = {
+        name = "Ein ganzer Kopf voll Elfenbein",
+    },
+    [9915] = {
+        name = "Noch mehr Elfenbein",
+    },
+    [9916] = {
+        name = "Vorratskisten des Blutenden Auges",
     },
     [9917] = {
         name = "Kann ich meinen Augen trauen?",
@@ -480,6 +630,18 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [9940] = {
         name = "GESUCHT: Zorbo der Berater",
     },
+    [9944] = {
+        name = "Verschollene mag'harische Prozession",
+    },
+    [9945] = {
+        name = "Krieg den Totschlägern",
+    },
+    [9946] = {
+        name = "Cho'war der Plünderer",
+    },
+    [9948] = {
+        name = "Findet die Überlebenden",
+    },
     [9951] = {
         name = "Es beobachtet Euch!",
     },
@@ -488,6 +650,18 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [9955] = {
         name = "Cho'war der Plünderer",
+    },
+    [9956] = {
+        name = "Die Überfallene Karawane",
+    },
+    [9957] = {
+        name = "Was ist los mit dem Cenariusdickicht?",
+    },
+    [9960] = {
+        name = "Was ist los mit dem Cenariusdickicht?",
+    },
+    [9961] = {
+        name = "Was ist los mit dem Cenariusdickicht?",
     },
     [9962] = {
         name = "Der Ring des Blutes: Schmetterzehe",
@@ -615,6 +789,15 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10023] = {
         name = "Patriarch Eisenkiefer",
     },
+    [10026] = {
+        name = "Magische Störungen",
+    },
+    [10027] = {
+        name = "Magische Störungen",
+    },
+    [10028] = {
+        name = "Gefäße der Macht",
+    },
     [10030] = {
         name = "Die Knochen zurückholen",
     },
@@ -626,6 +809,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [10034] = {
         name = "AUFRUF: Tötet die Knochenpeitscher!",
+    },
+    [10037] = {
+        name = "Ich würd' lieber angeln",
     },
     [10038] = {
         name = "Sprecht mit Gefreiter Wöch",
@@ -657,6 +843,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10050] = {
         name = "Unerschütterliche Seelen",
     },
+    [10051] = {
+        name = "Ausbruch aus dem Posten der Feuerschwingen!",
+    },
+    [10052] = {
+        name = "Ausbruch aus dem Posten der Feuerschwingen!",
+    },
     [10055] = {
         name = "Nichts verkommen lassen!",
     },
@@ -665,6 +857,18 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [10058] = {
         name = "Ein altes Geschenk",
+    },
+    [10074] = {
+        name = "Kristallpulver von Oshu'gun",
+    },
+    [10075] = {
+        name = "Kristallpulver von Oshu'gun",
+    },
+    [10076] = {
+        name = "Kristallpulver von Oshu'gun",
+    },
+    [10077] = {
+        name = "Kristallpulver von Oshu'gun",
     },
     [10078] = {
         name = "Die Unerwünschten zerstören",
@@ -702,17 +906,44 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10102] = {
         name = "Ein gelüftetes Geheimnis",
     },
+    [10103] = {
+        name = "Bericht an Zurai",
+    },
+    [10104] = {
+        name = "Sorgen um Tuurem",
+    },
+    [10105] = {
+        name = "Nachrichten für Rakoria",
+    },
     [10107] = {
         name = "Diplomatische Maßnahmen",
     },
     [10108] = {
         name = "Diplomatische Maßnahmen",
     },
+    [10109] = {
+        name = "Ich muss sie haben!",
+    },
+    [10111] = {
+        name = "Bringt mir das Ei!",
+    },
     [10112] = {
         name = "Ein persönlicher Gefallen",
     },
+    [10113] = {
+        name = "Nesingwarys Safari",
+    },
+    [10114] = {
+        name = "Nesingwarys Safari",
+    },
     [10115] = {
         name = "Dolchfennkrise",
+    },
+    [10116] = {
+        name = "GESUCHT: Häuptling Mummaki",
+    },
+    [10117] = {
+        name = "GESUCHT: Häuptling Mummaki",
     },
     [10118] = {
         name = "Nachricht für Dolchfenn",
@@ -798,6 +1029,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10176] = {
         name = "Arkelos der Wächter",
     },
+    [10182] = {
+        name = "Kampfmagier Dathric",
+    },
     [10183] = {
         name = "Auf nach Area 52",
     },
@@ -816,6 +1050,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10189] = {
         name = "Manaschmiede B'naar",
     },
+    [10190] = {
+        name = "Batterien aufladen",
+    },
+    [10191] = {
+        name = "Nummer V lebt!",
+    },
     [10192] = {
         name = "Krasus' Kompendium",
     },
@@ -830,6 +1070,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [10198] = {
         name = "Informationen sammeln",
+    },
+    [10199] = {
+        name = "Der kleine Extrakick",
     },
     [10200] = {
         name = "Rückkehr zu Thalodien",
@@ -872,6 +1115,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [10223] = {
         name = "Nieder mit Daellis",
+    },
+    [10224] = {
+        name = "Essenzen für die Motoren",
+    },
+    [10226] = {
+        name = "Elementarenergieextraktor",
     },
     [10229] = {
         name = "Den Folianten entziffern",
@@ -948,6 +1197,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10258] = {
         name = "Die Gefallenen ehren",
     },
+    [10261] = {
+        name = "GESUCHT: Vernichterservo!",
+    },
     [10262] = {
         name = "Ein Hügel voll Astraler",
     },
@@ -1014,8 +1266,14 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10289] = {
         name = "Reise nach Thrallmar",
     },
+    [10290] = {
+        name = "Auf der Suche nach Farahlit",
+    },
     [10291] = {
         name = "Bericht an Nazgrel",
+    },
+    [10293] = {
+        name = "Die Kristallader anzapfen",
     },
     [10294] = {
         name = "Der Leerengrat",
@@ -1032,6 +1290,27 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10301] = {
         name = "Das Kompendium öffnen",
     },
+    [10305] = {
+        name = "Bannzauberin Belmara",
+    },
+    [10306] = {
+        name = "Beschwörer Luminrath",
+    },
+    [10307] = {
+        name = "Cohlien Frostwirker",
+    },
+    [10308] = {
+        name = "Noch ein Hügel voller Astraler",
+    },
+    [10309] = {
+        name = "Teufelshäscher mit Herz",
+    },
+    [10310] = {
+        name = "Sabotage am Warptor!",
+    },
+    [10311] = {
+        name = "Drijya braucht Eure Hilfe",
+    },
     [10312] = {
         name = "Die Annalen von Kirin'Var",
     },
@@ -1041,8 +1320,17 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10314] = {
         name = "Ein hartnäckiger Verdacht",
     },
+    [10315] = {
+        name = "Die Nethermanten neutralisieren",
+    },
     [10316] = {
         name = "Auf der Suche nach Beweisen",
+    },
+    [10317] = {
+        name = "Den Großknecht erledigen",
+    },
+    [10318] = {
+        name = "Den Übermeister erledigen",
     },
     [10319] = {
         name = "Das Phylakterium entwenden",
@@ -1068,8 +1356,20 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10330] = {
         name = "Manaschmiede Coruu abschalten",
     },
+    [10331] = {
+        name = "Unverzichtbare Werkzeuge",
+    },
     [10333] = {
         name = "Helft Mama Mauschel",
+    },
+    [10334] = {
+        name = "Braucht mehr Kuhglocke",
+    },
+    [10335] = {
+        name = "Die Ruinen beobachten",
+    },
+    [10336] = {
+        name = "Diener von Culuthas",
     },
     [10338] = {
         name = "Manaschmiede Duro abschalten",
@@ -1083,17 +1383,32 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10341] = {
         name = "Tretet sie, solange sie am Boden liegen",
     },
+    [10342] = {
+        name = "Schieferhautschiefer",
+    },
     [10343] = {
         name = "Die unendliche Invasion",
     },
     [10344] = {
         name = "Schwadronskommandant Greifgar",
     },
+    [10345] = {
+        name = "Fleisch geworden",
+    },
+    [10348] = {
+        name = "Neue Möglichkeiten",
+    },
     [10349] = {
         name = "Die Erdbinderin",
     },
     [10351] = {
         name = "Natürliche Heilmittel",
+    },
+    [10353] = {
+        name = "Arconus der Unersättliche",
+    },
+    [10355] = {
+        name = "Siechendes Fleisch",
     },
     [10365] = {
         name = "Manaschmiede Ara abschalten",
@@ -1173,17 +1488,32 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10410] = {
         name = "Ishanahs Hilfe",
     },
+    [10411] = {
+        name = "Elektroschock!",
+    },
+    [10413] = {
+        name = "Die Schrecken der Verschmutzung",
+    },
     [10417] = {
         name = "Führt eine Diagnose durch!",
     },
     [10418] = {
         name = "Die Saboteure ausschalten",
     },
+    [10422] = {
+        name = "Hauptmann Tyralius",
+    },
     [10423] = {
         name = "Zur Sturmsäule",
     },
     [10424] = {
         name = "Diagnose: kritisch",
+    },
+    [10425] = {
+        name = "Ausbruch aus dem Stützpunkt",
+    },
+    [10426] = {
+        name = "Flora der Biokuppel",
     },
     [10430] = {
         name = "Den Prototyp testen",
@@ -1193,6 +1523,15 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [10432] = {
         name = "Eindeutige Beweise",
+    },
+    [10433] = {
+        name = "Den Schein wahren",
+    },
+    [10434] = {
+        name = "Das dynamische Duo",
+    },
+    [10435] = {
+        name = "Die Waren zurückholen",
     },
     [10436] = {
         name = "Freie Bahn!",
@@ -1233,6 +1572,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10450] = {
         name = "Blut der Knochenmalmer",
     },
+    [10451] = {
+        name = "Flucht aus der Zisterne der Echsennarbe",
+    },
     [10455] = {
         name = "Die nahende Wildnis",
     },
@@ -1244,6 +1586,18 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [10458] = {
         name = "Wütende Geister des Feuers und der Erde",
+    },
+    [10476] = {
+        name = "Grimmige Feinde",
+    },
+    [10477] = {
+        name = "Mehr Kriegsperlen",
+    },
+    [10478] = {
+        name = "Mehr Kriegsperlen!",
+    },
+    [10479] = {
+        name = "Stärke beweisen",
     },
     [10480] = {
         name = "Wütende Geister des Wassers",
@@ -1272,6 +1626,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10488] = {
         name = "Die Eigenen schützen",
     },
+    [10489] = {
+        name = "Einen uralten Baum fällen",
+    },
     [10502] = {
         name = "Die Oger der Blutschläger",
     },
@@ -1295,6 +1652,15 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [10509] = {
         name = "Für Ruhm bestimmt",
+    },
+    [10510] = {
+        name = "In die Draenethystmine",
+    },
+    [10511] = {
+        name = "Merkwürdiges Gebräu",
+    },
+    [10512] = {
+        name = "Die Speerspießer abfüllen",
     },
     [10513] = {
         name = "Oronok Herzeleid",
@@ -1374,6 +1740,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10550] = {
         name = "Ein Bündel von Blutdisteln",
     },
+    [10555] = {
+        name = "Fauler Zauber",
+    },
+    [10556] = {
+        name = "Gekritzel",
+    },
     [10557] = {
         name = "Testflug: Das Zephyriumkapazitorium",
     },
@@ -1430,6 +1802,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [10579] = {
         name = "Die Litanei der Verdammnis - Dritter Teil",
+    },
+    [10580] = {
+        name = "Wo sind diese verdammten Gnome hin?",
+    },
+    [10581] = {
+        name = "Folget den Brotkrumen",
     },
     [10582] = {
         name = "Diener des Schattenrats",
@@ -1497,6 +1875,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10608] = {
         name = "Kristallklar",
     },
+    [10609] = {
+        name = "Was war zuerst da, der Drache oder das Ei?",
+    },
     [10611] = {
         name = "Die Kunst der Teufelshäscherwartung",
     },
@@ -1511,6 +1892,15 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [10615] = {
         name = "Der Ruuanwald",
+    },
+    [10617] = {
+        name = "Seidenflügelkokons",
+    },
+    [10618] = {
+        name = "Die weichsten Flügel",
+    },
+    [10619] = {
+        name = "Die Aschenzungen",
     },
     [10620] = {
         name = "Gratwirbelbedrohung",
@@ -1541,6 +1931,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [10630] = {
         name = "Unter Thrallmar",
+    },
+    [10632] = {
+        name = "Zähne zeigen",
     },
     [10633] = {
         name = "Teron Blutschatten - Geschichte und Mythos",
@@ -1577,6 +1970,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [10646] = {
         name = "Illidans Schüler",
+    },
+    [10647] = {
+        name = "GESUCHT: Uvuros, Geißel des Schattenmondtals",
+    },
+    [10648] = {
+        name = "GESUCHT: Uvuros, Geißel des Schattenmondtals",
     },
     [10649] = {
         name = "Das Buch der teuflischen Namen",
@@ -1680,11 +2079,23 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10688] = {
         name = "Eine notwendige Ablenkung",
     },
+    [10690] = {
+        name = "Die Höhlenmutter",
+    },
     [10691] = {
         name = "Rückkehr zu den Sehern",
     },
     [10692] = {
         name = "Varedis muss aufgehalten werden",
+    },
+    [10701] = {
+        name = "Netherbrock zerschmettern",
+    },
+    [10702] = {
+        name = "Routinearbeiten",
+    },
+    [10703] = {
+        name = "Zieht Eure Knieschoner an...",
     },
     [10704] = {
         name = "Wie man in Arkatraz einbricht",
@@ -1719,6 +2130,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10715] = {
         name = "In die Grabenschlucht",
     },
+    [10717] = {
+        name = "Wilderer wildern",
+    },
     [10718] = {
         name = "Die Stimme der Geister",
     },
@@ -1749,6 +2163,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10745] = {
         name = "Nachricht vom Sieg",
     },
+    [10747] = {
+        name = "Welpen des Wyrmkults",
+    },
     [10748] = {
         name = "Maxnar muss sterben!",
     },
@@ -1760,6 +2177,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [10751] = {
         name = "Den Pfad bereinigen",
+    },
+    [10753] = {
+        name = "Die Verderbnis ausmerzen",
     },
     [10759] = {
         name = "Findet den Deserteur",
@@ -1784,6 +2204,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [10769] = {
         name = "Zwietracht in den Rängen...",
+    },
+    [10770] = {
+        name = "Kleine Funken",
     },
     [10771] = {
         name = "Aus der Asche",
@@ -1812,20 +2235,38 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10780] = {
         name = "Federn der Sketh'lon",
     },
+    [10781] = {
+        name = "Die Schlacht an der Purpurwacht",
+    },
     [10782] = {
         name = "Das Kopfstück mit Magie erfüllen",
     },
     [10783] = {
         name = "Baron Zobelmähne",
     },
+    [10784] = {
+        name = "Vernichtet das Lager der Blutschläger!",
+    },
     [10785] = {
         name = "Das ist eine Falle!",
+    },
+    [10786] = {
+        name = "Gemetzel in Fels'mok",
     },
     [10791] = {
         name = "Willkommen Wolfgeist!",
     },
     [10792] = {
         name = "Zeth'Gor muss brennen!",
+    },
+    [10793] = {
+        name = "Val'zareqs Tagebuch: Vorboten des Krieges",
+    },
+    [10795] = {
+        name = "Ein Treffen mit Dorgok",
+    },
+    [10796] = {
+        name = "Vernichtet das Lager der Blutschläger!",
     },
     [10797] = {
         name = "Die Gunst der Gronn",
@@ -1844,6 +2285,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [10802] = {
         name = "Gorgrom der Drachenfresser",
+    },
+    [10803] = {
+        name = "Gemetzel in Fels'mok",
     },
     [10804] = {
         name = "Freundlichkeit",
@@ -1875,6 +2319,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10814] = {
         name = "Neltharakus Geschichte",
     },
+    [10816] = {
+        name = "Rückforderung geheiligten Bodens",
+    },
     [10818] = {
         name = "Baron Zobelmähne verlangt nach Euch",
     },
@@ -1886,6 +2333,18 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [10821] = {
         name = "Ihr seid gefeuert!",
+    },
+    [10825] = {
+        name = "Die kugellose Wahrheit",
+    },
+    [10827] = {
+        name = "Mehr Male des Sargeras",
+    },
+    [10829] = {
+        name = "Baumriese muss es wissen",
+    },
+    [10830] = {
+        name = "Der Exorzismus der Bäume",
     },
     [10834] = {
         name = "Grillok 'Finsterauge'",
@@ -1929,6 +2388,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10849] = {
         name = "Sucht Kirrik",
     },
+    [10850] = {
+        name = "Nethergas in einem Teufelsfeuermotor",
+    },
     [10851] = {
         name = "Die Totems meines Feindes",
     },
@@ -1941,11 +2403,29 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10854] = {
         name = "Die Macht Neltharakus",
     },
+    [10855] = {
+        name = "Teufelshäscher, nein Danke!",
+    },
+    [10856] = {
+        name = "Die beste Verteidigung",
+    },
+    [10857] = {
+        name = "Teleportiert das!",
+    },
     [10859] = {
         name = "Sammelt die Kugeln",
     },
+    [10860] = {
+        name = "Leckerbissen der Mok'Nathal",
+    },
     [10861] = {
         name = "Präventivschlag gegen das Lithicversteck",
+    },
+    [10862] = {
+        name = "Auslieferung an die Horde",
+    },
+    [10863] = {
+        name = "Geheimnisse der Arakkoa",
     },
     [10864] = {
         name = "Eine Last auf der Seele",
@@ -1998,6 +2478,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10881] = {
         name = "Das Schattengrab",
     },
+    [10887] = {
+        name = "Flucht aus dem Grab",
+    },
     [10889] = {
         name = "Rückkehr nach Shattrath",
     },
@@ -2012,6 +2495,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [10896] = {
         name = "Die verseuchten Beschützer",
+    },
+    [10898] = {
+        name = "Wolkenschwinge",
     },
     [10903] = {
         name = "Rückkehr zur Ehrenfeste",
@@ -2046,6 +2532,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10916] = {
         name = "Nach Gebetsperlen graben",
     },
+    [10917] = {
+        name = "Die Pflicht eines Ausgestoßenen",
+    },
+    [10918] = {
+        name = "Mehr Federn",
+    },
     [10920] = {
         name = "Für die Gefallenen",
     },
@@ -2055,8 +2547,17 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10923] = {
         name = "Das Böse rückt näher",
     },
+    [10924] = {
+        name = "Verwichtelt und zugenäht!",
+    },
     [10926] = {
         name = "Rückkehr zum Basislager der Sha'tari",
+    },
+    [10927] = {
+        name = "Die Krabbler erschlagen",
+    },
+    [10928] = {
+        name = "Die Krabbler erschlagen",
     },
     [10929] = {
         name = "Stampfen",
@@ -2073,6 +2574,54 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10937] = {
         name = "Die Züchtigung des Drillmeisters",
     },
+    [10949] = {
+        name = "Zutritt zum Schwarzen Tempel",
+    },
+    [10969] = {
+        name = "Sucht Ameer!",
+    },
+    [10970] = {
+        name = "Ein barmherziger Auftrag",
+    },
+    [10973] = {
+        name = "Tausend Welten",
+    },
+    [10974] = {
+        name = "Stasiskammern von Bash'ir",
+    },
+    [10976] = {
+        name = "Das Abzeichen des Nexuskönigs",
+    },
+    [10983] = {
+        name = "Mog'dorg der Weise",
+    },
+    [10985] = {
+        name = "Ein Ablenkungsmanöver für Akama",
+    },
+    [10989] = {
+        name = "Mog'dorg der Weise",
+    },
+    [10995] = {
+        name = "Grulloc hat zwei Schädel",
+    },
+    [10996] = {
+        name = "Maggocs Schatztruhe",
+    },
+    [10997] = {
+        name = "Sogar ein Gronn hat Standards",
+    },
+    [11004] = {
+        name = "Schattenwelt",
+    },
+    [11005] = {
+        name = "Die Geheimnisse der Krallenpriester",
+    },
+    [11008] = {
+        name = "Feuer über Skettis",
+    },
+    [11009] = {
+        name = "Ogerhimmel",
+    },
     [11012] = {
         name = "Der Blutschwur der Netherschwingen",
     },
@@ -2082,8 +2631,41 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [11014] = {
         name = "In der Höhle des Löwen",
     },
+    [11015] = {
+        name = "Kristalle der Netherschwingen",
+    },
+    [11016] = {
+        name = "Balg eines Netherminenschinders",
+    },
+    [11017] = {
+        name = "Netherstaubpollen",
+    },
+    [11018] = {
+        name = "Netheriterz",
+    },
     [11019] = {
         name = "Freund unter Feinden",
+    },
+    [11020] = {
+        name = "Ein langsamer Tod",
+    },
+    [11021] = {
+        name = "Ishaals Almanach",
+    },
+    [11025] = {
+        name = "Die Kristalle",
+    },
+    [11028] = {
+        name = "Countdown des Schicksals",
+    },
+    [11029] = {
+        name = "Eine schäbige Verkleidung",
+    },
+    [11030] = {
+        name = "Unser Junge möchte der Himmelswache beitreten",
+    },
+    [11035] = {
+        name = "Ein Schatten am Horizont",
     },
     [11036] = {
         name = "Außerirdische Früchte!",
@@ -2106,6 +2688,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [11042] = {
         name = "Eine verblüffende Vision",
     },
+    [11043] = {
+        name = "Ein besserer Greif",
+    },
     [11044] = {
         name = "Visionen voller Zerstörung",
     },
@@ -2115,11 +2700,104 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [11046] = {
         name = "Chefapothekerin Hildagard",
     },
+    [11047] = {
+        name = "Die Bitte des Gesellen",
+    },
     [11048] = {
         name = "Kroghans Bericht",
     },
+    [11049] = {
+        name = "Die große Eierjagd",
+    },
+    [11050] = {
+        name = "Immer her mit den Eiern",
+    },
+    [11051] = {
+        name = "Bannt mehr Dämonen",
+    },
     [11052] = {
         name = "Akamas Versprechen",
+    },
+    [11054] = {
+        name = "Aufsehen und Ihr: Die richtige Wahl treffen",
+    },
+    [11055] = {
+        name = "Der Schuhmerang: Das Mittel gegen den wertlosen Peon",
+    },
+    [11056] = {
+        name = "Hazziks Handel",
+    },
+    [11057] = {
+        name = "Schwierigkeiten in der Tiefe",
+    },
+    [11058] = {
+        name = "Ein Apexisrelikt",
+    },
+    [11059] = {
+        name = "Wächter des Monuments",
+    },
+    [11072] = {
+        name = "Feindesblut",
+    },
+    [11076] = {
+        name = "Die Dinge in den Griff bekommen...",
+    },
+    [11078] = {
+        name = "Den Himmel beherrschen",
+    },
+    [11080] = {
+        name = "Die Strahlung des Relikts",
+    },
+    [11082] = {
+        name = "Suche nach der Wahrheit",
+    },
+    [11085] = {
+        name = "Flucht aus Skettis",
+    },
+    [11086] = {
+        name = "Schwächt das Portal des Zwielichts",
+    },
+    [11089] = {
+        name = "Die Seelenkanone Reth'hedrons",
+    },
+    [11090] = {
+        name = "Unterdrückt den Unterdrücker",
+    },
+    [11093] = {
+        name = "Hungrige Netherrochen",
+    },
+    [11098] = {
+        name = "Nach Skettis!",
+    },
+    [11502] = {
+        name = "Zur Verteidigung von Halaa",
+    },
+    [11503] = {
+        name = "Feinde - alte und neue",
+    },
+    [11505] = {
+        name = "Geister von Auchindoun",
+    },
+    [11506] = {
+        name = "Geister von Auchindoun",
+    },
+    [11514] = {
+        name = "Das Sonnenbrunnenportal aufrechterhalten",
+    },
+    [11521] = {
+        name = "Eure Wurzeln wiederentdecken",
+    },
+    [11544] = {
+        name = "Waffen von Ata'mal",
+    },
+    [11877] = {
+        name = "Angriffspläne des Sonnenzorns",
+    },
+    [11880] = {
+        name = "Die Multiphasen-Vermessung",
+    },
+    [11885] = {
+        name = "Feindesblut",
     },
     [13408] = {
         name = "Höllenfeuerbefestigungen",
@@ -2127,20 +2805,32 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [13409] = {
         name = "Höllenfeuerbefestigungen",
     },
+    [13429] = {
+        name = "Ein Ablenkungsmanöver für Akama",
+    },
     [28705] = {
         name = "Auf Befehl des Kriegshäuptlings: Die Scherbenwelt!",
     },
     [28708] = {
         name = "Heldenaufruf: Die Scherbenwelt!",
     },
-    [34364] = {
-        name = "Für die Horde!",
-    },
     [39180] = {
         name = "Auf Befehl des Kriegshäuptlings: Zangarmarschen!",
     },
     [39181] = {
         name = "Heldenaufruf: Zangarmarschen!",
+    },
+    [39182] = {
+        name = "Auf Befehl des Kriegshäuptlings: Wälder von Terokkar!",
+    },
+    [39188] = {
+        name = "Heldenaufruf: Wälder von Terokkar!",
+    },
+    [39196] = {
+        name = "Auf Befehl des Kriegshäuptlings: Nagrand!",
+    },
+    [39197] = {
+        name = "Heldenaufruf: Nagrand!",
     },
     [39198] = {
         name = "Auf Befehl des Kriegshäuptlings: Schergrat!",
@@ -2159,6 +2849,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [49550] = {
         name = "Heldenaufruf: Schattenmondtal!",
+    },
+    [50130] = {
+        name = "Eine freundliche Geste",
+    },
+    [50131] = {
+        name = "Eine neue Perspektive",
     },
 })
 ]])()

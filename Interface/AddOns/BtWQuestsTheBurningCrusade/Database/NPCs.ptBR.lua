@@ -6,6 +6,9 @@ end
 
 loadstring([[
 BtWQuestsDatabase:UpdateNPCsTable({
+    [15991] = {
+        name = "Lady Dina Cápita",
+    },
     [16574] = {
         name = "Clarividente Regulkut",
     },
@@ -141,8 +144,14 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [18035] = {
         name = "Batedor Jyoba",
     },
+    [18066] = {
+        name = "Clarividente Kurkush",
+    },
     [18067] = {
         name = "Clarividente Corhuk",
+    },
+    [18068] = {
+        name = "Clarividente Margadesh",
     },
     [18070] = {
         name = "Arauto do Vento Casco Negro",
@@ -158,6 +167,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [18090] = {
         name = "Capitão Kroghan",
+    },
+    [18091] = {
+        name = "Mensageiro Gazgrigg",
     },
     [18106] = {
         name = "Jorin Olho Morto",
@@ -180,11 +192,23 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [18218] = {
         name = "Manuelzão",
     },
+    [18222] = {
+        name = "Otunbo, o Prudente",
+    },
     [18223] = {
         name = "Mo'mor, o Destruidor",
     },
+    [18224] = {
+        name = "Poli'lukluk, o Sábio",
+    },
     [18229] = {
         name = "Saurfang, o Jovem",
+    },
+    [18233] = {
+        name = "Elementalista Ioki",
+    },
+    [18234] = {
+        name = "Elementalista Yal'hah",
     },
     [18238] = {
         name = "Invasor Sangue-de-lodo",
@@ -201,8 +225,17 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [18267] = {
         name = "Arauto de Batalha Olhonegro",
     },
+    [18285] = {
+        name = "\"Conde\" Ungula",
+    },
+    [18300] = {
+        name = "Elky'gan, o Místico",
+    },
     [18301] = {
         name = "Máter Celestina",
+    },
+    [18302] = {
+        name = "Máter Drakia",
     },
     [18340] = {
         name = "Feitor da Bomba de Vapor",
@@ -278,6 +311,12 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [18931] = {
         name = "Emílio Martelo Feroz",
+    },
+    [19133] = {
+        name = "Ohlorn Anda Ligeiro",
+    },
+    [19137] = {
+        name = "Jonas \"Escopeta\"",
     },
     [19188] = {
         name = "Colosso Enfurecido",
@@ -486,6 +525,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [21293] = {
         name = "Borak, Filho de Oronok",
     },
+    [21300] = {
+        name = "Corruptor Vil",
+    },
     [21311] = {
         name = "Rokgah Punhossangue",
     },
@@ -654,6 +696,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [22481] = {
         name = "Nanicovsky",
     },
+    [22488] = {
+        name = "Sentinela Sileluna",
+    },
     [23139] = {
         name = "Suserano Mor'ghor",
     },
@@ -662,6 +707,15 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [23267] = {
         name = "Arvoar, o Rapace",
+    },
+    [23268] = {
+        name = "Vidente Jovar",
+    },
+    [24885] = {
+        name = "Exorcista Sulivanos",
+    },
+    [24886] = {
+        name = "Exorcista Vaisha",
     },
 })
 ]])()

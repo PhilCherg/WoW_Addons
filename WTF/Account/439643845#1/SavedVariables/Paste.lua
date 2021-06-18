@@ -88,12 +88,12 @@ PasteDB = {
 			["loaded"] = true,
 		},
 		["Necrophagus - Outland"] = {
-			["whispertarget"] = "",
-			["where"] = "Default",
 			["loaded"] = true,
 			["minimap"] = {
 				["minimapPos"] = 178.6279061133446,
 			},
+			["where"] = "Default",
+			["whispertarget"] = "",
 			["pos"] = {
 			},
 		},
@@ -132,13 +132,13 @@ PasteDB = {
 			},
 		},
 		["Xanthoros - Outland"] = {
+			["whispertarget"] = "",
+			["where"] = "Default",
 			["loaded"] = true,
 			["minimap"] = {
 				["minimapPos"] = 185.6703494819772,
 				["hide"] = true,
 			},
-			["where"] = "Default",
-			["whispertarget"] = "",
 			["pos"] = {
 			},
 		},

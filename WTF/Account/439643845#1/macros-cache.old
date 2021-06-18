@@ -50,7 +50,8 @@ VER 3 000000000000002C "PetAndStones" "136103"
 /cast Create Soulwell
 END
 VER 3 000000000000002F "PvP Trinket DS" "135473"
-/use Dreadfire Vessel
+/use Sinful Gladiator's Badge of Ferocity
+/use Dark Soul: Instabilityaw
 END
 VER 3 0000000000000018 "Riptide" "252995"
 #showtooltip Riptide

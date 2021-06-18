@@ -180,8 +180,14 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [9727] = {
         name = "E como ainda somos amigos...",
     },
+    [9728] = {
+        name = "Calorosas boas-vindas",
+    },
     [9729] = {
         name = "Fhwoor esmaga!",
+    },
+    [9730] = {
+        name = "Líder dos Cristanegra",
     },
     [9731] = {
         name = "Diagrama dos esgotos",
@@ -189,8 +195,23 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [9732] = {
         name = "Retorno ao pântano",
     },
+    [9739] = {
+        name = "A situação dos Sporeggar",
+    },
+    [9742] = {
+        name = "Mais esporângios!",
+    },
+    [9743] = {
+        name = "Inimigos naturais",
+    },
+    [9744] = {
+        name = "Mais gavinhas!",
+    },
     [9747] = {
         name = "A tribo do Charco Sombrio",
+    },
+    [9752] = {
+        name = "Fuga do Charco Sombrio",
     },
     [9769] = {
         name = "Que roupinha mucho louca",
@@ -210,6 +231,18 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [9774] = {
         name = "Escamas grossas de hidra",
     },
+    [9775] = {
+        name = "Apresente-se ao caçador sombrio Denjai",
+    },
+    [9776] = {
+        name = "O Porto Orebor",
+    },
+    [9777] = {
+        name = "Esporos de fulgor",
+    },
+    [9778] = {
+        name = "Guardião Hamoot",
+    },
     [9780] = {
         name = "Filés de enguia do Charco Sombrio",
     },
@@ -221,6 +254,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [9783] = {
         name = "Estiagem anormal",
+    },
+    [9784] = {
+        name = "Identificar fragmentos de plantas",
+    },
+    [9785] = {
+        name = "Bênção dos anciãos",
     },
     [9786] = {
         name = "As Ruínas de Boha'mu",
@@ -240,11 +279,32 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [9791] = {
         name = "Ameaça presamangue",
     },
+    [9792] = {
+        name = "Uma mensagem para Telaar",
+    },
+    [9793] = {
+        name = "O destino de Tuurem",
+    },
+    [9794] = {
+        name = "Sem tempo para curiosos",
+    },
+    [9795] = {
+        name = "A ameaça dos ogros",
+    },
+    [9796] = {
+        name = "Notícias do Pântano Zíngaro",
+    },
+    [9797] = {
+        name = "Reforços para Garadar",
+    },
     [9800] = {
         name = "Grãos muito especiais",
     },
     [9801] = {
         name = "Coleta de reagentes",
+    },
+    [9802] = {
+        name = "Plantas do Pântano Zíngaro",
     },
     [9803] = {
         name = "Mensageiro para o Charco das Feras",
@@ -254,6 +314,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [9805] = {
         name = "Bênção de Incineratus",
+    },
+    [9806] = {
+        name = "Esporos férteis",
+    },
+    [9808] = {
+        name = "Chapéus-opalinos",
     },
     [9810] = {
         name = "Espírito poluído",
@@ -266,6 +332,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [9816] = {
         name = "Já viu um desses?",
+    },
+    [9817] = {
+        name = "Líder dos Sangrescama",
     },
     [9818] = {
         name = "O subterrâneo",
@@ -284,6 +353,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [9823] = {
         name = "Nós ou eles",
+    },
+    [9827] = {
+        name = "Basídio definhado",
+    },
+    [9828] = {
+        name = "Basídio definhado",
     },
     [9830] = {
         name = "Peçonha do sangrador",
@@ -357,6 +432,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [9862] = {
         name = "Corruptores Sangue-de-lodo",
     },
+    [9863] = {
+        name = "Idolatria vil",
+    },
     [9864] = {
         name = "O destacamento perdido",
     },
@@ -366,17 +444,56 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [9866] = {
         name = "Ele vai correr o mundo...",
     },
+    [9867] = {
+        name = "Chefes Sangue-de-lodo...",
+    },
     [9868] = {
         name = "O totem de Kar'dash",
     },
+    [9869] = {
+        name = "O Trono dos Elementos",
+    },
+    [9870] = {
+        name = "O Trono dos Elementos",
+    },
     [9871] = {
+        name = "Invasores Sangue-de-lodo",
+    },
+    [9872] = {
         name = "Invasores Sangue-de-lodo",
     },
     [9873] = {
         name = "Ortor, meu velho amigo...",
     },
+    [9874] = {
+        name = "Cessar a propagação",
+    },
+    [9875] = {
+        name = "Espécie não catalogada",
+    },
+    [9878] = {
+        name = "Resolvendo o problema",
+    },
     [9879] = {
         name = "O totem de Kar'dash",
+    },
+    [9882] = {
+        name = "Roubando de ladrões",
+    },
+    [9883] = {
+        name = "Mais fragmentos de cristal",
+    },
+    [9884] = {
+        name = "Benefícios para associados",
+    },
+    [9885] = {
+        name = "Benefícios para associados",
+    },
+    [9886] = {
+        name = "Benefícios para associados",
+    },
+    [9887] = {
+        name = "Benefícios para associados",
     },
     [9888] = {
         name = "O líder impotente",
@@ -390,11 +507,20 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [9891] = {
         name = "Porque Kilrath é um covarde",
     },
+    [9893] = {
+        name = "Colar de guerra obsidiano",
+    },
     [9894] = {
         name = "Proteja as sentinelas",
     },
+    [9895] = {
+        name = "O equilíbrio agonizante",
+    },
     [9896] = {
         name = "A desgraça do Aguilhão Negro",
+    },
+    [9897] = {
+        name = "Sã e salva!",
     },
     [9898] = {
         name = "Nada fala de amor como um grande aguilhante",
@@ -408,6 +534,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [9902] = {
         name = "O terror do Lago Pantanoso",
     },
+    [9903] = {
+        name = "O maior de todos",
+    },
     [9904] = {
         name = "Perseguição pelo Terrogarra",
     },
@@ -419,6 +548,27 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [9907] = {
         name = "Uma ofensiva audaciosa",
+    },
+    [9910] = {
+        name = "Práticas e padrões",
+    },
+    [9911] = {
+        name = "O conde dos pântanos",
+    },
+    [9912] = {
+        name = "A Expedição Cenariana",
+    },
+    [9913] = {
+        name = "O Consórcio precisa de você!",
+    },
+    [9914] = {
+        name = "Cabeça de marfim",
+    },
+    [9915] = {
+        name = "Mais cabeças de marfim",
+    },
+    [9916] = {
+        name = "Caixas de suprimentos dos Olhos Sangrentos",
     },
     [9917] = {
         name = "É uma miragem?",
@@ -480,6 +630,18 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [9940] = {
         name = "PROCURA-SE: Zorbo, o Conselheiro",
     },
+    [9944] = {
+        name = "Cortejo Mag'hari perdido",
+    },
+    [9945] = {
+        name = "Guerra aos Guerramalho",
+    },
+    [9946] = {
+        name = "Cho'war, o Espoliador",
+    },
+    [9948] = {
+        name = "Encontrar os sobreviventes",
+    },
     [9951] = {
         name = "De olho em você!",
     },
@@ -488,6 +650,18 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [9955] = {
         name = "Cho'war, o Espoliador",
+    },
+    [9956] = {
+        name = "A caravana devastada",
+    },
+    [9957] = {
+        name = "O que há de errado na Mata Cenariana?",
+    },
+    [9960] = {
+        name = "O que há de errado na Mata Cenariana?",
+    },
+    [9961] = {
+        name = "O que há de errado na Mata Cenariana?",
     },
     [9962] = {
         name = "Ringue de Sangue: Carracho",
@@ -615,6 +789,15 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10023] = {
         name = "Patriarca Ferroqueixo",
     },
+    [10026] = {
+        name = "Distúrbios mágicos",
+    },
+    [10027] = {
+        name = "Distúrbios mágicos",
+    },
+    [10028] = {
+        name = "Recipientes de poder",
+    },
     [10030] = {
         name = "Recuperar os ossos",
     },
@@ -626,6 +809,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [10034] = {
         name = "PROCURA-SE: açoita-ossos mortos!",
+    },
+    [10037] = {
+        name = "Prefiro pescar",
     },
     [10038] = {
         name = "Fale com o recruta Semanas",
@@ -657,6 +843,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10050] = {
         name = "Almas obstinadas",
     },
+    [10051] = {
+        name = "Fuga do Pontal Asardente!",
+    },
+    [10052] = {
+        name = "Fuga do Pontal Asardente!",
+    },
     [10055] = {
         name = "Sabendo usar, não vai faltar",
     },
@@ -665,6 +857,18 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [10058] = {
         name = "Um velho presente",
+    },
+    [10074] = {
+        name = "Cristal em pó de Oshu'gun",
+    },
+    [10075] = {
+        name = "Cristal em pó de Oshu'gun",
+    },
+    [10076] = {
+        name = "Cristal em pó de Oshu'gun",
+    },
+    [10077] = {
+        name = "Cristal em pó de Oshu'gun",
     },
     [10078] = {
         name = "Sabendo sabotar, não vão nos atacar",
@@ -702,17 +906,44 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10102] = {
         name = "Segredo revelado",
     },
+    [10103] = {
+        name = "Apresente-se a Zurai",
+    },
+    [10104] = {
+        name = "Preocupações quanto a Tuurem",
+    },
+    [10105] = {
+        name = "Notícias para Rakoria",
+    },
     [10107] = {
         name = "Medidas diplomáticas",
     },
     [10108] = {
         name = "Medidas diplomáticas",
     },
+    [10109] = {
+        name = "Eu preciso deles!",
+    },
+    [10111] = {
+        name = "Traga-me aquele ovo!",
+    },
     [10112] = {
         name = "Um favor pessoal",
     },
+    [10113] = {
+        name = "O safári Rosarães",
+    },
+    [10114] = {
+        name = "O safári Rosarães",
+    },
     [10115] = {
         name = "A Anomalia Lamadaga",
+    },
+    [10116] = {
+        name = "PROCURA-SE: Chefe Mummaki",
+    },
+    [10117] = {
+        name = "PROCURA-SE: Chefe Mummaki",
     },
     [10118] = {
         name = "Mensagem para os Lamadaga",
@@ -798,6 +1029,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10176] = {
         name = "Ar'kelos, o guardião",
     },
+    [10182] = {
+        name = "Mago de Batalha Dathric",
+    },
     [10183] = {
         name = "Para a Área 52",
     },
@@ -816,6 +1050,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10189] = {
         name = "Manaforja B'naar",
     },
+    [10190] = {
+        name = "Recarregar as baterias",
+    },
+    [10191] = {
+        name = "Mass v5.0 está vivo!",
+    },
     [10192] = {
         name = "O compêndio de Krasus",
     },
@@ -830,6 +1070,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [10198] = {
         name = "Conseguindo informações",
+    },
+    [10199] = {
+        name = "Um gás extra",
     },
     [10200] = {
         name = "Apresente-se novamente a Thalodien",
@@ -872,6 +1115,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [10223] = {
         name = "Abaixo o Daellis",
+    },
+    [10224] = {
+        name = "Essência para os motores",
+    },
+    [10226] = {
+        name = "Extração de poder elemental",
     },
     [10229] = {
         name = "Decifre o tomo",
@@ -948,6 +1197,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10258] = {
         name = "Honre os caídos",
     },
+    [10261] = {
+        name = "PROCURA-SE: aniquilador servomecânico!",
+    },
     [10262] = {
         name = "Destroços etéreos",
     },
@@ -1014,8 +1266,14 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10289] = {
         name = "Viagem a Thrallmar",
     },
+    [10290] = {
+        name = "Em busca de faralita",
+    },
     [10291] = {
         name = "Apresente-se a Nazgrel",
+    },
+    [10293] = {
+        name = "Eis o manancial",
     },
     [10294] = {
         name = "Escarpa do caos",
@@ -1032,6 +1290,27 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10301] = {
         name = "O compêndio destrancado",
     },
+    [10305] = {
+        name = "Abjurante Belmara",
+    },
+    [10306] = {
+        name = "Conjurador Luminrath",
+    },
+    [10307] = {
+        name = "Cohlien Tecegelo",
+    },
+    [10308] = {
+        name = "Mais destroços etéreos",
+    },
+    [10309] = {
+        name = "É um aníquilus, mas tem coração",
+    },
+    [10310] = {
+        name = "Sabotar o portal!",
+    },
+    [10311] = {
+        name = "Drijya precisa de você",
+    },
     [10312] = {
         name = "Os anais de Kirin'Var",
     },
@@ -1041,8 +1320,17 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10314] = {
         name = "Suspeita persistente",
     },
+    [10315] = {
+        name = "Neutralize os etermantes",
+    },
     [10316] = {
         name = "Em busca de evidências",
+    },
+    [10317] = {
+        name = "Dando um jeito no encarregado",
+    },
+    [10318] = {
+        name = "Um mestre supremo a se lidar",
     },
     [10319] = {
         name = "A captura do filactério",
@@ -1068,8 +1356,20 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10330] = {
         name = "Desativar Manaforja Coruu",
     },
+    [10331] = {
+        name = "Ferramentas indispensáveis",
+    },
     [10333] = {
         name = "Ajude Mamãe Macário",
+    },
+    [10334] = {
+        name = "Mais sinetas",
+    },
+    [10335] = {
+        name = "Inspecionar as ruínas",
+    },
+    [10336] = {
+        name = "Os lacaios de Culuthas",
     },
     [10338] = {
         name = "Desativar a Manaforja Dúria",
@@ -1083,17 +1383,32 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10341] = {
         name = "Acabe com eles enquanto estão no chão",
     },
+    [10342] = {
+        name = "Consiga o xisto dos xistocouro",
+    },
     [10343] = {
         name = "Invasão infindável",
     },
     [10344] = {
         name = "Comandante de Ala Grifongar",
     },
+    [10345] = {
+        name = "A carne é forte...",
+    },
+    [10348] = {
+        name = "Novas oportunidades",
+    },
     [10349] = {
         name = "A Ataterra",
     },
     [10351] = {
         name = "Remédios naturais",
+    },
+    [10353] = {
+        name = "Arconus, o Insaciável",
+    },
+    [10355] = {
+        name = "Carne definhada",
     },
     [10365] = {
         name = "Desativar Manaforja Ara",
@@ -1176,17 +1491,32 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10410] = {
         name = "A ajuda de Ishanah",
     },
+    [10411] = {
+        name = "Santo eletrochoque!",
+    },
+    [10413] = {
+        name = "Os horrores da poluição",
+    },
     [10417] = {
         name = "Qual é o diagnóstico?!",
     },
     [10418] = {
         name = "Uma raça de sabotadores",
     },
+    [10422] = {
+        name = "Capitão Tyralius",
+    },
     [10423] = {
         name = "Ao Pináculo da Tempestade",
     },
     [10424] = {
         name = "Diagnóstico: crítico",
+    },
+    [10425] = {
+        name = "Fuga dos bivaques",
+    },
+    [10426] = {
+        name = "A flora dos eco-domos",
     },
     [10430] = {
         name = "Protótipo em teste",
@@ -1196,6 +1526,15 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [10432] = {
         name = "Evidência maldita",
+    },
+    [10433] = {
+        name = "Manter uma boa aparência",
+    },
+    [10434] = {
+        name = "A dupla dinâmica",
+    },
+    [10435] = {
+        name = "Em busca de mercadoria",
     },
     [10436] = {
         name = "Tudo pronto!",
@@ -1236,6 +1575,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10450] = {
         name = "Sangue de Mascaosso",
     },
+    [10451] = {
+        name = "Fuga da Cisterna Serpentálios",
+    },
     [10455] = {
         name = "A selva agressiva",
     },
@@ -1247,6 +1589,18 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [10458] = {
         name = "Espíritos do fogo e da terra enfurecidos",
+    },
+    [10476] = {
+        name = "Inimigos ferozes",
+    },
+    [10477] = {
+        name = "Mais colares de guerra",
+    },
+    [10478] = {
+        name = "Mais colares de guerra!",
+    },
+    [10479] = {
+        name = "Prova de força",
     },
     [10480] = {
         name = "Espíritos da água enfurecidos",
@@ -1275,6 +1629,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10488] = {
         name = "A proteção dos nossos",
     },
+    [10489] = {
+        name = "Derrubada da árvore anciente",
+    },
     [10502] = {
         name = "Os ogros Malho Sangrento",
     },
@@ -1298,6 +1655,15 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [10509] = {
         name = "Destinado à glória",
+    },
+    [10510] = {
+        name = "Para a Mina de Draenetista",
+    },
+    [10511] = {
+        name = "Banebruto é uma enorme cerveja!",
+    },
+    [10512] = {
+        name = "Boa noite, Giralança",
     },
     [10513] = {
         name = "Oronok Coração-partido",
@@ -1377,6 +1743,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10550] = {
         name = "O feixe de cardossangue",
     },
+    [10555] = {
+        name = "Mal-estar",
+    },
+    [10556] = {
+        name = "Arranhões",
+    },
     [10557] = {
         name = "Voo de teste: capacitório de Zefírio",
     },
@@ -1433,6 +1805,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [10579] = {
         name = "A Cifra da Danação: terceiro fragmento recuperado",
+    },
+    [10580] = {
+        name = "Cadê o gnomo que estava aqui?",
+    },
+    [10581] = {
+        name = "Siga as migalhas de pão",
     },
     [10582] = {
         name = "Lacaios do Concílio das Sombras",
@@ -1500,6 +1878,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10608] = {
         name = "Claro como cristal",
     },
+    [10609] = {
+        name = "Quem nasceu primeiro? O ovo ou o draco?",
+    },
     [10611] = {
         name = "A Arte da Manutenção de Aníquilus",
     },
@@ -1514,6 +1895,15 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [10615] = {
         name = "Bosque Ruuan",
+    },
+    [10617] = {
+        name = "Casulo de sedasa",
+    },
+    [10618] = {
+        name = "As asas mais finas",
+    },
+    [10619] = {
+        name = "A tribo dos Grislíngua",
     },
     [10620] = {
         name = "Ameaça Costasserra",
@@ -1544,6 +1934,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [10630] = {
         name = "Embaixo de Thrallmar",
+    },
+    [10632] = {
+        name = "Chega de moleza",
     },
     [10633] = {
         name = "Teron Sanguinávido: fatos e lendas",
@@ -1580,6 +1973,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [10646] = {
         name = "Pupilo de Illidan",
+    },
+    [10647] = {
+        name = "PROCURA-SE: Uvuros, Flagelo de Lua Negra",
+    },
+    [10648] = {
+        name = "PROCURA-SE: Uvuros, Flagelo de Lua Negra",
     },
     [10649] = {
         name = "O livro dos nomes abjetos",
@@ -1683,11 +2082,23 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10688] = {
         name = "Uma distração necessária",
     },
+    [10690] = {
+        name = "A matriarca do covil",
+    },
     [10691] = {
         name = "Retorno aos Áugures",
     },
     [10692] = {
         name = "Varedis precisa ser detido!",
+    },
+    [10701] = {
+        name = "Éter mole em Pétrer duro",
+    },
+    [10702] = {
+        name = "Trabalho de bruto",
+    },
+    [10703] = {
+        name = "Hora de pôr as joelheiras...",
     },
     [10704] = {
         name = "Como entrar em Arcatraz",
@@ -1722,6 +2133,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10715] = {
         name = "Para a Ravina Trêmula",
     },
+    [10717] = {
+        name = "Ladrão que rouba ladrão...",
+    },
     [10718] = {
         name = "Os espíritos têm vozes",
     },
@@ -1752,6 +2166,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10745] = {
         name = "Vitória da conquista",
     },
+    [10747] = {
+        name = "Dragonetes da Seita das Serpes",
+    },
     [10748] = {
         name = "Maxnar tem que morrer!",
     },
@@ -1763,6 +2180,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [10751] = {
         name = "A invasão do caminho",
+    },
+    [10753] = {
+        name = "Livre-se dos selvagens",
     },
     [10759] = {
         name = "Encontre o desertor",
@@ -1787,6 +2207,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [10769] = {
         name = "Discórdia nas fileiras...",
+    },
+    [10770] = {
+        name = "Pequenas brasas",
     },
     [10771] = {
         name = "Das cinzas",
@@ -1815,20 +2238,38 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10780] = {
         name = "Penas de Sketh'lon",
     },
+    [10781] = {
+        name = "Batalha da Vigília Carmesim",
+    },
     [10782] = {
         name = "Imbuir o castão",
     },
     [10783] = {
         name = "Barão Zibecrina",
     },
+    [10784] = {
+        name = "Acabe com a Base dos Malho Sangrento",
+    },
     [10785] = {
         name = "É uma cilada, gronn!",
+    },
+    [10786] = {
+        name = "Matança em Rocha'mok",
     },
     [10791] = {
         name = "Bem-vindo, espírito do lobo",
     },
     [10792] = {
         name = "Zeth'Gor tem que queimar!",
+    },
+    [10793] = {
+        name = "O diário de Val'zareq: presságios de guerra",
+    },
+    [10795] = {
+        name = "Um encontro com Dorgok",
+    },
+    [10796] = {
+        name = "Acabe com a Base dos Malho Sangrento!",
     },
     [10797] = {
         name = "Distintivo dos gronns",
@@ -1847,6 +2288,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [10802] = {
         name = "Gorgrom, o Devorador de Dragão",
+    },
+    [10803] = {
+        name = "Matança em Rocha'mok",
     },
     [10804] = {
         name = "Bondade",
@@ -1878,6 +2322,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10814] = {
         name = "A história de Neltarako",
     },
+    [10816] = {
+        name = "A reconquista do solo sagrado",
+    },
     [10818] = {
         name = "Barão Zibecrina solicita a sua presença",
     },
@@ -1889,6 +2336,18 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [10821] = {
         name = "Para o olho da rua!",
+    },
+    [10825] = {
+        name = "Os orbes da verdade",
+    },
+    [10827] = {
+        name = "Mais Marcas de Sargeras",
+    },
+    [10829] = {
+        name = "Precisamos informar ao Arvotronco",
+    },
+    [10830] = {
+        name = "Exorcista de árvores",
     },
     [10834] = {
         name = "Grillok \"Olho-negro\"",
@@ -1932,6 +2391,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10849] = {
         name = "Em busca de Kirrik",
     },
+    [10850] = {
+        name = "Gás etéreo em motor de fogo vil",
+    },
     [10851] = {
         name = "Os totens do meu inimigo",
     },
@@ -1944,14 +2406,32 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10854] = {
         name = "A força de Neltarako",
     },
+    [10855] = {
+        name = "Aníquilus? Não, obrigado!",
+    },
+    [10856] = {
+        name = "A melhor defesa",
+    },
+    [10857] = {
+        name = "Teleporta agora que eu quero ver!",
+    },
     [10858] = {
         name = "Karynakhan",
     },
     [10859] = {
         name = "Reúna os orbes",
     },
+    [10860] = {
+        name = "Petiscos dos Mok'nathal",
+    },
     [10861] = {
         name = "Véu Lithic: Ataque preventivo",
+    },
+    [10862] = {
+        name = "Renda-se à Horda",
+    },
+    [10863] = {
+        name = "Segredos dos arakkoas",
     },
     [10864] = {
         name = "Um peso na alma",
@@ -2004,6 +2484,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10881] = {
         name = "A tumba sombria",
     },
+    [10887] = {
+        name = "Fuga da tumba",
+    },
     [10889] = {
         name = "Retorno para Shattrath",
     },
@@ -2018,6 +2501,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [10896] = {
         name = "Os protetores infestados",
+    },
+    [10898] = {
+        name = "Asacéu",
     },
     [10903] = {
         name = "Retorno à Fortaleza da Honra",
@@ -2052,6 +2538,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10916] = {
         name = "Procurando as contas de oração",
     },
+    [10917] = {
+        name = "O apuro do proscrito",
+    },
+    [10918] = {
+        name = "Mais penas",
+    },
     [10920] = {
         name = "Pelos caídos",
     },
@@ -2064,8 +2556,17 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10923] = {
         name = "O mal se avizinha",
     },
+    [10924] = {
+        name = "O diabrete mora no sangue",
+    },
     [10926] = {
         name = "Retorno ao acampamento Sha'tari",
+    },
+    [10927] = {
+        name = "Mate os rastejantes",
+    },
+    [10928] = {
+        name = "Mate os rastejantes",
     },
     [10929] = {
         name = "Batucando",
@@ -2082,6 +2583,54 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [10937] = {
         name = "Exercício em execução",
     },
+    [10949] = {
+        name = "Entrada do Templo Negro",
+    },
+    [10969] = {
+        name = "Procure Ameer",
+    },
+    [10970] = {
+        name = "Missão de misericórdia",
+    },
+    [10973] = {
+        name = "Mil mundos",
+    },
+    [10974] = {
+        name = "Câmaras de estase de Bash'ir",
+    },
+    [10976] = {
+        name = "A marca do rei do nexus",
+    },
+    [10983] = {
+        name = "Mog'dorg, o Rugoso",
+    },
+    [10985] = {
+        name = "Uma distração para Akama",
+    },
+    [10989] = {
+        name = "Mog'dorg, o Rugoso",
+    },
+    [10995] = {
+        name = "Grulloc tem dois crânios",
+    },
+    [10996] = {
+        name = "Baú do tesouro de Maggoc",
+    },
+    [10997] = {
+        name = "Gronn defende suas bandeiras",
+    },
+    [11004] = {
+        name = "Mundo das sombras",
+    },
+    [11005] = {
+        name = "Segredos dos sacerdotes da garra",
+    },
+    [11008] = {
+        name = "Fogo sobre Skettis",
+    },
+    [11009] = {
+        name = "Céu ôgrico",
+    },
     [11012] = {
         name = "Juramento de sangue dos Asa Etérea",
     },
@@ -2091,8 +2640,41 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [11014] = {
         name = "Eis que surge o capataz",
     },
+    [11015] = {
+        name = "Cristais da Asa Etérea",
+    },
+    [11016] = {
+        name = "Pelego de Esfola-pedra da Mina Etérea",
+    },
+    [11017] = {
+        name = "Pólen de poeira etérea",
+    },
+    [11018] = {
+        name = "Minério de etercita",
+    },
     [11019] = {
         name = "Seu amigo nas internas",
+    },
+    [11020] = {
+        name = "Morte lenta",
+    },
+    [11021] = {
+        name = "Almanaque de Ishaal",
+    },
+    [11025] = {
+        name = "Os cristais",
+    },
+    [11028] = {
+        name = "Contagem regressiva para a ruína",
+    },
+    [11029] = {
+        name = "Um disfarce surrado",
+    },
+    [11030] = {
+        name = "Jovem, aliste-se já na Guarda Aérea",
+    },
+    [11035] = {
+        name = "Viaje não-tão-bem-assim...",
     },
     [11036] = {
         name = "Um fruto do outro mundo!",
@@ -2115,6 +2697,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [11042] = {
         name = "Uma visão mistificadora",
     },
+    [11043] = {
+        name = "Por um grifo melhor",
+    },
     [11044] = {
         name = "Visões da destruição",
     },
@@ -2124,11 +2709,104 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [11046] = {
         name = "Boticária-chefe Hildagard",
     },
+    [11047] = {
+        name = "O pedido do aprendiz",
+    },
     [11048] = {
         name = "Relatório de Kroghan",
     },
+    [11049] = {
+        name = "A grande caçada de ovos da Asa Etérea",
+    },
+    [11050] = {
+        name = "Aceitamos todos os ovos",
+    },
+    [11051] = {
+        name = "Expulse mais demônios",
+    },
     [11052] = {
         name = "A promessa de Akama",
+    },
+    [11054] = {
+        name = "A Feitoria e Você: Fazendo as Escolhas Certas",
+    },
+    [11055] = {
+        name = "O Botarangue: a cura para o inútil peão comum",
+    },
+    [11056] = {
+        name = "A barganha de Hazzik",
+    },
+    [11057] = {
+        name = "Problema abaixo",
+    },
+    [11058] = {
+        name = "Relíquia dos Apexis",
+    },
+    [11059] = {
+        name = "Guardião do monumento",
+    },
+    [11072] = {
+        name = "Sangue adversário",
+    },
+    [11076] = {
+        name = "Catando cavaco",
+    },
+    [11078] = {
+        name = "Para dominar os céus",
+    },
+    [11080] = {
+        name = "Emanação da relíquia",
+    },
+    [11082] = {
+        name = "Em busca da verdade",
+    },
+    [11085] = {
+        name = "Fuga de Skettis",
+    },
+    [11086] = {
+        name = "Atrapalhando o Portal do Crepúsculo",
+    },
+    [11089] = {
+        name = "O Canhão das almas de Reth'hedron",
+    },
+    [11090] = {
+        name = "Domine o Dominador",
+    },
+    [11093] = {
+        name = "Arraias etéreas famintas",
+    },
+    [11098] = {
+        name = "Para Skettis!",
+    },
+    [11502] = {
+        name = "Em defesa de Halaa",
+    },
+    [11503] = {
+        name = "Inimigos, novos e velhos",
+    },
+    [11505] = {
+        name = "Espíritos de Auchindoun",
+    },
+    [11506] = {
+        name = "Espíritos de Auchindoun",
+    },
+    [11514] = {
+        name = "Manutenção do Portal para a Nascente do Sol",
+    },
+    [11521] = {
+        name = "Redescobrindo as suas raízes",
+    },
+    [11544] = {
+        name = "Armamentos de Ata'mal",
+    },
+    [11877] = {
+        name = "Plano de Ataque dos Solfúria",
+    },
+    [11880] = {
+        name = "Sondagem multifásica",
+    },
+    [11885] = {
+        name = "Sangue adversário",
     },
     [13408] = {
         name = "As fortificações da cidadela",
@@ -2136,20 +2814,32 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [13409] = {
         name = "As fortificações da cidadela",
     },
+    [13429] = {
+        name = "Uma distração para Akama",
+    },
     [28705] = {
         name = "Ordens do Chefe Guerreiro: Terralém!",
     },
     [28708] = {
         name = "O chamado ao heroísmo: Terralém!",
     },
-    [34364] = {
-        name = "Pela Horda!",
-    },
     [39180] = {
         name = "Ordens do Chefe Guerreiro: Pântano Zíngaro!",
     },
     [39181] = {
         name = "Chamado ao Heroísmo: Pântano Zíngaro!",
+    },
+    [39182] = {
+        name = "Ordens do Chefe Guerreiro: Mata Terokkar!",
+    },
+    [39188] = {
+        name = "Chamado ao Heroísmo: Mata Terokkar!",
+    },
+    [39196] = {
+        name = "Ordens do Chefe Guerreiro: Nagrand!",
+    },
+    [39197] = {
+        name = "Chamado ao Heroísmo: Nagrand!",
     },
     [39198] = {
         name = "Ordens do Chefe Guerreiro: Montanhas da Lâmina Afiada!",
@@ -2168,6 +2858,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [49550] = {
         name = "Chamado ao Heroísmo: Vale da Lua Negra!",
+    },
+    [50130] = {
+        name = "Um gesto amistoso",
+    },
+    [50131] = {
+        name = "Uma perspectiva exterior",
     },
 })
 ]])()

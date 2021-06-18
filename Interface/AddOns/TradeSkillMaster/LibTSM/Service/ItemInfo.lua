@@ -99,20 +99,20 @@ end
 -- 	http://www.wowhead.com/items=2?filter=qu=2%3A3%3A4%3Bcr=8%3A2%3Bcrs=2%3A2%3Bcrv=0%3A0
 -- 	http://www.wowhead.com/items=4?filter=qu=2%3A3%3A4%3Bcr=8%3A2%3Bcrs=2%3A2%3Bcrv=0%3A0
 local NON_DISENCHANTABLE_ITEMS = {
-	["i:11290"] = true,
-	["i:11289"] = true,
-	["i:11288"] = true,
 	["i:11287"] = true,
-	["i:60223"] = true,
-	["i:52252"] = true,
+	["i:11288"] = true,
+	["i:11289"] = true,
+	["i:11290"] = true,
 	["i:20406"] = true,
 	["i:20407"] = true,
 	["i:20408"] = true,
 	["i:21766"] = true,
+	["i:52252"] = true,
 	["i:52485"] = true,
 	["i:52486"] = true,
 	["i:52487"] = true,
 	["i:52488"] = true,
+	["i:60223"] = true,
 	["i:75274"] = true,
 	["i:84661"] = true,
 	["i:97826"] = true,
@@ -123,6 +123,9 @@ local NON_DISENCHANTABLE_ITEMS = {
 	["i:97831"] = true,
 	["i:97832"] = true,
 	["i:109262"] = true,
+	["i:186056"] = true,
+	["i:186058"] = true,
+	["i:186163"] = true,
 }
 
 
@@ -430,6 +433,12 @@ end
 -- @tparam function callback The function to be called
 function ItemInfo.RegisterInfoChangeCallback(callback)
 	tinsert(private.infoChangeCallbacks, callback)
+end
+
+--- Sets whether or not query updates are paused on the item info DB
+-- @tparam boolean paused Whether or not query updates are paused
+function ItemInfo.SetQueryUpdatesPaused(paused)
+	private.db:SetQueryUpdatesPaused(paused)
 end
 
 --- Store the name of an item.
@@ -1168,6 +1177,10 @@ function private.StoreGetItemInfoInstant(itemString)
 		-- some items (such as i:37445) give a classId of -1 for some reason in which case we can look up the classId
 		if classId < 0 then
 			classId = ItemClass.GetClassIdFromClassString(classStr)
+			if not classId and TSM.IsWowClassic() then
+				-- this can happen for items which don't yet exist in classic (i.e. WoW Tokens)
+				return
+			end
 			assert(subClassStr == "")
 			subClassId = 0
 		end

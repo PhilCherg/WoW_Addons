@@ -28,31 +28,31 @@ MHMOTSConfig = {
 	},
 	["PrintResettedPlayerName"] = true,
 	["AutoToggleVisibility"] = true,
+	["AutoAnnouncerAsPartyLeader"] = true,
+	["SavedPositionLargeSymbol"] = {
+	},
+	["SetMarkerOnTargetClone"] = true,
 	["ActiveColor"] = {
 		0.4, -- [1]
 		0.52, -- [2]
 		0.95, -- [3]
 		1, -- [4]
 	},
-	["SavedPositionLargeSymbol"] = {
+	["SetMarkerOnTargetCloneModifier"] = 3,
+	["AutoAnnouncer"] = true,
+	["SetMarkerOnTargetCloneUseModifier"] = true,
+	["SyncEnabled"] = true,
+	["SavedBackgroundAlphaLargeSymbol"] = 0.8,
+	["AnnounceWithEnglish"] = true,
+	["UseCloneAutoMarker"] = true,
+	["MinimapButton"] = {
+		["minimapPos"] = 197.609007190142,
+		["hide"] = false,
 	},
-	["SetMarkerOnTargetClone"] = true,
 	["SolutionColor"] = {
 		0.2, -- [1]
 		0.8, -- [2]
 		0.4, -- [3]
 		1, -- [4]
 	},
-	["SetMarkerOnTargetCloneModifier"] = 3,
-	["AutoAnnouncer"] = true,
-	["SetMarkerOnTargetCloneUseModifier"] = true,
-	["AnnounceWithEnglish"] = true,
-	["SyncEnabled"] = true,
-	["SavedBackgroundAlphaLargeSymbol"] = 0.8,
-	["UseCloneAutoMarker"] = true,
-	["MinimapButton"] = {
-		["minimapPos"] = 197.609007190142,
-		["hide"] = false,
-	},
-	["AutoAnnouncerAsPartyLeader"] = true,
 }

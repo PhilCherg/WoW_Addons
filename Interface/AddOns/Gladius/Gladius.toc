@@ -1,6 +1,6 @@
-## Interface: 90002
+## Interface: 90005
 ## Title: Gladius
-## Version: 7.0.4
+## Version: 7.0.5
 ## Notes: Arena enemy unit frames.
 ## Author: Resike and Firebunny. Original author: Proditor
 ## SavedVariables: Gladius2DB
@@ -29,3 +29,5 @@ Modules\DRTracker.lua
 Modules\Timer.lua
 Modules\Layout.lua
 Modules\Dispel.lua
+Modules\Interrupt.lua
+Modules\Racial.lua

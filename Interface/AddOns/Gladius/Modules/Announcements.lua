@@ -4,7 +4,7 @@ if not Gladius then
 end
 local L = Gladius.L
 
--- global functions
+-- Global Functions
 local mathfloor = math.floor
 local strfind = string.find
 local string = string

@@ -7,22 +7,17 @@ MHMOTSConfig = {
 		1, -- [4]
 	},
 	["ShowLargeSymbol"] = true,
-	["SavedBackgroundAlpha"] = 0.8500000000000001,
+	["AutoAnnouncerAsPartyLeader"] = true,
 	["ShowAtBoss"] = true,
 	["ShowSequenceNumbers"] = true,
-	["SavedScale"] = 1,
+	["SolutionColor"] = {
+		0.2, -- [1]
+		0.8, -- [2]
+		0.4, -- [3]
+		1, -- [4]
+	},
 	["SavedScaleLargeSymbol"] = 1,
-	["MinimapButton"] = {
-		["minimapPos"] = 197.609007190142,
-		["hide"] = false,
-	},
-	["SavedPosition"] = {
-		"TOPLEFT", -- [1]
-		nil, -- [2]
-		"TOPLEFT", -- [3]
-		230.3599700927734, -- [4]
-		-234.3660125732422, -- [5]
-	},
+	["SetMarkerOnTargetCloneUseModifier"] = true,
 	["PredictedColor"] = {
 		1, -- [1]
 		0.9, -- [2]
@@ -31,28 +26,34 @@ MHMOTSConfig = {
 	},
 	["PrintResettedPlayerName"] = true,
 	["AutoToggleVisibility"] = true,
-	["SolutionColor"] = {
-		0.2, -- [1]
-		0.8, -- [2]
-		0.4, -- [3]
-		1, -- [4]
-	},
+	["AnnounceWithEnglish"] = true,
 	["SavedPositionLargeSymbol"] = {
 	},
 	["SetMarkerOnTargetClone"] = true,
-	["AutoAnnouncerAsPartyLeader"] = true,
+	["SavedBackgroundAlpha"] = 0.8500000000000001,
+	["MinimapButton"] = {
+		["minimapPos"] = 197.609007190142,
+		["hide"] = false,
+	},
 	["SetMarkerOnTargetCloneModifier"] = 3,
 	["AutoAnnouncer"] = true,
-	["SetMarkerOnTargetCloneUseModifier"] = true,
-	["SavedBackgroundAlphaLargeSymbol"] = 0.8,
-	["AnnounceWithEnglish"] = true,
-	["SyncEnabled"] = true,
-	["UseCloneAutoMarker"] = true,
-	["UseColoredSymbols"] = true,
+	["SavedScale"] = 1,
 	["ActiveColor"] = {
 		0.4, -- [1]
 		0.52, -- [2]
 		0.95, -- [3]
 		1, -- [4]
 	},
+	["SavedBackgroundAlphaLargeSymbol"] = 0.8,
+	["SavedPosition"] = {
+		"TOPLEFT", -- [1]
+		nil, -- [2]
+		"TOPLEFT", -- [3]
+		230.3599700927734, -- [4]
+		-234.3660125732422, -- [5]
+	},
+	["UseCloneAutoMarker"] = true,
+	["AutoAnnouncerChannel"] = 1,
+	["UseColoredSymbols"] = true,
+	["SyncEnabled"] = true,
 }

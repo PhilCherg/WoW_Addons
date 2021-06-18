@@ -154,27 +154,34 @@ TomTomWaypointsM = {
 					125, -- [1]
 					0.4937, -- [2]
 					0.6325999999999999, -- [3]
-					["crazy"] = true,
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
-					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
-						},
-						["minimap"] = {
+							[15] = nil --[[ skipped inline function ]],
 						},
 						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
-					["title"] = "Back To The Orphanage",
+					["minimap"] = true,
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["persistent"] = true,
-					["desc"] = "Back To The Orphanage",
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["silent"] = true,
 					["cleardistance"] = 0,
-					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["title"] = "Back To The Orphanage",
 					["from"] = "ATT\nIf you are missing this quest resummon your Wolvar child to pick it up.",
-					["worldmap_displayID"] = 25384,
 					["minimap_displayID"] = 25384,
-					["minimap"] = true,
+					["desc"] = "Back To The Orphanage",
+					["worldmap_displayID"] = 25384,
 					["world"] = true,
 				},
 			},
@@ -203,19 +210,19 @@ TomTomWaypointsM = {
 						["minimap"] = {
 						},
 					},
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["desc"] = "Return to the Orphanage",
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
-					["desc"] = "Return to the Orphanage",
-					["persistent"] = true,
 					["minimap"] = true,
+					["persistent"] = true,
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["silent"] = true,
 					["cleardistance"] = 0,
 					["title"] = "Return to the Orphanage",
-					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
-					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
-					["worldmap_displayID"] = 89265,
 					["minimap_displayID"] = 89265,
+					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
+					["worldmap_displayID"] = 89265,
 					["world"] = true,
 				},
 				["1161:480100000:402800000:Return to the Orphanage"] = {
@@ -230,19 +237,19 @@ TomTomWaypointsM = {
 						["minimap"] = {
 						},
 					},
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["desc"] = "Return to the Orphanage",
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
-					["desc"] = "Return to the Orphanage",
-					["persistent"] = true,
 					["minimap"] = true,
+					["persistent"] = true,
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["silent"] = true,
 					["cleardistance"] = 0,
 					["title"] = "Return to the Orphanage",
-					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
-					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
-					["worldmap_displayID"] = 89265,
 					["minimap_displayID"] = 89265,
+					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
+					["worldmap_displayID"] = 89265,
 					["world"] = true,
 				},
 			},
@@ -258,7 +265,7 @@ TomTomWaypointsM = {
 					0.4777, -- [2]
 					0.3937, -- [3]
 					["crazy"] = true,
-					["title"] = "Return to the Orphanage",
+					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
@@ -268,16 +275,16 @@ TomTomWaypointsM = {
 						["world"] = {
 						},
 					},
-					["minimap_displayID"] = 89265,
+					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
 					["persistent"] = true,
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["desc"] = "Return to the Orphanage",
 					["silent"] = true,
 					["cleardistance"] = 0,
-					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
-					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
+					["title"] = "Return to the Orphanage",
+					["minimap_displayID"] = 89265,
 					["worldmap_displayID"] = 89265,
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["minimap"] = true,
-					["desc"] = "Return to the Orphanage",
 					["world"] = true,
 				},
 				["1161:480100000:402800000:Return to the Orphanage"] = {
@@ -285,7 +292,7 @@ TomTomWaypointsM = {
 					0.4801, -- [2]
 					0.4028, -- [3]
 					["crazy"] = true,
-					["title"] = "Return to the Orphanage",
+					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
@@ -295,16 +302,16 @@ TomTomWaypointsM = {
 						["world"] = {
 						},
 					},
-					["minimap_displayID"] = 89265,
+					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
 					["persistent"] = true,
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["desc"] = "Return to the Orphanage",
 					["silent"] = true,
 					["cleardistance"] = 0,
-					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
-					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
+					["title"] = "Return to the Orphanage",
+					["minimap_displayID"] = 89265,
 					["worldmap_displayID"] = 89265,
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["minimap"] = true,
-					["desc"] = "Return to the Orphanage",
 					["world"] = true,
 				},
 			},
@@ -404,7 +411,7 @@ TomTomWaypointsM = {
 					0.4777, -- [2]
 					0.3937, -- [3]
 					["crazy"] = true,
-					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
+					["worldmap_displayID"] = 89265,
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
@@ -414,16 +421,16 @@ TomTomWaypointsM = {
 						["world"] = {
 						},
 					},
-					["worldmap_displayID"] = 89265,
+					["minimap_displayID"] = 89265,
 					["persistent"] = true,
-					["minimap"] = true,
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["silent"] = true,
 					["cleardistance"] = 0,
 					["title"] = "Return to the Orphanage",
-					["minimap_displayID"] = 89265,
+					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
 					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["minimap"] = true,
 					["desc"] = "Return to the Orphanage",
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["world"] = true,
 				},
 				["1161:480100000:402800000:Return to the Orphanage"] = {
@@ -431,7 +438,7 @@ TomTomWaypointsM = {
 					0.4801, -- [2]
 					0.4028, -- [3]
 					["crazy"] = true,
-					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
+					["worldmap_displayID"] = 89265,
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
@@ -441,16 +448,16 @@ TomTomWaypointsM = {
 						["world"] = {
 						},
 					},
-					["worldmap_displayID"] = 89265,
+					["minimap_displayID"] = 89265,
 					["persistent"] = true,
-					["minimap"] = true,
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["silent"] = true,
 					["cleardistance"] = 0,
 					["title"] = "Return to the Orphanage",
-					["minimap_displayID"] = 89265,
+					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
 					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["minimap"] = true,
 					["desc"] = "Return to the Orphanage",
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["world"] = true,
 				},
 			},

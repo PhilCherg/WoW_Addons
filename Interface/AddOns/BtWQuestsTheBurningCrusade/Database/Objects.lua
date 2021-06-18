@@ -103,6 +103,17 @@ BtWQuestsDatabase:AddObjectsTable({
             },
         },
     },
+    [183811] = {
+        name = "Wanted Poster",
+        locations = {
+            [109] = {
+                {
+                    x = 0.320913,
+                    y = 0.646452,
+                },
+            },
+        },
+    },
     [184300] = {
         name = "Necromantic Focus",
         locations = {
@@ -110,6 +121,45 @@ BtWQuestsDatabase:AddObjectsTable({
                 {
                     x = 0.603046,
                     y = 0.779688,
+                },
+            },
+        },
+    },
+    [184660] = {
+        name = "Wanted Poster",
+        locations = {
+            [105] = {
+                {
+                    x = 0.519326,
+                    y = 0.577787,
+                },
+            },
+        },
+    },
+    [184825] = {
+        name = "Lashh'an Tome",
+        locations = {
+            [105] = {
+                {
+                    x = 0.34301,
+                    y = 0.774009,
+                },
+            },
+        },
+    },
+    [184945] = {
+        name = "Wanted Poster",
+    },
+    [184946] = {
+        name = "Wanted Poster",
+    },
+    [185035] = {
+        name = "Wanted Poster",
+        locations = {
+            [105] = {
+                {
+                    x = 0.366134,
+                    y = 0.672995,
                 },
             },
         },

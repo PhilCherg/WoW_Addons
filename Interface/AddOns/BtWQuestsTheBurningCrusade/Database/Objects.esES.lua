@@ -24,11 +24,17 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [182588] = {
         name = "Cartel de Se busca",
     },
+    [183284] = {
+        name = "Cartel de Se busca",
+    },
     [183770] = {
         name = "Consola de control B'naar",
     },
     [184300] = {
         name = "Foco nigromántico",
+    },
+    [184825] = {
+        name = "Escrito Lashh'an",
     },
     [185165] = {
         name = "Comunicador de la Legión",

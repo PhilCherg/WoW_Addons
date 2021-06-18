@@ -123,8 +123,14 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [18035] = {
         name = "Späher Jyoba",
     },
+    [18066] = {
+        name = "Scharfseher Kurkush",
+    },
     [18067] = {
         name = "Scharfseher Corhuk",
+    },
+    [18068] = {
+        name = "Scharfseher Margadesh",
     },
     [18070] = {
         name = "Windruferin Schwarzhuf",
@@ -141,11 +147,17 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [18090] = {
         name = "Hauptmann Kroghan",
     },
+    [18091] = {
+        name = "Bote Gazgrigg",
+    },
     [18106] = {
         name = "Jorin Totauge",
     },
     [18141] = {
         name = "Großmutter Geyah",
+    },
+    [18166] = {
+        name = "Erzmagier Khadgar",
     },
     [18200] = {
         name = "Shado 'Fitz' Fernreiser",
@@ -159,11 +171,23 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [18218] = {
         name = "Harold Fährten",
     },
+    [18222] = {
+        name = "Otonbu der Weise",
+    },
     [18223] = {
         name = "Mo'mor der Brecher",
     },
+    [18224] = {
+        name = "Poli'lukluk der Weisere",
+    },
     [18229] = {
         name = "Saurfang der Jüngere",
+    },
+    [18233] = {
+        name = "Elementarist Ioki",
+    },
+    [18234] = {
+        name = "Elementarist Yal'hah",
     },
     [18238] = {
         name = "Eindringling der Finsterblut",
@@ -183,8 +207,14 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [18295] = {
         name = "Ausgrabungsleiter Conall",
     },
+    [18300] = {
+        name = "Mystiker Elkay'gan",
+    },
     [18301] = {
         name = "Matrone Celestine",
+    },
+    [18302] = {
+        name = "Matrone Drakia",
     },
     [18340] = {
         name = "Dampfpumpenvorarbeiter",
@@ -197,6 +227,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [18408] = {
         name = "Aufseher Moi'bff Jill",
+    },
+    [18416] = {
+        name = "Jägerin Kima",
     },
     [18417] = {
         name = "Altruis der Leidende",
@@ -245,6 +278,12 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [18930] = {
         name = "Vlagga Freyfeder",
+    },
+    [19133] = {
+        name = "Ohlorn Fernreiser",
+    },
+    [19137] = {
+        name = "\"Die Flinte\" Jones",
     },
     [19188] = {
         name = "Tobender Koloss",
@@ -297,6 +336,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [19468] = {
         name = "Spionagemeister Thalodien",
     },
+    [19475] = {
+        name = "Herold Haronem",
+    },
     [19481] = {
         name = "Erzmagier Vargoth",
     },
@@ -323,6 +365,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [19683] = {
         name = "Ogath der Verrückte",
+    },
+    [19684] = {
+        name = "Hagerer Kriegsveteran",
     },
     [19728] = {
         name = "Mama Mauschel",
@@ -425,6 +470,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [21293] = {
         name = "Borak, Sohn von Oronok",
+    },
+    [21300] = {
+        name = "Teufelsverderber",
     },
     [21311] = {
         name = "Rokgah Blutgriff",
@@ -573,6 +621,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [22481] = {
         name = "Zwergowitz",
     },
+    [22488] = {
+        name = "Schildwache Mondwisper",
+    },
     [23139] = {
         name = "Oberanführer Mor'ghor",
     },
@@ -581,6 +632,15 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [23267] = {
         name = "Arvoar der Gierige",
+    },
+    [23268] = {
+        name = "Seher Jovar",
+    },
+    [24885] = {
+        name = "Exorzist Sullivan",
+    },
+    [24886] = {
+        name = "Exorzistin Vaisha",
     },
 })
 ]])()
