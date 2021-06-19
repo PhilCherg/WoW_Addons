@@ -2,7 +2,7 @@
 ## Title: |cff00ff00TradeSkillMaster_AppHelper|r
 ## Notes: Acts as a connection between the TSM addon and app.
 ## Author: TSM Team
-## Version: v4.0.13
+## Version: v4.0.14
 ## SavedVariables: TradeSkillMaster_AppHelperDB
 ## Dependency: TradeSkillMaster
 

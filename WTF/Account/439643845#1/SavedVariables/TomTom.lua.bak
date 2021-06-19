@@ -25,24 +25,24 @@ TomTomDB = {
 		["Phaltraxion - Outland"] = "Default",
 		["Käguya - Turalyon"] = "Default",
 		["Adsfasdfasdf - Outland"] = "Default",
-		["Asdfsadfsadf - Outland"] = "Default",
-		["Presentone - Outland"] = "Default",
+		["Asdsaasdf - Outland"] = "Default",
+		["Necropharia - Outland"] = "Default",
 		["Asdawdwd - Outland"] = "Default",
 		["Bankeristor - Outland"] = "Default",
-		["Moneyfour - Outland"] = "Default",
+		["Moneythree - Outland"] = "Default",
 		["Asdqwdwq - Die Silberne Hand"] = "Default",
-		["Tempgoddess - Outland"] = "Default",
-		["Tinkerflame - Outland"] = "Default",
-		["Dominaria - Outland"] = "Default",
+		["Moneyeight - Outland"] = "Default",
+		["Moneymakerii - Outland"] = "Default",
+		["Illyana - Outland"] = "Default",
 		["Asdqaweqwd - Outland"] = "Default",
 		["Aasdfasdfd - Outland"] = "Default",
-		["Illyana - Outland"] = "Default",
-		["Moneymakerii - Outland"] = "Default",
-		["Moneyeight - Outland"] = "Default",
-		["Moneythree - Outland"] = "Default",
+		["Dominaria - Outland"] = "Default",
+		["Tinkerflame - Outland"] = "Default",
+		["Tempgoddess - Outland"] = "Default",
+		["Moneyfour - Outland"] = "Default",
 		["Serthaxion - Outland"] = "Default",
-		["Necropharia - Outland"] = "Default",
-		["Asdsaasdf - Outland"] = "Default",
+		["Presentone - Outland"] = "Default",
+		["Asdfsadfsadf - Outland"] = "Default",
 		["Elementior - Outland"] = "Default",
 	},
 	["profiles"] = {
@@ -64,8 +64,8 @@ TomTomDB = {
 				["cleardistance"] = 0,
 			},
 			["mapcoords"] = {
-				["playerenable"] = false,
 				["cursorenable"] = false,
+				["playerenable"] = false,
 			},
 			["block"] = {
 				["enable"] = false,
@@ -107,24 +107,24 @@ TomTomWaypointsM = {
 		["Phaltraxion - Outland"] = "Phaltraxion - Outland",
 		["Käguya - Turalyon"] = "Käguya - Turalyon",
 		["Adsfasdfasdf - Outland"] = "Adsfasdfasdf - Outland",
-		["Asdfsadfsadf - Outland"] = "Asdfsadfsadf - Outland",
-		["Presentone - Outland"] = "Presentone - Outland",
+		["Asdsaasdf - Outland"] = "Asdsaasdf - Outland",
+		["Necropharia - Outland"] = "Necropharia - Outland",
 		["Asdawdwd - Outland"] = "Asdawdwd - Outland",
 		["Bankeristor - Outland"] = "Bankeristor - Outland",
-		["Moneyfour - Outland"] = "Moneyfour - Outland",
+		["Moneythree - Outland"] = "Moneythree - Outland",
 		["Asdqwdwq - Die Silberne Hand"] = "Asdqwdwq - Die Silberne Hand",
-		["Tempgoddess - Outland"] = "Tempgoddess - Outland",
-		["Tinkerflame - Outland"] = "Tinkerflame - Outland",
-		["Dominaria - Outland"] = "Dominaria - Outland",
+		["Moneyeight - Outland"] = "Moneyeight - Outland",
+		["Moneymakerii - Outland"] = "Moneymakerii - Outland",
+		["Illyana - Outland"] = "Illyana - Outland",
 		["Asdqaweqwd - Outland"] = "Asdqaweqwd - Outland",
 		["Aasdfasdfd - Outland"] = "Aasdfasdfd - Outland",
-		["Illyana - Outland"] = "Illyana - Outland",
-		["Moneymakerii - Outland"] = "Moneymakerii - Outland",
-		["Moneyeight - Outland"] = "Moneyeight - Outland",
-		["Moneythree - Outland"] = "Moneythree - Outland",
+		["Dominaria - Outland"] = "Dominaria - Outland",
+		["Tinkerflame - Outland"] = "Tinkerflame - Outland",
+		["Tempgoddess - Outland"] = "Tempgoddess - Outland",
+		["Moneyfour - Outland"] = "Moneyfour - Outland",
 		["Serthaxion - Outland"] = "Serthaxion - Outland",
-		["Necropharia - Outland"] = "Necropharia - Outland",
-		["Asdsaasdf - Outland"] = "Asdsaasdf - Outland",
+		["Presentone - Outland"] = "Presentone - Outland",
+		["Asdfsadfsadf - Outland"] = "Asdfsadfsadf - Outland",
 		["Elementior - Outland"] = "Elementior - Outland",
 	},
 	["profiles"] = {
@@ -156,25 +156,32 @@ TomTomWaypointsM = {
 					0.6325999999999999, -- [3]
 					["callbacks"] = {
 						["distance"] = {
+							[15] = nil --[[ skipped inline function ]],
 						},
 						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
-					["desc"] = "Back To The Orphanage",
+					["minimap"] = true,
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
-					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["persistent"] = true,
-					["minimap"] = true,
+					["desc"] = "Back To The Orphanage",
 					["silent"] = true,
 					["cleardistance"] = 0,
 					["title"] = "Back To The Orphanage",
-					["from"] = "ATT\nIf you are missing this quest resummon your Wolvar child to pick it up.",
-					["worldmap_displayID"] = 25384,
 					["minimap_displayID"] = 25384,
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["worldmap_displayID"] = 25384,
+					["from"] = "ATT\nIf you are missing this quest resummon your Wolvar child to pick it up.",
 					["world"] = true,
 				},
 			},
@@ -195,68 +202,54 @@ TomTomWaypointsM = {
 					1161, -- [1]
 					0.4777, -- [2]
 					0.3937, -- [3]
+					["crazy"] = true,
+					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
 						},
 					},
-					["minimap"] = true,
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
 					["persistent"] = true,
-					["desc"] = "Return to the Orphanage",
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["silent"] = true,
 					["cleardistance"] = 0,
 					["title"] = "Return to the Orphanage",
 					["worldmap_displayID"] = 89265,
 					["minimap_displayID"] = 89265,
-					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
-					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
+					["minimap"] = true,
+					["desc"] = "Return to the Orphanage",
 					["world"] = true,
 				},
 				["1161:480100000:402800000:Return to the Orphanage"] = {
 					1161, -- [1]
 					0.4801, -- [2]
 					0.4028, -- [3]
+					["crazy"] = true,
+					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
 						},
 					},
-					["minimap"] = true,
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
 					["persistent"] = true,
-					["desc"] = "Return to the Orphanage",
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["silent"] = true,
 					["cleardistance"] = 0,
 					["title"] = "Return to the Orphanage",
 					["worldmap_displayID"] = 89265,
 					["minimap_displayID"] = 89265,
-					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
-					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
+					["minimap"] = true,
+					["desc"] = "Return to the Orphanage",
 					["world"] = true,
 				},
 			},
@@ -271,54 +264,54 @@ TomTomWaypointsM = {
 					1161, -- [1]
 					0.4777, -- [2]
 					0.3937, -- [3]
-					["crazy"] = true,
-					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
-					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
 						},
+						["minimap"] = {
+						},
 					},
-					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
-					["persistent"] = true,
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
 					["desc"] = "Return to the Orphanage",
+					["persistent"] = true,
+					["minimap"] = true,
 					["silent"] = true,
 					["cleardistance"] = 0,
-					["title"] = "Return to the Orphanage",
-					["minimap_displayID"] = 89265,
+					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
 					["worldmap_displayID"] = 89265,
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
-					["minimap"] = true,
+					["minimap_displayID"] = 89265,
+					["title"] = "Return to the Orphanage",
 					["world"] = true,
 				},
 				["1161:480100000:402800000:Return to the Orphanage"] = {
 					1161, -- [1]
 					0.4801, -- [2]
 					0.4028, -- [3]
-					["crazy"] = true,
-					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
-					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
 						},
+						["minimap"] = {
+						},
 					},
-					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
-					["persistent"] = true,
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
 					["desc"] = "Return to the Orphanage",
+					["persistent"] = true,
+					["minimap"] = true,
 					["silent"] = true,
 					["cleardistance"] = 0,
-					["title"] = "Return to the Orphanage",
-					["minimap_displayID"] = 89265,
+					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
 					["worldmap_displayID"] = 89265,
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
-					["minimap"] = true,
+					["minimap_displayID"] = 89265,
+					["title"] = "Return to the Orphanage",
 					["world"] = true,
 				},
 			},
@@ -331,27 +324,21 @@ TomTomWaypointsM = {
 		},
 		["Adsfasdfasdf - Outland"] = {
 		},
-		["Asdfsadfsadf - Outland"] = {
+		["Asdsaasdf - Outland"] = {
 		},
-		["Presentone - Outland"] = {
+		["Necropharia - Outland"] = {
 		},
 		["Asdawdwd - Outland"] = {
 		},
 		["Bankeristor - Outland"] = {
 		},
-		["Moneyfour - Outland"] = {
+		["Moneythree - Outland"] = {
 		},
 		["Asdqwdwq - Die Silberne Hand"] = {
 		},
-		["Tempgoddess - Outland"] = {
+		["Moneyeight - Outland"] = {
 		},
-		["Tinkerflame - Outland"] = {
-		},
-		["Dominaria - Outland"] = {
-		},
-		["Asdqaweqwd - Outland"] = {
-		},
-		["Aasdfasdfd - Outland"] = {
+		["Moneymakerii - Outland"] = {
 		},
 		["Illyana - Outland"] = {
 			[830] = {
@@ -405,11 +392,17 @@ TomTomWaypointsM = {
 				},
 			},
 		},
-		["Moneymakerii - Outland"] = {
+		["Asdqaweqwd - Outland"] = {
 		},
-		["Moneyeight - Outland"] = {
+		["Aasdfasdfd - Outland"] = {
 		},
-		["Moneythree - Outland"] = {
+		["Dominaria - Outland"] = {
+		},
+		["Tinkerflame - Outland"] = {
+		},
+		["Tempgoddess - Outland"] = {
+		},
+		["Moneyfour - Outland"] = {
 		},
 		["Serthaxion - Outland"] = {
 			[1161] = {
@@ -417,61 +410,61 @@ TomTomWaypointsM = {
 					1161, -- [1]
 					0.4777, -- [2]
 					0.3937, -- [3]
-					["crazy"] = true,
-					["worldmap_displayID"] = 89265,
-					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
 						},
+						["minimap"] = {
+						},
 					},
-					["minimap_displayID"] = 89265,
-					["persistent"] = true,
+					["minimap"] = true,
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
 					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["persistent"] = true,
+					["desc"] = "Return to the Orphanage",
 					["silent"] = true,
 					["cleardistance"] = 0,
 					["title"] = "Return to the Orphanage",
-					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
+					["minimap_displayID"] = 89265,
 					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
-					["minimap"] = true,
-					["desc"] = "Return to the Orphanage",
+					["worldmap_displayID"] = 89265,
+					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
 					["world"] = true,
 				},
 				["1161:480100000:402800000:Return to the Orphanage"] = {
 					1161, -- [1]
 					0.4801, -- [2]
 					0.4028, -- [3]
-					["crazy"] = true,
-					["worldmap_displayID"] = 89265,
-					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
 						},
+						["minimap"] = {
+						},
 					},
-					["minimap_displayID"] = 89265,
-					["persistent"] = true,
+					["minimap"] = true,
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
 					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["persistent"] = true,
+					["desc"] = "Return to the Orphanage",
 					["silent"] = true,
 					["cleardistance"] = 0,
 					["title"] = "Return to the Orphanage",
-					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
+					["minimap_displayID"] = 89265,
 					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
-					["minimap"] = true,
-					["desc"] = "Return to the Orphanage",
+					["worldmap_displayID"] = 89265,
+					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
 					["world"] = true,
 				},
 			},
 		},
-		["Necropharia - Outland"] = {
+		["Presentone - Outland"] = {
 		},
-		["Asdsaasdf - Outland"] = {
+		["Asdfsadfsadf - Outland"] = {
 		},
 		["Elementior - Outland"] = {
 		},

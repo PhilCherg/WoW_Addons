@@ -1,5 +1,5 @@
 --
--- RaiderIO Client Data. Generated on 2021-06-18T22:09:55Z
+-- RaiderIO Client Data. Generated on 2021-06-19T22:15:45Z
 --
 local _, ns = ...
 ns.CLIENT_CHARACTERS = {
@@ -13,39 +13,39 @@ ns.CLIENT_CHARACTERS = {
     },
     ["mythic_keystone"] = {
       ["all"] = {
-        ["score"] = 1183.7,
+        ["score"] = 1271,
         ["best"] = {
-          ["zone_id"] = 12916,
-          ["level"] = 15,
+          ["zone_id"] = 13228,
+          ["level"] = 16,
           ["upgrades"] = 1,
-          ["fraction"] = 0.835,
-          ["score"] = 163.2763905000693,
-          ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/34989887-15-the-necrotic-wake?utm_source=client"
+          ["fraction"] = 0.836,
+          ["score"] = 179.59508187474194,
+          ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/35119765-16-plaguefall?utm_source=client"
         },
         ["runs"] = {
           [1] = {
             ["zone_id"] = 12831,
-            ["level"] = 14,
-            ["upgrades"] = 1,
-            ["fraction"] = 0.899,
-            ["score"] = 147.64681144123455,
-            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/34578051-14-halls-of-atonement?utm_source=client"
+            ["level"] = 15,
+            ["upgrades"] = 2,
+            ["fraction"] = 0.768,
+            ["score"] = 166.5566546231211,
+            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/35106861-15-halls-of-atonement?utm_source=client"
           },
           [2] = {
             ["zone_id"] = 12837,
-            ["level"] = 12,
+            ["level"] = 15,
             ["upgrades"] = 1,
-            ["fraction"] = 0.842,
-            ["score"] = 122.60676691327608,
-            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/34086299-12-spires-of-ascension?utm_source=client"
+            ["fraction"] = 0.833,
+            ["score"] = 163.3159367525066,
+            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/35131837-15-spires-of-ascension?utm_source=client"
           },
           [3] = {
             ["zone_id"] = 12841,
-            ["level"] = 14,
+            ["level"] = 15,
             ["upgrades"] = 0,
-            ["fraction"] = 1.024,
-            ["score"] = 131.76505990786984,
-            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/34509683-14-theater-of-pain?utm_source=client"
+            ["fraction"] = 1.07,
+            ["score"] = 142.31455267413048,
+            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/35111752-15-theater-of-pain?utm_source=client"
           },
           [4] = {
             ["zone_id"] = 12842,
@@ -65,11 +65,11 @@ ns.CLIENT_CHARACTERS = {
           },
           [6] = {
             ["zone_id"] = 13228,
-            ["level"] = 15,
+            ["level"] = 16,
             ["upgrades"] = 1,
-            ["fraction"] = 0.898,
-            ["score"] = 162.4282744580669,
-            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/35061813-15-plaguefall?utm_source=client"
+            ["fraction"] = 0.836,
+            ["score"] = 179.59508187474194,
+            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/35119765-16-plaguefall?utm_source=client"
           },
           [7] = {
             ["zone_id"] = 13309,

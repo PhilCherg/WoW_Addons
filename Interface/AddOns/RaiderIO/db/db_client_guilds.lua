@@ -1,5 +1,5 @@
 --
--- RaiderIO Client Data. Generated on 2021-06-18T22:09:57Z
+-- RaiderIO Client Data. Generated on 2021-06-19T22:15:46Z
 --
 local _, ns = ...
 ns.GUILD_BEST_DATA = {
@@ -466,6 +466,74 @@ ns.GUILD_BEST_DATA = {
         }
       },
       [2] = {
+        ["zone_id"] = 13228,
+        ["level"] = 19,
+        ["upgrades"] = 0,
+        ["fraction"] = 1.1527137890020995,
+        ["clear_time"] = "00:43:49.339",
+        ["party"] = {
+          [1] = {
+            ["name"] = "Yaneria",
+            ["role"] = "tank",
+            ["class_id"] = 12
+          },
+          [2] = {
+            ["name"] = "Hémérra",
+            ["role"] = "healer",
+            ["class_id"] = 11
+          },
+          [3] = {
+            ["name"] = "Belchonok",
+            ["role"] = "dps",
+            ["class_id"] = 4
+          },
+          [4] = {
+            ["name"] = "Mxdz",
+            ["role"] = "dps",
+            ["class_id"] = 8
+          },
+          [5] = {
+            ["name"] = "Teiana",
+            ["role"] = "dps",
+            ["class_id"] = 3
+          }
+        }
+      },
+      [3] = {
+        ["zone_id"] = 13228,
+        ["level"] = 18,
+        ["upgrades"] = 1,
+        ["fraction"] = 0.8900639588180442,
+        ["clear_time"] = "00:33:50.235",
+        ["party"] = {
+          [1] = {
+            ["name"] = "Amourbaby",
+            ["role"] = "tank",
+            ["class_id"] = 2
+          },
+          [2] = {
+            ["name"] = "Caliko",
+            ["role"] = "healer",
+            ["class_id"] = 11
+          },
+          [3] = {
+            ["name"] = "Jashinsama",
+            ["role"] = "dps",
+            ["class_id"] = 10
+          },
+          [4] = {
+            ["name"] = "Nanivomous",
+            ["role"] = "dps",
+            ["class_id"] = 7
+          },
+          [5] = {
+            ["name"] = "Pupek",
+            ["role"] = "dps",
+            ["class_id"] = 1
+          }
+        }
+      },
+      [4] = {
         ["zone_id"] = 13334,
         ["level"] = 18,
         ["upgrades"] = 1,
@@ -499,7 +567,7 @@ ns.GUILD_BEST_DATA = {
           }
         }
       },
-      [3] = {
+      [5] = {
         ["zone_id"] = 12842,
         ["level"] = 18,
         ["upgrades"] = 1,
@@ -530,74 +598,6 @@ ns.GUILD_BEST_DATA = {
             ["name"] = "Teiana",
             ["role"] = "dps",
             ["class_id"] = 3
-          }
-        }
-      },
-      [4] = {
-        ["zone_id"] = 12841,
-        ["level"] = 18,
-        ["upgrades"] = 0,
-        ["fraction"] = 1.1195768210611532,
-        ["clear_time"] = "00:41:26.579",
-        ["party"] = {
-          [1] = {
-            ["name"] = "Raazppy",
-            ["role"] = "tank",
-            ["class_id"] = 10
-          },
-          [2] = {
-            ["name"] = "Ruzye",
-            ["role"] = "healer",
-            ["class_id"] = 7
-          },
-          [3] = {
-            ["name"] = "Gnoxious",
-            ["role"] = "dps",
-            ["class_id"] = 1
-          },
-          [4] = {
-            ["name"] = "Psydak",
-            ["role"] = "dps",
-            ["class_id"] = 11
-          },
-          [5] = {
-            ["name"] = "Teiana",
-            ["role"] = "dps",
-            ["class_id"] = 3
-          }
-        }
-      },
-      [5] = {
-        ["zone_id"] = 12842,
-        ["level"] = 17,
-        ["upgrades"] = 1,
-        ["fraction"] = 0.8535082704218896,
-        ["clear_time"] = "00:35:00.483",
-        ["party"] = {
-          [1] = {
-            ["name"] = "Swãg",
-            ["role"] = "tank",
-            ["class_id"] = 2
-          },
-          [2] = {
-            ["name"] = "Лайнера",
-            ["role"] = "healer",
-            ["class_id"] = 11
-          },
-          [3] = {
-            ["name"] = "Galadagast",
-            ["role"] = "dps",
-            ["class_id"] = 12
-          },
-          [4] = {
-            ["name"] = "Náncy",
-            ["role"] = "dps",
-            ["class_id"] = 11
-          },
-          [5] = {
-            ["name"] = "Twitchy",
-            ["role"] = "dps",
-            ["class_id"] = 8
           }
         }
       }

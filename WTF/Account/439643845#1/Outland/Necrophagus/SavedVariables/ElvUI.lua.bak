@@ -1,426 +1,404 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/p indeed", -- [1]
-		"/p heyo", -- [2]
-		"/p hey", -- [3]
-		"/p so guys i just want a chill run and to complete the key", -- [4]
-		"/p so please dont tilt or leave on the first minor inconvenience xD", -- [5]
-		"/p xiy if you can call it out i can do drums", -- [6]
-		"/p cause we dont have hero", -- [7]
-		"/p true", -- [8]
-		"/pull 10", -- [9]
-		"/p drums on pull?", -- [10]
-		"/p shouldnt we get pride?", -- [11]
-		"/p oke", -- [12]
-		"/p oof", -- [13]
-		"/p we gotta delete adds faster", -- [14]
-		"/p that was my bad", -- [15]
-		"/cw Paladinone-Auchindoun so much for not leaving groups", -- [16]
-		"/p there goes no leaving gorups", -- [17]
-		"/p ah fuck it imma do the 15 tomorrow", -- [18]
-		"/p thanks for coming guys", -- [19]
-		"/p cya", -- [20]
+		"/p just need to change the key xD", -- [1]
+		"/p i do", -- [2]
+		"/p lol", -- [3]
+		"/p reeee", -- [4]
+		"/p use gate here", -- [5]
+		"/p it works for skip", -- [6]
+		"/p the fuck????", -- [7]
+		"/p how come it worked last time?", -- [8]
+		"/p im genuinely confused", -- [9]
+		"/p i literally skipped this pack 5 minutes ago", -- [10]
+		"/p mby", -- [11]
+		"/p but i did it last dung too", -- [12]
+		"/p kill adds on this boss", -- [13]
+		"/p add", -- [14]
+		"/p jesus christ", -- [15]
+		"/p im doing this dungeon for the third time today", -- [16]
+		"/p each time the same shit", -- [17]
+		"/p oh well", -- [18]
+		"/p thanks for coming mate :D", -- [19]
+		"/p bb", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:6479:Player-1301-0B7E610E:1:6:18:21:4294967295:4294967295:4294967295:4294967295|h[Bomberman]|h|r!", -- [1]
-			"Víii-Outland", -- [2]
-			"", -- [3]
+			"Heaving Retch on Zyné", -- [1]
+			"Zyné-AzjolNerub", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Víii-Outland", -- [5]
+			"Zyné-AzjolNerub", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1382, -- [11]
-			"Player-1301-0B7E610E", -- [12]
+			4275, -- [11]
+			"Player-1396-06677D1A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Víii|r",
-			[51] = 1624048350,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff006fdcZyné-AzjolNerub|r",
+			[51] = 1624134584,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [1]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:696:Player-1301-0BFB75C8:1:6:18:21:4294967295:4294967295:4294967295:4294967295|h[Tempest Keep]|h|r!", -- [1]
-			"Ranin-Outland", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:10839:Player-1301-0A15C98B:1:6:19:21:4294967295:4294967295:4294967295:4294967295|h[Betrayer's Rise]|h|r!", -- [1]
+			"Delidan-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Ranin-Outland", -- [5]
+			"Delidan-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1393, -- [11]
-			"Player-1301-0BFB75C8", -- [12]
+			4283, -- [11]
+			"Player-1301-0A15C98B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Ranin|r",
-			[51] = 1624048754,
+			[52] = "|cffa22fc8Delidan|r",
+			[51] = 1624134687,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [2]
 		{
-			"hey", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:10850:Player-1301-0A15C98B:1:6:19:21:4294967295:4294967295:4294967295:4294967295|h[Mythic: Gul'dan]|h|r!", -- [1]
+			"Delidan-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"Delidan-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1415, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			4284, -- [11]
+			"Player-1301-0A15C98B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1624048931,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffa22fc8Delidan|r",
+			[51] = 1624134687,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [3]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:10010:Player-1301-0B7E610E:1:6:18:21:4294967295:4294967295:4294967295:4294967295|h[Gate of the Setting Sun]|h|r!", -- [1]
-			"Víii-Outland", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:14368:Player-1301-0BF586D9:1:6:19:21:4294967295:4294967295:4294967295:4294967295|h[Mythic: The Necrotic Wake]|h|r!", -- [1]
+			"Helísía-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Víii-Outland", -- [5]
+			"Helísía-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1416, -- [11]
-			"Player-1301-0B7E610E", -- [12]
+			4286, -- [11]
+			"Player-1301-0BF586D9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Víii|r",
-			[51] = 1624048932,
+			[52] = "|cffc59a6cHelísía|r",
+			[51] = 1624134800,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [4]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:6759:Player-1301-0B7E610E:1:6:18:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: Gate of the Setting Sun]|h|r!", -- [1]
-			"Víii-Outland", -- [2]
+			"red", -- [1]
+			"Starmile-AzjolNerub", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Víii-Outland", -- [5]
+			"Starmile-AzjolNerub", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1417, -- [11]
-			"Player-1301-0B7E610E", -- [12]
+			4289, -- [11]
+			"Player-1396-0667307A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Víii|r",
-			[51] = 1624048932,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Starmile-AzjolNerub|r",
+			[51] = 1624134882,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [5]
 		{
-			"Good evening :)", -- [1]
-			"Xiy-Magtheridon", -- [2]
+			"invis afer that", -- [1]
+			"Atilaelhuno-DunModr", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xiy-Magtheridon", -- [5]
+			"Atilaelhuno-DunModr", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1419, -- [11]
-			"Player-3681-06E52C04", -- [12]
+			4291, -- [11]
+			"Player-1378-082502A6", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Xiy-Magtheridon|r",
-			[51] = 1624048938,
+			[52] = "|cfff38bb9Atilaelhuno-DunModr|r",
+			[51] = 1624134897,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [6]
 		{
-			"main is 1600", -- [1]
-			"Paladinone-Auchindoun", -- [2]
+			"fck 30 sec", -- [1]
+			"Atilaelhuno-DunModr", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Paladinone-Auchindoun", -- [5]
+			"Atilaelhuno-DunModr", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1424, -- [11]
-			"Player-1597-0EF6489A", -- [12]
+			4296, -- [11]
+			"Player-1378-082502A6", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Paladinone-Auchindoun|r",
-			[51] = 1624048971,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cfff38bb9Atilaelhuno-DunModr|r",
+			[51] = 1624135014,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [7]
 		{
-			"can definitely heal this", -- [1]
-			"Paladinone-Auchindoun", -- [2]
+			"someone take spaer", -- [1]
+			"Starmile-AzjolNerub", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Paladinone-Auchindoun", -- [5]
+			"Starmile-AzjolNerub", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1425, -- [11]
-			"Player-1597-0EF6489A", -- [12]
+			4302, -- [11]
+			"Player-1396-0667307A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Paladinone-Auchindoun|r",
-			[51] = 1624048978,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cfffe7b09Starmile-AzjolNerub|r",
+			[51] = 1624135121,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [8]
 		{
-			"sup", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"have invii pot?", -- [1]
+			"Atilaelhuno-DunModr", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"Atilaelhuno-DunModr", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1432, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			4305, -- [11]
+			"Player-1378-082502A6", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1624048994,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfff38bb9Atilaelhuno-DunModr|r",
+			[51] = 1624135166,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [9]
 		{
-			"sup", -- [1]
-			"Paladinone-Auchindoun", -- [2]
+			"xd", -- [1]
+			"Atilaelhuno-DunModr", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Paladinone-Auchindoun", -- [5]
+			"Atilaelhuno-DunModr", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1434, -- [11]
-			"Player-1597-0EF6489A", -- [12]
+			4306, -- [11]
+			"Player-1378-082502A6", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Paladinone-Auchindoun|r",
-			[51] = 1624048999,
+			[52] = "|cfff38bb9Atilaelhuno-DunModr|r",
+			[51] = 1624135166,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [10]
 		{
-			"Heya ,o/", -- [1]
-			"Xiy-Magtheridon", -- [2]
+			"i do", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xiy-Magtheridon", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1435, -- [11]
-			"Player-3681-06E52C04", -- [12]
+			4308, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Xiy-Magtheridon|r",
-			[51] = 1624049010,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624135185,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [11]
 		{
-			"worth degrading to a 15 or do you guys need on 16?", -- [1]
-			"Paladinone-Auchindoun", -- [2]
+			"ok", -- [1]
+			"Atilaelhuno-DunModr", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Paladinone-Auchindoun", -- [5]
+			"Atilaelhuno-DunModr", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1450, -- [11]
-			"Player-1597-0EF6489A", -- [12]
+			4309, -- [11]
+			"Player-1378-082502A6", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Paladinone-Auchindoun|r",
-			[51] = 1624049119,
+			[52] = "|cfff38bb9Atilaelhuno-DunModr|r",
+			[51] = 1624135192,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [12]
 		{
-			"i want to change the key", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"go invis", -- [1]
+			"Atilaelhuno-DunModr", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"Atilaelhuno-DunModr", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1453, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			4310, -- [11]
+			"Player-1378-082502A6", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1624049128,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfff38bb9Atilaelhuno-DunModr|r",
+			[51] = 1624135197,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [13]
 		{
-			"ahh", -- [1]
-			"Paladinone-Auchindoun", -- [2]
+			"20 sec on shaman", -- [1]
+			"Starmile-AzjolNerub", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Paladinone-Auchindoun", -- [5]
+			"Starmile-AzjolNerub", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1454, -- [11]
-			"Player-1597-0EF6489A", -- [12]
+			4312, -- [11]
+			"Player-1396-0667307A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Paladinone-Auchindoun|r",
-			[51] = 1624049132,
+			[52] = "|cfffe7b09Starmile-AzjolNerub|r",
+			[51] = 1624135212,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [14]
 		{
-			"i see", -- [1]
-			"Paladinone-Auchindoun", -- [2]
+			"15", -- [1]
+			"Zyné-AzjolNerub", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Paladinone-Auchindoun", -- [5]
+			"Zyné-AzjolNerub", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1455, -- [11]
-			"Player-1597-0EF6489A", -- [12]
+			4314, -- [11]
+			"Player-1396-06677D1A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Paladinone-Auchindoun|r",
-			[51] = 1624049133,
+			[52] = "|cff006fdcZyné-AzjolNerub|r",
+			[51] = 1624135217,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [15]
 		{
-			"and i want to keep the option of failing it to a 15", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"come heal", -- [1]
+			"Atilaelhuno-DunModr", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"Atilaelhuno-DunModr", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1456, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			4315, -- [11]
+			"Player-1378-082502A6", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1624049135,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfff38bb9Atilaelhuno-DunModr|r",
+			[51] = 1624135224,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [16]
 		{
-			"fair enough", -- [1]
-			"Paladinone-Auchindoun", -- [2]
+			"go", -- [1]
+			"Starmile-AzjolNerub", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Paladinone-Auchindoun", -- [5]
+			"Starmile-AzjolNerub", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1457, -- [11]
-			"Player-1597-0EF6489A", -- [12]
+			4317, -- [11]
+			"Player-1396-0667307A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Paladinone-Auchindoun|r",
-			[51] = 1624049136,
+			[52] = "|cfffe7b09Starmile-AzjolNerub|r",
+			[51] = 1624135235,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [17]
 		{
-			"even better if we time it xD", -- [1]
-			"Paladinone-Auchindoun", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Paladinone-Auchindoun", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1458, -- [11]
-			"Player-1597-0EF6489A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Paladinone-Auchindoun|r",
-			[51] = 1624049151,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [18]
-		{
-			"i mean it would be ideal to do it in time", -- [1]
+			"lol", -- [1]
 			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -430,7 +408,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1459, -- [11]
+			4318, -- [11]
 			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -438,55 +416,77 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1624049155,
+			[51] = 1624135238,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [18]
+		{
+			"reeee", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4357, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624135378,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [19]
 		{
-			"yeah", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:10010:Player-1301-04466807:1:6:19:21:4294967295:4294967295:4294967295:4294967295|h[Gate of the Setting Sun]|h|r!", -- [1]
+			"Deton-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"Deton-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1460, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			4361, -- [11]
+			"Player-1301-04466807", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1624049156,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfff38bb9Deton|r",
+			[51] = 1624135381,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [20]
 		{
-			"but just in case", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:6759:Player-1301-04466807:1:6:19:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: Gate of the Setting Sun]|h|r!", -- [1]
+			"Deton-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"Deton-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1461, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			4362, -- [11]
+			"Player-1301-04466807", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1624049159,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfff38bb9Deton|r",
+			[51] = 1624135381,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [21]
 		{
-			"xD", -- [1]
+			"use gate here", -- [1]
 			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -496,7 +496,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1462, -- [11]
+			4364, -- [11]
 			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -504,77 +504,77 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1624049160,
+			[51] = 1624135417,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [22]
 		{
-			"I prefer to try as 16", -- [1]
-			"Xiy-Magtheridon", -- [2]
+			"it works for skip", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xiy-Magtheridon", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1463, -- [11]
-			"Player-3681-06E52C04", -- [12]
+			4365, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Xiy-Magtheridon|r",
-			[51] = 1624049164,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624135420,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [23]
 		{
-			"Shoud be easily doable", -- [1]
-			"Xiy-Magtheridon", -- [2]
+			"y", -- [1]
+			"Atilaelhuno-DunModr", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xiy-Magtheridon", -- [5]
+			"Atilaelhuno-DunModr", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1464, -- [11]
-			"Player-3681-06E52C04", -- [12]
+			4366, -- [11]
+			"Player-1378-082502A6", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Xiy-Magtheridon|r",
-			[51] = 1624049175,
+			[52] = "|cfff38bb9Atilaelhuno-DunModr|r",
+			[51] = 1624135427,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [24]
 		{
-			"yeah i think so", -- [1]
-			"Necrophagus-Outland", -- [2]
+			":)", -- [1]
+			"Starmile-AzjolNerub", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"Starmile-AzjolNerub", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1465, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			4367, -- [11]
+			"Player-1396-0667307A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1624049187,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfffe7b09Starmile-AzjolNerub|r",
+			[51] = 1624135433,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [25]
 		{
-			"i just need to find 2 pumpers", -- [1]
+			"the fuck????", -- [1]
 			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -584,7 +584,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1466, -- [11]
+			4370, -- [11]
 			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -592,77 +592,55 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1624049196,
+			[51] = 1624135440,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [26]
 		{
-			"big D pumpers", -- [1]
-			"Paladinone-Auchindoun", -- [2]
+			"how come it worked last time?", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Paladinone-Auchindoun", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1471, -- [11]
-			"Player-1597-0EF6489A", -- [12]
+			4372, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Paladinone-Auchindoun|r",
-			[51] = 1624049234,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624135454,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [27]
 		{
-			"indeed", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"dont release", -- [1]
+			"Starmile-AzjolNerub", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"Starmile-AzjolNerub", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1472, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			4374, -- [11]
+			"Player-1396-0667307A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1624049239,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfffe7b09Starmile-AzjolNerub|r",
+			[51] = 1624135461,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [28]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:6400:Player-1301-029D5A93:1:6:18:21:4294967295:4294967295:4294967295:4294967295|h[How Did He Get Up There?]|h|r!", -- [1]
-			"Elundria-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Elundria-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1473, -- [11]
-			"Player-1301-029D5A93", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcElundria|r",
-			[51] = 1624049239,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [29]
-		{
-			"heyo", -- [1]
+			"im genuinely confused", -- [1]
 			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -672,7 +650,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1475, -- [11]
+			4376, -- [11]
 			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -680,77 +658,187 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1624049250,
+			[51] = 1624135473,
 			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [29]
+		{
+			"roughe shrouded then", -- [1]
+			"Starmile-AzjolNerub", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Starmile-AzjolNerub", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4377, -- [11]
+			"Player-1396-0667307A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Starmile-AzjolNerub|r",
+			[51] = 1624135479,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [30]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:6688:Player-1301-0B2A9093:1:6:18:21:4294967295:4294967295:4294967295:4294967295|h[Where's My Air Support?]|h|r!", -- [1]
-			"Kalampoki-Outland", -- [2]
+			"i literally skipped this pack 5 minutes ago", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kalampoki-Outland", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1476, -- [11]
-			"Player-1301-0B2A9093", -- [12]
+			4378, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cKalampoki|r",
-			[51] = 1624049250,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624135480,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [31]
 		{
-			"heya ", -- [1]
-			"Pixiepopp-Eonar", -- [2]
+			"mby", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Pixiepopp-Eonar", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1477, -- [11]
-			"Player-1416-07A7BCC5", -- [12]
+			4380, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Pixiepopp-Eonar|r",
-			[51] = 1624049254,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624135486,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [32]
 		{
-			",o/", -- [1]
-			"Xiy-Magtheridon", -- [2]
+			"but i did it last dung too", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xiy-Magtheridon", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1489, -- [11]
-			"Player-3681-06E52C04", -- [12]
+			4381, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Xiy-Magtheridon|r",
-			[51] = 1624049321,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624135495,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [33]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14797:Player-1301-0B37C15F:1:6:18:21:4294967295:4294967295:4294967295:4294967295|h[Epic]|h|r!", -- [1]
+			"wait", -- [1]
+			"Atilaelhuno-DunModr", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Atilaelhuno-DunModr", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4382, -- [11]
+			"Player-1378-082502A6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Atilaelhuno-DunModr|r",
+			[51] = 1624135496,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [34]
+		{
+			"come", -- [1]
+			"Atilaelhuno-DunModr", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Atilaelhuno-DunModr", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4383, -- [11]
+			"Player-1378-082502A6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Atilaelhuno-DunModr|r",
+			[51] = 1624135498,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [35]
+		{
+			"kill adds on this boss", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4385, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624135523,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [36]
+		{
+			"we have shroud?", -- [1]
+			"Starmile-AzjolNerub", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Starmile-AzjolNerub", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4386, -- [11]
+			"Player-1396-0667307A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Starmile-AzjolNerub|r",
+			[51] = 1624135524,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [37]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14415:Player-1301-0B37C15F:1:6:19:21:4294967295:4294967295:4294967295:4294967295|h[Mythic: Plaguefall]|h|r!", -- [1]
 			"Redcloak-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -760,7 +848,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1493, -- [11]
+			4387, -- [11]
 			"Player-1301-0B37C15F", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -768,99 +856,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffc59a6cRedcloak|r",
-			[51] = 1624049334,
+			[51] = 1624135542,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [34]
-		{
-			"never leave", -- [1]
-			"Dárahan-Antonidas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Dárahan-Antonidas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1508, -- [11]
-			"Player-3686-065BF8C2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Dárahan-Antonidas|r",
-			[51] = 1624049410,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [35]
-		{
-			"hey", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1510, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1624049419,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [36]
-		{
-			"hiho", -- [1]
-			"Dárahan-Antonidas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Dárahan-Antonidas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1511, -- [11]
-			"Player-3686-065BF8C2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Dárahan-Antonidas|r",
-			[51] = 1624049422,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [37]
-		{
-			"heya ,o/", -- [1]
-			"Xiy-Magtheridon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Xiy-Magtheridon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1512, -- [11]
-			"Player-3681-06E52C04", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Xiy-Magtheridon|r",
-			[51] = 1624049439,
-			[50] = "CHAT_MSG_PARTY",
 		}, -- [38]
 		{
-			"so guys i just want a chill run and to complete the key", -- [1]
+			"add", -- [1]
 			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -870,7 +870,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1518, -- [11]
+			4418, -- [11]
 			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -878,11 +878,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1624049492,
+			[51] = 1624135684,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [39]
 		{
-			"so please dont tilt or leave on the first minor inconvenience xD", -- [1]
+			"add", -- [1]
 			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -892,7 +892,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1522, -- [11]
+			4419, -- [11]
 			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -900,99 +900,99 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1624049506,
+			[51] = 1624135685,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [40]
 		{
-			"okie ^^", -- [1]
-			"Pixiepopp-Eonar", -- [2]
+			"add", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Pixiepopp-Eonar", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1525, -- [11]
-			"Player-1416-07A7BCC5", -- [12]
+			4420, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Pixiepopp-Eonar|r",
-			[51] = 1624049516,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624135686,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [41]
 		{
-			"victory or death!", -- [1]
-			"Paladinone-Auchindoun", -- [2]
+			"add", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Paladinone-Auchindoun", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1526, -- [11]
-			"Player-1597-0EF6489A", -- [12]
+			4421, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Paladinone-Auchindoun|r",
-			[51] = 1624049518,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624135687,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [42]
 		{
-			";p", -- [1]
-			"Xiy-Magtheridon", -- [2]
+			"add", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xiy-Magtheridon", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1527, -- [11]
-			"Player-3681-06E52C04", -- [12]
+			4424, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Xiy-Magtheridon|r",
-			[51] = 1624049523,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624135689,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [43]
 		{
-			"<never quit", -- [1]
-			"Dárahan-Antonidas", -- [2]
+			"um ok", -- [1]
+			"Starmile-AzjolNerub", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Dárahan-Antonidas", -- [5]
+			"Starmile-AzjolNerub", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1528, -- [11]
-			"Player-3686-065BF8C2", -- [12]
+			4440, -- [11]
+			"Player-1396-0667307A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Dárahan-Antonidas|r",
-			[51] = 1624049529,
+			[52] = "|cfffe7b09Starmile-AzjolNerub|r",
+			[51] = 1624135733,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [44]
 		{
-			"xiy if you can call it out i can do drums", -- [1]
+			"jesus christ", -- [1]
 			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1002,7 +1002,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1530, -- [11]
+			4445, -- [11]
 			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1010,11 +1010,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1624049545,
+			[51] = 1624135744,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [45]
 		{
-			"cause we dont have hero", -- [1]
+			"im doing this dungeon for the third time today", -- [1]
 			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1024,7 +1024,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1531, -- [11]
+			4446, -- [11]
 			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1032,254 +1032,188 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1624049549,
+			[51] = 1624135751,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [46]
 		{
-			"Excellent", -- [1]
-			"Xiy-Magtheridon", -- [2]
+			"each time the same shit", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xiy-Magtheridon", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1532, -- [11]
-			"Player-3681-06E52C04", -- [12]
+			4447, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Xiy-Magtheridon|r",
-			[51] = 1624049554,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624135755,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [47]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:6485:Player-1301-0B2A9093:1:6:18:21:4294967295:4294967295:4294967295:4294967295|h[Return to Sender]|h|r!", -- [1]
-			"Kalampoki-Outland", -- [2]
+			"oh well", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kalampoki-Outland", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1534, -- [11]
-			"Player-1301-0B2A9093", -- [12]
+			4448, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cKalampoki|r",
-			[51] = 1624049586,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624135766,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [48]
 		{
-			"Lets go 1st. 2nd and 4th boss with drums.. ", -- [1]
-			"Xiy-Magtheridon", -- [2]
+			"thanks for coming mate :D", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xiy-Magtheridon", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1535, -- [11]
-			"Player-3681-06E52C04", -- [12]
+			4449, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Xiy-Magtheridon|r",
-			[51] = 1624049601,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624135777,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [49]
 		{
-			"oke", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"Thanks for party", -- [1]
+			"Starmile-AzjolNerub", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"Starmile-AzjolNerub", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1536, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			4450, -- [11]
+			"Player-1396-0667307A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1624049610,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfffe7b09Starmile-AzjolNerub|r",
+			[51] = 1624135781,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [50]
 		{
-			"yea amarth is the group killer", -- [1]
-			"Paladinone-Auchindoun", -- [2]
+			"Timed 3 of these today, happy to make a 4th timed :)", -- [1]
+			"Fandendurin-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Paladinone-Auchindoun", -- [5]
+			"Fandendurin-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1537, -- [11]
-			"Player-1597-0EF6489A", -- [12]
+			4453, -- [11]
+			"Player-1301-07BC075E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Paladinone-Auchindoun|r",
-			[51] = 1624049623,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff8687edFandendurin|r",
+			[51] = 1624135809,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [51]
 		{
-			"true", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:14197:Player-1301-029D5A93:1:6:19:21:4294967295:4294967295:4294967295:4294967295|h[Sanguine Depths]|h|r!", -- [1]
+			"Elundria-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"Elundria-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1538, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			4455, -- [11]
+			"Player-1301-029D5A93", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1624049643,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cff006fdcElundria|r",
+			[51] = 1624135953,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [52]
 		{
-			"1 spear on 2nd boss and 2 spears on 3rd boss", -- [1]
-			"Xiy-Magtheridon", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:14198:Player-1301-029D5A93:1:6:19:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: Sanguine Depths]|h|r!", -- [1]
+			"Elundria-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xiy-Magtheridon", -- [5]
+			"Elundria-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1539, -- [11]
-			"Player-3681-06E52C04", -- [12]
+			4456, -- [11]
+			"Player-1301-029D5A93", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Xiy-Magtheridon|r",
-			[51] = 1624049654,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff006fdcElundria|r",
+			[51] = 1624135953,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [53]
 		{
-			"okie ", -- [1]
-			"Pixiepopp-Eonar", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:10027:Player-1301-0BC00016:1:6:19:21:4294967295:4294967295:4294967295:4294967295|h[Mythic: Hellfire Assault]|h|r!", -- [1]
+			"Oneletter-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Pixiepopp-Eonar", -- [5]
+			"Oneletter-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1540, -- [11]
-			"Player-1416-07A7BCC5", -- [12]
+			4458, -- [11]
+			"Player-1301-0BC00016", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Pixiepopp-Eonar|r",
-			[51] = 1624049668,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff38bb9Oneletter|r",
+			[51] = 1624136049,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [54]
 		{
-			"thx", -- [1]
-			"Dárahan-Antonidas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Dárahan-Antonidas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1543, -- [11]
-			"Player-3686-065BF8C2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Dárahan-Antonidas|r",
-			[51] = 1624049721,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [55]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:6763:Player-1301-0B2A9093:1:6:18:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: Siege of Niuzao Temple]|h|r!", -- [1]
-			"Kalampoki-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kalampoki-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1550, -- [11]
-			"Player-1301-0B2A9093", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cKalampoki|r",
-			[51] = 1624049760,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [56]
-		{
-			"that feast is surprisingly palatable", -- [1]
-			"Paladinone-Auchindoun", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Paladinone-Auchindoun", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1552, -- [11]
-			"Player-1597-0EF6489A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Paladinone-Auchindoun|r",
-			[51] = 1624049777,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [57]
-		{
-			"good night kala :p", -- [1]
-			"Gingii-Outland", -- [2]
+			"its not working out pickles :(", -- [1]
+			"Stevecleave-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1288,547 +1222,305 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1555, -- [11]
-			"Player-1301-0B1D03D7", -- [12]
+			4459, -- [11]
+			"Player-1301-09EFC5AE", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Gingii|r",
-			[51] = 1624049790,
+			[52] = "|cffc59a6cStevecleave|r",
+			[51] = 1624136061,
 			[50] = "CHAT_MSG_GUILD",
+		}, -- [55]
+		{
+			":C", -- [1]
+			"Misspicklés-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4463, -- [11]
+			"Player-1301-0BD2137F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Misspicklés|r",
+			[51] = 1624136073,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [56]
+		{
+			"dungeon struggles", -- [1]
+			"Stevecleave-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4464, -- [11]
+			"Player-1301-09EFC5AE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cStevecleave|r",
+			[51] = 1624136085,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [57]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:10032:Player-1301-0BC00016:1:6:19:21:4294967295:4294967295:4294967295:4294967295|h[Mythic: Iron Reaver]|h|r!", -- [1]
+			"Oneletter-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Oneletter-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4465, -- [11]
+			"Player-1301-0BC00016", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Oneletter|r",
+			[51] = 1624136095,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [58]
 		{
-			"Necrotic - Reset Stacks", -- [1]
-			"Xiy-Magtheridon", -- [2]
+			"have a goodnight all you beautiful people", -- [1]
+			"Stevecleave-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xiy-Magtheridon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1556, -- [11]
-			"Player-3681-06E52C04", -- [12]
+			4466, -- [11]
+			"Player-1301-09EFC5AE", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Xiy-Magtheridon|r",
-			[51] = 1624049799,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc59a6cStevecleave|r",
+			[51] = 1624136100,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [59]
 		{
-			"Necrotic - Reset Stacks", -- [1]
-			"Xiy-Magtheridon", -- [2]
+			"Interrupted Corpse Harvester's |cff71d5ff|Hspell:334748:0|h[Drain Fluids]|h|r!", -- [1]
+			"Lighteater-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xiy-Magtheridon", -- [5]
+			"Lighteater-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1558, -- [11]
-			"Player-3681-06E52C04", -- [12]
+			4471, -- [11]
+			"Player-1301-0BE03626", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Xiy-Magtheridon|r",
-			[51] = 1624049861,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc31d39Lighteater|r",
+			[51] = 1624136135,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [60]
 		{
-			"Necrotic - Reset Stacks", -- [1]
-			"Xiy-Magtheridon", -- [2]
-			"", -- [3]
+			"AMZ UP! by Lighteater", -- [1]
+			"Lighteater-Outland", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Xiy-Magtheridon", -- [5]
+			"Lighteater-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1560, -- [11]
-			"Player-3681-06E52C04", -- [12]
+			4472, -- [11]
+			"Player-1301-0BE03626", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Xiy-Magtheridon|r",
-			[51] = 1624049908,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc31d39Lighteater|r",
+			[51] = 1624136137,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [61]
 		{
-			"Necrotic - Reset Stacks", -- [1]
-			"Xiy-Magtheridon", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:10034:Player-1301-0BC00016:1:6:19:21:4294967295:4294967295:4294967295:4294967295|h[Mythic: Hellfire High Council]|h|r!", -- [1]
+			"Oneletter-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xiy-Magtheridon", -- [5]
+			"Oneletter-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1561, -- [11]
-			"Player-3681-06E52C04", -- [12]
+			4490, -- [11]
+			"Player-1301-0BC00016", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Xiy-Magtheridon|r",
-			[51] = 1624049933,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff38bb9Oneletter|r",
+			[51] = 1624136221,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [62]
 		{
-			"Necrotic - Reset Stacks", -- [1]
-			"Xiy-Magtheridon", -- [2]
+			"Interrupted Corpse Harvester's |cff71d5ff|Hspell:334748:0|h[Drain Fluids]|h|r!", -- [1]
+			"Lighteater-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xiy-Magtheridon", -- [5]
+			"Lighteater-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1577, -- [11]
-			"Player-3681-06E52C04", -- [12]
+			4491, -- [11]
+			"Player-1301-0BE03626", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Xiy-Magtheridon|r",
-			[51] = 1624050169,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc31d39Lighteater|r",
+			[51] = 1624136238,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [63]
 		{
-			"Necrotic - Reset Stacks", -- [1]
-			"Xiy-Magtheridon", -- [2]
+			"Interrupted Zolramus Necromancer's |cff71d5ff|Hspell:320462:0|h[Necrotic Bolt]|h|r!", -- [1]
+			"Lighteater-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xiy-Magtheridon", -- [5]
+			"Lighteater-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1580, -- [11]
-			"Player-3681-06E52C04", -- [12]
+			4495, -- [11]
+			"Player-1301-0BE03626", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Xiy-Magtheridon|r",
-			[51] = 1624050235,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc31d39Lighteater|r",
+			[51] = 1624136273,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [64]
 		{
-			"30 sec cd", -- [1]
-			"Dárahan-Antonidas", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:10035:Player-1301-0BC00016:1:6:19:21:4294967295:4294967295:4294967295:4294967295|h[Mythic: Kilrogg Deadeye]|h|r!", -- [1]
+			"Oneletter-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Dárahan-Antonidas", -- [5]
+			"Oneletter-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1583, -- [11]
-			"Player-3686-065BF8C2", -- [12]
+			4497, -- [11]
+			"Player-1301-0BC00016", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Dárahan-Antonidas|r",
-			[51] = 1624050290,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff38bb9Oneletter|r",
+			[51] = 1624136311,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [65]
 		{
-			"ok", -- [1]
-			"Xiy-Magtheridon", -- [2]
+			"Interrupted Nar'zudah's |cff71d5ff|Hspell:320462:0|h[Necrotic Bolt]|h|r!", -- [1]
+			"Lighteater-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xiy-Magtheridon", -- [5]
+			"Lighteater-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1584, -- [11]
-			"Player-3681-06E52C04", -- [12]
+			4498, -- [11]
+			"Player-1301-0BE03626", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Xiy-Magtheridon|r",
-			[51] = 1624050296,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc31d39Lighteater|r",
+			[51] = 1624136320,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [66]
 		{
-			"Necrotic - Reset Stacks", -- [1]
-			"Xiy-Magtheridon", -- [2]
+			"Interrupted Zolramus Sorcerer's |cff71d5ff|Hspell:320462:0|h[Necrotic Bolt]|h|r!", -- [1]
+			"Lighteater-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xiy-Magtheridon", -- [5]
+			"Lighteater-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1589, -- [11]
-			"Player-3681-06E52C04", -- [12]
+			4500, -- [11]
+			"Player-1301-0BE03626", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Xiy-Magtheridon|r",
-			[51] = 1624050454,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc31d39Lighteater|r",
+			[51] = 1624136338,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [67]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:10010:Player-1301-0B1D03D7:1:6:19:21:4294967295:4294967295:4294967295:4294967295|h[Gate of the Setting Sun]|h|r!", -- [1]
-			"Gingii-Outland", -- [2]
+			"Interrupted Zolramus Sorcerer's |cff71d5ff|Hspell:320462:0|h[Necrotic Bolt]|h|r!", -- [1]
+			"Lighteater-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gingii-Outland", -- [5]
+			"Lighteater-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1593, -- [11]
-			"Player-1301-0B1D03D7", -- [12]
+			4507, -- [11]
+			"Player-1301-0BE03626", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Gingii|r",
-			[51] = 1624050505,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc31d39Lighteater|r",
+			[51] = 1624139995,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [68]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:6759:Player-1301-0B1D03D7:1:6:19:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: Gate of the Setting Sun]|h|r!", -- [1]
-			"Gingii-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Gingii-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1594, -- [11]
-			"Player-1301-0B1D03D7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Gingii|r",
-			[51] = 1624050505,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [69]
-		{
-			"Necrotic - Reset Stacks", -- [1]
-			"Xiy-Magtheridon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Xiy-Magtheridon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1596, -- [11]
-			"Player-3681-06E52C04", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Xiy-Magtheridon|r",
-			[51] = 1624050563,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [70]
-		{
-			"yikes", -- [1]
-			"Paladinone-Auchindoun", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Paladinone-Auchindoun", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1608, -- [11]
-			"Player-1597-0EF6489A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Paladinone-Auchindoun|r",
-			[51] = 1624050615,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [71]
-		{
-			"1 spear 2 nd boss", -- [1]
-			"Dárahan-Antonidas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Dárahan-Antonidas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1610, -- [11]
-			"Player-3686-065BF8C2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Dárahan-Antonidas|r",
-			[51] = 1624050633,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [72]
-		{
-			"want me to", -- [1]
-			"Paladinone-Auchindoun", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Paladinone-Auchindoun", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1611, -- [11]
-			"Player-1597-0EF6489A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Paladinone-Auchindoun|r",
-			[51] = 1624050643,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [73]
-		{
-			"yes please", -- [1]
-			"Xiy-Magtheridon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Xiy-Magtheridon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1613, -- [11]
-			"Player-3681-06E52C04", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Xiy-Magtheridon|r",
-			[51] = 1624050656,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [74]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:6517:Player-1301-0BFB75C8:1:6:19:21:4294967295:4294967295:4294967295:4294967295|h[Extinction Event]|h|r!", -- [1]
-			"Ranin-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Ranin-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1615, -- [11]
-			"Player-1301-0BFB75C8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Ranin|r",
-			[51] = 1624050666,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [75]
-		{
-			"drums on pull?", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1616, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1624050674,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [76]
-		{
-			"yup", -- [1]
-			"Xiy-Magtheridon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Xiy-Magtheridon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1618, -- [11]
-			"Player-3681-06E52C04", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Xiy-Magtheridon|r",
-			[51] = 1624050706,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [77]
-		{
-			"shouldnt we get pride?", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1621, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1624050736,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [78]
-		{
-			"not yet", -- [1]
-			"Xiy-Magtheridon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Xiy-Magtheridon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1623, -- [11]
-			"Player-3681-06E52C04", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Xiy-Magtheridon|r",
-			[51] = 1624050748,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [79]
-		{
-			"oke", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1624, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1624050750,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [80]
-		{
-			"oof", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1649, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1624050855,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [81]
-		{
-			"Casting Redemption on Paladinone", -- [1]
-			"Xiy-Magtheridon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Xiy-Magtheridon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1650, -- [11]
-			"Player-3681-06E52C04", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Xiy-Magtheridon|r",
-			[51] = 1624050858,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [82]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14630:Player-1301-0B23E9D8:1:6:19:21:4294967295:4294967295:4294967295:4294967295|h[Becoming a Hero]|h|r!", -- [1]
+			"%s has earned the achievement |cffffff00|Hachievement:14837:Player-1301-0B23E9D8:1:6:20:21:4294967295:4294967295:4294967295:4294967295|h[Nexus of Bonds]|h|r!", -- [1]
 			"Zenanda-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1838,7 +1530,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1651, -- [11]
+			4508, -- [11]
 			"Player-1301-0B23E9D8", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1846,167 +1538,409 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffc31d39Zenanda|r",
-			[51] = 1624050861,
+			[51] = 1624136408,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [83]
+		}, -- [69]
 		{
-			"ouch", -- [1]
-			"Xiy-Magtheridon", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:10033:Player-1301-0BC00016:1:6:20:21:4294967295:4294967295:4294967295:4294967295|h[Mythic: Kormrok]|h|r!", -- [1]
+			"Oneletter-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xiy-Magtheridon", -- [5]
+			"Oneletter-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1652, -- [11]
-			"Player-3681-06E52C04", -- [12]
+			4511, -- [11]
+			"Player-1301-0BC00016", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Xiy-Magtheridon|r",
-			[51] = 1624050865,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [84]
+			[52] = "|cfff38bb9Oneletter|r",
+			[51] = 1624136433,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [70]
 		{
-			"we gotta delete adds faster", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"ill spear this", -- [1]
+			"Lighteater-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"Lighteater-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1653, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			4515, -- [11]
+			"Player-1301-0BE03626", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1624050873,
+			[52] = "|cffc31d39Lighteater|r",
+			[51] = 1624136491,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [85]
+		}, -- [71]
 		{
-			"Casting Redemption on Dárahan", -- [1]
-			"Xiy-Magtheridon", -- [2]
+			"Interrupted Amarth's |cff71d5ff|Hspell:320171:0|h[Necrotic Bolt]|h|r!", -- [1]
+			"Lighteater-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xiy-Magtheridon", -- [5]
+			"Lighteater-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1654, -- [11]
-			"Player-3681-06E52C04", -- [12]
+			4520, -- [11]
+			"Player-1301-0BE03626", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Xiy-Magtheridon|r",
-			[51] = 1624050874,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [86]
-		{
-			"yikes", -- [1]
-			"Paladinone-Auchindoun", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Paladinone-Auchindoun", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1672, -- [11]
-			"Player-1597-0EF6489A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Paladinone-Auchindoun|r",
-			[51] = 1624050980,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [87]
-		{
-			"that was my bad", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1674, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1624050984,
+			[52] = "|cffc31d39Lighteater|r",
+			[51] = 1624136527,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [88]
+		}, -- [72]
 		{
-			"so much for not leaving groups", -- [1]
-			"Paladinone-Auchindoun", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:10253:Player-1301-0BC00016:1:6:20:21:4294967295:4294967295:4294967295:4294967295|h[Mythic: Gorefiend]|h|r!", -- [1]
+			"Oneletter-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Oneletter-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4523, -- [11]
+			"Player-1301-0BC00016", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Oneletter|r",
+			[51] = 1624136532,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [73]
+		{
+			"Interrupted Amarth's |cff71d5ff|Hspell:320171:0|h[Necrotic Bolt]|h|r!", -- [1]
+			"Lighteater-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lighteater-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4526, -- [11]
+			"Player-1301-0BE03626", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Lighteater|r",
+			[51] = 1624136550,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [74]
+		{
+			"Interrupted Flesh Crafter's |cff71d5ff|Hspell:327130:0|h[Repair Flesh]|h|r!", -- [1]
+			"Lighteater-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lighteater-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4533, -- [11]
+			"Player-1301-0BE03626", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Lighteater|r",
+			[51] = 1624136605,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [75]
+		{
+			"Interrupted Corpse Collector's |cff71d5ff|Hspell:338353:0|h[Goresplatter]|h|r!", -- [1]
+			"Lighteater-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lighteater-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4555, -- [11]
+			"Player-1301-0BE03626", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Lighteater|r",
+			[51] = 1624136673,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [76]
+		{
+			"Interrupted Corpse Collector's |cff71d5ff|Hspell:334748:0|h[Drain Fluids]|h|r!", -- [1]
+			"Lighteater-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lighteater-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4556, -- [11]
+			"Player-1301-0BE03626", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Lighteater|r",
+			[51] = 1624136690,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [77]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:10037:Player-1301-0BC00016:1:6:20:21:4294967295:4294967295:4294967295:4294967295|h[Mythic: Shadow-Lord Iskar]|h|r!", -- [1]
+			"Oneletter-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Oneletter-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4557, -- [11]
+			"Player-1301-0BC00016", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Oneletter|r",
+			[51] = 1624136694,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [78]
+		{
+			"Interrupted Corpse Collector's |cff71d5ff|Hspell:334748:0|h[Drain Fluids]|h|r!", -- [1]
+			"Lighteater-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lighteater-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4558, -- [11]
+			"Player-1301-0BE03626", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Lighteater|r",
+			[51] = 1624136706,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [79]
+		{
+			"Interrupted Stitching Assistant's |cff71d5ff|Hspell:334748:0|h[Drain Fluids]|h|r!", -- [1]
+			"Lighteater-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lighteater-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4566, -- [11]
+			"Player-1301-0BE03626", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Lighteater|r",
+			[51] = 1624136734,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [80]
+		{
+			"Interrupted Stitching Assistant's |cff71d5ff|Hspell:334748:0|h[Drain Fluids]|h|r!", -- [1]
+			"Lighteater-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lighteater-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4567, -- [11]
+			"Player-1301-0BE03626", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Lighteater|r",
+			[51] = 1624136752,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [81]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:10040:Player-1301-0BC00016:1:6:20:21:4294967295:4294967295:4294967295:4294967295|h[Mythic: Socrethar the Eternal]|h|r!", -- [1]
+			"Oneletter-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Oneletter-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4579, -- [11]
+			"Player-1301-0BC00016", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Oneletter|r",
+			[51] = 1624136831,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [82]
+		{
+			"Meat Hook on Malorah", -- [1]
+			"Malorah-Auchindoun", -- [2]
 			"Common", -- [3]
 			"", -- [4]
-			"Paladinone-Auchindoun", -- [5]
+			"Malorah-Auchindoun", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1677, -- [11]
-			"Player-1597-0EF6489A", -- [12]
+			4583, -- [11]
+			"Player-1597-04B639A6", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Paladinone-Auchindoun|r",
-			[51] = 1624051006,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [89]
+			[52] = "|cfffe7b09Malorah-Auchindoun|r",
+			[51] = 1624136853,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [83]
 		{
-			"well ", -- [1]
-			"Pixiepopp-Eonar", -- [2]
-			"", -- [3]
+			"3", -- [1]
+			"Malorah-Auchindoun", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Pixiepopp-Eonar", -- [5]
+			"Malorah-Auchindoun", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1678, -- [11]
-			"Player-1416-07A7BCC5", -- [12]
+			4584, -- [11]
+			"Player-1597-04B639A6", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Pixiepopp-Eonar|r",
-			[51] = 1624051006,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [90]
+			[52] = "|cfffe7b09Malorah-Auchindoun|r",
+			[51] = 1624136854,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [84]
 		{
-			"there goes no leaving gorups", -- [1]
+			"2", -- [1]
+			"Malorah-Auchindoun", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Malorah-Auchindoun", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4586, -- [11]
+			"Player-1597-04B639A6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Malorah-Auchindoun|r",
+			[51] = 1624136855,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [85]
+		{
+			"1", -- [1]
+			"Malorah-Auchindoun", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Malorah-Auchindoun", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4587, -- [11]
+			"Player-1597-04B639A6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Malorah-Auchindoun|r",
+			[51] = 1624136856,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [86]
+		{
+			"Frozen Binds on Malorah", -- [1]
+			"Malorah-Auchindoun", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Malorah-Auchindoun", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4599, -- [11]
+			"Player-1597-04B639A6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Malorah-Auchindoun|r",
+			[51] = 1624136911,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [87]
+		{
+			"Frozen Binds on Necrophagus", -- [1]
 			"Necrophagus-Outland", -- [2]
-			"", -- [3]
+			"Common", -- [3]
 			"", -- [4]
 			"Necrophagus-Outland", -- [5]
 			"", -- [6]
@@ -2014,7 +1948,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1680, -- [11]
+			4601, -- [11]
 			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -2022,77 +1956,143 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1624051013,
+			[51] = 1624136914,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [88]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:10041:Player-1301-0BC00016:1:6:20:21:4294967295:4294967295:4294967295:4294967295|h[Mythic: Tyrant Velhari]|h|r!", -- [1]
+			"Oneletter-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Oneletter-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4607, -- [11]
+			"Player-1301-0BC00016", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Oneletter|r",
+			[51] = 1624136971,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [89]
+		{
+			"Frozen Binds on Necrophagus", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4608, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624136985,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [90]
+		{
+			"monk need?", -- [1]
+			"Lighteater-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lighteater-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4619, -- [11]
+			"Player-1301-0BE03626", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Lighteater|r",
+			[51] = 1624137013,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [91]
 		{
-			":/", -- [1]
-			"Pixiepopp-Eonar", -- [2]
+			"ty", -- [1]
+			"Lighteater-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Pixiepopp-Eonar", -- [5]
+			"Lighteater-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1681, -- [11]
-			"Player-1416-07A7BCC5", -- [12]
+			4620, -- [11]
+			"Player-1301-0BE03626", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Pixiepopp-Eonar|r",
-			[51] = 1624051027,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc31d39Lighteater|r",
+			[51] = 1624137028,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [92]
 		{
-			"ye", -- [1]
-			"Dárahan-Antonidas", -- [2]
+			"np", -- [1]
+			"Habibiante-Saurfang", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Dárahan-Antonidas", -- [5]
+			"Habibiante-Saurfang", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1682, -- [11]
-			"Player-3686-065BF8C2", -- [12]
+			4621, -- [11]
+			"Player-633-0A4962FE", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Dárahan-Antonidas|r",
-			[51] = 1624051036,
+			[52] = "|cff00fe97Habibiante-Saurfang|r",
+			[51] = 1624137031,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [93]
 		{
-			"ah fuck it imma do the 15 tomorrow", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"cheers", -- [1]
+			"Ismo-Moonglade", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"Ismo-Moonglade", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1683, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			4622, -- [11]
+			"Player-1085-08F6DBD7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1624051039,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cff006fdcIsmo-Moonglade|r",
+			[51] = 1624137031,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [94]
 		{
-			"thanks for coming guys", -- [1]
+			"bb", -- [1]
 			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -2102,7 +2102,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1684, -- [11]
+			4626, -- [11]
 			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -2110,96 +2110,96 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1624051048,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[51] = 1624137040,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [95]
 		{
-			"Sorry man", -- [1]
-			"Xiy-Magtheridon", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:10039:Player-1301-0BC00016:1:6:20:21:4294967295:4294967295:4294967295:4294967295|h[Mythic: Xhul'horac]|h|r!", -- [1]
+			"Oneletter-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xiy-Magtheridon", -- [5]
+			"Oneletter-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1686, -- [11]
-			"Player-3681-06E52C04", -- [12]
+			4629, -- [11]
+			"Player-1301-0BC00016", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Xiy-Magtheridon|r",
-			[51] = 1624051053,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff38bb9Oneletter|r",
+			[51] = 1624137079,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [96]
 		{
-			"thanks anyways ", -- [1]
-			"Pixiepopp-Eonar", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:10038:Player-1301-0BC00016:1:6:20:21:4294967295:4294967295:4294967295:4294967295|h[Mythic: Fel Lord Zakuun]|h|r!", -- [1]
+			"Oneletter-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Pixiepopp-Eonar", -- [5]
+			"Oneletter-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1687, -- [11]
-			"Player-1416-07A7BCC5", -- [12]
+			4644, -- [11]
+			"Player-1301-0BC00016", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Pixiepopp-Eonar|r",
-			[51] = 1624051053,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff38bb9Oneletter|r",
+			[51] = 1624137181,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [97]
 		{
-			"ye sry", -- [1]
-			"Dárahan-Antonidas", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:10020:Player-1301-0BC00016:1:6:20:21:4294967295:4294967295:4294967295:4294967295|h[Destructor's Rise]|h|r!", -- [1]
+			"Oneletter-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Dárahan-Antonidas", -- [5]
+			"Oneletter-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1690, -- [11]
-			"Player-3686-065BF8C2", -- [12]
+			4661, -- [11]
+			"Player-1301-0BC00016", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Dárahan-Antonidas|r",
-			[51] = 1624051061,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff38bb9Oneletter|r",
+			[51] = 1624137284,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [98]
 		{
-			"cya", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:10042:Player-1301-0BC00016:1:6:20:21:4294967295:4294967295:4294967295:4294967295|h[Mythic: Mannoroth]|h|r!", -- [1]
+			"Oneletter-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"Oneletter-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1691, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			4662, -- [11]
+			"Player-1301-0BC00016", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1624051066,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfff38bb9Oneletter|r",
+			[51] = 1624137284,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [99]
 	},
 }

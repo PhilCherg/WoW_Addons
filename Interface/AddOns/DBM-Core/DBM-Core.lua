@@ -70,9 +70,9 @@ local function showRealDate(curseDate)
 end
 
 DBM = {
-	Revision = parseCurseDate("20210422012805"),
-	DisplayVersion = "9.0.26", -- the string that is shown as version
-	ReleaseRevision = releaseDate(2021, 4, 21) -- the date of the latest stable version that is available, optionally pass hours, minutes, and seconds for multiple releases in one day
+	Revision = parseCurseDate("20210614215234"),
+	DisplayVersion = "9.0.30", -- the string that is shown as version
+	ReleaseRevision = releaseDate(2021, 6, 14) -- the date of the latest stable version that is available, optionally pass hours, minutes, and seconds for multiple releases in one day
 }
 DBM.HighestRelease = DBM.ReleaseRevision --Updated if newer version is detected, used by update nags to reflect critical fixes user is missing on boss pulls
 
@@ -567,7 +567,7 @@ local IsInRaid, IsInGroup, IsInInstance = IsInRaid, IsInGroup, IsInInstance
 local UnitAffectingCombat, InCombatLockdown, IsFalling, IsEncounterInProgress, UnitPlayerOrPetInRaid, UnitPlayerOrPetInParty = UnitAffectingCombat, InCombatLockdown, IsFalling, IsEncounterInProgress, UnitPlayerOrPetInRaid, UnitPlayerOrPetInParty
 local UnitGUID, UnitHealth, UnitHealthMax, UnitBuff, UnitDebuff, UnitAura = UnitGUID, UnitHealth, UnitHealthMax, UnitBuff, UnitDebuff, UnitAura
 local UnitExists, UnitIsDead, UnitIsFriend, UnitIsUnit = UnitExists, UnitIsDead, UnitIsFriend, UnitIsUnit
-local GetSpellInfo, GetDungeonInfo, GetSpellTexture, GetSpellCooldown = GetSpellInfo, GetDungeonInfo, GetSpellTexture, GetSpellCooldown
+local GetSpellInfo, GetDungeonInfo, GetSpellTexture, GetSpellCooldown = GetSpellInfo, C_LFGInfo and C_LFGInfo.GetDungeonInfo or GetDungeonInfo, GetSpellTexture, GetSpellCooldown
 local EJ_GetEncounterInfo, EJ_GetCreatureInfo = EJ_GetEncounterInfo, EJ_GetCreatureInfo
 local EJ_GetSectionInfo, GetSectionIconFlags
 if C_EncounterJournal then
@@ -832,7 +832,7 @@ do
 	local args = setmetatable({}, argsMT)
 
 	function argsMT.__index:IsSpellID(...)
-		return tIndexOf({...}, self.spellId) ~= nil
+		return tIndexOf({...}, args.spellId) ~= nil
 	end
 
 	function argsMT.__index:IsPlayer()
@@ -4693,7 +4693,7 @@ do
 		if DBM.Options.RecordOnlyBosses then
 			DBM:StartLogging(timer, checkForActualPull)--Start logging here to catch pre pots.
 		end
-		if DBM.Options.CheckGear then
+		if DBM.Options.CheckGear and not testBuild then
 			local bagilvl, equippedilvl = GetAverageItemLevel()
 			local difference = bagilvl - equippedilvl
 			local weapon = GetInventoryItemLink("player", 16)
@@ -6786,10 +6786,32 @@ do
 	end
 end
 
-function DBM:SetCurrentSpecInfo()
-	currentSpecGroup = GetSpecialization() or 1
-	currentSpecID, currentSpecName = GetSpecializationInfo(currentSpecGroup)--give temp first spec id for non-specialization char. no one should use dbm with no specialization, below level 10, should not need dbm.
-	currentSpecID = tonumber(currentSpecID)
+do
+	--In event api fails to pull any data at all, just assign classes to their initial template roles from exiles reach
+	local fallbackClassToRole = {
+		["MAGE"] = 1449,
+		["PALADIN"] = 1451,
+		["WARRIOR"] = 1446,
+		["DRUID"] = 1447,
+		["DEATHKNIGHT"] = 1455,
+		["HUNTER"] = 1448,
+		["PRIEST"] = 1452,
+		["ROGUE"] = 1453,
+		["SHAMAN"] = 1444,
+		["WARLOCK"] = 1454,
+		["MONK"] = 1450,
+		["DEMONHUNTER"] = 1456,
+	}
+
+	function DBM:SetCurrentSpecInfo()
+		currentSpecGroup = GetSpecialization() or 1
+		if GetSpecializationInfo(currentSpecGroup) then
+			currentSpecID, currentSpecName = GetSpecializationInfo(currentSpecGroup)--give temp first spec id for non-specialization char. no one should use dbm with no specialization, below level 10, should not need dbm.
+			currentSpecID = tonumber(currentSpecID)
+		else
+			currentSpecID, currentSpecName = fallbackClassToRole[playerClass], playerClass
+		end
+	end
 end
 
 --TODO C_IslandsQueue.GetIslandDifficultyInfo(), if 38-40 don't work
@@ -7003,6 +7025,7 @@ function DBM:EJ_GetSectionInfo(sectionID)
 end
 
 --Handle new spell name requesting with wrapper, to make api changes easier to handle
+--Keep an eye on C_SpellBook.GetSpellInfo, but don't use it YET as direction of existing GetSpellInfo isn't finalized yet
 function DBM:GetSpellInfo(spellId)
 	local name, rank, icon, castingTime, minRange, maxRange, returnedSpellId  = GetSpellInfo(spellId)
 	if not returnedSpellId then--Bad request all together
@@ -7913,6 +7936,19 @@ function bossModPrototype:UnregisterOnUpdateHandler()
 	self.elapsed = nil
 	self.updateInterval = nil
 	twipe(updateFunctions)
+end
+
+function bossModPrototype:SetStage(stage)
+	if stage == 0 then--Increment request instead of hard value
+		self.vb.phase = self.vb.phase + 1
+	else
+		self.vb.phase = stage
+	end
+	if self.inCombat then--Safety, in event mod manages to run any phase change calls out of combat/during a wipe we'll just safely ignore it
+		fireEvent("DBM_SetStage", self, self.id, self.vb.phase, self.encounterId)--Mod, modId, Stage, Encounter Id (if available).
+		--Note, in Wrath dungeons some encounters return multiple Ids years ago, but blizzard consolidated them recently such as 217, 265 consolidated to just 1972
+		--TODO, see if Wrath Classic uses consolidated Ids or original dual Id system. if wrath classic uses dual Ids, DBM_SetStage using self.encounterId will need to be fixed
+	end
 end
 
 --------------
@@ -12283,7 +12319,7 @@ end
 
 function bossModPrototype:SetRevision(revision)
 	revision = parseCurseDate(revision or "")
-	if not revision or revision == "20210422012805" then
+	if not revision or revision == "20210614215234" then
 		-- bad revision: either forgot the svn keyword or using github
 		revision = DBM.Revision
 	end
@@ -12530,11 +12566,12 @@ do
 		return false
 	end
 
-	local mobUids = {"mouseover", "target", "boss1", "boss2", "boss3", "boss4", "boss5",
+	local mobUids = {"boss1", "boss2", "boss3", "boss4", "boss5",
 	"nameplate1", "nameplate2", "nameplate3", "nameplate4", "nameplate5", "nameplate6", "nameplate7", "nameplate8", "nameplate9", "nameplate10",
 	"nameplate11", "nameplate12", "nameplate13", "nameplate14", "nameplate15", "nameplate16", "nameplate17", "nameplate18", "nameplate19", "nameplate20",
 	"nameplate21", "nameplate22", "nameplate23", "nameplate24", "nameplate25", "nameplate26", "nameplate27", "nameplate28", "nameplate29", "nameplate30",
-	"nameplate31", "nameplate32", "nameplate33", "nameplate34", "nameplate35", "nameplate36", "nameplate37", "nameplate38", "nameplate39", "nameplate40"}
+	"nameplate31", "nameplate32", "nameplate33", "nameplate34", "nameplate35", "nameplate36", "nameplate37", "nameplate38", "nameplate39", "nameplate40",
+	"mouseover", "target"}
 	function bossModPrototype:ScanForMobs(creatureID, iconSetMethod, mobIcon, maxIcon, scanInterval, scanningTime, optionName, isFriendly, secondCreatureID, skipMarked)
 		if not optionName then optionName = self.findFastestComputer[1] end
 		if canSetIcons[optionName] then
@@ -12598,7 +12635,7 @@ do
 							addsIconSet[scanID] = nil
 							return
 						end
-					elseif guid2 and (guid2 == creatureID or cid2 == creatureID or cid2 == secondCreatureID) and not addsGUIDs[guid2] then
+					elseif guid2 and ((guid2 == creatureID) or (cid2 == creatureID) or (cid2 == secondCreatureID)) and not addsGUIDs[guid2] then
 						DBM:Debug("Match found, SHOULD be setting icon", 2)
 						if iconSetMethod == 2 then
 							SetRaidTarget(unitid2, mobIcon)
@@ -12654,7 +12691,7 @@ do
 							addsIconSet[scanID] = nil
 							return
 						end
-					elseif guid and (guid == creatureID or cid == creatureID or cid == secondCreatureID) and not addsGUIDs[guid] then
+					elseif guid and ((guid == creatureID) or (cid == creatureID) or (cid == secondCreatureID)) and not addsGUIDs[guid] then
 						DBM:Debug("Match found, SHOULD be setting icon", 2)
 						if iconSetMethod == 2 then
 							SetRaidTarget(unitid, mobIcon)

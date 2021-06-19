@@ -1,9 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0418,
-	["LastPlayerFullName"] = "Illyana-Outland",
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
+	["LastVersion"] = 2.052,
 	["ItemLevels"] = {
 		{
 			["ID"] = 178817,
@@ -93,6 +90,10 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:181687::::::::60:577::53:2:7192:6652:2:9:59:28:807:::|h[Gorewrought Warglaive]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Illyana-Outland",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[127829] = {
 			["Relics"] = {
@@ -111,7 +112,6 @@ PawnOptions = {
 			["Name"] = "Twinblades of the Deceiver",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "DEMONHUNTER",

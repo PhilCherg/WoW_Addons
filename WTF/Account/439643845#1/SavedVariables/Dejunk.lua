@@ -16,7 +16,7 @@ __DEJUNK_SAVED_VARIABLES__ = {
 			},
 			["version"] = 3,
 		},
-		["Necrophagus-Outland"] = {
+		["Luminaxia-Outland"] = {
 			["version"] = 3,
 		},
 		["Barbaxius-Outland"] = {
@@ -25,7 +25,7 @@ __DEJUNK_SAVED_VARIABLES__ = {
 		["Xanthoros-Outland"] = {
 			["version"] = 3,
 		},
-		["Luminaxia-Outland"] = {
+		["Necrophagus-Outland"] = {
 			["version"] = 3,
 		},
 	},
