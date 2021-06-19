@@ -1932,10 +1932,10 @@ EncounterDetailsDB = {
 		[70189] = {
 			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Spire Gargoyle",
 		},
@@ -14518,14 +14518,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lawlmany-Wildhammer",
 		},
-		[260508] = {
-			["school"] = 1,
+		[312107] = {
+			["school"] = 4,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Soulbound Goliath",
+			["source"] = "Appolyon-Boulderfist",
 		},
 		[37318] = {
 			["school"] = 4,
@@ -14538,10 +14537,10 @@ EncounterDetailsDB = {
 		[69869] = {
 			["school"] = 20,
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Kor'kron Invoker",
 		},
@@ -14701,12 +14700,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "King Deepbeard",
 		},
-		[79340] = {
-			["school"] = 32,
+		[276282] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "High Priestess Azil",
+			["source"] = "Galecaller Apprentice",
 		},
 		[137149] = {
 			["school"] = 8,
@@ -14725,14 +14724,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rift-Daggerspine",
 		},
-		[75245] = {
-			["school"] = 36,
+		[79340] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Drahga Shadowburner",
+			["source"] = "High Priestess Azil",
 		},
 		[269116] = {
 			["school"] = 1,
@@ -15653,12 +15650,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fionara",
 		},
-		[116970] = {
-			["school"] = 1,
+		[332617] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Stone Quilen",
+			["source"] = "Doctor Ickus",
 		},
 		[273239] = {
 			["school"] = 4,
@@ -15675,12 +15673,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dread Horror",
 		},
-		[254383] = {
-			["school"] = 32,
+		[116970] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Shatug",
+			["source"] = "Stone Quilen",
 		},
 		[67767] = {
 			["school"] = 16,
@@ -15816,13 +15814,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Grand Astromancer Capernian",
 		},
-		[332617] = {
-			["school"] = 8,
+		[254383] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Doctor Ickus",
+			["source"] = "Shatug",
 		},
 		[198079] = {
 			["school"] = 1,
@@ -16344,12 +16341,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Marak the Blooded",
 		},
-		[276282] = {
-			["school"] = 8,
+		[75245] = {
+			["school"] = 36,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Galecaller Apprentice",
+			["source"] = "Drahga Shadowburner",
 		},
 		[136442] = {
 			["school"] = 1,
@@ -16440,14 +16439,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ryona",
 		},
-		[312107] = {
-			["school"] = 4,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Appolyon-Boulderfist",
-		},
 		[231843] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -16455,6 +16446,15 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Azraard-ArgentDawn",
+		},
+		[260508] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Soulbound Goliath",
 		},
 		[90361] = {
 			["school"] = 8,
@@ -18528,98 +18528,98 @@ EncounterDetailsDB = {
 	["emotes"] = {
 		{
 			{
-				0.2010000000009313, -- [1]
-				"Prepare yourselves!", -- [2]
-				"Thaladred the Darkener", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				1.818999999999505, -- [1]
+				0.8580000000001746, -- [1]
 				"You have persevered against some of my best advisors... but none can withstand the might of the Blood Hammer. Behold, Lord Sanguinar!", -- [2]
 				"Kael'thas Sunstrider", -- [3]
 				7, -- [4]
-			}, -- [2]
+			}, -- [1]
 			{
-				14.71199999999953, -- [1]
+				13.36299999999756, -- [1]
 				"Blood for blood!", -- [2]
 				"Lord Sanguinar", -- [3]
 				7, -- [4]
-			}, -- [3]
+			}, -- [2]
 			{
-				16.40099999999984, -- [1]
+				14.96399999999994, -- [1]
 				"Capernian will see to it that your stay here is a short one.", -- [2]
 				"Kael'thas Sunstrider", -- [3]
 				7, -- [4]
-			}, -- [4]
+			}, -- [3]
 			{
-				23.28399999999965, -- [1]
+				21.89899999999761, -- [1]
 				"The sin'dorei reign supreme!", -- [2]
 				"Grand Astromancer Capernian", -- [3]
 				7, -- [4]
-			}, -- [5]
+			}, -- [4]
 			{
-				25.6810000000005, -- [1]
+				23.09799999999814, -- [1]
 				"Well done, you have proven worthy to test your skills against my master engineer, Telonicus.", -- [2]
 				"Kael'thas Sunstrider", -- [3]
 				7, -- [4]
-			}, -- [6]
+			}, -- [5]
 			{
-				34.17200000000048, -- [1]
+				31.61499999999796, -- [1]
 				"Anar'alah belore!", -- [2]
 				"Master Engineer Telonicus", -- [3]
 				7, -- [4]
+			}, -- [6]
+			{
+				35.6620000000039, -- [1]
+				"As you see, I have many weapons in my arsenal....", -- [2]
+				"Kael'thas Sunstrider", -- [3]
+				7, -- [4]
 			}, -- [7]
 			{
-				37.78800000000047, -- [1]
-				"As you see, I have many weapons in my arsenal....", -- [2]
+				130.4140000000043, -- [1]
+				"Perhaps I underestimated you. It would be unfair to make you fight all four advisors at once, but... fair treatment was never shown to my people. I'm just returning the favor.", -- [2]
 				"Kael'thas Sunstrider", -- [3]
 				7, -- [4]
 			}, -- [8]
 			{
-				132.5110000000004, -- [1]
-				"Perhaps I underestimated you. It would be unfair to make you fight all four advisors at once, but... fair treatment was never shown to my people. I'm just returning the favor.", -- [2]
-				"Kael'thas Sunstrider", -- [3]
-				7, -- [4]
+				144.2620000000024, -- [1]
+				"%s sets eyes on Illyana!", -- [2]
+				"Thaladred the Darkener", -- [3]
+				3, -- [4]
 			}, -- [9]
 			{
-				147.0529999999999, -- [1]
+				144.4660000000004, -- [1]
 				"NO! I... will... not...", -- [2]
 				"Lord Sanguinar", -- [3]
 				7, -- [4]
 			}, -- [10]
 			{
-				148.0490000000009, -- [1]
+				145.4539999999979, -- [1]
 				"Forgive me, my prince! I have... failed.", -- [2]
 				"Thaladred the Darkener", -- [3]
 				7, -- [4]
 			}, -- [11]
 			{
-				148.0490000000009, -- [1]
-				"More perils... await...", -- [2]
-				"Master Engineer Telonicus", -- [3]
-				7, -- [4]
-			}, -- [12]
-			{
-				161.5310000000009, -- [1]
+				146.4510000000009, -- [1]
 				"This is not over!", -- [2]
 				"Grand Astromancer Capernian", -- [3]
 				7, -- [4]
+			}, -- [12]
+			{
+				154.5180000000037, -- [1]
+				"More perils... await...", -- [2]
+				"Master Engineer Telonicus", -- [3]
+				7, -- [4]
 			}, -- [13]
 			{
-				164.0930000000008, -- [1]
+				157.2309999999998, -- [1]
 				"Alas, sometimes one must take matters into one's own hands. Balamore shanal!", -- [2]
 				"Kael'thas Sunstrider", -- [3]
 				7, -- [4]
 			}, -- [14]
 			{
-				168.9560000000001, -- [1]
-				"I have not come this far to be stopped! The future I have planned will not be jeopardized! Now you will taste true power!!", -- [2]
+				157.2309999999998, -- [1]
+				"By the power of the sun!", -- [2]
 				"Kael'thas Sunstrider", -- [3]
 				7, -- [4]
 			}, -- [15]
 			{
-				202.9760000000006, -- [1]
-				"Bow to my will!", -- [2]
+				170.5910000000004, -- [1]
+				"I have not come this far to be stopped! The future I have planned will not be jeopardized! Now you will taste true power!!", -- [2]
 				"Kael'thas Sunstrider", -- [3]
 				7, -- [4]
 			}, -- [16]

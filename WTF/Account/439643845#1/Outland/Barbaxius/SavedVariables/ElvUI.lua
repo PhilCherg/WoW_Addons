@@ -1,10 +1,10 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/played", -- [1]
-		"/way 33.6 57.8", -- [2]
+		"/way 33.6 57.8", -- [1]
+		"/s :D", -- [2]
 		"/s thanks cheeers :D", -- [3]
-		"/s :D", -- [4]
+		"/played", -- [4]
 		"/way 54 63", -- [5]
 		"/who", -- [6]
 		"/tired", -- [7]

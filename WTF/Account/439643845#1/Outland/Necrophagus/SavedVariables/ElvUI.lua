@@ -1,690 +1,558 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/p yep", -- [1]
-		"/p ok just call it", -- [2]
-		"/p also call pot", -- [3]
-		"/p for invis i mean", -- [4]
-		"/p open or wait?", -- [5]
-		"/p ok", -- [6]
-		"/p open for this or?", -- [7]
-		"/p ye", -- [8]
-		"/p open?", -- [9]
-		"/p gg", -- [10]
-		"/att |cffffffff|Hitem:91877::::::::60:267:::::::|h[Domination Point Commission]|h|r", -- [11]
-		"/p yo", -- [12]
-		"/i yeah", -- [13]
-		"/s hehe dual qield go brrrt", -- [14]
-		"/att |cffa335ee|Hcurrency:1275:0|h[Curious Coin]|h|r", -- [15]
-		"/way 54.4 10.8", -- [16]
-		"/att |cffffffff|Hitem:32569::::::::60:267:::::::|h[Apexis Shard]|h|r", -- [17]
-		"/att |cff0070dd|Hitem:32572::::::::60:267:::::::|h[Apexis Crystal]|h|r", -- [18]
-		"/who", -- [19]
-		"/rarity", -- [20]
+		"/p heyo", -- [1]
+		"/p hey", -- [2]
+		"/p so guys i just want a chill run and to complete the key", -- [3]
+		"/p so please dont tilt or leave on the first minor inconvenience xD", -- [4]
+		"/p xiy if you can call it out i can do drums", -- [5]
+		"/p cause we dont have hero", -- [6]
+		"/p true", -- [7]
+		"/pull 10", -- [8]
+		"/p drums on pull?", -- [9]
+		"/p shouldnt we get pride?", -- [10]
+		"/p oke", -- [11]
+		"/p oof", -- [12]
+		"/p we gotta delete adds faster", -- [13]
+		"/p that was my bad", -- [14]
+		"/cw Paladinone-Auchindoun so much for not leaving groups", -- [15]
+		"/p there goes no leaving gorups", -- [16]
+		"/p ah fuck it imma do the 15 tomorrow", -- [17]
+		"/p thanks for coming guys", -- [18]
+		"/p cya", -- [19]
+		"/cw Misstinky-Ravencrest |cffffff00|Hachievement:14460:Player-1301-096AE5A8:1:2:8:21:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Sire Denathrius]|h|r", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
-			"<Twilight>  Offering HC Full clear 275k/Curve 45K Limited  Today 16:00  server time   /w me for more info", -- [1]
-			"Twiboost-Outland", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:10010:Player-1301-0B7E610E:1:6:18:21:4294967295:4294967295:4294967295:4294967295|h[Gate of the Setting Sun]|h|r!", -- [1]
+			"Víii-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Twiboost-Outland", -- [5]
+			"", -- [4]
+			"Víii-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			2, -- [11]
-			"Player-1301-0BF8C608", -- [12]
+			1416, -- [11]
+			"Player-1301-0B7E610E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Twiboost|r",
-			[51] = 1620125607,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfff38bb9Víii|r",
+			[51] = 1624048932,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [1]
 		{
-			"<NOVA> Mega Sale ( Sire HC 50k )( Castle Nathria Only For 300k Vip Trader 120k)  We Also Selling M+ [ 10 - 20 ] +16 430k  +15  200k  +14  110k  +12  99k  +10  79k  /  Big Discount For Keystone Master ( All  +15s  Time  1490k ) /w for", -- [1]
-			"Novalovely-Outland", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:6759:Player-1301-0B7E610E:1:6:18:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: Gate of the Setting Sun]|h|r!", -- [1]
+			"Víii-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novalovely-Outland", -- [5]
+			"", -- [4]
+			"Víii-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			4, -- [11]
-			"Player-1301-0BF07A9F", -- [12]
+			1417, -- [11]
+			"Player-1301-0B7E610E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Novalovely|r",
-			[51] = 1620125625,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfff38bb9Víii|r",
+			[51] = 1624048932,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [2]
 		{
-			"<ICECROWN> M+16 500k || M+17 650k||M +14 110k +15 200k || Untimed 14 100k || 15 180k || 4x M+ Vault packages|| KSM = 1500K || 50-60 boost ||Twisting Corridors 1-8|| HC 10/10CN || Mythic CN ||Mounts & Hunter Pets || /w me to book: ) Gold only <3  ", -- [1]
-			"Disstressed-Outland", -- [2]
+			"Good evening :)", -- [1]
+			"Xiy-Magtheridon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Disstressed-Outland", -- [5]
+			"", -- [4]
+			"Xiy-Magtheridon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			7, -- [11]
-			"Player-1301-0BF4F4BA", -- [12]
+			1419, -- [11]
+			"Player-3681-06E52C04", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaDisstressed|r",
-			[51] = 1620125631,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfff38bb9Xiy-Magtheridon|r",
+			[51] = 1624048938,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [3]
 		{
-			">>((M+15=200k inTime)) << NBC >> (M+14=110k) >> (M+12=99k) >> (3x15=555k) >> (5x15=875k) >> (4x14=396k) >> (5x12=434k) >> keysToonmaster (all KEy in time +15 ) 1490k >> 10/10 hc/mythic every 30 min", -- [1]
-			"Novalilo-Outland", -- [2]
+			"main is 1600", -- [1]
+			"Paladinone-Auchindoun", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novalilo-Outland", -- [5]
+			"", -- [4]
+			"Paladinone-Auchindoun", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			12, -- [11]
-			"Player-1301-0BF78495", -- [12]
+			1424, -- [11]
+			"Player-1597-0EF6489A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cNovalilo|r",
-			[51] = 1620125674,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfff38bb9Paladinone-Auchindoun|r",
+			[51] = 1624048971,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [4]
 		{
-			"<Twilight>  Offering HC Full clear 275k/Curve 45K Limited  Today 16:00  server time   /w me for more info", -- [1]
-			"Twiboost-Outland", -- [2]
+			"can definitely heal this", -- [1]
+			"Paladinone-Auchindoun", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Twiboost-Outland", -- [5]
+			"", -- [4]
+			"Paladinone-Auchindoun", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			37, -- [11]
-			"Player-1301-0BF8C608", -- [12]
+			1425, -- [11]
+			"Player-1597-0EF6489A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Twiboost|r",
-			[51] = 1620125738,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfff38bb9Paladinone-Auchindoun|r",
+			[51] = 1624048978,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [5]
 		{
-			"<NOVA> Selling CN - Castle Nathria 10/10HC For Only 300k + PER Trader for 120k  || Sire Lastboss  50k  /  Mythic CN Raid  || + M + 0 - 20+ / M+10 79k / M+12 99k / M+14 110k / M+15 200k || M+16 430k / M+17 620k / KeystoneMaster 1490k /w For More Info..", -- [1]
-			"Dreamymonk-Outland", -- [2]
+			"sup", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Dreamymonk-Outland", -- [5]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			38, -- [11]
-			"Player-1301-0BE429E7", -- [12]
+			1432, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Dreamymonk|r",
-			[51] = 1620125807,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624048994,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [6]
 		{
-			"<Twilight>  Offering HC Full clear 275k/Curve 45K Limited  Today 16:00  server time   /w me for more info", -- [1]
-			"Twiboost-Outland", -- [2]
+			"sup", -- [1]
+			"Paladinone-Auchindoun", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Twiboost-Outland", -- [5]
+			"", -- [4]
+			"Paladinone-Auchindoun", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			39, -- [11]
-			"Player-1301-0BF8C608", -- [12]
+			1434, -- [11]
+			"Player-1597-0EF6489A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Twiboost|r",
-			[51] = 1620125812,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfff38bb9Paladinone-Auchindoun|r",
+			[51] = 1624048999,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [7]
 		{
-			"<ICECROWN> M+16 500k || M+17 650k||M +14 110k +15 200k || Untimed 14 100k || 15 180k || 4x M+ Vault packages|| KSM = 1500K || 50-60 boost ||Twisting Corridors 1-8|| HC 10/10CN || Mythic CN ||Mounts & Hunter Pets || /w me to book: ) Gold only <3  ", -- [1]
-			"Disstressed-Outland", -- [2]
+			"Heya ,o/", -- [1]
+			"Xiy-Magtheridon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Disstressed-Outland", -- [5]
+			"", -- [4]
+			"Xiy-Magtheridon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			42, -- [11]
-			"Player-1301-0BF4F4BA", -- [12]
+			1435, -- [11]
+			"Player-3681-06E52C04", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaDisstressed|r",
-			[51] = 1620125825,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfff38bb9Xiy-Magtheridon|r",
+			[51] = 1624049010,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [8]
 		{
-			"|cffffd100|HclubFinder:ClubFinder-1-196941-1301-48391459|h[Guild: Unused Icon]|h|r are recruiting! We are 6/10M and looking for ranged dps for our main raid team Wed/Sun 8pm - 12:30am ST. We welcome socials, have a HC raid night, run M+ and PvP.", -- [1]
-			"Bellytime-Outland", -- [2]
+			"worth degrading to a 15 or do you guys need on 16?", -- [1]
+			"Paladinone-Auchindoun", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Bellytime-Outland", -- [5]
+			"", -- [4]
+			"Paladinone-Auchindoun", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			49, -- [11]
-			"Player-1301-0BF038B5", -- [12]
+			1450, -- [11]
+			"Player-1597-0EF6489A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcBellytime|r",
-			[51] = 1620125832,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfff38bb9Paladinone-Auchindoun|r",
+			[51] = 1624049119,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [9]
 		{
-			"WTS|cff0070dd|Hitem:15065::::::::10:70:::::::|h[Warbear Woolies]|h|r+|cff0070dd|Hitem:15064::::::::10:70:::::::|h[Warbear Harness]|h|r10k (20k at AH)", -- [1]
-			"Chichoico-Outland", -- [2]
+			"i want to change the key", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Chichoico-Outland", -- [5]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			142, -- [11]
-			"Player-1301-0B3F94EA", -- [12]
+			1453, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Chichoico|r",
-			[51] = 1620127331,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624049128,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [10]
 		{
-			"<NOVA> Selling CN - Castle Nathria 10/10HC For Only 300k + PER Trader for 120k  || Sire Lastboss  50k  /  Mythic CN Raid  || + M + 0 - 20+ / M+10 79k / M+12 99k / M+14 110k / M+15 200k || M+16 430k / M+17 620k / KeystoneMaster 1490k /w For More Info..", -- [1]
-			"Dreamymonk-Outland", -- [2]
+			"ahh", -- [1]
+			"Paladinone-Auchindoun", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Dreamymonk-Outland", -- [5]
+			"", -- [4]
+			"Paladinone-Auchindoun", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			153, -- [11]
-			"Player-1301-0BE429E7", -- [12]
+			1454, -- [11]
+			"Player-1597-0EF6489A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Dreamymonk|r",
-			[51] = 1620127353,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfff38bb9Paladinone-Auchindoun|r",
+			[51] = 1624049132,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [11]
 		{
-			"<ICECROWN> M+16 500k || M+17 650k||M +14 110k +15 200k || Untimed 14 95k || 15 170k || 4x M+ Vault packages|| KSM = 1500K || 50-60 boost ||Twisting Corridors 1-8|| HC 10/10CN || Mythic CN ||Mounts & Hunter Pets || /w me to book: ) Gold only <3  ", -- [1]
-			"Disstressed-Outland", -- [2]
+			"i see", -- [1]
+			"Paladinone-Auchindoun", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Disstressed-Outland", -- [5]
+			"", -- [4]
+			"Paladinone-Auchindoun", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			173, -- [11]
-			"Player-1301-0BF4F4BA", -- [12]
+			1455, -- [11]
+			"Player-1597-0EF6489A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaDisstressed|r",
-			[51] = 1620127378,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfff38bb9Paladinone-Auchindoun|r",
+			[51] = 1624049133,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [12]
 		{
-			"<Twilight>  Offering HC Full clear 275k/Curve 45K Limited  Today 16:00  server time   /w me for more info", -- [1]
-			"Twiboost-Outland", -- [2]
+			"and i want to keep the option of failing it to a 15", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Twiboost-Outland", -- [5]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			174, -- [11]
-			"Player-1301-0BF8C608", -- [12]
+			1456, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Twiboost|r",
-			[51] = 1620127378,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624049135,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [13]
 		{
-			">>((M+15=200k inTime)) << NBC >> (M+14=110k) >> (M+12=99k) >> (3x15=555k) >> (5x15=875k) >> (4x14=396k) >> (5x12=434k) >> keysToonmaster (all KEy in time +15 ) 1490k >> 10/10 hc/mythic every 30 min", -- [1]
-			"Novalilo-Outland", -- [2]
+			"fair enough", -- [1]
+			"Paladinone-Auchindoun", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novalilo-Outland", -- [5]
+			"", -- [4]
+			"Paladinone-Auchindoun", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			198, -- [11]
-			"Player-1301-0BF78495", -- [12]
+			1457, -- [11]
+			"Player-1597-0EF6489A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cNovalilo|r",
-			[51] = 1620127432,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfff38bb9Paladinone-Auchindoun|r",
+			[51] = 1624049136,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [14]
 		{
-			"<ICECROWN> M+16 500k || M+17 650k||M +14 110k +15 200k || Untimed 14 95k || 15 170k || 4x M+ Vault packages|| KSM = 1500K || 50-60 boost ||Twisting Corridors 1-8|| HC 10/10CN || Mythic CN ||Mounts & Hunter Pets || /w me to book: ) Gold only <3  ", -- [1]
-			"Disstressed-Outland", -- [2]
+			"even better if we time it xD", -- [1]
+			"Paladinone-Auchindoun", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Disstressed-Outland", -- [5]
+			"", -- [4]
+			"Paladinone-Auchindoun", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			200, -- [11]
-			"Player-1301-0BF4F4BA", -- [12]
+			1458, -- [11]
+			"Player-1597-0EF6489A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaDisstressed|r",
-			[51] = 1620127475,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfff38bb9Paladinone-Auchindoun|r",
+			[51] = 1624049151,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [15]
 		{
-			"<NOVA> Selling CN - Castle Nathria 10/10HC For Only 300k + PER Trader for 120k  || Sire Lastboss  50k  /  Mythic CN Raid  || + M + 0 - 20+ / M+10 79k / M+12 99k / M+14 110k / M+15 200k || M+16 430k / M+17 620k / KeystoneMaster 1490k /w For More Info..", -- [1]
-			"Dreamymonk-Outland", -- [2]
+			"i mean it would be ideal to do it in time", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Dreamymonk-Outland", -- [5]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			204, -- [11]
-			"Player-1301-0BE429E7", -- [12]
+			1459, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Dreamymonk|r",
-			[51] = 1620127521,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624049155,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [16]
 		{
-			"<Twilight>  Offering HC Full clear 275k/Curve 45K Limited  Today 16:00  server time   /w me for more info", -- [1]
-			"Twiboost-Outland", -- [2]
+			"yeah", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Twiboost-Outland", -- [5]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			207, -- [11]
-			"Player-1301-0BF8C608", -- [12]
+			1460, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Twiboost|r",
-			[51] = 1620127560,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624049156,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [17]
 		{
-			"<ICECROWN> M+16 500k || M+17 650k||M +14 110k +15 200k || Untimed 14 95k || 15 170k || 4x M+ Vault packages|| KSM = 1500K || 50-60 boost ||Twisting Corridors 1-8|| HC 10/10CN || Mythic CN ||Mounts & Hunter Pets || /w me to book: ) Gold only <3  ", -- [1]
-			"Disstressed-Outland", -- [2]
+			"but just in case", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Disstressed-Outland", -- [5]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			208, -- [11]
-			"Player-1301-0BF4F4BA", -- [12]
+			1461, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaDisstressed|r",
-			[51] = 1620127572,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624049159,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [18]
 		{
-			">>((M+15=200k inTime)) << NBC >> (M+14=110k) >> (M+12=99k) >> (3x15=555k) >> (5x15=875k) >> (4x14=396k) >> (5x12=434k) >> keysToonmaster (all KEy in time +15 ) 1490k >> 10/10 hc/mythic every 30 min", -- [1]
-			"Novalilo-Outland", -- [2]
+			"xD", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novalilo-Outland", -- [5]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			226, -- [11]
-			"Player-1301-0BF78495", -- [12]
+			1462, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cNovalilo|r",
-			[51] = 1620127777,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624049160,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [19]
 		{
-			"WTS boost mythic 15-17 for gold wis me for more info...", -- [1]
-			"Bestshåmy-Outland", -- [2]
+			"I prefer to try as 16", -- [1]
+			"Xiy-Magtheridon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Bestshåmy-Outland", -- [5]
+			"", -- [4]
+			"Xiy-Magtheridon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			230, -- [11]
-			"Player-1301-0877B8D3", -- [12]
+			1463, -- [11]
+			"Player-3681-06E52C04", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcBestshåmy|r",
-			[51] = 1620127798,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfff38bb9Xiy-Magtheridon|r",
+			[51] = 1624049164,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [20]
 		{
-			"<Twilight>  Offering HC Full clear 275k/Curve 45K Limited  Today 16:00  server time   /w me for more info", -- [1]
-			"Twiboost-Outland", -- [2]
+			"Shoud be easily doable", -- [1]
+			"Xiy-Magtheridon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Twiboost-Outland", -- [5]
+			"", -- [4]
+			"Xiy-Magtheridon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			235, -- [11]
-			"Player-1301-0BF8C608", -- [12]
+			1464, -- [11]
+			"Player-3681-06E52C04", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Twiboost|r",
-			[51] = 1620127802,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfff38bb9Xiy-Magtheridon|r",
+			[51] = 1624049175,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [21]
 		{
-			"<NOVA> Selling CN - Castle Nathria 10/10HC For Only 300k + PER Trader for 120k  || Sire Lastboss  50k  /  Mythic CN Raid  || + M + 0 - 20+ / M+10 79k / M+12 99k / M+14 110k / M+15 190k || M+16 420k / M+17 600k / KeystoneMaster 1330k /w For More Info..", -- [1]
-			"Dreamymonk-Outland", -- [2]
+			"yeah i think so", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Dreamymonk-Outland", -- [5]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			334, -- [11]
-			"Player-1301-0BE429E7", -- [12]
+			1465, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Dreamymonk|r",
-			[51] = 1620128624,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624049187,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [22]
 		{
-			"<ICECROWN> M+16 500k || M+17 650k||M +14 110k +15 200k || Untimed 14 95k || 15 170k || 4x M+ Vault packages|| KSM = 1500K || 50-60 boost ||Twisting Corridors 1-8|| HC 10/10CN || Mythic CN ||Mounts & Hunter Pets || /w me to book: ) Gold only <3  ", -- [1]
-			"Disstressed-Outland", -- [2]
+			"i just need to find 2 pumpers", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Disstressed-Outland", -- [5]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			335, -- [11]
-			"Player-1301-0BF4F4BA", -- [12]
+			1466, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaDisstressed|r",
-			[51] = 1620128640,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624049196,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [23]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:7294:Player-1301-096AE5A8:1:5:4:21:4294967295:4294967295:4294967295:4294967295|h[A Taste of Things to Come]|h|r!", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"big D pumpers", -- [1]
+			"Paladinone-Auchindoun", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"Paladinone-Auchindoun", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			355, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			1471, -- [11]
+			"Player-1597-0EF6489A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1620128845,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfff38bb9Paladinone-Auchindoun|r",
+			[51] = 1624049234,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [24]
 		{
-			"<GBG> WTS |cffa335ee|Hitem:121815::::::::46:263:::::::|h[Voidtalon of the Dark Star]|h|r |cffa335ee|Hitem:44168::::::::46:263:::::::|h[Reins of the Time-Lost Proto-Drake]|h|r", -- [1]
-			"Nerfhuntards-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Nerfhuntards-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			480, -- [11]
-			"Player-1301-06691BAE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Nerfhuntards|r",
-			[51] = 1620129966,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
-		{
-			"|cffa335ee|Hitem:63042::::::::46:263:::::::|h[Reins of the Phosphorescent Stone Drake]|h|r & more rare mounts / hunter pets. Whisper for details!", -- [1]
-			"Nerfhuntards-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Nerfhuntards-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			481, -- [11]
-			"Player-1301-06691BAE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Nerfhuntards|r",
-			[51] = 1620129966,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
-		{
-			"<Nova> Selling Boost  M+10=79k / M+14=110k / M+15= 190k /Keystone Master 1.33M /2 run 5%  discount or Stack armor FREE / Selling CASTLE NATHRIA Full HC 300k and per Stack Armor 120k /Curve 50k / Raid Mythic full clear /Torghast Boost /w for info", -- [1]
-			"Exoservices-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Exoservices-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			482, -- [11]
-			"Player-1301-0BDA7B25", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaExoservices|r",
-			[51] = 1620129970,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
-		{
-			"Twilight community is selling|cffffff00|Hachievement:14460:Player-1303-0BF6B1BE:1:1:5:21:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Sire Denathrius]|h|rfair price,killing boss every 15 min,highest quality run on alienc eside", -- [1]
-			"Holydisco-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Holydisco-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			487, -- [11]
-			"Player-1301-0BF6C169", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaHolydisco|r",
-			[51] = 1620129985,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
-		{
-			"<ICECROWN> M+16 500k || M+17 650k||M +14 110k +15 200k || Untimed 14 95k || 15 170k || 4x M+ Vault packages|| KSM = 1500K || 50-60 boost ||Twisting Corridors 1-8|| HC 10/10CN || Mythic CN ||Mounts & Hunter Pets || /w me to book: ) Gold only <3  ", -- [1]
-			"Disstressed-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Disstressed-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			488, -- [11]
-			"Player-1301-0BF4F4BA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaDisstressed|r",
-			[51] = 1620129998,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
-		{
-			">>((M+15=190k inTime)) << NBC >> (M+14=110k) >> (M+12=99k) >> (3x15=528k) >> (5x15=832k) >> (4x14=396k) >> (5x12=434k) >> keysToonmaster (all KEy in time +15 ) 1330k >> 10/10 hc/mythic every 30 min", -- [1]
-			"Novalilo-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novalilo-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			582, -- [11]
-			"Player-1301-0BF78495", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cNovalilo|r",
-			[51] = 1620130636,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14633:Player-1301-096AE5A8:1:5:4:21:4294967295:4294967295:4294967295:4294967295|h[Master Navigator]|h|r!", -- [1]
+			"indeed", -- [1]
 			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -694,7 +562,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1, -- [11]
+			1472, -- [11]
 			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -702,209 +570,363 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1620138038,
+			[51] = 1624049239,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [25]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:6400:Player-1301-029D5A93:1:6:18:21:4294967295:4294967295:4294967295:4294967295|h[How Did He Get Up There?]|h|r!", -- [1]
+			"Elundria-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Elundria-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1473, -- [11]
+			"Player-1301-029D5A93", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcElundria|r",
+			[51] = 1624049239,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [26]
+		{
+			"heyo", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1475, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624049250,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [27]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:6688:Player-1301-0B2A9093:1:6:18:21:4294967295:4294967295:4294967295:4294967295|h[Where's My Air Support?]|h|r!", -- [1]
+			"Kalampoki-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kalampoki-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1476, -- [11]
+			"Player-1301-0B2A9093", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cKalampoki|r",
+			[51] = 1624049250,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [28]
+		{
+			"heya ", -- [1]
+			"Pixiepopp-Eonar", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Pixiepopp-Eonar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1477, -- [11]
+			"Player-1416-07A7BCC5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Pixiepopp-Eonar|r",
+			[51] = 1624049254,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [29]
+		{
+			",o/", -- [1]
+			"Xiy-Magtheridon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xiy-Magtheridon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1489, -- [11]
+			"Player-3681-06E52C04", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Xiy-Magtheridon|r",
+			[51] = 1624049321,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [30]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14797:Player-1301-0B37C15F:1:6:18:21:4294967295:4294967295:4294967295:4294967295|h[Epic]|h|r!", -- [1]
+			"Redcloak-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Redcloak-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1493, -- [11]
+			"Player-1301-0B37C15F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cRedcloak|r",
+			[51] = 1624049334,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [31]
 		{
-			"<RCU> We are selling M+0 to 20, guaranteed intime and all gear traded! Armorstacks and specific keys! We're also offering Castle Nathria HC & Mythic, Torghast, PvP, Mounts & Legacy! Only accepting gold. /W me for more info", -- [1]
-			"Ijustrcu-Outland", -- [2]
+			"never leave", -- [1]
+			"Dárahan-Antonidas", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ijustrcu-Outland", -- [5]
+			"", -- [4]
+			"Dárahan-Antonidas", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			19, -- [11]
-			"Player-1301-0BF64843", -- [12]
+			1508, -- [11]
+			"Player-3686-065BF8C2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Ijustrcu|r",
-			[51] = 1620141266,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfff38bb9Dárahan-Antonidas|r",
+			[51] = 1624049410,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [32]
 		{
-			">>((M+15=190k inTime)) << NBC >> (M+14=110k) >> (M+12=99k) >> (3x15=528k) >> (5x15=832k) >> (4x14=396k) >> (5x12=434k) >> keysToonmaster (all KEy in time +15 ) 1330k >> 10/10 hc/mythic every 30 min", -- [1]
-			"Novalilo-Outland", -- [2]
+			"hey", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novalilo-Outland", -- [5]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			22, -- [11]
-			"Player-1301-0BF78495", -- [12]
+			1510, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cNovalilo|r",
-			[51] = 1620141277,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624049419,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [33]
 		{
-			"<Icecrown> Hosting 10/10 HC |cff66bbff|Hjournal:0:1190:14|h[Castle Nathria]|h|r tonight at 22pm only for 270k! vip's available - Gold only /w me :) - Last 1 spot! SLG + Sire available for 100k : ) ", -- [1]
-			"Disstressed-Outland", -- [2]
+			"hiho", -- [1]
+			"Dárahan-Antonidas", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Disstressed-Outland", -- [5]
+			"", -- [4]
+			"Dárahan-Antonidas", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			25, -- [11]
-			"Player-1301-0BF4F4BA", -- [12]
+			1511, -- [11]
+			"Player-3686-065BF8C2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaDisstressed|r",
-			[51] = 1620141300,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfff38bb9Dárahan-Antonidas|r",
+			[51] = 1624049422,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [34]
 		{
-			"WTS lvling 50-60 and Torghast (layer 1-8) for gold (Alliance-Horde)/w me for more info", -- [1]
-			"Emilyy-Outland", -- [2]
+			"heya ,o/", -- [1]
+			"Xiy-Magtheridon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Emilyy-Outland", -- [5]
+			"", -- [4]
+			"Xiy-Magtheridon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			29, -- [11]
-			"Player-1301-0BF4ED71", -- [12]
+			1512, -- [11]
+			"Player-3681-06E52C04", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Emilyy|r",
-			[51] = 1620141309,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfff38bb9Xiy-Magtheridon|r",
+			[51] = 1624049439,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [35]
 		{
-			"<NOVA> Mega Sale ( Sire HC 50k )( Castle Nathria Only For 300k Vip Trader 120k)  We Also Selling M+ [ 10 - 20 ]  / +16 420k  / +15  190k /  +14  110k /  +12  99k /  +10  79k  /  Big Discount For Keystone Master ( All  +15s  Time  1330k ) /w for", -- [1]
-			"Novalovely-Outland", -- [2]
+			"so guys i just want a chill run and to complete the key", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novalovely-Outland", -- [5]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			46, -- [11]
-			"Player-1301-0BF07A9F", -- [12]
+			1518, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Novalovely|r",
-			[51] = 1620141418,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624049492,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [36]
 		{
-			"WTS boost mythic 15-17 for gold wis me for more info...", -- [1]
-			"Bestshåmy-Outland", -- [2]
+			"so please dont tilt or leave on the first minor inconvenience xD", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Bestshåmy-Outland", -- [5]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			48, -- [11]
-			"Player-1301-0877B8D3", -- [12]
+			1522, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcBestshåmy|r",
-			[51] = 1620141423,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624049506,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [37]
 		{
-			">>((M+15=190k inTime)) << NBC >> (M+14=110k) >> (M+12=99k) >> (3x15=528k) >> (5x15=832k) >> (4x14=396k) >> (5x12=434k) >> keysToonmaster (all KEy in time +15 ) 1330k >> 10/10 hc/mythic every 30 min", -- [1]
-			"Novalilo-Outland", -- [2]
+			"okie ^^", -- [1]
+			"Pixiepopp-Eonar", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novalilo-Outland", -- [5]
+			"", -- [4]
+			"Pixiepopp-Eonar", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			51, -- [11]
-			"Player-1301-0BF78495", -- [12]
+			1525, -- [11]
+			"Player-1416-07A7BCC5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cNovalilo|r",
-			[51] = 1620141457,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffa22fc8Pixiepopp-Eonar|r",
+			[51] = 1624049516,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [38]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:8205:Player-1301-096AE5A8:1:5:4:21:4294967295:4294967295:4294967295:4294967295|h[Operation: Shieldwall]|h|r!", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"victory or death!", -- [1]
+			"Paladinone-Auchindoun", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"Paladinone-Auchindoun", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			195, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			1526, -- [11]
+			"Player-1597-0EF6489A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1620142899,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfff38bb9Paladinone-Auchindoun|r",
+			[51] = 1624049518,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [39]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:12865:Player-1301-096AE5A8:1:5:4:21:4294967295:4294967295:4294967295:4294967295|h[90 Exalted Reputations]|h|r!", -- [1]
-			"Necrophagus-Outland", -- [2]
+			";p", -- [1]
+			"Xiy-Magtheridon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"Xiy-Magtheridon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			199, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			1527, -- [11]
+			"Player-3681-06E52C04", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1620142899,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfff38bb9Xiy-Magtheridon|r",
+			[51] = 1624049523,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [40]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:7928:Player-1301-096AE5A8:1:5:4:21:4294967295:4294967295:4294967295:4294967295|h[Operation: Shieldwall Campaign]|h|r!", -- [1]
+			"<never quit", -- [1]
+			"Dárahan-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Dárahan-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1528, -- [11]
+			"Player-3686-065BF8C2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Dárahan-Antonidas|r",
+			[51] = 1624049529,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [41]
+		{
+			"xiy if you can call it out i can do drums", -- [1]
 			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -914,7 +936,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			269, -- [11]
+			1530, -- [11]
 			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -922,1261 +944,1239 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1620143643,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [41]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:6945:Player-1301-0BABAA5D:1:6:18:21:4294967295:4294967295:4294967295:4294967295|h[Mantid Swarm]|h|r!", -- [1]
-			"Waytooldmilk-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Waytooldmilk-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3, -- [11]
-			"Player-1301-0BABAA5D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Waytooldmilk|r",
-			[51] = 1624034714,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[51] = 1624049545,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [42]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:6945:Player-1301-0B08F1BB:1:6:18:21:4294967295:4294967295:4294967295:4294967295|h[Mantid Swarm]|h|r!", -- [1]
-			"Flækkefrans-Outland", -- [2]
+			"cause we dont have hero", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Flækkefrans-Outland", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4, -- [11]
-			"Player-1301-0B08F1BB", -- [12]
+			1531, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Flækkefrans|r",
-			[51] = 1624034714,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624049549,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [43]
 		{
-			"<NOVA>  Mega Sale ( Castle Nathria Only For 220k Vip Trader 110k ) /  +15  160k /  M+16 260k / M +17  370k  /  M+18  530k  / M+19 800k / +M20 1150k /  Keystone Master 1140k / [ Torghast ] /w For More Info", -- [1]
-			"Novalovely-Outland", -- [2]
+			"Excellent", -- [1]
+			"Xiy-Magtheridon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novalovely-Outland", -- [5]
+			"", -- [4]
+			"Xiy-Magtheridon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			5, -- [11]
-			"Player-1301-0BF07A9F", -- [12]
+			1532, -- [11]
+			"Player-3681-06E52C04", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Novalovely|r",
-			[51] = 1624034739,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfff38bb9Xiy-Magtheridon|r",
+			[51] = 1624049554,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [44]
 		{
-			"WTB All CSGO/Dota2/Rust/TF2/Steam Items for Classic/TBC/Retail Gold go to trade-raid.com", -- [1]
-			"Træderaid-Outland", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:6485:Player-1301-0B2A9093:1:6:18:21:4294967295:4294967295:4294967295:4294967295|h[Return to Sender]|h|r!", -- [1]
+			"Kalampoki-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Træderaid-Outland", -- [5]
-			"DND", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			"", -- [4]
+			"Kalampoki-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			9, -- [11]
-			"Player-1301-0BFFDC55", -- [12]
+			1534, -- [11]
+			"Player-1301-0B2A9093", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcTræderaid|r",
-			[51] = 1624034796,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffc59a6cKalampoki|r",
+			[51] = 1624049586,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [45]
 		{
-			"<K R A К Е N B О О S Т> offering Myth+: m15 - 160k, m18 - 480k, m20 - 700k and e.t.c. CN Heroic 10/10 - 230k. Generals- 60k, Denathrius - 50k, Both bosses - 100k! /w me", -- [1]
-			"Outnevera-Outland", -- [2]
+			"Lets go 1st. 2nd and 4th boss with drums.. ", -- [1]
+			"Xiy-Magtheridon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Outnevera-Outland", -- [5]
+			"", -- [4]
+			"Xiy-Magtheridon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			14, -- [11]
-			"Player-1301-0BFF4306", -- [12]
+			1535, -- [11]
+			"Player-3681-06E52C04", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Outnevera|r",
-			[51] = 1624034858,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfff38bb9Xiy-Magtheridon|r",
+			[51] = 1624049601,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [46]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:10691:Player-1301-0BFA3CBC:1:6:18:21:4294967295:4294967295:4294967295:4294967295|h[Fashionista: Shirt]|h|r!", -- [1]
-			"Tentontruck-Outland", -- [2]
+			"oke", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Tentontruck-Outland", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			17, -- [11]
-			"Player-1301-0BFA3CBC", -- [12]
+			1536, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cTentontruck|r",
-			[51] = 1624034913,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624049610,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [47]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:10694:Player-1301-0BFA3CBC:1:6:18:21:4294967295:4294967295:4294967295:4294967295|h[Fabulous]|h|r!", -- [1]
-			"Tentontruck-Outland", -- [2]
+			"yea amarth is the group killer", -- [1]
+			"Paladinone-Auchindoun", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Tentontruck-Outland", -- [5]
+			"Paladinone-Auchindoun", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			18, -- [11]
-			"Player-1301-0BFA3CBC", -- [12]
+			1537, -- [11]
+			"Player-1597-0EF6489A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cTentontruck|r",
-			[51] = 1624034913,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfff38bb9Paladinone-Auchindoun|r",
+			[51] = 1624049623,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [48]
 		{
-			"wts |cffa335ee|Hitem:65891::::::::54:63:::::::|h[Vial of the Sands]|h|r|cff0070dd|Hitem:87250::::::::54:63:::::::|h[Depleted-Kyparium Rocket]|h|r|cff0070dd|Hitem:1973::::::::54:63:::::::|h[Orb of Deception]|h|r all 10k cheaper than ah", -- [1]
-			"Teleportèr-Outland", -- [2]
+			"true", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Teleportèr-Outland", -- [5]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			24, -- [11]
-			"Player-1301-0BFD2131", -- [12]
+			1538, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaTeleportèr|r",
-			[51] = 1624035005,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624049643,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [49]
 		{
-			"[ Gino's Mercenaries ] Selling Mythic+ Dungeons.|| M+10 || M+12 || M+14 || M+15 || M+16 ||. Keystone Master, Castle Nathria 10/10 HC, PvP boosts. Gold only. Dm me for more infos :)", -- [1]
-			"Mæriine-Outland", -- [2]
+			"1 spear on 2nd boss and 2 spears on 3rd boss", -- [1]
+			"Xiy-Magtheridon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mæriine-Outland", -- [5]
+			"", -- [4]
+			"Xiy-Magtheridon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			25, -- [11]
-			"Player-1301-0BD67505", -- [12]
+			1539, -- [11]
+			"Player-3681-06E52C04", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaMæriine|r",
-			[51] = 1624035074,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfff38bb9Xiy-Magtheridon|r",
+			[51] = 1624049654,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [50]
 		{
-			"WTB All CSGO/Dota2/Rust/TF2/Steam Items for Classic/TBC/Retail Gold go to trade-raid.com", -- [1]
-			"Træderaid-Outland", -- [2]
+			"okie ", -- [1]
+			"Pixiepopp-Eonar", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Træderaid-Outland", -- [5]
-			"DND", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			"", -- [4]
+			"Pixiepopp-Eonar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			28, -- [11]
-			"Player-1301-0BFFDC55", -- [12]
+			1540, -- [11]
+			"Player-1416-07A7BCC5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcTræderaid|r",
-			[51] = 1624035156,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffa22fc8Pixiepopp-Eonar|r",
+			[51] = 1624049668,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [51]
 		{
-			"<K R A К Е N B О О S Т> offering Myth+: m15 - 160k, m18 - 480k, m20 - 700k and e.t.c. CN Heroic 10/10 - 230k. Generals- 60k, Denathrius - 50k, Both bosses - 100k! /w me", -- [1]
-			"Outnevera-Outland", -- [2]
+			"thx", -- [1]
+			"Dárahan-Antonidas", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Outnevera-Outland", -- [5]
+			"", -- [4]
+			"Dárahan-Antonidas", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			30, -- [11]
-			"Player-1301-0BFF4306", -- [12]
+			1543, -- [11]
+			"Player-3686-065BF8C2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Outnevera|r",
-			[51] = 1624035158,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfff38bb9Dárahan-Antonidas|r",
+			[51] = 1624049721,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [52]
 		{
-			"wts |cffa335ee|Hitem:65891::::::::54:63:::::::|h[Vial of the Sands]|h|r|cff0070dd|Hitem:87250::::::::54:63:::::::|h[Depleted-Kyparium Rocket]|h|r|cff0070dd|Hitem:1973::::::::54:63:::::::|h[Orb of Deception]|h|r each 10k cheaper than ah", -- [1]
-			"Teleportèr-Outland", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:6763:Player-1301-0B2A9093:1:6:18:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: Siege of Niuzao Temple]|h|r!", -- [1]
+			"Kalampoki-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Teleportèr-Outland", -- [5]
+			"", -- [4]
+			"Kalampoki-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			32, -- [11]
-			"Player-1301-0BFD2131", -- [12]
+			1550, -- [11]
+			"Player-1301-0B2A9093", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaTeleportèr|r",
-			[51] = 1624035185,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffc59a6cKalampoki|r",
+			[51] = 1624049760,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [53]
 		{
-			"<NOVA>  Mega Sale ( Castle Nathria Only For 220k Vip Trader 110k ) /  +15  160k /  M+16 260k / M +17  370k  /  M+18  530k  / M+19 800k / +M20 1150k /  Keystone Master 1140k / [ Torghast ] /w For More Info", -- [1]
-			"Novalovely-Outland", -- [2]
+			"that feast is surprisingly palatable", -- [1]
+			"Paladinone-Auchindoun", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novalovely-Outland", -- [5]
+			"", -- [4]
+			"Paladinone-Auchindoun", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			35, -- [11]
-			"Player-1301-0BF07A9F", -- [12]
+			1552, -- [11]
+			"Player-1597-0EF6489A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Novalovely|r",
-			[51] = 1624035204,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfff38bb9Paladinone-Auchindoun|r",
+			[51] = 1624049777,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [54]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:6402:Player-1301-0646EE6A:1:6:18:21:4294967295:4294967295:4294967295:4294967295|h[Ling-Ting's Herbal Journey]|h|r!", -- [1]
-			"Áv-Outland", -- [2]
+			"good night kala :p", -- [1]
+			"Gingii-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Áv-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			36, -- [11]
-			"Player-1301-0646EE6A", -- [12]
+			1555, -- [11]
+			"Player-1301-0B1D03D7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Áv|r",
-			[51] = 1624035210,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfff38bb9Gingii|r",
+			[51] = 1624049790,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [55]
 		{
-			"LF RBG/pvp guild that is active at 1700-2k cr", -- [1]
-			"Hauntzzer-Outland", -- [2]
+			"Necrotic - Reset Stacks", -- [1]
+			"Xiy-Magtheridon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Hauntzzer-Outland", -- [5]
+			"", -- [4]
+			"Xiy-Magtheridon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			37, -- [11]
-			"Player-1301-0A5D810E", -- [12]
+			1556, -- [11]
+			"Player-3681-06E52C04", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeHauntzzer|r",
-			[51] = 1624035214,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfff38bb9Xiy-Magtheridon|r",
+			[51] = 1624049799,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [56]
 		{
-			"WTS lvling 50-60 and Torghast (layer 1-8) for gold (Alliance-Horde)/w me for more info", -- [1]
-			"Nikollet-Outland", -- [2]
+			"Necrotic - Reset Stacks", -- [1]
+			"Xiy-Magtheridon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Nikollet-Outland", -- [5]
+			"", -- [4]
+			"Xiy-Magtheridon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			42, -- [11]
-			"Player-1301-0BFE746C", -- [12]
+			1558, -- [11]
+			"Player-3681-06E52C04", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Nikollet|r",
-			[51] = 1624035289,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfff38bb9Xiy-Magtheridon|r",
+			[51] = 1624049861,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [57]
 		{
-			"Hello", -- [1]
-			"Trimagia-Outland", -- [2]
+			"Necrotic - Reset Stacks", -- [1]
+			"Xiy-Magtheridon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Xiy-Magtheridon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			44, -- [11]
-			"Player-1301-0AD0B5F1", -- [12]
+			1560, -- [11]
+			"Player-3681-06E52C04", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaTrimagia|r",
-			[51] = 1624035315,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Xiy-Magtheridon|r",
+			[51] = 1624049908,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [58]
 		{
-			"hello", -- [1]
-			"Lychea-Outland", -- [2]
+			"Necrotic - Reset Stacks", -- [1]
+			"Xiy-Magtheridon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Xiy-Magtheridon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			45, -- [11]
-			"Player-1301-0BE033DA", -- [12]
+			1561, -- [11]
+			"Player-3681-06E52C04", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaLychea|r",
-			[51] = 1624035324,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Xiy-Magtheridon|r",
+			[51] = 1624049933,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [59]
 		{
-			"hiya", -- [1]
-			"Haylat-Outland", -- [2]
+			"Necrotic - Reset Stacks", -- [1]
+			"Xiy-Magtheridon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Xiy-Magtheridon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			46, -- [11]
-			"Player-1301-0BC5C0F1", -- [12]
+			1577, -- [11]
+			"Player-3681-06E52C04", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Haylat|r",
-			[51] = 1624035328,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Xiy-Magtheridon|r",
+			[51] = 1624050169,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [60]
 		{
-			"hi tri", -- [1]
-			"Aélynthi-Outland", -- [2]
+			"Necrotic - Reset Stacks", -- [1]
+			"Xiy-Magtheridon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Xiy-Magtheridon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			47, -- [11]
-			"Player-1301-0A4AD509", -- [12]
+			1580, -- [11]
+			"Player-3681-06E52C04", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Aélynthi|r",
-			[51] = 1624035335,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Xiy-Magtheridon|r",
+			[51] = 1624050235,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [61]
 		{
-			"Anyone up for layer 7 of twisting corridors haha?", -- [1]
-			"Trimagia-Outland", -- [2]
+			"30 sec cd", -- [1]
+			"Dárahan-Antonidas", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Dárahan-Antonidas", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			51, -- [11]
-			"Player-1301-0AD0B5F1", -- [12]
+			1583, -- [11]
+			"Player-3686-065BF8C2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaTrimagia|r",
-			[51] = 1624035346,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Dárahan-Antonidas|r",
+			[51] = 1624050290,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [62]
 		{
-			"Ill be happy once ive done em", -- [1]
-			"Trimagia-Outland", -- [2]
+			"ok", -- [1]
+			"Xiy-Magtheridon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Xiy-Magtheridon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			53, -- [11]
-			"Player-1301-0AD0B5F1", -- [12]
+			1584, -- [11]
+			"Player-3681-06E52C04", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaTrimagia|r",
-			[51] = 1624035380,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Xiy-Magtheridon|r",
+			[51] = 1624050296,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [63]
 		{
-			"there's an unmissable event that's about to start so no sorry", -- [1]
-			"Haylat-Outland", -- [2]
+			"Necrotic - Reset Stacks", -- [1]
+			"Xiy-Magtheridon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Xiy-Magtheridon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			54, -- [11]
-			"Player-1301-0BC5C0F1", -- [12]
+			1589, -- [11]
+			"Player-3681-06E52C04", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Haylat|r",
-			[51] = 1624035384,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Xiy-Magtheridon|r",
+			[51] = 1624050454,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [64]
 		{
-			"oh totally forgot", -- [1]
-			"Trimagia-Outland", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:10010:Player-1301-0B1D03D7:1:6:19:21:4294967295:4294967295:4294967295:4294967295|h[Gate of the Setting Sun]|h|r!", -- [1]
+			"Gingii-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Gingii-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			55, -- [11]
-			"Player-1301-0AD0B5F1", -- [12]
+			1593, -- [11]
+			"Player-1301-0B1D03D7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaTrimagia|r",
-			[51] = 1624035400,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Gingii|r",
+			[51] = 1624050505,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [65]
 		{
-			"Ill do that instead ", -- [1]
-			"Trimagia-Outland", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:6759:Player-1301-0B1D03D7:1:6:19:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: Gate of the Setting Sun]|h|r!", -- [1]
+			"Gingii-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Gingii-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			56, -- [11]
-			"Player-1301-0AD0B5F1", -- [12]
+			1594, -- [11]
+			"Player-1301-0B1D03D7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaTrimagia|r",
-			[51] = 1624035405,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Gingii|r",
+			[51] = 1624050505,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [66]
 		{
-			"wowwwww", -- [1]
-			"Lychea-Outland", -- [2]
+			"Necrotic - Reset Stacks", -- [1]
+			"Xiy-Magtheridon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Xiy-Magtheridon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			57, -- [11]
-			"Player-1301-0BE033DA", -- [12]
+			1596, -- [11]
+			"Player-3681-06E52C04", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaLychea|r",
-			[51] = 1624035406,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Xiy-Magtheridon|r",
+			[51] = 1624050563,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [67]
 		{
-			"pride time <3", -- [1]
-			"Ragneros-Outland", -- [2]
+			"yikes", -- [1]
+			"Paladinone-Auchindoun", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Paladinone-Auchindoun", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			58, -- [11]
-			"Player-1301-044A5707", -- [12]
+			1608, -- [11]
+			"Player-1597-0EF6489A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cRagneros|r",
-			[51] = 1624035406,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Paladinone-Auchindoun|r",
+			[51] = 1624050615,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [68]
 		{
-			"event? >.>", -- [1]
-			"Storpojké-Outland", -- [2]
+			"1 spear 2 nd boss", -- [1]
+			"Dárahan-Antonidas", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Dárahan-Antonidas", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			59, -- [11]
-			"Player-1301-0BFDA8B9", -- [12]
+			1610, -- [11]
+			"Player-3686-065BF8C2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Storpojké|r",
-			[51] = 1624035410,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Dárahan-Antonidas|r",
+			[51] = 1624050633,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [69]
 		{
-			"yea telch's pride event", -- [1]
-			"Lychea-Outland", -- [2]
+			"want me to", -- [1]
+			"Paladinone-Auchindoun", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Paladinone-Auchindoun", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			61, -- [11]
-			"Player-1301-0BE033DA", -- [12]
+			1611, -- [11]
+			"Player-1597-0EF6489A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaLychea|r",
-			[51] = 1624035421,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Paladinone-Auchindoun|r",
+			[51] = 1624050643,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [70]
 		{
-			"it would be heresy for me not to attend", -- [1]
-			"Lychea-Outland", -- [2]
+			"yes please", -- [1]
+			"Xiy-Magtheridon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Xiy-Magtheridon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			63, -- [11]
-			"Player-1301-0BE033DA", -- [12]
+			1613, -- [11]
+			"Player-3681-06E52C04", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaLychea|r",
-			[51] = 1624035439,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Xiy-Magtheridon|r",
+			[51] = 1624050656,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [71]
 		{
-			"<K R A К Е N B О О S Т> offering Myth+: m15 - 160k, m18 - 480k, m20 - 700k and e.t.c. CN Heroic 10/10 - 230k. Generals- 60k, Denathrius - 50k, Both bosses - 100k! /w me", -- [1]
-			"Outnevera-Outland", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:6517:Player-1301-0BFB75C8:1:6:19:21:4294967295:4294967295:4294967295:4294967295|h[Extinction Event]|h|r!", -- [1]
+			"Ranin-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Outnevera-Outland", -- [5]
+			"", -- [4]
+			"Ranin-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			64, -- [11]
-			"Player-1301-0BFF4306", -- [12]
+			1615, -- [11]
+			"Player-1301-0BFB75C8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Outnevera|r",
-			[51] = 1624035458,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffa22fc8Ranin|r",
+			[51] = 1624050666,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [72]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:2149:Player-1301-09D7B45F:1:6:18:21:4294967295:4294967295:4294967295:4294967295|h[Denyin' the Scion (25 player)]|h|r!", -- [1]
-			"Kruez-Outland", -- [2]
+			"drums on pull?", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kruez-Outland", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			67, -- [11]
-			"Player-1301-09D7B45F", -- [12]
+			1616, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cKruez|r",
-			[51] = 1624035477,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624050674,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [73]
 		{
-			"hey", -- [1]
-			"Amourbaby-Outland", -- [2]
+			"yup", -- [1]
+			"Xiy-Magtheridon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Xiy-Magtheridon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			68, -- [11]
-			"Player-1301-021F2077", -- [12]
+			1618, -- [11]
+			"Player-3681-06E52C04", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Amourbaby|r",
-			[51] = 1624035495,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Xiy-Magtheridon|r",
+			[51] = 1624050706,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [74]
 		{
-			"WTB All CSGO/Dota2/Rust/TF2/Steam Items for Classic/TBC/Retail Gold go to trade-raid.com", -- [1]
-			"Træderaid-Outland", -- [2]
+			"shouldnt we get pride?", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Træderaid-Outland", -- [5]
-			"DND", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			69, -- [11]
-			"Player-1301-0BFFDC55", -- [12]
+			1621, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcTræderaid|r",
-			[51] = 1624035516,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624050736,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [75]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:623:Player-1301-09D7B45F:1:6:18:21:4294967295:4294967295:4294967295:4294967295|h[The Spellweaver's Downfall (25 player)]|h|r!", -- [1]
-			"Kruez-Outland", -- [2]
+			"not yet", -- [1]
+			"Xiy-Magtheridon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kruez-Outland", -- [5]
+			"Xiy-Magtheridon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			70, -- [11]
-			"Player-1301-09D7B45F", -- [12]
+			1623, -- [11]
+			"Player-3681-06E52C04", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cKruez|r",
-			[51] = 1624035523,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfff38bb9Xiy-Magtheridon|r",
+			[51] = 1624050748,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [76]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:1870:Player-1301-09D7B45F:1:6:18:21:4294967295:4294967295:4294967295:4294967295|h[A Poke in the Eye (25 player)]|h|r!", -- [1]
-			"Kruez-Outland", -- [2]
+			"oke", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kruez-Outland", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			71, -- [11]
-			"Player-1301-09D7B45F", -- [12]
+			1624, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cKruez|r",
-			[51] = 1624035523,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624050750,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [77]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:1875:Player-1301-09D7B45F:1:6:18:21:4294967295:4294967295:4294967295:4294967295|h[You Don't Have an Eternity (25 player)]|h|r!", -- [1]
-			"Kruez-Outland", -- [2]
+			"oof", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kruez-Outland", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			72, -- [11]
-			"Player-1301-09D7B45F", -- [12]
+			1649, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cKruez|r",
-			[51] = 1624035523,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624050855,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [78]
 		{
-			"The Influenza LGBT pride event is starting in a couple minutes, everyone is welcome to attend regardless of orientation. Whisper me for an invite!", -- [1]
-			"Telchino-Outland", -- [2]
+			"Casting Redemption on Paladinone", -- [1]
+			"Xiy-Magtheridon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Xiy-Magtheridon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			78, -- [11]
-			"Player-1301-0824E18F", -- [12]
+			1650, -- [11]
+			"Player-3681-06E52C04", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaTelchino|r",
-			[51] = 1624035689,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Xiy-Magtheridon|r",
+			[51] = 1624050858,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [79]
 		{
-			"hmmmmmmmmmmmmmmmmm", -- [1]
-			"Storpojké-Outland", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:14630:Player-1301-0B23E9D8:1:6:19:21:4294967295:4294967295:4294967295:4294967295|h[Becoming a Hero]|h|r!", -- [1]
+			"Zenanda-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Zenanda-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			79, -- [11]
-			"Player-1301-0BFDA8B9", -- [12]
+			1651, -- [11]
+			"Player-1301-0B23E9D8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Storpojké|r",
-			[51] = 1624035706,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc31d39Zenanda|r",
+			[51] = 1624050861,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [80]
 		{
-			"let's go picklet", -- [1]
-			"Haylat-Outland", -- [2]
+			"ouch", -- [1]
+			"Xiy-Magtheridon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Xiy-Magtheridon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			80, -- [11]
-			"Player-1301-0BC5C0F1", -- [12]
+			1652, -- [11]
+			"Player-3681-06E52C04", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Haylat|r",
-			[51] = 1624035716,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Xiy-Magtheridon|r",
+			[51] = 1624050865,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [81]
 		{
-			"event time", -- [1]
-			"Haylat-Outland", -- [2]
+			"we gotta delete adds faster", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			81, -- [11]
-			"Player-1301-0BC5C0F1", -- [12]
+			1653, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Haylat|r",
-			[51] = 1624035722,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624050873,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [82]
 		{
-			"come on picklet", -- [1]
-			"Lychea-Outland", -- [2]
+			"Casting Redemption on Dárahan", -- [1]
+			"Xiy-Magtheridon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Xiy-Magtheridon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			82, -- [11]
-			"Player-1301-0BE033DA", -- [12]
+			1654, -- [11]
+			"Player-3681-06E52C04", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaLychea|r",
-			[51] = 1624035722,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Xiy-Magtheridon|r",
+			[51] = 1624050874,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [83]
 		{
-			"The Flat Azeroth Society [Outland] seeks believers to bolster our ranks. Our main focus is M+, but we also have a small raid team (HC 9/10). Old raids, PvP, we do it all :D ", -- [1]
-			"Praxis-Outland", -- [2]
+			"yikes", -- [1]
+			"Paladinone-Auchindoun", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Praxis-Outland", -- [5]
+			"", -- [4]
+			"Paladinone-Auchindoun", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			84, -- [11]
-			"Player-1301-0B7FEED3", -- [12]
+			1672, -- [11]
+			"Player-1597-0EF6489A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Praxis|r",
-			[51] = 1624035756,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfff38bb9Paladinone-Auchindoun|r",
+			[51] = 1624050980,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [84]
 		{
-			"<K R A К Е N B О О S Т> offering Myth+: m15 - 160k, m18 - 480k, m20 - 700k and e.t.c. CN Heroic 10/10 - 230k. Generals- 60k, Denathrius - 50k, Both bosses - 100k! /w me", -- [1]
-			"Outnevera-Outland", -- [2]
+			"that was my bad", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Outnevera-Outland", -- [5]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			85, -- [11]
-			"Player-1301-0BFF4306", -- [12]
+			1674, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Outnevera|r",
-			[51] = 1624035758,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624050984,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [85]
 		{
-			"im so tired -___-", -- [1]
-			"Storpojké-Outland", -- [2]
-			"", -- [3]
+			"so much for not leaving groups", -- [1]
+			"Paladinone-Auchindoun", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Paladinone-Auchindoun", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			86, -- [11]
-			"Player-1301-0BFDA8B9", -- [12]
+			1677, -- [11]
+			"Player-1597-0EF6489A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Storpojké|r",
-			[51] = 1624035759,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Paladinone-Auchindoun|r",
+			[51] = 1624051006,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [86]
 		{
-			"bro its 8pm", -- [1]
-			"Lychea-Outland", -- [2]
+			"well ", -- [1]
+			"Pixiepopp-Eonar", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Pixiepopp-Eonar", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			88, -- [11]
-			"Player-1301-0BE033DA", -- [12]
+			1678, -- [11]
+			"Player-1416-07A7BCC5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaLychea|r",
-			[51] = 1624035766,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffa22fc8Pixiepopp-Eonar|r",
+			[51] = 1624051006,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [87]
 		{
-			"it's a quick one tbf", -- [1]
-			"Haylat-Outland", -- [2]
+			"there goes no leaving gorups", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			89, -- [11]
-			"Player-1301-0BC5C0F1", -- [12]
+			1680, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Haylat|r",
-			[51] = 1624035769,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624051013,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [88]
 		{
-			"sleep", -- [1]
-			"Galadagast-Outland", -- [2]
+			":/", -- [1]
+			"Pixiepopp-Eonar", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Pixiepopp-Eonar", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			90, -- [11]
-			"Player-1301-0BEB51E8", -- [12]
+			1681, -- [11]
+			"Player-1416-07A7BCC5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Galadagast|r",
-			[51] = 1624035773,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffa22fc8Pixiepopp-Eonar|r",
+			[51] = 1624051027,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [89]
 		{
-			"just a lil quickie", -- [1]
-			"Lychea-Outland", -- [2]
+			"ye", -- [1]
+			"Dárahan-Antonidas", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Dárahan-Antonidas", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			91, -- [11]
-			"Player-1301-0BE033DA", -- [12]
+			1682, -- [11]
+			"Player-3686-065BF8C2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaLychea|r",
-			[51] = 1624035775,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Dárahan-Antonidas|r",
+			[51] = 1624051036,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [90]
 		{
-			"<Nova> Selling Boost  M+10=70k / M+14=100k / M+15= 160k /Keystone Master 1.14M /2 run 5%  discount or Stack armor FREE / Selling CASTLE NATHRIA Full HC 220k and per Stack Armor 110k /Curve 50k / Raid Mythic full clear /Torghast Boost /w for info", -- [1]
-			"Nbcboosterr-Outland", -- [2]
+			"ah fuck it imma do the 15 tomorrow", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Nbcboosterr-Outland", -- [5]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			92, -- [11]
-			"Player-1301-0BE4EE17", -- [12]
+			1683, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaNbcboosterr|r",
-			[51] = 1624035781,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624051039,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [91]
 		{
-			"pickles with the pOg sleep schedule", -- [1]
-			"Aélynthi-Outland", -- [2]
+			"thanks for coming guys", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			93, -- [11]
-			"Player-1301-0A4AD509", -- [12]
+			1684, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Aélynthi|r",
-			[51] = 1624035788,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624051048,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [92]
 		{
-			"we've all been there", -- [1]
-			"Haylat-Outland", -- [2]
+			"Sorry man", -- [1]
+			"Xiy-Magtheridon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Xiy-Magtheridon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			94, -- [11]
-			"Player-1301-0BC5C0F1", -- [12]
+			1686, -- [11]
+			"Player-3681-06E52C04", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Haylat|r",
-			[51] = 1624035799,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Xiy-Magtheridon|r",
+			[51] = 1624051053,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [93]
 		{
-			"WTB All CSGO/Dota2/Rust/TF2/Steam Items for Classic/TBC/Retail Gold go to trade-raid.com", -- [1]
-			"Træderaid-Outland", -- [2]
+			"thanks anyways ", -- [1]
+			"Pixiepopp-Eonar", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Træderaid-Outland", -- [5]
-			"DND", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			"", -- [4]
+			"Pixiepopp-Eonar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			96, -- [11]
-			"Player-1301-0BFFDC55", -- [12]
+			1687, -- [11]
+			"Player-1416-07A7BCC5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcTræderaid|r",
-			[51] = 1624035877,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffa22fc8Pixiepopp-Eonar|r",
+			[51] = 1624051053,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [94]
 		{
-			"<NOVA>  Mega Sale ( Castle Nathria Only For 220k Vip Trader 110k ) /  +15  160k /  M+16 260k / M +17  370k  /  M+18  530k  / M+19 800k / +M20 1150k /  Keystone Master 1140k / [ Torghast ] /w For More Info", -- [1]
-			"Novalovely-Outland", -- [2]
+			"ye sry", -- [1]
+			"Dárahan-Antonidas", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novalovely-Outland", -- [5]
+			"", -- [4]
+			"Dárahan-Antonidas", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			99, -- [11]
-			"Player-1301-0BF07A9F", -- [12]
+			1690, -- [11]
+			"Player-3686-065BF8C2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Novalovely|r",
-			[51] = 1624035977,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfff38bb9Dárahan-Antonidas|r",
+			[51] = 1624051061,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [95]
 		{
-			"<K R A К Е N B О О S Т> offering Myth+: m15 - 160k, m18 - 480k, m20 - 700k and e.t.c. CN Heroic 10/10 - 230k. Generals- 60k, Denathrius - 50k, Both bosses - 100k! /w me", -- [1]
-			"Outnevera-Outland", -- [2]
+			"cya", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Outnevera-Outland", -- [5]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			104, -- [11]
-			"Player-1301-0BFF4306", -- [12]
+			1691, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Outnevera|r",
-			[51] = 1624036058,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1624051066,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [96]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:6478:Player-1301-0B08F1BB:1:6:18:21:4294967295:4294967295:4294967295:4294967295|h[Glintrok N' Roll]|h|r!", -- [1]
-			"Flækkefrans-Outland", -- [2]
-			"", -- [3]
+			"|cffffff00|Hachievement:14460:Player-1301-096AE5A8:1:2:8:21:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Sire Denathrius]|h|r", -- [1]
+			"Misstinky-Ravencrest", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Flækkefrans-Outland", -- [5]
+			"Misstinky-Ravencrest", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			106, -- [11]
-			"Player-1301-0B08F1BB", -- [12]
+			2, -- [11]
+			"Player-1329-09ABBE32", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Flækkefrans|r",
-			[51] = 1624036098,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Misstinky-Ravencrest|r",
+			[51] = 1624054084,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [97]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:6478:Player-1301-0BABAA5D:1:6:18:21:4294967295:4294967295:4294967295:4294967295|h[Glintrok N' Roll]|h|r!", -- [1]
-			"Waytooldmilk-Outland", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:14370:Player-1301-0B37C15F:1:6:19:21:4294967295:4294967295:4294967295:4294967295|h[Halls of Atonement]|h|r!", -- [1]
+			"Redcloak-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Waytooldmilk-Outland", -- [5]
+			"Redcloak-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			107, -- [11]
-			"Player-1301-0BABAA5D", -- [12]
+			9, -- [11]
+			"Player-1301-0B37C15F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Waytooldmilk|r",
-			[51] = 1624036098,
+			[52] = "|cffc59a6cRedcloak|r",
+			[51] = 1624054361,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [98]
 		{
@@ -2190,7 +2190,7 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			117, -- [11]
+			268, -- [11]
 			"Player-1301-0BFFDC55", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -2198,7 +2198,7 @@ ElvCharacterDB = {
 			false, -- [16]
 			true, -- [17]
 			[52] = "|cff006fdcTræderaid|r",
-			[51] = 1624036237,
+			[51] = 1624054606,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},

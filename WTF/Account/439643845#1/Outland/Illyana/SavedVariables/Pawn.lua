@@ -37,9 +37,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:178819::::::::55:581::17:3:7217:6771:6652:2:28:747:9:55:::|h[Skyterror's Stonehide Leggings]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 184518,
-			["Level"] = 134,
-			["Link"] = "|cff0070dd|Hitem:184518::::::::57:577::11:1:6706:2:28:747:9:57:::|h[Boots of the Oaken Assembly]|h|r",
+			["ID"] = 127480,
+			["Level"] = 158,
+			["Link"] = "|cff0070dd|Hitem:127480::::::::60:577::22:2:7191:6652:2:9:60:28:181:::|h[Tundra Wolf Boots]|h|r",
 		}, -- [8]
 		{
 			["ID"] = 178702,
@@ -47,9 +47,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:178702::::::::58:581::17:4:7217:6771:6652:7193:2:28:747:9:58:::|h[Bands of the Undergrowth]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 178757,
-			["Level"] = 140,
-			["Link"] = "|cff0070dd|Hitem:178757::::::::58:581::17:3:7217:6771:6652:2:28:747:9:58:::|h[Gloves of Obscure Rituals]|h|r",
+			["ID"] = 127526,
+			["Level"] = 158,
+			["Link"] = "|cff0070dd|Hitem:127526::::::::60:577::22:2:7191:6652:2:9:60:28:181:::|h[Awakened Handguards]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 178781,

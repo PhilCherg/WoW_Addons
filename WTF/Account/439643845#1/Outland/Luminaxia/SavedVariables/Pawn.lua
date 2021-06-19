@@ -26,9 +26,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:84001::::::::51:258::11:1:3631:2:9:47:28:1759:::|h[Motherseed Robe]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 65792,
-			["Level"] = 40,
-			["Link"] = "|cff1eff00|Hitem:65792::::::::51:258::11:1:3631:2:9:36:28:1827:::|h[Girdle of the Rescuer]|h|r",
+			["ID"] = 146785,
+			["Level"] = 60,
+			["Link"] = "|cffa335ee|Hitem:146785::::::::51:258::26:4:1825:1472:5855:3336:1:28:331:::|h[Vileweave Sash]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 84010,
@@ -51,16 +51,16 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:88127::::::::51:258::11:1:3631:2:9:46:28:1759:::|h[Dreadspinner Handwraps]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 84060,
-			["Level"] = 49,
+			["ID"] = 134525,
+			["Level"] = 50,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff1eff00|Hitem:84060::::::::51:258::11:1:3631:2:9:44:28:1759:::|h[Band of Channeled Whispers]|h|r",
+			["Link"] = "|cffa335ee|Hitem:134525::::::::51:258::1:3:1826:1472:3528:1:28:484:::|h[Seal of the Nazjatar Empire]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 65814,
-			["Level"] = 44,
+			["ID"] = 84060,
+			["Level"] = 49,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff0070dd|Hitem:65814::::::::51:258::11:2:3631:6697:2:9:38:28:1827:::|h[Sekhemet's Seal]|h|r",
+			["Link"] = "|cff1eff00|Hitem:84060::::::::51:258::11:1:3631:2:9:44:28:1759:::|h[Band of Channeled Whispers]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 84071,

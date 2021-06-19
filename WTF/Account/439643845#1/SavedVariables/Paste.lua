@@ -88,13 +88,13 @@ PasteDB = {
 			["loaded"] = true,
 		},
 		["Necrophagus - Outland"] = {
+			["whispertarget"] = "",
+			["where"] = "Default",
 			["loaded"] = true,
+			["pos"] = {
+			},
 			["minimap"] = {
 				["minimapPos"] = 178.6279061133446,
-			},
-			["where"] = "Default",
-			["whispertarget"] = "",
-			["pos"] = {
 			},
 		},
 		["Lysanaria - Outland"] = {
@@ -135,11 +135,11 @@ PasteDB = {
 			["whispertarget"] = "",
 			["where"] = "Default",
 			["loaded"] = true,
+			["pos"] = {
+			},
 			["minimap"] = {
 				["minimapPos"] = 185.6703494819772,
 				["hide"] = true,
-			},
-			["pos"] = {
 			},
 		},
 		["Phaltraxion - Outland"] = {
@@ -185,13 +185,13 @@ PasteDB = {
 			["loaded"] = true,
 		},
 		["Illyana - Outland"] = {
-			["whispertarget"] = "",
-			["where"] = "Default",
 			["loaded"] = true,
-			["pos"] = {
-			},
 			["minimap"] = {
 				["minimapPos"] = 179.0857583389598,
+			},
+			["where"] = "Default",
+			["whispertarget"] = "",
+			["pos"] = {
 			},
 		},
 		["Aasdfasdfd - Outland"] = {

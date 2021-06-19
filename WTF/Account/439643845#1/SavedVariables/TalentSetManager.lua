@@ -147,6 +147,8 @@ TalentSetManager_CharacterSaves = {
 		["talents"] = {
 			[2] = {
 			},
+			[3] = {
+			},
 		},
 		["version"] = 0,
 		["interface"] = {
@@ -161,6 +163,8 @@ TalentSetManager_CharacterSaves = {
 		},
 		["talents"] = {
 			[2] = {
+			},
+			[3] = {
 			},
 		},
 		["version"] = 0,

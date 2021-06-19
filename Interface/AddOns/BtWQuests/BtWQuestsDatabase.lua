@@ -2150,6 +2150,22 @@ function ClassItemMixin:IsCompleted(database, item, character)
 end
 
 local FactionItemMixin = CreateFromMixins(ItemMixin);
+function FactionItemMixin:GetName(database, item, character, variation)
+    local name
+    if item.name then
+        name = ItemMixin.GetName(self, database, item, character);
+    end
+    if variation == "reward" then
+        name = name or L["FACTION_REWARD"]
+    end
+
+    local factionName = (character or BtWQuestsCharacters:GetPlayer()):GetFactionInfoByID(item.id)
+    if factionName == nil then
+        factionName = L["UNKNOWN"]
+    end
+
+    return name and format(name, factionName) or factionName
+end
 function FactionItemMixin:IsCompleted(database, item, character)
     return character:IsFaction(item.id);
 end

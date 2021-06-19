@@ -2200,37 +2200,14 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["icon"] = true,
-			["regionType"] = "icon",
-			["displayIcon"] = 1416161,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["xOffset"] = 134,
-			["cooldown"] = true,
-			["stickyDuration"] = false,
-			["uid"] = "OOWWaYqHScZ",
-			["zoom"] = 0,
-			["auto"] = true,
-			["alpha"] = 1,
-			["id"] = "Darkglare Effect",
-			["width"] = 50,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
-			["config"] = {
-			},
-			["inverse"] = false,
-			["authorOptions"] = {
-			},
-			["conditions"] = {
-			},
-			["information"] = {
-				["ignoreOptionsEventErrors"] = true,
-			},
+			["regionType"] = "icon",
+			["displayIcon"] = 1416161,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -2250,6 +2227,29 @@ WeakAurasSaved = {
 					["easeStrength"] = 3,
 					["easeType"] = "none",
 				},
+			},
+			["icon"] = true,
+			["cooldown"] = true,
+			["stickyDuration"] = false,
+			["uid"] = "OOWWaYqHScZ",
+			["zoom"] = 0,
+			["auto"] = true,
+			["alpha"] = 1,
+			["id"] = "Darkglare Effect",
+			["width"] = 50,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["cooldownTextDisabled"] = false,
+			["config"] = {
+			},
+			["inverse"] = false,
+			["xOffset"] = 134,
+			["conditions"] = {
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["authorOptions"] = {
 			},
 		},
 		["Seed Reminder"] = {
@@ -2358,6 +2358,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["icon"] = true,
+			["regionType"] = "icon",
+			["displayIcon"] = 136193,
+			["authorOptions"] = {
+			},
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -2378,15 +2383,6 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["regionType"] = "icon",
-			["displayIcon"] = 136193,
-			["icon"] = true,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
 			["cooldown"] = false,
 			["zoom"] = 0,
 			["uid"] = "(4AJOqRtF5C",
@@ -2401,14 +2397,18 @@ WeakAurasSaved = {
 			["config"] = {
 			},
 			["inverse"] = false,
-			["desaturate"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["conditions"] = {
 			},
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["desaturate"] = false,
 		},
 		["PROC"] = {
 			["iconSource"] = -1,
@@ -3879,11 +3879,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["parent"] = "Destruction WL",
+			["xOffset"] = 67,
 			["regionType"] = "icon",
 			["displayIcon"] = 136219,
-			["xOffset"] = 67,
-			["selfPoint"] = "BOTTOM",
+			["stickyDuration"] = false,
+			["parent"] = "Destruction WL",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
@@ -3900,16 +3900,16 @@ WeakAurasSaved = {
 			["zoom"] = 0,
 			["uid"] = "10T4nk648RN",
 			["inverse"] = false,
+			["selfPoint"] = "BOTTOM",
+			["conditions"] = {
+			},
+			["cooldown"] = true,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["conditions"] = {
-			},
-			["cooldown"] = true,
-			["stickyDuration"] = false,
 		},
 		["Demonfire CD"] = {
 			["iconSource"] = -1,
@@ -7241,10 +7241,6 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["parent"] = "Destruction WL",
-			["regionType"] = "icon",
-			["conditions"] = {
-			},
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -7265,7 +7261,11 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["desaturate"] = false,
+			["regionType"] = "icon",
+			["conditions"] = {
+			},
+			["icon"] = true,
+			["parent"] = "Destruction WL",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
@@ -7283,15 +7283,15 @@ WeakAurasSaved = {
 			},
 			["uid"] = "Us7WB2vj4wj",
 			["inverse"] = false,
+			["desaturate"] = false,
+			["displayIcon"] = 840407,
+			["cooldown"] = false,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["displayIcon"] = 840407,
-			["cooldown"] = false,
-			["icon"] = true,
 		},
 		["Haunt Reminder"] = {
 			["iconSource"] = -1,
@@ -8393,11 +8393,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["parent"] = "Destruction WL",
+			["xOffset"] = 134,
 			["regionType"] = "icon",
 			["displayIcon"] = 463286,
-			["xOffset"] = 134,
-			["selfPoint"] = "BOTTOM",
+			["stickyDuration"] = false,
+			["parent"] = "Destruction WL",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
@@ -8414,16 +8414,16 @@ WeakAurasSaved = {
 			["zoom"] = 0,
 			["uid"] = "kZswiObRHgh",
 			["inverse"] = false,
+			["selfPoint"] = "BOTTOM",
+			["conditions"] = {
+			},
+			["cooldown"] = true,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["conditions"] = {
-			},
-			["cooldown"] = true,
-			["stickyDuration"] = false,
 		},
 		["Eye Beam Reminder"] = {
 			["iconSource"] = -1,

@@ -12,7 +12,6 @@ MHMOTSConfig = {
 	["ShowSequenceNumbers"] = true,
 	["SavedScale"] = 1,
 	["SavedScaleLargeSymbol"] = 1,
-	["UseColoredSymbols"] = true,
 	["SavedPosition"] = {
 		"TOPLEFT", -- [1]
 		nil, -- [2]
@@ -28,31 +27,33 @@ MHMOTSConfig = {
 	},
 	["PrintResettedPlayerName"] = true,
 	["AutoToggleVisibility"] = true,
-	["AutoAnnouncerAsPartyLeader"] = true,
+	["SetMarkerOnTargetCloneUseModifier"] = true,
 	["SavedPositionLargeSymbol"] = {
 	},
 	["SetMarkerOnTargetClone"] = true,
-	["ActiveColor"] = {
-		0.4, -- [1]
-		0.52, -- [2]
-		0.95, -- [3]
-		1, -- [4]
-	},
-	["SetMarkerOnTargetCloneModifier"] = 3,
-	["AutoAnnouncer"] = true,
-	["SetMarkerOnTargetCloneUseModifier"] = true,
-	["SyncEnabled"] = true,
-	["SavedBackgroundAlphaLargeSymbol"] = 0.8,
-	["AnnounceWithEnglish"] = true,
-	["UseCloneAutoMarker"] = true,
-	["MinimapButton"] = {
-		["minimapPos"] = 197.609007190142,
-		["hide"] = false,
-	},
+	["AutoAnnouncerAsPartyLeader"] = true,
 	["SolutionColor"] = {
 		0.2, -- [1]
 		0.8, -- [2]
 		0.4, -- [3]
 		1, -- [4]
 	},
+	["SetMarkerOnTargetCloneModifier"] = 3,
+	["AutoAnnouncer"] = true,
+	["SyncEnabled"] = true,
+	["UseColoredSymbols"] = true,
+	["SavedBackgroundAlphaLargeSymbol"] = 0.8,
+	["ActiveColor"] = {
+		0.4, -- [1]
+		0.52, -- [2]
+		0.95, -- [3]
+		1, -- [4]
+	},
+	["UseCloneAutoMarker"] = true,
+	["AutoAnnouncerChannel"] = 1,
+	["MinimapButton"] = {
+		["minimapPos"] = 197.609007190142,
+		["hide"] = false,
+	},
+	["AnnounceWithEnglish"] = true,
 }

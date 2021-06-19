@@ -145,6 +145,8 @@ TalentSetManager_CharacterSaves = {
 		["talents"] = {
 			[2] = {
 			},
+			[3] = {
+			},
 		},
 		["talents_pvp"] = {
 		},
@@ -159,6 +161,8 @@ TalentSetManager_CharacterSaves = {
 	["Xanthoros-Outland"] = {
 		["talents"] = {
 			[2] = {
+			},
+			[3] = {
 			},
 		},
 		["talents_pvp"] = {

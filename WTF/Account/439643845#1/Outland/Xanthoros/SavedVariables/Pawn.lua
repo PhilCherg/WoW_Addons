@@ -1,6 +1,9 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0418,
+	["LastPlayerFullName"] = "Xanthoros-Outland",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 160907,
@@ -19,9 +22,9 @@ PawnOptions = {
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 112441,
-			["Level"] = 40,
-			["Link"] = "|cff0070dd|Hitem:112441::::::::50:103::11:1:3790:1:9:35:::|h[Slavebreaker Tunic]|h|r",
+			["ID"] = 143963,
+			["Level"] = 57,
+			["Link"] = "|cff0070dd|Hitem:143963::::::::50:104::22:2:7191:6652:2:9:50:28:181:::|h[Chestwrap of Arcing Flame]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 121323,
@@ -67,10 +70,10 @@ PawnOptions = {
 			["Link"] = "|cff00ccff|Hitem:122361::::::::50:103:::1:582::::|h[Swift Hand of Justice]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 109996,
-			["Level"] = 47,
+			["ID"] = 122361,
+			["Level"] = 58,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff0070dd|Hitem:109996::::::::50:103::2:2:4202:6652:2:9:40:28:1143:::|h[Thundertower's Targeting Reticle]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122361::::::::50:104:::1:582::::|h[Swift Hand of Justice]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 121804,
@@ -83,9 +86,6 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:163539::::::::50:103::11:::::|h[Spear of the Hunt]|h|r",
 		}, -- [16]
 	},
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Xanthoros-Outland",
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
