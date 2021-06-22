@@ -11,28 +11,6 @@ ElvCharacterDB = {
 	},
 	["ChatHistoryLog"] = {
 		{
-			"We are Selling Sire Denathrius Heroic for 100k GOLD  every 15 minutes! Get|cffffff00|Hachievement:14460:Player-1301-0B33DA18:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sire Denathrius]|h|r achievement before everyone else! Also selling M+0-15 intime || Thorgast & Castle Nathria HC available!  ", -- [1]
-			"Länäii-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Länäii-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			846, -- [11]
-			"Player-1301-0B33DA18", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaLänäii|r",
-			[51] = 1617648405,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
 			"WTS Sire Denathrius HC for **100K** every 20 minutes - /w for info!", -- [1]
 			"Adriania-Outland", -- [2]
 			"", -- [3]
@@ -53,7 +31,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaAdriania|r",
 			[51] = 1617648437,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
+		}, -- [1]
 		{
 			"<Nova> WTS Curv Last boss HC |||| 10-10 [Castle Nathria]HC=330k trader+140k || lvl boosting || M+(10-20) Share loot & Armorstack for (2-15) || M+15=225k || <KSM=1600k> || Torghast Layer (1-8)  W me for more info :D", -- [1]
 			"Novamyth-Outland", -- [2]
@@ -75,7 +53,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Novamyth|r",
 			[51] = 1617648447,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
+		}, -- [2]
 		{
 			"<RCU> [WTS] |cff66bbff|Hjournal:1:2424:16|h[Sire Denathrius]|h|r HC 100k  each 20 minutes for GOLD! Get 220 ilvl Loot and |cffffff00|Hachievement:14460:Player-1301-0BD943C8:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sire Denathrius]|h|r /w me for more info, or visit us in https://discord.gg/RCU !", -- [1]
 			"Smooklover-Outland", -- [2]
@@ -97,7 +75,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Smooklover|r",
 			[51] = 1617648447,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
+		}, -- [3]
 		{
 			"Selling |cffa335ee|Hitem:183035::::::::10:256::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Ardent Sunstar Signet]|h|r + |cffa335ee|Hitem:184778::::::::10:256::6:4:7187:6652:1498:6646:1:28:753:::|h[Decadent Nathrian Shawl]|h|r (Cheaper than AH)", -- [1]
 			"Ixyz-Outland", -- [2]
@@ -119,7 +97,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcIxyz|r",
 			[51] = 1617648473,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
+		}, -- [4]
 		{
 			"<Nova> WTS 10-10 [Castle Nathria]HC=330k & TRader+140k || Curv || M+(10-20) Shareloot & M+(10-15)+ARMORSTCK || M+10=79k || M+15=225k|| M+16=500k || M+17=730k || <KSM=1600k> || Torghast & lvl boost...W me for more :D", -- [1]
 			"Mythrissen-Outland", -- [2]
@@ -141,7 +119,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Mythrissen|r",
 			[51] = 1617648521,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
+		}, -- [5]
 		{
 			"WTS Castle Nathria HEROIC  І Start in 22.00 CEST or Server Time І  FULL RUN 10/10 І  Guild run  І  Fast And smooth  І  Get you 213+ iLvl gear TONIGHT  І  PST for info!", -- [1]
 			"Misjetta-Outland", -- [2]
@@ -163,7 +141,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Misjetta|r",
 			[51] = 1617648530,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
+		}, -- [6]
 		{
 			"The Flat Azeroth Society [Outland] seeks believers to bolster our ranks. Our main focus is M+, but we also have a small raid team (HC 9/10). Old raids, PvP, we do it all :D ", -- [1]
 			"Fogwell-Outland", -- [2]
@@ -185,7 +163,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Fogwell|r",
 			[51] = 1617648560,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
+		}, -- [7]
 		{
 			"<Nova> WTS 10-10 [Castle Nathria]HC=330k & TRader+140k || Curv || M+(10-20) Shareloot & M+(10-15)+ARMORSTCK || M+10=79k || M+15=225k|| M+16=500k || M+17=730k || <KSM=1600k> || Torghast & lvl boost...W me for more :D", -- [1]
 			"Novamyth-Outland", -- [2]
@@ -207,7 +185,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Novamyth|r",
 			[51] = 1617648567,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
+		}, -- [8]
 		{
 			"WTS SIRE DENATHRIUS HC **NOW** 100K", -- [1]
 			"Adriania-Outland", -- [2]
@@ -229,7 +207,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaAdriania|r",
 			[51] = 1617648586,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
+		}, -- [9]
 		{
 			"<Oblivion> Selling Sire Denathrius HC 100k RIGHT NOW! Also selling M+0 up to 15 - get your maximum weekly reward! We have package deals, /w me for more info", -- [1]
 			"Zunahunt-Outland", -- [2]
@@ -251,7 +229,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Zunahunt|r",
 			[51] = 1617648594,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
+		}, -- [10]
 		{
 			"<NOVA> Selling CN - Castle Nathria 10/10HC  For Only 330k PER Trader for Only 140k / ( Mythic Bosses With Discounts   || Sire 100k ||  Also Selling M + 0 - 18+ / M+10 79k / M+12 99k / M+14 129k / M+15 225k || KeystoneMaster 1600k /w For More Info !", -- [1]
 			"Dreamymonk-Outland", -- [2]
@@ -273,7 +251,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dreamymonk|r",
 			[51] = 1617648606,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
+		}, -- [11]
 		{
 			"<Nova> WTS 10-10 [Castle Nathria]HC=330k & Trader +140k || Curv || M+(10-20) Shareloot & M+(10-15)+ARMORSTCK || <KSM=1600k> || M+15=225k || M+16=500k || M+17=730k || Torghast & lvl boost ...W me for more :D", -- [1]
 			"Mythrissen-Outland", -- [2]
@@ -295,7 +273,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Mythrissen|r",
 			[51] = 1617648621,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
+		}, -- [12]
 		{
 			"WTS Castle Nathria HEROIC  І Start in 22.00 CEST or Server Time І  FULL RUN 10/10 І  Guild run  І  Fast And smooth  І  Get you 213+ iLvl gear TONIGHT  І  PST for info!", -- [1]
 			"Misjetta-Outland", -- [2]
@@ -317,7 +295,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Misjetta|r",
 			[51] = 1617648622,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
+		}, -- [13]
 		{
 			"<NBC> Offers: |cff66bbff|Hjournal:0:1190:14|h[Castle Nathria]|h|r 10/10 HC 330k, Curve 100k,  Mythic 10/10, Keystone Master 1.6m, M+12 99k, M+15 225k ( Buy 2 or more = discounts), PVP, Torghast, Gold only, accepting on all realms, /w for info", -- [1]
 			"Nbcskadi-Outland", -- [2]
@@ -339,7 +317,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeNbcskadi|r",
 			[51] = 1617648626,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
+		}, -- [14]
 		{
 			"|cffffff00Valley of Heroes is under attack!|r", -- [1]
 			"", -- [2]
@@ -361,7 +339,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1617648652,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
+		}, -- [15]
 		{
 			"<Nova> WTS 10-10 [Castle Nathria]HC=330k & Trader +140k || Curv || M+(10-20) Shareloot & M+(10-15)+ARMORSTCK || <KSM=1600k> || M+15=225k || M+16=500k || M+17=730k || Torghast & lvl boost ...W me for more :D", -- [1]
 			"Novamyth-Outland", -- [2]
@@ -383,7 +361,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Novamyth|r",
 			[51] = 1617648663,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
+		}, -- [16]
 		{
 			"<Nova> Selling Boost  M+10=79k / M+14=129k / M+15= 225k /Keystone Master 1.6M /2 run 5%  discount or Stack armor FREE / Selling CASTLE NATHRIA Full HC 330k and per Stack Armor 140k /Curve 100k / Raid Mythic full clear /Torghast Boost /w for info", -- [1]
 			"Nbcboosterr-Outland", -- [2]
@@ -405,7 +383,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaNbcboosterr|r",
 			[51] = 1617648665,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
+		}, -- [17]
 		{
 			"Selling |cffa335ee|Hitem:183035::::::::10:256::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Ardent Sunstar Signet]|h|r + |cffa335ee|Hitem:184778::::::::10:256::6:4:7187:6652:1498:6646:1:28:753:::|h[Decadent Nathrian Shawl]|h|r (Cheaper than AH)", -- [1]
 			"Ixyz-Outland", -- [2]
@@ -427,7 +405,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcIxyz|r",
 			[51] = 1617648677,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
+		}, -- [18]
 		{
 			"<Nova> WTS Curv Last boss HC |||| 10-10 [Castle Nathria]HC=330k trader+140k || lvl boosting || M+(10-20) Share loot & Armorstack for (2-15) || M+15=225k || <KSM=1600k> || Torghast Layer (1-8)  W me for more info :D", -- [1]
 			"Mythrissen-Outland", -- [2]
@@ -449,7 +427,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Mythrissen|r",
 			[51] = 1617648720,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
+		}, -- [19]
 		{
 			"<RCU> [WTS] |cff66bbff|Hjournal:1:2424:16|h[Sire Denathrius]|h|r HC 100k  each 20 minutes for GOLD! Get 220 ilvl Loot and |cffffff00|Hachievement:14460:Player-1301-0BD943C8:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sire Denathrius]|h|r /w me for more info, or visit us in https://discord.gg/RCU !", -- [1]
 			"Smooklover-Outland", -- [2]
@@ -471,7 +449,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Smooklover|r",
 			[51] = 1617648734,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
+		}, -- [20]
 		{
 			"<Nova> WTS Curv Last boss HC |||| 10-10 [Castle Nathria]HC=330k trader+140k || lvl boosting || M+(10-20) Share loot & Armorstack for (2-15) || M+15=225k || <KSM=1600k> || Torghast Layer (1-8)  W me for more info :D", -- [1]
 			"Novamyth-Outland", -- [2]
@@ -493,7 +471,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Novamyth|r",
 			[51] = 1617648766,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
+		}, -- [21]
 		{
 			"WTS Castle Nathria HEROIC  І Start in 22.00 CEST or Server Time І  FULL RUN 10/10 І  Guild run  І  Fast And smooth  І  Get you 213+ iLvl gear TONIGHT  І  PST for info!", -- [1]
 			"Misjetta-Outland", -- [2]
@@ -515,7 +493,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Misjetta|r",
 			[51] = 1617648773,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
+		}, -- [22]
 		{
 			"|cffffff00Stormwind Embassy is under attack!|r", -- [1]
 			"", -- [2]
@@ -537,7 +515,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1617648819,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
+		}, -- [23]
 		{
 			"<NOVA> Selling CN - Castle Nathria 10/10HC  For Only 330k PER Trader for Only 140k / ( Mythic Bosses With Discounts   || Sire 100k ||  Also Selling M + 0 - 18+ / M+10 79k / M+12 99k / M+14 129k / M+15 225k || KeystoneMaster 1600k /w For More Info !", -- [1]
 			"Dreamymonk-Outland", -- [2]
@@ -559,7 +537,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dreamymonk|r",
 			[51] = 1617648836,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
+		}, -- [24]
 		{
 			"<Nova> WTS 10-10 [Castle Nathria]HC=330k & TRader+140k || Curv || M+(10-20) Shareloot & M+(10-15)+ARMORSTCK || M+10=79k || M+15=225k|| M+16=500k || M+17=730k || <KSM=1600k> || Torghast & lvl boost...W me for more :D", -- [1]
 			"Mythrissen-Outland", -- [2]
@@ -581,7 +559,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Mythrissen|r",
 			[51] = 1617648840,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
+		}, -- [25]
 		{
 			"Selling |cffa335ee|Hitem:183035::::::::10:256::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Ardent Sunstar Signet]|h|r + |cffa335ee|Hitem:184778::::::::10:256::6:4:7187:6652:1498:6646:1:28:753:::|h[Decadent Nathrian Shawl]|h|r (Cheaper than AH)", -- [1]
 			"Ixyz-Outland", -- [2]
@@ -603,7 +581,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcIxyz|r",
 			[51] = 1617648846,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
+		}, -- [26]
 		{
 			"|cffffff00Dwarven District is under attack!|r", -- [1]
 			"", -- [2]
@@ -625,7 +603,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1617648871,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
+		}, -- [27]
 		{
 			"<VOOR DE BOYS> is a newly created guild looking for more people to push high m+ keys and to clear heroic CN! are you tired of pugging? /w me for inv", -- [1]
 			"Monicageuze-Outland", -- [2]
@@ -647,7 +625,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Monicageuze|r",
 			[51] = 1617648875,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
+		}, -- [28]
 		{
 			"<RCU> [WTS] |cff66bbff|Hjournal:1:2424:16|h[Sire Denathrius]|h|r HC 100k  each 20 minutes for GOLD! Get 220 ilvl Loot and |cffffff00|Hachievement:14460:Player-1301-0BD943C8:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sire Denathrius]|h|r /w me for more info, or visit us in https://discord.gg/RCU !", -- [1]
 			"Smooklover-Outland", -- [2]
@@ -669,7 +647,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Smooklover|r",
 			[51] = 1617648882,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
+		}, -- [29]
 		{
 			"<Spirit Link> is a fresh community that aims to connect high-end PvE and PvP players in order to boost one another and help achieve personal goals together for free. Join us, grow, and reap the benefits of having a strong friend group instantly", -- [1]
 			"Realrankone-Outland", -- [2]
@@ -691,7 +669,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Realrankone|r",
 			[51] = 1617648883,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
+		}, -- [30]
 		{
 			"<Nova> WTS 10-10 [Castle Nathria]HC=330k & TRader+140k || Curv || M+(10-20) Shareloot & M+(10-15)+ARMORSTCK || M+10=79k || M+15=225k|| M+16=500k || M+17=730k || <KSM=1600k> || Torghast & lvl boost...W me for more :D", -- [1]
 			"Novamyth-Outland", -- [2]
@@ -713,7 +691,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Novamyth|r",
 			[51] = 1617648886,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
+		}, -- [31]
 		{
 			"|cffffff00Stormwind City is under attack!|r", -- [1]
 			"", -- [2]
@@ -735,7 +713,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1617648904,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
+		}, -- [32]
 		{
 			"|cffffff00Stormwind Embassy is under attack!|r", -- [1]
 			"", -- [2]
@@ -757,7 +735,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1617648910,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
+		}, -- [33]
 		{
 			"|cffffff00Dwarven District is under attack!|r", -- [1]
 			"", -- [2]
@@ -779,7 +757,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1617648932,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
+		}, -- [34]
 		{
 			"WTS Castle Nathria HEROIC  І Start in 22.00 CEST or Server Time І  FULL RUN 10/10 І  Guild run  І  Fast And smooth  І  Get you 213+ iLvl gear TONIGHT  І  PST for info!", -- [1]
 			"Misjetta-Outland", -- [2]
@@ -801,7 +779,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Misjetta|r",
 			[51] = 1617648935,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
+		}, -- [35]
 		{
 			"<Nova> WTS 10-10 [Castle Nathria]HC=330k & Trader +140k || Curv || M+(10-20) Shareloot & M+(10-15)+ARMORSTCK || <KSM=1600k> || M+15=225k || M+16=500k || M+17=730k || Torghast & lvl boost ...W me for more :D", -- [1]
 			"Mythrissen-Outland", -- [2]
@@ -823,7 +801,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Mythrissen|r",
 			[51] = 1617648940,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
+		}, -- [36]
 		{
 			"Selling |cffa335ee|Hitem:183035::::::::10:256::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Ardent Sunstar Signet]|h|r + |cffa335ee|Hitem:184778::::::::10:256::6:4:7187:6652:1498:6646:1:28:753:::|h[Decadent Nathrian Shawl]|h|r (Cheaper than AH)", -- [1]
 			"Ixyz-Outland", -- [2]
@@ -845,7 +823,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcIxyz|r",
 			[51] = 1617648963,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
+		}, -- [37]
 		{
 			"<Nova> WTS 10-10 [Castle Nathria]HC=330k & Trader +140k || Curv || M+(10-20) Shareloot & M+(10-15)+ARMORSTCK || <KSM=1600k> || M+15=225k || M+16=500k || M+17=730k || Torghast & lvl boost ...W me for more :D", -- [1]
 			"Novamyth-Outland", -- [2]
@@ -867,7 +845,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Novamyth|r",
 			[51] = 1617648983,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
+		}, -- [38]
 		{
 			"<RCU> [WTS] |cff66bbff|Hjournal:1:2424:16|h[Sire Denathrius]|h|r HC 100k  each 20 minutes for GOLD! Get 220 ilvl Loot and |cffffff00|Hachievement:14460:Player-1301-0BD943C8:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sire Denathrius]|h|r /w me for more info, or visit us in https://discord.gg/RCU !", -- [1]
 			"Smooklover-Outland", -- [2]
@@ -889,7 +867,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Smooklover|r",
 			[51] = 1617649003,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
+		}, -- [39]
 		{
 			"We are Selling Sire Denathrius Heroic for 100k GOLD  every 15 minutes! Get|cffffff00|Hachievement:14460:Player-1301-0B33DA18:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sire Denathrius]|h|r achievement before everyone else! Also selling M+0-15 intime || Thorgast & Castle Nathria HC available!  ", -- [1]
 			"Länäii-Outland", -- [2]
@@ -911,7 +889,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaLänäii|r",
 			[51] = 1617649015,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
+		}, -- [40]
 		{
 			"<Nova> WTS Curv Last boss HC |||| 10-10 [Castle Nathria]HC=330k trader+140k || lvl boosting || M+(10-20) Share loot & Armorstack for (2-15) || M+15=225k || <KSM=1600k> || Torghast Layer (1-8)  W me for more info :D", -- [1]
 			"Mythrissen-Outland", -- [2]
@@ -933,7 +911,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Mythrissen|r",
 			[51] = 1617649039,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
+		}, -- [41]
 		{
 			"|cffffff00Dwarven District is under attack!|r", -- [1]
 			"", -- [2]
@@ -955,7 +933,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1617649084,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
+		}, -- [42]
 		{
 			"<Nova> WTS Curv Last boss HC |||| 10-10 [Castle Nathria]HC=330k trader+140k || lvl boosting || M+(10-20) Share loot & Armorstack for (2-15) || M+15=225k || <KSM=1600k> || Torghast Layer (1-8)  W me for more info :D", -- [1]
 			"Novamyth-Outland", -- [2]
@@ -977,7 +955,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Novamyth|r",
 			[51] = 1617649086,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
+		}, -- [43]
 		{
 			"<Nova> Selling Boost  M+10=79k / M+14=129k / M+15= 225k /Keystone Master 1.6M /2 run 5%  discount or Stack armor FREE / Selling CASTLE NATHRIA Full HC 330k and per Stack Armor 140k /Curve 100k / Raid Mythic full clear /Torghast Boost /w for info", -- [1]
 			"Nbcboosterr-Outland", -- [2]
@@ -999,7 +977,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaNbcboosterr|r",
 			[51] = 1617649100,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [44]
 		{
 			"WTS Castle Nathria HEROIC  І Start in 22.00 CEST or Server Time І  FULL RUN 10/10 І  Guild run  І  Fast And smooth  І  Get you 213+ iLvl gear TONIGHT  І  PST for info!", -- [1]
 			"Misjetta-Outland", -- [2]
@@ -1021,7 +999,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Misjetta|r",
 			[51] = 1617649111,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
+		}, -- [45]
 		{
 			"<RCU> [WTS] |cff66bbff|Hjournal:1:2424:16|h[Sire Denathrius]|h|r HC 100k  each 20 minutes for GOLD! Get 220 ilvl Loot and |cffffff00|Hachievement:14460:Player-1301-0BD943C8:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sire Denathrius]|h|r /w me for more info, or visit us in https://discord.gg/RCU !", -- [1]
 			"Smooklover-Outland", -- [2]
@@ -1043,7 +1021,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Smooklover|r",
 			[51] = 1617649117,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
+		}, -- [46]
 		{
 			"<NOVA> Selling CN - Castle Nathria 10/10HC  For Only 330k PER Trader for Only 140k / ( Mythic Bosses With Discounts   || Sire 100k ||  Also Selling M + 0 - 18+ / M+10 79k / M+12 99k / M+14 129k / M+15 225k || KeystoneMaster 1600k /w For More Info !", -- [1]
 			"Dreamymonk-Outland", -- [2]
@@ -1065,7 +1043,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dreamymonk|r",
 			[51] = 1617649135,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [47]
 		{
 			"Selling |cffa335ee|Hitem:183035::::::::10:256::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Ardent Sunstar Signet]|h|r + |cffa335ee|Hitem:184778::::::::10:256::6:4:7187:6652:1498:6646:1:28:753:::|h[Decadent Nathrian Shawl]|h|r (Cheaper than AH)", -- [1]
 			"Ixyz-Outland", -- [2]
@@ -1087,7 +1065,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcIxyz|r",
 			[51] = 1617649147,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+		}, -- [48]
 		{
 			"|cffffff00Dwarven District is under attack!|r", -- [1]
 			"", -- [2]
@@ -1109,7 +1087,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1617649149,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
+		}, -- [49]
 		{
 			"<Nova> WTS 10-10 [Castle Nathria]HC=330k & TRader+140k || Curv || M+(10-20) Shareloot & M+(10-15)+ARMORSTCK || M+10=79k || M+15=225k|| M+16=500k || M+17=730k || <KSM=1600k> || Torghast & lvl boost...W me for more :D", -- [1]
 			"Mythrissen-Outland", -- [2]
@@ -1131,7 +1109,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Mythrissen|r",
 			[51] = 1617649160,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
+		}, -- [50]
 		{
 			"<Nova> WTS 10-10 [Castle Nathria]HC=330k & TRader+140k || Curv || M+(10-20) Shareloot & M+(10-15)+ARMORSTCK || M+10=79k || M+15=225k|| M+16=500k || M+17=730k || <KSM=1600k> || Torghast & lvl boost...W me for more :D", -- [1]
 			"Novamyth-Outland", -- [2]
@@ -1153,7 +1131,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Novamyth|r",
 			[51] = 1617645605,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [51]
 		{
 			"|cffffff00Dwarven District is under attack!|r", -- [1]
 			"", -- [2]
@@ -1175,7 +1153,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1617649215,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [52]
 		{
 			"<RCU> [WTS] |cff66bbff|Hjournal:1:2424:16|h[Sire Denathrius]|h|r HC 100k  each 20 minutes for GOLD! Get 220 ilvl Loot and |cffffff00|Hachievement:14460:Player-1301-0BD943C8:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sire Denathrius]|h|r /w me for more info, or visit us in https://discord.gg/RCU !", -- [1]
 			"Smooklover-Outland", -- [2]
@@ -1197,7 +1175,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Smooklover|r",
 			[51] = 1617649227,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [53]
 		{
 			"<Oblivion> Selling Sire Denathrius HC 100k RIGHT NOW! Also selling M+0 up to 15 - get your maximum weekly reward! We have package deals, /w me for more info", -- [1]
 			"Zunahunt-Outland", -- [2]
@@ -1219,7 +1197,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Zunahunt|r",
 			[51] = 1617649245,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [54]
 		{
 			"<Nova> WTS 10-10 [Castle Nathria]HC=330k & Trader +140k || Curv || M+(10-20) Shareloot & M+(10-15)+ARMORSTCK || <KSM=1600k> || M+15=225k || M+16=500k || M+17=730k || Torghast & lvl boost ...W me for more :D", -- [1]
 			"Mythrissen-Outland", -- [2]
@@ -1241,7 +1219,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Mythrissen|r",
 			[51] = 1617649259,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
+		}, -- [55]
 		{
 			"Selling |cffa335ee|Hitem:183035::::::::10:256::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Ardent Sunstar Signet]|h|r + |cffa335ee|Hitem:184778::::::::10:256::6:4:7187:6652:1498:6646:1:28:753:::|h[Decadent Nathrian Shawl]|h|r (Cheaper than AH)", -- [1]
 			"Ixyz-Outland", -- [2]
@@ -1263,7 +1241,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcIxyz|r",
 			[51] = 1617649265,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
+		}, -- [56]
 		{
 			"<Nova> WTS 10-10 [Castle Nathria]HC=330k & Trader +140k || Curv || M+(10-20) Shareloot & M+(10-15)+ARMORSTCK || <KSM=1600k> || M+15=225k || M+16=500k || M+17=730k || Torghast & lvl boost ...W me for more :D", -- [1]
 			"Novamyth-Outland", -- [2]
@@ -1285,7 +1263,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Novamyth|r",
 			[51] = 1617649302,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [57]
 		{
 			"<Nova> WTS Curv Last boss HC |||| 10-10 [Castle Nathria]HC=330k trader+140k || lvl boosting || M+(10-20) Share loot & Armorstack for (2-15) || M+15=225k || <KSM=1600k> || Torghast Layer (1-8)  W me for more info :D", -- [1]
 			"Mythrissen-Outland", -- [2]
@@ -1307,7 +1285,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Mythrissen|r",
 			[51] = 1617649358,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [58]
 		{
 			"|cffffff00Old Town is under attack!|r", -- [1]
 			"", -- [2]
@@ -1329,7 +1307,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1617649377,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [59]
 		{
 			"<RCU> [WTS] |cff66bbff|Hjournal:1:2424:16|h[Sire Denathrius]|h|r HC 100k  each 20 minutes for GOLD! Get 220 ilvl Loot and |cffffff00|Hachievement:14460:Player-1301-0BD943C8:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sire Denathrius]|h|r /w me for more info, or visit us in https://discord.gg/RCU !", -- [1]
 			"Smooklover-Outland", -- [2]
@@ -1351,7 +1329,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Smooklover|r",
 			[51] = 1617649386,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [60]
 		{
 			"<Nova> WTS Curv Last boss HC |||| 10-10 [Castle Nathria]HC=330k trader+140k || lvl boosting || M+(10-20) Share loot & Armorstack for (2-15) || M+15=225k || <KSM=1600k> || Torghast Layer (1-8)  W me for more info :D", -- [1]
 			"Novamyth-Outland", -- [2]
@@ -1373,7 +1351,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Novamyth|r",
 			[51] = 1617649405,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [61]
 		{
 			"<Spirit Link> is a fresh community that aims to connect high-end PvE and PvP players in order to boost one another and help achieve personal goals together for free. Join us, grow, and reap the benefits of having a strong friend group instantly", -- [1]
 			"Realrankone-Outland", -- [2]
@@ -1395,7 +1373,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Realrankone|r",
 			[51] = 1617649405,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [62]
 		{
 			"<NOVA> Selling CN - Castle Nathria 10/10HC  For Only 330k PER Trader for Only 140k / ( Mythic Bosses With Discounts   || Sire 100k ||  Also Selling M + 0 - 18+ / M+10 79k / M+12 99k / M+14 129k / M+15 225k || KeystoneMaster 1600k /w For More Info !", -- [1]
 			"Dreamymonk-Outland", -- [2]
@@ -1417,7 +1395,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dreamymonk|r",
 			[51] = 1617649419,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [63]
 		{
 			"WTS |cffa335ee|Hitem:90655::::::::60:104:::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r cheaper than ah", -- [1]
 			"Notsep-Outland", -- [2]
@@ -1439,7 +1417,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Notsep|r",
 			[51] = 1617649462,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [64]
 		{
 			"<Nova> WTS 10-10 [Castle Nathria]HC=330k & TRader+140k || Curv || M+(10-20) Shareloot & M+(10-15)+ARMORSTCK || M+10=79k || M+15=225k|| M+16=500k || M+17=730k || <KSM=1600k> || Torghast & lvl boost...W me for more :D", -- [1]
 			"Mythrissen-Outland", -- [2]
@@ -1461,7 +1439,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Mythrissen|r",
 			[51] = 1617649479,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [65]
 		{
 			"<Oblivion> Selling Sire Denathrius HC 100k RIGHT NOW! Also selling M+0 up to 15 - get your maximum weekly reward! We have package deals, /w me for more info", -- [1]
 			"Zunahunt-Outland", -- [2]
@@ -1483,7 +1461,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Zunahunt|r",
 			[51] = 1617649486,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [66]
 		{
 			"<Nova> WTS 10-10 [Castle Nathria]HC=330k & TRader+140k || Curv || M+(10-20) Shareloot & M+(10-15)+ARMORSTCK || M+10=79k || M+15=225k|| M+16=500k || M+17=730k || <KSM=1600k> || Torghast & lvl boost...W me for more :D", -- [1]
 			"Novamyth-Outland", -- [2]
@@ -1505,7 +1483,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Novamyth|r",
 			[51] = 1617649525,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [67]
 		{
 			"<Nova> Selling Boost  M+10=79k / M+14=129k / M+15= 225k /Keystone Master 1.6M /2 run 5%  discount or Stack armor FREE / Selling CASTLE NATHRIA Full HC 330k and per Stack Armor 140k /Curve 100k / Raid Mythic full clear /Torghast Boost /w for info", -- [1]
 			"Exoservices-Outland", -- [2]
@@ -1527,7 +1505,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaExoservices|r",
 			[51] = 1617649546,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [68]
 		{
 			"<RCU> [WTS] |cff66bbff|Hjournal:1:2424:16|h[Sire Denathrius]|h|r HC 100k  each 20 minutes for GOLD! Get 220 ilvl Loot and |cffffff00|Hachievement:14460:Player-1301-0BD943C8:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sire Denathrius]|h|r /w me for more info, or visit us in https://discord.gg/RCU !", -- [1]
 			"Smooklover-Outland", -- [2]
@@ -1549,7 +1527,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Smooklover|r",
 			[51] = 1617649551,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [69]
 		{
 			"WTS |cffa335ee|Hitem:90655::::::::60:104:::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r cheaper than AH", -- [1]
 			"Notsep-Outland", -- [2]
@@ -1571,7 +1549,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Notsep|r",
 			[51] = 1617649564,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [70]
 		{
 			"<Nova> WTS 10-10 [Castle Nathria]HC=330k & Trader +140k || Curv || M+(10-20) Shareloot & M+(10-15)+ARMORSTCK || <KSM=1600k> || M+15=225k || M+16=500k || M+17=730k || Torghast & lvl boost ...W me for more :D", -- [1]
 			"Mythrissen-Outland", -- [2]
@@ -1593,7 +1571,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Mythrissen|r",
 			[51] = 1617649579,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [71]
 		{
 			"<Nova> WTS 10-10 [Castle Nathria]HC=330k & Trader +140k || Curv || M+(10-20) Shareloot & M+(10-15)+ARMORSTCK || <KSM=1600k> || M+15=225k || M+16=500k || M+17=730k || Torghast & lvl boost ...W me for more :D", -- [1]
 			"Novamyth-Outland", -- [2]
@@ -1615,7 +1593,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Novamyth|r",
 			[51] = 1617649621,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [72]
 		{
 			"<NOVA> Selling CN - Castle Nathria 10/10HC  For Only 330k PER Trader for Only 140k / ( Mythic Bosses With Discounts   || Sire 100k ||  Also Selling M + 0 - 18+ / M+10 79k / M+12 99k / M+14 129k / M+15 225k || KeystoneMaster 1600k /w For More Info !", -- [1]
 			"Dreamymonk-Outland", -- [2]
@@ -1637,7 +1615,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dreamymonk|r",
 			[51] = 1617649672,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [73]
 		{
 			"We are Selling Sire Denathrius Heroic for 100k GOLD  every 15 minutes! Get|cffffff00|Hachievement:14460:Player-1301-0B33DA18:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sire Denathrius]|h|r achievement before everyone else! Also selling M+0-15 intime || Thorgast & Castle Nathria HC available!  ", -- [1]
 			"Länäii-Outland", -- [2]
@@ -1659,7 +1637,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaLänäii|r",
 			[51] = 1617649681,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [74]
 		{
 			"<RCU> [WTS] |cff66bbff|Hjournal:1:2424:16|h[Sire Denathrius]|h|r HC 100k  each 20 minutes for GOLD! Get 220 ilvl Loot and |cffffff00|Hachievement:14460:Player-1301-0BD943C8:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sire Denathrius]|h|r /w me for more info, or visit us in https://discord.gg/RCU !", -- [1]
 			"Smooklover-Outland", -- [2]
@@ -1681,7 +1659,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Smooklover|r",
 			[51] = 1617649722,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [75]
 		{
 			"<Nova> WTS Curv Last boss HC |||| 10-10 [Castle Nathria]HC=330k trader+140k || lvl boosting || M+(10-20) Share loot & Armorstack for (2-15) || M+15=225k || <KSM=1600k> || Torghast Layer (1-8)  W me for more info :D", -- [1]
 			"Novamyth-Outland", -- [2]
@@ -1703,7 +1681,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Novamyth|r",
 			[51] = 1617649724,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [76]
 		{
 			"<< RCU >> HOT DEALS: Selling M+ Keys, Castle Nathria NM/HC/MM, |cffffff00|Hachievement:14532:Player-1597-0D7E9F0F:1:1:22:21:4294967295:4294967295:4294967295:4294967295|h[Shadowlands Keystone Master: Season One]|h|r, etc. -- /w me for info!", -- [1]
 			"Adriania-Outland", -- [2]
@@ -1725,7 +1703,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaAdriania|r",
 			[51] = 1617649741,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [77]
 		{
 			"Boosting to 1400/1600 cheap. Healer or dps. Im 2.7 exp and SL Elite. Gold only /w me", -- [1]
 			"Dogshift-Outland", -- [2]
@@ -1747,7 +1725,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Dogshift|r",
 			[51] = 1617649850,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [78]
 		{
 			"|cffffd100|HclubFinder:ClubFinder-1-196941-1301-48391459|h[Guild: Unused Icon]|h|r are recruiting! We are 6/10M and looking for Healers and DPS for our main raid team Wed/Sun 8pm - 12:30am ST. We welcome socials, have a HC raid night, run M+ and PvP.", -- [1]
 			"Wohoonature-Outland", -- [2]
@@ -1769,7 +1747,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Wohoonature|r",
 			[51] = 1618224429,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [79]
 		{
 			"<NOVA> Selling CN - Castle Nathria 10/10HC  For Only 330k PER Trader for Only 140k / ( Mythic Bosses With Discounts   ||Sire HC 100k ||  Also Selling M + 0 - 18+ / M+10 79k / M+12 99k / M+14 125k / M+15 220k || KeystoneMaster 1585k /w For More Info!", -- [1]
 			"Dreamymonk-Outland", -- [2]
@@ -1791,7 +1769,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dreamymonk|r",
 			[51] = 1618227157,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [80]
 		{
 			"<Nova> WTS 10-10 [Castle Nathria]HC=330k & Trader +140k || Curv || M+(10-20) Shareloot & M+(10-15)+ARMORSTCK || <KSM=1585k> || M+15=225k || M+16=500k || M+17=730k || Torghast & lvl boost ...W me for more :D", -- [1]
 			"Mythrissen-Outland", -- [2]
@@ -1813,7 +1791,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Mythrissen|r",
 			[51] = 1618227191,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [81]
 		{
 			"<Oblivion>CURVE CURVE CURVE - get |cffffff00|Hachievement:14460:Player-1301-0BED3933:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sire Denathrius]|h|rinsanely easy SALE 100k starting 14:00 every 20min  WSP NOW", -- [1]
 			"Crucy-Outland", -- [2]
@@ -1835,7 +1813,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cCrucy|r",
 			[51] = 1618227211,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [82]
 		{
 			"WTS|cffa335ee|Hitem:183035::::::::60:264::6:5:7187:41:6935:1498:6646:1:28:753:::|h[Ardent Sunstar Signet]|h|r LEECH+SOCKET CHEAP", -- [1]
 			"Haffet-Outland", -- [2]
@@ -1857,7 +1835,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcHaffet|r",
 			[51] = 1618227235,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [83]
 		{
 			"<NBC> WTS +10=79K] weekly +14 only 113k M14=125K] <M15 ONLY 220K> -keystonemaster- <10/10HC CN 330k> - curve ONLY 100K  -PVP - Torghast  - wating your whisp for info! <always check nova advertiser!> ONLY GOLD", -- [1]
 			"Missnova-Outland", -- [2]
@@ -1879,7 +1857,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaMissnova|r",
 			[51] = 1618227237,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [84]
 		{
 			"WTS |cffa335ee|Hitem:183013::::::::60:71::6:4:7187:6652:1498:6646:1:28:753:::|h[Fallen Templar's Gauntlets]|h|r cheaper than ah", -- [1]
 			"Awësomë-Outland", -- [2]
@@ -1901,7 +1879,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAwësomë|r",
 			[51] = 1618228235,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [85]
 		{
 			"<NBC> WTS +10=79K] weekly +14 only 113k M14=125K] <M15 ONLY 220K> -keystonemaster- <10/10HC CN 330k> - curve ONLY 100K  -PVP - Torghast  - wating your whisp for info! <always check nova advertiser!> ONLY GOLD", -- [1]
 			"Missnova-Outland", -- [2]
@@ -1923,7 +1901,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaMissnova|r",
 			[51] = 1618228249,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [86]
 		{
 			"<NOVA> Selling CN - Castle Nathria 10/10HC  For Only 330k PER Trader for Only 140k / ( Mythic Bosses With Discounts   ||Sire HC 100k ||  Also Selling M + 0 - 18+ / M+10 79k / M+12 99k / M+14 125k / M+15 220k || KeystoneMaster 1585k /w For More Info!", -- [1]
 			"Dreamymonk-Outland", -- [2]
@@ -1945,7 +1923,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dreamymonk|r",
 			[51] = 1618228275,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [87]
 		{
 			"<Oblivion>  Selling Sire Denathrius Heroic now! Receive |cffffff00|Hachievement:14460:Player-1301-0B33DA18:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sire Denathrius]|h|r for only 100k and the chance to get 220+ Items, Legendaries and Conduits!  ", -- [1]
 			"Länäii-Outland", -- [2]
@@ -1967,7 +1945,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaLänäii|r",
 			[51] = 1618228277,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [88]
 		{
 			"<<NBC>> (Special Offer) WTS Keystone Master (All Dungs 15 Intime): 1585k.CASTLE NATHRIA HC Full Clear: 330k!!  (Limited Spots)/ Offering Mythic Keystone10+: 79k , M+14: 113k / ||Torghast Boost available|| / Only Gold.Wis Me For More Info!!", -- [1]
 			"Novanini-Outland", -- [2]
@@ -1989,7 +1967,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novanini|r",
 			[51] = 1618228533,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [89]
 		{
 			"<NBC> WTS +10=79K] weekly +14 only 113k M14=125K] <M15 ONLY 220K> -keystonemaster- <10/10HC CN 330k> - curve ONLY 100K  -PVP - Torghast  - wating your whisp for info! <always check nova advertiser!> ONLY GOLD", -- [1]
 			"Missnova-Outland", -- [2]
@@ -2011,7 +1989,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaMissnova|r",
 			[51] = 1618228555,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [90]
 		{
 			"makes some strange gestures.", -- [1]
 			"Anapolon-Ragnaros", -- [2]
@@ -2033,7 +2011,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAnapolon-Ragnaros|r",
 			[51] = 1618228618,
 			[50] = "CHAT_MSG_EMOTE",
-		}, -- [92]
+		}, -- [91]
 		{
 			"makes some strange gestures.", -- [1]
 			"Anapolon-Ragnaros", -- [2]
@@ -2055,7 +2033,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAnapolon-Ragnaros|r",
 			[51] = 1618228618,
 			[50] = "CHAT_MSG_EMOTE",
-		}, -- [93]
+		}, -- [92]
 		{
 			"WTS |cff0070dd|Hbattlepet:241:1:3:158:11:11:0000000000000000:30157|h[Tuskarr Kite]|h|r cheaper than AH /w me", -- [1]
 			"Pridéfullx-Outland", -- [2]
@@ -2077,7 +2055,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Pridéfullx|r",
 			[51] = 1618228734,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [93]
 		{
 			"WTS HC Denathrius = 90k => Come And Get Your |cffffff00|Hachievement:14460:Player-1301-0BED3933:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sire Denathrius]|h|r!   /w me to book <3", -- [1]
 			"Genjishimada-Outland", -- [2]
@@ -2099,7 +2077,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Genjishimada|r",
 			[51] = 1618228762,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [94]
 		{
 			"|cffffd100|HclubFinder:ClubFinder-1-196941-1301-48391459|h[Guild: Unused Icon]|h|r are recruiting! We are 6/10M and looking for Healers and DPS for our main raid team Wed/Sun 8pm - 12:30am ST. We welcome socials, have a HC raid night, run M+ and PvP.", -- [1]
 			"Wohoonature-Outland", -- [2]
@@ -2121,7 +2099,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Wohoonature|r",
 			[51] = 1618228966,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [95]
 		{
 			"<NBC> WTS +10=79K] weekly +14 only 113k M14=125K] <M15 ONLY 220K> -keystonemaster- <10/10HC CN 330k> - curve ONLY 100K  -PVP - Torghast  - wating your whisp for info! <always check nova advertiser!> ONLY GOLD", -- [1]
 			"Missnova-Outland", -- [2]
@@ -2143,7 +2121,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaMissnova|r",
 			[51] = 1618228972,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [96]
 		{
 			"WTS |cffa335ee|Hitem:183013::::::::60:71::6:4:7187:6652:1498:6646:1:28:753:::|h[Fallen Templar's Gauntlets]|h|r cheaper than ah", -- [1]
 			"Awësomë-Outland", -- [2]
@@ -2165,7 +2143,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAwësomë|r",
 			[51] = 1618229269,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [97]
 		{
 			"[ Gino's Mercenaries ] Selling Mythic+ Dungeons.|| M+10 || M+12 || M+14 || M+15 || M+16 ||. Keystone Master, Castle Nathria 10/10 HC, PvP boosts. Gold only. Dm me for more infos :)", -- [1]
 			"Mæriine-Outland", -- [2]
@@ -2187,6 +2165,28 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaMæriine|r",
 			[51] = 1618229278,
 			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"Squeeze on Barbaxius", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3495, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1624230095,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [99]
 	},
 }

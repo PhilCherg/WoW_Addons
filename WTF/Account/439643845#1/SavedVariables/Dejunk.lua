@@ -6,6 +6,9 @@ __DEJUNK_SAVED_VARIABLES__ = {
 		["version"] = 1,
 	},
 	["Profiles"] = {
+		["Phaltraxion-Outland"] = {
+			["version"] = 3,
+		},
 		["Illyana-Outland"] = {
 			["sell"] = {
 				["auto"] = true,
@@ -16,9 +19,6 @@ __DEJUNK_SAVED_VARIABLES__ = {
 			},
 			["version"] = 3,
 		},
-		["Luminaxia-Outland"] = {
-			["version"] = 3,
-		},
 		["Barbaxius-Outland"] = {
 			["version"] = 3,
 		},
@@ -26,6 +26,21 @@ __DEJUNK_SAVED_VARIABLES__ = {
 			["version"] = 3,
 		},
 		["Necrophagus-Outland"] = {
+			["version"] = 3,
+		},
+		["Destruxia-Outland"] = {
+			["version"] = 3,
+		},
+		["Shadroxia-Outland"] = {
+			["version"] = 3,
+		},
+		["Luminaxia-Outland"] = {
+			["version"] = 3,
+		},
+		["Phelanara-Outland"] = {
+			["version"] = 3,
+		},
+		["Serthaxion-Outland"] = {
 			["version"] = 3,
 		},
 	},

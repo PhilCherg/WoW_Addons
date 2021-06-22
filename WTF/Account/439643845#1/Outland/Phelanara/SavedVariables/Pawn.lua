@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0418,
+	["LastVersion"] = 2.052,
 	["LastPlayerFullName"] = "Phelanara-Outland",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {

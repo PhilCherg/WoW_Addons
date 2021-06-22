@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0418,
+	["LastVersion"] = 2.052,
 	["LastPlayerFullName"] = "Destruxia-Outland",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {

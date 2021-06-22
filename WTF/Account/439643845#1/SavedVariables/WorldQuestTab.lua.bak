@@ -82,20 +82,6 @@ BWQDB = {
 					["sortBy"] = 6,
 				},
 				["filters"] = {
-					[3] = {
-						["flags"] = {
-							["Conduits"] = false,
-							["Honor"] = false,
-							["Item"] = false,
-							["Currency"] = false,
-							["Experience"] = false,
-							["Gold"] = false,
-							["Armor"] = false,
-							["Relic"] = false,
-							["Artifact"] = false,
-							["None"] = false,
-						},
-					},
 				},
 			},
 		},

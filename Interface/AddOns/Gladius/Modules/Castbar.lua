@@ -17,6 +17,8 @@ local GetTime = GetTime
 local UnitCastingInfo = UnitCastingInfo
 local UnitChannelInfo = UnitChannelInfo
 
+local IsClassic = WOW_PROJECT_ID >= WOW_PROJECT_CLASSIC
+
 local CastBar = Gladius:NewModule("CastBar", true, true, {
 	castBarAttachTo = "ClassIcon",
 	castBarDetached = false,
@@ -58,8 +60,10 @@ function CastBar:OnEnable()
 	self:RegisterEvent("UNIT_SPELLCAST_CHANNEL_START")
 	self:RegisterEvent("UNIT_SPELLCAST_CHANNEL_UPDATE", "UNIT_SPELLCAST_DELAYED")
 	self:RegisterEvent("UNIT_SPELLCAST_CHANNEL_STOP", "UNIT_SPELLCAST_STOP")
-	self:RegisterEvent("UNIT_SPELLCAST_INTERRUPTIBLE")
-	self:RegisterEvent("UNIT_SPELLCAST_NOT_INTERRUPTIBLE")
+	if not IsClassic then
+		self:RegisterEvent("UNIT_SPELLCAST_INTERRUPTIBLE")
+		self:RegisterEvent("UNIT_SPELLCAST_NOT_INTERRUPTIBLE")
+	end
 	LSM = Gladius.LSM
 	-- set frame type
 	--[[if (Gladius.db.castBarAttachTo == "Frame" or Gladius:GetModule(Gladius.db.castBarAttachTo).isBar) then

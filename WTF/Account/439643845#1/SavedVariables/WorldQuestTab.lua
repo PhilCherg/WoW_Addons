@@ -82,20 +82,6 @@ BWQDB = {
 				["pin"] = {
 				},
 				["filters"] = {
-					[3] = {
-						["flags"] = {
-							["Conduits"] = false,
-							["Honor"] = false,
-							["Experience"] = false,
-							["Currency"] = false,
-							["Item"] = false,
-							["Gold"] = false,
-							["Armor"] = false,
-							["Relic"] = false,
-							["Artifact"] = false,
-							["None"] = false,
-						},
-					},
 				},
 			},
 		},

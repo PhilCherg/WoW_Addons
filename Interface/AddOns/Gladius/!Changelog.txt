@@ -1,5 +1,13 @@
+**7.0.7**
+* BCC class fixes.
+* Fixed error in Dispel module while in rated BG.
+
+**7.0.6**
+* Initial update for BCC.
+
 **7.0.5**
 * Update for 9.0.5.
+* Added racials module.
 
 **7.0.4**
 * Fix error.

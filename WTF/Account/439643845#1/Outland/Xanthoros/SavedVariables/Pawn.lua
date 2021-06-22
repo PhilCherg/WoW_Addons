@@ -1,9 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0418,
-	["LastPlayerFullName"] = "Xanthoros-Outland",
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
+	["LastVersion"] = 2.052,
 	["ItemLevels"] = {
 		{
 			["ID"] = 160907,
@@ -86,6 +83,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:163539::::::::50:103::11:::::|h[Spear of the Hunt]|h|r",
 		}, -- [16]
 	},
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Xanthoros-Outland",
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {

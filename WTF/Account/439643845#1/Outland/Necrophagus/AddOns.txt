@@ -68,7 +68,7 @@ HandyNotes_LongForgottenHippogryph: disabled
 HandyNotes_Mailboxes: disabled
 HandyNotes_PetDailies: disabled
 HandyNotes_SpecialNPCsEtc: disabled
-HandyNotes_SummerFestival: disabled
+HandyNotes_SummerFestival: enabled
 HandyNotes_SuramarLeylines: disabled
 HandyNotes_SuramarLocations: disabled
 HandyNotes_SuramarTelemancy: disabled

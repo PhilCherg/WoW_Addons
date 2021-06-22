@@ -6,9 +6,9 @@ PawnOptions = {
 	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
-			["ID"] = 183021,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:183021::::::::60:267::5:5:7188:6652:7193:1485:6646:1:28:752:::|h[Confidant's Favored Cap]|h|r",
+			["ID"] = 178732,
+			["Level"] = 220,
+			["Link"] = "|cffa335ee|Hitem:178732::::::::60:267::33:6:7359:6652:7194:7352:1534:6646:1:28:1279:::|h[Abominable Visage]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 178827,
@@ -27,9 +27,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178354::::::::60:267::14:3:6631:1479:6646:1:28:807:::|h[Sinful Gladiator's Silk Vestments]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 183028,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:183028::::::::60:267::5:5:7188:6652:6935:1485:6646:1:28:752:::|h[Cinch of Infinite Tightness]|h|r",
+			["ID"] = 178804,
+			["Level"] = 220,
+			["Link"] = "|cffa335ee|Hitem:178804::::::::60:267::16:6:7359:6652:7193:7373:1534:6646:1:28:1279:::|h[Fallen Empress's Cord]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 173246,

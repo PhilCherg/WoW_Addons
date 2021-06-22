@@ -3,7 +3,7 @@ Frame: AllTheThings-Window-CurrentInstance
 FrameLevel: 1
 Anchor: BOTTOMLEFT
 X: 0
-Y: 222
+Y: 223
 W: 410
 H: 175
 Frame: MonkeySpeedFrame
@@ -44,8 +44,8 @@ H: 240
 Frame: AllTheThings-Window-Prime
 FrameLevel: 1
 Anchor: CENTER
-X: -132
-Y: 154
+X: 171
+Y: 152
 W: 425
 H: 305
 Frame: AllTheThings-Window-Unsorted
@@ -160,3 +160,9 @@ X: 230
 Y: 194
 W: 306
 H: 225
+Frame: AllTheThings-Window-ATT > Holiday > Midsummer Fire Festival > Bosses > Ahune > |cff1eff00|Hitem:149753::::::::60:267::::FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 300
+H: 300

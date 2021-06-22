@@ -1,4 +1,4 @@
-﻿local Gladius = _G.Gladius
+local Gladius = _G.Gladius
 if not Gladius then
 	DEFAULT_CHAT_FRAME:AddMessage(format("Module %s requires Gladius", "Racial"))
 end
@@ -653,8 +653,8 @@ function Racial:GetOptions()
 							type = "range",
 							name = L["Racial Offset X"],
 							desc = L["X offset of the Racial"],
-							min = - 100,
-							max = 100,
+							min = - 350,
+							max = 350,
 							step = 1,
 							disabled = function()
 								return not Gladius.dbi.profile.modules[self.name]

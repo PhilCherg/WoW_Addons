@@ -1,13 +1,13 @@
 
 FarmHudDB = {
-	["background_alpha"] = 0,
+	["tracking^136456"] = "client",
 	["coords_color"] = {
 		1, -- [1]
 		0.82, -- [2]
 		0, -- [3]
 		0.7, -- [4]
 	},
-	["holdKeyForMouseOn"] = "_none",
+	["background_alpha"] = 0,
 	["cardinalpoints_color2"] = {
 		1, -- [1]
 		0.82, -- [2]
@@ -18,9 +18,9 @@ FarmHudDB = {
 	["tracking^1598183"] = "client",
 	["time_server"] = true,
 	["tracking^136465"] = "client",
-	["buttons_radius"] = 0.455,
-	["tracking^132328"] = "client",
 	["coords_radius"] = 0.455,
+	["tracking^132328"] = "client",
+	["buttons_radius"] = 0.455,
 	["tracking^136464"] = "client",
 	["cardinalpoints_color1"] = {
 		1, -- [1]
@@ -31,11 +31,11 @@ FarmHudDB = {
 	["tracking^535616"] = "client",
 	["tracking^136458"] = "client",
 	["hud_scale"] = 1.5,
-	["buttons_alpha"] = 0.5,
+	["tracking^1064187"] = "client",
 	["tracking^136457"] = "client",
 	["QuestArrowInfoMsg"] = false,
 	["tracking^136463"] = "client",
-	["buttons_bottom"] = true,
+	["hud_size"] = 1,
 	["tracking^3852099"] = "client",
 	["gathercircle_color"] = {
 		0, -- [1]
@@ -45,7 +45,7 @@ FarmHudDB = {
 	},
 	["tracking^1863940"] = "client",
 	["rotation"] = true,
-	["SuperTrackedQuest"] = true,
+	["buttons_bottom"] = true,
 	["tracking^136025"] = "client",
 	["tracking^4025144"] = "client",
 	["tracking^524051"] = "client",
@@ -63,25 +63,20 @@ FarmHudDB = {
 		0.7, -- [4]
 	},
 	["buttons_show"] = true,
-	["showDummyBg"] = false,
+	["tracking^136466"] = "client",
 	["coords_show"] = true,
 	["tracking^457292"] = "client",
 	["showDummy"] = true,
-	["coords_bottom"] = false,
-	["tracking^136466"] = "client",
-	["player_dot"] = "blizz",
+	["tracking^136454"] = "client",
+	["showDummyBg"] = false,
+	["tracking^535615"] = "client",
 	["tracking^136453"] = "client",
-	["time_color"] = {
-		1, -- [1]
-		0.82, -- [2]
-		0, -- [3]
-		0.7, -- [4]
-	},
+	["tracking^133939"] = "client",
 	["tracking^613074"] = "client",
 	["cardinalpoints_radius"] = 0.5,
 	["tracking^524052"] = "client",
+	["gathercircle_show"] = true,
 	["tracking^133888"] = "client",
-	["buttons_buttom"] = false,
 	["time_bottom"] = false,
 	["tracking^237607"] = "client",
 	["MinimapIcon"] = {
@@ -90,17 +85,22 @@ FarmHudDB = {
 		["hide"] = false,
 	},
 	["text_scale"] = 1.5,
-	["gathercircle_show"] = true,
+	["buttons_buttom"] = false,
 	["time_show"] = false,
-	["tracking^133939"] = "client",
-	["tracking^535615"] = "client",
-	["tracking^136454"] = "client",
+	["time_color"] = {
+		1, -- [1]
+		0.82, -- [2]
+		0, -- [3]
+		0.7, -- [4]
+	},
+	["player_dot"] = "blizz",
+	["coords_bottom"] = false,
 	["healcircle_show"] = false,
 	["time_radius"] = 0.48,
-	["hud_size"] = 1,
-	["tracking^1064187"] = "client",
+	["buttons_alpha"] = 0.5,
+	["SuperTrackedQuest"] = true,
 	["tracking^1061057"] = "client",
 	["time_local"] = true,
 	["tracking^136452"] = "client",
-	["tracking^136456"] = "client",
+	["holdKeyForMouseOn"] = "_none",
 }

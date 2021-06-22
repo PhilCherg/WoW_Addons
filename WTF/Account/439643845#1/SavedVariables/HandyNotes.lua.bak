@@ -3,10 +3,10 @@ HandyNotesDB = {
 	["profileKeys"] = {
 		["Barbaxius - Outland"] = "Barbaxius - Outland",
 		["Adsfasdfasdf - Outland"] = "Adsfasdfasdf - Outland",
-		["Moneyeight - Outland"] = "Moneyeight - Outland",
+		["Moneynine - Outland"] = "Moneynine - Outland",
 		["Moneysix - Outland"] = "Moneysix - Outland",
 		["Phelanara - Outland"] = "Phelanara - Outland",
-		["Moneynine - Outland"] = "Moneynine - Outland",
+		["Xanthoros - Outland"] = "Xanthoros - Outland",
 		["Phaltraxion - Outland"] = "Phaltraxion - Outland",
 		["Moneymakerii - Outland"] = "Moneymakerii - Outland",
 		["Lianxia - Draenor"] = "Lianxia - Draenor",
@@ -14,12 +14,12 @@ HandyNotesDB = {
 		["Asdfsadfsadf - Outland"] = "Asdfsadfsadf - Outland",
 		["Phaladinus - Outland"] = "Phaladinus - Outland",
 		["Shadroxia - Outland"] = "Shadroxia - Outland",
-		["Necrophagus - Outland"] = "Necrophagus - Outland",
+		["Necropharia - Outland"] = "Necropharia - Outland",
 		["Asdawdwd - Outland"] = "Asdawdwd - Outland",
 		["Moneymakeri - Outland"] = "Moneymakeri - Outland",
 		["Bankeristor - Outland"] = "Bankeristor - Outland",
-		["Necropharia - Outland"] = "Necropharia - Outland",
-		["Moneyfive - Outland"] = "Moneyfive - Outland",
+		["Necrophagus - Outland"] = "Necrophagus - Outland",
+		["Asdsaasdf - Outland"] = "Asdsaasdf - Outland",
 		["Asdqaweqwd - Outland"] = "Asdqaweqwd - Outland",
 		["Presentone - Outland"] = "Presentone - Outland",
 		["Aasdfasdfd - Outland"] = "Aasdfasdfd - Outland",
@@ -27,11 +27,11 @@ HandyNotesDB = {
 		["Moneyseven - Outland"] = "Moneyseven - Outland",
 		["Illyana - Outland"] = "Illyana - Outland",
 		["Destruxia - Outland"] = "Destruxia - Outland",
-		["Asdsaasdf - Outland"] = "Asdsaasdf - Outland",
+		["Moneyfive - Outland"] = "Moneyfive - Outland",
 		["Moneyfour - Outland"] = "Moneyfour - Outland",
 		["Serthaxion - Outland"] = "Serthaxion - Outland",
 		["Luminaxia - Outland"] = "Luminaxia - Outland",
-		["Xanthoros - Outland"] = "Xanthoros - Outland",
+		["Moneyeight - Outland"] = "Moneyeight - Outland",
 		["Elementior - Outland"] = "Elementior - Outland",
 	},
 	["profiles"] = {
@@ -39,13 +39,13 @@ HandyNotesDB = {
 		},
 		["Adsfasdfasdf - Outland"] = {
 		},
-		["Moneyeight - Outland"] = {
+		["Moneynine - Outland"] = {
 		},
 		["Moneysix - Outland"] = {
 		},
 		["Phelanara - Outland"] = {
 		},
-		["Moneynine - Outland"] = {
+		["Xanthoros - Outland"] = {
 		},
 		["Phaltraxion - Outland"] = {
 		},
@@ -61,7 +61,7 @@ HandyNotesDB = {
 		},
 		["Shadroxia - Outland"] = {
 		},
-		["Necrophagus - Outland"] = {
+		["Necropharia - Outland"] = {
 		},
 		["Asdawdwd - Outland"] = {
 		},
@@ -69,9 +69,9 @@ HandyNotesDB = {
 		},
 		["Bankeristor - Outland"] = {
 		},
-		["Necropharia - Outland"] = {
+		["Necrophagus - Outland"] = {
 		},
-		["Moneyfive - Outland"] = {
+		["Asdsaasdf - Outland"] = {
 		},
 		["Asdqaweqwd - Outland"] = {
 		},
@@ -87,7 +87,7 @@ HandyNotesDB = {
 		},
 		["Destruxia - Outland"] = {
 		},
-		["Asdsaasdf - Outland"] = {
+		["Moneyfive - Outland"] = {
 		},
 		["Moneyfour - Outland"] = {
 		},
@@ -95,7 +95,7 @@ HandyNotesDB = {
 		},
 		["Luminaxia - Outland"] = {
 		},
-		["Xanthoros - Outland"] = {
+		["Moneyeight - Outland"] = {
 		},
 		["Elementior - Outland"] = {
 		},
@@ -105,10 +105,10 @@ HandyNotes_HandyNotesDB = {
 	["profileKeys"] = {
 		["Barbaxius - Outland"] = "Barbaxius - Outland",
 		["Adsfasdfasdf - Outland"] = "Adsfasdfasdf - Outland",
-		["Moneyeight - Outland"] = "Moneyeight - Outland",
+		["Moneynine - Outland"] = "Moneynine - Outland",
 		["Moneysix - Outland"] = "Moneysix - Outland",
 		["Phelanara - Outland"] = "Phelanara - Outland",
-		["Moneynine - Outland"] = "Moneynine - Outland",
+		["Xanthoros - Outland"] = "Xanthoros - Outland",
 		["Phaltraxion - Outland"] = "Phaltraxion - Outland",
 		["Moneymakerii - Outland"] = "Moneymakerii - Outland",
 		["Lianxia - Draenor"] = "Lianxia - Draenor",
@@ -116,12 +116,12 @@ HandyNotes_HandyNotesDB = {
 		["Asdfsadfsadf - Outland"] = "Asdfsadfsadf - Outland",
 		["Phaladinus - Outland"] = "Phaladinus - Outland",
 		["Shadroxia - Outland"] = "Shadroxia - Outland",
-		["Necrophagus - Outland"] = "Necrophagus - Outland",
+		["Necropharia - Outland"] = "Necropharia - Outland",
 		["Asdawdwd - Outland"] = "Asdawdwd - Outland",
 		["Moneymakeri - Outland"] = "Moneymakeri - Outland",
 		["Bankeristor - Outland"] = "Bankeristor - Outland",
-		["Necropharia - Outland"] = "Necropharia - Outland",
-		["Moneyfive - Outland"] = "Moneyfive - Outland",
+		["Necrophagus - Outland"] = "Necrophagus - Outland",
+		["Asdsaasdf - Outland"] = "Asdsaasdf - Outland",
 		["Asdqaweqwd - Outland"] = "Asdqaweqwd - Outland",
 		["Presentone - Outland"] = "Presentone - Outland",
 		["Aasdfasdfd - Outland"] = "Aasdfasdfd - Outland",
@@ -129,11 +129,11 @@ HandyNotes_HandyNotesDB = {
 		["Moneyseven - Outland"] = "Moneyseven - Outland",
 		["Illyana - Outland"] = "Illyana - Outland",
 		["Destruxia - Outland"] = "Destruxia - Outland",
-		["Asdsaasdf - Outland"] = "Asdsaasdf - Outland",
+		["Moneyfive - Outland"] = "Moneyfive - Outland",
 		["Moneyfour - Outland"] = "Moneyfour - Outland",
 		["Serthaxion - Outland"] = "Serthaxion - Outland",
 		["Luminaxia - Outland"] = "Luminaxia - Outland",
-		["Xanthoros - Outland"] = "Xanthoros - Outland",
+		["Moneyeight - Outland"] = "Moneyeight - Outland",
 		["Elementior - Outland"] = "Elementior - Outland",
 	},
 	["profiles"] = {
@@ -141,13 +141,13 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Adsfasdfasdf - Outland"] = {
 		},
-		["Moneyeight - Outland"] = {
+		["Moneynine - Outland"] = {
 		},
 		["Moneysix - Outland"] = {
 		},
 		["Phelanara - Outland"] = {
 		},
-		["Moneynine - Outland"] = {
+		["Xanthoros - Outland"] = {
 		},
 		["Phaltraxion - Outland"] = {
 		},
@@ -163,7 +163,7 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Shadroxia - Outland"] = {
 		},
-		["Necrophagus - Outland"] = {
+		["Necropharia - Outland"] = {
 		},
 		["Asdawdwd - Outland"] = {
 		},
@@ -171,9 +171,9 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Bankeristor - Outland"] = {
 		},
-		["Necropharia - Outland"] = {
+		["Necrophagus - Outland"] = {
 		},
-		["Moneyfive - Outland"] = {
+		["Asdsaasdf - Outland"] = {
 		},
 		["Asdqaweqwd - Outland"] = {
 		},
@@ -189,7 +189,7 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Destruxia - Outland"] = {
 		},
-		["Asdsaasdf - Outland"] = {
+		["Moneyfive - Outland"] = {
 		},
 		["Moneyfour - Outland"] = {
 		},
@@ -197,7 +197,7 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Luminaxia - Outland"] = {
 		},
-		["Xanthoros - Outland"] = {
+		["Moneyeight - Outland"] = {
 		},
 		["Elementior - Outland"] = {
 		},

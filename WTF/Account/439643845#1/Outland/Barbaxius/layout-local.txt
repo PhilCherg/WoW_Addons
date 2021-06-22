@@ -1,4 +1,11 @@
 Version: 1
+Frame: DYNT
+FrameLevel: 1
+Anchor: TOPRIGHT
+X: -298
+Y: -88
+W: 380
+H: 200
 Frame: AllTheThings-Window-CurrentInstance
 FrameLevel: 1
 Anchor: BOTTOMLEFT
@@ -118,13 +125,6 @@ X: 6
 Y: -6
 W: 800
 H: 496
-Frame: DYNT
-FrameLevel: 1
-Anchor: TOPRIGHT
-X: -298
-Y: -88
-W: 380
-H: 200
 Frame: scanner_button
 FrameLevel: 200
 Anchor: RIGHT

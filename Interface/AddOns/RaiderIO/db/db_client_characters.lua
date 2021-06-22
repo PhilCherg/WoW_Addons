@@ -1,5 +1,5 @@
 --
--- RaiderIO Client Data. Generated on 2021-06-19T22:15:45Z
+-- RaiderIO Client Data. Generated on 2021-06-21T19:39:55Z
 --
 local _, ns = ...
 ns.CLIENT_CHARACTERS = {
@@ -13,7 +13,7 @@ ns.CLIENT_CHARACTERS = {
     },
     ["mythic_keystone"] = {
       ["all"] = {
-        ["score"] = 1271,
+        ["score"] = 1347.7,
         ["best"] = {
           ["zone_id"] = 13228,
           ["level"] = 16,
@@ -42,26 +42,26 @@ ns.CLIENT_CHARACTERS = {
           [3] = {
             ["zone_id"] = 12841,
             ["level"] = 15,
-            ["upgrades"] = 0,
-            ["fraction"] = 1.07,
-            ["score"] = 142.31455267413048,
-            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/35111752-15-theater-of-pain?utm_source=client"
+            ["upgrades"] = 2,
+            ["fraction"] = 0.776,
+            ["score"] = 166.45648718481218,
+            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/35263750-15-theater-of-pain?utm_source=client"
           },
           [4] = {
             ["zone_id"] = 12842,
-            ["level"] = 15,
-            ["upgrades"] = 0,
-            ["fraction"] = 1.089,
-            ["score"] = 141.25480908342476,
-            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/34932466-15-sanguine-depths?utm_source=client"
+            ["level"] = 16,
+            ["upgrades"] = 1,
+            ["fraction"] = 0.849,
+            ["score"] = 179.40213572533744,
+            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/35251743-16-sanguine-depths?utm_source=client"
           },
           [5] = {
             ["zone_id"] = 12916,
             ["level"] = 15,
             ["upgrades"] = 1,
-            ["fraction"] = 0.835,
-            ["score"] = 163.2763905000693,
-            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/34989887-15-the-necrotic-wake?utm_source=client"
+            ["fraction"] = 0.813,
+            ["score"] = 163.58247558198082,
+            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/35203210-15-the-necrotic-wake?utm_source=client"
           },
           [6] = {
             ["zone_id"] = 13228,
@@ -81,11 +81,11 @@ ns.CLIENT_CHARACTERS = {
           },
           [8] = {
             ["zone_id"] = 13334,
-            ["level"] = 14,
+            ["level"] = 15,
             ["upgrades"] = 2,
-            ["fraction"] = 0.704,
-            ["score"] = 152.22906488483198,
-            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/34940087-14-mists-of-tirna-scithe?utm_source=client"
+            ["fraction"] = 0.781,
+            ["score"] = 166.3752038820583,
+            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/35198533-15-mists-of-tirna-scithe?utm_source=client"
           }
         }
       }
