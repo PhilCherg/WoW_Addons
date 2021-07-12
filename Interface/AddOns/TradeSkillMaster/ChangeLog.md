@@ -1,6 +1,6 @@
-## v4.10.43 Changes
+## v4.11.7 Changes
 
-* [BCC] Destroying will ignore items below required skill level
-* [BCC] Disenchanting material data fixes
+* [Retail] Fixed restocking for the new legendary ranks
+* [Retail] Fixed multiple result crafting task crafts
 
 [Known Issues](http://support.tradeskillmaster.com/display/KB/TSM4+Currently+Known+Issues)

@@ -1,1709 +1,6 @@
 
 ElvCharacterDB = {
-	["ChatEditHistory"] = {
-		"/way 33.6 57.8", -- [1]
-		"/s :D", -- [2]
-		"/s thanks cheeers :D", -- [3]
-		"/played", -- [4]
-		"/way 54 63", -- [5]
-		"/who", -- [6]
-		"/tired", -- [7]
-	},
 	["ChatHistoryLog"] = {
-		{
-			"WTS Sire Denathrius HC for **100K** every 20 minutes - /w for info!", -- [1]
-			"Adriania-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Adriania-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			874, -- [11]
-			"Player-1301-0B3906E2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaAdriania|r",
-			[51] = 1617648437,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"<Nova> WTS Curv Last boss HC |||| 10-10 [Castle Nathria]HC=330k trader+140k || lvl boosting || M+(10-20) Share loot & Armorstack for (2-15) || M+15=225k || <KSM=1600k> || Torghast Layer (1-8)  W me for more info :D", -- [1]
-			"Novamyth-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novamyth-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			881, -- [11]
-			"Player-1301-0BEE195C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Novamyth|r",
-			[51] = 1617648447,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"<RCU> [WTS] |cff66bbff|Hjournal:1:2424:16|h[Sire Denathrius]|h|r HC 100k  each 20 minutes for GOLD! Get 220 ilvl Loot and |cffffff00|Hachievement:14460:Player-1301-0BD943C8:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sire Denathrius]|h|r /w me for more info, or visit us in https://discord.gg/RCU !", -- [1]
-			"Smooklover-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Smooklover-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			882, -- [11]
-			"Player-1301-0BD943C8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Smooklover|r",
-			[51] = 1617648447,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"Selling |cffa335ee|Hitem:183035::::::::10:256::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Ardent Sunstar Signet]|h|r + |cffa335ee|Hitem:184778::::::::10:256::6:4:7187:6652:1498:6646:1:28:753:::|h[Decadent Nathrian Shawl]|h|r (Cheaper than AH)", -- [1]
-			"Ixyz-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ixyz-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			912, -- [11]
-			"Player-1301-0BE98A40", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcIxyz|r",
-			[51] = 1617648473,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"<Nova> WTS 10-10 [Castle Nathria]HC=330k & TRader+140k || Curv || M+(10-20) Shareloot & M+(10-15)+ARMORSTCK || M+10=79k || M+15=225k|| M+16=500k || M+17=730k || <KSM=1600k> || Torghast & lvl boost...W me for more :D", -- [1]
-			"Mythrissen-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mythrissen-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			961, -- [11]
-			"Player-1301-0BE56653", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Mythrissen|r",
-			[51] = 1617648521,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
-		{
-			"WTS Castle Nathria HEROIC  І Start in 22.00 CEST or Server Time І  FULL RUN 10/10 І  Guild run  І  Fast And smooth  І  Get you 213+ iLvl gear TONIGHT  І  PST for info!", -- [1]
-			"Misjetta-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Misjetta-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			972, -- [11]
-			"Player-1301-0A6F2A2E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Misjetta|r",
-			[51] = 1617648530,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
-		{
-			"The Flat Azeroth Society [Outland] seeks believers to bolster our ranks. Our main focus is M+, but we also have a small raid team (HC 9/10). Old raids, PvP, we do it all :D ", -- [1]
-			"Fogwell-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Fogwell-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1002, -- [11]
-			"Player-1301-0B0C6D39", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Fogwell|r",
-			[51] = 1617648560,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
-		{
-			"<Nova> WTS 10-10 [Castle Nathria]HC=330k & TRader+140k || Curv || M+(10-20) Shareloot & M+(10-15)+ARMORSTCK || M+10=79k || M+15=225k|| M+16=500k || M+17=730k || <KSM=1600k> || Torghast & lvl boost...W me for more :D", -- [1]
-			"Novamyth-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novamyth-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1009, -- [11]
-			"Player-1301-0BEE195C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Novamyth|r",
-			[51] = 1617648567,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
-		{
-			"WTS SIRE DENATHRIUS HC **NOW** 100K", -- [1]
-			"Adriania-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Adriania-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1028, -- [11]
-			"Player-1301-0B3906E2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaAdriania|r",
-			[51] = 1617648586,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
-		{
-			"<Oblivion> Selling Sire Denathrius HC 100k RIGHT NOW! Also selling M+0 up to 15 - get your maximum weekly reward! We have package deals, /w me for more info", -- [1]
-			"Zunahunt-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Zunahunt-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1037, -- [11]
-			"Player-1301-0BD9443B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Zunahunt|r",
-			[51] = 1617648594,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
-		{
-			"<NOVA> Selling CN - Castle Nathria 10/10HC  For Only 330k PER Trader for Only 140k / ( Mythic Bosses With Discounts   || Sire 100k ||  Also Selling M + 0 - 18+ / M+10 79k / M+12 99k / M+14 129k / M+15 225k || KeystoneMaster 1600k /w For More Info !", -- [1]
-			"Dreamymonk-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Dreamymonk-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1049, -- [11]
-			"Player-1301-0BE429E7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Dreamymonk|r",
-			[51] = 1617648606,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
-		{
-			"<Nova> WTS 10-10 [Castle Nathria]HC=330k & Trader +140k || Curv || M+(10-20) Shareloot & M+(10-15)+ARMORSTCK || <KSM=1600k> || M+15=225k || M+16=500k || M+17=730k || Torghast & lvl boost ...W me for more :D", -- [1]
-			"Mythrissen-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mythrissen-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1065, -- [11]
-			"Player-1301-0BE56653", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Mythrissen|r",
-			[51] = 1617648621,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
-		{
-			"WTS Castle Nathria HEROIC  І Start in 22.00 CEST or Server Time І  FULL RUN 10/10 І  Guild run  І  Fast And smooth  І  Get you 213+ iLvl gear TONIGHT  І  PST for info!", -- [1]
-			"Misjetta-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Misjetta-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1066, -- [11]
-			"Player-1301-0A6F2A2E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Misjetta|r",
-			[51] = 1617648622,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
-		{
-			"<NBC> Offers: |cff66bbff|Hjournal:0:1190:14|h[Castle Nathria]|h|r 10/10 HC 330k, Curve 100k,  Mythic 10/10, Keystone Master 1.6m, M+12 99k, M+15 225k ( Buy 2 or more = discounts), PVP, Torghast, Gold only, accepting on all realms, /w for info", -- [1]
-			"Nbcskadi-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Nbcskadi-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1071, -- [11]
-			"Player-1301-0BEF98C7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeNbcskadi|r",
-			[51] = 1617648626,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
-		{
-			"|cffffff00Valley of Heroes is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Stormwind City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Stormwind City", -- [9]
-			0, -- [10]
-			1107, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1617648652,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
-		{
-			"<Nova> WTS 10-10 [Castle Nathria]HC=330k & Trader +140k || Curv || M+(10-20) Shareloot & M+(10-15)+ARMORSTCK || <KSM=1600k> || M+15=225k || M+16=500k || M+17=730k || Torghast & lvl boost ...W me for more :D", -- [1]
-			"Novamyth-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novamyth-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1114, -- [11]
-			"Player-1301-0BEE195C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Novamyth|r",
-			[51] = 1617648663,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
-		{
-			"<Nova> Selling Boost  M+10=79k / M+14=129k / M+15= 225k /Keystone Master 1.6M /2 run 5%  discount or Stack armor FREE / Selling CASTLE NATHRIA Full HC 330k and per Stack Armor 140k /Curve 100k / Raid Mythic full clear /Torghast Boost /w for info", -- [1]
-			"Nbcboosterr-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Nbcboosterr-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1115, -- [11]
-			"Player-1301-0BE4EE17", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaNbcboosterr|r",
-			[51] = 1617648665,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
-		{
-			"Selling |cffa335ee|Hitem:183035::::::::10:256::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Ardent Sunstar Signet]|h|r + |cffa335ee|Hitem:184778::::::::10:256::6:4:7187:6652:1498:6646:1:28:753:::|h[Decadent Nathrian Shawl]|h|r (Cheaper than AH)", -- [1]
-			"Ixyz-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ixyz-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1122, -- [11]
-			"Player-1301-0BE98A40", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcIxyz|r",
-			[51] = 1617648677,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
-		{
-			"<Nova> WTS Curv Last boss HC |||| 10-10 [Castle Nathria]HC=330k trader+140k || lvl boosting || M+(10-20) Share loot & Armorstack for (2-15) || M+15=225k || <KSM=1600k> || Torghast Layer (1-8)  W me for more info :D", -- [1]
-			"Mythrissen-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mythrissen-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1138, -- [11]
-			"Player-1301-0BE56653", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Mythrissen|r",
-			[51] = 1617648720,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
-		{
-			"<RCU> [WTS] |cff66bbff|Hjournal:1:2424:16|h[Sire Denathrius]|h|r HC 100k  each 20 minutes for GOLD! Get 220 ilvl Loot and |cffffff00|Hachievement:14460:Player-1301-0BD943C8:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sire Denathrius]|h|r /w me for more info, or visit us in https://discord.gg/RCU !", -- [1]
-			"Smooklover-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Smooklover-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1145, -- [11]
-			"Player-1301-0BD943C8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Smooklover|r",
-			[51] = 1617648734,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
-		{
-			"<Nova> WTS Curv Last boss HC |||| 10-10 [Castle Nathria]HC=330k trader+140k || lvl boosting || M+(10-20) Share loot & Armorstack for (2-15) || M+15=225k || <KSM=1600k> || Torghast Layer (1-8)  W me for more info :D", -- [1]
-			"Novamyth-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novamyth-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1146, -- [11]
-			"Player-1301-0BEE195C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Novamyth|r",
-			[51] = 1617648766,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
-		{
-			"WTS Castle Nathria HEROIC  І Start in 22.00 CEST or Server Time І  FULL RUN 10/10 І  Guild run  І  Fast And smooth  І  Get you 213+ iLvl gear TONIGHT  І  PST for info!", -- [1]
-			"Misjetta-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Misjetta-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1147, -- [11]
-			"Player-1301-0A6F2A2E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Misjetta|r",
-			[51] = 1617648773,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
-		{
-			"|cffffff00Stormwind Embassy is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Stormwind City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Stormwind City", -- [9]
-			0, -- [10]
-			1166, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1617648819,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
-		{
-			"<NOVA> Selling CN - Castle Nathria 10/10HC  For Only 330k PER Trader for Only 140k / ( Mythic Bosses With Discounts   || Sire 100k ||  Also Selling M + 0 - 18+ / M+10 79k / M+12 99k / M+14 129k / M+15 225k || KeystoneMaster 1600k /w For More Info !", -- [1]
-			"Dreamymonk-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Dreamymonk-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1183, -- [11]
-			"Player-1301-0BE429E7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Dreamymonk|r",
-			[51] = 1617648836,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
-		{
-			"<Nova> WTS 10-10 [Castle Nathria]HC=330k & TRader+140k || Curv || M+(10-20) Shareloot & M+(10-15)+ARMORSTCK || M+10=79k || M+15=225k|| M+16=500k || M+17=730k || <KSM=1600k> || Torghast & lvl boost...W me for more :D", -- [1]
-			"Mythrissen-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mythrissen-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1187, -- [11]
-			"Player-1301-0BE56653", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Mythrissen|r",
-			[51] = 1617648840,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
-		{
-			"Selling |cffa335ee|Hitem:183035::::::::10:256::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Ardent Sunstar Signet]|h|r + |cffa335ee|Hitem:184778::::::::10:256::6:4:7187:6652:1498:6646:1:28:753:::|h[Decadent Nathrian Shawl]|h|r (Cheaper than AH)", -- [1]
-			"Ixyz-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ixyz-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1191, -- [11]
-			"Player-1301-0BE98A40", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcIxyz|r",
-			[51] = 1617648846,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
-		{
-			"|cffffff00Dwarven District is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Stormwind City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Stormwind City", -- [9]
-			0, -- [10]
-			1204, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1617648871,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
-		{
-			"<VOOR DE BOYS> is a newly created guild looking for more people to push high m+ keys and to clear heroic CN! are you tired of pugging? /w me for inv", -- [1]
-			"Monicageuze-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Monicageuze-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1207, -- [11]
-			"Player-1301-0B988B33", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Monicageuze|r",
-			[51] = 1617648875,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
-		{
-			"<RCU> [WTS] |cff66bbff|Hjournal:1:2424:16|h[Sire Denathrius]|h|r HC 100k  each 20 minutes for GOLD! Get 220 ilvl Loot and |cffffff00|Hachievement:14460:Player-1301-0BD943C8:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sire Denathrius]|h|r /w me for more info, or visit us in https://discord.gg/RCU !", -- [1]
-			"Smooklover-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Smooklover-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1211, -- [11]
-			"Player-1301-0BD943C8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Smooklover|r",
-			[51] = 1617648882,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
-		{
-			"<Spirit Link> is a fresh community that aims to connect high-end PvE and PvP players in order to boost one another and help achieve personal goals together for free. Join us, grow, and reap the benefits of having a strong friend group instantly", -- [1]
-			"Realrankone-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Realrankone-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1213, -- [11]
-			"Player-1301-0BECFBF4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Realrankone|r",
-			[51] = 1617648883,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
-		{
-			"<Nova> WTS 10-10 [Castle Nathria]HC=330k & TRader+140k || Curv || M+(10-20) Shareloot & M+(10-15)+ARMORSTCK || M+10=79k || M+15=225k|| M+16=500k || M+17=730k || <KSM=1600k> || Torghast & lvl boost...W me for more :D", -- [1]
-			"Novamyth-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novamyth-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1215, -- [11]
-			"Player-1301-0BEE195C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Novamyth|r",
-			[51] = 1617648886,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
-		{
-			"|cffffff00Stormwind City is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Stormwind City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Stormwind City", -- [9]
-			0, -- [10]
-			1226, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1617648904,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
-		{
-			"|cffffff00Stormwind Embassy is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Stormwind City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Stormwind City", -- [9]
-			0, -- [10]
-			1235, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1617648910,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
-		{
-			"|cffffff00Dwarven District is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Stormwind City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Stormwind City", -- [9]
-			0, -- [10]
-			1251, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1617648932,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
-		{
-			"WTS Castle Nathria HEROIC  І Start in 22.00 CEST or Server Time І  FULL RUN 10/10 І  Guild run  І  Fast And smooth  І  Get you 213+ iLvl gear TONIGHT  І  PST for info!", -- [1]
-			"Misjetta-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Misjetta-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1253, -- [11]
-			"Player-1301-0A6F2A2E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Misjetta|r",
-			[51] = 1617648935,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
-		{
-			"<Nova> WTS 10-10 [Castle Nathria]HC=330k & Trader +140k || Curv || M+(10-20) Shareloot & M+(10-15)+ARMORSTCK || <KSM=1600k> || M+15=225k || M+16=500k || M+17=730k || Torghast & lvl boost ...W me for more :D", -- [1]
-			"Mythrissen-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mythrissen-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1257, -- [11]
-			"Player-1301-0BE56653", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Mythrissen|r",
-			[51] = 1617648940,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
-		{
-			"Selling |cffa335ee|Hitem:183035::::::::10:256::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Ardent Sunstar Signet]|h|r + |cffa335ee|Hitem:184778::::::::10:256::6:4:7187:6652:1498:6646:1:28:753:::|h[Decadent Nathrian Shawl]|h|r (Cheaper than AH)", -- [1]
-			"Ixyz-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ixyz-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1272, -- [11]
-			"Player-1301-0BE98A40", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcIxyz|r",
-			[51] = 1617648963,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
-		{
-			"<Nova> WTS 10-10 [Castle Nathria]HC=330k & Trader +140k || Curv || M+(10-20) Shareloot & M+(10-15)+ARMORSTCK || <KSM=1600k> || M+15=225k || M+16=500k || M+17=730k || Torghast & lvl boost ...W me for more :D", -- [1]
-			"Novamyth-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novamyth-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1282, -- [11]
-			"Player-1301-0BEE195C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Novamyth|r",
-			[51] = 1617648983,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
-		{
-			"<RCU> [WTS] |cff66bbff|Hjournal:1:2424:16|h[Sire Denathrius]|h|r HC 100k  each 20 minutes for GOLD! Get 220 ilvl Loot and |cffffff00|Hachievement:14460:Player-1301-0BD943C8:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sire Denathrius]|h|r /w me for more info, or visit us in https://discord.gg/RCU !", -- [1]
-			"Smooklover-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Smooklover-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1294, -- [11]
-			"Player-1301-0BD943C8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Smooklover|r",
-			[51] = 1617649003,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
-		{
-			"We are Selling Sire Denathrius Heroic for 100k GOLD  every 15 minutes! Get|cffffff00|Hachievement:14460:Player-1301-0B33DA18:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sire Denathrius]|h|r achievement before everyone else! Also selling M+0-15 intime || Thorgast & Castle Nathria HC available!  ", -- [1]
-			"Länäii-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Länäii-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1302, -- [11]
-			"Player-1301-0B33DA18", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaLänäii|r",
-			[51] = 1617649015,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
-		{
-			"<Nova> WTS Curv Last boss HC |||| 10-10 [Castle Nathria]HC=330k trader+140k || lvl boosting || M+(10-20) Share loot & Armorstack for (2-15) || M+15=225k || <KSM=1600k> || Torghast Layer (1-8)  W me for more info :D", -- [1]
-			"Mythrissen-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mythrissen-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1318, -- [11]
-			"Player-1301-0BE56653", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Mythrissen|r",
-			[51] = 1617649039,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
-		{
-			"|cffffff00Dwarven District is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Stormwind City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Stormwind City", -- [9]
-			0, -- [10]
-			1332, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1617649084,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
-		{
-			"<Nova> WTS Curv Last boss HC |||| 10-10 [Castle Nathria]HC=330k trader+140k || lvl boosting || M+(10-20) Share loot & Armorstack for (2-15) || M+15=225k || <KSM=1600k> || Torghast Layer (1-8)  W me for more info :D", -- [1]
-			"Novamyth-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novamyth-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1334, -- [11]
-			"Player-1301-0BEE195C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Novamyth|r",
-			[51] = 1617649086,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
-		{
-			"<Nova> Selling Boost  M+10=79k / M+14=129k / M+15= 225k /Keystone Master 1.6M /2 run 5%  discount or Stack armor FREE / Selling CASTLE NATHRIA Full HC 330k and per Stack Armor 140k /Curve 100k / Raid Mythic full clear /Torghast Boost /w for info", -- [1]
-			"Nbcboosterr-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Nbcboosterr-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1341, -- [11]
-			"Player-1301-0BE4EE17", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaNbcboosterr|r",
-			[51] = 1617649100,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
-		{
-			"WTS Castle Nathria HEROIC  І Start in 22.00 CEST or Server Time І  FULL RUN 10/10 І  Guild run  І  Fast And smooth  І  Get you 213+ iLvl gear TONIGHT  І  PST for info!", -- [1]
-			"Misjetta-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Misjetta-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1347, -- [11]
-			"Player-1301-0A6F2A2E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Misjetta|r",
-			[51] = 1617649111,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
-		{
-			"<RCU> [WTS] |cff66bbff|Hjournal:1:2424:16|h[Sire Denathrius]|h|r HC 100k  each 20 minutes for GOLD! Get 220 ilvl Loot and |cffffff00|Hachievement:14460:Player-1301-0BD943C8:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sire Denathrius]|h|r /w me for more info, or visit us in https://discord.gg/RCU !", -- [1]
-			"Smooklover-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Smooklover-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1348, -- [11]
-			"Player-1301-0BD943C8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Smooklover|r",
-			[51] = 1617649117,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
-		{
-			"<NOVA> Selling CN - Castle Nathria 10/10HC  For Only 330k PER Trader for Only 140k / ( Mythic Bosses With Discounts   || Sire 100k ||  Also Selling M + 0 - 18+ / M+10 79k / M+12 99k / M+14 129k / M+15 225k || KeystoneMaster 1600k /w For More Info !", -- [1]
-			"Dreamymonk-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Dreamymonk-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1349, -- [11]
-			"Player-1301-0BE429E7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Dreamymonk|r",
-			[51] = 1617649135,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
-		{
-			"Selling |cffa335ee|Hitem:183035::::::::10:256::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Ardent Sunstar Signet]|h|r + |cffa335ee|Hitem:184778::::::::10:256::6:4:7187:6652:1498:6646:1:28:753:::|h[Decadent Nathrian Shawl]|h|r (Cheaper than AH)", -- [1]
-			"Ixyz-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ixyz-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1350, -- [11]
-			"Player-1301-0BE98A40", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcIxyz|r",
-			[51] = 1617649147,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
-		{
-			"|cffffff00Dwarven District is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Stormwind City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Stormwind City", -- [9]
-			0, -- [10]
-			1351, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1617649149,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
-		{
-			"<Nova> WTS 10-10 [Castle Nathria]HC=330k & TRader+140k || Curv || M+(10-20) Shareloot & M+(10-15)+ARMORSTCK || M+10=79k || M+15=225k|| M+16=500k || M+17=730k || <KSM=1600k> || Torghast & lvl boost...W me for more :D", -- [1]
-			"Mythrissen-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mythrissen-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1352, -- [11]
-			"Player-1301-0BE56653", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Mythrissen|r",
-			[51] = 1617649160,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
-		{
-			"<Nova> WTS 10-10 [Castle Nathria]HC=330k & TRader+140k || Curv || M+(10-20) Shareloot & M+(10-15)+ARMORSTCK || M+10=79k || M+15=225k|| M+16=500k || M+17=730k || <KSM=1600k> || Torghast & lvl boost...W me for more :D", -- [1]
-			"Novamyth-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novamyth-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1353, -- [11]
-			"Player-1301-0BEE195C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Novamyth|r",
-			[51] = 1617645605,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
-		{
-			"|cffffff00Dwarven District is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Stormwind City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Stormwind City", -- [9]
-			0, -- [10]
-			1354, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1617649215,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
-		{
-			"<RCU> [WTS] |cff66bbff|Hjournal:1:2424:16|h[Sire Denathrius]|h|r HC 100k  each 20 minutes for GOLD! Get 220 ilvl Loot and |cffffff00|Hachievement:14460:Player-1301-0BD943C8:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sire Denathrius]|h|r /w me for more info, or visit us in https://discord.gg/RCU !", -- [1]
-			"Smooklover-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Smooklover-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1355, -- [11]
-			"Player-1301-0BD943C8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Smooklover|r",
-			[51] = 1617649227,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
-		{
-			"<Oblivion> Selling Sire Denathrius HC 100k RIGHT NOW! Also selling M+0 up to 15 - get your maximum weekly reward! We have package deals, /w me for more info", -- [1]
-			"Zunahunt-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Zunahunt-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1356, -- [11]
-			"Player-1301-0BD9443B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Zunahunt|r",
-			[51] = 1617649245,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
-		{
-			"<Nova> WTS 10-10 [Castle Nathria]HC=330k & Trader +140k || Curv || M+(10-20) Shareloot & M+(10-15)+ARMORSTCK || <KSM=1600k> || M+15=225k || M+16=500k || M+17=730k || Torghast & lvl boost ...W me for more :D", -- [1]
-			"Mythrissen-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mythrissen-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1357, -- [11]
-			"Player-1301-0BE56653", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Mythrissen|r",
-			[51] = 1617649259,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
-		{
-			"Selling |cffa335ee|Hitem:183035::::::::10:256::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Ardent Sunstar Signet]|h|r + |cffa335ee|Hitem:184778::::::::10:256::6:4:7187:6652:1498:6646:1:28:753:::|h[Decadent Nathrian Shawl]|h|r (Cheaper than AH)", -- [1]
-			"Ixyz-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ixyz-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1358, -- [11]
-			"Player-1301-0BE98A40", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcIxyz|r",
-			[51] = 1617649265,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
-		{
-			"<Nova> WTS 10-10 [Castle Nathria]HC=330k & Trader +140k || Curv || M+(10-20) Shareloot & M+(10-15)+ARMORSTCK || <KSM=1600k> || M+15=225k || M+16=500k || M+17=730k || Torghast & lvl boost ...W me for more :D", -- [1]
-			"Novamyth-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novamyth-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1362, -- [11]
-			"Player-1301-0BEE195C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Novamyth|r",
-			[51] = 1617649302,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
-		{
-			"<Nova> WTS Curv Last boss HC |||| 10-10 [Castle Nathria]HC=330k trader+140k || lvl boosting || M+(10-20) Share loot & Armorstack for (2-15) || M+15=225k || <KSM=1600k> || Torghast Layer (1-8)  W me for more info :D", -- [1]
-			"Mythrissen-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mythrissen-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1363, -- [11]
-			"Player-1301-0BE56653", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Mythrissen|r",
-			[51] = 1617649358,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
-		{
-			"|cffffff00Old Town is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Stormwind City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Stormwind City", -- [9]
-			0, -- [10]
-			1364, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1617649377,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
-		{
-			"<RCU> [WTS] |cff66bbff|Hjournal:1:2424:16|h[Sire Denathrius]|h|r HC 100k  each 20 minutes for GOLD! Get 220 ilvl Loot and |cffffff00|Hachievement:14460:Player-1301-0BD943C8:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sire Denathrius]|h|r /w me for more info, or visit us in https://discord.gg/RCU !", -- [1]
-			"Smooklover-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Smooklover-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1365, -- [11]
-			"Player-1301-0BD943C8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Smooklover|r",
-			[51] = 1617649386,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
-		{
-			"<Nova> WTS Curv Last boss HC |||| 10-10 [Castle Nathria]HC=330k trader+140k || lvl boosting || M+(10-20) Share loot & Armorstack for (2-15) || M+15=225k || <KSM=1600k> || Torghast Layer (1-8)  W me for more info :D", -- [1]
-			"Novamyth-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novamyth-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1378, -- [11]
-			"Player-1301-0BEE195C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Novamyth|r",
-			[51] = 1617649405,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
-		{
-			"<Spirit Link> is a fresh community that aims to connect high-end PvE and PvP players in order to boost one another and help achieve personal goals together for free. Join us, grow, and reap the benefits of having a strong friend group instantly", -- [1]
-			"Realrankone-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Realrankone-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1379, -- [11]
-			"Player-1301-0BECFBF4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Realrankone|r",
-			[51] = 1617649405,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
-		{
-			"<NOVA> Selling CN - Castle Nathria 10/10HC  For Only 330k PER Trader for Only 140k / ( Mythic Bosses With Discounts   || Sire 100k ||  Also Selling M + 0 - 18+ / M+10 79k / M+12 99k / M+14 129k / M+15 225k || KeystoneMaster 1600k /w For More Info !", -- [1]
-			"Dreamymonk-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Dreamymonk-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1380, -- [11]
-			"Player-1301-0BE429E7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Dreamymonk|r",
-			[51] = 1617649419,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
-		{
-			"WTS |cffa335ee|Hitem:90655::::::::60:104:::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r cheaper than ah", -- [1]
-			"Notsep-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Notsep-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1381, -- [11]
-			"Player-1301-0B24CC20", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Notsep|r",
-			[51] = 1617649462,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
-		{
-			"<Nova> WTS 10-10 [Castle Nathria]HC=330k & TRader+140k || Curv || M+(10-20) Shareloot & M+(10-15)+ARMORSTCK || M+10=79k || M+15=225k|| M+16=500k || M+17=730k || <KSM=1600k> || Torghast & lvl boost...W me for more :D", -- [1]
-			"Mythrissen-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mythrissen-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1386, -- [11]
-			"Player-1301-0BE56653", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Mythrissen|r",
-			[51] = 1617649479,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
-		{
-			"<Oblivion> Selling Sire Denathrius HC 100k RIGHT NOW! Also selling M+0 up to 15 - get your maximum weekly reward! We have package deals, /w me for more info", -- [1]
-			"Zunahunt-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Zunahunt-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1387, -- [11]
-			"Player-1301-0BD9443B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Zunahunt|r",
-			[51] = 1617649486,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
-		{
-			"<Nova> WTS 10-10 [Castle Nathria]HC=330k & TRader+140k || Curv || M+(10-20) Shareloot & M+(10-15)+ARMORSTCK || M+10=79k || M+15=225k|| M+16=500k || M+17=730k || <KSM=1600k> || Torghast & lvl boost...W me for more :D", -- [1]
-			"Novamyth-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novamyth-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1388, -- [11]
-			"Player-1301-0BEE195C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Novamyth|r",
-			[51] = 1617649525,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
-		{
-			"<Nova> Selling Boost  M+10=79k / M+14=129k / M+15= 225k /Keystone Master 1.6M /2 run 5%  discount or Stack armor FREE / Selling CASTLE NATHRIA Full HC 330k and per Stack Armor 140k /Curve 100k / Raid Mythic full clear /Torghast Boost /w for info", -- [1]
-			"Exoservices-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Exoservices-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1389, -- [11]
-			"Player-1301-0BDA7B25", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaExoservices|r",
-			[51] = 1617649546,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
-		{
-			"<RCU> [WTS] |cff66bbff|Hjournal:1:2424:16|h[Sire Denathrius]|h|r HC 100k  each 20 minutes for GOLD! Get 220 ilvl Loot and |cffffff00|Hachievement:14460:Player-1301-0BD943C8:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sire Denathrius]|h|r /w me for more info, or visit us in https://discord.gg/RCU !", -- [1]
-			"Smooklover-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Smooklover-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1390, -- [11]
-			"Player-1301-0BD943C8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Smooklover|r",
-			[51] = 1617649551,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
-		{
-			"WTS |cffa335ee|Hitem:90655::::::::60:104:::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r cheaper than AH", -- [1]
-			"Notsep-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Notsep-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1391, -- [11]
-			"Player-1301-0B24CC20", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Notsep|r",
-			[51] = 1617649564,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
-		{
-			"<Nova> WTS 10-10 [Castle Nathria]HC=330k & Trader +140k || Curv || M+(10-20) Shareloot & M+(10-15)+ARMORSTCK || <KSM=1600k> || M+15=225k || M+16=500k || M+17=730k || Torghast & lvl boost ...W me for more :D", -- [1]
-			"Mythrissen-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mythrissen-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1392, -- [11]
-			"Player-1301-0BE56653", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Mythrissen|r",
-			[51] = 1617649579,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
-		{
-			"<Nova> WTS 10-10 [Castle Nathria]HC=330k & Trader +140k || Curv || M+(10-20) Shareloot & M+(10-15)+ARMORSTCK || <KSM=1600k> || M+15=225k || M+16=500k || M+17=730k || Torghast & lvl boost ...W me for more :D", -- [1]
-			"Novamyth-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novamyth-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1395, -- [11]
-			"Player-1301-0BEE195C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Novamyth|r",
-			[51] = 1617649621,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
-		{
-			"<NOVA> Selling CN - Castle Nathria 10/10HC  For Only 330k PER Trader for Only 140k / ( Mythic Bosses With Discounts   || Sire 100k ||  Also Selling M + 0 - 18+ / M+10 79k / M+12 99k / M+14 129k / M+15 225k || KeystoneMaster 1600k /w For More Info !", -- [1]
-			"Dreamymonk-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Dreamymonk-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1396, -- [11]
-			"Player-1301-0BE429E7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Dreamymonk|r",
-			[51] = 1617649672,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
-		{
-			"We are Selling Sire Denathrius Heroic for 100k GOLD  every 15 minutes! Get|cffffff00|Hachievement:14460:Player-1301-0B33DA18:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sire Denathrius]|h|r achievement before everyone else! Also selling M+0-15 intime || Thorgast & Castle Nathria HC available!  ", -- [1]
-			"Länäii-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Länäii-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1397, -- [11]
-			"Player-1301-0B33DA18", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaLänäii|r",
-			[51] = 1617649681,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
-		{
-			"<RCU> [WTS] |cff66bbff|Hjournal:1:2424:16|h[Sire Denathrius]|h|r HC 100k  each 20 minutes for GOLD! Get 220 ilvl Loot and |cffffff00|Hachievement:14460:Player-1301-0BD943C8:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sire Denathrius]|h|r /w me for more info, or visit us in https://discord.gg/RCU !", -- [1]
-			"Smooklover-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Smooklover-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1398, -- [11]
-			"Player-1301-0BD943C8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Smooklover|r",
-			[51] = 1617649722,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
-		{
-			"<Nova> WTS Curv Last boss HC |||| 10-10 [Castle Nathria]HC=330k trader+140k || lvl boosting || M+(10-20) Share loot & Armorstack for (2-15) || M+15=225k || <KSM=1600k> || Torghast Layer (1-8)  W me for more info :D", -- [1]
-			"Novamyth-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novamyth-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1399, -- [11]
-			"Player-1301-0BEE195C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Novamyth|r",
-			[51] = 1617649724,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
-		{
-			"<< RCU >> HOT DEALS: Selling M+ Keys, Castle Nathria NM/HC/MM, |cffffff00|Hachievement:14532:Player-1597-0D7E9F0F:1:1:22:21:4294967295:4294967295:4294967295:4294967295|h[Shadowlands Keystone Master: Season One]|h|r, etc. -- /w me for info!", -- [1]
-			"Adriania-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Adriania-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1400, -- [11]
-			"Player-1301-0B3906E2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaAdriania|r",
-			[51] = 1617649741,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
 		{
 			"Boosting to 1400/1600 cheap. Healer or dps. Im 2.7 exp and SL Elite. Gold only /w me", -- [1]
 			"Dogshift-Outland", -- [2]
@@ -1725,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Dogshift|r",
 			[51] = 1617649850,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [1]
 		{
 			"|cffffd100|HclubFinder:ClubFinder-1-196941-1301-48391459|h[Guild: Unused Icon]|h|r are recruiting! We are 6/10M and looking for Healers and DPS for our main raid team Wed/Sun 8pm - 12:30am ST. We welcome socials, have a HC raid night, run M+ and PvP.", -- [1]
 			"Wohoonature-Outland", -- [2]
@@ -1747,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Wohoonature|r",
 			[51] = 1618224429,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [2]
 		{
 			"<NOVA> Selling CN - Castle Nathria 10/10HC  For Only 330k PER Trader for Only 140k / ( Mythic Bosses With Discounts   ||Sire HC 100k ||  Also Selling M + 0 - 18+ / M+10 79k / M+12 99k / M+14 125k / M+15 220k || KeystoneMaster 1585k /w For More Info!", -- [1]
 			"Dreamymonk-Outland", -- [2]
@@ -1769,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dreamymonk|r",
 			[51] = 1618227157,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [3]
 		{
 			"<Nova> WTS 10-10 [Castle Nathria]HC=330k & Trader +140k || Curv || M+(10-20) Shareloot & M+(10-15)+ARMORSTCK || <KSM=1585k> || M+15=225k || M+16=500k || M+17=730k || Torghast & lvl boost ...W me for more :D", -- [1]
 			"Mythrissen-Outland", -- [2]
@@ -1791,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Mythrissen|r",
 			[51] = 1618227191,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [4]
 		{
 			"<Oblivion>CURVE CURVE CURVE - get |cffffff00|Hachievement:14460:Player-1301-0BED3933:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sire Denathrius]|h|rinsanely easy SALE 100k starting 14:00 every 20min  WSP NOW", -- [1]
 			"Crucy-Outland", -- [2]
@@ -1813,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cCrucy|r",
 			[51] = 1618227211,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [5]
 		{
 			"WTS|cffa335ee|Hitem:183035::::::::60:264::6:5:7187:41:6935:1498:6646:1:28:753:::|h[Ardent Sunstar Signet]|h|r LEECH+SOCKET CHEAP", -- [1]
 			"Haffet-Outland", -- [2]
@@ -1835,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcHaffet|r",
 			[51] = 1618227235,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [6]
 		{
 			"<NBC> WTS +10=79K] weekly +14 only 113k M14=125K] <M15 ONLY 220K> -keystonemaster- <10/10HC CN 330k> - curve ONLY 100K  -PVP - Torghast  - wating your whisp for info! <always check nova advertiser!> ONLY GOLD", -- [1]
 			"Missnova-Outland", -- [2]
@@ -1857,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaMissnova|r",
 			[51] = 1618227237,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [7]
 		{
 			"WTS |cffa335ee|Hitem:183013::::::::60:71::6:4:7187:6652:1498:6646:1:28:753:::|h[Fallen Templar's Gauntlets]|h|r cheaper than ah", -- [1]
 			"Awësomë-Outland", -- [2]
@@ -1879,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAwësomë|r",
 			[51] = 1618228235,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [8]
 		{
 			"<NBC> WTS +10=79K] weekly +14 only 113k M14=125K] <M15 ONLY 220K> -keystonemaster- <10/10HC CN 330k> - curve ONLY 100K  -PVP - Torghast  - wating your whisp for info! <always check nova advertiser!> ONLY GOLD", -- [1]
 			"Missnova-Outland", -- [2]
@@ -1901,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaMissnova|r",
 			[51] = 1618228249,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [9]
 		{
 			"<NOVA> Selling CN - Castle Nathria 10/10HC  For Only 330k PER Trader for Only 140k / ( Mythic Bosses With Discounts   ||Sire HC 100k ||  Also Selling M + 0 - 18+ / M+10 79k / M+12 99k / M+14 125k / M+15 220k || KeystoneMaster 1585k /w For More Info!", -- [1]
 			"Dreamymonk-Outland", -- [2]
@@ -1923,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dreamymonk|r",
 			[51] = 1618228275,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [10]
 		{
 			"<Oblivion>  Selling Sire Denathrius Heroic now! Receive |cffffff00|Hachievement:14460:Player-1301-0B33DA18:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sire Denathrius]|h|r for only 100k and the chance to get 220+ Items, Legendaries and Conduits!  ", -- [1]
 			"Länäii-Outland", -- [2]
@@ -1945,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaLänäii|r",
 			[51] = 1618228277,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [11]
 		{
 			"<<NBC>> (Special Offer) WTS Keystone Master (All Dungs 15 Intime): 1585k.CASTLE NATHRIA HC Full Clear: 330k!!  (Limited Spots)/ Offering Mythic Keystone10+: 79k , M+14: 113k / ||Torghast Boost available|| / Only Gold.Wis Me For More Info!!", -- [1]
 			"Novanini-Outland", -- [2]
@@ -1967,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novanini|r",
 			[51] = 1618228533,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [12]
 		{
 			"<NBC> WTS +10=79K] weekly +14 only 113k M14=125K] <M15 ONLY 220K> -keystonemaster- <10/10HC CN 330k> - curve ONLY 100K  -PVP - Torghast  - wating your whisp for info! <always check nova advertiser!> ONLY GOLD", -- [1]
 			"Missnova-Outland", -- [2]
@@ -1989,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaMissnova|r",
 			[51] = 1618228555,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [13]
 		{
 			"makes some strange gestures.", -- [1]
 			"Anapolon-Ragnaros", -- [2]
@@ -2011,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAnapolon-Ragnaros|r",
 			[51] = 1618228618,
 			[50] = "CHAT_MSG_EMOTE",
-		}, -- [91]
+		}, -- [14]
 		{
 			"makes some strange gestures.", -- [1]
 			"Anapolon-Ragnaros", -- [2]
@@ -2033,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAnapolon-Ragnaros|r",
 			[51] = 1618228618,
 			[50] = "CHAT_MSG_EMOTE",
-		}, -- [92]
+		}, -- [15]
 		{
 			"WTS |cff0070dd|Hbattlepet:241:1:3:158:11:11:0000000000000000:30157|h[Tuskarr Kite]|h|r cheaper than AH /w me", -- [1]
 			"Pridéfullx-Outland", -- [2]
@@ -2055,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Pridéfullx|r",
 			[51] = 1618228734,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [16]
 		{
 			"WTS HC Denathrius = 90k => Come And Get Your |cffffff00|Hachievement:14460:Player-1301-0BED3933:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sire Denathrius]|h|r!   /w me to book <3", -- [1]
 			"Genjishimada-Outland", -- [2]
@@ -2077,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Genjishimada|r",
 			[51] = 1618228762,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [17]
 		{
 			"|cffffd100|HclubFinder:ClubFinder-1-196941-1301-48391459|h[Guild: Unused Icon]|h|r are recruiting! We are 6/10M and looking for Healers and DPS for our main raid team Wed/Sun 8pm - 12:30am ST. We welcome socials, have a HC raid night, run M+ and PvP.", -- [1]
 			"Wohoonature-Outland", -- [2]
@@ -2099,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Wohoonature|r",
 			[51] = 1618228966,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [18]
 		{
 			"<NBC> WTS +10=79K] weekly +14 only 113k M14=125K] <M15 ONLY 220K> -keystonemaster- <10/10HC CN 330k> - curve ONLY 100K  -PVP - Torghast  - wating your whisp for info! <always check nova advertiser!> ONLY GOLD", -- [1]
 			"Missnova-Outland", -- [2]
@@ -2121,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaMissnova|r",
 			[51] = 1618228972,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [19]
 		{
 			"WTS |cffa335ee|Hitem:183013::::::::60:71::6:4:7187:6652:1498:6646:1:28:753:::|h[Fallen Templar's Gauntlets]|h|r cheaper than ah", -- [1]
 			"Awësomë-Outland", -- [2]
@@ -2143,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAwësomë|r",
 			[51] = 1618229269,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [20]
 		{
 			"[ Gino's Mercenaries ] Selling Mythic+ Dungeons.|| M+10 || M+12 || M+14 || M+15 || M+16 ||. Keystone Master, Castle Nathria 10/10 HC, PvP boosts. Gold only. Dm me for more infos :)", -- [1]
 			"Mæriine-Outland", -- [2]
@@ -2165,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaMæriine|r",
 			[51] = 1618229278,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [21]
 		{
 			"Squeeze on Barbaxius", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -2187,6 +484,1723 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1624230095,
 			[50] = "CHAT_MSG_SAY",
+		}, -- [22]
+		{
+			"<K R A К Е N B О О S Т> offering Myth+: m15 - 185k, m18 - 480k, m20 - 700k and e.t.c. CN Heroic 10/10 - 230k. Generals- 60k, Denathrius - 50k, Both bosses - 100k! /w me", -- [1]
+			"Outnevera-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Outnevera-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1897, -- [11]
+			"Player-1301-0BFF4306", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Outnevera|r",
+			[51] = 1624554031,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [23]
+		{
+			"|cffffd100|HclubFinder:ClubFinder-1-227775-1301-100794970|h[Guild: Disciples of Chaos]|h|r  Looking for Dps and Healers to fill out our Mythic roster for 9.1. We raid Thurs/Tues 20:00 until 23:00 server time. Socials are also welcome /w for more info", -- [1]
+			"Monkroy-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Monkroy-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1902, -- [11]
+			"Player-1301-0B28D9FA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Monkroy|r",
+			[51] = 1624554040,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [24]
+		{
+			"<Nova> Selling Boost  M+10=70k / M+14=100k / M+15= 160k /Keystone Master 1.14M /2 run 5%  discount or Stack armor FREE / Selling CASTLE NATHRIA Full HC 220k and per Stack Armor 110k /Curve 50k / Raid Mythic full clear /Torghast Boost /w for info", -- [1]
+			"Exoservices-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Exoservices-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1908, -- [11]
+			"Player-1301-0BDA7B25", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaExoservices|r",
+			[51] = 1624554051,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [25]
+		{
+			"Do you need |cff0070dd|Hitem:178713::::::::51:73::17:3:7217:6771:6652:2:28:747:9:56:::|h[Drustlord's Greataxe]|h|r?", -- [1]
+			"Uter-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Uter-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1954, -- [11]
+			"Player-1301-0BBC3C27", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Uter|r",
+			[51] = 1624554247,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [26]
+		{
+			"??? what happen", -- [1]
+			"Uter-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Uter-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1966, -- [11]
+			"Player-1301-0BBC3C27", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Uter|r",
+			[51] = 1624554306,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [27]
+		{
+			"WHAT HAPPEN???", -- [1]
+			"Uter-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Uter-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1983, -- [11]
+			"Player-1301-0BBC3C27", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Uter|r",
+			[51] = 1624554394,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [28]
+		{
+			"res", -- [1]
+			"Uter-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Uter-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1987, -- [11]
+			"Player-1301-0BBC3C27", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Uter|r",
+			[51] = 1624554421,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [29]
+		{
+			"res", -- [1]
+			"Uter-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Uter-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1990, -- [11]
+			"Player-1301-0BBC3C27", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Uter|r",
+			[51] = 1624554421,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [30]
+		{
+			"res", -- [1]
+			"Uter-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Uter-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1993, -- [11]
+			"Player-1301-0BBC3C27", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Uter|r",
+			[51] = 1624554424,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [31]
+		{
+			"p what does next bossdo?", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1994, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1624554425,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [32]
+		{
+			"i report", -- [1]
+			"Fionara-Outland", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1997, -- [11]
+			"Player-1301-09D4F339", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1624554443,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [33]
+		{
+			"wtf", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2001, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1624554474,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [34]
+		{
+			"is this dungeon bugged?", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2002, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1624554479,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [35]
+		{
+			"camn someone explain whow this works?", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2011, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1624554538,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [36]
+		{
+			"skip to next class", -- [1]
+			"Fionara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2038, -- [11]
+			"Player-1301-09D4F339", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1624554606,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [37]
+		{
+			"Do you need |cff0070dd|Hitem:178697::::::::51:73::1:4:6805:6652:1472:4785:1:28:747:::|h[Prankster's Pauldrons]|h|r?", -- [1]
+			"Baaradir-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Baaradir-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2047, -- [11]
+			"Player-1301-07D1C69F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Baaradir|r",
+			[51] = 1624554625,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [38]
+		{
+			"invis pot here", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2049, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1624554639,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [39]
+		{
+			"we skip", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2050, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1624554642,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [40]
+		{
+			"Volatile Acid on Baaradir", -- [1]
+			"Baaradir-Outland", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Baaradir-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2051, -- [11]
+			"Player-1301-07D1C69F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Baaradir|r",
+			[51] = 1624554670,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [41]
+		{
+			"Volatile Acid on Barbaxius", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2054, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1624554675,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [42]
+		{
+			"Volatile Acid on Fionara", -- [1]
+			"Fionara-Outland", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2056, -- [11]
+			"Player-1301-09D4F339", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1624554679,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [43]
+		{
+			"Volatile Acid on Barbaxius", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2059, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1624554686,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [44]
+		{
+			"healer afk?", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2064, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1624554696,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [45]
+		{
+			"REPORT HEAL", -- [1]
+			"Fionara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2067, -- [11]
+			"Player-1301-09D4F339", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1624554717,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [46]
+		{
+			"Volatile Acid on Nycha", -- [1]
+			"Nycha-Doomhammer", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Nycha-Doomhammer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2070, -- [11]
+			"Player-1402-09F4E18B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Nycha-Doomhammer|r",
+			[51] = 1624554754,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [47]
+		{
+			"Volatile Acid on Baaradir", -- [1]
+			"Baaradir-Outland", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Baaradir-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2072, -- [11]
+			"Player-1301-07D1C69F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Baaradir|r",
+			[51] = 1624554769,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [48]
+		{
+			"Volatile Acid on Baaradir", -- [1]
+			"Baaradir-Outland", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Baaradir-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2088, -- [11]
+			"Player-1301-07D1C69F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Baaradir|r",
+			[51] = 1624554830,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [49]
+		{
+			"Volatile Acid on Fionara", -- [1]
+			"Fionara-Outland", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2089, -- [11]
+			"Player-1301-09D4F339", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1624554831,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [50]
+		{
+			"Volatile Acid on Barbaxius", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2091, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1624554832,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [51]
+		{
+			"<Nova> Selling Boost  M+10=70k / M+14=100k / M+15= 160k /Keystone Master 1.14M /2 run 5%  discount or Stack armor FREE / Selling CASTLE NATHRIA Full HC 220k and per Stack Armor 110k /Curve 50k / Raid Mythic full clear /Torghast Boost /w for info", -- [1]
+			"Exoservices-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Exoservices-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2175, -- [11]
+			"Player-1301-0BDA7B25", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaExoservices|r",
+			[51] = 1624555021,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [52]
+		{
+			"healer afk?", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2203, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1624555152,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [53]
+		{
+			"Do you need |cff0070dd|Hitem:178694::::::::52:73::1:5:6805:6652:7194:1472:4785:1:28:747:::|h[Wrathbark Greathelm]|h|r?", -- [1]
+			"Baaradir-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Baaradir-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2225, -- [11]
+			"Player-1301-07D1C69F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Baaradir|r",
+			[51] = 1624555298,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [54]
+		{
+			"Do you need |cff0070dd|Hitem:178694::::::::52:73::17:4:7217:6771:6652:7193:2:28:747:9:56:::|h[Wrathbark Greathelm]|h|r?", -- [1]
+			"Uter-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Uter-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2226, -- [11]
+			"Player-1301-0BBC3C27", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Uter|r",
+			[51] = 1624555299,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [55]
+		{
+			"wtf", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2241, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1624555367,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [56]
+		{
+			"gj tank", -- [1]
+			"Uter-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Uter-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2250, -- [11]
+			"Player-1301-0BBC3C27", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Uter|r",
+			[51] = 1624555453,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [57]
+		{
+			"idk what this dungoen doe", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2252, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1624555461,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [58]
+		{
+			"smotlio", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2268, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1624555531,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [59]
+		{
+			"HERO", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2277, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1624555566,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [60]
+		{
+			"Do you need |cff0070dd|Hitem:178707::::::::52:73::17:4:7217:6771:6652:7194:2:28:747:9:56:::|h[Trailspinner Pendant]|h|r?", -- [1]
+			"Ayko-Sylvanas", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Ayko-Sylvanas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2304, -- [11]
+			"Player-1597-0D026EF0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Ayko-Sylvanas|r",
+			[51] = 1624555616,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [61]
+		{
+			"Volatile Acid on Baaradir", -- [1]
+			"Baaradir-Outland", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Baaradir-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2309, -- [11]
+			"Player-1301-07D1C69F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Baaradir|r",
+			[51] = 1624555648,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [62]
+		{
+			"Volatile Acid on Barbaxius", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2310, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1624555650,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [63]
+		{
+			"paladin?", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2311, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1624555655,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [64]
+		{
+			"dont know route?", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2312, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1624555658,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [65]
+		{
+			"Volatile Acid on Ayko", -- [1]
+			"Ayko-Sylvanas", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Ayko-Sylvanas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2314, -- [11]
+			"Player-1597-0D026EF0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Ayko-Sylvanas|r",
+			[51] = 1624555663,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [66]
+		{
+			"healer afk?", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2339, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1624555794,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [67]
+		{
+			"mage god", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2350, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1624555819,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [68]
+		{
+			"Volatile Acid on Barbaxius", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2355, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1624555857,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [69]
+		{
+			"Do you need |cff0070dd|Hitem:178701::::::::57:70::17:3:7217:6771:6652:2:28:747:9:52:::|h[Gormshell Greaves]|h|r?", -- [1]
+			"Uter-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Uter-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2356, -- [11]
+			"Player-1301-0BBC3C27", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Uter|r",
+			[51] = 1624555858,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [70]
+		{
+			"<NOVA> WTS full KSM achievement 1140k , or +15 intime 160k per key , discount for more keys /w me for more info and special discounts <3 * GOLD ONLY*", -- [1]
+			"Damnatus-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Damnatus-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2374, -- [11]
+			"Player-1301-060FD933", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edDamnatus|r",
+			[51] = 1624555930,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [71]
+		{
+			"WTS lvling 50-60 and Torghast (layer 1-8) for gold (Alliance-Horde)/w me for more info", -- [1]
+			"Nikollet-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Nikollet-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2379, -- [11]
+			"Player-1301-0BFE746C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Nikollet|r",
+			[51] = 1624555938,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [72]
+		{
+			"hi", -- [1]
+			"Harcorana-TheMaelstrom", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Harcorana-TheMaelstrom", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2397, -- [11]
+			"Player-1596-07668D76", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Harcorana-TheMaelstrom|r",
+			[51] = 1624556067,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [73]
+		{
+			"mage troll?", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2432, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1624556182,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [74]
+		{
+			"br me", -- [1]
+			"Fionara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2480, -- [11]
+			"Player-1301-09D4F339", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1624556403,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [75]
+		{
+			"heal", -- [1]
+			"Fionara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2481, -- [11]
+			"Player-1301-09D4F339", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1624556406,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [76]
+		{
+			"br me", -- [1]
+			"Fionara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2482, -- [11]
+			"Player-1301-09D4F339", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1624556406,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [77]
+		{
+			"Do you need |cff0070dd|Hitem:178827::::::::52:73::1:5:6805:6652:7193:1472:4785:1:28:747:::|h[Sin Stained Pendant]|h|r?", -- [1]
+			"Baaradir-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Baaradir-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2489, -- [11]
+			"Player-1301-07D1C69F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Baaradir|r",
+			[51] = 1624556420,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [78]
+		{
+			"pulled too much", -- [1]
+			"Harcorana-TheMaelstrom", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Harcorana-TheMaelstrom", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2490, -- [11]
+			"Player-1596-07668D76", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Harcorana-TheMaelstrom|r",
+			[51] = 1624556433,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [79]
+		{
+			"its ok", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2499, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1624556451,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [80]
+		{
+			"we are cutting edge raiders", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2500, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1624556455,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [81]
+		{
+			"press healing spells", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2528, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1624556750,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [82]
+		{
+			"on me", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2529, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1624556752,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [83]
+		{
+			"so i dont die", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2532, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1624556754,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [84]
+		{
+			"report heal", -- [1]
+			"Fionara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2536, -- [11]
+			"Player-1301-09D4F339", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1624556782,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [85]
+		{
+			"Stone Shattering Leap on Fionara", -- [1]
+			"Fionara-Outland", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2553, -- [11]
+			"Player-1301-09D4F339", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1624556906,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [86]
+		{
+			"3", -- [1]
+			"Fionara-Outland", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2554, -- [11]
+			"Player-1301-09D4F339", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1624556908,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [87]
+		{
+			"2", -- [1]
+			"Fionara-Outland", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2555, -- [11]
+			"Player-1301-09D4F339", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1624556909,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [88]
+		{
+			"1", -- [1]
+			"Fionara-Outland", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2556, -- [11]
+			"Player-1301-09D4F339", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1624556910,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [89]
+		{
+			"Stone Shattering Leap on Baaradir", -- [1]
+			"Baaradir-Outland", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Baaradir-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2565, -- [11]
+			"Player-1301-07D1C69F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Baaradir|r",
+			[51] = 1624556949,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [90]
+		{
+			"3", -- [1]
+			"Baaradir-Outland", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Baaradir-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2566, -- [11]
+			"Player-1301-07D1C69F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Baaradir|r",
+			[51] = 1624556951,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [91]
+		{
+			"2", -- [1]
+			"Baaradir-Outland", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Baaradir-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2568, -- [11]
+			"Player-1301-07D1C69F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Baaradir|r",
+			[51] = 1624556952,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [92]
+		{
+			"1", -- [1]
+			"Baaradir-Outland", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Baaradir-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2570, -- [11]
+			"Player-1301-07D1C69F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Baaradir|r",
+			[51] = 1624556953,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [93]
+		{
+			"Do you need |cff0070dd|Hitem:178812::::::::52:73::17:4:7217:6771:6652:7194:2:28:747:9:57:::|h[Wing Commander's Helmet]|h|r?", -- [1]
+			"Uter-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Uter-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2577, -- [11]
+			"Player-1301-0BBC3C27", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Uter|r",
+			[51] = 1624556963,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [94]
+		{
+			"hello shaman", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2578, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1624556972,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [95]
+		{
+			"welcome", -- [1]
+			"Fionara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2579, -- [11]
+			"Player-1301-09D4F339", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1624556978,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [96]
+		{
+			"ty", -- [1]
+			"Spiritearth-Shadowsong", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Spiritearth-Shadowsong", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2580, -- [11]
+			"Player-3666-08E12D3A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcSpiritearth-Shadowsong|r",
+			[51] = 1624556995,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [97]
+		{
+			"Do you need |cff0070dd|Hitem:178820::::::::52:73::1:4:6805:6652:1472:4785:1:28:747:::|h[Pauldrons of Unleashed Pride]|h|r?", -- [1]
+			"Baaradir-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Baaradir-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2622, -- [11]
+			"Player-1301-07D1C69F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Baaradir|r",
+			[51] = 1624557215,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [98]
+		{
+			"Squeeze on Barbaxius", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			531, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1624966285,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [99]
 	},
+	["ChatEditHistory"] = {
+		"/p is this dungeon bugged?", -- [1]
+		"/p camn someone explain whow this works?", -- [2]
+		"/p invis pot here", -- [3]
+		"/p we skip", -- [4]
+		"/p wtf", -- [5]
+		"/p idk what this dungoen doe", -- [6]
+		"/p smotlio", -- [7]
+		"/p HERO", -- [8]
+		"/p paladin?", -- [9]
+		"/p dont know route?", -- [10]
+		"/p healer afk?", -- [11]
+		"/p mage god", -- [12]
+		"/spit", -- [13]
+		"/p mage troll?", -- [14]
+		"/i its ok", -- [15]
+		"/i we are cutting edge raiders", -- [16]
+		"/i press healing spells", -- [17]
+		"/i on me", -- [18]
+		"/i so i dont die", -- [19]
+		"/p hello shaman", -- [20]
+	},
+	["ConvertKeybindings"] = true,
 }

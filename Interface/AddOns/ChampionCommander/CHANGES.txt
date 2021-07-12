@@ -1,12 +1,13 @@
-tag e3bef6f02eb938552baaaed2243e224f5d09bb0f 1.3.9
+tag 363b4023fd748a2ff3cf7b13186255a235d2a243 1.4.1
 Author:	Alar of Runetotem <alar@aspide.it>
-Date:	Sun Apr 25 20:03:29 2021 +0200
+Date:	Sun Jul 11 10:36:53 2021 +0200
 
-Tentative fix for missions with no rewards
+Lua error fix
 
-commit 2bedcf6077429b0b90cf19b72f2e47e6a40653bf
+commit 39ec1c6b96a4b87d27ec80742af03ebe3dd70ade
 Author: Alar of Runetotem <alar@aspide.it>
-Date:   Sun Apr 25 20:02:55 2021 +0200
+Date:   Sat Jul 10 14:05:21 2021 +0200
 
-    Tentative fix for missions with no rewards
+    Interface\AddOns\ChampionCommander\cache.lua:911: attempt to compare
+    number with nil
 

@@ -1,4 +1,4 @@
-local E, L, V, P, G = unpack(select(2, ...)); --Import: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
+local E, L, V, P, G = unpack(select(2, ...)) --Import: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
 local CopyTable = CopyTable -- Our function doesn't exist yet.
 
 P.gridSize = 64
@@ -19,7 +19,17 @@ P.general = {
 	autoRoll = false,
 	autoAcceptInvite = false,
 	topPanel = false,
+	topPanelSettings = {
+		transparent = true,
+		height = 22,
+		width = 0
+	},
 	bottomPanel = true,
+	bottomPanelSettings = {
+		transparent = true,
+		height = 22,
+		width = 0
+	},
 	hideErrorFrame = true,
 	enhancedPvpMessages = true,
 	objectiveFrameHeight = 480,
@@ -30,7 +40,6 @@ P.general = {
 	talkingHeadFrameScale = 0.9,
 	talkingHeadFrameBackdrop = false,
 	vehicleSeatIndicatorSize = 128,
-	objectiveTracker = true,
 	resurrectSound = false,
 	questRewardMostValueIcon = true,
 	questXPPercent = true,
@@ -126,7 +135,7 @@ P.general = {
 		spacing = 4,
 	},
 	kittys = false
-};
+}
 
 P.databars = {
 	transparent = true,
@@ -179,9 +188,10 @@ P.databars.experience.hideAtMaxLevel = true
 P.databars.experience.showLevel = false
 P.databars.experience.width = 348
 P.databars.experience.fontSize = 12
+P.databars.experience.showQuestXP = true
+P.databars.experience.questTrackedOnly = false
 P.databars.experience.questCompletedOnly = false
 P.databars.experience.questCurrentZoneOnly = false
-P.databars.experience.questTrackedOnly = false
 
 P.databars.reputation.enable = false
 P.databars.reputation.hideBelowMaxLevel = false
@@ -219,6 +229,9 @@ P.bags = {
 	itemLevelFontOutline = 'MONOCHROMEOUTLINE',
 	itemLevelCustomColorEnable = false,
 	itemLevelCustomColor = { r = 1, g = 1, b = 1 },
+	itemLevelPosition = 'BOTTOMRIGHT',
+	itemLevelxOffset = 0,
+	itemLevelyOffset = 2,
 	itemInfo = true,
 	itemInfoFont = 'Homespun',
 	itemInfoFontSize = 10,
@@ -228,6 +241,9 @@ P.bags = {
 	countFontSize = 10,
 	countFontOutline = 'MONOCHROMEOUTLINE',
 	countFontColor = {r = 1, g = 1, b = 1},
+	countPosition = 'BOTTOMRIGHT',
+	countxOffset = 0,
+	countyOffset = 2,
 	reverseLoot = false,
 	reverseSlots = false,
 	clearSearchOnClose = false,
@@ -298,7 +314,7 @@ P.bags = {
 		justBackpack = false,
 		visibility = '[petbattle] hide; show',
 	},
-};
+}
 
 local NP_Auras = {
 	enable = true,
@@ -765,7 +781,7 @@ P.nameplates = {
 			title = CopyTable(NP_Title),
 		},
 	},
-};
+}
 
 P.nameplates.units.PLAYER.buffs.maxDuration = 300
 P.nameplates.units.PLAYER.buffs.priority = 'Blacklist,blockNoDuration,Personal,TurtleBuffs,PlayerBuffs'
@@ -923,6 +939,7 @@ P.chat = {
 	hideCopyButton = false,
 	useAltKey = false,
 	classColorMentionsChat = true,
+	enableCombatRepeat = true,
 	numAllowedCombatRepeat = 5,
 	useCustomTimeColor = true,
 	customTimeColor = {r = 0.7, g = 0.7, b = 0.7},
@@ -989,6 +1006,9 @@ P.tooltip = {
 	cursorAnchorType = 'ANCHOR_CURSOR',
 	cursorAnchorX = 0,
 	cursorAnchorY = 0,
+	mythicDataEnable = true,
+	dungeonScore = true,
+	dungeonScoreColor = true,
 	alwaysShowRealm = false,
 	targetInfo = true,
 	playerTitles = true,
@@ -1288,7 +1308,7 @@ local UF_RaidRoles = {
 	enable = true,
 	position = 'TOPLEFT',
 	xOffset = 0,
-	yOffset = 0,
+	yOffset = 4,
 }
 
 local UF_Ressurect = {
@@ -2294,7 +2314,7 @@ P.actionbar = {
 		level = 1,
 		strata = 'MEDIUM',
 	}
-};
+}
 
 for i = 1, 10 do
 	P.actionbar['bar'..i] = {

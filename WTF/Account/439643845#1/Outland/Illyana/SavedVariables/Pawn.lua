@@ -1,6 +1,9 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.052,
+	["LastVersion"] = 2.0521,
+	["LastPlayerFullName"] = "Illyana-Outland",
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 178817,
@@ -84,15 +87,12 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:177807::::::::60:577:::1:6706:2:9:60:28:746:::|h[Vyrtha's Dredglaive]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 181687,
-			["Level"] = 138,
+			["ID"] = 177807,
+			["Level"] = 146,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cff0070dd|Hitem:181687::::::::60:577::53:2:7192:6652:2:9:59:28:807:::|h[Gorewrought Warglaive]|h|r",
+			["Link"] = "|cff0070dd|Hitem:177807::::::::60:581:::1:6706:2:9:60:28:746:::|h[Vyrtha's Dredglaive]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Illyana-Outland",
 	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[127829] = {

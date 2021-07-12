@@ -1,6 +1,6 @@
-## Interface: 90005
+## Interface: 90100
 ## Title: BtWQuests: Shadowlands
-## Version: 1.16
+## Version: 3.0
 ## Notes: Shadowlands quest data for BtWQuests
 ## Author: Breen
 ## Dependencies: BtWQuests
@@ -76,6 +76,7 @@ Database/Index.zhCN.lua
 Database/Index.zhTW.lua
 
 Introduction.lua
+ChainsOfDomination.lua
 Bastion.lua
 Maldraxxus.lua
 Ardenweald.lua

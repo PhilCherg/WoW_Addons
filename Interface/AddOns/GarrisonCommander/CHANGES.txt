@@ -1,12 +1,14 @@
-tag 89cd83b9012a3a164151c5e2b01ca66c911fa8a5 3.3.7
+tag 565cc4c3c3ac74603bf4578b8d2af366f59112dd 3.3.9-fixed
 Author:	Alar of Runetotem <alar@aspide.it>
-Date:	Sat Mar 13 15:58:26 2021 +0100
+Date:	Sat Jul 10 20:25:52 2021 +0200
 
-Toc update
+Lua error fixed
 
-commit 8d033b4ab0d248e6cfb44afbff9f208265f1c332
+commit 1b6f6d48aae664e1eb17d0f21e3856f45575bbde
 Author: Alar of Runetotem <alar@aspide.it>
-Date:   Sat Mar 13 15:03:27 2021 +0100
+Date:   Sat Jul 10 20:25:09 2021 +0200
 
-    Toc update to 90005
+    Lua error fix
+    
+    Message: Interface\AddOns\GarrisonCommander\MissionCache.lua:479: 'end' expected (to close 'function' at line 58) near '<eof>'
 

@@ -84,7 +84,7 @@ ServerHop: enabled
 ZoneAchievementTracker: disabled
 StopResetingMyCameraPlease: enabled
 TalentSetManager: enabled
-WorldQuestsList: enabled
+WorldQuestsList: disabled
 DBM-Core: enabled
 DBM-DefaultSkin: enabled
 DBM-GUI: enabled
@@ -263,7 +263,7 @@ ElvUI_AuraBarsMovers: disabled
 ElvUI_CustomTweaks: disabled
 WeakAurasArchive: enabled
 ElvUI_OptionsUI: enabled
-TomCats: enabled
+TomCats: disabled
 TomCats-DarkshoreRares: disabled
 TomCats-Mechagon: disabled
 TomCats-ArathiHighlandsRares: disabled

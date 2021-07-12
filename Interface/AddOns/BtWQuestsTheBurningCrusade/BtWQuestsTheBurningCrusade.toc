@@ -1,6 +1,6 @@
-## Interface: 90005
+## Interface: 90100
 ## Title: BtWQuests: The Burning Crusade
-## Version: 4.2
+## Version: 4.3
 ## Notes: The Burning Crusade quest data for BtWQuests
 ## Author: Breen
 ## Dependencies: BtWQuests

@@ -2,10 +2,11 @@ local Type, Version = "MDTPullButton", 1
 local AceGUI = LibStub and LibStub("AceGUI-3.0", true)
 local MDT = MDT
 local L = MDT.L
+local LibDD = LibStub:GetLibrary("LibUIDropDownMenu-4.0")
 
 
 local width,height = 248,32
-local maxPortraitCount = 8
+local maxPortraitCount = 7
 local tinsert,SetPortraitToTexture,SetPortraitTextureFromCreatureDisplayID,GetItemQualityColor,MouseIsOver = table.insert,SetPortraitToTexture,SetPortraitTextureFromCreatureDisplayID,GetItemQualityColor,MouseIsOver
 local next = next
 
@@ -195,12 +196,12 @@ local methods = {
                     end
 
                     if #MDT:GetSelection() > 1 then
-                        L_EasyMenu(self.multiselectMenu, MDT.main_frame.sidePanel.optionsDropDown, "cursor", 0 , -15, "MENU")
+                        LibDD:EasyMenu(self.multiselectMenu, MDT.main_frame.sidePanel.optionsDropDown, "cursor", 0 , -15, "MENU")
                     else
                         MDT:SetMapSublevel(self.index)
                         MDT:SetSelectionToPull(self.index)
 
-                        L_EasyMenu(self.menu, MDT.main_frame.sidePanel.optionsDropDown, "cursor", 0 , -15, "MENU")
+                        LibDD:EasyMenu(self.menu, MDT.main_frame.sidePanel.optionsDropDown, "cursor", 0 , -15, "MENU")
                     end
 
                 else
@@ -1253,6 +1254,15 @@ local methods = {
             self.percentageFontString:Hide()
         end
     end,
+    ["ShowCountPerHealth"] = function(self,show,count,health)
+        if show then
+            local text = "1.2"
+            self.countPerHealthFontString:SetText(text)
+            --self.countPerHealthFontString:Show()
+        else
+            --self.countPerHealthFontString:Hide()
+        end
+    end,
     ["UpdateColor"] = function(self)
         local colorHex = MDT:RGBToHex(self.color.r,self.color.g,self.color.b)
         local db = MDT:GetDB()
@@ -1400,6 +1410,15 @@ local function Constructor()
     multiPridefulFontString:SetPoint("RIGHT", button, "RIGHT",1,-12)
     multiPridefulFontString:Hide()
 
+    --count per health indicator
+    local countPerHealthFontString = button:CreateFontString(nil,"BACKGROUND",nil)
+    countPerHealthFontString:SetFont("Fonts\\FRIZQT__.TTF", 10,"OUTLINE")
+    countPerHealthFontString:SetTextColor(1, 1, 1, 1);
+    countPerHealthFontString:SetWidth(50)
+    countPerHealthFontString:SetHeight(10)
+    countPerHealthFontString:SetPoint("RIGHT", button, "RIGHT",-28,0)
+    countPerHealthFontString:Hide()
+
 
     --custom colors
     local color = {}
@@ -1415,7 +1434,8 @@ local function Constructor()
         pridefulIcon = pridefulIcon,
         multiPridefulFontString = multiPridefulFontString,
         color = color,
-        type = Type
+        type = Type,
+        countPerHealthFontString = countPerHealthFontString,
     }
     for method, func in pairs(methods) do
         widget[method] = func

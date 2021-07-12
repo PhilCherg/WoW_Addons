@@ -1,7 +1,7 @@
 
 TomCats_Character = {
-	["cvars"] = {
-	},
-	["preferences"] = {
+	["loveisintheair"] = {
+		["preferences"] = {
+		},
 	},
 }

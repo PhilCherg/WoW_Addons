@@ -1,5 +1,5 @@
 --------------------------------------
--- Last Auto Generated: 06/06/2021 18:23:36
+-- Last Auto Generated: 07/07/2021 21:54:03
 --------------------------------------
 local _, core = ...
 local L = core.L
@@ -9,6 +9,123 @@ core.Instances = {
 	--Shadowlands
 	[2] = {
 		Raids = {
+			[2450] = { --Sanctum of Domination
+				name = 1193,
+				boss1 = {
+					name = 2435, --The Tarragrue
+					bossIDs = {},
+					achievement = 14998,
+					players = {},
+					tactics = L["SanctumOfDomination_TheTarragrue"],
+					enabled = true,
+					track = function() core._2450:TheTarragrue() end,
+					partial = false,
+					encounterID = 2423,
+				},
+				boss2 = {
+					name = 2442, --Eye of the Jailer
+					bossIDs = {},
+					achievement = 15065,
+					players = {},
+					tactics = L["SanctumOfDomination_EyeOfTheJailer"],
+					enabled = true,
+					track = function() core._2450:EyeOfTheJailer() end,
+					partial = false,
+					encounterID = 2433,
+					displayInfoFrame = true,
+				},
+				boss3 = {
+					name = 2439, --The Nine
+					bossIDs = {},
+					achievement = 15003,
+					players = {},
+					tactics = L["SanctumOfDomination_TheNine"],
+					enabled = true,
+					track = function() core._2450:TheNine() end,
+					partial = false,
+					encounterID = 2429,
+					displayInfoFrame = true,
+				},
+				boss4 = {
+					name = 2444, --Remnant of Ner'zhul
+					bossIDs = {},
+					achievement = 15058,
+					players = {},
+					tactics = L["SanctumOfDomination_RemnantOfNerzhul"],
+					enabled = true,
+					track = function() core._2450:RemnantOfNerZhul() end,
+					partial = false,
+					encounterID = 2432,
+				},
+				boss5 = {
+					name = 2445, --Soulrender Dormazain
+					bossIDs = {},
+					achievement = 15105,
+					players = {},
+					tactics = L["SanctumOfDomination_SoulrenderDormazain"],
+					enabled = true,
+					track = function() core._2450:SoulrenderDormazain() end,
+					partial = false,
+					encounterID = 2434,
+				},
+				boss6 = {
+					name = 2443, --Painsmith Raznal
+					bossIDs = {},
+					achievement = 15131,
+					players = {},
+					tactics = L["SanctumOfDomination_PainsmithRaznal"],
+					enabled = true,
+					track = function() core._2450:PainsmithRaznal() end,
+					partial = false,
+					encounterID = 2430,
+				},
+				boss7 = {
+					name = 2446, --Guardian of the First Ones
+					bossIDs = {},
+					achievement = 15132,
+					players = {},
+					tactics = L["SanctumOfDomination_GuardianOfTheFirstOnes"],
+					enabled = true,
+					track = function() core._2450:GuardianOfTheFirstOnes() end,
+					partial = false,
+					encounterID = 2436,
+				},
+				boss8 = {
+					name = 2447, --Fatescribe Roh-Kalo
+					bossIDs = {},
+					achievement = 15040,
+					players = {},
+					tactics = L["SanctumOfDomination_FatescribeRohKalo"],
+					enabled = true,
+					track = function() core._2450:FatescribeRohKalo() end,
+					partial = false,
+					encounterID = 2431,
+					displayInfoFrame = true,
+				},
+				boss9 = {
+					name = 2440, --Kel'Thuzad
+					bossIDs = {},
+					achievement = 15108,
+					players = {},
+					tactics = L["SanctumOfDomination_KelThuzad"],
+					enabled = true,
+					track = function() core._2450:KelThuzad() end,
+					partial = false,
+					encounterID = 2422,
+				},
+				boss10 = {
+					name = 2441, --Sylvanas Windrunner
+					bossIDs = {},
+					achievement = 15133,
+					players = {},
+					tactics = L["SanctumOfDomination_SylvanasWindrunner"],
+					enabled = true,
+					track = function() core._2450:SylvanasWindrunner() end,
+					partial = false,
+					encounterID = 2435,
+				},
+			},
+
 			[2296] = { --Castle Nathria
 				name = 1190,
 				boss1 = {
@@ -421,6 +538,63 @@ core.Instances = {
 					partial = false,
 					encounterID = 2390,
 					displayInfoFrame = true,
+				},
+			},
+
+			[2441] = { --Tazavesh the Veiled Market
+				name = 1194,
+				boss1 = {
+					name = L["Instances_Other"], --Mischief!
+					bossIDs = {},
+					achievement = 15190,
+					players = {},
+					tactics = L["TazaveshTheVeiledMarket_Mischief"],
+					enabled = false,
+					track = nil,
+					partial = false,
+				},
+				boss2 = {
+					name = 2437, --Zo'phex the Sentinel
+					bossIDs = {},
+					achievement = 15109,
+					players = {},
+					tactics = L["TazaveshTheVeiledMarket_ZophexTheSentinel"],
+					enabled = true,
+					track = function() core._2441:ZophexTheSentinel() end,
+					partial = false,
+					encounterID = 2425,
+				},
+				boss3 = {
+					name = 2436, --Mailroom Mayhem
+					bossIDs = {},
+					achievement = 15106,
+					players = {},
+					tactics = L["TazaveshTheVeiledMarket_MailroomMayhem"],
+					enabled = false,
+					track = nil,
+					partial = false,
+					encounterID = 2424,
+				},
+				boss4 = {
+					name = 2448, --Hylbrande
+					bossIDs = {},
+					achievement = 15179,
+					players = {},
+					tactics = L["TazaveshTheVeiledMarket_Hylbrande"],
+					enabled = false,
+					track = nil,
+					partial = false,
+					encounterID = 2426,
+				},
+				boss5 = {
+					name = 2455, --So'leah
+					bossIDs = {},
+					achievement = 15178,
+					players = {},
+					tactics = L["TazaveshTheVeiledMarket_Soleah"],
+					enabled = false,
+					track = nil,
+					partial = false,
 				},
 			},
 		},

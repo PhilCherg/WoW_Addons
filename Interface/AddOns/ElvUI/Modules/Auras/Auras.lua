@@ -1,4 +1,4 @@
-local E, L, V, P, G = unpack(select(2, ...)); --Import: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
+local E, L, V, P, G = unpack(select(2, ...)) --Import: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
 local A = E:GetModule('Auras')
 local LSM = E.Libs.LSM
 
@@ -306,11 +306,7 @@ function A:UpdateHeader(header)
 	local db = A.db[header.auraType]
 	local template = format('ElvUIAuraTemplate%d', db.size)
 
-	local colors = db.barColor
-	if E:CheckClassColor(colors.r, colors.g, colors.b) then
-		local classColor = E:ClassColor(E.myclass, true)
-		colors.r, colors.g, colors.b = classColor.r, classColor.g, classColor.b
-	end
+	E:UpdateClassColor(db.barColor)
 
 	if header.filter == 'HELPFUL' then
 		header:SetAttribute('consolidateTo', 0)

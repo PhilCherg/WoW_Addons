@@ -11,13 +11,14 @@ Gladius2DB = {
 		["Asdawdwd - Outland"] = "Asdawdwd - Outland",
 		["Bankeristor - Outland"] = "Bankeristor - Outland",
 		["Asdsaasdf - Outland"] = "Asdsaasdf - Outland",
+		["Lianxia - Draenor"] = "Lianxia - Draenor",
 		["Necrophagus - Outland"] = "Necrophagus - Outland",
 		["Adsfasdfasdf - Outland"] = "Adsfasdfasdf - Outland",
 		["Tempgoddess - Outland"] = "Tempgoddess - Outland",
 		["Presentone - Outland"] = "Presentone - Outland",
 		["Illyana - Outland"] = "Illyana - Outland",
 		["Destruxia - Outland"] = "Destruxia - Outland",
-		["Lianxia - Draenor"] = "Lianxia - Draenor",
+		["Chernakotka - Die Aldor"] = "Chernakotka - Die Aldor",
 		["Necropharia - Outland"] = "Necropharia - Outland",
 		["Serthaxion - Outland"] = "Serthaxion - Outland",
 		["Luminaxia - Outland"] = "Luminaxia - Outland",
@@ -46,11 +47,11 @@ Gladius2DB = {
 		["Phaltraxion - Outland"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 611.5265263182046,
-			},
 			["x"] = {
 				["arena1"] = 876.1779349458666,
+			},
+			["y"] = {
+				["arena1"] = 611.5265263182046,
 			},
 		},
 		["Asdfsadfsadf - Outland"] = {
@@ -107,6 +108,10 @@ Gladius2DB = {
 				["arena1"] = 649.3334184861487,
 			},
 		},
+		["Lianxia - Draenor"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+		},
 		["Necrophagus - Outland"] = {
 			["y"] = {
 				["arena1"] = 602.9931360731716,
@@ -152,16 +157,22 @@ Gladius2DB = {
 		["Destruxia - Outland"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 599.437892650345,
-			},
 			["x"] = {
 				["arena1"] = 830.6667803154487,
 			},
+			["y"] = {
+				["arena1"] = 599.437892650345,
+			},
 		},
-		["Lianxia - Draenor"] = {
+		["Chernakotka - Die Aldor"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
+			["x"] = {
+				["arena1"] = 929.5112231289459,
+			},
+			["y"] = {
+				["arena1"] = 561.0378315550151,
+			},
 		},
 		["Necropharia - Outland"] = {
 			["y"] = {
@@ -176,11 +187,11 @@ Gladius2DB = {
 		["Serthaxion - Outland"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 550.3710612475043,
-			},
 			["x"] = {
 				["arena1"] = 838.4890005380294,
+			},
+			["y"] = {
+				["arena1"] = 550.3710612475043,
 			},
 		},
 		["Luminaxia - Outland"] = {
@@ -198,8 +209,14 @@ Gladius2DB = {
 			["tagsVersion"] = 4,
 		},
 		["Elementior - Outland"] = {
-			["auraVersion"] = 1,
+			["y"] = {
+				["arena1"] = 588.7711223428341,
+			},
 			["tagsVersion"] = 4,
+			["x"] = {
+				["arena1"] = 854.8445676706833,
+			},
+			["auraVersion"] = 1,
 		},
 	},
 }

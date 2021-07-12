@@ -12,10 +12,11 @@ MythicDungeonToolsDB = {
 		["Bankeristor - Outland"] = "Bankeristor - Outland",
 		["Asdsaasdf - Outland"] = "Asdsaasdf - Outland",
 		["Necrophagus - Outland"] = "Necrophagus - Outland",
+		["Adsfasdfasdf - Outland"] = "Adsfasdfasdf - Outland",
 		["Aasdfasdfd - Outland"] = "Aasdfasdfd - Outland",
 		["Illyana - Outland"] = "Illyana - Outland",
 		["Destruxia - Outland"] = "Destruxia - Outland",
-		["Adsfasdfasdf - Outland"] = "Adsfasdfasdf - Outland",
+		["Chernakotka - Die Aldor"] = "Chernakotka - Die Aldor",
 		["Presentone - Outland"] = "Presentone - Outland",
 		["Serthaxion - Outland"] = "Serthaxion - Outland",
 		["Luminaxia - Outland"] = "Luminaxia - Outland",
@@ -97,7 +98,7 @@ MythicDungeonToolsDB = {
 		["MDI"] = {
 			["enabled"] = false,
 		},
-		["currentDifficulty"] = 15,
+		["currentDungeonIdx"] = 35,
 		["maximized"] = false,
 		["presets"] = {
 			[15] = {
@@ -241,6 +242,11 @@ MythicDungeonToolsDB = {
 							["n"] = true,
 						}, -- [7]
 					},
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+					["text"] = "1.4 DOS w/ Skips by Dratnos",
 					["value"] = {
 						["selection"] = {
 							26, -- [1]
@@ -656,11 +662,6 @@ MythicDungeonToolsDB = {
 							}, -- [31]
 						},
 					},
-					["text"] = "1.4 DOS w/ Skips by Dratnos",
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 4,
-					},
 					["difficulty"] = 19,
 				}, -- [2]
 				{
@@ -739,6 +740,11 @@ MythicDungeonToolsDB = {
 						["freeholdJoined"] = false,
 						["freehold"] = 1,
 					},
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+					["text"] = "Route 15",
 					["value"] = {
 						["currentPull"] = 8,
 						["currentSublevel"] = 2,
@@ -884,16 +890,16 @@ MythicDungeonToolsDB = {
 								[10] = {
 									2, -- [1]
 								},
+								["color"] = "3effff",
+								[9] = {
+								},
+								[16] = {
+								},
 								[12] = {
 									3, -- [1]
 									4, -- [2]
 									5, -- [3]
 								},
-								[9] = {
-								},
-								[16] = {
-								},
-								["color"] = "3effff",
 							}, -- [8]
 							{
 								[13] = {
@@ -956,6 +962,12 @@ MythicDungeonToolsDB = {
 								["color"] = "ff3eff",
 								[29] = {
 								},
+								[6] = {
+								},
+								[20] = {
+								},
+								[21] = {
+								},
 								[22] = {
 									6, -- [1]
 									7, -- [2]
@@ -963,12 +975,6 @@ MythicDungeonToolsDB = {
 									8, -- [4]
 									9, -- [5]
 									5, -- [6]
-								},
-								[20] = {
-								},
-								[21] = {
-								},
-								[6] = {
 								},
 								[23] = {
 								},
@@ -1100,11 +1106,6 @@ MythicDungeonToolsDB = {
 							},
 						},
 					},
-					["text"] = "Route 15",
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 4,
-					},
 					["objects"] = {
 						{
 							["n"] = true,
@@ -1194,6 +1195,11 @@ MythicDungeonToolsDB = {
 						}, -- [2]
 					},
 					["difficulty"] = 15,
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+					["text"] = "Pride 3x",
 					["value"] = {
 						["selection"] = {
 							26, -- [1]
@@ -1288,17 +1294,17 @@ MythicDungeonToolsDB = {
 								}, -- [3]
 								[8] = {
 								},
-								[9] = {
-								},
 								[15] = {
+								},
+								[9] = {
 								},
 								["color"] = "ff3e9e",
 							}, -- [7]
 							{
 								["color"] = "3effff",
-								[9] = {
-								},
 								[15] = {
+								},
+								[9] = {
 								},
 								[8] = {
 								},
@@ -1550,11 +1556,6 @@ MythicDungeonToolsDB = {
 							}, -- [1]
 						},
 					},
-					["text"] = "Pride 3x",
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 4,
-					},
 					["mdi"] = {
 						["freeholdJoined"] = false,
 						["freehold"] = 1,
@@ -1757,6 +1758,11 @@ MythicDungeonToolsDB = {
 						["freeholdJoined"] = false,
 						["freehold"] = 1,
 					},
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+					["text"] = "Default 2",
 					["value"] = {
 						["currentPull"] = 22,
 						["currentSublevel"] = 2,
@@ -1847,11 +1853,11 @@ MythicDungeonToolsDB = {
 							}, -- [8]
 							{
 								["color"] = "ff9b3e",
-								[17] = {
-									12, -- [1]
-								},
 								[20] = {
 									1, -- [1]
+								},
+								[17] = {
+									12, -- [1]
 								},
 								[18] = {
 									3, -- [1]
@@ -1861,12 +1867,12 @@ MythicDungeonToolsDB = {
 								[8] = {
 									1, -- [1]
 								},
+								[29] = {
+									1, -- [1]
+								},
 								[9] = {
 									1, -- [1]
 									2, -- [2]
-								},
-								[29] = {
-									1, -- [1]
 								},
 								["color"] = "3e3eff",
 							}, -- [10]
@@ -1965,12 +1971,12 @@ MythicDungeonToolsDB = {
 							}, -- [18]
 							{
 								["color"] = "3effff",
+								[12] = {
+									1, -- [1]
+								},
 								[9] = {
 									4, -- [1]
 									3, -- [2]
-								},
-								[12] = {
-									1, -- [1]
 								},
 								[8] = {
 									3, -- [1]
@@ -2005,11 +2011,6 @@ MythicDungeonToolsDB = {
 							{
 							}, -- [1]
 						},
-					},
-					["text"] = "Default 2",
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 4,
 					},
 					["difficulty"] = 10,
 				}, -- [2]
@@ -2123,24 +2124,6 @@ MythicDungeonToolsDB = {
 					[326874] = {
 					},
 				},
-				[164185] = {
-					[319702] = {
-					},
-					[344874] = {
-					},
-					[319592] = {
-					},
-					[319603] = {
-					},
-					[328206] = {
-					},
-					[319941] = {
-					},
-					[319733] = {
-					},
-					[326389] = {
-					},
-				},
 				[164557] = {
 					[326441] = {
 					},
@@ -2153,6 +2136,24 @@ MythicDungeonToolsDB = {
 					[326440] = {
 					},
 					[326426] = {
+					},
+				},
+				[164185] = {
+					[344874] = {
+					},
+					[319702] = {
+					},
+					[326389] = {
+					},
+					[319603] = {
+					},
+					[328206] = {
+					},
+					[319941] = {
+					},
+					[319733] = {
+					},
+					[319592] = {
 					},
 				},
 				[167611] = {
@@ -2168,11 +2169,11 @@ MythicDungeonToolsDB = {
 					},
 				},
 				[174175] = {
-					[342021] = {
-					},
 					[346866] = {
 					},
 					[342189] = {
+					},
+					[342021] = {
 					},
 				},
 				[167607] = {
@@ -2208,11 +2209,11 @@ MythicDungeonToolsDB = {
 				[164921] = {
 					[322939] = {
 					},
-					[326319] = {
-					},
 					[322938] = {
 					},
 					[322767] = {
+					},
+					[326319] = {
 					},
 				},
 				[166275] = {
@@ -2356,25 +2357,15 @@ MythicDungeonToolsDB = {
 					},
 					[328409] = {
 					},
-					[328539] = {
-					},
 					[336449] = {
+					},
+					[328539] = {
 					},
 					[328475] = {
 					},
 				},
-				[167493] = {
-					[328338] = {
-					},
-					[339155] = {
-					},
-					[328365] = {
-					},
-					[328395] = {
-					},
-					[328651] = {
-					},
-					[336449] = {
+				[168361] = {
+					[330037] = {
 					},
 				},
 				[168572] = {
@@ -2399,16 +2390,24 @@ MythicDungeonToolsDB = {
 					[328986] = {
 					},
 				},
-				[163862] = {
-					[336451] = {
+				[168574] = {
+					[328002] = {
 					},
-					[336449] = {
-					},
-					[328533] = {
+					[327995] = {
 					},
 				},
-				[168361] = {
-					[330037] = {
+				[167493] = {
+					[328338] = {
+					},
+					[339155] = {
+					},
+					[328365] = {
+					},
+					[328395] = {
+					},
+					[328651] = {
+					},
+					[336449] = {
 					},
 				},
 				[168396] = {
@@ -2484,9 +2483,9 @@ MythicDungeonToolsDB = {
 					},
 					[332581] = {
 					},
-					[318949] = {
-					},
 					[320517] = {
+					},
+					[318949] = {
 					},
 					[340358] = {
 					},
@@ -2557,10 +2556,12 @@ MythicDungeonToolsDB = {
 					[328662] = {
 					},
 				},
-				[168574] = {
-					[328002] = {
+				[163862] = {
+					[336451] = {
 					},
-					[327995] = {
+					[336449] = {
+					},
+					[328533] = {
 					},
 				},
 			},
@@ -2633,7 +2634,7 @@ MythicDungeonToolsDB = {
 				},
 			},
 		},
-		["currentDungeonIdx"] = 35,
+		["anchorTo"] = "CENTER",
 		["version"] = 356,
 		["xoffset"] = -161.2519073486328,
 		["currentPreset"] = {
@@ -2641,7 +2642,7 @@ MythicDungeonToolsDB = {
 			[35] = 3,
 			[36] = 2,
 		},
-		["anchorTo"] = "CENTER",
+		["currentDifficulty"] = 15,
 		["yoffset"] = 107.3356246948242,
 	},
 }

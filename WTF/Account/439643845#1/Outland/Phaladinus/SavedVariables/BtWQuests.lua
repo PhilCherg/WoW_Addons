@@ -2,11 +2,13 @@
 BtWQuests_Settings = {
 }
 BtWQuests_AutoLoad = {
-	["BtWQuestsCataclysm"] = false,
-	["BtWQuestsLegion"] = false,
-	["BtWQuestsWarlordsOfDraenor"] = false,
-	["BtWQuestsTheBurningCrusade"] = false,
 	["BtWQuestsShadowlands"] = true,
+	["BtWQuestsWrathOfTheLichKing"] = false,
+	["BtWQuestsWarlordsOfDraenor"] = false,
 	["BtWQuestsMistsOfPandaria"] = false,
+	["BtWQuestsLegion"] = false,
+	["BtWQuestsBattleForAzeroth"] = false,
+	["BtWQuestsCataclysm"] = false,
 	["BtWQuestsBattleForAzerothPrologue"] = false,
+	["BtWQuestsTheBurningCrusade"] = false,
 }

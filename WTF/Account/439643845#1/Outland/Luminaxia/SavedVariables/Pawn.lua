@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.052,
+	["LastVersion"] = 2.0521,
 	["LastPlayerFullName"] = "Luminaxia-Outland",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
@@ -57,10 +57,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:134525::::::::51:258::1:3:1826:1472:3528:1:28:484:::|h[Seal of the Nazjatar Empire]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 84060,
-			["Level"] = 49,
+			["ID"] = 134525,
+			["Level"] = 50,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff1eff00|Hitem:84060::::::::51:258::11:1:3631:2:9:44:28:1759:::|h[Band of Channeled Whispers]|h|r",
+			["Link"] = "|cffa335ee|Hitem:134525::::::::51:258::1:3:1826:1472:3528:1:28:484:::::|h[Seal of the Nazjatar Empire]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 84071,
@@ -69,10 +69,10 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:84071::::::::51:258::11:1:3631:2:9:46:28:1759:::|h[Charm of Ten Songs]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 84075,
-			["Level"] = 50,
+			["ID"] = 84071,
+			["Level"] = 51,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff1eff00|Hitem:84075::::::::51:258::11:1:3631:2:9:45:28:1759:::|h[Relic of Kypari Zar]|h|r",
+			["Link"] = "|cff1eff00|Hitem:84071::::::::51:258::11:1:3631:2:9:46:28:1759:::::|h[Charm of Ten Songs]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 84080,

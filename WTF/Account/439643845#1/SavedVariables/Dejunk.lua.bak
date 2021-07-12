@@ -25,13 +25,22 @@ __DEJUNK_SAVED_VARIABLES__ = {
 		["Xanthoros-Outland"] = {
 			["version"] = 3,
 		},
+		["Phaladinus-Outland"] = {
+			["version"] = 3,
+		},
+		["Shadroxia-Outland"] = {
+			["version"] = 3,
+		},
 		["Necrophagus-Outland"] = {
 			["version"] = 3,
 		},
 		["Destruxia-Outland"] = {
 			["version"] = 3,
 		},
-		["Shadroxia-Outland"] = {
+		["Elementior-Outland"] = {
+			["version"] = 3,
+		},
+		["Chernakotka-Die Aldor"] = {
 			["version"] = 3,
 		},
 		["Luminaxia-Outland"] = {

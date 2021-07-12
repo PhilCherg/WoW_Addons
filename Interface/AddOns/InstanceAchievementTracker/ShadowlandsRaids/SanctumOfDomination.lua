@@ -1,0 +1,324 @@
+--------------------------------------
+-- Namespaces
+--------------------------------------
+local _, core = ...
+local L = core.L
+
+------------------------------------------------------
+---- Sanctum of Domination
+------------------------------------------------------
+core._2450 = {}
+
+------------------------------------------------------
+---- Remnant of Ner'zhul
+------------------------------------------------------
+local goalCounter = 0
+
+------------------------------------------------------
+---- Eye of the Jailer
+------------------------------------------------------
+local allPlayersPhotoFlash = false
+local bossPhotoFlash = false
+local immediateExterminationCast = false
+local playerPhotoFlashCounter = 0
+local playerPhotoFlashUID = {}
+
+------------------------------------------------------
+---- The Nine
+------------------------------------------------------
+local fragmentsOfDestinyCounter = 0
+
+------------------------------------------------------
+---- Soulrender Dormazain
+------------------------------------------------------
+local hellscreamsBurdenCounter = 0
+local hellscremBurdenUID = {}
+local lastPersonToGetHit = ""
+
+------------------------------------------------------
+---- Guardian of the First Ones
+------------------------------------------------------
+local vazzarenTheSeekerDetected = false
+
+------------------------------------------------------
+---- FatescribeRohKalo
+------------------------------------------------------
+local playersWhoHaveNotFailed = nil
+
+function core._2450:TheTarragrue()
+    --Defeat The Tarragrue after entering the mists and reuniting Moriaz with Buttons in the Sanctum of Domination on Normal difficulty or higher.
+
+    if core:getBlizzardTrackingStatus(14998) == true then
+        core:getAchievementSuccess()
+    end
+end
+
+function core._2450:TheNine()
+    --Defeat The Nine after forming a Shard of Destiny from 9 or more Fragments of Destiny in the Sanctum of Domination on Normal difficulty or higher.
+    InfoFrame_UpdateDynamicPlayerList()
+    InfoFrame_SetHeaderCounter(GetSpellLink(350542) .. " " .. L["Core_Counter"],fragmentsOfDestinyCounter,9)
+
+    --Fragments of Destiny Spawned
+    if core.type == "SPELL_AURA_APPLIED"  and core.spellId == 350542 and core.destName ~= nil then
+        fragmentsOfDestinyCounter = fragmentsOfDestinyCounter + 1
+        InfoFrame_IncrementDynamicPlayer(core.destName,1)
+        --core:sendMessage(core.destName .. " " .. L["Shared_HasGained"] .. " " .. GetSpellLink(350542) .. " (" .. fragmentsOfDestinyCounter .. "/9)",true)
+    end
+
+    if core.type == "SPELL_AURA_APPLIED_DOSE" and core.spellId == 350542 and core.destName ~= nil then
+        fragmentsOfDestinyCounter = fragmentsOfDestinyCounter + 1
+        InfoFrame_IncrementDynamicPlayer(core.destName,core.amount)
+        --core:sendMessage(core.destName .. " " .. L["Shared_HasGained"] .. " " .. GetSpellLink(350542) .. " (" .. fragmentsOfDestinyCounter .. "/9)",true)
+    end
+
+    --Fragments of Destiny Despawned
+    if core.type == "SPELL_AURA_REMOVED" and core.spellId == 350542 and core.destName ~= nil then
+        fragmentsOfDestinyCounter = fragmentsOfDestinyCounter - 1
+        InfoFrame_DecrementDynamicPlayer(core.destName,1)
+        --core:sendMessage(core.destName .. " " .. L["Shared_HasLost"] .. " " .. GetSpellLink(350542) .. " (" .. fragmentsOfDestinyCounter .. "/9)",true)
+    end
+
+    if core.type == "SPELL_AURA_REMOVED_DOSE" and core.spellId == 350542 and core.destName ~= nil then
+        fragmentsOfDestinyCounter = fragmentsOfDestinyCounter - 1
+        InfoFrame_DecrementDynamicPlayer(core.destName,core.amount)
+        --core:sendMessage(core.destName .. " " .. L["Shared_HasLost"] .. " " .. GetSpellLink(350542) .. " (" .. fragmentsOfDestinyCounter .. "/9)",true)
+    end
+
+    if core:getBlizzardTrackingStatus(15003) == true then
+        core:getAchievementSuccess()
+    end
+end
+
+function core._2450:EyeOfTheJailer()
+    --Defeat the Eye of the Jailer after using the Scavenged S.E.L.F.I.E. Camera to take a picture of the Eye of the Jailer and the entire raid after it has cast Immediate Extermination in the Sanctum of Domination on Normal difficulty or higher.
+
+    InfoFrame_UpdatePlayersOnInfoFrame()
+    InfoFrame_SetHeaderCounter(L["Shared_PlayersWithBuff"],playerPhotoFlashCounter,core.groupSize)
+
+    if core.type == "SPELL_CAST_SUCCESS" and core.spellId == 348974 and immediateExterminationCast == false then
+        immediateExterminationCast = true
+        core:sendMessage(format(L["Shared_CanNowBeUsed"], GetSpellLink(355379)),true)
+    end
+
+    --Player has gained Photoflash!
+	if core.type == "SPELL_AURA_APPLIED" and core.spellId == 355427 and playerPhotoFlashUID[core.spawn_uid_dest_Player] == nil and core.destName ~= nil then
+		playerPhotoFlashCounter = playerPhotoFlashCounter + 1
+		playerPhotoFlashUID[core.spawn_uid_dest_Player] = core.spawn_uid_dest_Player
+		--core:sendMessage(core.destName .. " " .. L["Shared_HasGained"] .. " " .. GetSpellLink(355427) .. " (" .. playerPhotoFlashCounter .. "/" .. core.groupSize .. ")",true)
+		InfoFrame_SetPlayerComplete(core.destName)
+    end
+
+    if core:getBlizzardTrackingStatus(15065, 1) == true and playerPhotoFlashCounter == core.groupSize then
+        allPlayersPhotoFlash = true
+    end
+
+    if core:getBlizzardTrackingStatus(15065, 2) == true then
+        bossPhotoFlash = true
+    end
+
+    if allPlayersPhotoFlash == true and bossPhotoFlash == true then
+        core:getAchievementSuccess()
+    end
+end
+
+function core._2450:RemnantOfNerZhul()
+    --Defeat the Remnant of Ner'zhul after scoring seven goals in the Sanctum of Domination on Normal difficulty or higher.
+    if core:getBlizzardTrackingStatus(15058, 1) == true then
+        core:getAchievementSuccess()
+    end
+end
+
+function core._2450:PainsmithRaznal()
+    --Defeat Painsmith Raznal after activating the Burning Gibbets in the Sanctum of Domination on Normal difficulty or higher.
+
+    if core:getBlizzardTrackingStatus(15131, 1) == false then
+        core:getAchievementFailed()
+    end
+end
+
+function core._2450:GuardianOfTheFirstOnes()
+    --Defeat the Guardian of the First Ones after enlightening and defeating Vazzaren the Seeker in the Sanctum of Domination in Normal difficulty or higher.
+
+    if (core.sourceID == "180690" or core.destID == "180690") and vazzarenTheSeekerDetected == false then
+        core:sendMessage(format(L["Shared_KillTheAddNow"], getNPCName(180690)),true)
+        vazzarenTheSeekerDetected = true
+    end
+
+    if core:getBlizzardTrackingStatus(15132, 1) == true then
+        core:getAchievementSuccess()
+    end
+end
+
+function core._2450:SoulrenderDormazain()
+    --Defeat Soulrender Dormazain after /taunting Garrosh Hellscream before combat begins and avoiding all Torment impacts in the Sanctum of Domination on Normal difficulty or higher.
+
+    --Check who the last player was to pick up an orb
+    if core.type == "SPELL_AURA_APPLIED" and core.spellId == 350217 and core.destName ~= nil then --353023??
+        lastPersonToGetHit = core.destName
+    end
+
+    --Blizzard Tracker has gone red so achievement failed
+    if core:getBlizzardTrackingStatus(15105, 1) == false then
+        core:getAchievementFailedWithMessageAfter("(" .. lastPersonToGetHit .. ")")
+    end
+end
+
+function core._2450:FatescribeRohKalo()
+    --Defeat Fatescribe Roh-Kalo without taking damage from Fate Fragments, Fated Conjunction, or the explosions from Call of Eternity and Echo of Eternity on Normal difficulty or higher.
+    if playersWhoHaveNotFailed == nil then
+        playersWhoHaveNotFailed = #core.currentBosses[1].players,#core.currentBosses[1]
+    end
+
+    InfoFrame_UpdatePlayersOnInfoFramePersonal()
+    InfoFrame_SetHeaderCounter(L["Shared_PlayersMetCriteria"],playersWhoHaveNotFailed,#core.currentBosses[1].players)
+
+    if core.destName ~= nil then
+        local name, realm = UnitName(core.destName)
+        if core:has_value(core.Instances[core.expansion][core.instanceType][core.instance]["boss8"].players, name) == true then
+            --Call of Eternity (Explosion)
+            if (core.type == "SPELL_DAMAGE" or core.type == "SPELL_MISSED" or core.type == "SPELL_ABSORBED") and core.spellId == 350819 then
+                if core.destName ~= nil then
+                    if UnitIsPlayer(core.destName) then
+                        if InfoFrame_GetPlayerFailed(core.destName) == false then
+                            InfoFrame_SetPlayerFailed(core.destName)
+                            core:sendMessage(format(L["Shared_FailedPersonalAchievement"], core.destName, GetAchievementLink(core.achievementIDs[1]), format(L["Shared_DamageFromAbility"], GetSpellLink(350819))),true)
+                            playersWhoHaveNotFailed = playersWhoHaveNotFailed - 1
+                        end
+                    end
+                end
+            end
+
+            --Fate Fragment
+            if core.type == "SPELL_AURA_APPLIED" and core.spellId == 353162 then
+                if core.destName ~= nil then
+                    if UnitIsPlayer(core.destName) then
+                        if InfoFrame_GetPlayerFailed(core.destName) == false then
+                            InfoFrame_SetPlayerFailed(core.destName)
+                            core:sendMessage(format(L["Shared_FailedPersonalAchievement"], core.destName, GetAchievementLink(core.achievementIDs[1]), format(L["Shared_DamageFromAbility"], GetSpellLink(353162))),true)
+                            playersWhoHaveNotFailed = playersWhoHaveNotFailed - 1
+                        end
+                    end
+                end
+            end
+
+            --Fated Conjunction
+            if core.type == "SPELL_AURA_APPLIED" and core.spellId == 350355 then
+                if core.destName ~= nil then
+                    if UnitIsPlayer(core.destName) then
+                        if InfoFrame_GetPlayerFailed(core.destName) == false then
+                            InfoFrame_SetPlayerFailed(core.destName)
+                            core:sendMessage(format(L["Shared_FailedPersonalAchievement"], core.destName, GetAchievementLink(core.achievementIDs[1]), format(L["Shared_DamageFromAbility"], GetSpellLink(350355))),true)
+                            playersWhoHaveNotFailed = playersWhoHaveNotFailed - 1
+                        end
+                    end
+                end
+            end
+
+            --Echo of Eternity (Explosion)
+            if (core.type == "SPELL_DAMAGE" or core.type == "SPELL_MISSED" or core.type == "SPELL_ABSORBED") and core.spellId == 350826 then
+                if core.destName ~= nil then
+                    if UnitIsPlayer(core.destName) then
+                        if InfoFrame_GetPlayerFailed(core.destName) == false then
+                            InfoFrame_SetPlayerFailed(core.destName)
+                            core:sendMessage(format(L["Shared_FailedPersonalAchievement"], core.destName, GetAchievementLink(core.achievementIDs[1]), format(L["Shared_DamageFromAbility"], GetSpellLink(350826))),true)
+                            playersWhoHaveNotFailed = playersWhoHaveNotFailed - 1
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+
+function core._2450:KelThuzad()
+    --Defeat Kel'Thuzad after thawing the Remnant's heart in the Sanctum of Domination on Normal difficulty or higher.
+
+    if core:getBlizzardTrackingStatus(15108) == true then
+        core:getAchievementSuccess()
+    end
+end
+
+function core._2450:SylvanasWindrunner()
+    --Defeat Sylvanas Windrunner after activating the Focusing Prism in the Sanctum of Domination on Normal difficulty or higher.
+
+    if core:getBlizzardTrackingStatus(15133, 1) == true then
+        core:getAchievementSuccess()
+    end
+end
+
+function core._2450:TrackAdditional()
+    --Soulrender Dormazain -- Hellscream's Burden
+    if (core.type == "SPELL_AURA_APPLIED" or core.type == "SPELL_AURA_REMOVED") and core.spellId == 356731 then
+        core.IATInfoFrame:ToggleOn()
+        core.IATInfoFrame:SetHeading(GetAchievementLink(15105))
+        InfoFrame_SetHeaderCounter(GetSpellLink(356731) .. " " .. L["Core_Counter"],hellscreamsBurdenCounter,core.groupSize)
+        InfoFrame_UpdatePlayersOnInfoFrame()
+
+        --Check all players in group for Hellscream's Burden Buff
+        for player2, status in pairs(core.InfoFrame_PlayersTable) do
+            local buffFound = false
+            local _, _, player_UID2 = strsplit("-", UnitGUID(player2))
+            for i=1,40 do
+                local _, _, count2, _, _, _, _, _, _, spellId = UnitDebuff(player2, i)
+                if spellId == 356731 then
+                    buffFound = true
+                end
+            end
+            if buffFound == true then
+                InfoFrame_SetPlayerComplete(player2)
+                if hellscremBurdenUID[player_UID2] == nil then
+                    hellscremBurdenUID[player_UID2] = player_UID2
+                    hellscreamsBurdenCounter = hellscreamsBurdenCounter + 1
+                end
+            else
+                InfoFrame_SetPlayerFailed(player2)
+                if hellscremBurdenUID[player_UID2] ~= nil then
+                    hellscremBurdenUID[player_UID2] = nil
+                    hellscreamsBurdenCounter = hellscreamsBurdenCounter - 1
+                end
+            end
+        end
+
+        --Update with any changes
+        InfoFrame_SetHeaderCounter(GetSpellLink(356731) .. " " .. L["Core_Counter"],hellscreamsBurdenCounter,core.groupSize)
+        InfoFrame_UpdatePlayersOnInfoFrame()
+    end
+end
+
+function core._2450:ClearVariables()
+    ------------------------------------------------------
+    ---- Remnant of Ner'zhul
+    ------------------------------------------------------
+    goalCounter = 0
+
+    ------------------------------------------------------
+    ---- Eye of the Jailer
+    ------------------------------------------------------
+    allPlayersPhotoFlash = false
+    bossPhotoFlash = false
+    immediateExterminationCast = false
+    playerPhotoFlashCounter = 0
+    playerPhotoFlashUID = {}
+
+    ------------------------------------------------------
+    ---- The Nine
+    ------------------------------------------------------
+    fragmentsOfDestinyCounter = 0
+
+    ------------------------------------------------------
+    ---- Soulrender Dormazain
+    ------------------------------------------------------
+    hellscreamsBurdenCounter = 0
+    hellscremBurdenUID = {}
+    lastPersonToGetHit = ""
+
+    ------------------------------------------------------
+    ---- Guardian of the First Ones
+    ------------------------------------------------------
+    vazzarenTheSeekerDetected = false
+
+    ------------------------------------------------------
+    ---- FatescribeRohKalo
+    ------------------------------------------------------
+    playersWhoHaveNotFailed = nil
+end

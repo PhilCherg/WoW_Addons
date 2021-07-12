@@ -6,6 +6,9 @@ VER 3 000000000000002B "Achiev" "1416161"
 /tar Ghostly Contender
 /challenge
 END
+VER 3 0000000000000037 "Alpaca" "136218"
+/tar Friendly
+END
 VER 3 0000000000000012 "asdasd" "460695"
 /click ExtraActionButton1
 END

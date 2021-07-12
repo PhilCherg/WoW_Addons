@@ -1830,19 +1830,14 @@ function QuestItemMixin:OnEnter(database, item, character, button, frame, toolti
         return ItemMixin.OnEnter(self, database, item, character, button, frame, tooltip)
     end
 
-    if tooltip ~= nil and INTERFACE_NUMBER >= 20000 then
+    if tooltip ~= nil then
         local target = self:GetTarget(database, item)
         local userdata = self:GetUserdata(database, item)
         local link = userdata and userdata.link or (target and self:GetLink(database, item))
-
-        if link and QuestEventListener then
-            QuestEventListener:AddCallback(target:GetID(), function()
-                if button:IsMouseOver() then
-                    tooltip:SetPoint("TOPLEFT", button, "TOPRIGHT")
-                    tooltip:SetOwner(button, "ANCHOR_PRESERVE");
-                    tooltip:SetHyperlink(link, character)
-                end
-            end);
+        if link then
+            tooltip:SetPoint("TOPLEFT", button, "TOPRIGHT")
+            tooltip:SetOwner(button, "ANCHOR_PRESERVE");
+            tooltip:SetHyperlink(link, character)
         end
     end
 end
@@ -3366,6 +3361,17 @@ function Database:SearchScore(a, b)
 
     return (endChar - startChar + 1) / b:len()
 end
+function Database:SearchTargetExists(item)
+    local _, itemType, itemID = strsplit(':', item.link)
+    if itemType == "expansion" then
+        return self:GetExpansionByID(tonumber(itemID)) ~= nil
+    elseif itemType == "category" then
+        return self:GetCategoryByID(tonumber(itemID)) ~= nil
+    elseif itemType == "chain" then
+        return self:GetChainByID(tonumber(itemID)) ~= nil
+    end
+    return true
+end
 local keywords, results, keywordCharacters = {}, {}, {}
 function Database:Search(tbl, query, character)
     local tbl = tbl or {};
@@ -3382,7 +3388,6 @@ function Database:Search(tbl, query, character)
         return tbl;
     end
 
-    local prefix
     local prefixlist
     local start = ""
     for character in gmatch(query, "[\32-\127\192-\247][\128-\191]*") do
@@ -3398,20 +3403,20 @@ function Database:Search(tbl, query, character)
         keywords[#keywords+1] = keyword
     end
 
+    wipe(results);
     if prefixlist == nil then
-        return result
+        return results
     end
     
-    wipe(results);
     local item
     for i=1,#prefixlist do
         item = prefixlist[i]
-        if results[item] == nil and self:IsItemValidForCharacter(item, character) then
+        if results[item] == nil and self:IsItemValidForCharacter(item, character) and self:SearchTargetExists(item) then
             results[item] = 0
         end
     end
 
-    local keyword, result, keywordScore
+    local keyword, result
     for k=1,#keywords do
         keyword = keywords[k]
         -- Filter items based on other keywords
@@ -3422,7 +3427,7 @@ function Database:Search(tbl, query, character)
             if type(item.keywords) == "string" then
                 local keywords = item.keywords
                 
-                local result = {};
+                result = {};
                 for keyword in gmatch(keywords, "[^%s]+") do
                     wipe(keywordCharacters)
                     for character in gmatch(keyword, "[\32-\127\192-\247][\128-\191]*") do

@@ -1,6 +1,5 @@
-## v4.0.14 Changes
+## v4.0.15 Changes
 
-* [Classic] Updated TOC for patch 1.13.7
-* [BCC] Added support for Burning Crusade Classic
+* [Retail] Updated TOC for patch 9.1.0
 
 [Known Issues](http://support.tradeskillmaster.com/display/KB/TSM4+Currently+Known+Issues)

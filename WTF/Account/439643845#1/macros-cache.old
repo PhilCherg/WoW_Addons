@@ -6,6 +6,9 @@ VER 3 000000000000002B "Achiev" "1416161"
 /tar Ghostly Contender
 /challenge
 END
+VER 3 0000000000000037 "Alpaca" "136218"
+/tar Alpaca
+END
 VER 3 0000000000000012 "asdasd" "460695"
 /click ExtraActionButton1
 END
@@ -21,7 +24,7 @@ VER 3 000000000000000F "Command Demon" "236292"
 /cast [@mouseover,exists,nodead] [] Command Demon
 END
 VER 3 000000000000002A "CraftBracers" "135973"
-/run PickupSpell(310877)
+/run PickupSpell(309181)
 END
 VER 3 0000000000000029 "Disenchant" "135952"
 /cast disenchant
@@ -30,6 +33,11 @@ END
 VER 3 000000000000002D "GreatVault" "413587"
 /run LoadAddOn("Blizzard_WeeklyRewards"); WeeklyRewardsFrame:Show()
 END
+VER 3 0000000000000031 "Green Cabbage" "656444"
+#showtooltip Green Cabbage Seeds
+/tar Tilled Soil
+/use Red Blossom Leek Seeds
+END
 VER 3 000000000000001A "Healing Surge" "136044"
 #showtooltip Healing Surge
 /use [@mouseover, exists] Healing Surge
@@ -37,6 +45,10 @@ END
 VER 3 000000000000001B "Healing Wave" "136043"
 #showtooltip Healing Wave
 /use [@mouseover, exists] Healing Wave
+END
+VER 3 0000000000000036 "Kill" "136217"
+/tar Siorin
+/cast Incinerate
 END
 VER 3 0000000000000021 "KIss" "136217"
 /kneel
@@ -74,7 +86,11 @@ END
 VER 3 0000000000000001 "ToggleChat" "134941"
 /run _CHATHIDE=not _CHATHIDE for i=1,NUM_CHAT_WINDOWS do for _,v in pairs{"","Tab"}do local f=_G["ChatFrame"..i..v]if _CHATHIDE then f.v=f:IsVisible()end f.ORShow=f.ORShow or f.Show f.Show=_CHATHIDE and f.Hide or f.ORShow if f.v then f:Show()end end end
 END
-VER 3 0000000000000027 "TSMMacro" "Achievement_Faction_GoldenLotus"
+VER 3 0000000000000030 "Tol Barad" "136203"
+/click MiniMapWorldMapButton
+/script SetMapByID(708)
+END
+VER 3 0000000000000035 "TSMMacro" "Achievement_Faction_GoldenLotus"
 /click TSMCancelAuctionBtn
 /click TSMShoppingBuyoutBtn
 /click TSMCraftingBtn
@@ -83,4 +99,9 @@ VER 3 0000000000000027 "TSMMacro" "Achievement_Faction_GoldenLotus"
 END
 VER 3 0000000000000025 "Uuna" "132089"
 /run local a={50140,50141,50142,50143,50144,50145,50146,50147}for i,q in ipairs(a)do print(format("Uuna World Tour %s: %s",i, IsQuestFlaggedCompleted(q) and "\124cFF00FF00Done\124r" or "\124cFFFF0000Not Done\124r")) end
+END
+VER 3 0000000000000032 "Witchberry" "656679"
+#showtooltip Witchberry Seeds
+/tar Tilled Soil
+/use Witchberry Seeds
 END

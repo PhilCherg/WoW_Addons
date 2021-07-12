@@ -6,7 +6,6 @@ local ACH = E.Libs.ACH
 local ceil = ceil
 local tonumber = tonumber
 local CopyTable = CopyTable
-local GetScreenWidth = GetScreenWidth
 
 local SharedOptions = {
 	enable = ACH:Toggle(L["Enable"], nil, 1),
@@ -25,8 +24,8 @@ SharedOptions.strataAndLevel.args.frameStrata = ACH:Select(L["Frame Strata"], ni
 SharedOptions.strataAndLevel.args.frameLevel = ACH:Range(L["Frame Level"], nil, 2, {min = 1, max = 128, step = 1})
 
 SharedOptions.sizeGroup.inline = true
-SharedOptions.sizeGroup.args.width = ACH:Range(L["Width"], nil, 1, { min = 5, max = ceil(GetScreenWidth() or 800), step = 1 })
-SharedOptions.sizeGroup.args.height = ACH:Range(L["Height"], nil, 2, { min = 5, max = ceil(GetScreenWidth() or 800), step = 1 })
+SharedOptions.sizeGroup.args.width = ACH:Range(L["Width"], nil, 1, { min = 5, max = ceil(E.screenWidth), step = 1 })
+SharedOptions.sizeGroup.args.height = ACH:Range(L["Height"], nil, 2, { min = 5, max = ceil(E.screenWidth), step = 1 })
 SharedOptions.sizeGroup.args.orientation = ACH:Select(L["Statusbar Fill Orientation"], L["Direction the bar moves on gains/losses"], 3, { AUTOMATIC = L["Automatic"], HORIZONTAL = L["Horizontal"], VERTICAL = L["Vertical"] })
 SharedOptions.sizeGroup.args.reverseFill = ACH:Toggle(L["Reverse Fill Direction"], nil, 4)
 
@@ -64,21 +63,23 @@ for i = 1, 8 do
 end
 DataBars.args.colorGroup.args.factionColors.args["9"] = ACH:Color(L["Paragon"], nil, 9, true)
 
-DataBars.args.experience = ACH:Group(L["Experience"], nil, 1, nil, function(info) return DB.db.experience[info[#info]] end, function(info, value) DB.db.experience[info[#info]] = value DB:ExperienceBar_Update() DB:ExperienceBar_QuestXP() DB:UpdateAll() end)
+DataBars.args.experience = ACH:Group(L["Experience"], nil, 1, nil, function(info) return DB.db.experience[info[#info]] end, function(info, value) DB.db.experience[info[#info]] = value DB:ExperienceBar_Update() DB:UpdateAll() end)
 DataBars.args.experience.args = CopyTable(SharedOptions)
 DataBars.args.experience.args.showLevel = ACH:Toggle(L["Level"], nil, 6)
 DataBars.args.experience.args.enable.set = function(info, value) DB.db.experience[info[#info]] = value DB:ExperienceBar_Toggle() DB:UpdateAll() end
 DataBars.args.experience.args.textFormat.set = function(info, value) DB.db.experience[info[#info]] = value DB:ExperienceBar_Update() end
 DataBars.args.experience.args.conditionGroup.get = function(_, key) return DB.db.experience[key] end
-DataBars.args.experience.args.conditionGroup.set = function(_, key, value) DB.db.experience[key] = value DB:ExperienceBar_Update() DB:ExperienceBar_QuestXP() DB:UpdateAll() end
+DataBars.args.experience.args.conditionGroup.set = function(_, key, value) DB.db.experience[key] = value DB:ExperienceBar_Update() DB:UpdateAll() end
 DataBars.args.experience.args.conditionGroup.values = {
-	questCurrentZoneOnly = L["Quests in Current Zone Only"],
-	questCompletedOnly = L["Completed Quests Only"],
-	questTrackedOnly = L["Tracked Quests Only"],
 	hideAtMaxLevel = L["Hide At Max Level"],
-	hideInVehicle = L["Hide In Vehicle"],
 	hideInCombat = L["Hide In Combat"],
 }
+
+DataBars.args.experience.args.questGroup = ACH:Group(L["Quests"], nil, -3, nil, function(info) return DB.db.experience[info[#info]] end, function(info, value) DB.db.experience[info[#info]] = value DB:ExperienceBar_QuestXP() DB:UpdateAll() end)
+DataBars.args.experience.args.questGroup.inline = true
+DataBars.args.experience.args.questGroup.args.showQuestXP = ACH:Toggle(L["Show QuestXP"], nil, 1)
+DataBars.args.experience.args.questGroup.args.questCompletedOnly = ACH:Toggle(L["Completed Quests Only"], nil, 2, nil, nil, nil, nil, nil, function() return not DB.db.experience.showQuestXP end)
+DataBars.args.experience.args.questGroup.args.questsCurrentZoneOnly = ACH:Toggle(L["Quests in Current Zone Only"], nil, 3, nil, nil, nil, nil, nil, function() return not DB.db.experience.showQuestXP end)
 
 DataBars.args.reputation = ACH:Group(L["Reputation"], nil, 2, nil, function(info) return DB.db.reputation[info[#info]] end, function(info, value) DB.db.reputation[info[#info]] = value DB:ReputationBar_Update() DB:UpdateAll() end)
 DataBars.args.reputation.args = CopyTable(SharedOptions)

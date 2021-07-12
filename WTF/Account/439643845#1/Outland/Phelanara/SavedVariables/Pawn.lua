@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.052,
+	["LastVersion"] = 2.0521,
 	["LastPlayerFullName"] = "Phelanara-Outland",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
@@ -57,10 +57,10 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:61474::::::::51:254::11:1:6691:2:9:44:28:1823:::|h[Worldbinder Signet]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 83723,
-			["Level"] = 38,
+			["ID"] = 61474,
+			["Level"] = 50,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff0070dd|Hitem:83723::::::::51:254::11:2:3631:6697:2:9:33:28:1758:::|h[Lao-Chin's Ring]|h|r",
+			["Link"] = "|cff0070dd|Hitem:61474::::::::51:254::11:1:6691:2:9:44:28:1823:::::|h[Worldbinder Signet]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 61433,
@@ -69,10 +69,10 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:61433::::::::51:254::11:1:3631:2:9:44:28:1823:::|h[Insignia of Diplomacy]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 61462,
-			["Level"] = 47,
+			["ID"] = 61433,
+			["Level"] = 49,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff0070dd|Hitem:61462::::::::51:254::11:2:3631:6697:2:9:41:28:1823:::|h[Gear Detector]|h|r",
+			["Link"] = "|cff1eff00|Hitem:61433::::::::51:254::11:1:3631:2:9:44:28:1823:::::|h[Insignia of Diplomacy]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 61477,

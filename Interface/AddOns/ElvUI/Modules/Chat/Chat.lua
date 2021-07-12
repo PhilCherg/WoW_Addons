@@ -1,13 +1,13 @@
-local E, L, V, P, G = unpack(select(2, ...)); --Import: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
+local E, L, V, P, G = unpack(select(2, ...)) --Import: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
 local CH = E:GetModule('Chat')
 local LO = E:GetModule('Layout')
 local Skins = E:GetModule('Skins')
 local LSM = E.Libs.LSM
 
 local _G = _G
-local gsub, strfind, gmatch, format, max = gsub, strfind, gmatch, format, max
+local gsub, strfind, gmatch, format = gsub, strfind, gmatch, format
 local ipairs, sort, wipe, date, time, difftime = ipairs, sort, wipe, date, time, difftime
-local pairs, unpack, select, tostring, pcall, next, tonumber, type = pairs, unpack, select, tostring, pcall, next, tonumber, type
+local pairs, unpack, select, pcall, next, tonumber, type = pairs, unpack, select, pcall, next, tonumber, type
 local strlower, strsub, strlen, strupper, strtrim, strmatch = strlower, strsub, strlen, strupper, strtrim, strmatch
 local tinsert, tremove, tconcat = tinsert, tremove, table.concat
 
@@ -47,19 +47,22 @@ local RemoveExtraSpaces = RemoveExtraSpaces
 local RemoveNewlines = RemoveNewlines
 local ToggleFrame = ToggleFrame
 local ToggleQuickJoinPanel = ToggleQuickJoinPanel
-local UnitExists, UnitIsUnit = UnitExists, UnitIsUnit
+local UnitExists = UnitExists
 local UnitGroupRolesAssigned = UnitGroupRolesAssigned
-local IsActivePlayerMentor = IsActivePlayerMentor
+local UnitIsGroupLeader = UnitIsGroupLeader
+local UnitIsUnit = UnitIsUnit
 local UnitName = UnitName
 
-local C_DateAndTime_GetCurrentCalendarTime = C_DateAndTime.GetCurrentCalendarTime
-local C_PlayerMentorship_IsActivePlayerConsideredNewcomer = C_PlayerMentorship.IsActivePlayerConsideredNewcomer
 local C_BattleNet_GetAccountInfoByID = C_BattleNet.GetAccountInfoByID
 local C_BattleNet_GetFriendAccountInfo = C_BattleNet.GetFriendAccountInfo
 local C_BattleNet_GetFriendGameAccountInfo = C_BattleNet.GetFriendGameAccountInfo
 local C_BattleNet_GetFriendNumGameAccounts = C_BattleNet.GetFriendNumGameAccounts
 local C_ChatInfo_GetChannelRuleset = C_ChatInfo.GetChannelRuleset
+local C_ChatInfo_GetChannelRulesetForChannelID = C_ChatInfo.GetChannelRulesetForChannelID
+local C_ChatInfo_GetChannelShortcutForChannelID = C_ChatInfo.GetChannelShortcutForChannelID
+local C_ChatInfo_IsChannelRegionalForChannelID = C_ChatInfo.IsChannelRegionalForChannelID
 local C_Club_GetInfoFromLastCommunityChatLine = C_Club.GetInfoFromLastCommunityChatLine
+local C_DateAndTime_GetCurrentCalendarTime = C_DateAndTime.GetCurrentCalendarTime
 local C_LFGList_GetActivityInfo = C_LFGList.GetActivityInfo
 local C_LFGList_GetSearchResultInfo = C_LFGList.GetSearchResultInfo
 local C_SocialGetLastItem = C_Social.GetLastItem
@@ -68,9 +71,12 @@ local C_SocialQueue_GetGroupMembers = C_SocialQueue.GetGroupMembers
 local C_SocialQueue_GetGroupQueues = C_SocialQueue.GetGroupQueues
 local C_VoiceChat_GetMemberName = C_VoiceChat.GetMemberName
 local C_VoiceChat_SetPortraitTexture = C_VoiceChat.SetPortraitTexture
-local ChatChannelRuleset_Mentor = Enum.ChatChannelRuleset.Mentor
 
-local SOCIAL_QUEUE_QUEUED_FOR = gsub(SOCIAL_QUEUE_QUEUED_FOR, ':%s?$', '') --some language have `:` on end
+local CHATCHANNELRULESET_MENTOR = Enum.ChatChannelRuleset.Mentor
+local PLAYERMENTORSHIPSTATUS_NEWCOMER = Enum.PlayerMentorshipStatus.Newcomer
+
+local NPEV2_CHAT_USER_TAG_GUIDE = gsub(NPEV2_CHAT_USER_TAG_GUIDE, '(|A.-|a).+', '%1') -- we only want the icon
+local SOCIAL_QUEUE_QUEUED_FOR = gsub(SOCIAL_QUEUE_QUEUED_FOR, ':%s?$', '') -- some language have `:` on end
 local BNET_CLIENT_WOW = BNET_CLIENT_WOW
 local LFG_LIST_AND_MORE = LFG_LIST_AND_MORE
 local UNKNOWN = UNKNOWN
@@ -214,8 +220,7 @@ do --this can save some main file locals
 		--Light Spring: 50DAD3, 56E580, D8DA33, DFA455, EE8879, F972D1, B855DF, 50DAD3
 		local MelColors = function(t) return specialText(t, 0.31,0.85,0.82, 0.33,0.89,0.50, 0.84,0.85,0.20, 0.87,0.64,0.33, 0.93,0.53,0.47, 0.97,0.44,0.81, 0.72,0.33,0.87, 0.31,0.85,0.82) end
 		--Class: Normal to Negative (Orange->Blue, Red->Cyan, etc)
-		local nm = function(c) return max(1-c,0.15) end
-		local NihiColors = function(class) local c = _G.RAID_CLASS_COLORS[class] local c1,c2,c3, n1,n2,n3 = c.r,c.g,c.b, nm(c.r), nm(c.g), nm(c.b) return function(t) return specialText(t, c1,c2,c3, n1,n2,n3, c1,c2,c3, n1,n2,n3) end end
+		local NihiColors = function(class) local c = E:ClassColor(class,true); local n = E:InverseClassColor(class, true, true); local c1,c2,c3, n1,n2,n3 = c.r,c.g,c.b, n.r,n.g,n.b; return function(t) return specialText(t, c1,c2,c3, n1,n2,n3, c1,c2,c3, n1,n2,n3) end end
 
 		itsSimpy = function() return ElvSimpy, SimpyColors end
 		itsElv = function() return ElvBlue, ElvColors end
@@ -239,7 +244,7 @@ do --this can save some main file locals
 		-- Blazeflack
 		['Blazii-Silvermoon']	= ElvBlue, -- Priest
 		['Chazii-Silvermoon']	= ElvBlue, -- Shaman
-		-- NihilisticPandemonium
+		-- Nihilistzsche
 		['Dirishia-WyrmrestAccord']		= itsTheFlyestNihilist('Warlock'),
 		['Xanikani-WyrmrestAccord']		= itsTheFlyestNihilist('Mage'),
 		['Rikanza-WyrmrestAccord']		= itsTheFlyestNihilist('Monk'),
@@ -247,7 +252,7 @@ do --this can save some main file locals
 		['Cerishia-WyrmrestAccord']		= itsTheFlyestNihilist('Priest'),
 		['Vellilara-WyrmrestAccord']	= itsTheFlyestNihilist('DemonHunter'),
 		['Sayalia-WyrmrestAccord']		= itsTheFlyestNihilist('DeathKnight'),
-		['Pakasta-WyrmrestAccord']		= itsTheFlyestNihilist('Paladin'),
+		['Alledarisa-WyrmrestAccord']	= itsTheFlyestNihilist('Paladin'),
 		['Orlyrala-WyrmrestAccord']		= itsTheFlyestNihilist('Shaman'),
 		['Scerila-WyrmrestAccord']		= itsTheFlyestNihilist('Rogue'),
 		['Ralaniki-WyrmrestAccord']		= itsTheFlyestNihilist('Hunter'),
@@ -276,18 +281,18 @@ do --this can save some main file locals
 		['Merathilîs-Shattrath']	= ElvBlue,		-- [Alliance] Shaman
 		['Róhal-Shattrath']			= ElvGreen,		-- [Alliance] Hunter
 		-- Luckyone
-		['Luckyone-LaughingSkull']		= Clover,
-		['Luckypriest-LaughingSkull']	= Clover,
-		['Luckymonkas-LaughingSkull']	= Clover,
-		['Luckydk-LaughingSkull']		= Clover,
-		['Luckyhunter-LaughingSkull']	= Clover,
-		['Unluckyone-LaughingSkull']	= Clover,
-		['Notlucky-LaughingSkull']		= Clover,
-		['Luckymage-LaughingSkull']		= Clover,
-		['Luckydh-LaughingSkull']		= Clover,
-		['Luckywl-LaughingSkull']		= Clover,
-		['Luckyrogue-LaughingSkull']	= Clover,
-		['Luckypala-LaughingSkull']		= Clover,
+		['Luckyone-LaughingSkull']		= ElvGreen, -- Druid
+		['Luckypriest-LaughingSkull']	= ElvGreen, -- Priest
+		['Luckymonkas-LaughingSkull']	= ElvGreen, -- Monk
+		['Luckydk-LaughingSkull']		= ElvGreen, -- DK
+		['Luckyhunter-LaughingSkull']	= ElvGreen, -- Hunter
+		['Unluckyone-LaughingSkull']	= ElvGreen, -- Shaman
+		['Notlucky-LaughingSkull']		= ElvGreen, -- Warrior
+		['Luckymage-LaughingSkull']		= ElvGreen, -- Mage
+		['Luckydh-LaughingSkull']		= ElvGreen, -- DH
+		['Luckywl-LaughingSkull']		= ElvGreen, -- Warlock
+		['Luckyrogue-LaughingSkull']	= ElvGreen, -- Rogue
+		['Luckypala-LaughingSkull']		= ElvGreen, -- Paladin
 		-- Simpy
 		['Arieva-Cenarius']				= itsSimpy, -- Hunter
 		['Buddercup-Cenarius']			= itsSimpy, -- Rogue
@@ -365,6 +370,8 @@ do --this can save some main file locals
 		['Tirain-Spirestone']	= TyroneBiggums,
 		['Sinth-Spirestone']	= TyroneBiggums,
 		['Tee-Spirestone']		= TyroneBiggums,
+		['Teepac-Area52']		= TyroneBiggums,
+		['Teekettle-Area52']		= TyroneBiggums,
 		-- Mis (NOTE: I will forever have the picture you accidently shared of the manikin wearing a strapon burned in my brain)
 		['Misdîrect-Spirestone']	= itsMis,
 		['Misoracle-Spirestone']	= itsMis,
@@ -506,7 +513,7 @@ do
 		local text = self:GetText()
 		local len = strlen(text)
 
-		if (not repeatedText or not strfind(text, repeatedText, 1, true)) and InCombatLockdown() then
+		if CH.db.enableCombatRepeat and InCombatLockdown() and (not repeatedText or not strfind(text, repeatedText, 1, true)) then
 			local MIN_REPEAT_CHARACTERS = CH.db.numAllowedCombatRepeat
 			if len > MIN_REPEAT_CHARACTERS then
 				local repeatChar = true
@@ -1541,20 +1548,20 @@ end
 -- copied from ChatFrame.lua
 local function GetPFlag(arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13, arg14, arg15, arg16, arg17)
 	-- Renaming for clarity:
-	local specialFlag = arg6;
-	--local zoneChannelID = arg7;
-	--local localChannelID = arg8;
+	local specialFlag = arg6
+	local zoneChannelID = arg7
+	--local localChannelID = arg8
 
 	if specialFlag ~= '' then
 		if specialFlag == 'GM' or specialFlag == 'DEV' then
-			-- Add Blizzard Icon if  this was sent by a GM/DEV
+			-- Add Blizzard Icon if this was sent by a GM/DEV
 			return '|TInterface\\ChatFrame\\UI-ChatIcon-Blizz:12:20:0:0:32:16:4:28:0:16|t '
 		elseif specialFlag == 'GUIDE' then
-			if C_PlayerMentorship_IsActivePlayerConsideredNewcomer() then
-				return _G.NPEV2_CHAT_USER_TAG_GUIDE .. ' ' -- possibly unable to save global string with trailing whitespace...
+			if _G.ChatFrame_GetMentorChannelStatus(CHATCHANNELRULESET_MENTOR, C_ChatInfo_GetChannelRulesetForChannelID(zoneChannelID)) == CHATCHANNELRULESET_MENTOR then
+				return NPEV2_CHAT_USER_TAG_GUIDE
 			end
 		elseif specialFlag == 'NEWCOMER' then
-			if IsActivePlayerMentor() then
+			if _G.ChatFrame_GetMentorChannelStatus(PLAYERMENTORSHIPSTATUS_NEWCOMER, C_ChatInfo_GetChannelRulesetForChannelID(zoneChannelID)) == PLAYERMENTORSHIPSTATUS_NEWCOMER then
 				return _G.NPEV2_CHAT_USER_TAG_NEWCOMER
 			end
 		else
@@ -1562,22 +1569,52 @@ local function GetPFlag(arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, ar
 		end
 	end
 
-	return "";
+	return ""
 end
+
+-- copied from ChatFrame.lua
+local function ChatFrame_CheckAddChannel(chatFrame, eventType, channelID)
+	-- This is called in the event that a user receives chat events for a channel that isn't enabled for any chat frames.
+	-- Minor hack, because chat channel filtering is backed by the client, but driven entirely from Lua.
+	-- This solves the issue of Guides abdicating their status, and then re-applying in the same game session, unless ChatFrame_AddChannel
+	-- is called, the channel filter will be off even though it's still enabled in the client, since abdication removes the chat channel and its config.
+	-- Only add to default (since multiple chat frames receive the event and we don't want to add to others)
+	if chatFrame ~= _G.DEFAULT_CHAT_FRAME then
+		return false
+	end
+
+	-- Only add if the user is joining a channel
+	if eventType ~= "YOU_CHANGED" then
+		return false
+	end
+
+	-- Only add regional channels
+	if not C_ChatInfo_IsChannelRegionalForChannelID(channelID) then
+		return false
+	end
+
+	return _G.ChatFrame_AddChannel(chatFrame, C_ChatInfo_GetChannelShortcutForChannelID(channelID)) ~= nil
+end
+
 
 function CH:ChatFrame_MessageEventHandler(frame, event, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13, arg14, arg15, arg16, arg17, isHistory, historyTime, historyName, historyBTag)
 	-- ElvUI Chat History Note: isHistory, historyTime, historyName, and historyBTag are passed from CH:DisplayChatHistory() and need to be on the end to prevent issues in other addons that listen on ChatFrame_MessageEventHandler.
 	-- we also send isHistory and historyTime into CH:AddMessage so that we don't have to override the timestamp.
+
+	local notChatHistory, historySavedName --we need to extend the arguments on CH.ChatFrame_MessageEventHandler so we can properly handle saved names without overriding
+	if isHistory == 'ElvUI_ChatHistory' then
+		if historyBTag then arg2 = historyBTag end -- swap arg2 (which is a |k string) to btag name
+		historySavedName = historyName
+	else
+		notChatHistory = true
+	end
+
+	if _G.TextToSpeechFrame_MessageEventHandler and notChatHistory then
+		_G.TextToSpeechFrame_MessageEventHandler(frame, event, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13, arg14, arg15, arg16, arg17)
+	end
+
 	if strsub(event, 1, 8) == 'CHAT_MSG' then
 		if arg16 then return true end -- hiding sender in letterbox: do NOT even show in chat window (only shows in cinematic frame)
-
-		local notChatHistory, historySavedName --we need to extend the arguments on CH.ChatFrame_MessageEventHandler so we can properly handle saved names without overriding
-		if isHistory == 'ElvUI_ChatHistory' then
-			if historyBTag then arg2 = historyBTag end -- swap arg2 (which is a |k string) to btag name
-			historySavedName = historyName
-		else
-			notChatHistory = true
-		end
 
 		local chatType = strsub(event, 10)
 		local info = _G.ChatTypeInfo[chatType]
@@ -1612,7 +1649,12 @@ function CH:ChatFrame_MessageEventHandler(frame, event, arg1, arg2, arg3, arg4, 
 
 		local channelLength = strlen(arg4)
 		local infoType = chatType
-		if chatType == 'COMMUNITIES_CHANNEL' or ((strsub(chatType, 1, 7) == 'CHANNEL') and (chatType ~= 'CHANNEL_LIST') and ((arg1 ~= 'INVITE') or (chatType ~= 'CHANNEL_NOTICE_USER'))) then
+
+		if type == 'VOICE_TEXT' then -- the code here looks weird but its how blizzard has it ~Simpy
+			local leader = UnitIsGroupLeader(arg2)
+			infoType, type = _G.VoiceTranscription_DetermineChatTypeVoiceTranscription_DetermineChatType(leader)
+			info = _G.ChatTypeInfo[infoType]
+		elseif chatType == 'COMMUNITIES_CHANNEL' or ((strsub(chatType, 1, 7) == 'CHANNEL') and (chatType ~= 'CHANNEL_LIST') and ((arg1 ~= 'INVITE') or (chatType ~= 'CHANNEL_NOTICE_USER'))) then
 			if arg1 == 'WRONG_PASSWORD' then
 				local _, popup = _G.StaticPopup_Visible('CHAT_CHANNEL_PASSWORD')
 				if popup and strupper(popup.data) == strupper(arg9) then
@@ -1624,11 +1666,13 @@ function CH:ChatFrame_MessageEventHandler(frame, event, arg1, arg2, arg3, arg4, 
 			for index, value in pairs(frame.channelList) do
 				if channelLength > strlen(value) then
 					-- arg9 is the channel name without the number in front...
-					if ((arg7 > 0) and (frame.zoneChannelList[index] == arg7)) or (strupper(value) == strupper(arg9)) then
+					if (arg7 > 0 and frame.zoneChannelList[index] == arg7) or (strupper(value) == strupper(arg9)) then
 						found = true
+
 						infoType = 'CHANNEL'..arg8
 						info = _G.ChatTypeInfo[infoType]
-						if chatType == 'CHANNEL_NOTICE' and (arg1 == 'YOU_LEFT') then
+
+						if chatType == 'CHANNEL_NOTICE' and arg1 == 'YOU_LEFT' then
 							frame.channelList[index] = nil
 							frame.zoneChannelList[index] = nil
 						end
@@ -1636,22 +1680,17 @@ function CH:ChatFrame_MessageEventHandler(frame, event, arg1, arg2, arg3, arg4, 
 					end
 				end
 			end
+
 			if not found or not info then
-				return true
+				local eventType, channelID = arg1, arg7
+				if not ChatFrame_CheckAddChannel(self, eventType, channelID) then
+					return true
+				end
 			end
 		end
 
 		local chatGroup = _G.Chat_GetChatCategory(chatType)
-		local chatTarget
-		if chatGroup == 'CHANNEL' then
-			chatTarget = tostring(arg8)
-		elseif chatGroup == 'WHISPER' or chatGroup == 'BN_WHISPER' then
-			if not(strsub(arg2, 1, 2) == '|K') then
-				chatTarget = strupper(arg2)
-			else
-				chatTarget = arg2
-			end
-		end
+		local chatTarget = _G.FCFManager_GetChatTarget(chatGroup, arg2, arg8)
 
 		if _G.FCFManager_ShouldSuppressMessage(frame, chatGroup, chatTarget) then
 			return true
@@ -1763,10 +1802,10 @@ function CH:ChatFrame_MessageEventHandler(frame, event, arg1, arg2, arg3, arg4, 
 				frame:AddMessage(_G.CHAT_MSG_BLOCK_CHAT_CHANNEL_INVITE, info.r, info.g, info.b, info.id, nil, nil, isHistory, historyTime)
 			end
 		elseif chatType == 'CHANNEL_NOTICE' then
-			local accessID = _G.ChatHistory_GetAccessID(chatGroup, arg8);
-			local typeID = _G.ChatHistory_GetAccessID(infoType, arg8, arg12);
+			local accessID = _G.ChatHistory_GetAccessID(chatGroup, arg8)
+			local typeID = _G.ChatHistory_GetAccessID(infoType, arg8, arg12)
 
-			if arg1 == 'YOU_CHANGED' and C_ChatInfo_GetChannelRuleset(arg8) == ChatChannelRuleset_Mentor then
+			if arg1 == 'YOU_CHANGED' and C_ChatInfo_GetChannelRuleset(arg8) == CHATCHANNELRULESET_MENTOR then
 				_G.ChatFrame_UpdateDefaultChatTarget(frame)
 				_G.ChatEdit_UpdateNewcomerEditBoxHint(frame.editBox)
 			else
@@ -2015,10 +2054,11 @@ function CH:ChatFrame_SystemEventHandler(frame, event, message, ...)
 	return _G.ChatFrame_SystemEventHandler(frame, event, message, ...)
 end
 
-function CH:ChatFrame_OnEvent(...)
-	if CH:ChatFrame_ConfigEventHandler(...) then return end
-	if CH:ChatFrame_SystemEventHandler(...) then return end
-	if CH:ChatFrame_MessageEventHandler(...) then return end
+function CH:ChatFrame_OnEvent(frame, event, ...)
+	if frame.customEventHandler and frame.customEventHandler(frame, event, ...) then return end
+	if CH:ChatFrame_ConfigEventHandler(frame, event, ...) then return end
+	if CH:ChatFrame_SystemEventHandler(frame, event, ...) then return end
+	if CH:ChatFrame_MessageEventHandler(frame, event, ...) then return end
 end
 
 function CH:FloatingChatFrame_OnEvent(...)
@@ -2036,6 +2076,7 @@ function CH:ChatFrame_SetScript(script, func)
 	end
 end
 
+local ignoreChats = {[2]='Log',[3]='Voice'}
 function CH:SetupChat()
 	if not E.private.chat.enable then return end
 
@@ -2046,7 +2087,8 @@ function CH:SetupChat()
 
 		_G.FCFTab_UpdateAlpha(frame)
 
-		if id ~= 2 and not frame.OldAddMessage then
+		local allowHooks = not ignoreChats[id]
+		if allowHooks and not frame.OldAddMessage then
 			--Don't add timestamps to combat log, they don't work.
 			--This usually taints, but LibChatAnims should make sure it doesn't.
 			frame.OldAddMessage = frame.AddMessage
@@ -2054,7 +2096,7 @@ function CH:SetupChat()
 		end
 
 		if not frame.scriptsSet then
-			if id ~= 2 then
+			if allowHooks then
 				frame:SetScript('OnEvent', FloatingChatFrameOnEvent)
 			end
 
@@ -2428,7 +2470,7 @@ function CH:SaveChatHistory(event, ...)
 		tempHistory[51] = CH:GetChatTime()
 
 		local coloredName, battleTag
-		if tempHistory[13] > 0 then coloredName, battleTag = CH:GetBNFriendColor(tempHistory[2], tempHistory[13], true) end
+		if tempHistory[13] and tempHistory[13] > 0 then coloredName, battleTag = CH:GetBNFriendColor(tempHistory[2], tempHistory[13], true) end
 		if battleTag then tempHistory[53] = battleTag end -- store the battletag, only when the person is known by battletag, so we can replace arg2 later in the function
 		tempHistory[52] = coloredName or CH:GetColoredName(event, ...)
 
@@ -2821,7 +2863,7 @@ function CH:ResetVoicePanelAlpha()
 end
 
 function CH:CreateChatVoicePanel()
-	local Holder = CreateFrame('Frame', 'ElvUIChatVoicePanel', E.UIParent, 'BackdropTemplate')
+	local Holder = CreateFrame('Frame', 'ElvUIChatVoicePanel', E.UIParent)
 	Holder:ClearAllPoints()
 	Holder:Point('BOTTOMLEFT', _G.LeftChatPanel, 'TOPLEFT', 0, 1)
 	Holder:Size(30, 86)
@@ -2895,7 +2937,7 @@ function CH:CreateChatVoicePanel()
 end
 
 function CH:BuildCopyChatFrame()
-	local frame = CreateFrame('Frame', 'CopyChatFrame', E.UIParent, 'BackdropTemplate')
+	local frame = CreateFrame('Frame', 'CopyChatFrame', E.UIParent)
 	tinsert(_G.UISpecialFrames, 'CopyChatFrame')
 	frame:SetTemplate('Transparent')
 	frame:Size(700, 200)
@@ -2962,7 +3004,7 @@ function CH:BuildCopyChatFrame()
 		end
 	end)
 
-	local close = CreateFrame('Button', 'CopyChatFrameCloseButton', frame, 'UIPanelCloseButton, BackdropTemplate')
+	local close = CreateFrame('Button', 'CopyChatFrameCloseButton', frame, 'UIPanelCloseButton')
 	close:Point('TOPRIGHT')
 	close:SetFrameLevel(close:GetFrameLevel() + 1)
 	close:EnableMouse(true)
@@ -3277,20 +3319,17 @@ function CH:Initialize()
 		--Increase inset on right side to make room for character count text
 		local insetLeft, insetRight, insetTop, insetBottom = editbox:GetTextInsets()
 		editbox:SetTextInsets(insetLeft, insetRight + 30, insetTop, insetBottom)
-
-		if not editbox.backdrop then
-			editbox:CreateBackdrop(nil, true, nil, nil, nil, nil, true)
-		end
+		editbox:SetTemplate(nil, true)
 
 		if chanName and (chatType == 'CHANNEL') then
 			if chanName == 0 then
-				editbox.backdrop:SetBackdropBorderColor(unpack(E.media.bordercolor))
+				editbox:SetBackdropBorderColor(unpack(E.media.bordercolor))
 			else
 				info = ChatTypeInfo[chatType..chanName]
-				editbox.backdrop:SetBackdropBorderColor(info.r, info.g, info.b)
+				editbox:SetBackdropBorderColor(info.r, info.g, info.b)
 			end
 		else
-			editbox.backdrop:SetBackdropBorderColor(info.r, info.g, info.b)
+			editbox:SetBackdropBorderColor(info.r, info.g, info.b)
 		end
 	end)
 
@@ -3308,7 +3347,7 @@ function CH:Initialize()
 		chatHead:Width(CH.ChatHeadFrame:GetWidth())
 		chatHead:Height(CHAT_HEAD_HEIGHT)
 
-		chatHead.Portrait = CreateFrame('Frame', nil, chatHead, 'BackdropTemplate')
+		chatHead.Portrait = CreateFrame('Frame', nil, chatHead)
 		chatHead.Portrait:Width(CHAT_HEAD_HEIGHT - CH.volumeBarHeight)
 		chatHead.Portrait:Height(CHAT_HEAD_HEIGHT - CH.volumeBarHeight - E.Border*2)
 		chatHead.Portrait:Point('TOPLEFT', chatHead, 'TOPLEFT')

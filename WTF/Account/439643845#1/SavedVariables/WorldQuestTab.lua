@@ -34,6 +34,9 @@ BWQDB = {
 		["Presentone - Outland"] = {
 			["activeProfile"] = 0,
 		},
+		["Adsfasdfasdf - Outland"] = {
+			["activeProfile"] = 0,
+		},
 		["Aasdfasdfd - Outland"] = {
 			["activeProfile"] = 0,
 		},
@@ -43,7 +46,7 @@ BWQDB = {
 		["Destruxia - Outland"] = {
 			["activeProfile"] = 0,
 		},
-		["Adsfasdfasdf - Outland"] = {
+		["Chernakotka - Die Aldor"] = {
 			["activeProfile"] = 0,
 		},
 		["Necrophagus - Outland"] = {
@@ -63,6 +66,7 @@ BWQDB = {
 		},
 	},
 	["global"] = {
+		["updateSeen"] = true,
 		["versionCheck"] = "9.0.08.2",
 		["profiles"] = {
 			[0] = {
@@ -98,10 +102,11 @@ BWQDB = {
 		["Bankeristor - Outland"] = "Default",
 		["Asdsaasdf - Outland"] = "Default",
 		["Presentone - Outland"] = "Default",
+		["Adsfasdfasdf - Outland"] = "Default",
 		["Aasdfasdfd - Outland"] = "Default",
 		["Illyana - Outland"] = "Default",
 		["Destruxia - Outland"] = "Default",
-		["Adsfasdfasdf - Outland"] = "Default",
+		["Chernakotka - Die Aldor"] = "Default",
 		["Necrophagus - Outland"] = "Default",
 		["Serthaxion - Outland"] = "Default",
 		["Luminaxia - Outland"] = "Default",

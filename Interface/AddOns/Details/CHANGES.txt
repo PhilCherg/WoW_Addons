@@ -1,28 +1,10 @@
-tag f6878036da75dda78d50c13578cc18385f1a4815 DetailsRetail.9.0.5.8516.144
+tag 2f07af5e99bd53b7338159800ea7f0cc023461af DetailsRetail.9.1.0.8710.145
 Author:	Tercio Jose <terciob19@hotmail.com>
-Date:	Mon May 31 15:40:31 2021 -0300
+Date:	Sat Jul 10 22:11:02 2021 -0300
 
-commit 361264a5f432c9fda2f52698c4daa0d0c2601e43
+commit caf27f4ff0d7cb7538d096caca69695633cbe7f8
 Author: Tercio Jose <terciob19@hotmail.com>
-Date:   Mon May 31 15:39:20 2021 -0300
+Date:   Sat Jul 10 22:10:37 2021 -0300
 
-    Version stuff
-
-commit 3374a15932e8307b32dd497a0f316fc3faa821ad
-Author: Flamanis <Flamanis@users.noreply.github.com>
-Date:   Mon May 31 13:15:20 2021 -0500
-
-    Tiny Threat Resizing Fixes
-
-commit 3374a15932e8307b32dd497a0f316fc3faa821ad
-Author: Flamanis <Flamanis@users.noreply.github.com>
-Date:   Mon May 31 13:15:20 2021 -0500
-
-    Tiny Threat Resizing Fixes
-
-commit 4b6c229d8b93f2aeaa6442f286b9258469ca4cd1
-Author: Tercio Jose <terciob19@hotmail.com>
-Date:   Sat May 29 20:02:17 2021 -0300
-
-    Old Twitch strings fixed, bar border updated to the new framework border
+    Fixes for Kel'Thuzad and Painsmith encounters
 

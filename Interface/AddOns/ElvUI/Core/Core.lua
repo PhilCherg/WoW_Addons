@@ -1,6 +1,6 @@
 local ElvUI = select(2, ...)
 ElvUI[2] = ElvUI[1].Libs.ACL:GetLocale('ElvUI', ElvUI[1]:GetLocale()) -- Locale doesn't exist yet, make it exist.
-local E, L, V, P, G = unpack(ElvUI); --Import: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
+local E, L, V, P, G = unpack(ElvUI) --Import: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
 
 local _G = _G
 local tonumber, pairs, ipairs, error, unpack, select, tostring = tonumber, pairs, ipairs, error, unpack, select, tostring
@@ -26,12 +26,16 @@ local IsInRaid = IsInRaid
 local SetCVar = SetCVar
 local ReloadUI = ReloadUI
 local UnitGUID = UnitGUID
+local GetBindingKey = GetBindingKey
+local SetBinding = SetBinding
+local SaveBindings = SaveBindings
+local GetCurrentBindingSet = GetCurrentBindingSet
 
 local ERR_NOT_IN_COMBAT = ERR_NOT_IN_COMBAT
 local LE_PARTY_CATEGORY_HOME = LE_PARTY_CATEGORY_HOME
 local LE_PARTY_CATEGORY_INSTANCE = LE_PARTY_CATEGORY_INSTANCE
 local C_ChatInfo_SendAddonMessage = C_ChatInfo.SendAddonMessage
--- GLOBALS: ElvUIPlayerBuffs, ElvUIPlayerDebuffs
+-- GLOBALS: ElvCharacterDB, ElvUIPlayerBuffs, ElvUIPlayerDebuffs
 
 --Modules
 local ActionBars = E:GetModule('ActionBars')
@@ -52,7 +56,7 @@ local LSM = E.Libs.LSM
 
 --Constants
 E.noop = function() end
-E.title = format('|cff1784d1%s |r', 'ElvUI')
+E.title = format('%s%s|r', E.InfoColor, 'ElvUI')
 E.version = tonumber(GetAddOnMetadata('ElvUI', 'Version'))
 E.myfaction, E.myLocalizedFaction = UnitFactionGroup('player')
 E.mylevel = UnitLevel('player')
@@ -66,11 +70,11 @@ E.wowpatch, E.wowbuild = GetBuildInfo()
 E.wowbuild = tonumber(E.wowbuild)
 E.isMacClient = IsMacClient()
 E.IsRetail = WOW_PROJECT_ID == WOW_PROJECT_MAINLINE
-E.screenwidth, E.screenheight = GetPhysicalScreenSize()
-E.resolution = format('%dx%d', E.screenwidth, E.screenheight)
+E.physicalWidth, E.physicalHeight = GetPhysicalScreenSize()
+E.screenWidth, E.screenHeight = GetScreenWidth(), GetScreenHeight()
+E.resolution = format('%dx%d', E.physicalWidth, E.physicalHeight)
 E.NewSign = [[|TInterface\OptionsFrame\UI-OptionsFrame-NewFeatureIcon:14:14|t]] -- not used by ElvUI yet, but plugins like BenikUI and MerathilisUI use it.
 E.TexturePath = [[Interface\AddOns\ElvUI\Media\Textures\]] -- for plugins?
-E.InfoColor = '|cff1784d1'
 E.UserList = {}
 
 -- oUF Defines
@@ -155,7 +159,7 @@ E.GemTypeInfo = {
 --This frame everything in ElvUI should be anchored to for Eyefinity support.
 E.UIParent = CreateFrame('Frame', 'ElvUIParent', _G.UIParent)
 E.UIParent:SetFrameLevel(_G.UIParent:GetFrameLevel())
-E.UIParent:SetSize(_G.UIParent:GetSize())
+E.UIParent:SetSize(E.screenWidth, E.screenHeight)
 E.UIParent:SetPoint('BOTTOM')
 E.UIParent.origHeight = E.UIParent:GetHeight()
 E.snapBars[#E.snapBars + 1] = E.UIParent
@@ -213,13 +217,24 @@ function E:CheckClassColor(r, g, b)
 
 	for class in pairs(_G.RAID_CLASS_COLORS) do
 		if class ~= E.myclass then
-			local colorTable = E:ClassColor(class, true)
-			local red, green, blue = E:GrabColorPickerValues(colorTable.r, colorTable.g, colorTable.b)
+			local color = E:ClassColor(class, true)
+			local red, green, blue = E:GrabColorPickerValues(color.r, color.g, color.b)
 			if red == r and green == g and blue == b then
 				return true
 			end
 		end
 	end
+end
+
+function E:UpdateClassColor(db)
+	if E:CheckClassColor(db.r, db.g, db.b) then
+		local color = E:ClassColor(E.myclass, true)
+		if color then
+			db.r, db.g, db.b = color.r, color.g, color.b
+		end
+	end
+
+	return db
 end
 
 function E:SetColorTable(t, data)
@@ -282,53 +297,18 @@ function E:UpdateMedia()
 	E.media.normTex = LSM:Fetch('statusbar', E.private.general.normTex)
 	E.media.glossTex = LSM:Fetch('statusbar', E.private.general.glossTex)
 
-	--Border Color
-	local border = E.db.general.bordercolor
-	if E:CheckClassColor(border.r, border.g, border.b) then
-		local classColor = E:ClassColor(E.myclass, true)
-		E.db.general.bordercolor.r = classColor.r
-		E.db.general.bordercolor.g = classColor.g
-		E.db.general.bordercolor.b = classColor.b
-	end
+	--Colors
+	E.media.bordercolor = E:SetColorTable(E.media.bordercolor, E:UpdateClassColor(E.db.general.bordercolor))
+	E.media.unitframeBorderColor = E:SetColorTable(E.media.unitframeBorderColor, E:UpdateClassColor(E.db.unitframe.colors.borderColor))
+	E.media.backdropcolor = E:SetColorTable(E.media.backdropcolor, E:UpdateClassColor(E.db.general.backdropcolor))
+	E.media.backdropfadecolor = E:SetColorTable(E.media.backdropfadecolor, E:UpdateClassColor(E.db.general.backdropfadecolor))
 
-	E.media.bordercolor = {border.r, border.g, border.b}
-
-	--UnitFrame Border Color
-	border = E.db.unitframe.colors.borderColor
-	if E:CheckClassColor(border.r, border.g, border.b) then
-		local classColor = E:ClassColor(E.myclass, true)
-		E.db.unitframe.colors.borderColor.r = classColor.r
-		E.db.unitframe.colors.borderColor.g = classColor.g
-		E.db.unitframe.colors.borderColor.b = classColor.b
-	end
-	E.media.unitframeBorderColor = {border.r, border.g, border.b}
-
-	--Backdrop Color
-	E.media.backdropcolor = E:SetColorTable(E.media.backdropcolor, E.db.general.backdropcolor)
-
-	--Backdrop Fade Color
-	E.media.backdropfadecolor = E:SetColorTable(E.media.backdropfadecolor, E.db.general.backdropfadecolor)
-
-	--Value Color
-	local value = E.db.general.valuecolor
-	if E:CheckClassColor(value.r, value.g, value.b) then
-		value = E:ClassColor(E.myclass, true)
-		E.db.general.valuecolor.r = value.r
-		E.db.general.valuecolor.g = value.g
-		E.db.general.valuecolor.b = value.b
-	end
+	local value = E:UpdateClassColor(E.db.general.valuecolor)
+	E.media.rgbvaluecolor = E:SetColorTable(E.media.rgbvaluecolor, value)
+	E.media.hexvaluecolor = E:RGBToHex(value.r, value.g, value.b)
 
 	--Chat Tab Selector Color
-	local selectorColor = E.db.chat.tabSelectorColor
-	if E:CheckClassColor(selectorColor.r, selectorColor.g, selectorColor.b) then
-		selectorColor = E:ClassColor(E.myclass, true)
-		E.db.chat.tabSelectorColor.r = selectorColor.r
-		E.db.chat.tabSelectorColor.g = selectorColor.g
-		E.db.chat.tabSelectorColor.b = selectorColor.b
-	end
-
-	E.media.hexvaluecolor = E:RGBToHex(value.r, value.g, value.b)
-	E.media.rgbvaluecolor = {value.r, value.g, value.b}
+	E:UpdateClassColor(E.db.chat.tabSelectorColor)
 
 	-- Chat Panel Background Texture
 	local LeftChatPanel, RightChatPanel = _G.LeftChatPanel, _G.RightChatPanel
@@ -356,9 +336,9 @@ function E:GeneralMedia_ApplyToAll()
 	E.db.nameplates.font = font
 	--E.db.nameplate.fontSize = fontSize --Dont use this because nameplate font it somewhat smaller than the rest of the font sizes
 	--E.db.nameplate.buffs.font = font
-	--E.db.nameplate.buffs.fontSize = fontSize  --Dont use this because nameplate font it somewhat smaller than the rest of the font sizes
+	--E.db.nameplate.buffs.fontSize = fontSize --Dont use this because nameplate font it somewhat smaller than the rest of the font sizes
 	--E.db.nameplate.debuffs.font = font
-	--E.db.nameplate.debuffs.fontSize = fontSize   --Dont use this because nameplate font it somewhat smaller than the rest of the font sizes
+	--E.db.nameplate.debuffs.fontSize = fontSize --Dont use this because nameplate font it somewhat smaller than the rest of the font sizes
 	E.db.actionbar.font = font
 	--E.db.actionbar.fontSize = fontSize	--This may not look good if a big font size is chosen
 	E.db.auras.buffs.countFont = font
@@ -384,7 +364,7 @@ function E:GeneralMedia_ApplyToAll()
 	E.db.tooltip.healthBar.font = font
 	--E.db.tooltip.healthbar.fontSize = fontSize -- Size is smaller than default
 	E.db.unitframe.font = font
-	--E.db.unitframe.fontSize = fontSize  -- Size is smaller than default
+	--E.db.unitframe.fontSize = fontSize -- Size is smaller than default
 	E.db.unitframe.units.party.rdebuffs.font = font
 	E.db.unitframe.units.raid.rdebuffs.font = font
 	E.db.unitframe.units.raid40.rdebuffs.font = font
@@ -680,7 +660,7 @@ function E:RemoveTableDuplicates(cleanTable, checkTable, generatedKeys)
 		E:Print('Bad argument #1 to \'RemoveTableDuplicates\' (table expected)')
 		return
 	end
-	if type(checkTable) ~=  'table' then
+	if type(checkTable) ~= 'table' then
 		E:Print('Bad argument #2 to \'RemoveTableDuplicates\' (table expected)')
 		return
 	end
@@ -721,7 +701,7 @@ function E:FilterTableFromBlacklist(cleanTable, blacklistTable)
 		E:Print('Bad argument #1 to \'FilterTableFromBlacklist\' (table expected)')
 		return
 	end
-	if type(blacklistTable) ~=  'table' then
+	if type(blacklistTable) ~= 'table' then
 		E:Print('Bad argument #2 to \'FilterTableFromBlacklist\' (table expected)')
 		return
 	end
@@ -900,7 +880,7 @@ do	--Split string by multi-character delimiter (the strsplit / string.split func
 		assert(type (delim) == 'string' and strlen(delim) > 0, 'bad delimiter')
 
 		local start = 1
-		wipe(splitTable)  -- results table
+		wipe(splitTable) -- results table
 
 		-- find each instance of a string followed by the delimiter
 		while true do
@@ -1421,8 +1401,8 @@ end
 
 function E:UpdateLayout(skipCallback)
 	Layout:ToggleChatPanels()
-	Layout:BottomPanelVisibility()
-	Layout:TopPanelVisibility()
+	Layout:UpdateBottomPanel()
+	Layout:UpdateTopPanel()
 	Layout:SetDataPanelStyle()
 
 	if not skipCallback then
@@ -1826,6 +1806,28 @@ function E:DBConversions()
 	end
 
 	-- development converts, always call
+
+	E:ConvertActionBarKeybinds()
+end
+
+function E:ConvertActionBarKeybinds()
+	if not ElvCharacterDB.ConvertKeybindings then
+		for oldKeybind, newKeybind in pairs({ ELVUIBAR6BUTTON = 'ELVUIBAR2BUTTON', EXTRABAR7BUTTON = 'ELVUIBAR7BUTTON', EXTRABAR8BUTTON = 'ELVUIBAR8BUTTON', EXTRABAR9BUTTON = 'ELVUIBAR9BUTTON', EXTRABAR10BUTTON = 'ELVUIBAR10BUTTON' }) do
+			for i = 1, 12 do
+				local keys = { GetBindingKey(format('%s%d', oldKeybind, i)) }
+				if next(keys) then
+					for _, key in pairs(keys) do
+						SetBinding(key, format('%s%d', newKeybind, i))
+					end
+				end
+			end
+		end
+
+		local cur = GetCurrentBindingSet()
+		if cur and cur > 0 then SaveBindings(cur) end
+
+		ElvCharacterDB.ConvertKeybindings = true
+	end
 end
 
 function E:RefreshModulesDB()

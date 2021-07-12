@@ -45,13 +45,12 @@ AchievementTrackerNPCCache = {}
 
 -- Purpose:         Information about the current release. This is mianly used to detect which addon should output messages to chat to avoid spam
 Config.majorVersion = 3						--Addon with a higher major version change have priority over a lower major version
-Config.minorVersion = 24    				--Addon with a minor version change have prioirty over a lower minor version
+Config.minorVersion = 28    				--Addon with a minor version change have prioirty over a lower minor version
 Config.revisionVersion = 0					--Addon with a revision change have the same priorty as a lower revision verison
 Config.releaseType = ""                     --Release type (Alpha, Beta, Release)
 
 -- Purpose:         Used to detect which version of the game the user is running. This is used so we can add features for different versions of the game.
-local _, _, _, tocVersionloc = GetBuildInfo()
-core.tocVersion = tocVersionloc
+core.gameVersion, core.gameBuild, core.gameDate, core.tocVersion = GetBuildInfo()
 
 ------------------------------------------------------
 ---- Localisation
@@ -62,7 +61,7 @@ function Config:getLocalisedInstanceName(instanceID)
 end
 
 function Config:getLocalisedScenarioName(dungeonID)
-    return GetDungeonInfo(dungeonID)
+    return C_LFGInfo.GetDungeonInfo(dungeonID).name
 end
 
 function Config:getLocalisedEncouterName(encounterID,instanceType)
@@ -1061,19 +1060,19 @@ local function SetTabs(frame, numTabs, ...)
     end
 
     --Tabs for other addons
-    local tab = CreateFrame("Button", "InstanceAchievementTrackerTab", frame, "OptionsFrameTabButtonTemplate")
-    tab:SetID(100)                                 --This is used when clicking on the tab to load the correct frames
-    tab:SetText("Dungeons & Raids")  --This select the variables arguments passed into the function. Needs updating each expansion
-    tab:SetScript("OnClick", IAT_OnClick)       --This will run the Tab_OnClick() function once the user has selected a tab so we can load the correct frames into the GUI
-    tab:SetPoint("TOPLEFT")
-    tab:SetPoint("TOPLEFT", frame, "TOPLEFT", 0, 20)
+    -- local tab = CreateFrame("Button", "InstanceAchievementTrackerTab", frame, "OptionsFrameTabButtonTemplate")
+    -- tab:SetID(100)                                 --This is used when clicking on the tab to load the correct frames
+    -- tab:SetText("Dungeons & Raids")  --This select the variables arguments passed into the function. Needs updating each expansion
+    -- tab:SetScript("OnClick", IAT_OnClick)       --This will run the Tab_OnClick() function once the user has selected a tab so we can load the correct frames into the GUI
+    -- tab:SetPoint("TOPLEFT")
+    -- tab:SetPoint("TOPLEFT", frame, "TOPLEFT", 0, 20)
 
-    local tab = CreateFrame("Button", "ExplorationAchievementTrackerTab", _G["InstanceAchievementTrackerTab"], "OptionsFrameTabButtonTemplate")
-    tab:SetID(100)                                 --This is used when clicking on the tab to load the correct frames
-    tab:SetText("Exploration")  --This select the variables arguments passed into the function. Needs updating each expansion
-    tab:SetScript("OnClick", EAT_OnClick)       --This will run the Tab_OnClick() function once the user has selected a tab so we can load the correct frames into the GUI
-    tab:SetPoint("TOPLEFT")
-    tab:SetPoint("TOPLEFT", _G["InstanceAchievementTrackerTab"], "TOPLEFT", 120, 0)
+    -- local tab = CreateFrame("Button", "ExplorationAchievementTrackerTab", _G["InstanceAchievementTrackerTab"], "OptionsFrameTabButtonTemplate")
+    -- tab:SetID(100)                                 --This is used when clicking on the tab to load the correct frames
+    -- tab:SetText("Exploration")  --This select the variables arguments passed into the function. Needs updating each expansion
+    -- tab:SetScript("OnClick", EAT_OnClick)       --This will run the Tab_OnClick() function once the user has selected a tab so we can load the correct frames into the GUI
+    -- tab:SetPoint("TOPLEFT")
+    -- tab:SetPoint("TOPLEFT", _G["InstanceAchievementTrackerTab"], "TOPLEFT", 120, 0)
 
 	Tab_OnClick(_G[frameName.."Tab1"]) --Load in the main frame to begin with
 
@@ -2257,6 +2256,7 @@ function IATInfoFrame:Reset()
     IATInfoFrame:SetSubHeading2()
     IATInfoFrame:SetText2()
     core.InfoFrame_PlayersTable = {}
+    core.InfoFrame_DynamicTable = {}
     core:sendDebugMessage("InfoFrame has been reset")
 end
 

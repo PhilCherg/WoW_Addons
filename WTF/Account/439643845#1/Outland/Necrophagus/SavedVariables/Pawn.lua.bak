@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.052,
+	["LastVersion"] = 2.0521,
 	["ItemLevels"] = {
 		{
 			["ID"] = 178732,
@@ -49,22 +49,22 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178748::::::::60:267::35:5:7375:7359:6652:1540:6646::::|h[Gory Surgeon's Gloves]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 178870,
-			["Level"] = 220,
+			["ID"] = 178736,
+			["Level"] = 226,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:178870::::::::60:267::35:6:7387:7359:6652:7194:1534:6646::::|h[Ritual Bone Band]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178736::::::::60:267::35:6:7389:7359:6652:7194:1540:6646::::|h[Stitchflesh's Misplaced Signet]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 178870,
-			["Level"] = 220,
+			["ID"] = 178736,
+			["Level"] = 226,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:178870:6166:::::::60:267::35:6:7387:7359:6652:7194:1534:6646::::|h[Ritual Bone Band]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178736:6166:::::::60:267::35:6:7389:7359:6652:7194:1540:6646::::|h[Stitchflesh's Misplaced Signet]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 184024,
-			["Level"] = 213,
+			["ID"] = 187447,
+			["Level"] = 233,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cffa335ee|Hitem:184024::::::::60:267::5:4:7188:6652:1485:6646:1:28:2060:::|h[Macabre Sheet Music]|h|r",
+			["Link"] = "|cffa335ee|Hitem:187447::::::::60:267::81:3:6652:1479:6646:1:28:2043:::::|h[Soul Cage Fragment]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 184021,
