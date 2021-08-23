@@ -1,0 +1,18 @@
+tag f74037cf461dd2fb5137d669cea6b94ddd6d7deb 8.8.1-release
+Author:	Hizuro <hizuro@gmx.net>
+Date:	Mon Jul 19 23:22:43 2021 +0200
+
+Tagging as 8.8.1-release
+
+commit 10f47cf45acdd0701843313c261c36919c267495
+Author: Hizuro <hizuro@gmx.net>
+Date:   Mon Jul 19 23:22:25 2021 +0200
+
+    update toc file
+
+commit e6c5a190d229832422c004ed2dfe91db1d7cdfdb
+Author: Hizuro <hizuro@gmx.net>
+Date:   Mon Jul 19 23:21:24 2021 +0200
+
+    minor changes
+

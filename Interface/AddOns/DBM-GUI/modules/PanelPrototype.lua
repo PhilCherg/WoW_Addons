@@ -180,10 +180,10 @@ do
 
 	local function MixinCountTable(baseTable)
 		local result = baseTable
-		for i = 1, #DBM.Counts do
+		for _, count in pairs(DBM:GetCountSounds()) do
 			tinsert(result, {
-				text	= DBM.Counts[i].text,
-				value	= DBM.Counts[i].path
+				text	= count.text,
+				value	= count.path
 			})
 		end
 		return result
@@ -362,6 +362,7 @@ do
 					end
 					local x, y = GetCursorPosition()
 					local scale = UIParent:GetEffectiveScale()
+					GameTooltip:ClearAllPoints()
 					GameTooltip:SetPoint("BOTTOMLEFT", nil, "BOTTOMLEFT", (x / scale) + 5, (y / scale) + 2)
 				end)
 				if GetCursorPosition() - self:GetParent():GetCenter() < -100 then

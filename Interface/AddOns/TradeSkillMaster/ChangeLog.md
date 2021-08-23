@@ -1,6 +1,5 @@
-## v4.11.7 Changes
+## v4.11.11 Changes
 
-* [Retail] Fixed restocking for the new legendary ranks
-* [Retail] Fixed multiple result crafting task crafts
+* [Retail] Fixed the mailing issue from the previous release
 
-[Known Issues](http://support.tradeskillmaster.com/display/KB/TSM4+Currently+Known+Issues)
+[Known Issues](https://support.tradeskillmaster.com/en_US/known_issues)

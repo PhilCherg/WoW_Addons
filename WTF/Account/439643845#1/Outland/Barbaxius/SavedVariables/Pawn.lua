@@ -1,84 +1,96 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0417,
+	["LastVersion"] = 2.0521,
 	["LastPlayerFullName"] = "Barbaxius-Outland",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
-			["ID"] = 122263,
-			["Level"] = 33,
-			["Link"] = "|cff00ccff|Hitem:122263::::::::27:72:::1:582::::|h[Burnished Helm of Might]|h|r",
+			["ID"] = 133451,
+			["Level"] = 124,
+			["Link"] = "|cff0070dd|Hitem:133451::::::::56:73::22:2:7464:6652:2:28:181:9:56:::::|h[Helm of Sanctification]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 122667,
-			["Level"] = 33,
-			["Link"] = "|cff00ccff|Hitem:122667::::::::27:72:::1:582::::|h[Eternal Emberfury Talisman]|h|r",
+			["ID"] = 173142,
+			["Level"] = 100,
+			["Link"] = "|cff1eff00|Hitem:173142::::::::53:73::13:1:3374::::::|h[Quick Laestrite Choker of the Feverflare]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 122388,
-			["Level"] = 33,
-			["Link"] = "|cff00ccff|Hitem:122388::::::::27:72:::1:582::::|h[Burnished Pauldrons of Might]|h|r",
+			["ID"] = 178697,
+			["Level"] = 98,
+			["Link"] = "|cff0070dd|Hitem:178697::::::::53:73::17:3:7217:6771:6652:2:9:51:28:747:::::|h[Prankster's Pauldrons]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 122387,
-			["Level"] = 33,
-			["Link"] = "|cff00ccff|Hitem:122387::::::::27:72:::1:582::::|h[Burnished Breastplate of Might]|h|r",
+			["ID"] = 178814,
+			["Level"] = 104,
+			["Link"] = "|cff0070dd|Hitem:178814::::::::53:73::17:3:7217:6771:6652:2:9:52:28:747:::::|h[Breastplate of Otherworldly Influence]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 16864,
-			["Level"] = 29,
-			["Link"] = "|cffa335ee|Hitem:16864::::::::27:72::::1:28:1004:::|h[Belt of Might]|h|r",
+			["ID"] = 127455,
+			["Level"] = 117,
+			["Link"] = "|cff0070dd|Hitem:127455::::::::55:73::22:2:7464:6652:2:28:181:9:55:::::|h[Girdle of Valorous Deeds]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 122264,
-			["Level"] = 33,
-			["Link"] = "|cff00ccff|Hitem:122264::::::::27:72:::1:582::::|h[Burnished Legplates of Might]|h|r",
+			["ID"] = 178701,
+			["Level"] = 104,
+			["Link"] = "|cff0070dd|Hitem:178701::::::::53:73::17:3:7217:6771:6652:2:9:52:28:747:::::|h[Gormshell Greaves]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 24590,
-			["Level"] = 30,
-			["Link"] = "|cff1eff00|Hitem:24590::::::::27:72:::2:6654:1691:2:9:26:28:1736:::|h[Fireheart Boots of the Fireflash]|h|r",
+			["ID"] = 124027,
+			["Level"] = 117,
+			["Link"] = "|cff0070dd|Hitem:124027::::::::55:73::22:2:7464:6652:2:28:181:9:55:::::|h[Boots of the Righteous Path]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 157745,
-			["Level"] = 16,
-			["Link"] = "|cff1eff00|Hitem:157745::::::::10:71:::::::|h[Warsinger's Vambraces]|h|r",
+			["ID"] = 127177,
+			["Level"] = 110,
+			["Link"] = "|cff0070dd|Hitem:127177::::::::55:73::22:2:7464:6652:2:28:181:9:54:::::|h[Bracers of Dignity]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 25478,
-			["Level"] = 28,
-			["Link"] = "|cff1eff00|Hitem:25478::::::::27:72::11:1:3631:2:9:23:28:1736:::|h[Defender's Gauntlets]|h|r",
+			["ID"] = 127218,
+			["Level"] = 102,
+			["Link"] = "|cff0070dd|Hitem:127218::::::::53:73::22:2:7464:6652:2:28:181:9:53:::::|h[Faith Bearer's Gauntlets]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 25485,
-			["Level"] = 29,
+			["ID"] = 173138,
+			["Level"] = 100,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff1eff00|Hitem:25485::::::::27:72::11:1:3631:2:9:24:28:1736:::|h[Amaan's Signet]|h|r",
+			["Link"] = "|cff1eff00|Hitem:173138::::::::53:73::13:1:3349::::::|h[Deadly Laestrite Band of the Fireflash]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 25047,
-			["Level"] = 22,
+			["ID"] = 173138,
+			["Level"] = 100,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff1eff00|Hitem:25047::::::::27:72:::2:6654:1691:2:9:19:28:1736:::|h[Tourmaline Loop of the Fireflash]|h|r",
+			["Link"] = "|cff1eff00|Hitem:173138::::::::54:73::13:1:3349::::::|h[Deadly Laestrite Band of the Fireflash]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 122361,
-			["Level"] = 33,
+			["ID"] = 177813,
+			["Level"] = 80,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff00ccff|Hitem:122361::::::::27:72:::1:582::::|h[Swift Hand of Justice]|h|r",
+			["Link"] = "|cff1eff00|Hitem:177813::::::::53:73:::3:6907:6652:607:2:9:49:28:1707:::::|h[Hopebreaker's Badge]|h|r",
 		}, -- [13]
-		nil, -- [14]
 		{
-			["ID"] = 122266,
-			["Level"] = 33,
-			["Link"] = "|cff00ccff|Hitem:122266::::::::27:72:::1:582::::|h[Ripped Sandstorm Cloak]|h|r",
+			["ID"] = 177813,
+			["Level"] = 80,
+			["AlsoFitsIn"] = 13,
+			["Link"] = "|cff1eff00|Hitem:177813::::::::54:73:::3:6907:6652:607:2:9:49:28:1707:::::|h[Hopebreaker's Badge]|h|r",
+		}, -- [14]
+		{
+			["ID"] = 127151,
+			["Level"] = 110,
+			["Link"] = "|cff0070dd|Hitem:127151::::::::54:73::22:2:7464:6652:2:28:181:9:54:::::|h[Cloak of Scintillating Auras]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 122349,
-			["Level"] = 33,
-			["Link"] = "|cff00ccff|Hitem:122349::::::::27:72:::1:582::::|h[Bloodied Arcanite Reaper]|h|r",
+			["ID"] = 171382,
+			["Level"] = 100,
+			["AlsoFitsIn"] = 17,
+			["Link"] = "|cff1eff00|Hitem:171382::::::::53:73::13::2:29:36:30:32:::::|h[Ceremonious Rapier]|h|r",
 		}, -- [16]
+		{
+			["ID"] = 171382,
+			["Level"] = 100,
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cff1eff00|Hitem:171382::::::::54:73::13::2:29:36:30:32:::::|h[Ceremonious Rapier]|h|r",
+		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,
 }

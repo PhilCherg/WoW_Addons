@@ -16,17 +16,18 @@ local internal = {
 	cacheShowFriends = nil,
 	cacheShowAll = nil,
 	cacheShowFriendlyNPCs = nil,
-	NAMEPLATE_EVENTS = {
+	nameplateEvents = {
 		"NAME_PLATE_UNIT_ADDED",
 		"NAME_PLATE_UNIT_REMOVED"
 	},
-	EVENTS = {
+	events = {
 		"ADDON_LOADED",
 		"PLAYER_LOGIN",
 		"PLAYER_LOGOUT",
 		"ZONE_CHANGED_NEW_AREA",
 		"PLAYER_FLAGS_CHANGED"
-	}
+	},
+	exportText = "",
 }
 
 -- Cache these so the hook does not trigger internally.
@@ -406,11 +407,11 @@ function CS:OnZoneChanged()
 		AlertFrame:Create()
 		self:SetCVars()
 		self:ReportLastSeen()
-		RegisterEvents(self, internal.NAMEPLATE_EVENTS)
+		RegisterEvents(self, internal.nameplateEvents)
 		internal.nameplateEventsRegistered = true
 	elseif internal.nameplateEventsRegistered then
 		self:ResetCVars()
-		UnregisterEvents(self, internal.NAMEPLATE_EVENTS)
+		UnregisterEvents(self, internal.nameplateEvents)
 		internal.nameplateEventsRegistered = false
 	end
 end
@@ -423,7 +424,7 @@ function CS:OnPlayerLogin()
 		AlertFrame:Create()
 		self:SetCVars()
 		self:ReportLastSeen()
-		RegisterEvents(self, internal.NAMEPLATE_EVENTS)
+		RegisterEvents(self, internal.nameplateEvents)
 		internal.nameplateEventsRegistered = true
 	end
 
@@ -465,9 +466,17 @@ local LOCATIONS = {
 function CS:SetWaypoints()
     local currentUIMapID = C_Map.GetBestMapForUnit("player")
     local mapInfo = C_Map.GetMapInfo(internal.uldumMapID)
+	local icon = "Interface\\AddOns\\CamelSpotter\\Media\\Icon"
+	local icon_size = 12
     if TomTom then
         for _,v in pairs(LOCATIONS) do
-            TomTom:AddWaypoint(internal.uldumMapID, v[1]/100, v[2]/100, { title = "|cffFFDD00Mysterious Camel Figurine|r\n|cffEEE4AECamel Spotter|r", })
+			TomTom:AddWaypoint(internal.uldumMapID, v[1]/100, v[2]/100, {
+				title = "|cffFFDD00Mysterious Camel Figurine|r\n|cffEEE4AECamel Spotter|r",
+				minimap_icon = icon,
+				minimap_icon_size = icon_size,
+				worldmap_icon = icon,
+				worldmap_icon_size = icon_size
+			})
         end
         AddMessage("|cffEEE4AECamel Spotter:|r Waypoints added to "..mapInfo.name..".")
         if currentUIMapID == internal.uldumMapID then
@@ -505,6 +514,7 @@ function CS:CreateExportDialog()
 	frame.EditBox:SetAutoFocus(false)
 	frame.EditBox:SetScript("OnEscapePressed", function() CS.ExportDialog.EditBox:HighlightText(0,0);CS.ExportDialog.animationGroup.Hide:Play() end)
 	frame.EditBox:SetScript("OnEditFocusLost", function() CS.ExportDialog.EditBox:HighlightText(0,0);CS.ExportDialog.animationGroup.Hide:Play() end)
+	frame.EditBox:SetScript("OnTextChanged", function(self) self:SetText(internal.exportText) self:HighlightText() end)
 	local animationGroup = self:AddAnimation(frame)
 	animationGroup.Transition.Translation:SetScript("OnFinished", function()
 		CS.ExportDialog.EditBox:HighlightText()
@@ -576,7 +586,7 @@ end
 
 function CS:ShowExport()
 	local format = "%H:%M, %d.%m.%y"
-	local text = "Server;Found Time;Spawn Time;Mode;Position;Genuine\n"
+	internal.exportText = "Server;Found Time;Spawn Time;Mode;Position;Genuine\n"
 
 	for serverName in pairs(Settings.Servers) do
 		for spawnTime, info in getSortedKeys(Settings.Servers[serverName]) do
@@ -592,16 +602,16 @@ function CS:ShowExport()
 			elseif mode == 4 then
 				modeText = "CT WM On"
 			end
-			text = text .. strjoin(";", tostringall(serverName, date(format, info.time), date(format, spawnTime), modeText, info.x..", "..info.y, real)) .. "\n"
+			internal.exportText = internal.exportText .. strjoin(";", tostringall(serverName, date(format, info.time), date(format, spawnTime), modeText, info.x..", "..info.y, real)) .. "\n"
 		end
 	end
 
 	-- remove \n from last line
-	text = text:sub(1, -2)
+	internal.exportText = internal.exportText:sub(1, -2)
 	if not self.ExportDialog then
 		self:CreateExportDialog()
 	end
-	self.ExportDialog.EditBox:SetText(text)
+	self.ExportDialog.EditBox:SetText(internal.exportText)
 	self.ExportDialog.EditBox:SetHighlightColor(1,0.86,0.43,0.5)
 	self.ExportDialog:Show()
 	self.ExportDialog.animationGroup.Transition:Play()
@@ -657,4 +667,4 @@ function ItemRefTooltip:SetHyperlink(data, ...)
 end
 
 CS:SetScript("OnEvent", CS.OnEvent)
-RegisterEvents(CS, internal.EVENTS)
+RegisterEvents(CS, internal.events)

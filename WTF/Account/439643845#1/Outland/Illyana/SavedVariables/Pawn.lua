@@ -1,9 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0521,
-	["LastPlayerFullName"] = "Illyana-Outland",
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 178817,
@@ -93,7 +90,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:177807::::::::60:581:::1:6706:2:9:60:28:746:::|h[Vyrtha's Dredglaive]|h|r",
 		}, -- [17]
 	},
-	["LastKeybindingsSet"] = 1,
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Illyana-Outland",
 	["Artifacts"] = {
 		[127829] = {
 			["Relics"] = {
@@ -112,6 +111,7 @@ PawnOptions = {
 			["Name"] = "Twinblades of the Deceiver",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "DEMONHUNTER",

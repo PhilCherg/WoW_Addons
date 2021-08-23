@@ -1,17 +1,19 @@
 # AllTheThings
 
-## [SL-2.3.8](https://github.com/DFortun81/AllTheThings/tree/SL-2.3.8) (2021-07-10)
-[Full Changelog](https://github.com/DFortun81/AllTheThings/compare/SL-2.3.7...SL-2.3.8) [Previous Releases](https://github.com/DFortun81/AllTheThings/releases)
+## [SL-2.4.1](https://github.com/DFortun81/AllTheThings/tree/SL-2.4.1) (2021-08-22)
+[Full Changelog](https://github.com/DFortun81/AllTheThings/compare/SL-2.4.0...SL-2.4.1) [Previous Releases](https://github.com/DFortun81/AllTheThings/releases)
 
-### Highlight of this update
-
-Sanctum of Domination Bind-on-Equip items are here, thanks for reports, everyone!
+Nothing groundbreaking this time, mostly just fixes and cleanup of old error reports.
 
 ### Notable changes:
 
-- In a follow up to the previous update, repeated groups of treasures will now have a checkmark when you have opened all treasures in the group until next reset
-- Also fixed a bug that put checkmark on treasures that you haven't opened
-- Recipes which are BoE will properly 'pretend' they are BoP if not collecting Recipes Account-Wide (this is behaviour pre-2.3.5)
-- Some Mark of Honor logic improvements, feel free to do `/att item:137642` (or `/att ` and Shift+Left-click on the MoH to create a link!) and tell us if anything is wrong
-- More rare/Adventure drops, treasure/rare coordinates/descriptions, recipes, dailies, etc
+- Fixes WoD craftables, where the base version is obtainable, but upgraded versions are unobtainable. **Please post in #errors if anything unusual has happened due to this change since it is quite drastic (i.e. unobtainable versions of Items showing up again as available, etc.)**
+- Fixes some Covenant quests
+- Fixed some PvP ensembles/items
+- Fixes to Arathi Basin quests
+- Moved Classic PvP into appropriate PvP->Battlegrounds section
+- Classic PvP & Cataclysm replica Rated Battleground titles are now split
+- Fixed BfA PvP mounts
+- Modified 'Source Locations' logic to always include any obtainable sources, but properly mark them if from a source which does not meet the user's current filters. Additionally, the proper unobtainable icon will always display on unobtainable Sources, even when they meet the user's filters or when in Debug mode
+- Fixed (probably) Azerite Armor caches again ??
 - Various fixes

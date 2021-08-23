@@ -1,6 +1,9 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0521,
+	["LastPlayerFullName"] = "Necrophagus-Outland",
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 178732,
@@ -8,25 +11,25 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178732::::::::60:267::33:6:7359:6652:7194:7352:1534:6646:1:28:1279:::|h[Abominable Visage]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 178827,
-			["Level"] = 223,
-			["Link"] = "|cffa335ee|Hitem:178827::::::::60:267::35:6:7211:6652:7194:1501:5881:6646::::|h[Sin Stained Pendant]|h|r",
+			["ID"] = 185842,
+			["Level"] = 226,
+			["Link"] = "|cffa335ee|Hitem:185842::::::::60:267::23:6:7731:7359:6652:7575:1543:6646:1:28:2042:::::|h[Ornately Engraved Amplifier]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 183020,
-			["Level"] = 220,
-			["Link"] = "|cffa335ee|Hitem:183020::::::::60:267::84:4:7188:6652:1485:6646:1:28:752:::|h[Shawl of the Penitent]|h|r",
+			["ID"] = 186286,
+			["Level"] = 239,
+			["Link"] = "|cffa335ee|Hitem:186286::::::::60:267::5:4:7188:6652:1485:6646::::::|h[Mantle of Arthura's Chosen]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 178354,
-			["Level"] = 207,
-			["Link"] = "|cffa335ee|Hitem:178354::::::::60:267::14:3:6631:1479:6646:1:28:807:::|h[Sinful Gladiator's Silk Vestments]|h|r",
+			["ID"] = 186282,
+			["Level"] = 226,
+			["Link"] = "|cffa335ee|Hitem:186282::::::::60:267::3:4:7189:6652:1472:6646::::::|h[Sacrificer's Sacramental Cassock]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 178804,
-			["Level"] = 220,
-			["Link"] = "|cffa335ee|Hitem:178804::::::::60:267::16:6:7359:6652:7193:7373:1534:6646:1:28:1279:::|h[Fallen Empress's Cord]|h|r",
+			["ID"] = 180109,
+			["Level"] = 246,
+			["Link"] = "|cffa335ee|Hitem:180109::::::::60:267::35:6:7606:7359:42:7576:1560:6646::::::|h[Kin-Tara's Baleful Cord]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 173246,
@@ -34,31 +37,31 @@ PawnOptions = {
 			["Link"] = "|cffff8000|Hitem:173246::::::::60:267::63:5:7038:6649:6648:6718:1522::::|h[Cinderflame Legguards of the Azj'Aqir]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 182979,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:182979::::::::60:267::5:4:7188:6652:1485:6646::::|h[Slippers of the Forgotten Heretic]|h|r",
+			["ID"] = 186281,
+			["Level"] = 239,
+			["Link"] = "|cffa335ee|Hitem:186281::::::::60:267::5:4:7188:6652:1485:6646:1:28:2105:::::|h[Phantasma-Forged Striders]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 178806,
-			["Level"] = 220,
-			["Link"] = "|cffa335ee|Hitem:178806::::::::60:267::35:6:7387:7359:6652:6935:1534:6646::::|h[Contaminated Gauze Wristwraps]|h|r",
+			["ID"] = 186321,
+			["Level"] = 233,
+			["Link"] = "|cffa335ee|Hitem:186321::::::::60:267::3:4:7189:6652:1472:6646:1:28:2044:::::|h[Desecrator's Keening Wristwraps]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 178748,
-			["Level"] = 226,
-			["Link"] = "|cffa335ee|Hitem:178748::::::::60:267::35:5:7375:7359:6652:1540:6646::::|h[Gory Surgeon's Gloves]|h|r",
+			["ID"] = 186288,
+			["Level"] = 239,
+			["Link"] = "|cffa335ee|Hitem:186288::::::::60:267::5:4:7188:6652:1485:6646::::::|h[Grasps of the Clairvoyant Sage]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 178736,
-			["Level"] = 226,
+			["ID"] = 186290,
+			["Level"] = 239,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:178736::::::::60:267::35:6:7389:7359:6652:7194:1540:6646::::|h[Stitchflesh's Misplaced Signet]|h|r",
+			["Link"] = "|cffa335ee|Hitem:186290::::::::60:267::5:5:7188:6652:7574:1485:6646:1:28:2105:::::|h[Sworn Oath of the Nine]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 178736,
-			["Level"] = 226,
+			["ID"] = 186290,
+			["Level"] = 239,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:178736:6166:::::::60:267::35:6:7389:7359:6652:7194:1540:6646::::|h[Stitchflesh's Misplaced Signet]|h|r",
+			["Link"] = "|cffa335ee|Hitem:186290:6166:::::::60:267::5:5:7188:6652:7574:1485:6646:1:28:2105:::::|h[Sworn Oath of the Nine]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 187447,
@@ -67,10 +70,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:187447::::::::60:267::81:3:6652:1479:6646:1:28:2043:::::|h[Soul Cage Fragment]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 184021,
-			["Level"] = 213,
+			["ID"] = 185846,
+			["Level"] = 226,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cffa335ee|Hitem:184021::::::::60:267::5:4:7188:6652:1485:6646:1:28:2060:::|h[Glyph of Assimilation]|h|r",
+			["Link"] = "|cffa335ee|Hitem:185846::::::::60:267::23:5:7731:7359:6652:1543:6646:1:28:2042:::::|h[Miniscule Mailemental in an Envelope]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 183034,
@@ -83,14 +86,12 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178829:6229:::::::60:267::35:5:7416:7359:6652:1537:6646::::|h[Nathrian Ferula]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 178868,
-			["Level"] = 184,
-			["Link"] = "|cffa335ee|Hitem:178868::::::::60:267::23:4:6807:6652:1498:6646:1:28:749:::|h[Deathwalker's Promise]|h|r",
+			["ID"] = 186418,
+			["Level"] = 226,
+			["Link"] = "|cffa335ee|Hitem:186418::::::::60:267::3:4:7189:6652:1472:6646:1:28:2104:::::|h[Guarm's Lost Chew Toy]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Necrophagus-Outland",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128941] = {
 			["Relics"] = {
@@ -132,7 +133,6 @@ PawnOptions = {
 			["Name"] = "Underlight Angler",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "WARLOCK",

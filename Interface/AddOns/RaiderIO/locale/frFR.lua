@@ -1,4 +1,4 @@
--- Generated from CurseForge on Mon Jun 21 19:16:44 UTC 2021
+-- Generated from CurseForge on Tue Aug 10 07:05:11 UTC 2021
 local ns = select(2, ...) ---@type ns @The addon namespace.
 
 if ns:IsSameLocale("frFR") then
@@ -187,6 +187,26 @@ L["RAID_BOSS_NYA_6"] = "Shad'har"
 L["RAID_BOSS_NYA_7"] = "Drest'agath"
 L["RAID_BOSS_NYA_8"] = "Il'gynoth"
 L["RAID_BOSS_NYA_9"] = "Vexiona"
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_SOD_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_SOD_10"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_SOD_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_SOD_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_SOD_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_SOD_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_SOD_6"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_SOD_7"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_SOD_8"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_SOD_9"] = ""--]] 
 L["RAID_BOSS_ULD_1"] = "Taloc"
 L["RAID_BOSS_ULD_2"] = "DAME"
 L["RAID_BOSS_ULD_3"] = "Dévoreur Fétide"
@@ -216,7 +236,7 @@ L["RAIDING_DATA_HEADER"] = "Progression de Raid Raider.io"
 L["RAIDING_DB_MODULES"] = "Base de données du module de Raid"
 L["RELOAD_LATER"] = "Je rechargerai l'interface plus tard"
 L["RELOAD_NOW"] = "Recharger l'interface maintenant"
-L["SEASON_LABEL_1"] = "S1"
+L["SEASON_LABEL_1"] = "S1-P"
 L["SEASON_LABEL_2"] = "S2"
 L["SEASON_LABEL_3"] = "S3"
 L["SEASON_LABEL_4"] = "S4"

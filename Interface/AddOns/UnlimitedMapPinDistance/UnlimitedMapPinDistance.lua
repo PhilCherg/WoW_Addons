@@ -1,7 +1,7 @@
 _UMPD               = {}
 _UMPD.name          = "UMPD"
 _UMPD.addonName     = "Unlimited Map Pin Distance"
-_UMPD.version       = "1.1.1"
+_UMPD.version       = "1.1.2"
 _UMPD.init          = false
 
 do

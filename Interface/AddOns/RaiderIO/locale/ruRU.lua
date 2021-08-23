@@ -1,4 +1,4 @@
--- Generated from CurseForge on Mon Jun 21 19:16:50 UTC 2021
+-- Generated from CurseForge on Tue Aug 10 07:05:15 UTC 2021
 local ns = select(2, ...) ---@type ns @The addon namespace.
 
 if ns:IsSameLocale("ruRU") then
@@ -184,6 +184,16 @@ L["RAID_BOSS_NYA_6"] = "Шад'хар Ненасытный"
 L["RAID_BOSS_NYA_7"] = "Дест'агат"
 L["RAID_BOSS_NYA_8"] = "Ил'гинот, Возрожденная Порча"
 L["RAID_BOSS_NYA_9"] = "Вексиона"
+L["RAID_BOSS_SOD_1"] = "Таррагр"
+L["RAID_BOSS_SOD_10"] = "Сильвана Ветрокрылая"
+L["RAID_BOSS_SOD_2"] = "Око Тюремщика"
+L["RAID_BOSS_SOD_3"] = "Девять"
+L["RAID_BOSS_SOD_4"] = "Душа Нер'зула"
+L["RAID_BOSS_SOD_5"] = "Раздиратель душ Дормацайн"
+L["RAID_BOSS_SOD_6"] = "Кузнец боли Разнал"
+L["RAID_BOSS_SOD_7"] = "Стражница Предвечных"
+L["RAID_BOSS_SOD_8"] = "Писарь Судьбы Ро-Кало"
+L["RAID_BOSS_SOD_9"] = "Кел'Тузад"
 L["RAID_BOSS_ULD_1"] = "Талок"
 L["RAID_BOSS_ULD_2"] = "МАТРИАРХ"
 L["RAID_BOSS_ULD_3"] = "Зловонный пожиратель"

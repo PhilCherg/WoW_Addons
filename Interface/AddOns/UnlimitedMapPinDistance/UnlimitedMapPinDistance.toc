@@ -1,7 +1,7 @@
-## Interface: 90005
+## Interface: 90100
 ## Author: XAM
 ## Title: Unlimited Map Pin Distance
-## Version: 1.1.1
+## Version: 1.1.2
 ## Notes: Removes the 1000 yard limit on pins
 ## SavedVariables: UMPD
 

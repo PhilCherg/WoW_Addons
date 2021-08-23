@@ -1,27 +1,5 @@
 
 ElvCharacterDB = {
-	["ChatEditHistory"] = {
-		"/p is this dungeon bugged?", -- [1]
-		"/p camn someone explain whow this works?", -- [2]
-		"/p invis pot here", -- [3]
-		"/p we skip", -- [4]
-		"/p wtf", -- [5]
-		"/p idk what this dungoen doe", -- [6]
-		"/p smotlio", -- [7]
-		"/p HERO", -- [8]
-		"/p paladin?", -- [9]
-		"/p dont know route?", -- [10]
-		"/p healer afk?", -- [11]
-		"/p mage god", -- [12]
-		"/spit", -- [13]
-		"/p mage troll?", -- [14]
-		"/i its ok", -- [15]
-		"/i we are cutting edge raiders", -- [16]
-		"/i press healing spells", -- [17]
-		"/i on me", -- [18]
-		"/i so i dont die", -- [19]
-		"/p hello shaman", -- [20]
-	},
 	["ChatHistoryLog"] = {
 		{
 			"Boosting to 1400/1600 cheap. Healer or dps. Im 2.7 exp and SL Elite. Gold only /w me", -- [1]
@@ -2202,4 +2180,27 @@ ElvCharacterDB = {
 			[50] = "CHAT_MSG_SAY",
 		}, -- [99]
 	},
+	["ChatEditHistory"] = {
+		"/p is this dungeon bugged?", -- [1]
+		"/p camn someone explain whow this works?", -- [2]
+		"/p invis pot here", -- [3]
+		"/p we skip", -- [4]
+		"/p wtf", -- [5]
+		"/p idk what this dungoen doe", -- [6]
+		"/p smotlio", -- [7]
+		"/p HERO", -- [8]
+		"/p paladin?", -- [9]
+		"/p dont know route?", -- [10]
+		"/p healer afk?", -- [11]
+		"/p mage god", -- [12]
+		"/spit", -- [13]
+		"/p mage troll?", -- [14]
+		"/i its ok", -- [15]
+		"/i we are cutting edge raiders", -- [16]
+		"/i press healing spells", -- [17]
+		"/i on me", -- [18]
+		"/i so i dont die", -- [19]
+		"/p hello shaman", -- [20]
+	},
+	["ConvertKeybindings"] = true,
 }

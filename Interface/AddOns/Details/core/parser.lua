@@ -232,6 +232,8 @@
 			[32175] = 17364, -- shaman Stormstrike (from Turkar on github)
 			[32176] = 17364, -- shaman Stormstrike
 			[45284] = 188196, --shaman lightining bolt overloaded
+
+			[228361] = 228360, --shadow priest void erruption
 		}
 	end
 	
@@ -314,16 +316,17 @@
 		[315197] = true, --> Thing From Beyond --REMOVE ON 9.0
 	}
 
-	local NPCID_SPIKEDBALL = 176581 --remove on 10.0
-	--local NPCID_SPIKEDBALL = 161881 --remove on 10.0 - debug npc
-	local spikeball_cache  = {}
-	spikeball_cache.name_cache = {}
-	spikeball_cache.winners_cache = {}
-	spikeball_cache.spike_counter = 0
-	spikeball_cache.winner_spikeball = false
-	spikeball_cache.ignore_spikeballs = false
+	local NPCID_SPIKEDBALL = 176581 --remove on 10.0 --spikeball npcId
+	--local NPCID_SPIKEDBALL = 161881 --remove on 10.0 - debug npc (maldraxus)
+	--local NPCID_SPIKEDBALL = 167999 --remove on 10.0 - debug npc (echo of sin sire denatrius)
+	--spikeball cache
+	local spikeball_damage_cache  = {
+		npc_cache = {},
+		ignore_spikeballs = 0,
+	}
 
 	local NPCID_KELTHUZAD_FROSTBOUNDDEVOTED = 176703
+	local NPCID_KELTHUZAD_ADDMIMICPLAYERS = 176605
 
 	--> damage spells to ignore
 	local damage_spells_to_ignore = {
@@ -602,20 +605,20 @@
 		end
 
 		--REMOVE ON 10.0
-		if (_current_encounter_id == 2422) then --kel'thuzad
-			if (raid_members_cache[who_serial]) then --attacker is a player
-				if (who_flags and _bit_band(who_flags, 0xA60) ~= 0) then --neutral or hostile and contorlled by npc
-					who_name = who_name .. "*"
-					who_flags = 0xA48
-				end
+			if (_current_encounter_id == 2422) then --kel'thuzad
+				if (raid_members_cache[who_serial]) then --attacker is a player
+					if (who_flags and _bit_band(who_flags, 0xa60) ~= 0) then --neutral or hostile and contorlled by npc
+						who_name = who_name .. "*"
+						who_flags = 0xa48
+					end
 
-			elseif (raid_members_cache[alvo_serial]) then --defender is a player
-				if (alvo_flags and _bit_band(alvo_flags, 0xA60) ~= 0) then --neutral or hostile and contorlled by npc
-					alvo_name = alvo_name .. "*"
-					alvo_flags = 0xA48
+				elseif (raid_members_cache[alvo_serial]) then --defender is a player
+					if (alvo_flags and _bit_band(alvo_flags, 0xa60) ~= 0) then --neutral or hostile and contorlled by npc
+						alvo_name = alvo_name .. "*"
+						alvo_flags = 0xa48
+					end
 				end
 			end
-		end
 		--
 
 		--> npcId check for ignored npcs
@@ -631,148 +634,87 @@
 			end
 
 			if (npcId == NPCID_KELTHUZAD_FROSTBOUNDDEVOTED) then --remove on 10.0
-				alvo_flags = 0xA48
+				alvo_flags = 0xa48
 			end
 
-			if (npcId == NPCID_SPIKEDBALL) then --remove on 10.0
-				if (spikeball_cache.ignore_spikeballs) then
-					if (spikeball_cache.ignore_spikeballs > GetTime()) then
+			if (npcId == NPCID_KELTHUZAD_ADDMIMICPLAYERS) then --remove on 10.0
+				alvo_name = "Tank Add"
+			end
+
+			if (npcId == NPCID_SPIKEDBALL) then --remove on 10.0, all this IF block
+				if (spikeball_damage_cache.ignore_spikeballs) then
+					if (spikeball_damage_cache.ignore_spikeballs > GetTime()) then
 						return
 					end
 				end
 
-				--actor name
-				local spikeName = spikeball_cache.name_cache[alvo_serial]
-				if (not spikeName) then
-					spikeball_cache.spike_counter = spikeball_cache.spike_counter + 1
-					spikeName = alvo_name .. " " .. spikeball_cache.spike_counter
-					spikeball_cache.name_cache[alvo_serial] = spikeName
+				local npcDamage = spikeball_damage_cache.npc_cache[alvo_serial]
+				if (not npcDamage) then
+					npcDamage = {}
+					spikeball_damage_cache.npc_cache[alvo_serial] = npcDamage
 				end
 
-				alvo_name = spikeName
+				amount = (amount-overkill)
+
+				local damageTable = npcDamage[who_serial]
+				if (not damageTable) then
+					damageTable = {total = 0, spells = {}}
+					npcDamage[who_serial] = damageTable
+				end
+				
+				damageTable.total = damageTable.total + amount
+				damageTable.spells[spellid] = (damageTable.spells[spellid] or 0) + amount
 
 				--check if this spike ball is a winner
 				if (overkill > -1) then
-					--ignore new spike balls for 20 seconds
-					spikeball_cache.ignore_spikeballs = GetTime()+20
+					--cooldown to kill another spikeball again
+					spikeball_damage_cache.ignore_spikeballs = GetTime()+20
 
-					--merge winner spike balls
-					if (not spikeball_cache.winner_spikeball) then
-						local spikeBallObject = damage_cache[alvo_serial]
-						if (spikeBallObject) then
-							--spikeBallObject.displayName = originalName
-							spikeball_cache.winner_spikeball = spikeBallObject
-						else
-							print(6, "Details! winner spike ball doesn't exists. Nice coding bro!")
-						end
+					local playerNames = {}
+					local totalDamageTaken = 0
 
-						amount = (amount-overkill)
+					--award the damage of the spikeball dead to all players which have done damage to it
+					for playerSerial, damageTable in pairs(npcDamage) do
+						local actorObject = damage_cache[playerSerial]
+						if (actorObject) then
+							playerNames[actorObject.nome] = true
+							totalDamageTaken = totalDamageTaken + damageTable.total
 
-						local playerObject = damage_cache[who_serial]
-						if (playerObject) then
-							playerObject.total = playerObject.total + amount
-							playerObject.targets[alvo_name] = (playerObject.targets[alvo_name] or 0) + amount
-							local spellTable = playerObject.spells._ActorTable[spellid]
-							if (spellTable) then
-								spellTable.total = spellTable.total + amount
-								spellTable.targets[alvo_name] = (spellTable.targets[alvo_name] or 0) + amount
-							end
-						end
-						spikeball_cache.winner_spikeball.damage_taken = spikeball_cache.winner_spikeball.damage_taken + amount
+							actorObject.total = actorObject.total + damageTable.total
+							actorObject.targets[alvo_name] = (actorObject.targets[alvo_name] or 0) + damageTable.total
 
-					else
-						amount = (amount-overkill)
+							for spellid, damageDone in pairs(damageTable.spells) do
+								local spellObject = actorObject.spells._ActorTable[spellid]
 
-						local playerObject = damage_cache[who_serial]
-						if (playerObject) then
-							playerObject.total = playerObject.total + amount
-							playerObject.targets[alvo_name] = (playerObject.targets[alvo_name] or 0) + amount
-							local spellTable = playerObject.spells._ActorTable[spellid]
-							if (spellTable) then
-								spellTable.total = spellTable.total + amount
-								spellTable.targets[alvo_name] = (spellTable.targets[alvo_name] or 0) + amount
-							end
-						end
-						spikeball_cache.winner_spikeball.damage_taken = spikeball_cache.winner_spikeball.damage_taken + amount
-
-						--there's a second winner ball, merge both
-						local thisRoundWinnerSpikeBall = damage_cache[alvo_serial]
-						local firstWinnerName = spikeball_cache.winner_spikeball.nome
-						local thisRoundWinnerName = thisRoundWinnerSpikeBall.nome
-
-						--copy damage from
-						for damageFromName in pairs(thisRoundWinnerSpikeBall.damage_from) do
-							--the first winner ball get the "damage from" from this winner
-							spikeball_cache.winner_spikeball.damage_from[damageFromName] = true
-
-							local actorObject = _current_combat[1]:GetActor(damageFromName)
-							if (actorObject) then
-								--get the damage done on the winner ball of this round and transfer the damage done into the first winner
-								local damageDone = actorObject.targets[thisRoundWinnerName] or 0
-								actorObject.targets[firstWinnerName] = (actorObject.targets[firstWinnerName] or 0) + damageDone
-								actorObject.targets[thisRoundWinnerName] = nil
-
-								--spells
-								for _, spellTable in pairs(actorObject.spells._ActorTable) do
-									local damageDone = spellTable.targets[thisRoundWinnerName] or 0
-									spellTable.targets[thisRoundWinnerName] =  nil
-									spellTable.targets[firstWinnerName] = (spellTable.targets[firstWinnerName] or 0) + damageDone
+								if (not spellObject) then
+									spellObject = actorObject.spells:PegaHabilidade(spellid, true, token)
 								end
-							end
-						end
 
-						spikeball_cache.winner_spikeball.damage_taken = spikeball_cache.winner_spikeball.damage_taken + thisRoundWinnerSpikeBall.damage_taken
-
-						thisRoundWinnerSpikeBall.total = 0
-						thisRoundWinnerSpikeBall.damage_taken = 0
-						spikeball_cache.winners_cache[thisRoundWinnerSpikeBall] = true
-					end
-
-					--/run GameTooltip:SetPoint("BOTTOMRIGHT", UIParent, "BOTTOMRIGHT", -13, 250) to remove the tooltip above details!
-
-					--delete loser spike balls
-					local container = _current_combat[1]._ActorTable
-					for i = #container, 1, -1 do
-						local spikeBall = container[i]
-						if (spikeBall) then
-							--check if the actor is a spike ball
-							if (tonumber(spikeBall.aID) == npcId) then
-								if (spikeball_cache.winner_spikeball ~= spikeBall and not spikeball_cache.winners_cache[spikeBall]) then
-
-									for actorName in pairs(spikeBall.damage_from) do
-										local actorObject = _current_combat[1]:GetActor(actorName)
-										if (actorObject) then
-											--remove from the damage from
-											spikeBall.damage_from[actorName] = nil
-
-											--remove from targets
-											local damageDone = actorObject.targets[spikeBall.nome] or 0
-											actorObject.targets[spikeBall.nome] = nil
-
-											--remove from damage done
-											actorObject.total = actorObject.total - damageDone
-
-											--reduce from spells
-											for _, spellTable in pairs(actorObject.spells._ActorTable) do
-												local damageDone = spellTable[spikeBall.nome] or 0
-												spellTable.total = spellTable.total - damageDone
-											end
-										end
-									end
-
-									--reset the damage taken amount
-									spikeBall.damage_taken = 0
-									spikeBall.total = 0
+								if (spellObject) then
+									spellObject.total = spellObject.total + damageDone
+									spellObject.targets[alvo_name] = (spellObject.targets[alvo_name] or 0) + damageDone
 								end
 							end
 						end
 					end
 
-					--_current_combat[1]:Remap()
+					--get or create the spikeball object; add the damage_from and damage taken
+					local spikeBall = damage_cache[alvo_serial]
+					if (not spikeBall) then
+						spikeBall = _current_damage_container:PegarCombatente(alvo_serial, alvo_name, alvo_flags, true)
+						damage_cache[alvo_serial] = spikeBall
+					end
+					if (spikeBall) then
+						spikeBall.damage_taken = spikeBall.damage_taken + totalDamageTaken
+						for playerName in pairs(playerNames) do
+							spikeBall.damage_from[playerName] = true
+						end
+					end
+
 					Details:RefreshMainWindow(-1, true)
-					return
 				end
 
+				return
 			end
 
 			--source
@@ -786,20 +728,10 @@
 			end
 
 			if (npcId == NPCID_KELTHUZAD_FROSTBOUNDDEVOTED) then --remove on 10.0
-				who_flags = 0xA48
+				who_flags = 0xa48
 			end
-
-			if (npcId == NPCID_SPIKEDBALL) then --remove on 10.0
-				print(1, "npc id match (IS ATTACK)")
-
-				--actor name
-				local spikeName = spikeball_cache.name_cache[who_serial]
-				if (not spikeName) then
-					spikeball_cache.spike_counter = spikeball_cache.spike_counter + 1
-					spikeName = who_name .. " " .. spikeball_cache.spike_counter
-					spikeball_cache.name_cache[who_serial] = spikeName
-				end
-				who_name = spikeName
+			if (npcId == NPCID_KELTHUZAD_ADDMIMICPLAYERS) then --remove on 10.0
+				who_name = "Tank Add"
 			end
 
 		--> avoid doing spellID checks on each iteration
@@ -823,21 +755,21 @@
 	
 		if (not _in_combat) then
 			if (	token ~= "SPELL_PERIODIC_DAMAGE" and
-				( 
+				(
 					(who_flags and _bit_band (who_flags, AFFILIATION_GROUP) ~= 0 and _UnitAffectingCombat (who_name) )
 					or 
-					(alvo_flags and _bit_band (alvo_flags, AFFILIATION_GROUP) ~= 0 and _UnitAffectingCombat (alvo_name) ) 
+					(alvo_flags and _bit_band (alvo_flags, AFFILIATION_GROUP) ~= 0 and _UnitAffectingCombat (alvo_name) )
 					or
 					(not _detalhes.in_group and who_flags and _bit_band (who_flags, AFFILIATION_GROUP) ~= 0)
 				)
-			) then 
+			) then
 				--> n�o entra em combate se for DOT
-				if (_detalhes.encounter_table.id and _detalhes.encounter_table ["start"] >= _GetTime() - 3 and _detalhes.announce_firsthit.enabled) then
+				if (_detalhes.encounter_table.id and _detalhes.encounter_table ["start"] >= GetTime() - 3 and _detalhes.announce_firsthit.enabled) then
 					local link
 					if (spellid <= 10) then
-						link = _GetSpellInfo (spellid)
+						link = GetSpellInfo(spellid)
 					else
-						link = GetSpellLink (spellid)
+						link = GetSpellLink(spellid)
 					end
 					
 					if (_detalhes.WhoAggroTimer) then
@@ -894,7 +826,6 @@
 							damage_cache [who_name] = este_jogador
 							local _, _, icon = _GetSpellInfo (spellid or 1)
 							este_jogador.spellicon = icon
-							--print ("no serial actor", spellname, who_name, "added to cache.")
 						else
 							--_detalhes:Msg ("Unknown actor with unknown serial ", spellname, who_name)
 						end
@@ -908,8 +839,6 @@
 		end
 
 		if (not este_jogador) then
-			--print ("no ente_jogador")
-			--print (token, time, who_serial, who_name, who_flags, alvo_serial, alvo_name, alvo_flags, alvo_flags2, spellid, spellname, spelltype, amount)
 			return
 		end
 		
@@ -1027,7 +956,6 @@
 					mob ["BLOCKED_HITS"] = mob ["BLOCKED_HITS"] + 1
 					overall ["BLOCKED_AMT"] = overall ["BLOCKED_AMT"] + blocked
 					mob ["BLOCKED_AMT"] = mob ["BLOCKED_AMT"] + blocked
-					--print (alvo_name, "block", blocked)
 				end
 				
 				--> absorbs status
@@ -1152,7 +1080,7 @@
 			end
 		end
 		
-		if (is_friendly_fire and spellid ~= SPELLID_KYRIAN_DRUID_TANK) then
+		if (is_friendly_fire and spellid ~= SPELLID_KYRIAN_DRUID_TANK) then --kyrian spell remove on 10.0
 			if (este_jogador.grupo) then --> se tiver ele n�o adiciona o evento l� em cima
 				local t = last_events_cache [alvo_name]
 				
@@ -1503,7 +1431,6 @@
 							damage_cache [who_name] = este_jogador
 							local _, _, icon = _GetSpellInfo (spellid or 1)
 							este_jogador.spellicon = icon
-							--print ("no serial actor", spellname, who_name, "added to cache.")
 						else
 							--_detalhes:Msg ("Unknown actor with unknown serial ", spellname, who_name)
 						end
@@ -1632,9 +1559,8 @@
 	
 	------------------------------------------------------------------------------------------------
 	--> get actors
+		--todo tbc seems to not have misses? need further investigation
 		--print ("MISS", "|", missType, "|", isOffHand, "|", amountMissed, "|", arg1)
-		
-	
 		--print (missType, who_name,  spellname, amountMissed)
 		
 		
@@ -1739,7 +1665,6 @@
 				--> damage ocurred first, so we have its data
 				local amount = reflection_damage[who_serial][spellid].amount
 				
-				--print("1", spellid, GetSpellInfo(spellid))
 				local isreflected = spellid --which spell was reflected
 				alvo_serial = reflection.who_serial
 				alvo_name = reflection.who_name
@@ -1796,15 +1721,23 @@
 			return
 		end
 		
---print(token, time, who_serial, who_name, who_flags, alvo_serial, alvo_name, alvo_flags, alvo_flags2, spellid, spellName)
---Player-3209-083BBABE Kastfall 1297 Creature-0-4229-1642-17-69792-00005E1CC4 Earth Spirit 8465 0 138121 Storm, Earth, and Fire
---Player-3209-083BBABE Kastfall 1297 Creature-0-4229-1642-17-69791-00005E1CC4 Fire Spirit 8465 0 138123 Storm, Earth, and Fire
-
 		if (not who_name) then
 			who_name = "[*] " .. spellName
 		end
 
 		local npcId = _tonumber(_select (6, _strsplit ("-", alvo_serial)) or 0)
+
+		--kel'thuzad encounter --remove on 10.0
+			if (npcId == NPCID_KELTHUZAD_FROSTBOUNDDEVOTED) then 
+				return
+			elseif (spellid == 358108) then --Restore Health
+				return
+			elseif (spellid == 352092) then --March of the Forsaken
+				return
+			elseif (spellid == 352094) then --March of the Forsaken
+				return
+			end
+		--
 
 		--rename monk's "Storm, Earth, and Fire" adds
 		--desligado pois poderia estar causando problemas
@@ -1825,11 +1758,7 @@
 			who_name, who_serial, who_flags = alvo_pet[1], alvo_pet[2], alvo_pet[3]
 		end
 		
-		--petTable:Add
 		_detalhes.tabela_pets:Adicionar (alvo_serial, alvo_name, alvo_flags, who_serial, who_name, who_flags)
-
-		--debug summons:
-		--print("summon:", who_name, alvo_serial, alvo_name, alvo_flags, spellid, spellName)
 		return
 	end
 
@@ -1854,7 +1783,6 @@
 	
 	function parser:heal_denied (token, time, who_serial, who_name, who_flags, alvo_serial, alvo_name, alvo_flags, alvo_flags2, spellidAbsorb, spellnameAbsorb, spellschoolAbsorb, serialHealer, nameHealer, flagsHealer, flags2Healer, spellidHeal, spellnameHeal, typeHeal, amountDenied)
 	
-	--	print (who_name, alvo_name, nameHealer, spellidHeal, spellnameHeal, typeHeal, amountDenied)
 		if (not _in_combat) then
 			return
 		end
@@ -1868,11 +1796,7 @@
 
 		--> no name, use spellname
 		if (not who_name) then
-			if (not spellname) then
-				--print ("ERROR:", token, who_serial, who_name, who_flags, alvo_serial, alvo_name, alvo_flags, alvo_flags2, spellidAbsorb, spellnameAbsorb, spellschoolAbsorb, serialHealer, nameHealer, flagsHealer, flags2Healer, spellidHeal, spellnameHeal, typeHeal, amountDenied)
-			end
-			--who_name = "[*] "..spellname
-			who_name = "[*] " .. (spellname or "--unknown spell--")
+			who_name = "[*] " .. (spellnameHeal or "--unknown spell--")
 		end
 		
 		--> no target, just ignore
@@ -2425,13 +2349,8 @@
 				local enemyName = GetSpellInfo(315161)
 				who_serial, who_name, who_flags = "", enemyName, 0xa48
 
-			--3/11 14:08:34.105  SPELL_CAST_START,Player-3676-06D63197,"Clutchdaily-Area52",0x512,0x0,0000000000000000,nil,0x80000000,0x80000000,342171,"Loyal Stoneborn",0x20
-			--3/11 14:08:35.690  SPELL_CAST_SUCCESS,Player-3676-06D63197,"Clutchdaily-Area52",0x512,0x0,0000000000000000,nil,0x80000000,0x80000000,342171,"Loyal Stoneborn",0x20,Player-3676-06D63197,0000000000000000,59976,68222,1882,304,3067,0,1,405,1000,0,-2191.13,5230.31,1663,3.1663,218
-			elseif (spellid == SPELLID_VENTYR_TAME_GARGOYLE) then --ventyr tame gargoyle on halls of atonement
-				--3/11 14:08:35.690  SPELL_AURA_APPLIED,Player-3676-06D63197,"Clutchdaily-Area52",0x512,0x0,Creature-0-4220-2287-20503-174175-0000CA4BDB,"Loyal Stoneborn",0xa48,0x0,342171,"Loyal Stoneborn",0x20,DEBUFF
-				--tag the target of this spell as a pet of caster
+			elseif (spellid == SPELLID_VENTYR_TAME_GARGOYLE) then --ventyr tame gargoyle on halls of atonement --remove on 10.0
 				_detalhes.tabela_pets:Adicionar(alvo_serial, alvo_name, alvo_flags, who_serial, who_name, 0x00000417)
-				--print("D! player", who_name, "tamed a gargoyle in HOA.")
 			end
 			
 		------------------------------------------------------------------------------------------------
@@ -3028,8 +2947,6 @@
 							return print ("Parser Event Error -> Set to 16 DeathLogs and /reload", i, _death_event_amt)
 						end
 						
-						--print ("DebuffIN", ">", "Added to the DeathLog")
-						
 						this_event [1] = 4 --> 4 = debuff aplication
 						this_event [2] = spellid --> spellid
 						this_event [3] = 1
@@ -3078,8 +2995,6 @@
 						if (not this_event) then
 							return print ("Parser Event Error -> Set to 16 DeathLogs and /reload", i, _death_event_amt)
 						end
-						
-						--print ("DebuffRefresh", ">", "Added to the DeathLog", stack_amount)
 						
 						this_event [1] = 4 --> 4 = debuff aplication
 						this_event [2] = spellid --> spellid
@@ -4091,7 +4006,6 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 
 	------------------------------------------------------------------------------------------------
 	--> build dead
-		--print("dead", alvo_flags, _bit_band (alvo_flags, 0x00000008) ~= 0, _current_encounter_id)
 		
 		local damageActor = _current_damage_container:GetActor(alvo_name)
 		--check for outsiders
@@ -4099,7 +4013,7 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 			--> outsider death while in combat
 			
 				--rules for specific encounters
-				if (_current_encounter_id == 2412) then --> The Council of Blood (REMOVE ON v10.0.1)
+				if (_current_encounter_id == 2412) then --> The Council of Blood --REMOVE ON v10.0
 
 					if (not Details.exp90temp.delete_damage_TCOB) then
 						return
@@ -4858,15 +4772,22 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 		end
 
 		_current_encounter_id = encounterID
-		--Details:Msg("encounter started:", encounterID, encounterName)
 		_detalhes.boss1_health_percent = 1
 		
 		local dbm_mod, dbm_time = _detalhes.encounter_table.DBM_Mod, _detalhes.encounter_table.DBM_ModTime
 		_table_wipe (_detalhes.encounter_table)
 		
-		--print (encounterID, encounterName, difficultyID, raidSize)
 		_detalhes.encounter_table.phase = 1
 		
+		--remove on 10.0
+			--if (encounterID == 2430) then --Painsmith Raznal
+				spikeball_damage_cache = {
+					npc_cache = {},
+					ignore_spikeballs = 0,
+				}
+			--end
+		--
+
 		--store the encounter time inside the encounter table for the encounter plugin
 		_detalhes.encounter_table.start = GetTime()
 		_detalhes.encounter_table ["end"] = nil
@@ -4907,8 +4828,6 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 		end
 		
 		_detalhes:SendEvent ("COMBAT_ENCOUNTER_START", nil, ...)
-
-		--print ("encounter staerted at:", _detalhes.encounter_table.start)
 	end
 	
 	function _detalhes.parser_functions:ENCOUNTER_END (...)
@@ -4965,13 +4884,13 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 		_table_wipe (bargastBuffs) --remove on 10.0
 		_table_wipe (necro_cheat_deaths) --remove on 10.0
 
-		_table_wipe(spikeball_cache) --remove on 10.0 spikeball from painsmith
-		spikeball_cache.name_cache = {}
-		spikeball_cache.winners_cache = {}
-		spikeball_cache.spike_counter = 0
-		spikeball_cache.winner_spikeball = false
-		spikeball_cache.ignore_spikeballs = false
-		
+		--remove on 10.0 spikeball from painsmith
+			spikeball_damage_cache  = {
+				npc_cache = {},
+				ignore_spikeballs = 0,
+			}
+		--
+
 		return true
 	end
 	
@@ -5055,15 +4974,6 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 		if (_detalhes.debug) then
 			_detalhes:Msg ("(debug) running scheduled events after combat end.")
 		end
-
-		--remove on 10.0 spikeball from painsmith
-			_table_wipe(spikeball_cache) 
-			spikeball_cache.name_cache = {}
-			spikeball_cache.winners_cache = {}
-			spikeball_cache.spike_counter = 0
-			spikeball_cache.winner_spikeball = false
-			spikeball_cache.ignore_spikeballs = false
-		--
 	
 		--when the user requested data from the storage but is in combat lockdown
 		if (_detalhes.schedule_storage_load) then

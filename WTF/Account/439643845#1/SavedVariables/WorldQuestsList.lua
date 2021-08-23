@@ -50,14 +50,7 @@ VWQL = {
 		},
 		["Filter"] = 63,
 	},
-	["Luminaxia-Outland"] = {
-		["VERSION"] = 101,
-		["FilterType"] = {
-		},
-		["Quests"] = {
-		},
-		["Filter"] = 63,
-	},
+	["DisableRewardIcons"] = true,
 	["Phaltraxion-Outland"] = {
 		["Filter"] = 63,
 		["FilterType"] = {
@@ -66,8 +59,8 @@ VWQL = {
 		},
 		["VERSION"] = 101,
 	},
-	["Chernakotka-DieAldor"] = {
-		["VERSION"] = 100,
+	["Luminaxia-Outland"] = {
+		["VERSION"] = 101,
 		["FilterType"] = {
 		},
 		["Quests"] = {
@@ -81,48 +74,21 @@ VWQL = {
 		["FilterType"] = {
 		},
 		["Quests"] = {
-			[60844] = true,
-			[59600] = true,
-			[58144] = true,
-			[60656] = true,
-			[61148] = true,
-			[57465] = true,
-			[60597] = true,
-			[62058] = true,
-			[61343] = true,
-			[45379] = true,
-			[60601] = true,
 			[43798] = true,
-			[44892] = true,
-			[59904] = true,
-			[60574] = true,
-			[61815] = true,
-			[61949] = true,
-			[59585] = true,
-			[60609] = true,
-			[61540] = true,
-			[61539] = true,
-			[61883] = true,
-			[61787] = true,
-			[60585] = true,
-			[62258] = true,
-			[58601] = true,
-			[59718] = true,
-			[44746] = true,
-			[61867] = true,
-			[58605] = true,
+			[64531] = true,
+			[64273] = true,
 			[43943] = true,
-			[61619] = true,
+			[45379] = true,
 		},
 		["Filter"] = 63,
 	},
 	["Barbaxius-Outland"] = {
 		["FilterType"] = {
 		},
-		["VERSION"] = 101,
+		["Filter"] = 63,
 		["Quests"] = {
 		},
-		["Filter"] = 63,
+		["VERSION"] = 101,
 	},
 	["Xanthoros-Outland"] = {
 		["VERSION"] = 101,
@@ -162,7 +128,14 @@ VWQL = {
 	["SortPrio"] = {
 	},
 	["AnchorQCBLeft"] = 803.5293579101562,
-	["DisableRewardIcons"] = true,
+	["Chernakotka-DieAldor"] = {
+		["VERSION"] = 100,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
 	["Serthaxion-Outland"] = {
 		["Filter"] = 63,
 		["FilterType"] = {

@@ -7,8 +7,8 @@ _detalhes_database = {
 		["tabelas"] = {
 			{
 				{
-					["combatId"] = 1,
 					["tipo"] = 2,
+					["combatId"] = 1,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -16,8 +16,8 @@ _detalhes_database = {
 							["damage_from"] = {
 								["Guardian of Yogg-Saron <Ominous Cloud>"] = true,
 								["Yogg-Saron"] = true,
-								["Laughing Skull"] = true,
 								["Sara"] = true,
+								["Laughing Skull"] = true,
 							},
 							["targets"] = {
 								["Brain of Yogg-Saron"] = 351488,
@@ -25,31 +25,29 @@ _detalhes_database = {
 								["Crusher Tentacle"] = 76459,
 								["Obsidian Consort"] = 218603,
 								["Constrictor Tentacle"] = 26780,
-								["Yogg-Saron"] = 894642,
+								["Ruby Consort"] = 136027,
 								["Guardian of Yogg-Saron <Ominous Cloud>"] = 501574,
 								["Azure Consort"] = 460455,
 								["Emerald Consort"] = 108144,
-								["Ruby Consort"] = 136027,
+								["Yogg-Saron"] = 894642,
 							},
-							["total"] = 2837632.001999,
+							["last_dps"] = 28129.62322431267,
 							["pets"] = {
 							},
-							["on_hold"] = false,
-							["boss_fight_component"] = true,
+							["damage_taken"] = 54.001999,
+							["end_time"] = 1624969932,
 							["aID"] = "1301-0B0D2B3F",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2837632.001999,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1624969932,
-							["classe"] = "WARRIOR",
+							["last_event"] = 1624969932,
 							["friendlyfire_total"] = 0,
-							["nome"] = "Barbaxius",
+							["dps_started"] = false,
+							["total"] = 2837632.001999,
+							["delay"] = 1624969871,
+							["classe"] = "WARRIOR",
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -60,11 +58,11 @@ _detalhes_database = {
 										["targets"] = {
 											["Guardian of Yogg-Saron <Ominous Cloud>"] = 238526,
 											["Brain of Yogg-Saron"] = 53433,
-											["Yogg-Saron"] = 72901,
-											["Azure Consort"] = 74535,
-											["Ruby Consort"] = 73380,
-											["Emerald Consort"] = 76003,
 											["Crusher Tentacle"] = 76459,
+											["Azure Consort"] = 74535,
+											["Yogg-Saron"] = 72901,
+											["Emerald Consort"] = 76003,
+											["Ruby Consort"] = 73380,
 										},
 										["n_dmg"] = 665237,
 										["n_min"] = 53433,
@@ -74,17 +72,17 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["MISS"] = 1,
-										["spellschool"] = 1,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
+										["a_amt"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["a_dmg"] = 0,
 										["n_amt"] = 9,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["MISS"] = 1,
 									}, -- [1]
 									[317489] = {
 										["c_amt"] = 0,
@@ -103,16 +101,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 317489,
 										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 32,
 									},
 									[23881] = {
 										["c_amt"] = 0,
@@ -132,16 +130,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 23881,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[126664] = {
 										["c_amt"] = 0,
@@ -160,16 +158,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 126664,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[199658] = {
 										["c_amt"] = 0,
@@ -189,16 +187,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 199658,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[105771] = {
 										["c_amt"] = 0,
@@ -209,8 +207,8 @@ _detalhes_database = {
 										["targets"] = {
 											["Azure Consort"] = 0,
 											["Brain of Yogg-Saron"] = 0,
-											["Ruby Consort"] = 0,
 											["Crusher Tentacle"] = 0,
+											["Ruby Consort"] = 0,
 										},
 										["n_dmg"] = 0,
 										["n_min"] = 0,
@@ -220,17 +218,17 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 105771,
 										["r_dmg"] = 0,
-										["IMMUNE"] = 4,
-										["spellschool"] = 1,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
+										["a_amt"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["a_dmg"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["IMMUNE"] = 4,
 									},
 									[52174] = {
 										["c_amt"] = 0,
@@ -249,16 +247,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 52174,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[50622] = {
 										["c_amt"] = 1,
@@ -278,16 +276,16 @@ _detalhes_database = {
 										["c_max"] = 385920,
 										["id"] = 50622,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 385920,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[57755] = {
 										["c_amt"] = 0,
@@ -307,16 +305,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 57755,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[317488] = {
 										["c_amt"] = 1,
@@ -335,75 +333,36 @@ _detalhes_database = {
 										["c_max"] = 637972,
 										["id"] = 317488,
 										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 637972,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 32,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["spec"] = 72,
-							["serial"] = "Player-1301-0B0D2B3F",
-							["last_dps"] = 33742.77019119816,
 							["custom"] = 0,
+							["nome"] = "Barbaxius",
+							["spec"] = 72,
+							["colocacao"] = 1,
 							["tipo"] = 1,
-							["damage_taken"] = 54.001999,
+							["on_hold"] = false,
 							["start_time"] = 1624969880,
-							["delay"] = 1624969871,
-							["last_event"] = 1624969932,
-						}, -- [1]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.002704,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Sara"] = 52050,
-								["Barbaxius"] = 5,
-							},
-							["total"] = 52055.002704,
-							["pets"] = {
-								"Guardian of Yogg-Saron <Ominous Cloud>", -- [1]
-							},
+							["serial"] = "Player-1301-0B0D2B3F",
 							["friendlyfire"] = {
 							},
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.002704,
-							["boss_fight_component"] = true,
-							["monster"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1624969932,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["nome"] = "Ominous Cloud",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-								},
-							},
-							["aID"] = "33292",
-							["serial"] = "Creature-0-4240-603-20883-33292-00015B124C",
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1624969871,
-							["damage_taken"] = 0.002704,
-							["start_time"] = 1624969927,
-							["delay"] = 1624969871,
-							["tipo"] = 1,
-						}, -- [2]
+						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.006679,
-							["friendlyfire_total"] = 0,
+							["monster"] = true,
 							["damage_from"] = {
 								["Barbaxius"] = true,
 							},
@@ -411,23 +370,22 @@ _detalhes_database = {
 								["Sara"] = 52050,
 								["Barbaxius"] = 5,
 							},
-							["serial"] = "Creature-0-4240-603-20883-33136-00005B1272",
 							["pets"] = {
 							},
-							["boss_fight_component"] = true,
-							["monster"] = true,
+							["classe"] = "UNKNOW",
+							["last_dps"] = 0,
 							["aID"] = "33136",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 52055.006679,
-							["on_hold"] = false,
-							["classe"] = "UNKNOW",
+							["last_event"] = 1624969871,
+							["delay"] = 1624969871,
 							["dps_started"] = false,
-							["total"] = 52055.006679,
+							["end_time"] = 1624969932,
+							["friendlyfire_total"] = 0,
 							["ownerName"] = "Ominous Cloud",
 							["nome"] = "Guardian of Yogg-Saron <Ominous Cloud>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[63038] = {
 										["c_amt"] = 0,
@@ -445,15 +403,15 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 63038,
 										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
 									},
 									[65719] = {
 										["c_amt"] = 0,
@@ -472,15 +430,15 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 65719,
 										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 3,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
 									},
 									[65209] = {
 										["c_amt"] = 0,
@@ -499,30 +457,142 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 65209,
 										["r_dmg"] = 0,
-										["MISS"] = 2,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 3,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["MISS"] = 2,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["end_time"] = 1624969932,
+							["damage_taken"] = 501574.006679,
+							["total"] = 52055.006679,
+							["boss_fight_component"] = true,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1624969927,
+							["serial"] = "Creature-0-4240-603-20883-33136-00005B1272",
 							["friendlyfire"] = {
+							},
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.002704,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Sara"] = 52050,
+								["Barbaxius"] = 5,
+							},
+							["delay"] = 1624969871,
+							["pets"] = {
+								"Guardian of Yogg-Saron <Ominous Cloud>", -- [1]
+							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.002704,
+							["on_hold"] = false,
+							["monster"] = true,
+							["total"] = 52055.002704,
+							["damage_taken"] = 0.002704,
+							["friendlyfire_total"] = 0,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Ominous Cloud",
+							["end_time"] = 1624969932,
+							["aID"] = "33292",
+							["custom"] = 0,
+							["last_event"] = 1624969871,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1624969927,
+							["serial"] = "Creature-0-4240-603-20883-33292-00015B124C",
+							["dps_started"] = false,
+						}, -- [3]
+						{
+							["flag_original"] = 2584,
+							["totalabsorbed"] = 0.00422,
+							["friendlyfire"] = {
+							},
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Stormforged Reaver"] = 1789,
+								["Stormforged Raider"] = 1576,
+							},
+							["pets"] = {
+							},
+							["timeMachine"] = 1,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 3365.00422,
+							["aID"] = "29485",
+							["dps_started"] = true,
+							["total"] = 3365.00422,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3102-571-70-29485-00005F57C2",
+							["nome"] = "Dolomite Giant",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 352,
+										["g_amt"] = 0,
+										["n_max"] = 49,
+										["targets"] = {
+											["Stormforged Reaver"] = 1789,
+											["Stormforged Raider"] = 1576,
+										},
+										["n_dmg"] = 3013,
+										["n_min"] = 32,
+										["g_dmg"] = 0,
+										["counter"] = 89,
+										["DODGE"] = 2,
+										["total"] = 3365,
+										["c_max"] = 92,
+										["a_dmg"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["MISS"] = 5,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["PARRY"] = 5,
+										["c_min"] = 84,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 73,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 501574.006679,
-							["start_time"] = 1624969927,
-							["delay"] = 1624969871,
-							["last_event"] = 1624969871,
-						}, -- [3]
+							["damage_taken"] = 0.00422,
+							["start_time"] = 1625259821,
+							["delay"] = 1625259802,
+							["last_event"] = 1625259880,
+						}, -- [4]
 						{
 							["flag_original"] = 2584,
 							["totalabsorbed"] = 0.007097,
@@ -534,20 +604,19 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["tipo"] = 1,
+							["total"] = 42.007097,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 42.007097,
-							["friendlyfire"] = {
-							},
-							["boss_fight_component"] = true,
+							["delay"] = 1624969895,
 							["dps_started"] = false,
 							["end_time"] = 1624969932,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
 							["nome"] = "Sara",
+							["damage_taken"] = 52050.007097,
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[64775] = {
 										["c_amt"] = 0,
@@ -565,68 +634,15 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 64775,
 										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[63891] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 63891,
-										["r_dmg"] = 0,
+										["a_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[65301] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 2,
-										["targets"] = {
-											["Barbaxius"] = 10,
-										},
-										["n_dmg"] = 10,
-										["n_min"] = 1,
-										["g_dmg"] = 0,
-										["counter"] = 9,
-										["total"] = 10,
-										["c_max"] = 0,
-										["id"] = 65301,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 10,
-										["a_amt"] = 0,
-										["n_amt"] = 9,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
 									},
 									[63134] = {
 										["c_amt"] = 0,
@@ -645,59 +661,18 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 63134,
 										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 18,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 32,
 									},
-								},
-							},
-							["aID"] = "33134",
-							["total"] = 42.007097,
-							["serial"] = "Creature-0-4240-603-20883-33134-00005B124C",
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1624969895,
-							["damage_taken"] = 52050.007097,
-							["start_time"] = 1624969886,
-							["delay"] = 1624969895,
-							["tipo"] = 1,
-						}, -- [4]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.001914,
-							["serial"] = "Vehicle-0-4240-603-20883-33288-00005B129B",
-							["damage_from"] = {
-								["Barbaxius"] = true,
-							},
-							["targets"] = {
-								["Barbaxius"] = 3,
-							},
-							["pets"] = {
-							},
-							["boss"] = true,
-							["on_hold"] = false,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 3.001914,
-							["boss_fight_component"] = true,
-							["monster"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1624969932,
-							["friendlyfire_total"] = 0,
-							["aID"] = "",
-							["nome"] = "Yogg-Saron",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[64163] = {
+									[63891] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
@@ -711,442 +686,59 @@ _detalhes_database = {
 										["counter"] = 0,
 										["total"] = 0,
 										["c_max"] = 0,
-										["id"] = 64163,
+										["id"] = 63891,
 										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[64465] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 64465,
-										["r_dmg"] = 0,
+										["a_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
 									},
-									[63894] = {
+									[65301] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 0,
+										["n_max"] = 2,
 										["targets"] = {
+											["Barbaxius"] = 10,
 										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 63894,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[64164] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1,
-										["targets"] = {
-											["Barbaxius"] = 3,
-										},
-										["n_dmg"] = 3,
+										["n_dmg"] = 10,
 										["n_min"] = 1,
 										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 3,
+										["counter"] = 9,
+										["total"] = 10,
 										["c_max"] = 0,
-										["id"] = 64164,
+										["id"] = 65301,
 										["r_dmg"] = 0,
-										["spellschool"] = 32,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 10,
+										["a_amt"] = 0,
+										["n_amt"] = 9,
+										["a_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["total"] = 3.001914,
+							["aID"] = "33134",
+							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1624969895,
 							["friendlyfire"] = {
 							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1624969932,
-							["damage_taken"] = 894642.001914,
-							["start_time"] = 1624969930,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["start_time"] = 1624969886,
+							["serial"] = "Creature-0-4240-603-20883-33134-00005B124C",
+							["on_hold"] = false,
 						}, -- [5]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.002079,
-							["damage_from"] = {
-								["Barbaxius"] = true,
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["friendlyfire"] = {
-							},
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.002079,
-							["boss_fight_component"] = true,
-							["monster"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1624969932,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["nome"] = "Corruptor Tentacle",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[64156] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Barbaxius"] = 0,
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 64156,
-										["r_dmg"] = 0,
-										["MISS"] = 2,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 2,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[64144] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 64144,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[64153] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Barbaxius"] = 0,
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 64153,
-										["r_dmg"] = 0,
-										["MISS"] = 4,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 4,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[64157] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Barbaxius"] = 0,
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 64157,
-										["r_dmg"] = 0,
-										["MISS"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[64152] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 64152,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-							},
-							["aID"] = "33985",
-							["total"] = 0.002079,
-							["serial"] = "Creature-0-4240-603-20883-33985-00005B129D",
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1624969932,
-							["damage_taken"] = 63460.002079,
-							["start_time"] = 1624969932,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [6]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.00886,
-							["damage_from"] = {
-								["Barbaxius"] = true,
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["friendlyfire"] = {
-							},
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.00886,
-							["boss_fight_component"] = true,
-							["monster"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1624969932,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["nome"] = "Crusher Tentacle",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[57688] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 57688,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[64144] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 64144,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-							},
-							["aID"] = "33966",
-							["total"] = 0.00886,
-							["serial"] = "Creature-0-4240-603-20883-33966-00005B129D",
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 0,
-							["damage_taken"] = 76459.00886,
-							["start_time"] = 1624969932,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [7]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.006475,
-							["on_hold"] = false,
-							["damage_from"] = {
-								["Barbaxius"] = true,
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["boss_fight_component"] = true,
-							["monster"] = true,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.006475,
-							["aID"] = "",
-							["dps_started"] = false,
-							["total"] = 0.006475,
-							["classe"] = "UNKNOW",
-							["serial"] = "Vehicle-0-4240-603-20883-33983-00005B129D",
-							["nome"] = "Constrictor Tentacle",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[64144] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 64144,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-							},
-							["friendlyfire"] = {
-							},
-							["end_time"] = 1624969932,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 26780.006475,
-							["start_time"] = 1624969932,
-							["delay"] = 0,
-							["last_event"] = 0,
-						}, -- [8]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.005576,
@@ -1155,24 +747,22 @@ _detalhes_database = {
 							["targets"] = {
 								["Barbaxius"] = 4,
 							},
-							["total"] = 4.005576,
+							["delay"] = 1624969913,
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 4.005576,
-							["boss_fight_component"] = true,
-							["monster"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1624969932,
 							["on_hold"] = false,
+							["monster"] = true,
+							["total"] = 4.005576,
+							["damage_taken"] = 0.005576,
 							["friendlyfire_total"] = 0,
-							["nome"] = "Laughing Skull",
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[64167] = {
 										["c_amt"] = 0,
@@ -1190,15 +780,15 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 64167,
 										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 4,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
 									},
 									[64168] = {
 										["c_amt"] = 0,
@@ -1217,208 +807,58 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 64168,
 										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 4,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 32,
 									},
 								},
+								["tipo"] = 2,
 							},
+							["nome"] = "Laughing Skull",
+							["end_time"] = 1624969932,
 							["aID"] = "33990",
-							["serial"] = "Creature-0-4240-603-20883-33990-00005B12A6",
-							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1624969913,
-							["damage_taken"] = 0.005576,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1624969929,
-							["delay"] = 1624969913,
-							["tipo"] = 1,
-						}, -- [9]
-						{
-							["flag_original"] = 68136,
-							["totalabsorbed"] = 0.00724,
-							["friendlyfire"] = {
-							},
-							["damage_from"] = {
-								["Barbaxius"] = true,
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["boss_fight_component"] = true,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.00724,
-							["aID"] = "33716",
+							["serial"] = "Creature-0-4240-603-20883-33990-00005B12A6",
 							["dps_started"] = false,
-							["total"] = 0.00724,
-							["classe"] = "UNKNOW",
-							["serial"] = "Creature-0-4240-603-20883-33716-00005B12A6",
-							["nome"] = "Ruby Consort",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-								},
-							},
-							["end_time"] = 1624969932,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 136027.00724,
-							["start_time"] = 1624969932,
-							["delay"] = 0,
-							["last_event"] = 0,
-						}, -- [10]
-						{
-							["flag_original"] = 68136,
-							["totalabsorbed"] = 0.001296,
-							["friendlyfire"] = {
-							},
-							["damage_from"] = {
-								["Barbaxius"] = true,
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["boss_fight_component"] = true,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.001296,
-							["aID"] = "33719",
-							["dps_started"] = false,
-							["total"] = 0.001296,
-							["classe"] = "UNKNOW",
-							["serial"] = "Creature-0-4240-603-20883-33719-00005B12A6",
-							["nome"] = "Emerald Consort",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-								},
-							},
-							["end_time"] = 1624969932,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 108144.001296,
-							["start_time"] = 1624969932,
-							["delay"] = 0,
-							["last_event"] = 0,
-						}, -- [11]
-						{
-							["flag_original"] = 68136,
-							["totalabsorbed"] = 0.008435,
-							["friendlyfire"] = {
-							},
-							["damage_from"] = {
-								["Barbaxius"] = true,
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["boss_fight_component"] = true,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.008435,
-							["aID"] = "33720",
-							["dps_started"] = false,
-							["total"] = 0.008435,
-							["classe"] = "UNKNOW",
-							["serial"] = "Creature-0-4240-603-20883-33720-00005B12A6",
-							["nome"] = "Obsidian Consort",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-								},
-							},
-							["end_time"] = 1624969932,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 218603.008435,
-							["start_time"] = 1624969932,
-							["delay"] = 0,
-							["last_event"] = 0,
-						}, -- [12]
-						{
-							["flag_original"] = 2600,
-							["totalabsorbed"] = 0.008652,
-							["friendlyfire"] = {
-							},
-							["damage_from"] = {
-								["Barbaxius"] = true,
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["boss_fight_component"] = true,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.008652,
-							["aID"] = "33717",
-							["dps_started"] = false,
-							["total"] = 0.008652,
-							["classe"] = "UNKNOW",
-							["serial"] = "Creature-0-4240-603-20883-33717-0000DB12A6",
-							["nome"] = "Azure Consort",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-								},
-							},
-							["end_time"] = 1624969932,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 460455.008652,
-							["start_time"] = 1624969932,
-							["delay"] = 0,
-							["last_event"] = 0,
-						}, -- [13]
+						}, -- [6]
 						{
 							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.002953,
+							["totalabsorbed"] = 0.001914,
 							["damage_from"] = {
 								["Barbaxius"] = true,
 							},
 							["targets"] = {
+								["Barbaxius"] = 3,
 							},
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
-							["classe"] = "UNKNOW",
+							["boss"] = true,
+							["delay"] = 0,
+							["aID"] = "",
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 0.002953,
-							["boss_fight_component"] = true,
-							["monster"] = true,
+							["total_without_pet"] = 3.001914,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["dps_started"] = false,
-							["end_time"] = 1624969932,
-							["on_hold"] = false,
+							["total"] = 3.001914,
+							["classe"] = "UNKNOW",
 							["friendlyfire_total"] = 0,
-							["nome"] = "Brain of Yogg-Saron",
+							["nome"] = "Yogg-Saron",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
-									[64173] = {
+									[64163] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
@@ -1432,31 +872,352 @@ _detalhes_database = {
 										["counter"] = 0,
 										["total"] = 0,
 										["c_max"] = 0,
-										["id"] = 64173,
+										["id"] = 64163,
 										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
+									},
+									[64465] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 64465,
+										["r_dmg"] = 0,
 										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
+									},
+									[63894] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 63894,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
+									},
+									[64164] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1,
+										["targets"] = {
+											["Barbaxius"] = 3,
+										},
+										["n_dmg"] = 3,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 3,
+										["c_max"] = 0,
+										["id"] = 64164,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["extra"] = {
+										},
+										["spellschool"] = 32,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "33890",
-							["total"] = 0.002953,
-							["serial"] = "Creature-0-4240-603-20883-33890-00005B124C",
+							["monster"] = true,
+							["end_time"] = 1624969932,
+							["damage_taken"] = 894642.001914,
+							["boss_fight_component"] = true,
+							["custom"] = 0,
+							["last_event"] = 1624969932,
+							["on_hold"] = false,
+							["start_time"] = 1624969930,
+							["serial"] = "Vehicle-0-4240-603-20883-33288-00005B129B",
+							["friendlyfire"] = {
+							},
+						}, -- [7]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.00886,
+							["damage_from"] = {
+								["Barbaxius"] = true,
+							},
+							["targets"] = {
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
 							["last_dps"] = 0,
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.00886,
+							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["end_time"] = 1624969932,
+							["damage_taken"] = 76459.00886,
+							["nome"] = "Crusher Tentacle",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[57688] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 57688,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
+									},
+									[64144] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 64144,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
+									},
+								},
+								["tipo"] = 2,
+							},
+							["aID"] = "33966",
+							["on_hold"] = false,
+							["total"] = 0.00886,
 							["custom"] = 0,
 							["last_event"] = 0,
-							["damage_taken"] = 351488.002953,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1624969932,
-							["delay"] = 0,
+							["serial"] = "Creature-0-4240-603-20883-33966-00005B129D",
+							["dps_started"] = false,
+						}, -- [8]
+						{
+							["flag_original"] = 2600,
+							["totalabsorbed"] = 0.008838,
+							["damage_from"] = {
+								["Dolomite Giant"] = true,
+							},
+							["targets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.008838,
+							["aID"] = "29382",
+							["dps_started"] = false,
+							["total"] = 0.008838,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3102-571-70-29382-00005F7D25",
+							["nome"] = "Stormforged Reaver",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
 							["tipo"] = 1,
-						}, -- [14]
+							["damage_taken"] = 1789.008838,
+							["start_time"] = 0,
+							["delay"] = 0,
+							["last_event"] = 0,
+						}, -- [9]
+						{
+							["flag_original"] = 2600,
+							["totalabsorbed"] = 0.008658,
+							["damage_from"] = {
+								["Dolomite Giant"] = true,
+							},
+							["targets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.008658,
+							["aID"] = "29377",
+							["dps_started"] = false,
+							["total"] = 0.008658,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3102-571-70-29377-00005F79B3",
+							["nome"] = "Stormforged Raider",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 1576.008658,
+							["start_time"] = 0,
+							["delay"] = 0,
+							["last_event"] = 0,
+						}, -- [10]
+						{
+							["flag_original"] = 2600,
+							["totalabsorbed"] = 0.008652,
+							["damage_from"] = {
+								["Barbaxius"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["nome"] = "Azure Consort",
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.008652,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.008652,
+							["classe"] = "UNKNOW",
+							["damage_taken"] = 460455.008652,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["aID"] = "33717",
+							["last_dps"] = 0,
+							["end_time"] = 1624969932,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1624969932,
+							["serial"] = "Creature-0-4240-603-20883-33717-0000DB12A6",
+							["on_hold"] = false,
+						}, -- [11]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.008435,
+							["damage_from"] = {
+								["Barbaxius"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["nome"] = "Obsidian Consort",
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.008435,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.008435,
+							["classe"] = "UNKNOW",
+							["damage_taken"] = 218603.008435,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["aID"] = "33720",
+							["last_dps"] = 0,
+							["end_time"] = 1624969932,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1624969932,
+							["serial"] = "Creature-0-4240-603-20883-33720-00005B12A6",
+							["on_hold"] = false,
+						}, -- [12]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.00731,
@@ -1464,23 +1225,22 @@ _detalhes_database = {
 							},
 							["targets"] = {
 							},
+							["delay"] = 0,
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.00731,
-							["boss_fight_component"] = true,
-							["monster"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1624969932,
-							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["end_time"] = 1624969932,
+							["damage_taken"] = 0.00731,
 							["nome"] = "Immortal Guardian",
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -1499,8 +1259,8 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["extra"] = {
 										},
 										["PARRY"] = 1,
@@ -1508,57 +1268,437 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 									}, -- [1]
 								},
+								["tipo"] = 2,
 							},
 							["aID"] = "33988",
+							["on_hold"] = false,
 							["total"] = 0.00731,
-							["serial"] = "Creature-0-4240-603-20883-33988-00005B12C8",
-							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1624969932,
-							["damage_taken"] = 0.00731,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1624969932,
+							["serial"] = "Creature-0-4240-603-20883-33988-00005B12C8",
+							["dps_started"] = false,
+						}, -- [13]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.00724,
+							["damage_from"] = {
+								["Barbaxius"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["nome"] = "Ruby Consort",
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.00724,
 							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.00724,
+							["classe"] = "UNKNOW",
+							["damage_taken"] = 136027.00724,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["aID"] = "33716",
+							["last_dps"] = 0,
+							["end_time"] = 1624969932,
+							["custom"] = 0,
 							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1624969932,
+							["serial"] = "Creature-0-4240-603-20883-33716-00005B12A6",
+							["on_hold"] = false,
+						}, -- [14]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.006475,
+							["damage_from"] = {
+								["Barbaxius"] = true,
+							},
+							["targets"] = {
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
+							["last_dps"] = 0,
+							["last_event"] = 0,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.006475,
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["total"] = 0.006475,
+							["damage_taken"] = 26780.006475,
+							["dps_started"] = false,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[64144] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 64144,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Constrictor Tentacle",
+							["end_time"] = 1624969932,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1624969932,
+							["serial"] = "Vehicle-0-4240-603-20883-33983-00005B129D",
+							["aID"] = "",
 						}, -- [15]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.002953,
+							["damage_from"] = {
+								["Barbaxius"] = true,
+							},
+							["targets"] = {
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.002953,
+							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["end_time"] = 1624969932,
+							["damage_taken"] = 351488.002953,
+							["nome"] = "Brain of Yogg-Saron",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[64173] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 64173,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
+									},
+								},
+								["tipo"] = 2,
+							},
+							["aID"] = "33890",
+							["on_hold"] = false,
+							["total"] = 0.002953,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1624969932,
+							["serial"] = "Creature-0-4240-603-20883-33890-00005B124C",
+							["dps_started"] = false,
+						}, -- [16]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.002079,
+							["damage_from"] = {
+								["Barbaxius"] = true,
+							},
+							["targets"] = {
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.002079,
+							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["end_time"] = 1624969932,
+							["damage_taken"] = 63460.002079,
+							["nome"] = "Corruptor Tentacle",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[64156] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Barbaxius"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 64156,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 2,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["extra"] = {
+										},
+										["MISS"] = 2,
+									},
+									[64144] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 64144,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
+									},
+									[64153] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Barbaxius"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 64153,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 4,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["extra"] = {
+										},
+										["MISS"] = 4,
+									},
+									[64157] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Barbaxius"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 64157,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["extra"] = {
+										},
+										["MISS"] = 1,
+									},
+									[64152] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 64152,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
+									},
+								},
+								["tipo"] = 2,
+							},
+							["aID"] = "33985",
+							["on_hold"] = false,
+							["total"] = 0.002079,
+							["custom"] = 0,
+							["last_event"] = 1624969932,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1624969932,
+							["serial"] = "Creature-0-4240-603-20883-33985-00005B129D",
+							["dps_started"] = false,
+						}, -- [17]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.001296,
+							["damage_from"] = {
+								["Barbaxius"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["nome"] = "Emerald Consort",
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.001296,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.001296,
+							["classe"] = "UNKNOW",
+							["damage_taken"] = 108144.001296,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["aID"] = "33719",
+							["last_dps"] = 0,
+							["end_time"] = 1624969932,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1624969932,
+							["serial"] = "Creature-0-4240-603-20883-33719-00005B12A6",
+							["on_hold"] = false,
+						}, -- [18]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1,
 					["tipo"] = 3,
+					["combatId"] = 1,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 2584,
 							["totalabsorb"] = 0.008652,
 							["last_hps"] = 0,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Barbaxius"] = 6918,
 							},
 							["targets"] = {
 								["Barbaxius"] = 18,
 							},
-							["targets_overheal"] = {
-								["Barbaxius"] = 6918,
-							},
+							["heal_enemy_amt"] = 0,
 							["pets"] = {
 							},
-							["totalover_without_pet"] = 0.008652,
-							["targets_absorbs"] = {
+							["iniciar_hps"] = false,
+							["healing_from"] = {
 							},
-							["heal_enemy_amt"] = 0,
+							["classe"] = "UNKNOW",
 							["totalover"] = 6918.008652,
 							["total_without_pet"] = 18.008652,
-							["iniciar_hps"] = false,
+							["totalover_without_pet"] = 0.008652,
+							["totaldenied"] = 0.008652,
+							["aID"] = "33134",
 							["end_time"] = 1624969932,
 							["healing_taken"] = 0.008652,
 							["total"] = 18.008652,
 							["boss_fight_component"] = true,
-							["aID"] = "33134",
-							["nome"] = "Sara",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[63134] = {
 										["c_amt"] = 0,
@@ -1580,34 +1720,37 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
+										["n_amt"] = 2,
 										["n_curado"] = 18,
 										["totaldenied"] = 0,
-										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
-							["classe"] = "UNKNOW",
-							["start_time"] = 1624969925,
+							["tipo"] = 2,
+							["nome"] = "Sara",
 							["heal_enemy"] = {
 							},
-							["serial"] = "Creature-0-4240-603-20883-33134-00005B124C",
+							["targets_absorbs"] = {
+							},
 							["custom"] = 0,
 							["last_event"] = 1624969863,
 							["on_hold"] = false,
-							["totaldenied"] = 0.008652,
+							["start_time"] = 1624969925,
+							["serial"] = "Creature-0-4240-603-20883-33134-00005B124C",
 							["delay"] = 1624969863,
-							["tipo"] = 2,
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
-							["targets_overheal"] = {
-								["Barbaxius"] = 736,
+							["healing_from"] = {
+								["Sara"] = true,
+								["Barbaxius"] = true,
 							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "WARRIOR",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 736.0038979999999,
 							["total_without_pet"] = 34.003898,
 							["total"] = 34.003898,
@@ -1624,16 +1767,14 @@ _detalhes_database = {
 							},
 							["totalover_without_pet"] = 0.003898,
 							["healing_taken"] = 52.003898,
-							["boss_fight_component"] = true,
+							["spec"] = 72,
 							["end_time"] = 1624969932,
-							["healing_from"] = {
-								["Sara"] = true,
-								["Barbaxius"] = true,
+							["last_event"] = 1624969925,
+							["targets_overheal"] = {
+								["Barbaxius"] = 736,
 							},
-							["heal_enemy_amt"] = 0,
 							["nome"] = "Barbaxius",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[117313] = {
 										["c_amt"] = 0,
@@ -1655,28 +1796,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
+										["n_amt"] = 2,
 										["n_curado"] = 34,
 										["totaldenied"] = 0,
-										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1624969925,
-							["spec"] = 72,
+							["totaldenied"] = 0.003898,
+							["aID"] = "1301-0B0D2B3F",
 							["custom"] = 0,
 							["tipo"] = 2,
-							["aID"] = "1301-0B0D2B3F",
-							["totaldenied"] = 0.003898,
+							["classe"] = "WARRIOR",
+							["start_time"] = 1624969925,
 							["delay"] = 1624969871,
-							["last_event"] = 1624969925,
+							["boss_fight_component"] = true,
 						}, -- [2]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1,
 					["tipo"] = 7,
+					["combatId"] = 1,
 					["_ActorTable"] = {
 						{
 							["received"] = 64.005316,
@@ -1690,10 +1832,9 @@ _detalhes_database = {
 							["classe"] = "WARRIOR",
 							["passiveover"] = 0.005316,
 							["total"] = 64.005316,
+							["totalover"] = 72.005316,
 							["boss_fight_component"] = true,
-							["nome"] = "Barbaxius",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[85288] = {
 										["total"] = 12,
@@ -1741,106 +1882,107 @@ _detalhes_database = {
 										["counter"] = 4,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 72,
-							["flag_original"] = 1297,
-							["alternatepower"] = 0.005316,
-							["last_event"] = 1624969932,
-							["aID"] = "1301-0B0D2B3F",
 							["tipo"] = 3,
+							["aID"] = "1301-0B0D2B3F",
+							["last_event"] = 1624969932,
+							["alternatepower"] = 0.005316,
+							["flag_original"] = 1297,
 							["serial"] = "Player-1301-0B0D2B3F",
-							["totalover"] = 72.005316,
+							["nome"] = "Barbaxius",
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1,
 					["tipo"] = 9,
+					["combatId"] = 1,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[317491] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 317491,
+										["uptime"] = 0,
 										["targets"] = {
 										},
-										["uptime"] = 0,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 169,
 							["aID"] = "1301-0B0D2B3F",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[85739] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 85739,
+										["uptime"] = 39,
 										["targets"] = {
 										},
-										["uptime"] = 39,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[63988] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 63988,
+										["uptime"] = 33,
 										["targets"] = {
 										},
-										["uptime"] = 33,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[46924] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 46924,
+										["uptime"] = 3,
 										["targets"] = {
 										},
-										["uptime"] = 3,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[280776] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 2,
+										["refreshamt"] = 0,
 										["id"] = 280776,
+										["uptime"] = 10,
 										["targets"] = {
 										},
-										["uptime"] = 10,
 										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[186403] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 186403,
+										["uptime"] = 84,
 										["targets"] = {
 										},
-										["uptime"] = 84,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 0,
+							["tipo"] = 4,
 							["boss_fight_component"] = true,
-							["nome"] = "Barbaxius",
 							["spec"] = 72,
 							["grupo"] = true,
 							["spell_cast"] = {
@@ -1851,60 +1993,60 @@ _detalhes_database = {
 								[126664] = 2,
 								[52174] = 1,
 								[57755] = 2,
-								[46924] = 1,
 								[190411] = 2,
+								[46924] = 1,
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["buff_uptime_targets"] = {
-							},
+							["classe"] = "WARRIOR",
 							["last_event"] = 1624969932,
 							["pets"] = {
 							},
-							["classe"] = "WARRIOR",
+							["buff_uptime_targets"] = {
+							},
 							["serial"] = "Player-1301-0B0D2B3F",
-							["tipo"] = 4,
+							["nome"] = "Barbaxius",
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
-							["classe"] = "UNKNOW",
+							["tipo"] = 4,
 							["nome"] = "Ominous Cloud",
 							["pets"] = {
 								"Guardian of Yogg-Saron <Ominous Cloud>", -- [1]
 							},
-							["boss_fight_component"] = true,
+							["last_event"] = 0,
 							["monster"] = true,
-							["tipo"] = 4,
+							["classe"] = "UNKNOW",
 							["aID"] = "33292",
 							["serial"] = "Creature-0-4240-603-20883-33292-00015B124C",
-							["last_event"] = 0,
+							["boss_fight_component"] = true,
 						}, -- [2]
 						{
-							["flag_original"] = 68168,
-							["ownerName"] = "Ominous Cloud",
-							["boss_fight_component"] = true,
-							["last_event"] = 0,
 							["monster"] = true,
+							["classe"] = "UNKNOW",
+							["ownerName"] = "Ominous Cloud",
+							["nome"] = "Guardian of Yogg-Saron <Ominous Cloud>",
+							["flag_original"] = 68168,
 							["pets"] = {
 							},
-							["nome"] = "Guardian of Yogg-Saron <Ominous Cloud>",
 							["spell_cast"] = {
 								[63038] = 1,
 								[65719] = 3,
 								[65209] = 3,
 							},
+							["boss_fight_component"] = true,
 							["aID"] = "33136",
-							["classe"] = "UNKNOW",
-							["serial"] = "Creature-0-4240-603-20883-33136-00005B1272",
 							["tipo"] = 4,
+							["serial"] = "Creature-0-4240-603-20883-33136-00005B1272",
+							["last_event"] = 0,
 						}, -- [3]
 						{
 							["flag_original"] = 2584,
-							["classe"] = "UNKNOW",
+							["tipo"] = 4,
 							["nome"] = "Sara",
 							["pets"] = {
 							},
-							["boss_fight_component"] = true,
+							["last_event"] = 0,
 							["spell_cast"] = {
 								[63134] = 2,
 								[63138] = 1,
@@ -1912,17 +2054,17 @@ _detalhes_database = {
 								[64775] = 1,
 								[65301] = 10,
 							},
-							["tipo"] = 4,
+							["classe"] = "UNKNOW",
 							["aID"] = "33134",
 							["serial"] = "Creature-0-4240-603-20883-33134-00005B124C",
-							["last_event"] = 0,
+							["boss_fight_component"] = true,
 						}, -- [4]
 						{
 							["flag_original"] = 2584,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 9,
 							},
 							["pets"] = {
 							},
@@ -1930,30 +2072,30 @@ _detalhes_database = {
 							["boss_debuff"] = true,
 							["debuff_uptime"] = 15,
 							["spellschool"] = 32,
+							["boss_fight_component"] = true,
 							["debuff_uptime_targets"] = {
 								["Barbaxius"] = {
 									["uptime"] = 15,
-									["appliedamt"] = 0,
+									["refreshamt"] = 0,
 									["activedamt"] = 0,
 									["actived"] = false,
-									["refreshamt"] = 0,
+									["appliedamt"] = 0,
 								},
 							},
-							["boss_fight_component"] = true,
-							["nome"] = "Sara's Fervor",
-							["damage_spellid"] = 63138,
+							["last_event"] = 1624969867,
+							["serial"] = "Creature-0-4240-603-20883-33134-00005B124C",
 							["tipo"] = 4,
 							["damage_twin"] = "Sara",
 							["aID"] = "33134",
-							["serial"] = "Creature-0-4240-603-20883-33134-00005B124C",
-							["last_event"] = 1624969867,
+							["damage_spellid"] = 63138,
+							["nome"] = "Sara's Fervor",
 						}, -- [5]
 						{
 							["flag_original"] = 2584,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 9,
 							},
 							["pets"] = {
 							},
@@ -1961,30 +2103,30 @@ _detalhes_database = {
 							["boss_debuff"] = true,
 							["debuff_uptime"] = 27,
 							["spellschool"] = 32,
+							["boss_fight_component"] = true,
 							["debuff_uptime_targets"] = {
 								["Barbaxius"] = {
 									["uptime"] = 27,
-									["actived_at"] = 1624969884,
+									["refreshamt"] = 0,
 									["appliedamt"] = 0,
 									["activedamt"] = -1,
 									["actived"] = true,
-									["refreshamt"] = 0,
+									["actived_at"] = 1624969884,
 								},
 							},
-							["boss_fight_component"] = true,
-							["nome"] = "Sara's Blessing",
-							["damage_spellid"] = 63134,
+							["last_event"] = 1624969884,
+							["serial"] = "Creature-0-4240-603-20883-33134-00005B124C",
 							["tipo"] = 4,
 							["damage_twin"] = "Sara",
 							["aID"] = "33134",
-							["serial"] = "Creature-0-4240-603-20883-33134-00005B124C",
-							["last_event"] = 1624969884,
+							["damage_spellid"] = 63134,
+							["nome"] = "Sara's Blessing",
 						}, -- [6]
 						{
 							["flag_original"] = 2632,
-							["classe"] = "UNKNOW",
+							["monster"] = true,
 							["nome"] = "Yogg-Saron",
-							["boss_fight_component"] = true,
+							["last_event"] = 0,
 							["pets"] = {
 							},
 							["spell_cast"] = {
@@ -1992,16 +2134,17 @@ _detalhes_database = {
 								[64465] = 1,
 								[63894] = 1,
 							},
-							["monster"] = true,
-							["tipo"] = 4,
 							["aID"] = "",
+							["classe"] = "UNKNOW",
+							["tipo"] = 4,
 							["serial"] = "Vehicle-0-4240-603-20883-33288-00005B129B",
-							["last_event"] = 0,
+							["boss_fight_component"] = true,
 						}, -- [7]
 						{
 							["monster"] = true,
+							["last_event"] = 0,
 							["boss_fight_component"] = true,
-							["flag_original"] = 2632,
+							["aID"] = "33985",
 							["spell_cast"] = {
 								[64156] = 2,
 								[64144] = 1,
@@ -2009,38 +2152,37 @@ _detalhes_database = {
 								[64157] = 1,
 								[64152] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["nome"] = "Corruptor Tentacle",
-							["last_event"] = 0,
+							["tipo"] = 4,
+							["classe"] = "UNKNOW",
 							["pets"] = {
 							},
-							["tipo"] = 4,
 							["serial"] = "Creature-0-4240-603-20883-33985-00005B129D",
-							["aID"] = "33985",
+							["flag_original"] = 2632,
 						}, -- [8]
 						{
 							["monster"] = true,
+							["last_event"] = 0,
 							["boss_fight_component"] = true,
-							["flag_original"] = 2632,
+							["aID"] = "33966",
 							["spell_cast"] = {
 								[57688] = 1,
 								[64144] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["nome"] = "Crusher Tentacle",
-							["last_event"] = 0,
+							["tipo"] = 4,
+							["classe"] = "UNKNOW",
 							["pets"] = {
 							},
-							["tipo"] = 4,
 							["serial"] = "Creature-0-4240-603-20883-33966-00005B129D",
-							["aID"] = "33966",
+							["flag_original"] = 2632,
 						}, -- [9]
 						{
 							["flag_original"] = 2632,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 9,
 							},
 							["pets"] = {
 							},
@@ -2050,77 +2192,77 @@ _detalhes_database = {
 							["debuff_uptime"] = 0,
 							["spellschool"] = 1,
 							["nome"] = "Squeeze",
-							["boss_fight_component"] = true,
+							["tipo"] = 4,
+							["serial"] = "",
+							["aID"] = "",
+							["last_event"] = 1624969884,
+							["damage_twin"] = "[*] Squeeze",
 							["debuff_uptime_targets"] = {
 								["Barbaxius"] = {
 									["uptime"] = 0,
-									["appliedamt"] = 0,
+									["refreshamt"] = 0,
 									["activedamt"] = 0,
 									["actived"] = false,
-									["refreshamt"] = 0,
+									["appliedamt"] = 0,
 								},
 							},
 							["damage_spellid"] = 64126,
-							["last_event"] = 1624969884,
-							["damage_twin"] = "[*] Squeeze",
-							["aID"] = "",
-							["serial"] = "",
-							["tipo"] = 4,
+							["boss_fight_component"] = true,
 						}, -- [10]
 						{
 							["flag_original"] = 2632,
-							["classe"] = "UNKNOW",
+							["monster"] = true,
 							["nome"] = "Constrictor Tentacle",
-							["boss_fight_component"] = true,
+							["last_event"] = 0,
 							["pets"] = {
 							},
 							["spell_cast"] = {
 								[64144] = 1,
 							},
-							["monster"] = true,
-							["tipo"] = 4,
 							["aID"] = "",
+							["classe"] = "UNKNOW",
+							["tipo"] = 4,
 							["serial"] = "Vehicle-0-4240-603-20883-33983-00005B129D",
-							["last_event"] = 0,
+							["boss_fight_component"] = true,
 						}, -- [11]
 						{
 							["monster"] = true,
+							["last_event"] = 0,
 							["boss_fight_component"] = true,
-							["flag_original"] = 2632,
+							["aID"] = "33990",
 							["spell_cast"] = {
 								[64167] = 4,
 							},
-							["classe"] = "UNKNOW",
 							["nome"] = "Laughing Skull",
-							["last_event"] = 0,
+							["tipo"] = 4,
+							["classe"] = "UNKNOW",
 							["pets"] = {
 							},
-							["tipo"] = 4,
 							["serial"] = "Creature-0-4240-603-20883-33990-00005B12A6",
-							["aID"] = "33990",
+							["flag_original"] = 2632,
 						}, -- [12]
 						{
 							["monster"] = true,
+							["last_event"] = 0,
 							["boss_fight_component"] = true,
-							["flag_original"] = 2632,
+							["aID"] = "33890",
 							["spell_cast"] = {
 								[64173] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["nome"] = "Brain of Yogg-Saron",
-							["last_event"] = 0,
+							["tipo"] = 4,
+							["classe"] = "UNKNOW",
 							["pets"] = {
 							},
-							["tipo"] = 4,
 							["serial"] = "Creature-0-4240-603-20883-33890-00005B124C",
-							["aID"] = "33890",
+							["flag_original"] = 2632,
 						}, -- [13]
 						{
 							["flag_original"] = 2632,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 9,
 							},
 							["pets"] = {
 							},
@@ -2130,92 +2272,76 @@ _detalhes_database = {
 							["debuff_uptime"] = 0,
 							["spellschool"] = 1,
 							["nome"] = "Sanity",
-							["boss_fight_component"] = true,
+							["tipo"] = 4,
+							["serial"] = "",
+							["aID"] = "",
+							["last_event"] = 1624969932,
+							["damage_twin"] = "[*] Sanity",
 							["debuff_uptime_targets"] = {
 								["Barbaxius"] = {
 									["uptime"] = 0,
-									["actived_at"] = 1624969932,
+									["refreshamt"] = 0,
 									["appliedamt"] = 0,
 									["activedamt"] = -1,
 									["actived"] = false,
-									["refreshamt"] = 0,
+									["actived_at"] = 1624969932,
 								},
 							},
 							["damage_spellid"] = 63050,
-							["last_event"] = 1624969932,
-							["damage_twin"] = "[*] Sanity",
-							["aID"] = "",
-							["serial"] = "",
-							["tipo"] = 4,
+							["boss_fight_component"] = true,
 						}, -- [14]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1,
 					["tipo"] = 2,
+					["combatId"] = 1,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
 				["raid_roster"] = {
-					["Barbaxius"] = true,
 					["Destruxia"] = true,
+					["Barbaxius"] = true,
 				},
 				["raid_roster_indexed"] = {
 					"Barbaxius", -- [1]
 					"Destruxia", -- [2]
 				},
-				["overall_added"] = true,
+				["tempo_start"] = 1624969848,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 1449,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["totals"] = {
-					2889736, -- [1]
+					2893101, -- [1]
 					52, -- [2]
 					{
 						64, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
-				["totals_grupo"] = {
-					2837632, -- [1]
-					34, -- [2]
-					{
-						64, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
+				["player_last_events"] = {
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "raid",
+				["hasSaved"] = true,
 				["data_fim"] = "15:32:13",
 				["cleu_timeline"] = {
 				},
@@ -2225,6 +2351,51 @@ _detalhes_database = {
 				["aura_timeline"] = {
 				},
 				["__call"] = {
+				},
+				["data_inicio"] = "15:30:49",
+				["end_time"] = 4042.838,
+				["combat_id"] = 1,
+				["combat_counter"] = 1449,
+				["overall_added"] = true,
+				["contra"] = "Guardian of Yogg-Saron",
+				["spells_cast_timeline"] = {
+				},
+				["is_boss"] = {
+					["bossimage"] = 1385774,
+					["diff_string"] = "Normal",
+					["index"] = 1,
+					["zone"] = "Ulduar",
+					["encounter"] = "Yogg-Saron",
+					["mapid"] = 603,
+					["try_number"] = 1,
+					["name"] = "Yogg-Saron",
+					["diff"] = 14,
+					["ej_instance_id"] = 759,
+					["id"] = 1143,
+					["killed"] = true,
+				},
+				["totals_grupo"] = {
+					2837632, -- [1]
+					34, -- [2]
+					{
+						64, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["CombatSkillCache"] = {
 				},
 				["PhaseData"] = {
 					{
@@ -2239,6 +2410,17 @@ _detalhes_database = {
 						3, -- [1]
 						78.23900000000003, -- [2]
 					}, -- [3]
+					["damage"] = {
+						{
+							["Barbaxius"] = 501574.001999,
+						}, -- [1]
+						{
+							["Barbaxius"] = 1441416,
+						}, -- [2]
+						{
+							["Barbaxius"] = 894642,
+						}, -- [3]
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -2254,44 +2436,9 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
-					["damage"] = {
-						{
-							["Barbaxius"] = 501574.001999,
-						}, -- [1]
-						{
-							["Barbaxius"] = 1441416,
-						}, -- [2]
-						{
-							["Barbaxius"] = 894642,
-						}, -- [3]
-					},
 				},
-				["end_time"] = 4042.838,
-				["combat_id"] = 1,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["tempo_start"] = 1624969848,
-				["player_last_events"] = {
-				},
-				["spells_cast_timeline"] = {
-				},
-				["is_boss"] = {
-					["bossimage"] = 1385774,
-					["diff_string"] = "Normal",
-					["index"] = 1,
-					["zone"] = "Ulduar",
-					["encounter"] = "Yogg-Saron",
-					["mapid"] = 603,
-					["try_number"] = 1,
-					["name"] = "Yogg-Saron",
-					["diff"] = 14,
-					["id"] = 1143,
-					["ej_instance_id"] = 759,
-					["killed"] = true,
-				},
-				["data_inicio"] = "15:30:49",
-				["CombatSkillCache"] = {
+				["start_time"] = 3941.961,
+				["TimeData"] = {
 				},
 				["frags"] = {
 					["Constrictor Tentacle"] = 1,
@@ -2300,10 +2447,6 @@ _detalhes_database = {
 					["Guardian of Yogg-Saron"] = 3,
 					["Crusher Tentacle"] = 1,
 				},
-				["start_time"] = 3941.961,
-				["TimeData"] = {
-				},
-				["contra"] = "Guardian of Yogg-Saron",
 			}, -- [1]
 		},
 	},
@@ -2321,7 +2464,7 @@ _detalhes_database = {
 		["pos"] = {
 		},
 	},
-	["last_version"] = "9.0.58637",
+	["last_version"] = "9.1.08697",
 	["SoloTablesSaved"] = {
 		["Mode"] = 1,
 	},
@@ -2402,15 +2545,15 @@ _detalhes_database = {
 			["tank_block_size"] = 150,
 			["bar_height"] = 24,
 			["tank_block_texture"] = "Details Serenity",
-			["tank_block_height"] = 40,
-			["show_inc_bars"] = false,
-			["tank_block_powerbar_size_height"] = 10,
 			["tank_block_color"] = {
 				0.24705882, -- [1]
 				0.0039215, -- [2]
 				0, -- [3]
 				0.8, -- [4]
 			},
+			["tank_block_powerbar_size_height"] = 10,
+			["tank_block_height"] = 40,
+			["show_inc_bars"] = false,
 		},
 		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
 			["enabled"] = true,
@@ -2420,11 +2563,11 @@ _detalhes_database = {
 			["last_section_selected"] = "main",
 			["author"] = "Details! Team",
 			["window_scale"] = 1,
-			["hide_on_combat"] = false,
-			["show_icon"] = 5,
-			["opened"] = 0,
 			["encounter_timers_dbm"] = {
 			},
+			["show_icon"] = 5,
+			["opened"] = 0,
+			["hide_on_combat"] = false,
 		},
 		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
 			["font_color"] = {
@@ -2450,36 +2593,11 @@ _detalhes_database = {
 				["radius"] = 160,
 				["hide"] = true,
 			},
-			["scale"] = 1,
+			["use_square_mode"] = false,
 			["arrow_anchor_x"] = 0,
-			["row_height"] = 20,
+			["main_frame_locked"] = false,
 			["row_texture"] = "Details Serenity",
-			["point"] = "CENTER",
-			["main_frame_strata"] = "LOW",
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
-			["square_amount"] = 5,
-			["enabled"] = false,
-			["arrow_size"] = 10,
-			["y"] = 4.57763671875e-05,
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
-			["author"] = "Details! Team",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["use_spark"] = true,
-			["font_size"] = 10,
-			["x"] = 0,
-			["font_face"] = "Friz Quadrata TT",
-			["square_size"] = 32,
+			["arrow_anchor_y"] = 0,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -2487,33 +2605,58 @@ _detalhes_database = {
 				["font_shadow"] = true,
 				["y"] = 3.0517578125e-05,
 				["x"] = 3.0517578125e-05,
-				["size"] = 32,
-				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
+				["update_speed"] = 0.05,
+				["size"] = 32,
 			},
-			["arrow_anchor_y"] = 0,
-			["main_frame_locked"] = false,
-			["use_square_mode"] = false,
+			["author"] = "Details! Team",
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["use_spark"] = true,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["font_size"] = 10,
+			["y"] = 4.57763671875e-05,
+			["x"] = 0,
+			["font_face"] = "Friz Quadrata TT",
+			["square_size"] = 32,
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["point"] = "CENTER",
+			["row_height"] = 20,
+			["scale"] = 1,
 		},
 	},
+	["last_day"] = "03",
 	["last_realversion"] = 145,
-	["cached_talents"] = {
+	["cached_roles"] = {
 	},
-	["announce_damagerecord"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
+	["cached_talents"] = {
 	},
 	["announce_prepots"] = {
 		["enabled"] = false,
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
-	["last_encounter"] = "Yogg-Saron",
-	["announce_firsthit"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
+	["benchmark_db"] = {
+		["frame"] = {
+		},
 	},
-	["combat_counter"] = 1449,
+	["character_data"] = {
+		["logons"] = 36,
+	},
 	["combat_id"] = 1,
 	["savedStyles"] = {
 	},
@@ -2541,7 +2684,7 @@ _detalhes_database = {
 				["normal"] = {
 					["y"] = -420.8414993286133,
 					["x"] = 759.0111694335938,
-					["w"] = 404.9826965332031,
+					["w"] = 404.9828491210938,
 					["h"] = 240.0071868896484,
 				},
 				["solo"] = {
@@ -2570,8 +2713,8 @@ _detalhes_database = {
 					["damage_from"] = {
 						["Guardian of Yogg-Saron <Ominous Cloud>"] = true,
 						["Yogg-Saron"] = true,
-						["Sara"] = true,
 						["Laughing Skull"] = true,
+						["Sara"] = true,
 					},
 					["targets"] = {
 						["Brain of Yogg-Saron"] = 351488,
@@ -2579,33 +2722,28 @@ _detalhes_database = {
 						["Crusher Tentacle"] = 76459,
 						["Guardian of Yogg-Saron <Ominous Cloud>"] = 501574,
 						["Constrictor Tentacle"] = 26780,
-						["Ruby Consort"] = 136027,
+						["Yogg-Saron"] = 894642,
 						["Azure Consort"] = 460455,
 						["Obsidian Consort"] = 218603,
 						["Emerald Consort"] = 108144,
-						["Yogg-Saron"] = 894642,
+						["Ruby Consort"] = 136027,
 					},
 					["pets"] = {
 					},
-					["friendlyfire_total"] = 0,
-					["friendlyfire"] = {
-					},
+					["aID"] = "1301-0B0D2B3F",
+					["total"] = 2837632.005298,
 					["classe"] = "WARRIOR",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 2837632.005298,
-					["end_time"] = 1624969933,
-					["boss_fight_component"] = true,
+					["last_dps"] = 0,
+					["delay"] = 0,
 					["dps_started"] = false,
-					["total"] = 2837632.005298,
-					["aID"] = "1301-0B0D2B3F",
-					["last_event"] = 0,
-					["nome"] = "Barbaxius",
-					["spec"] = 72,
-					["grupo"] = true,
-					["on_hold"] = false,
+					["end_time"] = 1624969933,
+					["friendlyfire_total"] = 0,
+					["damage_taken"] = 54.005298,
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -2616,11 +2754,11 @@ _detalhes_database = {
 								["targets"] = {
 									["Azure Consort"] = 74535,
 									["Yogg-Saron"] = 72901,
-									["Crusher Tentacle"] = 76459,
+									["Ruby Consort"] = 73380,
 									["Guardian of Yogg-Saron <Ominous Cloud>"] = 238526,
 									["Brain of Yogg-Saron"] = 53433,
 									["Emerald Consort"] = 76003,
-									["Ruby Consort"] = 73380,
+									["Crusher Tentacle"] = 76459,
 								},
 								["n_dmg"] = 665237,
 								["n_min"] = 0,
@@ -2630,16 +2768,16 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["MISS"] = 1,
-								["extra"] = {
-								},
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 9,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["extra"] = {
+								},
+								["MISS"] = 1,
 							}, -- [1]
 							[317489] = {
 								["c_amt"] = 0,
@@ -2658,15 +2796,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 317489,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 1,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[23881] = {
 								["c_amt"] = 0,
@@ -2686,15 +2824,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 23881,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 2,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[126664] = {
 								["c_amt"] = 0,
@@ -2713,15 +2851,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 126664,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 1,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[199658] = {
 								["c_amt"] = 0,
@@ -2741,15 +2879,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 199658,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 2,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[105771] = {
 								["c_amt"] = 0,
@@ -2760,8 +2898,8 @@ _detalhes_database = {
 								["targets"] = {
 									["Azure Consort"] = 0,
 									["Brain of Yogg-Saron"] = 0,
-									["Crusher Tentacle"] = 0,
 									["Ruby Consort"] = 0,
+									["Crusher Tentacle"] = 0,
 								},
 								["n_dmg"] = 0,
 								["n_min"] = 0,
@@ -2771,16 +2909,16 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 105771,
 								["r_dmg"] = 0,
-								["IMMUNE"] = 4,
-								["extra"] = {
-								},
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["extra"] = {
+								},
+								["IMMUNE"] = 4,
 							},
 							[52174] = {
 								["c_amt"] = 0,
@@ -2799,15 +2937,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 52174,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 1,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[50622] = {
 								["c_amt"] = 1,
@@ -2827,15 +2965,15 @@ _detalhes_database = {
 								["c_max"] = 385920,
 								["id"] = 50622,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 1,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[57755] = {
 								["c_amt"] = 0,
@@ -2855,15 +2993,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 57755,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 2,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[317488] = {
 								["c_amt"] = 1,
@@ -2882,25 +3020,30 @@ _detalhes_database = {
 								["c_max"] = 637972,
 								["id"] = 317488,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 						},
+						["tipo"] = 2,
 					},
-					["serial"] = "Player-1301-0B0D2B3F",
-					["custom"] = 0,
+					["grupo"] = true,
 					["tipo"] = 1,
-					["damage_taken"] = 54.005298,
+					["nome"] = "Barbaxius",
+					["spec"] = 72,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1624969878,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "Player-1301-0B0D2B3F",
+					["on_hold"] = false,
 				}, -- [1]
 				{
 					["flag_original"] = 2632,
@@ -2911,42 +3054,42 @@ _detalhes_database = {
 						["Sara"] = 52050,
 						["Barbaxius"] = 5,
 					},
-					["on_hold"] = false,
+					["delay"] = 0,
 					["pets"] = {
 						"Guardian of Yogg-Saron <Ominous Cloud>", -- [1]
 					},
-					["monster"] = true,
+					["dps_started"] = false,
+					["damage_taken"] = 0.011629,
 					["aID"] = "33292",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.011629,
-					["friendlyfire"] = {
-					},
-					["end_time"] = 1624969933,
-					["dps_started"] = false,
 					["total"] = 52055.011629,
+					["monster"] = true,
+					["end_time"] = 1624969933,
+					["last_dps"] = 0,
+					["tipo"] = 1,
 					["boss_fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["nome"] = "Ominous Cloud",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["nome"] = "Ominous Cloud",
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-4240-603-20883-33292-00015B124C",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
 					["start_time"] = 1624969925,
-					["delay"] = 0,
-					["damage_taken"] = 0.011629,
+					["serial"] = "Creature-0-4240-603-20883-33292-00015B124C",
+					["friendlyfire"] = {
+					},
 				}, -- [2]
 				{
 					["flag_original"] = 68168,
 					["totalabsorbed"] = 0.010565,
-					["on_hold"] = false,
+					["monster"] = true,
 					["damage_from"] = {
 						["Barbaxius"] = true,
 					},
@@ -2954,23 +3097,23 @@ _detalhes_database = {
 						["Sara"] = 52050,
 						["Barbaxius"] = 5,
 					},
-					["monster"] = true,
 					["pets"] = {
 					},
-					["end_time"] = 1624969933,
-					["classe"] = "UNKNOW",
+					["total"] = 52055.010565,
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 52055.010565,
-					["boss_fight_component"] = true,
-					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
+					["delay"] = 0,
 					["dps_started"] = false,
-					["total"] = 52055.010565,
-					["tipo"] = 1,
+					["end_time"] = 1624969933,
+					["classe"] = "UNKNOW",
 					["ownerName"] = "Ominous Cloud",
 					["nome"] = "Guardian of Yogg-Saron <Ominous Cloud>",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[63038] = {
 								["c_amt"] = 0,
@@ -2988,15 +3131,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 63038,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[65719] = {
 								["c_amt"] = 0,
@@ -3015,15 +3158,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 65719,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 3,
 								["a_amt"] = 0,
 								["n_amt"] = 3,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[65209] = {
 								["c_amt"] = 0,
@@ -3042,34 +3185,33 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 65209,
 								["r_dmg"] = 0,
-								["MISS"] = 2,
-								["extra"] = {
-								},
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 3,
 								["a_amt"] = 0,
 								["n_amt"] = 1,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["extra"] = {
+								},
+								["MISS"] = 2,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["aID"] = "33136",
-					["serial"] = "Creature-0-4240-603-20883-33136-00005B1272",
-					["friendlyfire"] = {
-					},
-					["custom"] = 0,
-					["last_event"] = 0,
 					["damage_taken"] = 501574.010565,
+					["last_event"] = 0,
+					["boss_fight_component"] = true,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["on_hold"] = false,
 					["start_time"] = 1624969925,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "Creature-0-4240-603-20883-33136-00005B1272",
+					["aID"] = "33136",
 				}, -- [3]
 				{
 					["flag_original"] = 2584,
 					["totalabsorbed"] = 0.008516,
-					["aID"] = "33134",
 					["damage_from"] = {
 						["Guardian of Yogg-Saron <Ominous Cloud>"] = true,
 					},
@@ -3078,19 +3220,20 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["boss_fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
+					["aID"] = "33134",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 42.008516,
-					["last_event"] = 0,
+					["delay"] = 0,
 					["dps_started"] = false,
 					["end_time"] = 1624969933,
-					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
 					["nome"] = "Sara",
+					["damage_taken"] = 52050.008516,
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[64775] = {
 								["c_amt"] = 0,
@@ -3108,68 +3251,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 64775,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
-							},
-							[63134] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 3,
-								["targets"] = {
-									["Barbaxius"] = 32,
-								},
-								["n_dmg"] = 32,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 18,
-								["total"] = 32,
-								["c_max"] = 0,
-								["id"] = 63134,
-								["r_dmg"] = 0,
+								["a_dmg"] = 0,
 								["extra"] = {
 								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 18,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
-							},
-							[63891] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-								},
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 63891,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 1,
-								["a_amt"] = 0,
-								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
 							},
 							[65301] = {
 								["c_amt"] = 0,
@@ -3188,28 +3278,81 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 65301,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 10,
 								["a_amt"] = 0,
 								["n_amt"] = 9,
-								["b_dmg"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[63891] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 63891,
+								["r_dmg"] = 0,
 								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[63134] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 3,
+								["targets"] = {
+									["Barbaxius"] = 32,
+								},
+								["n_dmg"] = 32,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 18,
+								["total"] = 32,
+								["c_max"] = 0,
+								["id"] = 63134,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 18,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 						},
+						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
-					["total"] = 42.008516,
-					["serial"] = "Creature-0-4240-603-20883-33134-00005B124C",
-					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 52050.008516,
+					["friendlyfire_total"] = 0,
+					["total"] = 42.008516,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
 					["start_time"] = 1624969884,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "Creature-0-4240-603-20883-33134-00005B124C",
+					["classe"] = "UNKNOW",
 				}, -- [4]
 				{
 					["flag_original"] = 2632,
@@ -3223,20 +3366,19 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["boss"] = true,
-					["dps_started"] = false,
-					["friendlyfire_total"] = 0,
+					["delay"] = 0,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 3.005732,
-					["end_time"] = 1624969933,
-					["on_hold"] = false,
-					["monster"] = true,
 					["total"] = 3.005732,
+					["last_dps"] = 0,
+					["monster"] = true,
+					["end_time"] = 1624969933,
+					["friendlyfire_total"] = 0,
 					["aID"] = "",
-					["boss_fight_component"] = true,
 					["nome"] = "Yogg-Saron",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[64163] = {
 								["c_amt"] = 0,
@@ -3254,15 +3396,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 64163,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[64465] = {
 								["c_amt"] = 0,
@@ -3280,15 +3422,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 64465,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[63894] = {
 								["c_amt"] = 0,
@@ -3306,15 +3448,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 63894,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[64164] = {
 								["c_amt"] = 0,
@@ -3333,29 +3475,30 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 64164,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 3,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 						},
+						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["dps_started"] = false,
+					["damage_taken"] = 894642.005732,
+					["tipo"] = 1,
+					["boss_fight_component"] = true,
+					["custom"] = 0,
 					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1624969928,
+					["serial"] = "Vehicle-0-4240-603-20883-33288-00005B129B",
 					["friendlyfire"] = {
 					},
-					["serial"] = "Vehicle-0-4240-603-20883-33288-00005B129B",
-					["custom"] = 0,
-					["tipo"] = 1,
-					["damage_taken"] = 894642.005732,
-					["start_time"] = 1624969928,
-					["delay"] = 0,
-					["last_dps"] = 0,
 				}, -- [5]
 				{
 					["flag_original"] = 2632,
@@ -3365,24 +3508,22 @@ _detalhes_database = {
 					},
 					["targets"] = {
 					},
-					["on_hold"] = false,
+					["delay"] = 0,
 					["pets"] = {
 					},
-					["monster"] = true,
+					["dps_started"] = false,
+					["damage_taken"] = 63460.008012,
 					["aID"] = "33985",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.008012,
-					["friendlyfire"] = {
-					},
-					["end_time"] = 1624969933,
-					["dps_started"] = false,
 					["total"] = 0.008012,
+					["monster"] = true,
+					["end_time"] = 1624969933,
+					["last_dps"] = 0,
+					["tipo"] = 1,
 					["boss_fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["nome"] = "Corruptor Tentacle",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[64156] = {
 								["c_amt"] = 0,
@@ -3401,16 +3542,16 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 64156,
 								["r_dmg"] = 0,
-								["MISS"] = 2,
-								["extra"] = {
-								},
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 2,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["extra"] = {
+								},
+								["MISS"] = 2,
 							},
 							[64144] = {
 								["c_amt"] = 0,
@@ -3428,15 +3569,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 64144,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[64153] = {
 								["c_amt"] = 0,
@@ -3455,16 +3596,16 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 64153,
 								["r_dmg"] = 0,
-								["MISS"] = 4,
-								["extra"] = {
-								},
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 4,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["extra"] = {
+								},
+								["MISS"] = 4,
 							},
 							[64157] = {
 								["c_amt"] = 0,
@@ -3483,16 +3624,16 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 64157,
 								["r_dmg"] = 0,
-								["MISS"] = 1,
-								["extra"] = {
-								},
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["extra"] = {
+								},
+								["MISS"] = 1,
 							},
 							[64152] = {
 								["c_amt"] = 0,
@@ -3510,27 +3651,29 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 64152,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["nome"] = "Corruptor Tentacle",
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-4240-603-20883-33985-00005B129D",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
 					["start_time"] = 1624969930,
-					["delay"] = 0,
-					["damage_taken"] = 63460.008012,
+					["serial"] = "Creature-0-4240-603-20883-33985-00005B129D",
+					["friendlyfire"] = {
+					},
 				}, -- [6]
 				{
 					["flag_original"] = 2632,
@@ -3540,24 +3683,22 @@ _detalhes_database = {
 					},
 					["targets"] = {
 					},
-					["on_hold"] = false,
+					["delay"] = 0,
 					["pets"] = {
 					},
-					["monster"] = true,
+					["dps_started"] = false,
+					["damage_taken"] = 76459.015783,
 					["aID"] = "33966",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.015783,
-					["friendlyfire"] = {
-					},
-					["end_time"] = 1624969933,
-					["dps_started"] = false,
 					["total"] = 0.015783,
+					["monster"] = true,
+					["end_time"] = 1624969933,
+					["last_dps"] = 0,
+					["tipo"] = 1,
 					["boss_fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["nome"] = "Crusher Tentacle",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[57688] = {
 								["c_amt"] = 0,
@@ -3575,15 +3716,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 57688,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[64144] = {
 								["c_amt"] = 0,
@@ -3601,27 +3742,29 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 64144,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["nome"] = "Crusher Tentacle",
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-4240-603-20883-33966-00005B129D",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
 					["start_time"] = 1624969930,
-					["delay"] = 0,
-					["damage_taken"] = 76459.015783,
+					["serial"] = "Creature-0-4240-603-20883-33966-00005B129D",
+					["friendlyfire"] = {
+					},
 				}, -- [7]
 				{
 					["flag_original"] = 2632,
@@ -3631,23 +3774,22 @@ _detalhes_database = {
 					},
 					["targets"] = {
 					},
-					["dps_started"] = false,
+					["delay"] = 0,
 					["pets"] = {
 					},
-					["last_event"] = 0,
+					["total"] = 0.010054,
+					["damage_taken"] = 26780.010054,
 					["aID"] = "",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.010054,
-					["on_hold"] = false,
-					["end_time"] = 1624969933,
-					["monster"] = true,
-					["total"] = 0.010054,
-					["boss_fight_component"] = true,
 					["classe"] = "UNKNOW",
-					["nome"] = "Constrictor Tentacle",
+					["dps_started"] = false,
+					["end_time"] = 1624969933,
+					["last_dps"] = 0,
+					["tipo"] = 1,
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[64144] = {
 								["c_amt"] = 0,
@@ -3665,28 +3807,29 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 64144,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 						},
+						["tipo"] = 2,
 					},
+					["nome"] = "Constrictor Tentacle",
+					["friendlyfire_total"] = 0,
 					["friendlyfire"] = {
 					},
-					["friendlyfire_total"] = 0,
-					["serial"] = "Vehicle-0-4240-603-20883-33983-00005B129D",
 					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
 					["start_time"] = 1624969930,
-					["delay"] = 0,
-					["damage_taken"] = 26780.010054,
+					["serial"] = "Vehicle-0-4240-603-20883-33983-00005B129D",
+					["monster"] = true,
 				}, -- [8]
 				{
 					["flag_original"] = 2632,
@@ -3696,24 +3839,22 @@ _detalhes_database = {
 					["targets"] = {
 						["Barbaxius"] = 4,
 					},
-					["on_hold"] = false,
+					["delay"] = 0,
 					["pets"] = {
 					},
-					["monster"] = true,
+					["dps_started"] = false,
+					["damage_taken"] = 0.009934,
 					["aID"] = "33990",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 4.009933999999999,
-					["friendlyfire"] = {
-					},
-					["end_time"] = 1624969933,
-					["dps_started"] = false,
 					["total"] = 4.009933999999999,
+					["monster"] = true,
+					["end_time"] = 1624969933,
+					["last_dps"] = 0,
+					["tipo"] = 1,
 					["boss_fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["nome"] = "Laughing Skull",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[64167] = {
 								["c_amt"] = 0,
@@ -3731,15 +3872,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 64167,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 4,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[64168] = {
 								["c_amt"] = 0,
@@ -3758,32 +3899,33 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 64168,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 4,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["nome"] = "Laughing Skull",
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-4240-603-20883-33990-00005B12A6",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
 					["start_time"] = 1624969927,
-					["delay"] = 0,
-					["damage_taken"] = 0.009934,
+					["serial"] = "Creature-0-4240-603-20883-33990-00005B12A6",
+					["friendlyfire"] = {
+					},
 				}, -- [9]
 				{
 					["flag_original"] = 68136,
 					["totalabsorbed"] = 0.014964,
-					["aID"] = "33716",
 					["damage_from"] = {
 						["Barbaxius"] = true,
 					},
@@ -3791,37 +3933,37 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["boss_fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
+					["aID"] = "33716",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.014964,
-					["last_event"] = 0,
+					["delay"] = 0,
 					["dps_started"] = false,
 					["end_time"] = 1624969933,
-					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
 					["nome"] = "Ruby Consort",
+					["damage_taken"] = 136027.014964,
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
-					["total"] = 0.014964,
-					["serial"] = "Creature-0-4240-603-20883-33716-00005B12A6",
-					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 136027.014964,
+					["friendlyfire_total"] = 0,
+					["total"] = 0.014964,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
 					["start_time"] = 1624969930,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "Creature-0-4240-603-20883-33716-00005B12A6",
+					["classe"] = "UNKNOW",
 				}, -- [10]
 				{
 					["flag_original"] = 68136,
 					["totalabsorbed"] = 0.006934,
-					["aID"] = "33719",
 					["damage_from"] = {
 						["Barbaxius"] = true,
 					},
@@ -3829,37 +3971,37 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["boss_fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
+					["aID"] = "33719",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.006934,
-					["last_event"] = 0,
+					["delay"] = 0,
 					["dps_started"] = false,
 					["end_time"] = 1624969933,
-					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
 					["nome"] = "Emerald Consort",
+					["damage_taken"] = 108144.006934,
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
-					["total"] = 0.006934,
-					["serial"] = "Creature-0-4240-603-20883-33719-00005B12A6",
-					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 108144.006934,
+					["friendlyfire_total"] = 0,
+					["total"] = 0.006934,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
 					["start_time"] = 1624969930,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "Creature-0-4240-603-20883-33719-00005B12A6",
+					["classe"] = "UNKNOW",
 				}, -- [11]
 				{
 					["flag_original"] = 68136,
 					["totalabsorbed"] = 0.012589,
-					["aID"] = "33720",
 					["damage_from"] = {
 						["Barbaxius"] = true,
 					},
@@ -3867,37 +4009,37 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["boss_fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
+					["aID"] = "33720",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.012589,
-					["last_event"] = 0,
+					["delay"] = 0,
 					["dps_started"] = false,
 					["end_time"] = 1624969933,
-					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
 					["nome"] = "Obsidian Consort",
+					["damage_taken"] = 218603.012589,
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
-					["total"] = 0.012589,
-					["serial"] = "Creature-0-4240-603-20883-33720-00005B12A6",
-					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 218603.012589,
+					["friendlyfire_total"] = 0,
+					["total"] = 0.012589,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
 					["start_time"] = 1624969930,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "Creature-0-4240-603-20883-33720-00005B12A6",
+					["classe"] = "UNKNOW",
 				}, -- [12]
 				{
 					["flag_original"] = 2600,
 					["totalabsorbed"] = 0.014518,
-					["aID"] = "33717",
 					["damage_from"] = {
 						["Barbaxius"] = true,
 					},
@@ -3905,32 +4047,33 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["boss_fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
+					["aID"] = "33717",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.014518,
-					["last_event"] = 0,
+					["delay"] = 0,
 					["dps_started"] = false,
 					["end_time"] = 1624969933,
-					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
 					["nome"] = "Azure Consort",
+					["damage_taken"] = 460455.014518,
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
-					["total"] = 0.014518,
-					["serial"] = "Creature-0-4240-603-20883-33717-0000DB12A6",
-					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 460455.014518,
+					["friendlyfire_total"] = 0,
+					["total"] = 0.014518,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
 					["start_time"] = 1624969930,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "Creature-0-4240-603-20883-33717-0000DB12A6",
+					["classe"] = "UNKNOW",
 				}, -- [13]
 				{
 					["flag_original"] = 2632,
@@ -3940,24 +4083,22 @@ _detalhes_database = {
 					},
 					["targets"] = {
 					},
-					["on_hold"] = false,
+					["delay"] = 0,
 					["pets"] = {
 					},
-					["monster"] = true,
+					["dps_started"] = false,
+					["damage_taken"] = 351488.0095080001,
 					["aID"] = "33890",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.009507999999999999,
-					["friendlyfire"] = {
-					},
-					["end_time"] = 1624969933,
-					["dps_started"] = false,
 					["total"] = 0.009507999999999999,
+					["monster"] = true,
+					["end_time"] = 1624969933,
+					["last_dps"] = 0,
+					["tipo"] = 1,
 					["boss_fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["nome"] = "Brain of Yogg-Saron",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[64173] = {
 								["c_amt"] = 0,
@@ -3975,27 +4116,29 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 64173,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["nome"] = "Brain of Yogg-Saron",
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-4240-603-20883-33890-00005B124C",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
 					["start_time"] = 1624969930,
-					["delay"] = 0,
-					["damage_taken"] = 351488.0095080001,
+					["serial"] = "Creature-0-4240-603-20883-33890-00005B124C",
+					["friendlyfire"] = {
+					},
 				}, -- [14]
 				{
 					["flag_original"] = 2632,
@@ -4004,24 +4147,22 @@ _detalhes_database = {
 					},
 					["targets"] = {
 					},
-					["on_hold"] = false,
+					["delay"] = 0,
 					["pets"] = {
 					},
-					["monster"] = true,
+					["dps_started"] = false,
+					["damage_taken"] = 0.008971,
 					["aID"] = "33988",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.008971,
-					["friendlyfire"] = {
-					},
-					["end_time"] = 1624969933,
-					["dps_started"] = false,
 					["total"] = 0.008971,
+					["monster"] = true,
+					["end_time"] = 1624969933,
+					["last_dps"] = 0,
+					["tipo"] = 1,
 					["boss_fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["nome"] = "Immortal Guardian",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -4040,28 +4181,30 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["PARRY"] = 1,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
 							}, -- [1]
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["nome"] = "Immortal Guardian",
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-4240-603-20883-33988-00005B12C8",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
 					["start_time"] = 1624969930,
-					["delay"] = 0,
-					["damage_taken"] = 0.008971,
+					["serial"] = "Creature-0-4240-603-20883-33988-00005B12C8",
+					["friendlyfire"] = {
+					},
 				}, -- [15]
 			},
 		}, -- [1]
@@ -4072,31 +4215,29 @@ _detalhes_database = {
 					["flag_original"] = 2584,
 					["totalabsorb"] = 0.010587,
 					["last_hps"] = 0,
-					["healing_from"] = {
+					["targets_overheal"] = {
+						["Barbaxius"] = 0,
 					},
 					["targets"] = {
-						["Barbaxius"] = 18,
+						["Barbaxius"] = 0,
 					},
 					["aID"] = "33134",
 					["pets"] = {
 					},
-					["iniciar_hps"] = false,
-					["targets_overheal"] = {
-						["Barbaxius"] = 6918,
+					["totalover_without_pet"] = 0.010587,
+					["healing_from"] = {
 					},
-					["healing_taken"] = 0.010587,
+					["classe"] = "UNKNOW",
 					["totalover"] = 6918.010587000001,
 					["total_without_pet"] = 18.010587,
-					["end_time"] = 1624969933,
-					["totalover_without_pet"] = 0.010587,
-					["classe"] = "UNKNOW",
-					["total"] = 18.010587,
-					["targets_absorbs"] = {
-					},
+					["iniciar_hps"] = false,
+					["totaldenied"] = 0.010587,
 					["heal_enemy_amt"] = 0,
+					["end_time"] = 1624969933,
+					["nome"] = "Sara",
+					["healing_taken"] = 0.010587,
 					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[63134] = {
 								["c_amt"] = 0,
@@ -4118,35 +4259,36 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
+								["n_amt"] = 2,
 								["n_curado"] = 18,
 								["totaldenied"] = 0,
-								["n_amt"] = 2,
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
-					["start_time"] = 1624969923,
-					["nome"] = "Sara",
+					["total"] = 18.010587,
+					["tipo"] = 2,
 					["heal_enemy"] = {
 					},
-					["serial"] = "Creature-0-4240-603-20883-33134-00005B124C",
+					["targets_absorbs"] = {
+					},
 					["custom"] = 0,
 					["last_event"] = 0,
 					["on_hold"] = false,
-					["totaldenied"] = 0.010587,
+					["start_time"] = 1624969923,
+					["serial"] = "Creature-0-4240-603-20883-33134-00005B124C",
 					["delay"] = 0,
-					["tipo"] = 2,
 				}, -- [1]
 				{
 					["flag_original"] = 1297,
-					["healing_from"] = {
-						["Sara"] = true,
-						["Barbaxius"] = true,
+					["targets_overheal"] = {
+						["Barbaxius"] = 0,
 					},
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["classe"] = "WARRIOR",
+					["heal_enemy_amt"] = 0,
 					["totalover"] = 736.0121999999999,
 					["total_without_pet"] = 34.0122,
 					["total"] = 34.0122,
@@ -4159,19 +4301,19 @@ _detalhes_database = {
 					["totalabsorb"] = 0.0122,
 					["last_hps"] = 0,
 					["targets"] = {
-						["Barbaxius"] = 34,
+						["Barbaxius"] = 0,
 					},
 					["totalover_without_pet"] = 0.0122,
 					["healing_taken"] = 52.0122,
-					["boss_fight_component"] = true,
+					["aID"] = "1301-0B0D2B3F",
 					["end_time"] = 1624969933,
-					["targets_overheal"] = {
-						["Barbaxius"] = 736,
+					["tipo"] = 2,
+					["healing_from"] = {
+						["Sara"] = true,
+						["Barbaxius"] = true,
 					},
-					["heal_enemy_amt"] = 0,
 					["nome"] = "Barbaxius",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[117313] = {
 								["c_amt"] = 0,
@@ -4193,22 +4335,23 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
+								["n_amt"] = 2,
 								["n_curado"] = 34,
 								["totaldenied"] = 0,
-								["n_amt"] = 2,
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["aID"] = "1301-0B0D2B3F",
-					["start_time"] = 1624969923,
+					["totaldenied"] = 0.0122,
+					["spec"] = 72,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["spec"] = 72,
-					["totaldenied"] = 0.0122,
+					["classe"] = "WARRIOR",
+					["start_time"] = 1624969923,
 					["delay"] = 0,
-					["tipo"] = 2,
+					["boss_fight_component"] = true,
 				}, -- [2]
 			},
 		}, -- [2]
@@ -4217,29 +4360,26 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["received"] = 64.01008999999999,
-					["resource"] = 0.01009,
+					["resource"] = 0.015406,
 					["targets"] = {
-						["Barbaxius"] = 64,
+						["Barbaxius"] = 0,
 					},
 					["pets"] = {
 					},
 					["powertype"] = 1,
 					["classe"] = "WARRIOR",
 					["passiveover"] = 0.004774,
-					["boss_fight_component"] = true,
 					["total"] = 64.01008999999999,
-					["tipo"] = 3,
-					["totalover"] = 0.004774,
 					["nome"] = "Barbaxius",
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 7,
 						["_ActorTable"] = {
 							[85288] = {
 								["total"] = 12,
 								["id"] = 85288,
 								["totalover"] = 0,
 								["targets"] = {
-									["Barbaxius"] = 12,
+									["Barbaxius"] = 0,
 								},
 								["counter"] = 1,
 							},
@@ -4257,7 +4397,7 @@ _detalhes_database = {
 								["id"] = 23881,
 								["totalover"] = 0,
 								["targets"] = {
-									["Barbaxius"] = 8,
+									["Barbaxius"] = 0,
 								},
 								["counter"] = 2,
 							},
@@ -4266,7 +4406,7 @@ _detalhes_database = {
 								["id"] = 280715,
 								["totalover"] = 0,
 								["targets"] = {
-									["Barbaxius"] = 4,
+									["Barbaxius"] = 0,
 								},
 								["counter"] = 2,
 							},
@@ -4275,19 +4415,22 @@ _detalhes_database = {
 								["id"] = 100,
 								["totalover"] = 0,
 								["targets"] = {
-									["Barbaxius"] = 40,
+									["Barbaxius"] = 0,
 								},
 								["counter"] = 4,
 							},
 						},
+						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["spec"] = 72,
-					["flag_original"] = 1297,
-					["alternatepower"] = 0.01009,
-					["last_event"] = 0,
 					["aID"] = "1301-0B0D2B3F",
+					["last_event"] = 0,
+					["alternatepower"] = 0.01009,
+					["tipo"] = 3,
+					["flag_original"] = 1297,
+					["spec"] = 72,
 					["serial"] = "Player-1301-0B0D2B3F",
+					["totalover"] = 0.004774,
 				}, -- [1]
 			},
 		}, -- [3]
@@ -4297,82 +4440,82 @@ _detalhes_database = {
 				{
 					["flag_original"] = 1047,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[317491] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 317491,
 								["uptime"] = 0,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["pets"] = {
 					},
 					["classe"] = "WARRIOR",
 					["buff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[85739] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 85739,
 								["uptime"] = 39,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[63988] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 63988,
 								["uptime"] = 33,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[46924] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 46924,
 								["uptime"] = 3,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[280776] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 2,
 								["appliedamt"] = 2,
 								["id"] = 280776,
 								["uptime"] = 10,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[186403] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 186403,
 								["uptime"] = 84,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["debuff_uptime"] = 0,
+					["aID"] = "1301-0B0D2B3F",
 					["debuff_uptime_targets"] = {
 					},
-					["boss_fight_component"] = true,
 					["spec"] = 72,
 					["grupo"] = true,
 					["spell_cast"] = {
@@ -4383,57 +4526,62 @@ _detalhes_database = {
 						[126664] = 2,
 						[52174] = 1,
 						[57755] = 2,
-						[190411] = 2,
 						[46924] = 1,
+						[190411] = 2,
 					},
-					["last_event"] = 0,
 					["buff_uptime_targets"] = {
 					},
-					["tipo"] = 4,
-					["buff_uptime"] = 169,
 					["nome"] = "Barbaxius",
+					["last_event"] = 0,
+					["buff_uptime"] = 169,
+					["tipo"] = 4,
 					["serial"] = "Player-1301-0B0D2B3F",
-					["aID"] = "1301-0B0D2B3F",
+					["boss_fight_component"] = true,
 				}, -- [1]
 				{
 					["monster"] = true,
-					["classe"] = "UNKNOW",
+					["aID"] = "33292",
 					["nome"] = "Ominous Cloud",
 					["pets"] = {
 						"Guardian of Yogg-Saron <Ominous Cloud>", -- [1]
 					},
-					["flag_original"] = 2632,
+					["tipo"] = 4,
 					["boss_fight_component"] = true,
-					["aID"] = "33292",
+					["classe"] = "UNKNOW",
 					["last_event"] = 0,
 					["serial"] = "Creature-0-4240-603-20883-33292-00015B124C",
-					["tipo"] = 4,
+					["flag_original"] = 2632,
 				}, -- [2]
 				{
-					["monster"] = true,
-					["ownerName"] = "Ominous Cloud",
-					["nome"] = "Guardian of Yogg-Saron <Ominous Cloud>",
-					["tipo"] = 4,
 					["flag_original"] = 68168,
+					["last_event"] = 0,
+					["ownerName"] = "Ominous Cloud",
+					["boss_fight_component"] = true,
+					["monster"] = true,
 					["spell_cast"] = {
 						[63038] = 1,
 						[65719] = 3,
 						[65209] = 3,
 					},
-					["boss_fight_component"] = true,
 					["pets"] = {
 					},
+					["nome"] = "Guardian of Yogg-Saron <Ominous Cloud>",
 					["classe"] = "UNKNOW",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-4240-603-20883-33136-00005B1272",
 					["aID"] = "33136",
+					["serial"] = "Creature-0-4240-603-20883-33136-00005B1272",
+					["tipo"] = 4,
 				}, -- [3]
 				{
 					["flag_original"] = 2584,
-					["last_event"] = 0,
+					["aID"] = "33134",
 					["nome"] = "Sara",
 					["pets"] = {
 					},
+					["tipo"] = 4,
+					["boss_fight_component"] = true,
+					["last_event"] = 0,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-4240-603-20883-33134-00005B124C",
 					["spell_cast"] = {
 						[63134] = 2,
 						[63138] = 1,
@@ -4441,18 +4589,13 @@ _detalhes_database = {
 						[64775] = 1,
 						[65301] = 10,
 					},
-					["boss_fight_component"] = true,
-					["aID"] = "33134",
-					["classe"] = "UNKNOW",
-					["serial"] = "Creature-0-4240-603-20883-33134-00005B124C",
-					["tipo"] = 4,
 				}, -- [4]
 				{
 					["flag_original"] = 2584,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 9,
 					},
 					["pets"] = {
 					},
@@ -4460,30 +4603,30 @@ _detalhes_database = {
 					["boss_debuff"] = true,
 					["debuff_uptime"] = 15,
 					["spellschool"] = 32,
-					["boss_fight_component"] = true,
-					["damage_spellid"] = 63138,
 					["nome"] = "Sara's Fervor",
-					["classe"] = "UNKNOW",
+					["boss_fight_component"] = true,
+					["last_event"] = 0,
+					["serial"] = "Creature-0-4240-603-20883-33134-00005B124C",
 					["tipo"] = 4,
 					["damage_twin"] = "Sara",
 					["debuff_uptime_targets"] = {
 						["Barbaxius"] = {
 							["uptime"] = 15,
-							["appliedamt"] = 0,
+							["refreshamt"] = 0,
 							["activedamt"] = 0,
 							["actived"] = false,
-							["refreshamt"] = 0,
+							["appliedamt"] = 0,
 						},
 					},
-					["serial"] = "Creature-0-4240-603-20883-33134-00005B124C",
-					["last_event"] = 0,
+					["damage_spellid"] = 63138,
+					["classe"] = "UNKNOW",
 				}, -- [5]
 				{
 					["flag_original"] = 2584,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 9,
 					},
 					["pets"] = {
 					},
@@ -4491,51 +4634,52 @@ _detalhes_database = {
 					["boss_debuff"] = true,
 					["debuff_uptime"] = 27,
 					["spellschool"] = 32,
-					["boss_fight_component"] = true,
-					["damage_spellid"] = 63134,
 					["nome"] = "Sara's Blessing",
-					["classe"] = "UNKNOW",
+					["boss_fight_component"] = true,
+					["last_event"] = 0,
+					["serial"] = "Creature-0-4240-603-20883-33134-00005B124C",
 					["tipo"] = 4,
 					["damage_twin"] = "Sara",
 					["debuff_uptime_targets"] = {
 						["Barbaxius"] = {
 							["uptime"] = 27,
-							["appliedamt"] = 0,
+							["refreshamt"] = 0,
 							["activedamt"] = -1,
 							["actived"] = false,
-							["refreshamt"] = 0,
+							["appliedamt"] = 0,
 						},
 					},
-					["serial"] = "Creature-0-4240-603-20883-33134-00005B124C",
-					["last_event"] = 0,
+					["damage_spellid"] = 63134,
+					["classe"] = "UNKNOW",
 				}, -- [6]
 				{
 					["flag_original"] = 2632,
+					["tipo"] = 4,
 					["boss_fight_component"] = true,
-					["monster"] = true,
+					["last_event"] = 0,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
 					["nome"] = "Yogg-Saron",
-					["tipo"] = 4,
+					["aID"] = "",
+					["classe"] = "UNKNOW",
 					["spell_cast"] = {
 						[64163] = 1,
 						[64465] = 1,
 						[63894] = 1,
 					},
-					["aID"] = "",
 					["serial"] = "Vehicle-0-4240-603-20883-33288-00005B129B",
-					["last_event"] = 0,
+					["monster"] = true,
 				}, -- [7]
 				{
 					["flag_original"] = 2632,
+					["tipo"] = 4,
 					["boss_fight_component"] = true,
-					["monster"] = true,
+					["last_event"] = 0,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
 					["nome"] = "Corruptor Tentacle",
-					["tipo"] = 4,
+					["aID"] = "33985",
+					["classe"] = "UNKNOW",
 					["spell_cast"] = {
 						[64156] = 2,
 						[64144] = 1,
@@ -4543,33 +4687,32 @@ _detalhes_database = {
 						[64157] = 1,
 						[64152] = 1,
 					},
-					["aID"] = "33985",
 					["serial"] = "Creature-0-4240-603-20883-33985-00005B129D",
-					["last_event"] = 0,
+					["monster"] = true,
 				}, -- [8]
 				{
 					["flag_original"] = 2632,
+					["tipo"] = 4,
 					["boss_fight_component"] = true,
-					["monster"] = true,
+					["last_event"] = 0,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
 					["nome"] = "Crusher Tentacle",
-					["tipo"] = 4,
+					["aID"] = "33966",
+					["classe"] = "UNKNOW",
 					["spell_cast"] = {
 						[57688] = 1,
 						[64144] = 1,
 					},
-					["aID"] = "33966",
 					["serial"] = "Creature-0-4240-603-20883-33966-00005B129D",
-					["last_event"] = 0,
+					["monster"] = true,
 				}, -- [9]
 				{
 					["flag_original"] = 2632,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 9,
 					},
 					["pets"] = {
 					},
@@ -4581,75 +4724,75 @@ _detalhes_database = {
 					["debuff_uptime_targets"] = {
 						["Barbaxius"] = {
 							["uptime"] = 0,
-							["appliedamt"] = 0,
+							["refreshamt"] = 0,
 							["activedamt"] = 0,
 							["actived"] = false,
-							["refreshamt"] = 0,
+							["appliedamt"] = 0,
 						},
 					},
+					["aID"] = "",
+					["serial"] = "",
+					["nome"] = "Squeeze",
+					["last_event"] = 0,
+					["damage_twin"] = "[*] Squeeze",
+					["tipo"] = 4,
 					["damage_spellid"] = 64126,
 					["boss_fight_component"] = true,
-					["last_event"] = 0,
-					["tipo"] = 4,
-					["damage_twin"] = "[*] Squeeze",
-					["nome"] = "Squeeze",
-					["serial"] = "",
-					["aID"] = "",
 				}, -- [10]
 				{
 					["flag_original"] = 2632,
+					["tipo"] = 4,
 					["boss_fight_component"] = true,
-					["monster"] = true,
+					["last_event"] = 0,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
 					["nome"] = "Constrictor Tentacle",
-					["tipo"] = 4,
+					["aID"] = "",
+					["classe"] = "UNKNOW",
 					["spell_cast"] = {
 						[64144] = 1,
 					},
-					["aID"] = "",
 					["serial"] = "Vehicle-0-4240-603-20883-33983-00005B129D",
-					["last_event"] = 0,
+					["monster"] = true,
 				}, -- [11]
 				{
 					["flag_original"] = 2632,
+					["tipo"] = 4,
 					["boss_fight_component"] = true,
-					["monster"] = true,
+					["last_event"] = 0,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
 					["nome"] = "Laughing Skull",
-					["tipo"] = 4,
+					["aID"] = "33990",
+					["classe"] = "UNKNOW",
 					["spell_cast"] = {
 						[64167] = 4,
 					},
-					["aID"] = "33990",
 					["serial"] = "Creature-0-4240-603-20883-33990-00005B12A6",
-					["last_event"] = 0,
+					["monster"] = true,
 				}, -- [12]
 				{
 					["flag_original"] = 2632,
+					["tipo"] = 4,
 					["boss_fight_component"] = true,
-					["monster"] = true,
+					["last_event"] = 0,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
 					["nome"] = "Brain of Yogg-Saron",
-					["tipo"] = 4,
+					["aID"] = "33890",
+					["classe"] = "UNKNOW",
 					["spell_cast"] = {
 						[64173] = 1,
 					},
-					["aID"] = "33890",
 					["serial"] = "Creature-0-4240-603-20883-33890-00005B124C",
-					["last_event"] = 0,
+					["monster"] = true,
 				}, -- [13]
 				{
 					["flag_original"] = 2632,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 9,
 					},
 					["pets"] = {
 					},
@@ -4661,20 +4804,20 @@ _detalhes_database = {
 					["debuff_uptime_targets"] = {
 						["Barbaxius"] = {
 							["uptime"] = 0,
-							["appliedamt"] = 0,
+							["refreshamt"] = 0,
 							["activedamt"] = -1,
 							["actived"] = false,
-							["refreshamt"] = 0,
+							["appliedamt"] = 0,
 						},
 					},
+					["aID"] = "",
+					["serial"] = "",
+					["nome"] = "Sanity",
+					["last_event"] = 0,
+					["damage_twin"] = "[*] Sanity",
+					["tipo"] = 4,
 					["damage_spellid"] = 63050,
 					["boss_fight_component"] = true,
-					["last_event"] = 0,
-					["tipo"] = 4,
-					["damage_twin"] = "[*] Sanity",
-					["nome"] = "Sanity",
-					["serial"] = "",
-					["aID"] = "",
 				}, -- [14]
 			},
 		}, -- [4]
@@ -4687,14 +4830,14 @@ _detalhes_database = {
 		},
 		["raid_roster_indexed"] = {
 		},
+		["cleu_timeline"] = {
+		},
 		["tempo_start"] = 1624969848,
 		["last_events_tables"] = {
 		},
 		["alternate_power"] = {
 		},
 		["combat_counter"] = 1448,
-		["spells_cast_timeline"] = {
-		},
 		["totals"] = {
 			2941791.079269001, -- [1]
 			52.01255, -- [2]
@@ -4702,21 +4845,21 @@ _detalhes_database = {
 				64.005316, -- [1]
 				[0] = 0,
 				["alternatepower"] = 0,
-				[3] = 0,
 				[6] = 0,
+				[3] = 0,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["debuff_uptime"] = 0,
-				["cooldowns_defensive"] = 0,
-				["interrupt"] = 0,
-				["dispell"] = 0,
-				["cc_break"] = 0,
 				["dead"] = 0,
+				["cc_break"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["dispell"] = 0,
+				["cooldowns_defensive"] = 0,
 			}, -- [4]
-			["frags_total"] = 0,
 			["voidzone_damage"] = 0,
+			["frags_total"] = 0,
 		},
 		["player_last_events"] = {
 		},
@@ -4727,8 +4870,41 @@ _detalhes_database = {
 		},
 		["data_inicio"] = "15:30:49",
 		["end_time"] = 4042.838,
-		["cleu_events"] = {
-			["n"] = 1,
+		["totals_grupo"] = {
+			2837632.001999, -- [1]
+			34.003898, -- [2]
+			{
+				64.005316, -- [1]
+				[0] = 0,
+				["alternatepower"] = 0,
+				[6] = 0,
+				[3] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["dead"] = 0,
+				["cc_break"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["dispell"] = 0,
+				["cooldowns_defensive"] = 0,
+			}, -- [4]
+		},
+		["overall_refreshed"] = true,
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["damage"] = {
+			},
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage_section"] = {
+			},
 		},
 		["segments_added"] = {
 			{
@@ -4738,67 +4914,34 @@ _detalhes_database = {
 				["clock"] = "15:30:49",
 			}, -- [1]
 		},
-		["totals_grupo"] = {
-			2837632.001999, -- [1]
-			34.003898, -- [2]
-			{
-				64.005316, -- [1]
-				[0] = 0,
-				["alternatepower"] = 0,
-				[3] = 0,
-				[6] = 0,
-			}, -- [3]
-			{
-				["buff_uptime"] = 0,
-				["ress"] = 0,
-				["debuff_uptime"] = 0,
-				["cooldowns_defensive"] = 0,
-				["interrupt"] = 0,
-				["dispell"] = 0,
-				["cc_break"] = 0,
-				["dead"] = 0,
-			}, -- [4]
-		},
-		["frags"] = {
+		["hasSaved"] = true,
+		["spells_cast_timeline"] = {
 		},
 		["data_fim"] = "15:32:13",
 		["overall_enemy_name"] = "Yogg-Saron",
 		["CombatSkillCache"] = {
 		},
-		["cleu_timeline"] = {
+		["frags"] = {
 		},
 		["start_time"] = 3941.961,
 		["TimeData"] = {
 			["Raid Damage Done"] = {
 			},
 		},
-		["PhaseData"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-			}, -- [1]
-			["heal_section"] = {
-			},
-			["heal"] = {
-			},
-			["damage_section"] = {
-			},
-			["damage"] = {
-			},
+		["cleu_events"] = {
+			["n"] = 1,
 		},
 	},
-	["character_data"] = {
-		["logons"] = 35,
+	["combat_counter"] = 1450,
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
 	},
-	["benchmark_db"] = {
-		["frame"] = {
-		},
-	},
-	["last_day"] = "29",
+	["last_encounter"] = "Yogg-Saron",
 	["announce_cooldowns"] = {
-		["enabled"] = false,
 		["ignored_cooldowns"] = {
 		},
+		["enabled"] = false,
 		["custom"] = "",
 		["channel"] = "RAID",
 	},
@@ -4806,7 +4949,9 @@ _detalhes_database = {
 		["last_difficulty"] = 15,
 		["last_raid"] = "",
 	},
-	["cached_roles"] = {
+	["announce_damagerecord"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
 	},
 	["cached_specs"] = {
 		["Player-1301-0B0D2B3F"] = 72,

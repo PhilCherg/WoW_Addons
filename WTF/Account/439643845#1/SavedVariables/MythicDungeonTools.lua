@@ -98,7 +98,7 @@ MythicDungeonToolsDB = {
 		["MDI"] = {
 			["enabled"] = false,
 		},
-		["currentDungeonIdx"] = 35,
+		["currentDifficulty"] = 15,
 		["maximized"] = false,
 		["presets"] = {
 			[15] = {
@@ -2169,11 +2169,11 @@ MythicDungeonToolsDB = {
 					},
 				},
 				[174175] = {
+					[342021] = {
+					},
 					[346866] = {
 					},
 					[342189] = {
-					},
-					[342021] = {
 					},
 				},
 				[167607] = {
@@ -2209,11 +2209,11 @@ MythicDungeonToolsDB = {
 				[164921] = {
 					[322939] = {
 					},
+					[326319] = {
+					},
 					[322938] = {
 					},
 					[322767] = {
-					},
-					[326319] = {
 					},
 				},
 				[166275] = {
@@ -2634,7 +2634,7 @@ MythicDungeonToolsDB = {
 				},
 			},
 		},
-		["anchorTo"] = "CENTER",
+		["currentDungeonIdx"] = 35,
 		["version"] = 356,
 		["xoffset"] = -161.2519073486328,
 		["currentPreset"] = {
@@ -2642,7 +2642,7 @@ MythicDungeonToolsDB = {
 			[35] = 3,
 			[36] = 2,
 		},
-		["currentDifficulty"] = 15,
+		["anchorTo"] = "CENTER",
 		["yoffset"] = 107.3356246948242,
 	},
 }

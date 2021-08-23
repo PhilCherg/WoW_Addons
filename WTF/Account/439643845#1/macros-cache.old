@@ -7,13 +7,16 @@ VER 3 000000000000002B "Achiev" "1416161"
 /challenge
 END
 VER 3 0000000000000037 "Alpaca" "136218"
-/tar Alpaca
+/tar Friendly
 END
 VER 3 0000000000000012 "asdasd" "460695"
 /click ExtraActionButton1
 END
 VER 3 000000000000001F "Bow" "136172"
 /bow
+END
+VER 3 0000000000000038 "Burning Rush" "237513"
+n
 END
 VER 3 0000000000000019 "Chain Heal" "136042"
 #showtooltip Chain Heal

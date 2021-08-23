@@ -33,7 +33,7 @@ VWQL = {
 	["Phaladinus-Outland"] = {
 		["FilterType"] = {
 		},
-		["VERSION"] = 100,
+		["VERSION"] = 101,
 		["Quests"] = {
 		},
 		["Filter"] = 63,
@@ -115,13 +115,13 @@ VWQL = {
 		},
 		["VERSION"] = 101,
 	},
-	["Chernakotka-DieAldor"] = {
+	["Luminaxia-Outland"] = {
 		["Filter"] = 63,
 		["FilterType"] = {
 		},
 		["Quests"] = {
 		},
-		["VERSION"] = 100,
+		["VERSION"] = 101,
 	},
 	["Phaltraxion-Outland"] = {
 		["VERSION"] = 101,
@@ -131,7 +131,14 @@ VWQL = {
 		},
 		["Filter"] = 63,
 	},
-	["DisableRewardIcons"] = true,
+	["Chernakotka-DieAldor"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["VERSION"] = 100,
+	},
 	["AnchorQCBTop"] = 790.7982177734375,
 	["AzeriteFormat"] = 20,
 	["Xanthoros-Outland"] = {
@@ -143,8 +150,8 @@ VWQL = {
 		["VERSION"] = 101,
 	},
 	["Barbaxius-Outland"] = {
-		["Filter"] = 63,
 		["VERSION"] = 101,
+		["Filter"] = 63,
 		["Quests"] = {
 		},
 		["FilterType"] = {
@@ -184,49 +191,15 @@ VWQL = {
 		["FilterType"] = {
 		},
 		["Quests"] = {
-			[57465] = true,
-			[59600] = true,
-			[58144] = true,
-			[60656] = true,
-			[43943] = true,
-			[61619] = true,
-			[60597] = true,
-			[60601] = true,
-			[61343] = true,
-			[45379] = true,
-			[62058] = true,
-			[61867] = true,
-			[60609] = true,
-			[59718] = true,
-			[60574] = true,
-			[61815] = true,
-			[58601] = true,
-			[59585] = true,
-			[44892] = true,
-			[61540] = true,
-			[61539] = true,
-			[61883] = true,
-			[60585] = true,
-			[61787] = true,
-			[62258] = true,
-			[61949] = true,
-			[59904] = true,
-			[44746] = true,
 			[43798] = true,
-			[58605] = true,
-			[61148] = true,
-			[60844] = true,
+			[64531] = true,
+			[45379] = true,
+			[43943] = true,
+			[64273] = true,
 		},
 		["VERSION"] = 101,
 	},
 	["AnchorQCBLeft"] = 803.5293579101562,
-	["Luminaxia-Outland"] = {
-		["Filter"] = 63,
-		["FilterType"] = {
-		},
-		["Quests"] = {
-		},
-		["VERSION"] = 101,
-	},
+	["DisableRewardIcons"] = true,
 	["HideLegion"] = true,
 }

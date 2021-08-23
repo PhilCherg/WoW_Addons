@@ -70,20 +70,20 @@ BWQDB = {
 		["versionCheck"] = "9.0.08.2",
 		["profiles"] = {
 			[0] = {
-				["name"] = "Default",
 				["colors"] = {
 				},
+				["name"] = "Default",
 				["list"] = {
 				},
-				["general"] = {
-					["useLFGButtons"] = true,
-					["sortBy"] = 6,
+				["pin"] = {
 				},
 				["external"] = {
 					["TomTom"] = {
 					},
 				},
-				["pin"] = {
+				["general"] = {
+					["useLFGButtons"] = true,
+					["sortBy"] = 6,
 				},
 				["filters"] = {
 				},

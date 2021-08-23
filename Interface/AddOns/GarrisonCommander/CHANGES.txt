@@ -1,14 +1,18 @@
-tag 565cc4c3c3ac74603bf4578b8d2af366f59112dd 3.3.9-fixed
+tag 7fae0e8eb2c75c064d8a49c35ca304a716c6a341 3.3.10-beta1
 Author:	Alar of Runetotem <alar@aspide.it>
-Date:	Sat Jul 10 20:25:52 2021 +0200
+Date:	Sun Jul 11 23:10:59 2021 +0200
 
-Lua error fixed
+Fix to shipyard control
 
-commit 1b6f6d48aae664e1eb17d0f21e3856f45575bbde
+commit fe95c3b3b42d3f614ce22dfc35a1d6678591f337
 Author: Alar of Runetotem <alar@aspide.it>
-Date:   Sat Jul 10 20:25:09 2021 +0200
+Date:   Sun Jul 11 23:02:13 2021 +0200
 
-    Lua error fix
-    
-    Message: Interface\AddOns\GarrisonCommander\MissionCache.lua:479: 'end' expected (to close 'function' at line 58) near '<eof>'
+    Fix: Restores Shipyard autoprocess
+
+commit b3e02d3b1dba6f833b29ba5464dbe07b161f98f1
+Author: Alar of Runetotem <alar@aspide.it>
+Date:   Sun Jul 11 12:06:47 2021 +0200
+
+    Bad use of global
 

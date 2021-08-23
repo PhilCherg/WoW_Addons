@@ -84,7 +84,7 @@ ServerHop: enabled
 ZoneAchievementTracker: disabled
 StopResetingMyCameraPlease: enabled
 TalentSetManager: enabled
-WorldQuestsList: disabled
+WorldQuestsList: enabled
 DBM-Core: enabled
 DBM-DefaultSkin: enabled
 DBM-GUI: enabled
@@ -263,7 +263,7 @@ ElvUI_AuraBarsMovers: disabled
 ElvUI_CustomTweaks: disabled
 WeakAurasArchive: enabled
 ElvUI_OptionsUI: enabled
-TomCats: disabled
+TomCats: enabled
 TomCats-DarkshoreRares: disabled
 TomCats-Mechagon: disabled
 TomCats-ArathiHighlandsRares: disabled
@@ -295,7 +295,7 @@ Rarity_Options: enabled
 DBM-CastleNathria: enabled
 DBM-Party-Shadowlands: enabled
 FasterLoot: enabled
-Gladius: disabled
+Gladius: enabled
 FarmHud: disabled
 FarmHud_QuestArrow: disabled
 Grail-NPCs-_retail_: enabled

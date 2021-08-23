@@ -1,3 +1,6 @@
+### 1.7.2
+- Changed design the pins from /cs way
+
 ### 1.7.1
 - Shadowlands 9.1.0 Update
 

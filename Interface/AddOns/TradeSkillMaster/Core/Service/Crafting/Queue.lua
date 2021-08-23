@@ -209,13 +209,9 @@ function private.RestockItem(itemString)
 	if level then
 		local relItemLevel, isAbs = ItemString.ParseLevel(ItemString.ToLevel(itemString))
 		if not isAbs then
-			local baseItemString = ItemString.GetBaseFast(itemString)
-			for slotId in TSM.Crafting.GetCraftStringByItem(baseItemString) do
-				local optionalMatItemString = ProfessionInfo.GetOptionalMatByRelItemLevel(relItemLevel)
-				if relItemLevel and optionalMatItemString then
-					private.optionalMatTemp[slotId] = ItemString.ToId(optionalMatItemString)
-					relItemLevel = nil
-				end
+			local optionalMatItemString = ProfessionInfo.GetOptionalMatByRelItemLevel(relItemLevel)
+			if relItemLevel and optionalMatItemString then
+				private.optionalMatTemp[#private.optionalMatTemp + 1] = ItemString.ToId(optionalMatItemString)
 			end
 		end
 	end

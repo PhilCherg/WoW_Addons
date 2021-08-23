@@ -2,6 +2,24 @@ local L
 L = LibStub("AceLocale-3.0"):NewLocale("Rarity", "enUS", true)
 
 -- L["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"] = true
+L["The WoWUnit addon is required in order to run integration tests. Please download it from CurseForge or GitHub and make sure it's enabled before trying again!"] = true
+L["Close Window"] = true
+L["Use CMD+C to copy and CMD+V to paste"] = true
+L["Use CTRL+C to copy and CTRL+V to paste"] = true
+L["You can ask questions, follow the latest Rarity news and share the excitement of finally getting that one elusive drop with your fellow collectors in our Discord server.\n\nPS: We have cookies."] = true
+L["You can follow the development process or contribute to the project on our public GitHub repository. What could be more fun than browsing a gigantic backlog of unresolved issues?"] = true
+L["Join the Rarity Discord"] = true
+L["Contribute on GitHub"] = true
+L["Community"] = true
+L["Displays accumulated profiling data for the current session."] = true
+L["Show profiling data"] = true
+L["This is merely a shortcut introduced to make life easier for developers, and as a regular player you can safely ignore it."] = true
+L["Deletes accumulated profiling data for the current session."] = true
+L["Reset profiling data"] = true
+L["Sorting is disabled"] = true
+L["Disable sorting inside the main window. Can be used to troubleshoot performance issues."] = true
+L["Disable sorting"] = true
+L["Performance"] = true
 L["Outrider's Bridle Chain"] = true
 L["Starts a series of quests that ultimately award Kua'fon's Harness (Pterrordax mount)"] = true
 L["Pterrordax Egg"] = true
@@ -410,6 +428,9 @@ L["Obtained On Your First Attempt"] = true
 L["Obtained After %d Attempts"] = true
 L["Unknown"] = true
 L["Attempts"] = true
+L["Total Attempts"] = true
+L["Current Attempts"] = true
+L["Last Obtained In"] = true
 L["Progress"] = true
 L["Likelihood"] = true
 L["Time"] = true
@@ -824,7 +845,7 @@ L["Export"] = true
 L["The following %d item(s) have been selected to export:"] = true
 L["(Items listed in red could not be found on the server and may not exist. Consider removing them.)"] = true
 L[
-		"Copy the generated Rarity Item Pack string below using Ctrl-C. You can then paste it elsewhere using Ctrl-V.\n\nFeel free to comment on the Curse web site to share your Item Pack. Allara will promote the best ones to the main add-on page."
+		"Copy the generated Rarity Export String below using Ctrl-C. You can then paste it elsewhere using Ctrl-V.\n\nFeel free to post it on Curse, GitHub, or Discord to share your Item Pack. We will publish the best ones to the main add-on page."
 	] = true
 L["Clear All Exports"] = true
 L["Are you sure you want to turn off the Export toggle for all your Custom items?"] = true
@@ -1823,9 +1844,8 @@ L["Crimson Shardhide"] = true
 L["Malbog"] = true
 L["Fallen Charger's Reins"] = true
 L["Fallen Charger"] = true
-L["Foresworn Aquilon"] = true
 L["Wild Worldcracker"] = true
-L["Summer Wilderling Harness"] = true
+L["Wilderling Saddle"] = true
 L["Escaped Wilderling"] = true
 L["Cartel Master's Gearglider"] = true
 L["Sanctum Gloomcharger's Reins"] = true
@@ -1865,6 +1885,18 @@ L["Zelnithop"] = true
 L["Grappling Gauntlet"] = true
 L["Squibbles"] = true
 L["This bag is rewarded for completing the pet battle daily offered by Anthea at the Temple of the White Tiger in Kun-Lai Summit."] = true
+L["Intact Aquilon Core"] = true
+L["Personal Ball and Chain"] = true
+L["This treasure can only be found within the rift phase of The Maw."] = true
+L["Jailer's Cage"] = true
+L["Zovaal's Vault"] = true
+L["Dusklight Razorwing"] = true
+L["Dropped from various creatures in Korthia"] = true
+L["Bring the 10 Lost Razorwing Egg to the Razorwing Nest in Korthia."] = true
+L["Razorwing Nest"] = true
+L["Darkmaul"] = true
+L["The Mawshrooms are obtained from treasure nodes called Invasive Mawshroom in Korthia."] = true
+L["Darkmaul is obtained by feeding a friendly NPC in Korthia called Darkmaul 10 Tasty Mawshroom"] = true
 
 --[[
 					The rest of this file is auto-generated using the WoWAce localization application.
@@ -2575,8 +2607,7 @@ L["Font Size"] = "Schriftgröße"
 L["Foot Ball"] = "Fußball"
 --[[Translation missing --]]
 L["For da Blood God!"] = "For da Blood God!"
---[[Translation missing --]]
-L["Forgotten Chest"] = "Forgotten Chest"
+L["Forgotten Chest"] = "Vergessene Truhe"
 L["Fossil"] = true
 L["Fossilized Raptor"] = "Fossiler Raptor"
 L["Fossorial Bile Larva"] = "Grabende Eiterlarve"

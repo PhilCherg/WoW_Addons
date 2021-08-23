@@ -9,7 +9,6 @@ local L = ns.locale
 
 local Map = ns.Map
 
-local Item  = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Reward = ns.reward.Reward
@@ -25,12 +24,15 @@ ns.expansion = 9
 -------------------------------------------------------------------------------
 
 local ICONS = "Interface\\Addons\\"..ADDON_NAME.."\\artwork\\icons"
+local GLOWS = "Interface\\Addons\\"..ADDON_NAME.."\\artwork\\glows"
 local function Icon(name) return ICONS..'\\'..name..'.blp' end
+local function Glow(name) return GLOWS..'\\'..name..'.blp' end
 
 ns.icons.cov_sigil_ky = {Icon('covenant_kyrian'), nil}
 ns.icons.cov_sigil_nl = {Icon('covenant_necrolord'), nil}
 ns.icons.cov_sigil_nf = {Icon('covenant_nightfae'), nil}
 ns.icons.cov_sigil_vn = {Icon('covenant_venthyr'), nil}
+ns.icons.tormentor = {Icon('tormentor'), Glow('tormentor')}
 
 -------------------------------------------------------------------------------
 ---------------------------------- CALLBACKS ----------------------------------
@@ -174,8 +176,12 @@ local function ProcessCovenant (node)
     local name = C_Covenants.GetCovenantData(covenant.id).name
     local str = node.covenant and L["covenant_required"] or L["cov_assault_only"]
     local subl = ns.color.Orange(string.format(str, name))
+    local ricon = ns.GetIconLink(covenant.icon, 13)
 
-    node.rlabel = ns.GetIconLink(covenant.icon, 13)
+    -- not compatible with rlabel getters
+    if not node.getters.rlabel then
+        node.rlabel = node.rlabel and node.rlabel..' '..ricon or ricon
+    end
     node.sublabel = node.sublabel and subl..'\n'..node.sublabel or subl
     node._covenantProcessed = true
 end
@@ -205,23 +211,24 @@ ns.groups.DREDBATS = Group('dredbats', 'flight_point_g', {defaults=ns.GROUP_HIDD
 ns.groups.FAERIE_TALES = Group('faerie_tales', 355498, {defaults=ns.GROUP_HIDDEN})
 ns.groups.FUGITIVES = Group('fugitives', 236247, {defaults=ns.GROUP_HIDDEN})
 ns.groups.GRAPPLES = Group('grapples', 'peg_bk', {defaults=ns.GROUP_HIDDEN})
+ns.groups.HELGARDE_CACHE = Group('helgarde_cache', 'chest_gy', {defaults=ns.GROUP_HIDDEN75})
 ns.groups.HYMNS = Group('hymns', 'scroll', {defaults=ns.GROUP_HIDDEN})
 ns.groups.INQUISITORS = Group('inquisitors', 3528307, {defaults=ns.GROUP_HIDDEN})
 ns.groups.INVASIVE_MAWSHROOM = Group('invasive_mawshroom', 134534, {defaults=ns.GROUP_HIDDEN75})
 ns.groups.KORTHIA_SHARED = Group('korthia_dailies', 1506458, {defaults=ns.GROUP_HIDDEN75})
-ns.groups.MAW_LORE = Group('maw_lore', 'chest_gy')
 ns.groups.MAWSWORN_CACHE = Group('mawsworn_cache', 3729814, {defaults=ns.GROUP_HIDDEN75})
 ns.groups.NEST_MATERIALS = Group('nest_materials', 136064, {defaults=ns.GROUP_HIDDEN75})
 ns.groups.NILGANIHMAHT_MOUNT = Group('nilganihmaht', 1391724, {defaults=ns.GROUP_HIDDEN75})
-ns.groups.STYGIA_NEXUS = Group('stygia_nexus', 'peg_gn', {defaults=ns.GROUP_HIDDEN75})
-ns.groups.RIFTSTONE = Group('riftstone', 'portal_bl')
-ns.groups.RIFTBOUND_CACHE = Group('riftbound_cache', 'chest_bk', {defaults=ns.GROUP_ALPHA75})
 ns.groups.RIFT_HIDDEN_CACHE = Group('rift_hidden_cache', 'chest_bk', {defaults=ns.GROUP_ALPHA75})
 ns.groups.RIFT_PORTAL = Group('rift_portal', 'portal_gy')
+ns.groups.RIFTBOUND_CACHE = Group('riftbound_cache', 'chest_bk', {defaults=ns.GROUP_ALPHA75})
+ns.groups.RIFTSTONE = Group('riftstone', 'portal_bl')
 ns.groups.SINRUNNER = Group('sinrunners', 'horseshoe_o', {defaults=ns.GROUP_HIDDEN})
 ns.groups.SLIME_CAT = Group('slime_cat', 3732497, {defaults=ns.GROUP_HIDDEN})
-ns.groups.STYGIAN_CACHES = Group('stygian_caches', 'chest_nv', {defaults=ns.GROUP_HIDDEN})
+ns.groups.STYGIA_NEXUS = Group('stygia_nexus', 'peg_gn', {defaults=ns.GROUP_HIDDEN75})
+ns.groups.STYGIAN_CACHES = Group('stygian_caches', 'chest_nv', {defaults=ns.GROUP_HIDDEN75})
 ns.groups.VESPERS = Group('vespers', 3536181, {defaults=ns.GROUP_HIDDEN})
+ns.groups.ZOVAAL_VAULT = Group('zovault', 'star_chest_g', {defaults=ns.GROUP_ALPHA75})
 
 ns.groups.ANIMA_VESSEL = Group('anima_vessel', 'chest_tl', {
     defaults=ns.GROUP_ALPHA75,
@@ -229,6 +236,17 @@ ns.groups.ANIMA_VESSEL = Group('anima_vessel', 'chest_tl', {
         -- Anima vessels and caches cannot be seen until the "Vault Anima Tracker"
         -- upgrade is purchased from the Death's Advance quartermaster
         if not C_QuestLog.IsQuestFlaggedCompleted(64061) then return false end
+        return Group.IsEnabled(self)
+    end
+})
+
+ns.groups.BROKEN_MIRROR = Group('broken_mirror', 3854020, {
+    defaults=ns.GROUP_ALPHA75,
+    IsEnabled=function (self)
+        -- Broken mirrors are Venthyr-only (might have completed the quest and then swapped covenants)
+        if C_Covenants.GetActiveCovenantID() ~= 2 then return false end
+        -- Broken mirrors cannot be accessed until the quest "Repair and Restore" is completed
+        if not C_QuestLog.IsQuestFlaggedCompleted(59740) then return false end
         return Group.IsEnabled(self)
     end
 })
@@ -298,11 +316,3 @@ function Venari:IsMet()
 end
 
 ns.requirement.Venari = Venari
-
--------------------------------------------------------------------------------
------------------------------ RELIC RESEARCH ITEMS ----------------------------
--------------------------------------------------------------------------------
-
-ns.relics = {
-    relic_fragment = Item({item=186685, status=L["num_research"]:format(1)}) -- relic fragment
-}
