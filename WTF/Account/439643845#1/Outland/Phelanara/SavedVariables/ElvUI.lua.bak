@@ -1,27 +1,5 @@
 
 ElvCharacterDB = {
-	["ChatEditHistory"] = {
-		"/aap skip", -- [1]
-		"/p :P", -- [2]
-		"/s -aap skip", -- [3]
-		"/way 454 567", -- [4]
-		"/way 56 54\\", -- [5]
-		"/way 55 53", -- [6]
-		"/g hi thanks :D", -- [7]
-		"/p cheers :D", -- [8]
-		"/reload", -- [9]
-		"/tsm destroy", -- [10]
-		"/p |cffffff00|Hworldmap:388:6986:5465|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [11]
-		"/way 45 47", -- [12]
-		"/way 56 54", -- [13]
-		"/way 63 60", -- [14]
-		"/2 LF someone to trade Seven of Voracity", -- [15]
-		"/flirt", -- [16]
-		"/p asene shto si tam be?", -- [17]
-		"/p cya", -- [18]
-		"/way 34 34", -- [19]
-		"/who", -- [20]
-	},
 	["ChatHistoryLog"] = {
 		{
 			"WTS 190/210 legendaries slightly cheaper than AH or crafting for free ONLY PLATE", -- [1]
@@ -2204,4 +2182,27 @@ ElvCharacterDB = {
 			[50] = "CHAT_MSG_SAY",
 		}, -- [99]
 	},
+	["ChatEditHistory"] = {
+		"/aap skip", -- [1]
+		"/p :P", -- [2]
+		"/s -aap skip", -- [3]
+		"/way 454 567", -- [4]
+		"/way 56 54\\", -- [5]
+		"/way 55 53", -- [6]
+		"/g hi thanks :D", -- [7]
+		"/p cheers :D", -- [8]
+		"/reload", -- [9]
+		"/tsm destroy", -- [10]
+		"/p |cffffff00|Hworldmap:388:6986:5465|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [11]
+		"/way 45 47", -- [12]
+		"/way 56 54", -- [13]
+		"/way 63 60", -- [14]
+		"/2 LF someone to trade Seven of Voracity", -- [15]
+		"/flirt", -- [16]
+		"/p asene shto si tam be?", -- [17]
+		"/p cya", -- [18]
+		"/way 34 34", -- [19]
+		"/who", -- [20]
+	},
+	["ConvertKeybindings"] = true,
 }

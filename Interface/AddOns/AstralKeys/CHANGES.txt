@@ -1,0 +1,10 @@
+lightweight tag c48c56323dfc54b8d7a98c9dd355c85786ecd5cb 3.44b
+Author:	GitHub <noreply@github.com>
+Date:	Fri Aug 13 00:11:27 2021 -0500
+
+commit c48c56323dfc54b8d7a98c9dd355c85786ecd5cb
+Author: Terra <46207023+TerraDK@users.noreply.github.com>
+Date:   Fri Aug 13 00:11:27 2021 -0500
+
+    Update AstralKeys.toc
+

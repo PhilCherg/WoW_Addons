@@ -7,7 +7,7 @@ ns.dungeons = {
 		["keystone_instance"] = 378,
 		["instance_map_id"] = 2287,
 		["lfd_activity_ids"] = { 696, 697, 698, 699 },
-		["timers"] = { 1116, 1488, 1860 },
+		["timers"] = { 1152, 1536, 1920 },
 		["name"] = "Halls of Atonement",
 		["shortName"] = "HOA",
 	},

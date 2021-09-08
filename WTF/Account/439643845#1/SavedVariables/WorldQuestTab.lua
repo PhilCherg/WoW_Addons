@@ -83,7 +83,7 @@ BWQDB = {
 				},
 				["general"] = {
 					["useLFGButtons"] = true,
-					["sortBy"] = 6,
+					["sortBy"] = 7,
 				},
 				["filters"] = {
 				},

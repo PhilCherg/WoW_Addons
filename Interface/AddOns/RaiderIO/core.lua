@@ -40,8 +40,10 @@ do
     ---@field public KEYSTONE_LEVEL_PATTERN table<number, string> @Table over patterns matching keystone levels in strings
     ---@field public KEYSTONE_LEVEL_TO_SCORE table<number, number> @Table over keystone levels and the base score for that level
     ---@field public RAID_DIFFICULTY table<number, RaidDifficulty> @Table of 1=normal, 2=heroic, 3=mythic difficulties and their names and colors
+	---@field public PREVIOUS_SEASON_SCORE_RELEVANCE_THRESHOLD number @Threshold that current season must surpass from previous season to be considered better and shown as primary in addon
+	---@field public PREVIOUS_SEASON_MAIN_SCORE_RELEVANCE_THRESHOLD number @Threshold that current season current character must surpass from previous season main to be considered better and shown as primary in addon
 
-    ns.Print = function(text, r, g, b, ...)
+	ns.Print = function(text, r, g, b, ...)
         r, g, b = r or 1, g or 1, b or 0
         DEFAULT_CHAT_FRAME:AddMessage(tostring(text), r, g, b, ...)
     end
@@ -66,6 +68,11 @@ do
         BEST_SEASON = 1,
         BEST_RUN = 2
     }
+
+	-- threshold for comparing current character's previous season score to current score
+	-- meaning: once current score exceeds this fraction of previous season, then show current season
+	ns.PREVIOUS_SEASON_SCORE_RELEVANCE_THRESHOLD = 0.75
+	ns.PREVIOUS_SEASON_MAIN_SCORE_RELEVANCE_THRESHOLD = 0.75
 
     ---@class RoleIcon
     ---@field full string @The full icon in "|T|t" syntax
@@ -99,35 +106,35 @@ do
     }
 
     ns.KEYSTONE_LEVEL_TO_SCORE = {
-        [2] = 20,
-        [3] = 30,
-        [4] = 40,
-        [5] = 50,
-        [6] = 60,
-        [7] = 70,
+        [2] = 40,
+        [3] = 45,
+        [4] = 55,
+        [5] = 60,
+        [6] = 65,
+        [7] = 75,
         [8] = 80,
-        [9] = 90,
+        [9] = 85,
         [10] = 100,
-        [11] = 110,
-        [12] = 121,
-        [13] = 133,
-        [14] = 146,
-        [15] = 161,
-        [16] = 177,
-        [17] = 195,
-        [18] = 214,
-        [19] = 236,
-        [20] = 259,
-        [21] = 285,
-        [22] = 314,
-        [23] = 345,
-        [24] = 380,
-        [25] = 418,
-        [26] = 459,
-        [27] = 505,
-        [28] = 556,
-        [29] = 612,
-        [30] = 673
+        [11] = 105,
+        [12] = 110,
+        [13] = 115,
+        [14] = 120,
+        [15] = 125,
+        [16] = 130,
+        [17] = 135,
+        [18] = 140,
+        [19] = 145,
+        [20] = 150,
+        [21] = 155,
+        [22] = 160,
+        [23] = 165,
+        [24] = 170,
+        [25] = 175,
+        [26] = 180,
+        [27] = 185,
+        [28] = 190,
+        [29] = 195,
+        [30] = 200
     }
 
     ---@class RaidDifficultyColor : table
@@ -3385,7 +3392,7 @@ do
                 ["Voidzone"] = "Raider.IO AddOn Author"
             },
             ["Ysondre"] = {
-                ["Isakem"] = "Raider.IO Contributor"
+                ["Isakem"] = "Raider.IO Developer"
             }
         },
         ["us"] = {
@@ -3393,6 +3400,7 @@ do
                 ["Aspyric"] = "Raider.IO Creator",
                 ["Ulsoga"] = "Raider.IO Creator",
                 ["Mccaffrey"] = "Killing Keys Since 1977!",
+                ["Puffymüffins"] = "Raider.IO Guild Recruiter",
                 ["Oscassey"] = "Master of dis guys"
             },
             ["Thrall"] = {
@@ -3577,7 +3585,7 @@ do
                     local headlineMode = config:Get("mplusHeadlineMode")
                     if showHeader then
                         if headlineMode == ns.HEADLINE_MODE.BEST_SEASON then
-                            if keystoneProfile.mplusPrevious.score > keystoneProfile.mplusCurrent.score then
+                            if ns.PREVIOUS_SEASON_SCORE_RELEVANCE_THRESHOLD * keystoneProfile.mplusPrevious.score > keystoneProfile.mplusCurrent.score then
                                 tooltip:AddDoubleLine(GetSeasonLabel(L.RAIDERIO_MP_BEST_SCORE, keystoneProfile.mplusPrevious.season), GetScoreText(keystoneProfile.mplusPrevious, true), 1, 0.85, 0, util:GetScoreColor(keystoneProfile.mplusPrevious.score, true))
                                 if keystoneProfile.mplusCurrent.score > 0 then
                                     tooltip:AddDoubleLine(GetSeasonLabel(L.CURRENT_SCORE, ns.CURRENT_SEASON), GetScoreText(keystoneProfile.mplusCurrent), 1, 1, 1, util:GetScoreColor(keystoneProfile.mplusCurrent.score))
@@ -3593,12 +3601,12 @@ do
                             if keystoneProfile.mplusCurrent.score > 0 then
                                 tooltip:AddDoubleLine(GetSeasonLabel(L.CURRENT_SCORE, ns.CURRENT_SEASON), GetScoreText(keystoneProfile.mplusCurrent), r, g, b, util:GetScoreColor(keystoneProfile.mplusCurrent.score))
                             end
-                            if keystoneProfile.mplusPrevious.score > keystoneProfile.mplusCurrent.score then
+                            if ns.PREVIOUS_SEASON_SCORE_RELEVANCE_THRESHOLD * keystoneProfile.mplusPrevious.score > keystoneProfile.mplusCurrent.score then
                                 tooltip:AddDoubleLine(GetSeasonLabel(L.PREVIOUS_SCORE, keystoneProfile.mplusPrevious.season), GetScoreText(keystoneProfile.mplusPrevious, true), r, g, b, util:GetScoreColor(keystoneProfile.mplusPrevious.score, true))
                             end
                         else -- if headlineMode == ns.HEADLINE_MODE.CURRENT_SEASON then
                             tooltip:AddDoubleLine(GetSeasonLabel(L.RAIDERIO_MP_SCORE, ns.CURRENT_SEASON), GetScoreText(keystoneProfile.mplusCurrent), 1, 0.85, 0, util:GetScoreColor(keystoneProfile.mplusCurrent.score))
-                            if keystoneProfile.mplusPrevious.score > keystoneProfile.mplusCurrent.score then
+                            if ns.PREVIOUS_SEASON_SCORE_RELEVANCE_THRESHOLD * keystoneProfile.mplusPrevious.score > keystoneProfile.mplusCurrent.score then
                                 tooltip:AddDoubleLine(GetSeasonLabel(L.PREVIOUS_SCORE, keystoneProfile.mplusPrevious.season), GetScoreText(keystoneProfile.mplusPrevious, true), 1, 1, 1, util:GetScoreColor(keystoneProfile.mplusPrevious.score, true))
                             end
                         end
@@ -3608,8 +3616,8 @@ do
                             if keystoneProfile.mplusMainCurrent.score > keystoneProfile.mplusCurrent.score then
                                 tooltip:AddDoubleLine(L.MAINS_SCORE, GetScoreText(keystoneProfile.mplusMainCurrent), 1, 1, 1, util:GetScoreColor(keystoneProfile.mplusMainCurrent.score))
                             end
-                        elseif keystoneProfile.mplusMainCurrent.score > keystoneProfile.mplusCurrent.score or keystoneProfile.mplusMainPrevious.score > keystoneProfile.mplusCurrent.score then
-                            if keystoneProfile.mplusMainCurrent.score < keystoneProfile.mplusMainPrevious.score then
+                        elseif keystoneProfile.mplusMainCurrent.score > keystoneProfile.mplusCurrent.score or (ns.PREVIOUS_SEASON_MAIN_SCORE_RELEVANCE_THRESHOLD * keystoneProfile.mplusMainPrevious.score) > keystoneProfile.mplusCurrent.score then
+                            if keystoneProfile.mplusMainCurrent.score < (ns.PREVIOUS_SEASON_MAIN_SCORE_RELEVANCE_THRESHOLD * keystoneProfile.mplusMainPrevious.score) then
                                 tooltip:AddDoubleLine(GetSeasonLabel(L.MAINS_BEST_SCORE_BEST_SEASON, keystoneProfile.mplusMainPrevious.season), GetScoreText(keystoneProfile.mplusMainPrevious, true), 1, 1, 1, util:GetScoreColor(keystoneProfile.mplusMainPrevious.score, true))
                             elseif keystoneProfile.mplusMainCurrent.score > 0 or hasMod or hasModSticky then
                                 tooltip:AddDoubleLine(L.CURRENT_MAINS_SCORE, GetScoreText(keystoneProfile.mplusMainCurrent), 1, 1, 1, util:GetScoreColor(keystoneProfile.mplusMainCurrent.score))

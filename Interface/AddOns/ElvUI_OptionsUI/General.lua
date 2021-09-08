@@ -29,10 +29,11 @@ E.Options.args.general = General
 General.args.general = ACH:Group(L["General"], nil, 1)
 General.args.general.args.loginmessage = ACH:Toggle(L["Login Message"], nil, 1)
 General.args.general.args.taintLog = ACH:Toggle(L["Log Taints"], L["Send ADDON_ACTION_BLOCKED errors to the Lua Error frame. These errors are less important in most cases and will not effect your game performance. Also a lot of these errors cannot be fixed. Please only report these errors if you notice a Defect in gameplay."], 2)
-General.args.general.args.decimalLength = ACH:Range(L["Decimal Length"], L["Controls the amount of decimals used in values displayed on elements like NamePlates and UnitFrames."], 3, { min = 0, max = 4, step = 1 }, nil, nil, function(info, value) E.db.general[info[#info]] = value E:BuildPrefixValues() E:StaggeredUpdateAll() end)
+General.args.general.args.spacer1 = ACH:Spacer(3, 'full')
 General.args.general.args.locale = ACH:Select(L["LANGUAGE"], nil, 4, { deDE = 'Deutsch', enUS = 'English', esMX = 'Español', frFR = 'Français', ptBR = 'Português', ruRU = 'Русский', zhCN = '简体中文', zhTW = '正體中文', koKR = '한국어', itIT = 'Italiano' }, nil, nil, function() return E.global.general.locale end, function(_, value) E.global.general.locale = value E:StaticPopup_Show('CONFIG_RL') end)
 General.args.general.args.messageRedirect = ACH:Select(L["Chat Output"], L["This selects the Chat Frame to use as the output of ElvUI messages."], 5, function() return GetChatWindowInfo() end)
 General.args.general.args.numberPrefixStyle = ACH:Select(L["Unit Prefix Style"], L["The unit prefixes you want to use when values are shortened in ElvUI. This is mostly used on UnitFrames."], 6, { TCHINESE = '萬, 億', CHINESE = '万, 亿', ENGLISH = 'K, M, B', GERMAN = 'Tsd, Mio, Mrd', KOREAN = '천, 만, 억', METRIC = 'k, M, G' }, nil, nil, nil, function(info, value) E.db.general[info[#info]] = value E:BuildPrefixValues() E:StaggeredUpdateAll() end)
+General.args.general.args.decimalLength = ACH:Range(L["Decimal Length"], L["Controls the amount of decimals used in values displayed on elements like NamePlates and UnitFrames."], 7, { min = 0, max = 4, step = 1 }, nil, nil, function(info, value) E.db.general[info[#info]] = value E:BuildPrefixValues() E:StaggeredUpdateAll() end)
 
 General.args.general.args.monitor = ACH:Group(L["Monitor"], nil, 50, nil, function(info) return E.global.general[info[#info]] end, function(info, value) E.global.general[info[#info]] = value E:StaticPopup_Show('GLOBAL_RL') end)
 General.args.general.args.monitor.inline = true
@@ -68,9 +69,27 @@ General.args.general.args.totems.args.sortDirection = ACH:Select(L["Sort Directi
 General.args.general.args.totems.args.growthDirection = ACH:Select(L["Bar Direction"], nil, 5, { VERTICAL = L["Vertical"], HORIZONTAL = L["Horizontal"] })
 
 General.args.media = ACH:Group(L["Media"], nil, 5, nil, function(info) return E.db.general[info[#info]] end, function(info, value) E.db.general[info[#info]] = value end)
-General.args.media.args.fontGroup = ACH:Group(L["Fonts"], nil, 1)
-General.args.media.args.fontGroup.inline = true
 
+General.args.media.args.textureGroup = ACH:Group(L["Textures"], nil, 1, nil, function(info) return E.private.general[info[#info]] end)
+General.args.media.args.textureGroup.inline = true
+General.args.media.args.textureGroup.args.normTex = ACH:SharedMediaStatusbar(L["Primary Texture"], L["The texture that will be used mainly for statusbars."], 1, nil, nil, function(info, value) E.private.general[info[#info]] = value E:UpdateMedia() E:UpdateStatusBars() end)
+General.args.media.args.textureGroup.args.glossTex = ACH:SharedMediaStatusbar(L["Secondary Texture"], L["This texture will get used on objects like chat windows and dropdown menus."], 2, nil, nil, function(info, value) E.private.general[info[#info]] = value E:UpdateMedia() E:UpdateFrameTemplates() end)
+General.args.media.args.textureGroup.args.applyTextureToAll = ACH:Execute(L["Copy Primary Texture"], L["Replaces the StatusBar texture setting on Unitframes and Nameplates with the primary texture."], 3, function() E.db.unitframe.statusbar, E.db.nameplates.statusbar = E.private.general.normTex, E.private.general.normTex UF:Update_StatusBars() NP:ConfigureAll() end)
+
+General.args.media.args.colorsGroup = ACH:Group(L["Colors"], nil, 2, nil, function(info) local t, d = E.db.general[info[#info]], P.general[info[#info]] return t.r, t.g, t.b, t.a, d.r, d.g, d.b, d.a end, function(info, r, g, b, a) local setting = info[#info] local t = E.db.general[setting] t.r, t.g, t.b, t.a = r, g, b, a E:UpdateMedia() if setting == 'bordercolor' then E:UpdateBorderColors() elseif setting == 'backdropcolor' or setting == 'backdropfadecolor' then E:UpdateBackdropColors() end end)
+General.args.media.args.colorsGroup.inline = true
+General.args.media.args.colorsGroup.args.backdropcolor = ACH:Color(L["Backdrop"], L["Main backdrop color of the UI."], 1)
+General.args.media.args.colorsGroup.args.backdropcolor.customWidth = 120
+General.args.media.args.colorsGroup.args.backdropfadecolor = ACH:Color(L["Backdrop Faded"], L["Backdrop color of transparent frames"], 2, true)
+General.args.media.args.colorsGroup.args.valuecolor = ACH:Color(L["Value"], L["Color some texts use."], 3)
+General.args.media.args.colorsGroup.args.valuecolor.customWidth = 100
+General.args.media.args.colorsGroup.args.bordercolor = ACH:Color(L["Border"], L["Main border color of the UI."], 5)
+General.args.media.args.colorsGroup.args.bordercolor.customWidth = 100
+General.args.media.args.colorsGroup.args.ufBorderColors = ACH:Color(L["Unitframes Border"], nil, 6, nil, nil, function() local t, d = E.db.unitframe.colors.borderColor, P.unitframe.colors.borderColor return t.r, t.g, t.b, t.a, d.r, d.g, d.b, d.a end, function(_, r, g, b, a) local t = E.db.unitframe.colors.borderColor t.r, t.g, t.b, t.a = r, g, b, a E:UpdateMedia() E:UpdateBorderColors() end)
+General.args.media.args.colorsGroup.args.ufBorderColors.customWidth = 180
+
+General.args.media.args.fontGroup = ACH:Group(L["Fonts"], nil, 3)
+General.args.media.args.fontGroup.inline = true
 General.args.media.args.fontGroup.args.main = ACH:Group(L["General"], nil, 1, nil, nil, function(info, value) E.db.general[info[#info]] = value E:UpdateMedia() E:UpdateFontTemplates() end)
 General.args.media.args.fontGroup.args.main.args.font = ACH:SharedMediaFont(L["Default Font"], L["The font that the core of the UI will use."], 1)
 General.args.media.args.fontGroup.args.main.args.fontSize = ACH:Range(L["FONT_SIZE"], L["Set the font size for everything in UI. Note: This doesn't effect somethings that have their own seperate options (UnitFrame Font, Datatext Font, ect..)"], 2, C.Values.FontSize)
@@ -78,29 +97,22 @@ General.args.media.args.fontGroup.args.main.args.fontStyle = ACH:FontFlags(L["Fo
 General.args.media.args.fontGroup.args.main.args.applyFontToAll = ACH:Execute(L["Apply Font To All"], L["Applies the font and font size settings throughout the entire user interface. Note: Some font size settings will be skipped due to them having a smaller font size by default."], 4, function() E:StaticPopup_Show('APPLY_FONT_WARNING') end)
 
 General.args.media.args.fontGroup.args.blizzard = ACH:Group(L["Blizzard"], nil, 2, nil, function(info) return E.private.general[info[#info]] end, function(info, value) E.private.general[info[#info]] = value E:StaticPopup_Show('PRIVATE_RL') end)
-General.args.media.args.fontGroup.args.blizzard.args.replaceBlizzFonts = ACH:Toggle(L["Replace Blizzard Fonts"], L["Replaces the default Blizzard fonts on various panels and frames with the fonts chosen in the Media section of the ElvUI Options. NOTE: Any font that inherits from the fonts ElvUI usually replaces will be affected as well if you disable this. Enabled by default."], 1)
-General.args.media.args.fontGroup.args.blizzard.args.unifiedBlizzFonts = ACH:Toggle(L["Unified Font Sizes"], L["This setting mimics the older style of Replace Blizzard Fonts, with a more static unified font sizing."], 2, nil, nil, nil, nil, function(info, value) E.private.general[info[#info]] = value E:UpdateBlizzardFonts() end, function() return not E.private.general.replaceBlizzFonts end)
-General.args.media.args.fontGroup.args.blizzard.args.spacer1 = ACH:Spacer(3, 'full')
-General.args.media.args.fontGroup.args.blizzard.args.replaceCombatFont = ACH:Toggle(L["Replace Combat Font"], nil, 4)
-General.args.media.args.fontGroup.args.blizzard.args.dmgfont = ACH:SharedMediaFont(L["Combat Text Font"], L["The font that combat text will use. |cffFF0000WARNING: This requires a game restart or re-log for this change to take effect.|r"], 5, nil, nil, nil, function() return not E.private.general.replaceCombatFont end)
-General.args.media.args.fontGroup.args.blizzard.args.spacer2 = ACH:Spacer(6, 'full')
-General.args.media.args.fontGroup.args.blizzard.args.replaceNameFont = ACH:Toggle(L["Replace Name Font"], nil, 7)
-General.args.media.args.fontGroup.args.blizzard.args.namefont = ACH:SharedMediaFont(L["Name Font"], L["The font that appears on the text above players heads. |cffFF0000WARNING: This requires a game restart or re-log for this change to take effect.|r"], 8, nil, nil, nil, function() return not E.private.general.replaceNameFont end)
-
-General.args.media.args.textureGroup = ACH:Group(L["Textures"], nil, 3, nil, function(info) return E.private.general[info[#info]] end)
-General.args.media.args.textureGroup.inline = true
-General.args.media.args.textureGroup.args.normTex = ACH:SharedMediaStatusbar(L["Primary Texture"], L["The texture that will be used mainly for statusbars."], 1, nil, nil, function(info, value) E.private.general[info[#info]] = value E:UpdateMedia() E:UpdateStatusBars() end)
-General.args.media.args.textureGroup.args.glossTex = ACH:SharedMediaStatusbar(L["Secondary Texture"], L["This texture will get used on objects like chat windows and dropdown menus."], 2, nil, nil, function(info, value) E.private.general[info[#info]] = value E:UpdateMedia() E:UpdateFrameTemplates() end)
-General.args.media.args.textureGroup.args.applyTextureToAll = ACH:Execute(L["Copy Primary Texture"], L["Replaces the StatusBar texture setting on Unitframes and Nameplates with the primary texture."], 3, function() E.db.unitframe.statusbar, E.db.nameplates.statusbar = E.private.general.normTex, E.private.general.normTex UF:Update_StatusBars() NP:ConfigureAll() end)
-
-General.args.media.args.colorsGroup = ACH:Group(L["Colors"], nil, 4, nil, function(info) local t, d = E.db.general[info[#info]], P.general[info[#info]] return t.r, t.g, t.b, t.a, d.r, d.g, d.b, d.a end, function(info, r, g, b, a) local setting = info[#info] local t = E.db.general[setting] t.r, t.g, t.b, t.a = r, g, b, a E:UpdateMedia() if setting == 'bordercolor' then E:UpdateBorderColors() elseif setting == 'backdropcolor' or setting == 'backdropfadecolor' then E:UpdateBackdropColors() end end)
-General.args.media.args.colorsGroup.inline = true
-General.args.media.args.colorsGroup.args.backdropcolor = ACH:Color(L["Backdrop Color"], L["Main backdrop color of the UI."], 1)
-General.args.media.args.colorsGroup.args.backdropfadecolor = ACH:Color(L["Backdrop Faded Color"], L["Backdrop color of transparent frames"], 2, true)
-General.args.media.args.colorsGroup.args.valuecolor = ACH:Color(L["Value Color"], L["Color some texts use."], 3)
-General.args.media.args.colorsGroup.args.spacer1 = ACH:Spacer(4, 'full')
-General.args.media.args.colorsGroup.args.bordercolor = ACH:Color(L["Border Color"], L["Main border color of the UI."], 5)
-General.args.media.args.colorsGroup.args.ufBorderColors = ACH:Color(L["Unitframes Border Color"], nil, 6, nil, nil, function() local t, d = E.db.unitframe.colors.borderColor, P.unitframe.colors.borderColor return t.r, t.g, t.b, t.a, d.r, d.g, d.b, d.a end, function(_, r, g, b, a) local t = E.db.unitframe.colors.borderColor t.r, t.g, t.b, t.a = r, g, b, a E:UpdateMedia() E:UpdateBorderColors() end)
+General.args.media.args.fontGroup.args.blizzard.args.replaceCombatFont = ACH:Toggle(L["Replace Combat Font"], nil, 1)
+General.args.media.args.fontGroup.args.blizzard.args.dmgfont = ACH:SharedMediaFont(L["Combat Text Font"], L["The font that combat text will use. |cffFF0000WARNING: This requires a game restart or re-log for this change to take effect.|r"], 2, nil, nil, nil, function() return not E.private.general.replaceCombatFont end)
+General.args.media.args.fontGroup.args.blizzard.args.replaceNameFont = ACH:Toggle(L["Replace Name Font"], nil, 3)
+General.args.media.args.fontGroup.args.blizzard.args.namefont = ACH:SharedMediaFont(L["Name Font"], L["The font that appears on the text above players heads. |cffFF0000WARNING: This requires a game restart or re-log for this change to take effect.|r"], 4, nil, nil, nil, function() return not E.private.general.replaceNameFont end)
+General.args.media.args.fontGroup.args.blizzard.args.replaceBlizzFonts = ACH:Toggle(L["Replace Blizzard Fonts"], L["Replaces the default Blizzard fonts on various panels and frames with the fonts chosen in the Media section of the ElvUI Options. NOTE: Any font that inherits from the fonts ElvUI usually replaces will be affected as well if you disable this. Enabled by default."], 5)
+General.args.media.args.fontGroup.args.blizzard.args.unifiedBlizzFonts = ACH:Toggle(L["Unified Font Sizes"], L["This setting mimics the older style of Replace Blizzard Fonts, with a more static unified font sizing."], 6, nil, nil, nil, nil, function(info, value) E.private.general[info[#info]] = value E:UpdateBlizzardFonts() end, function() return not E.private.general.replaceBlizzFonts end)
+General.args.media.args.fontGroup.args.blizzard.args.replaceNameplateFont = ACH:Toggle(L["Replace Nameplate Fonts"], nil, 7)
+General.args.media.args.fontGroup.args.blizzard.args.replaceNameplateFont.customWidth = 200
+General.args.media.args.fontGroup.args.blizzard.args.nameplateGroup = ACH:Group(L["Nameplates"], nil, 10, nil, nil, nil, function() return not E.private.general.replaceNameplateFont end)
+General.args.media.args.fontGroup.args.blizzard.args.nameplateGroup.args.nameplateFont = ACH:SharedMediaFont(L["Normal Font"], nil, 7)
+General.args.media.args.fontGroup.args.blizzard.args.nameplateGroup.args.nameplateFontSize = ACH:Range(L["Normal Size"], nil, 8, C.Values.FontSize)
+General.args.media.args.fontGroup.args.blizzard.args.nameplateGroup.args.nameplateFontOutline = ACH:FontFlags(L["Normal Outline"], nil, 9)
+General.args.media.args.fontGroup.args.blizzard.args.nameplateGroup.args.spacer2 = ACH:Spacer(10, 'full')
+General.args.media.args.fontGroup.args.blizzard.args.nameplateGroup.args.nameplateLargeFont = ACH:SharedMediaFont(L["Larger Font"], nil, 11)
+General.args.media.args.fontGroup.args.blizzard.args.nameplateGroup.args.nameplateLargeFontSize = ACH:Range(L["Larger Size"], nil, 12, C.Values.FontSize)
+General.args.media.args.fontGroup.args.blizzard.args.nameplateGroup.args.nameplateLargeFontOutline = ACH:FontFlags(L["Larger Outline"], nil, 13)
 
 General.args.cosmetic = ACH:Group(L["Cosmetic"], nil, 10)
 General.args.cosmetic.args.afk = ACH:Toggle(L["AFK Mode"], L["When you go AFK display the AFK screen."], 1, nil, nil, nil, nil, function(info, value) E.db.general[info[#info]] = value AFK:Toggle() end)
@@ -129,14 +141,14 @@ General.args.cosmetic.args.cosmeticTopPanel.args.topPanelHeight = ACH:Range(L["H
 
 General.args.cosmetic.args.chatBubblesGroup = ACH:Group(L["Chat Bubbles"], nil, 30, nil, function(info) return E.private.general[info[#info]] end, function(info, value) E.private.general[info[#info]] = value E:StaticPopup_Show('PRIVATE_RL') end)
 General.args.cosmetic.args.chatBubblesGroup.inline = true
-General.args.cosmetic.args.chatBubblesGroup.args.warning = ACH:Description('|cffFF0000This does not work in Instances or Garrisons!|r', 0, 'medium')
-General.args.cosmetic.args.chatBubblesGroup.args.spacer1 = ACH:Spacer(1, 'full')
-General.args.cosmetic.args.chatBubblesGroup.args.chatBubbles = ACH:Select(L["Chat Bubbles Style"], L["Skin the blizzard chat bubbles."], 2, { backdrop = L["Skin Backdrop"], nobackdrop = L["Remove Backdrop"], backdrop_noborder = L["Skin Backdrop (No Borders)"], disabled = L["DISABLE"] })
-General.args.cosmetic.args.chatBubblesGroup.args.chatBubbleName = ACH:Toggle(L["Chat Bubble Names"], L["Display the name of the unit on the chat bubble. This will not work if backdrop is disabled or when you are in an instance."], 3)
-General.args.cosmetic.args.chatBubblesGroup.args.spacer2 = ACH:Spacer(4, 'full')
-General.args.cosmetic.args.chatBubblesGroup.args.chatBubbleFont = ACH:SharedMediaFont(L["Font"], nil, 5)
-General.args.cosmetic.args.chatBubblesGroup.args.chatBubbleFontSize = ACH:Range(L["FONT_SIZE"], nil, 6, C.Values.FontSize)
-General.args.cosmetic.args.chatBubblesGroup.args.chatBubbleFontOutline = ACH:FontFlags(L["Font Outline"], nil, 7)
+General.args.cosmetic.args.chatBubblesGroup.args.replaceBubbleFont = ACH:Toggle(L["Replace Font"], nil, 1)
+General.args.cosmetic.args.chatBubblesGroup.args.chatBubbleFont = ACH:SharedMediaFont(L["Font"], nil, 2, nil, nil, nil, function() return not E.private.general.replaceBubbleFont end)
+General.args.cosmetic.args.chatBubblesGroup.args.chatBubbleFontSize = ACH:Range(L["FONT_SIZE"], nil, 3, C.Values.FontSize, nil, nil, nil, function() return not E.private.general.replaceBubbleFont end)
+General.args.cosmetic.args.chatBubblesGroup.args.chatBubbleFontOutline = ACH:FontFlags(L["Font Outline"], nil, 4, nil, nil, nil, function() return not E.private.general.replaceBubbleFont end)
+General.args.cosmetic.args.chatBubblesGroup.args.spacer1 = ACH:Spacer(10, 'full')
+General.args.cosmetic.args.chatBubblesGroup.args.warning = ACH:Description('|cffFF0000This does not work in Instances or Garrisons!|r', 11, 'medium')
+General.args.cosmetic.args.chatBubblesGroup.args.chatBubbles = ACH:Select(L["Chat Bubbles Style"], L["Skin the blizzard chat bubbles."], 12, { backdrop = L["Skin Backdrop"], nobackdrop = L["Remove Backdrop"], backdrop_noborder = L["Skin Backdrop (No Borders)"], disabled = L["DISABLE"] })
+General.args.cosmetic.args.chatBubblesGroup.args.chatBubbleName = ACH:Toggle(L["Chat Bubble Names"], L["Display the name of the unit on the chat bubble. This will not work if backdrop is disabled or when you are in an instance."], 13)
 
 General.args.alternativePowerGroup = ACH:Group(L["Alternative Power"], nil, 15, nil, function(info) return E.db.general.altPowerBar[info[#info]] end, function(info, value) E.db.general.altPowerBar[info[#info]] = value Blizzard:UpdateAltPowerBarSettings() end)
 General.args.alternativePowerGroup.args.enable = ACH:Toggle(L["Enable"], L["Replace Blizzard's Alternative Power Bar"], 1, nil, nil, nil, nil, function(info, value) E.db.general.altPowerBar[info[#info]] = value E:StaticPopup_Show('PRIVATE_RL') end)
@@ -163,7 +175,6 @@ General.args.blizzUIImprovements.args.general = ACH:Group(L["General"], nil, 1)
 General.args.blizzUIImprovements.args.general.inline = true
 General.args.blizzUIImprovements.args.general.args.hideErrorFrame = ACH:Toggle(L["Hide Error Text"], L["Hides the red error text at the top of the screen while in combat."], 1)
 General.args.blizzUIImprovements.args.general.args.enhancedPvpMessages = ACH:Toggle(L["Enhanced PVP Messages"], L["Display battleground messages in the middle of the screen."], 2)
-General.args.blizzUIImprovements.args.general.args.showMissingTalentAlert = ACH:Toggle(L["Missing Talent Alert"], L["Show an alert frame if you have unspend talent points."], 3, nil, nil, nil, function(info) return E.global.general[info[#info]] end, function(info, value) E.global.general[info[#info]] = value E:StaticPopup_Show('GLOBAL_RL') end)
 General.args.blizzUIImprovements.args.general.args.disableTutorialButtons = ACH:Toggle(L["Disable Tutorial Buttons"], L["Disables the tutorial button found on some frames."], 4, nil, nil, nil, function(info) return E.global.general[info[#info]] end, function(info, value) E.global.general[info[#info]] = value E:StaticPopup_Show('GLOBAL_RL') end)
 General.args.blizzUIImprovements.args.general.args.raidUtility = ACH:Toggle(L["RAID_CONTROL"], L["Enables the ElvUI Raid Control panel."], 5, nil, nil, nil, function(info) return E.private.general[info[#info]] end, function(info, value) E.private.general[info[#info]] = value E:StaticPopup_Show('PRIVATE_RL') end)
 General.args.blizzUIImprovements.args.general.args.voiceOverlay = ACH:Toggle(L["Voice Overlay"], L["Replace Blizzard's Voice Overlay."], 6, nil, nil, nil, function(info) return E.private.general[info[#info]] end, function(info, value) E.private.general[info[#info]] = value E:StaticPopup_Show('PRIVATE_RL') end)
@@ -177,9 +188,9 @@ General.args.blizzUIImprovements.args.quest.inline = true
 General.args.blizzUIImprovements.args.quest.args.questRewardMostValueIcon = ACH:Toggle(L["Mark Quest Reward"], L["Marks the most valuable quest reward with a gold coin."], 1)
 General.args.blizzUIImprovements.args.quest.args.questXPPercent = ACH:Toggle(L["XP Quest Percent"], nil, 2)
 
-General.args.blizzUIImprovements.args.lootGroup = ACH:Group(L['Loot'], nil, 3, nil, function(info) return E.private.general[info[#info]] end, function(info, value) E.private.general[info[#info]] = value; E:StaticPopup_Show('PRIVATE_RL') end)
+General.args.blizzUIImprovements.args.lootGroup = ACH:Group(L["Loot"], nil, 3, nil, function(info) return E.private.general[info[#info]] end, function(info, value) E.private.general[info[#info]] = value; E:StaticPopup_Show('PRIVATE_RL') end)
 General.args.blizzUIImprovements.args.lootGroup.inline = true
-General.args.blizzUIImprovements.args.lootGroup.args.loot = ACH:Toggle(L['Loot'], L["Enable/Disable the loot frame."], 1)
+General.args.blizzUIImprovements.args.lootGroup.args.loot = ACH:Toggle(L["Loot"], L["Enable/Disable the loot frame."], 1)
 General.args.blizzUIImprovements.args.lootGroup.args.lootRoll = ACH:Toggle(L["Loot Roll"], L["Enable/Disable the loot roll frame."], 2)
 General.args.blizzUIImprovements.args.lootGroup.args.autoRoll = ACH:Toggle(L["Auto Greed/DE"], L["Automatically select greed or disenchant (when available) on green quality items. This will only work if you are the max level."], 3, nil, nil, nil, function() return not E.db.general.autoRoll end, function(_, value) E.db.general.autoRoll = value end, function() return not E.private.general.lootRoll end)
 

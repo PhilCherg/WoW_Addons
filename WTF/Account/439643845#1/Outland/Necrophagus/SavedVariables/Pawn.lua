@@ -1,16 +1,19 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0521,
+	["LastVersion"] = 2.0527,
+	["LastPlayerFullName"] = "Necrophagus-Outland",
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
-			["ID"] = 178732,
-			["Level"] = 220,
-			["Link"] = "|cffa335ee|Hitem:178732::::::::60:267::33:6:7359:6652:7194:7352:1534:6646:1:28:1279:::|h[Abominable Visage]|h|r",
+			["ID"] = 186325,
+			["Level"] = 233,
+			["Link"] = "|cffa335ee|Hitem:186325::::::::60:267::3:4:7189:6652:1472:6646:1:28:2044:::::|h[Veil of the Banshee Queen]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 185842,
-			["Level"] = 226,
-			["Link"] = "|cffa335ee|Hitem:185842::::::::60:267::23:6:7731:7359:6652:7575:1543:6646:1:28:2042:::::|h[Ornately Engraved Amplifier]|h|r",
+			["ID"] = 186378,
+			["Level"] = 239,
+			["Link"] = "|cffa335ee|Hitem:186378::::::::60:267::5:5:7188:6652:7574:1485:6646::::::|h[Weathered Talisman of the Shadowmoon]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 186286,
@@ -30,8 +33,8 @@ PawnOptions = {
 		}, -- [6]
 		{
 			["ID"] = 173246,
-			["Level"] = 225,
-			["Link"] = "|cffff8000|Hitem:173246::::::::60:267::63:5:7038:6649:6648:6718:1522::::|h[Cinderflame Legguards of the Azj'Aqir]|h|r",
+			["Level"] = 262,
+			["Link"] = "|cffffffff|Hitem:173246::::::::60:267::68:2:7451:1559:1:28:2142:::::|h[Grim-Veiled Pants]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 186281,
@@ -39,9 +42,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:186281::::::::60:267::5:4:7188:6652:1485:6646:1:28:2105:::::|h[Phantasma-Forged Striders]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 186321,
-			["Level"] = 233,
-			["Link"] = "|cffa335ee|Hitem:186321::::::::60:267::3:4:7189:6652:1472:6646:1:28:2044:::::|h[Desecrator's Keening Wristwraps]|h|r",
+			["ID"] = 186283,
+			["Level"] = 239,
+			["Link"] = "|cffa335ee|Hitem:186283::::::::60:267::5:4:7188:6652:1485:6646::::::|h[Cruel Overlord's Shackles]|h|r",
 		}, -- [9]
 		{
 			["ID"] = 186288,
@@ -61,26 +64,27 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:186290:6166:::::::60:267::5:5:7188:6652:7574:1485:6646:1:28:2105:::::|h[Sworn Oath of the Nine]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 187447,
-			["Level"] = 233,
+			["ID"] = 186428,
+			["Level"] = 239,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cffa335ee|Hitem:187447::::::::60:267::81:3:6652:1479:6646:1:28:2043:::::|h[Soul Cage Fragment]|h|r",
+			["Link"] = "|cffa335ee|Hitem:186428::::::::60:267::5:4:7188:6652:1485:6646:1:28:2105:::::|h[Shadowed Orb of Torment]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 185846,
-			["Level"] = 226,
+			["ID"] = 187447,
+			["Level"] = 233,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cffa335ee|Hitem:185846::::::::60:267::23:5:7731:7359:6652:1543:6646:1:28:2042:::::|h[Miniscule Mailemental in an Envelope]|h|r",
+			["Link"] = "|cffa335ee|Hitem:187447::::::::60:267::81:3:6652:1479:6646:1:28:2043:::::|h[Soul Cage Fragment]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 183034,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:183034::::::::60:267::5:4:7188:6652:1485:6646:1:28:752:::|h[Cowled Batwing Cloak]|h|r",
+			["ID"] = 179349,
+			["Level"] = 246,
+			["Link"] = "|cffa335ee|Hitem:179349::::::::60:267::35:5:7620:7359:6652:1560:6646::::::|h[Dealer Xy'exa's Cape]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 178829,
-			["Level"] = 223,
-			["Link"] = "|cffa335ee|Hitem:178829:6229:::::::60:267::35:5:7416:7359:6652:1537:6646::::|h[Nathrian Ferula]|h|r",
+			["ID"] = 186385,
+			["Level"] = 239,
+			["AlsoFitsIn"] = 17,
+			["Link"] = "|cffa335ee|Hitem:186385:6229:::::::60:267::5:4:7188:6652:1485:6646:1:28:2105:::::|h[Signe's Sonorous Scramaseax]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 186418,
@@ -88,9 +92,7 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:186418::::::::60:267::3:4:7189:6652:1472:6646:1:28:2104:::::|h[Guarm's Lost Chew Toy]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Necrophagus-Outland",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128941] = {
 			["Relics"] = {
@@ -132,7 +134,6 @@ PawnOptions = {
 			["Name"] = "Underlight Angler",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "WARLOCK",

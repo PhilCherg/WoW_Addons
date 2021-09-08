@@ -188,6 +188,7 @@ local L = app.L;
 	--TODO: L.CACHED_RECIPES_2 = " known recipes!";
 	--TODO: L.WORLD_QUESTS = "World Quests";
 	--TODO: L.WORLD_QUESTS_DESC = "These are World Quests and other time-limited Things that are currently available somewhere. Go get 'em!";
+	--TODO: L.QUESTS_DESC = "Shows all possible QuestID's in the game in ascending numeric order.";
 	--TODO: L.UPDATE_WORLD_QUESTS = "Update World Quests Now";
 	--TODO: L.UPDATE_WORLD_QUESTS_DESC = "Sometimes the World Quest API is slow or fails to return new data. If you wish to forcibly refresh the data without changing zones, click this button now!\n\nAlt + Click to include currently-available Things which may not be time-limited";
 	--TODO: L.CLEAR_WORLD_QUESTS = "Clear World Quests";
@@ -454,6 +455,8 @@ local L = app.L;
 	-- Features tab
 		--TODO: L.FEATURES_TAB = "Features";
 		--TODO: L.MODULES_LABEL = "Modules & Mini Lists";
+		--TODO: L.ADHOC_UPDATES_CHECKBOX = "Use Ad-Hoc Window Updates";
+		--TODO: L.ADHOC_UPDATES_CHECKBOX_TOOLTIP = "Enable this option if you want only visible ATT windows to be updated.\n\nThis can greatly reduce loading times and prevent large framerate spikes in some situations.";
 		--TODO: L.SKIP_CUTSCENES_CHECKBOX = "Automatically Skip Cutscenes";
 		--TODO: L.SKIP_CUTSCENES_CHECKBOX_TOOLTIP = "Enable this option if you want ATT to automatically skip all cutscenes on your behalf.";
 		--TODO: L.AUTO_BOUNTY_CHECKBOX = "Automatically Open the Bounty List";
@@ -637,7 +640,6 @@ for key,value in pairs({
 		--TODO: [-55] = "Pirates' Day",
 		--TODO: [-59] = "Day of the Dead",
 		--TODO: [-62] = "Stranglethorn Fishing Extravaganza",
-		--TODO: [-65] = GetSpellInfo(190357).." "..select(1,GetCategoryInfo(15268)),-- Blizzard Promotions
 		--TODO: [-72] = "Sargerei War Council",
 		--TODO: [-78] = "Timed Event",
 		--TODO: [-79] = "First Chest",
@@ -740,24 +742,22 @@ for key,value in pairs({
 		--TODO: [-526] = "Legion: Legion Invasion",
 		--TODO: [-527] = "Battle for Azeroth: War of the Thorns",
 		--TODO: [-528] = "Broken Isles",							-- Broken Isles [Mole Machine]
-		--TODO: [-531] = "2008 Spirit of Competition Event",
-		--TODO: [-532] = "Heroes of the Storm Promotion",
-		--TODO: [-533] = "Hearthstone Promotion",
+		--TODO: [-531] = "Spirit of Competition",
+		--TODO: [-532] = "Heroes of the Storm",
+		--TODO: [-533] = "Hearthstone",
 		--TODO: [-534] = "Collector's Edition",
 
-		--TODO: [-538] = "Diablo 20th Anniversary Promotion",
+		--TODO: [-537] = "Diablo 20th Anniversary",
+		--TODO: [-538] = "The Ahn'Qiraj War Effort",
 		--TODO: [-539] = "The Scepter of the Shifting Sands",
 		--TODO: [-540] = "The Scourge Invasion",
+		--TODO: [-541] = "The Silithyst Must Flow",
+		[-542] = "L'apertura del Portale Oscuro",
 		--TODO: [-543] = "Legion Invasions",
 		--TODO: [-544] = "WoW Collector's Edition",
-		--TODO: [-547] = "EU Only",
-		--TODO: [-548] = "China Only",
-		--TODO: [-549] = "Korea Only",
 		--TODO: [-550] = "Starcraft Collector's Edition",
 		--TODO: [-551] = "Diablo Collector's Edition",
 		--TODO: [-556] = "Arena Tournament",
-
-		--TODO: [-563] = "Azeroth's Choppers",
 
 	-- PvP Header
 		-- Special Season Tags
@@ -1235,6 +1235,7 @@ for key,value in pairs({
 	[179697] = "Cassa del Tesoro dell'Arena",	-- Arena Treasure Chest
 	[179827] = "Wanted/Missing/Lost & Found",	-- Wanted/Missing/Lost & Found	--TODO: This was taken from classic Wowhead
 	[179832] = "Cuscino Decorato di Pillaclencher",	-- Pillaclencher's Ornate Pillow
+	[180229] = "Jinxed Hoodoo Pile",	-- Jinxed Hoodoo Pile	--TODO: This was taken from classic Wowhead
 	--TODO: [180327] = "Brazier of Madness",	-- Brazier of Madness
 	[180366] = "Battered Tackle Box",	-- Battered Tackle Box	--TODO: This was taken from classic Wowhead
 	[180368] = "Tablet of Madness",	-- Tablet of Madness	--TODO: This was taken from classic Wowhead
@@ -1245,6 +1246,7 @@ for key,value in pairs({
 	[180503] = "Libro di Ricette Insabbiato",	-- Sandy Cookbook
 	[180633] = "Lacrima di Cristallo",	-- Crystalline Tear
 	[180642] = "Cassa Incospicua",	-- Inconspicuous Crate
+	[180652] = "Freshly Dug Dirt",	-- Freshly Dug Dirt	--TODO: This was taken from classic Wowhead
 	[180690] = "Grande Forziere dello Scarabeo",	-- Large Scarab Coffer
 	[180691] = "Forziere dello Scarabeo",	-- Scarab Coffer
 	[180717] = "The Scarab Gong",	-- The Scarab Gong	--TODO: This was taken from classic Wowhead
@@ -1850,6 +1852,7 @@ for key,value in pairs({
 	[233658] = "Borsa dell'Avventuriero",	-- Adventurer's Pouch
 	[233696] = "Importanti Rifornimenti per Esplorazioni",	-- Important Exploration Supplies
 	[233697] = "Cassa dei Saberon",	-- Saberon Stash
+	[233715] = "Bottino di Ditodorato",	-- Goldtoe's Plunder
 	[233773] = "Sacca di Erbe",	-- Bag of Herbs
 	[233792] = "Mucchio di Macerie",	-- Pile of Rubble
 	[233917] = "Femore dell'Improbabilità",	-- Femur of Improbability
@@ -1940,6 +1943,7 @@ for key,value in pairs({
 	[236406] = "Antica Cassa degli Ogre",	-- Ancient Ogre Cache
 	[236407] = "Antica Cassa degli Ogre",	-- Ancient Ogre Cache
 	[236483] = "Dono degli Antichi",	-- Gift of the Ancients
+	[236610] = "Dono dello Spirito",	-- Spirit's Gift
 	[236693] = "Munizioni dell'Orda di Ferro",	-- Iron Horde Munitions
 	[236715] = "Teschio Strano",	-- Odd Skull
 	[236755] = "Scrigno Impolverato",	-- Dusty Lockbox
@@ -1953,6 +1957,7 @@ for key,value in pairs({
 	[239194] = "Cassa di Norana",	-- Norana's Cache
 	[239198] = "Cassa di Isaari",	-- Isaari's Cache
 	[239328] = "Scrigno del Capitano",	-- Captain's Foot Locker
+	[239791] = "Appunti sulla Caccia alle Reliquie",	-- Relic Hunting Notes
 	[239803] = "Cassa del Tesoro",	-- Treasure Chest
 	[239828] = "Confini della Realtà",	-- Edge of Reality
 	--TODO: [239901] = "Voidtalon Egg",	-- Voidtalon Egg
@@ -2703,7 +2708,7 @@ for key,value in pairs({
 	[329641] = "Ricercati: Junkmatt e Roadtrogg",	-- Wanted: Junkbrat and Roadtrogg
 	--TODO: [329783] = "Glowing Arcane Trunk",	-- Glowing Arcane Trunk
 	[329805] = "Cristallo Strano",	-- Strange Crystal
-	[329918] = "Tesori dei Verrospino",	-- Quilboar Treasure
+	[329918] = "Tesori dei Verrospino",	-- Quilboar Treasures
 	[329919] = "Rifornimenti Rubati",	-- Stolen Supplies
 	[330627] = "Segnale di Pericolo",	-- Danger Sign
 	--TODO: [332220] = "Glowing Arcane Trunk",	-- Glowing Arcane Trunk
@@ -2775,7 +2780,7 @@ for key,value in pairs({
 	[352520] = "Medaglione dell'Orgoglio",	-- Medallion of Pride
 	[352596] = "Crescita Germogliante",	-- Sprouting Growth
 	[352703] = "La Mietitura",	-- The Harvest
-	--TODO: [352754] = "Silver Strongbox",	-- Silver Strongbox
+	[352754] = "Forziere d'Argento",	-- Silver Strongbox
 	[353019] = "Forziere d'Argento",	-- Silver Strongbox
 	[353205] = "Forziere d'Argento",	-- Silver Strongbox
 	[353231] = "Cassa Legaossa",	-- Bonebound Chest
@@ -2802,7 +2807,7 @@ for key,value in pairs({
 	[353516] = "Forziere d'Argento",	-- Silver Strongbox
 	[353626] = "Cassetta degli Attrezzi Chiusa",	-- Locked Toolbox
 	[353627] = "Razioni del Fronte di Battaglia",	-- Battlefront Rations
-	--TODO: [353643] = "Silver Strongbox",	-- Silver Strongbox
+	[353643] = "Forziere d'Argento",	-- Silver Strongbox
 	[353645] = "Diario di Marileth",	-- Marileth's Journal
 	[353650] = "Forziere Dorato del Factotum",	-- Steward's Golden Chest
 	[353681] = "Baccello della Luce Lunare",	-- Lunarlight Pod

@@ -37,61 +37,61 @@ Gladius2DB = {
 		["Xanthoros - Outland"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 623.6154633307815,
-			},
 			["x"] = {
 				["arena1"] = 128.7998744948518,
+			},
+			["y"] = {
+				["arena1"] = 623.6154633307815,
 			},
 		},
 		["Phaltraxion - Outland"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["x"] = {
-				["arena1"] = 876.1779349458666,
-			},
 			["y"] = {
 				["arena1"] = 611.5265263182046,
+			},
+			["x"] = {
+				["arena1"] = 876.1779349458666,
 			},
 		},
 		["Asdfsadfsadf - Outland"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["x"] = {
-				["arena1"] = 817.8666732804195,
-			},
 			["y"] = {
 				["arena1"] = 233.9266405742947,
+			},
+			["x"] = {
+				["arena1"] = 817.8666732804195,
 			},
 		},
 		["Phaladinus - Outland"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 657.0667693826908,
-			},
 			["x"] = {
 				["arena1"] = 1007.645250093956,
+			},
+			["y"] = {
+				["arena1"] = 657.0667693826908,
 			},
 		},
 		["Shadroxia - Outland"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 511.9710868220936,
-			},
 			["x"] = {
 				["arena1"] = 797.9554727103023,
+			},
+			["y"] = {
+				["arena1"] = 511.9710868220936,
 			},
 		},
 		["Asdawdwd - Outland"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["x"] = {
-				["arena1"] = 1010.577758764885,
-			},
 			["y"] = {
 				["arena1"] = 610.8154863006312,
+			},
+			["x"] = {
+				["arena1"] = 1010.577758764885,
 			},
 		},
 		["Bankeristor - Outland"] = {
@@ -101,11 +101,11 @@ Gladius2DB = {
 		["Asdsaasdf - Outland"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 217.5710517741609,
-			},
 			["x"] = {
 				["arena1"] = 649.3334184861487,
+			},
+			["y"] = {
+				["arena1"] = 217.5710517741609,
 			},
 		},
 		["Lianxia - Draenor"] = {
@@ -129,11 +129,11 @@ Gladius2DB = {
 		["Adsfasdfasdf - Outland"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 283.704490327229,
-			},
 			["x"] = {
 				["arena1"] = 928.0890564238798,
+			},
+			["y"] = {
+				["arena1"] = 283.704490327229,
 			},
 		},
 		["Tempgoddess - Outland"] = {
@@ -147,31 +147,31 @@ Gladius2DB = {
 		["Illyana - Outland"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["x"] = {
-				["arena1"] = 860.5335811706245,
-			},
 			["y"] = {
 				["arena1"] = 646.3710406459904,
+			},
+			["x"] = {
+				["arena1"] = 860.5335811706245,
 			},
 		},
 		["Destruxia - Outland"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["x"] = {
-				["arena1"] = 830.6667803154487,
-			},
 			["y"] = {
 				["arena1"] = 599.437892650345,
+			},
+			["x"] = {
+				["arena1"] = 830.6667803154487,
 			},
 		},
 		["Chernakotka - Die Aldor"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["x"] = {
-				["arena1"] = 929.5112231289459,
-			},
 			["y"] = {
 				["arena1"] = 561.0378315550151,
+			},
+			["x"] = {
+				["arena1"] = 929.5112231289459,
 			},
 		},
 		["Necropharia - Outland"] = {
@@ -179,29 +179,29 @@ Gladius2DB = {
 				["arena1"] = 631.4376835533621,
 			},
 			["tagsVersion"] = 4,
+			["auraVersion"] = 1,
 			["x"] = {
 				["arena1"] = 965.0666041344666,
 			},
-			["auraVersion"] = 1,
 		},
 		["Serthaxion - Outland"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["x"] = {
-				["arena1"] = 838.4890005380294,
-			},
 			["y"] = {
 				["arena1"] = 550.3710612475043,
+			},
+			["x"] = {
+				["arena1"] = 838.4890005380294,
 			},
 		},
 		["Luminaxia - Outland"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 637.1265237134648,
-			},
 			["x"] = {
 				["arena1"] = 865.5113813131538,
+			},
+			["y"] = {
+				["arena1"] = 637.1265237134648,
 			},
 		},
 		["Testfirst - Outland"] = {
@@ -213,10 +213,10 @@ Gladius2DB = {
 				["arena1"] = 588.7711223428341,
 			},
 			["tagsVersion"] = 4,
+			["auraVersion"] = 1,
 			["x"] = {
 				["arena1"] = 854.8445676706833,
 			},
-			["auraVersion"] = 1,
 		},
 	},
 }

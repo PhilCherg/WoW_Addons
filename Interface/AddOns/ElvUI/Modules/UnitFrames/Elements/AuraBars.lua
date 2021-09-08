@@ -86,6 +86,7 @@ function UF:Configure_AuraBars(frame)
 		auraBars.enemyAuraType = db.aurabar.enemyAuraType
 		auraBars.disableMouse = db.aurabar.clickThrough
 		auraBars.filterList = UF:ConvertFilters(auraBars, db.aurabar.priority)
+		auraBars.auraSort = UF.SortAuraFuncs[auraBars.db.sortMethod]
 
 		for _, statusBar in ipairs(auraBars) do
 			statusBar.db = auraBars.db
@@ -178,7 +179,7 @@ local GOTAK_ID = 86659
 local GOTAK = GetSpellInfo(GOTAK_ID)
 function UF:PostUpdateBar_AuraBars(_, statusBar, _, _, _, _, debuffType) -- unit, statusBar, index, position, duration, expiration, debuffType, isStealable
 	local spellID = statusBar.spellID
-	local spellName = statusBar.spell
+	local spellName = statusBar.name
 
 	statusBar.db = self.db
 	statusBar.icon:SetTexCoord(unpack(E.TexCoords))

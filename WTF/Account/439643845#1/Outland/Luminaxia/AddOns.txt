@@ -267,3 +267,6 @@ WorldQuestsList: disabled
 +Wowhead_Looter: disabled
 CamelSpotter: disabled
 DBM-SanctumOfDomination: disabled
+AstralKeys: disabled
+HandyNotes_Stygia: disabled
+PremadeGroupsFilter: disabled

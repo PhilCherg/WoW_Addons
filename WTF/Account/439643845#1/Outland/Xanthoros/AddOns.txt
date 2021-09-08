@@ -69,7 +69,7 @@ WeakAurasModelPaths: disabled
 WeakAurasOptions: disabled
 WeakAurasTemplates: disabled
 ElvUI_Config: enabled
-ElvUI: disabled
+ElvUI: enabled
 DBM-Core: disabled
 DBM-DefaultSkin: enabled
 DBM-GUI: disabled
@@ -138,7 +138,7 @@ ElvUI_AuraBarsMovers: disabled
 ElvUI_CustomTweaks: disabled
 WeakAurasCompanion: enabled
 WeakAurasArchive: disabled
-ElvUI_OptionsUI: disabled
+ElvUI_OptionsUI: enabled
 TomCats: disabled
 TomCats-DarkshoreRares: disabled
 TomCats-Mechagon: disabled

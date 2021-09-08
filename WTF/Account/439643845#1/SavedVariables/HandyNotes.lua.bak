@@ -20,19 +20,19 @@ HandyNotesDB = {
 		["Asdfsadfsadf - Outland"] = "Asdfsadfsadf - Outland",
 		["Bankeristor - Outland"] = "Bankeristor - Outland",
 		["Presentone - Outland"] = "Presentone - Outland",
-		["Adsfasdfasdf - Outland"] = "Adsfasdfasdf - Outland",
-		["Moneyeight - Outland"] = "Moneyeight - Outland",
+		["Necrophagus - Outland"] = "Necrophagus - Outland",
+		["Moneymakerii - Outland"] = "Moneymakerii - Outland",
 		["Asdawdwd - Outland"] = "Asdawdwd - Outland",
-		["Moneyfour - Outland"] = "Moneyfour - Outland",
-		["Asdqaweqwd - Outland"] = "Asdqaweqwd - Outland",
-		["Aasdfasdfd - Outland"] = "Aasdfasdfd - Outland",
+		["Moneythree - Outland"] = "Moneythree - Outland",
 		["Illyana - Outland"] = "Illyana - Outland",
+		["Aasdfasdfd - Outland"] = "Aasdfasdfd - Outland",
+		["Asdqaweqwd - Outland"] = "Asdqaweqwd - Outland",
 		["Asdsaasdf - Outland"] = "Asdsaasdf - Outland",
 		["Chernakotka - Die Aldor"] = "Chernakotka - Die Aldor",
-		["Moneythree - Outland"] = "Moneythree - Outland",
+		["Moneyfour - Outland"] = "Moneyfour - Outland",
 		["Serthaxion - Outland"] = "Serthaxion - Outland",
-		["Moneymakerii - Outland"] = "Moneymakerii - Outland",
-		["Necrophagus - Outland"] = "Necrophagus - Outland",
+		["Moneyeight - Outland"] = "Moneyeight - Outland",
+		["Adsfasdfasdf - Outland"] = "Adsfasdfasdf - Outland",
 		["Elementior - Outland"] = "Elementior - Outland",
 	},
 	["profiles"] = {
@@ -74,31 +74,31 @@ HandyNotesDB = {
 		},
 		["Presentone - Outland"] = {
 		},
-		["Adsfasdfasdf - Outland"] = {
+		["Necrophagus - Outland"] = {
 		},
-		["Moneyeight - Outland"] = {
+		["Moneymakerii - Outland"] = {
 		},
 		["Asdawdwd - Outland"] = {
 		},
-		["Moneyfour - Outland"] = {
+		["Moneythree - Outland"] = {
 		},
-		["Asdqaweqwd - Outland"] = {
+		["Illyana - Outland"] = {
 		},
 		["Aasdfasdfd - Outland"] = {
 		},
-		["Illyana - Outland"] = {
+		["Asdqaweqwd - Outland"] = {
 		},
 		["Asdsaasdf - Outland"] = {
 		},
 		["Chernakotka - Die Aldor"] = {
 		},
-		["Moneythree - Outland"] = {
+		["Moneyfour - Outland"] = {
 		},
 		["Serthaxion - Outland"] = {
 		},
-		["Moneymakerii - Outland"] = {
+		["Moneyeight - Outland"] = {
 		},
-		["Necrophagus - Outland"] = {
+		["Adsfasdfasdf - Outland"] = {
 		},
 		["Elementior - Outland"] = {
 		},
@@ -125,19 +125,19 @@ HandyNotes_HandyNotesDB = {
 		["Asdfsadfsadf - Outland"] = "Asdfsadfsadf - Outland",
 		["Bankeristor - Outland"] = "Bankeristor - Outland",
 		["Presentone - Outland"] = "Presentone - Outland",
-		["Adsfasdfasdf - Outland"] = "Adsfasdfasdf - Outland",
-		["Moneyeight - Outland"] = "Moneyeight - Outland",
+		["Necrophagus - Outland"] = "Necrophagus - Outland",
+		["Moneymakerii - Outland"] = "Moneymakerii - Outland",
 		["Asdawdwd - Outland"] = "Asdawdwd - Outland",
-		["Moneyfour - Outland"] = "Moneyfour - Outland",
-		["Asdqaweqwd - Outland"] = "Asdqaweqwd - Outland",
-		["Aasdfasdfd - Outland"] = "Aasdfasdfd - Outland",
+		["Moneythree - Outland"] = "Moneythree - Outland",
 		["Illyana - Outland"] = "Illyana - Outland",
+		["Aasdfasdfd - Outland"] = "Aasdfasdfd - Outland",
+		["Asdqaweqwd - Outland"] = "Asdqaweqwd - Outland",
 		["Asdsaasdf - Outland"] = "Asdsaasdf - Outland",
 		["Chernakotka - Die Aldor"] = "Chernakotka - Die Aldor",
-		["Moneythree - Outland"] = "Moneythree - Outland",
+		["Moneyfour - Outland"] = "Moneyfour - Outland",
 		["Serthaxion - Outland"] = "Serthaxion - Outland",
-		["Moneymakerii - Outland"] = "Moneymakerii - Outland",
-		["Necrophagus - Outland"] = "Necrophagus - Outland",
+		["Moneyeight - Outland"] = "Moneyeight - Outland",
+		["Adsfasdfasdf - Outland"] = "Adsfasdfasdf - Outland",
 		["Elementior - Outland"] = "Elementior - Outland",
 	},
 	["profiles"] = {
@@ -179,31 +179,31 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Presentone - Outland"] = {
 		},
-		["Adsfasdfasdf - Outland"] = {
+		["Necrophagus - Outland"] = {
 		},
-		["Moneyeight - Outland"] = {
+		["Moneymakerii - Outland"] = {
 		},
 		["Asdawdwd - Outland"] = {
 		},
-		["Moneyfour - Outland"] = {
+		["Moneythree - Outland"] = {
 		},
-		["Asdqaweqwd - Outland"] = {
+		["Illyana - Outland"] = {
 		},
 		["Aasdfasdfd - Outland"] = {
 		},
-		["Illyana - Outland"] = {
+		["Asdqaweqwd - Outland"] = {
 		},
 		["Asdsaasdf - Outland"] = {
 		},
 		["Chernakotka - Die Aldor"] = {
 		},
-		["Moneythree - Outland"] = {
+		["Moneyfour - Outland"] = {
 		},
 		["Serthaxion - Outland"] = {
 		},
-		["Moneymakerii - Outland"] = {
+		["Moneyeight - Outland"] = {
 		},
-		["Necrophagus - Outland"] = {
+		["Adsfasdfasdf - Outland"] = {
 		},
 		["Elementior - Outland"] = {
 		},

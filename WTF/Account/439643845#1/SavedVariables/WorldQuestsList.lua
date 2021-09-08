@@ -50,7 +50,14 @@ VWQL = {
 		},
 		["Filter"] = 63,
 	},
-	["DisableRewardIcons"] = true,
+	["Chernakotka-DieAldor"] = {
+		["VERSION"] = 100,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
 	["Phaltraxion-Outland"] = {
 		["Filter"] = 63,
 		["FilterType"] = {
@@ -59,14 +66,7 @@ VWQL = {
 		},
 		["VERSION"] = 101,
 	},
-	["Luminaxia-Outland"] = {
-		["VERSION"] = 101,
-		["FilterType"] = {
-		},
-		["Quests"] = {
-		},
-		["Filter"] = 63,
-	},
+	["DisableRewardIcons"] = true,
 	["AnchorQCBTop"] = 790.7982177734375,
 	["AzeriteFormat"] = 20,
 	["Necrophagus-Outland"] = {
@@ -74,11 +74,17 @@ VWQL = {
 		["FilterType"] = {
 		},
 		["Quests"] = {
-			[43798] = true,
-			[64531] = true,
-			[64273] = true,
+			[62204] = true,
+			[60585] = true,
 			[43943] = true,
+			[64531] = true,
+			[42797] = true,
 			[45379] = true,
+			[64273] = true,
+			[59705] = true,
+			[43798] = true,
+			[60958] = true,
+			[61667] = true,
 		},
 		["Filter"] = 63,
 	},
@@ -128,8 +134,8 @@ VWQL = {
 	["SortPrio"] = {
 	},
 	["AnchorQCBLeft"] = 803.5293579101562,
-	["Chernakotka-DieAldor"] = {
-		["VERSION"] = 100,
+	["Luminaxia-Outland"] = {
+		["VERSION"] = 101,
 		["FilterType"] = {
 		},
 		["Quests"] = {

@@ -1,0 +1,44 @@
+## Interface: 90100
+## Title: Astral Keys
+## Notes: Keystone Manager for Guilds and Friends
+## Author: Astral
+## Version: 3.44b
+## SavedVariables: AstralKeys, AstralCharacters, AstralKeysSettings, AstralMinimap, AstralAffixes, AstralLists, AstralUnits
+
+Init.lua
+Localization\Localization.lua
+Localization\deDE.lua
+Localization\enUS.lua
+Localization\esES.lua
+Localization\esMX.lua
+Localization\frFR.lua
+Localization\itIT.lua
+Localization\koKR.lua
+Localization\ptBR.lua
+Localization\ruRU.lua
+Localization\zhCN.lua
+Localization\zhTW.lua
+
+embeds.xml
+fonts.xml
+Events.lua
+Tables.lua
+Settings.lua
+Communications.lua
+
+Lists.lua
+Lists\Lists.lua
+Lists\Friends.lua
+Lists\Guild.lua
+
+Affixes.lua
+Unit Information.lua
+Character Info.lua
+Dungeons.lua
+Key Information.lua
+
+AstralKeys.lua
+Frame Functions.lua
+Frame.xml
+MinimapButton.lua
+Options.lua

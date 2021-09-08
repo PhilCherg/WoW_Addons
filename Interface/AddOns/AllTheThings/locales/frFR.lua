@@ -187,6 +187,7 @@ local L = app.L;
 	--TODO: L.CACHED_RECIPES_2 = " known recipes!";
 	--TODO: L.WORLD_QUESTS = "World Quests";
 	--TODO: L.WORLD_QUESTS_DESC = "These are World Quests and other time-limited Things that are currently available somewhere. Go get 'em!";
+	--TODO: L.QUESTS_DESC = "Shows all possible QuestID's in the game in ascending numeric order.";
 	--TODO: L.UPDATE_WORLD_QUESTS = "Update World Quests Now";
 	--TODO: L.UPDATE_WORLD_QUESTS_DESC = "Sometimes the World Quest API is slow or fails to return new data. If you wish to forcibly refresh the data without changing zones, click this button now!\n\nAlt + Click to include currently-available Things which may not be time-limited";
 	--TODO: L.CLEAR_WORLD_QUESTS = "Clear World Quests";
@@ -453,6 +454,8 @@ local L = app.L;
 	-- Features tab
 		--TODO: L.FEATURES_TAB = "Features";
 		--TODO: L.MODULES_LABEL = "Modules & Mini Lists";
+		--TODO: L.ADHOC_UPDATES_CHECKBOX = "Use Ad-Hoc Window Updates";
+		--TODO: L.ADHOC_UPDATES_CHECKBOX_TOOLTIP = "Enable this option if you want only visible ATT windows to be updated.\n\nThis can greatly reduce loading times and prevent large framerate spikes in some situations.";
 		--TODO: L.SKIP_CUTSCENES_CHECKBOX = "Automatically Skip Cutscenes";
 		--TODO: L.SKIP_CUTSCENES_CHECKBOX_TOOLTIP = "Enable this option if you want ATT to automatically skip all cutscenes on your behalf.";
 		--TODO: L.AUTO_BOUNTY_CHECKBOX = "Automatically Open the Bounty List";
@@ -636,7 +639,6 @@ for key,value in pairs({
 		--TODO: [-55] = "Pirates' Day",
 		--TODO: [-59] = "Day of the Dead",
 		--TODO: [-62] = "Stranglethorn Fishing Extravaganza",
-		--TODO: [-65] = GetSpellInfo(190357).." "..select(1,GetCategoryInfo(15268)),-- Blizzard Promotions
 		--TODO: [-72] = "Sargerei War Council",
 		--TODO: [-78] = "Timed Event",
 		--TODO: [-79] = "First Chest",
@@ -739,24 +741,23 @@ for key,value in pairs({
 		--TODO: [-526] = "Legion: Legion Invasion",
 		--TODO: [-527] = "Battle for Azeroth: War of the Thorns",
 		--TODO: [-528] = "Broken Isles",							-- Broken Isles [Mole Machine]
-		--TODO: [-531] = "2008 Spirit of Competition Event",
-		--TODO: [-532] = "Heroes of the Storm Promotion",
-		--TODO: [-533] = "Hearthstone Promotion",
+		--TODO: [-531] = "Spirit of Competition",
+		--TODO: [-532] = "Heroes of the Storm",
+		--TODO: [-533] = "Hearthstone",
 		--TODO: [-534] = "Collector's Edition",
 
-		--TODO: [-538] = "Diablo 20th Anniversary Promotion",
+		--TODO: [-537] = "Diablo 20th Anniversary",
+		--TODO: [-538] = "The Ahn'Qiraj War Effort",
 		--TODO: [-539] = "The Scepter of the Shifting Sands",
 		--TODO: [-540] = "The Scourge Invasion",
+		--TODO: [-541] = "The Silithyst Must Flow",
+		[-542] = "L'ouverture de la Porte des ténèbres",
 		--TODO: [-543] = "Legion Invasions",
 		--TODO: [-544] = "WoW Collector's Edition",
-		--TODO: [-547] = "EU Only",
-		--TODO: [-548] = "China Only",
-		--TODO: [-549] = "Korea Only",
 		--TODO: [-550] = "Starcraft Collector's Edition",
 		--TODO: [-551] = "Diablo Collector's Edition",
 		--TODO: [-556] = "Arena Tournament",
-
-		--TODO: [-563] = "Azeroth's Choppers",
+		[-579] = "Passe Porte des ténèbres",
 
 	-- PvP Header
 		-- Special Season Tags
@@ -1234,6 +1235,7 @@ for key,value in pairs({
 	[179697] = "Coffre au trésor de l'arène",	-- Arena Treasure Chest
 	[179827] = "Avis de recherche / Disparu / Trouvé & Perdu",	-- Wanted/Missing/Lost & Found
 	[179832] = "Oreiller brodé de Pincetaie",	-- Pillaclencher's Ornate Pillow
+	[180229] = "Pile de déchets",	-- Jinxed Hoodoo Pile
 	--TODO: [180327] = "Brazier of Madness",	-- Brazier of Madness
 	[180366] = "Boîte d'appâts abîmée",	-- Battered Tackle Box
 	[180368] = "Tablette de la folie",	-- Tablet of Madness
@@ -1244,6 +1246,7 @@ for key,value in pairs({
 	[180503] = "Livre de cuisine sableux",	-- Sandy Cookbook
 	[180633] = "Larme cristalline",	-- Crystalline Tear
 	[180642] = "Caisse anodine",	-- Inconspicuous Crate
+	[180652] = "Terre fraîchement remuée",	-- Freshly Dug Dirt
 	[180690] = "Grand coffre de scarabées",	-- Large Scarab Coffer
 	[180691] = "Coffre de scarabées",	-- Scarab Coffer
 	[180717] = "Le gong du Scarabée",	-- The Scarab Gong	--TODO: This was taken from classic Wowhead
@@ -1849,6 +1852,7 @@ for key,value in pairs({
 	[233658] = "Bourse de l’aventurier",	-- Adventurer's Pouch
 	[233696] = "Fournitures d’exploration importantes",	-- Important Exploration Supplies
 	[233697] = "Planque de sabron",	-- Saberon Stash
+	[233715] = "Butin d’Orpion",	-- Goldtoe's Plunder
 	[233773] = "Sac d’herbes",	-- Bag of Herbs
 	[233792] = "Pile de débris",	-- Pile of Rubble
 	[233917] = "Fémur d’improbabilité",	-- Femur of Improbability
@@ -1939,6 +1943,7 @@ for key,value in pairs({
 	[236406] = "Ancienne cache ogre",	-- Ancient Ogre Cache
 	[236407] = "Ancienne cache ogre",	-- Ancient Ogre Cache
 	[236483] = "Présent des anciens",	-- Gift of the Ancients
+	[236610] = "Présent de l’esprit",	-- Spirit's Gift
 	[236693] = "Munitions de la Horde de Fer",	-- Iron Horde Munitions
 	[236715] = "Crâne étrange",	-- Odd Skull
 	[236755] = "Coffret poussiéreux",	-- Dusty Lockbox
@@ -1952,6 +1957,7 @@ for key,value in pairs({
 	[239194] = "Cache de Norana",	-- Norana's Cache
 	[239198] = "Cache d’Isaari",	-- Isaari's Cache
 	[239328] = "Coffre du capitaine",	-- Captain's Foot Locker
+	[239791] = "Notes de chasse aux reliques",	-- Relic Hunting Notes
 	[239803] = "Coffre au trésor",	-- Treasure Chest
 	[239828] = "Frontière du réel",	-- Edge of Reality
 	[239901] = "Œuf de serre du Vide",	-- Voidtalon Egg
@@ -2702,7 +2708,7 @@ for key,value in pairs({
 	[329641] = "Avis de recherche : Cachal et Troggeur",	-- Wanted: Junkbrat and Roadtrogg
 	[329783] = "Malle arcanique luisante",	-- Glowing Arcane Trunk
 	[329805] = "Cristal étrange",	-- Strange Crystal
-	[329918] = "Trésors hurans",	-- Quilboar Treasure
+	[329918] = "Trésors hurans",	-- Quilboar Treasures
 	[329919] = "Fournitures volées",	-- Stolen Supplies
 	[330627] = "Panneau d’avertissement",	-- Danger Sign
 	[332220] = "Malle arcanique luisante",	-- Glowing Arcane Trunk

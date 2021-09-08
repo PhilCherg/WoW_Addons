@@ -94,6 +94,7 @@ Pour plus d'information sur la Personnalisation de Pawn, regarder le fichier d'a
 		["CritInfo"] = "Coup critique. Augmente vos chances d'avoir une efficacité supplémentaire pour les attaques et les soins.",
 		["DefenseInfo"] = "Defense skill.  Decreases the chance that you'll be hit by boss attacks.",
 		["DodgeInfo"] = "Dodge.  Increases the chance that you'll dodge attacks entirely.",
+		["DominationSocketInfo"] = "La valeur d'un socket pour un fragment de domination moyen.",
 		["DpsInfo"] = "Valeur de dégats par secondes de l'arme. (si vous désirez différentes estimations pour différents types d'armes, référez-vous à la section \"statistiques spéciale arme\".)",
 		--[[Translation missing --]]
 		["ExpertiseInfo"] = "Expertise. Negates your enemy's chances to dodge and parry.",
@@ -347,6 +348,7 @@ Pour plus d'information sur la Personnalisation de Pawn, regarder le fichier d'a
 		["HitRatingShort"] = "^%+?# au score de toucher$",
 		["HolySpellDamage"] = "^%+# aux dégâts des sorts du Sacré$",
 		["HolySpellDamage2"] = "^E?\195?\137?quipé : Augmente les dégâts infligés par les sorts et effets du Sacré de # au maximum%.$",
+		["HolySpellDamage3"] = "^E?\195?\137?quipé : Augmente de # au maximum les dégâts infligés par les sorts et effets du Sacré%.$",
 		["Hp5"] = "^%+?# [pP]oints de [vV]ie [tT]outes les 5 [sS]%.?$",
 		["Hp52"] = "^E?\195?\137?quipé : Reconstitue # de vie par 5 sec%.$",
 		["Hp53"] = "^%+?# [pP]oints de [vV]ie [tT]outes les 5 [sS]ec%.?$",

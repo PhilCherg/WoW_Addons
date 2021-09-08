@@ -85,6 +85,11 @@ E.StyleFilterDefaults = {
 			healer = false,
 			damager = false
 		},
+		faction = {
+			Alliance = false,
+			Horde = false,
+			Neutral = false,
+		},
 		unitRole = {
 			tank = false,
 			healer = false,
@@ -205,7 +210,7 @@ E.StyleFilterDefaults = {
 			zoneNamesEnabled = false,
 			zoneNames = {},
 			subZoneNamesEnabled = false,
-			subZoneNames = {},
+			subZoneNames = {}
 		},
 		keyMod = {
 			enable = false,
@@ -241,24 +246,30 @@ E.StyleFilterDefaults = {
 			}
 		},
 		cooldowns = {
-			names = {},
-			mustHaveAll = false
+			mustHaveAll = false,
+			names = {}
 		},
 		buffs = {
 			mustHaveAll = false,
 			missing = false,
-			names = {},
 			minTimeLeft = 0,
 			maxTimeLeft = 0,
 			hasStealable = false,
-			hasNoStealable = false
+			hasNoStealable = false,
+			names = {}
 		},
 		debuffs = {
 			mustHaveAll = false,
 			missing = false,
-			names = {},
 			minTimeLeft = 0,
-			maxTimeLeft = 0
+			maxTimeLeft = 0,
+			names = {}
+		},
+		bossMods = {
+			hasAura = false,
+			missingAura = false,
+			missingAuras = false,
+			auras = {}
 		},
 		isResting = false,
 		isPet = false,
@@ -294,8 +305,11 @@ E.StyleFilterDefaults = {
 			health = false,
 			power = false,
 			border = false,
+			healthClass = false,
 			healthColor = {r = 1, g = 1, b = 1, a = 1},
+			powerClass = false,
 			powerColor = {r = 1, g = 1, b = 1, a = 1},
+			borderClass = false,
 			borderColor = {r = 1, g = 1, b = 1, a = 1}
 		},
 		texture = {
@@ -304,6 +318,7 @@ E.StyleFilterDefaults = {
 		},
 		flash = {
 			enable = false,
+			class = false,
 			color = {r = 1, g = 1, b = 1, a = 1},
 			speed = 4
 		},

@@ -429,6 +429,7 @@ if AL then
 	AL["SOUND_OPTIONS"] = "소리 옵션"
 	AL["SOUND_VOLUME"] = "음량"
 	AL["SOUND_VOLUME_DESC"] = "음량을 설정합니다."
+	AL["STOLEN_ANIMA_VESSEL"] = "도둑맞은 령 용기"
 	AL["TEST"] = "테스트 시작"
 	AL["TEST_DESC"] = "알림 예제를 표시하려면 버튼을 누르세요. 패널을 다른 위치로 드래그 앤 드롭할 수 있습니다."
 	AL["TOC_NOTES"] = "미니맵 스캐너. 매번 희귀 NPC, 보물/상자 또는 이벤트를 소리와 함께 시각적으로 미니 맵에 표시하여 알립니다."

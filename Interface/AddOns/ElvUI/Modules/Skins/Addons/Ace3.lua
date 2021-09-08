@@ -145,7 +145,7 @@ function S:Ace3_RegisterAsWidget(widget)
 		local checkbg = widget.checkbg
 		local highlight = widget.highlight
 
-		checkbg:CreateBackdrop(nil, nil, nil, nil, nil, nil, nil, true)
+		checkbg:CreateBackdrop(nil, nil, nil, nil, nil, nil, nil, nil, true)
 		checkbg.backdrop:SetInside(widget.checkbg, 4, 4)
 
 		checkbg:SetTexture()
@@ -201,7 +201,7 @@ function S:Ace3_RegisterAsWidget(widget)
 		local text = frame.text
 
 		frame:StripTextures()
-		frame:CreateBackdrop(nil, nil, nil, nil, nil, nil, nil, true)
+		frame:CreateBackdrop(nil, nil, nil, nil, nil, nil, nil, nil, true)
 		frame.backdrop:Point('TOPLEFT', 0, -21)
 		frame.backdrop:Point('BOTTOMRIGHT', -4, -1)
 
@@ -386,12 +386,12 @@ function S:Ace3_RegisterAsContainer(widget)
 			S:HandleCloseButton(frame.obj.closebutton)
 		end
 
+
+		frame:SetTemplate('Transparent')
+
 		if TYPE == 'InlineGroup' then -- 'Window' is another type
-			frame:SetTemplate('Transparent')
 			frame.callbackBackdropColor = S.Ace3_BackdropColor
 			S.Ace3_BackdropColor(frame)
-		else
-			frame:SetTemplate('Transparent')
 		end
 
 		if widget.treeframe then
@@ -415,10 +415,16 @@ function S:Ace3_RegisterAsContainer(widget)
 			S:HandleScrollBar(widget.scrollbar)
 		end
 	elseif TYPE == 'SimpleGroup' then
-		local frame = widget.content:GetParent()
+		local content = widget.content
+
+		local frame = content:GetParent()
 		frame:SetTemplate('Transparent')
 		frame.callbackBackdropColor = S.Ace3_BackdropColor
 		S.Ace3_BackdropColor(frame)
+
+		content:ClearAllPoints()
+		content:SetPoint('TOPLEFT', 6, 2)
+		content:SetPoint('BOTTOMRIGHT', -6, 2)
 	end
 
 	if widget.sizer_se then
