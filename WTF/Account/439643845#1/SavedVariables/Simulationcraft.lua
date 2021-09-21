@@ -7,6 +7,9 @@ SimulationCraftDB = {
 	},
 	["profiles"] = {
 		["Illyana - Outland"] = {
+			["minimap"] = {
+				["minimapPos"] = 209.9586573639202,
+			},
 		},
 		["Barbaxius - Outland"] = {
 		},

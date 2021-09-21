@@ -1,10 +1,50 @@
-lightweight tag 459bd01de657f9efa2f6607e0845446d14e27793 v202102060600
+lightweight tag e7765306857d0fa2a17c217c16592f8530c9d4da v202109130600
 Author:	Jah Raphael <jahraphael@yahoo.com>
-Date:	Sat Feb 6 06:55:59 2021 +0000
+Date:	Mon Sep 13 07:11:07 2021 +0000
 
-commit 459bd01de657f9efa2f6607e0845446d14e27793
+commit e7765306857d0fa2a17c217c16592f8530c9d4da
 Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Sat Feb 6 06:55:59 2021 +0000
+Date:   Mon Sep 13 07:11:07 2021 +0000
 
     [Raider.IO] Database Refresh
+
+commit b5b285c01fbd0333e04fba59f2be245b4dea6f0f
+Author: Jah Raphael <jahraphael@yahoo.com>
+Date:   Sun Sep 12 16:24:38 2021 -0500
+
+    re-added ns.raids after merge issue
+
+commit b5b285c01fbd0333e04fba59f2be245b4dea6f0f
+Author: Jah Raphael <jahraphael@yahoo.com>
+Date:   Sun Sep 12 16:24:38 2021 -0500
+
+    re-added ns.raids after merge issue
+
+commit 99d027119432b858c0a553e12393041617f13433
+Author: Jah Raphael <jahraphael@yahoo.com>
+Date:   Sun Sep 12 16:11:25 2021 -0500
+
+    removed some unused strings
+
+commit 99d027119432b858c0a553e12393041617f13433
+Author: Jah Raphael <jahraphael@yahoo.com>
+Date:   Sun Sep 12 16:11:25 2021 -0500
+
+    removed some unused strings
+
+commit ba46dfa82208db6ab0453e9ad767822965e3179b
+Author: Jah Raphael <jahraphael@yahoo.com>
+Date:   Sun Sep 12 12:04:18 2021 -0500
+
+    fix off-by-one on season label so it is consistent with live version
+
+commit 18b3fb3c3e5a7f163dcdb05d0b25bc9da22cea40
+Author: Jah Raphael <jahraphael@yahoo.com>
+Date:   Sun Sep 12 06:56:36 2021 -0500
+
+    Misc fixes for GetSeasonLabel
+    
+    - GetSeasonLabel returns a formatted label again
+    
+    - Fixed off by one for main's score season id
 

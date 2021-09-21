@@ -83,6 +83,10 @@ END
 VER 3 0000000000000011 "Sit" "136172"
 /sit
 END
+VER 3 000000000000003C "SouthCorruption" "413591"
+/targetenemy [noexists][dead]
+/cast Corruption
+END
 VER 3 000000000000003A "SylvanasPrioHC" "136103"
 /cleartarget
 /tar Mawforged Souljudge

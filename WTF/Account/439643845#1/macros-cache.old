@@ -76,7 +76,7 @@ VER 3 0000000000000018 "Riptide" "252995"
 /use [@mouseover, exists] Riptide
 END
 VER 3 0000000000000039 "Shemi SS" "136210"
-/tar Shemi
+/tar Eluith
 /cast Soulstone
 /say SS on Shemi up :D
 END

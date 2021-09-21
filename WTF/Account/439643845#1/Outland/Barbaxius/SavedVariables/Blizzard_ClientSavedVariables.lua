@@ -32,10 +32,10 @@ TEXTTOSPEECH_CONFIG = {
 	},
 	["alternateSystemVoice"] = true,
 	["addCharacterNameToSpeech"] = true,
-	["speechVolume"] = 100,
+	["narrateMyMessages"] = false,
 	["playSoundSeparatingChatLineBreaks"] = true,
 	["speechRate"] = 0,
-	["narrateMyMessages"] = false,
+	["speechVolume"] = 100,
 	["enabledChannelTypes"] = {
 	},
 }

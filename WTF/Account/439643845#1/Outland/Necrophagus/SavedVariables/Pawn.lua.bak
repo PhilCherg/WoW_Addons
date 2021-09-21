@@ -1,6 +1,9 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0527,
+	["LastVersion"] = 2.0528,
+	["LastPlayerFullName"] = "Necrophagus-Outland",
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 186325,
@@ -8,9 +11,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:186325::::::::60:267::3:4:7189:6652:1472:6646:1:28:2044:::::|h[Veil of the Banshee Queen]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 186378,
-			["Level"] = 239,
-			["Link"] = "|cffa335ee|Hitem:186378::::::::60:267::5:5:7188:6652:7574:1485:6646::::::|h[Weathered Talisman of the Shadowmoon]|h|r",
+			["ID"] = 178827,
+			["Level"] = 242,
+			["Link"] = "|cffa335ee|Hitem:178827::::::::60:267::33:6:7359:6652:7575:7619:1556:6646:1:28:1279:::::|h[Sin Stained Pendant]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 186286,
@@ -49,16 +52,16 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:186288::::::::60:267::5:4:7188:6652:1485:6646::::::|h[Grasps of the Clairvoyant Sage]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 186290,
-			["Level"] = 239,
+			["ID"] = 186377,
+			["Level"] = 246,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:186290::::::::60:267::5:5:7188:6652:7574:1485:6646:1:28:2105:::::|h[Sworn Oath of the Nine]|h|r",
+			["Link"] = "|cffa335ee|Hitem:186377::::::::60:267::5:5:7188:6652:7574:1485:6646:1:28:2044:::::|h[Tarnished Insignia of Quel'Thalas]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 186290,
-			["Level"] = 239,
+			["ID"] = 186377,
+			["Level"] = 246,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:186290:6166:::::::60:267::5:5:7188:6652:7574:1485:6646:1:28:2105:::::|h[Sworn Oath of the Nine]|h|r",
+			["Link"] = "|cffa335ee|Hitem:186377::::::::60:265::5:5:7188:6652:7574:1485:6646:1:28:2044:::::|h[Tarnished Insignia of Quel'Thalas]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 186428,
@@ -67,10 +70,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:186428::::::::60:267::5:4:7188:6652:1485:6646:1:28:2105:::::|h[Shadowed Orb of Torment]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 187447,
-			["Level"] = 233,
+			["ID"] = 186428,
+			["Level"] = 239,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cffa335ee|Hitem:187447::::::::60:267::81:3:6652:1479:6646:1:28:2043:::::|h[Soul Cage Fragment]|h|r",
+			["Link"] = "|cffa335ee|Hitem:186428::::::::60:266::5:4:7188:6652:1485:6646:1:28:2105:::::|h[Shadowed Orb of Torment]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 179349,
@@ -84,14 +87,13 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:186385:6229:::::::60:267::5:4:7188:6652:1485:6646:1:28:2105:::::|h[Signe's Sonorous Scramaseax]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 186418,
-			["Level"] = 226,
-			["Link"] = "|cffa335ee|Hitem:186418::::::::60:267::3:4:7189:6652:1472:6646:1:28:2104:::::|h[Guarm's Lost Chew Toy]|h|r",
+			["ID"] = 186385,
+			["Level"] = 239,
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cffa335ee|Hitem:186385:6229:::::::60:266::5:4:7188:6652:1485:6646:1:28:2105:::::|h[Signe's Sonorous Scramaseax]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Necrophagus-Outland",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128941] = {
 			["Relics"] = {
@@ -133,7 +135,6 @@ PawnOptions = {
 			["Name"] = "Underlight Angler",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "WARLOCK",

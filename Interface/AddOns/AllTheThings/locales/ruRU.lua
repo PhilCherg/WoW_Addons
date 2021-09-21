@@ -402,7 +402,9 @@ local L = app.L;
 		L.COORDINATES_CHECKBOX = "Координаты";
 		L.COORDINATES_CHECKBOX_TOOLTIP = "Включите данную опцию, если Вы хотите видеть координаты в подсказке, когда наводите на элементы в мини списке.";
 		L.DESCRIPTIONS_CHECKBOX = "Описания";
-		L.DESCRIPTIONS_CHECKBOX_TOOLTIP = "Включите данную опцию, если Вы хотите видеть описания в подсказках. Может включать описывающий текст из Путеводителя или дополнительное описание, добавленное одним из авторов аддона, который решил, что дополнительная информация будет необходимой.\n\nВозможно, Вы захотите оставить опцию включенной.";
+		L.DESCRIPTIONS_CHECKBOX_TOOLTIP = "Включите данную опцию, если Вы хотите видеть описания в подсказках. Может включать дополнительное описание, добавленное одним из авторов аддона, который решил, что дополнительная информация будет необходимой.\n\nВозможно, Вы захотите оставить опцию включенной.";
+		L.LORE_CHECKBOX = "Лор";
+		L.LORE_CHECKBOX_TOOLTIP = "Включите данную опцию, если Вы хотите видеть лор в подсказках. Может включать текст из Путеводителя по подземельям или описание от авторов аддона.";
 		L.KNOWN_BY_CHECKBOX = "Изучено";
 		L.KNOWN_BY_CHECKBOX_TOOLTIP = "Включите данную опцию, если Вы хотите видеть в подсказке полный список персонажей на всех серверах, которые изучили данный рецепт.";
 		L.SHOW_MODELS_CHECKBOX = "Предпоказ";
@@ -455,7 +457,7 @@ local L = app.L;
 	-- Features tab
 		L.FEATURES_TAB = "Особенности";
 		L.MODULES_LABEL = "Модули и Мини Списки";
-		L.ADHOC_UPDATES_CHECKBOX = "Обновлять тольк видимые окна";
+		L.ADHOC_UPDATES_CHECKBOX = "Обновлять только видимые окна";
 		L.ADHOC_UPDATES_CHECKBOX_TOOLTIP = "Включите данную опцию, если Вы хотите обновлять только открытые окна ATT.\n\nЭта опция может серьёзно ускорить загрузку и предотвратить фризы в некоторых ситуациях.";
 		L.SKIP_CUTSCENES_CHECKBOX = "Авто Пропуск Сцен";
 		L.SKIP_CUTSCENES_CHECKBOX_TOOLTIP = "Включите данную опцию, если Вы хотите, чтобы ATT автоматичски пропускал все внутриигровые сцены.";
@@ -471,8 +473,8 @@ local L = app.L;
 		L.AUTO_RAID_ASSISTANT_CHECKBOX_TOOLTIP = "Включите данную опцию, если Вы хотите, чтобы ATT автоматически открывал альтернативное окно для управления настройками группы/рейда под названием 'Рейдовый Помощник'. Список автоматически обновляется, когда настройки группы меняются.\n\nВы также можете назначить клавишу для данной настройки:\n\nНазначение Клавиш -> Модификации -> ALL THE THINGS -> Переключить Рейдового Помощника\n\nБыстрая Команда: /attra";
 		L.AUTO_WQ_LIST_CHECKBOX = "Авто Открывать Локальные Задания";
 		L.AUTO_WQ_LIST_CHECKBOX_TOOLTIP = "Включите данную опцию, если Вы хотите, чтобы ATT автоматически открывал Список 'Локальных Заданий'. Этот список автоматически обновляется, когда Вы меняете локацию.\n\nВы также можете назначить клавишу для данной настройки:\n\nНазначение Клавиш -> Модификации -> ALL THE THINGS -> Переключить Локальные Задания\n\nБыстрая Команда: /attwq";
-		L.CURRENCIES_IN_WQ_CHECKBOX = "Считать Валюту Контейнерами";
-		L.CURRENCIES_IN_WQ_CHECKBOX_TOOLTIP = "Включите данную опцию, если Вы хотите считать валюту за Локальные Задания, как если бы все Штучки, на которые она расходуется, считались +1 в списке.";
+		L.CURRENCIES_IN_WQ_CHECKBOX = "Считать Валюту собираемой";
+		L.CURRENCIES_IN_WQ_CHECKBOX_TOOLTIP = "Включите данную опцию, если Вы хотите считать валюту/предметы, которые можно использовать для получения собираемых Штучек, тоже считать собираемыми в наградах Заданий.";
 		L.AUCTION_TAB_CHECKBOX = "Показать Модуль Ауциона";
 		L.AUCTION_TAB_CHECKBOX_TOOLTIP = "Включите данную опцию, если Вы хотите видеть Модуль Аукциона ATT.\n\nНекоторые модификации - плохие ребята, и значительно изменяют это окно. ATT не всегда хорошо играет с такими игрушками.";
 		L.SORT_BY_PROGRESS_CHECKBOX = "Сортировать по Прогрессу";
@@ -600,7 +602,6 @@ for key,value in pairs({
 		[-1] = "Общая добыча с боссов",							-- Common Boss Drop
 		[-5] = "Просеивание",
 		[-7] = "Мировые Боссы",									-- World Bosses
-		[-10] = "Синхронизация Группы",							-- Party Sync
 		[-11] = "Обычная добыча из Сундуков",					-- Common Box Drops
 		[-12] = DUNGEON_FLOOR_DIREMAUL5.." [Восток - Демоны]",	-- Warpwood Quarter [East - Demon]
 		[-13] = DUNGEON_FLOOR_DIREMAUL1.." [Север - Огры]",		-- Gordok Commons [North - Ogres]
@@ -635,19 +636,14 @@ for key,value in pairs({
 		[-88] = "Собор",
 		[-90] = "Элитный",										-- Elite
 		[-93] = "Силитус (Рана)",
-		[-94] = "Аукцион Черного Рынка",						-- Black Market Auction House
 	-- TODO: Garrison Note: These will be changed into a new class soon(TM)
 		--[-99] = select(2,C_Garrison.GetBuildingInfo(65)),		-- Stables
 		[-99] = "Строения",
-		[-101] = "Спутники",
 	-- Alliance [Swaps based on faction ONLY after a reloadui]
 		[-130] = "Сумеречный лес - активен",						-- Duskwood Active
 		[-131] = "Внутренние земли - активен",						-- The Hinterlands Active
 		[-132] = "Фералас - активен",								-- Feralas Active
 		[-133] = "Сумеречный лес - активирован",					-- Duskwood Activated
-	-- Invasions TODO: what levels?
-		[-137] = "90-й Уровень",									-- Level 90
-		[-138] = "100-й Уровень",									-- Level 100
 	-- Class Trial Sets
 		[-140] = "Общинные",
 		[-141] = "Оскверненная душа",
@@ -677,29 +673,16 @@ for key,value in pairs({
 		[-218] = "Побережье",										-- Coastal (for Fishing)
 		[-224] = "Иллидари",										-- Illidari
 		[-228] = "Точка полета",									-- GetSpellInfo(218950),  -- Flight Path
-		[-236] = "Военная кампания Альянса",						-- Alliance War Campaign
 		[-242] = "Нерейтинговые",									-- Unrated
 		[-243] = "Премия",											-- Bounty
-		[-244] = "Дворф Черного железа",							-- Dark Iron Dwarf
-		[-245] = "Орк Маг'хар",										-- Mag'har Orc
-		[-246] = "...то другому прибыль",							-- Is Another Man's Treasure
-		[-247] = "Богатства Пандарии",								-- Riches of Pandaria
-		[-251] = "Зандаларский Тролль",								-- Zandalari Troll
-		[-252] = "Култирасец",										-- Kul Tiran
-		[-253] = "Военная кампания Орды",							-- Horde War Campaign
-		[-254] = "Традиционные доспехи",							-- Heritage Armor
-		[-255] = "Вульпер",
-		[-256] = "Мехагном",
+		[-254] = "Союзные расы & Традиционные доспехи",				-- Allied Races & Heritage
 	-- Other
-		[-351] = "Добыча с Босса",									-- Boss Drop
 		[-356] = "Атака на Темный портал",
 		[-361] = "Артиллерийная башня",								-- Artillery Tower
-		[-362] = "Пик Безмятежности",								-- Peak of Serenity
 		[-364] = "Легендарные предметы",							-- Legendaries
 		[-366] = "Наборы оружия",									-- Weapons Sets
 	-- Dungeon/Raid Wing Info
 		[-379] = "Свалка",											-- Junkyard
-		[-380] = "Мастерская",										-- Workshop
 		[-388] = "Главные ворота",									-- Main Gate (Stratholme)
 		[-389] = "Вход для слуг",									-- Service Entrance (Stratholme)
 		[-390] = "Контрабандный путь",								-- Smuggler's Den (Spires of Arak)
@@ -715,7 +698,6 @@ for key,value in pairs({
 	-- Lucetia Note: Leave these for now, some may be swapped to achieves instead.
 		[-488] = "Трофейный сундук",								-- Daily War Chest
 		[-491] = "Карты таро",
-		[-498] = "Круговерть Пустоты",								-- Twisting Nether (Demon Hunter Order Hall advancement)
 
 		[-520] = "Препатч",
 		[-521] = "Burning Crusade: Открытие Темного портала",
@@ -724,11 +706,10 @@ for key,value in pairs({
 		[-525] = "Warlords of Draenor: Вторжение Железной Орды",
 		[-526] = "Legion: Вторжение Легиона",
 		[-527] = "Battle for Azeroth: Война Шипов",
-		[-528] = "Расколотые острова",								-- Broken Isles [Mole Machine]
-		[-531] = "2008 событие Дух соперничества",
 		[-532] = "Heroes of the Storm",
 		[-533] = "Hearthstone",
 		[-534] = "Коллекционное издание",
+		[-536] = "Hearthstone Наемники",
 
 		[-537] = "20-ая годовщина Diablo",
 		[-538] = "Война в Ан'Кираже",
@@ -786,9 +767,9 @@ for key,value in pairs({
 	-- Secret Header [Maybe need to change the numbers again when I need more space for PvP -- sadidorf]
 	[-806] = "Часовой пояс",									-- Waist of Time
 
-	-- Mechagon
+	-- Chests
 		[-850] = "Механизированный сундук",							-- Mechanized Chest
-		[-851] = "Сейф братства Стальных Волн",						-- Irontide Chest
+		[-851] = "Тайник Темной Империи",							-- Black Empire Cache
 
 	-- 8.2 Neck Stuff
 		[-853] = "Все роли",										-- All Roles
@@ -802,13 +783,9 @@ for key,value in pairs({
 		[-861] = "Ранг 4",											-- Rank 4
 
 	-- Shadowlands Header
-		[-900] = "Обитель Ковенанта",								-- Covenant Sanctum
 		[-903] = "Добыча локации",									-- Zone Rewards
-		[-904] = "Гнев Тюремщика",									-- Wrath of the Jailer
-		[-905] = "Командирский стол",								-- Command Table
 		[-906] = "1-й уровень: Тактическое мышление",				-- Tier 1: Tactical Insight
-		[-907] = "Мертвая Бланчи",									-- Dead Blanchy
-		[-908] = "Награды",											-- Rewards
+		[-907] = "Мертвая Савраска",								-- Dead Blanchy
 		[-909] = "Охота: элементали смерти",						-- Hunt: Death Elementals
 		[-910] = "Охота: пожиратели душ",							-- Hunt: Alpha Devourers
 		[-911] = "Охота: темные гончие",							-- Hunt: Shadehounds
@@ -816,29 +793,23 @@ for key,value in pairs({
 		[-913] = "Мучители из Торгаста",							-- Tormentors of Torghast
 		[-914] = "Приключения",										-- Adventures
 		[-915] = "Проводник анимы",									-- Anima Conductor
-		[-916] = "1-й уровень: Растущая паутина",					-- Tier 1: Flowing Tendrils
-		[-917] = "2-й уровень: Тянущиеся нити",						-- Tier 2: Streaming Threads
-		[-918] = "3-й уровень: Текущая энергия",					-- Tier 3: Flowing Power
-		[-919] = "Ночная кобыла",									-- Night Mare
+		[-916] = string.format(COVENANT_SANCTUM_TIER, 1)..": Растущая паутина",	-- Tier 1: Flowing Tendrils
+		[-917] = string.format(COVENANT_SANCTUM_TIER, 2)..": Тянущиеся нити",-- Tier 2: Streaming Threads
+		[-918] = string.format(COVENANT_SANCTUM_TIER, 3)..": Текущая энергия",	-- Tier 3: Flowing Power
 		[-977] = "Маэли Странница",									-- Maelie the Wanderer
 		[-979] = "Брокер Ве'кен & Брокер Ве'нотт",					-- Broker Ve'ken & Broker Ve'nott
 		[-980] = "Общие Сокровища",									-- Shared Treasures
 
 		-- SL Maldraxxus/Necrolord
-			[-920] = "Ковенант: Некролорды",						-- Covenant: Necrolord
 			[-921] = "Улучшения для Обители",						-- Sanctum Upgrades (Necrolord)
-			[-922] = "Театр Боли",									-- Theater of Pain
-			[-923] = "Фабрика Поганищ",								-- Abomination Factory (Necrolord)
 			[-924] = "Транспортная Сеть",							-- Transport Network (Necrolord)
-			[-925] = "1-й уровень: Собери себе друга",				-- Abomination Factory (Necrolord) Tier 1
-			[-926] = "2-й уровень: А теперь добавим ножек",			-- Abomination Factory (Necrolord) Tier 2
-			[-927] = "3-й уровень: Встань и живи",					-- Abomination Factory (Necrolord) Tier 3
-			[-928] = "4-й уровень: Кованые друзья",					-- Abomination Factory (Necrolord) Tier 4
-			[-938] = "5-й уровень: Лучшие друзья навсегда",			-- Abomination Factory (Necrolord) Tier 5
+			[-925] = string.format(COVENANT_SANCTUM_TIER, 1)..": Собери себе друга",	-- Abomination Factory (Necrolord) Tier 1
+			[-926] = string.format(COVENANT_SANCTUM_TIER, 2)..": А теперь добавим ножек",	-- Abomination Factory (Necrolord) Tier 2
+			[-927] = string.format(COVENANT_SANCTUM_TIER, 3)..": Встань и живи",	-- Abomination Factory (Necrolord) Tier 3
+			[-928] = string.format(COVENANT_SANCTUM_TIER, 4)..": Кованые друзья",	-- Abomination Factory (Necrolord) Tier 4
+			[-938] = string.format(COVENANT_SANCTUM_TIER, 5)..": Лучшие друзья навсегда",	-- Abomination Factory (Necrolord) Tier 5
 
 		-- SL Ardenweald/Night Fae
-			[-929] = "Ковенант: Ночной Народец",					-- Covenant: Night Fae
-			[-930] = "Королевский зимний сад",						-- Queen's Conservatory
 			[-931] = "Малый дух",									-- Lesser Spirit
 			[-932] = "Могучий дух",									-- Spirit
 			[-933] = "Божественный дух",							-- Greater Spirit
@@ -848,50 +819,44 @@ for key,value in pairs({
 			[-937] = "Транспортная сеть",							-- Transport Network (Night Fae)
 
 		-- SL Bastion/Kyrian
-			[-939] = "Ковенант: Кирии",								-- Covenant: Kyrian
-			[-940] = "Совет Перерожденных",							-- Ascended Counil
+			[-940] = "Совет перерожденных",							-- Ascended Counil
 			[-941] = "Улучшения для обители",						-- Sanctum Upgrades (Kyrian)
-			[-942] = "Путь Перерождения",							-- Path of Ascension
-			[-943] = "1-й уровень: Первые шаги",					-- Tier 1: First Steps
-			[-944] = "2-й уровень: Священные испытания",			-- Tier 2: Sacred Trials
-			[-945] = "3-й уровень: Дальнейшие тренировки",			-- Tier 3: Continued Teaching
-			[-946] = "4-й уровень: Учение Мудрости",				-- Tier 4: Teachings of Wisdom
-			[-947] = "5-й уровень: Испытания Смирения",				-- Tier 5: Trials of Humility
+			[-943] = string.format(COVENANT_SANCTUM_TIER, 1)..": Первые шаги",	-- Tier 1: First Steps
+			[-944] = string.format(COVENANT_SANCTUM_TIER, 2)..": Священные испытания",	-- Tier 2: Sacred Trials
+			[-945] = string.format(COVENANT_SANCTUM_TIER, 3)..": Дальнейшие тренировки",	-- Tier 3: Continued Teaching
+			[-946] = string.format(COVENANT_SANCTUM_TIER, 4)..": Учение Мудрости",	-- Tier 4: Teachings of Wisdom
+			[-947] = string.format(COVENANT_SANCTUM_TIER, 5)..": Испытания Смирения",	-- Tier 5: Trials of Humility
 			[-948] = "Транспортная сеть",							-- Transport Network (Kyrian)
-			[-3348] = "1-й уровень: Шаг веры",						-- Tier 1: Step of Faith
-			[-3349] = "2-й уровень: Прыжок силы",					-- Tier 2: Leap of Power
-			[-3350] = "3-й уровень: Вечные пути",					-- Tier 3: Eternal Paths
+			[-3348] = string.format(COVENANT_SANCTUM_TIER, 1)..": Шаг веры",	-- Tier 1: Step of Faith
+			[-3349] = string.format(COVENANT_SANCTUM_TIER, 2)..": Прыжок силы",	-- Tier 2: Leap of Power
+			[-3350] = string.format(COVENANT_SANCTUM_TIER, 3)..": Вечные пути",	-- Tier 3: Eternal Paths
 			[-966] = "Чертежи и Создание",							-- "Blueprints & Crafting"
-			[-972] = "Отвага",										-- Courage
 			[-973] = "Верность",									-- Loyalty
-			[-974] = "Мудрость",									-- Wisdom
 			[-975] = "Смирение",									-- Humility
 
 		-- SL Revendreth/Venthyr
-			[-949] = "Ковенант: Вентиры",							-- Covenant: Venthyr
 			[-950] = "Транспортная сеть",							-- Transport Network
-			[-951] = "1-й уровень: Зеркало, зеркало",				-- Tier 1: Mirror Mirror
-			[-952] = "2-й уровень: Через стекло",					-- Tier 2: Looking Glass"
-			[-953] = "3-й уровень: Зазеркалье",						-- Tier 3: Mirror's Edge
+			[-951] = string.format(COVENANT_SANCTUM_TIER, 1)..": Зеркало, зеркало",	-- Tier 1: Mirror, Mirror
+			[-952] = string.format(COVENANT_SANCTUM_TIER, 2)..": Через стекло",	-- Tier 2: Looking Glass
+			[-953] = string.format(COVENANT_SANCTUM_TIER, 3)..": Зазеркалье",	-- Tier 3: Mirror's Edge
 			[-954] = "Инквизиторы",									-- Inquisitors
-			[-955] = "Высшие Инквизиторы",							-- High Inquisitors
+			[-955] = "Старшие Инквизиторы",							-- High Inquisitors
 			[-956] = "Великие Инквизиторы",							-- Grand Inquisitors
 			[-957] = "Улучшения для обители",						-- Sanctum Upgrades (Venthyr)
-			[-958] = "2-й уровень: Заслуженное пиршество",			-- Tier 2: Deserved Feast
-			[-959] = "3-й уровень: Высокая эффективность",			-- Tier 3: Superior Efficiency
-			[-960] = "Пепельный двор",								-- The Ember Court
-			[-961] = "1-й уровень: Новый Двор",						-- Tier 1: A New Court
-			[-962] = "2-й уровень: Доморощенная помощь",			-- Tier 2: Homegrown Help
-			[-963] = "3-й уровень: Влияние при Дворе",				-- Tier 3: Court Influencer
-			[-964] = "4-й уровень: Тонкий вкус",					-- Tier 4: Discerning Taste
-			[-965] = "5-й уровень: Профессионалы",					-- Tier 5: The Professionals
+			[-958] = string.format(COVENANT_SANCTUM_TIER, 2)..": Заслуженное пиршество",	-- Tier 2: Deserved Feast
+			[-959] = string.format(COVENANT_SANCTUM_TIER, 3)..": Высокая эффективность",	-- Tier 3: Superior Efficiency
+			[-961] = string.format(COVENANT_SANCTUM_TIER, 1)..": Новый Двор",	-- Tier 1: A New Court
+			[-962] = string.format(COVENANT_SANCTUM_TIER, 2)..": Доморощенная помощь",	-- Tier 2: Homegrown Help
+			[-963] = string.format(COVENANT_SANCTUM_TIER, 3)..": Влияние при Дворе",	-- Tier 3: Court Influencer
+			[-964] = string.format(COVENANT_SANCTUM_TIER, 4)..": Тонкий вкус",	-- Tier 4: Discerning Taste
+			[-965] = string.format(COVENANT_SANCTUM_TIER, 5)..": Профессионалы",	-- Tier 5: The Professionals
 			[-967] = "Восстановление зеркала",						-- "Mirror Restoration",
 			[-968] = "Набор A",										-- Set A
 			[-969] = "Набор B",										-- Set B
 			[-970] = "Набор C",										-- Set C
 			[-971] = "Набор D",										-- Set D
 
-			--TODO: [-976] = "Korthian Sets",						-- Korthian Sets
+			[-976] = "Комплекты Кортии",							-- Korthian Sets
 			[-1001] = "Черный ящик",
 
 	-- Warrior order hall lore items TODO: localize
@@ -901,12 +866,12 @@ for key,value in pairs({
 		[-2203] = "Глаз Хранителя",
 		[-2204] = "Первая из валь'кир",
 		[-2205] = "Печать на Чертогах Доблести",
-		[-2206] = "His Name Is Dragonblood",
-		[-2207] = "The Last Words of Asgrim the Dreadkiller",
-		[-2208] = "A Shieldmaiden's Creed",
-		[-2209] = "The Prophecy of Rythas the Oracle",
-		[-2210] = "The Lessons of the Blacklist",
-		[-2211] = "Volund's Folly",
+		[-2206] = "Октель Драконья Кровь",							-- His Name Is Dragonblood
+		[-2207] = "Последние слова Азгрима Смертоубийцы",			-- The Last Words of Asgrim the Dreadkiller
+		[-2208] = "Кредо девы щита",								-- A Shieldmaiden's Creed
+		[-2209] = "Пророчество Райтаса Провидца",					-- The Prophecy of Rythas the Oracle
+		[-2210] = "Уроки Черного Кулака",							-- The Lessons of the Blacklist
+		[-2211] = "Безрассудный Волунд",							-- Volund's Folly
 
 	-- Other Sets
 		[-3179] = "Комплект 3-го уровня",							--string.format(GARRISON_CURRENT_LEVEL.." "..WARDROBE_SETS, 3),
@@ -918,11 +883,6 @@ for key,value in pairs({
 		[-3219] = "Благословенная броня убийцы нежити",
 		[-3220] = "Благословенное облачение убийцы нежити",
 		[-3221] = "Благословенное снаряжение истребителя нежити",
-	-- Anti-Undead Armor Sets [Vanilla Scourge Event]
-		[-3222] = "Регалии Зачистки Нежити",
-		[-3223] = "Доспехи истребителя нежити",
-		[-3224] = "Облачение Истребителя нежити",
-		[-3225] = "Броня истребления нежити",
 	-- Cloth WQ Gear
 		[-3241] = "Опаленный чародейский",
 		[-3242] = "Говорящий с костями",
@@ -1002,16 +962,12 @@ for key,value in pairs({
 		[-3336] = "Гремящие кости",
 		[-3337] = "Сумеречный дракон",
 		[-3347] = "Рубака Черного Зуба",
-	-- Chromie Scenario
 
-	-- PvP Sets
-	-- Note: Some of these may go away once I check as I think I am localizing with gear sets, but leave for now
-		[-4191] = "Турнир",
 	-- Tier/Dungeon/Event/Holiday Sets
 		-- Artifact Strings
 			[-5200] = "Основной облик",
 			[-5201] = "Кампания оплота",
-			[-5202] = "Баланс Сил",
+			[-5202] = "Баланс Сил",									-- Balance of Power
 			[-5203] = "Награды за Престиж",
 			[-5204] = "Облик Испытаний",
 			[-5205] = "Скрытый облик",
@@ -1025,8 +981,6 @@ for key,value in pairs({
 		[-9952] = GetSpellInfo(234890).." и "..GetSpellInfo(137011), 	-- Guardian / Feral Druid Spec
 
 	------ ACHIEVEMENT HEADER SECTION ------
-		[-10066] = "Легендарные",									-- "Legendary";
-		[-10069] = "Сценарии",
 		[-10071] = "Видения Н'Зота",
 		[-10072] = "Нападение Н'Зота",
 		[-10073] = "Жуткое видение Оргримара",
@@ -1036,7 +990,6 @@ for key,value in pairs({
 		[-10077] = "Нападение: враждебные кланы",
 		[-10078] = "Нападение: нескончаемый рой",
 		[-10079] = "Нападение: появление акиров",
-		[-10080] = "Жуткие Видения",
 		[-10081] = "Заражённая область",
 		[-10082] = "Захваченная область",
 		[-10083] = "Нападения Ковенантов",							-- Covenant Assaults
@@ -1044,55 +997,6 @@ for key,value in pairs({
 		-- Shadowlands Achievement Header
 			-- Achieve 14339 Sub-Criteira
 				[-1433901] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433902] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433903] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433904] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433905] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433906] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433907] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433908] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433909] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433910] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433911] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433912] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433913] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433914] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433915] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433916] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433917] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433918] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433919] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433920] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433921] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433922] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433923] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433924] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433925] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433926] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433927] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433928] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433929] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433930] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433931] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433932] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433933] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433934] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433935] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433936] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433937] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433938] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433939] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433940] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433941] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433942] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433943] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433944] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433945] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433946] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433947] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433948] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433949] = "Осколок кристалла анимы",				-- Anima Crystal Shard
-				[-1433950] = "Осколок кристалла анимы",				-- Anima Crystal Shard
 
 			--	hopefully temp objects, these currently do not have accessible object data on wowhead
 				[-1433951] = "Разбитое зеркало A-1",				-- Broken Mirror
@@ -1232,6 +1136,7 @@ for key,value in pairs({
 	[180461] = "Камень Ветров",	-- Wind Stone
 	[180466] = "Больший Ветровой Камень",	-- Greater Wind Stone
 	[180503] = "Занесенная песком поваренная книга",	-- Sandy Cookbook
+	[180570] = "Бочонок",	-- Keg
 	[180633] = "Хрустальная слеза",	-- Crystalline Tear
 	[180642] = "Не вызывающий подозрений сундук",	-- Inconspicuous Crate
 	[180652] = "Только что выброшенная земля",	-- Freshly Dug Dirt
@@ -1247,6 +1152,7 @@ for key,value in pairs({
 	[181150] = "Пыльный дневник",	-- Dusty Journal
 	[181153] = "Плакат: \"Разыскивается\": Кел'гаш Коварный",	-- Wanted Poster: Kel'gash the Wicked
 	[181638] = "Плакат \"Разыскивается\"",	-- Wanted Poster
+	[181672] = "Фигурка Плетеного человека",	-- Wickerman Effigy
 	[181748] = "Кровавый кристалл",	-- Blood Crystal
 	[181756] = "Потрепанная древняя книга",	-- Battered Ancient Book
 	[181889] = "Плакат \"Разыскивается\"",	-- Wanted Poster
@@ -1274,8 +1180,10 @@ for key,value in pairs({
 	[185165] = "Переговорное устройство Легиона",	-- Legion Communicator
 	[185166] = "Плакат \"Разыскивается\"",	-- Wanted Poster
 	[185168] = "Укрепленный сундук из оскверненного железа",	-- Reinforced Fel Iron Chest
+	[186267] = "Святилище Тыквы",	-- Pumpkin Shrine
 	[186426] = "Плакат \"Разыскивается\"",	-- Wanted Poster
 	[186585] = "Свиток из кожи дракона",	-- Dragonskin Scroll
+	--TODO: [186881] = "Dark Iron Sabotage Plans",	-- Dark Iron Sabotage Plans
 	[186887] = "Большой светильник из тыквы",	-- Large Jack-o'-Lantern
 	[187273] = "Подозрительный след копыта",	-- Suspicious Hoofprint
 	[187559] = "Большой костер Орды",	-- Horde Bonfire
@@ -1511,7 +1419,7 @@ for key,value in pairs({
 	[209845] = "Соблазнительный напиток",	-- Mouthwatering Brew
 	[211424] = "Алхимический свиток",	-- Alchemy Scroll
 	[211754] = "Любопытный текст",	-- Curious Text
-	--TODO: [211807] = "Mogu Chest",	-- Mogu Chest
+	[211807] = "Добыча могу",	-- Mogu Chest	--TODO: This was manually translated
 	[212181] = "Древняя статуя",	-- Ancient Statute
 	[212389] = "Свиток с предсказанием",	-- Scroll of Auspice
 	[213362] = "Корабельный сейф",	-- Ship's Locker
@@ -1525,7 +1433,7 @@ for key,value in pairs({
 	[213653] = "Пандаренская острога",	-- Pandaren Fishing Spear
 	[213741] = "Древний посох цзинь-юй",	-- Ancient Jinyu Staff
 	[213742] = "Молот Десяти Громов",	-- Hammer of Ten Thunders
-	--TODO: [213743] = "Jade Infused Blade",	-- Jade Infused Blade
+	[213743] = "Заряженный нефритом клинок",	-- Jade Infused Blade	--TODO: This was manually translated
 	[213748] = "Пандаренский ритуальный камень",	-- Pandaren Ritual Stone
 	[213749] = "Посох тайного мастера",	-- Staff of the Hidden Master
 	[213750] = "Каменная скрижаль сауроков",	-- Saurok Stone Tablet
@@ -1557,6 +1465,7 @@ for key,value in pairs({
 	[213972] = "Клинок Отравленного Разума",	-- Blade of the Poisoned Mind
 	[213973] = "Звуковое реле клакси",	-- Klaxxi Sonic Relay
 	[214062] = "Переливающийся янтарь",	-- Glowing Amber
+	[214175] = "Мешок припасов У Као",	-- Bag of Wu Kao Supplies
 	[214325] = "Позабытый ларец",	-- Forgotten Lockbox
 	[214337] = "Сундук с драгоценностями",	-- Stash of Gems
 	[214338] = "Памятный дар",	-- Offering of Remembrance
@@ -1784,11 +1693,13 @@ for key,value in pairs({
 	[233032] = "Набор покорителя гор",	-- Mountain Climber's Pack
 	[233033] = "Припасы Хитрой Шестеренки",	-- Steamwheedle Supplies
 	[233034] = "Припасы Хитрой Шестеренки",	-- Steamwheedle Supplies
+	[233048] = "Бриллиантовый мечтоцвет",	-- Brilliant Dreampetal
 	[233052] = "Припасы Хитрой Шестеренки",	-- Steamwheedle Supplies
 	[233101] = "Затонувшая рыбацкая лодка",	-- Sunken Fishing Boat
 	[233107] = "Маленький сундук с сокровищами",	-- Small Treasure Chest
 	[233113] = "Копье клана Песни Войны",	-- Warsong Spear
 	[233126] = "Сокровища Призрачной Луны",	-- Shadowmoon Treasure
+	[233132] = "Пресноводный моллюск",	-- Freshwater Clam
 	[233134] = "Яйцо золотой калири",	-- Golden Kaliri Egg
 	[233137] = "Тайник клана Пылающего Клинка",	-- Burning Blade Cache
 	[233139] = "Древний сундук титанов",	-- Ancient Titan Chest
@@ -1841,6 +1752,7 @@ for key,value in pairs({
 	[233696] = "Важные припасы исследователя",	-- Important Exploration Supplies
 	[233697] = "Клад саблерона",	-- Saberon Stash
 	[233715] = "Трофеи Золотопалого",	-- Goldtoe's Plunder
+	[233768] = "Эликсир бледнокожих",	-- Pale Elixir
 	[233773] = "Мешок трав",	-- Bag of Herbs
 	[233792] = "Груда обломков",	-- Pile of Rubble
 	[233917] = "Странная бедренная кость",	-- Femur of Improbability
@@ -1851,12 +1763,16 @@ for key,value in pairs({
 	[234147] = "Пожитки изгоя",	-- Outcast's Belongings
 	[234154] = "Перепутанные свитки",	-- Misplaced Scrolls
 	[234155] = "Сокровища изгоев",	-- Relics of the Outcasts
+	[234157] = "Растрескавшийся солнечный камень",	-- Fractured Sunstone
+	[234159] = "Утерянная сумка с травами",	-- Lost Herb Satchel
+	[234432] = "Добыча огрона",	-- Ogron Plunder
 	[234446] = "Сокровища изгоев",	-- Relics of the Outcasts
 	[234449] = "Сокровища изгоев",	-- Relics of the Outcasts
 	[234451] = "Сокровища изгоев",	-- Relics of the Outcasts
 	[234454] = "Сокровища изгоев",	-- Relics of the Outcasts
 	[234455] = "Сокровища изгоев",	-- Relics of the Outcasts
 	[234456] = "Ларец клана Изувеченной Длани",	-- Shattered Hand Lockbox
+	[234472] = "Питье моряка Заззука",	-- Sailor Zazzuk's 180-Proof Rum
 	[234473] = "Взносы кампании",	-- Campaign Contributions
 	[234474] = "Клад саблерона",	-- Saberon Stash
 	[234618] = "Дар Анзу",	-- Gift of Anzu
@@ -1867,6 +1783,11 @@ for key,value in pairs({
 	[234735] = "Эликсир сумеречного зрения",	-- Elixir of Shadow Sight
 	[234736] = "Эликсир сумеречного зрения",	-- Elixir of Shadow Sight
 	[234740] = "Сигнальный горн орков",	-- Orchish Signaling Horn
+	[234744] = "Подношение Прародительнице воронов",	-- Offering to the Raven Mother
+	[234746] = "Подношение Прародительнице воронов",	-- Offering to the Raven Mother
+	[234748] = "Подношение Прародительнице воронов",	-- Offering to the Raven Mother
+	[235073] = "Подношение Прародительнице воронов",	-- Offering to the Raven Mother
+	[235090] = "Подношение Прародительнице воронов",	-- Offering to the Raven Mother
 	[235091] = "Потерянное кольцо",	-- Lost Ring
 	[235097] = "Темный гримуар Эфиала",	-- Ephial's Dark Grimoire
 	[235104] = "Благословленный солнцем сундук",	-- Sun-Touched Cache
@@ -1874,10 +1795,14 @@ for key,value in pairs({
 	[235127] = "Таинственный окаменевший стручок",	-- Mysterious Petrified Pod
 	[235129] = "Обогащенные семена",	-- Enriched Seeds
 	[235135] = "Контрабандные апекситовые артефакты",	-- Smuggled Apexis Artifacts
+	[235141] = "Взрывчатка Железной Орды",	-- Iron Horde Explosives
 	[235143] = "Копье убийцы",	-- Assassin's Spear
 	[235168] = "Сума изгоя",	-- Outcast's Pouch
 	[235172] = "Пожитки изгоя",	-- Outcast's Belongings
+	[235282] = "Сетеккский ритуальный напиток",	-- Sethekk Ritual Brew
 	[235289] = "Молот рабочего из гарнизона",	-- Garrison Workman's Hammer
+	[235299] = "Деньги Деньгегнута",	-- Coinbender's Payment
+	[235300] = "Загадочные грибы",	-- Mysterious Mushrooms
 	[235307] = "Промокшая насквозь сумка",	-- Watertight Bag
 	[235313] = "Брошенная кирка",	-- Abandoned Mining Pick
 	[235859] = "Мешок Брокора",	-- Brokor's Sack
@@ -1954,6 +1879,7 @@ for key,value in pairs({
 	[240317] = "Фолиант теней Искара",	-- Iskar's Tome of Shadows
 	[240354] = "Точно никем не охраняемые сокровища",	-- Genuinely Unguarded Treasure
 	[240519] = "Маленький сундук с сокровищами",	-- Small Treasure Chest
+	[240547] = "Череп орка",	-- Orc Skull
 	[240577] = "Меч Кра'нака",	-- The Blade of Kra'nak
 	[240580] = "Самоцвет Адского Пламени",	-- Jewel of Hellfire
 	[240605] = "Маленький сундук с сокровищами",	-- Small Treasure Chest
@@ -2692,12 +2618,17 @@ for key,value in pairs({
 	[327592] = "Зачарованный замок",	-- Enchanted Lock
 	[327596] = "Расколотый глубинный кристалл",	-- Broken Abyssal Focus
 	[327669] = "Заключенный хмелементаль",	-- Contained Alemental
-	--TODO: [328413] = "Hozen Totem",	-- Hozen Totem
+	--TODO: [328343] = "Direbrew Cog",	-- Direbrew Cog
+	[328413] = "Тотем хозенов",	-- Hozen Totem	--TODO: This was manually translated
 	[329641] = "Разыскиваются: Крысанчик и Турботрогг",	-- Wanted: Junkbrat and Roadtrogg
 	[329783] = "Светящийся чародейский сундук",	-- Glowing Arcane Trunk
 	[329805] = "Странный кристалл",	-- Strange Crystal
 	[329918] = "Сокровища свинобразов",	-- Quilboar Treasures
 	[329919] = "Украденные припасы",	-- Stolen Supplies
+	--TODO: [330168] = "Contained Alemental",	-- Contained Alemental
+	--TODO: [330169] = "Direbrew Cog",	-- Direbrew Cog
+	--TODO: [330170] = "Hozen Totem",	-- Hozen Totem
+	[330183] = "Сейф братства Стальных Волн",	-- Irontide Lockbox
 	[330627] = "Знак \"Опасность!\"",	-- Danger Sign
 	[332220] = "Светящийся чародейский сундук",	-- Glowing Arcane Trunk
 	[332568] = "Кристальная статуэтка кошки",	-- Crystalline Cat Figurine
@@ -3009,7 +2940,7 @@ for key,value in pairs({
 	[369339] = "Тайник Верных Утробе",	-- Mawsworn Cache
 	[369340] = "Ларец с кортийскими реликвиями",	-- Korthian Relic Box
 	[369341] = "Тайник Верных Утробе",	-- Mawsworn Cache
-	--TODO: [369432] = "Misplaced Venthyr Tome",	-- Misplaced Venthyr Tome
+	[369432] = "Потерянная вентирская книга",	-- Misplaced Venthyr Tome
 	[369437] = "Тайник Разлома",	-- Riftbound Cache
 	[369438] = "Тайник Разлома",	-- Riftbound Cache
 	[369439] = "Тайник Разлома",	-- Riftbound Cache
@@ -3083,40 +3014,40 @@ for key,value in pairs({
 	[2] = {1, "|CFFFF0000Был убран из игры.|r", "Убраны Из Игры"}, -- No Hope
 
 	-- Hidden Filter (General Tab)
-	[12] = {0, "|CFF00FFDEЭтот предмет или достижение требует действий игрока против игрока или валюты, связанной с этими действиями.|r", "Требуется PvP"},
+	[12] = {0, "|CFF00FFDEЭта Штучка требует действий игрока против игрока или валюты, связанной с этими действиями.|r", "Требуется PvP"},
 
 	-- Arbitrary Filters
-	[9] = {3, "|CFFFF0000Первоначальный источник получения был удален и теперь доступен только на аукционе черного рынка.|r", "Черный рынок AH [BMAH]"},
-	[10] = {3, "|CFFFF0000Первоначально доступно через карту TCG, которая больше не печатается, но все еще может быть доступна на черном рынке, в игре или на аукционах в реальной жизни.|r", "Коллекционная карточная игра [TCG]"},
-	[11] = {3, "|CFFFF0000Это больше не доступно, если вы не знаете кого-то, у кого есть доступ к предметам, используемым для вызова босса.|r", "Требуются предметы для призыва"},
-	[13] = {1, "|CFFFF0000Ваши последователи слишком высокого уровня, и миссия для тайника больше не будет появляться.|r", "Устаревший тайник"},
-	[14] = {3, "|CFFFF0000Это больше нельзя будет купить или получить в коллекцию, если у вас нет необходимого PvP титула или если вы не входили в топ % лучших в этом сезоне.|r", "ПвП Элита / Гладиатор"},
-	[15] = {1, "|CFFFF0000Это нельзя выучить навсегда или использовать для трансмогрификации.|r", "Неизучаемые"},
-	[35] = {3, "|CFFFF0000Может быть скрыто за вложением денег, возможно, игровой магазин, другая игра Blizzard и \"Пригласи Друга\".|r", "Кошелек Blizzard"},
-	[36] = {1, "|CFFFF0000Было доступно для получения только во время Годовщины WoW, и более не доступно.|r", "Годовщина WoW [Убрано]"},	-- TODO: Remove.
-	[38] = {1, "|CFFFF0000Это доступно только игрокам, которые выполнили цепочку квестов «Легендарный плащ» во время Mists of Pandaria или через BMAH.|r", "Ордос - Легендарный плащ"},
-	[41] = {1, "|CFFFF0000Это доступно только игрокам, которые завершили соответствующие испытания артефактов Башни магов и получили базовый внешний вид.|r", "Появления в Башне Магов"},
-	[45] = {1, "|CFFFF0000Изменения добычи Blizzard сломали несколько предметов и сделали их недоступными. Накидка Дома Дворян / Теплый плащ Империи Гурубаши (обе награды Эмиссара БФА) и Огом Манглер в настоящее время сломаны, и их необходимо починить.|r", "Сломанная добыча"},
+		[9] = {3, "|CFFFF0000Первоначальный источник получения был удален и теперь доступен только на аукционе черного рынка.|r", "Черный рынок AH [BMAH]"},
+		[10] = {3, "|CFFFF0000Первоначально доступно через карту TCG, которая больше не печатается, но все еще может быть доступна на черном рынке, в игре или на аукционах в реальной жизни.|r", "Коллекционная карточная игра [TCG]"},
+		[11] = {3, "|CFFFF0000Это больше не доступно, если вы не знаете кого-то, у кого есть доступ к предметам, используемым для вызова босса.|r", "Требуются предметы для призыва"},
+		[13] = {1, "|CFFFF0000Ваши последователи слишком высокого уровня, и миссия для тайника больше не будет появляться.|r", "Устаревший тайник"},
+		[14] = {3, "|CFFFF0000Это больше нельзя будет купить или получить в коллекцию, если у вас нет необходимого PvP титула или если вы не входили в топ % лучших в этом сезоне.|r", "ПвП Элита / Гладиатор"},
+		[15] = {1, "|CFFFF0000Это нельзя выучить навсегда или использовать для трансмогрификации.|r", "Неизучаемые"},
+		[35] = {3, "|CFFFF0000Может быть скрыто за вложением денег, возможно, игровой магазин, другая игра Blizzard и \"Пригласи Друга\".|r", "Кошелек Blizzard"},
+		[36] = {1, "|CFFFF0000Было доступно для получения только во время Годовщины WoW, и более не доступно.|r", "Годовщина WoW [Убрано]"},	-- TODO: Remove.
+		[38] = {1, "|CFFFF0000Это доступно только игрокам, которые выполнили цепочку квестов «Легендарный плащ» во время Mists of Pandaria или через BMAH.|r", "Ордос - Легендарный плащ"},
+		[41] = {1, "|CFFFF0000Это доступно только игрокам, которые завершили соответствующие испытания артефактов Башни магов и получили базовый внешний вид.|r", "Появления в Башне Магов"},
+		[45] = {1, "|CFFFF0000Изменения добычи Blizzard сломали несколько предметов и сделали их недоступными. Накидка Дома Дворян / Теплый плащ Империи Гурубаши (обе награды Эмиссара БФА) и Огом Манглер в настоящее время сломаны, и их необходимо починить.|r", "Сломанная добыча"},
 
 	-- Seasonal Filters
-	[24] = {4, "|CFF00FFDEДля этого требуется Хмельной Фестиваль.|r", "Хмельной Фестиваль"},
-	[20] = {4, "|CFF00FFDEДля этого требуется Детская Неделя.|r", "Детская Неделя"},
-	[1012] = {4, "|CFF00FFDEДля этого требуется Праздник ярмарки Новолуния.|r", "Ярмарка ярмарки Новолуния" },
-	[27] = {4, "|CFF00FFDEДля этого требуется День Мертвых.|r", "День Мертвых"},
-	[29] = {4, "|CFF00FFDEДля этого требуется Зимний Покров.|r", "Зимний Покров"},
-	[26] = {4, "|CFF00FFDEДля этого требуется Тыквовин.|r", "Тыквовин"},
-	[25] = {4, "|CFF00FFDEДля этого требуется Неделя Урожая.|r", "Неделя Урожая"},
-	[18] = {4, "|CFF00FFDEДля этого требуется Любовная Лихорадка.|r", "Любовная Лихорадка"},
-	[17] = {4, "|CFF00FFDEДля этого требуется Лунный Фестиваль.|r", "Лунный Фестиваль"},
-	[22] = {4, "|CFF00FFDEДля этого требуется определенный микро-праздник.|r", "Маленькие праздники"},
-	[21] = {4, "|CFF00FFDEДля этого требуется Огненный Солнцеворот.|r", "Огненный Солнцеворот"},
-	[1009] = {4, "|CFF00FFDEДля этого требуется праздник празднования Нового года.|r", "New Years Celebration" },
-	[19] = {4, "|CFF00FFDEДля этого требуется Сад Чудес.|r", "Сад Чудес"},
-	[28] = {4, "|CFF00FFDEДля этого требуется Пиршество Странников.|r", "Пиршество Странников"},
-	[23] = {4, "|CFF00FFDEДля этого требуется Праздник Пиратского Дня.|r", "День Пирата"},
-	[30] = {4, "|CFF00FFDEДля этого требуется Рыбомания Тернистой Долины.|r", "Рыбомания Тернистой Долины"},
-	[42] = {4, "|CFFFF0000Для этого требуется событие путешествия во времени.\nБудет доступен только контент подземелий, выпущенный во время активного расширения \"Путешествие во времени\".|r", "Путешествие во времени"},
-	[31] = {4, "|CFF00FFDEДля этого требуется Годовщина WoW.\nЕсть вероятность, что последующие годовщины будут включать данный предмет.|r", "Годовщина WoW"},
+		[1000] = {4, "|CFF00FFDEДля этого требуется Хмельной фестиваль.|r", "Хмельной фестиваль"},
+		[1001] = {4, "|CFF00FFDEДля этого требуется Детская неделя.|r", "Детская неделя"},
+		[1012] = {4, "|CFF00FFDEДля этого требуется Ярмарка Новолуния.|r", "Ярмарка Новолуния" },
+		[1002] = {4, "|CFF00FFDEДля этого требуется День мертвых.|r", "День мертвых"},
+		[1003] = {4, "|CFF00FFDEДля этого требуется Зимний Покров.|r", "Зимний Покров"},
+		[1009] = {4, "|CFF00FFDEДля этого требуется Празднество фейерверков.|r", "Празднество фейерверков" },
+		[1004] = {4, "|CFF00FFDEДля этого требуется Тыквовин.|r", "Тыквовин"},
+		[1005] = {4, "|CFF00FFDEДля этого требуется Неделя урожая.|r", "Неделя урожая"},
+		[1006] = {4, "|CFF00FFDEДля этого требуется Любовная лихорадка.|r", "Любовная лихорадка"},
+		[1007] = {4, "|CFF00FFDEДля этого требуется Лунный фестиваль.|r", "Лунный фестиваль"},
+		[1014] = {4, "|CFF00FFDEДля этого требуется определенный микро-праздник.|r", "Маленькие праздники"},
+		[1008] = {4, "|CFF00FFDEДля этого требуется Огненный солнцеворот.|r", "Огненный солнцеворот"},
+		[1010] = {4, "|CFF00FFDEДля этого требуется Сад чудес.|r", "Сад чудес"},
+		[1013] = {4, "|CFF00FFDEДля этого требуется Пиршество странников.|r", "Пиршество странников"},
+		[1011] = {4, "|CFF00FFDEДля этого требуется День пирата.|r", "День пирата"},
+		[1015] = {4, "|CFF00FFDEДля этого требуется Рыбомания Тернистой долины.|r", "Рыбомания Тернистой долины"},
+		[1016] = {4, "|CFFFF0000Для этого требуется событие путешествия во времени.\nБудет доступен только контент подземелий, выпущенный во время активного расширения \"Путешествие во времени\".|r", "Путешествие во времени"},
+		[1017] = {4, "|CFF00FFDEДля этого требуется Годовщина World of Warcraft.\nЕсть вероятность, что последующие годовщины будут включать данный предмет.|r", "Годовщина World of Warcraft"},
 })
 do a[key] = value; end
 

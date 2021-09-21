@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0521,
+	["LastVersion"] = 2.0527,
 	["LastPlayerFullName"] = "Barbaxius-Outland",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {

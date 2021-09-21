@@ -52,7 +52,7 @@ MogIt_Other: enabled
 MogIt_Plate: enabled
 TradeSkillMaster_Additions: disabled
 FlightMap: disabled
-HandyNotes: disabled
+HandyNotes: enabled
 HandyNotes_DraenorTreasures: disabled
 Immersion: enabled
 Mapster: enabled
@@ -385,7 +385,7 @@ BtWQuestsShadowlands: disabled
 BtWQuestsTheBurningCrusade: disabled
 BtWQuestsWarlordsOfDraenor: disabled
 BtWQuestsWrathOfTheLichKing: disabled
-HandyNotes_Shadowlands: disabled
+HandyNotes_Shadowlands: enabled
 Mists_of_Tirna_Solved: enabled
 OmniBar: disabled
 SimpleArmory: enabled
