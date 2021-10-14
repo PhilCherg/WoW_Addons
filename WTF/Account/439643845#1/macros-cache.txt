@@ -9,6 +9,10 @@ END
 VER 3 0000000000000037 "Alpaca" "136218"
 /tar Friendly
 END
+VER 3 000000000000003F "Applause" "132095"
+/tar Queen
+/applause
+END
 VER 3 0000000000000012 "asdasd" "460695"
 /click ExtraActionButton1
 END
@@ -29,6 +33,10 @@ END
 VER 3 000000000000002A "CraftBracers" "135973"
 /run PickupSpell(309181)
 END
+VER 3 000000000000003E "Curtsey" "132094"
+/tar Queen
+/curtsey
+END
 VER 3 0000000000000029 "Disenchant" "135952"
 /cast disenchant
 /use  Shrouded Cloth Bracers
@@ -43,6 +51,10 @@ VER 3 0000000000000031 "Green Cabbage" "656444"
 #showtooltip Green Cabbage Seeds
 /tar Tilled Soil
 /use Red Blossom Leek Seeds
+END
+VER 3 0000000000000040 "Grovel" "132096"
+/tar Queen
+/grovel
 END
 VER 3 000000000000001A "Healing Surge" "136044"
 #showtooltip Healing Surge
@@ -59,7 +71,10 @@ END
 VER 3 0000000000000021 "KIss" "136217"
 /kneel
 END
+VER 3 0000000000000041 "Kneel" "INV_MISC_QUESTIONMARK"
+END
 VER 3 0000000000000028 "Kneel" "236291"
+/tar Queen
 /kneel
 END
 VER 3 000000000000002C "PetAndStones" "136103"
@@ -74,6 +89,10 @@ END
 VER 3 0000000000000018 "Riptide" "252995"
 #showtooltip Riptide
 /use [@mouseover, exists] Riptide
+END
+VER 3 000000000000003D "Salute" "132093"
+/tar Queen
+/salute
 END
 VER 3 0000000000000039 "Shemi SS" "136210"
 /tar Eluith

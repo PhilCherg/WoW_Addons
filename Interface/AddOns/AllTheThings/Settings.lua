@@ -213,7 +213,7 @@ settings.Initialize = function(self)
 
 	-- force re-enable of optional filters which become not optional
 	-- (any filterID's here must be 'true' in all class presets)
-	local reEnableFilters = { 50 };
+	local reEnableFilters = { };
 	for _,filterID in ipairs(reEnableFilters) do
 		if not AllTheThingsSettingsPerCharacter.Filters[filterID] then
 			AllTheThingsSettingsPerCharacter.Filters[filterID] = nil;
@@ -875,22 +875,22 @@ settings.version = f;
 
 f = CreateFrame("Button", nil, settings, "OptionsButtonTemplate");
 f:SetPoint("TOPLEFT", settings, "BOTTOMLEFT", 0, -6);
-f:SetText("https://www.twitch.tv/crieve");
+f:SetText("discord.gg/allthethings");
 f:SetWidth(230);
 f:SetHeight(30);
 f:RegisterForClicks("AnyUp");
 f:SetScript("OnClick", settings.ShowCopyPasteDialog);
-f:SetATTTooltip(L["TWITCH_BUTTON_TOOLTIP"]);
+f:SetATTTooltip(L["DISCORD_BUTTON_TOOLTIP"]);
 settings.twitch = f;
 
 f = CreateFrame("Button", nil, settings, "OptionsButtonTemplate");
 f:SetPoint("TOPLEFT", settings.twitch, "TOPRIGHT", 4, 0);
-f:SetText("https://discord.gg/9GFDsgy");
+f:SetText("twitch.tv/crieve");
 f:SetWidth(200);
 f:SetHeight(30);
 f:RegisterForClicks("AnyUp");
 f:SetScript("OnClick", settings.ShowCopyPasteDialog);
-f:SetATTTooltip(L["DISCORD_BUTTON_TOOLTIP"]);
+f:SetATTTooltip(L["TWITCH_BUTTON_TOOLTIP"]);
 settings.community = f;
 
 ------------------------------------------
@@ -2253,7 +2253,7 @@ end
 -- seasonal
 local seasonal = child:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge");
 seasonal:SetPoint("TOPLEFT", child, "TOPLEFT", 8, -8);
-seasonal:SetText(L["SEASONAL"]);
+seasonal:SetText(L["SEASONAL_LABEL"]);
 
 local seasonalFrame = CreateFrame("Frame", nil, child, "ThinBorderTemplate");
 seasonalFrame:SetPoint("TOP", seasonal, "BOTTOM", 0, -4);
@@ -3338,7 +3338,7 @@ end,
 function(self)
 	settings:SetTooltipSetting("Auto:BountyList", self:GetChecked());
 end);
-OpenBountyListAutomatically:SetATTTooltip(L["AUTO_BOUNTY__CHECKBOX_TOOLTIP"]);
+OpenBountyListAutomatically:SetATTTooltip(L["AUTO_BOUNTY_CHECKBOX_TOOLTIP"]);
 OpenBountyListAutomatically:SetPoint("TOPLEFT", AutomaticallySkipCutscenesCheckBox, "BOTTOMLEFT", 0, 4);
 
 local OpenMainListAutomatically = settings:CreateCheckBox(L["AUTO_MAIN_LIST_CHECKBOX"],

@@ -1,7 +1,7 @@
 SET latestSplashScreen "20"
 SET autoLootDefault "1"
 SET autoQuestPopUps "v##$$<D###%oa###"
-SET trackedQuests "v$<D%oa*#%"
+SET trackedQuests "v%oa*#%$<D"
 SET hardTrackedQuests "v"
 SET trackedWorldQuests "v"
 SET hardTrackedWorldQuests "v"

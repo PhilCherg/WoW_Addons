@@ -2,182 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"<NOVA> Selling CN - Castle Nathria 10/10HC For Only 300k + PER Trader for 120k  || Sire Lastboss  50k  /  Mythic CN Raid  || + M + 0 - 20+ / M+10 79k / M+12 99k / M+14 110k / M+15 190k || M+16 420k / M+17 600k / KeystoneMaster 1330k /w For More Info..", -- [1]
-			"Dreamymonk-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Dreamymonk-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			156, -- [11]
-			"Player-1301-0BE429E7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Dreamymonk|r",
-			[51] = 1620152644,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"<Nova> WTS RBG || Curv Last boss HC=50k|| <10-10 Castle Nathria HC=300k> trader+120k || lvl boosting || M+(10-20) Share loot & Armorstack for (2-15) || M+15=190k || <KSM=1330k> || Torghast Layer8=77k  W me for more info :D", -- [1]
-			"Mythrissen-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mythrissen-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			157, -- [11]
-			"Player-1301-0BE56653", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Mythrissen|r",
-			[51] = 1620152729,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			">>((M+15=190k inTime)) << NBC >> (M+14=110k) >> (M+12=99k) >> (3x15=528k) >> (5x15=832k) >> (4x14=396k) >> (5x12=434k) >> keysToonmaster (all KEy in time +15 ) 1330k >> 10/10 hc/mythic every 30 min", -- [1]
-			"Novalilo-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novalilo-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			158, -- [11]
-			"Player-1301-0BF78495", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cNovalilo|r",
-			[51] = 1620152804,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"<NOVA> Mega Sale ( Sire HC 50k )( Castle Nathria Only For 300k Vip Trader 120k)  We Also Selling M+ [ 10 - 20 ]  / +16 420k  / +15  190k /  +14  110k /  +12  99k /  +10  79k  /  Big Discount For Keystone Master ( All  +15s  Time  1330k ) /w for", -- [1]
-			"Novalovely-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novalovely-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			159, -- [11]
-			"Player-1301-0BF07A9F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Novalovely|r",
-			[51] = 1620152806,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"WTS |cffa335ee|Hitem:183017::::::::60:258::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Acolyte's Velvet Bindings]|h|r /W ME", -- [1]
-			"Bryrja-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Bryrja-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			160, -- [11]
-			"Player-1301-0B2ADB69", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeBryrja|r",
-			[51] = 1620152823,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
-		{
-			"WTS |cffa335ee|Hitem:183013::::::::60:268:::4:1485:6646:6652:7188::::|h[Fallen Templar's Gauntlets]|h|r", -- [1]
-			"Huffymonk-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Huffymonk-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			161, -- [11]
-			"Player-1301-0BA55FC6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Huffymonk|r",
-			[51] = 1620152833,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
-		{
-			"<NOVA> Selling CN - Castle Nathria 10/10HC For Only 300k + PER Trader for 120k  || Sire Lastboss  50k  /  Mythic CN Raid  || + M + 0 - 20+ / M+10 79k / M+12 99k / M+14 110k / M+15 190k || M+16 420k / M+17 600k / KeystoneMaster 1330k /w For More Info..", -- [1]
-			"Dreamymonk-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Dreamymonk-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			162, -- [11]
-			"Player-1301-0BE429E7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Dreamymonk|r",
-			[51] = 1620152855,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
-		{
-			"WTS Key 0-18  14  =100k   - 15= 150K - 16=320K 17=500K    boost lvlup 50-60 under 4h Boost    keystone master   only 1150k gold and 100% guarantee For In time.... Whisper Me For More Info", -- [1]
-			"Akcent-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Akcent-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			163, -- [11]
-			"Player-1301-0BDA1A7D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Akcent|r",
-			[51] = 1620152862,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
-		{
 			"WTS Castle Nathria HEROIC  І Start in 22.30 CEST or Server Time І  FULL RUN 10/10 І  Guild run  І  Fast And smooth  І  Get you 213+ iLvl gear TONIGHT  І  PST for info!", -- [1]
 			"Misjetta-Outland", -- [2]
 			"", -- [3]
@@ -198,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Misjetta|r",
 			[51] = 1620152888,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
+		}, -- [1]
 		{
 			"<Nova> WTS RBG || <10-10 Castle Nathria HC=300k> & TRader+120k /Curv=50k|| M+(10-20) Shareloot & M+(10-15)+ARMORSTCK || M+10=79k || M+15=190k/ / M+17=600k / <KSM=1330k> || Torghast8=77k / lvl boost W me for more :D", -- [1]
 			"Mythrissen-Outland", -- [2]
@@ -220,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Mythrissen|r",
 			[51] = 1620152911,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
+		}, -- [2]
 		{
 			"<Twilight Community> Selling Sire Denathrius Hc FOR ONLY 50k! get your ahead of the curve achievement before patch ends and come get your 220iivl potency conduits and items along with a pet. Play alongside experienced curve booster with over 1000 kills", -- [1]
 			"Jempbank-Outland", -- [2]
@@ -242,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cJempbank|r",
 			[51] = 1620152989,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
+		}, -- [3]
 		{
 			">>((M+15=190k inTime)) << NBC >> (M+14=110k) >> (M+12=99k) >> (3x15=528k) >> (5x15=832k) >> (4x14=396k) >> (5x12=434k) >> keysToonmaster (all KEy in time +15 ) 1330k >> 10/10 hc/mythic every 30 min", -- [1]
 			"Novalilo-Outland", -- [2]
@@ -264,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cNovalilo|r",
 			[51] = 1620152990,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
+		}, -- [4]
 		{
 			"WTS Castle Nathria HEROIC  І Start in 22.30 CEST or Server Time І  FULL RUN 10/10 І  Guild run  І  Fast And smooth  І  Get you 213+ iLvl gear TONIGHT  І  PST for info!", -- [1]
 			"Misjetta-Outland", -- [2]
@@ -286,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Misjetta|r",
 			[51] = 1620152993,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
+		}, -- [5]
 		{
 			"WTS |cffa335ee|Hitem:183017::::::::60:258::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Acolyte's Velvet Bindings]|h|r CHEAPER THAN AH DM ME", -- [1]
 			"Bryrja-Outland", -- [2]
@@ -308,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeBryrja|r",
 			[51] = 1620153025,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
+		}, -- [6]
 		{
 			"WTS Key 0-18  14  =100k   - 15= 150K - 16=320K 17=500K    boost lvlup 50-60 under 4h Boost    keystone master   only 1150k gold and 100% guarantee For In time.... Whisper Me For More Info", -- [1]
 			"Akcent-Outland", -- [2]
@@ -330,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Akcent|r",
 			[51] = 1620153038,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
+		}, -- [7]
 		{
 			"<NOVA> Selling CN - Castle Nathria 10/10HC For Only 300k + PER Trader for 120k  || Sire Lastboss  50k  /  Mythic CN Raid  || + M + 0 - 20+ / M+10 79k / M+12 99k / M+14 110k / M+15 190k || M+16 420k / M+17 600k / KeystoneMaster 1330k /w For More Info..", -- [1]
 			"Dreamymonk-Outland", -- [2]
@@ -352,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dreamymonk|r",
 			[51] = 1620153054,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
+		}, -- [8]
 		{
 			"<NOVA> Mega Sale ( Sire HC 50k )( Castle Nathria Only For 300k Vip Trader 120k)  We Also Selling M+ [ 10 - 20 ]  / +16 420k  / +15  190k /  +14  110k /  +12  99k /  +10  79k  /  Big Discount For Keystone Master ( All  +15s  Time  1330k ) /w for", -- [1]
 			"Novalovely-Outland", -- [2]
@@ -374,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novalovely|r",
 			[51] = 1620153133,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
+		}, -- [9]
 		{
 			"wtb|cffffffff|Hitem:172314::::::::60:102:::::::|h[Umbrahide Vest]|h|r", -- [1]
 			"Páperkat-Outland", -- [2]
@@ -396,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Páperkat|r",
 			[51] = 1620153146,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
+		}, -- [10]
 		{
 			">>((M+15=190k inTime)) << NBC >> (M+14=110k) >> (M+12=99k) >> (3x15=528k) >> (5x15=832k) >> (4x14=396k) >> (5x12=434k) >> keysToonmaster (all KEy in time +15 ) 1330k >> 10/10 hc/mythic every 30 min", -- [1]
 			"Novalilo-Outland", -- [2]
@@ -418,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cNovalilo|r",
 			[51] = 1620153160,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
+		}, -- [11]
 		{
 			"WTS Castle Nathria HEROIC  І Start in 22.30 CEST or Server Time І  FULL RUN 10/10 І  Guild run  І  Fast And smooth  І  Get you 213+ iLvl gear TONIGHT  І  PST for info!", -- [1]
 			"Misjetta-Outland", -- [2]
@@ -440,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Misjetta|r",
 			[51] = 1620153178,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
+		}, -- [12]
 		{
 			"WTS Key 0-18  14  =100k   - 15= 150K - 16=320K 17=500K    boost lvlup 50-60 under 4h Boost    keystone master   only 1150k gold and 100% guarantee For In time.... Whisper Me For More Info", -- [1]
 			"Akcent-Outland", -- [2]
@@ -462,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Akcent|r",
 			[51] = 1620153188,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
+		}, -- [13]
 		{
 			"<NOVA> Selling CN - Castle Nathria 10/10HC For Only 300k + PER Trader for 120k  || Sire Lastboss  50k  /  Mythic CN Raid  || + M + 0 - 20+ / M+10 79k / M+12 99k / M+14 110k / M+15 190k || M+16 420k / M+17 600k / KeystoneMaster 1330k /w For More Info..", -- [1]
 			"Dreamymonk-Outland", -- [2]
@@ -484,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dreamymonk|r",
 			[51] = 1620153242,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
+		}, -- [14]
 		{
 			"<Nova> Selling Boost  M+10=79k / M+14=110k / M+15= 190k /Keystone Master 1.33M /2 run 5%  discount or Stack armor FREE / Selling CASTLE NATHRIA Full HC 300k and per Stack Armor 120k /Curve 50k / Raid Mythic full clear /Torghast Boost /w for info", -- [1]
 			"Exoservices-Outland", -- [2]
@@ -506,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaExoservices|r",
 			[51] = 1620153287,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
+		}, -- [15]
 		{
 			"|cffffd100|HclubFinder:ClubFinder-1-234641-1301-103875971|h[Guild: BlackEagles]|h|r  Fresh guild. Mainly will focus on pvp (rbg and arenas). Socials and M+ players are welcome to join as well", -- [1]
 			"Buzzul-Outland", -- [2]
@@ -528,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Buzzul|r",
 			[51] = 1620153321,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
+		}, -- [16]
 		{
 			">>((M+15=190k inTime)) << NBC >> (M+14=110k) >> (M+12=99k) >> (3x15=528k) >> (5x15=832k) >> (4x14=396k) >> (5x12=434k) >> keysToonmaster (all KEy in time +15 ) 1330k >> 10/10 hc/mythic every 30 min", -- [1]
 			"Novalilo-Outland", -- [2]
@@ -550,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cNovalilo|r",
 			[51] = 1620153339,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
+		}, -- [17]
 		{
 			"|cffffd100|HclubFinder:ClubFinder-1-196941-1301-48391459|h[Guild: Unused Icon]|h|r are recruiting! We are 6/10M and looking for dps for the main raid team Wed/Sun 8pm - 1am ST. We also welcome socials, have a HC raid night, run M+ and PvP.", -- [1]
 			"Pernix-Outland", -- [2]
@@ -572,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Pernix|r",
 			[51] = 1620153356,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
+		}, -- [18]
 		{
 			"<NOVA> Mega Sale ( Sire HC 50k )( Castle Nathria Only For 300k Vip Trader 120k)  We Also Selling M+ [ 10 - 20 ]  / +16 420k  / +15  190k /  +14  110k /  +12  99k /  +10  79k  /  Big Discount For Keystone Master ( All  +15s  Time  1330k ) /w for", -- [1]
 			"Novalovely-Outland", -- [2]
@@ -594,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novalovely|r",
 			[51] = 1620153402,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
+		}, -- [19]
 		{
 			"WTS |cffa335ee|Hitem:183017::::::::60:258::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Acolyte's Velvet Bindings]|h|r CHEAPER THAN AH DM ME", -- [1]
 			"Bryrja-Outland", -- [2]
@@ -616,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeBryrja|r",
 			[51] = 1620153409,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
+		}, -- [20]
 		{
 			"|cffffd100|HclubFinder:ClubFinder-1-196941-1301-48391459|h[Guild: Unused Icon]|h|r are recruiting! We are 6/10M and looking for ranged dps for our main raid team Wed/Sun 8pm - 12:30am ST. We welcome socials, have a HC raid night, run M+ and PvP.", -- [1]
 			"Wohoonature-Outland", -- [2]
@@ -638,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Wohoonature|r",
 			[51] = 1620153443,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
+		}, -- [21]
 		{
 			"<NOVA> Selling CN - Castle Nathria 10/10HC For Only 300k + PER Trader for 120k  || Sire Lastboss  50k  /  Mythic CN Raid  || + M + 0 - 20+ / M+10 79k / M+12 99k / M+14 110k / M+15 190k || M+16 420k / M+17 600k / KeystoneMaster 1330k /w For More Info..", -- [1]
 			"Dreamymonk-Outland", -- [2]
@@ -660,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dreamymonk|r",
 			[51] = 1620153446,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
+		}, -- [22]
 		{
 			"WTS Castle Nathria HEROIC  І Start in 22.30 CEST or Server Time І  FULL RUN 10/10 І  Guild run  І  Fast And smooth  І  Get you 213+ iLvl gear TONIGHT  І  PST for info!", -- [1]
 			"Misjetta-Outland", -- [2]
@@ -682,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Misjetta|r",
 			[51] = 1620153449,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
+		}, -- [23]
 		{
 			"|cffffd100|HclubFinder:ClubFinder-1-234641-1301-103875971|h[Guild: BlackEagles]|h|r  Fresh guild. Mainly will focus on pvp (rbg and arenas). Socials and M+ players are welcome to join as well", -- [1]
 			"Buzzul-Outland", -- [2]
@@ -704,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Buzzul|r",
 			[51] = 1620153485,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
+		}, -- [24]
 		{
 			">>((M+15=190k inTime)) << NBC >> (M+14=110k) >> (M+12=99k) >> (3x15=528k) >> (5x15=832k) >> (4x14=396k) >> (5x12=434k) >> keysToonmaster (all KEy in time +15 ) 1330k >> 10/10 hc/mythic every 30 min", -- [1]
 			"Novalilo-Outland", -- [2]
@@ -726,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cNovalilo|r",
 			[51] = 1620153511,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
+		}, -- [25]
 		{
 			"<NOVA> Selling CN - Castle Nathria 10/10HC For Only 300k + PER Trader for 120k  || Sire Lastboss  50k  /  Mythic CN Raid  || + M + 0 - 20+ / M+10 79k / M+12 99k / M+14 110k / M+15 190k || M+16 420k / M+17 600k / KeystoneMaster 1330k /w For More Info..", -- [1]
 			"Dreamymonk-Outland", -- [2]
@@ -748,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dreamymonk|r",
 			[51] = 1620153603,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
+		}, -- [26]
 		{
 			"WTS Key 0-18  14  =100k   - 15= 150K - 16=320K 17=500K    boost lvlup 50-60 under 4h Boost    keystone master   only 1150k gold and 100% guarantee For In time.... Whisper Me For More Info", -- [1]
 			"Akcent-Outland", -- [2]
@@ -770,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Akcent|r",
 			[51] = 1620153631,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
+		}, -- [27]
 		{
 			">>((M+15=190k inTime)) << NBC >> (M+14=110k) >> (M+12=99k) >> (3x15=528k) >> (5x15=832k) >> (4x14=396k) >> (5x12=434k) >> keysToonmaster (all KEy in time +15 ) 1330k >> 10/10 hc/mythic every 30 min", -- [1]
 			"Novalilo-Outland", -- [2]
@@ -792,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cNovalilo|r",
 			[51] = 1620153682,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
+		}, -- [28]
 		{
 			"WTS Castle Nathria HEROIC  І Start in 22.30 CEST or Server Time І  FULL RUN 10/10 І  Guild run  І  Fast And smooth  І  Get you 213+ iLvl gear TONIGHT  І  PST for info!", -- [1]
 			"Misjetta-Outland", -- [2]
@@ -814,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Misjetta|r",
 			[51] = 1620153736,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
+		}, -- [29]
 		{
 			"<NOVA> Mega Sale ( Sire HC 50k )( Castle Nathria Only For 300k Vip Trader 120k)  We Also Selling M+ [ 10 - 20 ]  / +16 420k  / +15  190k /  +14  110k /  +12  99k /  +10  79k  /  Big Discount For Keystone Master ( All  +15s  Time  1330k ) /w for", -- [1]
 			"Novalovely-Outland", -- [2]
@@ -836,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novalovely|r",
 			[51] = 1620153757,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
+		}, -- [30]
 		{
 			"LF 2v2 games ", -- [1]
 			"Eatmycrit-Outland", -- [2]
@@ -858,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Eatmycrit|r",
 			[51] = 1620153784,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
+		}, -- [31]
 		{
 			"<NOVA> Selling CN - Castle Nathria 10/10HC For Only 300k + PER Trader for 120k  || Sire Lastboss  50k  /  Mythic CN Raid  || + M + 0 - 20+ / M+10 79k / M+12 99k / M+14 110k / M+15 190k || M+16 420k / M+17 600k / KeystoneMaster 1330k /w For More Info..", -- [1]
 			"Dreamymonk-Outland", -- [2]
@@ -880,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dreamymonk|r",
 			[51] = 1620153797,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
+		}, -- [32]
 		{
 			"WTS Key 0-18  14  =100k   - 15= 150K - 16=320K 17=500K    boost lvlup 50-60 under 4h Boost    keystone master   only 1150k gold and 100% guarantee For In time.... Whisper Me For More Info", -- [1]
 			"Akcent-Outland", -- [2]
@@ -902,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Akcent|r",
 			[51] = 1620153830,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
+		}, -- [33]
 		{
 			">>((M+15=190k inTime)) << NBC >> (M+14=110k) >> (M+12=99k) >> (3x15=528k) >> (5x15=832k) >> (4x14=396k) >> (5x12=434k) >> keysToonmaster (all KEy in time +15 ) 1330k >> 10/10 hc/mythic every 30 min", -- [1]
 			"Novalilo-Outland", -- [2]
@@ -924,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cNovalilo|r",
 			[51] = 1620153855,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
+		}, -- [34]
 		{
 			"WTS |cffa335ee|Hitem:183031::::::::60:71::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Soldier's Stoneband Wristguards]|h|r", -- [1]
 			"Renuus-Outland", -- [2]
@@ -946,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRenuus|r",
 			[51] = 1620153893,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
+		}, -- [35]
 		{
 			"WTS Castle Nathria HEROIC  І Start in 22.30 CEST or Server Time І  FULL RUN 10/10 І  Guild run  І  Fast And smooth  І  Get you 213+ iLvl gear TONIGHT  І  PST for info!", -- [1]
 			"Misjetta-Outland", -- [2]
@@ -968,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Misjetta|r",
 			[51] = 1620153897,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
+		}, -- [36]
 		{
 			"|cffffd100|HclubFinder:ClubFinder-1-196941-1301-48391459|h[Guild: Unused Icon]|h|r are recruiting! We are 6/10M and looking for ranged dps for our main raid team Wed/Sun 8pm - 12:30am ST. We welcome socials, have a HC raid night, run M+ and PvP.", -- [1]
 			"Wohoonature-Outland", -- [2]
@@ -990,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Wohoonature|r",
 			[51] = 1620153914,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [37]
 		{
 			"WTS Key 0-18  14  =100k   - 15= 150K - 16=320K 17=500K    boost lvlup 50-60 under 4h Boost    keystone master   only 1150k gold and 100% guarantee For In time.... Whisper Me For More Info", -- [1]
 			"Akcent-Outland", -- [2]
@@ -1012,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Akcent|r",
 			[51] = 1620153925,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
+		}, -- [38]
 		{
 			"WTS |cffa335ee|Hitem:183031::::::::60:71::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Soldier's Stoneband Wristguards]|h|r CHEEEEp", -- [1]
 			"Renuus-Outland", -- [2]
@@ -1034,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRenuus|r",
 			[51] = 1620153933,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
+		}, -- [39]
 		{
 			"|cffffd100|HclubFinder:ClubFinder-1-234641-1301-103875971|h[Guild: BlackEagles]|h|r  Fresh guild. Mainly will focus on pvp (rbg and arenas). Socials and M+ players are welcome to join as well", -- [1]
 			"Buzzul-Outland", -- [2]
@@ -1056,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Buzzul|r",
 			[51] = 1620153935,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [40]
 		{
 			"<ICECROWN> M+16 500k || M+17 650k||M +14 110k +15 200k || Untimed 14 95k || 15 170k || 4x M+ Vault packages|| KSM = 1500K || 50-60 boost ||Twisting Corridors 1-8|| HC 10/10CN || Mythic CN ||Mounts & Hunter Pets || /w me to book: ) Gold only <3  ", -- [1]
 			"Disstressed-Outland", -- [2]
@@ -1078,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDisstressed|r",
 			[51] = 1620153977,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+		}, -- [41]
 		{
 			"<Nova> Selling Boost  M+10=79k / M+14=110k / M+15= 190k /Keystone Master 1.33M /2 run 5%  discount or Stack armor FREE / Selling CASTLE NATHRIA Full HC 300k and per Stack Armor 120k /Curve 50k / Raid Mythic full clear /Torghast Boost /w for info", -- [1]
 			"Exoservices-Outland", -- [2]
@@ -1100,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaExoservices|r",
 			[51] = 1620153983,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
+		}, -- [42]
 		{
 			"|cffffd100|HclubFinder:ClubFinder-1-196941-1301-48391459|h[Guild: Unused Icon]|h|r are recruiting! We are 6/10M and looking for ranged dps for our main raid team Wed/Sun 8pm - 12:30am ST. We welcome socials, have a HC raid night, run M+ and PvP.", -- [1]
 			"Wohoonature-Outland", -- [2]
@@ -1122,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Wohoonature|r",
 			[51] = 1620154007,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
+		}, -- [43]
 		{
 			"|cffffd100|HclubFinder:ClubFinder-1-234641-1301-103875971|h[Guild: BlackEagles]|h|r  Fresh guild. Mainly will focus on pvp (rbg and arenas). Socials and M+ players are welcome to join as well", -- [1]
 			"Buzzul-Outland", -- [2]
@@ -1144,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Buzzul|r",
 			[51] = 1620154016,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [44]
 		{
 			"<NOVA> Selling CN - Castle Nathria 10/10HC For Only 300k + PER Trader for 120k  || Sire Lastboss  50k  /  Mythic CN Raid  || + M + 0 - 20+ / M+10 79k / M+12 99k / M+14 110k / M+15 190k || M+16 420k / M+17 600k / KeystoneMaster 1330k /w For More Info..", -- [1]
 			"Dreamymonk-Outland", -- [2]
@@ -1166,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dreamymonk|r",
 			[51] = 1620154025,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [45]
 		{
 			"WTS!|cffa335ee|Hitem:72145::::::::50:257::14::1:28:872:::|h[Swift Springstrider]|h|r'", -- [1]
 			"Långkok-Outland", -- [2]
@@ -1188,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeLångkok|r",
 			[51] = 1620154038,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [46]
 		{
 			"<ICECROWN> M+16 500k || M+17 650k||M +14 110k +15 200k || Untimed 14 95k || 15 170k || 4x M+ Vault packages|| KSM = 1500K || 50-60 boost ||Twisting Corridors 1-8|| HC 10/10CN || Mythic CN ||Mounts & Hunter Pets || /w me to book: ) Gold only <3  ", -- [1]
 			"Disstressed-Outland", -- [2]
@@ -1210,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDisstressed|r",
 			[51] = 1620158709,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [47]
 		{
 			"WTS arena rating / cq cap for gold /w me (3050exp / cheap)", -- [1]
 			"Tristanä-Outland", -- [2]
@@ -1232,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Tristanä|r",
 			[51] = 1620158731,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
+		}, -- [48]
 		{
 			"WTS Key 0-18  14  =100k   - 15= 150K - 16=320K 17=500K    boost lvlup 50-60 under 4h Boost    keystone master   only 1150k gold and 100% guarantee For In time.... Whisper Me For More Info", -- [1]
 			"Akcent-Outland", -- [2]
@@ -1254,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Akcent|r",
 			[51] = 1620158731,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
+		}, -- [49]
 		{
 			"|cffffd100|HclubFinder:ClubFinder-1-234641-1301-103875971|h[Guild: BlackEagles]|h|r  Fresh guild. Mainly will focus on pvp (rbg and arenas). Socials and M+ players are welcome to join as well", -- [1]
 			"Buzulbey-Outland", -- [2]
@@ -1276,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Buzulbey|r",
 			[51] = 1620158768,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [50]
 		{
 			"WHEN PATCH?", -- [1]
 			"Papan-Outland", -- [2]
@@ -1298,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcPapan|r",
 			[51] = 1620158784,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [51]
 		{
 			"WTS |cffa335ee|Hitem:184793::::::::60:577::1:3:6652:1472:6646:1:28:2044:::|h[Huntmaster Sullivan's Greaves]|h|r|cffa335ee|Hitem:183010::::::::60:577::5:4:7188:6652:1485:6646:1:28:752:::|h[Stud-Scarred Footwear]|h|r", -- [1]
 			"Rygoz-Outland", -- [2]
@@ -1320,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Rygoz|r",
 			[51] = 1620158835,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [52]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:1792:Player-1301-0A44C97F:1:5:4:21:4294967295:4294967295:4294967295:4294967295|h[Aw, Isn't It Cute?]|h|r!", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1342,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1620158904,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [61]
+		}, -- [53]
 		{
 			"Squeeze on Xanthoros", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1364,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1624228487,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [62]
+		}, -- [54]
 		{
 			"Squeeze on Xanthoros", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1386,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1624964957,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [63]
+		}, -- [55]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10710:Player-1301-0A44C97F:1:9:3:21:4294967295:4294967295:4294967295:4294967295|h[Black Rook Moan]|h|r!", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1408,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1630700881,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [64]
+		}, -- [56]
 		{
 			"Interrupted Táctico Tronaforjado's |cff71d5ff|Hspell:59166:0|h[Haz soldador]|h|r!", -- [1]
 			"Galadhad-DunModr", -- [2]
@@ -1430,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Galadhad-DunModr|r",
 			[51] = 1630947736,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [65]
+		}, -- [57]
 		{
 			"follow me", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1452,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1630947842,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [66]
+		}, -- [58]
 		{
 			"dont pull", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1474,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1630947844,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [67]
+		}, -- [59]
 		{
 			"Interrupted Táctico Tronaforjado's |cff71d5ff|Hspell:59166:0|h[Haz soldador]|h|r!", -- [1]
 			"Galadhad-DunModr", -- [2]
@@ -1496,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Galadhad-DunModr|r",
 			[51] = 1630947850,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [68]
+		}, -- [60]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:1834:Player-1301-0A44C97F:1:9:6:21:4294967295:4294967295:4294967295:4294967295|h[Lightning Struck]|h|r!", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1518,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1630947946,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [69]
+		}, -- [61]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:2042:Player-1301-0A44C97F:1:9:6:21:4294967295:4294967295:4294967295:4294967295|h[Shatter Resistant]|h|r!", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1540,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1630948351,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [70]
+		}, -- [62]
 		{
 			"Interrupted Tronador de titanio's |cff71d5ff|Hspell:59179:0|h[Lanzar]|h|r!", -- [1]
 			"Galadhad-DunModr", -- [2]
@@ -1562,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Galadhad-DunModr|r",
 			[51] = 1630948394,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [71]
+		}, -- [63]
 		{
 			"Interrupted Tronador de titanio's |cff71d5ff|Hspell:59179:0|h[Lanzar]|h|r!", -- [1]
 			"Galadhad-DunModr", -- [2]
@@ -1584,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Galadhad-DunModr|r",
 			[51] = 1630948423,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [72]
+		}, -- [64]
 		{
 			"Interrupted Tronador de titanio's |cff71d5ff|Hspell:59179:0|h[Lanzar]|h|r!", -- [1]
 			"Galadhad-DunModr", -- [2]
@@ -1606,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Galadhad-DunModr|r",
 			[51] = 1630948496,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [73]
+		}, -- [65]
 		{
 			"Interrupted Vórtice tormentoso's |cff71d5ff|Hspell:60236:0|h[Ciclón]|h|r!", -- [1]
 			"Galadhad-DunModr", -- [2]
@@ -1628,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Galadhad-DunModr|r",
 			[51] = 1630948527,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [74]
+		}, -- [66]
 		{
 			"Interrupted Ensamblaje Tronaforjado's |cff71d5ff|Hspell:59152:0|h[Relámpago bifurcado]|h|r!", -- [1]
 			"Galadhad-DunModr", -- [2]
@@ -1650,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Galadhad-DunModr|r",
 			[51] = 1630948746,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [75]
+		}, -- [67]
 		{
 			"Interrupted Creador de runas Tronaforjado's |cff71d5ff|Hspell:61581:0|h[Aluvión cargado]|h|r!", -- [1]
 			"Galadhad-DunModr", -- [2]
@@ -1672,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Galadhad-DunModr|r",
 			[51] = 1630948770,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [76]
+		}, -- [68]
 		{
 			"Interrupted Creador de runas Tronaforjado's |cff71d5ff|Hspell:61581:0|h[Aluvión cargado]|h|r!", -- [1]
 			"Galadhad-DunModr", -- [2]
@@ -1694,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Galadhad-DunModr|r",
 			[51] = 1630948796,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [77]
+		}, -- [69]
 		{
 			"wait", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1716,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1630948813,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [78]
+		}, -- [70]
 		{
 			"Interrupted Creador de runas Tronaforjado's |cff71d5ff|Hspell:61581:0|h[Aluvión cargado]|h|r!", -- [1]
 			"Galadhad-DunModr", -- [2]
@@ -1738,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Galadhad-DunModr|r",
 			[51] = 1630948836,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [79]
+		}, -- [71]
 		{
 			"Interrupted Creador de runas Tronaforjado's |cff71d5ff|Hspell:61581:0|h[Aluvión cargado]|h|r!", -- [1]
 			"Galadhad-DunModr", -- [2]
@@ -1760,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Galadhad-DunModr|r",
 			[51] = 1630948882,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [80]
+		}, -- [72]
 		{
 			"Interrupted Creador de runas Tronaforjado's |cff71d5ff|Hspell:61581:0|h[Aluvión cargado]|h|r!", -- [1]
 			"Galadhad-DunModr", -- [2]
@@ -1782,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Galadhad-DunModr|r",
 			[51] = 1630949096,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [81]
+		}, -- [73]
 		{
 			"wait patrol", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1804,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1630949151,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [82]
+		}, -- [74]
 		{
 			"wait no patrol", -- [1]
 			"Galadhad-DunModr", -- [2]
@@ -1826,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Galadhad-DunModr|r",
 			[51] = 1630949157,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [83]
+		}, -- [75]
 		{
 			"thats what i meant xD", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1848,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1630949169,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [84]
+		}, -- [76]
 		{
 			"run in", -- [1]
 			"Galadhad-DunModr", -- [2]
@@ -1870,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Galadhad-DunModr|r",
 			[51] = 1630949192,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [85]
+		}, -- [77]
 		{
 			"Interrupted Ensamblaje Tronaforjado's |cff71d5ff|Hspell:59152:0|h[Relámpago bifurcado]|h|r!", -- [1]
 			"Galadhad-DunModr", -- [2]
@@ -1892,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Galadhad-DunModr|r",
 			[51] = 1630949216,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [86]
+		}, -- [78]
 		{
 			"wp", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1914,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1630949232,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [87]
+		}, -- [79]
 		{
 			"Interrupted Ensamblaje Tronaforjado's |cff71d5ff|Hspell:59152:0|h[Relámpago bifurcado]|h|r!", -- [1]
 			"Galadhad-DunModr", -- [2]
@@ -1936,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Galadhad-DunModr|r",
 			[51] = 1630949260,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [88]
+		}, -- [80]
 		{
 			"is hard read chat?", -- [1]
 			"Galadhad-DunModr", -- [2]
@@ -1958,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Galadhad-DunModr|r",
 			[51] = 1630949278,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [89]
+		}, -- [81]
 		{
 			"yeah wtf who pulled?", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1980,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1630949299,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [90]
+		}, -- [82]
 		{
 			"priest", -- [1]
 			"Galadhad-DunModr", -- [2]
@@ -2002,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Galadhad-DunModr|r",
 			[51] = 1630949307,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [91]
+		}, -- [83]
 		{
 			"sad", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -2024,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1630949354,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [92]
+		}, -- [84]
 		{
 			"stack one me", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -2046,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1630949484,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [93]
+		}, -- [85]
 		{
 			"big bear with blue", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -2068,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1630949488,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [94]
+		}, -- [86]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:486:Player-1301-0A44C97F:1:9:6:21:4294967295:4294967295:4294967295:4294967295|h[Halls of Lightning]|h|r!", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -2090,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1630949581,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [95]
+		}, -- [87]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:497:Player-1301-0A44C97F:1:9:6:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: Halls of Lightning]|h|r!", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -2112,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1630949581,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [96]
+		}, -- [88]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:1867:Player-1301-0A44C97F:1:9:6:21:4294967295:4294967295:4294967295:4294967295|h[Timely Death]|h|r!", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -2134,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1630949581,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [97]
+		}, -- [89]
 		{
 			"Sylvanas boosting community running curver ever 40 min  /|cff66bbff|Hjournal:1:2441:15|h[Sylvanas Windrunner]|h|r 170k / |cff66bbff|Hjournal:1:2440:15|h[Kel'Thuzad]|h|r 100k both 250k whisper me for more info ", -- [1]
 			"Knjax-Outland", -- [2]
@@ -2156,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cKnjax|r",
 			[51] = 1630949657,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [90]
 		{
 			"<Sylvanas Boost Community> Selling [Ahead Of The Curve] Kel'Thuzad and Sylvanas [250k] // Kel'Thuzad by itself [100k]// Sylvanas By itself [170k] // We have runs going every 40min /w me for more info!", -- [1]
 			"Damzadv-Outland", -- [2]
@@ -2178,6 +2002,182 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Damzadv|r",
 			[51] = 1630949667,
 			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [91]
+		{
+			"<<NOVA>>  Offering  10/10 Sod HC 550K Traders Avaible ||M+10=90k|| ||M+14=165k|| ||M+15=200k|| ||M+16=300K|| ||M+17=400K|| <<<  Weekly  +15 185k!  >>> Torghast And PVP 2s 3s  /w for More Info", -- [1]
+			"Novagamîng-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Novagamîng-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2054, -- [11]
+			"Player-1301-0C063D2A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Novagamîng|r",
+			[51] = 1632826887,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"WTS Torghast Boost 1-12 - flawless..., Best price /w for info", -- [1]
+			"Deciv-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Deciv-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2056, -- [11]
+			"Player-1301-089117D2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Deciv|r",
+			[51] = 1632826936,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"WHO WANTS TO PLAY PORTAL ROULETTE", -- [1]
+			"Summersnoww-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Summersnoww-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2057, -- [11]
+			"Player-1301-08873AB6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaSummersnoww|r",
+			[51] = 1632826938,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"|cff71d5ff|Hspell:6552:0|h[Pummel]|h|r interrupted Neferset Darkcaster's |cff71d5ff|Hspell:82765:0|h[Shadow Bolt]|h|r!", -- [1]
+			"Gangz-Ravencrest", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Gangz-Ravencrest", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2120, -- [11]
+			"Player-1329-09B1634F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cGangz-Ravencrest|r",
+			[51] = 1632827324,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [95]
+		{
+			"I guess we need to kill Aagh first", -- [1]
+			"Norataenelyn-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Norataenelyn-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2141, -- [11]
+			"Player-3702-09323102", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Norataenelyn-ArgentDawn|r",
+			[51] = 1632827502,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [96]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:4848:Player-1301-0A44C97F:1:9:28:21:4294967295:4294967295:4294967295:4294967295|h[Lost City of the Tol'vir]|h|r!", -- [1]
+			"Xanthoros-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xanthoros-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2175, -- [11]
+			"Player-1301-0A44C97F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Xanthoros|r",
+			[51] = 1632827808,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [97]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:5066:Player-1301-0A44C97F:1:9:28:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: Lost City of the Tol'vir]|h|r!", -- [1]
+			"Xanthoros-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xanthoros-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2176, -- [11]
+			"Player-1301-0A44C97F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Xanthoros|r",
+			[51] = 1632827808,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [98]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:4476:Player-1301-0A44C97F:1:9:28:21:4294967295:4294967295:4294967295:4294967295|h[Looking For More]|h|r!", -- [1]
+			"Xanthoros-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xanthoros-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2186, -- [11]
+			"Player-1301-0A44C97F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Xanthoros|r",
+			[51] = 1632827808,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {

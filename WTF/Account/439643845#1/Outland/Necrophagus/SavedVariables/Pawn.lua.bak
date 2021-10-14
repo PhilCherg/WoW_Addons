@@ -64,10 +64,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:186377::::::::60:265::5:5:7188:6652:7574:1485:6646:1:28:2044:::::|h[Tarnished Insignia of Quel'Thalas]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 186428,
-			["Level"] = 239,
+			["ID"] = 178809,
+			["Level"] = 242,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cffa335ee|Hitem:186428::::::::60:267::5:4:7188:6652:1485:6646:1:28:2105:::::|h[Shadowed Orb of Torment]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178809::::::::60:267::16:5:7359:6652:7605:1556:6646:1:28:1279:::::|h[Soulletting Ruby]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 186428,
@@ -87,10 +87,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:186385:6229:::::::60:267::5:4:7188:6652:1485:6646:1:28:2105:::::|h[Signe's Sonorous Scramaseax]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 186385,
-			["Level"] = 239,
-			["AlsoFitsIn"] = 16,
-			["Link"] = "|cffa335ee|Hitem:186385:6229:::::::60:266::5:4:7188:6652:1485:6646:1:28:2105:::::|h[Signe's Sonorous Scramaseax]|h|r",
+			["ID"] = 178868,
+			["Level"] = 246,
+			["Link"] = "|cffa335ee|Hitem:178868::::::::60:267::35:5:7662:7359:6652:1560:6646::::::|h[Deathwalker's Promise]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,

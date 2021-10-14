@@ -1,18 +1,23 @@
 # AllTheThings
 
-## [SL-2.4.4](https://github.com/DFortun81/AllTheThings/tree/SL-2.4.4) (2021-09-19)
-[Full Changelog](https://github.com/DFortun81/AllTheThings/compare/SL-2.4.3...SL-2.4.4) [Previous Releases](https://github.com/DFortun81/AllTheThings/releases)
+## [SL-2.4.9](https://github.com/DFortun81/AllTheThings/tree/SL-2.4.9) (2021-10-12)
+[Full Changelog](https://github.com/DFortun81/AllTheThings/compare/SL-2.4.8...SL-2.4.9) [Previous Releases](https://github.com/DFortun81/AllTheThings/releases)
 
 ### Highlights of this update
 
-- World bosses are back in the `/att wq` list, don't forget to down them!
-- For gender specific titles (e.g. Lord of War / Lady of War) we will now consider both collected if you collect one of them.
+Mainly fixes after the last release that had lots of reworked logic.
 
 ### Notable changes:
 
-- Modified the Refresh function to only refresh visible windows (Shift+Click on any ATT window or minimap button).
-- Moved WoD, Legion and BfA Expansion Features under their respective headers in Expansion Features.
-- More strings in the addon should be localized in your game client's language.
-- Quite a few old quests added in various expansions.
-- Updated Zone and Promo icons.
-- Various fixes.
+- Recipe reagents in the tradeskill UI will once again properly show ATT information.
+- For all you Unique collectors out there fixed a special case when Blizzard returns invalid data about items. You will see in the tooltip if you need another manual refresh (Shift+Click) to fix it.
+- Fixed tooltips showing "---" when using "Collection Progress > Icon Only".
+- Fixed Recipes not showing collection status in tooltip.
+- "Known by" list is properly alphabetized again.
+- Drop chance logic:
+    - Best Loot Spec chance now shows all specs which were calculated to have the same best chance
+    - Adjusted alignment/colors for drop chances
+- Added "Sarge's Tale", new Hearthstone mount. In order to receive this mount, complete Hearthstone's Mercenaries Mode tutorial and send your party on a mission.
+
+### Known issues:
+If you track recipes, some extra things (like talents or "Revive all Battle Pets" abilities) will have the "Collected/Not collected" text.

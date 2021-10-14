@@ -1,7 +1,11 @@
 # <DBM> Dungeons (BC)
 
-## [r26](https://github.com/DeadlyBossMods/DBM-Dungeons/tree/r26) (2021-07-21)
-[Full Changelog](https://github.com/DeadlyBossMods/DBM-Dungeons/compare/r25...r26) [Previous Releases](https://github.com/DeadlyBossMods/DBM-Dungeons/releases)
+## [r28](https://github.com/DeadlyBossMods/DBM-Dungeons/tree/r28) (2021-10-11)
+[Full Changelog](https://github.com/DeadlyBossMods/DBM-Dungeons/compare/r27...r28) [Previous Releases](https://github.com/DeadlyBossMods/DBM-Dungeons/releases)
 
-- Update world boss sync code  
-- Fix missing target arg on zuramat  
+- Update scanformobs  
+- Fix error  
+- Fixed warning type on Yanzhu blackout brew  
+    Added voice pack support to Stormstoute Brewery in prep for timewalking  
+    Improved color bar by type support to stormstoute brewery for timewalking  
+    Did some redundant warning/spam cleanup of Stormstoute Brewery for timewalking  

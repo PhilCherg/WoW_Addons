@@ -1,5 +1,5 @@
 
 PremadeGroupsFilterState = {
-	["moveable"] = false,
 	["expert"] = false,
+	["moveable"] = false,
 }

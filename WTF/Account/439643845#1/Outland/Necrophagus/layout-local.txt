@@ -37,8 +37,8 @@ H: 240
 Frame: AllTheThings-Window-Prime
 FrameLevel: 1
 Anchor: CENTER
-X: -19
-Y: 63
+X: -227
+Y: 123
 W: 461
 H: 435
 Frame: AllTheThings-Window-Bounty
@@ -71,9 +71,9 @@ W: 380
 H: 200
 Frame: AchievementTracker
 FrameLevel: 1
-Anchor: CENTER
-X: 102
-Y: 69
+Anchor: TOPLEFT
+X: 24
+Y: -113
 W: 800
 H: 500
 Frame: PawnUIFrame

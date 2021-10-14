@@ -2,1040 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"LF1M |cffffff00|Hachievement:14322:Player-1301-0703A706:0:0:0:-1:266244:0:0:0|h[Glory of the Shadowlands Hero]|h|r", -- [1]
-			"Lindamaie-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lindamaie-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2180, -- [11]
-			"Player-1301-0703A706", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcLindamaie|r",
-			[51] = 1630185163,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"WTS M10 - M20 (ArMor Stack) WTS Torghast 8-12 (Flawless) WTS KSM 8x15 or push (score 2k) WTS Tazavesh NM & HM / W me For info", -- [1]
-			"Lookas-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lookas-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2189, -- [11]
-			"Player-1301-0BF581DA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Lookas|r",
-			[51] = 1630185173,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"<<NOVA>>  Offering  10/10 Sod HC 900K Traders Avaible ||M+10=125k|| ||M+14=220k|| ||M+15=275k|| ||M+16=400K|| ||M+17=550K|| <<<  Weekly  +15 245k!  >>> Torghast And PVP 2s 3s  /w for More Info", -- [1]
-			"Novagamîng-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novagamîng-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2368, -- [11]
-			"Player-1301-0C063D2A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Novagamîng|r",
-			[51] = 1630185406,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"WTS Boost Mythic (+15 260k) (+14 220k) In Time Share Loot /w me for more info", -- [1]
-			"Angelbloody-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Angelbloody-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2369, -- [11]
-			"Player-1301-086A0446", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Angelbloody|r",
-			[51] = 1630185407,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"WTS Mythic+ 15-20 /lvling boost 50-60/ Torghast (layer 1-12) for gold /w me for info", -- [1]
-			"Peros-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Peros-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2374, -- [11]
-			"Player-1301-0B9C0ECB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Peros|r",
-			[51] = 1630185437,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
-		{
-			"there is aquestion in arena", -- [1]
-			"Bestone-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Bestone-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2501, -- [11]
-			"Player-1301-04B7BF0F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Bestone|r",
-			[51] = 1630185742,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
-		{
-			"how can priest can back to life in arena if venthyr", -- [1]
-			"Bestone-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Bestone-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2502, -- [11]
-			"Player-1301-04B7BF0F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Bestone|r",
-			[51] = 1630185756,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
-		{
-			"no", -- [1]
-			"Lithosphère-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lithosphère-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2503, -- [11]
-			"Player-1301-0B262229", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcLithosphère|r",
-			[51] = 1630185757,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
-		{
-			"LF SOMEONE TO CRAFT ME 235 NECK PAYING 8K FEE", -- [1]
-			"Turenóx-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Turenóx-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2504, -- [11]
-			"Player-1301-051C0C7D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Turenóx|r",
-			[51] = 1630185821,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
-		{
-			"LF SOMEONE TO MAKE ME |cffffffff|Hitem:178927::::::::60:253::66:3:6758:7194:1532:1:28:2142::::Player-1301-0B141BED:|h[Shadowghast Necklace]|h|r PAYING 8K FEE", -- [1]
-			"Turenóx-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Turenóx-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2659, -- [11]
-			"Player-1301-051C0C7D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Turenóx|r",
-			[51] = 1630186017,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:15076:Player-1301-07B3A10E:1:8:29:21:4294967295:4294967295:4294967295:4294967295|h[The Box of Many Things]|h|r!", -- [1]
-			"Avèron-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Avèron-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2978, -- [11]
-			"Player-1301-07B3A10E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edAvèron|r",
-			[51] = 1630186449,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [11]
-		{
-			"<<NOVA>>  Offering  10/10 Sod HC 900K Traders Avaible ||M+10=125k|| ||M+14=220k|| ||M+15=275k|| ||M+16=400K|| ||M+17=550K|| <<<  Weekly  +15 245k!  >>> Torghast And PVP 2s 3s  /w for More Info", -- [1]
-			"Novagamîng-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novagamîng-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3059, -- [11]
-			"Player-1301-0C063D2A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Novagamîng|r",
-			[51] = 1630186552,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
-		{
-			"wts|cffa335ee|Hitem:186356::::::::60:258::6:5:7187:6652:7574:1498:6646:1:28:2106:::::|h[Forlorn Prisoner's Strap]|h|r", -- [1]
-			"Shoyy-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Shoyy-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3136, -- [11]
-			"Player-1301-0B8CF047", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeShoyy|r",
-			[51] = 1630186684,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
-		{
-			"<<NOVA>>  Offering  10/10 Sod HC 900K Traders Avaible ||M+10=125k|| ||M+14=220k|| ||M+15=275k|| ||M+16=400K|| ||M+17=550K|| <<<  Weekly  +15 245k!  >>> Torghast And PVP 2s 3s  /w for More Info", -- [1]
-			"Novagamîng-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novagamîng-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3789, -- [11]
-			"Player-1301-0C063D2A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Novagamîng|r",
-			[51] = 1630187716,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
-		{
-			"<       <<<WTS mythic +n ,tazavesh normal (226) , hardmode (233) and  torghast 1-12 for gold /w for info * fair price >>>>      > ", -- [1]
-			"Klng-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Klng-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3881, -- [11]
-			"Player-1301-0BF99C2A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Klng|r",
-			[51] = 1630187864,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
-		{
-			"WTS Mythic+ 15-20 /lvling boost 50-60/ Torghast (layer 1-12) for gold /w me for info", -- [1]
-			"Peros-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Peros-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3956, -- [11]
-			"Player-1301-0B9C0ECB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Peros|r",
-			[51] = 1630187956,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
-		{
-			"WTS Boost Mythic (+15 260k) (+14 220k) In Time Share Loot /w me for more info", -- [1]
-			"Angelbloody-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Angelbloody-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3963, -- [11]
-			"Player-1301-086A0446", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Angelbloody|r",
-			[51] = 1630188044,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
-		{
-			"<       <<<WTS mythic +n ,tazavesh normal (226) , hardmode (233) and  torghast 1-12 for gold /w for info * fair price >>>>      > ", -- [1]
-			"Klng-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Klng-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3972, -- [11]
-			"Player-1301-0BF99C2A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Klng|r",
-			[51] = 1630188128,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
-		{
-			"wtb|cff0070dd|Hitem:173216::::::::60:63:::::::::|h[Shadowlace Footwraps]|h|r WITH HASTE VERS /W ME ", -- [1]
-			"Voidict-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Voidict-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3985, -- [11]
-			"Player-1301-0BA30C8A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaVoidict|r",
-			[51] = 1630188143,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
-		{
-			"wtb|cff0070dd|Hitem:173216::::::::60:63:::::::::|h[Shadowlace Footwraps]|h|r WITH HASTE VERS /W ME", -- [1]
-			"Voidict-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Voidict-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3986, -- [11]
-			"Player-1301-0BA30C8A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaVoidict|r",
-			[51] = 1630188143,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
-		{
-			"<<NOVA>>  Offering  10/10 Sod HC 900K Traders Avaible ||M+10=125k|| ||M+14=220k|| ||M+15=275k|| ||M+16=400K|| ||M+17=550K|| <<<  Weekly  +15 245k!  >>> Torghast And PVP 2s 3s  /w for More Info", -- [1]
-			"Novagamîng-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novagamîng-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			4444, -- [11]
-			"Player-1301-0C063D2A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Novagamîng|r",
-			[51] = 1630188775,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
-		{
-			"WTS 0-15 M+ for cheap price /w for info ;)", -- [1]
-			"Klng-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Klng-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			4546, -- [11]
-			"Player-1301-0BF99C2A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Klng|r",
-			[51] = 1630188930,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
-		{
-			"<       <<<WTS mythic +n ,tazavesh normal (226) , hardmode (233) and  torghast 1-12 for gold /w for info * fair price >>>>      > ", -- [1]
-			"Klng-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Klng-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			4743, -- [11]
-			"Player-1301-0BF99C2A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Klng|r",
-			[51] = 1630189386,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
-		{
-			"<<< NOVA >>> Torghast Boost Layer 1-12 || Leveling Boost || || M+ Boost 0-19 Timed || ||Weekly || <Tazavesh> || Sanctum of Domination nm , hc ||  /w for more info.  ((((Weekend Hot Deals)))) ", -- [1]
-			"Novaland-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novaland-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			4859, -- [11]
-			"Player-1301-0C0D5A6F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaNovaland|r",
-			[51] = 1630189530,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
-		{
-			"<       <<<WTS mythic +n ,tazavesh normal (226) , hardmode (233) and  torghast 1-12 for gold /w for info * fair price >>>>      > ", -- [1]
-			"Klng-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Klng-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			4908, -- [11]
-			"Player-1301-0BF99C2A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Klng|r",
-			[51] = 1630189590,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
-		{
-			"<<< NOVA >>> Torghast Boost Layer 1-12 || Leveling Boost || || M+ Boost 0-19 Timed || ||Weekly || <Tazavesh> || Sanctum of Domination nm , hc ||  /w for more info.  ((((Weekend Hot Deals)))) ", -- [1]
-			"Novaland-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novaland-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			4967, -- [11]
-			"Player-1301-0C0D5A6F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaNovaland|r",
-			[51] = 1630189694,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
-		{
-			"<<NOVA>>  Offering  10/10 Sod HC 900K Traders Avaible ||M+10=125k|| ||M+14=220k|| ||M+15=275k|| ||M+16=400K|| ||M+17=550K|| <<<  Weekly  +15 245k!  >>> Torghast And PVP 2s 3s  /w for More Info", -- [1]
-			"Novagamîng-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novagamîng-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			5315, -- [11]
-			"Player-1301-0C063D2A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Novagamîng|r",
-			[51] = 1630190160,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
-		{
-			"anyone wanna do a few normal bosses?", -- [1]
-			"Hacksore-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Hacksore-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			5460, -- [11]
-			"Player-1301-0C073C38", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cHacksore|r",
-			[51] = 1630190343,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
-		{
-			"what is wrong with this lazy people? go pvp", -- [1]
-			"Lojszty-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lojszty-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			5529, -- [11]
-			"Player-1301-0C0C15E6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Lojszty|r",
-			[51] = 1630190460,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:13878:Player-1301-09DCD679:1:8:29:21:4294967295:4294967295:4294967295:4294967295|h[The Master of Revendreth]|h|r!", -- [1]
-			"Zeqorah-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Zeqorah-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			5539, -- [11]
-			"Player-1301-09DCD679", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cZeqorah|r",
-			[51] = 1630190468,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [30]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14164:Player-1301-09DCD679:1:8:29:21:4294967295:4294967295:4294967295:4294967295|h[Awaken, Ardenweald]|h|r!", -- [1]
-			"Zeqorah-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Zeqorah-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			5540, -- [11]
-			"Player-1301-09DCD679", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cZeqorah|r",
-			[51] = 1630190468,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [31]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14961:Player-1301-08E8E4E5:1:8:29:21:4294967295:4294967295:4294967295:4294967295|h[Chains of Domination]|h|r!", -- [1]
-			"Whoisthemage-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Whoisthemage-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			5663, -- [11]
-			"Player-1301-08E8E4E5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Whoisthemage|r",
-			[51] = 1630190624,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [32]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14835:Player-1301-09DCD679:1:8:29:21:4294967295:4294967295:4294967295:4294967295|h[A Resolute Bond]|h|r!", -- [1]
-			"Zeqorah-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Zeqorah-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			5825, -- [11]
-			"Player-1301-09DCD679", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cZeqorah|r",
-			[51] = 1630190855,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [33]
-		{
-			"[ Gino's Mercenaries ] Selling Mythic+ Dungeons || M+10 || M+12 || M+14 || M+15 || M+16 || Keystone Master || Torghast Layer 1 to 12 || Tazavesh NM & HM || || Raid Sanctum of Domination NM & HC || Accepting gold on all EU realms. DM me for info :)", -- [1]
-			"Mæriine-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mæriine-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			6070, -- [11]
-			"Player-1301-0BD67505", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaMæriine|r",
-			[51] = 1630191195,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
-		{
-			"<<NOVA>>  Offering  10/10 Sod HC 900K Traders Avaible ||M+10=125k|| ||M+14=220k|| ||M+15=275k|| ||M+16=400K|| ||M+17=550K|| <<<  Weekly  +15 245k!  >>> Torghast And PVP 2s 3s  /w for More Info", -- [1]
-			"Novagamîng-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novagamîng-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			6153, -- [11]
-			"Player-1301-0C063D2A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Novagamîng|r",
-			[51] = 1630191298,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
-		{
-			"18k p/w - rsham WTB full cap", -- [1]
-			"Northodox-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Northodox-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			6206, -- [11]
-			"Player-1301-04F55A47", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcNorthodox|r",
-			[51] = 1630191361,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
-		{
-			"[ Gino's Mercenaries ] Selling Mythic+ Dungeons || M+10 || M+12 || M+14 || M+15 || M+16 || Keystone Master || Torghast Layer 1 to 12 || Tazavesh NM & HM || || Raid Sanctum of Domination NM & HC || Accepting gold on all EU realms. DM me for info :)", -- [1]
-			"Mæriine-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mæriine-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			6339, -- [11]
-			"Player-1301-0BD67505", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaMæriine|r",
-			[51] = 1630191552,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
-		{
-			"18k p/w - rsham WTB full cap", -- [1]
-			"Northodox-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Northodox-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			6628, -- [11]
-			"Player-1301-04F55A47", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcNorthodox|r",
-			[51] = 1630191948,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
-		{
-			"[ Gino's Mercenaries ] Selling Mythic+ Dungeons || M+10 || M+12 || M+14 || M+15 || M+16 || Keystone Master || Torghast Layer 1 to 12 || Tazavesh NM & HM || || Raid Sanctum of Domination NM & HC || Accepting gold on all EU realms. DM me for info :)", -- [1]
-			"Mæriine-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mæriine-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			7219, -- [11]
-			"Player-1301-0BD67505", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaMæriine|r",
-			[51] = 1630192754,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
-		{
-			"|cffa335ee|Hitem:186373::::::::60:70::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Towering Shadowghast Greatboots]|h|r WTS", -- [1]
-			"Divinevigour-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Divinevigour-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			7464, -- [11]
-			"Player-1301-0BBE3938", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Divinevigour|r",
-			[51] = 1630193065,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
-		{
-			"[ Gino's Mercenaries ] Selling Mythic+ Dungeons || M+10 || M+12 || M+14 || M+15 || M+16 || Keystone Master || Torghast Layer 1 to 12 || Tazavesh NM & HM || || Raid Sanctum of Domination NM & HC || Accepting gold on all EU realms. DM me for info :)", -- [1]
-			"Mæriine-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mæriine-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			7553, -- [11]
-			"Player-1301-0BD67505", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaMæriine|r",
-			[51] = 1630193197,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
-		{
-			"LF2M dps to mythic the eye and the nine. Need to have exp. 20.00 ", -- [1]
-			"Demoneine-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Demoneine-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1041, -- [11]
-			"Player-1301-0C01CC2E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Demoneine|r",
-			[51] = 1630946295,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
-		{
-			"Sylvanas boosting community running curver ever 40 min  /|cff66bbff|Hjournal:1:2441:15|h[Sylvanas Windrunner]|h|r 170k / |cff66bbff|Hjournal:1:2440:15|h[Kel'Thuzad]|h|r 100k both 250k whisper me for more info ", -- [1]
-			"Knjax-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Knjax-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1744, -- [11]
-			"Player-1301-0C0EC499", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cKnjax|r",
-			[51] = 1630949717,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
-		{
-			"oh boy", -- [1]
-			"Illyana-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Illyana-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1771, -- [11]
-			"Player-1301-09F61344", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Illyana|r",
-			[51] = 1630949965,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [44]
-		{
-			"this will be a long dungeon", -- [1]
-			"Illyana-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Illyana-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1772, -- [11]
-			"Player-1301-09F61344", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Illyana|r",
-			[51] = 1630949970,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [45]
-		{
-			"dont pull everything and it will go quicker. remember you have less stats!", -- [1]
-			"Petéy-Stormrage", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Petéy-Stormrage", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1773, -- [11]
-			"Player-1417-05927B9D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Petéy-Stormrage|r",
-			[51] = 1630949991,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [46]
-		{
-			"or not", -- [1]
-			"Petéy-Stormrage", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Petéy-Stormrage", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1781, -- [11]
-			"Player-1417-05927B9D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Petéy-Stormrage|r",
-			[51] = 1630950049,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [47]
-		{
 			"feared", -- [1]
 			"Illyana-Outland", -- [2]
 			"", -- [3]
@@ -1056,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1630950059,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [48]
+		}, -- [1]
 		{
 			"what 3 times as you kept running into more packs?", -- [1]
 			"Petéy-Stormrage", -- [2]
@@ -1078,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Petéy-Stormrage|r",
 			[51] = 1630950074,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [49]
+		}, -- [2]
 		{
 			"mhm", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1100,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1630950080,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [50]
+		}, -- [3]
 		{
 			"5 secone fear", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1122,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1630950082,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [51]
+		}, -- [4]
 		{
 			"thats what it looks like", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1144,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1630950086,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [52]
+		}, -- [5]
 		{
 			"mage, can i get a table after this", -- [1]
 			"Petéy-Stormrage", -- [2]
@@ -1166,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Petéy-Stormrage|r",
 			[51] = 1630950382,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [53]
+		}, -- [6]
 		{
 			"burning mana", -- [1]
 			"Petéy-Stormrage", -- [2]
@@ -1188,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Petéy-Stormrage|r",
 			[51] = 1630950384,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [54]
+		}, -- [7]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:478:Player-1301-09F61344:1:9:6:21:4294967295:4294967295:4294967295:4294967295|h[The Nexus]|h|r!", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1210,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1630951277,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [55]
+		}, -- [8]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:490:Player-1301-09F61344:1:9:6:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Nexus]|h|r!", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1232,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1630951277,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [56]
+		}, -- [9]
 		{
 			"<Sylvanas Boost Community> Selling [Ahead Of The Curve] Kel'Thuzad and Sylvanas [250k] // Kel'Thuzad by itself [100k]// Sylvanas By itself [170k] // We have runs going every 40min /w me for more info!", -- [1]
 			"Damzadv-Outland", -- [2]
@@ -1254,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Damzadv|r",
 			[51] = 1630951319,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
+		}, -- [10]
 		{
 			"<Nova> Selling  ||Sylvanas HC 170k ||KT+Sylvanas 250k || M+10=110k || M+14 = 190k || M+15 = 245k intime - 205k out of time || M+16 = 380k || M+ 20 = 925k||Tazavesh NM 170k - HM 340k || Raid Normal 200k - Heroic 700k || Torghast ||PVP  /w for info", -- [1]
 			"Exovia-Outland", -- [2]
@@ -1276,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Exovia|r",
 			[51] = 1630951326,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [11]
 		{
 			"<Icecrown> Offering HC Sylvanas 180k || HC Sylv+Kel 270k || HC 10/10 700k || M+14 190k || M+15 245k || Torghast layer 1-12 || Gold only /w for more info", -- [1]
 			"Icctku-Outland", -- [2]
@@ -1298,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaIcctku|r",
 			[51] = 1630951406,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [12]
 		{
 			"<Twilight> selling ,Get your |cffffff00|Hachievement:15126:Player-1396-0AAB9997:0:0:0:-1:0:0:0:0|h[Sanctum of Domination]|h|r curve sylva 160k kt 100k both260 and full run . ur spot ready right now / shift now Available /w book right now", -- [1]
 			"Wildroz-Outland", -- [2]
@@ -1320,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Wildroz|r",
 			[51] = 1630951410,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [13]
 		{
 			"Nova Offering |cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r  10/10 HC=600k  VIP Trader 400k. M+10=110k  M+14=190K M+15=205k M+16=380k ( 5% off for 2x & 10 % off 4x run).Sylvanas Curve RUN 170k Tazavesh mount run HM=340k .arena &RBG boost", -- [1]
 			"Lovelysoul-Outland", -- [2]
@@ -1342,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Lovelysoul|r",
 			[51] = 1630951431,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [14]
 		{
 			"<Sylvanas Boost Community> Selling [Ahead Of The Curve] Kel'Thuzad and Sylvanas [250k] // Kel'Thuzad by itself [100k]// Sylvanas By itself [170k] // We have runs going every 40min /w me for more info!", -- [1]
 			"Damzadv-Outland", -- [2]
@@ -1364,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Damzadv|r",
 			[51] = 1630951440,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [15]
 		{
 			"<NOVA> Selling /  Sanctum HC 10/10 |cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r  650k /Sylvanas HC 160k  / Kel'Thuzad HC 100k / 2 Last Bosess  240k /M+10 105k / M+14 190k / M+15 200k /M+16 350k / M+15 Time 240k / M+17 500k / M+18 600k", -- [1]
 			"Novabostt-Outland", -- [2]
@@ -1386,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novabostt|r",
 			[51] = 1631031673,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [16]
 		{
 			"<RCU> [WTS] HC [Sylvanas Windrunner] 160k for GOLD! Now  Every 20 minute Get 246 ilvl Loot and |cffffff00|Hachievement:15134:Player-1301-0BFAA238:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sylvanas Windrunner]|h|r /w me for more info !", -- [1]
 			"Abcent-Outland", -- [2]
@@ -1408,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Abcent|r",
 			[51] = 1631031674,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [17]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:1834:Player-1301-08CF882B:1:9:7:21:4294967295:4294967295:4294967295:4294967295|h[Lightning Struck]|h|r!", -- [1]
 			"Papibaki-Outland", -- [2]
@@ -1430,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefePapibaki|r",
 			[51] = 1631033461,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [65]
+		}, -- [18]
 		{
 			"WTS Mythic+ 15-20 /lvling boost 50-60/ Torghast (layer 1-12) for gold /w me for info", -- [1]
 			"Peros-Outland", -- [2]
@@ -1452,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Peros|r",
 			[51] = 1631121586,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [19]
 		{
 			"hello", -- [1]
 			"Daavidof-Drak'thul", -- [2]
@@ -1474,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Daavidof-Drak'thul|r",
 			[51] = 1631121621,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [67]
+		}, -- [20]
 		{
 			"hi", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1496,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1631121626,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [68]
+		}, -- [21]
 		{
 			"hey", -- [1]
 			"Volkeon-DunModr", -- [2]
@@ -1518,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edVolkeon-DunModr|r",
 			[51] = 1631121645,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [69]
+		}, -- [22]
 		{
 			"go in", -- [1]
 			"Volkeon-DunModr", -- [2]
@@ -1540,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edVolkeon-DunModr|r",
 			[51] = 1631121648,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [70]
+		}, -- [23]
 		{
 			"and clean ", -- [1]
 			"Volkeon-DunModr", -- [2]
@@ -1562,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edVolkeon-DunModr|r",
 			[51] = 1631121651,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [71]
+		}, -- [24]
 		{
 			"WTS Mythic+ 15-20 /lvling boost 50-60/ Torghast (layer 1-12) for gold /w me for info", -- [1]
 			"Peros-Outland", -- [2]
@@ -1584,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Peros|r",
 			[51] = 1631559373,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [25]
 		{
 			"<RCU> [WTS] HC [Sylvanas Windrunner] 150k for GOLD! Now  Every 20 minute Get 246 ilvl Loot and |cffffff00|Hachievement:15134:Player-1301-0BFAA238:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sylvanas Windrunner]|h|r /w me for more info !", -- [1]
 			"Abcent-Outland", -- [2]
@@ -1606,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Abcent|r",
 			[51] = 1631559389,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [26]
 		{
 			"WTS Sanctum of Domination Heroicl І Start in 22.00 CEST or Server Time І  FULL RUN 10/10 І  Guild run  І  Fast And smooth  І  Get you 239+ iLvl gear TONIGHT  І  PST for info!!", -- [1]
 			"Misjetta-Outland", -- [2]
@@ -1628,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Misjetta|r",
 			[51] = 1631559429,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [27]
 		{
 			"[WTS]We will help you to carry out |cffffff00|Hachievement:15135:Player-1301-0C1068CC:1:8:24:21:4294967295:4294967295:4294967295:4294967295|h[Cutting Edge: Sylvanas Windrunner]|h|r FULL 10/10 MYTHIC RUN with Loot and Mount! Start TODAY! /w me for info.", -- [1]
 			"Nesy-Outland", -- [2]
@@ -1650,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Nesy|r",
 			[51] = 1632068593,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [28]
 		{
 			"SYLVANANS COMMUNITY WTS LAST 2 BOSSES ONLY BOTH FOR 195K, KT 80K SYLVANAS WINDRUNNER 130K ", -- [1]
 			"Ooddiinn-Outland", -- [2]
@@ -1672,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cOoddiinn|r",
 			[51] = 1632068630,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [29]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:802:Player-1301-09F61344:1:9:19:21:4294967295:4294967295:4294967295:4294967295|h[Explore Westfall]|h|r!", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1694,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1632068649,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [77]
+		}, -- [30]
 		{
 			"where are sell the toy ?", -- [1]
 			"Sakuras-Sylvanas", -- [2]
@@ -1716,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Sakuras-Sylvanas|r",
 			[51] = 1632068916,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [31]
 		{
 			"صشف فخغ؟", -- [1]
 			"Jeffra-Ravencrest", -- [2]
@@ -1738,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeJeffra-Ravencrest|r",
 			[51] = 1632068925,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [32]
 		{
 			"|cffffff00|Hworldmap:210:3965:8355|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Icyyouu-Outland", -- [2]
@@ -1760,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Icyyouu|r",
 			[51] = 1632068930,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [33]
 		{
 			"What toy?", -- [1]
 			"Jeffra-Ravencrest", -- [2]
@@ -1782,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeJeffra-Ravencrest|r",
 			[51] = 1632068930,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [34]
 		{
 			"|cff0070dd|Hitem:150547::::::::60:254:::::::::|h[Jolly Roger]|h|r must have |cffffff00|Hachievement:871:Player-1301-095046F4:1:12:19:9:4294967295:4294967295:4294967295:4294967295|h[Avast Ye, Admiral!]|h|r to buy it", -- [1]
 			"Icyyouu-Outland", -- [2]
@@ -1804,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Icyyouu|r",
 			[51] = 1632068978,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [35]
 		{
 			"yo", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1826,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1632068999,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [83]
+		}, -- [36]
 		{
 			"waiting for the rare?", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1848,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1632069008,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [84]
+		}, -- [37]
 		{
 			"ya", -- [1]
 			"Jedwabisty-Silvermoon", -- [2]
@@ -1870,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Jedwabisty-Silvermoon|r",
 			[51] = 1632069012,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [85]
+		}, -- [38]
 		{
 			"nice", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1892,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1632069015,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [86]
+		}, -- [39]
 		{
 			"come", -- [1]
 			"Jedwabisty-Silvermoon", -- [2]
@@ -1914,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Jedwabisty-Silvermoon|r",
 			[51] = 1632069015,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [87]
+		}, -- [40]
 		{
 			"like 5 mins", -- [1]
 			"Jedwabisty-Silvermoon", -- [2]
@@ -1936,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Jedwabisty-Silvermoon|r",
 			[51] = 1632069039,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [88]
+		}, -- [41]
 		{
 			"till rare", -- [1]
 			"Jedwabisty-Silvermoon", -- [2]
@@ -1958,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Jedwabisty-Silvermoon|r",
 			[51] = 1632069042,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [89]
+		}, -- [42]
 		{
 			"oke", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1980,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1632069045,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [90]
+		}, -- [43]
 		{
 			"i dont have on this char but still can buy it", -- [1]
 			"Sakuras-Sylvanas", -- [2]
@@ -2002,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Sakuras-Sylvanas|r",
 			[51] = 1632069058,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [44]
 		{
 			"The achi iis account wiide", -- [1]
 			"Icyyouu-Outland", -- [2]
@@ -2024,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Icyyouu|r",
 			[51] = 1632069074,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [45]
 		{
 			"xd", -- [1]
 			"Jedwabisty-Silvermoon", -- [2]
@@ -2046,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Jedwabisty-Silvermoon|r",
 			[51] = 1632069109,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [93]
+		}, -- [46]
 		{
 			"there is another toy?", -- [1]
 			"Sakuras-Sylvanas", -- [2]
@@ -2068,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Sakuras-Sylvanas|r",
 			[51] = 1632069109,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [47]
 		{
 			"~2 min", -- [1]
 			"Jedwabisty-Silvermoon", -- [2]
@@ -2090,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Jedwabisty-Silvermoon|r",
 			[51] = 1632069274,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [95]
+		}, -- [48]
 		{
 			"oke", -- [1]
 			"Illyana-Outland", -- [2]
@@ -2112,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1632069281,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [96]
+		}, -- [49]
 		{
 			"it should be there", -- [1]
 			"Jedwabisty-Silvermoon", -- [2]
@@ -2134,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Jedwabisty-Silvermoon|r",
 			[51] = 1632069482,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [97]
+		}, -- [50]
 		{
 			"lets split", -- [1]
 			"Jedwabisty-Silvermoon", -- [2]
@@ -2156,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Jedwabisty-Silvermoon|r",
 			[51] = 1632069495,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [98]
+		}, -- [51]
 		{
 			"ty", -- [1]
 			"Illyana-Outland", -- [2]
@@ -2178,29 +1144,1063 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1632069692,
 			[50] = "CHAT_MSG_SAY",
+		}, -- [52]
+		{
+			"Interrupted Neferset Darkcaster's |cff71d5ff|Hspell:82765:0|h[Shadow Bolt]|h|r!", -- [1]
+			"Vexaeria-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vexaeria-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1756, -- [11]
+			"Player-3702-0A4EBECA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cVexaeria-ArgentDawn|r",
+			[51] = 1632824748,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [53]
+		{
+			"i have no idea where we are supposed to go xD", -- [1]
+			"Illyana-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Illyana-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1759, -- [11]
+			"Player-1301-09F61344", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Illyana|r",
+			[51] = 1632824789,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [54]
+		{
+			"all good :)", -- [1]
+			"Stàrlicker-BronzeDragonflight", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stàrlicker-BronzeDragonflight", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1760, -- [11]
+			"Player-1393-0908FCEC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Stàrlicker-BronzeDragonflight|r",
+			[51] = 1632824810,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [55]
+		{
+			"can we skip the crocodile?", -- [1]
+			"Vexaeria-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vexaeria-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1761, -- [11]
+			"Player-3702-0A4EBECA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cVexaeria-ArgentDawn|r",
+			[51] = 1632824817,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [56]
+		{
+			"Interrupted Neferset Theurgist's |cff71d5ff|Hspell:82753:0|h[Ritual of Bloodletting]|h|r!", -- [1]
+			"Xirii-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xirii-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1762, -- [11]
+			"Player-3702-0A4EC0E9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcXirii-ArgentDawn|r",
+			[51] = 1632824817,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [57]
+		{
+			"dunno ,never tried", -- [1]
+			"Stàrlicker-BronzeDragonflight", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stàrlicker-BronzeDragonflight", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1763, -- [11]
+			"Player-1393-0908FCEC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Stàrlicker-BronzeDragonflight|r",
+			[51] = 1632824827,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [58]
+		{
+			"i dont recall tbh", -- [1]
+			"Vexaeria-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vexaeria-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1764, -- [11]
+			"Player-3702-0A4EBECA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cVexaeria-ArgentDawn|r",
+			[51] = 1632824837,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [59]
+		{
+			"Interrupted Neferset Darkcaster's |cff71d5ff|Hspell:82765:0|h[Shadow Bolt]|h|r!", -- [1]
+			"Vexaeria-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vexaeria-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1765, -- [11]
+			"Player-3702-0A4EBECA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cVexaeria-ArgentDawn|r",
+			[51] = 1632824843,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [60]
+		{
+			"might as well try", -- [1]
+			"Vexaeria-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vexaeria-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1766, -- [11]
+			"Player-3702-0A4EBECA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cVexaeria-ArgentDawn|r",
+			[51] = 1632824854,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [61]
+		{
+			"not a long run", -- [1]
+			"Vexaeria-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vexaeria-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1767, -- [11]
+			"Player-3702-0A4EBECA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cVexaeria-ArgentDawn|r",
+			[51] = 1632824858,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [62]
+		{
+			"True", -- [1]
+			"Xirii-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xirii-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1768, -- [11]
+			"Player-3702-0A4EC0E9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcXirii-ArgentDawn|r",
+			[51] = 1632824868,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [63]
+		{
+			"nope", -- [1]
+			"Vexaeria-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vexaeria-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1774, -- [11]
+			"Player-3702-0A4EBECA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cVexaeria-ArgentDawn|r",
+			[51] = 1632825016,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [64]
+		{
+			"cant skip", -- [1]
+			"Vexaeria-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vexaeria-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1776, -- [11]
+			"Player-3702-0A4EBECA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cVexaeria-ArgentDawn|r",
+			[51] = 1632825017,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [65]
+		{
+			"nope", -- [1]
+			"Stàrlicker-BronzeDragonflight", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stàrlicker-BronzeDragonflight", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1777, -- [11]
+			"Player-1393-0908FCEC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Stàrlicker-BronzeDragonflight|r",
+			[51] = 1632825020,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [66]
+		{
+			"doesnt work", -- [1]
+			"Stàrlicker-BronzeDragonflight", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stàrlicker-BronzeDragonflight", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1778, -- [11]
+			"Player-1393-0908FCEC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Stàrlicker-BronzeDragonflight|r",
+			[51] = 1632825023,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [67]
+		{
+			"back", -- [1]
+			"Vexaeria-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vexaeria-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1779, -- [11]
+			"Player-3702-0A4EBECA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cVexaeria-ArgentDawn|r",
+			[51] = 1632825025,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [68]
+		{
+			"need croc boss", -- [1]
+			"Stàrlicker-BronzeDragonflight", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stàrlicker-BronzeDragonflight", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1780, -- [11]
+			"Player-1393-0908FCEC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Stàrlicker-BronzeDragonflight|r",
+			[51] = 1632825026,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [69]
+		{
+			"at least we know now", -- [1]
+			"Vexaeria-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vexaeria-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1781, -- [11]
+			"Player-3702-0A4EBECA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cVexaeria-ArgentDawn|r",
+			[51] = 1632825037,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [70]
+		{
+			":)", -- [1]
+			"Stàrlicker-BronzeDragonflight", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stàrlicker-BronzeDragonflight", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1782, -- [11]
+			"Player-1393-0908FCEC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Stàrlicker-BronzeDragonflight|r",
+			[51] = 1632825055,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [71]
+		{
+			"go around", -- [1]
+			"Vexaeria-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vexaeria-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1785, -- [11]
+			"Player-3702-0A4EBECA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cVexaeria-ArgentDawn|r",
+			[51] = 1632825103,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [72]
+		{
+			"go", -- [1]
+			"Vexaeria-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vexaeria-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1792, -- [11]
+			"Player-3702-0A4EBECA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cVexaeria-ArgentDawn|r",
+			[51] = 1632825190,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [73]
+		{
+			"go ", -- [1]
+			"Xirii-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xirii-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1793, -- [11]
+			"Player-3702-0A4EC0E9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcXirii-ArgentDawn|r",
+			[51] = 1632825190,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [74]
+		{
+			"no need to kil that due", -- [1]
+			"Xirii-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xirii-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1794, -- [11]
+			"Player-3702-0A4EC0E9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcXirii-ArgentDawn|r",
+			[51] = 1632825195,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [75]
+		{
+			"dude*", -- [1]
+			"Xirii-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xirii-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1796, -- [11]
+			"Player-3702-0A4EC0E9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcXirii-ArgentDawn|r",
+			[51] = 1632825196,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [76]
+		{
+			"Interrupted Servant of Siamat's |cff71d5ff|Hspell:84521:0|h[Thunder Crash]|h|r!", -- [1]
+			"Vexaeria-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vexaeria-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1806, -- [11]
+			"Player-3702-0A4EBECA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cVexaeria-ArgentDawn|r",
+			[51] = 1632825340,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [77]
+		{
+			"Interrupted Servant of Siamat's |cff71d5ff|Hspell:84521:0|h[Thunder Crash]|h|r!", -- [1]
+			"Vexaeria-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vexaeria-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1807, -- [11]
+			"Player-3702-0A4EBECA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cVexaeria-ArgentDawn|r",
+			[51] = 1632825361,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [78]
+		{
+			"Interrupted Servant of Siamat's |cff71d5ff|Hspell:84521:0|h[Thunder Crash]|h|r!", -- [1]
+			"Vexaeria-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vexaeria-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1808, -- [11]
+			"Player-3702-0A4EBECA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cVexaeria-ArgentDawn|r",
+			[51] = 1632825387,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [79]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:4848:Player-1301-09F61344:1:9:28:21:4294967295:4294967295:4294967295:4294967295|h[Lost City of the Tol'vir]|h|r!", -- [1]
+			"Illyana-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Illyana-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1810, -- [11]
+			"Player-1301-09F61344", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Illyana|r",
+			[51] = 1632825423,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [80]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:5066:Player-1301-09F61344:1:9:28:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: Lost City of the Tol'vir]|h|r!", -- [1]
+			"Illyana-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Illyana-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1811, -- [11]
+			"Player-1301-09F61344", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Illyana|r",
+			[51] = 1632825423,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [81]
+		{
+			"<NOVA> Selling  Sanctum HC 10/10 |cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r  550k - 8/10 HC 470k / Sylvanas HC 80k / Kel'Thuzad HC 65k / Sylvanas+Kel  130k /  M+14 150k / M+15 180k /M+16 250k /M+17 350k /M+18 450k / M19 650k /M+20 750k", -- [1]
+			"Novabostt-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Novabostt-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1283, -- [11]
+			"Player-1301-0C0FC140", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Novabostt|r",
+			[51] = 1633280240,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [82]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:6019:Player-1301-09F61344:1:10:3:21:4294967295:4294967295:4294967295:4294967295|h[Come One, Come All!]|h|r!", -- [1]
+			"Illyana-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Illyana-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1301, -- [11]
+			"Player-1301-09F61344", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Illyana|r",
+			[51] = 1633280335,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [83]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:9755:Player-1301-09F61344:1:10:3:21:4294967295:4294967295:4294967295:4294967295|h[Darkmoon Race Enthusiast]|h|r!", -- [1]
+			"Illyana-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Illyana-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1370, -- [11]
+			"Player-1301-09F61344", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Illyana|r",
+			[51] = 1633280646,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [84]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:9770:Player-1301-09F61344:1:10:3:21:4294967295:4294967295:4294967295:4294967295|h[Blast Off!]|h|r!", -- [1]
+			"Illyana-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Illyana-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1376, -- [11]
+			"Player-1301-09F61344", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Illyana|r",
+			[51] = 1633280726,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [85]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:9769:Player-1301-09F61344:1:10:3:21:4294967295:4294967295:4294967295:4294967295|h[Rocketeer: Bronze]|h|r!", -- [1]
+			"Illyana-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Illyana-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1377, -- [11]
+			"Player-1301-09F61344", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Illyana|r",
+			[51] = 1633280726,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [86]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:9766:Player-1301-09F61344:1:10:3:21:4294967295:4294967295:4294967295:4294967295|h[Rocketeer: Silver]|h|r!", -- [1]
+			"Illyana-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Illyana-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1378, -- [11]
+			"Player-1301-09F61344", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Illyana|r",
+			[51] = 1633280726,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [87]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:9800:Player-1301-09F61344:1:10:3:21:4294967295:4294967295:4294967295:4294967295|h[Rocket Man]|h|r!", -- [1]
+			"Illyana-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Illyana-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1392, -- [11]
+			"Player-1301-09F61344", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Illyana|r",
+			[51] = 1633280862,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [88]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:9803:Player-1301-09F61344:1:10:3:21:4294967295:4294967295:4294967295:4294967295|h[Big Rocketeer: Silver]|h|r!", -- [1]
+			"Illyana-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Illyana-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1393, -- [11]
+			"Player-1301-09F61344", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Illyana|r",
+			[51] = 1633280862,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [89]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:9801:Player-1301-09F61344:1:10:3:21:4294967295:4294967295:4294967295:4294967295|h[Big Rocketeer: Bronze]|h|r!", -- [1]
+			"Illyana-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Illyana-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1394, -- [11]
+			"Player-1301-09F61344", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Illyana|r",
+			[51] = 1633280862,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [90]
+		{
+			"aaz ogar", -- [1]
+			"Mowna-Ragnaros", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Mowna-Ragnaros", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1411, -- [11]
+			"Player-3682-0A974BC9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Mowna-Ragnaros|r",
+			[51] = 1633280912,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [91]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:9250:Player-1301-09F61344:1:10:3:21:4294967295:4294967295:4294967295:4294967295|h[Flying High]|h|r!", -- [1]
+			"Illyana-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Illyana-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1425, -- [11]
+			"Player-1301-09F61344", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Illyana|r",
+			[51] = 1633280968,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [92]
+		{
+			"Ogar Throm'ka uruk ag kil'azi il ogar moth'aga", -- [1]
+			"Mowna-Ragnaros", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Mowna-Ragnaros", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1434, -- [11]
+			"Player-3682-0A974BC9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Mowna-Ragnaros|r",
+			[51] = 1633281012,
+			[50] = "CHAT_MSG_YELL",
+		}, -- [93]
+		{
+			"skase mwri kargiola", -- [1]
+			"Liou-Frostmane", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Liou-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1436, -- [11]
+			"Player-1303-0BC58B40", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Liou-Frostmane|r",
+			[51] = 1633281025,
+			[50] = "CHAT_MSG_YELL",
+		}, -- [94]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:6027:Player-1301-09F61344:1:10:3:21:4294967295:4294967295:4294967295:4294967295|h[Darkmoon Dungeoneer]|h|r!", -- [1]
+			"Illyana-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Illyana-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1531, -- [11]
+			"Player-1301-09F61344", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Illyana|r",
+			[51] = 1633281301,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [95]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:6028:Player-1301-09F61344:1:10:3:21:4294967295:4294967295:4294967295:4294967295|h[Darkmoon Defender]|h|r!", -- [1]
+			"Illyana-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Illyana-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1540, -- [11]
+			"Player-1301-09F61344", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Illyana|r",
+			[51] = 1633281303,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [96]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:6022:Player-1301-09F61344:1:10:3:21:4294967295:4294967295:4294967295:4294967295|h[Quick Shot]|h|r!", -- [1]
+			"Illyana-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Illyana-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1549, -- [11]
+			"Player-1301-09F61344", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Illyana|r",
+			[51] = 1633281324,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [97]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:6021:Player-1301-09F61344:1:10:3:21:4294967295:4294967295:4294967295:4294967295|h[Blastenheimer Bullseye]|h|r!", -- [1]
+			"Illyana-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Illyana-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1576, -- [11]
+			"Player-1301-09F61344", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Illyana|r",
+			[51] = 1633281398,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [98]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:6020:Player-1301-09F61344:1:10:3:21:4294967295:4294967295:4294967295:4294967295|h[Step Right Up]|h|r!", -- [1]
+			"Illyana-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Illyana-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1582, -- [11]
+			"Player-1301-09F61344", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Illyana|r",
+			[51] = 1633281456,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/s click", -- [1]
-		"/raid wanna bet he will get it?", -- [2]
-		"/raid xD", -- [3]
-		"/raid yo", -- [4]
-		"/raid can i get a sum plz?", -- [5]
-		"/raid ty", -- [6]
-		"/i oh boy", -- [7]
-		"/i this will be a long dungeon", -- [8]
-		"/i feared", -- [9]
-		"/i mhm", -- [10]
-		"/i 5 secone fear", -- [11]
-		"/i thats what it looks like", -- [12]
-		"/p hi", -- [13]
-		"/p yo", -- [14]
-		"/p waiting for the rare?", -- [15]
-		"/p nice", -- [16]
-		"/att", -- [17]
-		"/p oke", -- [18]
-		"/s oke", -- [19]
-		"/s ty", -- [20]
+		"/raid wanna bet he will get it?", -- [1]
+		"/raid xD", -- [2]
+		"/raid yo", -- [3]
+		"/raid can i get a sum plz?", -- [4]
+		"/raid ty", -- [5]
+		"/i oh boy", -- [6]
+		"/i this will be a long dungeon", -- [7]
+		"/i feared", -- [8]
+		"/i mhm", -- [9]
+		"/i 5 secone fear", -- [10]
+		"/i thats what it looks like", -- [11]
+		"/p hi", -- [12]
+		"/p yo", -- [13]
+		"/p waiting for the rare?", -- [14]
+		"/p nice", -- [15]
+		"/att", -- [16]
+		"/p oke", -- [17]
+		"/s oke", -- [18]
+		"/s ty", -- [19]
+		"/i i have no idea where we are supposed to go xD", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }

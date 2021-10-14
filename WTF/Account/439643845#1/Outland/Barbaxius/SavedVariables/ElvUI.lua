@@ -2,292 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"i mean its kind of obvious", -- [1]
-			"Barbaxius-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Barbaxius-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			106, -- [11]
-			"Player-1301-0B0D2B3F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cBarbaxius|r",
-			[51] = 1628168105,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [1]
-		{
-			"this is a random dungeon from 15 years ago xD", -- [1]
-			"Barbaxius-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Barbaxius-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			107, -- [11]
-			"Player-1301-0B0D2B3F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cBarbaxius|r",
-			[51] = 1628168111,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [2]
-		{
-			"please a little head", -- [1]
-			"Airecillo-Exodar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Airecillo-Exodar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			113, -- [11]
-			"Player-1385-0AA500A0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaAirecillo-Exodar|r",
-			[51] = 1628168129,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [3]
-		{
-			"but i played 15 yesrs ago and remember in anyway np now u know ))", -- [1]
-			"Arwenviola-Pozzodell'Eternità", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Arwenviola-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			117, -- [11]
-			"Player-1309-07A7C487", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Arwenviola-Pozzodell'Eternità|r",
-			[51] = 1628168148,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [4]
-		{
-			"i know this dng even if its 15 years ago", -- [1]
-			"Nattashha-Minahonda", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Nattashha-Minahonda", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			118, -- [11]
-			"Player-1385-090C5147", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeNattashha-Minahonda|r",
-			[51] = 1628168152,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [5]
-		{
-			"congratulations", -- [1]
-			"Barbaxius-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Barbaxius-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			121, -- [11]
-			"Player-1301-0B0D2B3F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cBarbaxius|r",
-			[51] = 1628168158,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [6]
-		{
-			"wtf are you saying", -- [1]
-			"Nattashha-Minahonda", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Nattashha-Minahonda", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			122, -- [11]
-			"Player-1385-090C5147", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeNattashha-Minahonda|r",
-			[51] = 1628168160,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [7]
-		{
-			"and tbc its up", -- [1]
-			"Nattashha-Minahonda", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Nattashha-Minahonda", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			126, -- [11]
-			"Player-1385-090C5147", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeNattashha-Minahonda|r",
-			[51] = 1628168168,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [8]
-		{
-			"i mean", -- [1]
-			"Nattashha-Minahonda", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Nattashha-Minahonda", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			127, -- [11]
-			"Player-1385-090C5147", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeNattashha-Minahonda|r",
-			[51] = 1628168169,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [9]
-		{
-			"what a guy", -- [1]
-			"Nattashha-Minahonda", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Nattashha-Minahonda", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			128, -- [11]
-			"Player-1385-090C5147", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeNattashha-Minahonda|r",
-			[51] = 1628168172,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [10]
-		{
-			"?", -- [1]
-			"Barbaxius-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Barbaxius-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			129, -- [11]
-			"Player-1301-0B0D2B3F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cBarbaxius|r",
-			[51] = 1628168173,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [11]
-		{
-			"whats tbc", -- [1]
-			"Barbaxius-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Barbaxius-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			130, -- [11]
-			"Player-1301-0B0D2B3F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cBarbaxius|r",
-			[51] = 1628168176,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [12]
-		{
-			"...", -- [1]
-			"Nattashha-Minahonda", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Nattashha-Minahonda", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			131, -- [11]
-			"Player-1385-090C5147", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeNattashha-Minahonda|r",
-			[51] = 1628168181,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [13]
-		{
 			"oooh the expac", -- [1]
 			"Barbaxius-Outland", -- [2]
 			"", -- [3]
@@ -308,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1628168183,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [14]
+		}, -- [1]
 		{
 			"nvm", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -330,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1628168184,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [15]
+		}, -- [2]
 		{
 			"burning", -- [1]
 			"Arwenviola-Pozzodell'Eternità", -- [2]
@@ -352,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Arwenviola-Pozzodell'Eternità|r",
 			[51] = 1628168199,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [16]
+		}, -- [3]
 		{
 			"Tank last boss is same .. or clean or wipe ... second only stun", -- [1]
 			"Arwenviola-Pozzodell'Eternità", -- [2]
@@ -374,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Arwenviola-Pozzodell'Eternità|r",
 			[51] = 1628168283,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [17]
+		}, -- [4]
 		{
 			"Interrupted |cff71d5ff|Hspell:22883:0|h[Cura]|h|r on Sacerdote Etereo", -- [1]
 			"Everel-Pozzodell'Eternità", -- [2]
@@ -396,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaEverel-Pozzodell'Eternità|r",
 			[51] = 1628168292,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [18]
+		}, -- [5]
 		{
 			"dusple", -- [1]
 			"Truculent-Outland", -- [2]
@@ -418,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Truculent|r",
 			[51] = 1628169061,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [19]
+		}, -- [6]
 		{
 			"kite", -- [1]
 			"Kharanzu-Frostmane", -- [2]
@@ -440,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaKharanzu-Frostmane|r",
 			[51] = 1628169537,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [20]
+		}, -- [7]
 		{
 			"wtf is this xD", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -462,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1628169577,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [21]
+		}, -- [8]
 		{
 			"1 at a time", -- [1]
 			"Lokimori-Silvermoon", -- [2]
@@ -484,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Lokimori-Silvermoon|r",
 			[51] = 1628169577,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [22]
+		}, -- [9]
 		{
 			"why do they heal?", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -506,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1628169586,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [23]
+		}, -- [10]
 		{
 			"spot on the floor", -- [1]
 			"Lokimori-Silvermoon", -- [2]
@@ -528,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Lokimori-Silvermoon|r",
 			[51] = 1628169594,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [24]
+		}, -- [11]
 		{
 			"beamish", -- [1]
 			"Kharanzu-Frostmane", -- [2]
@@ -550,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaKharanzu-Frostmane|r",
 			[51] = 1628169605,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [25]
+		}, -- [12]
 		{
 			"is that also why they are big?", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -572,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1628169608,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [26]
+		}, -- [13]
 		{
 			"keep moving backwrads", -- [1]
 			"Lokimori-Silvermoon", -- [2]
@@ -594,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Lokimori-Silvermoon|r",
 			[51] = 1628169609,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [27]
+		}, -- [14]
 		{
 			"oke", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -616,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1628169616,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [28]
+		}, -- [15]
 		{
 			"1 at a time for these as well", -- [1]
 			"Lokimori-Silvermoon", -- [2]
@@ -638,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Lokimori-Silvermoon|r",
 			[51] = 1628169726,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [29]
+		}, -- [16]
 		{
 			"alright", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -660,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1628169738,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [30]
+		}, -- [17]
 		{
 			"int heals", -- [1]
 			"Lokimori-Silvermoon", -- [2]
@@ -682,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Lokimori-Silvermoon|r",
 			[51] = 1628169904,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [31]
+		}, -- [18]
 		{
 			"sorry i lagged out there for a secc", -- [1]
 			"Dõpi-Silvermoon", -- [2]
@@ -704,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Dõpi-Silvermoon|r",
 			[51] = 1628169989,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [32]
+		}, -- [19]
 		{
 			"thanks", -- [1]
 			"Dõpi-Silvermoon", -- [2]
@@ -726,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Dõpi-Silvermoon|r",
 			[51] = 1628170046,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [33]
+		}, -- [20]
 		{
 			"pull out", -- [1]
 			"Lokimori-Silvermoon", -- [2]
@@ -748,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Lokimori-Silvermoon|r",
 			[51] = 1628170195,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [34]
+		}, -- [21]
 		{
 			"stack", -- [1]
 			"Dõpi-Silvermoon", -- [2]
@@ -770,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Dõpi-Silvermoon|r",
 			[51] = 1628170230,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [35]
+		}, -- [22]
 		{
 			"for meteor", -- [1]
 			"Dõpi-Silvermoon", -- [2]
@@ -792,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Dõpi-Silvermoon|r",
 			[51] = 1628170232,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [36]
+		}, -- [23]
 		{
 			"dissing em gnomes :(", -- [1]
 			"Hunggo-Outland", -- [2]
@@ -814,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcHunggo|r",
 			[51] = 1628170430,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [37]
+		}, -- [24]
 		{
 			"cheers laters", -- [1]
 			"Lokimori-Silvermoon", -- [2]
@@ -836,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Lokimori-Silvermoon|r",
 			[51] = 1628170619,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [38]
+		}, -- [25]
 		{
 			"<< M+15 = 380K >> SYLVANAS >> M+14 = 315K << M+12 = 230k >> M+10 = 165K << 4X15 = 1365K >> KSM 16X15 & KSC 16x10 In Time Guarantee << Tazavesh HARD MODE & Normal +Trader >> TORGHAST << We are recruiting boosters discord.gg/Sylvanas >> /W me", -- [1]
 			"Sylvablast-Outland", -- [2]
@@ -858,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Sylvablast|r",
 			[51] = 1628170683,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
+		}, -- [26]
 		{
 			"<NOVA> Selling Raid SOD - 10/10NM 500k || SoD 10/10 Heroic 1700k || Sylvanas HC 450k || +M+0 -19+ || M+10 160k || M+12 220k || M+14 345k || M+15 370k || M+16 650k ||M+17 900k || M+18 1100k / Tazavesh NM 320k / HardMode Tazavesh 650k / Torghasts /w For", -- [1]
 			"Dreammonkiyi-Outland", -- [2]
@@ -880,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dreammonkiyi|r",
 			[51] = 1628170701,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
+		}, -- [27]
 		{
 			"<Icecrown> Hosting Heroic |cff66bbff|Hjournal:1:2440:15|h[Kel'Thuzad]|h|r 250k || |cff66bbff|Hjournal:1:2441:15|h[Sylvanas Windrunner]|h|r  350k both for 550k /w me to book! (Tomorrow / Saturday)", -- [1]
 			"Disstressed-Outland", -- [2]
@@ -902,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDisstressed|r",
 			[51] = 1628170703,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
+		}, -- [28]
 		{
 			"hi all", -- [1]
 			"Wotan-Shen'dralar", -- [2]
@@ -924,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWotan-Shen'dralar|r",
 			[51] = 1628170736,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [42]
+		}, -- [29]
 		{
 			"Hello", -- [1]
 			"Cannabizy-Silvermoon", -- [2]
@@ -946,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Cannabizy-Silvermoon|r",
 			[51] = 1628170751,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [43]
+		}, -- [30]
 		{
 			"HEY", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -968,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1628170751,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [44]
+		}, -- [31]
 		{
 			"jeez", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -990,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1628171533,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [45]
+		}, -- [32]
 		{
 			"that was a lot of trash xD", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1012,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1628171537,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [46]
+		}, -- [33]
 		{
 			"It sure was hell back in the days", -- [1]
 			"Cannabizy-Silvermoon", -- [2]
@@ -1034,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Cannabizy-Silvermoon|r",
 			[51] = 1628171594,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [47]
+		}, -- [34]
 		{
 			"after this", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1056,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1628171644,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [48]
+		}, -- [35]
 		{
 			"give me a sec", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1078,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1628171645,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [49]
+		}, -- [36]
 		{
 			"to tp out and in to repair", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1100,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1628171649,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [50]
+		}, -- [37]
 		{
 			"thanks for waiting xD", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1122,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1628171817,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [51]
+		}, -- [38]
 		{
 			"kite him", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1144,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1628171895,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [52]
+		}, -- [39]
 		{
 			"i cant taunt him here", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1166,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1628171898,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [53]
+		}, -- [40]
 		{
 			"???", -- [1]
 			"Amalon-DunModr", -- [2]
@@ -1188,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAmalon-DunModr|r",
 			[51] = 1628171965,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [54]
+		}, -- [41]
 		{
 			"lol", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1210,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1628171969,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [55]
+		}, -- [42]
 		{
 			"fuuck", -- [1]
 			"Cannabizy-Silvermoon", -- [2]
@@ -1232,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Cannabizy-Silvermoon|r",
 			[51] = 1628171981,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [56]
+		}, -- [43]
 		{
 			"inv me", -- [1]
 			"Cannabizy-Silvermoon", -- [2]
@@ -1254,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Cannabizy-Silvermoon|r",
 			[51] = 1628171983,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [57]
+		}, -- [44]
 		{
 			":D", -- [1]
 			"Cannabizy-Silvermoon", -- [2]
@@ -1276,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Cannabizy-Silvermoon|r",
 			[51] = 1628171983,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [58]
+		}, -- [45]
 		{
 			"sry we already got autofilled someone else", -- [1]
 			"Cannabizy-Silvermoon", -- [2]
@@ -1298,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Cannabizy-Silvermoon|r",
 			[51] = 1628171993,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [59]
+		}, -- [46]
 		{
 			"hi", -- [1]
 			"Démoniste-Dragonblight", -- [2]
@@ -1320,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDémoniste-Dragonblight|r",
 			[51] = 1628173193,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [60]
+		}, -- [47]
 		{
 			"It's dangerous to go alone, here take this!", -- [1]
 			"Venaxus-Wildhammer", -- [2]
@@ -1342,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaVenaxus-Wildhammer|r",
 			[51] = 1628173196,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [61]
+		}, -- [48]
 		{
 			"hello", -- [1]
 			"Sholtami-Kilrogg", -- [2]
@@ -1364,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcSholtami-Kilrogg|r",
 			[51] = 1628173197,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [62]
+		}, -- [49]
 		{
 			"hi", -- [1]
 			"Hillda-Wildhammer", -- [2]
@@ -1386,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Hillda-Wildhammer|r",
 			[51] = 1628173202,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [63]
+		}, -- [50]
 		{
 			"pref not to venaxusXD", -- [1]
 			"Sholtami-Kilrogg", -- [2]
@@ -1408,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcSholtami-Kilrogg|r",
 			[51] = 1628173210,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [64]
+		}, -- [51]
 		{
 			"what boss do we want hero on", -- [1]
 			"Sholtami-Kilrogg", -- [2]
@@ -1430,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcSholtami-Kilrogg|r",
 			[51] = 1628173457,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [65]
+		}, -- [52]
 		{
 			"anyone want ring", -- [1]
 			"Sholtami-Kilrogg", -- [2]
@@ -1452,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcSholtami-Kilrogg|r",
 			[51] = 1628173471,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [66]
+		}, -- [53]
 		{
 			"Do you need |cff0070dd|Hitem:133442::::::::55:73::22:2:7464:6652:2:28:181:9:60:::::|h[Cloak of the Coming Night]|h|r?", -- [1]
 			"Venaxus-Wildhammer", -- [2]
@@ -1474,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaVenaxus-Wildhammer|r",
 			[51] = 1628173480,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [67]
+		}, -- [54]
 		{
 			"no thx", -- [1]
 			"Démoniste-Dragonblight", -- [2]
@@ -1496,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDémoniste-Dragonblight|r",
 			[51] = 1628173487,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [68]
+		}, -- [55]
 		{
 			"nope", -- [1]
 			"Venaxus-Wildhammer", -- [2]
@@ -1518,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaVenaxus-Wildhammer|r",
 			[51] = 1628173494,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [69]
+		}, -- [56]
 		{
 			"can i have it plz?", -- [1]
 			"Cannabizy-Silvermoon", -- [2]
@@ -1540,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Cannabizy-Silvermoon|r",
 			[51] = 1628173527,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [70]
+		}, -- [57]
 		{
 			"can i have it plz?", -- [1]
 			"Venaxus-Wildhammer", -- [2]
@@ -1562,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaVenaxus-Wildhammer|r",
 			[51] = 1628173541,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [71]
+		}, -- [58]
 		{
 			"SURE", -- [1]
 			"Venaxus-Wildhammer", -- [2]
@@ -1584,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaVenaxus-Wildhammer|r",
 			[51] = 1628173548,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [72]
+		}, -- [59]
 		{
 			"trade me ", -- [1]
 			"Venaxus-Wildhammer", -- [2]
@@ -1606,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaVenaxus-Wildhammer|r",
 			[51] = 1628173551,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [73]
+		}, -- [60]
 		{
 			"okee", -- [1]
 			"Cannabizy-Silvermoon", -- [2]
@@ -1628,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Cannabizy-Silvermoon|r",
 			[51] = 1628173568,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [74]
+		}, -- [61]
 		{
 			"<< M+15 = 380K >> SYLVANAS >> M+14 = 315K << M+12 = 230k >> M+10 = 165K << 4X15 = 1365K >> KSM 16X15 & KSC 16x10 In Time Guarantee << Tazavesh HARD MODE & Normal +Trader >> TORGHAST << We are recruiting boosters discord.gg/Sylvanas >> /W me", -- [1]
 			"Sylvablast-Outland", -- [2]
@@ -1650,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Sylvablast|r",
 			[51] = 1628173925,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [62]
 		{
 			"<NOVA> Selling Raid SOD - 10/10NM 500k || SoD 10/10 Heroic 1700k || Sylvanas HC 450k || +M+0 -19+ || M+10 160k || M+12 220k || M+14 345k || M+15 345k || M+16 650k ||M+17 900k || M+18 1100k / Tazavesh NM 320k / HardMode Tazavesh 650k / Torghasts /w For", -- [1]
 			"Dreammonkiyi-Outland", -- [2]
@@ -1672,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dreammonkiyi|r",
 			[51] = 1628174010,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [63]
 		{
 			"< iceCrown > Selling SoD Heroic 10/10 tonight at 21:00 only 1 spot left /w for info", -- [1]
 			"Evoicc-Outland", -- [2]
@@ -1694,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaEvoicc|r",
 			[51] = 1628174026,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [64]
 		{
 			"<Nova> Selling Boost [M+10=160k ] [M+14 = 345k intime ] [ Stack Armor ] [ M+15 = 440k intime-345k out of time ] [ M+16 = 650k ][ Tazavesh NM 320k - HM 650k ] [Raid Normal SOD 500k ][ Raid HC SOD 1700k ][ Sylvanas HC 450k] [Torghast Boost]  /w for info", -- [1]
 			"Exoservices-Outland", -- [2]
@@ -1716,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaExoservices|r",
 			[51] = 1628174029,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [65]
 		{
 			"<NOVA> [WTS] KSM || TOrGHast 1-12 Flawless || M10:160k || M15:440k & M15Weekly:345k || M14:345k 5xRun 12.5% discount|| Tazavesh NM:340k & HM:680k || [WTS] LVL 50- 60 ||SoD NM 10/10 500k & Curve: ||   W for info", -- [1]
 			"Hokm-Outland", -- [2]
@@ -1738,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcHokm|r",
 			[51] = 1628174040,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [66]
 		{
 			"LF2M dps to mythic the eye and the nine. Need to have exp, start 20.00 ", -- [1]
 			"Demoneine-Outland", -- [2]
@@ -1760,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demoneine|r",
 			[51] = 1630946392,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [67]
 		{
 			"Nova Offering |cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r  10/10 HC=600k  VIP Trader 400k. M+10=110k  M+14=190K M+15=205k M+16=380k ( 5% off for 2x & 10 % off 4x run).Sylvanas Curve RUN 170k Tazavesh mount run HM=340k .arena &RBG boost", -- [1]
 			"Lovelysoul-Outland", -- [2]
@@ -1782,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Lovelysoul|r",
 			[51] = 1630946412,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [68]
 		{
 			"Interrupted Dragonflayer Seer's |cff71d5ff|Hspell:59083:0|h[Healing Wave]|h|r!", -- [1]
 			"Tidexz-Kazzak", -- [2]
@@ -1804,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Tidexz-Kazzak|r",
 			[51] = 1630946450,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [82]
+		}, -- [69]
 		{
 			"can we do all bosses im grinding rep", -- [1]
 			"Zaaim-Silvermoon", -- [2]
@@ -1826,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Zaaim-Silvermoon|r",
 			[51] = 1630946526,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [83]
+		}, -- [70]
 		{
 			"INTERRUPTED Dragonflayer Seer: |cff71d5ff|Hspell:59083:0|h[Healing Wave]|h|r", -- [1]
 			"Airco-AzjolNerub", -- [2]
@@ -1848,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAirco-AzjolNerub|r",
 			[51] = 1630946594,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [84]
+		}, -- [71]
 		{
 			"can you res me opls", -- [1]
 			"Indianà-Turalyon", -- [2]
@@ -1870,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Indianà-Turalyon|r",
 			[51] = 1630946742,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [85]
+		}, -- [72]
 		{
 			"?", -- [1]
 			"Indianà-Turalyon", -- [2]
@@ -1892,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Indianà-Turalyon|r",
 			[51] = 1630946744,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [86]
+		}, -- [73]
 		{
 			"thx", -- [1]
 			"Indianà-Turalyon", -- [2]
@@ -1914,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Indianà-Turalyon|r",
 			[51] = 1630946745,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [87]
+		}, -- [74]
 		{
 			"what happened there?", -- [1]
 			"Airco-AzjolNerub", -- [2]
@@ -1936,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAirco-AzjolNerub|r",
 			[51] = 1630946745,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [88]
+		}, -- [75]
 		{
 			"ritual strike", -- [1]
 			"Indianà-Turalyon", -- [2]
@@ -1958,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Indianà-Turalyon|r",
 			[51] = 1630946772,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [89]
+		}, -- [76]
 		{
 			"INTERRUPTED Ymirjar Witch Doctor: |cff71d5ff|Hspell:59246:0|h[Shadow Bolt]|h|r", -- [1]
 			"Airco-AzjolNerub", -- [2]
@@ -1980,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAirco-AzjolNerub|r",
 			[51] = 1630947098,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [90]
+		}, -- [77]
 		{
 			"Interrupted Ymirjar Witch Doctor's |cff71d5ff|Hspell:59246:0|h[Shadow Bolt]|h|r!", -- [1]
 			"Tidexz-Kazzak", -- [2]
@@ -2002,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Tidexz-Kazzak|r",
 			[51] = 1630947106,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [91]
+		}, -- [78]
 		{
 			"INTERRUPTED Ymirjar Berserker: |cff71d5ff|Hspell:49106:0|h[Terrify]|h|r", -- [1]
 			"Airco-AzjolNerub", -- [2]
@@ -2024,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAirco-AzjolNerub|r",
 			[51] = 1630947215,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [92]
+		}, -- [79]
 		{
 			"Interrupted Ymirjar Necromancer's |cff71d5ff|Hspell:59254:0|h[Shadow Bolt]|h|r!", -- [1]
 			"Tidexz-Kazzak", -- [2]
@@ -2046,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Tidexz-Kazzak|r",
 			[51] = 1630947264,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [93]
+		}, -- [80]
 		{
 			"INTERRUPTED Ymirjar Berserker: |cff71d5ff|Hspell:49106:0|h[Terrify]|h|r", -- [1]
 			"Airco-AzjolNerub", -- [2]
@@ -2068,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAirco-AzjolNerub|r",
 			[51] = 1630947275,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [94]
+		}, -- [81]
 		{
 			"INTERRUPTED Ymirjar Berserker: |cff71d5ff|Hspell:49106:0|h[Terrify]|h|r", -- [1]
 			"Airco-AzjolNerub", -- [2]
@@ -2090,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAirco-AzjolNerub|r",
 			[51] = 1630947306,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [95]
+		}, -- [82]
 		{
 			"Interrupted Ymirjar Berserker's |cff71d5ff|Hspell:49106:0|h[Terrify]|h|r!", -- [1]
 			"Tidexz-Kazzak", -- [2]
@@ -2112,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Tidexz-Kazzak|r",
 			[51] = 1630947358,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [96]
+		}, -- [83]
 		{
 			"INTERRUPTED Ymirjar Berserker: |cff71d5ff|Hspell:49106:0|h[Terrify]|h|r", -- [1]
 			"Airco-AzjolNerub", -- [2]
@@ -2134,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAirco-AzjolNerub|r",
 			[51] = 1630947409,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [97]
+		}, -- [84]
 		{
 			"LF1M dps to mythic the eye and the nine. Need to have exp, start 20.00 ", -- [1]
 			"Demoneine-Outland", -- [2]
@@ -2156,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demoneine|r",
 			[51] = 1630947543,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [85]
 		{
 			"Nova Offering |cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r  10/10 HC=600k  VIP Trader 400k. M+10=110k  M+14=190K M+15=205k M+16=380k ( 5% off for 2x & 10 % off 4x run).Sylvanas Curve RUN 170k Tazavesh mount run HM=340k .arena &RBG boost", -- [1]
 			"Lovelysoul-Outland", -- [2]
@@ -2178,6 +1892,292 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Lovelysoul|r",
 			[51] = 1630947545,
 			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [86]
+		{
+			"mana", -- [1]
+			"Tokasama-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tokasama-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1860, -- [11]
+			"Player-3391-0C0F4CEE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Tokasama-Silvermoon|r",
+			[51] = 1632825706,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [87]
+		{
+			"1 min, plis", -- [1]
+			"Chäcalote-Exodar", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Chäcalote-Exodar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1861, -- [11]
+			"Player-1385-0945BB9C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edChäcalote-Exodar|r",
+			[51] = 1632825706,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [88]
+		{
+			"can you give stun ?", -- [1]
+			"Tokasama-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tokasama-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1890, -- [11]
+			"Player-3391-0C0F4CEE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Tokasama-Silvermoon|r",
+			[51] = 1632825848,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [89]
+		{
+			"supid party", -- [1]
+			"Tokasama-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tokasama-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1987, -- [11]
+			"Player-3391-0C0F4CEE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Tokasama-Silvermoon|r",
+			[51] = 1632826520,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [90]
+		{
+			"xD ops", -- [1]
+			"Velunari-TheVentureCo", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Velunari-TheVentureCo", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1989, -- [11]
+			"Player-1096-0A33E83E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Velunari-TheVentureCo|r",
+			[51] = 1632826533,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [91]
+		{
+			"gj", -- [1]
+			"Velunari-TheVentureCo", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Velunari-TheVentureCo", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2001, -- [11]
+			"Player-1096-0A33E83E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Velunari-TheVentureCo|r",
+			[51] = 1632826576,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [92]
+		{
+			"<3", -- [1]
+			"Velunari-TheVentureCo", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Velunari-TheVentureCo", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2004, -- [11]
+			"Player-1096-0A33E83E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Velunari-TheVentureCo|r",
+			[51] = 1632826593,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [93]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:4846:Player-1301-0B0D2B3F:1:9:28:21:4294967295:4294967295:4294967295:4294967295|h[The Stonecore]|h|r!", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2010, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1632826722,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [94]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:5063:Player-1301-0B0D2B3F:1:9:28:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Stonecore]|h|r!", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2011, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1632826722,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [95]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:13878:Player-1301-08DA5CC4:1:9:28:21:4294967295:4294967295:4294967295:4294967295|h[The Master of Revendreth]|h|r!", -- [1]
+			"Nemigodx-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nemigodx-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2042, -- [11]
+			"Player-1301-08DA5CC4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Nemigodx|r",
+			[51] = 1632826780,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [96]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14206:Player-1301-08DA5CC4:1:9:28:21:4294967295:4294967295:4294967295:4294967295|h[Blade of the Primus]|h|r!", -- [1]
+			"Nemigodx-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nemigodx-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2043, -- [11]
+			"Player-1301-08DA5CC4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Nemigodx|r",
+			[51] = 1632826780,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [97]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14164:Player-1301-08DA5CC4:1:9:28:21:4294967295:4294967295:4294967295:4294967295|h[Awaken, Ardenweald]|h|r!", -- [1]
+			"Nemigodx-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nemigodx-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2044, -- [11]
+			"Player-1301-08DA5CC4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Nemigodx|r",
+			[51] = 1632826780,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [98]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14281:Player-1301-08DA5CC4:1:9:28:21:4294967295:4294967295:4294967295:4294967295|h[The Path to Ascension]|h|r!", -- [1]
+			"Nemigodx-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nemigodx-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2045, -- [11]
+			"Player-1301-08DA5CC4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Nemigodx|r",
+			[51] = 1632826780,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
