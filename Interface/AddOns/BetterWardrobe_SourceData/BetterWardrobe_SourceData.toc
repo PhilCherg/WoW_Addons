@@ -1,0 +1,13 @@
+## Interface: 90100
+## Title: BetterWardrobe_SourceData (V3.11.5)
+## Version: V3.11.5
+## Author: SLOKnightfall
+## Notes: 
+## LoadOnDemand: 1
+## DefaultState: disabled
+
+
+#Data files
+Data\ColorData.lua
+Data\AppearanceData.lua
+Data\SourceData.lua

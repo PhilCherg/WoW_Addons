@@ -1,4 +1,4 @@
-AllTheThings: disabled
+AllTheThings: enabled
 AAP-Core: disabled
 AAP-Vanilla: disabled
 AAP-TBC-WotLK: disabled
@@ -63,8 +63,8 @@ WeakAurasTemplates: disabled
 WorldQuestTracker: enabled
 TradeSkillMaster: disabled
 TradeSkillMaster_AppHelper: disabled
-ElvUI: disabled
-ElvUI_OptionsUI: disabled
+ElvUI: enabled
+ElvUI_OptionsUI: enabled
 ElvUI_Config: enabled
 DBM-Core: disabled
 DBM-DefaultSkin: enabled
@@ -260,3 +260,4 @@ DBM-SanctumOfDomination: disabled
 AstralKeys: disabled
 HandyNotes_Stygia: disabled
 PremadeGroupsFilter: disabled
+BetterWardrobe: disabled

@@ -1,0 +1,2 @@
+
+VP_SPC = nil

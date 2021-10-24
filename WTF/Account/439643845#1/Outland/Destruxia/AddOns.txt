@@ -61,8 +61,8 @@ WorldQuestTracker: enabled
 TradeSkillMaster: disabled
 TradeSkillMaster_AppHelper: disabled
 ElvUI_Config: enabled
-ElvUI_OptionsUI: disabled
-ElvUI: disabled
+ElvUI_OptionsUI: enabled
+ElvUI: enabled
 DBM-Core: disabled
 DBM-DefaultSkin: enabled
 DBM-GUI: disabled
@@ -268,3 +268,6 @@ WorldQuestsList: disabled
 CamelSpotter: disabled
 DBM-SanctumOfDomination: disabled
 AstralKeys: disabled
+BetterWardrobe: disabled
+HandyNotes_Stygia: disabled
+PremadeGroupsFilter: disabled

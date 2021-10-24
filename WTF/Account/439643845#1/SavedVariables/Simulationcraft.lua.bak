@@ -3,6 +3,7 @@ SimulationCraftDB = {
 	["profileKeys"] = {
 		["Illyana - Outland"] = "Illyana - Outland",
 		["Barbaxius - Outland"] = "Barbaxius - Outland",
+		["Phaltraxion - Outland"] = "Phaltraxion - Outland",
 		["Necrophagus - Outland"] = "Necrophagus - Outland",
 	},
 	["profiles"] = {
@@ -12,6 +13,8 @@ SimulationCraftDB = {
 			},
 		},
 		["Barbaxius - Outland"] = {
+		},
+		["Phaltraxion - Outland"] = {
 		},
 		["Necrophagus - Outland"] = {
 		},

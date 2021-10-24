@@ -1,4 +1,4 @@
-AllTheThings: disabled
+AllTheThings: enabled
 GatherMate2: disabled
 GatherMate2_Data: disabled
 Immersion: disabled
@@ -13,7 +13,7 @@ WeakAurasModelPaths: disabled
 WeakAurasOptions: disabled
 WeakAurasTemplates: disabled
 ElvUI_Config: enabled
-ElvUI: disabled
+ElvUI: enabled
 HandyNotes: disabled
 HandyNotes_EverShiftingMirror: disabled
 HandyNotes_MoleMachine: disabled
@@ -224,7 +224,7 @@ FakeAchievement: enabled
 HandyNotes_Argus: enabled
 LibRaiderIO_Loader: disabled
 WeakAurasArchive: disabled
-ElvUI_OptionsUI: disabled
+ElvUI_OptionsUI: enabled
 DBM-Challenges: disabled
 DBM-Nyalotha: enabled
 VuhDo: disabled
@@ -350,3 +350,4 @@ DBM-SanctumOfDomination: disabled
 AstralKeys: disabled
 HandyNotes_Stygia: disabled
 PremadeGroupsFilter: disabled
+BetterWardrobe: disabled

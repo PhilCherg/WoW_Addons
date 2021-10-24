@@ -24,6 +24,11 @@ PawnOptions = {
 			["Level"] = 25,
 			["Link"] = "|cff1eff00|Hitem:157716::::::::20:259::::::|h[Nimblefinger Gloves]|h|r",
 		},
+		[9] = {
+			["ID"] = 157721,
+			["Level"] = 25,
+			["Link"] = "|cff1eff00|Hitem:157721::::::::20:259::::::|h[Nimblefinger Bindings]|h|r",
+		},
 		[16] = {
 			["ID"] = 157636,
 			["Level"] = 25,
@@ -34,11 +39,6 @@ PawnOptions = {
 			["ID"] = 157714,
 			["Level"] = 25,
 			["Link"] = "|cff1eff00|Hitem:157714::::::::20:259::::::|h[Nimblefinger Jerkin]|h|r",
-		},
-		[9] = {
-			["ID"] = 157721,
-			["Level"] = 25,
-			["Link"] = "|cff1eff00|Hitem:157721::::::::20:259::::::|h[Nimblefinger Bindings]|h|r",
 		},
 	},
 	["LastKeybindingsSet"] = 1,

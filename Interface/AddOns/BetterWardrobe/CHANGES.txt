@@ -1,0 +1,11 @@
+lightweight tag 6b255bbdb6001294e289b7db3ce2f997313d9a6f V3.11.5
+Author:	SLOKnightfall <SLOKnightfall@gmail.com>
+Date:	Fri Oct 1 11:06:04 2021 -0700
+
+commit 6b255bbdb6001294e289b7db3ce2f997313d9a6f
+Author: SLOKnightfall <SLOKnightfall@gmail.com>
+Date:   Fri Oct 1 11:06:04 2021 -0700
+
+    -Fixed issue were unavailable sets were not being hidden
+    -More lag fixes
+

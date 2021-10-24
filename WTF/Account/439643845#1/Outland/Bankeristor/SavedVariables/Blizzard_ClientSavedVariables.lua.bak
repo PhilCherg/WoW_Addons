@@ -7,3 +7,35 @@ PLAYER_FRAME_CASTBARS_SHOWN = nil
 CHANNELPULLOUT_FADEFRAMES = nil
 DISPLAYED_COMMUNITIES_INVITATIONS = {
 }
+TEXTTOSPEECH_CONFIG = {
+	["playActivitySoundWhenNotFocused"] = true,
+	["ttsVoiceOptionAlternateDefault"] = 1,
+	["ttsVoiceOptionStandardDefault"] = 0,
+	["enabledChatTypes"] = {
+		["CHAT_MSG_PARTY_LEADER"] = true,
+		["CHAT_MSG_INSTANCE_CHAT"] = true,
+		["CHAT_MSG_GUILD"] = true,
+		["CHAT_MSG_SAY"] = true,
+		["CHAT_MSG_WHISPER"] = true,
+		["CHAT_MSG_BN_WHISPER"] = true,
+		["CHAT_MSG_PARTY"] = true,
+		["CHAT_MSG_SYSTEM"] = true,
+		["CHAT_MSG_INSTANCE_CHAT_LEADER"] = true,
+		["CHAT_MSG_RAID"] = true,
+		["CHAT_MSG_OFFICER"] = true,
+		["CHAT_MSG_RAID_LEADER"] = true,
+		["CHAT_MSG_YELL"] = true,
+		["CHAT_MSG_EMOTE"] = true,
+		["CHAT_MSG_GUILD_ACHIEVEMENT"] = true,
+		["CHAT_MSG_ACHIEVEMENT"] = true,
+		["CHAT_MSG_RAID_WARNING"] = true,
+	},
+	["alternateSystemVoice"] = true,
+	["narrateMyMessages"] = false,
+	["speechVolume"] = 100,
+	["speechRate"] = 0,
+	["playSoundSeparatingChatLineBreaks"] = true,
+	["addCharacterNameToSpeech"] = true,
+	["enabledChannelTypes"] = {
+	},
+}

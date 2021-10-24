@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0527,
+	["LastVersion"] = 2.0528,
 	["LastPlayerFullName"] = "Barbaxius-Outland",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
@@ -31,9 +31,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:127455::::::::55:73::22:2:7464:6652:2:28:181:9:55:::::|h[Girdle of Valorous Deeds]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 178701,
-			["Level"] = 104,
-			["Link"] = "|cff0070dd|Hitem:178701::::::::53:73::17:3:7217:6771:6652:2:9:52:28:747:::::|h[Gormshell Greaves]|h|r",
+			["ID"] = 127476,
+			["Level"] = 124,
+			["Link"] = "|cff0070dd|Hitem:127476::::::::56:73::22:2:7464:6652:2:9:56:28:181:::::|h[Ancient Royal Legguards]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 124027,

@@ -1,7 +1,6 @@
 
 TalentSetManager_Options = {
 	["visible"] = true,
-	["ldb_last_selected"] = "talents",
 	["interface"] = {
 		["ignored_tiers_bg"] = {
 			1, -- [1]
@@ -11,156 +10,155 @@ TalentSetManager_Options = {
 		},
 		["highlight_icon"] = "spells\\star",
 		["auto_equip_chatmsg"] = true,
-		["auto_equip_enable"] = false,
-		["hide_info_button"] = false,
 		["chat_filter"] = 2,
+		["hide_info_button"] = false,
+		["auto_equip_enable"] = false,
 	},
+	["ldb_last_selected"] = "talents",
 }
 TalentSetManager_CharacterSaves = {
 	["Illyana-Outland"] = {
-		["talents_pvp"] = {
-		},
 		["talents"] = {
 			{
 			}, -- [1]
 			{
 			}, -- [2]
 		},
+		["talents_pvp"] = {
+		},
 		["version"] = 0,
 		["interface"] = {
-			["auto_equip2"] = 0,
 			["auto_equip4"] = 0,
+			["auto_equip2"] = 0,
 			["auto_equip1"] = 0,
 			["auto_equip3"] = 0,
 		},
 	},
 	["Phaladinus-Outland"] = {
+		["talents_pvp"] = {
+		},
 		["talents"] = {
 			[3] = {
 			},
 		},
-		["talents_pvp"] = {
-		},
 		["version"] = 0,
 		["interface"] = {
-			["auto_equip4"] = 0,
 			["auto_equip2"] = 0,
+			["auto_equip4"] = 0,
 			["auto_equip1"] = 0,
 			["auto_equip3"] = 0,
 		},
 	},
 	["Asdsaasdf-Outland"] = {
+		["talents_pvp"] = {
+		},
 		["talents"] = {
 			[3] = {
 			},
 		},
-		["talents_pvp"] = {
-		},
 		["version"] = 0,
 		["interface"] = {
-			["auto_equip4"] = 0,
 			["auto_equip2"] = 0,
+			["auto_equip4"] = 0,
 			["auto_equip1"] = 0,
 			["auto_equip3"] = 0,
 		},
 	},
 	["Phelanara-Outland"] = {
-		["talents_pvp"] = {
-		},
 		["talents"] = {
 			[2] = {
 			},
 		},
+		["talents_pvp"] = {
+		},
 		["version"] = 0,
 		["interface"] = {
-			["auto_equip2"] = 0,
 			["auto_equip4"] = 0,
+			["auto_equip2"] = 0,
 			["auto_equip1"] = 0,
 			["auto_equip3"] = 0,
 		},
 	},
 	["Phaltraxion-Outland"] = {
+		["talents_pvp"] = {
+		},
 		["talents"] = {
 			{
 			}, -- [1]
 			[3] = {
 			},
 		},
-		["talents_pvp"] = {
-		},
 		["version"] = 0,
 		["interface"] = {
-			["auto_equip4"] = 0,
 			["auto_equip2"] = 0,
+			["auto_equip4"] = 0,
 			["auto_equip1"] = 0,
 			["auto_equip3"] = 0,
 		},
 	},
 	["Luminaxia-Outland"] = {
-		["talents_pvp"] = {
-		},
 		["talents"] = {
 			[3] = {
 			},
 		},
+		["talents_pvp"] = {
+		},
 		["version"] = 0,
 		["interface"] = {
-			["auto_equip2"] = 0,
 			["auto_equip4"] = 0,
+			["auto_equip2"] = 0,
 			["auto_equip1"] = 0,
 			["auto_equip3"] = 0,
 		},
 	},
 	["Bankeristor-Outland"] = {
+		["talents_pvp"] = {
+		},
 		["talents"] = {
 			[2] = {
 			},
 		},
-		["talents_pvp"] = {
-		},
 		["version"] = 0,
 		["interface"] = {
-			["auto_equip4"] = 0,
 			["auto_equip2"] = 0,
+			["auto_equip4"] = 0,
 			["auto_equip1"] = 0,
 			["auto_equip3"] = 0,
 		},
 	},
 	["Presentone-Outland"] = {
-		["talents_pvp"] = {
-		},
 		["talents"] = {
 			[3] = {
 			},
 		},
+		["talents_pvp"] = {
+		},
 		["version"] = 0,
 		["interface"] = {
-			["auto_equip2"] = 0,
 			["auto_equip4"] = 0,
+			["auto_equip2"] = 0,
 			["auto_equip1"] = 0,
 			["auto_equip3"] = 0,
 		},
 	},
 	["Barbaxius-Outland"] = {
-		["talents_pvp"] = {
-		},
 		["talents"] = {
 			[2] = {
 			},
 			[3] = {
 			},
 		},
+		["talents_pvp"] = {
+		},
 		["version"] = 0,
 		["interface"] = {
-			["auto_equip2"] = 0,
 			["auto_equip4"] = 0,
+			["auto_equip2"] = 0,
 			["auto_equip1"] = 0,
 			["auto_equip3"] = 0,
 		},
 	},
 	["Xanthoros-Outland"] = {
-		["talents_pvp"] = {
-		},
 		["talents"] = {
 			{
 			}, -- [1]
@@ -169,6 +167,23 @@ TalentSetManager_CharacterSaves = {
 			{
 			}, -- [3]
 		},
+		["talents_pvp"] = {
+		},
+		["version"] = 0,
+		["interface"] = {
+			["auto_equip4"] = 0,
+			["auto_equip2"] = 0,
+			["auto_equip1"] = 0,
+			["auto_equip3"] = 0,
+		},
+	},
+	["Chernakotka-Die Aldor"] = {
+		["talents_pvp"] = {
+		},
+		["talents"] = {
+			[3] = {
+			},
+		},
 		["version"] = 0,
 		["interface"] = {
 			["auto_equip2"] = 0,
@@ -177,9 +192,86 @@ TalentSetManager_CharacterSaves = {
 			["auto_equip3"] = 0,
 		},
 	},
-	["Chernakotka-Die Aldor"] = {
+	["Lianxia-Draenor"] = {
+		["talents_pvp"] = {
+		},
+		["talents"] = {
+			[2] = {
+			},
+		},
+		["version"] = 0,
+		["interface"] = {
+			["auto_equip2"] = 0,
+			["auto_equip4"] = 0,
+			["auto_equip1"] = 0,
+			["auto_equip3"] = 0,
+		},
+	},
+	["Elementior-Outland"] = {
+		["talents"] = {
+			[2] = {
+			},
+		},
+		["talents_pvp"] = {
+		},
+		["version"] = 0,
+		["interface"] = {
+			["auto_equip4"] = 0,
+			["auto_equip2"] = 0,
+			["auto_equip1"] = 0,
+			["auto_equip3"] = 0,
+		},
+	},
+	["Asdfsadfsadf-Outland"] = {
 		["talents"] = {
 			[3] = {
+			},
+		},
+		["talents_pvp"] = {
+		},
+		["version"] = 0,
+		["interface"] = {
+			["auto_equip4"] = 0,
+			["auto_equip2"] = 0,
+			["auto_equip1"] = 0,
+			["auto_equip3"] = 0,
+		},
+	},
+	["Adsfasdfasdf-Outland"] = {
+		["talents_pvp"] = {
+		},
+		["talents"] = {
+			[3] = {
+			},
+		},
+		["version"] = 0,
+		["interface"] = {
+			["auto_equip2"] = 0,
+			["auto_equip4"] = 0,
+			["auto_equip1"] = 0,
+			["auto_equip3"] = 0,
+		},
+	},
+	["Shadroxia-Outland"] = {
+		["talents_pvp"] = {
+		},
+		["talents"] = {
+			{
+			}, -- [1]
+			{
+			}, -- [2]
+		},
+		["version"] = 0,
+		["interface"] = {
+			["auto_equip2"] = 0,
+			["auto_equip4"] = 0,
+			["auto_equip1"] = 0,
+			["auto_equip3"] = 0,
+		},
+	},
+	["Destruxia-Outland"] = {
+		["talents"] = {
+			[2] = {
 			},
 		},
 		["talents_pvp"] = {
@@ -193,6 +285,8 @@ TalentSetManager_CharacterSaves = {
 		},
 	},
 	["Necrophagus-Outland"] = {
+		["talents_pvp"] = {
+		},
 		["talents"] = {
 			{
 			}, -- [1]
@@ -207,9 +301,9 @@ TalentSetManager_CharacterSaves = {
 					2, -- [5]
 					1, -- [6]
 					2, -- [7]
-					["tt"] = "talents",
-					["name"] = "SingleTarget",
 					["texture"] = "interface\\icons\\ability_warlock_chaosbolt",
+					["name"] = "SingleTarget",
+					["tt"] = "talents",
 				}, -- [1]
 				{
 					1, -- [1]
@@ -219,9 +313,9 @@ TalentSetManager_CharacterSaves = {
 					2, -- [5]
 					2, -- [6]
 					1, -- [7]
-					["tt"] = "talents",
-					["name"] = "AOE",
 					["texture"] = 136186,
+					["name"] = "AOE",
+					["tt"] = "talents",
 				}, -- [2]
 				{
 					1, -- [1]
@@ -231,125 +325,31 @@ TalentSetManager_CharacterSaves = {
 					2, -- [5]
 					3, -- [6]
 					3, -- [7]
-					["texture"] = 136156,
-					["name"] = "PvP",
 					["tt"] = "talents",
+					["name"] = "PvP",
+					["texture"] = 136156,
 				}, -- [3]
 			}, -- [3]
 		},
-		["talents_pvp"] = {
-		},
-		["version"] = 0,
-		["interface"] = {
-			["auto_equip4"] = 0,
-			["auto_equip2"] = 0,
-			["auto_equip1"] = 0,
-			["auto_equip3"] = 0,
-		},
-	},
-	["Elementior-Outland"] = {
-		["talents_pvp"] = {
-		},
-		["talents"] = {
-			[2] = {
-			},
-		},
 		["version"] = 0,
 		["interface"] = {
 			["auto_equip2"] = 0,
 			["auto_equip4"] = 0,
-			["auto_equip1"] = 0,
-			["auto_equip3"] = 0,
-		},
-	},
-	["Asdfsadfsadf-Outland"] = {
-		["talents_pvp"] = {
-		},
-		["talents"] = {
-			[3] = {
-			},
-		},
-		["version"] = 0,
-		["interface"] = {
-			["auto_equip2"] = 0,
-			["auto_equip4"] = 0,
-			["auto_equip1"] = 0,
-			["auto_equip3"] = 0,
-		},
-	},
-	["Destruxia-Outland"] = {
-		["talents_pvp"] = {
-		},
-		["talents"] = {
-			[2] = {
-			},
-		},
-		["version"] = 0,
-		["interface"] = {
-			["auto_equip2"] = 0,
-			["auto_equip4"] = 0,
-			["auto_equip1"] = 0,
-			["auto_equip3"] = 0,
-		},
-	},
-	["Shadroxia-Outland"] = {
-		["talents"] = {
-			{
-			}, -- [1]
-			{
-			}, -- [2]
-		},
-		["talents_pvp"] = {
-		},
-		["version"] = 0,
-		["interface"] = {
-			["auto_equip4"] = 0,
-			["auto_equip2"] = 0,
-			["auto_equip1"] = 0,
-			["auto_equip3"] = 0,
-		},
-	},
-	["Adsfasdfasdf-Outland"] = {
-		["talents"] = {
-			[3] = {
-			},
-		},
-		["talents_pvp"] = {
-		},
-		["version"] = 0,
-		["interface"] = {
-			["auto_equip4"] = 0,
-			["auto_equip2"] = 0,
-			["auto_equip1"] = 0,
-			["auto_equip3"] = 0,
-		},
-	},
-	["Lianxia-Draenor"] = {
-		["talents"] = {
-			[2] = {
-			},
-		},
-		["talents_pvp"] = {
-		},
-		["version"] = 0,
-		["interface"] = {
-			["auto_equip4"] = 0,
-			["auto_equip2"] = 0,
 			["auto_equip1"] = 0,
 			["auto_equip3"] = 0,
 		},
 	},
 	["Serthaxion-Outland"] = {
+		["talents_pvp"] = {
+		},
 		["talents"] = {
 			[3] = {
 			},
 		},
-		["talents_pvp"] = {
-		},
 		["version"] = 0,
 		["interface"] = {
-			["auto_equip4"] = 0,
 			["auto_equip2"] = 0,
+			["auto_equip4"] = 0,
 			["auto_equip1"] = 0,
 			["auto_equip3"] = 0,
 		},

@@ -6,7 +6,7 @@ ElvUI_AuraBarsMovers: disabled
 ElvUI_CustomTweaks: disabled
 WeakAurasCompanion: enabled
 WeakAurasArchive: disabled
-ElvUI_OptionsUI: disabled
+ElvUI_OptionsUI: enabled
 AAP-Core: disabled
 ChampionCommander: disabled
 DoYouNeedThat: disabled
@@ -22,7 +22,7 @@ HandyNotes: disabled
 GatherMate2: disabled
 GatherMate2_Data: disabled
 Immersion: disabled
-AllTheThings: disabled
+AllTheThings: enabled
 AAP-Vanilla: disabled
 AAP-TBC-WotLK: disabled
 AAP-Cata-MoP: disabled
@@ -70,10 +70,10 @@ WeakAurasModelPaths: disabled
 WeakAurasOptions: disabled
 WeakAurasTemplates: disabled
 WorldQuestTracker: enabled
-TradeSkillMaster: disabled
-TradeSkillMaster_AppHelper: disabled
+TradeSkillMaster: enabled
+TradeSkillMaster_AppHelper: enabled
 ElvUI_Config: enabled
-ElvUI: disabled
+ElvUI: enabled
 DBM-Core: disabled
 DBM-DefaultSkin: enabled
 DBM-GUI: disabled
@@ -267,3 +267,7 @@ WorldQuestsList: disabled
 +Wowhead_Looter: disabled
 CamelSpotter: disabled
 DBM-SanctumOfDomination: disabled
+AstralKeys: disabled
+BetterWardrobe: disabled
+HandyNotes_Stygia: disabled
+PremadeGroupsFilter: disabled

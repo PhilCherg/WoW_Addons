@@ -4,7 +4,7 @@ AuctionatorMiniFeatures: disabled
 _NPCScan.Overlay: enabled
 _NPCScan.Overlay.Broker: enabled
 ACP: enabled
-AllTheThings: disabled
+AllTheThings: enabled
 BigWigs_Voice: disabled
 !BugGrabber: enabled
 BugSack: enabled
@@ -19,7 +19,7 @@ WeakAurasModelPaths: disabled
 WeakAurasOptions: disabled
 WeakAurasTemplates: disabled
 ElvUI_Config: enabled
-ElvUI: disabled
+ElvUI: enabled
 vexpower: disabled
 TidyPlatesHub: enabled
 TidyPlates_Graphite: enabled
@@ -40,8 +40,8 @@ HandyNotes: disabled
 HandyNotes_DraenorTreasures: disabled
 Immersion: disabled
 Mapster: disabled
-TradeSkillMaster: disabled
-TradeSkillMaster_AppHelper: disabled
+TradeSkillMaster: enabled
+TradeSkillMaster_AppHelper: enabled
 GatherMate2: disabled
 GatherMate2_Data: disabled
 HandyNotes_EverShiftingMirror: disabled
@@ -184,7 +184,7 @@ DBM-VoA: disabled
 DBM-ZuldazarRaid: enabled
 HandyNotes_WarfrontRares: disabled
 Pawn: disabled
-Simulationcraft: enabled
+Simulationcraft: disabled
 HandyNotes_BattleForAzerothAchievments: enabled
 HandyNotes_BFA_HF_Tracker: enabled
 HandyNotes_FieldPhotographer: enabled
@@ -250,7 +250,7 @@ FakeAchievement: enabled
 HandyNotes_Argus: enabled
 LibRaiderIO_Loader: disabled
 WeakAurasArchive: disabled
-ElvUI_OptionsUI: disabled
+ElvUI_OptionsUI: enabled
 DBM-Challenges: disabled
 DBM-Nyalotha: enabled
 VuhDo: disabled
@@ -373,3 +373,7 @@ VenturePlan: disabled
 +Wowhead_Looter: disabled
 CamelSpotter: disabled
 DBM-SanctumOfDomination: disabled
+AstralKeys: disabled
+BetterWardrobe: disabled
+HandyNotes_Stygia: disabled
+PremadeGroupsFilter: disabled

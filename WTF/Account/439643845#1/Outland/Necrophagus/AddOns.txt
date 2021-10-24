@@ -8,7 +8,7 @@ ArtifactPowerUser: enabled
 _NPCScan.Overlay: enabled
 _NPCScan.Overlay.Broker: enabled
 NPCScan: enabled
-OrderHallCommander: enabled
+OrderHallCommander: disabled
 Paste: enabled
 TomTom: enabled
 AngryAssignments: enabled
@@ -52,7 +52,7 @@ MogIt_Other: enabled
 MogIt_Plate: enabled
 TradeSkillMaster_Additions: disabled
 FlightMap: disabled
-HandyNotes: enabled
+HandyNotes: disabled
 HandyNotes_DraenorTreasures: disabled
 Immersion: enabled
 Mapster: enabled
@@ -83,7 +83,7 @@ ArgusEliteTracker: disabled
 ServerHop: enabled
 ZoneAchievementTracker: disabled
 StopResetingMyCameraPlease: enabled
-TalentSetManager: enabled
+TalentSetManager: disabled
 WorldQuestsList: enabled
 DBM-Core: enabled
 DBM-DefaultSkin: enabled
@@ -110,7 +110,7 @@ HandyNotes_BattleForAzerothTreasures: enabled
 Grail: enabled
 Wholly: enabled
 AutoQuestTracker: enabled
-ChampionCommander: enabled
+ChampionCommander: disabled
 EasyScrap: enabled
 Leatrix_Plus: enabled
 OPie: enabled
@@ -122,7 +122,7 @@ Ace3: enabled
 LibStub: enabled
 ButtonFacade: enabled
 Masque: enabled
-Pawn: enabled
+Pawn: disabled
 Azeroth Auto Pilot: disabled
 ElvUI_EverySecondCounts: disabled
 Details: enabled
@@ -200,7 +200,7 @@ DBM-Ulduar: enabled
 DBM-VoA: enabled
 DBM-ZuldazarRaid: enabled
 HandyNotes_WarfrontRares: enabled
-Simulationcraft: enabled
+Simulationcraft: disabled
 HandyNotes_BattleForAzerothAchievments: enabled
 HandyNotes_BFA_HF_Tracker: enabled
 HandyNotes_FieldPhotographer: enabled
@@ -252,9 +252,9 @@ Grail-Reputations: disabled
 Grail-Rewards: enabled
 Grail-When: enabled
 AAP-Mekkatorque: disabled
-DoYouNeedThat: enabled
+DoYouNeedThat: disabled
 DBM-EternalPalace: enabled
-AngryKeystones: enabled
+AngryKeystones: disabled
 WeakAurasCompanion: enabled
 ElvUI_VisualAuraTimers: disabled
 ElvUI_ExtraActionBars: disabled
@@ -295,7 +295,7 @@ Rarity_Options: enabled
 DBM-CastleNathria: enabled
 DBM-Party-Shadowlands: enabled
 FasterLoot: enabled
-Gladius: enabled
+Gladius: disabled
 FarmHud: disabled
 FarmHud_QuestArrow: disabled
 Grail-NPCs-_retail_: enabled
@@ -354,9 +354,9 @@ RoutesImportExport: disabled
 ElvUI_QuestXP: disabled
 CandyBuckets: enabled
 AutoTrackMapPin: enabled
-GarrisonCommander: enabled
-GarrisonCommander-Broker: enabled
-MythicDungeonTools: enabled
+GarrisonCommander: disabled
+GarrisonCommander-Broker: disabled
+MythicDungeonTools: disabled
 TomCats-Bundled-DeathsRising: enabled
 UnlimitedMapPinDistance: enabled
 WorldQuestTab: enabled
@@ -385,13 +385,19 @@ BtWQuestsShadowlands: disabled
 BtWQuestsTheBurningCrusade: disabled
 BtWQuestsWarlordsOfDraenor: disabled
 BtWQuestsWrathOfTheLichKing: disabled
-HandyNotes_Shadowlands: enabled
+HandyNotes_Shadowlands: disabled
 Mists_of_Tirna_Solved: enabled
 OmniBar: disabled
 SimpleArmory: enabled
-MazeHelper: enabled
+MazeHelper: disabled
 BtWQuestsBattleForAzeroth: disabled
 Dejunk: disabled
 HandyNotes_Stygia: disabled
 PremadeAutoAccept: disabled
 CamelSpotter: disabled
+AstralKeys: disabled
+PremadeGroupsFilter: enabled
+VenturePlan: enabled
++Wowhead_Looter: enabled
+DBM-SanctumOfDomination: enabled
+BetterWardrobe_SourceData: enabled
