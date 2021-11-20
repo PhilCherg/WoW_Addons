@@ -1,10 +1,12 @@
-lightweight tag c48c56323dfc54b8d7a98c9dd355c85786ecd5cb 3.44b
+lightweight tag 0e39e7c7da9a75ad43c90ef3b45a92232a11ec90 3.45
 Author:	GitHub <noreply@github.com>
-Date:	Fri Aug 13 00:11:27 2021 -0500
+Date:	Fri Nov 5 19:48:00 2021 -0500
 
-commit c48c56323dfc54b8d7a98c9dd355c85786ecd5cb
+commit 0e39e7c7da9a75ad43c90ef3b45a92232a11ec90
 Author: Terra <46207023+TerraDK@users.noreply.github.com>
-Date:   Fri Aug 13 00:11:27 2021 -0500
+Date:   Fri Nov 5 19:48:00 2021 -0500
 
     Update AstralKeys.toc
+    
+    Changed game version
 

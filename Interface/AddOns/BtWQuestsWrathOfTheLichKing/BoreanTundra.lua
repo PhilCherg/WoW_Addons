@@ -1,6 +1,7 @@
 -- AUTO GENERATED - NEEDS UPDATING
 
 local BtWQuests = BtWQuests
+local L = BtWQuests.L
 local Database = BtWQuests.Database
 local EXPANSION_ID = BtWQuests.Constant.Expansions.WrathOfTheLichKing
 local CATEGORY_ID = BtWQuests.Constant.Category.WrathOfTheLichKing.BoreanTundra
@@ -103,7 +104,7 @@ Chain.OtherHorde = 30198
 Chain.OtherBoth = 30199
 
 Database:AddChain(Chain.HidingInPlainSight, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_ALLIANCE, 1),
+    name = L["HIDING_IN_PLAIN_SIGHT"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -191,7 +192,7 @@ Database:AddChain(Chain.HidingInPlainSight, {
     },
 })
 Database:AddChain(Chain.TheFateOfFarseerGrimwalker, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_HORDE, 1),
+    name = L["THE_FATE_OF_FARSEER_GRIMWALKER"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -343,7 +344,7 @@ Database:AddChain(Chain.TheFateOfFarseerGrimwalker, {
     },
 })
 Database:AddChain(Chain.ToTheAidOfFarshire, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_ALLIANCE, 2),
+    name = L["TO_THE_AID_OF_FARSHIRE"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -445,7 +446,7 @@ Database:AddChain(Chain.ToTheAidOfFarshire, {
     },
 })
 Database:AddChain(Chain.ReturnOfTheDreadCitadel, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_HORDE, 2),
+    name = L["RETURN_OF_THE_DREAD_CITADEL"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -567,7 +568,7 @@ Database:AddChain(Chain.ReturnOfTheDreadCitadel, {
     },
 })
 Database:AddChain(Chain.DEHTA, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_ALLIANCE, 3),
+    name = L["DEHTA"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -680,7 +681,7 @@ Database:AddChain(Chain.DEHTA, {
     },
 })
 Database:AddChain(Chain.TheScourgeNecrolord, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_HORDE, 3),
+    name = L["THE_SCOURGE_NECROLORD"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -787,7 +788,7 @@ Database:AddChain(Chain.TheScourgeNecrolord, {
     },
 })
 Database:AddChain(Chain.TheBlueDragonflight, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_ALLIANCE, 4),
+    name = L["THE_BLUE_DRAGONFLIGHT"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -904,7 +905,7 @@ Database:AddChain(Chain.TheBlueDragonflight, {
     },
 })
 Database:AddChain(Chain.FriendsFromTheSea, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_ALLIANCE, 5),
+    name = L["FRIENDS_FROM_THE_SEA"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -961,7 +962,7 @@ Database:AddChain(Chain.FriendsFromTheSea, {
     },
 })
 Database:AddChain(Chain.HellscreamsChampion, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_HORDE, 8),
+    name = L["HELLSCREAMS_CHAMPION"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1027,7 +1028,7 @@ Database:AddChain(Chain.HellscreamsChampion, {
     },
 })
 Database:AddChain(Chain.ParticipantObservation, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_ALLIANCE, 6),
+    name = L["PARTICIPANT_OBSERVATION"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1135,7 +1136,7 @@ Database:AddChain(Chain.ParticipantObservation, {
     },
 })
 Database:AddChain(Chain.ToTheAidOfTheTaunka, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_HORDE, 9),
+    name = L["TO_THE_AID_OF_THE_TAUNKA"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1202,7 +1203,7 @@ Database:AddChain(Chain.ToTheAidOfTheTaunka, {
     },
 })
 Database:AddChain(Chain.AFamilyReunion, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_ALLIANCE, 7),
+    name = L["A_FAMILY_REUNION"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1402,7 +1403,7 @@ Database:AddChain(Chain.AFamilyReunion, {
     },
 })
 Database:AddChain(Chain.SomberRealization, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_HORDE, 10),
+    name = L["SOMBER_REALIZATION"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1558,7 +1559,7 @@ Database:AddChain(Chain.SomberRealization, {
     },
 })
 Database:AddChain(Chain.LastRites, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_ALLIANCE, 8),
+    name = L["LAST_RITES"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,

@@ -22,8 +22,8 @@ BetterWardrobe_Options = {
 			["TooltipPreview_ZoomItem"] = false,
 			["IgnoreClassRestrictions"] = true,
 			["TooltipPreview_Modifier"] = "Alt",
-			["TSM_Market"] = 17,
 			["TooltipPreview_ZoomWeapon"] = false,
+			["TSM_Market"] = 17,
 		},
 	},
 }
@@ -61,33 +61,18 @@ BetterWardrobe_CharacterData = {
 		["Xanthoros - Outland"] = {
 			["listUpdate"] = 1,
 		},
+		["Destruxia - Outland"] = {
+			["listUpdate"] = 1,
+		},
 		["Serthaxion - Outland"] = {
 			["lastTransmogOutfitIDSpec"] = {
 				[3] = "0",
 			},
 			["listUpdate"] = 1,
 		},
-		["Destruxia - Outland"] = {
-			["listUpdate"] = 1,
-		},
 	},
 }
 BetterWardrobe_SavedSetData = {
-	["profileKeys"] = {
-		["Bankeristor - Outland"] = "Bankeristor - Outland",
-		["Barbaxius - Outland"] = "Barbaxius - Outland",
-		["Necrophagus - Outland"] = "Necrophagus - Outland",
-		["Xanthoros - Outland"] = "Xanthoros - Outland",
-		["Phaltraxion - Outland"] = "Phaltraxion - Outland",
-		["Illyana - Outland"] = "Illyana - Outland",
-		["Destruxia - Outland"] = "Destruxia - Outland",
-		["Phelanara - Outland"] = "Phelanara - Outland",
-		["Phaladinus - Outland"] = "Phaladinus - Outland",
-		["Serthaxion - Outland"] = "Serthaxion - Outland",
-		["Luminaxia - Outland"] = "Luminaxia - Outland",
-		["Shadroxia - Outland"] = "Shadroxia - Outland",
-		["Elementior - Outland"] = "Elementior - Outland",
-	},
 	["global"] = {
 		["sets"] = {
 			["Bankeristor - Outland"] = {
@@ -482,32 +467,32 @@ BetterWardrobe_SavedSetData = {
 					["index"] = 1,
 				}, -- [1]
 			},
-			["Serthaxion - Outland"] = {
+			["Shadroxia - Outland"] = {
 				{
 					["outfitID"] = 0,
 					["sources"] = {
 						77344, -- [1]
 						0, -- [2]
-						96943, -- [3]
+						95085, -- [3]
 						0, -- [4]
-						96944, -- [5]
-						96946, -- [6]
-						96947, -- [7]
-						96948, -- [8]
-						96949, -- [9]
-						96945, -- [10]
+						93088, -- [5]
+						50239, -- [6]
+						5860, -- [7]
+						93092, -- [8]
+						93093, -- [9]
+						93089, -- [10]
 						0, -- [11]
 						0, -- [12]
 						0, -- [13]
 						0, -- [14]
-						105939, -- [15]
-						108654, -- [16]
-						0, -- [17]
+						77345, -- [15]
+						69182, -- [16]
+						69182, -- [17]
 						0, -- [18]
-						0, -- [19]
+						83203, -- [19]
 					},
-					["name"] = "Default DK",
-					["icon"] = 1360261,
+					["name"] = "Naked",
+					["icon"] = 1728724,
 					["index"] = 1,
 				}, -- [1]
 			},
@@ -567,32 +552,32 @@ BetterWardrobe_SavedSetData = {
 					["index"] = 2,
 				}, -- [2]
 			},
-			["Shadroxia - Outland"] = {
+			["Serthaxion - Outland"] = {
 				{
 					["outfitID"] = 0,
 					["sources"] = {
 						77344, -- [1]
 						0, -- [2]
-						95085, -- [3]
+						96943, -- [3]
 						0, -- [4]
-						93088, -- [5]
-						50239, -- [6]
-						5860, -- [7]
-						93092, -- [8]
-						93093, -- [9]
-						93089, -- [10]
+						96944, -- [5]
+						96946, -- [6]
+						96947, -- [7]
+						96948, -- [8]
+						96949, -- [9]
+						96945, -- [10]
 						0, -- [11]
 						0, -- [12]
 						0, -- [13]
 						0, -- [14]
-						77345, -- [15]
-						69182, -- [16]
-						69182, -- [17]
+						105939, -- [15]
+						108654, -- [16]
+						0, -- [17]
 						0, -- [18]
-						83203, -- [19]
+						0, -- [19]
 					},
-					["name"] = "Naked",
-					["icon"] = 1728724,
+					["name"] = "Default DK",
+					["icon"] = 1360261,
 					["index"] = 1,
 				}, -- [1]
 			},
@@ -928,6 +913,21 @@ BetterWardrobe_SavedSetData = {
 			},
 		},
 	},
+	["profileKeys"] = {
+		["Bankeristor - Outland"] = "Bankeristor - Outland",
+		["Barbaxius - Outland"] = "Barbaxius - Outland",
+		["Necrophagus - Outland"] = "Necrophagus - Outland",
+		["Xanthoros - Outland"] = "Xanthoros - Outland",
+		["Phaltraxion - Outland"] = "Phaltraxion - Outland",
+		["Illyana - Outland"] = "Illyana - Outland",
+		["Destruxia - Outland"] = "Destruxia - Outland",
+		["Phelanara - Outland"] = "Phelanara - Outland",
+		["Phaladinus - Outland"] = "Phaladinus - Outland",
+		["Serthaxion - Outland"] = "Serthaxion - Outland",
+		["Luminaxia - Outland"] = "Luminaxia - Outland",
+		["Shadroxia - Outland"] = "Shadroxia - Outland",
+		["Elementior - Outland"] = "Elementior - Outland",
+	},
 	["profiles"] = {
 		["Necrophagus - Outland"] = {
 		},
@@ -980,9 +980,9 @@ BetterWardrobe_ListData = {
 			},
 			["Xanthoros - Outland"] = {
 			},
-			["Destruxia - Outland"] = {
-			},
 			["Serthaxion - Outland"] = {
+			},
+			["Destruxia - Outland"] = {
 			},
 		},
 	},
@@ -1061,6 +1061,7 @@ BetterWardrobe_ListData = {
 			},
 		},
 	},
+	["lastUpdte"] = 1,
 	["OutfitDB"] = {
 		["profileKeys"] = {
 			["Bankeristor - Outland"] = "Bankeristor - Outland",
@@ -1092,7 +1093,6 @@ BetterWardrobe_ListData = {
 			},
 		},
 	},
-	["lastUpdte"] = 1,
 	["HiddenAppearanceDB"] = {
 		["profileKeys"] = {
 			["Bankeristor - Outland"] = "Bankeristor - Outland",
@@ -1118,9 +1118,9 @@ BetterWardrobe_ListData = {
 			},
 			["Xanthoros - Outland"] = {
 			},
-			["Destruxia - Outland"] = {
-			},
 			["Serthaxion - Outland"] = {
+			},
+			["Destruxia - Outland"] = {
 			},
 		},
 	},
@@ -1129,3 +1129,4 @@ BetterWardrobe_Mogitdata = nil
 BetterWardrobe_Updates = {
 	["8_4"] = true,
 }
+BTT = nil

@@ -1,6 +1,7 @@
 -- AUTO GENERATED - NEEDS UPDATING
 
 local BtWQuests = BtWQuests
+local L = BtWQuests.L
 local Database = BtWQuests.Database
 local EXPANSION_ID = BtWQuests.Constant.Expansions.WrathOfTheLichKing
 local CATEGORY_ID = BtWQuests.Constant.Category.WrathOfTheLichKing.SholazarBasin
@@ -41,7 +42,7 @@ Chain.OtherHorde = 30698
 Chain.OtherBoth = 30699
 
 Database:AddChain(Chain.HuntingBiggerGame, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 1),
+    name = L["HUNTING_BIGGER_GAME"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -220,7 +221,7 @@ Database:AddChain(Chain.HuntingBiggerGame, {
     },
 })
 Database:AddChain(Chain.TeethSpikesAndTalons, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 2),
+    name = L["TEETH_SPIKES_AND_TALONS"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -319,7 +320,7 @@ Database:AddChain(Chain.TeethSpikesAndTalons, {
     },
 })
 Database:AddChain(Chain.TheWolvar, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 3),
+    name = L["THE_WOLVAR"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -443,7 +444,7 @@ Database:AddChain(Chain.TheWolvar, {
     },
 })
 Database:AddChain(Chain.TheOracles, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 4),
+    name = L["THE_ORACLES"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -570,7 +571,7 @@ Database:AddChain(Chain.TheOracles, {
     },
 })
 Database:AddChain(Chain.TheLifewarden, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 5),
+    name = L["THE_LIFEWARDEN"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -621,7 +622,7 @@ Database:AddChain(Chain.TheLifewarden, {
     },
 })
 Database:AddChain(Chain.WatchingOverTheBasin, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 6),
+    name = L["WATCHING_OVER_THE_BASIN"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,

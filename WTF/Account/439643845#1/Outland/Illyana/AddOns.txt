@@ -34,8 +34,8 @@ DBM-Party-BfA: disabled
 DBM-Uldir: enabled
 DBM-WorldEvents: disabled
 ElvUI_EverySecondCounts: disabled
-TradeSkillMaster: disabled
-TradeSkillMaster_AppHelper: disabled
+TradeSkillMaster: enabled
+TradeSkillMaster_AppHelper: enabled
 HandyNotes: disabled
 HandyNotes_DungeonLocations: enabled
 BagBrother: disabled

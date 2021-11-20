@@ -1,4 +1,5 @@
 local BtWQuests = BtWQuests
+local L = BtWQuests.L
 local Database = BtWQuests.Database
 local EXPANSION_ID = BtWQuests.Constant.Expansions.WrathOfTheLichKing
 local CATEGORY_ID = BtWQuests.Constant.Category.WrathOfTheLichKing.HowlingFjord
@@ -71,7 +72,7 @@ Chain.OtherHorde = 30298
 Chain.OtherBoth = 30299
 
 Database:AddChain(Chain.TheIllEquippedPort, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_ALLIANCE, 1),
+    name = L["THE_ILL_EQUIPPED_PORT"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -175,7 +176,7 @@ Database:AddChain(Chain.TheIllEquippedPort, {
     },
 })
 Database:AddChain(Chain.VisitorsFromTheKeep, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_HORDE, 1),
+    name = L["VISITORS_FROM_THE_KEEP"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -256,7 +257,7 @@ Database:AddChain(Chain.VisitorsFromTheKeep, {
     },
 })
 Database:AddChain(Chain.DescendantsOfTheVrykul, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_ALLIANCE, 2),
+    name = L["DESCENDANTS_OF_THE_VRYKUL"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -315,7 +316,7 @@ Database:AddChain(Chain.DescendantsOfTheVrykul, {
     },
 })
 Database:AddChain(Chain.AssassinatingBjornHalgurdsson, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_HORDE, 2),
+    name = L["ASSASSINATING_BJORN_HALGURDSSON"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -411,7 +412,7 @@ Database:AddChain(Chain.AssassinatingBjornHalgurdsson, {
     },
 })
 Database:AddChain(Chain.IronRuneConstructs, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_ALLIANCE, 3),
+    name = L["IRON_RUNE_CONSTRUCTS"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -506,7 +507,7 @@ Database:AddChain(Chain.IronRuneConstructs, {
     },
 })
 Database:AddChain(Chain.ANewPlagueHorde, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_HORDE, 3),
+    name = L["A_NEW_PLAGUE"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -602,7 +603,7 @@ Database:AddChain(Chain.ANewPlagueHorde, {
     },
 })
 Database:AddChain(Chain.DoomApproaches, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_ALLIANCE, 4),
+    name = L["DOOM_APPROACHES"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -732,7 +733,7 @@ Database:AddChain(Chain.DoomApproaches, {
     },
 })
 Database:AddChain(Chain.TheEndOfJonahSterling, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_ALLIANCE, 5),
+    name = L["THE_END_OF_JONAH_STERLING"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -830,7 +831,7 @@ Database:AddChain(Chain.TheEndOfJonahSterling, {
     },
 })
 Database:AddChain(Chain.TheDebtCollector, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_ALLIANCE, 6),
+    name = L["THE_DEBT_COLLECTOR"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -888,7 +889,7 @@ Database:AddChain(Chain.TheDebtCollector, {
     },
 })
 Database:AddChain(Chain.ANewPlagueAlliance, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_ALLIANCE, 7),
+    name = L["A_NEW_PLAGUE"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -993,7 +994,7 @@ Database:AddChain(Chain.ANewPlagueAlliance, {
     },
 })
 Database:AddChain(Chain.VolatileViscera, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_HORDE, 7),
+    name = L["VOLATILE_VISCERA"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1051,7 +1052,7 @@ Database:AddChain(Chain.VolatileViscera, {
     },
 })
 Database:AddChain(Chain.TheConquerorOfSkornAlliance, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_ALLIANCE, 8),
+    name = L["THE_CONQUEROR_OF_SKORN"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1123,7 +1124,7 @@ Database:AddChain(Chain.TheConquerorOfSkornAlliance, {
     },
 })
 Database:AddChain(Chain.TheScourgeAndTheVrykulAlliance, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_ALLIANCE, 9),
+    name = L["THE_SCOURGE_AND_THE_VRYKUL"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1181,7 +1182,7 @@ Database:AddChain(Chain.TheScourgeAndTheVrykulAlliance, {
     },
 })
 Database:AddChain(Chain.TheIronDwarvesHorde, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_HORDE, 9),
+    name = L["THE_IRON_DWARVES"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1231,7 +1232,7 @@ Database:AddChain(Chain.TheIronDwarvesHorde, {
     },
 })
 Database:AddChain(Chain.SistersOfTheFjord, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_ALLIANCE, 10),
+    name = L["SISTERS_OF_THE_FJORD"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1301,7 +1302,7 @@ Database:AddChain(Chain.SistersOfTheFjord, {
     },
 })
 Database:AddChain(Chain.TheConquerorOfSkornHorde, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_HORDE, 10),
+    name = L["THE_CONQUEROR_OF_SKORN"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1373,7 +1374,7 @@ Database:AddChain(Chain.TheConquerorOfSkornHorde, {
     },
 })
 Database:AddChain(Chain.TheIronDwarvesAlliance, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_ALLIANCE, 11),
+    name = L["THE_IRON_DWARVES"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1423,7 +1424,7 @@ Database:AddChain(Chain.TheIronDwarvesAlliance, {
     },
 })
 Database:AddChain(Chain.TheScourgeAndTheVrykulHorde, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_HORDE, 11),
+    name = L["THE_SCOURGE_AND_THE_VRYKUL"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1481,7 +1482,7 @@ Database:AddChain(Chain.TheScourgeAndTheVrykulHorde, {
     },
 })
 Database:AddChain(Chain.AlphaWorgAlliance, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_ALLIANCE, 12),
+    name = L["ALPHA_WORG"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1546,7 +1547,7 @@ Database:AddChain(Chain.AlphaWorgAlliance, {
     },
 })
 Database:AddChain(Chain.AlphaWorgHorde, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_HORDE, 12),
+    name = L["ALPHA_WORG"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,

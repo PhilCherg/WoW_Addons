@@ -1,6 +1,7 @@
 -- AUTO GENERATED - NEEDS UPDATING
 
 local BtWQuests = BtWQuests
+local L = BtWQuests.L
 local Database = BtWQuests.Database
 local EXPANSION_ID = BtWQuests.Constant.Expansions.WrathOfTheLichKing
 local CATEGORY_ID = BtWQuests.Constant.Category.WrathOfTheLichKing.ZulDrak
@@ -51,7 +52,7 @@ Chain.OtherHorde = 30598
 Chain.OtherBoth = 30599
 
 Database:AddChain(Chain.Sseratus, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 1),
+    name = L["SSERATUS"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -113,7 +114,7 @@ Database:AddChain(Chain.Sseratus, {
     },
 })
 Database:AddChain(Chain.Quetzlun, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 2),
+    name = L["QUETZLUN"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -282,7 +283,7 @@ Database:AddChain(Chain.Quetzlun, {
     },
 })
 Database:AddChain(Chain.Akali, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 3),
+    name = L["AKALI"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -346,7 +347,7 @@ Database:AddChain(Chain.Akali, {
     },
 })
 Database:AddChain(Chain.TheAmphitheaterOfAnguish, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 4),
+    name = L["THE_AMPHITHEATER_OF_ANGUISH"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -418,7 +419,7 @@ Database:AddChain(Chain.TheAmphitheaterOfAnguish, {
     },
 })
 Database:AddChain(Chain.FindingAllies, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 5),
+    name = L["FINDING_ALLIES"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -485,7 +486,7 @@ Database:AddChain(Chain.FindingAllies, {
     },
 })
 Database:AddChain(Chain.TheStormKingsCrusade, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 6),
+    name = L["THE_STORM_KINGS_CRUSADE"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -590,7 +591,7 @@ Database:AddChain(Chain.TheStormKingsCrusade, {
     },
 })
 Database:AddChain(Chain.Betrayal, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 7),
+    name = L["BETRAYAL"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -884,7 +885,7 @@ Database:AddChain(Chain.Betrayal, {
     },
 })
 Database:AddChain(Chain.TheArgentPatrol, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 8),
+    name = L["THE_ARGENT_PATROL"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,

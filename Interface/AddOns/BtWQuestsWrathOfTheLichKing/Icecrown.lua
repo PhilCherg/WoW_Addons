@@ -1,6 +1,7 @@
 -- AUTO GENERATED - NEEDS UPDATING
 
 local BtWQuests = BtWQuests
+local L = BtWQuests.L
 local Database = BtWQuests.Database
 local EXPANSION_ID = BtWQuests.Constant.Expansions.WrathOfTheLichKing
 local CATEGORY_ID = BtWQuests.Constant.Category.WrathOfTheLichKing.Icecrown
@@ -20,8 +21,8 @@ local LEVEL_PREREQUISITES = {
 Chain.CrusaderBridenbrad = 30801
 Chain.TheUnthinkable = 30802
 Chain.TeachingTheMeaningOfFear = 30803
-Chain.TheHeartOfTheLichKing01 = 30804
-Chain.TheHeartOfTheLichKing02 = 30805
+Chain.TheHeartOfTheLichKingAlliance = 30804
+Chain.TheHeartOfTheLichKingHorde = 30805
 Chain.WhatsYoursIsMine01 = 30806
 Chain.WhatsYoursIsMine02 = 30807
 Chain.SeizingSaronite = 30808
@@ -84,7 +85,7 @@ Chain.OtherHorde = 30898
 Chain.OtherBoth = 30899
 
 Database:AddChain(Chain.CrusaderBridenbrad, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 1),
+    name = L["CRUSADER_BRIDENBRAD"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -222,7 +223,7 @@ Database:AddChain(Chain.CrusaderBridenbrad, {
     },
 })
 Database:AddChain(Chain.TheUnthinkable, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 2),
+    name = L["THE_UNTHINKABLE"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -408,7 +409,7 @@ Database:AddChain(Chain.TheUnthinkable, {
     },
 })
 Database:AddChain(Chain.TeachingTheMeaningOfFear, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 3),
+    name = L["TEACHING_THE_MEANING_OF_FEAR"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -563,8 +564,8 @@ Database:AddChain(Chain.TeachingTheMeaningOfFear, {
         },
     },
 })
-Database:AddChain(Chain.TheHeartOfTheLichKing01, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 4),
+Database:AddChain(Chain.TheHeartOfTheLichKingAlliance, {
+    name = L["THE_HEART_OF_THE_LICH_KING"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -743,8 +744,8 @@ Database:AddChain(Chain.TheHeartOfTheLichKing01, {
         },
     },
 })
-Database:AddChain(Chain.TheHeartOfTheLichKing02, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 4),
+Database:AddChain(Chain.TheHeartOfTheLichKingHorde, {
+    name = L["THE_HEART_OF_THE_LICH_KING"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -923,7 +924,7 @@ Database:AddChain(Chain.TheHeartOfTheLichKing02, {
     },
 })
 Database:AddChain(Chain.WhatsYoursIsMine01, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 5),
+    name = L["WHATS_YOURS_IS_MINE"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -988,7 +989,7 @@ Database:AddChain(Chain.WhatsYoursIsMine01, {
     },
 })
 Database:AddChain(Chain.WhatsYoursIsMine02, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 5),
+    name = L["WHATS_YOURS_IS_MINE"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1053,7 +1054,7 @@ Database:AddChain(Chain.WhatsYoursIsMine02, {
     },
 })
 Database:AddChain(Chain.SeizingSaronite, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 6),
+    name = L["SEIZING_SARONITE"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1065,12 +1066,12 @@ Database:AddChain(Chain.SeizingSaronite, {
         },
         {
             type = "chain",
-            id = Chain.TheHeartOfTheLichKing01,
+            id = Chain.TheHeartOfTheLichKingAlliance,
             upto = 13389,
         },
         {
             type = "chain",
-            id = Chain.TheHeartOfTheLichKing02,
+            id = Chain.TheHeartOfTheLichKingHorde,
             upto = 13263,
         },
     },
@@ -1137,7 +1138,7 @@ Database:AddChain(Chain.SeizingSaronite, {
     },
 })
 Database:AddChain(Chain.MalykrissTheVileHold, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 7),
+    name = L["MALYKRISS_THE_VILE_HOLD"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1246,7 +1247,7 @@ Database:AddChain(Chain.MalykrissTheVileHold, {
     },
 })
 Database:AddChain(Chain.InDefianceOfTheScourge, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 8),
+    name = L["IN_DEFIANCE_OF_THE_SCOURGE"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1409,7 +1410,7 @@ Database:AddChain(Chain.InDefianceOfTheScourge, {
     },
 })
 Database:AddChain(Chain.MordretharTheDeathGate01, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 9),
+    name = L["MORDRETHAR_THE_DEATH_GATE"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1513,7 +1514,7 @@ Database:AddChain(Chain.MordretharTheDeathGate01, {
     },
 })
 Database:AddChain(Chain.MordretharTheDeathGate02, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 9),
+    name = L["MORDRETHAR_THE_DEATH_GATE"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1608,7 +1609,7 @@ Database:AddChain(Chain.MordretharTheDeathGate02, {
     },
 })
 Database:AddChain(Chain.AldurtharTheDesolationGate01, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 10),
+    name = L["ALDURTHAR_THE_DESOLATION_GATE"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1697,7 +1698,7 @@ Database:AddChain(Chain.AldurtharTheDesolationGate01, {
     },
 })
 Database:AddChain(Chain.AldurtharTheDesolationGate02, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 10),
+    name = L["ALDURTHAR_THE_DESOLATION_GATE"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1798,7 +1799,7 @@ Database:AddChain(Chain.AldurtharTheDesolationGate02, {
     },
 })
 Database:AddChain(Chain.CorpretharTheHorrorGate01, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 11),
+    name = L["CORPRETHAR_THE_HORROR_GATE"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1886,7 +1887,7 @@ Database:AddChain(Chain.CorpretharTheHorrorGate01, {
     },
 })
 Database:AddChain(Chain.CorpretharTheHorrorGate02, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 11),
+    name = L["CORPRETHAR_THE_HORROR_GATE"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -3364,11 +3365,11 @@ Database:AddCategory(CATEGORY_ID, {
         },
         {
             type = "chain",
-            id = Chain.TheHeartOfTheLichKing01,
+            id = Chain.TheHeartOfTheLichKingAlliance,
         },
         {
             type = "chain",
-            id = Chain.TheHeartOfTheLichKing02,
+            id = Chain.TheHeartOfTheLichKingHorde,
         },
         {
             type = "chain",

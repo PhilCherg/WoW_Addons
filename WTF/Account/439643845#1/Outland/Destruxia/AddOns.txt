@@ -1,5 +1,5 @@
 Immersion: disabled
-AllTheThings: disabled
+AllTheThings: enabled
 AAP-Core: disabled
 AAP-Vanilla: disabled
 AAP-TBC-WotLK: disabled

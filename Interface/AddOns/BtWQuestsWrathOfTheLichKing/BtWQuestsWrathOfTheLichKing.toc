@@ -1,6 +1,6 @@
-## Interface: 90005
+## Interface: 90105
 ## Title: BtWQuests: Wrath of the Lich King
-## Version: 1.3-beta
+## Version: 1.4-beta
 ## Notes: Wrath of the Lich King quest data for BtWQuests
 ## Author: Breen
 ## Dependencies: BtWQuests
@@ -13,41 +13,53 @@
 
 Defines.lua
 
-Quests.lua
-Quests.deDE.lua
-Quests.esES.lua
-Quests.esMX.lua
-Quests.frFR.lua
-Quests.itIT.lua
-Quests.koKR.lua
-Quests.ptBR.lua
-Quests.ruRU.lua
-Quests.zhCN.lua
-Quests.zhTW.lua
+Localization.lua
+Localization.deDE.lua
+Localization.esES.lua
+Localization.esMX.lua
+Localization.frFR.lua
+Localization.itIT.lua
+Localization.koKR.lua
+Localization.ptBR.lua
+Localization.ruRU.lua
+Localization.zhCN.lua
+Localization.zhTW.lua
 
-NPCs.lua
-NPCs.deDE.lua
-NPCs.esES.lua
-NPCs.esMX.lua
-NPCs.frFR.lua
-NPCs.itIT.lua
-NPCs.koKR.lua
-NPCs.ptBR.lua
-NPCs.ruRU.lua
-NPCs.zhCN.lua
-NPCs.zhTW.lua
+Database/Quests.lua
+Database/Quests.deDE.lua
+Database/Quests.esES.lua
+Database/Quests.esMX.lua
+Database/Quests.frFR.lua
+Database/Quests.itIT.lua
+Database/Quests.koKR.lua
+Database/Quests.ptBR.lua
+Database/Quests.ruRU.lua
+Database/Quests.zhCN.lua
+Database/Quests.zhTW.lua
 
-Objects.lua
-Objects.deDE.lua
-Objects.esES.lua
-Objects.esMX.lua
-Objects.frFR.lua
-Objects.itIT.lua
-Objects.koKR.lua
-Objects.ptBR.lua
-Objects.ruRU.lua
-Objects.zhCN.lua
-Objects.zhTW.lua
+Database/NPCs.lua
+Database/NPCs.deDE.lua
+Database/NPCs.esES.lua
+Database/NPCs.esMX.lua
+Database/NPCs.frFR.lua
+Database/NPCs.itIT.lua
+Database/NPCs.koKR.lua
+Database/NPCs.ptBR.lua
+Database/NPCs.ruRU.lua
+Database/NPCs.zhCN.lua
+Database/NPCs.zhTW.lua
+
+Database/Objects.lua
+Database/Objects.deDE.lua
+Database/Objects.esES.lua
+Database/Objects.esMX.lua
+Database/Objects.frFR.lua
+Database/Objects.itIT.lua
+Database/Objects.koKR.lua
+Database/Objects.ptBR.lua
+Database/Objects.ruRU.lua
+Database/Objects.zhCN.lua
+Database/Objects.zhTW.lua
 
 BoreanTundra.lua
 HowlingFjord.lua

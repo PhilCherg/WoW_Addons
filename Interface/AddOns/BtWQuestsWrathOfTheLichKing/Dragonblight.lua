@@ -1,6 +1,7 @@
 -- AUTO GENERATED - NEEDS UPDATING
 
 local BtWQuests = BtWQuests
+local L = BtWQuests.L
 local Database = BtWQuests.Database
 local EXPANSION_ID = BtWQuests.Constant.Expansions.WrathOfTheLichKing
 local CATEGORY_ID = BtWQuests.Constant.Category.WrathOfTheLichKing.Dragonblight
@@ -67,7 +68,7 @@ Chain.OtherHorde = 30398
 Chain.OtherBoth = 30399
 
 Database:AddChain(Chain.TheWardensTask, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_ALLIANCE, 1),
+    name = L["THE_WARDENS_TASK"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -129,7 +130,7 @@ Database:AddChain(Chain.TheWardensTask, {
     },
 })
 Database:AddChain(Chain.TheTaunka, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_HORDE, 1),
+    name = L["THE_TAUNKA"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -215,7 +216,7 @@ Database:AddChain(Chain.TheTaunka, {
     },
 })
 Database:AddChain(Chain.RedirectingTheLeyLinesAlliance, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_ALLIANCE, 2),
+    name = L["REDIRECTING_THE_LEY_LINES"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -314,7 +315,7 @@ Database:AddChain(Chain.RedirectingTheLeyLinesAlliance, {
     },
 })
 Database:AddChain(Chain.TraitorsToTheHorde, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_HORDE, 2),
+    name = L["TRAITORS_TO_THE_HORDE"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -404,7 +405,7 @@ Database:AddChain(Chain.TraitorsToTheHorde, {
     },
 })
 Database:AddChain(Chain.InformingTheQueenAlliance, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_ALLIANCE, 3),
+    name = L["INFORMING_THE_QUEEN"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -527,7 +528,7 @@ Database:AddChain(Chain.InformingTheQueenAlliance, {
     },
 })
 Database:AddChain(Chain.RedirectingTheLeyLinesHorde, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_HORDE, 3),
+    name = L["REDIRECTING_THE_LEY_LINES"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -640,7 +641,7 @@ Database:AddChain(Chain.RedirectingTheLeyLinesHorde, {
     },
 })
 Database:AddChain(Chain.TheDragonflights, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_ALLIANCE, 4),
+    name = L["THE_DRAGONFLIGHTS"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -684,7 +685,7 @@ Database:AddChain(Chain.TheDragonflights, {
     },
 })
 Database:AddChain(Chain.ContainingTheRot, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_HORDE, 4),
+    name = L["CONTAINING_THE_ROT"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -759,7 +760,7 @@ Database:AddChain(Chain.ContainingTheRot, {
     },
 })
 Database:AddChain(Chain.AngratharTheWrathgateAlliance, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_ALLIANCE, 5),
+    name = L["ANGRATHAR_THE_WRATHGATE"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -880,7 +881,7 @@ Database:AddChain(Chain.AngratharTheWrathgateAlliance, {
     },
 })
 Database:AddChain(Chain.AngratharTheWrathgateHorde, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_HORDE, 5),
+    name = L["ANGRATHAR_THE_WRATHGATE"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1036,7 +1037,7 @@ Database:AddChain(Chain.AngratharTheWrathgateHorde, {
     },
 })
 Database:AddChain(Chain.Frostmourne, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_ALLIANCE, 6),
+    name = L["FROSTMOURNE"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1135,7 +1136,7 @@ Database:AddChain(Chain.Frostmourne, {
     },
 })
 Database:AddChain(Chain.InformingTheQueenHorde, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_HORDE, 6),
+    name = L["INFORMING_THE_QUEEN"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1239,7 +1240,7 @@ Database:AddChain(Chain.InformingTheQueenHorde, {
     },
 })
 Database:AddChain(Chain.StrategicAlliance, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_ALLIANCE, 7),
+    name = L["STRATEGIC_ALLIANCE"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1306,7 +1307,7 @@ Database:AddChain(Chain.StrategicAlliance, {
     },
 })
 Database:AddChain(Chain.TheScarletOnslaught, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_HORDE, 9),
+    name = L["THE_SCARLET_ONSLAUGHT"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1425,7 +1426,7 @@ Database:AddChain(Chain.TheScarletOnslaught, {
     },
 })
 Database:AddChain(Chain.Oachanoa, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_ALLIANCE, 8),
+    name = L["OACHANOA"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,

@@ -2,1480 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"It starts tomorrow", -- [1]
-			"Argawyn-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Argawyn-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3442, -- [11]
-			"Player-1301-0A53AF00", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cArgawyn|r",
-			[51] = 1605030772,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"event starts tomorrow for all u degens that cant realize resets are on wednesdayson ey", -- [1]
-			"Beledelphine-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Beledelphine-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3443, -- [11]
-			"Player-1301-0B9F5B69", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Beledelphine|r",
-			[51] = 1605030790,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"WTS Level Boost 10-50 ", -- [1]
-			"Gilgidan-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gilgidan-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3448, -- [11]
-			"Player-1301-0B21DA8B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Gilgidan|r",
-			[51] = 1605030791,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"4 am event starts in eu", -- [1]
-			"Pudzían-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Pudzían-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3449, -- [11]
-			"Player-1301-0A4A5387", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cPudzían|r",
-			[51] = 1605030809,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"LF Friends to boost me, Sadge", -- [1]
-			"Hólms-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Hólms-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3450, -- [11]
-			"Player-1301-0BA4C8EE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cHólms|r",
-			[51] = 1605030811,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
-		{
-			"they see the us servers prolly they are live there", -- [1]
-			"Jaystep-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Jaystep-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3452, -- [11]
-			"Player-1301-064084AA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Jaystep|r",
-			[51] = 1605030816,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
-		{
-			"< NOVA > is OFFERING TODAY Nyalotha Heroic 12/12 for 120k! VIP Traders for only 50k! also Nyalotha Mythic 12/12 +3Trader 3000k--/Nzoth MYTHIC+Mount for 1.8MIL--/Jaina mount: 350k / --/ [M+15=90k][2M+15=171k][4M+15=333k]-/ 5Mask=70k", -- [1]
-			"Novaboostqw-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novaboostqw-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3466, -- [11]
-			"Player-1301-0B477642", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeNovaboostqw|r",
-			[51] = 1605030842,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14782:Player-1301-09D0C889:1:11:10:20:4294967295:4294967295:4294967295:4294967295|h[Level 50]|h|r!", -- [1]
-			"Phaltraxion-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Phaltraxion-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3885, -- [11]
-			"Player-1301-09D0C889", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Phaltraxion|r",
-			[51] = 1605033354,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [8]
-		{
-			"WTS Level Boost 10-50 ", -- [1]
-			"Gilgidan-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gilgidan-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3897, -- [11]
-			"Player-1301-0B21DA8B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Gilgidan|r",
-			[51] = 1605033426,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
-		{
-			"WTS  |cffa335ee|Hitem:44168::::::::35:267:::::::|h[Reins of the Time-Lost Proto-Drake]|h|r  DM ME", -- [1]
-			"Benox-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Benox-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3898, -- [11]
-			"Player-1301-068D6537", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edBenox|r",
-			[51] = 1605033428,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
-		{
-			"< NOVA > is OFFERING [M+15=90k] --[2x M+15=171k] -- [4x M+15=333k] --/Nyalotha Heroic 140k- VIP trader only 60k!-/Nyalotha Mythic 12/12+3VIP trader for 3000k-/Jaina mount 350k--/Mechagon HM Mount 130k--/5mask=70k-/Mythic N'Zoth +Mount =1.8MIL", -- [1]
-			"Novaboostqw-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novaboostqw-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3915, -- [11]
-			"Player-1301-0B477642", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeNovaboostqw|r",
-			[51] = 1605033468,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
-		{
-			"any freehold boost", -- [1]
-			"Tryhardtogo-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Tryhardtogo-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3918, -- [11]
-			"Player-1301-07F156BE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Tryhardtogo|r",
-			[51] = 1605033472,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
-		{
-			"WTS |cffa335ee|Hitem:116794::::::::50:103::::1:28:64:::|h[Garn Nighthowl]|h|r Cheaper than AH", -- [1]
-			"Frictionlock-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Frictionlock-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3936, -- [11]
-			"Player-1301-0A54E76E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Frictionlock|r",
-			[51] = 1605033503,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
-		{
-			"Looking for someone who can buy me a transfer and faction change service .ive got an amazing mindblowing offer that im sure u wont be able to pass.pst for extra information to find out what it is.", -- [1]
-			"Nomoran-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Nomoran-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3940, -- [11]
-			"Player-1301-0BA74C46", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Nomoran|r",
-			[51] = 1605033510,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
-		{
-			"WTS Level Boost 10-50 ", -- [1]
-			"Gilgidan-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gilgidan-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3943, -- [11]
-			"Player-1301-0B21DA8B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Gilgidan|r",
-			[51] = 1605033514,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
-		{
-			"WTS  |cffa335ee|Hitem:44168::::::::35:267:::::::|h[Reins of the Time-Lost Proto-Drake]|h|r  DM ME", -- [1]
-			"Benox-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Benox-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3946, -- [11]
-			"Player-1301-068D6537", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edBenox|r",
-			[51] = 1605033519,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
-		{
-			"< NOVA > is OFFERING [M+15=90k] --[2x M+15=171k] -- [4x M+15=333k] --/Nyalotha Heroic 140k- VIP trader only 60k!-/Nyalotha Mythic 12/12+3VIP trader for 3000k-/Jaina mount 350k--/Mechagon HM Mount 130k--/5mask=70k-/Mythic N'Zoth +Mount =1.8MIL", -- [1]
-			"Novaboostqw-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novaboostqw-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3949, -- [11]
-			"Player-1301-0B477642", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeNovaboostqw|r",
-			[51] = 1605033523,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
-		{
-			"|cffffd100|HclubFinder:ClubFinder-1-163086-1301-96299003|h[Guild: Midnight Tavern]|h|r brand new guild looking for players to explore new content,run mythics and raids. We welcome you warmly into our community,traveler :)", -- [1]
-			"Briona-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Briona-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1611, -- [11]
-			"Player-1301-0BAB8F78", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaBriona|r",
-			[51] = 1605804204,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
-		{
-			"WTS all my BFA LW materials, /w for info", -- [1]
-			"Botlódrót-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Botlódrót-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1621, -- [11]
-			"Player-1301-0794DD99", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Botlódrót|r",
-			[51] = 1605804230,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:1873:Player-1301-09D0C889:1:11:20:20:4294967295:4294967295:4294967295:4294967295|h[Lodi Dodi We Loves the Skadi]|h|r!", -- [1]
-			"Phaltraxion-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Phaltraxion-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			768, -- [11]
-			"Player-1301-09D0C889", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Phaltraxion|r",
-			[51] = 1605867468,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [20]
-		{
-			"WTT CARDS: NEED 1,2,4,6,7, of Voracity- OFFERS: 3, 5, 8 of Indom-  5, 6 of Repose- 3 of Putrescene", -- [1]
-			"Hyser-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Hyser-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			317, -- [11]
-			"Player-1301-083DE624", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeHyser|r",
-			[51] = 1606476103,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
-		{
-			"in lvl 60", -- [1]
-			"Roseÿ-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Roseÿ-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			318, -- [11]
-			"Player-1301-09250DB2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edRoseÿ|r",
-			[51] = 1606476103,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
-		{
-			"|cffffd100|HclubFinder:ClubFinder-1-59423-1301-86054970|h[Guild: Foreign Exchange Trader]|h|r is actively looking for ALL new members! We are a Shadowlands guild and do PVP, run social events, create raid / dungeon groups and more! Join us!", -- [1]
-			"Thanatós-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Thanatós-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			320, -- [11]
-			"Player-1301-0B33C469", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Thanatós|r",
-			[51] = 1606476111,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
-		{
-			"wts |cffffffff|Hitem:178927::::::::60:70::63:3:6716:7193:1487::::|h[Shadowghast Necklace]|h|r|cffffffff|Hitem:178926::::::::60:70::63:3:6716:7193:1487::::|h[Shadowghast Ring]|h|r|cff1eff00|Hitem:171428::::::::60:70:::::::|h[Shadowghast Ingot]|h|r cheaper than ah", -- [1]
-			"Retrystylee-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Retrystylee-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			5085, -- [11]
-			"Player-1301-0B9EBBE9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Retrystylee|r",
-			[51] = 1606847980,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:9101:Player-1301-09D0C889:1:12:2:20:4294967295:4294967295:4294967295:4294967295|h[Even More Plots]|h|r!", -- [1]
-			"Phaltraxion-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Phaltraxion-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			193, -- [11]
-			"Player-1301-09D0C889", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Phaltraxion|r",
-			[51] = 1606911276,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [25]
-		{
-			"WTB |cffa335ee|Hitem:184805::::::::60:254:::::::|h[Ballista of Buried Kings]|h|r 50k", -- [1]
-			"Ninigi-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ninigi-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			196, -- [11]
-			"Player-1301-0B348A58", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Ninigi|r",
-			[51] = 1606911290,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
-		{
-			"|cffffd100|HclubFinder:ClubFinder-1-100402-1301-90297971|h[Guild: We Were Not Prepared]|h|r Recently transfered Pvp guild looking for active players to fill our Rbg teams. No xp needed we have lots of players that will help you learn the ins and outs of pvp.", -- [1]
-			"Némonix-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Némonix-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			241, -- [11]
-			"Player-1301-0B2DE8BC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeNémonix|r",
-			[51] = 1606911383,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
-		{
-			"no, you buy it and start destruction of the furniture", -- [1]
-			"Sinovkin-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Sinovkin-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2473, -- [11]
-			"Player-1301-0BACF0E8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Sinovkin|r",
-			[51] = 1608047359,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
-		{
-			"WTS |cffa335ee|Hitem:183031::::::::60:70::5:5:7188:6652:7194:1485:6646:1:28:752:::|h[Soldier's Stoneband Wristguards]|h|r 260k gold", -- [1]
-			"Obackbarama-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Obackbarama-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2474, -- [11]
-			"Player-1301-0B8D694C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Obackbarama|r",
-			[51] = 1608047361,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
-		{
-			"XDDD", -- [1]
-			"Felxprod-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Felxprod-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2475, -- [11]
-			"Player-1301-0B9B4C9C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Felxprod|r",
-			[51] = 1608047366,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
-		{
-			"|cffffd000|Htrade:Player-1301-0541038B:195097:164|h[Blacksmithing]|h|r LFW, 190/210 legendary free with ur mats", -- [1]
-			"Amazingarms-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Amazingarms-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			343, -- [11]
-			"Player-1301-0541038B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cAmazingarms|r",
-			[51] = 1608814925,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
-		{
-			"WTS |cffffffff|Hitem:171419::::::::60:71::63:3:6716:7193:1487::::|h[Shadowghast Armguards]|h|r|cffffffff|Hitem:171414::::::::60:71::63:2:6716:1487::::|h[Shadowghast Gauntlets]|h|r|cffffffff|Hitem:171416::::::::60:71::65:2:6718:1522::::|h[Shadowghast Greaves]|h|r", -- [1]
-			"Amazingarms-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Amazingarms-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			344, -- [11]
-			"Player-1301-0541038B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cAmazingarms|r",
-			[51] = 1608814937,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
-		{
-			"WTS |cffa335ee|Hitem:183035::::::::60:66::5:5:7188:6652:6935:1485:6646:1:28:752:::|h[Ardent Sunstar Signet]|h|r", -- [1]
-			"Nezeroth-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Nezeroth-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			348, -- [11]
-			"Player-1301-04E9C790", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Nezeroth|r",
-			[51] = 1608814958,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
-		{
-			"Wts Mythic \"0 - 14\" runs & Torgast 1-8 Layers >> Accepting gold On any realm << MultiRun = discount", -- [1]
-			"Boostyoufast-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Boostyoufast-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			352, -- [11]
-			"Player-1301-0AF3F574", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Boostyoufast|r",
-			[51] = 1608814969,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
-		{
-			"<NOVA> Offering Normal CASTLE NATHRIA 10/10 700k   --  [Mythic 0-14 ][+5 290k /+7 350k /  +10  460k / +14 675k][Torghast Layer 1-8] [Layer 7 350k] [Layer 8 400k] [Multi Run 5%-15% Off ]  /W For More !", -- [1]
-			"Astren-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Astren-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			353, -- [11]
-			"Player-1301-0BC558E7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Astren|r",
-			[51] = 1608814969,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
-		{
-			"WTS 8500 |cffffffff|Hitem:169701::::::::48:63:::::::|h[Death Blossom]|h|r pm", -- [1]
-			"Iccyou-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Iccyou-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			354, -- [11]
-			"Player-1301-0841519D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaIccyou|r",
-			[51] = 1608814977,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
-		{
-			"|cffffd000|Htrade:Player-1301-0541038B:195097:164|h[Blacksmithing]|h|r LFW, 190/210 legendary free with ur mats", -- [1]
-			"Amazingarms-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Amazingarms-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			359, -- [11]
-			"Player-1301-0541038B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cAmazingarms|r",
-			[51] = 1608815023,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
-		{
-			"WTS |cffffffff|Hitem:171419::::::::60:71::63:3:6716:7193:1487::::|h[Shadowghast Armguards]|h|r|cffffffff|Hitem:171414::::::::60:71::63:2:6716:1487::::|h[Shadowghast Gauntlets]|h|r|cffffffff|Hitem:171416::::::::60:71::65:2:6718:1522::::|h[Shadowghast Greaves]|h|r", -- [1]
-			"Amazingarms-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Amazingarms-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			360, -- [11]
-			"Player-1301-0541038B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cAmazingarms|r",
-			[51] = 1608815026,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
-		{
-			"free 190 legendary craft. yours mats |cffffd000|Htrade:Player-1301-089D9D14:2108:165|h[Leatherworking]|h|r", -- [1]
-			"Deckstaer-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Deckstaer-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			361, -- [11]
-			"Player-1301-089D9D14", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Deckstaer|r",
-			[51] = 1608815036,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
-		{
-			"<NOVA> Offering Normal CASTLE NATHRIA 10/10 700k   --  [Mythic 0-14 ][+5 290k /+7 350k /  +10  460k / +14 675k][Torghast Layer 1-8] [Layer 7 350k] [Layer 8 400k] [Multi Run 5%-15% Off ]  /W For More !", -- [1]
-			"Astren-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Astren-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			368, -- [11]
-			"Player-1301-0BC558E7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Astren|r",
-			[51] = 1608815055,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
-		{
-			"Wts Mythic \"0 - 14\" runs & Torgast 1-8 Layers >> Accepting gold On any realm << MultiRun = discount", -- [1]
-			"Boostyoufast-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Boostyoufast-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			387, -- [11]
-			"Player-1301-0AF3F574", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Boostyoufast|r",
-			[51] = 1608815162,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
-		{
-			"<NOVA> Offering Normal CASTLE NATHRIA 10/10 700k   --  [Mythic 0-14 ][+5 290k /+7 350k /  +10  460k / +14 675k][Torghast Layer 1-8] [Layer 7 350k] [Layer 8 400k] [Multi Run 5%-15% Off ]  /W For More !", -- [1]
-			"Astren-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Astren-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			391, -- [11]
-			"Player-1301-0BC558E7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Astren|r",
-			[51] = 1608815205,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
-		{
-			"WTS 8500 |cffffffff|Hitem:169701::::::::48:63:::::::|h[Death Blossom]|h|r cheaper than ah pm", -- [1]
-			"Iccyou-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Iccyou-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			392, -- [11]
-			"Player-1301-0841519D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaIccyou|r",
-			[51] = 1608815207,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
-		{
-			"|cffffd100|HclubFinder:ClubFinder-1-59423-1301-86054970|h[Guild: Foreign Exchange Trader]|h|r is actively looking for ALL new members! We are a Shadowlands guild and do PVP, RBGS, ingame social events, raid / dungeon groups and more! Join us!", -- [1]
-			"Horús-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Horús-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			393, -- [11]
-			"Player-1301-0AF30C89", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaHorús|r",
-			[51] = 1608815226,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
-		{
-			"Blizzard FIX pvp, play your fucking game", -- [1]
-			"Ubäh-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ubäh-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			394, -- [11]
-			"Player-1301-08EF1F4F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcUbäh|r",
-			[51] = 1608815226,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
-		{
-			"<WTS> Mythic keys|| 2-10 || ONLY GOLD || whisp for more info", -- [1]
-			"Jofort-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Jofort-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			397, -- [11]
-			"Player-1301-0BC600F7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cJofort|r",
-			[51] = 1608815245,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
-		{
-			"Wts Mythic \"0 - 14\" runs & Torgast 1-8 Layers >> Accepting gold On any realm << MultiRun = discount", -- [1]
-			"Boostyoufast-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Boostyoufast-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			398, -- [11]
-			"Player-1301-0AF3F574", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Boostyoufast|r",
-			[51] = 1608815256,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
-		{
-			"WTS |cffa335ee|Hitem:90655::::::::50:102:::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r cheaper than AH", -- [1]
-			"Insaner-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Insaner-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			399, -- [11]
-			"Player-1301-08D5D35B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Insaner|r",
-			[51] = 1608815273,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
-		{
-			"WTS |cffa335ee|Hitem:183035::::::::60:66::5:5:7188:6652:6935:1485:6646:1:28:752:::|h[Ardent Sunstar Signet]|h|r", -- [1]
-			"Nezeroth-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Nezeroth-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			400, -- [11]
-			"Player-1301-04E9C790", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Nezeroth|r",
-			[51] = 1608815274,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
-		{
-			"<NOVA> Offering Normal CASTLE NATHRIA 10/10 700k   --  [Mythic 0-14 ][+5 290k /+7 350k /  +10  460k / +14 675k][Torghast Layer 1-8] [Layer 7 350k] [Layer 8 400k] [Multi Run 5%-15% Off ]  /W For More !", -- [1]
-			"Astren-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Astren-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			401, -- [11]
-			"Player-1301-0BC558E7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Astren|r",
-			[51] = 1608815281,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
-		{
-			"<NOVA> WTS [Castle Nathria] Normal and Heroic Full Clear and Specific Bosses **** Mythic+ [ 0-15]  Buy 2x run to Get 5% and 4x For 10% DisCount**** Torghast Boost All Layers **** Achievements Boost ****ONLY GOLD any Realm", -- [1]
-			"Novaport-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novaport-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			402, -- [11]
-			"Player-1301-0BC4463D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaNovaport|r",
-			[51] = 1608815323,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
-		{
-			"<NOVA> Offering Normal CASTLE NATHRIA 10/10 700k - HC CASTLE NATHRIA [7/10 1.6m] - [5/10 1.3m]  --  [Mythic 0-15 ][+5 290k /+7 350k /  +10  460k / +14 675k][Torghast Layer 1-8] [Layer 7 350k] [Layer 8 400k] [Multi Run 5%-15% Off ]  /W For More !", -- [1]
-			"Astren-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Astren-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			544, -- [11]
-			"Player-1301-0BC558E7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Astren|r",
-			[51] = 1608825809,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
-		{
-			"wtb all your stuf", -- [1]
-			"Gatoula-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gatoula-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			545, -- [11]
-			"Player-1301-0BBC8320", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Gatoula|r",
-			[51] = 1608825813,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
-		{
-			"any newb wanna try rated arena? im SP 184 gear", -- [1]
-			"Zucckd-Ravencrest", -- [2]
-			"", -- [3]
-			"1. General - Ironforge", -- [4]
-			"Zucckd-Ravencrest", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Ironforge", -- [9]
-			0, -- [10]
-			677, -- [11]
-			"Player-1329-09610846", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeZucckd-Ravencrest|r",
-			[51] = 1608906683,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:1689:Player-1301-09D0C889:1:12:25:20:4294967295:4294967295:4294967295:4294967295|h[He Knows If You've Been Naughty]|h|r!", -- [1]
-			"Phaltraxion-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Phaltraxion-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			683, -- [11]
-			"Player-1301-09D0C889", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Phaltraxion|r",
-			[51] = 1608906694,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [55]
-		{
-			"WTB guardian cub w me price", -- [1]
-			"Vergoldet-Outland", -- [2]
-			"", -- [3]
-			"1. General - Stormwind City", -- [4]
-			"Vergoldet-Outland", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Stormwind City", -- [9]
-			0, -- [10]
-			2631, -- [11]
-			"Player-1301-090CA3B1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Vergoldet|r",
-			[51] = 1608923582,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
-		{
-			"WTS 190/210 Plate Legendary slightly cheaper than AH or crafting for free", -- [1]
-			"Amazingarms-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Amazingarms-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2632, -- [11]
-			"Player-1301-0541038B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cAmazingarms|r",
-			[51] = 1608923583,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
-		{
-			"WTS |cff1eff00|Hitem:171428::::::::60:71:::::::|h[Shadowghast Ingot]|h|r", -- [1]
-			"Amazingarms-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Amazingarms-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2633, -- [11]
-			"Player-1301-0541038B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cAmazingarms|r",
-			[51] = 1608923583,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
-		{
-			"WTS |cffa335ee|Hitem:184778::::::::60:252::5:4:7188:6652:1485:6646:1:28:752:::|h[Decadent Nathrian Shawl]|h|r|cffa335ee|Hitem:183035::::::::60:252::5:5:7188:6652:7194:1485:6646:1:28:752:::|h[Ardent Sunstar Signet]|h|r", -- [1]
-			"Sympot-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Sympot-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2634, -- [11]
-			"Player-1301-0893EFAC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Sympot|r",
-			[51] = 1608923595,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
-		{
-			"WTS |cffa335ee|Hitem:183035::::::::60:254::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Ardent Sunstar Signet]|h|r 226 ILVL RING", -- [1]
-			"Yubuvi-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Yubuvi-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			570, -- [11]
-			"Player-1301-0B2E2AF9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Yubuvi|r",
-			[51] = 1611743578,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:696:Player-1301-09D0C889:1:2:3:21:4294967295:4294967295:4294967295:4294967295|h[Tempest Keep]|h|r!", -- [1]
-			"Phaltraxion-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Phaltraxion-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			26, -- [11]
-			"Player-1301-09D0C889", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Phaltraxion|r",
-			[51] = 1612377285,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [61]
-		{
-			"LF3M Rbg, 1.5k cr. Healers and a tank", -- [1]
-			"Sippiecool-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Sippiecool-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			41, -- [11]
-			"Player-1301-0B6DD159", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Sippiecool|r",
-			[51] = 1612377313,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
-		{
-			"<Nova> Selling Boost  M+10=180k / M+14 =305k / M+15= 480k / 2 run 7.5% discount or Stack armor FREE / Selling CASTLE NATHRIA Full clear HC 600k and per Stack Armor 240k /Curve 170k  / CASTLE NATHRIA Full clear NM 210k / Torghast Boost / /w for info", -- [1]
-			"Exoservices-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Exoservices-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			44, -- [11]
-			"Player-1301-0BDA7B25", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaExoservices|r",
-			[51] = 1612377325,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
-		{
-			"can a druid please explain how |cff71d5ff|Hspell:338832:0|h[Vision of Unending Growth]|h|r is better then |cff71d5ff|Hspell:339064:0|h[Memory of the Mother Tree]|h|r for rading. Makes no sense to me.", -- [1]
-			"Pleasuregelf-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Pleasuregelf-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			45, -- [11]
-			"Player-1301-078235ED", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Pleasuregelf|r",
-			[51] = 1612377326,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
-		{
-			"15k", -- [1]
-			"Davire-ShatteredHalls", -- [2]
-			"", -- [3]
-			"1. General - Stormwind City", -- [4]
-			"Davire-ShatteredHalls", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Stormwind City", -- [9]
-			0, -- [10]
-			48, -- [11]
-			"Player-1598-0ED16AE9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cDavire-ShatteredHalls|r",
-			[51] = 1612377343,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:5762:Player-1301-09D0C889:1:2:3:21:4294967295:4294967295:4294967295:4294967295|h[Ohganot So Fast!]|h|r!", -- [1]
-			"Phaltraxion-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Phaltraxion-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			62, -- [11]
-			"Player-1301-09D0C889", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Phaltraxion|r",
-			[51] = 1612377540,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [66]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:4624:Player-1301-09D0C889:1:2:8:21:4294967295:4294967295:4294967295:4294967295|h[Tough Love]|h|r!", -- [1]
-			"Phaltraxion-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Phaltraxion-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			834, -- [11]
-			"Player-1301-09D0C889", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Phaltraxion|r",
-			[51] = 1612779952,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [67]
-		{
 			"2.3k+io Guild Pro Team selling M+, We offer all level Mythic +10-20Key and share all Loot also+15achiv , Cheaper price, fastest speed, best service,/w for more info.Come get you Weekly box/Valor Points /iO Points/ Achievement Mount now！", -- [1]
 			"Nymphenn-Outland", -- [2]
 			"", -- [3]
@@ -1496,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Nymphenn|r",
 			[51] = 1617107423,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [1]
 		{
 			"necro", -- [1]
 			"Slowtoes-Outland", -- [2]
@@ -1518,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaSlowtoes|r",
 			[51] = 1617627870,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [2]
 		{
 			"venthyr obv-", -- [1]
 			"Nîckelodêon-Outland", -- [2]
@@ -1540,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Nîckelodêon|r",
 			[51] = 1617627879,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [3]
 		{
 			"probably necro", -- [1]
 			"Totemdude-Outland", -- [2]
@@ -1562,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcTotemdude|r",
 			[51] = 1617628137,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [4]
 		{
 			"Necro", -- [1]
 			"Topsykretts-Outland", -- [2]
@@ -1584,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edTopsykretts|r",
 			[51] = 1617628139,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [5]
 		{
 			"<<NBC>> (Special Offer) WTS Keystone Master (All Dungs 15 Intime): 1600k.CASTLE NATHRIA HC Full Clear: 330k!!  (Limited Spots)/ Offering Mythic Keystone10+: 79k , M+14: 115k / ||Torghast Boost available|| / Only Gold.Wis Me For More Info!!", -- [1]
 			"Novanini-Outland", -- [2]
@@ -1606,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novanini|r",
 			[51] = 1617628156,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [6]
 		{
 			"<Bona Fide> currently 8/10M is recruiting! We´re mainly looking for healers but may also consider DPS classes. We’re focussed on clearing each tier with a professional attitude while having fun. Raid times:Wednesday and Sunday from 19-23. ST.", -- [1]
 			"Bullbrittan-Outland", -- [2]
@@ -1628,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Bullbrittan|r",
 			[51] = 1617628160,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [7]
 		{
 			"<RCU> We are selling M+14 to 20, guaranteed intime,  Armorstacks and specific keys available We're also offering |cff66bbff|Hjournal:0:1190:16|h[Castle Nathria]|h|r] Hc&Mythic,RBG Torghast and Mounts or Legacy! Only accepting gold. /W me :)", -- [1]
 			"Smooklover-Outland", -- [2]
@@ -1650,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Smooklover|r",
 			[51] = 1617628161,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [8]
 		{
 			"WTS |cffa335ee|Hitem:184778::::::::10:256::6:4:7187:6652:1498:6646:1:28:753:::|h[Decadent Nathrian Shawl]|h|r + |cffa335ee|Hitem:183035::::::::10:256::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Ardent Sunstar Signet]|h|r ", -- [1]
 			"Tabdotz-Outland", -- [2]
@@ -1672,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeTabdotz|r",
 			[51] = 1617628169,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [9]
 		{
 			"WTS |cffa335ee|Hitem:183013::::::::10:256::6:4:7187:6652:1498:6646:1:28:753:::|h[Fallen Templar's Gauntlets]|h|r + |cffa335ee|Hitem:183031::::::::10:256::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Soldier's Stoneband Wristguards]|h|r Cheaper than AH Prices! /w me", -- [1]
 			"Tabdotz-Outland", -- [2]
@@ -1694,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeTabdotz|r",
 			[51] = 1617628171,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [10]
 		{
 			"BOOSTING TORGHAST CHEAP", -- [1]
 			"Adóukenbro-Outland", -- [2]
@@ -1716,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAdóukenbro|r",
 			[51] = 1617628178,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [11]
 		{
 			"|cffffff00Stormwind Keep is under attack!|r", -- [1]
 			"", -- [2]
@@ -1738,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1617628183,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [12]
 		{
 			"Can someone help me with 50g?", -- [1]
 			"Nightcore-Outland", -- [2]
@@ -1760,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Nightcore|r",
 			[51] = 1617789823,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [13]
 		{
 			"Wts 226 pvp bis ring |cffa335ee|Hitem:183035::::::::60:70::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Ardent Sunstar Signet]|h|r", -- [1]
 			"Sedodes-Outland", -- [2]
@@ -1782,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Sedodes|r",
 			[51] = 1617789829,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [14]
 		{
 			"WTB |cffa335ee|Hitem:183035::::::::1:259::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Ardent Sunstar Signet]|h|r 160k", -- [1]
 			"Crüsbank-Outland", -- [2]
@@ -1804,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Crüsbank|r",
 			[51] = 1617789853,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [15]
 		{
 			"Squeeze on Phaltraxion", -- [1]
 			"Phaltraxion-Outland", -- [2]
@@ -1826,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Phaltraxion|r",
 			[51] = 1624229537,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [83]
+		}, -- [16]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12385:Player-1301-09D0C889:1:6:21:21:4294967295:4294967295:4294967295:4294967295|h[Three Lights in the Darkness]|h|r!", -- [1]
 			"Phaltraxion-Outland", -- [2]
@@ -1848,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Phaltraxion|r",
 			[51] = 1624229591,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [84]
+		}, -- [17]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12386:Player-1301-09D0C889:1:6:21:21:4294967295:4294967295:4294967295:4294967295|h[Two Lights in the Darkness]|h|r!", -- [1]
 			"Phaltraxion-Outland", -- [2]
@@ -1870,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Phaltraxion|r",
 			[51] = 1624229591,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [85]
+		}, -- [18]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12387:Player-1301-09D0C889:1:6:21:21:4294967295:4294967295:4294967295:4294967295|h[One Light in the Darkness]|h|r!", -- [1]
 			"Phaltraxion-Outland", -- [2]
@@ -1892,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Phaltraxion|r",
 			[51] = 1624229591,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [86]
+		}, -- [19]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12388:Player-1301-09D0C889:1:6:21:21:4294967295:4294967295:4294967295:4294967295|h[Alone in the Darkness]|h|r!", -- [1]
 			"Phaltraxion-Outland", -- [2]
@@ -1914,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Phaltraxion|r",
 			[51] = 1624229591,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [87]
+		}, -- [20]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12395:Player-1301-09D0C889:1:6:21:21:4294967295:4294967295:4294967295:4294967295|h[Drive Me Crazy]|h|r!", -- [1]
 			"Phaltraxion-Outland", -- [2]
@@ -1936,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Phaltraxion|r",
 			[51] = 1624229591,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [88]
+		}, -- [21]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12396:Player-1301-09D0C889:1:6:21:21:4294967295:4294967295:4294967295:4294967295|h[He's Not Getting Any Older]|h|r!", -- [1]
 			"Phaltraxion-Outland", -- [2]
@@ -1958,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Phaltraxion|r",
 			[51] = 1624229591,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [89]
+		}, -- [22]
 		{
 			"lets play a game", -- [1]
 			"|Kq12|k", -- [2]
@@ -1980,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "DasRelNak",
 			[51] = 1624965856,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [90]
+		}, -- [23]
 		{
 			"whoever", -- [1]
 			"|Kq12|k", -- [2]
@@ -2002,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "DasRelNak",
 			[51] = 1624965858,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [91]
+		}, -- [24]
 		{
 			"doesnt come to d", -- [1]
 			"|Kq12|k", -- [2]
@@ -2024,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "DasRelNak",
 			[51] = 1624965861,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [92]
+		}, -- [25]
 		{
 			"is gay", -- [1]
 			"|Kq12|k", -- [2]
@@ -2046,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "DasRelNak",
 			[51] = 1624965862,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [93]
+		}, -- [26]
 		{
 			"Squeeze on Phaltraxion", -- [1]
 			"Phaltraxion-Outland", -- [2]
@@ -2068,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Phaltraxion|r",
 			[51] = 1624965925,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [94]
+		}, -- [27]
 		{
 			"WTB All CSGO/Dota2/Rust/TF2/Steam Items for TBC/Retail/New World Gold & WTT Gold Between TBC and Retail Servers (both ways) go to trade-raid.com", -- [1]
 			"Trâdesraids-Outland", -- [2]
@@ -2090,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcTrâdesraids|r",
 			[51] = 1634910609,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [28]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:546:Player-1301-09D0C889:1:10:22:21:4294967295:4294967295:4294967295:4294967295|h[Safe Deposit]|h|r!", -- [1]
 			"Phaltraxion-Outland", -- [2]
@@ -2112,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Phaltraxion|r",
 			[51] = 1634910649,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [96]
+		}, -- [29]
 		{
 			"<<NOVA>>  Offering  10/10 Sod HC 360K Traders Avaible ||M+10=77k|| ||M+14=135k|| ||M+15=150k|| ||M+16=225K|| ||M+17=315K|| <<<  Weekly  +15 140k!  >>> Torghast And PVP 2s 3s  /w for More Info", -- [1]
 			"Novagamîng-Outland", -- [2]
@@ -2134,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novagamîng|r",
 			[51] = 1634910680,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [30]
 		{
 			"<NoVA> Big  discount M0 to +22 (M 15 = 139.5k (Sylvanas HC=72k  both=117 [SoD]10/10 HC = 360k ) (4x15 =496k  KSM = 1890k (2k io)TAZAVESH =90( 216k) PVP_ torghasL9-12_LVLUP 50-60> Mount>> 2or MORE RUNS discounts/ FREE STACK  only gold / W for info", -- [1]
 			"Novatinox-Outland", -- [2]
@@ -2156,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Novatinox|r",
 			[51] = 1634910902,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [31]
 		{
 			"Selling ICC items at under 50% AH price. |cffa335ee|Hitem:52200::::::::1:1450:::::::::|h[Reins of the Crimson Deathcharger]|h|r, |cffa335ee|Hitem:52201::::::::1:1450::11::1:28:1023:::::|h[Muradin's Favor]|h|r, |cffa335ee|Hitem:52251::::::::1:1450::11::1:28:1023:::::|h[Jaina's Locket]|h|r etc- /w me an offer", -- [1]
 			"Sniperbuddy-Outland", -- [2]
@@ -2178,29 +704,1503 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Sniperbuddy|r",
 			[51] = 1635074635,
 			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [32]
+		{
+			"wts |cffffff00|Hachievement:5343:Player-1301-0C19C5F0:0:0:0:-1:0:0:0:0|h[Grand Marshal]|h|r |cffffff00|Hachievement:2091:Player-1301-0C19C5F0:0:0:0:-1:0:0:0:0|h[Gladiator]|h|r pvp boosting any rating for vendors reward /w me grp ready infos.", -- [1]
+			"Yiurequest-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Yiurequest-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			591, -- [11]
+			"Player-1301-0C19C5F0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cYiurequest|r",
+			[51] = 1637262592,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [33]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:778:Player-1301-09D0C889:1:11:18:21:4294967295:4294967295:4294967295:4294967295|h[Explore Duskwood]|h|r!", -- [1]
+			"Phaltraxion-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phaltraxion-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			604, -- [11]
+			"Player-1301-09D0C889", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Phaltraxion|r",
+			[51] = 1637262650,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [34]
+		{
+			"should we start? i believe the boss starts scaling at 20+? ", -- [1]
+			"Fusername-Garona", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fusername-Garona", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			620, -- [11]
+			"Player-509-061E3014", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edFusername-Garona|r",
+			[51] = 1637262828,
+			[50] = "CHAT_MSG_RAID_LEADER",
+		}, -- [35]
+		{
+			"lets try", -- [1]
+			"Bigdemon-Nagrand", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bigdemon-Nagrand", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			623, -- [11]
+			"Player-1587-0C6AE8E8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Bigdemon-Nagrand|r",
+			[51] = 1637262854,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [36]
+		{
+			"lmao", -- [1]
+			"Fusername-Garona", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fusername-Garona", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			642, -- [11]
+			"Player-509-061E3014", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edFusername-Garona|r",
+			[51] = 1637263017,
+			[50] = "CHAT_MSG_RAID_LEADER",
+		}, -- [37]
+		{
+			"wew lad", -- [1]
+			"Catelynn-AzjolNerub", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Catelynn-AzjolNerub", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			643, -- [11]
+			"Player-1396-09897370", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeCatelynn-AzjolNerub|r",
+			[51] = 1637263023,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [38]
+		{
+			"this doesnt seems like it was fixed since last", -- [1]
+			"Catelynn-AzjolNerub", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Catelynn-AzjolNerub", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			645, -- [11]
+			"Player-1396-09897370", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeCatelynn-AzjolNerub|r",
+			[51] = 1637263037,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [39]
+		{
+			"reset", -- [1]
+			"Legurth-Nemesis", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Legurth-Nemesis", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			646, -- [11]
+			"Player-1316-08432C49", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cLegurth-Nemesis|r",
+			[51] = 1637263041,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [40]
+		{
+			"reset", -- [1]
+			"Fusername-Garona", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fusername", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			647, -- [11]
+			"Player-509-061E3014", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edFusername-Garona|r",
+			[51] = 1637263053,
+			[50] = "CHAT_MSG_RAID_WARNING",
+		}, -- [41]
+		{
+			"wdym, it's vanilla content, good game design", -- [1]
+			"Fusername-Garona", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fusername-Garona", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			654, -- [11]
+			"Player-509-061E3014", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edFusername-Garona|r",
+			[51] = 1637263082,
+			[50] = "CHAT_MSG_RAID_LEADER",
+		}, -- [42]
+		{
+			"it wasnt like this", -- [1]
+			"Catelynn-AzjolNerub", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Catelynn-AzjolNerub", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			656, -- [11]
+			"Player-1396-09897370", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeCatelynn-AzjolNerub|r",
+			[51] = 1637263097,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [43]
+		{
+			"this boss requieres solid execution but at the same time, is meant to be PUG'd ", -- [1]
+			"Fusername-Garona", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fusername-Garona", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			662, -- [11]
+			"Player-509-061E3014", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edFusername-Garona|r",
+			[51] = 1637263132,
+			[50] = "CHAT_MSG_RAID_LEADER",
+		}, -- [44]
+		{
+			"also wait before pulling", -- [1]
+			"Fusername-Garona", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fusername-Garona", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			668, -- [11]
+			"Player-509-061E3014", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edFusername-Garona|r",
+			[51] = 1637263196,
+			[50] = "CHAT_MSG_RAID_LEADER",
+		}, -- [45]
+		{
+			"a cleaner pull might help for dps", -- [1]
+			"Fusername-Garona", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fusername-Garona", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			669, -- [11]
+			"Player-509-061E3014", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edFusername-Garona|r",
+			[51] = 1637263204,
+			[50] = "CHAT_MSG_RAID_LEADER",
+		}, -- [46]
+		{
+			"is it important to kill the mushrooms ?", -- [1]
+			"Kahlan-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kahlan-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			670, -- [11]
+			"Player-3391-068AB7B3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Kahlan-Silvermoon|r",
+			[51] = 1637263206,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [47]
+		{
+			"no", -- [1]
+			"Fusername-Garona", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fusername-Garona", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			671, -- [11]
+			"Player-509-061E3014", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edFusername-Garona|r",
+			[51] = 1637263210,
+			[50] = "CHAT_MSG_RAID_LEADER",
+		}, -- [48]
+		{
+			"too much hp", -- [1]
+			"Fusername-Garona", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fusername-Garona", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			672, -- [11]
+			"Player-509-061E3014", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edFusername-Garona|r",
+			[51] = 1637263212,
+			[50] = "CHAT_MSG_RAID_LEADER",
+		}, -- [49]
+		{
+			"or ignor them", -- [1]
+			"Kahlan-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kahlan-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			673, -- [11]
+			"Player-3391-068AB7B3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Kahlan-Silvermoon|r",
+			[51] = 1637263213,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [50]
+		{
+			"allright", -- [1]
+			"Kahlan-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kahlan-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			674, -- [11]
+			"Player-3391-068AB7B3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Kahlan-Silvermoon|r",
+			[51] = 1637263217,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [51]
+		{
+			"ty", -- [1]
+			"Kahlan-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kahlan-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			676, -- [11]
+			"Player-3391-068AB7B3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Kahlan-Silvermoon|r",
+			[51] = 1637263217,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [52]
+		{
+			"just avoid her danger areas", -- [1]
+			"Catelynn-AzjolNerub", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Catelynn-AzjolNerub", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			678, -- [11]
+			"Player-1396-09897370", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeCatelynn-AzjolNerub|r",
+			[51] = 1637263225,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [53]
+		{
+			"just zerg boss", -- [1]
+			"Legurth-Nemesis", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Legurth-Nemesis", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			679, -- [11]
+			"Player-1316-08432C49", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cLegurth-Nemesis|r",
+			[51] = 1637263230,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [54]
+		{
+			"imagine shes got the coof", -- [1]
+			"Catelynn-AzjolNerub", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Catelynn-AzjolNerub", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			680, -- [11]
+			"Player-1396-09897370", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeCatelynn-AzjolNerub|r",
+			[51] = 1637263236,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [55]
+		{
+			"if u die relas and run", -- [1]
+			"Dont-Sylvanas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Dont-Sylvanas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			681, -- [11]
+			"Player-1597-0F08645D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Dont-Sylvanas|r",
+			[51] = 1637263242,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [56]
+		{
+			"wait bl debuff", -- [1]
+			"Fusername-Garona", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fusername-Garona", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			682, -- [11]
+			"Player-509-061E3014", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edFusername-Garona|r",
+			[51] = 1637263261,
+			[50] = "CHAT_MSG_RAID_LEADER",
+		}, -- [57]
+		{
+			"i guess", -- [1]
+			"Fusername-Garona", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fusername-Garona", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			683, -- [11]
+			"Player-509-061E3014", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edFusername-Garona|r",
+			[51] = 1637263262,
+			[50] = "CHAT_MSG_RAID_LEADER",
+		}, -- [58]
+		{
+			"make pull when rdy", -- [1]
+			"Dont-Sylvanas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Dont-Sylvanas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			685, -- [11]
+			"Player-1597-0F08645D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Dont-Sylvanas|r",
+			[51] = 1637263325,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [59]
+		{
+			"we wait bl debuff to fade", -- [1]
+			"Fusername-Garona", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fusername-Garona", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			686, -- [11]
+			"Player-509-061E3014", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edFusername-Garona|r",
+			[51] = 1637263334,
+			[50] = "CHAT_MSG_RAID_LEADER",
+		}, -- [60]
+		{
+			"spreat around boss", -- [1]
+			"Dont-Sylvanas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Dont-Sylvanas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			688, -- [11]
+			"Player-1597-0F08645D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Dont-Sylvanas|r",
+			[51] = 1637263363,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [61]
+		{
+			"go", -- [1]
+			"Fusername-Garona", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fusername-Garona", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			689, -- [11]
+			"Player-509-061E3014", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edFusername-Garona|r",
+			[51] = 1637263365,
+			[50] = "CHAT_MSG_RAID_LEADER",
+		}, -- [62]
+		{
+			"mmmmh", -- [1]
+			"Legurth-Nemesis", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Legurth-Nemesis", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			697, -- [11]
+			"Player-1316-08432C49", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cLegurth-Nemesis|r",
+			[51] = 1637263469,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [63]
+		{
+			"kudos to that impatient mage", -- [1]
+			"Fusername-Garona", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fusername-Garona", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			698, -- [11]
+			"Player-509-061E3014", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edFusername-Garona|r",
+			[51] = 1637263484,
+			[50] = "CHAT_MSG_RAID_LEADER",
+		}, -- [64]
+		{
+			"i killed this fff . boss with 3 pg as horde why can t kill him ??", -- [1]
+			"Legurth-Nemesis", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Legurth-Nemesis", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			699, -- [11]
+			"Player-1316-08432C49", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cLegurth-Nemesis|r",
+			[51] = 1637263485,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [65]
+		{
+			"sooo overtuned, no fun", -- [1]
+			"Kahlan-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kahlan-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			700, -- [11]
+			"Player-3391-068AB7B3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Kahlan-Silvermoon|r",
+			[51] = 1637263486,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [66]
+		{
+			"smaller group?", -- [1]
+			"Catelynn-AzjolNerub", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Catelynn-AzjolNerub", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			701, -- [11]
+			"Player-1396-09897370", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeCatelynn-AzjolNerub|r",
+			[51] = 1637263496,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [67]
+		{
+			"keep ressing and running", -- [1]
+			"Phaltraxion-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phaltraxion-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			702, -- [11]
+			"Player-1301-09D0C889", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Phaltraxion|r",
+			[51] = 1637263522,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [68]
+		{
+			"this is how all groups kill it", -- [1]
+			"Phaltraxion-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phaltraxion-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			703, -- [11]
+			"Player-1301-09D0C889", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Phaltraxion|r",
+			[51] = 1637263526,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [69]
+		{
+			"A DPS (Авигдору) has been stunned for 5 seconds - |cff71d5ff|Hspell:248320:0|h[Летаргия]|h|r", -- [1]
+			"Авигдору-Дракономор", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Авигдору-Дракономор", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			706, -- [11]
+			"Player-1623-0727FF2A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaАвигдору-Дракономор|r",
+			[51] = 1637263549,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [70]
+		{
+			"A DPS (Авигдору) is no longer stunned", -- [1]
+			"Авигдору-Дракономор", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Авигдору-Дракономор", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			707, -- [11]
+			"Player-1623-0727FF2A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaАвигдору-Дракономор|r",
+			[51] = 1637263553,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [71]
+		{
+			"A DPS (Авигдору) has been stunned for 5 seconds - |cff71d5ff|Hspell:248320:0|h[Летаргия]|h|r", -- [1]
+			"Авигдору-Дракономор", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Авигдору-Дракономор", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			709, -- [11]
+			"Player-1623-0727FF2A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaАвигдору-Дракономор|r",
+			[51] = 1637263569,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [72]
+		{
+			"A DPS (Авигдору) is no longer stunned", -- [1]
+			"Авигдору-Дракономор", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Авигдору-Дракономор", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			711, -- [11]
+			"Player-1623-0727FF2A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaАвигдору-Дракономор|r",
+			[51] = 1637263574,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [73]
+		{
+			"A DPS (Авигдору) has been stunned for 5 seconds - |cff71d5ff|Hspell:248320:0|h[Летаргия]|h|r", -- [1]
+			"Авигдору-Дракономор", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Авигдору-Дракономор", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			712, -- [11]
+			"Player-1623-0727FF2A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaАвигдору-Дракономор|r",
+			[51] = 1637263575,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [74]
+		{
+			"A DPS (Авигдору) is no longer stunned", -- [1]
+			"Авигдору-Дракономор", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Авигдору-Дракономор", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			713, -- [11]
+			"Player-1623-0727FF2A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaАвигдору-Дракономор|r",
+			[51] = 1637263575,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [75]
+		{
+			"gogo", -- [1]
+			"Fusername-Garona", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fusername-Garona", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			719, -- [11]
+			"Player-509-061E3014", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edFusername-Garona|r",
+			[51] = 1637263640,
+			[50] = "CHAT_MSG_RAID_LEADER",
+		}, -- [76]
+		{
+			"smh", -- [1]
+			"Fusername-Garona", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fusername-Garona", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			731, -- [11]
+			"Player-509-061E3014", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edFusername-Garona|r",
+			[51] = 1637263644,
+			[50] = "CHAT_MSG_RAID_LEADER",
+		}, -- [77]
+		{
+			"ress plz", -- [1]
+			"Dont-Sylvanas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Dont-Sylvanas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			732, -- [11]
+			"Player-1597-0F08645D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Dont-Sylvanas|r",
+			[51] = 1637263649,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [78]
+		{
+			"dranit", -- [1]
+			"Kahlan-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kahlan-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			733, -- [11]
+			"Player-3391-068AB7B3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Kahlan-Silvermoon|r",
+			[51] = 1637263650,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [79]
+		{
+			"clean", -- [1]
+			"Kremmdruid-GrimBatol", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kremmdruid-GrimBatol", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			734, -- [11]
+			"Player-1303-05AED907", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Kremmdruid-GrimBatol|r",
+			[51] = 1637263651,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [80]
+		{
+			"Omg the stress", -- [1]
+			"Cartreuse-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Cartreuse-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			736, -- [11]
+			"Player-3391-0C0F5A53", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Cartreuse-Silvermoon|r",
+			[51] = 1637263652,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [81]
+		{
+			"nice and ez", -- [1]
+			"Catelynn-AzjolNerub", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Catelynn-AzjolNerub", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			738, -- [11]
+			"Player-1396-09897370", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeCatelynn-AzjolNerub|r",
+			[51] = 1637263656,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [82]
+		{
+			"can ress ?", -- [1]
+			"Legurth-Nemesis", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Legurth-Nemesis", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			739, -- [11]
+			"Player-1316-08432C49", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cLegurth-Nemesis|r",
+			[51] = 1637263657,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [83]
+		{
+			"thanks", -- [1]
+			"Catelynn-AzjolNerub", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Catelynn-AzjolNerub", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			740, -- [11]
+			"Player-1396-09897370", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeCatelynn-AzjolNerub|r",
+			[51] = 1637263661,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [84]
+		{
+			"spasiba", -- [1]
+			"Fusername-Garona", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fusername-Garona", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			741, -- [11]
+			"Player-509-061E3014", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edFusername-Garona|r",
+			[51] = 1637263662,
+			[50] = "CHAT_MSG_RAID_LEADER",
+		}, -- [85]
+		{
+			"ty", -- [1]
+			"Tegenaria-BurningBlade", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tegenaria-BurningBlade", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			743, -- [11]
+			"Player-1092-0525175C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcTegenaria-BurningBlade|r",
+			[51] = 1637263666,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [86]
+		{
+			"How are you even supposed to not die", -- [1]
+			"Ardeline-Thunderhorn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ardeline-Thunderhorn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			744, -- [11]
+			"Player-1313-0BFD9C64", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Ardeline-Thunderhorn|r",
+			[51] = 1637263667,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [87]
+		{
+			"bb all", -- [1]
+			"Fusername-Garona", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fusername-Garona", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			745, -- [11]
+			"Player-509-061E3014", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edFusername-Garona|r",
+			[51] = 1637263667,
+			[50] = "CHAT_MSG_RAID_LEADER",
+		}, -- [88]
+		{
+			"ty all", -- [1]
+			"Kahlan-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kahlan-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			746, -- [11]
+			"Player-3391-068AB7B3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Kahlan-Silvermoon|r",
+			[51] = 1637263669,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [89]
+		{
+			"thanks!", -- [1]
+			"Мариэле-Гордунни", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Мариэле-Гордунни", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			747, -- [11]
+			"Player-1602-06B3AB64", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cМариэле-Гордунни|r",
+			[51] = 1637263669,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [90]
+		{
+			"|cffffff00Lion's Pride Inn is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Elwynn Forest", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Elwynn Forest", -- [9]
+			0, -- [10]
+			751, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1637263707,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [91]
+		{
+			" [WTS] |cffffff00|Hachievement:15134:Player-1301-0C19E403:0:0:0:-1:0:0:0:0|h[Der Zeit voraus: Sylvanas Windläufer]|h|r HC [Sylvanas] >65k< [Kel'thuzad] >45k< [BOTH] >100k< !!! Now  Every 30 minutes Get 246 ilvl Loot  /w me or visit us in discord.gg/rcu ", -- [1]
+			"Holfi-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Holfi-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1, -- [11]
+			"Player-1301-0C19E403", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cHolfi|r",
+			[51] = 1637265849,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"|cffffd100|HclubFinder:ClubFinder-1-5323-1597-92124131|h[Guild: Death Proof]|h|r  (since 2012) is recruiting! looking for all classes specs and socials M+ players! 10/10HC 1/10M !!", -- [1]
+			"Freeguy-Sylvanas", -- [2]
+			"", -- [3]
+			"1. General - Tanaris", -- [4]
+			"Freeguy-Sylvanas", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Tanaris", -- [9]
+			0, -- [10]
+			723, -- [11]
+			"Player-1597-0CCFAE8B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Freeguy-Sylvanas|r",
+			[51] = 1637340328,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			" [WTS] |cffffff00|Hachievement:15134:Player-1301-0C19E403:0:0:0:-1:0:0:0:0|h[Der Zeit voraus: Sylvanas Windläufer]|h|r HC [Sylvanas] >65k< [Kel'thuzad] >45k< [BOTH] >100k< !!! Now  Every 30 minutes Get 246 ilvl Loot  /w me or visit us in discord.gg/rcu ", -- [1]
+			"Holfi-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Holfi-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			742, -- [11]
+			"Player-1301-0C19E403", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cHolfi|r",
+			[51] = 1637340512,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"No food (14): Robohuntres-ArgentDawn, Phaltraxion-Outland, Wolfkilla-Ravencrest, Énao-Outland, Unicornrider-Sylvanas, Baîj-Silvermoon, Murmùre, Fragolina-Aszune, Wdaosh-Aszune, Sklortch-Shadowsong, Elamoure-Arthas, ", -- [1]
+			"Murmùre-KirinTor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Murmùre-KirinTor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			789, -- [11]
+			"Player-1127-092DBBCE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Murmùre-KirinTor|r",
+			[51] = 1637341070,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [95]
+		{
+			"Сенлеор-Гордунни, Sorcith-DunModr, Narcyz-ArgentDawn", -- [1]
+			"Murmùre-KirinTor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Murmùre-KirinTor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			790, -- [11]
+			"Player-1127-092DBBCE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Murmùre-KirinTor|r",
+			[51] = 1637341070,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [96]
+		{
+			"No flask (15): Robohuntres-ArgentDawn, Wdaosh-Aszune, Fragolina-Aszune, Sklortch-Shadowsong, Сенлеор-Гордунни, Elamoure-Arthas, Sorcith-DunModr, Murmùre, Unicornrider-Sylvanas, Phaltraxion-Outland, Baîj-Silvermoon, ", -- [1]
+			"Murmùre-KirinTor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Murmùre-KirinTor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			791, -- [11]
+			"Player-1127-092DBBCE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Murmùre-KirinTor|r",
+			[51] = 1637341070,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [97]
+		{
+			"Lonewolf-Krasus, Énao-Outland, Wolfkilla-Ravencrest, Narcyz-ArgentDawn", -- [1]
+			"Murmùre-KirinTor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Murmùre-KirinTor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			792, -- [11]
+			"Player-1127-092DBBCE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Murmùre-KirinTor|r",
+			[51] = 1637341070,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [98]
+		{
+			"Améliorations de groupe Endurance (6), Intelligence (4)", -- [1]
+			"Murmùre-KirinTor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Murmùre-KirinTor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			793, -- [11]
+			"Player-1127-092DBBCE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Murmùre-KirinTor|r",
+			[51] = 1637341070,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/played", -- [1]
-		"/vexpower", -- [2]
-		"/aap skip", -- [3]
-		"samo te molq utre da mi pomognesh", -- [4]
-		"/elvui", -- [5]
-		"/SPIT", -- [6]
-		"?", -- [7]
-		"che az lqgam sled malko i nqma da imam vremee", -- [8]
-		"/simc minimap", -- [9]
-		"/g bad choice there", -- [10]
-		"radvam se mnogo za teb", -- [11]
-		"/bow", -- [12]
-		"/s why dafaq do you caarewhat i do", -- [13]
-		"/reload", -- [14]
-		"i utre da mi pomognesh", -- [15]
-		"/s mate", -- [16]
-		"/calendar", -- [17]
-		"/s kys", -- [18]
-		"how about sega da si napravish shita", -- [19]
-		"/spit", -- [20]
+		"/aap skip", -- [1]
+		"samo te molq utre da mi pomognesh", -- [2]
+		"/elvui", -- [3]
+		"/SPIT", -- [4]
+		"?", -- [5]
+		"che az lqgam sled malko i nqma da imam vremee", -- [6]
+		"/simc minimap", -- [7]
+		"/g bad choice there", -- [8]
+		"radvam se mnogo za teb", -- [9]
+		"/bow", -- [10]
+		"/s why dafaq do you caarewhat i do", -- [11]
+		"/reload", -- [12]
+		"i utre da mi pomognesh", -- [13]
+		"/s mate", -- [14]
+		"/calendar", -- [15]
+		"/s kys", -- [16]
+		"how about sega da si napravish shita", -- [17]
+		"/spit", -- [18]
+		"/raid keep ressing and running", -- [19]
+		"/raid this is how all groups kill it", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }

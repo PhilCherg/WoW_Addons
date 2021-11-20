@@ -19,6 +19,9 @@ __DEJUNK_SAVED_VARIABLES__ = {
 			},
 			["version"] = 3,
 		},
+		["Bankeristor-Outland"] = {
+			["version"] = 3,
+		},
 		["Barbaxius-Outland"] = {
 			["version"] = 3,
 		},

@@ -1,6 +1,7 @@
 -- AUTO GENERATED - NEEDS UPDATING
 
 local BtWQuests = BtWQuests
+local L = BtWQuests.L
 local Database = BtWQuests.Database
 local EXPANSION_ID = BtWQuests.Constant.Expansions.WrathOfTheLichKing
 local CATEGORY_ID = BtWQuests.Constant.Category.WrathOfTheLichKing.TheStormPeaks
@@ -58,7 +59,7 @@ Chain.OtherHorde = 30798
 Chain.OtherBoth = 30799
 
 Database:AddChain(Chain.DefendingK3, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 1),
+    name = L["DEFENDING_K3"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -138,7 +139,7 @@ Database:AddChain(Chain.DefendingK3, {
     },
 })
 Database:AddChain(Chain.TheHarpyProblem, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 2),
+    name = L["THE_HARPY_PROBLEM"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -209,7 +210,7 @@ Database:AddChain(Chain.TheHarpyProblem, {
     },
 })
 Database:AddChain(Chain.NorgannonsShell, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 3),
+    name = L["NORGANNONS_SHELL"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -243,7 +244,7 @@ Database:AddChain(Chain.NorgannonsShell, {
     },
 })
 Database:AddChain(Chain.BringingDownTheIronColossus, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 4),
+    name = L["BRINGING_DOWN_THE_IRON_COLOSSUS"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -389,7 +390,7 @@ Database:AddChain(Chain.BringingDownTheIronColossus, {
     },
 })
 Database:AddChain(Chain.PursuingALegend, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 4),
+    name = L["PURSUING_A_LEGEND"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -447,7 +448,7 @@ Database:AddChain(Chain.PursuingALegend, {
     },
 })
 Database:AddChain(Chain.ForTheFrostbornKing, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 5),
+    name = L["FOR_THE_FROSTBORN_KING"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -568,7 +569,7 @@ Database:AddChain(Chain.ForTheFrostbornKing, {
     },
 })
 Database:AddChain(Chain.TheStoryOfStormhoof, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 5),
+    name = L["THE_STORY_OF_STORMHOOF"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -648,7 +649,7 @@ Database:AddChain(Chain.TheStoryOfStormhoof, {
     },
 })
 Database:AddChain(Chain.BearlyReady, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 6),
+    name = L["BEARLY_READY"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -768,7 +769,7 @@ Database:AddChain(Chain.BearlyReady, {
     },
 })
 Database:AddChain(Chain.Heartbreak, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 7),
+    name = L["HEARTBREAK"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -909,7 +910,7 @@ Database:AddChain(Chain.Heartbreak, {
     },
 })
 Database:AddChain(Chain.TheSonsOfHodir, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 8),
+    name = L["THE_SONS_OF_HODIR"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1014,7 +1015,7 @@ Database:AddChain(Chain.TheSonsOfHodir, {
     },
 })
 Database:AddChain(Chain.Loken, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 9),
+    name = L["LOKEN"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,

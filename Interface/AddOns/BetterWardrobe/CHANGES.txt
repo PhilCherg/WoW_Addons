@@ -1,11 +1,16 @@
-lightweight tag 6b255bbdb6001294e289b7db3ce2f997313d9a6f V3.11.5
+tag b0c044cde58fe305e3051157c7270f776d45c870 V3.12
 Author:	SLOKnightfall <SLOKnightfall@gmail.com>
-Date:	Fri Oct 1 11:06:04 2021 -0700
+Date:	Tue Nov 2 15:25:02 2021 -0700
 
-commit 6b255bbdb6001294e289b7db3ce2f997313d9a6f
+-Toc Update
+-Color Wheel searching, Source Data, Recolors
+
+commit eb63d8b91fef8a9134a151eca6480200a4b18530
 Author: SLOKnightfall <SLOKnightfall@gmail.com>
-Date:   Fri Oct 1 11:06:04 2021 -0700
+Date:   Tue Nov 2 15:21:29 2021 -0700
 
-    -Fixed issue were unavailable sets were not being hidden
-    -More lag fixes
+    -Toc Update for 9.1.5
+    -Added Link Outfit button to Dressing room to match current buttons
+    -Re enabled color wheel searching, source data and recolors
+    -Added AceSerializer to pkgmeta
 

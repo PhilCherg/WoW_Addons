@@ -1,6 +1,7 @@
 -- AUTO GENERATED - NEEDS UPDATING
 
 local BtWQuests = BtWQuests
+local L = BtWQuests.L
 local Database = BtWQuests.Database
 local EXPANSION_ID = BtWQuests.Constant.Expansions.WrathOfTheLichKing
 local CATEGORY_ID = BtWQuests.Constant.Category.WrathOfTheLichKing.GrizzlyHills
@@ -48,7 +49,7 @@ Chain.OtherHorde = 30498
 Chain.OtherBoth = 30499
 
 Database:AddChain(Chain.UrsocTheBearGodAlliance, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_ALLIANCE, 1),
+    name = L["URSOC_THE_BEAR_GOD"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -214,7 +215,7 @@ Database:AddChain(Chain.UrsocTheBearGodAlliance, {
     },
 })
 Database:AddChain(Chain.UrsocTheBearGodHorde, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_HORDE, 1),
+    name = L["URSOC_THE_BEAR_GOD"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -347,7 +348,7 @@ Database:AddChain(Chain.UrsocTheBearGodHorde, {
     },
 })
 Database:AddChain(Chain.TheIronThaneAlliance, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_ALLIANCE, 2),
+    name = L["THE_IRON_THANE"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -465,7 +466,7 @@ Database:AddChain(Chain.TheIronThaneAlliance, {
     },
 })
 Database:AddChain(Chain.TheFinalShowdown, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_HORDE, 2),
+    name = L["THE_FINAL_SHOWDOWN"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -544,7 +545,7 @@ Database:AddChain(Chain.TheFinalShowdown, {
     },
 })
 Database:AddChain(Chain.LokensOrdersAlliance, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_ALLIANCE, 3),
+    name = L["LOKENS_ORDERS"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -603,7 +604,7 @@ Database:AddChain(Chain.LokensOrdersAlliance, {
     },
 })
 Database:AddChain(Chain.TheIronThaneHorde, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_HORDE, 3),
+    name = L["THE_IRON_THANE"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -676,7 +677,7 @@ Database:AddChain(Chain.TheIronThaneHorde, {
     },
 })
 Database:AddChain(Chain.Revelation, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_ALLIANCE, 4),
+    name = L["REVELATION"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -764,7 +765,7 @@ Database:AddChain(Chain.Revelation, {
     },
 })
 Database:AddChain(Chain.LokensOrdersHorde, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_HORDE, 4),
+    name = L["LOKENS_ORDERS"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -852,7 +853,7 @@ Database:AddChain(Chain.LokensOrdersHorde, {
     },
 })
 Database:AddChain(Chain.HourOfTheWorg, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_ALLIANCE, 5),
+    name = L["HOUR_OF_THE_WORG"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -931,7 +932,7 @@ Database:AddChain(Chain.HourOfTheWorg, {
     },
 })
 Database:AddChain(Chain.EonsOfMisery, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_ALLIANCE, 6),
+    name = L["EONS_OF_MISERY"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,

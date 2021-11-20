@@ -1,4 +1,3 @@
-BINDINGMODE 0
 bind LEFT NONE
 bind RIGHT NONE
 bind Q MULTIACTIONBAR2BUTTON1
@@ -29,7 +28,6 @@ bind CTRL-7 CLICK PetActionButton4:LeftButton
 bind CTRL-8 CLICK PetActionButton3:LeftButton
 bind CTRL-9 CLICK PetActionButton2:LeftButton
 bind CTRL-0 CLICK PetActionButton1:LeftButton
-bind TAB NONE
 bind F MULTIACTIONBAR2BUTTON4
 bind V MULTIACTIONBAR1BUTTON4
 bind SHIFT-V MULTIACTIONBAR1BUTTON8
