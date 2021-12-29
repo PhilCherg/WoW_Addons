@@ -2,8 +2,7 @@ local E, L, V, P, G = unpack(ElvUI)
 local S = E:GetModule('Skins')
 
 local _G = _G
-local unpack = unpack
-local pairs = pairs
+local unpack, pairs = unpack, pairs
 
 local BNConnected = BNConnected
 local BNFeaturesEnabled = BNFeaturesEnabled
@@ -431,7 +430,7 @@ function S:FriendsFrame()
 	_G.GuildInfoFrame.backdrop:Point('TOPLEFT', 3, -6)
 	_G.GuildInfoFrame.backdrop:Point('BOTTOMRIGHT', -2, 3)
 
-	_G.GuildInfoTextBackground:SetTemplate('Default')
+	_G.GuildInfoTextBackground.NineSlice:SetTemplate('Transparent')
 	S:HandleScrollBar(_G.GuildInfoFrameScrollFrameScrollBar)
 
 	S:HandleCloseButton(_G.GuildInfoCloseButton, _G.GuildInfoFrame.backdrop)

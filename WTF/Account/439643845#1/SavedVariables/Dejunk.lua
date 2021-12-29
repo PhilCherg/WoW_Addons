@@ -6,7 +6,64 @@ __DEJUNK_SAVED_VARIABLES__ = {
 		["version"] = 1,
 	},
 	["Profiles"] = {
-		["Phaltraxion-Outland"] = {
+		["Shadroxia-Outland"] = {
+			["version"] = 3,
+		},
+		["Feastone-Outland"] = {
+			["version"] = 3,
+		},
+		["Phalonius-Azjol-Nerub"] = {
+			["version"] = 3,
+		},
+		["Phaladinus-Outland"] = {
+			["version"] = 3,
+		},
+		["Feattwo-Outland"] = {
+			["version"] = 3,
+		},
+		["Käguya-Turalyon"] = {
+			["version"] = 3,
+		},
+		["Mallazin-Azjol-Nerub"] = {
+			["version"] = 3,
+		},
+		["Chernakotka-Die Aldor"] = {
+			["version"] = 3,
+		},
+		["Phelanara-Outland"] = {
+			["version"] = 3,
+		},
+		["Lianxia-Draenor"] = {
+			["version"] = 3,
+		},
+		["Luminaxia-Outland"] = {
+			["version"] = 3,
+		},
+		["Serthaxion-Outland"] = {
+			["version"] = 3,
+		},
+		["Bankeristor-Outland"] = {
+			["version"] = 3,
+		},
+		["Nibirus-Azjol-Nerub"] = {
+			["version"] = 3,
+		},
+		["Barbaxius-Outland"] = {
+			["version"] = 3,
+		},
+		["Xanthoros-Outland"] = {
+			["version"] = 3,
+		},
+		["Destruxia-Outland"] = {
+			["version"] = 3,
+		},
+		["Feastfour-Outland"] = {
+			["version"] = 3,
+		},
+		["Necrophagus-Outland"] = {
+			["version"] = 3,
+		},
+		["Feastthree-Outland"] = {
 			["version"] = 3,
 		},
 		["Illyana-Outland"] = {
@@ -19,40 +76,16 @@ __DEJUNK_SAVED_VARIABLES__ = {
 			},
 			["version"] = 3,
 		},
-		["Bankeristor-Outland"] = {
-			["version"] = 3,
-		},
-		["Barbaxius-Outland"] = {
-			["version"] = 3,
-		},
-		["Xanthoros-Outland"] = {
-			["version"] = 3,
-		},
-		["Phaladinus-Outland"] = {
-			["version"] = 3,
-		},
-		["Shadroxia-Outland"] = {
-			["version"] = 3,
-		},
-		["Necrophagus-Outland"] = {
-			["version"] = 3,
-		},
-		["Destruxia-Outland"] = {
+		["Phaltraxion-Outland"] = {
 			["version"] = 3,
 		},
 		["Elementior-Outland"] = {
 			["version"] = 3,
 		},
-		["Chernakotka-Die Aldor"] = {
+		["Feastfive-Outland"] = {
 			["version"] = 3,
 		},
-		["Luminaxia-Outland"] = {
-			["version"] = 3,
-		},
-		["Phelanara-Outland"] = {
-			["version"] = 3,
-		},
-		["Serthaxion-Outland"] = {
+		["Feastyone-Outland"] = {
 			["version"] = 3,
 		},
 	},

@@ -7,6 +7,7 @@ local MM = E:GetModule('Minimap')
 local _G = _G
 local select = select
 local format = format
+local strmatch = strmatch
 
 local CreateFrame = CreateFrame
 local AcceptGroup = AcceptGroup
@@ -57,9 +58,13 @@ local CombatLogGetCurrentEventInfo = CombatLogGetCurrentEventInfo
 local LE_GAME_ERR_GUILD_NOT_ENOUGH_MONEY = LE_GAME_ERR_GUILD_NOT_ENOUGH_MONEY
 local LE_GAME_ERR_NOT_ENOUGH_MONEY = LE_GAME_ERR_NOT_ENOUGH_MONEY
 local MAX_PARTY_MEMBERS = MAX_PARTY_MEMBERS
+local UNKNOWN = UNKNOWN
 
 local BOOST_THANKSFORPLAYING_SMALLER = SOUNDKIT.UI_70_BOOST_THANKSFORPLAYING_SMALLER
-local INTERRUPT_MSG = L["Interrupted %s's \124cff71d5ff\124Hspell:%d:0\124h[%s]\124h\124r!"]
+local INTERRUPT_MSG = L["Interrupted %s's |cff71d5ff|Hspell:%d:0|h[%s]|h|r!"]
+if not E.Retail then
+	INTERRUPT_MSG = INTERRUPT_MSG:gsub('|cff71d5ff|Hspell:%%d:0|h(%[%%s])|h|r','%1')
+end
 
 function M:ErrorFrameToggle(event)
 	if not E.db.general.hideErrorFrame then return end
@@ -75,8 +80,9 @@ function M:COMBAT_LOG_EVENT_UNFILTERED()
 	if not inGroup then return end
 
 	local _, event, _, sourceGUID, _, _, _, destGUID, destName, _, _, _, _, _, spellID, spellName = CombatLogGetCurrentEventInfo()
-	local announce = event == 'SPELL_INTERRUPT' and (sourceGUID == E.myguid or sourceGUID == UnitGUID('pet')) and destGUID ~= E.myguid
+	local announce = strmatch(event, '_INTERRUPT') and (sourceGUID == E.myguid or sourceGUID == UnitGUID('pet')) and destGUID ~= E.myguid
 	if not announce then return end -- No announce-able interrupt from player or pet, exit.
+
 	local inRaid, inPartyLFG = IsInRaid(), E.Retail and IsPartyLFG()
 
 	--Skirmish/non-rated arenas need to use INSTANCE_CHAT but IsPartyLFG() returns 'false'
@@ -87,10 +93,12 @@ function M:COMBAT_LOG_EVENT_UNFILTERED()
 		if skirmish or not isRegistered then
 			inPartyLFG = true
 		end
+
 		inRaid = false --IsInRaid() returns true for arenas and they should not be considered a raid
 	end
 
-	local channel, msg = E.db.general.interruptAnnounce, format(INTERRUPT_MSG, destName, spellID, spellName)
+	local channel = E.db.general.interruptAnnounce
+	local msg = E.Retail and format(INTERRUPT_MSG, destName or UNKNOWN, spellID, spellName) or format(INTERRUPT_MSG, destName or UNKNOWN, spellName)
 	if channel == 'PARTY' then
 		SendChatMessage(msg, inPartyLFG and 'INSTANCE_CHAT' or 'PARTY')
 	elseif channel == 'RAID' then
@@ -167,9 +175,9 @@ do -- Auto Repair Functions
 end
 
 function M:MERCHANT_CLOSED()
-	self:UnregisterEvent('UI_ERROR_MESSAGE')
-	self:UnregisterEvent('UPDATE_INVENTORY_DURABILITY')
-	self:UnregisterEvent('MERCHANT_CLOSED')
+	M:UnregisterEvent('UI_ERROR_MESSAGE')
+	M:UnregisterEvent('UPDATE_INVENTORY_DURABILITY')
+	M:UnregisterEvent('MERCHANT_CLOSED')
 end
 
 function M:MERCHANT_SHOW()
@@ -178,10 +186,10 @@ function M:MERCHANT_SHOW()
 	if E.db.general.autoRepair == 'NONE' or IsShiftKeyDown() or not CanMerchantRepair() then return end
 
 	--Prepare to catch 'not enough money' messages
-	self:RegisterEvent('UI_ERROR_MESSAGE')
+	M:RegisterEvent('UI_ERROR_MESSAGE')
 
 	--Use this to unregister events afterwards
-	self:RegisterEvent('MERCHANT_CLOSED')
+	M:RegisterEvent('MERCHANT_CLOSED')
 
 	M:AttemptAutoRepair()
 end
@@ -246,7 +254,7 @@ function M:ForceCVars()
 end
 
 function M:PLAYER_ENTERING_WORLD()
-	self:ForceCVars()
+	M:ForceCVars()
 end
 
 function M:RESURRECT_REQUEST()
@@ -308,25 +316,25 @@ function M:BossBanner_ConfigureLootFrame(lootFrame)
 end
 
 function M:Initialize()
-	self.Initialized = true
-	self:LoadRaidMarker()
-	self:LoadLootRoll()
-	self:LoadChatBubbles()
-	self:LoadLoot()
-	self:ToggleItemLevelInfo(true)
-	self:RegisterEvent('MERCHANT_SHOW')
-	self:RegisterEvent('RESURRECT_REQUEST')
-	self:RegisterEvent('PLAYER_REGEN_DISABLED', 'ErrorFrameToggle')
-	self:RegisterEvent('PLAYER_REGEN_ENABLED', 'ErrorFrameToggle')
-	self:RegisterEvent('CHAT_MSG_BG_SYSTEM_HORDE', 'PVPMessageEnhancement')
-	self:RegisterEvent('CHAT_MSG_BG_SYSTEM_ALLIANCE', 'PVPMessageEnhancement')
-	self:RegisterEvent('CHAT_MSG_BG_SYSTEM_NEUTRAL', 'PVPMessageEnhancement')
-	self:RegisterEvent('PARTY_INVITE_REQUEST', 'AutoInvite')
-	self:RegisterEvent('GROUP_ROSTER_UPDATE', 'AutoInvite')
-	self:RegisterEvent('CVAR_UPDATE', 'ForceCVars')
-	self:RegisterEvent('COMBAT_TEXT_UPDATE')
-	self:RegisterEvent('PLAYER_ENTERING_WORLD')
-	self:RegisterEvent('QUEST_COMPLETE')
+	M.Initialized = true
+	M:LoadRaidMarker()
+	M:LoadLootRoll()
+	M:LoadChatBubbles()
+	M:LoadLoot()
+	M:ToggleItemLevelInfo(true)
+	M:RegisterEvent('MERCHANT_SHOW')
+	M:RegisterEvent('RESURRECT_REQUEST')
+	M:RegisterEvent('PLAYER_REGEN_DISABLED', 'ErrorFrameToggle')
+	M:RegisterEvent('PLAYER_REGEN_ENABLED', 'ErrorFrameToggle')
+	M:RegisterEvent('CHAT_MSG_BG_SYSTEM_HORDE', 'PVPMessageEnhancement')
+	M:RegisterEvent('CHAT_MSG_BG_SYSTEM_ALLIANCE', 'PVPMessageEnhancement')
+	M:RegisterEvent('CHAT_MSG_BG_SYSTEM_NEUTRAL', 'PVPMessageEnhancement')
+	M:RegisterEvent('PARTY_INVITE_REQUEST', 'AutoInvite')
+	M:RegisterEvent('GROUP_ROSTER_UPDATE', 'AutoInvite')
+	M:RegisterEvent('CVAR_UPDATE', 'ForceCVars')
+	M:RegisterEvent('COMBAT_TEXT_UPDATE')
+	M:RegisterEvent('PLAYER_ENTERING_WORLD')
+	M:RegisterEvent('QUEST_COMPLETE')
 
 	do	-- questRewardMostValueIcon
 		local MostValue = CreateFrame('Frame', 'ElvUI_QuestRewardGoldIconFrame', _G.UIParent)
@@ -336,7 +344,8 @@ function M:Initialize()
 
 		MostValue.Icon = MostValue:CreateTexture(nil, 'OVERLAY')
 		MostValue.Icon:SetAllPoints(MostValue)
-		MostValue.Icon:SetTexture([[Interface\MONEYFRAME\UI-GoldIcon]])
+		MostValue.Icon:SetTexture(E.Media.Textures.Coins)
+		MostValue.Icon:SetTexCoord(0.33, 0.66, 0.022, 0.66)
 
 		M.QuestRewardGoldIconFrame = MostValue
 
@@ -348,13 +357,13 @@ function M:Initialize()
 	end
 
 	if E.db.general.interruptAnnounce ~= 'NONE' then
-		self:RegisterEvent('COMBAT_LOG_EVENT_UNFILTERED')
+		M:RegisterEvent('COMBAT_LOG_EVENT_UNFILTERED')
 	end
 
 	if IsAddOnLoaded('Blizzard_InspectUI') then
 		M:SetupInspectPageInfo()
 	else
-		self:RegisterEvent('ADDON_LOADED')
+		M:RegisterEvent('ADDON_LOADED')
 	end
 
 	if E.Retail then

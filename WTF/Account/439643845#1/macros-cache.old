@@ -30,6 +30,22 @@ VER 3 000000000000000F "Command Demon" "236292"
 #showtooltip
 /cast [@mouseover,exists,nodead] [] Command Demon
 END
+VER 3 0000000000000042 "CovSignature" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Door of Shadows
+/cast Soulshape
+/cast Fleshcraft
+/cast Summon Steward
+/run local G=GetSpellInfo SetMacroSpell(GetRunningMacro(), G"Door of Shadows" or G"Soulshape" or G"Fleshcraft"or G"Summon Steward")
+END
+VER 3 0000000000000043 "CovWarlock" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Impending Catastrophe
+/cast Decimating Bolt
+/cast Soul Rot
+/cast Scouring Tithe
+/run local G=GetSpellInfo SetMacroSpell(GetRunningMacro(), G"Impending Catastrophe" or G"Decimating Bolt" or G"Soul Rot"or G"Scouring Tithe")
+END
 VER 3 000000000000002A "CraftBracers" "135973"
 /run PickupSpell(309181)
 END
@@ -43,6 +59,24 @@ VER 3 0000000000000029 "Disenchant" "135952"
 END
 VER 3 000000000000003B "Eye" "136135"
 /run local t,c="Saltsea Globule",0 for i=1,10000 do local p=C_NamePlate.GetNamePlateForUnit("nameplate"..i) if p and p:IsVisible() and p:GetChildren():GetRegions():GetText()==t then c=c+1 end end print(t,":",c)
+END
+VER 3 0000000000000049 "Fear Worm" "136183"
+#showtooltip Fear
+/target Jormog
+/cast Fear
+/target Tugar
+END
+VER 3 0000000000000046 "FocusCoil" "607853"
+#showtooltip Mortal Coil
+/cast [target=focus] Mortal Coil
+END
+VER 3 0000000000000045 "FocusFear" "136183"
+#showtooltip Fear
+/cast [target=focus] Fear
+END
+VER 3 0000000000000047 "FocusInterrupt" "INV_MISC_QUESTIONMARK"
+#showtooltip Spell Lock
+/cast [target=focus] Spell Lock
 END
 VER 3 000000000000002D "GreatVault" "413587"
 /run LoadAddOn("Blizzard_WeeklyRewards"); WeeklyRewardsFrame:Show()
@@ -82,6 +116,9 @@ VER 3 000000000000002C "PetAndStones" "136103"
 /cast Summon Felhunter
 /cast Create Soulwell
 END
+VER 3 0000000000000044 "PickPocketMouse" "133644"
+/cast [target=mouseover,exists,harm,nodead] Pick Pocket
+END
 VER 3 000000000000002F "PvP Trinket DS" "135473"
 /use Sinful Gladiator's Badge of Ferocity
 /use Dark Soul: Instabilityaw
@@ -93,6 +130,11 @@ END
 VER 3 000000000000003D "Salute" "132093"
 /tar Queen
 /salute
+END
+VER 3 0000000000000048 "Shadowburn Totem" "136191"
+#showtooltip Shadowburn
+/target Fel Surge Totem
+/cast Shadowburn
 END
 VER 3 0000000000000039 "Shemi SS" "136210"
 /tar Eluith

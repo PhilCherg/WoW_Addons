@@ -161,26 +161,39 @@ function DB:HandleVisibility()
 	end
 end
 
+function DB:ToggleAll()
+	DB:ExperienceBar_Toggle()
+	DB:ReputationBar_Toggle()
+	DB:ThreatBar_Toggle()
+
+	if E.Retail then
+		DB:HonorBar_Toggle()
+		DB:AzeriteBar_Toggle()
+	elseif E.myclass == 'HUNTER' then
+		DB:PetExperienceBar_Toggle()
+	end
+end
+
+function DB:CreateAll()
+	DB:ExperienceBar()
+	DB:ReputationBar()
+	DB:ThreatBar()
+
+	if E.Retail then
+		DB:HonorBar()
+		DB:AzeriteBar()
+	elseif E.myclass == 'HUNTER' then
+		DB:PetExperienceBar()
+	end
+end
+
 function DB:Initialize()
 	DB.Initialized = true
 	DB.StatusBars = {}
 
 	DB.db = E.db.databars
 
-	DB:ExperienceBar()
-	DB:ReputationBar()
-
-	if E.Retail then
-		DB:HonorBar()
-		DB:AzeriteBar()
-		DB:ThreatBar()
-	elseif E.TBC then
-		DB:PetExperienceBar()
-		DB:ThreatBar()
-	elseif E.Classic then
-		DB:PetExperienceBar()
-	end
-
+	DB:CreateAll()
 	DB:UpdateAll()
 
 	DB:RegisterEvent('PLAYER_LEVEL_UP', 'HandleVisibility')

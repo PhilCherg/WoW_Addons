@@ -1,30 +1,39 @@
 
 RoutesDB = {
 	["profileKeys"] = {
-		["Barbaxius - Outland"] = "Default",
+		["Feastfour - Outland"] = "Default",
+		["Feastyone - Outland"] = "Default",
+		["Phaladinus - Outland"] = "Default",
+		["Shadroxia - Outland"] = "Default",
+		["Asdawdwd - Outland"] = "Default",
+		["Asdsaasdf - Outland"] = "Default",
+		["Necrophagus - Outland"] = "Default",
+		["Tempgoddess - Outland"] = "Default",
+		["Feattwo - Outland"] = "Default",
+		["Destruxia - Outland"] = "Default",
+		["Luminaxia - Outland"] = "Default",
+		["Testfirst - Outland"] = "Default",
+		["Mallazin - Azjol-Nerub"] = "Default",
+		["Adsfasdfasdf - Outland"] = "Default",
 		["Phelanara - Outland"] = "Default",
 		["Xanthoros - Outland"] = "Default",
 		["Phaltraxion - Outland"] = "Default",
 		["Asdfsadfsadf - Outland"] = "Default",
-		["Phaladinus - Outland"] = "Default",
-		["Shadroxia - Outland"] = "Default",
-		["Asdawdwd - Outland"] = "Default",
 		["Bankeristor - Outland"] = "Default",
-		["Lianxia - Draenor"] = "Default",
-		["Asdsaasdf - Outland"] = "Default",
-		["Presentone - Outland"] = "Default",
-		["Necrophagus - Outland"] = "Default",
-		["Adsfasdfasdf - Outland"] = "Default",
-		["Tempgoddess - Outland"] = "Default",
+		["Käguya - Turalyon"] = "Default",
+		["Barbaxius - Outland"] = "Default",
+		["Feastone - Outland"] = "Default",
+		["Elementior - Outland"] = "Default",
+		["Nibirus - Azjol-Nerub"] = "Default",
 		["Aasdfasdfd - Outland"] = "Default",
 		["Illyana - Outland"] = "Default",
-		["Destruxia - Outland"] = "Default",
+		["Phalonius - Azjol-Nerub"] = "Default",
 		["Chernakotka - Die Aldor"] = "Default",
-		["Necropharia - Outland"] = "Default",
+		["Lianxia - Draenor"] = "Default",
 		["Serthaxion - Outland"] = "Default",
-		["Luminaxia - Outland"] = "Default",
-		["Testfirst - Outland"] = "Default",
-		["Elementior - Outland"] = "Default",
+		["Presentone - Outland"] = "Default",
+		["Necropharia - Outland"] = "Default",
+		["Feastthree - Outland"] = "Default",
 	},
 	["global"] = {
 		["routes"] = {
@@ -201,6 +210,38 @@ RoutesDB = {
 					},
 				},
 			},
+			[81] = {
+				["WIT - Thorium Ore"] = {
+					["route"] = {
+						30381430, -- [1]
+						39251467, -- [2]
+						48111503, -- [3]
+						56971539, -- [4]
+						65831576, -- [5]
+						68152738, -- [6]
+						74683563, -- [7]
+						68804280, -- [8]
+						68244836, -- [9]
+						67685392, -- [10]
+						67747231, -- [11]
+						56488121, -- [12]
+						27347932, -- [13]
+						33586535, -- [14]
+						25285697, -- [15]
+						28864681, -- [16]
+						29543572, -- [17]
+						26122680, -- [18]
+						26861867, -- [19]
+					},
+					["color"] = {
+						0.00784313725490196, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["length"] = 7129.174504654413,
+				},
+			},
 			[1533] = {
 				["Bastion Route"] = {
 					["length"] = 11713.68618348334,
@@ -250,38 +291,6 @@ RoutesDB = {
 						50682040, -- [43]
 						50551794, -- [44]
 					},
-				},
-			},
-			[81] = {
-				["WIT - Thorium Ore"] = {
-					["route"] = {
-						30381430, -- [1]
-						39251467, -- [2]
-						48111503, -- [3]
-						56971539, -- [4]
-						65831576, -- [5]
-						68152738, -- [6]
-						74683563, -- [7]
-						68804280, -- [8]
-						68244836, -- [9]
-						67685392, -- [10]
-						67747231, -- [11]
-						56488121, -- [12]
-						27347932, -- [13]
-						33586535, -- [14]
-						25285697, -- [15]
-						28864681, -- [16]
-						29543572, -- [17]
-						26122680, -- [18]
-						26861867, -- [19]
-					},
-					["color"] = {
-						0.00784313725490196, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["length"] = 7129.174504654413,
 				},
 			},
 		},

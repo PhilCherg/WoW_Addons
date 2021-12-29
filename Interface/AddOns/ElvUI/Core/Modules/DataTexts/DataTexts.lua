@@ -527,7 +527,7 @@ function DT:UpdatePanelInfo(panelName, panel, ...)
 
 		if battlePanel then
 			dt:SetScript('OnClick', DT.ToggleBattleStats)
-			tinsert(dt.MouseEnters, DT.HoverBattleStats)
+			if E.Retail then tinsert(dt.MouseEnters, DT.HoverBattleStats) end
 		else
 			local assigned = DT.RegisteredDataTexts[ DT.db.panels[panelName][i] ]
 			DT.AssignedDatatexts[dt] = assigned
@@ -663,7 +663,7 @@ function DT:RegisterHyperDT()
 	end
 
 	tinsert(HyperList, {
-		order = 100, text = L["NONE"],
+		order = 100, text = L["None"],
 		checked = function() return DT.EasyMenu.MenuGetItem(DT.SelectedDatatext, '') end,
 		func = function() DT.EasyMenu.MenuSetItem(DT.SelectedDatatext, '') end
 	})
@@ -785,6 +785,10 @@ function DT:Initialize()
 	for name in pairs(E.global.datatexts.customPanels) do
 		DT:BuildPanelFrame(name, true)
 	end
+
+	-- we need to register the panels to access them for the text
+	DT.BattleStats.LEFT.panel = _G.LeftChatDataPanel.dataPanels
+	DT.BattleStats.RIGHT.panel = _G.RightChatDataPanel.dataPanels
 
 	DT:RegisterHyperDT()
 	DT:RegisterEvent('PLAYER_ENTERING_WORLD')

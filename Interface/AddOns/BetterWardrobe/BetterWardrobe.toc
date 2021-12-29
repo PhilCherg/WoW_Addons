@@ -1,6 +1,6 @@
 ## Interface: 90105
-## Title: BetterWardrobe (V3.12)
-## Version: V3.12
+## Title: BetterWardrobe (3.12.2)
+## Version: 3.12.2
 ## Author: SLOKnightfall
 ## Notes: 
 ## OptionalDeps: MogIt, CanIMogIt, LegionWardrobe, WardrobeEnhanced, Rarity, TransmogOutfits, ExtendedSets, ElvUI

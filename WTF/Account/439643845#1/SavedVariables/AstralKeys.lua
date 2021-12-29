@@ -2,12 +2,6 @@
 AstralKeys = {
 }
 AstralCharacters = {
-	{
-		["weekly_best"] = 0,
-		["class"] = "DEMONHUNTER",
-		["unit"] = "Illyana-Outland",
-		["faction"] = 0,
-	}, -- [1]
 }
 AstralKeysSettings = {
 	["wipedOldTables"] = true,
@@ -15,15 +9,15 @@ AstralKeysSettings = {
 		["show_minimap_button"] = {
 			["isEnabled"] = true,
 		},
-		["init_time"] = 1635318000,
+		["init_time"] = 1640761200,
 		["expanded_tooltip"] = {
 			["isEnabled"] = true,
 		},
 		["report_on_message"] = {
-			["no_key"] = false,
-			["party"] = true,
 			["guild"] = false,
 			["raid"] = false,
+			["no_key"] = false,
+			["party"] = true,
 		},
 		["show_tooltip_key"] = {
 			["isEnabled"] = true,
@@ -73,52 +67,85 @@ AstralKeysSettings = {
 }
 AstralMinimap = {
 	["profileKeys"] = {
-		["Bankeristor - Outland"] = "Bankeristor - Outland",
+		["Mallazin - Azjol-Nerub"] = "Mallazin - Azjol-Nerub",
 		["Barbaxius - Outland"] = "Barbaxius - Outland",
-		["Necrophagus - Outland"] = "Necrophagus - Outland",
+		["Feastone - Outland"] = "Feastone - Outland",
+		["Phelanara - Outland"] = "Phelanara - Outland",
 		["Xanthoros - Outland"] = "Xanthoros - Outland",
 		["Phaltraxion - Outland"] = "Phaltraxion - Outland",
-		["Illyana - Outland"] = "Illyana - Outland",
-		["Destruxia - Outland"] = "Destruxia - Outland",
-		["Phelanara - Outland"] = "Phelanara - Outland",
+		["Käguya - Turalyon"] = "Käguya - Turalyon",
 		["Phaladinus - Outland"] = "Phaladinus - Outland",
+		["Shadroxia - Outland"] = "Shadroxia - Outland",
+		["Lianxia - Draenor"] = "Lianxia - Draenor",
+		["Feastfive - Outland"] = "Feastfive - Outland",
+		["Bankeristor - Outland"] = "Bankeristor - Outland",
+		["Necrophagus - Outland"] = "Necrophagus - Outland",
+		["Elementior - Outland"] = "Elementior - Outland",
+		["Phalonius - Azjol-Nerub"] = "Phalonius - Azjol-Nerub",
+		["Illyana - Outland"] = "Illyana - Outland",
+		["Feattwo - Outland"] = "Feattwo - Outland",
+		["Destruxia - Outland"] = "Destruxia - Outland",
+		["Feastfour - Outland"] = "Feastfour - Outland",
+		["Feastyone - Outland"] = "Feastyone - Outland",
 		["Serthaxion - Outland"] = "Serthaxion - Outland",
 		["Luminaxia - Outland"] = "Luminaxia - Outland",
-		["Shadroxia - Outland"] = "Shadroxia - Outland",
-		["Elementior - Outland"] = "Elementior - Outland",
+		["Nibirus - Azjol-Nerub"] = "Nibirus - Azjol-Nerub",
+		["Feastthree - Outland"] = "Feastthree - Outland",
 	},
 	["profiles"] = {
-		["Bankeristor - Outland"] = {
+		["Mallazin - Azjol-Nerub"] = {
 		},
 		["Barbaxius - Outland"] = {
 		},
-		["Necrophagus - Outland"] = {
+		["Feastone - Outland"] = {
+		},
+		["Phelanara - Outland"] = {
 		},
 		["Xanthoros - Outland"] = {
 		},
 		["Phaltraxion - Outland"] = {
+		},
+		["Käguya - Turalyon"] = {
+		},
+		["Phaladinus - Outland"] = {
+		},
+		["Shadroxia - Outland"] = {
+		},
+		["Lianxia - Draenor"] = {
+		},
+		["Feastfive - Outland"] = {
+		},
+		["Bankeristor - Outland"] = {
+		},
+		["Necrophagus - Outland"] = {
+		},
+		["Elementior - Outland"] = {
+		},
+		["Phalonius - Azjol-Nerub"] = {
 		},
 		["Illyana - Outland"] = {
 			["minimap"] = {
 				["minimapPos"] = 192.1442721043813,
 			},
 		},
+		["Feattwo - Outland"] = {
+		},
 		["Destruxia - Outland"] = {
 			["minimap"] = {
 				["minimapPos"] = 263.3456083575512,
 			},
 		},
-		["Phelanara - Outland"] = {
+		["Feastfour - Outland"] = {
 		},
-		["Phaladinus - Outland"] = {
+		["Feastyone - Outland"] = {
 		},
 		["Serthaxion - Outland"] = {
 		},
 		["Luminaxia - Outland"] = {
 		},
-		["Shadroxia - Outland"] = {
+		["Nibirus - Azjol-Nerub"] = {
 		},
-		["Elementior - Outland"] = {
+		["Feastthree - Outland"] = {
 		},
 	},
 }

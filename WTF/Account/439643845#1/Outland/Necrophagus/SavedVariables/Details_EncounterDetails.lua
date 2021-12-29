@@ -93544,37 +93544,85 @@ EncounterDetailsDB = {
 	},
 	["emotes"] = {
 		{
-			["boss"] = "Lady Vashj",
-		}, -- [1]
-		{
-			["boss"] = "Morogrim Tidewalker",
-		}, -- [2]
-		{
 			{
-				0.1339999999981956, -- [1]
-				"Guards, attention! We have visitors....", -- [2]
-				"Fathom-Lord Karathress", -- [3]
+				0.1, -- [1]
+				"The master demands your doom!", -- [2]
+				"Argus the Unmaker", -- [3]
 				7, -- [4]
 			}, -- [1]
 			{
-				0.1339999999981956, -- [1]
-				"More knowledge, more power!", -- [2]
-				"Fathom-Lord Karathress", -- [3]
+				8.30199999999968, -- [1]
+				"|TInterface\\Icons\\Sha_Ability_Rogue_BloodyEye_nightmare:20|t|cFFFF0000|Hspell:258068|h[Sargeras' Gaze]|h|r is cast upon the battle...", -- [2]
+				"Argus the Unmaker", -- [3]
+				1, -- [4]
+			}, -- [2]
+			{
+				10.73400000000038, -- [1]
+				"|TInterface\\Icons\\Shaman_PVP_RipplingWaters:20|t%s begins to cast |cFFFF0000|Hspell:255594|h[Sky and Sea]|h|r!", -- [2]
+				"Golganneth", -- [3]
+				1, -- [4]
+			}, -- [3]
+			{
+				10.73400000000038, -- [1]
+				"The might of sea and sky must aid our champions, Golganneth!", -- [2]
+				"Aman'Thul", -- [3]
+				7, -- [4]
+			}, -- [4]
+			{
+				16.81899999999951, -- [1]
+				"Let the fury of the sea wash away this corruption!", -- [2]
+				"Aman'Thul", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				43.70399999999791, -- [1]
+				"Aggramar! Lend these mortals your strength, brother.", -- [2]
+				"Aman'Thul", -- [3]
+				7, -- [4]
+			}, -- [6]
+			["boss"] = "Argus the Unmaker",
+		}, -- [1]
+		{
+			{
+				11.99199999999837, -- [1]
+				"Taeshalach's power is unleashed!", -- [2]
+				"Aggramar", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				25.83899999999994, -- [1]
+				"You may have withstood the flames, but you will not withstand my fury.", -- [2]
+				"Aggramar", -- [3]
 				7, -- [4]
 			}, -- [2]
 			{
-				0.1339999999981956, -- [1]
-				"Go on, kill them! I'll be the better for it!", -- [2]
-				"Fathom-Lord Karathress", -- [3]
+				32.14800000000105, -- [1]
+				"Stand and die!", -- [2]
+				"Aggramar", -- [3]
 				7, -- [4]
 			}, -- [3]
 			{
-				0.1339999999981956, -- [1]
-				"I am more powerful than ever!", -- [2]
-				"Fathom-Lord Karathress", -- [3]
+				46.02600000000166, -- [1]
+				"The power of Taeshalach will consume you!", -- [2]
+				"Aggramar", -- [3]
 				7, -- [4]
 			}, -- [4]
-			["boss"] = "Fathom-Lord Karathress",
+			{
+				61.16500000000087, -- [1]
+				"Your modicum of skill will be insufficient to save you.", -- [2]
+				"Aggramar", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				67.22899999999936, -- [1]
+				"Let the flesh be seared from your bones!", -- [2]
+				"Aggramar", -- [3]
+				7, -- [4]
+			}, -- [6]
+			["boss"] = "Aggramar",
+		}, -- [2]
+		{
+			["boss"] = "Felhounds of Sargeras",
 		}, -- [3]
 	},
 }

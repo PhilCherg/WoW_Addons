@@ -1,39 +1,6 @@
 
 EncounterDetailsDB = {
 	["emotes"] = {
-		{
-			["boss"] = "Lady Vashj",
-		}, -- [1]
-		{
-			["boss"] = "Morogrim Tidewalker",
-		}, -- [2]
-		{
-			{
-				0.1339999999981956, -- [1]
-				"Guards, attention! We have visitors....", -- [2]
-				"Fathom-Lord Karathress", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				0.1339999999981956, -- [1]
-				"More knowledge, more power!", -- [2]
-				"Fathom-Lord Karathress", -- [3]
-				7, -- [4]
-			}, -- [2]
-			{
-				0.1339999999981956, -- [1]
-				"Go on, kill them! I'll be the better for it!", -- [2]
-				"Fathom-Lord Karathress", -- [3]
-				7, -- [4]
-			}, -- [3]
-			{
-				0.1339999999981956, -- [1]
-				"I am more powerful than ever!", -- [2]
-				"Fathom-Lord Karathress", -- [3]
-				7, -- [4]
-			}, -- [4]
-			["boss"] = "Fathom-Lord Karathress",
-		}, -- [3]
 	},
 	["encounter_spells"] = {
 		[188284] = {

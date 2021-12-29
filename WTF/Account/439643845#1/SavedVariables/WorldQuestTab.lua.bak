@@ -1,7 +1,13 @@
 
 BWQDB = {
 	["char"] = {
+		["Mallazin - Azjol-Nerub"] = {
+			["activeProfile"] = 0,
+		},
 		["Barbaxius - Outland"] = {
+			["activeProfile"] = 0,
+		},
+		["Feastone - Outland"] = {
 			["activeProfile"] = 0,
 		},
 		["Phelanara - Outland"] = {
@@ -13,6 +19,15 @@ BWQDB = {
 		["Phaltraxion - Outland"] = {
 			["activeProfile"] = 0,
 		},
+		["Feastthree - Outland"] = {
+			["activeProfile"] = 0,
+		},
+		["Käguya - Turalyon"] = {
+			["activeProfile"] = 0,
+		},
+		["Phalonius - Azjol-Nerub"] = {
+			["activeProfile"] = 0,
+		},
 		["Asdfsadfsadf - Outland"] = {
 			["activeProfile"] = 0,
 		},
@@ -22,19 +37,34 @@ BWQDB = {
 		["Shadroxia - Outland"] = {
 			["activeProfile"] = 0,
 		},
+		["Nibirus - Azjol-Nerub"] = {
+			["activeProfile"] = 0,
+		},
 		["Lianxia - Draenor"] = {
+			["activeProfile"] = 0,
+		},
+		["Feastfive - Outland"] = {
 			["activeProfile"] = 0,
 		},
 		["Bankeristor - Outland"] = {
 			["activeProfile"] = 0,
 		},
+		["Feastfour - Outland"] = {
+			["activeProfile"] = 0,
+		},
 		["Asdsaasdf - Outland"] = {
+			["activeProfile"] = 0,
+		},
+		["Feastyone - Outland"] = {
 			["activeProfile"] = 0,
 		},
 		["Presentone - Outland"] = {
 			["activeProfile"] = 0,
 		},
-		["Adsfasdfasdf - Outland"] = {
+		["Necrophagus - Outland"] = {
+			["activeProfile"] = 0,
+		},
+		["Feattwo - Outland"] = {
 			["activeProfile"] = 0,
 		},
 		["Aasdfasdfd - Outland"] = {
@@ -49,7 +79,7 @@ BWQDB = {
 		["Chernakotka - Die Aldor"] = {
 			["activeProfile"] = 0,
 		},
-		["Necrophagus - Outland"] = {
+		["Adsfasdfasdf - Outland"] = {
 			["activeProfile"] = 0,
 		},
 		["Serthaxion - Outland"] = {
@@ -79,11 +109,11 @@ BWQDB = {
 					["useLFGButtons"] = true,
 					["sortBy"] = 7,
 				},
+				["pin"] = {
+				},
 				["external"] = {
 					["TomTom"] = {
 					},
-				},
-				["pin"] = {
 				},
 				["filters"] = {
 				},
@@ -91,23 +121,33 @@ BWQDB = {
 		},
 	},
 	["profileKeys"] = {
+		["Mallazin - Azjol-Nerub"] = "Default",
 		["Barbaxius - Outland"] = "Default",
+		["Feastone - Outland"] = "Default",
 		["Phelanara - Outland"] = "Default",
 		["Xanthoros - Outland"] = "Default",
 		["Phaltraxion - Outland"] = "Default",
+		["Feastthree - Outland"] = "Default",
+		["Käguya - Turalyon"] = "Default",
+		["Phalonius - Azjol-Nerub"] = "Default",
 		["Asdfsadfsadf - Outland"] = "Default",
 		["Phaladinus - Outland"] = "Default",
 		["Shadroxia - Outland"] = "Default",
+		["Nibirus - Azjol-Nerub"] = "Default",
 		["Lianxia - Draenor"] = "Default",
+		["Feastfive - Outland"] = "Default",
 		["Bankeristor - Outland"] = "Default",
+		["Feastfour - Outland"] = "Default",
 		["Asdsaasdf - Outland"] = "Default",
+		["Feastyone - Outland"] = "Default",
 		["Presentone - Outland"] = "Default",
-		["Adsfasdfasdf - Outland"] = "Default",
+		["Necrophagus - Outland"] = "Default",
+		["Feattwo - Outland"] = "Default",
 		["Aasdfasdfd - Outland"] = "Default",
 		["Illyana - Outland"] = "Default",
 		["Destruxia - Outland"] = "Default",
 		["Chernakotka - Die Aldor"] = "Default",
-		["Necrophagus - Outland"] = "Default",
+		["Adsfasdfasdf - Outland"] = "Default",
 		["Serthaxion - Outland"] = "Default",
 		["Luminaxia - Outland"] = "Default",
 		["Testfirst - Outland"] = "Default",

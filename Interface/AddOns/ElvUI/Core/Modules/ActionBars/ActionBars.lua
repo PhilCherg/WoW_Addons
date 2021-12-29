@@ -107,6 +107,12 @@ AB.barDefaults = {
 	},
 }
 
+if E.Retail then
+	AB.barDefaults.bar1.conditions = format('[overridebar] %d; [vehicleui] %d; [possessbar] %d; [shapeshift] 13; [form,noform] 0; [bar:2] 2; [bar:3] 3; [bar:4] 4; [bar:5] 5; [bar:6] 6;', GetOverrideBarIndex(), GetVehicleBarIndex(), GetVehicleBarIndex())
+else
+	AB.barDefaults.bar1.conditions = '[bonusbar:5] 11; [shapeshift] 13; [form,noform] 0; [bar:2] 2; [bar:3] 3; [bar:4] 4; [bar:5] 5; [bar:6] 6;'
+end
+
 AB.customExitButton = {
 	func = function()
 		if UnitExists('vehicle') then
@@ -617,6 +623,7 @@ end
 function AB:StyleButton(button, noBackdrop, useMasque, ignoreNormal)
 	local name = button:GetName()
 	local macroText = _G[name..'Name']
+	local hotKey = _G[name..'HotKey']
 	local icon = _G[name..'Icon']
 	local shine = _G[name..'Shine']
 	local count = _G[name..'Count']
@@ -634,6 +641,7 @@ function AB:StyleButton(button, noBackdrop, useMasque, ignoreNormal)
 	button.ignoreNormal = ignoreNormal
 
 	icon:SetDrawLayer('ARTWORK', -1)
+	hotKey:SetDrawLayer('OVERLAY')
 
 	if normal and not ignoreNormal then normal:SetTexture(); normal:Hide(); normal:SetAlpha(0) end
 	if normal2 then normal2:SetTexture(); normal2:Hide(); normal2:SetAlpha(0) end
@@ -1094,7 +1102,7 @@ function AB:UpdateButtonConfig(barName, buttonName)
 end
 
 function AB:FixKeybindText(button)
-	local hotkey = _G[button:GetName()..'HotKey']
+	local hotkey = button.HotKey
 	local text = hotkey:GetText()
 
 	local db = button:GetParent().db

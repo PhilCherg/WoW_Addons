@@ -4,6 +4,11 @@ ElvCharacterDB = {
 		"/p how do we get to orgrimar?", -- [1]
 		"/s how do we get to orgrimar?", -- [2]
 		"/s where is the portal to orgrimar from here?", -- [3]
+		"/played", -- [4]
+		"/wa", -- [5]
+		"/timer", -- [6]
+		"/immersion", -- [7]
+		"/love", -- [8]
 	},
 	["ChatHistoryLog"] = {
 		{
@@ -138,5 +143,27 @@ ElvCharacterDB = {
 			[51] = 1549221034,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [6]
+		{
+			"hunter can you stop taunt on the pet", -- [1]
+			"Ogito-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ogito-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3472, -- [11]
+			"Player-1402-074B5E44", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Ogito|r",
+			[51] = 1549229812,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [7]
 	},
 }

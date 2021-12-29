@@ -11,6 +11,8 @@ PawnCommon = {
 	["Debug"] = false,
 	["ColorTooltipBorder"] = false,
 	["ShowTooltipIcons"] = true,
+	["ShowSpecIcons"] = true,
+	["ShowSocketingAdvisor"] = true,
 	["Scales"] = {
 		["\"MrRobot\":HUNTER3"] = {
 			["IconTexturePath"] = 461113,
@@ -114,10 +116,16 @@ PawnCommon = {
 				["Moneyeight-Outland"] = {
 					["Visible"] = true,
 				},
+				["Feastone-Outland"] = {
+					["Visible"] = true,
+				},
 				["Asdqaweqwd-Outland"] = {
 					["Visible"] = true,
 				},
 				["Moneythree-Outland"] = {
+					["Visible"] = true,
+				},
+				["Feattwo-Outland"] = {
 					["Visible"] = true,
 				},
 				["Asdsaasdf-Outland"] = {
@@ -129,16 +137,25 @@ PawnCommon = {
 				["Tinkerflame-Outland"] = {
 					["Visible"] = true,
 				},
+				["Feastfive-Outland"] = {
+					["Visible"] = true,
+				},
 				["Testfirst-Outland"] = {
 					["Visible"] = true,
 				},
 				["Presentone-Outland"] = {
 					["Visible"] = true,
 				},
+				["Adsfasdfasdf-Outland"] = {
+					["Visible"] = true,
+				},
 				["Moneynine-Outland"] = {
 					["Visible"] = true,
 				},
 				["Moneyfour-Outland"] = {
+					["Visible"] = true,
+				},
+				["Feastthree-Outland"] = {
 					["Visible"] = true,
 				},
 				["Moneymakeri-Outland"] = {
@@ -150,7 +167,7 @@ PawnCommon = {
 				["Moneymakerii-Outland"] = {
 					["Visible"] = true,
 				},
-				["Adsfasdfasdf-Outland"] = {
+				["Chernakotka-Die Aldor"] = {
 					["Visible"] = true,
 				},
 				["Moneyseven-Outland"] = {
@@ -159,7 +176,7 @@ PawnCommon = {
 				["Moneyfive-Outland"] = {
 					["Visible"] = true,
 				},
-				["Chernakotka-Die Aldor"] = {
+				["Feastyone-Outland"] = {
 					["Visible"] = true,
 				},
 			},
@@ -319,8 +336,8 @@ PawnCommon = {
 				["IsStaff"] = -1000000,
 				["Agility"] = 1.12,
 				["HasteRating"] = 0.9,
-				["OffHandDps"] = 1.23,
-				["IsCrossbow"] = -1000000,
+				["MasteryRating"] = 0.76,
+				["Versatility"] = 0.8,
 				["IsPolearm"] = -1000000,
 				["IsGun"] = -1000000,
 				["IsFrill"] = -1000000,
@@ -328,9 +345,9 @@ PawnCommon = {
 				["Dps"] = 5.12,
 				["IsMail"] = -1000000,
 				["IsPlate"] = -1000000,
-				["Versatility"] = 0.8,
+				["IsCrossbow"] = -1000000,
 				["Is2HSword"] = -1000000,
-				["MasteryRating"] = 0.76,
+				["OffHandDps"] = 1.23,
 				["IsShield"] = -1000000,
 				["IsBow"] = -1000000,
 			},
@@ -344,8 +361,8 @@ PawnCommon = {
 				["IsStaff"] = -1000000,
 				["Agility"] = 1.79,
 				["HasteRating"] = 1.66,
-				["OffHandDps"] = 1.88,
-				["Versatility"] = 1.24,
+				["MasteryRating"] = 0.87,
+				["IsCrossbow"] = -1000000,
 				["IsPolearm"] = -1000000,
 				["IsGun"] = -1000000,
 				["IsFrill"] = -1000000,
@@ -353,9 +370,9 @@ PawnCommon = {
 				["IsBow"] = -1000000,
 				["IsMail"] = -1000000,
 				["IsPlate"] = -1000000,
-				["IsCrossbow"] = -1000000,
+				["Versatility"] = 1.24,
 				["Is2HSword"] = -1000000,
-				["MasteryRating"] = 0.87,
+				["OffHandDps"] = 1.88,
 				["IsShield"] = -1000000,
 				["Dps"] = 8.2,
 			},
@@ -433,41 +450,38 @@ PawnCommon = {
 			["UnenchantedColor"] = "bf3950",
 			["SpecID"] = 1,
 		},
-		["\"MrRobot\":MAGE1"] = {
-			["IconTexturePath"] = 135932,
+		["\"MrRobot\":DEMONHUNTER2"] = {
+			["IconTexturePath"] = 1247265,
 			["PerCharacterOptions"] = {
-				["Käguya-Turalyon"] = {
+				["Illyana-Outland"] = {
 					["Visible"] = true,
 				},
 			},
-			["Color"] = "3fc6ea",
-			["LocalizedName"] = "Mage: Arcane",
-			["ClassID"] = 8,
+			["Color"] = "a330c9",
+			["LocalizedName"] = "Demon Hunter: Vengeance",
+			["ClassID"] = 12,
 			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "DAMAGER",
-			["DoNotShow2HUpgrades"] = false,
+			["Role"] = "TANK",
+			["DoNotShow2HUpgrades"] = true,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "2f94af",
-			["SpecID"] = 1,
+			["UnenchantedColor"] = "7a2496",
+			["SpecID"] = 2,
 		},
-		["\"MrRobot\":PALADIN3"] = {
-			["IconTexturePath"] = 135873,
+		["\"MrRobot\":WARRIOR1"] = {
+			["IconTexturePath"] = 132355,
 			["PerCharacterOptions"] = {
-				["Phaladinus-Outland"] = {
-					["Visible"] = true,
-				},
 			},
-			["Color"] = "f48cba",
-			["LocalizedName"] = "Paladin: Retribution",
-			["ClassID"] = 2,
+			["Color"] = "c69b6d",
+			["LocalizedName"] = "Warrior: Arms",
+			["ClassID"] = 1,
 			["DoNotShow1HUpgrades"] = true,
 			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "b7698b",
-			["SpecID"] = 3,
+			["UnenchantedColor"] = "947451",
+			["SpecID"] = 1,
 		},
 		["\"MrRobot\":WARLOCK2"] = {
 			["IconTexturePath"] = 136172,
@@ -507,11 +521,11 @@ PawnCommon = {
 				["CritRating"] = 1.67,
 				["HasteRating"] = 1.7,
 				["MasteryRating"] = 1.66,
-				["Versatility"] = 1.67,
+				["IsCrossbow"] = -1000000,
 				["IsPolearm"] = -1000000,
 				["IsGun"] = -1000000,
 				["Is2HAxe"] = -1000000,
-				["IsCrossbow"] = -1000000,
+				["Versatility"] = 1.67,
 				["IsBow"] = -1000000,
 				["IsMail"] = -1000000,
 				["IsPlate"] = -1000000,
@@ -519,38 +533,44 @@ PawnCommon = {
 				["IsOffHand"] = -1000000,
 				["IsWarglaive"] = -1000000,
 				["Is2HSword"] = -1000000,
-				["IsShield"] = -1000000,
 				["IsAxe"] = -1000000,
+				["IsShield"] = -1000000,
 			},
 		},
-		["\"MrRobot\":SHAMAN3"] = {
-			["IconTexturePath"] = 136052,
+		["\"MrRobot\":MAGE1"] = {
+			["IconTexturePath"] = 135932,
 			["PerCharacterOptions"] = {
+				["Käguya-Turalyon"] = {
+					["Visible"] = true,
+				},
+				["Mallazin-Azjol-Nerub"] = {
+					["Visible"] = true,
+				},
 			},
-			["Color"] = "0070dd",
-			["LocalizedName"] = "Shaman: Restoration",
-			["ClassID"] = 7,
+			["Color"] = "3fc6ea",
+			["LocalizedName"] = "Mage: Arcane",
+			["ClassID"] = 8,
 			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "HEALER",
-			["DoNotShow2HUpgrades"] = false,
-			["UpgradesFollowSpecialization"] = true,
-			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "0054a5",
-			["SpecID"] = 3,
-		},
-		["\"MrRobot\":DRUID2"] = {
-			["IconTexturePath"] = 132115,
-			["PerCharacterOptions"] = {
-			},
-			["Color"] = "ff7c0a",
-			["LocalizedName"] = "Druid: Feral",
-			["ClassID"] = 11,
-			["DoNotShow1HUpgrades"] = true,
 			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "bf5d07",
+			["UnenchantedColor"] = "2f94af",
+			["SpecID"] = 1,
+		},
+		["\"MrRobot\":PALADIN2"] = {
+			["IconTexturePath"] = 236264,
+			["PerCharacterOptions"] = {
+			},
+			["Color"] = "f48cba",
+			["LocalizedName"] = "Paladin: Protection",
+			["ClassID"] = 2,
+			["DoNotShow1HUpgrades"] = false,
+			["Role"] = "TANK",
+			["DoNotShow2HUpgrades"] = true,
+			["UpgradesFollowSpecialization"] = true,
+			["Provider"] = "MrRobot",
+			["UnenchantedColor"] = "b7698b",
 			["SpecID"] = 2,
 		},
 		["\"MrRobot\":DEATHKNIGHT3"] = {
@@ -574,6 +594,9 @@ PawnCommon = {
 		["\"MrRobot\":HUNTER1"] = {
 			["IconTexturePath"] = 461112,
 			["PerCharacterOptions"] = {
+				["Nibirus-Azjol-Nerub"] = {
+					["Visible"] = true,
+				},
 				["Afadsfasdfs-Outland"] = {
 					["Visible"] = true,
 				},
@@ -628,6 +651,9 @@ PawnCommon = {
 		["\"MrRobot\":WARRIOR2"] = {
 			["IconTexturePath"] = 132347,
 			["PerCharacterOptions"] = {
+				["Phalonius-Azjol-Nerub"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "c69b6d",
 			["LocalizedName"] = "Warrior: Fury",
@@ -670,53 +696,53 @@ PawnCommon = {
 			["UnenchantedColor"] = "bf3950",
 			["SpecID"] = 2,
 		},
-		["\"MrRobot\":PALADIN2"] = {
-			["IconTexturePath"] = 236264,
+		["\"MrRobot\":DRUID2"] = {
+			["IconTexturePath"] = 132115,
 			["PerCharacterOptions"] = {
 			},
-			["Color"] = "f48cba",
-			["LocalizedName"] = "Paladin: Protection",
-			["ClassID"] = 2,
-			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "TANK",
-			["DoNotShow2HUpgrades"] = true,
-			["UpgradesFollowSpecialization"] = true,
-			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "b7698b",
-			["SpecID"] = 2,
-		},
-		["\"MrRobot\":DEMONHUNTER2"] = {
-			["IconTexturePath"] = 1247265,
-			["PerCharacterOptions"] = {
-				["Illyana-Outland"] = {
-					["Visible"] = true,
-				},
-			},
-			["Color"] = "a330c9",
-			["LocalizedName"] = "Demon Hunter: Vengeance",
-			["ClassID"] = 12,
-			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "TANK",
-			["DoNotShow2HUpgrades"] = true,
-			["UpgradesFollowSpecialization"] = true,
-			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "7a2496",
-			["SpecID"] = 2,
-		},
-		["\"MrRobot\":WARRIOR1"] = {
-			["IconTexturePath"] = 132355,
-			["PerCharacterOptions"] = {
-			},
-			["Color"] = "c69b6d",
-			["LocalizedName"] = "Warrior: Arms",
-			["ClassID"] = 1,
+			["Color"] = "ff7c0a",
+			["LocalizedName"] = "Druid: Feral",
+			["ClassID"] = 11,
 			["DoNotShow1HUpgrades"] = true,
 			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "947451",
-			["SpecID"] = 1,
+			["UnenchantedColor"] = "bf5d07",
+			["SpecID"] = 2,
+		},
+		["\"MrRobot\":SHAMAN3"] = {
+			["IconTexturePath"] = 136052,
+			["PerCharacterOptions"] = {
+			},
+			["Color"] = "0070dd",
+			["LocalizedName"] = "Shaman: Restoration",
+			["ClassID"] = 7,
+			["DoNotShow1HUpgrades"] = false,
+			["Role"] = "HEALER",
+			["DoNotShow2HUpgrades"] = false,
+			["UpgradesFollowSpecialization"] = true,
+			["Provider"] = "MrRobot",
+			["UnenchantedColor"] = "0054a5",
+			["SpecID"] = 3,
+		},
+		["\"MrRobot\":PALADIN3"] = {
+			["IconTexturePath"] = 135873,
+			["PerCharacterOptions"] = {
+				["Phaladinus-Outland"] = {
+					["Visible"] = true,
+				},
+			},
+			["Color"] = "f48cba",
+			["LocalizedName"] = "Paladin: Retribution",
+			["ClassID"] = 2,
+			["DoNotShow1HUpgrades"] = true,
+			["Role"] = "DAMAGER",
+			["DoNotShow2HUpgrades"] = false,
+			["UpgradesFollowSpecialization"] = true,
+			["Provider"] = "MrRobot",
+			["UnenchantedColor"] = "b7698b",
+			["SpecID"] = 3,
 		},
 		["\"MrRobot\":DRUID3"] = {
 			["IconTexturePath"] = 132276,
@@ -788,12 +814,10 @@ PawnCommon = {
 			["SpecID"] = 3,
 		},
 	},
-	["ShowSocketingAdvisor"] = true,
-	["ShowSpecIcons"] = true,
 	["IgnoreGemsWhileLeveling"] = true,
 	["ButtonPosition"] = 2,
 	["ShowLootUpgradeAdvisor"] = true,
 	["ShowQuestUpgradeAdvisor"] = true,
-	["LastVersion"] = 2.0528,
+	["LastVersion"] = 2.0531,
 	["Digits"] = 1,
 }

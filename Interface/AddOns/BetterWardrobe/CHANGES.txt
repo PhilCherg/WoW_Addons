@@ -1,16 +1,18 @@
-tag b0c044cde58fe305e3051157c7270f776d45c870 V3.12
+tag d120470da00b8ea07b781c6446fe52347128c9b6 3.12.2
 Author:	SLOKnightfall <SLOKnightfall@gmail.com>
-Date:	Tue Nov 2 15:25:02 2021 -0700
+Date:	Fri Dec 3 13:31:32 2021 -0800
 
--Toc Update
--Color Wheel searching, Source Data, Recolors
+bugfixes
 
-commit eb63d8b91fef8a9134a151eca6480200a4b18530
+commit 24425731d5988cb164cd7dca8b9a0f9bb45f31d2
 Author: SLOKnightfall <SLOKnightfall@gmail.com>
-Date:   Tue Nov 2 15:21:29 2021 -0700
+Date:   Fri Dec 3 13:31:19 2021 -0800
 
-    -Toc Update for 9.1.5
-    -Added Link Outfit button to Dressing room to match current buttons
-    -Re enabled color wheel searching, source data and recolors
-    -Added AceSerializer to pkgmeta
+    Repositioned tooltip watcher frames to an upper corner to hopefully fix blinking pixel in the center of the screen that has been reported.
+
+commit 3b511c26f790dcdc4d21e9763b7110b538c776c2
+Author: SLOKnightfall <SLOKnightfall@gmail.com>
+Date:   Fri Dec 3 13:18:32 2021 -0800
+
+    -Fixed ability to delete character's saved sets from the set.
 

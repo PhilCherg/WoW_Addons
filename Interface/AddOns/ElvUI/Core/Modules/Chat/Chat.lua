@@ -288,14 +288,14 @@ do --this can save some main file locals
 			if next(g) then if #g > 1 then sort(g) end for n in gmatch(t, '\24') do local _, v = next(g) t = gsub(t, n, f[v], 1) tremove(g, 1) f[v] = nil end end return t
 		end
 
-		--Simpys: Mindaro, Sea Green, Purple Plum, Paradise Pink, Orange Yellow
-		local SimpyColors = function(t) return specialText(t, 0.79,1.00,0.54, 0.00,0.72,0.44, 0.54,0.34,0.80, 0.93,0.27,0.43, 1.00,0.76,0.23) end
+		--Simpys: Amethyst, Magenta Crayola, Minion Yellow, Capri, Spring Green
+		local SimpyColors = function(t) return specialText(t, 0.6,0.36,0.89, 0.94,0.35,0.7, 0.99,0.89,0.25, 0,0.73,0.97, 0.4,1.0,0.60) end
 		--Detroit Lions: Honolulu Blue to Silver [Elv: I stoles it @Simpy]
 		local ElvColors = function(t) return specialText(t, 0,0.42,0.69, 0.61,0.61,0.61) end
 		--Rainbow: FD3E44, FE9849, FFDE4B, 6DFD65, 54C4FC, A35DFA, C679FB, FE81C1
-		local MisColors = function(t) return specialText(t, 0.99,0.24,0.26, 0.99,0.59,0.28, 1.00,0.87,0.29, 0.42,0.99,0.39, 0.32,0.76,0.98, 0.63,0.36,0.98, 0.77,0.47,0.98, 0.99,0.50,0.75) end
-		--Mels: Electric Blue, Purpureus, Blush, Bitter Sweet, Emerald
-		local MelColors = function(t) return specialText(t, 0.09,0.94,1.00, 0.60,0.34,0.63, 0.91,0.32,0.49, 0.95,0.42,0.32, 0.19,0.77,0.41) end
+		local MisColors = function(t) return specialText(t, 0.99,0.24,0.26, 0.99,0.59,0.28, 1,0.87,0.29, 0.42,0.99,0.39, 0.32,0.76,0.98, 0.63,0.36,0.98, 0.77,0.47,0.98, 0.99,0.5,0.75) end
+		--Mels: Sky Blue, Maya Blue, Dodger Blue, Cornflower Blue, Medium Purple, Lavender Floral, Persian Pink
+		local MelColors = function(t) return specialText(t, 0.4,0.87,0.95, 0.34,0.75,0.98, 0.27,0.62,1, 0.45,0.54,0.98, 0.61,0.46,0.97, 0.78,0.49,0.86, 0.95,0.52,0.75) end
 
 		itsSimpy = function() return ElvSimpy, SimpyColors end
 		itsElv = function() return ElvBlue, ElvColors end
@@ -309,9 +309,11 @@ do --this can save some main file locals
 	if E.Classic then
 		-- Simpy
 		z['Simpy-Myzrael']			= itsSimpy -- Warlock
-		-- Luckyone
+		-- Luckyone Classic Era
 		z['Luckyone-Shazzrah']		= ElvGreen -- Hunter
 		z['Luckydruid-Shazzrah']	= ElvGreen -- Druid
+		-- Luckyone Season of Mastery
+		z['Luckyone-Dreadnaught']	= ElvGreen -- Hunter
 	elseif E.TBC then
 		-- Simpy
 		z['Cutepally-Myzrael']		= itsSimpy -- Paladin
@@ -1141,6 +1143,8 @@ function CH:GetDockerParent(docker, chat)
 end
 
 function CH:UpdateChatTab(chat)
+	if chat.lastGM then return end -- ignore GM Chat
+
 	local fadeLeft, fadeRight
 	if CH.db.fadeTabsNoBackdrop then
 		local both = CH.db.panelBackdrop == 'HIDEBOTH'
@@ -1148,13 +1152,14 @@ function CH:UpdateChatTab(chat)
 		fadeRight = (both or CH.db.panelBackdrop == 'LEFT')
 	end
 
+	local tab = CH:GetTab(chat)
 	if chat == CH.LeftChatWindow then
-		CH:GetTab(chat):SetParent(_G.LeftChatPanel or _G.UIParent)
+		tab:SetParent(_G.LeftChatPanel or _G.UIParent)
 		chat:SetParent(_G.LeftChatPanel or _G.UIParent)
 
 		CH:HandleFadeTabs(chat, fadeLeft)
 	elseif chat == CH.RightChatWindow then
-		CH:GetTab(chat):SetParent(_G.RightChatPanel or _G.UIParent)
+		tab:SetParent(_G.RightChatPanel or _G.UIParent)
 		chat:SetParent(_G.RightChatPanel or _G.UIParent)
 
 		CH:HandleFadeTabs(chat, fadeRight)
@@ -1162,8 +1167,8 @@ function CH:UpdateChatTab(chat)
 		local docker = _G.GeneralDockManager.primary
 		local parent = CH:GetDockerParent(docker, chat)
 
-		-- we need to update the tab parent to mimic the docker
-		CH:GetTab(chat):SetParent(parent or _G.UIParent)
+		-- we need to update the tab parent to mimic the docker if its not docked
+		if not chat.isDocked then tab:SetParent(parent or _G.UIParent) end
 		chat:SetParent(parent or _G.UIParent)
 
 		if parent and docker == CH.LeftChatWindow then
@@ -1505,8 +1510,8 @@ function CH:ShortChannel()
 	return format('|Hchannel:%s|h[%s]|h', self, DEFAULT_STRINGS[strupper(self)] or gsub(self, 'channel:', ''))
 end
 
-function CH:HandleShortChannels(msg)
-	msg = gsub(msg, '|Hchannel:(.-)|h%[(.-)%]|h', CH.ShortChannel)
+function CH:HandleShortChannels(msg, hide)
+	msg = gsub(msg, '|Hchannel:(.-)|h%[(.-)%]|h', hide and '' or CH.ShortChannel)
 	msg = gsub(msg, 'CHANNEL:', '')
 	msg = gsub(msg, '^(.-|h) '..L["whispers"], '%1')
 	msg = gsub(msg, '^(.-|h) '..L["says"], '%1')
@@ -1597,7 +1602,7 @@ function CH:GetColoredName(event, _, arg2, _, _, _, _, _, arg8, _, _, _, arg12)
 		local data = CH:GetPlayerInfoByGUID(arg12)
 		local classColor = data and data.classColor
 		if classColor then
-			return format('\124cff%.2x%.2x%.2x%s\124r', classColor.r*255, classColor.g*255, classColor.b*255, arg2)
+			return format('|cff%.2x%.2x%.2x%s|r', classColor.r*255, classColor.g*255, classColor.b*255, arg2)
 		end
 	end
 
@@ -1624,7 +1629,7 @@ function CH:ChatFrame_ReplaceIconAndGroupExpressions(message, noIconReplacement,
 					if name and subgroup == groupIndex then
 						local classColorTable = E:ClassColor(classFileName)
 						if classColorTable then
-							name = format('\124cff%.2x%.2x%.2x%s\124r', classColorTable.r*255, classColorTable.g*255, classColorTable.b*255, name)
+							name = format('|cff%.2x%.2x%.2x%s|r', classColorTable.r*255, classColorTable.g*255, classColorTable.b*255, name)
 						end
 						groupList = groupList..(groupList == '[' and '' or _G.PLAYER_LIST_DELIMITER)..name
 					end
@@ -2118,8 +2123,8 @@ function CH:ChatFrame_MessageEventHandler(frame, event, arg1, arg2, arg3, arg4, 
 				body = '|Hchannel:channel:'..arg8..'|h['.._G.ChatFrame_ResolvePrefixedChannelName(arg4)..']|h '..body
 			end
 
-			if CH.db.shortChannels and (chatType ~= 'EMOTE' and chatType ~= 'TEXT_EMOTE') then
-				body = CH:HandleShortChannels(body)
+			if (chatType ~= 'EMOTE' and chatType ~= 'TEXT_EMOTE') and (CH.db.shortChannels or CH.db.hideChannels) then
+				body = CH:HandleShortChannels(body, CH.db.hideChannels)
 			end
 
 			for _, filter in ipairs(CH.PluginMessageFilters) do
@@ -2147,7 +2152,7 @@ function CH:ChatFrame_MessageEventHandler(frame, event, arg1, arg2, arg3, arg4, 
 			if (frame == _G.DEFAULT_CHAT_FRAME and info.flashTabOnGeneral) or (frame ~= _G.DEFAULT_CHAT_FRAME and info.flashTab) then
 				if not _G.CHAT_OPTIONS.HIDE_FRAME_ALERTS or chatType == 'WHISPER' or chatType == 'BN_WHISPER' then
 					if not _G.FCFManager_ShouldSuppressMessageFlash(frame, chatGroup, chatTarget) then
-						_G.FCF_StartAlertFlash(frame) --This would taint if we were not using LibChatAnims
+						_G.FCF_StartAlertFlash(frame)
 					end
 				end
 			end
@@ -2184,6 +2189,67 @@ end
 function CH:ChatFrame_SetScript(script, func)
 	if script == 'OnMouseWheel' and func ~= CH.ChatFrame_OnMouseScroll then
 		self:SetScript(script, CH.ChatFrame_OnMouseScroll)
+	end
+end
+
+function CH:FCFDockOverflowButton_UpdatePulseState(btn)
+	if not btn.Texture then return end
+
+	if btn.alerting then
+		btn:SetAlpha(1)
+		btn.Texture:SetVertexColor(unpack(E.media.rgbvaluecolor))
+	elseif not btn:IsMouseOver() then
+		btn.Texture:SetVertexColor(1, 1, 1)
+	end
+end
+
+do
+	local overflowColor = { r = 1, g = 1, b = 1 } -- use this to prevent HandleNextPrevButton from setting the scripts, as this has its own
+	function CH:Overflow_OnEnter()
+		if self.Texture then
+			self.Texture:SetVertexColor(unpack(E.media.rgbvaluecolor))
+		end
+	end
+
+	function CH:Overflow_OnLeave()
+		if self.Texture and not self.alerting then
+			self.Texture:SetVertexColor(1, 1, 1)
+		end
+	end
+
+	local overflow_SetAlpha
+	function CH:Overflow_SetAlpha(alpha)
+		if self.alerting then
+			alpha = 1
+		elseif alpha < 0.5 then
+			local hooks = CH.hooks and CH.hooks[_G.GeneralDockManager.primary]
+			if not (hooks and hooks.OnEnter) then
+				alpha = 0.5
+			end
+		end
+
+		overflow_SetAlpha(self, alpha)
+	end
+
+	function CH:StyleOverflowButton()
+		local btn = _G.GeneralDockManagerOverflowButton
+		local wasSkinned = btn.isSkinned -- keep this before HandleNextPrev
+		Skins:HandleNextPrevButton(btn, 'down', overflowColor, true)
+		btn:SetHighlightTexture(E.Media.Textures.ArrowUpGlow)
+
+		if not wasSkinned then
+			overflow_SetAlpha = btn.SetAlpha
+			btn.SetAlpha = CH.Overflow_SetAlpha
+
+			btn:HookScript('OnEnter', CH.Overflow_OnEnter)
+			btn:HookScript('OnLeave', CH.Overflow_OnLeave)
+		end
+
+		local hl = btn:GetHighlightTexture()
+		hl:SetVertexColor(unpack(E.media.rgbvaluecolor))
+		hl:SetRotation(Skins.ArrowRotation.down)
+
+		btn.list:SetTemplate('Transparent')
 	end
 end
 
@@ -2235,9 +2301,7 @@ function CH:SetupChat()
 		_G.QuickJoinToastButton:Hide()
 	end
 
-	_G.GeneralDockManagerOverflowButtonList:SetTemplate('Transparent')
-	Skins:HandleNextPrevButton(_G.GeneralDockManagerOverflowButton, 'down', nil, true)
-
+	CH:StyleOverflowButton()
 	CH:PositionChats()
 
 	if not CH.HookSecured then
@@ -2356,7 +2420,7 @@ function CH:CheckKeyword(message, author)
 				if wordMatch and not E.global.chat.classColorMentionExcludedNames[wordMatch] then
 					local classColorTable = E:ClassColor(classMatch)
 					if classColorTable then
-						word = gsub(word, gsub(tempWord, '%-','%%-'), format('\124cff%.2x%.2x%.2x%s\124r', classColorTable.r*255, classColorTable.g*255, classColorTable.b*255, tempWord))
+						word = gsub(word, gsub(tempWord, '%-','%%-'), format('|cff%.2x%.2x%.2x%s|r', classColorTable.r*255, classColorTable.g*255, classColorTable.b*255, tempWord))
 					end
 				end
 			end
@@ -3383,18 +3447,26 @@ function CH:FCF_PopInWindow(fallback)
 	CH.FCF_Close(self) -- use ours to fix close chat bug
 end
 
-function CH:UIDropDownMenu_AddButton(info, level)
-	if info and info.text == _G.CLOSE_CHAT_WINDOW then
-		if not level then level = 1 end
+do
+	local closeButtons = {
+		[_G.CLOSE_CHAT_CONVERSATION_WINDOW] = true,
+		[_G.CLOSE_CHAT_WHISPER_WINDOW] = true,
+		[_G.CLOSE_CHAT_WINDOW] = true
+	}
 
-		local list = _G['DropDownList'..level]
-		local index = (list and list.numButtons) or 1
-		local button = _G[list:GetName()..'Button'..index]
+	function CH:UIDropDownMenu_AddButton(info, level)
+		if info and closeButtons[info.text] then
+			if not level then level = 1 end
 
-		if button.func == _G.FCF_PopInWindow then
-			button.func = CH.FCF_PopInWindow
-		elseif button.func == _G.FCF_Close then
-			button.func = CH.FCF_Close
+			local list = _G['DropDownList'..level]
+			local index = (list and list.numButtons) or 1
+			local button = _G[list:GetName()..'Button'..index]
+
+			if button.func == _G.FCF_PopInWindow then
+				button.func = CH.FCF_PopInWindow
+			elseif button.func == _G.FCF_Close then
+				button.func = CH.FCF_Close
+			end
 		end
 	end
 end
@@ -3448,6 +3520,7 @@ function CH:Initialize()
 	CH:SecureHook('RedockChatWindows', 'ClearSnapping')
 	CH:SecureHook('ChatEdit_OnShow', 'ChatEdit_PleaseUntaint')
 	CH:SecureHook('ChatEdit_OnHide', 'ChatEdit_PleaseRetaint')
+	CH:SecureHook('FCFDockOverflowButton_UpdatePulseState')
 	CH:SecureHook('UIDropDownMenu_AddButton')
 	CH:SecureHook('GetPlayerInfoByGUID')
 

@@ -1,16 +1,28 @@
-lightweight tag a5d0e8bdf993736f8393b86b6cace3a769e80a43 4.0.8-release
+lightweight tag a19754e527815b0bf26986559843144cfa780cf5 4.0.9-release
 Author:	GitHub <noreply@github.com>
-Date:	Sat Jan 30 17:49:57 2021 +0000
+Date:	Sun Dec 12 00:31:05 2021 +0000
 
-commit 48bda60046631d359382afded13a9f389ba3a0f8
+commit a19754e527815b0bf26986559843144cfa780cf5
 Author: pereira-a <pereirasmandre@gmail.com>
-Date:   Sat Jan 30 17:49:13 2021 +0000
+Date:   Sun Dec 12 00:31:05 2021 +0000
 
-    Revert "Update to handle buttons that do not have "OnClick" scripts"
+    update addon version 4.0.9
 
-commit 48bda60046631d359382afded13a9f389ba3a0f8
+commit 6693f9c3d6bdc18e71eb447ce99c09a30f75606e
 Author: pereira-a <pereirasmandre@gmail.com>
-Date:   Sat Jan 30 17:49:13 2021 +0000
+Date:   Sun Dec 12 00:29:38 2021 +0000
 
-    Revert "Update to handle buttons that do not have "OnClick" scripts"
+    update addon version
+
+commit 7822ddb19b83b73e99aca2e0bf8e37e2a3b0ce94
+Author: Stefan Wixfort <stefan.wixfort@wixfort-dev.de>
+Date:   Thu Dec 9 17:35:38 2021 +0100
+
+    bump interface version to 9.1.5
+
+commit 7822ddb19b83b73e99aca2e0bf8e37e2a3b0ce94
+Author: Stefan Wixfort <stefan.wixfort@wixfort-dev.de>
+Date:   Thu Dec 9 17:35:38 2021 +0100
+
+    bump interface version to 9.1.5
 

@@ -438,7 +438,7 @@ function S:Ace3_RegisterAsContainer(widget)
 end
 
 function S:Ace3_StyleTooltip()
-	if not self:IsForbidden() and E.private.skins.ace3Enable then
+	if not self:IsForbidden() and E.private.skins.blizzard.enable and E.private.skins.blizzard.tooltip then
 		self:SetTemplate('Transparent')
 	end
 end
@@ -471,7 +471,7 @@ function S:Ace3_SkinTooltip(lib, minor) -- lib: AceConfigDialog or AceGUI
 	if not lib.tooltip then
 		S:Ace3_MetaTable(lib)
 	else
-		if E.Retail then
+		if E.Retail or E.Classic then
 			S.Ace3_StyleTooltip(lib.tooltip)
 		elseif not S:IsHooked(lib.tooltip, 'OnShow') then
 			S:SecureHookScript(lib.tooltip, 'OnShow', S.Ace3_StyleTooltip)
@@ -487,7 +487,7 @@ function S:Ace3_MetaIndex(k, v)
 	if k == 'tooltip' then
 		rawset(self, k, v)
 
-		if E.Retail then
+		if E.Retail or E.Classic then
 			S.Ace3_StyleTooltip(v)
 		else
 			S:SecureHookScript(v, 'OnShow', S.Ace3_StyleTooltip)

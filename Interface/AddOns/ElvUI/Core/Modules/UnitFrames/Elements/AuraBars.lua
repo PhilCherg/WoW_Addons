@@ -1,5 +1,6 @@
 local E, L, V, P, G = unpack(ElvUI)
 local UF = E:GetModule('UnitFrames')
+local LSM = E.Libs.LSM
 
 local _G = _G
 local ipairs = ipairs
@@ -11,6 +12,10 @@ function UF:Construct_AuraBars(statusBar)
 	statusBar:SetScript('OnMouseDown', UF.Aura_OnClick)
 	statusBar:Point('LEFT')
 	statusBar:Point('RIGHT')
+
+	statusBar.spark:SetTexture(E.media.blankTex)
+	statusBar.spark:SetVertexColor(1, 1, 1, 0.4)
+	statusBar.spark:Size(2)
 
 	statusBar.icon:CreateBackdrop(nil, nil, nil, nil, true)
 	UF.statusbars[statusBar] = true
@@ -82,14 +87,18 @@ function UF:Configure_AuraBars(frame)
 		auraBars.growth = db.aurabar.anchorPoint
 		auraBars.maxBars = db.aurabar.maxBars
 		auraBars.spacing = db.aurabar.spacing
+		auraBars.reverseFill = auraBars.db.reverseFill
 		auraBars.friendlyAuraType = db.aurabar.friendlyAuraType
 		auraBars.enemyAuraType = db.aurabar.enemyAuraType
 		auraBars.disableMouse = db.aurabar.clickThrough
 		auraBars.filterList = UF:ConvertFilters(auraBars, db.aurabar.priority)
-		auraBars.auraSort = UF.SortAuraFuncs[auraBars.db.sortMethod]
+		auraBars.auraSort = UF.SortAuraFuncs[db.aurabar.sortMethod]
 
 		for _, statusBar in ipairs(auraBars) do
 			statusBar.db = auraBars.db
+			statusBar:SetReverseFill(auraBars.reverseFill)
+			statusBar.spark:Point(auraBars.reverseFill and 'LEFT' or 'RIGHT', statusBar:GetStatusBarTexture())
+
 			UF:Update_FontString(statusBar.timeText)
 			UF:Update_FontString(statusBar.nameText)
 		end
@@ -166,7 +175,6 @@ function UF:Configure_AuraBars(frame)
 		auraBars:ClearAllPoints()
 		auraBars:Point(anchorPoint..'LEFT', attachTo, anchorTo..'LEFT', xOffset or -SPACING, yOffset)
 		auraBars:Point(anchorPoint..'RIGHT', attachTo, anchorTo..'RIGHT', xOffset or -(SPACING + BORDER), yOffset)
-
 		auraBars.width = E:Scale((db.aurabar.attachTo == 'DETACHED' and db.aurabar.detachedWidth or frame.UNIT_WIDTH) - (BORDER * 4) - auraBars.height - POWER_OFFSET + 1) -- 1 is connecting pixel
 		auraBars:Show()
 	elseif frame:IsElementEnabled('AuraBars') then
@@ -183,6 +191,7 @@ function UF:PostUpdateBar_AuraBars(_, statusBar, _, _, _, _, debuffType) -- unit
 
 	statusBar.db = self.db
 	statusBar.icon:SetTexCoord(unpack(E.TexCoords))
+	statusBar.spark:SetHeight(self.height)
 
 	local colors = E.global.unitframe.AuraBarColors[spellID] and E.global.unitframe.AuraBarColors[spellID].enable and E.global.unitframe.AuraBarColors[spellID].color
 
@@ -211,7 +220,9 @@ function UF:PostUpdateBar_AuraBars(_, statusBar, _, _, _, _, debuffType) -- unit
 			UF:ToggleTransparentStatusBar(UF.db.colors.transparentAurabars, statusBar, statusBar.bg, nil, UF.db.colors.invertAurabars)
 		else
 			local sbTexture = statusBar:GetStatusBarTexture()
-			if not statusBar.bg:GetTexture() then UF:Update_StatusBar(statusBar.bg, sbTexture:GetTexture()) end
+			if not statusBar.bg:GetTexture() then
+				UF:Update_StatusBar(statusBar.bg, UF.db.colors.transparentAurabars and E.media.blankTex or LSM:Fetch('statusbar', UF.db.statusbar))
+			end
 
 			UF:SetStatusBarBackdropPoints(statusBar, sbTexture, statusBar.bg)
 		end

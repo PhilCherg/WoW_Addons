@@ -2,273 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"Pyongyang Gang is a guild that has just been created like literally, We are former group of CE friends that are looking to progress all the way up to CE whilst having fun! We also run m+ on a daily basis and already have HC experience!/pm for info! :D", -- [1]
-			"Buffmemore-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Buffmemore-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3660, -- [11]
-			"Player-1301-0BBEF4F8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Buffmemore|r",
-			[51] = 1608743669,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"LF Bg 50-59", -- [1]
-			"Girom-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Girom-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3675, -- [11]
-			"Player-1301-0B913110", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeGirom|r",
-			[51] = 1608743917,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"<Krakenboost> WTS Mythic Plus Boost for GOLD: < +2 - 150k >, < +5 - 285k >, < +7 - 375k >, < +9 - 435k >, < +10 - 455k >. Gear up your character tonight with help of our russian friends :) /w for info", -- [1]
-			"Zotsurko-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Zotsurko-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3676, -- [11]
-			"Player-1301-0BB526B4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Zotsurko|r",
-			[51] = 1608743921,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"where can i buy heirlooms for gold=", -- [1]
-			"Ckyz-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ckyz-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			706, -- [11]
-			"Player-1301-0BBCF7E6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Ckyz|r",
-			[51] = 1608906763,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"LF LW FOR RANK 3 LEATHER PANTS ", -- [1]
-			"Naturefrogas-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Naturefrogas-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			719, -- [11]
-			"Player-1301-089CA6A0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Naturefrogas|r",
-			[51] = 1608906789,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
-		{
-			"IF ironforge", -- [1]
-			"Omwtorankone-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Omwtorankone-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			721, -- [11]
-			"Player-1301-075783F6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeOmwtorankone|r",
-			[51] = 1608906789,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
-		{
-			"HO HO HO", -- [1]
-			"Sánta-GrimBatol", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Sánta-GrimBatol", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2664, -- [11]
-			"Player-1303-0AC8F466", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cSánta-GrimBatol|r",
-			[51] = 1608923848,
-			[50] = "CHAT_MSG_YELL",
-		}, -- [7]
-		{
-			"WTS |cffa335ee|Hitem:182982::::::::60:264:::::::|h[Watchful Arbelist's Bracers]|h|r 140k", -- [1]
-			"Rwk-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Rwk-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2693, -- [11]
-			"Player-1301-0BB8946F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcRwk|r",
-			[51] = 1608923893,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
-		{
-			"WTS |cffa335ee|Hkeystone:180653:375:13:10:123:12:121|h[Keystone: Mists of Tirna Scithe (13)]|h|r completion for weekly. ", -- [1]
-			"Rawaw-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Rawaw-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2694, -- [11]
-			"Player-1301-0B965D34", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Rawaw|r",
-			[51] = 1608923895,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
-		{
-			"origofren izlez ot grupata s alta mi", -- [1]
-			"|Kq15|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			46, -- [11]
-			false, -- [12]
-			4, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8B5P2|r",
-			[51] = 1610541133,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "B5P2",
-		}, -- [10]
-		{
-			"ne sum s alta ti", -- [1]
-			"|Kq15|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			49, -- [11]
-			false, -- [12]
-			4, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8B5P2|r",
-			[51] = 1610541144,
-			[50] = "CHAT_MSG_BN_WHISPER",
-			[53] = "B5P2",
-		}, -- [11]
-		{
-			"s alex sum", -- [1]
-			"|Kq15|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			50, -- [11]
-			false, -- [12]
-			4, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8B5P2|r",
-			[51] = 1610541146,
-			[50] = "CHAT_MSG_BN_WHISPER",
-			[53] = "B5P2",
-		}, -- [12]
-		{
 			"emi invite me", -- [1]
 			"|Kq15|k", -- [2]
 			"", -- [3]
@@ -290,7 +23,7 @@ ElvCharacterDB = {
 			[51] = 1610541155,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "B5P2",
-		}, -- [13]
+		}, -- [1]
 		{
 			"give lead baby", -- [1]
 			"Destruxia-Outland", -- [2]
@@ -312,7 +45,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDestruxia|r",
 			[51] = 1610541164,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [14]
+		}, -- [2]
 		{
 			"da blizam li", -- [1]
 			"|Kq15|k", -- [2]
@@ -335,7 +68,7 @@ ElvCharacterDB = {
 			[51] = 1610541183,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "B5P2",
-		}, -- [15]
+		}, -- [3]
 		{
 			"make me the sugar mommy of the group", -- [1]
 			"Destruxia-Outland", -- [2]
@@ -357,7 +90,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDestruxia|r",
 			[51] = 1610541188,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [16]
+		}, -- [4]
 		{
 			"ne dai mi lead", -- [1]
 			"|Kq15|k", -- [2]
@@ -380,7 +113,7 @@ ElvCharacterDB = {
 			[51] = 1610541196,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "B5P2",
-		}, -- [17]
+		}, -- [5]
 		{
 			"zabravqm kak raboti tochno", -- [1]
 			"|Kq15|k", -- [2]
@@ -403,7 +136,7 @@ ElvCharacterDB = {
 			[51] = 1610541205,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "B5P2",
-		}, -- [18]
+		}, -- [6]
 		{
 			"aide vlizaite", -- [1]
 			"Destruxia-Outland", -- [2]
@@ -425,7 +158,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDestruxia|r",
 			[51] = 1610541205,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [19]
+		}, -- [7]
 		{
 			"shtot vseki raid raboti po razlichen nachin", -- [1]
 			"|Kq15|k", -- [2]
@@ -448,7 +181,7 @@ ElvCharacterDB = {
 			[51] = 1610541213,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "B5P2",
-		}, -- [20]
+		}, -- [8]
 		{
 			"da vlizam li?", -- [1]
 			"|Kq15|k", -- [2]
@@ -471,7 +204,7 @@ ElvCharacterDB = {
 			[51] = 1610541239,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "B5P2",
-		}, -- [21]
+		}, -- [9]
 		{
 			"ye", -- [1]
 			"|Kq15|k", -- [2]
@@ -494,7 +227,7 @@ ElvCharacterDB = {
 			[51] = 1610541259,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "B5P2",
-		}, -- [22]
+		}, -- [10]
 		{
 			"sq trqbva li da se mahnesh ot grupata", -- [1]
 			"|Kq15|k", -- [2]
@@ -517,7 +250,7 @@ ElvCharacterDB = {
 			[51] = 1610541294,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "B5P2",
-		}, -- [23]
+		}, -- [11]
 		{
 			"yo", -- [1]
 			"Destruxia-Outland", -- [2]
@@ -539,7 +272,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDestruxia|r",
 			[51] = 1611749566,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [24]
+		}, -- [12]
 		{
 			"kaji kato si vutre", -- [1]
 			"Destruxia-Outland", -- [2]
@@ -561,7 +294,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDestruxia|r",
 			[51] = 1611749570,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [25]
+		}, -- [13]
 		{
 			"vutre sum", -- [1]
 			"Baaradir-Outland", -- [2]
@@ -583,7 +316,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Baaradir|r",
 			[51] = 1611749589,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [26]
+		}, -- [14]
 		{
 			"ight", -- [1]
 			"Destruxia-Outland", -- [2]
@@ -605,7 +338,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDestruxia|r",
 			[51] = 1611749594,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [27]
+		}, -- [15]
 		{
 			"WTS Arena boost / Gear Honor Points / Conquest ", -- [1]
 			"Gladiáv-Outland", -- [2]
@@ -627,7 +360,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Gladiáv|r",
 			[51] = 1611827830,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
+		}, -- [16]
 		{
 			"Any true pvp guilds here on outland or are they all shit?", -- [1]
 			"Ramboelf-Outland", -- [2]
@@ -649,7 +382,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Ramboelf|r",
 			[51] = 1612377872,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
+		}, -- [17]
 		{
 			"WTS  < Mythic+1-15  Dungeons >  <Special offer for World Tour >  <torghast layer 1-8> ready every 30mins<[Castle Nathria] hc  raid rdy 20 servertime >  fair price fast runs /w for more info ( gold only)", -- [1]
 			"Vedii-Outland", -- [2]
@@ -671,7 +404,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cVedii|r",
 			[51] = 1612377882,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
+		}, -- [18]
 		{
 			"<RCU Community> WTS Mythic Keystone 2-15 / Torghast All Layer / Raid Full Run or Specific Boss HC-Mythic Only With Gold /W Me For More Info", -- [1]
 			"Angelbloody-Outland", -- [2]
@@ -693,7 +426,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Angelbloody|r",
 			[51] = 1612377884,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
+		}, -- [19]
 		{
 			"<Death is Hereditary> is a group of old chaps that wants to grow his raiding team. We've some spots open, specially for healers, but everyone is welcome. We raid on Thu & Sun at 19:30, but we've fun everyday on mythic+, pvp, discord or guild chat.", -- [1]
 			"Houchic-Outland", -- [2]
@@ -715,7 +448,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edHouchic|r",
 			[51] = 1612377887,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
+		}, -- [20]
 		{
 			"Wts torghast boost 1-8  , Wts M+(1-15), WTS SL keystone Master", -- [1]
 			"Elishaa-Outland", -- [2]
@@ -737,7 +470,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cElishaa|r",
 			[51] = 1612377897,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
+		}, -- [21]
 		{
 			"if you're a \"true\" pvper you'd know which guilds are legit", -- [1]
 			"Bippi-Outland", -- [2]
@@ -759,7 +492,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edBippi|r",
 			[51] = 1612377903,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
+		}, -- [22]
 		{
 			"go back to argent dawn", -- [1]
 			"Bippi-Outland", -- [2]
@@ -781,7 +514,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edBippi|r",
 			[51] = 1612377908,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
+		}, -- [23]
 		{
 			"WTS |cffa335ee|Hitem:183008::::::::60:63::6:4:7187:6652:1498:6646:1:28:753:::|h[Supple Supplicant's Gloves]|h|r", -- [1]
 			"Lidlmage-Outland", -- [2]
@@ -803,7 +536,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaLidlmage|r",
 			[51] = 1612377987,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
+		}, -- [24]
 		{
 			"Which is the hardcorest most radical skills noob pwning pvp guild in outland for a hardcore skills op pvper like me?", -- [1]
 			"Revolvocelot-Outland", -- [2]
@@ -825,7 +558,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Revolvocelot|r",
 			[51] = 1612377998,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
+		}, -- [25]
 		{
 			"lf blacksmith to craft some|cffffffff|Hitem:152813::::::::60:71:::::::|h[Monel-Hardened Stirrups]|h|r", -- [1]
 			"Selmy-Outland", -- [2]
@@ -847,7 +580,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cSelmy|r",
 			[51] = 1612378001,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
+		}, -- [26]
 		{
 			"is there any boost for lvl 40-50?", -- [1]
 			"Craftsman-Outland", -- [2]
@@ -869,7 +602,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cCraftsman|r",
 			[51] = 1612378015,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
+		}, -- [27]
 		{
 			" WTS |cffa335ee|Hitem:184790::::::::60:261:::::::|h[Archdruid Van-Yali's Greenthumbs]|h|r", -- [1]
 			"Nightninja-Outland", -- [2]
@@ -891,7 +624,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Nightninja|r",
 			[51] = 1612378019,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
+		}, -- [28]
 		{
 			"Wts torghast boost 1-8  , Wts M+(1-15), WTS SL keystone Master", -- [1]
 			"Elishaa-Outland", -- [2]
@@ -913,7 +646,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cElishaa|r",
 			[51] = 1612378047,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
+		}, -- [29]
 		{
 			"WTS  < Mythic+1-15  Dungeons >  <Special offer for World Tour >  <torghast layer 1-8> ready every 30mins<[Castle Nathria] hc  raid rdy 20 servertime >  fair price fast runs /w for more info ( gold only)", -- [1]
 			"Vedii-Outland", -- [2]
@@ -935,7 +668,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cVedii|r",
 			[51] = 1612378055,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
+		}, -- [30]
 		{
 			"WTS |cffa335ee|Hitem:184790::::::::60:261:::::::|h[Archdruid Van-Yali's Greenthumbs]|h|r", -- [1]
 			"Nightninja-Outland", -- [2]
@@ -957,7 +690,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Nightninja|r",
 			[51] = 1612378071,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
+		}, -- [31]
 		{
 			"wtt 200k from outland to stormscale horde", -- [1]
 			"Aristarxos-Outland", -- [2]
@@ -979,7 +712,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaAristarxos|r",
 			[51] = 1612378080,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
+		}, -- [32]
 		{
 			"<RCU Community> WTS Mythic Keystone 2-15 / Torghast All Layer / Raid Full Run or Specific Boss HC-Mythic Only With Gold /W Me For More Info", -- [1]
 			"Angelbloody-Outland", -- [2]
@@ -1001,7 +734,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Angelbloody|r",
 			[51] = 1612378094,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [33]
 		{
 			"wtb |cffffff00|Hachievement:2091:Player-1301-0648C2D0:1:12:10:18:0:0:0:0|h[Gladiator]|h|r", -- [1]
 			"Rhan-Outland", -- [2]
@@ -1023,7 +756,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rhan|r",
 			[51] = 1612378831,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
+		}, -- [34]
 		{
 			"<NOVA> offers [M10 - 79k][M12 - 99k] [M14 135k] [M15 230k][KeyStone Master 1600k] [Torghast - Layers 1-8] Heroic Castle Nathria 340k ,Personal Trader 140k! Sire Denath 110k ||PVP Arena RBG|| Bulk Discount For Muli Runs. /w for more info!", -- [1]
 			"Hestyas-Outland", -- [2]
@@ -1045,7 +778,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Hestyas|r",
 			[51] = 1616940496,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
+		}, -- [35]
 		{
 			" Selling  Key 10=60k --12= 90k -- 14  =110k   - 15= 150K  Boost Pvp Arena And RBG       boost lvlup 50-60 under 4h---   WTS farm    -- Boost  Keystone master   only 1500k gold and 100% guarantee ... Whisper Me For More Info\\", -- [1]
 			"Akcent-Outland", -- [2]
@@ -1067,7 +800,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Akcent|r",
 			[51] = 1616940505,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [36]
 		{
 			"<NOVA> Selling CN - Castle Nathria 10/10HC  For Only 350k PER Trader for Only 150k / ( Mythic Bosses With Discounts   || Sire 110k ||  Also Selling M + 0 - 18+ / M+10 79k / M+12 99k / M+14 135k / M+15 230k || KeystoneMaster 1600k /w For More Info !", -- [1]
 			"Dreamymonk-Outland", -- [2]
@@ -1089,7 +822,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dreamymonk|r",
 			[51] = 1616940515,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+		}, -- [37]
 		{
 			"<Nova> Selling Boost  M+10=79k / M+14=135k / M+15= 230k /Keystone Master 1.6M /2 run 5%  discount or Stack armor FREE / Selling CASTLE NATHRIA Full HC 350k and per Stack Armor 150k /Curve 110k / Raid Mythic full clear /Torghast Boost /w for info", -- [1]
 			"Nbcboosterr-Outland", -- [2]
@@ -1111,7 +844,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaNbcboosterr|r",
 			[51] = 1616940532,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
+		}, -- [38]
 		{
 			"<RCU> We are selling M+10 to 20, guaranteed intime,  Armorstacks and specific keys available We're also offering |cff66bbff|Hjournal:0:1190:16|h[Castle Nathria]|h|r] Hc&Mythic, Torghast and Mounts or Legacy! Only accepting gold. /W me :)", -- [1]
 			"Smooklover-Outland", -- [2]
@@ -1133,7 +866,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Smooklover|r",
 			[51] = 1616940534,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
+		}, -- [39]
 		{
 			"NOVA is selling HEROIC RAID 350K,150K for trader|| CURVE100k||Mythic raid|| M+DEALS (M+10-79k)(M+12-99K)(M+14-120k out of time,135k in time)(M+15-190k out of time,230k in time|| KSM 1600k|| Thorgast||PVP|| /w for info, Only Golds", -- [1]
 			"Yunacla-Outland", -- [2]
@@ -1155,7 +888,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeYunacla|r",
 			[51] = 1616940541,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [40]
 		{
 			"Selling  Key 10=60k --12= 90k -- 14  =110k   - 15= 150K  Boost Pvp Arena And RBG       boost lvlup 50-60 under 4h---   WTS farm    -- Boost  Keystone master   only 1500k gold and 100% guarantee ... Whisper Me For More Info\\", -- [1]
 			"Akcent-Outland", -- [2]
@@ -1177,7 +910,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Akcent|r",
 			[51] = 1616940608,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [41]
 		{
 			"<NOVA> offers [M10 - 79k][M12 - 99k] [M14 135k] [M15 230k][KeyStone Master 1600k] [Torghast - Layers 1-8] Heroic Castle Nathria 340k ,Personal Trader 140k! Sire Denath 110k ||PVP Arena RBG|| Bulk Discount For Muli Runs. /w for more info!", -- [1]
 			"Hestyas-Outland", -- [2]
@@ -1199,7 +932,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Hestyas|r",
 			[51] = 1616940634,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [42]
 		{
 			"WTS Castle 10/10 Heroic/Normal*** Torghast: normal and Twisting Corridors*** SL Keystone Master Season 1; Glory of the Nathria Raider: Honor and Conquest in PVP;", -- [1]
 			"Tegalio-Outland", -- [2]
@@ -1221,7 +954,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Tegalio|r",
 			[51] = 1616940635,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [43]
 		{
 			"<RCU> We are selling M+10 to 20, guaranteed intime,  Armorstacks and specific keys available We're also offering |cff66bbff|Hjournal:0:1190:16|h[Castle Nathria]|h|r] Hc&Mythic, Torghast and Mounts or Legacy! Only accepting gold. /W me :)", -- [1]
 			"Smooklover-Outland", -- [2]
@@ -1243,7 +976,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Smooklover|r",
 			[51] = 1616940674,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
+		}, -- [44]
 		{
 			"<RCU> [WTS] |cff66bbff|Hjournal:1:2424:16|h[Sire Denathrius]|h|r HC 90k  each 20 minutes for GOLD! Get 220 ilvl Loot and |cffffff00|Hachievement:14460:Player-1301-0BD943C8:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sire Denathrius]|h|r /w me for more info, or visit us in https://discord.gg/RCU !", -- [1]
 			"Smooklover-Outland", -- [2]
@@ -1265,7 +998,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Smooklover|r",
 			[51] = 1617130590,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
+		}, -- [45]
 		{
 			"<NOVA>  / keystone master 1600k /<m10=79k >/ <m+12 = 99k>/<m+14=135k>/<m+15=230>/ can armor stack and special key / multi run disscount>  WTS Castle Nathria << 10/10 heroic ><VIP trader>", -- [1]
 			"Khadgari-Outland", -- [2]
@@ -1287,7 +1020,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cKhadgari|r",
 			[51] = 1617130590,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [46]
 		{
 			"hauntzzer i think you made boxici mad", -- [1]
 			"Tommyshelby-Outland", -- [2]
@@ -1309,7 +1042,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaTommyshelby|r",
 			[51] = 1617277705,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [47]
 		{
 			"haha yea", -- [1]
 			"Hauntzzer-Outland", -- [2]
@@ -1331,7 +1064,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHauntzzer|r",
 			[51] = 1617277745,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [48]
 		{
 			"xDD", -- [1]
 			"Tommyshelby-Outland", -- [2]
@@ -1353,7 +1086,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaTommyshelby|r",
 			[51] = 1617277760,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [49]
 		{
 			"WTS Castle 10/10 Heroic/Normal*** Torghast: normal and Twisting Corridors*** SL Keystone Master Season 1; Glory of the Nathria Raider: Honor and Conquest in PVP;", -- [1]
 			"Tegalio-Outland", -- [2]
@@ -1375,7 +1108,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Tegalio|r",
 			[51] = 1617277771,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [50]
 		{
 			"get in AH guys this bot is putting tons of his potion for loss in gold", -- [1]
 			"Hauntzzer-Outland", -- [2]
@@ -1397,7 +1130,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHauntzzer|r",
 			[51] = 1617277778,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [51]
 		{
 			"i swear that guy is a bot  too", -- [1]
 			"Tommyshelby-Outland", -- [2]
@@ -1419,7 +1152,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaTommyshelby|r",
 			[51] = 1617277788,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [52]
 		{
 			"haha", -- [1]
 			"Hauntzzer-Outland", -- [2]
@@ -1441,7 +1174,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHauntzzer|r",
 			[51] = 1617277795,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [53]
 		{
 			"no for real", -- [1]
 			"Tommyshelby-Outland", -- [2]
@@ -1463,7 +1196,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaTommyshelby|r",
 			[51] = 1617277812,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [54]
 		{
 			"Lfm for RBg 2300cr Premade group need Mele/tc /w ilvl/xp!", -- [1]
 			"Zionsfall-Outland", -- [2]
@@ -1485,7 +1218,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Zionsfall|r",
 			[51] = 1617277815,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [55]
 		{
 			"Hauntzzer just added his BOE for 10k instead of 100k THANKS ;)", -- [1]
 			"Mátty-Outland", -- [2]
@@ -1507,7 +1240,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Mátty|r",
 			[51] = 1617277817,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [56]
 		{
 			"<NOVA> Selling CN - Castle Nathria 10/10HC  For Only 350k PER Trader for Only 150k / ( Mythic Bosses With Discounts   || Sire 110k ||  Also Selling M + 0 - 18+ / M+10 79k / M+12 99k / M+14 129k / M+15 225k || KeystoneMaster 1600k /w For More Info !", -- [1]
 			"Dreamymonk-Outland", -- [2]
@@ -1529,7 +1262,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dreamymonk|r",
 			[51] = 1617277832,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [57]
 		{
 			"he literally cancells and relists withing seconds", -- [1]
 			"Tommyshelby-Outland", -- [2]
@@ -1551,7 +1284,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaTommyshelby|r",
 			[51] = 1617277833,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [58]
 		{
 			"yea", -- [1]
 			"Hauntzzer-Outland", -- [2]
@@ -1573,7 +1306,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHauntzzer|r",
 			[51] = 1617277849,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [59]
 		{
 			"HAHAHA what boe lol", -- [1]
 			"Hauntzzer-Outland", -- [2]
@@ -1595,7 +1328,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHauntzzer|r",
 			[51] = 1617277864,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [60]
 		{
 			"have fun competing with boxici :P", -- [1]
 			"Tommyshelby-Outland", -- [2]
@@ -1617,7 +1350,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaTommyshelby|r",
 			[51] = 1617277871,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [61]
 		{
 			"Lfm for RBg 2300cr Premade group need Mele/tc /w ilvl/xp!", -- [1]
 			"Zionsfall-Outland", -- [2]
@@ -1639,7 +1372,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Zionsfall|r",
 			[51] = 1617277875,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [62]
 		{
 			"not a  competition really", -- [1]
 			"Hauntzzer-Outland", -- [2]
@@ -1661,7 +1394,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHauntzzer|r",
 			[51] = 1617277879,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [63]
 		{
 			"im 100% profit", -- [1]
 			"Hauntzzer-Outland", -- [2]
@@ -1683,7 +1416,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHauntzzer|r",
 			[51] = 1617277894,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [64]
 		{
 			"im just laughing at you 2 :')", -- [1]
 			"Tommyshelby-Outland", -- [2]
@@ -1705,7 +1438,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaTommyshelby|r",
 			[51] = 1617277908,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [65]
 		{
 			"xD", -- [1]
 			"Hauntzzer-Outland", -- [2]
@@ -1727,7 +1460,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHauntzzer|r",
 			[51] = 1617277922,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [66]
 		{
 			"<Disciples of Chaos> A newly formed guild looking for Raiders and Socials . We are aiming for running heroic raids & mythic+ /w for more info.", -- [1]
 			"Saaoo-Outland", -- [2]
@@ -1749,7 +1482,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Saaoo|r",
 			[51] = 1617628816,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [67]
 		{
 			"<Nova> WTS 10-10 [Castle Nathria]HC=330k & TRader+140k || Curv || M+(10-20) Shareloot & M+(10-15)+ARMORSTCK || M+10=79k || M+15=225k|| M+16=500k || M+17=730k || <KSM=1600k> || Torghast & lvl boost...W me for more :D", -- [1]
 			"Novamyth-Outland", -- [2]
@@ -1771,7 +1504,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Novamyth|r",
 			[51] = 1617628826,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [68]
 		{
 			"<Nova> Selling Boost  M+10=79k / M+14=125k / M+15= 220k /Keystone Master 1.58M /2 run 5%  discount or Stack armor FREE / Selling CASTLE NATHRIA Full HC 330k and per Stack Armor 140k /Curve 80k / Raid Mythic full clear /Torghast Boost /w for info", -- [1]
 			"Exoservices-Outland", -- [2]
@@ -1793,7 +1526,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaExoservices|r",
 			[51] = 1618149611,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [69]
 		{
 			"**NOVA** is OFFERING [KeystoneMaster for 1585K!] , M+15=183K weekly/220K Timed , M+14=113K weekly/125K Timed, 6x Buy 15% OFF+ Armor stack , Heroic Castle Nathria 330K ONLY! VIP Trader for 140K! Mythic CN 8.8Mil]! Rbg/arena ,Torghast. CURVE 80K./w me ", -- [1]
 			"Leoboost-Outland", -- [2]
@@ -1815,7 +1548,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Leoboost|r",
 			[51] = 1618149619,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [70]
 		{
 			"WTS 2v2 boost", -- [1]
 			"Hanik-Outland", -- [2]
@@ -1837,7 +1570,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHanik|r",
 			[51] = 1618149621,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [71]
 		{
 			"WTB |cffa335ee|Hitem:183035::::::::60:256::6:5:7187:6652:6935:1498:6646:1:28:753:::|h[Ardent Sunstar Signet]|h|r ", -- [1]
 			"Secretofmana-Outland", -- [2]
@@ -1859,7 +1592,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSecretofmana|r",
 			[51] = 1618149628,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [72]
 		{
 			"Raznos gi mog lok'bolar thok ", -- [1]
 			"Discopper-Kazzak", -- [2]
@@ -1881,7 +1614,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDiscopper-Kazzak|r",
 			[51] = 1624223704,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [85]
+		}, -- [73]
 		{
 			"WTS |cffffffff|Hitem:171415::::::::54:253::66:3:6758:7193:1532::::|h[Shadowghast Helm]|h|r 10k less than AH", -- [1]
 			"Skthree-Outland", -- [2]
@@ -1903,7 +1636,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Skthree|r",
 			[51] = 1624394803,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [74]
 		{
 			"<Icecrown> WTS Mythic 14= 100k|| Mythic 15= 145k! We offer package deals and armour stacks! 4x Mythic 14= 350k|| x4 Mythic 15= 500k! ! ! Keystone Master= 1100k! ! ! Heroic/Mythic CN||PVP||Torghast||Legacy content too! /w me for info", -- [1]
 			"Iccenz-Outland", -- [2]
@@ -1925,7 +1658,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaIccenz|r",
 			[51] = 1624394813,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [75]
 		{
 			"<NOVA>  Mega Sale ( Castle Nathria Only For 220k Vip Trader 110k ) /  +15  160k /  M+16 200k / M +17  300k  /  M+18  500k  / M+19 700k / +M20 900k /  Keystone Master 1140k / [ Torghast ] /w For More Info", -- [1]
 			"Novalovely-Outland", -- [2]
@@ -1947,7 +1680,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novalovely|r",
 			[51] = 1624539253,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [76]
 		{
 			"LF JC 10k tip", -- [1]
 			"Lynchéd-Outland", -- [2]
@@ -1969,7 +1702,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edLynchéd|r",
 			[51] = 1624963752,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [77]
 		{
 			"|cff71d5ff|Hspell:191034:0|h[Starfall]|h|r doesnt have a 15 sec CD ?", -- [1]
 			"Spectere-Outland", -- [2]
@@ -1991,7 +1724,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Spectere|r",
 			[51] = 1625054453,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [78]
 		{
 			"yo", -- [1]
 			"Spectere-Outland", -- [2]
@@ -2013,7 +1746,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Spectere|r",
 			[51] = 1625054497,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [79]
 		{
 			"I don't identify, the ego is the root of all suffering and the Buddha taught us the I is an illusion.", -- [1]
 			"Xalendir-Outland", -- [2]
@@ -2035,7 +1768,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Xalendir|r",
 			[51] = 1625142858,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [80]
 		{
 			"WTB All CSGO/Dota2/Rust/TF2/Steam Items for Classic/TBC/Retail Gold go to trade-raid.com", -- [1]
 			"Træderaid-Outland", -- [2]
@@ -2057,7 +1790,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcTræderaid|r",
 			[51] = 1625142902,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [81]
 		{
 			"<RCU> WTS (gold only): M+10-22 +15=165K +20=585K// SoD H & M // Tazavesh // Torghast // PvP (2v2/3v3/RBG) services /w me for info", -- [1]
 			"Jashinsama-Outland", -- [2]
@@ -2079,7 +1812,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Jashinsama|r",
 			[51] = 1634910941,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [82]
 		{
 			"WTB All CSGO/Dota2/Rust/TF2/Steam Items for TBC/Retail/New World Gold & WTT Gold Between TBC and Retail Servers (both ways) go to trade-raid.com", -- [1]
 			"Trâdesraids-Outland", -- [2]
@@ -2101,7 +1834,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcTrâdesraids|r",
 			[51] = 1634910972,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [83]
 		{
 			"<NOVA> OFFERING  HEROIC  |cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r 10/10  360k - 8/10 HC 306k / Sylvanas HC 72k / Kel'Thuzad HC 59k /Sylvanas+Kel  117k / M+14 135k / M+15 149k /M+16 202k /M+17 270k /M+18 360k / M19 540k /M+20 585k", -- [1]
 			"Novabostt-Outland", -- [2]
@@ -2123,7 +1856,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novabostt|r",
 			[51] = 1634911042,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [84]
 		{
 			"<<NOVA>>  Offering  10/10 Sod HC 360K Traders Avaible ||M+10=77k|| ||M+14=135k|| ||M+15=150k|| ||M+16=225K|| ||M+17=315K|| <<<  Weekly  +15 140k!  >>> Torghast And PVP 2s 3s  /w for More Info", -- [1]
 			"Novagamîng-Outland", -- [2]
@@ -2145,7 +1878,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novagamîng|r",
 			[51] = 1634911250,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [85]
 		{
 			"WTS Mythic+ 15-20 /lvling boost 50-60/ Torghast (layer 1-12) for gold /w me for info", -- [1]
 			"Peros-Outland", -- [2]
@@ -2167,7 +1900,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Peros|r",
 			[51] = 1637266322,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [86]
 		{
 			"wm is off?", -- [1]
 			"Крольчишка-ЧерныйШрам", -- [2]
@@ -2189,6 +1922,270 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaКрольчишка-ЧерныйШрам|r",
 			[51] = 1637341663,
 			[50] = "CHAT_MSG_RAID",
+		}, -- [87]
+		{
+			"<RCU> WTS |cffffff00|Hachievement:15126:Player-1301-0C1268D6:1:7:11:21:4294967295:4294967295:4294967295:4294967295|h[Sanctum of Domination]|h|r 10/10H Full clear TONIGHT! Full clear + 1 trader = 500K || Last 2 HC = 90K || M+15 = 120K || Torghast /w me to book a spot :)", -- [1]
+			"Bloodsheda-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Bloodsheda-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			35, -- [11]
+			"Player-1301-0C1268D6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaBloodsheda|r",
+			[51] = 1640007205,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [88]
+		{
+			"<NOVA> OFFERING HEROIC 10/10 |cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r  260k / M+15 120k (2x +15 210k ) / M+16 165k / M+17 210k /M+18 300k / M19 450k /M+20 520k/  M+21 650k / KSH 8/8  All +20 3600k/ KSM ( 16x +15 1700k ) Torghast / PVP", -- [1]
+			"Novabostt-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Novabostt-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			36, -- [11]
+			"Player-1301-0C0FC140", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Novabostt|r",
+			[51] = 1640007211,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [89]
+		{
+			"wts |cffffff00|Hachievement:5340:Player-1301-0C1D0B56:0:0:0:-1:0:0:0:0|h[Commander]|h|r |cffffff00|Hachievement:5337:Player-1301-0C1D0B56:0:0:0:-1:0:0:0:0|h[Knight-Captain]|h|r pvp boosting service any rating for rewards etc. /w me grp ready", -- [1]
+			"Xtsemeniu-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Xtsemeniu-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			39, -- [11]
+			"Player-1301-0C1D0B56", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cXtsemeniu|r",
+			[51] = 1640007242,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [90]
+		{
+			">Nova< Special OFFER 10/10 HC SoD 260k VIP trader 190k ||M+10=75k M+14=100k  M+15=110k M+16=165k M+18=300k M+20=520k KSM=1.7m KSH=3600k(all +20 intime) HM=190k ||lvlup 50-60 {Gold Only} /w <3", -- [1]
+			"Sunnylove-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Sunnylove-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			45, -- [11]
+			"Player-1301-0BD9E538", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Sunnylove|r",
+			[51] = 1640007278,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [91]
+		{
+			"<Nova> Selling || Legion M+15 = 185k || M+10 =75k / M+14 = 100k || M+15 = 120k intime - 110k not in time  || M+16 = 160k || M+ 18 = 290k || M+ 20 = 510k|| KSM = 1650k ||KSH = 3550k || Tazavesh  HM 190k || Raid  Heroic 250k||Torghast  /w for info", -- [1]
+			"Exovia-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Exovia-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			93, -- [11]
+			"Player-1301-0C0C1DD4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Exovia|r",
+			[51] = 1640104334,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"<O B C> Selling KT+Sylvanas HC now! Receive |cffffff00|Hachievement:15134:Player-1301-0C1E1F17:1:9:14:21:0:0:0:0|h[Ahead of the Curve: Sylvanas Windrunner]|h|r with the chance of 246 loot & |cffff8000|Hitem:186414::::::::10:1453:::::::::|h[Rae'shalare, Death's Whisper]|h|r for 40k KT, 60k Sylvanas or 90k for BOTH! Going every 20 mins, /w", -- [1]
+			"Renataa-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Renataa-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			99, -- [11]
+			"Player-1301-0C1E1F17", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Renataa|r",
+			[51] = 1640104345,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"|cffffff00Ironforge is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Ironforge", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Ironforge", -- [9]
+			0, -- [10]
+			101, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1640104350,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"No'ku zuggossh ", -- [1]
+			"Teenyy-TwistingNether", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Teenyy-TwistingNether", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			118, -- [11]
+			"Player-3674-09B5C18B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cTeenyy-TwistingNether|r",
+			[51] = 1640104598,
+			[50] = "CHAT_MSG_YELL",
+		}, -- [95]
+		{
+			"nogu throm regas ", -- [1]
+			"Thecleaner-Stormscale", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Thecleaner-Stormscale", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			119, -- [11]
+			"Player-2073-05D6AC62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Thecleaner-Stormscale|r",
+			[51] = 1640104618,
+			[50] = "CHAT_MSG_YELL",
+		}, -- [96]
+		{
+			"Throm Tov'nokaz kil no'ku kaz tago ", -- [1]
+			"Razkah-Nemesis", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Razkah-Nemesis", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			120, -- [11]
+			"Player-1316-0AAC86D7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Razkah-Nemesis|r",
+			[51] = 1640104643,
+			[50] = "CHAT_MSG_YELL",
+		}, -- [97]
+		{
+			"any IF portal?", -- [1]
+			"Raquieta-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Raquieta-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			124, -- [11]
+			"Player-3391-0B73DE05", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Raquieta-Silvermoon|r",
+			[51] = 1640104665,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [98]
+		{
+			"[RCU] WTS HC  |cffffff00|Hachievement:15126:Player-1301-0BFAA238:0:0:0:-1:0:0:0:0|h[Sanctum of Domination]|h|r  at 19:00 and 20:30 ST 10/10 PL [300k] 10/10+ 1xVIP + Lootroll [500k] 10/10+ 3xVIP + Lootroll [800k] Extra VIP's 180k 8/10 [220k] [M+15=120k] [4xM+15=410k] [M+20=500k]  /w for info", -- [1]
+			"Abcent-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Abcent-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			129, -- [11]
+			"Player-1301-0BFAA238", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Abcent|r",
+			[51] = 1640104688,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {

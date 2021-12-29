@@ -1,11 +1,4 @@
 Version: 1
-Frame: AllTheThings-Window-Prime
-FrameLevel: 1
-Anchor: CENTER
-X: 210
-Y: 189
-W: 425
-H: 305
 Frame: AllTheThings-Window-CurrentInstance
 FrameLevel: 1
 Anchor: LEFT
@@ -34,6 +27,13 @@ X: 0
 Y: 0
 W: 365
 H: 240
+Frame: AllTheThings-Window-Prime
+FrameLevel: 1
+Anchor: CENTER
+X: 210
+Y: 189
+W: 425
+H: 305
 Frame: AllTheThings-Window-Bounty
 FrameLevel: 1
 Anchor: CENTER
@@ -62,3 +62,10 @@ X: 0
 Y: 0
 W: 300
 H: 300
+Frame: AllTheThings-Window-AuctionData
+FrameLevel: 2
+Anchor: TOP
+X: 24
+Y: -126
+W: 300
+H: 518

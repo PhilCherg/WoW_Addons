@@ -1,15 +1,5 @@
 
 ElvCharacterDB = {
-	["ChatEditHistory"] = {
-		"/p how do we get to orgrimar?", -- [1]
-		"/s how do we get to orgrimar?", -- [2]
-		"/s where is the portal to orgrimar from here?", -- [3]
-		"/played", -- [4]
-		"/wa", -- [5]
-		"/timer", -- [6]
-		"/immersion", -- [7]
-		"/love", -- [8]
-	},
 	["ChatHistoryLog"] = {
 		{
 			"how do we get to orgrimar?", -- [1]
@@ -165,5 +155,38 @@ ElvCharacterDB = {
 			[51] = 1549229812,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [7]
+		{
+			"ho ho ho", -- [1]
+			"Zelty-Magtheridon", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Zelty-Magtheridon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			677, -- [11]
+			"Player-3681-0A9AA2F6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Zelty-Magtheridon|r",
+			[51] = 1640449877,
+			[50] = "CHAT_MSG_YELL",
+		}, -- [8]
 	},
+	["ChatEditHistory"] = {
+		"/played", -- [1]
+		"/love", -- [2]
+		"/immersion", -- [3]
+		"/p how do we get to orgrimar?", -- [4]
+		"/timer", -- [5]
+		"/wa", -- [6]
+		"/s where is the portal to orgrimar from here?", -- [7]
+		"/s how do we get to orgrimar?", -- [8]
+	},
+	["ConvertKeybindings"] = true,
 }

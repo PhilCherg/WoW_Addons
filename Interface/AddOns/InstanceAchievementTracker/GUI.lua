@@ -45,7 +45,7 @@ AchievementTrackerNPCCache = {}
 
 -- Purpose:         Information about the current release. This is mianly used to detect which addon should output messages to chat to avoid spam
 Config.majorVersion = 3						--Addon with a higher major version change have priority over a lower major version
-Config.minorVersion = 33    				--Addon with a minor version change have prioirty over a lower minor version
+Config.minorVersion = 34    				--Addon with a minor version change have prioirty over a lower minor version
 Config.revisionVersion = 0					--Addon with a revision change have the same priorty as a lower revision verison
 Config.releaseType = ""                     --Release type (Alpha, Beta, Release)
 
@@ -1108,6 +1108,15 @@ function deepdump( tbl )
     print("------------------")
 end
 
+function IAT_CheckForEscape(self, key)
+    if key == "ESCAPE" then
+        Config:Toggle()
+        UIConfig:SetPropagateKeyboardInput(false)
+    else
+        UIConfig:SetPropagateKeyboardInput(true)
+    end
+end
+
 -- Method:          Config:CreateGUI()
 -- What it Does:    Create the IAT main GUI tab
 -- Purpose:         This create the main GUI tab for IAT
@@ -1123,6 +1132,9 @@ function Config:CreateGUI()
     UIConfig:SetScript("OnDragStart", UIConfig.StartMoving)
     UIConfig:SetScript("OnDragStop", UIConfig.StopMovingOrSizing)
     UIConfig:SetFrameStrata("HIGH")
+
+    --Setup script to allow user to press esc to exit GUI
+    UIConfig:SetScript("OnKeyDown", IAT_CheckForEscape)
 
     --Title
     UIConfig.title = UIConfig:CreateFontString(nil, "OVERLAY", "GameFontHighlight")

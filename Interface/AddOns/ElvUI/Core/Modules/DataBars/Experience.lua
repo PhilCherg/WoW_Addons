@@ -2,7 +2,6 @@ local E, L, V, P, G = unpack(ElvUI)
 local DB = E:GetModule('DataBars')
 local LSM = E.Libs.LSM
 
-local _G = _G
 local error = error
 local type, pairs = type, pairs
 local min, format = min, format
@@ -11,12 +10,15 @@ local IsTrialAccount = IsTrialAccount
 local GetXPExhaustion = GetXPExhaustion
 local IsXPUserDisabled = IsXPUserDisabled
 local GetQuestLogRewardXP = GetQuestLogRewardXP
-local IsPlayerAtEffectiveMaxLevel = IsPlayerAtEffectiveMaxLevel
+local IsLevelAtEffectiveMaxLevel = IsLevelAtEffectiveMaxLevel
 local C_QuestLog_GetNumQuestLogEntries = C_QuestLog.GetNumQuestLogEntries
 local C_QuestLog_ReadyForTurnIn = C_QuestLog.ReadyForTurnIn
 local C_QuestLog_GetInfo = C_QuestLog.GetInfo
 local C_QuestLog_GetQuestWatchType = C_QuestLog.GetQuestWatchType
+local GetNumQuestLogEntries = GetNumQuestLogEntries
+local GetQuestLogTitle = GetQuestLogTitle
 local UnitXP, UnitXPMax = UnitXP, UnitXPMax
+local GameTooltip = GameTooltip
 
 local CurrentXP, XPToLevel, RestedXP, PercentRested
 local PercentXP, RemainXP, RemainTotal, RemainBars
@@ -27,20 +29,34 @@ local function hasDisabledXP()
 end
 
 local function isTrialMax()
-	return E.Retail and IsTrialAccount() and (E.myLevel ~= 20)
+	return E.Retail and IsTrialAccount() and (E.myLevel == 20)
 end
 
 function DB:ExperienceBar_CheckQuests(questID, completedOnly)
-	if not questID then return end
+	if E.Retail and questID then
+		local isCompleted = C_QuestLog_ReadyForTurnIn(questID)
+		if not completedOnly or isCompleted then
+			QuestLogXP = QuestLogXP + GetQuestLogRewardXP(questID)
+		end
+	elseif not E.Retail then
+		local currentZone = E.MapInfo.name
+		if not currentZone then return end
 
-	local isCompleted = C_QuestLog_ReadyForTurnIn(questID)
-	if not completedOnly or isCompleted then
-		QuestLogXP = QuestLogXP + GetQuestLogRewardXP(questID)
+		local bar = DB.StatusBars.Experience
+		local currentZoneCheck, isHeader, isComplete, name, _
+		for i = 1, GetNumQuestLogEntries() do
+			name, _, _, isHeader, _, isComplete, _, questID = GetQuestLogTitle(i)
+			if isHeader then
+				currentZoneCheck = bar.db.questCurrentZoneOnly and currentZone == name or not bar.db.questCurrentZoneOnly
+			elseif currentZoneCheck and (not completedOnly or isComplete == 1) then
+				QuestLogXP = QuestLogXP + GetQuestLogRewardXP(questID)
+			end
+		end
 	end
 end
 
 function DB:ExperienceBar_ShouldBeVisible()
-	return not IsPlayerAtEffectiveMaxLevel() and not hasDisabledXP() and not isTrialMax()
+	return not IsLevelAtEffectiveMaxLevel(E.mylevel) and not hasDisabledXP() and not isTrialMax()
 end
 
 local function RestedQuestLayering()
@@ -131,15 +147,21 @@ function DB:ExperienceBar_QuestXP()
 
 	QuestLogXP = 0
 
-	for i = 1, C_QuestLog_GetNumQuestLogEntries() do
-		local info = C_QuestLog_GetInfo(i)
-		if info and not info.isHidden then
-			local currentZoneCheck = (bar.db.questCurrentZoneOnly and info.isOnMap) or not bar.db.questCurrentZoneOnly
-			local trackedQuestCheck = (bar.db.questTrackedOnly and info.questID and C_QuestLog_GetQuestWatchType(info.questID)) or not bar.db.questTrackedOnly
-			if currentZoneCheck and trackedQuestCheck then
-				DB:ExperienceBar_CheckQuests(info.questID, bar.db.questCompletedOnly)
+	local currentZoneCheck, trackedQuestCheck
+
+	if E.Retail then
+		for i = 1, C_QuestLog_GetNumQuestLogEntries() do
+			local info = C_QuestLog_GetInfo(i)
+			if info and not info.isHidden then
+				currentZoneCheck = (bar.db.questCurrentZoneOnly and info.isOnMap) or not bar.db.questCurrentZoneOnly
+				trackedQuestCheck = (bar.db.questTrackedOnly and info.questID and C_QuestLog_GetQuestWatchType(info.questID)) or not bar.db.questTrackedOnly
+				if currentZoneCheck and trackedQuestCheck then
+					DB:ExperienceBar_CheckQuests(info.questID, bar.db.questCompletedOnly)
+				end
 			end
 		end
+	else
+		DB:ExperienceBar_CheckQuests(nil, bar.db.questCompletedOnly)
 	end
 
 	if bar.db.showQuestXP and QuestLogXP > 0 then
@@ -164,26 +186,26 @@ function DB:ExperienceBar_OnEnter()
 		E:UIFrameFadeIn(self, 0.4, self:GetAlpha(), 1)
 	end
 
-	if _G.GameTooltip:IsForbidden() or not DB:ExperienceBar_ShouldBeVisible() then return end
+	if GameTooltip:IsForbidden() or not DB:ExperienceBar_ShouldBeVisible() then return end
 
-	_G.GameTooltip:ClearLines()
-	_G.GameTooltip:SetOwner(self, 'ANCHOR_CURSOR')
+	GameTooltip:ClearLines()
+	GameTooltip:SetOwner(self, 'ANCHOR_CURSOR')
 
-	_G.GameTooltip:AddDoubleLine(L["Experience"], format('%s %d', L["Level"], E.mylevel))
-	_G.GameTooltip:AddLine(' ')
+	GameTooltip:AddDoubleLine(L["Experience"], format('%s %d', L["Level"], E.mylevel))
+	GameTooltip:AddLine(' ')
 
-	_G.GameTooltip:AddDoubleLine(L["XP:"], format(' %d / %d (%.2f%%)', CurrentXP, XPToLevel, PercentXP), 1, 1, 1)
-	_G.GameTooltip:AddDoubleLine(L["Remaining:"], format(' %s (%.2f%% - %d '..L["Bars"]..')', RemainXP, RemainTotal, RemainBars), 1, 1, 1)
+	GameTooltip:AddDoubleLine(L["XP:"], format(' %d / %d (%.2f%%)', CurrentXP, XPToLevel, PercentXP), 1, 1, 1)
+	GameTooltip:AddDoubleLine(L["Remaining:"], format(' %s (%.2f%% - %d '..L["Bars"]..')', RemainXP, RemainTotal, RemainBars), 1, 1, 1)
 
-	if E.Retail then
-		_G.GameTooltip:AddDoubleLine(L["Quest Log XP:"], format(' %d (%.2f%%)', QuestLogXP, (QuestLogXP / XPToLevel) * 100), 1, 1, 1)
+	if QuestLogXP and QuestLogXP > 0 then
+		GameTooltip:AddDoubleLine(L["Quest Log XP:"], format(' %d (%.2f%%)', QuestLogXP, (QuestLogXP / XPToLevel) * 100), 1, 1, 1)
 	end
 
 	if RestedXP and RestedXP > 0 then
-		_G.GameTooltip:AddDoubleLine(L["Rested:"], format('%d (%.2f%%)', RestedXP, PercentRested), 1, 1, 1)
+		GameTooltip:AddDoubleLine(L["Rested:"], format('%d (%.2f%%)', RestedXP, PercentRested), 1, 1, 1)
 	end
 
-	_G.GameTooltip:Show()
+	GameTooltip:Show()
 end
 
 function DB:ExperienceBar_OnClick() end
@@ -209,26 +231,26 @@ function DB:ExperienceBar_Toggle()
 	if bar.db.enable and not bar:ShouldHide() then
 		DB:RegisterEvent('PLAYER_XP_UPDATE', 'ExperienceBar_XPGain')
 		DB:RegisterEvent('UPDATE_EXHAUSTION', 'ExperienceBar_Update')
+		DB:RegisterEvent('QUEST_LOG_UPDATE', 'ExperienceBar_QuestXP')
+		DB:RegisterEvent('ZONE_CHANGED', 'ExperienceBar_QuestXP')
+		DB:RegisterEvent('ZONE_CHANGED_NEW_AREA', 'ExperienceBar_QuestXP')
 
 		if E.Retail then
-			DB:RegisterEvent('QUEST_LOG_UPDATE', 'ExperienceBar_QuestXP')
-			DB:RegisterEvent('ZONE_CHANGED', 'ExperienceBar_QuestXP')
-			DB:RegisterEvent('ZONE_CHANGED_NEW_AREA', 'ExperienceBar_QuestXP')
 			DB:RegisterEvent('SUPER_TRACKING_CHANGED', 'ExperienceBar_QuestXP')
 		end
+
+		DB:ExperienceBar_Update()
 	else
 		DB:UnregisterEvent('PLAYER_XP_UPDATE')
 		DB:UnregisterEvent('UPDATE_EXHAUSTION')
+		DB:UnregisterEvent('QUEST_LOG_UPDATE')
+		DB:UnregisterEvent('ZONE_CHANGED')
+		DB:UnregisterEvent('ZONE_CHANGED_NEW_AREA')
 
 		if E.Retail then
-			DB:UnregisterEvent('QUEST_LOG_UPDATE')
-			DB:UnregisterEvent('ZONE_CHANGED')
-			DB:UnregisterEvent('ZONE_CHANGED_NEW_AREA')
 			DB:UnregisterEvent('SUPER_TRACKING_CHANGED')
 		end
 	end
-
-	DB:ExperienceBar_Update()
 end
 
 function DB:ExperienceBar()

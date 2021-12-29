@@ -1,10 +1,40 @@
 
 HandyNotes_StygiaDB = {
 	["profileKeys"] = {
+		["Mallazin - Azjol-Nerub"] = "Mallazin - Azjol-Nerub",
+		["Feastfour - Outland"] = "Feastfour - Outland",
+		["Feastyone - Outland"] = "Feastyone - Outland",
+		["Nibirus - Azjol-Nerub"] = "Nibirus - Azjol-Nerub",
+		["Feattwo - Outland"] = "Feattwo - Outland",
+		["Käguya - Turalyon"] = "Käguya - Turalyon",
+		["Bankeristor - Outland"] = "Bankeristor - Outland",
+		["Phalonius - Azjol-Nerub"] = "Phalonius - Azjol-Nerub",
+		["Feastone - Outland"] = "Feastone - Outland",
 		["Necrophagus - Outland"] = "Necrophagus - Outland",
+		["Feastthree - Outland"] = "Feastthree - Outland",
 	},
 	["profiles"] = {
+		["Mallazin - Azjol-Nerub"] = {
+		},
+		["Feastfour - Outland"] = {
+		},
+		["Feastyone - Outland"] = {
+		},
+		["Nibirus - Azjol-Nerub"] = {
+		},
+		["Feattwo - Outland"] = {
+		},
+		["Käguya - Turalyon"] = {
+		},
+		["Bankeristor - Outland"] = {
+		},
+		["Phalonius - Azjol-Nerub"] = {
+		},
+		["Feastone - Outland"] = {
+		},
 		["Necrophagus - Outland"] = {
+		},
+		["Feastthree - Outland"] = {
 		},
 	},
 }
