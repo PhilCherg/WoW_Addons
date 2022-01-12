@@ -6,13 +6,6 @@ X: 0
 Y: 179
 W: 414
 H: 156
-Frame: GladiusButtonFramearena1
-FrameLevel: 1
-Anchor: RIGHT
-X: -302
-Y: 12
-W: 160
-H: 52
 Frame: ObjectiveTrackerFrame
 FrameLevel: 1
 Anchor: RIGHT

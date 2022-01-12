@@ -261,3 +261,4 @@ AstralKeys: disabled
 HandyNotes_Stygia: disabled
 PremadeGroupsFilter: disabled
 BetterWardrobe: disabled
+Playtime: enabled

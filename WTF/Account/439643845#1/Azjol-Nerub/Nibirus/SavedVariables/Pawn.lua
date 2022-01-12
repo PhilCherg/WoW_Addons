@@ -24,6 +24,11 @@ PawnOptions = {
 			["Level"] = 2,
 			["Link"] = "|cffffffff|Hitem:2385::::::::4:253::14:::::::|h[Tarnished Chain Gloves]|h|r",
 		},
+		[9] = {
+			["ID"] = 131891,
+			["Level"] = 2,
+			["Link"] = "|cffffffff|Hitem:131891::::::::4:253::11:::::::|h[Grik'nir's Warming Bands]|h|r",
+		},
 		[16] = {
 			["ID"] = 12446,
 			["Level"] = 2,
@@ -33,11 +38,6 @@ PawnOptions = {
 			["ID"] = 2379,
 			["Level"] = 2,
 			["Link"] = "|cffffffff|Hitem:2379::::::::4:253::14:::::::|h[Tarnished Chain Vest]|h|r",
-		},
-		[9] = {
-			["ID"] = 131891,
-			["Level"] = 2,
-			["Link"] = "|cffffffff|Hitem:131891::::::::4:253::11:::::::|h[Grik'nir's Warming Bands]|h|r",
 		},
 	},
 	["LastKeybindingsSet"] = 1,

@@ -15,6 +15,7 @@ HandyNotesDB = {
 		["Moneyseven - Outland"] = "Moneyseven - Outland",
 		["Feattwo - Outland"] = "Feattwo - Outland",
 		["Destruxia - Outland"] = "Destruxia - Outland",
+		["Wolfados - Azjol-Nerub"] = "Wolfados - Azjol-Nerub",
 		["Luminaxia - Outland"] = "Luminaxia - Outland",
 		["Mallazin - Azjol-Nerub"] = "Mallazin - Azjol-Nerub",
 		["Barbaxius - Outland"] = "Barbaxius - Outland",
@@ -22,27 +23,29 @@ HandyNotesDB = {
 		["Xanthoros - Outland"] = "Xanthoros - Outland",
 		["Phaltraxion - Outland"] = "Phaltraxion - Outland",
 		["Feastthree - Outland"] = "Feastthree - Outland",
-		["Asdfsadfsadf - Outland"] = "Asdfsadfsadf - Outland",
 		["Nibirus - Azjol-Nerub"] = "Nibirus - Azjol-Nerub",
 		["Presentone - Outland"] = "Presentone - Outland",
-		["Feastfour - Outland"] = "Feastfour - Outland",
+		["Asdfsadfsadf - Outland"] = "Asdfsadfsadf - Outland",
+		["Käguya - Turalyon"] = "Käguya - Turalyon",
 		["Moneythree - Outland"] = "Moneythree - Outland",
+		["Phalonius - Azjol-Nerub"] = "Phalonius - Azjol-Nerub",
+		["Moneyeight - Outland"] = "Moneyeight - Outland",
 		["Feastfive - Outland"] = "Feastfive - Outland",
 		["Bankeristor - Outland"] = "Bankeristor - Outland",
-		["Necrophagus - Outland"] = "Necrophagus - Outland",
-		["Moneyeight - Outland"] = "Moneyeight - Outland",
 		["Asdqaweqwd - Outland"] = "Asdqaweqwd - Outland",
-		["Moneymakerii - Outland"] = "Moneymakerii - Outland",
+		["Necrophagus - Outland"] = "Necrophagus - Outland",
 		["Asdawdwd - Outland"] = "Asdawdwd - Outland",
 		["Asdsaasdf - Outland"] = "Asdsaasdf - Outland",
+		["Moneymakerii - Outland"] = "Moneymakerii - Outland",
+		["Adsfasdfasdf - Outland"] = "Adsfasdfasdf - Outland",
 		["Aasdfasdfd - Outland"] = "Aasdfasdfd - Outland",
 		["Illyana - Outland"] = "Illyana - Outland",
-		["Adsfasdfasdf - Outland"] = "Adsfasdfasdf - Outland",
+		["Feastfour - Outland"] = "Feastfour - Outland",
 		["Chernakotka - Die Aldor"] = "Chernakotka - Die Aldor",
 		["Moneyfour - Outland"] = "Moneyfour - Outland",
 		["Serthaxion - Outland"] = "Serthaxion - Outland",
-		["Phalonius - Azjol-Nerub"] = "Phalonius - Azjol-Nerub",
-		["Käguya - Turalyon"] = "Käguya - Turalyon",
+		["Illydaria - Draenor"] = "Illydaria - Draenor",
+		["Bullenic - Silvermoon"] = "Bullenic - Silvermoon",
 		["Elementior - Outland"] = "Elementior - Outland",
 	},
 	["profiles"] = {
@@ -74,6 +77,8 @@ HandyNotesDB = {
 		},
 		["Destruxia - Outland"] = {
 		},
+		["Wolfados - Azjol-Nerub"] = {
+		},
 		["Luminaxia - Outland"] = {
 		},
 		["Mallazin - Azjol-Nerub"] = {
@@ -88,37 +93,41 @@ HandyNotesDB = {
 		},
 		["Feastthree - Outland"] = {
 		},
-		["Asdfsadfsadf - Outland"] = {
-		},
 		["Nibirus - Azjol-Nerub"] = {
 		},
 		["Presentone - Outland"] = {
 		},
-		["Feastfour - Outland"] = {
+		["Asdfsadfsadf - Outland"] = {
+		},
+		["Käguya - Turalyon"] = {
 		},
 		["Moneythree - Outland"] = {
+		},
+		["Phalonius - Azjol-Nerub"] = {
+		},
+		["Moneyeight - Outland"] = {
 		},
 		["Feastfive - Outland"] = {
 		},
 		["Bankeristor - Outland"] = {
 		},
-		["Necrophagus - Outland"] = {
-		},
-		["Moneyeight - Outland"] = {
-		},
 		["Asdqaweqwd - Outland"] = {
 		},
-		["Moneymakerii - Outland"] = {
+		["Necrophagus - Outland"] = {
 		},
 		["Asdawdwd - Outland"] = {
 		},
 		["Asdsaasdf - Outland"] = {
 		},
+		["Moneymakerii - Outland"] = {
+		},
+		["Adsfasdfasdf - Outland"] = {
+		},
 		["Aasdfasdfd - Outland"] = {
 		},
 		["Illyana - Outland"] = {
 		},
-		["Adsfasdfasdf - Outland"] = {
+		["Feastfour - Outland"] = {
 		},
 		["Chernakotka - Die Aldor"] = {
 		},
@@ -126,9 +135,9 @@ HandyNotesDB = {
 		},
 		["Serthaxion - Outland"] = {
 		},
-		["Phalonius - Azjol-Nerub"] = {
+		["Illydaria - Draenor"] = {
 		},
-		["Käguya - Turalyon"] = {
+		["Bullenic - Silvermoon"] = {
 		},
 		["Elementior - Outland"] = {
 		},
@@ -150,6 +159,7 @@ HandyNotes_HandyNotesDB = {
 		["Moneyseven - Outland"] = "Moneyseven - Outland",
 		["Feattwo - Outland"] = "Feattwo - Outland",
 		["Destruxia - Outland"] = "Destruxia - Outland",
+		["Wolfados - Azjol-Nerub"] = "Wolfados - Azjol-Nerub",
 		["Luminaxia - Outland"] = "Luminaxia - Outland",
 		["Mallazin - Azjol-Nerub"] = "Mallazin - Azjol-Nerub",
 		["Barbaxius - Outland"] = "Barbaxius - Outland",
@@ -157,27 +167,29 @@ HandyNotes_HandyNotesDB = {
 		["Xanthoros - Outland"] = "Xanthoros - Outland",
 		["Phaltraxion - Outland"] = "Phaltraxion - Outland",
 		["Feastthree - Outland"] = "Feastthree - Outland",
-		["Asdfsadfsadf - Outland"] = "Asdfsadfsadf - Outland",
 		["Nibirus - Azjol-Nerub"] = "Nibirus - Azjol-Nerub",
 		["Presentone - Outland"] = "Presentone - Outland",
-		["Feastfour - Outland"] = "Feastfour - Outland",
+		["Asdfsadfsadf - Outland"] = "Asdfsadfsadf - Outland",
+		["Käguya - Turalyon"] = "Käguya - Turalyon",
 		["Moneythree - Outland"] = "Moneythree - Outland",
+		["Phalonius - Azjol-Nerub"] = "Phalonius - Azjol-Nerub",
+		["Moneyeight - Outland"] = "Moneyeight - Outland",
 		["Feastfive - Outland"] = "Feastfive - Outland",
 		["Bankeristor - Outland"] = "Bankeristor - Outland",
-		["Necrophagus - Outland"] = "Necrophagus - Outland",
-		["Moneyeight - Outland"] = "Moneyeight - Outland",
 		["Asdqaweqwd - Outland"] = "Asdqaweqwd - Outland",
-		["Moneymakerii - Outland"] = "Moneymakerii - Outland",
+		["Necrophagus - Outland"] = "Necrophagus - Outland",
 		["Asdawdwd - Outland"] = "Asdawdwd - Outland",
 		["Asdsaasdf - Outland"] = "Asdsaasdf - Outland",
+		["Moneymakerii - Outland"] = "Moneymakerii - Outland",
+		["Adsfasdfasdf - Outland"] = "Adsfasdfasdf - Outland",
 		["Aasdfasdfd - Outland"] = "Aasdfasdfd - Outland",
 		["Illyana - Outland"] = "Illyana - Outland",
-		["Adsfasdfasdf - Outland"] = "Adsfasdfasdf - Outland",
+		["Feastfour - Outland"] = "Feastfour - Outland",
 		["Chernakotka - Die Aldor"] = "Chernakotka - Die Aldor",
 		["Moneyfour - Outland"] = "Moneyfour - Outland",
 		["Serthaxion - Outland"] = "Serthaxion - Outland",
-		["Phalonius - Azjol-Nerub"] = "Phalonius - Azjol-Nerub",
-		["Käguya - Turalyon"] = "Käguya - Turalyon",
+		["Illydaria - Draenor"] = "Illydaria - Draenor",
+		["Bullenic - Silvermoon"] = "Bullenic - Silvermoon",
 		["Elementior - Outland"] = "Elementior - Outland",
 	},
 	["profiles"] = {
@@ -209,6 +221,8 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Destruxia - Outland"] = {
 		},
+		["Wolfados - Azjol-Nerub"] = {
+		},
 		["Luminaxia - Outland"] = {
 		},
 		["Mallazin - Azjol-Nerub"] = {
@@ -223,37 +237,41 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Feastthree - Outland"] = {
 		},
-		["Asdfsadfsadf - Outland"] = {
-		},
 		["Nibirus - Azjol-Nerub"] = {
 		},
 		["Presentone - Outland"] = {
 		},
-		["Feastfour - Outland"] = {
+		["Asdfsadfsadf - Outland"] = {
+		},
+		["Käguya - Turalyon"] = {
 		},
 		["Moneythree - Outland"] = {
+		},
+		["Phalonius - Azjol-Nerub"] = {
+		},
+		["Moneyeight - Outland"] = {
 		},
 		["Feastfive - Outland"] = {
 		},
 		["Bankeristor - Outland"] = {
 		},
-		["Necrophagus - Outland"] = {
-		},
-		["Moneyeight - Outland"] = {
-		},
 		["Asdqaweqwd - Outland"] = {
 		},
-		["Moneymakerii - Outland"] = {
+		["Necrophagus - Outland"] = {
 		},
 		["Asdawdwd - Outland"] = {
 		},
 		["Asdsaasdf - Outland"] = {
 		},
+		["Moneymakerii - Outland"] = {
+		},
+		["Adsfasdfasdf - Outland"] = {
+		},
 		["Aasdfasdfd - Outland"] = {
 		},
 		["Illyana - Outland"] = {
 		},
-		["Adsfasdfasdf - Outland"] = {
+		["Feastfour - Outland"] = {
 		},
 		["Chernakotka - Die Aldor"] = {
 		},
@@ -261,9 +279,9 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Serthaxion - Outland"] = {
 		},
-		["Phalonius - Azjol-Nerub"] = {
+		["Illydaria - Draenor"] = {
 		},
-		["Käguya - Turalyon"] = {
+		["Bullenic - Silvermoon"] = {
 		},
 		["Elementior - Outland"] = {
 		},

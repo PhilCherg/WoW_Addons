@@ -1,0 +1,12 @@
+## Interface: 80300
+## X-Min-Interface: 80000
+## Author: Steven Troughton-Smith
+## Title: Playtime
+## Notes: Track time played for all characters
+## Version: 3
+## X-Curse-Packaged-Version: 3
+## X-Curse-Project-Name: Playtime
+
+## SavedVariables: PlaytimeDB
+
+Playtime.lua

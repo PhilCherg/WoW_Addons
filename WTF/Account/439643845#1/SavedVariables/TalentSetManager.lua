@@ -17,6 +17,21 @@ TalentSetManager_Options = {
 	["ldb_last_selected"] = "talents",
 }
 TalentSetManager_CharacterSaves = {
+	["Bullenic-Silvermoon"] = {
+		["talents_pvp"] = {
+		},
+		["talents"] = {
+			[2] = {
+			},
+		},
+		["version"] = 0,
+		["interface"] = {
+			["auto_equip2"] = 0,
+			["auto_equip4"] = 0,
+			["auto_equip1"] = 0,
+			["auto_equip3"] = 0,
+		},
+	},
 	["Illyana-Outland"] = {
 		["talents"] = {
 			{
@@ -45,6 +60,36 @@ TalentSetManager_CharacterSaves = {
 		["interface"] = {
 			["auto_equip4"] = 0,
 			["auto_equip2"] = 0,
+			["auto_equip1"] = 0,
+			["auto_equip3"] = 0,
+		},
+	},
+	["Illydaria-Draenor"] = {
+		["talents_pvp"] = {
+		},
+		["talents"] = {
+			[5] = {
+			},
+		},
+		["version"] = 0,
+		["interface"] = {
+			["auto_equip2"] = 0,
+			["auto_equip4"] = 0,
+			["auto_equip1"] = 0,
+			["auto_equip3"] = 0,
+		},
+	},
+	["Feastyone-Outland"] = {
+		["talents_pvp"] = {
+		},
+		["talents"] = {
+			[3] = {
+			},
+		},
+		["version"] = 0,
+		["interface"] = {
+			["auto_equip2"] = 0,
+			["auto_equip4"] = 0,
 			["auto_equip1"] = 0,
 			["auto_equip3"] = 0,
 		},
@@ -139,7 +184,7 @@ TalentSetManager_CharacterSaves = {
 			["auto_equip3"] = 0,
 		},
 	},
-	["Feastyone-Outland"] = {
+	["Asdsaasdf-Outland"] = {
 		["talents_pvp"] = {
 		},
 		["talents"] = {
@@ -154,7 +199,7 @@ TalentSetManager_CharacterSaves = {
 			["auto_equip3"] = 0,
 		},
 	},
-	["Asdsaasdf-Outland"] = {
+	["Chernakotka-Die Aldor"] = {
 		["talents_pvp"] = {
 		},
 		["talents"] = {
@@ -199,12 +244,12 @@ TalentSetManager_CharacterSaves = {
 			["auto_equip3"] = 0,
 		},
 	},
-	["Chernakotka-Die Aldor"] = {
+	["Wolfados-Azjol-Nerub"] = {
 		["talents_pvp"] = {
 		},
 		["talents"] = {
-			[3] = {
-			},
+			{
+			}, -- [1]
 		},
 		["version"] = 0,
 		["interface"] = {
@@ -246,17 +291,17 @@ TalentSetManager_CharacterSaves = {
 			["auto_equip3"] = 0,
 		},
 	},
-	["Lianxia-Draenor"] = {
-		["talents_pvp"] = {
-		},
+	["Feastthree-Outland"] = {
 		["talents"] = {
-			[2] = {
+			[3] = {
 			},
+		},
+		["talents_pvp"] = {
 		},
 		["version"] = 0,
 		["interface"] = {
-			["auto_equip2"] = 0,
 			["auto_equip4"] = 0,
+			["auto_equip2"] = 0,
 			["auto_equip1"] = 0,
 			["auto_equip3"] = 0,
 		},
@@ -327,19 +372,17 @@ TalentSetManager_CharacterSaves = {
 			["auto_equip3"] = 0,
 		},
 	},
-	["Shadroxia-Outland"] = {
-		["talents_pvp"] = {
-		},
+	["Elementior-Outland"] = {
 		["talents"] = {
-			{
-			}, -- [1]
-			{
-			}, -- [2]
+			[2] = {
+			},
+		},
+		["talents_pvp"] = {
 		},
 		["version"] = 0,
 		["interface"] = {
-			["auto_equip2"] = 0,
 			["auto_equip4"] = 0,
+			["auto_equip2"] = 0,
 			["auto_equip1"] = 0,
 			["auto_equip3"] = 0,
 		},
@@ -414,21 +457,6 @@ TalentSetManager_CharacterSaves = {
 			["auto_equip3"] = 0,
 		},
 	},
-	["Feastthree-Outland"] = {
-		["talents"] = {
-			[3] = {
-			},
-		},
-		["talents_pvp"] = {
-		},
-		["version"] = 0,
-		["interface"] = {
-			["auto_equip4"] = 0,
-			["auto_equip2"] = 0,
-			["auto_equip1"] = 0,
-			["auto_equip3"] = 0,
-		},
-	},
 	["Destruxia-Outland"] = {
 		["talents"] = {
 			[2] = {
@@ -444,17 +472,17 @@ TalentSetManager_CharacterSaves = {
 			["auto_equip3"] = 0,
 		},
 	},
-	["Elementior-Outland"] = {
+	["Lianxia-Draenor"] = {
+		["talents_pvp"] = {
+		},
 		["talents"] = {
 			[2] = {
 			},
 		},
-		["talents_pvp"] = {
-		},
 		["version"] = 0,
 		["interface"] = {
-			["auto_equip4"] = 0,
 			["auto_equip2"] = 0,
+			["auto_equip4"] = 0,
 			["auto_equip1"] = 0,
 			["auto_equip3"] = 0,
 		},
@@ -470,6 +498,23 @@ TalentSetManager_CharacterSaves = {
 		["interface"] = {
 			["auto_equip4"] = 0,
 			["auto_equip2"] = 0,
+			["auto_equip1"] = 0,
+			["auto_equip3"] = 0,
+		},
+	},
+	["Shadroxia-Outland"] = {
+		["talents_pvp"] = {
+		},
+		["talents"] = {
+			{
+			}, -- [1]
+			{
+			}, -- [2]
+		},
+		["version"] = 0,
+		["interface"] = {
+			["auto_equip2"] = 0,
+			["auto_equip4"] = 0,
 			["auto_equip1"] = 0,
 			["auto_equip3"] = 0,
 		},

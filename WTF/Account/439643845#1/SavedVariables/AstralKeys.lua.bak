@@ -9,7 +9,7 @@ AstralKeysSettings = {
 		["show_minimap_button"] = {
 			["isEnabled"] = true,
 		},
-		["init_time"] = 1640761200,
+		["init_time"] = 1641366000,
 		["expanded_tooltip"] = {
 			["isEnabled"] = true,
 		},
@@ -77,18 +77,21 @@ AstralMinimap = {
 		["Phaladinus - Outland"] = "Phaladinus - Outland",
 		["Shadroxia - Outland"] = "Shadroxia - Outland",
 		["Lianxia - Draenor"] = "Lianxia - Draenor",
+		["Feastfive - Outland"] = "Feastfive - Outland",
 		["Bankeristor - Outland"] = "Bankeristor - Outland",
-		["Necrophagus - Outland"] = "Necrophagus - Outland",
 		["Feastthree - Outland"] = "Feastthree - Outland",
 		["Nibirus - Azjol-Nerub"] = "Nibirus - Azjol-Nerub",
-		["Feattwo - Outland"] = "Feattwo - Outland",
+		["Necrophagus - Outland"] = "Necrophagus - Outland",
+		["Phalonius - Azjol-Nerub"] = "Phalonius - Azjol-Nerub",
 		["Illyana - Outland"] = "Illyana - Outland",
+		["Feattwo - Outland"] = "Feattwo - Outland",
+		["Illydaria - Draenor"] = "Illydaria - Draenor",
 		["Destruxia - Outland"] = "Destruxia - Outland",
 		["Feastfour - Outland"] = "Feastfour - Outland",
-		["Feastyone - Outland"] = "Feastyone - Outland",
+		["Wolfados - Azjol-Nerub"] = "Wolfados - Azjol-Nerub",
 		["Serthaxion - Outland"] = "Serthaxion - Outland",
 		["Luminaxia - Outland"] = "Luminaxia - Outland",
-		["Phalonius - Azjol-Nerub"] = "Phalonius - Azjol-Nerub",
+		["Feastyone - Outland"] = "Feastyone - Outland",
 		["Elementior - Outland"] = "Elementior - Outland",
 	},
 	["profiles"] = {
@@ -112,20 +115,26 @@ AstralMinimap = {
 		},
 		["Lianxia - Draenor"] = {
 		},
-		["Bankeristor - Outland"] = {
+		["Feastfive - Outland"] = {
 		},
-		["Necrophagus - Outland"] = {
+		["Bankeristor - Outland"] = {
 		},
 		["Feastthree - Outland"] = {
 		},
 		["Nibirus - Azjol-Nerub"] = {
 		},
-		["Feattwo - Outland"] = {
+		["Necrophagus - Outland"] = {
+		},
+		["Phalonius - Azjol-Nerub"] = {
 		},
 		["Illyana - Outland"] = {
 			["minimap"] = {
 				["minimapPos"] = 192.1442721043813,
 			},
+		},
+		["Feattwo - Outland"] = {
+		},
+		["Illydaria - Draenor"] = {
 		},
 		["Destruxia - Outland"] = {
 			["minimap"] = {
@@ -134,13 +143,13 @@ AstralMinimap = {
 		},
 		["Feastfour - Outland"] = {
 		},
-		["Feastyone - Outland"] = {
+		["Wolfados - Azjol-Nerub"] = {
 		},
 		["Serthaxion - Outland"] = {
 		},
 		["Luminaxia - Outland"] = {
 		},
-		["Phalonius - Azjol-Nerub"] = {
+		["Feastyone - Outland"] = {
 		},
 		["Elementior - Outland"] = {
 		},

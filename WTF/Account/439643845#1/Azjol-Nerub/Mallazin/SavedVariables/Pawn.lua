@@ -24,6 +24,16 @@ PawnOptions = {
 			["Level"] = 7,
 			["Link"] = "|cff1eff00|Hitem:52591::::::::10:62::11:::::::|h[Narassin's Gloves]|h|r",
 		},
+		[9] = {
+			["ID"] = 49546,
+			["Level"] = 5,
+			["Link"] = "|cff1eff00|Hitem:49546::::::::10:62::11:::::::|h[Revitalizing Wristguards]|h|r",
+		},
+		[5] = {
+			["ID"] = 9598,
+			["Level"] = 5,
+			["Link"] = "|cff1eff00|Hitem:9598::::::::10:62::11:::::::|h[Sleeping Robes]|h|r",
+		},
 		[16] = {
 			["ID"] = 52633,
 			["Level"] = 5,
@@ -33,16 +43,6 @@ PawnOptions = {
 			["ID"] = 52664,
 			["Level"] = 5,
 			["Link"] = "|cff1eff00|Hitem:52664::::::::10:62::11:::::::|h[Cloak of the Stag]|h|r",
-		},
-		[5] = {
-			["ID"] = 9598,
-			["Level"] = 5,
-			["Link"] = "|cff1eff00|Hitem:9598::::::::10:62::11:::::::|h[Sleeping Robes]|h|r",
-		},
-		[9] = {
-			["ID"] = 49546,
-			["Level"] = 5,
-			["Link"] = "|cff1eff00|Hitem:49546::::::::10:62::11:::::::|h[Revitalizing Wristguards]|h|r",
 		},
 	},
 	["LastKeybindingsSet"] = 1,

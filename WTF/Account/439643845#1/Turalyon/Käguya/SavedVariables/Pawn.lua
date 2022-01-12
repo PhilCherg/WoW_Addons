@@ -1,9 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0531,
-	["LastPlayerFullName"] = "Käguya-Turalyon",
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 122250,
@@ -76,6 +73,9 @@ PawnOptions = {
 			["Link"] = "|cff00ccff|Hitem:122353::::::::10:62:::1:582::::::|h[Dignified Headmaster's Charge]|h|r",
 		}, -- [16]
 	},
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Käguya-Turalyon",
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {

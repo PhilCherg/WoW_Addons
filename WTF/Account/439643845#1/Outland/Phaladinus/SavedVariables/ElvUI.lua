@@ -2181,14 +2181,14 @@ ElvCharacterDB = {
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/s lol", -- [1]
-		"/played", -- [2]
+		"/s now what", -- [1]
+		"/s bruh", -- [2]
 		"/s idk", -- [3]
-		"/s now what", -- [4]
+		"/s lol", -- [4]
 		"/s where is the guardian of the deep?", -- [5]
 		"/s why", -- [6]
 		"/reload", -- [7]
-		"/s bruh", -- [8]
+		"/played", -- [8]
 		"/s AZ TE CHUVAM", -- [9]
 		"/s MA TI MENE?7", -- [10]
 	},

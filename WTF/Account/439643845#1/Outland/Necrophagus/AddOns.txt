@@ -401,3 +401,4 @@ VenturePlan: enabled
 +Wowhead_Looter: enabled
 DBM-SanctumOfDomination: enabled
 BetterWardrobe_SourceData: enabled
+Playtime: enabled

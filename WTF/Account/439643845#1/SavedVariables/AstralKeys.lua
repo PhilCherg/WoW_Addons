@@ -9,7 +9,7 @@ AstralKeysSettings = {
 		["show_minimap_button"] = {
 			["isEnabled"] = true,
 		},
-		["init_time"] = 1640761200,
+		["init_time"] = 1641366000,
 		["expanded_tooltip"] = {
 			["isEnabled"] = true,
 		},
@@ -79,14 +79,17 @@ AstralMinimap = {
 		["Lianxia - Draenor"] = "Lianxia - Draenor",
 		["Feastfive - Outland"] = "Feastfive - Outland",
 		["Bankeristor - Outland"] = "Bankeristor - Outland",
-		["Necrophagus - Outland"] = "Necrophagus - Outland",
+		["Bullenic - Silvermoon"] = "Bullenic - Silvermoon",
 		["Elementior - Outland"] = "Elementior - Outland",
+		["Feastyone - Outland"] = "Feastyone - Outland",
+		["Necrophagus - Outland"] = "Necrophagus - Outland",
 		["Phalonius - Azjol-Nerub"] = "Phalonius - Azjol-Nerub",
-		["Illyana - Outland"] = "Illyana - Outland",
 		["Feattwo - Outland"] = "Feattwo - Outland",
+		["Illydaria - Draenor"] = "Illydaria - Draenor",
+		["Illyana - Outland"] = "Illyana - Outland",
 		["Destruxia - Outland"] = "Destruxia - Outland",
 		["Feastfour - Outland"] = "Feastfour - Outland",
-		["Feastyone - Outland"] = "Feastyone - Outland",
+		["Wolfados - Azjol-Nerub"] = "Wolfados - Azjol-Nerub",
 		["Serthaxion - Outland"] = "Serthaxion - Outland",
 		["Luminaxia - Outland"] = "Luminaxia - Outland",
 		["Nibirus - Azjol-Nerub"] = "Nibirus - Azjol-Nerub",
@@ -117,18 +120,24 @@ AstralMinimap = {
 		},
 		["Bankeristor - Outland"] = {
 		},
-		["Necrophagus - Outland"] = {
+		["Bullenic - Silvermoon"] = {
 		},
 		["Elementior - Outland"] = {
 		},
+		["Feastyone - Outland"] = {
+		},
+		["Necrophagus - Outland"] = {
+		},
 		["Phalonius - Azjol-Nerub"] = {
+		},
+		["Feattwo - Outland"] = {
+		},
+		["Illydaria - Draenor"] = {
 		},
 		["Illyana - Outland"] = {
 			["minimap"] = {
 				["minimapPos"] = 192.1442721043813,
 			},
-		},
-		["Feattwo - Outland"] = {
 		},
 		["Destruxia - Outland"] = {
 			["minimap"] = {
@@ -137,7 +146,7 @@ AstralMinimap = {
 		},
 		["Feastfour - Outland"] = {
 		},
-		["Feastyone - Outland"] = {
+		["Wolfados - Azjol-Nerub"] = {
 		},
 		["Serthaxion - Outland"] = {
 		},

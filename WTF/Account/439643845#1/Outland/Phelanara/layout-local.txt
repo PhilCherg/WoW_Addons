@@ -62,10 +62,3 @@ X: 0
 Y: 0
 W: 300
 H: 300
-Frame: AllTheThings-Window-AuctionData
-FrameLevel: 2
-Anchor: TOP
-X: 24
-Y: -126
-W: 300
-H: 518

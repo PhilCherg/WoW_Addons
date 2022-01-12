@@ -24,6 +24,16 @@ PawnOptions = {
 			["Level"] = 6,
 			["Link"] = "|cff1eff00|Hitem:58917::::::::9:72::11:::::::|h[Saldean's Working Gloves]|h|r",
 		},
+		[9] = {
+			["ID"] = 57574,
+			["Level"] = 5,
+			["Link"] = "|cff1eff00|Hitem:57574::::::::9:72::11:::::::|h[Museum Guard's Bracers]|h|r",
+		},
+		[5] = {
+			["ID"] = 58914,
+			["Level"] = 6,
+			["Link"] = "|cff1eff00|Hitem:58914::::::::9:72::11:::::::|h[Sentinel Hill Breastplate]|h|r",
+		},
 		[16] = {
 			["ID"] = 57248,
 			["Level"] = 5,
@@ -33,16 +43,6 @@ PawnOptions = {
 			["ID"] = 58908,
 			["Level"] = 5,
 			["Link"] = "|cff1eff00|Hitem:58908::::::::9:72::11:::::::|h[Scene Investigator's Wrap]|h|r",
-		},
-		[5] = {
-			["ID"] = 58914,
-			["Level"] = 6,
-			["Link"] = "|cff1eff00|Hitem:58914::::::::9:72::11:::::::|h[Sentinel Hill Breastplate]|h|r",
-		},
-		[9] = {
-			["ID"] = 57574,
-			["Level"] = 5,
-			["Link"] = "|cff1eff00|Hitem:57574::::::::9:72::11:::::::|h[Museum Guard's Bracers]|h|r",
 		},
 	},
 	["LastKeybindingsSet"] = 1,

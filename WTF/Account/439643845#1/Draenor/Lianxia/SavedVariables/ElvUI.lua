@@ -2,116 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"<Sylvanas> Offering Mythic/HC |cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r 10/10 200k + VIP trader || Sylvanas 50k (Every 30 min) || KT 40k || Both 80k || M+10-24 || M15 100k (4x M15 360k) || Legion +15 || FREE stack for 2x || Tazavesh || PVP || Lvling", -- [1]
-			"Sylvansdeal-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Sylvansdeal-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			41, -- [11]
-			"Player-1403-0A199741", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaSylvansdeal|r",
-			[51] = 1640176488,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"< N O V A > |cff66bbff|Hjournal:0:1193:15|h[Sanctum of Domination]|h|r[10/10 HC = 200k+VIP]Both 80k/10/10 Mythic 8800K]FREE ARMOR+15 INTIME 100k ][SPECIAL DEALS 4X15=360K]16=160 18=290 20=510 & KSH/Tazavash HM=190k]50-60Lv=550k]Thorgast 2x12=95k]PVP]/", -- [1]
-			"Novaservizze-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novaservizze-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			42, -- [11]
-			"Player-1403-0A19C624", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcNovaservizze|r",
-			[51] = 1640176488,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"<Sylvanas> Offering Mythic/HC |cff66bbff|Hjournal:0:1193:15|h[Sanctum of Domination]|h|r 10/10 200k + VIP trader || Sylvanas 50k (Every 30 min) || KT 40k || Both 80k || M+10-24 || M15 100k (4x M15 360k) || Legion +15 || FREE stack for 2x || Tazavesh || PVP || Lvling", -- [1]
-			"Sylvnsadv-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Sylvnsadv-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			44, -- [11]
-			"Player-1403-0A19973B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Sylvnsadv|r",
-			[51] = 1640176488,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"<Sylvanas Boost Community> M+15 [105k] M+14 [100k], Weekly 252 item in your vault guaranteed!// Also Selling SoD HC full clear personal loot or VIP// Selling last 2 HC /w me for more info!  ", -- [1]
-			"Damzadvv-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Damzadvv-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			46, -- [11]
-			"Player-1403-0A04C697", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcDamzadvv|r",
-			[51] = 1640176489,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"<SYLVANAS> |cff66bbff|Hjournal:0:1193:16|h[Sanctum of Domination]|h|r10/10HC=<200k> + VIP Trader <FREE ARMOR STACK 2xM><-> M+15= < 100k > LAST 2 BOSS=<80k> <4x15 = 360K > <KSM>16x+15 intime <Mythic 10/10> M+20 = 520K /Tazavesh /Torghast/PVP w Me", -- [1]
-			"Sylvanssell-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Sylvanssell-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			47, -- [11]
-			"Player-1403-09FB1B70", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Sylvanssell|r",
-			[51] = 1640176489,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
-		{
 			"<NOVA > [+15 Intime=100k] [10/10 HC =200K / 10/10 Mythic =8,8M+Mount+2 VIP ] [Legion Mythic+ 15=185k weekly /260k intime ] [2x+15=190k] [4x+15 Intime=360K ]  [Taza HM=190k ] [Level/Mounts/Legacy/PVP] [EVERY 30 MIN KT+Sylva=80k ] [Layer 12x2=95k ] /w", -- [1]
 			"Novarachel-Draenor", -- [2]
 			"", -- [3]
@@ -132,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNovarachel|r",
 			[51] = 1640176492,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
+		}, -- [1]
 		{
 			"<Void> Selling / Mythic+ 10-22> [M+10=70k / M+14=90k || M+15=95k Timed /+16=160k /+17=200k /+18=290k  / +20 = 500k / Tazavesh  HM 180k / Torghast 12=45k / recruiting boosters /w", -- [1]
 			"Voidcommunit-Draenor", -- [2]
@@ -154,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Voidcommunit|r",
 			[51] = 1640176492,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
+		}, -- [2]
 		{
 			"<Nova> Offering < |cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r10/10Hc=210K>  <Last2 bosses=80K>  <Mythic SOD>  ||<M0-M22>   <M15=100K>   <M20=520K>   <Free armor stack>  <Ksm> <Ksh> || <Pvp> <Lvlup> <Mount&Pet> Gold only /w For more info!", -- [1]
 			"Novaxdraenor-Draenor", -- [2]
@@ -176,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeNovaxdraenor|r",
 			[51] = 1640176493,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
+		}, -- [3]
 		{
 			"<Golden Lotus> is OFFERING [Sanctum of Domination] <HC 210k AND 150k VIP TRADER> [Sylvanas Windrunner] <HC 50k> [Kel'Thuzad]   <HC 40k>  <BOTH BOSSES 80k> <+15=115k>  <+14=100k> <KEYSTONE MASTER=1750k>  <+10=55k><+12=90k>  Sylvanas Mount4.5m GOLD ONLY", -- [1]
 			"Shaunachii-Draenor", -- [2]
@@ -198,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cShaunachii|r",
 			[51] = 1640176494,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
+		}, -- [4]
 		{
 			"< N O V A > CURVE BOTH 80k & 10/10 HC 200k / 0-24 Keys FREE ARMOR+15 INTIME 100k 2x15=190K [SPECIAL DEALS 4X15=360K/5x15=438K]6x15 =525K]7x=613k] 8x15=700k 16=160k 17=205k 18=290k 19=440k 20=510k Tazavash HM=190k]50-60Lv=550k]Thorgast 2x12=95k]PVP]", -- [1]
 			"Novaservicer-Draenor", -- [2]
@@ -220,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novaservicer|r",
 			[51] = 1640176501,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
+		}, -- [5]
 		{
 			"< NOVA > is OFFERING  Heroic |cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r200k || VIP Traders Available || || Sanctum Mythic 8.8M + 2x VIP || || M+15= 100k || KSM 16xM+15=1540k || KSH 8xM+20=3550k || Torghast || Last 2Bosss HC 80k ||", -- [1]
 			"Novajel-Draenor", -- [2]
@@ -242,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Novajel|r",
 			[51] = 1640176501,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
+		}, -- [6]
 		{
 			"<<NOVA>> OFFERING TODAY HEROIC|cff66bbff|Hjournal:0:1193:16|h[Sanctum of Domination]|h|r200k<VIP TRADERS AVAILABLE > < SELLING ALL><M0-22 INTIME + ARMOR STACK><M+15=100k><M+20=510k><Multipe RUN DISCOUNT+FREE STACK><KSM=1540k><KSH=3550k><LAST 2 HC 80k>", -- [1]
 			"Novaopa-Draenor", -- [2]
@@ -264,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novaopa|r",
 			[51] = 1640176505,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
+		}, -- [7]
 		{
 			"< NOVA > is OFFERING || Sanctum HC 200k|| || VIP Traders Available || || Sanctum Mythic  || || M+15= 100k || M+20=510k || || KSM 16x M+15= 1540k+Stack || || KSH 8x M+20= 3550k || Torghast---Level UP ||  Tazavesh || || Sylv HC 50k--Last 2Boss HC 80k ||", -- [1]
 			"Novaelite-Draenor", -- [2]
@@ -286,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Novaelite|r",
 			[51] = 1640176510,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
+		}, -- [8]
 		{
 			"<D A W N> OFFERING <|cffffff00|Hachievement:15127:Player-1403-0A1306F2:0:0:0:-1:0:0:0:0|h[Heroic: Sanctum of Domination]|h|r<10/10HC-210K> <VIP TRADER> <SYLVANAS-50K> <LAST2HC-80K> <8x15-850K> <8x20-3600K> <M15-100K> <4x15-360K>|cffffff00|Hachievement:15128:Player-1403-0A1306F2:0:0:0:-1:0:0:0:0|h[Mythic: Sanctum of Domination]|h|r Whisper for more info  ", -- [1]
 			"Dwnmoon-Draenor", -- [2]
@@ -308,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dwnmoon|r",
 			[51] = 1640176522,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
+		}, -- [9]
 		{
 			"<D A W N> IS OFFERING |cffffff00|Hachievement:15128:Player-1403-0A137997:0:0:0:-1:0:0:0:0|h[Mythic: Sanctum of Domination]|h|r + Mount + 2 VIP - 8800K || 10/10HC-210K || VIP TRADER || LAST 2 HC-80K || |cffffff00|Hachievement:15078:Player-1403-0A137997:0:0:0:-1:0:0:0:0|h[Shadowlands Keystone Master: Season Two]|h|r 8x15-850K || 8x20-3600K || M15-100K || 4xM15-360K ", -- [1]
 			"Dawnpro-Draenor", -- [2]
@@ -330,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dawnpro|r",
 			[51] = 1640176524,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
+		}, -- [10]
 		{
 			"<Dawn>WTS|cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r<10/10 Mythic><HC 10/10 210k><VIP Traders 160k><KT 40k><Sylvans 50k><Both 80k>|cffffff00|Hachievement:15078:Player-1403-09DB34E0:0:0:0:-1:0:0:0:0|h[Shadowlands Keystone Master: Season Two]|h|r<8x15 KSM 850K><M20 520k><M15 100k><Armor Stack><4x15 360K><8x20 3600k><Torghast 2x12 70k><PVP>", -- [1]
 			"Dawnsuta-Draenor", -- [2]
@@ -352,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dawnsuta|r",
 			[51] = 1640176532,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
+		}, -- [11]
 		{
 			"<D A W N> IS OFFERING |cffffff00|Hachievement:15128:Player-1403-0A188F76:0:0:0:-1:0:0:0:0|h[Mythic: Sanctum of Domination]|h|r + Mount + 2 VIP - 8800K || 10/10HC-210K || VIP TRADER || LAST 2 HC-80K || |cffffff00|Hachievement:15078:Player-1403-0A188F76:0:0:0:-1:0:0:0:0|h[Shadowlands Keystone Master: Season Two]|h|r 8x15-850K || 8x20-3600K || M15-100K || 4xM15-360K ", -- [1]
 			"Dawnmythic-Draenor", -- [2]
@@ -374,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dawnmythic|r",
 			[51] = 1640176533,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
+		}, -- [12]
 		{
 			"(Sylvanas Community) WTS SOD HC10/10=200k with 1VIP=380k /Mythic SOD 8800k+Mount and 2 traders /M+ keys M15=105k/M20=520k/ KSM=1640k/4x15=360k/10x15=900k//SylvanasHC=50K/KT+Sylv=80k/TazaveshHM=190k/LegionKeystone/Torghast/PVP/Legacy/Mounts, /w for info", -- [1]
 			"Sylvansanity-Draenor", -- [2]
@@ -396,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcSylvansanity|r",
 			[51] = 1640176538,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
+		}, -- [13]
 		{
 			"|cffffff00The Sludge Fields is under attack!|r", -- [1]
 			"", -- [2]
@@ -418,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1640176721,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
+		}, -- [14]
 		{
 			"< Nova > M+15 Time 100k 4x15 360k |cff66bbff|Hjournal:0:1193:15|h[Sanctum of Domination]|h|r10/10 HC 200k Vip Trader 160 ] [  PVP ]  [ Tazavesh k ] [ Sylvanas HC 50k ] [ Last 2 Bosses 80k [  KT 40k  ] +2 Run Free Armor Stack ] M+15 Legion 150k", -- [1]
 			"Novashaman-Draenor", -- [2]
@@ -440,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNovashaman|r",
 			[51] = 1640176928,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
+		}, -- [15]
 		{
 			"<SYLVANAS> |cff66bbff|Hjournal:0:1193:16|h[Sanctum of Domination]|h|r10/10HC=<200k> + VIP Trader <FREE ARMOR STACK 2xM><-> M+15= < 100k > LAST 2 BOSS=<80k> <4x15 = 360K > <KSM>16x+15 intime <Mythic 10/10> M+20 = 520K /Tazavesh /Torghast/PVP w Me", -- [1]
 			"Sylvanssell-Draenor", -- [2]
@@ -462,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Sylvanssell|r",
 			[51] = 1640176928,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
+		}, -- [16]
 		{
 			"<Dawn>WTS|cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r<10/10 Mythic><HC 10/10 210k><VIP Traders 160k><KT 40k><Sylvans 50k><Both 80k>|cffffff00|Hachievement:15078:Player-1403-09DB34E0:0:0:0:-1:0:0:0:0|h[Shadowlands Keystone Master: Season Two]|h|r<8x15 KSM 850K><M20 520k><M15 100k><Armor Stack><4x15 360K><8x20 3600k><Torghast 2x12 70k><PVP>", -- [1]
 			"Dawnsuta-Draenor", -- [2]
@@ -484,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dawnsuta|r",
 			[51] = 1640176929,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
+		}, -- [17]
 		{
 			"<Dawn>WTS|cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r<10/10 Mythic><HC 10/10 210k><VIP Traders 160k><KT 40k><Sylvans 50k><Both 80k>|cffffff00|Hachievement:15078:Player-1403-09F4495E:0:0:0:-1:0:0:0:0|h[Shadowlands Keystone Master: Season Two]|h|r<8x15 KSM 850K><M20 520k><M15 100k><Armor Stack><4x15 360K><8x20 3600k><Torghast 2x12 70k><PVP>", -- [1]
 			"Dawnsutas-Draenor", -- [2]
@@ -506,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDawnsutas|r",
 			[51] = 1640176929,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
+		}, -- [18]
 		{
 			"<SYLVANAS> M+15 = <100k> <-> <FREE ARMOR STACK 2xM> < Legion M+15 = 200k > 4x+15 = <360k> <-> <16x+15 = 1640k> <-> 8x+20 = 3600k <Myhthic 10/10 & Sylvanas Mount> LAST 2 BOSS = <80k> <-> SoD 10/10HC = <200k> + VIP Trader /Torghast/Tazavesh/ PVP/ W me!", -- [1]
 			"Sylvnssell-Draenor", -- [2]
@@ -528,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSylvnssell|r",
 			[51] = 1640176929,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
+		}, -- [19]
 		{
 			"<NOVA>  [ M+15 100k  ] [ Legion Mythic+ 15 150k  ] [4x15 360k ] |cff66bbff|Hjournal:0:1193:15|h[Sanctum of Domination]|h|r 200k 1 Vip 160 2x Vip 300k ]  [  PVP ] [ Tazavesh ] [ Sylvanas HC 50k ] [ Last 2 Bosss 80k ] +2 Run  Free Armor Stack", -- [1]
 			"Novaghert-Draenor", -- [2]
@@ -550,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Novaghert|r",
 			[51] = 1640176929,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
+		}, -- [20]
 		{
 			"SYLVANAS // M+15 = 105k In Time // M+18 = 300k // M+19 = 450K // M+20 = 520K // M+21 = 650K // M+25 = 3000k // U CAN CHOOSE KEY // 4X15 = 360K // 10X15 = 900K // FREE ARMOR STACK // SOD HC-MYTHIC +Free Trader // LAST 2BOSS EVERY 30 MIN // TORGHAST // W", -- [1]
 			"Syldraenor-Draenor", -- [2]
@@ -572,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Syldraenor|r",
 			[51] = 1640176929,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
+		}, -- [21]
 		{
 			"<D A W N> OFFERING <|cffffff00|Hachievement:15127:Player-1403-0A1306F2:0:0:0:-1:0:0:0:0|h[Heroic: Sanctum of Domination]|h|r<10/10HC-210K> <VIP TRADER> <SYLVANAS-50K> <LAST2HC-80K> <8x15-850K> <8x20-3600K> <M15-100K> <4x15-360K>|cffffff00|Hachievement:15128:Player-1403-0A1306F2:0:0:0:-1:0:0:0:0|h[Mythic: Sanctum of Domination]|h|r Whisper for more info  ", -- [1]
 			"Dwnmoon-Draenor", -- [2]
@@ -594,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dwnmoon|r",
 			[51] = 1640176929,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
+		}, -- [22]
 		{
 			"<NOVA> DISCOUNT LEGION M+ 185k || [Sanctum of Domination] HC 230k TRADER 160k || SYLVANAS 50k - KT 40k - BOTH 80k || M+15 105k || TAZAVESH HM 190k || KSM 1700k  || TORGHAST-PVP-LEVELING || /w for more info", -- [1]
 			"Novamaas-Draenor", -- [2]
@@ -616,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Novamaas|r",
 			[51] = 1640176930,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
+		}, -- [23]
 		{
 			"<NOVA> OFFERING <|cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r HC 200k AND VIP TRADER> <MYTHIC> <|cff66bbff|Hjournal:1:2441:15|h[Sylvanas Windrunner]|h|r HC 50k> <|cff66bbff|Hjournal:1:2440:15|h[Kel'Thuzad]|h|r  HC 40k> <BOTH BOSSES 80k> <+15=100k> <+14=95k> <KEYSTONE MASTER=1540k>  <+10=75k><+20= 510k>  <Tazavesh NM 80k-HM 190k>", -- [1]
 			"Dronovimity-Draenor", -- [2]
@@ -638,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dronovimity|r",
 			[51] = 1640176930,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
+		}, -- [24]
 		{
 			"<D A W N> IS OFFERING |cffffff00|Hachievement:15128:Player-1403-0A137997:0:0:0:-1:0:0:0:0|h[Mythic: Sanctum of Domination]|h|r + Mount + 2 VIP - 8800K || 10/10HC-210K || VIP TRADER || LAST 2 HC-80K || |cffffff00|Hachievement:15078:Player-1403-0A137997:0:0:0:-1:0:0:0:0|h[Shadowlands Keystone Master: Season Two]|h|r 8x15-850K || 8x20-3600K || M15-100K || 4xM15-360K ", -- [1]
 			"Dawnpro-Draenor", -- [2]
@@ -660,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dawnpro|r",
 			[51] = 1640176930,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
+		}, -- [25]
 		{
 			"< NOVA > is OFFERING || Sanctum HC 200k|| || VIP Traders Available || || Sanctum Mythic  || || M+15= 100k || M+20=510k || || KSM 16x M+15= 1540k+Stack || || KSH 8x M+20= 3550k || Torghast---Level UP ||  Tazavesh || || Sylv HC 50k--Last 2Boss HC 80k ||", -- [1]
 			"Novaelite-Draenor", -- [2]
@@ -682,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Novaelite|r",
 			[51] = 1640176931,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
+		}, -- [26]
 		{
 			"< NOVA > Offering < Mythic 0-24 InTime >|| M+14 100K || < M+15 100K > || < |cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|rHC 200K > || KT 40K , SylvanasHC 50K < Last 2 80K > || < Tazavesh NM & HM > || <Torghast> || <PvP> || <Leveling> /W Me!", -- [1]
 			"Greatshamann-Draenor", -- [2]
@@ -704,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGreatshamann|r",
 			[51] = 1640176931,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
+		}, -- [27]
 		{
 			"< N O V A > |cff66bbff|Hjournal:0:1193:15|h[Sanctum of Domination]|h|r[10/10 HC = 200k+VIP]Both 80k/10/10 Mythic 8800K]FREE ARMOR+15 INTIME 100k ][SPECIAL DEALS 4X15=360K]16=160 18=290 20=510 & KSH/Tazavash HM=190k]50-60Lv=550k]Thorgast 2x12=95k]PVP]/", -- [1]
 			"Novaservizze-Draenor", -- [2]
@@ -726,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNovaservizze|r",
 			[51] = 1640176933,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
+		}, -- [28]
 		{
 			"<NOVA> OFFERING  <|cff66bbff|Hjournal:0:1193:15|h[Sanctum of Domination]|h|r Heroic 200k><VIP Traders><M15=100k>  <M20=510k> <KSM 1540k and KSM hero 3550k>  <|cffffff00|Hachievement:15134:Player-1403-0A04E106:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sylvanas Windrunner]|h|r  SYLVANAS 50k><KT 40k><LAST 2 BOSS 80k> <|cff66bbff|Hjournal:0:1194:23|h[Tazavesh, the Veiled Market]|h|r NM 80k-HM 190k> ", -- [1]
 			"Raraidraen-Draenor", -- [2]
@@ -748,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Raraidraen|r",
 			[51] = 1640176933,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
+		}, -- [29]
 		{
 			"<DAWN> Offering Today |cffffff00|Hachievement:15127:Player-1305-0BCEAB76:0:0:0:-1:0:0:0:0|h[Heroic: Sanctum of Domination]|h|r 210k@ (14/16/19/20/21/23) Mythic 10/10 +Mount &VIP |cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r / Sylvanas 50K |cff66bbff|Hjournal:1:2440:14|h[Kel'Thuzad]|h|r40K(Both 80K) /+15=110k (4x15=400K) +14=100K (4x14=360K) /+20=520K// +20-26 intime + KSM//PVP/RBG", -- [1]
 			"Icyveinz-Draenor", -- [2]
@@ -770,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Icyveinz|r",
 			[51] = 1640176933,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
+		}, -- [30]
 		{
 			"<DAWN> Offering Today |cffffff00|Hachievement:15127:Player-1403-0A17D609:0:0:0:-1:0:0:0:0|h[Heroic: Sanctum of Domination]|h|r  210K (VIP 160K )@ (14/16/19/20/21/23) Mythic 10/10 +Mount & 2-6x VIP |cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r / <SYLVANAS > HC 50K |cff66bbff|Hjournal:1:2440:14|h[Kel'Thuzad]|h|r 40K (Both 80K ) 15=110k (4x15=400K) +14=100K /+20=520/ 25-26 INTIME/PVP", -- [1]
 			"Lycanboost-Draenor", -- [2]
@@ -792,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Lycanboost|r",
 			[51] = 1640176933,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
+		}, -- [31]
 		{
 			"<NOVA> Offering HC Sanctum 200k  <2x VIP Traders Discount>  <Sylvanas->50k  Kel-40k  <Last2->80k  <M+15=95k>  <4x+15=350k>  <M+20=510k>  <Legion M+15=150k>  <Tazavesh->190k  <KSM 16x +15 =1540k>  <KSH 8x +20 =3550k> Torghast - PvP - Leveling /w me.", -- [1]
 			"Novadev-Draenor", -- [2]
@@ -814,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaNovadev|r",
 			[51] = 1640176933,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
+		}, -- [32]
 		{
 			"<NOVA> || Sanctum Heroic 200k || Trader 160k || Curve 50k|| Last 2 HC 80k || M+10 - 70k || M+12 - 80k || M+14 - 95k || M+15 - 100k || KeyStone Master - 1540k || KeyStone Hero - 3550k || Legion Dungeons 250k ||  Discount For Multi Runs", -- [1]
 			"Novajuiced-Draenor", -- [2]
@@ -836,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novajuiced|r",
 			[51] = 1640176934,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
+		}, -- [33]
 		{
 			"<N O V A> OFFERS<|cff66bbff|Hjournal:0:1193:16|h[Sanctum of Domination]|h|r HC 200k><|cff66bbff|Hjournal:1:2441:14|h[Sylvanas Windrunner]|h|r 50k><|cff66bbff|Hjournal:1:2440:14|h[Kel'Thuzad]|h|r 40k><Last 2 Boss 80k><+15=100k><4x 15=350k> <FREE ARMORSTACK FOR 2x run> <+14=95k> <+10=75k> <+20=510k><KSM with ARMORSTACK=1540k><TAZAVESH HM 190k-NM 80k>", -- [1]
 			"Dariova-Draenor", -- [2]
@@ -858,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dariova|r",
 			[51] = 1640176935,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
+		}, -- [34]
 		{
 			"(Sylvanas Community) WTS SOD HC10/10=200k with 1VIP=380k /Mythic SOD 8800k+Mount and 2 traders /M+ keys M15=105k/M20=520k/ KSM=1640k/4x15=360k/10x15=900k//SylvanasHC=50K/KT+Sylv=80k/TazaveshHM=190k/LegionKeystone/Torghast/PVP/Legacy/Mounts, /w for info", -- [1]
 			"Sylvansanity-Draenor", -- [2]
@@ -880,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcSylvansanity|r",
 			[51] = 1640176935,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
+		}, -- [35]
 		{
 			"WTS HC LAST 2 BOSS |cff66bbff|Hjournal:1:2440:15|h[Kel'Thuzad]|h|r& |cff66bbff|Hjournal:1:2441:15|h[Sylvanas Windrunner]|h|r Have BEST PRICE in EU Guarantee!|| CURVE ||246 ilvl items ||Raid ready to go || Summon Ready || Runs every 25 mins /w for info", -- [1]
 			"Betgood-Draenor", -- [2]
@@ -902,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcBetgood|r",
 			[51] = 1640176936,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
+		}, -- [36]
 		{
 			"<NOVA> SoD HC 200K(1x VIP 160K |||| 2x VIP 300K)-SoD MYTHIC |||| HC Syl 50K KT 40K both 80K |||| M+15 100K LEGION +15 150K/250K |||| 2x+15 185K 3x+15 275K |||| [M+15-22] |||| KSM(16x +15) 1540K |||| KSH(8x +20) 3550K |||| Torghast 2x12=95K /w for info!", -- [1]
 			"Novabest-Draenor", -- [2]
@@ -924,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeNovabest|r",
 			[51] = 1640176936,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
+		}, -- [37]
 		{
 			"<DAWN> WTS |cff66bbff|Hjournal:0:1193:15|h[Sanctum of Domination]|h|r 10/10M 8.8M+Mount+Traders I HC 10/10 210k I VIP Traders 160k> I KT 40k I Sylvanas 50k I Both 80k |cffffff00|Hachievement:15134:Player-1403-09EA075A:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sylvanas Windrunner]|h|r I 8x15 KSM 850k I M+20 550k I M+15 115k I 4x 15 400k I Torghast 2x L12 90k", -- [1]
 			"Draencynd-Draenor", -- [2]
@@ -946,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Draencynd|r",
 			[51] = 1640176937,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
+		}, -- [38]
 		{
 			"<Void> Selling  ||[ M+14=95k || M+15=100k Timed /+16=155k /+17=195k /+18=280k  / +20 = 490k / Tazavesh  HM 180k / Torghast 1-12 / recruiting boosters /w", -- [1]
 			"Windroare-Draenor", -- [2]
@@ -968,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Windroare|r",
 			[51] = 1640176938,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
+		}, -- [39]
 		{
 			"<D A W N> IS OFFERING |cffffff00|Hachievement:15128:Player-1403-0A188F76:0:0:0:-1:0:0:0:0|h[Mythic: Sanctum of Domination]|h|r + Mount + 2 VIP - 8800K || 10/10HC-210K || VIP TRADER || LAST 2 HC-80K || |cffffff00|Hachievement:15078:Player-1403-0A188F76:0:0:0:-1:0:0:0:0|h[Shadowlands Keystone Master: Season Two]|h|r 8x15-850K || 8x20-3600K || M15-100K || 4xM15-360K ", -- [1]
 			"Dawnmythic-Draenor", -- [2]
@@ -990,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dawnmythic|r",
 			[51] = 1640176941,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [40]
 		{
 			"<**NOVA**> Is OFFERING  ||||   <HEROIC |cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r=200k, VIP Trader=160k>   <Mythic Sanctum>   <KSM=1650k>   <KSH=3550k>   <M+10=75k>   <M+15=100k>   <PVP>   <Sylvanas Heroic=50k>   <Last 2 Heroic=80k> ||", -- [1]
 			"Novababy-Draenor", -- [2]
@@ -1012,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novababy|r",
 			[51] = 1640176941,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
+		}, -- [41]
 		{
 			"<Void> Selling / Mythic+ 10-22> [M+10=70k / M+14=90k || M+15=95k Timed /+16=160k /+17=200k /+18=290k  / +20 = 500k / Tazavesh  HM 180k / Torghast 12=45k / recruiting boosters /w", -- [1]
 			"Voidcommunit-Draenor", -- [2]
@@ -1034,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Voidcommunit|r",
 			[51] = 1640176941,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
+		}, -- [42]
 		{
 			"<Sylvanas Boost Community> M+15 [105k] M+14 [100k], Weekly 252 item in your vault guaranteed!// Also Selling SoD HC full clear personal loot or VIP// Selling last 2 HC /w me for more info!  ", -- [1]
 			"Damzadvv-Draenor", -- [2]
@@ -1056,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcDamzadvv|r",
 			[51] = 1640176942,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [43]
 		{
 			"<Sylvanas> Offering Mythic/HC |cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r 10/10 200k + VIP trader || Sylvanas 50k (Every 30 min) || KT 40k || Both 80k || M+10-24 || M15 100k (4x M15 360k) || Legion +15 || FREE stack for 2x || Tazavesh || PVP || Lvling", -- [1]
 			"Sylvansdeal-Draenor", -- [2]
@@ -1078,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaSylvansdeal|r",
 			[51] = 1640176942,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+		}, -- [44]
 		{
 			"<Sylvanas> Offering Mythic/HC |cff66bbff|Hjournal:0:1193:15|h[Sanctum of Domination]|h|r 10/10 200k + VIP trader || Sylvanas 50k (Every 30 min) || KT 40k || Both 80k || M+10-24 || M15 100k (4x M15 360k) || Legion +15 || FREE stack for 2x || Tazavesh || PVP || Lvling", -- [1]
 			"Sylvnsadv-Draenor", -- [2]
@@ -1100,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Sylvnsadv|r",
 			[51] = 1640176943,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
+		}, -- [45]
 		{
 			"NOVA || || !BIG SALE! Heroic 210k (Vip Trader 160k) ||Heroic/ <||> WTS HC Sylvanas 50k - HC KT 40k BOTH -80k ||Legion Time Walking M+ 15 185k-260k||M+15 x 4 = 375k|||| ||  M+15 105K|| KSM = 1700K KSH = 3600k [Torghast L1-L12 ] [2v2-3v3-Rbg]", -- [1]
 			"Novamode-Draenor", -- [2]
@@ -1122,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Novamode|r",
 			[51] = 1640176944,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
+		}, -- [46]
 		{
 			"<NOVA> |cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r10/10 HC 200k 1 Vip 160 2x Vip 300k ] [Legion Mythic+ 15 150k ] KSH 3550k [ M+15 100k ] [ M+15x4 360k ] [  PVP ] [ Torghast 2x12 95k ] [ Tazavesh ] [ Sylvanas HC 50k ][ Last 2 Bosss 80k]", -- [1]
 			"Perkuma-Draenor", -- [2]
@@ -1144,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefePerkuma|r",
 			[51] = 1640176945,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [47]
 		{
 			"< N O V A > CURVE BOTH 80k & 10/10 HC 200k / 0-24 Keys FREE ARMOR+15 INTIME 100k 2x15=190K [SPECIAL DEALS 4X15=360K/5x15=438K]6x15 =525K]7x=613k] 8x15=700k 16=160k 17=205k 18=290k 19=440k 20=510k Tazavash HM=190k]50-60Lv=550k]Thorgast 2x12=95k]PVP]", -- [1]
 			"Novaservicer-Draenor", -- [2]
@@ -1166,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novaservicer|r",
 			[51] = 1640176946,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [48]
 		{
 			"<Nova> Offering < |cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r10/10Hc=210K>  <Last2 bosses=80K>  <Mythic SOD>  ||<M0-M22>   <M15=100K>   <M20=520K>   <Free armor stack>  <Ksm> <Ksh> || <Pvp> <Lvlup> <Mount&Pet> Gold only /w For more info!", -- [1]
 			"Novaxdraenor-Draenor", -- [2]
@@ -1188,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeNovaxdraenor|r",
 			[51] = 1640176946,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [49]
 		{
 			"<SYLVANAS>  M+15 = <100k> <-> |cff66bbff|Hjournal:0:1193:16|h[Sanctum of Domination]|h|r 10/10HC=<200k> + VIP Trader <-> LAST 2 BOSS = <80k> Every 30 MIN Sylvanas=<50k> Kel=40k <-> 4x15 = <360k> <Myhthic 10/10 & Mount> / Torghast/ Tazavesh /PVP W me!", -- [1]
 			"Sylvnassell-Draenor", -- [2]
@@ -1210,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcSylvnassell|r",
 			[51] = 1640176946,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [50]
 		{
 			"<D A W N> IS OFFERING |cffffff00|Hachievement:15128:Player-1403-0A1306F2:0:0:0:-1:0:0:0:0|h[Mythic: Sanctum of Domination]|h|r + Mount + 2 VIP - 8800K || 10/10HC-210K || VIP TRADER || LAST 2 HC-80K || |cffffff00|Hachievement:15078:Player-1403-0A1306F2:0:0:0:-1:0:0:0:0|h[Shadowlands Keystone Master: Season Two]|h|r 8x15-850K || 8x20-3600K || M15-100K || 4xM15-360K ", -- [1]
 			"Dwnmoon-Draenor", -- [2]
@@ -1232,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dwnmoon|r",
 			[51] = 1640176947,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
+		}, -- [51]
 		{
 			"<D A W N> IS OFFERING |cffffff00|Hachievement:15134:Player-1403-0A137997:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sylvanas Windrunner]|h|r<SYLVANAS = 50K> <KT = 40K> <BOTH = 80K>  ||Every 45 Minutes|| <10/10HC-210K> <VIP TRADER = 160K>  <M10-M25> ", -- [1]
 			"Dawnpro-Draenor", -- [2]
@@ -1254,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dawnpro|r",
 			[51] = 1640176948,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
+		}, -- [52]
 		{
 			"<NOVA> BEST OFFER ! HEROIC 10/10 |cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r ] 200k - PVP - / Sylvanas HC 50 /Sylvanas+Kel 80k/M+15 100k /M+16 160k /M+17 205k /M+18 290k / M19 440k /M+20 510k/KSH 8/8  All +20 3550k/Legıon m+", -- [1]
 			"Novawacrz-Draenor", -- [2]
@@ -1276,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novawacrz|r",
 			[51] = 1640176948,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [53]
 		{
 			"<Sylvanas Boost Community> Selling [Ahead Of The Curve] Kel'Thuzad and Sylvanas [80k] // Kel'Thuzad by itself [40k]// Sylvanas By itself [50k] // We have runs going every 30min /w me for more info!", -- [1]
 			"Damzadvv-Draenor", -- [2]
@@ -1298,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcDamzadvv|r",
 			[51] = 1640176952,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [54]
 		{
 			"<D A W N> IS OFFERING |cffffff00|Hachievement:15134:Player-1403-0A188F76:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sylvanas Windrunner]|h|r<SYLVANAS = 50K> <KT = 40K> <BOTH = 80K>  ||Every 45 Minutes|| <10/10HC-210K> <VIP TRADER = 160K>  <M10-M25> ", -- [1]
 			"Dawnmythic-Draenor", -- [2]
@@ -1320,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dawnmythic|r",
 			[51] = 1640176957,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [55]
 		{
 			">SBC< WTS Mytic +15 = 105k || TW +15 = 260k ||M +18 = 310k || M+20 = 520k || KSM 16x15 = 1640k || SoD HC|cff66bbff|Hjournal:0:1193:16|h[Sanktum der Herrschaft]|h|r 200k || With 3 Trader 680k ||Torghast || Sylvanas 50k ||KT 40k Both 80k Book Spot now", -- [1]
 			"Mixmac-Draenor", -- [2]
@@ -1342,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMixmac|r",
 			[51] = 1640176958,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [56]
 		{
 			"[WТS] Mythic +15/+16/+17/+18 kеy CARRY. Оrdеr a Trial run to tеst our sеrvice with nо risks! Runs start еvеry hоur. Gеt ilvl 233-252+ Gеar & Rating. Wе have оvеr 16825 Trustpilot reviews. Visit WowVеndоr.nеt fоr mоrе infо!", -- [1]
 			"Kolym-Draenor", -- [2]
@@ -1364,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Kolym|r",
 			[51] = 1640176959,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [57]
 		{
 			"<<NOVA>> OFFERING TODAY HEROIC|cff66bbff|Hjournal:0:1193:16|h[Sanctum of Domination]|h|r200k<VIP TRADERS AVAILABLE > < SELLING ALL><M0-22 INTIME + ARMOR STACK><M+15=100k><M+20=510k><Multipe RUN DISCOUNT+FREE STACK><KSM=1540k><KSH=3550k><LAST 2 HC 80k>", -- [1]
 			"Novaopa-Draenor", -- [2]
@@ -1386,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novaopa|r",
 			[51] = 1640176963,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [58]
 		{
 			"< NOVA > is OFFERING  Heroic |cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r200k || VIP Traders Available || || Sanctum Mythic 8.8M + 2x VIP || || M+15= 100k || KSM 16xM+15=1540k || KSH 8xM+20=3550k || Torghast || Last 2Bosss HC 80k ||", -- [1]
 			"Novajel-Draenor", -- [2]
@@ -1408,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Novajel|r",
 			[51] = 1640176963,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [59]
 		{
 			"SYLVANAS // M+15 = 105k In Time // M+18 = 300k // M+19 = 450K // M+20 = 510K // M+21 = 650K // M+25 = 3000k // U CAN CHOOSE KEY // 4X15 = 360K // 10X15 = 900K // FREE ARMOR STACK // SOD HC-MYTHIC +Free Trader // LAST 2BOSS EVERY 30 MIN // TORGHAST // W", -- [1]
 			"Syldraenor-Draenor", -- [2]
@@ -1430,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Syldraenor|r",
 			[51] = 1640449650,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [60]
 		{
 			"<Void> Selling / Mythic+ 10-22> [M+10=70k / M+14=90k || M+15=95k Timed /+16=160k /+17=200k /+18=290k  / +20 = 500k / Tazavesh  HM 180k / Torghast 12=45k / recruiting boosters /w", -- [1]
 			"Voidcommunit-Draenor", -- [2]
@@ -1452,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Voidcommunit|r",
 			[51] = 1640449650,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [61]
 		{
 			"<SYLVANAS>|cff66bbff|Hjournal:0:1193:15|h[Sanctum of Domination]|h|r10/10=<200k> +VIP TRADER 1xM+15=<100k> 4x+15=<360k> Mythic10/10 +2 FREE VIPS M+20=<520k> LAST 2 BOSS =<80k>  Torghast / Tazavesh / PvP ! All Cheap Whisper for info!", -- [1]
 			"Albodawn-Draenor", -- [2]
@@ -1474,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Albodawn|r",
 			[51] = 1640449650,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [62]
 		{
 			"<NOVA> |cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r10/10 HC 200k 1 Vip 160 2x Vip 300k ] [Legion Mythic+ 15 150k ] KSH 3550k [ M+15 100k ] [ M+15x4 360k ] [  PVP ] [ Torghast 2x12 95k ] [ Tazavesh ] [ Sylvanas HC 50k ][ Last 2 Bosss 80k]", -- [1]
 			"Perkuma-Draenor", -- [2]
@@ -1496,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefePerkuma|r",
 			[51] = 1640449650,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [63]
 		{
 			"<Nova > Offering full heroic 10/10|cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r200k.2 last boss 80k <KSM 1540k><KSM heroi 3550k 8xM+20><M+20=510k><M+15=100k-95k><2x armor stack free> <Legion Time Walking><leveling><pvp>< Leveling>< |cffffff00|Hachievement:15078:Player-3674-0AAF2E45:0:0:0:-1:0:0:0:0|h[Shadowlands Keystone Master: Season Two]|h|r/w", -- [1]
 			"Besttprice-Draenor", -- [2]
@@ -1518,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Besttprice|r",
 			[51] = 1640449650,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [64]
 		{
 			"<NOVA> OFFERING <|cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r HC 200k AND VIP TRADER> <MYTHIC> <|cff66bbff|Hjournal:1:2441:15|h[Sylvanas Windrunner]|h|r HC 50k> <|cff66bbff|Hjournal:1:2440:15|h[Kel'Thuzad]|h|r  HC 40k> <BOTH BOSSES 80k> <+15=100k> <+14=95k> <KEYSTONE MASTER=1540k>  <+10=75k><+20= 510k>  <Tazavesh NM 80k-HM 190k>", -- [1]
 			"Dronovimity-Draenor", -- [2]
@@ -1540,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dronovimity|r",
 			[51] = 1640449650,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [65]
 		{
 			"<NOVA> || Sanctum Heroic 200k || Trader 160k || Curve 50k|| Last 2 HC 80k || M+10 - 70k || M+12 - 80k || M+14 - 95k || M+15 - 100k || KeyStone Master - 1540k || KeyStone Hero - 3550k || Legion Dungeons 225k ||  Discount For Multi Runs", -- [1]
 			"Novajuiced-Draenor", -- [2]
@@ -1562,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novajuiced|r",
 			[51] = 1640449650,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [66]
 		{
 			"(Sylvanas Community) WTS SOD HC10/10=200k with 1VIP=380k /Mythic SOD 8800k+Mount and 2 traders /M+ keys M15=105k/M20=520k/ KSM=1640k/4x15=360k/10x15=900k//SylvanasHC=50K/KT+Sylv=80k/TazaveshHM=190k/LegionKeystone/Torghast/PVP/Legacy/Mounts, /w for info", -- [1]
 			"Sylvansanity-Draenor", -- [2]
@@ -1584,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcSylvansanity|r",
 			[51] = 1640449650,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [67]
 		{
 			"< NOVA > Offering < Mythic 0-24 InTime >|| M+14 100K || < M+15 100K > || < |cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|rHC 200K > || KT 40K , SylvanasHC 50K < Last 2 80K > || < Tazavesh NM & HM > || <Torghast> || <PvP> || <Leveling> /W Me!", -- [1]
 			"Greatshamann-Draenor", -- [2]
@@ -1606,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGreatshamann|r",
 			[51] = 1640449650,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [68]
 		{
 			"Nova Offering<|cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|rMythic-HC 200k VIP-160k><4x15=350k><M+15=95k><M+20=510k><M+19=440k> <M+18=290k><M+17=205k><KSH 8x+20=3550k><KSM |cffffff00|Hachievement:15078:Player-1403-0A1A6826:0:0:0:0:0:0:0:0|h[Shadowlands Keystone Master: Season Two]|h|r8x+15=770k><LVLING 50-60=550K> <PVP><TORGHST><LEGACY><MOUNT>", -- [1]
 			"Discounters-Draenor", -- [2]
@@ -1628,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Discounters|r",
 			[51] = 1640449650,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [69]
 		{
 			"<NOVA> OFFERING |cff66bbff|Hjournal:0:1193:15|h[Sanctum of Domination]|h|rHeroic 10/10HC 200K , VIP Trader ||SylvanasHC 50k|| Last 2 HC 80k || <M+ 10-22> <M+15=100k> <M+20=510k> <M+16=160k> <KSM 1540K> <Tazavesh HM 190k> <Torghast 1-12> <PVP 2v2||3v3> <LevelUp 50-60> <Legion M+15>", -- [1]
 			"Offerboosts-Draenor", -- [2]
@@ -1650,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Offerboosts|r",
 			[51] = 1640449650,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [70]
 		{
 			"<NOVA>  [ M+15 100k ][ M+15x2 185k ] [ M+15x4 360k ]|cff66bbff|Hjournal:0:1193:16|h[Sanctum of Domination]|h|r10/10 HC 200k 1 Vip 160 2x Vip 300k ] [Legion Mythic+ 15 150k ] KSH 3550k [  PVP ] [ Torghast ] [ Sylvanas HC 50k ][ Last 2 Bosss 80k] ", -- [1]
 			"Shamyheart-Draenor", -- [2]
@@ -1672,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcShamyheart|r",
 			[51] = 1640449650,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [71]
 		{
 			"<DAWN> IS OFFERING <|cffffff00|Hachievement:15127:Player-1403-0A114394:1:9:22:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: Sanctum of Domination]|h|r 210K > <VIP Trader 160k> [ Sylavnas 50k><KT 40K><Both 80K ] || M+15=110k <M+14=100K> <Armor Stack> || 4x15 400K || <M+16=170k> <M+17=210k><M+18=310k>||LVLUP 51/60|| Also Selling |cffffff00|Hachievement:12568:Player-1403-0A114394:1:9:22:19:4294967295:4294967295:4294967295:4294967295|h[The Alliance Slayer]|h|r ", -- [1]
 			"Dawnjeoo-Draenor", -- [2]
@@ -1694,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Dawnjeoo|r",
 			[51] = 1640449650,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [72]
 		{
 			"<NOVA> OFFERING HEROIC |cff66bbff|Hjournal:0:1193:16|h[Sanctum of Domination]|h|r 10/10 HC 200k +160k TRADER + 8/10HC 170k +SylvanasHC 50k+<KT 40k>+Last2HC 80k / SoD Mythic / TWLegion M+15 - 135k / M+14 100k / M+15 95k / 2x15+ 185 / M+20 510k / KSM 1540k / KSH 20+s 3550k Tzvsh-Torghasts /w", -- [1]
 			"Dreamymonk-Draenor", -- [2]
@@ -1716,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dreamymonk|r",
 			[51] = 1640449650,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [73]
 		{
 			"<NOVA>  [ M+15 100k ] [ M+15x4 360k ] |cff66bbff|Hjournal:0:1193:16|h[Sanctum of Domination]|h|r10/10 HC 200k 1 Vip 160 2x Vip 300k ] [Legion Mythic+ 15 150k ] KSH 3550k [  PVP ] [ Torghast 2x12 95k ] [ Sylvanas HC 50k ][ Last 2 Bosss 80k] ", -- [1]
 			"Wowdancer-Draenor", -- [2]
@@ -1738,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcWowdancer|r",
 			[51] = 1640449651,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [74]
 		{
 			"<Nova> Offering <|cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r10/10Hc=200K> <Last2 bosses=80K>  <Mythic SOD>  ||<M0-M22>  <M15=100K - 4x15=350K>  <M20=510K>  <Free armor stack>  <Ksm> ||<Pvp> <Lvlup> <Mount&Pet> Gold only /w For more info!", -- [1]
 			"Novaxdraenor-Draenor", -- [2]
@@ -1760,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeNovaxdraenor|r",
 			[51] = 1640449651,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [75]
 		{
 			"SYLVANAS / M+15 = 105K In Time /|cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r HC-Mythic +TRADER /LAST 2BOSS EVERY 30 MIN /M+20 = 510K /M+19 = 450k /M+18 = 300k /FREE SPECIFIC KEY /KSM 16X15 /10X15=900k /4x15=360k /+ARMOR STACK/TORGHAST /W", -- [1]
 			"Sylsboosts-Draenor", -- [2]
@@ -1782,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Sylsboosts|r",
 			[51] = 1640449652,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [76]
 		{
 			"NOVA || || BIG SALE Heroic 210k (Vip trader 160k) ||Heroic/ <||> WTS HC Sylvanas 50k - HC KT 40k BOTH -80k ||Legion Time Walking M+ 15 185k-260k||M+15 x 4 = 350k|||| ||  M+15 95K-100k|| KSM = 1540K KSH = 3550k [Torghast L1-L12 ] [2v2-3v3-Rbg]", -- [1]
 			"Novamola-Draenor", -- [2]
@@ -1804,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNovamola|r",
 			[51] = 1640449652,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [77]
 		{
 			"<NOVA> SALE!!!! HEROIC 10/10 |cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r  200k - pvp / Sylvanas HC 50 /Sylvanas+Kel 80k/M+15 100k /M+16 160k /M+17 205k /M+18 290k / M19 440k /M+20 510k/KSH 8/8  All +20 3550/Legion", -- [1]
 			"Nowavacrz-Draenor", -- [2]
@@ -1826,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nowavacrz|r",
 			[51] = 1640449653,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [78]
 		{
 			"Nova Offering<|cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|rMythic-HC 200k VIP-160k><4x15=350k><M+15=95k><M+20=510k><M+19=440k> <M+18=290k><M+17=205k><KSH 8x+20=3550k><KSM |cffffff00|Hachievement:15078:Player-1403-0A0FE3C9:0:0:0:0:0:0:0:0|h[Shadowlands Keystone Master: Season Two]|h|r8x+15=770k><LVLING 50-60=550K> <PVP><TORGHST><LEGACY><MOUNT>", -- [1]
 			"Lovleyday-Draenor", -- [2]
@@ -1848,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Lovleyday|r",
 			[51] = 1640449653,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [79]
 		{
 			"<N O V A>  M+15=95/100K || |cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r  FULL HC 200K -  1xTrader=160K || KT=40K || SYLVANAS=50K - BOTH=80K  [4x15=350K] - ||M20=510K|| - [KSM-1540K] - [KSH=3550K] - [TAZA HM=190K] - [TORGHAST-PVP-LEVELING]", -- [1]
 			"Bestoffers-Draenor", -- [2]
@@ -1870,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Bestoffers|r",
 			[51] = 1640449654,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [80]
 		{
 			"<NOVA> WTS |cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r 10/10HC =200K > VIP Trader || < SylvanasHC=50K > || Last 2 HC=80K || M+15=100k|| M+20=510K|| KSH 8xM20=3500K|| KSM=1540k|| Tazavesh HM 190K|| M16-24 InTime || Torghast || PvP 2v2/3v3 || Levelup 50-60|| Legion M+15 ||", -- [1]
 			"Novastaffs-Draenor", -- [2]
@@ -1892,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novastaffs|r",
 			[51] = 1640449654,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [81]
 		{
 			"<DAWN> Offering Today |cffffff00|Hachievement:15127:Player-1305-0BCEAB76:0:0:0:-1:0:0:0:0|h[Heroic: Sanctum of Domination]|h|r 210k@ (14/16/19/20/21/23) Mythic 10/10 +Mount &VIP |cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r / Sylvanas 50K |cff66bbff|Hjournal:1:2440:14|h[Kel'Thuzad]|h|r40K(Both 80K) /+15=110k (4x15=400K) +14=100K (4x14=360K) /+20=520K// +20-26 intime + KSM//PVP/RBG", -- [1]
 			"Icyveinz-Draenor", -- [2]
@@ -1914,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Icyveinz|r",
 			[51] = 1640449655,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [82]
 		{
 			"<DAWN> Offering Today |cffffff00|Hachievement:15127:Player-1403-0A17D609:0:0:0:-1:0:0:0:0|h[Heroic: Sanctum of Domination]|h|r  210K (VIP 160K )@ (14/16/19/20/21/23) Mythic 10/10 +Mount & 2-6x VIP |cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r / <SYLVANAS > HC 50K |cff66bbff|Hjournal:1:2440:14|h[Kel'Thuzad]|h|r 40K (Both 80K ) 15=110k (4x15=400K) +14=100K /+20=520/ 25-26 INTIME/PVP", -- [1]
 			"Lycanboost-Draenor", -- [2]
@@ -1936,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Lycanboost|r",
 			[51] = 1640449655,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [83]
 		{
 			"<Sylvanas> Offering Mythic/HC |cff66bbff|Hjournal:0:1193:15|h[Sanctum of Domination]|h|r 10/10 200k + VIP Trader || Sylvanas 50k (Every 30 min) || KT 40k || Both 80k || M+10-24 || M15 100k (4x M15 360k) FREE stack for 2x || Tazavesh NM/HM || PVP || Torghast || Lvling", -- [1]
 			"Sylvnsadv-Draenor", -- [2]
@@ -1958,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Sylvnsadv|r",
 			[51] = 1640449657,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [84]
 		{
 			"<NOVA> OFFERING  <|cff66bbff|Hjournal:0:1193:15|h[Sanctum of Domination]|h|r Heroic 200k><VIP Traders><M15=100k>  <M20=510k> <KSM 1540k and KSM hero 3550k>  <|cffffff00|Hachievement:15134:Player-1403-0A04E106:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sylvanas Windrunner]|h|r  SYLVANAS 50k><KT 40k><LAST 2 BOSS 80k> <|cff66bbff|Hjournal:0:1194:23|h[Tazavesh, the Veiled Market]|h|r NM 80k-HM 190k> ", -- [1]
 			"Raraidraen-Draenor", -- [2]
@@ -1980,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Raraidraen|r",
 			[51] = 1640449658,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [85]
 		{
 			"<Dawn> [WTS]|cffffff00|Hachievement:15134:Player-3682-0ACC213F:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sylvanas Windrunner]|h|r<Sylvanas HC  50k> <KT HC 40k> <Both 80k>|cff66bbff|Hjournal:0:1193:16|h[Sanctum of Domination]|h|r<10/10m+mount><hc10/10 210k><VIP Traders160k><8x15 KSM850k><M20 520k><M15 100k><4x15 400k><LEGION M15 160k><torghast2xL12 70k>korthia farm", -- [1]
 			"Adshahram-Draenor", -- [2]
@@ -2002,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Adshahram|r",
 			[51] = 1640449660,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [86]
 		{
 			"<NOVA > [+15 Intime=100k] [10/10 HC =200K / 10/10 Mythic =8,8M+Mount+2 VIP ] [Legion Mythic+ 15=185k weekly /260k intime ] [2x+15=190k] [4x+15 Intime=360K ]  [Taza HM=190k ] [Level/Mounts/Legacy/PVP] [EVERY 30 MIN KT+Sylva=80k ] [Layer 12x2=95k ] /w", -- [1]
 			"Novarachel-Draenor", -- [2]
@@ -2024,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNovarachel|r",
 			[51] = 1640449661,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [87]
 		{
 			"<**NOVA**> Is OFFERING  ||||   <HEROIC |cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r=200k, VIP Trader=160k>   <Mythic Sanctum>   <KSM=1540k>   <KSH=3550k>   <M+10=75k>   <M+15=100k>   <PVP>   <Sylvanas Heroic=50k>   <Last 2 Heroic=80k> ||", -- [1]
 			"Novababy-Draenor", -- [2]
@@ -2046,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novababy|r",
 			[51] = 1640449662,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [88]
 		{
 			"NOVA || || BIG SALE Heroic 210k (Vip trader 160k) ||Heroic/ <||> WTS HC Sylvanas 50k - HC KT 40k BOTH -80k ||Legion Time Walking M+ 15 185k-260k||M+15 x 4 = 350k|||| ||  M+15 95K-100k|| KSM = 1540K KSH = 3550k [Torghast L1-L12 ] [2v2-3v3-Rbg]", -- [1]
 			"Novarite-Draenor", -- [2]
@@ -2068,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cNovarite|r",
 			[51] = 1640449662,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [89]
 		{
 			"<N O V A> OFFERS<|cff66bbff|Hjournal:0:1193:16|h[Sanctum of Domination]|h|r HC 200k><|cff66bbff|Hjournal:1:2441:14|h[Sylvanas Windrunner]|h|r 50k><|cff66bbff|Hjournal:1:2440:14|h[Kel'Thuzad]|h|r 40k><Last 2 Boss 80k><+15=100k><4x 15=350k> <FREE ARMORSTACK FOR 2x run> <+14=95k> <+10=75k> <+20=510k><KSM with ARMORSTACK=1540k><TAZAVESH HM 190k-NM 80k>", -- [1]
 			"Dariova-Draenor", -- [2]
@@ -2090,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dariova|r",
 			[51] = 1640449663,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [90]
 		{
 			"<DAWN> IS OFFERING <|cffffff00|Hachievement:15127:Player-1403-0A19FD04:1:9:22:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: Sanctum of Domination]|h|r 210K > <VIP Trader 160k> [ Sylavnas 50k><KT 40K><Both 80K ] || M+15=110k <M+14=100K> <Armor Stack> || 4x15 400K || <M+16=170k> <M+17=210k><M+18=310k>||LVLUP 51/60|| Also Selling |cffffff00|Hachievement:12568:Player-1403-0A19FD04:1:9:22:19:4294967295:4294967295:4294967295:4294967295|h[The Alliance Slayer]|h|r ", -- [1]
 			"Dawnsjeoo-Draenor", -- [2]
@@ -2112,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cDawnsjeoo|r",
 			[51] = 1640449664,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [91]
 		{
 			"<NOVA> <DISCOUNTS>M+15 100K(buy 2x for free armor stack) ||<|| KSM 1700K> <[SoD HC 200K(2xVIP DISCOUNTSK) - SoD MYTHIC>  M+ 10-22] |||| Taza NM-80K HM-190K|||| HC Syl 50K KT 40K both 80K |||| Torghast 2x12=95K |||| 2v2-3v3-Rbg /w for", -- [1]
 			"Standforever-Draenor", -- [2]
@@ -2134,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Standforever|r",
 			[51] = 1640449665,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [92]
 		{
 			"<Sylvanas Boost Community> Selling [Ahead Of The Curve] Kel'Thuzad and Sylvanas [80k] // Kel'Thuzad by itself [40k]// Sylvanas By itself [50k] // We have runs going every 30min /w me for more info!", -- [1]
 			"Damzadvv-Draenor", -- [2]
@@ -2156,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcDamzadvv|r",
 			[51] = 1640449666,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [93]
 		{
 			"<<Sylvanas>> Mythic + Prices / M+15=105k || M+12 = 90k || M+14 = 100k || M+10 = 55k|| SoD HC Full Clear || KSM 20x8 = 3600k All key Timed || Tazavrsh HM = 190k || Keystonemaster 1640k |||| /w me for more info", -- [1]
 			"Damzadvv-Draenor", -- [2]
@@ -2177,6 +2067,116 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "|cff006fdcDamzadvv|r",
 			[51] = 1640449672,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"< N O V A > |cff66bbff|Hjournal:0:1193:16|h[Sanctum of Domination]|h|r10/10HC= 200k/ |cff66bbff|Hjournal:1:1590:14|h[Illidan Stormrage]|h|r 250k/FREE ARMOR+15 INTIME 100k [SPECIAL DEALS 4X15=360K]20=510K Tazavash HM=190k]50-60Lv=550k/ Thor 2x12=95K /w", -- [1]
+			"Novaservizze-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Novaservizze-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			60, -- [11]
+			"Player-1403-0A19C624", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcNovaservizze|r",
+			[51] = 1640817051,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"<Nova> Offering <|cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r10/10Hc=200K> <Last2 bosses=80K>  <Mythic SOD>  ||<M0-M22>  <M15=100K - 4x15=350K>  <M20=510K>  <Free armor stack>  <Ksm> ||<Pvp> <Lvlup> <Mount&Pet>Gold only /w For more info!", -- [1]
+			"Novaadraenor-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Novaadraenor-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			63, -- [11]
+			"Player-1403-0A1AC734", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Novaadraenor|r",
+			[51] = 1640817051,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"SYLVANAS // M+15 = 105k In Time // M+18 = 300k // M+19 = 450K // M+20 = 510K // M+21 = 650K // M+25 = 3000k // U CAN CHOOSE KEY // 4X15 = 360K // 10X15 = 900K // FREE ARMOR STACK // SOD HC-MYTHIC +Free Trader // LAST 2BOSS EVERY 30 MIN // TORGHAST // W", -- [1]
+			"Syldraenor-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Syldraenor-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			64, -- [11]
+			"Player-1403-0A1A16B8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Syldraenor|r",
+			[51] = 1640817052,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"<NOVA> Offering HC Sanctum 200k  <2x VIP Traders Discount>  <M+15=100k>  <Sylvanas->50k  Kel-40k  <Last2->80k  <4x+15=350k>  <illidan=250k>  <Legion M+15=135k>  <Tazavesh->190k  <KSM 16x +15 =1540k>  <KSH 8x +20 =3550k> Torghast - PvP - Leveling /w me", -- [1]
+			"Novadev-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Novadev-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			65, -- [11]
+			"Player-1403-09F46C1C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaNovadev|r",
+			[51] = 1640817053,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"<SYLVANAS>|cff66bbff|Hjournal:0:1193:15|h[Sanctum of Domination]|h|r10/10=<200k> +VIP TRADER 1xM+15=<100k> 4x+15=<360k> Mythic10/10 +2 FREE VIPS M+20=<520k> LAST 2 BOSS =<80k>  Torghast / Tazavesh / PvP ! All Cheap Whisper for info!", -- [1]
+			"Albodawn-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Albodawn-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			67, -- [11]
+			"Player-1403-09F6A939", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Albodawn|r",
+			[51] = 1640817055,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},

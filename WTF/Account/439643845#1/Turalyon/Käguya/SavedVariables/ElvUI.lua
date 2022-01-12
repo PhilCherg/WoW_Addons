@@ -179,14 +179,14 @@ ElvCharacterDB = {
 		}, -- [8]
 	},
 	["ChatEditHistory"] = {
-		"/played", -- [1]
-		"/love", -- [2]
-		"/immersion", -- [3]
-		"/p how do we get to orgrimar?", -- [4]
-		"/timer", -- [5]
-		"/wa", -- [6]
-		"/s where is the portal to orgrimar from here?", -- [7]
-		"/s how do we get to orgrimar?", -- [8]
+		"/p how do we get to orgrimar?", -- [1]
+		"/s how do we get to orgrimar?", -- [2]
+		"/s where is the portal to orgrimar from here?", -- [3]
+		"/played", -- [4]
+		"/wa", -- [5]
+		"/timer", -- [6]
+		"/immersion", -- [7]
+		"/love", -- [8]
 	},
 	["ConvertKeybindings"] = true,
 }

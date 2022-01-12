@@ -3,17 +3,20 @@ SimulationCraftDB = {
 	["profileKeys"] = {
 		["Mallazin - Azjol-Nerub"] = "Mallazin - Azjol-Nerub",
 		["Barbaxius - Outland"] = "Barbaxius - Outland",
-		["Feastone - Outland"] = "Feastone - Outland",
+		["Feastfour - Outland"] = "Feastfour - Outland",
 		["Feastyone - Outland"] = "Feastyone - Outland",
-		["Phaltraxion - Outland"] = "Phaltraxion - Outland",
-		["Necrophagus - Outland"] = "Necrophagus - Outland",
-		["Feattwo - Outland"] = "Feattwo - Outland",
 		["Nibirus - Azjol-Nerub"] = "Nibirus - Azjol-Nerub",
 		["Käguya - Turalyon"] = "Käguya - Turalyon",
 		["Phaladinus - Outland"] = "Phaladinus - Outland",
 		["Phalonius - Azjol-Nerub"] = "Phalonius - Azjol-Nerub",
+		["Feastfive - Outland"] = "Feastfive - Outland",
+		["Necrophagus - Outland"] = "Necrophagus - Outland",
 		["Illyana - Outland"] = "Illyana - Outland",
-		["Feastfour - Outland"] = "Feastfour - Outland",
+		["Illydaria - Draenor"] = "Illydaria - Draenor",
+		["Wolfados - Azjol-Nerub"] = "Wolfados - Azjol-Nerub",
+		["Phaltraxion - Outland"] = "Phaltraxion - Outland",
+		["Feattwo - Outland"] = "Feattwo - Outland",
+		["Feastone - Outland"] = "Feastone - Outland",
 		["Feastthree - Outland"] = "Feastthree - Outland",
 	},
 	["profiles"] = {
@@ -21,15 +24,9 @@ SimulationCraftDB = {
 		},
 		["Barbaxius - Outland"] = {
 		},
-		["Feastone - Outland"] = {
+		["Feastfour - Outland"] = {
 		},
 		["Feastyone - Outland"] = {
-		},
-		["Phaltraxion - Outland"] = {
-		},
-		["Necrophagus - Outland"] = {
-		},
-		["Feattwo - Outland"] = {
 		},
 		["Nibirus - Azjol-Nerub"] = {
 		},
@@ -39,12 +36,24 @@ SimulationCraftDB = {
 		},
 		["Phalonius - Azjol-Nerub"] = {
 		},
+		["Feastfive - Outland"] = {
+		},
+		["Necrophagus - Outland"] = {
+		},
 		["Illyana - Outland"] = {
 			["minimap"] = {
 				["minimapPos"] = 209.9586573639202,
 			},
 		},
-		["Feastfour - Outland"] = {
+		["Illydaria - Draenor"] = {
+		},
+		["Wolfados - Azjol-Nerub"] = {
+		},
+		["Phaltraxion - Outland"] = {
+		},
+		["Feattwo - Outland"] = {
+		},
+		["Feastone - Outland"] = {
 		},
 		["Feastthree - Outland"] = {
 		},
