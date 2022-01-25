@@ -65,12 +65,12 @@ function RSMinimapPinMixin:ShowOverlay(r, g, b)
 	if (overlay) then
 		for _, coordinates in ipairs (overlay) do
 			local x, y = strsplit("-", coordinates)
-			if (not playerCoordX or not playerCoodY or RSUtils.DistanceBetweenCoords(tonumber("0."..x), playerCoordX, tonumber("0."..y), playerCoodY) <= RSConstants.MAXIMUN_MINIMAP_DISTANCE_RANGE) then
+			if (not playerCoordX or not playerCoodY or RSUtils.DistanceBetweenCoords(RSUtils.FixCoord(x), playerCoordX, RSUtils.FixCoord(y), playerCoodY) <= RSConstants.MAXIMUN_MINIMAP_DISTANCE_RANGE) then
 				local pin = self.overlayFramesPool:Acquire()
 				pin.POI = self.POI
 				pin.Texture:SetTexture(RSConstants.OVERLAY_SPOT_TEXTURE)
 				pin.Texture:SetVertexColor(r, g, b, 1)
-				HBD_Pins:AddMinimapIconMap(self, pin, self.POI.mapID, tonumber("0."..x), tonumber("0."..y), false, false)
+				HBD_Pins:AddMinimapIconMap(self, pin, self.POI.mapID, RSUtils.FixCoord(x), RSUtils.FixCoord(y), false, false)
 			end
 		end
 	end

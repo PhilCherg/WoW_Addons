@@ -1454,10 +1454,17 @@ local function GetCustomNpcOptions()
 			if (overlay) then
 				for i, coordinate in pairs (overlay) do
 					local x, y = strsplit("-",coordinate)
+					local pattern
 					if (i > 1) then
-						coordinates = coordinates..string.format(",%s-%s", string.sub(x, 3), string.sub(y, 3))
+						pattern = ",%s-%s"
 					else
-						coordinates = coordinates..string.format("%s-%s", string.sub(x, 3), string.sub(y, 3))
+						pattern = "%s-%s"
+					end
+					
+					if (tonumber(x) < 1) then
+						coordinates = coordinates..string.format(pattern, string.sub(x, 3), string.sub(y, 3))
+					else
+						coordinates = coordinates..string.format(pattern, x, y)
 					end
 				end
 			end

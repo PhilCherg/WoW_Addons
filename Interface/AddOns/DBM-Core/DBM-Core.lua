@@ -66,18 +66,18 @@ local function showRealDate(curseDate)
 end
 
 DBM = {
-	Revision = parseCurseDate("20211215032042"),
+	Revision = parseCurseDate("20220118185328"),
 }
 -- The string that is shown as version
 if isRetail then
-	DBM.DisplayVersion = "9.1.23"
-	DBM.ReleaseRevision = releaseDate(2021, 12, 14) -- the date of the latest stable version that is available, optionally pass hours, minutes, and seconds for multiple releases in one day
+	DBM.DisplayVersion = "9.1.25"
+	DBM.ReleaseRevision = releaseDate(2022, 1, 18) -- the date of the latest stable version that is available, optionally pass hours, minutes, and seconds for multiple releases in one day
 elseif isClassic then
-	DBM.DisplayVersion = "1.14.7"
-	DBM.ReleaseRevision = releaseDate(2021, 12, 14) -- the date of the latest stable version that is available, optionally pass hours, minutes, and seconds for multiple releases in one day
+	DBM.DisplayVersion = "1.14.9"
+	DBM.ReleaseRevision = releaseDate(2022, 1, 18) -- the date of the latest stable version that is available, optionally pass hours, minutes, and seconds for multiple releases in one day
 elseif isBCC then
-	DBM.DisplayVersion = "2.5.22"
-	DBM.ReleaseRevision = releaseDate(2021, 12, 14) -- the date of the latest stable version that is available, optionally pass hours, minutes, and seconds for multiple releases in one day
+	DBM.DisplayVersion = "2.5.24"
+	DBM.ReleaseRevision = releaseDate(2022, 1, 18) -- the date of the latest stable version that is available, optionally pass hours, minutes, and seconds for multiple releases in one day
 end
 DBM.HighestRelease = DBM.ReleaseRevision --Updated if newer version is detected, used by update nags to reflect critical fixes user is missing on boss pulls
 
@@ -327,6 +327,7 @@ DBM.DefaultOptions = {
 	AutoAcceptGuildInvite = false,
 	FakeBWVersion = false,
 	AITimer = true,
+	ExtendIcons = false,
 	ShortTimerText = true,
 	ChatFrame = "DEFAULT_CHAT_FRAME",
 	CoreSavedRevision = 1,
@@ -393,6 +394,7 @@ local bannedMods = { -- a list of "banned" (meaning they are replaced by another
 	"DBM-GarrisonInvasions",--Merged into DBM-Draenor mod
 	"DBM-Azeroth-BfA",--renamed to DBM-BfA
 	"DBM-BattlefieldBarrens",--Apparently people are still running this
+	"DBM-RaidLeadTools", -- Killed plugin
 }
 if isRetail then
 	table.insert(bannedMods, "DBM-ZulAman") -- Part of Cataclysm party mods
@@ -422,7 +424,7 @@ if isRetail then
 		[1205]={40, 3},[1448]={40, 3},[1228]={40, 3},--WoD Raids (yes, only 3 kekw)
 		[1712]={50, 3},[1520]={50, 3},[1530]={50, 3},[1676]={50, 3},[1648]={50, 3},--Legion Raids (Set to 50 because 45 tuning makes them difficult even at 50)
 		[1861]={50, 3},[2070]={50, 3},[2096]={50, 3},[2164]={50, 3},[2217]={50, 3},--BfA Raids
-		[2296]={60, 3},[2450]={60, 3},--Shadowlands Raids
+		[2296]={60, 3},[2450]={60, 3},[2481]={60, 3},--Shadowlands Raids
 		--Dungeons
 		[48]={30, 2},[230]={30, 2},[429]={30, 2},[389]={30, 2},[34]={30, 2},--Classic Dungeons
 		[540]={30, 2},[558]={30, 2},[556]={30, 2},[555]={30, 2},[542]={30, 2},[546]={30, 2},[545]={30, 2},[547]={30, 2},[553]={30, 2},[554]={30, 2},[552]={30, 2},[557]={30, 2},[269]={30, 2},[560]={30, 2},[543]={30, 2},[585]={30, 2},--BC Dungeons
@@ -1348,11 +1350,6 @@ do
 					return
 				end
 			end
-			if GetAddOnEnableState(playerName, "DBM-RaidLeadTools") >= 1 and not self.Options.DebugMode then
-				self:Disable(true)
-				self:Schedule(15, infniteLoopNotice, self, L.OUTDATEDRLT)
-				return
-			end
 			if GetAddOnEnableState(playerName, "DPMCore") >= 1 then
 				self:Disable(true)
 				self:Schedule(15, infniteLoopNotice, self, L.DPMCORE)
@@ -1939,10 +1936,6 @@ do
 				return
 			end
 		end
-		if GetAddOnEnableState(playerName, "DBM-RaidLeadTools") >= 1 and not self.Options.DebugMode then
-			self:AddMsg(L.OUTDATEDRLT)
-			return
-		end
 		if GetAddOnEnableState(playerName, "DPMCore") >= 1 then
 			self:AddMsg(L.DPMCORE)
 			return
@@ -2247,7 +2240,10 @@ do
 		return (raid[name] and raid[name].subgroup) or 0
 	end
 
-	function DBM:GetRaidRoster()
+	function DBM:GetRaidRoster(name)
+		if name then
+			return raid[name] ~= nil
+		end
 		return raid
 	end
 
@@ -2506,7 +2502,8 @@ function DBM:IsTrivial(customLevel)
 		--First, auto bail and return non trivial if it's an instancce not in table to prevent nil error
 		if not instanceDifficultyBylevel[LastInstanceMapID] then return false end
 		--Content is trivial if player level is 10 higher than content involved
-		if playerLevel >= (instanceDifficultyBylevel[LastInstanceMapID][1]+10) then
+		local levelDiff = isRetail and 10 or 15
+		if playerLevel >= (instanceDifficultyBylevel[LastInstanceMapID][1]+levelDiff) then
 			return true
 		end
 	end
@@ -6491,7 +6488,7 @@ function bossModPrototype:SetStage(stage)
 	if self.inCombat then--Safety, in event mod manages to run any phase change calls out of combat/during a wipe we'll just safely ignore it
 		fireEvent("DBM_SetStage", self, self.id, self.vb.phase, self.multiEncounterPullDetection and self.multiEncounterPullDetection[1] or self.encounterId, self.vb.stageTotality)--Mod, modId, Stage, Encounter Id (if available), total number of times SetStage has been called since combat start
 		--Note, some encounters have more than one encounter Id, for these encounters, the first ID from mod is always returned regardless of actual engage ID triggered fight
-		DBM:Debug("DBM_SetStage: " .. self.vb.phase)
+		DBM:Debug("DBM_SetStage: " .. self.vb.phase .. "/" .. self.vb.stageTotality)
 	end
 end
 
@@ -7592,7 +7589,8 @@ do
 						end
 						local playerColor = RAID_CLASS_COLORS[playerClass] or color
 						if playerColor then
-							if playerIcon > 0 then
+							local maxIcon = DBM.Options.ExtendIcons and 16 or 8
+							if playerIcon > 0 and playerIcon <= maxIcon then
 								cap = ("|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_%d:0|t"):format(playerIcon) .. ("|r|cff%.2x%.2x%.2x%s|r|cff%.2x%.2x%.2x"):format(playerColor.r * 255, playerColor.g * 255, playerColor.b * 255, cap, color.r * 255, color.g * 255, color.b * 255)
 							else
 								cap = ("|r|cff%.2x%.2x%.2x%s|r|cff%.2x%.2x%.2x"):format(playerColor.r * 255, playerColor.g * 255, playerColor.b * 255, cap, color.r * 255, color.g * 255, color.b * 255)
@@ -8232,7 +8230,8 @@ do
 				if DBM.Options.SWarnClassColor then
 					local playerColor = RAID_CLASS_COLORS[playerClass]
 					if playerColor then
-						if playerIcon > 0 then
+						local maxIcon = DBM.Options.ExtendIcons and 16 or 8
+						if playerIcon > 0 and playerIcon <= maxIcon then
 							cap = ("|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_%d:0|t"):format(playerIcon) .. ("|r|cff%.2x%.2x%.2x%s|r|cff%.2x%.2x%.2x"):format(playerColor.r * 255, playerColor.g * 255, playerColor.b * 255, cap, DBM.Options.SpecialWarningFontCol[1] * 255, DBM.Options.SpecialWarningFontCol[2] * 255, DBM.Options.SpecialWarningFontCol[3] * 255)
 						else
 							cap = ("|r|cff%.2x%.2x%.2x%s|r|cff%.2x%.2x%.2x"):format(playerColor.r * 255, playerColor.g * 255, playerColor.b * 255, cap, DBM.Options.SpecialWarningFontCol[1] * 255, DBM.Options.SpecialWarningFontCol[2] * 255, DBM.Options.SpecialWarningFontCol[3] * 255)
@@ -9699,11 +9698,7 @@ do
 				self.name = spellName
 			end
 		end
-		if L.AUTO_TIMER_TEXTS[timerType.."short"] and DBT.Options.StripCDText then
-			return pformat(L.AUTO_TIMER_TEXTS[timerType.."short"], spellName)
-		else
-			return pformat(L.AUTO_TIMER_TEXTS[timerType], spellName)
-		end
+		return pformat(L.AUTO_TIMER_TEXTS[timerType], spellName)
 	end
 end
 
@@ -9820,7 +9815,15 @@ function bossModPrototype:AddSpecialWarningOption(name, default, defaultSound, c
 	self:SetOptionCategory(name, cat)
 end
 
-function bossModPrototype:AddSetIconOption(name, spellId, default, isHostile, iconsUsed)
+--Extended Icon Usage Notes
+--Any time extended icons is used, option must be OFF by default
+--Option must be hidden from GUI if extended icoins not enabled
+--If extended icons are disabled, then on mod load, users option is reset to default (off) to prevent their mod from still executing SetIcon functions (this is because even if it's hidden from GUI, if option was created and enabled, it'd still run)
+function bossModPrototype:AddSetIconOption(name, spellId, default, isHostile, iconsUsed, requiresExtended, conflictWarning)
+	if requiresExtended and not DBM.Options.ExtendIcons then
+		self.Options[name] = false
+		return
+	end--Do not even show option in GUID if user hasn't extended icons
 	self.DefaultOptions[name] = (default == nil) or default
 	if default and type(default) == "string" then
 		default = self:GetRoleFlagValue(default)
@@ -9838,8 +9841,12 @@ function bossModPrototype:AddSetIconOption(name, spellId, default, isHostile, ic
 	end
 	--A table defining used icons by number, insert icon textures to end of option
 	if iconsUsed then
+		local totalIcons = #iconsUsed
+		if not DBM.Options.ExtendIcons and totalIcons > 8 then
+			totalIcons = 8
+		end
 		self.localization.options[name] = self.localization.options[name].." ("
-		for i=1, #iconsUsed do
+		for i=1, totalIcons do
 			--Texture ID 137009 if direct calling RaidTargetingIcons stops working one day
 			if 		iconsUsed[i] == 1 then		self.localization.options[name] = self.localization.options[name].."|TInterface\\TargetingFrame\\UI-RaidTargetingIcons.blp:13:13:0:0:64:64:0:16:0:16|t"
 			elseif	iconsUsed[i] == 2 then		self.localization.options[name] = self.localization.options[name].."|TInterface\\TargetingFrame\\UI-RaidTargetingIcons.blp:13:13:0:0:64:64:16:32:0:16|t"
@@ -9849,9 +9856,20 @@ function bossModPrototype:AddSetIconOption(name, spellId, default, isHostile, ic
 			elseif	iconsUsed[i] == 6 then		self.localization.options[name] = self.localization.options[name].."|TInterface\\TargetingFrame\\UI-RaidTargetingIcons.blp:13:13:0:0:64:64:16:32:16:32|t"
 			elseif	iconsUsed[i] == 7 then		self.localization.options[name] = self.localization.options[name].."|TInterface\\TargetingFrame\\UI-RaidTargetingIcons.blp:13:13:0:0:64:64:32:48:16:32|t"
 			elseif	iconsUsed[i] == 8 then		self.localization.options[name] = self.localization.options[name].."|TInterface\\TargetingFrame\\UI-RaidTargetingIcons.blp:13:13:0:0:64:64:48:64:16:32|t"
+			elseif	iconsUsed[i] == 9 then		self.localization.options[name] = self.localization.options[name].."|TInterface\\TargetingFrame\\UI-RaidTargetingIcons.blp:13:13:0:0:64:64:0:16:32:48|t"
+			elseif	iconsUsed[i] == 10 then		self.localization.options[name] = self.localization.options[name].."|TInterface\\TargetingFrame\\UI-RaidTargetingIcons.blp:13:13:0:0:64:64:16:32:32:48|t"
+			elseif	iconsUsed[i] == 11 then		self.localization.options[name] = self.localization.options[name].."|TInterface\\TargetingFrame\\UI-RaidTargetingIcons.blp:13:13:0:0:64:64:32:48:32:48|t"
+			elseif	iconsUsed[i] == 12 then		self.localization.options[name] = self.localization.options[name].."|TInterface\\TargetingFrame\\UI-RaidTargetingIcons.blp:13:13:0:0:64:64:48:64:32:48|t"
+			elseif	iconsUsed[i] == 13 then		self.localization.options[name] = self.localization.options[name].."|TInterface\\TargetingFrame\\UI-RaidTargetingIcons.blp:13:13:0:0:64:64:0:16:48:64|t"
+			elseif	iconsUsed[i] == 14 then		self.localization.options[name] = self.localization.options[name].."|TInterface\\TargetingFrame\\UI-RaidTargetingIcons.blp:13:13:0:0:64:64:16:32:48:64|t"
+			elseif	iconsUsed[i] == 15 then		self.localization.options[name] = self.localization.options[name].."|TInterface\\TargetingFrame\\UI-RaidTargetingIcons.blp:13:13:0:0:64:64:32:48:48:64|t"
+			elseif	iconsUsed[i] == 16 then		self.localization.options[name] = self.localization.options[name].."|TInterface\\TargetingFrame\\UI-RaidTargetingIcons.blp:13:13:0:0:64:64:48:64:48:64|t"
 			end
 		end
 		self.localization.options[name] = self.localization.options[name]..")"
+		if conflictWarning then
+			self.localization.options[name] = self.localization.options[name] .. L.AUTO_ICONS_OPTION_CONFLICT
+		end
 	end
 end
 
@@ -9913,7 +9931,7 @@ function bossModPrototype:AddNamePlateOption(name, spellId, default)
 	self.localization.options[name] = L.AUTO_NAMEPLATE_OPTION_TEXT:format(spellId)
 end
 
-function bossModPrototype:AddInfoFrameOption(spellId, default, optionVersion)
+function bossModPrototype:AddInfoFrameOption(spellId, default, optionVersion, optionalThreshold)
 	local oVersion = ""
 	if optionVersion then
 		oVersion = tostring(optionVersion)
@@ -9925,7 +9943,11 @@ function bossModPrototype:AddInfoFrameOption(spellId, default, optionVersion)
 	self.Options["InfoFrame"..oVersion] = (default == nil) or default
 	self:SetOptionCategory("InfoFrame"..oVersion, "misc")
 	if spellId then
-		self.localization.options["InfoFrame"..oVersion] = L.AUTO_INFO_FRAME_OPTION_TEXT:format(spellId)
+		if optionalThreshold then
+			self.localization.options["InfoFrame"..oVersion] = L.AUTO_INFO_FRAME_OPTION_TEXT3:format(spellId, optionalThreshold)
+		else
+			self.localization.options["InfoFrame"..oVersion] = L.AUTO_INFO_FRAME_OPTION_TEXT:format(spellId)
+		end
 	else
 		self.localization.options["InfoFrame"..oVersion] = L.AUTO_INFO_FRAME_OPTION_TEXT2
 	end
@@ -9951,51 +9973,6 @@ function bossModPrototype:AddSpeedClearOption(name, default)
 	self.Options["SpeedClearTimer"] = (default == nil) or default
 	self:SetOptionCategory("SpeedClearTimer", "timer")
 	self.localization.options["SpeedClearTimer"] = L.AUTO_SPEEDCLEAR_OPTION_TEXT:format(name)
-end
-
-function bossModPrototype:AddSliderOption(name, minValue, maxValue, valueStep, default, cat, func)
-	cat = cat or "misc"
-	self.DefaultOptions[name] = {type = "slider", value = default or 0}
-	self.Options[name] = default or 0
-	self:SetOptionCategory(name, cat)
-	self.sliders = self.sliders or {}
-	self.sliders[name] = {
-		minValue = minValue,
-		maxValue = maxValue,
-		valueStep = valueStep,
-	}
-	if func then
-		self.optionFuncs = self.optionFuncs or {}
-		self.optionFuncs[name] = func
-	end
-end
-
-function bossModPrototype:AddEditboxOption(name, default, cat, width, height, func)
-	cat = cat or "misc"
-	self.DefaultOptions[name] = {type = "editbox", value = default or ""}
-	self.Options[name] = default or ""
-	self:SetOptionCategory(name, cat)
-	self.editboxes = self.editboxes or {}
-	self.editboxes[name] = {
-		width = width,
-		height = height
-	}
-	if func then
-		self.optionFuncs = self.optionFuncs or {}
-		self.optionFuncs[name] = func
-	end
-end
-
-function bossModPrototype:AddButton(name, onClick, cat, width, height, fontObject)
-	cat = cat or "misc"
-	self:SetOptionCategory(name, cat)
-	self.buttons = self.buttons or {}
-	self.buttons[name] = {
-		onClick = onClick,
-		width = width,
-		height = height,
-		fontObject = fontObject
-	}
 end
 
 -- FIXME: this function does not reset any settings to default if you remove an option in a later revision and a user has selected this option in an earlier revision were it still was available

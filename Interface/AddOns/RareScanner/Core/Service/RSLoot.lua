@@ -192,7 +192,7 @@ function RSLoot.IsFiltered(itemID, itemLink, itemRarity, itemEquipLoc, itemClass
 	
 	-- Anima items filter
 	if (RSConfigDB.IsFilteringAnimaItems()) then
-		if (RSTooltipScanners.ScanLoot(itemLink, ANIMA)) then
+		if (RSTooltipScanners.ScanLoot(itemLink, WORLD_QUEST_REWARD_FILTERS_ANIMA)) then
 			RSLogger:PrintDebugMessageItemID(itemID, string.format("Item [%s]. Filtrado por ser un objeto que da ánima.", itemID))
 			return true
 		end

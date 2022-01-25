@@ -22,6 +22,9 @@ local RSGuidePOI = private.ImportLib("RareScannerGuidePOI")
 local RSTomtom = private.ImportLib("RareScannerTomtom")
 local RSWaypoints = private.ImportLib("RareScannerWaypoints")
 
+-- RareScanner general libraries
+local RSUtils = private.ImportLib("RareScannerUtils")
+
 RSEntityPinMixin = CreateFromMixins(MapCanvasPinMixin);
 
 function RSEntityPinMixin:OnLoad()
@@ -33,11 +36,7 @@ function RSEntityPinMixin:OnAcquired(POI)
 	self.POI = POI
 	self.Texture:SetTexture(POI.Texture)
 	self.Texture:SetScale(RSConfigDB.GetIconsWorldMapScale())
-	if (POI.x <= 1 and POI.y <= 1) then
-		self:SetPosition(POI.x, POI.y);
-	else
-		self:SetPosition(tonumber("0."..POI.x), tonumber("0."..POI.y));
-	end
+	self:SetPosition(RSUtils.FixCoord(POI.x), RSUtils.FixCoord(POI.y));
 end
 
 function RSEntityPinMixin:OnMouseEnter()
@@ -151,7 +150,7 @@ function RSEntityPinMixin:ShowOverlay()
 		-- Adds the new one
 		for _, coordinates in ipairs (overlay) do
 			local x, y = strsplit("-", coordinates)
-			self:GetMap():AcquirePin("RSOverlayTemplate", tonumber(x), tonumber(y), r, g, b, self);
+			self:GetMap():AcquirePin("RSOverlayTemplate", RSUtils.FixCoord(x), RSUtils.FixCoord(y), r, g, b, self);
 		end
 	end
 end

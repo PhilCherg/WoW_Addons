@@ -138,14 +138,10 @@ function RSMinimap.RefreshAllData(forzed)
 		pin.POI = POI
 			
 		-- Ignore POIs from worldmap
-		if (not POI.worldmap and (not playerCoordX or not playerCoodY or RSUtils.DistanceBetweenCoords(tonumber(POI.x), playerCoordX, tonumber(POI.y), playerCoodY) <= RSConstants.MAXIMUN_MINIMAP_DISTANCE_RANGE)) then
+		if (not POI.worldmap and (not playerCoordX or not playerCoodY or RSUtils.DistanceBetweenCoords(RSUtils.FixCoord(POI.x), playerCoordX, RSUtils.FixCoord(POI.y), playerCoodY) <= RSConstants.MAXIMUN_MINIMAP_DISTANCE_RANGE)) then
 			pin.Texture:SetTexture(POI.Texture)
 			pin.Texture:SetScale(RSConfigDB.GetIconsMinimapScale())
-			if (POI.x <= 1 and POI.y <= 1) then
-				HBD_Pins:AddMinimapIconMap(RSMinimap, pin, POI.mapID, tonumber(POI.x), tonumber(POI.y), false, false)
-			else
-				HBD_Pins:AddMinimapIconMap(RSMinimap, pin, POI.mapID, tonumber("0."..POI.x), tonumber("0."..POI.y), false, false)
-			end
+			HBD_Pins:AddMinimapIconMap(RSMinimap, pin, POI.mapID, RSUtils.FixCoord(POI.x), RSUtils.FixCoord(POI.y), false, false)
 		end
 	
 		-- Adds overlay if active
