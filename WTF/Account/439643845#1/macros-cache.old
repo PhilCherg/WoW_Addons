@@ -26,7 +26,7 @@ VER 3 0000000000000019 "Chain Heal" "136042"
 #showtooltip Chain Heal
 /use [@mouseover, exists] Chain Heal
 END
-VER 3 000000000000000F "Command Demon" "236292"
+VER 3 000000000000000F "Command Demon" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover,exists,nodead] [] Command Demon
 END
@@ -105,11 +105,11 @@ END
 VER 3 0000000000000021 "KIss" "136217"
 /kneel
 END
-VER 3 0000000000000041 "Kneel" "INV_MISC_QUESTIONMARK"
-END
 VER 3 0000000000000028 "Kneel" "236291"
 /tar Queen
 /kneel
+END
+VER 3 0000000000000041 "Kneel" "INV_MISC_QUESTIONMARK"
 END
 VER 3 000000000000002C "PetAndStones" "136103"
 /use Fel Domination

@@ -9,15 +9,15 @@ AstralKeysSettings = {
 		["show_minimap_button"] = {
 			["isEnabled"] = true,
 		},
-		["init_time"] = 1641366000,
+		["init_time"] = 1643785200,
 		["expanded_tooltip"] = {
 			["isEnabled"] = true,
 		},
 		["report_on_message"] = {
-			["raid"] = false,
-			["party"] = true,
 			["no_key"] = false,
+			["party"] = true,
 			["guild"] = false,
+			["raid"] = false,
 		},
 		["show_tooltip_key"] = {
 			["isEnabled"] = true,
@@ -42,7 +42,9 @@ AstralKeysSettings = {
 			true, -- [9]
 			true, -- [10]
 		},
-		["current_list"] = "GUILD",
+		["show_offline"] = {
+			["isEnabled"] = true,
+		},
 		["isCollapsed"] = {
 			["isEnabled"] = false,
 		},
@@ -51,11 +53,8 @@ AstralKeysSettings = {
 			["isEnabled"] = false,
 		},
 		["sorth_method"] = "character_name",
-		["show_offline"] = {
-			["isEnabled"] = true,
-		},
+		["current_list"] = "GUILD",
 	},
-	["new_settings_config"] = true,
 	["friendOptions"] = {
 		["friend_sync"] = {
 			["isEnabled"] = true,
@@ -64,6 +63,7 @@ AstralKeysSettings = {
 			["isEnabled"] = true,
 		},
 	},
+	["new_settings_config"] = true,
 }
 AstralMinimap = {
 	["profileKeys"] = {
@@ -79,20 +79,21 @@ AstralMinimap = {
 		["Lianxia - Draenor"] = "Lianxia - Draenor",
 		["Feastfive - Outland"] = "Feastfive - Outland",
 		["Bankeristor - Outland"] = "Bankeristor - Outland",
-		["Feastthree - Outland"] = "Feastthree - Outland",
-		["Nibirus - Azjol-Nerub"] = "Nibirus - Azjol-Nerub",
+		["Elementior - Outland"] = "Elementior - Outland",
+		["Bullenic - Silvermoon"] = "Bullenic - Silvermoon",
+		["Feastyone - Outland"] = "Feastyone - Outland",
 		["Necrophagus - Outland"] = "Necrophagus - Outland",
 		["Phalonius - Azjol-Nerub"] = "Phalonius - Azjol-Nerub",
+		["Feastfour - Outland"] = "Feastfour - Outland",
 		["Illyana - Outland"] = "Illyana - Outland",
-		["Feattwo - Outland"] = "Feattwo - Outland",
 		["Illydaria - Draenor"] = "Illydaria - Draenor",
 		["Destruxia - Outland"] = "Destruxia - Outland",
-		["Feastfour - Outland"] = "Feastfour - Outland",
+		["Feattwo - Outland"] = "Feattwo - Outland",
 		["Wolfados - Azjol-Nerub"] = "Wolfados - Azjol-Nerub",
 		["Serthaxion - Outland"] = "Serthaxion - Outland",
 		["Luminaxia - Outland"] = "Luminaxia - Outland",
-		["Feastyone - Outland"] = "Feastyone - Outland",
-		["Elementior - Outland"] = "Elementior - Outland",
+		["Nibirus - Azjol-Nerub"] = "Nibirus - Azjol-Nerub",
+		["Feastthree - Outland"] = "Feastthree - Outland",
 	},
 	["profiles"] = {
 		["Mallazin - Azjol-Nerub"] = {
@@ -119,20 +120,22 @@ AstralMinimap = {
 		},
 		["Bankeristor - Outland"] = {
 		},
-		["Feastthree - Outland"] = {
+		["Elementior - Outland"] = {
 		},
-		["Nibirus - Azjol-Nerub"] = {
+		["Bullenic - Silvermoon"] = {
+		},
+		["Feastyone - Outland"] = {
 		},
 		["Necrophagus - Outland"] = {
 		},
 		["Phalonius - Azjol-Nerub"] = {
 		},
+		["Feastfour - Outland"] = {
+		},
 		["Illyana - Outland"] = {
 			["minimap"] = {
 				["minimapPos"] = 192.1442721043813,
 			},
-		},
-		["Feattwo - Outland"] = {
 		},
 		["Illydaria - Draenor"] = {
 		},
@@ -141,7 +144,7 @@ AstralMinimap = {
 				["minimapPos"] = 263.3456083575512,
 			},
 		},
-		["Feastfour - Outland"] = {
+		["Feattwo - Outland"] = {
 		},
 		["Wolfados - Azjol-Nerub"] = {
 		},
@@ -149,9 +152,9 @@ AstralMinimap = {
 		},
 		["Luminaxia - Outland"] = {
 		},
-		["Feastyone - Outland"] = {
+		["Nibirus - Azjol-Nerub"] = {
 		},
-		["Elementior - Outland"] = {
+		["Feastthree - Outland"] = {
 		},
 	},
 }
@@ -254,57 +257,57 @@ AstralLists = {
 			["Hávocado-Outland"] = true,
 			["Kínghippo-Outland"] = true,
 			["Bólvár-Outland"] = true,
-			["Níghtlíghtz-Outland"] = true,
-			["Slurphurp-Outland"] = true,
+			["Elixyyr-Outland"] = true,
+			["Spitie-Outland"] = true,
 			["Yedder-Outland"] = true,
 			["Oziah-Outland"] = true,
 			["Wildfury-Outland"] = true,
-			["Gingiitwo-Outland"] = true,
+			["Dues-Outland"] = true,
 			["Mianaai-Outland"] = true,
 			["Velena-Outland"] = true,
 			["Maaiky-Outland"] = true,
-			["Moorindal-Outland"] = true,
-			["Eluith-Outland"] = true,
+			["Liubei-Outland"] = true,
+			["Gingii-Outland"] = true,
 			["Rövlappen-Outland"] = true,
 			["Stiefbrúder-Outland"] = true,
 			["Beradorn-Outland"] = true,
-			["Lychea-Outland"] = true,
-			["Misspickles-Outland"] = true,
-			["Baldbull-Outland"] = true,
-			["Alugren-Outland"] = true,
-			["Mujitzu-Outland"] = true,
-			["Nureyev-Outland"] = true,
+			["Deszczyk-Outland"] = true,
+			["Aldorien-Outland"] = true,
+			["Brucebrews-Outland"] = true,
+			["Monroè-Outland"] = true,
 			["Duesmonk-Outland"] = true,
-			["Sû-Outland"] = true,
-			["Tytt-Outland"] = true,
-			["Orvalleke-Outland"] = true,
+			["Nureyev-Outland"] = true,
+			["Mujitzu-Outland"] = true,
+			["Tytties-Outland"] = true,
+			["Mesmero-Outland"] = true,
+			["Jäéger-Outland"] = true,
 			["Malfuryion-Outland"] = true,
 			["Måneskin-Outland"] = true,
 			["Venatrixa-Outland"] = true,
 			["Gindruid-Outland"] = true,
-			["Drunkhomer-Outland"] = true,
-			["Berìuz-Outland"] = true,
-			["Nessx-Outland"] = true,
 			["Orvakill-Outland"] = true,
+			["Nessx-Outland"] = true,
+			["Berìuz-Outland"] = true,
+			["Drunkhomer-Outland"] = true,
 			["Boompóp-Outland"] = true,
 			["Netflixx-Outland"] = true,
-			["Jäéger-Outland"] = true,
-			["Mesmero-Outland"] = true,
-			["Tytties-Outland"] = true,
+			["Orvalleke-Outland"] = true,
+			["Tytt-Outland"] = true,
+			["Sû-Outland"] = true,
 			["Phaebe-Outland"] = true,
-			["Monroè-Outland"] = true,
-			["Brucebrews-Outland"] = true,
-			["Aldorien-Outland"] = true,
-			["Deszczyk-Outland"] = true,
-			["Gingii-Outland"] = true,
-			["Liubei-Outland"] = true,
+			["Alugren-Outland"] = true,
+			["Baldbull-Outland"] = true,
+			["Misspickles-Outland"] = true,
+			["Lychea-Outland"] = true,
+			["Eluith-Outland"] = true,
+			["Moorindal-Outland"] = true,
 			["Marílyn-Outland"] = true,
 			["Prco-Outland"] = true,
-			["Dues-Outland"] = true,
+			["Gingiitwo-Outland"] = true,
 			["Psychocat-Outland"] = true,
 			["Apustajahunu-Outland"] = true,
-			["Spitie-Outland"] = true,
-			["Elixyyr-Outland"] = true,
+			["Slurphurp-Outland"] = true,
+			["Níghtlíghtz-Outland"] = true,
 		},
 	}, -- [1]
 	{

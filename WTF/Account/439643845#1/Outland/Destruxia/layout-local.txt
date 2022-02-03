@@ -3,9 +3,9 @@ Frame: AllTheThings-Window-CurrentInstance
 FrameLevel: 1
 Anchor: LEFT
 X: 0
-Y: -215
-W: 410
-H: 195
+Y: -212
+W: 413
+H: 211
 Frame: ObjectiveTrackerFrame
 FrameLevel: 1
 Anchor: BOTTOMRIGHT
@@ -30,10 +30,10 @@ H: 240
 Frame: AllTheThings-Window-Prime
 FrameLevel: 1
 Anchor: CENTER
-X: 256
-Y: -193
-W: 425
-H: 305
+X: 13
+Y: -5
+W: 506
+H: 418
 Frame: AllTheThings-Window-Bounty
 FrameLevel: 1
 Anchor: CENTER

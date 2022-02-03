@@ -1,7 +1,7 @@
 
 DBMShadowlands_SavedStats = {
 	["2456"] = {
-		["normalPulls"] = 9,
+		["normalPulls"] = 10,
 		["challengeKills"] = 0,
 		["challengeBestRank"] = 0,
 		["mythicKills"] = 0,
@@ -10,7 +10,7 @@ DBMShadowlands_SavedStats = {
 		["lfr25Pulls"] = 0,
 		["normal25Pulls"] = 0,
 		["normalLastTime"] = 186.7510000000002,
-		["normalKills"] = 8,
+		["normalKills"] = 9,
 		["normalBestTime"] = 142.2539999999999,
 		["heroic25Kills"] = 0,
 		["timewalkerPulls"] = 0,
@@ -43,7 +43,7 @@ DBMShadowlands_SavedStats = {
 		["challengePulls"] = 0,
 	},
 	["2430"] = {
-		["normalPulls"] = 5,
+		["normalPulls"] = 6,
 		["challengeKills"] = 0,
 		["challengeBestRank"] = 0,
 		["mythicKills"] = 0,
@@ -52,7 +52,7 @@ DBMShadowlands_SavedStats = {
 		["lfr25Pulls"] = 0,
 		["normal25Pulls"] = 0,
 		["normalLastTime"] = 67.42699999999968,
-		["normalKills"] = 4,
+		["normalKills"] = 5,
 		["normalBestTime"] = 67.42699999999968,
 		["heroic25Kills"] = 0,
 		["timewalkerPulls"] = 0,

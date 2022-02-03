@@ -1,7 +1,7 @@
 local mod	= DBM:NewMod(2446, "DBM-SanctumOfDomination", nil, 1193)
 local L		= mod:GetLocalizedStrings()
 
-mod:SetRevision("20211125075428")
+mod:SetRevision("20220131034332")
 mod:SetCreatureID(175731)
 mod:SetEncounterID(2436)
 mod:SetUsedIcons(1, 2, 3)
@@ -61,6 +61,7 @@ mod:AddRangeFrameOption(10, 350496)
 mod:AddInfoFrameOption(352394, true)
 mod:AddSetIconOption("SetIconOnThreat", 350496, true, false, {1, 2, 3})
 mod:AddDropdownOption("IconBehavior", {"TypeOne", "TypeTwo"}, "TypeOne", "misc")--TypeTwo is BW default
+mod:GroupSpells(350732, 350735)
 
 mod.vb.timerMode = 0
 mod.vb.coreActive = false
@@ -612,9 +613,9 @@ do
 	local function UpdateIcons(self, setting)
 		self.vb.iconSetting = setting
 	end
-	function mod:OnSync(msg, target)
+	function mod:OnSync(msg, target, sender)
 		if not self:IsInCombat() then return end
-		if msg == "Dissection" then
+		if msg == "Dissection" and sender then
 			local targetName = DBM:GetUnitFullName(target) or target
 			if targetName then
 				warnDisintegration:Show(targetName)--Everyone needs to dodge it so everyone gets special warning. this is just informative message

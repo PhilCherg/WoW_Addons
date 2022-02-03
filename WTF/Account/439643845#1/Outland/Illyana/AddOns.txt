@@ -36,7 +36,7 @@ DBM-WorldEvents: disabled
 ElvUI_EverySecondCounts: disabled
 TradeSkillMaster: enabled
 TradeSkillMaster_AppHelper: enabled
-HandyNotes: disabled
+HandyNotes: enabled
 HandyNotes_DungeonLocations: enabled
 BagBrother: disabled
 Bagnon: disabled
@@ -283,7 +283,7 @@ TomCats-HallowsEnd: disabled
 TomCats-LoveIsInTheAir: disabled
 TomCats-LunarFestival: disabled
 TomCats-Noblegarden: disabled
-AutoTrackMapPin: disabled
+AutoTrackMapPin: enabled
 BtWQuests: disabled
 BtWQuestsBattleForAzerothPrologue: disabled
 BtWQuestsCataclysm: disabled
@@ -302,7 +302,7 @@ MythicDungeonTools: disabled
 OmniBar: enabled
 OrderHallCommander: disabled
 SimpleArmory: disabled
-UnlimitedMapPinDistance: disabled
+UnlimitedMapPinDistance: enabled
 WorldQuestTab: disabled
 DBM-Shadowlands: disabled
 BtWQuestsBattleForAzeroth: disabled

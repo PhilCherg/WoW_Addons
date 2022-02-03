@@ -1757,7 +1757,7 @@ app.GetIndicatorIcon = function(group)
 			return app.asset("known_green");
 		end
 	else
-		local asset = app.GetQuestIndicator(group) or app.GetVignetteIndicator(group);
+		local asset = app.GetQuestIndicator(group) or group.indicatorIcon;
 		if asset then
 			return app.asset(asset);
 		elseif group.u then
@@ -2717,72 +2717,78 @@ subroutines = {
 			]]--
 
 			-- Unsullied Gear
-			{"select", "itemID", 152740},	-- Unsullied Cloak
-			{"select", "itemID", 152738},	-- Unsullied Cloth Cap
-			{"select", "itemID", 152734},	-- Unsullied Cloth Mantle
-			{"select", "itemID", 153135},	-- Unsullied Cloth Robes
-			{"select", "itemID", 152742},	-- Unsullied Cloth Cuffs
-			{"select", "itemID", 153141},	-- Unsullied Cloth Mitts
-			{"select", "itemID", 153156},	-- Unsullied Cloth Sash
-			{"select", "itemID", 153154},	-- Unsullied Cloth Leggings
-			{"select", "itemID", 153144},	-- Unsullied Cloth Slippers
-			{"select", "itemID", 153139},	-- Unsullied Leather Headgear
-			{"select", "itemID", 153145},	-- Unsullied Leather Spaulders
-			{"select", "itemID", 153151},	-- Unsullied Leather Tunic
-			{"select", "itemID", 153142},	-- Unsullied Leather Armbands
-			{"select", "itemID", 152739},	-- Unsullied Leather Grips
-			{"select", "itemID", 153148},	-- Unsullied Leather Belt
-			{"select", "itemID", 152737},	-- Unsullied Leather Trousers
-			{"select", "itemID", 153136},	-- Unsullied Leather Treads
-			{"select", "itemID", 153147},	-- Unsullied Mail Coif
-			{"select", "itemID", 153137},	-- Unsullied Mail Spaulders
-			{"select", "itemID", 152741},	-- Unsullied Mail Chestguard
-			{"select", "itemID", 153158},	-- Unsullied Mail Bracers
-			{"select", "itemID", 153149},	-- Unsullied Mail Gloves
-			{"select", "itemID", 152744},	-- Unsullied Mail Girdle
-			{"select", "itemID", 153138},	-- Unsullied Mail Legguards
-			{"select", "itemID", 153152},	-- Unsullied Mail Boots
-			{"select", "itemID", 153155},	-- Unsullied Plate Helmet
-			{"select", "itemID", 153153},	-- Unsullied Plate Pauldrons
-			{"select", "itemID", 153143},	-- Unsullied Plate Breasplate
-			{"select", "itemID", 153150},	-- Unsullied Plate Vambraces
-			{"select", "itemID", 153157},	-- Unsullied Plate Gauntlets
-			{"select", "itemID", 153140},	-- Unsullied Plate Waistplate
-			{"select", "itemID", 153146},	-- Unsullied Plate Greaves
-			{"select", "itemID", 152743},	-- Unsullied Plate Sabatons
-			{"select", "itemID", 152736},	-- Unsullied Necklace
-			{"select", "itemID", 152735},	-- Unsullied Ring
-			{"select", "itemID", 152733},	-- Unsullied Trinket
-			{"select", "itemID", 152799},	-- Unsullied Relic
+			{"select", "itemID",
+				152740,	-- Unsullied Cloak
+				152738,	-- Unsullied Cloth Cap
+				152734,	-- Unsullied Cloth Mantle
+				153135,	-- Unsullied Cloth Robes
+				152742,	-- Unsullied Cloth Cuffs
+				153141,	-- Unsullied Cloth Mitts
+				153156,	-- Unsullied Cloth Sash
+				153154,	-- Unsullied Cloth Leggings
+				153144,	-- Unsullied Cloth Slippers
+				153139,	-- Unsullied Leather Headgear
+				153145,	-- Unsullied Leather Spaulders
+				153151,	-- Unsullied Leather Tunic
+				153142,	-- Unsullied Leather Armbands
+				152739,	-- Unsullied Leather Grips
+				153148,	-- Unsullied Leather Belt
+				152737,	-- Unsullied Leather Trousers
+				153136,	-- Unsullied Leather Treads
+				153147,	-- Unsullied Mail Coif
+				153137,	-- Unsullied Mail Spaulders
+				152741,	-- Unsullied Mail Chestguard
+				153158,	-- Unsullied Mail Bracers
+				153149,	-- Unsullied Mail Gloves
+				152744,	-- Unsullied Mail Girdle
+				153138,	-- Unsullied Mail Legguards
+				153152,	-- Unsullied Mail Boots
+				153155,	-- Unsullied Plate Helmet
+				153153,	-- Unsullied Plate Pauldrons
+				153143,	-- Unsullied Plate Breasplate
+				153150,	-- Unsullied Plate Vambraces
+				153157,	-- Unsullied Plate Gauntlets
+				153140,	-- Unsullied Plate Waistplate
+				153146,	-- Unsullied Plate Greaves
+				152743,	-- Unsullied Plate Sabatons
+				152736,	-- Unsullied Necklace
+				152735,	-- Unsullied Ring
+				152733,	-- Unsullied Trinket
+				152799,	-- Unsullied Relic
+			},
 			{"pop"},	-- Remove the Unsullied Tokens and push the children into the processing queue.
 			{"finalize"},	-- Push the Unsullied items to the finalized list.
 
 			-- World Bosses
-			{"select", "encounterID", 1790},	-- Ana-Mouz
-			{"select", "encounterID", 1956},	-- Apocron
-			{"select", "encounterID", 1883},	-- Brutallus
-			{"select", "encounterID", 1774},	-- Calamir
-			{"select", "encounterID", 1789},	-- Drugon the Frostblood
-			{"select", "encounterID", 1795},	-- Flotsam
-			{"select", "encounterID", 1770},	-- Humongris
-			{"select", "encounterID", 1769},	-- Levantus
-			{"select", "encounterID", 1884},	-- Malificus
-			{"select", "encounterID", 1783},	-- Na'zak the Fiend
-			{"select", "encounterID", 1749},	-- Nithogg
-			{"select", "encounterID", 1763},	-- Shar'thos
-			{"select", "encounterID", 1885},	-- Si'vash
-			{"select", "encounterID", 1756},	-- The Soultakers
-			{"select", "encounterID", 1796},	-- Withered J'im
+			{"select", "encounterID",
+				1790,	-- Ana-Mouz
+				1956,	-- Apocron
+				1883,	-- Brutallus
+				1774,	-- Calamir
+				1789,	-- Drugon the Frostblood
+				1795,	-- Flotsam
+				1770,	-- Humongris
+				1769,	-- Levantus
+				1884,	-- Malificus
+				1783,	-- Na'zak the Fiend
+				1749,	-- Nithogg
+				1763,	-- Shar'thos
+				1885,	-- Si'vash
+				1756,	-- The Soultakers
+				1796,	-- Withered J'im
+			},
 			{"pop"},	-- Remove the World Bosses and push the children into the processing queue.
 			{"finalize"},	-- Push the unprocessed Items to the finalized list.
 
 			-- Raids
-			{"select", "instanceID", 768},	-- Emerald Nightmare
-			{"select", "instanceID", 861},	-- Trial of Valor
-			{"select", "instanceID", 786},	-- The Nighthold
-			{"select", "instanceID", 875},	-- Tomb of Sargeras
+			{"select", "instanceID",
+				768,	-- Emerald Nightmare
+				861,	-- Trial of Valor
+				786,	-- The Nighthold
+				875,	-- Tomb of Sargeras
+			},
 
-			-- Process the Dungeons, Normal Mode Only Loot for boots.
+			-- Process the Raids, Normal Mode Only Loot for boots.
 			{"pop"},	-- Discard the Instance Headers and acquire all of their children.
 			{"where", "difficultyID", 14},	-- Select only the Normal Difficulty Headers.
 			{"pop"},	-- Discard the Difficulty Headers and acquire all of their children.
@@ -2791,19 +2797,21 @@ subroutines = {
 			{"finalize"},	-- Push the unprocessed Items to the finalized list.
 
 			-- Dungeons
-			{"select", "instanceID", 777},	-- Assault on Violet Hold
-			{"select", "instanceID", 740},	-- Blackrook Hold
-			{"select", "instanceID", 900},	-- Cathedral of Eternal Night
-			{"select", "instanceID", 800},	-- Court of Stars
-			{"select", "instanceID", 762},	-- Darkheart Thicket
-			{"select", "instanceID", 716},	-- Eye of Azshara
-			{"select", "instanceID", 721},	-- Halls of Valor
-			{"select", "instanceID", 727},	-- Maw of Souls
-			{"select", "instanceID", 767},	-- Neltharion's Lair
-			{"select", "instanceID", 860},	-- Return to Karazhan
-			{"select", "instanceID", 945},	-- Seat of the Triumvirate
-			{"select", "instanceID", 749},	-- The Arcway
-			{"select", "instanceID", 707},	-- Vault of the Wardens
+			{"select", "instanceID",
+				777,	-- Assault on Violet Hold
+				740,	-- Blackrook Hold
+				900,	-- Cathedral of Eternal Night
+				800,	-- Court of Stars
+				762,	-- Darkheart Thicket
+				716,	-- Eye of Azshara
+				721,	-- Halls of Valor
+				727,	-- Maw of Souls
+				767,	-- Neltharion's Lair
+				860,	-- Return to Karazhan
+				945,	-- Seat of the Triumvirate
+				749,	-- The Arcway
+				707,	-- Vault of the Wardens
+			},
 
 			-- Process the Dungeons, Mythic Mode Only Loot for boots.
 			{"pop"},	-- Discard the Instance Headers and acquire all of their children.
@@ -2813,13 +2821,15 @@ subroutines = {
 			{"finalize"},	-- Push the unprocessed Items to the finalized list.
 
 			-- World Quest Rewards
-			{"select", "mapID", 905},	-- Argus
-			{"select", "mapID", 630},	-- Azsuna
-			{"select", "mapID", 646},	-- Broken Shore
-			{"select", "mapID", 650},	-- Highmountain
-			{"select", "mapID", 634},	-- Stormheim
-			{"select", "mapID", 680},	-- Suramar
-			{"select", "mapID", 641},	-- Val'sharah
+			{"select", "mapID",
+				905,	-- Argus
+				630,	-- Azsuna
+				646,	-- Broken Shore
+				650,	-- Highmountain
+				634,	-- Stormheim
+				680,	-- Suramar
+				641,	-- Val'sharah
+			},
 
 			-- Process the World Quest Rewards
 			{"pop"},	-- Discard the Map Headers and acquire all of their children.
@@ -2853,17 +2863,19 @@ subroutines = {
 	["bfa_azerite_armor_chest_dungeons"] = function()
 		return {
 			-- Dungeons
-			{"select", "instanceID", 968},	-- Atal'Dazar
-			{"select", "instanceID", 1001},	-- Freehold
-			{"select", "instanceID", 1041},	-- King's Rest
-			{"select", "instanceID", 1178},	-- Operation: Mechagon ??
-			{"select", "instanceID", 1036},	-- Shrine of the Storm
-			{"select", "instanceID", 1023},	-- Siege of Boralus
-			{"select", "instanceID", 1030},	-- Temple of Sethraliss
-			{"select", "instanceID", 1012},	-- The MOTHERLODE!!
-			{"select", "instanceID", 1022},	-- The Underrot
-			{"select", "instanceID", 1002},	-- Tol Dagor
-			{"select", "instanceID", 1021},	-- Waycrest Manor
+			{"select", "instanceID",
+				968,	-- Atal'Dazar
+				1001,	-- Freehold
+				1041,	-- King's Rest
+				1178,	-- Operation: Mechagon ??
+				1036,	-- Shrine of the Storm
+				1023,	-- Siege of Boralus
+				1030,	-- Temple of Sethraliss
+				1012,	-- The MOTHERLODE!!
+				1022,	-- The Underrot
+				1002,	-- Tol Dagor
+				1021,	-- Waycrest Manor
+			},
 
 			-- Process the Dungeons, Normal Mode Only Loot for the azerite pieces.
 			{"pop"},	-- Discard the Instance Headers and acquire all of their children.
@@ -2892,12 +2904,14 @@ subroutines = {
 	["bfa_azerite_armor_chest_zonedrops"] = function()
 		return {
 			-- World Quest Rewards
-			{"select", "mapID", 896},	-- Drustvar
-			{"select", "mapID", 942},	-- Stormsong Valley
-			{"select", "mapID", 895},	-- Tiragarde Sound
-			{"select", "mapID", 863},	-- Nazmir
-			{"select", "mapID", 864},	-- Vol'dun
-			{"select", "mapID", 862},	-- Zuldazar
+			{"select", "mapID",
+				896,	-- Drustvar
+				942,	-- Stormsong Valley
+				895,	-- Tiragarde Sound
+				863,	-- Nazmir
+				864,	-- Vol'dun
+				862,	-- Zuldazar
+			},
 
 			-- Process the World Quest Rewards
 			{"pop"},	-- Discard the Map Headers and acquire all of their children.
@@ -3033,24 +3047,27 @@ end
 ResolveSymbolicLink = function(o)
 	if o and o.sym then
 		-- app.DEBUG_PRINT = true;
-		local searchResults, finalized = {}, {};
+		local searchResults, finalized, ipairs, tremove = {}, {}, ipairs, table.remove;
 		for j,sym in ipairs(o.sym) do
 			local cmd = sym[1];
-			-- if app.DEBUG_PRINT then print("sym: '",cmd,"' with [",sym[2],"] & [",sym[3],"] for",o.key,o.key and o[o.key]) end
+			-- app.PrintDebug("sym: '",cmd,"' with [",sym[2],"] & [",sym[3],"] for",o.key,o.key and o[o.key])
 			if cmd == "select" then
-				-- Instruction to search the full database for something.
-				local cache = app.SearchForField(sym[2], sym[3]);
-				if cache then
-					for _,s in ipairs(cache) do
-						if s == o or (s.hash and s.hash == o.hash) then
-							print("symlink selected itself and will be ignored in results!",o.hash);
-						else
-							tinsert(searchResults, s);
+				-- Instruction to search the full database for multiple of a given type
+				local field = sym[2];
+				local cache;
+				for i=3,#sym do
+					cache = app.SearchForField(field, sym[i]);
+					if cache then
+						for _,s in ipairs(cache) do
+							if s == o or (s.hash and s.hash == o.hash) then
+								print("symlink selected itself and will be ignored in results!",o.hash);
+							else
+								tinsert(searchResults, s);
+							end
 						end
+					else
+						print("Failed to select ", field, sym[i]);
 					end
-					-- ArrayAppend(searchResults, cache);
-				else
-					print("Failed to select ", sym[2], sym[3]);
 				end
 			elseif cmd == "selectparent" then
 				-- Instruction to select the parent object of the parent that owns the symbolic link.
@@ -3096,7 +3113,7 @@ ResolveSymbolicLink = function(o)
 				for k=#searchResults,1,-1 do
 					local s = searchResults[k];
 					if not s[key] or s[key] ~= value then
-						table.remove(searchResults, k);
+						tremove(searchResults, k);
 					end
 				end
 			elseif cmd == "extract" then
@@ -3135,7 +3152,7 @@ ResolveSymbolicLink = function(o)
 							end
 						end
 						if matched then
-							table.remove(searchResults, k);
+							tremove(searchResults, k);
 						end
 					end
 				else
@@ -3143,7 +3160,7 @@ ResolveSymbolicLink = function(o)
 					for k=#searchResults,1,-1 do
 						local s = searchResults[k];
 						if s[key] and s[key] == value then
-							table.remove(searchResults, k);
+							tremove(searchResults, k);
 						end
 					end
 				end
@@ -3152,36 +3169,36 @@ ResolveSymbolicLink = function(o)
 				local key = sym[2];
 				for k=#searchResults,1,-1 do
 					local s = searchResults[k];
-					if not s[key] then table.remove(searchResults, k); end
+					if not s[key] then tremove(searchResults, k); end
 				end
 			elseif cmd == "isnt" then
 				-- Instruction to include only search results where a key doesn't exist
 				local key = sym[2];
 				for k=#searchResults,1,-1 do
 					local s = searchResults[k];
-					if s[key] then table.remove(searchResults, k); end
+					if s[key] then tremove(searchResults, k); end
 				end
 			elseif cmd == "contains" then
 				-- Instruction to include only search results where a key value/table contains a value.
 				local key = sym[2];
 				local clone = {unpack(sym)};
-				table.remove(clone, 1);
-				table.remove(clone, 1);
+				tremove(clone, 1);
+				tremove(clone, 1);
 				if #clone > 0 then
 					for k=#searchResults,1,-1 do
 						local s = searchResults[k];
 						-- key doesn't exist at all on the result
 						if not s[key] then
-							table.remove(searchResults, k);
+							tremove(searchResults, k);
 						-- key exists with multiple values on the result
 						elseif type(s[key]) == "table" then
 							-- none of the values match the contains values
 							if not containsAny(clone, s[key]) then
-								table.remove(searchResults, k);
+								tremove(searchResults, k);
 							end
 						-- key exists with single value on the result
 						elseif not contains(clone, s[key]) then
-							table.remove(searchResults, k);
+							tremove(searchResults, k);
 						end
 					end
 				end
@@ -3189,8 +3206,8 @@ ResolveSymbolicLink = function(o)
 				-- Instruction to exclude search results where a key value contains a value.
 				local key = sym[2];
 				local clone = {unpack(sym)};
-				table.remove(clone, 1);
-				table.remove(clone, 1);
+				tremove(clone, 1);
+				tremove(clone, 1);
 				if #clone > 0 then
 					for k=#searchResults,1,-1 do
 						local s = searchResults[k];
@@ -3199,7 +3216,7 @@ ResolveSymbolicLink = function(o)
 							if key == "itemID" and s.g and s[key] == o[key] then
 								ArrayAppend(searchResults, s.g);
 							end
-							table.remove(searchResults, k);
+							tremove(searchResults, k);
 						end
 					end
 				end
@@ -3210,7 +3227,7 @@ ResolveSymbolicLink = function(o)
 					if s.itemID and IsArtifactRelicItem(s.itemID) then
 						-- We're good.
 					else
-						table.remove(searchResults, k);
+						tremove(searchResults, k);
 					end
 				end
 			elseif cmd == "finalize" then
@@ -3230,19 +3247,19 @@ ResolveSymbolicLink = function(o)
 			elseif cmd == "invtype" then
 				-- Instruction to include only search results where an item is of a specific inventory type.
 				local types = {unpack(sym)};
-				table.remove(types, 1);
+				tremove(types, 1);
 				if #types > 0 then
 					for k=#searchResults,1,-1 do
 						local s = searchResults[k];
 						if s.itemID and not contains(types, select(4, GetItemInfoInstant(s.itemID))) then
-							table.remove(searchResults, k);
+							tremove(searchResults, k);
 						end
 					end
 				end
 			elseif cmd == "relictype" then
 				-- Instruction to include only search results where an item is of a specific relic type.
 				local types = {unpack(sym)};
-				table.remove(types, 1);
+				tremove(types, 1);
 				if #types > 0 then
 					--[[
 					RELIC_SLOT_TYPE_ARCANE = "Arcane";
@@ -3265,7 +3282,7 @@ ResolveSymbolicLink = function(o)
 						if s.itemID and IsArtifactRelicItem(s.itemID) and contains(types, select(3, C_ArtifactUI.GetRelicInfoByItemID(s.itemID))) then
 							-- We're good.
 						else
-							table.remove(searchResults, k);
+							tremove(searchResults, k);
 						end
 					end
 				end
@@ -3291,8 +3308,8 @@ ResolveSymbolicLink = function(o)
 				local subroutine = subroutines[sym[2]];
 				if subroutine then
 					local args = {unpack(sym)};
-					table.remove(args, 1);
-					table.remove(args, 1);
+					tremove(args, 1);
+					tremove(args, 1);
 					local commands = subroutine(unpack(args));
 					if commands then
 						ArrayAppend(searchResults, ResolveSymbolicLink(setmetatable({sym=commands}, {__index=o})));
@@ -3308,9 +3325,9 @@ ResolveSymbolicLink = function(o)
 					local conditionFunction = sym[3];
 					if conditionFunction and conditionFunction(o) then
 						local args = {unpack(sym)};
-						table.remove(args, 1);
-						table.remove(args, 1);
-						table.remove(args, 1);
+						tremove(args, 1);
+						tremove(args, 1);
+						tremove(args, 1);
 						local commands = subroutine(unpack(args));
 						if commands then
 							ArrayAppend(searchResults, ResolveSymbolicLink(setmetatable({sym=commands}, {__index=o})));
@@ -3843,7 +3860,7 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 						end
 					end
 
-					if topLevelSearch and app.IsReady and sourceGroup.missing then
+					if topLevelSearch and app.IsReady and sourceGroup.missing and itemID ~= 53097 then
 						tinsert(info, { left = Colorize("Item Source not found in the " .. app.Version .. " database.\n" .. L["SOURCE_ID_MISSING"], "ffff0000") });	-- Do not localize first part of the message, it is for contribs
 						tinsert(info, { left = Colorize(sourceID .. ":" .. tostring(sourceInfo.visualID), "ffe35832") });
 						tinsert(info, { left = Colorize(itemString, "ffe35832") });
@@ -4183,7 +4200,7 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 			tinsert(info, 1, { left = group.description, wrap = true, color = "ff66ccff" });
 		end
 		if group.u and (not group.crs or group.itemID or group.s) then
-			tinsert(info, { left = L["UNOBTAINABLE_ITEM_REASONS"][group.u][2] });
+			tinsert(info, { left = L["UNOBTAINABLE_ITEM_REASONS"][group.u][2], wrap = true });
 		end
 		-- Pet Battles
 		if group.pb then
@@ -4195,7 +4212,7 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 		end
 		if paramA == "itemID" and paramB == 137642 then
 			if app.Settings:GetTooltipSetting("SummarizeThings") then
-				tinsert(info, 1, { left = L["MARKS_OF_HONOR_DESC"], wrap = false, color = "ffff8426" });
+				tinsert(info, 1, { left = L["MARKS_OF_HONOR_DESC"], color = "ffff8426" });
 			end
 		end
 		-- an item used for a faction which is repeatable
@@ -6661,7 +6678,7 @@ local ObjectFunctions = {
 	end,
 };
 -- Creates a Base Object Table which will evaluate the provided set of 'fields' (each field value being a keyed function)
-app.BaseObjectFields = function(fields, type)
+app.BaseObjectFields = not app.__perf and function(fields, type)
 	local base = {
 		["__type"] = function(t)
 			return type;
@@ -6673,6 +6690,37 @@ app.BaseObjectFields = function(fields, type)
 		if _cache then return _cache(t); end
 		-- use default key value if existing
 		return ObjectDefaults[key];
+	end
+};
+end
+-- special performance tracking function for object properties
+or
+function(fields, type)
+	local base = {
+		["__type"] = function(t)
+			return type;
+		end,
+	};
+	local GetTimePreciseSec = GetTimePreciseSec;
+	-- init table for this object type
+	if type and not app.__perf[type] then
+		app.__perf[type] = {};
+	end
+	return {
+	__index = function(t, key)
+		local typeData, result = app.__perf[type];
+		local now = GetTimePreciseSec();
+		_cache = rawget(fields, key) or rawget(ObjectFunctions, key) or rawget(base, key);
+		if _cache then
+			result = _cache(t);
+		else
+			result = ObjectDefaults[key];
+		end
+		if typeData then
+			typeData[key] = (typeData[key] or 0) + 1;
+			typeData[key.."_Time"] = (typeData[key.."_Time"] or 0) + (GetTimePreciseSec() - now);
+		end
+		return result;
 	end
 };
 end
@@ -6722,13 +6770,15 @@ app.CreateCache = function(idField)
 	end;
 	return cache;
 end
--- Function which returns both collectible/collected for 't' based on a given 'ref' Thing, which has been previously determined as a
--- possible collectible which requires the 't' Thing as a cost. 'cache' is the type-cache for the 'ref' Thing
-app.CheckCollectible = function(t, ref, cache)
-	-- account or debug, skip filter/exclusion logic, or else make sure not altcollected
-	if (app.MODE_DEBUG_OR_ACCOUNT or not GetRelativeValue(t, "altcollected"))
-		-- don't include groups which do not meet the current filter requirements
-		and app.RecursiveGroupRequirementsFilter(ref) then
+-- Function which returns whether the given Thing can even be considered as a collectible currency based on current settings
+app.PreCheckCollectible = function(t)
+	return app.MODE_DEBUG_OR_ACCOUNT or not GetRelativeValue(t, "altcollected");
+end
+-- Function which returns both collectible/collected based on a given 'ref' Thing, which has been previously determined as a
+-- possible collectible without regard to filtering
+app.CheckCollectible = function(ref)
+	-- don't include groups which do not meet the current filter requirements
+	if app.RecursiveGroupRequirementsFilter(ref) then
 		-- Used as a cost for something which is collectible itself and not collected
 		-- if LOG then print("check collectible/collected",LOG,ref.key,ref[ref.key]) end
 		if ref.collectible then
@@ -6757,43 +6807,43 @@ app.CheckCollectible = function(t, ref, cache)
 					return true,ref.progress == ref.total;
 				end
 			else
-				if not cache then
-					-- print("cannot determine collectibility")
-					-- print("cost",t.key,t.key and t[t.key])
+				local refCache = ref._cache;
+				if refCache then
+					-- Already have a cached version of this reference with populated content
+					local expItem = refCache.GetCachedField(ref, "_populated");
+					if expItem then
+						if expItem.total and expItem.total > 0 then
+							return true,expItem.progress == expItem.total;
+						end
+						return;
+					end
+					-- print("Un-populated collectedAsCost",t.modItemID)
 					-- app.PrintTable(ref)
-					-- print(ref.__type, ref._cache)
-					return false,false;
-				end
-				-- Already have a cached version of this reference with populated content
-				local expItem = cache.GetCachedField(ref, "_populated");
-				if expItem then
+					-- create a cached copy of this ref if it is an Item
+					expItem = CreateObject(ref);
+					-- fill the copied Item's symlink if any
+					FillSymLinks(expItem);
+					-- Build the Item's groups if any
+					BuildGroups(expItem, expItem.g);
+					-- do an Update pass for the copied Item
+					app.TopLevelUpdateGroup(expItem);
+					-- print("Populated collectedAsCost (symlink)",t.modItemID)
+					-- app.PrintTable(expItem)
+					-- save it in the Item cache in case something else is able to purchase this reference
+					refCache.SetCachedField(ref, "_populated", expItem);
+					-- check if this expItem has been completed
 					if expItem.total and expItem.total > 0 then
 						return true,expItem.progress == expItem.total;
 					end
-					return;
 				end
-				-- print("Un-populated collectedAsCost",t.modItemID)
+				-- print("cannot determine collectibility")
+				-- print("cost",t.key,t.key and t[t.key])
 				-- app.PrintTable(ref)
-				-- create a cached copy of this ref if it is an Item
-				expItem = CreateObject(ref);
-				-- fill the copied Item's symlink if any
-				FillSymLinks(expItem);
-				-- Build the Item's groups if any
-				BuildGroups(expItem, expItem.g);
-				-- do an Update pass for the copied Item
-				app.TopLevelUpdateGroup(expItem);
-				-- print("Populated collectedAsCost (symlink)",t.modItemID)
-				-- app.PrintTable(expItem)
-				-- save it in the Item cache in case something else is able to purchase this reference
-				cache.SetCachedField(ref, "_populated", expItem);
-				-- check if this expItem has been completed
-				if expItem.total and expItem.total > 0 then
-					return true,expItem.progress == expItem.total;
-				end
+				-- print(ref.__type, ref._cache)
+				return false,false;
 			end
 		end
 	end
-	return false;
 end
 end)();
 
@@ -6875,7 +6925,7 @@ local fields = {
 		return 0;
 	end,
 };
-app.BaseAchievement = app.BaseObjectFields(fields);
+app.BaseAchievement = app.BaseObjectFields(fields, "BaseAchievement");
 app.CreateAchievement = function(id, t)
 	return setmetatable(constructor(id, t, "achID"), app.BaseAchievement);
 end
@@ -6894,7 +6944,7 @@ local categoryFields = {
 		return select(2, GetCategoryInfo(t.achievementCategoryID)) or -1;
 	end,
 };
-app.BaseAchievementCategory = app.BaseObjectFields(categoryFields);
+app.BaseAchievementCategory = app.BaseObjectFields(categoryFields, "BaseAchievementCategory");
 app.CreateAchievementCategory = function(id, t)
 	return setmetatable(constructor(id, t, "achievementCategoryID"), app.BaseAchievementCategory);
 end
@@ -7010,7 +7060,7 @@ local criteriaFields = {
 };
 criteriaFields.collectible = fields.collectible;
 criteriaFields.icon = fields.icon;
-app.BaseAchievementCriteria = app.BaseObjectFields(criteriaFields);
+app.BaseAchievementCriteria = app.BaseObjectFields(criteriaFields, "BaseAchievementCriteria");
 app.CreateAchievementCriteria = function(id, t)
 	return setmetatable(constructor(id, t, "criteriaID"), app.BaseAchievementCriteria);
 end
@@ -7166,7 +7216,7 @@ local fields = {
 		end
 	end,
 };
-app.BaseArtifact = app.BaseObjectFields(fields);
+app.BaseArtifact = app.BaseObjectFields(fields, "BaseArtifact");
 app.CreateArtifact = function(id, t)
 	return setmetatable(constructor(id, t, "artifactID"), app.BaseArtifact);
 end
@@ -7226,7 +7276,7 @@ local fields = {
 		return t.info.rank or 0;
 	end,
 };
-app.BaseAzeriteEssence = app.BaseObjectFields(fields);
+app.BaseAzeriteEssence = app.BaseObjectFields(fields, "BaseAzeriteEssence");
 app.CreateAzeriteEssence = function(id, t)
 	return setmetatable(constructor(id, t, "azeriteEssenceID"), app.BaseAzeriteEssence);
 end
@@ -7314,7 +7364,7 @@ local fields = {
 		return string.format("p:%d:1:3", t.speciesID);
 	end,
 };
-app.BaseSpecies = app.BaseObjectFields(fields);
+app.BaseSpecies = app.BaseObjectFields(fields, "BaseSpecies");
 app.CreateSpecies = function(id, t)
 	return setmetatable(constructor(id, t, "speciesID"), app.BaseSpecies);
 end
@@ -7366,7 +7416,7 @@ local fields = {
 		return select(5, C_PetBattles_GetAbilityInfoByID(t.petAbilityID));
 	end,
 };
-app.BasePetAbility = app.BaseObjectFields(fields);
+app.BasePetAbility = app.BaseObjectFields(fields, "BasePetAbility");
 app.CreatePetAbility = function(id, t)
 	return setmetatable(constructor(id, t, "petAbilityID"), app.BasePetAbility);
 end
@@ -7385,7 +7435,7 @@ local fields = {
 		return 101;
 	end,
 };
-app.BasePetType = app.BaseObjectFields(fields);
+app.BasePetType = app.BaseObjectFields(fields, "BasePetType");
 app.CreatePetType = function(id, t)
 	return setmetatable(constructor(id, t, "petTypeID"), app.BasePetType);
 end
@@ -7407,7 +7457,7 @@ local fields = {
 		return AllTheThings.CategoryIcons[t.categoryID] or "Interface/ICONS/INV_Garrison_Blueprints1";
 	end,
 };
-app.BaseCategory = app.BaseObjectFields(fields);
+app.BaseCategory = app.BaseObjectFields(fields, "BaseCategory");
 app.CreateCategory = function(id, t)
 	return setmetatable(constructor(id, t, "categoryID"), app.BaseCategory);
 end
@@ -7480,7 +7530,7 @@ local fields = {
 		return RAID_CLASS_COLORS[select(2, GetClassInfo(t.classID))];
 	end,
 };
-app.BaseCharacterClass = app.BaseObjectFields(fields);
+app.BaseCharacterClass = app.BaseObjectFields(fields, "BaseCharacterClass");
 app.CreateCharacterClass = function(id, t)
 	return setmetatable(constructor(id, t, "classID"), app.BaseCharacterClass);
 end
@@ -7536,7 +7586,7 @@ local unitFields = {
 		end
 	end,
 };
-app.BaseUnit = app.BaseObjectFields(unitFields);
+app.BaseUnit = app.BaseObjectFields(unitFields, "BaseUnit");
 app.CreateUnit = function(unit, t)
 	return setmetatable(constructor(unit, t, "unit"), app.BaseUnit);
 end
@@ -7559,6 +7609,9 @@ end
 local fields = {
 	["key"] = function(t)
 		return "currencyID";
+	end,
+	["_cache"] = function(t)
+		return cache;
 	end,
 	["text"] = function(t)
 		return cache.GetCachedField(t, "text", default_text);
@@ -7590,6 +7643,7 @@ local fields = {
 			if results and #results > 0 then
 				local costCollectibles, collectible = {};
 				cache.SetCachedField(t, "costCollectibles", costCollectibles);
+				local canBeCollectible = app.PreCheckCollectible(t);
 				for _,ref in pairs(results) do
 					-- different currencyID
 					if ref.currencyID ~= t.currencyID and
@@ -7597,32 +7651,39 @@ local fields = {
 						not GetRelativeField(t, "parent", ref) then
 						-- track this item as a cost collectible
 						tinsert(costCollectibles, ref);
-						collectible = collectible or app.CheckCollectible(t, ref, ref._cache);
+						if canBeCollectible then
+							collectible = collectible or app.CheckCollectible(ref);
+						end
 					end
 				end
 				-- This instance of the Thing (t) is not actually collectible for this character if it is under a saved, non-repeatable parent
-				if not app.MODE_DEBUG_OR_ACCOUNT and t.parent and t.parent.saved and not t.parent.repeatable then return false; end
+				if not app.MODE_DEBUG_OR_ACCOUNT and t.parent and t.parent.saved and not t.parent.repeatable then return; end
 				return collectible;
 			else
 				cache.SetCachedField(t, "costCollectibles", app.EmptyTable);
 			end
 		else
 			-- This instance of the Thing (t) is not actually collectible for this character if it is under a saved, non-repeatable parent
-			if not app.MODE_DEBUG_OR_ACCOUNT and t.parent and t.parent.saved and not t.parent.repeatable then return false; end
+			if not app.MODE_DEBUG_OR_ACCOUNT and t.parent and t.parent.saved and not t.parent.repeatable then return; end
+			-- Make sure this thing can actually be collectible
+			if not app.PreCheckCollectible(t) then return; end
 			-- Use the common collectibility check logic
 			local collectible;
 			for _,ref in pairs(t.costCollectibles) do
-				collectible = app.CheckCollectible(t, ref, ref._cache);
+				collectible = app.CheckCollectible(ref);
 				if collectible then return true; end
 			end
 		end
 	end,
 	["collectedAsCost"] = function(t)
-		local collectibles, collectible, collected = t.costCollectibles;
+		local collectibles = t.costCollectibles;
 		if not collectibles then return; end
+		-- Make sure this thing can actually be collectible
+		if not app.PreCheckCollectible(t) then return; end
+		local collectible, collected;
 		for _,ref in pairs(collectibles) do
 			-- Use the common collectibility check logic
-			collectible, collected = app.CheckCollectible(t, ref, ref._cache);
+			collectible, collected = app.CheckCollectible(ref);
 			if collectible and not collected then return false; end
 		end
 		return true;
@@ -7700,7 +7761,7 @@ local fields = {
 		return OnUpdateForDeathTrackerLib;
 	end,
 };
-app.BaseDeathClass = app.BaseObjectFields(fields);
+app.BaseDeathClass = app.BaseObjectFields(fields, "BaseDeathClass");
 app.CreateDeathClass = function()
 	return setmetatable({}, app.BaseDeathClass);
 end
@@ -7787,7 +7848,7 @@ local fields = {
 		end
 	end,
 };
-app.BaseDifficulty = app.BaseObjectFields(fields);
+app.BaseDifficulty = app.BaseObjectFields(fields, "BaseDifficulty");
 app.CreateDifficulty = function(id, t)
 	return setmetatable(constructor(id, t, "difficultyID"), app.BaseDifficulty);
 end
@@ -7853,7 +7914,7 @@ local fields = {
 		return 1;
 	end,
 };
-app.BaseEncounter = app.BaseObjectFields(fields);
+app.BaseEncounter = app.BaseObjectFields(fields, "BaseEncounter");
 app.CreateEncounter = function(id, t)
 	return setmetatable(constructor(id, t, "encounterID"), app.BaseEncounter);
 end
@@ -8154,7 +8215,7 @@ local fields = {
 		return ((t.reputation or -42000) + 42000) / 84000;
 	end,
 };
-app.BaseFaction = app.BaseObjectFields(fields);
+app.BaseFaction = app.BaseObjectFields(fields, "BaseFaction");
 app.CreateFaction = function(id, t)
 	return setmetatable(constructor(id, t, "factionID"), app.BaseFaction);
 end
@@ -8183,7 +8244,7 @@ local fields = {
 		return L["FILTER_ID_ICONS"][t.filterID];
 	end,
 };
-app.BaseFilter = app.BaseObjectFields(fields);
+app.BaseFilter = app.BaseObjectFields(fields, "BaseFilter");
 app.CreateFilter = function(id, t)
 	return setmetatable(constructor(id, t, "filterID"), app.BaseFilter);
 end
@@ -8370,7 +8431,7 @@ local fields = {
 		return t.info.sourceQuests;
 	end,
 };
-app.BaseFlightPath = app.BaseObjectFields(fields);
+app.BaseFlightPath = app.BaseObjectFields(fields, "BaseFlightPath");
 app.CreateFlightPath = function(id, t)
 	return setmetatable(constructor(id, t, "flightPathID"), app.BaseFlightPath);
 end
@@ -8452,7 +8513,7 @@ local fields = {
 		return displayIDs and #displayIDs > 0 and displayIDs[1].id;
 	end,
 };
-app.BaseFollower = app.BaseObjectFields(fields);
+app.BaseFollower = app.BaseObjectFields(fields, "BaseFollower");
 app.CreateFollower = function(id, t)
 	return setmetatable(constructor(id, t, "followerID"), app.BaseFollower);
 end
@@ -8510,7 +8571,7 @@ local fields = {
 		end
 	end,
 };
-app.BaseGarrisonBuilding = app.BaseObjectFields(fields);
+app.BaseGarrisonBuilding = app.BaseObjectFields(fields, "BaseGarrisonBuilding");
 app.CreateGarrisonBuilding = function(id, t)
 	return setmetatable(constructor(id, t, "buildingID"), app.BaseGarrisonBuilding);
 end
@@ -8526,7 +8587,7 @@ local fields = {
 		return "Interface/ICONS/INV_Icon_Mission_Complete_Order";
 	end,
 };
-app.BaseGarrisonMission = app.BaseObjectFields(fields);
+app.BaseGarrisonMission = app.BaseObjectFields(fields, "BaseGarrisonMission");
 app.CreateGarrisonMission = function(id, t)
 	return setmetatable(constructor(id, t, "missionID"), app.BaseGarrisonMission);
 end
@@ -8552,7 +8613,7 @@ local fields = {
 		return IsQuestFlaggedCompleted(t.questID) or t.info.researched;
 	end,
 };
-app.BaseGarrisonTalent = app.BaseObjectFields(fields);
+app.BaseGarrisonTalent = app.BaseObjectFields(fields, "BaseGarrisonTalent");
 app.CreateGarrisonTalent = function(id, t)
 	return setmetatable(constructor(id, t, "talentID"), app.BaseGarrisonTalent);
 end
@@ -8624,7 +8685,7 @@ local fields = {
 		end
 	end,
 };
-app.BaseGearSet = app.BaseObjectFields(fields);
+app.BaseGearSet = app.BaseObjectFields(fields, "BaseGearSet");
 app.CreateGearSet = function(id, t)
 	return setmetatable(constructor(id, t, "setID"), app.BaseGearSet);
 end
@@ -8676,7 +8737,7 @@ local fields = {
 		return t.info.invType or 99;
 	end,
 };
-app.BaseGearSource = app.BaseObjectFields(fields);
+app.BaseGearSource = app.BaseObjectFields(fields, "BaseGearSource");
 app.CreateGearSource = function(id)
 	return setmetatable({ s = id}, app.BaseGearSource);
 end
@@ -8705,7 +8766,7 @@ local fields = {
 		end
 	end,
 };
-app.BaseGearSetHeader = app.BaseObjectFields(fields);
+app.BaseGearSetHeader = app.BaseObjectFields(fields, "BaseGearSetHeader");
 app.CreateGearSetHeader = function(id, t)
 	return setmetatable(constructor(id, t, "setID"), app.BaseGearSetHeader);
 end
@@ -8734,7 +8795,7 @@ local fields = {
 		end
 	end,
 };
-app.BaseGearSetSubHeader = app.BaseObjectFields(fields);
+app.BaseGearSetSubHeader = app.BaseObjectFields(fields, "BaseGearSetSubHeader");
 app.CreateGearSetSubHeader = function(id, t)
 	return setmetatable(constructor(id, t, "setID"), app.BaseGearSetSubHeader);
 end
@@ -8841,7 +8902,7 @@ local fields = {
 		return not rawget(t, "icon") and texcoord;
 	end,
 };
-app.BaseHoliday = app.BaseObjectFields(fields);
+app.BaseHoliday = app.BaseObjectFields(fields, "BaseHoliday");
 app.CreateHoliday = function(id, t)
 	return setmetatable(constructor(id, t, "holidayID"), app.BaseHoliday);
 end
@@ -8900,7 +8961,7 @@ local fields = {
 		return select(3, C_TransmogCollection_GetIllusionSourceInfo(t.illusionID));
 	end,
 };
-app.BaseIllusion = app.BaseObjectFields(fields);
+app.BaseIllusion = app.BaseObjectFields(fields, "BaseIllusion");
 app.CreateIllusion = function(id, t)
 	return setmetatable(constructor(id, t, "illusionID"), app.BaseIllusion);
 end
@@ -8954,7 +9015,7 @@ local fields = {
 	end,
 	["isLockoutShared"] = app.ReturnFalse,
 };
-app.BaseInstance = app.BaseObjectFields(fields);
+app.BaseInstance = app.BaseObjectFields(fields, "BaseInstance");
 app.CreateInstance = function(id, t)
 	return setmetatable(constructor(id, t, "instanceID"), app.BaseInstance);
 end
@@ -9133,38 +9194,43 @@ local itemFields = {
 			if not results and t.itemID then
 				id = t.itemID;
 				results = app.SearchForField("itemIDAsCost", id);
-				-- if app.DEBUG_PRINT then print("itemIDAsCost.itemID",id,results and #results) end
 			end
 			-- if app.DEBUG_PRINT then print("collectibleAsCost",t.modItemID,results and #results) end
 			if results and #results > 0 then
 				-- setup the costCollectibles initially
+				-- app.PrintDebug("> costs",t.hash,t.modItemID)
 				local costCollectibles, collectible = {};
 				cache.SetCachedField(t, "costCollectibles", costCollectibles);
+				local canBeCollectible = app.PreCheckCollectible(t);
 				for _,ref in pairs(results) do
 					-- different itemID, OR same itemID with different modID is allowed
 					if (ref.itemID ~= id or (ref.modItemID and ref.modItemID ~= t.modItemID)) and
 						-- is not a parent of the cost group itself
-						not GetRelativeField(t, "parent", ref) then
+						not GetRelativeField(t, "parent", ref)
+						then
 						-- track this item as a cost collectible
 						tinsert(costCollectibles, ref);
-						collectible = collectible or app.CheckCollectible(t, ref, ref._cache);
+						if canBeCollectible then
+							collectible = collectible or app.CheckCollectible(ref);
+						end
 					end
 				end
-				-- app.DEBUG_PRINT = nil;
+				-- app.PrintDebug("< costs")
 				-- This instance of the Thing (t) is not actually collectible for this character if it is under a saved, non-repeatable parent
 				if not app.MODE_DEBUG_OR_ACCOUNT and t.parent and t.parent.saved and not t.parent.repeatable then return false; end
 				return collectible;
 			else
 				cache.SetCachedField(t, "costCollectibles", app.EmptyTable);
 			end
-			-- app.DEBUG_PRINT = nil;
 		else
 			-- This instance of the Thing (t) is not actually collectible for this character if it is under a saved, non-repeatable parent
-			if not app.MODE_DEBUG_OR_ACCOUNT and t.parent and t.parent.saved and not t.parent.repeatable then return false; end
+			if not app.MODE_DEBUG_OR_ACCOUNT and t.parent and t.parent.saved and not t.parent.repeatable then return; end
+			-- Make sure this thing can actually be collectible
+			if not app.PreCheckCollectible(t) then return; end
 			-- Use the common collectibility check logic
 			local collectible;
 			for _,ref in pairs(t.costCollectibles) do
-				collectible = app.CheckCollectible(t, ref, ref._cache);
+				collectible = app.CheckCollectible(ref);
 				if collectible then return true; end
 			end
 		end
@@ -9185,11 +9251,14 @@ local itemFields = {
 		return app.CollectibleAsQuest(t);
 	end,
 	["collectedAsCost"] = function(t)
-		local collectibles, collectible, collected = t.costCollectibles;
+		local collectibles = t.costCollectibles;
 		if not collectibles then return; end
+		-- Make sure this thing can actually be collectible
+		if not app.PreCheckCollectible(t) then return; end
+		local collectible, collected;
 		for _,ref in pairs(collectibles) do
 			-- Use the common collectibility check logic
-			collectible, collected = app.CheckCollectible(t, ref, ref._cache);
+			collectible, collected = app.CheckCollectible(ref);
 			if collectible and not collected then return false; end
 		end
 		return true;
@@ -9246,26 +9315,26 @@ app.BaseItem = app.BaseObjectFields(itemFields, "BaseItem");
 local fields = RawCloneData(itemFields);
 fields.collectible = itemFields.collectibleAsAchievement;
 fields.collected = itemFields.collectedAsAchievement;
-app.BaseItemWithAchievementID = app.BaseObjectFields(fields);
+app.BaseItemWithAchievementID = app.BaseObjectFields(fields, "BaseItemWithAchievementID");
 
 local fields = RawCloneData(itemFields);
 fields.collectible = itemFields.collectibleAsFaction;
 fields.collected = itemFields.collectedAsFaction;
-app.BaseItemWithFactionID = app.BaseObjectFields(fields);
+app.BaseItemWithFactionID = app.BaseObjectFields(fields, "BaseItemWithFactionID");
 
 local fields = RawCloneData(itemFields);
 fields.collectible = itemFields.collectibleAsQuest;
 fields.collected = itemFields.collectedAsQuest;
 fields.trackable = itemFields.trackableAsQuest;
 fields.saved = itemFields.savedAsQuest;
-app.BaseItemWithQuestID = app.BaseObjectFields(fields);
+app.BaseItemWithQuestID = app.BaseObjectFields(fields, "BaseItemWithQuestID");
 
 local fields = RawCloneData(itemFields);
 fields.collectible = itemFields.collectibleAsFactionOrQuest;
 fields.collected = itemFields.collectedAsFactionOrQuest;
 fields.trackable = itemFields.trackableAsQuest;
 fields.saved = itemFields.savedAsQuest;
-app.BaseItemWithQuestIDAndFactionID = app.BaseObjectFields(fields);
+app.BaseItemWithQuestIDAndFactionID = app.BaseObjectFields(fields, "BaseItemWithQuestIDAndFactionID");
 
 -- Appearance Lib (Item Source)
 local fields = RawCloneData(itemFields);
@@ -9320,7 +9389,7 @@ fields.collected = function(t)
 	end
 end;
 fields.lvl = function(t) return 60; end;
-app.BaseRuneforgeLegendary = app.BaseObjectFields(fields);
+app.BaseRuneforgeLegendary = app.BaseObjectFields(fields, "BaseRuneforgeLegendary");
 app.CreateRuneforgeLegendary = function(id, t)
 	return setmetatable(constructor(id, t, "runeforgePowerID"), app.BaseRuneforgeLegendary);
 end
@@ -9350,7 +9419,7 @@ fields.collected = function(t)
 	end
 end;
 fields.lvl = function(t) return 60; end;
-app.BaseConduit = app.BaseObjectFields(fields);
+app.BaseConduit = app.BaseObjectFields(fields, "BaseConduit");
 app.CreateConduit = function(id, t)
 	return setmetatable(constructor(id, t, "conduitID"), app.BaseConduit);
 end
@@ -9386,7 +9455,7 @@ local fields = {
 	["trackable"] = app.ReturnTrue,
 };
 fields.collected = fields.saved;
-app.BaseHeirloomUnlocked = app.BaseObjectFields(fields);
+app.BaseHeirloomUnlocked = app.BaseObjectFields(fields, "BaseHeirloomUnlocked");
 
 local armorTextures = {
 	"Interface/ICONS/INV_Icon_HeirloomToken_Armor01",
@@ -9444,7 +9513,7 @@ local fields = {
 	end,
 };
 fields.collected = fields.saved;
-app.BaseHeirloomLevel = app.BaseObjectFields(fields);
+app.BaseHeirloomLevel = app.BaseObjectFields(fields, "BaseHeirloomLevel");
 
 -- copy base Item fields
 local fields = RawCloneData(itemFields);
@@ -9616,7 +9685,7 @@ fields.toyID = function(t)
 		return t.itemID;
 	end
 
-app.BaseToy = app.BaseObjectFields(fields);
+app.BaseToy = app.BaseObjectFields(fields, "BaseToy");
 app.CreateToy = function(id, t)
 	return setmetatable(constructor(id, t, "itemID"), app.BaseToy);
 end
@@ -9689,7 +9758,7 @@ itemHarvesterFields.text = function(t)
 	if name then rawset(t, "collected", true); end
 	return name;
 end
-app.BaseItemHarvester = app.BaseObjectFields(itemHarvesterFields, "ItemHarvester");
+app.BaseItemHarvester = app.BaseObjectFields(itemHarvesterFields, "BaseItemHarvester");
 
 local ItemHarvester = CreateFrame("GameTooltip", "ATTItemHarvester", UIParent, "GameTooltipTemplate");
 local itemTooltipHarvesterFields = RawCloneData(itemHarvesterFields);
@@ -9896,7 +9965,7 @@ itemTooltipHarvesterFields.text = function(t)
 		return link;
 	end
 end
-app.BaseItemTooltipHarvester = app.BaseObjectFields(itemTooltipHarvesterFields, "ItemTooltipHarvester");
+app.BaseItemTooltipHarvester = app.BaseObjectFields(itemTooltipHarvesterFields, "BaseItemTooltipHarvester");
 app.CreateItemHarvester = function(id, t)
 	return setmetatable(constructor(id, t, "itemID"), app.BaseItemHarvester);
 end
@@ -10031,12 +10100,12 @@ local mapFields = {
 		return GetAchievementLink(t.achievementID);
 	end,
 };
-app.BaseMap = app.BaseObjectFields(mapFields);
+app.BaseMap = app.BaseObjectFields(mapFields, "BaseMap");
 
 local fields = RawCloneData(mapFields);
 fields.icon = mapFields.iconForAchievement;
 fields.link = mapFields.linkForAchievement;
-app.BaseMapWithAchievementID = app.BaseObjectFields(fields);
+app.BaseMapWithAchievementID = app.BaseObjectFields(fields, "BaseMapWithAchievementID");
 app.CreateMap = function(id, t)
 	t = constructor(id, t, "mapID");
 	if rawget(t, "achID") then
@@ -10149,13 +10218,13 @@ local mountFields = {
 		return select(2, GetItemInfo(t.itemID)) or select(1, GetSpellLink(t.spellID));
 	end,
 };
-app.BaseMount = app.BaseObjectFields(mountFields);
+app.BaseMount = app.BaseObjectFields(mountFields, "BaseMount");
 
 local fields = RawCloneData(mountFields);
 fields.modItemID = mountFields.modItemIDForItem;
 fields.link = mountFields.linkForItem;
 fields.tsm = mountFields.tsmForItem;
-app.BaseMountWithItemID = app.BaseObjectFields(fields);
+app.BaseMountWithItemID = app.BaseObjectFields(fields, "BaseMountWithItemID");
 app.CreateMount = function(id, t)
 	if t and rawget(t, "itemID") then
 		return setmetatable(constructor(id, t, "spellID"), app.BaseMountWithItemID);
@@ -10248,7 +10317,7 @@ local fields = {
 		return IsQuestFlaggedCompleted(t.questID);
 	end,
 };
-app.BaseMusicRoll = app.BaseObjectFields(fields);
+app.BaseMusicRoll = app.BaseObjectFields(fields, "BaseMusicRoll");
 app.CreateMusicRoll = function(questID, t)
 	return setmetatable(constructor(questID, t, "questID"), app.BaseMusicRoll);
 end
@@ -10291,7 +10360,7 @@ local fields = {
 		return 40;
 	end,
 };
-app.BaseSelfieFilter = app.BaseObjectFields(fields);
+app.BaseSelfieFilter = app.BaseObjectFields(fields, "BaseSelfieFilter");
 app.CreateSelfieFilter = function(id, t)
 	return setmetatable(constructor(id, t, "questID"), app.BaseSelfieFilter);
 end
@@ -10372,14 +10441,19 @@ local npcFields = {
 			end
 		end
 	end,
+	["indicatorIcon"] = function(t)
+		if app.CurrentVignettes["npcID"][t.npcID] then
+			return "Category_Secrets";
+		end
+	end,
 };
 npcFields.icon = npcFields.iconAsDefault;
-app.BaseNPC = app.BaseObjectFields(npcFields);
+app.BaseNPC = app.BaseObjectFields(npcFields, "BaseNPC");
 
 local fields = RawCloneData(npcFields);
 fields.icon = npcFields.iconAsAchievement;
 --fields.link = npcFields.linkAsAchievement;	-- Go to Broken Shore -> Command Center ->
-app.BaseNPCWithAchievement = app.BaseObjectFields(fields);
+app.BaseNPCWithAchievement = app.BaseObjectFields(fields, "BaseNPCWithAchievement");
 
 local fields = RawCloneData(npcFields);
 fields.altcollected = npcFields.altcollectedAsQuest;
@@ -10388,7 +10462,7 @@ fields.collected = npcFields.collectedAsQuest;
 fields.trackable = npcFields.trackableAsQuest;
 fields.repeatable = npcFields.repeatableAsQuest;
 fields.saved = fields.savedAsQuest;
-app.BaseNPCWithQuest = app.BaseObjectFields(fields);
+app.BaseNPCWithQuest = app.BaseObjectFields(fields, "BaseNPCWithQuest");
 
 local fields = RawCloneData(npcFields);
 fields.icon = npcFields.iconAsAchievement;
@@ -10399,7 +10473,7 @@ fields.collected = npcFields.collectedAsQuest;
 fields.trackable = npcFields.trackableAsQuest;
 fields.repeatable = npcFields.repeatableAsQuest;
 fields.saved = fields.savedAsQuest;
-app.BaseNPCWithAchievementAndQuest = app.BaseObjectFields(fields);
+app.BaseNPCWithAchievementAndQuest = app.BaseObjectFields(fields, "BaseNPCWithAchievementAndQuest");
 
 local headerFields = {
 	["key"] = function(t)
@@ -10431,23 +10505,23 @@ local headerFields = {
 	end,
 	["trackableAsQuest"] = app.ReturnTrue,
 };
-app.BaseHeader = app.BaseObjectFields(headerFields);
+app.BaseHeader = app.BaseObjectFields(headerFields, "BaseHeader");
 local fields = RawCloneData(headerFields);
 fields.name = headerFields.nameAsAchievement;
 fields.icon = headerFields.iconAsAchievement;
 --fields.link = headerFields.linkAsAchievement;
-app.BaseHeaderWithAchievement = app.BaseObjectFields(fields);
+app.BaseHeaderWithAchievement = app.BaseObjectFields(fields, "BaseHeaderWithAchievement");
 local fields = RawCloneData(headerFields);
 fields.saved = headerFields.savedAsQuest;
 fields.trackable = headerFields.trackableAsQuest;
-app.BaseHeaderWithQuest = app.BaseObjectFields(fields);
+app.BaseHeaderWithQuest = app.BaseObjectFields(fields, "BaseHeaderWithQuest");
 local fields = RawCloneData(headerFields);
 fields.name = headerFields.nameAsAchievement;
 fields.icon = headerFields.iconAsAchievement;
 --fields.link = headerFields.linkAsAchievement;
 fields.saved = headerFields.savedAsQuest;
 fields.trackable = headerFields.trackableAsQuest;
-app.BaseHeaderWithAchievementAndQuest = app.BaseObjectFields(fields);
+app.BaseHeaderWithAchievementAndQuest = app.BaseObjectFields(fields, "BaseHeaderWithAchievementAndQuest");
 app.CreateNPC = function(id, t)
 	if t then
 		-- TEMP: clean MoH tagging from random Vendors
@@ -10545,6 +10619,11 @@ local objectFields = {
 			end
 		end
 	end,
+	["indicatorIcon"] = function(t)
+		if app.CurrentVignettes["objectID"][t.objectID] then
+			return "Category_Secrets";
+		end
+	end,
 
 	-- Generic fields (potentially replaced by specific object types)
 	["trackable"] = function(t)
@@ -10579,12 +10658,12 @@ local objectFields = {
 		return anySaved;
 	end,
 };
-app.BaseObject = app.BaseObjectFields(objectFields);
+app.BaseObject = app.BaseObjectFields(objectFields, "BaseObject");
 
 local fields = RawCloneData(objectFields);
 fields.icon = objectFields.iconAsAchievement;
 --fields.link = objectFields.linkAsAchievement;
-app.BaseObjectWithAchievement = app.BaseObjectFields(fields);
+app.BaseObjectWithAchievement = app.BaseObjectFields(fields, "BaseObjectWithAchievement");
 
 local fields = RawCloneData(objectFields);
 fields.altcollected = objectFields.altcollectedAsQuest;
@@ -10593,7 +10672,7 @@ fields.collected = objectFields.collectedAsQuest;
 fields.trackable = objectFields.trackableAsQuest;
 fields.repeatable = objectFields.repeatableAsQuest;
 fields.saved = fields.savedAsQuest;
-app.BaseObjectWithQuest = app.BaseObjectFields(fields);
+app.BaseObjectWithQuest = app.BaseObjectFields(fields, "BaseObjectWithQuest");
 
 local fields = RawCloneData(objectFields);
 fields.icon = objectFields.iconAsAchievement;
@@ -10604,7 +10683,7 @@ fields.collected = objectFields.collectedAsQuest;
 fields.trackable = objectFields.trackableAsQuest;
 fields.repeatable = objectFields.repeatableAsQuest;
 fields.saved = fields.savedAsQuest;
-app.BaseObjectWithAchievementAndQuest = app.BaseObjectFields(fields);
+app.BaseObjectWithAchievementAndQuest = app.BaseObjectFields(fields, "BaseObjectWithAchievementAndQuest");
 app.CreateObject = function(id, t)
 	if t then
 		if rawget(t, "achID") then
@@ -10718,7 +10797,7 @@ local fields = {
 		return t.professionID;
 	end,
 };
-app.BaseProfession = app.BaseObjectFields(fields);
+app.BaseProfession = app.BaseObjectFields(fields, "BaseProfession");
 app.CreateProfession = function(id, t)
 	return setmetatable(constructor(id, t, "professionID"), app.BaseProfession);
 end
@@ -10759,7 +10838,7 @@ local fields = {
 		GameTooltip:AddDoubleLine("Your lifetime highest rank: ", _G["PVP_RANK_" .. (t.lifetimeRank) .. "_" .. (app.FactionID == 2 and 1 or 0)], 1, 1, 1, 1, 1, 1);
 	end
 };
-app.BasePVPRank = app.BaseObjectFields(fields);
+app.BasePVPRank = app.BaseObjectFields(fields, "BasePVPRank");
 app.CreatePVPRank = function(id, t)
 	return setmetatable(constructor(id, t, "pvpRankID"), app.BasePVPRank);
 end
@@ -10958,7 +11037,7 @@ local questFields = {
 		end
 	end,
 };
-app.BaseQuest = app.BaseObjectFields(questFields);
+app.BaseQuest = app.BaseObjectFields(questFields, "BaseQuest");
 
 -- consolidated representation of whether a Thing can be collectible via QuestID
 app.CollectibleAsQuest = function(t)
@@ -11250,7 +11329,7 @@ end
 local fields = RawCloneData(questFields);
 fields.collectible = questFields.collectibleAsReputation;
 fields.collected = questFields.collectedAsReputation;
-app.BaseQuestWithReputation = app.BaseObjectFields(fields);
+app.BaseQuestWithReputation = app.BaseObjectFields(fields, "BaseQuestWithReputation");
 app.CreateQuest = function(id, t)
 	if t and rawget(t, "maxReputation") then
 		return setmetatable(constructor(id, t, "questID"), app.BaseQuestWithReputation);
@@ -11363,7 +11442,7 @@ end
 -- 		end
 -- 	end,
 -- };
--- app.BaseQuestObjective = app.BaseObjectFields(fields);
+-- app.BaseQuestObjective = app.BaseObjectFields(fields, "BaseQuestObjective");
 -- app.CreateQuestObjective = function(id, t)
 -- 	return setmetatable(constructor(id, t, "objectiveID"), app.BaseQuestObjective);
 -- end
@@ -11403,7 +11482,7 @@ fields.name = function(t)
 end;
 fields.icon = function(t) return "Interface\\Icons\\INV_Misc_Head_Dragon_Black"; end;
 fields.isVignette = app.ReturnTrue;
-app.BaseVignette = app.BaseObjectFields(fields);
+app.BaseVignette = app.BaseObjectFields(fields, "BaseVignette");
 app.CreateVignette = function(id, t)
 	return setmetatable(constructor(id, t, "questID"), app.BaseVignette);
 end
@@ -11552,7 +11631,7 @@ local raceFields = {
 		return cache.GetCachedField(t, "name", default_name);
 	end,
 };
-app.BaseRace = app.BaseObjectFields(raceFields);
+app.BaseRace = app.BaseObjectFields(raceFields, "BaseRace");
 app.CreateRace = function(id, t)
 	return setmetatable(constructor(id, t, "raceID"), app.BaseRace);
 end
@@ -11643,7 +11722,7 @@ local fields = {
 		return rawget(t, "modItemID");
 	end,
 };
-app.BaseRecipe = app.BaseObjectFields(fields);
+app.BaseRecipe = app.BaseObjectFields(fields, "BaseRecipe");
 app.CreateRecipe = function(id, t)
 	return setmetatable(constructor(id, t, "spellID"), app.BaseRecipe);
 end
@@ -11833,7 +11912,7 @@ local fields = {
 	end,
 };
 
-app.BaseTier = app.BaseObjectFields(fields);
+app.BaseTier = app.BaseObjectFields(fields, "BaseTier");
 app.CreateTier = function(id, t)
 	return setmetatable(constructor(id, t, "tierID"), app.BaseTier);
 end
@@ -12019,7 +12098,7 @@ local fields = {
 		end
 	end,
 };
-app.BaseTitle = app.BaseObjectFields(fields);
+app.BaseTitle = app.BaseObjectFields(fields, "BaseTitle");
 app.CreateTitle = function(id, t)
 	return setmetatable(constructor(id, t, "titleID"), app.BaseTitle);
 end
@@ -16850,7 +16929,7 @@ customWindowUpdates["CurrentInstance"] = function(self, force, got)
 			self:SetVisible(true);
 			self:Update();
 		end
-		local function IsNotComplete(group) return not app.IsComplete(group); end
+		local function IsNotComplete(group) return not app.IsComplete(group) and app.RecursiveGroupRequirementsFilter(group); end
 		local function CheckGroup(group, func)
 			if func(group) then
 				return true;
@@ -16934,7 +17013,7 @@ customWindowUpdates["CurrentInstance"] = function(self, force, got)
 		};
 		-- self.Rebuild
 		(function()
-		local results, groups, nested, header, headerKeys, difficultyID, topHeader, nextParent, headerID, groupKey, typeHeaderID;
+		local results, groups, nested, header, headerKeys, difficultyID, topHeader, nextParent, headerID, groupKey, typeHeaderID, isInInstance;
 		self.Rebuild = function(self)
 			-- print("Rebuild",self.mapID);
 			-- check if this is the same 'map' for data purposes
@@ -16950,15 +17029,18 @@ customWindowUpdates["CurrentInstance"] = function(self, force, got)
 				groups = {};
 				header = app.CreateMap(self.mapID, { g = groups });
 				self.CurrentMaps[self.mapID] = true;
-				headerKeys = IsInInstance() and subGroupInstanceKeys or subGroupKeys;
+				isInInstance = IsInInstance();
+				headerKeys = isInInstance and subGroupInstanceKeys or subGroupKeys;
 				for _,group in ipairs(results) do
 					-- do not use any raw Source groups in the final list
+					-- app.PrintDebug("Clone",group.hash)
 					group = CreateObject(group);
+					-- app.PrintDebug("Done")
 					-- print(group.key,group.key and group[group.key],group.text)
 					nested = nil;
 
-					-- Cache the difficultyID, if there is one
-					difficultyID = GetRelativeValue(group, "difficultyID");
+					-- Cache the difficultyID, if there is one and we are in an actual instance where the group is being mapped
+					difficultyID = isInInstance and GetRelativeValue(group, "difficultyID");
 
 					-- groups which 'should' be a root of the minilist
 					if (group.instanceID or group.mapID or group.key == "classID")
@@ -17133,26 +17215,29 @@ customWindowUpdates["CurrentInstance"] = function(self, force, got)
 				end
 				if app.Settings:GetTooltipSetting("Warn:Difficulty") then
 					if difficultyID and difficultyID > 0 and self.data.g then
-						local missing, other;
+						local missing, found, other;
 						for _,row in ipairs(self.data.g) do
-							-- app.PrintDebug("Check Minilist Header for Progress for Difficulty",difficultyID,row.difficultyID,row.progress,row.total)
-							if not missing then
+							-- app.PrintDebug("Check Minilist Header for Progress for Difficulty",difficultyID,row.difficultyID,row.difficulties)
+							if not found and not missing then
 								-- check group for the current difficulty for incomplete content
 								if (row.difficultyID == difficultyID) or (row.difficulties and containsValue(row.difficulties, difficultyID)) then
+									found = true;
+									-- app.PrintDebug("Found current")
 									if CheckGroup(row, IsNotComplete) then
 										-- app.PrintDebug("Current Difficulty is NOT complete")
 										missing = true;
 									end
-								-- grab another incomplete difficulty name in case current difficulty is complete
+								-- grab another difficulty with incomplete groups in case current difficulty is complete
 								elseif not other and row.difficultyID then
 									if CheckGroup(row, IsNotComplete) then
+										-- app.PrintDebug("Found another incomplete",row.text)
 										other = row.text;
 									end
 								end
 							end
 						end
-						-- current difficulty is not missing anything, and we have another difficulty text to announce
-						if not missing and other then
+						-- current matching difficulty is not missing anything, and we have another difficulty text to announce
+						if found and not missing and other then
 							print(L["DIFF_COMPLETED_1"] .. other .. L["DIFF_COMPLETED_2"]);
 						end
 					end
@@ -20752,8 +20837,8 @@ app.Startup = function()
 	app:RegisterEvent("TRANSMOG_COLLECTION_SOURCE_REMOVED");
 	app:RegisterEvent("PET_BATTLE_OPENING_START")
 	app:RegisterEvent("PET_BATTLE_CLOSE")
-	--app:RegisterEvent("VIGNETTE_MINIMAP_UPDATED")
-	--app:RegisterEvent("VIGNETTES_UPDATED")
+	app:RegisterEvent("VIGNETTE_MINIMAP_UPDATED")
+	app:RegisterEvent("VIGNETTES_UPDATED")
 
 	StartCoroutine("InitDataCoroutine", app.InitDataCoroutine);
 end
@@ -21774,54 +21859,44 @@ app.CurrentVignettes = {
 };
 local C_VignetteInfo_GetVignetteInfo = C_VignetteInfo.GetVignetteInfo;
 local C_VignetteInfo_GetVignettes = C_VignetteInfo.GetVignettes;
-local tonumber, strsplit, ipairs = tonumber, strsplit, ipairs;
+local tonumber, strsplit, ipairs, wipe = tonumber, strsplit, ipairs, wipe;
 
 local function DelVignette(vignetteGUID)
 	local vignetteInfo = C_VignetteInfo_GetVignetteInfo(vignetteGUID);
 	if vignetteInfo and vignetteInfo.objectGUID then
 		local type, _, _, _, _, id, _ = strsplit("-",vignetteInfo.objectGUID);
-		id = tonumber(id);
-		local searchType = type == "Creature" and "npcID" or "objectID";
-		-- app.PrintDebug("Hidden Vignette",searchType,id)
-		app.CurrentVignettes[searchType][id] = nil;
+		id = id and tonumber(id);
+		if id then
+			local searchType = type == "Creature" and "npcID" or "objectID";
+			-- app.PrintDebug("Hidden Vignette",searchType,id)
+			app.CurrentVignettes[searchType][id] = nil;
+		end
 	end
 end
 local function AddVignette(vignetteGUID)
 	local vignetteInfo = C_VignetteInfo_GetVignetteInfo(vignetteGUID);
 	if vignetteInfo and vignetteInfo.objectGUID then
+		-- app.PrintDebug("Add Vignette",vignetteInfo.objectGUID)
 		local type, _, _, _, _, id, _ = strsplit("-",vignetteInfo.objectGUID);
-		id = tonumber(id);
-		local searchType = type == "Creature" and "npcID" or "objectID";
-		if vignetteInfo.isDead then
-			-- app.PrintDebug("Dead Vignette",searchType,id)
-			app.CurrentVignettes[searchType][id] = nil;
-		else
-			-- app.PrintDebug("Visible Vignette",searchType,id)
-			app.CurrentVignettes[searchType][id] = true;
-			-- potentially can add groups into another window?
-			local vignetteGroup = app.SearchForObject(searchType,id);
-			if vignetteGroup then
-				-- app.PrintDebug("Found Vignette Group")
-				-- force the related vignette group to be visible (this currently would only affect the Main list...)
-				vignetteGroup.visible = true;
+		id = id and tonumber(id);
+		if id then
+			local searchType = type == "Creature" and "npcID" or "objectID";
+			if vignetteInfo.isDead then
+				-- app.PrintDebug("Dead Vignette",searchType,id)
+				app.CurrentVignettes[searchType][id] = nil;
+			else
+				-- app.PrintDebug("Visible Vignette",searchType,id)
+				-- app.PrintTable(vignetteInfo)
+				app.CurrentVignettes[searchType][id] = true;
+				-- potentially can add groups into another window?
+				local vignetteGroup = app.SearchForObject(searchType,id);
+				if vignetteGroup then
+					-- app.PrintDebug("Found Vignette Group")
+					-- force the related vignette group to be visible (this currently would only affect the Main list...)
+					vignetteGroup.visible = true;
+				end
 			end
 		end
-	end
-end
-local function CheckVignettes(vignettes)
-	if vignettes then
-		for _,vignetteGUID in ipairs(vignettes) do
-			AddVignette(vignetteGUID);
-		end
-	end
-end
--- Given a Key and Id, will return the indicator (asset name) if this Object should show one based on it being a currently active/visible Vignette
-app.GetVignetteIndicator = function(t)
-	local key, id = t.key;
-	if key then
-		id = t[key];
-		local vignetteType = app.CurrentVignettes[key];
-		return vignetteType and id and vignetteType[id] and "Category_Secrets";
 	end
 end
 app.events.VIGNETTE_MINIMAP_UPDATED = function(vignetteGUID, onMinimap)
@@ -21832,10 +21907,15 @@ app.events.VIGNETTE_MINIMAP_UPDATED = function(vignetteGUID, onMinimap)
 	end
 	-- app.UpdateWindows(); -- maybe just a refresh?
 end
-app.events.VIGNETTES_UPDATED = function(...)
+app.events.VIGNETTES_UPDATED = function()
+	-- clear current vignettes as they will now be re-populated
+	wipe(app.CurrentVignettes["objectID"]);
+	wipe(app.CurrentVignettes["npcID"]);
 	local vignettes = C_VignetteInfo_GetVignettes();
 	if vignettes then
-		CheckVignettes(vignettes);
+		for _,vignetteGUID in ipairs(vignettes) do
+			AddVignette(vignetteGUID);
+		end
 	end
 end
 end)();

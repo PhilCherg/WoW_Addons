@@ -228,7 +228,7 @@ RaiderIO_DB_KR_H_R: disabled
 RaiderIO_DB_TW_A_R: disabled
 RaiderIO_DB_TW_H_R: disabled
 CharacterQuickLinks: enabled
-HandyNotes_LunarFestival: disabled
+HandyNotes_LunarFestival: enabled
 AAP-Core: disabled
 AAP-Vanilla: disabled
 AAP-TBC-WotLK: disabled

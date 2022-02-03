@@ -38,7 +38,7 @@ Details_Streamer: enabled
 Details_TinyThreat: enabled
 Details_Vanguard: enabled
 DoYouNeedThat: disabled
-HandyNotes: disabled
+HandyNotes: enabled
 HandyNotes_Achievements: enabled
 Immersion: enabled
 InstancePortals: enabled

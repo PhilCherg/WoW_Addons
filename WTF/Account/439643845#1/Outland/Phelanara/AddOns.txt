@@ -14,7 +14,7 @@ WeakAurasOptions: disabled
 WeakAurasTemplates: disabled
 ElvUI_Config: enabled
 ElvUI: enabled
-HandyNotes: disabled
+HandyNotes: enabled
 HandyNotes_EverShiftingMirror: disabled
 HandyNotes_MoleMachine: disabled
 HandyNotes_WitheredArmyTraining: disabled
@@ -318,7 +318,7 @@ TomCats-HallowsEnd: disabled
 TomCats-LoveIsInTheAir: disabled
 TomCats-LunarFestival: disabled
 TomCats-Noblegarden: disabled
-AutoTrackMapPin: disabled
+AutoTrackMapPin: enabled
 BtWQuests: disabled
 BtWQuestsBattleForAzerothPrologue: disabled
 BtWQuestsCataclysm: disabled
@@ -336,7 +336,7 @@ Mists_of_Tirna_Solved: enabled
 MythicDungeonTools: disabled
 OmniBar: disabled
 SimpleArmory: disabled
-UnlimitedMapPinDistance: disabled
+UnlimitedMapPinDistance: enabled
 WorldQuestTab: disabled
 DBM-Shadowlands: disabled
 BtWQuestsBattleForAzeroth: disabled

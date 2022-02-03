@@ -3,6 +3,9 @@ __DEJUNK_SAVED_VARIABLES__ = {
 	["DDBL_Version"] = "2.0.2",
 	["Global"] = {
 		["showItemTooltip"] = false,
+		["minimapIcon"] = {
+			["minimapPos"] = 206.5650248763703,
+		},
 		["version"] = 1,
 	},
 	["Profiles"] = {
@@ -27,13 +30,13 @@ __DEJUNK_SAVED_VARIABLES__ = {
 		["Mallazin-Azjol-Nerub"] = {
 			["version"] = 3,
 		},
-		["Illydaria-Draenor"] = {
+		["Serthaxion-Outland"] = {
 			["version"] = 3,
 		},
 		["Chernakotka-Die Aldor"] = {
 			["version"] = 3,
 		},
-		["Feastyone-Outland"] = {
+		["Nibirus-Azjol-Nerub"] = {
 			["version"] = 3,
 		},
 		["Phelanara-Outland"] = {
@@ -48,39 +51,6 @@ __DEJUNK_SAVED_VARIABLES__ = {
 		["Luminaxia-Outland"] = {
 			["version"] = 3,
 		},
-		["Feastfive-Outland"] = {
-			["version"] = 3,
-		},
-		["Bankeristor-Outland"] = {
-			["version"] = 3,
-		},
-		["Necrophagus-Outland"] = {
-			["version"] = 3,
-		},
-		["Barbaxius-Outland"] = {
-			["version"] = 3,
-		},
-		["Xanthoros-Outland"] = {
-			["version"] = 3,
-		},
-		["Bullenic-Silvermoon"] = {
-			["version"] = 3,
-		},
-		["Feastfour-Outland"] = {
-			["version"] = 3,
-		},
-		["Elementior-Outland"] = {
-			["version"] = 3,
-		},
-		["Destruxia-Outland"] = {
-			["version"] = 3,
-		},
-		["Feastthree-Outland"] = {
-			["version"] = 3,
-		},
-		["Phaltraxion-Outland"] = {
-			["version"] = 3,
-		},
 		["Illyana-Outland"] = {
 			["sell"] = {
 				["auto"] = true,
@@ -91,10 +61,43 @@ __DEJUNK_SAVED_VARIABLES__ = {
 			},
 			["version"] = 3,
 		},
-		["Nibirus-Azjol-Nerub"] = {
+		["Bankeristor-Outland"] = {
 			["version"] = 3,
 		},
-		["Serthaxion-Outland"] = {
+		["Phaltraxion-Outland"] = {
+			["version"] = 3,
+		},
+		["Barbaxius-Outland"] = {
+			["version"] = 3,
+		},
+		["Xanthoros-Outland"] = {
+			["version"] = 3,
+		},
+		["Destruxia-Outland"] = {
+			["version"] = 3,
+		},
+		["Feastfour-Outland"] = {
+			["version"] = 3,
+		},
+		["Necrophagus-Outland"] = {
+			["version"] = 3,
+		},
+		["Feastthree-Outland"] = {
+			["version"] = 3,
+		},
+		["Elementior-Outland"] = {
+			["version"] = 3,
+		},
+		["Bullenic-Silvermoon"] = {
+			["version"] = 3,
+		},
+		["Feastfive-Outland"] = {
+			["version"] = 3,
+		},
+		["Feastyone-Outland"] = {
+			["version"] = 3,
+		},
+		["Illydaria-Draenor"] = {
 			["version"] = 3,
 		},
 	},

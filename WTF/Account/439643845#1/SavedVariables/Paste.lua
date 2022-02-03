@@ -25,7 +25,7 @@ PasteDB = {
 		["Luminaxia - Outland"] = "Luminaxia - Outland",
 		["Testfirst - Outland"] = "Testfirst - Outland",
 		["Phalonius - Azjol-Nerub"] = "Phalonius - Azjol-Nerub",
-		["Bullenic - Silvermoon"] = "Bullenic - Silvermoon",
+		["Mallazin - Azjol-Nerub"] = "Mallazin - Azjol-Nerub",
 		["Barbaxius - Outland"] = "Barbaxius - Outland",
 		["Wolfados - Azjol-Nerub"] = "Wolfados - Azjol-Nerub",
 		["Moneythree - Outland"] = "Moneythree - Outland",
@@ -54,7 +54,7 @@ PasteDB = {
 		["Chernakotka - Die Aldor"] = "Chernakotka - Die Aldor",
 		["Moneyfour - Outland"] = "Moneyfour - Outland",
 		["Serthaxion - Outland"] = "Serthaxion - Outland",
-		["Mallazin - Azjol-Nerub"] = "Mallazin - Azjol-Nerub",
+		["Bullenic - Silvermoon"] = "Bullenic - Silvermoon",
 		["Illydaria - Draenor"] = "Illydaria - Draenor",
 		["Elementior - Outland"] = "Elementior - Outland",
 	},
@@ -153,7 +153,7 @@ PasteDB = {
 		["Phalonius - Azjol-Nerub"] = {
 			["loaded"] = true,
 		},
-		["Bullenic - Silvermoon"] = {
+		["Mallazin - Azjol-Nerub"] = {
 			["loaded"] = true,
 		},
 		["Barbaxius - Outland"] = {
@@ -268,7 +268,7 @@ PasteDB = {
 		["Serthaxion - Outland"] = {
 			["loaded"] = true,
 		},
-		["Mallazin - Azjol-Nerub"] = {
+		["Bullenic - Silvermoon"] = {
 			["loaded"] = true,
 		},
 		["Illydaria - Draenor"] = {

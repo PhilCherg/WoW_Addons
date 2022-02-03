@@ -1,7 +1,7 @@
 local mod	= DBM:NewMod(2460, "DBM-Sepulcher", nil, 1195)
 local L		= mod:GetLocalizedStrings()
 
-mod:SetRevision("20220116063514")
+mod:SetRevision("20220130024544")
 mod:SetCreatureID(181548, 181551, 181546, 181549)
 mod:SetEncounterID(2544)
 mod:SetBossHPInfoToHighest()
@@ -40,89 +40,33 @@ mod:RegisterEventsInCombat(
 local ProtoWar, ProtoDuty, ProtoRenewl, ProtoAbsolution = DBM:EJ_GetSectionInfo(24125), DBM:EJ_GetSectionInfo(24130), DBM:EJ_GetSectionInfo(24135), DBM:EJ_GetSectionInfo(24139)
 --General
 local warnCompleteRecon							= mod:NewCastAnnounce(366062, 4)
---Stage One: War and Duty
-----Prototype of War
-mod:AddOptionLine(ProtoWar, "announce")
-local warnRunecarversDeathtouch					= mod:NewTargetNoFilterAnnounce(360687, 3)
-----Prototype of Duty
-mod:AddOptionLine(ProtoDuty, "announce")
-local warnAscensionsCall						= mod:NewCountAnnounce(361066, 2)
-local warnBastionsWard							= mod:NewCastAnnounce(360845, 1)
-local warnPinned								= mod:NewTargetNoFilterAnnounce(362352, 4)
---Stage Two: Sin and Seed
-----Prototype of Absolution
-local warnNightHunter							= mod:NewTargetNoFilterAnnounce(361745, 3)
 
---Stage One: War and Duty
-----Prototype of War
-mod:AddOptionLine(ProtoWar, "specialannounce")
-mod:AddOptionLine(ProtoWar, "yell")
-local specWarnNecroticRitual					= mod:NewSpecialWarningSwitchCount(360295, "-Healer", nil, nil, 1, 2)
-local specWarnDeathtouch						= mod:NewSpecialWarningMoveAway(360687, nil, nil, nil, 1, 2)
-local yellDeathtouch							= mod:NewShortPosYell(360687)
-----Prototype of Duty
-mod:AddOptionLine(ProtoDuty, "specialannounce")
-mod:AddOptionLine(ProtoDuty, "yell")
-local specWarnHumblingStrikes					= mod:NewSpecialWarningDefensive(365272, nil, nil, nil, 1, 2)
-local specWarnHumblingStrikesTaunt				= mod:NewSpecialWarningTaunt(365269, nil, nil, nil, 1, 2)
-local specWarnPinningVolley						= mod:NewSpecialWarningDodgeCount(361278, nil, nil, nil, 2, 2)--Is it dodgeable?
-local yellPinned								= mod:NewShortYell(362352)
---Stage Two: Sin and Seed
-----Prototype of Renewal
-mod:AddOptionLine(ProtoRenewl, "specialannounce")
---mod:AddOptionLine(ProtoRenewl, "yell")
-local specWarnAnimabolt							= mod:NewSpecialWarningInterrupt(362383, false, nil, nil, 1, 2)--Kinda spammed, opt in, not opt out
-local specWarnWildStampede						= mod:NewSpecialWarningDodgeCount(361304, nil, nil, nil, 2, 2)
-local specWarnAnimastorm						= mod:NewSpecialWarningMoveTo(362132, nil, nil, nil, 2, 2)
 --local specWarnGTFO							= mod:NewSpecialWarningGTFO(340324, nil, nil, nil, 1, 8)
-----Prototype of Absolution
-mod:AddOptionLine(ProtoAbsolution, "specialannounce")
---mod:AddOptionLine(ProtoRenewl, "yell")
-local specWarnSinfulProjection					= mod:NewSpecialWarningMoveAway(364839, nil, nil, nil, 2, 2)--Sound 2 because everyone gets it
-local specWarnWrackingPain						= mod:NewSpecialWarningCount(365126, nil, nil, nil, 1, 2)--Change to moveto?
-local specWarnHandofDestruction					= mod:NewSpecialWarningRun(361789, nil, nil, nil, 4, 2)
-local specWarnNightHunter						= mod:NewSpecialWarningYou(361745, nil, nil, nil, 1, 2, 4)--Nont moveto, because it's kind of RLs perogative to prioritize seeds or ritualists if both up, don't want to make that call
-local yellNightHunter							= mod:NewShortPosYell(361745)
-local yellNightHunterFades						= mod:NewIconFadesYell(361745)
-
---mod:AddTimerLine(BOSS)
 
 local timerCompleteRecon						= mod:NewCastTimer(20, 366062, nil, nil, nil, 5, nil, DBM_COMMON_L.DAMAGE_ICON)
---Stage One: War and Duty
-----Prototype of War
-mod:AddTimerLine(ProtoWar)
-local timerNecroticRitualCD						= mod:NewCDCountTimer(71.4, 360295, nil, nil, nil, 1, nil, DBM_COMMON_L.DAMAGE_ICON)
-local timerRunecarversDeathtouchCD				= mod:NewCDCountTimer(57.1, 360687, nil, nil, nil, 3, nil, DBM_COMMON_L.MAGIC_ICON)
-----Prototype of Duty
-mod:AddTimerLine(ProtoDuty)
-local timerHumblingStrikesCD					= mod:NewCDCountTimer(35.7, 365272, nil, "Tank", nil, 5, nil, DBM_COMMON_L.TANK_ICON)
-local timerAscensionsCallCD						= mod:NewCDCountTimer(57.1, 365272, nil, nil, nil, 1)
-local timerPinningVolleyCD						= mod:NewCDCountTimer(64.1, 361278, nil, nil, nil, 3)
---Stage Two: Sin and Seed
-----Prototype of Renewal
-mod:AddTimerLine(ProtoRenewl)
-local timerWildStampedeCD						= mod:NewCDCountTimer(28.8, 361304, nil, nil, nil, 3)
-local timerWitheringSeedCD						= mod:NewCDCountTimer(96.2, 361568, nil, "Healer", nil, 5, nil, DBM_COMMON_L.HEALER_ICON)
-local timerAnimastormCD							= mod:NewCDCountTimer(28.8, 366234, nil, nil, nil, 2)
-----Prototype of Absolution
-mod:AddTimerLine(ProtoAbsolution)
-local timerWrackingPainCD						= mod:NewCDCountTimer(44, 365126, nil, "Tank", nil, 5, nil, DBM_COMMON_L.TANK_ICON)
-local timerHandofDestructionCD					= mod:NewCDCountTimer(56.2, 361789, nil, nil, nil, 2)--Also timer for sinful projections, the two mechanics are intertwined
-local timerNightHunterCD						= mod:NewAITimer(57.1, 361745, nil, nil, nil, 3, nil, DBM_COMMON_L.MYTHIC_ICON)
-
 --local berserkTimer							= mod:NewBerserkTimer(600)
 
 mod:AddRangeFrameOption("8")
-mod:AddInfoFrameOption(360687, true)
 mod:AddNamePlateOption("NPAuraOnImprintedSafeguards", 366159, true)--Hostile only, can't anchor to friendly nameplates in raid (seeds)
+
+----Prototype of War
+mod:AddOptionLine(ProtoWar, "announce")
+mod:AddOptionLine(ProtoWar, "specialannounce")
+mod:AddOptionLine(ProtoWar, "yell")
+mod:AddTimerLine(ProtoWar)
 mod:AddIconLine(ProtoWar)
+local warnRunecarversDeathtouch					= mod:NewTargetNoFilterAnnounce(360687, 3)
+
+local specWarnNecroticRitual					= mod:NewSpecialWarningSwitchCount(360295, "-Healer", nil, nil, 1, 2)
+local specWarnDeathtouch						= mod:NewSpecialWarningMoveAway(360687, nil, nil, nil, 1, 2)
+local yellDeathtouch							= mod:NewShortPosYell(360687)
+
+local timerNecroticRitualCD						= mod:NewCDCountTimer(71.4, 360295, nil, nil, nil, 1, nil, DBM_COMMON_L.DAMAGE_ICON)
+local timerRunecarversDeathtouchCD				= mod:NewCDCountTimer(57.1, 360687, nil, nil, nil, 3, nil, DBM_COMMON_L.MAGIC_ICON)
+
+mod:AddInfoFrameOption(360687, "Healer")
 mod:AddSetIconOption("SetIconOnDeathtouch", 360687, false, false, {13, 14, 15, 16}, true)--Technically only 2 debuffs go out, but we allow for even a bad group to have two sets of them out. Off by default do to conflict with seeds
 mod:AddSetIconOption("SetIconOnRitualist", 360333, true, true, {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12})--Conflict arg not passed because by default it won't, user has to introduce conflict via dropdown (and that has a warning)
-mod:AddIconLine(ProtoRenewl)
-mod:AddSetIconOption("SetIconOnSeed", 361566, true, true, {1, 2, 3, 4}, nil, true)
-mod:AddNamePlateOption("NPAuraOnWrackingPain", 361689, true)
-mod:AddIconLine(ProtoAbsolution)
-mod:AddSetIconOption("SetIconOnNightHunter", 361745, false, false, {1, 2, 3, 4}, nil, true)
 if DBM.Options.ExtendIcons then
 	mod:AddDropdownOption("RitualistIconSetting", {"SetOne", "SetTwo", "SetThree"}, "SetOne", "misc")
 else
@@ -132,6 +76,61 @@ else
 		DBM:AddMsg(L.ExtendReset)
 	end
 end
+
+----Prototype of Duty
+mod:AddOptionLine(ProtoDuty, "announce")
+mod:AddOptionLine(ProtoDuty, "specialannounce")
+mod:AddOptionLine(ProtoDuty, "yell")
+mod:AddTimerLine(ProtoDuty)
+local warnAscensionsCall						= mod:NewCountAnnounce(361066, 2)
+local warnBastionsWard							= mod:NewCastAnnounce(360845, 1)
+local warnPinned								= mod:NewTargetNoFilterAnnounce(362352, 4)
+
+local specWarnHumblingStrikes					= mod:NewSpecialWarningDefensive(365272, nil, nil, nil, 1, 2)
+local specWarnHumblingStrikesTaunt				= mod:NewSpecialWarningTaunt(365269, nil, nil, nil, 1, 2)
+local specWarnPinningVolley						= mod:NewSpecialWarningDodgeCount(361278, nil, nil, nil, 2, 2)--Is it dodgeable?
+local yellPinned								= mod:NewShortYell(362352)
+
+local timerHumblingStrikesCD					= mod:NewCDCountTimer(35.7, 365272, nil, "Tank", nil, 5, nil, DBM_COMMON_L.TANK_ICON)
+local timerAscensionsCallCD						= mod:NewCDCountTimer(57.1, 365272, nil, nil, nil, 1)
+local timerPinningVolleyCD						= mod:NewCDCountTimer(64.1, 361278, nil, nil, nil, 3)
+
+----Prototype of Renewal
+mod:AddOptionLine(ProtoRenewl, "specialannounce")
+--mod:AddOptionLine(ProtoRenewl, "yell")
+mod:AddTimerLine(ProtoRenewl)
+mod:AddIconLine(ProtoRenewl)
+local specWarnAnimabolt							= mod:NewSpecialWarningInterrupt(362383, false, nil, nil, 1, 2)--Kinda spammed, opt in, not opt out
+local specWarnWildStampede						= mod:NewSpecialWarningDodgeCount(361304, nil, nil, nil, 2, 2)
+local specWarnAnimastorm						= mod:NewSpecialWarningMoveTo(362132, nil, nil, nil, 2, 2)
+
+local timerWildStampedeCD						= mod:NewCDCountTimer(28.8, 361304, nil, nil, nil, 3)
+local timerWitheringSeedCD						= mod:NewCDCountTimer(96.2, 361568, nil, "Healer", nil, 5, nil, DBM_COMMON_L.HEALER_ICON)
+local timerAnimastormCD							= mod:NewCDCountTimer(28.8, 366234, nil, nil, nil, 2)
+
+mod:AddSetIconOption("SetIconOnSeed", 361566, true, true, {1, 2, 3, 4}, nil, true)
+mod:AddNamePlateOption("NPAuraOnWrackingPain", 361689, true)
+
+----Prototype of Absolution
+mod:AddOptionLine(ProtoAbsolution, "announce")
+mod:AddOptionLine(ProtoAbsolution, "specialannounce")
+mod:AddOptionLine(ProtoAbsolution, "yell")
+mod:AddTimerLine(ProtoAbsolution)
+mod:AddIconLine(ProtoAbsolution)
+local warnNightHunter							= mod:NewTargetNoFilterAnnounce(361745, 3)
+
+local specWarnSinfulProjection					= mod:NewSpecialWarningMoveAway(364839, nil, nil, nil, 2, 2)--Sound 2 because everyone gets it
+local specWarnWrackingPain						= mod:NewSpecialWarningCount(365126, nil, nil, nil, 1, 2)--Change to moveto?
+local specWarnHandofDestruction					= mod:NewSpecialWarningRun(361789, nil, nil, nil, 4, 2)
+local specWarnNightHunter						= mod:NewSpecialWarningYou(361745, nil, nil, nil, 1, 2, 4)--Nont moveto, because it's kind of RLs perogative to prioritize seeds or ritualists if both up, don't want to make that call
+local yellNightHunter							= mod:NewShortPosYell(361745)
+local yellNightHunterFades						= mod:NewIconFadesYell(361745)
+
+local timerWrackingPainCD						= mod:NewCDCountTimer(44, 365126, nil, "Tank", nil, 5, nil, DBM_COMMON_L.TANK_ICON)
+local timerHandofDestructionCD					= mod:NewCDCountTimer(56.2, 361789, nil, nil, nil, 2)--Also timer for sinful projections, the two mechanics are intertwined
+local timerNightHunterCD						= mod:NewAITimer(57.1, 361745, nil, nil, nil, 3, nil, DBM_COMMON_L.MYTHIC_ICON)
+
+mod:AddSetIconOption("SetIconOnNightHunter", 361745, false, false, {1, 2, 3, 4}, nil, true)
 
 local deathtouchTargets = {}
 local wardTargets = {}
@@ -355,10 +354,8 @@ local allTimers = {
 
 local updateInfoFrame
 do
-	local tsort, twipe = table.sort, table.wipe
+	local twipe = table.wipe
 	local lines, sortedLines = {}, {}
-	local tempLines, tempLinesSorted = {}, {}
-	local function sortFuncDesc(a, b) return tempLines[a] > tempLines[b] end
 	local function addLine(key, value)
 		-- sort by insertion order
 		lines[key] = value
@@ -499,13 +496,13 @@ function mod:SPELL_CAST_START(args)
 		self.vb.ritualistIcon = self.vb.ritualistIconMethod == 3 and 12 or self.vb.ritualistIconMethod == 2 and 4 or 8
 		specWarnNecroticRitual:Show(self.vb.ritualCount)
 		specWarnNecroticRitual:Play("killmob")
-		local timer = allTimers[difficultyName][self.vb.phase][spellId][self.vb.ritualCount+1]
+		local timer = allTimers[difficultyName][self.vb.phase] and allTimers[difficultyName][self.vb.phase][spellId][self.vb.ritualCount+1]
 		if timer then
 			timerNecroticRitualCD:Start(timer, self.vb.ritualCount+1)
 		end
 	elseif spellId == 360636 then
 		self.vb.deathtouchCount = self.vb.deathtouchCount + 1
-		local timer = allTimers[difficultyName][self.vb.phase][spellId][self.vb.deathtouchCount+1]
+		local timer = allTimers[difficultyName][self.vb.phase] and allTimers[difficultyName][self.vb.phase][spellId][self.vb.deathtouchCount+1]
 		if timer then
 			timerRunecarversDeathtouchCD:Start(timer, self.vb.deathtouchCount+1)
 		end
@@ -515,7 +512,7 @@ function mod:SPELL_CAST_START(args)
 			specWarnHumblingStrikes:Show()
 			specWarnHumblingStrikes:Play("defensive")
 		end
-		local timer = allTimers[difficultyName][self.vb.phase][spellId][self.vb.humblingCount+1]
+		local timer = allTimers[difficultyName][self.vb.phase] and allTimers[difficultyName][self.vb.phase][spellId][self.vb.humblingCount+1]
 		if timer then
 			timerHumblingStrikesCD:Start(timer, self.vb.humblingCount+1)
 		end
@@ -532,14 +529,14 @@ function mod:SPELL_CAST_START(args)
 		self.vb.stampedeCount = self.vb.stampedeCount + 1
 		specWarnWildStampede:Show(self.vb.stampedeCount)
 		specWarnWildStampede:Play("watchstep")
-		local timer = allTimers[difficultyName][self.vb.phase][spellId][self.vb.stampedeCount+1]
+		local timer = allTimers[difficultyName][self.vb.phase] and allTimers[difficultyName][self.vb.phase][spellId][self.vb.stampedeCount+1]
 		if timer then
 			timerWildStampedeCD:Start(timer, self.vb.stampedeCount+1)
 		end
 	elseif spellId == 361568 then
 		self.vb.seedCount = self.vb.seedCount + 1
 		self.vb.seedIcon = 1
-		local timer = allTimers[difficultyName][self.vb.phase][spellId][self.vb.seedCount+1]
+		local timer = allTimers[difficultyName][self.vb.phase] and allTimers[difficultyName][self.vb.phase][spellId][self.vb.seedCount+1]
 		if timer then
 			timerWitheringSeedCD:Start(timer, self.vb.seedCount+1)
 		end
@@ -549,7 +546,7 @@ function mod:SPELL_CAST_START(args)
 			specWarnWrackingPain:Show(self.vb.painCount)
 			specWarnWrackingPain:Play("shockwave")
 		end
-		local timer = allTimers[difficultyName][self.vb.phase][spellId][self.vb.painCount+1]
+		local timer = allTimers[difficultyName][self.vb.phase] and allTimers[difficultyName][self.vb.phase][spellId][self.vb.painCount+1]
 		if timer then
 			timerWrackingPainCD:Start(timer, self.vb.painCount+1)
 		end
@@ -681,7 +678,7 @@ function mod:SPELL_CAST_SUCCESS(args)
 	if spellId == 361745 and self:AntiSpam(5, 2) then
 		self.vb.nightCount = self.vb.nightCount + 1
 		self.vb.hunterIcon = 1
-		local timer = allTimers[difficultyName][self.vb.phase][spellId][self.vb.nightCount+1]
+		local timer = allTimers[difficultyName][self.vb.phase] and allTimers[difficultyName][self.vb.phase][spellId][self.vb.nightCount+1]
 		if timer then
 			timerNightHunterCD:Start(timer, self.vb.nightCount+1)
 		end
@@ -689,7 +686,7 @@ function mod:SPELL_CAST_SUCCESS(args)
 		self.vb.volleyCount = self.vb.volleyCount + 1
 		specWarnPinningVolley:Show(self.vb.volleyCount)
 		specWarnPinningVolley:Play("watchstep")
-		local timer = allTimers[difficultyName][self.vb.phase][spellId][self.vb.volleyCount+1]
+		local timer = allTimers[difficultyName][self.vb.phase] and allTimers[difficultyName][self.vb.phase][spellId][self.vb.volleyCount+1]
 		if timer then
 			timerPinningVolleyCD:Start(timer, self.vb.volleyCount+1)
 		end
@@ -768,7 +765,7 @@ function mod:SPELL_AURA_APPLIED(args)
 		self.vb.animaCount = self.vb.animaCount + 1
 		specWarnAnimastorm:Show(DBM_COMMON_L.SHELTER)
 		specWarnAnimastorm:Play("findshelter")
-		local timer = allTimers[difficultyName][self.vb.phase][spellId][self.vb.animaCount+1]
+		local timer = allTimers[difficultyName][self.vb.phase] and allTimers[difficultyName][self.vb.phase][spellId][self.vb.animaCount+1]
 		if timer then
 			timerAnimastormCD:Start(timer, self.vb.animaCount+1)
 		end
@@ -881,7 +878,7 @@ function mod:UNIT_SPELLCAST_SUCCEEDED(uId, _, spellId)
 	elseif spellId == 361066 then--Ascension's Call
 		self.vb.callCount = self.vb.callCount + 1
 		warnAscensionsCall:Show(self.vb.callCount)
-		local timer = allTimers[difficultyName][self.vb.phase][spellId][self.vb.callCount+1]
+		local timer = allTimers[difficultyName][self.vb.phase] and allTimers[difficultyName][self.vb.phase][spellId][self.vb.callCount+1]
 		if timer then
 			timerAscensionsCallCD:Start(timer, self.vb.callCount+1)
 		end
@@ -889,7 +886,7 @@ function mod:UNIT_SPELLCAST_SUCCEEDED(uId, _, spellId)
 		self.vb.handCount = self.vb.handCount + 1
 		specWarnHandofDestruction:Show()
 		specWarnHandofDestruction:Play("justrun")
-		local timer = allTimers[difficultyName][self.vb.phase][spellId][self.vb.handCount+1]
+		local timer = allTimers[difficultyName][self.vb.phase] and allTimers[difficultyName][self.vb.phase][spellId][self.vb.handCount+1]
 		if timer then
 			timerHandofDestructionCD:Start(timer, self.vb.handCount+1)
 		end
@@ -898,20 +895,17 @@ end
 
 do
 	--Delayed function just to make absolute sure RL sync overrides user settings after OnCombatStart functions run
-	local function UpdateRitualistIcons(self, msg)
+	local function UpdateRLPreference(self, msg)
 		if msg == "SetOne" then
 			self.vb.ritualistIconMethod = 1
-			DBM:AddMsg(L.DBMConfigMsg:format(msg))
 		elseif msg == "SetTwo" then
 			self.vb.ritualistIconMethod = 2
-			DBM:AddMsg(L.DBMConfigMsg:format(msg))
 		elseif msg == "SetThree" then
 			self.vb.ritualistIconMethod = 3
-			DBM:AddMsg(L.DBMConfigMsg:format(msg))
 		end
 	end
 	function mod:OnSync(msg)
-		if self:IsLFR() or not self:IsInCombat() then return end--Just in case some shit lord sends syncs in LFR or something, we don't want to trigger DBMConfigMsg
-		self:Schedule(3, UpdateRitualistIcons, self, msg)
+		if self:IsLFR() then return end--Just in case some shit lord sends syncs in LFR or something, we don't want to trigger DBMConfigMsg
+		self:Schedule(3, UpdateRLPreference, self, msg)
 	end
 end
