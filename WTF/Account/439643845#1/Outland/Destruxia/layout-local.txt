@@ -30,10 +30,10 @@ H: 240
 Frame: AllTheThings-Window-Prime
 FrameLevel: 1
 Anchor: CENTER
-X: 13
-Y: -5
-W: 506
-H: 418
+X: 139
+Y: 111
+W: 522
+H: 619
 Frame: AllTheThings-Window-Bounty
 FrameLevel: 1
 Anchor: CENTER
