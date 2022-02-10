@@ -2,380 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"<DAWN> Offering Today |cffffff00|Hachievement:15127:Player-1403-0A17D609:0:0:0:-1:0:0:0:0|h[Heroic: Sanctum of Domination]|h|r  210K (VIP 160K )@ (14/16/19/20/21/23) Mythic 10/10 +Mount & 2-6x VIP |cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r / <SYLVANAS > HC 50K |cff66bbff|Hjournal:1:2440:14|h[Kel'Thuzad]|h|r 40K (Both 80K ) 15=110k (4x15=400K) +14=100K /+20=520/ 25-26 INTIME/PVP", -- [1]
-			"Lycanboost-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lycanboost-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			613, -- [11]
-			"Player-1403-0A17D609", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Lycanboost|r",
-			[51] = 1640449655,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"<Sylvanas> Offering Mythic/HC |cff66bbff|Hjournal:0:1193:15|h[Sanctum of Domination]|h|r 10/10 200k + VIP Trader || Sylvanas 50k (Every 30 min) || KT 40k || Both 80k || M+10-24 || M15 100k (4x M15 360k) FREE stack for 2x || Tazavesh NM/HM || PVP || Torghast || Lvling", -- [1]
-			"Sylvnsadv-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Sylvnsadv-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			615, -- [11]
-			"Player-1403-0A19973B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Sylvnsadv|r",
-			[51] = 1640449657,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"<NOVA> OFFERING  <|cff66bbff|Hjournal:0:1193:15|h[Sanctum of Domination]|h|r Heroic 200k><VIP Traders><M15=100k>  <M20=510k> <KSM 1540k and KSM hero 3550k>  <|cffffff00|Hachievement:15134:Player-1403-0A04E106:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sylvanas Windrunner]|h|r  SYLVANAS 50k><KT 40k><LAST 2 BOSS 80k> <|cff66bbff|Hjournal:0:1194:23|h[Tazavesh, the Veiled Market]|h|r NM 80k-HM 190k> ", -- [1]
-			"Raraidraen-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Raraidraen-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			617, -- [11]
-			"Player-1403-09E3E4F4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Raraidraen|r",
-			[51] = 1640449658,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"<Dawn> [WTS]|cffffff00|Hachievement:15134:Player-3682-0ACC213F:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sylvanas Windrunner]|h|r<Sylvanas HC  50k> <KT HC 40k> <Both 80k>|cff66bbff|Hjournal:0:1193:16|h[Sanctum of Domination]|h|r<10/10m+mount><hc10/10 210k><VIP Traders160k><8x15 KSM850k><M20 520k><M15 100k><4x15 400k><LEGION M15 160k><torghast2xL12 70k>korthia farm", -- [1]
-			"Adshahram-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Adshahram-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			620, -- [11]
-			"Player-1403-0A112105", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Adshahram|r",
-			[51] = 1640449660,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"<NOVA > [+15 Intime=100k] [10/10 HC =200K / 10/10 Mythic =8,8M+Mount+2 VIP ] [Legion Mythic+ 15=185k weekly /260k intime ] [2x+15=190k] [4x+15 Intime=360K ]  [Taza HM=190k ] [Level/Mounts/Legacy/PVP] [EVERY 30 MIN KT+Sylva=80k ] [Layer 12x2=95k ] /w", -- [1]
-			"Novarachel-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novarachel-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			623, -- [11]
-			"Player-1403-0A164CD5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcNovarachel|r",
-			[51] = 1640449661,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
-		{
-			"<**NOVA**> Is OFFERING  ||||   <HEROIC |cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r=200k, VIP Trader=160k>   <Mythic Sanctum>   <KSM=1540k>   <KSH=3550k>   <M+10=75k>   <M+15=100k>   <PVP>   <Sylvanas Heroic=50k>   <Last 2 Heroic=80k> ||", -- [1]
-			"Novababy-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novababy-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			624, -- [11]
-			"Player-1403-0A15D44C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Novababy|r",
-			[51] = 1640449662,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
-		{
-			"NOVA || || BIG SALE Heroic 210k (Vip trader 160k) ||Heroic/ <||> WTS HC Sylvanas 50k - HC KT 40k BOTH -80k ||Legion Time Walking M+ 15 185k-260k||M+15 x 4 = 350k|||| ||  M+15 95K-100k|| KSM = 1540K KSH = 3550k [Torghast L1-L12 ] [2v2-3v3-Rbg]", -- [1]
-			"Novarite-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novarite-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			626, -- [11]
-			"Player-1403-09F97C33", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cNovarite|r",
-			[51] = 1640449662,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
-		{
-			"<N O V A> OFFERS<|cff66bbff|Hjournal:0:1193:16|h[Sanctum of Domination]|h|r HC 200k><|cff66bbff|Hjournal:1:2441:14|h[Sylvanas Windrunner]|h|r 50k><|cff66bbff|Hjournal:1:2440:14|h[Kel'Thuzad]|h|r 40k><Last 2 Boss 80k><+15=100k><4x 15=350k> <FREE ARMORSTACK FOR 2x run> <+14=95k> <+10=75k> <+20=510k><KSM with ARMORSTACK=1540k><TAZAVESH HM 190k-NM 80k>", -- [1]
-			"Dariova-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Dariova-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			628, -- [11]
-			"Player-1403-09D6DDA4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Dariova|r",
-			[51] = 1640449663,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
-		{
-			"<DAWN> IS OFFERING <|cffffff00|Hachievement:15127:Player-1403-0A19FD04:1:9:22:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: Sanctum of Domination]|h|r 210K > <VIP Trader 160k> [ Sylavnas 50k><KT 40K><Both 80K ] || M+15=110k <M+14=100K> <Armor Stack> || 4x15 400K || <M+16=170k> <M+17=210k><M+18=310k>||LVLUP 51/60|| Also Selling |cffffff00|Hachievement:12568:Player-1403-0A19FD04:1:9:22:19:4294967295:4294967295:4294967295:4294967295|h[The Alliance Slayer]|h|r ", -- [1]
-			"Dawnsjeoo-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Dawnsjeoo-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			632, -- [11]
-			"Player-1403-0A19FD04", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cDawnsjeoo|r",
-			[51] = 1640449664,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
-		{
-			"<NOVA> <DISCOUNTS>M+15 100K(buy 2x for free armor stack) ||<|| KSM 1700K> <[SoD HC 200K(2xVIP DISCOUNTSK) - SoD MYTHIC>  M+ 10-22] |||| Taza NM-80K HM-190K|||| HC Syl 50K KT 40K both 80K |||| Torghast 2x12=95K |||| 2v2-3v3-Rbg /w for", -- [1]
-			"Standforever-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Standforever-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			637, -- [11]
-			"Player-1403-0A121582", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Standforever|r",
-			[51] = 1640449665,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
-		{
-			"<Sylvanas Boost Community> Selling [Ahead Of The Curve] Kel'Thuzad and Sylvanas [80k] // Kel'Thuzad by itself [40k]// Sylvanas By itself [50k] // We have runs going every 30min /w me for more info!", -- [1]
-			"Damzadvv-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Damzadvv-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			639, -- [11]
-			"Player-1403-0A04C697", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcDamzadvv|r",
-			[51] = 1640449666,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
-		{
-			"<<Sylvanas>> Mythic + Prices / M+15=105k || M+12 = 90k || M+14 = 100k || M+10 = 55k|| SoD HC Full Clear || KSM 20x8 = 3600k All key Timed || Tazavrsh HM = 190k || Keystonemaster 1640k |||| /w me for more info", -- [1]
-			"Damzadvv-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Damzadvv-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			655, -- [11]
-			"Player-1403-0A04C697", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcDamzadvv|r",
-			[51] = 1640449672,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
-		{
-			"< N O V A > |cff66bbff|Hjournal:0:1193:16|h[Sanctum of Domination]|h|r10/10HC= 200k/ |cff66bbff|Hjournal:1:1590:14|h[Illidan Stormrage]|h|r 250k/FREE ARMOR+15 INTIME 100k [SPECIAL DEALS 4X15=360K]20=510K Tazavash HM=190k]50-60Lv=550k/ Thor 2x12=95K /w", -- [1]
-			"Novaservizze-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novaservizze-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			60, -- [11]
-			"Player-1403-0A19C624", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcNovaservizze|r",
-			[51] = 1640817051,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
-		{
-			"<Nova> Offering <|cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r10/10Hc=200K> <Last2 bosses=80K>  <Mythic SOD>  ||<M0-M22>  <M15=100K - 4x15=350K>  <M20=510K>  <Free armor stack>  <Ksm> ||<Pvp> <Lvlup> <Mount&Pet>Gold only /w For more info!", -- [1]
-			"Novaadraenor-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novaadraenor-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			63, -- [11]
-			"Player-1403-0A1AC734", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Novaadraenor|r",
-			[51] = 1640817051,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
-		{
-			"SYLVANAS // M+15 = 105k In Time // M+18 = 300k // M+19 = 450K // M+20 = 510K // M+21 = 650K // M+25 = 3000k // U CAN CHOOSE KEY // 4X15 = 360K // 10X15 = 900K // FREE ARMOR STACK // SOD HC-MYTHIC +Free Trader // LAST 2BOSS EVERY 30 MIN // TORGHAST // W", -- [1]
-			"Syldraenor-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Syldraenor-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			64, -- [11]
-			"Player-1403-0A1A16B8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Syldraenor|r",
-			[51] = 1640817052,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
-		{
-			"<NOVA> Offering HC Sanctum 200k  <2x VIP Traders Discount>  <M+15=100k>  <Sylvanas->50k  Kel-40k  <Last2->80k  <4x+15=350k>  <illidan=250k>  <Legion M+15=135k>  <Tazavesh->190k  <KSM 16x +15 =1540k>  <KSH 8x +20 =3550k> Torghast - PvP - Leveling /w me", -- [1]
-			"Novadev-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novadev-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			65, -- [11]
-			"Player-1403-09F46C1C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaNovadev|r",
-			[51] = 1640817053,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
-		{
-			"<SYLVANAS>|cff66bbff|Hjournal:0:1193:15|h[Sanctum of Domination]|h|r10/10=<200k> +VIP TRADER 1xM+15=<100k> 4x+15=<360k> Mythic10/10 +2 FREE VIPS M+20=<520k> LAST 2 BOSS =<80k>  Torghast / Tazavesh / PvP ! All Cheap Whisper for info!", -- [1]
-			"Albodawn-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Albodawn-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			67, -- [11]
-			"Player-1403-09F6A939", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Albodawn|r",
-			[51] = 1640817055,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
-		{
 			"he probs too overweight to play any sport tbh", -- [1]
 			"Krugeth-Draenor", -- [2]
 			"", -- [3]
@@ -396,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Krugeth|r",
 			[51] = 1643703819,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
+		}, -- [1]
 		{
 			"WTS 2vs2 boost for gold :) up to 2.4 with fair prices, no community playin my own chars.", -- [1]
 			"Boostedfolk-Draenor", -- [2]
@@ -418,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBoostedfolk|r",
 			[51] = 1643703825,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
+		}, -- [2]
 		{
 			"Watching 10+ grown men in their shorts chase a bag of air around a field", -- [1]
 			"Vexington-Draenor", -- [2]
@@ -440,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Vexington|r",
 			[51] = 1643703845,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
+		}, -- [3]
 		{
 			"is pretty sad", -- [1]
 			"Vexington-Draenor", -- [2]
@@ -462,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Vexington|r",
 			[51] = 1643703862,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
+		}, -- [4]
 		{
 			"complaing about it is even sadder", -- [1]
 			"Krugeth-Draenor", -- [2]
@@ -484,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Krugeth|r",
 			[51] = 1643703862,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
+		}, -- [5]
 		{
 			"Hey i'm fat too be noice", -- [1]
 			"Gomoonryung-Draenor", -- [2]
@@ -506,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Gomoonryung|r",
 			[51] = 1643703891,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
+		}, -- [6]
 		{
 			"wts |cffa335ee|Hitem:144399::::::::54:252::6:3:3445:1472:3528:1:28:621:::::|h[Aristocrat's Winter Drape]|h|r", -- [1]
 			"Zikira-Draenor", -- [2]
@@ -528,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Zikira|r",
 			[51] = 1643703900,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
+		}, -- [7]
 		{
 			"yeah but you're not a dick ontop of it", -- [1]
 			"Krugeth-Draenor", -- [2]
@@ -550,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Krugeth|r",
 			[51] = 1643703904,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
+		}, -- [8]
 		{
 			"if i were to be playing football i would be the ball ppc", -- [1]
 			"Gomoonryung-Draenor", -- [2]
@@ -572,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Gomoonryung|r",
 			[51] = 1643703910,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
+		}, -- [9]
 		{
 			"that drape is pretty pog not gonna lie. ", -- [1]
 			"Nòct-Draenor", -- [2]
@@ -594,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaNòct|r",
 			[51] = 1643703918,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
+		}, -- [10]
 		{
 			"does the carpet match the drape though?", -- [1]
 			"Krugeth-Draenor", -- [2]
@@ -616,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Krugeth|r",
 			[51] = 1643703942,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
+		}, -- [11]
 		{
 			"White long and fuzzy", -- [1]
 			"Nòct-Draenor", -- [2]
@@ -638,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaNòct|r",
 			[51] = 1643703963,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
+		}, -- [12]
 		{
 			"Dont hope so. ", -- [1]
 			"Nòct-Draenor", -- [2]
@@ -660,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaNòct|r",
 			[51] = 1643703966,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
+		}, -- [13]
 		{
 			"|cff9d9d9d|Hitem:115520::::::::54:252:::::::::|h[Spoiled Flask of Conquest]|h|r rip flask of conquest", -- [1]
 			"Zikira-Draenor", -- [2]
@@ -682,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Zikira|r",
 			[51] = 1643703977,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
+		}, -- [14]
 		{
 			"Hello. Is anyone there?", -- [1]
 			"Doodyspin-Draenor", -- [2]
@@ -704,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Doodyspin|r",
 			[51] = 1643703978,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
+		}, -- [15]
 		{
 			"no", -- [1]
 			"Krugeth-Draenor", -- [2]
@@ -726,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Krugeth|r",
 			[51] = 1643703991,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
+		}, -- [16]
 		{
 			"sadge", -- [1]
 			"Doodyspin-Draenor", -- [2]
@@ -748,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Doodyspin|r",
 			[51] = 1643703996,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
+		}, -- [17]
 		{
 			"doubtful cause a;; the girls think having big black grouchi marks eyebrows is attractive - wtf did that make sense", -- [1]
 			"Mogmanntu-Draenor", -- [2]
@@ -770,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Mogmanntu|r",
 			[51] = 1643704001,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
+		}, -- [18]
 		{
 			"knock knock", -- [1]
 			"Kurawa-Draenor", -- [2]
@@ -792,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Kurawa|r",
 			[51] = 1643704007,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
+		}, -- [19]
 		{
 			"who's there ?", -- [1]
 			"Gomoonryung-Draenor", -- [2]
@@ -814,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Gomoonryung|r",
 			[51] = 1643704011,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
+		}, -- [20]
 		{
 			"doctor", -- [1]
 			"Kurawa-Draenor", -- [2]
@@ -836,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Kurawa|r",
 			[51] = 1643704015,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
+		}, -- [21]
 		{
 			"doctor who", -- [1]
 			"Gomoonryung-Draenor", -- [2]
@@ -858,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Gomoonryung|r",
 			[51] = 1643704019,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
+		}, -- [22]
 		{
 			"weird seeing trade chat again", -- [1]
 			"Sketchyaf-Draenor", -- [2]
@@ -880,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Sketchyaf|r",
 			[51] = 1643704019,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
+		}, -- [23]
 		{
 			"Gottem", -- [1]
 			"Nòct-Draenor", -- [2]
@@ -902,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaNòct|r",
 			[51] = 1643704023,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
+		}, -- [24]
 		{
 			"where can i find Estelle Gendy? The heirloom thing", -- [1]
 			"Vindlars-Draenor", -- [2]
@@ -924,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Vindlars|r",
 			[51] = 1643798636,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
+		}, -- [25]
 		{
 			"There will be always people complaining about stuff, no matter how good it seems it's just part of humanity i suppose. but i'm sure that the maiority of people will love this changes.", -- [1]
 			"Zethaar-Draenor", -- [2]
@@ -946,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cZethaar|r",
 			[51] = 1643799104,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
+		}, -- [26]
 		{
 			"Something along the lines of its ruined the lore completely,   but I couldn't give a fuck about the lore, or factions", -- [1]
 			"Vexington-Draenor", -- [2]
@@ -968,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Vexington|r",
 			[51] = 1643799109,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
+		}, -- [27]
 		{
 			"i dont understand how that change will affect wow in a negative way, enlighten me lol", -- [1]
 			"Waib-Draenor", -- [2]
@@ -990,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Waib|r",
 			[51] = 1643799111,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [28]
 		{
 			"world peace will end humanity", -- [1]
 			"Voddin-Draenor", -- [2]
@@ -1012,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Voddin|r",
 			[51] = 1643799118,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
+		}, -- [29]
 		{
 			"Flaskki, explain how its a bad change", -- [1]
 			"Deloaren-Draenor", -- [2]
@@ -1034,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Deloaren|r",
 			[51] = 1643799120,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
+		}, -- [30]
 		{
 			"Hey now, I actually cried in torghast layer 12 and im still here", -- [1]
 			"Bubblezen-Draenor", -- [2]
@@ -1056,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcBubblezen|r",
 			[51] = 1643799129,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [31]
 		{
 			"Laval , we wathced the same video :D", -- [1]
 			"Sunmade-Draenor", -- [2]
@@ -1078,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Sunmade|r",
 			[51] = 1643800261,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+		}, -- [32]
 		{
 			"Im a garbage truck man that brings garbage every thursday at blizzard HQ trust me bro.", -- [1]
 			"Woopsmybad-Draenor", -- [2]
@@ -1100,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Woopsmybad|r",
 			[51] = 1643800284,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
+		}, -- [33]
 		{
 			"what kind tabard you have?", -- [1]
 			"Slowborne-Draenor", -- [2]
@@ -1122,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Slowborne|r",
 			[51] = 1643800292,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
+		}, -- [34]
 		{
 			"WTS |cffa335ee|Hitem:159840::::::::60:577::54:2:1472:4786::::::|h[Teebu's Scorching Straight Sword]|h|r", -- [1]
 			"Himari-Draenor", -- [2]
@@ -1144,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Himari|r",
 			[51] = 1643800293,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [35]
 		{
 			"not necesarily lavalake", -- [1]
 			"Amphrôxia-Draenor", -- [2]
@@ -1166,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Amphrôxia|r",
 			[51] = 1643800295,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [36]
 		{
 			"Hey Folks, this is Kelani.", -- [1]
 			"Lavalake-Draenor", -- [2]
@@ -1188,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Lavalake|r",
 			[51] = 1643800297,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [37]
 		{
 			"can also be 6 weeks after that date >:)", -- [1]
 			"Amphrôxia-Draenor", -- [2]
@@ -1210,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Amphrôxia|r",
 			[51] = 1643800306,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [38]
 		{
 			"hahah :D", -- [1]
 			"Sunmade-Draenor", -- [2]
@@ -1232,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Sunmade|r",
 			[51] = 1643800307,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
+		}, -- [39]
 		{
 			"link it", -- [1]
 			"Slowborne-Draenor", -- [2]
@@ -1254,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Slowborne|r",
 			[51] = 1643800332,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
+		}, -- [40]
 		{
 			"I think he said it is going to be tuesday", -- [1]
 			"Sunmade-Draenor", -- [2]
@@ -1276,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Sunmade|r",
 			[51] = 1643800338,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [41]
 		{
 			"no spam? did blizz ban boosting?", -- [1]
 			"Tolhunter-Draenor", -- [2]
@@ -1298,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Tolhunter|r",
 			[51] = 1643800345,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [42]
 		{
 			"+2.6k io experienced team offering M+ 15-22 carries (Including Armor stack , KSH , KSM) only for gold /w for price and info", -- [1]
 			"Soülkeeper-Draenor", -- [2]
@@ -1320,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaSoülkeeper|r",
 			[51] = 1643800354,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [43]
 		{
 			"|cff1eff00|Hitem:45584::::::::60:66:::1:3524::::::|h[Thunder Bluff Tabard]|h|r", -- [1]
 			"Woopsmybad-Draenor", -- [2]
@@ -1342,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Woopsmybad|r",
 			[51] = 1643800357,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [44]
 		{
 			"ban boosting? no, ban boost communities, yes.", -- [1]
 			"Amphrôxia-Draenor", -- [2]
@@ -1364,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Amphrôxia|r",
 			[51] = 1643800363,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [45]
 		{
 			"<Carpe Noctis>[9/10M] are looking for dps to expand our raid team. We raid every Wednesday &Thursday from 20:00 to 23:00 (with an optional raid for Monday). Join us if you like a friendly atmosphere while raiding and doing your m+ runs.", -- [1]
 			"Vividtroll-Draenor", -- [2]
@@ -1386,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Vividtroll|r",
 			[51] = 1643800368,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [46]
 		{
 			"ah right", -- [1]
 			"Tolhunter-Draenor", -- [2]
@@ -1408,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Tolhunter|r",
 			[51] = 1643800371,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [47]
 		{
 			"<Legacy of the Horde Guild> Offering (10/10 HC) (Last 2 HC) (Mythic Dungeons) (Torghast) (Leveling) /w for more info", -- [1]
 			"Legacyguild-Draenor", -- [2]
@@ -1430,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcLegacyguild|r",
 			[51] = 1643800390,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [48]
 		{
 			"WTS |cffa335ee|Hitem:159840::::::::60:577::54:2:1472:4786::::::|h[Teebu's Scorching Straight Sword]|h|r", -- [1]
 			"Himari-Draenor", -- [2]
@@ -1452,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Himari|r",
 			[51] = 1643800402,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [49]
 		{
 			"WTS M+15 || LevelUp 50-60 || Friends Run || ready to go. /W", -- [1]
 			"Aurliana-Draenor", -- [2]
@@ -1474,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Aurliana|r",
 			[51] = 1643800405,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [50]
 		{
 			"Literally nothing will change. Nova will just call themselves a guild.", -- [1]
 			"Lavalake-Draenor", -- [2]
@@ -1496,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Lavalake|r",
 			[51] = 1643800417,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [51]
 		{
 			"They will not", -- [1]
 			"Akiza-Draenor", -- [2]
@@ -1518,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaAkiza|r",
 			[51] = 1643800427,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [52]
 		{
 			"they will yes", -- [1]
 			"Flaskki-Draenor", -- [2]
@@ -1540,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcFlaskki|r",
 			[51] = 1643800436,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [53]
 		{
 			"We speaked about it, and the communication was clear", -- [1]
 			"Akiza-Draenor", -- [2]
@@ -1562,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaAkiza|r",
 			[51] = 1643800442,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [54]
 		{
 			"lol", -- [1]
 			"Slowborne-Draenor", -- [2]
@@ -1584,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Slowborne|r",
 			[51] = 1643800443,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [55]
 		{
 			"WTB |cffffffff|Hitem:178926::::::::60:63:::::::::|h[Shadowghast Ring]|h|r", -- [1]
 			"Oxyet-Draenor", -- [2]
@@ -1606,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaOxyet|r",
 			[51] = 1643800448,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [56]
 		{
 			"Nova", -- [1]
 			"Slowborne-Draenor", -- [2]
@@ -1628,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Slowborne|r",
 			[51] = 1643800448,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [57]
 		{
 			"then we report the guild", -- [1]
 			"Slowborne-Draenor", -- [2]
@@ -1650,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Slowborne|r",
 			[51] = 1643800514,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [58]
 		{
 			"ez", -- [1]
 			"Ängst-Draenor", -- [2]
@@ -1672,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Ängst|r",
 			[51] = 1643800519,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [59]
 		{
 			"ez", -- [1]
 			"Voddin-Draenor", -- [2]
@@ -1694,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Voddin|r",
 			[51] = 1643800521,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [60]
 		{
 			"Playing the AH is fine, abusing it tho eh", -- [1]
 			"Mastiadrin-Draenor", -- [2]
@@ -1716,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Mastiadrin|r",
 			[51] = 1643803057,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [61]
 		{
 			"Yeah i don't mean exploiting it", -- [1]
 			"Ängst-Draenor", -- [2]
@@ -1738,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Ängst|r",
 			[51] = 1643803070,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [62]
 		{
 			"If you suck at trading you should lose all your gold period.", -- [1]
 			"Arcanumortis-Draenor", -- [2]
@@ -1760,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaArcanumortis|r",
 			[51] = 1643803073,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [63]
 		{
 			"any kind of boosting should be banned ", -- [1]
 			"Aluucard-Draenor", -- [2]
@@ -1782,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Aluucard|r",
 			[51] = 1643803081,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [64]
 		{
 			"I mean flipping and such. That's normal player behaviour", -- [1]
 			"Ängst-Draenor", -- [2]
@@ -1804,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Ängst|r",
 			[51] = 1643803082,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [65]
 		{
 			"All hail the free market economy", -- [1]
 			"Lavalake-Draenor", -- [2]
@@ -1826,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Lavalake|r",
 			[51] = 1643803092,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [66]
 		{
 			"if someone cant do it normally they dont deserve to buy it in anyway tbh ", -- [1]
 			"Aluucard-Draenor", -- [2]
@@ -1848,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Aluucard|r",
 			[51] = 1643803100,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [67]
 		{
 			"glorious anarchocapitalism", -- [1]
 			"Dionwh-Draenor", -- [2]
@@ -1870,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Dionwh|r",
 			[51] = 1643803104,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [68]
 		{
 			"if you enjoy plaing the ah more than the actual wow content then why not just go play investment tycoon?", -- [1]
 			"Fearpewpew-Draenor", -- [2]
@@ -1892,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeFearpewpew|r",
 			[51] = 1643803122,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [69]
 		{
 			"i mean u can do both thats kinda just an excuse tbh, i get being tired from work and not pushing top 100+ rank but you can still 99 log every boss on weekend raiding etc", -- [1]
 			"Skwidweaver-Draenor", -- [2]
@@ -1914,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Skwidweaver|r",
 			[51] = 1643806386,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [70]
 		{
 			"WTS |cffa335ee|Hitem:159840::::::::60:577::54:2:1472:4786::::::|h[Teebu's Scorching Straight Sword]|h|r", -- [1]
 			"Himari-Draenor", -- [2]
@@ -1936,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Himari|r",
 			[51] = 1643806397,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [71]
 		{
 			"what..if he works with logs", -- [1]
 			"Dizyo-Draenor", -- [2]
@@ -1958,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcDizyo|r",
 			[51] = 1643806414,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [72]
 		{
 			"clearly doesn't work very hard", -- [1]
 			"Catedh-Draenor", -- [2]
@@ -1980,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Catedh|r",
 			[51] = 1643806422,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [73]
 		{
 			"wouldnt he have 100 logs then? LUL", -- [1]
 			"Áspen-Draenor", -- [2]
@@ -2002,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Áspen|r",
 			[51] = 1643806424,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [74]
 		{
 			"ppl seem to forget dps is a means not that main goal", -- [1]
 			"Veerloren-Draenor", -- [2]
@@ -2024,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edVeerloren|r",
 			[51] = 1643806425,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [75]
 		{
 			"He is an excuse-Andy. He is just bad.", -- [1]
 			"Lavalake-Draenor", -- [2]
@@ -2046,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Lavalake|r",
 			[51] = 1643806430,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [76]
 		{
 			"WTS 13k |cffffffff|Hitem:168583::::::::60:102:::::::::|h[Widowbloom]|h|r", -- [1]
 			"Golldenpants-Draenor", -- [2]
@@ -2068,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Golldenpants|r",
 			[51] = 1643806436,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [77]
 		{
 			"if boss died the dps was enough", -- [1]
 			"Veerloren-Draenor", -- [2]
@@ -2090,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edVeerloren|r",
 			[51] = 1643806442,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [78]
 		{
 			"wait a conversation in tradechat on retail :O ?", -- [1]
 			"Bhleed-Draenor", -- [2]
@@ -2112,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Bhleed|r",
 			[51] = 1643806449,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [79]
 		{
 			"youve been offline for a couple of days right?", -- [1]
 			"Wulfred-Draenor", -- [2]
@@ -2134,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Wulfred|r",
 			[51] = 1643806470,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [80]
 		{
 			"maybe :P", -- [1]
 			"Bhleed-Draenor", -- [2]
@@ -2156,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Bhleed|r",
 			[51] = 1643806479,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [81]
 		{
 			"|cffffd100|HclubFinder:ClubFinder-1-149843-1403-65853538|h[Guild: ImpulseGaming]|h|r are looking to expand their community with more social players. Active community with a Mythic Raiding team and open Heroic Runs. Come hang out. /w me for any info.", -- [1]
 			"Snagglehoof-Draenor", -- [2]
@@ -2177,6 +1803,380 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "|cfffe7b09Snagglehoof|r",
 			[51] = 1643806913,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [82]
+		{
+			"wts|cffa335ee|Hitem:186362::::::::60:577::6:5:7187:40:7575:1498:6646:1:28:2106:::::|h[Bindings of the Subjugated]|h|r150k          stats", -- [1]
+			"Palvane-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Palvane-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			549, -- [11]
+			"Player-1403-09CF39DD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Palvane|r",
+			[51] = 1644324259,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [83]
+		{
+			"WtS Mythic +15 - 20/Tazavesh (Mount Run )-Lvlup 50-60- Cheap Price. Grp Is Ready To Go /w me for more info ", -- [1]
+			"Lilchamp-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Lilchamp-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			550, -- [11]
+			"Player-1403-0759BB88", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcLilchamp|r",
+			[51] = 1644324263,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [84]
+		{
+			"WTS KT&Sylva HC join me and take ur aotc , Only gold", -- [1]
+			"Rifkq-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Rifkq-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			551, -- [11]
+			"Player-1403-07F7D0EF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcRifkq|r",
+			[51] = 1644324283,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [85]
+		{
+			"WTS |cff0070dd|Hitem:4446::::::::20:261:::1:6691:2:9:15:28:13:::::|h[Blackvenom Blade]|h|r /w", -- [1]
+			"Txch-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Txch-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			552, -- [11]
+			"Player-1403-0A211523", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Txch|r",
+			[51] = 1644324430,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [86]
+		{
+			"LULW", -- [1]
+			"Andersonxx-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Andersonxx-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			553, -- [11]
+			"Player-1403-0A06D2C2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Andersonxx|r",
+			[51] = 1644324446,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [87]
+		{
+			"WTS |cffffffff|Hitem:173246::::::::60:64::68:2:7451:1559:1:28:2142::::Player-1403-09D0D5F0:|h[Grim-Veiled Pants]|h|r 30k", -- [1]
+			"Elno-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Elno-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			67, -- [11]
+			"Player-1403-07DAC640", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaElno|r",
+			[51] = 1644404634,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [88]
+		{
+			"<Lelijkerds> is een gezellige NL/BE Guild van Draenor. 9.2 staat voor de deur en daarvoor zoeken we nog mensen voor de main groep we zoeken nog DPS  mocht je nog meer vragen hebben, Whisper ons gerust,social ook welkom ofc", -- [1]
+			"Woebel-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Woebel-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			68, -- [11]
+			"Player-1403-09F9B581", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcWoebel|r",
+			[51] = 1644404644,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [89]
+		{
+			"<High Score Group of Friends(+2600io) WTS> M+15- +23 || (best offer)KSH Achive(Portal-Dungeons )/(best offer)KSM Achive ||  / fol Gold only /W me for more info)", -- [1]
+			"Pirshaman-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Pirshaman-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			69, -- [11]
+			"Player-1403-0733CEB4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcPirshaman|r",
+			[51] = 1644404654,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [90]
+		{
+			"WTS |cffffffff|Hitem:171416::::::::60:72::67:2:7450:1546:1:28:2142::::Player-1403-0A1C1586:|h[Shadowghast Greaves]|h|r", -- [1]
+			"Cáwt-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Cáwt-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			71, -- [11]
+			"Player-1403-07EDB46B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cCáwt|r",
+			[51] = 1644404660,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [91]
+		{
+			"we hebben un clubske opgericht, voor mensen meej un lelijk gezicht!!!!", -- [1]
+			"Blikbonen-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Blikbonen-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			72, -- [11]
+			"Player-1403-089302CB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Blikbonen|r",
+			[51] = 1644404693,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"ge bent er bijjjj", -- [1]
+			"Cáwt-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Cáwt-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			73, -- [11]
+			"Player-1403-07EDB46B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cCáwt|r",
+			[51] = 1644404700,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			":P", -- [1]
+			"Blikbonen-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Blikbonen-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			74, -- [11]
+			"Player-1403-089302CB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Blikbonen|r",
+			[51] = 1644404705,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"WTS |cffffffff|Hitem:173246::::::::60:64::68:2:7451:1559:1:28:2142::::Player-1403-05E78379:|h[Grim-Veiled Pants]|h|r", -- [1]
+			"Elno-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Elno-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			75, -- [11]
+			"Player-1403-07DAC640", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaElno|r",
+			[51] = 1644404731,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"guys wehre is the boost spam? wtf is going on?", -- [1]
+			"Cognomen-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Cognomen-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			76, -- [11]
+			"Player-1403-067CB7B4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Cognomen|r",
+			[51] = 1644404751,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"are bots dead or smth?", -- [1]
+			"Cognomen-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Cognomen-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			77, -- [11]
+			"Player-1403-067CB7B4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Cognomen|r",
+			[51] = 1644404759,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"micrsoft :)", -- [1]
+			"Blikbonen-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Blikbonen-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			78, -- [11]
+			"Player-1403-089302CB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Blikbonen|r",
+			[51] = 1644404770,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"who knows", -- [1]
+			"Girlgamér-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Girlgamér-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			112, -- [11]
+			"Player-1403-071D14F9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Girlgamér|r",
+			[51] = 1644404846,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},

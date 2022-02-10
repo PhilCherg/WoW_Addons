@@ -3,6 +3,9 @@ __DEJUNK_SAVED_VARIABLES__ = {
 	["DDBL_Version"] = "2.0.2",
 	["Global"] = {
 		["showItemTooltip"] = false,
+		["minimapIcon"] = {
+			["minimapPos"] = 206.5650248763703,
+		},
 		["version"] = 1,
 	},
 	["Profiles"] = {
@@ -54,7 +57,7 @@ __DEJUNK_SAVED_VARIABLES__ = {
 		["Bankeristor-Outland"] = {
 			["version"] = 3,
 		},
-		["Necrophagus-Outland"] = {
+		["Elementior-Outland"] = {
 			["version"] = 3,
 		},
 		["Barbaxius-Outland"] = {
@@ -63,13 +66,13 @@ __DEJUNK_SAVED_VARIABLES__ = {
 		["Xanthoros-Outland"] = {
 			["version"] = 3,
 		},
-		["Bullenic-Silvermoon"] = {
+		["Necrophagus-Outland"] = {
 			["version"] = 3,
 		},
 		["Feastfour-Outland"] = {
 			["version"] = 3,
 		},
-		["Elementior-Outland"] = {
+		["Bullenic-Silvermoon"] = {
 			["version"] = 3,
 		},
 		["Feastthree-Outland"] = {

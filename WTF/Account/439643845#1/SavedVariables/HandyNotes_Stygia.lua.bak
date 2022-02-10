@@ -2,30 +2,30 @@
 HandyNotes_StygiaDB = {
 	["profileKeys"] = {
 		["Mallazin - Azjol-Nerub"] = "Mallazin - Azjol-Nerub",
-		["Bullenic - Silvermoon"] = "Bullenic - Silvermoon",
-		["Feastfour - Outland"] = "Feastfour - Outland",
 		["Feastfive - Outland"] = "Feastfive - Outland",
+		["Feastfour - Outland"] = "Feastfour - Outland",
+		["Bullenic - Silvermoon"] = "Bullenic - Silvermoon",
 		["Feastyone - Outland"] = "Feastyone - Outland",
 		["Bankeristor - Outland"] = "Bankeristor - Outland",
 		["Nibirus - Azjol-Nerub"] = "Nibirus - Azjol-Nerub",
-		["Necrophagus - Outland"] = "Necrophagus - Outland",
 		["Feattwo - Outland"] = "Feattwo - Outland",
+		["Illydaria - Draenor"] = "Illydaria - Draenor",
 		["Feastone - Outland"] = "Feastone - Outland",
 		["Käguya - Turalyon"] = "Käguya - Turalyon",
 		["Wolfados - Azjol-Nerub"] = "Wolfados - Azjol-Nerub",
 		["Phalonius - Azjol-Nerub"] = "Phalonius - Azjol-Nerub",
-		["Illydaria - Draenor"] = "Illydaria - Draenor",
+		["Necrophagus - Outland"] = "Necrophagus - Outland",
 		["Lianxia - Draenor"] = "Lianxia - Draenor",
 		["Feastthree - Outland"] = "Feastthree - Outland",
 	},
 	["profiles"] = {
 		["Mallazin - Azjol-Nerub"] = {
 		},
-		["Bullenic - Silvermoon"] = {
+		["Feastfive - Outland"] = {
 		},
 		["Feastfour - Outland"] = {
 		},
-		["Feastfive - Outland"] = {
+		["Bullenic - Silvermoon"] = {
 		},
 		["Feastyone - Outland"] = {
 		},
@@ -33,9 +33,9 @@ HandyNotes_StygiaDB = {
 		},
 		["Nibirus - Azjol-Nerub"] = {
 		},
-		["Necrophagus - Outland"] = {
-		},
 		["Feattwo - Outland"] = {
+		},
+		["Illydaria - Draenor"] = {
 		},
 		["Feastone - Outland"] = {
 		},
@@ -45,7 +45,7 @@ HandyNotes_StygiaDB = {
 		},
 		["Phalonius - Azjol-Nerub"] = {
 		},
-		["Illydaria - Draenor"] = {
+		["Necrophagus - Outland"] = {
 		},
 		["Lianxia - Draenor"] = {
 		},

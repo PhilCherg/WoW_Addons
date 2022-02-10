@@ -6,9 +6,9 @@ HandyNotes_StygiaDB = {
 		["Feastfour - Outland"] = "Feastfour - Outland",
 		["Bullenic - Silvermoon"] = "Bullenic - Silvermoon",
 		["Feastyone - Outland"] = "Feastyone - Outland",
-		["Illydaria - Draenor"] = "Illydaria - Draenor",
-		["Nibirus - Azjol-Nerub"] = "Nibirus - Azjol-Nerub",
 		["Necrophagus - Outland"] = "Necrophagus - Outland",
+		["Nibirus - Azjol-Nerub"] = "Nibirus - Azjol-Nerub",
+		["Illydaria - Draenor"] = "Illydaria - Draenor",
 		["Feattwo - Outland"] = "Feattwo - Outland",
 		["Feastone - Outland"] = "Feastone - Outland",
 		["Käguya - Turalyon"] = "Käguya - Turalyon",
@@ -29,11 +29,11 @@ HandyNotes_StygiaDB = {
 		},
 		["Feastyone - Outland"] = {
 		},
-		["Illydaria - Draenor"] = {
+		["Necrophagus - Outland"] = {
 		},
 		["Nibirus - Azjol-Nerub"] = {
 		},
-		["Necrophagus - Outland"] = {
+		["Illydaria - Draenor"] = {
 		},
 		["Feattwo - Outland"] = {
 		},

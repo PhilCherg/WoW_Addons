@@ -45,8 +45,8 @@ WorldQuestsList: disabled
 AAP-Mekkatorque: disabled
 LookingForGroup_RaiderIO: disabled
 NPCScan: enabled
-TradeSkillMaster_AppHelper: disabled
-TradeSkillMaster: disabled
+TradeSkillMaster_AppHelper: enabled
+TradeSkillMaster: enabled
 _NPCScan.Overlay: enabled
 AllTheThings: enabled
 Details: disabled

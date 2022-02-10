@@ -5,8 +5,8 @@ Immersion: disabled
 Mapster: disabled
 OrderHallCommander: disabled
 WorldQuestTracker: enabled
-TradeSkillMaster: disabled
-TradeSkillMaster_AppHelper: disabled
+TradeSkillMaster: enabled
+TradeSkillMaster_AppHelper: enabled
 Skada: enabled
 WeakAuras: disabled
 WeakAurasModelPaths: disabled

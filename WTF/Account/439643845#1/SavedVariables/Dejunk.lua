@@ -79,16 +79,16 @@ __DEJUNK_SAVED_VARIABLES__ = {
 		["Feastfour-Outland"] = {
 			["version"] = 3,
 		},
-		["Necrophagus-Outland"] = {
+		["Elementior-Outland"] = {
 			["version"] = 3,
 		},
 		["Feastthree-Outland"] = {
 			["version"] = 3,
 		},
-		["Elementior-Outland"] = {
+		["Bullenic-Silvermoon"] = {
 			["version"] = 3,
 		},
-		["Bullenic-Silvermoon"] = {
+		["Necrophagus-Outland"] = {
 			["version"] = 3,
 		},
 		["Feastfive-Outland"] = {

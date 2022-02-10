@@ -58,8 +58,8 @@ WeakAurasModelPaths: disabled
 WeakAurasOptions: disabled
 WeakAurasTemplates: disabled
 WorldQuestTracker: enabled
-TradeSkillMaster: disabled
-TradeSkillMaster_AppHelper: disabled
+TradeSkillMaster: enabled
+TradeSkillMaster_AppHelper: enabled
 ElvUI_Config: enabled
 ElvUI_OptionsUI: enabled
 ElvUI: enabled

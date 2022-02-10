@@ -396,7 +396,7 @@ HandyNotes_Stygia: disabled
 PremadeAutoAccept: disabled
 CamelSpotter: disabled
 AstralKeys: disabled
-PremadeGroupsFilter: enabled
+PremadeGroupsFilter: disabled
 VenturePlan: enabled
 +Wowhead_Looter: enabled
 DBM-SanctumOfDomination: enabled
