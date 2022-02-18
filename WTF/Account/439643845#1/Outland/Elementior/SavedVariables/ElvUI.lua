@@ -2,28 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"|cffffff00Stormwind City is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Stormwind City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Stormwind City", -- [9]
-			0, -- [10]
-			322, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1624638623,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
 			"|cffffff00Trade District is under attack!|r", -- [1]
 			"", -- [2]
 			"", -- [3]
@@ -44,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1624638688,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
+		}, -- [1]
 		{
 			"|cffffff00Stormwind City is under attack!|r", -- [1]
 			"", -- [2]
@@ -66,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1624638694,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
+		}, -- [2]
 		{
 			"<Bona Fide> (8/10M) Is looking for new raiders for 9.1. Currently in need of everything. Raid days are Monday/Wednesday from 19:30-23:00. Socials are also welcome. /w me if you're interested.  ", -- [1]
 			"Mastashifu-Outland", -- [2]
@@ -88,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Mastashifu|r",
 			[51] = 1624638777,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
+		}, -- [3]
 		{
 			"<NOVA>  Mega Sale ( Castle Nathria Only For 220k Vip Trader 110k ) /  +15  160k /  M+16 200k / M +17  300k  /  M+18  500k  / M+19 700k / +M20 900k /  Keystone Master 1140k / [ Torghast ] /w For More Info", -- [1]
 			"Novalovely-Outland", -- [2]
@@ -110,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novalovely|r",
 			[51] = 1624638802,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
+		}, -- [4]
 		{
 			"WTB All CSGO/Dota2/Rust/TF2/Steam Items for Classic/TBC/Retail Gold go to trade-raid.com", -- [1]
 			"Træderaid-Outland", -- [2]
@@ -132,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcTræderaid|r",
 			[51] = 1624638829,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
+		}, -- [5]
 		{
 			"WTS lvling 50-60 and Torghast (layer 1-8) for gold (Alliance-Horde)/w me for more info", -- [1]
 			"Nikollet-Outland", -- [2]
@@ -154,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Nikollet|r",
 			[51] = 1624638834,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
+		}, -- [6]
 		{
 			"<Bona Fide> (8/10M) Is looking for new raiders for 9.1. Currently in need of everything. Raid days are Monday/Wednesday from 19:30-23:00. Socials are also welcome. /w me if you're interested.  ", -- [1]
 			"Mastashifu-Outland", -- [2]
@@ -176,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Mastashifu|r",
 			[51] = 1624638910,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
+		}, -- [7]
 		{
 			"|cffffff00Trade District is under attack!|r", -- [1]
 			"", -- [2]
@@ -198,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1624638986,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
+		}, -- [8]
 		{
 			"|cffffff00Cathedral Square is under attack!|r", -- [1]
 			"", -- [2]
@@ -220,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1624639017,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
+		}, -- [9]
 		{
 			"WTS lvling 50-60 and Torghast (layer 1-8) for gold (Alliance-Horde)/w me for more info", -- [1]
 			"Nikollet-Outland", -- [2]
@@ -242,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Nikollet|r",
 			[51] = 1624639020,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
+		}, -- [10]
 		{
 			"<Icecrown> Hosting Heroic |cff66bbff|Hjournal:0:1190:14|h[Castle Nathria]|h|r 10/10HC tonight  at   21:30, also doing vips   /w me  :)  -  GOLD ONLY (Also doing KSM / specific dungeons) ", -- [1]
 			"Disstbank-Outland", -- [2]
@@ -264,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Disstbank|r",
 			[51] = 1624639042,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
+		}, -- [11]
 		{
 			"<NOVA>  Mega Sale ( Castle Nathria Only For 220k Vip Trader 110k ) /  +15  160k /  M+16 200k / M +17  300k  /  M+18  500k  / M+19 700k / +M20 900k /  Keystone Master 1140k / [ Torghast ] /w For More Info", -- [1]
 			"Novalovely-Outland", -- [2]
@@ -286,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novalovely|r",
 			[51] = 1624639081,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
+		}, -- [12]
 		{
 			"|cffffff00The Canals is under attack!|r", -- [1]
 			"", -- [2]
@@ -308,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1624639113,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
+		}, -- [13]
 		{
 			"WTB All CSGO/Dota2/Rust/TF2/Steam Items for Classic/TBC/Retail Gold go to trade-raid.com", -- [1]
 			"Træderaid-Outland", -- [2]
@@ -330,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcTræderaid|r",
 			[51] = 1624639129,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
+		}, -- [14]
 		{
 			"Hey its me, Messias", -- [1]
 			"Messías-Outland", -- [2]
@@ -352,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Messías|r",
 			[51] = 1624641261,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
+		}, -- [15]
 		{
 			"WTB All CSGO/Dota2/Rust/TF2/Steam Items for Classic/TBC/Retail Gold go to trade-raid.com", -- [1]
 			"Træderaid-Outland", -- [2]
@@ -374,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcTræderaid|r",
 			[51] = 1624641530,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
+		}, -- [16]
 		{
 			"<Nova> Selling Boost  M+10=70k / M+14=100k / M+15= 160k /Keystone Master 1.14M /2 run 5%  discount or Stack armor FREE / Selling CASTLE NATHRIA Full HC 220k and per Stack Armor 110k /Curve 50k / Raid Mythic full clear /Torghast Boost /w for info", -- [1]
 			"Exoservices-Outland", -- [2]
@@ -396,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaExoservices|r",
 			[51] = 1624641548,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
+		}, -- [17]
 		{
 			"lf 2v2 ", -- [1]
 			"Cuttingmoon-Outland", -- [2]
@@ -418,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeCuttingmoon|r",
 			[51] = 1624641610,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
+		}, -- [18]
 		{
 			"WTS lvling 50-60 and Torghast (layer 1-8) for gold (Alliance-Horde)/w me for more info", -- [1]
 			"Nikollet-Outland", -- [2]
@@ -440,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Nikollet|r",
 			[51] = 1624641691,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
+		}, -- [19]
 		{
 			"<Nova> Selling Boost  M+10=70k / M+14=100k / M+15= 160k /Keystone Master 1.14M /2 run 5%  discount or Stack armor FREE / Selling CASTLE NATHRIA Full HC 220k and per Stack Armor 110k /Curve 50k / Raid Mythic full clear /Torghast Boost /w for info", -- [1]
 			"Nbcboosterr-Outland", -- [2]
@@ -462,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaNbcboosterr|r",
 			[51] = 1624641819,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
+		}, -- [20]
 		{
 			"WTB All CSGO/Dota2/Rust/TF2/Steam Items for Classic/TBC/Retail Gold go to trade-raid.com", -- [1]
 			"Træderaid-Outland", -- [2]
@@ -484,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcTræderaid|r",
 			[51] = 1624641830,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
+		}, -- [21]
 		{
 			"WTS lvling 50-60 and Torghast (layer 1-8) for gold (Alliance-Horde)/w me for more info", -- [1]
 			"Nikollet-Outland", -- [2]
@@ -506,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Nikollet|r",
 			[51] = 1624641903,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
+		}, -- [22]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14334:Player-1301-0B0D2A8D:1:6:25:21:4294967295:4294967295:4294967295:4294967295|h[Into the Maw]|h|r!", -- [1]
 			"Elementior-Outland", -- [2]
@@ -528,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElementior|r",
 			[51] = 1624644299,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [24]
+		}, -- [23]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:505:Player-1301-0B0D2A8D:1:6:25:21:4294967295:4294967295:4294967295:4294967295|h[250 Quests Completed]|h|r!", -- [1]
 			"Elementior-Outland", -- [2]
@@ -550,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElementior|r",
 			[51] = 1624644436,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [25]
+		}, -- [24]
 		{
 			"WTB All CSGO/Dota2/Rust/TF2/Steam Items for Classic/TBC/Retail Gold go to trade-raid.com", -- [1]
 			"Træderaid-Outland", -- [2]
@@ -572,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcTræderaid|r",
 			[51] = 1624644532,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
+		}, -- [25]
 		{
 			"<NOVA>  Mega Sale ( Castle Nathria Only For 220k Vip Trader 110k ) /  +15  160k /  M+16 200k / M +17  300k  /  M+18  500k  / M+19 700k / +M20 900k /  Keystone Master 1140k / [ Torghast ] /w For More Info", -- [1]
 			"Novalovely-Outland", -- [2]
@@ -594,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novalovely|r",
 			[51] = 1624644639,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
+		}, -- [26]
 		{
 			"<Nova> Selling Boost  M+10=70k / M+14=100k / M+15= 160k /Keystone Master 1.14M /2 run 5%  discount or Stack armor FREE / Selling CASTLE NATHRIA Full HC 220k and per Stack Armor 110k /Curve 50k / Raid Mythic full clear /Torghast Boost /w for info", -- [1]
 			"Exoservices-Outland", -- [2]
@@ -616,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaExoservices|r",
 			[51] = 1624644722,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
+		}, -- [27]
 		{
 			"guys", -- [1]
 			"Messías-Outland", -- [2]
@@ -638,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Messías|r",
 			[51] = 1624644764,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
+		}, -- [28]
 		{
 			"whats the dps potion called", -- [1]
 			"Messías-Outland", -- [2]
@@ -660,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Messías|r",
 			[51] = 1624644769,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
+		}, -- [29]
 		{
 			"my main is horde but I would like to roll back to ally.", -- [1]
 			"Uuve-Outland", -- [2]
@@ -682,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeUuve|r",
 			[51] = 1624644781,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [31]
+		}, -- [30]
 		{
 			"WTB All CSGO/Dota2/Rust/TF2/Steam Items for Classic/TBC/Retail Gold go to trade-raid.com", -- [1]
 			"Træderaid-Outland", -- [2]
@@ -704,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcTræderaid|r",
 			[51] = 1624644832,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
+		}, -- [31]
 		{
 			"<Icecrown> Hosting Heroic |cff66bbff|Hjournal:0:1190:14|h[Castle Nathria]|h|r 10/10HC in 15 mins!  Also do vips - /w me - GOLD ONLY- Last Spots!", -- [1]
 			"Disstbank-Outland", -- [2]
@@ -726,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Disstbank|r",
 			[51] = 1624644977,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
+		}, -- [32]
 		{
 			"<NOVA>  Mega Sale ( Castle Nathria Only For 220k Vip Trader 110k ) /  +15  160k /  M+16 200k / M +17  300k  /  M+18  500k  / M+19 700k / +M20 900k /  Keystone Master 1140k / [ Torghast ] /w For More Info", -- [1]
 			"Novalovely-Outland", -- [2]
@@ -748,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novalovely|r",
 			[51] = 1624644995,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
+		}, -- [33]
 		{
 			"<Nova> Selling Boost  M+10=70k / M+14=100k / M+15= 160k /Keystone Master 1.14M /2 run 5%  discount or Stack armor FREE / Selling CASTLE NATHRIA Full HC 220k and per Stack Armor 110k /Curve 50k / Raid Mythic full clear /Torghast Boost /w for info", -- [1]
 			"Nbcboosterr-Outland", -- [2]
@@ -770,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaNbcboosterr|r",
 			[51] = 1624645003,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
+		}, -- [34]
 		{
 			"WTB All CSGO/Dota2/Rust/TF2/Steam Items for Classic/TBC/Retail Gold go to trade-raid.com", -- [1]
 			"Træderaid-Outland", -- [2]
@@ -792,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcTræderaid|r",
 			[51] = 1624645132,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
+		}, -- [35]
 		{
 			"WTS Castle Nathria HEROIC  І Start in 22.30 CEST or Server Time І  FULL RUN 10/10 І  Guild run  І  Fast And smooth  І  Get you 213+ iLvl gear TONIGHT  І  PST for info!", -- [1]
 			"Misjetta-Outland", -- [2]
@@ -814,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Misjetta|r",
 			[51] = 1624645180,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
+		}, -- [36]
 		{
 			"anyone have a theater of pain +15 key? tank 1 dps and heal rdy to make it in time!", -- [1]
 			"Huffmaster-Outland", -- [2]
@@ -836,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHuffmaster|r",
 			[51] = 1624645233,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
+		}, -- [37]
 		{
 			"anyone have a theater of pain +15 key? tank 1 dps and heal rdy to make it in time! paying 50k!", -- [1]
 			"Huffmaster-Outland", -- [2]
@@ -858,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHuffmaster|r",
 			[51] = 1624645239,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
+		}, -- [38]
 		{
 			"WTS Castle Nathria HEROIC  І Start in 22.30 CEST or Server Time І  FULL RUN 10/10 І  Guild run  І  Fast And smooth  І  Get you 213+ iLvl gear TONIGHT  І  PST for info!", -- [1]
 			"Misjetta-Outland", -- [2]
@@ -880,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Misjetta|r",
 			[51] = 1624645325,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
+		}, -- [39]
 		{
 			"<Nova> Selling Boost  M+10=70k / M+14=100k / M+15= 160k /Keystone Master 1.14M /2 run 5%  discount or Stack armor FREE / Selling CASTLE NATHRIA Full HC 220k and per Stack Armor 110k /Curve 50k / Raid Mythic full clear /Torghast Boost /w for info", -- [1]
 			"Exoservices-Outland", -- [2]
@@ -902,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaExoservices|r",
 			[51] = 1624645338,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
+		}, -- [40]
 		{
 			"<Nova> Selling Boost  M+10=70k / M+14=100k / M+15= 160k /Keystone Master 1.14M /2 run 5%  discount or Stack armor FREE / Selling CASTLE NATHRIA Full HC 220k and per Stack Armor 110k /Curve 50k / Raid Mythic full clear /Torghast Boost /w for info", -- [1]
 			"Nbcboosterr-Outland", -- [2]
@@ -924,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaNbcboosterr|r",
 			[51] = 1624645354,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
+		}, -- [41]
 		{
 			"WTB All CSGO/Dota2/Rust/TF2/Steam Items for Classic/TBC/Retail Gold go to trade-raid.com", -- [1]
 			"Træderaid-Outland", -- [2]
@@ -946,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcTræderaid|r",
 			[51] = 1624645433,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
+		}, -- [42]
 		{
 			"WTS Castle Nathria HEROIC  І Start in 22.30 CEST or Server Time І  FULL RUN 10/10 І  Guild run  І  Fast And smooth  І  Get you 213+ iLvl gear TONIGHT  І  PST for info!", -- [1]
 			"Misjetta-Outland", -- [2]
@@ -968,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Misjetta|r",
 			[51] = 1624645481,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
+		}, -- [43]
 		{
 			"WTS |cffa335ee|Hitem:183035::::::::60:269::6:5:7187:40:7193:1498:6646:1:28:753:::|h[Ardent Sunstar Signet]|h|r /|cffa335ee|Hitem:182978::::::::60:269::6:5:7187:6652:7193:1498:6646:1:28:753:::|h[Barkweave Wristwraps]|h|r /|cffa335ee|Hitem:184778::::::::60:269::6:4:7187:6652:1498:6646:1:28:753:::|h[Decadent Nathrian Shawl]|h|r CHEAPER THAN AH", -- [1]
 			"Mehranjoon-Outland", -- [2]
@@ -990,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Mehranjoon|r",
 			[51] = 1624645531,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [44]
 		{
 			"WTS |cffa335ee|Hitem:183031::::::::60:269::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Soldier's Stoneband Wristguards]|h|r /|cffa335ee|Hitem:182982::::::::60:269::6:5:7187:6652:7193:1498:6646:1:28:753:::|h[Watchful Arbelist's Bracers]|h|r /|cffa335ee|Hitem:183010::::::::60:269::5:4:7188:6652:1485:6646:1:28:752:::|h[Stud-Scarred Footwear]|h|r CHEAPER THAN AH", -- [1]
 			"Mehranjoon-Outland", -- [2]
@@ -1012,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Mehranjoon|r",
 			[51] = 1624645548,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
+		}, -- [45]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14782:Player-1301-0B0D2A8D:1:6:25:21:4294967295:4294967295:4294967295:4294967295|h[Level 50]|h|r!", -- [1]
 			"Elementior-Outland", -- [2]
@@ -1034,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElementior|r",
 			[51] = 1624646686,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [47]
+		}, -- [46]
 		{
 			"<Nova> Selling Boost  M+10=70k / M+14=100k / M+15= 160k /Keystone Master 1.14M /2 run 5%  discount or Stack armor FREE / Selling CASTLE NATHRIA Full HC 220k and per Stack Armor 110k /Curve 50k / Raid Mythic full clear /Torghast Boost /w for info", -- [1]
 			"Nbcboosterr-Outland", -- [2]
@@ -1056,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaNbcboosterr|r",
 			[51] = 1624646771,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [47]
 		{
 			"WTS Castle Nathria HEROIC  І Start in 22.30 CEST or Server Time І  FULL RUN 10/10 І  Guild run  І  Fast And smooth  І  Get you 213+ iLvl gear TONIGHT  І  PST for info!", -- [1]
 			"Misjetta-Outland", -- [2]
@@ -1078,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Misjetta|r",
 			[51] = 1624646777,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+		}, -- [48]
 		{
 			"|cffffff00The Broken Front is under attack!|r", -- [1]
 			"", -- [2]
@@ -1100,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1624646818,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
+		}, -- [49]
 		{
 			"Squeeze on Elementior", -- [1]
 			"Elementior-Outland", -- [2]
@@ -1122,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElementior|r",
 			[51] = 1624967185,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [51]
+		}, -- [50]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12385:Player-1301-0B0D2A8D:1:6:29:21:4294967295:4294967295:4294967295:4294967295|h[Three Lights in the Darkness]|h|r!", -- [1]
 			"Elementior-Outland", -- [2]
@@ -1144,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElementior|r",
 			[51] = 1624967237,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [52]
+		}, -- [51]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12386:Player-1301-0B0D2A8D:1:6:29:21:4294967295:4294967295:4294967295:4294967295|h[Two Lights in the Darkness]|h|r!", -- [1]
 			"Elementior-Outland", -- [2]
@@ -1166,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElementior|r",
 			[51] = 1624967237,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [53]
+		}, -- [52]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12387:Player-1301-0B0D2A8D:1:6:29:21:4294967295:4294967295:4294967295:4294967295|h[One Light in the Darkness]|h|r!", -- [1]
 			"Elementior-Outland", -- [2]
@@ -1188,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElementior|r",
 			[51] = 1624967237,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [54]
+		}, -- [53]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12388:Player-1301-0B0D2A8D:1:6:29:21:4294967295:4294967295:4294967295:4294967295|h[Alone in the Darkness]|h|r!", -- [1]
 			"Elementior-Outland", -- [2]
@@ -1210,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElementior|r",
 			[51] = 1624967237,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [55]
+		}, -- [54]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12395:Player-1301-0B0D2A8D:1:6:29:21:4294967295:4294967295:4294967295:4294967295|h[Drive Me Crazy]|h|r!", -- [1]
 			"Elementior-Outland", -- [2]
@@ -1232,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElementior|r",
 			[51] = 1624967237,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [56]
+		}, -- [55]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12396:Player-1301-0B0D2A8D:1:6:29:21:4294967295:4294967295:4294967295:4294967295|h[He's Not Getting Any Older]|h|r!", -- [1]
 			"Elementior-Outland", -- [2]
@@ -1254,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElementior|r",
 			[51] = 1624967237,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [57]
+		}, -- [56]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:1176:Player-1301-0B0D2A8D:1:6:29:21:4294967295:4294967295:4294967295:4294967295|h[Got My Mind On My Money]|h|r!", -- [1]
 			"Elementior-Outland", -- [2]
@@ -1276,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElementior|r",
 			[51] = 1624967247,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [58]
+		}, -- [57]
 		{
 			"[WTS] Sanctum of Domination FULL MYTHIC RUN 10/10 |cffffff00|Hachievement:15135:Player-1301-0C134182:1:8:11:21:4294967295:4294967295:4294967295:4294967295|h[Cutting Edge: Sylvanas Windrunner]|h|r with VIP traders and Mount! Start TODAY!/w me for info", -- [1]
 			"Weisolm-Outland", -- [2]
@@ -1298,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Weisolm|r",
 			[51] = 1634912507,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [58]
 		{
 			"<Nova> Selling  ||  Sylvanas HC 72k || KT+Sylvanas 117k ||  M+14 = 135k || M+15 = 148.5k intime - 139.5k not in time  || M+16 = 202.5k || M+ 18 = 360k || M+ 20 = 585k||Tazavesh  HM 216k || Raid  Heroic 360k || Torghast ||PVP   /w for info", -- [1]
 			"Exovia-Outland", -- [2]
@@ -1320,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Exovia|r",
 			[51] = 1634912525,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [59]
 		{
 			"WTB All CSGO/Dota2/Rust/TF2/Steam Items for TBC/Retail/New World Gold & WTT Gold Between TBC and Retail Servers (both ways) go to trade-raid.com", -- [1]
 			"Trâdesraids-Outland", -- [2]
@@ -1342,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcTrâdesraids|r",
 			[51] = 1634914212,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [60]
 		{
 			"<<NOVA>>  Offering  10/10 Sod HC 360K Traders Avaible ||M+10=77k|| ||M+14=135k|| ||M+15=150k|| ||M+16=225K|| ||M+17=315K|| <<<  Weekly  +15 140k!  >>> Torghast And PVP 2s 3s  /w for More Info", -- [1]
 			"Novagamîng-Outland", -- [2]
@@ -1364,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novagamîng|r",
 			[51] = 1634914321,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [61]
 		{
 			"<NoVA> Big  discount M0 to +22 (M 15 = 139.5k (Sylvanas HC=72k  both=117 [SoD]10/10 HC = 360k ) (4x15 =496k  KSM = 1890k (2k io)TAZAVESH =90( 216k) PVP_ torghasL9-12_LVLUP 50-60> Mount>> 2or MORE RUNS discounts/ FREE STACK  only gold / W for info", -- [1]
 			"Novatinox-Outland", -- [2]
@@ -1386,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Novatinox|r",
 			[51] = 1634914353,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [62]
 		{
 			"<NOVA> OFFERING  HEROIC  |cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r 10/10  360k - 8/10 HC 306k / Sylvanas HC 72k / Kel'Thuzad HC 59k /Sylvanas+Kel  117k / M+14 135k / M+15 149k /M+16 202k /M+17 270k /M+18 360k / M19 540k /M+20 585k", -- [1]
 			"Novabostt-Outland", -- [2]
@@ -1408,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novabostt|r",
 			[51] = 1634914354,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [63]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:546:Player-1301-0B0D2A8D:1:10:22:21:4294967295:4294967295:4294967295:4294967295|h[Safe Deposit]|h|r!", -- [1]
 			"Elementior-Outland", -- [2]
@@ -1430,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElementior|r",
 			[51] = 1634914363,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [65]
+		}, -- [64]
 		{
 			"WTS Sanctum of Domination HEROIC І Start in 19.00 CEST or Server Time І  FULL RUN 10/10 І  Guild run  І  Fast And smooth  І  Get you 239+ iLvl gear TONIGHT  І  PST for info!!", -- [1]
 			"Misjetta-Outland", -- [2]
@@ -1452,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Misjetta|r",
 			[51] = 1634914388,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [65]
 		{
 			"WTS Sanctum of Domination HEROIC І Start in 19.00 CEST or Server Time І  FULL RUN 10/10 І  Guild run  І  Fast And smooth  І  Get you 239+ iLvl gear TONIGHT  І  PST for info!!", -- [1]
 			"Misjetta-Outland", -- [2]
@@ -1474,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Misjetta|r",
 			[51] = 1634914537,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [66]
 		{
 			"WTB All CSGO/Dota2/Rust/TF2/Steam Items for TBC/Retail/New World Gold & WTT Gold Between TBC and Retail Servers (both ways) go to trade-raid.com", -- [1]
 			"Trâdesraids-Outland", -- [2]
@@ -1496,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcTrâdesraids|r",
 			[51] = 1634914572,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [67]
 		{
 			"<RCU> WTS (gold only): M+10-22 +15=165K +20=585K// SoD H & M // Tazavesh // Torghast // PvP (2v2/3v3/RBG) services /w me for info (10% discount on m+ runs)", -- [1]
 			"Endeavors-Outland", -- [2]
@@ -1518,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cEndeavors|r",
 			[51] = 1634914581,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [68]
 		{
 			"<Nova> Selling  ||  Sylvanas HC 72k || KT+Sylvanas 117k ||  M+14 = 135k || M+15 = 148.5k intime - 139.5k not in time  || M+16 = 202.5k || M+ 18 = 360k || M+ 20 = 585k||Tazavesh  HM 216k || Raid  Heroic 360k || Torghast ||PVP   /w for info", -- [1]
 			"Exovia-Outland", -- [2]
@@ -1540,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Exovia|r",
 			[51] = 1634914601,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [69]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14942:Player-1301-0B0D2A8D:1:11:19:21:4294967295:4294967295:4294967295:4294967295|h[WoW's 17th Anniversary]|h|r!", -- [1]
 			"Elementior-Outland", -- [2]
@@ -1562,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElementior|r",
 			[51] = 1637345177,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [71]
+		}, -- [70]
 		{
 			"can u still get these tokens for bonus loot and if so where?", -- [1]
 			"Flámeblasted-Outland", -- [2]
@@ -1584,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFlámeblasted|r",
 			[51] = 1637345392,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [71]
 		{
 			"<Nova> Selling   ||  M+ 10 =75k / M+14 = 105k || M+15 = 130k intime - 120k not in time  || M+16 = 175k || M+ 18 = 320k || M+ 20 = 560k|| KSM = 1750k ||Tazavesh  HM 190k || Raid  Heroic 330k || Torghast ||PVP   /w for info", -- [1]
 			"Exovia-Outland", -- [2]
@@ -1606,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Exovia|r",
 			[51] = 1637345409,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [72]
 		{
 			"any mage that can TP me to theramore?! ", -- [1]
 			"Demondama-Silvermoon", -- [2]
@@ -1628,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demondama-Silvermoon|r",
 			[51] = 1640008052,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [74]
+		}, -- [73]
 		{
 			"[RCU] WTS Heroic|cff66bbff|Hjournal:1:2441:14|h[Sylvanas Windrunner]|h|r60k |cff66bbff|Hjournal:1:2440:14|h[Kel'Thuzad]|h|r40k (Both 90k) |||cff66bbff|Hjournal:0:1193:15|h[Sanctum of Domination]|h|r10/10 HC||M+15=120k 4x 410k > M+20=500k/w me for info", -- [1]
 			"Angelbloody-Outland", -- [2]
@@ -1650,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Angelbloody|r",
 			[51] = 1640008492,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [74]
 		{
 			"[RCU] WTS HC |cff66bbff|Hjournal:1:2441:15|h[Sylvanas Windrunner]|h|r [60k] |cff66bbff|Hjournal:1:2440:15|h[Kel'Thuzad]|h|r [40k] Both [90k] every 40 min  [M+15=120k] [4xM+15=410k] [M+20=500k]  |cffffff00|Hachievement:15126:Player-1301-0BFAA238:0:0:0:-1:0:0:0:0|h[Sanctum of Domination]|h|r HC at 19:00 and 20:30 ST 10/10 PL [300k] 1 VIP + Lootroll [500k] VIP's 10/10+ 3x vip [800k]  /w for info", -- [1]
 			"Abcent-Outland", -- [2]
@@ -1672,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Abcent|r",
 			[51] = 1640008498,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [75]
 		{
 			"[WTS] |cff66bbff|Hjournal:0:1193:16|h[Sanctum of Domination]|h|r FULL MYTHIC RUN 10/10 with VIP traders and Mount TODAY! |||| Arena PVP boost 1800 2100 2400 glad! Whisp me for info!", -- [1]
 			"Weisolm-Outland", -- [2]
@@ -1694,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Weisolm|r",
 			[51] = 1640008575,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [76]
 		{
 			"[RCU] WTS HC |cff66bbff|Hjournal:1:2441:15|h[Sylvanas Windrunner]|h|r [60k] |cff66bbff|Hjournal:1:2440:15|h[Kel'Thuzad]|h|r [40k] Both [90k] every 40 min  [M+15=120k] [4xM+15=410k] [M+20=500k]  |cffffff00|Hachievement:15126:Player-1301-0BFAA238:0:0:0:-1:0:0:0:0|h[Sanctum of Domination]|h|r HC at 19:00 and 20:30 ST 10/10 PL [300k] 1 VIP + Lootroll [500k] VIP's 10/10+ 3x vip [800k]  /w for info", -- [1]
 			"Abcent-Outland", -- [2]
@@ -1716,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Abcent|r",
 			[51] = 1640008607,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [77]
 		{
 			"[RCU] WTS Heroic|cff66bbff|Hjournal:1:2441:14|h[Sylvanas Windrunner]|h|r60k |cff66bbff|Hjournal:1:2440:14|h[Kel'Thuzad]|h|r40k (Both 90k) |||cff66bbff|Hjournal:0:1193:15|h[Sanctum of Domination]|h|r10/10 HC||M+15=120k 4x 410k > M+20=500k/w me for info", -- [1]
 			"Angelbloody-Outland", -- [2]
@@ -1738,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Angelbloody|r",
 			[51] = 1640008685,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [78]
 		{
 			"<NOVA> OFFERING HEROIC 10/10 |cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r  260k / M+15 120k (2x +15 210k ) / M+16 165k / M+17 210k /M+18 300k / M19 450k /M+20 520k/  M+21 650k / KSH 8/8  All +20 3600k/ KSM ( 16x +15 1700k ) Torghast / PVP", -- [1]
 			"Novabostt-Outland", -- [2]
@@ -1760,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novabostt|r",
 			[51] = 1640008716,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [79]
 		{
 			"[RCU] WTS HC |cff66bbff|Hjournal:1:2441:15|h[Sylvanas Windrunner]|h|r [60k] |cff66bbff|Hjournal:1:2440:15|h[Kel'Thuzad]|h|r [40k] Both [90k] every 40 min  [M+15=120k] [4xM+15=410k] [M+20=500k]  |cffffff00|Hachievement:15126:Player-1301-0BFAA238:0:0:0:-1:0:0:0:0|h[Sanctum of Domination]|h|r HC at 19:00 and 20:30 ST 10/10 PL [300k] 1 VIP + Lootroll [500k] VIP's 10/10+ 3x vip [800k]  /w for info", -- [1]
 			"Abcent-Outland", -- [2]
@@ -1782,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Abcent|r",
 			[51] = 1640012350,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [80]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:1705:Player-1301-0B0D2A8D:1:12:20:21:4294967295:4294967295:4294967295:4294967295|h[Clockwork Rocket Bot]|h|r!", -- [1]
 			"Elementior-Outland", -- [2]
@@ -1804,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElementior|r",
 			[51] = 1640008821,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [82]
+		}, -- [81]
 		{
 			"GET THE LOOT GOBLIN", -- [1]
 			"Elflia-Silvermoon", -- [2]
@@ -1826,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Elflia-Silvermoon|r",
 			[51] = 1640109225,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [83]
+		}, -- [82]
 		{
 			"Something's not quite right...", -- [1]
 			"Irinaela-Silvermoon", -- [2]
@@ -1848,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Irinaela-Silvermoon|r",
 			[51] = 1640109296,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [84]
+		}, -- [83]
 		{
 			"WTS Sanctum of Domination Heroicl І Start in 20.30 CET or Server Time І  FULL RUN 10/10 І  Guild run  І  Fast And smooth  І  Get you 239+ iLvl gear TONIGHT  І  PST for info!!", -- [1]
 			"Misjetta-Outland", -- [2]
@@ -1870,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Misjetta|r",
 			[51] = 1640109368,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [84]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:1689:Player-1301-0B0D2A8D:1:12:25:21:4294967295:4294967295:4294967295:4294967295|h[He Knows If You've Been Naughty]|h|r!", -- [1]
 			"Elementior-Outland", -- [2]
@@ -1892,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElementior|r",
 			[51] = 1640447953,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [86]
+		}, -- [85]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15313:Player-1301-0B0D2A8D:1:12:25:21:4294967295:4294967295:4294967295:4294967295|h[Rockin' Rollin' Racer]|h|r!", -- [1]
 			"Elementior-Outland", -- [2]
@@ -1914,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElementior|r",
 			[51] = 1640447963,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [87]
+		}, -- [86]
 		{
 			"Any Dwarf Paladin and Draenei Priest`? :)", -- [1]
 			"Ravanie-Ragnaros", -- [2]
@@ -1936,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Ravanie-Ragnaros|r",
 			[51] = 1640451570,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [88]
+		}, -- [87]
 		{
 			"|cffffff00Ironforge is under attack!|r", -- [1]
 			"", -- [2]
@@ -1958,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1640451578,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [88]
 		{
 			"|cffffff00The Great Forge is under attack!|r", -- [1]
 			"", -- [2]
@@ -1980,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1640451583,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [89]
 		{
 			"i will pay u 1 chicken", -- [1]
 			"Desmondx-Outland", -- [2]
@@ -2002,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Desmondx|r",
 			[51] = 1640816808,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [90]
 		{
 			"hello im a homosapian but im(not) a homosexual", -- [1]
 			"Rainbowsex-Outland", -- [2]
@@ -2024,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rainbowsex|r",
 			[51] = 1644322674,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [91]
 		{
 			"log off", -- [1]
 			"Maratanez-Outland", -- [2]
@@ -2046,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Maratanez|r",
 			[51] = 1644322687,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [92]
 		{
 			"good", -- [1]
 			"Vladpwngådx-Outland", -- [2]
@@ -2068,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Vladpwngådx|r",
 			[51] = 1644322689,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [93]
 		{
 			"How do i get to vol'dun if i cant use captain on boat?", -- [1]
 			"Lowkëy-Outland", -- [2]
@@ -2090,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Lowkëy|r",
 			[51] = 1644322712,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [94]
 		{
 			"nobody knows?", -- [1]
 			"Lowkëy-Outland", -- [2]
@@ -2112,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Lowkëy|r",
 			[51] = 1644322808,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [95]
 		{
 			"wts Boost key 15   **KSM 8x 15  KSH 8x 20= 3M  Boost Torghast Layer 1-12 *** Sod Raid hc and mythic 10/10 wiss me for more info", -- [1]
 			"Adrianous-Outland", -- [2]
@@ -2134,7 +2112,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Adrianous|r",
 			[51] = 1644323688,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [96]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:4624:Player-1301-0B0D2A8D:1:2:8:22:4294967295:4294967295:4294967295:4294967295|h[Tough Love]|h|r!", -- [1]
 			"Elementior-Outland", -- [2]
@@ -2156,7 +2134,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElementior|r",
 			[51] = 1644323967,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [98]
+		}, -- [97]
 		{
 			"hoi & toi toi", -- [1]
 			"Kes-Terokkar", -- [2]
@@ -2178,6 +2156,28 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Kes-Terokkar|r",
 			[51] = 1644404483,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [98]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:2143:Player-1301-0B93579F:1:2:12:22:4294967295:4294967295:4294967295:4294967295|h[Leading the Cavalry]|h|r!", -- [1]
+			"Coqelicot-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Coqelicot-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			390, -- [11]
+			"Player-1301-0B93579F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Coqelicot|r",
+			[51] = 1644698796,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {

@@ -92,22 +92,22 @@ UF.instanceMapIDs = {
 
 UF.SortAuraFuncs = {
 	TIME_REMAINING = function(a, b, dir)
-		local aTime = a.noTime and huge or a.expiration or -1
-		local bTime = b.noTime and huge or b.expiration or -1
-		if dir == 'DESCENDING' then return aTime < bTime else return aTime > bTime end
+		local A = a.noTime and huge or a.expiration or -huge
+		local B = b.noTime and huge or b.expiration or -huge
+		if dir == 'DESCENDING' then return A < B else return A > B end
 	end,
 	DURATION = function(a, b, dir)
-		local aTime = a.noTime and huge or a.duration or -1
-		local bTime = b.noTime and huge or b.duration or -1
-		if dir == 'DESCENDING' then return aTime < bTime else return aTime > bTime end
+		local A = a.noTime and huge or a.duration or -huge
+		local B = b.noTime and huge or b.duration or -huge
+		if dir == 'DESCENDING' then return A < B else return A > B end
 	end,
 	NAME = function(a, b, dir)
-		local aName, bName = a.name or '', b.name or ''
-		if dir == 'DESCENDING' then return aName < bName else return aName > bName end
+		local A, B = a.name or '', b.name or ''
+		if dir == 'DESCENDING' then return A < B else return A > B end
 	end,
 	PLAYER = function(a, b, dir)
-		local aPlayer, bPlayer = a.isPlayer or false, b.isPlayer or false
-		if dir == 'DESCENDING' then return (aPlayer and not bPlayer) else return (not aPlayer and bPlayer) end
+		local A, B = a.isPlayer or false, b.isPlayer or false
+		if dir == 'DESCENDING' then return A and not B else return not A and B end
 	end,
 }
 
@@ -714,7 +714,7 @@ function UF.groupPrototype:Configure_Groups(Header)
 	Header.db = db
 
 	local direction = db.growthDirection
-	local groupsPerRowCol = db.groupsPerRowCol
+	local groupsPerRowCol = Header.groupName == 'party' and 1 or db.groupsPerRowCol
 	local invertGroupingOrder = db.invertGroupingOrder
 	local startFromCenter = db.startFromCenter
 	local raidWideSorting = db.raidWideSorting
@@ -1016,7 +1016,7 @@ function UF:CreateAndUpdateHeaderGroup(group, groupFilter, template, headerTempl
 	local db = UF.db.units[group]
 	local Header = UF[group]
 
-	local numGroups = UF:GetSmartVisibilitySetting('numGroups', group, smart, db)
+	local numGroups = group == 'party' and 1 or UF:GetSmartVisibilitySetting('numGroups', group, smart, db)
 	local visibility = UF:GetSmartVisibilitySetting('visibility', group, smart, db)
 	local enable = UF:GetSmartVisibilitySetting('enable', group, smart, db)
 	local name = E:StringTitle(group)

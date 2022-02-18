@@ -3,7 +3,7 @@ Frame: AllTheThings-Window-CurrentInstance
 FrameLevel: 1
 Anchor: LEFT
 X: 0
-Y: -212
+Y: -213
 W: 413
 H: 211
 Frame: ObjectiveTrackerFrame
@@ -29,9 +29,9 @@ W: 365
 H: 240
 Frame: AllTheThings-Window-Prime
 FrameLevel: 1
-Anchor: TOPLEFT
-X: 5
-Y: -116
+Anchor: TOP
+X: 92
+Y: -156
 W: 517
 H: 400
 Frame: AllTheThings-Window-Bounty
@@ -62,10 +62,3 @@ X: 0
 Y: 0
 W: 300
 H: 300
-Frame: AllTheThings-Window-ATT > |cffffffff|Hitem:49927::::::::50:66:::::::::|h[Love Token]|h|ritemID49927
-FrameLevel: 1
-Anchor: CENTER
-X: 96
-Y: 60
-W: 477
-H: 462

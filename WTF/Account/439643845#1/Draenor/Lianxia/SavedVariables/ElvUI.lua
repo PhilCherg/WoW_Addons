@@ -2,1480 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"he probs too overweight to play any sport tbh", -- [1]
-			"Krugeth-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Krugeth-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			418, -- [11]
-			"Player-1403-074006B4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Krugeth|r",
-			[51] = 1643703819,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"WTS 2vs2 boost for gold :) up to 2.4 with fair prices, no community playin my own chars.", -- [1]
-			"Boostedfolk-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Boostedfolk-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			423, -- [11]
-			"Player-1403-0A2007A2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cBoostedfolk|r",
-			[51] = 1643703825,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"Watching 10+ grown men in their shorts chase a bag of air around a field", -- [1]
-			"Vexington-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Vexington-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			429, -- [11]
-			"Player-1403-0A180856", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Vexington|r",
-			[51] = 1643703845,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"is pretty sad", -- [1]
-			"Vexington-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Vexington-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			430, -- [11]
-			"Player-1403-0A180856", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Vexington|r",
-			[51] = 1643703862,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"complaing about it is even sadder", -- [1]
-			"Krugeth-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Krugeth-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			432, -- [11]
-			"Player-1403-074006B4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Krugeth|r",
-			[51] = 1643703862,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
-		{
-			"Hey i'm fat too be noice", -- [1]
-			"Gomoonryung-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gomoonryung-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			442, -- [11]
-			"Player-1403-0A1F014F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Gomoonryung|r",
-			[51] = 1643703891,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
-		{
-			"wts |cffa335ee|Hitem:144399::::::::54:252::6:3:3445:1472:3528:1:28:621:::::|h[Aristocrat's Winter Drape]|h|r", -- [1]
-			"Zikira-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Zikira-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			443, -- [11]
-			"Player-1403-07BD5ADB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Zikira|r",
-			[51] = 1643703900,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
-		{
-			"yeah but you're not a dick ontop of it", -- [1]
-			"Krugeth-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Krugeth-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			444, -- [11]
-			"Player-1403-074006B4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Krugeth|r",
-			[51] = 1643703904,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
-		{
-			"if i were to be playing football i would be the ball ppc", -- [1]
-			"Gomoonryung-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gomoonryung-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			448, -- [11]
-			"Player-1403-0A1F014F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Gomoonryung|r",
-			[51] = 1643703910,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
-		{
-			"that drape is pretty pog not gonna lie. ", -- [1]
-			"Nòct-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Nòct-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			449, -- [11]
-			"Player-1403-09A3AB28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaNòct|r",
-			[51] = 1643703918,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
-		{
-			"does the carpet match the drape though?", -- [1]
-			"Krugeth-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Krugeth-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			454, -- [11]
-			"Player-1403-074006B4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Krugeth|r",
-			[51] = 1643703942,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
-		{
-			"White long and fuzzy", -- [1]
-			"Nòct-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Nòct-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			455, -- [11]
-			"Player-1403-09A3AB28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaNòct|r",
-			[51] = 1643703963,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
-		{
-			"Dont hope so. ", -- [1]
-			"Nòct-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Nòct-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			456, -- [11]
-			"Player-1403-09A3AB28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaNòct|r",
-			[51] = 1643703966,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
-		{
-			"|cff9d9d9d|Hitem:115520::::::::54:252:::::::::|h[Spoiled Flask of Conquest]|h|r rip flask of conquest", -- [1]
-			"Zikira-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Zikira-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			457, -- [11]
-			"Player-1403-07BD5ADB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Zikira|r",
-			[51] = 1643703977,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
-		{
-			"Hello. Is anyone there?", -- [1]
-			"Doodyspin-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Doodyspin-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			458, -- [11]
-			"Player-1403-0A1DE653", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Doodyspin|r",
-			[51] = 1643703978,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
-		{
-			"no", -- [1]
-			"Krugeth-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Krugeth-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			460, -- [11]
-			"Player-1403-074006B4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Krugeth|r",
-			[51] = 1643703991,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
-		{
-			"sadge", -- [1]
-			"Doodyspin-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Doodyspin-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			462, -- [11]
-			"Player-1403-0A1DE653", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Doodyspin|r",
-			[51] = 1643703996,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
-		{
-			"doubtful cause a;; the girls think having big black grouchi marks eyebrows is attractive - wtf did that make sense", -- [1]
-			"Mogmanntu-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mogmanntu-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			463, -- [11]
-			"Player-1403-09D38524", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Mogmanntu|r",
-			[51] = 1643704001,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
-		{
-			"knock knock", -- [1]
-			"Kurawa-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Kurawa-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			465, -- [11]
-			"Player-1403-0A1CB60C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Kurawa|r",
-			[51] = 1643704007,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
-		{
-			"who's there ?", -- [1]
-			"Gomoonryung-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gomoonryung-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			466, -- [11]
-			"Player-1403-0A1F014F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Gomoonryung|r",
-			[51] = 1643704011,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
-		{
-			"doctor", -- [1]
-			"Kurawa-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Kurawa-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			467, -- [11]
-			"Player-1403-0A1CB60C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Kurawa|r",
-			[51] = 1643704015,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
-		{
-			"doctor who", -- [1]
-			"Gomoonryung-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gomoonryung-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			468, -- [11]
-			"Player-1403-0A1F014F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Gomoonryung|r",
-			[51] = 1643704019,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
-		{
-			"weird seeing trade chat again", -- [1]
-			"Sketchyaf-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Sketchyaf-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			469, -- [11]
-			"Player-1403-082D34B3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Sketchyaf|r",
-			[51] = 1643704019,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
-		{
-			"Gottem", -- [1]
-			"Nòct-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Nòct-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			470, -- [11]
-			"Player-1403-09A3AB28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaNòct|r",
-			[51] = 1643704023,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
-		{
-			"where can i find Estelle Gendy? The heirloom thing", -- [1]
-			"Vindlars-Draenor", -- [2]
-			"", -- [3]
-			"1. General - Orgrimmar", -- [4]
-			"Vindlars-Draenor", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Orgrimmar", -- [9]
-			0, -- [10]
-			64, -- [11]
-			"Player-1403-0A1FFA3A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Vindlars|r",
-			[51] = 1643798636,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
-		{
-			"There will be always people complaining about stuff, no matter how good it seems it's just part of humanity i suppose. but i'm sure that the maiority of people will love this changes.", -- [1]
-			"Zethaar-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Zethaar-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			141, -- [11]
-			"Player-1403-0A1D3EB0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cZethaar|r",
-			[51] = 1643799104,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
-		{
-			"Something along the lines of its ruined the lore completely,   but I couldn't give a fuck about the lore, or factions", -- [1]
-			"Vexington-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Vexington-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			148, -- [11]
-			"Player-1403-0A180856", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Vexington|r",
-			[51] = 1643799109,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
-		{
-			"i dont understand how that change will affect wow in a negative way, enlighten me lol", -- [1]
-			"Waib-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Waib-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			149, -- [11]
-			"Player-1403-0A1FFB11", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Waib|r",
-			[51] = 1643799111,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
-		{
-			"world peace will end humanity", -- [1]
-			"Voddin-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Voddin-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			150, -- [11]
-			"Player-1403-07ACEABC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Voddin|r",
-			[51] = 1643799118,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
-		{
-			"Flaskki, explain how its a bad change", -- [1]
-			"Deloaren-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Deloaren-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			151, -- [11]
-			"Player-1403-07A5944A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Deloaren|r",
-			[51] = 1643799120,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
-		{
-			"Hey now, I actually cried in torghast layer 12 and im still here", -- [1]
-			"Bubblezen-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Bubblezen-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			152, -- [11]
-			"Player-1403-09FA9B0C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcBubblezen|r",
-			[51] = 1643799129,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
-		{
-			"Laval , we wathced the same video :D", -- [1]
-			"Sunmade-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Sunmade-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			271, -- [11]
-			"Player-1403-0981FC7F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Sunmade|r",
-			[51] = 1643800261,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
-		{
-			"Im a garbage truck man that brings garbage every thursday at blizzard HQ trust me bro.", -- [1]
-			"Woopsmybad-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Woopsmybad-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			273, -- [11]
-			"Player-1403-0A0C5CCF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Woopsmybad|r",
-			[51] = 1643800284,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
-		{
-			"what kind tabard you have?", -- [1]
-			"Slowborne-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Slowborne-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			274, -- [11]
-			"Player-1403-0A181969", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Slowborne|r",
-			[51] = 1643800292,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
-		{
-			"WTS |cffa335ee|Hitem:159840::::::::60:577::54:2:1472:4786::::::|h[Teebu's Scorching Straight Sword]|h|r", -- [1]
-			"Himari-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Himari-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			275, -- [11]
-			"Player-1403-07253C12", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Himari|r",
-			[51] = 1643800293,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
-		{
-			"not necesarily lavalake", -- [1]
-			"Amphrôxia-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Amphrôxia-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			276, -- [11]
-			"Player-1403-0A16A03A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Amphrôxia|r",
-			[51] = 1643800295,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
-		{
-			"Hey Folks, this is Kelani.", -- [1]
-			"Lavalake-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lavalake-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			277, -- [11]
-			"Player-1403-09EED6FF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Lavalake|r",
-			[51] = 1643800297,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
-		{
-			"can also be 6 weeks after that date >:)", -- [1]
-			"Amphrôxia-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Amphrôxia-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			278, -- [11]
-			"Player-1403-0A16A03A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Amphrôxia|r",
-			[51] = 1643800306,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
-		{
-			"hahah :D", -- [1]
-			"Sunmade-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Sunmade-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			279, -- [11]
-			"Player-1403-0981FC7F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Sunmade|r",
-			[51] = 1643800307,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
-		{
-			"link it", -- [1]
-			"Slowborne-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Slowborne-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			280, -- [11]
-			"Player-1403-0A181969", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Slowborne|r",
-			[51] = 1643800332,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
-		{
-			"I think he said it is going to be tuesday", -- [1]
-			"Sunmade-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Sunmade-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			281, -- [11]
-			"Player-1403-0981FC7F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Sunmade|r",
-			[51] = 1643800338,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
-		{
-			"no spam? did blizz ban boosting?", -- [1]
-			"Tolhunter-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Tolhunter-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			282, -- [11]
-			"Player-1403-0A16915E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Tolhunter|r",
-			[51] = 1643800345,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
-		{
-			"+2.6k io experienced team offering M+ 15-22 carries (Including Armor stack , KSH , KSM) only for gold /w for price and info", -- [1]
-			"Soülkeeper-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Soülkeeper-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			283, -- [11]
-			"Player-1403-07729A24", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaSoülkeeper|r",
-			[51] = 1643800354,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
-		{
-			"|cff1eff00|Hitem:45584::::::::60:66:::1:3524::::::|h[Thunder Bluff Tabard]|h|r", -- [1]
-			"Woopsmybad-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Woopsmybad-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			284, -- [11]
-			"Player-1403-0A0C5CCF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Woopsmybad|r",
-			[51] = 1643800357,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
-		{
-			"ban boosting? no, ban boost communities, yes.", -- [1]
-			"Amphrôxia-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Amphrôxia-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			285, -- [11]
-			"Player-1403-0A16A03A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Amphrôxia|r",
-			[51] = 1643800363,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
-		{
-			"<Carpe Noctis>[9/10M] are looking for dps to expand our raid team. We raid every Wednesday &Thursday from 20:00 to 23:00 (with an optional raid for Monday). Join us if you like a friendly atmosphere while raiding and doing your m+ runs.", -- [1]
-			"Vividtroll-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Vividtroll-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			286, -- [11]
-			"Player-1403-07B6518B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Vividtroll|r",
-			[51] = 1643800368,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
-		{
-			"ah right", -- [1]
-			"Tolhunter-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Tolhunter-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			287, -- [11]
-			"Player-1403-0A16915E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Tolhunter|r",
-			[51] = 1643800371,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
-		{
-			"<Legacy of the Horde Guild> Offering (10/10 HC) (Last 2 HC) (Mythic Dungeons) (Torghast) (Leveling) /w for more info", -- [1]
-			"Legacyguild-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Legacyguild-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			288, -- [11]
-			"Player-1403-0A200728", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcLegacyguild|r",
-			[51] = 1643800390,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
-		{
-			"WTS |cffa335ee|Hitem:159840::::::::60:577::54:2:1472:4786::::::|h[Teebu's Scorching Straight Sword]|h|r", -- [1]
-			"Himari-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Himari-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			289, -- [11]
-			"Player-1403-07253C12", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Himari|r",
-			[51] = 1643800402,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
-		{
-			"WTS M+15 || LevelUp 50-60 || Friends Run || ready to go. /W", -- [1]
-			"Aurliana-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Aurliana-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			290, -- [11]
-			"Player-1403-0A1A5123", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Aurliana|r",
-			[51] = 1643800405,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
-		{
-			"Literally nothing will change. Nova will just call themselves a guild.", -- [1]
-			"Lavalake-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lavalake-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			293, -- [11]
-			"Player-1403-09EED6FF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Lavalake|r",
-			[51] = 1643800417,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
-		{
-			"They will not", -- [1]
-			"Akiza-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Akiza-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			294, -- [11]
-			"Player-1403-09F1D8F8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaAkiza|r",
-			[51] = 1643800427,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
-		{
-			"they will yes", -- [1]
-			"Flaskki-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Flaskki-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			316, -- [11]
-			"Player-1403-0A1EDAC6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcFlaskki|r",
-			[51] = 1643800436,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
-		{
-			"We speaked about it, and the communication was clear", -- [1]
-			"Akiza-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Akiza-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			321, -- [11]
-			"Player-1403-09F1D8F8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaAkiza|r",
-			[51] = 1643800442,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
-		{
-			"lol", -- [1]
-			"Slowborne-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Slowborne-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			322, -- [11]
-			"Player-1403-0A181969", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Slowborne|r",
-			[51] = 1643800443,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
-		{
-			"WTB |cffffffff|Hitem:178926::::::::60:63:::::::::|h[Shadowghast Ring]|h|r", -- [1]
-			"Oxyet-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Oxyet-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			323, -- [11]
-			"Player-1403-0A1F2662", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaOxyet|r",
-			[51] = 1643800448,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
-		{
-			"Nova", -- [1]
-			"Slowborne-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Slowborne-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			324, -- [11]
-			"Player-1403-0A181969", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Slowborne|r",
-			[51] = 1643800448,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
-		{
-			"then we report the guild", -- [1]
-			"Slowborne-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Slowborne-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			367, -- [11]
-			"Player-1403-0A181969", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Slowborne|r",
-			[51] = 1643800514,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
-		{
-			"ez", -- [1]
-			"Ängst-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ängst-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			376, -- [11]
-			"Player-1403-09AA9EE5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Ängst|r",
-			[51] = 1643800519,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
-		{
-			"ez", -- [1]
-			"Voddin-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Voddin-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			377, -- [11]
-			"Player-1403-07ACEABC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Voddin|r",
-			[51] = 1643800521,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
-		{
-			"Playing the AH is fine, abusing it tho eh", -- [1]
-			"Mastiadrin-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mastiadrin-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			703, -- [11]
-			"Player-1403-08086289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Mastiadrin|r",
-			[51] = 1643803057,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
-		{
-			"Yeah i don't mean exploiting it", -- [1]
-			"Ängst-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ängst-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			710, -- [11]
-			"Player-1403-09AA9EE5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Ängst|r",
-			[51] = 1643803070,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
-		{
-			"If you suck at trading you should lose all your gold period.", -- [1]
-			"Arcanumortis-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Arcanumortis-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			711, -- [11]
-			"Player-1403-09F5ECD1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaArcanumortis|r",
-			[51] = 1643803073,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
-		{
-			"any kind of boosting should be banned ", -- [1]
-			"Aluucard-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Aluucard-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			719, -- [11]
-			"Player-1403-06B32DC6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Aluucard|r",
-			[51] = 1643803081,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
-		{
-			"I mean flipping and such. That's normal player behaviour", -- [1]
-			"Ängst-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ängst-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			722, -- [11]
-			"Player-1403-09AA9EE5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Ängst|r",
-			[51] = 1643803082,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
-		{
-			"All hail the free market economy", -- [1]
-			"Lavalake-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lavalake-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			729, -- [11]
-			"Player-1403-09EED6FF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Lavalake|r",
-			[51] = 1643803092,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
-		{
-			"if someone cant do it normally they dont deserve to buy it in anyway tbh ", -- [1]
-			"Aluucard-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Aluucard-Draenor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			730, -- [11]
-			"Player-1403-06B32DC6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Aluucard|r",
-			[51] = 1643803100,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
-		{
 			"glorious anarchocapitalism", -- [1]
 			"Dionwh-Draenor", -- [2]
 			"", -- [3]
@@ -1496,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Dionwh|r",
 			[51] = 1643803104,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [1]
 		{
 			"if you enjoy plaing the ah more than the actual wow content then why not just go play investment tycoon?", -- [1]
 			"Fearpewpew-Draenor", -- [2]
@@ -1518,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeFearpewpew|r",
 			[51] = 1643803122,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [2]
 		{
 			"i mean u can do both thats kinda just an excuse tbh, i get being tired from work and not pushing top 100+ rank but you can still 99 log every boss on weekend raiding etc", -- [1]
 			"Skwidweaver-Draenor", -- [2]
@@ -1540,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Skwidweaver|r",
 			[51] = 1643806386,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [3]
 		{
 			"WTS |cffa335ee|Hitem:159840::::::::60:577::54:2:1472:4786::::::|h[Teebu's Scorching Straight Sword]|h|r", -- [1]
 			"Himari-Draenor", -- [2]
@@ -1562,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Himari|r",
 			[51] = 1643806397,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [4]
 		{
 			"what..if he works with logs", -- [1]
 			"Dizyo-Draenor", -- [2]
@@ -1584,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcDizyo|r",
 			[51] = 1643806414,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [5]
 		{
 			"clearly doesn't work very hard", -- [1]
 			"Catedh-Draenor", -- [2]
@@ -1606,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Catedh|r",
 			[51] = 1643806422,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [6]
 		{
 			"wouldnt he have 100 logs then? LUL", -- [1]
 			"Áspen-Draenor", -- [2]
@@ -1628,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Áspen|r",
 			[51] = 1643806424,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [7]
 		{
 			"ppl seem to forget dps is a means not that main goal", -- [1]
 			"Veerloren-Draenor", -- [2]
@@ -1650,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edVeerloren|r",
 			[51] = 1643806425,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [8]
 		{
 			"He is an excuse-Andy. He is just bad.", -- [1]
 			"Lavalake-Draenor", -- [2]
@@ -1672,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Lavalake|r",
 			[51] = 1643806430,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [9]
 		{
 			"WTS 13k |cffffffff|Hitem:168583::::::::60:102:::::::::|h[Widowbloom]|h|r", -- [1]
 			"Golldenpants-Draenor", -- [2]
@@ -1694,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Golldenpants|r",
 			[51] = 1643806436,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [10]
 		{
 			"if boss died the dps was enough", -- [1]
 			"Veerloren-Draenor", -- [2]
@@ -1716,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edVeerloren|r",
 			[51] = 1643806442,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [11]
 		{
 			"wait a conversation in tradechat on retail :O ?", -- [1]
 			"Bhleed-Draenor", -- [2]
@@ -1738,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Bhleed|r",
 			[51] = 1643806449,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [12]
 		{
 			"youve been offline for a couple of days right?", -- [1]
 			"Wulfred-Draenor", -- [2]
@@ -1760,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Wulfred|r",
 			[51] = 1643806470,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [13]
 		{
 			"maybe :P", -- [1]
 			"Bhleed-Draenor", -- [2]
@@ -1782,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Bhleed|r",
 			[51] = 1643806479,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [14]
 		{
 			"|cffffd100|HclubFinder:ClubFinder-1-149843-1403-65853538|h[Guild: ImpulseGaming]|h|r are looking to expand their community with more social players. Active community with a Mythic Raiding team and open Heroic Runs. Come hang out. /w me for any info.", -- [1]
 			"Snagglehoof-Draenor", -- [2]
@@ -1804,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Snagglehoof|r",
 			[51] = 1643806913,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [15]
 		{
 			"wts|cffa335ee|Hitem:186362::::::::60:577::6:5:7187:40:7575:1498:6646:1:28:2106:::::|h[Bindings of the Subjugated]|h|r150k          stats", -- [1]
 			"Palvane-Draenor", -- [2]
@@ -1826,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Palvane|r",
 			[51] = 1644324259,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [16]
 		{
 			"WtS Mythic +15 - 20/Tazavesh (Mount Run )-Lvlup 50-60- Cheap Price. Grp Is Ready To Go /w me for more info ", -- [1]
 			"Lilchamp-Draenor", -- [2]
@@ -1848,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcLilchamp|r",
 			[51] = 1644324263,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [17]
 		{
 			"WTS KT&Sylva HC join me and take ur aotc , Only gold", -- [1]
 			"Rifkq-Draenor", -- [2]
@@ -1870,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcRifkq|r",
 			[51] = 1644324283,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [18]
 		{
 			"WTS |cff0070dd|Hitem:4446::::::::20:261:::1:6691:2:9:15:28:13:::::|h[Blackvenom Blade]|h|r /w", -- [1]
 			"Txch-Draenor", -- [2]
@@ -1892,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Txch|r",
 			[51] = 1644324430,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [19]
 		{
 			"LULW", -- [1]
 			"Andersonxx-Draenor", -- [2]
@@ -1914,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Andersonxx|r",
 			[51] = 1644324446,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [20]
 		{
 			"WTS |cffffffff|Hitem:173246::::::::60:64::68:2:7451:1559:1:28:2142::::Player-1403-09D0D5F0:|h[Grim-Veiled Pants]|h|r 30k", -- [1]
 			"Elno-Draenor", -- [2]
@@ -1936,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaElno|r",
 			[51] = 1644404634,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [21]
 		{
 			"<Lelijkerds> is een gezellige NL/BE Guild van Draenor. 9.2 staat voor de deur en daarvoor zoeken we nog mensen voor de main groep we zoeken nog DPS  mocht je nog meer vragen hebben, Whisper ons gerust,social ook welkom ofc", -- [1]
 			"Woebel-Draenor", -- [2]
@@ -1958,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcWoebel|r",
 			[51] = 1644404644,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [22]
 		{
 			"<High Score Group of Friends(+2600io) WTS> M+15- +23 || (best offer)KSH Achive(Portal-Dungeons )/(best offer)KSM Achive ||  / fol Gold only /W me for more info)", -- [1]
 			"Pirshaman-Draenor", -- [2]
@@ -1980,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcPirshaman|r",
 			[51] = 1644404654,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [23]
 		{
 			"WTS |cffffffff|Hitem:171416::::::::60:72::67:2:7450:1546:1:28:2142::::Player-1403-0A1C1586:|h[Shadowghast Greaves]|h|r", -- [1]
 			"Cáwt-Draenor", -- [2]
@@ -2002,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cCáwt|r",
 			[51] = 1644404660,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [24]
 		{
 			"we hebben un clubske opgericht, voor mensen meej un lelijk gezicht!!!!", -- [1]
 			"Blikbonen-Draenor", -- [2]
@@ -2024,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Blikbonen|r",
 			[51] = 1644404693,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [25]
 		{
 			"ge bent er bijjjj", -- [1]
 			"Cáwt-Draenor", -- [2]
@@ -2046,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cCáwt|r",
 			[51] = 1644404700,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [26]
 		{
 			":P", -- [1]
 			"Blikbonen-Draenor", -- [2]
@@ -2068,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Blikbonen|r",
 			[51] = 1644404705,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [27]
 		{
 			"WTS |cffffffff|Hitem:173246::::::::60:64::68:2:7451:1559:1:28:2142::::Player-1403-05E78379:|h[Grim-Veiled Pants]|h|r", -- [1]
 			"Elno-Draenor", -- [2]
@@ -2090,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaElno|r",
 			[51] = 1644404731,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [28]
 		{
 			"guys wehre is the boost spam? wtf is going on?", -- [1]
 			"Cognomen-Draenor", -- [2]
@@ -2112,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Cognomen|r",
 			[51] = 1644404751,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [29]
 		{
 			"are bots dead or smth?", -- [1]
 			"Cognomen-Draenor", -- [2]
@@ -2134,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Cognomen|r",
 			[51] = 1644404759,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [30]
 		{
 			"micrsoft :)", -- [1]
 			"Blikbonen-Draenor", -- [2]
@@ -2156,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Blikbonen|r",
 			[51] = 1644404770,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [31]
 		{
 			"who knows", -- [1]
 			"Girlgamér-Draenor", -- [2]
@@ -2177,6 +703,1480 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "|cfff38bb9Girlgamér|r",
 			[51] = 1644404846,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [32]
+		{
+			"found it, thanks", -- [1]
+			"Bambuchav-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Bambuchav-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			38, -- [11]
+			"Player-1403-0A008261", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcBambuchav|r",
+			[51] = 1644595512,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [33]
+		{
+			"WTS M+ 15-20 and taza hard mode (only for gold) . team is 2500 score ready to go /w me for more info", -- [1]
+			"Vipshaman-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vipshaman-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			40, -- [11]
+			"Player-1403-09DD57A9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcVipshaman|r",
+			[51] = 1644595522,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [34]
+		{
+			"|cffffd100|HclubFinder:ClubFinder-1-149843-1403-65853538|h[Guild: ImpulseGaming]|h|r are looking to expand their community with more social players. Active community with a Mythic Raiding team and open Heroic Runs. Come hang out. /w me for any info.", -- [1]
+			"Snagglehoof-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Snagglehoof-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			41, -- [11]
+			"Player-1403-09B82AD7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Snagglehoof|r",
+			[51] = 1644595523,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [35]
+		{
+			"jo , skip the shadowlands story or do it , whats better value", -- [1]
+			"Naimare-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Naimare-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			42, -- [11]
+			"Player-1403-07BF8C7F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaNaimare|r",
+			[51] = 1644595575,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [36]
+		{
+			"Skip that shit", -- [1]
+			"Díviné-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Díviné-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			43, -- [11]
+			"Player-1403-0A1F543C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeDíviné|r",
+			[51] = 1644595583,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [37]
+		{
+			"Personally WTS M+ 15-20 and taza hard mode (only for gold) . team is 2500 score ready to go /w me for more info", -- [1]
+			"Linehaoult-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Linehaoult-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			44, -- [11]
+			"Player-1403-07F861C4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Linehaoult|r",
+			[51] = 1644595587,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [38]
+		{
+			"exp wise follow is faster", -- [1]
+			"Pakje-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Pakje-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			45, -- [11]
+			"Player-1403-09F30073", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Pakje|r",
+			[51] = 1644595588,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [39]
+		{
+			"kk thanks divine and chat", -- [1]
+			"Naimare-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Naimare-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			77, -- [11]
+			"Player-1403-07BF8C7F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaNaimare|r",
+			[51] = 1644595669,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [40]
+		{
+			"WTB |cffa335ee|Hitem:159840::::::::60:72::54:3:4802:1472:4786:1:28:188:::::|h[Teebu's Scorching Straight Sword]|h|r", -- [1]
+			"Gyp-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gyp-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			414, -- [11]
+			"Player-1403-073A4A0E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cGyp|r",
+			[51] = 1644699135,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [41]
+		{
+			"<Snickerdoodles> is a newly formed raiding guild aiming for cutting edge each tier, currently looking for core members to fill our mythic roster for patch 9.2. /w for more info.", -- [1]
+			"Ønlyfàns-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ønlyfàns-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			415, -- [11]
+			"Player-1403-09D84CE3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Ønlyfàns|r",
+			[51] = 1644699139,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [42]
+		{
+			"WTS |cff71d5ff|Hspell:228919:0|h[Darkwater Skate]|h|r for good price ", -- [1]
+			"Pissekatt-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Pissekatt-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			418, -- [11]
+			"Player-1403-0714278D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Pissekatt|r",
+			[51] = 1644699211,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [43]
+		{
+			"WTB |cffa335ee|Hitem:159840::::::::60:72::54:3:4802:1472:4786:1:28:188:::::|h[Teebu's Scorching Straight Sword]|h|r", -- [1]
+			"Gyp-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gyp-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			419, -- [11]
+			"Player-1403-073A4A0E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cGyp|r",
+			[51] = 1644699229,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [44]
+		{
+			"god please need mount", -- [1]
+			"Amcabey-Draenor", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Amcabey-Draenor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			428, -- [11]
+			"Player-1403-0A1F8B9A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaAmcabey|r",
+			[51] = 1644699270,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [45]
+		{
+			"because thats what we do, Incite violence and chill kick back and watch you get invaded", -- [1]
+			"Mortalhealer-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Mortalhealer-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			112, -- [11]
+			"Player-1403-0A06CD4A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeMortalhealer|r",
+			[51] = 1644850729,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [46]
+		{
+			"fuck off russia", -- [1]
+			"Ralosxet-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ralosxet-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			114, -- [11]
+			"Player-1403-06871C72", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Ralosxet|r",
+			[51] = 1644850741,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [47]
+		{
+			"Netherlands. more Like Drugs&HookersLand.", -- [1]
+			"Mortalhealer-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Mortalhealer-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			115, -- [11]
+			"Player-1403-0A06CD4A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeMortalhealer|r",
+			[51] = 1644850771,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [48]
+		{
+			"xD", -- [1]
+			"Mortalhealer-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Mortalhealer-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			116, -- [11]
+			"Player-1403-0A06CD4A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeMortalhealer|r",
+			[51] = 1644850776,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [49]
+		{
+			"No Englishman would call a prostitute a hooker", -- [1]
+			"Zodicality-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Zodicality-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			117, -- [11]
+			"Player-1403-0A1993C0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Zodicality|r",
+			[51] = 1644847202,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [50]
+		{
+			"curse russia all you want, we Brits dont like them either :)", -- [1]
+			"Mortalhealer-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Mortalhealer-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			118, -- [11]
+			"Player-1403-0A06CD4A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeMortalhealer|r",
+			[51] = 1644847202,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [51]
+		{
+			"lol Laski. im just trolling about waiting for 9.2 xD ", -- [1]
+			"Mortalhealer-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Mortalhealer-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			155, -- [11]
+			"Player-1403-0A06CD4A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeMortalhealer|r",
+			[51] = 1644850890,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [52]
+		{
+			"Guild Witness selling 7/10 Mythic +  VIP traders, PM for more Info!", -- [1]
+			"Sukyo-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Sukyo-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			156, -- [11]
+			"Player-1403-09F9B5B3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Sukyo|r",
+			[51] = 1644850897,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [53]
+		{
+			"WTB |cffa335ee|Hitem:159840::::::::60:72::54:2:1472:4786::::::|h[Teebu's Scorching Straight Sword]|h|r", -- [1]
+			"Gyp-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gyp-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			42, -- [11]
+			"Player-1403-073A4A0E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cGyp|r",
+			[51] = 1644944226,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [54]
+		{
+			"The Big Love Rocket mount doesn't exists! I have been farming it every Love is in the air since 2009", -- [1]
+			"Tazhaar-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Tazhaar-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			43, -- [11]
+			"Player-1403-09B5CE73", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Tazhaar|r",
+			[51] = 1644944239,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [55]
+		{
+			"<Chaos Vale> 9/10 Mythic offers cheap SoD runs every day. Loot trading available. We are a GUILD, not a community! Whisper me to book a run", -- [1]
+			"Nucanoqazot-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Nucanoqazot-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			45, -- [11]
+			"Player-1403-0A22099D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cNucanoqazot|r",
+			[51] = 1644944251,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [56]
+		{
+			"sad", -- [1]
+			"Saluz-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Saluz-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			46, -- [11]
+			"Player-1403-0892CF08", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcSaluz|r",
+			[51] = 1644944256,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [57]
+		{
+			"rip for you^^", -- [1]
+			"Todesurteil-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Todesurteil-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			47, -- [11]
+			"Player-1403-08EAA7B1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeTodesurteil|r",
+			[51] = 1644944262,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [58]
+		{
+			"Prove me that it exists lulz", -- [1]
+			"Tazhaar-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Tazhaar-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			48, -- [11]
+			"Player-1403-09B5CE73", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Tazhaar|r",
+			[51] = 1644944276,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [59]
+		{
+			"there is only 1 love rocket per realm that drops every event", -- [1]
+			"Moestafa-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Moestafa-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			49, -- [11]
+			"Player-1403-0A17CF52", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cMoestafa|r",
+			[51] = 1644944284,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [60]
+		{
+			"nah i have like 1000trys", -- [1]
+			"Todesurteil-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Todesurteil-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			50, -- [11]
+			"Player-1403-08EAA7B1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeTodesurteil|r",
+			[51] = 1644944291,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [61]
+		{
+			"WTS |cffffffff|Hitem:123918::::::::60:269:::::::::|h[Leystone Ore]|h|r|cffffffff|Hitem:123919::::::::60:269:::::::::|h[Felslate]|h|r", -- [1]
+			"Prino-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Prino-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			51, -- [11]
+			"Player-1403-06E27AD8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Prino|r",
+			[51] = 1644944325,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [62]
+		{
+			"Selling Sanctum of Domination Heroic 10/10 with VIP traders available at 20.45 start time. Gold only, accepted on all realms, /w me for more info or to book", -- [1]
+			"Bobbindh-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Bobbindh-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			52, -- [11]
+			"Player-1403-0A1D8B80", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Bobbindh|r",
+			[51] = 1644944335,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [63]
+		{
+			"|cffffff00Port of Zandalar is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Dazar'alor", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Dazar'alor", -- [9]
+			0, -- [10]
+			53, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1644944344,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [64]
+		{
+			"it's very ugly mount , i hate that shit", -- [1]
+			"Gyp-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gyp-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			54, -- [11]
+			"Player-1403-073A4A0E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cGyp|r",
+			[51] = 1644944354,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [65]
+		{
+			"The Love Rocket?", -- [1]
+			"Tazhaar-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Tazhaar-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			55, -- [11]
+			"Player-1403-09B5CE73", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Tazhaar|r",
+			[51] = 1644944366,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [66]
+		{
+			"y", -- [1]
+			"Gyp-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gyp-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			56, -- [11]
+			"Player-1403-073A4A0E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cGyp|r",
+			[51] = 1644944371,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [67]
+		{
+			"It's a beast!", -- [1]
+			"Tazhaar-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Tazhaar-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			57, -- [11]
+			"Player-1403-09B5CE73", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Tazhaar|r",
+			[51] = 1644944378,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [68]
+		{
+			"LFM WARFRONT HC DARSHORE", -- [1]
+			"Silviasinner-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Silviasinner-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			58, -- [11]
+			"Player-1403-06E9B236", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Silviasinner|r",
+			[51] = 1644944378,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [69]
+		{
+			"WARFRONT HC whisp invite", -- [1]
+			"Silviasinner-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Silviasinner-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			59, -- [11]
+			"Player-1403-06E9B236", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Silviasinner|r",
+			[51] = 1644944390,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [70]
+		{
+			"|cff71d5ff|Hspell:243651:0|h[Gefesselter Ur'zul]|h|r best mount <3", -- [1]
+			"Todesurteil-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Todesurteil-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			60, -- [11]
+			"Player-1403-08EAA7B1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeTodesurteil|r",
+			[51] = 1644940804,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [71]
+		{
+			"you wanna do some visions too?", -- [1]
+			"Vammaane-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vammaane-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			61, -- [11]
+			"Player-1403-0A21DD5A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Vammaane|r",
+			[51] = 1644940808,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [72]
+		{
+			"|cffffff00|Hachievement:4627:Player-1403-06C11A27:1:2:12:20:0:0:0:0|h[X-45 Heartbreaker]|h|r", -- [1]
+			"Deflai-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Deflai-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			62, -- [11]
+			"Player-1403-06C11A27", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Deflai|r",
+			[51] = 1644940809,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [73]
+		{
+			"Lucky you", -- [1]
+			"Tazhaar-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Tazhaar-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			63, -- [11]
+			"Player-1403-09B5CE73", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Tazhaar|r",
+			[51] = 1644940811,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [74]
+		{
+			"WTS |cffa335ee|Hitem:31336::::::::9:73::3:1:6661:2:9:30:28:1014:::::|h[Blade of Wizardry]|h|r", -- [1]
+			"Muxlo-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Muxlo-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			64, -- [11]
+			"Player-1403-0634949D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cMuxlo|r",
+			[51] = 1644940817,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [75]
+		{
+			"LFM WARFRONT HC", -- [1]
+			"Silviasinner-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Silviasinner-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			65, -- [11]
+			"Player-1403-06E9B236", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Silviasinner|r",
+			[51] = 1644940826,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [76]
+		{
+			"<Bloom> Selling Mythic Sanctum of Domination 10/10M clear with 2 VIP traders every Wednesday! Get your Cutting edge achievement + |cffa335ee|Hitem:186642::::::::60:254::6:1:3524:1:28:872:::::|h[Vengeance's Reins]|h|r. Pm for info.", -- [1]
+			"Voex-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Voex-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			66, -- [11]
+			"Player-1403-08011C62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Voex|r",
+			[51] = 1644940838,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [77]
+		{
+			"<Pepo Squad> Mythic experienced GUILD offers Sanctum of Domination HC & MM Boosts. The next Heroic raid is starting in a few hours. W/me for info", -- [1]
+			"Nucanoqazot-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Nucanoqazot-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			68, -- [11]
+			"Player-1403-0A22099D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cNucanoqazot|r",
+			[51] = 1644940862,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [78]
+		{
+			"do you have to go afk for this?", -- [1]
+			"Galendval-Draenor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Galendval-Draenor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			74, -- [11]
+			"Player-1403-0A20E2FA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeGalendval|r",
+			[51] = 1644944533,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [79]
+		{
+			"2.7k Sexp DH, helping healers and dps in 2v2. Gold only /w for info !", -- [1]
+			"Dhisbadx-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Dhisbadx-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1468, -- [11]
+			"Player-1403-0A1B231A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Dhisbadx|r",
+			[51] = 1645043623,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [80]
+		{
+			"|cffa335ee|Hitem:182978::::::::60:102::6:5:7187:6652:7194:1498:6646:1:28:753:::::|h[Barkweave Wristwraps]|h|r WTS", -- [1]
+			"Goldbergx-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Goldbergx-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1474, -- [11]
+			"Player-1403-0A1BFBE5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Goldbergx|r",
+			[51] = 1645043630,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [81]
+		{
+			"WtS Mythic +15 - 20/Tazavesh (Mount Run )-Lvlup 50-60- Cheap Price(Only Gold). Grp Is Ready To Go /w me for more info ", -- [1]
+			"Lilchamp-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Lilchamp-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1505, -- [11]
+			"Player-1403-0759BB88", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcLilchamp|r",
+			[51] = 1645043772,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [82]
+		{
+			"<< Friendly Group >> Offering Torghast Services All Layers Inlcuding |cffffff00|Hachievement:15089:Player-1403-09FBC66F:1:9:10:21:4294967295:4294967295:4294967295:4294967295|h[Flawless Master]|h|r And Farm |cffff8000|Hcurrency:1828:0|h[Soul Ash]|h|r and |cffff8000|Hcurrency:1906:0|h[Soul Cinders]|h|r + Renown Farm! <> Twisting Corridors (1-8).Discount For Multiple Runs! /w for more info!", -- [1]
+			"Plagueeater-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Plagueeater-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1512, -- [11]
+			"Player-1403-09FBC66F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Plagueeater|r",
+			[51] = 1645043784,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [83]
+		{
+			"|cffffd100|HclubFinder:ClubFinder-1-2184-1403-32846091|h[Guild: Stardrift]|h|r  5/10 Mythic everyone 25+ drama free non toxic recruiting 1 holy paladin 1 warrior 1 range dps for core team. socials are welcome. ", -- [1]
+			"Ztyx-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ztyx-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1520, -- [11]
+			"Player-1403-064A5905", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Ztyx|r",
+			[51] = 1645043799,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [84]
+		{
+			"WHOMEGALUL", -- [1]
+			"Noriane-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Noriane-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2739, -- [11]
+			"Player-1403-06690942", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Noriane|r",
+			[51] = 1645214525,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [85]
+		{
+			"Doyle", -- [1]
+			"Surf-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Surf-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2740, -- [11]
+			"Player-1403-0625AFA0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaSurf|r",
+			[51] = 1645214526,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [86]
+		{
+			"z", -- [1]
+			"Surf-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Surf-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2742, -- [11]
+			"Player-1403-0625AFA0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaSurf|r",
+			[51] = 1645214544,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [87]
+		{
+			"wts |cffffffff|Hitem:171266::::::::60:65:::::::::|h[Potion of the Hidden Spirit]|h|r /w me", -- [1]
+			"Arkturuss-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Arkturuss-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2743, -- [11]
+			"Player-1403-07DB638B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Arkturuss|r",
+			[51] = 1645214572,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [88]
+		{
+			"brb need a poo.. let me inform special branch..", -- [1]
+			"Surf-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Surf-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2744, -- [11]
+			"Player-1403-0625AFA0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaSurf|r",
+			[51] = 1645214578,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [89]
+		{
+			"ty ", -- [1]
+			"Kajak-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Kajak-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2745, -- [11]
+			"Player-1403-09E21741", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcKajak|r",
+			[51] = 1645214583,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [90]
+		{
+			"for tthe information", -- [1]
+			"Kajak-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Kajak-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2746, -- [11]
+			"Player-1403-09E21741", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcKajak|r",
+			[51] = 1645214587,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [91]
+		{
+			"Muilti Gladiator Ret paladin selling 0-1800 2v2 boost /w", -- [1]
+			"Skilladini-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Skilladini-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2747, -- [11]
+			"Player-1403-068E92AD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Skilladini|r",
+			[51] = 1645214594,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"welcome mr moneyfanny x", -- [1]
+			"Surf-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Surf-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2748, -- [11]
+			"Player-1403-0625AFA0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaSurf|r",
+			[51] = 1645214608,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"thats my stripper name", -- [1]
+			"Noriane-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Noriane-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2749, -- [11]
+			"Player-1403-06690942", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Noriane|r",
+			[51] = 1645214624,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"James bond will decide..", -- [1]
+			"Surf-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Surf-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2750, -- [11]
+			"Player-1403-0625AFA0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaSurf|r",
+			[51] = 1645214651,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"|cffffd100|HclubFinder:ClubFinder-1-32814-1403-56969538|h[Guild: Agitated]|h|r sociale NL/BE guild, zoekt gezellige raiders om mee een raidteam op te bouwen. Alle classes bespreekbaar. Naast raiden doen we ook M+, pvp, etc. Vragen of interesse? /w mij.", -- [1]
+			"Argenian-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Argenian-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2751, -- [11]
+			"Player-1403-0737B1A1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Argenian|r",
+			[51] = 1645214666,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"wts |cffa335ee|Hitem:163574::::::::13:70:::::::::|h[Chewed-On Reins of the Terrified Pack Mule]|h|r cheaper than ah !", -- [1]
+			"Zulmare-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Zulmare-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2752, -- [11]
+			"Player-1403-0A1CED90", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Zulmare|r",
+			[51] = 1645214676,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"PS. Mr Moneyfanny.. u owe me a date! ", -- [1]
+			"Surf-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Surf-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2753, -- [11]
+			"Player-1403-0625AFA0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaSurf|r",
+			[51] = 1645214715,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"PPS.. take the stone out 1st ", -- [1]
+			"Surf-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Surf-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2754, -- [11]
+			"Player-1403-0625AFA0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaSurf|r",
+			[51] = 1645214754,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},

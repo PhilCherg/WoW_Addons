@@ -54,6 +54,8 @@ local L = WeakAuras.L
 	L["A 48x48 pixels icon"] = "48x48像素图标"
 	L["A 64x64 pixels icon"] = "64x64像素图标"
 	L["A group that dynamically controls the positioning of its children"] = "动态控制子项目位置的群组"
+	L[ [=[A timer will automatically be displayed according to default Interface Settings (overridden by some addons).
+Enable this setting if you want this timer to be hidden, or when using a WeakAuras text to display the timer]=] ] = "冷却文本会根据原生界面设置（可能被某些插件改动）自动显示。当你想隐藏冷却文本时，或者使用WeakAuras文本替代冷却文本时，启用此设置。"
 	L["A Unit ID (e.g., party1)."] = "单位 ID（如 party1）。"
 	L["Actions"] = "动作"
 	L["Add"] = "添加"
@@ -194,9 +196,6 @@ Off Screen]=] ] = "光环在屏幕外"
 	L["Controls the positioning and configuration of multiple displays at the same time"] = "同时控制多个图示的位置和设定"
 	L["Convert to New Aura Trigger"] = "转换为新的光环触发器"
 	L["Convert to..."] = "转换为..."
-	L["Cooldown Edge"] = "冷却边缘"
-	L["Cooldown Settings"] = "冷却设置"
-	L["Cooldown Swipe"] = "冷却旋转动画"
 	L["Copy"] = "拷贝"
 	L["Copy settings..."] = "拷贝设置"
 	L["Copy to all auras"] = "拷贝至所有的光环"
@@ -284,6 +283,10 @@ UNIT_POWER, UNIT_AURA PLAYER_TARGET_CHANGED]=]
 	L["eliding"] = "省略"
 	L["Else If"] = "否则如果"
 	L["Else If Trigger %s"] = "否则如果触发器%s"
+	L["Enable \"Edge\" part of the overlay"] = "显示覆盖层的\"边缘\""
+	L["Enable \"swipe\" part of the overlay"] = "启用覆盖层的\"刷\""
+	L["Enable Swipe"] = "启用冷却刷"
+	L["Enable the \"Swipe\" radial overlay"] = "启用冷却刷覆盖层"
 	L["Enabled"] = "启用"
 	L["End Angle"] = "结束角度"
 	L["End of %s"] = "%s 的结尾"
@@ -360,6 +363,15 @@ Supports multiple entries, separated by commas
 	L["Grid direction"] = "表格方向"
 	L["Group"] = "组"
 	L["Group (verb)"] = "加入组"
+	L[ [=[Group and anchor each auras by frame.
+
+- Nameplates: attach to nameplates per unit.
+- Unit Frames: attach to unit frame buttons per unit.
+- Custom Frames: choose which frame each region should be anchored to.]=] ] = [=[根据框体分组与锚定每个光环。
+
+- 姓名版：锚定到每个单位的姓名版
+- 单位框架：锚定到每个单位的单位框体
+- 自定义框架：每个光环选择需要锚定到的框体]=]
 	L["Group aura count description"] = [=[所输入的队伍或团队成员的数量必须给定一个或多个光环作为显示触发的条件。
 如果输入的数字是一个整数（如5），受影响的团队成员数量将与输入的数字相同。
 如果输入的数字是一个小数（如0.5），分数（例如1/2），或百分比（例如50%%），那么多比例的队伍或团队成员的必须受到影响。
@@ -385,10 +397,10 @@ Supports multiple entries, separated by commas
 	L["Height"] = "高度"
 	L["Help"] = "帮助"
 	L["Hide"] = "隐藏"
-	L["Hide Cooldown Text"] = "隐藏冷却文本"
 	L["Hide Glows applied by this aura"] = "隐藏由此光环应用的发光"
 	L["Hide on"] = "隐藏于"
 	L["Hide this group's children"] = "隐藏此组的子项目"
+	L["Hide Timer Text"] = "隐藏冷却文本"
 	L["Hide When Not In Group"] = "不在队伍时隐藏"
 	L["Horizontal Align"] = "水平对齐"
 	L["Horizontal Bar"] = "水平条"
@@ -437,6 +449,7 @@ Supports multiple entries, separated by commas
 	L["Invalid type for property '%s' in '%s'. Expected '%s'"] = "'%2$s'的属性'%1$s'类型非法，需要'%3$s'"
 	L["Inverse"] = "反向"
 	L["Inverse Slant"] = "反向倾斜"
+	L["Invert the direction of progress"] = "颠倒刷旋转方向"
 	L["Is Boss Debuff"] = "首领施放的减益效果"
 	L["Is Stealable"] = "可偷取"
 	L["Justify"] = "对齐"
@@ -555,7 +568,6 @@ Supports multiple entries, separated by commas
 	L["Press Ctrl+C to copy"] = "按 Ctrl+C 复制"
 	L["Press Ctrl+C to copy the URL"] = "按 Ctrl+C 复制 URL"
 	L["Prevent Merging"] = "阻止合并"
-	L["Processed %i chars"] = "已处理%i个字符"
 	L["Progress Bar"] = "进度条"
 	L["Progress Bar Settings"] = "进度条设置"
 	L["Progress Texture"] = "进度条材质"
@@ -610,9 +622,10 @@ Supports multiple entries, separated by commas
 	L["Shadow X Offset"] = "阴影 X 轴偏移"
 	L["Shadow Y Offset"] = "阴影 Y 轴偏移"
 	L["Shift-click to create chat link"] = "按住 Shift 点击来生成聊天链接"
+	L["Show \"Edge\""] = "显示\"边缘\""
+	L["Show \"Swipe\""] = "显示\"刷\""
 	L["Show all matches (Auto-clone)"] = "列出所有符合的(自动复制)"
 	L["Show Border"] = "显示边框"
-	L["Show Cooldown"] = "显示冷却"
 	L["Show Glow"] = "显示发光效果"
 	L["Show Icon"] = "显示图标"
 	L["Show If Unit Does Not Exist"] = "当单位不存在时显示"
@@ -680,6 +693,7 @@ Supports multiple entries, separated by commas
 	L["Stop Sound"] = "停止播放声音"
 	L["Sub Elements"] = "子元素"
 	L["Sub Option %i"] = "子选项 %i"
+	L["Swipe Overlay Settings"] = "冷却刷覆盖层设置"
 	L["Temporary Group"] = "临时组"
 	L["Text"] = "文字"
 	L["Text %s"] = "文本 %s"

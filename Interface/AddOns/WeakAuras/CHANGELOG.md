@@ -1,6 +1,6 @@
-# [3.7.8](https://github.com/WeakAuras/WeakAuras2/tree/3.7.8) (2022-01-27)
+# [3.7.9](https://github.com/WeakAuras/WeakAuras2/tree/3.7.9) (2022-02-16)
 
-[Full Changelog](https://github.com/WeakAuras/WeakAuras2/compare/3.7.7...3.7.8)
+[Full Changelog](https://github.com/WeakAuras/WeakAuras2/compare/3.7.8...3.7.9)
 
 ## Highlights
 
@@ -8,14 +8,35 @@
 
 ## Commits
 
-Translit (1):
+Adam Wendelin (2):
 
-- additional WA logo textures (#3451)
+- Add items that reset swing timer for TBC
+- Let slam cast not interrupt swing timer
+
+Causese (1):
+
+- store %count in the tooltip
+
+InfusOnWoW (5):
+
+- Fix texts for AutomaticRepair vs ManualRepair
+- Fix unlocalized string in Anchor settings
+- Adjust {rt#} replacement to be compatible with DBM extended raid marks
+- Be less clever with Repair Dialog translations
+- Fix class colored option not being available
+
+asaka-wa (1):
+
+- Adjust icon cooldown option text (#3468)
+
+asakawa (1):
+
+- Swap single quotes to double and escape inverted commas within strings
 
 mrbuds (4):
 
-- fix cast trigger for tbc 2.5.3 #3448
-- Fixing transmission and add a 5mn expiration timer on linked auras
-- fix glow in templates
-- fix bad order of aurabar foreground when importing old version, #3449
+- import string: remove editbox workaround it seems it is not needed anymore, tested on SL, TBC, SoM
+- fix unload of frame_update & rangecheck conditions
+- fix possible Lua error in text formatter
+- make condition events use RegisterUnitEvent when possible (#3470)
 

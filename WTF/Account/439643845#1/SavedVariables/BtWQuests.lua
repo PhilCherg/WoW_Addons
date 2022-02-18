@@ -130,7 +130,7 @@ BtWQuests_Characters = {
 			[40317] = true,
 			[53131] = true,
 			[31584] = true,
-			[56625] = true,
+			[62745] = true,
 			[31831] = true,
 			[8237] = true,
 			[31827] = true,
@@ -139,7 +139,7 @@ BtWQuests_Characters = {
 			[31726] = true,
 			[31823] = true,
 			[61300] = true,
-			[31309] = true,
+			[56625] = true,
 			[44996] = true,
 			[50104] = true,
 			[50147] = true,
@@ -223,7 +223,7 @@ BtWQuests_Characters = {
 			[43341] = true,
 			[31556] = true,
 			[52969] = true,
-			[62745] = true,
+			[31309] = true,
 			[56633] = true,
 			[31572] = true,
 			[31576] = true,
@@ -243,6 +243,43 @@ BtWQuests_Characters = {
 		["skills"] = {
 		},
 		["faction"] = "Alliance",
+		["questsActive"] = {
+			[60545] = {
+				{
+					"0/1 Learn about your leaders' fate", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[42170] = {
+				{
+					"0/4 Complete 4 world quests in Val'sharah", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[48642] = {
+				{
+					"0/4 Complete 4 Argussian Reach World Quests", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[42422] = {
+				{
+					"0/4 Complete 4 Wardens World Quests", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+		},
+		["warMode"] = false,
+		["name"] = "Adsfasdfasdf",
+		["sex"] = 2,
+		["professions"] = {
+		},
+		["ignoredChains"] = {
+		},
 		["reputations"] = {
 			[1134] = {
 				["barMin"] = 0,
@@ -308,44 +345,7 @@ BtWQuests_Characters = {
 				["barValue"] = 3100,
 			},
 		},
-		["warMode"] = false,
-		["name"] = "Adsfasdfasdf",
-		["sex"] = 2,
-		["professions"] = {
-		},
-		["ignoredChains"] = {
-		},
 		["warModeBonus"] = 20,
-		["questsActive"] = {
-			[60545] = {
-				{
-					"0/1 Learn about your leaders' fate", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[42170] = {
-				{
-					"0/4 Complete 4 world quests in Val'sharah", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[48642] = {
-				{
-					"0/4 Complete 4 Argussian Reach World Quests", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[42422] = {
-				{
-					"0/4 Complete 4 Wardens World Quests", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-		},
 	}, -- [2]
 	{
 		["covenantID"] = 0,
@@ -570,36 +570,6 @@ BtWQuests_Characters = {
 		},
 		["xpModifier"] = 0,
 		["renownLevel"] = 1,
-		["questsActive"] = {
-			[60545] = {
-				{
-					"0/1 Learn about your leaders' fate", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[42422] = {
-				{
-					"0/4 Complete 4 Wardens World Quests", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[48642] = {
-				{
-					"0/4 Complete 4 Argussian Reach World Quests", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[42170] = {
-				{
-					"0/4 Complete 4 world quests in Val'sharah", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-		},
 		["warModeBonus"] = 20,
 		["reputations"] = {
 			[1134] = {
@@ -664,6 +634,36 @@ BtWQuests_Characters = {
 				["standing"] = 5,
 				["barValue"] = 3300,
 				["barMax"] = 9000,
+			},
+		},
+		["questsActive"] = {
+			[60545] = {
+				{
+					"0/1 Learn about your leaders' fate", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[42422] = {
+				{
+					"0/4 Complete 4 Wardens World Quests", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[48642] = {
+				{
+					"0/4 Complete 4 Argussian Reach World Quests", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[42170] = {
+				{
+					"0/4 Complete 4 world quests in Val'sharah", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
 			},
 		},
 		["ignoredChains"] = {
@@ -906,6 +906,15 @@ BtWQuests_Characters = {
 		["renownLevel"] = 1,
 		["warMode"] = false,
 		["sex"] = 3,
+		["warModeBonus"] = 20,
+		["skills"] = {
+		},
+		["name"] = "Asdsaasdf",
+		["faction"] = "Alliance",
+		["professions"] = {
+		},
+		["ignoredChains"] = {
+		},
 		["questsActive"] = {
 			[60545] = {
 				{
@@ -935,14 +944,6 @@ BtWQuests_Characters = {
 					false, -- [3]
 				}, -- [1]
 			},
-		},
-		["skills"] = {
-		},
-		["name"] = "Asdsaasdf",
-		["faction"] = "Alliance",
-		["professions"] = {
-		},
-		["ignoredChains"] = {
 		},
 		["reputations"] = {
 			[1134] = {
@@ -1009,7 +1010,6 @@ BtWQuests_Characters = {
 				["barValue"] = 3100,
 			},
 		},
-		["warModeBonus"] = 20,
 	}, -- [4]
 	{
 		["covenantID"] = 0,
@@ -1173,29 +1173,29 @@ BtWQuests_Characters = {
 			[56652] = true,
 			[50144] = true,
 			[53746] = true,
-			[61253] = true,
+			[31583] = true,
 			[39713] = true,
 			[63691] = true,
 			[63699] = true,
-			[31571] = true,
+			[31316] = true,
 			[61245] = true,
-			[31583] = true,
+			[42893] = true,
 			[31591] = true,
 			[31551] = true,
 			[31555] = true,
-			[64202] = true,
+			[53747] = true,
 			[31308] = true,
 			[31822] = true,
-			[31316] = true,
-			[31830] = true,
+			[31826] = true,
+			[31575] = true,
 			[31579] = true,
-			[42893] = true,
+			[61253] = true,
 			[31587] = true,
 			[44949] = true,
 			[61277] = true,
 			[61285] = true,
 			[44973] = true,
-			[63692] = true,
+			[64202] = true,
 			[44989] = true,
 			[44997] = true,
 			[50105] = true,
@@ -1207,14 +1207,14 @@ BtWQuests_Characters = {
 			[42909] = true,
 			[31902] = true,
 			[31726] = true,
-			[53747] = true,
+			[63692] = true,
 			[63700] = true,
 			[61293] = true,
 			[61261] = true,
 			[51994] = true,
+			[31830] = true,
+			[31571] = true,
 			[61237] = true,
-			[31826] = true,
-			[31575] = true,
 			[58146] = true,
 			[56624] = true,
 			[58927] = true,
@@ -1268,6 +1268,14 @@ BtWQuests_Characters = {
 		["skills"] = {
 		},
 		["faction"] = "Alliance",
+		["warModeBonus"] = 15,
+		["warMode"] = false,
+		["name"] = "Bankeristor",
+		["sex"] = 2,
+		["professions"] = {
+		},
+		["ignoredChains"] = {
+		},
 		["questsActive"] = {
 			[44978] = {
 				{
@@ -1297,13 +1305,6 @@ BtWQuests_Characters = {
 					false, -- [3]
 				}, -- [1]
 			},
-		},
-		["warMode"] = false,
-		["name"] = "Bankeristor",
-		["sex"] = 2,
-		["professions"] = {
-		},
-		["ignoredChains"] = {
 		},
 		["reputations"] = {
 			[1134] = {
@@ -1384,7 +1385,6 @@ BtWQuests_Characters = {
 				["barValue"] = 3100,
 			},
 		},
-		["warModeBonus"] = 15,
 	}, -- [5]
 	{
 		["covenantID"] = 2,
@@ -1668,7 +1668,7 @@ BtWQuests_Characters = {
 			[53206] = true,
 			[34824] = true,
 			[34364] = true,
-			[60624] = true,
+			[28282] = true,
 			[57426] = true,
 			[62254] = true,
 			[31830] = true,
@@ -1686,17 +1686,17 @@ BtWQuests_Characters = {
 			[59920] = true,
 			[61295] = true,
 			[9897] = true,
-			[44991] = true,
+			[50106] = true,
 			[59025] = true,
 			[9921] = true,
-			[63693] = true,
+			[60624] = true,
 			[9937] = true,
 			[60176] = true,
 			[59185] = true,
 			[61263] = true,
 			[28106] = true,
 			[9977] = true,
-			[50106] = true,
+			[57267] = true,
 			[59761] = true,
 			[10001] = true,
 			[10009] = true,
@@ -1705,7 +1705,7 @@ BtWQuests_Characters = {
 			[53751] = true,
 			[10161] = true,
 			[12231] = true,
-			[28282] = true,
+			[63693] = true,
 			[62000] = true,
 			[57619] = true,
 			[56628] = true,
@@ -1750,7 +1750,7 @@ BtWQuests_Characters = {
 			[10393] = true,
 			[10401] = true,
 			[61249] = true,
-			[44993] = true,
+			[50108] = true,
 			[9430] = true,
 			[58036] = true,
 			[9418] = true,
@@ -1759,8 +1759,8 @@ BtWQuests_Characters = {
 			[39750] = true,
 			[28091] = true,
 			[28107] = true,
+			[44993] = true,
 			[60338] = true,
-			[50108] = true,
 			[50140] = true,
 			[9490] = true,
 			[58484] = true,
@@ -1791,24 +1791,24 @@ BtWQuests_Characters = {
 			[27564] = true,
 			[57174] = true,
 			[61298] = true,
-			[60148] = true,
-			[50109] = true,
+			[9938] = true,
+			[44994] = true,
 			[50141] = true,
 			[31880] = true,
-			[61874] = true,
+			[31976] = true,
 			[34445] = true,
 			[10937] = true,
 			[60545] = true,
 			[64655] = true,
 			[61107] = true,
-			[9938] = true,
+			[11984] = true,
 			[9810] = true,
 			[9818] = true,
 			[56631] = true,
 			[57380] = true,
 			[28108] = true,
 			[9850] = true,
-			[31976] = true,
+			[9858] = true,
 			[44995] = true,
 			[58869] = true,
 			[34446] = true,
@@ -1818,7 +1818,7 @@ BtWQuests_Characters = {
 			[60052] = true,
 			[9922] = true,
 			[60724] = true,
-			[11984] = true,
+			[60148] = true,
 			[60180] = true,
 			[61235] = true,
 			[9962] = true,
@@ -1923,14 +1923,14 @@ BtWQuests_Characters = {
 			[44998] = true,
 			[50145] = true,
 			[61247] = true,
-			[62709] = true,
+			[58617] = true,
 			[9925] = true,
-			[39180] = true,
+			[62709] = true,
 			[35983] = true,
 			[60567] = true,
 			[57986] = true,
 			[63700] = true,
-			[58617] = true,
+			[39180] = true,
 			[9819] = true,
 			[58977] = true,
 			[57690] = true,
@@ -1947,7 +1947,7 @@ BtWQuests_Characters = {
 			[9923] = true,
 			[60120] = true,
 			[9939] = true,
-			[57691] = true,
+			[58714] = true,
 			[9955] = true,
 			[28094] = true,
 			[9853] = true,
@@ -1958,14 +1958,14 @@ BtWQuests_Characters = {
 			[10011] = true,
 			[60735] = true,
 			[31902] = true,
-			[12137] = true,
+			[57691] = true,
 			[60639] = true,
 			[60600] = true,
 			[12105] = true,
 			[39181] = true,
 			[12121] = true,
 			[12129] = true,
-			[58714] = true,
+			[12137] = true,
 			[10099] = true,
 			[63893] = true,
 			[60856] = true,
@@ -2036,8 +2036,8 @@ BtWQuests_Characters = {
 			[58843] = true,
 			[57263] = true,
 			[58592] = true,
-			[57949] = true,
 			[31548] = true,
+			[34420] = true,
 			[58045] = true,
 			[31580] = true,
 			[27504] = true,
@@ -2088,14 +2088,14 @@ BtWQuests_Characters = {
 			[10396] = true,
 			[31309] = true,
 			[60572] = true,
-			[35253] = true,
+			[12154] = true,
 			[58590] = true,
 			[12202] = true,
 			[58654] = true,
 			[12130] = true,
 			[12138] = true,
 			[59773] = true,
-			[12154] = true,
+			[10108] = true,
 			[27377] = true,
 			[10124] = true,
 			[10132] = true,
@@ -2109,11 +2109,11 @@ BtWQuests_Characters = {
 			[12242] = true,
 			[12250] = true,
 			[60221] = true,
-			[60733] = true,
+			[59710] = true,
 			[53124] = true,
 			[10236] = true,
 			[31725] = true,
-			[10340] = true,
+			[60733] = true,
 			[33815] = true,
 			[60764] = true,
 			[59198] = true,
@@ -2124,13 +2124,13 @@ BtWQuests_Characters = {
 			[58591] = true,
 			[31917] = true,
 			[34646] = true,
-			[59710] = true,
+			[10340] = true,
 			[58719] = true,
 			[59774] = true,
 			[61244] = true,
 			[9349] = true,
 			[62939] = true,
-			[10108] = true,
+			[35253] = true,
 			[9373] = true,
 			[59966] = true,
 			[34423] = true,
@@ -2152,7 +2152,7 @@ BtWQuests_Characters = {
 			[31724] = true,
 			[28241] = true,
 			[31578] = true,
-			[34420] = true,
+			[57949] = true,
 			[60638] = true,
 			[62716] = true,
 			[28090] = true,
@@ -2251,12 +2251,12 @@ BtWQuests_Characters = {
 			[62655] = true,
 			[57559] = true,
 			[32008] = true,
-			[9858] = true,
+			[61874] = true,
 			[60737] = true,
 			[58723] = true,
-			[29674] = true,
+			[50109] = true,
 			[12411] = true,
-			[44994] = true,
+			[29674] = true,
 			[59874] = true,
 			[44989] = true,
 			[10397] = true,
@@ -2286,7 +2286,7 @@ BtWQuests_Characters = {
 			[27300] = true,
 			[60738] = true,
 			[58724] = true,
-			[57267] = true,
+			[44991] = true,
 			[12007] = true,
 			[27380] = true,
 			[11991] = true,
@@ -2358,6 +2358,102 @@ BtWQuests_Characters = {
 		},
 		["xpModifier"] = 0,
 		["renownLevel"] = 1,
+		["questsActive"] = {
+			[44999] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Sharptalon Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[45000] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests Completed with Bloodgazer Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[24428] = {
+			},
+			[62723] = {
+				{
+					"Aid the Kyrian", -- [1]
+					"progressbar", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[29675] = {
+				{
+					"0/1 Wrath-Scryer Soccothrates slain", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+				{
+					"0/1 Dalliah the Doomsayer slain", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [2]
+			},
+			[44978] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Direbeak Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[62778] = {
+				{
+					"Aid the Venthyr", -- [1]
+					"progressbar", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[62748] = {
+				{
+					"Aid the Necrolords", -- [1]
+					"progressbar", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[42814] = {
+			},
+			[44954] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Snowfeather Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[54180] = {
+			},
+			[62763] = {
+				{
+					"Aid the Night Fae", -- [1]
+					"progressbar", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[53436] = {
+				{
+					"0/36000 Collect 36000 Azerite on Island Expeditions", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[36615] = {
+				{
+					"388/2000 Garrison Resources gathered (Optional)", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+				{
+					"0/1 Upgrade your garrison to Tier 3", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [2]
+			},
+		},
+		["warModeBonus"] = 15,
 		["reputations"] = {
 			[2413] = {
 				["barMin"] = 0,
@@ -2661,102 +2757,6 @@ BtWQuests_Characters = {
 				["barValue"] = 0,
 			},
 		},
-		["questsActive"] = {
-			[44999] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Sharptalon Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[45000] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests Completed with Bloodgazer Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[24428] = {
-			},
-			[62723] = {
-				{
-					"Aid the Kyrian", -- [1]
-					"progressbar", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[29675] = {
-				{
-					"0/1 Wrath-Scryer Soccothrates slain", -- [1]
-					"monster", -- [2]
-					false, -- [3]
-				}, -- [1]
-				{
-					"0/1 Dalliah the Doomsayer slain", -- [1]
-					"monster", -- [2]
-					false, -- [3]
-				}, -- [2]
-			},
-			[44978] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Direbeak Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[62778] = {
-				{
-					"Aid the Venthyr", -- [1]
-					"progressbar", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[62748] = {
-				{
-					"Aid the Necrolords", -- [1]
-					"progressbar", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[42814] = {
-			},
-			[44954] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Snowfeather Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[54180] = {
-			},
-			[62763] = {
-				{
-					"Aid the Night Fae", -- [1]
-					"progressbar", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[53436] = {
-				{
-					"0/36000 Collect 36000 Azerite on Island Expeditions", -- [1]
-					"monster", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[36615] = {
-				{
-					"388/2000 Garrison Resources gathered (Optional)", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-				{
-					"0/1 Upgrade your garrison to Tier 3", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [2]
-			},
-		},
-		["warModeBonus"] = 15,
 		["ignoredChains"] = {
 		},
 		["name"] = "Barbaxius",
@@ -2988,13 +2988,13 @@ BtWQuests_Characters = {
 			[44976] = true,
 			[50100] = true,
 			[61236] = true,
-			[44948] = true,
-			[61300] = true,
-			[61284] = true,
+			[64292] = true,
 			[53124] = true,
-			[44996] = true,
+			[61284] = true,
+			[61300] = true,
 			[61273] = true,
 			[31728] = true,
+			[50106] = true,
 			[61297] = true,
 			[61293] = true,
 			[14491] = true,
@@ -3033,9 +3033,9 @@ BtWQuests_Characters = {
 			[53748] = true,
 			[50140] = true,
 			[62978] = true,
-			[50106] = true,
+			[44996] = true,
 			[751] = true,
-			[64292] = true,
+			[44948] = true,
 			[31553] = true,
 			[31729] = true,
 			[31569] = true,
@@ -3066,68 +3066,6 @@ BtWQuests_Characters = {
 		["renownLevel"] = 1,
 		["warMode"] = false,
 		["sex"] = 2,
-		["questsActive"] = {
-			[44999] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Sharptalon Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[833] = {
-				{
-					"0/8 Bristleback Interloper slain", -- [1]
-					"monster", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[44978] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Direbeak Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[24524] = {
-				{
-					"Cleanse the Wildmane Well", -- [1]
-					"event", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[44954] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Snowfeather Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[773] = {
-			},
-			[45000] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests Completed with Bloodgazer Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[6362] = {
-				{
-					"Buy a wind rider to Thunder Bluff from the wind rider master Tak, then bring the Bundle of Hides to Ahanu in Thunder Bluff.", -- [1]
-					"log", -- [2]
-					true, -- [3]
-				}, -- [1]
-			},
-		},
-		["skills"] = {
-		},
-		["name"] = "Bullenic",
-		["faction"] = "Horde",
-		["professions"] = {
-		},
-		["ignoredChains"] = {
-		},
-		["warModeBonus"] = 10,
 		["reputations"] = {
 			[530] = {
 				["barMin"] = 3000,
@@ -3186,6 +3124,68 @@ BtWQuests_Characters = {
 				["barValue"] = 871,
 			},
 		},
+		["skills"] = {
+		},
+		["name"] = "Bullenic",
+		["faction"] = "Horde",
+		["professions"] = {
+		},
+		["ignoredChains"] = {
+		},
+		["questsActive"] = {
+			[44978] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Direbeak Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[833] = {
+				{
+					"0/8 Bristleback Interloper slain", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[6362] = {
+				{
+					"Buy a wind rider to Thunder Bluff from the wind rider master Tak, then bring the Bundle of Hides to Ahanu in Thunder Bluff.", -- [1]
+					"log", -- [2]
+					true, -- [3]
+				}, -- [1]
+			},
+			[24524] = {
+				{
+					"Cleanse the Wildmane Well", -- [1]
+					"event", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[44954] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Snowfeather Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[773] = {
+			},
+			[45000] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests Completed with Bloodgazer Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[44999] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Sharptalon Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+		},
+		["warModeBonus"] = 10,
 	}, -- [7]
 	{
 		["covenantID"] = 0,
@@ -3468,64 +3468,6 @@ BtWQuests_Characters = {
 		},
 		["xpModifier"] = 0,
 		["renownLevel"] = 1,
-		["questsActive"] = {
-			[48642] = {
-				{
-					"0/4 Complete 4 Argussian Reach World Quests", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[44978] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Direbeak Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[48639] = {
-				{
-					"0/4 Complete 4 Army of the Light World Quests", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[42170] = {
-				{
-					"0/4 Complete 4 world quests in Val'sharah", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[44954] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Snowfeather Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[60545] = {
-				{
-					"0/1 Learn about your leaders' fate", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[45000] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests Completed with Bloodgazer Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[44999] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Sharptalon Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-		},
 		["reputations"] = {
 			[1134] = {
 				["barMin"] = 0,
@@ -3592,6 +3534,64 @@ BtWQuests_Characters = {
 			},
 		},
 		["warModeBonus"] = 15,
+		["questsActive"] = {
+			[48642] = {
+				{
+					"0/4 Complete 4 Argussian Reach World Quests", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[48639] = {
+				{
+					"0/4 Complete 4 Army of the Light World Quests", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[44999] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Sharptalon Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[42170] = {
+				{
+					"0/4 Complete 4 world quests in Val'sharah", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[44954] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Snowfeather Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[60545] = {
+				{
+					"0/1 Learn about your leaders' fate", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[45000] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests Completed with Bloodgazer Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[44978] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Direbeak Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+		},
 		["ignoredChains"] = {
 		},
 		["name"] = "Chernakotka",
@@ -3706,18 +3706,18 @@ BtWQuests_Characters = {
 			[53748] = true,
 			[34765] = true,
 			[51177] = true,
-			[51309] = true,
+			[34446] = true,
 			[50143] = true,
 			[42494] = true,
-			[31571] = true,
+			[42127] = true,
 			[51129] = true,
 			[51229] = true,
 			[31579] = true,
 			[34398] = true,
 			[47189] = true,
 			[31555] = true,
-			[34446] = true,
-			[42127] = true,
+			[47221] = true,
+			[34462] = true,
 			[34478] = true,
 			[31587] = true,
 			[35005] = true,
@@ -3751,7 +3751,7 @@ BtWQuests_Characters = {
 			[47222] = true,
 			[46727] = true,
 			[38567] = true,
-			[61275] = true,
+			[62808] = true,
 			[42687] = true,
 			[42703] = true,
 			[52428] = true,
@@ -3764,7 +3764,7 @@ BtWQuests_Characters = {
 			[35166] = true,
 			[31548] = true,
 			[34432] = true,
-			[62808] = true,
+			[43901] = true,
 			[61291] = true,
 			[53131] = true,
 			[44971] = true,
@@ -3788,7 +3788,7 @@ BtWQuests_Characters = {
 			[42704] = true,
 			[51918] = true,
 			[42896] = true,
-			[44477] = true,
+			[31724] = true,
 			[59120] = true,
 			[42010] = true,
 			[64262] = true,
@@ -3799,43 +3799,43 @@ BtWQuests_Characters = {
 			[53747] = true,
 			[61292] = true,
 			[51088] = true,
+			[44477] = true,
 			[42433] = true,
-			[31724] = true,
 			[50146] = true,
 			[42976] = true,
 			[51168] = true,
 			[50106] = true,
 			[44996] = true,
 			[8237] = true,
-			[52654] = true,
+			[50099] = true,
 			[42705] = true,
 			[53124] = true,
 			[51280] = true,
-			[44989] = true,
+			[35280] = true,
 			[31309] = true,
 			[46729] = true,
 			[41124] = true,
-			[50147] = true,
-			[35983] = true,
+			[34817] = true,
+			[42115] = true,
 			[51903] = true,
 			[60239] = true,
-			[44973] = true,
+			[42418] = true,
 			[53028] = true,
 			[51967] = true,
-			[35280] = true,
-			[34817] = true,
+			[44478] = true,
+			[51169] = true,
 			[51281] = true,
-			[42115] = true,
+			[60511] = true,
 			[61245] = true,
 			[61261] = true,
 			[61277] = true,
 			[61293] = true,
 			[34737] = true,
-			[42418] = true,
-			[50099] = true,
+			[36797] = true,
+			[42434] = true,
 			[46730] = true,
 			[50100] = true,
-			[51169] = true,
+			[50147] = true,
 			[51968] = true,
 			[51201] = true,
 			[61278] = true,
@@ -3844,7 +3844,7 @@ BtWQuests_Characters = {
 			[43441] = true,
 			[31549] = true,
 			[34434] = true,
-			[60511] = true,
+			[35983] = true,
 			[31573] = true,
 			[31581] = true,
 			[31589] = true,
@@ -3854,7 +3854,7 @@ BtWQuests_Characters = {
 			[44990] = true,
 			[35297] = true,
 			[33061] = true,
-			[48440] = true,
+			[31917] = true,
 			[34392] = true,
 			[44995] = true,
 			[56631] = true,
@@ -3869,7 +3869,7 @@ BtWQuests_Characters = {
 			[31821] = true,
 			[51170] = true,
 			[47098] = true,
-			[31917] = true,
+			[57638] = true,
 			[53055] = true,
 			[34775] = true,
 			[40008] = true,
@@ -3881,14 +3881,14 @@ BtWQuests_Characters = {
 			[32470] = true,
 			[32468] = true,
 			[50101] = true,
-			[42707] = true,
+			[51394] = true,
 			[61251] = true,
 			[61235] = true,
 			[63004] = true,
 			[51969] = true,
 			[42149] = true,
 			[57559] = true,
-			[57638] = true,
+			[48440] = true,
 			[52544] = true,
 			[61247] = true,
 			[61263] = true,
@@ -3898,7 +3898,7 @@ BtWQuests_Characters = {
 			[44975] = true,
 			[44991] = true,
 			[42452] = true,
-			[13807] = true,
+			[56633] = true,
 			[47869] = true,
 			[47099] = true,
 			[51714] = true,
@@ -3906,48 +3906,48 @@ BtWQuests_Characters = {
 			[34692] = true,
 			[40009] = true,
 			[44976] = true,
-			[31550] = true,
+			[34420] = true,
 			[34436] = true,
 			[42117] = true,
 			[51331] = true,
 			[31582] = true,
 			[31590] = true,
-			[50102] = true,
+			[31726] = true,
 			[51395] = true,
 			[36592] = true,
 			[42229] = true,
 			[51715] = true,
 			[42663] = true,
 			[41114] = true,
-			[52450] = true,
+			[31878] = true,
 			[61727] = true,
-			[56633] = true,
+			[62254] = true,
 			[38253] = true,
 			[61264] = true,
 			[51571] = true,
 			[61296] = true,
 			[34740] = true,
 			[56729] = true,
-			[31726] = true,
+			[44992] = true,
 			[34439] = true,
 			[51795] = true,
-			[46733] = true,
+			[31830] = true,
 			[51572] = true,
 			[42006] = true,
-			[42741] = true,
+			[52450] = true,
 			[53121] = true,
 			[44098] = true,
-			[50104] = true,
+			[44994] = true,
 			[34421] = true,
 			[34437] = true,
 			[31822] = true,
-			[31830] = true,
+			[41112] = true,
 			[45727] = true,
 			[42166] = true,
 			[61281] = true,
 			[51396] = true,
 			[47835] = true,
-			[31878] = true,
+			[42741] = true,
 			[47867] = true,
 			[32469] = true,
 			[31902] = true,
@@ -3955,7 +3955,7 @@ BtWQuests_Characters = {
 			[44977] = true,
 			[44993] = true,
 			[61249] = true,
-			[44483] = true,
+			[50104] = true,
 			[48506] = true,
 			[35747] = true,
 			[34741] = true,
@@ -3963,18 +3963,18 @@ BtWQuests_Characters = {
 			[50103] = true,
 			[31990] = true,
 			[36881] = true,
-			[51796] = true,
+			[34422] = true,
 			[33815] = true,
 			[42007] = true,
-			[31551] = true,
+			[51796] = true,
 			[61282] = true,
-			[46734] = true,
-			[61250] = true,
-			[34422] = true,
-			[34438] = true,
-			[42662] = true,
 			[31575] = true,
+			[61250] = true,
+			[31551] = true,
+			[34438] = true,
 			[31583] = true,
+			[41113] = true,
+			[51349] = true,
 			[40123] = true,
 			[34646] = true,
 			[56571] = true,
@@ -3985,14 +3985,14 @@ BtWQuests_Characters = {
 			[31591] = true,
 			[52946] = true,
 			[40267] = true,
-			[51349] = true,
+			[42662] = true,
 			[53074] = true,
-			[41113] = true,
+			[46734] = true,
 			[48507] = true,
 			[61298] = true,
 			[35253] = true,
 			[42423] = true,
-			[44994] = true,
+			[44483] = true,
 			[42455] = true,
 			[38894] = true,
 			[34822] = true,
@@ -4000,7 +4000,7 @@ BtWQuests_Characters = {
 			[42008] = true,
 			[61297] = true,
 			[34375] = true,
-			[41112] = true,
+			[46733] = true,
 			[41080] = true,
 			[34423] = true,
 			[44659] = true,
@@ -4008,24 +4008,24 @@ BtWQuests_Characters = {
 			[31831] = true,
 			[51350] = true,
 			[51366] = true,
-			[44992] = true,
+			[50102] = true,
 			[61280] = true,
 			[42727] = true,
 			[31879] = true,
 			[34583] = true,
-			[62254] = true,
+			[13807] = true,
 			[31574] = true,
-			[51283] = true,
+			[31550] = true,
 			[31919] = true,
 			[35174] = true,
 			[56652] = true,
 			[53602] = true,
 			[61283] = true,
 			[61299] = true,
-			[34420] = true,
+			[51283] = true,
 			[31975] = true,
 			[44484] = true,
-			[44240] = true,
+			[42707] = true,
 			[53123] = true,
 			[34823] = true,
 			[51191] = true,
@@ -4033,7 +4033,7 @@ BtWQuests_Characters = {
 			[48668] = true,
 			[50105] = true,
 			[41035] = true,
-			[51394] = true,
+			[44240] = true,
 			[31552] = true,
 			[34440] = true,
 			[31568] = true,
@@ -4048,10 +4048,10 @@ BtWQuests_Characters = {
 			[52128] = true,
 			[34616] = true,
 			[37187] = true,
-			[36797] = true,
+			[44973] = true,
 			[61236] = true,
-			[44478] = true,
-			[42434] = true,
+			[44989] = true,
+			[52654] = true,
 			[61284] = true,
 			[61300] = true,
 			[31828] = true,
@@ -4072,7 +4072,7 @@ BtWQuests_Characters = {
 			[31832] = true,
 			[44645] = true,
 			[50145] = true,
-			[43901] = true,
+			[61275] = true,
 			[56628] = true,
 			[43837] = true,
 			[31880] = true,
@@ -4089,8 +4089,8 @@ BtWQuests_Characters = {
 			[51341] = true,
 			[31976] = true,
 			[50107] = true,
-			[34462] = true,
-			[47221] = true,
+			[31571] = true,
+			[51309] = true,
 			[32008] = true,
 			[51193] = true,
 			[42011] = true,
@@ -4126,6 +4126,123 @@ BtWQuests_Characters = {
 		},
 		["xpModifier"] = 0,
 		["renownLevel"] = 1,
+		["questsActive"] = {
+			[44689] = {
+				{
+					"1/10 World Quests completed", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[45000] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests Completed with Bloodgazer Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[53436] = {
+				{
+					"0/36000 Collect 36000 Azerite on Island Expeditions", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[44978] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Direbeak Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[24428] = {
+				{
+					"Take the Head of Onyxia to Zardeth of the Black Claw in the basement of the Slaughtered Lamb.", -- [1]
+					"log", -- [2]
+					true, -- [3]
+				}, -- [1]
+			},
+			[50562] = {
+				{
+					"0/4 Complete 4 Azerite World Quest for Magni", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[60545] = {
+				{
+					"0/1 Learn about your leaders' fate", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[48642] = {
+				{
+					"0/4 Complete 4 Argussian Reach World Quests", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[44954] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Snowfeather Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[42940] = {
+				{
+					"0/5 \"Oculus Preparations\" missions completed", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[11007] = {
+				{
+					"Take the Verdant Sphere to A'dal in Shattrath City.", -- [1]
+					"log", -- [2]
+					true, -- [3]
+				}, -- [1]
+			},
+			[50599] = {
+				{
+					"0/4 Complete 4 world quests in Tiragarde Sound", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[50600] = {
+				{
+					"0/4 Complete 4 world quests in Drustvar", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[42170] = {
+				{
+					"0/4 Complete 4 world quests in Val'sharah", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[42421] = {
+				{
+					"0/4 Complete 4 world quests in Suramar", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[54180] = {
+			},
+			[44999] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Sharptalon Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+		},
+		["warModeBonus"] = 20,
 		["reputations"] = {
 			[1050] = {
 				["barMin"] = 0,
@@ -4289,123 +4406,6 @@ BtWQuests_Characters = {
 				["barMax"] = 9000,
 			},
 		},
-		["questsActive"] = {
-			[44689] = {
-				{
-					"1/10 World Quests completed", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[45000] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests Completed with Bloodgazer Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[53436] = {
-				{
-					"0/36000 Collect 36000 Azerite on Island Expeditions", -- [1]
-					"monster", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[44978] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Direbeak Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[24428] = {
-				{
-					"Take the Head of Onyxia to Zardeth of the Black Claw in the basement of the Slaughtered Lamb.", -- [1]
-					"log", -- [2]
-					true, -- [3]
-				}, -- [1]
-			},
-			[50562] = {
-				{
-					"0/4 Complete 4 Azerite World Quest for Magni", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[60545] = {
-				{
-					"0/1 Learn about your leaders' fate", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[48642] = {
-				{
-					"0/4 Complete 4 Argussian Reach World Quests", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[44954] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Snowfeather Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[42940] = {
-				{
-					"0/5 \"Oculus Preparations\" missions completed", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[11007] = {
-				{
-					"Take the Verdant Sphere to A'dal in Shattrath City.", -- [1]
-					"log", -- [2]
-					true, -- [3]
-				}, -- [1]
-			},
-			[50599] = {
-				{
-					"0/4 Complete 4 world quests in Tiragarde Sound", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[50600] = {
-				{
-					"0/4 Complete 4 world quests in Drustvar", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[42170] = {
-				{
-					"0/4 Complete 4 world quests in Val'sharah", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[42421] = {
-				{
-					"0/4 Complete 4 world quests in Suramar", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[54180] = {
-			},
-			[44999] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Sharptalon Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-		},
-		["warModeBonus"] = 20,
 		["ignoredChains"] = {
 		},
 		["name"] = "Destruxia",
@@ -4791,7 +4791,6 @@ BtWQuests_Characters = {
 		},
 		["xpModifier"] = 0,
 		["renownLevel"] = 1,
-		["warModeBonus"] = 20,
 		["reputations"] = {
 			[54] = {
 				["barMin"] = 3000,
@@ -4835,11 +4834,11 @@ BtWQuests_Characters = {
 				["barValue"] = 4612,
 				["barMax"] = 9000,
 			},
-			[72] = {
+			[930] = {
 				["barMin"] = 3000,
-				["name"] = "Stormwind",
+				["name"] = "Exodar",
 				["standing"] = 5,
-				["barValue"] = 7650,
+				["barValue"] = 4612,
 				["barMax"] = 9000,
 			},
 			[1169] = {
@@ -4856,19 +4855,19 @@ BtWQuests_Characters = {
 				["barMax"] = 3000,
 				["barValue"] = 0,
 			},
+			[72] = {
+				["barMin"] = 3000,
+				["name"] = "Stormwind",
+				["standing"] = 5,
+				["barValue"] = 7650,
+				["barMax"] = 9000,
+			},
 			[2414] = {
 				["barMin"] = 0,
 				["name"] = "Shadowlands",
 				["standing"] = 4,
 				["barMax"] = 3000,
 				["barValue"] = 0,
-			},
-			[930] = {
-				["barMin"] = 3000,
-				["name"] = "Exodar",
-				["standing"] = 5,
-				["barValue"] = 4612,
-				["barMax"] = 9000,
 			},
 			[2407] = {
 				["barMin"] = 0,
@@ -4966,6 +4965,7 @@ BtWQuests_Characters = {
 				}, -- [1]
 			},
 		},
+		["warModeBonus"] = 20,
 		["ignoredChains"] = {
 		},
 		["name"] = "Elementior",
@@ -5262,10 +5262,10 @@ BtWQuests_Characters = {
 			[53028] = true,
 			[52654] = true,
 			[61236] = true,
-			[53124] = true,
-			[61300] = true,
-			[61284] = true,
 			[44948] = true,
+			[53124] = true,
+			[61284] = true,
+			[61300] = true,
 			[31549] = true,
 			[44996] = true,
 			[31728] = true,
@@ -5340,6 +5340,15 @@ BtWQuests_Characters = {
 		["renownLevel"] = 1,
 		["warMode"] = false,
 		["sex"] = 3,
+		["warModeBonus"] = 20,
+		["skills"] = {
+		},
+		["name"] = "Feastfive",
+		["faction"] = "Alliance",
+		["professions"] = {
+		},
+		["ignoredChains"] = {
+		},
 		["reputations"] = {
 			[1134] = {
 				["barMin"] = 0,
@@ -5404,14 +5413,6 @@ BtWQuests_Characters = {
 				["barMax"] = 9000,
 				["barValue"] = 3100,
 			},
-		},
-		["skills"] = {
-		},
-		["name"] = "Feastfive",
-		["faction"] = "Alliance",
-		["professions"] = {
-		},
-		["ignoredChains"] = {
 		},
 		["questsActive"] = {
 			[44999] = {
@@ -5478,7 +5479,6 @@ BtWQuests_Characters = {
 				}, -- [1]
 			},
 		},
-		["warModeBonus"] = 20,
 	}, -- [11]
 	{
 		["covenantID"] = 0,
@@ -5620,13 +5620,13 @@ BtWQuests_Characters = {
 			[50143] = true,
 			[31897] = true,
 			[56633] = true,
-			[42910] = true,
+			[44950] = true,
 			[63690] = true,
 			[63698] = true,
 			[31917] = true,
-			[61270] = true,
-			[62965] = true,
+			[42910] = true,
 			[38995] = true,
+			[62710] = true,
 			[56652] = true,
 			[61291] = true,
 			[32468] = true,
@@ -5648,28 +5648,28 @@ BtWQuests_Characters = {
 			[31583] = true,
 			[64655] = true,
 			[53747] = true,
-			[44949] = true,
+			[42909] = true,
 			[50144] = true,
 			[56631] = true,
-			[31571] = true,
+			[31316] = true,
 			[39713] = true,
 			[53746] = true,
 			[63699] = true,
 			[31575] = true,
 			[42893] = true,
 			[63692] = true,
-			[42909] = true,
+			[31591] = true,
 			[31551] = true,
 			[31555] = true,
 			[44973] = true,
 			[31308] = true,
 			[31822] = true,
-			[31316] = true,
+			[31826] = true,
 			[31830] = true,
 			[31579] = true,
 			[61253] = true,
 			[31587] = true,
-			[31591] = true,
+			[44949] = true,
 			[61277] = true,
 			[61285] = true,
 			[61293] = true,
@@ -5688,7 +5688,7 @@ BtWQuests_Characters = {
 			[64202] = true,
 			[63700] = true,
 			[61245] = true,
-			[31826] = true,
+			[31571] = true,
 			[51994] = true,
 			[63691] = true,
 			[61244] = true,
@@ -5700,8 +5700,8 @@ BtWQuests_Characters = {
 			[57668] = true,
 			[57559] = true,
 			[61254] = true,
-			[62710] = true,
-			[44950] = true,
+			[62965] = true,
+			[61270] = true,
 			[61278] = true,
 			[61286] = true,
 			[61294] = true,
@@ -5746,6 +5746,14 @@ BtWQuests_Characters = {
 		["skills"] = {
 		},
 		["faction"] = "Alliance",
+		["warModeBonus"] = 20,
+		["warMode"] = false,
+		["name"] = "Feastfour",
+		["sex"] = 3,
+		["professions"] = {
+		},
+		["ignoredChains"] = {
+		},
 		["reputations"] = {
 			[1134] = {
 				["barMin"] = 0,
@@ -5811,13 +5819,6 @@ BtWQuests_Characters = {
 				["barValue"] = 3100,
 			},
 		},
-		["warMode"] = false,
-		["name"] = "Feastfour",
-		["sex"] = 3,
-		["professions"] = {
-		},
-		["ignoredChains"] = {
-		},
 		["questsActive"] = {
 			[44978] = {
 				{
@@ -5848,7 +5849,6 @@ BtWQuests_Characters = {
 				}, -- [1]
 			},
 		},
-		["warModeBonus"] = 20,
 	}, -- [12]
 	{
 		["covenantID"] = 0,
@@ -6140,9 +6140,9 @@ BtWQuests_Characters = {
 			[52128] = true,
 			[61236] = true,
 			[44992] = true,
-			[53124] = true,
-			[61284] = true,
 			[44948] = true,
+			[61284] = true,
+			[61300] = true,
 			[50100] = true,
 			[31728] = true,
 			[44996] = true,
@@ -6153,7 +6153,7 @@ BtWQuests_Characters = {
 			[50140] = true,
 			[62977] = true,
 			[50106] = true,
-			[61300] = true,
+			[53124] = true,
 			[56571] = true,
 			[53332] = true,
 			[31724] = true,
@@ -6215,71 +6215,6 @@ BtWQuests_Characters = {
 		},
 		["xpModifier"] = 0,
 		["renownLevel"] = 1,
-		["questsActive"] = {
-			[44999] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Sharptalon Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[45000] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests Completed with Bloodgazer Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[44978] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Direbeak Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[56119] = {
-				{
-					"0/4 Complete world quests in Nazjatar", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[44954] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Snowfeather Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[60545] = {
-				{
-					"0/1 Learn about your leaders' fate", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[50601] = {
-				{
-					"0/4 Complete 4 world quests in Stormsong Valley", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[53436] = {
-				{
-					"0/36000 Collect 36000 Azerite on Island Expeditions", -- [1]
-					"monster", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[50599] = {
-				{
-					"0/4 Complete 4 world quests in Tiragarde Sound", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-		},
 		["reputations"] = {
 			[1134] = {
 				["barMin"] = 0,
@@ -6346,6 +6281,71 @@ BtWQuests_Characters = {
 			},
 		},
 		["warModeBonus"] = 20,
+		["questsActive"] = {
+			[44999] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Sharptalon Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[45000] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests Completed with Bloodgazer Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[44978] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Direbeak Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[56119] = {
+				{
+					"0/4 Complete world quests in Nazjatar", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[44954] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Snowfeather Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[60545] = {
+				{
+					"0/1 Learn about your leaders' fate", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[50601] = {
+				{
+					"0/4 Complete 4 world quests in Stormsong Valley", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[53436] = {
+				{
+					"0/36000 Collect 36000 Azerite on Island Expeditions", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[50599] = {
+				{
+					"0/4 Complete 4 world quests in Tiragarde Sound", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+		},
 		["ignoredChains"] = {
 		},
 		["name"] = "Feastone",
@@ -6642,10 +6642,10 @@ BtWQuests_Characters = {
 			[53028] = true,
 			[50100] = true,
 			[61236] = true,
-			[61300] = true,
-			[44948] = true,
-			[61284] = true,
 			[53124] = true,
+			[61300] = true,
+			[61284] = true,
+			[44948] = true,
 			[44992] = true,
 			[31728] = true,
 			[44996] = true,
@@ -6718,7 +6718,6 @@ BtWQuests_Characters = {
 		},
 		["xpModifier"] = 0,
 		["renownLevel"] = 1,
-		["warModeBonus"] = 20,
 		["questsActive"] = {
 			[44999] = {
 				{
@@ -6849,6 +6848,7 @@ BtWQuests_Characters = {
 				["barMax"] = 9000,
 			},
 		},
+		["warModeBonus"] = 20,
 		["ignoredChains"] = {
 		},
 		["name"] = "Feastthree",
@@ -7132,13 +7132,13 @@ BtWQuests_Characters = {
 			[53028] = true,
 			[53209] = true,
 			[61236] = true,
-			[61300] = true,
+			[44948] = true,
 			[31880] = true,
 			[61284] = true,
-			[44948] = true,
+			[53124] = true,
 			[31785] = true,
-			[50106] = true,
 			[44996] = true,
+			[31728] = true,
 			[53210] = true,
 			[56627] = true,
 			[60490] = true,
@@ -7155,10 +7155,10 @@ BtWQuests_Characters = {
 			[61225] = true,
 			[64202] = true,
 			[50100] = true,
-			[31728] = true,
+			[50106] = true,
 			[44992] = true,
 			[63696] = true,
-			[53124] = true,
+			[61300] = true,
 			[51975] = true,
 			[31724] = true,
 			[32661] = true,
@@ -7211,72 +7211,6 @@ BtWQuests_Characters = {
 		["skills"] = {
 		},
 		["faction"] = "Horde",
-		["questsActive"] = {
-			[50602] = {
-				{
-					"0/4 Complete 4 world quests in Nazmir.", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[56120] = {
-				{
-					"0/4 Complete world quests in Nazjatar", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[44978] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Direbeak Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[44999] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Sharptalon Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[44954] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Snowfeather Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[50598] = {
-				{
-					"0/4 Complete 4 world quests in Zuldazar.", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[53435] = {
-				{
-					"0/36000 Collect 36000 Azerite on Island Expeditions", -- [1]
-					"monster", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[45000] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests Completed with Bloodgazer Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-		},
-		["warMode"] = false,
-		["name"] = "Feastyone",
-		["sex"] = 3,
-		["professions"] = {
-		},
-		["ignoredChains"] = {
-		},
-		["warModeBonus"] = 10,
 		["reputations"] = {
 			[530] = {
 				["barMin"] = 0,
@@ -7335,6 +7269,72 @@ BtWQuests_Characters = {
 				["barValue"] = 500,
 			},
 		},
+		["warMode"] = false,
+		["name"] = "Feastyone",
+		["sex"] = 3,
+		["professions"] = {
+		},
+		["ignoredChains"] = {
+		},
+		["questsActive"] = {
+			[50602] = {
+				{
+					"0/4 Complete 4 world quests in Nazmir.", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[56120] = {
+				{
+					"0/4 Complete world quests in Nazjatar", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[44978] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Direbeak Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[44999] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Sharptalon Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[44954] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Snowfeather Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[50598] = {
+				{
+					"0/4 Complete 4 world quests in Zuldazar.", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[53435] = {
+				{
+					"0/36000 Collect 36000 Azerite on Island Expeditions", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[45000] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests Completed with Bloodgazer Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+		},
+		["warModeBonus"] = 10,
 	}, -- [15]
 	{
 		["covenantID"] = 0,
@@ -7622,10 +7622,10 @@ BtWQuests_Characters = {
 			[53028] = true,
 			[52654] = true,
 			[61236] = true,
-			[44948] = true,
-			[53124] = true,
-			[61284] = true,
 			[61300] = true,
+			[44948] = true,
+			[61284] = true,
+			[53124] = true,
 			[31549] = true,
 			[44996] = true,
 			[31728] = true,
@@ -7700,80 +7700,6 @@ BtWQuests_Characters = {
 		["renownLevel"] = 1,
 		["warMode"] = false,
 		["sex"] = 3,
-		["warModeBonus"] = 20,
-		["skills"] = {
-		},
-		["name"] = "Feattwo",
-		["faction"] = "Alliance",
-		["professions"] = {
-		},
-		["ignoredChains"] = {
-		},
-		["reputations"] = {
-			[1134] = {
-				["barMin"] = 0,
-				["name"] = "Gilneas",
-				["standing"] = 4,
-				["barMax"] = 3000,
-				["barValue"] = 0,
-			},
-			[54] = {
-				["barMin"] = 3000,
-				["name"] = "Gnomeregan",
-				["standing"] = 5,
-				["barMax"] = 9000,
-				["barValue"] = 3100,
-			},
-			[47] = {
-				["barMin"] = 3000,
-				["name"] = "Ironforge",
-				["standing"] = 5,
-				["barMax"] = 9000,
-				["barValue"] = 4000,
-			},
-			[1353] = {
-				["barMin"] = 3000,
-				["name"] = "Tushui Pandaren",
-				["standing"] = 5,
-				["barMax"] = 9000,
-				["barValue"] = 3100,
-			},
-			[930] = {
-				["barMin"] = 3000,
-				["name"] = "Exodar",
-				["standing"] = 5,
-				["barMax"] = 9000,
-				["barValue"] = 3100,
-			},
-			[469] = {
-				["barMin"] = 3000,
-				["name"] = "Alliance",
-				["standing"] = 5,
-				["barMax"] = 9000,
-				["barValue"] = 3300,
-			},
-			[69] = {
-				["barMin"] = 3000,
-				["name"] = "Darnassus",
-				["standing"] = 5,
-				["barMax"] = 9000,
-				["barValue"] = 3100,
-			},
-			[1118] = {
-				["barMin"] = 0,
-				["name"] = "Classic",
-				["standing"] = 4,
-				["barMax"] = 3000,
-				["barValue"] = 0,
-			},
-			[72] = {
-				["barMin"] = 3000,
-				["name"] = "Stormwind",
-				["standing"] = 5,
-				["barMax"] = 9000,
-				["barValue"] = 3100,
-			},
-		},
 		["questsActive"] = {
 			[44999] = {
 				{
@@ -7837,6 +7763,80 @@ BtWQuests_Characters = {
 					"object", -- [2]
 					false, -- [3]
 				}, -- [1]
+			},
+		},
+		["skills"] = {
+		},
+		["name"] = "Feattwo",
+		["faction"] = "Alliance",
+		["professions"] = {
+		},
+		["ignoredChains"] = {
+		},
+		["warModeBonus"] = 20,
+		["reputations"] = {
+			[1134] = {
+				["barMin"] = 0,
+				["name"] = "Gilneas",
+				["standing"] = 4,
+				["barMax"] = 3000,
+				["barValue"] = 0,
+			},
+			[54] = {
+				["barMin"] = 3000,
+				["name"] = "Gnomeregan",
+				["standing"] = 5,
+				["barMax"] = 9000,
+				["barValue"] = 3100,
+			},
+			[47] = {
+				["barMin"] = 3000,
+				["name"] = "Ironforge",
+				["standing"] = 5,
+				["barMax"] = 9000,
+				["barValue"] = 4000,
+			},
+			[1353] = {
+				["barMin"] = 3000,
+				["name"] = "Tushui Pandaren",
+				["standing"] = 5,
+				["barMax"] = 9000,
+				["barValue"] = 3100,
+			},
+			[930] = {
+				["barMin"] = 3000,
+				["name"] = "Exodar",
+				["standing"] = 5,
+				["barMax"] = 9000,
+				["barValue"] = 3100,
+			},
+			[469] = {
+				["barMin"] = 3000,
+				["name"] = "Alliance",
+				["standing"] = 5,
+				["barMax"] = 9000,
+				["barValue"] = 3300,
+			},
+			[69] = {
+				["barMin"] = 3000,
+				["name"] = "Darnassus",
+				["standing"] = 5,
+				["barMax"] = 9000,
+				["barValue"] = 3100,
+			},
+			[1118] = {
+				["barMin"] = 0,
+				["name"] = "Classic",
+				["standing"] = 4,
+				["barMax"] = 3000,
+				["barValue"] = 0,
+			},
+			[72] = {
+				["barMin"] = 3000,
+				["name"] = "Stormwind",
+				["standing"] = 5,
+				["barMax"] = 9000,
+				["barValue"] = 3100,
 			},
 		},
 	}, -- [16]
@@ -9720,7 +9720,7 @@ BtWQuests_Characters = {
 			[59773] = true,
 			[39426] = true,
 			[51199] = true,
-			[39682] = true,
+			[11972] = true,
 			[47488] = true,
 			[52223] = true,
 			[44161] = true,
@@ -9734,11 +9734,11 @@ BtWQuests_Characters = {
 			[53295] = true,
 			[50432] = true,
 			[44597] = true,
-			[57982] = true,
 			[49792] = true,
+			[37507] = true,
 			[59317] = true,
 			[42738] = true,
-			[37507] = true,
+			[57982] = true,
 			[31832] = true,
 			[38147] = true,
 			[42370] = true,
@@ -9748,9 +9748,9 @@ BtWQuests_Characters = {
 			[34692] = true,
 			[38915] = true,
 			[39043] = true,
-			[51967] = true,
+			[39682] = true,
 			[47489] = true,
-			[11972] = true,
+			[51967] = true,
 			[53185] = true,
 			[51968] = true,
 			[42896] = true,
@@ -10053,7 +10053,6 @@ BtWQuests_Characters = {
 		},
 		["xpModifier"] = 0,
 		["renownLevel"] = 2,
-		["warModeBonus"] = 15,
 		["reputations"] = {
 			[1169] = {
 				["barMin"] = 0,
@@ -10358,6 +10357,7 @@ BtWQuests_Characters = {
 				}, -- [1]
 			},
 		},
+		["warModeBonus"] = 15,
 		["ignoredChains"] = {
 		},
 		["name"] = "Illyana",
@@ -10534,11 +10534,11 @@ BtWQuests_Characters = {
 			[31785] = true,
 			[56625] = true,
 			[61257] = true,
-			[31570] = true,
+			[44971] = true,
 			[62709] = true,
 			[31550] = true,
 			[62980] = true,
-			[44971] = true,
+			[31570] = true,
 			[53131] = true,
 			[63004] = true,
 			[31825] = true,
@@ -10556,18 +10556,18 @@ BtWQuests_Characters = {
 			[50103] = true,
 			[56729] = true,
 			[31881] = true,
-			[62710] = true,
+			[38995] = true,
 			[31889] = true,
 			[50143] = true,
 			[31897] = true,
 			[44974] = true,
-			[42910] = true,
+			[44950] = true,
 			[63690] = true,
 			[63698] = true,
 			[31917] = true,
+			[62710] = true,
+			[42910] = true,
 			[62965] = true,
-			[61270] = true,
-			[38995] = true,
 			[56633] = true,
 			[56652] = true,
 			[61284] = true,
@@ -10589,7 +10589,7 @@ BtWQuests_Characters = {
 			[56629] = true,
 			[64655] = true,
 			[59120] = true,
-			[44949] = true,
+			[42909] = true,
 			[50144] = true,
 			[31822] = true,
 			[31571] = true,
@@ -10597,20 +10597,20 @@ BtWQuests_Characters = {
 			[53746] = true,
 			[63699] = true,
 			[31575] = true,
-			[42893] = true,
+			[61253] = true,
 			[31587] = true,
 			[53747] = true,
 			[31551] = true,
 			[31555] = true,
-			[42909] = true,
+			[31591] = true,
 			[31308] = true,
 			[56631] = true,
 			[31826] = true,
 			[31830] = true,
 			[31579] = true,
-			[61253] = true,
+			[31583] = true,
 			[61261] = true,
-			[31591] = true,
+			[44949] = true,
 			[61277] = true,
 			[61285] = true,
 			[44973] = true,
@@ -10628,7 +10628,7 @@ BtWQuests_Characters = {
 			[61293] = true,
 			[63692] = true,
 			[63700] = true,
-			[31583] = true,
+			[42893] = true,
 			[61245] = true,
 			[51994] = true,
 			[64202] = true,
@@ -10642,7 +10642,7 @@ BtWQuests_Characters = {
 			[61251] = true,
 			[61254] = true,
 			[61258] = true,
-			[44950] = true,
+			[61270] = true,
 			[61278] = true,
 			[61286] = true,
 			[61294] = true,
@@ -10653,9 +10653,9 @@ BtWQuests_Characters = {
 			[53123] = true,
 			[31590] = true,
 			[31821] = true,
-			[63694] = true,
-			[53206] = true,
 			[62964] = true,
+			[53206] = true,
+			[63694] = true,
 			[59087] = true,
 			[63685] = true,
 			[63693] = true,
@@ -10687,6 +10687,14 @@ BtWQuests_Characters = {
 		["skills"] = {
 		},
 		["faction"] = "Horde",
+		["warModeBonus"] = 10,
+		["warMode"] = false,
+		["name"] = "Illydaria",
+		["sex"] = 3,
+		["professions"] = {
+		},
+		["ignoredChains"] = {
+		},
 		["reputations"] = {
 			[530] = {
 				["barMin"] = 0,
@@ -10745,13 +10753,6 @@ BtWQuests_Characters = {
 				["barValue"] = 500,
 			},
 		},
-		["warMode"] = false,
-		["name"] = "Illydaria",
-		["sex"] = 3,
-		["professions"] = {
-		},
-		["ignoredChains"] = {
-		},
 		["questsActive"] = {
 			[44978] = {
 				{
@@ -10782,7 +10783,6 @@ BtWQuests_Characters = {
 				}, -- [1]
 			},
 		},
-		["warModeBonus"] = 10,
 	}, -- [18]
 	{
 		["covenantID"] = 0,
@@ -11032,13 +11032,13 @@ BtWQuests_Characters = {
 			[14117] = true,
 			[14135] = true,
 			[61236] = true,
-			[44948] = true,
+			[61300] = true,
 			[50107] = true,
 			[61284] = true,
-			[61300] = true,
+			[53124] = true,
 			[14471] = true,
-			[50106] = true,
 			[44996] = true,
+			[31728] = true,
 			[44949] = true,
 			[53750] = true,
 			[44973] = true,
@@ -11068,10 +11068,10 @@ BtWQuests_Characters = {
 			[61239] = true,
 			[61285] = true,
 			[32471] = true,
-			[31728] = true,
+			[50106] = true,
 			[31976] = true,
 			[44997] = true,
-			[53124] = true,
+			[44948] = true,
 			[50100] = true,
 			[32008] = true,
 			[53748] = true,
@@ -11108,7 +11108,6 @@ BtWQuests_Characters = {
 		},
 		["xpModifier"] = 0,
 		["renownLevel"] = 1,
-		["warModeBonus"] = 10,
 		["questsActive"] = {
 			[14202] = {
 				{
@@ -11223,6 +11222,7 @@ BtWQuests_Characters = {
 				["barMax"] = 9000,
 			},
 		},
+		["warModeBonus"] = 10,
 		["ignoredChains"] = {
 		},
 		["name"] = "Käguya",
@@ -11243,7 +11243,7 @@ BtWQuests_Characters = {
 		["achievements"] = {
 		},
 		["race"] = "BloodElf",
-		["level"] = 53,
+		["level"] = 54,
 		["friendships"] = {
 		},
 		["realm"] = "Draenor",
@@ -11760,175 +11760,175 @@ BtWQuests_Characters = {
 			[31772] = true,
 			[49327] = true,
 			[29821] = true,
+			[48550] = true,
 			[35692] = true,
-			[61727] = true,
 			[27998] = true,
 			[56044] = true,
+			[61727] = true,
 			[36203] = true,
-			[47954] = true,
 			[50703] = true,
+			[47954] = true,
 			[35696] = true,
 			[51231] = true,
 			[51691] = true,
-			[51357] = true,
 			[52462] = true,
+			[51357] = true,
 			[61279] = true,
 			[48993] = true,
 			[63693] = true,
 			[63691] = true,
-			[35660] = true,
 			[34423] = true,
-			[47602] = true,
+			[48869] = true,
 			[38645] = true,
 			[32668] = true,
 			[51055] = true,
 			[34743] = true,
 			[49136] = true,
-			[48869] = true,
-			[39029] = true,
 			[34584] = true,
-			[51439] = true,
+			[39029] = true,
 			[50659] = true,
+			[51439] = true,
 			[51797] = true,
 			[61271] = true,
-			[8326] = true,
 			[61263] = true,
-			[29933] = true,
+			[8326] = true,
 			[31771] = true,
+			[29933] = true,
 			[53079] = true,
 			[34648] = true,
+			[64339] = true,
 			[27071] = true,
 			[27103] = true,
-			[38582] = true,
+			[48402] = true,
 			[31261] = true,
 			[8486] = true,
-			[38646] = true,
+			[40997] = true,
 			[31357] = true,
-			[8678] = true,
-			[48550] = true,
+			[49310] = true,
+			[63698] = true,
 			[34232] = true,
-			[64339] = true,
-			[48402] = true,
+			[8646] = true,
+			[8678] = true,
 			[31549] = true,
 			[31581] = true,
-			[8646] = true,
+			[38646] = true,
 			[34616] = true,
 			[51056] = true,
 			[46928] = true,
 			[29694] = true,
 			[31773] = true,
-			[40997] = true,
-			[49310] = true,
-			[33017] = true,
-			[63698] = true,
+			[8726] = true,
 			[50775] = true,
-			[48655] = true,
-			[51696] = true,
+			[33017] = true,
 			[60511] = true,
-			[8870] = true,
 			[51805] = true,
+			[48655] = true,
+			[47602] = true,
+			[51696] = true,
+			[8870] = true,
+			[49070] = true,
 			[35576] = true,
 			[13012] = true,
 			[13028] = true,
-			[49070] = true,
 			[63696] = true,
 			[50280] = true,
-			[33942] = true,
-			[33531] = true,
-			[36088] = true,
 			[63690] = true,
+			[33942] = true,
+			[51680] = true,
+			[36088] = true,
+			[63004] = true,
 			[9062] = true,
 			[34233] = true,
-			[51680] = true,
+			[61278] = true,
 			[38455] = true,
 			[34425] = true,
-			[63004] = true,
+			[49905] = true,
 			[38647] = true,
 			[32669] = true,
 			[51057] = true,
-			[61278] = true,
-			[40950] = true,
-			[49905] = true,
-			[9254] = true,
 			[47601] = true,
-			[51441] = true,
-			[36857] = true,
+			[40950] = true,
 			[49495] = true,
+			[9254] = true,
 			[51421] = true,
+			[51441] = true,
 			[50904] = true,
-			[51597] = true,
 			[61283] = true,
+			[52193] = true,
+			[47188] = true,
+			[51597] = true,
+			[49425] = true,
 			[49422] = true,
 			[35577] = true,
 			[31134] = true,
 			[63687] = true,
 			[27104] = true,
 			[49294] = true,
-			[52193] = true,
-			[47188] = true,
-			[35643] = true,
-			[49425] = true,
 			[47264] = true,
+			[61288] = true,
+			[55533] = true,
+			[51678] = true,
+			[49179] = true,
 			[31422] = true,
 			[38675] = true,
-			[61288] = true,
+			[34937] = true,
 			[34453] = true,
 			[34426] = true,
 			[31582] = true,
-			[8679] = true,
-			[55533] = true,
+			[52192] = true,
+			[36857] = true,
 			[61293] = true,
 			[36793] = true,
 			[49139] = true,
 			[31774] = true,
 			[48590] = true,
-			[51678] = true,
+			[39861] = true,
 			[51442] = true,
 			[31902] = true,
-			[49179] = true,
+			[51224] = true,
 			[47540] = true,
 			[36116] = true,
 			[48334] = true,
-			[34937] = true,
-			[43702] = true,
 			[11973] = true,
-			[13013] = true,
-			[39861] = true,
-			[50099] = true,
-			[52978] = true,
-			[51224] = true,
-			[34647] = true,
+			[43702] = true,
+			[33531] = true,
 			[56030] = true,
+			[61292] = true,
+			[50099] = true,
+			[61285] = true,
+			[49493] = true,
+			[51987] = true,
+			[49185] = true,
 			[44278] = true,
 			[56624] = true,
-			[61292] = true,
+			[30995] = true,
 			[34235] = true,
-			[61285] = true,
-			[50739] = true,
+			[50931] = true,
+			[58927] = true,
 			[34427] = true,
 			[10166] = true,
-			[50931] = true,
+			[52978] = true,
 			[32670] = true,
 			[30655] = true,
-			[63699] = true,
-			[8487] = true,
-			[49493] = true,
+			[36073] = true,
+			[39731] = true,
+			[51438] = true,
 			[51596] = true,
 			[31915] = true,
 			[51443] = true,
-			[51987] = true,
+			[47262] = true,
 			[63686] = true,
 			[43447] = true,
 			[8327] = true,
-			[30995] = true,
+			[62254] = true,
 			[47733] = true,
 			[29740] = true,
 			[33532] = true,
-			[62254] = true,
+			[35643] = true,
 			[31167] = true,
 			[27105] = true,
-			[36073] = true,
-			[31584] = true,
+			[59087] = true,
+			[8487] = true,
 			[33916] = true,
 			[31327] = true,
 			[53131] = true,
@@ -11941,143 +11941,143 @@ BtWQuests_Characters = {
 			[31583] = true,
 			[59120] = true,
 			[38714] = true,
-			[51060] = true,
+			[8679] = true,
 			[38842] = true,
 			[49141] = true,
 			[31775] = true,
-			[38780] = true,
-			[50805] = true,
-			[52190] = true,
-			[51438] = true,
-			[47262] = true,
+			[8647] = true,
+			[49491] = true,
+			[36631] = true,
+			[31891] = true,
+			[31550] = true,
 			[39354] = true,
 			[31999] = true,
 			[37435] = true,
 			[8871] = true,
-			[59087] = true,
+			[29695] = true,
 			[35580] = true,
-			[30112] = true,
+			[13013] = true,
 			[13029] = true,
 			[50101] = true,
-			[47928] = true,
+			[47250] = true,
 			[54323] = true,
 			[35964] = true,
 			[40122] = true,
-			[36631] = true,
+			[61273] = true,
 			[56626] = true,
-			[31891] = true,
-			[31550] = true,
-			[29695] = true,
-			[30496] = true,
+			[47734] = true,
 			[34429] = true,
+			[32671] = true,
+			[30496] = true,
+			[50805] = true,
 			[57010] = true,
 			[36604] = true,
-			[32671] = true,
-			[61296] = true,
+			[38715] = true,
+			[30656] = true,
 			[49078] = true,
-			[49489] = true,
-			[61260] = true,
-			[47250] = true,
+			[49309] = true,
+			[31765] = true,
+			[48800] = true,
 			[35005] = true,
-			[47734] = true,
+			[50771] = true,
 			[35603] = true,
 			[51573] = true,
-			[49309] = true,
+			[35579] = true,
 			[53748] = true,
-			[31765] = true,
+			[61258] = true,
 			[51829] = true,
 			[49846] = true,
 			[35581] = true,
-			[48800] = true,
+			[61275] = true,
 			[35709] = true,
 			[50102] = true,
-			[50771] = true,
-			[35579] = true,
+			[40849] = true,
+			[52189] = true,
 			[51595] = true,
-			[61258] = true,
+			[56627] = true,
 			[31360] = true,
 			[11606] = true,
 			[34174] = true,
 			[34238] = true,
-			[50098] = true,
+			[48823] = true,
 			[63685] = true,
 			[31552] = true,
-			[48823] = true,
+			[31584] = true,
 			[48887] = true,
 			[55092] = true,
-			[61297] = true,
+			[51062] = true,
 			[49079] = true,
 			[29697] = true,
 			[31776] = true,
 			[8237] = true,
-			[47522] = true,
+			[38780] = true,
 			[29825] = true,
-			[40849] = true,
+			[48850] = true,
 			[27842] = true,
-			[48825] = true,
+			[51830] = true,
 			[53749] = true,
 			[51766] = true,
 			[47736] = true,
 			[49847] = true,
-			[8648] = true,
+			[47928] = true,
 			[35646] = true,
-			[56429] = true,
+			[51991] = true,
 			[50103] = true,
-			[49145] = true,
+			[38716] = true,
 			[30571] = true,
-			[52189] = true,
-			[47738] = true,
-			[48850] = true,
+			[27682] = true,
+			[53746] = true,
+			[30652] = true,
 			[56628] = true,
 			[50551] = true,
 			[34239] = true,
-			[52946] = true,
-			[38716] = true,
+			[38753] = true,
+			[29935] = true,
 			[34431] = true,
-			[51991] = true,
+			[30657] = true,
 			[42747] = true,
 			[38717] = true,
 			[61298] = true,
 			[49080] = true,
 			[49144] = true,
 			[55349] = true,
-			[34241] = true,
-			[53746] = true,
-			[61299] = true,
-			[49146] = true,
-			[27682] = true,
-			[61295] = true,
+			[30510] = true,
+			[61284] = true,
+			[27681] = true,
+			[53137] = true,
+			[53583] = true,
+			[47735] = true,
 			[53750] = true,
-			[29935] = true,
+			[48549] = true,
 			[47737] = true,
-			[38753] = true,
+			[52191] = true,
 			[35583] = true,
 			[52023] = true,
-			[30510] = true,
+			[44974] = true,
 			[27107] = true,
-			[61284] = true,
+			[40573] = true,
 			[8472] = true,
-			[27681] = true,
+			[48825] = true,
 			[48313] = true,
 			[38142] = true,
 			[56629] = true,
-			[61236] = true,
-			[53137] = true,
-			[47564] = true,
-			[53583] = true,
-			[40573] = true,
-			[31585] = true,
 			[48889] = true,
+			[61299] = true,
+			[47564] = true,
+			[49145] = true,
+			[31553] = true,
+			[31585] = true,
+			[8648] = true,
 			[38718] = true,
 			[8680] = true,
 			[49081] = true,
 			[36863] = true,
 			[31777] = true,
 			[47226] = true,
-			[47735] = true,
+			[47897] = true,
 			[29826] = true,
-			[31553] = true,
-			[34523] = true,
+			[46930] = true,
+			[35648] = true,
 			[31969] = true,
 			[53751] = true,
 			[37439] = true,
@@ -12087,80 +12087,80 @@ BtWQuests_Characters = {
 			[13014] = true,
 			[13030] = true,
 			[50105] = true,
-			[9253] = true,
+			[48314] = true,
 			[56374] = true,
 			[29739] = true,
 			[40126] = true,
 			[13126] = true,
-			[42896] = true,
-			[9064] = true,
 			[50617] = true,
-			[52191] = true,
+			[9064] = true,
+			[34241] = true,
+			[38655] = true,
 			[2280] = true,
-			[31586] = true,
+			[34817] = true,
 			[9144] = true,
 			[48890] = true,
 			[38719] = true,
 			[61300] = true,
 			[49082] = true,
-			[34817] = true,
+			[49146] = true,
 			[29611] = true,
 			[9256] = true,
-			[42750] = true,
+			[39130] = true,
 			[43261] = true,
-			[47897] = true,
-			[48549] = true,
-			[46930] = true,
+			[51985] = true,
+			[31821] = true,
+			[51810] = true,
 			[9352] = true,
 			[37440] = true,
 			[47739] = true,
-			[51985] = true,
-			[39130] = true,
+			[51695] = true,
+			[53207] = true,
 			[43837] = true,
 			[27076] = true,
 			[27108] = true,
-			[61291] = true,
+			[62708] = true,
 			[56375] = true,
 			[35969] = true,
 			[48315] = true,
-			[62708] = true,
+			[38144] = true,
 			[56631] = true,
-			[38145] = true,
-			[31821] = true,
-			[62964] = true,
-			[50746] = true,
-			[34434] = true,
 			[11703] = true,
 			[38656] = true,
+			[62964] = true,
+			[48699] = true,
+			[34434] = true,
+			[31586] = true,
+			[42750] = true,
 			[61237] = true,
 			[9704] = true,
 			[44989] = true,
 			[49147] = true,
 			[31778] = true,
 			[48331] = true,
-			[51695] = true,
-			[43262] = true,
-			[53207] = true,
-			[27844] = true,
 			[30620] = true,
+			[43262] = true,
+			[27009] = true,
+			[27844] = true,
+			[44659] = true,
 			[11911] = true,
 			[37441] = true,
 			[47740] = true,
-			[50812] = true,
+			[29822] = true,
 			[47868] = true,
-			[8649] = true,
-			[8713] = true,
+			[28560] = true,
+			[11634] = true,
 			[50107] = true,
-			[27009] = true,
+			[27679] = true,
 			[50235] = true,
 			[64628] = true,
-			[44659] = true,
+			[38145] = true,
 			[62709] = true,
-			[37187] = true,
-			[31555] = true,
-			[29822] = true,
+			[53145] = true,
+			[61287] = true,
+			[62965] = true,
 			[30467] = true,
-			[36099] = true,
+			[38684] = true,
 			[34435] = true,
 			[51593] = true,
 			[42751] = true,
@@ -12168,60 +12168,60 @@ BtWQuests_Characters = {
 			[40832] = true,
 			[44990] = true,
 			[49148] = true,
-			[28560] = true,
+			[56881] = true,
 			[53370] = true,
 			[49340] = true,
-			[35933] = true,
+			[32662] = true,
 			[37186] = true,
-			[49278] = true,
+			[51532] = true,
 			[51643] = true,
-			[27679] = true,
+			[31324] = true,
 			[37442] = true,
 			[47741] = true,
 			[49852] = true,
 			[33540] = true,
-			[11634] = true,
-			[53145] = true,
+			[61286] = true,
+			[33568] = true,
 			[27109] = true,
-			[61287] = true,
-			[8473] = true,
-			[50749] = true,
-			[36035] = true,
-			[62710] = true,
-			[56633] = true,
-			[47103] = true,
-			[48573] = true,
-			[51772] = true,
-			[50748] = true,
 			[34436] = true,
+			[8473] = true,
+			[31555] = true,
+			[36035] = true,
+			[36099] = true,
+			[56633] = true,
+			[8649] = true,
+			[48573] = true,
+			[49149] = true,
+			[50748] = true,
+			[50812] = true,
 			[31587] = true,
 			[46846] = true,
 			[61239] = true,
 			[8681] = true,
 			[44991] = true,
-			[49149] = true,
+			[8713] = true,
 			[31779] = true,
-			[32662] = true,
-			[51532] = true,
-			[29828] = true,
+			[50745] = true,
 			[47422] = true,
-			[51770] = true,
-			[29924] = true,
-			[42741] = true,
+			[29828] = true,
+			[37187] = true,
 			[37443] = true,
+			[29924] = true,
 			[8873] = true,
+			[51772] = true,
+			[47742] = true,
 			[8889] = true,
 			[47870] = true,
 			[13015] = true,
 			[13031] = true,
 			[50109] = true,
-			[47871] = true,
-			[31324] = true,
+			[44975] = true,
+			[13127] = true,
 			[13095] = true,
 			[36036] = true,
 			[62711] = true,
-			[31588] = true,
-			[27230] = true,
+			[32672] = true,
+			[50749] = true,
 			[48574] = true,
 			[30468] = true,
 			[13207] = true,
@@ -12232,111 +12232,111 @@ BtWQuests_Characters = {
 			[30660] = true,
 			[44992] = true,
 			[11272] = true,
-			[35677] = true,
+			[49278] = true,
 			[53372] = true,
-			[52861] = true,
-			[30650] = true,
+			[29827] = true,
+			[51771] = true,
 			[47423] = true,
 			[64514] = true,
-			[38724] = true,
+			[51574] = true,
 			[49662] = true,
 			[51773] = true,
 			[51837] = true,
-			[44975] = true,
-			[54012] = true,
-			[29827] = true,
-			[31556] = true,
-			[27110] = true,
-			[51771] = true,
-			[51574] = true,
-			[47574] = true,
 			[55053] = true,
-			[38148] = true,
-			[11608] = true,
+			[47871] = true,
 			[61235] = true,
+			[49002] = true,
+			[27110] = true,
+			[51675] = true,
+			[41724] = true,
+			[38148] = true,
+			[31556] = true,
+			[56571] = true,
+			[11608] = true,
+			[31588] = true,
 			[51592] = true,
 			[54780] = true,
 			[50750] = true,
-			[11688] = true,
+			[52861] = true,
 			[38596] = true,
 			[48895] = true,
-			[61241] = true,
+			[38724] = true,
 			[9705] = true,
 			[44993] = true,
 			[34822] = true,
-			[33501] = true,
+			[61241] = true,
 			[29765] = true,
 			[31881] = true,
-			[41724] = true,
-			[29861] = true,
 			[34438] = true,
-			[42865] = true,
+			[29861] = true,
+			[34432] = true,
+			[61289] = true,
 			[49663] = true,
 			[36879] = true,
 			[27974] = true,
-			[34432] = true,
+			[32673] = true,
 			[35590] = true,
 			[42892] = true,
-			[61289] = true,
-			[51775] = true,
+			[51536] = true,
+			[52024] = true,
 			[44034] = true,
 			[31593] = true,
 			[33927] = true,
 			[48320] = true,
 			[36102] = true,
-			[32673] = true,
-			[51536] = true,
+			[52450] = true,
+			[49334] = true,
 			[48576] = true,
 			[30469] = true,
 			[50751] = true,
 			[34439] = true,
-			[8714] = true,
 			[48896] = true,
+			[52990] = true,
 			[48960] = true,
 			[42883] = true,
 			[44994] = true,
 			[47105] = true,
 			[48585] = true,
-			[52450] = true,
-			[49334] = true,
-			[13149] = true,
-			[34248] = true,
-			[37254] = true,
-			[48897] = true,
-			[49664] = true,
-			[8346] = true,
-			[39393] = true,
-			[42884] = true,
-			[47873] = true,
+			[33569] = true,
 			[36509] = true,
-			[36605] = true,
-			[27111] = true,
 			[47959] = true,
+			[30594] = true,
+			[37254] = true,
+			[8346] = true,
+			[49664] = true,
+			[51775] = true,
+			[50522] = true,
+			[38143] = true,
+			[47873] = true,
+			[50104] = true,
+			[9119] = true,
+			[27111] = true,
+			[50108] = true,
 			[8474] = true,
 			[8490] = true,
 			[48321] = true,
-			[30594] = true,
-			[47874] = true,
-			[13016] = true,
+			[30595] = true,
 			[48577] = true,
-			[50104] = true,
+			[8345] = true,
+			[34248] = true,
+			[8650] = true,
 			[50752] = true,
 			[34440] = true,
 			[31589] = true,
 			[38662] = true,
-			[9119] = true,
-			[8682] = true,
+			[34824] = true,
+			[42884] = true,
 			[44995] = true,
-			[29702] = true,
-			[34249] = true,
+			[8714] = true,
+			[11686] = true,
 			[51591] = true,
-			[47647] = true,
+			[8330] = true,
 			[29830] = true,
 			[29862] = true,
 			[27847] = true,
-			[36610] = true,
+			[47874] = true,
 			[49665] = true,
-			[8345] = true,
+			[13016] = true,
 			[8874] = true,
 			[8890] = true,
 			[54015] = true,
@@ -12344,145 +12344,145 @@ BtWQuests_Characters = {
 			[13032] = true,
 			[62395] = true,
 			[47241] = true,
-			[30595] = true,
+			[30619] = true,
 			[35976] = true,
 			[48322] = true,
-			[13128] = true,
-			[11686] = true,
+			[50433] = true,
+			[34249] = true,
 			[9066] = true,
 			[48578] = true,
-			[30619] = true,
 			[38743] = true,
+			[37249] = true,
 			[50817] = true,
 			[50881] = true,
 			[38663] = true,
 			[61244] = true,
 			[30662] = true,
 			[44996] = true,
-			[37249] = true,
-			[49138] = true,
-			[9258] = true,
+			[29939] = true,
 			[50550] = true,
-			[53747] = true,
-			[35593] = true,
-			[47491] = true,
+			[9258] = true,
+			[29860] = true,
 			[34760] = true,
+			[31831] = true,
+			[47491] = true,
+			[35622] = true,
 			[49666] = true,
 			[34255] = true,
-			[31831] = true,
-			[42748] = true,
+			[30661] = true,
+			[35593] = true,
 			[56063] = true,
 			[47939] = true,
-			[34375] = true,
-			[62396] = true,
 			[51234] = true,
-			[33866] = true,
+			[27112] = true,
 			[33649] = true,
-			[44106] = true,
+			[33866] = true,
 			[38146] = true,
-			[51138] = true,
+			[44106] = true,
 			[29844] = true,
-			[34250] = true,
 			[50804] = true,
+			[36596] = true,
+			[34250] = true,
+			[53121] = true,
 			[34378] = true,
 			[50818] = true,
 			[31590] = true,
 			[47880] = true,
 			[61245] = true,
 			[40839] = true,
+			[51138] = true,
 			[44997] = true,
-			[36170] = true,
 			[36937] = true,
-			[11905] = true,
-			[36596] = true,
+			[9130] = true,
+			[30596] = true,
 			[31878] = true,
 			[51718] = true,
 			[27848] = true,
 			[51650] = true,
 			[49667] = true,
 			[49731] = true,
-			[9130] = true,
+			[50979] = true,
 			[27850] = true,
 			[47432] = true,
 			[33611] = true,
-			[49668] = true,
+			[47571] = true,
 			[62397] = true,
 			[44038] = true,
 			[33867] = true,
 			[33931] = true,
 			[48324] = true,
-			[40840] = true,
 			[48452] = true,
+			[36170] = true,
 			[49287] = true,
 			[34251] = true,
-			[36829] = true,
+			[50100] = true,
 			[50755] = true,
-			[35019] = true,
+			[40840] = true,
 			[34507] = true,
-			[36618] = true,
-			[30596] = true,
+			[52994] = true,
+			[55425] = true,
 			[30663] = true,
 			[44998] = true,
 			[7926] = true,
-			[50979] = true,
-			[49284] = true,
 			[49348] = true,
+			[49284] = true,
+			[35019] = true,
 			[30855] = true,
-			[27113] = true,
-			[51587] = true,
-			[8475] = true,
 			[30983] = true,
+			[51587] = true,
+			[47621] = true,
+			[49668] = true,
 			[8347] = true,
-			[50100] = true,
+			[33610] = true,
 			[49860] = true,
 			[54018] = true,
 			[33612] = true,
-			[34422] = true,
+			[27113] = true,
 			[62398] = true,
 			[31239] = true,
 			[33868] = true,
 			[8491] = true,
-			[33610] = true,
 			[13206] = true,
-			[8683] = true,
 			[47576] = true,
+			[51059] = true,
+			[31574] = true,
 			[34252] = true,
-			[51332] = true,
-			[31879] = true,
+			[29850] = true,
+			[53123] = true,
 			[8619] = true,
 			[31591] = true,
 			[8651] = true,
 			[61247] = true,
-			[53123] = true,
-			[49669] = true,
+			[8683] = true,
+			[29704] = true,
 			[38922] = true,
 			[29736] = true,
-			[49285] = true,
-			[51059] = true,
+			[51332] = true,
+			[31879] = true,
 			[33037] = true,
-			[55618] = true,
-			[29850] = true,
+			[29864] = true,
+			[49669] = true,
 			[31975] = true,
 			[47622] = true,
 			[13017] = true,
 			[8875] = true,
 			[8891] = true,
-			[29704] = true,
 			[33613] = true,
+			[35660] = true,
 			[13033] = true,
 			[33614] = true,
 			[13065] = true,
 			[33869] = true,
 			[33933] = true,
 			[48326] = true,
-			[9035] = true,
+			[44296] = true,
 			[48454] = true,
 			[31112] = true,
 			[34253] = true,
 			[49862] = true,
 			[50757] = true,
 			[34445] = true,
-			[44296] = true,
+			[9035] = true,
 			[36039] = true,
 			[47623] = true,
 			[53124] = true,
@@ -12504,80 +12504,80 @@ BtWQuests_Characters = {
 			[33550] = true,
 			[13129] = true,
 			[32674] = true,
+			[55618] = true,
+			[49285] = true,
 			[34442] = true,
-			[31574] = true,
-			[29864] = true,
 			[36109] = true,
 			[31400] = true,
 			[31830] = true,
 			[48888] = true,
 			[29834] = true,
-			[50980] = true,
+			[8475] = true,
 			[34446] = true,
 			[31592] = true,
 			[36621] = true,
 			[61249] = true,
 			[40843] = true,
-			[47571] = true,
-			[47621] = true,
+			[50980] = true,
+			[36618] = true,
 			[29737] = true,
 			[34958] = true,
-			[55425] = true,
+			[34422] = true,
 			[31880] = true,
 			[51526] = true,
 			[51590] = true,
 			[31976] = true,
 			[32008] = true,
-			[52994] = true,
+			[36829] = true,
 			[27359] = true,
 			[49863] = true,
 			[54021] = true,
 			[35662] = true,
+			[11905] = true,
 			[50561] = true,
 			[38147] = true,
-			[30457] = true,
 			[52294] = true,
-			[53121] = true,
+			[30457] = true,
 			[36046] = true,
-			[30661] = true,
+			[62396] = true,
 			[36174] = true,
-			[35622] = true,
+			[34375] = true,
 			[48584] = true,
 			[62977] = true,
-			[27112] = true,
-			[29860] = true,
-			[30569] = true,
-			[29939] = true,
-			[61250] = true,
 			[49538] = true,
+			[42748] = true,
+			[30569] = true,
+			[53747] = true,
+			[61250] = true,
+			[49138] = true,
 			[34642] = true,
 			[49160] = true,
-			[8330] = true,
+			[13128] = true,
 			[49288] = true,
 			[39117] = true,
 			[49416] = true,
 			[47433] = true,
 			[47497] = true,
 			[35279] = true,
-			[50108] = true,
-			[50433] = true,
-			[55054] = true,
+			[29702] = true,
+			[8682] = true,
+			[48897] = true,
 			[49864] = true,
 			[51975] = true,
-			[38143] = true,
-			[50522] = true,
-			[34824] = true,
+			[36610] = true,
+			[47647] = true,
+			[55054] = true,
 			[31241] = true,
 			[35919] = true,
 			[35983] = true,
 			[48329] = true,
-			[33569] = true,
+			[36605] = true,
 			[31401] = true,
-			[42910] = true,
+			[39393] = true,
 			[34256] = true,
 			[62978] = true,
-			[52024] = true,
-			[8650] = true,
+			[42910] = true,
+			[13149] = true,
 			[8636] = true,
 			[8652] = true,
 			[61251] = true,
@@ -12586,131 +12586,131 @@ BtWQuests_Characters = {
 			[8716] = true,
 			[31785] = true,
 			[49289] = true,
-			[52990] = true,
+			[42865] = true,
 			[33041] = true,
 			[47434] = true,
 			[47498] = true,
 			[35280] = true,
-			[51675] = true,
+			[11688] = true,
 			[51784] = true,
-			[49002] = true,
+			[33501] = true,
 			[8892] = true,
 			[35600] = true,
 			[13018] = true,
-			[55094] = true,
-			[56571] = true,
+			[54012] = true,
+			[47574] = true,
 			[13066] = true,
+			[55094] = true,
 			[50106] = true,
-			[32672] = true,
 			[48330] = true,
+			[47103] = true,
 			[36506] = true,
 			[43576] = true,
-			[50745] = true,
 			[34257] = true,
 			[62979] = true,
-			[33568] = true,
-			[61286] = true,
+			[30650] = true,
+			[35677] = true,
 			[30570] = true,
 			[38671] = true,
 			[34641] = true,
 			[42893] = true,
+			[62710] = true,
+			[27230] = true,
+			[42741] = true,
+			[51770] = true,
 			[36077] = true,
-			[13127] = true,
-			[56881] = true,
-			[38684] = true,
-			[47742] = true,
 			[51465] = true,
 			[47435] = true,
 			[47499] = true,
-			[53028] = true,
-			[47314] = true,
-			[51785] = true,
-			[13124] = true,
-			[49866] = true,
-			[50769] = true,
 			[61238] = true,
+			[53028] = true,
+			[51785] = true,
+			[47314] = true,
+			[49866] = true,
+			[13124] = true,
+			[35933] = true,
+			[50769] = true,
 			[29690] = true,
 			[51668] = true,
-			[62965] = true,
 			[44457] = true,
 			[34290] = true,
 			[36049] = true,
 			[11595] = true,
 			[11611] = true,
-			[51810] = true,
+			[50746] = true,
 			[34258] = true,
 			[62980] = true,
 			[48715] = true,
 			[48779] = true,
-			[44974] = true,
+			[61291] = true,
 			[36625] = true,
 			[61253] = true,
 			[40847] = true,
-			[48699] = true,
+			[61236] = true,
 			[36881] = true,
 			[49227] = true,
 			[47244] = true,
-			[38144] = true,
+			[47738] = true,
 			[29835] = true,
 			[47436] = true,
 			[51594] = true,
 			[31978] = true,
 			[51722] = true,
 			[51786] = true,
-			[38655] = true,
+			[42896] = true,
+			[9253] = true,
+			[34523] = true,
 			[34261] = true,
-			[48314] = true,
 			[44663] = true,
 			[31308] = true,
-			[35648] = true,
 			[51674] = true,
 			[30460] = true,
 			[35986] = true,
 			[48332] = true,
 			[55407] = true,
 			[38225] = true,
-			[30652] = true,
+			[30593] = true,
 			[34259] = true,
 			[52746] = true,
-			[52187] = true,
+			[61295] = true,
 			[46733] = true,
 			[32618] = true,
-			[61274] = true,
+			[52187] = true,
 			[61254] = true,
-			[30657] = true,
-			[30593] = true,
+			[61274] = true,
+			[52946] = true,
 			[51211] = true,
-			[57559] = true,
+			[56429] = true,
 			[47245] = true,
 			[55497] = true,
-			[61275] = true,
+			[61297] = true,
 			[47437] = true,
 			[47501] = true,
-			[51062] = true,
+			[57559] = true,
 			[49676] = true,
 			[51787] = true,
-			[51830] = true,
-			[27680] = true,
+			[47522] = true,
+			[50098] = true,
 			[51979] = true,
+			[27680] = true,
 			[61294] = true,
-			[56627] = true,
 			[61270] = true,
 			[50328] = true,
-			[61273] = true,
+			[61296] = true,
 			[35987] = true,
 			[36051] = true,
 			[36115] = true,
-			[38715] = true,
+			[61260] = true,
+			[30112] = true,
+			[49489] = true,
 			[61280] = true,
 			[36654] = true,
-			[49491] = true,
-			[30656] = true,
 			[48781] = true,
 			[51440] = true,
 			[8653] = true,
 			[29612] = true,
 			[8685] = true,
-			[8647] = true,
+			[51060] = true,
 			[8717] = true,
 			[38994] = true,
 			[51340] = true,
@@ -12718,22 +12718,22 @@ BtWQuests_Characters = {
 			[49421] = true,
 			[47438] = true,
 			[47502] = true,
-			[39731] = true,
+			[52190] = true,
 			[49677] = true,
 			[51788] = true,
-			[49185] = true,
+			[50739] = true,
 			[51916] = true,
 			[64262] = true,
 			[13019] = true,
+			[63699] = true,
 			[53147] = true,
-			[58927] = true,
 			[13067] = true,
 			[31575] = true,
 			[54411] = true,
 			[52428] = true,
 			[13131] = true,
+			[34647] = true,
 			[29815] = true,
-			[52192] = true,
 			[38355] = true,
 			[56842] = true,
 			[52188] = true,
@@ -12775,7 +12775,7 @@ BtWQuests_Characters = {
 			[61257] = true,
 			[42898] = true,
 			[31724] = true,
-			[8726] = true,
+			[38582] = true,
 			[29741] = true,
 			[47248] = true,
 			[63688] = true,
@@ -12822,6 +12822,16 @@ BtWQuests_Characters = {
 			},
 		},
 		["faction"] = "Horde",
+		["warModeBonus"] = 10,
+		["warMode"] = false,
+		["name"] = "Lianxia",
+		["sex"] = 3,
+		["professions"] = {
+			[393] = true,
+			[185] = true,
+		},
+		["ignoredChains"] = {
+		},
 		["questsActive"] = {
 			[56376] = {
 				{
@@ -12868,7 +12878,12 @@ BtWQuests_Characters = {
 			},
 			[47918] = {
 			},
-			[57562] = {
+			[51051] = {
+				{
+					"0/10 Deep Sea Satin", -- [1]
+					"item", -- [2]
+					false, -- [3]
+				}, -- [1]
 			},
 			[44978] = {
 				{
@@ -12883,6 +12898,8 @@ BtWQuests_Characters = {
 					"object", -- [2]
 					false, -- [3]
 				}, -- [1]
+			},
+			[57566] = {
 			},
 			[55522] = {
 			},
@@ -12900,6 +12917,13 @@ BtWQuests_Characters = {
 					false, -- [3]
 				}, -- [1]
 			},
+			[56120] = {
+				{
+					"0/4 Complete world quests in Nazjatar", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
 			[53208] = {
 				{
 					"Speak with Druza Netherfang to teleport to Ar'gorok, then report to Wistel Silversnitch.", -- [1]
@@ -12907,7 +12931,12 @@ BtWQuests_Characters = {
 					true, -- [3]
 				}, -- [1]
 			},
-			[56161] = {
+			[14483] = {
+				{
+					"Bring the Faded Lovely Greeting Card to Detective Snap Snagglebolt in Orgrimmar.", -- [1]
+					"log", -- [2]
+					true, -- [3]
+				}, -- [1]
 			},
 			[50606] = {
 				{
@@ -12916,19 +12945,7 @@ BtWQuests_Characters = {
 					false, -- [3]
 				}, -- [1]
 			},
-			[50604] = {
-				{
-					"0/3 Complete 3 Tortollan Seeker World Quests", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[51042] = {
-				{
-					"0/20 Monelite Ore", -- [1]
-					"item", -- [2]
-					false, -- [3]
-				}, -- [1]
+			[56161] = {
 			},
 			[44999] = {
 				{
@@ -12937,15 +12954,6 @@ BtWQuests_Characters = {
 					false, -- [3]
 				}, -- [1]
 			},
-		},
-		["warMode"] = false,
-		["name"] = "Lianxia",
-		["sex"] = 3,
-		["professions"] = {
-			[393] = true,
-			[185] = true,
-		},
-		["ignoredChains"] = {
 		},
 		["reputations"] = {
 			[1270] = {
@@ -13299,7 +13307,6 @@ BtWQuests_Characters = {
 				["barValue"] = 8151,
 			},
 		},
-		["warModeBonus"] = 10,
 	}, -- [20]
 	{
 		["covenantID"] = 0,
@@ -13850,8 +13857,8 @@ BtWQuests_Characters = {
 			[29633] = true,
 			[60125] = true,
 			[34582] = true,
-			[34646] = true,
 			[61244] = true,
+			[31661] = true,
 			[29631] = true,
 			[53124] = true,
 			[41967] = true,
@@ -13931,7 +13938,7 @@ BtWQuests_Characters = {
 			[27778] = true,
 			[29904] = true,
 			[31902] = true,
-			[30000] = true,
+			[31023] = true,
 			[43376] = true,
 			[59776] = true,
 			[29920] = true,
@@ -13939,14 +13946,14 @@ BtWQuests_Characters = {
 			[31087] = true,
 			[27922] = true,
 			[31007] = true,
-			[31023] = true,
+			[34393] = true,
 			[53862] = true,
 			[46733] = true,
 			[31071] = true,
 			[36567] = true,
 			[28002] = true,
 			[34585] = true,
-			[34393] = true,
+			[30000] = true,
 			[61247] = true,
 			[61279] = true,
 			[31183] = true,
@@ -13979,7 +13986,7 @@ BtWQuests_Characters = {
 			[60129] = true,
 			[29585] = true,
 			[28611] = true,
-			[31661] = true,
+			[34646] = true,
 			[61280] = true,
 			[42898] = true,
 			[44976] = true,
@@ -14101,6 +14108,94 @@ BtWQuests_Characters = {
 		},
 		["xpModifier"] = 0,
 		["renownLevel"] = 1,
+		["questsActive"] = {
+			[44999] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Sharptalon Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[54180] = {
+			},
+			[44978] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Direbeak Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[42421] = {
+				{
+					"0/4 Complete 4 world quests in Suramar", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[44954] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Snowfeather Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[11007] = {
+			},
+			[43394] = {
+				{
+					"0/1 Felblaze Ingress portal used", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[53028] = {
+			},
+			[45000] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests Completed with Bloodgazer Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[39875] = {
+				{
+					"0/2  ", -- [1]
+					"item", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[48642] = {
+				{
+					"0/4 Complete 4 Argussian Reach World Quests", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[42170] = {
+				{
+					"0/4 Complete 4 world quests in Val'sharah", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[24428] = {
+			},
+			[53436] = {
+				{
+					"0/36000 Collect 36000 Azerite on Island Expeditions", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[46247] = {
+				{
+					"1/1 Legion Assault completed", -- [1]
+					"object", -- [2]
+					true, -- [3]
+				}, -- [1]
+			},
+		},
+		["warModeBonus"] = 20,
 		["reputations"] = {
 			[891] = {
 				["barMin"] = 0,
@@ -14432,94 +14527,6 @@ BtWQuests_Characters = {
 				["barMax"] = 3000,
 			},
 		},
-		["questsActive"] = {
-			[44999] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Sharptalon Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[54180] = {
-			},
-			[44978] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Direbeak Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[42421] = {
-				{
-					"0/4 Complete 4 world quests in Suramar", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[44954] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Snowfeather Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[11007] = {
-			},
-			[43394] = {
-				{
-					"0/1 Felblaze Ingress portal used", -- [1]
-					"monster", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[53028] = {
-			},
-			[45000] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests Completed with Bloodgazer Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[39875] = {
-				{
-					"0/2  ", -- [1]
-					"item", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[48642] = {
-				{
-					"0/4 Complete 4 Argussian Reach World Quests", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[42170] = {
-				{
-					"0/4 Complete 4 world quests in Val'sharah", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[24428] = {
-			},
-			[53436] = {
-				{
-					"0/36000 Collect 36000 Azerite on Island Expeditions", -- [1]
-					"monster", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[46247] = {
-				{
-					"1/1 Legion Assault completed", -- [1]
-					"object", -- [2]
-					true, -- [3]
-				}, -- [1]
-			},
-		},
-		["warModeBonus"] = 20,
 		["ignoredChains"] = {
 		},
 		["name"] = "Luminaxia",
@@ -14813,15 +14820,15 @@ BtWQuests_Characters = {
 			[63694] = true,
 			[31879] = true,
 			[61282] = true,
-			[32470] = true,
 			[53123] = true,
+			[61299] = true,
 			[50107] = true,
 			[31919] = true,
 			[61235] = true,
 			[56652] = true,
 			[6341] = true,
 			[61283] = true,
-			[61299] = true,
+			[32470] = true,
 			[50105] = true,
 			[31975] = true,
 			[44995] = true,
@@ -14850,13 +14857,13 @@ BtWQuests_Characters = {
 			[50101] = true,
 			[56626] = true,
 			[61236] = true,
-			[44948] = true,
 			[61300] = true,
-			[61284] = true,
 			[53124] = true,
+			[61284] = true,
+			[44948] = true,
+			[31728] = true,
 			[44996] = true,
 			[50106] = true,
-			[31728] = true,
 			[13844] = true,
 			[997] = true,
 			[44976] = true,
@@ -14926,6 +14933,46 @@ BtWQuests_Characters = {
 		},
 		["xpModifier"] = 0,
 		["renownLevel"] = 1,
+		["warModeBonus"] = 20,
+		["questsActive"] = {
+			[13590] = {
+				{
+					"Report to Huntress Sandrya Moonfall deep in Shatterspear Vale.", -- [1]
+					"log", -- [2]
+					true, -- [3]
+				}, -- [1]
+			},
+			[44978] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Direbeak Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[44954] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Snowfeather Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[45000] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests Completed with Bloodgazer Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[27271] = {
+			},
+			[44999] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Sharptalon Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+		},
 		["reputations"] = {
 			[1134] = {
 				["barMin"] = 0,
@@ -14989,46 +15036,6 @@ BtWQuests_Characters = {
 				["standing"] = 6,
 				["barValue"] = 20725,
 				["barMax"] = 21000,
-			},
-		},
-		["warModeBonus"] = 20,
-		["questsActive"] = {
-			[13590] = {
-				{
-					"Report to Huntress Sandrya Moonfall deep in Shatterspear Vale.", -- [1]
-					"log", -- [2]
-					true, -- [3]
-				}, -- [1]
-			},
-			[44978] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Direbeak Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[44954] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Snowfeather Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[45000] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests Completed with Bloodgazer Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[27271] = {
-			},
-			[44999] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Sharptalon Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
 			},
 		},
 		["ignoredChains"] = {
@@ -22250,9 +22257,9 @@ BtWQuests_Characters = {
 			[26345] = true,
 			[60637] = true,
 			[38705] = true,
-			[12533] = true,
+			[50128] = true,
 			[25321] = true,
-			[25065] = true,
+			[12533] = true,
 			[48518] = true,
 			[27245] = true,
 			[52762] = true,
@@ -24624,7 +24631,7 @@ BtWQuests_Characters = {
 			[52028] = true,
 			[50160] = true,
 			[53909] = true,
-			[50128] = true,
+			[25065] = true,
 			[12661] = true,
 			[34769] = true,
 			[35281] = true,
@@ -25230,6 +25237,168 @@ BtWQuests_Characters = {
 		},
 		["xpModifier"] = 0,
 		["renownLevel"] = 67,
+		["questsActive"] = {
+			[44999] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Sharptalon Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[45000] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests Completed with Bloodgazer Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[62640] = {
+				{
+					"10/10 Arena Skirmishes won", -- [1]
+					"object", -- [2]
+					true, -- [3]
+				}, -- [1]
+			},
+			[26703] = {
+				{
+					"0/1 Kill Fleet Master Firallon", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[62055] = {
+				{
+					"1/4  ", -- [1]
+					"item", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[64598] = {
+				{
+					"2/4  ", -- [1]
+					"item", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[63949] = {
+				{
+					"Jailer's efforts subdued", -- [1]
+					"progressbar", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[44978] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Direbeak Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[57565] = {
+				{
+					"0/1 [DNT] Dummy Credit slain", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[57567] = {
+			},
+			[60389] = {
+				{
+					"1/3 Complete 3 World Quests in Ardenweald", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[48642] = {
+				{
+					"0/4 Complete 4 Argussian Reach World Quests", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[44954] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Snowfeather Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[7786] = {
+				{
+					"0/10  ", -- [1]
+					"item", -- [2]
+					false, -- [3]
+				}, -- [1]
+				{
+					"1/1  ", -- [1]
+					"item", -- [2]
+					true, -- [3]
+				}, -- [2]
+				{
+					"1/1  ", -- [1]
+					"item", -- [2]
+					true, -- [3]
+				}, -- [3]
+				{
+					"0/1  ", -- [1]
+					"item", -- [2]
+					false, -- [3]
+				}, -- [4]
+			},
+			[50601] = {
+				{
+					"0/4 Complete 4 world quests in Stormsong Valley", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[42170] = {
+				{
+					"0/4 Complete 4 world quests in Val'sharah", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[42234] = {
+				{
+					"0/4 Complete 4 world quests in Stormheim", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[50605] = {
+				{
+					"0/4 Complete 4 world quests on Zandalar, Assaults or Warfront Zones", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[50604] = {
+				{
+					"0/3 Complete 3 Tortollan Seeker World Quests", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[53436] = {
+				{
+					"0/36000 Collect 36000 Azerite on Island Expeditions", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[54180] = {
+			},
+			[64597] = {
+				{
+					"2/4  ", -- [1]
+					"item", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+		},
+		["warModeBonus"] = 20,
 		["reputations"] = {
 			[576] = {
 				["barMin"] = 42000,
@@ -25441,16 +25610,16 @@ BtWQuests_Characters = {
 				["barValue"] = 4488,
 				["barMax"] = 9000,
 			},
-			[72] = {
+			[930] = {
 				["barMin"] = 42000,
-				["name"] = "Stormwind",
+				["name"] = "Exodar",
 				["standing"] = 8,
 				["barValue"] = 42000,
 				["barMax"] = 42000,
 			},
-			[930] = {
+			[469] = {
 				["barMin"] = 42000,
-				["name"] = "Exodar",
+				["name"] = "Alliance",
 				["standing"] = 8,
 				["barValue"] = 42000,
 				["barMax"] = 42000,
@@ -25469,9 +25638,9 @@ BtWQuests_Characters = {
 				["barValue"] = 42000,
 				["barMax"] = 42000,
 			},
-			[469] = {
+			[72] = {
 				["barMin"] = 42000,
-				["name"] = "Alliance",
+				["name"] = "Stormwind",
 				["standing"] = 8,
 				["barValue"] = 42000,
 				["barMax"] = 42000,
@@ -25526,168 +25695,6 @@ BtWQuests_Characters = {
 				["barMax"] = 3000,
 			},
 		},
-		["questsActive"] = {
-			[44999] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Sharptalon Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[45000] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests Completed with Bloodgazer Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[62640] = {
-				{
-					"10/10 Arena Skirmishes won", -- [1]
-					"object", -- [2]
-					true, -- [3]
-				}, -- [1]
-			},
-			[26703] = {
-				{
-					"0/1 Kill Fleet Master Firallon", -- [1]
-					"monster", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[62055] = {
-				{
-					"1/4  ", -- [1]
-					"item", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[64598] = {
-				{
-					"2/4  ", -- [1]
-					"item", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[63949] = {
-				{
-					"Jailer's efforts subdued", -- [1]
-					"progressbar", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[44978] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Direbeak Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[57565] = {
-				{
-					"0/1 [DNT] Dummy Credit slain", -- [1]
-					"monster", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[57567] = {
-			},
-			[60389] = {
-				{
-					"1/3 Complete 3 World Quests in Ardenweald", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[48642] = {
-				{
-					"0/4 Complete 4 Argussian Reach World Quests", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[44954] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Snowfeather Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[7786] = {
-				{
-					"0/10  ", -- [1]
-					"item", -- [2]
-					false, -- [3]
-				}, -- [1]
-				{
-					"1/1  ", -- [1]
-					"item", -- [2]
-					true, -- [3]
-				}, -- [2]
-				{
-					"1/1  ", -- [1]
-					"item", -- [2]
-					true, -- [3]
-				}, -- [3]
-				{
-					"0/1  ", -- [1]
-					"item", -- [2]
-					false, -- [3]
-				}, -- [4]
-			},
-			[50601] = {
-				{
-					"0/4 Complete 4 world quests in Stormsong Valley", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[42170] = {
-				{
-					"0/4 Complete 4 world quests in Val'sharah", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[42234] = {
-				{
-					"0/4 Complete 4 world quests in Stormheim", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[50605] = {
-				{
-					"0/4 Complete 4 world quests on Zandalar, Assaults or Warfront Zones", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[50604] = {
-				{
-					"0/3 Complete 3 Tortollan Seeker World Quests", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[53436] = {
-				{
-					"0/36000 Collect 36000 Azerite on Island Expeditions", -- [1]
-					"monster", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[54180] = {
-			},
-			[64597] = {
-				{
-					"2/4  ", -- [1]
-					"item", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-		},
-		["warModeBonus"] = 20,
 		["ignoredChains"] = {
 		},
 		["name"] = "Necrophagus",
@@ -25695,9 +25702,9 @@ BtWQuests_Characters = {
 		["professions"] = {
 			[182] = true,
 			[356] = true,
-			[185] = true,
 			[794] = true,
 			[171] = true,
+			[185] = true,
 		},
 		["skills"] = {
 			[2553] = {
@@ -26066,62 +26073,6 @@ BtWQuests_Characters = {
 		},
 		["xpModifier"] = 0,
 		["renownLevel"] = 1,
-		["questsActive"] = {
-			[44978] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Direbeak Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[44999] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Sharptalon Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[45000] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests Completed with Bloodgazer Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[44954] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Snowfeather Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[6391] = {
-				{
-					"Buy a gryphon to Ironforge from the gryphon master Brolan Galebeard, then bring Gremlock's List to Golnir Bouldertoe in Ironforge.", -- [1]
-					"log", -- [2]
-					true, -- [3]
-				}, -- [1]
-			},
-			[25724] = {
-				{
-					"0/5 Frostmane Seer slain", -- [1]
-					"monster", -- [2]
-					false, -- [3]
-				}, -- [1]
-				{
-					"0/7 Frostmane Snowstrider slain", -- [1]
-					"monster", -- [2]
-					false, -- [3]
-				}, -- [2]
-			},
-			[315] = {
-				{
-					"0/7  ", -- [1]
-					"item", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-		},
 		["reputations"] = {
 			[1134] = {
 				["barMin"] = 0,
@@ -26188,6 +26139,62 @@ BtWQuests_Characters = {
 			},
 		},
 		["warModeBonus"] = 20,
+		["questsActive"] = {
+			[44978] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Direbeak Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[44999] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Sharptalon Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[45000] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests Completed with Bloodgazer Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[44954] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Snowfeather Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[6391] = {
+				{
+					"Buy a gryphon to Ironforge from the gryphon master Brolan Galebeard, then bring Gremlock's List to Golnir Bouldertoe in Ironforge.", -- [1]
+					"log", -- [2]
+					true, -- [3]
+				}, -- [1]
+			},
+			[25724] = {
+				{
+					"0/5 Frostmane Seer slain", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+				{
+					"0/7 Frostmane Snowstrider slain", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [2]
+			},
+			[315] = {
+				{
+					"0/7  ", -- [1]
+					"item", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+		},
 		["ignoredChains"] = {
 		},
 		["name"] = "Nibirus",
@@ -26773,15 +26780,15 @@ BtWQuests_Characters = {
 			[31549] = true,
 			[34582] = true,
 			[34422] = true,
-			[29647] = true,
+			[53124] = true,
 			[31581] = true,
 			[29631] = true,
 			[10188] = true,
 			[26514] = true,
-			[30670] = true,
+			[29647] = true,
 			[61244] = true,
 			[26562] = true,
-			[53124] = true,
+			[30670] = true,
 			[25699] = true,
 			[31725] = true,
 			[31741] = true,
@@ -26843,8 +26850,8 @@ BtWQuests_Characters = {
 			[29632] = true,
 			[34584] = true,
 			[34616] = true,
-			[61278] = true,
 			[30655] = true,
+			[26563] = true,
 			[42896] = true,
 			[44974] = true,
 			[31726] = true,
@@ -26859,20 +26866,20 @@ BtWQuests_Characters = {
 			[39731] = true,
 			[44995] = true,
 			[31902] = true,
-			[60735] = true,
+			[38229] = true,
 			[10176] = true,
 			[59776] = true,
 			[31915] = true,
 			[31823] = true,
+			[60735] = true,
 			[33114] = true,
-			[38229] = true,
 			[50105] = true,
 			[34393] = true,
 			[34425] = true,
 			[46733] = true,
 			[28673] = true,
 			[36567] = true,
-			[26563] = true,
+			[61278] = true,
 			[34585] = true,
 			[10232] = true,
 			[61247] = true,
@@ -27031,75 +27038,6 @@ BtWQuests_Characters = {
 		["renownLevel"] = 1,
 		["warMode"] = false,
 		["sex"] = 3,
-		["warModeBonus"] = 20,
-		["skills"] = {
-			[2572] = {
-				["maxLevel"] = 300,
-				["level"] = 1,
-			},
-			[164] = {
-				["maxLevel"] = 75,
-				["level"] = 1,
-			},
-			[2477] = {
-				["maxLevel"] = 300,
-				["level"] = 1,
-			},
-			[186] = {
-				["maxLevel"] = 75,
-				["level"] = 1,
-			},
-		},
-		["name"] = "Phaladinus",
-		["faction"] = "Alliance",
-		["professions"] = {
-			[186] = true,
-			[356] = true,
-			[794] = true,
-			[164] = true,
-			[185] = true,
-		},
-		["ignoredChains"] = {
-		},
-		["questsActive"] = {
-			[44999] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Sharptalon Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[53436] = {
-				{
-					"0/36000 Collect 36000 Azerite on Island Expeditions", -- [1]
-					"monster", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[44954] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Snowfeather Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[44978] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Direbeak Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[45000] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests Completed with Bloodgazer Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[54180] = {
-			},
-		},
 		["reputations"] = {
 			[1270] = {
 				["barMin"] = 0,
@@ -27352,6 +27290,75 @@ BtWQuests_Characters = {
 				["standing"] = 4,
 				["barValue"] = 0,
 				["barMax"] = 3000,
+			},
+		},
+		["skills"] = {
+			[2572] = {
+				["maxLevel"] = 300,
+				["level"] = 1,
+			},
+			[164] = {
+				["maxLevel"] = 75,
+				["level"] = 1,
+			},
+			[2477] = {
+				["maxLevel"] = 300,
+				["level"] = 1,
+			},
+			[186] = {
+				["maxLevel"] = 75,
+				["level"] = 1,
+			},
+		},
+		["name"] = "Phaladinus",
+		["faction"] = "Alliance",
+		["professions"] = {
+			[186] = true,
+			[356] = true,
+			[164] = true,
+			[185] = true,
+			[794] = true,
+		},
+		["ignoredChains"] = {
+		},
+		["warModeBonus"] = 20,
+		["questsActive"] = {
+			[44999] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Sharptalon Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[53436] = {
+				{
+					"0/36000 Collect 36000 Azerite on Island Expeditions", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[44954] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Snowfeather Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[44978] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Direbeak Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[45000] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests Completed with Bloodgazer Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[54180] = {
 			},
 		},
 	}, -- [25]
@@ -27629,9 +27636,9 @@ BtWQuests_Characters = {
 			[31919] = true,
 			[61235] = true,
 			[61251] = true,
-			[32470] = true,
-			[61283] = true,
 			[54] = true,
+			[61283] = true,
+			[61299] = true,
 			[62] = true,
 			[76] = true,
 			[44995] = true,
@@ -27665,11 +27672,11 @@ BtWQuests_Characters = {
 			[61284] = true,
 			[53124] = true,
 			[31975] = true,
-			[50106] = true,
 			[44996] = true,
+			[31728] = true,
 			[31724] = true,
 			[44948] = true,
-			[31728] = true,
+			[50106] = true,
 			[53747] = true,
 			[61300] = true,
 			[62977] = true,
@@ -27688,7 +27695,7 @@ BtWQuests_Characters = {
 			[63696] = true,
 			[28822] = true,
 			[29412] = true,
-			[61299] = true,
+			[32470] = true,
 			[46] = true,
 			[56652] = true,
 			[61237] = true,
@@ -27738,97 +27745,6 @@ BtWQuests_Characters = {
 		["renownLevel"] = 1,
 		["warMode"] = false,
 		["sex"] = 2,
-		["questsActive"] = {
-			[26291] = {
-			},
-			[45000] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests Completed with Bloodgazer Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[26288] = {
-				{
-					"0/5 Riverpaw Mystic slain", -- [1]
-					"monster", -- [2]
-					false, -- [3]
-				}, -- [1]
-				{
-					"2/5 Riverpaw Taskmaster slain", -- [1]
-					"monster", -- [2]
-					false, -- [3]
-				}, -- [2]
-				{
-					"0/1 Jango Spothide slain", -- [1]
-					"monster", -- [2]
-					false, -- [3]
-				}, -- [3]
-			},
-			[26371] = {
-			},
-			[26353] = {
-			},
-			[44954] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Snowfeather Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[44978] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Direbeak Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[28563] = {
-			},
-			[353] = {
-				{
-					"Deliver the Package for Stormpike to Mountaineer Stormpike in Loch Modan.", -- [1]
-					"log", -- [2]
-					true, -- [3]
-				}, -- [1]
-			},
-			[44999] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Sharptalon Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-		},
-		["skills"] = {
-			[2564] = {
-				["maxLevel"] = 300,
-				["level"] = 47,
-			},
-			[197] = {
-				["maxLevel"] = 75,
-				["level"] = 45,
-			},
-			[2540] = {
-				["maxLevel"] = 300,
-				["level"] = 45,
-			},
-			[393] = {
-				["maxLevel"] = 75,
-				["level"] = 47,
-			},
-		},
-		["name"] = "Phalonius",
-		["faction"] = "Alliance",
-		["professions"] = {
-			[356] = true,
-			[393] = true,
-			[197] = true,
-			[185] = true,
-		},
-		["ignoredChains"] = {
-		},
-		["warModeBonus"] = 20,
 		["reputations"] = {
 			[1134] = {
 				["barMin"] = 0,
@@ -27894,6 +27810,97 @@ BtWQuests_Characters = {
 				["barValue"] = 12712,
 			},
 		},
+		["skills"] = {
+			[2564] = {
+				["maxLevel"] = 300,
+				["level"] = 47,
+			},
+			[197] = {
+				["maxLevel"] = 75,
+				["level"] = 45,
+			},
+			[2540] = {
+				["maxLevel"] = 300,
+				["level"] = 45,
+			},
+			[393] = {
+				["maxLevel"] = 75,
+				["level"] = 47,
+			},
+		},
+		["name"] = "Phalonius",
+		["faction"] = "Alliance",
+		["professions"] = {
+			[356] = true,
+			[393] = true,
+			[197] = true,
+			[185] = true,
+		},
+		["ignoredChains"] = {
+		},
+		["questsActive"] = {
+			[26291] = {
+			},
+			[45000] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests Completed with Bloodgazer Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[26288] = {
+				{
+					"0/5 Riverpaw Mystic slain", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+				{
+					"2/5 Riverpaw Taskmaster slain", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [2]
+				{
+					"0/1 Jango Spothide slain", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [3]
+			},
+			[26371] = {
+			},
+			[26353] = {
+			},
+			[44954] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Snowfeather Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[44978] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Direbeak Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[28563] = {
+			},
+			[353] = {
+				{
+					"Deliver the Package for Stormpike to Mountaineer Stormpike in Loch Modan.", -- [1]
+					"log", -- [2]
+					true, -- [3]
+				}, -- [1]
+			},
+			[44999] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Sharptalon Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+		},
+		["warModeBonus"] = 20,
 	}, -- [26]
 	{
 		["covenantID"] = 0,
@@ -28939,12 +28946,12 @@ BtWQuests_Characters = {
 			[31584] = true,
 			[11561] = true,
 			[26553] = true,
-			[34378] = true,
+			[27432] = true,
 			[11609] = true,
 			[11625] = true,
 			[27368] = true,
 			[27464] = true,
-			[27432] = true,
+			[40519] = true,
 			[34442] = true,
 			[31590] = true,
 			[27528] = true,
@@ -29183,7 +29190,7 @@ BtWQuests_Characters = {
 			[43341] = true,
 			[11950] = true,
 			[31919] = true,
-			[40519] = true,
+			[34378] = true,
 			[42766] = true,
 			[26956] = true,
 			[49866] = true,
@@ -29369,101 +29376,6 @@ BtWQuests_Characters = {
 		["renownLevel"] = 1,
 		["warMode"] = false,
 		["sex"] = 2,
-		["warModeBonus"] = 20,
-		["skills"] = {
-		},
-		["name"] = "Phaltraxion",
-		["faction"] = "Alliance",
-		["professions"] = {
-			[356] = true,
-			[185] = true,
-			[794] = true,
-		},
-		["ignoredChains"] = {
-		},
-		["questsActive"] = {
-			[44999] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Sharptalon Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[42210] = {
-				{
-					"\"Scrolls of Knowledge\" mission completed", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[44978] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Direbeak Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[42421] = {
-				{
-					"0/4 Complete 4 world quests in Suramar", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[11007] = {
-			},
-			[54180] = {
-			},
-			[24428] = {
-				{
-					"Take the Head of Onyxia to Zardeth of the Black Claw in the basement of the Slaughtered Lamb.", -- [1]
-					"log", -- [2]
-					true, -- [3]
-				}, -- [1]
-			},
-			[42170] = {
-				{
-					"0/4 Complete 4 world quests in Val'sharah", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[48642] = {
-				{
-					"0/4 Complete 4 Argussian Reach World Quests", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[60545] = {
-				{
-					"0/1 Learn about your leaders' fate", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[44954] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Snowfeather Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[53436] = {
-				{
-					"0/36000 Collect 36000 Azerite on Island Expeditions", -- [1]
-					"monster", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[45000] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests Completed with Bloodgazer Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-		},
 		["reputations"] = {
 			[2045] = {
 				["barMin"] = 3000,
@@ -29555,6 +29467,101 @@ BtWQuests_Characters = {
 				["standing"] = 5,
 				["barMax"] = 9000,
 				["barValue"] = 3350,
+			},
+		},
+		["skills"] = {
+		},
+		["name"] = "Phaltraxion",
+		["faction"] = "Alliance",
+		["professions"] = {
+			[356] = true,
+			[185] = true,
+			[794] = true,
+		},
+		["ignoredChains"] = {
+		},
+		["warModeBonus"] = 20,
+		["questsActive"] = {
+			[44999] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Sharptalon Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[42210] = {
+				{
+					"\"Scrolls of Knowledge\" mission completed", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[44978] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Direbeak Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[42421] = {
+				{
+					"0/4 Complete 4 world quests in Suramar", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[11007] = {
+			},
+			[54180] = {
+			},
+			[24428] = {
+				{
+					"Take the Head of Onyxia to Zardeth of the Black Claw in the basement of the Slaughtered Lamb.", -- [1]
+					"log", -- [2]
+					true, -- [3]
+				}, -- [1]
+			},
+			[42170] = {
+				{
+					"0/4 Complete 4 world quests in Val'sharah", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[48642] = {
+				{
+					"0/4 Complete 4 Argussian Reach World Quests", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[60545] = {
+				{
+					"0/1 Learn about your leaders' fate", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[44954] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Snowfeather Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[53436] = {
+				{
+					"0/36000 Collect 36000 Azerite on Island Expeditions", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[45000] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests Completed with Bloodgazer Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
 			},
 		},
 	}, -- [27]
@@ -30625,135 +30632,6 @@ BtWQuests_Characters = {
 		},
 		["xpModifier"] = 0,
 		["renownLevel"] = 1,
-		["questsActive"] = {
-			[44999] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Sharptalon Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[44954] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Snowfeather Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[54180] = {
-			},
-			[24428] = {
-				{
-					"Take the Head of Onyxia to Zardeth of the Black Claw in the basement of the Slaughtered Lamb.", -- [1]
-					"log", -- [2]
-					true, -- [3]
-				}, -- [1]
-			},
-			[42421] = {
-				{
-					"0/4 Complete 4 world quests in Suramar", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[42654] = {
-				{
-					"0/1  ", -- [1]
-					"item", -- [2]
-					false, -- [3]
-				}, -- [1]
-				{
-					"0/1 Shade of Xavius slain", -- [1]
-					"monster", -- [2]
-					false, -- [3]
-				}, -- [2]
-			},
-			[11007] = {
-				{
-					"Take the Verdant Sphere to A'dal in Shattrath City.", -- [1]
-					"log", -- [2]
-					true, -- [3]
-				}, -- [1]
-			},
-			[44680] = {
-				{
-					"0/10 World Quests completed", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[42408] = {
-				{
-					"0/20  ", -- [1]
-					"item", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[44978] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Direbeak Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[45000] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests Completed with Bloodgazer Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[48642] = {
-				{
-					"0/4 Complete 4 Argussian Reach World Quests", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[42170] = {
-				{
-					"0/4 Complete 4 world quests in Val'sharah", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[42655] = {
-				{
-					"0/12  ", -- [1]
-					"item", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[53436] = {
-				{
-					"0/36000 Collect 36000 Azerite on Island Expeditions", -- [1]
-					"monster", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[60151] = {
-				{
-					"1/1 Speak to the Acolyte", -- [1]
-					"monster", -- [2]
-					true, -- [3]
-				}, -- [1]
-				{
-					"1/1 Head to the landing", -- [1]
-					"monster", -- [2]
-					true, -- [3]
-				}, -- [2]
-				{
-					"1/1 Establish portals back to Azeroth", -- [1]
-					"monster", -- [2]
-					true, -- [3]
-				}, -- [3]
-				{
-					"0/1 Return to the Overseers", -- [1]
-					"monster", -- [2]
-					false, -- [3]
-				}, -- [4]
-			},
-		},
 		["warModeBonus"] = 20,
 		["reputations"] = {
 			[1270] = {
@@ -31037,6 +30915,135 @@ BtWQuests_Characters = {
 				["barMax"] = 3000,
 			},
 		},
+		["questsActive"] = {
+			[44999] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Sharptalon Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[44954] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Snowfeather Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[54180] = {
+			},
+			[24428] = {
+				{
+					"Take the Head of Onyxia to Zardeth of the Black Claw in the basement of the Slaughtered Lamb.", -- [1]
+					"log", -- [2]
+					true, -- [3]
+				}, -- [1]
+			},
+			[42421] = {
+				{
+					"0/4 Complete 4 world quests in Suramar", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[42654] = {
+				{
+					"0/1  ", -- [1]
+					"item", -- [2]
+					false, -- [3]
+				}, -- [1]
+				{
+					"0/1 Shade of Xavius slain", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [2]
+			},
+			[11007] = {
+				{
+					"Take the Verdant Sphere to A'dal in Shattrath City.", -- [1]
+					"log", -- [2]
+					true, -- [3]
+				}, -- [1]
+			},
+			[44680] = {
+				{
+					"0/10 World Quests completed", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[42408] = {
+				{
+					"0/20  ", -- [1]
+					"item", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[44978] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Direbeak Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[45000] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests Completed with Bloodgazer Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[48642] = {
+				{
+					"0/4 Complete 4 Argussian Reach World Quests", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[42170] = {
+				{
+					"0/4 Complete 4 world quests in Val'sharah", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[42655] = {
+				{
+					"0/12  ", -- [1]
+					"item", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[53436] = {
+				{
+					"0/36000 Collect 36000 Azerite on Island Expeditions", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[60151] = {
+				{
+					"1/1 Speak to the Acolyte", -- [1]
+					"monster", -- [2]
+					true, -- [3]
+				}, -- [1]
+				{
+					"1/1 Head to the landing", -- [1]
+					"monster", -- [2]
+					true, -- [3]
+				}, -- [2]
+				{
+					"1/1 Establish portals back to Azeroth", -- [1]
+					"monster", -- [2]
+					true, -- [3]
+				}, -- [3]
+				{
+					"0/1 Return to the Overseers", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [4]
+			},
+		},
 		["ignoredChains"] = {
 		},
 		["name"] = "Phelanara",
@@ -31044,9 +31051,9 @@ BtWQuests_Characters = {
 		["professions"] = {
 			[356] = true,
 			[755] = true,
-			[794] = true,
 			[773] = true,
 			[185] = true,
+			[794] = true,
 		},
 		["warMode"] = false,
 		["faction"] = "Alliance",
@@ -31211,14 +31218,14 @@ BtWQuests_Characters = {
 			[40123] = true,
 			[50144] = true,
 			[46734] = true,
-			[39691] = true,
+			[53206] = true,
 			[39713] = true,
 			[53746] = true,
 			[56631] = true,
 			[42893] = true,
 			[42909] = true,
 			[40008] = true,
-			[50146] = true,
+			[39691] = true,
 			[31551] = true,
 			[31555] = true,
 			[44120] = true,
@@ -31273,7 +31280,7 @@ BtWQuests_Characters = {
 			[53131] = true,
 			[31897] = true,
 			[32669] = true,
-			[53206] = true,
+			[50146] = true,
 			[31591] = true,
 			[59087] = true,
 			[31316] = true,
@@ -31303,7 +31310,6 @@ BtWQuests_Characters = {
 		},
 		["xpModifier"] = 0,
 		["renownLevel"] = 1,
-		["warModeBonus"] = 20,
 		["reputations"] = {
 			[1134] = {
 				["barMin"] = 0,
@@ -31413,6 +31419,7 @@ BtWQuests_Characters = {
 				}, -- [1]
 			},
 		},
+		["warModeBonus"] = 20,
 		["ignoredChains"] = {
 		},
 		["name"] = "Presentone",
@@ -31741,7 +31748,7 @@ BtWQuests_Characters = {
 			[29578] = true,
 			[30617] = true,
 			[30681] = true,
-			[31832] = true,
+			[11832] = true,
 			[30665] = true,
 			[11768] = true,
 			[11776] = true,
@@ -31751,7 +31758,7 @@ BtWQuests_Characters = {
 			[11808] = true,
 			[11816] = true,
 			[53370] = true,
-			[11832] = true,
+			[64655] = true,
 			[43264] = true,
 			[59120] = true,
 			[31880] = true,
@@ -32043,7 +32050,7 @@ BtWQuests_Characters = {
 			[12098] = true,
 			[12793] = true,
 			[36590] = true,
-			[53859] = true,
+			[31549] = true,
 			[43341] = true,
 			[36660] = true,
 			[12146] = true,
@@ -32053,7 +32060,7 @@ BtWQuests_Characters = {
 			[11827] = true,
 			[31725] = true,
 			[29887] = true,
-			[31549] = true,
+			[34422] = true,
 			[46730] = true,
 			[31581] = true,
 			[49863] = true,
@@ -32135,7 +32142,7 @@ BtWQuests_Characters = {
 			[31741] = true,
 			[60511] = true,
 			[31822] = true,
-			[34422] = true,
+			[53859] = true,
 			[34462] = true,
 			[42893] = true,
 			[29580] = true,
@@ -32275,7 +32282,7 @@ BtWQuests_Characters = {
 			[40987] = true,
 			[61285] = true,
 			[62977] = true,
-			[64655] = true,
+			[31832] = true,
 			[44627] = true,
 			[44659] = true,
 			[34461] = true,
@@ -32333,7 +32340,57 @@ BtWQuests_Characters = {
 			},
 		},
 		["faction"] = "Alliance",
-		["warModeBonus"] = 20,
+		["reputations"] = {
+			[1097] = {
+				["barMin"] = 0,
+				["name"] = "Wrath of the Lich King",
+				["standing"] = 4,
+				["barMax"] = 3000,
+				["barValue"] = 0,
+			},
+			[1444] = {
+				["barMin"] = 0,
+				["name"] = "Warlords of Draenor",
+				["standing"] = 4,
+				["barMax"] = 3000,
+				["barValue"] = 0,
+			},
+			[1245] = {
+				["barMin"] = 0,
+				["name"] = "Mists of Pandaria",
+				["standing"] = 4,
+				["barMax"] = 3000,
+				["barValue"] = 0,
+			},
+			[980] = {
+				["barMin"] = 0,
+				["name"] = "The Burning Crusade",
+				["standing"] = 4,
+				["barMax"] = 3000,
+				["barValue"] = 0,
+			},
+			[1834] = {
+				["barMin"] = 0,
+				["name"] = "Legion",
+				["standing"] = 4,
+				["barMax"] = 3000,
+				["barValue"] = 0,
+			},
+			[2104] = {
+				["barMin"] = 0,
+				["name"] = "Battle for Azeroth",
+				["standing"] = 4,
+				["barMax"] = 3000,
+				["barValue"] = 0,
+			},
+			[1118] = {
+				["barMin"] = 0,
+				["name"] = "Classic",
+				["standing"] = 4,
+				["barMax"] = 3000,
+				["barValue"] = 0,
+			},
+		},
 		["warMode"] = false,
 		["name"] = "Serthaxion",
 		["sex"] = 2,
@@ -32344,6 +32401,7 @@ BtWQuests_Characters = {
 		},
 		["ignoredChains"] = {
 		},
+		["warModeBonus"] = 20,
 		["questsActive"] = {
 			[44999] = {
 				{
@@ -32425,57 +32483,6 @@ BtWQuests_Characters = {
 					"log", -- [2]
 					true, -- [3]
 				}, -- [1]
-			},
-		},
-		["reputations"] = {
-			[1097] = {
-				["barMin"] = 0,
-				["name"] = "Wrath of the Lich King",
-				["standing"] = 4,
-				["barMax"] = 3000,
-				["barValue"] = 0,
-			},
-			[1444] = {
-				["barMin"] = 0,
-				["name"] = "Warlords of Draenor",
-				["standing"] = 4,
-				["barMax"] = 3000,
-				["barValue"] = 0,
-			},
-			[1245] = {
-				["barMin"] = 0,
-				["name"] = "Mists of Pandaria",
-				["standing"] = 4,
-				["barMax"] = 3000,
-				["barValue"] = 0,
-			},
-			[980] = {
-				["barMin"] = 0,
-				["name"] = "The Burning Crusade",
-				["standing"] = 4,
-				["barMax"] = 3000,
-				["barValue"] = 0,
-			},
-			[1834] = {
-				["barMin"] = 0,
-				["name"] = "Legion",
-				["standing"] = 4,
-				["barMax"] = 3000,
-				["barValue"] = 0,
-			},
-			[2104] = {
-				["barMin"] = 0,
-				["name"] = "Battle for Azeroth",
-				["standing"] = 4,
-				["barMax"] = 3000,
-				["barValue"] = 0,
-			},
-			[1118] = {
-				["barMin"] = 0,
-				["name"] = "Classic",
-				["standing"] = 4,
-				["barMax"] = 3000,
-				["barValue"] = 0,
 			},
 		},
 	}, -- [30]
@@ -33342,7 +33349,7 @@ BtWQuests_Characters = {
 			[44617] = true,
 			[34446] = true,
 			[31592] = true,
-			[9803] = true,
+			[31880] = true,
 			[61249] = true,
 			[40843] = true,
 			[29929] = true,
@@ -33350,7 +33357,7 @@ BtWQuests_Characters = {
 			[28045] = true,
 			[34958] = true,
 			[9787] = true,
-			[31880] = true,
+			[39180] = true,
 			[29865] = true,
 			[9835] = true,
 			[25835] = true,
@@ -33400,9 +33407,9 @@ BtWQuests_Characters = {
 			[10555] = true,
 			[27275] = true,
 			[31733] = true,
-			[44555] = true,
-			[44619] = true,
 			[25356] = true,
+			[44619] = true,
+			[62978] = true,
 			[46666] = true,
 			[46730] = true,
 			[31593] = true,
@@ -33413,11 +33420,11 @@ BtWQuests_Characters = {
 			[25585] = true,
 			[31785] = true,
 			[10795] = true,
-			[43468] = true,
+			[29930] = true,
 			[31881] = true,
 			[29866] = true,
 			[29898] = true,
-			[29930] = true,
+			[25836] = true,
 			[31577] = true,
 			[40839] = true,
 			[34462] = true,
@@ -33518,10 +33525,10 @@ BtWQuests_Characters = {
 			[26731] = true,
 			[10800] = true,
 			[25596] = true,
-			[25836] = true,
+			[43468] = true,
 			[30663] = true,
 			[61251] = true,
-			[62978] = true,
+			[44555] = true,
 			[25532] = true,
 			[10608] = true,
 			[47835] = true,
@@ -33551,7 +33558,7 @@ BtWQuests_Characters = {
 			[26729] = true,
 			[34587] = true,
 			[64262] = true,
-			[39180] = true,
+			[9803] = true,
 			[25791] = true,
 			[29622] = true,
 			[10719] = true,
@@ -33636,6 +33643,15 @@ BtWQuests_Characters = {
 		["renownLevel"] = 1,
 		["warMode"] = false,
 		["sex"] = 3,
+		["warModeBonus"] = 20,
+		["skills"] = {
+		},
+		["name"] = "Shadroxia",
+		["faction"] = "Alliance",
+		["professions"] = {
+		},
+		["ignoredChains"] = {
+		},
 		["questsActive"] = {
 			[44954] = {
 				{
@@ -33709,14 +33725,6 @@ BtWQuests_Characters = {
 					false, -- [3]
 				}, -- [1]
 			},
-		},
-		["skills"] = {
-		},
-		["name"] = "Shadroxia",
-		["faction"] = "Alliance",
-		["professions"] = {
-		},
-		["ignoredChains"] = {
 		},
 		["reputations"] = {
 			[891] = {
@@ -34098,7 +34106,6 @@ BtWQuests_Characters = {
 				["barValue"] = 11576,
 			},
 		},
-		["warModeBonus"] = 20,
 	}, -- [31]
 	{
 		["covenantID"] = 0,
@@ -34323,13 +34330,13 @@ BtWQuests_Characters = {
 			[31729] = true,
 			[31593] = true,
 			[42898] = true,
-			[53123] = true,
+			[32470] = true,
 			[31919] = true,
 			[61235] = true,
 			[56652] = true,
-			[61299] = true,
+			[53123] = true,
 			[61283] = true,
-			[32470] = true,
+			[61299] = true,
 			[50105] = true,
 			[31975] = true,
 			[44995] = true,
@@ -34354,8 +34361,8 @@ BtWQuests_Characters = {
 			[63695] = true,
 			[44997] = true,
 			[61244] = true,
+			[14463] = true,
 			[44949] = true,
-			[32471] = true,
 			[50101] = true,
 			[61236] = true,
 			[44948] = true,
@@ -34363,8 +34370,8 @@ BtWQuests_Characters = {
 			[61284] = true,
 			[53124] = true,
 			[44993] = true,
-			[50106] = true,
 			[14347] = true,
+			[31728] = true,
 			[44977] = true,
 			[53121] = true,
 			[14277] = true,
@@ -34388,12 +34395,12 @@ BtWQuests_Characters = {
 			[14398] = true,
 			[61251] = true,
 			[44996] = true,
-			[31728] = true,
+			[50106] = true,
 			[61237] = true,
 			[61253] = true,
 			[64292] = true,
 			[61285] = true,
-			[14463] = true,
+			[32471] = true,
 			[14467] = true,
 			[31976] = true,
 			[50107] = true,
@@ -34437,44 +34444,6 @@ BtWQuests_Characters = {
 		["skills"] = {
 		},
 		["faction"] = "Alliance",
-		["questsActive"] = {
-			[44978] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Direbeak Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[44954] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Snowfeather Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[45000] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests Completed with Bloodgazer Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-			[44999] = {
-				{
-					"0/3 Broken Isles Pet Battle World Quests completed with Sharptalon Hatchling", -- [1]
-					"object", -- [2]
-					false, -- [3]
-				}, -- [1]
-			},
-		},
-		["warMode"] = false,
-		["name"] = "Wolfados",
-		["sex"] = 2,
-		["professions"] = {
-		},
-		["ignoredChains"] = {
-		},
-		["warModeBonus"] = 20,
 		["reputations"] = {
 			[1134] = {
 				["barMin"] = 9000,
@@ -34540,6 +34509,44 @@ BtWQuests_Characters = {
 				["barValue"] = 4856,
 			},
 		},
+		["warMode"] = false,
+		["name"] = "Wolfados",
+		["sex"] = 2,
+		["professions"] = {
+		},
+		["ignoredChains"] = {
+		},
+		["questsActive"] = {
+			[44978] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Direbeak Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[44954] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Snowfeather Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[45000] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests Completed with Bloodgazer Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[44999] = {
+				{
+					"0/3 Broken Isles Pet Battle World Quests completed with Sharptalon Hatchling", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+		},
+		["warModeBonus"] = 20,
 	}, -- [32]
 	{
 		["covenantID"] = 0,
@@ -35726,7 +35733,6 @@ BtWQuests_Characters = {
 		},
 		["xpModifier"] = 0,
 		["renownLevel"] = 1,
-		["warModeBonus"] = 20,
 		["reputations"] = {
 			[1073] = {
 				["barMin"] = 3000,
@@ -36180,6 +36186,7 @@ BtWQuests_Characters = {
 				}, -- [1]
 			},
 		},
+		["warModeBonus"] = 20,
 		["ignoredChains"] = {
 		},
 		["name"] = "Xanthoros",

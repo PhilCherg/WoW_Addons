@@ -1,7 +1,7 @@
 local mod	= DBM:NewMod(2443, "DBM-SanctumOfDomination", nil, 1193)
 local L		= mod:GetLocalizedStrings()
 
-mod:SetRevision("20220130024544")
+mod:SetRevision("20220216005714")
 mod:SetCreatureID(176523)
 mod:SetEncounterID(2430)
 mod:SetUsedIcons(1, 2, 3, 4, 5, 6, 7)
@@ -70,12 +70,12 @@ local timerDualbladeScytheCD					= mod:NewCDCountTimer(19.4, 355778, 327953, nil
 local timerDualbladeScythe						= mod:NewTargetTimer(19.4, 355778, 327953, nil, 2, 5)--"Scythe"
 local timerSpikedBallsCD						= mod:NewCDCountTimer(40, 352052, nil, nil, 2, 1, nil, DBM_COMMON_L.DAMAGE_ICON)
 local timerFlameclaspTrapCD						= mod:NewCDCountTimer(47.9, 348456, 8312, nil, nil, 3, nil, DBM_COMMON_L.HEROIC_ICON)--"Trap"
-local timerShadowsteelChainsCD					= mod:NewCDCountTimer(40.1, 355504, 246367, nil, nil, 3)--"Chains"
+local timerShadowsteelChainsCD					= mod:NewCDCountTimer(40.1, 355505, 246367, nil, nil, 3)--"Chains"
 
 mod:AddTimerLine(DBM_COMMON_L.INTERMISSION)
 --Intermission
 local warnEmbers								= mod:NewCountAnnounce(355534, 2, nil, nil, 264364)
-local warnAddsRemaining							= mod:NewAddsLeftAnnounce(357755, 1)
+local warnAddsRemaining							= mod:NewAddsLeftAnnounce(355534, 1)
 
 local timerForgeWeapon							= mod:NewCastTimer(48, 355525, nil, nil, nil, 6)
 local timerEmbersCD								= mod:NewNextCountTimer(5, 355534, 264364, nil, nil, 3)--"Embers"

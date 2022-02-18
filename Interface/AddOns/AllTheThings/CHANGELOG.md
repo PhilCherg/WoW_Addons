@@ -1,20 +1,27 @@
 # AllTheThings
 
-## [SL-2.6.11](https://github.com/DFortun81/AllTheThings/tree/SL-2.6.11) (2022-01-30)
-[Full Changelog](https://github.com/DFortun81/AllTheThings/compare/SL-2.6.10...SL-2.6.11) [Previous Releases](https://github.com/DFortun81/AllTheThings/releases)
+## [SL-2.6.13](https://github.com/DFortun81/AllTheThings/tree/SL-2.6.13) (2022-02-13)
+[Full Changelog](https://github.com/DFortun81/AllTheThings/compare/SL-2.6.12...SL-2.6.13) [Previous Releases](https://github.com/DFortun81/AllTheThings/releases)
 
-
-### Vignette tracking 🔍
-
-Added some logic concerning Vignette handling, such that Treasures/Rares which become visible on the map in some way will show an additional icon in the respective ATT window (i.e. wondering if that Secret Treasure in Revendreth is actually one you need? Now you will know which one 'specifically' is available [once you travel to Revendreth at least]).
 
 ### Notable changes:
 
-- 'Warn Completed Difficulty' should be a little smarter now! Won't tell you to switch to removed difficulties or difficulties that don't have anything for your filters. And it should work with vanilla instances too!
-- Fixed the minilist putting difficulty headers within non-instance content (i.e. when a quest within a dungeon difficulty is started outside of the Dungeon it will no longer show within the difficulty outside the dungeon).
-- Adjusted Adamant Vaults drops since all bosses share a loot table.
-- New store mount! Water kitty!
-- Added some missing quests/fixed some quests that were marked as repeatable.
-- Some syncing of TBC content.
-- Small adjustments in Classic zones.
+- ATT should now only show the 'learned new appearance' chat message / take screenshot / play sound in Unique Modes if that appearance is not already accounted for via another source (please report anything breaking from this change).
+- Fixed not being able to refresh ATT while profession list is visible.
+- Fixed a possible bug in the once-per-account quest logic.
+- Vastly improved performance in situations where many Quests are being populated and retrieved all at once (i.e. `/attwq` population).
+- When ATT receives Quest data from the Server, a soft-refresh of visible ATT windows is performed in case any visible Quest names need to be updated. You should see `Quest #XXXX` less often now.
+- Achievements for mounts and battle pets now respect their specific filter settings.
+- Followers should now sort properly.
+- Garrison Building groups will now sort properly.
+- Added detection for when a player learns a new profession for ATT to update cached professions for the player.
+- Minor fix for coloring of groups using the 'races' field.
+- Revised calculations for 'Sort by Progress' since there were some very obvious oddities in the ordering previously.
+- Fixed tooltips for Achievement Criteria from hiding relevant descriptions, etc.
+- Zone Drops will now expand automatically within instances if they are outside of a specific difficulty.
+- Mounts with an ItemID can be now considered a 'cost' for Things that require the Mount (i.e. if you track Achievements but not Mounts, then respective Mounts can show up as Currency for respective Achievements).
+- Marked Brawler's guild as still available to Horde. This is definitely a bug but you can do it while it lasts 😅
+- Love is in the Air sync with Classic ATT, hopefully nothing breaks 💖
+- Dungeon-dropped Bouquets for Love is in the Air should now show properly in the respective Dungeons 💐
+- Huge Mists of Pandaria quest clean up, mainly removed from game quests and hidden quest triggers.
 - Other fixes.

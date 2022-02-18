@@ -19,10 +19,10 @@ BetterWardrobe_Options = {
 		["Necrophagus - Outland"] = "Default",
 		["Phalonius - Azjol-Nerub"] = "Default",
 		["Feastfour - Outland"] = "Default",
-		["Illyana - Outland"] = "Default",
-		["Illydaria - Draenor"] = "Default",
-		["Destruxia - Outland"] = "Default",
 		["Feattwo - Outland"] = "Default",
+		["Illyana - Outland"] = "Default",
+		["Destruxia - Outland"] = "Default",
+		["Illydaria - Draenor"] = "Default",
 		["Wolfados - Azjol-Nerub"] = "Default",
 		["Serthaxion - Outland"] = "Default",
 		["Luminaxia - Outland"] = "Default",
@@ -61,10 +61,10 @@ BetterWardrobe_CharacterData = {
 		["Necrophagus - Outland"] = "Necrophagus - Outland",
 		["Phalonius - Azjol-Nerub"] = "Phalonius - Azjol-Nerub",
 		["Feastfour - Outland"] = "Feastfour - Outland",
-		["Illyana - Outland"] = "Illyana - Outland",
-		["Illydaria - Draenor"] = "Illydaria - Draenor",
-		["Destruxia - Outland"] = "Destruxia - Outland",
 		["Feattwo - Outland"] = "Feattwo - Outland",
+		["Illyana - Outland"] = "Illyana - Outland",
+		["Destruxia - Outland"] = "Destruxia - Outland",
+		["Illydaria - Draenor"] = "Illydaria - Draenor",
 		["Wolfados - Azjol-Nerub"] = "Wolfados - Azjol-Nerub",
 		["Serthaxion - Outland"] = "Serthaxion - Outland",
 		["Luminaxia - Outland"] = "Luminaxia - Outland",
@@ -120,10 +120,10 @@ BetterWardrobe_SavedSetData = {
 		["Necrophagus - Outland"] = "Necrophagus - Outland",
 		["Phalonius - Azjol-Nerub"] = "Phalonius - Azjol-Nerub",
 		["Feastfour - Outland"] = "Feastfour - Outland",
-		["Illyana - Outland"] = "Illyana - Outland",
-		["Illydaria - Draenor"] = "Illydaria - Draenor",
-		["Destruxia - Outland"] = "Destruxia - Outland",
 		["Feattwo - Outland"] = "Feattwo - Outland",
+		["Illyana - Outland"] = "Illyana - Outland",
+		["Destruxia - Outland"] = "Destruxia - Outland",
+		["Illydaria - Draenor"] = "Illydaria - Draenor",
 		["Wolfados - Azjol-Nerub"] = "Wolfados - Azjol-Nerub",
 		["Serthaxion - Outland"] = "Serthaxion - Outland",
 		["Luminaxia - Outland"] = "Luminaxia - Outland",
@@ -843,6 +843,8 @@ BetterWardrobe_SavedSetData = {
 			},
 			["Feastfour - Outland"] = {
 			},
+			["Feattwo - Outland"] = {
+			},
 			["Illyana - Outland"] = {
 				{
 					["outfitID"] = 0,
@@ -953,8 +955,6 @@ BetterWardrobe_SavedSetData = {
 					["index"] = 4,
 				}, -- [4]
 			},
-			["Illydaria - Draenor"] = {
-			},
 			["Destruxia - Outland"] = {
 				{
 					["outfitID"] = 0,
@@ -984,7 +984,7 @@ BetterWardrobe_SavedSetData = {
 					["index"] = 1,
 				}, -- [1]
 			},
-			["Feattwo - Outland"] = {
+			["Illydaria - Draenor"] = {
 			},
 			["Wolfados - Azjol-Nerub"] = {
 			},
@@ -1077,10 +1077,10 @@ BetterWardrobe_SubstituteItemData = {
 		["Necrophagus - Outland"] = "Default",
 		["Phalonius - Azjol-Nerub"] = "Default",
 		["Feastfour - Outland"] = "Default",
-		["Illyana - Outland"] = "Default",
-		["Illydaria - Draenor"] = "Default",
-		["Destruxia - Outland"] = "Default",
 		["Feattwo - Outland"] = "Default",
+		["Illyana - Outland"] = "Default",
+		["Destruxia - Outland"] = "Default",
+		["Illydaria - Draenor"] = "Default",
 		["Wolfados - Azjol-Nerub"] = "Default",
 		["Serthaxion - Outland"] = "Default",
 		["Luminaxia - Outland"] = "Default",
@@ -1113,10 +1113,10 @@ BetterWardrobe_ListData = {
 			["Necrophagus - Outland"] = "Necrophagus - Outland",
 			["Phalonius - Azjol-Nerub"] = "Phalonius - Azjol-Nerub",
 			["Feastfour - Outland"] = "Feastfour - Outland",
-			["Illyana - Outland"] = "Illyana - Outland",
-			["Illydaria - Draenor"] = "Illydaria - Draenor",
-			["Destruxia - Outland"] = "Destruxia - Outland",
 			["Feattwo - Outland"] = "Feattwo - Outland",
+			["Illyana - Outland"] = "Illyana - Outland",
+			["Destruxia - Outland"] = "Destruxia - Outland",
+			["Illydaria - Draenor"] = "Illydaria - Draenor",
 			["Wolfados - Azjol-Nerub"] = "Wolfados - Azjol-Nerub",
 			["Serthaxion - Outland"] = "Serthaxion - Outland",
 			["Luminaxia - Outland"] = "Luminaxia - Outland",
@@ -1160,10 +1160,10 @@ BetterWardrobe_ListData = {
 			["Necrophagus - Outland"] = "Necrophagus - Outland",
 			["Phalonius - Azjol-Nerub"] = "Phalonius - Azjol-Nerub",
 			["Feastfour - Outland"] = "Feastfour - Outland",
-			["Illyana - Outland"] = "Illyana - Outland",
-			["Illydaria - Draenor"] = "Illydaria - Draenor",
-			["Destruxia - Outland"] = "Destruxia - Outland",
 			["Feattwo - Outland"] = "Feattwo - Outland",
+			["Illyana - Outland"] = "Illyana - Outland",
+			["Destruxia - Outland"] = "Destruxia - Outland",
+			["Illydaria - Draenor"] = "Illydaria - Draenor",
 			["Wolfados - Azjol-Nerub"] = "Wolfados - Azjol-Nerub",
 			["Serthaxion - Outland"] = "Serthaxion - Outland",
 			["Luminaxia - Outland"] = "Luminaxia - Outland",
@@ -1222,14 +1222,14 @@ BetterWardrobe_ListData = {
 			},
 			["Feastfour - Outland"] = {
 			},
+			["Feattwo - Outland"] = {
+			},
 			["Illyana - Outland"] = {
 				["lists"] = {
 					{
 						["name"] = "Collection List",
 					}, -- [1]
 				},
-			},
-			["Illydaria - Draenor"] = {
 			},
 			["Destruxia - Outland"] = {
 				["lists"] = {
@@ -1238,7 +1238,7 @@ BetterWardrobe_ListData = {
 					}, -- [1]
 				},
 			},
-			["Feattwo - Outland"] = {
+			["Illydaria - Draenor"] = {
 			},
 			["Wolfados - Azjol-Nerub"] = {
 			},
@@ -1277,10 +1277,10 @@ BetterWardrobe_ListData = {
 			["Necrophagus - Outland"] = "Necrophagus - Outland",
 			["Phalonius - Azjol-Nerub"] = "Phalonius - Azjol-Nerub",
 			["Feastfour - Outland"] = "Feastfour - Outland",
-			["Illyana - Outland"] = "Illyana - Outland",
-			["Illydaria - Draenor"] = "Illydaria - Draenor",
-			["Destruxia - Outland"] = "Destruxia - Outland",
 			["Feattwo - Outland"] = "Feattwo - Outland",
+			["Illyana - Outland"] = "Illyana - Outland",
+			["Destruxia - Outland"] = "Destruxia - Outland",
+			["Illydaria - Draenor"] = "Illydaria - Draenor",
 			["Wolfados - Azjol-Nerub"] = "Wolfados - Azjol-Nerub",
 			["Serthaxion - Outland"] = "Serthaxion - Outland",
 			["Luminaxia - Outland"] = "Luminaxia - Outland",
@@ -1323,10 +1323,10 @@ BetterWardrobe_ListData = {
 			["Necrophagus - Outland"] = "Necrophagus - Outland",
 			["Phalonius - Azjol-Nerub"] = "Phalonius - Azjol-Nerub",
 			["Feastfour - Outland"] = "Feastfour - Outland",
-			["Illyana - Outland"] = "Illyana - Outland",
-			["Illydaria - Draenor"] = "Illydaria - Draenor",
-			["Destruxia - Outland"] = "Destruxia - Outland",
 			["Feattwo - Outland"] = "Feattwo - Outland",
+			["Illyana - Outland"] = "Illyana - Outland",
+			["Destruxia - Outland"] = "Destruxia - Outland",
+			["Illydaria - Draenor"] = "Illydaria - Draenor",
 			["Wolfados - Azjol-Nerub"] = "Wolfados - Azjol-Nerub",
 			["Serthaxion - Outland"] = "Serthaxion - Outland",
 			["Luminaxia - Outland"] = "Luminaxia - Outland",
