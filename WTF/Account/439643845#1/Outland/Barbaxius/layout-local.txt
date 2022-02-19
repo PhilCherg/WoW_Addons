@@ -51,10 +51,10 @@ H: 300
 Frame: AllTheThings-Window-WorldQuests
 FrameLevel: 1
 Anchor: CENTER
-X: 0
-Y: 0
-W: 300
-H: 300
+X: 155
+Y: 55
+W: 614
+H: 452
 Frame: AllTheThings-Window-Unsorted
 FrameLevel: 1
 Anchor: CENTER

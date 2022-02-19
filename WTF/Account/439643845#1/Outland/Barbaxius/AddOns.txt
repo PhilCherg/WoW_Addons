@@ -272,3 +272,4 @@ AstralKeys: disabled
 BetterWardrobe: disabled
 PremadeGroupsFilter: disabled
 Playtime: enabled
+ElvUI_CustomTags: disabled

@@ -161,3 +161,4 @@ AngryKeystones: disabled
 HandyNotes_Shadowlands: disabled
 MythicDungeonTools: disabled
 RareScanner: disabled
+ElvUI_CustomTags: disabled

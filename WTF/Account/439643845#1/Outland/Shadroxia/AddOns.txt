@@ -272,3 +272,4 @@ BetterWardrobe: disabled
 HandyNotes_Stygia: disabled
 PremadeGroupsFilter: disabled
 Playtime: enabled
+ElvUI_CustomTags: disabled
