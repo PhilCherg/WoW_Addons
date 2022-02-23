@@ -270,7 +270,7 @@ Grail-Quests-_classic_-zhTW: disabled
 Grail-Reputations-_retail_: disabled
 Grail-Reputations-_classic_: disabled
 MonkeySpeed: disabled
-RareScanner: disabled
+RareScanner: enabled
 RoutesImportExport: disabled
 Wholly: disabled
 HandyNotes_Draenor: disabled
@@ -296,7 +296,7 @@ BtWQuestsWrathOfTheLichKing: disabled
 BulkBuy: enabled
 GarrisonCommander: disabled
 GarrisonCommander-Broker: disabled
-HandyNotes_Shadowlands: disabled
+HandyNotes_Shadowlands: enabled
 Mists_of_Tirna_Solved: enabled
 MythicDungeonTools: disabled
 OmniBar: enabled

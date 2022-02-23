@@ -250,3 +250,4 @@ WorldQuestsList: disabled
 +Wowhead_Looter: disabled
 DBM-SanctumOfDomination: disabled
 Playtime: enabled
+ElvUI_CustomTags: disabled

@@ -1,7 +1,7 @@
 
 BtWQuests_Settings = {
-	["gridView"] = false,
 	["showChainTooltip"] = false,
+	["gridView"] = false,
 }
 BtWQuests_AutoLoad = {
 	["BtWQuestsShadowlands"] = true,
@@ -10,7 +10,7 @@ BtWQuests_AutoLoad = {
 	["BtWQuestsMistsOfPandaria"] = false,
 	["BtWQuestsLegion"] = false,
 	["BtWQuestsBattleForAzeroth"] = false,
-	["BtWQuestsCataclysm"] = false,
 	["BtWQuestsBattleForAzerothPrologue"] = false,
+	["BtWQuestsCataclysm"] = false,
 	["BtWQuestsTheBurningCrusade"] = false,
 }

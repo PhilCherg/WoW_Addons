@@ -794,12 +794,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mushlump",
 		},
-		[19641] = {
-			["school"] = 4,
+		[64144] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Lava Elemental",
+			["source"] = "Corruptor Tentacle",
 		},
 		[31598] = {
 			["school"] = 4,
@@ -827,12 +827,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Splinterbone Warrior",
 		},
-		[64168] = {
-			["school"] = 32,
+		[64152] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Laughing Skull",
+			["source"] = "Corruptor Tentacle",
 		},
 		[22689] = {
 			["school"] = 1,
@@ -844,14 +848,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Alzzin the Wildshaper",
 		},
-		[34341] = {
-			["school"] = 4,
+		[193460] = {
+			["school"] = 32,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Phoenix",
+			["source"] = "Ymiron, the Fallen King",
 		},
 		[19637] = {
 			["school"] = 4,
@@ -860,23 +865,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Firewalker",
 		},
-		[64144] = {
-			["school"] = 1,
+		[19641] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Corruptor Tentacle",
+			["source"] = "Lava Elemental",
 		},
-		[64152] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[193364] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Corruptor Tentacle",
+			["source"] = "Ymiron, the Fallen King",
 		},
 		[22709] = {
 			["school"] = 32,
@@ -895,15 +897,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Pimgib",
 		},
-		[193460] = {
-			["school"] = 32,
+		[34341] = {
+			["school"] = 4,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Ymiron, the Fallen King",
+			["source"] = "Phoenix",
 		},
 		[35369] = {
 			["school"] = 4,
@@ -1097,14 +1098,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Illysanna Ravencrest",
 		},
-		[64010] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Azure Consort",
-		},
 		[29908] = {
 			["school"] = 64,
 			["type"] = "BUFF",
@@ -1122,6 +1115,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Amalgam of Souls",
 		},
+		[20477] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Thaladred the Darkener",
+		},
 		[151962] = {
 			["school"] = 1,
 			["token"] = {
@@ -1130,20 +1130,6 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Death Speaker Blackthorn",
-		},
-		[20477] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Thaladred the Darkener",
-		},
-		[29714] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Midnight",
 		},
 		[64153] = {
 			["school"] = 8,
@@ -1155,13 +1141,33 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Corruptor Tentacle",
 		},
-		[22128] = {
-			["school"] = 8,
+		[64145] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Crusher Tentacle",
+		},
+		[150528] = {
+			["school"] = 32,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Alzzin the Wildshaper",
+			["source"] = "Death's Head Arachnomancer",
+		},
+		[22422] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Massive Geyser",
 		},
 		[150082] = {
 			["school"] = 8,
@@ -1189,22 +1195,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Chief Ukorz Sandscalp",
 		},
-		[36979] = {
-			["school"] = 64,
+		[12491] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Netherstrand Longbow",
+			["source"] = "Witch Doctor Zum'rah",
 		},
-		[22422] = {
-			["school"] = 16,
+		[64775] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Massive Geyser",
+			["source"] = "Sara",
 		},
 		[149835] = {
 			["school"] = 1,
@@ -1239,40 +1246,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Witch Doctor Zum'rah",
 		},
-		[12491] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Witch Doctor Zum'rah",
-		},
-		[37036] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Master Engineer Telonicus",
-		},
-		[29770] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Midnight",
-		},
-		[64775] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Sara",
-		},
 		[197418] = {
 			["school"] = 1,
 			["token"] = {
@@ -1281,6 +1254,39 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Illysanna Ravencrest",
+		},
+		[193211] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ymiron, the Fallen King",
+		},
+		[29770] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Midnight",
+		},
+		[36980] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Netherstrand Longbow",
+		},
+		[22128] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Alzzin the Wildshaper",
 		},
 		[65301] = {
 			["school"] = 32,
@@ -1291,12 +1297,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sara",
 		},
-		[197484] = {
-			["school"] = 1,
+		[29340] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Illysanna Ravencrest",
+			["source"] = "Spectral Stable Hand",
 		},
 		[22419] = {
 			["school"] = 16,
@@ -1308,14 +1316,17 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Hydrospawn",
 		},
-		[193211] = {
-			["school"] = 32,
+		[197546] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Ymiron, the Fallen King",
+			["source"] = "Illysanna Ravencrest",
 		},
 		[63038] = {
 			["school"] = 32,
@@ -1336,21 +1347,25 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Alzzin the Wildshaper",
 		},
-		[29340] = {
-			["school"] = 8,
+		[11639] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Sandfury Acolyte",
+		},
+		[8362] = {
+			["school"] = 2,
 			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Spectral Stable Hand",
-		},
-		[22714] = {
-			["school"] = 2,
-			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Hydrospawn",
+			["source"] = "Shadowpriest Sezz'ziz",
 		},
 		[36805] = {
 			["school"] = 4,
@@ -1368,15 +1383,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kael'thas Sunstrider",
 		},
-		[11639] = {
+		[22710] = {
 			["school"] = 32,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Sandfury Acolyte",
+			["source"] = "Lethtendris",
 		},
 		[193977] = {
 			["school"] = 16,
@@ -1405,41 +1420,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ymirjar Witch Doctor",
 		},
-		[8362] = {
-			["school"] = 2,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Shadowpriest Sezz'ziz",
-		},
-		[63891] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Sara",
-		},
-		[11895] = {
-			["school"] = 2,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Antu'sul",
-		},
-		[22710] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Lethtendris",
-		},
 		[194966] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -1450,12 +1430,41 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Amalgam of Souls",
 		},
-		[35873] = {
-			["school"] = 64,
+		[151010] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Splinterbone Warrior",
+		},
+		[63134] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Sara",
+		},
+		[197484] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Kael'thas Sunstrider",
+			["source"] = "Illysanna Ravencrest",
+		},
+		[22714] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Hydrospawn",
+		},
+		[150118] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Congealed Plague Gunk",
 		},
 		[11899] = {
 			["school"] = 1,
@@ -1616,12 +1625,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Flamewaker",
 		},
-		[150118] = {
-			["school"] = 8,
+		[35873] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Congealed Plague Gunk",
+			["source"] = "Kael'thas Sunstrider",
 		},
 		[151810] = {
 			["school"] = 16,
@@ -1631,10 +1640,25 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Amnennar the Coldbringer",
 		},
-		[63134] = {
-			["school"] = 32,
+		[11895] = {
+			["school"] = 2,
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Antu'sul",
+		},
+		[149834] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Mushlump",
+		},
+		[63891] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Sara",
 		},
@@ -1645,21 +1669,6 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Earthgrab Totem",
-		},
-		[151010] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Splinterbone Warrior",
-		},
-		[149834] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Mushlump",
 		},
 		[198635] = {
 			["school"] = 1,
@@ -1672,14 +1681,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kur'talos Ravencrest",
 		},
-		[78801] = {
-			["school"] = 16,
+		[37036] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Hydromancer Velratha",
+			["source"] = "Master Engineer Telonicus",
 		},
 		[30225] = {
 			["school"] = 8,
@@ -1690,17 +1699,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Thaladred the Darkener",
 		},
-		[197546] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[78801] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Illysanna Ravencrest",
+			["source"] = "Hydromancer Velratha",
 		},
 		[64163] = {
 			["school"] = 32,
@@ -1717,6 +1723,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Ancient Core Hound",
+		},
+		[64010] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Azure Consort",
 		},
 		[19319] = {
 			["school"] = 1,
@@ -1737,15 +1751,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gahz'rilla",
 		},
-		[36980] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Netherstrand Longbow",
-		},
 		[1604] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -1754,25 +1759,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lethtendris",
 		},
-		[150528] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[29714] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Death's Head Arachnomancer",
+			["source"] = "Midnight",
 		},
-		[64145] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[36979] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Crusher Tentacle",
+			["source"] = "Netherstrand Longbow",
 		},
 		[15547] = {
 			["school"] = 1,
@@ -1867,14 +1868,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Zevrim Thornhoof",
 		},
-		[15245] = {
+		[64168] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Witch Doctor Zum'rah",
+			["source"] = "Laughing Skull",
 		},
 		[29799] = {
 			["school"] = 1,
@@ -1883,13 +1882,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Attumen the Huntsman",
 		},
-		[193364] = {
+		[15245] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ymiron, the Fallen King",
+			["source"] = "Witch Doctor Zum'rah",
 		},
 		[63894] = {
 			["school"] = 32,

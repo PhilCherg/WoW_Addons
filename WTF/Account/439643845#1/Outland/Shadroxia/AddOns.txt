@@ -16,12 +16,12 @@ TomCats-DarkshoreRares: disabled
 TomCats-Mechagon: disabled
 TomCats-Nazjatar: disabled
 TomCats-Nzoth: disabled
-Details: disabled
+Details: enabled
 HandyNotes_Achievements: disabled
-HandyNotes: disabled
+HandyNotes: enabled
 GatherMate2: disabled
 GatherMate2_Data: disabled
-Immersion: disabled
+Immersion: enabled
 AllTheThings: enabled
 AAP-Vanilla: disabled
 AAP-TBC-WotLK: disabled
@@ -31,12 +31,12 @@ AAP-Legion: disabled
 AAP-BfA: disabled
 Azeroth Auto Pilot: disabled
 CharacterQuickLinks: disabled
-Details_EncounterDetails: disabled
-Details_RaidCheck: disabled
-Details_DataStorage: disabled
-Details_Streamer: disabled
-Details_TinyThreat: disabled
-Details_Vanguard: disabled
+Details_EncounterDetails: enabled
+Details_RaidCheck: enabled
+Details_DataStorage: enabled
+Details_Streamer: enabled
+Details_TinyThreat: enabled
+Details_Vanguard: enabled
 FakeAchievement: disabled
 HandyNotes_Argus: disabled
 HandyNotes_DraenorTreasures: disabled
@@ -153,7 +153,7 @@ ElvUI_DTBars2: disabled
 HandyNotes_MechagonAndNazjatar: disabled
 HandyNotes_VisionsOfNZoth: disabled
 InstanceAchievementTracker: disabled
-MBB: disabled
+MBB: enabled
 RareShare: disabled
 RareShareNazjatar: disabled
 RareShareMechagon: disabled
@@ -161,7 +161,7 @@ Rarity: enabled
 Rarity_Options: enabled
 DBM-CastleNathria: disabled
 DBM-Party-Shadowlands: disabled
-FasterLoot: disabled
+FasterLoot: enabled
 FarmHud: disabled
 FarmHud_QuestArrow: disabled
 RoutesImportExport: disabled
@@ -221,12 +221,12 @@ Grail-Achievements: disabled
 Grail-Rewards: disabled
 Grail-When: disabled
 HandyNotes_WarfrontRares: disabled
-MonkeySpeed: disabled
+MonkeySpeed: enabled
 RareScanner: disabled
 Wholly: disabled
 ElvUI_QuestXP: disabled
 AngryKeystones: disabled
-AutoTrackMapPin: disabled
+AutoTrackMapPin: enabled
 BtWQuests: disabled
 BtWQuestsBattleForAzerothPrologue: disabled
 BtWQuestsCataclysm: disabled
@@ -239,7 +239,7 @@ BtWQuestsWrathOfTheLichKing: disabled
 BulkBuy: disabled
 GarrisonCommander: disabled
 GarrisonCommander-Broker: disabled
-HandyNotes_Shadowlands: disabled
+HandyNotes_Shadowlands: enabled
 HandyNotes_LunarFestival: enabled
 Mists_of_Tirna_Solved: enabled
 MythicDungeonTools: disabled
@@ -247,8 +247,8 @@ OmniBar: enabled
 OrderHallCommander: disabled
 SimpleArmory: disabled
 TalentSetManager: disabled
-UnlimitedMapPinDistance: disabled
-WorldQuestTab: disabled
+UnlimitedMapPinDistance: enabled
+WorldQuestTab: enabled
 DBM-Shadowlands: disabled
 TomCats-WarfrontsCommandCenter: disabled
 TomCats-Complete: disabled
@@ -263,7 +263,7 @@ Dejunk: disabled
 HandyNotes_SummerFestival: disabled
 PremadeAutoAccept: disabled
 VenturePlan: disabled
-WorldQuestsList: disabled
+WorldQuestsList: enabled
 +Wowhead_Looter: disabled
 CamelSpotter: disabled
 DBM-SanctumOfDomination: disabled
@@ -273,3 +273,7 @@ HandyNotes_Stygia: disabled
 PremadeGroupsFilter: disabled
 Playtime: enabled
 ElvUI_CustomTags: disabled
+BetterWardrobe_SourceData: disabled
+HandyNotes_BattleForAzeroth: disabled
+DBM-Sepulcher: disabled
+DBM-VPVEM: disabled

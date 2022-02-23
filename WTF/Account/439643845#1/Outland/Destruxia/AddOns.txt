@@ -146,8 +146,8 @@ MBB: disabled
 RareShare: disabled
 RareShareNazjatar: disabled
 RareShareMechagon: disabled
-Rarity: disabled
-Rarity_Options: disabled
+Rarity: enabled
+Rarity_Options: enabled
 DBM-CastleNathria: disabled
 DBM-Party-Shadowlands: disabled
 FasterLoot: disabled

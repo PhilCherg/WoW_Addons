@@ -1847,14 +1847,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mirror Image",
 		},
-		[329170] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Sinstone Statue",
-		},
 		[64010] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -1877,6 +1869,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Depraved Obliterator",
 		},
+		[32369] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ethereal Apprentice",
+		},
 		[78939] = {
 			["school"] = 32,
 			["type"] = "BUFF",
@@ -1894,14 +1895,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sinstone Statue",
 		},
-		[32369] = {
+		[44503] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ethereal Apprentice",
+			["source"] = "Wretched Husk",
 		},
 		[30475] = {
 			["school"] = 1,
@@ -1936,6 +1937,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lokimori-Silvermoon",
 		},
+		[322527] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Tred'ova",
+		},
 		[15253] = {
 			["school"] = 64,
 			["token"] = {
@@ -1945,22 +1954,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Arcane Fiend",
 		},
-		[44503] = {
-			["school"] = 4,
+		[329170] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Wretched Husk",
-		},
-		[322527] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Tred'ova",
+			["source"] = "Sinstone Statue",
 		},
 		[322655] = {
 			["school"] = 8,
@@ -1968,6 +1968,14 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Tred'ova",
+		},
+		[326021] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Spinemaw Gorger",
 		},
 		[51750] = {
 			["school"] = 1,
@@ -1977,14 +1985,6 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "King Ymiron",
-		},
-		[326021] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Spinemaw Gorger",
 		},
 		[329171] = {
 			["school"] = 1,
@@ -2011,14 +2011,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Protean Spawn",
 		},
-		[44314] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Selin Fireheart",
-		},
 		[326617] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -2026,6 +2018,14 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Stoneborn Reaver",
+		},
+		[329172] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Sinstone Statue",
 		},
 		[325535] = {
 			["school"] = 1,
@@ -2035,15 +2035,6 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Depraved Houndmaster",
-		},
-		[59320] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Spirit Fount",
 		},
 		[322977] = {
 			["school"] = 32,
@@ -2064,13 +2055,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "High Adjudicator Aleez",
 		},
-		[319592] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Echelon",
-		},
 		[38592] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -2079,6 +2063,13 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Temporus",
+		},
+		[319592] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Echelon",
 		},
 		[325700] = {
 			["school"] = 32,
@@ -2108,15 +2099,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lokimori-Silvermoon",
 		},
-		[17843] = {
-			["school"] = 2,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Priestess Delrissa",
-		},
 		[325523] = {
 			["school"] = 1,
 			["token"] = {
@@ -2125,6 +2107,15 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Depraved Darkblade",
+		},
+		[17843] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Priestess Delrissa",
 		},
 		[57688] = {
 			["school"] = 1,
@@ -2143,6 +2134,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Grand Warlock Nethekurse",
 		},
+		[44224] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Kael'thas Sunstrider",
+		},
 		[27584] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -2153,14 +2152,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Warlord Salaris",
 		},
-		[44224] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Kael'thas Sunstrider",
-		},
 		[323538] = {
 			["school"] = 32,
 			["token"] = {
@@ -2169,6 +2160,14 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "High Adjudicator Aleez",
+		},
+		[30474] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Heathen Guard",
 		},
 		[65719] = {
 			["school"] = 32,
@@ -2194,13 +2193,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Phoenix",
 		},
-		[30474] = {
-			["school"] = 1,
+		[59320] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Heathen Guard",
+			["source"] = "Spirit Fount",
 		},
 		[59304] = {
 			["school"] = 1,
@@ -2446,13 +2446,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Echelon",
 		},
-		[329172] = {
-			["school"] = 1,
+		[44314] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Sinstone Statue",
+			["source"] = "Selin Fireheart",
 		},
 		[322563] = {
 			["school"] = 8,
