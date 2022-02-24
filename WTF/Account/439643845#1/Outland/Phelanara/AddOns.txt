@@ -308,7 +308,7 @@ Grail-Quests-_classic_-zhTW: disabled
 Grail-Reputations-_retail_: disabled
 Grail-Reputations-_classic_: disabled
 MonkeySpeed: disabled
-RareScanner: disabled
+RareScanner: enabled
 RoutesImportExport: disabled
 ElvUI_QuestXP: disabled
 TomCats-WarfrontsCommandCenter: disabled

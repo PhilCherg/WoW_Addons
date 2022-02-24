@@ -22,7 +22,7 @@ WeakAurasModelPaths: disabled
 WeakAurasOptions: disabled
 WeakAurasTemplates: disabled
 WorldQuestTracker: enabled
-WorldQuestsList: disabled
+WorldQuestsList: enabled
 DBM-Core: disabled
 DBM-DefaultSkin: enabled
 DBM-GUI: disabled
@@ -303,7 +303,7 @@ OmniBar: enabled
 OrderHallCommander: disabled
 SimpleArmory: disabled
 UnlimitedMapPinDistance: enabled
-WorldQuestTab: disabled
+WorldQuestTab: enabled
 DBM-Shadowlands: disabled
 BtWQuestsBattleForAzeroth: disabled
 Dejunk: enabled

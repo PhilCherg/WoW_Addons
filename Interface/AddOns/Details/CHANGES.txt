@@ -1,10 +1,10 @@
-tag b98efe4dcfd7520fa27f4923ed6db3938f359342 DetailsRetail.v9.1.5.9693.146
+tag 9d76938e94ef41bdce7968ac911ad3d3034abf5a DetailsRetail.v9.2.0.9694.146
 Author:	Tercio Jose <terciob19@hotmail.com>
-Date:	Thu Feb 17 14:00:08 2022 -0300
+Date:	Wed Feb 23 14:39:02 2022 -0300
 
-commit 8594fbb85406dbf0113c15af39a34ee6efd45dd2
+commit 27f69675caec0c1ad11d38c15425e7f8aa556122
 Author: Tercio Jose <terciob19@hotmail.com>
-Date:   Thu Feb 17 13:59:25 2022 -0300
+Date:   Wed Feb 23 14:38:38 2022 -0300
 
-    Fixing small issues
+    Added Cosmic Healing Potion to script 'Health Potion & Stone'.
 

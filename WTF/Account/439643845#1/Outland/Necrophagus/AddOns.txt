@@ -391,7 +391,7 @@ OmniBar: disabled
 SimpleArmory: enabled
 MazeHelper: disabled
 BtWQuestsBattleForAzeroth: disabled
-Dejunk: disabled
+Dejunk: enabled
 HandyNotes_Stygia: disabled
 PremadeAutoAccept: disabled
 CamelSpotter: disabled

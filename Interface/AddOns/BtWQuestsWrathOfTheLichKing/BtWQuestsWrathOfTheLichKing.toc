@@ -1,6 +1,6 @@
-## Interface: 90105
+## Interface: 90200
 ## Title: BtWQuests: Wrath of the Lich King
-## Version: 1.4-beta
+## Version: 1.5-beta
 ## Notes: Wrath of the Lich King quest data for BtWQuests
 ## Author: Breen
 ## Dependencies: BtWQuests

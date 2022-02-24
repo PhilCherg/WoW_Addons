@@ -1,6 +1,6 @@
-## Interface: 90105
+## Interface: 90200
 ## Title: FasterLoot
 ## Notes: Makes the loot frame instant
-## Version: 9.1.5
+## Version: 9.2.0
 ## Author: Xarano
 FasterLoot.lua

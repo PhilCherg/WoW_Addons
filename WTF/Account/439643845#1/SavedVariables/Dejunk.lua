@@ -7,6 +7,24 @@ __DEJUNK_SAVED_VARIABLES__ = {
 			["minimapPos"] = 206.5650248763703,
 		},
 		["version"] = 1,
+		["sell"] = {
+			["frame"] = {
+				["point"] = {
+					"TOP", -- [1]
+					-354, -- [2]
+					-93, -- [3]
+				},
+			},
+		},
+		["destroy"] = {
+			["frame"] = {
+				["point"] = {
+					"CENTER", -- [1]
+					-354, -- [2]
+					-121, -- [3]
+				},
+			},
+		},
 	},
 	["Profiles"] = {
 		["Shadroxia-Outland"] = {
@@ -73,16 +91,45 @@ __DEJUNK_SAVED_VARIABLES__ = {
 		["Xanthoros-Outland"] = {
 			["version"] = 3,
 		},
-		["Destruxia-Outland"] = {
+		["Feastthree-Outland"] = {
 			["version"] = 3,
 		},
 		["Feastfour-Outland"] = {
 			["version"] = 3,
 		},
 		["Necrophagus-Outland"] = {
+			["destroy"] = {
+				["autoOpen"] = {
+					["enabled"] = true,
+				},
+				["inclusions"] = {
+					["183702"] = true,
+					["173711"] = true,
+					["179293"] = true,
+				},
+			},
+			["sell"] = {
+				["auto"] = true,
+				["exclusions"] = {
+					["187455"] = true,
+					["187454"] = true,
+					["187468"] = true,
+					["187451"] = true,
+				},
+				["inclusions"] = {
+					["173204"] = true,
+					["172053"] = true,
+					["172055"] = true,
+					["173202"] = true,
+					["172054"] = true,
+					["187431"] = true,
+					["172052"] = true,
+					["179315"] = true,
+				},
+			},
 			["version"] = 3,
 		},
-		["Feastthree-Outland"] = {
+		["Destruxia-Outland"] = {
 			["version"] = 3,
 		},
 		["Elementior-Outland"] = {

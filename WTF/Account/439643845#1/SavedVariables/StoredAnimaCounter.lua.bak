@@ -1,0 +1,19 @@
+
+StoredAnimaCounterDB = {
+	["profileKeys"] = {
+		["Illyana - Outland"] = "Illyana - Outland",
+		["Barbaxius - Outland"] = "Barbaxius - Outland",
+		["Necrophagus - Outland"] = "Necrophagus - Outland",
+		["Phelanara - Outland"] = "Phelanara - Outland",
+	},
+	["profiles"] = {
+		["Illyana - Outland"] = {
+		},
+		["Barbaxius - Outland"] = {
+		},
+		["Necrophagus - Outland"] = {
+		},
+		["Phelanara - Outland"] = {
+		},
+	},
+}

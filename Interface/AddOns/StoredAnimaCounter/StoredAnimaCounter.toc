@@ -1,0 +1,13 @@
+## Interface: 90100
+## Title: StoredAnimaCounter
+## Author: Falx
+## Version: 1.7.3
+## Notes: Counts stored anima in your bags
+## SavedVariables: StoredAnimaCounterDB
+## X-Category: Bags & Inventory
+## X-Curse-Project-ID: 428797
+## X-WoWI-ID: 25837
+
+embeds.xml
+
+main.lua

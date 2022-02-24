@@ -1,6 +1,6 @@
-## Interface: 90105
+## Interface: 90200
 ## Title: BtWQuests: Shadowlands
-## Version: 5.0
+## Version: 5.2
 ## Notes: Shadowlands quest data for BtWQuests
 ## Author: Breen
 ## Dependencies: BtWQuests
@@ -74,6 +74,8 @@ Database/Index.ptBR.lua
 Database/Index.ruRU.lua
 Database/Index.zhCN.lua
 Database/Index.zhTW.lua
+
+Database/Index.EternitysEnd.lua
 
 Introduction.lua
 EternitysEnd.lua

@@ -1,0 +1,10 @@
+## Interface: 90100
+
+## Title: NoMoreErrors
+## Author: Osuushi, Volondil, Yulemath
+## Notes: Toggle Lua errors
+## SavedVariables: NoMoreErrorsDB
+## Version: 1.0.910
+## DefaultState: Enabled
+
+embeds.xml

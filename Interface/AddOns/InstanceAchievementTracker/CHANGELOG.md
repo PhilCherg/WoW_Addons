@@ -1,6 +1,6 @@
 # Instance Achievement Tracker
 
-## [V3.34.0-Release](https://github.com/Dragnogd/Instance-Achievement-Tracker/tree/V3.34.0-Release) (2021-12-28)
-[Full Changelog](https://github.com/Dragnogd/Instance-Achievement-Tracker/commits/V3.34.0-Release) [Previous Releases](https://github.com/Dragnogd/Instance-Achievement-Tracker/releases)
+## [V3.35.1-Release](https://github.com/Dragnogd/Instance-Achievement-Tracker/tree/V3.35.1-Release) (2022-02-23)
+[Full Changelog](https://github.com/Dragnogd/Instance-Achievement-Tracker/commits/V3.35.1-Release) [Previous Releases](https://github.com/Dragnogd/Instance-Achievement-Tracker/releases)
 
-- Release V3.34.0  
+- Release V3.35.1  
