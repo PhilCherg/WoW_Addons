@@ -1,4 +1,4 @@
--- Generated from CurseForge on Sat Nov  6 19:09:31 UTC 2021
+-- Generated from CurseForge on Sat Feb 26 07:24:32 UTC 2022
 local ns = select(2, ...) ---@type ns @The addon namespace.
 
 if ns:IsSameLocale("koKR") then
@@ -28,17 +28,45 @@ L["CANCEL"] = "취소"
 L["CHANGES_REQUIRES_UI_RELOAD"] = [=[변경 사항이 저장되었지만 변경 사항을 적용하려면 UI를 다시 불러와야 합니다.
 
 지금 하시겠습니까?]=]
+--[[Translation missing --]]
+--[[ L["CHARACTER_LF_GUILD_MPLUS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["CHARACTER_LF_GUILD_MPLUS_WITH_SCORE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["CHARACTER_LF_GUILD_PVP"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["CHARACTER_LF_GUILD_RAID_DEFAULT"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["CHARACTER_LF_GUILD_RAID_HEROIC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["CHARACTER_LF_GUILD_RAID_MYTHIC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["CHARACTER_LF_GUILD_RAID_NORMAL"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["CHARACTER_LF_GUILD_SOCIAL"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["CHARACTER_LF_TEAM_MPLUS_DEFAULT"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["CHARACTER_LF_TEAM_MPLUS_WITH_SCORE"] = ""--]] 
 L["CHECKBOX_DISPLAY_WEEKLY"] = "매주 표시"
 L["CHOOSE_HEADLINE_HEADER"] = "쐐기 툴팁 헤드라인"
 L["CONFIG_SHOW_TOOLTIPS_HEADER"] = "쐐기 및 레이드 툴팁"
 L["CONFIG_WHERE_TO_SHOW_TOOLTIPS"] = "쐐기 및 레이드 진행 상황 표시 위치"
 L["CONFIRM"] = "확인"
 L["COPY_RAIDERIO_PROFILE_URL"] = "Raider.IO URL 복사"
+--[[Translation missing --]]
+--[[ L["COPY_RAIDERIO_RECRUITMENT_URL"] = ""--]] 
 L["COPY_RAIDERIO_URL"] = "Raider.IO URL 복사"
 L["CURRENT_MAINS_SCORE"] = "주 캐릭터 현재 점수"
 L["CURRENT_SCORE"] = "현재 쐐기 점수"
 L["DISABLE_DEBUG_MODE_RELOAD"] = [=[귀하는 디버그 모드를 비활성화하고 있습니다.
 확인을 클릭하면 인터페이스가 다시 로드됩니다.]=]
+--[[Translation missing --]]
+--[[ L["DISABLE_RWF_MODE_BUTTON"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DISABLE_RWF_MODE_BUTTON_TOOLTIP"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DISABLE_RWF_MODE_RELOAD"] = ""--]] 
 L["DPS"] = "|cffFF3636공격전담|r"
 L["DPS_SCORE"] = "|cffFF3636공격전담|r 점수"
 L["DUNGEON_SHORT_NAME_AD"] = "아탈"
@@ -86,6 +114,12 @@ L["ENABLE_NO_SCORE_COLORS"] = "점수 색상 끄기"
 L["ENABLE_NO_SCORE_COLORS_DESC"] = "점수의 색상 표시를 사용하지 않습니다. 모든 점수는 흰색으로 표시됩니다."
 L["ENABLE_RAIDERIO_CLIENT_ENHANCEMENTS"] = "RaiderIO 클라이언트 항상 허용"
 L["ENABLE_RAIDERIO_CLIENT_ENHANCEMENTS_DESC"] = "이 기능을 사용하면 RaiderIO Client에서 다운로드 한 자세한 RaiderIO 프로필 데이터를 확인하여 사용자의 정보를 볼 수 있습니다."
+--[[Translation missing --]]
+--[[ L["ENABLE_RWF_MODE_BUTTON"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ENABLE_RWF_MODE_BUTTON_TOOLTIP"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ENABLE_RWF_MODE_RELOAD"] = ""--]] 
 L["ENABLE_SIMPLE_SCORE_COLORS"] = "표준 색상 사용"
 L["ENABLE_SIMPLE_SCORE_COLORS_DESC"] = "표준 아이템 품질의 색상만으로 점수를 표시합니다. 이렇게 하면 색각 보정이 필요한 사람들이 점수 등급을 쉽게 구분할 수 있습니다."
 L["EXPORTJSON_COPY_TEXT"] = "다음을 복사하여 |cff00C8FFhttps://raider.io|r에 붙여 넣어 모든 플레이어를 찾으십시오."
@@ -93,6 +127,22 @@ L["GENERAL_TOOLTIP_OPTIONS"] = "일반 툴팁 옵션"
 L["GUILD_BEST_SEASON"] = "길드: 시즌 최고"
 L["GUILD_BEST_TITLE"] = "Raider.IO 기록"
 L["GUILD_BEST_WEEKLY"] = "길드: 주간 최고"
+--[[Translation missing --]]
+--[[ L["GUILD_LF_MPLUS_DEFAULT"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["GUILD_LF_MPLUS_WITH_SCORE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["GUILD_LF_PVP"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["GUILD_LF_RAID_DEFAULT"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["GUILD_LF_RAID_HEROIC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["GUILD_LF_RAID_MYTHIC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["GUILD_LF_RAID_NORMAL"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["GUILD_LF_SOCIAL"] = ""--]] 
 L["HEALER"] = "|cff41FF3A치유전담|r"
 L["HEALER_SCORE"] = "|cff41FF3A치유전담|r 점수"
 L["HIDE_OWN_PROFILE"] = "개인 RaiderIO 프로필 툴팁 숨기기"
@@ -185,6 +235,28 @@ L["RAID_BOSS_NYA_6"] = "만족할 줄 모르는 샤드하르"
 L["RAID_BOSS_NYA_7"] = "드레스타가스"
 L["RAID_BOSS_NYA_8"] = "다시 태어난 타락 일기노스"
 L["RAID_BOSS_NYA_9"] = "벡시오나"
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_SFO_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_SFO_10"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_SFO_11"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_SFO_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_SFO_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_SFO_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_SFO_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_SFO_6"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_SFO_7"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_SFO_8"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_SFO_9"] = ""--]] 
 L["RAID_BOSS_SOD_1"] = "대지공포"
 L["RAID_BOSS_SOD_10"] = "실바나스 윈드러너"
 L["RAID_BOSS_SOD_2"] = "간수의 눈"
@@ -223,8 +295,26 @@ L["RAIDERIO_MP_SCORE_COLON"] = "Raider.IO 쐐기 점수: "
 L["RAIDERIO_MYTHIC_OPTIONS"] = "Raider.IO M+ 설정"
 L["RAIDING_DATA_HEADER"] = "Raider.IO 공격대 진행상황"
 L["RAIDING_DB_MODULES"] = "공격대 데이터베이스 모듈"
+--[[Translation missing --]]
+--[[ L["RECRUITMENT_DB_MODULES"] = ""--]] 
 L["RELOAD_LATER"] = "나중에 다시 불러오겠습니다."
 L["RELOAD_NOW"] = "지금 다시 불러오기"
+--[[Translation missing --]]
+--[[ L["RELOAD_RWF_MODE_BUTTON"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RELOAD_RWF_MODE_BUTTON_TOOLTIP"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RWF_SUBTITLE_LOGGING_FILTERED_LOOT"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RWF_SUBTITLE_LOGGING_LOOT"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RWF_TITLE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SEARCH_NAME_LABEL"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SEARCH_REALM_LABEL"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SEARCH_REGION_LABEL"] = ""--]] 
 L["SEASON_LABEL_1"] = "1 시즌"
 L["SEASON_LABEL_2"] = "2 시즌"
 L["SEASON_LABEL_3"] = "3 시즌"
@@ -237,6 +327,10 @@ L["SHOW_BEST_RUN"] = "쐐기 최고 단수 헤드라인"
 L["SHOW_BEST_RUN_DESC"] = "현재 시즌에서 가장 잘 나온 쐐기 단수를 툴팁 헤드 라인으로 표시합니다."
 L["SHOW_BEST_SEASON"] = "시즌 쐐기 최고 점수 헤드라인"
 L["SHOW_BEST_SEASON_DESC"] = "플레이어의 쐐기 시즌 최고 점수를 툴팁 헤드 라인으로 표시합니다. 점수가 이전 시즌의 점수인 경우 시즌은 툴팁 헤드 라인의 일부로 표시됩니다."
+--[[Translation missing --]]
+--[[ L["SHOW_CHESTS_AS_MEDALS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SHOW_CHESTS_AS_MEDALS_DESC"] = ""--]] 
 L["SHOW_CLIENT_GUILD_BEST"] = "파티 찾기 신화 던전탭에 최고 기록 표시"
 L["SHOW_CLIENT_GUILD_BEST_DESC"] = "이 기능을 켜면 파티 찾기창 신화 던전 탭에 길드의 상위 5위까지(시즌 또는 매주) 표시됩니다."
 L["SHOW_CURRENT_SEASON"] = "현재 시즌 쐐기 점수 헤드라인"
@@ -275,6 +369,10 @@ L["SHOW_SCORE_IN_COMBAT_DESC"] = "비활성화시 전투에 영향이 없도록 
 --[[ L["SHOW_SCORE_WITH_MODIFIER_DESC"] = ""--]] 
 L["TANK"] = "|cff2478FF방어전담|r"
 L["TANK_SCORE"] = "|cff2478FF방어전담|r 점수"
+--[[Translation missing --]]
+--[[ L["TEAM_LF_MPLUS_DEFAULT"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["TEAM_LF_MPLUS_WITH_SCORE"] = ""--]] 
 L["TIMED_10_RUNS"] = "+10-14단 횟수"
 L["TIMED_15_RUNS"] = "15단+ 횟수"
 L["TIMED_20_RUNS"] = "20단+ 횟수"
@@ -294,6 +392,12 @@ L["USE_ENGLISH_ABBREVIATION_DESC"] = "설정하면, 던전에 현재 사용중�
 --[[ L["USE_RAIDERIO_CLIENT_LIVE_TRACKING_SETTINGS_DESC"] = ""--]] 
 L["WARNING_DEBUG_MODE_ENABLE"] = "|cffFFFFFF%s|r 디버그 모드가 활성화되었습니다. |cffFFFFFF/raiderio debug|r을 입력하여 기능을 비활성화 할 수 있습니다."
 L["WARNING_LOCK_POSITION_FRAME_AUTO"] = "RaiderIO: 먼저 내 프로필 위치 자동화 설정을 비활성화해야 합니다."
+--[[Translation missing --]]
+--[[ L["WARNING_RWF_MODE_ENABLE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["WIPE_RWF_MODE_BUTTON"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["WIPE_RWF_MODE_BUTTON_TOOLTIP"] = ""--]] 
 
 	ns.L = L
 end

@@ -1,4 +1,4 @@
--- Generated from CurseForge on Sat Nov  6 19:09:36 UTC 2021
+-- Generated from CurseForge on Sat Feb 26 07:24:38 UTC 2022
 local ns = select(2, ...) ---@type ns @The addon namespace.
 
 if ns:IsSameLocale("zhTW") then
@@ -26,18 +26,46 @@ L["CANCEL"] = "取消"
 L["CHANGES_REQUIRES_UI_RELOAD"] = [=[您的更動已儲存，但您必須重載UI以生效。
 
 你要現在這麼做嗎？]=]
+--[[Translation missing --]]
+--[[ L["CHARACTER_LF_GUILD_MPLUS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["CHARACTER_LF_GUILD_MPLUS_WITH_SCORE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["CHARACTER_LF_GUILD_PVP"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["CHARACTER_LF_GUILD_RAID_DEFAULT"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["CHARACTER_LF_GUILD_RAID_HEROIC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["CHARACTER_LF_GUILD_RAID_MYTHIC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["CHARACTER_LF_GUILD_RAID_NORMAL"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["CHARACTER_LF_GUILD_SOCIAL"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["CHARACTER_LF_TEAM_MPLUS_DEFAULT"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["CHARACTER_LF_TEAM_MPLUS_WITH_SCORE"] = ""--]] 
 L["CHECKBOX_DISPLAY_WEEKLY"] = "顯示每週"
 L["CHOOSE_HEADLINE_HEADER"] = "大秘滑鼠提示標題"
 L["CONFIG_SHOW_TOOLTIPS_HEADER"] = "大秘和團本滑鼠提示"
 L["CONFIG_WHERE_TO_SHOW_TOOLTIPS"] = "要在哪裡顯示大秘與團隊進度"
 L["CONFIRM"] = "確認"
 L["COPY_RAIDERIO_PROFILE_URL"] = "複製Raider.IO設定檔網址"
+--[[Translation missing --]]
+--[[ L["COPY_RAIDERIO_RECRUITMENT_URL"] = ""--]] 
 L["COPY_RAIDERIO_URL"] = "複製Raider.IO網址"
 L["CURRENT_MAINS_SCORE"] = "本尊的當季大秘分數"
 L["CURRENT_SCORE"] = "當季大秘分數"
 L["DISABLE_DEBUG_MODE_RELOAD"] = [=[您正在停用偵錯模式。
 
 單擊“確認”將重新載入您的界面。]=]
+--[[Translation missing --]]
+--[[ L["DISABLE_RWF_MODE_BUTTON"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DISABLE_RWF_MODE_BUTTON_TOOLTIP"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DISABLE_RWF_MODE_RELOAD"] = ""--]] 
 L["DPS"] = "傷害輸出"
 L["DPS_SCORE"] = "傷害輸出分數"
 L["DUNGEON_SHORT_NAME_AD"] = "阿塔"
@@ -85,6 +113,12 @@ L["ENABLE_NO_SCORE_COLORS"] = "停用分數著色"
 L["ENABLE_NO_SCORE_COLORS_DESC"] = "停用分數的著色，所有分數將顯示為白色。"
 L["ENABLE_RAIDERIO_CLIENT_ENHANCEMENTS"] = "允許RaiderIO客戶端增強功能"
 L["ENABLE_RAIDERIO_CLIENT_ENHANCEMENTS_DESC"] = "啟用此功能後，你可以從RaiderIO客戶端下載並查看你要求角色的傳奇+詳細記錄數據。"
+--[[Translation missing --]]
+--[[ L["ENABLE_RWF_MODE_BUTTON"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ENABLE_RWF_MODE_BUTTON_TOOLTIP"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ENABLE_RWF_MODE_RELOAD"] = ""--]] 
 L["ENABLE_SIMPLE_SCORE_COLORS"] = "使用簡易分數著色"
 L["ENABLE_SIMPLE_SCORE_COLORS_DESC"] = "只使用標準物品品質顏色來顯示分數。 這可以使那些具有色弱的人更容易區分評分級別。"
 L["EXPORTJSON_COPY_TEXT"] = "複製以下內容並將其貼上到|cff00C8FFhttps://raider.io|r上以查找所有玩家。"
@@ -92,6 +126,22 @@ L["GENERAL_TOOLTIP_OPTIONS"] = "一般工具提示選項"
 L["GUILD_BEST_SEASON"] = "公會：當季最佳"
 L["GUILD_BEST_TITLE"] = "Raider.IO紀錄"
 L["GUILD_BEST_WEEKLY"] = "公會：當週最佳"
+--[[Translation missing --]]
+--[[ L["GUILD_LF_MPLUS_DEFAULT"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["GUILD_LF_MPLUS_WITH_SCORE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["GUILD_LF_PVP"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["GUILD_LF_RAID_DEFAULT"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["GUILD_LF_RAID_HEROIC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["GUILD_LF_RAID_MYTHIC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["GUILD_LF_RAID_NORMAL"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["GUILD_LF_SOCIAL"] = ""--]] 
 L["HEALER"] = "治療者"
 L["HEALER_SCORE"] = "治療者分數"
 L["HIDE_OWN_PROFILE"] = "隱藏個人RaiderIO紀錄提示"
@@ -184,6 +234,28 @@ L["RAID_BOSS_NYA_6"] = "薩德哈"
 L["RAID_BOSS_NYA_7"] = "卓雷阿葛斯"
 L["RAID_BOSS_NYA_8"] = "伊蓋諾斯"
 L["RAID_BOSS_NYA_9"] = "薇希歐娜"
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_SFO_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_SFO_10"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_SFO_11"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_SFO_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_SFO_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_SFO_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_SFO_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_SFO_6"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_SFO_7"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_SFO_8"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_SFO_9"] = ""--]] 
 L["RAID_BOSS_SOD_1"] = "泰拉古魯"
 L["RAID_BOSS_SOD_10"] = "希瓦娜斯風行者"
 L["RAID_BOSS_SOD_2"] = "獄主之眼"
@@ -221,8 +293,26 @@ L["RAIDERIO_MP_SCORE_COLON"] = "Raider.IO 傳奇鑰石分數："
 L["RAIDERIO_MYTHIC_OPTIONS"] = "Raider.IO 插件選項"
 L["RAIDING_DATA_HEADER"] = "Raider.IO 團隊副本進度"
 L["RAIDING_DB_MODULES"] = "團隊數據庫模組"
+--[[Translation missing --]]
+--[[ L["RECRUITMENT_DB_MODULES"] = ""--]] 
 L["RELOAD_LATER"] = "等會才重載"
 L["RELOAD_NOW"] = "現在就重載"
+--[[Translation missing --]]
+--[[ L["RELOAD_RWF_MODE_BUTTON"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RELOAD_RWF_MODE_BUTTON_TOOLTIP"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RWF_SUBTITLE_LOGGING_FILTERED_LOOT"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RWF_SUBTITLE_LOGGING_LOOT"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RWF_TITLE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SEARCH_NAME_LABEL"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SEARCH_REALM_LABEL"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SEARCH_REGION_LABEL"] = ""--]] 
 L["SEASON_LABEL_1"] = "第1賽季"
 L["SEASON_LABEL_2"] = "第2賽季"
 L["SEASON_LABEL_3"] = "第3賽季"
@@ -235,6 +325,10 @@ L["SHOW_BEST_RUN"] = "將最佳大秘紀錄顯示為標題"
 L["SHOW_BEST_RUN_DESC"] = "將玩家當季的最佳傳奇+紀錄顯示為滑鼠提示標題。"
 L["SHOW_BEST_SEASON"] = "將最佳大秘賽季分數顯示為標題"
 L["SHOW_BEST_SEASON_DESC"] = "將玩家的最佳傳奇+賽季分數顯示為滑鼠提示標題。如果分數來自過往賽季，則會備註是哪一賽季。"
+--[[Translation missing --]]
+--[[ L["SHOW_CHESTS_AS_MEDALS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SHOW_CHESTS_AS_MEDALS_DESC"] = ""--]] 
 L["SHOW_CLIENT_GUILD_BEST"] = "在傳奇地城面版顯示公會最佳紀錄"
 L["SHOW_CLIENT_GUILD_BEST_DESC"] = "啟用以後會在預組隊伍視窗的傳奇地城標籤顯示你公會的前五名(當季或當週)。"
 L["SHOW_CURRENT_SEASON"] = "將當季的大秘分數顯示為標題"
@@ -271,6 +365,10 @@ L["SHOW_SCORE_WITH_MODIFIER"] = "使用快捷鍵顯示Raider.IO工具提示"
 L["SHOW_SCORE_WITH_MODIFIER_DESC"] = "除非按住快捷鍵，否則在鼠標停留玩家時不顯示數據。"
 L["TANK"] = "坦克"
 L["TANK_SCORE"] = "坦克分數"
+--[[Translation missing --]]
+--[[ L["TEAM_LF_MPLUS_DEFAULT"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["TEAM_LF_MPLUS_WITH_SCORE"] = ""--]] 
 L["TIMED_10_RUNS"] = "10-14層限時+次數"
 L["TIMED_15_RUNS"] = "15層以上限時+次數"
 L["TIMED_20_RUNS"] = "20層以上限時+次數"
@@ -288,6 +386,12 @@ L["USE_RAIDERIO_CLIENT_LIVE_TRACKING_SETTINGS"] = "允許Raider.IO客戶端控�
 L["USE_RAIDERIO_CLIENT_LIVE_TRACKING_SETTINGS_DESC"] = "允許Raider.IO客戶端(當有安裝時)來自動控制您的戰鬥紀錄設定。"
 L["WARNING_DEBUG_MODE_ENABLE"] = "|cffFFFFFF%s|r偵錯模式已啟用。您如果想停用請輸入|cffFFFFFF/raiderio debug|r。"
 L["WARNING_LOCK_POSITION_FRAME_AUTO"] = "RaiderIO：您必須先取消M+紀錄的自動定位。"
+--[[Translation missing --]]
+--[[ L["WARNING_RWF_MODE_ENABLE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["WIPE_RWF_MODE_BUTTON"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["WIPE_RWF_MODE_BUTTON_TOOLTIP"] = ""--]] 
 
 	ns.L = L
 end

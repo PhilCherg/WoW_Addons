@@ -545,9 +545,9 @@ local shadowlandsMounts = {
 		name = L["Iska's Mawrat Leash"],
 		itemId = 190765,
 		spellId = 368105,
-		npcs = { 182114 },
+		npcs = { 182120 },
 		chance = 100, -- Blind guess
-		coords = { { x = 63.8, y = 25.1, n = L["Iska, Outrider of Ruin"], m = CONSTANTS.UIMAPIDS.ZERETH_MORTIS } },
+		coords = { { x = 63.8, y = 25.1, n = L["Rhuv, Gorger of Ruin"], m = CONSTANTS.UIMAPIDS.ZERETH_MORTIS } },
 	},
 	["Spectral Mawrat's Tail"] = {
 		cat = CONSTANTS.ITEM_CATEGORIES.SHADOWLANDS,
@@ -566,7 +566,7 @@ local shadowlandsMounts = {
 		name = L["Sturdy Silver Mawrat Harness"],
 		itemId = 188700,
 		spellId = 363178,
-		npcs = { 171422 },
+		npcs = { 171422, 179526, 185026, 176578, 185027, 179433, 185028 },
 		chance = 100, -- Blind guess
 		coords = { { m = CONSTANTS.UIMAPIDS.TORGHAST } },
 	},
