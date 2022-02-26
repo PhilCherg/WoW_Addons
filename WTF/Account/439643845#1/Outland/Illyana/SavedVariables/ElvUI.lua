@@ -2,72 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"[RCU] WTS HC |cff66bbff|Hjournal:1:2441:15|h[Sylvanas Windrunner]|h|r [60k] |cff66bbff|Hjournal:1:2440:15|h[Kel'Thuzad]|h|r [40k] Both [90k] every 40 min |cffffff00|Hachievement:15134:Player-1301-0BFAA238:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sylvanas Windrunner]|h|r  [M+15=120k] [4xM+15=410k] [M+20=500k] Also offering Mythic SoD  /w", -- [1]
-			"Abcent-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Abcent-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			121, -- [11]
-			"Player-1301-0BFAA238", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Abcent|r",
-			[51] = 1640442773,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"<O B C> Selling KT+Sylvanas HC now! Receive |cffffff00|Hachievement:15134:Player-1301-0C1E1F17:1:9:14:21:0:0:0:0|h[Ahead of the Curve: Sylvanas Windrunner]|h|r with the chance of 246 loot & |cffff8000|Hitem:186414::::::::10:1453:::::::::|h[Rae'shalare, Death's Whisper]|h|r for 40k KT, 60k Sylvanas or 90k for BOTH! Going every 20 mins, /w", -- [1]
-			"Renataa-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Renataa-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			122, -- [11]
-			"Player-1301-0C1E1F17", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Renataa|r",
-			[51] = 1640442776,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"WTS Mythic+ 15-20 /lvling boost 50-60/ Torghast (layer 1-12) for gold /w me for info", -- [1]
-			"Peros-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Peros-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			125, -- [11]
-			"Player-1301-0B9C0ECB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Peros|r",
-			[51] = 1640442805,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
 			"%s has earned the achievement |cffffff00|Hachievement:15181:Player-1301-09F61344:1:12:25:21:4294967295:4294967295:4294967295:4294967295|h[Rock n' Roll]|h|r!", -- [1]
 			"Illyana-Outland", -- [2]
 			"", -- [3]
@@ -88,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1640442825,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [4]
+		}, -- [1]
 		{
 			"<O B C> Selling KT+Sylvanas HC now! Receive |cffffff00|Hachievement:15134:Player-1301-0C1F1A63:1:7:28:21:0:0:0:0|h[Ahead of the Curve: Sylvanas Windrunner]|h|r with the chance of 246 loot & |cffff8000|Hitem:186414::::::::10:1450:::::::::|h[Rae'shalare, Death's Whisper]|h|r for 40k KT, 60k Sylvanas or 90k for BOTH! Going every 20 mins, /w", -- [1]
 			"Beequen-Outland", -- [2]
@@ -110,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Beequen|r",
 			[51] = 1640442829,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
+		}, -- [2]
 		{
 			"[RCU] WTS HC |cff66bbff|Hjournal:1:2441:15|h[Sylvanas Windrunner]|h|r [60k] |cff66bbff|Hjournal:1:2440:15|h[Kel'Thuzad]|h|r [40k] Both [90k] every 40 min |cffffff00|Hachievement:15134:Player-1301-0BFAA238:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sylvanas Windrunner]|h|r  [M+15=120k] [4xM+15=410k] [M+20=500k] Also offering Mythic SoD  /w", -- [1]
 			"Abcent-Outland", -- [2]
@@ -132,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Abcent|r",
 			[51] = 1640442837,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
+		}, -- [3]
 		{
 			":(", -- [1]
 			"Marjolein-Hellscream", -- [2]
@@ -154,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Marjolein-Hellscream|r",
 			[51] = 1640870448,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [7]
+		}, -- [4]
 		{
 			"|cffffff00The Commons is under attack!|r", -- [1]
 			"", -- [2]
@@ -176,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1641039065,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
+		}, -- [5]
 		{
 			"WTS Boost Mythic+15-24 >> Torghast All Layer (9-12) Normaly or Flawless|cffffff00|Hachievement:15089:Player-1301-086A0446:1:8:12:21:4294967295:4294967295:4294967295:4294967295|h[Flawless Master]|h|r /w me for more info", -- [1]
 			"Angelbloody-Outland", -- [2]
@@ -198,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Angelbloody|r",
 			[51] = 1643808233,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
+		}, -- [6]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:605:Player-1301-09F61344:1:2:2:22:4294967295:4294967295:4294967295:4294967295|h[A Coin of Ancestry]|h|r!", -- [1]
 			"Illyana-Outland", -- [2]
@@ -220,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1643808340,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [10]
+		}, -- [7]
 		{
 			"yo man have  u heard of our word and savior 2v2", -- [1]
 			"|Kq4|k", -- [2]
@@ -242,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDasRelNak|r",
 			[51] = 1643808616,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [11]
+		}, -- [8]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:606:Player-1301-09F61344:1:2:2:22:4294967295:4294967295:4294967295:4294967295|h[5 Coins of Ancestry]|h|r!", -- [1]
 			"Illyana-Outland", -- [2]
@@ -264,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1643809042,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [12]
+		}, -- [9]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:607:Player-1301-09F61344:1:2:2:22:4294967295:4294967295:4294967295:4294967295|h[10 Coins of Ancestry]|h|r!", -- [1]
 			"Illyana-Outland", -- [2]
@@ -286,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1643809495,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [13]
+		}, -- [10]
 		{
 			"WTB |cffffffff|Hitem:172323::::::::60:253:::::::::|h[Boneshatter Treads]|h|r Rank 6!", -- [1]
 			"Kitranax-Outland", -- [2]
@@ -308,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Kitranax|r",
 			[51] = 1643809496,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
+		}, -- [11]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14336:Player-1301-05ECDAED:1:2:2:22:4294967295:4294967295:4294967295:4294967295|h[Undying Army]|h|r!", -- [1]
 			"Vesska-Outland", -- [2]
@@ -330,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Vesska|r",
 			[51] = 1643810100,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [15]
+		}, -- [12]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:608:Player-1301-09F61344:1:2:2:22:4294967295:4294967295:4294967295:4294967295|h[25 Coins of Ancestry]|h|r!", -- [1]
 			"Illyana-Outland", -- [2]
@@ -352,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1643811177,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [16]
+		}, -- [13]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14637:Player-1301-051AABC1:1:2:2:22:4294967295:4294967295:4294967295:4294967295|h[Your Covenant's Flavor]|h|r!", -- [1]
 			"Lizes-Outland", -- [2]
@@ -374,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaLizes|r",
 			[51] = 1643811871,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [17]
+		}, -- [14]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:914:Player-1301-09F61344:1:2:2:22:4294967295:4294967295:4294967295:4294967295|h[Elders of the Horde]|h|r!", -- [1]
 			"Illyana-Outland", -- [2]
@@ -396,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1643814598,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [18]
+		}, -- [15]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:912:Player-1301-09F61344:1:2:2:22:4294967295:4294967295:4294967295:4294967295|h[Elders of Eastern Kingdoms]|h|r!", -- [1]
 			"Illyana-Outland", -- [2]
@@ -418,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1643814673,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [19]
+		}, -- [16]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:609:Player-1301-09F61344:1:2:2:22:4294967295:4294967295:4294967295:4294967295|h[50 Coins of Ancestry]|h|r!", -- [1]
 			"Illyana-Outland", -- [2]
@@ -440,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1643814673,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [20]
+		}, -- [17]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15125:Player-1301-051AABC1:1:2:2:22:4294967295:4294967295:4294967295:4294967295|h[The Reckoning]|h|r!", -- [1]
 			"Lizes-Outland", -- [2]
@@ -462,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaLizes|r",
 			[51] = 1643815245,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [21]
+		}, -- [18]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:1269:Player-1301-09F61344:1:2:2:22:4294967295:4294967295:4294967295:4294967295|h[Explore Storm Peaks]|h|r!", -- [1]
 			"Illyana-Outland", -- [2]
@@ -484,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1643816307,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [22]
+		}, -- [19]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:1396:Player-1301-09F61344:1:2:2:22:4294967295:4294967295:4294967295:4294967295|h[Elders of Northrend]|h|r!", -- [1]
 			"Illyana-Outland", -- [2]
@@ -506,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1643816997,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [23]
+		}, -- [20]
 		{
 			"wts |cffa335ee|Hitem:52200::::::::60:251::11::1:28:872:::::|h[Reins of the Crimson Deathcharger]|h|r", -- [1]
 			"Tómér-Outland", -- [2]
@@ -528,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Tómér|r",
 			[51] = 1643817581,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
+		}, -- [21]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14796:Player-1301-07AFEC74:1:2:13:22:4294967295:4294967295:4294967295:4294967295|h[Superior]|h|r!", -- [1]
 			"Thalaj-Outland", -- [2]
@@ -550,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Thalaj|r",
 			[51] = 1644744223,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [25]
+		}, -- [22]
 		{
 			"<Fishing Onion> estas neaktiva pve-gildo nur por denaskaj Esperanto-parolantaj cepoj. Nuntempe ni rekrutas por pastro tanko kaj manbatalmago, sed ni faros nenion en la venonta ataknivelo. Se vi /w vi ĉiuokaze ricevos neniun informon.", -- [1]
 			"Raoxj-Outland", -- [2]
@@ -572,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRaoxj|r",
 			[51] = 1645001317,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
+		}, -- [23]
 		{
 			"WTB 7x |cff1eff00|Hitem:124116::::::::10:259:::::::::|h[Felhide]|h|r", -- [1]
 			"Baszbank-Outland", -- [2]
@@ -594,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Baszbank|r",
 			[51] = 1645207123,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
+		}, -- [24]
 		{
 			"wts Boost key 15-24 KSM 16x  K15  KSH 8x 20*  Boost Torghast Layer 1-12 *** Sod Raid hc and mythic 10/10 18:00 AND 21:00 SERVER TIME boost lvlup 50-60 fast run wiss me for more info", -- [1]
 			"Adrianous-Outland", -- [2]
@@ -616,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Adrianous|r",
 			[51] = 1645207498,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
+		}, -- [25]
 		{
 			"LF rshaman for boomy/dh 2k cr", -- [1]
 			"Ðannesdruid-Outland", -- [2]
@@ -638,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Ðannesdruid|r",
 			[51] = 1645289979,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
+		}, -- [26]
 		{
 			"consump rdy", -- [1]
 			"Timmytamer-Silvermoon", -- [2]
@@ -660,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Timmytamer-Silvermoon|r",
 			[51] = 1645443529,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
+		}, -- [27]
 		{
 			"havoc?", -- [1]
 			"Rakishi-Ravencrest", -- [2]
@@ -682,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcRakishi-Ravencrest|r",
 			[51] = 1645515793,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [31]
+		}, -- [28]
 		{
 			"Towering on the spot of SIlent ", -- [1]
 			"Divinehammer-Ravencrest", -- [2]
@@ -704,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Divinehammer-Ravencrest|r",
 			[51] = 1645515872,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
+		}, -- [29]
 		{
 			"Consumption is ready", -- [1]
 			"Divinehammer-Ravencrest", -- [2]
@@ -726,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Divinehammer-Ravencrest|r",
 			[51] = 1645516200,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
+		}, -- [30]
 		{
 			"Kroke the Tormented 100.00% ~(59.11, 34.56) |cffffff00|Hworldmap:1961:5911:3456|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Holyslapd-Ravencrest", -- [2]
@@ -748,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Holyslapd-Ravencrest|r",
 			[51] = 1645516254,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
+		}, -- [31]
 		{
 			"Wild Worldcracker 99.37% ~(47.39, 36.13) |cffffff00|Hworldmap:1961:4739:3613|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Holyslapd-Ravencrest", -- [2]
@@ -770,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Holyslapd-Ravencrest|r",
 			[51] = 1645516550,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
+		}, -- [32]
 		{
 			"Towering Exterminator 53.36% ~(44.69, 29.13) |cffffff00|Hworldmap:1961:4469:2913|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Holyslapd-Ravencrest", -- [2]
@@ -792,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Holyslapd-Ravencrest|r",
 			[51] = 1645516888,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
+		}, -- [33]
 		{
 			"Zelnithop 100.00% ~(28.54, 56.86) |cffffff00|Hworldmap:2007:2854:5686|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Holyslapd-Ravencrest", -- [2]
@@ -814,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Holyslapd-Ravencrest|r",
 			[51] = 1645517087,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
+		}, -- [34]
 		{
 			"Zelnithop 100.00% ~(28.32, 60.35) |cffffff00|Hworldmap:2007:2832:6035|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Holyslapd-Ravencrest", -- [2]
@@ -836,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Holyslapd-Ravencrest|r",
 			[51] = 1645517305,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
+		}, -- [35]
 		{
 			"|cffffff00|Hworldmap:1961:4131:5832|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r Ve'rayn", -- [1]
 			"Farzin-Ravencrest", -- [2]
@@ -858,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Farzin-Ravencrest|r",
 			[51] = 1645517322,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
+		}, -- [36]
 		{
 			"Teleporter is up", -- [1]
 			"Divineliight-Ravencrest", -- [2]
@@ -880,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Divineliight-Ravencrest|r",
 			[51] = 1645517675,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
+		}, -- [37]
 		{
 			"Konthrogz the Obliterator 40.17% ~(46.06, 35.79) |cffffff00|Hworldmap:1961:4606:3579|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Holyslapd-Ravencrest", -- [2]
@@ -902,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Holyslapd-Ravencrest|r",
 			[51] = 1645517849,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
+		}, -- [38]
 		{
 			"Consumption 100.00% ~(52.52, 40.08) |cffffff00|Hworldmap:1961:5252:4008|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Holyslapd-Ravencrest", -- [2]
@@ -924,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Holyslapd-Ravencrest|r",
 			[51] = 1645517889,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
+		}, -- [39]
 		{
 			"Lets keep our faction pure boies and make the alliance great again ", -- [1]
 			"Klin-Outland", -- [2]
@@ -946,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Klin|r",
 			[51] = 1645530377,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
+		}, -- [40]
 		{
 			"make ally great again ", -- [1]
 			"Pitoe-Outland", -- [2]
@@ -968,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Pitoe|r",
 			[51] = 1645530396,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
+		}, -- [41]
 		{
 			"#MAGA !", -- [1]
 			"Klin-Outland", -- [2]
@@ -990,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Klin|r",
 			[51] = 1645530405,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [42]
 		{
 			"ty bb", -- [1]
 			"Imirion-Dalaran", -- [2]
@@ -1012,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cImirion-Dalaran|r",
 			[51] = 1645635645,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [46]
+		}, -- [43]
 		{
 			"Konthrogz is up right now", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1034,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1645637860,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
+		}, -- [44]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:507:Player-1301-0B3D7D5B:1:2:23:22:4294967295:4294967295:4294967295:4294967295|h[1000 Quests Completed]|h|r!", -- [1]
 			"Vstealth-Outland", -- [2]
@@ -1056,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Vstealth|r",
 			[51] = 1645638040,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [48]
+		}, -- [45]
 		{
 			"Its sad, Wow is a masterpiece but right now only stock brokers run the game dev :/", -- [1]
 			"Noowaa-Outland", -- [2]
@@ -1078,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeNoowaa|r",
 			[51] = 1645638087,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+		}, -- [46]
 		{
 			"|cffa335ee|Hitem:190948::::::::37:63::::1:28:2169:::::|h[Staff of the Dormant Oracle]|h|r for sale", -- [1]
 			"Trippyforlif-Outland", -- [2]
@@ -1100,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaTrippyforlif|r",
 			[51] = 1645712488,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
+		}, -- [47]
 		{
 			"mu mog Zugas gezzno", -- [1]
 			"Dikhe-Ragnaros", -- [2]
@@ -1122,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDikhe-Ragnaros|r",
 			[51] = 1645718490,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [51]
+		}, -- [48]
 		{
 			"ogar kek zug mog", -- [1]
 			"Imbaganjo-Pozzodell'Eternità", -- [2]
@@ -1144,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Imbaganjo-Pozzodell'Eternità|r",
 			[51] = 1645718520,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [52]
+		}, -- [49]
 		{
 			"il", -- [1]
 			"Imbaganjo-Pozzodell'Eternità", -- [2]
@@ -1166,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Imbaganjo-Pozzodell'Eternità|r",
 			[51] = 1645718521,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [53]
+		}, -- [50]
 		{
 			" L", -- [1]
 			"Onlygalox-Aggramar", -- [2]
@@ -1188,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cOnlygalox-Aggramar|r",
 			[51] = 1645718523,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [54]
+		}, -- [51]
 		{
 			"KO gul kaz", -- [1]
 			"Imbaganjo-Pozzodell'Eternità", -- [2]
@@ -1210,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Imbaganjo-Pozzodell'Eternità|r",
 			[51] = 1645718531,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [55]
+		}, -- [52]
 		{
 			"Ogg ag gi HA Ro'th ogg tar ag no'ku il L", -- [1]
 			"Onlygalox-Aggramar", -- [2]
@@ -1232,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cOnlygalox-Aggramar|r",
 			[51] = 1645718544,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [56]
+		}, -- [53]
 		{
 			"Goth'a kaz Throm Golar Ruk O OGG ragath'a gi lok IL AG kazreth ", -- [1]
 			"Imbaganjo-Pozzodell'Eternità", -- [2]
@@ -1254,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Imbaganjo-Pozzodell'Eternità|r",
 			[51] = 1645718545,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [57]
+		}, -- [54]
 		{
 			"tago ogg", -- [1]
 			"Dikhe-Ragnaros", -- [2]
@@ -1276,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDikhe-Ragnaros|r",
 			[51] = 1645718629,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [58]
+		}, -- [55]
 		{
 			"Goth'a Lok'tar ", -- [1]
 			"Dikhe-Ragnaros", -- [2]
@@ -1298,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDikhe-Ragnaros|r",
 			[51] = 1645718637,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [59]
+		}, -- [56]
 		{
 			"regas golar", -- [1]
 			"Dikhe-Ragnaros", -- [2]
@@ -1320,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDikhe-Ragnaros|r",
 			[51] = 1645718645,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [60]
+		}, -- [57]
 		{
 			"o ogg ag gesh'nuka", -- [1]
 			"Imbaganjo-Pozzodell'Eternità", -- [2]
@@ -1342,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Imbaganjo-Pozzodell'Eternità|r",
 			[51] = 1645718645,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [61]
+		}, -- [58]
 		{
 			"dogg", -- [1]
 			"Dikhe-Ragnaros", -- [2]
@@ -1364,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDikhe-Ragnaros|r",
 			[51] = 1645718651,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [62]
+		}, -- [59]
 		{
 			"raznos zaga maza makogg", -- [1]
 			"Dikhe-Ragnaros", -- [2]
@@ -1386,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDikhe-Ragnaros|r",
 			[51] = 1645718664,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [63]
+		}, -- [60]
 		{
 			"kil ogar ", -- [1]
 			"Dikhe-Ragnaros", -- [2]
@@ -1408,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDikhe-Ragnaros|r",
 			[51] = 1645718668,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [64]
+		}, -- [61]
 		{
 			"maza Aaz'no", -- [1]
 			"Dikhe-Ragnaros", -- [2]
@@ -1430,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDikhe-Ragnaros|r",
 			[51] = 1645718674,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [65]
+		}, -- [62]
 		{
 			"gul", -- [1]
 			"Imbaganjo-Pozzodell'Eternità", -- [2]
@@ -1452,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Imbaganjo-Pozzodell'Eternità|r",
 			[51] = 1645718676,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [66]
+		}, -- [63]
 		{
 			"maka il ogar", -- [1]
 			"Dikhe-Ragnaros", -- [2]
@@ -1474,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDikhe-Ragnaros|r",
 			[51] = 1645718682,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [67]
+		}, -- [64]
 		{
 			"mog l gesh g kek gi kagg il kagg ag", -- [1]
 			"Imbaganjo-Pozzodell'Eternità", -- [2]
@@ -1496,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Imbaganjo-Pozzodell'Eternità|r",
 			[51] = 1645718683,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [68]
+		}, -- [65]
 		{
 			"dogg kagg", -- [1]
 			"Dikhe-Ragnaros", -- [2]
@@ -1518,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDikhe-Ragnaros|r",
 			[51] = 1645718686,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [69]
+		}, -- [66]
 		{
 			"ogar kek l nogah", -- [1]
 			"Imbaganjo-Pozzodell'Eternità", -- [2]
@@ -1540,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Imbaganjo-Pozzodell'Eternità|r",
 			[51] = 1645718688,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [70]
+		}, -- [67]
 		{
 			"il", -- [1]
 			"Imbaganjo-Pozzodell'Eternità", -- [2]
@@ -1562,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Imbaganjo-Pozzodell'Eternità|r",
 			[51] = 1645718688,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [71]
+		}, -- [68]
 		{
 			"l gul ruk tago ko kagg aaz", -- [1]
 			"Dikhe-Ragnaros", -- [2]
@@ -1584,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDikhe-Ragnaros|r",
 			[51] = 1645718700,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [72]
+		}, -- [69]
 		{
 			"l kagg thok nogu", -- [1]
 			"Imbaganjo-Pozzodell'Eternità", -- [2]
@@ -1606,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Imbaganjo-Pozzodell'Eternità|r",
 			[51] = 1645718709,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [73]
+		}, -- [70]
 		{
 			"kil", -- [1]
 			"Imbaganjo-Pozzodell'Eternità", -- [2]
@@ -1628,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Imbaganjo-Pozzodell'Eternità|r",
 			[51] = 1645718711,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [74]
+		}, -- [71]
 		{
 			"nogu gesh L", -- [1]
 			"Dikhe-Ragnaros", -- [2]
@@ -1650,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDikhe-Ragnaros|r",
 			[51] = 1645718715,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [75]
+		}, -- [72]
 		{
 			"l maka kil tago kek maka maza kagg", -- [1]
 			"Imbaganjo-Pozzodell'Eternità", -- [2]
@@ -1672,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Imbaganjo-Pozzodell'Eternità|r",
 			[51] = 1645718720,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [76]
+		}, -- [73]
 		{
 			"kagg tago", -- [1]
 			"Imbaganjo-Pozzodell'Eternità", -- [2]
@@ -1694,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Imbaganjo-Pozzodell'Eternità|r",
 			[51] = 1645718726,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [77]
+		}, -- [74]
 		{
 			"gesh ag", -- [1]
 			"Dikhe-Ragnaros", -- [2]
@@ -1716,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDikhe-Ragnaros|r",
 			[51] = 1645718729,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [78]
+		}, -- [75]
 		{
 			"o", -- [1]
 			"Imbaganjo-Pozzodell'Eternità", -- [2]
@@ -1738,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Imbaganjo-Pozzodell'Eternità|r",
 			[51] = 1645718733,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [79]
+		}, -- [76]
 		{
 			"ogar l throm'Ka kazum", -- [1]
 			"Dikhe-Ragnaros", -- [2]
@@ -1760,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDikhe-Ragnaros|r",
 			[51] = 1645718745,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [80]
+		}, -- [77]
 		{
 			"L maka ogg ogg ogerin no'ku kil regasnogah ha A kil", -- [1]
 			"Imbaganjo-Pozzodell'Eternità", -- [2]
@@ -1782,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Imbaganjo-Pozzodell'Eternità|r",
 			[51] = 1645718747,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [81]
+		}, -- [78]
 		{
 			"regasnogah L gul kil nakazz HA", -- [1]
 			"Imbaganjo-Pozzodell'Eternità", -- [2]
@@ -1804,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Imbaganjo-Pozzodell'Eternità|r",
 			[51] = 1645718760,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [82]
+		}, -- [79]
 		{
 			"lok", -- [1]
 			"Onlygalox-Aggramar", -- [2]
@@ -1826,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cOnlygalox-Aggramar|r",
 			[51] = 1645718765,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [83]
+		}, -- [80]
 		{
 			"zaga", -- [1]
 			"Dikhe-Ragnaros", -- [2]
@@ -1848,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDikhe-Ragnaros|r",
 			[51] = 1645718769,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [84]
+		}, -- [81]
 		{
 			"moth'aga kil gi ha zaga", -- [1]
 			"Imbaganjo-Pozzodell'Eternità", -- [2]
@@ -1870,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Imbaganjo-Pozzodell'Eternità|r",
 			[51] = 1645718776,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [85]
+		}, -- [82]
 		{
 			"il", -- [1]
 			"Imbaganjo-Pozzodell'Eternità", -- [2]
@@ -1892,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Imbaganjo-Pozzodell'Eternità|r",
 			[51] = 1645718780,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [86]
+		}, -- [83]
 		{
 			"mog ogg ruk ogg", -- [1]
 			"Dikhe-Ragnaros", -- [2]
@@ -1914,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDikhe-Ragnaros|r",
 			[51] = 1645718786,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [87]
+		}, -- [84]
 		{
 			"Kek ogg tar ogar kek il iL", -- [1]
 			"Onlygalox-Aggramar", -- [2]
@@ -1936,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cOnlygalox-Aggramar|r",
 			[51] = 1645718798,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [88]
+		}, -- [85]
 		{
 			"iL", -- [1]
 			"Dikhe-Ragnaros", -- [2]
@@ -1958,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDikhe-Ragnaros|r",
 			[51] = 1645718803,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [89]
+		}, -- [86]
 		{
 			"IL gul kaz", -- [1]
 			"Imbaganjo-Pozzodell'Eternità", -- [2]
@@ -1980,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Imbaganjo-Pozzodell'Eternità|r",
 			[51] = 1645718805,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [90]
+		}, -- [87]
 		{
 			"maza kil ogg ogar GUL kil ag il", -- [1]
 			"Dikhe-Ragnaros", -- [2]
@@ -2002,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDikhe-Ragnaros|r",
 			[51] = 1645718814,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [91]
+		}, -- [88]
 		{
 			"kil ko L", -- [1]
 			"Dikhe-Ragnaros", -- [2]
@@ -2024,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDikhe-Ragnaros|r",
 			[51] = 1645718823,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [92]
+		}, -- [89]
 		{
 			"crazed trogg up if anyone has orang?", -- [1]
 			"Ërys-Hellscream", -- [2]
@@ -2046,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Ërys-Hellscream|r",
 			[51] = 1645719019,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [90]
 		{
 			"+", -- [1]
 			"Alissa-Ragnaros", -- [2]
@@ -2068,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Alissa-Ragnaros|r",
 			[51] = 1645719037,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [91]
 		{
 			"omw", -- [1]
 			"Alissa-Ragnaros", -- [2]
@@ -2090,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Alissa-Ragnaros|r",
 			[51] = 1645719040,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [92]
 		{
 			"thanks :)", -- [1]
 			"Ërys-Hellscream", -- [2]
@@ -2112,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Ërys-Hellscream|r",
 			[51] = 1645719104,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [93]
 		{
 			"rig up", -- [1]
 			"Alissa-Ragnaros", -- [2]
@@ -2134,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Alissa-Ragnaros|r",
 			[51] = 1645719404,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [94]
 		{
 			"paol pondwater is up if anyone needs", -- [1]
 			"Ërys-Hellscream", -- [2]
@@ -2156,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Ërys-Hellscream|r",
 			[51] = 1645719428,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [95]
 		{
 			"Jawbreaker 53.24% ~(76.28, 44.16) |cffffff00|Hworldmap:1462:7628:4416|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Alissa-Ragnaros", -- [2]
@@ -2178,6 +2112,72 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Alissa-Ragnaros|r",
 			[51] = 1645719805,
 			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"Waited long?", -- [1]
+			"Avanor-Runetotem", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Avanor-Runetotem", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			3308, -- [11]
+			"Player-1587-0C6594C4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edAvanor-Runetotem|r",
+			[51] = 1645800004,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [97]
+		{
+			"Mecharantula (100%)|cffffff00|Hworldmap:1462:8802:2249|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Niordra-Silvermoon", -- [2]
+			"", -- [3]
+			"1. General - Mechagon", -- [4]
+			"Niordra-Silvermoon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Mechagon", -- [9]
+			0, -- [10]
+			3314, -- [11]
+			"Player-3391-067396A2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Niordra-Silvermoon|r",
+			[51] = 1645800170,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"gul l ruk zaga ag kek ", -- [1]
+			"Metkaas-TwistingNether", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Metkaas-TwistingNether", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			3315, -- [11]
+			"Player-3674-09D2FCFE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Metkaas-TwistingNether|r",
+			[51] = 1645800370,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {

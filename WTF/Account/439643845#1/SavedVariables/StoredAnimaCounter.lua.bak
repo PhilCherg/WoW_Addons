@@ -1,19 +1,46 @@
 
 StoredAnimaCounterDB = {
 	["profileKeys"] = {
-		["Illyana - Outland"] = "Illyana - Outland",
+		["Bankeristor - Outland"] = "Bankeristor - Outland",
 		["Barbaxius - Outland"] = "Barbaxius - Outland",
-		["Necrophagus - Outland"] = "Necrophagus - Outland",
 		["Phelanara - Outland"] = "Phelanara - Outland",
+		["Xanthoros - Outland"] = "Xanthoros - Outland",
+		["Phaltraxion - Outland"] = "Phaltraxion - Outland",
+		["Illyana - Outland"] = "Illyana - Outland",
+		["Destruxia - Outland"] = "Destruxia - Outland",
+		["Necrophagus - Outland"] = "Necrophagus - Outland",
+		["Phaladinus - Outland"] = "Phaladinus - Outland",
+		["Serthaxion - Outland"] = "Serthaxion - Outland",
+		["Luminaxia - Outland"] = "Luminaxia - Outland",
+		["Shadroxia - Outland"] = "Shadroxia - Outland",
+		["Elementior - Outland"] = "Elementior - Outland",
 	},
 	["profiles"] = {
-		["Illyana - Outland"] = {
+		["Bankeristor - Outland"] = {
 		},
 		["Barbaxius - Outland"] = {
 		},
+		["Phelanara - Outland"] = {
+		},
+		["Xanthoros - Outland"] = {
+		},
+		["Phaltraxion - Outland"] = {
+		},
+		["Illyana - Outland"] = {
+		},
+		["Destruxia - Outland"] = {
+		},
 		["Necrophagus - Outland"] = {
 		},
-		["Phelanara - Outland"] = {
+		["Phaladinus - Outland"] = {
+		},
+		["Serthaxion - Outland"] = {
+		},
+		["Luminaxia - Outland"] = {
+		},
+		["Shadroxia - Outland"] = {
+		},
+		["Elementior - Outland"] = {
 		},
 	},
 }
