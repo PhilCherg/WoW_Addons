@@ -403,3 +403,6 @@ DBM-SanctumOfDomination: enabled
 BetterWardrobe_SourceData: enabled
 Playtime: enabled
 ElvUI_CustomTags: disabled
+RaiderIO_DB_US_F: disabled
+RaiderIO_DB_TW_F: disabled
+RaiderIO_DB_KR_F: disabled
