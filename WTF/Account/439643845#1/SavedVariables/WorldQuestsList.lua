@@ -74,9 +74,7 @@ VWQL = {
 		},
 		["VERSION"] = 104,
 		["Quests"] = {
-			[56141] = true,
 			[64531] = true,
-			[56399] = true,
 		},
 		["Filter"] = 63,
 	},
@@ -203,13 +201,13 @@ VWQL = {
 			[52157] = true,
 			[52474] = true,
 			[51216] = true,
-			[52923] = true,
 			[52986] = true,
+			[52923] = true,
 			[50846] = true,
 			[51415] = true,
 			[56394] = true,
-			[51051] = true,
 			[49413] = true,
+			[51051] = true,
 			[51738] = true,
 			[52874] = true,
 			[51107] = true,
@@ -259,21 +257,6 @@ VWQL = {
 	["Ignore"] = {
 	},
 	["DisableLFG"] = true,
-	["Necrophagus-Outland"] = {
-		["VERSION"] = 104,
-		["FilterType"] = {
-		},
-		["Quests"] = {
-			[56399] = true,
-			[44895] = true,
-			[43943] = true,
-			[57205] = true,
-			[56141] = true,
-			[45379] = true,
-			[43798] = true,
-		},
-		["Filter"] = 63,
-	},
 	["Elementior-Outland"] = {
 		["Filter"] = 63,
 		["FilterType"] = {
@@ -281,6 +264,18 @@ VWQL = {
 		["Quests"] = {
 		},
 		["VERSION"] = 100,
+	},
+	["Necrophagus-Outland"] = {
+		["VERSION"] = 104,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+			[43943] = true,
+			[45379] = true,
+			[44895] = true,
+			[43798] = true,
+		},
+		["Filter"] = 63,
 	},
 	["Luminaxia-Outland"] = {
 		["VERSION"] = 101,
@@ -329,8 +324,8 @@ VWQL = {
 			[43774] = true,
 			[41949] = true,
 			[46111] = true,
-			[48637] = true,
 			[42652] = true,
+			[48637] = true,
 			[42276] = true,
 			[46201] = true,
 			[45934] = true,
