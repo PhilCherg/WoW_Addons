@@ -60,6 +60,11 @@ END
 VER 3 000000000000003B "Eye" "136135"
 /run local t,c="Saltsea Globule",0 for i=1,10000 do local p=C_NamePlate.GetNamePlateForUnit("nameplate"..i) if p and p:IsVisible() and p:GetChildren():GetRegions():GetText()==t then c=c+1 end end print(t,":",c)
 END
+VER 3 000000000000004B "FastFelhunter" "136217"
+#showtooltip Summon Felhunter
+/cast Fel Domination
+/cast Summon Felhunter
+END
 VER 3 000000000000004A "FastVoidwalker" "136221"
 #showtooltip Summon Voidwalker
 /cast Fel Domination
@@ -110,11 +115,11 @@ END
 VER 3 0000000000000021 "KIss" "136217"
 /kneel
 END
-VER 3 0000000000000041 "Kneel" "INV_MISC_QUESTIONMARK"
-END
 VER 3 0000000000000028 "Kneel" "236291"
 /tar Queen
 /kneel
+END
+VER 3 0000000000000041 "Kneel" "INV_MISC_QUESTIONMARK"
 END
 VER 3 000000000000002C "PetAndStones" "136103"
 /use Fel Domination
@@ -142,9 +147,9 @@ VER 3 0000000000000048 "Shadowburn Totem" "136191"
 /cast Shadowburn
 END
 VER 3 0000000000000039 "Shemi SS" "136210"
-/tar Chlod
+/tar Eluitha
 /cast Soulstone
-/say SS on Chlodwig up!
+/say SS on Eluith up!
 END
 VER 3 0000000000000011 "Sit" "136172"
 /sit

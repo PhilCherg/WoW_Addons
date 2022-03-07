@@ -142,9 +142,9 @@ VER 3 0000000000000048 "Shadowburn Totem" "136191"
 /cast Shadowburn
 END
 VER 3 0000000000000039 "Shemi SS" "136210"
-/tar Eluith
+/tar Chlod
 /cast Soulstone
-/say SS on Shemi up :D
+/say SS on Chlodwig up!
 END
 VER 3 0000000000000011 "Sit" "136172"
 /sit
