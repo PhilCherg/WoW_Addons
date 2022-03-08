@@ -254,7 +254,7 @@ L['flayedwing_transporter_note'] = 'Cliquez sur {npc:178633} pour voler vers ou 
 L['fleshwing_note'] = 'Parlez à {npc:180079} pour commencer l\'événement de collecte.'
 L['forgotten_feather_note'] = 'Flottant sur une petite île à laquelle on accède en sautant depuis le Répit du gardien.'
 L['konthrogz_note'] = 'Apparaît lors d\'un événement lié à un portail de dévoreur. L\'événement peut apparaître dans de nombreux endroits de Korthia.'
-L['korthia_limited_rare'] = '|cFFFF8C00Ce monstre rare n\'est pas disponible certains jours.|r'
+L['sl_limited_rare'] = '|cFFFF8C00Ce monstre rare n\'est pas disponible certains jours.|r'
 L['krelva_note'] = 'Se déplace vers une autre plateforme à 80%, puis se déplace vers la terre ferme à 60%. |cFFFF8C00Vous devez attaquer le rare après 60% pour être compté dans le combat !|r'
 L['kroke_note'] = 'Tuez des {npc:179029s} dans la zone jusqu\'à ce qu\'il apparaisse. Ne peut pas apparaître les jours où les {npc:179029s} sont absents.'
 L['maelie_wanderer'] = '{npc:179912} apparaîtra à un endroit défini pour la journée. Une fois que vous avez utilisé {spell:355862} sur elle 6 jours différents, revenez voir {npc:179930} pour obtenir la monture.'
@@ -685,13 +685,16 @@ L['feasting_note'] = 'Va parfois faire le tour de la zone avant de revenir à ce
 L['furidian_note'] = 'Activez trois |cFFFFFD00Serrures renforcées|r dans la zone, puis déverrouillez le |cFFFFFD00Coffre étrangement remonté|r.'
 L['garudeon_note'] = 'Ramassez des {npc:183562s} dans les environs et utilisez {spell:362655} pour nourrir les {npc:183554s}. Une fois les trois nourris, {npc:180924} s\'activera.'
 L['gluttonous_overgrowth_note'] = 'Brisez toutes les {npc:184048s} proches pour activer le monstre rare.'
-L['helmix_emote'] = '|cFFFF8C00Le sol vibre... quelque chose se cache sous la surface !|r'
+L['helmix_note'] = [[
+Tuez des {npc:179005s} dans la zone jusqu'à ce qu'il émette un signal et apparaisse.
+|cFFFF8C00Le sol tremble... Quelque chose se déplace sous la surface !|r
+]]
 L['hirukon_note'] = [[
 Pour attirer {npc:180978} à la surface, il est nécessaire de créer un {item:187923}.
 
 1. Pêchez une {item:187662} dans les eaux voisines.
 
-2. Pêchez un {item:187915} dans l'|cFFFFFD00Amas de Poissons-blobs âcres|r à l'intérieur du Réservoir de Glissecroc au Marécage de Zangar. Le bassin se trouve à droite lorsque vous entrez dans la caverne.
+2. Pêchez un {item:187915} dans l'|cFFFFFD00Amas de Poissons-blobs âcres|r à l'intérieur du Réservoir de Glissecroc au Marécage de Zangar.
 
 3. Pêchez un {item:187922} dans le |cFFFFFD00Banc de Nectalies|r près du point de vol de la Tombe de Kelya à Nazjatar.
 
@@ -730,6 +733,11 @@ Pressez les quatre {npc:185390s} pour activer le téléporteur dans la salle cen
 • Dans la salle sud-est des champs
 ]]
 
+L['provis_cache'] = 'Cache verrouillée de Provis'
+L['provis_cache_note'] = [[
+Accomplissez au moins une fois la quête journalière {quest:64717} de {npc:177958}.
+Utilisez le {item:187516} aux forges de la zone pour récupérer 15 {item:187728} et combinez-les en un {item:187787}. Cet orbe a une chance de contenir la clé.
+]]
 L['prying_eye_discovery'] = 'Découverte d\'œil indiscret'
 L['prying_eye_discovery_note'] = 'Plus facile à atteindre une fois que le vol est déverrouillé.'
 L['pulp_covered_relic'] = 'Relique couverte de pulpe'
@@ -752,7 +760,7 @@ L['cache_toccatian'] = 'Cache toccatienne'
 L['schematic_treasure_note'] = '|cFFFF8C00Ce trésor ne contiendra pas le schéma de protoforme si vous n\'avez pas encore débloqué le synthétiseur. Si vous avez déjà récupéré le trésor, vous trouverez le schéma sur le sol à proximité.|r'
 L['schematic_treasure_mount_note'] = '|cFFFF8C00Ce schéma se trouve dans un trésor à usage unique situé à proximité. Si le trésor est ouvert avant le déverrouillage du synthétiseur de montures, le schéma peut être trouvé ici.|r'
 L['schematic_treasure_pet_note'] = '|cFFFF8C00Ce schéma se trouve dans un trésor à usage unique situé à proximité. Si le trésor est ouvert avant le déverrouillage du synthétiseur de familiers, le schéma peut être trouvé ici.|r'
-L['schematic_bronze_helicid_note'] = 'Peut être trouvé dans le {item:190610} de la quête bi-hebdomadaire {quest:65324}.'
+L['schematic_bronze_helicid_note'] = 'Peut être trouvé dans le {item:190610} de la quête hebdomadaire {quest:65324}.'
 L['schematic_ambystan_darter_note'] = 'Dissimulé sous l\'eau, près du {npc:185312}.'
 L['schematic_bronzewing_vespoid_note'] = 'A l\'intérieur du Repos de la fertilité.'
 L['schematic_buzz_note'] = 'Peut être trouvé dans une {npc:185265}.'
@@ -772,11 +780,14 @@ L['schematic_raptora_swooper_note'] = 'Trouvé à l\'intérieur de la Chambre de
 L['schematic_resonant_echo_note'] = 'Peut être trouvé dans un |cFFFFFD00Écho du premier chant cristallisé|r.'
 L['schematic_russet_bufonid_note'] = 'Peut être trouvé dans la cache de parangon {item:187780}.'
 L['schematic_scarlet_helicid_note'] = 'Trouvé au sommet de la structure de l\'arche.'
+L['schematic_serenade_note'] = 'Situé dans une chaîne sous une plateforme flottante dans la zone |cFFFFFD00Foyer immortel|r du raid.'
 L['schematic_shelly_note'] = 'Situé à l\'arrière d\'une étagère dans la Grotte Lexicale. Nécessite une capacité de téléportation pour escalader l\'étagère.'
+L['schematic_stabilized_geomental_note'] = 'A une chance d\'être lâché par {npc:182169} dans le raid |cFFFFFD00Le sépulcre des Fondateurs|r.'
 L['schematic_tarachnid_creeper_note'] = 'A l\'intérieur d\'une petite structure dans les Sables Infinis.'
 L['schematic_terror_jelly_note'] = 'Au sommet du pylône carré à côté de la rampe.'
 L['schematic_tunneling_vombata_note'] = 'A côté de quelques décombres dans un tunnel bloqué à l\'intérieur du complexe Esper locrien.'
 L['schematic_vespoid_flutterer_note'] = 'Dépasse d\'un tas de sable au niveau Locus primus des Pics Résonnants.'
+L['schematic_violent_poultrid_note'] = 'A une chance d\'être obtenu à partir de la quête journalière {daily:65256}.'
 
 L['concordance_excitable'] = 'Harmonique fébrile'
 L['concordance_mercurial'] = 'Harmonique changeant'
@@ -786,10 +797,22 @@ L['concordance_note'] = 'Lisez chaque harmonique pour déverrouiller les donnée
 L['echoed_jiro_note'] = 'Dépensez l\'énergie de {npc:181059} pour obtenir des buffs temporaires. Nécessite la recherche |cFFFFFD00Créatien|r à la {npc:181397}.'
 
 L['bygone_elemental_note'] = 'Un {npc:181221} peut apparaître à la place de n\'importe quel {npc:179007} dans la zone.'
-L['gaiagantic_note'] = 'Apparaît uniquement lorsque {npc:177958} propose la quête journalière {quest:64785}.'
-L['misaligned_enforcer_note'] = 'Patrouille la zone et disparaît à la fin de son itinéraire.'
+L['dominated_irregular_note'] = 'Un {npc:184819} peut apparaître à la place de n\'importe quel {npc:183184} dans la zone.'
+L['gaiagantic_note'] = 'Apparaît uniquement lorsque {npc:177958} propose la quête journalière {daily:64785}.'
+L['misaligned_enforcer_note'] = 'Apparaît ici. Patrouille la zone et disparaît à la fin de son itinéraire.'
 L['overcharged_vespoid_note'] = 'Peut apparaître dans n\'importe quel essaim de la zone.'
 L['runethief_xylora_note'] = 'Apparaît camouflé à la Grâce du Pèlerin.'
+
+local proto_area = 'Peut être trouvé dans les forges autour de la zone |cFFFFFD00%s|r.'
+L['proto_material_zone_chance'] = 'Peut être trouvé dans certaines forges de la zone.'
+L['anima_charged_yolk_note'] = 'Récupérez des {item:187728} provenant de n\'importe quelle forge et combinez-les en un {item:187787}, qui a une chance de contenir un {item:187890}.'
+L['energized_firmament_note'] = string.format(proto_area, 'Pics Résonnants')
+L['honeycombed_lattice_note'] = string.format(proto_area, 'Précipice Bourdonnant')
+L['incorporeal_sand_note'] = 'Peut être trouvé dans les forges des zones désertiques de la zone.'
+L['pollinated_extraction_note'] = string.format(proto_area, 'Verdure Indomptée')
+L['serene_pigment_note'] = 'Dans une forge au-dessus de l\'entrée du |cFFFFFD00	Creux de l’Exil|r. Peut nécessiter plusieurs essais.'
+L['volatile_precursor_note'] = 'Trouvé dans la petite forge au sommet. Peut nécessiter plusieurs essais.'
+L['wayward_essence_note'] = 'Difficile à atteindre sans voler; utilisez {spell:300728} ou {spell:111771}. Dans une forge flottante derrière le |cFFFFFD00Creux de l’Exil|r. Placez-vous dans le renfoncement pour siphonner la forge.'
 
 L['patient_bufonid_note'] = 'Progressez dans l\'histoire de Zereth Mortis jusqu\'à ce que {npc:180950} propose {quest:65727}. Complétez les quêtes chaque jour pour attirer le {npc:185798} hors de l\'étang.'
 L['patient_bufonid_note_day1'] = 'Récupérez 15x {item:190852} sur des Vespoïdes dans la zone.'
@@ -802,15 +825,17 @@ L['patient_bufonid_note_day7'] = 'Acheter 1x {item:187171} auprès du {npc:18011
 
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = 'Afficher les emplacements des créatures pour le haut-fait {achievement:15211}.'
-L['options_icons_concordances'] = 'Harmoniques d\'histoire'
+L['options_icons_concordances'] = 'Histoires Harmoniques'
 L['options_icons_concordances_desc'] = 'Afficher les emplacements des consoles d\'harmoniques d\'histoire.'
 L['options_icons_echoed_jiros'] = 'Jiro sonore'
 L['options_icons_echoed_jiros_desc'] = 'Afficher les emplacements des buffs d\'offrandes des |cFFFFFD00Jiros sonores|r.'
 L['options_icons_exile_tales'] = '{achievement:15509}'
 L['options_icons_exile_tales_desc'] = 'Afficher les emplacements des tomes pour le haut-fait {achievement:15509}.'
+L['options_icons_proto_materials'] = '{achievement:15229}'
+L['options_icons_proto_materials_desc'] = 'Afficher les emplacements des matériaux de protoforme rares pour le haut-fait {achievement:15229}.'
 L['options_icons_protoform_schematics'] = 'Schémas de protoforme'
 L['options_icons_protoform_schematics_desc'] = 'Afficher les emplacements des schémas de montures et familiers.'
-L['options_icons_puzzle_caches'] = 'Caches des puzzles'
+L['options_icons_puzzle_caches'] = 'Caches de la création (Puzzle)'
 L['options_icons_puzzle_caches_desc'] = 'Afficher les emplacements possibles des caches de puzzles'
 L['options_icons_zereth_caches'] = 'Caches cryptiques' -- Needs Review
 L['options_icons_zereth_caches_desc'] = 'Afficher les emplacements possibles des Caches cryptiques' -- Needs Review

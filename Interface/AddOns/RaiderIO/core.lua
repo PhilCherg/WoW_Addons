@@ -903,6 +903,9 @@ do
         profilePoint = { point = nil, x = 0, y = 0 },
         debugMode = false,
         rwfMode = false, -- NEW in 9.1
+        rwfBackgroundMode = true, -- NEW in 9.2
+        rwfBackgroundRemindAt = 10, -- NEW in 9.2
+        rwfMiniPoint = { point = nil, x = 0, y = 0 }, -- NEW in 9.2
         showMedalsInsteadOfText = false,-- NEW in 9.1.5
     }
 
@@ -7205,23 +7208,25 @@ do
 end
 
 -- rwf.lua (requires rwf mode)
--- dependencies: module, callback, config
+-- dependencies: module, callback, config, util
 do
 
     ---@class RaceWorldFirstModule : Module
     local rwf = ns:NewModule("RaceWorldFirst") ---@type RaceWorldFirstModule
     local callback = ns:GetModule("Callback") ---@type CallbackModule
     local config = ns:GetModule("Config") ---@type ConfigModule
+    local util = ns:GetModule("Util") ---@type UtilModule
 
     local LOCATION = {}
     local LOOT_FRAME
 
     local TRACKING_EVENTS = {
-        "LOOT_READY",
-        "LOOT_HISTORY_FULL_UPDATE",
-        "LOOT_HISTORY_ROLL_COMPLETE",
-        "CHAT_MSG_LOOT",
-        "CHAT_MSG_CURRENCY",
+        -- TODO: disable these loot related events since we currently only support the guild news related loot events
+        -- "LOOT_READY",
+        -- "LOOT_HISTORY_FULL_UPDATE",
+        -- "LOOT_HISTORY_ROLL_COMPLETE",
+        -- "CHAT_MSG_LOOT",
+        -- "CHAT_MSG_CURRENCY",
     }
 
     local HEX_COLOR_QUALITY = {
@@ -7254,9 +7259,9 @@ do
         return linkType, linkArg1, link, linkCount, HEX_COLOR_QUALITY[linkHexColor]
     end
 
-    -- Sanctum of Domination (Mythic)
+    -- Sepulcher of the First Ones
     local LOG_FILTER = {
-        GUILD_NEWS = "item:.-:1:28:2106:",
+        GUILD_NEWS = "item:.-:1:28:216[5678]:",
         ITEM_LEVEL = 252,
     }
 
@@ -7310,7 +7315,30 @@ do
     end
 
     ---@class RWFLootEntry
+    ---@field public guildName string
+    ---@field public guildRealm string
+    ---@field public guildRegion string
+    ---@field public type number
+    ---@field public isNew boolean
+    ---@field public timestamp number
+    ---@field public isUpdated boolean
+    ---@field public itemLevel number
+    ---@field public id number
+    ---@field public itemType string
+    ---@field public itemSubType string
+    ---@field public itemEquipLoc string
+    ---@field public itemIcon number
+    ---@field public itemClassID number
+    ---@field public itemSubClassID number
+    ---@field public link string
+    ---@field public index number
+    ---@field public guid string
+    ---@field public count number
+    ---@field public sources table<number, number>
+    ---@field public hasNewSources boolean
+    ---@field public addLoot boolean
 
+    ---@return RWFLootEntry
     local function LogItemLink(logType, linkType, id, link, count, sources, useTimestamp, additionalInfo)
         local isLogging, instanceName, instanceDifficulty, instanceID = rwf:GetLocation()
         if logType == LOG_TYPE.News then
@@ -7325,9 +7353,7 @@ do
         if not success then
             return false
         end
-
         local guildName, _, _, guildRealmName = GetGuildInfo("player")
-
         tables[1].name = instanceName
         local lootEntry = tables[4] ---@type RWFLootEntry
         local timestamp = useTimestamp or GetServerTime()
@@ -7361,15 +7387,41 @@ do
             end
         end
         lootEntry.addLoot = lootEntry.isNew or lootEntry.hasNewSources -- lootEntry.isUpdated
-
         -- Additional info for dedup in backend
         if additionalInfo then
             for key, value in pairs(additionalInfo) do
                 lootEntry[key] = value
             end
         end
-
         return lootEntry
+    end
+
+    local function TrimHistoryFromSV()
+        local now = time()
+        local remove
+        for instanceID, instanceData in pairs(_G.RaiderIO_RWF) do
+            for instanceDifficulty, instanceDifficultyData in pairs(instanceData) do
+                if type(instanceDifficultyData) == "table" then
+                    for logType, logTypeData in pairs(instanceDifficultyData) do
+                        ---@type RWFLootEntry
+                        for key, lootEntry in pairs(logTypeData) do
+                            if now - lootEntry.timestamp >= 259200 then -- delete anything older 3 days (inclusive)
+                                if not remove then
+                                    remove = {}
+                                end
+                                remove[key] = true
+                            end
+                        end
+                        if remove then
+                            for key, _ in pairs(remove) do
+                                logTypeData[key] = nil
+                            end
+                            remove = nil
+                        end
+                    end
+                end
+            end
+        end
     end
 
     local LOG_GUILD_NEWS_TYPES = {
@@ -7397,10 +7449,12 @@ do
         end
     end
 
+    ---@param lootEntry RWFLootEntry
     local function PrepareLootEntryForSV(lootEntry)
         -- lootEntry.isNew, lootEntry.isUpdated, lootEntry.hasNewSources, lootEntry.addLoot = nil -- TODO: if we uncomment we'll keep adding old processed loot to the frame and we don't want that so let this be in the SV file we can afford that
     end
 
+    ---@param lootEntry RWFLootEntry
     local function HandleLootEntry(lootEntry)
         if not lootEntry then
             return
@@ -7446,6 +7500,7 @@ do
                 HandleLootEntry(LogItemLink(LOG_TYPE.Chat, itemType, itemID, itemLink, itemCount or 1))
             end
         elseif event == "GUILD_NEWS_UPDATE" then
+            local now = time()
             for i = 1, GetNumGuildNews() do
                 local newsInfo = C_GuildInfo.GetGuildNewsInfo(i)
                 if newsInfo and newsInfo.newsType and LOG_GUILD_NEWS_TYPES[newsInfo.newsType] then
@@ -7455,9 +7510,9 @@ do
                         newsInfo.month = newsInfo.month + 1
                         newsInfo.day = newsInfo.day + 1
                         local timestamp = time(newsInfo)
-                        HandleLootEntry(LogItemLink(LOG_TYPE.News, itemType, itemID, itemLink, itemCount or 1, nil, timestamp, {
-                            who = newsInfo.whoText
-                        }))
+                        if now - timestamp <= 172800 then -- only scan the past 2 days (inclusive)
+                            HandleLootEntry(LogItemLink(LOG_TYPE.News, itemType, itemID, itemLink, itemCount or 1, nil, timestamp, { who = newsInfo.whoText }))
+                        end
                     end
                 end
             end
@@ -7481,7 +7536,7 @@ do
             end
         end
 
-        local frame = CreateFrame("Frame", nil, UIParent, "ButtonFrameTemplate")
+        local frame = CreateFrame("Frame", addonName .. "_RWFFrame", UIParent, "ButtonFrameTemplate")
         frame:SetSize(400, 250)
         frame:SetPoint("CENTER")
         frame:SetFrameStrata("HIGH")
@@ -7550,7 +7605,7 @@ do
         frame.DisableModule = CreateFrame("Button", nil, frame, "UIPanelButtonTemplate")
         frame.DisableModule:SetSize(80, 22)
         frame.DisableModule:SetPoint("BOTTOMRIGHT", frame, "BOTTOMRIGHT", -5, 3)
-        frame.DisableModule:SetScript("OnClick", function() config:Set("rwfMode", false) ReloadUI() end)
+        frame.DisableModule:SetScript("OnClick", function() config:Set("rwfMode", false) _G.RaiderIO_RWF = {} ReloadUI() end)
         frame.DisableModule:SetText(L.DISABLE_RWF_MODE_BUTTON)
         frame.DisableModule.tooltip = L.DISABLE_RWF_MODE_BUTTON_TOOLTIP
         frame.DisableModule.GetAppropriateTooltip = UIButtonMixin.GetAppropriateTooltip
@@ -7577,6 +7632,171 @@ do
         frame.WipeLog:SetScript("OnEnter", UIButtonMixin.OnEnter)
         frame.WipeLog:SetScript("OnLeave", UIButtonMixin.OnLeave)
 
+        frame.MiniFrame = CreateFrame("Button", addonName .. "_RWFMiniFrame", UIParent, "UIPanelButtonTemplate")
+        frame.MiniFrame:SetFrameLevel(100)
+        frame.MiniFrame:SetClampedToScreen(true)
+        frame.MiniFrame:SetSize(32, 32)
+        frame.MiniFrame:RegisterForClicks("LeftButtonUp", "RightButtonUp")
+        local miniPoint = config:Get("rwfMiniPoint") ---@type ConfigProfilePoint
+        frame.MiniFrame:SetPoint(miniPoint.point or "CENTER", miniPoint.point and _G.UIParent or frame, miniPoint.point or "CENTER", miniPoint.point and miniPoint.x or -10, miniPoint.point and miniPoint.y or 0)
+        frame.MiniFrame:EnableMouse(true)
+        frame.MiniFrame:SetMovable(true)
+        frame.MiniFrame:RegisterForDrag("LeftButton")
+        frame.MiniFrame:SetScript("OnDragStart", frame.MiniFrame.StartMoving)
+        frame.MiniFrame:SetScript("OnDragStop", function(self)
+            self:StopMovingOrSizing()
+            local point, _, _, x, y = self:GetPoint() -- TODO: improve this to store a corner so that when the tip is resized the corner is the anchor point and not the center as that makes it very wobbly and unpleasant to look at
+            local miniPoint = config:Get("rwfMiniPoint") ---@type ConfigProfilePoint
+            config:Set("rwfMiniPoint", miniPoint)
+            miniPoint.point, miniPoint.x, miniPoint.y = point, x, y
+            if self.arrow1 then
+                self:UpdateArrow()
+            end
+        end)
+        frame.MiniFrame.Text:SetPoint("TOP", frame.MiniFrame, "BOTTOM", 0, -5)
+        frame.MiniFrame:SetDisabledFontObject(_G.GameFontHighlightHuge)
+        frame.MiniFrame:SetHighlightFontObject(_G.GameFontHighlightHuge)
+        frame.MiniFrame:SetNormalFontObject(_G.GameFontHighlightHuge)
+        frame.MiniFrame.tooltip = L.RWF_MINIBUTTON_TOOLTIP
+        frame.MiniFrame.GetAppropriateTooltip = UIButtonMixin.GetAppropriateTooltip
+        frame.MiniFrame:SetScript("OnEnter", UIButtonMixin.OnEnter)
+        frame.MiniFrame:SetScript("OnLeave", UIButtonMixin.OnLeave)
+        frame.MiniFrame:SetMotionScriptsWhileDisabled(true)
+        frame.MiniFrame.Left:Hide()
+        frame.MiniFrame.Right:Hide()
+        frame.MiniFrame.Middle:Hide()
+        util:SetButtonTextureFromIcon(frame.MiniFrame, ns.CUSTOM_ICONS.icons.RAIDERIO_COLOR_CIRCLE)
+        frame.MiniFrame:Hide()
+
+        frame.MiniFrame:HookScript("OnShow", function(self)
+            self:UpdateState()
+        end)
+
+        frame.MiniFrame:SetScript("OnClick", function(self, button)
+            if button == "LeftButton" then
+                local numItems = frame:GetNumLootItems(LOG_TYPE.News)
+                if numItems > 0 then
+                    if not InCombatLockdown() then
+                        ReloadUI()
+                    end
+                else
+                    -- frame:Show()
+                end
+            else
+                frame:Show()
+            end
+        end)
+
+        if config:Get("rwfBackgroundMode") then
+            frame.MiniFrame:RegisterEvent("PLAYER_REGEN_DISABLED")
+            frame.MiniFrame:RegisterEvent("PLAYER_REGEN_ENABLED")
+            frame.MiniFrame:SetScript("OnEvent", function(self, event)
+                self:UpdateState((event == "PLAYER_REGEN_DISABLED" and true) or (event == "PLAYER_REGEN_ENABLED" and false))
+            end)
+        end
+
+        local ARROW_CONFIG = {
+            LEFT = {
+                atlas = "NPE_ArrowLeft",
+                atlasGlow = "NPE_ArrowLeftGlow",
+                pointDir = "RIGHT",
+                pointX = 23,
+                pointY = 0,
+                transX = -50,
+                transY = 0,
+                size = 64,
+                offsetX = 64,
+                offsetY = 0,
+            },
+            RIGHT = {
+                atlas = "NPE_ArrowRight",
+                atlasGlow = "NPE_ArrowRightGlow",
+                pointDir = "LEFT",
+                pointX = -23,
+                pointY = 0,
+                transX = 50,
+                transY = 0,
+                size = 64,
+                offsetX = -64,
+                offsetY = 0,
+            },
+        }
+
+        local function SetArrowDir(self, arrow)
+            self:SetSize(arrow.size, arrow.size)
+            self:ClearAllPoints()
+            self:SetPoint(arrow.pointDir, arrow.pointX + arrow.offsetX, arrow.pointY + arrow.offsetY)
+            self.arrow:SetAtlas(arrow.atlas)
+            self.arrowGlow:SetAtlas(arrow.atlasGlow)
+            self.Anim.Translation:SetOffset(arrow.transX, arrow.transY)
+        end
+
+        local function CreateArrow(parent)
+            local arrow = CreateFrame("Frame", nil, parent)
+            arrow.SetArrowDir = SetArrowDir
+            arrow:Hide()
+            arrow:SetAlpha(0)
+            arrow.arrow = arrow:CreateTexture(nil, "BACKGROUND")
+            arrow.arrow:SetAllPoints()
+            arrow.arrowGlow = arrow:CreateTexture(nil, "OVERLAY")
+            arrow.arrowGlow:SetAllPoints()
+            arrow.arrowGlow:SetAlpha(0.75)
+            arrow.arrowGlow:SetBlendMode("ADD")
+            arrow.Anim = arrow:CreateAnimationGroup()
+            arrow.Anim.Translation = arrow.Anim:CreateAnimation("Translation")
+            arrow.Anim.Translation:SetDuration(1)
+            arrow.Anim.Translation:SetOrder(1)
+            arrow.Anim.Translation:SetSmoothing("OUT")
+            arrow.Anim.Alpha1 = arrow.Anim:CreateAnimation("Alpha")
+            arrow.Anim.Alpha1:SetFromAlpha(0)
+            arrow.Anim.Alpha1:SetToAlpha(1)
+            arrow.Anim.Alpha1:SetDuration(0.1)
+            arrow.Anim.Alpha1:SetOrder(1)
+            arrow.Anim.Alpha2 = arrow.Anim:CreateAnimation("Alpha")
+            arrow.Anim.Alpha2:SetFromAlpha(1)
+            arrow.Anim.Alpha2:SetToAlpha(0)
+            arrow.Anim.Alpha2:SetDuration(0.9)
+            arrow.Anim.Alpha2:SetStartDelay(0.1)
+            arrow.Anim.Alpha2:SetOrder(1)
+            arrow.Anim.Alpha2:SetSmoothing("IN")
+            arrow.Anim:SetScript("OnFinished", arrow.Anim.Play)
+            return arrow
+        end
+
+        function frame.MiniFrame:UpdateArrow()
+            local px = _G.UIParent:GetCenter()
+            local cx = self:GetCenter()
+            local arrow = cx >= px and ARROW_CONFIG.RIGHT or ARROW_CONFIG.LEFT
+            self.arrow1:SetArrowDir(arrow)
+            self.arrow2:SetArrowDir(arrow)
+        end
+
+        function frame.MiniFrame:UpdateState(isInCombat)
+            if type(isInCombat) ~= "boolean" then
+                isInCombat = not not InCombatLockdown()
+            end
+            if isInCombat == true then
+                self:Hide()
+            elseif isInCombat == false then
+                self:SetShown(not frame:IsShown())
+            end
+            local numItems = frame:GetNumLootItems(LOG_TYPE.News)
+            self:SetText(numItems > 0 and numItems)
+            -- self:SetEnabled(numItems > 0)
+            if not self.isGlowing and numItems >= config:Get("rwfBackgroundRemindAt") then
+                self.isGlowing = true
+                _G.ActionButton_ShowOverlayGlow(self)
+                if not self.arrow1 then
+                    self.arrow1 = CreateArrow(self)
+                    self.arrow2 = CreateArrow(self)
+                end
+                self:UpdateArrow()
+                self.arrow1:Show()
+                self.arrow1.Anim:Play()
+                C_Timer.NewTimer(0.5, function() self.arrow2:Show() self.arrow2.Anim:Play() end)
+            end
+        end
+
         function frame:OnShow()
             local isEnabled = config:Get("rwfMode")
             local isLogging, instanceName = rwf:GetLocation()
@@ -7593,13 +7813,19 @@ do
         end
 
         local NEWS_TICKER = {
-            Timer = 60,
+            Timer = 30,
             Tick = function()
+                if InCombatLockdown() then
+                    return
+                end
                 GuildNewsSort(0)
             end,
             Start = function(self)
-                self:Stop()
                 self:Tick()
+                if self.handle then
+                    return
+                end
+                self:Stop()
                 self.handle = C_Timer.NewTicker(self.Timer, self.Tick)
             end,
             Stop = function(self)
@@ -7613,11 +7839,19 @@ do
 
         frame:HookScript("OnShow", function()
             frame:OnShow()
-            NEWS_TICKER:Start()
+            if config:Get("rwfBackgroundMode") then
+                frame.MiniFrame:Hide()
+            else
+                NEWS_TICKER:Start()
+            end
         end)
 
         frame:HookScript("OnHide", function()
-            NEWS_TICKER:Stop()
+            if config:Get("rwfBackgroundMode") then
+                frame.MiniFrame:Show()
+            else
+                NEWS_TICKER:Stop()
+            end
         end)
 
         local function OnSettingsChanged()
@@ -7625,6 +7859,16 @@ do
                 return
             end
             frame:OnShow()
+            if config:Get("rwfBackgroundMode") then
+                NEWS_TICKER:Start()
+                frame.MiniFrame:SetShown(not frame:IsShown())
+            elseif frame:IsShown() then
+                NEWS_TICKER:Start()
+                frame.MiniFrame:Hide()
+            else
+                NEWS_TICKER:Stop()
+                frame.MiniFrame:Hide()
+            end
         end
         callback:RegisterEvent(OnSettingsChanged, "RAIDERIO_CONFIG_READY")
         callback:RegisterEvent(OnSettingsChanged, "RAIDERIO_SETTINGS_SAVED")
@@ -7753,10 +7997,21 @@ do
             UpdateButtonText(button)
         end
 
-        function frame:GetNumLootItems()
-            return self.logDataProvider:GetSize()
+        function frame:GetNumLootItems(lootEntryType)
+            if not lootEntryType then
+                return self.logDataProvider:GetSize()
+            end
+            local count = 0
+            self.logDataProvider:ForEach(function(elementData)
+                local lootEntry = elementData.lootEntry ---@type RWFLootEntry
+                if lootEntry.type == lootEntryType then
+                    count = count + 1
+                end
+            end)
+            return count
         end
 
+        ---@param lootEntry RWFLootEntry
         function frame:AddLoot(lootEntry, showFrame)
             if showFrame then
                 self:Show()
@@ -7776,6 +8031,7 @@ do
             if preInsertAtScrollEnd or (not preInsertScrollable and self.Log.Events.ScrollBox:HasScrollableExtent()) then
                 self.Log.Events.ScrollBox:ScrollToEnd(ScrollBoxConstants.NoScrollInterpolation)
             end
+            frame.MiniFrame:UpdateState()
         end
 
         local function SetScrollBoxButtonAlternateState(scrollBox)
@@ -7798,6 +8054,7 @@ do
         frame.Log.Events.ScrollBox:SetDataProvider(frame.logDataProvider)
 
         frame:Hide()
+        OnSettingsChanged() -- jumpstart
         return frame
     end
 
@@ -7825,10 +8082,12 @@ do
     end
 
     function rwf:OnLoad()
+        -- if config:Get("debugMode") then LOG_FILTER.GUILD_NEWS, LOG_FILTER.ITEM_LEVEL = "item:", 0 end -- DEBUG: any kind of loot and ilvl
+        TrimHistoryFromSV()
         LOOT_FRAME = CreateLootFrame()
         self:CheckLocation()
-        callback:RegisterEvent(OnZoneEvent, "PLAYER_ENTERING_WORLD", "ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA")
         callback:RegisterEvent(OnEvent, "GUILD_NEWS_UPDATE")
+        callback:RegisterEvent(OnZoneEvent, "PLAYER_ENTERING_WORLD", "ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA")
     end
 
     function rwf:OnEnable()

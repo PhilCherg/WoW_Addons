@@ -12,6 +12,8 @@ local GetPlayerFacing,C_Map = GetPlayerFacing,C_Map;
 local Minimap_OnClick = Minimap_OnClick;
 
 ns.QuestArrowToken = {};
+ns.modules = {};
+local modEvents,events = {},{VARIABLES_LOADED=true,PLAYER_ENTERING_WORLD=true,PLAYER_LOGIN=true,PLAYER_LOGOUT=true,MODIFIER_STATE_CHANGED=true};
 local LibHijackMinimap_Token,TrackingIndex,LibHijackMinimap,_ = {},{};
 local media, media_blizz = "Interface\\AddOns\\"..addon.."\\media\\", "Interface\\Minimap\\";
 local mps,Minimap,MinimapMT,mouseOnKeybind,Dummy = {},_G.Minimap,getmetatable(_G.Minimap).__index;
@@ -85,7 +87,7 @@ local trackEnableMouse,suppressNextMouseEnable = false,false; -- try to get more
 do
 	local addon_short = "FH";
 	local colors = {"82c5ff","00ff00","ff6060","44ffff","ffff00","ff8800","ff44ff","ffffff"};
-	local debugMode = "8.8.2-release" == "@".."project-version".."@";
+	local debugMode = "9.0.2-release" == "@".."project-version".."@";
 	local function colorize(...)
 		local t,c,a1 = {tostringall(...)},1,...;
 		if type(a1)=="boolean" then tremove(t,1); end
@@ -129,10 +131,14 @@ do
 end
 
 do
-	local _,_,_,interface = GetBuildInfo()
-	local isClassic = interface<20000;
 	function ns.IsClassic()
-		return isClassic;
+		return WOW_PROJECT_ID==WOW_PROJECT_CLASSIC;
+	end
+	function ns.IsClassicBC()
+		return WOW_PROJECT_ID==WOW_PROJECT_BURNING_CRUSADE_CLASSIC;
+	end
+	function ns.IsRetail()
+		return WOW_PROJECT_ID==WOW_PROJECT_MAINLINE;
 	end
 end
 
@@ -147,9 +153,7 @@ end
 -- tracking options
 
 function ns.GetTrackingTypes()
-	if ns.IsClassic() then
-		return {};
-	end
+	if ns.IsClassic() then return {}; end
 	local num = GetNumTrackingTypes();
 	if numTrackingTypes~=num then
 		numTrackingTypes = num;
@@ -224,9 +228,66 @@ local function dummyOnly_SetParent(self,parent)
 	return self[SetParentToken](self,parent);
 end
 
+-- function replacements for Minimap while FarmHud is enabled.
+-- Should prevent problems with repositioning of minimap buttons from other addons.
+local replacements,addHooks
+do
+	local alreadyHooked,useDummy,lockedBy = {};
+	local function MinimapOrDummy(func,...)
+		if useDummy then
+			return Dummy[func](Dummy,...);
+		end
+		return MinimapMT[func](Minimap,...);
+	end
+	replacements = {
+		GetWidth = function() return MinimapOrDummy("GetWidth") end,
+		GetHeight = function() return MinimapOrDummy("GetHeight") end,
+		GetSize = function() return MinimapOrDummy("GetSize") end,
+		GetCenter = function() return Dummy :GetCenter() end,
+		GetEffectiveScale = function() return Dummy :GetEffectiveScale() end,
+		GetLeft = function() return Dummy :GetLeft() end,
+		GetRight = function() return Dummy :GetRight() end,
+		GetBottom = function() return Dummy :GetBottom() end,
+		GetTop = function() return Dummy :GetTop() end,
+	}
+	local function objHookStart(self)
+		if lockedBy~=false then return end
+		lockedBy = self;
+		useDummy = true;
+		ns.debugPrint(self :GetDebugName(),true);
+	end
+	local function objHookStop(self)
+		if lockedBy~=self then
+			return
+		end
+		useDummy = false;
+		ns.debugPrint(self :GetDebugName(),false);
+	end
+	function addHooks(obj)
+		if alreadyHooked[obj] then
+			return;
+		end
+		alreadyHooked[obj] = true;
+		local objMT = getmetatable(obj).__index;
+		objMT .HookScript(obj,"OnEnter",objHookStart);
+		objMT .HookScript(obj,"OnDragStart",objHookStart);
+		objMT .HookScript(obj,"OnLeave",objHookStop);
+		objMT .HookScript(obj,"OnDragStop",objHookStop);
+	end
+end
+
+-- move anchoring of objects from minimap to dummy and back
 local objSetPoint = {};
 local objSetParent = {};
 local function objectToDummy(object,enable,debugStr)
+
+	-- == ignore == --
+	if (HBDPins and HBDPins.minimapPins[object]) -- ignore herebedragons pins
+	then
+		return;
+	end
+
+	-- == prepare == --
 	local changedSetParent,changedSetPoint,objType = false,false,object:GetObjectType()
 	if objSetParent[objType] == nil then
 		objSetParent[objType] = getmetatable(object).__index.SetParent;
@@ -268,6 +329,7 @@ local function objectToDummy(object,enable,debugStr)
 		else
 			object:SetFrameStrata(fstrata);
 			object:SetFrameLevel(flevel);
+			addHooks(object)
 		end
 	end
 
@@ -297,21 +359,6 @@ local function objectToDummy(object,enable,debugStr)
 
 	return changedSetParent,changedSetPoint;
 end
-
--- function replacements for Minimap while FarmHud is enabled.
--- Should prevent problems with repositioning of minimap buttons from other addons.
-local replacements = {
-	GetWidth = function() return Dummy:GetWidth() end,
-	GetHeight = function() return Dummy:GetHeight() end,
-	GetSize = function() return Dummy:GetSize() end,
-	GetCenter = function() return Dummy:GetCenter() end,
-	GetEffectiveScale = function() return Dummy:GetEffectiveScale() end,
-	GetLeft = function() return Dummy:GetLeft() end,
-	GetRight = function() return Dummy:GetRight() end,
-	GetBottom = function() return Dummy:GetBottom() end,
-	GetTop = function() return Dummy:GetTop() end,
-}
-
 
 -- cardinal points
 
@@ -577,6 +624,7 @@ function FarmHudMixin:OnShow()
 	mps.mouse = Minimap:IsMouseEnabled();
 	mps.mousewheel = Minimap:IsMouseWheelEnabled();
 	mps.alpha = Minimap:GetAlpha();
+	mps.backdropMouse = MinimapBackdrop:IsMouseEnabled();
 
 	-- cache mouse enable state
 	local onmouseup = Minimap:GetScript("OnMouseUp");
@@ -638,14 +686,14 @@ function FarmHudMixin:OnShow()
 	end
 
 	-- move and change minimap for FarmHud
-	Minimap:SetParent(FarmHud);
-	Minimap:ClearAllPoints();
+	MinimapMT.SetParent(Minimap,FarmHud);
+	MinimapMT.ClearAllPoints(Minimap);
 	-- sometimes SetPoint produce error "because[SetPoint would result in anchor family connection]"
 	local f, err = loadstring('Minimap:SetPoint("CENTER",0,0)');
 	if f then f(); else
-		Minimap:SetAllPoints(); -- but SetAllPoints results in an offset for somebody
-		Minimap:ClearAllPoints();
-		Minimap:SetPoint("CENTER",0,0); -- next try...
+		MinimapMT.SetAllPoints(Minimap); -- but SetAllPoints results in an offset for somebody
+		MinimapMT.ClearAllPoints(Minimap);
+		MinimapMT.SetPoint(Minimap,"CENTER",0,0); -- next try...
 	end
 	MinimapMT.SetFrameStrata(Minimap,"BACKGROUND");
 	MinimapMT.SetFrameLevel(Minimap,1);
@@ -695,6 +743,12 @@ function FarmHudMixin:OnShow()
 	suppressNextMouseEnable = true;
 	MinimapMT.EnableMouse(Minimap,false);
 	MinimapMT.EnableMouseWheel(Minimap,false);
+
+	for modName,mod in pairs(ns.modules)do
+		if mod.OnShow then
+			mod.OnShow();
+		end
+	end
 end
 
 function FarmHudMixin:OnHide()
@@ -786,6 +840,12 @@ function FarmHudMixin:OnHide()
 
 	wipe(mps);
 
+	for modName,mod in pairs(ns.modules)do
+		if mod.OnHide then
+			mod.OnHide();
+		end
+	end
+
 	SetPlayerDotTexture(false);
 	TrackingTypes_Update(false);
 
@@ -794,7 +854,9 @@ function FarmHudMixin:OnHide()
 	self:UpdateTime(false);
 	self:UpdateForeignAddOns(false);
 
-	MinimapBackdrop:Show();
+	if mps.backdropMouse~=MinimapBackdrop:IsMouseEnabled() then
+		MinimapBackdrop:EnableMouse(mps.backdropMouse);
+	end
 end
 
 local function checkOnKnownProblematicAddOns()
@@ -883,7 +945,7 @@ function FarmHudMixin:ToggleOptions()
 		ACD:Close(addon);
 	else
 		ACD:Open(addon);
-		ACD.OpenFrames[addon]:SetStatusText(GAME_VERSION_LABEL..CHAT_HEADER_SUFFIX.."8.8.2-release");
+		ACD.OpenFrames[addon]:SetStatusText(GAME_VERSION_LABEL..CHAT_HEADER_SUFFIX.."9.0.2-release");
 	end
 end
 
@@ -891,6 +953,21 @@ function FarmHudMixin:AddChatMessage(token,msg)
 	local from = (token==ns.QuestArrowToken and "QuestArrow") or false
 	if from and type(msg)=="string" then
 		ns.print("()",from,L[msg]);
+	end
+end
+
+function FarmHudMixin:RegisterModule(name,module)
+	assert(type(name)=="string" and type(module)=="table", "FarmHud:RegisterModule(<moduleName[string]>, <module[table]>)" );
+	ns.modules[name] = module;
+
+	for event in pairs(events) do
+		if module[event] and type(module[event])=="function" then
+			tinsert(modEvents[event],module[event]);
+		end
+	end
+
+	if type(module.OnLoad)=="function" then
+		module:OnLoad();
 	end
 end
 
@@ -963,6 +1040,11 @@ function FarmHudMixin:OnEvent(event,...)
 			self:ToggleMouse(down==0);
 		end
 	end
+	for _,modEventFunc in ipairs(modEvents[event])do
+		if modEventFunc then
+			modEventFunc(...);
+		end
+	end
 end
 
 function FarmHudMixin:OnLoad()
@@ -1018,10 +1100,10 @@ function FarmHudMixin:OnLoad()
 		-- dummy
 	end
 
-	self:RegisterEvent("VARIABLES_LOADED");
-	self:RegisterEvent("PLAYER_LOGIN");
-	self:RegisterEvent("PLAYER_LOGOUT");
-	self:RegisterEvent("MODIFIER_STATE_CHANGED");
+	for event in pairs(events) do
+		self:RegisterEvent(event);
+		modEvents[event] = {};
+	end
 
 	FarmHudMixin=nil;
 end

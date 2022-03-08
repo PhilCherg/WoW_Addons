@@ -1,4 +1,4 @@
--- Generated from CurseForge on Sat Feb 26 07:24:27 UTC 2022
+-- Generated from CurseForge on Tue Mar  8 06:18:32 UTC 2022
 local ns = select(2, ...) ---@type ns @The addon namespace.
 
 if ns:IsSameLocale("deDE") then
@@ -26,44 +26,30 @@ L["CANCEL"] = "Beenden"
 L["CHANGES_REQUIRES_UI_RELOAD"] = [=[Deine Änderungen wurden gespeichert, du musst jedoch die Benutzeroberfläche neu laden, damit diese wirksam werden.
 
 Möchtest du das jetzt tun?]=]
---[[Translation missing --]]
---[[ L["CHARACTER_LF_GUILD_MPLUS"] = ""--]] 
---[[Translation missing --]]
---[[ L["CHARACTER_LF_GUILD_MPLUS_WITH_SCORE"] = ""--]] 
---[[Translation missing --]]
---[[ L["CHARACTER_LF_GUILD_PVP"] = ""--]] 
---[[Translation missing --]]
---[[ L["CHARACTER_LF_GUILD_RAID_DEFAULT"] = ""--]] 
---[[Translation missing --]]
---[[ L["CHARACTER_LF_GUILD_RAID_HEROIC"] = ""--]] 
---[[Translation missing --]]
---[[ L["CHARACTER_LF_GUILD_RAID_MYTHIC"] = ""--]] 
---[[Translation missing --]]
---[[ L["CHARACTER_LF_GUILD_RAID_NORMAL"] = ""--]] 
---[[Translation missing --]]
---[[ L["CHARACTER_LF_GUILD_SOCIAL"] = ""--]] 
---[[Translation missing --]]
---[[ L["CHARACTER_LF_TEAM_MPLUS_DEFAULT"] = ""--]] 
---[[Translation missing --]]
---[[ L["CHARACTER_LF_TEAM_MPLUS_WITH_SCORE"] = ""--]] 
+L["CHARACTER_LF_GUILD_MPLUS"] = "Auf der Suche nach einer Mythisch+ Gilde"
+L["CHARACTER_LF_GUILD_MPLUS_WITH_SCORE"] = "Auf der Suche nach einer Mythisch+ Gilde"
+L["CHARACTER_LF_GUILD_PVP"] = "Auf der Suche nach einer PvP-Gilde"
+L["CHARACTER_LF_GUILD_RAID_DEFAULT"] = "Auf der Suche nach einer Schlachtzug Gilde"
+L["CHARACTER_LF_GUILD_RAID_HEROIC"] = "Auf der Suche nach einer Schlachtzug Gilde heroisch"
+L["CHARACTER_LF_GUILD_RAID_MYTHIC"] = "Auf der Suche nach einer Schlachtzug Gilde mythisch"
+L["CHARACTER_LF_GUILD_RAID_NORMAL"] = "Auf der Suche nach einer Schlachtzug Gilde normal"
+L["CHARACTER_LF_GUILD_SOCIAL"] = "Auf der Suche nach einer Soziale Gilde"
+L["CHARACTER_LF_TEAM_MPLUS_DEFAULT"] = "Auf der Suche nach einer Mythisch+ Gruppe"
+L["CHARACTER_LF_TEAM_MPLUS_WITH_SCORE"] = "Auf der Suche nach einer %d+ Mythisch+ Gruppe"
 L["CHECKBOX_DISPLAY_WEEKLY"] = "Wöchentlich anzeigen"
 L["CHOOSE_HEADLINE_HEADER"] = "Mythic+ Tooltip Überschrift"
 L["CONFIG_SHOW_TOOLTIPS_HEADER"] = "Mythic+ und Schlachtzug Tooltips "
 L["CONFIG_WHERE_TO_SHOW_TOOLTIPS"] = "Wo soll der Mythic+ und Schlachtzugfortschritt angezeigt werden"
 L["CONFIRM"] = "Bestätigen"
 L["COPY_RAIDERIO_PROFILE_URL"] = "Kopiere Raider.IO Link"
---[[Translation missing --]]
---[[ L["COPY_RAIDERIO_RECRUITMENT_URL"] = ""--]] 
+L["COPY_RAIDERIO_RECRUITMENT_URL"] = "Rekrutierungs-URL kopieren"
 L["COPY_RAIDERIO_URL"] = "Kopiere Raider.IO Link"
 L["CURRENT_MAINS_SCORE"] = "Aktuelle Hauptcharakter M+ Wertung"
 L["CURRENT_SCORE"] = "Aktuelle M+ Wertung"
 L["DISABLE_DEBUG_MODE_RELOAD"] = "Du deaktivierst den Debug-Modus. Klicke auf Bestätigen, um das Interface neu zu laden."
---[[Translation missing --]]
---[[ L["DISABLE_RWF_MODE_BUTTON"] = ""--]] 
---[[Translation missing --]]
---[[ L["DISABLE_RWF_MODE_BUTTON_TOOLTIP"] = ""--]] 
---[[Translation missing --]]
---[[ L["DISABLE_RWF_MODE_RELOAD"] = ""--]] 
+L["DISABLE_RWF_MODE_BUTTON"] = "Deaktivieren"
+L["DISABLE_RWF_MODE_BUTTON_TOOLTIP"] = "Klicke hier, um den Wettrennen Welt 1.-Modus zu deaktivieren. Dadurch wird deine Benutzeroberfläche neu geladen."
+L["DISABLE_RWF_MODE_RELOAD"] = "Du deaktivierst den Wettrennen Welt 1.-Modus. Durch Klicken auf Bestätigung wird deine Benutzeroberfläche neu geladen."
 L["DPS"] = "DPS"
 L["DPS_SCORE"] = "DPS Wertung"
 L["DUNGEON_SHORT_NAME_AD"] = "Atal’Dazar"
@@ -109,12 +95,9 @@ L["ENABLE_NO_SCORE_COLORS"] = "Deaktiviert alle Mythic+ Wertungsfarben"
 L["ENABLE_NO_SCORE_COLORS_DESC"] = "Deaktiviert die Färbung von Wertungen. Alle Wertungen werden weiß angezeigt."
 L["ENABLE_RAIDERIO_CLIENT_ENHANCEMENTS"] = "Erlaube Raider.IO Client Verbesserungen"
 L["ENABLE_RAIDERIO_CLIENT_ENHANCEMENTS_DESC"] = "Wenn du dies aktivierst, werden detaillierte Raider.IO-Profildaten angezeigt, die vom Raider.IO-Client für deine beanspruchten Charaktere heruntergeladen wurden."
---[[Translation missing --]]
---[[ L["ENABLE_RWF_MODE_BUTTON"] = ""--]] 
---[[Translation missing --]]
---[[ L["ENABLE_RWF_MODE_BUTTON_TOOLTIP"] = ""--]] 
---[[Translation missing --]]
---[[ L["ENABLE_RWF_MODE_RELOAD"] = ""--]] 
+L["ENABLE_RWF_MODE_BUTTON"] = "Aktivieren"
+L["ENABLE_RWF_MODE_BUTTON_TOOLTIP"] = "Klicke hier, um den Wettrennen Welt 1.-Modus zu aktivieren. Dadurch wird deine Benutzeroberfläche neu geladen."
+L["ENABLE_RWF_MODE_RELOAD"] = "Du aktivierst den Wettrennen Welt 1.-Modus. Dies ist für den Einsatz mit dem Mythisch Wettrennen Welt 1. bestimmt und sollte nur für diesen Zweck nur zusammen mit dem RAIDER.IO-Client für das Hochladen von Daten verwendet werden. Durch Klicken auf Bestätigung wird deine Benutzeroberfläche neu geladen."
 L["ENABLE_SIMPLE_SCORE_COLORS"] = "Verwende einfache Mythic+ Wertungsfarben"
 L["ENABLE_SIMPLE_SCORE_COLORS_DESC"] = "Zeigt nur Wertungen mit Standardfarben in Gegenstandsqualität an. Dies kann es Personen mit Farbsehschwächen erleichtern, Bewertungsstufen zu unterscheiden."
 L["EXPORTJSON_COPY_TEXT"] = "Kopiere folgendes und füge es an einer beliebigen Stelle in |cff00C8FFhttps://raider.io|r ein, um alle Spieler nachzuschlagen."
@@ -122,22 +105,14 @@ L["GENERAL_TOOLTIP_OPTIONS"] = "Allgemeine Tooltip-Optionen"
 L["GUILD_BEST_SEASON"] = "Gilde: Saison Bester"
 L["GUILD_BEST_TITLE"] = "Gilde: Rekorde"
 L["GUILD_BEST_WEEKLY"] = "Gilde: Wöchentlicher Bester"
---[[Translation missing --]]
---[[ L["GUILD_LF_MPLUS_DEFAULT"] = ""--]] 
---[[Translation missing --]]
---[[ L["GUILD_LF_MPLUS_WITH_SCORE"] = ""--]] 
---[[Translation missing --]]
---[[ L["GUILD_LF_PVP"] = ""--]] 
---[[Translation missing --]]
---[[ L["GUILD_LF_RAID_DEFAULT"] = ""--]] 
---[[Translation missing --]]
---[[ L["GUILD_LF_RAID_HEROIC"] = ""--]] 
---[[Translation missing --]]
---[[ L["GUILD_LF_RAID_MYTHIC"] = ""--]] 
---[[Translation missing --]]
---[[ L["GUILD_LF_RAID_NORMAL"] = ""--]] 
---[[Translation missing --]]
---[[ L["GUILD_LF_SOCIAL"] = ""--]] 
+L["GUILD_LF_MPLUS_DEFAULT"] = "Rekrutierung von Mythische+ Spielern"
+L["GUILD_LF_MPLUS_WITH_SCORE"] = "Rekrutierung von %d+ Mythische+ Spielern"
+L["GUILD_LF_PVP"] = "Rekrutierung von PvP-Spielern"
+L["GUILD_LF_RAID_DEFAULT"] = "Rekrutierung von Schlachtzüglern"
+L["GUILD_LF_RAID_HEROIC"] = "Rekrutierung von heroischen Schlachtzüglern"
+L["GUILD_LF_RAID_MYTHIC"] = "Rekrutierung von mythischen Schlachtzüglern"
+L["GUILD_LF_RAID_NORMAL"] = "Rekrutierung von normalen Schlachtzüglern"
+L["GUILD_LF_SOCIAL"] = "Rekrutierung sozialer Spieler"
 L["HEALER"] = "Heiler"
 L["HEALER_SCORE"] = "Heiler Wertung"
 L["HIDE_OWN_PROFILE"] = "Persönlichen Raider.IO Profil-Tooltip ausblenden"
@@ -159,7 +134,7 @@ L["MODULE_EUROPE"] = "Europa"
 L["MODULE_KOREA"] = "Korea"
 L["MODULE_TAIWAN"] = "Taiwan"
 L["MY_PROFILE_TITLE"] = "Raider.IO Profil"
-L["MYTHIC_PLUS_DB_MODULES"] = "Mythic+ Datenbank Module"
+L["MYTHIC_PLUS_DB_MODULES"] = "Mythische+ Datenbankmodule"
 L["MYTHIC_PLUS_SCORES"] = "Mythic+ Wertung Tooltips"
 L["NO_GUILD_RECORD"] = "Keine Gildenrekorde"
 L["OPEN_CONFIG"] = "Konfiguration öffnen"
@@ -230,28 +205,17 @@ L["RAID_BOSS_NYA_6"] = "Shad'har der Unersättliche"
 L["RAID_BOSS_NYA_7"] = "Drest'agath"
 L["RAID_BOSS_NYA_8"] = "Il'gynoth, die Wiedergeborene Verderbnis"
 L["RAID_BOSS_NYA_9"] = "Vexiona"
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_1"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_10"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_11"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_2"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_3"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_4"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_5"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_6"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_7"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_8"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_9"] = ""--]] 
+L["RAID_BOSS_SFO_1"] = "Aufmerksamer Wächter"
+L["RAID_BOSS_SFO_10"] = "Rygelon"
+L["RAID_BOSS_SFO_11"] = "Der Kerkermeister"
+L["RAID_BOSS_SFO_2"] = "Skolex, der unersättliche Räuber"
+L["RAID_BOSS_SFO_3"] = "Konstrukteur Xy'mox"
+L["RAID_BOSS_SFO_4"] = "Dausegne, das gefallene Orakel"
+L["RAID_BOSS_SFO_5"] = "Prototypenpantheon"
+L["RAID_BOSS_SFO_6"] = "Lihuvim, der oberste Architekt"
+L["RAID_BOSS_SFO_7"] = "Halondrus der Rückgewinner"
+L["RAID_BOSS_SFO_8"] = "Anduin Wrynn"
+L["RAID_BOSS_SFO_9"] = "Lords des Schreckens"
 L["RAID_BOSS_SOD_1"] = "Der Tarragrue"
 L["RAID_BOSS_SOD_10"] = "Sylvanas Windläufer"
 L["RAID_BOSS_SOD_2"] = "Das Auge des Kerkermeisters"
@@ -288,27 +252,18 @@ L["RAIDERIO_MP_SCORE"] = "Raider.IO M+ Wertung"
 L["RAIDERIO_MP_SCORE_COLON"] = "Raider.IO M+ Wertung:"
 L["RAIDERIO_MYTHIC_OPTIONS"] = "Raider.IO Addon Optionen"
 L["RAIDING_DATA_HEADER"] = "Raider.IO Schlachtzugsfortschritt"
-L["RAIDING_DB_MODULES"] = "Schlachtzug Datenbank Module"
---[[Translation missing --]]
---[[ L["RECRUITMENT_DB_MODULES"] = ""--]] 
+L["RAIDING_DB_MODULES"] = "Schlachtzugsdatenbankmodule"
+L["RECRUITMENT_DB_MODULES"] = "Rekrutierungsdatenbankmodule"
 L["RELOAD_LATER"] = "Ich werde später neu laden"
 L["RELOAD_NOW"] = "Jetzt neu laden"
---[[Translation missing --]]
---[[ L["RELOAD_RWF_MODE_BUTTON"] = ""--]] 
---[[Translation missing --]]
---[[ L["RELOAD_RWF_MODE_BUTTON_TOOLTIP"] = ""--]] 
---[[Translation missing --]]
---[[ L["RWF_SUBTITLE_LOGGING_FILTERED_LOOT"] = ""--]] 
---[[Translation missing --]]
---[[ L["RWF_SUBTITLE_LOGGING_LOOT"] = ""--]] 
---[[Translation missing --]]
---[[ L["RWF_TITLE"] = ""--]] 
---[[Translation missing --]]
---[[ L["SEARCH_NAME_LABEL"] = ""--]] 
---[[Translation missing --]]
---[[ L["SEARCH_REALM_LABEL"] = ""--]] 
---[[Translation missing --]]
---[[ L["SEARCH_REGION_LABEL"] = ""--]] 
+L["RELOAD_RWF_MODE_BUTTON"] = "Speichern"
+L["RELOAD_RWF_MODE_BUTTON_TOOLTIP"] = "Klicke hier, um das Protokoll in die Speicherdatei zu speichern. Dadurch wird deine Benutzeroberfläche neu geladen."
+L["RWF_SUBTITLE_LOGGING_FILTERED_LOOT"] = "(Protokollierung relevanter Gegenstände)"
+L["RWF_SUBTITLE_LOGGING_LOOT"] = "(Protokollierung Beute)"
+L["RWF_TITLE"] = "|cffFFFFFFRaider.IO|r Wettrennen Welt 1."
+L["SEARCH_NAME_LABEL"] = "Name"
+L["SEARCH_REALM_LABEL"] = "Realm"
+L["SEARCH_REGION_LABEL"] = "Region"
 L["SEASON_LABEL_1"] = "Saison 1"
 L["SEASON_LABEL_2"] = "Saison 2"
 L["SEASON_LABEL_3"] = "Saison 3"
@@ -321,10 +276,8 @@ L["SHOW_BEST_RUN"] = "Zeigt bester Mythic+ Durchlauf als Überschrift an"
 L["SHOW_BEST_RUN_DESC"] = "Zeigt den besten Mythic+ Durchlauf des Spielers aus der aktuellen Saison als Tooltip-Überschrift an."
 L["SHOW_BEST_SEASON"] = "Zeigt beste Mythic+ Saison Wertung als Überschrift an"
 L["SHOW_BEST_SEASON_DESC"] = "Zeigt die beste Mythic+ Saison Wertung des Spielers als Tooltip-Überschrift an. Wenn das Ergebnis aus einer früheren Saison stammt, wird die Saison als Teil der Tooltip-Überschrift angezeigt."
---[[Translation missing --]]
---[[ L["SHOW_CHESTS_AS_MEDALS"] = ""--]] 
---[[Translation missing --]]
---[[ L["SHOW_CHESTS_AS_MEDALS_DESC"] = ""--]] 
+L["SHOW_CHESTS_AS_MEDALS"] = "Mythische+ Medaillen-Symbole anzeigen"
+L["SHOW_CHESTS_AS_MEDALS_DESC"] = "Zeigt Schlüsselstein-Medaillen, die als Symbole verdient wurden, anstatt der Plus-Zeichen (+)."
 L["SHOW_CLIENT_GUILD_BEST"] = "Zeigt beste Gildenrekorde im Dungeonbrowser bei Mythischer Schlüsselstein an"
 L["SHOW_CLIENT_GUILD_BEST_DESC"] = "Wenn du dies aktivierst, werden die Top 5-Durchäufe deiner Gilde (Saison oder Wöchentlich) auf der Registerkarte Mythischer Schlüsselstein im Dungeonbrowser-Fenster angezeigt."
 L["SHOW_CURRENT_SEASON"] = "Zeigt aktuelle Mythic+ Saison Wertung als Überschrift an"
@@ -361,10 +314,8 @@ L["SHOW_SCORE_WITH_MODIFIER"] = "Zeigt Raider.IO Tooltip Info mit Modifikator an
 L["SHOW_SCORE_WITH_MODIFIER_DESC"] = "Deaktiviert die Anzeige von Daten, wenn du mit der Maus über Spieler fährst, es sei denn, eine Modifikator-Taste wird gedrückt gehalten."
 L["TANK"] = "Tank"
 L["TANK_SCORE"] = "Tank Wertung"
---[[Translation missing --]]
---[[ L["TEAM_LF_MPLUS_DEFAULT"] = ""--]] 
---[[Translation missing --]]
---[[ L["TEAM_LF_MPLUS_WITH_SCORE"] = ""--]] 
+L["TEAM_LF_MPLUS_DEFAULT"] = "Rekrutierung von Mythische+ Spielern"
+L["TEAM_LF_MPLUS_WITH_SCORE"] = "Rekrutierung von %d+ Mythische+ Spielern"
 L["TIMED_10_RUNS"] = "Zeitliche +10-14 Durchläufe"
 L["TIMED_15_RUNS"] = "Zeitliche +15 Durchläufe"
 L["TIMED_20_RUNS"] = "Zeitliche +20 Durchläufe"
@@ -382,12 +333,9 @@ L["USE_RAIDERIO_CLIENT_LIVE_TRACKING_SETTINGS"] = "Erlaube dem Raider.IO-Client,
 L["USE_RAIDERIO_CLIENT_LIVE_TRACKING_SETTINGS_DESC"] = "Erlaube dem Raider.IO-Client (falls vorhanden), deine Einstellungen für die Kampfprotokollierung automatisch zu steuern."
 L["WARNING_DEBUG_MODE_ENABLE"] = "|cffFFFFFF%s|r Der Debug-Modus ist aktiviert. Du kannst ihn deaktivieren, indem du |cffFFFFFF/raiderio debug|r eingibst."
 L["WARNING_LOCK_POSITION_FRAME_AUTO"] = "Raider.IO: Du solltest zuerst die automatische Positionierung für das Raider.IO Profil deaktivieren."
---[[Translation missing --]]
---[[ L["WARNING_RWF_MODE_ENABLE"] = ""--]] 
---[[Translation missing --]]
---[[ L["WIPE_RWF_MODE_BUTTON"] = ""--]] 
---[[Translation missing --]]
---[[ L["WIPE_RWF_MODE_BUTTON_TOOLTIP"] = ""--]] 
+L["WARNING_RWF_MODE_ENABLE"] = "|cffFFFFFF%s|r Wettrennen Welt 1.-Modus ist aktiviert. Du kannst es deaktivieren, indem du |cffFFFFFF/raiderio rwf|r eingibst."
+L["WIPE_RWF_MODE_BUTTON"] = "Löschen"
+L["WIPE_RWF_MODE_BUTTON_TOOLTIP"] = "Klicke hier, um das Protokoll aus der Speicherdatei zu löschen. Dadurch wird deine Benutzeroberfläche neu geladen."
 
 	ns.L = L
 end

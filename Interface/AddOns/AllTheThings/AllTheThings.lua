@@ -972,8 +972,8 @@ end
 		if not cache or invalidate then
 			cache = {};
 			-- "Professions" that anyone can "know"
-			-- Junkyard Tinkering
-			cache[2720] = true;
+			cache[2720] = true;	-- Junkyard Tinkering
+            cache[2819] = true;	-- Protoform Synthesis
 			SetTempDataMember("PROFESSION_CACHE", cache);
 			local prof1, prof2, archaeology, fishing, cooking, firstAid = GetProfessions();
 			for i,j in ipairs({prof1 or 0, prof2 or 0, archaeology or 0, fishing or 0, cooking or 0, firstAid or 0}) do
@@ -1561,14 +1561,17 @@ local function BuildSourceTextForTSM(group, l)
 end
 -- Fields which are dynamic or pertain only to the specific ATT window and should never merge automatically
 app.MergeSkipFields = {
+	-- true -> never
 	["expanded"] = true,
 	["indent"] = true,
-	["modItemID"] = true,
 	["g"] = true,
-	["u"] = true,
-	["pvp"] = true,
-	["pb"] = true,
-	["requireSkill"] = true,
+	-- 1 -> only when cloning
+	["modItemID"] = 1,
+	["u"] = 1,
+	["pvp"] = 1,
+	["pb"] = 1,
+	["requireSkill"] = 1,
+	["sourceIgnored"] = 1,
 };
 -- Fields on a Thing which are specific to where the Thing is Sourced or displayed in a ATT window
 app.SourceSpecificFields = {
@@ -1604,8 +1607,9 @@ app.SourceSpecificFields = {
 	["pb"] = true,
 	["requireSkill"] = true,
 };
--- merges the properties of the t group into the g group, making sure not to alter the filterability of the group
-local MergeProperties = function(g, t, noReplace)
+-- Merges the properties of the t group into the g group, making sure not to alter the filterability of the group.
+-- Additionally can specify that the object is being cloned so as to skip special merge restrictions
+local MergeProperties = function(g, t, noReplace, clone)
 	if g and t then
 		local skips = app.MergeSkipFields;
 		if noReplace then
@@ -1619,6 +1623,17 @@ local MergeProperties = function(g, t, noReplace)
 					if not rawget(g, k) then
 						rawset(g, k, v);
 					end
+				end
+			end
+		elseif clone then
+			for k,v in pairs(t) do
+				-- certain keys should never transfer to the merge group directly
+				if k == "parent" then
+					if not rawget(g, "sourceParent") then
+						rawset(g, "sourceParent", v);
+					end
+				elseif skips[k] ~= true then
+					rawset(g, k, v);
 				end
 			end
 		else
@@ -1672,8 +1687,8 @@ CreateObject = function(t, rootOnly)
 	-- already an object, so need to create a new instance of the same data
 	if t.key then
 		local s = {};
-		-- if app.DEBUG_PRINT then print("CreateObject from key via merge",t.key,t[t.key], t, s); end
-		MergeProperties(s, t);
+		-- app.PrintDebug("CreateObject from key via merge",t.key,t[t.key], t, s);
+		MergeProperties(s, t, nil, true);
 		-- include the raw g since it will be replaced at the end with new objects
 		s.g = t.g;
 		t = s;
@@ -1794,32 +1809,6 @@ end
 -- Clones the data and attempts to create all sub-groups into cloned objects as well
 local function CloneData(data)
 	return CreateObject(data);
-	--[[
-	local clone = {};
-	if data then
-		if app.DEBUG_PRINT then print("CloneData for",data.key,data[data.key],data,clone); end
-		MergeProperties(clone, data);
-		if data.parent then clone.sourceParent = data.parent; end
-		-- clone = setmetatable(clone, getmetatable(data));
-		-- for key,value in pairs(data) do
-		-- 	rawset(clone, key, value);
-		-- 	if key == "parent" then
-		-- 		rawset(clone, "sourceParent", value);
-		-- 	end
-		-- end
-		if app.DEBUG_PRINT then print("CloneData done",clone.key,clone[clone.key],data,clone); end
-		if data.g then
-			clone.g = {};
-			for i,group in ipairs(data.g) do
-				local child = CreateObject(group);
-				rawset(child, "sourceParent", nil);
-				rawset(child, "parent", clone);
-				tinsert(clone.g, child);
-			end
-		end
-	end
-	return clone;
-	--]]
 end
 local function RawCloneData(data)
 	local clone = {};
@@ -2236,7 +2225,8 @@ app.CheckInaccurateQuestInfo = function(questRef, questChange)
 end
 local PrintQuestInfo = function(questID, new, info)
 	if app.IsReady and app.Settings:GetTooltipSetting("Report:CompletedQuests") then
-		local questRef = app.SearchForObject("questID", questID);
+		local questRef = app.SearchForObject("questID", questID) or app.SearchForField("questID", questID);
+		questRef = (questRef and questRef[1]) or questRef;
 		local questChange;
 		if new == true then
 			questChange = "accepted";
@@ -4419,7 +4409,7 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 		end
 	end
 
-	if topLevelSearch then
+	if topLevelSearch and not app.ATTWindowTooltip then
 		-- Add various text to the group now that it has been consolidated from all sources
 		if group.isLimited then
 			tinsert(info, 1, { left = L.LIMITED_QUANTITY, wrap = false, color = "ff66ccff" });
@@ -6237,8 +6227,12 @@ app.TryColorizeName = function(group, name)
 	-- raid headers
 	elseif group.isRaid then
 		return Colorize(name, "ffff8000");
+	-- faction rep status
 	elseif group.factionID and group.standing then
 		return app.ColorizeStandingText((group.saved and 8) or (group.standing + (group.isFriend and 2 or 0)), name);
+	-- groups which are ignored for progress
+	elseif group.sourceIgnored then
+		return Colorize(name, "ff7f40bf");
 		-- if people REALLY only want to see colors in account/debug then we can comment this in
 	elseif app.Settings:GetTooltipSetting("UseMoreColors") --and (app.MODE_ACCOUNT or app.MODE_DEBUG)
 	then
@@ -6619,6 +6613,8 @@ local function ClearTooltip(self)
 	self.AttachComplete = nil;
 	self.MiscFieldsComplete = nil;
 	self.UpdateTooltip = nil;
+
+	app.ATTWindowTooltip = nil;
 end
 
 -- Tooltip Hooks
@@ -6869,6 +6865,10 @@ local ObjectFunctions = {
 		rawset(t, "modItemID", t.itemID);
 		return rawget(t, "modItemID");
 	end,
+	-- default 'text' should be the colorized 'name'
+	["text"] = function(t)
+		return app.TryColorizeName(t, t.name);
+	end,
 };
 -- Creates a Base Object Table which will evaluate the provided set of 'fields' (each field value being a keyed function)
 app.BaseObjectFields = not app.__perf and function(fields, type)
@@ -7043,6 +7043,7 @@ end)();
 
 -- Achievement Lib
 (function()
+local GetAchievementCategory, GetAchievementNumCriteria, GetCategoryInfo, GetStatistic = GetAchievementCategory, GetAchievementNumCriteria, GetCategoryInfo, GetStatistic;
 local cache = app.CreateCache("achievementID");
 local function CacheInfo(t, field)
 	local _t, id = cache.GetCached(t);
@@ -7128,7 +7129,7 @@ local categoryFields = {
 	["key"] = function(t)
 		return "achievementCategoryID";
 	end,
-	["text"] = function(t)
+	["name"] = function(t)
 		return GetCategoryInfo(t.achievementCategoryID);
 	end,
 	["icon"] = function(t)
@@ -7162,9 +7163,6 @@ local criteriaFields = {
 			rawset(t, "achievementID", achievementID);
 			return achievementID;
 		end
-	end,
-	["text"] = function(t)
-		return app.TryColorizeName(t, t.name);
 	end,
 	["name"] = function(t)
 		if t.link then return t.link; end
@@ -7257,6 +7255,262 @@ criteriaFields.icon = fields.icon;
 app.BaseAchievementCriteria = app.BaseObjectFields(criteriaFields, "BaseAchievementCriteria");
 app.CreateAchievementCriteria = function(id, t)
 	return setmetatable(constructor(id, t, "criteriaID"), app.BaseAchievementCriteria);
+end
+
+
+local HarvestedAchievementDatabase = {};
+local harvesterFields = RawCloneData(fields);
+harvesterFields.visible = app.ReturnTrue;
+harvesterFields.collectible = app.ReturnTrue;
+harvesterFields.collected = app.ReturnFalse;
+harvesterFields.text = function(t)
+	local achievementID = t.achievementID;
+	if achievementID then
+		local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch = GetAchievementInfo(achievementID);
+		if Name then
+			local info = {
+				["name"] = Name,
+				["achievementID"] = IDNumber,
+				["parentCategoryID"] = GetAchievementCategory(achievementID) or -1,
+				["icon"] = Image,
+			};
+			if Description ~= nil and Description ~= "" then
+				info.description = Description;
+			end
+			local totalCriteria = GetAchievementNumCriteria(achievementID);
+			if totalCriteria > 0 then
+				local criteria = {};
+				for criteriaID=totalCriteria,1,-1 do
+					local criteriaString, criteriaType, completed, quantity, reqQuantity, charName, flags, assetID, quantityString = GetAchievementCriteriaInfo(achievementID, criteriaID);
+					local crit = { ["criteriaID"] = criteriaID };
+					if criteriaString ~= nil and criteriaString ~= "" then
+						crit.name = criteriaString;
+					end
+					if assetID and assetID ~= 0 then
+						crit.assetID = assetID;
+					end
+					if reqQuantity and reqQuantity > 0 then
+						crit.rank = reqQuantity;
+					end
+					if criteriaType then
+						-- Unknown type, not sure what to do with this.
+						crit.criteriaType = criteriaType;
+						if crit.assetID then
+							if criteriaType == 27 then	-- Quest Completion
+								crit.sourceQuest = assetID;
+								crit.criteriaType = nil;
+								crit.assetID = nil;
+								if crit.rank and crit.rank == 1 then
+									crit.rank = nil;
+									break;
+								end
+							elseif criteriaType == 36 or criteriaType == 41 or criteriaType == 42 then
+								-- 36: Items (Generic)
+								-- 41: Items (Use/Eat)
+								-- 42: Items (Loot)
+								if crit.rank and crit.rank < 2 then
+									crit.provider = { "i", crit.assetID };
+								else
+									crit.cost = { { "i", crit.assetID, crit.rank }};
+								end
+								crit.criteriaType = nil;
+								crit.assetID = nil;
+								crit.rank = nil;
+							elseif criteriaType == 43 then	-- Exploration?!
+								crit.explorationID = crit.assetID;
+								crit.criteriaType = nil;
+								crit.assetID = nil;
+								crit.rank = nil;
+							elseif criteriaType == 0 then	-- NPC Kills
+								crit.provider = { "n", crit.assetID };
+								if crit.rank and crit.rank < 2 then
+									crit.rank = nil;
+								end
+								crit.criteriaType = nil;
+								crit.assetID = nil;
+							elseif criteriaType == 96 then	-- Collect Pets
+								crit.provider = { "n", crit.assetID };
+								if crit.rank and crit.rank < 2 then
+									crit.rank = nil;
+								end
+								crit.criteriaType = nil;
+								crit.assetID = nil;
+							elseif criteriaType == 68 or criteriaType == 72 then	-- Interact with Object (68) / Fish from a School (72)
+								crit.provider = { "o", crit.assetID };
+								if crit.rank and crit.rank < 2 then
+									crit.rank = nil;
+								end
+								crit.criteriaType = nil;
+								crit.assetID = nil;
+							elseif criteriaType == 7 then	-- Skill ID, Rank is Requirement
+								crit.requireSkill = crit.assetID;
+								crit.criteriaType = nil;
+								crit.assetID = nil;
+							elseif criteriaType == 40 then	-- Skill ID Learned
+								crit.requireSkill = crit.assetID;
+								crit.criteriaType = nil;
+								crit.assetID = nil;
+								crit.rank = nil;
+							elseif criteriaType == 8 then	-- Achievements as Children
+								crit.provider = { "a", crit.assetID };
+								if crit.rank and crit.rank < 2 then
+									crit.rank = nil;
+								end
+								crit.criteriaType = nil;
+								crit.assetID = nil;
+							elseif criteriaType == 12 then	-- Currencies (Collected Total)
+								if crit.rank and crit.rank < 2 then
+									crit.cost = { { "c", crit.assetID, 1 }};
+								else
+									crit.cost = { { "c", crit.assetID, crit.rank }};
+								end
+								crit.criteriaType = nil;
+								crit.assetID = nil;
+								crit.rank = nil;
+							elseif criteriaType == 26 then
+								-- 26: Environmental Deaths
+								--  0: fatigue
+								--  1: drowning
+								--  2: falling
+								--  3/5: fire/lava
+								-- https://wowwiki-archive.fandom.com/wiki/API_GetAchievementCriteriaInfo
+								if crit.rank and totalCriteria == 1 then
+									info.rank = crit.rank;
+									break;
+								end
+							elseif criteriaType == 29 or criteriaType == 69 then	-- Cast X Spell Y Times
+								if crit.rank and totalCriteria == 1 then
+									info.rank = crit.rank;
+									break;
+								else
+									crit.spellID = crit.assetID;
+									crit.criteriaType = nil;
+									crit.assetID = nil;
+								end
+							elseif criteriaType == 46 then	-- Minimum Faction Requirement
+								crit.minReputation = { crit.assetID, crit.rank };
+								crit.criteriaType = nil;
+								crit.assetID = nil;
+								crit.rank = nil;
+							end
+							-- 28: Something to do with event-based encounters, not sure what assetID is.
+							-- 49: Something to do with Equipment Slots, assetID is the equipSlotID. (useless maybe?)
+							-- 52: Honorable kill on a specific Class, assetID is the ClassID. (useless maybe? might be able to use a class icon?)
+							-- 53: Honorable kill on a specific Class at level 35+, assetID is the ClassID. (useless maybe? might be able to use a class icon?)
+							-- 54: Show a critter you /love them, assetID is useless or not present.
+							-- 70: Honorable Kill at a specific place.
+							-- 71: Instance Clears, assetID is of an unknown type... might be Saved Instance ID?
+							-- 73: Mal'Ganis? Complete Objective? (useless)
+							-- 74: No idea, tracking of some kind
+							-- 92: Encounter Kills, of non-NPC type. (Group of NPCs - IE: Lilian Voss)
+						elseif criteriaType == 0 or criteriaType == 3 or criteriaType == 5 or criteriaType == 6 or criteriaType == 9 or criteriaType == 10 or criteriaType == 14 or criteriaType == 15 or criteriaType == 17 or criteriaType == 19 or criteriaType == 26 or criteriaType == 37 or criteriaType == 45 or criteriaType == 75 or criteriaType == 78 or criteriaType == 79 or criteriaType == 81 or criteriaType == 90 or criteriaType == 91 or criteriaType == 109 or criteriaType == 124 or criteriaType == 126 or criteriaType == 130 or criteriaType == 134 or criteriaType == 135 or criteriaType == 136 or criteriaType == 138 or criteriaType == 139 or criteriaType == 151 or criteriaType == 156 or criteriaType == 157 or criteriaType == 158 or criteriaType == 200 or criteriaType == 203 or criteriaType == 207 then
+							-- 0: Some tracking statistic, generally X/Y format and simple enough to not justify a type if no assetID is present.
+							-- 3: Collect X of something that's generic for Archeology
+							-- 5: Level Requirement
+							-- 6: Digsites (Archeology)
+							-- 9: Total Quests Completed
+							-- 10: Daily Quests, every day for X days.
+							-- 14: Total Daily Quests Completed
+							-- 15: Battleground battles
+							-- 17: Total Deaths
+							-- 19: Instances Run
+							-- 26: Environmental Deaths
+							-- 37: Ranked Arena Wins
+							-- 45: Bank Slots Purchased
+							-- 75: Mounts (Total - on one Character)
+							-- 78: Kill NPCs
+							-- 79: Cook Food
+							-- 81: Pet battle achievement points
+							-- 90: Gathering (Nodes)
+							-- 91: Pet Charm Totals
+							-- 109: Catch Fish
+							-- 124: Guild Member Repairs
+							-- 126: Guild Crafting
+							-- 130: Rated Battleground Wins
+							-- 134: Complete Quests
+							-- 135: Honorable Kills (Total)
+							-- 136: Kill Critters
+							-- 138: Guild Scenario Challenges Completed
+							-- 139: Guild Challenges Completed
+							-- 151: Guild Scenario Completed
+							-- 156: Collect Pets (Total)
+							-- 157: Collect Pets (Rare)
+							-- 158: Pet Battles
+							-- 200: Recruit Troops
+							-- 203: World Quests (Total Complete)
+							-- 207: Honor Earned (Total)
+							-- https://wowwiki-archive.fandom.com/wiki/API_GetAchievementCriteriaInfo
+							if crit.rank and totalCriteria == 1 then
+								info.rank = crit.rank;
+								break;
+							end
+						elseif criteriaType == 38 or criteriaType == 39 or criteriaType == 58 or criteriaType == 63 or criteriaType == 65 or criteriaType == 66 or criteriaType == 76 or criteriaType == 77 or criteriaType == 82 or criteriaType == 83 or criteriaType == 84 or criteriaType == 85 or criteriaType == 86 or criteriaType == 107 or criteriaType == 128 or criteriaType == 152 or criteriaType == 153 or criteriaType == 163 then	-- Ignored
+							-- 38: Team Rating, which is irrelevant.
+							-- 39: Personal Rating, which is irrelevant.
+							-- 58: Killing Blows, might specifically be PvP.
+							-- 63: Total Gold (Spent on Travel)
+							-- 65: Total Gold (Spent on Barber Shop)
+							-- 66: Total Gold (Spent on Mail)
+							-- 76: Duels Won
+							-- 77: Duels Lost
+							-- 82: Auctions (Total Posted)
+							-- 83: Auctions (Highest Bid)
+							-- 84: Auctions (Total Purchases)
+							-- 85: Auctions (Highest Sold)]
+							-- 86: Most Gold Ever Owned
+							-- 107: Quests Abandoned
+							-- 128: Guild Bank Tabs
+							-- 152: Defeat Scenarios
+							-- 153: Ride to Location?
+							-- 163: Also ride to location
+							break;
+						elseif criteriaType == 59 or criteriaType == 62 or criteriaType == 67 or criteriaType == 80 then	-- Gold Cost, if available.
+							-- 59: Total Gold (Vendors)
+							-- 62: Total Gold (Quest Rewards)
+							-- 67: Total Gold (Looted)
+							-- 80: Total Gold (Auctions)
+							if crit.rank and crit.rank > 1 then
+								if totalCriteria == 1 then
+									-- Generic, such as the Bread Winner
+									info.rank = crit.rank;
+									break;
+								else
+									crit.cost = { { "g", crit.assetID, crit.rank } };
+									crit.criteriaType = nil;
+									crit.assetID = nil;
+									info.rank = nil;
+								end
+							else
+								break;
+							end
+						end
+						-- 155: Collect Battle Pets from a Raid, no assetID though RIP
+						-- 158: Defeat Master Trainers
+						-- 161: Capture a Battle Pet in a Zone
+						-- 163: Defeat an Encounter of some kind? AssetID useless
+						-- 169: Construct a building, assetID might be the buildingID.
+					end
+					tinsert(criteria, 1, crit);
+				end
+				if #criteria > 0 then info.criteria = criteria; end
+			end
+
+			HarvestedAchievementDatabase[achievementID] = info;
+			AllTheThingsHarvestItems = HarvestedAchievementDatabase;
+			setmetatable(t, app.BaseAchievement);
+			rawset(t, "collected", true);
+			return link;
+		end
+	end
+
+	local name = t.name;
+	-- retries exceeded, so check the raw .name on the group (gets assigned when retries exceeded during cache attempt)
+	if name then rawset(t, "collected", true); end
+	return name;
+end
+app.BaseAchievementHarvester = app.BaseObjectFields(harvesterFields, "BaseAchievementHarvester");
+app.CreateAchievementHarvester = function(id, t)
+	return setmetatable(constructor(id, t, "achievementID"), app.BaseAchievementHarvester);
 end
 
 local function CheckAchievementCollectionStatus(achievementID)
@@ -7643,9 +7897,6 @@ local fields = {
 	end,
 	["name"] = function(t)
 		return AllTheThingsAD.LocalizedCategoryNames[t.categoryID] or ("Unknown Category #" .. t.categoryID);
-	end,
-	["text"] = function(t)
-		return app.TryColorizeName(t, t.name);
 	end,
 	["icon"] = function(t)
 		return AllTheThings.CategoryIcons[t.categoryID] or "Interface/ICONS/INV_Garrison_Blueprints1";
@@ -8076,9 +8327,6 @@ local fields = {
 	["key"] = function(t)
 		return "encounterID";
 	end,
-	["text"] = function(t)
-		return app.TryColorizeName(t, t.name);
-	end,
 	["name"] = function(t)
 		return cache.GetCachedField(t, "name", CacheInfo);
 	end,
@@ -8267,9 +8515,6 @@ end
 local fields = {
 	["key"] = function(t)
 		return "factionID";
-	end,
-	["text"] = function(t)
-		return app.TryColorizeName(t, t.name);
 	end,
 	["name"] = function(t)
 		return cache.GetCachedField(t, "name", CacheInfo);
@@ -8546,9 +8791,6 @@ local fields = {
 			return info;
 		end
 		return app.EmptyTable;
-	end,
-	["text"] = function(t)
-		return app.TryColorizeName(t, t.name);
 	end,
 	["name"] = function(t)
 		return t.info.name or L["VISIT_FLIGHT_MASTER"];
@@ -9199,9 +9441,6 @@ end
 local fields = {
 	["key"] = function(t)
 		return "instanceID";
-	end,
-	["text"] = function(t)
-		return app.TryColorizeName(t, t.name);
 	end,
 	["icon"] = function(t)
 		return cache.GetCachedField(t, "icon", CacheInfo);
@@ -10296,9 +10535,6 @@ local mapFields = {
 	["key"] = function(t)
 		return "mapID";
 	end,
-	["text"] = function(t)
-		return app.TryColorizeName(t, t.name);
-	end,
 	["name"] = function(t)
 		return t.creatureID and app.NPCNameFromID[t.creatureID] or app.GetMapName(t.mapID);
 	end,
@@ -10400,8 +10636,10 @@ local function CacheInfo(t, field)
 		_t.mountID = mountID;
 	end
 	local name, _, icon = GetSpellInfo(id);
-	_t.text = "|cffb19cd9"..name.."|r";
-	_t.icon = icon;
+	if name then
+		_t.text = "|cffb19cd9"..name.."|r";
+		_t.icon = icon;
+	end
 	if itemID then
 		local itemName = select(2, GetItemInfo(itemID));
 		-- item info might not be available on first request, so don't cache the data
@@ -10692,9 +10930,6 @@ local npcFields = {
 	["key"] = function(t)
 		return "npcID";
 	end,
-	["text"] = function(t)
-		return app.TryColorizeName(t, t.name);
-	end,
 	["name"] = function(t)
 		return app.NPCNameFromID[t.npcID];
 	end,
@@ -10781,9 +11016,6 @@ app.BaseNPCWithAchievementAndQuest = app.BaseObjectFields(fields, "BaseNPCWithAc
 local headerFields = {
 	["key"] = function(t)
 		return "headerID";
-	end,
-	["text"] = function(t)
-		return app.TryColorizeName(t, t.name);
 	end,
 	["name"] = function(t)
 		return L["HEADER_NAMES"][t.headerID];
@@ -10876,9 +11108,6 @@ end)();
 local objectFields = {
 	["key"] = function(t)
 		return "objectID";
-	end,
-	["text"] = function(t)
-		return app.TryColorizeName(t, t.name);
 	end,
 	["name"] = function(t)
 		return app.ObjectNames[t.objectID] or ("Object ID #" .. t.objectID);
@@ -11157,9 +11386,6 @@ local C_QuestLog_ReadyForTurnIn = C_QuestLog.ReadyForTurnIn;
 local questFields = {
 	["key"] = function(t)
 		return "questID";
-	end,
-	["text"] = function(t)
-		return app.TryColorizeName(t, t.name);
 	end,
 	["name"] = function(t)
 		return app.QuestTitleFromID[t.questID];
@@ -12201,10 +12427,12 @@ local function CacheInfo(t, field)
 	-- patch can be included in the id
 	local tierID = math_floor(id);
 	rawset(t, "tierKey", tierID);
-	-- silly decimals... shift over by 4 and cut off the rest then shift back 2
-	local patch = math_floor(10000 * (id - tierID)) / 100;
-	if patch > 0 then
-		_t.name = tostring(tierID).."."..tostring(patch);
+	local patch_decimal = 100 * (id - tierID);
+	local patch = math_floor(patch_decimal + 0.0001);
+	local rev = math_floor(10 * (patch_decimal - patch) + 0.0001);
+	-- print("tier cache",id,tierID,patch_decimal,patch,rev)
+	if id > tierID then
+		_t.name = tostring(tierID).."."..tostring(patch).."."..tostring(rev);
 	else
 		_t.name = EJ_GetTierInfo(tierID);
 	end
@@ -12213,9 +12441,6 @@ end
 local fields = {
 	["key"] = function(t)
 		return "tierID";
-	end,
-	["text"] = function(t)
-		return t.name;
 	end,
 	["name"] = function(t)
 		return cache.GetCachedField(t, "name", CacheInfo);
@@ -14754,6 +14979,9 @@ RowOnEnter = function (self)
 			GameTooltip:ClearLines();
 		end
 
+		-- track that an ATT row is causing the tooltip
+		app.ATTWindowTooltip = true;
+
 		-- NOTE: Order matters, we "fall-through" certain values in order to pass this information to the item ID section.
 		if not reference.creatureID then
 			if reference.itemID then
@@ -15131,41 +15359,38 @@ RowOnEnter = function (self)
 			end
 		end
 
-		-- Additional information if the row did not generate a search result for the tooltip
-		if not GameTooltip.HasATTSearchResults then
-			-- Lore
-			if app.Settings:GetTooltipSetting("Lore") and reference.lore then
-				GameTooltip:AddLine(reference.lore, 0.4, 0.8, 1, 1);
-			end
-			-- Description
-			if app.Settings:GetTooltipSetting("Descriptions") and reference.description then
-				GameTooltip:AddLine(reference.description, 0.4, 0.8, 1, 1);
-			end
-			-- an item used for a faction which is repeatable
-			if reference.itemID and reference.factionID and reference.repeatable then
-				GameTooltip:AddLine(L["ITEM_GIVES_REP"] .. (select(1, GetFactionInfoByID(group.factionID)) or ("Faction #" .. tostring(group.factionID))) .. "'", 0.4, 0.8, 1, 1, true);
-			end
-			-- Unobtainable
-			if reference.u then
-				GameTooltip:AddLine(L["UNOBTAINABLE_ITEM_REASONS"][reference.u][2], 1, 1, 1, 1, true);
-			end
-			-- Pet Battles
-			if reference.pb then
-				GameTooltip:AddLine(L["REQUIRES_PETBATTLES"], 1, 1, 1, 1, true);
-			end
-			-- PvP
-			if reference.pvp then
-				GameTooltip:AddLine(L["REQUIRES_PVP"], 1, 1, 1, 1, true);
-			end
-			-- Ignored for Source/Progress
-			if reference.sourceIgnored then
-				GameTooltip:AddLine(L["DOES_NOT_CONTRIBUTE_TO_PROGRESS"], 1, 1, 1, 1, true);
-			end
-			-- Has a symlink for additonal information
-			if reference.sym then
-				GameTooltip:AddLine(L["SYM_ROW_INFORMATION"], 1, 1, 1, 1, true);
-			end
-		-- else app.PrintDebug("skipped common tooltip info due to search results")
+		-- Additional information (search will not insert this information when the tooltip is from an ATT row)
+		-- Lore
+		if app.Settings:GetTooltipSetting("Lore") and reference.lore then
+			GameTooltip:AddLine(reference.lore, 0.4, 0.8, 1, 1);
+		end
+		-- Description
+		if app.Settings:GetTooltipSetting("Descriptions") and reference.description then
+			GameTooltip:AddLine(reference.description, 0.4, 0.8, 1, 1);
+		end
+		-- an item used for a faction which is repeatable
+		if reference.itemID and reference.factionID and reference.repeatable then
+			GameTooltip:AddLine(L["ITEM_GIVES_REP"] .. (select(1, GetFactionInfoByID(group.factionID)) or ("Faction #" .. tostring(group.factionID))) .. "'", 0.4, 0.8, 1, 1, true);
+		end
+		-- Unobtainable
+		if reference.u then
+			GameTooltip:AddLine(L["UNOBTAINABLE_ITEM_REASONS"][reference.u][2], 1, 1, 1, 1, true);
+		end
+		-- Pet Battles
+		if reference.pb then
+			GameTooltip:AddLine(L["REQUIRES_PETBATTLES"], 1, 1, 1, 1, true);
+		end
+		-- PvP
+		if reference.pvp then
+			GameTooltip:AddLine(L["REQUIRES_PVP"], 1, 1, 1, 1, true);
+		end
+		-- Ignored for Source/Progress
+		if reference.sourceIgnored then
+			GameTooltip:AddLine(L["DOES_NOT_CONTRIBUTE_TO_PROGRESS"], 1, 1, 1, 1, true);
+		end
+		-- Has a symlink for additonal information
+		if reference.sym then
+			GameTooltip:AddLine(L["SYM_ROW_INFORMATION"], 1, 1, 1, 1, true);
 		end
 
 		-- Further conditional texts that can be displayed
@@ -15522,12 +15747,12 @@ RowOnEnter = function (self)
 			"name",
 			"key",
 			"hash",
+			"link",
 		};
 		GameTooltip:AddLine("-- Extra Fields:");
 		for _,key in ipairs(fields) do
 			GameTooltip:AddDoubleLine(key,tostring(reference[key]));
 		end
-		GameTooltip:AddDoubleLine("sortProgress",app.GetGroupSortValue(reference));
 		GameTooltip:AddDoubleLine("Row Indent",tostring(CalculateRowIndent(reference)));
 		-- END DEBUGGING]]
 
@@ -16925,6 +17150,86 @@ end
 app.ResetCustomWindowParam = function(suffix)
 	customWindowUpdates.params[suffix] = nil;
 end
+customWindowUpdates["AchievementHarvester"] = function(self, ...)
+	-- /script AllTheThings:GetWindow("AchievementHarvester"):Toggle();
+	if self:IsVisible() then
+		if not self.initialized then
+			self.doesOwnUpdate = true;
+			self.initialized = true;
+			self.Limit = 15575;
+			self.PartitionSize = 1000;
+			local db = {};
+			local CleanUpHarvests = function()
+				local g, partition, pg, pgcount, refresh = self.data.g;
+				local count = g and #g or 0;
+				if count > 0 then
+					for p=count,1,-1 do
+						partition = g[p];
+						if partition.g and partition.expanded then
+							refresh = true;
+							pg = partition.g;
+							pgcount = #pg;
+							-- print("UpdateDone.Partition",partition.text,pgcount)
+							if pgcount > 0 then
+								for i=pgcount,1,-1 do
+									if pg[i].collected then
+										-- item harvested, so remove it
+										-- print("remove",pg[i].text)
+										table.remove(pg, i);
+									end
+								end
+							else
+								-- empty partition, so remove it
+								table.remove(g, p);
+							end
+						end
+					end
+					if refresh then
+						-- refresh the window again
+						self:BaseUpdate();
+					else
+						-- otherwise stop until a group is expanded again
+						self.UpdateDone = nil;
+					end
+				end
+			end;
+			-- add a bunch of raw, delay-loaded items in order into the window
+			local groupCount = math.ceil(self.Limit / self.PartitionSize);
+			local g, overrides = {}, {visible=true};
+			local partition, partitionStart, partitionGroups;
+			local dlo, obj = app.DelayLoadedObject, app.CreateAchievementHarvester;
+			for j=0,groupCount,1 do
+				partitionStart = j * self.PartitionSize;
+				partitionGroups = {};
+				-- define a sub-group for a range of quests
+				partition = {
+					["text"] = tostring(partitionStart + 1).."+",
+					["icon"] = app.asset("Interface_Quest_header"),
+					["visible"] = true,
+					["OnClick"] = function(row, button)
+						-- assign the clean up method now that the group was clicked
+						self.UpdateDone = CleanUpHarvests;
+						-- no return so that it acts like a normal row
+					end,
+					["g"] = partitionGroups,
+				};
+				for i=1,self.PartitionSize,1 do
+					tinsert(partitionGroups, dlo(obj, "text", overrides, partitionStart + i));
+				end
+				tinsert(g, partition);
+			end
+			db.g = g;
+			db.text = "Achievement Harvester";
+			db.icon = "Interface\\Icons\\Achievement_Dungeon_GloryoftheRaider";
+			db.description = "This is a contribution debug tool. NOT intended to be used by the majority of the player base.\n\nExpand a group to harvest the 1,000 Achievements within that range.";
+			db.visible = true;
+			db.expanded = true;
+			db.back = 1;
+			self.data = db;
+		end
+		self:BaseUpdate(true);
+	end
+end;
 customWindowUpdates["AuctionData"] = function(self)
 	if not self.initialized then
 		local C_AuctionHouse_ReplicateItems = C_AuctionHouse.ReplicateItems;
@@ -17552,6 +17857,11 @@ customWindowUpdates["CurrentInstance"] = function(self, force, got)
 							elseif row.headerID == 0 or row.headerID == -1 then
 								if not row.expanded then ExpandGroupsRecursively(row, true, true); expanded = true; end
 							end
+						end
+						-- No difficulty found to expand, so just expand everything in the list
+						if not expanded then
+							ExpandGroupsRecursively(self.data, true, true);
+							expanded = true;
 						end
 					end
 				end
@@ -21886,7 +22196,7 @@ app.events.BOSS_KILL = function(id, name, ...)
 	app:RegisterEvent("LOOT_CLOSED");
 end
 app.events.LEARNED_SPELL_IN_TAB = function(spellID, skillInfoIndex, isGuildPerkSpell)
-	-- seems to be a reliable way to notice a player has changed professions? not sure how else often it actually triggers... hopefully not to excessive...
+	-- seems to be a reliable way to notice a player has changed professions? not sure how else often it actually triggers... hopefully not too excessive...
 	if skillInfoIndex == 7 then
 		DelayedCallback(app.GetTradeSkillCache, 2, true);
 	end

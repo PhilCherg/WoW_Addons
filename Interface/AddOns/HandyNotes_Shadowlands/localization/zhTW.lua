@@ -253,7 +253,7 @@ L['flayedwing_transporter_note'] = '點選 {npc:178633} 來進入或離開玄秘
 L['fleshwing_note'] = '和 {npc:180079} 對話來開始收集事件.'
 L['forgotten_feather_note'] = '在一個可以從守衛者歇息地跳下去的漂浮小島上.'
 L['konthrogz_note'] = '從一個吞食者傳送門事件中刷新.'
-L['korthia_limited_rare'] = '|cFFFF8C00此稀有在某些日子不會刷新|r'
+L['sl_limited_rare'] = '|cFFFF8C00此稀有在某些日子不會刷新|r'
 L['krelva_note'] = '當血量到80%時會移動到另外一個平台, 然後當血量剩60%會移動到陸地上. |cFFFF8C00你必須在60%後有打到稀有才有計算擊殺!|r'
 L['kroke_note'] = '擊殺區域內的 {npc:179029} 直到他出現. 當 {npc:179029} 不存在時沒有辦法召喚.'
 L['maelie_wanderer'] = '{npc:179912} 會刷新在所標註的位置. 當你點選牠後會對牠使用 {spell:355862} 持續使用六天後，回去找 {npc:179930} 來取得坐騎.'
@@ -682,23 +682,27 @@ L['feasting_note'] = '有時候在回到此點前會在附近繞行'
 L['furidian_note'] = '在此區域啟動三個 |cFFFFFD00強化的鑰匙|r 就會解鎖 |cFFFFFD00可疑的憤怒儲藏庫|r.'
 L['garudeon_note'] = '從附近的區域收集 {npc:183562} 並且使用 {spell:362655} 來餵食 {npc:183554}. 當三個都被餵食後, {npc:180924} 會啟動.'
 L['gluttonous_overgrowth_note'] = '摧毀所有附近的 {npc:184048} 來啟動稀有'
-L['helmix_emote'] = nil
+L['helmix_note'] = [[
+在此區域殺死 {npc:179005} 直到他做出表情並刷新.
+
+|cFFFF8C00地面在震動…有東西在地底下鑽洞！|r
+]]
 L['hirukon_note'] = [[
-  要引誘 {npc:180978} 到水面, 需要製造ㄩ一個 {item:187923}.
+要引誘 {npc:180978} 到水面, 需要製造一個 {item:187923}.
 
-  1. 從附近的水里釣起 {item:187662}.
+1. 從附近的水里釣起 {item:187662}.
 
-  2. 從贊格沼澤的盤牙蓄湖內的 |cFFFFFD00Pungent Blobfish Cluster|r 釣起一個 {item:187915}. 當你進入山洞後魚群會在你的右手邊.
+2. 從贊格沼澤的盤牙蓄湖內的 |cFFFFFD00Pungent Blobfish Cluster|r 釣起一個 {item:187915}. 當你進入山洞後魚群會在你的右手邊.
 
-  3. 從納沙塔爾的凱爾亞的墳墓飛行點附近的 |cFFFFFD00翻滾魚群|r 釣起一個 {item:187922}.
+3. 從納沙塔爾的凱爾亞的墳墓飛行點附近的 |cFFFFFD00翻滾魚群|r 釣起一個 {item:187922}.
 
-  4. 在閃光瀚洋的納爾朔拉殿堂的二樓陽台 (34.7, 75.0) 拾取 {item:187916} (藏得很好).
+4. 在閃光瀚洋的納爾朔拉殿堂的二樓陽台 (34.7, 75.0) 拾取 {item:187916} (藏得很好).
 
-  5. 在瑪卓薩斯的統御者之座南邊的池塘找到 {npc:182194}. 並請他製作成 {item:187923}.
+5. 在瑪卓薩斯的統御者之座南邊的池塘找到 {npc:182194}. 並請他製作成 {item:187923}.
 
-  6. 使用 {item:187923}, 允許你可以在 {npc:180978} 附近看到 |cFFFFFD00Aurelid Cluster|r 的魚群15分鐘. 在魚群中釣魚來召喚 {npc:180978} 到水面.
-  ]]
-L['orixal_note'] = nil
+6. 使用 {item:187923}, 允許你可以在 {npc:180978} 附近看到 |cFFFFFD00Aurelid Cluster|r 的魚群15分鐘. 在魚群中釣魚來召喚 {npc:180978} 到水面.
+]]
+L['orixal_note'] = '與巡邏此地的 {npc:185487} 共享重生'
 L['protector_first_ones_note'] = '需要兩人. 攜帶對應的符文 (可以在附近區域找到) 到各個控制台來開啟屏障.'
 L['the_engulfer_note'] = '保護 {npc:183505} 直到 {npc:183516} 從裂隙中跳出.'
 L['zatojin_note'] = '吸引附近的 {npc:183721} 並且讓他們對你堆疊20層的 {spell:362976} 直到你受到 {spell:362983}. 當你麻痺時你必須站在 {npc:183774} 屍體上, 以便讓 {npc:183764} 注意到你.'
@@ -706,7 +710,7 @@ L['zatojin_note'] = '吸引附近的 {npc:183721} 並且讓他們對你堆疊20�
 L['architects_reserve_note'] = '從朝聖者之澤的 {npc:180630} 完成 {quest:64829} 任務線. 隔天, 從 {npc:181273} 完成 {quest:65426} 任務線來解鎖寶藏'
 L['bushel_of_produce_note'] = '在北方殺死一個有 {spell:360945} 增益的 {npc:182368} 來為你自己取得增益. 殺死更多的 {npc:182368} (不需要有增益) 直到你有5層增益, 然後破壞到寶藏的門.'
 L['crushed_crate_note'] = '撿起寶藏上方的大柱子上的 {item:189767}. 把它交給 {npc:185151} 來交換 {item:189768} 用來打碎墜落的石頭.'
-L['domination_cache_note'] = '在此區域的 {npc:181403s} 和 {npc:182426s} 有低機率掉落 {item:189704}'
+L['domination_cache_note'] = '在此區域的 {npc:181403} 和 {npc:182426} 有低機率掉落 {item:189704}'
 L['drowned_broker_supplies_note'] = '與 {npc:181059} 對話來取得附近 {npc:185282} 的控制'
 L['forgotten_protovault_note'] = '僅在世界任務 {wq:蛙蛙} 期間內可取得.'
 L['grateful_boon_note'] = '無法飛行時很難到達, 使用 {spell:300728} 或 {spell:111771} 來爬過山, 舒緩此區域所有的12個生物 {npc:185293} 會刷新寶藏'
@@ -716,17 +720,23 @@ L['ripened_protopear_note'] = '開始 {quest:64641} 任務鏈來獲得進入繁�
 L['sphere_treasure_note'] = '小心的從球體往上跳直到你到達寶藏處.'
 L['submerged_chest_note'] = '吸收南邊的 |cFFFFFD00危險的能量球|r, 然後和寶藏旁邊的 |cFFFFFD00被遺忘的幫浦|r 互動'
 L['symphonic_vault_note'] = '檢查 {npc:183998} 後會聽到4種聲音的序列. 房間內每個 {npc:183950} 會撥放一種聲音. 依照對應的順序和它們互動會解鎖寶藏.'
-L['syntactic_vault_note'] = nil
+L['syntactic_vault_note'] = '要解鎖寶藏, 你必須要在首創者聖塚區域的 |cFFFFFD00符文音節|r 互動取得6層的 {spell:367499}.'
 L['template_archive_note'] = '推動面向擋住路徑的 {npc:183337} 的 {npc:183339} 來取得寶藏.'
 L['undulating_foliage_note'] = [[
-  按下四個 {npc:185390} 來啟動在滋長界地中間房間的傳送器.
+按下四個 {npc:185390} 來啟動在滋長界地中間房間的傳送器.
 
-  • 在外面的 |cFFFFFD00滋長界地鎖|r 後方
-  • 在滋長界地西南方的房間
-  • 在有 {npc:181652} 的南邊房間
-  • 在滋長界地東南方的房間
+• 在外面的 |cFFFFFD00滋長界地鎖|r 後方
+• 在滋長界地西南方的房間
+• 在有 {npc:181652} 的南邊房間
+• 在滋長界地東南方的房間
 ]]
 
+L['provis_cache'] = '鎖住的供應區寶箱'
+L['provis_cache_note'] = [[
+完成 {npc:177958} 的每日任務 {quest:64717} 至少一次.
+
+使用 {item:187516} 從各區域的熔爐收集15個 {item:187728} 並且將它們結合成 {item:187787}. 此球體有機率開到鑰匙.
+]]
 L['prying_eye_discovery'] = '發現窺探之眼'
 L['prying_eye_discovery_note'] = '當飛行解鎖時會比較容易到達'
 L['pulp_covered_relic'] = '被泥巴覆蓋的聖物'
@@ -749,31 +759,34 @@ L['cache_toccatian'] = '托卡提安原鎖'
 L['schematic_treasure_note'] = '|cFFFF8C00在你還沒有解鎖合成器時此寶藏不會含有結構圖. 如果你已經撿過寶藏後才解鎖, 你可以在旁邊的地上找到結構圖.|r'
 L['schematic_treasure_mount_note'] = '|cFFFF8C00此結構圖可以在附近的一次性寶藏找到. 如果你在解鎖坐騎合成器之前開啟了寶藏, 你可以在此找到結構圖.|r'
 L['schematic_treasure_pet_note'] = '|cFFFF8C00此結構圖可以在附近的一次性寶藏找到. 如果你在解鎖寵物合成器之前開啟了寶藏, 你可以在此找到結構圖.|r'
-L['schematic_bronze_helicid_note'] = '有機率從雙周任務 {quest:65324} 的 {item:190610} 內被找到'
+L['schematic_bronze_helicid_note'] = '有機率從每周任務 {quest:65324} 的 {item:190610} 內被找到'
 L['schematic_ambystan_darter_note'] = '藏在水下 {npc:185312} 附近'
 L['schematic_bronzewing_vespoid_note'] = '在育生棲地內'
-L['schematic_buzz_note'] = '在 {npc:185265} 內有機率發現'
+L['schematic_buzz_note'] = '在 {npc:185265} 內有機率找到'
 L['schematic_darkened_vombata_note'] = '在一個漂浮的籠子內'
 L['schematic_deathrunner_note'] = '作為 {spell:366367} 的一部分解鎖任務鏈來取得'
 L['schematic_desertwing_hunter_note'] = '在柱子頂端'
 L['schematic_fierce_scarabid_note'] = '藏在 {npc:181870} 所站的平台底下'
 L['schematic_forged_spiteflyer_note'] = '從原蜂巢群中伸出'
-L['schematic_genesis_crawler_note'] = '在創始密室入口的頂端發現'
+L['schematic_genesis_crawler_note'] = '在創始密室入口的頂端找到'
 L['schematic_goldplate_bufonid_note'] = '{npc:178803} 有低機率掉落'
 L['schematic_heartbond_lupine_note'] = '{npc:179939} 有低機率掉落'
 L['schematic_leaping_leporid_note'] = '在一顆漂浮的樹頂端可以找到'
-L['schematic_microlicid_note'] = '在漂浮樹最低的枝幹上， 在一些葉子之下'
+L['schematic_microlicid_note'] = '在漂浮樹最低的枝幹上， 被蓋在一些葉子下方'
 L['schematic_pale_regal_cervid_note'] = '在 {npc:181397} 處研究所有的暗語來取得 {achievement:15402}.'
-L['schematic_prototickles_note'] = '在稀有 {npc:180978} 之上的藤蔓內連接著的一個漂浮鍊'
-L['schematic_raptora_swooper_note'] = '在轉化廳內發現'
-L['schematic_resonant_echo_note'] = '有機率在 {item:189172} 內發現'
-L['schematic_russet_bufonid_note'] = '有機率在 {item:187780} 巔峰箱內發現'
+L['schematic_prototickles_note'] = '在稀有 {npc:180978} 上方的藤蔓內，和一個漂浮的鍊子相連著'
+L['schematic_raptora_swooper_note'] = '在轉化廳內找到'
+L['schematic_resonant_echo_note'] = '有機率在 {item:189172} 內找到'
+L['schematic_russet_bufonid_note'] = '有機率在 {item:187780} 巔峰箱內找到'
 L['schematic_scarlet_helicid_note'] = '在拱形建築頂端可以被找到'
-L['schematic_shelly_note'] = '在詞彙石窟內書櫃的背面上. 需要傳送技能來爬上書櫃'
+L['schematic_serenade_note'] = nil
+L['schematic_shelly_note'] = '在詞彙石窟裡的書櫃的背面凹洞內. 需要使用傳送技能來到達'
+L['schematic_stabilized_geomental_note'] = nil
 L['schematic_tarachnid_creeper_note'] = '在無盡沙海內的一個小建築內'
-L['schematic_terror_jelly_note'] = '在坡道附近的方形塔架頂端'
-L['schematic_tunneling_vombata_note'] = '在洛克利安魂核內一個被堵塞的隧道的瓦礫旁'
+L['schematic_terror_jelly_note'] = '在坡道旁的方形塔頂端'
+L['schematic_tunneling_vombata_note'] = '在洛克利安魂核內一個被堵塞的隧道裡的瓦礫旁'
 L['schematic_vespoid_flutterer_note'] = '在鳴響山嶽的第一位點的一堆沙中伸出'
+L['schematic_violent_poultrid_note'] = nil
 
 L['concordance_excitable'] = '躁動索引'
 L['concordance_mercurial'] = '易變索引'
@@ -783,10 +796,22 @@ L['concordance_note'] = '閱讀每一個索引來解鎖在 |cFFFFFD00流亡者�
 L['echoed_jiro_note'] = '消耗 {npc:181059} 能量來取得暫時的增益. 需要 {npc:181397} 的 |cFFFFFD00克里希安|r 研究.'
 
 L['bygone_elemental_note'] = '{npc:181221} 會在此區域任何一個 {npc:179007} 的位置重生'
+L['dominated_irregular_note'] = '{npc:184819} 會在此區域任何一個 {npc:183184} 的位置重生'
 L['gaiagantic_note'] = '僅在 {npc:177958} 提供 {quest:64785} 每日任務的時候重生'
 L['misaligned_enforcer_note'] = '巡邏此區域並且會在其路徑終點消失'
 L['overcharged_vespoid_note'] = '在此區域作為任一蟲群的一部分重生'
 L['runethief_xylora_note'] = '在朝聖者之澤區域潛行的重生'
+
+local proto_area = '有機率在 |cFFFFFD00%s|r 附近的熔爐找到.'
+L['proto_material_zone_chance'] = '有機率在此區域的所標示的熔爐找到'
+L['anima_charged_yolk_note'] = '從任何的熔爐收集15個 {item:187728} 並組合成 {item:187787}, 有機率可以開到 {item:187890}.'
+L['energized_firmament_note'] = string.format(proto_area, '鳴響山嶽')
+L['honeycombed_lattice_note'] = string.format(proto_area, '鳴響絕壁')
+L['incorporeal_sand_note'] = '有機率在沙漠區域的熔爐找到'
+L['pollinated_extraction_note'] = string.format(proto_area, '原翠荒野')
+L['serene_pigment_note'] = '在 |cFFFFFD00流亡者洞穴|r 入口上方的熔爐. 可能需要多次嘗試'
+L['volatile_precursor_note'] = '有機率在頂端較小的熔爐找到. 可能需要多次嘗試'
+L['wayward_essence_note'] = '在 |cFFFFFD00流亡者洞穴|r 後方的飄浮熔爐. 站在凹槽處比較容易取得'
 
 L['patient_bufonid_note'] = '推進澤瑞斯莫提斯的主線任務直到 {npc:180950} 提供 {quest:65727}. 每天完成任務來將 {npc:185798} 引誘出池塘'
 L['patient_bufonid_note_day1'] = '從此區域的原蜂收集15個 {item:190852}'
@@ -805,6 +830,8 @@ L['options_icons_echoed_jiros'] = '回響的機諾'
 L['options_icons_echoed_jiros_desc'] = '顯示提供增益的 |cFFFFFD00回響機諾|r 位置.'
 L['options_icons_exile_tales'] = '{achievement:15509}'
 L['options_icons_exile_tales_desc'] = '顯示 {achievement:15509} 成就所需的傳說位置'
+L['options_icons_proto_materials'] = '{achievement:15229}'
+L['options_icons_proto_materials_desc'] = '顯示 {achievement:15229} 成就所需的稀有原靈體材料位置'
 L['options_icons_protoform_schematics'] = '結構圖'
 L['options_icons_protoform_schematics_desc'] = '顯示坐騎和小寵物結構圖的位置'
 L['options_icons_puzzle_caches'] = '謎題箱'

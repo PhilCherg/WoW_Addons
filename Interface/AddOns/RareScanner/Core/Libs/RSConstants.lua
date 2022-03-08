@@ -24,8 +24,8 @@ RSConstants.LOOT_ITEM_ID = nil
 -- Current versions
 ---============================================================================
 
-RSConstants.CURRENT_DB_VERSION = 50
-RSConstants.CURRENT_LOOT_DB_VERSION = 66
+RSConstants.CURRENT_DB_VERSION = 54
+RSConstants.CURRENT_LOOT_DB_VERSION = 68
 
 ---============================================================================
 -- Current maps (newer)
@@ -135,7 +135,7 @@ RSConstants.PROFILE_DEFAULTS = {
 		},
 		collections = {
 			filteredOnlyOnWorldMap = false,
-			autoFilteringOnCollect = true,
+			autoFilteringOnCollect = false,
 			createProfileBackup = true,
 			searchingPets = true,
 			searchingMounts = true,
@@ -322,11 +322,6 @@ RSConstants.STOLEN_ANIMA_VESSEL_RIFT = { 369227, 369235, 369236 }
 -- NPCs that spawn after completing an event
 RSConstants.NPCS_WITH_PRE_EVENT = {
 -- EVENTID = NPCID
-	[164102] = 164093;
-	[167874] = 167851;
-	[168053] = 167721;
-	[165206] = 165230;
-	[160675] = 176347;
 	-- Korthia
 	[179759] = 179760;
 	[180145] = 179859;
@@ -350,6 +345,14 @@ RSConstants.NPCS_WITH_PRE_EVENT = {
 	[185836] = 180924;
 	-- Bation
 	[176543] = 171008;
+	-- Revendredth
+	[165230] = 165206;
+	[166483] = 166521;
+	[176347] = 160675;
+	-- Ardenweald
+	[164102] = 164093;
+	[167874] = 167851;
+	[168053] = 167721;
 }
 
 -- Contains that spawn after completing an event
@@ -380,7 +383,7 @@ RSConstants.NPCS_WITH_EVENT_VIGNETTE = { 154330, 164547, 164477, 160629, 175012,
 RSConstants.NPCS_WITH_CONTAINER_VIGNETTE = { 179883 }
 RSConstants.CONTAINERS_WITH_NPC_VIGNETTE = { 369435 }
 RSConstants.NPCS_WITH_MULTIPLE_SPAWNS = { 69768, 69769, 69841, 69842, 70323 }
-RSConstants.CONTAINERS_WITH_MULTIPLE_SPAWNS = {  }
+RSConstants.CONTAINERS_WITH_MULTIPLE_SPAWNS = { 375530, 375362, 375290, 373579, 375373 }
 RSConstants.FIRIM_EXILE_OBJECTS = { 375973, 375982, 375983, 375984, 375985, 375986, 375987 }
 
 ---============================================================================
