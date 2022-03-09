@@ -24,8 +24,8 @@ PasteDB = {
 		["Farmerixus - Outland"] = "Farmerixus - Outland",
 		["Luminaxia - Outland"] = "Luminaxia - Outland",
 		["Testfirst - Outland"] = "Testfirst - Outland",
-		["Mallazin - Azjol-Nerub"] = "Mallazin - Azjol-Nerub",
 		["Bullenic - Silvermoon"] = "Bullenic - Silvermoon",
+		["Mallazin - Azjol-Nerub"] = "Mallazin - Azjol-Nerub",
 		["Barbaxius - Outland"] = "Barbaxius - Outland",
 		["Wolfados - Azjol-Nerub"] = "Wolfados - Azjol-Nerub",
 		["Moneyfour - Outland"] = "Moneyfour - Outland",
@@ -107,17 +107,17 @@ PasteDB = {
 			["loaded"] = true,
 		},
 		["Necrophagus - Outland"] = {
-			["loaded"] = true,
-			["minimap"] = {
-				["minimapPos"] = 178.6279061133446,
-			},
-			["where"] = "Default",
 			["whispertarget"] = "",
+			["where"] = "Default",
+			["loaded"] = true,
 			["pos"] = {
 				["height"] = 320,
 				["top"] = 700.8450927734375,
 				["left"] = 711.5023803710938,
 				["width"] = 500.0000305175781,
+			},
+			["minimap"] = {
+				["minimapPos"] = 178.6279061133446,
 			},
 		},
 		["Elementior - Outland"] = {
@@ -154,10 +154,10 @@ PasteDB = {
 		["Testfirst - Outland"] = {
 			["loaded"] = true,
 		},
-		["Mallazin - Azjol-Nerub"] = {
+		["Bullenic - Silvermoon"] = {
 			["loaded"] = true,
 		},
-		["Bullenic - Silvermoon"] = {
+		["Mallazin - Azjol-Nerub"] = {
 			["loaded"] = true,
 		},
 		["Barbaxius - Outland"] = {
