@@ -150,7 +150,7 @@ VWQL = {
 			[41949] = true,
 			[46111] = true,
 			[43709] = true,
-			[48637] = true,
+			[42652] = true,
 			[42276] = true,
 			[46201] = true,
 			[45934] = true,
@@ -191,7 +191,7 @@ VWQL = {
 			[45878] = true,
 			[46825] = true,
 			[44118] = true,
-			[42652] = true,
+			[48637] = true,
 		},
 		["Filter"] = 63,
 	},
@@ -246,6 +246,19 @@ VWQL = {
 		},
 		["VERSION"] = 101,
 	},
+	["Necrophagus-Outland"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+			[64273] = true,
+			[64531] = true,
+			[43798] = true,
+			[43943] = true,
+			[45379] = true,
+		},
+		["VERSION"] = 104,
+	},
 	["Elementior-Outland"] = {
 		["VERSION"] = 100,
 		["FilterType"] = {
@@ -253,20 +266,6 @@ VWQL = {
 		["Quests"] = {
 		},
 		["Filter"] = 63,
-	},
-	["Necrophagus-Outland"] = {
-		["Filter"] = 63,
-		["FilterType"] = {
-		},
-		["Quests"] = {
-			[64273] = true,
-			[45379] = true,
-			[64531] = true,
-			[43943] = true,
-			[59581] = true,
-			[43798] = true,
-		},
-		["VERSION"] = 104,
 	},
 	["Ignore"] = {
 	},
@@ -298,7 +297,7 @@ VWQL = {
 			[52474] = true,
 			[51216] = true,
 			[52779] = true,
-			[52923] = true,
+			[52986] = true,
 			[50846] = true,
 			[51415] = true,
 			[56394] = true,
@@ -307,7 +306,7 @@ VWQL = {
 			[51738] = true,
 			[52874] = true,
 			[51989] = true,
-			[51051] = true,
+			[49413] = true,
 			[51651] = true,
 			[51811] = true,
 			[52884] = true,
@@ -337,8 +336,8 @@ VWQL = {
 			[51609] = true,
 			[51107] = true,
 			[51613] = true,
-			[49413] = true,
-			[52986] = true,
+			[51051] = true,
+			[52923] = true,
 		},
 		["FilterType"] = {
 		},

@@ -1,11 +1,4 @@
 Version: 1
-Frame: AllTheThings-Window-CurrentInstance
-FrameLevel: 1
-Anchor: LEFT
-X: 0
-Y: -209
-W: 410
-H: 216
 Frame: MonkeySpeedFrame
 FrameLevel: 1
 Anchor: TOPRIGHT
@@ -13,6 +6,13 @@ X: -293
 Y: -40
 W: 164
 H: 45
+Frame: AllTheThings-Window-CurrentInstance
+FrameLevel: 1
+Anchor: LEFT
+X: 0
+Y: -209
+W: 410
+H: 216
 Frame: ObjectiveTrackerFrame
 FrameLevel: 1
 Anchor: BOTTOMRIGHT

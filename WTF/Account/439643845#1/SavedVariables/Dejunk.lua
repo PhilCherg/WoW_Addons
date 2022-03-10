@@ -75,19 +75,13 @@ __DEJUNK_SAVED_VARIABLES__ = {
 		["Bankeristor-Outland"] = {
 			["version"] = 3,
 		},
-		["Bullenic-Silvermoon"] = {
+		["Elementior-Outland"] = {
 			["version"] = 3,
 		},
 		["Barbaxius-Outland"] = {
 			["version"] = 3,
 		},
 		["Xanthoros-Outland"] = {
-			["version"] = 3,
-		},
-		["Elementior-Outland"] = {
-			["version"] = 3,
-		},
-		["Feastfour-Outland"] = {
 			["version"] = 3,
 		},
 		["Necrophagus-Outland"] = {
@@ -104,9 +98,9 @@ __DEJUNK_SAVED_VARIABLES__ = {
 			["sell"] = {
 				["auto"] = true,
 				["exclusions"] = {
+					["187455"] = true,
 					["187454"] = true,
 					["187468"] = true,
-					["187455"] = true,
 					["187451"] = true,
 				},
 				["inclusions"] = {
@@ -118,16 +112,22 @@ __DEJUNK_SAVED_VARIABLES__ = {
 					["179314"] = true,
 					["172054"] = true,
 					["173204"] = true,
-					["172052"] = true,
 					["187431"] = true,
+					["172052"] = true,
 				},
 			},
 			["version"] = 3,
 		},
-		["Feastthree-Outland"] = {
+		["Feastfour-Outland"] = {
+			["version"] = 3,
+		},
+		["Bullenic-Silvermoon"] = {
 			["version"] = 3,
 		},
 		["Destruxia-Outland"] = {
+			["version"] = 3,
+		},
+		["Feastthree-Outland"] = {
 			["version"] = 3,
 		},
 		["Phaltraxion-Outland"] = {

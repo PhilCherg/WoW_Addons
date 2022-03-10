@@ -119,11 +119,11 @@ BWQDB = {
 					["useLFGButtons"] = true,
 					["sortBy"] = 7,
 				},
-				["pin"] = {
-				},
 				["external"] = {
 					["TomTom"] = {
 					},
+				},
+				["pin"] = {
 				},
 				["filters"] = {
 				},
