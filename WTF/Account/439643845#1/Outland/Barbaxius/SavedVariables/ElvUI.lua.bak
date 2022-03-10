@@ -2,314 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"|cffffff00|Hworldmap:63:9311:4088|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Migette-Silvermoon", -- [2]
-			"", -- [3]
-			"1. General - Ashenvale", -- [4]
-			"Migette-Silvermoon", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Ashenvale", -- [9]
-			0, -- [10]
-			910, -- [11]
-			"Player-3391-0C129A3F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Migette-Silvermoon|r",
-			[51] = 1637342093,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"ty", -- [1]
-			"Panoramixing-Ravencrest", -- [2]
-			"", -- [3]
-			"1. General - Ashenvale", -- [4]
-			"Panoramixing-Ravencrest", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Ashenvale", -- [9]
-			0, -- [10]
-			911, -- [11]
-			"Player-1329-041765A1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Panoramixing-Ravencrest|r",
-			[51] = 1637342099,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"np", -- [1]
-			"Migette-Silvermoon", -- [2]
-			"", -- [3]
-			"1. General - Ashenvale", -- [4]
-			"Migette-Silvermoon", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Ashenvale", -- [9]
-			0, -- [10]
-			912, -- [11]
-			"Player-3391-0C129A3F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Migette-Silvermoon|r",
-			[51] = 1637342102,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"<RCU> WTS |cffffff00|Hachievement:15126:Player-1301-0C1268D6:1:7:11:21:4294967295:4294967295:4294967295:4294967295|h[Sanctum of Domination]|h|r 10/10H Full clear TONIGHT! Full clear + 1 trader = 500K || Last 2 HC = 90K || M+15 = 120K || Torghast /w me to book a spot :)", -- [1]
-			"Bloodsheda-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Bloodsheda-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			74, -- [11]
-			"Player-1301-0C1268D6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaBloodsheda|r",
-			[51] = 1640007320,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14410:Player-1301-06BAC488:1:12:20:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: Halls of Atonement]|h|r!", -- [1]
-			"Baabinz-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Baabinz-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			91, -- [11]
-			"Player-1301-06BAC488", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cBaabinz|r",
-			[51] = 1640007410,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [5]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14411:Player-1301-06BAC488:1:12:20:21:4294967295:4294967295:4294967295:4294967295|h[Mythic: Halls of Atonement]|h|r!", -- [1]
-			"Baabinz-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Baabinz-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			92, -- [11]
-			"Player-1301-06BAC488", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cBaabinz|r",
-			[51] = 1640007410,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [6]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:11185:Player-1301-06BAC488:1:12:20:21:4294967295:4294967295:4294967295:4294967295|h[Keystone Conqueror]|h|r!", -- [1]
-			"Baabinz-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Baabinz-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			93, -- [11]
-			"Player-1301-06BAC488", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cBaabinz|r",
-			[51] = 1640007410,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [7]
-		{
-			"wts |cffffff00|Hachievement:5340:Player-1301-0C1D0B56:0:0:0:-1:0:0:0:0|h[Commander]|h|r |cffffff00|Hachievement:5337:Player-1301-0C1D0B56:0:0:0:-1:0:0:0:0|h[Knight-Captain]|h|r pvp boosting service any rating for rewards etc. /w me grp ready", -- [1]
-			"Xtsemeniu-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Xtsemeniu-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			102, -- [11]
-			"Player-1301-0C1D0B56", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cXtsemeniu|r",
-			[51] = 1640007549,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
-		{
-			">Nova< Special OFFER 10/10 HC SoD 260k VIP trader 190k ||M+10=75k M+14=100k  M+15=110k M+16=165k M+18=300k M+20=520k KSM=1.7m KSH=3600k(all +20 intime) HM=190k ||lvlup 50-60 {Gold Only} /w <3", -- [1]
-			"Sunnylove-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Sunnylove-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			105, -- [11]
-			"Player-1301-0BD9E538", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Sunnylove|r",
-			[51] = 1640007559,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
-		{
-			"<RCU> WTS |cffffff00|Hachievement:15126:Player-1301-0C1268D6:1:7:11:21:4294967295:4294967295:4294967295:4294967295|h[Sanctum of Domination]|h|r 10/10H Full clear TONIGHT! Full clear + 1 trader = 500K || Last 2 HC = 90K || M+15 = 120K || Torghast /w me to book a spot :)", -- [1]
-			"Bloodsheda-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Bloodsheda-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			110, -- [11]
-			"Player-1301-0C1268D6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaBloodsheda|r",
-			[51] = 1640007574,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
-		{
-			"[RCU] WTS HC |cff66bbff|Hjournal:1:2441:15|h[Sylvanas Windrunner]|h|r [60k] |cff66bbff|Hjournal:1:2440:15|h[Kel'Thuzad]|h|r [40k] Both [90k] every 40 min  [M+15=120k] [4xM+15=410k] [M+20=500k]  |cffffff00|Hachievement:15126:Player-1301-0BFAA238:0:0:0:-1:0:0:0:0|h[Sanctum of Domination]|h|r HC at 19:00 and 20:30 ST 10/10 PL [300k] 1 VIP + Lootroll [500k] VIP's 10/10+ 3x vip [800k]  /w for info", -- [1]
-			"Abcent-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Abcent-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			130, -- [11]
-			"Player-1301-0BFAA238", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Abcent|r",
-			[51] = 1640007610,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
-		{
-			">Nova< Special OFFER  ||M+15=110k M+14=100k  M+16=165k M+18=300k M+20=520k KSM=1540k KSH=3550k(all +20 intime) Tazavesh HM=190k ||10/10 HC SoD 250k VIP trader 180k Sylv HC 50k ||lvlup 50-60 {Gold Only} /w <3", -- [1]
-			"Sunnylove-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Sunnylove-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			138, -- [11]
-			"Player-1301-0BD9E538", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Sunnylove|r",
-			[51] = 1640104726,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
-		{
-			"ive done a few timewalking dungeons but the item levels are lower than bfa dungeons", -- [1]
-			"Santaslays-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			156, -- [11]
-			"Player-1301-0C198CAD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cSantaslays|r",
-			[51] = 1640104863,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [13]
-		{
-			"revash kil g gezzno ", -- [1]
-			"Beegles-TwistingNether", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Beegles-TwistingNether", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			165, -- [11]
-			"Player-3674-059AE6E6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaBeegles-TwistingNether|r",
-			[51] = 1640105029,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [14]
-		{
 			">Nova< Special OFFER  ||M+15=110k M+14=100k  M+16=165k M+18=300k M+20=520k KSM=1540k KSH=3550k(all +20 intime) Tazavesh HM=190k ||10/10 HC SoD 250k VIP trader 180k Sylv HC 50k ||lvlup 50-60 {Gold Only} /w <3", -- [1]
 			"Sunnylove-Outland", -- [2]
 			"", -- [3]
@@ -330,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Sunnylove|r",
 			[51] = 1640105044,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
+		}, -- [1]
 		{
 			" [RCU] |cffffff00|Hachievement:15134:Player-1301-0C19E403:0:0:0:-1:0:0:0:0|h[Der Zeit voraus: Sylvanas Windläufer]|h|r HC [Sylvanas] >60k< [Kel'thuzad] >40k< [BOTH] >90k< !!! Also offering SOD HC 10/10 [300k] 1vip+Lootshare [500k] extra VIP's 180k  /w me or visit us in discord.gg/rcu ", -- [1]
 			"Holfi-Outland", -- [2]
@@ -352,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHolfi|r",
 			[51] = 1640105049,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
+		}, -- [2]
 		{
 			"<NOVA> OFFERING HEROIC 10/10 |cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r  250k + TRADER  VIP 180k / M+15 120k (2x +15 205k ) / M+16 160k / M+17 205k /M+18 290k / M19 440k /M+20 510k/  M+21 640k / KSH 8/8  All Key  +20 3550k / Torghast /", -- [1]
 			"Novabostt-Outland", -- [2]
@@ -374,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novabostt|r",
 			[51] = 1640105061,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
+		}, -- [3]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:1689:Player-1301-0B0D2B3F:1:12:25:21:4294967295:4294967295:4294967295:4294967295|h[He Knows If You've Been Naughty]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -396,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1640447829,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [18]
+		}, -- [4]
 		{
 			"[RCU] WTS Boost Mythic +15 120k >> 4x +15 410k >> M+20 500k  >> Keystone Master 1700k  >>Keystone Hero 3500k >> Torghast All Layer Normaly or Flawless >> |cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r HC 10/10 or Curve /w me for more info", -- [1]
 			"Angelbloody-Outland", -- [2]
@@ -418,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Angelbloody|r",
 			[51] = 1640447836,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
+		}, -- [5]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15313:Player-1301-0B0D2B3F:1:12:25:21:4294967295:4294967295:4294967295:4294967295|h[Rockin' Rollin' Racer]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -440,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1640447839,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [20]
+		}, -- [6]
 		{
 			"6k", -- [1]
 			"Zâzøu-Outland", -- [2]
@@ -462,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Zâzøu|r",
 			[51] = 1640816752,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
+		}, -- [7]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:4624:Player-1301-0B0D2B3F:1:2:8:22:4294967295:4294967295:4294967295:4294967295|h[Tough Love]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -484,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1644321654,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [22]
+		}, -- [8]
 		{
 			"Lust Detector: Ailuros cast |cff71d5ff|Hspell:272678:0|h[Primal Rage]|h|r and increased +30% haste on party", -- [1]
 			"Ailuros-Aszune", -- [2]
@@ -506,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ailuros-Aszune|r",
 			[51] = 1645301063,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [23]
+		}, -- [9]
 		{
 			"can som1 party inv me for 2min? need to setup frames", -- [1]
 			"Zayxq-Outland", -- [2]
@@ -528,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Zayxq|r",
 			[51] = 1645354496,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
+		}, -- [10]
 		{
 			"WTS 2v2 Arena 1.4 2.1 Fast Win", -- [1]
 			"Elesis-Outland", -- [2]
@@ -550,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Elesis|r",
 			[51] = 1645465498,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
+		}, -- [11]
 		{
 			"brothers and sisters", -- [1]
 			"Xdensity-Outland", -- [2]
@@ -572,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeXdensity|r",
 			[51] = 1645469727,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [26]
+		}, -- [12]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14628:Player-1301-0B0D2B3F:1:2:22:22:4294967295:4294967295:4294967295:4294967295|h[The Road to Renown]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -594,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1645510077,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [27]
+		}, -- [13]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14629:Player-1301-0B0D2B3F:1:2:22:22:4294967295:4294967295:4294967295:4294967295|h[Gaining Respect]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -616,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1645510077,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [28]
+		}, -- [14]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14630:Player-1301-0B0D2B3F:1:2:22:22:4294967295:4294967295:4294967295:4294967295|h[Becoming a Hero]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -638,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1645510077,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [29]
+		}, -- [15]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14837:Player-1301-0B0D2B3F:1:2:22:22:4294967295:4294967295:4294967295:4294967295|h[Nexus of Bonds]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -660,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1645510077,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [30]
+		}, -- [16]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14631:Player-1301-0B0D2B3F:1:2:22:22:4294967295:4294967295:4294967295:4294967295|h[Champion of the Covenant]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -682,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1645510077,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [31]
+		}, -- [17]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:507:Player-1301-0C190E39:1:2:22:22:4294967295:4294967295:4294967295:4294967295|h[1000 Quests Completed]|h|r!", -- [1]
 			"Kietan-Outland", -- [2]
@@ -704,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cKietan|r",
 			[51] = 1645511947,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [32]
+		}, -- [18]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14783:Player-1301-0B0D2B3F:1:2:22:22:4294967295:4294967295:4294967295:4294967295|h[Level 60]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -726,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1645513690,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [33]
+		}, -- [19]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14834:Player-1301-0B0D2B3F:1:2:22:22:4294967295:4294967295:4294967295:4294967295|h[Bound with Purpose]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -748,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1645514654,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [34]
+		}, -- [20]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14845:Player-1301-0AFA29E2:1:2:22:22:4294967295:4294967295:4294967295:4294967295|h[Adventures: A Step in the Right Direction]|h|r!", -- [1]
 			"Tokol-Outland", -- [2]
@@ -770,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Tokol|r",
 			[51] = 1645538975,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [35]
+		}, -- [21]
 		{
 			"Consumption |cffffff00|Hworldmap:1961:5115:4177|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Broxithar-Outland", -- [2]
@@ -792,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBroxithar|r",
 			[51] = 1645539955,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
+		}, -- [22]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6740:Player-1301-091822E3:1:2:22:22:4294967295:4294967295:4294967295:4294967295|h[Temple of Kotmogu Victory]|h|r!", -- [1]
 			"Delicieuse-Outland", -- [2]
@@ -814,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Delicieuse|r",
 			[51] = 1645540130,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [37]
+		}, -- [23]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6971:Player-1301-091822E3:1:2:22:22:4294967295:4294967295:4294967295:4294967295|h[I've Got the Power]|h|r!", -- [1]
 			"Delicieuse-Outland", -- [2]
@@ -836,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Delicieuse|r",
 			[51] = 1645540130,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [38]
+		}, -- [24]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8:Player-1301-091822E3:1:2:22:22:4294967295:4294967295:4294967295:4294967295|h[Level 30]|h|r!", -- [1]
 			"Delicieuse-Outland", -- [2]
@@ -858,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Delicieuse|r",
 			[51] = 1645540130,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [39]
+		}, -- [25]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:504:Player-1301-091822E3:1:2:22:22:4294967295:4294967295:4294967295:4294967295|h[100 Quests Completed]|h|r!", -- [1]
 			"Delicieuse-Outland", -- [2]
@@ -880,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Delicieuse|r",
 			[51] = 1645541021,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [40]
+		}, -- [26]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:890:Player-1301-091822E3:1:2:22:22:4294967295:4294967295:4294967295:4294967295|h[Into the Wild Blue Yonder]|h|r!", -- [1]
 			"Delicieuse-Outland", -- [2]
@@ -902,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Delicieuse|r",
 			[51] = 1645541025,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [41]
+		}, -- [27]
 		{
 			"Zelnithop 60.46% ~(27.69, 58.96) |cffffff00|Hworldmap:2007:2769:5896|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Dontkillme-ShatteredHalls", -- [2]
@@ -924,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Dontkillme-ShatteredHalls|r",
 			[51] = 1645541062,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
+		}, -- [28]
 		{
 			"kroke ", -- [1]
 			"Yumadaline-Outland", -- [2]
@@ -946,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaYumadaline|r",
 			[51] = 1645545384,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
+		}, -- [29]
 		{
 			"no", -- [1]
 			"Lefaye-Kor'gall", -- [2]
@@ -968,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaLefaye-Kor'gall|r",
 			[51] = 1645638197,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [44]
+		}, -- [30]
 		{
 			"buggy", -- [1]
 			"Wolvorin-Outland", -- [2]
@@ -990,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Wolvorin|r",
 			[51] = 1645638313,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [31]
 		{
 			"Secrets of the First Ones stops at 3/7  ?? ", -- [1]
 			"Dienekes-Outland", -- [2]
@@ -1012,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Dienekes|r",
 			[51] = 1645638314,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
+		}, -- [32]
 		{
 			"y", -- [1]
 			"Wolvorin-Outland", -- [2]
@@ -1034,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Wolvorin|r",
 			[51] = 1645638337,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
+		}, -- [33]
 		{
 			"lol  why ?? ", -- [1]
 			"Dienekes-Outland", -- [2]
@@ -1056,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Dienekes|r",
 			[51] = 1645638345,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [34]
 		{
 			"Consumption lvl 62", -- [1]
 			"Teagin-Outland", -- [2]
@@ -1078,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Teagin|r",
 			[51] = 1645701967,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+		}, -- [35]
 		{
 			"Famu up", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1100,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1645704087,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
+		}, -- [36]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:546:Player-1301-0B2A8383:1:2:24:22:4294967295:4294967295:4294967295:4294967295|h[Safe Deposit]|h|r!", -- [1]
 			"Mogreene-Outland", -- [2]
@@ -1122,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMogreene|r",
 			[51] = 1645720212,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [51]
+		}, -- [37]
 		{
 			"rumblerocks up", -- [1]
 			"Ërys", -- [2]
@@ -1144,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Ërys|r",
 			[51] = 1645720275,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [38]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15512:Player-1301-0AB85E3F:1:2:24:22:4294967295:4294967295:4294967295:4294967295|h[Adventures in Zereth Mortis]|h|r!", -- [1]
 			"Gwary-Outland", -- [2]
@@ -1166,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGwary|r",
 			[51] = 1645720402,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [53]
+		}, -- [39]
 		{
 			"leachbeast", -- [1]
 			"Ërys-Hellscream", -- [2]
@@ -1188,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Ërys-Hellscream|r",
 			[51] = 1645720473,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [40]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:656:Player-1301-0B2A8383:1:2:24:22:4294967295:4294967295:4294967295:4294967295|h[The Steamvault]|h|r!", -- [1]
 			"Mogreene-Outland", -- [2]
@@ -1210,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMogreene|r",
 			[51] = 1645721322,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [55]
+		}, -- [41]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:1182:Player-1301-0C003E69:1:2:24:22:4294967295:4294967295:4294967295:4294967295|h[The Bread Winner]|h|r!", -- [1]
 			"Yønda-Outland", -- [2]
@@ -1232,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Yønda|r",
 			[51] = 1645721568,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [56]
+		}, -- [42]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14337:Player-1301-0C003E69:1:2:24:22:4294967295:4294967295:4294967295:4294967295|h[The Wild Hunt]|h|r!", -- [1]
 			"Yønda-Outland", -- [2]
@@ -1254,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Yønda|r",
 			[51] = 1645721582,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [57]
+		}, -- [43]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:5180:Player-1301-0B2A8383:1:2:24:22:4294967295:4294967295:4294967295:4294967295|h[Breaking the Sound Barrier]|h|r!", -- [1]
 			"Mogreene-Outland", -- [2]
@@ -1276,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMogreene|r",
 			[51] = 1645721745,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [58]
+		}, -- [44]
 		{
 			"#", -- [1]
 			"Tayva-Ravencrest", -- [2]
@@ -1298,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Tayva-Ravencrest|r",
 			[51] = 1645801950,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [59]
+		}, -- [45]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6757:Player-1301-08C2342B:1:3:2:22:4294967295:4294967295:4294967295:4294967295|h[Temple of the Jade Serpent]|h|r!", -- [1]
 			"Hrlittle-Outland", -- [2]
@@ -1320,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHrlittle|r",
 			[51] = 1646240552,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [60]
+		}, -- [46]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6758:Player-1301-08C2342B:1:3:2:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Temple of the Jade Serpent]|h|r!", -- [1]
 			"Hrlittle-Outland", -- [2]
@@ -1342,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHrlittle|r",
 			[51] = 1646240552,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [61]
+		}, -- [47]
 		{
 			"makes some strange gestures.", -- [1]
 			"Omghunter-Stormscale", -- [2]
@@ -1364,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Omghunter-Stormscale|r",
 			[51] = 1646240962,
 			[50] = "CHAT_MSG_EMOTE",
-		}, -- [62]
+		}, -- [48]
 		{
 			"<       <<<WTS mythic 0 - 15  -torghast for gold /w for info * fair price >>>>      > ", -- [1]
 			"Oopz-Outland", -- [2]
@@ -1386,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Oopz|r",
 			[51] = 1646328789,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [49]
 		{
 			"wts |cffa335ee|Hitem:173133::::::::60:105::13:3:7960:7881:6647:3:9:60:28:2142:29:32:::::|h[Quick Oxxein Ring]|h|r lower than AH", -- [1]
 			"Íjh-Outland", -- [2]
@@ -1408,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Íjh|r",
 			[51] = 1646328805,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [50]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10749:Player-1301-048770EC:1:3:3:22:4294967295:4294967295:4294967295:4294967295|h[Fighting with Style: War-torn]|h|r!", -- [1]
 			"Fraddy-Outland", -- [2]
@@ -1430,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Fraddy|r",
 			[51] = 1646329253,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [65]
+		}, -- [51]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15349:Player-1301-0AF53901:1:3:3:22:4294967295:4294967295:4294967295:4294967295|h[Challenger I: Shadowlands Season 3]|h|r!", -- [1]
 			"Lycantrap-Outland", -- [2]
@@ -1452,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Lycantrap|r",
 			[51] = 1646329339,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [66]
+		}, -- [52]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15512:Player-1301-09D6D88A:1:3:3:22:4294967295:4294967295:4294967295:4294967295|h[Adventures in Zereth Mortis]|h|r!", -- [1]
 			"Hairyhands-Outland", -- [2]
@@ -1474,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaHairyhands|r",
 			[51] = 1646329794,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [67]
+		}, -- [53]
 		{
 			"anyone doing rares?", -- [1]
 			"Dèáthstroke-Outland", -- [2]
@@ -1496,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cDèáthstroke|r",
 			[51] = 1646331237,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [54]
 		{
 			"Yo i just got back to wow, what addon is making me auto accept all quest?", -- [1]
 			"Sutmindiller-Outland", -- [2]
@@ -1518,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Sutmindiller|r",
 			[51] = 1646331441,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [55]
 		{
 			"autoturnin works for me ", -- [1]
 			"Dèáthstroke-Outland", -- [2]
@@ -1540,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cDèáthstroke|r",
 			[51] = 1646331460,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [56]
 		{
 			"made it accept rewards for every class igot and skip stuff i dont need but it skips everything makes stuff faster and easier so i am happy", -- [1]
 			"Dèáthstroke-Outland", -- [2]
@@ -1562,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cDèáthstroke|r",
 			[51] = 1646331496,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [57]
 		{
 			"nono i have it enable^^ i wanna turn it off, can it be elvui?", -- [1]
 			"Sutmindiller-Outland", -- [2]
@@ -1584,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Sutmindiller|r",
 			[51] = 1646331503,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [58]
 		{
 			"erm go under addons / in the loadin area and disable there? if u can't find it turn off all addons?", -- [1]
 			"Dèáthstroke-Outland", -- [2]
@@ -1606,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cDèáthstroke|r",
 			[51] = 1646331547,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [59]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15379:Player-1301-0AF53901:1:3:3:22:4294967295:4294967295:4294967295:4294967295|h[Challenger II: Shadowlands Season 3]|h|r!", -- [1]
 			"Lycantrap-Outland", -- [2]
@@ -1628,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Lycantrap|r",
 			[51] = 1646332242,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [74]
+		}, -- [60]
 		{
 			"Consumption (100%) |cffffff00|Hworldmap:1961:5115:4177|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Dèáthstroke-Outland", -- [2]
@@ -1650,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cDèáthstroke|r",
 			[51] = 1646332470,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [61]
 		{
 			"please sign my charterrrr", -- [1]
 			"Emcat-Outland", -- [2]
@@ -1672,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Emcat|r",
 			[51] = 1646333944,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [62]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6469:Player-1301-0C003E69:1:3:3:22:4294967295:4294967295:4294967295:4294967295|h[Shado-Pan Monastery]|h|r!", -- [1]
 			"Yønda-Outland", -- [2]
@@ -1694,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Yønda|r",
 			[51] = 1646334649,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [77]
+		}, -- [63]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6470:Player-1301-0C003E69:1:3:3:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Shado-Pan Monastery]|h|r!", -- [1]
 			"Yønda-Outland", -- [2]
@@ -1716,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Yønda|r",
 			[51] = 1646334649,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [78]
+		}, -- [64]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:974:Player-1301-0B0D2B3F:1:3:3:22:4294967295:4294967295:4294967295:4294967295|h[50 Daily Quests Completed]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1738,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1646335646,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [79]
+		}, -- [65]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14836:Player-1301-0C11AB96:1:3:4:22:4294967295:4294967295:4294967295:4294967295|h[Unwavering Bond]|h|r!", -- [1]
 			"Onzeagain-Outland", -- [2]
@@ -1760,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Onzeagain|r",
 			[51] = 1646406441,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [80]
+		}, -- [66]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15513:Player-1301-09965295:1:3:4:22:4294967295:4294967295:4294967295:4294967295|h[Curious Collections]|h|r!", -- [1]
 			"Trûpzîk-Outland", -- [2]
@@ -1782,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Trûpzîk|r",
 			[51] = 1646407618,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [81]
+		}, -- [67]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15224:Player-1301-0C082403:1:3:4:22:4294967295:4294967295:4294967295:4294967295|h[Explore Zereth Mortis]|h|r!", -- [1]
 			"Agrotismonos-Outland", -- [2]
@@ -1804,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Agrotismonos|r",
 			[51] = 1646409965,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [82]
+		}, -- [68]
 		{
 			"|cffffff00|Hworldmap:1961:5207:2120|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r Dominated protector", -- [1]
 			"Cheedoace-Outland", -- [2]
@@ -1826,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaCheedoace|r",
 			[51] = 1646410656,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [69]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:974:Player-1301-0C082403:1:3:4:22:4294967295:4294967295:4294967295:4294967295|h[50 Daily Quests Completed]|h|r!", -- [1]
 			"Agrotismonos-Outland", -- [2]
@@ -1848,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Agrotismonos|r",
 			[51] = 1646411854,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [84]
+		}, -- [70]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:507:Player-1301-0AC7D043:1:3:4:22:4294967295:4294967295:4294967295:4294967295|h[1000 Quests Completed]|h|r!", -- [1]
 			"Outnax-Outland", -- [2]
@@ -1870,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Outnax|r",
 			[51] = 1646411984,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [85]
+		}, -- [71]
 		{
 			"GLORY TO GOD", -- [1]
 			"Levij-Outland", -- [2]
@@ -1892,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cLevij|r",
 			[51] = 1646493010,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [86]
+		}, -- [72]
 		{
 			"wts |cffffffff|Hitem:172324::::::::60:262::68:2:7451:1559:1:28:2142::::Player-1301-0B9750DC:|h[Boneshatter Gauntlets]|h|r 60k", -- [1]
 			"Ghôstlol-Outland", -- [2]
@@ -1914,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGhôstlol|r",
 			[51] = 1646496167,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [73]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12409:Player-1301-0C11AB96:1:3:5:22:4294967295:4294967295:4294967295:4294967295|h[Seething Shore Victory]|h|r!", -- [1]
 			"Onzeagain-Outland", -- [2]
@@ -1936,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Onzeagain|r",
 			[51] = 1646496262,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [88]
+		}, -- [74]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:246:Player-1301-0C11AB96:1:3:5:22:4294967295:4294967295:4294967295:4294967295|h[Know Thy Enemy]|h|r!", -- [1]
 			"Onzeagain-Outland", -- [2]
@@ -1958,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Onzeagain|r",
 			[51] = 1646496694,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [89]
+		}, -- [75]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15539:Player-1301-0C11AB96:1:3:5:22:4294967295:4294967295:4294967295:4294967295|h[Solo Aspirations]|h|r!", -- [1]
 			"Onzeagain-Outland", -- [2]
@@ -1980,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Onzeagain|r",
 			[51] = 1646497295,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [90]
+		}, -- [76]
 		{
 			"ag thok ogg magan ", -- [1]
 			"Trollmania-Ragnaros", -- [2]
@@ -2002,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaTrollmania-Ragnaros|r",
 			[51] = 1646497572,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [91]
+		}, -- [77]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15541:Player-1301-0C11AB96:1:3:5:22:4294967295:4294967295:4294967295:4294967295|h[Sole Survivor]|h|r!", -- [1]
 			"Onzeagain-Outland", -- [2]
@@ -2024,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Onzeagain|r",
 			[51] = 1646497675,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [92]
+		}, -- [78]
 		{
 			"||Konthrogz up near consumption", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -2046,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1646660345,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [79]
 		{
 			"mu", -- [1]
 			"Dæmonjaeger-Draenor", -- [2]
@@ -2068,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Dæmonjaeger-Draenor|r",
 			[51] = 1646660489,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [94]
+		}, -- [80]
 		{
 			"any1 for weekly mechagon m0 mountrun? 4th boss (Mechagon Peacekeeper)", -- [1]
 			"Steampunky-Frostmane", -- [2]
@@ -2090,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaSteampunky-Frostmane|r",
 			[51] = 1646661020,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [81]
 		{
 			"Rustfeather - 65.97 79.09 - 71% life. - AzerPUG RareUtility", -- [1]
 			"Terrorboss-Hellscream", -- [2]
@@ -2112,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cTerrorboss-Hellscream|r",
 			[51] = 1646661035,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [82]
 		{
 			"Kazum ogg makogg throm  uruk nogu ", -- [1]
 			"Papachristos-TwistingNether", -- [2]
@@ -2134,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefePapachristos-TwistingNether|r",
 			[51] = 1646662050,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [97]
+		}, -- [83]
 		{
 			"any1 for weekly mechagon m0 mountrun? 4th boss (Mechagon Peacekeeper)", -- [1]
 			"Steampunky-Frostmane", -- [2]
@@ -2156,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaSteampunky-Frostmane|r",
 			[51] = 1646662146,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [84]
 		{
 			" ruK Kaz'goth'no ruK Ka ZUg NUk  KAZUM'NOBU ", -- [1]
 			"Zeallyn-Kazzak", -- [2]
@@ -2178,6 +1870,314 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeZeallyn-Kazzak|r",
 			[51] = 1646663630,
 			[50] = "CHAT_MSG_SAY",
+		}, -- [85]
+		{
+			"wts|cffffffff|Hitem:172320::::::::60:64::69:4:7194:7882:8156:1588:1:28:2142::::Player-1301-0BE49E18:|h[Umbrahide Waistguard]|h|r|cffffffff|Hitem:172315::::::::60:64::69:3:7882:8156:1588:1:28:2142::::Player-1301-0BE49E18:|h[Umbrahide Treads]|h|r 291", -- [1]
+			"Fishercc-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Fishercc-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			291, -- [11]
+			"Player-1301-0BE49E18", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaFishercc|r",
+			[51] = 1646825536,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [86]
+		{
+			"rust last seen?", -- [1]
+			"Nighhunt-Silvermoon", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Mechagon", -- [4]
+			"Nighhunt-Silvermoon", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Mechagon", -- [9]
+			0, -- [10]
+			313, -- [11]
+			"Player-3391-0BD964EB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Nighhunt-Silvermoon|r",
+			[51] = 1646826820,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [87]
+		{
+			"{rt8}A. Harvester{rt8}: 0s-19m 58s (WorldBossTimers:1646830371)", -- [1]
+			"Warscope-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Warscope-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			327, -- [11]
+			"Player-3391-0681A1A5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cWarscope-Silvermoon|r",
+			[51] = 1646827974,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [88]
+		{
+			"<RTC> Arachnoid Harvester was last seen ~20 minutes ago", -- [1]
+			"Warscope-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Warscope-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			328, -- [11]
+			"Player-3391-0681A1A5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cWarscope-Silvermoon|r",
+			[51] = 1646827976,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [89]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:15241:Player-1301-0C0C1CC1:1:3:9:22:4294967295:4294967295:4294967295:4294967295|h[Renowned]|h|r!", -- [1]
+			"Alkizen-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alkizen-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			336, -- [11]
+			"Player-1301-0C0C1CC1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaAlkizen|r",
+			[51] = 1646828442,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [90]
+		{
+			"reclamation rig up", -- [1]
+			"Pierette-Thunderhorn", -- [2]
+			"", -- [3]
+			"1. General - Mechagon", -- [4]
+			"Pierette-Thunderhorn", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Mechagon", -- [9]
+			0, -- [10]
+			338, -- [11]
+			"Player-1313-06E0E402", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edPierette-Thunderhorn|r",
+			[51] = 1646828505,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [91]
+		{
+			"need only 3 energy cell :D", -- [1]
+			"Pierette-Thunderhorn", -- [2]
+			"", -- [3]
+			"1. General - Mechagon", -- [4]
+			"Pierette-Thunderhorn", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Mechagon", -- [9]
+			0, -- [10]
+			339, -- [11]
+			"Player-1313-06E0E402", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edPierette-Thunderhorn|r",
+			[51] = 1646828527,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14840:Player-1301-0C0C1CC1:1:3:9:22:4294967295:4294967295:4294967295:4294967295|h[Adventures: Learning the Ropes]|h|r!", -- [1]
+			"Alkizen-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alkizen-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			342, -- [11]
+			"Player-1301-0C0C1CC1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaAlkizen|r",
+			[51] = 1646828694,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [93]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:505:Player-1301-0936A2C6:1:3:9:22:4294967295:4294967295:4294967295:4294967295|h[250 Quests Completed]|h|r!", -- [1]
+			"Sallander-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Sallander-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			344, -- [11]
+			"Player-1301-0936A2C6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Sallander|r",
+			[51] = 1646828804,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [94]
+		{
+			"WTS[Shadowghast Ring][Umbrahide Vest] 291ilvl cheaper than AH", -- [1]
+			"Llee-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Llee-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			351, -- [11]
+			"Player-1301-078219D4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Llee|r",
+			[51] = 1646829202,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"WTS Boneshatter Vest 291 Cheaper than Ah", -- [1]
+			"Respectina-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Respectina-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			353, -- [11]
+			"Player-1301-06334221", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Respectina|r",
+			[51] = 1646829256,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"wts|cffffffff|Hitem:172320::::::::60:64::69:4:7194:7882:8156:1588:1:28:2142::::Player-1301-0BE49E18:|h[Umbrahide Waistguard]|h|r|cffffffff|Hitem:172315::::::::60:64::69:3:7882:8156:1588:1:28:2142::::Player-1301-0BE49E18:|h[Umbrahide Treads]|h|r 291", -- [1]
+			"Fishercc-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Fishercc-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			354, -- [11]
+			"Player-1301-0BE49E18", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaFishercc|r",
+			[51] = 1646829264,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"|cffffd100|HclubFinder:ClubFinder-1-280335-1301-108474159|h[Guild: Armata de Strigoi]|h|rLF Mythic+ and Raiding players to form a core team in the near future for semihardcore progression.", -- [1]
+			"Vastharia-Outland", -- [2]
+			"", -- [3]
+			"1. General - Oribos", -- [4]
+			"Vastharia-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Oribos", -- [9]
+			0, -- [10]
+			355, -- [11]
+			"Player-1301-094A6DC0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Vastharia|r",
+			[51] = 1646829389,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"WTS[Shadowghast Ring][Umbrahide Vest] 291ilvl cheaper than AH", -- [1]
+			"Llee-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Llee-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			356, -- [11]
+			"Player-1301-078219D4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Llee|r",
+			[51] = 1646829453,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {

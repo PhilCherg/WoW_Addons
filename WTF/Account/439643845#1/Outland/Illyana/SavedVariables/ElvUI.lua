@@ -2,512 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"maza Aaz'no", -- [1]
-			"Dikhe-Ragnaros", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Dikhe-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			195, -- [11]
-			"Player-3682-0762D6E2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaDikhe-Ragnaros|r",
-			[51] = 1645718674,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [1]
-		{
-			"gul", -- [1]
-			"Imbaganjo-Pozzodell'Eternità", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Imbaganjo-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			196, -- [11]
-			"Player-1309-0BD3FCEE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Imbaganjo-Pozzodell'Eternità|r",
-			[51] = 1645718676,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [2]
-		{
-			"maka il ogar", -- [1]
-			"Dikhe-Ragnaros", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Dikhe-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			197, -- [11]
-			"Player-3682-0762D6E2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaDikhe-Ragnaros|r",
-			[51] = 1645718682,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [3]
-		{
-			"mog l gesh g kek gi kagg il kagg ag", -- [1]
-			"Imbaganjo-Pozzodell'Eternità", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Imbaganjo-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			198, -- [11]
-			"Player-1309-0BD3FCEE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Imbaganjo-Pozzodell'Eternità|r",
-			[51] = 1645718683,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [4]
-		{
-			"dogg kagg", -- [1]
-			"Dikhe-Ragnaros", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Dikhe-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			199, -- [11]
-			"Player-3682-0762D6E2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaDikhe-Ragnaros|r",
-			[51] = 1645718686,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [5]
-		{
-			"ogar kek l nogah", -- [1]
-			"Imbaganjo-Pozzodell'Eternità", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Imbaganjo-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			200, -- [11]
-			"Player-1309-0BD3FCEE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Imbaganjo-Pozzodell'Eternità|r",
-			[51] = 1645718688,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [6]
-		{
-			"il", -- [1]
-			"Imbaganjo-Pozzodell'Eternità", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Imbaganjo-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			201, -- [11]
-			"Player-1309-0BD3FCEE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Imbaganjo-Pozzodell'Eternità|r",
-			[51] = 1645718688,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [7]
-		{
-			"l gul ruk tago ko kagg aaz", -- [1]
-			"Dikhe-Ragnaros", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Dikhe-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			202, -- [11]
-			"Player-3682-0762D6E2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaDikhe-Ragnaros|r",
-			[51] = 1645718700,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [8]
-		{
-			"l kagg thok nogu", -- [1]
-			"Imbaganjo-Pozzodell'Eternità", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Imbaganjo-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			203, -- [11]
-			"Player-1309-0BD3FCEE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Imbaganjo-Pozzodell'Eternità|r",
-			[51] = 1645718709,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [9]
-		{
-			"kil", -- [1]
-			"Imbaganjo-Pozzodell'Eternità", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Imbaganjo-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			204, -- [11]
-			"Player-1309-0BD3FCEE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Imbaganjo-Pozzodell'Eternità|r",
-			[51] = 1645718711,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [10]
-		{
-			"nogu gesh L", -- [1]
-			"Dikhe-Ragnaros", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Dikhe-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			205, -- [11]
-			"Player-3682-0762D6E2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaDikhe-Ragnaros|r",
-			[51] = 1645718715,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [11]
-		{
-			"l maka kil tago kek maka maza kagg", -- [1]
-			"Imbaganjo-Pozzodell'Eternità", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Imbaganjo-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			206, -- [11]
-			"Player-1309-0BD3FCEE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Imbaganjo-Pozzodell'Eternità|r",
-			[51] = 1645718720,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [12]
-		{
-			"kagg tago", -- [1]
-			"Imbaganjo-Pozzodell'Eternità", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Imbaganjo-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			207, -- [11]
-			"Player-1309-0BD3FCEE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Imbaganjo-Pozzodell'Eternità|r",
-			[51] = 1645718726,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [13]
-		{
-			"gesh ag", -- [1]
-			"Dikhe-Ragnaros", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Dikhe-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			208, -- [11]
-			"Player-3682-0762D6E2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaDikhe-Ragnaros|r",
-			[51] = 1645718729,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [14]
-		{
-			"o", -- [1]
-			"Imbaganjo-Pozzodell'Eternità", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Imbaganjo-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			209, -- [11]
-			"Player-1309-0BD3FCEE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Imbaganjo-Pozzodell'Eternità|r",
-			[51] = 1645718733,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [15]
-		{
-			"ogar l throm'Ka kazum", -- [1]
-			"Dikhe-Ragnaros", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Dikhe-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			210, -- [11]
-			"Player-3682-0762D6E2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaDikhe-Ragnaros|r",
-			[51] = 1645718745,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [16]
-		{
-			"L maka ogg ogg ogerin no'ku kil regasnogah ha A kil", -- [1]
-			"Imbaganjo-Pozzodell'Eternità", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Imbaganjo-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			211, -- [11]
-			"Player-1309-0BD3FCEE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Imbaganjo-Pozzodell'Eternità|r",
-			[51] = 1645718747,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [17]
-		{
-			"regasnogah L gul kil nakazz HA", -- [1]
-			"Imbaganjo-Pozzodell'Eternità", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Imbaganjo-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			212, -- [11]
-			"Player-1309-0BD3FCEE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Imbaganjo-Pozzodell'Eternità|r",
-			[51] = 1645718760,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [18]
-		{
-			"lok", -- [1]
-			"Onlygalox-Aggramar", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Onlygalox-Aggramar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			213, -- [11]
-			"Player-1325-06D7A843", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cOnlygalox-Aggramar|r",
-			[51] = 1645718765,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [19]
-		{
-			"zaga", -- [1]
-			"Dikhe-Ragnaros", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Dikhe-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			214, -- [11]
-			"Player-3682-0762D6E2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaDikhe-Ragnaros|r",
-			[51] = 1645718769,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [20]
-		{
-			"moth'aga kil gi ha zaga", -- [1]
-			"Imbaganjo-Pozzodell'Eternità", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Imbaganjo-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			215, -- [11]
-			"Player-1309-0BD3FCEE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Imbaganjo-Pozzodell'Eternità|r",
-			[51] = 1645718776,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [21]
-		{
-			"il", -- [1]
-			"Imbaganjo-Pozzodell'Eternità", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Imbaganjo-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			216, -- [11]
-			"Player-1309-0BD3FCEE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Imbaganjo-Pozzodell'Eternità|r",
-			[51] = 1645718780,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [22]
-		{
-			"mog ogg ruk ogg", -- [1]
-			"Dikhe-Ragnaros", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Dikhe-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			217, -- [11]
-			"Player-3682-0762D6E2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaDikhe-Ragnaros|r",
-			[51] = 1645718786,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [23]
-		{
 			"Kek ogg tar ogar kek il iL", -- [1]
 			"Onlygalox-Aggramar", -- [2]
 			"Orcish", -- [3]
@@ -528,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cOnlygalox-Aggramar|r",
 			[51] = 1645718798,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [24]
+		}, -- [1]
 		{
 			"iL", -- [1]
 			"Dikhe-Ragnaros", -- [2]
@@ -550,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDikhe-Ragnaros|r",
 			[51] = 1645718803,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [25]
+		}, -- [2]
 		{
 			"IL gul kaz", -- [1]
 			"Imbaganjo-Pozzodell'Eternità", -- [2]
@@ -572,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Imbaganjo-Pozzodell'Eternità|r",
 			[51] = 1645718805,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [26]
+		}, -- [3]
 		{
 			"maza kil ogg ogar GUL kil ag il", -- [1]
 			"Dikhe-Ragnaros", -- [2]
@@ -594,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDikhe-Ragnaros|r",
 			[51] = 1645718814,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [27]
+		}, -- [4]
 		{
 			"kil ko L", -- [1]
 			"Dikhe-Ragnaros", -- [2]
@@ -616,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDikhe-Ragnaros|r",
 			[51] = 1645718823,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [28]
+		}, -- [5]
 		{
 			"crazed trogg up if anyone has orang?", -- [1]
 			"Ërys-Hellscream", -- [2]
@@ -638,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Ërys-Hellscream|r",
 			[51] = 1645719019,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
+		}, -- [6]
 		{
 			"+", -- [1]
 			"Alissa-Ragnaros", -- [2]
@@ -660,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Alissa-Ragnaros|r",
 			[51] = 1645719037,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
+		}, -- [7]
 		{
 			"omw", -- [1]
 			"Alissa-Ragnaros", -- [2]
@@ -682,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Alissa-Ragnaros|r",
 			[51] = 1645719040,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
+		}, -- [8]
 		{
 			"thanks :)", -- [1]
 			"Ërys-Hellscream", -- [2]
@@ -704,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Ërys-Hellscream|r",
 			[51] = 1645719104,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
+		}, -- [9]
 		{
 			"rig up", -- [1]
 			"Alissa-Ragnaros", -- [2]
@@ -726,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Alissa-Ragnaros|r",
 			[51] = 1645719404,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
+		}, -- [10]
 		{
 			"paol pondwater is up if anyone needs", -- [1]
 			"Ërys-Hellscream", -- [2]
@@ -748,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Ërys-Hellscream|r",
 			[51] = 1645719428,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
+		}, -- [11]
 		{
 			"Jawbreaker 53.24% ~(76.28, 44.16) |cffffff00|Hworldmap:1462:7628:4416|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Alissa-Ragnaros", -- [2]
@@ -770,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Alissa-Ragnaros|r",
 			[51] = 1645719805,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
+		}, -- [12]
 		{
 			"Waited long?", -- [1]
 			"Avanor-Runetotem", -- [2]
@@ -792,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edAvanor-Runetotem|r",
 			[51] = 1645800004,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [36]
+		}, -- [13]
 		{
 			"Mecharantula (100%)|cffffff00|Hworldmap:1462:8802:2249|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Niordra-Silvermoon", -- [2]
@@ -814,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Niordra-Silvermoon|r",
 			[51] = 1645800170,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
+		}, -- [14]
 		{
 			"gul l ruk zaga ag kek ", -- [1]
 			"Metkaas-TwistingNether", -- [2]
@@ -836,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Metkaas-TwistingNether|r",
 			[51] = 1645800370,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [38]
+		}, -- [15]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15053:Player-1301-09F61344:1:3:2:22:4294967295:4294967295:4294967295:4294967295|h[Explore Korthia]|h|r!", -- [1]
 			"Illyana-Outland", -- [2]
@@ -858,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1646236312,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [39]
+		}, -- [16]
 		{
 			"Konthrogz up", -- [1]
 			"Illyana-Outland", -- [2]
@@ -880,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1646236422,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
+		}, -- [17]
 		{
 			"lol", -- [1]
 			"Atlantà-Terokkar", -- [2]
@@ -902,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Atlantà-Terokkar|r",
 			[51] = 1646236520,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [41]
+		}, -- [18]
 		{
 			"I though you where in Zereth", -- [1]
 			"Atlantà-Terokkar", -- [2]
@@ -924,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Atlantà-Terokkar|r",
 			[51] = 1646236528,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [42]
+		}, -- [19]
 		{
 			"been here long?", -- [1]
 			"Danorion-Silvermoon", -- [2]
@@ -946,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Danorion-Silvermoon|r",
 			[51] = 1646237786,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [43]
+		}, -- [20]
 		{
 			"Whats the best way to get rustbolt rep? dailys?", -- [1]
 			"Merois-Silvermoon", -- [2]
@@ -968,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Merois-Silvermoon|r",
 			[51] = 1646239386,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
+		}, -- [21]
 		{
 			"helping pvp |cffffff00|Hachievement:5337:Player-1301-0C284A4F:0:0:0:-1:0:0:0:0|h[Knight-Captain]|h|r |cffffff00|Hachievement:5340:Player-1301-0C284A4F:0:0:0:-1:0:0:0:0|h[Commander]|h|r boosting for season mount and all vendor gear update w me ", -- [1]
 			"Freedeathold-Outland", -- [2]
@@ -990,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cFreedeathold|r",
 			[51] = 1646316733,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [22]
 		{
 			"Acient teleporter is up", -- [1]
 			"Furqy-Trollbane", -- [2]
@@ -1012,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFurqy-Trollbane|r",
 			[51] = 1646318026,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
+		}, -- [23]
 		{
 			"Yarxhov the Pillager |cffffff00|Hworldmap:1961:3959:5247|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Spellsnstuff-LaughingSkull", -- [2]
@@ -1034,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Spellsnstuff-LaughingSkull|r",
 			[51] = 1646318161,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
+		}, -- [24]
 		{
 			"Maelie if anyone needs it still |cffffff00|Hworldmap:1961:6214:5059|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Spellsnstuff-LaughingSkull", -- [2]
@@ -1056,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Spellsnstuff-LaughingSkull|r",
 			[51] = 1646316032,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [25]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15348:Player-1301-0AB865F0:1:3:3:22:4294967295:4294967295:4294967295:4294967295|h[Combatant I: Shadowlands Season 3]|h|r!", -- [1]
 			"Deamonclap-Outland", -- [2]
@@ -1078,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Deamonclap|r",
 			[51] = 1646316071,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [49]
+		}, -- [26]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15380:Player-1301-0AB865F0:1:3:3:22:4294967295:4294967295:4294967295:4294967295|h[Combatant II: Shadowlands Season 3]|h|r!", -- [1]
 			"Deamonclap-Outland", -- [2]
@@ -1100,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Deamonclap|r",
 			[51] = 1646320183,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [50]
+		}, -- [27]
 		{
 			"Reliwik the Defiant |cffffff00|Hworldmap:1961:5625:6615|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Movis-Outland", -- [2]
@@ -1122,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Movis|r",
 			[51] = 1646322858,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
+		}, -- [28]
 		{
 			"Malbog is up", -- [1]
 			"Sandwoman-Outland", -- [2]
@@ -1144,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaSandwoman|r",
 			[51] = 1646327844,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [29]
 		{
 			"anyone wanna kill azurethos?", -- [1]
 			"Goeunie-Ravencrest", -- [2]
@@ -1166,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Goeunie-Ravencrest|r",
 			[51] = 1646328215,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [30]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15380:Player-1301-0B3D7D5B:1:3:4:22:4294967295:4294967295:4294967295:4294967295|h[Combatant II: Shadowlands Season 3]|h|r!", -- [1]
 			"Vstealth-Outland", -- [2]
@@ -1188,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Vstealth|r",
 			[51] = 1646396312,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [54]
+		}, -- [31]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15541:Player-1301-0AB865F0:1:3:4:22:4294967295:4294967295:4294967295:4294967295|h[Sole Survivor]|h|r!", -- [1]
 			"Deamonclap-Outland", -- [2]
@@ -1210,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Deamonclap|r",
 			[51] = 1646397565,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [55]
+		}, -- [32]
 		{
 			"|cffffff00|Hworldmap:1961:4105:3986|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r Maelie !!", -- [1]
 			"Enthusiast-Talnivarr", -- [2]
@@ -1232,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Enthusiast-Talnivarr|r",
 			[51] = 1646401475,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
+		}, -- [33]
 		{
 			"Azerite time!", -- [1]
 			"Dandionysus-Silvermoon", -- [2]
@@ -1254,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Dandionysus-Silvermoon|r",
 			[51] = 1646403127,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [57]
+		}, -- [34]
 		{
 			"Id like to know that too", -- [1]
 			"Arrøwdýnamic-Outland", -- [2]
@@ -1276,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Arrøwdýnamic|r",
 			[51] = 1646485921,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [35]
 		{
 			"how can ı chanhe my pvp trinket quest one", -- [1]
 			"Karadul-Outland", -- [2]
@@ -1298,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edKaradul|r",
 			[51] = 1646486000,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [36]
 		{
 			"ffs google it ", -- [1]
 			"Cornsnacker-Outland", -- [2]
@@ -1320,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Cornsnacker|r",
 			[51] = 1646486027,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [37]
 		{
 			"take a chill bill corny", -- [1]
 			"Boldshire-Outland", -- [2]
@@ -1342,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Boldshire|r",
 			[51] = 1646486056,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [38]
 		{
 			"lol how many times do we have to here abouts hes trinket though ", -- [1]
 			"Cornsnacker-Outland", -- [2]
@@ -1364,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Cornsnacker|r",
 			[51] = 1646486090,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [39]
 		{
 			"https://eu.battle.net/support/en/restoration/select-item", -- [1]
 			"Karadul-Outland", -- [2]
@@ -1386,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edKaradul|r",
 			[51] = 1646486170,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [40]
 		{
 			"<LEGIO MORTIS> (PvE;semi-hc) Bored of guilds full of mute zombies doing literally nothing? Looking for a strong community? We welcome all willing to play - Raiders, Mythic+, Casuals, Collectors - join us now! LF Healer for our raid group! Join us now!", -- [1]
 			"Ashrîel-Outland", -- [2]
@@ -1408,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ashrîel|r",
 			[51] = 1646486183,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [41]
 		{
 			"WTS crafted 262 boe necklace/ring (eg |cffa335ee|Hitem:173145::::::::60:66::13:3:6649:7881:7960:3:9:60:28:2142:29:32::::Player-1301-0BE8DC00:|h[Masterful Phaedrum Necklace]|h|r) with any combination of secondary stats. /w your desired stats to check prices.", -- [1]
 			"Blpxspj-Outland", -- [2]
@@ -1430,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Blpxspj|r",
 			[51] = 1646486187,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [42]
 		{
 			"<LEGIO MORTIS> (PvE;semi-hc) Bored of guilds full of mute zombies doing literally nothing? Looking for a strong community? We welcome all willing to play - Raiders, Mythic+, Casuals, Collectors - Join us now! LF Healer for our raid group!", -- [1]
 			"Ashrîel-Outland", -- [2]
@@ -1452,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ashrîel|r",
 			[51] = 1646486203,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [43]
 		{
 			"how do ı change my cosmic trinket ?", -- [1]
 			"Karadul-Outland", -- [2]
@@ -1474,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edKaradul|r",
 			[51] = 1646486340,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [44]
 		{
 			"suck my left nut", -- [1]
 			"Cornsnacker-Outland", -- [2]
@@ -1496,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Cornsnacker|r",
 			[51] = 1646486357,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [45]
 		{
 			"<LEGIO MORTIS> (PvE;semi-hc) Bored of guilds full of mute zombies doing literally nothing? Looking for a strong community? We welcome all willing to play - Raiders, Mythic+, Casuals, Collectors - Join us now! LF Healer for our raid group!", -- [1]
 			"Ashrîel-Outland", -- [2]
@@ -1518,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ashrîel|r",
 			[51] = 1646486488,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [46]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15349:Player-1301-0B3D7D5B:1:3:5:22:4294967295:4294967295:4294967295:4294967295|h[Challenger I: Shadowlands Season 3]|h|r!", -- [1]
 			"Vstealth-Outland", -- [2]
@@ -1540,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Vstealth|r",
 			[51] = 1646489343,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [70]
+		}, -- [47]
 		{
 			"GLORY TO GOD", -- [1]
 			"Levij-Outland", -- [2]
@@ -1562,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cLevij|r",
 			[51] = 1646489474,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [71]
+		}, -- [48]
 		{
 			"wts|cffffffff|Hitem:172324::::::::60:262::68:2:7451:1559:1:28:2142::::Player-1301-0B9750DC:|h[Boneshatter Gauntlets]|h|r60k", -- [1]
 			"Ghôstlol-Outland", -- [2]
@@ -1584,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGhôstlol|r",
 			[51] = 1646490524,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [49]
 		{
 			"CHICKENPOWER", -- [1]
 			"Chikinpawa-Ravencrest", -- [2]
@@ -1606,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Chikinpawa-Ravencrest|r",
 			[51] = 1646492599,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [73]
+		}, -- [50]
 		{
 			"Wow is dead", -- [1]
 			"Moontrace-Outland", -- [2]
@@ -1628,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Moontrace|r",
 			[51] = 1646571998,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [51]
 		{
 			"the new zone ", -- [1]
 			"Giftdolken-Outland", -- [2]
@@ -1650,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Giftdolken|r",
 			[51] = 1646571998,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [52]
 		{
 			"what", -- [1]
 			"Polycougar-Outland", -- [2]
@@ -1672,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaPolycougar|r",
 			[51] = 1646572007,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [53]
 		{
 			"wow isnt dead at all ", -- [1]
 			"Pitoe-Outland", -- [2]
@@ -1694,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Pitoe|r",
 			[51] = 1646572012,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [54]
 		{
 			"look at server lists ", -- [1]
 			"Pitoe-Outland", -- [2]
@@ -1716,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Pitoe|r",
 			[51] = 1646572016,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [55]
 		{
 			"Moontrace-Outland u should consider not playing it then mate", -- [1]
 			"Sïckcnt-Outland", -- [2]
@@ -1738,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaSïckcnt|r",
 			[51] = 1646572030,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [56]
 		{
 			"Invasive Mawshroom |cffffff00|Hworldmap:1961:5817:4048|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Stunremover-Stormscale", -- [2]
@@ -1760,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeStunremover-Stormscale|r",
 			[51] = 1646576784,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [57]
 		{
 			" Regas g Gul'rok ", -- [1]
 			"Cevapí-Stormscale", -- [2]
@@ -1782,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Cevapí-Stormscale|r",
 			[51] = 1646577076,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [81]
+		}, -- [58]
 		{
 			"can someone spawn Beastbot?", -- [1]
 			"Burdess-Sylvanas", -- [2]
@@ -1804,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Burdess-Sylvanas|r",
 			[51] = 1646656846,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [59]
 		{
 			"?", -- [1]
 			"Burdess-Sylvanas", -- [2]
@@ -1826,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Burdess-Sylvanas|r",
 			[51] = 1646656888,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [60]
 		{
 			"?", -- [1]
 			"Huntikal-Silvermoon", -- [2]
@@ -1848,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Huntikal-Silvermoon|r",
 			[51] = 1646656891,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [61]
 		{
 			"Malfunctioning Beastbot, are you able to activate him?", -- [1]
 			"Burdess-Sylvanas", -- [2]
@@ -1870,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Burdess-Sylvanas|r",
 			[51] = 1646656927,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [62]
 		{
 			"no", -- [1]
 			"Huntikal-Silvermoon", -- [2]
@@ -1892,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Huntikal-Silvermoon|r",
 			[51] = 1646656937,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [63]
 		{
 			"ok ", -- [1]
 			"Burdess-Sylvanas", -- [2]
@@ -1914,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Burdess-Sylvanas|r",
 			[51] = 1646656939,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [64]
 		{
 			"Kazum ogg makogg throm  uruk nogu ", -- [1]
 			"Allurian-TwistingNether", -- [2]
@@ -1936,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Allurian-TwistingNether|r",
 			[51] = 1646658176,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [88]
+		}, -- [65]
 		{
 			"[WTS] M8 -M15 {WTS}Spam mythic ArMor stack for Item lvl 255  [WTS] All Layer Torghast  / Jailer Gauntlet   /w for info cheap price (PPl Team) (Can trade gold all Realm)", -- [1]
 			"Hokm-Outland", -- [2]
@@ -1958,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcHokm|r",
 			[51] = 1646763892,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [66]
 		{
 			"Sellling 100+ various companion pets in AH 18g50 each! check your missing pets now and get them cheap!", -- [1]
 			"Cheapcompany-Outland", -- [2]
@@ -1980,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cCheapcompany|r",
 			[51] = 1646763926,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [67]
 		{
 			"gonna summon the 4 rare anomalies for blueprint, patterns,cells,parts...", -- [1]
 			"Dairi-TheMaelstrom", -- [2]
@@ -2002,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Dairi-TheMaelstrom|r",
 			[51] = 1646764108,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [68]
 		{
 			"|cffffff00|Hworldmap:1462:6319:5738|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Dairi-TheMaelstrom", -- [2]
@@ -2024,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Dairi-TheMaelstrom|r",
 			[51] = 1646764113,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [69]
 		{
 			"did you have hard times taming it?", -- [1]
 			"Dandionysus-Silvermoon", -- [2]
@@ -2046,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Dandionysus-Silvermoon|r",
 			[51] = 1646764600,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [93]
+		}, -- [70]
 		{
 			"ah now, wait.. thats the dung boss...", -- [1]
 			"Dandionysus-Silvermoon", -- [2]
@@ -2068,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Dandionysus-Silvermoon|r",
 			[51] = 1646764631,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [94]
+		}, -- [71]
 		{
 			"so np taming.. have you tamed Rei Lun?", -- [1]
 			"Dandionysus-Silvermoon", -- [2]
@@ -2090,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Dandionysus-Silvermoon|r",
 			[51] = 1646764661,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [95]
+		}, -- [72]
 		{
 			"hmm.. dwarfs.. they never speak...", -- [1]
 			"Dandionysus-Silvermoon", -- [2]
@@ -2112,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Dandionysus-Silvermoon|r",
 			[51] = 1646764696,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [96]
+		}, -- [73]
 		{
 			"oujee, more Azerite!", -- [1]
 			"Dandionysus-Silvermoon", -- [2]
@@ -2134,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Dandionysus-Silvermoon|r",
 			[51] = 1646764848,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [97]
+		}, -- [74]
 		{
 			"WTS ring, neck, leather, mail 291 ilvl legendary base items /w me", -- [1]
 			"Eastoft-Outland", -- [2]
@@ -2156,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cEastoft|r",
 			[51] = 1646820868,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [75]
 		{
 			"<RTC> Arachnoid Harvester (97%) seen at |cffffff00|Hworldmap:1462:5260:4058|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Lockscope-Silvermoon", -- [2]
@@ -2178,29 +1672,535 @@ ElvCharacterDB = {
 			[52] = "|cff8687edLockscope-Silvermoon|r",
 			[51] = 1646829888,
 			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [76]
+		{
+			"Konthrogz up!", -- [1]
+			"Illyana-Outland", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Illyana-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			226, -- [11]
+			"Player-1301-09F61344", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Illyana|r",
+			[51] = 1646898817,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [77]
+		{
+			"i'm up :)", -- [1]
+			"Bellzter-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bellzter-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			227, -- [11]
+			"Player-1301-0C269A2A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBellzter|r",
+			[51] = 1646898833,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [78]
+		{
+			"inv", -- [1]
+			"Bellzter-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bellzter-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			228, -- [11]
+			"Player-1301-0C269A2A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBellzter|r",
+			[51] = 1646898858,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [79]
+		{
+			"you are in a grp", -- [1]
+			"Bellzter-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bellzter-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			231, -- [11]
+			"Player-1301-0C269A2A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBellzter|r",
+			[51] = 1646898881,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [80]
+		{
+			"ah nvm you are here :D", -- [1]
+			"Bellzter-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bellzter-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			232, -- [11]
+			"Player-1301-0C269A2A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBellzter|r",
+			[51] = 1646898890,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [81]
+		{
+			"are you alone+", -- [1]
+			"Bellzter-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bellzter-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			235, -- [11]
+			"Player-1301-0C269A2A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBellzter|r",
+			[51] = 1646898907,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [82]
+		{
+			"there were a couple of people a sec ago", -- [1]
+			"Bellzter-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bellzter-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			236, -- [11]
+			"Player-1301-0C269A2A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBellzter|r",
+			[51] = 1646898923,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [83]
+		{
+			"all ran tho xD", -- [1]
+			"Bellzter-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bellzter-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			237, -- [11]
+			"Player-1301-0C269A2A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBellzter|r",
+			[51] = 1646898928,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [84]
+		{
+			"we can't do it alone tho", -- [1]
+			"Bellzter-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bellzter-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			238, -- [11]
+			"Player-1301-0C269A2A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBellzter|r",
+			[51] = 1646898945,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [85]
+		{
+			"mhm", -- [1]
+			"Bellzter-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bellzter-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			239, -- [11]
+			"Player-1301-0C269A2A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBellzter|r",
+			[51] = 1646898949,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [86]
+		{
+			"my gear is very shit xD", -- [1]
+			"Bellzter-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bellzter-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			240, -- [11]
+			"Player-1301-0C269A2A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBellzter|r",
+			[51] = 1646898960,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [87]
+		{
+			"hey", -- [1]
+			"Bengeezuz-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bengeezuz-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			247, -- [11]
+			"Player-3391-0C0E4B0D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaBengeezuz-Silvermoon|r",
+			[51] = 1646899400,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [88]
+		{
+			"still up?", -- [1]
+			"Bengeezuz-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bengeezuz-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			248, -- [11]
+			"Player-3391-0C0E4B0D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaBengeezuz-Silvermoon|r",
+			[51] = 1646899402,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [89]
+		{
+			"yo", -- [1]
+			"Illyana-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Illyana-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			249, -- [11]
+			"Player-1301-09F61344", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Illyana|r",
+			[51] = 1646899408,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [90]
+		{
+			"yep", -- [1]
+			"Illyana-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Illyana-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			250, -- [11]
+			"Player-1301-09F61344", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Illyana|r",
+			[51] = 1646899409,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [91]
+		{
+			"cool omw", -- [1]
+			"Bengeezuz-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bengeezuz-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			251, -- [11]
+			"Player-3391-0C0E4B0D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaBengeezuz-Silvermoon|r",
+			[51] = 1646899413,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [92]
+		{
+			"no one has started it yet, you got time :D", -- [1]
+			"Illyana-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Illyana-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			252, -- [11]
+			"Player-1301-09F61344", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Illyana|r",
+			[51] = 1646899426,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [93]
+		{
+			"anyone wanna come help with Konthrogz", -- [1]
+			"Illyana-Outland", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Illyana-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			253, -- [11]
+			"Player-1301-09F61344", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Illyana|r",
+			[51] = 1646899452,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"yo", -- [1]
+			"Illyana-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Illyana-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			258, -- [11]
+			"Player-1301-09F61344", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Illyana|r",
+			[51] = 1646899490,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [95]
+		{
+			"its on the island south", -- [1]
+			"Illyana-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Illyana-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			259, -- [11]
+			"Player-1301-09F61344", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Illyana|r",
+			[51] = 1646899499,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [96]
+		{
+			"85%", -- [1]
+			"Illyana-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Illyana-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			262, -- [11]
+			"Player-1301-09F61344", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Illyana|r",
+			[51] = 1646899511,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [97]
+		{
+			"cheers", -- [1]
+			"Bengeezuz-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bengeezuz-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			270, -- [11]
+			"Player-3391-0C0E4B0D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaBengeezuz-Silvermoon|r",
+			[51] = 1646899581,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [98]
+		{
+			"ty :D", -- [1]
+			"Illyana-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Illyana-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			271, -- [11]
+			"Player-1301-09F61344", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Illyana|r",
+			[51] = 1646899584,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/i mhm", -- [1]
-		"/i 5 secone fear", -- [2]
-		"/i thats what it looks like", -- [3]
-		"/p hi", -- [4]
-		"/p yo", -- [5]
-		"/p waiting for the rare?", -- [6]
-		"/p nice", -- [7]
-		"/att", -- [8]
-		"/p oke", -- [9]
-		"/s oke", -- [10]
-		"/s ty", -- [11]
-		"/i i have no idea where we are supposed to go xD", -- [12]
-		"/tsm bankui", -- [13]
-		"/cw Stuperbee-ArgentDawn inv plz", -- [14]
-		"/reload", -- [15]
-		"/handynotes", -- [16]
-		"/rarescanner", -- [17]
-		"/who", -- [18]
-		"/1 Konthrogz is up right now", -- [19]
-		"/1 Konthrogz up", -- [20]
+		"/reload", -- [1]
+		"/handynotes", -- [2]
+		"/rarescanner", -- [3]
+		"/1 Konthrogz is up right now", -- [4]
+		"/1 Konthrogz up", -- [5]
+		"/1 Konthrogz up!", -- [6]
+		"/cw Bellzter-Outland you are in a grp", -- [7]
+		"/cw Bellzter-Outland ah nvm you are here :D", -- [8]
+		"/cw Bellzter-Outland there were a couple of people a sec ago", -- [9]
+		"/cw Bellzter-Outland all ran tho xD", -- [10]
+		"/cw Bellzter-Outland mhm", -- [11]
+		"/cw Bellzter-Outland my gear is very shit xD", -- [12]
+		"/p yep", -- [13]
+		"/p no one has started it yet, you got time :D", -- [14]
+		"/who", -- [15]
+		"/1 anyone wanna come help with Konthrogz", -- [16]
+		"/p yo", -- [17]
+		"/p its on the island south", -- [18]
+		"/p 85%", -- [19]
+		"/p ty :D", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }

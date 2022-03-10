@@ -2,1392 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"<------PI ME ELUITH", -- [1]
-			"Rorogi-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rorogi", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2317, -- [11]
-			"Player-1301-0AAFAE15", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Rorogi|r",
-			[51] = 1646858390,
-			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [1]
-		{
-			"<------PI ME ELUITH", -- [1]
-			"Rorogi-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rorogi", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2318, -- [11]
-			"Player-1301-0AAFAE15", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Rorogi|r",
-			[51] = 1646858390,
-			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [2]
-		{
-			"<------PI ME ELUITH", -- [1]
-			"Rorogi-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rorogi", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2319, -- [11]
-			"Player-1301-0AAFAE15", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Rorogi|r",
-			[51] = 1646858390,
-			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [3]
-		{
-			"it was perfectly calculated", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2347, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1646858455,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [4]
-		{
-			"fing bag again XD", -- [1]
-			"Lossien-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Lossien-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2350, -- [11]
-			"Player-1301-0BF649CE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Lossien|r",
-			[51] = 1646858459,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [5]
-		{
-			"|cffa335ee|Hitem:189825::::::::60:66::3:7:7189:6652:7578:8133:8138:1498:6646:1:28:2165:::::|h[Veiled Auctioneer's Vambraces]|h|r", -- [1]
-			"Lizhorn-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lizhorn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2358, -- [11]
-			"Player-1301-0B9CD051", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Lizhorn|r",
-			[51] = 1646858473,
-			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [6]
-		{
-			"|cffa335ee|Hitem:189821::::::::60:66::3:7:7189:6652:7579:8133:8137:1498:6646:1:28:2165:::::|h[Illicit Artifact Holster]|h|r", -- [1]
-			"Lizhorn-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lizhorn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2362, -- [11]
-			"Player-1301-0B9CD051", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Lizhorn|r",
-			[51] = 1646858512,
-			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [7]
-		{
-			"are we just going until 11?", -- [1]
-			"Astrø-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Astrø-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2370, -- [11]
-			"Player-1301-0C0E457A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Astrø|r",
-			[51] = 1646858538,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [8]
-		{
-			"ok cool", -- [1]
-			"Astrø-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Astrø-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2371, -- [11]
-			"Player-1301-0C0E457A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Astrø|r",
-			[51] = 1646858547,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [9]
-		{
-			"i follow eluith need toiolet", -- [1]
-			"Rorogi-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rorogi-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2372, -- [11]
-			"Player-1301-0AAFAE15", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Rorogi|r",
-			[51] = 1646858567,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [10]
-		{
-			"except 5km run", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2373, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1646858582,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [11]
-		{
-			"and knockbacks into oblivion", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2374, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1646858586,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [12]
-		{
-			"olalala :_D", -- [1]
-			"Eluitha-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eluitha-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2375, -- [11]
-			"Player-1301-0B8AF965", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeEluitha|r",
-			[51] = 1646858592,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [13]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:15492:Player-1301-0BD15041:1:3:9:22:4294967295:4294967295:4294967295:4294967295|h[Cornerstone of Creation]|h|r!", -- [1]
-			"Mercuil-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mercuil-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2385, -- [11]
-			"Player-1301-0BD15041", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Mercuil|r",
-			[51] = 1646858625,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [14]
-		{
-			"|cff9d9d9d|Hitem:190382::::::::60:254::3::1:28:2165:::::|h[Warped Pocket Dimension]|h|r i got this thing", -- [1]
-			"Astrø-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Astrø-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2389, -- [11]
-			"Player-1301-0C0E457A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Astrø|r",
-			[51] = 1646858638,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [15]
-		{
-			"SS on Eluith up!", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2390, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1646858638,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [16]
-		{
-			"thought it was the bag lol", -- [1]
-			"Astrø-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Astrø-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2391, -- [11]
-			"Player-1301-0C0E457A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Astrø|r",
-			[51] = 1646858645,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [17]
-		{
-			"its so anoying XD", -- [1]
-			"Lossien-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lossien-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2392, -- [11]
-			"Player-1301-0BF649CE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Lossien|r",
-			[51] = 1646858663,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [18]
-		{
-			"the orbs move straight towards the boss", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2395, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1646858691,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [19]
-		{
-			"so ranged can just stand stationary", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2396, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1646858697,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [20]
-		{
-			"just stand in their way", -- [1]
-			"Eluitha-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eluitha-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2397, -- [11]
-			"Player-1301-0B8AF965", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeEluitha|r",
-			[51] = 1646858699,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [21]
-		{
-			"between orb and boss", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2398, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1646858700,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [22]
-		{
-			"and dont worry about them :D", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2400, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1646858708,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [23]
-		{
-			"dont let the orb touch the boss", -- [1]
-			"Eluitha-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eluitha-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2401, -- [11]
-			"Player-1301-0B8AF965", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeEluitha|r",
-			[51] = 1646858710,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [24]
-		{
-			"so hug boss coz if you will be spread too far away from boss we will not reach with heals ", -- [1]
-			"Eluitha-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eluitha-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2402, -- [11]
-			"Player-1301-0B8AF965", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeEluitha|r",
-			[51] = 1646858730,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [25]
-		{
-			"the walls come back up so you can get instakilled/abandoned if you are too slow too", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2406, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1646858772,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [26]
-		{
-			"lets fuck this guy up", -- [1]
-			"Astrø-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Astrø-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2407, -- [11]
-			"Player-1301-0C0E457A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Astrø|r",
-			[51] = 1646858776,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [27]
-		{
-			"yea lets pull so that ppl see what is going to happen", -- [1]
-			"Eluitha-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eluitha-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2408, -- [11]
-			"Player-1301-0B8AF965", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeEluitha|r",
-			[51] = 1646858788,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [28]
-		{
-			"|cffa335ee|Hitem:189827::::::::60:66::3:5:7189:6652:7578:1498:6646:1:28:2165:::::|h[Cartel Xy's Proof of Initiation]|h|r", -- [1]
-			"Lizhorn-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lizhorn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2410, -- [11]
-			"Player-1301-0B9CD051", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Lizhorn|r",
-			[51] = 1646858810,
-			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [29]
-		{
-			"fuk", -- [1]
-			"Astrø-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Astrø-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2414, -- [11]
-			"Player-1301-0C0E457A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Astrø|r",
-			[51] = 1646858824,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [30]
-		{
-			"fuk", -- [1]
-			"Morbidmind-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Morbidmind-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2419, -- [11]
-			"Player-1301-085795E3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cMorbidmind|r",
-			[51] = 1646858829,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [31]
-		{
-			"imma go buy a lottery ticket i guess", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2421, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1646858844,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [32]
-		{
-			"[IAT] Tracking: |cffffff00|Hachievement:15386:Player-1301-040A63C7:0:0:0:-1:0:0:0:0|h[Shimmering Secrets]|h|r", -- [1]
-			"Itsfrost-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Itsfrost-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2424, -- [11]
-			"Player-1301-040A63C7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaItsfrost|r",
-			[51] = 1646858859,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [33]
-		{
-			"|cff71d5ff|Hspell:109304:0|h[Exhilaration]|h|r used on Rorogi!", -- [1]
-			"Rorogi-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rorogi-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2433, -- [11]
-			"Player-1301-0AAFAE15", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Rorogi|r",
-			[51] = 1646858909,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [34]
-		{
-			"|cff71d5ff|Hspell:186265:0|h[Aspect of the Turtle]|h|r used on Rorogi!", -- [1]
-			"Rorogi-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rorogi-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2440, -- [11]
-			"Player-1301-0AAFAE15", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Rorogi|r",
-			[51] = 1646858940,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [35]
-		{
-			"ah", -- [1]
-			"Astrø-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Astrø-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2446, -- [11]
-			"Player-1301-0C0E457A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Astrø|r",
-			[51] = 1646858959,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [36]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:869:Player-1301-09ECE890:1:3:9:22:4294967295:4294967295:4294967295:4294967295|h[50000 Honorable Kills]|h|r!", -- [1]
-			"Jasto-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Jasto-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2447, -- [11]
-			"Player-1301-09ECE890", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Jasto|r",
-			[51] = 1646858970,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [37]
-		{
-			"fuk bro", -- [1]
-			"Astrø-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Astrø-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2449, -- [11]
-			"Player-1301-0C0E457A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Astrø|r",
-			[51] = 1646859023,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [38]
-		{
-			"delete all your addons XD", -- [1]
-			"Astrø-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Astrø-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2451, -- [11]
-			"Player-1301-0C0E457A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Astrø|r",
-			[51] = 1646859028,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [39]
-		{
-			"i think we need to space the healers out i had range issues", -- [1]
-			"Totemgirl-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Totemgirl-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2452, -- [11]
-			"Player-1301-0C0BB275", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcTotemgirl|r",
-			[51] = 1646859035,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [40]
-		{
-			"i was behind the boss", -- [1]
-			"Jashinsama-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Jashinsama-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2454, -- [11]
-			"Player-1301-0BD39C09", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Jashinsama|r",
-			[51] = 1646859065,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [41]
-		{
-			"okay", -- [1]
-			"Totemgirl-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Totemgirl-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2455, -- [11]
-			"Player-1301-0C0BB275", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcTotemgirl|r",
-			[51] = 1646859067,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [42]
-		{
-			"SS on Eluith up!", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2457, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1646859071,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [43]
-		{
-			"[IAT] Tracking: |cffffff00|Hachievement:15386:Player-1301-040A63C7:0:0:0:-1:0:0:0:0|h[Shimmering Secrets]|h|r", -- [1]
-			"Itsfrost-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Itsfrost-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2461, -- [11]
-			"Player-1301-040A63C7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaItsfrost|r",
-			[51] = 1646859115,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [44]
-		{
-			"yey |cffff8000|Hitem:178926::173130::::::60:66::69:7:7062:7882:8156:6648:6647:1588:6935:1:28:2142::::Player-1301-0ADD993C:|h[Seal of Righteous Fury]|h|r", -- [1]
-			"Veltt-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2464, -- [11]
-			"Player-1301-08E9789E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Veltt|r",
-			[51] = 1646859125,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [45]
-		{
-			"gz", -- [1]
-			"Sro-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2467, -- [11]
-			"Player-1301-084E8F36", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cSro|r",
-			[51] = 1646859145,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [46]
-		{
-			"ty", -- [1]
-			"Veltt-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2471, -- [11]
-			"Player-1301-08E9789E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Veltt|r",
-			[51] = 1646859156,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [47]
-		{
-			"|cff71d5ff|Hspell:109304:0|h[Exhilaration]|h|r used on Rorogi!", -- [1]
-			"Rorogi-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rorogi-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2480, -- [11]
-			"Player-1301-0AAFAE15", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Rorogi|r",
-			[51] = 1646859207,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [48]
-		{
-			"<------PI ME ELUITH", -- [1]
-			"Rorogi-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rorogi", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2487, -- [11]
-			"Player-1301-0AAFAE15", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Rorogi|r",
-			[51] = 1646859271,
-			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [49]
-		{
-			"|cff71d5ff|Hspell:109304:0|h[Exhilaration]|h|r used on Rorogi!", -- [1]
-			"Rorogi-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rorogi-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2496, -- [11]
-			"Player-1301-0AAFAE15", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Rorogi|r",
-			[51] = 1646859346,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [50]
-		{
-			"|cff71d5ff|Hspell:109304:0|h[Exhilaration]|h|r used on Rorogi!", -- [1]
-			"Rorogi-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rorogi-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2507, -- [11]
-			"Player-1301-0AAFAE15", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Rorogi|r",
-			[51] = 1646859430,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [51]
-		{
-			"no", -- [1]
-			"Totemgirl-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Totemgirl-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2517, -- [11]
-			"Player-1301-0C0BB275", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcTotemgirl|r",
-			[51] = 1646859506,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [52]
-		{
-			"balls balls", -- [1]
-			"Lossien-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lossien-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2526, -- [11]
-			"Player-1301-0BF649CE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Lossien|r",
-			[51] = 1646859553,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [53]
-		{
-			"SS on Eluith up!", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2532, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1646859606,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [54]
-		{
-			"position yourself relative to the big spheres", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2536, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1646859629,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [55]
-		{
-			"they knockback", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2537, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1646859632,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [56]
-		{
-			"not the boss", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2539, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1646859637,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [57]
-		{
-			"yea", -- [1]
-			"Jashinsama-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Jashinsama-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2540, -- [11]
-			"Player-1301-0BD39C09", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Jashinsama|r",
-			[51] = 1646859642,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [58]
-		{
-			"in case someone was confused about this", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2541, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1646859644,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [59]
-		{
-			"running", -- [1]
-			"Aberlour-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Aberlour-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2542, -- [11]
-			"Player-1301-0C27A558", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Aberlour|r",
-			[51] = 1646859645,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [60]
-		{
-			"thats what i mean", -- [1]
-			"Jashinsama-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Jashinsama-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2543, -- [11]
-			"Player-1301-0BD39C09", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Jashinsama|r",
-			[51] = 1646859646,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [61]
-		{
-			"i managed to go to the room pretty early cause of fae dash", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2544, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1646859663,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [62]
-		{
-			"i will try to put a gate", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2545, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1646859668,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [63]
-		{
 			"ready", -- [1]
 			"Astrø-Outland", -- [2]
 			"", -- [3]
@@ -1408,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Astrø|r",
 			[51] = 1646859671,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [64]
+		}, -- [1]
 		{
 			"Anyons have phantomfire pot? ;) ", -- [1]
 			"Darkosis-Outland", -- [2]
@@ -1430,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Darkosis|r",
 			[51] = 1646859671,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [65]
+		}, -- [2]
 		{
 			"Any1 with phontomfire pot, pls? :)", -- [1]
 			"Lizhorn-Outland", -- [2]
@@ -1452,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Lizhorn|r",
 			[51] = 1646859699,
 			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [66]
+		}, -- [3]
 		{
 			"yeah", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1474,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1646859702,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [67]
+		}, -- [4]
 		{
 			"if they push you back chances are you wont make the run", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1496,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1646859710,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [68]
+		}, -- [5]
 		{
 			"go go go", -- [1]
 			"Astrø-Outland", -- [2]
@@ -1518,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Astrø|r",
 			[51] = 1646859743,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [69]
+		}, -- [6]
 		{
 			"[IAT] Tracking: |cffffff00|Hachievement:15386:Player-1301-040A63C7:0:0:0:-1:0:0:0:0|h[Shimmering Secrets]|h|r", -- [1]
 			"Itsfrost-Outland", -- [2]
@@ -1540,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaItsfrost|r",
 			[51] = 1646859792,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [70]
+		}, -- [7]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14629:Player-1301-0C28154E:1:3:9:22:4294967295:4294967295:4294967295:4294967295|h[Gaining Respect]|h|r!", -- [1]
 			"Piqn-Outland", -- [2]
@@ -1562,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Piqn|r",
 			[51] = 1646859970,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [71]
+		}, -- [8]
 		{
 			"|cff71d5ff|Hspell:109304:0|h[Exhilaration]|h|r used on Rorogi!", -- [1]
 			"Rorogi-Outland", -- [2]
@@ -1584,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rorogi|r",
 			[51] = 1646860026,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [72]
+		}, -- [9]
 		{
 			"<------PI ME ELUITH", -- [1]
 			"Rorogi-Outland", -- [2]
@@ -1606,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rorogi|r",
 			[51] = 1646860058,
 			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [73]
+		}, -- [10]
 		{
 			"anyone who can craft me |cffffffff|Hitem:172315::::::::60:105:::::::::|h[Umbrahide Treads]|h|r", -- [1]
 			"Darkxrey-Outland", -- [2]
@@ -1628,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Darkxrey|r",
 			[51] = 1646860134,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [74]
+		}, -- [11]
 		{
 			"262", -- [1]
 			"Darkxrey-Outland", -- [2]
@@ -1650,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Darkxrey|r",
 			[51] = 1646860137,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [75]
+		}, -- [12]
 		{
 			"|cff71d5ff|Hspell:109304:0|h[Exhilaration]|h|r used on Rorogi!", -- [1]
 			"Rorogi-Outland", -- [2]
@@ -1672,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rorogi|r",
 			[51] = 1646860150,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [76]
+		}, -- [13]
 		{
 			"great run orange monday he goes ", -- [1]
 			"Tuàh-Outland", -- [2]
@@ -1694,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Tuàh|r",
 			[51] = 1646860201,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [77]
+		}, -- [14]
 		{
 			"btw liquid might be starting mythic in 1 hour if someone wanan watch", -- [1]
 			"Cbboi-Outland", -- [2]
@@ -1716,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Cbboi|r",
 			[51] = 1646860218,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [78]
+		}, -- [15]
 		{
 			"<3", -- [1]
 			"Prikx-Outland", -- [2]
@@ -1738,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefePrikx|r",
 			[51] = 1646860233,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [79]
+		}, -- [16]
 		{
 			"|cff71d5ff|Hspell:109304:0|h[Exhilaration]|h|r used on Rorogi!", -- [1]
 			"Rorogi-Outland", -- [2]
@@ -1760,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rorogi|r",
 			[51] = 1646860244,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [80]
+		}, -- [17]
 		{
 			"They're only just starting now? scrubs", -- [1]
 			"Teldrae-Outland", -- [2]
@@ -1782,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Teldrae|r",
 			[51] = 1646860246,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [81]
+		}, -- [18]
 		{
 			"scrubs ?!?", -- [1]
 			"Dragonpl-Outland", -- [2]
@@ -1804,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Dragonpl|r",
 			[51] = 1646860256,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [82]
+		}, -- [19]
 		{
 			":D", -- [1]
 			"Darknightz-Outland", -- [2]
@@ -1826,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDarknightz|r",
 			[51] = 1646860261,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [83]
+		}, -- [20]
 		{
 			"next time it dies", -- [1]
 			"Astrø-Outland", -- [2]
@@ -1848,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Astrø|r",
 			[51] = 1646860264,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [84]
+		}, -- [21]
 		{
 			"D:", -- [1]
 			"Misspicklés-Outland", -- [2]
@@ -1870,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Misspicklés|r",
 			[51] = 1646860267,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [85]
+		}, -- [22]
 		{
 			"Yeah, slow prog", -- [1]
 			"Teldrae-Outland", -- [2]
@@ -1892,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Teldrae|r",
 			[51] = 1646860268,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [86]
+		}, -- [23]
 		{
 			"ty for raid everyone", -- [1]
 			"Astrø-Outland", -- [2]
@@ -1914,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Astrø|r",
 			[51] = 1646860268,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [87]
+		}, -- [24]
 		{
 			"tuah, you still need any M0?", -- [1]
 			"Notoplax-Outland", -- [2]
@@ -1936,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaNotoplax|r",
 			[51] = 1646860270,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [88]
+		}, -- [25]
 		{
 			"they been split farming like mad", -- [1]
 			"Dragonpl-Outland", -- [2]
@@ -1958,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Dragonpl|r",
 			[51] = 1646860274,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [89]
+		}, -- [26]
 		{
 			"great job@", -- [1]
 			"Eluitha-Outland", -- [2]
@@ -1980,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeEluitha|r",
 			[51] = 1646860283,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [90]
+		}, -- [27]
 		{
 			"Chhers", -- [1]
 			"Morbidmind-Outland", -- [2]
@@ -2002,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMorbidmind|r",
 			[51] = 1646860288,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [91]
+		}, -- [28]
 		{
 			"thanks all", -- [1]
 			"Totemgirl-Outland", -- [2]
@@ -2024,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcTotemgirl|r",
 			[51] = 1646860289,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [92]
+		}, -- [29]
 		{
 			"ye their monk got  4 piece yesterday ", -- [1]
 			"Cbboi-Outland", -- [2]
@@ -2046,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Cbboi|r",
 			[51] = 1646860290,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [93]
+		}, -- [30]
 		{
 			"the tank", -- [1]
 			"Cbboi-Outland", -- [2]
@@ -2068,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Cbboi|r",
 			[51] = 1646860299,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [94]
+		}, -- [31]
 		{
 			"anyone who can craft me |cffffffff|Hitem:172315::::::::60:105:::::::::|h[Umbrahide Treads]|h|r 262ilvl?", -- [1]
 			"Darkxrey-Outland", -- [2]
@@ -2090,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Darkxrey|r",
 			[51] = 1646860302,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [95]
+		}, -- [32]
 		{
 			"i can make 262 leather legs boots and waist", -- [1]
 			"Mercuil-Outland", -- [2]
@@ -2112,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Mercuil|r",
 			[51] = 1646860334,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [96]
+		}, -- [33]
 		{
 			"Anyone doing mytic for weekly?", -- [1]
 			"Maximalka-Outland", -- [2]
@@ -2134,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edMaximalka|r",
 			[51] = 1646860334,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [97]
+		}, -- [34]
 		{
 			"i can learn 1/2 more patterns", -- [1]
 			"Mercuil-Outland", -- [2]
@@ -2156,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Mercuil|r",
 			[51] = 1646860340,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [98]
+		}, -- [35]
 		{
 			"price for boots?", -- [1]
 			"Darkxrey-Outland", -- [2]
@@ -2178,29 +792,1415 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Darkxrey|r",
 			[51] = 1646860352,
 			[50] = "CHAT_MSG_GUILD",
+		}, -- [36]
+		{
+			"Konthrogz up |cffffff00|Hworldmap:1961:5631:6908|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			14, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1646893499,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [37]
+		{
+			"Konthrogz up |cffffff00|Hworldmap:1961:5631:6908|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			17, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1646893779,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [38]
+		{
+			"where u at?", -- [1]
+			"Allaboutskys-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Allaboutskys-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			22, -- [11]
+			"Player-3391-0BF7D8F7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaAllaboutskys-Silvermoon|r",
+			[51] = 1646893905,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [39]
+		{
+			"yo", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			23, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1646893920,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [40]
+		{
+			"|cffffff00|Hworldmap:1961:5631:6908|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			24, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1646893923,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [41]
+		{
+			"wm off", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			25, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1646893935,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [42]
+		{
+			"omw", -- [1]
+			"Allaboutskys-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Allaboutskys-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			26, -- [11]
+			"Player-3391-0BF7D8F7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaAllaboutskys-Silvermoon|r",
+			[51] = 1646893954,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [43]
+		{
+			"no one is fighting him so you got time :D", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			27, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1646893975,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [44]
+		{
+			"great", -- [1]
+			"Allaboutskys-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Allaboutskys-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			29, -- [11]
+			"Player-3391-0BF7D8F7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaAllaboutskys-Silvermoon|r",
+			[51] = 1646894019,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [45]
+		{
+			"can we even 2 man him? xD im not very geared", -- [1]
+			"Allaboutskys-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Allaboutskys-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			30, -- [11]
+			"Player-3391-0BF7D8F7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaAllaboutskys-Silvermoon|r",
+			[51] = 1646894082,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [46]
+		{
+			"Konthrogz up |cffffff00|Hworldmap:1961:5631:6908|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			32, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1646894123,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [47]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14328:Player-1301-0C0BB275:1:3:10:22:4294967295:4294967295:4294967295:4294967295|h[Professional Shadowlands Master]|h|r!", -- [1]
+			"Totemgirl-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Totemgirl-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			33, -- [11]
+			"Player-1301-0C0BB275", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcTotemgirl|r",
+			[51] = 1646894129,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [48]
+		{
+			"ohh im supposed to fly there lul", -- [1]
+			"Allaboutskys-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Allaboutskys-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			44, -- [11]
+			"Player-3391-0BF7D8F7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaAllaboutskys-Silvermoon|r",
+			[51] = 1646894237,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [49]
+		{
+			"there is a hook", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			46, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1646894248,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [50]
+		{
+			"if you have grapple", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			47, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1646894252,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [51]
+		{
+			"dont have anything on this char", -- [1]
+			"Allaboutskys-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Allaboutskys-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			49, -- [11]
+			"Player-3391-0BF7D8F7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaAllaboutskys-Silvermoon|r",
+			[51] = 1646894288,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [52]
+		{
+			"is it only up during special dailies or what? never noticed you could fly with this thing lol", -- [1]
+			"Allaboutskys-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Allaboutskys-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			52, -- [11]
+			"Player-3391-0BF7D8F7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaAllaboutskys-Silvermoon|r",
+			[51] = 1646894347,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [53]
+		{
+			"the rare?", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			53, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1646894360,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [54]
+		{
+			"or the flight?", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			55, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1646894374,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [55]
+		{
+			"the flight", -- [1]
+			"Allaboutskys-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Allaboutskys-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			56, -- [11]
+			"Player-3391-0BF7D8F7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaAllaboutskys-Silvermoon|r",
+			[51] = 1646894389,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [56]
+		{
+			"its always there", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			57, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1646894394,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [57]
+		{
+			"think we can 2 man it?", -- [1]
+			"Allaboutskys-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Allaboutskys-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			61, -- [11]
+			"Player-3391-0BF7D8F7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaAllaboutskys-Silvermoon|r",
+			[51] = 1646894440,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [58]
+		{
+			"this zone really is dead huh", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			62, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1646894443,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [59]
+		{
+			"im not sure we can tbh", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			63, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1646894446,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [60]
+		{
+			"yep", -- [1]
+			"Allaboutskys-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Allaboutskys-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			64, -- [11]
+			"Player-3391-0BF7D8F7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaAllaboutskys-Silvermoon|r",
+			[51] = 1646894448,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [61]
+		{
+			"saw like 10 rares on the way here", -- [1]
+			"Allaboutskys-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Allaboutskys-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			65, -- [11]
+			"Player-3391-0BF7D8F7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaAllaboutskys-Silvermoon|r",
+			[51] = 1646894463,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [62]
+		{
+			"well i have shit hear", -- [1]
+			"Allaboutskys-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Allaboutskys-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			67, -- [11]
+			"Player-3391-0BF7D8F7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaAllaboutskys-Silvermoon|r",
+			[51] = 1646894496,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [63]
+		{
+			"gear", -- [1]
+			"Allaboutskys-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Allaboutskys-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			68, -- [11]
+			"Player-3391-0BF7D8F7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaAllaboutskys-Silvermoon|r",
+			[51] = 1646894497,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [64]
+		{
+			"Konthrogz up", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			69, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1646894502,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [65]
+		{
+			"mine is ok but he 3-shotsmy pet", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			71, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1646894510,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [66]
+		{
+			"thats my concern xD", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			72, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1646894514,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [67]
+		{
+			"i just use this alt to farm old raids and stuff like that", -- [1]
+			"Allaboutskys-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Allaboutskys-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			73, -- [11]
+			"Player-3391-0BF7D8F7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaAllaboutskys-Silvermoon|r",
+			[51] = 1646894518,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [68]
+		{
+			"lol then we cant 2 man him for sure", -- [1]
+			"Allaboutskys-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Allaboutskys-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			74, -- [11]
+			"Player-3391-0BF7D8F7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaAllaboutskys-Silvermoon|r",
+			[51] = 1646894527,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [69]
+		{
+			"xD", -- [1]
+			"Allaboutskys-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Allaboutskys-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			75, -- [11]
+			"Player-3391-0BF7D8F7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaAllaboutskys-Silvermoon|r",
+			[51] = 1646894528,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [70]
+		{
+			"just asked in my guild but seems like its dead aswell", -- [1]
+			"Allaboutskys-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Allaboutskys-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			78, -- [11]
+			"Player-3391-0BF7D8F7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaAllaboutskys-Silvermoon|r",
+			[51] = 1646894631,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [71]
+		{
+			"xD", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			79, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1646894641,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [72]
+		{
+			"maybe i should come on my warr", -- [1]
+			"Allaboutskys-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Allaboutskys-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			80, -- [11]
+			"Player-3391-0BF7D8F7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaAllaboutskys-Silvermoon|r",
+			[51] = 1646894642,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [73]
+		{
+			"i still doubt we will kill it tbh", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			82, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1646894653,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [74]
+		{
+			"we wont", -- [1]
+			"Allaboutskys-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Allaboutskys-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			83, -- [11]
+			"Player-3391-0BF7D8F7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaAllaboutskys-Silvermoon|r",
+			[51] = 1646894664,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [75]
+		{
+			"anyone wanna come to korthia to kill Konthrogz real quiick (for the mount)", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			84, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1646894669,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [76]
+		{
+			"this zone is legit dead xD", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			85, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1646894678,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [77]
+		{
+			"but he's geared so we should be able to 3 man it", -- [1]
+			"Allaboutskys-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Allaboutskys-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			86, -- [11]
+			"Player-3391-0BF7D8F7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaAllaboutskys-Silvermoon|r",
+			[51] = 1646894679,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [78]
+		{
+			"hopefully", -- [1]
+			"Allaboutskys-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Allaboutskys-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			87, -- [11]
+			"Player-3391-0BF7D8F7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaAllaboutskys-Silvermoon|r",
+			[51] = 1646894682,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [79]
+		{
+			"what mount is it?", -- [1]
+			"Bellzter-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bellzter-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			88, -- [11]
+			"Player-1301-0C269A2A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBellzter|r",
+			[51] = 1646894684,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [80]
+		{
+			"|cff71d5ff|Hspell:347536:0|h[Tamed Mauler]|h|r", -- [1]
+			"Bellzter-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bellzter-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			92, -- [11]
+			"Player-1301-0C269A2A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBellzter|r",
+			[51] = 1646894706,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [81]
+		{
+			"a recolor of this", -- [1]
+			"Bellzter-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bellzter-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			94, -- [11]
+			"Player-1301-0C269A2A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBellzter|r",
+			[51] = 1646894717,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [82]
+		{
+			"and maybe the guild he is in isnt dead xD", -- [1]
+			"Allaboutskys-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Allaboutskys-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			95, -- [11]
+			"Player-3391-0BF7D8F7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaAllaboutskys-Silvermoon|r",
+			[51] = 1646894723,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [83]
+		{
+			"lets see", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			98, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1646894734,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [84]
+		{
+			"ye but its really low dropchance right?", -- [1]
+			"Bellzter-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bellzter-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			100, -- [11]
+			"Player-1301-0C269A2A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBellzter|r",
+			[51] = 1646894754,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [85]
+		{
+			"ye and rare almost dead anyways sry", -- [1]
+			"Bellzter-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bellzter-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			101, -- [11]
+			"Player-1301-0C269A2A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBellzter|r",
+			[51] = 1646894769,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [86]
+		{
+			"ah okey", -- [1]
+			"Bellzter-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bellzter-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			102, -- [11]
+			"Player-1301-0C269A2A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBellzter|r",
+			[51] = 1646894774,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [87]
+		{
+			"nice", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			105, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1646894818,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [88]
+		{
+			"ty for help :D", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			110, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1646894836,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [89]
+		{
+			"lol got the mount", -- [1]
+			"Allaboutskys-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Allaboutskys-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			116, -- [11]
+			"Player-3391-0BF7D8F7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaAllaboutskys-Silvermoon|r",
+			[51] = 1646894844,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [90]
+		{
+			"oooh gz", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			117, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1646894846,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [91]
+		{
+			"ty :)", -- [1]
+			"Allaboutskys-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Allaboutskys-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			122, -- [11]
+			"Player-3391-0BF7D8F7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaAllaboutskys-Silvermoon|r",
+			[51] = 1646894862,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [92]
+		{
+			"cya :D", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			123, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1646894866,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [93]
+		{
+			"Morning LD", -- [1]
+			"Bommel-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			142, -- [11]
+			"Player-1301-0C049FB7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1646895094,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [94]
+		{
+			":D", -- [1]
+			"Bommel-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			143, -- [11]
+			"Player-1301-0C049FB7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1646895095,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [95]
+		{
+			"/reload", -- [1]
+			"Bommel-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			146, -- [11]
+			"Player-1301-0C049FB7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1646895136,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [96]
+		{
+			"|cffa335ee|Hitem:188270::::::::60:104::5:4:7188:40:1511:6646:1:28:2060:::::|h[Elegy of the Eternals]|h|r from the weekly :o", -- [1]
+			"Teldrae-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			162, -- [11]
+			"Player-1301-0742687A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Teldrae|r",
+			[51] = 1646896601,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [97]
+		{
+			"noice!", -- [1]
+			"Bommel-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			167, -- [11]
+			"Player-1301-0C049FB7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1646897023,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [98]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:15493:Player-1301-085795E3:1:3:10:22:4294967295:4294967295:4294967295:4294967295|h[Ephemeral Plains]|h|r!", -- [1]
+			"Morbidmind-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Morbidmind-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			175, -- [11]
+			"Player-1301-085795E3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cMorbidmind|r",
+			[51] = 1646897244,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/raid people greeding for that juicy 10 extra dps before running for portal xD", -- [1]
-		"/raid i can sum", -- [2]
-		"/raid it was perfectly calculated", -- [3]
-		"/raid except 5km run", -- [4]
-		"/raid and knockbacks into oblivion", -- [5]
-		"/raid the orbs move straight towards the boss", -- [6]
-		"/raid so ranged can just stand stationary", -- [7]
-		"/raid between orb and boss", -- [8]
-		"/raid and dont worry about them :D", -- [9]
-		"/raid the walls come back up so you can get instakilled/abandoned if you are too slow too", -- [10]
-		"/roll", -- [11]
-		"/s imma go buy a lottery ticket i guess", -- [12]
-		"/raid position yourself relative to the big spheres", -- [13]
-		"/raid they knockback", -- [14]
-		"/raid not the boss", -- [15]
-		"/raid in case someone was confused about this", -- [16]
-		"/raid i managed to go to the room pretty early cause of fae dash", -- [17]
-		"/raid i will try to put a gate", -- [18]
-		"/raid yeah", -- [19]
-		"/raid if they push you back chances are you wont make the run", -- [20]
+		"/p or the flight?", -- [1]
+		"/p its always there", -- [2]
+		"/p this zone really is dead huh", -- [3]
+		"/p im not sure we can tbh", -- [4]
+		"/who", -- [5]
+		"/1 Konthrogz up", -- [6]
+		"/p mine is ok but he 3-shotsmy pet", -- [7]
+		"/p thats my concern xD", -- [8]
+		"/p xD", -- [9]
+		"/p i still doubt we will kill it tbh", -- [10]
+		"/g anyone wanna come to korthia to kill Konthrogz real quiick (for the mount)", -- [11]
+		"/g this zone is legit dead xD", -- [12]
+		"/cw Bellzter-Outland |cff71d5ff|Hspell:347536:0|h[Tamed Mauler]|h|r", -- [13]
+		"/cw Bellzter-Outland a recolor of this", -- [14]
+		"/p lets see", -- [15]
+		"/cw Bellzter-Outland ye and rare almost dead anyways sry", -- [16]
+		"/p nice", -- [17]
+		"/p ty for help :D", -- [18]
+		"/p oooh gz", -- [19]
+		"/p cya :D", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }
