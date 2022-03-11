@@ -1291,9 +1291,9 @@ BetterWardrobe_ListData = {
 		["char"] = {
 			["Necrophagus - Outland"] = {
 				["lastTransmogOutfitIDSpec"] = {
-					2304, -- [1]
-					2304, -- [2]
-					2304, -- [3]
+					5011, -- [1]
+					5011, -- [2]
+					5011, -- [3]
 				},
 			},
 			["Serthaxion - Outland"] = {

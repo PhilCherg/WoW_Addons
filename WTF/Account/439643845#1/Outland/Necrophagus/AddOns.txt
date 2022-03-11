@@ -254,7 +254,7 @@ Grail-When: enabled
 AAP-Mekkatorque: disabled
 DoYouNeedThat: disabled
 DBM-EternalPalace: enabled
-AngryKeystones: disabled
+AngryKeystones: enabled
 WeakAurasCompanion: enabled
 ElvUI_VisualAuraTimers: disabled
 ElvUI_ExtraActionBars: disabled
@@ -389,14 +389,14 @@ HandyNotes_Shadowlands: enabled
 Mists_of_Tirna_Solved: enabled
 OmniBar: disabled
 SimpleArmory: enabled
-MazeHelper: disabled
+MazeHelper: enabled
 BtWQuestsBattleForAzeroth: disabled
 Dejunk: enabled
 HandyNotes_Stygia: disabled
 PremadeAutoAccept: disabled
 CamelSpotter: disabled
 AstralKeys: disabled
-PremadeGroupsFilter: disabled
+PremadeGroupsFilter: enabled
 VenturePlan: enabled
 +Wowhead_Looter: enabled
 DBM-SanctumOfDomination: enabled

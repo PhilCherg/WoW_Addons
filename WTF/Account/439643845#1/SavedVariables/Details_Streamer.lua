@@ -25,7 +25,7 @@ Details_StreamerDB = {
 		["Luminaxia - Outland"] = "Necrophagus - Outland",
 		["Testfirst - Outland"] = "Necrophagus - Outland",
 		["Phalonius - Azjol-Nerub"] = "Necrophagus - Outland",
-		["Bullenic - Silvermoon"] = "Necrophagus - Outland",
+		["Mallazin - Azjol-Nerub"] = "Necrophagus - Outland",
 		["Barbaxius - Outland"] = "Necrophagus - Outland",
 		["Wolfados - Azjol-Nerub"] = "Necrophagus - Outland",
 		["Moneyfour - Outland"] = "Necrophagus - Outland",
@@ -54,7 +54,7 @@ Details_StreamerDB = {
 		["Chernakotka - Die Aldor"] = "Necrophagus - Outland",
 		["Moneythree - Outland"] = "Necrophagus - Outland",
 		["Serthaxion - Outland"] = "Necrophagus - Outland",
-		["Mallazin - Azjol-Nerub"] = "Necrophagus - Outland",
+		["Bullenic - Silvermoon"] = "Necrophagus - Outland",
 		["Illydaria - Draenor"] = "Necrophagus - Outland",
 		["Elementior - Outland"] = "Necrophagus - Outland",
 	},
@@ -94,7 +94,7 @@ Details_StreamerDB = {
 				0.1, -- [3]
 				0.4, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
@@ -106,8 +106,9 @@ Details_StreamerDB = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["author"] = "Details! Team",
+			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["font_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -119,11 +120,10 @@ Details_StreamerDB = {
 				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
 			},
-			["y"] = 4.57763671875e-05,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
-			["font_size"] = 10,
+			["y"] = 4.57763671875e-05,
 			["arrow_anchor_y"] = 0,
 			["main_frame_locked"] = false,
 			["use_square_mode"] = false,
