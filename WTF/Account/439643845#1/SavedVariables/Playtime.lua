@@ -11,7 +11,7 @@ PlaytimeDB = {
 	["Elementior (Outland)"] = 44494,
 	["Destruxia (Outland)"] = 86451,
 	["Lianxia (Draenor)"] = 180597,
-	["Illyana (Outland)"] = 1522240,
+	["Illyana (Outland)"] = 1524617,
 	["Phalonius (Azjol-Nerub)"] = 21647,
 	["Bullenic (Silvermoon)"] = 8180,
 	["Käguya (Turalyon)"] = 12101,
@@ -19,6 +19,6 @@ PlaytimeDB = {
 	["Xanthoros (Outland)"] = 287847,
 	["Barbaxius (Outland)"] = 192723,
 	["Nibirus (Azjol-Nerub)"] = 6832,
-	["Necrophagus (Outland)"] = 12357727,
+	["Necrophagus (Outland)"] = 12369479,
 	["Illydaria (Draenor)"] = 47,
 }
