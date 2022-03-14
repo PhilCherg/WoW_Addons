@@ -107,17 +107,17 @@ PasteDB = {
 			["loaded"] = true,
 		},
 		["Necrophagus - Outland"] = {
-			["loaded"] = true,
-			["minimap"] = {
-				["minimapPos"] = 178.6279061133446,
-			},
-			["where"] = "Default",
 			["whispertarget"] = "",
+			["where"] = "Default",
+			["loaded"] = true,
 			["pos"] = {
 				["height"] = 320,
 				["top"] = 700.8450927734375,
 				["left"] = 711.5023803710938,
 				["width"] = 500.0000305175781,
+			},
+			["minimap"] = {
+				["minimapPos"] = 178.6279061133446,
 			},
 		},
 		["Elementior - Outland"] = {

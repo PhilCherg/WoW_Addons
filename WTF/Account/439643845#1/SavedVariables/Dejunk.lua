@@ -97,12 +97,6 @@ __DEJUNK_SAVED_VARIABLES__ = {
 		["Feastfour-Outland"] = {
 			["version"] = 3,
 		},
-		["Bullenic-Silvermoon"] = {
-			["version"] = 3,
-		},
-		["Destruxia-Outland"] = {
-			["version"] = 3,
-		},
 		["Necrophagus-Outland"] = {
 			["destroy"] = {
 				["autoOpen"] = {
@@ -117,9 +111,9 @@ __DEJUNK_SAVED_VARIABLES__ = {
 			["sell"] = {
 				["auto"] = true,
 				["exclusions"] = {
-					["187468"] = true,
 					["187455"] = true,
 					["187454"] = true,
+					["187468"] = true,
 					["187451"] = true,
 				},
 				["inclusions"] = {
@@ -137,7 +131,13 @@ __DEJUNK_SAVED_VARIABLES__ = {
 			},
 			["version"] = 3,
 		},
+		["Destruxia-Outland"] = {
+			["version"] = 3,
+		},
 		["Elementior-Outland"] = {
+			["version"] = 3,
+		},
+		["Bullenic-Silvermoon"] = {
 			["version"] = 3,
 		},
 		["Feastfive-Outland"] = {
