@@ -4,8 +4,8 @@ FrameLevel: 1
 Anchor: BOTTOMLEFT
 X: 0
 Y: 220
-W: 408
-H: 188
+W: 411
+H: 200
 Frame: MonkeySpeedFrame
 FrameLevel: 1
 Anchor: TOPRIGHT
