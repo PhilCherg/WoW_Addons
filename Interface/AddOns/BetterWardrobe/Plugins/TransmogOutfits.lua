@@ -93,6 +93,8 @@ end
 --Catches the TransmogOutfit frame and clears its OnEven script.  This keeps the addons's buttons from being shown.
 addon:SecureHook("transmogOutfitFrameCreate", function (frame) 
 	frame:SetParent(addon.prisonFrame)
+	frame:ClearAllPoints()
+	frame:SetPoint("TOPRIGHT",100, 100)
 	frame:SetSize(1, 1)
 	frame:SetScript("OnEvent", function () end )
 end)
@@ -109,7 +111,6 @@ end
 
 addon:SecureHook("TransmogOutfitRemoveYes", function(self) addon:SendMessage("BW_TRANSMOG_COLLECTION_UPDATED") end)
 addon:SecureHook("TransmogOutfitRenameDone", function(self) addon:SendMessage("BW_TRANSMOG_COLLECTION_UPDATED") end)
-
 
 --Tweaks original function to allow changes via the BW saved set list
 function TransmogOutfitSearchOutfit()

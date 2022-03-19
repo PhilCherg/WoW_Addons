@@ -1,18 +1,39 @@
-tag d120470da00b8ea07b781c6446fe52347128c9b6 3.12.2
+tag 4e372f490d116b4d48f0c9c0e7a8dcad24f6135b V3.13
 Author:	SLOKnightfall <SLOKnightfall@gmail.com>
-Date:	Fri Dec 3 13:31:32 2021 -0800
+Date:	Sun Mar 13 16:55:51 2022 -0700
 
-bugfixes
+-9.2 Updates
+-Added 9.2 sets
+-bugfixes
 
-commit 24425731d5988cb164cd7dca8b9a0f9bb45f31d2
+commit 2f4b9bef42020613d0a6e3f68a5610ba9396dfbe
 Author: SLOKnightfall <SLOKnightfall@gmail.com>
-Date:   Fri Dec 3 13:31:19 2021 -0800
+Date:   Sun Mar 13 16:55:11 2022 -0700
 
-    Repositioned tooltip watcher frames to an upper corner to hopefully fix blinking pixel in the center of the screen that has been reported.
+    -Added Zereth Mortis armor sets
 
-commit 3b511c26f790dcdc4d21e9763b7110b538c776c2
+commit 885689c0fbc98d72af0050611204ef7fa6f7aba9
 Author: SLOKnightfall <SLOKnightfall@gmail.com>
-Date:   Fri Dec 3 13:18:32 2021 -0800
+Date:   Sun Mar 13 15:14:52 2022 -0700
 
-    -Fixed ability to delete character's saved sets from the set.
+    -Fixed issue with set links if ExtendedTransmog is loaded.
+    -Removed PH sets from extra sets
+
+commit 3381c87688d66f6b35658282762084cfb02a416d
+Author: SLOKnightfall <SLOKnightfall@gmail.com>
+Date:   Sun Mar 13 13:02:34 2022 -0700
+
+    -Updated ELVui skin settings -Issue#251
+
+commit 7fb6efd4fc160a797f794346b8063655d32e47e7
+Author: SLOKnightfall <SLOKnightfall@gmail.com>
+Date:   Sun Mar 13 12:01:34 2022 -0700
+
+    -Repositioned some additional frames to try to solve pixel issue
+
+commit 939847ff2b86dc809f4522708e90a878e148d828
+Author: SLOKnightfall <SLOKnightfall@gmail.com>
+Date:   Sun Mar 13 11:33:53 2022 -0700
+
+    -Updated with blizzard 9.2 collection code changes
 

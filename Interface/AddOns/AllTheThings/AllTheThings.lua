@@ -1899,6 +1899,44 @@ local function VerifySourceID(item)
 	-- at this point the game source information matches the information for this item group
 	return true;
 end
+-- Attempts to determine an ItemLink which will return the provided SourceID
+app.DetermineItemLink = function(sourceID)
+	local link;
+	local sourceInfo = C_TransmogCollection_GetSourceInfo(sourceID);
+	local itemID = sourceInfo and sourceInfo.itemID;
+	if not itemID then
+		-- app.print("Could not generate Item Link for",sourceID,"(No Source Info from Blizzard)");
+		return;
+	end
+	local sformat = string.format;
+	local checkID, found;
+	local itemFormat = "item:"..itemID;
+	-- Check Raw Item
+	link = itemFormat;
+	checkID, found = GetSourceID(link);
+	if found and checkID == sourceID then return link; end
+
+	-- Check ModIDs
+	-- bonusID 3524 seems to imply "use ModID to determine SourceID" since without it, everything with ModID resolves as the base SourceID from links
+	itemFormat = "item:"..itemID..":::::::::::%d:1:3524";
+	-- /dump AllTheThings.GetSourceID("item:188859:::::::::::5:1:3524")
+	for m=1,99,1 do
+		link = sformat(itemFormat, m);
+		checkID, found = GetSourceID(link);
+		-- print(link,checkID,found)
+		if found and checkID == sourceID then return link; end
+	end
+
+	-- Check BonusIDs
+	itemFormat = "item:"..itemID.."::::::::::::1:%d";
+	for b=1,9999,1 do
+		link = sformat(itemFormat, b);
+		checkID, found = GetSourceID(link);
+		-- print(link,checkID,found)
+		if found and checkID == sourceID then return link; end
+	end
+	-- app.print("Could not generate Item Link for",sourceID,"(No ModID or BonusID match)");
+end
 app.IsComplete = function(o)
 	if o.total and o.total > 0 then return o.total == o.progress; end
 	if o.collectible then return o.collected; end
@@ -3652,7 +3690,7 @@ local function FillPurchases(group, depth)
 	if collectibles and #collectibles > 0 then
 		-- Nest new copies of the cost collectible objects of this group under itself
 		local usedToBuy = app.CreateNPC(-2, { ["text"] = L["CURRENCY_FOR"] } );
-		NestObject(group, usedToBuy);
+		NestObject(group, usedToBuy, nil, 1);
 		PriorityNestObjects(usedToBuy, collectibles, true, app.RecursiveGroupRequirementsFilter);
 		-- if app.DEBUG_PRINT then print("Filled",#collectibles,"under",group.hash,"as",#usedToBuy.g,"unique groups") end
 		-- reduce the depth by one since a cost has been filled
@@ -3897,7 +3935,7 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 			if sourceID then
 				local sourceInfo = C_TransmogCollection_GetSourceInfo(sourceID);
 				if sourceInfo and (sourceInfo.quality or 0) > 1 then
-					if app.Settings:GetTooltipSetting("SharedAppearances") then
+					if topLevelSearch and app.Settings:GetTooltipSetting("SharedAppearances") then
 						local text;
 						if app.Settings:GetTooltipSetting("OnlyShowRelevantSharedAppearances") then
 							-- The user doesn't want to see Shared Appearances that don't match the item's requirements.
@@ -3919,25 +3957,15 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 										else
 											text = "   ";
 										end
-										if topLevelSearch then tinsert(info, { left = text .. link .. (app.Settings:GetTooltipSetting("itemID") and " (*)" or ""), right = GetCollectionIcon(ATTAccountWideData.Sources[sourceID])}); end
+										tinsert(info, { left = text .. link .. (app.Settings:GetTooltipSetting("itemID") and " (*)" or ""), right = GetCollectionIcon(ATTAccountWideData.Sources[sourceID])});
 									end
 								else
-									local otherATTSources = app.SearchForField("s", otherSourceID);
-									if otherATTSources then
-										local otherATTSource;
-										if #otherATTSources == 1 then
-											otherATTSource = otherATTSources[1];
-										else
-											otherATTSource = {};
-											for _,o in ipairs(otherATTSources) do
-												MergeProperties(otherATTSource, o);
-											end
-										end
-
+									local otherATTSource = app.SearchForMergedObject("s", otherSourceID);
+									if otherATTSource then
 										-- Only show Shared Appearances that match the requirements for this class to prevent people from assuming things.
 										if (sourceGroup.f == otherATTSource.f or sourceGroup.f == 2 or otherATTSource.f == 2) and not otherATTSource.nmc and not otherATTSource.nmr then
 											local link = otherATTSource.link or otherATTSource.silentLink;
-											local otherItemID = otherATTSource.itemID or otherATTSource.silentItemID;
+											local otherItemID = otherATTSource.modItemID or otherATTSource.itemID or otherATTSource.silentItemID;
 											if not link then
 												link = RETRIEVING_DATA;
 												working = true;
@@ -3952,7 +3980,7 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 											else
 												text = "   ";
 											end
-											if topLevelSearch then tinsert(info, { left = text .. link .. (app.Settings:GetTooltipSetting("itemID") and (" (" .. (otherItemID or "???") .. (otherATTSource.modID and (":" .. otherATTSource.modID) or "") .. ")") or ""), right = GetCollectionIcon(otherATTSource.collected)}); end
+											tinsert(info, { left = text .. link .. (app.Settings:GetTooltipSetting("itemID") and (" (" .. (otherItemID or "???") .. ")") or ""), right = GetCollectionIcon(otherATTSource.collected)});
 										end
 									else
 										local otherSource = C_TransmogCollection_GetSourceInfo(otherSourceID);
@@ -3964,7 +3992,7 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 											end
 											text = " |CFFFF0000!|r " .. link .. (app.Settings:GetTooltipSetting("itemID") and (" (" .. (otherSourceID == sourceID and "*" or otherSource.itemID or "???") .. ")") or "");
 											if otherSource.isCollected then ATTAccountWideData.Sources[otherSourceID] = 1; end
-											if topLevelSearch then tinsert(info, { left = text	.. " |CFFFF0000(" .. (link == RETRIEVING_DATA and "INVALID BLIZZARD DATA " or "MISSING IN ATT ") .. otherSourceID .. ")|r", right = GetCollectionIcon(otherSource.isCollected)}); end	-- This is debug info for contribs, do not localize it
+											tinsert(info, { left = text	.. " |CFFFF0000(" .. (link == RETRIEVING_DATA and "INVALID BLIZZARD DATA " or "MISSING IN ATT ") .. otherSourceID .. ")|r", right = GetCollectionIcon(otherSource.isCollected)});	-- This is debug info for contribs, do not localize it
 										end
 									end
 								end
@@ -3989,21 +4017,11 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 										else
 											text = "   ";
 										end
-										if topLevelSearch then tinsert(info, { left = text .. link .. (app.Settings:GetTooltipSetting("itemID") and " (*)" or ""), right = GetCollectionIcon(ATTAccountWideData.Sources[sourceID])}); end
+										tinsert(info, { left = text .. link .. (app.Settings:GetTooltipSetting("itemID") and " (*)" or ""), right = GetCollectionIcon(ATTAccountWideData.Sources[sourceID])});
 									end
 								else
-									local otherATTSources = app.SearchForField("s", otherSourceID);
-									if otherATTSources then
-										local otherATTSource;
-										if #otherATTSources == 1 then
-											otherATTSource = otherATTSources[1];
-										else
-											otherATTSource = {};
-											for _,o in ipairs(otherATTSources) do
-												MergeProperties(otherATTSource, o);
-											end
-										end
-
+									local otherATTSource = app.SearchForMergedObject("s", otherSourceID);
+									if otherATTSource then
 										-- Show information about the appearance:
 										local failText = "";
 										local link = otherATTSource.link or otherATTSource.silentLink;
@@ -4021,7 +4039,8 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 										else
 											text = "   ";
 										end
-										text = text .. link .. (app.Settings:GetTooltipSetting("itemID") and (" (" .. (otherATTSource.itemID or "???") .. (otherATTSource.modID and (":" .. otherATTSource.modID) or "") .. ")") or "");
+										local otherItemID = otherATTSource.modItemID or otherATTSource.itemID or otherATTSource.silentItemID;
+										text = text .. link .. (app.Settings:GetTooltipSetting("itemID") and (" (" .. (otherItemID or "???") .. ")") or "");
 
 										-- Show all of the reasons why an appearance does not meet given criteria.
 										-- Only show Shared Appearances that match the requirements for this class to prevent people from assuming things.
@@ -4046,7 +4065,7 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 										end
 
 										if #failText > 0 then text = text .. " |CFFFF0000(" .. failText .. ")|r"; end
-										if topLevelSearch then tinsert(info, { left = text, right = GetCollectionIcon(otherATTSource.collected)}); end
+										tinsert(info, { left = text, right = GetCollectionIcon(otherATTSource.collected)});
 									else
 										local otherSource = C_TransmogCollection_GetSourceInfo(otherSourceID);
 										if otherSource and (otherSource.quality or 0) > 1 then
@@ -4057,7 +4076,7 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 											end
 											text = " |CFFFF0000!|r " .. link .. (app.Settings:GetTooltipSetting("itemID") and (" (" .. (otherSourceID == sourceID and "*" or otherSource.itemID or "???") .. ")") or "");
 											if otherSource.isCollected then ATTAccountWideData.Sources[otherSourceID] = 1; end
-											if topLevelSearch then tinsert(info, { left = text	.. " |CFFFF0000(" .. (link == RETRIEVING_DATA and "INVALID BLIZZARD DATA " or "MISSING IN ATT ") .. otherSourceID .. ")|r", right = GetCollectionIcon(otherSource.isCollected)}); end	-- This is debug info for contribs, do not localize it
+											tinsert(info, { left = text	.. " |CFFFF0000(" .. (link == RETRIEVING_DATA and "INVALID BLIZZARD DATA " or "MISSING IN ATT ") .. otherSourceID .. ")|r", right = GetCollectionIcon(otherSource.isCollected)});	-- This is debug info for contribs, do not localize it
 										end
 									end
 								end
@@ -4082,67 +4101,71 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 						end
 					end
 
-					if topLevelSearch and app.IsReady and sourceGroup.missing and itemID ~= 53097 then
-						tinsert(info, { left = Colorize("Item Source not found in the " .. app.Version .. " database.\n" .. L["SOURCE_ID_MISSING"], "ffff0000") });	-- Do not localize first part of the message, it is for contribs
-						tinsert(info, { left = Colorize(sourceID .. ":" .. tostring(sourceInfo.visualID), "ffe35832") });
-						tinsert(info, { left = Colorize(itemString, "ffe35832") });
+					if topLevelSearch then
+						if app.IsReady and sourceGroup.missing and itemID ~= 53097 then
+							tinsert(info, { left = Colorize("Item Source not found in the " .. app.Version .. " database.\n" .. L["SOURCE_ID_MISSING"], "ffff0000") });	-- Do not localize first part of the message, it is for contribs
+							tinsert(info, { left = Colorize(sourceID .. ":" .. tostring(sourceInfo.visualID), "ffe35832") });
+							tinsert(info, { left = Colorize(itemString, "ffe35832") });
+						end
+						if app.Settings:GetTooltipSetting("visualID") then tinsert(info, { left = L["VISUAL_ID"], right = tostring(sourceInfo.visualID) }); end
+						if app.Settings:GetTooltipSetting("sourceID") then tinsert(info, { left = L["SOURCE_ID"], right = sourceID .. " " .. GetCollectionIcon(sourceInfo.isCollected) }); end
 					end
-					if topLevelSearch and app.Settings:GetTooltipSetting("visualID") then tinsert(info, { left = L["VISUAL_ID"], right = tostring(sourceInfo.visualID) }); end
-					if topLevelSearch and app.Settings:GetTooltipSetting("sourceID") then tinsert(info, { left = L["SOURCE_ID"], right = sourceID .. " " .. GetCollectionIcon(sourceInfo.isCollected) }); end
 				end
 			end
-			if topLevelSearch and app.Settings:GetTooltipSetting("itemID") then tinsert(info, { left = L["ITEM_ID"], right = tostring(itemID) }); end
-			if topLevelSearch and modID and app.Settings:GetTooltipSetting("modID") then tinsert(info, { left = "Mod ID", right = tostring(modID) }); end
-			if topLevelSearch and bonusID and app.Settings:GetTooltipSetting("bonusID") then tinsert(info, { left = "Bonus ID", right = tostring(bonusID) }); end
-			if topLevelSearch and app.Settings:GetTooltipSetting("SpecializationRequirements") then
-				local specs = GetFixedItemSpecInfo(itemID);
-				-- specs is already filtered/sorted to only current class
-				if specs and #specs > 0 then
-					tinsert(info, { right = GetSpecsString(specs, true, true) });
-				elseif sourceID then
-					tinsert(info, { right = L["NOT_AVAILABLE_IN_PL"] });
+			if topLevelSearch then
+				if app.Settings:GetTooltipSetting("itemID") then tinsert(info, { left = L["ITEM_ID"], right = tostring(itemID) }); end
+				if modID and app.Settings:GetTooltipSetting("modID") then tinsert(info, { left = "Mod ID", right = tostring(modID) }); end
+				if bonusID and app.Settings:GetTooltipSetting("bonusID") then tinsert(info, { left = "Bonus ID", right = tostring(bonusID) }); end
+				if app.Settings:GetTooltipSetting("SpecializationRequirements") then
+					local specs = GetFixedItemSpecInfo(itemID);
+					-- specs is already filtered/sorted to only current class
+					if specs and #specs > 0 then
+						tinsert(info, { right = GetSpecsString(specs, true, true) });
+					elseif sourceID then
+						tinsert(info, { right = L["NOT_AVAILABLE_IN_PL"] });
+					end
 				end
-			end
 
-			if topLevelSearch and app.Settings:GetTooltipSetting("Progress") and IsArtifactRelicItem(itemID) then
-				-- If the item is a relic, then let's compare against equipped relics.
-				local relicType = select(3, C_ArtifactUI.GetRelicInfoByItemID(itemID));
-				local myArtifactData = app.CurrentCharacter.ArtifactRelicItemLevels;
-				if myArtifactData then
-					local progress, total = 0, 0;
-					local relicItemLevel = select(1, GetDetailedItemLevelInfo(search)) or 0;
-					for relicID,artifactData in pairs(myArtifactData) do
-						local infoString;
-						for relicSlotIndex,relicData in pairs(artifactData) do
-							if relicData.relicType == relicType then
-								if infoString then
-									infoString = infoString .. " | " .. relicData.iLvl;
-								else
-									infoString = relicData.iLvl;
-								end
-								total = total + 1;
-								if relicData.iLvl >= relicItemLevel then
-									progress = progress + 1;
-									infoString = infoString .. " " .. GetCompletionIcon(1);
-								else
-									infoString = infoString .. " " .. GetCompletionIcon();
+				if app.Settings:GetTooltipSetting("Progress") and IsArtifactRelicItem(itemID) then
+					-- If the item is a relic, then let's compare against equipped relics.
+					local relicType = select(3, C_ArtifactUI.GetRelicInfoByItemID(itemID));
+					local myArtifactData = app.CurrentCharacter.ArtifactRelicItemLevels;
+					if myArtifactData then
+						local progress, total = 0, 0;
+						local relicItemLevel = select(1, GetDetailedItemLevelInfo(search)) or 0;
+						for relicID,artifactData in pairs(myArtifactData) do
+							local infoString;
+							for relicSlotIndex,relicData in pairs(artifactData) do
+								if relicData.relicType == relicType then
+									if infoString then
+										infoString = infoString .. " | " .. relicData.iLvl;
+									else
+										infoString = relicData.iLvl;
+									end
+									total = total + 1;
+									if relicData.iLvl >= relicItemLevel then
+										progress = progress + 1;
+										infoString = infoString .. " " .. GetCompletionIcon(1);
+									else
+										infoString = infoString .. " " .. GetCompletionIcon();
+									end
 								end
 							end
+							if infoString then
+								local itemLink = select(2, GetItemInfo(relicID));
+								tinsert(info, 1, {
+									left = itemLink and ("   " .. itemLink) or RETRIEVING_DATA,
+									right = L["iLvl"] .. " " .. infoString,
+								});
+							end
 						end
-						if infoString then
-							local itemLink = select(2, GetItemInfo(relicID));
-							tinsert(info, 1, {
-								left = itemLink and ("   " .. itemLink) or RETRIEVING_DATA,
-								right = L["iLvl"] .. " " .. infoString,
-							});
+						if total > 0 then
+							tinsert(group, { itemID=itemID, total=total, progress=progress});
+							tinsert(info, 1, { left = L["ARTIFACT_RELIC_COMPLETION"], right = L[progress == total and "TRADEABLE" or "NOT_TRADEABLE"] });
 						end
+					else
+						tinsert(info, 1, { left = L["ARTIFACT_RELIC_CACHE"], wrap = true, color = "ff66ccff" });
 					end
-					if total > 0 then
-						tinsert(group, { itemID=itemID, total=total, progress=progress});
-						tinsert(info, 1, { left = L["ARTIFACT_RELIC_COMPLETION"], right = L[progress == total and "TRADEABLE" or "NOT_TRADEABLE"] });
-					end
-				else
-					tinsert(info, 1, { left = L["ARTIFACT_RELIC_CACHE"], wrap = true, color = "ff66ccff" });
 				end
 			end
 		end
@@ -4376,13 +4399,14 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 		-- Resolve Cost, but not if the search itself was skipped (Mark of Honor)
 		if method ~= app.EmptyFunction then
 			-- app.DEBUG_PRINT = group.key .. ":" .. group[group.key];
+
+			-- Append any crafted things using this group
+			app.BuildCrafted(group);
+
 			-- Fill Purchases of this Thing
 			-- print("Fill Purchases")
 			FillPurchases(group);
 			-- app.PrintGroup(group)
-
-			-- Append any crafted things using this group
-			app.BuildCrafted(group);
 
 			-- Expand any things requiring this group
 			-- TODO: is this necessary anymore? can't think of a situation to properly test it
@@ -4715,7 +4739,8 @@ app.BuildCrafted = function(item)
 								end
 							end
 						end
-						NestObject(item, search);
+						-- crafted Items without any further nesting should be listed first
+						NestObject(item, search, nil, not search.g and 1 or nil);
 					end
 				else
 					basicItemIDs[craftedItemID] = true;
@@ -4738,7 +4763,8 @@ app.BuildCrafted = function(item)
 							end
 						end
 					end
-					NestObject(item, search);
+					-- crafted Items without any further nesting should be listed first
+					NestObject(item, search, nil, not search.g and 1 or nil);
 				end
 			end
 		end
@@ -5150,6 +5176,11 @@ fieldCache["spellID"] = {};
 fieldCache["tierID"] = {};
 fieldCache["titleID"] = {};
 fieldCache["toyID"] = {};
+local cacheAchievementID = function(group, value)
+	-- achievements used on maps should not cache the location for the achievement
+	if group.mapID then return; end
+	CacheField(group, "achievementID", value);
+end
 local cacheCreatureID = function(group, npcID)
 	if npcID > 0 then
 		CacheField(group, "creatureID", npcID);
@@ -5183,18 +5214,12 @@ end
 
 fieldConverters = {
 	-- Simple Converters
-	["achievementID"] = function(group, value)
-		CacheField(group, "achievementID", value);
-	end,
+	["achievementID"] = cacheAchievementID,
 	["achievementCategoryID"] = function(group, value)
 		CacheField(group, "achievementCategoryID", value);
 	end,
-	["achID"] = function(group, value)
-		CacheField(group, "achievementID", value);
-	end,
-	["altAchID"] = function(group, value)
-		CacheField(group, "achievementID", value);
-	end,
+	["achID"] = cacheAchievementID,
+	["altAchID"] = cacheAchievementID,
 	["artifactID"] = function(group, value)
 		CacheField(group, "artifactID", value);
 	end,
@@ -7945,11 +7970,47 @@ app.ClassDB = setmetatable({}, { __index = function(t, className)
 		end
 	end
 end });
+local math_floor = math.floor;
+local cache = app.CreateCache("classID");
+local function CacheInfo(t, field)
+	local _t, id = cache.GetCached(t);
+	-- specc can be included in the id
+	local classID = math_floor(id);
+	rawset(t, "classKey", classID);
+	local specc_decimal = 1000 * (id - classID);
+	local specc = math_floor(specc_decimal + 0.00001);
+	if specc > 0 then
+		local text = select(2, GetSpecializationInfoForSpecID(specc));
+		if t.mapID then
+			text = app.GetMapName(t.mapID) .. " (" .. text .. ")";
+		elseif t.maps then
+			text = app.GetMapName(t.maps[1]) .. " (" .. text .. ")";
+		end
+		text = "|c" .. t.classColors.colorStr .. text .. "|r";
+		rawset(t, "text", text);
+		_t.text = text;
+		_t.icon = select(4, GetSpecializationInfoForSpecID(specc));
+	else
+		local text = GetClassInfo(t.classID);
+		if t.mapID then
+			text = app.GetMapName(t.mapID) .. " (" .. text .. ")";
+		elseif t.maps then
+			text = app.GetMapName(t.maps[1]) .. " (" .. text .. ")";
+		end
+		text = "|c" .. t.classColors.colorStr .. text .. "|r";
+		rawset(t, "text", text);
+		_t.text = text;
+		_t.icon = classIcons[t.classID]
+	end
+	if field then return _t[field]; end
+end
 local fields = {
 	["key"] = function(t)
 		return "classID";
 	end,
 	["text"] = function(t)
+		return cache.GetCachedField(t, "text", CacheInfo);
+		--[[
 		local text = GetClassInfo(t.classID);
 		if t.mapID then
 			text = app.GetMapName(t.mapID) .. " (" .. text .. ")";
@@ -7959,9 +8020,11 @@ local fields = {
 		text = "|c" .. t.classColors.colorStr .. text .. "|r";
 		rawset(t, "text", text);
 		return text;
+		--]]
 	end,
 	["icon"] = function(t)
-		return classIcons[t.classID];
+		return cache.GetCachedField(t, "icon", CacheInfo);
+		-- return classIcons[t.classID];
 	end,
 	["c"] = function(t)
 		local c = { t.classID };
@@ -9344,6 +9407,9 @@ local fields = {
 		end
 		return {};
 	end,
+	["name"] = function(t)
+		return t.info.name;
+	end,
 	["text"] = function(t)
 		return t.info.name;
 	end,
@@ -9570,7 +9636,7 @@ local itemFields = {
 		return cache;
 	end,
 	["text"] = function(t)
-		return t.link;
+		return t.link or t.name;
 	end,
 	["icon"] = function(t)
 		return cache.GetCachedField(t, "icon", default_icon);
@@ -10436,7 +10502,7 @@ app.ImportRawLink = function(group, rawlink)
 		group.rawlink = rawlink;
 		local _, linkItemID, enchantId, gemId1, gemId2, gemId3, gemId4, suffixId, uniqueId, linkLevel, specializationID, upgradeId, modID, bonusCount, bonusID1 = strsplit(":", rawlink);
 		if linkItemID then
-			-- if app.DEBUG_PRINT then print("ImportRawLink",rawlink,linkItemID,modID,bonusCount,bonusID1) end
+			-- app.PrintDebug("ImportRawLink",rawlink,linkItemID,modID,bonusCount,bonusID1);
 			-- set raw fields in the group based on the link
 			group.itemID = tonumber(linkItemID);
 			group.modID = modID and tonumber(modID) or nil;
@@ -11309,10 +11375,13 @@ local fields = {
 	["key"] = function(t)
 		return "professionID";
 	end,
-	["text"] = function(t)
+	["name"] = function(t)
 		if app.GetSpecializationBaseTradeSkill(t.professionID) then return select(1, GetSpellInfo(t.professionID)); end
 		if t.professionID == 129 then return select(1, GetSpellInfo(t.spellID)); end
 		return C_TradeSkillUI.GetTradeSkillDisplayName(t.professionID);
+	end,
+	["text"] = function(t)
+		return t.name;
 	end,
 	["icon"] = function(t)
 		if app.GetSpecializationBaseTradeSkill(t.professionID) then return select(3, GetSpellInfo(t.professionID)); end
@@ -14026,7 +14095,12 @@ function app:CreateMiniListForGroup(group)
 		-- end
 		-- Create groups showing Appearance information
 		if group.s then
-
+			-- print(group.__type)
+			-- app.PrintGroup(group)
+			-- source without an item, try to generate the valid item link for it
+			if not group.itemID then
+				app.ImportRawLink(group, app.DetermineItemLink(group.s));
+			end
 			-- Attempt to get information about the source ID.
 			local sourceInfo = C_TransmogCollection_GetSourceInfo(group.s);
 			if sourceInfo then
@@ -14034,20 +14108,24 @@ function app:CreateMiniListForGroup(group)
 				-- app.PrintTable(sourceInfo)
 				-- Show a list of all of the Shared Appearances.
 				local g = {};
-
 				-- Go through all of the shared appearances and see if we've "unlocked" any of them.
 				for _,otherSourceID in ipairs(C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
 					-- If this isn't the source we already did work on and we haven't already completed it
 					if otherSourceID ~= group.s then
-						local shared = app.SearchForObject("s", otherSourceID);
+						local shared = app.SearchForMergedObject("s", otherSourceID);
 						if shared then
-							shared = CreateObject(shared);
+							shared = CreateObject(shared, true);
 							shared.hideText = true;
 							tinsert(g, shared);
+							-- print("ATT Appearance:",shared.hash,shared.modItemID)
 						else
 							local otherSourceInfo = C_TransmogCollection_GetSourceInfo(otherSourceID);
-							if otherSourceInfo and (otherSourceInfo.quality or 0) > 1 then
+							-- print("Missing Appearance")
+							-- app.PrintTable(otherSourceInfo)
+							if otherSourceInfo then
+								-- TODO: this can create an item link whose appearance is actually different than the SourceID's Visual
 								local newItem = app.CreateItemSource(otherSourceID, otherSourceInfo.itemID);
+								newItem.collectible = (otherSourceInfo.quality or 0) > 1;
 								if otherSourceInfo.isCollected then
 									ATTAccountWideData.Sources[otherSourceID] = 1;
 									newItem.collected = true;
@@ -14117,14 +14195,15 @@ function app:CreateMiniListForGroup(group)
 					g = {};
 					setID = tonumber(setID);
 					for _,sourceID in ipairs(allSets[setID]) do
-						local search = app.SearchForObject("s", sourceID);
+						local search = app.SearchForMergedObject("s", sourceID);
 						if search then
-							search = CreateObject(search);
+							search = CreateObject(search, true);
 							search.hideText = true;
 							tinsert(g, search);
 						else
 							local otherSourceInfo = C_TransmogCollection_GetSourceInfo(sourceID);
 							if otherSourceInfo and (otherSourceInfo.quality or 0) > 1 then
+								-- TODO: this can create an item link whose appearance is actually different than the SourceID's Visual
 								local newItem = app.CreateItemSource(sourceID, otherSourceInfo.itemID);
 								if otherSourceInfo.isCollected then
 									ATTAccountWideData.Sources[sourceID] = 1;
@@ -14528,17 +14607,19 @@ local function SetRowData(self, row, data)
 			x = rowPad / 2;
 		end
 		local summary = GetProgressTextForRow(data) or "---";
-		local iconAdjust = summary and string.find(summary, "|T") and -1 or 0;
+		-- local iconAdjust = summary and string.find(summary, "|T") and -1 or 0;
 		local specs = data.specs;
 		if specs and #specs > 0 then
 			summary = GetSpecsString(specs, false, false) .. summary;
-			iconAdjust = iconAdjust - #specs;
+			-- iconAdjust = iconAdjust - #specs;
 		end
 		local rowSummary = row.Summary;
 		local rowLabel = row.Label;
 		rowSummary:SetText(summary);
 		-- for whatever reason, the Client does not properly align the Points when textures are used within the 'text' of the object, with each texture added causing a 1px offset on alignment
-		rowSummary:SetPoint("RIGHT", iconAdjust, 0);
+		-- 2022-03-15 It seems as of recently that text with textures now render properly without the need for a manual adjustment. Will leave the logic in here until confirmed for others as well
+		-- rowSummary:SetPoint("RIGHT", iconAdjust, 0);
+		rowSummary:SetPoint("RIGHT");
 		rowSummary:Show();
 		rowLabel:SetPoint("LEFT", leftmost, relative, x, 0);
 		if rowSummary and rowSummary:IsShown() then
@@ -16679,7 +16760,8 @@ function app:GetDataCache()
 			db = {};
 			db.expanded = false;
 			db.g = app.Categories.NeverImplemented;
-			db.text = L["NEVER_IMPLEMENTED"];
+			db.name = L["NEVER_IMPLEMENTED"];
+			db.text = db.name;
 			db.description = L["NEVER_IMPLEMENTED_DESC"];
 			tinsert(g, db);
 			tinsert(db.g, 1, flightPathsCategory_NYI);
@@ -16691,7 +16773,8 @@ function app:GetDataCache()
 			db = {};
 			db.expanded = false;
 			db.g = app.Categories.HiddenQuestTriggers;
-			db.text = L["HIDDEN_QUEST_TRIGGERS"];
+			db.name = L["HIDDEN_QUEST_TRIGGERS"];
+			db.text = db.name;
 			db.description = L["HIDDEN_QUEST_TRIGGERS_DESC"];
 			tinsert(g, db);
 			app.ToggleCacheMaps(true);
@@ -16704,7 +16787,8 @@ function app:GetDataCache()
 			db = {};
 			db.g = app.Categories.Unsorted;
 			db.expanded = false;
-			db.text = L["UNSORTED_1"];
+			db.name = L["UNSORTED_1"];
+			db.text = db.name;
 			db.description = L["UNSORTED_DESC_2"];
 			-- since unsorted is technically auto-populated, anything nested under it is considered 'missing' in ATT
 			db._missing = true;
@@ -18223,7 +18307,7 @@ customWindowUpdates["Harvester"] = function(self)
 
 			local harvested = {};
 			local minID,maxID,oldRetries = app.customHarvestMin or self.min,app.customHarvestMax or self.max,app.MaximumItemInfoRetries;
-			local tremove = tremove;
+			local tremove, tonumber = tremove, tonumber;
 			self.min = minID;
 			self.max = maxID;
 			app.MaximumItemInfoRetries = 10;
@@ -18320,10 +18404,14 @@ customWindowUpdates["Harvester"] = function(self)
 							app.Settings:ToggleDebugMode();
 							self.forcedDebug = nil;
 						end
-						app.print("Source Harvest Complete!");
+						app.print("Source Harvest Complete! ItemIDs:",self.min,"->",self.max);
 						-- revert the number of retries to retrieve item information
 						app.MaximumItemInfoRetries = oldRetries or 400;
+						-- reset the window so it can be used to harvest again without reloading
 						self.UpdateDone = nil;
+						self.initialized = nil;
+						self.data = nil;
+						return;
 					end
 				end
 				-- Update the Harvester Window to re-populate row data for next refresh
@@ -21880,8 +21968,8 @@ SLASH_AllTheThingsHARVESTER2 = "/attharvester";
 SlashCmdList["AllTheThingsHARVESTER"] = function(cmd)
 	if cmd then
 		local min,max,reset = strsplit(",",cmd);
-		app.customHarvestMin = tonumber(min);
-		app.customHarvestMax = tonumber(max);
+		app.customHarvestMin = tonumber(min) or 1;
+		app.customHarvestMax = tonumber(max) or 200000;
 		app.print("Set Harvest ItemID Bounds:",app.customHarvestMin,app.customHarvestMax);
 		AllTheThingsHarvestItems = reset and {} or AllTheThingsHarvestItems or {};
 		AllTheThingsArtifactsItems = reset and {} or AllTheThingsArtifactsItems or {};
