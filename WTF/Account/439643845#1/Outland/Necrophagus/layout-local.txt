@@ -83,6 +83,12 @@ X: -125
 Y: -116
 W: 301
 H: 509
+Frame: AllTheThings-Window-ATT > Outdoor Zones > The Shadowlands > Zereth Mortis > Protoform Synthesis > Protoform SynthesisproFrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 300
+H: 300
 Frame: scanner_button
 FrameLevel: 200
 Anchor: CENTER
