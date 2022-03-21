@@ -4,52 +4,7 @@ AngryKeystones_Config = {
 }
 AngryKeystones_Data = {
 	["state"] = {
-		["mapID"] = 376,
-		["splits"] = {
-			307, -- [1]
-			918, -- [2]
-			1622, -- [3]
-			1841, -- [4]
-			1928, -- [5]
-			["party1Name"] = "Necrophagus",
-			["party1Class"] = "Warlock",
-			["party4Class"] = "Rogue",
-			["party2Name"] = "Fionara",
-			["patch"] = "9.2.0",
-			["timeLimit"] = 2160,
-			["level"] = 12,
-			["timeElapsed"] = 1927.933,
-			["party3Role"] = "TANK",
-			["affixes3"] = 3,
-			["party5Role"] = "HEALER",
-			["party3Name"] = "Serberis",
-			["affixes2"] = 6,
-			["party1Role"] = "DAMAGER",
-			["party4Name"] = "Vëlos",
-			["party4Role"] = "DAMAGER",
-			["party3Class"] = "Demon Hunter",
-			["wasEnergized"] = true,
-			["affixes1"] = 9,
-			["party5Class"] = "Druid",
-			["mapID"] = 376,
-			["party2Role"] = "DAMAGER",
-			["date"] = 1647801920,
-			["party2Class"] = "Mage",
-			["party5Name"] = "Floofa",
-		},
 		["playerDeaths"] = {
-			["Necrophagus"] = 2,
-			["Fionara"] = 3,
-			["Vëlos-Ravenholdt"] = 2,
-			["Serberis-Silvermoon"] = 2,
-			["Floofa-EmeraldDream"] = 3,
-		},
-		["splitNames"] = {
-			"Blightbone defeated", -- [1]
-			"Amarth defeated", -- [2]
-			"Surgeon Stitchflesh defeated", -- [3]
-			"Nalthor the Rimebinder defeated", -- [4]
-			"Enemy Forces", -- [5]
 		},
 	},
 	["splits"] = {
@@ -262,23 +217,23 @@ AngryKeystones_Data = {
 		[169696] = {
 			[8] = 47,
 		},
+		[167611] = {
+			[4] = 14,
+		},
+		[166304] = {
+			[4] = 20,
+		},
 		[169141] = {
 			18, -- [1]
 			[8] = 7,
 			[6] = 1,
 			[12] = 3,
 		},
-		[166304] = {
-			[4] = 20,
-		},
-		[167611] = {
-			[4] = 14,
-		},
 		[168153] = {
 			[12] = 9,
 		},
-		[171500] = {
-			75, -- [1]
+		[172265] = {
+			[4] = 44,
 		},
 		[163882] = {
 			[14] = 28,
@@ -362,8 +317,8 @@ AngryKeystones_Data = {
 		[168886] = {
 			[25] = 13,
 		},
-		[171376] = {
-			[10] = 13,
+		[167806] = {
+			[4] = 1,
 		},
 		[163503] = {
 			[2] = 97,
@@ -402,8 +357,8 @@ AngryKeystones_Data = {
 		[163458] = {
 			[4] = 40,
 		},
-		[163122] = {
-			[8] = 23,
+		[167967] = {
+			[6] = 27,
 		},
 		[173655] = {
 			[16] = 7,
@@ -541,8 +496,8 @@ AngryKeystones_Data = {
 		[164562] = {
 			[4] = 78,
 		},
-		[167967] = {
-			[6] = 27,
+		[163122] = {
+			[8] = 23,
 		},
 		[166411] = {
 			78, -- [1]
@@ -553,8 +508,8 @@ AngryKeystones_Data = {
 		[167962] = {
 			[8] = 18,
 		},
-		[167806] = {
-			[4] = 1,
+		[171376] = {
+			[10] = 13,
 		},
 		[171384] = {
 			[4] = 34,
@@ -586,8 +541,8 @@ AngryKeystones_Data = {
 		[164550] = {
 			[8] = 2,
 		},
-		[172265] = {
-			[4] = 44,
+		[171500] = {
+			75, -- [1]
 		},
 		[162046] = {
 			165, -- [1]

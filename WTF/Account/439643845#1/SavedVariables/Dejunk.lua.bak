@@ -75,13 +75,19 @@ __DEJUNK_SAVED_VARIABLES__ = {
 		["Bankeristor-Outland"] = {
 			["version"] = 3,
 		},
-		["Elementior-Outland"] = {
+		["Bullenic-Silvermoon"] = {
 			["version"] = 3,
 		},
 		["Barbaxius-Outland"] = {
 			["version"] = 3,
 		},
 		["Xanthoros-Outland"] = {
+			["version"] = 3,
+		},
+		["Elementior-Outland"] = {
+			["version"] = 3,
+		},
+		["Feastfour-Outland"] = {
 			["version"] = 3,
 		},
 		["Necrophagus-Outland"] = {
@@ -98,9 +104,9 @@ __DEJUNK_SAVED_VARIABLES__ = {
 			["sell"] = {
 				["auto"] = true,
 				["exclusions"] = {
-					["187455"] = true,
 					["187454"] = true,
 					["187468"] = true,
+					["187455"] = true,
 					["187451"] = true,
 				},
 				["inclusions"] = {
@@ -116,12 +122,6 @@ __DEJUNK_SAVED_VARIABLES__ = {
 					["187431"] = true,
 				},
 			},
-			["version"] = 3,
-		},
-		["Feastfour-Outland"] = {
-			["version"] = 3,
-		},
-		["Bullenic-Silvermoon"] = {
 			["version"] = 3,
 		},
 		["Feastthree-Outland"] = {

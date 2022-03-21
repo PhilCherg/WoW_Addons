@@ -55,6 +55,13 @@ X: 0
 Y: 0
 W: 300
 H: 300
+Frame: AllTheThings-Window-Tradeskills
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 301
+H: 509
 Frame: AllTheThings-Window-WorldQuests
 FrameLevel: 1
 Anchor: CENTER
@@ -83,10 +90,3 @@ X: 230
 Y: 194
 W: 306
 H: 225
-Frame: AllTheThings-Window-Tradeskills
-FrameLevel: 1
-Anchor: TOP
-X: -125
-Y: -116
-W: 301
-H: 509
