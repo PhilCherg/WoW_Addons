@@ -4,47 +4,51 @@ AngryKeystones_Config = {
 }
 AngryKeystones_Data = {
 	["state"] = {
-		["mapID"] = 378,
+		["mapID"] = 376,
 		["splits"] = {
-			768, -- [1]
-			1025, -- [2]
-			1358, -- [3]
-			1698, -- [4]
-			1500, -- [5]
+			307, -- [1]
+			918, -- [2]
+			1622, -- [3]
+			1841, -- [4]
+			1928, -- [5]
 			["party1Name"] = "Necrophagus",
 			["party1Class"] = "Warlock",
-			["party4Class"] = "Druid",
-			["party2Name"] = "Magdaq",
+			["party4Class"] = "Rogue",
+			["party2Name"] = "Fionara",
 			["patch"] = "9.2.0",
-			["timeLimit"] = 1920,
-			["level"] = 11,
-			["timeElapsed"] = 1698.059,
-			["party3Role"] = "DAMAGER",
+			["timeLimit"] = 2160,
+			["level"] = 12,
+			["timeElapsed"] = 1927.933,
+			["party3Role"] = "TANK",
 			["affixes3"] = 3,
-			["party5Role"] = "TANK",
-			["party3Name"] = "Toundra",
+			["party5Role"] = "HEALER",
+			["party3Name"] = "Serberis",
 			["affixes2"] = 6,
 			["party1Role"] = "DAMAGER",
-			["party4Name"] = "Yadza",
-			["party4Role"] = "HEALER",
-			["party3Class"] = "Hunter",
+			["party4Name"] = "Vëlos",
+			["party4Role"] = "DAMAGER",
+			["party3Class"] = "Demon Hunter",
 			["wasEnergized"] = true,
 			["affixes1"] = 9,
-			["party5Class"] = "Demon Hunter",
-			["mapID"] = 378,
+			["party5Class"] = "Druid",
+			["mapID"] = 376,
 			["party2Role"] = "DAMAGER",
-			["date"] = 1647792537,
+			["date"] = 1647801920,
 			["party2Class"] = "Mage",
-			["party5Name"] = "Nymphaea",
+			["party5Name"] = "Floofa",
 		},
 		["playerDeaths"] = {
-			["Toundra-LesClairvoyants"] = 1,
+			["Necrophagus"] = 2,
+			["Fionara"] = 3,
+			["Vëlos-Ravenholdt"] = 2,
+			["Serberis-Silvermoon"] = 2,
+			["Floofa-EmeraldDream"] = 3,
 		},
 		["splitNames"] = {
-			"Halkias defeated", -- [1]
-			"Echelon defeated", -- [2]
-			"High Adjudicator Aleez defeated", -- [3]
-			"Lord Chamberlain defeated", -- [4]
+			"Blightbone defeated", -- [1]
+			"Amarth defeated", -- [2]
+			"Surgeon Stitchflesh defeated", -- [3]
+			"Nalthor the Rimebinder defeated", -- [4]
 			"Enemy Forces", -- [5]
 		},
 	},
@@ -55,7 +59,7 @@ AngryKeystones_Data = {
 			[7] = 39,
 		},
 		[173044] = {
-			[4] = 9,
+			[4] = 10,
 		},
 		[168837] = {
 			[12] = 1,
@@ -89,7 +93,7 @@ AngryKeystones_Data = {
 			[20] = 6,
 		},
 		[173016] = {
-			[4] = 36,
+			[4] = 40,
 		},
 		[171805] = {
 			[4] = 73,
@@ -137,7 +141,7 @@ AngryKeystones_Data = {
 			[5] = 43,
 		},
 		[165911] = {
-			[4] = 18,
+			[4] = 20,
 		},
 		[156540] = {
 			1, -- [1]
@@ -184,7 +188,7 @@ AngryKeystones_Data = {
 			[7] = 52,
 		},
 		[163619] = {
-			[4] = 57,
+			[4] = 62,
 		},
 		[164926] = {
 			[6] = 30,
@@ -207,7 +211,7 @@ AngryKeystones_Data = {
 			[12] = 41,
 		},
 		[162729] = {
-			[4] = 223,
+			[4] = 241,
 		},
 		[168627] = {
 			[8] = 105,
@@ -226,13 +230,13 @@ AngryKeystones_Data = {
 			[8] = 2,
 		},
 		[165919] = {
-			[6] = 44,
+			[6] = 48,
 		},
 		[174175] = {
 			[4] = 1,
 		},
 		[166302] = {
-			[4] = 73,
+			[4] = 78,
 		},
 		[165824] = {
 			[15] = 6,
@@ -244,7 +248,7 @@ AngryKeystones_Data = {
 			47, -- [1]
 		},
 		[163620] = {
-			[6] = 3,
+			[6] = 4,
 		},
 		[168949] = {
 			[4] = 86,
@@ -258,23 +262,23 @@ AngryKeystones_Data = {
 		[169696] = {
 			[8] = 47,
 		},
-		[167611] = {
-			[4] = 14,
-		},
-		[166304] = {
-			[4] = 20,
-		},
 		[169141] = {
 			18, -- [1]
 			[8] = 7,
 			[6] = 1,
 			[12] = 3,
 		},
+		[166304] = {
+			[4] = 20,
+		},
+		[167611] = {
+			[4] = 14,
+		},
 		[168153] = {
 			[12] = 9,
 		},
-		[172265] = {
-			[4] = 44,
+		[171500] = {
+			75, -- [1]
 		},
 		[163882] = {
 			[14] = 28,
@@ -308,16 +312,16 @@ AngryKeystones_Data = {
 			[4] = 77,
 		},
 		[165222] = {
-			[4] = 16,
+			[4] = 17,
 		},
 		[167731] = {
-			[4] = 8,
+			[4] = 9,
 		},
 		[163501] = {
 			[4] = 28,
 		},
 		[163621] = {
-			[6] = 8,
+			[6] = 9,
 		},
 		[171799] = {
 			[7] = 32,
@@ -358,8 +362,8 @@ AngryKeystones_Data = {
 		[168886] = {
 			[25] = 13,
 		},
-		[167806] = {
-			[4] = 1,
+		[171376] = {
+			[10] = 13,
 		},
 		[163503] = {
 			[2] = 97,
@@ -374,7 +378,7 @@ AngryKeystones_Data = {
 			185, -- [1]
 		},
 		[163121] = {
-			[5] = 26,
+			[5] = 28,
 		},
 		[167998] = {
 			[8] = 25,
@@ -398,8 +402,8 @@ AngryKeystones_Data = {
 		[163458] = {
 			[4] = 40,
 		},
-		[167967] = {
-			[6] = 27,
+		[163122] = {
+			[8] = 23,
 		},
 		[173655] = {
 			[16] = 7,
@@ -460,7 +464,7 @@ AngryKeystones_Data = {
 			[4] = 88,
 		},
 		[172981] = {
-			[5] = 18,
+			[5] = 20,
 		},
 		[168844] = {
 			[12] = 5,
@@ -487,7 +491,7 @@ AngryKeystones_Data = {
 			[4] = 31,
 		},
 		[165872] = {
-			[4] = 20,
+			[4] = 22,
 		},
 		[170480] = {
 			[5] = 34,
@@ -537,20 +541,20 @@ AngryKeystones_Data = {
 		[164562] = {
 			[4] = 78,
 		},
-		[163122] = {
-			[8] = 20,
+		[167967] = {
+			[6] = 27,
 		},
 		[166411] = {
 			78, -- [1]
 		},
 		[163128] = {
-			[4] = 52,
+			[4] = 56,
 		},
 		[167962] = {
 			[8] = 18,
 		},
-		[171376] = {
-			[10] = 13,
+		[167806] = {
+			[4] = 1,
 		},
 		[171384] = {
 			[4] = 34,
@@ -582,8 +586,8 @@ AngryKeystones_Data = {
 		[164550] = {
 			[8] = 2,
 		},
-		[171500] = {
-			68, -- [1]
+		[172265] = {
+			[4] = 44,
 		},
 		[162046] = {
 			165, -- [1]
@@ -591,7 +595,7 @@ AngryKeystones_Data = {
 			[4] = 1,
 		},
 		[165138] = {
-			165, -- [1]
+			180, -- [1]
 		},
 		[173840] = {
 			[4] = 26,
