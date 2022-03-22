@@ -1,0 +1,8 @@
+
+SoulshapeJournalDB = {
+	["profileKeys"] = {
+		["Necrophagus - Outland"] = "Necrophagus - Outland",
+		["Barbaxius - Outland"] = "Barbaxius - Outland",
+		["Shadroxia - Outland"] = "Shadroxia - Outland",
+	},
+}

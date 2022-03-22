@@ -128,11 +128,11 @@ DBMChallenges_SavedStats = {
 		["mythicPulls"] = 0,
 		["heroic25Kills"] = 0,
 		["heroicPulls"] = 0,
-		["heroicKills"] = 0,
+		["timewalkerPulls"] = 8,
 		["timewalkerLastTime"] = 502.3450000000012,
 		["normal25Kills"] = 0,
 		["timewalkerKills"] = 1,
-		["timewalkerPulls"] = 8,
+		["heroicKills"] = 0,
 		["challengePulls"] = 0,
 	},
 	["ArtifactImpossibleFoe"] = {

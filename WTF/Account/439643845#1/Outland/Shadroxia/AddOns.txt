@@ -18,7 +18,7 @@ TomCats-Nazjatar: disabled
 TomCats-Nzoth: disabled
 Details: enabled
 HandyNotes_Achievements: disabled
-HandyNotes: enabled
+HandyNotes: disabled
 GatherMate2: disabled
 GatherMate2_Data: disabled
 Immersion: enabled
@@ -239,7 +239,7 @@ BtWQuestsWrathOfTheLichKing: disabled
 BulkBuy: disabled
 GarrisonCommander: disabled
 GarrisonCommander-Broker: disabled
-HandyNotes_Shadowlands: enabled
+HandyNotes_Shadowlands: disabled
 HandyNotes_LunarFestival: enabled
 Mists_of_Tirna_Solved: enabled
 MythicDungeonTools: disabled

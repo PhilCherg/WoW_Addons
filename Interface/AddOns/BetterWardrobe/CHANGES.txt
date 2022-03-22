@@ -1,39 +1,13 @@
-tag 4e372f490d116b4d48f0c9c0e7a8dcad24f6135b V3.13
+tag ff75b83a72f81fc83321436a0a9e27f579656fe5 3.14.3
 Author:	SLOKnightfall <SLOKnightfall@gmail.com>
-Date:	Sun Mar 13 16:55:51 2022 -0700
+Date:	Sun Mar 20 15:07:36 2022 -0700
 
--9.2 Updates
--Added 9.2 sets
--bugfixes
+-Updated Item Source Data
 
-commit 2f4b9bef42020613d0a6e3f68a5610ba9396dfbe
+commit 8291bc59024953dfa10d9f3d47eadf9983e2acfb
 Author: SLOKnightfall <SLOKnightfall@gmail.com>
-Date:   Sun Mar 13 16:55:11 2022 -0700
+Date:   Sun Mar 20 14:55:55 2022 -0700
 
-    -Added Zereth Mortis armor sets
-
-commit 885689c0fbc98d72af0050611204ef7fa6f7aba9
-Author: SLOKnightfall <SLOKnightfall@gmail.com>
-Date:   Sun Mar 13 15:14:52 2022 -0700
-
-    -Fixed issue with set links if ExtendedTransmog is loaded.
-    -Removed PH sets from extra sets
-
-commit 3381c87688d66f6b35658282762084cfb02a416d
-Author: SLOKnightfall <SLOKnightfall@gmail.com>
-Date:   Sun Mar 13 13:02:34 2022 -0700
-
-    -Updated ELVui skin settings -Issue#251
-
-commit 7fb6efd4fc160a797f794346b8063655d32e47e7
-Author: SLOKnightfall <SLOKnightfall@gmail.com>
-Date:   Sun Mar 13 12:01:34 2022 -0700
-
-    -Repositioned some additional frames to try to solve pixel issue
-
-commit 939847ff2b86dc809f4522708e90a878e148d828
-Author: SLOKnightfall <SLOKnightfall@gmail.com>
-Date:   Sun Mar 13 11:33:53 2022 -0700
-
-    -Updated with blizzard 9.2 collection code changes
+    -Updated Item Source Data
+    -Added refresh when quest lookup does not provide data
 

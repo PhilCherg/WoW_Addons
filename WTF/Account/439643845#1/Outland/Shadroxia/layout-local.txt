@@ -3,9 +3,9 @@ Frame: AllTheThings-Window-CurrentInstance
 FrameLevel: 1
 Anchor: LEFT
 X: 0
-Y: -209
+Y: -218
 W: 410
-H: 216
+H: 199
 Frame: MonkeySpeedFrame
 FrameLevel: 1
 Anchor: TOPRIGHT
@@ -37,10 +37,10 @@ H: 240
 Frame: AllTheThings-Window-Prime
 FrameLevel: 1
 Anchor: CENTER
-X: -113
-Y: 132
-W: 517
-H: 399
+X: 232
+Y: 29
+W: 588
+H: 691
 Frame: AllTheThings-Window-Bounty
 FrameLevel: 1
 Anchor: CENTER
