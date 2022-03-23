@@ -74,10 +74,10 @@ TradeSkillMaster: enabled
 TradeSkillMaster_AppHelper: enabled
 ElvUI_Config: enabled
 ElvUI: enabled
-DBM-Core: disabled
+DBM-Core: enabled
 DBM-DefaultSkin: enabled
-DBM-GUI: disabled
-DBM-StatusBarTimers: disabled
+DBM-GUI: enabled
+DBM-StatusBarTimers: enabled
 DBM-AntorusBurningThrone: disabled
 DBM-Argus: enabled
 DBM-Azeroth-BfA: enabled

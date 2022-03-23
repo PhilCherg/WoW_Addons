@@ -14,49 +14,49 @@ TomTomDB = {
 		["Moneymakeri - Outland"] = "Default",
 		["Moneyfive - Outland"] = "Default",
 		["Necrophagus - Outland"] = "Default",
-		["Elementior - Outland"] = "Default",
+		["Feastthree - Outland"] = "Default",
 		["Lysanaria - Outland"] = "Default",
 		["Moneyseven - Outland"] = "Default",
 		["Feattwo - Outland"] = "Default",
 		["Destruxia - Outland"] = "Default",
-		["Illydaria - Draenor"] = "Default",
 		["Wolfados - Azjol-Nerub"] = "Default",
+		["Afadsfasdfs - Outland"] = "Default",
 		["Farmerixus - Outland"] = "Default",
 		["Luminaxia - Outland"] = "Default",
 		["Testfirst - Outland"] = "Default",
-		["Mallazin - Azjol-Nerub"] = "Default",
+		["Phalonius - Azjol-Nerub"] = "Default",
 		["Bullenic - Silvermoon"] = "Default",
 		["Barbaxius - Outland"] = "Default",
 		["Asdawdwd - Outland"] = "Default",
-		["Moneyfour - Outland"] = "Default",
+		["Moneythree - Outland"] = "Default",
 		["Phelanara - Outland"] = "Default",
 		["Xanthoros - Outland"] = "Default",
 		["Phaltraxion - Outland"] = "Default",
 		["Nibirus - Azjol-Nerub"] = "Default",
-		["Moneyeight - Outland"] = "Default",
-		["Dominaria - Outland"] = "Default",
+		["Asdsaasdf - Outland"] = "Default",
+		["Illyana - Outland"] = "Default",
 		["Käguya - Turalyon"] = "Default",
 		["Feastfour - Outland"] = "Default",
-		["Adsfasdfasdf - Outland"] = "Default",
-		["Asdfsadfsadf - Outland"] = "Default",
-		["Tempgoddess - Outland"] = "Default",
+		["Necropharia - Outland"] = "Default",
+		["Presentone - Outland"] = "Default",
+		["Tinkerflame - Outland"] = "Default",
 		["Feastfive - Outland"] = "Default",
 		["Bankeristor - Outland"] = "Default",
-		["Moneymakerii - Outland"] = "Default",
-		["Asdqwdwq - Die Silberne Hand"] = "Default",
 		["Asdqaweqwd - Outland"] = "Default",
-		["Tinkerflame - Outland"] = "Default",
-		["Presentone - Outland"] = "Default",
-		["Necropharia - Outland"] = "Default",
+		["Asdqwdwq - Die Silberne Hand"] = "Default",
+		["Moneymakerii - Outland"] = "Default",
+		["Tempgoddess - Outland"] = "Default",
+		["Asdfsadfsadf - Outland"] = "Default",
+		["Adsfasdfasdf - Outland"] = "Default",
 		["Aasdfasdfd - Outland"] = "Default",
-		["Illyana - Outland"] = "Default",
-		["Asdsaasdf - Outland"] = "Default",
+		["Dominaria - Outland"] = "Default",
+		["Moneyeight - Outland"] = "Default",
 		["Chernakotka - Die Aldor"] = "Default",
-		["Moneythree - Outland"] = "Default",
+		["Moneyfour - Outland"] = "Default",
 		["Serthaxion - Outland"] = "Default",
-		["Phalonius - Azjol-Nerub"] = "Default",
-		["Afadsfasdfs - Outland"] = "Default",
-		["Feastthree - Outland"] = "Default",
+		["Mallazin - Azjol-Nerub"] = "Default",
+		["Illydaria - Draenor"] = "Default",
+		["Elementior - Outland"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -78,8 +78,8 @@ TomTomDB = {
 				["cleardistance"] = 0,
 			},
 			["mapcoords"] = {
-				["playerenable"] = false,
 				["cursorenable"] = false,
+				["playerenable"] = false,
 			},
 			["block"] = {
 				["enable"] = false,
@@ -110,49 +110,49 @@ TomTomWaypointsM = {
 		["Moneymakeri - Outland"] = "Moneymakeri - Outland",
 		["Moneyfive - Outland"] = "Moneyfive - Outland",
 		["Necrophagus - Outland"] = "Necrophagus - Outland",
-		["Elementior - Outland"] = "Elementior - Outland",
+		["Feastthree - Outland"] = "Feastthree - Outland",
 		["Lysanaria - Outland"] = "Lysanaria - Outland",
 		["Moneyseven - Outland"] = "Moneyseven - Outland",
 		["Feattwo - Outland"] = "Feattwo - Outland",
 		["Destruxia - Outland"] = "Destruxia - Outland",
-		["Illydaria - Draenor"] = "Illydaria - Draenor",
 		["Wolfados - Azjol-Nerub"] = "Wolfados - Azjol-Nerub",
+		["Afadsfasdfs - Outland"] = "Afadsfasdfs - Outland",
 		["Farmerixus - Outland"] = "Farmerixus - Outland",
 		["Luminaxia - Outland"] = "Luminaxia - Outland",
 		["Testfirst - Outland"] = "Testfirst - Outland",
-		["Mallazin - Azjol-Nerub"] = "Mallazin - Azjol-Nerub",
+		["Phalonius - Azjol-Nerub"] = "Phalonius - Azjol-Nerub",
 		["Bullenic - Silvermoon"] = "Bullenic - Silvermoon",
 		["Barbaxius - Outland"] = "Barbaxius - Outland",
 		["Asdawdwd - Outland"] = "Asdawdwd - Outland",
-		["Moneyfour - Outland"] = "Moneyfour - Outland",
+		["Moneythree - Outland"] = "Moneythree - Outland",
 		["Phelanara - Outland"] = "Phelanara - Outland",
 		["Xanthoros - Outland"] = "Xanthoros - Outland",
 		["Phaltraxion - Outland"] = "Phaltraxion - Outland",
 		["Nibirus - Azjol-Nerub"] = "Nibirus - Azjol-Nerub",
-		["Moneyeight - Outland"] = "Moneyeight - Outland",
-		["Dominaria - Outland"] = "Dominaria - Outland",
+		["Asdsaasdf - Outland"] = "Asdsaasdf - Outland",
+		["Illyana - Outland"] = "Illyana - Outland",
 		["Käguya - Turalyon"] = "Käguya - Turalyon",
 		["Feastfour - Outland"] = "Feastfour - Outland",
-		["Adsfasdfasdf - Outland"] = "Adsfasdfasdf - Outland",
-		["Asdfsadfsadf - Outland"] = "Asdfsadfsadf - Outland",
-		["Tempgoddess - Outland"] = "Tempgoddess - Outland",
+		["Necropharia - Outland"] = "Necropharia - Outland",
+		["Presentone - Outland"] = "Presentone - Outland",
+		["Tinkerflame - Outland"] = "Tinkerflame - Outland",
 		["Feastfive - Outland"] = "Feastfive - Outland",
 		["Bankeristor - Outland"] = "Bankeristor - Outland",
-		["Moneymakerii - Outland"] = "Moneymakerii - Outland",
-		["Asdqwdwq - Die Silberne Hand"] = "Asdqwdwq - Die Silberne Hand",
 		["Asdqaweqwd - Outland"] = "Asdqaweqwd - Outland",
-		["Tinkerflame - Outland"] = "Tinkerflame - Outland",
-		["Presentone - Outland"] = "Presentone - Outland",
-		["Necropharia - Outland"] = "Necropharia - Outland",
+		["Asdqwdwq - Die Silberne Hand"] = "Asdqwdwq - Die Silberne Hand",
+		["Moneymakerii - Outland"] = "Moneymakerii - Outland",
+		["Tempgoddess - Outland"] = "Tempgoddess - Outland",
+		["Asdfsadfsadf - Outland"] = "Asdfsadfsadf - Outland",
+		["Adsfasdfasdf - Outland"] = "Adsfasdfasdf - Outland",
 		["Aasdfasdfd - Outland"] = "Aasdfasdfd - Outland",
-		["Illyana - Outland"] = "Illyana - Outland",
-		["Asdsaasdf - Outland"] = "Asdsaasdf - Outland",
+		["Dominaria - Outland"] = "Dominaria - Outland",
+		["Moneyeight - Outland"] = "Moneyeight - Outland",
 		["Chernakotka - Die Aldor"] = "Chernakotka - Die Aldor",
-		["Moneythree - Outland"] = "Moneythree - Outland",
+		["Moneyfour - Outland"] = "Moneyfour - Outland",
 		["Serthaxion - Outland"] = "Serthaxion - Outland",
-		["Phalonius - Azjol-Nerub"] = "Phalonius - Azjol-Nerub",
-		["Afadsfasdfs - Outland"] = "Afadsfasdfs - Outland",
-		["Feastthree - Outland"] = "Feastthree - Outland",
+		["Mallazin - Azjol-Nerub"] = "Mallazin - Azjol-Nerub",
+		["Illydaria - Draenor"] = "Illydaria - Draenor",
+		["Elementior - Outland"] = "Elementior - Outland",
 	},
 	["profiles"] = {
 		["Asefawefad - Outland"] = {
@@ -180,40 +180,8 @@ TomTomWaypointsM = {
 		["Moneyfive - Outland"] = {
 		},
 		["Necrophagus - Outland"] = {
-			[1970] = {
-				["1970:344900000:497100000:Inside Exile's Hollow"] = {
-					1970, -- [1]
-					0.3449, -- [2]
-					0.4971, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Inside Exile's Hollow",
-					["silent"] = true,
-					["cleardistance"] = 0,
-					["title"] = "Inside Exile's Hollow",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
 		},
-		["Elementior - Outland"] = {
+		["Feastthree - Outland"] = {
 		},
 		["Lysanaria - Outland"] = {
 		},
@@ -223,9 +191,9 @@ TomTomWaypointsM = {
 		},
 		["Destruxia - Outland"] = {
 		},
-		["Illydaria - Draenor"] = {
-		},
 		["Wolfados - Azjol-Nerub"] = {
+		},
+		["Afadsfasdfs - Outland"] = {
 		},
 		["Farmerixus - Outland"] = {
 		},
@@ -235,61 +203,61 @@ TomTomWaypointsM = {
 					1161, -- [1]
 					0.4777, -- [2]
 					0.3937, -- [3]
-					["crazy"] = true,
-					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
-					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
 						},
+						["minimap"] = {
+						},
 					},
-					["minimap_displayID"] = 89265,
-					["persistent"] = true,
+					["desc"] = "Return to the Orphanage",
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
 					["minimap"] = true,
+					["persistent"] = true,
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["silent"] = true,
 					["cleardistance"] = 0,
 					["title"] = "Return to the Orphanage",
-					["worldmap_displayID"] = 89265,
+					["minimap_displayID"] = 89265,
 					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
-					["desc"] = "Return to the Orphanage",
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
+					["worldmap_displayID"] = 89265,
 					["world"] = true,
 				},
 				["1161:480100000:402800000:Return to the Orphanage"] = {
 					1161, -- [1]
 					0.4801, -- [2]
 					0.4028, -- [3]
-					["crazy"] = true,
-					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
-					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
 						},
+						["minimap"] = {
+						},
 					},
-					["minimap_displayID"] = 89265,
-					["persistent"] = true,
+					["desc"] = "Return to the Orphanage",
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
 					["minimap"] = true,
+					["persistent"] = true,
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["silent"] = true,
 					["cleardistance"] = 0,
 					["title"] = "Return to the Orphanage",
-					["worldmap_displayID"] = 89265,
+					["minimap_displayID"] = 89265,
 					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
-					["desc"] = "Return to the Orphanage",
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
+					["worldmap_displayID"] = 89265,
 					["world"] = true,
 				},
 			},
 		},
 		["Testfirst - Outland"] = {
 		},
-		["Mallazin - Azjol-Nerub"] = {
+		["Phalonius - Azjol-Nerub"] = {
 		},
 		["Bullenic - Silvermoon"] = {
 		},
@@ -297,7 +265,7 @@ TomTomWaypointsM = {
 		},
 		["Asdawdwd - Outland"] = {
 		},
-		["Moneyfour - Outland"] = {
+		["Moneythree - Outland"] = {
 		},
 		["Phelanara - Outland"] = {
 			[1161] = {
@@ -305,54 +273,54 @@ TomTomWaypointsM = {
 					1161, -- [1]
 					0.4777, -- [2]
 					0.3937, -- [3]
-					["crazy"] = true,
-					["title"] = "Return to the Orphanage",
-					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
 						},
+						["minimap"] = {
+						},
 					},
-					["minimap_displayID"] = 89265,
-					["persistent"] = true,
+					["minimap"] = true,
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
 					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["persistent"] = true,
+					["desc"] = "Return to the Orphanage",
 					["silent"] = true,
 					["cleardistance"] = 0,
 					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
 					["worldmap_displayID"] = 89265,
-					["minimap"] = true,
-					["desc"] = "Return to the Orphanage",
+					["minimap_displayID"] = 89265,
+					["title"] = "Return to the Orphanage",
 					["world"] = true,
 				},
 				["1161:480100000:402800000:Return to the Orphanage"] = {
 					1161, -- [1]
 					0.4801, -- [2]
 					0.4028, -- [3]
-					["crazy"] = true,
-					["title"] = "Return to the Orphanage",
-					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
 						},
+						["minimap"] = {
+						},
 					},
-					["minimap_displayID"] = 89265,
-					["persistent"] = true,
+					["minimap"] = true,
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
 					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["persistent"] = true,
+					["desc"] = "Return to the Orphanage",
 					["silent"] = true,
 					["cleardistance"] = 0,
 					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
 					["worldmap_displayID"] = 89265,
-					["minimap"] = true,
-					["desc"] = "Return to the Orphanage",
+					["minimap_displayID"] = 89265,
+					["title"] = "Return to the Orphanage",
 					["world"] = true,
 				},
 			},
@@ -363,37 +331,7 @@ TomTomWaypointsM = {
 		},
 		["Nibirus - Azjol-Nerub"] = {
 		},
-		["Moneyeight - Outland"] = {
-		},
-		["Dominaria - Outland"] = {
-		},
-		["Käguya - Turalyon"] = {
-		},
-		["Feastfour - Outland"] = {
-		},
-		["Adsfasdfasdf - Outland"] = {
-		},
-		["Asdfsadfsadf - Outland"] = {
-		},
-		["Tempgoddess - Outland"] = {
-		},
-		["Feastfive - Outland"] = {
-		},
-		["Bankeristor - Outland"] = {
-		},
-		["Moneymakerii - Outland"] = {
-		},
-		["Asdqwdwq - Die Silberne Hand"] = {
-		},
-		["Asdqaweqwd - Outland"] = {
-		},
-		["Tinkerflame - Outland"] = {
-		},
-		["Presentone - Outland"] = {
-		},
-		["Necropharia - Outland"] = {
-		},
-		["Aasdfasdfd - Outland"] = {
+		["Asdsaasdf - Outland"] = {
 		},
 		["Illyana - Outland"] = {
 			[830] = {
@@ -412,9 +350,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -422,11 +360,41 @@ TomTomWaypointsM = {
 				},
 			},
 		},
-		["Asdsaasdf - Outland"] = {
+		["Käguya - Turalyon"] = {
+		},
+		["Feastfour - Outland"] = {
+		},
+		["Necropharia - Outland"] = {
+		},
+		["Presentone - Outland"] = {
+		},
+		["Tinkerflame - Outland"] = {
+		},
+		["Feastfive - Outland"] = {
+		},
+		["Bankeristor - Outland"] = {
+		},
+		["Asdqaweqwd - Outland"] = {
+		},
+		["Asdqwdwq - Die Silberne Hand"] = {
+		},
+		["Moneymakerii - Outland"] = {
+		},
+		["Tempgoddess - Outland"] = {
+		},
+		["Asdfsadfsadf - Outland"] = {
+		},
+		["Adsfasdfasdf - Outland"] = {
+		},
+		["Aasdfasdfd - Outland"] = {
+		},
+		["Dominaria - Outland"] = {
+		},
+		["Moneyeight - Outland"] = {
 		},
 		["Chernakotka - Die Aldor"] = {
 		},
-		["Moneythree - Outland"] = {
+		["Moneyfour - Outland"] = {
 		},
 		["Serthaxion - Outland"] = {
 			[1161] = {
@@ -434,26 +402,26 @@ TomTomWaypointsM = {
 					1161, -- [1]
 					0.4777, -- [2]
 					0.3937, -- [3]
+					["crazy"] = true,
+					["minimap"] = true,
+					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
 						},
+						["world"] = {
+						},
 					},
-					["minimap"] = true,
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["worldmap_displayID"] = 89265,
+					["title"] = "Return to the Orphanage",
 					["persistent"] = true,
 					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["silent"] = true,
 					["cleardistance"] = 0,
-					["title"] = "Return to the Orphanage",
+					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
 					["minimap_displayID"] = 89265,
-					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["worldmap_displayID"] = 89265,
 					["desc"] = "Return to the Orphanage",
 					["world"] = true,
 				},
@@ -461,36 +429,36 @@ TomTomWaypointsM = {
 					1161, -- [1]
 					0.4801, -- [2]
 					0.4028, -- [3]
+					["crazy"] = true,
+					["minimap"] = true,
+					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
 						},
+						["world"] = {
+						},
 					},
-					["minimap"] = true,
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["worldmap_displayID"] = 89265,
+					["title"] = "Return to the Orphanage",
 					["persistent"] = true,
 					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["silent"] = true,
 					["cleardistance"] = 0,
-					["title"] = "Return to the Orphanage",
+					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
 					["minimap_displayID"] = 89265,
-					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["worldmap_displayID"] = 89265,
 					["desc"] = "Return to the Orphanage",
 					["world"] = true,
 				},
 			},
 		},
-		["Phalonius - Azjol-Nerub"] = {
+		["Mallazin - Azjol-Nerub"] = {
 		},
-		["Afadsfasdfs - Outland"] = {
+		["Illydaria - Draenor"] = {
 		},
-		["Feastthree - Outland"] = {
+		["Elementior - Outland"] = {
 		},
 	},
 }

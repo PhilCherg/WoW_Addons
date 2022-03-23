@@ -3,7 +3,7 @@ Frame: AllTheThings-Window-CurrentInstance
 FrameLevel: 1
 Anchor: LEFT
 X: 0
-Y: -218
+Y: -220
 W: 410
 H: 199
 Frame: MonkeySpeedFrame
@@ -69,3 +69,10 @@ X: 0
 Y: 0
 W: 300
 H: 300
+Frame: DBM_GUI_OptionsFrame
+FrameLevel: 5
+Anchor: CENTER
+X: 79
+Y: -6
+W: 800
+H: 600
