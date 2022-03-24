@@ -2,270 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"<NOVA> OFFERING  HEROIC  |cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r 10/10  360k - 8/10 HC 306k / Sylvanas HC 72k / Kel'Thuzad HC 59k /Sylvanas+Kel  117k / M+14 135k / M+15 149k /M+16 202k /M+17 270k /M+18 360k / M19 540k /M+20 585k", -- [1]
-			"Novabostt-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novabostt-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			929, -- [11]
-			"Player-1301-0C0FC140", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Novabostt|r",
-			[51] = 1634910206,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"<NoVA> Big  discount M0 to +22 (M 15 = 139.5k (Sylvanas HC=72k  both=117 [SoD]10/10 HC = 360k ) (4x15 =496k  KSM = 1890k (2k io)TAZAVESH =90( 216k) PVP_ torghasL9-12_LVLUP 50-60> Mount>> 2or MORE RUNS discounts/ FREE STACK  only gold / W for info", -- [1]
-			"Novatinox-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novatinox-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			934, -- [11]
-			"Player-1301-0C152D06", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Novatinox|r",
-			[51] = 1634910215,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"WTB All CSGO/Dota2/Rust/TF2/Steam Items for TBC/Retail/New World Gold & WTT Gold Between TBC and Retail Servers (both ways) go to trade-raid.com", -- [1]
-			"Trâdesraids-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Trâdesraids-Outland", -- [5]
-			"DND", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			973, -- [11]
-			"Player-1301-0C1454A2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcTrâdesraids|r",
-			[51] = 1634910249,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"<<NOVA>>  Offering  10/10 Sod HC 360K Traders Avaible ||M+10=77k|| ||M+14=135k|| ||M+15=150k|| ||M+16=225K|| ||M+17=315K|| <<<  Weekly  +15 140k!  >>> Torghast And PVP 2s 3s  /w for More Info", -- [1]
-			"Novagamîng-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novagamîng-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1168, -- [11]
-			"Player-1301-0C063D2A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Novagamîng|r",
-			[51] = 1634910369,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"[WTS] Sanctum of Domination FULL MYTHIC RUN 10/10 |cffffff00|Hachievement:15135:Player-1301-0C134182:1:8:11:21:4294967295:4294967295:4294967295:4294967295|h[Cutting Edge: Sylvanas Windrunner]|h|r with VIP traders and Mount! Start TODAY!/w me for info", -- [1]
-			"Weisolm-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Weisolm-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1206, -- [11]
-			"Player-1301-0C134182", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Weisolm|r",
-			[51] = 1634910399,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
-		{
-			"wts |cffffff00|Hachievement:5343:Player-1301-0C19C5F0:0:0:0:-1:0:0:0:0|h[Grand Marshal]|h|r |cffffff00|Hachievement:2091:Player-1301-0C19C5F0:0:0:0:-1:0:0:0:0|h[Gladiator]|h|r pvp boosting any rating for vendors reward /w me grp ready infos.", -- [1]
-			"Yiurequest-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Yiurequest-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			504, -- [11]
-			"Player-1301-0C19C5F0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cYiurequest|r",
-			[51] = 1637261808,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
-		{
-			"inv plz", -- [1]
-			"Dunklerialus-Turalyon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Dunklerialus-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			513, -- [11]
-			"Player-1402-04BCB814", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Dunklerialus-Turalyon|r",
-			[51] = 1637261886,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [7]
-		{
-			"inv", -- [1]
-			"Littlefinn-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Littlefinn-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			514, -- [11]
-			"Player-3391-0B396DD1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edLittlefinn-Silvermoon|r",
-			[51] = 1637262060,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [8]
-		{
-			"wouahhhhhhhhhh", -- [1]
-			"Dhïanha-LesSentinelles", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Dhïanha-LesSentinelles", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			519, -- [11]
-			"Player-1127-04F46B62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Dhïanha-LesSentinelles|r",
-			[51] = 1637262079,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [9]
-		{
-			"can people fking release?", -- [1]
-			"Rozidru-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rozidru-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			537, -- [11]
-			"Player-3391-0BEEEC8A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Rozidru-Silvermoon|r",
-			[51] = 1637262196,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [10]
-		{
-			"nuk kek kek", -- [1]
-			"Bakuga-Ragnaros", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Bakuga-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			640, -- [11]
-			"Player-3682-05B8671C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcBakuga-Ragnaros|r",
-			[51] = 1637339318,
-			[50] = "CHAT_MSG_YELL",
-		}, -- [11]
-		{
-			"Moguna  ", -- [1]
-			"Moderatus-Aggra(Português)", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Moderatus-Aggra(Português)", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			644, -- [11]
-			"Player-1303-05960CB3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Moderatus-Aggra(Português)|r",
-			[51] = 1637339364,
-			[50] = "CHAT_MSG_YELL",
-		}, -- [12]
-		{
 			"WTS Mythic+ 15-20 /lvling boost 50-60/ Torghast (layer 1-12) for gold /w me for info", -- [1]
 			"Peros-Outland", -- [2]
 			"", -- [3]
@@ -286,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Peros|r",
 			[51] = 1637339461,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
+		}, -- [1]
 		{
 			" [WTS] |cffffff00|Hachievement:15134:Player-1301-0C19E403:0:0:0:-1:0:0:0:0|h[Der Zeit voraus: Sylvanas Windläufer]|h|r HC [Sylvanas] >65k< [Kel'thuzad] >45k< [BOTH] >100k< !!! Now  Every 30 minutes Get 246 ilvl Loot  /w me or visit us in discord.gg/rcu ", -- [1]
 			"Holfi-Outland", -- [2]
@@ -308,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHolfi|r",
 			[51] = 1637339474,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
+		}, -- [2]
 		{
 			"come on", -- [1]
 			"Speedos-Thunderhorn", -- [2]
@@ -330,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Speedos-Thunderhorn|r",
 			[51] = 1637339982,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [15]
+		}, -- [3]
 		{
 			"this health ...", -- [1]
 			"Knives-Elune", -- [2]
@@ -352,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Knives-Elune|r",
 			[51] = 1637340120,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [16]
+		}, -- [4]
 		{
 			"[RCU] WTS Heroic|cff66bbff|Hjournal:1:2441:14|h[Sylvanas Windrunner]|h|r60k |cff66bbff|Hjournal:1:2440:14|h[Kel'Thuzad]|h|r40k (Both 90k) |||cff66bbff|Hjournal:0:1193:15|h[Sanctum of Domination]|h|r10/10 HC||M+15=120k 4x 410k > M+20=500k/w me for info", -- [1]
 			"Angelbloody-Outland", -- [2]
@@ -374,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Angelbloody|r",
 			[51] = 1640002304,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
+		}, -- [5]
 		{
 			"Looking for 4 players to sign my guild. Easy 5k gold. Come on", -- [1]
 			"Newname-Outland", -- [2]
@@ -396,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Newname|r",
 			[51] = 1640002662,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
+		}, -- [6]
 		{
 			">Nova< Special OFFER 10/10 HC SoD 260k VIP trader 190k ||M+10=75k M+14=100k  M+15=110k M+16=165k M+18=300k M+20=520k KSM=1.7m KSH=3600k(all +20 intime) HM=190k ||lvlup 50-60 {Gold Only} /w <3", -- [1]
 			"Sunnylove-Outland", -- [2]
@@ -418,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Sunnylove|r",
 			[51] = 1640002694,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
+		}, -- [7]
 		{
 			" [RCU] |cffffff00|Hachievement:15134:Player-1301-0C19E403:0:0:0:-1:0:0:0:0|h[Der Zeit voraus: Sylvanas Windläufer]|h|r HC [Sylvanas] >60k< [Kel'thuzad] >40k< [BOTH] >90k< !!! Also offering SOD HC 10/10 [300k] 1vip+Lootshare [500k] extra VIP's 180k  /w me or visit us in discord.gg/rcu ", -- [1]
 			"Holfi-Outland", -- [2]
@@ -440,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHolfi|r",
 			[51] = 1640103937,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
+		}, -- [8]
 		{
 			"<O B C> Selling KT+Sylvanas HC now! Receive |cffffff00|Hachievement:15134:Player-1301-0C1E1F17:1:9:14:21:0:0:0:0|h[Ahead of the Curve: Sylvanas Windrunner]|h|r with the chance of 246 loot & |cffff8000|Hitem:186414::::::::10:1453:::::::::|h[Rae'shalare, Death's Whisper]|h|r for 40k KT, 60k Sylvanas or 90k for BOTH! Going every 20 mins, /w", -- [1]
 			"Renataa-Outland", -- [2]
@@ -462,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Renataa|r",
 			[51] = 1640103943,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
+		}, -- [9]
 		{
 			"[RCU] WTS HC |cff66bbff|Hjournal:1:2441:15|h[Sylvanas Windrunner]|h|r [60k] |cff66bbff|Hjournal:1:2440:15|h[Kel'Thuzad]|h|r [40k] Both [90k] every 40 min |cffffff00|Hachievement:15134:Player-1301-0BFAA238:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sylvanas Windrunner]|h|r  [M+15=120k] [4xM+15=410k] [M+20=500k] Also offering Mythic SoD  /w", -- [1]
 			"Abcent-Outland", -- [2]
@@ -484,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Abcent|r",
 			[51] = 1640447673,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
+		}, -- [10]
 		{
 			"|cffffff00Valley of Heroes is under attack!|r", -- [1]
 			"", -- [2]
@@ -506,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1644400104,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
+		}, -- [11]
 		{
 			"|cffffff00Trade District is under attack!|r", -- [1]
 			"", -- [2]
@@ -528,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1644400105,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
+		}, -- [12]
 		{
 			"NOONE ALLOQWS TO USE MAIL BOX>", -- [1]
 			"Kaypiff-TheMaelstrom", -- [2]
@@ -550,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Kaypiff-TheMaelstrom|r",
 			[51] = 1644400119,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [25]
+		}, -- [13]
 		{
 			"|cffffd100|HclubFinder:ClubFinder-1-76730-1301-87462970|h[Guild: The Flat Azeroth Society]|h|r  [Outland] seeks believers. We are getting ready for the next raid and do alot of M+  We also do achievement hunting, mog runs and have a social community<3", -- [1]
 			"Missbunny-Outland", -- [2]
@@ -572,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Missbunny|r",
 			[51] = 1644696893,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
+		}, -- [14]
 		{
 			"LF Help with a macro...", -- [1]
 			"Óhh-Outland", -- [2]
@@ -594,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeÓhh|r",
 			[51] = 1644696915,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
+		}, -- [15]
 		{
 			"Thanks all!", -- [1]
 			"Magefizzle-Draenor", -- [2]
@@ -616,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaMagefizzle-Draenor|r",
 			[51] = 1644697019,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [28]
+		}, -- [16]
 		{
 			"has summoned a |cff71d5ff|Hspell:61425:0|h[Traveler's Tundra Mammoth]|h|r.", -- [1]
 			"Lemani-Sylvanas", -- [2]
@@ -638,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lemani-Sylvanas|r",
 			[51] = 1645003883,
 			[50] = "CHAT_MSG_EMOTE",
-		}, -- [29]
+		}, -- [17]
 		{
 			"|cffffff00Stormwind City Outskirts is under attack!|r", -- [1]
 			"", -- [2]
@@ -660,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1645003988,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
+		}, -- [18]
 		{
 			"[Healer Protection] {rt8} I have AGGRO [Tengo AGGRO]", -- [1]
 			"Yanlunn-LosErrantes", -- [2]
@@ -682,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Yanlunn-LosErrantes|r",
 			[51] = 1645004101,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [31]
+		}, -- [19]
 		{
 			"wtb |cffffffff|Hitem:178926::::::::60:70:::::::::|h[Shadowghast Ring]|h|r", -- [1]
 			"Thomass-Outland", -- [2]
@@ -704,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Thomass|r",
 			[51] = 1645091132,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
+		}, -- [20]
 		{
 			"Any active pvp guild? My guild just went horde..", -- [1]
 			"Montesa-Outland", -- [2]
@@ -726,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Montesa|r",
 			[51] = 1645091177,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
+		}, -- [21]
 		{
 			"lf boost in random dungeons for my 58 friend to 60", -- [1]
 			"Lebbelóne-Outland", -- [2]
@@ -748,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaLebbelóne|r",
 			[51] = 1645212094,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
+		}, -- [22]
 		{
 			"lf boost in random dungeons for my 58 friend to 60 just a few runs would be appreciated", -- [1]
 			"Lebbelóne-Outland", -- [2]
@@ -770,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaLebbelóne|r",
 			[51] = 1645212109,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
+		}, -- [23]
 		{
 			"hey", -- [1]
 			"Messías-Outland", -- [2]
@@ -792,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Messías|r",
 			[51] = 1645304186,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
+		}, -- [24]
 		{
 			"Its me messias", -- [1]
 			"Messías-Outland", -- [2]
@@ -814,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Messías|r",
 			[51] = 1645304189,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
+		}, -- [25]
 		{
 			"never hear of u", -- [1]
 			"Maeryus-Outland", -- [2]
@@ -836,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Maeryus|r",
 			[51] = 1645304248,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
+		}, -- [26]
 		{
 			"WTS 1400/1600/1800/2100 arena boost from multi glad. Don't miss the chance to get your elite set. done 500+ boost this season !!!CHEAP!!!", -- [1]
 			"Vialdren-Outland", -- [2]
@@ -858,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Vialdren|r",
 			[51] = 1645304263,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
+		}, -- [27]
 		{
 			"Yes its me", -- [1]
 			"Messías-Outland", -- [2]
@@ -880,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Messías|r",
 			[51] = 1645304299,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
+		}, -- [28]
 		{
 			"Messias", -- [1]
 			"Messías-Outland", -- [2]
@@ -902,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Messías|r",
 			[51] = 1645304300,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
+		}, -- [29]
 		{
 			"What congregation for dh pvp ? ", -- [1]
 			"Friggä-Outland", -- [2]
@@ -924,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Friggä|r",
 			[51] = 1645304340,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
+		}, -- [30]
 		{
 			"please", -- [1]
 			"Friggä-Outland", -- [2]
@@ -946,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Friggä|r",
 			[51] = 1645304344,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
+		}, -- [31]
 		{
 			"Throm Gi n grom l n zug", -- [1]
 			"Argoram-Outland", -- [2]
@@ -968,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Argoram|r",
 			[51] = 1645461681,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [44]
+		}, -- [32]
 		{
 			"Valfir the Unrelenting is up, if anyone's interested. I can make him attackable. He can drop |cff71d5ff|Hspell:334366:0|h[Wild Glimmerfur Prowler]|h|r for Night Far players.", -- [1]
 			"Oliveoil-Outland", -- [2]
@@ -990,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Oliveoil|r",
 			[51] = 1647979426,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [33]
 		{
 			"|cffffff00|Hworldmap:1565:3037:5487|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Oliveoil-Outland", -- [2]
@@ -1012,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Oliveoil|r",
 			[51] = 1647979433,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
+		}, -- [34]
 		{
 			">> FRONTAL ON ME <<", -- [1]
 			"Mizziie-Silvermoon", -- [2]
@@ -1034,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Mizziie-Silvermoon|r",
 			[51] = 1647988906,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [47]
+		}, -- [35]
 		{
 			"so you want to tank ?", -- [1]
 			"Mizziie-Silvermoon", -- [2]
@@ -1056,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Mizziie-Silvermoon|r",
 			[51] = 1647989178,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [48]
+		}, -- [36]
 		{
 			"can you die so we can wipe?", -- [1]
 			"Wuffbutt-Silvermoon", -- [2]
@@ -1078,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWuffbutt-Silvermoon|r",
 			[51] = 1647989182,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [49]
+		}, -- [37]
 		{
 			"or just kill the rest of us", -- [1]
 			"Mizziie-Silvermoon", -- [2]
@@ -1100,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Mizziie-Silvermoon|r",
 			[51] = 1647989187,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [50]
+		}, -- [38]
 		{
 			"Curse of Obliteration on Ahmadagho", -- [1]
 			"Ahmadagho-Silvermoon", -- [2]
@@ -1122,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Ahmadagho-Silvermoon|r",
 			[51] = 1647989192,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [51]
+		}, -- [39]
 		{
 			"3", -- [1]
 			"Ahmadagho-Silvermoon", -- [2]
@@ -1144,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Ahmadagho-Silvermoon|r",
 			[51] = 1647989195,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [52]
+		}, -- [40]
 		{
 			"2", -- [1]
 			"Ahmadagho-Silvermoon", -- [2]
@@ -1166,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Ahmadagho-Silvermoon|r",
 			[51] = 1647989196,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [53]
+		}, -- [41]
 		{
 			"this wasnt needed...", -- [1]
 			"Wuffbutt-Silvermoon", -- [2]
@@ -1188,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWuffbutt-Silvermoon|r",
 			[51] = 1647989202,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [54]
+		}, -- [42]
 		{
 			"ffs", -- [1]
 			"Wuffbutt-Silvermoon", -- [2]
@@ -1210,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWuffbutt-Silvermoon|r",
 			[51] = 1647989203,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [55]
+		}, -- [43]
 		{
 			"item lvl 261 btw", -- [1]
 			"Wuffbutt-Silvermoon", -- [2]
@@ -1232,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWuffbutt-Silvermoon|r",
 			[51] = 1647989230,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [56]
+		}, -- [44]
 		{
 			"deleted xD", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -1254,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1647989233,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [57]
+		}, -- [45]
 		{
 			"came to normal to feel good about himself KEKW", -- [1]
 			"Wuffbutt-Silvermoon", -- [2]
@@ -1276,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWuffbutt-Silvermoon|r",
 			[51] = 1647989237,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [58]
+		}, -- [46]
 		{
 			"cant even solo it lol", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -1298,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1647989246,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [59]
+		}, -- [47]
 		{
 			"kekw", -- [1]
 			"Wuffbutt-Silvermoon", -- [2]
@@ -1320,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWuffbutt-Silvermoon|r",
 			[51] = 1647989251,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [60]
+		}, -- [48]
 		{
 			"i can solo this shit on my 252 lock xD", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -1342,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1647989257,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [61]
+		}, -- [49]
 		{
 			">> FRONTAL ON ME <<", -- [1]
 			"Mizziie-Silvermoon", -- [2]
@@ -1364,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Mizziie-Silvermoon|r",
 			[51] = 1647989302,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [62]
+		}, -- [50]
 		{
 			"shall we try with no healer?", -- [1]
 			"Mizziie-Silvermoon", -- [2]
@@ -1386,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Mizziie-Silvermoon|r",
 			[51] = 1647989356,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [63]
+		}, -- [51]
 		{
 			"can do", -- [1]
 			"Wuffbutt-Silvermoon", -- [2]
@@ -1408,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWuffbutt-Silvermoon|r",
 			[51] = 1647989363,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [64]
+		}, -- [52]
 		{
 			">> SLAM ON ME <<", -- [1]
 			"Mizziie-Silvermoon", -- [2]
@@ -1430,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Mizziie-Silvermoon|r",
 			[51] = 1647989371,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [65]
+		}, -- [53]
 		{
 			"lets skip those", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -1452,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1647989484,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [66]
+		}, -- [54]
 		{
 			"ready", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -1474,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1647989489,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [67]
+		}, -- [55]
 		{
 			"we might need a healer on tis", -- [1]
 			"Mizziie-Silvermoon", -- [2]
@@ -1496,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Mizziie-Silvermoon|r",
 			[51] = 1647989509,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [68]
+		}, -- [56]
 		{
 			"we can try", -- [1]
 			"Wuffbutt-Silvermoon", -- [2]
@@ -1518,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWuffbutt-Silvermoon|r",
 			[51] = 1647989514,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [69]
+		}, -- [57]
 		{
 			"we doing fine ", -- [1]
 			"Wuffbutt-Silvermoon", -- [2]
@@ -1540,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWuffbutt-Silvermoon|r",
 			[51] = 1647989579,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [70]
+		}, -- [58]
 		{
 			"good tanking <3", -- [1]
 			"Wuffbutt-Silvermoon", -- [2]
@@ -1562,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWuffbutt-Silvermoon|r",
 			[51] = 1647989582,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [71]
+		}, -- [59]
 		{
 			">> FRONTAL ON ME <<", -- [1]
 			"Mizziie-Silvermoon", -- [2]
@@ -1584,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Mizziie-Silvermoon|r",
 			[51] = 1647989619,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [72]
+		}, -- [60]
 		{
 			"dafuq!?", -- [1]
 			"Tokopitipita-Sylvanas", -- [2]
@@ -1606,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Tokopitipita-Sylvanas|r",
 			[51] = 1647989699,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [73]
+		}, -- [61]
 		{
 			"?", -- [1]
 			"Wuffbutt-Silvermoon", -- [2]
@@ -1628,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWuffbutt-Silvermoon|r",
 			[51] = 1647989705,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [74]
+		}, -- [62]
 		{
 			"DH didnt handle the add we were all taking too much dmg", -- [1]
 			"Tokopitipita-Sylvanas", -- [2]
@@ -1650,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Tokopitipita-Sylvanas|r",
 			[51] = 1647989727,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [75]
+		}, -- [63]
 		{
 			"In case it was me i am new and never played this one", -- [1]
 			"Vergoat-Ravencrest", -- [2]
@@ -1672,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Vergoat-Ravencrest|r",
 			[51] = 1647989756,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [76]
+		}, -- [64]
 		{
 			"for future reference, when you get targeted by the add you have to guide it to hit one of those urns around", -- [1]
 			"Tokopitipita-Sylvanas", -- [2]
@@ -1694,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Tokopitipita-Sylvanas|r",
 			[51] = 1647989799,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [77]
+		}, -- [65]
 		{
 			"otherwise the wholegroup takes dmg", -- [1]
 			"Tokopitipita-Sylvanas", -- [2]
@@ -1716,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Tokopitipita-Sylvanas|r",
 			[51] = 1647989808,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [78]
+		}, -- [66]
 		{
 			"Interrupted |cff71d5ff|Hspell:334748:0|h[Drain Fluids]|h|r on Corpse Harvester", -- [1]
 			"Ravenoflight-Outland", -- [2]
@@ -1738,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Ravenoflight|r",
 			[51] = 1647990517,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [79]
+		}, -- [67]
 		{
 			"Interrupted |cff71d5ff|Hspell:320462:0|h[Necrotic Bolt]|h|r on Zolramus Sorcerer", -- [1]
 			"Ravenoflight-Outland", -- [2]
@@ -1760,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Ravenoflight|r",
 			[51] = 1647990655,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [80]
+		}, -- [68]
 		{
 			"Interrupted |cff71d5ff|Hspell:320462:0|h[Necrotic Bolt]|h|r on Zolramus Necromancer", -- [1]
 			"Ravenoflight-Outland", -- [2]
@@ -1782,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Ravenoflight|r",
 			[51] = 1647990663,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [81]
+		}, -- [69]
 		{
 			"Interrupted |cff71d5ff|Hspell:324293:0|h[Rasping Scream]|h|r on Skeletal Marauder", -- [1]
 			"Ravenoflight-Outland", -- [2]
@@ -1804,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Ravenoflight|r",
 			[51] = 1647990713,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [82]
+		}, -- [70]
 		{
 			"skip those", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -1826,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1647990720,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [83]
+		}, -- [71]
 		{
 			"shroud", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -1848,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1647990723,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [84]
+		}, -- [72]
 		{
 			"or not and waste everyone's time instead...", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -1870,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1647990767,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [85]
+		}, -- [73]
 		{
 			"well", -- [1]
 			"Ravenoflight-Outland", -- [2]
@@ -1892,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Ravenoflight|r",
 			[51] = 1647990854,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [86]
+		}, -- [74]
 		{
 			"go back", -- [1]
 			"Ravenoflight-Outland", -- [2]
@@ -1914,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Ravenoflight|r",
 			[51] = 1647991018,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [87]
+		}, -- [75]
 		{
 			"take spheres", -- [1]
 			"Ravenoflight-Outland", -- [2]
@@ -1936,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Ravenoflight|r",
 			[51] = 1647991021,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [88]
+		}, -- [76]
 		{
 			"take sphere behind the goliath", -- [1]
 			"Ravenoflight-Outland", -- [2]
@@ -1958,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Ravenoflight|r",
 			[51] = 1647991124,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [89]
+		}, -- [77]
 		{
 			"going to use it atope", -- [1]
 			"Ravenoflight-Outland", -- [2]
@@ -1980,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Ravenoflight|r",
 			[51] = 1647991147,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [90]
+		}, -- [78]
 		{
 			"Interrupted |cff71d5ff|Hspell:320171:0|h[Necrotic Bolt]|h|r on Amarth", -- [1]
 			"Ravenoflight-Outland", -- [2]
@@ -2002,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Ravenoflight|r",
 			[51] = 1647991148,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [91]
+		}, -- [79]
 		{
 			"Interrupted |cff71d5ff|Hspell:334748:0|h[Drain Fluids]|h|r on Corpse Collector", -- [1]
 			"Ravenoflight-Outland", -- [2]
@@ -2024,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Ravenoflight|r",
 			[51] = 1647991244,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [92]
+		}, -- [80]
 		{
 			"Interrupted |cff71d5ff|Hspell:327130:0|h[Repair Flesh]|h|r on Flesh Crafter", -- [1]
 			"Ravenoflight-Outland", -- [2]
@@ -2046,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Ravenoflight|r",
 			[51] = 1647991327,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [93]
+		}, -- [81]
 		{
 			"Throw Cleaver on Ravenoflight", -- [1]
 			"Ravenoflight-Outland", -- [2]
@@ -2068,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Ravenoflight|r",
 			[51] = 1647991377,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [94]
+		}, -- [82]
 		{
 			"holla hear! :)", -- [1]
 			"Ravenoflight-Outland", -- [2]
@@ -2090,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Ravenoflight|r",
 			[51] = 1647991382,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [95]
+		}, -- [83]
 		{
 			"Interrupted |cff71d5ff|Hspell:327130:0|h[Repair Flesh]|h|r on Flesh Crafter", -- [1]
 			"Ravenoflight-Outland", -- [2]
@@ -2112,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Ravenoflight|r",
 			[51] = 1647991388,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [96]
+		}, -- [84]
 		{
 			"Frozen Binds on Ravenoflight", -- [1]
 			"Ravenoflight-Outland", -- [2]
@@ -2134,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Ravenoflight|r",
 			[51] = 1647991588,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [97]
+		}, -- [85]
 		{
 			"ty", -- [1]
 			"Ravenoflight-Outland", -- [2]
@@ -2156,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Ravenoflight|r",
 			[51] = 1647991668,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [98]
+		}, -- [86]
 		{
 			"感谢", -- [1]
 			"Saintsun-Outland", -- [2]
@@ -2178,29 +1914,293 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Saintsun|r",
 			[51] = 1648056214,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [87]
+		{
+			"uhh any1 for |cffffff00|Hquest:58605:837|h[Amateur Night]|h|r?", -- [1]
+			"Xenariss-Outland", -- [2]
+			"", -- [3]
+			"1. General - Maldraxxus", -- [4]
+			"Xenariss-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Maldraxxus", -- [9]
+			0, -- [10]
+			7, -- [11]
+			"Player-1301-0C17395F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Xenariss|r",
+			[51] = 1648076226,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [88]
+		{
+			"I'm gonna die really quick in solo D:", -- [1]
+			"Xenariss-Outland", -- [2]
+			"", -- [3]
+			"1. General - Maldraxxus", -- [4]
+			"Xenariss-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Maldraxxus", -- [9]
+			0, -- [10]
+			8, -- [11]
+			"Player-1301-0C17395F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Xenariss|r",
+			[51] = 1648076239,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [89]
+		{
+			"[Joy] sec fast bio", -- [1]
+			"Joyrides-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Joyrides-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			51, -- [11]
+			"Player-3702-08E77F10", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Joyrides-ArgentDawn|r",
+			[51] = 1648076717,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [90]
+		{
+			"[Joy] |cff71d5ff|Hspell:147362:0|h[Counter Shot]|h|r interrupted Shadowmoon Enslaver's |cff71d5ff|Hspell:156776:0|h[Rending Voidlash]|h|r!", -- [1]
+			"Joyrides-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Joyrides-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			103, -- [11]
+			"Player-3702-08E77F10", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Joyrides-ArgentDawn|r",
+			[51] = 1648076967,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [91]
+		{
+			"[Joy] |cff71d5ff|Hspell:147362:0|h[Counter Shot]|h|r interrupted Shadowmoon Exhumer's |cff71d5ff|Hspell:156722:0|h[Void Bolt]|h|r!", -- [1]
+			"Joyrides-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Joyrides-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			128, -- [11]
+			"Player-3702-08E77F10", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Joyrides-ArgentDawn|r",
+			[51] = 1648077065,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [92]
+		{
+			"tank?", -- [1]
+			"Dráke-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Dráke-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			171, -- [11]
+			"Player-1301-09F79C6A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Dráke|r",
+			[51] = 1648077165,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [93]
+		{
+			"i got knockback??", -- [1]
+			"Quêên-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Quêên-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			183, -- [11]
+			"Player-3702-0A52EA21", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Quêên-ArgentDawn|r",
+			[51] = 1648077212,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [94]
+		{
+			"[Joy] |cff71d5ff|Hspell:147362:0|h[Counter Shot]|h|r interrupted Monstrous Corpse Spider's |cff71d5ff|Hspell:156717:0|h[Death Venom]|h|r!", -- [1]
+			"Joyrides-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Joyrides-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			195, -- [11]
+			"Player-3702-08E77F10", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Joyrides-ArgentDawn|r",
+			[51] = 1648077310,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [95]
+		{
+			"[Joy] |cff71d5ff|Hspell:147362:0|h[Counter Shot]|h|r interrupted Monstrous Corpse Spider's |cff71d5ff|Hspell:156718:0|h[Necrotic Burst]|h|r!", -- [1]
+			"Joyrides-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Joyrides-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			198, -- [11]
+			"Player-3702-08E77F10", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Joyrides-ArgentDawn|r",
+			[51] = 1648077338,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [96]
+		{
+			"[Joy] |cff71d5ff|Hspell:147362:0|h[Counter Shot]|h|r interrupted Void Spawn's |cff71d5ff|Hspell:152964:0|h[Void Pulse]|h|r!", -- [1]
+			"Joyrides-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Joyrides-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			205, -- [11]
+			"Player-3702-08E77F10", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Joyrides-ArgentDawn|r",
+			[51] = 1648077367,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [97]
+		{
+			"Omen of Death on Joyrides", -- [1]
+			"Joyrides-ArgentDawn", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Joyrides-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			211, -- [11]
+			"Player-3702-08E77F10", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Joyrides-ArgentDawn|r",
+			[51] = 1648077426,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [98]
+		{
+			"anyone want |cff0070dd|Hitem:109882::::::::60:581::22:2:7915:6652:2:28:181:9:60:::::|h[Blackwater Wristguards]|h|r", -- [1]
+			"Xirazia-ArgentDawn", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Xirazia-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			334, -- [11]
+			"Player-3702-09EEA071", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Xirazia-ArgentDawn|r",
+			[51] = 1648078239,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/i this is a great victory for all mount farmers", -- [1]
-		"/i gz all", -- [2]
-		"/reload", -- [3]
-		"/cw Dunklerialus-Turalyon inv plz", -- [4]
-		"/cw Littlefinn-Silvermoon inv", -- [5]
-		"/strong", -- [6]
-		"/cheer", -- [7]
-		"/praise", -- [8]
-		"/thank", -- [9]
-		"/dance", -- [10]
-		"/introduce", -- [11]
-		"/i deleted xD", -- [12]
-		"/i cant even solo it lol", -- [13]
-		"/i i can solo this shit on my 252 lock xD", -- [14]
-		"/i lets skip those", -- [15]
-		"/i ready", -- [16]
-		"/i skip those", -- [17]
-		"/i shroud", -- [18]
-		"/i or not and waste everyone's time instead...", -- [19]
-		"/dbm", -- [20]
+		"/strong", -- [1]
+		"/cheer", -- [2]
+		"/praise", -- [3]
+		"/thank", -- [4]
+		"/dance", -- [5]
+		"/introduce", -- [6]
+		"/i deleted xD", -- [7]
+		"/i cant even solo it lol", -- [8]
+		"/i i can solo this shit on my 252 lock xD", -- [9]
+		"/i lets skip those", -- [10]
+		"/i ready", -- [11]
+		"/i skip those", -- [12]
+		"/i shroud", -- [13]
+		"/i or not and waste everyone's time instead...", -- [14]
+		"/dbm", -- [15]
+		"/kneel", -- [16]
+		"/sneak", -- [17]
+		"/bleed", -- [18]
+		"/salute", -- [19]
+		"/flex", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }
