@@ -2,446 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"<NOVA> OFFERING  HEROIC  |cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r 10/10  360k - 8/10 HC 306k / Sylvanas HC 72k / Kel'Thuzad HC 59k /Sylvanas+Kel  117k / M+14 135k / M+15 149k /M+16 202k /M+17 270k /M+18 360k / M19 540k /M+20 585k", -- [1]
-			"Novabostt-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novabostt-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			465, -- [11]
-			"Player-1301-0C0FC140", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Novabostt|r",
-			[51] = 1634566389,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:4406:Player-1301-0A44C97F:1:10:18:21:4294967295:4294967295:4294967295:4294967295|h[Many Whelps! Handle It! (25 player)]|h|r!", -- [1]
-			"Xanthoros-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Xanthoros-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			487, -- [11]
-			"Player-1301-0A44C97F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Xanthoros|r",
-			[51] = 1634566677,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [2]
-		{
-			"<<NOVA>>  Offering  10/10 Sod HC 360K Traders Avaible ||M+10=77k|| ||M+14=135k|| ||M+15=150k|| ||M+16=225K|| ||M+17=315K|| <<<  Weekly  +15 140k!  >>> Torghast And PVP 2s 3s  /w for More Info", -- [1]
-			"Novagamîng-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novagamîng-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			58, -- [11]
-			"Player-1301-0C063D2A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Novagamîng|r",
-			[51] = 1634739052,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:4396:Player-1301-0A44C97F:1:10:20:21:4294967295:4294967295:4294967295:4294967295|h[Onyxia's Lair (10 player)]|h|r!", -- [1]
-			"Xanthoros-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Xanthoros-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			75, -- [11]
-			"Player-1301-0A44C97F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Xanthoros|r",
-			[51] = 1634739312,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [4]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:4402:Player-1301-0A44C97F:1:10:20:21:4294967295:4294967295:4294967295:4294967295|h[More Dots! (10 player)]|h|r!", -- [1]
-			"Xanthoros-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Xanthoros-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			76, -- [11]
-			"Player-1301-0A44C97F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Xanthoros|r",
-			[51] = 1634739312,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [5]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:4403:Player-1301-0A44C97F:1:10:20:21:4294967295:4294967295:4294967295:4294967295|h[Many Whelps! Handle It! (10 player)]|h|r!", -- [1]
-			"Xanthoros-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Xanthoros-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			77, -- [11]
-			"Player-1301-0A44C97F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Xanthoros|r",
-			[51] = 1634739312,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [6]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:4404:Player-1301-0A44C97F:1:10:20:21:4294967295:4294967295:4294967295:4294967295|h[She Deep Breaths More (10 player)]|h|r!", -- [1]
-			"Xanthoros-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Xanthoros-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			78, -- [11]
-			"Player-1301-0A44C97F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Xanthoros|r",
-			[51] = 1634739312,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [7]
-		{
-			"WTB All CSGO/Dota2/Rust/TF2/Steam Items for TBC/Retail/New World Gold & WTT Gold Between TBC and Retail Servers (both ways) go to trade-raid.com", -- [1]
-			"Trâdesraids-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Trâdesraids-Outland", -- [5]
-			"DND", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			869, -- [11]
-			"Player-1301-0C1454A2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcTrâdesraids|r",
-			[51] = 1634909528,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
-		{
-			"<NOVA> Sanctum HC 360k || HC Sylvanas 72k || Tazavesh HM 216K || Mythic 10 77k || M+14 121k || M+15 139k || M+20 648k || Torghast || 2v2-3v3 || Mounts", -- [1]
-			"Novatair-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novatair-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			880, -- [11]
-			"Player-1301-0BDB602F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Novatair|r",
-			[51] = 1634909661,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
-		{
-			"<RCU> WTS (gold only): M+10-22 +15=165K +20=585K// SoD H & M // Tazavesh // Torghast // PvP (2v2/3v3/RBG) services /w me for info (10% discount on m+ runs)", -- [1]
-			"Endeavors-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Endeavors-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			882, -- [11]
-			"Player-1301-0C0C390D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cEndeavors|r",
-			[51] = 1634909687,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
-		{
-			" [WTS] |cffffff00|Hachievement:15134:Player-1301-0C19E403:0:0:0:-1:0:0:0:0|h[Der Zeit voraus: Sylvanas Windläufer]|h|r HC [Sylvanas] >65k< [Kel'thuzad] >45k< [BOTH] >100k< !!! Now  Every 30 minutes Get 246 ilvl Loot  /w me or visit us in discord.gg/rcu ", -- [1]
-			"Holfi-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Holfi-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			395, -- [11]
-			"Player-1301-0C19E403", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cHolfi|r",
-			[51] = 1637261157,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:974:Player-1301-0A44C97F:1:11:18:21:4294967295:4294967295:4294967295:4294967295|h[50 Daily Quests Completed]|h|r!", -- [1]
-			"Xanthoros-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Xanthoros-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			427, -- [11]
-			"Player-1301-0A44C97F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Xanthoros|r",
-			[51] = 1637261483,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [12]
-		{
-			"rez plz", -- [1]
-			"Leolol-Hyjal", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Leolol-Hyjal", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			448, -- [11]
-			"Player-1390-090A5BC2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cLeolol-Hyjal|r",
-			[51] = 1637261511,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [13]
-		{
-			" maka makogg", -- [1]
-			"Munada-Outland", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Munada-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			556, -- [11]
-			"Player-1301-0C196153", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cMunada|r",
-			[51] = 1637338222,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [14]
-		{
-			"WTS |cffffff00|Hachievement:12861:Player-3682-0909A3D1:0:0:0:0:0:0:0:0|h[Master of Duels]|h|r \"Contender\" title + |cff0070dd|Hitem:163055::::::::10:64:::1:3524::::::|h[Dueler's Tabard]|h|r +8 achivs !/w for price ! (gold only)", -- [1]
-			"Amelda-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Amelda-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			564, -- [11]
-			"Player-1301-0A427AA5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Amelda|r",
-			[51] = 1637338285,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
-		{
-			"WTS |cffffff00|Hachievement:12604:Player-3682-0909A3D1:0:0:0:0:0:0:0:0|h[Conqueror of Azeroth]|h|r title +|cffa335ee|Hitem:163577::::::::10:64:::::::::|h[Conqueror's Scythemaw]|h|rAlso selling \"The Horde Slayer\" title ! /w me for price ! (gold only)", -- [1]
-			"Amelda-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Amelda-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			565, -- [11]
-			"Player-1301-0A427AA5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Amelda|r",
-			[51] = 1637338285,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
-		{
-			"hi", -- [1]
-			"Peratus-ConseildesOmbres", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Peratus-ConseildesOmbres", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			598, -- [11]
-			"Player-1127-097460C1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefePeratus-ConseildesOmbres|r",
-			[51] = 1637338679,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [17]
-		{
-			"hi", -- [1]
-			"Thortam-Tyrande", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Thortam-Tyrande", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			599, -- [11]
-			"Player-1384-0080434D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Thortam-Tyrande|r",
-			[51] = 1637338724,
-			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [18]
-		{
-			"what are you doing?", -- [1]
-			"Thortam-Tyrande", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Thortam-Tyrande", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			613, -- [11]
-			"Player-1384-0080434D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Thortam-Tyrande|r",
-			[51] = 1637339051,
-			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [19]
-		{
-			"invite guy witch are waiting", -- [1]
-			"Peratus-ConseildesOmbres", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Peratus-ConseildesOmbres", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			620, -- [11]
-			"Player-1127-097460C1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefePeratus-ConseildesOmbres|r",
-			[51] = 1637339081,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [20]
-		{
 			"sorry ^^", -- [1]
 			"Peratus-ConseildesOmbres", -- [2]
 			"", -- [3]
@@ -462,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefePeratus-ConseildesOmbres|r",
 			[51] = 1637339097,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [21]
+		}, -- [1]
 		{
 			"i ress all", -- [1]
 			"Овсяница-Гордунни", -- [2]
@@ -484,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Овсяница-Гордунни|r",
 			[51] = 1637339244,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [22]
+		}, -- [2]
 		{
 			"ty ", -- [1]
 			"Feninja-Blackmoore", -- [2]
@@ -506,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeFeninja-Blackmoore|r",
 			[51] = 1637339281,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [23]
+		}, -- [3]
 		{
 			"ty all", -- [1]
 			"Peratus-ConseildesOmbres", -- [2]
@@ -528,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefePeratus-ConseildesOmbres|r",
 			[51] = 1637339287,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [24]
+		}, -- [4]
 		{
 			"[RCU] WTS HC |cff66bbff|Hjournal:1:2441:15|h[Sylvanas Windrunner]|h|r [60k] |cff66bbff|Hjournal:1:2440:15|h[Kel'Thuzad]|h|r [40k] Both [90k] every 40 min  [M+15=120k] [4xM+15=410k] [M+20=500k]  |cffffff00|Hachievement:15126:Player-1301-0BFAA238:0:0:0:-1:0:0:0:0|h[Sanctum of Domination]|h|r HC at 19:00 and 20:30 ST 10/10 PL [300k] 1 VIP + Lootroll [500k] VIP's 10/10+ 3x vip [800k]  /w for info", -- [1]
 			"Abcent-Outland", -- [2]
@@ -550,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Abcent|r",
 			[51] = 1640002208,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
+		}, -- [5]
 		{
 			" [RCU] |cffffff00|Hachievement:15134:Player-1301-0C19E403:0:0:0:-1:0:0:0:0|h[Der Zeit voraus: Sylvanas Windläufer]|h|r HC [Sylvanas] >60k< [Kel'thuzad] >40k< [BOTH] >90k< !!! Also offering SOD HC 10/10 [300k] 1vip+Lootshare [500k] extra VIP's 180k  /w me or visit us in discord.gg/rcu ", -- [1]
 			"Holfi-Outland", -- [2]
@@ -572,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHolfi|r",
 			[51] = 1640103381,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
+		}, -- [6]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15313:Player-1301-0A44C97F:1:12:25:21:4294967295:4294967295:4294967295:4294967295|h[Rockin' Rollin' Racer]|h|r!", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -594,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1640447601,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [27]
+		}, -- [7]
 		{
 			"2800 Boomkin selling 2v2 Rating for GOLD! OUTLAND/STORMSCALE ONLY!", -- [1]
 			"Raféékí-Outland", -- [2]
@@ -616,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Raféékí|r",
 			[51] = 1645032000,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
+		}, -- [8]
 		{
 			"2800 boomkin selling 2v2 rating for GOLD! OUTLAND/STORMSCALE ONLY!", -- [1]
 			"Raféékí-Outland", -- [2]
@@ -638,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Raféékí|r",
 			[51] = 1645032039,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
+		}, -- [9]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:1694:Player-1301-0A44C97F:1:2:16:22:4294967295:4294967295:4294967295:4294967295|h[Lovely Luck Is On Your Side]|h|r!", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -660,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1645032083,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [30]
+		}, -- [10]
 		{
 			"2800 Boomkin selling 2v2 Rating for GOLD! OUTLAND/STORMSCALE ONLY!", -- [1]
 			"Raféékí-Outland", -- [2]
@@ -682,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Raféékí|r",
 			[51] = 1645032131,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
+		}, -- [11]
 		{
 			"WTS |cffa335ee|Hitem:163573::::::::60:577::::1:28:872:::::|h[Goldenmane's Reins]|h|r /w me", -- [1]
 			"Illiwonka-Outland", -- [2]
@@ -704,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illiwonka|r",
 			[51] = 1645299544,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
+		}, -- [12]
 		{
 			"i gold", -- [1]
 			"Menardi-Outland", -- [2]
@@ -726,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMenardi|r",
 			[51] = 1645299551,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
+		}, -- [13]
 		{
 			"|cffffff00Trade District is under attack!|r", -- [1]
 			"", -- [2]
@@ -748,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1645353571,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
+		}, -- [14]
 		{
 			"|cffffff00Trade District is under attack!|r", -- [1]
 			"", -- [2]
@@ -770,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1645353717,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
+		}, -- [15]
 		{
 			"i am revered, so i need to buy the lege memory?", -- [1]
 			"Nalys-Outland", -- [2]
@@ -792,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeNalys|r",
 			[51] = 1648138130,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
+		}, -- [16]
 		{
 			"yes", -- [1]
 			"Delacoure-Outland", -- [2]
@@ -814,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Delacoure|r",
 			[51] = 1648138156,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
+		}, -- [17]
 		{
 			"well what else would you do", -- [1]
 			"Eranarebirth-Outland", -- [2]
@@ -836,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Eranarebirth|r",
 			[51] = 1648138159,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
+		}, -- [18]
 		{
 			"and that memory all alts can use", -- [1]
 			"Delacoure-Outland", -- [2]
@@ -858,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Delacoure|r",
 			[51] = 1648138161,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
+		}, -- [19]
 		{
 			"|cffffffff|Hitem:171349::::::::60:577:::::::::|h[Potion of Phantom Fire]|h|r", -- [1]
 			"Jádë-Outland", -- [2]
@@ -880,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Jádë|r",
 			[51] = 1648138342,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
+		}, -- [20]
 		{
 			"WTS |cffffffff|Hitem:172321::::::::60:105:::::::::|h[Umbrahide Armguards]|h|r", -- [1]
 			"Gravecall-Outland", -- [2]
@@ -902,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Gravecall|r",
 			[51] = 1648138413,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
+		}, -- [21]
 		{
 			"where do i buy the second lege for my alt? no1 info anywhere", -- [1]
 			"Nalyx-Outland", -- [2]
@@ -924,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cNalyx|r",
 			[51] = 1648138482,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
+		}, -- [22]
 		{
 			"do the campaign forzereth mortis", -- [1]
 			"Angelfrenzy-Outland", -- [2]
@@ -946,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Angelfrenzy|r",
 			[51] = 1648138593,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
+		}, -- [23]
 		{
 			"WTS M+ 0_18. SFO NM,HC all bosses and individuals, tier bosses ) Tazavesh HM, Torghast up to layer 16 flawless,( jailers guantlet)  Level up,PVP 2v2 3v3.Mounts,Achivments, Legacy. GOLD ONLY, /w me for more info ^^  Private team.", -- [1]
 			"Amirkabir-Outland", -- [2]
@@ -968,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edAmirkabir|r",
 			[51] = 1648138638,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
+		}, -- [24]
 		{
 			"WTS |cff1eff00|Hitem:49::::::::50:269:::::::::|h[Footpad's Shirt]|h|r (not obtainable since 10-15 years)", -- [1]
 			"Runandfly-Outland", -- [2]
@@ -990,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Runandfly|r",
 			[51] = 1648138654,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [25]
 		{
 			"WTB |cffffffff|Hitem:172318::::::::60:104:::::::::|h[Umbrahide Leggings]|h|r", -- [1]
 			"Hordesläyer-Outland", -- [2]
@@ -1012,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Hordesläyer|r",
 			[51] = 1648139035,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
+		}, -- [26]
 		{
 			"wts |cffffffff|Hitem:172321::::::::60:105::69:4:7193:7882:8156:1588:1:28:2142:::::|h[Umbrahide Armguards]|h|r", -- [1]
 			"Gravecall-Outland", -- [2]
@@ -1034,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Gravecall|r",
 			[51] = 1648139069,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
+		}, -- [27]
 		{
 			"wts |cffffffff|Hitem:172328::::::::60:104::63:1:3524::::::|h[Boneshatter Waistguard]|h|r", -- [1]
 			"Hordesläyer-Outland", -- [2]
@@ -1056,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Hordesläyer|r",
 			[51] = 1648139111,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [28]
 		{
 			"das bratwurst", -- [1]
 			"Warcóde-Outland", -- [2]
@@ -1078,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Warcóde|r",
 			[51] = 1648139331,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+		}, -- [29]
 		{
 			"|cffffff00Stormwind City Cemetery is under attack!|r", -- [1]
 			"", -- [2]
@@ -1100,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1648139367,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
+		}, -- [30]
 		{
 			"Guild <Tunnel Vision> selling  [Sepulcher Of The First Ones] 11/11  Normal full clear  only in game, gold w.me for more info start in 15 min", -- [1]
 			"Xnora-Outland", -- [2]
@@ -1122,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeXnora|r",
 			[51] = 1648139386,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
+		}, -- [31]
 		{
 			"WTB |cffffffff|Hitem:172318::::::::60:105::63:1:3524::::::|h[Umbrahide Leggings]|h|r 263", -- [1]
 			"Hordesläyer-Outland", -- [2]
@@ -1144,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Hordesläyer|r",
 			[51] = 1648139386,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [32]
 		{
 			"Looking for a Active big Guild :D ", -- [1]
 			"Camila-Outland", -- [2]
@@ -1166,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Camila|r",
 			[51] = 1648139397,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [33]
 		{
 			"Taking 500k bets for your 200K if you can win a duel vs me.", -- [1]
 			"Wiperaa-Outland", -- [2]
@@ -1188,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaWiperaa|r",
 			[51] = 1648139563,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [34]
 		{
 			"Need to show me money first.", -- [1]
 			"Wiperaa-Outland", -- [2]
@@ -1210,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaWiperaa|r",
 			[51] = 1648139574,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [35]
 		{
 			"rofl", -- [1]
 			"Bankstudent-Outland", -- [2]
@@ -1232,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaBankstudent|r",
 			[51] = 1648139580,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
+		}, -- [36]
 		{
 			"Looking for a Active Guild ", -- [1]
 			"Camila-Outland", -- [2]
@@ -1254,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Camila|r",
 			[51] = 1648139584,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
+		}, -- [37]
 		{
 			"WTB  |cffffffff|Hitem:172316::::::::60:259:::::::::|h[Umbrahide Gauntlets]|h|r 70k", -- [1]
 			"Slikktrickz-Outland", -- [2]
@@ -1276,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Slikktrickz|r",
 			[51] = 1648139656,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [38]
 		{
 			"Interrupted Iniciado del Sol Naciente's |cff71d5ff|Hspell:152894:0|h[Sanación relámpago]|h|r!", -- [1]
 			"Bassy-DunModr", -- [2]
@@ -1298,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Bassy-DunModr|r",
 			[51] = 1648139796,
 			[50] = "CHAT_MSG_EMOTE",
-		}, -- [59]
+		}, -- [39]
 		{
 			"healer can u play dmg spec pls", -- [1]
 			"Fionara-Outland", -- [2]
@@ -1320,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFionara|r",
 			[51] = 1648139799,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [60]
+		}, -- [40]
 		{
 			"los", -- [1]
 			"Fionara-Outland", -- [2]
@@ -1342,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFionara|r",
 			[51] = 1648139809,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [61]
+		}, -- [41]
 		{
 			"dude", -- [1]
 			"Menens-DunModr", -- [2]
@@ -1364,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMenens-DunModr|r",
 			[51] = 1648139835,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [62]
+		}, -- [42]
 		{
 			"Interrupted Heraldo del Albor's |cff71d5ff|Hspell:152894:0|h[Sanación relámpago]|h|r!", -- [1]
 			"Bassy-DunModr", -- [2]
@@ -1386,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Bassy-DunModr|r",
 			[51] = 1648139839,
 			[50] = "CHAT_MSG_EMOTE",
-		}, -- [63]
+		}, -- [43]
 		{
 			"mage", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1408,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1648139845,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [64]
+		}, -- [44]
 		{
 			"stop playing games", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1430,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1648139849,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [65]
+		}, -- [45]
 		{
 			"Interrupted Supernova radiante's |cff71d5ff|Hspell:157020:0|h[Cólera solar]|h|r!", -- [1]
 			"Bassy-DunModr", -- [2]
@@ -1452,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Bassy-DunModr|r",
 			[51] = 1648140282,
 			[50] = "CHAT_MSG_EMOTE",
-		}, -- [66]
+		}, -- [46]
 		{
 			"wait", -- [1]
 			"Menens-DunModr", -- [2]
@@ -1474,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMenens-DunModr|r",
 			[51] = 1648140317,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [67]
+		}, -- [47]
 		{
 			"Interrupted Suma sabia Viryx's |cff71d5ff|Hspell:154396:0|h[Ráfaga solar]|h|r!", -- [1]
 			"Bassy-DunModr", -- [2]
@@ -1496,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Bassy-DunModr|r",
 			[51] = 1648140372,
 			[50] = "CHAT_MSG_EMOTE",
-		}, -- [68]
+		}, -- [48]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9036:Player-1301-0A44C97F:1:3:24:22:4294967295:4294967295:4294967295:4294967295|h[Monomania]|h|r!", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1518,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1648140397,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [69]
+		}, -- [49]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8843:Player-1301-0A44C97F:1:3:24:22:4294967295:4294967295:4294967295:4294967295|h[Skyreach]|h|r!", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1540,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1648140397,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [70]
+		}, -- [50]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8844:Player-1301-0A44C97F:1:3:24:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Skyreach]|h|r!", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1562,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1648140397,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [71]
+		}, -- [51]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14334:Player-1301-0A44C97F:1:3:24:22:4294967295:4294967295:4294967295:4294967295|h[Into the Maw]|h|r!", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1584,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1648140553,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [72]
+		}, -- [52]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:507:Player-1301-0A44C97F:1:3:24:22:4294967295:4294967295:4294967295:4294967295|h[1000 Quests Completed]|h|r!", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1606,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1648140580,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [73]
+		}, -- [53]
 		{
 			"Interrupted Bloodmaul Geomancer's |cff71d5ff|Hspell:164592:0|h[Stone Bolt]|h|r!", -- [1]
 			"Throtar-Silvermoon", -- [2]
@@ -1628,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcThrotar-Silvermoon|r",
 			[51] = 1648140816,
 			[50] = "CHAT_MSG_EMOTE",
-		}, -- [74]
+		}, -- [54]
 		{
 			"keep movin", -- [1]
 			"Dûc-Outland", -- [2]
@@ -1650,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDûc|r",
 			[51] = 1648140855,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [75]
+		}, -- [55]
 		{
 			"do you need cloak/", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1672,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1648141183,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [76]
+		}, -- [56]
 		{
 			"?", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1694,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1648141184,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [77]
+		}, -- [57]
 		{
 			"do you need cloak?", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1716,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1648141195,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [78]
+		}, -- [58]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9037:Player-1301-0A44C97F:1:3:24:22:4294967295:4294967295:4294967295:4294967295|h[Bloodmaul Slag Mines]|h|r!", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1738,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1648141305,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [79]
+		}, -- [59]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9046:Player-1301-0A44C97F:1:3:24:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Bloodmaul Slag Mines]|h|r!", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1760,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1648141305,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [80]
+		}, -- [60]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14627:Player-1301-0A44C97F:1:3:24:22:4294967295:4294967295:4294967295:4294967295|h[Choosing Your Purpose]|h|r!", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1782,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1648141409,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [81]
+		}, -- [61]
 		{
 			"our healer is beefy so make sure to pull a lot", -- [1]
 			"Fionara-Outland", -- [2]
@@ -1804,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFionara|r",
 			[51] = 1648141674,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [82]
+		}, -- [62]
 		{
 			"(Dale): not very nice", -- [1]
 			"Ekkie-Silvermoon", -- [2]
@@ -1826,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Ekkie-Silvermoon|r",
 			[51] = 1648141689,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [83]
+		}, -- [63]
 		{
 			"(Dale): i feel like you oversold that", -- [1]
 			"Ekkie-Silvermoon", -- [2]
@@ -1848,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Ekkie-Silvermoon|r",
 			[51] = 1648141735,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [84]
+		}, -- [64]
 		{
 			"just a bit ", -- [1]
 			"Angelhot-Silvermoon", -- [2]
@@ -1870,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Angelhot-Silvermoon|r",
 			[51] = 1648141750,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [85]
+		}, -- [65]
 		{
 			"gogo", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1892,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1648141778,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [86]
+		}, -- [66]
 		{
 			"opps he did it again", -- [1]
 			"Angelhot-Silvermoon", -- [2]
@@ -1914,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Angelhot-Silvermoon|r",
 			[51] = 1648142009,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [87]
+		}, -- [67]
 		{
 			"tank afk?", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1936,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1648142484,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [88]
+		}, -- [68]
 		{
 			"(Dale): sorry i am lost", -- [1]
 			"Ekkie-Silvermoon", -- [2]
@@ -1958,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Ekkie-Silvermoon|r",
 			[51] = 1648142500,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [89]
+		}, -- [69]
 		{
 			"after thir boss", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1980,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1648142507,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [90]
+		}, -- [70]
 		{
 			"click circle", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -2002,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1648142510,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [91]
+		}, -- [71]
 		{
 			"lol", -- [1]
 			"Angelhot-Silvermoon", -- [2]
@@ -2024,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Angelhot-Silvermoon|r",
 			[51] = 1648142512,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [92]
+		}, -- [72]
 		{
 			"(Dale): which corner do i click", -- [1]
 			"Ekkie-Silvermoon", -- [2]
@@ -2046,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Ekkie-Silvermoon|r",
 			[51] = 1648142520,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [93]
+		}, -- [73]
 		{
 			"down there", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -2068,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1648142545,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [94]
+		}, -- [74]
 		{
 			"(Dale): v kind thx", -- [1]
 			"Ekkie-Silvermoon", -- [2]
@@ -2090,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Ekkie-Silvermoon|r",
 			[51] = 1648142564,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [95]
+		}, -- [75]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9039:Player-1301-0A44C97F:1:3:24:22:4294967295:4294967295:4294967295:4294967295|h[Auchindoun]|h|r!", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -2112,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1648142762,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [96]
+		}, -- [76]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9049:Player-1301-0A44C97F:1:3:24:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Auchindoun]|h|r!", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -2134,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1648142762,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [97]
+		}, -- [77]
 		{
 			"(Dale): thanks all", -- [1]
 			"Ekkie-Silvermoon", -- [2]
@@ -2156,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Ekkie-Silvermoon|r",
 			[51] = 1648142770,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [98]
+		}, -- [78]
 		{
 			"(Dale): beefy healing ", -- [1]
 			"Ekkie-Silvermoon", -- [2]
@@ -2178,6 +1738,446 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Ekkie-Silvermoon|r",
 			[51] = 1648142774,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [79]
+		{
+			"Yow", -- [1]
+			"Doggytreats-Shadowsong", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Doggytreats-Shadowsong", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			507, -- [11]
+			"Player-3666-0A48C949", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Doggytreats-Shadowsong|r",
+			[51] = 1648154261,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [80]
+		{
+			"Interrupted Everbloom Naturalist's |cff71d5ff|Hspell:164834:0|h[Barrage of Leaves]|h|r!", -- [1]
+			"Defo-Wildhammer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Defo-Wildhammer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			547, -- [11]
+			"Player-1313-0C25A2DD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Defo-Wildhammer|r",
+			[51] = 1648154397,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [81]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:9017:Player-1301-0A44C97F:1:3:24:22:4294967295:4294967295:4294967295:4294967295|h[Water Management]|h|r!", -- [1]
+			"Xanthoros-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xanthoros-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			572, -- [11]
+			"Player-1301-0A44C97F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Xanthoros|r",
+			[51] = 1648154477,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [82]
+		{
+			"Interrupted Life Warden Gola's |cff71d5ff|Hspell:168092:0|h[Water Bolt]|h|r!", -- [1]
+			"Defo-Wildhammer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Defo-Wildhammer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			625, -- [11]
+			"Player-1313-0C25A2DD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Defo-Wildhammer|r",
+			[51] = 1648154605,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [83]
+		{
+			"Interrupted |cff71d5ff|Hspell:168092:0|h[Water Bolt]|h|r on Life Warden Gola", -- [1]
+			"Doggytreats-Shadowsong", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Doggytreats-Shadowsong", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			627, -- [11]
+			"Player-3666-0A48C949", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Doggytreats-Shadowsong|r",
+			[51] = 1648154616,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [84]
+		{
+			"Interrupted |cff71d5ff|Hspell:168041:0|h[Briarskin]|h|r on Earthshaper Telu", -- [1]
+			"Doggytreats-Shadowsong", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Doggytreats-Shadowsong", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			630, -- [11]
+			"Player-3666-0A48C949", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Doggytreats-Shadowsong|r",
+			[51] = 1648154632,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [85]
+		{
+			"Interrupted |cff71d5ff|Hspell:168040:0|h[Nature's Wrath]|h|r on Earthshaper Telu", -- [1]
+			"Doggytreats-Shadowsong", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Doggytreats-Shadowsong", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			632, -- [11]
+			"Player-3666-0A48C949", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Doggytreats-Shadowsong|r",
+			[51] = 1648154651,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [86]
+		{
+			"Interrupted |cff71d5ff|Hspell:169840:0|h[Frostbolt]|h|r on Infested Icecaller", -- [1]
+			"Doggytreats-Shadowsong", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Doggytreats-Shadowsong", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			638, -- [11]
+			"Player-3666-0A48C949", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Doggytreats-Shadowsong|r",
+			[51] = 1648154692,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [87]
+		{
+			"Interrupted Infested Icecaller's |cff71d5ff|Hspell:169840:0|h[Frostbolt]|h|r!", -- [1]
+			"Defo-Wildhammer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Defo-Wildhammer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			641, -- [11]
+			"Player-1313-0C25A2DD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Defo-Wildhammer|r",
+			[51] = 1648154712,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [88]
+		{
+			"Interrupted |cff71d5ff|Hspell:166464:0|h[Fireball]|h|r on Archmage Sol", -- [1]
+			"Doggytreats-Shadowsong", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Doggytreats-Shadowsong", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			657, -- [11]
+			"Player-3666-0A48C949", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Doggytreats-Shadowsong|r",
+			[51] = 1648154758,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [89]
+		{
+			"Interrupted Archmage Sol's |cff71d5ff|Hspell:168885:0|h[Parasitic Growth]|h|r!", -- [1]
+			"Defo-Wildhammer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Defo-Wildhammer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			662, -- [11]
+			"Player-1313-0C25A2DD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Defo-Wildhammer|r",
+			[51] = 1648154770,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [90]
+		{
+			"Interrupted Spore Image's |cff71d5ff|Hspell:168894:0|h[Fireball]|h|r!", -- [1]
+			"Defo-Wildhammer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Defo-Wildhammer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			667, -- [11]
+			"Player-1313-0C25A2DD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Defo-Wildhammer|r",
+			[51] = 1648154791,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [91]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:9044:Player-1301-0A44C97F:1:3:24:22:4294967295:4294967295:4294967295:4294967295|h[The Everbloom]|h|r!", -- [1]
+			"Xanthoros-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xanthoros-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			689, -- [11]
+			"Player-1301-0A44C97F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Xanthoros|r",
+			[51] = 1648154896,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [92]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:9053:Player-1301-0A44C97F:1:3:24:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Everbloom]|h|r!", -- [1]
+			"Xanthoros-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xanthoros-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			690, -- [11]
+			"Player-1301-0A44C97F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Xanthoros|r",
+			[51] = 1648154896,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [93]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:9223:Player-1301-0A44C97F:1:3:24:22:4294967295:4294967295:4294967295:4294967295|h[Weed Whacker]|h|r!", -- [1]
+			"Xanthoros-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xanthoros-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			691, -- [11]
+			"Player-1301-0A44C97F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Xanthoros|r",
+			[51] = 1648154896,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [94]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14628:Player-1301-0A44C97F:1:3:24:22:4294967295:4294967295:4294967295:4294967295|h[The Road to Renown]|h|r!", -- [1]
+			"Xanthoros-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xanthoros-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			735, -- [11]
+			"Player-1301-0A44C97F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Xanthoros|r",
+			[51] = 1648155255,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [95]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14629:Player-1301-0A44C97F:1:3:24:22:4294967295:4294967295:4294967295:4294967295|h[Gaining Respect]|h|r!", -- [1]
+			"Xanthoros-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xanthoros-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			737, -- [11]
+			"Player-1301-0A44C97F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Xanthoros|r",
+			[51] = 1648155255,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [96]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14630:Player-1301-0A44C97F:1:3:24:22:4294967295:4294967295:4294967295:4294967295|h[Becoming a Hero]|h|r!", -- [1]
+			"Xanthoros-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xanthoros-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			738, -- [11]
+			"Player-1301-0A44C97F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Xanthoros|r",
+			[51] = 1648155255,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [97]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14837:Player-1301-0A44C97F:1:3:24:22:4294967295:4294967295:4294967295:4294967295|h[Nexus of Bonds]|h|r!", -- [1]
+			"Xanthoros-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xanthoros-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			739, -- [11]
+			"Player-1301-0A44C97F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Xanthoros|r",
+			[51] = 1648155255,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [98]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14631:Player-1301-0A44C97F:1:3:24:22:4294967295:4294967295:4294967295:4294967295|h[Champion of the Covenant]|h|r!", -- [1]
+			"Xanthoros-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xanthoros-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			740, -- [11]
+			"Player-1301-0A44C97F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Xanthoros|r",
+			[51] = 1648155255,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
