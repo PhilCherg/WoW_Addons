@@ -172,6 +172,148 @@ TomTomWaypointsM = {
 		["Phaladinus - Outland"] = {
 		},
 		["Shadroxia - Outland"] = {
+			[1525] = {
+				["1525:385000000:399000000:The Harvest"] = {
+					1525, -- [1]
+					0.385, -- [2]
+					0.399, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["minimap"] = true,
+					["cleardistance"] = 0,
+					["title"] = "The Harvest",
+					["from"] = "ATT\nRead the |cFFFFFFFFNote What Says Where You Put The Key|r near the treasure to figure out where the key is.\n\n? 'By one of those big lamps' = |cFFFFFFFF43.8, 41.4|r\n? 'In another storehouse' = |cFFFFFFFF38.2, 43.7|r",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
+					["worldmap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
+					["world"] = true,
+				},
+				["1525:665000000:428000000:Secret Treasure"] = {
+					1525, -- [1]
+					0.665, -- [2]
+					0.428, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["minimap"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Secret Treasure",
+					["from"] = "ATT\nFind the small alcove at |cFFFFFFFF65.7, 42.9|r.\n On the wall behind a dark red oval rug is a single |cFFFFFFFFFlickering Candle|r.\n Click it to open up a secret passage beneath the rug.\n To exit after you collect the treasure, click the candle on the right-hand side of the stairs where you entered.",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
+					["worldmap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
+					["world"] = true,
+				},
+				["1525:458000000:478000000:Forgotten Noble's Chest"] = {
+					1525, -- [1]
+					0.458, -- [2]
+					0.478, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["minimap"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Forgotten Noble's Chest",
+					["from"] = "ATT\nOpening a Crypt Door with the Atonement Crypt Key has a chance to reveal a Mirror that leads to this chest.",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
+					["worldmap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
+					["world"] = true,
+				},
+				["1525:425000000:503000000:Secret Treasure"] = {
+					1525, -- [1]
+					0.425, -- [2]
+					0.503, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["minimap"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Secret Treasure",
+					["from"] = "ATT\nEnter the crypt at |cFFFFFFFF41.9, 50.0|r.\n Downstairs, go through the right-hand door.\n On the left side of the room is a bookshelf with a |cFFFFFFFFNondescript Book|r.\n Click the book, and the treasure will appear.",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
+					["worldmap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
+					["world"] = true,
+				},
+				["1525:553000000:359000000:Secret Treasure"] = {
+					1525, -- [1]
+					0.5529999999999999, -- [2]
+					0.359, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["minimap"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Secret Treasure",
+					["from"] = "ATT\nEnter the crypt at |cFFFFFFFF55.2, 34.7|r.\n Downstairs, go through the right-hand door and defeat Lord Darion.\n\nWhen you turn to leave the room, you will see a painting on either side of the door.\n The one on the right side is a |cFFFFFFFFFlickering Portrait|r, and it has a hidden lever behind it that will open the door to the treasure.\n There are two more Venthyr guarding the chest.",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
+					["worldmap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
+					["world"] = true,
+				},
+				["1525:502000000:490000000:Secret Treasure"] = {
+					1525, -- [1]
+					0.502, -- [2]
+					0.49, -- [3]
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["crazy"] = true,
+					["persistent"] = true,
+					["minimap"] = true,
+					["worldmap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
+					["cleardistance"] = 0,
+					["title"] = "Secret Treasure",
+					["worldmap_displayID"] = 94765,
+					["minimap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
+					["minimap_displayID"] = 94765,
+					["from"] = "ATT\nDo not take the mirror portal!  To the right of the mirror, there is a |cFFFFFFFFHanging Chain|r.\n Clicking the chain will pull you up to the tiny alcove above the treasure.\n Click the |cFFFFFFFFGrinchin Calligraphy Set|r on the desk to pick up the |cFFFFFFFFHouse Grinchin Ring|r, which will allow you to loot the treasure.",
+					["world"] = true,
+				},
+			},
 		},
 		["Lianxia - Draenor"] = {
 		},
@@ -211,19 +353,19 @@ TomTomWaypointsM = {
 						["minimap"] = {
 						},
 					},
-					["desc"] = "Return to the Orphanage",
+					["minimap"] = true,
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
-					["minimap"] = true,
-					["persistent"] = true,
 					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["persistent"] = true,
+					["desc"] = "Return to the Orphanage",
 					["silent"] = true,
 					["cleardistance"] = 0,
 					["title"] = "Return to the Orphanage",
-					["minimap_displayID"] = 89265,
-					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
-					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
 					["worldmap_displayID"] = 89265,
+					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["minimap_displayID"] = 89265,
+					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
 					["world"] = true,
 				},
 				["1161:480100000:402800000:Return to the Orphanage"] = {
@@ -238,19 +380,19 @@ TomTomWaypointsM = {
 						["minimap"] = {
 						},
 					},
-					["desc"] = "Return to the Orphanage",
+					["minimap"] = true,
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
-					["minimap"] = true,
-					["persistent"] = true,
 					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["persistent"] = true,
+					["desc"] = "Return to the Orphanage",
 					["silent"] = true,
 					["cleardistance"] = 0,
 					["title"] = "Return to the Orphanage",
-					["minimap_displayID"] = 89265,
-					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
-					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
 					["worldmap_displayID"] = 89265,
+					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["minimap_displayID"] = 89265,
+					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
 					["world"] = true,
 				},
 			},
@@ -281,12 +423,12 @@ TomTomWaypointsM = {
 						["minimap"] = {
 						},
 					},
-					["minimap"] = true,
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
-					["persistent"] = true,
 					["desc"] = "Return to the Orphanage",
+					["persistent"] = true,
+					["minimap"] = true,
 					["silent"] = true,
 					["cleardistance"] = 0,
 					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
@@ -308,12 +450,12 @@ TomTomWaypointsM = {
 						["minimap"] = {
 						},
 					},
-					["minimap"] = true,
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
-					["persistent"] = true,
 					["desc"] = "Return to the Orphanage",
+					["persistent"] = true,
+					["minimap"] = true,
 					["silent"] = true,
 					["cleardistance"] = 0,
 					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
@@ -403,7 +545,7 @@ TomTomWaypointsM = {
 					0.4777, -- [2]
 					0.3937, -- [3]
 					["crazy"] = true,
-					["minimap"] = true,
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
@@ -415,14 +557,14 @@ TomTomWaypointsM = {
 					},
 					["title"] = "Return to the Orphanage",
 					["persistent"] = true,
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["desc"] = "Return to the Orphanage",
 					["silent"] = true,
 					["cleardistance"] = 0,
 					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
 					["minimap_displayID"] = 89265,
 					["worldmap_displayID"] = 89265,
-					["desc"] = "Return to the Orphanage",
+					["minimap"] = true,
 					["world"] = true,
 				},
 				["1161:480100000:402800000:Return to the Orphanage"] = {
@@ -430,7 +572,7 @@ TomTomWaypointsM = {
 					0.4801, -- [2]
 					0.4028, -- [3]
 					["crazy"] = true,
-					["minimap"] = true,
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
@@ -442,14 +584,14 @@ TomTomWaypointsM = {
 					},
 					["title"] = "Return to the Orphanage",
 					["persistent"] = true,
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["desc"] = "Return to the Orphanage",
 					["silent"] = true,
 					["cleardistance"] = 0,
 					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
 					["minimap_displayID"] = 89265,
 					["worldmap_displayID"] = 89265,
-					["desc"] = "Return to the Orphanage",
+					["minimap"] = true,
 					["world"] = true,
 				},
 			},

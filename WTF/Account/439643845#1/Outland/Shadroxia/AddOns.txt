@@ -43,7 +43,7 @@ HandyNotes_DraenorTreasures: disabled
 InstancePortals: disabled
 LibRaiderIO_Loader: disabled
 LookingForGroup_RaiderIO: disabled
-Mapster: disabled
+Mapster: enabled
 Paste: disabled
 Pawn: disabled
 RaiderIO: disabled
@@ -64,7 +64,7 @@ RaiderIO_DB_KR_H_R: disabled
 RaiderIO_DB_TW_A_R: disabled
 RaiderIO_DB_TW_H_R: disabled
 Simulationcraft: disabled
-TomTom: disabled
+TomTom: enabled
 WeakAuras: disabled
 WeakAurasModelPaths: disabled
 WeakAurasOptions: disabled
@@ -222,7 +222,7 @@ Grail-Rewards: disabled
 Grail-When: disabled
 HandyNotes_WarfrontRares: disabled
 MonkeySpeed: enabled
-RareScanner: disabled
+RareScanner: enabled
 Wholly: disabled
 ElvUI_QuestXP: disabled
 AngryKeystones: disabled
@@ -277,3 +277,11 @@ BetterWardrobe_SourceData: disabled
 HandyNotes_BattleForAzeroth: disabled
 DBM-Sepulcher: disabled
 DBM-VPVEM: disabled
+FarmHud_TrailPath: disabled
+RaiderIO_DB_US_F: disabled
+RaiderIO_DB_EU_F: disabled
+RaiderIO_DB_KR_F: disabled
+RaiderIO_DB_TW_F: disabled
+StoredAnimaCounter: disabled
+SoulshapeJournal: disabled
+ZerethMortisPuzzleHelper: disabled

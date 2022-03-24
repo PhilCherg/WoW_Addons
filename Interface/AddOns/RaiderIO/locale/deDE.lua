@@ -1,4 +1,4 @@
--- Generated from CurseForge on Tue Mar  8 06:18:32 UTC 2022
+-- Generated from CurseForge on Thu Mar 24 06:58:45 UTC 2022
 local ns = select(2, ...) ---@type ns @The addon namespace.
 
 if ns:IsSameLocale("deDE") then
@@ -61,6 +61,7 @@ L["DUNGEON_SHORT_NAME_DHT"] = "Finsterherzdickicht"
 L["DUNGEON_SHORT_NAME_DOS"] = "Die Andre Seite"
 L["DUNGEON_SHORT_NAME_EOA"] = "Auge Azsharas"
 L["DUNGEON_SHORT_NAME_FH"] = "Freihafen"
+L["DUNGEON_SHORT_NAME_GMBT"] = "Tazavesh So'leahs Schachzug"
 L["DUNGEON_SHORT_NAME_HOA"] = "Hallen der Sühne"
 L["DUNGEON_SHORT_NAME_HOV"] = "Hallen der Tapferkeit"
 L["DUNGEON_SHORT_NAME_KR"] = "Königsruh"
@@ -76,6 +77,7 @@ L["DUNGEON_SHORT_NAME_SEAT"] = "Sitz des Triumvirats"
 L["DUNGEON_SHORT_NAME_SIEGE"] = "Belagerung von Boralus"
 L["DUNGEON_SHORT_NAME_SOA"] = "Spitzen des Aufstiegs"
 L["DUNGEON_SHORT_NAME_SOTS"] = "Schrein des Sturms"
+L["DUNGEON_SHORT_NAME_STRT"] = "Tazavesh Wundersame Straßen"
 L["DUNGEON_SHORT_NAME_TD"] = "Tol Dagor"
 L["DUNGEON_SHORT_NAME_TM"] = "Riesenflöz"
 L["DUNGEON_SHORT_NAME_TOP"] = "Theater der Schmerzen"
@@ -258,6 +260,7 @@ L["RELOAD_LATER"] = "Ich werde später neu laden"
 L["RELOAD_NOW"] = "Jetzt neu laden"
 L["RELOAD_RWF_MODE_BUTTON"] = "Speichern"
 L["RELOAD_RWF_MODE_BUTTON_TOOLTIP"] = "Klicke hier, um das Protokoll in die Speicherdatei zu speichern. Dadurch wird deine Benutzeroberfläche neu geladen."
+L["RWF_MINIBUTTON_TOOLTIP"] = "Klicke mit der linken Maustaste, wann immer es anstehende Beute gibt. Dadurch wird deine Benutzeroberfläche neu geladen. Klicke mit der rechten Maustaste, um das Wettrennen Welt 1.-Fenster zu öffnen."
 L["RWF_SUBTITLE_LOGGING_FILTERED_LOOT"] = "(Protokollierung relevanter Gegenstände)"
 L["RWF_SUBTITLE_LOGGING_LOOT"] = "(Protokollierung Beute)"
 L["RWF_TITLE"] = "|cffFFFFFFRaider.IO|r Wettrennen Welt 1."

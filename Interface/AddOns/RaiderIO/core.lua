@@ -3448,6 +3448,7 @@ do
                 if needsMaxDungeonUpgrade then
                     mythicKeystoneProfile[weeklyAffixInternal .. "MaxDungeon"] = DUNGEONS[maxDungeonIndex]
                     mythicKeystoneProfile[weeklyAffixInternal .. "MaxDungeonLevel"] = maxDungeonLevel
+                    mythicKeystoneProfile[weeklyAffixInternal .. "MaxDungeonIndex"] = maxDungeonIndex
                     mythicKeystoneProfile[weeklyAffixInternal .. "MaxDungeonUpgrades"] = maxDungeonUpgrades
                 end
             end
@@ -7396,6 +7397,9 @@ do
         return lootEntry
     end
 
+    local LOG_ITEM_TRIM_IF_OLDER = 259200 -- 3 days
+    local LOG_ITEM_LOG_IF_NEWER = 172800 -- 2 days
+
     local function TrimHistoryFromSV()
         local now = time()
         local remove
@@ -7405,7 +7409,7 @@ do
                     for logType, logTypeData in pairs(instanceDifficultyData) do
                         ---@type RWFLootEntry
                         for key, lootEntry in pairs(logTypeData) do
-                            if now - lootEntry.timestamp >= 259200 then -- delete anything older 3 days (inclusive)
+                            if now - lootEntry.timestamp >= LOG_ITEM_TRIM_IF_OLDER then
                                 if not remove then
                                     remove = {}
                                 end
@@ -7439,14 +7443,14 @@ do
         if itemLinkFilter and itemLink:find(itemLinkFilter) then
             return true
         end
-        local _, _, _, itemEquipLoc = GetItemInfoInstant(itemLink)
-        if itemEquipLoc and itemEquipLoc == "" then
-            return true
-        end
-        local effectiveILvl = GetDetailedItemLevelInfo(itemLink)
-        if effectiveILvl and effectiveILvl >= LOG_FILTER.ITEM_LEVEL then
-            return true
-        end
+        -- local _, _, _, itemEquipLoc = GetItemInfoInstant(itemLink)
+        -- if itemEquipLoc and itemEquipLoc == "" then
+        --     return true
+        -- end
+        -- local effectiveILvl = GetDetailedItemLevelInfo(itemLink)
+        -- if effectiveILvl and effectiveILvl >= LOG_FILTER.ITEM_LEVEL then
+        --     return true
+        -- end
     end
 
     ---@param lootEntry RWFLootEntry
@@ -7464,6 +7468,97 @@ do
         else
             PrepareLootEntryForSV(lootEntry)
         end
+    end
+
+    local function GetGuildNewsItems()
+        local t = {} ---@type GuildNewsInfo[]
+        local i = 0
+        local n = 0
+        local newsInfo ---@type GuildNewsInfo
+        repeat
+            i = i + 1
+            newsInfo = C_GuildInfo.GetGuildNewsInfo(i)
+            if not newsInfo then
+                break
+            elseif LOG_GUILD_NEWS_TYPES[newsInfo.newsType] then
+                n = n + 1
+                t[n] = newsInfo
+            end
+        until false
+        return t, n
+    end
+
+    ---@class GuildNewsTicker : Ticker
+
+    local guildNewsTicker ---@type GuildNewsTicker
+    local guildNewsCount ---@type number
+
+    local function GetGuildNews()
+        local items, count = GetGuildNewsItems()
+        local diff = guildNewsCount and abs(count - guildNewsCount) or 0
+        return items, count, diff
+    end
+
+    ---@param newsInfo GuildNewsInfo
+    local function HandleGuildNewsInfo(newsInfo, now)
+        local itemType, itemID, itemLink, itemCount, itemQuality = GetItemFromText(newsInfo.whatText)
+        if itemType and CanLogItem(itemLink, itemType, itemQuality, LOG_FILTER.GUILD_NEWS) then
+            newsInfo.year = newsInfo.year + 2000
+            newsInfo.month = newsInfo.month + 1
+            newsInfo.day = newsInfo.day + 1
+            local timestamp = time(newsInfo)
+            if now - timestamp <= LOG_ITEM_LOG_IF_NEWER then
+                HandleLootEntry(LogItemLink(LOG_TYPE.News, itemType, itemID, itemLink, itemCount or 1, nil, timestamp, { who = newsInfo.whoText }))
+                return true
+            end
+            return false
+        end
+    end
+
+    local SCAN_NUM_ITEMS_PER_FRAME = 100
+    local SCAN_INTERVAL_BETWEEN_CYCLES = 0.05
+
+    local function ScanGuildNews()
+        if guildNewsTicker then
+            guildNewsTicker.CalledDuringScan = true
+            return
+        end
+        local co = coroutine.create(function()
+            local items, count, diff = GetGuildNews()
+            if guildNewsCount == count then
+                return
+            end
+            guildNewsCount = count
+            local now = time()
+            for i, newsInfo in ipairs(items) do
+                if HandleGuildNewsInfo(newsInfo, now) and i % SCAN_NUM_ITEMS_PER_FRAME == 0 then
+                    coroutine.yield()
+                end
+            end
+            if not guildNewsTicker.CalledDuringScan then
+                return
+            end
+            items, count, diff = GetGuildNews()
+            if guildNewsCount == count then
+                return
+            end
+            guildNewsCount = count
+            for i, newsInfo in ipairs(items) do
+                if i > diff then
+                    break
+                end
+                HandleGuildNewsInfo(newsInfo, now)
+            end
+        end)
+        LOOT_FRAME.MiniFrame:StartScanning()
+        guildNewsTicker = C_Timer.NewTicker(SCAN_INTERVAL_BETWEEN_CYCLES, function()
+            if not coroutine.resume(co) then
+                guildNewsTicker:Cancel()
+                guildNewsTicker = nil
+                LOOT_FRAME.MiniFrame:StopScanning()
+                return
+            end
+        end)
     end
 
     local function OnEvent(event, ...)
@@ -7500,22 +7595,7 @@ do
                 HandleLootEntry(LogItemLink(LOG_TYPE.Chat, itemType, itemID, itemLink, itemCount or 1))
             end
         elseif event == "GUILD_NEWS_UPDATE" then
-            local now = time()
-            for i = 1, GetNumGuildNews() do
-                local newsInfo = C_GuildInfo.GetGuildNewsInfo(i)
-                if newsInfo and newsInfo.newsType and LOG_GUILD_NEWS_TYPES[newsInfo.newsType] then
-                    local itemType, itemID, itemLink, itemCount, itemQuality = GetItemFromText(newsInfo.whatText)
-                    if itemType and CanLogItem(itemLink, itemType, itemQuality, LOG_FILTER.GUILD_NEWS) then
-                        newsInfo.year = newsInfo.year + 2000
-                        newsInfo.month = newsInfo.month + 1
-                        newsInfo.day = newsInfo.day + 1
-                        local timestamp = time(newsInfo)
-                        if now - timestamp <= 172800 then -- only scan the past 2 days (inclusive)
-                            HandleLootEntry(LogItemLink(LOG_TYPE.News, itemType, itemID, itemLink, itemCount or 1, nil, timestamp, { who = newsInfo.whoText }))
-                        end
-                    end
-                end
-            end
+            ScanGuildNews()
         end
         if LOOT_FRAME:IsShown() then
             LOOT_FRAME:OnShow()
@@ -7668,6 +7748,20 @@ do
         util:SetButtonTextureFromIcon(frame.MiniFrame, ns.CUSTOM_ICONS.icons.RAIDERIO_COLOR_CIRCLE)
         frame.MiniFrame:Hide()
 
+        frame.MiniFrame.Spinner = CreateFrame("Button", nil, frame.MiniFrame)
+        frame.MiniFrame.Spinner:SetAllPoints()
+        util:SetButtonTextureFromIcon(frame.MiniFrame.Spinner, ns.CUSTOM_ICONS.icons.RAIDERIO_COLOR_CIRCLE)
+        frame.MiniFrame.Spinner:Hide()
+        frame.MiniFrame.Spinner.Anim = frame.MiniFrame.Spinner:CreateAnimationGroup()
+        frame.MiniFrame.Spinner.Anim.Rotation = frame.MiniFrame.Spinner.Anim:CreateAnimation("Rotation")
+        frame.MiniFrame.Spinner.Anim.Rotation:SetDuration(1)
+        frame.MiniFrame.Spinner.Anim.Rotation:SetOrder(1)
+        frame.MiniFrame.Spinner.Anim.Rotation:SetOrigin("CENTER", 0, 0)
+        frame.MiniFrame.Spinner.Anim.Rotation:SetRadians(math.pi * 2)
+        frame.MiniFrame.Spinner.Anim:SetScript("OnFinished", frame.MiniFrame.Spinner.Anim.Play)
+        frame.MiniFrame.Spinner:SetScript("OnShow", function(self) self.Anim:Play() end)
+        frame.MiniFrame.Spinner:SetScript("OnHide", function(self) self.Anim:Stop() end)
+
         frame.MiniFrame:HookScript("OnShow", function(self)
             self:UpdateState()
         end)
@@ -7797,6 +7891,23 @@ do
             end
         end
 
+        local scanningTicker
+
+        function frame.MiniFrame:StartScanning()
+            if scanningTicker then
+                return
+            end
+            scanningTicker = C_Timer.NewTicker(3, function() self.Spinner:Show() end, 1)
+        end
+
+        function frame.MiniFrame:StopScanning()
+            if scanningTicker then
+                scanningTicker:Cancel()
+                scanningTicker = nil
+            end
+            self.Spinner:Hide()
+        end
+
         function frame:OnShow()
             local isEnabled = config:Get("rwfMode")
             local isLogging, instanceName = rwf:GetLocation()
@@ -7818,6 +7929,7 @@ do
                 if InCombatLockdown() then
                     return
                 end
+                QueryGuildNews()
                 GuildNewsSort(0)
             end,
             Start = function(self)
@@ -7860,14 +7972,15 @@ do
             end
             frame:OnShow()
             if config:Get("rwfBackgroundMode") then
-                NEWS_TICKER:Start()
                 frame.MiniFrame:SetShown(not frame:IsShown())
-            elseif frame:IsShown() then
                 NEWS_TICKER:Start()
-                frame.MiniFrame:Hide()
             else
-                NEWS_TICKER:Stop()
                 frame.MiniFrame:Hide()
+                if frame:IsShown() then
+                    NEWS_TICKER:Start()
+                else
+                    NEWS_TICKER:Stop()
+                end
             end
         end
         callback:RegisterEvent(OnSettingsChanged, "RAIDERIO_CONFIG_READY")

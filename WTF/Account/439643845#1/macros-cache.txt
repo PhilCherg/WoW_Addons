@@ -22,6 +22,10 @@ END
 VER 3 0000000000000038 "Burning Rush" "237513"
 n
 END
+VER 3 000000000000004E "CataclysmCursor" "409545"
+#showtooltip Cataclysm
+/cast [@cursor] Cataclysm
+END
 VER 3 0000000000000019 "Chain Heal" "136042"
 #showtooltip Chain Heal
 /use [@mouseover, exists] Chain Heal
@@ -108,6 +112,10 @@ VER 3 000000000000001B "Healing Wave" "136043"
 #showtooltip Healing Wave
 /use [@mouseover, exists] Healing Wave
 END
+VER 3 000000000000004F "InfernalCursor" "136219"
+#showtooltip Summon Infernal
+/cast [@cursor] Summon Infernal
+END
 VER 3 0000000000000036 "Kill" "136217"
 /tar Siorin
 /cast Incinerate
@@ -139,6 +147,10 @@ END
 VER 3 000000000000002F "PvP Trinket DS" "135473"
 /use Sinful Gladiator's Badge of Ferocity
 /use Dark Soul: Instabilityaw
+END
+VER 3 000000000000004D "RainOfFireCursor" "136186"
+#showtooltip Rain of Fire
+/cast [@cursor] Rain of Fire
 END
 VER 3 0000000000000018 "Riptide" "252995"
 #showtooltip Riptide

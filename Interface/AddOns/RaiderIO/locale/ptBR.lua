@@ -1,4 +1,4 @@
--- Generated from CurseForge on Tue Mar  8 06:18:38 UTC 2022
+-- Generated from CurseForge on Thu Mar 24 06:58:52 UTC 2022
 local ns = select(2, ...) ---@type ns @The addon namespace.
 
 if ns:IsSameLocale("ptBR") then
@@ -80,6 +80,8 @@ L["DUNGEON_SHORT_NAME_DOS"] = "Outro Lado"
 --[[ L["DUNGEON_SHORT_NAME_EOA"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["DUNGEON_SHORT_NAME_FH"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_GMBT"] = ""--]] 
 L["DUNGEON_SHORT_NAME_HOA"] = [=[Salões
 ]=]
 --[[Translation missing --]]
@@ -105,6 +107,8 @@ L["DUNGEON_SHORT_NAME_SD"] = "Profundezas"
 L["DUNGEON_SHORT_NAME_SOA"] = "Torres"
 --[[Translation missing --]]
 --[[ L["DUNGEON_SHORT_NAME_SOTS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_STRT"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["DUNGEON_SHORT_NAME_TD"] = ""--]] 
 --[[Translation missing --]]
@@ -356,6 +360,8 @@ L["RELOAD_NOW"] = "Recarregar agora"
 --[[ L["RELOAD_RWF_MODE_BUTTON"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RELOAD_RWF_MODE_BUTTON_TOOLTIP"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RWF_MINIBUTTON_TOOLTIP"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RWF_SUBTITLE_LOGGING_FILTERED_LOOT"] = ""--]] 
 --[[Translation missing --]]

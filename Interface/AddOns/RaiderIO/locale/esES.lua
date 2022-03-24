@@ -1,4 +1,4 @@
--- Generated from CurseForge on Tue Mar  8 06:18:33 UTC 2022
+-- Generated from CurseForge on Thu Mar 24 06:58:47 UTC 2022
 local ns = select(2, ...) ---@type ns @The addon namespace.
 
 if ns:IsSameLocale("esES") then
@@ -68,6 +68,7 @@ L["DUNGEON_SHORT_NAME_DHT"] = "Arboleda"
 L["DUNGEON_SHORT_NAME_DOS"] = "El Otro Lado - DOS"
 L["DUNGEON_SHORT_NAME_EOA"] = "Ojo"
 L["DUNGEON_SHORT_NAME_FH"] = "Fuerte Libre"
+L["DUNGEON_SHORT_NAME_GMBT"] = "Gambito de So'leah - GMBT"
 L["DUNGEON_SHORT_NAME_HOA"] = "Salas de la Expiación - HOA"
 L["DUNGEON_SHORT_NAME_HOV"] = "Valor"
 L["DUNGEON_SHORT_NAME_KR"] = "Reposo "
@@ -83,6 +84,7 @@ L["DUNGEON_SHORT_NAME_SEAT"] = "Trono"
 L["DUNGEON_SHORT_NAME_SIEGE"] = "Asedio"
 L["DUNGEON_SHORT_NAME_SOA"] = "Agujas de Ascensión - SOA"
 L["DUNGEON_SHORT_NAME_SOTS"] = "Altar "
+L["DUNGEON_SHORT_NAME_STRT"] = "Calles de las Maravillas - STRT"
 L["DUNGEON_SHORT_NAME_TD"] = "Tol Dagor"
 L["DUNGEON_SHORT_NAME_TM"] = "Veta Madre"
 L["DUNGEON_SHORT_NAME_TOP"] = "Teatro del Dolor - TOP"
@@ -270,6 +272,8 @@ L["RELOAD_NOW"] = "Reiniciarla ahora"
 --[[ L["RELOAD_RWF_MODE_BUTTON"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RELOAD_RWF_MODE_BUTTON_TOOLTIP"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RWF_MINIBUTTON_TOOLTIP"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RWF_SUBTITLE_LOGGING_FILTERED_LOOT"] = ""--]] 
 --[[Translation missing --]]
