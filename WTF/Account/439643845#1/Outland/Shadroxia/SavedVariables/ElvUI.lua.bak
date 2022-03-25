@@ -2,1458 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"nah we have spring break", -- [1]
-			"Shadroxia-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Shadroxia-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1587, -- [11]
-			"Player-1301-0B005465", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Shadroxia|r",
-			[51] = 1648113335,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [1]
-		{
-			"and tank", -- [1]
-			"Tihi-Outland", -- [2]
-			"", -- [3]
-			"1. General - Oribos", -- [4]
-			"Tihi-Outland", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Oribos", -- [9]
-			0, -- [10]
-			1644, -- [11]
-			"Player-1301-0B3691D1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Tihi|r",
-			[51] = 1648113747,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"Interrupted Bloodmaul Overseer |cff71d5ff|Hspell:151697:0|h[Subjugate]|h|r", -- [1]
-			"Viserious-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Viserious-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1780, -- [11]
-			"Player-3391-066CD2D9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Viserious-Silvermoon|r",
-			[51] = 1648114253,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [3]
-		{
-			"Interrupted Bloodmaul Overseer |cff71d5ff|Hspell:151581:0|h[Suppression Field]|h|r", -- [1]
-			"Draeneiela-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Draeneiela-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1784, -- [11]
-			"Player-3391-0724AE79", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Draeneiela-Silvermoon|r",
-			[51] = 1648114260,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [4]
-		{
-			"Interrupted Bloodmaul Ogre Mage |cff71d5ff|Hspell:151558:0|h[Lava Burst]|h|r", -- [1]
-			"Draeneiela-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Draeneiela-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1791, -- [11]
-			"Player-3391-0724AE79", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Draeneiela-Silvermoon|r",
-			[51] = 1648114296,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [5]
-		{
-			"Interrupted Bloodmaul Warder |cff71d5ff|Hspell:151545:0|h[Frightening Roar]|h|r", -- [1]
-			"Viserious-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Viserious-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1793, -- [11]
-			"Player-3391-066CD2D9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Viserious-Silvermoon|r",
-			[51] = 1648114300,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [6]
-		{
-			"Interrupted Bloodmaul Geomancer |cff71d5ff|Hspell:164592:0|h[Stone Bolt]|h|r", -- [1]
-			"Draeneiela-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Draeneiela-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1806, -- [11]
-			"Player-3391-0724AE79", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Draeneiela-Silvermoon|r",
-			[51] = 1648114327,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [7]
-		{
-			"Interrupted Slave Watcher Crushto |cff71d5ff|Hspell:150759:0|h[Ferocious Yell]|h|r", -- [1]
-			"Viserious-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Viserious-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1819, -- [11]
-			"Player-3391-066CD2D9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Viserious-Silvermoon|r",
-			[51] = 1648114386,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [8]
-		{
-			"Interrupted Magma Lord |cff71d5ff|Hspell:152427:0|h[Fireball]|h|r", -- [1]
-			"Draeneiela-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Draeneiela-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1852, -- [11]
-			"Player-3391-0724AE79", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Draeneiela-Silvermoon|r",
-			[51] = 1648114564,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [9]
-		{
-			"Interrupted Bloodmaul Magma Binder |cff71d5ff|Hspell:151566:0|h[Molten Binding]|h|r", -- [1]
-			"Draeneiela-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Draeneiela-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1860, -- [11]
-			"Player-3391-0724AE79", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Draeneiela-Silvermoon|r",
-			[51] = 1648114597,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [10]
-		{
-			"Interrupted Bloodmaul Warder |cff71d5ff|Hspell:151545:0|h[Frightening Roar]|h|r", -- [1]
-			"Draeneiela-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Draeneiela-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1903, -- [11]
-			"Player-3391-0724AE79", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Draeneiela-Silvermoon|r",
-			[51] = 1648114742,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [11]
-		{
-			"Interrupted Bloodmaul Geomancer |cff71d5ff|Hspell:164592:0|h[Stone Bolt]|h|r", -- [1]
-			"Viserious-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Viserious-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1904, -- [11]
-			"Player-3391-066CD2D9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Viserious-Silvermoon|r",
-			[51] = 1648114744,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [12]
-		{
-			"Interrupted Gug'rokk |cff71d5ff|Hspell:150677:0|h[Molten Blast]|h|r", -- [1]
-			"Draeneiela-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Draeneiela-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1930, -- [11]
-			"Player-3391-0724AE79", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Draeneiela-Silvermoon|r",
-			[51] = 1648114881,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [13]
-		{
-			"Anyone to help with Mother Phestis?", -- [1]
-			"Jádë-Outland", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Jádë-Outland", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			2115, -- [11]
-			"Player-1301-0AFC2F01", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Jádë|r",
-			[51] = 1648116506,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
-		{
-			"feasting up", -- [1]
-			"Eggle-Outland", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Eggle-Outland", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			2120, -- [11]
-			"Player-1301-0979CBA2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Eggle|r",
-			[51] = 1648116928,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
-		{
-			"|cffffd100|HclubFinder:ClubFinder-1-76730-1301-87462970|h[Guild: The Flat Azeroth Society]|h|r  [Outland] seeks believers. We are raiding Sepulcher and do alot of M+  We also do achievement hunting, mog runs and have a social community<3", -- [1]
-			"Missbunny-Outland", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Missbunny-Outland", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			2121, -- [11]
-			"Player-1301-0B3521F3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Missbunny|r",
-			[51] = 1648116984,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
-		{
-			"General Zarathura 100.00% ~(60.77, 20.26) |cffffff00|Hworldmap:1970:6077:2026|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Gënisis-Outland", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Gënisis-Outland", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			2131, -- [11]
-			"Player-1301-08C09E9B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Gënisis|r",
-			[51] = 1648117721,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
-		{
-			"pls", -- [1]
-			"Lycal-Cho'gall", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lycal-Cho'gall", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2139, -- [11]
-			"Player-1621-0A453BE6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Lycal-Cho'gall|r",
-			[51] = 1648117955,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [18]
-		{
-			"no way", -- [1]
-			"Lycal-Cho'gall", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lycal-Cho'gall", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2140, -- [11]
-			"Player-1621-0A453BE6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Lycal-Cho'gall|r",
-			[51] = 1648117988,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [19]
-		{
-			"10 sec", -- [1]
-			"Сильвэрия-Гордунни", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Сильвэрия-Гордунни", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2165, -- [11]
-			"Player-1602-08EFEC8E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cСильвэрия-Гордунни|r",
-			[51] = 1648118017,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [20]
-		{
-			"for fight", -- [1]
-			"Сильвэрия-Гордунни", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Сильвэрия-Гордунни", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2167, -- [11]
-			"Player-1602-08EFEC8E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cСильвэрия-Гордунни|r",
-			[51] = 1648118023,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [21]
-		{
-			"hot stuff", -- [1]
-			"Winkeywonkey-Arathor", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Winkeywonkey-Arathor", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2168, -- [11]
-			"Player-1587-073196F8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cWinkeywonkey-Arathor|r",
-			[51] = 1648118023,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [22]
-		{
-			"thanks!", -- [1]
-			"Winkeywonkey-Arathor", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Winkeywonkey-Arathor", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2171, -- [11]
-			"Player-1587-073196F8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cWinkeywonkey-Arathor|r",
-			[51] = 1648118030,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [23]
-		{
-			"brace for laaaag!!!", -- [1]
-			"Shadroxia-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Shadroxia-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2173, -- [11]
-			"Player-1301-0B005465", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Shadroxia|r",
-			[51] = 1648118033,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [24]
-		{
-			"lagg?", -- [1]
-			"Grind-Lordaeron", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Grind-Lordaeron", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			2177, -- [11]
-			"Player-580-0A41A57B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cGrind-Lordaeron|r",
-			[51] = 1648118063,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
-		{
-			"ziemlich", -- [1]
-			"Ultimana-Blackmoore", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Ultimana-Blackmoore", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			2178, -- [11]
-			"Player-580-0264CE04", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Ultimana-Blackmoore|r",
-			[51] = 1648118075,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
-		{
-			"iska^^", -- [1]
-			"Tahor-Throk'Feroth", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Tahor-Throk'Feroth", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			2179, -- [11]
-			"Player-512-06D48B3B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Tahor-Throk'Feroth|r",
-			[51] = 1648118075,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
-		{
-			"jo", -- [1]
-			"Tanatloc-Blackmoore", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Tanatloc-Blackmoore", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			2181, -- [11]
-			"Player-580-0A41ED83", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edTanatloc-Blackmoore|r",
-			[51] = 1648118084,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
-		{
-			"Interrupted |cff71d5ff|Hspell:360589:0|h[Bolt of Ruination]|h|r on Iska, Outrider of Ruin", -- [1]
-			"Katerinna-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Katerinna-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2182, -- [11]
-			"Player-3391-06E870A4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Katerinna-Silvermoon|r",
-			[51] = 1648118086,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [29]
-		{
-			"no'gor ko kek ag kek ", -- [1]
-			"Ysgafndroed-DieAldor", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Ysgafndroed-DieAldor", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			2183, -- [11]
-			"Player-1618-070F7FC5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Ysgafndroed-DieAldor|r",
-			[51] = 1648118094,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [30]
-		{
-			"Ich dachte es dauert immer 5 Sekunden bis was passiert?", -- [1]
-			"Sindoran-Blackmoore", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Sindoran-Blackmoore", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			2184, -- [11]
-			"Player-580-016265A2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaSindoran-Blackmoore|r",
-			[51] = 1648118096,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
-		{
-			"world of laggcraft", -- [1]
-			"Ultimana-Blackmoore", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Ultimana-Blackmoore", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			2185, -- [11]
-			"Player-580-0264CE04", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Ultimana-Blackmoore|r",
-			[51] = 1648118096,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
-		{
-			"mog kek ha g zug", -- [1]
-			"Borny-Drak'thul", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Borny-Drak'thul", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			2190, -- [11]
-			"Player-1092-008F7E1E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edBorny-Drak'thul|r",
-			[51] = 1648118109,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [33]
-		{
-			"gesh RUK raznos grom", -- [1]
-			"Andomax-Deathwing", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Andomax-Deathwing", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			2191, -- [11]
-			"Player-1596-0EFE131A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Andomax-Deathwing|r",
-			[51] = 1648118116,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [34]
-		{
-			"l dogg tago IL", -- [1]
-			"Thorkar-Uldum", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Thorkar-Uldum", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			2195, -- [11]
-			"Player-1379-05299D38", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcThorkar-Uldum|r",
-			[51] = 1648118126,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [35]
-		{
-			"A gul golar", -- [1]
-			"Galko-Blackmoore", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Galko-Blackmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			2197, -- [11]
-			"Player-580-0A2EF228", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edGalko-Blackmoore|r",
-			[51] = 1648118126,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [36]
-		{
-			"222222222222222222222222222", -- [1]
-			"Caieta-Aggramar", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Caieta-Aggramar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2201, -- [11]
-			"Player-1325-03C46AE0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaCaieta-Aggramar|r",
-			[51] = 1648118131,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [37]
-		{
-			"a l", -- [1]
-			"Nefa-Blackmoore", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Nefa-Blackmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			2205, -- [11]
-			"Player-580-0A34DC77", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaNefa-Blackmoore|r",
-			[51] = 1648118136,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [38]
-		{
-			"ZAGA OGG", -- [1]
-			"Yaliana-Ragnaros", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Yaliana-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			2215, -- [11]
-			"Player-3682-0930EFD1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Yaliana-Ragnaros|r",
-			[51] = 1648118143,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [39]
-		{
-			"holes", -- [1]
-			"Gonzzas-Aegwynn", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Gonzzas-Aegwynn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			372, -- [11]
-			"Player-3679-06977F1A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Gonzzas-Aegwynn|r",
-			[51] = 1648128298,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [40]
-		{
-			"Anyone wanna come kill Screaming Shade?", -- [1]
-			"Shadroxia-Outland", -- [2]
-			"", -- [3]
-			"1. General - Korthia", -- [4]
-			"Shadroxia-Outland", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Korthia", -- [9]
-			0, -- [10]
-			427, -- [11]
-			"Player-1301-0B005465", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Shadroxia|r",
-			[51] = 1648129855,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
-		{
-			"hopercrusher up", -- [1]
-			"Navotha-Ravencrest", -- [2]
-			"", -- [3]
-			"1. General - Revendreth", -- [4]
-			"Navotha-Ravencrest", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Revendreth", -- [9]
-			0, -- [10]
-			458, -- [11]
-			"Player-1329-09C14270", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Navotha-Ravencrest|r",
-			[51] = 1648130621,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
-		{
-			"hopecrusher*", -- [1]
-			"Navotha-Ravencrest", -- [2]
-			"", -- [3]
-			"1. General - Revendreth", -- [4]
-			"Navotha-Ravencrest", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Revendreth", -- [9]
-			0, -- [10]
-			459, -- [11]
-			"Player-1329-09C14270", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Navotha-Ravencrest|r",
-			[51] = 1648130626,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
-		{
-			"Guild Team Selling M+ (10-17) Ksm & Torghast(1-16) !!  ( cheap price )( Good Offer For Multi Runs )---  /w me .(Only Gold)", -- [1]
-			"Bestshåmy-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Bestshåmy-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			593, -- [11]
-			"Player-1301-0877B8D3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcBestshåmy|r",
-			[51] = 1648131516,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
-		{
-			"wtb|cffffffff|Hitem:173248::::::::60:258::63:1:3524::::::|h[Grim-Veiled Belt]|h|r291", -- [1]
-			"Lpxe-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lpxe-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			594, -- [11]
-			"Player-1301-0B8EBEF7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeLpxe|r",
-			[51] = 1648131656,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
-		{
-			"I give 0 fucks about people fighing for the last churro", -- [1]
-			"Diablillu-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Diablillu-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			619, -- [11]
-			"Player-1301-08D98F23", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edDiablillu|r",
-			[51] = 1648132176,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
-		{
-			"So basically the last lets say 50000 thousand years, all we achieved was fighting ourselves, for \"achievements\"", -- [1]
-			"Messías-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Messías-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			620, -- [11]
-			"Player-1301-095A264E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Messías|r",
-			[51] = 1648132208,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
-		{
-			"When technically, and cosmically, it has 0 meaning", -- [1]
-			"Messías-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Messías-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			621, -- [11]
-			"Player-1301-095A264E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Messías|r",
-			[51] = 1648132211,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
-		{
-			"Yeah, and If you were the most brutal one, you could be a king", -- [1]
-			"Diablillu-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Diablillu-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			622, -- [11]
-			"Player-1301-08D98F23", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edDiablillu|r",
-			[51] = 1648132215,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
-		{
-			"All monarchies came from barbarians", -- [1]
-			"Diablillu-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Diablillu-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			642, -- [11]
-			"Player-1301-08D98F23", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edDiablillu|r",
-			[51] = 1648132247,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
-		{
-			"change my mind", -- [1]
-			"Diablillu-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Diablillu-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			643, -- [11]
-			"Player-1301-08D98F23", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edDiablillu|r",
-			[51] = 1648132249,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
-		{
-			"I dont get it, all I want, is to sit alone on my cabin, left alone, no one around me. ", -- [1]
-			"Messías-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Messías-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			644, -- [11]
-			"Player-1301-095A264E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Messías|r",
-			[51] = 1648132260,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
-		{
-			"But Messias we love you", -- [1]
-			"Diablillu-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Diablillu-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			645, -- [11]
-			"Player-1301-08D98F23", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edDiablillu|r",
-			[51] = 1648132282,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
-		{
-			"But to achieve that, I have to compete with sociopaths with the only instinct to win, as if its cosmically important", -- [1]
-			"Messías-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Messías-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			646, -- [11]
-			"Player-1301-095A264E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Messías|r",
-			[51] = 1648132286,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
-		{
-			"wanting to win = sociopath", -- [1]
-			"Gødmõdë-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gødmõdë-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			647, -- [11]
-			"Player-1301-05B1EFD4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Gødmõdë|r",
-			[51] = 1648132301,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
-		{
-			"interesting", -- [1]
-			"Gødmõdë-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gødmõdë-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			648, -- [11]
-			"Player-1301-05B1EFD4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Gødmõdë|r",
-			[51] = 1648132303,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
-		{
-			"It really is", -- [1]
-			"Messías-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Messías-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			649, -- [11]
-			"Player-1301-095A264E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Messías|r",
-			[51] = 1648132310,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
-		{
-			"Rogue? must be a sociopath", -- [1]
-			"Diablillu-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Diablillu-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			650, -- [11]
-			"Player-1301-08D98F23", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edDiablillu|r",
-			[51] = 1648132314,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
-		{
-			"Imagine having social skills and play wow, these kids lmao", -- [1]
-			"Diablillu-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Diablillu-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			651, -- [11]
-			"Player-1301-08D98F23", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edDiablillu|r",
-			[51] = 1648132334,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
-		{
-			"If you want to win, you have to consider what you are trying to win, what is it, you are not winning anything even if you win the designed achievements of human society", -- [1]
-			"Messías-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Messías-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			652, -- [11]
-			"Player-1301-095A264E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Messías|r",
-			[51] = 1648132345,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
-		{
-			"Meaning, if you want to win, you are by design, a sociopath", -- [1]
-			"Messías-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Messías-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			653, -- [11]
-			"Player-1301-095A264E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Messías|r",
-			[51] = 1648132354,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
-		{
-			"i just smoke a blunt, pls continue", -- [1]
-			"Onlyhealing-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Onlyhealing-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			654, -- [11]
-			"Player-1301-05221E5D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Onlyhealing|r",
-			[51] = 1648132371,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
-		{
-			"I explained mitosis today to kids, I give 0 fucks about the world at this point", -- [1]
-			"Diablillu-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Diablillu-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			655, -- [11]
-			"Player-1301-08D98F23", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edDiablillu|r",
-			[51] = 1648132387,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
-		{
-			"I swear to god kids are more stupid every year it passes, change my mind", -- [1]
-			"Diablillu-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Diablillu-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			656, -- [11]
-			"Player-1301-08D98F23", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edDiablillu|r",
-			[51] = 1648132420,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
-		{
-			"The win you maybe feel by being \"smarter\" or, \"more successful\" has no cosmic meaning, it literally means nothing. And still, we are designed to intinctively win. Win. Win. Win what? No one wins, everyone dies. ", -- [1]
-			"Messías-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Messías-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			657, -- [11]
-			"Player-1301-095A264E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Messías|r",
-			[51] = 1648132435,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
-		{
-			"where does the line stop", -- [1]
-			"Gødmõdë-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gødmõdë-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			660, -- [11]
-			"Player-1301-05B1EFD4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Gødmõdë|r",
-			[51] = 1648132447,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
-		{
 			"Messias do you think is possible to lose IQ till we move against evolution?", -- [1]
 			"Diablillu-Outland", -- [2]
 			"", -- [3]
@@ -1474,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDiablillu|r",
 			[51] = 1648132453,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [1]
 		{
 			"everything means nothing", -- [1]
 			"Gødmõdë-Outland", -- [2]
@@ -1496,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Gødmõdë|r",
 			[51] = 1648132454,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [2]
 		{
 			"at the end ", -- [1]
 			"Xepias-Outland", -- [2]
@@ -1518,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xepias|r",
 			[51] = 1648132458,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [3]
 		{
 			"depression andy mentality", -- [1]
 			"Gødmõdë-Outland", -- [2]
@@ -1540,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Gødmõdë|r",
 			[51] = 1648132479,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [4]
 		{
 			"¨Its called nihilism", -- [1]
 			"Messías-Outland", -- [2]
@@ -1562,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Messías|r",
 			[51] = 1648132492,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [5]
 		{
 			"Close to", -- [1]
 			"Diablillu-Outland", -- [2]
@@ -1584,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDiablillu|r",
 			[51] = 1648132496,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [6]
 		{
 			"apathy, and atheism", -- [1]
 			"Messías-Outland", -- [2]
@@ -1606,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Messías|r",
 			[51] = 1648132497,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [7]
 		{
 			"apathy is death", -- [1]
 			"Gødmõdë-Outland", -- [2]
@@ -1628,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Gødmõdë|r",
 			[51] = 1648132501,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [8]
 		{
 			"Messias I feel your vibe", -- [1]
 			"Diablillu-Outland", -- [2]
@@ -1650,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDiablillu|r",
 			[51] = 1648132506,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [9]
 		{
 			"ppl call themselves nihilists when they arn't really if you are true to the definition", -- [1]
 			"Gødmõdë-Outland", -- [2]
@@ -1672,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Gødmõdë|r",
 			[51] = 1648132521,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [10]
 		{
 			"Just exhisting", -- [1]
 			"Diablillu-Outland", -- [2]
@@ -1694,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDiablillu|r",
 			[51] = 1648132548,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [11]
 		{
 			"I lost my faith many years ago, and im exhausted by my kindred species ability to disregard our cosmic irrelevance to battle for the unimportant socially constructed valuables of our inevitably closed timeline, in a realm, where we are already dead", -- [1]
 			"Messías-Outland", -- [2]
@@ -1716,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Messías|r",
 			[51] = 1648132590,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [12]
 		{
 			"Thats alot of words", -- [1]
 			"Messías-Outland", -- [2]
@@ -1738,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Messías|r",
 			[51] = 1648132613,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [13]
 		{
 			"i like turtles", -- [1]
 			"Esodred-Outland", -- [2]
@@ -1760,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Esodred|r",
 			[51] = 1648132629,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [14]
 		{
 			"it's true we have cosmic irrelevance but what can you do witht hat info", -- [1]
 			"Gødmõdë-Outland", -- [2]
@@ -1782,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Gødmõdë|r",
 			[51] = 1648132631,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [15]
 		{
 			"If you have info and knowledge you can't be nihilistic? oh boy", -- [1]
 			"Diablillu-Outland", -- [2]
@@ -1804,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDiablillu|r",
 			[51] = 1648132652,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [16]
 		{
 			"no never said that", -- [1]
 			"Gødmõdë-Outland", -- [2]
@@ -1826,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Gødmõdë|r",
 			[51] = 1648132661,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [17]
 		{
 			"is the 14-year old being deep again?", -- [1]
 			"Syclone-Outland", -- [2]
@@ -1848,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Syclone|r",
 			[51] = 1648132679,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [18]
 		{
 			"i'm saying what he is saying is true but then what you commit suicide now as everything means nothing ", -- [1]
 			"Gødmõdë-Outland", -- [2]
@@ -1870,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Gødmõdë|r",
 			[51] = 1648132684,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [19]
 		{
 			"Well for one, there is a new code monkey in my company now, that gets away with smashing computers, and throwing coffee cups, just because he has an idea about software frameworks that many poeple dont, and to me, thats accepting that for the purpose", -- [1]
 			"Messías-Outland", -- [2]
@@ -1892,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Messías|r",
 			[51] = 1648132705,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [20]
 		{
 			"Of capitalism, any behaviour is accepted", -- [1]
 			"Messías-Outland", -- [2]
@@ -1914,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Messías|r",
 			[51] = 1648132732,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [21]
 		{
 			"apathy is death, all u can do is play the irl game and let go of all this emo nihilistic shit that everyone knows deep inside anyway but are too busy living in society to even think or give af about", -- [1]
 			"Gødmõdë-Outland", -- [2]
@@ -1936,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Gødmõdë|r",
 			[51] = 1648132738,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [22]
 		{
 			"He is compiting for being the most edgy guy of the group", -- [1]
 			"Diablillu-Outland", -- [2]
@@ -1958,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDiablillu|r",
 			[51] = 1648132741,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [23]
 		{
 			"ok, carry on", -- [1]
 			"Syclone-Outland", -- [2]
@@ -1980,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Syclone|r",
 			[51] = 1648132752,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [24]
 		{
 			"aka it is what it is", -- [1]
 			"Gødmõdë-Outland", -- [2]
@@ -2002,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Gødmõdë|r",
 			[51] = 1648132775,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [25]
 		{
 			"No no, this guys literally smashed a computer, 4000 dollar worth of equipment, and is still not fired. Because he has understanding about complex software frameworks", -- [1]
 			"Messías-Outland", -- [2]
@@ -2024,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Messías|r",
 			[51] = 1648132792,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [26]
 		{
 			"Its like forrest gump", -- [1]
 			"Messías-Outland", -- [2]
@@ -2046,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Messías|r",
 			[51] = 1648132797,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [27]
 		{
 			"Arkham Asylum is comfortable", -- [1]
 			"Tyradora-Outland", -- [2]
@@ -2068,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Tyradora|r",
 			[51] = 1648133765,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [28]
 		{
 			"You can connect with the ancient sounds at caves :O ", -- [1]
 			"Diablillu-Outland", -- [2]
@@ -2090,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDiablillu|r",
 			[51] = 1648133767,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [29]
 		{
 			"some 1 wanna join timewalking quest ?", -- [1]
 			"Dayooq-Outland", -- [2]
@@ -2112,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDayooq|r",
 			[51] = 1648133780,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [30]
 		{
 			"Well listen to this logic, id rather DIE early, in a cave, than continoue this inevitable evolutionary fight for being the smartest person in the room, which, we inherently have instinctively adopted", -- [1]
 			"Messías-Outland", -- [2]
@@ -2134,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Messías|r",
 			[51] = 1648133823,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [31]
 		{
 			"Well what a showoff xD", -- [1]
 			"Diablillu-Outland", -- [2]
@@ -2156,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDiablillu|r",
 			[51] = 1648133838,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [32]
 		{
 			"guys, what's the rogue pvp covenant?", -- [1]
 			"Baldríck-Outland", -- [2]
@@ -2177,6 +725,1458 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "|cff006fdcBaldríck|r",
 			[51] = 1648133868,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [33]
+		{
+			"lf someones hot ex gf to be my fuckbuddy", -- [1]
+			"Happyfapfapf-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Happyfapfapf-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2269, -- [11]
+			"Player-1301-0582F0C7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Happyfapfapf|r",
+			[51] = 1648208788,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [34]
+		{
+			"i like sloppy seconds", -- [1]
+			"Happyfapfapf-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Happyfapfapf-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2281, -- [11]
+			"Player-1301-0582F0C7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Happyfapfapf|r",
+			[51] = 1648208810,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [35]
+		{
+			"you are retarded go offline", -- [1]
+			"Balthazaga-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Balthazaga-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2282, -- [11]
+			"Player-1301-08F9C8E1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Balthazaga|r",
+			[51] = 1648208820,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [36]
+		{
+			"if that floats your boat ", -- [1]
+			"Whatt-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Whatt-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2283, -- [11]
+			"Player-1301-07B06159", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaWhatt|r",
+			[51] = 1648208828,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [37]
+		{
+			"imagine looking for a hookup in dead wow chat. damn buddy", -- [1]
+			"Balthazaga-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Balthazaga-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2287, -- [11]
+			"Player-1301-08F9C8E1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Balthazaga|r",
+			[51] = 1648208861,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [38]
+		{
+			"im not going offline i stay here to torment little faggot dh like u", -- [1]
+			"Happyfapfapf-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Happyfapfapf-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2291, -- [11]
+			"Player-1301-0582F0C7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Happyfapfapf|r",
+			[51] = 1648208867,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [39]
+		{
+			"whatehell HAHA, you be you then bossman", -- [1]
+			"Balthazaga-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Balthazaga-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2305, -- [11]
+			"Player-1301-08F9C8E1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Balthazaga|r",
+			[51] = 1648208895,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [40]
+		{
+			"i bought a sound and figured what the hollow tube is for", -- [1]
+			"Happyfapfapf-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Happyfapfapf-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2324, -- [11]
+			"Player-1301-0582F0C7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Happyfapfapf|r",
+			[51] = 1648208931,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [41]
+		{
+			"after u stick the sound down ur cock u suck the hollow tube", -- [1]
+			"Happyfapfapf-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Happyfapfapf-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2335, -- [11]
+			"Player-1301-0582F0C7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Happyfapfapf|r",
+			[51] = 1648208949,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [42]
+		{
+			"i will figure out the dark magic and kill u all", -- [1]
+			"Happyfapfapf-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Happyfapfapf-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2359, -- [11]
+			"Player-1301-0582F0C7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Happyfapfapf|r",
+			[51] = 1648209000,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [43]
+		{
+			"now or later", -- [1]
+			"Happyfapfapf-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Happyfapfapf-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2363, -- [11]
+			"Player-1301-0582F0C7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Happyfapfapf|r",
+			[51] = 1648209006,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [44]
+		{
+			"what is happening here", -- [1]
+			"Bankstudent-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Bankstudent-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2369, -- [11]
+			"Player-1301-0C211058", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaBankstudent|r",
+			[51] = 1648209016,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [45]
+		{
+			"Dunno reported the incel fella x)", -- [1]
+			"Balthazaga-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Balthazaga-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2376, -- [11]
+			"Player-1301-08F9C8E1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Balthazaga|r",
+			[51] = 1648209029,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [46]
+		{
+			"Bring back the raid sellers at this point", -- [1]
+			"Khemis-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Khemis-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2386, -- [11]
+			"Player-1301-0803ED6C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcKhemis|r",
+			[51] = 1648209046,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [47]
+		{
+			"wts |cffa335ee|Hitem:190735::::::::60:104:::::::::|h[Varruth's Guillotine]|h|r best price", -- [1]
+			"Kiierra-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Kiierra-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2423, -- [11]
+			"Player-1301-0BCEA62E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Kiierra|r",
+			[51] = 1648209122,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [48]
+		{
+			"yeah man.. *stirs coffee*", -- [1]
+			"Balthazaga-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Balthazaga-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2425, -- [11]
+			"Player-1301-08F9C8E1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Balthazaga|r",
+			[51] = 1648209125,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [49]
+		{
+			"WTS |cffa335ee|Hitem:190334::::::::60:63::3:7:7189:41:8023:8133:8138:1472:6646:1:28:2165:::::|h[Origin of the Fireflash]|h|r BeSt PrIcE!", -- [1]
+			"Whatt-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Whatt-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2444, -- [11]
+			"Player-1301-07B06159", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaWhatt|r",
+			[51] = 1648209166,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [50]
+		{
+			"anyone now wher all m+ and raid boost going??early this chat was full of them?", -- [1]
+			"Lpxe-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Lpxe-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2448, -- [11]
+			"Player-1301-0B8EBEF7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeLpxe|r",
+			[51] = 1648209172,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [51]
+		{
+			"dont jynx it", -- [1]
+			"Floradin-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Floradin-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2460, -- [11]
+			"Player-1301-0BDF6B3C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Floradin|r",
+			[51] = 1648209195,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [52]
+		{
+			"blizzard banned them all from doing it", -- [1]
+			"Khemis-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Khemis-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2481, -- [11]
+			"Player-1301-0803ED6C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcKhemis|r",
+			[51] = 1648209237,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [53]
+		{
+			"everyone is so good now that boosters are not needed", -- [1]
+			"Bankstudent-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Bankstudent-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2483, -- [11]
+			"Player-1301-0C211058", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaBankstudent|r",
+			[51] = 1648209239,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [54]
+		{
+			"Should i continue leveling all classes to 60, grind pvp gear or just quit the game? i ask this everyday", -- [1]
+			"Balthazaga-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Balthazaga-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2484, -- [11]
+			"Player-1301-08F9C8E1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Balthazaga|r",
+			[51] = 1648209240,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [55]
+		{
+			"more easy now finding thing to bye", -- [1]
+			"Lpxe-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Lpxe-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2510, -- [11]
+			"Player-1301-0B8EBEF7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeLpxe|r",
+			[51] = 1648209292,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [56]
+		{
+			"why hate on me, i only said killing white muslims is good especially gingers", -- [1]
+			"Happyfapfapf-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Happyfapfapf-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2512, -- [11]
+			"Player-1301-0582F0C7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Happyfapfapf|r",
+			[51] = 1648209294,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [57]
+		{
+			"finding thing to bye? thats deep", -- [1]
+			"Balthazaga-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Balthazaga-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2520, -- [11]
+			"Player-1301-08F9C8E1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Balthazaga|r",
+			[51] = 1648209309,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [58]
+		{
+			"you are deffo the opposite of \"happy\" ", -- [1]
+			"Bankstudent-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Bankstudent-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2534, -- [11]
+			"Player-1301-0C211058", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaBankstudent|r",
+			[51] = 1648209335,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [59]
+		{
+			"its not fun anymore, but its like comfort gaming. you have a goal and you know what you be doin :(", -- [1]
+			"Balthazaga-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Balthazaga-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2571, -- [11]
+			"Player-1301-08F9C8E1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Balthazaga|r",
+			[51] = 1648209371,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [60]
+		{
+			"LF |cffffffff|Hitem:178927::::::::60:62:::::::::|h[Shadowghast Necklace]|h|r crafter", -- [1]
+			"Ledigtnavn-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ledigtnavn-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2616, -- [11]
+			"Player-1301-0636EE05", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaLedigtnavn|r",
+			[51] = 1648209419,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [61]
+		{
+			"time to quit wow then - better than complain in trade", -- [1]
+			"Callmerosyy-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Callmerosyy-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2625, -- [11]
+			"Player-1301-080B54BF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edCallmerosyy|r",
+			[51] = 1648209427,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [62]
+		{
+			"thats one of this guys who pretend to hate the game complain all day in trade chat but at the end of the day hes doing nothing else except playing and spending his free time to play and nothing else ", -- [1]
+			"Moradîn-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Moradîn-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2630, -- [11]
+			"Player-1301-0C0FCF16", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Moradîn|r",
+			[51] = 1648209432,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [63]
+		{
+			"anyone watch the new halo tv series?", -- [1]
+			"Messías-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Messías-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2637, -- [11]
+			"Player-1301-095A264E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Messías|r",
+			[51] = 1648209443,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [64]
+		{
+			"I am so, so, dissapointed", -- [1]
+			"Messías-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Messías-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2640, -- [11]
+			"Player-1301-095A264E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Messías|r",
+			[51] = 1648209446,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [65]
+		{
+			"new old havent watched this at all", -- [1]
+			"Moradîn-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Moradîn-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2646, -- [11]
+			"Player-1301-0C0FCF16", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Moradîn|r",
+			[51] = 1648209457,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [66]
+		{
+			"hes not my master chief ", -- [1]
+			"Khemis-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Khemis-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2650, -- [11]
+			"Player-1301-0803ED6C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcKhemis|r",
+			[51] = 1648209465,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [67]
+		{
+			"but I'll watch it", -- [1]
+			"Khemis-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Khemis-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2654, -- [11]
+			"Player-1301-0803ED6C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcKhemis|r",
+			[51] = 1648209470,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [68]
+		{
+			"Just, dont. I watched it, and I feel abused. It has non of the lore, they arent even on the halo ring, and its just trash. Cant believe Spielberg is behind this", -- [1]
+			"Messías-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Messías-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2670, -- [11]
+			"Player-1301-095A264E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Messías|r",
+			[51] = 1648209503,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [69]
+		{
+			"its based on the game?", -- [1]
+			"Floradin-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Floradin-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2697, -- [11]
+			"Player-1301-0BDF6B3C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Floradin|r",
+			[51] = 1648209561,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [70]
+		{
+			"damn man ''THATS MY OPINION'' much  xD", -- [1]
+			"Balthazaga-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Balthazaga-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2699, -- [11]
+			"Player-1301-08F9C8E1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Balthazaga|r",
+			[51] = 1648209563,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [71]
+		{
+			"I think the artifact is going to take them to the Ring", -- [1]
+			"Khemis-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Khemis-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2701, -- [11]
+			"Player-1301-0803ED6C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcKhemis|r",
+			[51] = 1648209564,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [72]
+		{
+			"its based on the game, i THINK? ", -- [1]
+			"Messías-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Messías-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2707, -- [11]
+			"Player-1301-095A264E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Messías|r",
+			[51] = 1648209574,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [73]
+		{
+			"no spoilers jesus fucken christ", -- [1]
+			"Balthazaga-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Balthazaga-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2708, -- [11]
+			"Player-1301-08F9C8E1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Balthazaga|r",
+			[51] = 1648209575,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [74]
+		{
+			"WTB |cffffffff|Hitem:172320::::::::60:255::69:4:7194:7882:8156:1588:1:28:2142::::Player-1301-0B0D43D9:|h[Umbrahide Waistguard]|h|r 291", -- [1]
+			"Respectina-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Respectina-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2718, -- [11]
+			"Player-1301-06334221", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Respectina|r",
+			[51] = 1648209595,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [75]
+		{
+			"<LEGIO MORTIS> (PvE; 7/11 N; Wed+Sun) Bored of guilds full of mute zombies doing literally nothing? Looking for a strong community? We welcome all willing to play - Casuals, Mythic+, Collectors, Lost Souls - join us now! LF Melee DPS for raid group!", -- [1]
+			"Didakis-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Didakis-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2727, -- [11]
+			"Player-1301-09F639A4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaDidakis|r",
+			[51] = 1648206012,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [76]
+		{
+			"i read reviews after watching it and it pretty much resonates with my own unbiased objective opinion", -- [1]
+			"Messías-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Messías-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2730, -- [11]
+			"Player-1301-095A264E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Messías|r",
+			[51] = 1648206015,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [77]
+		{
+			"I didnt spoil anything here, did I", -- [1]
+			"Messías-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Messías-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2763, -- [11]
+			"Player-1301-095A264E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Messías|r",
+			[51] = 1648209656,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [78]
+		{
+			"Allthough the keyboard warrior on me really just want to address how bad it was, why it was bad, and etc etc. I need a forum to let out my anger. ", -- [1]
+			"Messías-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Messías-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2813, -- [11]
+			"Player-1301-095A264E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Messías|r",
+			[51] = 1648209725,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [79]
+		{
+			"¨Maybe ill just find a wall to punch", -- [1]
+			"Messías-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Messías-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2833, -- [11]
+			"Player-1301-095A264E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Messías|r",
+			[51] = 1648209745,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [80]
+		{
+			"30 years of gaming lore, down the drain", -- [1]
+			"Messías-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Messías-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2873, -- [11]
+			"Player-1301-095A264E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Messías|r",
+			[51] = 1648209787,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [81]
+		{
+			"Messias I miss you hanging round Boralas :P", -- [1]
+			"Faae-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Faae-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2881, -- [11]
+			"Player-1301-09F8A6E9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaFaae|r",
+			[51] = 1648209798,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [82]
+		{
+			"I miss the feeling of not having crippling depression", -- [1]
+			"Messías-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Messías-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2904, -- [11]
+			"Player-1301-095A264E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Messías|r",
+			[51] = 1648209829,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [83]
+		{
+			":)", -- [1]
+			"Messías-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Messías-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2908, -- [11]
+			"Player-1301-095A264E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Messías|r",
+			[51] = 1648209833,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [84]
+		{
+			"always a bright ray of sunshine eh babe lol", -- [1]
+			"Faae-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Faae-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2932, -- [11]
+			"Player-1301-09F8A6E9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaFaae|r",
+			[51] = 1648209856,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [85]
+		{
+			"When I wake up, im just angry that I woke up", -- [1]
+			"Messías-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Messías-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2960, -- [11]
+			"Player-1301-095A264E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Messías|r",
+			[51] = 1648209886,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [86]
+		{
+			"do we really need a like for like halo series though?", -- [1]
+			"Khemis-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Khemis-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2973, -- [11]
+			"Player-1301-0803ED6C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcKhemis|r",
+			[51] = 1648209898,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [87]
+		{
+			"They could have done so much with this tv series, like. I played the first halo on the first xbox. it was mind blowing. It was my childhood", -- [1]
+			"Messías-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Messías-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3006, -- [11]
+			"Player-1301-095A264E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Messías|r",
+			[51] = 1648209932,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [88]
+		{
+			"wts |cffa335ee|Hitem:190735::::::::60:104:::::::::|h[Varruth's Guillotine]|h|r best price", -- [1]
+			"Kiierra-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Kiierra-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3011, -- [11]
+			"Player-1301-0BCEA62E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Kiierra|r",
+			[51] = 1648209937,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [89]
+		{
+			"surely that in itself would just shit over the games, Halo 3 is a master piece, no tv show or movie can live up to it", -- [1]
+			"Khemis-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Khemis-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3022, -- [11]
+			"Player-1301-0803ED6C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcKhemis|r",
+			[51] = 1648209947,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [90]
+		{
+			"But usually game to tv series transition is trash", -- [1]
+			"Messías-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Messías-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3032, -- [11]
+			"Player-1301-095A264E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Messías|r",
+			[51] = 1648209956,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [91]
+		{
+			"its only been 1 episode, the elite gunning down all those civvies was something the games never showed", -- [1]
+			"Khemis-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Khemis-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3056, -- [11]
+			"Player-1301-0803ED6C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcKhemis|r",
+			[51] = 1648209980,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"dont spoil man", -- [1]
+			"Messías-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Messías-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3063, -- [11]
+			"Player-1301-095A264E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Messías|r",
+			[51] = 1648209990,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"pretty sure its in the trailer", -- [1]
+			"Khemis-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Khemis-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3069, -- [11]
+			"Player-1301-0803ED6C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcKhemis|r",
+			[51] = 1648210000,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"doesnt matter, but yeah, I wanted to stop right there", -- [1]
+			"Messías-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Messías-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3076, -- [11]
+			"Player-1301-095A264E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Messías|r",
+			[51] = 1648210012,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"RED SPOILER BOT MY DUDES!", -- [1]
+			"Khemis-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Khemis-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3080, -- [11]
+			"Player-1301-0803ED6C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcKhemis|r",
+			[51] = 1648210019,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"I honestly cant believe Spielberg is behind this", -- [1]
+			"Messías-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Messías-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3089, -- [11]
+			"Player-1301-095A264E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Messías|r",
+			[51] = 1648210036,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"Heroic warfront group lf members", -- [1]
+			"Renoraines-Outland", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Renoraines-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			3238, -- [11]
+			"Player-1301-053C5FC6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cRenoraines|r",
+			[51] = 1648210381,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"WTB |cffffffff|Hitem:173243::::::::60:257::69:3:7882:8156:1588:1:28:2142::::Player-1301-0C181062:|h[Grim-Veiled Sandals]|h|r 80k", -- [1]
+			"Seruion-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Seruion-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3690, -- [11]
+			"Player-1301-09ABFC6D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeSeruion|r",
+			[51] = 1648211328,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},

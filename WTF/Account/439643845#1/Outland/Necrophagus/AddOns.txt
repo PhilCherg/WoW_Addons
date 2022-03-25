@@ -295,7 +295,7 @@ Rarity_Options: enabled
 DBM-CastleNathria: enabled
 DBM-Party-Shadowlands: enabled
 FasterLoot: enabled
-Gladius: disabled
+Gladius: enabled
 FarmHud: disabled
 FarmHud_QuestArrow: disabled
 Grail-NPCs-_retail_: enabled
