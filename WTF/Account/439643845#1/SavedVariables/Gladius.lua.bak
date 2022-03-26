@@ -22,8 +22,8 @@ Gladius2DB = {
 		["Käguya - Turalyon"] = "Käguya - Turalyon",
 		["Feastfive - Outland"] = "Feastfive - Outland",
 		["Bankeristor - Outland"] = "Bankeristor - Outland",
-		["Bullenic - Silvermoon"] = "Bullenic - Silvermoon",
 		["Elementior - Outland"] = "Elementior - Outland",
+		["Bullenic - Silvermoon"] = "Bullenic - Silvermoon",
 		["Illydaria - Draenor"] = "Illydaria - Draenor",
 		["Necropharia - Outland"] = "Necropharia - Outland",
 		["Presentone - Outland"] = "Presentone - Outland",
@@ -82,17 +82,17 @@ Gladius2DB = {
 			},
 		},
 		["Necrophagus - Outland"] = {
-			["y"] = {
-				["arena1"] = 602.9931360731716,
-			},
-			["x"] = {
-				["arena1"] = 848.4451208426035,
-			},
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
 			["locked"] = true,
+			["y"] = {
+				["arena1"] = 602.9931360731716,
+			},
 			["announcements"] = {
 				["trinket"] = false,
+			},
+			["x"] = {
+				["arena1"] = 848.4451208426035,
 			},
 		},
 		["Tempgoddess - Outland"] = {
@@ -199,10 +199,6 @@ Gladius2DB = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
 		},
-		["Bullenic - Silvermoon"] = {
-			["tagsVersion"] = 4,
-			["auraVersion"] = 1,
-		},
 		["Elementior - Outland"] = {
 			["y"] = {
 				["arena1"] = 588.7711223428341,
@@ -212,6 +208,10 @@ Gladius2DB = {
 			["x"] = {
 				["arena1"] = 854.8445676706833,
 			},
+		},
+		["Bullenic - Silvermoon"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
 		},
 		["Illydaria - Draenor"] = {
 			["auraVersion"] = 1,
