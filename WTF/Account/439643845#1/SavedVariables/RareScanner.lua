@@ -31,7 +31,7 @@ RareScannerDB = {
 				[50100] = true,
 				[50108] = true,
 				[31553] = true,
-				[61239] = true,
+				[31576] = true,
 				[61295] = true,
 				[50140] = true,
 				[31577] = true,
@@ -46,9 +46,9 @@ RareScannerDB = {
 				[31549] = true,
 				[62978] = true,
 				[61247] = true,
-				[31576] = true,
+				[61239] = true,
 				[56627] = true,
-				[31824] = true,
+				[31569] = true,
 				[31573] = true,
 				[31832] = true,
 				[31581] = true,
@@ -75,20 +75,20 @@ RareScannerDB = {
 				[44953] = true,
 				[39750] = true,
 				[61297] = true,
-				[42898] = true,
+				[61258] = true,
 				[62979] = true,
 				[64262] = true,
-				[31725] = true,
+				[61282] = true,
 				[56628] = true,
-				[61290] = true,
+				[31729] = true,
 				[62254] = true,
 				[32470] = true,
 				[61250] = true,
-				[61258] = true,
+				[42898] = true,
 				[63693] = true,
 				[31976] = true,
-				[61282] = true,
-				[31729] = true,
+				[31725] = true,
+				[61290] = true,
 				[61298] = true,
 				[44993] = true,
 				[44994] = true,
@@ -98,29 +98,29 @@ RareScannerDB = {
 				[61274] = true,
 				[50146] = true,
 				[50142] = true,
-				[63697] = true,
-				[62398] = true,
-				[62964] = true,
-				[63689] = true,
 				[31785] = true,
-				[31821] = true,
-				[31825] = true,
-				[61283] = true,
+				[62398] = true,
 				[62709] = true,
+				[63689] = true,
+				[63697] = true,
+				[31821] = true,
+				[31570] = true,
+				[61283] = true,
+				[62964] = true,
 				[31550] = true,
 				[62980] = true,
 				[50098] = true,
 				[61291] = true,
 				[63004] = true,
-				[31570] = true,
+				[31825] = true,
 				[31574] = true,
 				[31578] = true,
 				[31582] = true,
 				[31586] = true,
-				[31590] = true,
+				[42907] = true,
 				[61275] = true,
 				[53123] = true,
-				[53131] = true,
+				[44971] = true,
 				[61299] = true,
 				[57559] = true,
 				[44995] = true,
@@ -136,11 +136,11 @@ RareScannerDB = {
 				[63690] = true,
 				[63698] = true,
 				[31917] = true,
-				[62965] = true,
 				[62710] = true,
+				[62965] = true,
 				[38995] = true,
-				[61238] = true,
 				[57668] = true,
+				[61238] = true,
 				[56652] = true,
 				[61225] = true,
 				[61244] = true,
@@ -160,31 +160,31 @@ RareScannerDB = {
 				[42892] = true,
 				[64655] = true,
 				[61249] = true,
-				[31822] = true,
+				[44949] = true,
 				[50144] = true,
-				[63692] = true,
+				[42893] = true,
 				[31826] = true,
 				[39713] = true,
-				[53746] = true,
+				[63691] = true,
 				[63699] = true,
-				[61245] = true,
-				[64202] = true,
-				[31583] = true,
-				[61261] = true,
+				[31830] = true,
+				[63692] = true,
+				[61253] = true,
+				[31587] = true,
 				[31551] = true,
 				[31555] = true,
-				[44973] = true,
+				[61293] = true,
 				[31308] = true,
 				[56631] = true,
 				[31316] = true,
-				[31830] = true,
-				[31579] = true,
-				[42893] = true,
-				[31587] = true,
+				[31575] = true,
+				[61245] = true,
+				[31583] = true,
+				[61261] = true,
 				[42909] = true,
 				[61277] = true,
 				[61285] = true,
-				[61293] = true,
+				[44973] = true,
 				[61241] = true,
 				[44989] = true,
 				[44997] = true,
@@ -194,16 +194,16 @@ RareScannerDB = {
 				[56625] = true,
 				[61237] = true,
 				[50145] = true,
-				[44949] = true,
-				[31902] = true,
-				[61253] = true,
-				[53747] = true,
-				[63700] = true,
-				[31575] = true,
-				[31571] = true,
-				[51994] = true,
 				[31591] = true,
-				[63691] = true,
+				[31902] = true,
+				[31579] = true,
+				[64202] = true,
+				[63700] = true,
+				[31571] = true,
+				[31822] = true,
+				[51994] = true,
+				[53747] = true,
+				[53746] = true,
 				[61235] = true,
 				[53124] = true,
 				[56624] = true,
@@ -221,9 +221,9 @@ RareScannerDB = {
 				[44990] = true,
 				[44998] = true,
 				[50106] = true,
-				[42907] = true,
+				[31590] = true,
 				[56629] = true,
-				[44971] = true,
+				[53131] = true,
 				[56633] = true,
 				[53206] = true,
 				[61280] = true,
@@ -249,7 +249,7 @@ RareScannerDB = {
 				[61279] = true,
 				[61287] = true,
 				[44975] = true,
-				[31569] = true,
+				[31824] = true,
 				[44991] = true,
 				[64348] = true,
 			},
@@ -482,13 +482,13 @@ RareScannerDB = {
 				[31553] = true,
 				[61289] = true,
 				[32661] = true,
-				[31879] = true,
+				[63694] = true,
 				[39713] = true,
 				[31724] = true,
-				[51526] = true,
+				[61235] = true,
 				[61299] = true,
 				[49977] = true,
-				[61235] = true,
+				[51526] = true,
 				[56652] = true,
 				[53602] = true,
 				[61283] = true,
@@ -567,7 +567,7 @@ RareScannerDB = {
 				[31725] = true,
 				[62978] = true,
 				[31729] = true,
-				[63694] = true,
+				[31879] = true,
 				[61288] = true,
 				[51800] = true,
 				[50102] = true,
@@ -970,27 +970,27 @@ RareScannerDB = {
 				[25692] = true,
 				[26271] = true,
 				[26287] = true,
-				[59767] = true,
 				[26319] = true,
+				[59767] = true,
 				[31733] = true,
 				[34429] = true,
 				[30459] = true,
 				[62964] = true,
 				[31829] = true,
 				[30507] = true,
-				[30619] = true,
+				[37677] = true,
 				[36379] = true,
 				[31578] = true,
 				[29548] = true,
-				[30651] = true,
-				[60151] = true,
-				[37677] = true,
-				[61238] = true,
 				[34672] = true,
+				[26511] = true,
+				[30619] = true,
+				[61238] = true,
+				[30651] = true,
 				[13807] = true,
 				[29660] = true,
 				[26607] = true,
-				[50145] = true,
+				[31738] = true,
 				[26639] = true,
 				[30583] = true,
 				[30457] = true,
@@ -999,7 +999,7 @@ RareScannerDB = {
 				[30855] = true,
 				[25712] = true,
 				[36079] = true,
-				[56571] = true,
+				[62709] = true,
 				[34592] = true,
 				[61292] = true,
 				[29884] = true,
@@ -1048,7 +1048,7 @@ RareScannerDB = {
 				[30652] = true,
 				[36592] = true,
 				[26512] = true,
-				[30620] = true,
+				[10203] = true,
 				[10211] = true,
 				[26560] = true,
 				[29747] = true,
@@ -1061,7 +1061,7 @@ RareScannerDB = {
 				[8237] = true,
 				[31752] = true,
 				[10299] = true,
-				[10307] = true,
+				[30828] = true,
 				[61284] = true,
 				[10323] = true,
 				[10331] = true,
@@ -1112,10 +1112,10 @@ RareScannerDB = {
 				[31548] = true,
 				[26561] = true,
 				[26513] = true,
-				[61274] = true,
-				[26545] = true,
 				[29630] = true,
-				[42892] = true,
+				[26545] = true,
+				[61274] = true,
+				[29646] = true,
 				[34740] = true,
 				[31724] = true,
 				[31740] = true,
@@ -1169,19 +1169,19 @@ RareScannerDB = {
 				[26370] = true,
 				[31549] = true,
 				[29647] = true,
-				[34646] = true,
+				[61244] = true,
 				[34422] = true,
 				[26562] = true,
 				[31581] = true,
 				[30670] = true,
 				[60125] = true,
-				[26514] = true,
+				[34582] = true,
 				[30814] = true,
-				[61244] = true,
+				[34646] = true,
 				[29631] = true,
 				[53124] = true,
-				[29887] = true,
-				[31725] = true,
+				[10348] = true,
+				[34774] = true,
 				[31741] = true,
 				[33815] = true,
 				[10268] = true,
@@ -1194,11 +1194,11 @@ RareScannerDB = {
 				[33115] = true,
 				[10332] = true,
 				[31917] = true,
-				[10348] = true,
+				[29887] = true,
 				[59774] = true,
 				[33112] = true,
-				[10380] = true,
 				[62939] = true,
+				[10380] = true,
 				[27921] = true,
 				[30656] = true,
 				[10224] = true,
@@ -1225,24 +1225,24 @@ RareScannerDB = {
 				[26636] = true,
 				[34436] = true,
 				[38995] = true,
-				[26291] = true,
+				[33113] = true,
 				[35460] = true,
 				[56625] = true,
 				[25685] = true,
 				[26355] = true,
 				[26371] = true,
-				[26563] = true,
+				[29632] = true,
 				[63004] = true,
 				[34392] = true,
 				[31550] = true,
 				[34616] = true,
 				[31582] = true,
 				[30575] = true,
-				[29632] = true,
+				[26563] = true,
 				[34584] = true,
 				[39731] = true,
 				[31742] = true,
-				[61278] = true,
+				[30655] = true,
 				[42896] = true,
 				[44974] = true,
 				[31726] = true,
@@ -1254,8 +1254,8 @@ RareScannerDB = {
 				[31822] = true,
 				[34765] = true,
 				[25716] = true,
-				[33114] = true,
 				[60735] = true,
+				[33114] = true,
 				[31902] = true,
 				[38229] = true,
 				[29552] = true,
@@ -1268,11 +1268,11 @@ RareScannerDB = {
 				[34393] = true,
 				[34425] = true,
 				[46733] = true,
-				[30655] = true,
+				[61278] = true,
 				[36567] = true,
 				[29633] = true,
 				[34585] = true,
-				[33113] = true,
+				[26291] = true,
 				[61247] = true,
 				[61279] = true,
 				[10256] = true,
@@ -1291,10 +1291,10 @@ RareScannerDB = {
 				[61727] = true,
 				[26292] = true,
 				[25699] = true,
-				[34774] = true,
+				[31725] = true,
 				[31455] = true,
 				[26356] = true,
-				[34582] = true,
+				[26514] = true,
 				[30480] = true,
 				[30496] = true,
 				[30512] = true,
@@ -1328,7 +1328,7 @@ RareScannerDB = {
 				[26296] = true,
 				[10381] = true,
 				[38376] = true,
-				[29646] = true,
+				[42892] = true,
 				[10405] = true,
 				[49772] = true,
 				[61300] = true,
@@ -1355,10 +1355,10 @@ RareScannerDB = {
 				[39202] = true,
 				[34958] = true,
 				[44998] = true,
-				[30828] = true,
+				[10307] = true,
 				[31456] = true,
 				[29629] = true,
-				[10203] = true,
+				[30620] = true,
 				[59907] = true,
 				[34364] = true,
 				[30513] = true,
@@ -1387,12 +1387,12 @@ RareScannerDB = {
 				[29657] = true,
 				[29639] = true,
 				[29638] = true,
-				[62709] = true,
+				[56571] = true,
 				[61858] = true,
 				[30514] = true,
-				[31738] = true,
+				[50145] = true,
 				[62977] = true,
-				[26511] = true,
+				[60151] = true,
 				[29624] = true,
 				[44659] = true,
 				[34461] = true,
@@ -1503,9 +1503,9 @@ RareScannerDB = {
 				[158628] = -1,
 				[59580] = -1,
 				[61333] = -1,
-				[158629] = -1,
-				[59773] = -1,
 				[65928] = -1,
+				[59773] = -1,
+				[158629] = -1,
 				[59655] = -1,
 				[56595] = -1,
 				[59357] = -1,
@@ -1868,7 +1868,7 @@ RareScannerDB = {
 				[47185] = true,
 				[58268] = true,
 				[50144] = true,
-				[31253] = true,
+				[65585] = true,
 				[31285] = true,
 				[58524] = true,
 				[63764] = true,
@@ -1892,10 +1892,10 @@ RareScannerDB = {
 				[35176] = true,
 				[35240] = true,
 				[57180] = true,
-				[64218] = true,
+				[33513] = true,
 				[57949] = true,
 				[58013] = true,
-				[33513] = true,
+				[64218] = true,
 				[44375] = true,
 				[28087] = true,
 				[30673] = true,
@@ -1926,8 +1926,8 @@ RareScannerDB = {
 				[63692] = true,
 				[28564] = true,
 				[57950] = true,
-				[33514] = true,
 				[64219] = true,
+				[33514] = true,
 				[34592] = true,
 				[25585] = true,
 				[31724] = true,
@@ -1961,23 +1961,23 @@ RareScannerDB = {
 				[39710] = true,
 				[31308] = true,
 				[60763] = true,
-				[28088] = true,
+				[64348] = true,
 				[27727] = true,
 				[50147] = true,
 				[31827] = true,
-				[32470] = true,
+				[46501] = true,
 				[46245] = true,
 				[58591] = true,
 				[64796] = true,
 				[58719] = true,
-				[46501] = true,
+				[32470] = true,
 				[10096] = true,
 				[30487] = true,
 				[61715] = true,
-				[61278] = true,
+				[59231] = true,
 				[30583] = true,
 				[30615] = true,
-				[59231] = true,
+				[61278] = true,
 				[60638] = true,
 				[28503] = true,
 				[30743] = true,
@@ -1986,7 +1986,7 @@ RareScannerDB = {
 				[26745] = true,
 				[26777] = true,
 				[57866] = true,
-				[63901] = true,
+				[30935] = true,
 				[30967] = true,
 				[30999] = true,
 				[57952] = true,
@@ -1998,7 +1998,7 @@ RareScannerDB = {
 				[26734] = true,
 				[58592] = true,
 				[60511] = true,
-				[46246] = true,
+				[60575] = true,
 				[60639] = true,
 				[64797] = true,
 				[10594] = true,
@@ -2039,13 +2039,13 @@ RareScannerDB = {
 				[30488] = true,
 				[58977] = true,
 				[59920] = true,
-				[34925] = true,
+				[57442] = true,
 				[30616] = true,
 				[61280] = true,
 				[30680] = true,
 				[26618] = true,
 				[30744] = true,
-				[57442] = true,
+				[34925] = true,
 				[30808] = true,
 				[26746] = true,
 				[26778] = true,
@@ -2062,7 +2062,7 @@ RareScannerDB = {
 				[57677] = true,
 				[31256] = true,
 				[25870] = true,
-				[46248] = true,
+				[60577] = true,
 				[10719] = true,
 				[62752] = true,
 				[59232] = true,
@@ -2093,14 +2093,14 @@ RareScannerDB = {
 				[44948] = true,
 				[30607] = true,
 				[57694] = true,
-				[38253] = true,
-				[46249] = true,
-				[30457] = true,
-				[62753] = true,
 				[58723] = true,
-				[10556] = true,
+				[60578] = true,
 				[10115] = true,
-				[42539] = true,
+				[62753] = true,
+				[38253] = true,
+				[10556] = true,
+				[30457] = true,
+				[30489] = true,
 				[58979] = true,
 				[57622] = true,
 				[30617] = true,
@@ -2112,39 +2112,39 @@ RareScannerDB = {
 				[26683] = true,
 				[57179] = true,
 				[26747] = true,
-				[26779] = true,
+				[61730] = true,
 				[57037] = true,
 				[10355] = true,
 				[57164] = true,
-				[57189] = true,
+				[61283] = true,
 				[64097] = true,
 				[10771] = true,
 				[64225] = true,
-				[25532] = true,
-				[31737] = true,
+				[57189] = true,
+				[25596] = true,
 				[25628] = true,
 				[46058] = true,
 				[60451] = true,
-				[10819] = true,
+				[31865] = true,
 				[46250] = true,
 				[36079] = true,
 				[62754] = true,
-				[27323] = true,
+				[58724] = true,
 				[62882] = true,
-				[25756] = true,
+				[31897] = true,
 				[58916] = true,
-				[58980] = true,
+				[44651] = true,
 				[31577] = true,
 				[29562] = true,
 				[59172] = true,
-				[29626] = true,
+				[25532] = true,
 				[44971] = true,
-				[25596] = true,
+				[31737] = true,
 				[57381] = true,
 				[25660] = true,
-				[10803] = true,
-				[31865] = true,
-				[31897] = true,
+				[59556] = true,
+				[10819] = true,
+				[25756] = true,
 				[29882] = true,
 				[31726] = true,
 				[62691] = true,
@@ -2153,10 +2153,10 @@ RareScannerDB = {
 				[8237] = true,
 				[64226] = true,
 				[57574] = true,
-				[46827] = true,
+				[36592] = true,
 				[30699] = true,
 				[46059] = true,
-				[34737] = true,
+				[30682] = true,
 				[26684] = true,
 				[46251] = true,
 				[60644] = true,
@@ -2167,12 +2167,12 @@ RareScannerDB = {
 				[30490] = true,
 				[44652] = true,
 				[48810] = true,
-				[36592] = true,
+				[46827] = true,
 				[30618] = true,
 				[61284] = true,
-				[30682] = true,
+				[34737] = true,
 				[26620] = true,
-				[30746] = true,
+				[26652] = true,
 				[57446] = true,
 				[30507] = true,
 				[59621] = true,
@@ -2180,10 +2180,10 @@ RareScannerDB = {
 				[56978] = true,
 				[45032] = true,
 				[60628] = true,
-				[60005] = true,
 				[64099] = true,
+				[60005] = true,
 				[49559] = true,
-				[58086] = true,
+				[64227] = true,
 				[31130] = true,
 				[27068] = true,
 				[10675] = true,
@@ -2193,69 +2193,69 @@ RareScannerDB = {
 				[46252] = true,
 				[62692] = true,
 				[60709] = true,
-				[27324] = true,
+				[58726] = true,
 				[9839] = true,
 				[60901] = true,
 				[29627] = true,
-				[57447] = true,
+				[25661] = true,
 				[31578] = true,
 				[52969] = true,
-				[9780] = true,
-				[25533] = true,
-				[9716] = true,
+				[57511] = true,
+				[61285] = true,
+				[44973] = true,
 				[9732] = true,
 				[29723] = true,
-				[25661] = true,
-				[57511] = true,
+				[57447] = true,
+				[9780] = true,
 				[59622] = true,
 				[25757] = true,
 				[63844] = true,
 				[47137] = true,
-				[64100] = true,
-				[64068] = true,
 				[60006] = true,
 				[32042] = true,
+				[64100] = true,
+				[64068] = true,
 				[64228] = true,
 				[64292] = true,
 				[31569] = true,
 				[28124] = true,
 				[46178] = true,
 				[43485] = true,
-				[30459] = true,
-				[26493] = true,
+				[10116] = true,
+				[30587] = true,
 				[62693] = true,
 				[26269] = true,
 				[30683] = true,
 				[46509] = true,
-				[10116] = true,
+				[30459] = true,
 				[30491] = true,
-				[26717] = true,
-				[57159] = true,
-				[30587] = true,
-				[30619] = true,
-				[30651] = true,
-				[44974] = true,
-				[30715] = true,
-				[26653] = true,
-				[26685] = true,
 				[57512] = true,
+				[25517] = true,
+				[26493] = true,
+				[30619] = true,
+				[61286] = true,
+				[34739] = true,
+				[30715] = true,
+				[30747] = true,
+				[26685] = true,
+				[26717] = true,
 				[26749] = true,
 				[26781] = true,
-				[63845] = true,
-				[61253] = true,
+				[59751] = true,
+				[57159] = true,
 				[59879] = true,
 				[47661] = true,
 				[60007] = true,
 				[9724] = true,
 				[58088] = true,
 				[40847] = true,
-				[25517] = true,
+				[59206] = true,
 				[31738] = true,
-				[27357] = true,
+				[60839] = true,
 				[10516] = true,
 				[60519] = true,
-				[60839] = true,
-				[62694] = true,
+				[27357] = true,
+				[60647] = true,
 				[10580] = true,
 				[27325] = true,
 				[46510] = true,
@@ -2263,10 +2263,10 @@ RareScannerDB = {
 				[42800] = true,
 				[34420] = true,
 				[31579] = true,
-				[34740] = true,
-				[40753] = true,
-				[61287] = true,
 				[44975] = true,
+				[40753] = true,
+				[29628] = true,
+				[34740] = true,
 				[31739] = true,
 				[25745] = true,
 				[29623] = true,
@@ -2286,9 +2286,9 @@ RareScannerDB = {
 				[28157] = true,
 				[58473] = true,
 				[60520] = true,
-				[46511] = true,
+				[26334] = true,
 				[60648] = true,
-				[30652] = true,
+				[61288] = true,
 				[59973] = true,
 				[60840] = true,
 				[30460] = true,
@@ -2297,7 +2297,7 @@ RareScannerDB = {
 				[61096] = true,
 				[30684] = true,
 				[30620] = true,
-				[61288] = true,
+				[30652] = true,
 				[34741] = true,
 				[57386] = true,
 				[26654] = true,
@@ -2310,7 +2310,7 @@ RareScannerDB = {
 				[27070] = true,
 				[43341] = true,
 				[60009] = true,
-				[63848] = true,
+				[59754] = true,
 				[58090] = true,
 				[26732] = true,
 				[29117] = true,
@@ -2318,43 +2318,43 @@ RareScannerDB = {
 				[31228] = true,
 				[57131] = true,
 				[60521] = true,
-				[9701] = true,
-				[9781] = true,
-				[59754] = true,
+				[61289] = true,
+				[57515] = true,
+				[63848] = true,
 				[27326] = true,
 				[27358] = true,
 				[60905] = true,
 				[52781] = true,
-				[34422] = true,
+				[31548] = true,
 				[31580] = true,
 				[46832] = true,
 				[61225] = true,
-				[61289] = true,
+				[9701] = true,
 				[44977] = true,
-				[31740] = true,
+				[9733] = true,
 				[29725] = true,
-				[62569] = true,
-				[57515] = true,
+				[60522] = true,
+				[9781] = true,
 				[43250] = true,
 				[60778] = true,
-				[29885] = true,
+				[25791] = true,
 				[30570] = true,
-				[57516] = true,
+				[26719] = true,
 				[30506] = true,
-				[43251] = true,
+				[26751] = true,
 				[58027] = true,
 				[39668] = true,
 				[59755] = true,
-				[25836] = true,
-				[57007] = true,
+				[43468] = true,
+				[31582] = true,
 				[28158] = true,
-				[31549] = true,
-				[60522] = true,
-				[61355] = true,
-				[10821] = true,
+				[44659] = true,
+				[62569] = true,
+				[57261] = true,
+				[43252] = true,
 				[62761] = true,
 				[26303] = true,
-				[57711] = true,
+				[28031] = true,
 				[10117] = true,
 				[26399] = true,
 				[34423] = true,
@@ -2362,146 +2362,146 @@ RareScannerDB = {
 				[64514] = true,
 				[30621] = true,
 				[61290] = true,
-				[62187] = true,
 				[62699] = true,
-				[26655] = true,
 				[26304] = true,
-				[26719] = true,
-				[26751] = true,
+				[26655] = true,
+				[62978] = true,
+				[57516] = true,
+				[43251] = true,
 				[26783] = true,
 				[63849] = true,
 				[45835] = true,
 				[39413] = true,
 				[14483] = true,
 				[37494] = true,
-				[62978] = true,
+				[29119] = true,
 				[60139] = true,
 				[34425] = true,
 				[60267] = true,
-				[30750] = true,
-				[59757] = true,
+				[57390] = true,
+				[57710] = true,
 				[10517] = true,
-				[43468] = true,
-				[50804] = true,
+				[25836] = true,
+				[63212] = true,
 				[46322] = true,
 				[10581] = true,
 				[27327] = true,
 				[31453] = true,
 				[29866] = true,
-				[42680] = true,
-				[44659] = true,
-				[61099] = true,
 				[42806] = true,
-				[25504] = true,
+				[31549] = true,
+				[31581] = true,
+				[9702] = true,
+				[34616] = true,
 				[61291] = true,
-				[57261] = true,
+				[61355] = true,
 				[31741] = true,
 				[29726] = true,
-				[44789] = true,
+				[31742] = true,
 				[10805] = true,
-				[43252] = true,
-				[9702] = true,
-				[57709] = true,
+				[10821] = true,
 				[63660] = true,
-				[39414] = true,
-				[9734] = true,
-				[59758] = true,
+				[59756] = true,
+				[9830] = true,
+				[43508] = true,
+				[9894] = true,
+				[43958] = true,
 				[25516] = true,
-				[28031] = true,
+				[62187] = true,
 				[44811] = true,
 				[60268] = true,
 				[28127] = true,
 				[28159] = true,
-				[9894] = true,
-				[43958] = true,
+				[28160] = true,
+				[65623] = true,
 				[46666] = true,
 				[46323] = true,
 				[62763] = true,
 				[62827] = true,
 				[25356] = true,
-				[61294] = true,
+				[30655] = true,
 				[60972] = true,
 				[56942] = true,
-				[26753] = true,
+				[26721] = true,
 				[42741] = true,
-				[53746] = true,
+				[57584] = true,
 				[61292] = true,
-				[63661] = true,
+				[50100] = true,
 				[40950] = true,
-				[57390] = true,
+				[30750] = true,
 				[26688] = true,
 				[26720] = true,
 				[43253] = true,
-				[59761] = true,
-				[57710] = true,
+				[58800] = true,
+				[59757] = true,
 				[30942] = true,
 				[47603] = true,
-				[54130] = true,
+				[63856] = true,
 				[60013] = true,
-				[61359] = true,
+				[44663] = true,
 				[45812] = true,
 				[43829] = true,
 				[60269] = true,
-				[50098] = true,
+				[27104] = true,
 				[31230] = true,
-				[60461] = true,
-				[47222] = true,
+				[64555] = true,
+				[42680] = true,
 				[46260] = true,
 				[46324] = true,
-				[57713] = true,
+				[57265] = true,
 				[27328] = true,
-				[59762] = true,
-				[44618] = true,
-				[56626] = true,
+				[31807] = true,
+				[57713] = true,
+				[57715] = true,
 				[31550] = true,
-				[31582] = true,
-				[63212] = true,
+				[42678] = true,
+				[44789] = true,
 				[25505] = true,
 				[61293] = true,
-				[57263] = true,
-				[31742] = true,
+				[9718] = true,
+				[9734] = true,
 				[29727] = true,
 				[29759] = true,
 				[9782] = true,
 				[43723] = true,
 				[31902] = true,
-				[9830] = true,
+				[57711] = true,
 				[25825] = true,
 				[47604] = true,
-				[64942] = true,
+				[46665] = true,
 				[64108] = true,
 				[58031] = true,
-				[30656] = true,
+				[64814] = true,
 				[37689] = true,
 				[60270] = true,
 				[50099] = true,
-				[28160] = true,
-				[65623] = true,
-				[29889] = true,
+				[58351] = true,
+				[64556] = true,
+				[26690] = true,
 				[46261] = true,
-				[47223] = true,
+				[63663] = true,
 				[56624] = true,
-				[61618] = true,
+				[30816] = true,
 				[58799] = true,
 				[10118] = true,
 				[58927] = true,
-				[63855] = true,
+				[27203] = true,
 				[46773] = true,
 				[26763] = true,
 				[57136] = true,
-				[30655] = true,
+				[61294] = true,
 				[57264] = true,
 				[26731] = true,
 				[30751] = true,
 				[26689] = true,
-				[26721] = true,
-				[57584] = true,
+				[63661] = true,
+				[26753] = true,
 				[56627] = true,
 				[59759] = true,
 				[30943] = true,
-				[47605] = true,
+				[53746] = true,
 				[27330] = true,
-				[31393] = true,
+				[36797] = true,
 				[61297] = true,
 				[27009] = true,
 				[62254] = true,
@@ -2515,39 +2515,39 @@ RareScannerDB = {
 				[56625] = true,
 				[27329] = true,
 				[31455] = true,
-				[57267] = true,
+				[31976] = true,
 				[34364] = true,
 				[31551] = true,
 				[31583] = true,
 				[59120] = true,
 				[10710] = true,
-				[29632] = true,
-				[57265] = true,
+				[61295] = true,
+				[61359] = true,
 				[31743] = true,
 				[61250] = true,
-				[31807] = true,
-				[63662] = true,
+				[47222] = true,
+				[10806] = true,
 				[30601] = true,
 				[25762] = true,
 				[59760] = true,
-				[25826] = true,
+				[29920] = true,
 				[53747] = true,
 				[61999] = true,
-				[31976] = true,
-				[57715] = true,
-				[46665] = true,
+				[59762] = true,
+				[60338] = true,
+				[44618] = true,
 				[58161] = true,
 				[60272] = true,
 				[50101] = true,
 				[28161] = true,
-				[60338] = true,
-				[31585] = true,
-				[48440] = true,
+				[31880] = true,
+				[46265] = true,
+				[56628] = true,
 				[58609] = true,
-				[64814] = true,
-				[62833] = true,
-				[26338] = true,
+				[56626] = true,
 				[58931] = true,
+				[26338] = true,
+				[59188] = true,
 				[30496] = true,
 				[34429] = true,
 				[46775] = true,
@@ -2555,137 +2555,137 @@ RareScannerDB = {
 				[59185] = true,
 				[61296] = true,
 				[57266] = true,
-				[61298] = true,
+				[30657] = true,
 				[30752] = true,
-				[26690] = true,
+				[47223] = true,
 				[35005] = true,
 				[26754] = true,
-				[63665] = true,
-				[57714] = true,
+				[26723] = true,
+				[59761] = true,
 				[30944] = true,
 				[53748] = true,
 				[62000] = true,
-				[26787] = true,
+				[57652] = true,
 				[49846] = true,
 				[57716] = true,
 				[58162] = true,
-				[29890] = true,
+				[58164] = true,
 				[50102] = true,
-				[10455] = true,
 				[27107] = true,
+				[59766] = true,
 				[28042] = true,
-				[25797] = true,
+				[44155] = true,
 				[62704] = true,
 				[31392] = true,
 				[34174] = true,
 				[31456] = true,
-				[58484] = true,
+				[62706] = true,
 				[29993] = true,
 				[31552] = true,
 				[31584] = true,
-				[62706] = true,
+				[31393] = true,
 				[46904] = true,
 				[29633] = true,
-				[36797] = true,
+				[57267] = true,
 				[31744] = true,
 				[29929] = true,
 				[47224] = true,
 				[9783] = true,
 				[66014] = true,
 				[57651] = true,
-				[63856] = true,
-				[64817] = true,
-				[53749] = true,
+				[29889] = true,
 				[31457] = true,
+				[53749] = true,
+				[31553] = true,
 				[9895] = true,
 				[49847] = true,
 				[60146] = true,
 				[58163] = true,
 				[28098] = true,
 				[50103] = true,
-				[39180] = true,
-				[31553] = true,
+				[9803] = true,
+				[31585] = true,
 				[58483] = true,
-				[46265] = true,
+				[60594] = true,
 				[62705] = true,
-				[56628] = true,
+				[48440] = true,
 				[64880] = true,
 				[64944] = true,
-				[42684] = true,
+				[10711] = true,
 				[26403] = true,
 				[34431] = true,
-				[61235] = true,
+				[31745] = true,
 				[30593] = true,
 				[31752] = true,
-				[30657] = true,
+				[61298] = true,
 				[65456] = true,
 				[26627] = true,
-				[29698] = true,
-				[57460] = true,
-				[26723] = true,
 				[8744] = true,
-				[57652] = true,
+				[57460] = true,
+				[63665] = true,
+				[25796] = true,
+				[26787] = true,
 				[63857] = true,
-				[30945] = true,
+				[61874] = true,
 				[53750] = true,
 				[57908] = true,
 				[61249] = true,
 				[58036] = true,
-				[50106] = true,
-				[58164] = true,
-				[62774] = true,
-				[50104] = true,
+				[57717] = true,
+				[10455] = true,
 				[60724] = true,
-				[29891] = true,
-				[27203] = true,
-				[48506] = true,
+				[50104] = true,
+				[57719] = true,
+				[59256] = true,
+				[58484] = true,
+				[62835] = true,
 				[10567] = true,
 				[56629] = true,
 				[62834] = true,
 				[64945] = true,
-				[30690] = true,
+				[47867] = true,
 				[58932] = true,
 				[34432] = true,
-				[61107] = true,
-				[47867] = true,
-				[10711] = true,
-				[61299] = true,
-				[57269] = true,
-				[31745] = true,
-				[60737] = true,
-				[57461] = true,
+				[42684] = true,
 				[27076] = true,
-				[27108] = true,
+				[61235] = true,
+				[29634] = true,
+				[57269] = true,
+				[29698] = true,
+				[60737] = true,
+				[29762] = true,
+				[60341] = true,
+				[50106] = true,
 				[57653] = true,
-				[25796] = true,
+				[29890] = true,
 				[29922] = true,
 				[53751] = true,
 				[57909] = true,
 				[60020] = true,
 				[60545] = true,
 				[60148] = true,
-				[58486] = true,
+				[31298] = true,
 				[43900] = true,
 				[50105] = true,
 				[48507] = true,
-				[61237] = true,
+				[59190] = true,
 				[60289] = true,
-				[59766] = true,
-				[10584] = true,
+				[25797] = true,
+				[31395] = true,
 				[64818] = true,
-				[62835] = true,
+				[48506] = true,
 				[49862] = true,
 				[58869] = true,
-				[29636] = true,
-				[64628] = true,
+				[25542] = true,
+				[42111] = true,
 				[62773] = true,
 				[30594] = true,
 				[61236] = true,
 				[61300] = true,
-				[57270] = true,
+				[30690] = true,
 				[34817] = true,
 				[26660] = true,
-				[63029] = true,
+				[26405] = true,
 				[26724] = true,
 				[43261] = true,
 				[46845] = true,
@@ -2694,34 +2694,34 @@ RareScannerDB = {
 				[32674] = true,
 				[45628] = true,
 				[60021] = true,
-				[26725] = true,
+				[30819] = true,
 				[60149] = true,
 				[43837] = true,
 				[43901] = true,
-				[60341] = true,
+				[27108] = true,
 				[26730] = true,
 				[59959] = true,
-				[31298] = true,
+				[58486] = true,
 				[49788] = true,
-				[60661] = true,
-				[56631] = true,
+				[62708] = true,
+				[31394] = true,
 				[62836] = true,
 				[64947] = true,
 				[62964] = true,
-				[60151] = true,
+				[47869] = true,
 				[34434] = true,
 				[31586] = true,
 				[63220] = true,
-				[59190] = true,
+				[61237] = true,
 				[29635] = true,
-				[44989] = true,
+				[9720] = true,
 				[50108] = true,
 				[58488] = true,
 				[64821] = true,
-				[31395] = true,
+				[56633] = true,
 				[43262] = true,
 				[57655] = true,
-				[57719] = true,
+				[29891] = true,
 				[9848] = true,
 				[64949] = true,
 				[45629] = true,
@@ -2729,18 +2729,18 @@ RareScannerDB = {
 				[9912] = true,
 				[60150] = true,
 				[34445] = true,
-				[10632] = true,
-				[50107] = true,
-				[34436] = true,
+				[62966] = true,
+				[41919] = true,
+				[31555] = true,
 				[25798] = true,
-				[42111] = true,
-				[57657] = true,
+				[64628] = true,
+				[37187] = true,
 				[62709] = true,
 				[64820] = true,
 				[62837] = true,
 				[57977] = true,
-				[62965] = true,
-				[26405] = true,
+				[30467] = true,
+				[63029] = true,
 				[34435] = true,
 				[186] = true,
 				[63221] = true,
@@ -2749,17 +2749,17 @@ RareScannerDB = {
 				[44990] = true,
 				[30723] = true,
 				[26661] = true,
-				[61558] = true,
-				[30819] = true,
+				[65768] = true,
+				[26725] = true,
 				[50109] = true,
 				[57656] = true,
 				[59767] = true,
-				[60152] = true,
+				[64246] = true,
 				[58618] = true,
 				[57912] = true,
 				[57976] = true,
-				[49852] = true,
-				[47869] = true,
+				[43711] = true,
+				[60151] = true,
 				[10456] = true,
 				[64373] = true,
 				[41920] = true,
@@ -2767,31 +2767,31 @@ RareScannerDB = {
 				[60217] = true,
 				[31299] = true,
 				[64822] = true,
-				[58616] = true,
-				[56633] = true,
-				[62775] = true,
+				[62710] = true,
+				[62774] = true,
+				[56634] = true,
 				[31459] = true,
-				[62966] = true,
+				[10632] = true,
 				[63030] = true,
-				[31555] = true,
+				[34436] = true,
 				[31587] = true,
 				[25478] = true,
-				[10712] = true,
+				[61239] = true,
 				[34692] = true,
 				[44991] = true,
 				[29700] = true,
 				[30468] = true,
 				[61559] = true,
 				[64823] = true,
-				[30692] = true,
-				[37187] = true,
+				[44992] = true,
+				[57657] = true,
 				[29892] = true,
-				[25799] = true,
+				[29893] = true,
 				[32039] = true,
-				[59960] = true,
+				[10904] = true,
 				[171] = true,
-				[26822] = true,
-				[64246] = true,
+				[57722] = true,
+				[60152] = true,
 				[29928] = true,
 				[49541] = true,
 				[41921] = true,
@@ -2799,10 +2799,10 @@ RareScannerDB = {
 				[56571] = true,
 				[65771] = true,
 				[60600] = true,
-				[62711] = true,
-				[56634] = true,
+				[58617] = true,
+				[62775] = true,
 				[62839] = true,
-				[64950] = true,
+				[60856] = true,
 				[62967] = true,
 				[56635] = true,
 				[34437] = true,
@@ -2810,18 +2810,18 @@ RareScannerDB = {
 				[30596] = true,
 				[32675] = true,
 				[30660] = true,
-				[44992] = true,
+				[30692] = true,
 				[30724] = true,
 				[65271] = true,
 				[65772] = true,
 				[30820] = true,
 				[59130] = true,
-				[34822] = true,
-				[57722] = true,
+				[29701] = true,
+				[26822] = true,
 				[63416] = true,
 				[59897] = true,
 				[61247] = true,
-				[57787] = true,
+				[29925] = true,
 				[10682] = true,
 				[43777] = true,
 				[43841] = true,
@@ -2841,16 +2841,16 @@ RareScannerDB = {
 				[31588] = true,
 				[25479] = true,
 				[61241] = true,
-				[29637] = true,
+				[25543] = true,
 				[44993] = true,
-				[29701] = true,
+				[34822] = true,
 				[29733] = true,
 				[185] = true,
 				[9785] = true,
 				[9801] = true,
 				[9817] = true,
-				[29893] = true,
-				[29925] = true,
+				[25799] = true,
+				[57787] = true,
 				[60735] = true,
 				[59962] = true,
 				[187] = true,
@@ -2860,15 +2860,15 @@ RareScannerDB = {
 				[188] = true,
 				[64952] = true,
 				[44034] = true,
-				[30469] = true,
+				[62969] = true,
 				[42115] = true,
 				[42627] = true,
 				[48384] = true,
 				[64824] = true,
 				[190] = true,
 				[26343] = true,
-				[62969] = true,
-				[34375] = true,
+				[30469] = true,
+				[63033] = true,
 				[191] = true,
 				[65272] = true,
 				[36614] = true,
@@ -2879,34 +2879,34 @@ RareScannerDB = {
 				[63639] = true,
 				[193] = true,
 				[26727] = true,
-				[194] = true,
-				[60219] = true,
-				[57724] = true,
+				[26823] = true,
 				[10457] = true,
+				[57724] = true,
+				[60219] = true,
 				[31205] = true,
-				[31461] = true,
+				[44483] = true,
 				[195] = true,
 				[197] = true,
-				[50432] = true,
+				[58620] = true,
 				[39749] = true,
 				[196] = true,
 				[41924] = true,
-				[29190] = true,
-				[44483] = true,
+				[10505] = true,
+				[31461] = true,
 				[31301] = true,
 				[26729] = true,
-				[58620] = true,
+				[50432] = true,
 				[64825] = true,
 				[59196] = true,
-				[60859] = true,
+				[64953] = true,
 				[56829] = true,
 				[30823] = true,
 				[34440] = true,
 				[31589] = true,
 				[36615] = true,
 				[10713] = true,
-				[44995] = true,
 				[29670] = true,
+				[44995] = true,
 				[34824] = true,
 				[57405] = true,
 				[25672] = true,
@@ -2914,7 +2914,7 @@ RareScannerDB = {
 				[59644] = true,
 				[45379] = true,
 				[29894] = true,
-				[45507] = true,
+				[29926] = true,
 				[63994] = true,
 				[38894] = true,
 				[60220] = true,
@@ -2935,49 +2935,49 @@ RareScannerDB = {
 				[58941] = true,
 				[60238] = true,
 				[26722] = true,
-				[26760] = true,
-				[61244] = true,
+				[30854] = true,
+				[59197] = true,
 				[30662] = true,
 				[44996] = true,
 				[43013] = true,
 				[59773] = true,
 				[60221] = true,
 				[26728] = true,
-				[30854] = true,
+				[26760] = true,
 				[24745] = true,
 				[63867] = true,
 				[59837] = true,
 				[58751] = true,
 				[37448] = true,
 				[57982] = true,
-				[60733] = true,
-				[40519] = true,
+				[62780] = true,
+				[34378] = true,
 				[58174] = true,
 				[31590] = true,
 				[62396] = true,
 				[29191] = true,
-				[53121] = true,
+				[40839] = true,
 				[42118] = true,
 				[43014] = true,
-				[62716] = true,
-				[62780] = true,
-				[58750] = true,
+				[58622] = true,
+				[60733] = true,
+				[62844] = true,
 				[31462] = true,
 				[42502] = true,
-				[34378] = true,
+				[40519] = true,
 				[34442] = true,
 				[48835] = true,
 				[25481] = true,
-				[61245] = true,
-				[40839] = true,
+				[59198] = true,
+				[53121] = true,
 				[44997] = true,
 				[25609] = true,
 				[61279] = true,
 				[62397] = true,
-				[9786] = true,
+				[6942] = true,
 				[31878] = true,
-				[9834] = true,
 				[59774] = true,
+				[9834] = true,
 				[29927] = true,
 				[45573] = true,
 				[59966] = true,
@@ -2987,16 +2987,16 @@ RareScannerDB = {
 				[60222] = true,
 				[9802] = true,
 				[28136] = true,
-				[6942] = true,
+				[9786] = true,
 				[64572] = true,
-				[59198] = true,
+				[61245] = true,
 				[46277] = true,
-				[62844] = true,
-				[58622] = true,
+				[58750] = true,
+				[62716] = true,
 				[62845] = true,
 				[26345] = true,
 				[42503] = true,
-				[59197] = true,
+				[61244] = true,
 				[59147] = true,
 				[26344] = true,
 				[30599] = true,
@@ -3005,23 +3005,23 @@ RareScannerDB = {
 				[59327] = true,
 				[43015] = true,
 				[45571] = true,
-				[29926] = true,
+				[45507] = true,
 				[35019] = true,
 				[30855] = true,
 				[26793] = true,
 				[26825] = true,
 				[42116] = true,
-				[64953] = true,
-				[10505] = true,
+				[60859] = true,
+				[29190] = true,
 				[57984] = true,
 				[49860] = true,
-				[26823] = true,
+				[194] = true,
 				[60223] = true,
 				[60287] = true,
 				[62398] = true,
 				[10506] = true,
 				[34439] = true,
-				[63033] = true,
+				[34375] = true,
 				[62654] = true,
 				[60671] = true,
 				[62782] = true,
@@ -3034,7 +3034,7 @@ RareScannerDB = {
 				[9833] = true,
 				[59200] = true,
 				[53123] = true,
-				[25543] = true,
+				[29637] = true,
 				[25610] = true,
 				[31556] = true,
 				[64951] = true,
@@ -3049,61 +3049,61 @@ RareScannerDB = {
 				[31460] = true,
 				[64254] = true,
 				[60224] = true,
-				[60856] = true,
+				[64950] = true,
 				[64446] = true,
-				[58617] = true,
+				[62711] = true,
 				[58433] = true,
 				[57025] = true,
 				[62655] = true,
 				[44296] = true,
 				[62783] = true,
-				[10904] = true,
+				[59960] = true,
 				[64958] = true,
-				[63350] = true,
-				[61239] = true,
+				[29636] = true,
+				[10712] = true,
 				[59009] = true,
 				[57026] = true,
 				[30600] = true,
-				[62710] = true,
+				[58616] = true,
 				[53124] = true,
 				[34765] = true,
-				[43711] = true,
+				[49852] = true,
 				[26666] = true,
 				[31011] = true,
 				[30824] = true,
-				[65768] = true,
+				[61558] = true,
 				[26794] = true,
 				[26826] = true,
-				[30467] = true,
+				[62965] = true,
 				[45576] = true,
-				[25542] = true,
+				[63350] = true,
 				[57986] = true,
 				[53956] = true,
-				[41919] = true,
+				[50107] = true,
 				[60225] = true,
 				[64383] = true,
-				[9720] = true,
+				[44989] = true,
 				[44041] = true,
-				[31394] = true,
+				[56631] = true,
 				[64639] = true,
-				[62708] = true,
+				[60661] = true,
 				[62720] = true,
 				[62784] = true,
 				[62848] = true,
 				[31464] = true,
-				[59256] = true,
+				[57270] = true,
 				[44617] = true,
 				[34446] = true,
 				[31592] = true,
-				[57717] = true,
-				[25515] = true,
+				[10584] = true,
+				[59202] = true,
 				[40843] = true,
-				[29634] = true,
+				[57461] = true,
 				[9739] = true,
-				[59188] = true,
+				[61299] = true,
 				[34958] = true,
 				[9787] = true,
-				[31880] = true,
+				[39180] = true,
 				[29865] = true,
 				[9835] = true,
 				[25835] = true,
@@ -3113,16 +3113,16 @@ RareScannerDB = {
 				[49863] = true,
 				[45833] = true,
 				[60226] = true,
-				[59202] = true,
-				[61874] = true,
+				[25515] = true,
+				[30945] = true,
 				[46089] = true,
-				[29762] = true,
+				[61618] = true,
 				[26691] = true,
 				[64704] = true,
 				[62721] = true,
 				[60738] = true,
-				[60594] = true,
-				[9803] = true,
+				[62833] = true,
+				[61107] = true,
 				[62977] = true,
 				[58947] = true,
 				[59011] = true,
@@ -3131,30 +3131,30 @@ RareScannerDB = {
 				[59203] = true,
 				[30665] = true,
 				[63425] = true,
-				[44155] = true,
+				[64817] = true,
 				[26667] = true,
 				[64815] = true,
 				[30825] = true,
 				[39181] = true,
 				[57668] = true,
-				[30816] = true,
+				[63855] = true,
 				[59843] = true,
 				[59907] = true,
-				[29920] = true,
-				[29888] = true,
+				[30656] = true,
+				[64942] = true,
 				[49864] = true,
-				[10806] = true,
-				[61295] = true,
+				[25826] = true,
+				[29888] = true,
+				[63662] = true,
+				[29632] = true,
 				[48821] = true,
-				[44663] = true,
-				[58800] = true,
-				[50100] = true,
+				[50804] = true,
 				[35983] = true,
 				[10555] = true,
 				[27275] = true,
-				[63663] = true,
-				[64556] = true,
-				[58351] = true,
+				[54130] = true,
+				[47605] = true,
+				[57714] = true,
 				[44555] = true,
 				[44619] = true,
 				[46730] = true,
@@ -3163,17 +3163,17 @@ RareScannerDB = {
 				[61251] = true,
 				[42892] = true,
 				[10747] = true,
-				[9718] = true,
+				[29887] = true,
 				[31785] = true,
 				[10795] = true,
-				[42678] = true,
+				[57263] = true,
 				[31881] = true,
 				[63810] = true,
 				[29898] = true,
 				[29930] = true,
-				[64555] = true,
-				[27104] = true,
-				[29119] = true,
+				[57007] = true,
+				[60461] = true,
+				[50098] = true,
 				[43724] = true,
 				[58117] = true,
 				[43852] = true,
@@ -3181,31 +3181,31 @@ RareScannerDB = {
 				[28139] = true,
 				[65539] = true,
 				[42061] = true,
-				[43508] = true,
-				[59756] = true,
-				[34616] = true,
-				[31581] = true,
+				[39414] = true,
+				[57709] = true,
+				[25504] = true,
+				[61099] = true,
 				[27071] = true,
 				[58821] = true,
 				[62979] = true,
-				[26412] = true,
-				[29887] = true,
+				[44620] = true,
+				[59758] = true,
 				[44748] = true,
 				[30602] = true,
-				[44620] = true,
+				[26412] = true,
 				[42893] = true,
-				[9733] = true,
+				[31740] = true,
 				[1468] = true,
-				[31548] = true,
+				[34422] = true,
 				[30794] = true,
 				[30826] = true,
-				[25791] = true,
+				[29885] = true,
 				[63811] = true,
 				[59781] = true,
 				[43469] = true,
 				[44976] = true,
 				[64067] = true,
-				[26334] = true,
+				[46511] = true,
 				[49866] = true,
 				[45836] = true,
 				[60229] = true,
@@ -3218,36 +3218,36 @@ RareScannerDB = {
 				[27276] = true,
 				[46499] = true,
 				[57098] = true,
-				[29628] = true,
+				[61287] = true,
 				[62980] = true,
 				[44621] = true,
 				[59014] = true,
-				[60647] = true,
+				[62694] = true,
 				[29579] = true,
-				[59206] = true,
+				[61253] = true,
 				[9708] = true,
 				[63428] = true,
 				[36881] = true,
-				[59751] = true,
-				[30747] = true,
+				[63845] = true,
+				[26653] = true,
 				[9788] = true,
-				[61286] = true,
-				[34739] = true,
+				[30651] = true,
+				[44974] = true,
 				[29899] = true,
 				[43470] = true,
 				[25869] = true,
-				[29995] = true,
 				[59974] = true,
+				[29995] = true,
 				[10608] = true,
 				[55498] = true,
 				[59750] = true,
-				[44973] = true,
+				[9716] = true,
 				[28140] = true,
 				[29883] = true,
-				[61285] = true,
-				[58726] = true,
+				[25533] = true,
+				[27324] = true,
 				[57380] = true,
-				[64227] = true,
+				[58086] = true,
 				[55499] = true,
 				[26317] = true,
 				[25489] = true,
@@ -3257,7 +3257,7 @@ RareScannerDB = {
 				[30571] = true,
 				[61190] = true,
 				[61254] = true,
-				[26652] = true,
+				[30746] = true,
 				[57288] = true,
 				[57190] = true,
 				[26669] = true,
@@ -3265,22 +3265,22 @@ RareScannerDB = {
 				[63685] = true,
 				[26765] = true,
 				[30650] = true,
-				[59556] = true,
-				[61283] = true,
-				[44651] = true,
-				[58724] = true,
+				[10803] = true,
+				[29626] = true,
+				[58980] = true,
+				[27323] = true,
 				[25872] = true,
 				[10894] = true,
 				[57291] = true,
 				[27320] = true,
 				[10722] = true,
-				[61730] = true,
+				[26779] = true,
 				[57426] = true,
 				[64581] = true,
 				[58011] = true,
 				[46286] = true,
-				[30489] = true,
-				[60578] = true,
+				[42539] = true,
+				[46249] = true,
 				[57691] = true,
 				[10620] = true,
 				[63689] = true,
@@ -3289,9 +3289,9 @@ RareScannerDB = {
 				[29548] = true,
 				[29580] = true,
 				[57161] = true,
-				[42896] = true,
-				[10748] = true,
 				[53131] = true,
+				[10748] = true,
+				[42896] = true,
 				[25627] = true,
 				[10796] = true,
 				[63686] = true,
@@ -3300,7 +3300,7 @@ RareScannerDB = {
 				[29900] = true,
 				[29560] = true,
 				[57865] = true,
-				[60577] = true,
+				[46248] = true,
 				[57993] = true,
 				[58843] = true,
 				[64262] = true,
@@ -3327,12 +3327,12 @@ RareScannerDB = {
 				[38995] = true,
 				[30796] = true,
 				[63687] = true,
-				[60575] = true,
+				[46246] = true,
 				[31732] = true,
 				[60557] = true,
 				[10801] = true,
 				[64007] = true,
-				[30935] = true,
+				[63901] = true,
 				[57994] = true,
 				[47062] = true,
 				[64263] = true,
@@ -3340,7 +3340,7 @@ RareScannerDB = {
 				[60563] = true,
 				[44758] = true,
 				[34646] = true,
-				[64348] = true,
+				[28088] = true,
 				[44177] = true,
 				[62602] = true,
 				[29622] = true,
@@ -3374,7 +3374,7 @@ RareScannerDB = {
 				[33815] = true,
 				[60490] = true,
 				[44178] = true,
-				[65585] = true,
+				[31253] = true,
 				[63699] = true,
 				[56652] = true,
 				[63696] = true,
@@ -3384,6 +3384,8 @@ RareScannerDB = {
 				[10798] = true,
 				[46801] = true,
 				[46935] = true,
+			},
+			["events_completed"] = {
 			},
 			["rares_killed"] = {
 				[98970] = -1,
@@ -3542,8 +3544,6 @@ RareScannerDB = {
 				[107831] = -1,
 				[60437] = -1,
 			},
-			["events_completed"] = {
-			},
 		},
 		["Asdawdwd - Outland"] = {
 			["containers_opened"] = {
@@ -3663,17 +3663,17 @@ RareScannerDB = {
 				[56633] = true,
 				[44950] = true,
 				[56625] = true,
-				[34774] = true,
 				[44974] = true,
+				[34774] = true,
 				[31990] = true,
 				[44990] = true,
-				[50098] = true,
+				[44998] = true,
 				[50106] = true,
 				[42893] = true,
 				[44949] = true,
 				[42909] = true,
-				[53206] = true,
 				[50146] = true,
+				[53206] = true,
 				[44953] = true,
 				[31568] = true,
 				[31570] = true,
@@ -3685,7 +3685,7 @@ RareScannerDB = {
 				[31548] = true,
 				[31552] = true,
 				[31556] = true,
-				[44998] = true,
+				[50098] = true,
 				[31309] = true,
 				[31823] = true,
 				[31827] = true,
@@ -3834,43 +3834,43 @@ RareScannerDB = {
 				[42907] = true,
 				[50144] = true,
 				[31897] = true,
-				[31591] = true,
+				[44184] = true,
 				[39713] = true,
 				[53746] = true,
-				[46734] = true,
-				[42893] = true,
+				[42909] = true,
+				[31583] = true,
 				[31316] = true,
 				[40008] = true,
-				[53206] = true,
+				[39691] = true,
 				[31551] = true,
 				[31555] = true,
 				[44120] = true,
 				[31308] = true,
-				[31822] = true,
+				[56631] = true,
 				[31571] = true,
 				[31575] = true,
 				[31579] = true,
-				[31583] = true,
+				[42893] = true,
 				[31587] = true,
-				[42909] = true,
-				[39691] = true,
+				[31591] = true,
+				[53206] = true,
 				[32669] = true,
-				[44463] = true,
+				[44973] = true,
 				[44471] = true,
 				[44989] = true,
 				[44997] = true,
 				[50105] = true,
 				[31878] = true,
 				[31824] = true,
-				[31902] = true,
-				[40519] = true,
+				[32667] = true,
+				[51994] = true,
 				[50145] = true,
 				[32663] = true,
-				[32667] = true,
+				[31902] = true,
 				[32671] = true,
-				[42782] = true,
+				[53747] = true,
 				[39985] = true,
-				[51994] = true,
+				[40519] = true,
 				[44998] = true,
 				[40009] = true,
 				[31830] = true,
@@ -3878,9 +3878,9 @@ RareScannerDB = {
 				[39987] = true,
 				[44555] = true,
 				[56624] = true,
-				[57668] = true,
-				[42910] = true,
 				[44663] = true,
+				[42910] = true,
+				[57668] = true,
 				[44949] = true,
 				[40317] = true,
 				[42892] = true,
@@ -3892,14 +3892,14 @@ RareScannerDB = {
 				[44990] = true,
 				[50098] = true,
 				[50106] = true,
-				[53747] = true,
+				[42782] = true,
 				[31889] = true,
 				[52969] = true,
-				[44973] = true,
+				[44463] = true,
 				[50146] = true,
-				[44184] = true,
+				[46734] = true,
 				[59087] = true,
-				[56631] = true,
+				[31822] = true,
 				[53748] = true,
 				[39986] = true,
 				[45727] = true,
@@ -3952,7 +3952,6 @@ RareScannerDB = {
 				[357565] = -1,
 				[356737] = -1,
 				[277561] = -1,
-				[375290] = 1648331263,
 				[326394] = -1,
 				[345456] = -1,
 				[326395] = -1,
@@ -8374,7 +8373,7 @@ RareScannerDB = {
 				[47792] = true,
 				[64687] = true,
 				[62958] = true,
-				[12333] = true,
+				[32945] = true,
 				[39567] = true,
 				[50352] = true,
 				[44558] = true,
@@ -8399,7 +8398,7 @@ RareScannerDB = {
 				[44559] = true,
 				[44721] = true,
 				[61616] = true,
-				[45745] = true,
+				[31065] = true,
 				[62640] = true,
 				[46769] = true,
 				[63664] = true,
@@ -8713,15 +8712,15 @@ RareScannerDB = {
 				[57846] = true,
 				[58042] = true,
 				[59578] = true,
-				[62650] = true,
+				[31326] = true,
 				[43195] = true,
 				[43707] = true,
 				[60602] = true,
 				[44731] = true,
 				[30814] = true,
 				[31070] = true,
-				[31326] = true,
-				[31582] = true,
+				[62650] = true,
+				[63162] = true,
 				[63674] = true,
 				[48827] = true,
 				[63449] = true,
@@ -8768,7 +8767,7 @@ RareScannerDB = {
 				[26463] = true,
 				[53436] = true,
 				[37565] = true,
-				[38077] = true,
+				[13616] = true,
 				[54972] = true,
 				[13872] = true,
 				[55996] = true,
@@ -8787,14 +8786,14 @@ RareScannerDB = {
 				[31327] = true,
 				[31583] = true,
 				[63676] = true,
-				[65212] = true,
-				[48317] = true,
 				[48829] = true,
+				[48317] = true,
+				[65212] = true,
 				[49341] = true,
 				[61555] = true,
 				[50365] = true,
 				[64491] = true,
-				[51389] = true,
+				[35006] = true,
 				[35518] = true,
 				[63090] = true,
 				[62019] = true,
@@ -8844,16 +8843,16 @@ RareScannerDB = {
 				[59070] = true,
 				[59582] = true,
 				[64023] = true,
-				[31072] = true,
-				[44735] = true,
-				[64190] = true,
 				[62142] = true,
-				[62654] = true,
-				[31584] = true,
-				[63678] = true,
+				[44735] = true,
 				[47807] = true,
+				[31072] = true,
+				[62654] = true,
+				[63166] = true,
+				[63678] = true,
+				[64190] = true,
 				[48319] = true,
-				[32608] = true,
+				[65214] = true,
 				[26679] = true,
 				[62532] = true,
 				[50367] = true,
@@ -9086,7 +9085,7 @@ RareScannerDB = {
 				[35527] = true,
 				[63648] = true,
 				[26468] = true,
-				[53446] = true,
+				[26724] = true,
 				[60455] = true,
 				[54470] = true,
 				[32351] = true,
@@ -9266,7 +9265,7 @@ RareScannerDB = {
 				[40642] = true,
 				[62667] = true,
 				[46796] = true,
-				[63691] = true,
+				[11828] = true,
 				[40404] = true,
 				[62528] = true,
 				[35874] = true,
@@ -9291,16 +9290,16 @@ RareScannerDB = {
 				[62143] = true,
 				[8705] = true,
 				[59596] = true,
-				[60108] = true,
-				[63180] = true,
+				[43725] = true,
+				[46797] = true,
 				[61132] = true,
 				[45261] = true,
 				[62156] = true,
 				[62668] = true,
-				[46797] = true,
+				[63180] = true,
 				[63692] = true,
 				[64204] = true,
-				[64716] = true,
+				[48333] = true,
 				[61452] = true,
 				[44040] = true,
 				[49869] = true,
@@ -9358,7 +9357,7 @@ RareScannerDB = {
 				[43727] = true,
 				[60622] = true,
 				[44751] = true,
-				[61646] = true,
+				[45263] = true,
 				[45775] = true,
 				[62670] = true,
 				[46799] = true,
@@ -9388,13 +9387,13 @@ RareScannerDB = {
 				[59087] = true,
 				[59599] = true,
 				[43728] = true,
-				[11061] = true,
+				[60623] = true,
 				[44752] = true,
 				[28179] = true,
 				[13732] = true,
 				[62671] = true,
 				[46800] = true,
-				[11829] = true,
+				[63695] = true,
 				[64207] = true,
 				[64719] = true,
 				[65231] = true,
@@ -9456,10 +9455,10 @@ RareScannerDB = {
 				[44754] = true,
 				[45266] = true,
 				[62082] = true,
-				[47826] = true,
+				[64209] = true,
 				[46802] = true,
 				[63697] = true,
-				[64209] = true,
+				[47826] = true,
 				[39429] = true,
 				[65233] = true,
 				[24682] = true,
@@ -9469,7 +9468,7 @@ RareScannerDB = {
 				[25706] = true,
 				[51922] = true,
 				[31532] = true,
-				[52946] = true,
+				[26474] = true,
 				[26730] = true,
 				[28224] = true,
 				[27242] = true,
@@ -9492,7 +9491,7 @@ RareScannerDB = {
 				[64684] = true,
 				[63698] = true,
 				[64210] = true,
-				[32362] = true,
+				[64722] = true,
 				[65234] = true,
 				[11028] = true,
 				[28664] = true,
@@ -9619,7 +9618,7 @@ RareScannerDB = {
 				[31340] = true,
 				[32579] = true,
 				[44187] = true,
-				[64214] = true,
+				[47831] = true,
 				[64726] = true,
 				[65238] = true,
 				[49367] = true,
@@ -9669,8 +9668,8 @@ RareScannerDB = {
 				[55512] = true,
 				[56024] = true,
 				[56536] = true,
-				[65967] = true,
 				[28781] = true,
+				[65967] = true,
 				[58072] = true,
 				[58584] = true,
 				[61144] = true,
@@ -9715,10 +9714,10 @@ RareScannerDB = {
 				[35494] = true,
 				[46810] = true,
 				[63705] = true,
-				[24686] = true,
+				[65970] = true,
 				[64729] = true,
 				[65241] = true,
-				[65970] = true,
+				[24686] = true,
 				[26600] = true,
 				[64014] = true,
 				[34523] = true,
@@ -9769,19 +9768,19 @@ RareScannerDB = {
 				[10296] = true,
 				[58075] = true,
 				[10552] = true,
-				[64219] = true,
+				[11960] = true,
 				[10808] = true,
-				[24687] = true,
+				[12344] = true,
 				[11064] = true,
-				[44764] = true,
+				[61147] = true,
 				[11320] = true,
 				[62171] = true,
 				[62683] = true,
 				[63195] = true,
 				[11832] = true,
-				[11960] = true,
-				[48348] = true,
-				[12344] = true,
+				[64219] = true,
+				[64731] = true,
+				[24687] = true,
 				[65974] = true,
 				[33501] = true,
 				[34013] = true,
@@ -9807,7 +9806,7 @@ RareScannerDB = {
 				[30319] = true,
 				[61148] = true,
 				[11777] = true,
-				[31087] = true,
+				[62172] = true,
 				[31343] = true,
 				[63196] = true,
 				[63708] = true,
@@ -9831,18 +9830,18 @@ RareScannerDB = {
 				[56541] = true,
 				[62621] = true,
 				[44573] = true,
-				[58077] = true,
+				[41694] = true,
 				[58589] = true,
 				[58870] = true,
 				[64556] = true,
 				[60125] = true,
-				[44254] = true,
+				[60637] = true,
 				[28223] = true,
-				[47326] = true,
+				[63709] = true,
 				[62173] = true,
 				[34766] = true,
-				[63197] = true,
-				[63709] = true,
+				[46814] = true,
+				[47326] = true,
 				[24432] = true,
 				[64733] = true,
 				[65245] = true,
@@ -9904,10 +9903,10 @@ RareScannerDB = {
 				[52] = true,
 				[40397] = true,
 				[62175] = true,
-				[47840] = true,
-				[63199] = true,
-				[11833] = true,
 				[64223] = true,
+				[46816] = true,
+				[63711] = true,
+				[47840] = true,
 				[48352] = true,
 				[48864] = true,
 				[12345] = true,
@@ -10000,11 +9999,11 @@ RareScannerDB = {
 				[44771] = true,
 				[61578] = true,
 				[62178] = true,
-				[64226] = true,
+				[47843] = true,
 				[63202] = true,
 				[63714] = true,
-				[47843] = true,
-				[32370] = true,
+				[64226] = true,
+				[48355] = true,
 				[32626] = true,
 				[40908] = true,
 				[49891] = true,
@@ -10031,7 +10030,7 @@ RareScannerDB = {
 				[11066] = true,
 				[31090] = true,
 				[61667] = true,
-				[45796] = true,
+				[62179] = true,
 				[62691] = true,
 				[64739] = true,
 				[11834] = true,
@@ -10067,7 +10066,7 @@ RareScannerDB = {
 				[62692] = true,
 				[63204] = true,
 				[63576] = true,
-				[64228] = true,
+				[32115] = true,
 				[32371] = true,
 				[65252] = true,
 				[48867] = true,
@@ -10126,8 +10125,8 @@ RareScannerDB = {
 				[30068] = true,
 				[30324] = true,
 				[12577] = true,
-				[62182] = true,
 				[31092] = true,
+				[62182] = true,
 				[62694] = true,
 				[63206] = true,
 				[36811] = true,
@@ -10170,7 +10169,7 @@ RareScannerDB = {
 				[33513] = true,
 				[12603] = true,
 				[30732] = true,
-				[51432] = true,
+				[35049] = true,
 				[12987] = true,
 				[26229] = true,
 				[49896] = true,
@@ -10192,10 +10191,10 @@ RareScannerDB = {
 				[25684] = true,
 				[31093] = true,
 				[62184] = true,
-				[64232] = true,
+				[47849] = true,
 				[46825] = true,
 				[48873] = true,
-				[47849] = true,
+				[64232] = true,
 				[64744] = true,
 				[65256] = true,
 				[49385] = true,
@@ -10278,22 +10277,22 @@ RareScannerDB = {
 				[56043] = true,
 				[13683] = true,
 				[57067] = true,
-				[61163] = true,
+				[11196] = true,
 				[41708] = true,
 				[42220] = true,
 				[10684] = true,
 				[59627] = true,
 				[60139] = true,
 				[11068] = true,
-				[11196] = true,
+				[61163] = true,
 				[45292] = true,
 				[62187] = true,
-				[62699] = true,
+				[11580] = true,
 				[63211] = true,
 				[12924] = true,
 				[11964] = true,
 				[64747] = true,
-				[48876] = true,
+				[65259] = true,
 				[49388] = true,
 				[24951] = true,
 				[10262] = true,
@@ -10346,7 +10345,7 @@ RareScannerDB = {
 				[35565] = true,
 				[58605] = true,
 				[13359] = true,
-				[43246] = true,
+				[59629] = true,
 				[26733] = true,
 				[61165] = true,
 				[44782] = true,
@@ -10356,7 +10355,7 @@ RareScannerDB = {
 				[26376] = true,
 				[63725] = true,
 				[47854] = true,
-				[64749] = true,
+				[48366] = true,
 				[48878] = true,
 				[26481] = true,
 				[25693] = true,
@@ -10373,7 +10372,7 @@ RareScannerDB = {
 				[27768] = true,
 				[35055] = true,
 				[40175] = true,
-				[40687] = true,
+				[28536] = true,
 				[54727] = true,
 				[55534] = true,
 				[58606] = true,
@@ -10384,21 +10383,21 @@ RareScannerDB = {
 				[58092] = true,
 				[45295] = true,
 				[31096] = true,
-				[48367] = true,
+				[64750] = true,
 				[63214] = true,
 				[63726] = true,
 				[64238] = true,
-				[64750] = true,
-				[65262] = true,
+				[48367] = true,
+				[48879] = true,
 				[10031] = true,
 				[51655] = true,
 				[12539] = true,
 				[39123] = true,
 				[32534] = true,
 				[43760] = true,
-				[24697] = true,
+				[66014] = true,
 				[36592] = true,
-				[63215] = true,
+				[46832] = true,
 				[147] = true,
 				[185] = true,
 				[38640] = true,
@@ -10412,17 +10411,17 @@ RareScannerDB = {
 				[10685] = true,
 				[59631] = true,
 				[171] = true,
-				[11069] = true,
+				[60655] = true,
 				[44784] = true,
 				[45296] = true,
 				[62191] = true,
-				[66014] = true,
-				[46832] = true,
+				[24697] = true,
+				[63215] = true,
 				[63727] = true,
 				[47856] = true,
 				[64751] = true,
 				[48880] = true,
-				[193] = true,
+				[49392] = true,
 				[24953] = true,
 				[12605] = true,
 				[76] = true,
@@ -10432,8 +10431,8 @@ RareScannerDB = {
 				[52976] = true,
 				[26745] = true,
 				[45511] = true,
-				[30329] = true,
-				[38641] = true,
+				[60656] = true,
+				[13757] = true,
 				[13885] = true,
 				[56048] = true,
 				[28281] = true,
@@ -10444,12 +10443,12 @@ RareScannerDB = {
 				[59120] = true,
 				[59632] = true,
 				[43761] = true,
-				[60656] = true,
+				[30329] = true,
 				[44785] = true,
-				[64752] = true,
-				[62192] = true,
 				[48369] = true,
-				[46833] = true,
+				[62192] = true,
+				[64752] = true,
+				[63216] = true,
 				[63728] = true,
 				[64240] = true,
 				[32377] = true,
@@ -10484,7 +10483,7 @@ RareScannerDB = {
 				[46834] = true,
 				[26165] = true,
 				[64241] = true,
-				[64753] = true,
+				[48370] = true,
 				[48882] = true,
 				[49394] = true,
 				[65265] = true,
@@ -10511,13 +10510,13 @@ RareScannerDB = {
 				[30330] = true,
 				[61170] = true,
 				[47558] = true,
-				[31354] = true,
 				[62706] = true,
+				[31354] = true,
 				[62147] = true,
-				[48883] = true,
+				[65266] = true,
 				[32122] = true,
 				[64754] = true,
-				[65266] = true,
+				[48883] = true,
 				[49395] = true,
 				[61893] = true,
 				[12948] = true,
@@ -10544,11 +10543,11 @@ RareScannerDB = {
 				[61171] = true,
 				[60443] = true,
 				[39082] = true,
-				[26747] = true,
+				[836] = true,
 				[38342] = true,
 				[63731] = true,
 				[64243] = true,
-				[64755] = true,
+				[48372] = true,
 				[48884] = true,
 				[12350] = true,
 				[49908] = true,
@@ -10558,7 +10557,7 @@ RareScannerDB = {
 				[51956] = true,
 				[36085] = true,
 				[52980] = true,
-				[836] = true,
+				[26747] = true,
 				[27003] = true,
 				[13630] = true,
 				[27515] = true,
@@ -10574,14 +10573,14 @@ RareScannerDB = {
 				[60148] = true,
 				[30331] = true,
 				[60437] = true,
-				[31355] = true,
-				[62196] = true,
 				[62708] = true,
+				[62196] = true,
+				[31355] = true,
 				[63220] = true,
 				[63732] = true,
 				[64244] = true,
 				[64756] = true,
-				[65268] = true,
+				[48885] = true,
 				[33014] = true,
 				[30473] = true,
 				[195] = true,
@@ -10596,13 +10595,13 @@ RareScannerDB = {
 				[38646] = true,
 				[63428] = true,
 				[39670] = true,
-				[59637] = true,
+				[43254] = true,
 				[40694] = true,
 				[43766] = true,
 				[61173] = true,
 				[42230] = true,
 				[24700] = true,
-				[43254] = true,
+				[59637] = true,
 				[60149] = true,
 				[60661] = true,
 				[44790] = true,
@@ -10625,18 +10624,18 @@ RareScannerDB = {
 				[26748] = true,
 				[27004] = true,
 				[54518] = true,
-				[55030] = true,
+				[27516] = true,
 				[59332] = true,
 				[42437] = true,
 				[31605] = true,
 				[28540] = true,
 				[57590] = true,
-				[60662] = true,
+				[30332] = true,
 				[31100] = true,
 				[40389] = true,
-				[43255] = true,
+				[59638] = true,
 				[60150] = true,
-				[30332] = true,
+				[60662] = true,
 				[61174] = true,
 				[62710] = true,
 				[62198] = true,
@@ -10658,7 +10657,7 @@ RareScannerDB = {
 				[44278] = true,
 				[54519] = true,
 				[37829] = true,
-				[59639] = true,
+				[10815] = true,
 				[56055] = true,
 				[26595] = true,
 				[62711] = true,
@@ -10666,7 +10665,7 @@ RareScannerDB = {
 				[58103] = true,
 				[58615] = true,
 				[10687] = true,
-				[10815] = true,
+				[59639] = true,
 				[60151] = true,
 				[60663] = true,
 				[61175] = true,
@@ -10759,12 +10758,12 @@ RareScannerDB = {
 				[28286] = true,
 				[8722] = true,
 				[63201] = true,
-				[60666] = true,
+				[30334] = true,
 				[58618] = true,
 				[42747] = true,
 				[59642] = true,
 				[60154] = true,
-				[30334] = true,
+				[60666] = true,
 				[40388] = true,
 				[37] = true,
 				[31102] = true,
@@ -10803,7 +10802,7 @@ RareScannerDB = {
 				[62715] = true,
 				[25877] = true,
 				[63739] = true,
-				[11968] = true,
+				[64251] = true,
 				[64763] = true,
 				[8690] = true,
 				[12352] = true,
@@ -10884,7 +10883,7 @@ RareScannerDB = {
 				[38655] = true,
 				[55550] = true,
 				[31086] = true,
-				[28288] = true,
+				[56574] = true,
 				[57086] = true,
 				[41215] = true,
 				[30521] = true,
@@ -10908,12 +10907,12 @@ RareScannerDB = {
 				[34560] = true,
 				[8769] = true,
 				[51967] = true,
-				[55039] = true,
+				[38656] = true,
 				[49602] = true,
-				[11073] = true,
+				[60671] = true,
 				[61183] = true,
 				[38144] = true,
-				[38656] = true,
+				[55039] = true,
 				[55551] = true,
 				[9921] = true,
 				[56575] = true,
@@ -10924,7 +10923,7 @@ RareScannerDB = {
 				[10689] = true,
 				[10817] = true,
 				[60159] = true,
-				[60671] = true,
+				[11073] = true,
 				[11201] = true,
 				[61695] = true,
 				[11457] = true,
@@ -11063,10 +11062,10 @@ RareScannerDB = {
 				[64771] = true,
 				[10012] = true,
 				[49412] = true,
-				[50948] = true,
-				[50436] = true,
 				[25475] = true,
-				[12866] = true,
+				[50436] = true,
+				[50948] = true,
+				[35077] = true,
 				[12017] = true,
 				[52484] = true,
 				[26499] = true,
@@ -11116,9 +11115,9 @@ RareScannerDB = {
 				[59141] = true,
 				[24699] = true,
 				[60165] = true,
-				[61701] = true,
-				[61189] = true,
 				[45318] = true,
+				[61189] = true,
+				[61701] = true,
 				[37553] = true,
 				[8689] = true,
 				[63237] = true,
@@ -11170,9 +11169,9 @@ RareScannerDB = {
 				[37640] = true,
 				[26187] = true,
 				[13869] = true,
-				[10051] = true,
-				[9923] = true,
 				[56583] = true,
+				[9923] = true,
+				[10051] = true,
 				[30532] = true,
 				[35896] = true,
 				[10022] = true,
@@ -11219,9 +11218,9 @@ RareScannerDB = {
 				[12584] = true,
 				[63240] = true,
 				[58406] = true,
-				[64264] = true,
+				[47881] = true,
 				[31529] = true,
-				[32645] = true,
+				[65288] = true,
 				[49417] = true,
 				[49929] = true,
 				[50441] = true,
@@ -11261,7 +11260,7 @@ RareScannerDB = {
 				[35083] = true,
 				[39593] = true,
 				[52490] = true,
-				[26502] = true,
+				[53002] = true,
 				[13306] = true,
 				[13119] = true,
 				[27270] = true,
@@ -11282,7 +11281,7 @@ RareScannerDB = {
 				[60454] = true,
 				[62730] = true,
 				[63242] = true,
-				[63754] = true,
+				[31878] = true,
 				[47883] = true,
 				[64778] = true,
 				[32646] = true,
@@ -11305,17 +11304,17 @@ RareScannerDB = {
 				[10308] = true,
 				[13597] = true,
 				[10564] = true,
-				[10692] = true,
+				[59147] = true,
 				[13082] = true,
 				[10948] = true,
 				[11076] = true,
-				[47884] = true,
-				[61707] = true,
+				[64267] = true,
+				[45324] = true,
 				[47037] = true,
 				[34061] = true,
 				[63243] = true,
 				[63755] = true,
-				[64267] = true,
+				[47884] = true,
 				[64779] = true,
 				[62396] = true,
 				[33037] = true,
@@ -11341,13 +11340,13 @@ RareScannerDB = {
 				[59660] = true,
 				[30087] = true,
 				[62655] = true,
-				[45837] = true,
-				[45325] = true,
 				[31111] = true,
+				[61708] = true,
+				[45837] = true,
 				[57276] = true,
 				[63244] = true,
 				[31879] = true,
-				[47885] = true,
+				[64268] = true,
 				[64780] = true,
 				[32647] = true,
 				[33038] = true,
@@ -11456,7 +11455,7 @@ RareScannerDB = {
 				[26505] = true,
 				[60434] = true,
 				[37649] = true,
-				[54544] = true,
+				[27273] = true,
 				[55056] = true,
 				[13893] = true,
 				[27785] = true,
@@ -11472,10 +11471,10 @@ RareScannerDB = {
 				[34577] = true,
 				[27183] = true,
 				[45841] = true,
-				[63760] = true,
-				[63248] = true,
 				[31881] = true,
-				[47889] = true,
+				[63248] = true,
+				[63760] = true,
+				[64272] = true,
 				[32393] = true,
 				[32649] = true,
 				[30774] = true,
@@ -11503,7 +11502,7 @@ RareScannerDB = {
 				[26691] = true,
 				[61201] = true,
 				[61130] = true,
-				[62225] = true,
+				[45842] = true,
 				[47890] = true,
 				[63249] = true,
 				[63761] = true,
@@ -11597,7 +11596,7 @@ RareScannerDB = {
 				[29835] = true,
 				[60180] = true,
 				[29312] = true,
-				[44821] = true,
+				[61204] = true,
 				[61716] = true,
 				[32395] = true,
 				[31371] = true,
@@ -11636,7 +11635,7 @@ RareScannerDB = {
 				[63253] = true,
 				[63765] = true,
 				[58895] = true,
-				[64789] = true,
+				[48406] = true,
 				[50451] = true,
 				[24716] = true,
 				[49942] = true,
@@ -11645,7 +11644,7 @@ RareScannerDB = {
 				[51478] = true,
 				[40070] = true,
 				[26252] = true,
-				[53014] = true,
+				[26508] = true,
 				[13312] = true,
 				[13320] = true,
 				[54550] = true,
@@ -11703,13 +11702,13 @@ RareScannerDB = {
 				[64791] = true,
 				[7045] = true,
 				[12359] = true,
-				[51480] = true,
+				[25741] = true,
 				[50456] = true,
 				[34585] = true,
-				[25741] = true,
+				[51480] = true,
 				[12999] = true,
 				[13127] = true,
-				[26509] = true,
+				[53016] = true,
 				[26765] = true,
 				[37657] = true,
 				[54552] = true,
@@ -11896,16 +11895,16 @@ RareScannerDB = {
 				[24931] = true,
 				[33055] = true,
 				[33567] = true,
-				[53022] = true,
+				[26512] = true,
 				[50974] = true,
 				[37151] = true,
-				[58654] = true,
+				[29328] = true,
 				[52510] = true,
-				[26512] = true,
+				[53022] = true,
 				[53534] = true,
 				[27024] = true,
-				[29328] = true,
-				[55070] = true,
+				[58654] = true,
+				[27536] = true,
 				[27868] = true,
 				[39711] = true,
 				[56606] = true,
@@ -11916,20 +11915,20 @@ RareScannerDB = {
 				[27100] = true,
 				[29840] = true,
 				[60190] = true,
-				[32144] = true,
+				[64286] = true,
 				[44831] = true,
 				[64798] = true,
 				[31120] = true,
-				[62750] = true,
+				[31376] = true,
 				[63262] = true,
 				[63774] = true,
-				[64286] = true,
+				[32144] = true,
 				[32400] = true,
 				[32656] = true,
 				[49439] = true,
 				[49951] = true,
-				[42272] = true,
-				[8649] = true,
+				[10569] = true,
+				[34592] = true,
 				[51487] = true,
 				[64287] = true,
 				[52511] = true,
@@ -11944,7 +11943,7 @@ RareScannerDB = {
 				[25052] = true,
 				[36129] = true,
 				[41760] = true,
-				[10569] = true,
+				[42272] = true,
 				[26513] = true,
 				[55072] = true,
 				[43808] = true,
@@ -11973,22 +11972,22 @@ RareScannerDB = {
 				[13897] = true,
 				[39713] = true,
 				[56608] = true,
-				[29329] = true,
-				[43809] = true,
+				[58656] = true,
+				[60192] = true,
 				[58144] = true,
 				[42273] = true,
-				[60192] = true,
+				[43809] = true,
 				[59680] = true,
 				[30097] = true,
 				[11318] = true,
 				[44833] = true,
 				[61728] = true,
-				[62752] = true,
 				[31377] = true,
+				[62752] = true,
 				[13051] = true,
-				[31889] = true,
+				[63776] = true,
 				[64288] = true,
-				[32401] = true,
+				[64800] = true,
 				[32657] = true,
 				[12611] = true,
 				[33570] = true,
@@ -12006,12 +12005,12 @@ RareScannerDB = {
 				[12862] = true,
 				[56609] = true,
 				[12984] = true,
-				[43810] = true,
+				[60193] = true,
 				[41762] = true,
 				[56245] = true,
 				[42786] = true,
 				[59681] = true,
-				[60193] = true,
+				[43810] = true,
 				[60705] = true,
 				[61217] = true,
 				[61729] = true,
@@ -12022,7 +12021,7 @@ RareScannerDB = {
 				[47906] = true,
 				[64801] = true,
 				[13482] = true,
-				[24722] = true,
+				[33059] = true,
 				[13948] = true,
 				[50466] = true,
 				[50978] = true,
@@ -12032,16 +12031,16 @@ RareScannerDB = {
 				[26514] = true,
 				[53538] = true,
 				[27538] = true,
-				[28050] = true,
+				[56098] = true,
 				[55074] = true,
 				[30098] = true,
-				[56098] = true,
-				[56610] = true,
+				[28050] = true,
+				[40227] = true,
 				[62754] = true,
 				[52149] = true,
 				[29074] = true,
 				[29330] = true,
-				[32146] = true,
+				[64290] = true,
 				[59682] = true,
 				[60194] = true,
 				[44323] = true,
@@ -12049,32 +12048,32 @@ RareScannerDB = {
 				[61730] = true,
 				[7781] = true,
 				[31378] = true,
-				[37157] = true,
+				[26771] = true,
 				[63778] = true,
-				[64290] = true,
-				[48419] = true,
+				[32146] = true,
+				[64802] = true,
 				[48931] = true,
 				[49443] = true,
 				[33572] = true,
 				[50467] = true,
-				[8650] = true,
-				[10826] = true,
+				[34596] = true,
+				[59683] = true,
 				[52003] = true,
 				[36132] = true,
 				[48420] = true,
 				[53539] = true,
-				[53540] = true,
+				[37157] = true,
 				[54563] = true,
 				[38692] = true,
 				[55587] = true,
 				[39716] = true,
 				[40228] = true,
 				[65460] = true,
-				[12874] = true,
+				[51492] = true,
 				[26259] = true,
 				[10570] = true,
 				[59171] = true,
-				[59683] = true,
+				[10826] = true,
 				[10954] = true,
 				[44324] = true,
 				[61219] = true,
@@ -12085,24 +12084,24 @@ RareScannerDB = {
 				[63779] = true,
 				[64291] = true,
 				[64803] = true,
-				[26771] = true,
-				[24723] = true,
+				[13386] = true,
+				[33061] = true,
 				[33573] = true,
 				[25235] = true,
 				[13642] = true,
-				[51492] = true,
-				[13898] = true,
+				[12874] = true,
+				[27795] = true,
 				[13130] = true,
 				[53028] = true,
-				[13386] = true,
+				[53540] = true,
 				[43813] = true,
 				[54564] = true,
-				[13770] = true,
-				[27795] = true,
+				[55076] = true,
+				[13898] = true,
 				[56100] = true,
 				[56612] = true,
 				[14282] = true,
-				[31891] = true,
+				[63780] = true,
 				[48421] = true,
 				[58660] = true,
 				[59172] = true,
@@ -12112,9 +12111,9 @@ RareScannerDB = {
 				[61220] = true,
 				[61732] = true,
 				[31123] = true,
-				[31379] = true,
+				[62756] = true,
 				[32659] = true,
-				[63780] = true,
+				[31891] = true,
 				[64292] = true,
 				[64804] = true,
 				[65316] = true,
@@ -12190,7 +12189,7 @@ RareScannerDB = {
 				[11568] = true,
 				[27284] = true,
 				[27188] = true,
-				[37160] = true,
+				[53543] = true,
 				[26454] = true,
 				[54567] = true,
 				[55079] = true,
@@ -12217,17 +12216,17 @@ RareScannerDB = {
 				[13387] = true,
 				[49960] = true,
 				[34089] = true,
-				[13643] = true,
+				[54568] = true,
 				[12875] = true,
 				[52008] = true,
 				[26261] = true,
 				[13259] = true,
 				[26773] = true,
 				[13515] = true,
-				[54568] = true,
+				[13643] = true,
 				[55080] = true,
 				[13899] = true,
-				[56104] = true,
+				[39721] = true,
 				[56616] = true,
 				[40745] = true,
 				[41257] = true,
@@ -12281,21 +12280,21 @@ RareScannerDB = {
 				[49450] = true,
 				[33579] = true,
 				[34091] = true,
-				[64298] = true,
+				[32150] = true,
 				[51498] = true,
 				[31962] = true,
 				[63410] = true,
 				[65322] = true,
-				[53546] = true,
+				[37163] = true,
 				[54058] = true,
 				[54570] = true,
 				[55082] = true,
 				[49963] = true,
 				[56106] = true,
-				[56618] = true,
+				[28310] = true,
 				[40747] = true,
 				[38700] = true,
-				[26775] = true,
+				[37165] = true,
 				[42283] = true,
 				[30426] = true,
 				[43307] = true,
@@ -12307,7 +12306,7 @@ RareScannerDB = {
 				[31382] = true,
 				[10572] = true,
 				[63786] = true,
-				[32150] = true,
+				[64298] = true,
 				[64810] = true,
 				[48939] = true,
 				[49451] = true,
@@ -12317,7 +12316,7 @@ RareScannerDB = {
 				[11084] = true,
 				[29658] = true,
 				[29402] = true,
-				[48428] = true,
+				[64811] = true,
 				[53547] = true,
 				[13132] = true,
 				[40883] = true,
@@ -12326,8 +12325,8 @@ RareScannerDB = {
 				[56107] = true,
 				[56619] = true,
 				[57131] = true,
-				[37165] = true,
-				[58155] = true,
+				[26775] = true,
+				[10444] = true,
 				[42284] = true,
 				[59179] = true,
 				[59691] = true,
@@ -12340,10 +12339,10 @@ RareScannerDB = {
 				[63275] = true,
 				[63787] = true,
 				[64299] = true,
-				[64811] = true,
-				[27287] = true,
+				[48428] = true,
+				[13644] = true,
 				[49452] = true,
-				[12492] = true,
+				[33581] = true,
 				[12620] = true,
 				[50988] = true,
 				[12876] = true,
@@ -12352,8 +12351,8 @@ RareScannerDB = {
 				[26519] = true,
 				[13388] = true,
 				[37677] = true,
-				[13644] = true,
-				[38701] = true,
+				[27287] = true,
+				[13772] = true,
 				[13900] = true,
 				[14028] = true,
 				[28311] = true,
@@ -12367,7 +12366,7 @@ RareScannerDB = {
 				[60716] = true,
 				[44845] = true,
 				[61228] = true,
-				[62252] = true,
+				[31127] = true,
 				[31383] = true,
 				[26586] = true,
 				[63788] = true,
@@ -12410,19 +12409,19 @@ RareScannerDB = {
 				[11005] = true,
 				[34095] = true,
 				[43310] = true,
-				[36655] = true,
+				[26520] = true,
 				[35631] = true,
 				[26776] = true,
-				[26520] = true,
+				[36655] = true,
 				[37167] = true,
 				[54062] = true,
 				[27288] = true,
 				[38703] = true,
 				[55598] = true,
-				[57134] = true,
-				[28312] = true,
 				[40751] = true,
-				[57646] = true,
+				[28312] = true,
+				[57134] = true,
+				[28824] = true,
 				[58158] = true,
 				[42287] = true,
 				[29592] = true,
@@ -12433,11 +12432,11 @@ RareScannerDB = {
 				[60952] = true,
 				[62254] = true,
 				[46383] = true,
-				[48943] = true,
-				[63790] = true,
-				[47919] = true,
-				[48431] = true,
 				[65326] = true,
+				[63790] = true,
+				[32152] = true,
+				[48431] = true,
+				[48943] = true,
 				[33072] = true,
 				[33584] = true,
 				[34096] = true,
@@ -12471,17 +12470,17 @@ RareScannerDB = {
 				[64815] = true,
 				[48944] = true,
 				[33073] = true,
-				[51504] = true,
-				[12621] = true,
-				[26777] = true,
 				[12877] = true,
-				[35633] = true,
+				[12621] = true,
+				[13389] = true,
+				[51504] = true,
+				[13005] = true,
 				[13133] = true,
 				[36657] = true,
-				[13389] = true,
-				[55088] = true,
+				[26777] = true,
+				[13773] = true,
 				[13645] = true,
-				[27545] = true,
+				[55088] = true,
 				[55600] = true,
 				[28313] = true,
 				[56624] = true,
@@ -12492,7 +12491,7 @@ RareScannerDB = {
 				[12976] = true,
 				[43313] = true,
 				[30105] = true,
-				[60720] = true,
+				[44337] = true,
 				[63792] = true,
 				[65328] = true,
 				[31129] = true,
@@ -12578,27 +12577,27 @@ RareScannerDB = {
 				[13888] = true,
 				[38196] = true,
 				[25640] = true,
-				[10446] = true,
+				[58163] = true,
 				[9934] = true,
 				[56627] = true,
 				[11885] = true,
 				[57651] = true,
-				[58163] = true,
+				[10446] = true,
 				[58675] = true,
 				[39577] = true,
 				[42292] = true,
 				[10958] = true,
 				[60723] = true,
 				[61235] = true,
-				[47924] = true,
+				[64307] = true,
 				[62259] = true,
-				[33077] = true,
+				[24731] = true,
 				[63283] = true,
 				[61359] = true,
-				[64307] = true,
+				[47924] = true,
 				[44464] = true,
 				[48948] = true,
-				[24731] = true,
+				[33077] = true,
 				[49972] = true,
 				[27247] = true,
 				[27803] = true,
@@ -12715,7 +12714,7 @@ RareScannerDB = {
 				[10575] = true,
 				[41784] = true,
 				[59703] = true,
-				[60215] = true,
+				[10959] = true,
 				[60727] = true,
 				[61239] = true,
 				[65335] = true,
@@ -12781,30 +12780,30 @@ RareScannerDB = {
 				[59705] = true,
 				[43834] = true,
 				[40221] = true,
-				[61241] = true,
+				[44858] = true,
 				[13362] = true,
 				[48441] = true,
 				[14393] = true,
 				[48442] = true,
-				[48954] = true,
+				[65337] = true,
 				[64313] = true,
 				[64825] = true,
-				[65337] = true,
-				[33083] = true,
+				[48954] = true,
+				[24734] = true,
 				[61704] = true,
 				[38677] = true,
 				[25151] = true,
 				[28194] = true,
 				[52026] = true,
 				[26270] = true,
-				[37179] = true,
 				[26782] = true,
+				[37179] = true,
 				[40219] = true,
 				[54586] = true,
 				[38715] = true,
-				[55610] = true,
+				[27806] = true,
 				[56122] = true,
-				[56634] = true,
+				[28318] = true,
 				[57146] = true,
 				[28830] = true,
 				[41787] = true,
@@ -12817,12 +12816,12 @@ RareScannerDB = {
 				[28228] = true,
 				[13989] = true,
 				[7848] = true,
-				[33084] = true,
-				[31902] = true,
-				[32158] = true,
-				[48443] = true,
-				[65338] = true,
 				[49467] = true,
+				[31902] = true,
+				[64314] = true,
+				[32414] = true,
+				[65338] = true,
+				[33084] = true,
 				[49979] = true,
 				[28693] = true,
 				[48557] = true,
@@ -12855,14 +12854,14 @@ RareScannerDB = {
 				[13008] = true,
 				[65339] = true,
 				[49468] = true,
-				[26783] = true,
+				[13392] = true,
 				[12624] = true,
 				[39229] = true,
 				[12880] = true,
 				[52028] = true,
-				[13136] = true,
+				[26271] = true,
 				[14316] = true,
-				[13392] = true,
+				[26783] = true,
 				[13520] = true,
 				[54588] = true,
 				[38717] = true,
@@ -12930,7 +12929,7 @@ RareScannerDB = {
 				[27040] = true,
 				[54590] = true,
 				[38719] = true,
-				[27808] = true,
+				[39231] = true,
 				[57662] = true,
 				[28320] = true,
 				[40767] = true,
@@ -12970,7 +12969,7 @@ RareScannerDB = {
 				[43839] = true,
 				[10577] = true,
 				[59199] = true,
-				[59711] = true,
+				[43328] = true,
 				[43840] = true,
 				[44352] = true,
 				[61247] = true,
@@ -13054,17 +13053,17 @@ RareScannerDB = {
 				[35651] = true,
 				[51872] = true,
 				[53058] = true,
-				[28322] = true,
+				[56642] = true,
 				[27042] = true,
 				[38211] = true,
 				[27554] = true,
-				[27810] = true,
-				[45379] = true,
-				[56642] = true,
+				[55618] = true,
+				[30882] = true,
+				[28322] = true,
 				[59202] = true,
 				[44867] = true,
 				[41795] = true,
-				[64834] = true,
+				[32418] = true,
 				[42819] = true,
 				[59714] = true,
 				[60226] = true,
@@ -13076,14 +13075,14 @@ RareScannerDB = {
 				[65346] = true,
 				[63810] = true,
 				[64322] = true,
-				[32418] = true,
+				[64834] = true,
 				[48963] = true,
 				[49475] = true,
 				[31592] = true,
 				[58603] = true,
-				[52035] = true,
-				[35140] = true,
 				[35652] = true,
+				[35140] = true,
+				[52035] = true,
 				[59817] = true,
 				[53059] = true,
 				[53571] = true,
@@ -13091,30 +13090,30 @@ RareScannerDB = {
 				[54595] = true,
 				[38724] = true,
 				[39236] = true,
-				[9938] = true,
+				[56131] = true,
 				[56643] = true,
-				[58691] = true,
-				[43844] = true,
-				[41796] = true,
 				[10578] = true,
+				[10962] = true,
+				[41796] = true,
+				[58691] = true,
 				[59203] = true,
 				[59715] = true,
-				[10962] = true,
+				[43844] = true,
 				[60739] = true,
-				[61251] = true,
+				[44868] = true,
 				[61763] = true,
 				[13118] = true,
 				[60632] = true,
 				[63299] = true,
-				[47428] = true,
+				[63811] = true,
 				[64323] = true,
 				[64835] = true,
 				[65347] = true,
 				[56430] = true,
-				[12882] = true,
+				[35141] = true,
 				[35653] = true,
 				[53572] = true,
-				[35141] = true,
+				[12882] = true,
 				[13010] = true,
 				[13138] = true,
 				[53060] = true,
@@ -13141,7 +13140,7 @@ RareScannerDB = {
 				[48453] = true,
 				[64324] = true,
 				[64836] = true,
-				[48965] = true,
+				[65348] = true,
 				[28970] = true,
 				[38691] = true,
 				[56376] = true,
@@ -13198,13 +13197,13 @@ RareScannerDB = {
 				[43847] = true,
 				[26476] = true,
 				[61254] = true,
-				[61766] = true,
-				[32420] = true,
+				[30884] = true,
+				[48455] = true,
 				[62790] = true,
 				[31652] = true,
 				[47431] = true,
 				[64326] = true,
-				[48455] = true,
+				[32420] = true,
 				[32676] = true,
 				[64838] = true,
 				[26581] = true,
@@ -13216,16 +13215,16 @@ RareScannerDB = {
 				[28674] = true,
 				[53575] = true,
 				[54087] = true,
-				[58695] = true,
+				[10579] = true,
 				[25045] = true,
 				[55623] = true,
 				[9939] = true,
 				[56647] = true,
 				[57159] = true,
-				[10707] = true,
-				[10451] = true,
-				[10579] = true,
 				[59207] = true,
+				[10451] = true,
+				[58695] = true,
+				[10707] = true,
 				[59719] = true,
 				[10963] = true,
 				[11091] = true,
@@ -13254,7 +13253,7 @@ RareScannerDB = {
 				[52040] = true,
 				[13867] = true,
 				[10706] = true,
-				[28837] = true,
+				[41289] = true,
 				[29093] = true,
 				[58696] = true,
 				[29605] = true,
@@ -13262,13 +13261,13 @@ RareScannerDB = {
 				[43849] = true,
 				[60703] = true,
 				[44873] = true,
-				[3861] = true,
+				[30885] = true,
 				[59708] = true,
 				[62792] = true,
 				[25765] = true,
 				[45383] = true,
 				[64328] = true,
-				[64840] = true,
+				[32421] = true,
 				[32677] = true,
 				[49481] = true,
 				[33610] = true,
@@ -13282,7 +13281,7 @@ RareScannerDB = {
 				[28968] = true,
 				[54601] = true,
 				[28534] = true,
-				[55625] = true,
+				[39242] = true,
 				[58184] = true,
 				[40266] = true,
 				[57161] = true,
@@ -13311,21 +13310,21 @@ RareScannerDB = {
 				[36171] = true,
 				[60872] = true,
 				[35147] = true,
-				[27814] = true,
+				[55626] = true,
 				[34728] = true,
 				[38731] = true,
-				[55626] = true,
+				[27814] = true,
 				[41108] = true,
 				[28326] = true,
-				[28838] = true,
 				[57674] = true,
+				[28838] = true,
 				[58186] = true,
 				[29350] = true,
-				[42827] = true,
-				[44875] = true,
+				[59210] = true,
+				[61258] = true,
 				[62794] = true,
 				[30374] = true,
-				[61258] = true,
+				[44875] = true,
 				[64330] = true,
 				[62282] = true,
 				[31398] = true,
@@ -13349,13 +13348,13 @@ RareScannerDB = {
 				[30420] = true,
 				[56139] = true,
 				[34054] = true,
-				[42828] = true,
+				[10708] = true,
 				[44876] = true,
 				[58187] = true,
-				[48460] = true,
-				[10708] = true,
+				[64843] = true,
+				[42828] = true,
 				[10836] = true,
-				[12628] = true,
+				[50508] = true,
 				[11092] = true,
 				[61259] = true,
 				[12884] = true,
@@ -13363,24 +13362,24 @@ RareScannerDB = {
 				[62795] = true,
 				[63307] = true,
 				[63819] = true,
-				[64331] = true,
-				[64843] = true,
-				[48972] = true,
+				[47948] = true,
+				[48460] = true,
+				[65355] = true,
 				[49484] = true,
 				[49996] = true,
-				[50508] = true,
+				[12628] = true,
 				[51020] = true,
 				[25767] = true,
-				[56652] = true,
+				[28327] = true,
 				[13140] = true,
 				[42829] = true,
 				[26791] = true,
 				[27860] = true,
 				[54604] = true,
 				[55116] = true,
-				[39245] = true,
+				[27815] = true,
 				[14036] = true,
-				[28327] = true,
+				[56652] = true,
 				[57164] = true,
 				[28839] = true,
 				[58188] = true,
@@ -13418,7 +13417,7 @@ RareScannerDB = {
 				[58189] = true,
 				[34520] = true,
 				[24705] = true,
-				[59725] = true,
+				[43342] = true,
 				[43854] = true,
 				[47526] = true,
 				[61261] = true,
@@ -13431,7 +13430,7 @@ RareScannerDB = {
 				[48462] = true,
 				[48974] = true,
 				[53406] = true,
-				[49998] = true,
+				[25000] = true,
 				[25420] = true,
 				[34639] = true,
 				[25768] = true,
@@ -13450,7 +13449,7 @@ RareScannerDB = {
 				[58190] = true,
 				[55860] = true,
 				[42831] = true,
-				[59726] = true,
+				[43343] = true,
 				[43855] = true,
 				[44879] = true,
 				[61262] = true,
@@ -13461,7 +13460,7 @@ RareScannerDB = {
 				[63822] = true,
 				[64334] = true,
 				[13698] = true,
-				[65358] = true,
+				[32680] = true,
 				[40573] = true,
 				[49999] = true,
 				[39081] = true,
@@ -13476,34 +13475,34 @@ RareScannerDB = {
 				[55119] = true,
 				[39248] = true,
 				[56143] = true,
-				[47952] = true,
-				[48976] = true,
+				[64335] = true,
+				[65359] = true,
 				[10325] = true,
 				[58191] = true,
-				[34129] = true,
+				[12629] = true,
 				[42832] = true,
 				[10837] = true,
-				[60239] = true,
+				[43856] = true,
 				[25513] = true,
-				[61263] = true,
-				[13525] = true,
+				[44880] = true,
+				[37713] = true,
 				[62287] = true,
 				[11605] = true,
 				[63311] = true,
 				[63823] = true,
-				[64335] = true,
+				[47952] = true,
 				[12117] = true,
-				[65359] = true,
+				[48976] = true,
 				[24745] = true,
 				[64420] = true,
-				[12629] = true,
+				[34129] = true,
 				[34641] = true,
 				[25769] = true,
 				[39249] = true,
 				[13141] = true,
 				[26537] = true,
-				[26793] = true,
-				[37713] = true,
+				[13397] = true,
+				[13525] = true,
 				[38225] = true,
 				[13781] = true,
 				[27817] = true,
@@ -13525,7 +13524,7 @@ RareScannerDB = {
 				[63824] = true,
 				[44104] = true,
 				[48465] = true,
-				[32681] = true,
+				[48977] = true,
 				[30318] = true,
 				[50001] = true,
 				[34130] = true,
@@ -13539,7 +13538,7 @@ RareScannerDB = {
 				[51406] = true,
 				[55121] = true,
 				[39250] = true,
-				[39762] = true,
+				[56145] = true,
 				[29234] = true,
 				[12836] = true,
 				[5163] = true,
@@ -13607,19 +13606,19 @@ RareScannerDB = {
 				[30260] = true,
 				[24709] = true,
 				[59811] = true,
-				[43860] = true,
+				[10966] = true,
 				[10582] = true,
 				[42836] = true,
 				[59731] = true,
-				[10966] = true,
+				[43860] = true,
 				[11094] = true,
 				[37466] = true,
 				[45396] = true,
 				[43348] = true,
-				[46932] = true,
 				[63315] = true,
+				[46932] = true,
 				[63827] = true,
-				[47956] = true,
+				[64339] = true,
 				[12118] = true,
 				[48980] = true,
 				[33109] = true,
@@ -13639,11 +13638,11 @@ RareScannerDB = {
 				[14166] = true,
 				[55203] = true,
 				[11923] = true,
-				[43349] = true,
+				[59732] = true,
 				[58708] = true,
 				[42837] = true,
-				[59732] = true,
-				[43861] = true,
+				[43349] = true,
+				[60244] = true,
 				[30379] = true,
 				[35012] = true,
 				[30891] = true,
@@ -13653,7 +13652,7 @@ RareScannerDB = {
 				[63828] = true,
 				[13782] = true,
 				[64852] = true,
-				[48981] = true,
+				[65364] = true,
 				[60480] = true,
 				[50005] = true,
 				[27430] = true,
@@ -13667,13 +13666,13 @@ RareScannerDB = {
 				[36631] = true,
 				[38742] = true,
 				[39254] = true,
-				[39766] = true,
+				[56149] = true,
 				[25875] = true,
 				[57173] = true,
-				[42838] = true,
+				[59221] = true,
 				[43862] = true,
 				[58709] = true,
-				[59221] = true,
+				[42838] = true,
 				[43350] = true,
 				[60245] = true,
 				[46499] = true,
@@ -13712,13 +13711,13 @@ RareScannerDB = {
 				[61270] = true,
 				[30892] = true,
 				[13755] = true,
-				[46935] = true,
 				[31660] = true,
+				[46935] = true,
 				[63830] = true,
 				[64342] = true,
 				[64854] = true,
 				[32684] = true,
-				[33112] = true,
+				[8279] = true,
 				[30477] = true,
 				[57129] = true,
 				[34648] = true,
@@ -13743,8 +13742,8 @@ RareScannerDB = {
 				[60759] = true,
 				[61271] = true,
 				[11095] = true,
-				[51544] = true,
-				[62807] = true,
+				[12887] = true,
+				[11607] = true,
 				[63319] = true,
 				[63831] = true,
 				[64343] = true,
@@ -13754,16 +13753,16 @@ RareScannerDB = {
 				[12503] = true,
 				[12631] = true,
 				[27565] = true,
-				[12887] = true,
+				[51544] = true,
 				[13015] = true,
 				[13143] = true,
 				[13271] = true,
 				[13399] = true,
 				[13527] = true,
-				[56152] = true,
-				[13783] = true,
-				[39257] = true,
 				[39769] = true,
+				[13783] = true,
+				[27821] = true,
+				[56152] = true,
 				[14167] = true,
 				[57176] = true,
 				[57688] = true,
@@ -13823,10 +13822,10 @@ RareScannerDB = {
 				[26286] = true,
 				[27384] = true,
 				[30535] = true,
-				[54618] = true,
 				[38235] = true,
+				[54618] = true,
 				[38747] = true,
-				[39259] = true,
+				[27822] = true,
 				[43611] = true,
 				[41819] = true,
 				[57178] = true,
@@ -13834,11 +13833,11 @@ RareScannerDB = {
 				[58202] = true,
 				[58714] = true,
 				[29614] = true,
-				[30382] = true,
-				[43867] = true,
 				[60762] = true,
+				[43867] = true,
+				[30382] = true,
 				[61274] = true,
-				[30894] = true,
+				[61786] = true,
 				[38638] = true,
 				[62810] = true,
 				[29838] = true,
@@ -13846,7 +13845,7 @@ RareScannerDB = {
 				[38593] = true,
 				[48475] = true,
 				[65370] = true,
-				[8280] = true,
+				[33116] = true,
 				[38718] = true,
 				[10574] = true,
 				[32209] = true,
@@ -13864,8 +13863,8 @@ RareScannerDB = {
 				[57179] = true,
 				[57691] = true,
 				[58203] = true,
-				[52060] = true,
-				[13400] = true,
+				[35677] = true,
+				[37213] = true,
 				[10840] = true,
 				[60251] = true,
 				[60763] = true,
@@ -13883,13 +13882,13 @@ RareScannerDB = {
 				[12632] = true,
 				[39773] = true,
 				[41309] = true,
-				[35677] = true,
-				[36189] = true,
+				[52060] = true,
+				[26287] = true,
 				[53084] = true,
-				[37213] = true,
+				[13400] = true,
 				[13528] = true,
 				[38237] = true,
-				[27567] = true,
+				[38749] = true,
 				[13912] = true,
 				[14040] = true,
 				[14168] = true,
@@ -13958,7 +13957,7 @@ RareScannerDB = {
 				[56158] = true,
 				[57490] = true,
 				[57182] = true,
-				[28848] = true,
+				[57694] = true,
 				[39775] = true,
 				[51715] = true,
 				[59230] = true,
@@ -13992,42 +13991,42 @@ RareScannerDB = {
 				[44448] = true,
 				[59743] = true,
 				[12761] = true,
-				[10585] = true,
+				[58719] = true,
 				[59231] = true,
 				[43360] = true,
 				[60255] = true,
 				[60767] = true,
 				[61279] = true,
-				[35169] = true,
+				[51552] = true,
 				[11481] = true,
 				[11609] = true,
 				[63327] = true,
 				[63839] = true,
-				[64351] = true,
+				[47968] = true,
 				[48480] = true,
 				[10601] = true,
 				[27569] = true,
 				[12505] = true,
 				[50528] = true,
 				[34657] = true,
-				[51552] = true,
-				[38753] = true,
+				[35169] = true,
+				[13785] = true,
 				[26289] = true,
 				[26545] = true,
 				[13401] = true,
 				[13529] = true,
 				[38241] = true,
-				[13785] = true,
+				[38753] = true,
 				[13913] = true,
-				[14041] = true,
+				[39777] = true,
 				[14169] = true,
 				[13718] = true,
 				[56735] = true,
-				[60256] = true,
+				[43873] = true,
 				[58720] = true,
 				[59232] = true,
 				[43361] = true,
-				[43873] = true,
+				[60256] = true,
 				[60768] = true,
 				[61280] = true,
 				[61792] = true,
@@ -14054,9 +14053,9 @@ RareScannerDB = {
 				[40047] = true,
 				[63164] = true,
 				[37729] = true,
-				[42338] = true,
-				[43874] = true,
 				[58721] = true,
+				[43874] = true,
+				[42338] = true,
 				[59233] = true,
 				[43362] = true,
 				[60257] = true,
@@ -14087,14 +14086,14 @@ RareScannerDB = {
 				[28338] = true,
 				[40080] = true,
 				[27994] = true,
-				[29106] = true,
+				[58210] = true,
 				[42339] = true,
 				[59234] = true,
-				[43875] = true,
 				[60258] = true,
+				[43875] = true,
 				[60770] = true,
 				[61282] = true,
-				[30898] = true,
+				[61794] = true,
 				[57246] = true,
 				[24733] = true,
 				[53373] = true,
@@ -14120,7 +14119,7 @@ RareScannerDB = {
 				[38679] = true,
 				[13744] = true,
 				[10458] = true,
-				[10586] = true,
+				[58723] = true,
 				[35231] = true,
 				[10842] = true,
 				[60259] = true,
@@ -14133,14 +14132,14 @@ RareScannerDB = {
 				[63843] = true,
 				[64355] = true,
 				[12827] = true,
-				[65379] = true,
-				[13146] = true,
+				[24499] = true,
+				[26291] = true,
 				[12506] = true,
 				[36709] = true,
 				[12762] = true,
 				[37733] = true,
 				[13786] = true,
-				[26291] = true,
+				[13146] = true,
 				[53092] = true,
 				[13402] = true,
 				[27059] = true,
@@ -14148,7 +14147,7 @@ RareScannerDB = {
 				[27571] = true,
 				[40603] = true,
 				[39781] = true,
-				[40293] = true,
+				[14170] = true,
 				[36062] = true,
 				[60243] = true,
 				[61853] = true,
@@ -14194,17 +14193,17 @@ RareScannerDB = {
 				[47852] = true,
 				[62821] = true,
 				[11019] = true,
-				[63845] = true,
+				[47462] = true,
 				[64357] = true,
 				[64869] = true,
-				[65381] = true,
+				[24500] = true,
 				[29439] = true,
 				[59130] = true,
 				[50534] = true,
 				[34663] = true,
 				[40613] = true,
 				[34375] = true,
-				[36199] = true,
+				[26292] = true,
 				[53094] = true,
 				[9940] = true,
 				[54118] = true,
@@ -14213,7 +14212,7 @@ RareScannerDB = {
 				[58502] = true,
 				[41319] = true,
 				[28340] = true,
-				[57190] = true,
+				[28596] = true,
 				[57702] = true,
 				[35317] = true,
 				[58726] = true,
@@ -14351,9 +14350,9 @@ RareScannerDB = {
 				[60778] = true,
 				[61290] = true,
 				[30902] = true,
-				[46955] = true,
-				[40348] = true,
 				[31670] = true,
+				[40348] = true,
+				[46955] = true,
 				[64362] = true,
 				[47979] = true,
 				[37909] = true,
@@ -14365,7 +14364,7 @@ RareScannerDB = {
 				[60266] = true,
 				[52075] = true,
 				[29851] = true,
-				[36716] = true,
+				[53099] = true,
 				[53611] = true,
 				[56170] = true,
 				[38388] = true,
@@ -14453,14 +14452,14 @@ RareScannerDB = {
 				[63853] = true,
 				[47982] = true,
 				[29403] = true,
-				[65389] = true,
+				[49006] = true,
 				[33135] = true,
 				[28195] = true,
 				[11099] = true,
 				[14292] = true,
 				[35430] = true,
 				[44184] = true,
-				[52590] = true,
+				[26296] = true,
 				[43341] = true,
 				[34572] = true,
 				[54126] = true,
@@ -14497,9 +14496,9 @@ RareScannerDB = {
 				[58973] = true,
 				[38676] = true,
 				[38256] = true,
-				[39792] = true,
-				[40304] = true,
 				[56175] = true,
+				[40304] = true,
+				[39792] = true,
 				[10077] = true,
 				[10205] = true,
 				[57711] = true,
@@ -14657,7 +14656,7 @@ RareScannerDB = {
 				[41306] = true,
 				[59878] = true,
 				[25059] = true,
-				[13790] = true,
+				[38773] = true,
 				[35539] = true,
 				[56180] = true,
 				[14174] = true,
@@ -14737,15 +14736,15 @@ RareScannerDB = {
 				[45431] = true,
 				[62326] = true,
 				[56812] = true,
-				[63350] = true,
+				[46967] = true,
 				[12491] = true,
 				[47991] = true,
 				[32444] = true,
-				[49015] = true,
+				[65398] = true,
 				[8287] = true,
 				[31676] = true,
 				[26770] = true,
-				[34680] = true,
+				[8671] = true,
 				[51063] = true,
 				[35704] = true,
 				[27388] = true,
@@ -14766,12 +14765,12 @@ RareScannerDB = {
 				[60279] = true,
 				[39800] = true,
 				[61303] = true,
-				[45432] = true,
+				[61815] = true,
 				[62327] = true,
 				[62839] = true,
 				[29568] = true,
 				[63863] = true,
-				[47992] = true,
+				[64375] = true,
 				[48504] = true,
 				[65399] = true,
 				[49528] = true,
@@ -14784,28 +14783,28 @@ RareScannerDB = {
 				[13762] = true,
 				[53624] = true,
 				[26500] = true,
-				[13663] = true,
+				[38265] = true,
 				[38777] = true,
 				[13919] = true,
 				[55876] = true,
 				[14175] = true,
 				[38377] = true,
-				[60280] = true,
+				[30141] = true,
 				[29117] = true,
-				[47993] = true,
+				[64376] = true,
 				[59256] = true,
 				[29885] = true,
-				[30141] = true,
-				[60792] = true,
-				[64376] = true,
-				[45433] = true,
+				[60280] = true,
+				[30397] = true,
+				[47993] = true,
+				[61816] = true,
 				[62328] = true,
 				[62840] = true,
-				[64888] = true,
+				[48505] = true,
 				[63864] = true,
 				[32189] = true,
-				[48505] = true,
-				[65400] = true,
+				[64888] = true,
+				[49017] = true,
 				[49529] = true,
 				[50041] = true,
 				[50553] = true,
@@ -14819,24 +14818,24 @@ RareScannerDB = {
 				[38266] = true,
 				[38778] = true,
 				[39290] = true,
-				[56185] = true,
+				[39802] = true,
 				[40314] = true,
 				[35329] = true,
 				[57721] = true,
 				[28681] = true,
 				[55701] = true,
 				[46331] = true,
-				[61817] = true,
-				[60281] = true,
-				[64889] = true,
-				[44922] = true,
 				[45434] = true,
+				[60281] = true,
+				[48506] = true,
+				[44922] = true,
+				[61817] = true,
 				[62329] = true,
 				[62841] = true,
-				[46970] = true,
+				[63353] = true,
 				[65401] = true,
 				[47994] = true,
-				[48506] = true,
+				[64889] = true,
 				[49018] = true,
 				[49530] = true,
 				[25022] = true,
@@ -14883,7 +14882,7 @@ RareScannerDB = {
 				[38268] = true,
 				[38780] = true,
 				[27228] = true,
-				[56187] = true,
+				[39804] = true,
 				[40316] = true,
 				[43331] = true,
 				[30254] = true,
@@ -14996,8 +14995,8 @@ RareScannerDB = {
 				[39828] = true,
 				[63870] = true,
 				[39316] = true,
-				[49023] = true,
 				[65406] = true,
+				[49023] = true,
 				[31936] = true,
 				[50047] = true,
 				[55732] = true,
@@ -15020,13 +15019,13 @@ RareScannerDB = {
 				[59263] = true,
 				[59775] = true,
 				[60287] = true,
-				[63871] = true,
+				[47488] = true,
 				[44928] = true,
 				[61823] = true,
 				[62335] = true,
 				[62847] = true,
 				[63359] = true,
-				[47488] = true,
+				[63871] = true,
 				[11617] = true,
 				[49024] = true,
 				[65407] = true,
@@ -15058,7 +15057,7 @@ RareScannerDB = {
 				[62336] = true,
 				[62848] = true,
 				[47485] = true,
-				[63872] = true,
+				[47489] = true,
 				[32193] = true,
 				[48513] = true,
 				[65408] = true,
@@ -15099,9 +15098,9 @@ RareScannerDB = {
 				[28193] = true,
 				[51074] = true,
 				[13736] = true,
-				[26050] = true,
+				[35715] = true,
 				[40748] = true,
-				[26562] = true,
+				[53122] = true,
 				[11082] = true,
 				[37763] = true,
 				[38915] = true,
@@ -15111,53 +15110,53 @@ RareScannerDB = {
 				[13819] = true,
 				[28610] = true,
 				[28866] = true,
-				[29378] = true,
 				[42371] = true,
+				[29378] = true,
 				[42883] = true,
 				[59778] = true,
-				[30146] = true,
+				[60290] = true,
 				[13287] = true,
-				[31938] = true,
+				[63874] = true,
 				[61826] = true,
 				[62338] = true,
 				[62850] = true,
 				[63362] = true,
-				[63874] = true,
-				[48003] = true,
+				[31938] = true,
+				[32194] = true,
 				[65410] = true,
 				[32706] = true,
 				[33156] = true,
-				[8674] = true,
-				[50563] = true,
 				[51075] = true,
-				[35204] = true,
+				[50563] = true,
+				[8674] = true,
+				[8802] = true,
 				[35716] = true,
 				[38788] = true,
 				[53123] = true,
 				[53635] = true,
 				[37764] = true,
-				[39812] = true,
+				[9954] = true,
 				[55171] = true,
 				[55683] = true,
-				[9954] = true,
+				[39812] = true,
 				[40324] = true,
-				[57219] = true,
+				[10210] = true,
 				[40625] = true,
 				[24713] = true,
-				[65411] = true,
+				[49028] = true,
 				[42884] = true,
 				[59779] = true,
 				[12514] = true,
 				[12898] = true,
 				[26563] = true,
 				[61827] = true,
-				[11490] = true,
+				[62339] = true,
 				[62851] = true,
 				[63363] = true,
 				[63875] = true,
 				[48004] = true,
 				[48516] = true,
-				[49028] = true,
+				[65411] = true,
 				[55185] = true,
 				[25027] = true,
 				[12642] = true,
@@ -15173,13 +15172,13 @@ RareScannerDB = {
 				[27843] = true,
 				[58024] = true,
 				[40325] = true,
-				[57220] = true,
+				[14306] = true,
 				[27359] = true,
 				[42373] = true,
 				[29379] = true,
 				[46501] = true,
 				[13928] = true,
-				[30147] = true,
+				[60292] = true,
 				[34692] = true,
 				[35820] = true,
 				[61828] = true,
@@ -15272,7 +15271,7 @@ RareScannerDB = {
 				[10211] = true,
 				[27136] = true,
 				[51139] = true,
-				[42376] = true,
+				[10595] = true,
 				[40242] = true,
 				[28955] = true,
 				[58751] = true,
@@ -15307,14 +15306,14 @@ RareScannerDB = {
 				[29381] = true,
 				[42889] = true,
 				[13124] = true,
-				[60296] = true,
+				[30149] = true,
 				[56719] = true,
 				[39824] = true,
 				[61832] = true,
 				[62344] = true,
 				[62856] = true,
-				[63880] = true,
 				[31941] = true,
+				[63880] = true,
 				[48009] = true,
 				[48521] = true,
 				[65416] = true,
@@ -15356,13 +15355,13 @@ RareScannerDB = {
 				[38675] = true,
 				[35211] = true,
 				[27392] = true,
-				[55690] = true,
+				[27846] = true,
 				[7026] = true,
 				[56714] = true,
 				[37771] = true,
 				[38283] = true,
 				[38795] = true,
-				[27846] = true,
+				[55690] = true,
 				[28102] = true,
 				[28358] = true,
 				[12971] = true,
@@ -15373,12 +15372,12 @@ RareScannerDB = {
 				[29894] = true,
 				[30150] = true,
 				[60810] = true,
-				[63882] = true,
+				[31942] = true,
 				[61834] = true,
 				[31174] = true,
 				[32710] = true,
 				[63370] = true,
-				[31942] = true,
+				[63882] = true,
 				[32198] = true,
 				[48523] = true,
 				[65418] = true,
@@ -15418,10 +15417,10 @@ RareScannerDB = {
 				[12516] = true,
 				[55730] = true,
 				[26055] = true,
-				[35213] = true,
+				[12900] = true,
 				[13028] = true,
 				[40331] = true,
-				[53132] = true,
+				[26567] = true,
 				[65419] = true,
 				[27079] = true,
 				[58803] = true,
@@ -15431,21 +15430,21 @@ RareScannerDB = {
 				[28359] = true,
 				[26256] = true,
 				[12358] = true,
-				[60300] = true,
-				[31687] = true,
+				[30151] = true,
+				[63372] = true,
 				[42893] = true,
 				[63884] = true,
-				[30151] = true,
-				[60812] = true,
-				[32455] = true,
+				[60300] = true,
+				[30407] = true,
+				[48525] = true,
 				[61836] = true,
 				[31175] = true,
 				[62860] = true,
-				[63372] = true,
+				[31687] = true,
 				[31943] = true,
 				[48013] = true,
-				[48525] = true,
-				[65420] = true,
+				[32455] = true,
+				[32711] = true,
 				[12846] = true,
 				[50061] = true,
 				[50573] = true,
@@ -15469,18 +15468,18 @@ RareScannerDB = {
 				[59789] = true,
 				[60301] = true,
 				[60813] = true,
-				[32711] = true,
+				[65420] = true,
 				[61837] = true,
-				[30407] = true,
+				[60812] = true,
 				[39134] = true,
 				[63373] = true,
 				[63885] = true,
 				[48014] = true,
 				[56208] = true,
 				[10076] = true,
-				[26567] = true,
+				[53132] = true,
 				[35725] = true,
-				[12900] = true,
+				[35213] = true,
 				[55700] = true,
 				[35215] = true,
 				[39313] = true,
@@ -15525,7 +15524,7 @@ RareScannerDB = {
 				[28294] = true,
 				[56207] = true,
 				[40336] = true,
-				[30149] = true,
+				[60296] = true,
 				[57743] = true,
 				[57006] = true,
 				[10597] = true,
@@ -15533,7 +15532,7 @@ RareScannerDB = {
 				[28292] = true,
 				[61844] = true,
 				[11109] = true,
-				[10595] = true,
+				[42376] = true,
 				[61839] = true,
 				[25823] = true,
 				[12972] = true,
@@ -15579,32 +15578,32 @@ RareScannerDB = {
 				[34194] = true,
 				[13922] = true,
 				[39857] = true,
-				[60292] = true,
+				[30147] = true,
 				[41763] = true,
 				[53137] = true,
 				[27587] = true,
-				[14306] = true,
+				[57220] = true,
 				[54673] = true,
 				[38802] = true,
 				[55697] = true,
 				[56209] = true,
 				[56721] = true,
-				[62339] = true,
+				[11490] = true,
 				[57745] = true,
 				[55456] = true,
-				[10210] = true,
+				[57219] = true,
 				[42898] = true,
-				[8802] = true,
+				[35204] = true,
 				[60305] = true,
-				[32194] = true,
+				[48003] = true,
 				[29434] = true,
-				[60290] = true,
+				[30146] = true,
 				[45970] = true,
 				[13128] = true,
 				[63377] = true,
 				[34843] = true,
-				[53122] = true,
-				[35715] = true,
+				[26562] = true,
+				[26050] = true,
 				[65425] = true,
 				[38433] = true,
 				[25034] = true,
@@ -15625,7 +15624,7 @@ RareScannerDB = {
 				[57746] = true,
 				[59766] = true,
 				[31937] = true,
-				[47489] = true,
+				[63872] = true,
 				[28211] = true,
 				[30154] = true,
 				[12870] = true,
@@ -15690,7 +15689,7 @@ RareScannerDB = {
 				[41877] = true,
 				[33970] = true,
 				[37910] = true,
-				[39804] = true,
+				[56187] = true,
 				[30155] = true,
 				[44437] = true,
 				[44949] = true,
@@ -15711,28 +15710,28 @@ RareScannerDB = {
 				[13771] = true,
 				[53141] = true,
 				[37270] = true,
-				[63353] = true,
+				[46970] = true,
 				[56994] = true,
 				[38806] = true,
 				[39318] = true,
 				[43514] = true,
 				[56725] = true,
-				[39802] = true,
+				[56185] = true,
 				[57749] = true,
 				[41878] = true,
 				[58773] = true,
-				[49017] = true,
+				[65400] = true,
 				[43414] = true,
-				[61816] = true,
-				[30397] = true,
+				[45433] = true,
+				[60792] = true,
 				[44950] = true,
 				[61845] = true,
-				[38265] = true,
+				[13663] = true,
 				[62869] = true,
 				[63381] = true,
 				[63893] = true,
-				[64375] = true,
-				[61815] = true,
+				[47992] = true,
+				[45432] = true,
 				[64374] = true,
 				[62950] = true,
 				[50070] = true,
@@ -15740,10 +15739,10 @@ RareScannerDB = {
 				[51094] = true,
 				[43848] = true,
 				[52118] = true,
-				[8671] = true,
+				[34680] = true,
 				[53142] = true,
-				[65398] = true,
-				[46967] = true,
+				[49015] = true,
+				[63350] = true,
 				[54678] = true,
 				[27596] = true,
 				[27852] = true,
@@ -15774,7 +15773,7 @@ RareScannerDB = {
 				[50036] = true,
 				[38212] = true,
 				[53143] = true,
-				[38773] = true,
+				[13790] = true,
 				[27733] = true,
 				[54679] = true,
 				[38808] = true,
@@ -15858,12 +15857,12 @@ RareScannerDB = {
 				[62361] = true,
 				[62873] = true,
 				[63385] = true,
-				[26296] = true,
+				[52590] = true,
 				[48026] = true,
 				[48538] = true,
 				[65433] = true,
 				[39274] = true,
-				[49006] = true,
+				[65389] = true,
 				[50586] = true,
 				[61292] = true,
 				[25806] = true,
@@ -15902,7 +15901,7 @@ RareScannerDB = {
 				[52123] = true,
 				[56155] = true,
 				[33886] = true,
-				[53099] = true,
+				[36716] = true,
 				[54171] = true,
 				[38495] = true,
 				[38812] = true,
@@ -15959,15 +15958,15 @@ RareScannerDB = {
 				[48541] = true,
 				[38704] = true,
 				[28852] = true,
-				[28596] = true,
+				[57190] = true,
 				[24442] = true,
 				[34718] = true,
-				[26292] = true,
+				[36199] = true,
 				[52125] = true,
 				[36254] = true,
 				[29239] = true,
-				[24500] = true,
-				[47462] = true,
+				[65381] = true,
+				[63845] = true,
 				[30325] = true,
 				[38814] = true,
 				[39326] = true,
@@ -15985,17 +15984,17 @@ RareScannerDB = {
 				[45470] = true,
 				[43876] = true,
 				[62877] = true,
-				[14170] = true,
+				[40293] = true,
 				[63901] = true,
 				[48030] = true,
 				[48542] = true,
 				[51904] = true,
-				[24499] = true,
+				[65379] = true,
 				[60735] = true,
 				[34207] = true,
 				[34719] = true,
 				[25808] = true,
-				[58723] = true,
+				[10586] = true,
 				[26320] = true,
 				[26576] = true,
 				[8698] = true,
@@ -16006,8 +16005,8 @@ RareScannerDB = {
 				[28112] = true,
 				[13743] = true,
 				[28624] = true,
-				[61794] = true,
-				[58210] = true,
+				[30898] = true,
+				[29106] = true,
 				[29392] = true,
 				[42911] = true,
 				[29904] = true,
@@ -16038,14 +16037,14 @@ RareScannerDB = {
 				[36131] = true,
 				[40352] = true,
 				[55136] = true,
-				[39777] = true,
+				[14041] = true,
 				[58271] = true,
 				[58783] = true,
 				[25521] = true,
-				[47968] = true,
+				[64351] = true,
 				[60319] = true,
 				[60831] = true,
-				[58719] = true,
+				[10585] = true,
 				[61855] = true,
 				[13705] = true,
 				[11625] = true,
@@ -16054,7 +16053,7 @@ RareScannerDB = {
 				[12009] = true,
 				[48544] = true,
 				[53086] = true,
-				[57694] = true,
+				[28848] = true,
 				[25041] = true,
 				[61215] = true,
 				[61277] = true,
@@ -16076,8 +16075,8 @@ RareScannerDB = {
 				[29649] = true,
 				[59808] = true,
 				[43937] = true,
-				[26287] = true,
-				[38749] = true,
+				[36189] = true,
+				[27567] = true,
 				[45473] = true,
 				[31185] = true,
 				[31441] = true,
@@ -16086,13 +16085,13 @@ RareScannerDB = {
 				[48033] = true,
 				[26427] = true,
 				[36619] = true,
-				[33116] = true,
+				[8280] = true,
 				[59973] = true,
 				[50593] = true,
-				[61786] = true,
+				[30894] = true,
 				[35234] = true,
 				[35746] = true,
-				[27822] = true,
+				[39259] = true,
 				[59622] = true,
 				[10571] = true,
 				[40079] = true,
@@ -16118,10 +16117,10 @@ RareScannerDB = {
 				[48034] = true,
 				[48546] = true,
 				[65441] = true,
-				[27821] = true,
+				[39257] = true,
 				[25042] = true,
 				[50594] = true,
-				[11607] = true,
+				[62807] = true,
 				[35235] = true,
 				[52130] = true,
 				[26322] = true,
@@ -16131,7 +16130,7 @@ RareScannerDB = {
 				[42640] = true,
 				[33971] = true,
 				[39331] = true,
-				[8279] = true,
+				[33112] = true,
 				[36426] = true,
 				[28626] = true,
 				[28882] = true,
@@ -16148,7 +16147,7 @@ RareScannerDB = {
 				[31698] = true,
 				[40975] = true,
 				[48035] = true,
-				[56149] = true,
+				[39766] = true,
 				[32722] = true,
 				[56976] = true,
 				[60220] = true,
@@ -16156,17 +16155,17 @@ RareScannerDB = {
 				[8682] = true,
 				[35236] = true,
 				[35748] = true,
-				[65364] = true,
+				[48981] = true,
 				[60129] = true,
 				[13131] = true,
-				[60244] = true,
+				[43861] = true,
 				[26795] = true,
 				[38820] = true,
 				[39332] = true,
 				[9962] = true,
 				[40356] = true,
 				[12828] = true,
-				[64339] = true,
+				[47956] = true,
 				[58275] = true,
 				[10602] = true,
 				[10108] = true,
@@ -16201,21 +16200,21 @@ RareScannerDB = {
 				[60575] = true,
 				[41893] = true,
 				[29395] = true,
-				[56145] = true,
+				[39762] = true,
 				[59812] = true,
 				[65360] = true,
 				[30889] = true,
-				[48977] = true,
+				[32681] = true,
 				[45477] = true,
 				[31187] = true,
 				[31443] = true,
 				[31699] = true,
 				[63908] = true,
 				[48037] = true,
-				[13397] = true,
+				[26793] = true,
 				[32723] = true,
-				[44880] = true,
-				[43856] = true,
+				[61263] = true,
+				[60239] = true,
 				[59022] = true,
 				[34726] = true,
 				[43794] = true,
@@ -16224,12 +16223,12 @@ RareScannerDB = {
 				[60238] = true,
 				[28208] = true,
 				[8644] = true,
-				[32680] = true,
+				[65358] = true,
 				[38822] = true,
 				[39334] = true,
 				[9874] = true,
 				[56741] = true,
-				[43343] = true,
+				[59726] = true,
 				[28295] = true,
 				[60707] = true,
 				[51398] = true,
@@ -16237,13 +16236,13 @@ RareScannerDB = {
 				[43430] = true,
 				[43942] = true,
 				[60837] = true,
-				[25000] = true,
+				[49998] = true,
 				[45478] = true,
 				[60397] = true,
 				[62885] = true,
 				[39413] = true,
 				[63909] = true,
-				[43342] = true,
+				[59725] = true,
 				[64933] = true,
 				[65445] = true,
 				[32644] = true,
@@ -16260,11 +16259,11 @@ RareScannerDB = {
 				[27604] = true,
 				[39335] = true,
 				[28116] = true,
-				[27815] = true,
+				[39245] = true,
 				[28628] = true,
 				[28884] = true,
-				[65355] = true,
-				[47948] = true,
+				[48972] = true,
+				[64331] = true,
 				[29652] = true,
 				[28980] = true,
 				[59885] = true,
@@ -16279,7 +16278,7 @@ RareScannerDB = {
 				[32468] = true,
 				[32724] = true,
 				[61705] = true,
-				[59210] = true,
+				[42827] = true,
 				[50599] = true,
 				[8683] = true,
 				[56118] = true,
@@ -16292,18 +16291,18 @@ RareScannerDB = {
 				[11029] = true,
 				[9835] = true,
 				[39848] = true,
-				[39242] = true,
+				[55625] = true,
 				[14342] = true,
 				[61256] = true,
 				[41896] = true,
 				[10603] = true,
 				[39241] = true,
 				[59815] = true,
-				[32421] = true,
+				[64840] = true,
 				[60839] = true,
 				[61351] = true,
-				[30885] = true,
-				[41289] = true,
+				[3861] = true,
+				[28837] = true,
 				[46504] = true,
 				[13395] = true,
 				[63911] = true,
@@ -16320,7 +16319,7 @@ RareScannerDB = {
 				[13291] = true,
 				[53672] = true,
 				[52036] = true,
-				[30884] = true,
+				[61766] = true,
 				[27605] = true,
 				[39337] = true,
 				[28117] = true,
@@ -16348,7 +16347,7 @@ RareScannerDB = {
 				[13394] = true,
 				[56057] = true,
 				[52137] = true,
-				[65348] = true,
+				[48965] = true,
 				[32419] = true,
 				[53673] = true,
 				[42103] = true,
@@ -16358,20 +16357,20 @@ RareScannerDB = {
 				[39850] = true,
 				[63183] = true,
 				[10781] = true,
-				[63811] = true,
+				[47428] = true,
 				[11090] = true,
-				[44868] = true,
+				[61251] = true,
 				[39748] = true,
 				[43434] = true,
-				[56131] = true,
+				[9938] = true,
 				[24683] = true,
 				[61353] = true,
 				[45482] = true,
-				[30882] = true,
+				[45379] = true,
 				[46506] = true,
 				[47018] = true,
 				[63913] = true,
-				[55618] = true,
+				[27810] = true,
 				[64937] = true,
 				[49066] = true,
 				[24730] = true,
@@ -16410,7 +16409,7 @@ RareScannerDB = {
 				[50091] = true,
 				[34220] = true,
 				[8684] = true,
-				[43328] = true,
+				[59711] = true,
 				[13052] = true,
 				[36268] = true,
 				[26445] = true,
@@ -16427,7 +16426,7 @@ RareScannerDB = {
 				[10604] = true,
 				[60459] = true,
 				[59819] = true,
-				[39231] = true,
+				[27808] = true,
 				[60843] = true,
 				[61355] = true,
 				[45484] = true,
@@ -16455,7 +16454,7 @@ RareScannerDB = {
 				[56748] = true,
 				[28631] = true,
 				[57772] = true,
-				[26271] = true,
+				[13136] = true,
 				[29399] = true,
 				[10448] = true,
 				[34952] = true,
@@ -16470,21 +16469,21 @@ RareScannerDB = {
 				[32215] = true,
 				[64940] = true,
 				[49069] = true,
-				[32414] = true,
-				[64314] = true,
+				[48443] = true,
+				[32158] = true,
 				[50605] = true,
-				[28318] = true,
-				[27806] = true,
+				[56634] = true,
+				[55610] = true,
 				[25709] = true,
 				[63177] = true,
 				[27990] = true,
 				[53677] = true,
-				[24734] = true,
+				[33083] = true,
 				[38318] = true,
 				[12674] = true,
 				[39342] = true,
 				[56237] = true,
-				[44858] = true,
+				[61241] = true,
 				[57261] = true,
 				[26478] = true,
 				[58285] = true,
@@ -16511,7 +16510,7 @@ RareScannerDB = {
 				[52654] = true,
 				[26584] = true,
 				[53678] = true,
-				[10959] = true,
+				[60215] = true,
 				[27352] = true,
 				[25621] = true,
 				[39343] = true,
@@ -16601,12 +16600,12 @@ RareScannerDB = {
 				[25175] = true,
 				[50097] = true,
 				[50609] = true,
-				[44337] = true,
+				[60720] = true,
 				[12578] = true,
 				[35762] = true,
-				[13773] = true,
 				[38705] = true,
-				[13005] = true,
+				[27545] = true,
+				[35633] = true,
 				[54193] = true,
 				[38322] = true,
 				[38834] = true,
@@ -16616,12 +16615,12 @@ RareScannerDB = {
 				[57265] = true,
 				[41394] = true,
 				[58289] = true,
-				[32152] = true,
+				[47919] = true,
 				[34776] = true,
 				[25614] = true,
 				[43954] = true,
 				[60849] = true,
-				[28824] = true,
+				[57646] = true,
 				[45490] = true,
 				[36404] = true,
 				[62897] = true,
@@ -16638,31 +16637,31 @@ RareScannerDB = {
 				[52146] = true,
 				[26330] = true,
 				[53170] = true,
-				[31127] = true,
+				[62252] = true,
 				[54194] = true,
 				[54706] = true,
-				[13772] = true,
+				[38701] = true,
 				[39347] = true,
 				[39859] = true,
 				[28378] = true,
 				[57266] = true,
 				[41395] = true,
-				[33581] = true,
+				[12492] = true,
 				[58802] = true,
 				[59314] = true,
 				[59826] = true,
 				[60338] = true,
 				[60850] = true,
-				[10444] = true,
+				[58155] = true,
 				[61874] = true,
 				[31194] = true,
 				[62898] = true,
 				[31706] = true,
 				[63922] = true,
-				[28310] = true,
+				[56618] = true,
 				[48563] = true,
 				[32730] = true,
-				[37163] = true,
+				[53546] = true,
 				[50099] = true,
 				[50611] = true,
 				[8686] = true,
@@ -16678,7 +16677,7 @@ RareScannerDB = {
 				[56243] = true,
 				[26465] = true,
 				[57267] = true,
-				[39721] = true,
+				[56104] = true,
 				[53544] = true,
 				[10606] = true,
 				[59315] = true,
@@ -16686,7 +16685,7 @@ RareScannerDB = {
 				[60339] = true,
 				[60851] = true,
 				[39097] = true,
-				[53543] = true,
+				[37160] = true,
 				[53919] = true,
 				[62899] = true,
 				[8651] = true,
@@ -16717,27 +16716,27 @@ RareScannerDB = {
 				[59828] = true,
 				[43957] = true,
 				[60852] = true,
-				[62756] = true,
+				[31379] = true,
 				[45493] = true,
-				[55076] = true,
+				[13770] = true,
 				[62900] = true,
 				[31707] = true,
 				[63924] = true,
 				[32219] = true,
-				[33061] = true,
+				[24723] = true,
 				[32731] = true,
 				[33206] = true,
 				[50101] = true,
 				[32658] = true,
-				[34596] = true,
-				[64802] = true,
+				[8650] = true,
+				[48419] = true,
 				[35766] = true,
 				[36278] = true,
 				[36790] = true,
-				[40227] = true,
+				[56610] = true,
 				[54197] = true,
 				[64289] = true,
-				[33059] = true,
+				[24722] = true,
 				[39350] = true,
 				[39862] = true,
 				[39415] = true,
@@ -16750,11 +16749,11 @@ RareScannerDB = {
 				[60341] = true,
 				[60853] = true,
 				[48569] = true,
-				[64800] = true,
-				[63776] = true,
+				[32401] = true,
+				[31889] = true,
 				[10002] = true,
 				[63413] = true,
-				[58656] = true,
+				[29329] = true,
 				[64437] = true,
 				[64949] = true,
 				[65461] = true,
@@ -16764,15 +16763,15 @@ RareScannerDB = {
 				[25564] = true,
 				[35255] = true,
 				[52150] = true,
-				[34592] = true,
+				[8649] = true,
 				[53174] = true,
-				[31376] = true,
+				[62750] = true,
 				[54198] = true,
 				[54710] = true,
 				[27612] = true,
 				[55734] = true,
 				[56246] = true,
-				[27536] = true,
+				[55070] = true,
 				[57270] = true,
 				[40123] = true,
 				[58294] = true,
@@ -16836,7 +16835,7 @@ RareScannerDB = {
 				[13807] = true,
 				[13935] = true,
 				[39865] = true,
-				[53016] = true,
+				[26509] = true,
 				[28637] = true,
 				[27222] = true,
 				[58296] = true,
@@ -16860,9 +16859,9 @@ RareScannerDB = {
 				[51129] = true,
 				[35258] = true,
 				[52153] = true,
-				[26508] = true,
+				[53014] = true,
 				[36794] = true,
-				[48406] = true,
+				[64789] = true,
 				[54201] = true,
 				[12931] = true,
 				[38842] = true,
@@ -16875,7 +16874,7 @@ RareScannerDB = {
 				[58809] = true,
 				[59321] = true,
 				[59833] = true,
-				[61204] = true,
+				[44821] = true,
 				[60857] = true,
 				[13364] = true,
 				[50452] = true,
@@ -16907,7 +16906,7 @@ RareScannerDB = {
 				[58810] = true,
 				[29307] = true,
 				[59834] = true,
-				[45842] = true,
+				[62225] = true,
 				[60858] = true,
 				[13868] = true,
 				[61882] = true,
@@ -16920,7 +16919,7 @@ RareScannerDB = {
 				[65466] = true,
 				[8304] = true,
 				[50107] = true,
-				[64272] = true,
+				[47889] = true,
 				[8688] = true,
 				[35260] = true,
 				[2158] = true,
@@ -16929,7 +16928,7 @@ RareScannerDB = {
 				[12613] = true,
 				[54203] = true,
 				[54715] = true,
-				[27273] = true,
+				[54544] = true,
 				[39356] = true,
 				[9968] = true,
 				[43792] = true,
@@ -16966,8 +16965,8 @@ RareScannerDB = {
 				[14064] = true,
 				[56764] = true,
 				[28639] = true,
-				[64268] = true,
-				[61708] = true,
+				[47885] = true,
+				[45325] = true,
 				[58812] = true,
 				[59324] = true,
 				[59836] = true,
@@ -16978,9 +16977,9 @@ RareScannerDB = {
 				[31199] = true,
 				[62908] = true,
 				[31711] = true,
-				[45324] = true,
+				[61707] = true,
 				[27408] = true,
-				[59147] = true,
+				[10692] = true,
 				[13221] = true,
 				[30827] = true,
 				[50109] = true,
@@ -16990,14 +16989,14 @@ RareScannerDB = {
 				[11961] = true,
 				[61136] = true,
 				[36798] = true,
-				[31878] = true,
+				[63754] = true,
 				[37822] = true,
 				[38334] = true,
 				[13207] = true,
 				[39358] = true,
 				[39870] = true,
 				[27264] = true,
-				[53002] = true,
+				[26502] = true,
 				[32293] = true,
 				[61558] = true,
 				[58813] = true,
@@ -17013,8 +17012,8 @@ RareScannerDB = {
 				[47550] = true,
 				[13987] = true,
 				[64957] = true,
-				[65288] = true,
-				[47881] = true,
+				[32645] = true,
+				[64264] = true,
 				[50110] = true,
 				[50622] = true,
 				[51134] = true,
@@ -17076,7 +17075,7 @@ RareScannerDB = {
 				[13634] = true,
 				[63935] = true,
 				[48064] = true,
-				[35077] = true,
+				[12866] = true,
 				[28214] = true,
 				[12401] = true,
 				[25057] = true,
@@ -17151,7 +17150,7 @@ RareScannerDB = {
 				[36291] = true,
 				[53186] = true,
 				[33866] = true,
-				[56574] = true,
+				[28288] = true,
 				[38339] = true,
 				[27618] = true,
 				[39363] = true,
@@ -17178,7 +17177,7 @@ RareScannerDB = {
 				[50115] = true,
 				[12864] = true,
 				[34756] = true,
-				[64251] = true,
+				[11968] = true,
 				[52163] = true,
 				[36292] = true,
 				[53187] = true,
@@ -17222,11 +17221,11 @@ RareScannerDB = {
 				[28131] = true,
 				[28387] = true,
 				[40901] = true,
-				[59638] = true,
+				[43255] = true,
 				[29155] = true,
 				[29411] = true,
 				[29667] = true,
-				[27516] = true,
+				[55030] = true,
 				[48886] = true,
 				[32528] = true,
 				[44997] = true,
@@ -17242,14 +17241,14 @@ RareScannerDB = {
 				[50117] = true,
 				[32120] = true,
 				[34758] = true,
-				[48885] = true,
+				[65268] = true,
 				[35782] = true,
 				[25719] = true,
 				[13758] = true,
 				[40173] = true,
 				[37830] = true,
 				[54725] = true,
-				[48372] = true,
+				[64755] = true,
 				[39366] = true,
 				[56261] = true,
 				[28188] = true,
@@ -17274,7 +17273,7 @@ RareScannerDB = {
 				[50118] = true,
 				[28234] = true,
 				[51142] = true,
-				[48370] = true,
+				[64753] = true,
 				[26623] = true,
 				[187] = true,
 				[28180] = true,
@@ -17291,38 +17290,38 @@ RareScannerDB = {
 				[29412] = true,
 				[59334] = true,
 				[59846] = true,
-				[63216] = true,
+				[46833] = true,
 				[44487] = true,
-				[13757] = true,
+				[38641] = true,
 				[61894] = true,
 				[31204] = true,
 				[62918] = true,
 				[31716] = true,
 				[63942] = true,
 				[64454] = true,
-				[49392] = true,
-				[60655] = true,
+				[193] = true,
+				[11069] = true,
 				[8307] = true,
 				[50119] = true,
 				[34248] = true,
 				[8691] = true,
 				[35272] = true,
 				[47855] = true,
-				[48879] = true,
+				[65262] = true,
 				[31743] = true,
 				[35393] = true,
 				[37832] = true,
 				[38344] = true,
-				[28536] = true,
+				[40687] = true,
 				[26232] = true,
 				[56263] = true,
 				[25714] = true,
 				[32556] = true,
-				[48366] = true,
+				[64749] = true,
 				[10042] = true,
 				[10611] = true,
 				[59335] = true,
-				[59629] = true,
+				[43246] = true,
 				[10995] = true,
 				[60871] = true,
 				[28177] = true,
@@ -17342,8 +17341,8 @@ RareScannerDB = {
 				[13043] = true,
 				[36297] = true,
 				[26597] = true,
-				[65259] = true,
-				[11580] = true,
+				[48876] = true,
+				[62699] = true,
 				[54728] = true,
 				[38857] = true,
 				[55752] = true,
@@ -17386,7 +17385,7 @@ RareScannerDB = {
 				[41930] = true,
 				[58825] = true,
 				[59337] = true,
-				[35049] = true,
+				[51432] = true,
 				[30064] = true,
 				[44490] = true,
 				[12582] = true,
@@ -17428,7 +17427,7 @@ RareScannerDB = {
 				[47051] = true,
 				[13066] = true,
 				[64458] = true,
-				[32115] = true,
+				[64228] = true,
 				[10006] = true,
 				[8308] = true,
 				[33740] = true,
@@ -17436,7 +17435,7 @@ RareScannerDB = {
 				[8692] = true,
 				[35276] = true,
 				[52171] = true,
-				[62179] = true,
+				[45796] = true,
 				[60642] = true,
 				[28266] = true,
 				[53475] = true,
@@ -17446,7 +17445,7 @@ RareScannerDB = {
 				[40675] = true,
 				[56779] = true,
 				[57291] = true,
-				[48355] = true,
+				[32370] = true,
 				[43747] = true,
 				[42444] = true,
 				[35463] = true,
@@ -17475,9 +17474,9 @@ RareScannerDB = {
 				[13684] = true,
 				[38861] = true,
 				[55756] = true,
-				[63711] = true,
+				[11833] = true,
 				[56780] = true,
-				[46816] = true,
+				[63199] = true,
 				[63142] = true,
 				[58316] = true,
 				[42445] = true,
@@ -17498,11 +17497,11 @@ RareScannerDB = {
 				[50125] = true,
 				[50637] = true,
 				[51149] = true,
-				[46814] = true,
+				[63197] = true,
 				[52173] = true,
-				[60637] = true,
+				[44254] = true,
 				[53197] = true,
-				[41694] = true,
+				[58077] = true,
 				[31742] = true,
 				[54733] = true,
 				[38862] = true,
@@ -17510,13 +17509,13 @@ RareScannerDB = {
 				[56269] = true,
 				[56781] = true,
 				[27918] = true,
-				[62172] = true,
+				[31087] = true,
 				[58317] = true,
 				[58829] = true,
 				[42958] = true,
 				[59853] = true,
-				[64731] = true,
-				[61147] = true,
+				[48348] = true,
+				[44764] = true,
 				[61389] = true,
 				[28682] = true,
 				[26689] = true,
@@ -17565,7 +17564,7 @@ RareScannerDB = {
 				[35280] = true,
 				[26688] = true,
 				[57516] = true,
-				[47831] = true,
+				[64214] = true,
 				[53711] = true,
 				[63154] = true,
 				[54735] = true,
@@ -17617,14 +17616,14 @@ RareScannerDB = {
 				[30953] = true,
 				[31209] = true,
 				[31465] = true,
-				[64722] = true,
+				[32362] = true,
 				[63952] = true,
 				[48081] = true,
 				[32489] = true,
 				[32745] = true,
 				[11803] = true,
 				[50129] = true,
-				[26474] = true,
+				[52946] = true,
 				[34770] = true,
 				[42591] = true,
 				[62602] = true,
@@ -17649,9 +17648,9 @@ RareScannerDB = {
 				[45522] = true,
 				[62417] = true,
 				[25647] = true,
-				[63695] = true,
+				[11829] = true,
 				[33969] = true,
-				[60623] = true,
+				[11061] = true,
 				[64977] = true,
 				[65489] = true,
 				[64131] = true,
@@ -17663,7 +17662,7 @@ RareScannerDB = {
 				[36307] = true,
 				[53202] = true,
 				[37331] = true,
-				[45263] = true,
+				[61646] = true,
 				[38355] = true,
 				[11806] = true,
 				[39379] = true,
@@ -17691,8 +17690,8 @@ RareScannerDB = {
 				[60909] = true,
 				[8694] = true,
 				[35284] = true,
-				[48333] = true,
-				[43725] = true,
+				[64716] = true,
+				[60108] = true,
 				[39570] = true,
 				[62134] = true,
 				[54227] = true,
@@ -17701,7 +17700,7 @@ RareScannerDB = {
 				[62620] = true,
 				[56275] = true,
 				[56787] = true,
-				[11828] = true,
+				[63691] = true,
 				[64490] = true,
 				[62661] = true,
 				[62499] = true,
@@ -17781,7 +17780,7 @@ RareScannerDB = {
 				[63957] = true,
 				[64469] = true,
 				[64494] = true,
-				[26724] = true,
+				[53446] = true,
 				[61454] = true,
 				[50134] = true,
 				[25324] = true,
@@ -17859,8 +17858,8 @@ RareScannerDB = {
 				[27373] = true,
 				[40949] = true,
 				[35426] = true,
-				[65214] = true,
-				[63166] = true,
+				[32608] = true,
+				[31584] = true,
 				[14327] = true,
 				[57816] = true,
 				[64489] = true,
@@ -17882,14 +17881,14 @@ RareScannerDB = {
 				[50137] = true,
 				[50649] = true,
 				[34778] = true,
-				[35006] = true,
+				[51389] = true,
 				[65080] = true,
 				[61456] = true,
 				[63590] = true,
 				[38051] = true,
 				[63990] = true,
 				[35904] = true,
-				[13616] = true,
+				[38077] = true,
 				[39386] = true,
 				[56281] = true,
 				[26631] = true,
@@ -17907,7 +17906,7 @@ RareScannerDB = {
 				[65210] = true,
 				[47066] = true,
 				[63961] = true,
-				[63162] = true,
+				[31582] = true,
 				[48602] = true,
 				[65497] = true,
 				[64546] = true,
@@ -18038,14 +18037,14 @@ RareScannerDB = {
 				[64477] = true,
 				[48606] = true,
 				[65501] = true,
-				[31065] = true,
+				[45745] = true,
 				[50142] = true,
 				[34271] = true,
 				[34783] = true,
 				[35295] = true,
 				[24645] = true,
 				[56375] = true,
-				[32945] = true,
+				[12333] = true,
 				[27705] = true,
 				[37855] = true,
 				[38367] = true,
@@ -18194,8 +18193,6 @@ RareScannerDB = {
 				[62434] = true,
 				[31474] = true,
 				[65510] = true,
-			},
-			["events_completed"] = {
 			},
 			["rares_killed"] = {
 				[36807] = -1,
@@ -21689,7 +21686,7 @@ RareScannerDB = {
 				[49833] = -1,
 				[108361] = -1,
 				[168584] = -1,
-				[93003] = -1,
+				[145035] = -1,
 				[77133] = -1,
 				[91646] = -1,
 				[126456] = -1,
@@ -21755,9 +21752,9 @@ RareScannerDB = {
 				[21080] = -1,
 				[177807] = -1,
 				[160850] = -1,
-				[69992] = -1,
-				[78161] = -1,
 				[139968] = -1,
+				[78161] = -1,
+				[69992] = -1,
 				[103758] = -1,
 				[107327] = -1,
 				[112973] = -1,
@@ -21935,9 +21932,9 @@ RareScannerDB = {
 				[53115] = -1,
 				[118460] = -1,
 				[28087] = -1,
-				[28378] = -1,
-				[152233] = -1,
 				[177830] = -1,
+				[152233] = -1,
+				[28378] = -1,
 				[3000] = -1,
 				[12118] = -1,
 				[82268] = -1,
@@ -22145,7 +22142,7 @@ RareScannerDB = {
 				[45993] = -1,
 				[126458] = -1,
 				[136189] = -1,
-				[145035] = -1,
+				[93003] = -1,
 				[146116] = -1,
 				[171713] = -1,
 				[123236] = -1,
@@ -22597,6 +22594,8 @@ RareScannerDB = {
 				[98370] = -1,
 				[30989] = -1,
 			},
+			["events_completed"] = {
+			},
 		},
 		["Tempgoddess - Outland"] = {
 			["rares_killed"] = {
@@ -22688,19 +22687,19 @@ RareScannerDB = {
 				[50144] = true,
 				[46730] = true,
 				[53124] = true,
-				[40008] = true,
+				[40518] = true,
 				[53746] = true,
-				[31571] = true,
+				[31316] = true,
 				[40616] = true,
 				[31583] = true,
-				[40518] = true,
+				[40008] = true,
 				[31591] = true,
 				[31551] = true,
 				[31555] = true,
 				[33707] = true,
 				[31308] = true,
 				[56631] = true,
-				[31316] = true,
+				[31571] = true,
 				[31575] = true,
 				[31579] = true,
 				[42893] = true,
@@ -22734,23 +22733,23 @@ RareScannerDB = {
 				[44949] = true,
 				[40317] = true,
 				[44663] = true,
-				[42910] = true,
+				[44950] = true,
 				[50146] = true,
 				[40607] = true,
-				[44950] = true,
+				[42910] = true,
 				[42909] = true,
 				[44953] = true,
 				[44974] = true,
 				[31990] = true,
 				[44990] = true,
-				[50098] = true,
+				[44998] = true,
 				[50106] = true,
 				[31822] = true,
 				[50109] = true,
-				[44998] = true,
+				[50098] = true,
 				[41002] = true,
-				[53206] = true,
 				[44281] = true,
+				[53206] = true,
 				[40982] = true,
 				[31826] = true,
 				[53748] = true,
@@ -22997,7 +22996,7 @@ RareScannerDB = {
 				[31550] = true,
 				[53074] = true,
 				[62254] = true,
-				[64348] = true,
+				[61282] = true,
 				[61298] = true,
 				[64655] = true,
 				[61288] = true,
@@ -23019,9 +23018,9 @@ RareScannerDB = {
 				[51366] = true,
 				[51177] = true,
 				[31889] = true,
-				[50107] = true,
-				[63694] = true,
 				[44997] = true,
+				[31879] = true,
+				[50107] = true,
 				[61245] = true,
 				[50099] = true,
 				[61299] = true,
@@ -23042,12 +23041,12 @@ RareScannerDB = {
 				[50147] = true,
 				[32672] = true,
 				[31915] = true,
-				[51351] = true,
+				[31584] = true,
 				[31552] = true,
 				[63696] = true,
 				[31568] = true,
 				[31576] = true,
-				[31584] = true,
+				[51351] = true,
 				[31592] = true,
 				[61225] = true,
 				[44953] = true,
@@ -23065,18 +23064,18 @@ RareScannerDB = {
 				[53124] = true,
 				[51359] = true,
 				[31728] = true,
-				[50106] = true,
+				[44996] = true,
 				[44992] = true,
 				[50100] = true,
 				[50108] = true,
-				[53747] = true,
+				[51192] = true,
 				[50140] = true,
 				[62977] = true,
-				[51192] = true,
+				[53747] = true,
 				[56571] = true,
 				[31549] = true,
 				[53332] = true,
-				[44996] = true,
+				[50106] = true,
 				[31824] = true,
 				[31832] = true,
 				[51168] = true,
@@ -23098,7 +23097,7 @@ RareScannerDB = {
 				[46728] = true,
 				[31976] = true,
 				[51129] = true,
-				[31879] = true,
+				[63694] = true,
 				[31897] = true,
 				[32008] = true,
 				[51193] = true,
@@ -23113,7 +23112,7 @@ RareScannerDB = {
 				[31577] = true,
 				[31585] = true,
 				[51369] = true,
-				[61282] = true,
+				[64348] = true,
 				[53956] = true,
 				[61292] = true,
 				[63697] = true,
@@ -23597,8 +23596,8 @@ RareScannerDB = {
 				[51402] = true,
 				[50108] = true,
 				[11407] = true,
-				[31919] = true,
 				[57668] = true,
+				[31919] = true,
 				[11318] = true,
 				[37187] = true,
 				[44989] = true,
@@ -23609,9 +23608,9 @@ RareScannerDB = {
 				[8803] = true,
 				[51722] = true,
 				[51229] = true,
-				[12491] = true,
-				[42707] = true,
 				[52969] = true,
+				[42707] = true,
+				[12491] = true,
 				[34587] = true,
 				[34462] = true,
 				[61249] = true,
@@ -24265,8 +24264,8 @@ RareScannerDB = {
 				[61874] = true,
 				[31578] = true,
 				[29548] = true,
-				[60151] = true,
 				[29580] = true,
+				[60151] = true,
 				[29698] = true,
 				[61238] = true,
 				[61270] = true,
@@ -24276,7 +24275,7 @@ RareScannerDB = {
 				[50145] = true,
 				[41993] = true,
 				[31881] = true,
-				[57722] = true,
+				[29900] = true,
 				[29756] = true,
 				[50305] = true,
 				[46245] = true,
@@ -24286,7 +24285,7 @@ RareScannerDB = {
 				[29618] = true,
 				[28845] = true,
 				[38253] = true,
-				[29900] = true,
+				[57722] = true,
 				[34434] = true,
 				[29932] = true,
 				[31019] = true,
@@ -24394,13 +24393,13 @@ RareScannerDB = {
 				[58013] = true,
 				[29633] = true,
 				[27520] = true,
-				[61274] = true,
+				[29630] = true,
 				[28623] = true,
 				[43851] = true,
-				[29630] = true,
+				[61274] = true,
 				[42892] = true,
 				[34740] = true,
-				[27632] = true,
+				[31724] = true,
 				[31740] = true,
 				[29585] = true,
 				[29726] = true,
@@ -24443,26 +24442,26 @@ RareScannerDB = {
 				[28272] = true,
 				[41957] = true,
 				[43277] = true,
-				[43373] = true,
-				[43341] = true,
 				[28352] = true,
+				[43341] = true,
+				[43373] = true,
 				[49543] = true,
 				[35253] = true,
 				[27187] = true,
 				[29753] = true,
+				[53859] = true,
+				[34646] = true,
+				[53124] = true,
 				[28480] = true,
-				[31661] = true,
-				[29647] = true,
-				[34422] = true,
 				[46730] = true,
 				[31581] = true,
 				[31725] = true,
 				[60125] = true,
 				[34582] = true,
 				[41967] = true,
-				[34646] = true,
+				[31661] = true,
 				[29631] = true,
-				[53124] = true,
+				[29647] = true,
 				[29727] = true,
 				[34774] = true,
 				[31741] = true,
@@ -24471,7 +24470,7 @@ RareScannerDB = {
 				[43374] = true,
 				[29759] = true,
 				[31821] = true,
-				[31022] = true,
+				[29999] = true,
 				[27761] = true,
 				[27777] = true,
 				[48809] = true,
@@ -24481,10 +24480,10 @@ RareScannerDB = {
 				[29903] = true,
 				[31087] = true,
 				[28002] = true,
-				[27905] = true,
+				[62939] = true,
 				[49928] = true,
 				[31006] = true,
-				[29999] = true,
+				[31022] = true,
 				[27969] = true,
 				[53862] = true,
 				[31070] = true,
@@ -24509,20 +24508,20 @@ RareScannerDB = {
 				[59776] = true,
 				[29888] = true,
 				[32024] = true,
-				[43375] = true,
+				[28353] = true,
 				[31551] = true,
 				[61244] = true,
 				[34775] = true,
-				[53861] = true,
-				[28561] = true,
-				[30495] = true,
-				[34392] = true,
 				[31550] = true,
+				[34584] = true,
+				[63004] = true,
+				[34392] = true,
+				[53861] = true,
 				[28497] = true,
-				[31582] = true,
+				[48810] = true,
 				[29552] = true,
 				[61278] = true,
-				[34584] = true,
+				[28561] = true,
 				[34616] = true,
 				[42896] = true,
 				[29632] = true,
@@ -24535,12 +24534,12 @@ RareScannerDB = {
 				[31343] = true,
 				[60511] = true,
 				[31822] = true,
-				[48810] = true,
-				[63004] = true,
+				[31582] = true,
+				[30495] = true,
 				[27778] = true,
 				[40710] = true,
 				[31902] = true,
-				[28353] = true,
+				[43375] = true,
 				[43376] = true,
 				[29904] = true,
 				[29920] = true,
@@ -24555,13 +24554,13 @@ RareScannerDB = {
 				[36567] = true,
 				[39668] = true,
 				[34585] = true,
-				[62939] = true,
+				[27905] = true,
 				[61247] = true,
 				[61279] = true,
 				[31183] = true,
 				[44975] = true,
-				[53859] = true,
 				[31549] = true,
+				[34422] = true,
 				[29547] = true,
 				[28194] = true,
 				[28210] = true,
@@ -24587,7 +24586,7 @@ RareScannerDB = {
 				[29553] = true,
 				[60129] = true,
 				[34586] = true,
-				[31724] = true,
+				[27632] = true,
 				[29646] = true,
 				[61280] = true,
 				[42898] = true,
@@ -24724,21 +24723,21 @@ RareScannerDB = {
 				[63981] = -1,
 				[78507] = -1,
 				[23775] = -1,
-				[47741] = -1,
+				[52076] = -1,
 				[62228] = -1,
-				[37501] = -1,
+				[61981] = -1,
 				[62754] = -1,
-				[126193] = -1,
+				[47032] = -1,
 				[47980] = -1,
 				[37533] = -1,
-				[52076] = -1,
+				[47741] = -1,
 				[47749] = -1,
 				[66188] = -1,
 				[21269] = -1,
-				[21273] = -1,
+				[62563] = -1,
 				[62833] = -1,
 				[104502] = -1,
-				[47032] = -1,
+				[126193] = -1,
 				[46617] = -1,
 				[63368] = -1,
 				[80786] = -1,
@@ -24748,24 +24747,24 @@ RareScannerDB = {
 				[26672] = -1,
 				[48626] = -1,
 				[81360] = -1,
-				[64197] = -1,
+				[20050] = -1,
 				[168586] = -1,
 				[26692] = -1,
 				[20062] = -1,
 				[104627] = -1,
 				[52059] = -1,
-				[168588] = -1,
+				[46993] = -1,
 				[63998] = -1,
 				[101875] = -1,
 				[48204] = -1,
 				[37502] = -1,
 				[62755] = -1,
 				[21364] = -1,
-				[127280] = -1,
+				[62748] = -1,
 				[37534] = -1,
 				[47742] = -1,
 				[12129] = -1,
-				[46993] = -1,
+				[168588] = -1,
 				[62301] = -1,
 				[63329] = -1,
 				[49214] = -1,
@@ -24774,7 +24773,7 @@ RareScannerDB = {
 				[20049] = -1,
 				[63369] = -1,
 				[126174] = -1,
-				[62748] = -1,
+				[127280] = -1,
 				[21270] = -1,
 				[81014] = -1,
 				[62899] = -1,
@@ -24784,10 +24783,10 @@ RareScannerDB = {
 				[88099] = -1,
 				[2110] = -1,
 				[51217] = -1,
-				[33567] = -1,
+				[65450] = -1,
 				[48428] = -1,
 				[33136] = -1,
-				[65450] = -1,
+				[33567] = -1,
 				[37232] = -1,
 				[48205] = -1,
 				[78830] = -1,
@@ -24801,25 +24800,25 @@ RareScannerDB = {
 				[105733] = -1,
 				[21274] = -1,
 				[80775] = -1,
-				[114308] = -1,
-				[26669] = -1,
 				[20063] = -1,
+				[20035] = -1,
+				[63179] = -1,
 				[38125] = -1,
-				[48668] = -1,
+				[26693] = -1,
 				[38229] = -1,
 				[20031] = -1,
-				[20035] = -1,
-				[20039] = -1,
-				[62143] = -1,
+				[114308] = -1,
+				[26669] = -1,
+				[63928] = -1,
 				[20047] = -1,
 				[63944] = -1,
 				[114309] = -1,
 				[37695] = -1,
-				[26693] = -1,
-				[15548] = -1,
+				[48668] = -1,
+				[46126] = -1,
 				[121337] = -1,
 				[52079] = -1,
-				[167704] = -1,
+				[62582] = -1,
 				[64008] = -1,
 				[16152] = -1,
 				[62749] = -1,
@@ -24829,17 +24828,17 @@ RareScannerDB = {
 				[33966] = -1,
 				[46979] = -1,
 				[79205] = -1,
-				[10984] = -1,
+				[47760] = -1,
 				[62813] = -1,
 				[66184] = -1,
 				[105800] = -1,
-				[62582] = -1,
+				[167704] = -1,
 				[105799] = -1,
 				[165983] = -1,
 				[52151] = -1,
 				[81367] = -1,
 				[104402] = -1,
-				[26670] = -1,
+				[65452] = -1,
 				[81670] = -1,
 				[52956] = -1,
 				[64806] = -1,
@@ -24849,35 +24848,35 @@ RareScannerDB = {
 				[63007] = -1,
 				[82037] = -1,
 				[46127] = -1,
-				[20032] = -1,
+				[165860] = -1,
 				[63993] = -1,
-				[20036] = -1,
+				[62894] = -1,
 				[127173] = -1,
 				[79583] = -1,
-				[46590] = -1,
+				[86039] = -1,
 				[62758] = -1,
 				[62766] = -1,
 				[64559] = -1,
 				[47227] = -1,
-				[79585] = -1,
+				[64273] = -1,
 				[33983] = -1,
 				[52606] = -1,
-				[62814] = -1,
+				[21271] = -1,
 				[102693] = -1,
 				[36565] = -1,
 				[46129] = -1,
 				[105801] = -1,
 				[65404] = -1,
-				[82373] = -1,
+				[36597] = -1,
 				[26690] = -1,
 				[65575] = -1,
-				[165860] = -1,
-				[62894] = -1,
-				[78883] = -1,
-				[86039] = -1,
+				[20032] = -1,
+				[20036] = -1,
+				[26670] = -1,
+				[46590] = -1,
 				[167263] = -1,
 				[63755] = -1,
-				[64273] = -1,
+				[79585] = -1,
 				[20060] = -1,
 				[20064] = -1,
 				[46128] = -1,
@@ -24913,11 +24912,11 @@ RareScannerDB = {
 				[37698] = -1,
 				[63206] = -1,
 				[82057] = -1,
-				[65452] = -1,
-				[36597] = -1,
-				[37228] = -1,
-				[21271] = -1,
 				[20040] = -1,
+				[82373] = -1,
+				[37228] = -1,
+				[62814] = -1,
+				[78883] = -1,
 				[175269] = -1,
 				[62760] = -1,
 				[47978] = -1,
@@ -24927,14 +24926,14 @@ RareScannerDB = {
 				[33985] = -1,
 				[21268] = -1,
 				[21272] = -1,
-				[47760] = -1,
+				[10984] = -1,
 				[62832] = -1,
 				[49835] = -1,
 				[63103] = -1,
-				[46126] = -1,
+				[15548] = -1,
 				[81357] = -1,
-				[63179] = -1,
-				[63928] = -1,
+				[62143] = -1,
+				[20039] = -1,
 				[20033] = -1,
 				[62386] = -1,
 				[20041] = -1,
@@ -24949,20 +24948,20 @@ RareScannerDB = {
 				[65996] = -1,
 				[37229] = -1,
 				[102015] = -1,
-				[79589] = -1,
 				[47190] = -1,
+				[79589] = -1,
 				[37134] = -1,
 				[167942] = -1,
 				[37532] = -1,
 				[47740] = -1,
-				[20050] = -1,
+				[64197] = -1,
 				[106221] = -1,
 				[80468] = -1,
 				[38154] = -1,
 				[62077] = -1,
 				[65995] = -1,
-				[62563] = -1,
-				[61981] = -1,
+				[21273] = -1,
+				[37501] = -1,
 			},
 		},
 		["Testfirst - Outland"] = {
@@ -25181,10 +25180,10 @@ RareScannerDB = {
 				[32669] = true,
 				[2499] = true,
 				[50098] = true,
-				[13564] = true,
+				[64348] = true,
 				[61250] = true,
 				[13560] = true,
-				[64348] = true,
+				[13564] = true,
 				[61298] = true,
 				[13529] = true,
 				[13508] = true,
@@ -25209,9 +25208,9 @@ RareScannerDB = {
 				[63694] = true,
 				[31879] = true,
 				[61278] = true,
-				[32470] = true,
-				[44997] = true,
 				[53123] = true,
+				[44997] = true,
+				[32470] = true,
 				[31919] = true,
 				[61235] = true,
 				[56652] = true,
@@ -25220,7 +25219,7 @@ RareScannerDB = {
 				[61299] = true,
 				[61277] = true,
 				[31975] = true,
-				[44995] = true,
+				[50105] = true,
 				[44949] = true,
 				[50109] = true,
 				[61273] = true,
@@ -25249,12 +25248,12 @@ RareScannerDB = {
 				[56626] = true,
 				[44948] = true,
 				[61284] = true,
-				[61300] = true,
+				[53124] = true,
 				[44996] = true,
 				[31728] = true,
 				[50106] = true,
 				[50140] = true,
-				[997] = true,
+				[13844] = true,
 				[32468] = true,
 				[53747] = true,
 				[50100] = true,
@@ -25263,11 +25262,11 @@ RareScannerDB = {
 				[28726] = true,
 				[13597] = true,
 				[488] = true,
-				[13844] = true,
+				[997] = true,
 				[31824] = true,
 				[31832] = true,
 				[2459] = true,
-				[53124] = true,
+				[61300] = true,
 				[31897] = true,
 				[44953] = true,
 				[64202] = true,
@@ -25282,7 +25281,7 @@ RareScannerDB = {
 				[61274] = true,
 				[61285] = true,
 				[32471] = true,
-				[50105] = true,
+				[44995] = true,
 				[31976] = true,
 				[50107] = true,
 				[53206] = true,
@@ -25451,7 +25450,7 @@ RareScannerDB = {
 				[56631] = true,
 				[31316] = true,
 				[40008] = true,
-				[44949] = true,
+				[46734] = true,
 				[31551] = true,
 				[31555] = true,
 				[44120] = true,
@@ -25462,23 +25461,23 @@ RareScannerDB = {
 				[31579] = true,
 				[31583] = true,
 				[31587] = true,
-				[44184] = true,
+				[44949] = true,
 				[31832] = true,
-				[39691] = true,
+				[53206] = true,
 				[44463] = true,
 				[44471] = true,
 				[44989] = true,
 				[44997] = true,
 				[50105] = true,
 				[31878] = true,
-				[53206] = true,
+				[39691] = true,
 				[42907] = true,
 				[42893] = true,
 				[50145] = true,
 				[32663] = true,
 				[31902] = true,
 				[32671] = true,
-				[53747] = true,
+				[42782] = true,
 				[39985] = true,
 				[32667] = true,
 				[40519] = true,
@@ -25489,8 +25488,8 @@ RareScannerDB = {
 				[42892] = true,
 				[56624] = true,
 				[40317] = true,
-				[44663] = true,
 				[57668] = true,
+				[44663] = true,
 				[42909] = true,
 				[44950] = true,
 				[39987] = true,
@@ -25504,15 +25503,15 @@ RareScannerDB = {
 				[50106] = true,
 				[40009] = true,
 				[31889] = true,
-				[42782] = true,
+				[53747] = true,
 				[31824] = true,
 				[50146] = true,
 				[50147] = true,
 				[59087] = true,
-				[46734] = true,
+				[31591] = true,
 				[53748] = true,
 				[39986] = true,
-				[31591] = true,
+				[44184] = true,
 				[45727] = true,
 				[46730] = true,
 				[31548] = true,
@@ -26396,9 +26395,9 @@ RareScannerDB = {
 				[26501] = true,
 				[42689] = true,
 				[42524] = true,
-				[26250] = true,
-				[42185] = true,
 				[44296] = true,
+				[42185] = true,
+				[26250] = true,
 				[14159] = true,
 				[26314] = true,
 				[26909] = true,
@@ -26428,15 +26427,15 @@ RareScannerDB = {
 				[8867] = true,
 				[25436] = true,
 				[14309] = true,
-				[60545] = true,
+				[64639] = true,
 				[44233] = true,
 				[8721] = true,
 				[25410] = true,
 				[14434] = true,
 				[14466] = true,
 				[31555] = true,
-				[34446] = true,
 				[46728] = true,
+				[34446] = true,
 				[31592] = true,
 				[62709] = true,
 				[61249] = true,
@@ -26479,7 +26478,7 @@ RareScannerDB = {
 				[30793] = true,
 				[14393] = true,
 				[26827] = true,
-				[30889] = true,
+				[57668] = true,
 				[30921] = true,
 				[40620] = true,
 				[59907] = true,
@@ -26542,9 +26541,9 @@ RareScannerDB = {
 				[26328] = true,
 				[53131] = true,
 				[47223] = true,
-				[43341] = true,
 				[30890] = true,
-				[26828] = true,
+				[43341] = true,
+				[30922] = true,
 				[26860] = true,
 				[39414] = true,
 				[42907] = true,
@@ -26554,7 +26553,7 @@ RareScannerDB = {
 				[26585] = true,
 				[2438] = true,
 				[27116] = true,
-				[44045] = true,
+				[297] = true,
 				[29739] = true,
 				[25613] = true,
 				[28850] = true,
@@ -26572,14 +26571,14 @@ RareScannerDB = {
 				[61290] = true,
 				[36881] = true,
 				[25645] = true,
-				[297] = true,
+				[44045] = true,
 				[30769] = true,
 				[31573] = true,
 				[48440] = true,
 				[25805] = true,
 				[13946] = true,
 				[309] = true,
-				[30922] = true,
+				[26828] = true,
 				[14157] = true,
 				[34438] = true,
 				[31556] = true,
@@ -26623,7 +26622,7 @@ RareScannerDB = {
 				[25437] = true,
 				[14302] = true,
 				[25230] = true,
-				[57668] = true,
+				[30889] = true,
 				[42384] = true,
 				[487] = true,
 				[61286] = true,
@@ -26647,7 +26646,7 @@ RareScannerDB = {
 				[25469] = true,
 				[14293] = true,
 				[64262] = true,
-				[64639] = true,
+				[60545] = true,
 				[34398] = true,
 				[31687] = true,
 				[8723] = true,
@@ -26728,6 +26727,8 @@ RareScannerDB = {
 				[26843] = true,
 				[58927] = true,
 			},
+			["events_completed"] = {
+			},
 			["rares_killed"] = {
 				[61299] = -1,
 				[131404] = -1,
@@ -26778,23 +26779,24 @@ RareScannerDB = {
 				[45099] = -1,
 				[26670] = -1,
 				[26550] = -1,
+				[179912] = 1648364399,
 				[26554] = -1,
-				[167704] = -1,
+				[61619] = -1,
 				[52606] = -1,
 				[43339] = -1,
+				[167704] = -1,
 				[61373] = -1,
 				[42781] = -1,
-				[49858] = -1,
 				[61516] = -1,
 				[60758] = -1,
+				[49858] = -1,
 				[26690] = -1,
 				[43228] = -1,
-				[81670] = -1,
 				[60647] = -1,
-				[78883] = -1,
+				[81670] = -1,
 				[62306] = -1,
-				[42917] = -1,
-				[21268] = -1,
+				[78883] = -1,
+				[167834] = -1,
 				[16152] = -1,
 				[62576] = -1,
 				[61818] = -1,
@@ -26802,13 +26804,13 @@ RareScannerDB = {
 				[82373] = -1,
 				[42780] = -1,
 				[36565] = -1,
-				[167834] = -1,
-				[21272] = -1,
+				[21268] = -1,
 				[52956] = -1,
+				[21272] = -1,
 				[42923] = -1,
 				[61092] = -1,
 				[52079] = -1,
-				[61619] = -1,
+				[42917] = -1,
 				[61811] = -1,
 				[61054] = -1,
 				[62128] = -1,
@@ -26827,8 +26829,6 @@ RareScannerDB = {
 				[175269] = -1,
 				[52151] = -1,
 				[60756] = -1,
-			},
-			["events_completed"] = {
 			},
 		},
 		["Xanthoros - Outland"] = {
@@ -27600,11 +27600,11 @@ RareScannerDB = {
 				[12120] = true,
 				[7025] = true,
 				[12152] = true,
-				[36614] = true,
+				[26503] = true,
 				[34375] = true,
 				[34439] = true,
 				[12216] = true,
-				[26503] = true,
+				[36614] = true,
 				[12248] = true,
 				[26567] = true,
 				[44994] = true,
@@ -27630,8 +27630,8 @@ RareScannerDB = {
 				[39748] = true,
 				[32029] = true,
 				[61264] = true,
-				[44483] = true,
 				[34248] = true,
+				[44483] = true,
 				[29910] = true,
 				[48705] = true,
 				[34440] = true,
@@ -27670,7 +27670,7 @@ RareScannerDB = {
 				[40646] = true,
 				[26504] = true,
 				[61244] = true,
-				[26568] = true,
+				[40838] = true,
 				[44996] = true,
 				[11273] = true,
 				[11289] = true,
@@ -27699,10 +27699,10 @@ RareScannerDB = {
 				[40647] = true,
 				[34378] = true,
 				[34442] = true,
-				[48835] = true,
-				[27592] = true,
-				[61245] = true,
+				[31590] = true,
 				[53121] = true,
+				[61245] = true,
+				[27592] = true,
 				[44997] = true,
 				[27656] = true,
 				[29907] = true,
@@ -27763,7 +27763,7 @@ RareScannerDB = {
 				[34823] = true,
 				[12845] = true,
 				[34817] = true,
-				[40649] = true,
+				[31591] = true,
 				[29608] = true,
 				[61247] = true,
 				[53123] = true,
@@ -27785,10 +27785,10 @@ RareScannerDB = {
 				[34741] = true,
 				[30184] = true,
 				[28326] = true,
-				[62655] = true,
-				[26186] = true,
 				[28265] = true,
-				[44296] = true,
+				[26186] = true,
+				[62655] = true,
+				[30344] = true,
 				[12171] = true,
 				[31826] = true,
 				[26346] = true,
@@ -27798,7 +27798,7 @@ RareScannerDB = {
 				[40650] = true,
 				[26506] = true,
 				[53747] = true,
-				[53124] = true,
+				[26570] = true,
 				[34765] = true,
 				[11274] = true,
 				[11290] = true,
@@ -27829,7 +27829,7 @@ RareScannerDB = {
 				[34446] = true,
 				[31592] = true,
 				[29577] = true,
-				[29609] = true,
+				[61249] = true,
 				[26171] = true,
 				[27626] = true,
 				[31752] = true,
@@ -27845,12 +27845,12 @@ RareScannerDB = {
 				[31556] = true,
 				[30057] = true,
 				[30089] = true,
-				[12074] = true,
+				[26187] = true,
 				[12010] = true,
 				[30185] = true,
 				[12042] = true,
 				[28202] = true,
-				[26187] = true,
+				[12074] = true,
 				[28266] = true,
 				[30254] = true,
 				[26283] = true,
@@ -27888,9 +27888,9 @@ RareScannerDB = {
 				[26607] = true,
 				[41422] = true,
 				[12894] = true,
-				[44555] = true,
+				[62978] = true,
 				[43341] = true,
-				[46730] = true,
+				[29514] = true,
 				[31593] = true,
 				[40653] = true,
 				[61251] = true,
@@ -27906,9 +27906,9 @@ RareScannerDB = {
 				[35280] = true,
 				[47099] = true,
 				[32041] = true,
-				[49929] = true,
-				[30058] = true,
 				[30090] = true,
+				[30058] = true,
+				[49929] = true,
 				[11243] = true,
 				[25706] = true,
 				[43980] = true,
@@ -27934,9 +27934,9 @@ RareScannerDB = {
 				[12174] = true,
 				[29911] = true,
 				[11355] = true,
-				[29514] = true,
+				[46730] = true,
 				[13434] = true,
-				[62978] = true,
+				[44555] = true,
 				[25683] = true,
 				[35881] = true,
 				[49866] = true,
@@ -27965,7 +27965,7 @@ RareScannerDB = {
 				[27724] = true,
 				[25709] = true,
 				[27869] = true,
-				[61249] = true,
+				[29609] = true,
 				[13930] = true,
 				[35649] = true,
 				[12796] = true,
@@ -27980,12 +27980,12 @@ RareScannerDB = {
 				[28204] = true,
 				[26522] = true,
 				[26872] = true,
-				[26570] = true,
+				[53124] = true,
 				[32031] = true,
 				[31324] = true,
 				[32036] = true,
 				[26381] = true,
-				[30344] = true,
+				[44296] = true,
 				[46733] = true,
 				[12219] = true,
 				[26509] = true,
@@ -27996,7 +27996,7 @@ RareScannerDB = {
 				[45134] = true,
 				[8237] = true,
 				[51403] = true,
-				[31591] = true,
+				[40649] = true,
 				[26367] = true,
 				[12229] = true,
 				[45804] = true,
@@ -28028,7 +28028,7 @@ RareScannerDB = {
 				[32034] = true,
 				[27725] = true,
 				[27757] = true,
-				[31590] = true,
+				[48835] = true,
 				[27821] = true,
 				[27853] = true,
 				[11245] = true,
@@ -28044,7 +28044,7 @@ RareScannerDB = {
 				[30252] = true,
 				[42129] = true,
 				[52428] = true,
-				[40838] = true,
+				[26568] = true,
 				[40644] = true,
 				[44432] = true,
 				[25687] = true,
@@ -28312,17 +28312,17 @@ RareScannerDB = {
 				[37232] = -1,
 				[86137] = -1,
 				[101091] = -1,
-				[60708] = -1,
+				[104936] = -1,
 				[108034] = -1,
 				[123618] = -1,
 				[34184] = -1,
 				[33824] = -1,
 				[105294] = -1,
-				[99539] = -1,
 				[115891] = -1,
+				[99539] = -1,
 				[117967] = -1,
 				[100938] = -1,
-				[101679] = -1,
+				[21268] = -1,
 				[80936] = -1,
 				[95726] = -1,
 				[95771] = -1,
@@ -28338,8 +28338,8 @@ RareScannerDB = {
 				[26672] = -1,
 				[32874] = -1,
 				[26693] = -1,
-				[37123] = -1,
 				[34057] = -1,
+				[37123] = -1,
 				[11744] = -1,
 				[34137] = -1,
 				[36853] = -1,
@@ -28359,7 +28359,7 @@ RareScannerDB = {
 				[33818] = -1,
 				[107535] = -1,
 				[105897] = -1,
-				[33355] = -1,
+				[20031] = -1,
 				[26690] = -1,
 				[32876] = -1,
 				[64063] = -1,
@@ -28379,7 +28379,7 @@ RareScannerDB = {
 				[99213] = -1,
 				[33527] = -1,
 				[106026] = -1,
-				[20031] = -1,
+				[33355] = -1,
 				[82207] = -1,
 				[121337] = -1,
 				[34234] = -1,
@@ -28399,12 +28399,12 @@ RareScannerDB = {
 				[33344] = -1,
 				[37532] = -1,
 				[108033] = -1,
-				[21268] = -1,
+				[101679] = -1,
 				[112692] = -1,
 				[81212] = -1,
 				[23795] = -1,
 				[127266] = -1,
-				[104936] = -1,
+				[60708] = -1,
 				[37868] = -1,
 				[37228] = -1,
 				[20060] = -1,
@@ -29105,15 +29105,15 @@ RareScannerDB = {
 				[27554] = true,
 				[61297] = true,
 				[29665] = true,
-				[27714] = true,
-				[11798] = true,
 				[47224] = true,
+				[11798] = true,
+				[27714] = true,
 				[29793] = true,
 				[56624] = true,
 				[45727] = true,
 				[11878] = true,
-				[11910] = true,
 				[53749] = true,
+				[11910] = true,
 				[30081] = true,
 				[11942] = true,
 				[11958] = true,
@@ -29128,13 +29128,13 @@ RareScannerDB = {
 				[41003] = true,
 				[12118] = true,
 				[12134] = true,
-				[32672] = true,
+				[12246] = true,
 				[30465] = true,
 				[26403] = true,
 				[26435] = true,
 				[40636] = true,
 				[30593] = true,
-				[12246] = true,
+				[32672] = true,
 				[26563] = true,
 				[26595] = true,
 				[26627] = true,
@@ -29195,10 +29195,10 @@ RareScannerDB = {
 				[35166] = true,
 				[12691] = true,
 				[32661] = true,
-				[61236] = true,
+				[32673] = true,
 				[40638] = true,
 				[30594] = true,
-				[32673] = true,
+				[61236] = true,
 				[61300] = true,
 				[12579] = true,
 				[34817] = true,
@@ -29217,13 +29217,13 @@ RareScannerDB = {
 				[43837] = true,
 				[43900] = true,
 				[50106] = true,
-				[48507] = true,
+				[11623] = true,
 				[27172] = true,
 				[27204] = true,
 				[11575] = true,
 				[38144] = true,
-				[56631] = true,
-				[11623] = true,
+				[11607] = true,
+				[48507] = true,
 				[11869] = true,
 				[62964] = true,
 				[11671] = true,
@@ -29256,12 +29256,12 @@ RareScannerDB = {
 				[38145] = true,
 				[12119] = true,
 				[12167] = true,
-				[12231] = true,
+				[40704] = true,
 				[62965] = true,
 				[26405] = true,
 				[34435] = true,
 				[12215] = true,
-				[40704] = true,
+				[12231] = true,
 				[61238] = true,
 				[12533] = true,
 				[26597] = true,
@@ -29279,8 +29279,8 @@ RareScannerDB = {
 				[49852] = true,
 				[47869] = true,
 				[34616] = true,
-				[50108] = true,
 				[12535] = true,
+				[50108] = true,
 				[12551] = true,
 				[27173] = true,
 				[27205] = true,
@@ -29387,7 +29387,7 @@ RareScannerDB = {
 				[12152] = true,
 				[12168] = true,
 				[34375] = true,
-				[191] = true,
+				[34439] = true,
 				[12216] = true,
 				[26503] = true,
 				[12248] = true,
@@ -29399,7 +29399,7 @@ RareScannerDB = {
 				[26727] = true,
 				[27552] = true,
 				[32667] = true,
-				[194] = true,
+				[26823] = true,
 				[44977] = true,
 				[34739] = true,
 				[31830] = true,
@@ -29407,7 +29407,7 @@ RareScannerDB = {
 				[193] = true,
 				[34438] = true,
 				[39749] = true,
-				[12520] = true,
+				[196] = true,
 				[12536] = true,
 				[29190] = true,
 				[27175] = true,
@@ -29417,11 +29417,11 @@ RareScannerDB = {
 				[30027] = true,
 				[29414] = true,
 				[27367] = true,
-				[27527] = true,
+				[38662] = true,
 				[12696] = true,
 				[27463] = true,
-				[34504] = true,
-				[38662] = true,
+				[12728] = true,
+				[27527] = true,
 				[44989] = true,
 				[44974] = true,
 				[44995] = true,
@@ -29455,7 +29455,7 @@ RareScannerDB = {
 				[30694] = true,
 				[38663] = true,
 				[61244] = true,
-				[26568] = true,
+				[208] = true,
 				[44996] = true,
 				[30133] = true,
 				[26664] = true,
@@ -29518,22 +29518,22 @@ RareScannerDB = {
 				[31556] = true,
 				[12217] = true,
 				[26505] = true,
-				[26633] = true,
-				[26569] = true,
-				[26601] = true,
 				[12297] = true,
+				[26569] = true,
+				[12281] = true,
+				[26633] = true,
 				[26665] = true,
-				[12329] = true,
+				[26697] = true,
 				[26729] = true,
 				[30855] = true,
 				[26793] = true,
 				[26825] = true,
-				[12489] = true,
+				[27017] = true,
 				[12425] = true,
 				[12441] = true,
 				[26953] = true,
 				[49860] = true,
-				[27017] = true,
+				[12489] = true,
 				[27448] = true,
 				[12521] = true,
 				[12537] = true,
@@ -29596,7 +29596,7 @@ RareScannerDB = {
 				[31584] = true,
 				[12311] = true,
 				[26954] = true,
-				[49862] = true,
+				[53956] = true,
 				[30691] = true,
 				[11949] = true,
 				[29524] = true,
@@ -29604,11 +29604,11 @@ RareScannerDB = {
 				[44998] = true,
 				[31262] = true,
 				[11562] = true,
-				[29417] = true,
+				[27370] = true,
 				[34446] = true,
 				[11610] = true,
 				[11626] = true,
-				[27370] = true,
+				[29417] = true,
 				[11658] = true,
 				[42762] = true,
 				[27466] = true,
@@ -29619,13 +29619,13 @@ RareScannerDB = {
 				[26360] = true,
 				[31752] = true,
 				[30818] = true,
-				[29769] = true,
+				[34958] = true,
 				[31576] = true,
 				[31880] = true,
 				[11866] = true,
 				[31944] = true,
 				[31976] = true,
-				[32008] = true,
+				[11914] = true,
 				[57668] = true,
 				[11946] = true,
 				[49863] = true,
@@ -29655,8 +29655,8 @@ RareScannerDB = {
 				[26731] = true,
 				[26763] = true,
 				[26795] = true,
-				[11914] = true,
-				[34958] = true,
+				[32008] = true,
+				[29769] = true,
 				[30363] = true,
 				[12442] = true,
 				[26955] = true,
@@ -29668,7 +29668,7 @@ RareScannerDB = {
 				[12190] = true,
 				[12570] = true,
 				[35983] = true,
-				[53956] = true,
+				[49862] = true,
 				[31828] = true,
 				[12634] = true,
 				[26570] = true,
@@ -29698,8 +29698,8 @@ RareScannerDB = {
 				[31578] = true,
 				[26567] = true,
 				[31553] = true,
-				[26697] = true,
-				[12281] = true,
+				[12329] = true,
+				[26601] = true,
 				[31570] = true,
 				[30346] = true,
 				[32664] = true,
@@ -29727,7 +29727,7 @@ RareScannerDB = {
 				[49866] = true,
 				[27962] = true,
 				[13412] = true,
-				[208] = true,
+				[26568] = true,
 				[31833] = true,
 				[34987] = true,
 				[49535] = true,
@@ -29753,22 +29753,22 @@ RareScannerDB = {
 				[44483] = true,
 				[31573] = true,
 				[26495] = true,
-				[12728] = true,
+				[34504] = true,
 				[11931] = true,
 				[27980] = true,
 				[11963] = true,
 				[30091] = true,
-				[196] = true,
+				[12520] = true,
 				[12011] = true,
 				[30469] = true,
 				[11701] = true,
 				[34584] = true,
-				[26823] = true,
+				[194] = true,
 				[26695] = true,
 				[12107] = true,
 				[38225] = true,
 				[26317] = true,
-				[34439] = true,
+				[191] = true,
 				[12171] = true,
 				[30507] = true,
 				[46733] = true,
@@ -29838,7 +29838,7 @@ RareScannerDB = {
 				[38655] = true,
 				[38382] = true,
 				[26510] = true,
-				[11607] = true,
+				[56631] = true,
 				[30668] = true,
 				[26606] = true,
 				[26638] = true,
@@ -29990,12 +29990,12 @@ RareScannerDB = {
 				[91130] = -1,
 				[91122] = -1,
 				[81360] = -1,
-				[33720] = -1,
+				[101099] = -1,
 				[33983] = -1,
 				[52606] = -1,
 				[21271] = -1,
 				[16152] = -1,
-				[36565] = -1,
+				[105259] = -1,
 				[109100] = -1,
 				[26670] = -1,
 				[93577] = -1,
@@ -30016,7 +30016,7 @@ RareScannerDB = {
 				[28123] = -1,
 				[93578] = -1,
 				[91044] = -1,
-				[29013] = -1,
+				[127270] = -1,
 				[20064] = -1,
 				[28001] = -1,
 				[26690] = -1,
@@ -30027,19 +30027,19 @@ RareScannerDB = {
 				[28399] = -1,
 				[28087] = -1,
 				[28288] = -1,
-				[126171] = -1,
+				[19622] = -1,
 				[110896] = -1,
 				[79793] = -1,
 				[100556] = -1,
 				[91045] = -1,
 				[79590] = -1,
 				[109140] = -1,
-				[28085] = -1,
+				[26555] = -1,
 				[28069] = -1,
 				[3835] = -1,
 				[108848] = -1,
-				[15475] = -1,
-				[26555] = -1,
+				[28081] = -1,
+				[28085] = -1,
 				[83539] = -1,
 				[109933] = -1,
 				[28097] = -1,
@@ -30049,43 +30049,43 @@ RareScannerDB = {
 				[28101] = -1,
 				[82037] = -1,
 				[20033] = -1,
-				[109438] = -1,
+				[28380] = -1,
 				[28129] = -1,
 				[98505] = -1,
 				[98011] = -1,
 				[28667] = -1,
 				[36272] = -1,
-				[33985] = -1,
+				[28659] = -1,
 				[21268] = -1,
 				[109821] = -1,
 				[91645] = -1,
 				[79205] = -1,
 				[21272] = -1,
-				[28659] = -1,
-				[28380] = -1,
+				[33985] = -1,
+				[109438] = -1,
 				[81357] = -1,
 				[91318] = -1,
 				[100769] = -1,
 				[110730] = -1,
-				[28081] = -1,
+				[15475] = -1,
 				[20041] = -1,
 				[109396] = -1,
 				[20049] = -1,
 				[28213] = -1,
-				[19622] = -1,
+				[126171] = -1,
 				[26691] = -1,
 				[28317] = -1,
 				[28188] = -1,
 				[15551] = -1,
-				[127270] = -1,
+				[29013] = -1,
 				[26553] = -1,
 				[20032] = -1,
 				[21364] = -1,
 				[100770] = -1,
 				[28002] = -1,
 				[52059] = -1,
-				[105259] = -1,
-				[101099] = -1,
+				[36565] = -1,
+				[33720] = -1,
 				[52956] = -1,
 				[33966] = -1,
 				[20062] = -1,
@@ -30220,28 +30220,28 @@ RareScannerDB = {
 				[53751] = true,
 				[50144] = true,
 				[45727] = true,
-				[42909] = true,
+				[31591] = true,
 				[39713] = true,
 				[53746] = true,
 				[31571] = true,
-				[31822] = true,
-				[31591] = true,
+				[56631] = true,
+				[44184] = true,
 				[40008] = true,
-				[46734] = true,
+				[42909] = true,
 				[31551] = true,
 				[31555] = true,
 				[44120] = true,
 				[31308] = true,
-				[56631] = true,
+				[31822] = true,
 				[31316] = true,
 				[31575] = true,
 				[31579] = true,
-				[31583] = true,
+				[42893] = true,
 				[31587] = true,
-				[44184] = true,
+				[46734] = true,
 				[50146] = true,
-				[44463] = true,
 				[44973] = true,
+				[44463] = true,
 				[44471] = true,
 				[44989] = true,
 				[44997] = true,
@@ -30249,16 +30249,16 @@ RareScannerDB = {
 				[31878] = true,
 				[52969] = true,
 				[31889] = true,
-				[42782] = true,
+				[53747] = true,
 				[50145] = true,
 				[32663] = true,
-				[32667] = true,
+				[31902] = true,
 				[32671] = true,
-				[53747] = true,
+				[42782] = true,
 				[39985] = true,
 				[40009] = true,
 				[50098] = true,
-				[51994] = true,
+				[40519] = true,
 				[31830] = true,
 				[31826] = true,
 				[39987] = true,
@@ -30266,26 +30266,26 @@ RareScannerDB = {
 				[56624] = true,
 				[40123] = true,
 				[44950] = true,
-				[44663] = true,
+				[57668] = true,
 				[42892] = true,
 				[40317] = true,
 				[44949] = true,
 				[42910] = true,
-				[57668] = true,
+				[44663] = true,
 				[44555] = true,
 				[44974] = true,
 				[31990] = true,
 				[44990] = true,
 				[44998] = true,
 				[50106] = true,
-				[40519] = true,
-				[31902] = true,
+				[51994] = true,
+				[32667] = true,
 				[31824] = true,
 				[32669] = true,
-				[39691] = true,
 				[53206] = true,
+				[39691] = true,
 				[59087] = true,
-				[42893] = true,
+				[31583] = true,
 				[53748] = true,
 				[39986] = true,
 				[31897] = true,
@@ -30527,9 +30527,9 @@ RareScannerDB = {
 				[57261] = true,
 				[43341] = true,
 				[31551] = true,
-				[31575] = true,
-				[32471] = true,
 				[46734] = true,
+				[32471] = true,
+				[31575] = true,
 				[31583] = true,
 				[31591] = true,
 				[59752] = true,
@@ -30537,15 +30537,15 @@ RareScannerDB = {
 				[62655] = true,
 				[27024] = true,
 				[39692] = true,
-				[60148] = true,
+				[56571] = true,
 				[32669] = true,
 				[57676] = true,
 				[44997] = true,
 				[40123] = true,
 				[61250] = true,
-				[59765] = true,
-				[61282] = true,
 				[61298] = true,
+				[61282] = true,
+				[59765] = true,
 				[27112] = true,
 				[44976] = true,
 				[50104] = true,
@@ -30566,25 +30566,25 @@ RareScannerDB = {
 				[32661] = true,
 				[61295] = true,
 				[33513] = true,
-				[41306] = true,
+				[61235] = true,
 				[31879] = true,
 				[60644] = true,
-				[60149] = true,
-				[44995] = true,
+				[62704] = true,
+				[61858] = true,
 				[59911] = true,
 				[31919] = true,
-				[61235] = true,
-				[56652] = true,
-				[26873] = true,
-				[31440] = true,
+				[41306] = true,
+				[61251] = true,
+				[44995] = true,
+				[61283] = true,
 				[32470] = true,
 				[30969] = true,
 				[31975] = true,
-				[50105] = true,
+				[26873] = true,
 				[61874] = true,
 				[59766] = true,
-				[26905] = true,
 				[53746] = true,
+				[26905] = true,
 				[32469] = true,
 				[50106] = true,
 				[61297] = true,
@@ -30600,8 +30600,8 @@ RareScannerDB = {
 				[33514] = true,
 				[59767] = true,
 				[61299] = true,
-				[32662] = true,
 				[60150] = true,
+				[32662] = true,
 				[32670] = true,
 				[44989] = true,
 				[61225] = true,
@@ -30612,16 +30612,16 @@ RareScannerDB = {
 				[61300] = true,
 				[27113] = true,
 				[62254] = true,
-				[44996] = true,
 				[31728] = true,
+				[44996] = true,
 				[31827] = true,
 				[53123] = true,
 				[53747] = true,
-				[61858] = true,
+				[50105] = true,
 				[62977] = true,
-				[61283] = true,
-				[61251] = true,
-				[62704] = true,
+				[31440] = true,
+				[56652] = true,
+				[60149] = true,
 				[30995] = true,
 				[50140] = true,
 				[31824] = true,
@@ -30639,7 +30639,7 @@ RareScannerDB = {
 				[31725] = true,
 				[61237] = true,
 				[61253] = true,
-				[56571] = true,
+				[60148] = true,
 				[61285] = true,
 				[44949] = true,
 				[44463] = true,
@@ -30890,9 +30890,9 @@ RareScannerDB = {
 				[31729] = true,
 				[64202] = true,
 				[61249] = true,
-				[32469] = true,
-				[51572] = true,
 				[53121] = true,
+				[51572] = true,
+				[32469] = true,
 				[51418] = true,
 				[44977] = true,
 				[50103] = true,
@@ -30946,34 +30946,34 @@ RareScannerDB = {
 				[50109] = true,
 				[61250] = true,
 				[32471] = true,
-				[63694] = true,
+				[31879] = true,
 				[31897] = true,
-				[61299] = true,
-				[61253] = true,
 				[32470] = true,
+				[61253] = true,
+				[61299] = true,
 				[31919] = true,
 				[61235] = true,
-				[56652] = true,
+				[61251] = true,
 				[53602] = true,
 				[61283] = true,
 				[53123] = true,
-				[44995] = true,
-				[31975] = true,
 				[50105] = true,
+				[31975] = true,
+				[44995] = true,
 				[31889] = true,
 				[46728] = true,
 				[50099] = true,
-				[51191] = true,
+				[53746] = true,
 				[61278] = true,
 				[63696] = true,
 				[50147] = true,
 				[32672] = true,
 				[31915] = true,
 				[31552] = true,
-				[51351] = true,
+				[31584] = true,
 				[31568] = true,
 				[31576] = true,
-				[31584] = true,
+				[51351] = true,
 				[31592] = true,
 				[61225] = true,
 				[63685] = true,
@@ -30991,14 +30991,14 @@ RareScannerDB = {
 				[44948] = true,
 				[51359] = true,
 				[44996] = true,
-				[50106] = true,
+				[31728] = true,
 				[44992] = true,
 				[53747] = true,
 				[50108] = true,
 				[51192] = true,
 				[50100] = true,
 				[62977] = true,
-				[31728] = true,
+				[50106] = true,
 				[53124] = true,
 				[50140] = true,
 				[53332] = true,
@@ -31012,19 +31012,19 @@ RareScannerDB = {
 				[31574] = true,
 				[31880] = true,
 				[52450] = true,
-				[53746] = true,
+				[51191] = true,
 				[31593] = true,
 				[51870] = true,
 				[44993] = true,
 				[61237] = true,
 				[51544] = true,
-				[61251] = true,
+				[56652] = true,
 				[61285] = true,
 				[44949] = true,
-				[31879] = true,
+				[63694] = true,
 				[31976] = true,
-				[44997] = true,
 				[51129] = true,
+				[44997] = true,
 				[50101] = true,
 				[32008] = true,
 				[51193] = true,
@@ -31097,7 +31097,7 @@ RareScannerDB = {
 				[59120] = true,
 				[50140] = true,
 				[62602] = true,
-				[31577] = true,
+				[31832] = true,
 				[52969] = true,
 				[44975] = true,
 				[53750] = true,
@@ -31112,7 +31112,7 @@ RareScannerDB = {
 				[56627] = true,
 				[31569] = true,
 				[31573] = true,
-				[31832] = true,
+				[31577] = true,
 				[31581] = true,
 				[31585] = true,
 				[31589] = true,
@@ -31150,7 +31150,7 @@ RareScannerDB = {
 				[61241] = true,
 				[31976] = true,
 				[31725] = true,
-				[61290] = true,
+				[31729] = true,
 				[61298] = true,
 				[31824] = true,
 				[44994] = true,
@@ -31164,25 +31164,25 @@ RareScannerDB = {
 				[62398] = true,
 				[39711] = true,
 				[31821] = true,
-				[63697] = true,
+				[31785] = true,
 				[53206] = true,
-				[61235] = true,
-				[31582] = true,
-				[62709] = true,
+				[31574] = true,
+				[61251] = true,
+				[62964] = true,
 				[31550] = true,
 				[62980] = true,
-				[61283] = true,
-				[61291] = true,
-				[56629] = true,
-				[31570] = true,
-				[31574] = true,
-				[31578] = true,
-				[61251] = true,
-				[31586] = true,
-				[31590] = true,
-				[61275] = true,
 				[53123] = true,
 				[44971] = true,
+				[56629] = true,
+				[31825] = true,
+				[61235] = true,
+				[31578] = true,
+				[31582] = true,
+				[31586] = true,
+				[42907] = true,
+				[61275] = true,
+				[61283] = true,
+				[61291] = true,
 				[61299] = true,
 				[44953] = true,
 				[44995] = true,
@@ -31203,12 +31203,12 @@ RareScannerDB = {
 				[62965] = true,
 				[61274] = true,
 				[32470] = true,
-				[31726] = true,
-				[32468] = true,
-				[61244] = true,
 				[53124] = true,
-				[61236] = true,
+				[32468] = true,
 				[32471] = true,
+				[31726] = true,
+				[61236] = true,
+				[61244] = true,
 				[8237] = true,
 				[61260] = true,
 				[44948] = true,
@@ -31227,26 +31227,26 @@ RareScannerDB = {
 				[44949] = true,
 				[31826] = true,
 				[39713] = true,
-				[53746] = true,
+				[63691] = true,
 				[63699] = true,
 				[31830] = true,
-				[61245] = true,
+				[31579] = true,
 				[61261] = true,
 				[56042] = true,
 				[31551] = true,
 				[31555] = true,
 				[42909] = true,
 				[31308] = true,
-				[31822] = true,
+				[56631] = true,
 				[31316] = true,
 				[61237] = true,
-				[31579] = true,
+				[61245] = true,
 				[61253] = true,
 				[31587] = true,
 				[31591] = true,
 				[61277] = true,
 				[61285] = true,
-				[61293] = true,
+				[44973] = true,
 				[61270] = true,
 				[44989] = true,
 				[44997] = true,
@@ -31258,15 +31258,15 @@ RareScannerDB = {
 				[50145] = true,
 				[53131] = true,
 				[31902] = true,
-				[44973] = true,
+				[61293] = true,
 				[64202] = true,
 				[63700] = true,
 				[31583] = true,
 				[31575] = true,
 				[51994] = true,
-				[56631] = true,
+				[31822] = true,
 				[42893] = true,
-				[63691] = true,
+				[53746] = true,
 				[58146] = true,
 				[56624] = true,
 				[58927] = true,
@@ -31283,18 +31283,18 @@ RareScannerDB = {
 				[44990] = true,
 				[50098] = true,
 				[50106] = true,
-				[42907] = true,
-				[31825] = true,
+				[31590] = true,
+				[31570] = true,
 				[63004] = true,
-				[62964] = true,
+				[62709] = true,
 				[50146] = true,
-				[31785] = true,
+				[63697] = true,
 				[59087] = true,
 				[63685] = true,
 				[63693] = true,
 				[61257] = true,
 				[62978] = true,
-				[31729] = true,
+				[61290] = true,
 				[53121] = true,
 				[31548] = true,
 				[31552] = true,
@@ -31536,31 +31536,31 @@ RareScannerDB = {
 				[61273] = true,
 				[61236] = true,
 				[53124] = true,
-				[61300] = true,
-				[61284] = true,
 				[44948] = true,
+				[61284] = true,
+				[61300] = true,
 				[53748] = true,
 				[50106] = true,
-				[31728] = true,
+				[44996] = true,
 				[61295] = true,
 				[61293] = true,
 				[50107] = true,
 				[53747] = true,
 				[20441] = true,
 				[62977] = true,
-				[744] = true,
+				[31824] = true,
 				[743] = true,
 				[26179] = true,
 				[44949] = true,
 				[748] = true,
-				[31824] = true,
+				[744] = true,
 				[31832] = true,
 				[44953] = true,
 				[53123] = true,
 				[44995] = true,
 				[61289] = true,
-				[63696] = true,
 				[24215] = true,
+				[63696] = true,
 				[61288] = true,
 				[44993] = true,
 				[31880] = true,
@@ -31573,12 +31573,12 @@ RareScannerDB = {
 				[32471] = true,
 				[53746] = true,
 				[31976] = true,
-				[749] = true,
 				[44997] = true,
+				[749] = true,
 				[62254] = true,
 				[32008] = true,
 				[14491] = true,
-				[44996] = true,
+				[31728] = true,
 				[62978] = true,
 				[32470] = true,
 				[751] = true,
@@ -31632,17 +31632,17 @@ RareScannerDB = {
 				[31915] = true,
 				[31919] = true,
 				[62977] = true,
-				[31728] = true,
+				[64348] = true,
 				[56626] = true,
 				[57559] = true,
 				[64292] = true,
-				[63695] = true,
+				[53750] = true,
 				[61295] = true,
 				[42896] = true,
 				[61264] = true,
 				[31975] = true,
 				[31724] = true,
-				[64348] = true,
+				[31728] = true,
 				[44976] = true,
 				[31824] = true,
 				[44992] = true,
@@ -31656,7 +31656,7 @@ RareScannerDB = {
 				[61247] = true,
 				[52969] = true,
 				[63687] = true,
-				[53750] = true,
+				[63695] = true,
 				[61239] = true,
 				[56571] = true,
 				[31572] = true,
@@ -31664,12 +31664,12 @@ RareScannerDB = {
 				[31549] = true,
 				[31553] = true,
 				[62745] = true,
-				[61249] = true,
-				[61727] = true,
+				[31581] = true,
+				[56627] = true,
 				[31569] = true,
 				[31573] = true,
-				[31832] = true,
-				[31581] = true,
+				[31577] = true,
+				[61249] = true,
 				[31585] = true,
 				[31589] = true,
 				[31593] = true,
@@ -31703,10 +31703,10 @@ RareScannerDB = {
 				[56652] = true,
 				[61250] = true,
 				[61258] = true,
-				[31729] = true,
-				[61274] = true,
-				[61282] = true,
 				[61290] = true,
+				[61274] = true,
+				[31725] = true,
+				[31729] = true,
 				[61298] = true,
 				[53206] = true,
 				[44994] = true,
@@ -31714,31 +31714,31 @@ RareScannerDB = {
 				[31828] = true,
 				[32008] = true,
 				[63689] = true,
-				[31785] = true,
+				[63697] = true,
 				[50142] = true,
-				[62709] = true,
+				[62964] = true,
 				[62398] = true,
 				[38436] = true,
-				[38444] = true,
-				[63697] = true,
+				[37934] = true,
+				[31785] = true,
 				[42907] = true,
 				[44998] = true,
 				[53123] = true,
-				[62964] = true,
+				[62709] = true,
 				[31550] = true,
 				[62980] = true,
 				[61291] = true,
 				[61294] = true,
 				[63004] = true,
 				[31825] = true,
-				[61235] = true,
+				[31574] = true,
 				[31578] = true,
 				[31582] = true,
 				[31586] = true,
 				[31590] = true,
 				[61275] = true,
 				[61283] = true,
-				[53131] = true,
+				[44971] = true,
 				[61299] = true,
 				[31570] = true,
 				[44995] = true,
@@ -31749,14 +31749,14 @@ RareScannerDB = {
 				[31889] = true,
 				[50143] = true,
 				[31897] = true,
-				[63690] = true,
 				[37935] = true,
+				[63690] = true,
 				[38445] = true,
 				[63698] = true,
 				[31917] = true,
 				[56629] = true,
 				[62710] = true,
-				[38995] = true,
+				[62965] = true,
 				[61251] = true,
 				[56729] = true,
 				[31821] = true,
@@ -31765,7 +31765,7 @@ RareScannerDB = {
 				[61284] = true,
 				[61236] = true,
 				[61244] = true,
-				[42892] = true,
+				[8237] = true,
 				[61260] = true,
 				[44948] = true,
 				[60511] = true,
@@ -31777,13 +31777,13 @@ RareScannerDB = {
 				[50104] = true,
 				[37969] = true,
 				[64655] = true,
-				[63692] = true,
-				[53746] = true,
+				[64202] = true,
+				[63691] = true,
 				[50144] = true,
 				[31316] = true,
-				[64202] = true,
+				[63692] = true,
 				[39713] = true,
-				[63691] = true,
+				[53746] = true,
 				[63699] = true,
 				[31830] = true,
 				[31579] = true,
@@ -31791,10 +31791,10 @@ RareScannerDB = {
 				[31587] = true,
 				[31551] = true,
 				[31555] = true,
-				[44973] = true,
+				[61293] = true,
 				[31308] = true,
-				[56631] = true,
-				[31571] = true,
+				[31822] = true,
+				[31826] = true,
 				[61237] = true,
 				[61245] = true,
 				[61253] = true,
@@ -31802,7 +31802,7 @@ RareScannerDB = {
 				[42909] = true,
 				[61277] = true,
 				[61285] = true,
-				[61293] = true,
+				[44973] = true,
 				[61225] = true,
 				[44989] = true,
 				[44997] = true,
@@ -31817,18 +31817,18 @@ RareScannerDB = {
 				[31575] = true,
 				[53747] = true,
 				[63700] = true,
-				[31822] = true,
+				[56631] = true,
 				[44949] = true,
 				[51994] = true,
-				[31826] = true,
+				[31571] = true,
 				[53124] = true,
-				[8237] = true,
+				[42892] = true,
 				[44953] = true,
 				[56624] = true,
 				[58927] = true,
 				[56633] = true,
 				[61238] = true,
-				[62965] = true,
+				[38995] = true,
 				[61254] = true,
 				[61241] = true,
 				[61270] = true,
@@ -31839,12 +31839,12 @@ RareScannerDB = {
 				[44990] = true,
 				[50098] = true,
 				[50106] = true,
-				[31574] = true,
-				[44971] = true,
+				[61235] = true,
+				[53131] = true,
 				[37890] = true,
-				[37934] = true,
+				[38444] = true,
 				[50146] = true,
-				[31725] = true,
+				[61282] = true,
 				[59087] = true,
 				[63685] = true,
 				[53748] = true,
@@ -31855,7 +31855,7 @@ RareScannerDB = {
 				[31548] = true,
 				[31552] = true,
 				[31556] = true,
-				[31577] = true,
+				[31832] = true,
 				[31309] = true,
 				[31823] = true,
 				[31827] = true,
@@ -31867,7 +31867,7 @@ RareScannerDB = {
 				[61279] = true,
 				[61287] = true,
 				[44975] = true,
-				[56627] = true,
+				[61727] = true,
 				[44991] = true,
 				[62602] = true,
 			},
@@ -32566,7 +32566,7 @@ RareScannerDB = {
 				[58488] = true,
 				[64073] = true,
 				[58616] = true,
-				[64821] = true,
+				[27301] = true,
 				[64227] = true,
 				[64949] = true,
 				[62966] = true,
@@ -32594,13 +32594,13 @@ RareScannerDB = {
 				[28101] = true,
 				[50109] = true,
 				[62902] = true,
-				[56634] = true,
-				[65771] = true,
-				[60600] = true,
-				[58617] = true,
 				[64822] = true,
-				[64950] = true,
+				[65771] = true,
+				[56506] = true,
+				[58617] = true,
+				[56634] = true,
 				[60856] = true,
+				[64950] = true,
 				[62967] = true,
 				[31724] = true,
 				[34437] = true,
@@ -32618,11 +32618,11 @@ RareScannerDB = {
 				[34423] = true,
 				[59232] = true,
 				[59897] = true,
-				[60217] = true,
+				[64311] = true,
 				[9385] = true,
 				[55995] = true,
-				[9417] = true,
-				[64311] = true,
+				[64247] = true,
+				[60217] = true,
 				[52450] = true,
 				[62569] = true,
 				[64224] = true,
@@ -32631,13 +32631,13 @@ RareScannerDB = {
 				[62904] = true,
 				[58618] = true,
 				[27302] = true,
-				[54972] = true,
+				[31588] = true,
 				[60857] = true,
-				[59130] = true,
+				[65271] = true,
 				[63032] = true,
 				[56955] = true,
-				[31588] = true,
-				[65271] = true,
+				[54972] = true,
+				[59130] = true,
 				[61241] = true,
 				[35174] = true,
 				[63416] = true,
@@ -32652,8 +32652,8 @@ RareScannerDB = {
 				[55374] = true,
 				[59962] = true,
 				[57979] = true,
-				[60154] = true,
 				[64248] = true,
+				[60154] = true,
 				[60218] = true,
 				[63663] = true,
 				[9977] = true,
@@ -32693,10 +32693,10 @@ RareScannerDB = {
 				[57180] = true,
 				[34739] = true,
 				[57179] = true,
-				[62778] = true,
 				[64825] = true,
-				[60859] = true,
+				[62778] = true,
 				[64953] = true,
+				[60859] = true,
 				[56829] = true,
 				[62905] = true,
 				[34440] = true,
@@ -32717,7 +32717,7 @@ RareScannerDB = {
 				[27303] = true,
 				[63831] = true,
 				[58045] = true,
-				[60156] = true,
+				[64250] = true,
 				[60220] = true,
 				[28103] = true,
 				[62395] = true,
@@ -32742,8 +32742,8 @@ RareScannerDB = {
 				[62932] = true,
 				[12196] = true,
 				[58473] = true,
-				[63867] = true,
 				[59773] = true,
+				[63867] = true,
 				[9351] = true,
 				[44993] = true,
 				[31889] = true,
@@ -32785,25 +32785,25 @@ RareScannerDB = {
 				[60222] = true,
 				[28104] = true,
 				[62397] = true,
-				[64572] = true,
 				[10010] = true,
-				[12137] = true,
-				[55497] = true,
-				[10058] = true,
-				[62781] = true,
+				[64572] = true,
 				[58751] = true,
+				[55497] = true,
+				[12105] = true,
+				[62781] = true,
+				[12137] = true,
 				[12153] = true,
 				[63037] = true,
 				[12185] = true,
 				[12201] = true,
-				[59199] = true,
-				[51211] = true,
 				[12249] = true,
+				[51211] = true,
+				[59199] = true,
 				[63429] = true,
 				[44998] = true,
-				[55425] = true,
-				[55361] = true,
 				[12329] = true,
+				[55361] = true,
+				[55425] = true,
 				[35019] = true,
 				[34425] = true,
 				[56629] = true,
@@ -32826,19 +32826,19 @@ RareScannerDB = {
 				[12236] = true,
 				[64957] = true,
 				[28377] = true,
-				[57025] = true,
-				[65149] = true,
 				[31591] = true,
+				[65149] = true,
+				[57025] = true,
 				[61099] = true,
-				[59200] = true,
+				[61247] = true,
 				[53123] = true,
 				[59190] = true,
 				[60272] = true,
 				[55362] = true,
-				[59712] = true,
+				[55618] = true,
 				[27753] = true,
 				[31879] = true,
-				[55618] = true,
+				[59712] = true,
 				[59776] = true,
 				[31975] = true,
 				[56631] = true,
@@ -32858,8 +32858,8 @@ RareScannerDB = {
 				[57714] = true,
 				[64958] = true,
 				[59846] = true,
-				[46727] = true,
 				[59009] = true,
+				[46727] = true,
 				[57026] = true,
 				[34504] = true,
 				[34445] = true,
@@ -32872,8 +32872,8 @@ RareScannerDB = {
 				[27485] = true,
 				[59713] = true,
 				[9928] = true,
-				[9355] = true,
 				[55811] = true,
+				[9355] = true,
 				[31555] = true,
 				[57986] = true,
 				[53956] = true,
@@ -32886,25 +32886,25 @@ RareScannerDB = {
 				[64639] = true,
 				[61277] = true,
 				[60737] = true,
-				[56643] = true,
+				[62784] = true,
 				[39750] = true,
 				[44994] = true,
 				[57787] = true,
 				[59317] = true,
-				[46728] = true,
+				[34446] = true,
 				[31592] = true,
 				[58272] = true,
 				[59202] = true,
 				[57709] = true,
 				[12247] = true,
-				[31880] = true,
-				[59714] = true,
-				[34958] = true,
-				[27754] = true,
 				[39180] = true,
 				[9819] = true,
-				[9851] = true,
+				[34958] = true,
+				[27754] = true,
+				[31880] = true,
+				[59714] = true,
 				[31976] = true,
+				[9851] = true,
 				[32008] = true,
 				[33359] = true,
 				[57987] = true,
@@ -32917,13 +32917,13 @@ RareScannerDB = {
 				[10011] = true,
 				[10937] = true,
 				[64704] = true,
-				[62977] = true,
-				[60738] = true,
+				[10123] = true,
+				[56644] = true,
 				[12138] = true,
 				[12154] = true,
-				[10123] = true,
+				[62977] = true,
 				[12202] = true,
-				[59011] = true,
+				[46729] = true,
 				[59973] = true,
 				[34575] = true,
 				[61250] = true,
@@ -32964,9 +32964,9 @@ RareScannerDB = {
 				[34435] = true,
 				[31785] = true,
 				[57477] = true,
-				[59716] = true,
-				[31881] = true,
 				[63810] = true,
+				[31881] = true,
+				[59716] = true,
 				[44992] = true,
 				[35522] = true,
 				[64514] = true,
@@ -33004,26 +33004,26 @@ RareScannerDB = {
 				[9356] = true,
 				[9372] = true,
 				[64131] = true,
-				[46729] = true,
-				[56644] = true,
-				[60229] = true,
+				[59011] = true,
+				[60738] = true,
 				[64323] = true,
+				[60229] = true,
 				[45563] = true,
 				[50103] = true,
 				[10208] = true,
 				[49782] = true,
 				[28408] = true,
-				[34446] = true,
+				[46728] = true,
 				[59025] = true,
 				[9936] = true,
 				[62602] = true,
 				[62980] = true,
-				[62784] = true,
+				[56643] = true,
 				[59014] = true,
 				[28280] = true,
 				[61253] = true,
-				[27564] = true,
 				[57159] = true,
+				[27564] = true,
 				[13524] = true,
 				[36881] = true,
 				[57710] = true,
@@ -33043,7 +33043,7 @@ RareScannerDB = {
 				[57713] = true,
 				[9383] = true,
 				[9967] = true,
-				[61247] = true,
+				[59200] = true,
 				[57131] = true,
 				[57007] = true,
 				[9424] = true,
@@ -33062,7 +33062,7 @@ RareScannerDB = {
 				[8237] = true,
 				[63685] = true,
 				[56640] = true,
-				[12105] = true,
+				[10058] = true,
 				[12121] = true,
 				[12411] = true,
 				[59911] = true,
@@ -33095,7 +33095,7 @@ RareScannerDB = {
 				[63686] = true,
 				[63638] = true,
 				[31915] = true,
-				[64250] = true,
+				[60156] = true,
 				[57948] = true,
 				[34431] = true,
 				[9859] = true,
@@ -33142,7 +33142,7 @@ RareScannerDB = {
 				[31308] = true,
 				[61278] = true,
 				[12160] = true,
-				[64247] = true,
+				[9417] = true,
 				[62856] = true,
 				[62920] = true,
 				[64407] = true,
@@ -33154,7 +33154,7 @@ RareScannerDB = {
 				[42898] = true,
 				[57291] = true,
 				[56089] = true,
-				[56506] = true,
+				[60600] = true,
 				[12109] = true,
 				[9789] = true,
 				[9805] = true,
@@ -33166,7 +33166,7 @@ RareScannerDB = {
 				[63856] = true,
 				[9917] = true,
 				[9933] = true,
-				[27301] = true,
+				[64821] = true,
 				[44184] = true,
 				[64796] = true,
 				[33815] = true,
@@ -33182,6 +33182,8 @@ RareScannerDB = {
 				[57009] = true,
 				[12220] = true,
 				[56100] = true,
+			},
+			["events_completed"] = {
 			},
 			["rares_killed"] = {
 				[16934] = -1,
@@ -33395,9 +33397,9 @@ RareScannerDB = {
 				[24686] = -1,
 				[18341] = -1,
 				[16927] = -1,
-				[46322] = -1,
-				[18586] = -1,
 				[27281] = -1,
+				[18586] = -1,
+				[46322] = -1,
 				[42428] = -1,
 				[21140] = -1,
 				[42789] = -1,
@@ -33445,8 +33447,6 @@ RareScannerDB = {
 				[26861] = -1,
 				[17151] = -1,
 				[181360] = 1648277999,
-			},
-			["events_completed"] = {
 			},
 		},
 		["Feastone - Outland"] = {
@@ -33662,8 +33662,8 @@ RareScannerDB = {
 				[61292] = true,
 				[31550] = true,
 				[53074] = true,
-				[61282] = true,
 				[64348] = true,
+				[61282] = true,
 				[61298] = true,
 				[51369] = true,
 				[61288] = true,
@@ -33685,8 +33685,8 @@ RareScannerDB = {
 				[51366] = true,
 				[32008] = true,
 				[31897] = true,
-				[31879] = true,
 				[63694] = true,
+				[31879] = true,
 				[51129] = true,
 				[61245] = true,
 				[46728] = true,
@@ -33713,7 +33713,7 @@ RareScannerDB = {
 				[31880] = true,
 				[31568] = true,
 				[31576] = true,
-				[51351] = true,
+				[31584] = true,
 				[31592] = true,
 				[31574] = true,
 				[52654] = true,
@@ -33729,13 +33729,13 @@ RareScannerDB = {
 				[53124] = true,
 				[61284] = true,
 				[61300] = true,
-				[44996] = true,
 				[50106] = true,
+				[44996] = true,
 				[31728] = true,
 				[31549] = true,
 				[56571] = true,
-				[51192] = true,
 				[53747] = true,
+				[51192] = true,
 				[50140] = true,
 				[62977] = true,
 				[50108] = true,
@@ -33751,7 +33751,7 @@ RareScannerDB = {
 				[44953] = true,
 				[61225] = true,
 				[63696] = true,
-				[31584] = true,
+				[51351] = true,
 				[31915] = true,
 				[32672] = true,
 				[50147] = true,
@@ -33763,8 +33763,8 @@ RareScannerDB = {
 				[44949] = true,
 				[50099] = true,
 				[31976] = true,
-				[50107] = true,
 				[44997] = true,
+				[50107] = true,
 				[31889] = true,
 				[51177] = true,
 				[53748] = true,
@@ -34005,7 +34005,7 @@ RareScannerDB = {
 				[14155] = true,
 				[63692] = true,
 				[63691] = true,
-				[63694] = true,
+				[31879] = true,
 				[63686] = true,
 				[62979] = true,
 				[44994] = true,
@@ -34105,7 +34105,7 @@ RareScannerDB = {
 				[62965] = true,
 				[50108] = true,
 				[27974] = true,
-				[31879] = true,
+				[63694] = true,
 				[25152] = true,
 				[61238] = true,
 				[61254] = true,
@@ -34323,8 +34323,8 @@ RareScannerDB = {
 				[61284] = true,
 				[53124] = true,
 				[63698] = true,
-				[50106] = true,
 				[44996] = true,
+				[50106] = true,
 				[31728] = true,
 				[384] = true,
 				[24471] = true,
@@ -34342,8 +34342,8 @@ RareScannerDB = {
 				[63691] = true,
 				[31725] = true,
 				[62254] = true,
-				[63696] = true,
 				[31880] = true,
+				[63696] = true,
 				[61251] = true,
 				[62745] = true,
 				[42898] = true,
@@ -34356,9 +34356,9 @@ RareScannerDB = {
 				[44949] = true,
 				[53121] = true,
 				[31976] = true,
-				[44997] = true,
-				[53123] = true,
 				[50107] = true,
+				[53123] = true,
+				[44997] = true,
 				[32008] = true,
 				[53748] = true,
 				[31729] = true,
@@ -34414,9 +34414,514 @@ RareScannerDB = {
 				[173603] = -1,
 				[252449] = -1,
 			},
-			["events_completed"] = {
-				[243009] = -1,
-				[90232] = -1,
+			["rares_killed"] = {
+				[53206] = -1,
+				[57821] = -1,
+				[91529] = -1,
+				[119187] = -1,
+				[91114] = -1,
+				[20040] = -1,
+				[157572] = -1,
+				[132086] = -1,
+				[117335] = -1,
+				[9545] = -1,
+				[141029] = -1,
+				[111331] = -1,
+				[134706] = -1,
+				[165430] = -1,
+				[890] = -1,
+				[170157] = -1,
+				[113088] = -1,
+				[38228] = -1,
+				[138667] = -1,
+				[141286] = -1,
+				[168878] = -1,
+				[128578] = -1,
+				[132280] = -1,
+				[72943] = -1,
+				[72942] = -1,
+				[167731] = -1,
+				[4075] = -1,
+				[21270] = -1,
+				[53223] = -1,
+				[120658] = -1,
+				[103827] = -1,
+				[165560] = -1,
+				[57773] = -1,
+				[169265] = -1,
+				[128994] = -1,
+				[165108] = -1,
+				[119860] = -1,
+				[43658] = -1,
+				[126056] = -1,
+				[168627] = -1,
+				[118455] = -1,
+				[52409] = -1,
+				[117080] = -1,
+				[170927] = -1,
+				[37127] = -1,
+				[135796] = -1,
+				[164920] = -1,
+				[110503] = -1,
+				[131389] = -1,
+				[106990] = -1,
+				[53575] = -1,
+				[118807] = -1,
+				[56162] = -1,
+				[138863] = -1,
+				[53128] = -1,
+				[72945] = -1,
+				[153874] = -1,
+				[99581] = -1,
+				[102679] = -1,
+				[57807] = -1,
+				[53224] = -1,
+				[151128] = -1,
+				[163894] = -1,
+				[59915] = -1,
+				[20033] = -1,
+				[169780] = -1,
+				[26692] = -1,
+				[95813] = -1,
+				[118840] = -1,
+				[171179] = -1,
+				[96449] = -1,
+				[167607] = -1,
+				[26555] = -1,
+				[44234] = -1,
+				[69465] = -1,
+				[103223] = -1,
+				[42810] = -1,
+				[120661] = -1,
+				[95872] = -1,
+				[132211] = -1,
+				[161849] = -1,
+				[164921] = -1,
+				[33136] = -1,
+				[170474] = -1,
+				[118841] = -1,
+				[122450] = -1,
+				[101878] = -1,
+				[141039] = -1,
+				[153878] = -1,
+				[173360] = -1,
+				[157583] = -1,
+				[21271] = -1,
+				[159755] = -1,
+				[10404] = -1,
+				[97504] = -1,
+				[10412] = -1,
+				[127333] = -1,
+				[128707] = -1,
+				[120311] = -1,
+				[125453] = -1,
+				[104534] = -1,
+				[10439] = -1,
+				[141226] = -1,
+				[86745] = -1,
+				[96997] = -1,
+				[99584] = -1,
+				[57823] = -1,
+				[20049] = -1,
+				[10464] = -1,
+				[120660] = -1,
+				[168572] = -1,
+				[113597] = -1,
+				[116825] = -1,
+				[38231] = -1,
+				[105899] = -1,
+				[52571] = -1,
+				[44922] = -1,
+				[128584] = -1,
+				[45572] = -1,
+				[167615] = -1,
+				[90505] = -1,
+				[55265] = -1,
+				[111370] = -1,
+				[99649] = -1,
+				[117055] = -1,
+				[94724] = -1,
+				[10536] = -1,
+				[26669] = -1,
+				[20034] = -1,
+				[152661] = -1,
+				[20050] = -1,
+				[151127] = -1,
+				[10383] = -1,
+				[162693] = -1,
+				[90803] = -1,
+				[91115] = -1,
+				[168703] = -1,
+				[37029] = -1,
+				[166276] = -1,
+				[90217] = -1,
+				[82308] = -1,
+				[97793] = -1,
+				[53127] = -1,
+				[98177] = -1,
+				[128426] = -1,
+				[113128] = -1,
+				[166275] = -1,
+				[168574] = -1,
+				[152097] = -1,
+				[117344] = -1,
+				[97220] = -1,
+				[25756] = -1,
+				[89846] = -1,
+				[11262] = -1,
+				[111528] = -1,
+				[92526] = -1,
+				[164362] = -1,
+				[127820] = -1,
+				[168578] = -1,
+				[179373] = -1,
+				[133356] = -1,
+				[126926] = -1,
+				[163058] = -1,
+				[46753] = -1,
+				[91539] = -1,
+				[164427] = -1,
+				[20039] = -1,
+				[165357] = -1,
+				[131404] = -1,
+				[117473] = -1,
+				[113626] = -1,
+				[111980] = -1,
+				[57388] = -1,
+				[91540] = -1,
+				[175734] = -1,
+				[167111] = -1,
+				[20031] = -1,
+				[97449] = -1,
+				[93233] = -1,
+				[91349] = -1,
+				[167942] = -1,
+				[53691] = -1,
+				[43934] = -1,
+				[93904] = -1,
+				[169859] = -1,
+				[139135] = -1,
+				[168837] = -1,
+				[118049] = -1,
+				[116548] = -1,
+				[120668] = -1,
+				[157340] = -1,
+				[26670] = -1,
+				[96587] = -1,
+				[165197] = -1,
+				[117251] = -1,
+				[91541] = -1,
+				[167113] = -1,
+				[107127] = -1,
+				[92180] = -1,
+				[60047] = -1,
+				[104636] = -1,
+				[127280] = -1,
+				[169861] = -1,
+				[118050] = -1,
+				[38154] = -1,
+				[95630] = -1,
+				[99956] = -1,
+				[92117] = -1,
+				[120637] = -1,
+				[131984] = -1,
+				[43878] = -1,
+				[168393] = -1,
+				[52606] = -1,
+				[95886] = -1,
+				[168585] = -1,
+				[10381] = -1,
+				[168969] = -1,
+				[100230] = -1,
+				[167117] = -1,
+				[118051] = -1,
+				[96621] = -1,
+				[10405] = -1,
+				[168586] = -1,
+				[10413] = -1,
+				[165137] = -1,
+				[164562] = -1,
+				[119533] = -1,
+				[92514] = -1,
+				[120575] = -1,
+				[10437] = -1,
+				[15551] = -1,
+				[164563] = -1,
+				[69455] = -1,
+				[131476] = -1,
+				[97069] = -1,
+				[168396] = -1,
+				[132179] = -1,
+				[95632] = -1,
+				[10461] = -1,
+				[100231] = -1,
+				[152875] = -1,
+				[93205] = -1,
+				[37229] = -1,
+				[98890] = -1,
+				[44926] = -1,
+				[98954] = -1,
+				[33716] = -1,
+				[141059] = -1,
+				[94802] = -1,
+				[89884] = -1,
+				[8477] = -1,
+				[120097] = -1,
+				[116552] = -1,
+				[117095] = -1,
+				[120704] = -1,
+				[116648] = -1,
+				[20036] = -1,
+				[97677] = -1,
+				[111197] = -1,
+				[95888] = -1,
+				[38028] = -1,
+				[118915] = -1,
+				[37038] = -1,
+				[164567] = -1,
+				[117958] = -1,
+				[111858] = -1,
+				[120577] = -1,
+				[150959] = -1,
+				[113113] = -1,
+				[97678] = -1,
+				[173191] = -1,
+				[116649] = -1,
+				[93686] = -1,
+				[100232] = -1,
+				[97370] = -1,
+				[120576] = -1,
+				[93303] = -1,
+				[136336] = -1,
+				[33717] = -1,
+				[175811] = -1,
+				[121025] = -1,
+				[94485] = -1,
+				[25865] = -1,
+				[130508] = -1,
+				[166933] = -1,
+				[150958] = -1,
+				[15264] = -1,
+				[161854] = -1,
+				[57382] = -1,
+				[175940] = -1,
+				[71466] = -1,
+				[167949] = -1,
+				[125495] = -1,
+				[119397] = -1,
+				[165529] = -1,
+				[53694] = -1,
+				[120578] = -1,
+				[118024] = -1,
+				[38125] = -1,
+				[111333] = -1,
+				[176133] = -1,
+				[95636] = -1,
+				[139980] = -1,
+				[102566] = -1,
+				[111573] = -1,
+				[110870] = -1,
+				[44896] = -1,
+				[123422] = -1,
+				[117136] = -1,
+				[99762] = -1,
+				[121985] = -1,
+				[44976] = -1,
+				[118023] = -1,
+				[56250] = -1,
+				[120580] = -1,
+				[156142] = -1,
+				[173580] = -1,
+				[60402] = -1,
+				[14881] = -1,
+				[109498] = -1,
+				[93625] = -1,
+				[100364] = -1,
+				[134106] = -1,
+				[95318] = -1,
+				[108827] = -1,
+				[178572] = -1,
+				[132007] = -1,
+				[136335] = -1,
+				[106655] = -1,
+				[94008] = -1,
+				[52530] = -1,
+				[132127] = -1,
+				[26776] = -1,
+				[120677] = -1,
+				[52498] = -1,
+				[45919] = -1,
+				[163618] = -1,
+				[120361] = -1,
+				[167834] = -1,
+				[64061] = -1,
+				[127129] = -1,
+				[53121] = -1,
+				[121029] = -1,
+				[44977] = -1,
+				[163619] = -1,
+				[56251] = -1,
+				[10394] = -1,
+				[164897] = -1,
+				[127289] = -1,
+				[94617] = -1,
+				[165408] = -1,
+				[116654] = -1,
+				[163620] = -1,
+				[100302] = -1,
+				[106339] = -1,
+				[133155] = -1,
+				[72357] = -1,
+				[36626] = -1,
+				[126460] = -1,
+				[109501] = -1,
+				[163621] = -1,
+				[109054] = -1,
+				[166304] = -1,
+				[139285] = -1,
+				[127290] = -1,
+				[94618] = -1,
+				[61250] = -1,
+				[119721] = -1,
+				[128951] = -1,
+				[92191] = -1,
+				[132068] = -1,
+				[53617] = -1,
+				[168988] = -1,
+				[100495] = -1,
+				[33720] = -1,
+				[37217] = -1,
+				[100303] = -1,
+				[37664] = -1,
+				[169498] = -1,
+				[57817] = -1,
+				[53745] = -1,
+				[117103] = -1,
+				[109500] = -1,
+				[179912] = -1,
+				[166302] = -1,
+				[53185] = -1,
+				[112153] = -1,
+				[20062] = -1,
+				[33433] = -1,
+				[112760] = -1,
+				[166301] = -1,
+				[37663] = -1,
+				[139280] = -1,
+				[126174] = -1,
+				[44260] = -1,
+				[37126] = -1,
+				[36627] = -1,
+				[95642] = -1,
+				[111004] = -1,
+				[107459] = -1,
+				[103972] = -1,
+				[120068] = -1,
+				[120579] = -1,
+				[139290] = -1,
+				[139145] = -1,
+				[126072] = -1,
+				[70341] = -1,
+				[69390] = -1,
+				[8598] = -1,
+				[176258] = -1,
+				[137183] = -1,
+				[117552] = -1,
+				[112474] = -1,
+				[21273] = -1,
+				[95123] = -1,
+				[118851] = -1,
+				[57387] = -1,
+				[117509] = -1,
+				[43537] = -1,
+				[117286] = -1,
+				[37011] = -1,
+				[53890] = -1,
+				[21364] = -1,
+				[33993] = -1,
+				[37133] = -1,
+				[107269] = -1,
+				[44261] = -1,
+				[119597] = -1,
+				[96015] = -1,
+				[10441] = -1,
+				[95887] = -1,
+				[35143] = -1,
+				[111070] = -1,
+				[167116] = -1,
+				[132076] = -1,
+				[111166] = -1,
+				[44932] = -1,
+				[37132] = -1,
+				[124548] = -1,
+				[119902] = -1,
+				[95885] = -1,
+				[157277] = -1,
+				[119199] = -1,
+				[111933] = -1,
+				[164557] = -1,
+				[165515] = -1,
+				[99765] = -1,
+				[120748] = -1,
+				[37970] = -1,
+				[20047] = -1,
+				[64063] = -1,
+				[20063] = -1,
+				[111852] = -1,
+				[115620] = -1,
+				[168104] = -1,
+				[110784] = -1,
+				[89865] = -1,
+				[160120] = -1,
+				[138675] = -1,
+				[137531] = -1,
+				[152136] = -1,
+				[40446] = -1,
+				[36678] = -1,
+				[163128] = -1,
+				[157584] = -1,
+				[111975] = -1,
+				[36725] = -1,
+				[139298] = -1,
+				[89650] = -1,
+				[105611] = -1,
+				[72947] = -1,
+				[129181] = -1,
+				[52151] = -1,
+				[10391] = -1,
+				[94018] = -1,
+				[10399] = -1,
+				[163891] = -1,
+				[10407] = -1,
+				[56846] = -1,
+				[157824] = -1,
+				[127270] = -1,
+				[99644] = -1,
+				[99895] = -1,
+				[165872] = -1,
+				[117333] = -1,
+				[131252] = -1,
+				[45065] = -1,
+				[101077] = -1,
+				[93955] = -1,
+				[92965] = -1,
+				[137704] = -1,
+				[128610] = -1,
+				[99704] = -1,
+				[56575] = -1,
+				[170414] = -1,
+				[91113] = -1,
+				[161083] = -1,
+				[109575] = -1,
+				[157634] = -1,
+				[119509] = -1,
+				[117334] = -1,
+				[116823] = -1,
+				[117559] = -1,
+				[112320] = -1,
+				[92423] = -1,
+				[11030] = -1,
+				[93030] = -1,
 			},
 			["quests_completed"] = {
 				[53385] = true,
@@ -35852,7 +36357,7 @@ RareScannerDB = {
 				[40159] = true,
 				[44382] = true,
 				[40415] = true,
-				[65113] = true,
+				[44638] = true,
 				[9326] = true,
 				[57179] = true,
 				[40216] = true,
@@ -35867,7 +36372,7 @@ RareScannerDB = {
 				[42079] = true,
 				[51020] = true,
 				[50525] = true,
-				[58843] = true,
+				[62938] = true,
 				[50781] = true,
 				[62395] = true,
 				[62017] = true,
@@ -35878,15 +36383,15 @@ RareScannerDB = {
 				[39392] = true,
 				[32049] = true,
 				[39648] = true,
-				[56156] = true,
+				[39776] = true,
 				[47185] = true,
 				[60507] = true,
 				[59427] = true,
 				[60763] = true,
 				[48606] = true,
-				[65114] = true,
-				[61275] = true,
+				[52829] = true,
 				[57180] = true,
+				[61275] = true,
 				[46501] = true,
 				[41056] = true,
 				[61099] = true,
@@ -35977,7 +36482,7 @@ RareScannerDB = {
 				[13020] = true,
 				[44574] = true,
 				[62907] = true,
-				[48353] = true,
+				[60638] = true,
 				[62903] = true,
 				[61263] = true,
 				[62979] = true,
@@ -36033,7 +36538,7 @@ RareScannerDB = {
 				[59232] = true,
 				[51170] = true,
 				[55393] = true,
-				[63711] = true,
+				[59616] = true,
 				[35174] = true,
 				[35414] = true,
 				[41807] = true,
@@ -36060,7 +36565,7 @@ RareScannerDB = {
 				[42213] = true,
 				[58721] = true,
 				[50659] = true,
-				[50787] = true,
+				[58977] = true,
 				[11805] = true,
 				[59233] = true,
 				[11773] = true,
@@ -36229,18 +36734,18 @@ RareScannerDB = {
 				[63845] = true,
 				[61274] = true,
 				[60006] = true,
-				[56167] = true,
 				[13022] = true,
+				[56167] = true,
 				[39651] = true,
 				[44575] = true,
 				[8682] = true,
 				[52035] = true,
 				[11770] = true,
 				[61284] = true,
-				[41067] = true,
+				[57447] = true,
 				[61286] = true,
 				[57984] = true,
-				[57447] = true,
+				[41067] = true,
 				[52241] = true,
 				[52905] = true,
 				[13438] = true,
@@ -36258,7 +36763,7 @@ RareScannerDB = {
 				[51177] = true,
 				[55400] = true,
 				[57010] = true,
-				[39276] = true,
+				[59751] = true,
 				[39404] = true,
 				[60007] = true,
 				[60219] = true,
@@ -36281,7 +36786,7 @@ RareScannerDB = {
 				[50824] = true,
 				[59317] = true,
 				[43467] = true,
-				[62695] = true,
+				[58600] = true,
 				[38253] = true,
 				[38381] = true,
 				[51201] = true,
@@ -36296,7 +36801,7 @@ RareScannerDB = {
 				[39661] = true,
 				[47979] = true,
 				[49181] = true,
-				[60520] = true,
+				[44140] = true,
 				[60648] = true,
 				[40301] = true,
 				[60904] = true,
@@ -36310,16 +36815,16 @@ RareScannerDB = {
 				[46188] = true,
 				[37486] = true,
 				[57983] = true,
-				[42221] = true,
+				[11583] = true,
 				[50155] = true,
 				[58473] = true,
-				[11583] = true,
+				[42221] = true,
 				[38254] = true,
 				[38382] = true,
 				[50795] = true,
 				[42733] = true,
 				[38766] = true,
-				[11775] = true,
+				[38894] = true,
 				[11807] = true,
 				[53632] = true,
 				[63848] = true,
@@ -36333,8 +36838,8 @@ RareScannerDB = {
 				[12941] = true,
 				[60905] = true,
 				[12191] = true,
-				[61289] = true,
 				[40814] = true,
+				[61289] = true,
 				[48539] = true,
 				[41070] = true,
 				[49388] = true,
@@ -36350,7 +36855,7 @@ RareScannerDB = {
 				[51968] = true,
 				[52906] = true,
 				[49369] = true,
-				[8672] = true,
+				[38767] = true,
 				[47489] = true,
 				[51308] = true,
 				[8768] = true,
@@ -36361,7 +36866,7 @@ RareScannerDB = {
 				[13023] = true,
 				[52204] = true,
 				[60522] = true,
-				[48365] = true,
+				[52460] = true,
 				[60778] = true,
 				[59753] = true,
 				[34692] = true,
@@ -36410,7 +36915,7 @@ RareScannerDB = {
 				[52223] = true,
 				[53131] = true,
 				[62699] = true,
-				[62827] = true,
+				[38257] = true,
 				[29434] = true,
 				[11972] = true,
 				[42736] = true,
@@ -36422,15 +36927,15 @@ RareScannerDB = {
 				[47488] = true,
 				[60218] = true,
 				[39665] = true,
-				[64363] = true,
+				[60268] = true,
 				[12332] = true,
 				[44144] = true,
 				[52462] = true,
 				[51199] = true,
 				[57919] = true,
 				[48809] = true,
-				[61292] = true,
 				[40817] = true,
+				[61292] = true,
 				[40177] = true,
 				[31574] = true,
 				[62716] = true,
@@ -36448,13 +36953,13 @@ RareScannerDB = {
 				[46832] = true,
 				[48774] = true,
 				[11776] = true,
-				[11808] = true,
+				[39026] = true,
 				[44641] = true,
 				[59757] = true,
-				[60269] = true,
+				[64364] = true,
 				[60013] = true,
 				[39666] = true,
-				[64364] = true,
+				[60269] = true,
 				[39861] = true,
 				[44145] = true,
 				[40178] = true,
@@ -36477,7 +36982,7 @@ RareScannerDB = {
 				[38259] = true,
 				[58980] = true,
 				[50140] = true,
-				[42738] = true,
+				[38643] = true,
 				[8673] = true,
 				[60724] = true,
 				[55407] = true,
@@ -36485,11 +36990,11 @@ RareScannerDB = {
 				[59758] = true,
 				[32497] = true,
 				[60270] = true,
-				[44146] = true,
+				[40051] = true,
 				[13024] = true,
 				[52208] = true,
-				[40051] = true,
-				[40179] = true,
+				[44146] = true,
+				[48369] = true,
 				[52912] = true,
 				[58013] = true,
 				[37856] = true,
@@ -36546,7 +37051,7 @@ RareScannerDB = {
 				[52451] = true,
 				[39029] = true,
 				[63727] = true,
-				[63855] = true,
+				[59760] = true,
 				[39413] = true,
 				[51826] = true,
 				[35574] = true,
@@ -36569,11 +37074,11 @@ RareScannerDB = {
 				[48178] = true,
 				[39588] = true,
 				[46196] = true,
-				[62704] = true,
-				[59761] = true,
+				[42229] = true,
 				[63856] = true,
+				[59761] = true,
 				[31548] = true,
-				[42741] = true,
+				[38646] = true,
 				[42869] = true,
 				[11777] = true,
 				[11809] = true,
@@ -36585,17 +37090,17 @@ RareScannerDB = {
 				[39684] = true,
 				[56372] = true,
 				[55851] = true,
-				[48372] = true,
-				[48500] = true,
+				[40182] = true,
+				[64880] = true,
 				[56955] = true,
 				[36471] = true,
 				[49260] = true,
 				[61297] = true,
-				[12353] = true,
-				[49268] = true,
 				[45301] = true,
+				[49268] = true,
+				[12353] = true,
 				[57714] = true,
-				[28925] = true,
+				[53747] = true,
 				[37495] = true,
 				[40191] = true,
 				[52156] = true,
@@ -36603,31 +37108,31 @@ RareScannerDB = {
 				[52916] = true,
 				[47869] = true,
 				[39859] = true,
-				[8674] = true,
+				[46965] = true,
 				[47485] = true,
 				[8642] = true,
-				[46965] = true,
+				[8674] = true,
 				[40249] = true,
 				[47221] = true,
-				[59762] = true,
 				[63857] = true,
-				[51700] = true,
+				[59762] = true,
+				[39415] = true,
 				[8866] = true,
 				[60146] = true,
 				[13025] = true,
 				[48368] = true,
 				[51572] = true,
-				[40183] = true,
+				[44278] = true,
 				[46845] = true,
 				[42622] = true,
 				[40567] = true,
 				[62969] = true,
 				[61298] = true,
-				[13441] = true,
+				[53748] = true,
 				[49269] = true,
 				[38143] = true,
 				[57715] = true,
-				[53748] = true,
+				[13441] = true,
 				[37496] = true,
 				[47627] = true,
 				[60223] = true,
@@ -36649,7 +37154,7 @@ RareScannerDB = {
 				[40158] = true,
 				[52213] = true,
 				[58618] = true,
-				[52469] = true,
+				[40184] = true,
 				[53172] = true,
 				[44663] = true,
 				[52853] = true,
@@ -36664,7 +37169,7 @@ RareScannerDB = {
 				[43901] = true,
 				[53749] = true,
 				[60639] = true,
-				[42104] = true,
+				[58484] = true,
 				[62707] = true,
 				[37497] = true,
 				[29438] = true,
@@ -36695,16 +37200,16 @@ RareScannerDB = {
 				[38142] = true,
 				[49733] = true,
 				[57446] = true,
-				[42233] = true,
-				[51191] = true,
 				[62708] = true,
-				[62836] = true,
-				[58869] = true,
-				[31550] = true,
-				[63220] = true,
-				[63348] = true,
 				[11778] = true,
-				[11810] = true,
+				[42233] = true,
+				[62836] = true,
+				[62964] = true,
+				[31550] = true,
+				[46840] = true,
+				[63348] = true,
+				[51191] = true,
+				[51319] = true,
 				[59765] = true,
 				[51575] = true,
 				[60149] = true,
@@ -36721,7 +37226,7 @@ RareScannerDB = {
 				[49394] = true,
 				[24576] = true,
 				[60737] = true,
-				[12354] = true,
+				[49400] = true,
 				[33359] = true,
 				[53751] = true,
 				[28991] = true,
@@ -36732,16 +37237,16 @@ RareScannerDB = {
 				[62709] = true,
 				[62837] = true,
 				[62965] = true,
-				[63221] = true,
 				[46841] = true,
+				[63221] = true,
 				[8675] = true,
 				[51192] = true,
 				[51320] = true,
 				[38907] = true,
-				[59766] = true,
+				[8803] = true,
 				[39419] = true,
 				[8867] = true,
-				[60150] = true,
+				[39675] = true,
 				[13026] = true,
 				[52216] = true,
 				[47224] = true,
@@ -36752,7 +37257,7 @@ RareScannerDB = {
 				[51569] = true,
 				[39682] = true,
 				[44997] = true,
-				[61558] = true,
+				[45178] = true,
 				[49401] = true,
 				[57719] = true,
 				[39579] = true,
@@ -36762,18 +37267,18 @@ RareScannerDB = {
 				[40180] = true,
 				[46842] = true,
 				[62710] = true,
-				[47098] = true,
+				[51193] = true,
 				[62966] = true,
 				[31551] = true,
 				[50937] = true,
-				[38780] = true,
-				[51193] = true,
+				[63350] = true,
+				[47098] = true,
 				[51321] = true,
 				[62711] = true,
 				[59767] = true,
-				[60151] = true,
-				[39676] = true,
+				[64246] = true,
 				[51961] = true,
+				[39676] = true,
 				[51570] = true,
 				[52217] = true,
 				[60152] = true,
@@ -36791,29 +37296,29 @@ RareScannerDB = {
 				[57976] = true,
 				[41724] = true,
 				[39487] = true,
-				[64246] = true,
+				[60151] = true,
 				[58488] = true,
 				[58616] = true,
-				[63350] = true,
+				[38780] = true,
 				[62967] = true,
 				[31976] = true,
 				[46843] = true,
 				[59256] = true,
 				[47099] = true,
 				[54705] = true,
-				[45178] = true,
+				[61558] = true,
 				[24541] = true,
 				[39992] = true,
 				[52148] = true,
 				[64247] = true,
 				[43900] = true,
-				[39675] = true,
-				[8803] = true,
+				[60150] = true,
+				[59766] = true,
 				[40189] = true,
 				[48507] = true,
 				[13459] = true,
 				[40573] = true,
-				[49400] = true,
+				[12354] = true,
 				[52039] = true,
 				[57713] = true,
 				[53370] = true,
@@ -36821,9 +37326,9 @@ RareScannerDB = {
 				[45436] = true,
 				[51959] = true,
 				[57977] = true,
-				[51319] = true,
-				[46840] = true,
-				[62964] = true,
+				[11810] = true,
+				[63220] = true,
+				[58869] = true,
 				[38014] = true,
 				[58617] = true,
 				[8769] = true,
@@ -36836,14 +37341,14 @@ RareScannerDB = {
 				[59641] = true,
 				[54773] = true,
 				[59897] = true,
-				[58484] = true,
+				[42104] = true,
 				[64248] = true,
 				[60281] = true,
 				[52219] = true,
 				[46729] = true,
 				[44285] = true,
 				[48508] = true,
-				[40184] = true,
+				[52469] = true,
 				[52859] = true,
 				[50531] = true,
 				[40830] = true,
@@ -36862,9 +37367,9 @@ RareScannerDB = {
 				[54779] = true,
 				[46717] = true,
 				[59130] = true,
-				[44278] = true,
+				[40183] = true,
 				[38911] = true,
-				[39415] = true,
+				[51700] = true,
 				[37469] = true,
 				[59770] = true,
 				[31581] = true,
@@ -36874,16 +37379,16 @@ RareScannerDB = {
 				[42420] = true,
 				[38570] = true,
 				[56571] = true,
-				[53747] = true,
+				[28925] = true,
 				[37821] = true,
 				[61050] = true,
-				[64880] = true,
-				[40182] = true,
+				[48500] = true,
+				[48372] = true,
 				[60226] = true,
 				[53372] = true,
 				[49405] = true,
-				[38646] = true,
-				[42229] = true,
+				[42741] = true,
+				[62704] = true,
 				[57979] = true,
 				[59198] = true,
 				[53186] = true,
@@ -36893,7 +37398,7 @@ RareScannerDB = {
 				[13667] = true,
 				[32008] = true,
 				[31553] = true,
-				[59760] = true,
+				[63855] = true,
 				[50612] = true,
 				[38912] = true,
 				[31578] = true,
@@ -36924,11 +37429,11 @@ RareScannerDB = {
 				[38145] = true,
 				[12340] = true,
 				[49364] = true,
-				[48369] = true,
+				[40179] = true,
 				[42752] = true,
 				[47981] = true,
 				[38913] = true,
-				[38643] = true,
+				[42738] = true,
 				[59644] = true,
 				[63867] = true,
 				[39425] = true,
@@ -36944,7 +37449,7 @@ RareScannerDB = {
 				[28834] = true,
 				[52450] = true,
 				[60224] = true,
-				[39026] = true,
+				[11808] = true,
 				[49407] = true,
 				[39873] = true,
 				[39718] = true,
@@ -36961,12 +37466,12 @@ RareScannerDB = {
 				[38687] = true,
 				[11780] = true,
 				[11812] = true,
-				[60268] = true,
+				[64363] = true,
 				[59773] = true,
 				[39426] = true,
 				[40794] = true,
 				[51967] = true,
-				[38257] = true,
+				[62827] = true,
 				[64508] = true,
 				[44161] = true,
 				[40194] = true,
@@ -36993,9 +37498,9 @@ RareScannerDB = {
 				[8677] = true,
 				[38915] = true,
 				[39043] = true,
-				[52460] = true,
+				[48365] = true,
 				[59774] = true,
-				[38767] = true,
+				[8672] = true,
 				[33071] = true,
 				[39683] = true,
 				[13028] = true,
@@ -37011,7 +37516,7 @@ RareScannerDB = {
 				[61254] = true,
 				[49409] = true,
 				[57727] = true,
-				[38894] = true,
+				[11775] = true,
 				[49793] = true,
 				[49921] = true,
 				[38246] = true,
@@ -37019,12 +37524,12 @@ RareScannerDB = {
 				[42115] = true,
 				[38148] = true,
 				[58751] = true,
-				[44140] = true,
+				[60520] = true,
 				[31555] = true,
 				[55040] = true,
 				[44137] = true,
 				[13828] = true,
-				[58600] = true,
+				[62695] = true,
 				[28979] = true,
 				[28951] = true,
 				[58590] = true,
@@ -37036,7 +37541,7 @@ RareScannerDB = {
 				[40196] = true,
 				[45117] = true,
 				[37862] = true,
-				[59751] = true,
+				[39276] = true,
 				[48898] = true,
 				[53121] = true,
 				[39742] = true,
@@ -37139,7 +37644,7 @@ RareScannerDB = {
 				[60735] = true,
 				[29449] = true,
 				[37256] = true,
-				[58977] = true,
+				[50787] = true,
 				[57987] = true,
 				[60621] = true,
 				[41863] = true,
@@ -37154,7 +37659,7 @@ RareScannerDB = {
 				[13829] = true,
 				[62539] = true,
 				[29463] = true,
-				[59616] = true,
+				[63711] = true,
 				[59907] = true,
 				[51845] = true,
 				[39688] = true,
@@ -37182,7 +37687,7 @@ RareScannerDB = {
 				[29446] = true,
 				[46727] = true,
 				[61228] = true,
-				[60638] = true,
+				[48353] = true,
 				[8726] = true,
 				[39049] = true,
 				[39440] = true,
@@ -37227,18 +37732,18 @@ RareScannerDB = {
 				[37690] = true,
 				[40202] = true,
 				[59325] = true,
-				[52829] = true,
+				[65114] = true,
 				[48776] = true,
-				[39776] = true,
+				[56156] = true,
 				[62751] = true,
 				[59701] = true,
-				[62938] = true,
+				[58843] = true,
 				[41226] = true,
 				[64007] = true,
 				[46250] = true,
 				[28999] = true,
 				[47431] = true,
-				[44638] = true,
+				[65113] = true,
 				[40251] = true,
 				[63576] = true,
 				[58630] = true,
@@ -37296,514 +37801,9 @@ RareScannerDB = {
 				[62893] = true,
 				[65078] = true,
 			},
-			["rares_killed"] = {
-				[53206] = -1,
-				[57821] = -1,
-				[91529] = -1,
-				[119187] = -1,
-				[91114] = -1,
-				[20040] = -1,
-				[157572] = -1,
-				[132086] = -1,
-				[117335] = -1,
-				[9545] = -1,
-				[141029] = -1,
-				[111331] = -1,
-				[134706] = -1,
-				[165430] = -1,
-				[890] = -1,
-				[170157] = -1,
-				[113088] = -1,
-				[38228] = -1,
-				[138667] = -1,
-				[141286] = -1,
-				[168878] = -1,
-				[128578] = -1,
-				[132280] = -1,
-				[72943] = -1,
-				[72942] = -1,
-				[167731] = -1,
-				[4075] = -1,
-				[21270] = -1,
-				[53223] = -1,
-				[120658] = -1,
-				[103827] = -1,
-				[165560] = -1,
-				[57773] = -1,
-				[169265] = -1,
-				[128994] = -1,
-				[165108] = -1,
-				[119860] = -1,
-				[43658] = -1,
-				[126056] = -1,
-				[168627] = -1,
-				[118455] = -1,
-				[52409] = -1,
-				[117080] = -1,
-				[170927] = -1,
-				[37127] = -1,
-				[135796] = -1,
-				[164920] = -1,
-				[110503] = -1,
-				[131389] = -1,
-				[106990] = -1,
-				[53575] = -1,
-				[118807] = -1,
-				[56162] = -1,
-				[138863] = -1,
-				[53128] = -1,
-				[72945] = -1,
-				[153874] = -1,
-				[99581] = -1,
-				[102679] = -1,
-				[57807] = -1,
-				[53224] = -1,
-				[151128] = -1,
-				[163894] = -1,
-				[59915] = -1,
-				[20033] = -1,
-				[169780] = -1,
-				[26692] = -1,
-				[95813] = -1,
-				[118840] = -1,
-				[171179] = -1,
-				[96449] = -1,
-				[167607] = -1,
-				[26555] = -1,
-				[44234] = -1,
-				[69465] = -1,
-				[103223] = -1,
-				[42810] = -1,
-				[120661] = -1,
-				[95872] = -1,
-				[132211] = -1,
-				[161849] = -1,
-				[164921] = -1,
-				[33136] = -1,
-				[170474] = -1,
-				[118841] = -1,
-				[122450] = -1,
-				[101878] = -1,
-				[141039] = -1,
-				[153878] = -1,
-				[173360] = -1,
-				[157583] = -1,
-				[21271] = -1,
-				[159755] = -1,
-				[10404] = -1,
-				[97504] = -1,
-				[10412] = -1,
-				[127333] = -1,
-				[128707] = -1,
-				[120311] = -1,
-				[125453] = -1,
-				[104534] = -1,
-				[10439] = -1,
-				[141226] = -1,
-				[86745] = -1,
-				[96997] = -1,
-				[99584] = -1,
-				[57823] = -1,
-				[20049] = -1,
-				[10464] = -1,
-				[120660] = -1,
-				[168572] = -1,
-				[113597] = -1,
-				[116825] = -1,
-				[38231] = -1,
-				[105899] = -1,
-				[52571] = -1,
-				[44922] = -1,
-				[128584] = -1,
-				[45572] = -1,
-				[167615] = -1,
-				[90505] = -1,
-				[55265] = -1,
-				[111370] = -1,
-				[99649] = -1,
-				[117055] = -1,
-				[94724] = -1,
-				[10536] = -1,
-				[26669] = -1,
-				[20034] = -1,
-				[152661] = -1,
-				[20050] = -1,
-				[151127] = -1,
-				[10383] = -1,
-				[162693] = -1,
-				[90803] = -1,
-				[91115] = -1,
-				[168703] = -1,
-				[37029] = -1,
-				[166276] = -1,
-				[90217] = -1,
-				[82308] = -1,
-				[97793] = -1,
-				[53127] = -1,
-				[98177] = -1,
-				[128426] = -1,
-				[113128] = -1,
-				[166275] = -1,
-				[168574] = -1,
-				[152097] = -1,
-				[117344] = -1,
-				[97220] = -1,
-				[25756] = -1,
-				[89846] = -1,
-				[11262] = -1,
-				[111528] = -1,
-				[92526] = -1,
-				[164362] = -1,
-				[127820] = -1,
-				[168578] = -1,
-				[179373] = -1,
-				[133356] = -1,
-				[126926] = -1,
-				[163058] = -1,
-				[46753] = -1,
-				[91539] = -1,
-				[164427] = -1,
-				[113626] = -1,
-				[165357] = -1,
-				[131404] = -1,
-				[111852] = -1,
-				[37970] = -1,
-				[111980] = -1,
-				[20039] = -1,
-				[91540] = -1,
-				[175734] = -1,
-				[167111] = -1,
-				[20031] = -1,
-				[165515] = -1,
-				[93233] = -1,
-				[91349] = -1,
-				[167942] = -1,
-				[139135] = -1,
-				[43934] = -1,
-				[93904] = -1,
-				[169859] = -1,
-				[53691] = -1,
-				[168837] = -1,
-				[118049] = -1,
-				[116548] = -1,
-				[120668] = -1,
-				[157340] = -1,
-				[26670] = -1,
-				[96587] = -1,
-				[165197] = -1,
-				[117251] = -1,
-				[91541] = -1,
-				[167113] = -1,
-				[107127] = -1,
-				[92180] = -1,
-				[60047] = -1,
-				[104636] = -1,
-				[127280] = -1,
-				[169861] = -1,
-				[118050] = -1,
-				[38154] = -1,
-				[95630] = -1,
-				[99956] = -1,
-				[92117] = -1,
-				[120637] = -1,
-				[131984] = -1,
-				[43878] = -1,
-				[168393] = -1,
-				[95886] = -1,
-				[52606] = -1,
-				[168585] = -1,
-				[167116] = -1,
-				[168969] = -1,
-				[100230] = -1,
-				[10413] = -1,
-				[118051] = -1,
-				[96621] = -1,
-				[10405] = -1,
-				[168586] = -1,
-				[167117] = -1,
-				[165137] = -1,
-				[164562] = -1,
-				[69455] = -1,
-				[92514] = -1,
-				[120575] = -1,
-				[95887] = -1,
-				[10441] = -1,
-				[164563] = -1,
-				[119533] = -1,
-				[96015] = -1,
-				[97069] = -1,
-				[168396] = -1,
-				[132179] = -1,
-				[95632] = -1,
-				[10461] = -1,
-				[100231] = -1,
-				[152875] = -1,
-				[93205] = -1,
-				[37229] = -1,
-				[98890] = -1,
-				[44926] = -1,
-				[98954] = -1,
-				[33716] = -1,
-				[141059] = -1,
-				[94802] = -1,
-				[89884] = -1,
-				[8477] = -1,
-				[120097] = -1,
-				[116552] = -1,
-				[117095] = -1,
-				[120704] = -1,
-				[116648] = -1,
-				[20036] = -1,
-				[97677] = -1,
-				[111197] = -1,
-				[95888] = -1,
-				[38028] = -1,
-				[118915] = -1,
-				[37038] = -1,
-				[164567] = -1,
-				[117958] = -1,
-				[111858] = -1,
-				[120577] = -1,
-				[150959] = -1,
-				[113113] = -1,
-				[97678] = -1,
-				[173191] = -1,
-				[116649] = -1,
-				[93686] = -1,
-				[100232] = -1,
-				[97370] = -1,
-				[120576] = -1,
-				[93303] = -1,
-				[136336] = -1,
-				[33717] = -1,
-				[175811] = -1,
-				[121025] = -1,
-				[94485] = -1,
-				[25865] = -1,
-				[130508] = -1,
-				[166933] = -1,
-				[150958] = -1,
-				[15264] = -1,
-				[161854] = -1,
-				[57382] = -1,
-				[175940] = -1,
-				[71466] = -1,
-				[167949] = -1,
-				[125495] = -1,
-				[70341] = -1,
-				[165529] = -1,
-				[53694] = -1,
-				[120578] = -1,
-				[118024] = -1,
-				[38125] = -1,
-				[111333] = -1,
-				[176133] = -1,
-				[95636] = -1,
-				[139980] = -1,
-				[102566] = -1,
-				[111573] = -1,
-				[110870] = -1,
-				[103972] = -1,
-				[123422] = -1,
-				[117136] = -1,
-				[99762] = -1,
-				[121985] = -1,
-				[44976] = -1,
-				[118023] = -1,
-				[56250] = -1,
-				[120580] = -1,
-				[156142] = -1,
-				[173580] = -1,
-				[60402] = -1,
-				[14881] = -1,
-				[109498] = -1,
-				[93625] = -1,
-				[100364] = -1,
-				[134106] = -1,
-				[95318] = -1,
-				[108827] = -1,
-				[178572] = -1,
-				[132007] = -1,
-				[136335] = -1,
-				[106655] = -1,
-				[94008] = -1,
-				[52530] = -1,
-				[132127] = -1,
-				[26776] = -1,
-				[37663] = -1,
-				[52498] = -1,
-				[45919] = -1,
-				[163618] = -1,
-				[120361] = -1,
-				[166301] = -1,
-				[64061] = -1,
-				[44977] = -1,
-				[53121] = -1,
-				[163619] = -1,
-				[127129] = -1,
-				[121029] = -1,
-				[53185] = -1,
-				[166302] = -1,
-				[164897] = -1,
-				[127289] = -1,
-				[94617] = -1,
-				[165408] = -1,
-				[109500] = -1,
-				[163620] = -1,
-				[100302] = -1,
-				[169498] = -1,
-				[133155] = -1,
-				[72357] = -1,
-				[127290] = -1,
-				[61250] = -1,
-				[109501] = -1,
-				[163621] = -1,
-				[109054] = -1,
-				[166304] = -1,
-				[139285] = -1,
-				[36626] = -1,
-				[37664] = -1,
-				[126460] = -1,
-				[119721] = -1,
-				[128951] = -1,
-				[92191] = -1,
-				[132068] = -1,
-				[53617] = -1,
-				[168988] = -1,
-				[100495] = -1,
-				[33720] = -1,
-				[37217] = -1,
-				[100303] = -1,
-				[94618] = -1,
-				[106339] = -1,
-				[57817] = -1,
-				[53745] = -1,
-				[117103] = -1,
-				[116654] = -1,
-				[179912] = -1,
-				[10394] = -1,
-				[56251] = -1,
-				[112153] = -1,
-				[20062] = -1,
-				[33433] = -1,
-				[112760] = -1,
-				[167834] = -1,
-				[120677] = -1,
-				[139280] = -1,
-				[126174] = -1,
-				[44260] = -1,
-				[37126] = -1,
-				[36627] = -1,
-				[95642] = -1,
-				[111004] = -1,
-				[107459] = -1,
-				[44896] = -1,
-				[120068] = -1,
-				[120579] = -1,
-				[139290] = -1,
-				[139145] = -1,
-				[126072] = -1,
-				[119397] = -1,
-				[69390] = -1,
-				[8598] = -1,
-				[176258] = -1,
-				[137183] = -1,
-				[117552] = -1,
-				[112474] = -1,
-				[21273] = -1,
-				[95123] = -1,
-				[118851] = -1,
-				[57387] = -1,
-				[117509] = -1,
-				[43537] = -1,
-				[117286] = -1,
-				[37011] = -1,
-				[53890] = -1,
-				[21364] = -1,
-				[33993] = -1,
-				[37133] = -1,
-				[107269] = -1,
-				[44261] = -1,
-				[119597] = -1,
-				[131476] = -1,
-				[15551] = -1,
-				[10437] = -1,
-				[35143] = -1,
-				[111070] = -1,
-				[10381] = -1,
-				[132076] = -1,
-				[111166] = -1,
-				[44932] = -1,
-				[37132] = -1,
-				[124548] = -1,
-				[119902] = -1,
-				[95885] = -1,
-				[157277] = -1,
-				[119199] = -1,
-				[111933] = -1,
-				[164557] = -1,
-				[97449] = -1,
-				[99765] = -1,
-				[120748] = -1,
-				[57388] = -1,
-				[20047] = -1,
-				[64063] = -1,
-				[20063] = -1,
-				[117473] = -1,
-				[115620] = -1,
-				[168104] = -1,
-				[110784] = -1,
-				[89865] = -1,
-				[160120] = -1,
-				[138675] = -1,
-				[137531] = -1,
-				[152136] = -1,
-				[40446] = -1,
-				[36678] = -1,
-				[163128] = -1,
-				[157584] = -1,
-				[111975] = -1,
-				[36725] = -1,
-				[139298] = -1,
-				[89650] = -1,
-				[105611] = -1,
-				[72947] = -1,
-				[129181] = -1,
-				[52151] = -1,
-				[10391] = -1,
-				[94018] = -1,
-				[10399] = -1,
-				[163891] = -1,
-				[10407] = -1,
-				[56846] = -1,
-				[157824] = -1,
-				[127270] = -1,
-				[99644] = -1,
-				[99895] = -1,
-				[165872] = -1,
-				[117333] = -1,
-				[131252] = -1,
-				[45065] = -1,
-				[101077] = -1,
-				[93955] = -1,
-				[92965] = -1,
-				[137704] = -1,
-				[128610] = -1,
-				[99704] = -1,
-				[56575] = -1,
-				[170414] = -1,
-				[91113] = -1,
-				[161083] = -1,
-				[109575] = -1,
-				[157634] = -1,
-				[119509] = -1,
-				[116823] = -1,
-				[117334] = -1,
-				[117559] = -1,
-				[112320] = -1,
-				[92423] = -1,
-				[11030] = -1,
-				[93030] = -1,
+			["events_completed"] = {
+				[243009] = -1,
+				[90232] = -1,
 			},
 			["lastClean"] = 1645354291,
 		},
@@ -38035,11 +38035,11 @@ RareScannerDB = {
 				[61293] = true,
 				[31144] = true,
 				[61292] = true,
-				[61282] = true,
-				[61250] = true,
-				[6281] = true,
 				[64348] = true,
+				[61250] = true,
 				[61298] = true,
+				[61282] = true,
+				[6281] = true,
 				[61289] = true,
 				[6285] = true,
 				[44994] = true,
@@ -38052,33 +38052,33 @@ RareScannerDB = {
 				[28808] = true,
 				[50107] = true,
 				[28792] = true,
-				[31831] = true,
-				[28813] = true,
-				[31823] = true,
 				[28765] = true,
+				[63694] = true,
+				[28757] = true,
+				[31831] = true,
 				[28773] = true,
 				[61285] = true,
 				[28789] = true,
 				[28797] = true,
-				[26266] = true,
-				[31879] = true,
 				[28821] = true,
+				[31879] = true,
+				[26266] = true,
 				[56652] = true,
 				[46] = true,
 				[26290] = true,
 				[31919] = true,
 				[61235] = true,
 				[61251] = true,
-				[44995] = true,
+				[50105] = true,
 				[61283] = true,
-				[61299] = true,
+				[54] = true,
 				[29412] = true,
 				[76] = true,
-				[50105] = true,
+				[44995] = true,
 				[62] = true,
 				[26378] = true,
 				[28812] = true,
-				[53746] = true,
+				[26394] = true,
 				[64292] = true,
 				[59120] = true,
 				[63696] = true,
@@ -38128,15 +38128,15 @@ RareScannerDB = {
 				[31880] = true,
 				[28822] = true,
 				[61225] = true,
-				[26394] = true,
+				[53746] = true,
 				[28784] = true,
-				[54] = true,
+				[61299] = true,
 				[61237] = true,
 				[61253] = true,
-				[63694] = true,
+				[28813] = true,
 				[47] = true,
 				[44949] = true,
-				[28757] = true,
+				[31823] = true,
 				[31976] = true,
 				[44997] = true,
 				[61245] = true,
@@ -38373,9 +38373,9 @@ RareScannerDB = {
 				[32662] = true,
 				[32670] = true,
 				[61299] = true,
-				[53124] = true,
-				[61236] = true,
 				[44948] = true,
+				[61236] = true,
+				[53124] = true,
 				[40317] = true,
 				[61284] = true,
 				[61300] = true,
@@ -39256,13 +39256,13 @@ RareScannerDB = {
 				[48320] = true,
 				[36102] = true,
 				[56429] = true,
-				[52990] = true,
+				[48896] = true,
 				[56764] = true,
 				[30469] = true,
 				[50751] = true,
 				[34439] = true,
 				[13131] = true,
-				[48896] = true,
+				[52990] = true,
 				[48960] = true,
 				[42883] = true,
 				[44994] = true,
@@ -39324,7 +39324,7 @@ RareScannerDB = {
 				[34249] = true,
 				[38715] = true,
 				[34760] = true,
-				[50817] = true,
+				[9130] = true,
 				[51574] = true,
 				[38663] = true,
 				[61244] = true,
@@ -39342,7 +39342,7 @@ RareScannerDB = {
 				[51991] = true,
 				[27103] = true,
 				[12491] = true,
-				[56063] = true,
+				[35593] = true,
 				[47939] = true,
 				[28560] = true,
 				[27112] = true,
@@ -39382,15 +39382,15 @@ RareScannerDB = {
 				[33867] = true,
 				[33931] = true,
 				[48324] = true,
-				[36170] = true,
 				[48452] = true,
+				[36170] = true,
 				[32674] = true,
 				[34251] = true,
 				[50979] = true,
 				[50755] = true,
-				[52994] = true,
-				[34507] = true,
 				[36618] = true,
+				[34507] = true,
+				[52994] = true,
 				[30620] = true,
 				[40840] = true,
 				[44998] = true,
@@ -39428,7 +39428,7 @@ RareScannerDB = {
 				[38922] = true,
 				[29704] = true,
 				[50617] = true,
-				[49285] = true,
+				[51332] = true,
 				[55618] = true,
 				[33037] = true,
 				[29864] = true,
@@ -39446,7 +39446,7 @@ RareScannerDB = {
 				[33869] = true,
 				[33933] = true,
 				[48326] = true,
-				[13129] = true,
+				[44296] = true,
 				[48454] = true,
 				[34642] = true,
 				[34253] = true,
@@ -39461,17 +39461,17 @@ RareScannerDB = {
 				[32673] = true,
 				[35622] = true,
 				[49286] = true,
-				[51717] = true,
+				[30984] = true,
 				[49414] = true,
 				[49862] = true,
 				[51589] = true,
 				[31112] = true,
-				[30984] = true,
+				[51717] = true,
 				[36049] = true,
-				[35597] = true,
-				[53956] = true,
 				[33550] = true,
-				[35661] = true,
+				[53956] = true,
+				[35597] = true,
+				[47943] = true,
 				[34442] = true,
 				[50108] = true,
 				[30661] = true,
@@ -39483,20 +39483,20 @@ RareScannerDB = {
 				[50771] = true,
 				[50100] = true,
 				[42910] = true,
-				[7926] = true,
+				[40843] = true,
 				[34446] = true,
 				[31592] = true,
 				[36621] = true,
 				[61249] = true,
-				[40843] = true,
+				[7926] = true,
 				[51059] = true,
 				[31752] = true,
 				[51593] = true,
 				[34958] = true,
-				[51590] = true,
+				[27850] = true,
 				[31880] = true,
 				[51526] = true,
-				[27850] = true,
+				[51590] = true,
 				[31976] = true,
 				[51718] = true,
 				[11688] = true,
@@ -39528,7 +39528,7 @@ RareScannerDB = {
 				[39117] = true,
 				[49416] = true,
 				[35591] = true,
-				[51591] = true,
+				[47497] = true,
 				[35279] = true,
 				[38743] = true,
 				[29368] = true,
@@ -39544,8 +39544,8 @@ RareScannerDB = {
 				[48329] = true,
 				[50745] = true,
 				[31401] = true,
-				[48585] = true,
 				[34256] = true,
+				[48585] = true,
 				[62978] = true,
 				[50328] = true,
 				[31830] = true,
@@ -39558,13 +39558,13 @@ RareScannerDB = {
 				[31785] = true,
 				[49289] = true,
 				[33041] = true,
-				[31881] = true,
-				[51592] = true,
+				[29834] = true,
 				[47498] = true,
+				[51592] = true,
 				[35280] = true,
 				[53137] = true,
 				[51784] = true,
-				[29834] = true,
+				[31881] = true,
 				[8892] = true,
 				[35600] = true,
 				[48888] = true,
@@ -39575,7 +39575,7 @@ RareScannerDB = {
 				[30120] = true,
 				[48330] = true,
 				[36039] = true,
-				[47497] = true,
+				[51591] = true,
 				[39393] = true,
 				[34257] = true,
 				[62979] = true,
@@ -39604,7 +39604,7 @@ RareScannerDB = {
 				[42865] = true,
 				[50561] = true,
 				[50104] = true,
-				[47943] = true,
+				[35661] = true,
 				[48331] = true,
 				[11595] = true,
 				[11611] = true,
@@ -39617,13 +39617,13 @@ RareScannerDB = {
 				[36625] = true,
 				[61253] = true,
 				[40847] = true,
-				[44296] = true,
+				[13129] = true,
 				[36881] = true,
 				[49227] = true,
 				[48889] = true,
 				[35583] = true,
 				[29835] = true,
-				[51332] = true,
+				[49285] = true,
 				[51594] = true,
 				[47564] = true,
 				[51722] = true,
@@ -39663,7 +39663,7 @@ RareScannerDB = {
 				[47314] = true,
 				[30619] = true,
 				[51979] = true,
-				[35593] = true,
+				[56063] = true,
 				[31324] = true,
 				[53145] = true,
 				[33568] = true,
@@ -39672,7 +39672,7 @@ RareScannerDB = {
 				[36051] = true,
 				[36115] = true,
 				[33569] = true,
-				[9130] = true,
+				[50817] = true,
 				[36509] = true,
 				[11634] = true,
 				[55407] = true,
@@ -40680,10 +40680,10 @@ RareScannerDB = {
 				[24748] = true,
 				[44759] = true,
 				[36859] = true,
-				[12474] = true,
+				[49864] = true,
 				[12442] = true,
 				[12458] = true,
-				[49864] = true,
+				[12474] = true,
 				[61288] = true,
 				[47956] = true,
 				[12013] = true,
@@ -40695,8 +40695,8 @@ RareScannerDB = {
 				[34445] = true,
 				[35881] = true,
 				[34575] = true,
-				[62978] = true,
 				[44555] = true,
+				[62978] = true,
 				[56748] = true,
 				[46730] = true,
 				[31593] = true,
@@ -41097,7 +41097,7 @@ RareScannerDB = {
 				[38231] = -1,
 				[115379] = -1,
 				[21273] = -1,
-				[78651] = -1,
+				[126174] = -1,
 				[20049] = -1,
 				[37122] = -1,
 				[36627] = -1,
@@ -41111,7 +41111,7 @@ RareScannerDB = {
 				[12159] = -1,
 				[37035] = -1,
 				[78883] = -1,
-				[115891] = -1,
+				[99539] = -1,
 				[20040] = -1,
 				[38879] = -1,
 				[59335] = -1,
@@ -41150,10 +41150,10 @@ RareScannerDB = {
 				[37890] = -1,
 				[61333] = -1,
 				[59671] = -1,
-				[26690] = -1,
+				[20047] = -1,
 				[20031] = -1,
 				[20039] = -1,
-				[20047] = -1,
+				[26690] = -1,
 				[99524] = -1,
 				[20063] = -1,
 				[37012] = -1,
@@ -41198,13 +41198,13 @@ RareScannerDB = {
 				[37125] = -1,
 				[21268] = -1,
 				[95951] = -1,
-				[99539] = -1,
+				[115891] = -1,
 				[36678] = -1,
 				[26555] = -1,
 				[36855] = -1,
 				[59021] = -1,
 				[20048] = -1,
-				[126174] = -1,
+				[78651] = -1,
 				[80574] = -1,
 				[21270] = -1,
 				[20064] = -1,
@@ -41338,39 +41338,39 @@ RareScannerDB = {
 				[32669] = true,
 				[50144] = true,
 				[45727] = true,
-				[53206] = true,
+				[39691] = true,
 				[39713] = true,
 				[53746] = true,
 				[56631] = true,
-				[31316] = true,
-				[39691] = true,
+				[31571] = true,
+				[53206] = true,
 				[40008] = true,
-				[44184] = true,
+				[42909] = true,
 				[31551] = true,
 				[31555] = true,
 				[44120] = true,
 				[31308] = true,
 				[31822] = true,
-				[31571] = true,
+				[31316] = true,
 				[31575] = true,
 				[31579] = true,
-				[42893] = true,
+				[31583] = true,
 				[31587] = true,
-				[31591] = true,
+				[44184] = true,
 				[39987] = true,
-				[44973] = true,
 				[44463] = true,
+				[44973] = true,
 				[44471] = true,
 				[44989] = true,
 				[44997] = true,
 				[50105] = true,
 				[31878] = true,
-				[32667] = true,
+				[31902] = true,
 				[42782] = true,
 				[50098] = true,
 				[50145] = true,
 				[32663] = true,
-				[31902] = true,
+				[32667] = true,
 				[32671] = true,
 				[53747] = true,
 				[39985] = true,
@@ -41399,11 +41399,11 @@ RareScannerDB = {
 				[31889] = true,
 				[31824] = true,
 				[53124] = true,
-				[42909] = true,
-				[50146] = true,
-				[31583] = true,
-				[59087] = true,
 				[46734] = true,
+				[50146] = true,
+				[42893] = true,
+				[59087] = true,
+				[31591] = true,
 				[53748] = true,
 				[39986] = true,
 				[31897] = true,
@@ -41439,7 +41439,39 @@ RareScannerDB = {
 				[339770] = -1,
 				[329919] = -1,
 			},
-			["events_completed"] = {
+			["rares_killed"] = {
+				[150228] = -1,
+				[160737] = -1,
+				[155192] = -1,
+				[152843] = -1,
+				[156716] = -1,
+				[153583] = -1,
+				[156913] = -1,
+				[169162] = -1,
+				[152998] = -1,
+				[150229] = -1,
+				[153581] = -1,
+				[150237] = -1,
+				[153242] = -1,
+				[164827] = -1,
+				[161130] = -1,
+				[156825] = -1,
+				[160394] = -1,
+				[154103] = -1,
+				[160433] = -1,
+				[150238] = -1,
+				[153266] = -1,
+				[152571] = -1,
+				[161131] = -1,
+				[151091] = -1,
+				[153582] = -1,
+				[162817] = -1,
+				[166262] = -1,
+				[156501] = -1,
+				[156821] = -1,
+				[157328] = -1,
+				[153239] = -1,
+				[157300] = -1,
 			},
 			["quests_completed"] = {
 				[50099] = true,
@@ -41584,7 +41616,7 @@ RareScannerDB = {
 				[53206] = true,
 				[44953] = true,
 				[58418] = true,
-				[56839] = true,
+				[51994] = true,
 				[31824] = true,
 				[31832] = true,
 				[59939] = true,
@@ -41606,7 +41638,7 @@ RareScannerDB = {
 				[50106] = true,
 				[31826] = true,
 				[54937] = true,
-				[51994] = true,
+				[56839] = true,
 				[31568] = true,
 				[50146] = true,
 				[31590] = true,
@@ -41636,39 +41668,7 @@ RareScannerDB = {
 				[44991] = true,
 				[60167] = true,
 			},
-			["rares_killed"] = {
-				[160737] = -1,
-				[150228] = -1,
-				[157300] = -1,
-				[152998] = -1,
-				[150237] = -1,
-				[153242] = -1,
-				[156913] = -1,
-				[169162] = -1,
-				[152843] = -1,
-				[157328] = -1,
-				[153581] = -1,
-				[156716] = -1,
-				[153583] = -1,
-				[164827] = -1,
-				[156821] = -1,
-				[156825] = -1,
-				[160394] = -1,
-				[154103] = -1,
-				[153582] = -1,
-				[150238] = -1,
-				[153266] = -1,
-				[152571] = -1,
-				[161131] = -1,
-				[151091] = -1,
-				[160433] = -1,
-				[162817] = -1,
-				[166262] = -1,
-				[156501] = -1,
-				[161130] = -1,
-				[150229] = -1,
-				[153239] = -1,
-				[155192] = -1,
+			["events_completed"] = {
 			},
 			["scannerYPos"] = 466.6666564941406,
 		},
@@ -41871,7 +41871,7 @@ RareScannerDB = {
 				[63686] = true,
 				[62964] = true,
 				[31575] = true,
-				[51349] = true,
+				[31583] = true,
 				[31591] = true,
 				[52128] = true,
 				[63693] = true,
@@ -41907,25 +41907,25 @@ RareScannerDB = {
 				[51366] = true,
 				[51193] = true,
 				[32008] = true,
-				[63694] = true,
 				[31879] = true,
+				[63694] = true,
 				[31889] = true,
 				[51129] = true,
 				[50099] = true,
-				[61299] = true,
+				[53123] = true,
 				[31919] = true,
 				[61235] = true,
 				[56652] = true,
 				[53602] = true,
 				[61283] = true,
-				[53123] = true,
+				[61299] = true,
 				[50105] = true,
 				[31975] = true,
 				[44995] = true,
 				[61251] = true,
 				[53185] = true,
 				[51544] = true,
-				[51191] = true,
+				[53746] = true,
 				[50109] = true,
 				[50101] = true,
 				[44993] = true,
@@ -41935,7 +41935,7 @@ RareScannerDB = {
 				[52450] = true,
 				[31568] = true,
 				[31576] = true,
-				[31584] = true,
+				[51351] = true,
 				[31592] = true,
 				[31880] = true,
 				[31574] = true,
@@ -41947,8 +41947,8 @@ RareScannerDB = {
 				[53028] = true,
 				[44976] = true,
 				[61236] = true,
-				[61300] = true,
 				[53124] = true,
+				[61300] = true,
 				[61284] = true,
 				[44948] = true,
 				[51168] = true,
@@ -41973,20 +41973,20 @@ RareScannerDB = {
 				[46728] = true,
 				[44953] = true,
 				[63696] = true,
-				[51351] = true,
+				[31584] = true,
 				[51418] = true,
 				[61225] = true,
 				[31915] = true,
 				[32672] = true,
 				[61237] = true,
 				[61253] = true,
-				[53746] = true,
+				[51191] = true,
 				[61285] = true,
 				[44949] = true,
 				[50147] = true,
 				[31976] = true,
-				[44997] = true,
 				[50107] = true,
+				[44997] = true,
 				[31897] = true,
 				[51177] = true,
 				[53748] = true,
@@ -42009,7 +42009,7 @@ RareScannerDB = {
 				[59641] = true,
 				[32671] = true,
 				[52008] = true,
-				[31583] = true,
+				[51349] = true,
 				[61238] = true,
 				[61254] = true,
 				[61270] = true,
@@ -64527,12 +64527,12 @@ RareScannerDB = {
 				4, -- [5]
 				1, -- [6]
 			},
-			[174478] = {
-				"|cff0070dd|Hitem:174478::::::::120:267::::::|h[Wicked Lurker]|h|r", -- [1]
-				3, -- [2]
-				"", -- [3]
-				237299, -- [4]
-				15, -- [5]
+			[9885] = {
+				"|cff1eff00|Hitem:9885::::::::50:267:::::::|h[Huntsman's Boots]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_FEET", -- [3]
+				132541, -- [4]
+				4, -- [5]
 				2, -- [6]
 			},
 			[9949] = {
@@ -65135,12 +65135,12 @@ RareScannerDB = {
 				15, -- [5]
 				2, -- [6]
 			},
-			[180631] = {
-				"|cff1eff00|Hitem:180631::::::::60:267:::::::|h[Gorm Needler]|h|r", -- [1]
+			[7439] = {
+				"|cff1eff00|Hitem:7439::::::::50:267:::::::|h[Sentinel Breastplate]|h|r", -- [1]
 				2, -- [2]
-				"", -- [3]
-				3084142, -- [4]
-				15, -- [5]
+				"INVTYPE_CHEST", -- [3]
+				132719, -- [4]
+				4, -- [5]
 				2, -- [6]
 			},
 			[110289] = {
@@ -65151,12 +65151,12 @@ RareScannerDB = {
 				0, -- [5]
 				8, -- [6]
 			},
-			[7439] = {
-				"|cff1eff00|Hitem:7439::::::::50:267:::::::|h[Sentinel Breastplate]|h|r", -- [1]
+			[180631] = {
+				"|cff1eff00|Hitem:180631::::::::60:267:::::::|h[Gorm Needler]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_CHEST", -- [3]
-				132719, -- [4]
-				4, -- [5]
+				"", -- [3]
+				3084142, -- [4]
+				15, -- [5]
 				2, -- [6]
 			},
 			[7471] = {
@@ -65351,13 +65351,13 @@ RareScannerDB = {
 				4, -- [5]
 				1, -- [6]
 			},
-			[2072] = {
-				"|cff1eff00|Hitem:2072::::::::60:267:::::::::|h[Dwarven Magestaff]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_2HWEAPON", -- [3]
-				135141, -- [4]
-				2, -- [5]
-				10, -- [6]
+			[181658] = {
+				"|cff0070dd|Hitem:181658::::::::60:267:::::::|h[Fleshscale Footguards]|h|r", -- [1]
+				3, -- [2]
+				"INVTYPE_FEET", -- [3]
+				3390736, -- [4]
+				4, -- [5]
+				3, -- [6]
 			},
 			[182682] = {
 				"|cff0070dd|Hitem:182682::::::::52:267:::::::|h[Book-Borrower Identification]|h|r", -- [1]
@@ -65607,13 +65607,13 @@ RareScannerDB = {
 				4, -- [5]
 				1, -- [6]
 			},
-			[181662] = {
-				"|cff0070dd|Hitem:181662::::::::60:267:::::::|h[Bloodsilk Gloves]|h|r", -- [1]
-				3, -- [2]
-				"INVTYPE_HAND", -- [3]
-				3527517, -- [4]
-				4, -- [5]
-				1, -- [6]
+			[90839] = {
+				"|cffa335ee|Hitem:90839::::::::60:267:::::::::|h[Cache of Sha-Touched Gold]|h|r", -- [1]
+				4, -- [2]
+				"", -- [3]
+				644388, -- [4]
+				15, -- [5]
+				0, -- [6]
 			},
 			[182686] = {
 				"|cff1eff00|Hitem:182686::::::::60:267:::::::|h[Powerful Precision]|h|r", -- [1]
@@ -65903,13 +65903,13 @@ RareScannerDB = {
 				2, -- [5]
 				9, -- [6]
 			},
-			[188834] = {
-				"|cff9d9d9d|Hitem:188834::::::::60:267:::::::::|h[Spectral Lupine Tooth]|h|r", -- [1]
-				0, -- [2]
+			[180643] = {
+				"|cff1eff00|Hitem:180643::::::::60:267:::::::|h[Chirpy Valeshrieker]|h|r", -- [1]
+				2, -- [2]
 				"", -- [3]
-				1518096, -- [4]
+				657489, -- [4]
 				15, -- [5]
-				0, -- [6]
+				2, -- [6]
 			},
 			[176866] = {
 				"|cff9d9d9d|Hitem:176866::::::::60:267:::::::|h[Putrid Sludge]|h|r", -- [1]
@@ -65919,13 +65919,13 @@ RareScannerDB = {
 				15, -- [5]
 				0, -- [6]
 			},
-			[180643] = {
-				"|cff1eff00|Hitem:180643::::::::60:267:::::::|h[Chirpy Valeshrieker]|h|r", -- [1]
-				2, -- [2]
+			[188834] = {
+				"|cff9d9d9d|Hitem:188834::::::::60:267:::::::::|h[Spectral Lupine Tooth]|h|r", -- [1]
+				0, -- [2]
 				"", -- [3]
-				657489, -- [4]
+				1518096, -- [4]
 				15, -- [5]
-				2, -- [6]
+				0, -- [6]
 			},
 			[181667] = {
 				"|cff0070dd|Hitem:181667::::::::60:267:::::::|h[Steelcore Legguards]|h|r", -- [1]
@@ -65983,13 +65983,13 @@ RareScannerDB = {
 				2, -- [5]
 				15, -- [6]
 			},
-			[180644] = {
-				"|cff1eff00|Hitem:180644::::::::60:267:::::::::|h[Rocky]|h|r", -- [1]
+			[106712] = {
+				"|cff1eff00|Hitem:106712::::::::120:267::::::|h[Sunspring Belt]|h|r", -- [1]
 				2, -- [2]
-				"", -- [3]
-				3072466, -- [4]
-				15, -- [5]
-				2, -- [6]
+				"INVTYPE_WAIST", -- [3]
+				929914, -- [4]
+				4, -- [5]
+				3, -- [6]
 			},
 			[181668] = {
 				"|cff0070dd|Hitem:181668::::::::60:267:::::::|h[Bloodsilk Leggings]|h|r", -- [1]
@@ -66999,14 +66999,6 @@ RareScannerDB = {
 				4, -- [5]
 				2, -- [6]
 			},
-			[180660] = {
-				"|cff1eff00|Hitem:180660::::::::60:267:::::::::|h[Darktower Parchments: Instant Polymorphist]|h|r", -- [1]
-				2, -- [2]
-				"", -- [3]
-				1505960, -- [4]
-				0, -- [5]
-				8, -- [6]
-			},
 			[106720] = {
 				"|cff1eff00|Hitem:106720::::::::50:267:::::::|h[Stonecrag Breastplate]|h|r", -- [1]
 				2, -- [2]
@@ -67014,6 +67006,14 @@ RareScannerDB = {
 				947552, -- [4]
 				4, -- [5]
 				4, -- [6]
+			},
+			[180660] = {
+				"|cff1eff00|Hitem:180660::::::::60:267:::::::::|h[Darktower Parchments: Instant Polymorphist]|h|r", -- [1]
+				2, -- [2]
+				"", -- [3]
+				1505960, -- [4]
+				0, -- [5]
+				8, -- [6]
 			},
 			[181684] = {
 				"|cff0070dd|Hitem:181684::::::::60:267:::::::|h[Gorewrought Wand]|h|r", -- [1]
@@ -67159,11 +67159,11 @@ RareScannerDB = {
 				15, -- [5]
 				0, -- [6]
 			},
-			[175543] = {
-				"|cff1eff00|Hitem:175543::::::::60:267:::::::|h[Blackthorn Helm]|h|r", -- [1]
+			[159161] = {
+				"|cff1eff00|Hitem:159161::::::::120:267::::::|h[Ashvane Company Greathelm]|h|r", -- [1]
 				2, -- [2]
 				"INVTYPE_HEAD", -- [3]
-				3447987, -- [4]
+				1727712, -- [4]
 				4, -- [5]
 				4, -- [6]
 			},
@@ -67183,14 +67183,6 @@ RareScannerDB = {
 				4, -- [5]
 				1, -- [6]
 			},
-			[187830] = {
-				"|cff0070dd|Hitem:187830::::::::60:267:::::::::|h[Design: Aealic Harmonizing Stone]|h|r", -- [1]
-				3, -- [2]
-				"", -- [3]
-				1392955, -- [4]
-				9, -- [5]
-				10, -- [6]
-			},
 			[7408] = {
 				"|cff1eff00|Hitem:7408::::::::60:267:::::::::|h[Infiltrator Shoulders]|h|r", -- [1]
 				2, -- [2]
@@ -67198,6 +67190,14 @@ RareScannerDB = {
 				135039, -- [4]
 				4, -- [5]
 				2, -- [6]
+			},
+			[187830] = {
+				"|cff0070dd|Hitem:187830::::::::60:267:::::::::|h[Design: Aealic Harmonizing Stone]|h|r", -- [1]
+				3, -- [2]
+				"", -- [3]
+				1392955, -- [4]
+				9, -- [5]
+				10, -- [6]
 			},
 			[7440] = {
 				"|cff1eff00|Hitem:7440::::::::48:103:::::::|h[Sentinel Trousers]|h|r", -- [1]
@@ -67207,13 +67207,13 @@ RareScannerDB = {
 				4, -- [5]
 				2, -- [6]
 			},
-			[7472] = {
-				"|cff1eff00|Hitem:7472::::::::50:267:::::::|h[Regal Boots]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_FEET", -- [3]
-				132539, -- [4]
-				4, -- [5]
-				1, -- [6]
+			[181687] = {
+				"|cff0070dd|Hitem:181687::::::::60:267:::::::::|h[Gorewrought Warglaive]|h|r", -- [1]
+				3, -- [2]
+				"INVTYPE_WEAPON", -- [3]
+				3256306, -- [4]
+				2, -- [5]
+				9, -- [6]
 			},
 			[182711] = {
 				"|cff9d9d9d|Hitem:182711::::::::60:267:::::::|h[Winner Caller's Warbler]|h|r", -- [1]
@@ -67327,13 +67327,13 @@ RareScannerDB = {
 				9, -- [5]
 				3, -- [6]
 			},
-			[159164] = {
-				"|cff1eff00|Hitem:159164::::::::120:267::::::|h[Ashvane Company Sabatons]|h|r", -- [1]
+			[175546] = {
+				"|cff1eff00|Hitem:175546::::::::60:267:::::::|h[Eventide Vest]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_FEET", -- [3]
-				1727708, -- [4]
+				"INVTYPE_CHEST", -- [3]
+				3514675, -- [4]
 				4, -- [5]
-				4, -- [6]
+				3, -- [6]
 			},
 			[181689] = {
 				"|cff0070dd|Hitem:181689::::::::60:267:::::::|h[Gorewrought Bonesaw]|h|r", -- [1]
@@ -67351,13 +67351,13 @@ RareScannerDB = {
 				15, -- [5]
 				0, -- [6]
 			},
-			[175546] = {
-				"|cff1eff00|Hitem:175546::::::::60:267:::::::|h[Eventide Vest]|h|r", -- [1]
+			[159164] = {
+				"|cff1eff00|Hitem:159164::::::::120:267::::::|h[Ashvane Company Sabatons]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_CHEST", -- [3]
-				3514675, -- [4]
+				"INVTYPE_FEET", -- [3]
+				1727708, -- [4]
 				4, -- [5]
-				3, -- [6]
+				4, -- [6]
 			},
 			[121057] = {
 				"|cff1eff00|Hitem:121057::::::::101:252::::::|h[Ettinbone Gauntlets]|h|r", -- [1]
@@ -67543,13 +67543,13 @@ RareScannerDB = {
 				1, -- [5]
 				0, -- [6]
 			},
-			[175549] = {
-				"|cff1eff00|Hitem:175549::::::::60:267:::::::|h[Shimmerbough Treads]|h|r", -- [1]
+			[159167] = {
+				"|cff1eff00|Hitem:159167::::::::120:267::::::|h[Freehold Bracers]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_FEET", -- [3]
-				3386274, -- [4]
+				"INVTYPE_WRIST", -- [3]
+				1733693, -- [4]
 				4, -- [5]
-				1, -- [6]
+				2, -- [6]
 			},
 			[181975] = {
 				"|cff1eff00|Hitem:181975::::::::60:267:::::::|h[Hardened Bones]|h|r", -- [1]
@@ -67895,14 +67895,6 @@ RareScannerDB = {
 				4, -- [5]
 				1, -- [6]
 			},
-			[106727] = {
-				"|cff1eff00|Hitem:106727::::::::50:267:::::::|h[Stonecrag Shield]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_SHIELD", -- [3]
-				930042, -- [4]
-				4, -- [5]
-				6, -- [6]
-			},
 			[180674] = {
 				"|cffffffff|Hitem:180674::::::::60:267:::::::::|h[Wand of Grumpiness]|h|r", -- [1]
 				1, -- [2]
@@ -67910,6 +67902,14 @@ RareScannerDB = {
 				648191, -- [4]
 				15, -- [5]
 				0, -- [6]
+			},
+			[106727] = {
+				"|cff1eff00|Hitem:106727::::::::50:267:::::::|h[Stonecrag Shield]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_SHIELD", -- [3]
+				930042, -- [4]
+				4, -- [5]
+				6, -- [6]
 			},
 			[181698] = {
 				"|cff1eff00|Hitem:181698::::::::60:267:::::::|h[Cryo-Freeze]|h|r", -- [1]
@@ -68031,13 +68031,13 @@ RareScannerDB = {
 				15, -- [5]
 				0, -- [6]
 			},
-			[106728] = {
-				"|cff1eff00|Hitem:106728::::::::50:267:::::::|h[Stonecrag Vambraces]|h|r", -- [1]
+			[180676] = {
+				"|cff1eff00|Hitem:180676::::::::60:267:::::::::|h[Discarded Commendation]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_WRIST", -- [3]
-				947551, -- [4]
-				4, -- [5]
-				4, -- [6]
+				"", -- [3]
+				134499, -- [4]
+				0, -- [5]
+				8, -- [6]
 			},
 			[181700] = {
 				"|cff1eff00|Hitem:181700::::::::60:267:::::::::|h[Scalding Brew]|h|r", -- [1]
@@ -68311,13 +68311,13 @@ RareScannerDB = {
 				12, -- [5]
 				0, -- [6]
 			},
-			[175561] = {
-				"|cff1eff00|Hitem:175561::::::::60:267:::::::|h[Eventide Leggings]|h|r", -- [1]
+			[116457] = {
+				"|cff1eff00|Hitem:116457::::::::120:577::::::|h[Frostbitten Axe]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_LEGS", -- [3]
-				3514678, -- [4]
-				4, -- [5]
-				3, -- [6]
+				"INVTYPE_WEAPON", -- [3]
+				921386, -- [4]
+				2, -- [5]
+				0, -- [6]
 			},
 			[184776] = {
 				"|cff0070dd|Hitem:184776::::::::60:267:::::::|h[Urn of Arena Soil]|h|r", -- [1]
@@ -68343,13 +68343,13 @@ RareScannerDB = {
 				0, -- [5]
 				8, -- [6]
 			},
-			[187848] = {
-				"|cff0070dd|Hitem:187848::::::::60:267:::::::::|h[Recipe: Sustaining Armor Polish]|h|r", -- [1]
+			[163275] = {
+				"|cff0070dd|Hitem:163275::::::::120:267::::::|h[7th Legionnaire's Cuffs]|h|r", -- [1]
 				3, -- [2]
-				"", -- [3]
-				1392955, -- [4]
-				9, -- [5]
-				6, -- [6]
+				"INVTYPE_WRIST", -- [3]
+				1866967, -- [4]
+				4, -- [5]
+				1, -- [6]
 			},
 			[102290] = {
 				"|cffa335ee|Hitem:102290::::::::60:267:::::::|h[Timeless Cloth Belt]|h|r", -- [1]
@@ -68575,13 +68575,13 @@ RareScannerDB = {
 				2, -- [5]
 				2, -- [6]
 			},
-			[95470] = {
-				"|cff0070dd|Hitem:95470::::::::120:577::::::|h[Design: Serpent's Heart]|h|r", -- [1]
-				3, -- [2]
-				"", -- [3]
-				134941, -- [4]
-				9, -- [5]
-				10, -- [6]
+			[9889] = {
+				"|cff1eff00|Hitem:9889::::::::50:267:::::::|h[Huntsman's Cap]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_HEAD", -- [3]
+				132514, -- [4]
+				4, -- [5]
+				2, -- [6]
 			},
 			[169422] = {
 				"|cff1eff00|Hitem:169422::::::::120:267::::::|h[Wavecrash Smashers]|h|r", -- [1]
@@ -68591,11 +68591,11 @@ RareScannerDB = {
 				4, -- [5]
 				4, -- [6]
 			},
-			[121067] = {
-				"|cff1eff00|Hitem:121067::::::::100:252::::::|h[Thunder Totem Cloak]|h|r", -- [1]
-				2, -- [2]
+			[184781] = {
+				"|cffa335ee|Hitem:184781::::::::60:267:::::::::|h[Fate-Sewn Shawl]|h|r", -- [1]
+				4, -- [2]
 				"INVTYPE_CLOAK", -- [3]
-				1325257, -- [4]
+				3395743, -- [4]
 				4, -- [5]
 				1, -- [6]
 			},
@@ -68615,21 +68615,21 @@ RareScannerDB = {
 				0, -- [5]
 				8, -- [6]
 			},
-			[181709] = {
-				"|cff1eff00|Hitem:181709::::::::60:267:::::::|h[Unnerving Focus]|h|r", -- [1]
-				2, -- [2]
-				"", -- [3]
-				571316, -- [4]
-				0, -- [5]
-				8, -- [6]
-			},
-			[9889] = {
-				"|cff1eff00|Hitem:9889::::::::50:267:::::::|h[Huntsman's Cap]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_HEAD", -- [3]
-				132514, -- [4]
+			[189900] = {
+				"|cff0070dd|Hitem:189900::::::::60:267:::::::::|h[Vexis' Gentle Heartcloth]|h|r", -- [1]
+				3, -- [2]
+				"INVTYPE_CHEST", -- [3]
+				4076046, -- [4]
 				4, -- [5]
-				2, -- [6]
+				1, -- [6]
+			},
+			[95470] = {
+				"|cff0070dd|Hitem:95470::::::::120:577::::::|h[Design: Serpent's Heart]|h|r", -- [1]
+				3, -- [2]
+				"", -- [3]
+				134941, -- [4]
+				9, -- [5]
+				10, -- [6]
 			},
 			[9953] = {
 				"|cff1eff00|Hitem:9953::::::::50:267:::::::|h[Chieftain's Headdress]|h|r", -- [1]
@@ -68639,11 +68639,11 @@ RareScannerDB = {
 				4, -- [5]
 				2, -- [6]
 			},
-			[184781] = {
-				"|cffa335ee|Hitem:184781::::::::60:267:::::::::|h[Fate-Sewn Shawl]|h|r", -- [1]
-				4, -- [2]
+			[121067] = {
+				"|cff1eff00|Hitem:121067::::::::100:252::::::|h[Thunder Totem Cloak]|h|r", -- [1]
+				2, -- [2]
 				"INVTYPE_CLOAK", -- [3]
-				3395743, -- [4]
+				1325257, -- [4]
 				4, -- [5]
 				1, -- [6]
 			},
@@ -68807,13 +68807,13 @@ RareScannerDB = {
 				0, -- [5]
 				8, -- [6]
 			},
-			[189903] = {
-				"|cff0070dd|Hitem:189903::::::::60:267:::::::::|h[Sand Sifting Sandals]|h|r", -- [1]
-				3, -- [2]
-				"INVTYPE_FEET", -- [3]
-				4076043, -- [4]
-				4, -- [5]
-				1, -- [6]
+			[181712] = {
+				"|cff1eff00|Hitem:181712::::::::60:267:::::::|h[Depths of Insanity]|h|r", -- [1]
+				2, -- [2]
+				"", -- [3]
+				136218, -- [4]
+				0, -- [5]
+				8, -- [6]
 			},
 			[182736] = {
 				"|cff1eff00|Hitem:182736::::::::60:267:::::::|h[Rolling Agony]|h|r", -- [1]
@@ -68887,13 +68887,13 @@ RareScannerDB = {
 				4, -- [5]
 				2, -- [6]
 			},
-			[175570] = {
-				"|cff1eff00|Hitem:175570::::::::60:267:::::::|h[Duskthistle Belt]|h|r", -- [1]
+			[159188] = {
+				"|cff1eff00|Hitem:159188::::::::120:267::::::|h[Foxhollow Sandals]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_WAIST", -- [3]
-				3313819, -- [4]
+				"INVTYPE_FEET", -- [3]
+				1698802, -- [4]
 				4, -- [5]
-				2, -- [6]
+				1, -- [6]
 			},
 			[158868] = {
 				"|cff9d9d9d|Hitem:158868::::::::60:267:::::::|h[Golden Ornament]|h|r", -- [1]
@@ -68943,13 +68943,13 @@ RareScannerDB = {
 				2, -- [5]
 				5, -- [6]
 			},
-			[163285] = {
-				"|cff0070dd|Hitem:163285::::::::120:267::::::|h[Honorbound Artificer's Sandals]|h|r", -- [1]
-				3, -- [2]
-				"INVTYPE_FEET", -- [3]
-				1706375, -- [4]
-				4, -- [5]
-				1, -- [6]
+			[146903] = {
+				"|cff1eff00|Hitem:146903::::::::120:267::::::|h[Sentinax Beacon of Domination]|h|r", -- [1]
+				2, -- [2]
+				"", -- [3]
+				237205, -- [4]
+				0, -- [5]
+				8, -- [6]
 			},
 			[116462] = {
 				"|cff1eff00|Hitem:116462::::::::120:577::::::|h[Coldsinger Spellblade]|h|r", -- [1]
@@ -68983,13 +68983,13 @@ RareScannerDB = {
 				4, -- [5]
 				3, -- [6]
 			},
-			[146903] = {
-				"|cff1eff00|Hitem:146903::::::::120:267::::::|h[Sentinax Beacon of Domination]|h|r", -- [1]
-				2, -- [2]
-				"", -- [3]
-				237205, -- [4]
-				0, -- [5]
-				8, -- [6]
+			[163285] = {
+				"|cff0070dd|Hitem:163285::::::::120:267::::::|h[Honorbound Artificer's Sandals]|h|r", -- [1]
+				3, -- [2]
+				"INVTYPE_FEET", -- [3]
+				1706375, -- [4]
+				4, -- [5]
+				1, -- [6]
 			},
 			[180691] = {
 				"|cff0070dd|Hitem:180691::::::::60:267:::::::|h[Obscuring Ash Cloud]|h|r", -- [1]
@@ -69199,13 +69199,13 @@ RareScannerDB = {
 				4, -- [5]
 				1, -- [6]
 			},
-			[146907] = {
-				"|cff1eff00|Hitem:146907::::::::120:267::::::|h[Sentinax Beacon of Warbeasts]|h|r", -- [1]
+			[7409] = {
+				"|cff1eff00|Hitem:7409::::::::60:267:::::::::|h[Infiltrator Boots]|h|r", -- [1]
 				2, -- [2]
-				"", -- [3]
-				237203, -- [4]
-				0, -- [5]
-				8, -- [6]
+				"INVTYPE_FEET", -- [3]
+				132539, -- [4]
+				4, -- [5]
+				2, -- [6]
 			},
 			[159193] = {
 				"|cff1eff00|Hitem:159193::::::::120:577::::::|h[Brineworks Girdle]|h|r", -- [1]
@@ -69223,11 +69223,11 @@ RareScannerDB = {
 				4, -- [5]
 				2, -- [6]
 			},
-			[189910] = {
-				"|cff0070dd|Hitem:189910::::::::60:267:::::::::|h[Adornment of Jingling Fractals]|h|r", -- [1]
-				3, -- [2]
+			[7473] = {
+				"|cff1eff00|Hitem:7473::::::::50:267:::::::|h[Regal Mantle]|h|r", -- [1]
+				2, -- [2]
 				"INVTYPE_SHOULDER", -- [3]
-				4076050, -- [4]
+				135033, -- [4]
 				4, -- [5]
 				1, -- [6]
 			},
@@ -69239,13 +69239,13 @@ RareScannerDB = {
 				4, -- [5]
 				2, -- [6]
 			},
-			[7409] = {
-				"|cff1eff00|Hitem:7409::::::::60:267:::::::::|h[Infiltrator Boots]|h|r", -- [1]
+			[146907] = {
+				"|cff1eff00|Hitem:146907::::::::120:267::::::|h[Sentinax Beacon of Warbeasts]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_FEET", -- [3]
-				132539, -- [4]
-				4, -- [5]
-				2, -- [6]
+				"", -- [3]
+				237203, -- [4]
+				0, -- [5]
+				8, -- [6]
 			},
 			[7441] = {
 				"|cff1eff00|Hitem:7441::::::::48:103:::::::|h[Sentinel Cap]|h|r", -- [1]
@@ -69255,11 +69255,11 @@ RareScannerDB = {
 				4, -- [5]
 				2, -- [6]
 			},
-			[7473] = {
-				"|cff1eff00|Hitem:7473::::::::50:267:::::::|h[Regal Mantle]|h|r", -- [1]
-				2, -- [2]
+			[189910] = {
+				"|cff0070dd|Hitem:189910::::::::60:267:::::::::|h[Adornment of Jingling Fractals]|h|r", -- [1]
+				3, -- [2]
 				"INVTYPE_SHOULDER", -- [3]
-				135033, -- [4]
+				4076050, -- [4]
 				4, -- [5]
 				1, -- [6]
 			},
@@ -69495,13 +69495,13 @@ RareScannerDB = {
 				4, -- [5]
 				4, -- [6]
 			},
-			[189914] = {
-				"|cff0070dd|Hitem:189914::::::::60:267:::::::::|h[Otiosen's Regenerative Wristwraps]|h|r", -- [1]
-				3, -- [2]
-				"INVTYPE_WRIST", -- [3]
-				4076044, -- [4]
-				4, -- [5]
-				1, -- [6]
+			[181723] = {
+				"|cff9d9d9d|Hitem:181723::::::::60:267:::::::|h[Meticulously Pickled Head]|h|r", -- [1]
+				0, -- [2]
+				"", -- [3]
+				443381, -- [4]
+				15, -- [5]
+				0, -- [6]
 			},
 			[121074] = {
 				"|cff1eff00|Hitem:121074::::::::101:252::::::|h[Icepine Britches]|h|r", -- [1]
@@ -69511,13 +69511,13 @@ RareScannerDB = {
 				4, -- [5]
 				2, -- [6]
 			},
-			[181723] = {
-				"|cff9d9d9d|Hitem:181723::::::::60:267:::::::|h[Meticulously Pickled Head]|h|r", -- [1]
-				0, -- [2]
-				"", -- [3]
-				443381, -- [4]
-				15, -- [5]
-				0, -- [6]
+			[189914] = {
+				"|cff0070dd|Hitem:189914::::::::60:267:::::::::|h[Otiosen's Regenerative Wristwraps]|h|r", -- [1]
+				3, -- [2]
+				"INVTYPE_WRIST", -- [3]
+				4076044, -- [4]
+				4, -- [5]
+				1, -- [6]
 			},
 			[182747] = {
 				"|cff1eff00|Hitem:182747::::::::60:267:::::::|h[Cold Embrace]|h|r", -- [1]
@@ -69575,13 +69575,13 @@ RareScannerDB = {
 				4, -- [5]
 				1, -- [6]
 			},
-			[189915] = {
-				"|cff0070dd|Hitem:189915::::::::60:267:::::::::|h[Tahkwitz' Cloth Ribbon]|h|r", -- [1]
-				3, -- [2]
-				"INVTYPE_WRIST", -- [3]
-				4076044, -- [4]
-				4, -- [5]
-				1, -- [6]
+			[181724] = {
+				"|cff9d9d9d|Hitem:181724::::::::60:267:::::::|h[Tactics Vol. 83: Exploitation of Weather]|h|r", -- [1]
+				0, -- [2]
+				"", -- [3]
+				133740, -- [4]
+				15, -- [5]
+				0, -- [6]
 			},
 			[182748] = {
 				"|cff1eff00|Hitem:182748::::::::60:267:::::::|h[Borne of Blood]|h|r", -- [1]
@@ -69863,13 +69863,13 @@ RareScannerDB = {
 				2, -- [5]
 				4, -- [6]
 			},
-			[121077] = {
-				"|cff1eff00|Hitem:121077::::::::100:252::::::|h[Icepine Jerkin]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_CHEST", -- [3]
-				1115104, -- [4]
-				4, -- [5]
-				2, -- [6]
+			[184801] = {
+				"|cffa335ee|Hitem:184801::::::::60:267:::::::|h[Locke's Essential Scepter]|h|r", -- [1]
+				4, -- [2]
+				"INVTYPE_WEAPON", -- [3]
+				3554193, -- [4]
+				2, -- [5]
+				4, -- [6]
 			},
 			[170466] = {
 				"|cffa335ee|Hitem:170466::::::::120:267::::::|h[Junkyard Motivator]|h|r", -- [1]
@@ -69919,13 +69919,13 @@ RareScannerDB = {
 				4, -- [5]
 				2, -- [6]
 			},
-			[184801] = {
-				"|cffa335ee|Hitem:184801::::::::60:267:::::::|h[Locke's Essential Scepter]|h|r", -- [1]
-				4, -- [2]
-				"INVTYPE_WEAPON", -- [3]
-				3554193, -- [4]
-				2, -- [5]
-				4, -- [6]
+			[121077] = {
+				"|cff1eff00|Hitem:121077::::::::100:252::::::|h[Icepine Jerkin]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_CHEST", -- [3]
+				1115104, -- [4]
+				4, -- [5]
+				2, -- [6]
 			},
 			[181730] = {
 				"|cff9d9d9d|Hitem:181730::::::::60:267:::::::|h[Forged Oxxein Whetstone]|h|r", -- [1]
@@ -69975,13 +69975,13 @@ RareScannerDB = {
 				4, -- [5]
 				3, -- [6]
 			},
-			[116470] = {
-				"|cff1eff00|Hitem:116470::::::::120:577::::::|h[Frostbitten Staff]|h|r", -- [1]
+			[159205] = {
+				"|cff1eff00|Hitem:159205::::::::50:260:::::::|h[Briarback Vest]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_2HWEAPON", -- [3]
-				922707, -- [4]
-				2, -- [5]
-				10, -- [6]
+				"INVTYPE_CHEST", -- [3]
+				1733695, -- [4]
+				4, -- [5]
+				2, -- [6]
 			},
 			[184802] = {
 				"|cffa335ee|Hitem:184802::::::::60:267:::::::|h[Jenrette's Jagged Warglaive]|h|r", -- [1]
@@ -69991,13 +69991,13 @@ RareScannerDB = {
 				2, -- [5]
 				9, -- [6]
 			},
-			[111351] = {
-				"|cff0070dd|Hitem:111351::::::::50:267:::::::|h[A Guide to Skinning in Draenor]|h|r", -- [1]
+			[189922] = {
+				"|cff0070dd|Hitem:189922::::::::60:267:::::::::|h[Cowl of Shameful Proliferation]|h|r", -- [1]
 				3, -- [2]
-				"", -- [3]
-				134939, -- [4]
-				9, -- [5]
-				0, -- [6]
+				"INVTYPE_HEAD", -- [3]
+				4176680, -- [4]
+				4, -- [5]
+				2, -- [6]
 			},
 			[170468] = {
 				"|cffa335ee|Hitem:170468::::::::120:267::::::|h[Supervolt Zapper]|h|r", -- [1]
@@ -70023,13 +70023,13 @@ RareScannerDB = {
 				0, -- [5]
 				8, -- [6]
 			},
-			[189922] = {
-				"|cff0070dd|Hitem:189922::::::::60:267:::::::::|h[Cowl of Shameful Proliferation]|h|r", -- [1]
+			[111351] = {
+				"|cff0070dd|Hitem:111351::::::::50:267:::::::|h[A Guide to Skinning in Draenor]|h|r", -- [1]
 				3, -- [2]
-				"INVTYPE_HEAD", -- [3]
-				4176680, -- [4]
-				4, -- [5]
-				2, -- [6]
+				"", -- [3]
+				134939, -- [4]
+				9, -- [5]
+				0, -- [6]
 			},
 			[182755] = {
 				"|cff1eff00|Hitem:182755::::::::60:267:::::::|h[Ashen Remains]|h|r", -- [1]
@@ -70135,13 +70135,13 @@ RareScannerDB = {
 				4, -- [5]
 				2, -- [6]
 			},
-			[190948] = {
-				"|cffa335ee|Hitem:190948::::::::60:267:::::::::|h[Staff of the Dormant Oracle]|h|r", -- [1]
-				4, -- [2]
-				"INVTYPE_2HWEAPON", -- [3]
-				3850789, -- [4]
-				2, -- [5]
-				10, -- [6]
+			[182757] = {
+				"|cff9d9d9d|Hitem:182757::::::::60:267:::::::|h[Redelav Silver Set]|h|r", -- [1]
+				0, -- [2]
+				"", -- [3]
+				134062, -- [4]
+				15, -- [5]
+				0, -- [6]
 			},
 			[180709] = {
 				"|cff1eff00|Hitem:180709::::::::60:267:::::::::|h[Tempered Armor Patch]|h|r", -- [1]
@@ -70159,13 +70159,13 @@ RareScannerDB = {
 				4, -- [5]
 				2, -- [6]
 			},
-			[182757] = {
-				"|cff9d9d9d|Hitem:182757::::::::60:267:::::::|h[Redelav Silver Set]|h|r", -- [1]
-				0, -- [2]
-				"", -- [3]
-				134062, -- [4]
-				15, -- [5]
-				0, -- [6]
+			[190948] = {
+				"|cffa335ee|Hitem:190948::::::::60:267:::::::::|h[Staff of the Dormant Oracle]|h|r", -- [1]
+				4, -- [2]
+				"INVTYPE_2HWEAPON", -- [3]
+				3850789, -- [4]
+				2, -- [5]
+				10, -- [6]
 			},
 			[136592] = {
 				"|cffffffff|Hitem:136592::::::::50:260:::::::|h[Fel Essence]|h|r", -- [1]
@@ -70207,13 +70207,13 @@ RareScannerDB = {
 				4, -- [5]
 				2, -- [6]
 			},
-			[106745] = {
-				"|cff1eff00|Hitem:106745::::::::50:267:::::::|h[Packrunner Belt]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_WAIST", -- [3]
-				944239, -- [4]
-				4, -- [5]
-				3, -- [6]
+			[180710] = {
+				"|cff0070dd|Hitem:180710::::::::60:267:::::::::|h[Pocket Repair Kit]|h|r", -- [1]
+				3, -- [2]
+				"", -- [3]
+				1059112, -- [4]
+				0, -- [5]
+				8, -- [6]
 			},
 			[181734] = {
 				"|cff1eff00|Hitem:181734::::::::60:267:::::::|h[Magi's Brand]|h|r", -- [1]
@@ -70271,14 +70271,6 @@ RareScannerDB = {
 				2, -- [5]
 				4, -- [6]
 			},
-			[181735] = {
-				"|cff1eff00|Hitem:181735::::::::60:267:::::::|h[Hack and Slash]|h|r", -- [1]
-				2, -- [2]
-				"", -- [3]
-				1269440, -- [4]
-				0, -- [5]
-				8, -- [6]
-			},
 			[189926] = {
 				"|cff0070dd|Hitem:189926::::::::60:267:::::::::|h[Poison-Licked Spaulders]|h|r", -- [1]
 				3, -- [2]
@@ -70287,13 +70279,21 @@ RareScannerDB = {
 				4, -- [5]
 				2, -- [6]
 			},
-			[190950] = {
-				"|cffa335ee|Hitem:190950::::::::60:267:::::::::|h[Gavel of Lost Purpose]|h|r", -- [1]
-				4, -- [2]
-				"INVTYPE_WEAPON", -- [3]
-				3852420, -- [4]
-				2, -- [5]
-				4, -- [6]
+			[181735] = {
+				"|cff1eff00|Hitem:181735::::::::60:267:::::::|h[Hack and Slash]|h|r", -- [1]
+				2, -- [2]
+				"", -- [3]
+				1269440, -- [4]
+				0, -- [5]
+				8, -- [6]
+			},
+			[182759] = {
+				"|cff0070dd|Hitem:182759::::::::54:267:::::::|h[Functioning Anima Core]|h|r", -- [1]
+				3, -- [2]
+				"", -- [3]
+				133018, -- [4]
+				12, -- [5]
+				0, -- [6]
 			},
 			[179363] = {
 				"|cff1eff00|Hitem:179363::::::::59:267:::::::|h['Misplaced' Anima Tolls]|h|r", -- [1]
@@ -70911,27 +70911,27 @@ RareScannerDB = {
 				4, -- [5]
 				4, -- [6]
 			},
-			[128252] = {
-				"|cff0070dd|Hitem:128252::::::::120:267::::::|h[Equipment Blueprint: True Iron Rudder]|h|r", -- [1]
-				3, -- [2]
-				"", -- [3]
-				1001491, -- [4]
-				0, -- [5]
-				8, -- [6]
-			},
-			[181745] = {
-				"|cff0070dd|Hitem:181745::::::::60:267:::::::::|h[Forgesmith's Coal]|h|r", -- [1]
-				3, -- [2]
-				"", -- [3]
-				1020348, -- [4]
-				15, -- [5]
-				4, -- [6]
-			},
 			[182769] = {
 				"|cff1eff00|Hitem:182769::::::::60:267:::::::|h[Combusting Engine]|h|r", -- [1]
 				2, -- [2]
 				"", -- [3]
 				524793, -- [4]
+				0, -- [5]
+				8, -- [6]
+			},
+			[189936] = {
+				"|cff0070dd|Hitem:189936::::::::60:267:::::::::|h[Feasting's Feeding Cloak]|h|r", -- [1]
+				3, -- [2]
+				"INVTYPE_CLOAK", -- [3]
+				4076045, -- [4]
+				4, -- [5]
+				1, -- [6]
+			},
+			[128252] = {
+				"|cff0070dd|Hitem:128252::::::::120:267::::::|h[Equipment Blueprint: True Iron Rudder]|h|r", -- [1]
+				3, -- [2]
+				"", -- [3]
+				1001491, -- [4]
 				0, -- [5]
 				8, -- [6]
 			},
@@ -71127,13 +71127,13 @@ RareScannerDB = {
 				2, -- [5]
 				13, -- [6]
 			},
-			[159223] = {
-				"|cff1eff00|Hitem:159223::::::::51:254:::::::|h[Sagehold Bracers]|h|r", -- [1]
+			[116479] = {
+				"|cff1eff00|Hitem:116479::::::::120:577::::::|h[Moonwhisper Spellblade]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_WRIST", -- [3]
-				1698803, -- [4]
-				4, -- [5]
-				1, -- [6]
+				"INVTYPE_WEAPON", -- [3]
+				926765, -- [4]
+				2, -- [5]
+				15, -- [6]
 			},
 			[160120] = {
 				"|cff1eff00|Hitem:160120::::::::120:260::::::|h[Direbone Frill Gauntlets]|h|r", -- [1]
@@ -71439,11 +71439,11 @@ RareScannerDB = {
 				4, -- [5]
 				3, -- [6]
 			},
-			[182777] = {
-				"|cff1eff00|Hitem:182777::::::::60:267:::::::::|h[Hallowed Discernment]|h|r", -- [1]
-				2, -- [2]
+			[128256] = {
+				"|cff0070dd|Hitem:128256::::::::120:577::::::|h[Equipment Blueprint: Gyroscopic Internal Stabilizer]|h|r", -- [1]
+				3, -- [2]
 				"", -- [3]
-				3528309, -- [4]
+				1001491, -- [4]
 				0, -- [5]
 				8, -- [6]
 			},
@@ -71487,13 +71487,13 @@ RareScannerDB = {
 				4, -- [5]
 				3, -- [6]
 			},
-			[82182] = {
-				"|cff1eff00|Hitem:82182::::::::33:254:::::::|h[Snowy Pauldrons]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_SHOULDER", -- [3]
-				647909, -- [4]
-				4, -- [5]
-				4, -- [6]
+			[180730] = {
+				"|cffa335ee|Hitem:180730::::::::60:267:::::::|h[Wild Glimmerfur Prowler]|h|r", -- [1]
+				4, -- [2]
+				"", -- [3]
+				3747448, -- [4]
+				15, -- [5]
+				5, -- [6]
 			},
 			[94227] = {
 				"|cff0070dd|Hitem:94227::::::::50:577:::::::|h[Stolen Golden Lotus Insignia]|h|r", -- [1]
@@ -72503,13 +72503,13 @@ RareScannerDB = {
 				4, -- [5]
 				1, -- [6]
 			},
-			[189961] = {
-				"|cff0070dd|Hitem:189961::::::::60:267:::::::::|h[Enduring Protector's Shoulderguards]|h|r", -- [1]
-				3, -- [2]
-				"INVTYPE_SHOULDER", -- [3]
-				4096876, -- [4]
-				4, -- [5]
-				4, -- [6]
+			[181770] = {
+				"|cff1eff00|Hitem:181770::::::::60:267:::::::::|h[Bone Marrow Hops]|h|r", -- [1]
+				2, -- [2]
+				"", -- [3]
+				3528295, -- [4]
+				0, -- [5]
+				8, -- [6]
 			},
 			[82190] = {
 				"|cff1eff00|Hitem:82190::::::::50:267:::::::|h[Mountain Helm]|h|r", -- [1]
@@ -72519,13 +72519,13 @@ RareScannerDB = {
 				4, -- [5]
 				3, -- [6]
 			},
-			[181770] = {
-				"|cff1eff00|Hitem:181770::::::::60:267:::::::::|h[Bone Marrow Hops]|h|r", -- [1]
-				2, -- [2]
-				"", -- [3]
-				3528295, -- [4]
-				0, -- [5]
-				8, -- [6]
+			[189961] = {
+				"|cff0070dd|Hitem:189961::::::::60:267:::::::::|h[Enduring Protector's Shoulderguards]|h|r", -- [1]
+				3, -- [2]
+				"INVTYPE_SHOULDER", -- [3]
+				4096876, -- [4]
+				4, -- [5]
+				4, -- [6]
 			},
 			[175957] = {
 				"|cff9d9d9d|Hitem:175957::::::::51:267:::::::|h[Fleecy Paw]|h|r", -- [1]
@@ -72671,21 +72671,21 @@ RareScannerDB = {
 				2, -- [5]
 				0, -- [6]
 			},
-			[9829] = {
-				"|cff1eff00|Hitem:9829::::::::120:267::::::|h[Scaled Leather Bracers]|h|r", -- [1]
+			[189964] = {
+				"|cff0070dd|Hitem:189964::::::::60:267:::::::::|h[Multi-Faceted Belt]|h|r", -- [1]
+				3, -- [2]
+				"INVTYPE_WAIST", -- [3]
+				4096868, -- [4]
+				4, -- [5]
+				4, -- [6]
+			},
+			[9893] = {
+				"|cff1eff00|Hitem:9893::::::::50:267:::::::|h[Huntsman's Leggings]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_WRIST", -- [3]
-				132602, -- [4]
+				"INVTYPE_LEGS", -- [3]
+				134594, -- [4]
 				4, -- [5]
 				2, -- [6]
-			},
-			[158224] = {
-				"|cff0070dd|Hitem:158224::::::::60:577:::::::|h[Vial of Storms]|h|r", -- [1]
-				3, -- [2]
-				"INVTYPE_TRINKET", -- [3]
-				134800, -- [4]
-				4, -- [5]
-				0, -- [6]
 			},
 			[1205] = {
 				"|cffffffff|Hitem:1205::::::::120:267::::::|h[Melon Juice]|h|r", -- [1]
@@ -72695,13 +72695,13 @@ RareScannerDB = {
 				0, -- [5]
 				5, -- [6]
 			},
-			[82192] = {
-				"|cff1eff00|Hitem:82192::::::::120:577::::::|h[Mountain Spaulders]|h|r", -- [1]
+			[10277] = {
+				"|cff1eff00|Hitem:10277::::::::110:103::::::|h[Emerald Gauntlets]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_SHOULDER", -- [3]
-				603663, -- [4]
+				"INVTYPE_HAND", -- [3]
+				132938, -- [4]
 				4, -- [5]
-				3, -- [6]
+				4, -- [6]
 			},
 			[9765] = {
 				"|cff1eff00|Hitem:9765::::::::60:267:::::::|h[Cadet Vest]|h|r", -- [1]
@@ -72711,13 +72711,13 @@ RareScannerDB = {
 				4, -- [5]
 				3, -- [6]
 			},
-			[189964] = {
-				"|cff0070dd|Hitem:189964::::::::60:267:::::::::|h[Multi-Faceted Belt]|h|r", -- [1]
-				3, -- [2]
-				"INVTYPE_WAIST", -- [3]
-				4096868, -- [4]
+			[9829] = {
+				"|cff1eff00|Hitem:9829::::::::120:267::::::|h[Scaled Leather Bracers]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_WRIST", -- [3]
+				132602, -- [4]
 				4, -- [5]
-				4, -- [6]
+				2, -- [6]
 			},
 			[182797] = {
 				"|cff9d9d9d|Hitem:182797::::::::60:267:::::::|h[Pugilist Ring Rules]|h|r", -- [1]
@@ -72767,13 +72767,13 @@ RareScannerDB = {
 				7, -- [5]
 				8, -- [6]
 			},
-			[10277] = {
-				"|cff1eff00|Hitem:10277::::::::110:103::::::|h[Emerald Gauntlets]|h|r", -- [1]
+			[82192] = {
+				"|cff1eff00|Hitem:82192::::::::120:577::::::|h[Mountain Spaulders]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_HAND", -- [3]
-				132938, -- [4]
+				"INVTYPE_SHOULDER", -- [3]
+				603663, -- [4]
 				4, -- [5]
-				4, -- [6]
+				3, -- [6]
 			},
 			[181774] = {
 				"|cff1eff00|Hitem:181774::::::::60:267:::::::::|h[Imbued Reflections]|h|r", -- [1]
@@ -72855,13 +72855,13 @@ RareScannerDB = {
 				9, -- [5]
 				10, -- [6]
 			},
-			[82193] = {
-				"|cff1eff00|Hitem:82193::::::::120:577::::::|h[Mountain Vest]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_CHEST", -- [3]
-				603658, -- [4]
-				4, -- [5]
-				3, -- [6]
+			[1413] = {
+				"|cff9d9d9d|Hitem:1413::::::::60:267:::::::|h[Feeble Sword]|h|r", -- [1]
+				0, -- [2]
+				"INVTYPE_WEAPON", -- [3]
+				135274, -- [4]
+				2, -- [5]
+				7, -- [6]
 			},
 			[121100] = {
 				"|cff1eff00|Hitem:121100::::::::101:252::::::|h[Hillstride Legguards]|h|r", -- [1]
@@ -72895,13 +72895,13 @@ RareScannerDB = {
 				0, -- [5]
 				8, -- [6]
 			},
-			[1413] = {
-				"|cff9d9d9d|Hitem:1413::::::::60:267:::::::|h[Feeble Sword]|h|r", -- [1]
-				0, -- [2]
-				"INVTYPE_WEAPON", -- [3]
-				135274, -- [4]
-				2, -- [5]
-				7, -- [6]
+			[82193] = {
+				"|cff1eff00|Hitem:82193::::::::120:577::::::|h[Mountain Vest]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_CHEST", -- [3]
+				603658, -- [4]
+				4, -- [5]
+				3, -- [6]
 			},
 			[189967] = {
 				"|cff0070dd|Hitem:189967::::::::60:267:::::::::|h[Hood of Star Topology]|h|r", -- [1]
@@ -73119,13 +73119,13 @@ RareScannerDB = {
 				15, -- [5]
 				2, -- [6]
 			},
-			[121102] = {
-				"|cff1eff00|Hitem:121102::::::::100:252::::::|h[Hillstride Vest]|h|r", -- [1]
+			[52364] = {
+				"|cff1eff00|Hitem:52364::::::::50:267:::::::|h[Design: Stormy Zephyrite]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_CHEST", -- [3]
-				1116924, -- [4]
-				4, -- [5]
-				3, -- [6]
+				"", -- [3]
+				134942, -- [4]
+				9, -- [5]
+				10, -- [6]
 			},
 			[6579] = {
 				"|cffffffff|Hitem:6579::::::::50:267:::::::|h[Defender Spaulders]|h|r", -- [1]
@@ -73239,13 +73239,13 @@ RareScannerDB = {
 				4, -- [5]
 				3, -- [6]
 			},
-			[153113] = {
-				"|cff0070dd|Hitem:153113::::::::120:267::::::|h[Demon's Soulstone]|h|r", -- [1]
-				3, -- [2]
+			[169495] = {
+				"|cffa335ee|Hitem:169495::::::::60:267:::::::::|h[Recipe: Superior Battle Potion of Agility]|h|r", -- [1]
+				4, -- [2]
 				"", -- [3]
-				134336, -- [4]
-				0, -- [5]
-				8, -- [6]
+				1387622, -- [4]
+				9, -- [5]
+				6, -- [6]
 			},
 			[121103] = {
 				"|cff1eff00|Hitem:121103::::::::100:252::::::|h[Hagfeather Cord]|h|r", -- [1]
@@ -73255,13 +73255,13 @@ RareScannerDB = {
 				4, -- [5]
 				1, -- [6]
 			},
-			[169495] = {
-				"|cffa335ee|Hitem:169495::::::::60:267:::::::::|h[Recipe: Superior Battle Potion of Agility]|h|r", -- [1]
-				4, -- [2]
+			[153113] = {
+				"|cff0070dd|Hitem:153113::::::::120:267::::::|h[Demon's Soulstone]|h|r", -- [1]
+				3, -- [2]
 				"", -- [3]
-				1387622, -- [4]
-				9, -- [5]
-				6, -- [6]
+				134336, -- [4]
+				0, -- [5]
+				8, -- [6]
 			},
 			[67132] = {
 				"|cffa335ee|Hitem:67132::::::::120:267::::::|h[Grips of the Failed Immortal]|h|r", -- [1]
@@ -73487,14 +73487,6 @@ RareScannerDB = {
 				15, -- [5]
 				4, -- [6]
 			},
-			[159260] = {
-				"|cff1eff00|Hitem:159260::::::::120:577::::::|h[Briarback Greatcloak]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_CLOAK", -- [3]
-				1733694, -- [4]
-				4, -- [5]
-				1, -- [6]
-			},
 			[183833] = {
 				"|cff1eff00|Hitem:183833::::::::60:267:::::::|h[Kash's Bag of Junk]|h|r", -- [1]
 				2, -- [2]
@@ -73502,6 +73494,14 @@ RareScannerDB = {
 				133648, -- [4]
 				15, -- [5]
 				4, -- [6]
+			},
+			[159260] = {
+				"|cff1eff00|Hitem:159260::::::::120:577::::::|h[Briarback Greatcloak]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_CLOAK", -- [3]
+				1733694, -- [4]
+				4, -- [5]
+				1, -- [6]
 			},
 			[153117] = {
 				"|cff0070dd|Hitem:153117::::::::120:267::::::|h[Wyrmtongue Cache of Supplies]|h|r", -- [1]
@@ -73879,14 +73879,6 @@ RareScannerDB = {
 				4, -- [5]
 				4, -- [6]
 			},
-			[52367] = {
-				"|cff1eff00|Hitem:52367::::::::50:267:::::::|h[Design: Guardian's Nightstone]|h|r", -- [1]
-				2, -- [2]
-				"", -- [3]
-				134942, -- [4]
-				9, -- [5]
-				10, -- [6]
-			},
 			[121108] = {
 				"|cff1eff00|Hitem:121108::::::::100:252::::::|h[Hagfeather Sandals]|h|r", -- [1]
 				2, -- [2]
@@ -73895,11 +73887,19 @@ RareScannerDB = {
 				4, -- [5]
 				1, -- [6]
 			},
-			[113429] = {
-				"|cffffffff|Hitem:113429::::::::120:577::::::|h[Cracked Hand Drum]|h|r", -- [1]
-				1, -- [2]
+			[52367] = {
+				"|cff1eff00|Hitem:52367::::::::50:267:::::::|h[Design: Guardian's Nightstone]|h|r", -- [1]
+				2, -- [2]
 				"", -- [3]
-				1001627, -- [4]
+				134942, -- [4]
+				9, -- [5]
+				10, -- [6]
+			},
+			[153123] = {
+				"|cff1eff00|Hitem:153123::::::::50:267:::::::|h[Cracked Radinax Control Gem]|h|r", -- [1]
+				2, -- [2]
+				"", -- [3]
+				628559, -- [4]
 				15, -- [5]
 				4, -- [6]
 			},
@@ -74079,14 +74079,6 @@ RareScannerDB = {
 				2, -- [5]
 				6, -- [6]
 			},
-			[177699] = {
-				"|cff0070dd|Hitem:177699::::::::60:267:::::::::|h[Greater Untamed Spirit]|h|r", -- [1]
-				3, -- [2]
-				"", -- [3]
-				3528280, -- [4]
-				0, -- [5]
-				8, -- [6]
-			},
 			[153126] = {
 				"|cff0070dd|Hitem:153126::::::::60:267:::::::|h[Micro-Artillery Controller]|h|r", -- [1]
 				3, -- [2]
@@ -74094,6 +74086,14 @@ RareScannerDB = {
 				135803, -- [4]
 				15, -- [5]
 				4, -- [6]
+			},
+			[177699] = {
+				"|cff0070dd|Hitem:177699::::::::60:267:::::::::|h[Greater Untamed Spirit]|h|r", -- [1]
+				3, -- [2]
+				"", -- [3]
+				3528280, -- [4]
+				0, -- [5]
+				8, -- [6]
 			},
 			[25418] = {
 				"|cff9d9d9d|Hitem:25418::::::::50:267:::::::|h[Razor Sharp Fang]|h|r", -- [1]
@@ -74143,13 +74143,13 @@ RareScannerDB = {
 				7, -- [5]
 				8, -- [6]
 			},
-			[121110] = {
-				"|cff1eff00|Hitem:121110::::::::101:252::::::|h[Hagfeather Wristwraps]|h|r", -- [1]
+			[52368] = {
+				"|cff1eff00|Hitem:52368::::::::50:267:::::::|h[Design: Purified Nightstone]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_WRIST", -- [3]
-				1113071, -- [4]
-				4, -- [5]
-				1, -- [6]
+				"", -- [3]
+				134942, -- [4]
+				9, -- [5]
+				10, -- [6]
 			},
 			[4496] = {
 				"|cffffffff|Hitem:4496::::::::50:63:::::::|h[Small Brown Pouch]|h|r", -- [1]
@@ -74399,13 +74399,13 @@ RareScannerDB = {
 				0, -- [5]
 				5, -- [6]
 			},
-			[52369] = {
-				"|cff1eff00|Hitem:52369::::::::50:267:::::::|h[Design: Retaliating Nightstone]|h|r", -- [1]
+			[121112] = {
+				"|cff1eff00|Hitem:121112::::::::120:267::::::|h[Valarsmidd Gauntlets]|h|r", -- [1]
 				2, -- [2]
-				"", -- [3]
-				134942, -- [4]
-				9, -- [5]
-				10, -- [6]
+				"INVTYPE_HAND", -- [3]
+				1117701, -- [4]
+				4, -- [5]
+				4, -- [6]
 			},
 			[160926] = {
 				"|cff9d9d9d|Hitem:160926::::::::120:267::::::|h[Broken Mooring Post]|h|r", -- [1]
@@ -74743,13 +74743,13 @@ RareScannerDB = {
 				2, -- [5]
 				8, -- [6]
 			},
-			[10279] = {
-				"|cff1eff00|Hitem:10279::::::::60:577:::::::|h[Emerald Helm]|h|r", -- [1]
+			[82208] = {
+				"|cff1eff00|Hitem:82208::::::::46:103:::::::|h[Thresher Shoulders]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_HEAD", -- [3]
-				133078, -- [4]
+				"INVTYPE_SHOULDER", -- [3]
+				647908, -- [4]
 				4, -- [5]
-				4, -- [6]
+				2, -- [6]
 			},
 			[9767] = {
 				"|cff1eff00|Hitem:9767::::::::50:267:::::::|h[Greenweave Sandals]|h|r", -- [1]
@@ -74815,13 +74815,13 @@ RareScannerDB = {
 				4, -- [5]
 				1, -- [6]
 			},
-			[82208] = {
-				"|cff1eff00|Hitem:82208::::::::46:103:::::::|h[Thresher Shoulders]|h|r", -- [1]
+			[10279] = {
+				"|cff1eff00|Hitem:10279::::::::60:577:::::::|h[Emerald Helm]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_SHOULDER", -- [3]
-				647908, -- [4]
+				"INVTYPE_HEAD", -- [3]
+				133078, -- [4]
 				4, -- [5]
-				2, -- [6]
+				4, -- [6]
 			},
 			[189997] = {
 				"|cff0070dd|Hitem:189997::::::::60:267:::::::::|h[The Lupine Prime's Might]|h|r", -- [1]
@@ -74831,13 +74831,13 @@ RareScannerDB = {
 				2, -- [5]
 				7, -- [6]
 			},
-			[141875] = {
-				"|cff0070dd|Hitem:141875::::::::50:63:::::::|h[Hauberk of the Wrathblade]|h|r", -- [1]
+			[166448] = {
+				"|cff0070dd|Hitem:166448::::::::60:267:::::::|h[Binding of Cyclarus]|h|r", -- [1]
 				3, -- [2]
-				"INVTYPE_CHEST", -- [3]
-				1116924, -- [4]
-				4, -- [5]
-				3, -- [6]
+				"", -- [3]
+				1269566, -- [4]
+				15, -- [5]
+				2, -- [6]
 			},
 			[116508] = {
 				"|cff1eff00|Hitem:116508::::::::120:577::::::|h[Creeperclaw Axe]|h|r", -- [1]
@@ -74887,13 +74887,13 @@ RareScannerDB = {
 				0, -- [5]
 				8, -- [6]
 			},
-			[52371] = {
-				"|cff1eff00|Hitem:52371::::::::50:267:::::::|h[Design: Inscribed Hessonite]|h|r", -- [1]
-				2, -- [2]
+			[5524] = {
+				"|cffffffff|Hitem:5524::::::::60:267:::::::::|h[Thick-Shelled Clam]|h|r", -- [1]
+				1, -- [2]
 				"", -- [3]
-				134942, -- [4]
-				9, -- [5]
-				10, -- [6]
+				134432, -- [4]
+				7, -- [5]
+				11, -- [6]
 			},
 			[166449] = {
 				"|cff0070dd|Hitem:166449::::::::60:267:::::::|h[Darkshore Sentinel]|h|r", -- [1]
@@ -74903,13 +74903,13 @@ RareScannerDB = {
 				15, -- [5]
 				2, -- [6]
 			},
-			[5524] = {
-				"|cffffffff|Hitem:5524::::::::60:267:::::::::|h[Thick-Shelled Clam]|h|r", -- [1]
-				1, -- [2]
+			[52371] = {
+				"|cff1eff00|Hitem:52371::::::::50:267:::::::|h[Design: Inscribed Hessonite]|h|r", -- [1]
+				2, -- [2]
 				"", -- [3]
-				134432, -- [4]
-				7, -- [5]
-				11, -- [6]
+				134942, -- [4]
+				9, -- [5]
+				10, -- [6]
 			},
 			[121116] = {
 				"|cff1eff00|Hitem:121116::::::::50:577:::::::|h[Valarsmidd Pauldrons]|h|r", -- [1]
@@ -74967,12 +74967,12 @@ RareScannerDB = {
 				15, -- [5]
 				5, -- [6]
 			},
-			[159283] = {
-				"|cff1eff00|Hitem:159283::::::::120:577::::::|h[Barrowknoll Cloak]|h|r", -- [1]
+			[116509] = {
+				"|cff1eff00|Hitem:116509::::::::120:577::::::|h[Creeperclaw Broadaxe]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_CLOAK", -- [3]
-				1726328, -- [4]
-				4, -- [5]
+				"INVTYPE_2HWEAPON", -- [3]
+				925570, -- [4]
+				2, -- [5]
 				1, -- [6]
 			},
 			[174369] = {
@@ -75359,11 +75359,11 @@ RareScannerDB = {
 				2, -- [5]
 				15, -- [6]
 			},
-			[7476] = {
-				"|cff1eff00|Hitem:7476::::::::50:267:::::::|h[Regal Sash]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_WAIST", -- [3]
-				132497, -- [4]
+			[165433] = {
+				"|cff0070dd|Hitem:165433::::::::120:267::::::|h[Moonpriest's Sandals]|h|r", -- [1]
+				3, -- [2]
+				"INVTYPE_FEET", -- [3]
+				2444243, -- [4]
 				4, -- [5]
 				1, -- [6]
 			},
@@ -75375,13 +75375,13 @@ RareScannerDB = {
 				0, -- [5]
 				8, -- [6]
 			},
-			[190006] = {
-				"|cff0070dd|Hitem:190006::::::::60:267:::::::::|h[Anima-Siphoning Sword]|h|r", -- [1]
-				3, -- [2]
-				"INVTYPE_WEAPON", -- [3]
-				3889767, -- [4]
-				2, -- [5]
-				7, -- [6]
+			[181815] = {
+				"|cffa335ee|Hitem:181815::::::::60:267:::::::|h[Armored Bonehoof Tauralus]|h|r", -- [1]
+				4, -- [2]
+				"", -- [3]
+				3511738, -- [4]
+				15, -- [5]
+				5, -- [6]
 			},
 			[7412] = {
 				"|cff1eff00|Hitem:7412::::::::60:267:::::::::|h[Infiltrator Gloves]|h|r", -- [1]
@@ -75399,13 +75399,13 @@ RareScannerDB = {
 				4, -- [5]
 				2, -- [6]
 			},
-			[181815] = {
-				"|cffa335ee|Hitem:181815::::::::60:267:::::::|h[Armored Bonehoof Tauralus]|h|r", -- [1]
-				4, -- [2]
-				"", -- [3]
-				3511738, -- [4]
-				15, -- [5]
-				5, -- [6]
+			[190006] = {
+				"|cff0070dd|Hitem:190006::::::::60:267:::::::::|h[Anima-Siphoning Sword]|h|r", -- [1]
+				3, -- [2]
+				"INVTYPE_WEAPON", -- [3]
+				3889767, -- [4]
+				2, -- [5]
+				7, -- [6]
 			},
 			[121170] = {
 				"|cff1eff00|Hitem:121170::::::::102:252::::::|h[Kal'delar Legplates]|h|r", -- [1]
@@ -75503,13 +75503,13 @@ RareScannerDB = {
 				0, -- [5]
 				8, -- [6]
 			},
-			[85285] = {
-				"|cffa335ee|Hitem:85285::::::::60:267:::::::::|h[Firebird's Legguards]|h|r", -- [1]
-				4, -- [2]
-				"INVTYPE_LEGS", -- [3]
-				638599, -- [4]
-				4, -- [5]
-				3, -- [6]
+			[170554] = {
+				"|cffffffff|Hitem:170554::::::::60:267:::::::|h[Vigil's Torch]|h|r", -- [1]
+				1, -- [2]
+				"", -- [3]
+				3387974, -- [4]
+				7, -- [5]
+				9, -- [6]
 			},
 			[165435] = {
 				"|cff0070dd|Hitem:165435::::::::120:267::::::|h[Moonpriest's Coronet]|h|r", -- [1]
@@ -75767,13 +75767,13 @@ RareScannerDB = {
 				4, -- [5]
 				3, -- [6]
 			},
-			[153153] = {
-				"|cff0070dd|Hitem:153153::::::::120:267::::::|h[Unsullied Plate Pauldrons]|h|r", -- [1]
-				3, -- [2]
-				"", -- [3]
-				359502, -- [4]
-				0, -- [5]
-				8, -- [6]
+			[10088] = {
+				"|cff1eff00|Hitem:10088::::::::50:267:::::::|h[Gothic Plate Girdle]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_WAIST", -- [3]
+				132502, -- [4]
+				4, -- [5]
+				4, -- [6]
 			},
 			[9768] = {
 				"|cff1eff00|Hitem:9768::::::::50:267:::::::|h[Greenweave Bracers]|h|r", -- [1]
@@ -75783,13 +75783,13 @@ RareScannerDB = {
 				4, -- [5]
 				1, -- [6]
 			},
-			[165439] = {
-				"|cff0070dd|Hitem:165439::::::::120:267::::::|h[Moonpriest's Cuffs]|h|r", -- [1]
-				3, -- [2]
-				"INVTYPE_WRIST", -- [3]
-				2444245, -- [4]
+			[9832] = {
+				"|cff1eff00|Hitem:9832::::::::120:267::::::|h[Scaled Leather Gloves]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_HAND", -- [3]
+				132958, -- [4]
 				4, -- [5]
-				1, -- [6]
+				2, -- [6]
 			},
 			[9896] = {
 				"|cff1eff00|Hitem:9896::::::::48:103:::::::|h[Jazeraint Bracers]|h|r", -- [1]
@@ -75807,13 +75807,13 @@ RareScannerDB = {
 				4, -- [5]
 				3, -- [6]
 			},
-			[10088] = {
-				"|cff1eff00|Hitem:10088::::::::50:267:::::::|h[Gothic Plate Girdle]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_WAIST", -- [3]
-				132502, -- [4]
-				4, -- [5]
-				4, -- [6]
+			[153153] = {
+				"|cff0070dd|Hitem:153153::::::::120:267::::::|h[Unsullied Plate Pauldrons]|h|r", -- [1]
+				3, -- [2]
+				"", -- [3]
+				359502, -- [4]
+				0, -- [5]
+				8, -- [6]
 			},
 			[161344] = {
 				"|cffffffff|Hitem:161344::::::::120:267::::::|h[Abyssal Fragment]|h|r", -- [1]
@@ -76751,13 +76751,13 @@ RareScannerDB = {
 				0, -- [5]
 				8, -- [6]
 			},
-			[81200] = {
-				"|cff9d9d9d|Hitem:81200::::::::50:577:::::::|h[Vial of Swirling Mist]|h|r", -- [1]
-				0, -- [2]
-				"", -- [3]
-				134776, -- [4]
-				15, -- [5]
-				0, -- [6]
+			[10153] = {
+				"|cff1eff00|Hitem:10153::::::::60:577:::::::|h[Mighty Spaulders]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_SHOULDER", -- [3]
+				135055, -- [4]
+				4, -- [5]
+				2, -- [6]
 			},
 			[116523] = {
 				"|cff1eff00|Hitem:116523::::::::120:577::::::|h[Creeperclaw Greatsword]|h|r", -- [1]
@@ -76783,13 +76783,13 @@ RareScannerDB = {
 				4, -- [5]
 				3, -- [6]
 			},
-			[106285] = {
-				"|cff9d9d9d|Hitem:106285::::::::120:577::::::|h[Acid Scarred Plate Belt]|h|r", -- [1]
-				0, -- [2]
-				"INVTYPE_WAIST", -- [3]
-				132505, -- [4]
+			[10217] = {
+				"|cff1eff00|Hitem:10217::::::::60:577:::::::|h[Elegant Leggings]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_LEGS", -- [3]
+				134586, -- [4]
 				4, -- [5]
-				4, -- [6]
+				1, -- [6]
 			},
 			[10281] = {
 				"|cff1eff00|Hitem:10281::::::::110:103::::::|h[Emerald Pauldrons]|h|r", -- [1]
@@ -76807,13 +76807,13 @@ RareScannerDB = {
 				2, -- [5]
 				3, -- [6]
 			},
-			[181837] = {
-				"|cff1eff00|Hitem:181837::::::::60:267:::::::|h[Clear Mind]|h|r", -- [1]
-				2, -- [2]
-				"", -- [3]
-				1322723, -- [4]
-				0, -- [5]
-				8, -- [6]
+			[165455] = {
+				"|cff0070dd|Hitem:165455::::::::120:267::::::|h[Kaldorei Archer's Vambraces]|h|r", -- [1]
+				3, -- [2]
+				"INVTYPE_WRIST", -- [3]
+				2373962, -- [4]
+				4, -- [5]
+				3, -- [6]
 			},
 			[9897] = {
 				"|cff1eff00|Hitem:9897::::::::50:267:::::::|h[Jazeraint Chestguard]|h|r", -- [1]
@@ -76839,29 +76839,29 @@ RareScannerDB = {
 				4, -- [5]
 				2, -- [6]
 			},
-			[177742] = {
-				"|cff9d9d9d|Hitem:177742::::::::60:267:::::::|h[Dredged Chain Footguards]|h|r", -- [1]
-				0, -- [2]
+			[10089] = {
+				"|cff1eff00|Hitem:10089::::::::50:267:::::::|h[Gothic Sabatons]|h|r", -- [1]
+				2, -- [2]
 				"INVTYPE_FEET", -- [3]
-				132535, -- [4]
+				132542, -- [4]
 				4, -- [5]
-				3, -- [6]
+				4, -- [6]
 			},
-			[10153] = {
-				"|cff1eff00|Hitem:10153::::::::60:577:::::::|h[Mighty Spaulders]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_SHOULDER", -- [3]
-				135055, -- [4]
-				4, -- [5]
-				2, -- [6]
+			[81200] = {
+				"|cff9d9d9d|Hitem:81200::::::::50:577:::::::|h[Vial of Swirling Mist]|h|r", -- [1]
+				0, -- [2]
+				"", -- [3]
+				134776, -- [4]
+				15, -- [5]
+				0, -- [6]
 			},
-			[10217] = {
-				"|cff1eff00|Hitem:10217::::::::60:577:::::::|h[Elegant Leggings]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_LEGS", -- [3]
-				134586, -- [4]
+			[106285] = {
+				"|cff9d9d9d|Hitem:106285::::::::120:577::::::|h[Acid Scarred Plate Belt]|h|r", -- [1]
+				0, -- [2]
+				"INVTYPE_WAIST", -- [3]
+				132505, -- [4]
 				4, -- [5]
-				1, -- [6]
+				4, -- [6]
 			},
 			[82224] = {
 				"|cff1eff00|Hitem:82224::::::::46:103:::::::|h[Inlaid Sword]|h|r", -- [1]
@@ -77167,13 +77167,13 @@ RareScannerDB = {
 				4, -- [5]
 				3, -- [6]
 			},
-			[165461] = {
-				"|cff0070dd|Hitem:165461::::::::120:267::::::|h[Wardenguard's Legplates]|h|r", -- [1]
-				3, -- [2]
-				"INVTYPE_LEGS", -- [3]
-				2451597, -- [4]
-				4, -- [5]
-				4, -- [6]
+			[181843] = {
+				"|cff1eff00|Hitem:181843::::::::60:267:::::::|h[Shining Radiance]|h|r", -- [1]
+				2, -- [2]
+				"", -- [3]
+				1445240, -- [4]
+				0, -- [5]
+				8, -- [6]
 			},
 			[177748] = {
 				"|cff9d9d9d|Hitem:177748::::::::60:267:::::::|h[Mire-Stained Leather Cinch]|h|r", -- [1]
@@ -77191,13 +77191,13 @@ RareScannerDB = {
 				4, -- [5]
 				1, -- [6]
 			},
-			[181843] = {
-				"|cff1eff00|Hitem:181843::::::::60:267:::::::|h[Shining Radiance]|h|r", -- [1]
-				2, -- [2]
-				"", -- [3]
-				1445240, -- [4]
-				0, -- [5]
-				8, -- [6]
+			[165461] = {
+				"|cff0070dd|Hitem:165461::::::::120:267::::::|h[Wardenguard's Legplates]|h|r", -- [1]
+				3, -- [2]
+				"INVTYPE_LEGS", -- [3]
+				2451597, -- [4]
+				4, -- [5]
+				4, -- [6]
 			},
 			[106319] = {
 				"|cff9d9d9d|Hitem:106319::::::::120:577::::::|h[Knog's Bow of Surrender]|h|r", -- [1]
@@ -77319,13 +77319,13 @@ RareScannerDB = {
 				15, -- [5]
 				0, -- [6]
 			},
-			[181845] = {
-				"|cff1eff00|Hitem:181845::::::::60:267:::::::::|h[Exaltation]|h|r", -- [1]
-				2, -- [2]
-				"", -- [3]
-				135977, -- [4]
-				0, -- [5]
-				8, -- [6]
+			[165463] = {
+				"|cff0070dd|Hitem:165463::::::::120:267::::::|h[Wardenguard's Chain]|h|r", -- [1]
+				3, -- [2]
+				"INVTYPE_WAIST", -- [3]
+				2451595, -- [4]
+				4, -- [5]
+				4, -- [6]
 			},
 			[141914] = {
 				"|cffffffff|Hitem:141914::::::::50:260:::::::|h[Formula: Enchant Neck - Mark of the Heavy Hide]|h|r", -- [1]
@@ -77711,13 +77711,13 @@ RareScannerDB = {
 				4, -- [5]
 				1, -- [6]
 			},
-			[177756] = {
-				"|cff9d9d9d|Hitem:177756::::::::60:267:::::::|h[Ember-Bleached Cloth Armbands]|h|r", -- [1]
-				0, -- [2]
-				"INVTYPE_WRIST", -- [3]
-				132609, -- [4]
-				4, -- [5]
-				1, -- [6]
+			[113459] = {
+				"|cffffffff|Hitem:113459::::::::54:581:::::::|h[Ebony Feather]|h|r", -- [1]
+				1, -- [2]
+				"", -- [3]
+				132915, -- [4]
+				12, -- [5]
+				0, -- [6]
 			},
 			[115507] = {
 				"|cff0070dd|Hitem:115507::::::::120:267::::::|h[Drained Crystal Fragment]|h|r", -- [1]
@@ -77735,13 +77735,13 @@ RareScannerDB = {
 				9, -- [5]
 				10, -- [6]
 			},
-			[113459] = {
-				"|cffffffff|Hitem:113459::::::::54:581:::::::|h[Ebony Feather]|h|r", -- [1]
-				1, -- [2]
-				"", -- [3]
-				132915, -- [4]
-				12, -- [5]
-				0, -- [6]
+			[177756] = {
+				"|cff9d9d9d|Hitem:177756::::::::60:267:::::::|h[Ember-Bleached Cloth Armbands]|h|r", -- [1]
+				0, -- [2]
+				"INVTYPE_WRIST", -- [3]
+				132609, -- [4]
+				4, -- [5]
+				1, -- [6]
 			},
 			[81207] = {
 				"|cff9d9d9d|Hitem:81207::::::::120:577::::::|h[High Quality Crocolisk Leather]|h|r", -- [1]
@@ -77751,11 +77751,11 @@ RareScannerDB = {
 				15, -- [5]
 				0, -- [6]
 			},
-			[163422] = {
-				"|cff0070dd|Hitem:163422::::::::120:267::::::|h[7th Legionnaire's Greatbelt]|h|r", -- [1]
-				3, -- [2]
-				"INVTYPE_WAIST", -- [3]
-				2001766, -- [4]
+			[106292] = {
+				"|cff9d9d9d|Hitem:106292::::::::120:577::::::|h[Acid Scarred Plate Bracers]|h|r", -- [1]
+				0, -- [2]
+				"INVTYPE_WRIST", -- [3]
+				132602, -- [4]
 				4, -- [5]
 				4, -- [6]
 			},
@@ -77807,13 +77807,13 @@ RareScannerDB = {
 				4, -- [5]
 				1, -- [6]
 			},
-			[106293] = {
-				"|cff9d9d9d|Hitem:106293::::::::120:577::::::|h[Sun-Baked Pants]|h|r", -- [1]
-				0, -- [2]
-				"INVTYPE_LEGS", -- [3]
-				134592, -- [4]
+			[163424] = {
+				"|cff0070dd|Hitem:163424::::::::120:577::::::|h[Honorbound Artificer's Amice]|h|r", -- [1]
+				3, -- [2]
+				"INVTYPE_SHOULDER", -- [3]
+				1706391, -- [4]
 				4, -- [5]
-				2, -- [6]
+				1, -- [6]
 			},
 			[10282] = {
 				"|cff1eff00|Hitem:10282::::::::110:103::::::|h[Emerald Vambraces]|h|r", -- [1]
@@ -77863,13 +77863,13 @@ RareScannerDB = {
 				4, -- [5]
 				2, -- [6]
 			},
-			[10090] = {
-				"|cff1eff00|Hitem:10090::::::::60:267:::::::::|h[Gothic Plate Helmet]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_HEAD", -- [3]
-				133078, -- [4]
+			[177758] = {
+				"|cff9d9d9d|Hitem:177758::::::::59:267:::::::|h[Ember-Bleached Cloth Slippers]|h|r", -- [1]
+				0, -- [2]
+				"INVTYPE_FEET", -- [3]
+				132539, -- [4]
 				4, -- [5]
-				4, -- [6]
+				1, -- [6]
 			},
 			[10154] = {
 				"|cff1eff00|Hitem:10154::::::::50:252:::::::|h[Mercurial Girdle]|h|r", -- [1]
@@ -77879,13 +77879,13 @@ RareScannerDB = {
 				4, -- [5]
 				3, -- [6]
 			},
-			[163424] = {
-				"|cff0070dd|Hitem:163424::::::::120:577::::::|h[Honorbound Artificer's Amice]|h|r", -- [1]
-				3, -- [2]
-				"INVTYPE_SHOULDER", -- [3]
-				1706391, -- [4]
+			[106293] = {
+				"|cff9d9d9d|Hitem:106293::::::::120:577::::::|h[Sun-Baked Pants]|h|r", -- [1]
+				0, -- [2]
+				"INVTYPE_LEGS", -- [3]
+				134592, -- [4]
 				4, -- [5]
-				1, -- [6]
+				2, -- [6]
 			},
 			[82232] = {
 				"|cff1eff00|Hitem:82232::::::::46:103:::::::|h[Highpeak Breastplate]|h|r", -- [1]
@@ -78415,13 +78415,13 @@ RareScannerDB = {
 				4, -- [5]
 				3, -- [6]
 			},
-			[106298] = {
-				"|cff9d9d9d|Hitem:106298::::::::120:577::::::|h[Acid Scarred Plate Shoulderpads]|h|r", -- [1]
-				0, -- [2]
-				"INVTYPE_SHOULDER", -- [3]
-				135044, -- [4]
+			[188007] = {
+				"|cff1eff00|Hitem:188007::::::::60:267:::::::::|h[Choral Slippers]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_FEET", -- [3]
+				4076043, -- [4]
 				4, -- [5]
-				4, -- [6]
+				1, -- [6]
 			},
 			[116536] = {
 				"|cff1eff00|Hitem:116536::::::::54:581:::::::|h[Incised Spear]|h|r", -- [1]
@@ -78511,21 +78511,21 @@ RareScannerDB = {
 				4, -- [5]
 				1, -- [6]
 			},
-			[3931] = {
-				"|cff9d9d9d|Hitem:3931::::::::50:267:::::::|h[Poisoned Spider Fang]|h|r", -- [1]
-				0, -- [2]
-				"", -- [3]
-				134298, -- [4]
-				15, -- [5]
-				0, -- [6]
-			},
-			[188007] = {
-				"|cff1eff00|Hitem:188007::::::::60:267:::::::::|h[Choral Slippers]|h|r", -- [1]
+			[177769] = {
+				"|cff1eff00|Hitem:177769::::::::60:267:::::::|h[Avowed Tormenter's Handwraps]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_FEET", -- [3]
-				4076043, -- [4]
+				"INVTYPE_HAND", -- [3]
+				3386279, -- [4]
 				4, -- [5]
 				1, -- [6]
+			},
+			[106298] = {
+				"|cff9d9d9d|Hitem:106298::::::::120:577::::::|h[Acid Scarred Plate Shoulderpads]|h|r", -- [1]
+				0, -- [2]
+				"INVTYPE_SHOULDER", -- [3]
+				135044, -- [4]
+				4, -- [5]
+				4, -- [6]
 			},
 			[82237] = {
 				"|cff1eff00|Hitem:82237::::::::50:267:::::::|h[Highpeak Pauldrons]|h|r", -- [1]
@@ -78567,21 +78567,21 @@ RareScannerDB = {
 				4, -- [5]
 				1, -- [6]
 			},
-			[177769] = {
-				"|cff1eff00|Hitem:177769::::::::60:267:::::::|h[Avowed Tormenter's Handwraps]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_HAND", -- [3]
-				3386279, -- [4]
-				4, -- [5]
-				1, -- [6]
+			[3931] = {
+				"|cff9d9d9d|Hitem:3931::::::::50:267:::::::|h[Poisoned Spider Fang]|h|r", -- [1]
+				0, -- [2]
+				"", -- [3]
+				134298, -- [4]
+				15, -- [5]
+				0, -- [6]
 			},
-			[82238] = {
-				"|cff1eff00|Hitem:82238::::::::50:267:::::::|h[Highpeak Sabatons]|h|r", -- [1]
+			[180842] = {
+				"|cff1eff00|Hitem:180842::::::::60:267:::::::|h[Stalwart Guardian]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_FEET", -- [3]
-				591162, -- [4]
-				4, -- [5]
-				4, -- [6]
+				"", -- [3]
+				132360, -- [4]
+				0, -- [5]
+				8, -- [6]
 			},
 			[188008] = {
 				"|cff1eff00|Hitem:188008::::::::60:267:::::::::|h[Choral Handwraps]|h|r", -- [1]
@@ -78599,21 +78599,21 @@ RareScannerDB = {
 				0, -- [5]
 				8, -- [6]
 			},
-			[181865] = {
-				"|cff0070dd|Hitem:181865::::::::60:267:::::::|h[Plague-Etched Gorer]|h|r", -- [1]
+			[165483] = {
+				"|cff0070dd|Hitem:165483::::::::120:267::::::|h[Blightguard's Helmet]|h|r", -- [1]
 				3, -- [2]
-				"INVTYPE_WEAPON", -- [3]
-				3549052, -- [4]
-				2, -- [5]
-				0, -- [6]
-			},
-			[163437] = {
-				"|cff0070dd|Hitem:163437::::::::120:267::::::|h[Honorbound Outrider's Gloves]|h|r", -- [1]
-				3, -- [2]
-				"INVTYPE_HAND", -- [3]
-				1911960, -- [4]
+				"INVTYPE_HEAD", -- [3]
+				2357689, -- [4]
 				4, -- [5]
-				2, -- [6]
+				3, -- [6]
+			},
+			[188010] = {
+				"|cff1eff00|Hitem:188010::::::::60:267:::::::::|h[Choral Leggings]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_LEGS", -- [3]
+				4076049, -- [4]
+				4, -- [5]
+				1, -- [6]
 			},
 			[151149] = {
 				"|cffffffff|Hitem:151149::::::::50:104:::::::|h[Charmed Ring]|h|r", -- [1]
@@ -78647,21 +78647,21 @@ RareScannerDB = {
 				15, -- [5]
 				0, -- [6]
 			},
-			[106299] = {
-				"|cff9d9d9d|Hitem:106299::::::::120:577::::::|h[Ripped Mail Boots]|h|r", -- [1]
-				0, -- [2]
-				"INVTYPE_FEET", -- [3]
-				132535, -- [4]
-				4, -- [5]
-				3, -- [6]
-			},
-			[180842] = {
-				"|cff1eff00|Hitem:180842::::::::60:267:::::::|h[Stalwart Guardian]|h|r", -- [1]
+			[188009] = {
+				"|cff1eff00|Hitem:188009::::::::60:267:::::::::|h[Choral Hood]|h|r", -- [1]
 				2, -- [2]
-				"", -- [3]
-				132360, -- [4]
-				0, -- [5]
-				8, -- [6]
+				"INVTYPE_HEAD", -- [3]
+				4076048, -- [4]
+				4, -- [5]
+				1, -- [6]
+			},
+			[82238] = {
+				"|cff1eff00|Hitem:82238::::::::50:267:::::::|h[Highpeak Sabatons]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_FEET", -- [3]
+				591162, -- [4]
+				4, -- [5]
+				4, -- [6]
 			},
 			[165484] = {
 				"|cff0070dd|Hitem:165484::::::::120:267::::::|h[Blightguard's Legguards]|h|r", -- [1]
@@ -78711,13 +78711,13 @@ RareScannerDB = {
 				4, -- [5]
 				2, -- [6]
 			},
-			[188010] = {
-				"|cff1eff00|Hitem:188010::::::::60:267:::::::::|h[Choral Leggings]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_LEGS", -- [3]
-				4076049, -- [4]
+			[163437] = {
+				"|cff0070dd|Hitem:163437::::::::120:267::::::|h[Honorbound Outrider's Gloves]|h|r", -- [1]
+				3, -- [2]
+				"INVTYPE_HAND", -- [3]
+				1911960, -- [4]
 				4, -- [5]
-				1, -- [6]
+				2, -- [6]
 			},
 			[81215] = {
 				"|cff9d9d9d|Hitem:81215::::::::46:103:::::::|h[Mistlurker Eye]|h|r", -- [1]
@@ -78807,13 +78807,13 @@ RareScannerDB = {
 				7, -- [5]
 				8, -- [6]
 			},
-			[116539] = {
-				"|cff1eff00|Hitem:116539::::::::50:267:::::::|h[Incised Sword]|h|r", -- [1]
+			[151152] = {
+				"|cff1eff00|Hitem:151152::::::::120:63::::::|h[Star-Etched Ring]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_WEAPON", -- [3]
-				926043, -- [4]
-				2, -- [5]
-				7, -- [6]
+				"", -- [3]
+				803870, -- [4]
+				15, -- [5]
+				4, -- [6]
 			},
 			[31223] = {
 				"|cff0070dd|Hitem:31223::::::::120:267::::::|h[Illidari Wristguards]|h|r", -- [1]
@@ -78879,13 +78879,13 @@ RareScannerDB = {
 				4, -- [5]
 				3, -- [6]
 			},
-			[188014] = {
-				"|cff1eff00|Hitem:188014::::::::60:267:::::::::|h[Staccato Grips]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_HAND", -- [3]
-				4176669, -- [4]
+			[163441] = {
+				"|cff0070dd|Hitem:163441::::::::120:577::::::|h[Honorbound Vanguard's Shoulderguards]|h|r", -- [1]
+				3, -- [2]
+				"INVTYPE_SHOULDER", -- [3]
+				2032490, -- [4]
 				4, -- [5]
-				2, -- [6]
+				3, -- [6]
 			},
 			[177774] = {
 				"|cff1eff00|Hitem:177774::::::::60:267:::::::|h[Depraved Darkblade's Treads]|h|r", -- [1]
@@ -78967,21 +78967,21 @@ RareScannerDB = {
 				4, -- [5]
 				2, -- [6]
 			},
-			[163441] = {
-				"|cff0070dd|Hitem:163441::::::::120:577::::::|h[Honorbound Vanguard's Shoulderguards]|h|r", -- [1]
-				3, -- [2]
-				"INVTYPE_SHOULDER", -- [3]
-				2032490, -- [4]
+			[188014] = {
+				"|cff1eff00|Hitem:188014::::::::60:267:::::::::|h[Staccato Grips]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_HAND", -- [3]
+				4176669, -- [4]
 				4, -- [5]
-				3, -- [6]
+				2, -- [6]
 			},
-			[153203] = {
-				"|cff0070dd|Hitem:153203::::::::120:267::::::|h[Ancient Fishing Line]|h|r", -- [1]
-				3, -- [2]
-				"", -- [3]
-				132893, -- [4]
-				8, -- [5]
-				11, -- [6]
+			[177776] = {
+				"|cff1eff00|Hitem:177776::::::::60:267:::::::|h[Depraved Darkblade's Helm]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_HEAD", -- [3]
+				3313825, -- [4]
+				4, -- [5]
+				2, -- [6]
 			},
 			[165489] = {
 				"|cff0070dd|Hitem:165489::::::::120:267::::::|h[Deathguard's Sabatons]|h|r", -- [1]
@@ -79007,21 +79007,21 @@ RareScannerDB = {
 				4, -- [5]
 				0, -- [6]
 			},
-			[188015] = {
-				"|cff1eff00|Hitem:188015::::::::60:267:::::::::|h[Staccato Helm]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_HEAD", -- [3]
-				4176680, -- [4]
+			[106302] = {
+				"|cff9d9d9d|Hitem:106302::::::::120:577::::::|h[Acid Scarred Plate Gloves]|h|r", -- [1]
+				0, -- [2]
+				"INVTYPE_HAND", -- [3]
+				132962, -- [4]
 				4, -- [5]
-				2, -- [6]
+				4, -- [6]
 			},
-			[177776] = {
-				"|cff1eff00|Hitem:177776::::::::60:267:::::::|h[Depraved Darkblade's Helm]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_HEAD", -- [3]
-				3313825, -- [4]
-				4, -- [5]
-				2, -- [6]
+			[153203] = {
+				"|cff0070dd|Hitem:153203::::::::120:267::::::|h[Ancient Fishing Line]|h|r", -- [1]
+				3, -- [2]
+				"", -- [3]
+				132893, -- [4]
+				8, -- [5]
+				11, -- [6]
 			},
 			[81217] = {
 				"|cff9d9d9d|Hitem:81217::::::::43:258:::::::|h[Gleaming Turtle Shell]|h|r", -- [1]
@@ -79031,13 +79031,13 @@ RareScannerDB = {
 				15, -- [5]
 				0, -- [6]
 			},
-			[106302] = {
-				"|cff9d9d9d|Hitem:106302::::::::120:577::::::|h[Acid Scarred Plate Gloves]|h|r", -- [1]
-				0, -- [2]
-				"INVTYPE_HAND", -- [3]
-				132962, -- [4]
+			[188015] = {
+				"|cff1eff00|Hitem:188015::::::::60:267:::::::::|h[Staccato Helm]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_HEAD", -- [3]
+				4176680, -- [4]
 				4, -- [5]
-				4, -- [6]
+				2, -- [6]
 			},
 			[82241] = {
 				"|cff1eff00|Hitem:82241::::::::120:577::::::|h[Yak Belt]|h|r", -- [1]
@@ -79199,13 +79199,13 @@ RareScannerDB = {
 				2, -- [5]
 				0, -- [6]
 			},
-			[177780] = {
-				"|cff1eff00|Hitem:177780::::::::60:267:::::::|h[Savage Bonemauler Chainmail]|h|r", -- [1]
+			[6582] = {
+				"|cff1eff00|Hitem:6582::::::::120:63::::::|h[Scouting Boots]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_CHEST", -- [3]
-				3514675, -- [4]
+				"INVTYPE_FEET", -- [3]
+				132539, -- [4]
 				4, -- [5]
-				3, -- [6]
+				2, -- [6]
 			},
 			[177779] = {
 				"|cff1eff00|Hitem:177779::::::::60:267:::::::|h[Depraved Darkblade's Bindings]|h|r", -- [1]
@@ -79263,21 +79263,21 @@ RareScannerDB = {
 				4, -- [5]
 				2, -- [6]
 			},
-			[52388] = {
-				"|cff1eff00|Hitem:52388::::::::50:267:::::::|h[Design: Zen Jasper]|h|r", -- [1]
+			[121150] = {
+				"|cff1eff00|Hitem:121150::::::::50:577:::::::|h[Valdisdall Belt]|h|r", -- [1]
 				2, -- [2]
-				"", -- [3]
-				134942, -- [4]
-				9, -- [5]
-				10, -- [6]
-			},
-			[6582] = {
-				"|cff1eff00|Hitem:6582::::::::120:63::::::|h[Scouting Boots]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_FEET", -- [3]
-				132539, -- [4]
+				"INVTYPE_WAIST", -- [3]
+				1116921, -- [4]
 				4, -- [5]
-				2, -- [6]
+				3, -- [6]
+			},
+			[177780] = {
+				"|cff1eff00|Hitem:177780::::::::60:267:::::::|h[Savage Bonemauler Chainmail]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_CHEST", -- [3]
+				3514675, -- [4]
+				4, -- [5]
+				3, -- [6]
 			},
 			[186995] = {
 				"|cffffffff|Hitem:186995::::::::60:267:::::::::|h[Pattern: Shrouded Hand Towel]|h|r", -- [1]
@@ -79359,14 +79359,6 @@ RareScannerDB = {
 				4, -- [5]
 				3, -- [6]
 			},
-			[27860] = {
-				"|cffffffff|Hitem:27860::::::::120:267::::::|h[Purified Draenic Water]|h|r", -- [1]
-				1, -- [2]
-				"", -- [3]
-				132831, -- [4]
-				0, -- [5]
-				5, -- [6]
-			},
 			[165495] = {
 				"|cff0070dd|Hitem:165495::::::::120:267::::::|h[Deathguard's Waistplate]|h|r", -- [1]
 				3, -- [2]
@@ -79374,6 +79366,14 @@ RareScannerDB = {
 				2393938, -- [4]
 				4, -- [5]
 				4, -- [6]
+			},
+			[27860] = {
+				"|cffffffff|Hitem:27860::::::::120:267::::::|h[Purified Draenic Water]|h|r", -- [1]
+				1, -- [2]
+				"", -- [3]
+				132831, -- [4]
+				0, -- [5]
+				5, -- [6]
 			},
 			[188021] = {
 				"|cff1eff00|Hitem:188021::::::::60:267:::::::::|h[Anthemic Gauntlets]|h|r", -- [1]
@@ -79383,13 +79383,13 @@ RareScannerDB = {
 				4, -- [5]
 				3, -- [6]
 			},
-			[151162] = {
-				"|cffa335ee|Hitem:151162::::::::60:577:::::::|h[Glitzy Mana-Chain]|h|r", -- [1]
-				4, -- [2]
-				"", -- [3]
-				133317, -- [4]
-				15, -- [5]
-				4, -- [6]
+			[116544] = {
+				"|cff1eff00|Hitem:116544::::::::120:577::::::|h[Auchenai Bow]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_RANGED", -- [3]
+				922706, -- [4]
+				2, -- [5]
+				2, -- [6]
 			},
 			[121151] = {
 				"|cff1eff00|Hitem:121151::::::::120:267::::::|h[Valdisdall Bracers]|h|r", -- [1]
@@ -79447,13 +79447,13 @@ RareScannerDB = {
 				4, -- [5]
 				1, -- [6]
 			},
-			[116544] = {
-				"|cff1eff00|Hitem:116544::::::::120:577::::::|h[Auchenai Bow]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_RANGED", -- [3]
-				922706, -- [4]
-				2, -- [5]
-				2, -- [6]
+			[151162] = {
+				"|cffa335ee|Hitem:151162::::::::60:577:::::::|h[Glitzy Mana-Chain]|h|r", -- [1]
+				4, -- [2]
+				"", -- [3]
+				133317, -- [4]
+				15, -- [5]
+				4, -- [6]
 			},
 			[188022] = {
 				"|cff1eff00|Hitem:188022::::::::60:267:::::::::|h[Anthemic Coif]|h|r", -- [1]
@@ -79471,13 +79471,13 @@ RareScannerDB = {
 				4, -- [5]
 				3, -- [6]
 			},
-			[188023] = {
-				"|cff1eff00|Hitem:188023::::::::60:267:::::::::|h[Anthemic Legguards]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_LEGS", -- [3]
-				4181971, -- [4]
+			[106306] = {
+				"|cff9d9d9d|Hitem:106306::::::::120:577::::::|h[Scraggly Hat]|h|r", -- [1]
+				0, -- [2]
+				"INVTYPE_HEAD", -- [3]
+				133153, -- [4]
 				4, -- [5]
-				3, -- [6]
+				1, -- [6]
 			},
 			[163449] = {
 				"|cff0070dd|Hitem:163449::::::::120:267::::::|h[Honorbound Vanguard's Sabatons]|h|r", -- [1]
@@ -79527,13 +79527,13 @@ RareScannerDB = {
 				4, -- [5]
 				3, -- [6]
 			},
-			[169593] = {
-				"|cff1eff00|Hitem:169593::::::::120:267::::::|h[Large Storage Fragment]|h|r", -- [1]
+			[177784] = {
+				"|cff1eff00|Hitem:177784::::::::60:267:::::::|h[Savage Bonemauler Leggings]|h|r", -- [1]
 				2, -- [2]
-				"", -- [3]
-				574567, -- [4]
-				12, -- [5]
-				0, -- [6]
+				"INVTYPE_LEGS", -- [3]
+				3514678, -- [4]
+				4, -- [5]
+				3, -- [6]
 			},
 			[81221] = {
 				"|cff9d9d9d|Hitem:81221::::::::120:577::::::|h[Ornamental Feather]|h|r", -- [1]
@@ -79543,13 +79543,13 @@ RareScannerDB = {
 				15, -- [5]
 				0, -- [6]
 			},
-			[106306] = {
-				"|cff9d9d9d|Hitem:106306::::::::120:577::::::|h[Scraggly Hat]|h|r", -- [1]
-				0, -- [2]
-				"INVTYPE_HEAD", -- [3]
-				133153, -- [4]
+			[188023] = {
+				"|cff1eff00|Hitem:188023::::::::60:267:::::::::|h[Anthemic Legguards]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_LEGS", -- [3]
+				4181971, -- [4]
 				4, -- [5]
-				1, -- [6]
+				3, -- [6]
 			},
 			[82245] = {
 				"|cff1eff00|Hitem:82245::::::::120:577::::::|h[Yak Helm]|h|r", -- [1]
@@ -79631,13 +79631,13 @@ RareScannerDB = {
 				7, -- [5]
 				9, -- [6]
 			},
-			[188025] = {
-				"|cff1eff00|Hitem:188025::::::::60:267:::::::::|h[Anthemic Links]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_WAIST", -- [3]
-				4181966, -- [4]
+			[106307] = {
+				"|cff9d9d9d|Hitem:106307::::::::120:577::::::|h[Sun-Baked Leather Helmet]|h|r", -- [1]
+				0, -- [2]
+				"INVTYPE_HEAD", -- [3]
+				133101, -- [4]
 				4, -- [5]
-				3, -- [6]
+				2, -- [6]
 			},
 			[106824] = {
 				"|cff9d9d9d|Hitem:106824::::::::120:577::::::|h[Ruffled Plumage]|h|r", -- [1]
@@ -79647,13 +79647,13 @@ RareScannerDB = {
 				15, -- [5]
 				0, -- [6]
 			},
-			[176762] = {
-				"|cff1eff00|Hitem:176762::::::::51:577:::::::|h[Umbrawing Vestment]|h|r", -- [1]
+			[121153] = {
+				"|cff1eff00|Hitem:121153::::::::120:267::::::|h[Valdisdall Greaves]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_ROBE", -- [3]
-				3386282, -- [4]
+				"INVTYPE_FEET", -- [3]
+				1116922, -- [4]
 				4, -- [5]
-				1, -- [6]
+				3, -- [6]
 			},
 			[177786] = {
 				"|cff1eff00|Hitem:177786::::::::60:267:::::::|h[Savage Bonemauler Cinch]|h|r", -- [1]
@@ -79671,13 +79671,13 @@ RareScannerDB = {
 				4, -- [5]
 				1, -- [6]
 			},
-			[106307] = {
-				"|cff9d9d9d|Hitem:106307::::::::120:577::::::|h[Sun-Baked Leather Helmet]|h|r", -- [1]
-				0, -- [2]
-				"INVTYPE_HEAD", -- [3]
-				133101, -- [4]
+			[188025] = {
+				"|cff1eff00|Hitem:188025::::::::60:267:::::::::|h[Anthemic Links]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_WAIST", -- [3]
+				4181966, -- [4]
 				4, -- [5]
-				2, -- [6]
+				3, -- [6]
 			},
 			[82246] = {
 				"|cff1eff00|Hitem:82246::::::::120:577::::::|h[Yak Legguards]|h|r", -- [1]
@@ -79775,11 +79775,11 @@ RareScannerDB = {
 				4, -- [5]
 				0, -- [6]
 			},
-			[121154] = {
-				"|cff1eff00|Hitem:121154::::::::50:577:::::::|h[Valdisdall Helm]|h|r", -- [1]
+			[176764] = {
+				"|cff1eff00|Hitem:176764::::::::60:267:::::::|h[Steelscale Chainmail]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_HEAD", -- [3]
-				1116926, -- [4]
+				"INVTYPE_CHEST", -- [3]
+				3514675, -- [4]
 				4, -- [5]
 				3, -- [6]
 			},
@@ -79791,21 +79791,21 @@ RareScannerDB = {
 				4, -- [5]
 				4, -- [6]
 			},
-			[188028] = {
-				"|cff1eff00|Hitem:188028::::::::60:267:::::::::|h[Harmonium Breastplate]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_CHEST", -- [3]
-				4177387, -- [4]
+			[163455] = {
+				"|cff0070dd|Hitem:163455::::::::120:267::::::|h[Honorbound Centurion's Legplates]|h|r", -- [1]
+				3, -- [2]
+				"INVTYPE_LEGS", -- [3]
+				1728448, -- [4]
 				4, -- [5]
 				4, -- [6]
 			},
-			[106308] = {
-				"|cff9d9d9d|Hitem:106308::::::::120:577::::::|h[Ripped Mail Circlet]|h|r", -- [1]
-				0, -- [2]
+			[188027] = {
+				"|cff1eff00|Hitem:188027::::::::60:267:::::::::|h[Harmonium Helm]|h|r", -- [1]
+				2, -- [2]
 				"INVTYPE_HEAD", -- [3]
-				132767, -- [4]
+				4177388, -- [4]
 				4, -- [5]
-				3, -- [6]
+				4, -- [6]
 			},
 			[82247] = {
 				"|cff1eff00|Hitem:82247::::::::46:103:::::::|h[Yak Spaulders]|h|r", -- [1]
@@ -79815,11 +79815,11 @@ RareScannerDB = {
 				4, -- [5]
 				3, -- [6]
 			},
-			[127298] = {
-				"|cff0070dd|Hitem:127298::::::::60:267:::::::|h[Blood Infused Leggings]|h|r", -- [1]
-				3, -- [2]
+			[9772] = {
+				"|cff1eff00|Hitem:9772::::::::50:577:::::::|h[Greenweave Leggings]|h|r", -- [1]
+				2, -- [2]
 				"INVTYPE_LEGS", -- [3]
-				937861, -- [4]
+				134590, -- [4]
 				4, -- [5]
 				1, -- [6]
 			},
@@ -79863,27 +79863,27 @@ RareScannerDB = {
 				4, -- [5]
 				4, -- [6]
 			},
-			[163455] = {
-				"|cff0070dd|Hitem:163455::::::::120:267::::::|h[Honorbound Centurion's Legplates]|h|r", -- [1]
-				3, -- [2]
-				"INVTYPE_LEGS", -- [3]
-				1728448, -- [4]
+			[188028] = {
+				"|cff1eff00|Hitem:188028::::::::60:267:::::::::|h[Harmonium Breastplate]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_CHEST", -- [3]
+				4177387, -- [4]
 				4, -- [5]
 				4, -- [6]
 			},
-			[9772] = {
-				"|cff1eff00|Hitem:9772::::::::50:577:::::::|h[Greenweave Leggings]|h|r", -- [1]
-				2, -- [2]
+			[127298] = {
+				"|cff0070dd|Hitem:127298::::::::60:267:::::::|h[Blood Infused Leggings]|h|r", -- [1]
+				3, -- [2]
 				"INVTYPE_LEGS", -- [3]
-				134590, -- [4]
+				937861, -- [4]
 				4, -- [5]
 				1, -- [6]
 			},
-			[188029] = {
-				"|cff1eff00|Hitem:188029::::::::60:267:::::::::|h[Harmonium Percussive Stompers]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_FEET", -- [3]
-				4096869, -- [4]
+			[163456] = {
+				"|cff0070dd|Hitem:163456::::::::120:267::::::|h[Honorbound Centurion's Greathelm]|h|r", -- [1]
+				3, -- [2]
+				"INVTYPE_HEAD", -- [3]
+				1728447, -- [4]
 				4, -- [5]
 				4, -- [6]
 			},
@@ -79911,11 +79911,11 @@ RareScannerDB = {
 				4, -- [5]
 				3, -- [6]
 			},
-			[177790] = {
-				"|cff1eff00|Hitem:177790::::::::60:267:::::::|h[Night Guardian Footguards]|h|r", -- [1]
+			[10092] = {
+				"|cff1eff00|Hitem:10092::::::::60:267:::::::::|h[Gothic Plate Spaulders]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_FEET", -- [3]
-				3447982, -- [4]
+				"INVTYPE_SHOULDER", -- [3]
+				135039, -- [4]
 				4, -- [5]
 				4, -- [6]
 			},
@@ -79927,11 +79927,11 @@ RareScannerDB = {
 				15, -- [5]
 				0, -- [6]
 			},
-			[163456] = {
-				"|cff0070dd|Hitem:163456::::::::120:267::::::|h[Honorbound Centurion's Greathelm]|h|r", -- [1]
-				3, -- [2]
-				"INVTYPE_HEAD", -- [3]
-				1728447, -- [4]
+			[188029] = {
+				"|cff1eff00|Hitem:188029::::::::60:267:::::::::|h[Harmonium Percussive Stompers]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_FEET", -- [3]
+				4096869, -- [4]
 				4, -- [5]
 				4, -- [6]
 			},
@@ -79983,11 +79983,11 @@ RareScannerDB = {
 				4, -- [5]
 				4, -- [6]
 			},
-			[188033] = {
-				"|cff1eff00|Hitem:188033::::::::60:267:::::::::|h[Harmonium Girdle]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_WAIST", -- [3]
-				4096868, -- [4]
+			[163460] = {
+				"|cff0070dd|Hitem:163460::::::::120:267::::::|h[Honorbound Centurion's Greaves]|h|r", -- [1]
+				3, -- [2]
+				"INVTYPE_FEET", -- [3]
+				1728443, -- [4]
 				4, -- [5]
 				4, -- [6]
 			},
@@ -80023,19 +80023,19 @@ RareScannerDB = {
 				4, -- [5]
 				1, -- [6]
 			},
-			[163460] = {
-				"|cff0070dd|Hitem:163460::::::::120:267::::::|h[Honorbound Centurion's Greaves]|h|r", -- [1]
-				3, -- [2]
-				"INVTYPE_FEET", -- [3]
-				1728443, -- [4]
+			[188033] = {
+				"|cff1eff00|Hitem:188033::::::::60:267:::::::::|h[Harmonium Girdle]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_WAIST", -- [3]
+				4096868, -- [4]
 				4, -- [5]
 				4, -- [6]
 			},
-			[176768] = {
-				"|cff1eff00|Hitem:176768::::::::50:577:::::::|h[Steelscale Striders]|h|r", -- [1]
+			[121156] = {
+				"|cff1eff00|Hitem:121156::::::::50:577:::::::|h[Valdisdall Spaulders]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_FEET", -- [3]
-				3514671, -- [4]
+				"INVTYPE_SHOULDER", -- [3]
+				1116928, -- [4]
 				4, -- [5]
 				3, -- [6]
 			},
@@ -80047,13 +80047,13 @@ RareScannerDB = {
 				4, -- [5]
 				4, -- [6]
 			},
-			[136838] = {
-				"|cffffffff|Hitem:136838::::::::49:258:::::::|h[Intact Murloc Eye]|h|r", -- [1]
-				1, -- [2]
-				"", -- [3]
-				970832, -- [4]
-				12, -- [5]
-				0, -- [6]
+			[177793] = {
+				"|cff1eff00|Hitem:177793::::::::60:267:::::::|h[Night Guardian Pauldrons]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_SHOULDER", -- [3]
+				3447989, -- [4]
+				4, -- [5]
+				4, -- [6]
 			},
 			[188031] = {
 				"|cff1eff00|Hitem:188031::::::::60:267:::::::::|h[Harmonium Legplates]|h|r", -- [1]
@@ -80063,12 +80063,12 @@ RareScannerDB = {
 				4, -- [5]
 				4, -- [6]
 			},
-			[115013] = {
-				"|cffffffff|Hitem:115013::::::::93:269::::::|h[Ceremonial Shadowmoon Robes]|h|r", -- [1]
-				1, -- [2]
-				"", -- [3]
-				134516, -- [4]
-				12, -- [5]
+			[180864] = {
+				"|cff1eff00|Hitem:180864::::::::60:267:::::::::|h[Decanter of Distilled Shadows]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_HOLDABLE", -- [3]
+				3235097, -- [4]
+				4, -- [5]
 				0, -- [6]
 			},
 			[177794] = {
@@ -80103,11 +80103,19 @@ RareScannerDB = {
 				4, -- [5]
 				2, -- [6]
 			},
-			[177793] = {
-				"|cff1eff00|Hitem:177793::::::::60:267:::::::|h[Night Guardian Pauldrons]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_SHOULDER", -- [3]
-				3447989, -- [4]
+			[136838] = {
+				"|cffffffff|Hitem:136838::::::::49:258:::::::|h[Intact Murloc Eye]|h|r", -- [1]
+				1, -- [2]
+				"", -- [3]
+				970832, -- [4]
+				12, -- [5]
+				0, -- [6]
+			},
+			[163459] = {
+				"|cff0070dd|Hitem:163459::::::::120:267::::::|h[Honorbound Centurion's Breastplate]|h|r", -- [1]
+				3, -- [2]
+				"INVTYPE_CHEST", -- [3]
+				1728445, -- [4]
 				4, -- [5]
 				4, -- [6]
 			},
@@ -80116,14 +80124,6 @@ RareScannerDB = {
 				2, -- [2]
 				"INVTYPE_SHOULDER", -- [3]
 				4096876, -- [4]
-				4, -- [5]
-				4, -- [6]
-			},
-			[163459] = {
-				"|cff0070dd|Hitem:163459::::::::120:267::::::|h[Honorbound Centurion's Breastplate]|h|r", -- [1]
-				3, -- [2]
-				"INVTYPE_CHEST", -- [3]
-				1728445, -- [4]
 				4, -- [5]
 				4, -- [6]
 			},
@@ -80175,12 +80175,12 @@ RareScannerDB = {
 				15, -- [5]
 				4, -- [6]
 			},
-			[180864] = {
-				"|cff1eff00|Hitem:180864::::::::60:267:::::::::|h[Decanter of Distilled Shadows]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_HOLDABLE", -- [3]
-				3235097, -- [4]
-				4, -- [5]
+			[115013] = {
+				"|cffffffff|Hitem:115013::::::::93:269::::::|h[Ceremonial Shadowmoon Robes]|h|r", -- [1]
+				1, -- [2]
+				"", -- [3]
+				134516, -- [4]
+				12, -- [5]
 				0, -- [6]
 			},
 			[106311] = {
@@ -80207,11 +80207,11 @@ RareScannerDB = {
 				4, -- [5]
 				4, -- [6]
 			},
-			[121156] = {
-				"|cff1eff00|Hitem:121156::::::::50:577:::::::|h[Valdisdall Spaulders]|h|r", -- [1]
+			[176768] = {
+				"|cff1eff00|Hitem:176768::::::::50:577:::::::|h[Steelscale Striders]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_SHOULDER", -- [3]
-				1116928, -- [4]
+				"INVTYPE_FEET", -- [3]
+				3514671, -- [4]
 				4, -- [5]
 				3, -- [6]
 			},
@@ -80239,11 +80239,11 @@ RareScannerDB = {
 				4, -- [5]
 				4, -- [6]
 			},
-			[10092] = {
-				"|cff1eff00|Hitem:10092::::::::60:267:::::::::|h[Gothic Plate Spaulders]|h|r", -- [1]
+			[177790] = {
+				"|cff1eff00|Hitem:177790::::::::60:267:::::::|h[Night Guardian Footguards]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_SHOULDER", -- [3]
-				135039, -- [4]
+				"INVTYPE_FEET", -- [3]
+				3447982, -- [4]
 				4, -- [5]
 				4, -- [6]
 			},
@@ -80271,19 +80271,19 @@ RareScannerDB = {
 				4, -- [5]
 				1, -- [6]
 			},
-			[188027] = {
-				"|cff1eff00|Hitem:188027::::::::60:267:::::::::|h[Harmonium Helm]|h|r", -- [1]
+			[106308] = {
+				"|cff9d9d9d|Hitem:106308::::::::120:577::::::|h[Ripped Mail Circlet]|h|r", -- [1]
+				0, -- [2]
+				"INVTYPE_HEAD", -- [3]
+				132767, -- [4]
+				4, -- [5]
+				3, -- [6]
+			},
+			[121154] = {
+				"|cff1eff00|Hitem:121154::::::::50:577:::::::|h[Valdisdall Helm]|h|r", -- [1]
 				2, -- [2]
 				"INVTYPE_HEAD", -- [3]
-				4177388, -- [4]
-				4, -- [5]
-				4, -- [6]
-			},
-			[176764] = {
-				"|cff1eff00|Hitem:176764::::::::60:267:::::::|h[Steelscale Chainmail]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_CHEST", -- [3]
-				3514675, -- [4]
+				1116926, -- [4]
 				4, -- [5]
 				3, -- [6]
 			},
@@ -80327,13 +80327,13 @@ RareScannerDB = {
 				4, -- [5]
 				1, -- [6]
 			},
-			[121153] = {
-				"|cff1eff00|Hitem:121153::::::::120:267::::::|h[Valdisdall Greaves]|h|r", -- [1]
+			[176762] = {
+				"|cff1eff00|Hitem:176762::::::::51:577:::::::|h[Umbrawing Vestment]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_FEET", -- [3]
-				1116922, -- [4]
+				"INVTYPE_ROBE", -- [3]
+				3386282, -- [4]
 				4, -- [5]
-				3, -- [6]
+				1, -- [6]
 			},
 			[9773] = {
 				"|cff1eff00|Hitem:9773::::::::50:577:::::::|h[Greenweave Robe]|h|r", -- [1]
@@ -80367,13 +80367,13 @@ RareScannerDB = {
 				4, -- [5]
 				2, -- [6]
 			},
-			[177784] = {
-				"|cff1eff00|Hitem:177784::::::::60:267:::::::|h[Savage Bonemauler Leggings]|h|r", -- [1]
+			[169593] = {
+				"|cff1eff00|Hitem:169593::::::::120:267::::::|h[Large Storage Fragment]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_LEGS", -- [3]
-				3514678, -- [4]
-				4, -- [5]
-				3, -- [6]
+				"", -- [3]
+				574567, -- [4]
+				12, -- [5]
+				0, -- [6]
 			},
 			[188036] = {
 				"|cff1eff00|Hitem:188036::::::::60:267:::::::::|h[Staccato Mantle]|h|r", -- [1]
@@ -80463,13 +80463,13 @@ RareScannerDB = {
 				4, -- [5]
 				1, -- [6]
 			},
-			[121150] = {
-				"|cff1eff00|Hitem:121150::::::::50:577:::::::|h[Valdisdall Belt]|h|r", -- [1]
+			[52388] = {
+				"|cff1eff00|Hitem:52388::::::::50:267:::::::|h[Design: Zen Jasper]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_WAIST", -- [3]
-				1116921, -- [4]
-				4, -- [5]
-				3, -- [6]
+				"", -- [3]
+				134942, -- [4]
+				9, -- [5]
+				10, -- [6]
 			},
 			[116552] = {
 				"|cff1eff00|Hitem:116552::::::::60:267:::::::::|h[Auchenai Hammer]|h|r", -- [1]
@@ -80591,13 +80591,13 @@ RareScannerDB = {
 				12, -- [5]
 				0, -- [6]
 			},
-			[151152] = {
-				"|cff1eff00|Hitem:151152::::::::120:63::::::|h[Star-Etched Ring]|h|r", -- [1]
+			[116539] = {
+				"|cff1eff00|Hitem:116539::::::::50:267:::::::|h[Incised Sword]|h|r", -- [1]
 				2, -- [2]
-				"", -- [3]
-				803870, -- [4]
-				15, -- [5]
-				4, -- [6]
+				"INVTYPE_WEAPON", -- [3]
+				926043, -- [4]
+				2, -- [5]
+				7, -- [6]
 			},
 			[116553] = {
 				"|cff1eff00|Hitem:116553::::::::50:267:::::::|h[Auchenai Spear]|h|r", -- [1]
@@ -80655,21 +80655,21 @@ RareScannerDB = {
 				2, -- [5]
 				9, -- [6]
 			},
-			[188009] = {
-				"|cff1eff00|Hitem:188009::::::::60:267:::::::::|h[Choral Hood]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_HEAD", -- [3]
-				4076048, -- [4]
-				4, -- [5]
-				1, -- [6]
-			},
-			[165483] = {
-				"|cff0070dd|Hitem:165483::::::::120:267::::::|h[Blightguard's Helmet]|h|r", -- [1]
-				3, -- [2]
-				"INVTYPE_HEAD", -- [3]
-				2357689, -- [4]
+			[106299] = {
+				"|cff9d9d9d|Hitem:106299::::::::120:577::::::|h[Ripped Mail Boots]|h|r", -- [1]
+				0, -- [2]
+				"INVTYPE_FEET", -- [3]
+				132535, -- [4]
 				4, -- [5]
 				3, -- [6]
+			},
+			[181865] = {
+				"|cff0070dd|Hitem:181865::::::::60:267:::::::|h[Plague-Etched Gorer]|h|r", -- [1]
+				3, -- [2]
+				"INVTYPE_WEAPON", -- [3]
+				3549052, -- [4]
+				2, -- [5]
+				0, -- [6]
 			},
 			[121161] = {
 				"|cff1eff00|Hitem:121161::::::::120:267::::::|h[Hrydshal Leggings]|h|r", -- [1]
@@ -81007,13 +81007,13 @@ RareScannerDB = {
 				12, -- [5]
 				0, -- [6]
 			},
-			[177758] = {
-				"|cff9d9d9d|Hitem:177758::::::::59:267:::::::|h[Ember-Bleached Cloth Slippers]|h|r", -- [1]
-				0, -- [2]
-				"INVTYPE_FEET", -- [3]
-				132539, -- [4]
+			[10090] = {
+				"|cff1eff00|Hitem:10090::::::::60:267:::::::::|h[Gothic Plate Helmet]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_HEAD", -- [3]
+				133078, -- [4]
 				4, -- [5]
-				1, -- [6]
+				4, -- [6]
 			},
 			[188046] = {
 				"|cff1eff00|Hitem:188046::::::::60:267:::::::::|h[Haven Guard's Mace]|h|r", -- [1]
@@ -81039,11 +81039,11 @@ RareScannerDB = {
 				12, -- [5]
 				0, -- [6]
 			},
-			[106292] = {
-				"|cff9d9d9d|Hitem:106292::::::::120:577::::::|h[Acid Scarred Plate Bracers]|h|r", -- [1]
-				0, -- [2]
-				"INVTYPE_WRIST", -- [3]
-				132602, -- [4]
+			[163422] = {
+				"|cff0070dd|Hitem:163422::::::::120:267::::::|h[7th Legionnaire's Greatbelt]|h|r", -- [1]
+				3, -- [2]
+				"INVTYPE_WAIST", -- [3]
+				2001766, -- [4]
 				4, -- [5]
 				4, -- [6]
 			},
@@ -81167,13 +81167,13 @@ RareScannerDB = {
 				4, -- [5]
 				1, -- [6]
 			},
-			[165463] = {
-				"|cff0070dd|Hitem:165463::::::::120:267::::::|h[Wardenguard's Chain]|h|r", -- [1]
-				3, -- [2]
-				"INVTYPE_WAIST", -- [3]
-				2451595, -- [4]
-				4, -- [5]
-				4, -- [6]
+			[181845] = {
+				"|cff1eff00|Hitem:181845::::::::60:267:::::::::|h[Exaltation]|h|r", -- [1]
+				2, -- [2]
+				"", -- [3]
+				135977, -- [4]
+				0, -- [5]
+				8, -- [6]
 			},
 			[106519] = {
 				"|cff1eff00|Hitem:106519::::::::50:267:::::::|h[Highland Legguards]|h|r", -- [1]
@@ -81351,21 +81351,21 @@ RareScannerDB = {
 				4, -- [5]
 				2, -- [6]
 			},
-			[10089] = {
-				"|cff1eff00|Hitem:10089::::::::50:267:::::::|h[Gothic Sabatons]|h|r", -- [1]
-				2, -- [2]
+			[177742] = {
+				"|cff9d9d9d|Hitem:177742::::::::60:267:::::::|h[Dredged Chain Footguards]|h|r", -- [1]
+				0, -- [2]
 				"INVTYPE_FEET", -- [3]
-				132542, -- [4]
-				4, -- [5]
-				4, -- [6]
-			},
-			[165455] = {
-				"|cff0070dd|Hitem:165455::::::::120:267::::::|h[Kaldorei Archer's Vambraces]|h|r", -- [1]
-				3, -- [2]
-				"INVTYPE_WRIST", -- [3]
-				2373962, -- [4]
+				132535, -- [4]
 				4, -- [5]
 				3, -- [6]
+			},
+			[181837] = {
+				"|cff1eff00|Hitem:181837::::::::60:267:::::::|h[Clear Mind]|h|r", -- [1]
+				2, -- [2]
+				"", -- [3]
+				1322723, -- [4]
+				0, -- [5]
+				8, -- [6]
 			},
 			[116559] = {
 				"|cff1eff00|Hitem:116559::::::::120:577::::::|h[Skettis Axe]|h|r", -- [1]
@@ -81711,13 +81711,13 @@ RareScannerDB = {
 				2, -- [5]
 				10, -- [6]
 			},
-			[9832] = {
-				"|cff1eff00|Hitem:9832::::::::120:267::::::|h[Scaled Leather Gloves]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_HAND", -- [3]
-				132958, -- [4]
+			[165439] = {
+				"|cff0070dd|Hitem:165439::::::::120:267::::::|h[Moonpriest's Cuffs]|h|r", -- [1]
+				3, -- [2]
+				"INVTYPE_WRIST", -- [3]
+				2444245, -- [4]
 				4, -- [5]
-				2, -- [6]
+				1, -- [6]
 			},
 			[106323] = {
 				"|cff9d9d9d|Hitem:106323::::::::120:577::::::|h[Poorly Balanced Warhammer]|h|r", -- [1]
@@ -81799,13 +81799,13 @@ RareScannerDB = {
 				4, -- [5]
 				3, -- [6]
 			},
-			[170554] = {
-				"|cffffffff|Hitem:170554::::::::60:267:::::::|h[Vigil's Torch]|h|r", -- [1]
-				1, -- [2]
-				"", -- [3]
-				3387974, -- [4]
-				7, -- [5]
-				9, -- [6]
+			[85285] = {
+				"|cffa335ee|Hitem:85285::::::::60:267:::::::::|h[Firebird's Legguards]|h|r", -- [1]
+				4, -- [2]
+				"INVTYPE_LEGS", -- [3]
+				638599, -- [4]
+				4, -- [5]
+				3, -- [6]
 			},
 			[166557] = {
 				"|cff0070dd|Hitem:166557::::::::120:267::::::|h[Darkwood Sentinel's Shoulderpads]|h|r", -- [1]
@@ -81831,11 +81831,11 @@ RareScannerDB = {
 				2, -- [5]
 				6, -- [6]
 			},
-			[165433] = {
-				"|cff0070dd|Hitem:165433::::::::120:267::::::|h[Moonpriest's Sandals]|h|r", -- [1]
-				3, -- [2]
-				"INVTYPE_FEET", -- [3]
-				2444243, -- [4]
+			[7476] = {
+				"|cff1eff00|Hitem:7476::::::::50:267:::::::|h[Regal Sash]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_WAIST", -- [3]
+				132497, -- [4]
 				4, -- [5]
 				1, -- [6]
 			},
@@ -81999,12 +81999,12 @@ RareScannerDB = {
 				2, -- [5]
 				4, -- [6]
 			},
-			[116509] = {
-				"|cff1eff00|Hitem:116509::::::::120:577::::::|h[Creeperclaw Broadaxe]|h|r", -- [1]
+			[159283] = {
+				"|cff1eff00|Hitem:159283::::::::120:577::::::|h[Barrowknoll Cloak]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_2HWEAPON", -- [3]
-				925570, -- [4]
-				2, -- [5]
+				"INVTYPE_CLOAK", -- [3]
+				1726328, -- [4]
+				4, -- [5]
 				1, -- [6]
 			},
 			[116564] = {
@@ -82071,13 +82071,13 @@ RareScannerDB = {
 				4, -- [5]
 				4, -- [6]
 			},
-			[166448] = {
-				"|cff0070dd|Hitem:166448::::::::60:267:::::::|h[Binding of Cyclarus]|h|r", -- [1]
+			[141875] = {
+				"|cff0070dd|Hitem:141875::::::::50:63:::::::|h[Hauberk of the Wrathblade]|h|r", -- [1]
 				3, -- [2]
-				"", -- [3]
-				1269566, -- [4]
-				15, -- [5]
-				2, -- [6]
+				"INVTYPE_CHEST", -- [3]
+				1116924, -- [4]
+				4, -- [5]
+				3, -- [6]
 			},
 			[121172] = {
 				"|cff1eff00|Hitem:121172::::::::102:252::::::|h[Kal'delar Sabatons]|h|r", -- [1]
@@ -82311,13 +82311,13 @@ RareScannerDB = {
 				4, -- [5]
 				4, -- [6]
 			},
-			[121112] = {
-				"|cff1eff00|Hitem:121112::::::::120:267::::::|h[Valarsmidd Gauntlets]|h|r", -- [1]
+			[52369] = {
+				"|cff1eff00|Hitem:52369::::::::50:267:::::::|h[Design: Retaliating Nightstone]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_HAND", -- [3]
-				1117701, -- [4]
-				4, -- [5]
-				4, -- [6]
+				"", -- [3]
+				134942, -- [4]
+				9, -- [5]
+				10, -- [6]
 			},
 			[166565] = {
 				"|cff0070dd|Hitem:166565::::::::120:267::::::|h[Wardenguard's Faceguard]|h|r", -- [1]
@@ -82439,13 +82439,13 @@ RareScannerDB = {
 				4, -- [5]
 				4, -- [6]
 			},
-			[52368] = {
-				"|cff1eff00|Hitem:52368::::::::50:267:::::::|h[Design: Purified Nightstone]|h|r", -- [1]
+			[121110] = {
+				"|cff1eff00|Hitem:121110::::::::101:252::::::|h[Hagfeather Wristwraps]|h|r", -- [1]
 				2, -- [2]
-				"", -- [3]
-				134942, -- [4]
-				9, -- [5]
-				10, -- [6]
+				"INVTYPE_WRIST", -- [3]
+				1113071, -- [4]
+				4, -- [5]
+				1, -- [6]
 			},
 			[174758] = {
 				"|cff1eff00|Hitem:174758::::::::120:267::::::|h[Voidwarped Relic Fragment]|h|r", -- [1]
@@ -82567,11 +82567,11 @@ RareScannerDB = {
 				4, -- [5]
 				4, -- [6]
 			},
-			[153123] = {
-				"|cff1eff00|Hitem:153123::::::::50:267:::::::|h[Cracked Radinax Control Gem]|h|r", -- [1]
-				2, -- [2]
+			[113429] = {
+				"|cffffffff|Hitem:113429::::::::120:577::::::|h[Cracked Hand Drum]|h|r", -- [1]
+				1, -- [2]
 				"", -- [3]
-				628559, -- [4]
+				1001627, -- [4]
 				15, -- [5]
 				4, -- [6]
 			},
@@ -82991,13 +82991,13 @@ RareScannerDB = {
 				4, -- [5]
 				1, -- [6]
 			},
-			[52364] = {
-				"|cff1eff00|Hitem:52364::::::::50:267:::::::|h[Design: Stormy Zephyrite]|h|r", -- [1]
+			[121102] = {
+				"|cff1eff00|Hitem:121102::::::::100:252::::::|h[Hillstride Vest]|h|r", -- [1]
 				2, -- [2]
-				"", -- [3]
-				134942, -- [4]
-				9, -- [5]
-				10, -- [6]
+				"INVTYPE_CHEST", -- [3]
+				1116924, -- [4]
+				4, -- [5]
+				3, -- [6]
 			},
 			[106333] = {
 				"|cff9d9d9d|Hitem:106333::::::::120:267::::::|h[Grime-Fouled Mail Pants]|h|r", -- [1]
@@ -83223,13 +83223,13 @@ RareScannerDB = {
 				0, -- [5]
 				8, -- [6]
 			},
-			[9893] = {
-				"|cff1eff00|Hitem:9893::::::::50:267:::::::|h[Huntsman's Leggings]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_LEGS", -- [3]
-				134594, -- [4]
+			[158224] = {
+				"|cff0070dd|Hitem:158224::::::::60:577:::::::|h[Vial of Storms]|h|r", -- [1]
+				3, -- [2]
+				"INVTYPE_TRINKET", -- [3]
+				134800, -- [4]
 				4, -- [5]
-				2, -- [6]
+				0, -- [6]
 			},
 			[121181] = {
 				"|cff1eff00|Hitem:121181::::::::103:252::::::|h[Mangler's Mark]|h|r", -- [1]
@@ -84015,13 +84015,13 @@ RareScannerDB = {
 				4, -- [5]
 				1, -- [6]
 			},
-			[180730] = {
-				"|cffa335ee|Hitem:180730::::::::60:267:::::::|h[Wild Glimmerfur Prowler]|h|r", -- [1]
-				4, -- [2]
-				"", -- [3]
-				3747448, -- [4]
-				15, -- [5]
-				5, -- [6]
+			[82182] = {
+				"|cff1eff00|Hitem:82182::::::::33:254:::::::|h[Snowy Pauldrons]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_SHOULDER", -- [3]
+				647909, -- [4]
+				4, -- [5]
+				4, -- [6]
 			},
 			[10224] = {
 				"|cff1eff00|Hitem:10224::::::::110:103::::::|h[Nightshade Cloak]|h|r", -- [1]
@@ -84047,11 +84047,11 @@ RareScannerDB = {
 				4, -- [5]
 				1, -- [6]
 			},
-			[128256] = {
-				"|cff0070dd|Hitem:128256::::::::120:577::::::|h[Equipment Blueprint: Gyroscopic Internal Stabilizer]|h|r", -- [1]
-				3, -- [2]
+			[182777] = {
+				"|cff1eff00|Hitem:182777::::::::60:267:::::::::|h[Hallowed Discernment]|h|r", -- [1]
+				2, -- [2]
 				"", -- [3]
-				1001491, -- [4]
+				3528309, -- [4]
 				0, -- [5]
 				8, -- [6]
 			},
@@ -84247,13 +84247,13 @@ RareScannerDB = {
 				2, -- [5]
 				0, -- [6]
 			},
-			[116479] = {
-				"|cff1eff00|Hitem:116479::::::::120:577::::::|h[Moonwhisper Spellblade]|h|r", -- [1]
+			[159223] = {
+				"|cff1eff00|Hitem:159223::::::::51:254:::::::|h[Sagehold Bracers]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_WEAPON", -- [3]
-				926765, -- [4]
-				2, -- [5]
-				15, -- [6]
+				"INVTYPE_WRIST", -- [3]
+				1698803, -- [4]
+				4, -- [5]
+				1, -- [6]
 			},
 			[121189] = {
 				"|cff1eff00|Hitem:121189::::::::103:252::::::|h[Smolderhide Waistband]|h|r", -- [1]
@@ -84359,13 +84359,13 @@ RareScannerDB = {
 				0, -- [5]
 				8, -- [6]
 			},
-			[189936] = {
-				"|cff0070dd|Hitem:189936::::::::60:267:::::::::|h[Feasting's Feeding Cloak]|h|r", -- [1]
+			[181745] = {
+				"|cff0070dd|Hitem:181745::::::::60:267:::::::::|h[Forgesmith's Coal]|h|r", -- [1]
 				3, -- [2]
-				"INVTYPE_CLOAK", -- [3]
-				4076045, -- [4]
-				4, -- [5]
-				1, -- [6]
+				"", -- [3]
+				1020348, -- [4]
+				15, -- [5]
+				4, -- [6]
 			},
 			[9890] = {
 				"|cff1eff00|Hitem:9890::::::::48:103:::::::|h[Huntsman's Cape]|h|r", -- [1]
@@ -84687,13 +84687,13 @@ RareScannerDB = {
 				2, -- [5]
 				10, -- [6]
 			},
-			[182759] = {
-				"|cff0070dd|Hitem:182759::::::::54:267:::::::|h[Functioning Anima Core]|h|r", -- [1]
-				3, -- [2]
-				"", -- [3]
-				133018, -- [4]
-				12, -- [5]
-				0, -- [6]
+			[190950] = {
+				"|cffa335ee|Hitem:190950::::::::60:267:::::::::|h[Gavel of Lost Purpose]|h|r", -- [1]
+				4, -- [2]
+				"INVTYPE_WEAPON", -- [3]
+				3852420, -- [4]
+				2, -- [5]
+				4, -- [6]
 			},
 			[31198] = {
 				"|cff0070dd|Hitem:31198::::::::50:267:::::::|h[Voidhide Cord]|h|r", -- [1]
@@ -84719,13 +84719,13 @@ RareScannerDB = {
 				0, -- [5]
 				8, -- [6]
 			},
-			[180710] = {
-				"|cff0070dd|Hitem:180710::::::::60:267:::::::::|h[Pocket Repair Kit]|h|r", -- [1]
-				3, -- [2]
-				"", -- [3]
-				1059112, -- [4]
-				0, -- [5]
-				8, -- [6]
+			[106745] = {
+				"|cff1eff00|Hitem:106745::::::::50:267:::::::|h[Packrunner Belt]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_WAIST", -- [3]
+				944239, -- [4]
+				4, -- [5]
+				3, -- [6]
 			},
 			[175567] = {
 				"|cff1eff00|Hitem:175567::::::::60:267:::::::|h[Blackthorn Girdle]|h|r", -- [1]
@@ -84815,13 +84815,13 @@ RareScannerDB = {
 				4, -- [5]
 				4, -- [6]
 			},
-			[159205] = {
-				"|cff1eff00|Hitem:159205::::::::50:260:::::::|h[Briarback Vest]|h|r", -- [1]
+			[116470] = {
+				"|cff1eff00|Hitem:116470::::::::120:577::::::|h[Frostbitten Staff]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_CHEST", -- [3]
-				1733695, -- [4]
-				4, -- [5]
-				2, -- [6]
+				"INVTYPE_2HWEAPON", -- [3]
+				922707, -- [4]
+				2, -- [5]
+				10, -- [6]
 			},
 			[116586] = {
 				"|cff1eff00|Hitem:116586::::::::60:267:::::::::|h[Longclaw Hammer]|h|r", -- [1]
@@ -84935,13 +84935,13 @@ RareScannerDB = {
 				15, -- [5]
 				0, -- [6]
 			},
-			[181724] = {
-				"|cff9d9d9d|Hitem:181724::::::::60:267:::::::|h[Tactics Vol. 83: Exploitation of Weather]|h|r", -- [1]
-				0, -- [2]
-				"", -- [3]
-				133740, -- [4]
-				15, -- [5]
-				0, -- [6]
+			[189915] = {
+				"|cff0070dd|Hitem:189915::::::::60:267:::::::::|h[Tahkwitz' Cloth Ribbon]|h|r", -- [1]
+				3, -- [2]
+				"INVTYPE_WRIST", -- [3]
+				4076044, -- [4]
+				4, -- [5]
+				1, -- [6]
 			},
 			[116075] = {
 				"|cff0070dd|Hitem:116075::::::::50:267:::::::|h[Scales of Gennadian]|h|r", -- [1]
@@ -85191,13 +85191,13 @@ RareScannerDB = {
 				4, -- [5]
 				4, -- [6]
 			},
-			[159188] = {
-				"|cff1eff00|Hitem:159188::::::::120:267::::::|h[Foxhollow Sandals]|h|r", -- [1]
+			[175570] = {
+				"|cff1eff00|Hitem:175570::::::::60:267:::::::|h[Duskthistle Belt]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_FEET", -- [3]
-				1698802, -- [4]
+				"INVTYPE_WAIST", -- [3]
+				3313819, -- [4]
 				4, -- [5]
-				1, -- [6]
+				2, -- [6]
 			},
 			[116077] = {
 				"|cff0070dd|Hitem:116077::::::::120:577::::::|h[Pulsating Brain of No'losh]|h|r", -- [1]
@@ -85223,13 +85223,13 @@ RareScannerDB = {
 				4, -- [5]
 				4, -- [6]
 			},
-			[181712] = {
-				"|cff1eff00|Hitem:181712::::::::60:267:::::::|h[Depths of Insanity]|h|r", -- [1]
-				2, -- [2]
-				"", -- [3]
-				136218, -- [4]
-				0, -- [5]
-				8, -- [6]
+			[189903] = {
+				"|cff0070dd|Hitem:189903::::::::60:267:::::::::|h[Sand Sifting Sandals]|h|r", -- [1]
+				3, -- [2]
+				"INVTYPE_FEET", -- [3]
+				4076043, -- [4]
+				4, -- [5]
+				1, -- [6]
 			},
 			[85361] = {
 				"|cffa335ee|Hitem:85361::::::::60:267:::::::::|h[Guardian Serpent Legwraps]|h|r", -- [1]
@@ -85279,13 +85279,13 @@ RareScannerDB = {
 				4, -- [5]
 				1, -- [6]
 			},
-			[189900] = {
-				"|cff0070dd|Hitem:189900::::::::60:267:::::::::|h[Vexis' Gentle Heartcloth]|h|r", -- [1]
-				3, -- [2]
-				"INVTYPE_CHEST", -- [3]
-				4076046, -- [4]
-				4, -- [5]
-				1, -- [6]
+			[181709] = {
+				"|cff1eff00|Hitem:181709::::::::60:267:::::::|h[Unnerving Focus]|h|r", -- [1]
+				2, -- [2]
+				"", -- [3]
+				571316, -- [4]
+				0, -- [5]
+				8, -- [6]
 			},
 			[82140] = {
 				"|cff1eff00|Hitem:82140::::::::43:258:::::::|h[Brewer's Cowl]|h|r", -- [1]
@@ -85383,21 +85383,21 @@ RareScannerDB = {
 				2, -- [5]
 				15, -- [6]
 			},
-			[163275] = {
-				"|cff0070dd|Hitem:163275::::::::120:267::::::|h[7th Legionnaire's Cuffs]|h|r", -- [1]
+			[187848] = {
+				"|cff0070dd|Hitem:187848::::::::60:267:::::::::|h[Recipe: Sustaining Armor Polish]|h|r", -- [1]
 				3, -- [2]
-				"INVTYPE_WRIST", -- [3]
-				1866967, -- [4]
-				4, -- [5]
-				1, -- [6]
+				"", -- [3]
+				1392955, -- [4]
+				9, -- [5]
+				6, -- [6]
 			},
-			[116457] = {
-				"|cff1eff00|Hitem:116457::::::::120:577::::::|h[Frostbitten Axe]|h|r", -- [1]
+			[175561] = {
+				"|cff1eff00|Hitem:175561::::::::60:267:::::::|h[Eventide Leggings]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_WEAPON", -- [3]
-				921386, -- [4]
-				2, -- [5]
-				0, -- [6]
+				"INVTYPE_LEGS", -- [3]
+				3514678, -- [4]
+				4, -- [5]
+				3, -- [6]
 			},
 			[151255] = {
 				"|cffa335ee|Hitem:151255::::::::50:267:::::::|h[Necromedes, the Death Resonator]|h|r", -- [1]
@@ -85479,13 +85479,13 @@ RareScannerDB = {
 				15, -- [5]
 				0, -- [6]
 			},
-			[180676] = {
-				"|cff1eff00|Hitem:180676::::::::60:267:::::::::|h[Discarded Commendation]|h|r", -- [1]
+			[106728] = {
+				"|cff1eff00|Hitem:106728::::::::50:267:::::::|h[Stonecrag Vambraces]|h|r", -- [1]
 				2, -- [2]
-				"", -- [3]
-				134499, -- [4]
-				0, -- [5]
-				8, -- [6]
+				"INVTYPE_WRIST", -- [3]
+				947551, -- [4]
+				4, -- [5]
+				4, -- [6]
 			},
 			[85363] = {
 				"|cffa335ee|Hitem:85363::::::::60:267:::::::::|h[Guardian Serpent Handwraps]|h|r", -- [1]
@@ -85647,13 +85647,13 @@ RareScannerDB = {
 				4, -- [5]
 				2, -- [6]
 			},
-			[159167] = {
-				"|cff1eff00|Hitem:159167::::::::120:267::::::|h[Freehold Bracers]|h|r", -- [1]
+			[175549] = {
+				"|cff1eff00|Hitem:175549::::::::60:267:::::::|h[Shimmerbough Treads]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_WRIST", -- [3]
-				1733693, -- [4]
+				"INVTYPE_FEET", -- [3]
+				3386274, -- [4]
 				4, -- [5]
-				2, -- [6]
+				1, -- [6]
 			},
 			[7545] = {
 				"|cff1eff00|Hitem:7545::::::::50:267:::::::|h[Champion's Bracers]|h|r", -- [1]
@@ -85743,13 +85743,13 @@ RareScannerDB = {
 				12, -- [5]
 				0, -- [6]
 			},
-			[181687] = {
-				"|cff0070dd|Hitem:181687::::::::60:267:::::::::|h[Gorewrought Warglaive]|h|r", -- [1]
-				3, -- [2]
-				"INVTYPE_WEAPON", -- [3]
-				3256306, -- [4]
-				2, -- [5]
-				9, -- [6]
+			[7472] = {
+				"|cff1eff00|Hitem:7472::::::::50:267:::::::|h[Regal Boots]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_FEET", -- [3]
+				132539, -- [4]
+				4, -- [5]
+				1, -- [6]
 			},
 			[106651] = {
 				"|cff1eff00|Hitem:106651::::::::60:581:::::::|h[Spirestrider Legguards]|h|r", -- [1]
@@ -85759,11 +85759,11 @@ RareScannerDB = {
 				4, -- [5]
 				3, -- [6]
 			},
-			[159161] = {
-				"|cff1eff00|Hitem:159161::::::::120:267::::::|h[Ashvane Company Greathelm]|h|r", -- [1]
+			[175543] = {
+				"|cff1eff00|Hitem:175543::::::::60:267:::::::|h[Blackthorn Helm]|h|r", -- [1]
 				2, -- [2]
 				"INVTYPE_HEAD", -- [3]
-				1727712, -- [4]
+				3447987, -- [4]
 				4, -- [5]
 				4, -- [6]
 			},
@@ -86271,13 +86271,13 @@ RareScannerDB = {
 				4, -- [5]
 				0, -- [6]
 			},
-			[106712] = {
-				"|cff1eff00|Hitem:106712::::::::120:267::::::|h[Sunspring Belt]|h|r", -- [1]
+			[180644] = {
+				"|cff1eff00|Hitem:180644::::::::60:267:::::::::|h[Rocky]|h|r", -- [1]
 				2, -- [2]
-				"INVTYPE_WAIST", -- [3]
-				929914, -- [4]
-				4, -- [5]
-				3, -- [6]
+				"", -- [3]
+				3072466, -- [4]
+				15, -- [5]
+				2, -- [6]
 			},
 			[168748] = {
 				"|cffa335ee|Hitem:168748::::::::60:267:::::::::|h[Performant Refined Logic Board]|h|r", -- [1]
@@ -86511,13 +86511,13 @@ RareScannerDB = {
 				0, -- [5]
 				8, -- [6]
 			},
-			[90839] = {
-				"|cffa335ee|Hitem:90839::::::::60:267:::::::::|h[Cache of Sha-Touched Gold]|h|r", -- [1]
-				4, -- [2]
-				"", -- [3]
-				644388, -- [4]
-				15, -- [5]
-				0, -- [6]
+			[181662] = {
+				"|cff0070dd|Hitem:181662::::::::60:267:::::::|h[Bloodsilk Gloves]|h|r", -- [1]
+				3, -- [2]
+				"INVTYPE_HAND", -- [3]
+				3527517, -- [4]
+				4, -- [5]
+				1, -- [6]
 			},
 			[102265] = {
 				"|cffa335ee|Hitem:102265::::::::60:267:::::::|h[Timeless Plate Gloves]|h|r", -- [1]
@@ -86639,13 +86639,13 @@ RareScannerDB = {
 				2, -- [5]
 				0, -- [6]
 			},
-			[181658] = {
-				"|cff0070dd|Hitem:181658::::::::60:267:::::::|h[Fleshscale Footguards]|h|r", -- [1]
-				3, -- [2]
-				"INVTYPE_FEET", -- [3]
-				3390736, -- [4]
-				4, -- [5]
-				3, -- [6]
+			[2072] = {
+				"|cff1eff00|Hitem:2072::::::::60:267:::::::::|h[Dwarven Magestaff]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_2HWEAPON", -- [3]
+				135141, -- [4]
+				2, -- [5]
+				10, -- [6]
 			},
 			[102266] = {
 				"|cffa335ee|Hitem:102266::::::::60:267:::::::|h[Timeless Plate Helm]|h|r", -- [1]
@@ -87047,12 +87047,12 @@ RareScannerDB = {
 				4, -- [5]
 				1, -- [6]
 			},
-			[9885] = {
-				"|cff1eff00|Hitem:9885::::::::50:267:::::::|h[Huntsman's Boots]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_FEET", -- [3]
-				132541, -- [4]
-				4, -- [5]
+			[174478] = {
+				"|cff0070dd|Hitem:174478::::::::120:267::::::|h[Wicked Lurker]|h|r", -- [1]
+				3, -- [2]
+				"", -- [3]
+				237299, -- [4]
+				15, -- [5]
 				2, -- [6]
 			},
 			[9907] = {
@@ -87886,75 +87886,75 @@ RareScannerDB = {
 		["object_names"] = {
 			["enUS"] = {
 				[273905] = "Small Treasure Chest",
-				[375982] = "Firim in Exile",
 				[353503] = "Silver Strongbox",
+				[375982] = "Firim in Exile",
 				[320515] = "Darkshore Cache",
 				[353252] = "Silver Strongbox",
 				[375985] = "Firim in Exile",
 				[375983] = "Firim in Exile",
 				[310709] = "Waterlogged Chest",
-				[353314] = "Silver Strongbox",
+				[291211] = "Small Treasure Chest",
 				[354108] = "Stoneborn Satchel",
 				[375984] = "Firim in Exile",
-				[353643] = "Silver Strongbox",
-				[354211] = "Greed's Reward",
-				[354109] = "Stoneborn Satchel",
+				[352754] = "Silver Strongbox",
+				[351544] = "Secret Treasure",
+				[291244] = "Small Treasure Chest",
 				[352998] = "Silver Strongbox",
 				[284412] = "Treasure Chest",
 				[291213] = "Small Treasure Chest",
 				[354110] = "Stoneborn Satchel",
 				[375986] = "Firim in Exile",
-				[353232] = "Bleakwood Chest",
+				[353867] = "Skyward Bell",
 				[354206] = "Greedstone",
-				[291246] = "Small Treasure Chest",
+				[354111] = "Stoneborn Satchel",
 				[237722] = "Garrison Cache",
 				[329918] = "Quilboar Treasures",
 				[351540] = "Secret Treasure",
 				[354112] = "Stoneborn Satchel",
-				[369294] = "Relic Cache",
-				[369295] = "Pile of Bones",
+				[273917] = "Small Treasure Chest",
+				[236916] = "Garrison Cache",
 				[351541] = "Secret Treasure",
 				[354113] = "Stoneborn Satchel",
-				[369236] = "Stolen Anima Vessel",
-				[353770] = "Lunarlight Pod",
+				[353234] = "Gilded Chest",
+				[353516] = "Silver Strongbox",
 				[351542] = "Secret Treasure",
-				[354114] = "Stoneborn Satchel",
+				[369227] = "Stolen Anima Vessel",
 				[369310] = "Relic Cache",
 				[368947] = "Stolen Anima Vessel",
 				[351543] = "Secret Treasure",
 				[354115] = "Pugilist's Prize",
 				[353327] = "Decayed Husk",
 				[369292] = "Relic Cache",
-				[351544] = "Secret Treasure",
+				[354211] = "Greed's Reward",
 				[354116] = "Pugilist's Prize",
 				[355037] = "Runebound Coffer",
-				[354121] = "Pugilist's Prize",
-				[351545] = "Secret Treasure",
+				[353232] = "Bleakwood Chest",
+				[353323] = "Decayed Husk",
 				[354852] = "Spouting Growth",
 				[355038] = "Runebound Coffer",
-				[273917] = "Small Treasure Chest",
+				[369294] = "Relic Cache",
 				[353324] = "Decayed Husk",
-				[368950] = "Stolen Anima Vessel",
+				[353329] = "Faerie Stash",
 				[353769] = "Lunarlight Pod",
-				[236916] = "Garrison Cache",
-				[368946] = "Stolen Anima Vessel",
-				[353869] = "Hidden Hoard",
-				[353516] = "Silver Strongbox",
+				[369295] = "Pile of Bones",
+				[353325] = "Silver Strongbox",
+				[369236] = "Stolen Anima Vessel",
+				[353770] = "Lunarlight Pod",
 				[369296] = "Shardhide Stash",
 				[353326] = "Decayed Husk",
-				[352596] = "Spouting Growth",
+				[353231] = "Bonebound Chest",
 				[353771] = "Lunarlight Pod",
 				[369297] = "Pile of Bones",
 				[368948] = "Stolen Anima Vessel",
-				[339770] = "Abandoned Treasure Chest",
+				[354121] = "Pugilist's Prize",
 				[353772] = "Lunarlight Pod",
 				[353330] = "Faerie Stash",
 				[368949] = "Stolen Anima Vessel",
 				[291257] = "Small Treasure Chest",
 				[351487] = "Secret Treasure",
 				[354186] = "Stoneborn Satchel",
-				[353329] = "Faerie Stash",
-				[354123] = "Pugilist's Prize",
+				[368950] = "Stolen Anima Vessel",
+				[353869] = "Hidden Hoard",
 				[353306] = "Decayed Husk",
 				[354187] = "Stoneborn Satchel",
 				[368951] = "Stolen Anima Vessel",
@@ -87963,9 +87963,9 @@ RareScannerDB = {
 				[354188] = "Stoneborn Satchel",
 				[353331] = "Faerie Stash",
 				[289647] = "Weathered Treasure Chest",
-				[368953] = "Stolen Anima Vessel",
+				[353205] = "Silver Strongbox",
 				[354189] = "Stoneborn Satchel",
-				[353332] = "Faerie Stash",
+				[368953] = "Stolen Anima Vessel",
 				[353872] = "Hidden Hoard",
 				[353650] = "Steward's Golden Chest",
 				[354190] = "Stoneborn Satchel",
@@ -87977,38 +87977,38 @@ RareScannerDB = {
 				[284469] = "Small Treasure Chest",
 				[354193] = "Stoneborn Satchel",
 				[354192] = "Stoneborn Satchel",
-				[353875] = "Virtue of Penitence",
 				[375973] = "Firim in Exile",
+				[353875] = "Virtue of Penitence",
 				[353773] = "Lunarlight Pod",
 				[291201] = "Small Treasure Chest",
 				[353336] = "Secret Treasure",
 				[353233] = "Enchanted Chest",
 				[179883] = "Zovaal's Vault",
-				[353205] = "Silver Strongbox",
 				[354856] = "Slime-Coated Crate",
+				[353332] = "Faerie Stash",
 				[170406] = "Wish Cricket",
 				[281646] = "Honey Bear",
 				[353687] = "Broken Bell",
 				[352703] = "The Harvest",
-				[353234] = "Gilded Chest",
+				[354123] = "Pugilist's Prize",
 				[369235] = "Stolen Anima Vessel",
 				[353688] = "Broken Bell",
-				[353867] = "Skyward Bell",
+				[339770] = "Abandoned Treasure Chest",
 				[252449] = "Shimmering Ancient Mana Cluster",
-				[353231] = "Bonebound Chest",
+				[352596] = "Spouting Growth",
 				[353689] = "Broken Bell",
 				[171337] = "Bloated Lootfly",
-				[352754] = "Silver Strongbox",
-				[353325] = "Silver Strongbox",
+				[353643] = "Silver Strongbox",
+				[368946] = "Stolen Anima Vessel",
 				[354122] = "Pugilist's Prize",
-				[353323] = "Decayed Husk",
+				[351545] = "Secret Treasure",
 				[353500] = "Silver Strongbox",
-				[369227] = "Stolen Anima Vessel",
+				[354114] = "Stoneborn Satchel",
 				[353691] = "Skyward Bell",
 				[375987] = "Firim in Exile",
-				[354111] = "Stoneborn Satchel",
-				[291244] = "Small Treasure Chest",
-				[291211] = "Small Treasure Chest",
+				[291246] = "Small Treasure Chest",
+				[354109] = "Stoneborn Satchel",
+				[353314] = "Silver Strongbox",
 			},
 		},
 		["quest_ids"] = {
@@ -88049,6 +88049,13 @@ RareScannerDB = {
 				184152, -- [1]
 				180355, -- [2]
 			},
+			[375290] = {
+				190633, -- [1]
+				188009, -- [2]
+			},
+			[375530] = {
+				188022, -- [1]
+			},
 			[356705] = {
 				181323, -- [1]
 				181623, -- [2]
@@ -88056,12 +88063,6 @@ RareScannerDB = {
 				181437, -- [4]
 				181622, -- [5]
 				181321, -- [6]
-			},
-			[375404] = {
-			},
-			[375290] = {
-				190633, -- [1]
-				188009, -- [2]
 			},
 			[349793] = {
 				184146, -- [1]
@@ -88083,23 +88084,24 @@ RareScannerDB = {
 				181644, -- [2]
 				183205, -- [3]
 			},
-			[349797] = {
-				177741, -- [1]
+			[373548] = {
+				190060, -- [1]
 			},
-			[375530] = {
-				188022, -- [1]
+			[375404] = {
 			},
-			[369183] = {
-				185963, -- [1]
-				186200, -- [2]
+			[356709] = {
+				179516, -- [1]
+				180639, -- [2]
+				177232, -- [3]
 			},
 			[375373] = {
 				190343, -- [1]
 			},
-			[368207] = {
-				179372, -- [1]
-				184392, -- [2]
-				184390, -- [3]
+			[356741] = {
+				180961, -- [1]
+				182696, -- [2]
+				181436, -- [3]
+				181566, -- [4]
 			},
 			[356757] = {
 				179327, -- [1]
@@ -88142,14 +88144,16 @@ RareScannerDB = {
 			[368649] = {
 				184392, -- [1]
 			},
-			[373579] = {
+			[354112] = {
+				184152, -- [1]
+				182718, -- [2]
 			},
 			[369437] = {
 				186017, -- [1]
 				188740, -- [2]
 			},
-			[373548] = {
-				190060, -- [1]
+			[349797] = {
+				177741, -- [1]
 			},
 			[369194] = {
 				187356, -- [1]
@@ -88184,16 +88188,16 @@ RareScannerDB = {
 			[369329] = {
 				186685, -- [1]
 			},
+			[375362] = {
+			},
+			[353233] = {
+			},
 			[369440] = {
 				186685, -- [1]
 				187465, -- [2]
 				186204, -- [3]
 				186017, -- [4]
 				176885, -- [5]
-			},
-			[353233] = {
-			},
-			[375362] = {
 			},
 			[369330] = {
 				186987, -- [1]
@@ -88222,8 +88226,9 @@ RareScannerDB = {
 				181322, -- [1]
 				183860, -- [2]
 			},
-			[369757] = {
-				190927, -- [1]
+			[356716] = {
+				172043, -- [1]
+				180628, -- [2]
 			},
 			[369332] = {
 				186685, -- [1]
@@ -88269,9 +88274,8 @@ RareScannerDB = {
 				189544, -- [2]
 				188682, -- [3]
 			},
-			[356716] = {
-				172043, -- [1]
-				180628, -- [2]
+			[369757] = {
+				190927, -- [1]
 			},
 			[375493] = {
 				188682, -- [1]
@@ -88291,9 +88295,7 @@ RareScannerDB = {
 				178901, -- [1]
 				179563, -- [2]
 			},
-			[354112] = {
-				184152, -- [1]
-				182718, -- [2]
+			[373579] = {
 			},
 			[356752] = {
 				172957, -- [1]
@@ -88305,16 +88307,14 @@ RareScannerDB = {
 				184152, -- [1]
 				182710, -- [2]
 			},
-			[356741] = {
-				180961, -- [1]
-				182696, -- [2]
-				181436, -- [3]
-				181566, -- [4]
+			[368207] = {
+				179372, -- [1]
+				184392, -- [2]
+				184390, -- [3]
 			},
-			[356709] = {
-				179516, -- [1]
-				180639, -- [2]
-				177232, -- [3]
+			[369183] = {
+				185963, -- [1]
+				186200, -- [2]
 			},
 		},
 		["lootdbversion"] = 69,
@@ -95287,14 +95287,14 @@ RareScannerDB = {
 				["foundTime"] = 1645010980,
 			},
 			[96323] = {
-				["mapID"] = 582,
+				["mapID"] = 572,
 				["artID"] = {
-					603, -- [1]
+					589, -- [1]
 				},
-				["foundTime"] = 1648331226,
-				["coordX"] = 0.7322126030921936,
+				["foundTime"] = 1648338218,
+				["coordX"] = 0.5364820957183838,
 				["atlasName"] = "VignetteKill",
-				["coordY"] = 0.3642429709434509,
+				["coordY"] = 0.6114305853843689,
 			},
 			[369172] = {
 				["mapID"] = 1961,
@@ -95826,16 +95826,6 @@ RareScannerDB = {
 				["atlasName"] = "VignetteLoot",
 				["foundTime"] = 1647944096,
 			},
-			[355880] = {
-				["mapID"] = 1536,
-				["artID"] = {
-					1323, -- [1]
-				},
-				["foundTime"] = 1606243179,
-				["coordX"] = 0.4238294959068298,
-				["atlasName"] = "VignetteLoot",
-				["coordY"] = 0.2333347797393799,
-			},
 			[178004] = {
 				["mapID"] = 1543,
 				["artID"] = {
@@ -95846,15 +95836,25 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["foundTime"] = 1643972818,
 			},
-			[303170] = {
-				["mapID"] = 942,
+			[355880] = {
+				["mapID"] = 1536,
 				["artID"] = {
-					967, -- [1]
+					1323, -- [1]
 				},
-				["foundTime"] = 1647868860,
-				["coordX"] = 0.3288314044475555,
+				["foundTime"] = 1606243179,
+				["coordX"] = 0.4238294959068298,
 				["atlasName"] = "VignetteLoot",
-				["coordY"] = 0.6965036392211914,
+				["coordY"] = 0.2333347797393799,
+			},
+			[253999] = {
+				["mapID"] = 731,
+				["artID"] = {
+					756, -- [1]
+				},
+				["coordY"] = 0.7822291851043701,
+				["coordX"] = 0.3385441899299622,
+				["atlasName"] = "VignetteLoot",
+				["foundTime"] = 1630694351,
 			},
 			[166146] = {
 				["mapID"] = 1565,
@@ -95896,25 +95896,25 @@ RareScannerDB = {
 				},
 				["foundTime"] = 1645012607,
 			},
-			[353324] = {
-				["mapID"] = 1565,
+			[127288] = {
+				["mapID"] = 885,
+				["coordY"] = 0.2179124355316162,
+				["atlasName"] = "VignetteKill",
+				["coordX"] = 0.6393187642097473,
 				["artID"] = {
-					1338, -- [1]
+					910, -- [1]
 				},
-				["coordY"] = 0.2903199791908264,
-				["coordX"] = 0.7284286022186279,
-				["atlasName"] = "VignetteLoot",
-				["foundTime"] = 1644409135,
+				["foundTime"] = 1617789871,
 			},
-			[353323] = {
-				["mapID"] = 1565,
+			[157279] = {
+				["mapID"] = 1530,
 				["artID"] = {
-					1338, -- [1]
+					1342, -- [1]
 				},
-				["foundTime"] = 1648139711,
-				["coordX"] = 0.4240216016769409,
-				["atlasName"] = "VignetteLoot",
-				["coordY"] = 0.3120549023151398,
+				["coordY"] = 0.7718629240989685,
+				["coordX"] = 0.2362778931856155,
+				["atlasName"] = "VignetteKill",
+				["foundTime"] = 1633026669,
 			},
 			[77776] = {
 				["mapID"] = 535,
@@ -95946,15 +95946,15 @@ RareScannerDB = {
 				},
 				["atlasName"] = "VignetteKill",
 			},
-			[127288] = {
-				["mapID"] = 885,
-				["coordY"] = 0.2179124355316162,
-				["atlasName"] = "VignetteKill",
-				["coordX"] = 0.6393187642097473,
+			[353324] = {
+				["mapID"] = 1565,
 				["artID"] = {
-					910, -- [1]
+					1338, -- [1]
 				},
-				["foundTime"] = 1617789871,
+				["coordY"] = 0.2903199791908264,
+				["coordX"] = 0.7284286022186279,
+				["atlasName"] = "VignetteLoot",
+				["foundTime"] = 1644409135,
 			},
 			[164331] = {
 				["mapID"] = 1530,
@@ -95996,16 +95996,6 @@ RareScannerDB = {
 				["atlasName"] = "VignetteLoot",
 				["coordY"] = 0.1991533935070038,
 			},
-			[165980] = {
-				["mapID"] = 1525,
-				["artID"] = {
-					1306, -- [1]
-				},
-				["coordY"] = 0.7742278575897217,
-				["coordX"] = 0.5920535922050476,
-				["atlasName"] = "VignetteKill",
-				["foundTime"] = 1635074427,
-			},
 			[254001] = {
 				["mapID"] = 749,
 				["artID"] = {
@@ -96015,6 +96005,16 @@ RareScannerDB = {
 				["coordX"] = 0.5997205972671509,
 				["atlasName"] = "VignetteLoot",
 				["foundTime"] = 1634733585,
+			},
+			[165980] = {
+				["mapID"] = 1525,
+				["artID"] = {
+					1306, -- [1]
+				},
+				["coordY"] = 0.7742278575897217,
+				["coordX"] = 0.5920535922050476,
+				["atlasName"] = "VignetteKill",
+				["foundTime"] = 1635074427,
 			},
 			[162142] = {
 				["mapID"] = 1527,
@@ -96036,16 +96036,6 @@ RareScannerDB = {
 				["atlasName"] = "VignetteLoot",
 				["coordY"] = 0.5323716402053833,
 			},
-			[142440] = {
-				["mapID"] = 14,
-				["coordY"] = 0.3676632940769196,
-				["atlasName"] = "VignetteKill",
-				["coordX"] = 0.1447607576847076,
-				["artID"] = {
-					1137, -- [1]
-				},
-				["foundTime"] = 1643367502,
-			},
 			[89675] = {
 				["mapID"] = 534,
 				["artID"] = {
@@ -96056,15 +96046,25 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["foundTime"] = 1629933387,
 			},
-			[293965] = {
-				["mapID"] = 895,
-				["coordY"] = 0.2133042067289352,
-				["atlasName"] = "VignetteLoot",
-				["coordX"] = 0.7265006899833679,
+			[142440] = {
+				["mapID"] = 14,
+				["coordY"] = 0.3676632940769196,
+				["atlasName"] = "VignetteKill",
+				["coordX"] = 0.1447607576847076,
 				["artID"] = {
-					920, -- [1]
+					1137, -- [1]
 				},
-				["foundTime"] = 1648136118,
+				["foundTime"] = 1643367502,
+			},
+			[16179] = {
+				["mapID"] = 351,
+				["artID"] = {
+					363, -- [1]
+				},
+				["coordY"] = 0.287,
+				["coordX"] = 0.59599996,
+				["atlasName"] = "VignetteKill",
+				["foundTime"] = 1635428760,
 			},
 			[85837] = {
 				["mapID"] = 539,
@@ -96106,15 +96106,15 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["foundTime"] = 1619626852,
 			},
-			[16179] = {
-				["mapID"] = 351,
+			[293965] = {
+				["mapID"] = 895,
+				["coordY"] = 0.2133042067289352,
+				["atlasName"] = "VignetteLoot",
+				["coordX"] = 0.7265006899833679,
 				["artID"] = {
-					363, -- [1]
+					920, -- [1]
 				},
-				["coordY"] = 0.287,
-				["coordX"] = 0.59599996,
-				["atlasName"] = "VignetteKill",
-				["foundTime"] = 1635428760,
+				["foundTime"] = 1648136118,
 			},
 			[154467] = {
 				["mapID"] = 1530,
@@ -96778,15 +96778,15 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["foundTime"] = 1647957699,
 			},
-			[91087] = {
-				["mapID"] = 534,
+			[169828] = {
+				["mapID"] = 1543,
 				["artID"] = {
-					551, -- [1]
+					1693, -- [1]
 				},
-				["foundTime"] = 1629934318,
-				["coordX"] = 0.4842079877853394,
-				["atlasName"] = "VignetteKill",
-				["coordY"] = 0.2846860885620117,
+				["coordY"] = 0.2103506326675415,
+				["coordX"] = 0.4236539602279663,
+				["atlasName"] = "VignetteEvent",
+				["foundTime"] = 1643612879,
 			},
 			[95053] = {
 				["mapID"] = 534,
@@ -96798,15 +96798,15 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["foundTime"] = 1603049141,
 			},
-			[169828] = {
-				["mapID"] = 1543,
+			[91087] = {
+				["mapID"] = 534,
 				["artID"] = {
-					1693, -- [1]
+					551, -- [1]
 				},
-				["coordY"] = 0.2103506326675415,
-				["coordX"] = 0.4236539602279663,
-				["atlasName"] = "VignetteEvent",
-				["foundTime"] = 1643612879,
+				["foundTime"] = 1629934318,
+				["coordX"] = 0.4842079877853394,
+				["atlasName"] = "VignetteKill",
+				["coordY"] = 0.2846860885620117,
 			},
 			[184413] = {
 				["mapID"] = 1970,
@@ -96859,15 +96859,15 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["foundTime"] = 1629934306,
 			},
-			[183646] = {
-				["mapID"] = 1970,
+			[243009] = {
+				["mapID"] = 630,
+				["coordY"] = 0.4001505374908447,
+				["foundTime"] = 1624562218,
+				["coordX"] = 0.6512895822525024,
 				["artID"] = {
-					1650, -- [1]
+					653, -- [1]
 				},
-				["foundTime"] = 1647814867,
-				["coordX"] = 0.6450297832489014,
-				["atlasName"] = "VignetteKill",
-				["coordY"] = 0.5861082673072815,
+				["atlasName"] = "VignetteEvent",
 			},
 			[157291] = {
 				["mapID"] = 1530,
@@ -97149,15 +97149,15 @@ RareScannerDB = {
 				},
 				["foundTime"] = 1640788449,
 			},
-			[141942] = {
-				["mapID"] = 14,
-				["coordY"] = 0.7804141044616699,
-				["atlasName"] = "VignetteKill",
-				["coordX"] = 0.4766123294830322,
+			[273521] = {
+				["mapID"] = 885,
+				["coordY"] = 0.402232825756073,
+				["atlasName"] = "VignetteLoot",
+				["coordX"] = 0.5817618370056152,
 				["artID"] = {
-					1137, -- [1]
+					910, -- [1]
 				},
-				["foundTime"] = 1645012529,
+				["foundTime"] = 1617788842,
 			},
 			[327229] = {
 				["mapID"] = 1530,
@@ -97179,25 +97179,25 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["foundTime"] = 1624538635,
 			},
-			[273523] = {
-				["mapID"] = 885,
-				["coordY"] = 0.2896142601966858,
-				["atlasName"] = "VignetteLoot",
-				["coordX"] = 0.6082859039306641,
+			[154225] = {
+				["mapID"] = 1462,
 				["artID"] = {
-					910, -- [1]
+					1276, -- [1]
 				},
-				["foundTime"] = 1620064781,
+				["foundTime"] = 1645802658,
+				["coordX"] = 0.5729504227638245,
+				["atlasName"] = "VignetteKill",
+				["coordY"] = 0.5840485692024231,
 			},
-			[375362] = {
-				["mapID"] = 1970,
+			[68317] = {
+				["mapID"] = 418,
 				["artID"] = {
-					1650, -- [1]
+					499, -- [1]
 				},
-				["coordY"] = 0.6226673722267151,
-				["coordX"] = 0.5970388054847717,
-				["atlasName"] = "VignetteLoot",
-				["foundTime"] = 1648308304,
+				["coordY"] = 0.2687585353851318,
+				["coordX"] = 0.8914622068405151,
+				["atlasName"] = "VignetteKill",
+				["foundTime"] = 1620147212,
 			},
 			[141175] = {
 				["mapID"] = 942,
@@ -97229,45 +97229,45 @@ RareScannerDB = {
 				["atlasName"] = "VignetteEvent",
 				["coordY"] = 0.473442018032074,
 			},
-			[154225] = {
-				["mapID"] = 1462,
-				["artID"] = {
-					1276, -- [1]
-				},
-				["foundTime"] = 1645802658,
-				["coordX"] = 0.5729504227638245,
-				["atlasName"] = "VignetteKill",
-				["coordY"] = 0.5840485692024231,
-			},
-			[353868] = {
-				["mapID"] = 1533,
-				["artID"] = {
-					1321, -- [1]
-				},
-				["foundTime"] = 1647896287,
-				["coordX"] = 0.5870674848556519,
+			[273523] = {
+				["mapID"] = 885,
+				["coordY"] = 0.2896142601966858,
 				["atlasName"] = "VignetteLoot",
-				["coordY"] = 0.1300079524517059,
-			},
-			[160878] = {
-				["mapID"] = 1530,
+				["coordX"] = 0.6082859039306641,
 				["artID"] = {
-					1342, -- [1]
+					910, -- [1]
 				},
-				["coordY"] = 0.7072337865829468,
-				["coordX"] = 0.06495451182126999,
-				["atlasName"] = "VignetteKill",
-				["foundTime"] = 1631811966,
+				["foundTime"] = 1620064781,
 			},
-			[68317] = {
-				["mapID"] = 418,
+			[162669] = {
+				["mapID"] = 1536,
 				["artID"] = {
-					499, -- [1]
+					1323, -- [1]
 				},
-				["coordY"] = 0.2687585353851318,
-				["coordX"] = 0.8914622068405151,
+				["foundTime"] = 1643903635,
+				["coordX"] = 0.4536549150943756,
 				["atlasName"] = "VignetteKill",
-				["foundTime"] = 1620147212,
+				["coordY"] = 0.2656364440917969,
+			},
+			[80471] = {
+				["mapID"] = 535,
+				["artID"] = {
+					552, -- [1]
+				},
+				["foundTime"] = 1605277493,
+				["coordX"] = 0.673542857170105,
+				["atlasName"] = "VignetteKill",
+				["coordY"] = 0.8032165765762329,
+			},
+			[375362] = {
+				["mapID"] = 1970,
+				["artID"] = {
+					1650, -- [1]
+				},
+				["coordY"] = 0.6226673722267151,
+				["coordX"] = 0.5970388054847717,
+				["atlasName"] = "VignetteLoot",
+				["foundTime"] = 1648308304,
 			},
 			[95056] = {
 				["mapID"] = 534,
@@ -97329,15 +97329,15 @@ RareScannerDB = {
 				["atlasName"] = "VignetteLoot",
 				["coordY"] = 0.4449991881847382,
 			},
-			[273527] = {
-				["mapID"] = 885,
-				["coordY"] = 0.4207055568695068,
-				["atlasName"] = "VignetteLoot",
-				["coordX"] = 0.7239876985549927,
+			[16180] = {
+				["mapID"] = 351,
 				["artID"] = {
-					910, -- [1]
+					363, -- [1]
 				},
-				["foundTime"] = 1645010376,
+				["foundTime"] = 1635428655,
+				["coordX"] = 0.59599996,
+				["atlasName"] = "VignetteKill",
+				["coordY"] = 0.287,
 			},
 			[75482] = {
 				["mapID"] = 539,
@@ -97389,15 +97389,15 @@ RareScannerDB = {
 				["atlasName"] = "VignetteLoot",
 				["foundTime"] = 1625169321,
 			},
-			[16180] = {
-				["mapID"] = 351,
+			[273527] = {
+				["mapID"] = 885,
+				["coordY"] = 0.4207055568695068,
+				["atlasName"] = "VignetteLoot",
+				["coordX"] = 0.7239876985549927,
 				["artID"] = {
-					363, -- [1]
+					910, -- [1]
 				},
-				["foundTime"] = 1635428655,
-				["coordX"] = 0.59599996,
-				["atlasName"] = "VignetteKill",
-				["coordY"] = 0.287,
+				["foundTime"] = 1645010376,
 			},
 			[353872] = {
 				["mapID"] = 1533,
@@ -97669,15 +97669,15 @@ RareScannerDB = {
 				},
 				["foundTime"] = 1645012474,
 			},
-			[375373] = {
-				["mapID"] = 1970,
+			[275070] = {
+				["mapID"] = 895,
+				["coordY"] = 0.144323006272316,
+				["foundTime"] = 1620154179,
+				["coordX"] = 0.5730315446853638,
 				["artID"] = {
-					1650, -- [1]
+					920, -- [1]
 				},
-				["coordY"] = 0.7768161296844482,
-				["coordX"] = 0.3956276774406433,
 				["atlasName"] = "VignetteLoot",
-				["foundTime"] = 1648292689,
 			},
 			[368208] = {
 				["mapID"] = 1543,
@@ -97699,15 +97699,15 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["foundTime"] = 1645802715,
 			},
-			[275070] = {
-				["mapID"] = 895,
-				["coordY"] = 0.144323006272316,
-				["foundTime"] = 1620154179,
-				["coordX"] = 0.5730315446853638,
+			[375373] = {
+				["mapID"] = 1970,
 				["artID"] = {
-					920, -- [1]
+					1650, -- [1]
 				},
+				["coordY"] = 0.7768161296844482,
+				["coordX"] = 0.3956276774406433,
 				["atlasName"] = "VignetteLoot",
+				["foundTime"] = 1648292689,
 			},
 			[273535] = {
 				["mapID"] = 885,
@@ -97749,16 +97749,6 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["foundTime"] = 1620144798,
 			},
-			[127939] = {
-				["mapID"] = 862,
-				["artID"] = {
-					887, -- [1]
-				},
-				["coordY"] = 0.6532808542251587,
-				["coordX"] = 0.4671894609928131,
-				["atlasName"] = "VignetteKill",
-				["foundTime"] = 1624549179,
-			},
 			[91093] = {
 				["mapID"] = 534,
 				["coordY"] = 0.6952211856842041,
@@ -97768,6 +97758,16 @@ RareScannerDB = {
 					551, -- [1]
 				},
 				["foundTime"] = 1627910474,
+			},
+			[127939] = {
+				["mapID"] = 862,
+				["artID"] = {
+					887, -- [1]
+				},
+				["coordY"] = 0.6532808542251587,
+				["coordX"] = 0.4671894609928131,
+				["atlasName"] = "VignetteKill",
+				["foundTime"] = 1624549179,
 			},
 			[10647] = {
 				["mapID"] = 63,
@@ -97859,25 +97859,25 @@ RareScannerDB = {
 				["atlasName"] = "VignetteLoot",
 				["coordY"] = 0.4746643006801605,
 			},
-			[275074] = {
-				["mapID"] = 895,
-				["coordY"] = 0.1634777188301086,
-				["foundTime"] = 1648228203,
-				["coordX"] = 0.6694666743278503,
+			[369236] = {
+				["mapID"] = 1543,
 				["artID"] = {
-					920, -- [1]
+					1693, -- [1]
 				},
+				["coordY"] = 0.4951725602149963,
+				["coordX"] = 0.2734145522117615,
 				["atlasName"] = "VignetteLoot",
+				["foundTime"] = 1632321337,
 			},
-			[2192] = {
-				["mapID"] = 62,
-				["artID"] = {
-					67, -- [1]
-				},
-				["coordY"] = 0.8401908874511719,
-				["coordX"] = 0.3959106802940369,
+			[127300] = {
+				["mapID"] = 885,
+				["coordY"] = 0.2155847549438477,
 				["atlasName"] = "VignetteKill",
-				["foundTime"] = 1608392893,
+				["coordX"] = 0.5526007413864136,
+				["artID"] = {
+					910, -- [1]
+				},
+				["foundTime"] = 1620064755,
 			},
 			[74206] = {
 				["mapID"] = 539,
@@ -97889,16 +97889,6 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["foundTime"] = 1624643920,
 			},
-			[179565] = {
-				["mapID"] = 1961,
-				["artID"] = {
-					1648, -- [1]
-				},
-				["foundTime"] = 1645706239,
-				["coordX"] = 0.6062597036361694,
-				["atlasName"] = "VignetteKill",
-				["coordY"] = 0.2811691761016846,
-			},
 			[68321] = {
 				["mapID"] = 418,
 				["artID"] = {
@@ -97908,6 +97898,16 @@ RareScannerDB = {
 				["coordX"] = 0.1334891617298126,
 				["atlasName"] = "VignetteKill",
 				["foundTime"] = 1619617914,
+			},
+			[179565] = {
+				["mapID"] = 1961,
+				["artID"] = {
+					1648, -- [1]
+				},
+				["foundTime"] = 1645706239,
+				["coordX"] = 0.6062597036361694,
+				["atlasName"] = "VignetteKill",
+				["coordY"] = 0.2811691761016846,
 			},
 			[82778] = {
 				["mapID"] = 550,
@@ -98049,25 +98049,25 @@ RareScannerDB = {
 				["atlasName"] = "VignetteLoot",
 				["foundTime"] = 1645707542,
 			},
-			[349795] = {
-				["mapID"] = 1525,
+			[180079] = {
+				["mapID"] = 1961,
 				["artID"] = {
-					1306, -- [1]
+					1648, -- [1]
 				},
-				["coordY"] = 0.5817323923110962,
-				["coordX"] = 0.4639455378055573,
-				["atlasName"] = "VignetteLoot",
-				["foundTime"] = 1608568474,
+				["foundTime"] = 1645700094,
+				["coordX"] = 0.5982989072799683,
+				["atlasName"] = "VignetteKill",
+				["coordY"] = 0.4339968860149384,
 			},
-			[375382] = {
-				["mapID"] = 1970,
+			[68322] = {
+				["mapID"] = 418,
 				["artID"] = {
-					1650, -- [1]
+					499, -- [1]
 				},
-				["coordY"] = 0.6416886448860168,
-				["coordX"] = 0.5675066113471985,
-				["atlasName"] = "VignetteLoot",
-				["foundTime"] = 1647967762,
+				["coordY"] = 0.5448582768440247,
+				["coordX"] = 0.09630125015974045,
+				["atlasName"] = "VignetteKill",
+				["foundTime"] = 1620144788,
 			},
 			[179823] = {
 				["mapID"] = 1961,
@@ -98079,15 +98079,15 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["coordY"] = 0.2856245040893555,
 			},
-			[180079] = {
-				["mapID"] = 1961,
+			[349795] = {
+				["mapID"] = 1525,
 				["artID"] = {
-					1648, -- [1]
+					1306, -- [1]
 				},
-				["foundTime"] = 1645700094,
-				["coordX"] = 0.5982989072799683,
-				["atlasName"] = "VignetteKill",
-				["coordY"] = 0.4339968860149384,
+				["coordY"] = 0.5817323923110962,
+				["coordX"] = 0.4639455378055573,
+				["atlasName"] = "VignetteLoot",
+				["foundTime"] = 1608568474,
 			},
 			[170302] = {
 				["mapID"] = 1543,
@@ -98339,15 +98339,15 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["coordY"] = 0.2080945074558258,
 			},
-			[154495] = {
-				["mapID"] = 1530,
+			[152448] = {
+				["mapID"] = 1355,
 				["artID"] = {
-					1342, -- [1]
+					1186, -- [1]
 				},
-				["coordY"] = 0.6225057244300842,
-				["coordX"] = 0.5295419692993164,
+				["foundTime"] = 1632498333,
+				["coordX"] = 0.4035260081291199,
 				["atlasName"] = "VignetteKill",
-				["foundTime"] = 1625174866,
+				["coordY"] = 0.4835201501846314,
 			},
 			[166521] = {
 				["mapID"] = 1525,
@@ -98359,15 +98359,15 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["coordY"] = 0.466241866350174,
 			},
-			[152448] = {
-				["mapID"] = 1355,
+			[154495] = {
+				["mapID"] = 1530,
 				["artID"] = {
-					1186, -- [1]
+					1342, -- [1]
 				},
-				["foundTime"] = 1632498333,
-				["coordX"] = 0.4035260081291199,
+				["coordY"] = 0.6225057244300842,
+				["coordX"] = 0.5295419692993164,
 				["atlasName"] = "VignetteKill",
-				["coordY"] = 0.4835201501846314,
+				["foundTime"] = 1625174866,
 			},
 			[117141] = {
 				["mapID"] = 646,
@@ -98439,15 +98439,15 @@ RareScannerDB = {
 				["atlasName"] = "VignetteLoot",
 				["coordY"] = 0.2571988999843597,
 			},
-			[51066] = {
-				["mapID"] = 35,
+			[177525] = {
+				["mapID"] = 1543,
 				["artID"] = {
-					36, -- [1]
+					1693, -- [1]
 				},
-				["foundTime"] = 1636107012,
-				["coordX"] = 0.3663806915283203,
-				["atlasName"] = "VignetteKill",
-				["coordY"] = 0.292661726474762,
+				["foundTime"] = 1648148462,
+				["coordX"] = 0.2132515758275986,
+				["atlasName"] = "VignetteEvent",
+				["coordY"] = 0.3401574492454529,
 			},
 			[160893] = {
 				["mapID"] = 1530,
@@ -98459,15 +98459,15 @@ RareScannerDB = {
 				},
 				["foundTime"] = 1631811967,
 			},
-			[177525] = {
-				["mapID"] = 1543,
+			[51066] = {
+				["mapID"] = 35,
 				["artID"] = {
-					1693, -- [1]
+					36, -- [1]
 				},
-				["foundTime"] = 1648148462,
-				["coordX"] = 0.2132515758275986,
-				["atlasName"] = "VignetteEvent",
-				["coordY"] = 0.3401574492454529,
+				["foundTime"] = 1636107012,
+				["coordX"] = 0.3663806915283203,
+				["atlasName"] = "VignetteKill",
+				["coordY"] = 0.292661726474762,
 			},
 			[157311] = {
 				["mapID"] = 1536,
@@ -98539,15 +98539,15 @@ RareScannerDB = {
 				},
 				["foundTime"] = 1640798569,
 			},
-			[91098] = {
-				["mapID"] = 534,
+			[145286] = {
+				["mapID"] = 895,
 				["artID"] = {
-					551, -- [1]
+					920, -- [1]
 				},
-				["coordY"] = 0.2659137845039368,
-				["coordX"] = 0.5275143980979919,
+				["foundTime"] = 1624490996,
+				["coordX"] = 0.7728099822998047,
 				["atlasName"] = "VignetteKill",
-				["foundTime"] = 1629933605,
+				["coordY"] = 0.4223330020904541,
 			},
 			[157312] = {
 				["mapID"] = 1536,
@@ -98559,15 +98559,15 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["foundTime"] = 1630675850,
 			},
-			[145286] = {
-				["mapID"] = 895,
+			[91098] = {
+				["mapID"] = 534,
 				["artID"] = {
-					920, -- [1]
+					551, -- [1]
 				},
-				["foundTime"] = 1624490996,
-				["coordX"] = 0.7728099822998047,
+				["coordY"] = 0.2659137845039368,
+				["coordX"] = 0.5275143980979919,
 				["atlasName"] = "VignetteKill",
-				["coordY"] = 0.4223330020904541,
+				["foundTime"] = 1629933605,
 			},
 			[155583] = {
 				["mapID"] = 1462,
@@ -98589,15 +98589,15 @@ RareScannerDB = {
 				},
 				["foundTime"] = 1643368135,
 			},
-			[156289] = {
-				["mapID"] = 1530,
-				["coordY"] = 0.651229977607727,
-				["atlasName"] = "VignetteEvent",
-				["coordX"] = 0.1194817423820496,
+			[164477] = {
+				["mapID"] = 1565,
 				["artID"] = {
-					1342, -- [1]
+					1338, -- [1]
 				},
-				["foundTime"] = 1601911870,
+				["coordY"] = 0.6799269914627075,
+				["coordX"] = 0.3463523983955383,
+				["atlasName"] = "VignetteKill",
+				["foundTime"] = 1632834807,
 			},
 			[93401] = {
 				["mapID"] = 634,
@@ -98609,15 +98609,15 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["foundTime"] = 1619814884,
 			},
-			[16181] = {
-				["mapID"] = 351,
+			[50363] = {
+				["mapID"] = 371,
 				["artID"] = {
-					363, -- [1]
+					383, -- [1]
 				},
-				["foundTime"] = 1636147162,
-				["coordX"] = 0.59599996,
+				["foundTime"] = 1648331558,
+				["coordX"] = 0.3951674997806549,
 				["atlasName"] = "VignetteKill",
-				["coordY"] = 0.287,
+				["coordY"] = 0.6260576248168945,
 			},
 			[163198] = {
 				["mapID"] = 1527,
@@ -98669,15 +98669,15 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["foundTime"] = 1647872034,
 			},
-			[50363] = {
-				["mapID"] = 371,
+			[16181] = {
+				["mapID"] = 351,
 				["artID"] = {
-					383, -- [1]
+					363, -- [1]
 				},
-				["foundTime"] = 1648331558,
-				["coordX"] = 0.3951674997806549,
+				["foundTime"] = 1636147162,
+				["coordX"] = 0.59599996,
 				["atlasName"] = "VignetteKill",
-				["coordY"] = 0.6260576248168945,
+				["coordY"] = 0.287,
 			},
 			[160640] = {
 				["mapID"] = 1525,
@@ -98709,25 +98709,25 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["coordY"] = 0.2632623314857483,
 			},
-			[140938] = {
-				["mapID"] = 942,
+			[183925] = {
+				["mapID"] = 1970,
 				["artID"] = {
-					967, -- [1]
+					1650, -- [1]
 				},
-				["foundTime"] = 1619541049,
-				["coordX"] = 0.6293017864227295,
+				["coordY"] = 0.4020792841911316,
+				["coordX"] = 0.4976763129234314,
 				["atlasName"] = "VignetteKill",
-				["coordY"] = 0.328283965587616,
+				["foundTime"] = 1648312002,
 			},
-			[158594] = {
-				["mapID"] = 1527,
+			[75235] = {
+				["mapID"] = 525,
 				["artID"] = {
-					1343, -- [1]
+					542, -- [1]
 				},
-				["coordY"] = 0.3822253942489624,
-				["coordX"] = 0.4936219751834869,
-				["atlasName"] = "VignetteKill",
-				["foundTime"] = 1645372854,
+				["foundTime"] = 1608129568,
+				["coordX"] = 0.6170810461044312,
+				["atlasName"] = "VignetteEvent",
+				["coordY"] = 0.4252736270427704,
 			},
 			[155779] = {
 				["mapID"] = 1525,
@@ -98759,15 +98759,15 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["coordY"] = 0.4974555373191834,
 			},
-			[75235] = {
-				["mapID"] = 525,
+			[158594] = {
+				["mapID"] = 1527,
 				["artID"] = {
-					542, -- [1]
+					1343, -- [1]
 				},
-				["foundTime"] = 1608129568,
-				["coordX"] = 0.6170810461044312,
-				["atlasName"] = "VignetteEvent",
-				["coordY"] = 0.4252736270427704,
+				["coordY"] = 0.3822253942489624,
+				["coordX"] = 0.4936219751834869,
+				["atlasName"] = "VignetteKill",
+				["foundTime"] = 1645372854,
 			},
 			[75071] = {
 				["mapID"] = 539,
@@ -98889,25 +98889,25 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["coordY"] = 0.7283092737197876,
 			},
-			[156549] = {
-				["mapID"] = 1530,
-				["coordY"] = 0.2306835502386093,
-				["foundTime"] = 1633032050,
-				["coordX"] = 0.1453410536050797,
+			[162690] = {
+				["mapID"] = 1536,
 				["artID"] = {
-					1342, -- [1]
+					1323, -- [1]
 				},
-				["atlasName"] = "VignetteEvent",
+				["coordY"] = 0.3532474935054779,
+				["coordX"] = 0.6603311896324158,
+				["atlasName"] = "VignetteKill",
+				["foundTime"] = 1635178796,
 			},
-			[375403] = {
-				["mapID"] = 1970,
+			[369262] = {
+				["mapID"] = 1543,
 				["artID"] = {
-					1650, -- [1]
+					1693, -- [1]
 				},
-				["foundTime"] = 1648200913,
-				["coordX"] = 0.5042457580566406,
+				["coordY"] = 0.5138511657714844,
+				["coordX"] = 0.4452029466629028,
 				["atlasName"] = "VignetteLoot",
-				["coordY"] = 0.4132665991783142,
+				["foundTime"] = 1645018614,
 			},
 			[168575] = {
 				["mapID"] = 1644,
@@ -98919,15 +98919,15 @@ RareScannerDB = {
 				["atlasName"] = "VignetteEvent",
 				["coordY"] = 0.623746395111084,
 			},
-			[162690] = {
-				["mapID"] = 1536,
+			[156549] = {
+				["mapID"] = 1530,
+				["coordY"] = 0.2306835502386093,
+				["foundTime"] = 1633032050,
+				["coordX"] = 0.1453410536050797,
 				["artID"] = {
-					1323, -- [1]
+					1342, -- [1]
 				},
-				["coordY"] = 0.3532474935054779,
-				["coordX"] = 0.6603311896324158,
-				["atlasName"] = "VignetteKill",
-				["foundTime"] = 1635178796,
+				["atlasName"] = "VignetteEvent",
 			},
 			[139205] = {
 				["mapID"] = 895,
@@ -99623,15 +99623,15 @@ RareScannerDB = {
 				["atlasName"] = "VignetteLoot",
 				["coordY"] = 0.4025412797927856,
 			},
-			[178563] = {
-				["mapID"] = 1970,
+			[84196] = {
+				["mapID"] = 588,
 				["artID"] = {
-					1650, -- [1]
+					611, -- [1]
 				},
-				["foundTime"] = 1647967081,
-				["coordX"] = 0.5251837372779846,
+				["coordY"] = 0.53,
+				["coordX"] = 0.44599998,
 				["atlasName"] = "VignetteKill",
-				["coordY"] = 0.2503170967102051,
+				["foundTime"] = 1626614452,
 			},
 			[137665] = {
 				["mapID"] = 896,
@@ -99703,15 +99703,15 @@ RareScannerDB = {
 				},
 				["atlasName"] = "VignetteKill",
 			},
-			[375423] = {
-				["mapID"] = 1970,
+			[120019] = {
+				["mapID"] = 852,
 				["artID"] = {
-					1650, -- [1]
+					877, -- [1]
 				},
-				["coordY"] = 0.5604119300842285,
-				["coordX"] = 0.3481645584106445,
-				["atlasName"] = "VignetteLoot",
-				["foundTime"] = 1645610761,
+				["coordY"] = 0.3825,
+				["coordX"] = 0.5138,
+				["atlasName"] = "VignetteKill",
+				["foundTime"] = 1599138720,
 			},
 			[183722] = {
 				["mapID"] = 1970,
@@ -99894,15 +99894,15 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["foundTime"] = 1630603601,
 			},
-			[112472] = {
-				["mapID"] = 641,
+			[149141] = {
+				["mapID"] = 62,
 				["artID"] = {
-					664, -- [1]
+					1176, -- [1]
 				},
-				["foundTime"] = 1603636258,
-				["coordX"] = 0.4909362196922302,
-				["atlasName"] = "VignetteEvent",
-				["coordY"] = 0.4751560986042023,
+				["coordY"] = 0.7674475312232971,
+				["coordX"] = 0.4158304035663605,
+				["atlasName"] = "VignetteKill",
+				["foundTime"] = 1643368094,
 			},
 			[173449] = {
 				["mapID"] = 1525,
@@ -99914,15 +99914,15 @@ RareScannerDB = {
 				["atlasName"] = "VignetteLoot",
 				["foundTime"] = 1608567674,
 			},
-			[149141] = {
-				["mapID"] = 62,
+			[112472] = {
+				["mapID"] = 641,
 				["artID"] = {
-					1176, -- [1]
+					664, -- [1]
 				},
-				["coordY"] = 0.7674475312232971,
-				["coordX"] = 0.4158304035663605,
-				["atlasName"] = "VignetteKill",
-				["foundTime"] = 1643368094,
+				["foundTime"] = 1603636258,
+				["coordX"] = 0.4909362196922302,
+				["atlasName"] = "VignetteEvent",
+				["coordY"] = 0.4751560986042023,
 			},
 			[334785] = {
 				["mapID"] = 422,
@@ -100156,16 +100156,6 @@ RareScannerDB = {
 				},
 				["foundTime"] = 1637336707,
 			},
-			[353941] = {
-				["mapID"] = 1533,
-				["artID"] = {
-					1321, -- [1]
-				},
-				["foundTime"] = 1610492926,
-				["coordX"] = 0.7047399878501892,
-				["atlasName"] = "VignetteLoot",
-				["coordY"] = 0.3645055890083313,
-			},
 			[82920] = {
 				["mapID"] = 535,
 				["artID"] = {
@@ -100175,6 +100165,16 @@ RareScannerDB = {
 				["coordX"] = 0.3084874451160431,
 				["atlasName"] = "VignetteKill",
 				["coordY"] = 0.2671912312507629,
+			},
+			[353941] = {
+				["mapID"] = 1533,
+				["artID"] = {
+					1321, -- [1]
+				},
+				["foundTime"] = 1610492926,
+				["coordX"] = 0.7047399878501892,
+				["atlasName"] = "VignetteLoot",
+				["coordY"] = 0.3645055890083313,
 			},
 			[154154] = {
 				["mapID"] = 942,
@@ -100197,16 +100197,6 @@ RareScannerDB = {
 				["atlasName"] = "VignetteLoot",
 				["foundTime"] = 1643139690,
 			},
-			[126419] = {
-				["mapID"] = 830,
-				["coordY"] = 0.3276053667068481,
-				["atlasName"] = "VignetteKill",
-				["coordX"] = 0.7103116512298584,
-				["artID"] = {
-					855, -- [1]
-				},
-				["foundTime"] = 1599426779,
-			},
 			[353942] = {
 				["mapID"] = 1533,
 				["artID"] = {
@@ -100216,6 +100206,16 @@ RareScannerDB = {
 				["coordX"] = 0.3508882522583008,
 				["atlasName"] = "VignetteLoot",
 				["coordY"] = 0.5805786848068237,
+			},
+			[126419] = {
+				["mapID"] = 830,
+				["coordY"] = 0.3276053667068481,
+				["atlasName"] = "VignetteKill",
+				["coordX"] = 0.7103116512298584,
+				["artID"] = {
+					855, -- [1]
+				},
+				["foundTime"] = 1599426779,
 			},
 			[160915] = {
 				["mapID"] = 1527,
@@ -100307,15 +100307,15 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["foundTime"] = 1644913834,
 			},
-			[369297] = {
-				["mapID"] = 1961,
+			[150937] = {
+				["mapID"] = 1462,
+				["coordY"] = "7980",
+				["atlasName"] = "VignetteKill",
+				["coordX"] = "1960",
 				["artID"] = {
-					1648, -- [1]
+					1276, -- [1]
 				},
-				["coordY"] = 0.5991487503051758,
-				["coordX"] = 0.3141137957572937,
-				["atlasName"] = "VignetteLoot",
-				["foundTime"] = 1643403389,
+				["foundTime"] = 1648230586,
 			},
 			[93028] = {
 				["mapID"] = 534,
@@ -100389,15 +100389,15 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["foundTime"] = 1619708510,
 			},
-			[92517] = {
-				["mapID"] = 534,
+			[10809] = {
+				["mapID"] = 318,
 				["artID"] = {
-					551, -- [1]
+					330, -- [1]
 				},
-				["coordY"] = 0.83930504322052,
-				["coordX"] = 0.520345151424408,
+				["foundTime"] = 1611592002,
+				["coordX"] = 0.67,
 				["atlasName"] = "VignetteKill",
-				["foundTime"] = 1626542562,
+				["coordY"] = 0.3,
 			},
 			[153241] = {
 				["mapID"] = 1530,
@@ -100439,15 +100439,15 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["coordY"] = 0.315722644329071,
 			},
-			[10809] = {
-				["mapID"] = 318,
+			[92517] = {
+				["mapID"] = 534,
 				["artID"] = {
-					330, -- [1]
+					551, -- [1]
 				},
-				["foundTime"] = 1611592002,
-				["coordX"] = 0.67,
+				["coordY"] = 0.83930504322052,
+				["coordX"] = 0.520345151424408,
 				["atlasName"] = "VignetteKill",
-				["coordY"] = 0.3,
+				["foundTime"] = 1626542562,
 			},
 			[170897] = {
 				["mapID"] = 1644,
@@ -100732,15 +100732,15 @@ RareScannerDB = {
 				["atlasName"] = "VignetteEvent",
 				["foundTime"] = 1610719422,
 			},
-			[339626] = {
-				["mapID"] = 1533,
+			[71665] = {
+				["mapID"] = 525,
 				["artID"] = {
-					1321, -- [1]
+					542, -- [1]
 				},
-				["foundTime"] = 1631623626,
-				["coordX"] = 0.612576961517334,
-				["atlasName"] = "VignetteLoot",
-				["coordY"] = 0.5051358938217163,
+				["foundTime"] = 1608129610,
+				["coordX"] = 0.5471171140670776,
+				["atlasName"] = "VignetteKill",
+				["coordY"] = 0.2237788587808609,
 			},
 			[172180] = {
 				["mapID"] = 1644,
@@ -101253,16 +101253,6 @@ RareScannerDB = {
 				},
 				["atlasName"] = "VignetteKill",
 			},
-			[160928] = {
-				["mapID"] = 1527,
-				["artID"] = {
-					1343, -- [1]
-				},
-				["coordY"] = 0.3935791552066803,
-				["coordX"] = 0.4940674901008606,
-				["atlasName"] = "VignetteEvent",
-				["foundTime"] = 1626097178,
-			},
 			[127577] = {
 				["mapID"] = 885,
 				["coordY"] = 0.3913097977638245,
@@ -101272,6 +101262,16 @@ RareScannerDB = {
 					910, -- [1]
 				},
 				["atlasName"] = "VignetteKill",
+			},
+			[160928] = {
+				["mapID"] = 1527,
+				["artID"] = {
+					1343, -- [1]
+				},
+				["coordY"] = 0.3935791552066803,
+				["coordX"] = 0.4940674901008606,
+				["atlasName"] = "VignetteEvent",
+				["foundTime"] = 1626097178,
 			},
 			[155055] = {
 				["mapID"] = 942,
@@ -101293,16 +101293,6 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["coordY"] = 0.1727612614631653,
 			},
-			[14232] = {
-				["mapID"] = 70,
-				["artID"] = {
-					75, -- [1]
-				},
-				["foundTime"] = 1609016734,
-				["coordX"] = 0.471061110496521,
-				["atlasName"] = "VignetteKill",
-				["coordY"] = 0.1811749339103699,
-			},
 			[97384] = {
 				["mapID"] = 628,
 				["coordY"] = 0.2223504632711411,
@@ -101312,6 +101302,16 @@ RareScannerDB = {
 					651, -- [1]
 				},
 				["atlasName"] = "VignetteKill",
+			},
+			[14232] = {
+				["mapID"] = 70,
+				["artID"] = {
+					75, -- [1]
+				},
+				["foundTime"] = 1609016734,
+				["coordX"] = 0.471061110496521,
+				["atlasName"] = "VignetteKill",
+				["coordY"] = 0.1811749339103699,
 			},
 			[63101] = {
 				["mapID"] = 390,
@@ -101363,15 +101363,15 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["foundTime"] = 1648221996,
 			},
-			[329919] = {
-				["mapID"] = 1409,
+			[98408] = {
+				["mapID"] = 534,
+				["coordY"] = 0.563148558139801,
+				["atlasName"] = "VignetteKill",
+				["coordX"] = 0.4094907939434052,
 				["artID"] = {
-					1193, -- [1]
+					551, -- [1]
 				},
-				["foundTime"] = 1604352469,
-				["coordX"] = 0.5931315422058105,
-				["atlasName"] = "VignetteLoot",
-				["coordY"] = 0.3761342167854309,
+				["foundTime"] = 1630160512,
 			},
 			[110562] = {
 				["mapID"] = 641,
@@ -101383,15 +101383,15 @@ RareScannerDB = {
 				},
 				["foundTime"] = 1605031654,
 			},
-			[98408] = {
-				["mapID"] = 534,
-				["coordY"] = 0.563148558139801,
-				["atlasName"] = "VignetteKill",
-				["coordX"] = 0.4094907939434052,
+			[329919] = {
+				["mapID"] = 1409,
 				["artID"] = {
-					551, -- [1]
+					1193, -- [1]
 				},
-				["foundTime"] = 1630160512,
+				["foundTime"] = 1604352469,
+				["coordX"] = 0.5931315422058105,
+				["atlasName"] = "VignetteLoot",
+				["coordY"] = 0.3761342167854309,
 			},
 			[243386] = {
 				["mapID"] = 534,
@@ -101774,15 +101774,15 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["coordY"] = 0.4805293083190918,
 			},
-			[369334] = {
-				["mapID"] = 1961,
+			[91374] = {
+				["mapID"] = 534,
+				["coordY"] = 0.4933593571186066,
+				["atlasName"] = "VignetteKill",
+				["coordX"] = 0.168135941028595,
 				["artID"] = {
-					1648, -- [1]
+					551, -- [1]
 				},
-				["foundTime"] = 1646897055,
-				["coordX"] = 0.4216544330120087,
-				["atlasName"] = "VignetteLoot",
-				["coordY"] = 0.559899628162384,
+				["foundTime"] = 1640792170,
 			},
 			[97387] = {
 				["mapID"] = 628,
@@ -101794,15 +101794,15 @@ RareScannerDB = {
 				},
 				["atlasName"] = "VignetteKill",
 			},
-			[91374] = {
-				["mapID"] = 534,
-				["coordY"] = 0.4933593571186066,
-				["atlasName"] = "VignetteKill",
-				["coordX"] = 0.168135941028595,
+			[369334] = {
+				["mapID"] = 1961,
 				["artID"] = {
-					551, -- [1]
+					1648, -- [1]
 				},
-				["foundTime"] = 1640792170,
+				["foundTime"] = 1646897055,
+				["coordX"] = 0.4216544330120087,
+				["atlasName"] = "VignetteLoot",
+				["coordY"] = 0.559899628162384,
 			},
 			[133812] = {
 				["mapID"] = 863,
@@ -101884,15 +101884,15 @@ RareScannerDB = {
 				["atlasName"] = "VignetteLoot",
 				["coordY"] = 0.3166898488998413,
 			},
-			[170659] = {
-				["mapID"] = 1533,
+			[117090] = {
+				["mapID"] = 646,
 				["artID"] = {
-					1321, -- [1]
+					669, -- [1]
 				},
-				["coordY"] = 0.507387638092041,
-				["coordX"] = 0.4856023788452148,
+				["foundTime"] = 1619455357,
+				["coordX"] = 0.4914219081401825,
 				["atlasName"] = "VignetteKill",
-				["foundTime"] = 1647013123,
+				["coordY"] = 0.4795821607112885,
 			},
 			[162727] = {
 				["mapID"] = 1536,
@@ -101964,15 +101964,15 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["foundTime"] = 1617097097,
 			},
-			[117090] = {
-				["mapID"] = 646,
+			[170659] = {
+				["mapID"] = 1533,
 				["artID"] = {
-					669, -- [1]
+					1321, -- [1]
 				},
-				["foundTime"] = 1619455357,
-				["coordX"] = 0.4914219081401825,
+				["coordY"] = 0.507387638092041,
+				["coordX"] = 0.4856023788452148,
 				["atlasName"] = "VignetteKill",
-				["coordY"] = 0.4795821607112885,
+				["foundTime"] = 1647013123,
 			},
 			[158728] = {
 				["mapID"] = 1527,
@@ -102566,15 +102566,15 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["coordY"] = 0.4283615350723267,
 			},
-			[71665] = {
-				["mapID"] = 525,
+			[339626] = {
+				["mapID"] = 1533,
 				["artID"] = {
-					542, -- [1]
+					1321, -- [1]
 				},
-				["foundTime"] = 1608129610,
-				["coordX"] = 0.5471171140670776,
-				["atlasName"] = "VignetteKill",
-				["coordY"] = 0.2237788587808609,
+				["foundTime"] = 1631623626,
+				["coordX"] = 0.612576961517334,
+				["atlasName"] = "VignetteLoot",
+				["coordY"] = 0.5051358938217163,
 			},
 			[278460] = {
 				["mapID"] = 862,
@@ -102726,15 +102726,15 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["coordY"] = 0.5268850326538086,
 			},
-			[150937] = {
-				["mapID"] = 1462,
-				["coordY"] = "7980",
-				["atlasName"] = "VignetteKill",
-				["coordX"] = "1960",
+			[369297] = {
+				["mapID"] = 1961,
 				["artID"] = {
-					1276, -- [1]
+					1648, -- [1]
 				},
-				["foundTime"] = 1648230586,
+				["coordY"] = 0.5991487503051758,
+				["coordX"] = 0.3141137957572937,
+				["atlasName"] = "VignetteLoot",
+				["foundTime"] = 1643403389,
 			},
 			[14473] = {
 				["mapID"] = 81,
@@ -102967,15 +102967,15 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["foundTime"] = 1603112687,
 			},
-			[120019] = {
-				["mapID"] = 852,
+			[375423] = {
+				["mapID"] = 1970,
 				["artID"] = {
-					877, -- [1]
+					1650, -- [1]
 				},
-				["coordY"] = 0.3825,
-				["coordX"] = 0.5138,
-				["atlasName"] = "VignetteKill",
-				["foundTime"] = 1599138720,
+				["coordY"] = 0.5604119300842285,
+				["coordX"] = 0.3481645584106445,
+				["atlasName"] = "VignetteLoot",
+				["foundTime"] = 1645610761,
 			},
 			[319212] = {
 				["mapID"] = 62,
@@ -103007,15 +103007,15 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["foundTime"] = 1606687544,
 			},
-			[84196] = {
-				["mapID"] = 588,
+			[178563] = {
+				["mapID"] = 1970,
 				["artID"] = {
-					611, -- [1]
+					1650, -- [1]
 				},
-				["coordY"] = 0.53,
-				["coordX"] = 0.44599998,
+				["foundTime"] = 1647967081,
+				["coordX"] = 0.5251837372779846,
 				["atlasName"] = "VignetteKill",
-				["foundTime"] = 1626614452,
+				["coordY"] = 0.2503170967102051,
 			},
 			[82426] = {
 				["mapID"] = 539,
@@ -103388,15 +103388,15 @@ RareScannerDB = {
 				["atlasName"] = "VignetteLoot",
 				["foundTime"] = 1643367984,
 			},
-			[369262] = {
-				["mapID"] = 1543,
+			[375403] = {
+				["mapID"] = 1970,
 				["artID"] = {
-					1693, -- [1]
+					1650, -- [1]
 				},
-				["coordY"] = 0.5138511657714844,
-				["coordX"] = 0.4452029466629028,
+				["foundTime"] = 1648200913,
+				["coordX"] = 0.5042457580566406,
 				["atlasName"] = "VignetteLoot",
-				["foundTime"] = 1645018614,
+				["coordY"] = 0.4132665991783142,
 			},
 			[352998] = {
 				["mapID"] = 1533,
@@ -103518,15 +103518,15 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["coordY"] = 0.797102689743042,
 			},
-			[183925] = {
-				["mapID"] = 1970,
+			[140938] = {
+				["mapID"] = 942,
 				["artID"] = {
-					1650, -- [1]
+					967, -- [1]
 				},
-				["coordY"] = 0.4020792841911316,
-				["coordX"] = 0.4976763129234314,
+				["foundTime"] = 1619541049,
+				["coordX"] = 0.6293017864227295,
 				["atlasName"] = "VignetteKill",
-				["foundTime"] = 1648312002,
+				["coordY"] = 0.328283965587616,
 			},
 			[179891] = {
 				["mapID"] = 1669,
@@ -103548,15 +103548,15 @@ RareScannerDB = {
 				},
 				["atlasName"] = "VignetteLoot",
 			},
-			[164477] = {
-				["mapID"] = 1565,
+			[156289] = {
+				["mapID"] = 1530,
+				["coordY"] = 0.651229977607727,
+				["atlasName"] = "VignetteEvent",
+				["coordX"] = 0.1194817423820496,
 				["artID"] = {
-					1338, -- [1]
+					1342, -- [1]
 				},
-				["coordY"] = 0.6799269914627075,
-				["coordX"] = 0.3463523983955383,
-				["atlasName"] = "VignetteKill",
-				["foundTime"] = 1632834807,
+				["foundTime"] = 1601911870,
 			},
 			[152001] = {
 				["mapID"] = 1462,
@@ -103768,15 +103768,15 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["foundTime"] = 1624644240,
 			},
-			[68322] = {
-				["mapID"] = 418,
+			[375382] = {
+				["mapID"] = 1970,
 				["artID"] = {
-					499, -- [1]
+					1650, -- [1]
 				},
-				["coordY"] = 0.5448582768440247,
-				["coordX"] = 0.09630125015974045,
-				["atlasName"] = "VignetteKill",
-				["foundTime"] = 1620144788,
+				["coordY"] = 0.6416886448860168,
+				["coordX"] = 0.5675066113471985,
+				["atlasName"] = "VignetteLoot",
+				["foundTime"] = 1647967762,
 			},
 			[110577] = {
 				["mapID"] = 680,
@@ -103798,7 +103798,7 @@ RareScannerDB = {
 					602, -- [2]
 					627, -- [3]
 				},
-				["foundTime"] = 1648331194,
+				["foundTime"] = 1648338218,
 			},
 			[153200] = {
 				["mapID"] = 1462,
@@ -103850,25 +103850,25 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["coordY"] = 0.6774483919143677,
 			},
-			[127300] = {
-				["mapID"] = 885,
-				["coordY"] = 0.2155847549438477,
+			[2192] = {
+				["mapID"] = 62,
+				["artID"] = {
+					67, -- [1]
+				},
+				["coordY"] = 0.8401908874511719,
+				["coordX"] = 0.3959106802940369,
 				["atlasName"] = "VignetteKill",
-				["coordX"] = 0.5526007413864136,
-				["artID"] = {
-					910, -- [1]
-				},
-				["foundTime"] = 1620064755,
+				["foundTime"] = 1608392893,
 			},
-			[369236] = {
-				["mapID"] = 1543,
+			[275074] = {
+				["mapID"] = 895,
+				["coordY"] = 0.1634777188301086,
+				["foundTime"] = 1648228203,
+				["coordX"] = 0.6694666743278503,
 				["artID"] = {
-					1693, -- [1]
+					920, -- [1]
 				},
-				["coordY"] = 0.4951725602149963,
-				["coordX"] = 0.2734145522117615,
 				["atlasName"] = "VignetteLoot",
-				["foundTime"] = 1632321337,
 			},
 			[237723] = {
 				["mapID"] = 539,
@@ -104050,25 +104050,25 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["foundTime"] = 1647102919,
 			},
-			[80471] = {
-				["mapID"] = 535,
+			[160878] = {
+				["mapID"] = 1530,
 				["artID"] = {
-					552, -- [1]
+					1342, -- [1]
 				},
-				["foundTime"] = 1605277493,
-				["coordX"] = 0.673542857170105,
+				["coordY"] = 0.7072337865829468,
+				["coordX"] = 0.06495451182126999,
 				["atlasName"] = "VignetteKill",
-				["coordY"] = 0.8032165765762329,
+				["foundTime"] = 1631811966,
 			},
-			[162669] = {
-				["mapID"] = 1536,
+			[353868] = {
+				["mapID"] = 1533,
 				["artID"] = {
-					1323, -- [1]
+					1321, -- [1]
 				},
-				["foundTime"] = 1643903635,
-				["coordX"] = 0.4536549150943756,
-				["atlasName"] = "VignetteKill",
-				["coordY"] = 0.2656364440917969,
+				["foundTime"] = 1647896287,
+				["coordX"] = 0.5870674848556519,
+				["atlasName"] = "VignetteLoot",
+				["coordY"] = 0.1300079524517059,
 			},
 			[156869] = {
 				["mapID"] = 1527,
@@ -104090,15 +104090,15 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["foundTime"] = 1606501956,
 			},
-			[273521] = {
-				["mapID"] = 885,
-				["coordY"] = 0.402232825756073,
-				["atlasName"] = "VignetteLoot",
-				["coordX"] = 0.5817618370056152,
+			[141942] = {
+				["mapID"] = 14,
+				["coordY"] = 0.7804141044616699,
+				["atlasName"] = "VignetteKill",
+				["coordX"] = 0.4766123294830322,
 				["artID"] = {
-					910, -- [1]
+					1137, -- [1]
 				},
-				["foundTime"] = 1617788842,
+				["foundTime"] = 1645012529,
 			},
 			[179931] = {
 				["mapID"] = 1961,
@@ -104230,15 +104230,15 @@ RareScannerDB = {
 				},
 				["foundTime"] = 1624538604,
 			},
-			[243009] = {
-				["mapID"] = 630,
-				["coordY"] = 0.4001505374908447,
-				["foundTime"] = 1624562218,
-				["coordX"] = 0.6512895822525024,
+			[183646] = {
+				["mapID"] = 1970,
 				["artID"] = {
-					653, -- [1]
+					1650, -- [1]
 				},
-				["atlasName"] = "VignetteEvent",
+				["foundTime"] = 1647814867,
+				["coordX"] = 0.6450297832489014,
+				["atlasName"] = "VignetteKill",
+				["coordY"] = 0.5861082673072815,
 			},
 			[83713] = {
 				["mapID"] = 588,
@@ -104611,15 +104611,15 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["coordY"] = 0.1529557555913925,
 			},
-			[157279] = {
-				["mapID"] = 1530,
+			[353323] = {
+				["mapID"] = 1565,
 				["artID"] = {
-					1342, -- [1]
+					1338, -- [1]
 				},
-				["coordY"] = 0.7718629240989685,
-				["coordX"] = 0.2362778931856155,
-				["atlasName"] = "VignetteKill",
-				["foundTime"] = 1633026669,
+				["foundTime"] = 1648139711,
+				["coordX"] = 0.4240216016769409,
+				["atlasName"] = "VignetteLoot",
+				["coordY"] = 0.3120549023151398,
 			},
 			[354662] = {
 				["mapID"] = 1565,
@@ -104641,15 +104641,15 @@ RareScannerDB = {
 				["atlasName"] = "VignetteKill",
 				["foundTime"] = 1601237842,
 			},
-			[253999] = {
-				["mapID"] = 731,
+			[303170] = {
+				["mapID"] = 942,
 				["artID"] = {
-					756, -- [1]
+					967, -- [1]
 				},
-				["coordY"] = 0.7822291851043701,
-				["coordX"] = 0.3385441899299622,
+				["foundTime"] = 1647868860,
+				["coordX"] = 0.3288314044475555,
 				["atlasName"] = "VignetteLoot",
-				["foundTime"] = 1630694351,
+				["coordY"] = 0.6965036392211914,
 			},
 			[111674] = {
 				["mapID"] = 630,
@@ -106679,7 +106679,7 @@ RareScannerDB = {
 				[85026] = "Soul-Twister Torek",
 				[78621] = "Cyclonic Fury",
 				[171316] = "Malevolent Stygia",
-				[177979] = "Gralebboih",
+				[119718] = "Imp Mother Bruva",
 				[79024] = "Warmaster Blugthol",
 				[158528] = "High Guard Reshef",
 				[177334] = "Nyemi",
@@ -106713,7 +106713,7 @@ RareScannerDB = {
 				[162818] = "Wartusk",
 				[43488] = "Mordei the Earthrender",
 				[121124] = "Apocron",
-				[179007] = "Overgrown Geomental",
+				[150342] = "Earthbreaker Gulroc",
 				[2744] = "Shadowforge Commander",
 				[2752] = "Rumbler",
 				[151878] = "Sun King Nahkotep",
@@ -106722,8 +106722,8 @@ RareScannerDB = {
 				[58949] = "Bai-Jin the Butcher",
 				[166393] = "Amalgamation of Filth",
 				[162628] = "Rotclaw the Pestilent",
-				[126887] = "Ataxon",
 				[180032] = "Wild Worldcracker",
+				[126887] = "Ataxon",
 				[131404] = "Foreman Scripps",
 				[109648] = "Witchdoctor Grgl-Brgl",
 				[69161] = "Oondasta",
@@ -106816,9 +106816,9 @@ RareScannerDB = {
 				[80312] = "Grutush the Pillager",
 				[10077] = "Deathmaw",
 				[18696] = "Kraator",
-				[178508] = "Mother Phestis",
+				[14236] = "Lord Angler",
 				[14268] = "Lord Condar",
-				[126637] = "Kandak",
+				[159057] = "Rare Template",
 				[161105] = "Indomitable Schmitd",
 				[132068] = "Bashmu",
 				[78265] = "The Bone Crawler",
@@ -106879,7 +106879,7 @@ RareScannerDB = {
 				[92508] = "Gloomtalon",
 				[97058] = "Count Nefarious",
 				[152922] = "Data Anomaly",
-				[178004] = "Intercessor Razzra",
+				[32500] = "Dirkee",
 				[160835] = "Warden Kas'volar",
 				[159995] = "Fist of the Paragons",
 				[158783] = "Lady Sybelle",
@@ -106912,7 +106912,7 @@ RareScannerDB = {
 				[152414] = "Elder Unu",
 				[159032] = "Rare Elite Template",
 				[84925] = "Quartermaster Hershak",
-				[93371] = "Mordvigbjorn",
+				[162140] = "Skikx'traz",
 				[158557] = "Actiss the Deceiver",
 				[157294] = "Pulsing Leech",
 				[126899] = "Jed'hin Champion Vorusk",
@@ -106927,7 +106927,7 @@ RareScannerDB = {
 				[153667] = "Slagbelt",
 				[152416] = "Allseer Oma'kil",
 				[160783] = "Valioc",
-				[145250] = "Madfeather",
+				[84926] = "Burning Power",
 				[50789] = "Nessos the Oracle",
 				[73282] = "Garnia",
 				[51045] = "Arcanus",
@@ -106948,10 +106948,10 @@ RareScannerDB = {
 				[14269] = "Seeker Aqualon",
 				[164147] = "Wrigglemortis",
 				[73666] = "Archiereus of Flame",
-				[82880] = "Marshal Karsh Stormforge",
+				[169823] = "Gorm Behemoth",
 				[121073] = "Deranged Succubus",
 				[14429] = "Grimmaw",
-				[169823] = "Gorm Behemoth",
+				[82880] = "Marshal Karsh Stormforge",
 				[83509] = "Gorepetal",
 				[154467] = "Chief Mek-mek",
 				[137825] = "Avalanche",
@@ -106983,7 +106983,7 @@ RareScannerDB = {
 				[154332] = "Voidtender Malketh",
 				[170995] = "Warbringer Mal'korak",
 				[90816] = "Skystormer",
-				[18681] = "Coilfang Emissary",
+				[169827] = "Ekphoras, Herald of Grief",
 				[166588] = "Dying Breath",
 				[134106] = "Lumbergrasp Sentinel",
 				[97630] = "Soulthirster",
@@ -106996,10 +106996,10 @@ RareScannerDB = {
 				[73157] = "Rock Moss",
 				[166001] = "Shadeweaver",
 				[50351] = "Jonn-Dar",
-				[82883] = "Warlord Noktyn",
+				[182114] = "Iska, Outrider of Ruin",
 				[93686] = "Jinikki the Puncturer",
 				[148842] = "Siegeotron",
-				[182114] = "Iska, Outrider of Ruin",
+				[82883] = "Warlord Noktyn",
 				[87234] = "Brutag Grimblade",
 				[179043] = "Orixal",
 				[164547] = "Mystic Rainbowhorn",
@@ -107049,7 +107049,7 @@ RareScannerDB = {
 				[103154] = "Hati",
 				[18682] = "Bog Lurker",
 				[132211] = "Fowlmouth",
-				[116158] = "Tower Concubine",
+				[162669] = "Devour'us",
 				[128699] = "Bloodbulge",
 				[166145] = "Dreamweaver, As N'Zoth",
 				[117140] = "Salethan the Broodwalker",
@@ -107074,7 +107074,7 @@ RareScannerDB = {
 				[97220] = "Arru",
 				[109500] = "Jak",
 				[14270] = "Squiddic",
-				[142709] = "Beastrider Kama",
+				[77513] = "Coldstomp the Griever",
 				[50823] = "Mister Ferocious",
 				[87029] = "Giga Sentinel",
 				[165324] = "Dredterror Ballista",
@@ -107096,7 +107096,7 @@ RareScannerDB = {
 				[32630] = "Vyragosa",
 				[161139] = "Acolyte of N'Zoth",
 				[83008] = "Haakun the All-Consuming",
-				[162163] = "High Priest Ytaessis",
+				[178543] = "Dreadlord",
 				[83401] = "Netherspawn",
 				[70323] = "Krakkanon",
 				[180079] = "Cadaverous",
@@ -107106,7 +107106,7 @@ RareScannerDB = {
 				[50330] = "Kree",
 				[149662] = "Grimhorn",
 				[152795] = "Sandclaw Stoneshell",
-				[138618] = "Haywire Golem",
+				[163188] = "Gormboar",
 				[79145] = "Yaga the Scarred",
 				[164212] = "Commander Bonescythe",
 				[160629] = "Baedos",
@@ -107123,14 +107123,14 @@ RareScannerDB = {
 				[72909] = "Gu'chi the Swarmbringer",
 				[63101] = "General Temuja",
 				[147260] = "Conflagros",
-				[59369] = "Doctor Theolen Krastinov",
+				[90057] = "Daggerbeak",
 				[98503] = "Grrvrgull the Conqueror",
 				[160631] = "Hungering Miasma",
 				[8303] = "Grunter",
 				[86574] = "Inventor Blammo",
 				[1843] = "Foreman Jerris",
 				[150394] = "Armored Vaultbot",
-				[179571] = "Distracting Mirage",
+				[142716] = "Man-Hunter Rog",
 				[148103] = "Sapper Odette",
 				[107023] = "Nithogg",
 				[51004] = "Toxx",
@@ -107142,12 +107142,12 @@ RareScannerDB = {
 				[126913] = "Slithon the Last",
 				[139278] = "Ranja",
 				[86835] = "Xelganak",
-				[177525] = "Control Bunny",
+				[148860] = "Grizzwald",
 				[108715] = "Ol' Eary",
 				[120003] = "Warlord Darjah",
 				[47387] = "Harakiss the Infestor",
 				[159950] = "Skystormer",
-				[33776] = "Gondria",
+				[139135] = "Squirgle of the Depths",
 				[58474] = "Bloodtip",
 				[86582] = "Morgo Kain",
 				[97593] = "Mynta Talonscreech",
@@ -107158,7 +107158,7 @@ RareScannerDB = {
 				[132047] = "Reinforced Hullbreaker",
 				[151933] = "Malfunctioning Beastbot",
 				[70096] = "War-God Dokah",
-				[86732] = "Bergruu",
+				[148862] = "Zillie Wunderwrench",
 				[63977] = "Vyraxxis",
 				[162171] = "Captain Dunewalker",
 				[88951] = "Vileclaw",
@@ -107168,17 +107168,17 @@ RareScannerDB = {
 				[107269] = "Inquisitor Tivos",
 				[152958] = "Data Anomaly",
 				[147061] = "Grubb",
-				[162172] = "Aqir Warcaster",
+				[149887] = "Stanley",
 				[149886] = "Stanley",
 				[77519] = "Giantbane",
 				[131704] = "Coati",
 				[69841] = "Zandalari Warbringer",
-				[116166] = "Eye of Gurgh",
+				[154495] = "Will of N'Zoth",
 				[121029] = "Brood Mother Nix",
 				[18684] = "Bro'Gaz the Clanless",
 				[162173] = "R'krox the Runt",
-				[154495] = "Will of N'Zoth",
-				[175482] = "Yero the Skittish",
+				[116166] = "Eye of Gurgh",
+				[128707] = "Rimestone",
 				[110024] = "Mal'Dreth the Corruptor",
 				[160126] = "Manipulator Yggshoth",
 				[140163] = "Warbringer Yenajz",
@@ -107200,24 +107200,24 @@ RareScannerDB = {
 				[129476] = "Bloated Krolusk",
 				[10080] = "Sandarr Dunereaver",
 				[73281] = "Dread Ship Vazuvius",
-				[73170] = "Watcher Osu",
 				[14271] = "Ribchaser",
-				[159105] = "Collector Kash",
+				[73170] = "Watcher Osu",
+				[142725] = "Horrific Apparition",
 				[147332] = "Stonebinder Ssra'vess",
 				[94413] = "Isel the Hammer",
 				[126862] = "Baruut the Bloodthirsty",
-				[14431] = "Fury Shelda",
+				[157058] = "Corspecutter Moroc",
 				[162142] = "Qho",
 				[2601] = "Foulbelly",
-				[2609] = "Geomancer Flintdagger",
+				[158594] = "Doomsayer Vathiris",
 				[82930] = "Shadowflame Terrorwalker",
 				[128965] = "Uroku the Bound",
 				[151940] = "Uncle T'Rogg",
 				[92599] = "Bloodstalker Alpha",
-				[5345] = "Diamond Head",
+				[50926] = "Grizzled Ben",
 				[145286] = "Motega Bloodshield",
 				[152007] = "Killsaw",
-				[73171] = "Champion of the Black Flame",
+				[5345] = "Diamond Head",
 				[79692] = "Silverleaf Ancient",
 				[160385] = "Soulstalker Doina",
 				[94414] = "Kiranys Duskwhisper",
@@ -107245,8 +107245,8 @@ RareScannerDB = {
 				[90437] = "Jax'zor",
 				[50159] = "Sambas",
 				[50738] = "Shimmerscale",
-				[165253] = "Tollkeeper Varaboss",
 				[5809] = "Sergeant Curtis",
+				[165253] = "Tollkeeper Varaboss",
 				[50942] = "Snoot the Rooter",
 				[5841] = "Rocklance",
 				[73173] = "Urdur the Cauterizer",
@@ -107272,10 +107272,10 @@ RareScannerDB = {
 				[131984] = "Twin-hearted Construct",
 				[148264] = "Dinomancer Dajingo",
 				[97345] = "Crawshuk the Hungry",
-				[108494] = "Soulfiend Tagerma",
+				[155531] = "Infested Wastewander Captain",
 				[99792] = "Elfbane",
 				[14339] = "Death Howl",
-				[155531] = "Infested Wastewander Captain",
+				[108494] = "Soulfiend Tagerma",
 				[151948] = "Senbu the Pridefather",
 				[92626] = "Deathguard Adams",
 				[160052] = "Great Kingmane",
@@ -107309,7 +107309,7 @@ RareScannerDB = {
 				[51069] = "Scintillex",
 				[32471] = "Griegen",
 				[121037] = "Grossir",
-				[125388] = "Vagath the Betrayed",
+				[152464] = "Caverndark Terror",
 				[111649] = "Ambassador D'vwinn",
 				[129995] = "Emily Mayville",
 				[51057] = "Weevil",
@@ -107321,15 +107321,15 @@ RareScannerDB = {
 				[35189] = "Skoll",
 				[91093] = "Bramblefell",
 				[109054] = "Shal'an",
-				[105938] = "Felwing",
+				[130508] = "Broodmother Razora",
 				[171405] = "Tricky Trik",
 				[92117] = "Gorebeak",
 				[164239] = "Anomalous Worldeater",
-				[14272] = "Snarlflare",
+				[105938] = "Felwing",
 				[10081] = "Dustwraith",
-				[84951] = "Gobblefin",
+				[182155] = "High Reaver Damaris",
 				[133527] = "Juba the Scarred",
-				[7137] = "Immolatus",
+				[14272] = "Snarlflare",
 				[77529] = "Yazheera the Incinerator",
 				[71665] = "Giant-Slayer Kul",
 				[86743] = "Dekorhan",
@@ -107350,9 +107350,9 @@ RareScannerDB = {
 				[126926] = "Venomjaw",
 				[123087] = "Al'Abas",
 				[10817] = "Duggan Wildhammer",
-				[170385] = "Writhing Misery",
-				[161683] = "Antak'shal",
 				[74971] = "Firefury Giant",
+				[182158] = "Reanimatrox Marzan",
+				[170385] = "Writhing Misery",
 				[170897] = "Concert Kick-Off",
 				[102303] = "Lieutenant Strathmar",
 				[128974] = "Queen Tzxi'kik",
@@ -107360,7 +107360,7 @@ RareScannerDB = {
 				[92631] = "Dark Ranger Jess",
 				[101077] = "Sekhan",
 				[84836] = "Talonbreaker",
-				[133531] = "Xu'ba",
+				[162196] = "Obsidian Annihilator",
 				[130643] = "Twisted Child of Rezan",
 				[89816] = "Golza the Iron Fin",
 				[18680] = "Marticar",
@@ -107388,10 +107388,10 @@ RareScannerDB = {
 				[162711] = "Deadly Dapperling",
 				[85029] = "Shadowspeaker Niir",
 				[92040] = "Fenri",
-				[145308] = "First Sergeant Steelfang",
+				[157593] = "Amalgamation of Flesh",
 				[92633] = "Assassin Huwe",
 				[68319] = "Disha Fearwarden",
-				[157593] = "Amalgamation of Flesh",
+				[145308] = "First Sergeant Steelfang",
 				[93401] = "Urgev the Flayer",
 				[93125] = "Glub'glok",
 				[84955] = "Jiasska the Sporegorger",
@@ -107399,7 +107399,7 @@ RareScannerDB = {
 				[97793] = "Flamescale",
 				[74206] = "Killmaw",
 				[140997] = "Severus the Outcast",
-				[111573] = "Kosumoth the Hungering",
+				[91098] = "Felspark",
 				[120019] = "Ryul the Fading",
 				[134048] = "Vukuba",
 				[5865] = "Dishu",
@@ -107444,8 +107444,8 @@ RareScannerDB = {
 				[82411] = "Darktalon",
 				[51061] = "Roth-Salam",
 				[111651] = "Degren",
-				[173468] = "Dead Blanchy",
 				[86750] = "Thek'talon",
+				[173468] = "Dead Blanchy",
 				[127700] = "Squadron Commander Vishax",
 				[170932] = "Cloudfeather Patriarch",
 				[120022] = "Deepmaw",
@@ -107477,11 +107477,11 @@ RareScannerDB = {
 				[51062] = "Khep-Re",
 				[137025] = "Broodmother",
 				[176543] = "Generic Bunny",
-				[148390] = "Jessibelle Moonshield",
+				[160675] = "Scrivener Lenua",
 				[97933] = "Crab Rider Grmlrml",
 				[109708] = "Undergrell Ringleader",
 				[127939] = "Torraske the Eternal",
-				[116185] = "Attendant Keeper",
+				[124375] = "Overstuffed Saurolisk",
 				[91871] = "Argosh the Destroyer",
 				[141029] = "Kickers",
 				[116953] = "Corrupted Bonebreaker",
@@ -107497,14 +107497,14 @@ RareScannerDB = {
 				[169379] = "Lord Inquisitor Winze",
 				[141226] = "Haegol the Hammer",
 				[166308] = "Plaguemuck",
-				[50807] = "Catal",
-				[138667] = "Blighted Monstrosity",
+				[5842] = "Takk the Leaper",
+				[75492] = "Venomshade",
 				[163238] = "Eldercaw the Patriarch",
 				[121049] = "Baleful Knight-Captain",
 				[148393] = "Ancient Defender",
 				[153000] = "Sparkqueen P'Emp",
 				[5826] = "Geolord Mottle",
-				[5842] = "Takk the Leaper",
+				[50807] = "Catal",
 				[175011] = "Foe Reaper 4000",
 				[51063] = "Phalanax",
 				[85520] = "Swarmleaf",
@@ -107542,16 +107542,16 @@ RareScannerDB = {
 				[45739] = "The Unknown Soldier",
 				[10818] = "Death Knight Soulbearer",
 				[109281] = "Malisandra",
-				[127706] = "Rezira the Seer",
+				[165290] = "Harika the Horrid",
 				[107487] = "Starbuck",
 				[137649] = "Pest Remover Mk. II",
 				[158636] = "The Grand Executor",
 				[108255] = "Coura, Mistress of Arcana",
 				[148403] = "Portal Keeper Romiir",
 				[69843] = "Zao'cho",
-				[100067] = "Hydrannon",
-				[80614] = "Blade-Dancer Aeryx",
 				[159152] = "High Inquisitor Gabi",
+				[80614] = "Blade-Dancer Aeryx",
+				[100067] = "Hydrannon",
 				[107266] = "Commander Soraax",
 				[126427] = "Branchlord Aldrus",
 				[73704] = "Stinkbraid",
@@ -107562,7 +107562,7 @@ RareScannerDB = {
 				[18690] = "Morcrush",
 				[125250] = "Ancient Jawbreaker",
 				[49913] = "Lady La-La",
-				[138675] = "Gorged Boar",
+				[155055] = "Gurg the Hivethief",
 				[18677] = "Mekthorg the Wild",
 				[96621] = "Mellok, Son of Torok",
 				[159151] = "Inquisitor Traian",
@@ -107573,7 +107573,7 @@ RareScannerDB = {
 				[81639] = "Brambleking Fili",
 				[79334] = "No'losh",
 				[10640] = "Oakpaw",
-				[155055] = "Gurg the Hivethief",
+				[138675] = "Gorged Boar",
 				[7104] = "Dessecus",
 				[95204] = "Oubdob da Smasher",
 				[9219] = "Spirestone Butcher",
@@ -107583,7 +107583,7 @@ RareScannerDB = {
 				[147845] = "Commander Drald",
 				[92645] = "The Night Haunter",
 				[32447] = "Zul'drak Sentinel",
-				[165290] = "Harika the Horrid",
+				[127706] = "Rezira the Seer",
 				[170414] = "Howling Spectre",
 				[69099] = "Nalak",
 				[159153] = "High Inquisitor Radu",
@@ -107606,7 +107606,7 @@ RareScannerDB = {
 				[110562] = "Bahagar",
 				[136340] = "Relic Hunter Hazaak",
 				[10819] = "Baron Bloodbane",
-				[75492] = "Venomshade",
+				[138667] = "Blighted Monstrosity",
 				[18689] = "Crippler",
 				[170417] = "Animated Stygia",
 				[50930] = "Hibernus the Sleeper",
@@ -107614,10 +107614,10 @@ RareScannerDB = {
 				[142741] = "Doomrider Helgrim",
 				[121056] = "Malformed Terrorguard",
 				[92647] = "Felsmith Damorka",
-				[124375] = "Overstuffed Saurolisk",
+				[116185] = "Attendant Keeper",
 				[93028] = "Driss Vile",
 				[98268] = "Tarben",
-				[160675] = "Scrivener Lenua",
+				[148390] = "Jessibelle Moonshield",
 				[159157] = "Grand Inquisitor Aurica",
 				[139194] = "Rotmaw",
 				[124185] = "Golrakahn",
@@ -107657,7 +107657,7 @@ RareScannerDB = {
 				[145020] = "Dolizite",
 				[91114] = "Tide Behemoth",
 				[2090] = "Ma'ruk Wyrmscale",
-				[91098] = "Felspark",
+				[111573] = "Kosumoth the Hungering",
 				[126865] = "Vigilant Thanos",
 				[88043] = "Avatar of Socrethar",
 				[71919] = "Zhu-Gon the Sour",
@@ -107679,10 +107679,10 @@ RareScannerDB = {
 				[148092] = "Nalaess Featherseeker",
 				[2258] = "Maggarrak",
 				[103199] = "Ragoul",
-				[162196] = "Obsidian Annihilator",
+				[133531] = "Xu'ba",
 				[68317] = "Mavis Harms",
 				[92887] = "Steelsnout",
-				[182158] = "Reanimatrox Marzan",
+				[161683] = "Antak'shal",
 				[14432] = "Threggil",
 				[148477] = "Beastlord Drakara",
 				[120715] = "Raga'yut",
@@ -107692,12 +107692,12 @@ RareScannerDB = {
 				[154559] = "Deeplord Zrihj",
 				[171451] = "Soultwister Cero",
 				[96235] = "Xemirkol",
-				[130508] = "Broodmother Razora",
-				[182155] = "High Reaver Damaris",
+				[7137] = "Immolatus",
+				[84951] = "Gobblefin",
 				[12433] = "Krethis the Shadowspinner",
 				[9604] = "Gorgon'och",
 				[50813] = "Fene-mal",
-				[152464] = "Caverndark Terror",
+				[125388] = "Vagath the Betrayed",
 				[183737] = "Xy'rath the Covetous",
 				[98283] = "Drakum",
 				[152001] = "Bonepicker",
@@ -107749,12 +107749,12 @@ RareScannerDB = {
 				[91695] = "Grand Warlock Nethekurse",
 				[180160] = "Reliwik the Defiant",
 				[86257] = "Basten",
-				[50926] = "Grizzled Ben",
 				[162690] = "Nerissa Heartless",
+				[73171] = "Champion of the Black Flame",
 				[2850] = "Broken Tooth",
-				[158594] = "Doomsayer Vathiris",
-				[157058] = "Corspecutter Moroc",
-				[142725] = "Horrific Apparition",
+				[2609] = "Geomancer Flintdagger",
+				[14431] = "Fury Shelda",
+				[159105] = "Collector Kash",
 				[117094] = "Malorus the Soulkeeper",
 				[84431] = "Greldrok the Cunning",
 				[80371] = "Typhon",
@@ -107765,21 +107765,21 @@ RareScannerDB = {
 				[51071] = "Captain Florence",
 				[180162] = "Ve'rayn",
 				[86258] = "Nultra",
-				[128707] = "Rimestone",
+				[175482] = "Yero the Skittish",
 				[160059] = "Taskmaster Xox",
 				[87026] = "Mecha Plunderer",
-				[149887] = "Stanley",
+				[162172] = "Aqir Warcaster",
 				[162759] = "Moregorger",
 				[183746] = "Otiosen",
 				[117136] = "Doombringer Zar'thoz",
 				[152677] = "Nebet the Ascended",
 				[92657] = "Bleeding Hollow Horror",
-				[148862] = "Zillie Wunderwrench",
+				[86732] = "Bergruu",
 				[148739] = "Magister Crystalynn",
-				[139135] = "Squirgle of the Depths",
+				[33776] = "Gondria",
 				[3058] = "Arra'chea",
 				[183747] = "Vitiane",
-				[148860] = "Grizzwald",
+				[177525] = "Control Bunny",
 				[86259] = "Valstil",
 				[106990] = "Chief Bitterbrine",
 				[86771] = "Gagrog the Brutal",
@@ -107788,10 +107788,10 @@ RareScannerDB = {
 				[112712] = "Gilded Guardian",
 				[183748] = "Helmix",
 				[160592] = "Coatylis",
-				[142716] = "Man-Hunter Rog",
+				[179571] = "Distracting Mirage",
 				[160050] = "Eldenwing",
 				[50846] = "Slavermaw",
-				[90057] = "Daggerbeak",
+				[59369] = "Doctor Theolen Krastinov",
 				[50816] = "Ruun Ghostpaw",
 				[121107] = "Lady Eldrathe",
 				[183749] = "Helmix",
@@ -107801,13 +107801,13 @@ RareScannerDB = {
 				[32435] = "Vern",
 				[50959] = "Karkin",
 				[137681] = "King Clickyclack",
-				[163188] = "Gormboar",
+				[138618] = "Haywire Golem",
 				[80242] = "Chillfang",
 				[2600] = "Singer",
 				[121068] = "Volatile Imp",
 				[127288] = "Houndmaster Kerrax",
 				[161451] = "Manipulator Yar'shath",
-				[178543] = "Dreadlord",
+				[162163] = "High Priest Ytaessis",
 				[126187] = "Corpse Bringer Yal'kar",
 				[8981] = "Malfunctioning Reaver",
 				[164477] = "Deathbinder Hroth",
@@ -107817,7 +107817,7 @@ RareScannerDB = {
 				[157134] = "Ishak of the Four Winds",
 				[18694] = "Collidus the Warp-Watcher",
 				[168135] = "Night Mare",
-				[77513] = "Coldstomp the Griever",
+				[142709] = "Beastrider Kama",
 				[91892] = "Thane Irglov the Merciless",
 				[143314] = "Bane of the Woods",
 				[84887] = "Betsi Boombasket",
@@ -107829,7 +107829,7 @@ RareScannerDB = {
 				[82988] = "Kurlosh Doomfang",
 				[101467] = "Jaggen-Ra",
 				[110832] = "Gorgroth",
-				[162669] = "Devour'us",
+				[116158] = "Tower Concubine",
 				[86774] = "Aogexon",
 				[156339] = "Eliminator Sotiros",
 				[174108] = "Necromantic Anomaly",
@@ -107867,7 +107867,7 @@ RareScannerDB = {
 				[148534] = "Evezon the Eternal",
 				[124399] = "Infected Direhorn",
 				[50363] = "Krax'ik",
-				[169827] = "Ekphoras, Herald of Grief",
+				[18681] = "Coilfang Emissary",
 				[80122] = "Gaz'orda",
 				[96647] = "Earlnoc the Beastbreaker",
 				[70000] = "Al'tabim the All-Seeing",
@@ -107895,13 +107895,13 @@ RareScannerDB = {
 				[86266] = "Venolasix",
 				[140252] = "Hailstone Construct",
 				[165893] = "Spirit of the Damned",
-				[84926] = "Burning Power",
+				[145250] = "Madfeather",
 				[160943] = "Lava Wyrm",
 				[159525] = "Thalanil",
 				[171327] = "Reekmonger",
 				[12037] = "Ursol'lok",
 				[173080] = "Wandering Death",
-				[162140] = "Skikx'traz",
+				[93371] = "Mordvigbjorn",
 				[157145] = "Gravitas",
 				[4066] = "Nal'taszar",
 				[158761] = "Mordai Darkwhisper",
@@ -107918,7 +107918,7 @@ RareScannerDB = {
 				[180181] = "Wicklick",
 				[108790] = "Den Mother Ylva",
 				[171216] = "Fallen Aspirant Eolis",
-				[32500] = "Dirkee",
+				[178004] = "Intercessor Razzra",
 				[85568] = "Avalanche",
 				[50820] = "Yul Wildpaw",
 				[77310] = "Mad \"King\" Sporeon",
@@ -107944,8 +107944,8 @@ RareScannerDB = {
 				[181208] = "Enchained Servitor",
 				[132580] = "Ssinkrix",
 				[82942] = "Lady Demlash",
-				[159057] = "Rare Template",
-				[14236] = "Lord Angler",
+				[126637] = "Kandak",
+				[178508] = "Mother Phestis",
 				[50053] = "Thartuk the Exile",
 				[139235] = "Tort Jaw",
 				[121077] = "Lambent Felhunter",
@@ -107996,7 +107996,7 @@ RareScannerDB = {
 				[142312] = "Skullripper",
 				[83713] = "Titarus",
 				[170261] = "Ritual of Absolution",
-				[150342] = "Earthbreaker Gulroc",
+				[179007] = "Overgrown Geomental",
 				[178883] = "Sentinel Shakorzeth",
 				[157157] = "Muminah the Incandescent",
 				[174049] = "Prince Taldaram",
@@ -108009,7 +108009,7 @@ RareScannerDB = {
 				[63695] = "Baolai the Immolator",
 				[174050] = "Krik'thir the Gatewatcher",
 				[154087] = "Zror'um the Infinite",
-				[119718] = "Imp Mother Bruva",
+				[177979] = "Gralebboih",
 				[180014] = "Escaped Wilderling",
 				[175881] = "Naelcrotix",
 				[152040] = "Scoutmaster Moswen",
@@ -108104,6 +108104,7 @@ RareScannerDB = {
 		["event_quest_ids"] = {
 		},
 		["recentlySeen"] = {
+			[96323] = true,
 		},
 		["container_quest_ids"] = {
 			[273523] = {
@@ -109388,26 +109389,19 @@ RareScannerDB = {
 			["scannerYPos"] = 483.555419921875,
 		},
 		["Hunter Setup"] = {
-			["general"] = {
-				["scanContainers"] = false,
-				["scanWorldmapVignette"] = true,
-				["scanOnTaxi"] = false,
-			},
-			["scannerXPos"] = 1092.000122070313,
-			["scannerYPos"] = 490.6666259765625,
 			["map"] = {
-				["displayEventIcons"] = false,
 				["displayNpcIcons"] = false,
 				["displayContainerIcons"] = false,
+				["displayEventIcons"] = false,
 				["showingWorldMapSearcher"] = false,
 			},
-			["sound"] = {
-				["soundVolume"] = 3,
+			["scannerXPos"] = 1092.000122070313,
+			["general"] = {
+				["scanWorldmapVignette"] = true,
+				["scanContainers"] = false,
+				["scanOnTaxi"] = false,
 			},
 			["loot"] = {
-				["filterNotMatchingClass"] = true,
-				["lootMinQuality"] = 3,
-				["filterNotEquipableItems"] = true,
 				["filteredLootCategories"] = {
 					{
 						false, -- [1]
@@ -109557,7 +109551,14 @@ RareScannerDB = {
 					},
 				},
 				["showOnlyTransmogItems"] = true,
+				["filterNotMatchingClass"] = true,
+				["filterNotEquipableItems"] = true,
+				["lootMinQuality"] = 3,
 			},
+			["sound"] = {
+				["soundVolume"] = 3,
+			},
+			["scannerYPos"] = 490.6666259765625,
 		},
 		["Warrior Setup"] = {
 			["map"] = {
@@ -109624,7 +109625,7 @@ RareScannerDB = {
 					[183748] = false,
 					[151940] = false,
 					[179769] = false,
-					[150575] = false,
+					[179912] = false,
 					[179108] = false,
 					[151623] = false,
 					[183516] = false,
@@ -109670,7 +109671,7 @@ RareScannerDB = {
 					[153206] = false,
 					[151702] = false,
 					[153200] = false,
-					[179912] = false,
+					[150575] = false,
 					[154701] = false,
 				},
 				["scanOnTaxi"] = false,
@@ -110015,21 +110016,10 @@ RareScannerDB = {
 			},
 		},
 		["Warlock Setup"] = {
-			["map"] = {
-				["showingWorldMapSearcher"] = false,
-				["maxSeenEventTimeBak"] = 5,
-				["displayEventIcons"] = false,
-				["keepShowingAfterDead"] = true,
-				["displayNpcIcons"] = false,
-				["maxSeenTimeBak"] = 5,
-				["displayContainerIcons"] = false,
-				["maxSeenContainerTimeBak"] = 0,
-			},
-			["scannerXPos"] = 1092.002685546875,
 			["general"] = {
-				["scanOnPetBattle"] = false,
 				["scanContainers"] = false,
 				["scanWorldmapVignette"] = true,
+				["scanOnPetBattle"] = false,
 				["filteredRares"] = {
 					[170302] = false,
 					[179769] = false,
@@ -110137,9 +110127,9 @@ RareScannerDB = {
 					[179684] = false,
 					[179608] = false,
 					[175012] = false,
-					[152923] = false,
-					[183746] = false,
 					[158278] = false,
+					[183746] = false,
+					[152923] = false,
 					[179985] = false,
 					[151202] = false,
 					[152764] = false,
@@ -110200,14 +110190,11 @@ RareScannerDB = {
 				},
 				["scanOnTaxi"] = false,
 			},
-			["scannerYPos"] = 504.8883361816406,
-			["rareFilters"] = {
-				["filtersToggled"] = false,
-			},
-			["sound"] = {
-				["soundVolume"] = 1,
-			},
+			["scannerXPos"] = 1092.002685546875,
 			["loot"] = {
+				["filterNotMatchingClass"] = true,
+				["lootMinQuality"] = 3,
+				["filterNotEquipableItems"] = true,
 				["filteredLootCategories"] = {
 					{
 						false, -- [1]
@@ -110358,15 +110345,29 @@ RareScannerDB = {
 						[0] = false,
 					},
 				},
-				["lootMinQuality"] = 3,
 				["showOnlyTransmogItems"] = true,
 				["filteredItems"] = {
 					[118785] = true,
 					[118811] = true,
 				},
-				["filterNotEquipableItems"] = true,
-				["filterNotMatchingClass"] = true,
 			},
+			["map"] = {
+				["maxSeenEventTimeBak"] = 5,
+				["showingWorldMapSearcher"] = false,
+				["displayEventIcons"] = false,
+				["maxSeenTimeBak"] = 5,
+				["displayNpcIcons"] = false,
+				["maxSeenContainerTimeBak"] = 0,
+				["displayContainerIcons"] = false,
+				["keepShowingAfterDead"] = true,
+			},
+			["rareFilters"] = {
+				["filtersToggled"] = false,
+			},
+			["sound"] = {
+				["soundVolume"] = 1,
+			},
+			["scannerYPos"] = 504.8883361816406,
 		},
 		["Druid Setup"] = {
 			["map"] = {
@@ -110603,33 +110604,33 @@ RareScannerDB = {
 					[171741] = false,
 					[165253] = false,
 					[160393] = false,
-					[165290] = false,
-					[165686] = false,
 					[179768] = false,
-					[178963] = false,
-					[183646] = false,
-					[178229] = false,
-					[183927] = false,
-					[171705] = false,
-					[179006] = false,
-					[179911] = false,
-					[183737] = false,
-					[160385] = false,
-					[170434] = false,
+					[167464] = false,
+					[165290] = false,
 					[181249] = false,
 					[181360] = false,
+					[178229] = false,
+					[183927] = false,
+					[183516] = false,
+					[179006] = false,
+					[179911] = false,
+					[172180] = false,
+					[159496] = false,
+					[170434] = false,
+					[178963] = false,
+					[183646] = false,
 					[162481] = false,
 					[179769] = false,
-					[179912] = false,
-					[183516] = false,
+					[183722] = false,
+					[171705] = false,
 					[160640] = false,
 					[178563] = false,
 					[165980] = false,
 					[183748] = false,
 					[166292] = false,
-					[183596] = false,
 					[179913] = false,
-					[172182] = false,
+					[183596] = false,
+					[179802] = false,
 					[173468] = false,
 					[170048] = false,
 					[166576] = false,
@@ -110643,18 +110644,18 @@ RareScannerDB = {
 					[184804] = false,
 					[172164] = false,
 					[165786] = false,
-					[179802] = false,
+					[172182] = false,
 					[180042] = false,
 					[179931] = false,
 					[166993] = false,
 					[171708] = false,
 					[159151] = false,
-					[183722] = false,
+					[179912] = false,
 					[165152] = false,
-					[159496] = false,
-					[172180] = false,
+					[160385] = false,
+					[183737] = false,
 					[179043] = false,
-					[167464] = false,
+					[165686] = false,
 					[184409] = false,
 					[159152] = false,
 					[182155] = false,
