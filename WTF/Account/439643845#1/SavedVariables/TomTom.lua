@@ -228,7 +228,7 @@ TomTomWaypointsM = {
 					0.502, -- [2]
 					0.49, -- [3]
 					["crazy"] = true,
-					["worldmap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
+					["minimap_displayID"] = 94765,
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
@@ -238,15 +238,15 @@ TomTomWaypointsM = {
 						["world"] = {
 						},
 					},
-					["minimap_displayID"] = 94765,
+					["from"] = "ATT\nDo not take the mirror portal!  To the right of the mirror, there is a |cFFFFFFFFHanging Chain|r.\n Clicking the chain will pull you up to the tiny alcove above the treasure.\n Click the |cFFFFFFFFGrinchin Calligraphy Set|r on the desk to pick up the |cFFFFFFFFHouse Grinchin Ring|r, which will allow you to loot the treasure.",
 					["persistent"] = true,
 					["desc"] = "Secret Treasure",
 					["silent"] = true,
 					["cleardistance"] = 0,
-					["minimap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
-					["from"] = "ATT\nDo not take the mirror portal!  To the right of the mirror, there is a |cFFFFFFFFHanging Chain|r.\n Clicking the chain will pull you up to the tiny alcove above the treasure.\n Click the |cFFFFFFFFGrinchin Calligraphy Set|r on the desk to pick up the |cFFFFFFFFHouse Grinchin Ring|r, which will allow you to loot the treasure.",
-					["worldmap_displayID"] = 94765,
 					["title"] = "Secret Treasure",
+					["worldmap_displayID"] = 94765,
+					["minimap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
+					["worldmap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
 					["minimap"] = true,
 					["world"] = true,
 				},

@@ -1,12 +1,12 @@
 
 PlaytimeDB = {
-	["Phelanara (Outland)"] = 179951,
+	["Phelanara (Outland)"] = 180177,
 	["Wolfados (Azjol-Nerub)"] = 11647,
 	["Mallazin (Azjol-Nerub)"] = 32251,
 	["Bankeristor (Outland)"] = 84370,
 	["Phaltraxion (Outland)"] = 221186,
 	["Phaladinus (Outland)"] = 105428,
-	["Shadroxia (Outland)"] = 287832,
+	["Shadroxia (Outland)"] = 297678,
 	["Serthaxion (Outland)"] = 179907,
 	["Elementior (Outland)"] = 44494,
 	["Destruxia (Outland)"] = 86524,
@@ -15,10 +15,10 @@ PlaytimeDB = {
 	["Phalonius (Azjol-Nerub)"] = 21647,
 	["Bullenic (Silvermoon)"] = 8180,
 	["Käguya (Turalyon)"] = 12101,
-	["Luminaxia (Outland)"] = 216023,
-	["Xanthoros (Outland)"] = 296077,
+	["Luminaxia (Outland)"] = 221961,
+	["Xanthoros (Outland)"] = 299517,
 	["Barbaxius (Outland)"] = 217692,
 	["Nibirus (Azjol-Nerub)"] = 6832,
-	["Necrophagus (Outland)"] = 12712794,
+	["Necrophagus (Outland)"] = 12731785,
 	["Illydaria (Draenor)"] = 47,
 }

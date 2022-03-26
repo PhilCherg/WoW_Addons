@@ -3,11 +3,11 @@ SoulshapeJournalDB = {
 	["profileKeys"] = {
 		["Illyana - Outland"] = "Illyana - Outland",
 		["Barbaxius - Outland"] = "Barbaxius - Outland",
-		["Phelanara - Outland"] = "Phelanara - Outland",
-		["Shadroxia - Outland"] = "Shadroxia - Outland",
-		["Necrophagus - Outland"] = "Necrophagus - Outland",
-		["Xanthoros - Outland"] = "Xanthoros - Outland",
 		["Destruxia - Outland"] = "Destruxia - Outland",
+		["Xanthoros - Outland"] = "Xanthoros - Outland",
+		["Shadroxia - Outland"] = "Shadroxia - Outland",
 		["Luminaxia - Outland"] = "Luminaxia - Outland",
+		["Phelanara - Outland"] = "Phelanara - Outland",
+		["Necrophagus - Outland"] = "Necrophagus - Outland",
 	},
 }
