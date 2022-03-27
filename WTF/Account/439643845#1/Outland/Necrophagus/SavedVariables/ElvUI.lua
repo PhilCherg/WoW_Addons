@@ -2,138 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"[IAT] Tracking: |cffffff00|Hachievement:15400:Player-1301-040A63C7:0:0:0:-1:0:0:0:0|h[Where the Wild Corgis Are]|h|r", -- [1]
-			"Itsfrost-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Itsfrost-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4948, -- [11]
-			"Player-1301-040A63C7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaItsfrost|r",
-			[51] = 1648409350,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [1]
-		{
-			"Interrupted Prototype of War |cff71d5ff|Hspell:364240:0|h[Gloom Bolt]|h|r", -- [1]
-			"Itsfrost-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Itsfrost-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4956, -- [11]
-			"Player-1301-040A63C7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaItsfrost|r",
-			[51] = 1648409364,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [2]
-		{
-			"some healer and good dps for necrotic +6", -- [1]
-			"Bumblebey-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4957, -- [11]
-			"Player-1301-0C285F10", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Bumblebey|r",
-			[51] = 1648409367,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [3]
-		{
-			"?", -- [1]
-			"Bumblebey-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4958, -- [11]
-			"Player-1301-0C285F10", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Bumblebey|r",
-			[51] = 1648409374,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [4]
-		{
-			"{rt1}Runecarver's Deathtouch 1", -- [1]
-			"Totemgirl-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Totemgirl-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			4964, -- [11]
-			"Player-1301-0C0BB275", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcTotemgirl|r",
-			[51] = 1648409394,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [5]
-		{
-			"|cff71d5ff|Hspell:364240:0|h[Gloom Bolt]|h|r interrupted!", -- [1]
-			"Rorogi-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rorogi-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4973, -- [11]
-			"Player-1301-0AAFAE15", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Rorogi|r",
-			[51] = 1648409432,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [6]
-		{
 			"Interrupted Prototype of Renewal |cff71d5ff|Hspell:364241:0|h[Anima Bolt]|h|r", -- [1]
 			"Itsfrost-Outland", -- [2]
 			"", -- [3]
@@ -154,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaItsfrost|r",
 			[51] = 1648409444,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [7]
+		}, -- [1]
 		{
 			"ROROGI  <------PI ME *Eluitha* :D", -- [1]
 			"Rorogi-Outland", -- [2]
@@ -176,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rorogi|r",
 			[51] = 1648409458,
 			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [8]
+		}, -- [2]
 		{
 			"ROROGI  <------PI ME *Eluitha* :D", -- [1]
 			"Rorogi-Outland", -- [2]
@@ -198,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rorogi|r",
 			[51] = 1648409458,
 			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [9]
+		}, -- [3]
 		{
 			"Interrupted Prototype of Renewal |cff71d5ff|Hspell:364241:0|h[Anima Bolt]|h|r", -- [1]
 			"Itsfrost-Outland", -- [2]
@@ -220,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaItsfrost|r",
 			[51] = 1648409464,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [10]
+		}, -- [4]
 		{
 			"|cff71d5ff|Hspell:364241:0|h[Anima Bolt]|h|r interrupted!", -- [1]
 			"Rorogi-Outland", -- [2]
@@ -242,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rorogi|r",
 			[51] = 1648409474,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [11]
+		}, -- [5]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15259:Player-1301-0BE6F82E:1:3:27:22:4294967295:4294967295:4294967295:4294967295|h[Secrets of the First Ones]|h|r!", -- [1]
 			"Meirong-Outland", -- [2]
@@ -264,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Meirong|r",
 			[51] = 1648409508,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [12]
+		}, -- [6]
 		{
 			"|cff71d5ff|Hspell:364241:0|h[Anima Bolt]|h|r interrupted!", -- [1]
 			"Rorogi-Outland", -- [2]
@@ -286,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rorogi|r",
 			[51] = 1648409508,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [13]
+		}, -- [7]
 		{
 			"|cff71d5ff|Hspell:109304:0|h[Exhilaration]|h|r used on Rorogi!", -- [1]
 			"Rorogi-Outland", -- [2]
@@ -308,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rorogi|r",
 			[51] = 1648409524,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [14]
+		}, -- [8]
 		{
 			"Interrupted Prototype of Renewal |cff71d5ff|Hspell:364241:0|h[Anima Bolt]|h|r", -- [1]
 			"Itsfrost-Outland", -- [2]
@@ -330,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaItsfrost|r",
 			[51] = 1648409526,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [15]
+		}, -- [9]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15509:Player-1301-0BC4B80E:1:3:27:22:4294967295:4294967295:4294967295:4294967295|h[Tales of the Exile]|h|r!", -- [1]
 			"Tierundelfee-Outland", -- [2]
@@ -352,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Tierundelfee|r",
 			[51] = 1648409530,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [16]
+		}, -- [10]
 		{
 			"|cff71d5ff|Hspell:364240:0|h[Gloom Bolt]|h|r interrupted!", -- [1]
 			"Rorogi-Outland", -- [2]
@@ -374,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rorogi|r",
 			[51] = 1648409586,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [17]
+		}, -- [11]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:11787:Player-1301-0C15DC7B:1:3:27:22:4294967295:4294967295:4294967295:4294967295|h[The Gates of Hell]|h|r!", -- [1]
 			"Tinlicker-Outland", -- [2]
@@ -396,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaTinlicker|r",
 			[51] = 1648409603,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [18]
+		}, -- [12]
 		{
 			"Interrupted Prototype of Renewal |cff71d5ff|Hspell:364241:0|h[Anima Bolt]|h|r", -- [1]
 			"Itsfrost-Outland", -- [2]
@@ -418,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaItsfrost|r",
 			[51] = 1648409608,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [19]
+		}, -- [13]
 		{
 			"|cff71d5ff|Hspell:109304:0|h[Exhilaration]|h|r used on Rorogi!", -- [1]
 			"Rorogi-Outland", -- [2]
@@ -440,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rorogi|r",
 			[51] = 1648409646,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [20]
+		}, -- [14]
 		{
 			"|cff71d5ff|Hspell:364240:0|h[Gloom Bolt]|h|r interrupted!", -- [1]
 			"Rorogi-Outland", -- [2]
@@ -462,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rorogi|r",
 			[51] = 1648409651,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [21]
+		}, -- [15]
 		{
 			"not sure", -- [1]
 			"Totemgirl-Outland", -- [2]
@@ -484,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcTotemgirl|r",
 			[51] = 1648409805,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [22]
+		}, -- [16]
 		{
 			"SS on Eluith up!", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -506,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1648409806,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [23]
+		}, -- [17]
 		{
 			"[IAT] Tracking: |cffffff00|Hachievement:15400:Player-1301-040A63C7:0:0:0:-1:0:0:0:0|h[Where the Wild Corgis Are]|h|r", -- [1]
 			"Itsfrost-Outland", -- [2]
@@ -528,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaItsfrost|r",
 			[51] = 1648409820,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [24]
+		}, -- [18]
 		{
 			"Interrupted Prototype of War |cff71d5ff|Hspell:364240:0|h[Gloom Bolt]|h|r", -- [1]
 			"Itsfrost-Outland", -- [2]
@@ -550,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaItsfrost|r",
 			[51] = 1648409852,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [25]
+		}, -- [19]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:11214:Player-1301-0BDA0C82:1:3:27:22:4294967295:4294967295:4294967295:4294967295|h[Many Missions]|h|r!", -- [1]
 			"Karamfilchi-Outland", -- [2]
@@ -572,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Karamfilchi|r",
 			[51] = 1648409904,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [26]
+		}, -- [20]
 		{
 			"ROROGI  <------PI ME *Eluitha* :D", -- [1]
 			"Rorogi-Outland", -- [2]
@@ -594,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rorogi|r",
 			[51] = 1648409925,
 			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [27]
+		}, -- [21]
 		{
 			"Interrupted Prototype of Renewal |cff71d5ff|Hspell:364241:0|h[Anima Bolt]|h|r", -- [1]
 			"Itsfrost-Outland", -- [2]
@@ -616,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaItsfrost|r",
 			[51] = 1648409930,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [28]
+		}, -- [22]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:11788:Player-1301-0C15DC7B:1:3:27:22:4294967295:4294967295:4294967295:4294967295|h[Wailing Halls]|h|r!", -- [1]
 			"Tinlicker-Outland", -- [2]
@@ -638,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaTinlicker|r",
 			[51] = 1648409937,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [29]
+		}, -- [23]
 		{
 			"Interrupted Prototype of Renewal |cff71d5ff|Hspell:364241:0|h[Anima Bolt]|h|r", -- [1]
 			"Itsfrost-Outland", -- [2]
@@ -660,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaItsfrost|r",
 			[51] = 1648409957,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [30]
+		}, -- [24]
 		{
 			"|cff71d5ff|Hspell:364241:0|h[Anima Bolt]|h|r interrupted!", -- [1]
 			"Rorogi-Outland", -- [2]
@@ -682,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rorogi|r",
 			[51] = 1648409964,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [31]
+		}, -- [25]
 		{
 			"Interrupted Prototype of Renewal |cff71d5ff|Hspell:364241:0|h[Anima Bolt]|h|r", -- [1]
 			"Itsfrost-Outland", -- [2]
@@ -704,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaItsfrost|r",
 			[51] = 1648409978,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [32]
+		}, -- [26]
 		{
 			"|cff71d5ff|Hspell:109304:0|h[Exhilaration]|h|r used on Rorogi!", -- [1]
 			"Rorogi-Outland", -- [2]
@@ -726,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rorogi|r",
 			[51] = 1648409995,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [33]
+		}, -- [27]
 		{
 			"|cff71d5ff|Hspell:364241:0|h[Anima Bolt]|h|r interrupted!", -- [1]
 			"Rorogi-Outland", -- [2]
@@ -748,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rorogi|r",
 			[51] = 1648410016,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [34]
+		}, -- [28]
 		{
 			"Interrupted Prototype of Renewal |cff71d5ff|Hspell:364241:0|h[Anima Bolt]|h|r", -- [1]
 			"Itsfrost-Outland", -- [2]
@@ -770,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaItsfrost|r",
 			[51] = 1648410056,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [35]
+		}, -- [29]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:11162:Player-1301-0C29093A:1:3:27:22:4294967295:4294967295:4294967295:4294967295|h[Keystone Master]|h|r!", -- [1]
 			"Mesmir-Outland", -- [2]
@@ -792,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMesmir|r",
 			[51] = 1648410076,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [36]
+		}, -- [30]
 		{
 			"|cff71d5ff|Hspell:364240:0|h[Gloom Bolt]|h|r interrupted!", -- [1]
 			"Rorogi-Outland", -- [2]
@@ -814,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rorogi|r",
 			[51] = 1648410084,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [37]
+		}, -- [31]
 		{
 			"Interrupted Prototype of War |cff71d5ff|Hspell:364240:0|h[Gloom Bolt]|h|r", -- [1]
 			"Itsfrost-Outland", -- [2]
@@ -836,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaItsfrost|r",
 			[51] = 1648410113,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [38]
+		}, -- [32]
 		{
 			"|cff71d5ff|Hspell:109304:0|h[Exhilaration]|h|r used on Rorogi!", -- [1]
 			"Rorogi-Outland", -- [2]
@@ -858,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rorogi|r",
 			[51] = 1648410116,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [39]
+		}, -- [33]
 		{
 			"Interrupted Prototype of Renewal |cff71d5ff|Hspell:364241:0|h[Anima Bolt]|h|r", -- [1]
 			"Itsfrost-Outland", -- [2]
@@ -880,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaItsfrost|r",
 			[51] = 1648410148,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [40]
+		}, -- [34]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12840:Player-1301-0C2A9425:1:3:27:22:4294967295:4294967295:4294967295:4294967295|h[Tol Dagor]|h|r!", -- [1]
 			"Freddich-Outland", -- [2]
@@ -902,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Freddich|r",
 			[51] = 1648410226,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [41]
+		}, -- [35]
 		{
 			"i need to order ", -- [1]
 			"Rorogi-Outland", -- [2]
@@ -924,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rorogi|r",
 			[51] = 1648410249,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [42]
+		}, -- [36]
 		{
 			"FOOD ", -- [1]
 			"Rorogi-Outland", -- [2]
@@ -946,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rorogi|r",
 			[51] = 1648410253,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [43]
+		}, -- [37]
 		{
 			"No", -- [1]
 			"Lizhorn-Outland", -- [2]
@@ -968,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Lizhorn|r",
 			[51] = 1648410257,
 			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [44]
+		}, -- [38]
 		{
 			"butttt maaaaam", -- [1]
 			"Rorogi-Outland", -- [2]
@@ -990,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rorogi|r",
 			[51] = 1648410265,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [45]
+		}, -- [39]
 		{
 			"|cff71d5ff|Hspell:366182:0|h[Hyperlight Bolt]|h|r interrupted!", -- [1]
 			"Rorogi-Outland", -- [2]
@@ -1012,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rorogi|r",
 			[51] = 1648410269,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [46]
+		}, -- [40]
 		{
 			"does anyone have a key for the chest btw?", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1034,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1648410275,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [47]
+		}, -- [41]
 		{
 			"|cff71d5ff|Hspell:366326:0|h[Essence Rift]|h|r interrupted!", -- [1]
 			"Rorogi-Outland", -- [2]
@@ -1056,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rorogi|r",
 			[51] = 1648410305,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [48]
+		}, -- [42]
 		{
 			"|cff71d5ff|Hspell:109304:0|h[Exhilaration]|h|r used on Rorogi!", -- [1]
 			"Rorogi-Outland", -- [2]
@@ -1078,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rorogi|r",
 			[51] = 1648410360,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [49]
+		}, -- [43]
 		{
 			"Interrupted Foul Controller |cff71d5ff|Hspell:366326:0|h[Essence Rift]|h|r", -- [1]
 			"Itsfrost-Outland", -- [2]
@@ -1100,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaItsfrost|r",
 			[51] = 1648410360,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [50]
+		}, -- [44]
 		{
 			"[IAT] Tracking: |cffffff00|Hachievement:15401:Player-1301-040A63C7:0:0:0:-1:0:0:0:0|h[Wisdom Comes From the Desert]|h|r", -- [1]
 			"Itsfrost-Outland", -- [2]
@@ -1122,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaItsfrost|r",
 			[51] = 1648410539,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [51]
+		}, -- [45]
 		{
 			"THE STORE IS CLOSED ", -- [1]
 			"Rorogi-Outland", -- [2]
@@ -1144,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rorogi|r",
 			[51] = 1648410626,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [52]
+		}, -- [46]
 		{
 			"SHEMMMIIIII", -- [1]
 			"Rorogi-Outland", -- [2]
@@ -1166,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rorogi|r",
 			[51] = 1648410628,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [53]
+		}, -- [47]
 		{
 			":-(", -- [1]
 			"Eluitha-Outland", -- [2]
@@ -1188,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeEluitha|r",
 			[51] = 1648410631,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [54]
+		}, -- [48]
 		{
 			"McDonalds then?", -- [1]
 			"Eluitha-Outland", -- [2]
@@ -1210,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeEluitha|r",
 			[51] = 1648410636,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [55]
+		}, -- [49]
 		{
 			"NO", -- [1]
 			"Rorogi-Outland", -- [2]
@@ -1232,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rorogi|r",
 			[51] = 1648410637,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [56]
+		}, -- [50]
 		{
 			"SOUVLAKI", -- [1]
 			"Rorogi-Outland", -- [2]
@@ -1254,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rorogi|r",
 			[51] = 1648410644,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [57]
+		}, -- [51]
 		{
 			"TzaTziky? .-D", -- [1]
 			"Eluitha-Outland", -- [2]
@@ -1276,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeEluitha|r",
 			[51] = 1648410658,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [58]
+		}, -- [52]
 		{
 			"you shal starve!", -- [1]
 			"Eluitha-Outland", -- [2]
@@ -1298,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeEluitha|r",
 			[51] = 1648410688,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [59]
+		}, -- [53]
 		{
 			"need /rl", -- [1]
 			"Morbidmind-Outland", -- [2]
@@ -1320,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMorbidmind|r",
 			[51] = 1648410693,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [60]
+		}, -- [54]
 		{
 			"SS on Eluith up!", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1342,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1648410731,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [61]
+		}, -- [55]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9039:Player-1301-0C24EFD9:1:3:27:22:4294967295:4294967295:4294967295:4294967295|h[Auchindoun]|h|r!", -- [1]
 			"Wizzardgirl-Outland", -- [2]
@@ -1364,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaWizzardgirl|r",
 			[51] = 1648410732,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [62]
+		}, -- [56]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9049:Player-1301-0C24EFD9:1:3:27:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Auchindoun]|h|r!", -- [1]
 			"Wizzardgirl-Outland", -- [2]
@@ -1386,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaWizzardgirl|r",
 			[51] = 1648410732,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [63]
+		}, -- [57]
 		{
 			"MY MIND IS HUNGRY ", -- [1]
 			"Rorogi-Outland", -- [2]
@@ -1408,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rorogi|r",
 			[51] = 1648410787,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [64]
+		}, -- [58]
 		{
 			"I ORDERED FROM ANOTHER ONE WHICH I DONT TRUST ", -- [1]
 			"Rorogi-Outland", -- [2]
@@ -1430,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rorogi|r",
 			[51] = 1648410800,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [65]
+		}, -- [59]
 		{
 			"shit caps", -- [1]
 			"Rorogi-Outland", -- [2]
@@ -1452,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rorogi|r",
 			[51] = 1648410804,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [66]
+		}, -- [60]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:11683:Player-1301-0C15DC7B:1:3:27:22:4294967295:4294967295:4294967295:4294967295|h[Bingo!]|h|r!", -- [1]
 			"Tinlicker-Outland", -- [2]
@@ -1474,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaTinlicker|r",
 			[51] = 1648410817,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [67]
+		}, -- [61]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:11789:Player-1301-0C15DC7B:1:3:27:22:4294967295:4294967295:4294967295:4294967295|h[Chamber of the Avatar]|h|r!", -- [1]
 			"Tinlicker-Outland", -- [2]
@@ -1496,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaTinlicker|r",
 			[51] = 1648410817,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [68]
+		}, -- [62]
 		{
 			"aaahhh shiiiit", -- [1]
 			"Eluitha-Outland", -- [2]
@@ -1518,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeEluitha|r",
 			[51] = 1648410818,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [69]
+		}, -- [63]
 		{
 			"get some food :P", -- [1]
 			"Morbidmind-Outland", -- [2]
@@ -1540,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMorbidmind|r",
 			[51] = 1648410819,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [70]
+		}, -- [64]
 		{
 			":D :D", -- [1]
 			"Rorogi-Outland", -- [2]
@@ -1562,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rorogi|r",
 			[51] = 1648410823,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [71]
+		}, -- [65]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14371:Player-1301-0C032AD9:1:3:27:22:4294967295:4294967295:4294967295:4294967295|h[Mists of Tirna Scithe]|h|r!", -- [1]
 			"Shruggs-Outland", -- [2]
@@ -1584,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edShruggs|r",
 			[51] = 1648410848,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [72]
+		}, -- [66]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:5752:Player-1301-0C083E0A:1:3:27:22:4294967295:4294967295:4294967295:4294967295|h[Justly Rewarded]|h|r!", -- [1]
 			"Leekmadeek-Outland", -- [2]
@@ -1606,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcLeekmadeek|r",
 			[51] = 1648410855,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [73]
+		}, -- [67]
 		{
 			"[IAT] Tracking: |cffffff00|Hachievement:15401:Player-1301-040A63C7:0:0:0:-1:0:0:0:0|h[Wisdom Comes From the Desert]|h|r", -- [1]
 			"Itsfrost-Outland", -- [2]
@@ -1628,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaItsfrost|r",
 			[51] = 1648410898,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [74]
+		}, -- [68]
 		{
 			"|cff71d5ff|Hspell:109304:0|h[Exhilaration]|h|r used on Rorogi!", -- [1]
 			"Rorogi-Outland", -- [2]
@@ -1650,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rorogi|r",
 			[51] = 1648410904,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [75]
+		}, -- [69]
 		{
 			"ROROGI  <------PI ME *Eluitha* :D", -- [1]
 			"Rorogi-Outland", -- [2]
@@ -1672,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rorogi|r",
 			[51] = 1648410914,
 			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [76]
+		}, -- [70]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14172:Player-1301-0646EE6A:1:3:27:22:4294967295:4294967295:4294967295:4294967295|h[A Monumental Amount of Mementos]|h|r!", -- [1]
 			"Áv-Outland", -- [2]
@@ -1694,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Áv|r",
 			[51] = 1648410962,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [77]
+		}, -- [71]
 		{
 			"SS on Eluith up!", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1716,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1648411079,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [78]
+		}, -- [72]
 		{
 			"[IAT] Tracking: |cffffff00|Hachievement:15401:Player-1301-040A63C7:0:0:0:-1:0:0:0:0|h[Wisdom Comes From the Desert]|h|r", -- [1]
 			"Itsfrost-Outland", -- [2]
@@ -1738,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaItsfrost|r",
 			[51] = 1648411087,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [79]
+		}, -- [73]
 		{
 			"|cff71d5ff|Hspell:109304:0|h[Exhilaration]|h|r used on Rorogi!", -- [1]
 			"Rorogi-Outland", -- [2]
@@ -1760,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rorogi|r",
 			[51] = 1648411138,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [80]
+		}, -- [74]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15506:Player-1301-0C28F275:1:3:27:22:4294967295:4294967295:4294967295:4294967295|h[Shadowlands Keystone Hero: Season Three]|h|r!", -- [1]
 			"Niinaa-Outland", -- [2]
@@ -1782,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Niinaa|r",
 			[51] = 1648411152,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [81]
+		}, -- [75]
 		{
 			"SS on Eluith up!", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1804,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1648411240,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [82]
+		}, -- [76]
 		{
 			"summon?", -- [1]
 			"Morbidmind-Outland", -- [2]
@@ -1826,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMorbidmind|r",
 			[51] = 1648411250,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [83]
+		}, -- [77]
 		{
 			"grats niinaa", -- [1]
 			"Thelasa-Outland", -- [2]
@@ -1848,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Thelasa|r",
 			[51] = 1648411256,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [84]
+		}, -- [78]
 		{
 			"poggiesss", -- [1]
 			"Niinaa-Outland", -- [2]
@@ -1870,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Niinaa|r",
 			[51] = 1648411278,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [85]
+		}, -- [79]
 		{
 			"Gz gz gz ", -- [1]
 			"Nóxùs-Outland", -- [2]
@@ -1892,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNóxùs|r",
 			[51] = 1648411282,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [86]
+		}, -- [80]
 		{
 			"POGALICIOUS", -- [1]
 			"Lurieth-Outland", -- [2]
@@ -1914,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Lurieth|r",
 			[51] = 1648411283,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [87]
+		}, -- [81]
 		{
 			"ROROGI  <------PI ME *Eluitha* :D", -- [1]
 			"Rorogi-Outland", -- [2]
@@ -1936,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rorogi|r",
 			[51] = 1648411290,
 			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [88]
+		}, -- [82]
 		{
 			"[IAT] Tracking: |cffffff00|Hachievement:15401:Player-1301-040A63C7:0:0:0:-1:0:0:0:0|h[Wisdom Comes From the Desert]|h|r", -- [1]
 			"Itsfrost-Outland", -- [2]
@@ -1958,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaItsfrost|r",
 			[51] = 1648411294,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [89]
+		}, -- [83]
 		{
 			"wait there is achiv for 3k?", -- [1]
 			"Karamfilchi-Outland", -- [2]
@@ -1980,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Karamfilchi|r",
 			[51] = 1648411305,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [90]
+		}, -- [84]
 		{
 			"gz", -- [1]
 			"Valsheres-Outland", -- [2]
@@ -2002,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edValsheres|r",
 			[51] = 1648411309,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [91]
+		}, -- [85]
 		{
 			"|cff71d5ff|Hspell:109304:0|h[Exhilaration]|h|r used on Rorogi!", -- [1]
 			"Rorogi-Outland", -- [2]
@@ -2024,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rorogi|r",
 			[51] = 1648411381,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [92]
+		}, -- [86]
 		{
 			"i got hit for 90k by collapsing emptiness", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -2046,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1648411417,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [93]
+		}, -- [87]
 		{
 			"while we were stacked", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -2068,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1648411420,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [94]
+		}, -- [88]
 		{
 			"tf is that xD", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -2090,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1648411424,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [95]
+		}, -- [89]
 		{
 			"|cff66bbff|Hjournal:2:23961:15|h[Collapsing Emptiness]|h|r\\", -- [1]
 			"Astrø-Outland", -- [2]
@@ -2112,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Astrø|r",
 			[51] = 1648411459,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [96]
+		}, -- [90]
 		{
 			"thanks for raid i need to watch some vids i think", -- [1]
 			"Totemgirl-Outland", -- [2]
@@ -2134,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcTotemgirl|r",
 			[51] = 1648411478,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [97]
+		}, -- [91]
 		{
 			"failed a bit tonight sorry", -- [1]
 			"Totemgirl-Outland", -- [2]
@@ -2156,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcTotemgirl|r",
 			[51] = 1648411483,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [98]
+		}, -- [92]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14845:Player-1301-08140C99:1:3:27:22:4294967295:4294967295:4294967295:4294967295|h[Adventures: A Step in the Right Direction]|h|r!", -- [1]
 			"Orç-Outland", -- [2]
@@ -2177,6 +2045,138 @@ ElvCharacterDB = {
 			false, -- [17]
 			[52] = "|cffa9d271Orç|r",
 			[51] = 1648411495,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [93]
+		{
+			"WTB |cffffffff|Hitem:178927::::::::60:581:::::::::|h[Shadowghast Necklace]|h|r, got mats", -- [1]
+			"Rhaelgan-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Rhaelgan-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2, -- [11]
+			"Player-1301-0BA6110F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Rhaelgan|r",
+			[51] = 1648413234,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:15492:Player-1301-0B77071C:1:3:27:22:4294967295:4294967295:4294967295:4294967295|h[Cornerstone of Creation]|h|r!", -- [1]
+			"Sniperpg-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Sniperpg-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			11, -- [11]
+			"Player-1301-0B77071C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Sniperpg|r",
+			[51] = 1648413286,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [95]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:10706:Player-1301-0BDA0C82:1:3:27:22:4294967295:4294967295:4294967295:4294967295|h[Training the Troops]|h|r!", -- [1]
+			"Karamfilchi-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Karamfilchi-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			14, -- [11]
+			"Player-1301-0BDA0C82", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Karamfilchi|r",
+			[51] = 1648413343,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [96]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:15259:Player-1301-08B8DC46:1:3:27:22:4294967295:4294967295:4294967295:4294967295|h[Secrets of the First Ones]|h|r!", -- [1]
+			"Espina-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Espina-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			19, -- [11]
+			"Player-1301-08B8DC46", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Espina|r",
+			[51] = 1648413414,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [97]
+		{
+			"|cffffff00|Hworldmap:1970:5308:9305|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r Gluttonous overgrowth active 100%", -- [1]
+			"Velasa-Outland", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Velasa-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			108, -- [11]
+			"Player-1301-0C290A84", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Velasa|r",
+			[51] = 1648414391,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:15496:Player-1301-0A498A6E:1:3:27:22:4294967295:4294967295:4294967295:4294967295|h[Shadowlands Keystone Explorer: Season Three]|h|r!", -- [1]
+			"Tharlak-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tharlak-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			123, -- [11]
+			"Player-1301-0A498A6E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Tharlak|r",
+			[51] = 1648414479,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [99]
 	},
