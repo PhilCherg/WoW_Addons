@@ -25,21 +25,18 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["damage_taken"] = 1962.003263,
-							["aID"] = "1301-0878F932",
-							["classe"] = "DEMONHUNTER",
+							["nome"] = "Illidaryr",
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 52264.003263,
-							["tipo"] = 1,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 787.3456351762566,
+							["classe"] = "DEMONHUNTER",
 							["dps_started"] = false,
 							["end_time"] = 1648311146,
 							["delay"] = 0,
 							["total"] = 52264.003263,
 							["boss_fight_component"] = true,
-							["spec"] = 577,
-							["grupo"] = true,
-							["nome"] = "Illidaryr",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -305,34 +302,6 @@ _detalhes_database = {
 										},
 										["spellschool"] = 8,
 									},
-									[162243] = {
-										["c_amt"] = 6,
-										["b_amt"] = 0,
-										["c_dmg"] = 2153,
-										["g_amt"] = 0,
-										["n_max"] = 225,
-										["targets"] = {
-											["High Sage Viryx"] = 3854,
-										},
-										["n_dmg"] = 1701,
-										["n_min"] = 1,
-										["g_dmg"] = 0,
-										["counter"] = 17,
-										["total"] = 3854,
-										["c_max"] = 365,
-										["id"] = 162243,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["c_min"] = 347,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 11,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
-									},
 									[295367] = {
 										["c_amt"] = 5,
 										["b_amt"] = 0,
@@ -360,6 +329,34 @@ _detalhes_database = {
 										["extra"] = {
 										},
 										["spellschool"] = 4,
+									},
+									[162243] = {
+										["c_amt"] = 6,
+										["b_amt"] = 0,
+										["c_dmg"] = 2153,
+										["g_amt"] = 0,
+										["n_max"] = 225,
+										["targets"] = {
+											["High Sage Viryx"] = 3854,
+										},
+										["n_dmg"] = 1701,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 17,
+										["total"] = 3854,
+										["c_max"] = 365,
+										["id"] = 162243,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 347,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 11,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[198030] = {
 										["c_amt"] = 60,
@@ -421,7 +418,10 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 787.3456351762566,
+							["grupo"] = true,
+							["aID"] = "1301-0878F932",
+							["tipo"] = 1,
+							["spec"] = 577,
 							["colocacao"] = 1,
 							["last_event"] = 1648311145,
 							["on_hold"] = false,
@@ -446,21 +446,18 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["damage_taken"] = 3961.002228,
-							["aID"] = "1329-09C6E2DC",
-							["classe"] = "WARRIOR",
+							["nome"] = "Timewarrior-Ravencrest",
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 38803.002228,
-							["tipo"] = 1,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 584.5586355528764,
+							["classe"] = "WARRIOR",
 							["dps_started"] = false,
 							["end_time"] = 1648311146,
 							["delay"] = 0,
 							["total"] = 38803.002228,
 							["boss_fight_component"] = true,
-							["spec"] = 72,
-							["grupo"] = true,
-							["nome"] = "Timewarrior-Ravencrest",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -902,7 +899,10 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 584.5586355528764,
+							["grupo"] = true,
+							["aID"] = "1329-09C6E2DC",
+							["tipo"] = 1,
+							["spec"] = 72,
 							["colocacao"] = 2,
 							["last_event"] = 1648311146,
 							["on_hold"] = false,
@@ -925,21 +925,18 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["damage_taken"] = 0.008663,
-							["aID"] = "1096-05E8A18D",
-							["classe"] = "PALADIN",
+							["nome"] = "Shaazia-DefiasBrotherhood",
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 23906.008663,
-							["tipo"] = 1,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 360.1387264688153,
+							["classe"] = "PALADIN",
 							["dps_started"] = false,
 							["end_time"] = 1648311146,
 							["delay"] = 0,
 							["total"] = 23906.008663,
 							["boss_fight_component"] = true,
-							["spec"] = 65,
-							["grupo"] = true,
-							["nome"] = "Shaazia-DefiasBrotherhood",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -1090,35 +1087,6 @@ _detalhes_database = {
 										},
 										["spellschool"] = 1,
 									},
-									[53600] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 214,
-										["targets"] = {
-											["High Sage Viryx"] = 767,
-											["Solar Zealot"] = 166,
-										},
-										["n_dmg"] = 933,
-										["n_min"] = 166,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 933,
-										["c_max"] = 0,
-										["id"] = 53600,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 5,
-										["extra"] = {
-										},
-										["spellschool"] = 2,
-									},
 									[275773] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
@@ -1136,6 +1104,35 @@ _detalhes_database = {
 										["total"] = 2319,
 										["c_max"] = 0,
 										["id"] = 275773,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 5,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+									[53600] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 214,
+										["targets"] = {
+											["High Sage Viryx"] = 767,
+											["Solar Zealot"] = 166,
+										},
+										["n_dmg"] = 933,
+										["n_min"] = 166,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 933,
+										["c_max"] = 0,
+										["id"] = 53600,
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
@@ -1236,7 +1233,10 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 360.1387264688153,
+							["grupo"] = true,
+							["aID"] = "1096-05E8A18D",
+							["tipo"] = 1,
+							["spec"] = 65,
 							["colocacao"] = 3,
 							["last_event"] = 1648311146,
 							["on_hold"] = false,
@@ -1262,21 +1262,18 @@ _detalhes_database = {
 								"Wild Imp <Scolo-Lightbringer>", -- [3]
 							},
 							["damage_taken"] = 0.008296,
-							["aID"] = "1388-08384D39",
-							["classe"] = "WARLOCK",
+							["nome"] = "Scolo-Lightbringer",
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 6979.008296,
-							["tipo"] = 1,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 329.3011192527865,
+							["classe"] = "WARLOCK",
 							["dps_started"] = false,
 							["end_time"] = 1648311146,
 							["delay"] = 0,
 							["total"] = 21859.008296,
 							["boss_fight_component"] = true,
-							["spec"] = 266,
-							["grupo"] = true,
-							["nome"] = "Scolo-Lightbringer",
 							["spells"] = {
 								["_ActorTable"] = {
 									[86040] = {
@@ -1452,7 +1449,10 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 329.3011192527865,
+							["grupo"] = true,
+							["aID"] = "1388-08384D39",
+							["tipo"] = 1,
+							["spec"] = 266,
 							["colocacao"] = 4,
 							["last_event"] = 1648311146,
 							["on_hold"] = false,
@@ -1491,8 +1491,8 @@ _detalhes_database = {
 							},
 							["nome"] = "Xanthoros",
 							["end_time"] = 1648311146,
-							["last_event"] = 1648311146,
-							["last_dps"] = 231.1841841066583,
+							["damage_taken"] = 24280.006141,
+							["aID"] = "1301-0A44C97F",
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1787,8 +1787,8 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["aID"] = "1301-0A44C97F",
-							["damage_taken"] = 24280.006141,
+							["last_event"] = 1648311146,
+							["last_dps"] = 231.1841841066583,
 							["custom"] = 0,
 							["tipo"] = 1,
 							["avoidance"] = {
@@ -1882,17 +1882,17 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["aID"] = "76266",
+							["nome"] = "High Sage Viryx",
+							["end_time"] = 1648311146,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 21127.006337,
-							["total"] = 21127.006337,
-							["monster"] = true,
-							["end_time"] = 1648311146,
 							["damage_taken"] = 128344.006337,
-							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["total"] = 21127.006337,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1956,16 +1956,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "High Sage Viryx",
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["friendlyfire"] = {
-							},
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1648311146,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1648311081,
 							["serial"] = "Creature-0-4235-1209-25977-76266-00003F3807",
-							["classe"] = "UNKNOW",
+							["aID"] = "76266",
 						}, -- [6]
 						{
 							["flag_original"] = 4370,
@@ -1981,14 +1981,14 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["nome"] = "Chinilferil <Scolo-Lightbringer>",
-							["tipo"] = 1,
-							["aID"] = "Pet-0-4235-1209-25977-17252-0103A9D0D0",
+							["end_time"] = 1648311146,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 6915.008386,
-							["total"] = 6915.008386,
+							["aID"] = "Pet-0-4235-1209-25977-17252-0103A9D0D0",
 							["dps_started"] = false,
-							["end_time"] = 1648311146,
+							["total"] = 6915.008386,
 							["damage_taken"] = 0.008386,
 							["ownerName"] = "Scolo-Lightbringer",
 							["boss_fight_component"] = true,
@@ -2112,7 +2112,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["friendlyfire"] = {
 							},
@@ -2135,18 +2135,19 @@ _detalhes_database = {
 							["delay"] = 1648311119,
 							["pets"] = {
 							},
-							["friendlyfire_total"] = 0,
-							["tipo"] = 1,
+							["boss_fight_component"] = true,
 							["classe"] = "PET",
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 5240.002339000001,
-							["total"] = 5240.002339000001,
+							["friendlyfire"] = {
+							},
 							["dps_started"] = false,
 							["end_time"] = 1648311146,
 							["damage_taken"] = 0.002339,
 							["ownerName"] = "Scolo-Lightbringer",
-							["boss_fight_component"] = true,
+							["nome"] = "Dreadstalker <Scolo-Lightbringer>",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -2210,16 +2211,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "Dreadstalker <Scolo-Lightbringer>",
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["aID"] = "98035",
 							["custom"] = 0,
 							["last_event"] = 1648311144,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1648311111,
 							["serial"] = "Creature-0-4235-1209-25977-98035-00003F3B29",
-							["on_hold"] = false,
+							["total"] = 5240.002339000001,
 						}, -- [8]
 						{
 							["flag_original"] = 2632,
@@ -2234,17 +2234,17 @@ _detalhes_database = {
 							["delay"] = 1648311127,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["nome"] = "Arakkoa Magnifying Glass",
+							["on_hold"] = false,
+							["aID"] = "76285",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 4766.005177999999,
-							["on_hold"] = false,
 							["monster"] = true,
+							["dps_started"] = false,
 							["total"] = 4766.005177999999,
-							["damage_taken"] = 0.005178,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2281,82 +2281,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "Arakkoa Magnifying Glass",
+							["friendlyfire"] = {
+							},
 							["end_time"] = 1648311146,
-							["aID"] = "76285",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1648311127,
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 0.005178,
 							["start_time"] = 1648311140,
 							["serial"] = "Creature-0-4235-1209-25977-76285-00003F3807",
-							["dps_started"] = false,
-						}, -- [9]
-						{
-							["flag_original"] = -2147483648,
-							["totalabsorbed"] = 0.004691,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Xanthoros"] = 3674,
-							},
-							["on_hold"] = true,
-							["pets"] = {
-							},
-							["timeMachine"] = 1,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 3674.004691,
-							["aID"] = "",
-							["dps_started"] = true,
-							["total"] = 3674.004691,
 							["classe"] = "UNKNOW",
-							["serial"] = "",
-							["nome"] = "Environment (Falling)",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[3] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 3674,
-										["targets"] = {
-											["Xanthoros"] = 3674,
-										},
-										["n_dmg"] = 3674,
-										["n_min"] = 3674,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 3674,
-										["c_max"] = 0,
-										["id"] = 3,
-										["r_dmg"] = 0,
-										["spellschool"] = 3,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-							},
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.004691,
-							["start_time"] = 1648338352,
-							["delay"] = 1648338352,
-							["last_event"] = 1648338352,
-						}, -- [10]
+						}, -- [9]
 						{
 							["flag_original"] = 8466,
 							["totalabsorbed"] = 0.002582,
@@ -2369,18 +2304,19 @@ _detalhes_database = {
 							["delay"] = 1648311111,
 							["pets"] = {
 							},
-							["friendlyfire_total"] = 0,
-							["tipo"] = 1,
+							["boss_fight_component"] = true,
 							["classe"] = "PET",
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2725.002582,
-							["total"] = 2725.002582,
+							["friendlyfire"] = {
+							},
 							["dps_started"] = false,
 							["end_time"] = 1648311146,
 							["damage_taken"] = 0.002582,
 							["ownerName"] = "Scolo-Lightbringer",
-							["boss_fight_component"] = true,
+							["nome"] = "Wild Imp <Scolo-Lightbringer>",
 							["spells"] = {
 								["_ActorTable"] = {
 									[104318] = {
@@ -2415,17 +2351,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "Wild Imp <Scolo-Lightbringer>",
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["aID"] = "55659",
 							["custom"] = 0,
 							["last_event"] = 1648311146,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1648311094,
 							["serial"] = "Creature-0-4235-1209-25977-55659-00003F3B22",
-							["on_hold"] = false,
-						}, -- [11]
+							["total"] = 2725.002582,
+						}, -- [10]
 						{
 							["flag_original"] = 8776,
 							["totalabsorbed"] = 0.005094,
@@ -2441,16 +2376,17 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
-							["total"] = 636.005094,
-							["classe"] = "PET",
+							["end_time"] = 1648311146,
+							["nome"] = "Skyreach Shield Construct",
+							["aID"] = "76292",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 636.005094,
 							["delay"] = 1648311131,
 							["dps_started"] = false,
-							["end_time"] = 1648311146,
-							["nome"] = "Skyreach Shield Construct",
+							["total"] = 636.005094,
+							["friendlyfire"] = {
+							},
 							["damage_taken"] = 7619.005094,
 							["boss_fight_component"] = true,
 							["spells"] = {
@@ -2512,17 +2448,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["aID"] = "76292",
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1648311131,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1648311143,
 							["serial"] = "Creature-0-4235-1209-25977-76292-00003F3B4B",
-							["on_hold"] = false,
-						}, -- [12]
+							["classe"] = "PET",
+						}, -- [11]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.007334,
@@ -2541,34 +2476,34 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["last_event"] = 0,
-							["friendlyfire_total"] = 0,
+							["nome"] = "Solar Zealot",
+							["classe"] = "UNKNOW",
+							["aID"] = "",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.007334,
-							["classe"] = "UNKNOW",
+							["damage_taken"] = 16215.007334,
 							["monster"] = true,
 							["total"] = 0.007334,
-							["damage_taken"] = 16215.007334,
-							["dps_started"] = false,
+							["last_dps"] = 0,
+							["last_event"] = 0,
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "Solar Zealot",
+							["on_hold"] = false,
 							["end_time"] = 1648311146,
-							["friendlyfire"] = {
-							},
+							["dps_started"] = false,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1648311146,
 							["serial"] = "Vehicle-0-4235-1209-25977-76267-00003F3B3A",
-							["aID"] = "",
-						}, -- [13]
+							["friendlyfire_total"] = 0,
+						}, -- [12]
 					},
 				}, -- [1]
 				{
@@ -2586,12 +2521,11 @@ _detalhes_database = {
 								"Dreadstalker <Scolo-Lightbringer>", -- [2]
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "WARLOCK",
 							["totalover"] = 1492.004317,
 							["total_without_pet"] = 20.004317,
 							["total"] = 85.004317,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 266,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -2605,9 +2539,10 @@ _detalhes_database = {
 							},
 							["totalover_without_pet"] = 0.004317,
 							["healing_taken"] = 118.004317,
-							["spec"] = 266,
-							["end_time"] = 1648311146,
 							["last_event"] = 1648311122,
+							["end_time"] = 1648311146,
+							["targets_absorbs"] = {
+							},
 							["targets_overheal"] = {
 								["Chinilferil <Scolo-Lightbringer>"] = 5,
 								["Scolo-Lightbringer"] = 1487,
@@ -2636,9 +2571,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 7,
 										["n_curado"] = 20,
 										["totaldenied"] = 0,
+										["n_amt"] = 7,
 										["absorbed"] = 0,
 									},
 									[234153] = {
@@ -2661,9 +2596,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 3,
 										["n_curado"] = 0,
 										["totaldenied"] = 0,
+										["n_amt"] = 3,
 										["absorbed"] = 0,
 									},
 								},
@@ -2671,10 +2606,10 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["totaldenied"] = 0.004317,
-							["aID"] = "1388-08384D39",
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["classe"] = "WARLOCK",
+							["aID"] = "1388-08384D39",
 							["start_time"] = 1648311126,
 							["delay"] = 1648311122,
 							["boss_fight_component"] = true,
@@ -2688,7 +2623,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["aID"] = "Pet-0-4235-1209-25977-17252-0103A9D0D0",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 0.003233,
 							["total_without_pet"] = 22.003233,
 							["total"] = 22.003233,
@@ -2706,8 +2641,7 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.003233,
 							["healing_taken"] = 30.003233,
 							["end_time"] = 1648311146,
-							["targets_overheal"] = {
-							},
+							["boss_fight_component"] = true,
 							["ownerName"] = "Scolo-Lightbringer",
 							["nome"] = "Chinilferil <Scolo-Lightbringer>",
 							["spells"] = {
@@ -2731,23 +2665,24 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 2,
 										["n_curado"] = 22,
 										["totaldenied"] = 0,
+										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
-							["last_event"] = 1648311122,
-							["classe"] = "PET",
-							["totaldenied"] = 0.003233,
-							["custom"] = 0,
+							["targets_overheal"] = {
+							},
 							["tipo"] = 2,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "PET",
+							["custom"] = 0,
+							["last_event"] = 1648311122,
+							["totaldenied"] = 0.003233,
 							["start_time"] = 1648311140,
 							["delay"] = 1648311122,
-							["boss_fight_component"] = true,
+							["aID"] = "Pet-0-4235-1209-25977-17252-0103A9D0D0",
 						}, -- [2]
 						{
 							["flag_original"] = 1298,
@@ -2756,14 +2691,11 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "PALADIN",
 							["totalover"] = 9580.004606999999,
 							["total_without_pet"] = 18604.004607,
 							["total"] = 18604.004607,
-							["targets_absorbs"] = {
-								["Timewarrior-Ravencrest"] = 332,
-								["Xanthoros"] = 1216,
-							},
+							["spec"] = 65,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -2778,9 +2710,12 @@ _detalhes_database = {
 							},
 							["totalover_without_pet"] = 0.004607,
 							["healing_taken"] = 0.004607,
-							["spec"] = 65,
-							["end_time"] = 1648311146,
 							["last_event"] = 1648311146,
+							["end_time"] = 1648311146,
+							["targets_absorbs"] = {
+								["Timewarrior-Ravencrest"] = 332,
+								["Xanthoros"] = 1216,
+							},
 							["targets_overheal"] = {
 								["Shaazia-DefiasBrotherhood"] = 4540,
 								["Timewarrior-Ravencrest"] = 684,
@@ -2811,9 +2746,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 42,
 										["n_curado"] = 0,
 										["totaldenied"] = 0,
+										["n_amt"] = 42,
 										["absorbed"] = 0,
 									},
 									[325983] = {
@@ -2842,9 +2777,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 393,
-										["n_amt"] = 6,
 										["n_curado"] = 323,
 										["totaldenied"] = 0,
+										["n_amt"] = 6,
 										["absorbed"] = 0,
 									},
 									[25914] = {
@@ -2868,9 +2803,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 1417,
 										["c_curado"] = 3137,
-										["n_amt"] = 1,
 										["n_curado"] = 884,
 										["totaldenied"] = 0,
+										["n_amt"] = 1,
 										["absorbed"] = 0,
 									},
 									[82326] = {
@@ -2892,9 +2827,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 1,
 										["n_curado"] = 1428,
 										["totaldenied"] = 0,
+										["n_amt"] = 1,
 										["absorbed"] = 0,
 									},
 									[303380] = {
@@ -2919,9 +2854,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 455,
 										["c_curado"] = 614,
-										["n_amt"] = 10,
 										["n_curado"] = 450,
 										["totaldenied"] = 0,
+										["n_amt"] = 10,
 										["absorbed"] = 0,
 									},
 									[53652] = {
@@ -2944,9 +2879,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 6,
 										["n_curado"] = 778,
 										["totaldenied"] = 0,
+										["n_amt"] = 6,
 										["absorbed"] = 0,
 									},
 									[183811] = {
@@ -2970,9 +2905,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 77,
 										["c_curado"] = 1259,
-										["n_amt"] = 61,
 										["n_curado"] = 2456,
 										["totaldenied"] = 0,
+										["n_amt"] = 61,
 										["absorbed"] = 0,
 									},
 									[296330] = {
@@ -2995,9 +2930,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 2,
 										["n_curado"] = 0,
 										["totaldenied"] = 0,
+										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 									[85673] = {
@@ -3020,9 +2955,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 3560,
 										["c_curado"] = 3560,
-										["n_amt"] = 1,
 										["n_curado"] = 1774,
 										["totaldenied"] = 0,
+										["n_amt"] = 1,
 										["absorbed"] = 0,
 									},
 									[337824] = {
@@ -3047,9 +2982,9 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 6,
 										["n_curado"] = 1548,
 										["totaldenied"] = 0,
-										["n_amt"] = 6,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -3058,10 +2993,10 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["totaldenied"] = 0.004607,
-							["aID"] = "1096-05E8A18D",
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["classe"] = "PALADIN",
+							["aID"] = "1096-05E8A18D",
 							["start_time"] = 1648311083,
 							["delay"] = 0,
 							["boss_fight_component"] = true,
@@ -3095,63 +3030,11 @@ _detalhes_database = {
 							["healing_taken"] = 17958.004057,
 							["totaldenied"] = 0.004057,
 							["end_time"] = 1648311146,
-							["last_event"] = 1648311146,
 							["heal_enemy_amt"] = 0,
+							["aID"] = "1301-0A44C97F",
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
-									[774] = {
-										["c_amt"] = 3,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Xanthoros"] = 54,
-											["Shaazia-DefiasBrotherhood"] = 716,
-										},
-										["n_max"] = 87,
-										["targets"] = {
-											["Xanthoros"] = 434,
-											["Shaazia-DefiasBrotherhood"] = 0,
-										},
-										["n_min"] = 0,
-										["counter"] = 12,
-										["overheal"] = 770,
-										["total"] = 434,
-										["c_max"] = 0,
-										["id"] = 774,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_amt"] = 9,
-										["n_curado"] = 434,
-										["totaldenied"] = 0,
-										["absorbed"] = 0,
-									},
-									[8936] = {
-										["c_amt"] = 2,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Xanthoros"] = 60,
-										},
-										["n_max"] = 728,
-										["targets"] = {
-											["Xanthoros"] = 936,
-										},
-										["n_min"] = 28,
-										["counter"] = 8,
-										["overheal"] = 60,
-										["total"] = 936,
-										["c_max"] = 60,
-										["id"] = 8936,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 60,
-										["n_amt"] = 6,
-										["n_curado"] = 876,
-										["totaldenied"] = 0,
-										["absorbed"] = 0,
-									},
 									[291843] = {
 										["c_amt"] = 0,
 										["totalabsorb"] = 0,
@@ -3172,9 +3055,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 29,
 										["n_curado"] = 316,
 										["totaldenied"] = 0,
+										["n_amt"] = 29,
 										["absorbed"] = 0,
 									},
 									[227034] = {
@@ -3197,17 +3080,69 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 103,
 										["n_curado"] = 916,
 										["totaldenied"] = 0,
+										["n_amt"] = 103,
+										["absorbed"] = 0,
+									},
+									[774] = {
+										["c_amt"] = 3,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Xanthoros"] = 54,
+											["Shaazia-DefiasBrotherhood"] = 716,
+										},
+										["n_max"] = 87,
+										["targets"] = {
+											["Xanthoros"] = 434,
+											["Shaazia-DefiasBrotherhood"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 12,
+										["overheal"] = 770,
+										["total"] = 434,
+										["c_max"] = 0,
+										["id"] = 774,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 434,
+										["totaldenied"] = 0,
+										["n_amt"] = 9,
+										["absorbed"] = 0,
+									},
+									[8936] = {
+										["c_amt"] = 2,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Xanthoros"] = 60,
+										},
+										["n_max"] = 728,
+										["targets"] = {
+											["Xanthoros"] = 936,
+										},
+										["n_min"] = 28,
+										["counter"] = 8,
+										["overheal"] = 60,
+										["total"] = 936,
+										["c_max"] = 60,
+										["id"] = 8936,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 60,
+										["n_curado"] = 876,
+										["totaldenied"] = 0,
+										["n_amt"] = 6,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["aID"] = "1301-0A44C97F",
 							["spec"] = 104,
+							["last_event"] = 1648311146,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["nome"] = "Xanthoros",
@@ -3227,13 +3162,11 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "WARRIOR",
 							["totalover"] = 1099.007421,
 							["total_without_pet"] = 2222.007421,
 							["total"] = 2222.007421,
-							["targets_absorbs"] = {
-								["Timewarrior-Ravencrest"] = 395,
-							},
+							["spec"] = 72,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -3245,9 +3178,11 @@ _detalhes_database = {
 							},
 							["totalover_without_pet"] = 0.007421,
 							["healing_taken"] = 3710.007421,
-							["spec"] = 72,
-							["end_time"] = 1648311146,
 							["last_event"] = 1648311143,
+							["end_time"] = 1648311146,
+							["targets_absorbs"] = {
+								["Timewarrior-Ravencrest"] = 395,
+							},
 							["targets_overheal"] = {
 								["Timewarrior-Ravencrest"] = 1099,
 							},
@@ -3274,9 +3209,9 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 1,
 										["n_curado"] = 395,
 										["totaldenied"] = 0,
-										["n_amt"] = 1,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -3300,9 +3235,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 5,
 										["n_curado"] = 1159,
 										["totaldenied"] = 0,
+										["n_amt"] = 5,
 										["absorbed"] = 0,
 									},
 									[357945] = {
@@ -3324,9 +3259,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 2,
 										["n_curado"] = 668,
 										["totaldenied"] = 0,
+										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 								},
@@ -3334,10 +3269,10 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["totaldenied"] = 0.007421,
-							["aID"] = "1329-09C6E2DC",
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["classe"] = "WARRIOR",
+							["aID"] = "1329-09C6E2DC",
 							["start_time"] = 1648311121,
 							["delay"] = 1648311092,
 							["boss_fight_component"] = true,
@@ -3351,12 +3286,11 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "DEMONHUNTER",
 							["totalover"] = 8217.005317,
 							["total_without_pet"] = 308.005317,
 							["total"] = 308.005317,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 577,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -3368,40 +3302,16 @@ _detalhes_database = {
 							},
 							["totalover_without_pet"] = 0.005317,
 							["healing_taken"] = 1962.005317,
-							["spec"] = 577,
-							["end_time"] = 1648311146,
 							["last_event"] = 1648311133,
+							["end_time"] = 1648311146,
+							["targets_absorbs"] = {
+							},
 							["targets_overheal"] = {
 								["Illidaryr"] = 8217,
 							},
 							["nome"] = "Illidaryr",
 							["spells"] = {
 								["_ActorTable"] = {
-									[345423] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Illidaryr"] = 7403,
-										},
-										["n_max"] = 0,
-										["targets"] = {
-											["Illidaryr"] = 0,
-										},
-										["n_min"] = 0,
-										["counter"] = 116,
-										["overheal"] = 7403,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 345423,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_amt"] = 116,
-										["n_curado"] = 0,
-										["totaldenied"] = 0,
-										["absorbed"] = 0,
-									},
 									[143924] = {
 										["c_amt"] = 0,
 										["totalabsorb"] = 0,
@@ -3421,9 +3331,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 4,
 										["n_curado"] = 308,
 										["totaldenied"] = 0,
+										["n_amt"] = 4,
 										["absorbed"] = 0,
 									},
 									[269238] = {
@@ -3446,9 +3356,34 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 1,
 										["n_curado"] = 0,
 										["totaldenied"] = 0,
+										["n_amt"] = 1,
+										["absorbed"] = 0,
+									},
+									[345423] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Illidaryr"] = 7403,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Illidaryr"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 116,
+										["overheal"] = 7403,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 345423,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 116,
 										["absorbed"] = 0,
 									},
 								},
@@ -3456,10 +3391,10 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["totaldenied"] = 0.005317,
-							["aID"] = "1301-0878F932",
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["classe"] = "DEMONHUNTER",
+							["aID"] = "1301-0878F932",
 							["start_time"] = 1648311100,
 							["delay"] = 1648311133,
 							["boss_fight_component"] = true,
@@ -3471,7 +3406,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "PET",
+							["aID"] = "98035",
 							["totalover"] = 0.006798,
 							["total_without_pet"] = 43.006798,
 							["total"] = 43.006798,
@@ -3489,9 +3424,7 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.006798,
 							["healing_taken"] = 43.006798,
 							["end_time"] = 1648311146,
-							["healing_from"] = {
-								["Dreadstalker <Scolo-Lightbringer>"] = true,
-							},
+							["boss_fight_component"] = true,
 							["ownerName"] = "Scolo-Lightbringer",
 							["nome"] = "Dreadstalker <Scolo-Lightbringer>",
 							["spells"] = {
@@ -3515,27 +3448,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 4,
 										["n_curado"] = 43,
 										["totaldenied"] = 0,
+										["n_amt"] = 4,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
-							["tipo"] = 2,
-							["heal_enemy_amt"] = 0,
-							["totaldenied"] = 0.006798,
-							["custom"] = 0,
+							["healing_from"] = {
+								["Dreadstalker <Scolo-Lightbringer>"] = true,
+							},
 							["last_event"] = 1648311118,
-							["aID"] = "98035",
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.006798,
 							["start_time"] = 1648311140,
 							["delay"] = 1648311118,
-							["boss_fight_component"] = true,
+							["classe"] = "PET",
 						}, -- [7]
 						{
 							["flag_original"] = 1304,
-							["totalabsorb"] = 0.003047,
+							["totalabsorb"] = 0.008711,
 							["last_hps"] = 0,
 							["healing_from"] = {
 							},
@@ -3543,321 +3478,63 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["totalover_without_pet"] = 0.003047,
+							["totalover_without_pet"] = 0.008711,
 							["targets_overheal"] = {
-								["Novacx"] = 1570,
-								["Arianima"] = 1803,
-								["Fox"] = 2665,
-								["Mortalkombat"] = 2863,
-								["Pandapops-Chromaggus"] = 5145,
-								["Atomicca"] = 3351,
-								["Reinna-Stormscale"] = 2678,
+								["Ardglod-Stormscale"] = 4582,
 							},
 							["classe"] = "UNGROUPPLAYER",
-							["totalover"] = 20075.003047,
-							["total_without_pet"] = 0.003047,
-							["serial"] = "Player-1598-060F611B",
+							["totalover"] = 4582.008711,
+							["total_without_pet"] = 0.008711,
+							["aID"] = "2073-09C7F827",
 							["iniciar_hps"] = true,
-							["aID"] = "1598-060F611B",
-							["total"] = 0.003047,
 							["heal_enemy_amt"] = 0,
-							["timeMachine"] = 1,
-							["nome"] = "Pandapops-Chromaggus",
+							["total"] = 0.008711,
+							["delay"] = 1648386947,
+							["healing_taken"] = 0.008711,
+							["nome"] = "Ardglod-Stormscale",
 							["targets_absorbs"] = {
 							},
-							["start_time"] = 1648338461,
-							["healing_taken"] = 0.003047,
+							["tipo"] = 2,
+							["timeMachine"] = 1,
 							["heal_enemy"] = {
 							},
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
-									[191840] = {
-										["c_amt"] = 7,
+									[227034] = {
+										["c_amt"] = 0,
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
-											["Novacx"] = 1570,
-											["Arianima"] = 1803,
-											["Fox"] = 2665,
-											["Mortalkombat"] = 2863,
-											["Pandapops-Chromaggus"] = 5145,
-											["Atomicca"] = 3351,
-											["Reinna-Stormscale"] = 2678,
+											["Ardglod-Stormscale"] = 4582,
 										},
 										["n_max"] = 0,
 										["targets"] = {
-											["Novacx"] = 0,
-											["Arianima"] = 0,
-											["Fox"] = 0,
-											["Mortalkombat"] = 0,
-											["Pandapops-Chromaggus"] = 0,
-											["Atomicca"] = 0,
-											["Reinna-Stormscale"] = 0,
+											["Ardglod-Stormscale"] = 0,
 										},
 										["n_min"] = 0,
-										["counter"] = 62,
-										["overheal"] = 20075,
+										["counter"] = 61,
+										["overheal"] = 4582,
 										["total"] = 0,
 										["c_max"] = 0,
-										["id"] = 191840,
+										["id"] = 227034,
 										["targets_absorbs"] = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
+										["n_amt"] = 61,
 										["n_curado"] = 0,
 										["totaldenied"] = 0,
-										["n_amt"] = 55,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["custom"] = 0,
-							["last_event"] = 1648338498,
+							["last_event"] = 1648386947,
 							["on_hold"] = true,
-							["totaldenied"] = 0.003047,
-							["delay"] = 1648338498,
-							["tipo"] = 2,
+							["start_time"] = 1648386636,
+							["serial"] = "Player-2073-09C7F827",
+							["totaldenied"] = 0.008711,
 						}, -- [8]
-						{
-							["flag_original"] = 1304,
-							["totalabsorb"] = 0.003332,
-							["last_hps"] = 0,
-							["targets_overheal"] = {
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 0.003332,
-							["total_without_pet"] = 0.003332,
-							["healing_from"] = {
-							},
-							["aID"] = "1301-0BD385AC",
-							["totalover_without_pet"] = 0.003332,
-							["total"] = 0.003332,
-							["start_time"] = 0,
-							["healing_taken"] = 0.003332,
-							["nome"] = "Mortalkombat",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-								},
-							},
-							["classe"] = "UNGROUPPLAYER",
-							["serial"] = "Player-1301-0BD385AC",
-							["heal_enemy"] = {
-							},
-							["targets_absorbs"] = {
-							},
-							["custom"] = 0,
-							["tipo"] = 2,
-							["on_hold"] = false,
-							["totaldenied"] = 0.003332,
-							["delay"] = 0,
-							["last_event"] = 0,
-						}, -- [9]
-						{
-							["flag_original"] = 1304,
-							["totalabsorb"] = 0.00723,
-							["last_hps"] = 0,
-							["targets_overheal"] = {
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 0.00723,
-							["total_without_pet"] = 0.00723,
-							["healing_from"] = {
-							},
-							["aID"] = "1301-0BEBCFB4",
-							["totalover_without_pet"] = 0.00723,
-							["total"] = 0.00723,
-							["start_time"] = 0,
-							["healing_taken"] = 0.00723,
-							["nome"] = "Novacx",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-								},
-							},
-							["classe"] = "UNGROUPPLAYER",
-							["serial"] = "Player-1301-0BEBCFB4",
-							["heal_enemy"] = {
-							},
-							["targets_absorbs"] = {
-							},
-							["custom"] = 0,
-							["tipo"] = 2,
-							["on_hold"] = false,
-							["totaldenied"] = 0.00723,
-							["delay"] = 0,
-							["last_event"] = 0,
-						}, -- [10]
-						{
-							["flag_original"] = 1304,
-							["totalabsorb"] = 0.00438,
-							["last_hps"] = 0,
-							["targets_overheal"] = {
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 0.00438,
-							["total_without_pet"] = 0.00438,
-							["healing_from"] = {
-							},
-							["aID"] = "1301-0C2AA2C5",
-							["totalover_without_pet"] = 0.00438,
-							["total"] = 0.00438,
-							["start_time"] = 0,
-							["healing_taken"] = 0.00438,
-							["nome"] = "Arianima",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-								},
-							},
-							["classe"] = "UNGROUPPLAYER",
-							["serial"] = "Player-1301-0C2AA2C5",
-							["heal_enemy"] = {
-							},
-							["targets_absorbs"] = {
-							},
-							["custom"] = 0,
-							["tipo"] = 2,
-							["on_hold"] = false,
-							["totaldenied"] = 0.00438,
-							["delay"] = 0,
-							["last_event"] = 0,
-						}, -- [11]
-						{
-							["flag_original"] = 1304,
-							["totalabsorb"] = 0.006281,
-							["last_hps"] = 0,
-							["targets_overheal"] = {
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 0.006281,
-							["total_without_pet"] = 0.006281,
-							["healing_from"] = {
-							},
-							["aID"] = "2073-06D27B47",
-							["totalover_without_pet"] = 0.006281,
-							["total"] = 0.006281,
-							["start_time"] = 0,
-							["healing_taken"] = 0.006281,
-							["nome"] = "Reinna-Stormscale",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-								},
-							},
-							["classe"] = "UNGROUPPLAYER",
-							["serial"] = "Player-2073-06D27B47",
-							["heal_enemy"] = {
-							},
-							["targets_absorbs"] = {
-							},
-							["custom"] = 0,
-							["tipo"] = 2,
-							["on_hold"] = false,
-							["totaldenied"] = 0.006281,
-							["delay"] = 0,
-							["last_event"] = 0,
-						}, -- [12]
-						{
-							["flag_original"] = 1304,
-							["totalabsorb"] = 0.008167,
-							["last_hps"] = 0,
-							["targets_overheal"] = {
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 0.008167,
-							["total_without_pet"] = 0.008167,
-							["healing_from"] = {
-							},
-							["aID"] = "1301-0AD224E3",
-							["totalover_without_pet"] = 0.008167,
-							["total"] = 0.008167,
-							["start_time"] = 0,
-							["healing_taken"] = 0.008167,
-							["nome"] = "Atomicca",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-								},
-							},
-							["classe"] = "UNGROUPPLAYER",
-							["serial"] = "Player-1301-0AD224E3",
-							["heal_enemy"] = {
-							},
-							["targets_absorbs"] = {
-							},
-							["custom"] = 0,
-							["tipo"] = 2,
-							["on_hold"] = false,
-							["totaldenied"] = 0.008167,
-							["delay"] = 0,
-							["last_event"] = 0,
-						}, -- [13]
-						{
-							["flag_original"] = 4376,
-							["totalabsorb"] = 0.002852,
-							["last_hps"] = 0,
-							["targets_overheal"] = {
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 0.002852,
-							["total_without_pet"] = 0.002852,
-							["healing_from"] = {
-							},
-							["aID"] = "Pet-0-3774-0-17313-165189-0203E02AB3",
-							["totalover_without_pet"] = 0.002852,
-							["total"] = 0.002852,
-							["start_time"] = 0,
-							["healing_taken"] = 0.002852,
-							["nome"] = "Fox",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-								},
-							},
-							["classe"] = "PET",
-							["serial"] = "Pet-0-3774-0-17313-165189-0203E02AB3",
-							["heal_enemy"] = {
-							},
-							["targets_absorbs"] = {
-							},
-							["custom"] = 0,
-							["tipo"] = 2,
-							["on_hold"] = false,
-							["totaldenied"] = 0.002852,
-							["delay"] = 0,
-							["last_event"] = 0,
-						}, -- [14]
 					},
 				}, -- [2]
 				{
@@ -3877,7 +3554,7 @@ _detalhes_database = {
 							["passiveover"] = 0.005736,
 							["total"] = 522.7057387298928,
 							["totalover"] = 20.80573648875809,
-							["boss_fight_component"] = true,
+							["nome"] = "Timewarrior-Ravencrest",
 							["spells"] = {
 								["_ActorTable"] = {
 									[280735] = {
@@ -3975,13 +3652,13 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["spec"] = 72,
-							["tipo"] = 3,
 							["aID"] = "1329-09C6E2DC",
 							["last_event"] = 1648311148,
+							["tipo"] = 3,
 							["alternatepower"] = 0.005736,
 							["flag_original"] = 1298,
 							["serial"] = "Player-1329-09C6E2DC",
-							["nome"] = "Timewarrior-Ravencrest",
+							["boss_fight_component"] = true,
 						}, -- [1]
 						{
 							["received"] = 292.007819,
@@ -4010,15 +3687,6 @@ _detalhes_database = {
 										},
 										["counter"] = 5,
 									},
-									[17057] = {
-										["total"] = 25,
-										["id"] = 17057,
-										["totalover"] = 0,
-										["targets"] = {
-											["Xanthoros"] = 25,
-										},
-										["counter"] = 1,
-									},
 									[77758] = {
 										["total"] = 45,
 										["id"] = 77758,
@@ -4027,6 +3695,15 @@ _detalhes_database = {
 											["Xanthoros"] = 45,
 										},
 										["counter"] = 9,
+									},
+									[33917] = {
+										["total"] = 104,
+										["id"] = 33917,
+										["totalover"] = 0,
+										["targets"] = {
+											["Xanthoros"] = 104,
+										},
+										["counter"] = 8,
 									},
 									[195707] = {
 										["total"] = 78,
@@ -4037,14 +3714,14 @@ _detalhes_database = {
 										},
 										["counter"] = 26,
 									},
-									[33917] = {
-										["total"] = 104,
-										["id"] = 33917,
+									[17057] = {
+										["total"] = 25,
+										["id"] = 17057,
 										["totalover"] = 0,
 										["targets"] = {
-											["Xanthoros"] = 104,
+											["Xanthoros"] = 25,
 										},
-										["counter"] = 8,
+										["counter"] = 1,
 									},
 								},
 								["tipo"] = 7,
@@ -4079,9 +3756,9 @@ _detalhes_database = {
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["tipo"] = 3,
 							["aID"] = "1301-0878F932",
 							["alternatepower"] = 0.008073,
+							["tipo"] = 3,
 							["last_event"] = 1648311145,
 							["flag_original"] = 1298,
 							["spec"] = 577,
@@ -4108,9 +3785,9 @@ _detalhes_database = {
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["tipo"] = 3,
 							["aID"] = "1096-05E8A18D",
 							["alternatepower"] = 0.002383,
+							["tipo"] = 3,
 							["last_event"] = 1648311153,
 							["flag_original"] = 1298,
 							["spec"] = 65,
@@ -4137,9 +3814,9 @@ _detalhes_database = {
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["tipo"] = 3,
 							["aID"] = "1388-08384D39",
 							["alternatepower"] = 0.006151,
+							["tipo"] = 3,
 							["last_event"] = 1648311145,
 							["flag_original"] = 1298,
 							["spec"] = 266,
@@ -4296,17 +3973,6 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 2,
 									},
-									[304056] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 12,
-										["id"] = 304056,
-										["uptime"] = 66,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
 									[132403] = {
 										["counter"] = 0,
 										["actived"] = false,
@@ -4317,6 +3983,17 @@ _detalhes_database = {
 										["targets"] = {
 										},
 										["appliedamt"] = 4,
+									},
+									[304056] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 12,
+										["id"] = 304056,
+										["uptime"] = 66,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
 									},
 									[31884] = {
 										["counter"] = 0,
@@ -4373,13 +4050,13 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[324748] = {
+									[338788] = {
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 2,
-										["refreshamt"] = 1,
-										["id"] = 324748,
-										["uptime"] = 23,
+										["refreshamt"] = 0,
+										["id"] = 338788,
+										["uptime"] = 18,
 										["targets"] = {
 										},
 										["appliedamt"] = 2,
@@ -4406,13 +4083,13 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[338788] = {
+									[324748] = {
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 2,
-										["refreshamt"] = 0,
-										["id"] = 338788,
-										["uptime"] = 18,
+										["refreshamt"] = 1,
+										["id"] = 324748,
+										["uptime"] = 23,
 										["targets"] = {
 										},
 										["appliedamt"] = 2,
@@ -4420,6 +4097,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
+							["boss_fight_component"] = true,
+							["debuff_uptime"] = 232,
+							["cc_done_targets"] = {
+								["Solar Zealot"] = 1,
+							},
+							["cc_done"] = 1.0072,
+							["nome"] = "Shaazia-DefiasBrotherhood",
+							["spec"] = 65,
+							["grupo"] = true,
 							["spell_cast"] = {
 								[26573] = 6,
 								[24275] = 5,
@@ -4433,41 +4119,21 @@ _detalhes_database = {
 								[35395] = 13,
 								[324748] = 3,
 							},
-							["debuff_uptime"] = 232,
-							["tipo"] = 4,
-							["cc_done"] = 1.0072,
-							["boss_fight_component"] = true,
-							["spec"] = 65,
-							["grupo"] = true,
-							["cc_done_targets"] = {
-								["Solar Zealot"] = 1,
-							},
-							["classe"] = "PALADIN",
 							["pets"] = {
 							},
 							["last_event"] = 1648311146,
+							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
 							["debuff_uptime_targets"] = {
 							},
 							["serial"] = "Player-1096-05E8A18D",
-							["nome"] = "Shaazia-DefiasBrotherhood",
+							["classe"] = "PALADIN",
 						}, -- [1]
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
-									[345335] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 345335,
-										["uptime"] = 6,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
 									[295367] = {
 										["counter"] = 0,
 										["actived"] = false,
@@ -4479,13 +4145,13 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 4,
 									},
-									[323802] = {
+									[345335] = {
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 0,
 										["refreshamt"] = 0,
-										["id"] = 323802,
-										["uptime"] = 30,
+										["id"] = 345335,
+										["uptime"] = 6,
 										["targets"] = {
 										},
 										["appliedamt"] = 1,
@@ -4500,6 +4166,17 @@ _detalhes_database = {
 										["targets"] = {
 										},
 										["appliedamt"] = 4,
+									},
+									[323802] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 323802,
+										["uptime"] = 30,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
@@ -4567,17 +4244,6 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 2,
 									},
-									[258920] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 3,
-										["refreshamt"] = 0,
-										["id"] = 258920,
-										["uptime"] = 36,
-										["targets"] = {
-										},
-										["appliedamt"] = 3,
-									},
 									[273232] = {
 										["counter"] = 0,
 										["actived"] = false,
@@ -4585,6 +4251,17 @@ _detalhes_database = {
 										["refreshamt"] = 0,
 										["id"] = 273232,
 										["uptime"] = 28,
+										["targets"] = {
+										},
+										["appliedamt"] = 3,
+									},
+									[258920] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 3,
+										["refreshamt"] = 0,
+										["id"] = 258920,
+										["uptime"] = 36,
 										["targets"] = {
 										},
 										["appliedamt"] = 3,
@@ -4672,14 +4349,13 @@ _detalhes_database = {
 							["interrompeu_oque"] = {
 								[154055] = 1,
 							},
-							["classe"] = "DEMONHUNTER",
-							["debuff_uptime"] = 131,
-							["tipo"] = 4,
-							["nome"] = "Illidaryr",
-							["boss_fight_component"] = true,
-							["interrupt_targets"] = {
-								["Skyreach Shield Construct"] = 1,
+							["pets"] = {
 							},
+							["debuff_uptime"] = 131,
+							["classe"] = "DEMONHUNTER",
+							["nome"] = "Illidaryr",
+							["interrupt"] = 1.006163,
+							["spec"] = 577,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[201427] = 12,
@@ -4692,16 +4368,17 @@ _detalhes_database = {
 								[162243] = 17,
 								[258920] = 3,
 							},
-							["pets"] = {
-							},
 							["buff_uptime_targets"] = {
 							},
+							["tipo"] = 4,
 							["last_event"] = 1648311146,
 							["debuff_uptime_targets"] = {
 							},
-							["spec"] = 577,
+							["interrupt_targets"] = {
+								["Skyreach Shield Construct"] = 1,
+							},
 							["serial"] = "Player-1301-0878F932",
-							["interrupt"] = 1.006163,
+							["boss_fight_component"] = true,
 						}, -- [2]
 						{
 							["flag_original"] = 1047,
@@ -4806,8 +4483,9 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 40,
-							["tipo"] = 4,
-							["boss_fight_component"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["nome"] = "Scolo-Lightbringer",
 							["spec"] = 266,
 							["grupo"] = true,
 							["spell_cast"] = {
@@ -4820,10 +4498,9 @@ _detalhes_database = {
 								[105174] = 8,
 								[119914] = 1,
 							},
-							["debuff_uptime_targets"] = {
-							},
 							["classe"] = "WARLOCK",
 							["last_event"] = 1648311146,
+							["tipo"] = 4,
 							["pets"] = {
 								"Chinilferil <Scolo-Lightbringer>", -- [1]
 								"Wild Imp <Scolo-Lightbringer>", -- [2]
@@ -4831,7 +4508,7 @@ _detalhes_database = {
 							["buff_uptime_targets"] = {
 							},
 							["serial"] = "Player-1388-08384D39",
-							["nome"] = "Scolo-Lightbringer",
+							["boss_fight_component"] = true,
 						}, -- [3]
 						{
 							["flag_original"] = 1047,
@@ -4884,8 +4561,8 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["tipo"] = 4,
-							["spec"] = 72,
+							["nome"] = "Timewarrior-Ravencrest",
+							["boss_fight_component"] = true,
 							["cooldowns_defensive"] = 2.007754,
 							["pets"] = {
 							},
@@ -4978,16 +4655,16 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 2,
 									},
-									[46924] = {
+									[184362] = {
 										["counter"] = 0,
 										["actived"] = false,
-										["activedamt"] = 2,
+										["activedamt"] = 13,
 										["refreshamt"] = 0,
-										["id"] = 46924,
-										["uptime"] = 2,
+										["id"] = 184362,
+										["uptime"] = 40,
 										["targets"] = {
 										},
-										["appliedamt"] = 2,
+										["appliedamt"] = 13,
 									},
 									[107574] = {
 										["counter"] = 0,
@@ -5011,24 +4688,24 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 2,
 									},
-									[184362] = {
+									[46924] = {
 										["counter"] = 0,
 										["actived"] = false,
-										["activedamt"] = 13,
+										["activedamt"] = 2,
 										["refreshamt"] = 0,
-										["id"] = 184362,
-										["uptime"] = 40,
+										["id"] = 46924,
+										["uptime"] = 2,
 										["targets"] = {
 										},
-										["appliedamt"] = 13,
+										["appliedamt"] = 2,
 									},
-									[97463] = {
+									[184364] = {
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 1,
 										["refreshamt"] = 0,
-										["id"] = 97463,
-										["uptime"] = 13,
+										["id"] = 184364,
+										["uptime"] = 8,
 										["targets"] = {
 										},
 										["appliedamt"] = 1,
@@ -5044,13 +4721,13 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 2,
 									},
-									[184364] = {
+									[97463] = {
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 1,
 										["refreshamt"] = 0,
-										["id"] = 184364,
-										["uptime"] = 8,
+										["id"] = 97463,
+										["uptime"] = 13,
 										["targets"] = {
 										},
 										["appliedamt"] = 1,
@@ -5080,7 +4757,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["nome"] = "Timewarrior-Ravencrest",
+							["spec"] = 72,
 							["interrompeu_oque"] = {
 								[154396] = 1,
 							},
@@ -5088,7 +4765,7 @@ _detalhes_database = {
 							["debuff_uptime"] = 78,
 							["buff_uptime"] = 343,
 							["cc_done"] = 2.001515,
-							["debuff_uptime_targets"] = {
+							["buff_uptime_targets"] = {
 							},
 							["interrupt_targets"] = {
 								["High Sage Viryx"] = 1,
@@ -5118,9 +4795,9 @@ _detalhes_database = {
 								["Timewarrior-Ravencrest"] = 1,
 								["[*] raid wide cooldown"] = 1,
 							},
-							["interrupt"] = 1.003655,
 							["last_event"] = 1648311146,
-							["boss_fight_component"] = true,
+							["tipo"] = 4,
+							["interrupt"] = 1.003655,
 							["cc_done_targets"] = {
 								["Solar Zealot"] = 2,
 							},
@@ -5143,7 +4820,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["buff_uptime_targets"] = {
+							["debuff_uptime_targets"] = {
 							},
 						}, -- [4]
 						{
@@ -5220,18 +4897,30 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-1301-0A44C97F",
+							["boss_fight_component"] = true,
+							["cooldowns_defensive"] = 1.001804,
 							["pets"] = {
 							},
-							["cooldowns_defensive"] = 1.001804,
-							["buff_uptime"] = 394,
 							["last_cooldown"] = {
 								1648311114.018, -- [1]
 								22812, -- [2]
 							},
-							["tipo"] = 4,
+							["buff_uptime"] = 394,
 							["aID"] = "1301-0A44C97F",
-							["cooldowns_defensive_targets"] = {
-								["Xanthoros"] = 1,
+							["interrupt_spells"] = {
+								["_ActorTable"] = {
+									[93985] = {
+										["id"] = 93985,
+										["counter"] = 1,
+										["targets"] = {
+											["High Sage Viryx"] = 1,
+										},
+										["interrompeu_oque"] = {
+											[154396] = 1,
+										},
+									},
+								},
+								["tipo"] = 9,
 							},
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -5373,14 +5062,13 @@ _detalhes_database = {
 							["interrompeu_oque"] = {
 								[154396] = 1,
 							},
-							["interrupt"] = 1.002396,
-							["debuff_uptime"] = 168,
 							["classe"] = "DRUID",
+							["debuff_uptime"] = 168,
 							["nome"] = "Xanthoros",
-							["boss_fight_component"] = true,
-							["interrupt_targets"] = {
-								["High Sage Viryx"] = 1,
+							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
 							},
+							["spec"] = 104,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[77758] = 7,
@@ -5397,10 +5085,11 @@ _detalhes_database = {
 							},
 							["buff_uptime_targets"] = {
 							},
-							["spec"] = 104,
-							["last_event"] = 1648311146,
-							["debuff_uptime_targets"] = {
+							["interrupt_targets"] = {
+								["High Sage Viryx"] = 1,
 							},
+							["last_event"] = 1648311146,
+							["interrupt"] = 1.002396,
 							["isTank"] = true,
 							["cooldowns_defensive_spells"] = {
 								["_ActorTable"] = {
@@ -5414,20 +5103,8 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["interrupt_spells"] = {
-								["_ActorTable"] = {
-									[93985] = {
-										["id"] = 93985,
-										["counter"] = 1,
-										["targets"] = {
-											["High Sage Viryx"] = 1,
-										},
-										["interrompeu_oque"] = {
-											[154396] = 1,
-										},
-									},
-								},
-								["tipo"] = 9,
+							["cooldowns_defensive_targets"] = {
+								["Xanthoros"] = 1,
 							},
 						}, -- [5]
 						{
@@ -5480,10 +5157,10 @@ _detalhes_database = {
 							["debuff_uptime"] = 2,
 							["spellschool"] = 4,
 							["nome"] = "Lens Flare",
-							["last_event"] = 1648311127,
-							["serial"] = "Creature-0-4235-1209-25977-76285-00003F3807",
 							["aID"] = "76285",
+							["serial"] = "Creature-0-4235-1209-25977-76285-00003F3807",
 							["tipo"] = 4,
+							["last_event"] = 1648311127,
 							["damage_twin"] = "Arakkoa Magnifying Glass",
 							["debuff_uptime_targets"] = {
 								["Illidaryr"] = {
@@ -5528,17 +5205,17 @@ _detalhes_database = {
 						}, -- [9]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["boss_fight_component"] = true,
 							["aID"] = "76266",
 							["spell_cast"] = {
 								[154396] = 1,
 							},
 							["nome"] = "High Sage Viryx",
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-4235-1209-25977-76266-00003F3807",
 							["flag_original"] = 2632,
 						}, -- [10]
@@ -5573,8 +5250,8 @@ _detalhes_database = {
 					["n"] = 1,
 				},
 				["totals"] = {
-					182381, -- [1]
-					23821, -- [2]
+					178706.98866, -- [1]
+					23820.964711, -- [2]
 					{
 						814.7000027298927, -- [1]
 						[0] = 0,
@@ -5632,6 +5309,58 @@ _detalhes_database = {
 				["data_inicio"] = "18:11:21",
 				["end_time"] = 7090.895,
 				["combat_id"] = 15,
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Shaazia-DefiasBrotherhood"] = 23906.008663,
+							["Illidaryr"] = 52264.003263,
+							["Timewarrior-Ravencrest"] = 38803.002228,
+							["Xanthoros"] = 15346.006141,
+							["Scolo-Lightbringer"] = 21859.008296,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Shaazia-DefiasBrotherhood"] = 18604.004607,
+							["Timewarrior-Ravencrest"] = 2222.007421,
+							["Illidaryr"] = 308.005317,
+							["Xanthoros"] = 2602.004057,
+							["Scolo-Lightbringer"] = 85.004317,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["overall_added"] = true,
+				["contra"] = "High Sage Viryx",
+				["frags"] = {
+					["Skyreach Shield Construct"] = 1,
+					["Solar Zealot"] = 2,
+					["High Sage Viryx"] = 1,
+					["Arakkoa Magnifying Glass Focus"] = 1,
+				},
+				["is_boss"] = {
+					["diff_string"] = "Timewalking",
+					["index"] = 1,
+					["zone"] = "Skyreach",
+					["encounter"] = "High Sage Viryx",
+					["mapid"] = 1209,
+					["try_number"] = 1,
+					["name"] = "High Sage Viryx",
+					["diff"] = 2,
+					["ej_instance_id"] = 476,
+					["id"] = 1701,
+					["killed"] = true,
+				},
+				["combat_counter"] = 2888,
+				["CombatSkillCache"] = {
+				},
 				["player_last_events"] = {
 					["Xanthoros"] = {
 						{
@@ -5711,62 +5440,10 @@ _detalhes_database = {
 						["n"] = 2,
 					},
 				},
-				["overall_added"] = true,
-				["contra"] = "High Sage Viryx",
-				["spells_cast_timeline"] = {
-				},
-				["is_boss"] = {
-					["diff_string"] = "Timewalking",
-					["index"] = 1,
-					["zone"] = "Skyreach",
-					["encounter"] = "High Sage Viryx",
-					["mapid"] = 1209,
-					["try_number"] = 1,
-					["name"] = "High Sage Viryx",
-					["diff"] = 2,
-					["ej_instance_id"] = 476,
-					["id"] = 1701,
-					["killed"] = true,
-				},
-				["combat_counter"] = 2888,
-				["CombatSkillCache"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Shaazia-DefiasBrotherhood"] = 23906.008663,
-							["Illidaryr"] = 52264.003263,
-							["Timewarrior-Ravencrest"] = 38803.002228,
-							["Xanthoros"] = 15346.006141,
-							["Scolo-Lightbringer"] = 21859.008296,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Shaazia-DefiasBrotherhood"] = 18604.004607,
-							["Timewarrior-Ravencrest"] = 2222.007421,
-							["Illidaryr"] = 308.005317,
-							["Xanthoros"] = 2602.004057,
-							["Scolo-Lightbringer"] = 85.004317,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
 				["start_time"] = 7024.515,
 				["TimeData"] = {
 				},
-				["frags"] = {
-					["Skyreach Shield Construct"] = 1,
-					["Solar Zealot"] = 2,
-					["High Sage Viryx"] = 1,
-					["Arakkoa Magnifying Glass Focus"] = 1,
+				["spells_cast_timeline"] = {
 				},
 			}, -- [1]
 			{
@@ -5786,22 +5463,22 @@ _detalhes_database = {
 								["Rukhran"] = 40268,
 								["Solar Flare"] = 471,
 							},
-							["last_dps"] = 467.7375868791479,
+							["custom"] = 0,
 							["pets"] = {
 							},
-							["damage_taken"] = 14297.008342,
-							["total"] = 40739.008342,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 467.7375868791479,
+							["end_time"] = 1648310926,
+							["classe"] = "WARRIOR",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 40739.008342,
-							["tipo"] = 1,
-							["classe"] = "WARRIOR",
+							["damage_taken"] = 14297.008342,
+							["friendlyfire_total"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1648310926,
+							["total"] = 40739.008342,
 							["delay"] = 1648310897,
 							["aID"] = "1329-09C6E2DC",
-							["boss_fight_component"] = true,
+							["nome"] = "Timewarrior-Ravencrest",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -6176,8 +5853,8 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["custom"] = 0,
-							["nome"] = "Timewarrior-Ravencrest",
+							["tipo"] = 1,
+							["boss_fight_component"] = true,
 							["spec"] = 72,
 							["colocacao"] = 1,
 							["last_event"] = 1648310926,
@@ -6198,22 +5875,22 @@ _detalhes_database = {
 								["Rukhran"] = 35432,
 								["Solar Flare"] = 5009,
 							},
-							["last_dps"] = 464.3161150657882,
+							["custom"] = 0,
 							["pets"] = {
 							},
-							["damage_taken"] = 21354.00499,
-							["total"] = 40441.00499,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 464.3161150657882,
+							["end_time"] = 1648310926,
+							["classe"] = "DEMONHUNTER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 40441.00499,
-							["tipo"] = 1,
-							["classe"] = "DEMONHUNTER",
+							["damage_taken"] = 21354.00499,
+							["friendlyfire_total"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1648310926,
+							["total"] = 40441.00499,
 							["delay"] = 1648310864,
 							["aID"] = "1301-0878F932",
-							["boss_fight_component"] = true,
+							["nome"] = "Illidaryr",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -6529,35 +6206,6 @@ _detalhes_database = {
 										},
 										["spellschool"] = 127,
 									},
-									[295367] = {
-										["c_amt"] = 7,
-										["b_amt"] = 0,
-										["c_dmg"] = 1927,
-										["g_amt"] = 0,
-										["n_max"] = 161,
-										["targets"] = {
-											["Rukhran"] = 3845,
-											["Solar Flare"] = 1284,
-										},
-										["n_dmg"] = 3202,
-										["n_min"] = 160,
-										["g_dmg"] = 0,
-										["counter"] = 28,
-										["total"] = 5129,
-										["c_max"] = 322,
-										["id"] = 295367,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 21,
-										["extra"] = {
-										},
-										["spellschool"] = 4,
-									},
 									[162243] = {
 										["c_amt"] = 4,
 										["b_amt"] = 0,
@@ -6586,6 +6234,35 @@ _detalhes_database = {
 										["extra"] = {
 										},
 										["spellschool"] = 1,
+									},
+									[295367] = {
+										["c_amt"] = 7,
+										["b_amt"] = 0,
+										["c_dmg"] = 1927,
+										["g_amt"] = 0,
+										["n_max"] = 161,
+										["targets"] = {
+											["Rukhran"] = 3845,
+											["Solar Flare"] = 1284,
+										},
+										["n_dmg"] = 3202,
+										["n_min"] = 160,
+										["g_dmg"] = 0,
+										["counter"] = 28,
+										["total"] = 5129,
+										["c_max"] = 322,
+										["id"] = 295367,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 21,
+										["extra"] = {
+										},
+										["spellschool"] = 4,
 									},
 									[199552] = {
 										["c_amt"] = 0,
@@ -6619,8 +6296,8 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["custom"] = 0,
-							["nome"] = "Illidaryr",
+							["tipo"] = 1,
+							["boss_fight_component"] = true,
 							["spec"] = 577,
 							["colocacao"] = 2,
 							["last_event"] = 1648310926,
@@ -6642,22 +6319,22 @@ _detalhes_database = {
 								["Rukhran"] = 22306,
 								["Solar Flare"] = 1214,
 							},
-							["last_dps"] = 270.0407413029003,
+							["custom"] = 0,
 							["pets"] = {
 							},
-							["damage_taken"] = 18569.008486,
-							["total"] = 23520.008486,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 270.0407413029003,
+							["end_time"] = 1648310926,
+							["classe"] = "PALADIN",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 23520.008486,
-							["tipo"] = 1,
-							["classe"] = "PALADIN",
+							["damage_taken"] = 18569.008486,
+							["friendlyfire_total"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1648310926,
+							["total"] = 23520.008486,
 							["delay"] = 1648310863,
 							["aID"] = "1096-05E8A18D",
-							["boss_fight_component"] = true,
+							["nome"] = "Shaazia-DefiasBrotherhood",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -6802,6 +6479,34 @@ _detalhes_database = {
 										},
 										["spellschool"] = 1,
 									},
+									[275773] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 3517,
+										["g_amt"] = 0,
+										["n_max"] = 609,
+										["targets"] = {
+											["Rukhran"] = 4728,
+										},
+										["n_dmg"] = 1211,
+										["n_min"] = 602,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 4728,
+										["c_max"] = 1270,
+										["id"] = 275773,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 1009,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
 									[53600] = {
 										["c_amt"] = 1,
 										["b_amt"] = 0,
@@ -6827,34 +6532,6 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 4,
-										["extra"] = {
-										},
-										["spellschool"] = 2,
-									},
-									[275773] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 3517,
-										["g_amt"] = 0,
-										["n_max"] = 609,
-										["targets"] = {
-											["Rukhran"] = 4728,
-										},
-										["n_dmg"] = 1211,
-										["n_min"] = 602,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 4728,
-										["c_max"] = 1270,
-										["id"] = 275773,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["c_min"] = 1009,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
 										["extra"] = {
 										},
 										["spellschool"] = 2,
@@ -6975,8 +6652,8 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["custom"] = 0,
-							["nome"] = "Shaazia-DefiasBrotherhood",
+							["tipo"] = 1,
+							["boss_fight_component"] = true,
 							["spec"] = 65,
 							["colocacao"] = 3,
 							["last_event"] = 1648310926,
@@ -6998,26 +6675,26 @@ _detalhes_database = {
 								["Rukhran"] = 9574,
 								["Solar Flare"] = 3557,
 							},
-							["last_dps"] = 150.7612584904361,
+							["custom"] = 0,
 							["pets"] = {
 								"Chinilferil <Scolo-Lightbringer>", -- [1]
 								"Felguard <Scolo-Lightbringer>", -- [2]
 								"Dreadstalker <Scolo-Lightbringer>", -- [3]
 								"Wild Imp <Scolo-Lightbringer>", -- [4]
 							},
-							["damage_taken"] = 18657.004092,
-							["total"] = 13131.004092,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 150.7612584904361,
+							["end_time"] = 1648310926,
+							["classe"] = "WARLOCK",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2590.004092,
-							["tipo"] = 1,
-							["classe"] = "WARLOCK",
+							["damage_taken"] = 18657.004092,
+							["friendlyfire_total"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1648310926,
+							["total"] = 13131.004092,
 							["delay"] = 1648310912,
 							["aID"] = "1388-08384D39",
-							["boss_fight_component"] = true,
+							["nome"] = "Scolo-Lightbringer",
 							["spells"] = {
 								["_ActorTable"] = {
 									[86040] = {
@@ -7167,8 +6844,8 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["custom"] = 0,
-							["nome"] = "Scolo-Lightbringer",
+							["tipo"] = 1,
+							["boss_fight_component"] = true,
 							["spec"] = 266,
 							["colocacao"] = 4,
 							["last_event"] = 1648310926,
@@ -7206,8 +6883,8 @@ _detalhes_database = {
 							},
 							["nome"] = "Xanthoros",
 							["end_time"] = 1648310926,
-							["last_event"] = 1648310926,
-							["last_dps"] = 124.6757536568005,
+							["damage_taken"] = 24934.008792,
+							["aID"] = "1301-0A44C97F",
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7555,8 +7232,8 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["aID"] = "1301-0A44C97F",
-							["damage_taken"] = 24934.008792,
+							["last_event"] = 1648310926,
+							["last_dps"] = 124.6757536568005,
 							["custom"] = 0,
 							["tipo"] = 1,
 							["avoidance"] = {
@@ -7638,9 +7315,9 @@ _detalhes_database = {
 								["Chinilferil <Scolo-Lightbringer>"] = true,
 								["Xanthoros"] = true,
 								["Dreadstalker <Scolo-Lightbringer>"] = true,
-								["Timewarrior-Ravencrest"] = true,
 								["Felguard <Scolo-Lightbringer>"] = true,
 								["Illidaryr"] = true,
+								["Timewarrior-Ravencrest"] = true,
 								["Wild Imp <Scolo-Lightbringer>"] = true,
 								["Scolo-Lightbringer"] = true,
 							},
@@ -7655,19 +7332,18 @@ _detalhes_database = {
 							["delay"] = 1648310901,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["nome"] = "Rukhran",
+							["friendlyfire_total"] = 0,
+							["aID"] = "76143",
 							["raid_targets"] = {
 								8439, -- [1]
 							},
 							["total_without_pet"] = 63062.004556,
-							["friendlyfire_total"] = 0,
 							["monster"] = true,
+							["dps_started"] = false,
 							["total"] = 63062.004556,
-							["damage_taken"] = 117995.004556,
-							["friendlyfire"] = {
-							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7904,15 +7580,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "Rukhran",
+							["on_hold"] = false,
 							["end_time"] = 1648310926,
-							["aID"] = "76143",
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
 							["last_event"] = 1648310926,
-							["on_hold"] = false,
+							["damage_taken"] = 117995.004556,
 							["start_time"] = 1648310851,
 							["serial"] = "Creature-0-4235-1209-25977-76143-00003F39E0",
-							["dps_started"] = false,
+							["classe"] = "UNKNOW",
 						}, -- [6]
 						{
 							["flag_original"] = 2632,
@@ -7936,19 +7613,18 @@ _detalhes_database = {
 							["delay"] = 1648310911,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["nome"] = "Solar Flare",
+							["friendlyfire_total"] = 0,
+							["aID"] = "79505",
 							["raid_targets"] = {
 								4912, -- [1]
 							},
 							["total_without_pet"] = 22146.001483,
-							["friendlyfire_total"] = 0,
 							["monster"] = true,
+							["dps_started"] = false,
 							["total"] = 22146.001483,
-							["damage_taken"] = 10695.001483,
-							["friendlyfire"] = {
-							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -8018,90 +7694,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "Solar Flare",
-							["end_time"] = 1648310926,
-							["aID"] = "79505",
-							["custom"] = 0,
-							["last_event"] = 1648310923,
 							["on_hold"] = false,
-							["start_time"] = 1648310912,
-							["serial"] = "Creature-0-4235-1209-25977-79505-0002BF39E0",
-							["dps_started"] = false,
-						}, -- [7]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.006205,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Timewarrior-Ravencrest"] = 4232,
-								["Shaazia-DefiasBrotherhood"] = 5218,
-								["Xanthoros"] = 4794,
-								["Scolo-Lightbringer"] = 2233,
-							},
-							["delay"] = 0,
-							["spellicon"] = 1029584,
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-								5218, -- [1]
-							},
-							["total_without_pet"] = 16477.006205,
-							["dps_started"] = false,
-							["monster"] = true,
-							["end_time"] = 1648310990,
-							["damage_taken"] = 0.006205,
-							["friendlyfire_total"] = 0,
-							["nome"] = "[*] Pierce",
-							["spells"] = {
-								["_ActorTable"] = {
-									[153563] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1136,
-										["targets"] = {
-											["Timewarrior-Ravencrest"] = 4232,
-											["Shaazia-DefiasBrotherhood"] = 5218,
-											["Xanthoros"] = 4794,
-											["Scolo-Lightbringer"] = 2233,
-										},
-										["n_dmg"] = 16477,
-										["n_min"] = 869,
-										["g_dmg"] = 0,
-										["counter"] = 16,
-										["total"] = 16477,
-										["c_max"] = 0,
-										["id"] = 153563,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 5273,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 5,
-										["n_amt"] = 16,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["aID"] = "",
+							["end_time"] = 1648310926,
 							["friendlyfire"] = {
 							},
-							["total"] = 16477.006205,
 							["custom"] = 0,
-							["last_event"] = 1648310989,
-							["on_hold"] = false,
-							["start_time"] = 1648310953,
-							["serial"] = "",
-							["pets"] = {
-							},
-						}, -- [8]
+							["last_event"] = 1648310923,
+							["damage_taken"] = 10695.001483,
+							["start_time"] = 1648310912,
+							["serial"] = "Creature-0-4235-1209-25977-79505-0002BF39E0",
+							["classe"] = "UNKNOW",
+						}, -- [7]
 						{
 							["flag_original"] = 8466,
 							["totalabsorbed"] = 0.001235,
@@ -8115,19 +7718,19 @@ _detalhes_database = {
 							["delay"] = 1648310897,
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
-							["tipo"] = 1,
-							["aID"] = "98035",
+							["boss_fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 5206.001235,
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["dps_started"] = false,
 							["end_time"] = 1648310926,
-							["damage_taken"] = 118.001235,
+							["friendlyfire"] = {
+							},
 							["ownerName"] = "Scolo-Lightbringer",
-							["boss_fight_component"] = true,
+							["nome"] = "Dreadstalker <Scolo-Lightbringer>",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -8191,16 +7794,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "Dreadstalker <Scolo-Lightbringer>",
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["total"] = 5206.001235,
 							["custom"] = 0,
 							["last_event"] = 1648310926,
-							["on_hold"] = false,
+							["damage_taken"] = 118.001235,
 							["start_time"] = 1648310899,
 							["serial"] = "Creature-0-4235-1209-25977-98035-00003F3A3E",
-							["classe"] = "PET",
-						}, -- [9]
+							["aID"] = "98035",
+						}, -- [8]
 						{
 							["flag_original"] = 4370,
 							["totalabsorbed"] = 0.004079,
@@ -8213,19 +7816,19 @@ _detalhes_database = {
 							["delay"] = 1648310873,
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
-							["tipo"] = 1,
-							["aID"] = "17252",
+							["boss_fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2675.004079,
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["dps_started"] = false,
 							["end_time"] = 1648310926,
-							["damage_taken"] = 3756.004079,
+							["friendlyfire"] = {
+							},
 							["ownerName"] = "Scolo-Lightbringer",
-							["boss_fight_component"] = true,
+							["nome"] = "Chinilferil <Scolo-Lightbringer>",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -8343,16 +7946,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "Chinilferil <Scolo-Lightbringer>",
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["total"] = 2675.004079,
 							["custom"] = 0,
 							["last_event"] = 1648310873,
-							["on_hold"] = false,
+							["damage_taken"] = 3756.004079,
 							["start_time"] = 1648310898,
 							["serial"] = "Creature-0-4235-1209-25977-17252-00003F3A04",
-							["classe"] = "PET",
-						}, -- [10]
+							["aID"] = "17252",
+						}, -- [9]
 						{
 							["flag_original"] = 8466,
 							["totalabsorbed"] = 0.006849,
@@ -8364,19 +7967,19 @@ _detalhes_database = {
 							["delay"] = 1648310863,
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
-							["tipo"] = 1,
-							["aID"] = "17252",
+							["boss_fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2322.006849,
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["dps_started"] = false,
 							["end_time"] = 1648310926,
-							["damage_taken"] = 0.006849,
+							["friendlyfire"] = {
+							},
 							["ownerName"] = "Scolo-Lightbringer",
-							["boss_fight_component"] = true,
+							["nome"] = "Felguard <Scolo-Lightbringer>",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -8495,16 +8098,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "Felguard <Scolo-Lightbringer>",
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["total"] = 2322.006849,
 							["custom"] = 0,
 							["last_event"] = 1648310863,
-							["on_hold"] = false,
+							["damage_taken"] = 0.006849,
 							["start_time"] = 1648310909,
 							["serial"] = "Creature-0-4235-1209-25977-17252-00003F3A3F",
-							["classe"] = "PET",
-						}, -- [11]
+							["aID"] = "17252",
+						}, -- [10]
 						{
 							["flag_original"] = 8466,
 							["totalabsorbed"] = 0.005024,
@@ -8516,19 +8119,19 @@ _detalhes_database = {
 							["delay"] = 1648310868,
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
-							["tipo"] = 1,
-							["aID"] = "55659",
+							["boss_fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 338.005024,
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["dps_started"] = false,
 							["end_time"] = 1648310926,
-							["damage_taken"] = 0.005024,
+							["friendlyfire"] = {
+							},
 							["ownerName"] = "Scolo-Lightbringer",
-							["boss_fight_component"] = true,
+							["nome"] = "Wild Imp <Scolo-Lightbringer>",
 							["spells"] = {
 								["_ActorTable"] = {
 									[104318] = {
@@ -8562,16 +8165,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "Wild Imp <Scolo-Lightbringer>",
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["total"] = 338.005024,
 							["custom"] = 0,
 							["last_event"] = 1648310868,
-							["on_hold"] = false,
+							["damage_taken"] = 0.005024,
 							["start_time"] = 1648310916,
 							["serial"] = "Creature-0-4235-1209-25977-55659-00003F3A47",
-							["classe"] = "PET",
-						}, -- [12]
+							["aID"] = "55659",
+						}, -- [11]
 					},
 				}, -- [1]
 				{
@@ -8586,17 +8189,11 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "PALADIN",
 							["totalover"] = 31699.003339,
 							["total_without_pet"] = 64376.003339,
 							["total"] = 64376.003339,
-							["targets_absorbs"] = {
-								["Shaazia-DefiasBrotherhood"] = 2867,
-								["Illidaryr"] = 690,
-								["Timewarrior-Ravencrest"] = 620,
-								["Xanthoros"] = 3179,
-								["Scolo-Lightbringer"] = 652,
-							},
+							["spec"] = 65,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -8612,9 +8209,15 @@ _detalhes_database = {
 							},
 							["totalover_without_pet"] = 0.003339,
 							["healing_taken"] = 12864.003339,
-							["spec"] = 65,
-							["end_time"] = 1648310926,
 							["last_event"] = 1648310926,
+							["end_time"] = 1648310926,
+							["targets_absorbs"] = {
+								["Shaazia-DefiasBrotherhood"] = 2867,
+								["Illidaryr"] = 690,
+								["Timewarrior-Ravencrest"] = 620,
+								["Xanthoros"] = 3179,
+								["Scolo-Lightbringer"] = 652,
+							},
 							["targets_overheal"] = {
 								["Shaazia-DefiasBrotherhood"] = 6540,
 								["Illidaryr"] = 2206,
@@ -8645,9 +8248,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 46,
 										["n_curado"] = 1001,
 										["totaldenied"] = 0,
+										["n_amt"] = 46,
 										["absorbed"] = 0,
 									},
 									[325983] = {
@@ -8677,9 +8280,117 @@ _detalhes_database = {
 										},
 										["c_min"] = 412,
 										["c_curado"] = 3282,
-										["n_amt"] = 23,
 										["n_curado"] = 3346,
 										["totaldenied"] = 0,
+										["n_amt"] = 23,
+										["absorbed"] = 0,
+									},
+									[225311] = {
+										["c_amt"] = 1,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Illidaryr"] = 648,
+											["Shaazia-DefiasBrotherhood"] = 1336,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Illidaryr"] = 0,
+											["Shaazia-DefiasBrotherhood"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 2,
+										["overheal"] = 1984,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 225311,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 1,
+										["absorbed"] = 0,
+									},
+									[25914] = {
+										["c_amt"] = 11,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Xanthoros"] = 2629,
+											["Scolo-Lightbringer"] = 105,
+										},
+										["n_max"] = 989,
+										["targets"] = {
+											["Shaazia-DefiasBrotherhood"] = 4404,
+											["Illidaryr"] = 4748,
+											["Timewarrior-Ravencrest"] = 1554,
+											["Xanthoros"] = 4471,
+											["Scolo-Lightbringer"] = 7013,
+										},
+										["n_min"] = 753,
+										["counter"] = 17,
+										["overheal"] = 2734,
+										["total"] = 22190,
+										["c_max"] = 2042,
+										["id"] = 25914,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 1730,
+										["c_curado"] = 17151,
+										["n_curado"] = 5039,
+										["totaldenied"] = 0,
+										["n_amt"] = 6,
+										["absorbed"] = 0,
+									},
+									[296330] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Shaazia-DefiasBrotherhood"] = 1275,
+										},
+										["n_max"] = 425,
+										["targets"] = {
+											["Shaazia-DefiasBrotherhood"] = 425,
+										},
+										["n_min"] = 425,
+										["counter"] = 4,
+										["overheal"] = 1275,
+										["total"] = 425,
+										["c_max"] = 0,
+										["id"] = 296330,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 425,
+										["totaldenied"] = 0,
+										["n_amt"] = 4,
+										["absorbed"] = 0,
+									},
+									[19750] = {
+										["c_amt"] = 1,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Shaazia-DefiasBrotherhood"] = 1128,
+										},
+										["n_max"] = 1637,
+										["targets"] = {
+											["Scolo-Lightbringer"] = 1637,
+											["Shaazia-DefiasBrotherhood"] = 1695,
+										},
+										["n_min"] = 1637,
+										["counter"] = 2,
+										["overheal"] = 1128,
+										["total"] = 3332,
+										["c_max"] = 1695,
+										["id"] = 19750,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 1695,
+										["c_curado"] = 1695,
+										["n_curado"] = 1637,
+										["totaldenied"] = 0,
+										["n_amt"] = 1,
 										["absorbed"] = 0,
 									},
 									[303380] = {
@@ -8708,168 +8419,38 @@ _detalhes_database = {
 										},
 										["c_min"] = 429,
 										["c_curado"] = 1746,
-										["n_amt"] = 26,
 										["n_curado"] = 2117,
 										["totaldenied"] = 0,
+										["n_amt"] = 26,
 										["absorbed"] = 0,
 									},
-									[25914] = {
-										["c_amt"] = 11,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Xanthoros"] = 2629,
-											["Scolo-Lightbringer"] = 105,
-										},
-										["n_max"] = 989,
-										["targets"] = {
-											["Shaazia-DefiasBrotherhood"] = 4404,
-											["Illidaryr"] = 4748,
-											["Timewarrior-Ravencrest"] = 1554,
-											["Xanthoros"] = 4471,
-											["Scolo-Lightbringer"] = 7013,
-										},
-										["n_min"] = 753,
-										["counter"] = 17,
-										["overheal"] = 2734,
-										["total"] = 22190,
-										["c_max"] = 2042,
-										["id"] = 25914,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 1730,
-										["c_curado"] = 17151,
-										["n_amt"] = 6,
-										["n_curado"] = 5039,
-										["totaldenied"] = 0,
-										["absorbed"] = 0,
-									},
-									[225311] = {
+									[85673] = {
 										["c_amt"] = 1,
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
-											["Illidaryr"] = 648,
-											["Shaazia-DefiasBrotherhood"] = 1336,
+											["Illidaryr"] = 408,
+											["Xanthoros"] = 2289,
 										},
-										["n_max"] = 0,
+										["n_max"] = 2054,
 										["targets"] = {
-											["Illidaryr"] = 0,
-											["Shaazia-DefiasBrotherhood"] = 0,
+											["Timewarrior-Ravencrest"] = 2054,
+											["Illidaryr"] = 3660,
+											["Xanthoros"] = 1656,
+											["Scolo-Lightbringer"] = 1640,
 										},
-										["n_min"] = 0,
-										["counter"] = 2,
-										["overheal"] = 1984,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 225311,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_amt"] = 1,
-										["n_curado"] = 0,
-										["totaldenied"] = 0,
-										["absorbed"] = 0,
-									},
-									[53652] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Xanthoros"] = 12578,
-										},
-										["n_max"] = 1021,
-										["targets"] = {
-											["Xanthoros"] = 4311,
-										},
-										["n_min"] = 57,
-										["counter"] = 43,
-										["overheal"] = 12578,
-										["total"] = 4311,
-										["c_max"] = 0,
-										["id"] = 53652,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_amt"] = 43,
-										["n_curado"] = 4311,
-										["totaldenied"] = 0,
-										["absorbed"] = 0,
-									},
-									[296330] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Shaazia-DefiasBrotherhood"] = 1275,
-										},
-										["n_max"] = 425,
-										["targets"] = {
-											["Shaazia-DefiasBrotherhood"] = 425,
-										},
-										["n_min"] = 425,
-										["counter"] = 4,
-										["overheal"] = 1275,
-										["total"] = 425,
-										["c_max"] = 0,
-										["id"] = 296330,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_amt"] = 4,
-										["n_curado"] = 425,
-										["totaldenied"] = 0,
-										["absorbed"] = 0,
-									},
-									[19750] = {
-										["c_amt"] = 1,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Shaazia-DefiasBrotherhood"] = 1128,
-										},
-										["n_max"] = 1637,
-										["targets"] = {
-											["Scolo-Lightbringer"] = 1637,
-											["Shaazia-DefiasBrotherhood"] = 1695,
-										},
-										["n_min"] = 1637,
-										["counter"] = 2,
-										["overheal"] = 1128,
-										["total"] = 3332,
-										["c_max"] = 1695,
-										["id"] = 19750,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 1695,
-										["c_curado"] = 1695,
-										["n_amt"] = 1,
-										["n_curado"] = 1637,
-										["totaldenied"] = 0,
-										["absorbed"] = 0,
-									},
-									[338788] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 1483,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 444,
-										["targets"] = {
-											["Shaazia-DefiasBrotherhood"] = 1483,
-										},
-										["n_min"] = 88,
+										["n_min"] = 1640,
 										["counter"] = 5,
-										["overheal"] = 0,
-										["total"] = 1483,
-										["c_max"] = 0,
-										["id"] = 338788,
+										["overheal"] = 2697,
+										["total"] = 9010,
+										["c_max"] = 1656,
+										["id"] = 85673,
 										["targets_absorbs"] = {
-											["Shaazia-DefiasBrotherhood"] = 1483,
 										},
-										["c_curado"] = 0,
-										["c_min"] = 0,
-										["n_curado"] = 1483,
+										["c_min"] = 1656,
+										["c_curado"] = 1656,
+										["n_curado"] = 7354,
 										["totaldenied"] = 0,
-										["n_amt"] = 5,
-										["is_shield"] = true,
+										["n_amt"] = 4,
 										["absorbed"] = 0,
 									},
 									[183811] = {
@@ -8898,9 +8479,60 @@ _detalhes_database = {
 										},
 										["c_min"] = 80,
 										["c_curado"] = 2814,
-										["n_amt"] = 67,
 										["n_curado"] = 2794,
 										["totaldenied"] = 0,
+										["n_amt"] = 67,
+										["absorbed"] = 0,
+									},
+									[338788] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 1483,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 444,
+										["targets"] = {
+											["Shaazia-DefiasBrotherhood"] = 1483,
+										},
+										["n_min"] = 88,
+										["counter"] = 5,
+										["overheal"] = 0,
+										["total"] = 1483,
+										["c_max"] = 0,
+										["id"] = 338788,
+										["targets_absorbs"] = {
+											["Shaazia-DefiasBrotherhood"] = 1483,
+										},
+										["c_curado"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 5,
+										["n_curado"] = 1483,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[53652] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Xanthoros"] = 12578,
+										},
+										["n_max"] = 1021,
+										["targets"] = {
+											["Xanthoros"] = 4311,
+										},
+										["n_min"] = 57,
+										["counter"] = 43,
+										["overheal"] = 12578,
+										["total"] = 4311,
+										["c_max"] = 0,
+										["id"] = 53652,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 4311,
+										["totaldenied"] = 0,
+										["n_amt"] = 43,
 										["absorbed"] = 0,
 									},
 									[337824] = {
@@ -8931,39 +8563,10 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 21,
 										["n_curado"] = 6525,
 										["totaldenied"] = 0,
-										["n_amt"] = 21,
 										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-									[85673] = {
-										["c_amt"] = 1,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Illidaryr"] = 408,
-											["Xanthoros"] = 2289,
-										},
-										["n_max"] = 2054,
-										["targets"] = {
-											["Timewarrior-Ravencrest"] = 2054,
-											["Illidaryr"] = 3660,
-											["Xanthoros"] = 1656,
-											["Scolo-Lightbringer"] = 1640,
-										},
-										["n_min"] = 1640,
-										["counter"] = 5,
-										["overheal"] = 2697,
-										["total"] = 9010,
-										["c_max"] = 1656,
-										["id"] = 85673,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 1656,
-										["c_curado"] = 1656,
-										["n_amt"] = 4,
-										["n_curado"] = 7354,
-										["totaldenied"] = 0,
 										["absorbed"] = 0,
 									},
 								},
@@ -8971,10 +8574,10 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["totaldenied"] = 0.003339,
-							["aID"] = "1096-05E8A18D",
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["classe"] = "PALADIN",
+							["aID"] = "1096-05E8A18D",
 							["start_time"] = 1648310839,
 							["delay"] = 0,
 							["boss_fight_component"] = true,
@@ -9007,8 +8610,8 @@ _detalhes_database = {
 							["healing_taken"] = 18700.002814,
 							["totaldenied"] = 0.002814,
 							["end_time"] = 1648310926,
-							["last_event"] = 1648310926,
 							["heal_enemy_amt"] = 0,
+							["aID"] = "1301-0A44C97F",
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -9032,9 +8635,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 121,
 										["n_curado"] = 889,
 										["totaldenied"] = 0,
+										["n_amt"] = 121,
 										["absorbed"] = 0,
 									},
 									[291843] = {
@@ -9057,9 +8660,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 30,
 										["n_curado"] = 279,
 										["totaldenied"] = 0,
+										["n_amt"] = 30,
 										["absorbed"] = 0,
 									},
 									[774] = {
@@ -9082,17 +8685,17 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 5,
 										["n_curado"] = 190,
 										["totaldenied"] = 0,
+										["n_amt"] = 5,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["aID"] = "1301-0A44C97F",
 							["spec"] = 104,
+							["last_event"] = 1648310926,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["nome"] = "Xanthoros",
@@ -9112,13 +8715,11 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "DEMONHUNTER",
 							["totalover"] = 2852.008807,
 							["total_without_pet"] = 7052.008807,
 							["total"] = 7052.008807,
-							["targets_absorbs"] = {
-								["Illidaryr"] = 1005,
-							},
+							["spec"] = 577,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -9130,40 +8731,17 @@ _detalhes_database = {
 							},
 							["totalover_without_pet"] = 0.008807,
 							["healing_taken"] = 21354.008807,
-							["spec"] = 577,
-							["end_time"] = 1648310926,
 							["last_event"] = 1648310916,
+							["end_time"] = 1648310926,
+							["targets_absorbs"] = {
+								["Illidaryr"] = 1005,
+							},
 							["targets_overheal"] = {
 								["Illidaryr"] = 2852,
 							},
 							["nome"] = "Illidaryr",
 							["spells"] = {
 								["_ActorTable"] = {
-									[345423] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Illidaryr"] = 2786,
-										},
-										["n_max"] = 214,
-										["targets"] = {
-											["Illidaryr"] = 2743,
-										},
-										["n_min"] = 16,
-										["counter"] = 66,
-										["overheal"] = 2786,
-										["total"] = 2743,
-										["c_max"] = 0,
-										["id"] = 345423,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_amt"] = 66,
-										["n_curado"] = 2743,
-										["totaldenied"] = 0,
-										["absorbed"] = 0,
-									},
 									[303390] = {
 										["c_amt"] = 0,
 										["totalabsorb"] = 1005,
@@ -9184,9 +8762,9 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 1,
 										["n_curado"] = 1005,
 										["totaldenied"] = 0,
-										["n_amt"] = 1,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -9210,9 +8788,34 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 25,
 										["n_curado"] = 3304,
 										["totaldenied"] = 0,
+										["n_amt"] = 25,
+										["absorbed"] = 0,
+									},
+									[345423] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Illidaryr"] = 2786,
+										},
+										["n_max"] = 214,
+										["targets"] = {
+											["Illidaryr"] = 2743,
+										},
+										["n_min"] = 16,
+										["counter"] = 66,
+										["overheal"] = 2786,
+										["total"] = 2743,
+										["c_max"] = 0,
+										["id"] = 345423,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 2743,
+										["totaldenied"] = 0,
+										["n_amt"] = 66,
 										["absorbed"] = 0,
 									},
 								},
@@ -9220,10 +8823,10 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["totaldenied"] = 0.008807,
-							["aID"] = "1301-0878F932",
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["classe"] = "DEMONHUNTER",
+							["aID"] = "1301-0878F932",
 							["start_time"] = 1648310882,
 							["delay"] = 1648310916,
 							["boss_fight_component"] = true,
@@ -9239,14 +8842,11 @@ _detalhes_database = {
 								"Dreadstalker <Scolo-Lightbringer>", -- [2]
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "WARLOCK",
 							["totalover"] = 784.002109,
 							["total_without_pet"] = 4112.002109,
 							["total"] = 4138.002109,
-							["targets_absorbs"] = {
-								["Scolo-Lightbringer"] = 1972,
-								["Chinilferil <Scolo-Lightbringer>"] = 453,
-							},
+							["spec"] = 266,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -9260,9 +8860,12 @@ _detalhes_database = {
 							},
 							["totalover_without_pet"] = 0.002109,
 							["healing_taken"] = 15389.002109,
-							["spec"] = 266,
-							["end_time"] = 1648310926,
 							["last_event"] = 1648310911,
+							["end_time"] = 1648310926,
+							["targets_absorbs"] = {
+								["Scolo-Lightbringer"] = 1972,
+								["Chinilferil <Scolo-Lightbringer>"] = 453,
+							},
 							["targets_overheal"] = {
 								["Scolo-Lightbringer"] = 784,
 							},
@@ -9289,9 +8892,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 15,
 										["n_curado"] = 92,
 										["totaldenied"] = 0,
+										["n_amt"] = 15,
 										["absorbed"] = 0,
 									},
 									[108416] = {
@@ -9315,9 +8918,9 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 2,
 										["n_curado"] = 1390,
 										["totaldenied"] = 0,
-										["n_amt"] = 2,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -9340,9 +8943,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 2,
 										["n_curado"] = 13,
 										["totaldenied"] = 0,
+										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 									[108366] = {
@@ -9367,9 +8970,9 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 19,
 										["n_curado"] = 1035,
 										["totaldenied"] = 0,
-										["n_amt"] = 19,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -9393,9 +8996,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 1,
 										["n_curado"] = 1582,
 										["totaldenied"] = 0,
+										["n_amt"] = 1,
 										["absorbed"] = 0,
 									},
 								},
@@ -9403,10 +9006,10 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["totaldenied"] = 0.002109,
-							["aID"] = "1388-08384D39",
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["classe"] = "WARLOCK",
+							["aID"] = "1388-08384D39",
 							["start_time"] = 1648310883,
 							["delay"] = 1648310911,
 							["boss_fight_component"] = true,
@@ -9418,7 +9021,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "PET",
+							["aID"] = "17252",
 							["totalover"] = 0.005304,
 							["total_without_pet"] = 24.005304,
 							["total"] = 24.005304,
@@ -9436,10 +9039,7 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.005304,
 							["healing_taken"] = 536.005304,
 							["end_time"] = 1648310926,
-							["healing_from"] = {
-								["Scolo-Lightbringer"] = true,
-								["Chinilferil <Scolo-Lightbringer>"] = true,
-							},
+							["boss_fight_component"] = true,
 							["ownerName"] = "Scolo-Lightbringer",
 							["nome"] = "Chinilferil <Scolo-Lightbringer>",
 							["spells"] = {
@@ -9463,23 +9063,26 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 3,
 										["n_curado"] = 24,
 										["totaldenied"] = 0,
+										["n_amt"] = 3,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
-							["tipo"] = 2,
-							["heal_enemy_amt"] = 0,
-							["totaldenied"] = 0.005304,
-							["custom"] = 0,
+							["healing_from"] = {
+								["Scolo-Lightbringer"] = true,
+								["Chinilferil <Scolo-Lightbringer>"] = true,
+							},
 							["last_event"] = 1648310872,
-							["aID"] = "17252",
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.005304,
 							["start_time"] = 1648310915,
 							["delay"] = 1648310872,
-							["boss_fight_component"] = true,
+							["classe"] = "PET",
 						}, -- [5]
 						{
 							["flag_original"] = 1298,
@@ -9490,12 +9093,11 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "WARRIOR",
 							["totalover"] = 0.003366,
 							["total_without_pet"] = 1754.003366,
 							["total"] = 1754.003366,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 72,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -9507,9 +9109,10 @@ _detalhes_database = {
 							},
 							["totalover_without_pet"] = 0.003366,
 							["healing_taken"] = 9833.003366,
-							["spec"] = 72,
-							["end_time"] = 1648310926,
 							["last_event"] = 1648310923,
+							["end_time"] = 1648310926,
+							["targets_absorbs"] = {
+							},
 							["targets_overheal"] = {
 							},
 							["nome"] = "Timewarrior-Ravencrest",
@@ -9534,9 +9137,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 4,
 										["n_curado"] = 1368,
 										["totaldenied"] = 0,
+										["n_amt"] = 4,
 										["absorbed"] = 0,
 									},
 									[117313] = {
@@ -9558,9 +9161,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 2,
 										["n_curado"] = 386,
 										["totaldenied"] = 0,
+										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 								},
@@ -9568,10 +9171,10 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["totaldenied"] = 0.003366,
-							["aID"] = "1329-09C6E2DC",
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["classe"] = "WARRIOR",
+							["aID"] = "1329-09C6E2DC",
 							["start_time"] = 1648310921,
 							["delay"] = 1648310907,
 							["boss_fight_component"] = true,
@@ -9583,7 +9186,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "PET",
+							["aID"] = "98035",
 							["totalover"] = 0.005637,
 							["total_without_pet"] = 2.005637,
 							["total"] = 2.005637,
@@ -9601,9 +9204,7 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.005637,
 							["healing_taken"] = 2.005637,
 							["end_time"] = 1648310926,
-							["healing_from"] = {
-								["Dreadstalker <Scolo-Lightbringer>"] = true,
-							},
+							["boss_fight_component"] = true,
 							["ownerName"] = "Scolo-Lightbringer",
 							["nome"] = "Dreadstalker <Scolo-Lightbringer>",
 							["spells"] = {
@@ -9627,23 +9228,25 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 2,
 										["n_curado"] = 2,
 										["totaldenied"] = 0,
+										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
-							["tipo"] = 2,
-							["heal_enemy_amt"] = 0,
-							["totaldenied"] = 0.005637,
-							["custom"] = 0,
+							["healing_from"] = {
+								["Dreadstalker <Scolo-Lightbringer>"] = true,
+							},
 							["last_event"] = 1648310896,
-							["aID"] = "98035",
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.005637,
 							["start_time"] = 1648310924,
 							["delay"] = 1648310896,
-							["boss_fight_component"] = true,
+							["classe"] = "PET",
 						}, -- [7]
 					},
 				}, -- [2]
@@ -9687,15 +9290,6 @@ _detalhes_database = {
 										},
 										["counter"] = 1,
 									},
-									[77758] = {
-										["total"] = 40,
-										["id"] = 77758,
-										["totalover"] = 0,
-										["targets"] = {
-											["Xanthoros"] = 40,
-										},
-										["counter"] = 8,
-									},
 									[17057] = {
 										["total"] = 50,
 										["id"] = 17057,
@@ -9704,6 +9298,15 @@ _detalhes_database = {
 											["Xanthoros"] = 50,
 										},
 										["counter"] = 2,
+									},
+									[33917] = {
+										["total"] = 106,
+										["id"] = 33917,
+										["totalover"] = 0,
+										["targets"] = {
+											["Xanthoros"] = 106,
+										},
+										["counter"] = 9,
 									},
 									[195707] = {
 										["total"] = 42,
@@ -9714,14 +9317,14 @@ _detalhes_database = {
 										},
 										["counter"] = 14,
 									},
-									[33917] = {
-										["total"] = 106,
-										["id"] = 33917,
+									[77758] = {
+										["total"] = 40,
+										["id"] = 77758,
 										["totalover"] = 0,
 										["targets"] = {
-											["Xanthoros"] = 106,
+											["Xanthoros"] = 40,
 										},
-										["counter"] = 9,
+										["counter"] = 8,
 									},
 								},
 								["tipo"] = 7,
@@ -9749,7 +9352,7 @@ _detalhes_database = {
 							["passiveover"] = 0.003886,
 							["total"] = 597.0038864172325,
 							["totalover"] = 18.90388609536743,
-							["boss_fight_component"] = true,
+							["nome"] = "Timewarrior-Ravencrest",
 							["spells"] = {
 								["_ActorTable"] = {
 									[85288] = {
@@ -9770,15 +9373,6 @@ _detalhes_database = {
 										},
 										["counter"] = 9,
 									},
-									[23881] = {
-										["total"] = 88,
-										["id"] = 23881,
-										["totalover"] = 16,
-										["targets"] = {
-											["Timewarrior-Ravencrest"] = 88,
-										},
-										["counter"] = 9,
-									},
 									[100] = {
 										["total"] = 60,
 										["id"] = 100,
@@ -9787,6 +9381,15 @@ _detalhes_database = {
 											["Timewarrior-Ravencrest"] = 60,
 										},
 										["counter"] = 3,
+									},
+									[23881] = {
+										["total"] = 88,
+										["id"] = 23881,
+										["totalover"] = 16,
+										["targets"] = {
+											["Timewarrior-Ravencrest"] = 88,
+										},
+										["counter"] = 9,
 									},
 									[307871] = {
 										["total"] = 50,
@@ -9820,13 +9423,13 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["spec"] = 72,
-							["tipo"] = 3,
 							["aID"] = "1329-09C6E2DC",
 							["last_event"] = 1648310926,
+							["tipo"] = 3,
 							["alternatepower"] = 0.003886,
 							["flag_original"] = 1298,
 							["serial"] = "Player-1329-09C6E2DC",
-							["nome"] = "Timewarrior-Ravencrest",
+							["boss_fight_component"] = true,
 						}, -- [2]
 						{
 							["received"] = 0.005316,
@@ -9848,9 +9451,9 @@ _detalhes_database = {
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["tipo"] = 3,
 							["aID"] = "1301-0878F932",
 							["alternatepower"] = 0.005316,
+							["tipo"] = 3,
 							["last_event"] = 1648310916,
 							["flag_original"] = 1298,
 							["spec"] = 577,
@@ -9877,9 +9480,9 @@ _detalhes_database = {
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["tipo"] = 3,
 							["aID"] = "1096-05E8A18D",
 							["alternatepower"] = 0.003391,
+							["tipo"] = 3,
 							["last_event"] = 1648310986,
 							["flag_original"] = 1298,
 							["spec"] = 65,
@@ -9906,9 +9509,9 @@ _detalhes_database = {
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["tipo"] = 3,
 							["aID"] = "1388-08384D39",
 							["alternatepower"] = 0.007932,
+							["tipo"] = 3,
 							["last_event"] = 1648310922,
 							["flag_original"] = 1298,
 							["spec"] = 266,
@@ -10123,17 +9726,6 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[333943] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 2,
-										["refreshamt"] = 1,
-										["id"] = 333943,
-										["uptime"] = 13,
-										["targets"] = {
-										},
-										["appliedamt"] = 2,
-									},
 									[93805] = {
 										["counter"] = 0,
 										["actived"] = false,
@@ -10144,6 +9736,17 @@ _detalhes_database = {
 										["targets"] = {
 										},
 										["appliedamt"] = 1,
+									},
+									[333943] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 1,
+										["id"] = 333943,
+										["uptime"] = 13,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
 									},
 									[303344] = {
 										["counter"] = 0,
@@ -10260,31 +9863,31 @@ _detalhes_database = {
 							},
 							["debuff_uptime"] = 234,
 							["serial"] = "Player-1096-05E8A18D",
-							["tipo"] = 4,
-							["boss_fight_component"] = true,
+							["classe"] = "PALADIN",
+							["nome"] = "Shaazia-DefiasBrotherhood",
 							["spec"] = 65,
 							["grupo"] = true,
 							["spell_cast"] = {
-								[35395] = 9,
-								[19750] = 2,
+								[31884] = 1,
+								[190784] = 1,
 								[26573] = 4,
 								[85222] = 1,
 								[275773] = 5,
 								[24275] = 6,
-								[31884] = 1,
+								[35395] = 9,
 								[20473] = 11,
-								[85673] = 5,
+								[19750] = 2,
 								[31821] = 1,
-								[190784] = 1,
-								[53600] = 4,
+								[85673] = 5,
+								[324748] = 5,
 								[53563] = 1,
 								[304971] = 1,
-								[324748] = 5,
+								[53600] = 4,
 							},
-							["classe"] = "PALADIN",
 							["pets"] = {
 							},
 							["last_event"] = 1648310926,
+							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
 							["debuff_uptime_targets"] = {
@@ -10301,7 +9904,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["nome"] = "Shaazia-DefiasBrotherhood",
+							["boss_fight_component"] = true,
 						}, -- [1]
 						{
 							["flag_original"] = 1047,
@@ -10389,16 +9992,16 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 2,
 									},
-									[258920] = {
+									[273232] = {
 										["counter"] = 0,
 										["actived"] = false,
-										["activedamt"] = 3,
+										["activedamt"] = 2,
 										["refreshamt"] = 0,
-										["id"] = 258920,
-										["uptime"] = 30,
+										["id"] = 273232,
+										["uptime"] = 24,
 										["targets"] = {
 										},
-										["appliedamt"] = 3,
+										["appliedamt"] = 2,
 									},
 									[93795] = {
 										["counter"] = 0,
@@ -10444,16 +10047,16 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[273232] = {
+									[258920] = {
 										["counter"] = 0,
 										["actived"] = false,
-										["activedamt"] = 2,
+										["activedamt"] = 3,
 										["refreshamt"] = 0,
-										["id"] = 273232,
-										["uptime"] = 24,
+										["id"] = 258920,
+										["uptime"] = 30,
 										["targets"] = {
 										},
-										["appliedamt"] = 2,
+										["appliedamt"] = 3,
 									},
 									[279902] = {
 										["counter"] = 0,
@@ -10549,8 +10152,8 @@ _detalhes_database = {
 							},
 							["debuff_uptime"] = 221,
 							["serial"] = "Player-1301-0878F932",
-							["tipo"] = 4,
-							["boss_fight_component"] = true,
+							["classe"] = "DEMONHUNTER",
+							["nome"] = "Illidaryr",
 							["spec"] = 577,
 							["grupo"] = true,
 							["spell_cast"] = {
@@ -10558,20 +10161,20 @@ _detalhes_database = {
 								[323639] = 1,
 								[198013] = 2,
 								[198589] = 1,
-								[323802] = 1,
 								[209693] = 1,
+								[196718] = 1,
 								[188499] = 1,
 								[195072] = 5,
 								[162794] = 8,
 								[131347] = 4,
 								[162243] = 15,
 								[258920] = 2,
-								[196718] = 1,
+								[323802] = 1,
 							},
-							["classe"] = "DEMONHUNTER",
 							["pets"] = {
 							},
 							["last_event"] = 1648310926,
+							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
 							["debuff_uptime_targets"] = {
@@ -10595,7 +10198,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["nome"] = "Illidaryr",
+							["boss_fight_component"] = true,
 						}, -- [2]
 						{
 							["flag_original"] = 1047,
@@ -10660,17 +10263,16 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 2,
 									},
-									[108446] = {
-										["activedamt"] = 2,
-										["id"] = 108446,
+									[72221] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 72221,
+										["uptime"] = 87,
 										["targets"] = {
 										},
-										["actived_at"] = 1648310939,
-										["uptime"] = 0,
-										["counter"] = 0,
-										["refreshamt"] = 0,
-										["actived"] = true,
-										["appliedamt"] = 2,
+										["appliedamt"] = 1,
 									},
 									[256374] = {
 										["counter"] = 0,
@@ -10683,16 +10285,17 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 2,
 									},
-									[72221] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 72221,
-										["uptime"] = 87,
+									[108446] = {
+										["activedamt"] = 2,
+										["id"] = 108446,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["actived_at"] = 1648310939,
+										["uptime"] = 0,
+										["counter"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["appliedamt"] = 2,
 									},
 									[108366] = {
 										["counter"] = 0,
@@ -10721,29 +10324,29 @@ _detalhes_database = {
 							},
 							["debuff_uptime"] = 27,
 							["serial"] = "Player-1388-08384D39",
-							["tipo"] = 4,
-							["boss_fight_component"] = true,
+							["classe"] = "WARLOCK",
+							["nome"] = "Scolo-Lightbringer",
 							["spec"] = 266,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[111898] = 1,
 								[6262] = 1,
-								[108416] = 1,
-								[104316] = 3,
 								[333889] = 1,
+								[104316] = 3,
+								[108416] = 1,
 								[686] = 4,
-								[264178] = 5,
 								[105174] = 2,
+								[264178] = 5,
 								[20707] = 1,
 								[5782] = 2,
 							},
-							["classe"] = "WARLOCK",
 							["pets"] = {
 								"Chinilferil <Scolo-Lightbringer>", -- [1]
 								"Felguard <Scolo-Lightbringer>", -- [2]
 								"Wild Imp <Scolo-Lightbringer>", -- [3]
 							},
 							["last_event"] = 1648310939,
+							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
 							["debuff_uptime_targets"] = {
@@ -10760,7 +10363,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["nome"] = "Scolo-Lightbringer",
+							["boss_fight_component"] = true,
 						}, -- [3]
 						{
 							["flag_original"] = 1047,
@@ -10942,6 +10545,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
+							["boss_fight_component"] = true,
+							["debuff_uptime"] = 79,
+							["cc_done_targets"] = {
+								["Solar Flare"] = 2,
+							},
+							["cc_done"] = 2.005451,
+							["nome"] = "Timewarrior-Ravencrest",
+							["spec"] = 72,
+							["grupo"] = true,
 							["spell_cast"] = {
 								[280735] = 5,
 								[85288] = 8,
@@ -10957,25 +10569,16 @@ _detalhes_database = {
 								[46924] = 1,
 								[52174] = 1,
 							},
-							["debuff_uptime"] = 79,
-							["tipo"] = 4,
-							["cc_done"] = 2.005451,
-							["boss_fight_component"] = true,
-							["spec"] = 72,
-							["grupo"] = true,
-							["cc_done_targets"] = {
-								["Solar Flare"] = 2,
-							},
-							["classe"] = "WARRIOR",
 							["pets"] = {
 							},
 							["last_event"] = 1648310926,
+							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
 							["debuff_uptime_targets"] = {
 							},
 							["serial"] = "Player-1329-09C6E2DC",
-							["nome"] = "Timewarrior-Ravencrest",
+							["classe"] = "WARRIOR",
 						}, -- [4]
 						{
 							["flag_original"] = 1047,
@@ -11041,27 +10644,27 @@ _detalhes_database = {
 							},
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
-									[22812] = {
+									[155835] = {
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 2,
 										["refreshamt"] = 0,
-										["id"] = 22812,
-										["uptime"] = 24,
+										["id"] = 155835,
+										["uptime"] = 16,
 										["targets"] = {
 										},
 										["appliedamt"] = 2,
 									},
-									[310143] = {
+									[291843] = {
 										["counter"] = 0,
 										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 310143,
-										["uptime"] = 9,
+										["activedamt"] = 5,
+										["refreshamt"] = 16,
+										["id"] = 291843,
+										["uptime"] = 61,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["appliedamt"] = 5,
 									},
 									[335152] = {
 										["counter"] = 0,
@@ -11074,13 +10677,13 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[155835] = {
+									[22812] = {
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 2,
 										["refreshamt"] = 0,
-										["id"] = 155835,
-										["uptime"] = 16,
+										["id"] = 22812,
+										["uptime"] = 24,
 										["targets"] = {
 										},
 										["appliedamt"] = 2,
@@ -11195,32 +10798,33 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[291843] = {
+									[310143] = {
 										["counter"] = 0,
 										["actived"] = false,
-										["activedamt"] = 5,
-										["refreshamt"] = 16,
-										["id"] = 291843,
-										["uptime"] = 61,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 310143,
+										["uptime"] = 9,
 										["targets"] = {
 										},
-										["appliedamt"] = 5,
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["nome"] = "Xanthoros",
 							["debuff_uptime"] = 141,
-							["tipo"] = 4,
-							["serial"] = "Player-1301-0A44C97F",
 							["boss_fight_component"] = true,
+							["serial"] = "Player-1301-0A44C97F",
+							["debuff_uptime_targets"] = {
+							},
 							["spec"] = 104,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[77758] = 7,
 								[310143] = 1,
-								[22812] = 2,
 								[155835] = 2,
+								[339] = 1,
 								[50334] = 1,
 								[323764] = 1,
 								[192081] = 4,
@@ -11231,11 +10835,11 @@ _detalhes_database = {
 								[16979] = 1,
 								[8921] = 1,
 								[213771] = 11,
-								[339] = 1,
+								[22812] = 2,
 							},
-							["classe"] = "DRUID",
 							["pets"] = {
 							},
+							["tipo"] = 4,
 							["last_event"] = 1648310926,
 							["buff_uptime_targets"] = {
 							},
@@ -11259,8 +10863,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["debuff_uptime_targets"] = {
-							},
+							["classe"] = "DRUID",
 						}, -- [5]
 						{
 							["flag_original"] = 4370,
@@ -11302,7 +10905,8 @@ _detalhes_database = {
 						}, -- [7]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["boss_fight_component"] = true,
 							["aID"] = "76143",
 							["spell_cast"] = {
@@ -11312,10 +10916,9 @@ _detalhes_database = {
 								[153896] = 2,
 							},
 							["nome"] = "Rukhran",
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-4235-1209-25977-76143-00003F39E0",
 							["flag_original"] = 68168,
 						}, -- [8]
@@ -11334,10 +10937,10 @@ _detalhes_database = {
 							["debuff_uptime"] = 10,
 							["spellschool"] = 1,
 							["nome"] = "Pierced Armor",
-							["last_event"] = 1648310918,
-							["serial"] = "Creature-0-4235-1209-25977-76143-00003F39E0",
 							["aID"] = "76143",
+							["serial"] = "Creature-0-4235-1209-25977-76143-00003F39E0",
 							["tipo"] = 4,
+							["last_event"] = 1648310918,
 							["damage_twin"] = "Rukhran",
 							["debuff_uptime_targets"] = {
 								["Illidaryr"] = {
@@ -11374,10 +10977,10 @@ _detalhes_database = {
 							["debuff_uptime"] = 172,
 							["spellschool"] = 1,
 							["nome"] = "Weak",
-							["last_event"] = 1648310923,
-							["serial"] = "Creature-0-4235-1209-25977-76143-00003F39E0",
 							["aID"] = "76143",
+							["serial"] = "Creature-0-4235-1209-25977-76143-00003F39E0",
 							["tipo"] = 4,
+							["last_event"] = 1648310923,
 							["damage_twin"] = "Rukhran",
 							["debuff_uptime_targets"] = {
 								["Shaazia-DefiasBrotherhood"] = {
@@ -11437,7 +11040,8 @@ _detalhes_database = {
 						}, -- [11]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["boss_fight_component"] = true,
 							["aID"] = "79505",
 							["spell_cast"] = {
@@ -11445,10 +11049,9 @@ _detalhes_database = {
 								[153828] = 1,
 							},
 							["nome"] = "Solar Flare",
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-4235-1209-25977-79505-0002BF39E0",
 							["flag_original"] = 2632,
 						}, -- [12]
@@ -11881,7 +11484,7 @@ _detalhes_database = {
 					["n"] = 1,
 				},
 				["totals"] = {
-					230375, -- [1]
+					213897.993795, -- [1]
 					78678, -- [2]
 					{
 						888.9000017046928, -- [1]
@@ -12376,6 +11979,11 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
+				["data_inicio"] = "18:07:19",
+				["end_time"] = 6870.853,
+				["combat_id"] = 11,
+				["overall_added"] = true,
+				["resincked"] = true,
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -12404,13 +12012,9 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
-				["end_time"] = 6870.853,
-				["combat_id"] = 11,
-				["overall_added"] = true,
-				["resincked"] = true,
-				["data_inicio"] = "18:07:19",
 				["combat_counter"] = 2883,
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["Chinilferil"] = 1,
 				},
 				["is_boss"] = {
 					["diff_string"] = "Timewalking",
@@ -12452,8 +12056,7 @@ _detalhes_database = {
 				["start_time"] = 6783.755,
 				["TimeData"] = {
 				},
-				["frags"] = {
-					["Chinilferil"] = 1,
+				["spells_cast_timeline"] = {
 				},
 			}, -- [2]
 			{
@@ -12470,22 +12073,22 @@ _detalhes_database = {
 							["targets"] = {
 								["Rukhran"] = 30100,
 							},
-							["last_dps"] = 466.2619088543245,
+							["custom"] = 0,
 							["pets"] = {
 							},
-							["damage_taken"] = 23441.003788,
-							["total"] = 30100.003788,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 466.2619088543245,
+							["end_time"] = 1648310737,
+							["classe"] = "DEMONHUNTER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 30100.003788,
-							["tipo"] = 1,
-							["classe"] = "DEMONHUNTER",
+							["damage_taken"] = 23441.003788,
+							["friendlyfire_total"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1648310737,
+							["total"] = 30100.003788,
 							["delay"] = 1648310713,
 							["aID"] = "1301-0878F932",
-							["boss_fight_component"] = true,
+							["nome"] = "Illidaryr",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -12742,34 +12345,6 @@ _detalhes_database = {
 										},
 										["spellschool"] = 8,
 									},
-									[162243] = {
-										["c_amt"] = 6,
-										["b_amt"] = 0,
-										["c_dmg"] = 2184,
-										["g_amt"] = 0,
-										["n_max"] = 186,
-										["targets"] = {
-											["Rukhran"] = 3081,
-										},
-										["n_dmg"] = 897,
-										["n_min"] = 176,
-										["g_dmg"] = 0,
-										["counter"] = 11,
-										["total"] = 3081,
-										["c_max"] = 371,
-										["id"] = 162243,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["c_min"] = 357,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 5,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
-									},
 									[295367] = {
 										["c_amt"] = 1,
 										["b_amt"] = 0,
@@ -12797,6 +12372,34 @@ _detalhes_database = {
 										["extra"] = {
 										},
 										["spellschool"] = 4,
+									},
+									[162243] = {
+										["c_amt"] = 6,
+										["b_amt"] = 0,
+										["c_dmg"] = 2184,
+										["g_amt"] = 0,
+										["n_max"] = 186,
+										["targets"] = {
+											["Rukhran"] = 3081,
+										},
+										["n_dmg"] = 897,
+										["n_min"] = 176,
+										["g_dmg"] = 0,
+										["counter"] = 11,
+										["total"] = 3081,
+										["c_max"] = 371,
+										["id"] = 162243,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 357,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 5,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[210153] = {
 										["c_amt"] = 4,
@@ -12886,8 +12489,8 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["custom"] = 0,
-							["nome"] = "Illidaryr",
+							["tipo"] = 1,
+							["boss_fight_component"] = true,
 							["spec"] = 577,
 							["colocacao"] = 1,
 							["last_event"] = 1648310713,
@@ -12908,26 +12511,26 @@ _detalhes_database = {
 								["Rukhran"] = 14242,
 								["Solar Flare"] = 1039,
 							},
-							["last_dps"] = 236.7092518588494,
+							["custom"] = 0,
 							["pets"] = {
 								"Felguard <Scolo-Lightbringer>", -- [1]
 								"Wild Imp <Scolo-Lightbringer>", -- [2]
 								"Dreadstalker <Scolo-Lightbringer>", -- [3]
 								"Demonic Tyrant <Scolo-Lightbringer>", -- [4]
 							},
-							["damage_taken"] = 11563.002463,
-							["total"] = 15281.002463,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 236.7092518588494,
+							["end_time"] = 1648310737,
+							["classe"] = "WARLOCK",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3518.002463,
-							["tipo"] = 1,
-							["classe"] = "WARLOCK",
+							["damage_taken"] = 11563.002463,
+							["friendlyfire_total"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1648310737,
+							["total"] = 15281.002463,
 							["delay"] = 1648310711,
 							["aID"] = "1388-08384D39",
-							["boss_fight_component"] = true,
+							["nome"] = "Scolo-Lightbringer",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -13075,8 +12678,8 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["custom"] = 0,
-							["nome"] = "Scolo-Lightbringer",
+							["tipo"] = 1,
+							["boss_fight_component"] = true,
 							["spec"] = 266,
 							["colocacao"] = 2,
 							["last_event"] = 1648310711,
@@ -13097,22 +12700,22 @@ _detalhes_database = {
 								["Rukhran"] = 12831,
 								["Solar Flare"] = 2207,
 							},
-							["last_dps"] = 232.9451459353102,
+							["custom"] = 0,
 							["pets"] = {
 							},
-							["damage_taken"] = 9679.006841,
-							["total"] = 15038.006841,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 232.9451459353102,
+							["end_time"] = 1648310737,
+							["classe"] = "WARRIOR",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 15038.006841,
-							["tipo"] = 1,
-							["classe"] = "WARRIOR",
+							["damage_taken"] = 9679.006841,
+							["friendlyfire_total"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1648310737,
+							["total"] = 15038.006841,
 							["delay"] = 1648310711,
 							["aID"] = "1329-09C6E2DC",
-							["boss_fight_component"] = true,
+							["nome"] = "Timewarrior-Ravencrest",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -13487,8 +13090,8 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["custom"] = 0,
-							["nome"] = "Timewarrior-Ravencrest",
+							["tipo"] = 1,
+							["boss_fight_component"] = true,
 							["spec"] = 72,
 							["colocacao"] = 3,
 							["last_event"] = 1648310711,
@@ -13508,23 +13111,23 @@ _detalhes_database = {
 							["targets"] = {
 								["Rukhran"] = 10953,
 							},
-							["last_dps"] = 169.6667554836099,
+							["custom"] = 0,
 							["pets"] = {
 								"Kyrian Goliath <Shaazia-DefiasBrotherhood>", -- [1]
 							},
-							["damage_taken"] = 30934.007067,
-							["total"] = 10953.007067,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 169.6667554836099,
+							["end_time"] = 1648310737,
+							["classe"] = "PALADIN",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 8809.007067,
-							["tipo"] = 1,
-							["classe"] = "PALADIN",
+							["damage_taken"] = 30934.007067,
+							["friendlyfire_total"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1648310737,
+							["total"] = 10953.007067,
 							["delay"] = 1648310704,
 							["aID"] = "1096-05E8A18D",
-							["boss_fight_component"] = true,
+							["nome"] = "Shaazia-DefiasBrotherhood",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -13639,30 +13242,30 @@ _detalhes_database = {
 										},
 										["spellschool"] = 4,
 									},
-									[275773] = {
-										["c_amt"] = 0,
+									[325984] = {
+										["c_amt"] = 1,
 										["b_amt"] = 0,
-										["c_dmg"] = 0,
+										["c_dmg"] = 128,
 										["g_amt"] = 0,
-										["n_max"] = 539,
+										["n_max"] = 65,
 										["targets"] = {
-											["Rukhran"] = 1008,
+											["Rukhran"] = 383,
 										},
-										["n_dmg"] = 1008,
-										["n_min"] = 469,
+										["n_dmg"] = 255,
+										["n_min"] = 60,
 										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 1008,
-										["c_max"] = 0,
-										["id"] = 275773,
+										["counter"] = 5,
+										["total"] = 383,
+										["c_max"] = 128,
+										["id"] = 325984,
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
 										["a_dmg"] = 0,
-										["c_min"] = 0,
+										["c_min"] = 128,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 2,
+										["n_amt"] = 4,
 										["extra"] = {
 										},
 										["spellschool"] = 2,
@@ -13695,34 +13298,6 @@ _detalhes_database = {
 										},
 										["spellschool"] = 2,
 									},
-									[325984] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 128,
-										["g_amt"] = 0,
-										["n_max"] = 65,
-										["targets"] = {
-											["Rukhran"] = 383,
-										},
-										["n_dmg"] = 255,
-										["n_min"] = 60,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 383,
-										["c_max"] = 128,
-										["id"] = 325984,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["c_min"] = 128,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 4,
-										["extra"] = {
-										},
-										["spellschool"] = 2,
-									},
 									[81297] = {
 										["c_amt"] = 2,
 										["b_amt"] = 0,
@@ -13751,12 +13326,40 @@ _detalhes_database = {
 										},
 										["spellschool"] = 2,
 									},
+									[275773] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 539,
+										["targets"] = {
+											["Rukhran"] = 1008,
+										},
+										["n_dmg"] = 1008,
+										["n_min"] = 469,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1008,
+										["c_max"] = 0,
+										["id"] = 275773,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
 								},
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["custom"] = 0,
-							["nome"] = "Shaazia-DefiasBrotherhood",
+							["tipo"] = 1,
+							["boss_fight_component"] = true,
 							["spec"] = 65,
 							["colocacao"] = 4,
 							["last_event"] = 1648310704,
@@ -13793,8 +13396,8 @@ _detalhes_database = {
 							},
 							["nome"] = "Xanthoros",
 							["end_time"] = 1648310737,
-							["last_event"] = 1648310838,
-							["last_dps"] = 98.96839073052777,
+							["damage_taken"] = 20838.003432,
+							["aID"] = "1301-0A44C97F",
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -14028,8 +13631,8 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["aID"] = "1301-0A44C97F",
-							["damage_taken"] = 20838.003432,
+							["last_event"] = 1648310838,
+							["last_dps"] = 98.96839073052777,
 							["custom"] = 0,
 							["tipo"] = 1,
 							["avoidance"] = {
@@ -14092,12 +13695,12 @@ _detalhes_database = {
 							["totalabsorbed"] = 1255.004245,
 							["damage_from"] = {
 								["Shaazia-DefiasBrotherhood"] = true,
-								["Felguard <Scolo-Lightbringer>"] = true,
+								["Illidaryr"] = true,
 								["Xanthoros"] = true,
 								["Kyrian Goliath <Shaazia-DefiasBrotherhood>"] = true,
 								["Dreadstalker <Scolo-Lightbringer>"] = true,
+								["Felguard <Scolo-Lightbringer>"] = true,
 								["Timewarrior-Ravencrest"] = true,
-								["Illidaryr"] = true,
 								["Demonic Tyrant <Scolo-Lightbringer>"] = true,
 								["Wild Imp <Scolo-Lightbringer>"] = true,
 								["Scolo-Lightbringer"] = true,
@@ -14112,19 +13715,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["nome"] = "Rukhran",
+							["friendlyfire_total"] = 0,
+							["aID"] = "76143",
 							["raid_targets"] = {
 								13859, -- [1]
 							},
 							["total_without_pet"] = 56381.004245,
-							["friendlyfire_total"] = 0,
 							["monster"] = true,
+							["dps_started"] = false,
 							["total"] = 56381.004245,
-							["damage_taken"] = 74427.004245,
-							["friendlyfire"] = {
-							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -14328,15 +13930,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "Rukhran",
+							["on_hold"] = false,
 							["end_time"] = 1648310737,
-							["aID"] = "76143",
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
 							["last_event"] = 1648310737,
-							["on_hold"] = false,
+							["damage_taken"] = 74427.004245,
 							["start_time"] = 1648310673,
 							["serial"] = "Creature-0-4235-1209-25977-76143-00003F3807",
-							["dps_started"] = false,
+							["classe"] = "UNKNOW",
 						}, -- [6]
 						{
 							["flag_original"] = 2632,
@@ -14355,19 +13958,18 @@ _detalhes_database = {
 							["delay"] = 1648310713,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["nome"] = "Solar Flare",
+							["friendlyfire_total"] = 0,
+							["aID"] = "79505",
 							["raid_targets"] = {
 								17075, -- [1]
 							},
 							["total_without_pet"] = 40074.009,
-							["friendlyfire_total"] = 0,
 							["monster"] = true,
+							["dps_started"] = false,
 							["total"] = 40074.009,
-							["damage_taken"] = 3334.009,
-							["friendlyfire"] = {
-							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -14404,15 +14006,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "Solar Flare",
+							["on_hold"] = false,
 							["end_time"] = 1648310737,
-							["aID"] = "79505",
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
 							["last_event"] = 1648310737,
-							["on_hold"] = false,
+							["damage_taken"] = 3334.009,
 							["start_time"] = 1648310728,
 							["serial"] = "Creature-0-4235-1209-25977-79505-00013F3807",
-							["dps_started"] = false,
+							["classe"] = "UNKNOW",
 						}, -- [7]
 						{
 							["flag_original"] = 8466,
@@ -14425,19 +14028,19 @@ _detalhes_database = {
 							["delay"] = 1648310705,
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
-							["tipo"] = 1,
-							["aID"] = "17252",
+							["boss_fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 4111.007568999999,
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["dps_started"] = false,
 							["end_time"] = 1648310737,
-							["damage_taken"] = 0.007569,
+							["friendlyfire"] = {
+							},
 							["ownerName"] = "Scolo-Lightbringer",
-							["boss_fight_component"] = true,
+							["nome"] = "Felguard <Scolo-Lightbringer>",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -14584,15 +14187,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "Felguard <Scolo-Lightbringer>",
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["total"] = 4111.007568999999,
 							["custom"] = 0,
 							["last_event"] = 1648310705,
-							["on_hold"] = false,
+							["damage_taken"] = 0.007569,
 							["start_time"] = 1648310705,
 							["serial"] = "Creature-0-4235-1209-25977-17252-00003F3993",
-							["classe"] = "PET",
+							["aID"] = "17252",
 						}, -- [8]
 						{
 							["flag_original"] = 8466,
@@ -14605,19 +14208,19 @@ _detalhes_database = {
 							["delay"] = 1648310696,
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
-							["tipo"] = 1,
-							["aID"] = "135002",
+							["boss_fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2890.005028,
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["dps_started"] = false,
 							["end_time"] = 1648310737,
-							["damage_taken"] = 0.005028,
+							["friendlyfire"] = {
+							},
 							["ownerName"] = "Scolo-Lightbringer",
-							["boss_fight_component"] = true,
+							["nome"] = "Demonic Tyrant <Scolo-Lightbringer>",
 							["spells"] = {
 								["_ActorTable"] = {
 									[270481] = {
@@ -14651,15 +14254,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "Demonic Tyrant <Scolo-Lightbringer>",
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["total"] = 2890.005028,
 							["custom"] = 0,
 							["last_event"] = 1648310696,
-							["on_hold"] = false,
+							["damage_taken"] = 0.005028,
 							["start_time"] = 1648310723,
 							["serial"] = "Creature-0-4235-1209-25977-135002-00003F3999",
-							["classe"] = "PET",
+							["aID"] = "135002",
 						}, -- [9]
 						{
 							["flag_original"] = 8466,
@@ -14672,19 +14275,19 @@ _detalhes_database = {
 							["delay"] = 1648310702,
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
-							["tipo"] = 1,
-							["aID"] = "98035",
+							["boss_fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2661.003861,
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["dps_started"] = false,
 							["end_time"] = 1648310737,
-							["damage_taken"] = 0.003861,
+							["friendlyfire"] = {
+							},
 							["ownerName"] = "Scolo-Lightbringer",
-							["boss_fight_component"] = true,
+							["nome"] = "Dreadstalker <Scolo-Lightbringer>",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -14746,15 +14349,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "Dreadstalker <Scolo-Lightbringer>",
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["total"] = 2661.003861,
 							["custom"] = 0,
 							["last_event"] = 1648310702,
-							["on_hold"] = false,
+							["damage_taken"] = 0.003861,
 							["start_time"] = 1648310711,
 							["serial"] = "Creature-0-4235-1209-25977-98035-00003F3994",
-							["classe"] = "PET",
+							["aID"] = "98035",
 						}, -- [10]
 						{
 							["flag_original"] = 8466,
@@ -14767,19 +14370,19 @@ _detalhes_database = {
 							["delay"] = 1648310694,
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
-							["tipo"] = 1,
-							["aID"] = "171396",
+							["boss_fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2144.006725,
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["dps_started"] = false,
 							["end_time"] = 1648310737,
-							["damage_taken"] = 0.006725,
+							["friendlyfire"] = {
+							},
 							["ownerName"] = "Shaazia-DefiasBrotherhood",
-							["boss_fight_component"] = true,
+							["nome"] = "Kyrian Goliath <Shaazia-DefiasBrotherhood>",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -14869,15 +14472,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "Kyrian Goliath <Shaazia-DefiasBrotherhood>",
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["total"] = 2144.006725,
 							["custom"] = 0,
 							["last_event"] = 1648310694,
-							["on_hold"] = false,
+							["damage_taken"] = 0.006725,
 							["start_time"] = 1648310717,
 							["serial"] = "Creature-0-4235-1209-25977-171396-00003F398A",
-							["classe"] = "PET",
+							["aID"] = "171396",
 						}, -- [11]
 						{
 							["flag_original"] = 8466,
@@ -14890,19 +14493,19 @@ _detalhes_database = {
 							["delay"] = 1648310705,
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
-							["tipo"] = 1,
-							["aID"] = "55659",
+							["boss_fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2101.001036,
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["dps_started"] = false,
 							["end_time"] = 1648310737,
-							["damage_taken"] = 0.001036,
+							["friendlyfire"] = {
+							},
 							["ownerName"] = "Scolo-Lightbringer",
-							["boss_fight_component"] = true,
+							["nome"] = "Wild Imp <Scolo-Lightbringer>",
 							["spells"] = {
 								["_ActorTable"] = {
 									[104318] = {
@@ -14936,15 +14539,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "Wild Imp <Scolo-Lightbringer>",
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["total"] = 2101.001036,
 							["custom"] = 0,
 							["last_event"] = 1648310705,
-							["on_hold"] = false,
+							["damage_taken"] = 0.001036,
 							["start_time"] = 1648310707,
 							["serial"] = "Creature-0-4235-1209-25977-55659-00003F397F",
-							["classe"] = "PET",
+							["aID"] = "55659",
 						}, -- [12]
 					},
 				}, -- [1]
@@ -14961,16 +14564,11 @@ _detalhes_database = {
 								"Kyrian Goliath <Shaazia-DefiasBrotherhood>", -- [1]
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "PALADIN",
 							["totalover"] = 21618.002791,
 							["total_without_pet"] = 37725.002791,
 							["total"] = 38244.002791,
-							["targets_absorbs"] = {
-								["Illidaryr"] = 447,
-								["Timewarrior-Ravencrest"] = 674,
-								["Xanthoros"] = 1199,
-								["Shaazia-DefiasBrotherhood"] = 2488,
-							},
+							["spec"] = 65,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -14986,9 +14584,14 @@ _detalhes_database = {
 							},
 							["totalover_without_pet"] = 0.002791,
 							["healing_taken"] = 16330.002791,
-							["spec"] = 65,
-							["end_time"] = 1648310737,
 							["last_event"] = 1648310735,
+							["end_time"] = 1648310737,
+							["targets_absorbs"] = {
+								["Illidaryr"] = 447,
+								["Timewarrior-Ravencrest"] = 674,
+								["Xanthoros"] = 1199,
+								["Shaazia-DefiasBrotherhood"] = 2488,
+							},
 							["targets_overheal"] = {
 								["Illidaryr"] = 197,
 								["Dreadstalker <Scolo-Lightbringer>"] = 1546,
@@ -15021,9 +14624,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 16,
 										["n_curado"] = 73,
 										["totaldenied"] = 0,
+										["n_amt"] = 16,
 										["absorbed"] = 0,
 									},
 									[325983] = {
@@ -15032,8 +14635,8 @@ _detalhes_database = {
 										["targets_overheal"] = {
 											["Dreadstalker <Scolo-Lightbringer>"] = 162,
 											["Illidaryr"] = 197,
-											["Wild Imp <Scolo-Lightbringer>"] = 556,
 											["Xanthoros"] = 643,
+											["Wild Imp <Scolo-Lightbringer>"] = 556,
 											["Timewarrior-Ravencrest"] = 833,
 										},
 										["n_max"] = 211,
@@ -15042,8 +14645,8 @@ _detalhes_database = {
 											["Shaazia-DefiasBrotherhood"] = 409,
 											["Timewarrior-Ravencrest"] = 0,
 											["Illidaryr"] = 739,
-											["Wild Imp <Scolo-Lightbringer>"] = 0,
 											["Xanthoros"] = 830,
+											["Wild Imp <Scolo-Lightbringer>"] = 0,
 										},
 										["n_min"] = 198,
 										["counter"] = 21,
@@ -15055,9 +14658,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 20,
 										["n_curado"] = 1978,
 										["totaldenied"] = 0,
+										["n_amt"] = 20,
 										["absorbed"] = 0,
 									},
 									[25914] = {
@@ -15075,8 +14678,8 @@ _detalhes_database = {
 											["Dreadstalker <Scolo-Lightbringer>"] = 0,
 											["Shaazia-DefiasBrotherhood"] = 2092,
 											["Timewarrior-Ravencrest"] = 1887,
-											["Wild Imp <Scolo-Lightbringer>"] = 0,
 											["Xanthoros"] = 635,
+											["Wild Imp <Scolo-Lightbringer>"] = 0,
 											["Illidaryr"] = 2241,
 										},
 										["n_min"] = 839,
@@ -15089,9 +14692,34 @@ _detalhes_database = {
 										},
 										["c_min"] = 395,
 										["c_curado"] = 3440,
-										["n_amt"] = 6,
 										["n_curado"] = 3415,
 										["totaldenied"] = 0,
+										["n_amt"] = 6,
+										["absorbed"] = 0,
+									},
+									[53652] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Xanthoros"] = 4684,
+										},
+										["n_max"] = 1088,
+										["targets"] = {
+											["Xanthoros"] = 2882,
+										},
+										["n_min"] = 50,
+										["counter"] = 16,
+										["overheal"] = 4684,
+										["total"] = 2882,
+										["c_max"] = 0,
+										["id"] = 53652,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 2882,
+										["totaldenied"] = 0,
+										["n_amt"] = 16,
 										["absorbed"] = 0,
 									},
 									[337824] = {
@@ -15120,35 +14748,10 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 13,
 										["n_curado"] = 3321,
 										["totaldenied"] = 0,
-										["n_amt"] = 13,
 										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-									[53652] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Xanthoros"] = 4684,
-										},
-										["n_max"] = 1088,
-										["targets"] = {
-											["Xanthoros"] = 2882,
-										},
-										["n_min"] = 50,
-										["counter"] = 16,
-										["overheal"] = 4684,
-										["total"] = 2882,
-										["c_max"] = 0,
-										["id"] = 53652,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_amt"] = 16,
-										["n_curado"] = 2882,
-										["totaldenied"] = 0,
 										["absorbed"] = 0,
 									},
 									[303380] = {
@@ -15173,35 +14776,34 @@ _detalhes_database = {
 										},
 										["c_min"] = 437,
 										["c_curado"] = 887,
-										["n_amt"] = 19,
 										["n_curado"] = 3764,
 										["totaldenied"] = 0,
+										["n_amt"] = 19,
 										["absorbed"] = 0,
 									},
-									[85673] = {
-										["c_amt"] = 0,
+									[19750] = {
+										["c_amt"] = 3,
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
+											["Shaazia-DefiasBrotherhood"] = 523,
 										},
-										["n_max"] = 1749,
+										["n_max"] = 1456,
 										["targets"] = {
-											["Illidaryr"] = 1355,
-											["Xanthoros"] = 1749,
-											["Shaazia-DefiasBrotherhood"] = 1733,
+											["Shaazia-DefiasBrotherhood"] = 7735,
 										},
-										["n_min"] = 1355,
-										["counter"] = 3,
-										["overheal"] = 0,
-										["total"] = 4837,
-										["c_max"] = 0,
-										["id"] = 85673,
+										["n_min"] = 1456,
+										["counter"] = 4,
+										["overheal"] = 523,
+										["total"] = 7735,
+										["c_max"] = 2388,
+										["id"] = 19750,
 										["targets_absorbs"] = {
 										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_amt"] = 3,
-										["n_curado"] = 4837,
+										["c_min"] = 1714,
+										["c_curado"] = 6279,
+										["n_curado"] = 1456,
 										["totaldenied"] = 0,
+										["n_amt"] = 1,
 										["absorbed"] = 0,
 									},
 									[183811] = {
@@ -15227,9 +14829,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 64,
 										["c_curado"] = 680,
-										["n_amt"] = 41,
 										["n_curado"] = 1527,
 										["totaldenied"] = 0,
+										["n_amt"] = 41,
 										["absorbed"] = 0,
 									},
 									[338788] = {
@@ -15252,9 +14854,9 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 4,
 										["n_curado"] = 1487,
 										["totaldenied"] = 0,
-										["n_amt"] = 4,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -15277,34 +14879,35 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 1,
 										["n_curado"] = 1699,
 										["totaldenied"] = 0,
+										["n_amt"] = 1,
 										["absorbed"] = 0,
 									},
-									[19750] = {
-										["c_amt"] = 3,
+									[85673] = {
+										["c_amt"] = 0,
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
-											["Shaazia-DefiasBrotherhood"] = 523,
 										},
-										["n_max"] = 1456,
+										["n_max"] = 1749,
 										["targets"] = {
-											["Shaazia-DefiasBrotherhood"] = 7735,
+											["Illidaryr"] = 1355,
+											["Xanthoros"] = 1749,
+											["Shaazia-DefiasBrotherhood"] = 1733,
 										},
-										["n_min"] = 1456,
-										["counter"] = 4,
-										["overheal"] = 523,
-										["total"] = 7735,
-										["c_max"] = 2388,
-										["id"] = 19750,
+										["n_min"] = 1355,
+										["counter"] = 3,
+										["overheal"] = 0,
+										["total"] = 4837,
+										["c_max"] = 0,
+										["id"] = 85673,
 										["targets_absorbs"] = {
 										},
-										["c_min"] = 1714,
-										["c_curado"] = 6279,
-										["n_amt"] = 1,
-										["n_curado"] = 1456,
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 4837,
 										["totaldenied"] = 0,
+										["n_amt"] = 3,
 										["absorbed"] = 0,
 									},
 								},
@@ -15312,10 +14915,10 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["totaldenied"] = 0.002791,
-							["aID"] = "1096-05E8A18D",
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["classe"] = "PALADIN",
+							["aID"] = "1096-05E8A18D",
 							["start_time"] = 1648310693,
 							["delay"] = 1648310714,
 							["boss_fight_component"] = true,
@@ -15348,8 +14951,8 @@ _detalhes_database = {
 							["healing_taken"] = 12048.00423,
 							["totaldenied"] = 0.00423,
 							["end_time"] = 1648310737,
-							["last_event"] = 1648310733,
 							["heal_enemy_amt"] = 0,
+							["aID"] = "1301-0A44C97F",
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -15373,9 +14976,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 25,
 										["n_curado"] = 329,
 										["totaldenied"] = 0,
+										["n_amt"] = 25,
 										["absorbed"] = 0,
 									},
 									[227034] = {
@@ -15398,17 +15001,17 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 75,
 										["n_curado"] = 704,
 										["totaldenied"] = 0,
+										["n_amt"] = 75,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["aID"] = "1301-0A44C97F",
 							["spec"] = 104,
+							["last_event"] = 1648310733,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["nome"] = "Xanthoros",
@@ -15428,13 +15031,11 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "DEMONHUNTER",
 							["totalover"] = 4076.006063,
 							["total_without_pet"] = 9977.006063,
 							["total"] = 9977.006063,
-							["targets_absorbs"] = {
-								["Illidaryr"] = 1005,
-							},
+							["spec"] = 577,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -15446,40 +15047,17 @@ _detalhes_database = {
 							},
 							["totalover_without_pet"] = 0.006063,
 							["healing_taken"] = 17108.006063,
-							["spec"] = 577,
-							["end_time"] = 1648310737,
 							["last_event"] = 1648310706,
+							["end_time"] = 1648310737,
+							["targets_absorbs"] = {
+								["Illidaryr"] = 1005,
+							},
 							["targets_overheal"] = {
 								["Illidaryr"] = 4076,
 							},
 							["nome"] = "Illidaryr",
 							["spells"] = {
 								["_ActorTable"] = {
-									[345423] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Illidaryr"] = 3520,
-										},
-										["n_max"] = 232,
-										["targets"] = {
-											["Illidaryr"] = 4191,
-										},
-										["n_min"] = 14,
-										["counter"] = 120,
-										["overheal"] = 3520,
-										["total"] = 4191,
-										["c_max"] = 0,
-										["id"] = 345423,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_amt"] = 120,
-										["n_curado"] = 4191,
-										["totaldenied"] = 0,
-										["absorbed"] = 0,
-									},
 									[303390] = {
 										["c_amt"] = 0,
 										["totalabsorb"] = 1005,
@@ -15500,9 +15078,9 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 1,
 										["n_curado"] = 1005,
 										["totaldenied"] = 0,
-										["n_amt"] = 1,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -15526,9 +15104,34 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 17,
 										["n_curado"] = 4781,
 										["totaldenied"] = 0,
+										["n_amt"] = 17,
+										["absorbed"] = 0,
+									},
+									[345423] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Illidaryr"] = 3520,
+										},
+										["n_max"] = 232,
+										["targets"] = {
+											["Illidaryr"] = 4191,
+										},
+										["n_min"] = 14,
+										["counter"] = 120,
+										["overheal"] = 3520,
+										["total"] = 4191,
+										["c_max"] = 0,
+										["id"] = 345423,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 4191,
+										["totaldenied"] = 0,
+										["n_amt"] = 120,
 										["absorbed"] = 0,
 									},
 								},
@@ -15536,10 +15139,10 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["totaldenied"] = 0.006063,
-							["aID"] = "1301-0878F932",
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["classe"] = "DEMONHUNTER",
+							["aID"] = "1301-0878F932",
 							["start_time"] = 1648310704,
 							["delay"] = 1648310706,
 							["boss_fight_component"] = true,
@@ -15553,7 +15156,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "PET",
+							["aID"] = "171396",
 							["totalover"] = 3167.00124,
 							["total_without_pet"] = 519.00124,
 							["total"] = 519.00124,
@@ -15571,8 +15174,7 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.00124,
 							["healing_taken"] = 0.00124,
 							["end_time"] = 1648310737,
-							["healing_from"] = {
-							},
+							["boss_fight_component"] = true,
 							["ownerName"] = "Shaazia-DefiasBrotherhood",
 							["nome"] = "Kyrian Goliath <Shaazia-DefiasBrotherhood>",
 							["spells"] = {
@@ -15599,23 +15201,24 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 3,
 										["n_curado"] = 519,
 										["totaldenied"] = 0,
+										["n_amt"] = 3,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
-							["tipo"] = 2,
-							["heal_enemy_amt"] = 0,
-							["totaldenied"] = 0.00124,
-							["custom"] = 0,
+							["healing_from"] = {
+							},
 							["last_event"] = 1648310694,
-							["aID"] = "171396",
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.00124,
 							["start_time"] = 1648310717,
 							["delay"] = 1648310694,
-							["boss_fight_component"] = true,
+							["classe"] = "PET",
 						}, -- [4]
 						{
 							["flag_original"] = 1298,
@@ -15626,7 +15229,7 @@ _detalhes_database = {
 								"Dreadstalker <Scolo-Lightbringer>", -- [2]
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "1388-08384D39",
 							["totalover"] = 0.002716,
 							["total_without_pet"] = 5509.002716,
 							["total"] = 5509.002716,
@@ -15644,9 +15247,9 @@ _detalhes_database = {
 							},
 							["totalover_without_pet"] = 0.002716,
 							["healing_taken"] = 6716.002716,
-							["classe"] = "WARLOCK",
-							["end_time"] = 1648310737,
 							["tipo"] = 2,
+							["end_time"] = 1648310737,
+							["spec"] = 266,
 							["healing_from"] = {
 								["Kyrian Goliath <Shaazia-DefiasBrotherhood>"] = true,
 								["Scolo-Lightbringer"] = true,
@@ -15675,9 +15278,9 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 5,
 										["n_curado"] = 946,
 										["totaldenied"] = 0,
-										["n_amt"] = 5,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -15701,9 +15304,9 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 3,
 										["n_curado"] = 4545,
 										["totaldenied"] = 0,
-										["n_amt"] = 3,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -15726,9 +15329,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 3,
 										["n_curado"] = 18,
 										["totaldenied"] = 0,
+										["n_amt"] = 3,
 										["absorbed"] = 0,
 									},
 								},
@@ -15736,10 +15339,10 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["totaldenied"] = 0.002716,
-							["spec"] = 266,
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1648310711,
-							["aID"] = "1388-08384D39",
+							["classe"] = "WARLOCK",
 							["start_time"] = 1648310729,
 							["delay"] = 1648310711,
 							["boss_fight_component"] = true,
@@ -15751,7 +15354,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "1329-09C6E2DC",
 							["totalover"] = 0.00572,
 							["total_without_pet"] = 668.00572,
 							["total"] = 668.00572,
@@ -15768,9 +15371,9 @@ _detalhes_database = {
 							},
 							["totalover_without_pet"] = 0.00572,
 							["healing_taken"] = 3229.00572,
-							["classe"] = "WARRIOR",
-							["end_time"] = 1648310737,
 							["tipo"] = 2,
+							["end_time"] = 1648310737,
+							["spec"] = 72,
 							["healing_from"] = {
 								["Timewarrior-Ravencrest"] = true,
 								["Shaazia-DefiasBrotherhood"] = true,
@@ -15797,9 +15400,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 2,
 										["n_curado"] = 668,
 										["totaldenied"] = 0,
+										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 								},
@@ -15807,10 +15410,10 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["totaldenied"] = 0.00572,
-							["spec"] = 72,
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1648310705,
-							["aID"] = "1329-09C6E2DC",
+							["classe"] = "WARRIOR",
 							["start_time"] = 1648310736,
 							["delay"] = 1648310705,
 							["boss_fight_component"] = true,
@@ -15822,7 +15425,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "PET",
+							["aID"] = "55659",
 							["totalover"] = 0.003441,
 							["total_without_pet"] = 0.003441,
 							["total"] = 0.003441,
@@ -15839,8 +15442,7 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.003441,
 							["healing_taken"] = 0.003441,
 							["end_time"] = 1648310737,
-							["healing_from"] = {
-							},
+							["boss_fight_component"] = true,
 							["ownerName"] = "Scolo-Lightbringer",
 							["nome"] = "Wild Imp <Scolo-Lightbringer>",
 							["spells"] = {
@@ -15848,15 +15450,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 3,
 							},
-							["tipo"] = 2,
-							["heal_enemy_amt"] = 0,
-							["totaldenied"] = 0.003441,
-							["custom"] = 0,
+							["healing_from"] = {
+							},
 							["last_event"] = 0,
-							["aID"] = "55659",
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.003441,
 							["start_time"] = 1648310737,
 							["delay"] = 0,
-							["boss_fight_component"] = true,
+							["classe"] = "PET",
 						}, -- [7]
 						{
 							["flag_original"] = 8466,
@@ -15865,7 +15468,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "PET",
+							["aID"] = "98035",
 							["totalover"] = 0.00309,
 							["total_without_pet"] = 0.00309,
 							["total"] = 0.00309,
@@ -15882,8 +15485,7 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.00309,
 							["healing_taken"] = 0.00309,
 							["end_time"] = 1648310737,
-							["healing_from"] = {
-							},
+							["boss_fight_component"] = true,
 							["ownerName"] = "Scolo-Lightbringer",
 							["nome"] = "Dreadstalker <Scolo-Lightbringer>",
 							["spells"] = {
@@ -15891,15 +15493,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 3,
 							},
-							["tipo"] = 2,
-							["heal_enemy_amt"] = 0,
-							["totaldenied"] = 0.00309,
-							["custom"] = 0,
+							["healing_from"] = {
+							},
 							["last_event"] = 0,
-							["aID"] = "98035",
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.00309,
 							["start_time"] = 1648310737,
 							["delay"] = 0,
-							["boss_fight_component"] = true,
+							["classe"] = "PET",
 						}, -- [8]
 					},
 				}, -- [2]
@@ -15921,7 +15524,7 @@ _detalhes_database = {
 							["total"] = 119.008363,
 							["spec"] = 104,
 							["totalover"] = 0.008363,
-							["boss_fight_component"] = true,
+							["nome"] = "Xanthoros",
 							["spells"] = {
 								["_ActorTable"] = {
 									[8921] = {
@@ -15933,15 +15536,6 @@ _detalhes_database = {
 										},
 										["counter"] = 1,
 									},
-									[33917] = {
-										["total"] = 34,
-										["id"] = 33917,
-										["totalover"] = 0,
-										["targets"] = {
-											["Xanthoros"] = 34,
-										},
-										["counter"] = 3,
-									},
 									[17057] = {
 										["total"] = 50,
 										["id"] = 17057,
@@ -15950,6 +15544,15 @@ _detalhes_database = {
 											["Xanthoros"] = 50,
 										},
 										["counter"] = 2,
+									},
+									[77758] = {
+										["total"] = 15,
+										["id"] = 77758,
+										["totalover"] = 0,
+										["targets"] = {
+											["Xanthoros"] = 15,
+										},
+										["counter"] = 3,
 									},
 									[195707] = {
 										["total"] = 12,
@@ -15960,12 +15563,12 @@ _detalhes_database = {
 										},
 										["counter"] = 4,
 									},
-									[77758] = {
-										["total"] = 15,
-										["id"] = 77758,
+									[33917] = {
+										["total"] = 34,
+										["id"] = 33917,
 										["totalover"] = 0,
 										["targets"] = {
-											["Xanthoros"] = 15,
+											["Xanthoros"] = 34,
 										},
 										["counter"] = 3,
 									},
@@ -15980,7 +15583,7 @@ _detalhes_database = {
 							["alternatepower"] = 0.008363,
 							["isTank"] = true,
 							["serial"] = "Player-1301-0A44C97F",
-							["nome"] = "Xanthoros",
+							["boss_fight_component"] = true,
 						}, -- [1]
 						{
 							["received"] = 225.7070487629395,
@@ -15995,7 +15598,7 @@ _detalhes_database = {
 							["passiveover"] = 0.007048,
 							["total"] = 225.7070487629395,
 							["totalover"] = 16.30704801192093,
-							["boss_fight_component"] = true,
+							["nome"] = "Timewarrior-Ravencrest",
 							["spells"] = {
 								["_ActorTable"] = {
 									[85288] = {
@@ -16057,13 +15660,13 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["spec"] = 72,
-							["tipo"] = 3,
 							["aID"] = "1329-09C6E2DC",
 							["last_event"] = 1648310710,
+							["tipo"] = 3,
 							["alternatepower"] = 0.007048,
 							["flag_original"] = 1298,
 							["serial"] = "Player-1329-09C6E2DC",
-							["nome"] = "Timewarrior-Ravencrest",
+							["boss_fight_component"] = true,
 						}, -- [2]
 						{
 							["received"] = 0.006322,
@@ -16085,9 +15688,9 @@ _detalhes_database = {
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["tipo"] = 3,
 							["aID"] = "1388-08384D39",
 							["alternatepower"] = 0.006322,
+							["tipo"] = 3,
 							["last_event"] = 1648310711,
 							["flag_original"] = 1298,
 							["spec"] = 266,
@@ -16114,9 +15717,9 @@ _detalhes_database = {
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["tipo"] = 3,
 							["aID"] = "1301-0878F932",
 							["alternatepower"] = 0.003166,
+							["tipo"] = 3,
 							["last_event"] = 1648310837,
 							["flag_original"] = 1298,
 							["spec"] = 577,
@@ -16143,9 +15746,9 @@ _detalhes_database = {
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["tipo"] = 3,
 							["aID"] = "1096-05E8A18D",
 							["alternatepower"] = 0.001124,
+							["tipo"] = 3,
 							["last_event"] = 1648310749,
 							["flag_original"] = 1298,
 							["spec"] = 65,
@@ -16371,17 +15974,6 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 2,
 									},
-									[333943] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 333943,
-										["uptime"] = 10,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
 									[297412] = {
 										["counter"] = 0,
 										["actived"] = false,
@@ -16392,6 +15984,17 @@ _detalhes_database = {
 										["targets"] = {
 										},
 										["appliedamt"] = 4,
+									},
+									[333943] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 333943,
+										["uptime"] = 10,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
 									},
 									[72221] = {
 										["activedamt"] = 1,
@@ -16427,16 +16030,16 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[352938] = {
+									[310530] = {
 										["counter"] = 0,
 										["actived"] = false,
-										["activedamt"] = 1,
+										["activedamt"] = 2,
 										["refreshamt"] = 1,
-										["id"] = 352938,
-										["uptime"] = 3,
+										["id"] = 310530,
+										["uptime"] = 9,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["appliedamt"] = 2,
 									},
 									[93805] = {
 										["counter"] = 0,
@@ -16449,43 +16052,43 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[310530] = {
+									[352938] = {
 										["counter"] = 0,
 										["actived"] = false,
-										["activedamt"] = 2,
+										["activedamt"] = 1,
 										["refreshamt"] = 1,
-										["id"] = 310530,
-										["uptime"] = 9,
+										["id"] = 352938,
+										["uptime"] = 3,
 										["targets"] = {
 										},
-										["appliedamt"] = 2,
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 109,
 							["serial"] = "Player-1096-05E8A18D",
-							["tipo"] = 4,
-							["boss_fight_component"] = true,
+							["classe"] = "PALADIN",
+							["nome"] = "Shaazia-DefiasBrotherhood",
 							["spec"] = 65,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[26573] = 2,
 								[35395] = 5,
 								[20473] = 7,
-								[275773] = 2,
-								[31821] = 1,
-								[19750] = 4,
 								[53600] = 2,
+								[31821] = 1,
+								[85673] = 3,
+								[275773] = 2,
 								[324748] = 5,
 								[304971] = 1,
-								[85673] = 3,
+								[19750] = 4,
 							},
-							["classe"] = "PALADIN",
 							["pets"] = {
 								"Kyrian Goliath <Shaazia-DefiasBrotherhood>", -- [1]
 							},
 							["last_event"] = 1648310737,
+							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
 							["debuff_uptime_targets"] = {
@@ -16502,7 +16105,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["nome"] = "Shaazia-DefiasBrotherhood",
+							["boss_fight_component"] = true,
 						}, -- [1]
 						{
 							["flag_original"] = 1047,
@@ -16707,8 +16310,9 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 167,
-							["tipo"] = 4,
-							["boss_fight_component"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["nome"] = "Illidaryr",
 							["spec"] = 577,
 							["grupo"] = true,
 							["spell_cast"] = {
@@ -16722,16 +16326,15 @@ _detalhes_database = {
 								[162243] = 11,
 								[258920] = 1,
 							},
-							["debuff_uptime_targets"] = {
-							},
 							["classe"] = "DEMONHUNTER",
 							["last_event"] = 1648310737,
+							["tipo"] = 4,
 							["pets"] = {
 							},
 							["buff_uptime_targets"] = {
 							},
 							["serial"] = "Player-1301-0878F932",
-							["nome"] = "Illidaryr",
+							["boss_fight_component"] = true,
 						}, -- [2]
 						{
 							["flag_original"] = 1047,
@@ -16852,6 +16455,17 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
+									[108416] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 108416,
+										["uptime"] = 16,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
 									[108446] = {
 										["activedamt"] = 2,
 										["id"] = 108446,
@@ -16864,42 +16478,31 @@ _detalhes_database = {
 										["actived"] = true,
 										["appliedamt"] = 2,
 									},
-									[108416] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 108416,
-										["uptime"] = 16,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
 								},
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 12,
 							["serial"] = "Player-1388-08384D39",
-							["tipo"] = 4,
-							["boss_fight_component"] = true,
+							["classe"] = "WARLOCK",
+							["nome"] = "Scolo-Lightbringer",
 							["spec"] = 266,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[111898] = 1,
 								[264178] = 7,
-								[265187] = 1,
 								[686] = 1,
+								[265187] = 1,
 								[104316] = 1,
 								[105174] = 2,
 								[108416] = 1,
 							},
-							["classe"] = "WARLOCK",
 							["pets"] = {
 								"Felguard <Scolo-Lightbringer>", -- [1]
 								"Wild Imp <Scolo-Lightbringer>", -- [2]
 								"Demonic Tyrant <Scolo-Lightbringer>", -- [3]
 							},
 							["last_event"] = 1648310826,
+							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
 							["debuff_uptime_targets"] = {
@@ -16916,7 +16519,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["nome"] = "Scolo-Lightbringer",
+							["boss_fight_component"] = true,
 						}, -- [3]
 						{
 							["flag_original"] = 1047,
@@ -17096,24 +16699,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
+							["pets"] = {
+							},
 							["classe"] = "WARRIOR",
-							["tipo"] = 4,
 							["debuff_uptime"] = 34,
 							["serial"] = "Player-1329-09C6E2DC",
 							["cc_done"] = 1.00699,
-							["boss_fight_component"] = true,
+							["nome"] = "Timewarrior-Ravencrest",
 							["spec"] = 72,
 							["grupo"] = true,
-							["cc_done_targets"] = {
-								["Solar Flare"] = 1,
-							},
-							["pets"] = {
-							},
-							["buff_uptime_targets"] = {
-							},
-							["last_event"] = 1648310718,
-							["debuff_uptime_targets"] = {
-							},
 							["spell_cast"] = {
 								[85288] = 5,
 								[100] = 1,
@@ -17122,12 +16716,21 @@ _detalhes_database = {
 								[126664] = 1,
 								[107570] = 1,
 								[1719] = 1,
-								[52174] = 1,
+								[46924] = 1,
 								[184364] = 1,
 								[190411] = 2,
 								[1464] = 1,
+								[52174] = 1,
 								[324260] = 3,
-								[46924] = 1,
+							},
+							["buff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1648310718,
+							["debuff_uptime_targets"] = {
+							},
+							["cc_done_targets"] = {
+								["Solar Flare"] = 1,
 							},
 							["cooldowns_defensive_spells"] = {
 								["_ActorTable"] = {
@@ -17141,7 +16744,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["nome"] = "Timewarrior-Ravencrest",
+							["boss_fight_component"] = true,
 						}, -- [4]
 						{
 							["flag_original"] = 1047,
@@ -17203,7 +16806,7 @@ _detalhes_database = {
 								1648310712.48, -- [1]
 								61336, -- [2]
 							},
-							["nome"] = "Xanthoros",
+							["tipo"] = 4,
 							["aID"] = "1301-0A44C97F",
 							["cooldowns_defensive_targets"] = {
 								["Xanthoros"] = 2,
@@ -17324,13 +16927,13 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["tipo"] = 4,
-							["serial"] = "Player-1301-0A44C97F",
-							["ress"] = 1.004732,
 							["debuff_uptime_targets"] = {
 							},
+							["serial"] = "Player-1301-0A44C97F",
+							["ress"] = 1.004732,
 							["classe"] = "DRUID",
 							["boss_fight_component"] = true,
+							["nome"] = "Xanthoros",
 							["spec"] = 104,
 							["grupo"] = true,
 							["spell_cast"] = {
@@ -17341,9 +16944,9 @@ _detalhes_database = {
 								[213771] = 10,
 								[61336] = 1,
 								[6807] = 2,
-								[2782] = 1,
-								[8921] = 1,
 								[16979] = 1,
+								[8921] = 1,
+								[2782] = 1,
 								[20484] = 1,
 							},
 							["buff_uptime_targets"] = {
@@ -17458,7 +17061,8 @@ _detalhes_database = {
 						}, -- [9]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["boss_fight_component"] = true,
 							["aID"] = "76143",
 							["spell_cast"] = {
@@ -17468,10 +17072,9 @@ _detalhes_database = {
 								[153896] = 3,
 							},
 							["nome"] = "Rukhran",
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-4235-1209-25977-76143-00003F3807",
 							["flag_original"] = 68168,
 						}, -- [10]
@@ -17490,10 +17093,10 @@ _detalhes_database = {
 							["debuff_uptime"] = 20,
 							["spellschool"] = 1,
 							["nome"] = "Pierced Armor",
-							["last_event"] = 1648310731,
-							["serial"] = "Creature-0-4235-1209-25977-76143-00003F3807",
 							["aID"] = "76143",
+							["serial"] = "Creature-0-4235-1209-25977-76143-00003F3807",
 							["tipo"] = 4,
+							["last_event"] = 1648310731,
 							["damage_twin"] = "Rukhran",
 							["debuff_uptime_targets"] = {
 								["Xanthoros"] = {
@@ -17522,10 +17125,10 @@ _detalhes_database = {
 							["debuff_uptime"] = 93,
 							["spellschool"] = 1,
 							["nome"] = "Weak",
-							["last_event"] = 1648310737,
-							["serial"] = "Creature-0-4235-1209-25977-76143-00003F3807",
 							["aID"] = "76143",
+							["serial"] = "Creature-0-4235-1209-25977-76143-00003F3807",
 							["tipo"] = 4,
+							["last_event"] = 1648310737,
 							["damage_twin"] = "Rukhran",
 							["debuff_uptime_targets"] = {
 								["Shaazia-DefiasBrotherhood"] = {
@@ -17569,17 +17172,17 @@ _detalhes_database = {
 						}, -- [12]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["boss_fight_component"] = true,
 							["aID"] = "79505",
 							["spell_cast"] = {
 								[153828] = 8,
 							},
 							["nome"] = "Solar Flare",
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-4235-1209-25977-79505-00013F3807",
 							["flag_original"] = 68168,
 						}, -- [13]
@@ -19834,8 +19437,9 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["combat_counter"] = 2882,
 				["frags"] = {
+				},
+				["spells_cast_timeline"] = {
 				},
 				["is_boss"] = {
 					["diff_string"] = "Timewalking",
@@ -19856,8 +19460,7 @@ _detalhes_database = {
 				["data_inicio"] = "18:04:33",
 				["start_time"] = 6617.214,
 				["contra"] = "Rukhran",
-				["spells_cast_timeline"] = {
-				},
+				["combat_counter"] = 2882,
 			}, -- [3]
 			{
 				{
@@ -19873,22 +19476,22 @@ _detalhes_database = {
 							["targets"] = {
 								["Araknath"] = 44180,
 							},
-							["last_dps"] = 836.4731881591152,
+							["custom"] = 0,
 							["pets"] = {
 							},
-							["damage_taken"] = 3774.004379,
-							["total"] = 44180.004379,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 836.4731881591152,
+							["end_time"] = 1648310590,
+							["classe"] = "WARRIOR",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 44180.004379,
-							["tipo"] = 1,
-							["classe"] = "WARRIOR",
+							["damage_taken"] = 3774.004379,
+							["friendlyfire_total"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1648310590,
+							["total"] = 44180.004379,
 							["delay"] = 0,
 							["aID"] = "1329-09C6E2DC",
-							["boss_fight_component"] = true,
+							["nome"] = "Timewarrior-Ravencrest",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -20176,8 +19779,8 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["custom"] = 0,
-							["nome"] = "Timewarrior-Ravencrest",
+							["tipo"] = 1,
+							["boss_fight_component"] = true,
 							["spec"] = 72,
 							["colocacao"] = 1,
 							["last_event"] = 1648310590,
@@ -20197,22 +19800,22 @@ _detalhes_database = {
 							["targets"] = {
 								["Araknath"] = 43256,
 							},
-							["last_dps"] = 818.9788908684702,
+							["custom"] = 0,
 							["pets"] = {
 							},
-							["damage_taken"] = 6617.008079,
-							["total"] = 43256.008079,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 818.9788908684702,
+							["end_time"] = 1648310590,
+							["classe"] = "DEMONHUNTER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 43256.008079,
-							["tipo"] = 1,
-							["classe"] = "DEMONHUNTER",
+							["damage_taken"] = 6617.008079,
+							["friendlyfire_total"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1648310590,
+							["total"] = 43256.008079,
 							["delay"] = 0,
 							["aID"] = "1301-0878F932",
-							["boss_fight_component"] = true,
+							["nome"] = "Illidaryr",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -20469,34 +20072,6 @@ _detalhes_database = {
 										},
 										["spellschool"] = 8,
 									},
-									[162243] = {
-										["c_amt"] = 6,
-										["b_amt"] = 0,
-										["c_dmg"] = 2171,
-										["g_amt"] = 0,
-										["n_max"] = 226,
-										["targets"] = {
-											["Araknath"] = 3695,
-										},
-										["n_dmg"] = 1524,
-										["n_min"] = 173,
-										["g_dmg"] = 0,
-										["counter"] = 14,
-										["total"] = 3695,
-										["c_max"] = 369,
-										["id"] = 162243,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["c_min"] = 356,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 8,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
-									},
 									[323802] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
@@ -20581,6 +20156,34 @@ _detalhes_database = {
 										},
 										["spellschool"] = 1,
 									},
+									[162243] = {
+										["c_amt"] = 6,
+										["b_amt"] = 0,
+										["c_dmg"] = 2171,
+										["g_amt"] = 0,
+										["n_max"] = 226,
+										["targets"] = {
+											["Araknath"] = 3695,
+										},
+										["n_dmg"] = 1524,
+										["n_min"] = 173,
+										["g_dmg"] = 0,
+										["counter"] = 14,
+										["total"] = 3695,
+										["c_max"] = 369,
+										["id"] = 162243,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 356,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 8,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
 									[198030] = {
 										["c_amt"] = 30,
 										["b_amt"] = 0,
@@ -20613,8 +20216,8 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["custom"] = 0,
-							["nome"] = "Illidaryr",
+							["tipo"] = 1,
+							["boss_fight_component"] = true,
 							["spec"] = 577,
 							["colocacao"] = 2,
 							["last_event"] = 1648310590,
@@ -20634,22 +20237,22 @@ _detalhes_database = {
 							["targets"] = {
 								["Araknath"] = 21009,
 							},
-							["last_dps"] = 397.7698261165912,
+							["custom"] = 0,
 							["pets"] = {
 							},
-							["damage_taken"] = 6454.008906,
-							["total"] = 21009.008906,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 397.7698261165912,
+							["end_time"] = 1648310590,
+							["classe"] = "PALADIN",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 21009.008906,
-							["tipo"] = 1,
-							["classe"] = "PALADIN",
+							["damage_taken"] = 6454.008906,
+							["friendlyfire_total"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1648310590,
+							["total"] = 21009.008906,
 							["delay"] = 0,
 							["aID"] = "1096-05E8A18D",
-							["boss_fight_component"] = true,
+							["nome"] = "Shaazia-DefiasBrotherhood",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -20793,34 +20396,6 @@ _detalhes_database = {
 										},
 										["spellschool"] = 1,
 									},
-									[275773] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 687,
-										["targets"] = {
-											["Araknath"] = 1800,
-										},
-										["n_dmg"] = 1800,
-										["n_min"] = 505,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 1800,
-										["c_max"] = 0,
-										["id"] = 275773,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 3,
-										["extra"] = {
-										},
-										["spellschool"] = 2,
-									},
 									[53600] = {
 										["c_amt"] = 2,
 										["b_amt"] = 0,
@@ -20845,6 +20420,34 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+									[275773] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 687,
+										["targets"] = {
+											["Araknath"] = 1800,
+										},
+										["n_dmg"] = 1800,
+										["n_min"] = 505,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 1800,
+										["c_max"] = 0,
+										["id"] = 275773,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
 										["extra"] = {
 										},
 										["spellschool"] = 2,
@@ -20937,8 +20540,8 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["custom"] = 0,
-							["nome"] = "Shaazia-DefiasBrotherhood",
+							["tipo"] = 1,
+							["boss_fight_component"] = true,
 							["spec"] = 65,
 							["colocacao"] = 3,
 							["last_event"] = 1648310590,
@@ -20957,25 +20560,25 @@ _detalhes_database = {
 							["targets"] = {
 								["Araknath"] = 19695,
 							},
-							["last_dps"] = 372.89133566844,
+							["custom"] = 0,
 							["pets"] = {
 								"Dreadstalker <Scolo-Lightbringer>", -- [1]
 								"Wild Imp <Scolo-Lightbringer>", -- [2]
 								"Demonic Tyrant <Scolo-Lightbringer>", -- [3]
 							},
-							["damage_taken"] = 4565.001676,
-							["total"] = 19695.001676,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 372.89133566844,
+							["end_time"] = 1648310590,
+							["classe"] = "WARLOCK",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 8131.001676,
-							["tipo"] = 1,
-							["classe"] = "WARLOCK",
+							["damage_taken"] = 4565.001676,
+							["friendlyfire_total"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1648310590,
+							["total"] = 19695.001676,
 							["delay"] = 0,
 							["aID"] = "1388-08384D39",
-							["boss_fight_component"] = true,
+							["nome"] = "Scolo-Lightbringer",
 							["spells"] = {
 								["_ActorTable"] = {
 									[86040] = {
@@ -21122,8 +20725,8 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["custom"] = 0,
-							["nome"] = "Scolo-Lightbringer",
+							["tipo"] = 1,
+							["boss_fight_component"] = true,
 							["spec"] = 266,
 							["colocacao"] = 4,
 							["last_event"] = 1648310590,
@@ -21159,8 +20762,8 @@ _detalhes_database = {
 							},
 							["nome"] = "Xanthoros",
 							["end_time"] = 1648310590,
-							["last_event"] = 1648310590,
-							["last_dps"] = 196.8306343222826,
+							["damage_taken"] = 24868.003613,
+							["aID"] = "1301-0A44C97F",
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -21364,8 +20967,8 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["aID"] = "1301-0A44C97F",
-							["damage_taken"] = 24868.003613,
+							["last_event"] = 1648310590,
+							["last_dps"] = 196.8306343222826,
 							["custom"] = 0,
 							["tipo"] = 1,
 							["avoidance"] = {
@@ -21448,19 +21051,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["nome"] = "Araknath",
+							["friendlyfire_total"] = 0,
+							["aID"] = "76141",
 							["raid_targets"] = {
 								3965, -- [1]
 							},
 							["total_without_pet"] = 41882.00464,
-							["friendlyfire_total"] = 0,
 							["monster"] = true,
+							["dps_started"] = false,
 							["total"] = 41882.00464,
-							["damage_taken"] = 138536.00464,
-							["friendlyfire"] = {
-							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -21613,15 +21215,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "Araknath",
+							["on_hold"] = false,
 							["end_time"] = 1648310590,
-							["aID"] = "76141",
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
 							["last_event"] = 1648310588,
-							["on_hold"] = false,
+							["damage_taken"] = 138536.00464,
 							["start_time"] = 1648310538,
 							["serial"] = "Creature-0-4235-1209-25977-76141-00003F38DF",
-							["dps_started"] = false,
+							["classe"] = "UNKNOW",
 						}, -- [6]
 						{
 							["flag_original"] = 2632,
@@ -21636,19 +21239,18 @@ _detalhes_database = {
 							["delay"] = 1648310592,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["nome"] = "Skyreach Sun Construct Prototype",
+							["friendlyfire_total"] = 0,
+							["aID"] = "76142",
 							["raid_targets"] = {
 								2489, -- [1]
 							},
 							["total_without_pet"] = 6019.005142,
-							["friendlyfire_total"] = 0,
 							["monster"] = true,
+							["dps_started"] = false,
 							["total"] = 6019.005142,
-							["damage_taken"] = 0.005142,
-							["friendlyfire"] = {
-							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -21685,15 +21287,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "Skyreach Sun Construct Prototype",
+							["on_hold"] = false,
 							["end_time"] = 1648310612,
-							["aID"] = "76142",
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
 							["last_event"] = 1648310592,
-							["on_hold"] = false,
+							["damage_taken"] = 0.005142,
 							["start_time"] = 1648310591,
 							["serial"] = "Creature-0-4235-1209-25977-76142-00033F38DF",
-							["dps_started"] = false,
+							["classe"] = "UNKNOW",
 						}, -- [7]
 						{
 							["flag_original"] = 8466,
@@ -21707,19 +21310,19 @@ _detalhes_database = {
 							["delay"] = 1648310570,
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
-							["tipo"] = 1,
-							["aID"] = "98035",
+							["boss_fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 5947.003341,
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["dps_started"] = false,
 							["end_time"] = 1648310590,
-							["damage_taken"] = 661.003341,
+							["friendlyfire"] = {
+							},
 							["ownerName"] = "Scolo-Lightbringer",
-							["boss_fight_component"] = true,
+							["nome"] = "Dreadstalker <Scolo-Lightbringer>",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -21781,15 +21384,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "Dreadstalker <Scolo-Lightbringer>",
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["total"] = 5947.003341,
 							["custom"] = 0,
 							["last_event"] = 1648310590,
-							["on_hold"] = false,
+							["damage_taken"] = 661.003341,
 							["start_time"] = 1648310552,
 							["serial"] = "Creature-0-4235-1209-25977-98035-00003F390A",
-							["classe"] = "PET",
+							["aID"] = "98035",
 						}, -- [8]
 						{
 							["flag_original"] = 8466,
@@ -21803,19 +21406,19 @@ _detalhes_database = {
 							["delay"] = 1648310570,
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
-							["tipo"] = 1,
-							["aID"] = "55659",
+							["boss_fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3236.004868,
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["dps_started"] = false,
 							["end_time"] = 1648310590,
-							["damage_taken"] = 962.004868,
+							["friendlyfire"] = {
+							},
 							["ownerName"] = "Scolo-Lightbringer",
-							["boss_fight_component"] = true,
+							["nome"] = "Wild Imp <Scolo-Lightbringer>",
 							["spells"] = {
 								["_ActorTable"] = {
 									[104318] = {
@@ -21849,15 +21452,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "Wild Imp <Scolo-Lightbringer>",
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["total"] = 3236.004868,
 							["custom"] = 0,
 							["last_event"] = 1648310590,
-							["on_hold"] = false,
+							["damage_taken"] = 962.004868,
 							["start_time"] = 1648310559,
 							["serial"] = "Creature-0-4235-1209-25977-55659-00003F38FA",
-							["classe"] = "PET",
+							["aID"] = "55659",
 						}, -- [9]
 						{
 							["flag_original"] = 8466,
@@ -21870,19 +21473,19 @@ _detalhes_database = {
 							["delay"] = 1648310557,
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
-							["tipo"] = 1,
-							["aID"] = "135002",
+							["boss_fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2381.006234,
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["dps_started"] = false,
 							["end_time"] = 1648310590,
-							["damage_taken"] = 0.006234,
+							["friendlyfire"] = {
+							},
 							["ownerName"] = "Scolo-Lightbringer",
-							["boss_fight_component"] = true,
+							["nome"] = "Demonic Tyrant <Scolo-Lightbringer>",
 							["spells"] = {
 								["_ActorTable"] = {
 									[270481] = {
@@ -21916,15 +21519,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "Demonic Tyrant <Scolo-Lightbringer>",
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["total"] = 2381.006234,
 							["custom"] = 0,
 							["last_event"] = 1648310557,
-							["on_hold"] = false,
+							["damage_taken"] = 0.006234,
 							["start_time"] = 1648310576,
 							["serial"] = "Creature-0-4235-1209-25977-135002-00003F390E",
-							["classe"] = "PET",
+							["aID"] = "135002",
 						}, -- [10]
 					},
 				}, -- [1]
@@ -21960,8 +21563,8 @@ _detalhes_database = {
 							["healing_taken"] = 24194.003292,
 							["totaldenied"] = 0.003292,
 							["end_time"] = 1648310590,
-							["last_event"] = 1648310589,
 							["heal_enemy_amt"] = 0,
+							["aID"] = "1301-0A44C97F",
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -21985,9 +21588,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 23,
 										["n_curado"] = 358,
 										["totaldenied"] = 0,
+										["n_amt"] = 23,
 										["absorbed"] = 0,
 									},
 									[227034] = {
@@ -22010,17 +21613,17 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 78,
 										["n_curado"] = 1382,
 										["totaldenied"] = 0,
+										["n_amt"] = 78,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["aID"] = "1301-0A44C97F",
 							["spec"] = 104,
+							["last_event"] = 1648310589,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["nome"] = "Xanthoros",
@@ -22040,12 +21643,11 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "DEMONHUNTER",
 							["totalover"] = 7444.005398,
 							["total_without_pet"] = 4898.005398,
 							["total"] = 4898.005398,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 577,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -22057,9 +21659,10 @@ _detalhes_database = {
 							},
 							["totalover_without_pet"] = 0.005398,
 							["healing_taken"] = 6617.005398,
-							["spec"] = 577,
-							["end_time"] = 1648310590,
 							["last_event"] = 1648310587,
+							["end_time"] = 1648310590,
+							["targets_absorbs"] = {
+							},
 							["targets_overheal"] = {
 								["Illidaryr"] = 7444,
 							},
@@ -22086,9 +21689,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 15,
 										["n_curado"] = 4097,
 										["totaldenied"] = 0,
+										["n_amt"] = 15,
 										["absorbed"] = 0,
 									},
 									[345423] = {
@@ -22111,9 +21714,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 101,
 										["n_curado"] = 801,
 										["totaldenied"] = 0,
+										["n_amt"] = 101,
 										["absorbed"] = 0,
 									},
 								},
@@ -22121,10 +21724,10 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["totaldenied"] = 0.005398,
-							["aID"] = "1301-0878F932",
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["classe"] = "DEMONHUNTER",
+							["aID"] = "1301-0878F932",
 							["start_time"] = 1648310539,
 							["delay"] = 0,
 							["boss_fight_component"] = true,
@@ -22140,13 +21743,11 @@ _detalhes_database = {
 								"Dreadstalker <Scolo-Lightbringer>", -- [2]
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "WARLOCK",
 							["totalover"] = 431.002442,
 							["total_without_pet"] = 992.002442,
 							["total"] = 1066.002442,
-							["targets_absorbs"] = {
-								["Scolo-Lightbringer"] = 967,
-							},
+							["spec"] = 266,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -22160,9 +21761,11 @@ _detalhes_database = {
 							},
 							["totalover_without_pet"] = 0.002442,
 							["healing_taken"] = 2724.002442,
-							["spec"] = 266,
-							["end_time"] = 1648310590,
 							["last_event"] = 1648310589,
+							["end_time"] = 1648310590,
+							["targets_absorbs"] = {
+								["Scolo-Lightbringer"] = 967,
+							},
 							["targets_overheal"] = {
 								["Scolo-Lightbringer"] = 431,
 							},
@@ -22190,9 +21793,9 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 3,
 										["n_curado"] = 967,
 										["totaldenied"] = 0,
-										["n_amt"] = 3,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -22215,9 +21818,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 4,
 										["n_curado"] = 25,
 										["totaldenied"] = 0,
+										["n_amt"] = 4,
 										["absorbed"] = 0,
 									},
 								},
@@ -22225,10 +21828,10 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["totaldenied"] = 0.002442,
-							["aID"] = "1388-08384D39",
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["classe"] = "WARLOCK",
+							["aID"] = "1388-08384D39",
 							["start_time"] = 1648310575,
 							["delay"] = 1648310570,
 							["boss_fight_component"] = true,
@@ -22241,14 +21844,11 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "PALADIN",
 							["totalover"] = 9330.003353,
 							["total_without_pet"] = 33743.003353,
 							["total"] = 33743.003353,
-							["targets_absorbs"] = {
-								["Xanthoros"] = 2412,
-								["Shaazia-DefiasBrotherhood"] = 883,
-							},
+							["spec"] = 65,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -22264,9 +21864,12 @@ _detalhes_database = {
 							},
 							["totalover_without_pet"] = 0.003353,
 							["healing_taken"] = 6454.003353,
-							["spec"] = 65,
-							["end_time"] = 1648310590,
 							["last_event"] = 1648310589,
+							["end_time"] = 1648310590,
+							["targets_absorbs"] = {
+								["Xanthoros"] = 2412,
+								["Shaazia-DefiasBrotherhood"] = 883,
+							},
 							["targets_overheal"] = {
 								["Shaazia-DefiasBrotherhood"] = 5485,
 								["Illidaryr"] = 169,
@@ -22297,9 +21900,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 146,
 										["c_curado"] = 710,
-										["n_amt"] = 53,
 										["n_curado"] = 912,
 										["totaldenied"] = 0,
+										["n_amt"] = 53,
 										["absorbed"] = 0,
 									},
 									[325983] = {
@@ -22324,9 +21927,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 496,
 										["c_curado"] = 496,
-										["n_amt"] = 8,
 										["n_curado"] = 870,
 										["totaldenied"] = 0,
+										["n_amt"] = 8,
 										["absorbed"] = 0,
 									},
 									[25914] = {
@@ -22351,58 +21954,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 1468,
 										["c_curado"] = 7467,
-										["n_amt"] = 2,
 										["n_curado"] = 1878,
 										["totaldenied"] = 0,
-										["absorbed"] = 0,
-									},
-									[296330] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Shaazia-DefiasBrotherhood"] = 850,
-										},
-										["n_max"] = 0,
-										["targets"] = {
-											["Shaazia-DefiasBrotherhood"] = 0,
-										},
-										["n_min"] = 0,
-										["counter"] = 2,
-										["overheal"] = 850,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 296330,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
 										["n_amt"] = 2,
-										["n_curado"] = 0,
-										["totaldenied"] = 0,
-										["absorbed"] = 0,
-									},
-									[82326] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 1450,
-										["targets"] = {
-											["Xanthoros"] = 1450,
-										},
-										["n_min"] = 1450,
-										["counter"] = 1,
-										["overheal"] = 0,
-										["total"] = 1450,
-										["c_max"] = 0,
-										["id"] = 82326,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_amt"] = 1,
-										["n_curado"] = 1450,
-										["totaldenied"] = 0,
 										["absorbed"] = 0,
 									},
 									[303380] = {
@@ -22426,9 +21980,58 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 9,
 										["n_curado"] = 883,
 										["totaldenied"] = 0,
+										["n_amt"] = 9,
+										["absorbed"] = 0,
+									},
+									[82326] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 1450,
+										["targets"] = {
+											["Xanthoros"] = 1450,
+										},
+										["n_min"] = 1450,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 1450,
+										["c_max"] = 0,
+										["id"] = 82326,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 1450,
+										["totaldenied"] = 0,
+										["n_amt"] = 1,
+										["absorbed"] = 0,
+									},
+									[296330] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Shaazia-DefiasBrotherhood"] = 850,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Shaazia-DefiasBrotherhood"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 2,
+										["overheal"] = 850,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 296330,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 									[337824] = {
@@ -22451,90 +22054,10 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 8,
 										["n_curado"] = 2412,
 										["totaldenied"] = 0,
-										["n_amt"] = 8,
 										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-									[338788] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 883,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 277,
-										["targets"] = {
-											["Shaazia-DefiasBrotherhood"] = 883,
-										},
-										["n_min"] = 11,
-										["counter"] = 5,
-										["overheal"] = 0,
-										["total"] = 883,
-										["c_max"] = 0,
-										["id"] = 338788,
-										["targets_absorbs"] = {
-											["Shaazia-DefiasBrotherhood"] = 883,
-										},
-										["c_curado"] = 0,
-										["c_min"] = 0,
-										["n_curado"] = 883,
-										["totaldenied"] = 0,
-										["n_amt"] = 5,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-									[85673] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Timewarrior-Ravencrest"] = 1445,
-											["Xanthoros"] = 326,
-											["Shaazia-DefiasBrotherhood"] = 69,
-										},
-										["n_max"] = 2195,
-										["targets"] = {
-											["Timewarrior-Ravencrest"] = 949,
-											["Xanthoros"] = 3847,
-											["Shaazia-DefiasBrotherhood"] = 3681,
-										},
-										["n_min"] = 949,
-										["counter"] = 5,
-										["overheal"] = 1840,
-										["total"] = 8477,
-										["c_max"] = 0,
-										["id"] = 85673,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_amt"] = 5,
-										["n_curado"] = 8477,
-										["totaldenied"] = 0,
-										["absorbed"] = 0,
-									},
-									[53652] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Xanthoros"] = 726,
-										},
-										["n_max"] = 990,
-										["targets"] = {
-											["Xanthoros"] = 3779,
-										},
-										["n_min"] = 46,
-										["counter"] = 8,
-										["overheal"] = 726,
-										["total"] = 3779,
-										["c_max"] = 0,
-										["id"] = 53652,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_amt"] = 8,
-										["n_curado"] = 3779,
-										["totaldenied"] = 0,
 										["absorbed"] = 0,
 									},
 									[183811] = {
@@ -22561,9 +22084,89 @@ _detalhes_database = {
 										},
 										["c_min"] = 3,
 										["c_curado"] = 1430,
-										["n_amt"] = 49,
 										["n_curado"] = 2096,
 										["totaldenied"] = 0,
+										["n_amt"] = 49,
+										["absorbed"] = 0,
+									},
+									[85673] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Timewarrior-Ravencrest"] = 1445,
+											["Xanthoros"] = 326,
+											["Shaazia-DefiasBrotherhood"] = 69,
+										},
+										["n_max"] = 2195,
+										["targets"] = {
+											["Timewarrior-Ravencrest"] = 949,
+											["Xanthoros"] = 3847,
+											["Shaazia-DefiasBrotherhood"] = 3681,
+										},
+										["n_min"] = 949,
+										["counter"] = 5,
+										["overheal"] = 1840,
+										["total"] = 8477,
+										["c_max"] = 0,
+										["id"] = 85673,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 8477,
+										["totaldenied"] = 0,
+										["n_amt"] = 5,
+										["absorbed"] = 0,
+									},
+									[53652] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Xanthoros"] = 726,
+										},
+										["n_max"] = 990,
+										["targets"] = {
+											["Xanthoros"] = 3779,
+										},
+										["n_min"] = 46,
+										["counter"] = 8,
+										["overheal"] = 726,
+										["total"] = 3779,
+										["c_max"] = 0,
+										["id"] = 53652,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 3779,
+										["totaldenied"] = 0,
+										["n_amt"] = 8,
+										["absorbed"] = 0,
+									},
+									[338788] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 883,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 277,
+										["targets"] = {
+											["Shaazia-DefiasBrotherhood"] = 883,
+										},
+										["n_min"] = 11,
+										["counter"] = 5,
+										["overheal"] = 0,
+										["total"] = 883,
+										["c_max"] = 0,
+										["id"] = 338788,
+										["targets_absorbs"] = {
+											["Shaazia-DefiasBrotherhood"] = 883,
+										},
+										["c_curado"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 5,
+										["n_curado"] = 883,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
 								},
@@ -22571,10 +22174,10 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["totaldenied"] = 0.003353,
-							["aID"] = "1096-05E8A18D",
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["classe"] = "PALADIN",
+							["aID"] = "1096-05E8A18D",
 							["start_time"] = 1648310540,
 							["delay"] = 0,
 							["boss_fight_component"] = true,
@@ -22586,7 +22189,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "UNKNOW",
+							["aID"] = "76142",
 							["totalover"] = 0.006119,
 							["total_without_pet"] = 0.006119,
 							["monster"] = true,
@@ -22605,23 +22208,23 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.006119,
 							["healing_taken"] = 0.006119,
 							["end_time"] = 1648310590,
-							["targets_overheal"] = {
-							},
+							["nome"] = "Skyreach Sun Construct Prototype",
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 3,
 							},
-							["tipo"] = 2,
-							["heal_enemy_amt"] = 20742,
-							["totaldenied"] = 0.006119,
-							["custom"] = 0,
+							["targets_overheal"] = {
+							},
 							["last_event"] = 1648310589,
-							["aID"] = "76142",
+							["heal_enemy_amt"] = 20742,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.006119,
 							["start_time"] = 1648310590,
 							["delay"] = 0,
-							["nome"] = "Skyreach Sun Construct Prototype",
+							["classe"] = "UNKNOW",
 						}, -- [5]
 						{
 							["flag_original"] = 68168,
@@ -22630,7 +22233,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "UNKNOW",
+							["aID"] = "76141",
 							["totalover"] = 0.001023,
 							["total_without_pet"] = 0.001023,
 							["monster"] = true,
@@ -22648,23 +22251,23 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.001023,
 							["healing_taken"] = 0.001023,
 							["end_time"] = 1648310590,
-							["targets_overheal"] = {
-							},
+							["nome"] = "Araknath",
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 3,
 							},
-							["tipo"] = 2,
-							["heal_enemy_amt"] = 0,
-							["totaldenied"] = 0.001023,
-							["custom"] = 0,
+							["targets_overheal"] = {
+							},
 							["last_event"] = 0,
-							["aID"] = "76141",
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.001023,
 							["start_time"] = 1648310590,
 							["delay"] = 0,
-							["nome"] = "Araknath",
+							["classe"] = "UNKNOW",
 						}, -- [6]
 						{
 							["flag_original"] = 1298,
@@ -22675,12 +22278,11 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "WARRIOR",
 							["totalover"] = 0.00503,
 							["total_without_pet"] = 1248.00503,
 							["total"] = 1248.00503,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 72,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -22692,9 +22294,10 @@ _detalhes_database = {
 							},
 							["totalover_without_pet"] = 0.00503,
 							["healing_taken"] = 2632.00503,
-							["spec"] = 72,
-							["end_time"] = 1648310590,
 							["last_event"] = 1648310588,
+							["end_time"] = 1648310590,
+							["targets_absorbs"] = {
+							},
 							["targets_overheal"] = {
 							},
 							["nome"] = "Timewarrior-Ravencrest",
@@ -22719,9 +22322,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 2,
 										["n_curado"] = 668,
 										["totaldenied"] = 0,
+										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 									[117313] = {
@@ -22743,9 +22346,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 3,
 										["n_curado"] = 580,
 										["totaldenied"] = 0,
+										["n_amt"] = 3,
 										["absorbed"] = 0,
 									},
 								},
@@ -22753,10 +22356,10 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["totaldenied"] = 0.00503,
-							["aID"] = "1329-09C6E2DC",
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["classe"] = "WARRIOR",
+							["aID"] = "1329-09C6E2DC",
 							["start_time"] = 1648310583,
 							["delay"] = 1648310562,
 							["boss_fight_component"] = true,
@@ -22768,7 +22371,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "PET",
+							["aID"] = "55659",
 							["totalover"] = 0.008685,
 							["total_without_pet"] = 13.008685,
 							["total"] = 13.008685,
@@ -22786,9 +22389,7 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.008685,
 							["healing_taken"] = 13.008685,
 							["end_time"] = 1648310590,
-							["healing_from"] = {
-								["Wild Imp <Scolo-Lightbringer>"] = true,
-							},
+							["boss_fight_component"] = true,
 							["ownerName"] = "Scolo-Lightbringer",
 							["nome"] = "Wild Imp <Scolo-Lightbringer>",
 							["spells"] = {
@@ -22812,23 +22413,25 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 7,
 										["n_curado"] = 13,
 										["totaldenied"] = 0,
+										["n_amt"] = 7,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
-							["tipo"] = 2,
-							["heal_enemy_amt"] = 0,
-							["totaldenied"] = 0.008685,
-							["custom"] = 0,
+							["healing_from"] = {
+								["Wild Imp <Scolo-Lightbringer>"] = true,
+							},
 							["last_event"] = 1648310563,
-							["aID"] = "55659",
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.008685,
 							["start_time"] = 1648310587,
 							["delay"] = 1648310563,
-							["boss_fight_component"] = true,
+							["classe"] = "PET",
 						}, -- [8]
 						{
 							["flag_original"] = 8466,
@@ -22837,7 +22440,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "PET",
+							["aID"] = "98035",
 							["totalover"] = 0.003894,
 							["total_without_pet"] = 61.003894,
 							["total"] = 61.003894,
@@ -22855,9 +22458,7 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.003894,
 							["healing_taken"] = 61.003894,
 							["end_time"] = 1648310590,
-							["healing_from"] = {
-								["Dreadstalker <Scolo-Lightbringer>"] = true,
-							},
+							["boss_fight_component"] = true,
 							["ownerName"] = "Scolo-Lightbringer",
 							["nome"] = "Dreadstalker <Scolo-Lightbringer>",
 							["spells"] = {
@@ -22881,23 +22482,25 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 8,
 										["n_curado"] = 61,
 										["totaldenied"] = 0,
+										["n_amt"] = 8,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
-							["tipo"] = 2,
-							["heal_enemy_amt"] = 0,
-							["totaldenied"] = 0.003894,
-							["custom"] = 0,
+							["healing_from"] = {
+								["Dreadstalker <Scolo-Lightbringer>"] = true,
+							},
 							["last_event"] = 1648310588,
-							["aID"] = "98035",
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.003894,
 							["start_time"] = 1648310581,
 							["delay"] = 1648310570,
-							["boss_fight_component"] = true,
+							["classe"] = "PET",
 						}, -- [9]
 					},
 				}, -- [2]
@@ -22925,9 +22528,9 @@ _detalhes_database = {
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["tipo"] = 3,
 							["aID"] = "1301-0878F932",
 							["alternatepower"] = 0.003956,
+							["tipo"] = 3,
 							["last_event"] = 1648310589,
 							["flag_original"] = 1298,
 							["spec"] = 577,
@@ -22948,7 +22551,7 @@ _detalhes_database = {
 							["total"] = 164.8054939655953,
 							["spec"] = 104,
 							["totalover"] = 0.005493,
-							["boss_fight_component"] = true,
+							["nome"] = "Xanthoros",
 							["spells"] = {
 								["_ActorTable"] = {
 									[33917] = {
@@ -22998,7 +22601,7 @@ _detalhes_database = {
 							["alternatepower"] = 0.005493,
 							["isTank"] = true,
 							["serial"] = "Player-1301-0A44C97F",
-							["nome"] = "Xanthoros",
+							["boss_fight_component"] = true,
 						}, -- [2]
 						{
 							["received"] = 555.6060459311905,
@@ -23013,7 +22616,7 @@ _detalhes_database = {
 							["passiveover"] = 0.006044,
 							["total"] = 555.6060459311905,
 							["totalover"] = 13.50604423841858,
-							["boss_fight_component"] = true,
+							["nome"] = "Timewarrior-Ravencrest",
 							["spells"] = {
 								["_ActorTable"] = {
 									[85288] = {
@@ -23034,15 +22637,6 @@ _detalhes_database = {
 										},
 										["counter"] = 2,
 									},
-									[23881] = {
-										["total"] = 104.5,
-										["id"] = 23881,
-										["totalover"] = 7.5,
-										["targets"] = {
-											["Timewarrior-Ravencrest"] = 104.5,
-										},
-										["counter"] = 10,
-									},
 									[307871] = {
 										["total"] = 50,
 										["id"] = 307871,
@@ -23051,6 +22645,15 @@ _detalhes_database = {
 											["Timewarrior-Ravencrest"] = 50,
 										},
 										["counter"] = 1,
+									},
+									[23881] = {
+										["total"] = 104.5,
+										["id"] = 23881,
+										["totalover"] = 7.5,
+										["targets"] = {
+											["Timewarrior-Ravencrest"] = 104.5,
+										},
+										["counter"] = 10,
 									},
 									[107574] = {
 										["total"] = 36.90000152587891,
@@ -23084,13 +22687,13 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["spec"] = 72,
-							["tipo"] = 3,
 							["aID"] = "1329-09C6E2DC",
 							["last_event"] = 1648310590,
+							["tipo"] = 3,
 							["alternatepower"] = 0.006044,
 							["flag_original"] = 1298,
 							["serial"] = "Player-1329-09C6E2DC",
-							["nome"] = "Timewarrior-Ravencrest",
+							["boss_fight_component"] = true,
 						}, -- [3]
 						{
 							["received"] = 0.005567,
@@ -23112,9 +22715,9 @@ _detalhes_database = {
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["tipo"] = 3,
 							["aID"] = "1096-05E8A18D",
 							["alternatepower"] = 0.005567,
+							["tipo"] = 3,
 							["last_event"] = 1648310592,
 							["flag_original"] = 1298,
 							["spec"] = 65,
@@ -23141,9 +22744,9 @@ _detalhes_database = {
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["tipo"] = 3,
 							["aID"] = "1388-08384D39",
 							["alternatepower"] = 0.005199,
+							["tipo"] = 3,
 							["last_event"] = 1648310590,
 							["flag_original"] = 1298,
 							["spec"] = 266,
@@ -23365,17 +22968,6 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[333943] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 1,
-										["id"] = 333943,
-										["uptime"] = 11,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
 									[332514] = {
 										["counter"] = 0,
 										["actived"] = false,
@@ -23383,6 +22975,17 @@ _detalhes_database = {
 										["refreshamt"] = 39,
 										["id"] = 332514,
 										["uptime"] = 52,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[333943] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 1,
+										["id"] = 333943,
+										["uptime"] = 11,
 										["targets"] = {
 										},
 										["appliedamt"] = 1,
@@ -23413,8 +23016,9 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 150,
-							["tipo"] = 4,
-							["boss_fight_component"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["nome"] = "Shaazia-DefiasBrotherhood",
 							["spec"] = 65,
 							["grupo"] = true,
 							["spell_cast"] = {
@@ -23429,21 +23033,31 @@ _detalhes_database = {
 								[53600] = 4,
 								[324748] = 7,
 							},
-							["debuff_uptime_targets"] = {
-							},
 							["classe"] = "PALADIN",
 							["last_event"] = 1648310590,
+							["tipo"] = 4,
 							["pets"] = {
 							},
 							["buff_uptime_targets"] = {
 							},
 							["serial"] = "Player-1096-05E8A18D",
-							["nome"] = "Shaazia-DefiasBrotherhood",
+							["boss_fight_component"] = true,
 						}, -- [1]
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
+									[345335] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 345335,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
 									[295367] = {
 										["counter"] = 0,
 										["actived"] = false,
@@ -23455,13 +23069,13 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 2,
 									},
-									[345335] = {
+									[323802] = {
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 0,
 										["refreshamt"] = 0,
-										["id"] = 345335,
-										["uptime"] = 6,
+										["id"] = 323802,
+										["uptime"] = 30,
 										["targets"] = {
 										},
 										["appliedamt"] = 1,
@@ -23477,17 +23091,6 @@ _detalhes_database = {
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["appliedamt"] = 0,
-									},
-									[323802] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 323802,
-										["uptime"] = 30,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
@@ -23537,16 +23140,16 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 4,
 									},
-									[258920] = {
+									[212800] = {
 										["counter"] = 0,
 										["actived"] = false,
-										["activedamt"] = 3,
+										["activedamt"] = 1,
 										["refreshamt"] = 0,
-										["id"] = 258920,
-										["uptime"] = 28,
+										["id"] = 212800,
+										["uptime"] = 10,
 										["targets"] = {
 										},
-										["appliedamt"] = 3,
+										["appliedamt"] = 1,
 									},
 									[269239] = {
 										["counter"] = 0,
@@ -23559,16 +23162,16 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[271711] = {
+									[258920] = {
 										["counter"] = 0,
 										["actived"] = false,
-										["activedamt"] = 2,
+										["activedamt"] = 3,
 										["refreshamt"] = 0,
-										["id"] = 271711,
-										["uptime"] = 17,
+										["id"] = 258920,
+										["uptime"] = 28,
 										["targets"] = {
 										},
-										["appliedamt"] = 2,
+										["appliedamt"] = 3,
 									},
 									[279902] = {
 										["counter"] = 0,
@@ -23581,16 +23184,16 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 5,
 									},
-									[212800] = {
+									[271711] = {
 										["counter"] = 0,
 										["actived"] = false,
-										["activedamt"] = 1,
+										["activedamt"] = 2,
 										["refreshamt"] = 0,
-										["id"] = 212800,
-										["uptime"] = 10,
+										["id"] = 271711,
+										["uptime"] = 17,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["appliedamt"] = 2,
 									},
 									[93795] = {
 										["counter"] = 0,
@@ -23663,8 +23266,9 @@ _detalhes_database = {
 							},
 							["debuff_uptime"] = 53,
 							["serial"] = "Player-1301-0878F932",
-							["tipo"] = 4,
-							["boss_fight_component"] = true,
+							["classe"] = "DEMONHUNTER",
+							["debuff_uptime_targets"] = {
+							},
 							["spec"] = 577,
 							["grupo"] = true,
 							["spell_cast"] = {
@@ -23680,10 +23284,10 @@ _detalhes_database = {
 								[162243] = 14,
 								[258920] = 2,
 							},
-							["classe"] = "DEMONHUNTER",
 							["pets"] = {
 							},
 							["last_event"] = 1648310590,
+							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
 							["nome"] = "Illidaryr",
@@ -23699,8 +23303,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["debuff_uptime_targets"] = {
-							},
+							["boss_fight_component"] = true,
 						}, -- [2]
 						{
 							["flag_original"] = 1047,
@@ -23827,22 +23430,22 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 31,
-							["tipo"] = 4,
-							["boss_fight_component"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["nome"] = "Scolo-Lightbringer",
 							["spec"] = 266,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[264178] = 9,
 								[196277] = 3,
-								[104316] = 3,
 								[265187] = 1,
+								[104316] = 3,
 								[105174] = 8,
 								[686] = 10,
 							},
-							["debuff_uptime_targets"] = {
-							},
 							["classe"] = "WARLOCK",
 							["last_event"] = 1648310590,
+							["tipo"] = 4,
 							["pets"] = {
 								"Wild Imp <Scolo-Lightbringer>", -- [1]
 								"Demonic Tyrant <Scolo-Lightbringer>", -- [2]
@@ -23850,7 +23453,7 @@ _detalhes_database = {
 							["buff_uptime_targets"] = {
 							},
 							["serial"] = "Player-1388-08384D39",
-							["nome"] = "Scolo-Lightbringer",
+							["boss_fight_component"] = true,
 						}, -- [3]
 						{
 							["flag_original"] = 1047,
@@ -23988,8 +23591,9 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 46,
-							["tipo"] = 4,
-							["boss_fight_component"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["nome"] = "Timewarrior-Ravencrest",
 							["spec"] = 72,
 							["grupo"] = true,
 							["spell_cast"] = {
@@ -24003,16 +23607,15 @@ _detalhes_database = {
 								[307865] = 1,
 								[46924] = 1,
 							},
-							["debuff_uptime_targets"] = {
-							},
 							["classe"] = "WARRIOR",
 							["last_event"] = 1648310590,
+							["tipo"] = 4,
 							["pets"] = {
 							},
 							["buff_uptime_targets"] = {
 							},
 							["serial"] = "Player-1329-09C6E2DC",
-							["nome"] = "Timewarrior-Ravencrest",
+							["boss_fight_component"] = true,
 						}, -- [4]
 						{
 							["flag_original"] = 1047,
@@ -24192,9 +23795,10 @@ _detalhes_database = {
 							},
 							["nome"] = "Xanthoros",
 							["debuff_uptime"] = 111,
-							["tipo"] = 4,
-							["serial"] = "Player-1301-0A44C97F",
 							["boss_fight_component"] = true,
+							["serial"] = "Player-1301-0A44C97F",
+							["debuff_uptime_targets"] = {
+							},
 							["spec"] = 104,
 							["grupo"] = true,
 							["spell_cast"] = {
@@ -24208,9 +23812,9 @@ _detalhes_database = {
 								[155835] = 1,
 								[192081] = 3,
 							},
-							["classe"] = "DRUID",
 							["pets"] = {
 							},
+							["tipo"] = 4,
 							["last_event"] = 1648310590,
 							["buff_uptime_targets"] = {
 							},
@@ -24227,8 +23831,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["debuff_uptime_targets"] = {
-							},
+							["classe"] = "DRUID",
 						}, -- [5]
 						{
 							["flag_original"] = 2632,
@@ -24245,10 +23848,10 @@ _detalhes_database = {
 							["debuff_uptime"] = 0,
 							["spellschool"] = 1,
 							["nome"] = "Solar Detonation",
-							["last_event"] = 1648310538,
-							["serial"] = "Creature-0-4235-1209-25977-76376-00003F38DF",
 							["aID"] = "76376",
+							["serial"] = "Creature-0-4235-1209-25977-76376-00003F38DF",
 							["tipo"] = 4,
+							["last_event"] = 1648310538,
 							["damage_twin"] = "Skyreach Arcanologist",
 							["debuff_uptime_targets"] = {
 								["Scolo-Lightbringer"] = {
@@ -24297,7 +23900,8 @@ _detalhes_database = {
 						}, -- [8]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["boss_fight_component"] = true,
 							["aID"] = "76141",
 							["spell_cast"] = {
@@ -24305,10 +23909,9 @@ _detalhes_database = {
 								[154135] = 2,
 							},
 							["nome"] = "Araknath",
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-4235-1209-25977-76141-00003F38DF",
 							["flag_original"] = 68168,
 						}, -- [9]
@@ -24327,10 +23930,10 @@ _detalhes_database = {
 							["debuff_uptime"] = 17,
 							["spellschool"] = 4,
 							["nome"] = "Energize",
-							["last_event"] = 1648310586,
-							["serial"] = "Creature-0-4235-1209-25977-76142-00033F38DF",
 							["aID"] = "76142",
+							["serial"] = "Creature-0-4235-1209-25977-76142-00033F38DF",
 							["tipo"] = 4,
+							["last_event"] = 1648310586,
 							["damage_twin"] = "Skyreach Sun Construct Prototype",
 							["debuff_uptime_targets"] = {
 								["Illidaryr"] = {
@@ -24487,8 +24090,9 @@ _detalhes_database = {
 				["tempo_start"] = 1648310538,
 				["TimeData"] = {
 				},
-				["combat_counter"] = 2878,
 				["frags"] = {
+				},
+				["spells_cast_timeline"] = {
 				},
 				["is_boss"] = {
 					["diff_string"] = "Timewalking",
@@ -24613,8 +24217,7 @@ _detalhes_database = {
 				["data_inicio"] = "18:02:18",
 				["start_time"] = 6482.197,
 				["contra"] = "Araknath",
-				["spells_cast_timeline"] = {
-				},
+				["combat_counter"] = 2878,
 			}, -- [4]
 			{
 				{
@@ -24630,22 +24233,22 @@ _detalhes_database = {
 							["targets"] = {
 								["Ranjit"] = 43461,
 							},
-							["last_dps"] = 724.0966030389286,
+							["custom"] = 0,
 							["pets"] = {
 							},
-							["damage_taken"] = 19919.002211,
-							["total"] = 43461.002211,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 724.0966030389286,
+							["end_time"] = 1648310494,
+							["classe"] = "DEMONHUNTER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 43461.002211,
-							["tipo"] = 1,
-							["classe"] = "DEMONHUNTER",
+							["damage_taken"] = 19919.002211,
+							["friendlyfire_total"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1648310494,
+							["total"] = 43461.002211,
 							["delay"] = 0,
 							["aID"] = "1301-0878F932",
-							["boss_fight_component"] = true,
+							["nome"] = "Illidaryr",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -24817,50 +24420,22 @@ _detalhes_database = {
 										},
 										["spellschool"] = 127,
 									},
-									[295367] = {
-										["c_amt"] = 7,
-										["b_amt"] = 0,
-										["c_dmg"] = 2253,
-										["g_amt"] = 0,
-										["n_max"] = 161,
-										["targets"] = {
-											["Ranjit"] = 4182,
-										},
-										["n_dmg"] = 1929,
-										["n_min"] = 160,
-										["g_dmg"] = 0,
-										["counter"] = 19,
-										["total"] = 4182,
-										["c_max"] = 322,
-										["id"] = 295367,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["c_min"] = 321,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 12,
-										["extra"] = {
-										},
-										["spellschool"] = 4,
-									},
-									[200166] = {
+									[198813] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 185,
+										["n_max"] = 41,
 										["targets"] = {
-											["Ranjit"] = 185,
+											["Ranjit"] = 41,
 										},
-										["n_dmg"] = 185,
-										["n_min"] = 185,
+										["n_dmg"] = 41,
+										["n_min"] = 41,
 										["g_dmg"] = 0,
 										["counter"] = 1,
-										["total"] = 185,
+										["total"] = 41,
 										["c_max"] = 0,
-										["id"] = 200166,
+										["id"] = 198813,
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
@@ -24871,7 +24446,35 @@ _detalhes_database = {
 										["n_amt"] = 1,
 										["extra"] = {
 										},
-										["spellschool"] = 124,
+										["spellschool"] = 1,
+									},
+									[258921] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 111,
+										["targets"] = {
+											["Ranjit"] = 217,
+										},
+										["n_dmg"] = 217,
+										["n_min"] = 106,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 217,
+										["c_max"] = 0,
+										["id"] = 258921,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["extra"] = {
+										},
+										["spellschool"] = 4,
 									},
 									[201428] = {
 										["c_amt"] = 5,
@@ -24901,30 +24504,30 @@ _detalhes_database = {
 										},
 										["spellschool"] = 127,
 									},
-									[198813] = {
-										["c_amt"] = 0,
+									[162243] = {
+										["c_amt"] = 6,
 										["b_amt"] = 0,
-										["c_dmg"] = 0,
+										["c_dmg"] = 2256,
 										["g_amt"] = 0,
-										["n_max"] = 41,
+										["n_max"] = 224,
 										["targets"] = {
-											["Ranjit"] = 41,
+											["Ranjit"] = 4134,
 										},
-										["n_dmg"] = 41,
-										["n_min"] = 41,
+										["n_dmg"] = 1878,
+										["n_min"] = 175,
 										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 41,
-										["c_max"] = 0,
-										["id"] = 198813,
+										["counter"] = 16,
+										["total"] = 4134,
+										["c_max"] = 454,
+										["id"] = 162243,
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
 										["a_dmg"] = 0,
-										["c_min"] = 0,
+										["c_min"] = 345,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 1,
+										["n_amt"] = 10,
 										["extra"] = {
 										},
 										["spellschool"] = 1,
@@ -24957,33 +24560,33 @@ _detalhes_database = {
 										},
 										["spellschool"] = 8,
 									},
-									[162243] = {
-										["c_amt"] = 6,
+									[295367] = {
+										["c_amt"] = 7,
 										["b_amt"] = 0,
-										["c_dmg"] = 2256,
+										["c_dmg"] = 2253,
 										["g_amt"] = 0,
-										["n_max"] = 224,
+										["n_max"] = 161,
 										["targets"] = {
-											["Ranjit"] = 4134,
+											["Ranjit"] = 4182,
 										},
-										["n_dmg"] = 1878,
-										["n_min"] = 175,
+										["n_dmg"] = 1929,
+										["n_min"] = 160,
 										["g_dmg"] = 0,
-										["counter"] = 16,
-										["total"] = 4134,
-										["c_max"] = 454,
-										["id"] = 162243,
+										["counter"] = 19,
+										["total"] = 4182,
+										["c_max"] = 322,
+										["id"] = 295367,
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
 										["a_dmg"] = 0,
-										["c_min"] = 345,
+										["c_min"] = 321,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 10,
+										["n_amt"] = 12,
 										["extra"] = {
 										},
-										["spellschool"] = 1,
+										["spellschool"] = 4,
 									},
 									[323996] = {
 										["c_amt"] = 0,
@@ -25070,22 +24673,22 @@ _detalhes_database = {
 										},
 										["spellschool"] = 8,
 									},
-									[258921] = {
+									[200166] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 111,
+										["n_max"] = 185,
 										["targets"] = {
-											["Ranjit"] = 217,
+											["Ranjit"] = 185,
 										},
-										["n_dmg"] = 217,
-										["n_min"] = 106,
+										["n_dmg"] = 185,
+										["n_min"] = 185,
 										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 217,
+										["counter"] = 1,
+										["total"] = 185,
 										["c_max"] = 0,
-										["id"] = 258921,
+										["id"] = 200166,
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
@@ -25093,17 +24696,17 @@ _detalhes_database = {
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 2,
+										["n_amt"] = 1,
 										["extra"] = {
 										},
-										["spellschool"] = 4,
+										["spellschool"] = 124,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["custom"] = 0,
-							["nome"] = "Illidaryr",
+							["tipo"] = 1,
+							["boss_fight_component"] = true,
 							["spec"] = 577,
 							["colocacao"] = 1,
 							["last_event"] = 1648310494,
@@ -25122,22 +24725,22 @@ _detalhes_database = {
 							["targets"] = {
 								["Ranjit"] = 37011,
 							},
-							["last_dps"] = 616.634213275347,
+							["custom"] = 0,
 							["pets"] = {
 							},
-							["damage_taken"] = 7263.002115,
-							["total"] = 37011.002115,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 616.634213275347,
+							["end_time"] = 1648310494,
+							["classe"] = "WARRIOR",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 37011.002115,
-							["tipo"] = 1,
-							["classe"] = "WARRIOR",
+							["damage_taken"] = 7263.002115,
+							["friendlyfire_total"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1648310494,
+							["total"] = 37011.002115,
 							["delay"] = 0,
 							["aID"] = "1329-09C6E2DC",
-							["boss_fight_component"] = true,
+							["nome"] = "Timewarrior-Ravencrest",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -25510,8 +25113,8 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["custom"] = 0,
-							["nome"] = "Timewarrior-Ravencrest",
+							["tipo"] = 1,
+							["boss_fight_component"] = true,
 							["spec"] = 72,
 							["colocacao"] = 2,
 							["last_event"] = 1648310493,
@@ -25530,23 +25133,23 @@ _detalhes_database = {
 							["targets"] = {
 								["Ranjit"] = 15829,
 							},
-							["last_dps"] = 263.7244769164098,
+							["custom"] = 0,
 							["pets"] = {
 								"Kyrian Goliath <Shaazia-DefiasBrotherhood>", -- [1]
 							},
-							["damage_taken"] = 6056.006829,
-							["total"] = 15829.006829,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 263.7244769164098,
+							["end_time"] = 1648310494,
+							["classe"] = "PALADIN",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 13586.006829,
-							["tipo"] = 1,
-							["classe"] = "PALADIN",
+							["damage_taken"] = 6056.006829,
+							["friendlyfire_total"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1648310494,
+							["total"] = 15829.006829,
 							["delay"] = 0,
 							["aID"] = "1096-05E8A18D",
-							["boss_fight_component"] = true,
+							["nome"] = "Shaazia-DefiasBrotherhood",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -25577,30 +25180,30 @@ _detalhes_database = {
 										},
 										["spellschool"] = 1,
 									}, -- [1]
-									[275773] = {
-										["c_amt"] = 0,
+									[81297] = {
+										["c_amt"] = 12,
 										["b_amt"] = 0,
-										["c_dmg"] = 0,
+										["c_dmg"] = 1141,
 										["g_amt"] = 0,
-										["n_max"] = 596,
+										["n_max"] = 53,
 										["targets"] = {
-											["Ranjit"] = 2127,
+											["Ranjit"] = 3120,
 										},
-										["n_dmg"] = 2127,
-										["n_min"] = 478,
+										["n_dmg"] = 1979,
+										["n_min"] = 40,
 										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 2127,
-										["c_max"] = 0,
-										["id"] = 275773,
+										["counter"] = 57,
+										["total"] = 3120,
+										["c_max"] = 108,
+										["id"] = 81297,
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
 										["a_dmg"] = 0,
-										["c_min"] = 0,
+										["c_min"] = 82,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 4,
+										["n_amt"] = 45,
 										["extra"] = {
 										},
 										["spellschool"] = 2,
@@ -25690,30 +25293,30 @@ _detalhes_database = {
 										},
 										["spellschool"] = 4,
 									},
-									[81297] = {
-										["c_amt"] = 12,
+									[275773] = {
+										["c_amt"] = 0,
 										["b_amt"] = 0,
-										["c_dmg"] = 1141,
+										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 53,
+										["n_max"] = 596,
 										["targets"] = {
-											["Ranjit"] = 3120,
+											["Ranjit"] = 2127,
 										},
-										["n_dmg"] = 1979,
-										["n_min"] = 40,
+										["n_dmg"] = 2127,
+										["n_min"] = 478,
 										["g_dmg"] = 0,
-										["counter"] = 57,
-										["total"] = 3120,
-										["c_max"] = 108,
-										["id"] = 81297,
+										["counter"] = 4,
+										["total"] = 2127,
+										["c_max"] = 0,
+										["id"] = 275773,
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
 										["a_dmg"] = 0,
-										["c_min"] = 82,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 45,
+										["n_amt"] = 4,
 										["extra"] = {
 										},
 										["spellschool"] = 2,
@@ -25746,34 +25349,6 @@ _detalhes_database = {
 										},
 										["spellschool"] = 2,
 									},
-									[325984] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 295,
-										["g_amt"] = 0,
-										["n_max"] = 77,
-										["targets"] = {
-											["Ranjit"] = 435,
-										},
-										["n_dmg"] = 140,
-										["n_min"] = 63,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 435,
-										["c_max"] = 150,
-										["id"] = 325984,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["c_min"] = 145,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["extra"] = {
-										},
-										["spellschool"] = 2,
-									},
 									[24275] = {
 										["c_amt"] = 1,
 										["b_amt"] = 0,
@@ -25802,12 +25377,40 @@ _detalhes_database = {
 										},
 										["spellschool"] = 2,
 									},
+									[325984] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 295,
+										["g_amt"] = 0,
+										["n_max"] = 77,
+										["targets"] = {
+											["Ranjit"] = 435,
+										},
+										["n_dmg"] = 140,
+										["n_min"] = 63,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 435,
+										["c_max"] = 150,
+										["id"] = 325984,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 145,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
 								},
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["custom"] = 0,
-							["nome"] = "Shaazia-DefiasBrotherhood",
+							["tipo"] = 1,
+							["boss_fight_component"] = true,
 							["spec"] = 65,
 							["colocacao"] = 3,
 							["last_event"] = 1648310494,
@@ -25842,8 +25445,8 @@ _detalhes_database = {
 							},
 							["nome"] = "Xanthoros",
 							["end_time"] = 1648310494,
-							["last_event"] = 1648310494,
-							["last_dps"] = 215.7411747888216,
+							["damage_taken"] = 20047.001052,
+							["aID"] = "1301-0A44C97F",
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -26131,8 +25734,8 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["aID"] = "1301-0A44C97F",
-							["damage_taken"] = 20047.001052,
+							["last_event"] = 1648310494,
+							["last_dps"] = 215.7411747888216,
 							["custom"] = 0,
 							["tipo"] = 1,
 							["avoidance"] = {
@@ -26183,24 +25786,24 @@ _detalhes_database = {
 							["targets"] = {
 								["Ranjit"] = 8698,
 							},
-							["last_dps"] = 144.9160867363074,
+							["custom"] = 0,
 							["pets"] = {
 								"Wild Imp <Scolo-Lightbringer>", -- [1]
 								"Dreadstalker <Scolo-Lightbringer>", -- [2]
 							},
-							["damage_taken"] = 17072.008442,
-							["total"] = 8698.008442,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 144.9160867363074,
+							["end_time"] = 1648310494,
+							["classe"] = "WARLOCK",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3837.008442,
-							["tipo"] = 1,
-							["classe"] = "WARLOCK",
+							["damage_taken"] = 17072.008442,
+							["friendlyfire_total"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1648310494,
+							["total"] = 8698.008442,
 							["delay"] = 0,
 							["aID"] = "1388-08384D39",
-							["boss_fight_component"] = true,
+							["nome"] = "Scolo-Lightbringer",
 							["spells"] = {
 								["_ActorTable"] = {
 									[86040] = {
@@ -26347,8 +25950,8 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["custom"] = 0,
-							["nome"] = "Scolo-Lightbringer",
+							["tipo"] = 1,
+							["boss_fight_component"] = true,
 							["spec"] = 266,
 							["colocacao"] = 5,
 							["last_event"] = 1648310494,
@@ -26381,19 +25984,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["nome"] = "Ranjit",
+							["friendlyfire_total"] = 0,
+							["aID"] = "75964",
 							["raid_targets"] = {
 								6056, -- [1]
 							},
 							["total_without_pet"] = 70357.006711,
-							["friendlyfire_total"] = 0,
 							["monster"] = true,
+							["dps_started"] = false,
 							["total"] = 70357.006711,
-							["damage_taken"] = 117948.006711,
-							["friendlyfire"] = {
-							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -26707,15 +26309,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "Ranjit",
+							["on_hold"] = false,
 							["end_time"] = 1648310503,
-							["aID"] = "75964",
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
 							["last_event"] = 1648310499,
-							["on_hold"] = false,
+							["damage_taken"] = 117948.006711,
 							["start_time"] = 1648310437,
 							["serial"] = "Creature-0-4235-1209-25977-75964-00003F3807",
-							["dps_started"] = false,
+							["classe"] = "UNKNOW",
 						}, -- [6]
 						{
 							["flag_original"] = 8466,
@@ -26728,19 +26331,19 @@ _detalhes_database = {
 							["delay"] = 1648310454,
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
-							["tipo"] = 1,
-							["aID"] = "98035",
+							["boss_fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3635.008714,
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["dps_started"] = false,
 							["end_time"] = 1648310494,
-							["damage_taken"] = 0.008714,
+							["friendlyfire"] = {
+							},
 							["ownerName"] = "Scolo-Lightbringer",
-							["boss_fight_component"] = true,
+							["nome"] = "Dreadstalker <Scolo-Lightbringer>",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -26802,15 +26405,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "Dreadstalker <Scolo-Lightbringer>",
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["total"] = 3635.008714,
 							["custom"] = 0,
 							["last_event"] = 1648310490,
-							["on_hold"] = false,
+							["damage_taken"] = 0.008714,
 							["start_time"] = 1648310469,
 							["serial"] = "Creature-0-4235-1209-25977-98035-00003F38AA",
-							["classe"] = "PET",
+							["aID"] = "98035",
 						}, -- [7]
 						{
 							["flag_original"] = 8466,
@@ -26823,19 +26426,19 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
-							["tipo"] = 1,
-							["aID"] = "171396",
+							["boss_fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2243.006356,
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["dps_started"] = false,
 							["end_time"] = 1648310494,
-							["damage_taken"] = 0.006356,
+							["friendlyfire"] = {
+							},
 							["ownerName"] = "Shaazia-DefiasBrotherhood",
-							["boss_fight_component"] = true,
+							["nome"] = "Kyrian Goliath <Shaazia-DefiasBrotherhood>",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -26954,15 +26557,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "Kyrian Goliath <Shaazia-DefiasBrotherhood>",
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["total"] = 2243.006356,
 							["custom"] = 0,
 							["last_event"] = 1648310494,
-							["on_hold"] = false,
+							["damage_taken"] = 0.006356,
 							["start_time"] = 1648310483,
 							["serial"] = "Creature-0-4235-1209-25977-171396-00003F38D2",
-							["classe"] = "PET",
+							["aID"] = "171396",
 						}, -- [8]
 						{
 							["flag_original"] = 8466,
@@ -26975,19 +26578,19 @@ _detalhes_database = {
 							["delay"] = 1648310468,
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
-							["tipo"] = 1,
-							["aID"] = "55659",
+							["boss_fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1226.005848,
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["dps_started"] = false,
 							["end_time"] = 1648310494,
-							["damage_taken"] = 0.005848,
+							["friendlyfire"] = {
+							},
 							["ownerName"] = "Scolo-Lightbringer",
-							["boss_fight_component"] = true,
+							["nome"] = "Wild Imp <Scolo-Lightbringer>",
 							["spells"] = {
 								["_ActorTable"] = {
 									[104318] = {
@@ -27021,15 +26624,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "Wild Imp <Scolo-Lightbringer>",
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["total"] = 1226.005848,
 							["custom"] = 0,
 							["last_event"] = 1648310494,
-							["on_hold"] = false,
+							["damage_taken"] = 0.005848,
 							["start_time"] = 1648310474,
 							["serial"] = "Creature-0-4235-1209-25977-55659-0000BF3896",
-							["classe"] = "PET",
+							["aID"] = "55659",
 						}, -- [9]
 					},
 				}, -- [1]
@@ -27046,17 +26649,11 @@ _detalhes_database = {
 								"Kyrian Goliath <Shaazia-DefiasBrotherhood>", -- [1]
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "PALADIN",
 							["totalover"] = 18499.004119,
 							["total_without_pet"] = 48230.00411900001,
 							["total"] = 49268.00411900001,
-							["targets_absorbs"] = {
-								["Shaazia-DefiasBrotherhood"] = 2166,
-								["Timewarrior-Ravencrest"] = 644,
-								["Illidaryr"] = 660,
-								["Xanthoros"] = 489,
-								["Scolo-Lightbringer"] = 2088,
-							},
+							["spec"] = 65,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -27072,9 +26669,15 @@ _detalhes_database = {
 							},
 							["totalover_without_pet"] = 0.004119,
 							["healing_taken"] = 5350.004119,
-							["spec"] = 65,
-							["end_time"] = 1648310494,
 							["last_event"] = 1648310494,
+							["end_time"] = 1648310494,
+							["targets_absorbs"] = {
+								["Shaazia-DefiasBrotherhood"] = 2166,
+								["Timewarrior-Ravencrest"] = 644,
+								["Illidaryr"] = 660,
+								["Xanthoros"] = 489,
+								["Scolo-Lightbringer"] = 2088,
+							},
 							["targets_overheal"] = {
 								["Kyrian Goliath <Shaazia-DefiasBrotherhood>"] = 490,
 								["Shaazia-DefiasBrotherhood"] = 6839,
@@ -27106,9 +26709,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 139,
 										["c_curado"] = 633,
-										["n_amt"] = 33,
 										["n_curado"] = 1046,
 										["totaldenied"] = 0,
+										["n_amt"] = 33,
 										["absorbed"] = 0,
 									},
 									[325983] = {
@@ -27137,34 +26740,37 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 498,
-										["n_amt"] = 12,
 										["n_curado"] = 1443,
 										["totaldenied"] = 0,
+										["n_amt"] = 12,
 										["absorbed"] = 0,
 									},
-									[53652] = {
-										["c_amt"] = 0,
+									[85673] = {
+										["c_amt"] = 1,
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
-											["Xanthoros"] = 4393,
+											["Illidaryr"] = 1732,
+											["Scolo-Lightbringer"] = 1307,
 										},
-										["n_max"] = 964,
+										["n_max"] = 1956,
 										["targets"] = {
-											["Xanthoros"] = 8557,
+											["Illidaryr"] = 2139,
+											["Xanthoros"] = 1649,
+											["Scolo-Lightbringer"] = 5813,
 										},
-										["n_min"] = 0,
-										["counter"] = 29,
-										["overheal"] = 4393,
-										["total"] = 8557,
-										["c_max"] = 0,
-										["id"] = 53652,
+										["n_min"] = 183,
+										["counter"] = 6,
+										["overheal"] = 3039,
+										["total"] = 9601,
+										["c_max"] = 2406,
+										["id"] = 85673,
 										["targets_absorbs"] = {
 										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_amt"] = 29,
-										["n_curado"] = 8557,
+										["c_min"] = 2406,
+										["c_curado"] = 2406,
+										["n_curado"] = 7195,
 										["totaldenied"] = 0,
+										["n_amt"] = 5,
 										["absorbed"] = 0,
 									},
 									[25914] = {
@@ -27191,64 +26797,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 239,
 										["c_curado"] = 7716,
-										["n_amt"] = 1,
 										["n_curado"] = 818,
 										["totaldenied"] = 0,
-										["absorbed"] = 0,
-									},
-									[303380] = {
-										["c_amt"] = 2,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Xanthoros"] = 220,
-											["Timewarrior-Ravencrest"] = 736,
-										},
-										["n_max"] = 224,
-										["targets"] = {
-											["Xanthoros"] = 2201,
-											["Timewarrior-Ravencrest"] = 548,
-										},
-										["n_min"] = 120,
-										["counter"] = 15,
-										["overheal"] = 956,
-										["total"] = 2749,
-										["c_max"] = 447,
-										["id"] = 303380,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 447,
-										["n_amt"] = 13,
-										["n_curado"] = 2302,
-										["totaldenied"] = 0,
-										["absorbed"] = 0,
-									},
-									[85673] = {
-										["c_amt"] = 1,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Illidaryr"] = 1732,
-											["Scolo-Lightbringer"] = 1307,
-										},
-										["n_max"] = 1956,
-										["targets"] = {
-											["Illidaryr"] = 2139,
-											["Xanthoros"] = 1649,
-											["Scolo-Lightbringer"] = 5813,
-										},
-										["n_min"] = 183,
-										["counter"] = 6,
-										["overheal"] = 3039,
-										["total"] = 9601,
-										["c_max"] = 2406,
-										["id"] = 85673,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 2406,
-										["c_curado"] = 2406,
-										["n_amt"] = 5,
-										["n_curado"] = 7195,
-										["totaldenied"] = 0,
+										["n_amt"] = 1,
 										["absorbed"] = 0,
 									},
 									[296330] = {
@@ -27271,9 +26822,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 1,
 										["n_curado"] = 0,
 										["totaldenied"] = 0,
+										["n_amt"] = 1,
 										["absorbed"] = 0,
 									},
 									[19750] = {
@@ -27298,65 +26849,36 @@ _detalhes_database = {
 										},
 										["c_min"] = 2001,
 										["c_curado"] = 2001,
-										["n_amt"] = 1,
 										["n_curado"] = 1242,
 										["totaldenied"] = 0,
+										["n_amt"] = 1,
 										["absorbed"] = 0,
 									},
-									[338788] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 927,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 324,
-										["targets"] = {
-											["Shaazia-DefiasBrotherhood"] = 927,
-										},
-										["n_min"] = 55,
-										["counter"] = 4,
-										["overheal"] = 0,
-										["total"] = 927,
-										["c_max"] = 0,
-										["id"] = 338788,
-										["targets_absorbs"] = {
-											["Shaazia-DefiasBrotherhood"] = 927,
-										},
-										["c_curado"] = 0,
-										["c_min"] = 0,
-										["n_curado"] = 927,
-										["totaldenied"] = 0,
-										["n_amt"] = 4,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-									[183811] = {
-										["c_amt"] = 30,
+									[303380] = {
+										["c_amt"] = 2,
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
-											["Timewarrior-Ravencrest"] = 48,
-											["Xanthoros"] = 90,
+											["Xanthoros"] = 220,
+											["Timewarrior-Ravencrest"] = 736,
 										},
-										["n_max"] = 47,
+										["n_max"] = 224,
 										["targets"] = {
-											["Shaazia-DefiasBrotherhood"] = 296,
-											["Timewarrior-Ravencrest"] = 1225,
-											["Illidaryr"] = 1586,
-											["Xanthoros"] = 1680,
-											["Scolo-Lightbringer"] = 345,
+											["Xanthoros"] = 2201,
+											["Timewarrior-Ravencrest"] = 548,
 										},
-										["n_min"] = 28,
-										["counter"] = 100,
-										["overheal"] = 138,
-										["total"] = 5132,
-										["c_max"] = 93,
-										["id"] = 183811,
+										["n_min"] = 120,
+										["counter"] = 15,
+										["overheal"] = 956,
+										["total"] = 2749,
+										["c_max"] = 447,
+										["id"] = 303380,
 										["targets_absorbs"] = {
 										},
-										["c_min"] = 68,
-										["c_curado"] = 2374,
-										["n_amt"] = 70,
-										["n_curado"] = 2758,
+										["c_min"] = 0,
+										["c_curado"] = 447,
+										["n_curado"] = 2302,
 										["totaldenied"] = 0,
+										["n_amt"] = 13,
 										["absorbed"] = 0,
 									},
 									[337824] = {
@@ -27387,10 +26909,91 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 18,
 										["n_curado"] = 5120,
 										["totaldenied"] = 0,
-										["n_amt"] = 18,
 										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[183811] = {
+										["c_amt"] = 30,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Timewarrior-Ravencrest"] = 48,
+											["Xanthoros"] = 90,
+										},
+										["n_max"] = 47,
+										["targets"] = {
+											["Shaazia-DefiasBrotherhood"] = 296,
+											["Timewarrior-Ravencrest"] = 1225,
+											["Illidaryr"] = 1586,
+											["Xanthoros"] = 1680,
+											["Scolo-Lightbringer"] = 345,
+										},
+										["n_min"] = 28,
+										["counter"] = 100,
+										["overheal"] = 138,
+										["total"] = 5132,
+										["c_max"] = 93,
+										["id"] = 183811,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 68,
+										["c_curado"] = 2374,
+										["n_curado"] = 2758,
+										["totaldenied"] = 0,
+										["n_amt"] = 70,
+										["absorbed"] = 0,
+									},
+									[338788] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 927,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 324,
+										["targets"] = {
+											["Shaazia-DefiasBrotherhood"] = 927,
+										},
+										["n_min"] = 55,
+										["counter"] = 4,
+										["overheal"] = 0,
+										["total"] = 927,
+										["c_max"] = 0,
+										["id"] = 338788,
+										["targets_absorbs"] = {
+											["Shaazia-DefiasBrotherhood"] = 927,
+										},
+										["c_curado"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 4,
+										["n_curado"] = 927,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[53652] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Xanthoros"] = 4393,
+										},
+										["n_max"] = 964,
+										["targets"] = {
+											["Xanthoros"] = 8557,
+										},
+										["n_min"] = 0,
+										["counter"] = 29,
+										["overheal"] = 4393,
+										["total"] = 8557,
+										["c_max"] = 0,
+										["id"] = 53652,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 8557,
+										["totaldenied"] = 0,
+										["n_amt"] = 29,
 										["absorbed"] = 0,
 									},
 									[225311] = {
@@ -27420,9 +27023,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 5,
 										["n_curado"] = 747,
 										["totaldenied"] = 0,
+										["n_amt"] = 5,
 										["absorbed"] = 0,
 									},
 								},
@@ -27430,10 +27033,10 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["totaldenied"] = 0.004119,
-							["aID"] = "1096-05E8A18D",
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["classe"] = "PALADIN",
+							["aID"] = "1096-05E8A18D",
 							["start_time"] = 1648310437,
 							["delay"] = 0,
 							["boss_fight_component"] = true,
@@ -27447,12 +27050,11 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "WARRIOR",
 							["totalover"] = 37.006012,
 							["total_without_pet"] = 2985.006012,
 							["total"] = 2985.006012,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 72,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -27464,9 +27066,10 @@ _detalhes_database = {
 							},
 							["totalover_without_pet"] = 0.006012,
 							["healing_taken"] = 6444.006012,
-							["spec"] = 72,
-							["end_time"] = 1648310494,
 							["last_event"] = 1648310493,
+							["end_time"] = 1648310494,
+							["targets_absorbs"] = {
+							},
 							["targets_overheal"] = {
 								["Timewarrior-Ravencrest"] = 37,
 							},
@@ -27492,9 +27095,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 5,
 										["n_curado"] = 1670,
 										["totaldenied"] = 0,
+										["n_amt"] = 5,
 										["absorbed"] = 0,
 									},
 									[117313] = {
@@ -27517,9 +27120,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 7,
 										["n_curado"] = 1315,
 										["totaldenied"] = 0,
+										["n_amt"] = 7,
 										["absorbed"] = 0,
 									},
 								},
@@ -27527,10 +27130,10 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["totaldenied"] = 0.006012,
-							["aID"] = "1329-09C6E2DC",
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["classe"] = "WARRIOR",
+							["aID"] = "1329-09C6E2DC",
 							["start_time"] = 1648310461,
 							["delay"] = 1648310477,
 							["boss_fight_component"] = true,
@@ -27563,8 +27166,8 @@ _detalhes_database = {
 							["healing_taken"] = 19600.004837,
 							["totaldenied"] = 0.004837,
 							["end_time"] = 1648310494,
-							["last_event"] = 1648310494,
 							["heal_enemy_amt"] = 0,
+							["aID"] = "1301-0A44C97F",
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -27588,9 +27191,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 100,
 										["n_curado"] = 1079,
 										["totaldenied"] = 0,
+										["n_amt"] = 100,
 										["absorbed"] = 0,
 									},
 									[291843] = {
@@ -27613,9 +27216,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 28,
 										["n_curado"] = 353,
 										["totaldenied"] = 0,
+										["n_amt"] = 28,
 										["absorbed"] = 0,
 									},
 									[774] = {
@@ -27637,17 +27240,17 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 2,
 										["n_curado"] = 168,
 										["totaldenied"] = 0,
+										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["aID"] = "1301-0A44C97F",
 							["spec"] = 104,
+							["last_event"] = 1648310494,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["nome"] = "Xanthoros",
@@ -27668,13 +27271,11 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "WARLOCK",
 							["totalover"] = 150.007981,
 							["total_without_pet"] = 441.007981,
 							["total"] = 441.007981,
-							["targets_absorbs"] = {
-								["Scolo-Lightbringer"] = 388,
-							},
+							["spec"] = 266,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -27686,9 +27287,11 @@ _detalhes_database = {
 							},
 							["totalover_without_pet"] = 0.007981,
 							["healing_taken"] = 15396.007981,
-							["spec"] = 266,
-							["end_time"] = 1648310494,
 							["last_event"] = 1648310493,
+							["end_time"] = 1648310494,
+							["targets_absorbs"] = {
+								["Scolo-Lightbringer"] = 388,
+							},
 							["targets_overheal"] = {
 								["Scolo-Lightbringer"] = 150,
 							},
@@ -27716,9 +27319,9 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 14,
 										["n_curado"] = 388,
 										["totaldenied"] = 0,
-										["n_amt"] = 14,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -27741,9 +27344,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 10,
 										["n_curado"] = 53,
 										["totaldenied"] = 0,
+										["n_amt"] = 10,
 										["absorbed"] = 0,
 									},
 								},
@@ -27751,10 +27354,10 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["totaldenied"] = 0.007981,
-							["aID"] = "1388-08384D39",
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["classe"] = "WARLOCK",
+							["aID"] = "1388-08384D39",
 							["start_time"] = 1648310441,
 							["delay"] = 0,
 							["boss_fight_component"] = true,
@@ -27769,13 +27372,11 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "DEMONHUNTER",
 							["totalover"] = 3688.003468,
 							["total_without_pet"] = 11731.003468,
 							["total"] = 11731.003468,
-							["targets_absorbs"] = {
-								["Illidaryr"] = 1005,
-							},
+							["spec"] = 577,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -27787,40 +27388,17 @@ _detalhes_database = {
 							},
 							["totalover_without_pet"] = 0.003468,
 							["healing_taken"] = 19235.003468,
-							["spec"] = 577,
-							["end_time"] = 1648310494,
 							["last_event"] = 1648310494,
+							["end_time"] = 1648310494,
+							["targets_absorbs"] = {
+								["Illidaryr"] = 1005,
+							},
 							["targets_overheal"] = {
 								["Illidaryr"] = 3688,
 							},
 							["nome"] = "Illidaryr",
 							["spells"] = {
 								["_ActorTable"] = {
-									[143924] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Illidaryr"] = 630,
-										},
-										["n_max"] = 1034,
-										["targets"] = {
-											["Illidaryr"] = 6727,
-										},
-										["n_min"] = 25,
-										["counter"] = 24,
-										["overheal"] = 630,
-										["total"] = 6727,
-										["c_max"] = 0,
-										["id"] = 143924,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_amt"] = 24,
-										["n_curado"] = 6727,
-										["totaldenied"] = 0,
-										["absorbed"] = 0,
-									},
 									[345423] = {
 										["c_amt"] = 0,
 										["totalabsorb"] = 0,
@@ -27841,9 +27419,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 106,
 										["n_curado"] = 3999,
 										["totaldenied"] = 0,
+										["n_amt"] = 106,
 										["absorbed"] = 0,
 									},
 									[303390] = {
@@ -27866,10 +27444,35 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 1,
 										["n_curado"] = 1005,
 										["totaldenied"] = 0,
-										["n_amt"] = 1,
 										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Illidaryr"] = 630,
+										},
+										["n_max"] = 1034,
+										["targets"] = {
+											["Illidaryr"] = 6727,
+										},
+										["n_min"] = 25,
+										["counter"] = 24,
+										["overheal"] = 630,
+										["total"] = 6727,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 6727,
+										["totaldenied"] = 0,
+										["n_amt"] = 24,
 										["absorbed"] = 0,
 									},
 								},
@@ -27877,10 +27480,10 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["totaldenied"] = 0.003468,
-							["aID"] = "1301-0878F932",
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["classe"] = "DEMONHUNTER",
+							["aID"] = "1301-0878F932",
 							["start_time"] = 1648310445,
 							["delay"] = 0,
 							["boss_fight_component"] = true,
@@ -27892,7 +27495,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "PET",
+							["aID"] = "171396",
 							["totalover"] = 0.00303,
 							["total_without_pet"] = 1038.00303,
 							["total"] = 1038.00303,
@@ -27911,8 +27514,7 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.00303,
 							["healing_taken"] = 0.00303,
 							["end_time"] = 1648310494,
-							["healing_from"] = {
-							},
+							["boss_fight_component"] = true,
 							["ownerName"] = "Shaazia-DefiasBrotherhood",
 							["nome"] = "Kyrian Goliath <Shaazia-DefiasBrotherhood>",
 							["spells"] = {
@@ -27937,23 +27539,24 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 2,
 										["n_curado"] = 1038,
 										["totaldenied"] = 0,
+										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
-							["tipo"] = 2,
-							["heal_enemy_amt"] = 0,
-							["totaldenied"] = 0.00303,
-							["custom"] = 0,
+							["healing_from"] = {
+							},
 							["last_event"] = 1648310490,
-							["aID"] = "171396",
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.00303,
 							["start_time"] = 1648310484,
 							["delay"] = 0,
-							["boss_fight_component"] = true,
+							["classe"] = "PET",
 						}, -- [6]
 					},
 				}, -- [2]
@@ -28057,9 +27660,9 @@ _detalhes_database = {
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["tipo"] = 3,
 							["aID"] = "1301-0878F932",
 							["alternatepower"] = 0.006097,
+							["tipo"] = 3,
 							["last_event"] = 1648310491,
 							["flag_original"] = 1298,
 							["spec"] = 577,
@@ -28079,7 +27682,7 @@ _detalhes_database = {
 							["passiveover"] = 0.001633,
 							["total"] = 350.0016341920929,
 							["totalover"] = 107.1016352888184,
-							["boss_fight_component"] = true,
+							["nome"] = "Timewarrior-Ravencrest",
 							["spells"] = {
 								["_ActorTable"] = {
 									[85288] = {
@@ -28100,15 +27703,6 @@ _detalhes_database = {
 										},
 										["counter"] = 4,
 									},
-									[100] = {
-										["total"] = 14.40000057220459,
-										["id"] = 100,
-										["totalover"] = 5.599999904632568,
-										["targets"] = {
-											["Timewarrior-Ravencrest"] = 14.40000057220459,
-										},
-										["counter"] = 1,
-									},
 									[107574] = {
 										["total"] = 40,
 										["id"] = 107574,
@@ -28117,6 +27711,15 @@ _detalhes_database = {
 											["Timewarrior-Ravencrest"] = 40,
 										},
 										["counter"] = 1,
+									},
+									[23881] = {
+										["total"] = 80,
+										["id"] = 23881,
+										["totalover"] = 24,
+										["targets"] = {
+											["Timewarrior-Ravencrest"] = 80,
+										},
+										["counter"] = 12,
 									},
 									[307871] = {
 										["total"] = 14.30000019073486,
@@ -28136,27 +27739,27 @@ _detalhes_database = {
 										},
 										["counter"] = 2,
 									},
-									[23881] = {
-										["total"] = 80,
-										["id"] = 23881,
-										["totalover"] = 24,
+									[100] = {
+										["total"] = 14.40000057220459,
+										["id"] = 100,
+										["totalover"] = 5.599999904632568,
 										["targets"] = {
-											["Timewarrior-Ravencrest"] = 80,
+											["Timewarrior-Ravencrest"] = 14.40000057220459,
 										},
-										["counter"] = 12,
+										["counter"] = 1,
 									},
 								},
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 72,
-							["tipo"] = 3,
 							["aID"] = "1329-09C6E2DC",
 							["last_event"] = 1648310493,
+							["tipo"] = 3,
 							["alternatepower"] = 0.001633,
 							["flag_original"] = 1298,
 							["serial"] = "Player-1329-09C6E2DC",
-							["nome"] = "Timewarrior-Ravencrest",
+							["boss_fight_component"] = true,
 						}, -- [3]
 						{
 							["received"] = 0.003722,
@@ -28178,9 +27781,9 @@ _detalhes_database = {
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["tipo"] = 3,
 							["aID"] = "1096-05E8A18D",
 							["alternatepower"] = 0.003722,
+							["tipo"] = 3,
 							["last_event"] = 1648310503,
 							["flag_original"] = 1298,
 							["spec"] = 65,
@@ -28207,9 +27810,9 @@ _detalhes_database = {
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["tipo"] = 3,
 							["aID"] = "1388-08384D39",
 							["alternatepower"] = 0.003062,
+							["tipo"] = 3,
 							["last_event"] = 1648310487,
 							["flag_original"] = 1298,
 							["spec"] = 266,
@@ -28490,8 +28093,9 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 151,
-							["tipo"] = 4,
-							["boss_fight_component"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["nome"] = "Shaazia-DefiasBrotherhood",
 							["spec"] = 65,
 							["grupo"] = true,
 							["spell_cast"] = {
@@ -28506,17 +28110,16 @@ _detalhes_database = {
 								[35395] = 7,
 								[19750] = 2,
 							},
-							["debuff_uptime_targets"] = {
-							},
 							["classe"] = "PALADIN",
 							["last_event"] = 1648310494,
+							["tipo"] = 4,
 							["pets"] = {
 								"Kyrian Goliath <Shaazia-DefiasBrotherhood>", -- [1]
 							},
 							["buff_uptime_targets"] = {
 							},
 							["serial"] = "Player-1096-05E8A18D",
-							["nome"] = "Shaazia-DefiasBrotherhood",
+							["boss_fight_component"] = true,
 						}, -- [1]
 						{
 							["flag_original"] = 1047,
@@ -28721,8 +28324,9 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 175,
-							["tipo"] = 4,
-							["boss_fight_component"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["nome"] = "Illidaryr",
 							["spec"] = 577,
 							["grupo"] = true,
 							["spell_cast"] = {
@@ -28739,16 +28343,15 @@ _detalhes_database = {
 								[258920] = 3,
 								[198793] = 1,
 							},
-							["debuff_uptime_targets"] = {
-							},
 							["classe"] = "DEMONHUNTER",
 							["last_event"] = 1648310494,
+							["tipo"] = 4,
 							["pets"] = {
 							},
 							["buff_uptime_targets"] = {
 							},
 							["serial"] = "Player-1301-0878F932",
-							["nome"] = "Illidaryr",
+							["boss_fight_component"] = true,
 						}, -- [2]
 						{
 							["flag_original"] = 1047,
@@ -28794,16 +28397,16 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 4,
 									},
-									[108366] = {
+									[224001] = {
 										["counter"] = 0,
 										["actived"] = false,
-										["activedamt"] = 14,
+										["activedamt"] = 1,
 										["refreshamt"] = 0,
-										["id"] = 108366,
-										["uptime"] = 50,
+										["id"] = 224001,
+										["uptime"] = 60,
 										["targets"] = {
 										},
-										["appliedamt"] = 14,
+										["appliedamt"] = 1,
 									},
 									[256374] = {
 										["counter"] = 0,
@@ -28827,16 +28430,16 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[224001] = {
+									[108366] = {
 										["counter"] = 0,
 										["actived"] = false,
-										["activedamt"] = 1,
+										["activedamt"] = 14,
 										["refreshamt"] = 0,
-										["id"] = 224001,
-										["uptime"] = 60,
+										["id"] = 108366,
+										["uptime"] = 50,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["appliedamt"] = 14,
 									},
 									[205146] = {
 										["counter"] = 0,
@@ -28853,8 +28456,9 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 24,
-							["tipo"] = 4,
-							["boss_fight_component"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["nome"] = "Scolo-Lightbringer",
 							["spec"] = 266,
 							["grupo"] = true,
 							["spell_cast"] = {
@@ -28864,17 +28468,16 @@ _detalhes_database = {
 								[105174] = 4,
 								[686] = 3,
 							},
-							["debuff_uptime_targets"] = {
-							},
 							["classe"] = "WARLOCK",
 							["last_event"] = 1648310494,
+							["tipo"] = 4,
 							["pets"] = {
 								"Wild Imp <Scolo-Lightbringer>", -- [1]
 							},
 							["buff_uptime_targets"] = {
 							},
 							["serial"] = "Player-1388-08384D39",
-							["nome"] = "Scolo-Lightbringer",
+							["boss_fight_component"] = true,
 						}, -- [3]
 						{
 							["flag_original"] = 1047,
@@ -29034,8 +28637,9 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 38,
-							["tipo"] = 4,
-							["boss_fight_component"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["nome"] = "Timewarrior-Ravencrest",
 							["spec"] = 72,
 							["grupo"] = true,
 							["spell_cast"] = {
@@ -29051,16 +28655,15 @@ _detalhes_database = {
 								[1464] = 1,
 								[46924] = 1,
 							},
-							["debuff_uptime_targets"] = {
-							},
 							["classe"] = "WARRIOR",
 							["last_event"] = 1648310494,
+							["tipo"] = 4,
 							["pets"] = {
 							},
 							["buff_uptime_targets"] = {
 							},
 							["serial"] = "Player-1329-09C6E2DC",
-							["nome"] = "Timewarrior-Ravencrest",
+							["boss_fight_component"] = true,
 						}, -- [4]
 						{
 							["flag_original"] = 1047,
@@ -29262,9 +28865,10 @@ _detalhes_database = {
 							},
 							["nome"] = "Xanthoros",
 							["debuff_uptime"] = 143,
-							["tipo"] = 4,
-							["serial"] = "Player-1301-0A44C97F",
 							["boss_fight_component"] = true,
+							["serial"] = "Player-1301-0A44C97F",
+							["debuff_uptime_targets"] = {
+							},
 							["spec"] = 104,
 							["grupo"] = true,
 							["spell_cast"] = {
@@ -29278,9 +28882,9 @@ _detalhes_database = {
 								[155835] = 1,
 								[323764] = 1,
 							},
-							["classe"] = "DRUID",
 							["pets"] = {
 							},
+							["tipo"] = 4,
 							["last_event"] = 1648310494,
 							["buff_uptime_targets"] = {
 							},
@@ -29297,27 +28901,26 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["debuff_uptime_targets"] = {
-							},
+							["classe"] = "DRUID",
 						}, -- [5]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["boss_fight_component"] = true,
 							["aID"] = "75964",
 							["spell_cast"] = {
 								[153757] = 4,
-								[153544] = 1,
 								[165731] = 1,
+								[153544] = 1,
 								[156793] = 1,
-								[165733] = 1,
 								[153315] = 2,
+								[165733] = 1,
 							},
 							["nome"] = "Ranjit",
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-4235-1209-25977-75964-00003F3807",
 							["flag_original"] = 68168,
 						}, -- [6]
@@ -29336,10 +28939,10 @@ _detalhes_database = {
 							["debuff_uptime"] = 0,
 							["spellschool"] = 1,
 							["nome"] = "Spinning Blade",
-							["last_event"] = 1648310445,
-							["serial"] = "Creature-0-4235-1209-25977-75964-00003F3807",
 							["aID"] = "75964",
+							["serial"] = "Creature-0-4235-1209-25977-75964-00003F3807",
 							["tipo"] = 4,
+							["last_event"] = 1648310445,
 							["damage_twin"] = "Ranjit",
 							["debuff_uptime_targets"] = {
 								["Illidaryr"] = {
@@ -29405,10 +29008,10 @@ _detalhes_database = {
 							["debuff_uptime"] = 90,
 							["spellschool"] = 1,
 							["nome"] = "Fan of Blades",
-							["last_event"] = 1648310493,
-							["serial"] = "Creature-0-4235-1209-25977-75964-00003F3807",
 							["aID"] = "75964",
+							["serial"] = "Creature-0-4235-1209-25977-75964-00003F3807",
 							["tipo"] = 4,
+							["last_event"] = 1648310493,
 							["damage_twin"] = "Ranjit",
 							["debuff_uptime_targets"] = {
 								["Shaazia-DefiasBrotherhood"] = {
@@ -29470,10 +29073,10 @@ _detalhes_database = {
 							["debuff_uptime"] = 4,
 							["spellschool"] = 8,
 							["nome"] = "Windwall",
-							["last_event"] = 1648310464,
-							["serial"] = "Creature-0-4235-1209-25977-75964-00003F3807",
 							["aID"] = "75964",
+							["serial"] = "Creature-0-4235-1209-25977-75964-00003F3807",
 							["tipo"] = 4,
+							["last_event"] = 1648310464,
 							["damage_twin"] = "Ranjit",
 							["debuff_uptime_targets"] = {
 								["Illidaryr"] = {
@@ -29509,10 +29112,10 @@ _detalhes_database = {
 							["debuff_uptime"] = 3,
 							["spellschool"] = 8,
 							["nome"] = "Four Winds",
-							["last_event"] = 1648310482,
-							["serial"] = "Creature-0-4235-1209-25977-75964-00003F3807",
 							["aID"] = "75964",
+							["serial"] = "Creature-0-4235-1209-25977-75964-00003F3807",
 							["tipo"] = 4,
+							["last_event"] = 1648310482,
 							["damage_twin"] = "Ranjit",
 							["debuff_uptime_targets"] = {
 								["Illidaryr"] = {
@@ -29665,8 +29268,9 @@ _detalhes_database = {
 				["tempo_start"] = 1648310434,
 				["TimeData"] = {
 				},
-				["combat_counter"] = 2875,
 				["frags"] = {
+				},
+				["spells_cast_timeline"] = {
 				},
 				["is_boss"] = {
 					["diff_string"] = "Timewalking",
@@ -30143,8 +29747,7 @@ _detalhes_database = {
 				["data_inicio"] = "18:00:35",
 				["start_time"] = 6378.803,
 				["contra"] = "Ranjit",
-				["spells_cast_timeline"] = {
-				},
+				["combat_counter"] = 2875,
 			}, -- [5]
 		},
 	},
@@ -30201,7 +29804,11 @@ _detalhes_database = {
 		["previous_boss_killed_at"] = 0,
 	},
 	["ignore_nicktag"] = false,
-	["last_day"] = "27",
+	["announce_prepots"] = {
+		["enabled"] = false,
+		["channel"] = "SELF",
+		["reverse"] = false,
+	},
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["enabled"] = true,
@@ -30299,27 +29906,16 @@ _detalhes_database = {
 			["row_height"] = 20,
 			["row_texture"] = "Details Serenity",
 			["point"] = "CENTER",
+			["author"] = "Details! Team",
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
 				0.1, -- [3]
 				0.4, -- [4]
 			},
-			["author"] = "Details! Team",
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["use_spark"] = true,
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
-			["main_frame_strata"] = "LOW",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["y"] = 4.57763671875e-05,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -30331,22 +29927,36 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
 			},
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["use_spark"] = true,
+			["font_size"] = 10,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
-			["font_size"] = 10,
+			["y"] = 4.57763671875e-05,
 			["arrow_anchor_y"] = 0,
 			["main_frame_locked"] = false,
 			["use_square_mode"] = false,
 		},
 	},
-	["last_realversion"] = 146,
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
 	["announce_damagerecord"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["cached_talents"] = {
-	},
+	["last_day"] = "27",
+	["last_realversion"] = 146,
 	["cd_tracker"] = {
 		["enabled"] = false,
 		["cds_enabled"] = {
@@ -30358,14 +29968,9 @@ _detalhes_database = {
 		["pos"] = {
 		},
 	},
-	["announce_prepots"] = {
-		["enabled"] = false,
-		["channel"] = "SELF",
-		["reverse"] = false,
-	},
-	["combat_counter"] = 2889,
+	["combat_counter"] = 2891,
 	["character_data"] = {
-		["logons"] = 171,
+		["logons"] = 173,
 	},
 	["combat_id"] = 15,
 	["savedStyles"] = {
@@ -30437,16 +30042,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 41636.015595,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["aID"] = "79466",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 4959.015595,
 					["total"] = 4959.015595,
-					["monster"] = true,
+					["fight_component"] = true,
 					["end_time"] = 1648310349,
-					["last_dps"] = 0,
+					["damage_taken"] = 41636.015595,
 					["tipo"] = 1,
 					["nome"] = "Initiate of the Rising Sun",
 					["spells"] = {
@@ -30536,23 +30141,23 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1648310312,
-					["serial"] = "Creature-0-4235-1209-25977-79466-00003F3807",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1648310312,
+					["serial"] = "Creature-0-4235-1209-25977-79466-00003F3807",
+					["dps_started"] = false,
 				}, -- [1]
 				{
 					["flag_original"] = 1297,
 					["totalabsorbed"] = 0.071184,
 					["pets"] = {
 					},
-					["classe"] = "DRUID",
+					["aID"] = "1301-0A44C97F",
 					["total_without_pet"] = 147485.071184,
 					["dps_started"] = false,
 					["total"] = 147485.071184,
@@ -30576,10 +30181,10 @@ _detalhes_database = {
 						["Adept of the Dawn"] = true,
 						["Araknath"] = true,
 						["Whirling Dervish"] = true,
-						["Defense Construct"] = true,
-						["Initiate of the Rising Sun"] = true,
-						["Solar Flare"] = true,
 						["High Sage Viryx"] = true,
+						["Defense Construct"] = true,
+						["Solar Flare"] = true,
+						["Initiate of the Rising Sun"] = true,
 						["Blinding Solar Flare"] = true,
 						["Skyreach Shield Construct"] = true,
 						["Ranjit"] = true,
@@ -30609,7 +30214,7 @@ _detalhes_database = {
 						["Whirling Dervish"] = 3542,
 						["Skyreach Sun Talon"] = 10330,
 						["Solar Flare"] = 532,
-						["High Sage Viryx"] = 13335,
+						["Initiate of the Rising Sun"] = 3118,
 						["Blinding Solar Flare"] = 3860,
 						["Skyreach Shield Construct"] = 1744,
 						["Ranjit"] = 12949,
@@ -30625,18 +30230,18 @@ _detalhes_database = {
 						["Soaring Chakram Master"] = 4889,
 						["Life-Pact Familiar"] = 481,
 						["Driving Gale-Caller"] = 2228,
-						["Initiate of the Rising Sun"] = 3118,
+						["High Sage Viryx"] = 13335,
 						["Grand Defense Construct"] = 9321,
 					},
 					["friendlyfire_total"] = 1305,
 					["raid_targets"] = {
 					},
-					["last_dps"] = 0,
+					["nome"] = "Xanthoros",
 					["fight_component"] = true,
 					["end_time"] = 1648310349,
 					["on_hold"] = false,
-					["aID"] = "1301-0A44C97F",
-					["nome"] = "Xanthoros",
+					["classe"] = "DRUID",
+					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
 							{
@@ -30751,7 +30356,7 @@ _detalhes_database = {
 									["Araknath"] = 1149,
 									["Whirling Dervish"] = 1459,
 									["Solar Flare"] = 266,
-									["High Sage Viryx"] = 1596,
+									["Initiate of the Rising Sun"] = 648,
 									["Blinding Solar Flare"] = 1041,
 									["Skyreach Shield Construct"] = 135,
 									["Ranjit"] = 1167,
@@ -30767,7 +30372,7 @@ _detalhes_database = {
 									["Rukhran"] = 1844,
 									["Life-Pact Familiar"] = 271,
 									["Driving Gale-Caller"] = 518,
-									["Initiate of the Rising Sun"] = 648,
+									["High Sage Viryx"] = 1596,
 									["Grand Defense Construct"] = 1854,
 								},
 								["n_dmg"] = 21134,
@@ -30803,7 +30408,7 @@ _detalhes_database = {
 									["Solar Familiar"] = 27,
 									["Araknath"] = 499,
 									["Whirling Dervish"] = 160,
-									["High Sage Viryx"] = 548,
+									["Initiate of the Rising Sun"] = 116,
 									["Blinding Solar Flare"] = 218,
 									["Skyreach Shield Construct"] = 8,
 									["Ranjit"] = 532,
@@ -30819,7 +30424,7 @@ _detalhes_database = {
 									["Rukhran"] = 997,
 									["Life-Pact Familiar"] = 27,
 									["Driving Gale-Caller"] = 97,
-									["Initiate of the Rising Sun"] = 116,
+									["High Sage Viryx"] = 548,
 									["Grand Defense Construct"] = 367,
 								},
 								["n_dmg"] = 5433,
@@ -30901,7 +30506,7 @@ _detalhes_database = {
 									["Whirling Dervish"] = 716,
 									["Skyreach Sun Talon"] = 2453,
 									["Solar Flare"] = 178,
-									["High Sage Viryx"] = 1588,
+									["Initiate of the Rising Sun"] = 1609,
 									["Blinding Solar Flare"] = 1412,
 									["Skyreach Shield Construct"] = 88,
 									["Ranjit"] = 1723,
@@ -30917,7 +30522,7 @@ _detalhes_database = {
 									["Soaring Chakram Master"] = 1449,
 									["Life-Pact Familiar"] = 183,
 									["Driving Gale-Caller"] = 566,
-									["Initiate of the Rising Sun"] = 1609,
+									["High Sage Viryx"] = 1588,
 									["Grand Defense Construct"] = 1628,
 								},
 								["n_dmg"] = 20260,
@@ -31141,10 +30746,13 @@ _detalhes_database = {
 						["tipo"] = 2,
 					},
 					["grupo"] = true,
-					["damage_taken"] = 204165.071184,
 					["tipo"] = 1,
+					["damage_taken"] = 204165.071184,
 					["custom"] = 0,
 					["last_event"] = 0,
+					["last_dps"] = 0,
+					["start_time"] = 1648309793,
+					["delay"] = 0,
 					["avoidance"] = {
 						["overall"] = {
 							["DODGE"] = 0,
@@ -31163,9 +30771,6 @@ _detalhes_database = {
 							["FULL_HIT_AMT"] = 0,
 						},
 					},
-					["start_time"] = 1648309793,
-					["delay"] = 0,
-					["boss_fight_component"] = true,
 				}, -- [2]
 				{
 					["flag_original"] = 1298,
@@ -31200,7 +30805,7 @@ _detalhes_database = {
 						["Solar Familiar"] = 1613,
 						["Skyreach Sun Talon"] = 44314,
 						["Solar Flare"] = 2678,
-						["High Sage Viryx"] = 29758,
+						["Initiate of the Rising Sun"] = 19726,
 						["Blinding Solar Flare"] = 7868,
 						["Skyreach Shield Construct"] = 2995,
 						["Ranjit"] = 37011,
@@ -31216,24 +30821,27 @@ _detalhes_database = {
 						["Soaring Chakram Master"] = 6100,
 						["Life-Pact Familiar"] = 542,
 						["Driving Gale-Caller"] = 3699,
-						["Initiate of the Rising Sun"] = 19726,
+						["High Sage Viryx"] = 29758,
 						["Grand Defense Construct"] = 18613,
 					},
 					["pets"] = {
 					},
 					["aID"] = "1329-09C6E2DC",
-					["total"] = 411267.070474,
+					["boss_fight_component"] = true,
 					["classe"] = "WARRIOR",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 411267.070474,
-					["last_dps"] = 0,
+					["friendlyfire_total"] = 0,
 					["delay"] = 0,
 					["dps_started"] = false,
+					["total"] = 411267.070474,
+					["last_dps"] = 0,
 					["end_time"] = 1648310349,
-					["friendlyfire_total"] = 0,
-					["damage_taken"] = 71910.070474,
-					["boss_fight_component"] = true,
+					["nome"] = "Timewarrior-Ravencrest",
+					["spec"] = 72,
+					["grupo"] = true,
+					["tipo"] = 1,
 					["spells"] = {
 						["_ActorTable"] = {
 							{
@@ -31331,7 +30939,7 @@ _detalhes_database = {
 									["Solar Familiar"] = 156,
 									["Araknath"] = 5671,
 									["Whirling Dervish"] = 881,
-									["High Sage Viryx"] = 2785,
+									["Initiate of the Rising Sun"] = 1175,
 									["Blinding Solar Flare"] = 1170,
 									["Skyreach Shield Construct"] = 289,
 									["Ranjit"] = 5818,
@@ -31347,7 +30955,7 @@ _detalhes_database = {
 									["Rukhran"] = 5540,
 									["Life-Pact Familiar"] = 255,
 									["Driving Gale-Caller"] = 786,
-									["Initiate of the Rising Sun"] = 1175,
+									["High Sage Viryx"] = 2785,
 									["Grand Defense Construct"] = 1879,
 								},
 								["n_dmg"] = 22566,
@@ -31870,7 +31478,7 @@ _detalhes_database = {
 									["Araknath"] = 8560,
 									["Whirling Dervish"] = 695,
 									["Solar Flare"] = 597,
-									["High Sage Viryx"] = 4348,
+									["Initiate of the Rising Sun"] = 1137,
 									["Blinding Solar Flare"] = 1054,
 									["Skyreach Shield Construct"] = 512,
 									["Ranjit"] = 5216,
@@ -31886,7 +31494,7 @@ _detalhes_database = {
 									["Rukhran"] = 8287,
 									["Life-Pact Familiar"] = 132,
 									["Driving Gale-Caller"] = 816,
-									["Initiate of the Rising Sun"] = 1137,
+									["High Sage Viryx"] = 4348,
 									["Grand Defense Construct"] = 6753,
 								},
 								["n_dmg"] = 34893,
@@ -31969,17 +31577,14 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["grupo"] = true,
-					["tipo"] = 1,
-					["nome"] = "Timewarrior-Ravencrest",
-					["spec"] = 72,
+					["damage_taken"] = 71910.070474,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["start_time"] = 1648309895,
 					["serial"] = "Player-1329-09C6E2DC",
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 				}, -- [3]
 				{
 					["flag_original"] = 2632,
@@ -32004,17 +31609,17 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 48027.017194,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["aID"] = "76116",
 					["raid_targets"] = {
 						8030, -- [1]
 					},
 					["total_without_pet"] = 20187.017194,
 					["total"] = 20187.017194,
-					["monster"] = true,
+					["fight_component"] = true,
 					["end_time"] = 1648310349,
-					["last_dps"] = 0,
+					["damage_taken"] = 48027.017194,
 					["tipo"] = 1,
 					["nome"] = "Diving Chakram Spinner",
 					["spells"] = {
@@ -32194,16 +31799,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1648310290,
-					["serial"] = "Creature-0-4235-1209-25977-76116-00013F3807",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1648310290,
+					["serial"] = "Creature-0-4235-1209-25977-76116-00013F3807",
+					["dps_started"] = false,
 				}, -- [4]
 				{
 					["flag_original"] = 1298,
@@ -32240,7 +31845,7 @@ _detalhes_database = {
 						["Blinding Solar Flare"] = 2623,
 						["Skyreach Shield Construct"] = 1081,
 						["Ranjit"] = 15829,
-						["Solar Zealot"] = 4349,
+						["Skyreach Sun Talon"] = 8090,
 						["Radiant Supernova"] = 2388,
 						["Skyreach Raven Whisperer"] = 622,
 						["Solar Magnifier"] = 3291,
@@ -32252,7 +31857,7 @@ _detalhes_database = {
 						["Rukhran"] = 33259,
 						["Defense Construct"] = 1155,
 						["Driving Gale-Caller"] = 1092,
-						["Skyreach Sun Talon"] = 8090,
+						["Solar Zealot"] = 4349,
 						["Grand Defense Construct"] = 18899,
 					},
 					["fight_component"] = true,
@@ -32260,6 +31865,22 @@ _detalhes_database = {
 						"Kyrian Goliath <Shaazia-DefiasBrotherhood>", -- [1]
 					},
 					["damage_taken"] = 82075.08899199999,
+					["boss_fight_component"] = true,
+					["classe"] = "PALADIN",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 174884.088992,
+					["last_dps"] = 0,
+					["aID"] = "1096-05E8A18D",
+					["dps_started"] = false,
+					["end_time"] = 1648310349,
+					["delay"] = 0,
+					["friendlyfire_total"] = 1460,
+					["nome"] = "Shaazia-DefiasBrotherhood",
+					["spec"] = 65,
+					["grupo"] = true,
+					["total"] = 181479.088992,
+					["tipo"] = 1,
 					["spells"] = {
 						["_ActorTable"] = {
 							{
@@ -32465,40 +32086,6 @@ _detalhes_database = {
 								["extra"] = {
 								},
 							},
-							[353248] = {
-								["c_amt"] = 11,
-								["b_amt"] = 0,
-								["c_dmg"] = 869,
-								["g_amt"] = 0,
-								["n_max"] = 201,
-								["targets"] = {
-									["Blooded Bladefeather"] = 378,
-									["Diving Chakram Spinner"] = 459,
-									["Soaring Chakram Master"] = 601,
-									["Radiant Supernova"] = 464,
-									["Solar Flare"] = 773,
-									["Solar Magnifier"] = 383,
-									["Defense Construct"] = 198,
-									["Blinding Solar Flare"] = 169,
-								},
-								["n_dmg"] = 2556,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 63,
-								["total"] = 3425,
-								["c_max"] = 101,
-								["id"] = 353248,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 52,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
-							},
 							[275773] = {
 								["c_amt"] = 5,
 								["b_amt"] = 0,
@@ -32532,6 +32119,40 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 23,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[353248] = {
+								["c_amt"] = 11,
+								["b_amt"] = 0,
+								["c_dmg"] = 869,
+								["g_amt"] = 0,
+								["n_max"] = 201,
+								["targets"] = {
+									["Blooded Bladefeather"] = 378,
+									["Diving Chakram Spinner"] = 459,
+									["Soaring Chakram Master"] = 601,
+									["Radiant Supernova"] = 464,
+									["Solar Flare"] = 773,
+									["Solar Magnifier"] = 383,
+									["Defense Construct"] = 198,
+									["Blinding Solar Flare"] = 169,
+								},
+								["n_dmg"] = 2556,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 63,
+								["total"] = 3425,
+								["c_max"] = 101,
+								["id"] = 353248,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 52,
 								["a_dmg"] = 0,
 								["extra"] = {
 								},
@@ -32686,22 +32307,6 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["aID"] = "1096-05E8A18D",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 174884.088992,
-					["last_dps"] = 0,
-					["classe"] = "PALADIN",
-					["dps_started"] = false,
-					["end_time"] = 1648310349,
-					["delay"] = 0,
-					["total"] = 181479.088992,
-					["boss_fight_component"] = true,
-					["spec"] = 65,
-					["grupo"] = true,
-					["friendlyfire_total"] = 1460,
-					["tipo"] = 1,
-					["nome"] = "Shaazia-DefiasBrotherhood",
 					["custom"] = 0,
 					["last_event"] = 0,
 					["on_hold"] = false,
@@ -32750,7 +32355,7 @@ _detalhes_database = {
 						["Blinding Solar Flare"] = 6455,
 						["Skyreach Shield Construct"] = 1652,
 						["Ranjit"] = 43461,
-						["Solar Zealot"] = 2865,
+						["Skyreach Sun Talon"] = 31172,
 						["Radiant Supernova"] = 5823,
 						["Skyreach Raven Whisperer"] = 9029,
 						["Solar Magnifier"] = 14499,
@@ -32762,24 +32367,27 @@ _detalhes_database = {
 						["Dread Raven Hatchling"] = 28314,
 						["Life-Pact Familiar"] = 6365,
 						["Driving Gale-Caller"] = 2212,
-						["Skyreach Sun Talon"] = 31172,
+						["Solar Zealot"] = 2865,
 						["Grand Defense Construct"] = 31519,
 					},
 					["pets"] = {
 					},
 					["aID"] = "1301-0878F932",
-					["total"] = 450936.0598149999,
+					["boss_fight_component"] = true,
 					["classe"] = "DEMONHUNTER",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 450936.0598149999,
-					["last_dps"] = 0,
+					["friendlyfire_total"] = 0,
 					["delay"] = 0,
 					["dps_started"] = false,
+					["total"] = 450936.0598149999,
+					["last_dps"] = 0,
 					["end_time"] = 1648310349,
-					["friendlyfire_total"] = 0,
-					["damage_taken"] = 105411.059815,
-					["boss_fight_component"] = true,
+					["nome"] = "Illidaryr",
+					["spec"] = 577,
+					["grupo"] = true,
+					["tipo"] = 1,
 					["spells"] = {
 						["_ActorTable"] = {
 							{
@@ -32891,13 +32499,13 @@ _detalhes_database = {
 									["Adept of the Dawn"] = 357,
 									["Solar Familiar"] = 0,
 									["Araknath"] = 1689,
-									["Dread Raven Hatchling"] = 3405,
+									["Blinding Solar Flare"] = 1183,
 									["Solar Flare"] = 425,
 									["High Sage Viryx"] = 1748,
-									["Blinding Solar Flare"] = 1183,
+									["Dread Raven Hatchling"] = 3405,
 									["Skyreach Shield Construct"] = 41,
 									["Ranjit"] = 1815,
-									["Solar Zealot"] = 238,
+									["Skyreach Sun Talon"] = 5773,
 									["Radiant Supernova"] = 817,
 									["Skyreach Raven Whisperer"] = 559,
 									["Solar Magnifier"] = 1470,
@@ -32909,7 +32517,7 @@ _detalhes_database = {
 									["Rukhran"] = 1980,
 									["Life-Pact Familiar"] = 316,
 									["Driving Gale-Caller"] = 655,
-									["Skyreach Sun Talon"] = 5773,
+									["Solar Zealot"] = 238,
 									["Grand Defense Construct"] = 3564,
 								},
 								["n_dmg"] = 16808,
@@ -33164,12 +32772,12 @@ _detalhes_database = {
 									["Adept of the Dawn"] = 797,
 									["Solar Familiar"] = 0,
 									["Araknath"] = 1661,
-									["Dread Raven Hatchling"] = 9325,
-									["High Sage Viryx"] = 3281,
 									["Blinding Solar Flare"] = 1794,
+									["High Sage Viryx"] = 3281,
+									["Dread Raven Hatchling"] = 9325,
 									["Skyreach Shield Construct"] = 838,
 									["Ranjit"] = 4235,
-									["Solar Zealot"] = 842,
+									["Skyreach Sun Talon"] = 4715,
 									["Radiant Supernova"] = 2440,
 									["Skyreach Raven Whisperer"] = 878,
 									["Solar Magnifier"] = 2386,
@@ -33181,7 +32789,7 @@ _detalhes_database = {
 									["Rukhran"] = 3149,
 									["Life-Pact Familiar"] = 1603,
 									["Driving Gale-Caller"] = 895,
-									["Skyreach Sun Talon"] = 4715,
+									["Solar Zealot"] = 842,
 									["Grand Defense Construct"] = 7277,
 								},
 								["n_dmg"] = 33376,
@@ -33521,17 +33129,14 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["grupo"] = true,
-					["tipo"] = 1,
-					["nome"] = "Illidaryr",
-					["spec"] = 577,
+					["damage_taken"] = 105411.059815,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["start_time"] = 1648309873,
 					["serial"] = "Player-1301-0878F932",
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 				}, -- [6]
 				{
 					["flag_original"] = 1298,
@@ -33558,7 +33163,7 @@ _detalhes_database = {
 						["Blinding Solar Flare"] = 4816,
 						["Skyreach Shield Construct"] = 147,
 						["Ranjit"] = 8698,
-						["Solar Zealot"] = 2684,
+						["Skyreach Sun Talon"] = 4790,
 						["Radiant Supernova"] = 1036,
 						["Skyreach Raven Whisperer"] = 1439,
 						["Solar Magnifier"] = 3400,
@@ -33570,7 +33175,7 @@ _detalhes_database = {
 						["Rukhran"] = 23816,
 						["Defense Construct"] = 4485,
 						["Driving Gale-Caller"] = 3580,
-						["Skyreach Sun Talon"] = 4790,
+						["Solar Zealot"] = 2684,
 						["Grand Defense Construct"] = 22759,
 					},
 					["pets"] = {
@@ -33581,18 +33186,21 @@ _detalhes_database = {
 						"Chinilferil <Scolo-Lightbringer>", -- [5]
 					},
 					["aID"] = "1388-08384D39",
-					["total"] = 161547.078553,
+					["boss_fight_component"] = true,
 					["classe"] = "WARLOCK",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 44872.078553,
-					["last_dps"] = 0,
+					["friendlyfire_total"] = 0,
 					["delay"] = 0,
 					["dps_started"] = false,
+					["total"] = 161547.078553,
+					["last_dps"] = 0,
 					["end_time"] = 1648310349,
-					["friendlyfire_total"] = 0,
-					["damage_taken"] = 58031.078553,
-					["boss_fight_component"] = true,
+					["nome"] = "Scolo-Lightbringer",
+					["spec"] = 266,
+					["grupo"] = true,
+					["tipo"] = 1,
 					["spells"] = {
 						["_ActorTable"] = {
 							{
@@ -33869,17 +33477,14 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["grupo"] = true,
-					["tipo"] = 1,
-					["nome"] = "Scolo-Lightbringer",
-					["spec"] = 266,
+					["damage_taken"] = 58031.078553,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["start_time"] = 1648309937,
 					["serial"] = "Player-1388-08384D39",
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 				}, -- [7]
 				{
 					["flag_original"] = 8466,
@@ -33904,15 +33509,15 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["nome"] = "Felguard <Scolo-Lightbringer>",
-					["last_dps"] = 0,
-					["friendlyfire_total"] = 0,
+					["end_time"] = 1648310349,
+					["classe"] = "PET",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 18353.026859,
-					["total"] = 18353.026859,
+					["on_hold"] = false,
 					["dps_started"] = false,
-					["end_time"] = 1648310349,
-					["damage_taken"] = 111.026859,
+					["total"] = 18353.026859,
+					["last_dps"] = 0,
 					["ownerName"] = "Scolo-Lightbringer",
 					["boss_fight_component"] = true,
 					["spells"] = {
@@ -34085,10 +33690,10 @@ _detalhes_database = {
 					["aID"] = "17252",
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
+					["damage_taken"] = 111.026859,
 					["start_time"] = 1648310258,
 					["serial"] = "Creature-0-4235-1209-25977-17252-00003F3847",
-					["classe"] = "PET",
+					["friendlyfire_total"] = 0,
 				}, -- [8]
 				{
 					["flag_original"] = 8466,
@@ -34116,7 +33721,7 @@ _detalhes_database = {
 						["Blinding Solar Flare"] = 1154,
 						["Whirling Dervish"] = 471,
 						["Ranjit"] = 3635,
-						["Solar Zealot"] = 749,
+						["Skyreach Sun Talon"] = 4529,
 						["Radiant Supernova"] = 105,
 						["Skyreach Raven Whisperer"] = 1005,
 						["Solar Magnifier"] = 1314,
@@ -34128,22 +33733,22 @@ _detalhes_database = {
 						["Rukhran"] = 5514,
 						["Defense Construct"] = 1104,
 						["Driving Gale-Caller"] = 1987,
-						["Skyreach Sun Talon"] = 4529,
+						["Solar Zealot"] = 749,
 						["Grand Defense Construct"] = 5426,
 					},
 					["delay"] = 0,
 					["pets"] = {
 					},
 					["nome"] = "Dreadstalker <Scolo-Lightbringer>",
-					["last_dps"] = 0,
-					["friendlyfire_total"] = 0,
+					["end_time"] = 1648310349,
+					["classe"] = "PET",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 58475.081604,
-					["total"] = 58475.081604,
+					["on_hold"] = false,
 					["dps_started"] = false,
-					["end_time"] = 1648310349,
-					["damage_taken"] = 5994.081603999999,
+					["total"] = 58475.081604,
+					["last_dps"] = 0,
 					["ownerName"] = "Scolo-Lightbringer",
 					["boss_fight_component"] = true,
 					["spells"] = {
@@ -34250,10 +33855,10 @@ _detalhes_database = {
 					["aID"] = "98035",
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
+					["damage_taken"] = 5994.081603999999,
 					["start_time"] = 1648310112,
 					["serial"] = "Creature-0-4235-1209-25977-98035-00003F384A",
-					["classe"] = "PET",
+					["friendlyfire_total"] = 0,
 				}, -- [9]
 				{
 					["flag_original"] = 68168,
@@ -34276,17 +33881,17 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 42424.008142,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["aID"] = "76205",
 					["raid_targets"] = {
 						2164, -- [1]
 					},
 					["total_without_pet"] = 11605.008142,
 					["total"] = 11605.008142,
-					["monster"] = true,
+					["fight_component"] = true,
 					["end_time"] = 1648310397,
-					["last_dps"] = 0,
+					["damage_taken"] = 42424.008142,
 					["tipo"] = 1,
 					["nome"] = "Blooded Bladefeather",
 					["spells"] = {
@@ -34407,16 +34012,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1648310362,
-					["serial"] = "Creature-0-4235-1209-25977-76205-00003F3807",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1648310362,
+					["serial"] = "Creature-0-4235-1209-25977-76205-00003F3807",
+					["dps_started"] = false,
 				}, -- [10]
 				{
 					["flag_original"] = 68168,
@@ -34437,17 +34042,17 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 25622.018856,
-					["aID"] = "77605",
+					["monster"] = true,
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 						3515, -- [1]
 					},
 					["total_without_pet"] = 9473.018856,
 					["total"] = 9473.018856,
-					["fight_component"] = true,
+					["dps_started"] = false,
 					["end_time"] = 1648310397,
-					["last_dps"] = 0,
+					["damage_taken"] = 25622.018856,
 					["tipo"] = 1,
 					["nome"] = "Whirling Dervish",
 					["spells"] = {
@@ -34539,16 +34144,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["monster"] = true,
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1648310362,
-					["serial"] = "Creature-0-4235-1209-25977-77605-00003F3807",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1648310362,
+					["serial"] = "Creature-0-4235-1209-25977-77605-00003F3807",
+					["aID"] = "77605",
 				}, -- [11]
 				{
 					["flag_original"] = 68168,
@@ -34575,17 +34180,17 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 39406.016861,
-					["aID"] = "76132",
+					["monster"] = true,
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 						3367, -- [1]
 					},
 					["total_without_pet"] = 38825.016861,
 					["total"] = 38825.016861,
-					["fight_component"] = true,
+					["dps_started"] = false,
 					["end_time"] = 1648310397,
-					["last_dps"] = 0,
+					["damage_taken"] = 39406.016861,
 					["tipo"] = 1,
 					["nome"] = "Soaring Chakram Master",
 					["spells"] = {
@@ -34790,16 +34395,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["monster"] = true,
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1648310341,
-					["serial"] = "Creature-0-4235-1209-25977-76132-00003F3807",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1648310341,
+					["serial"] = "Creature-0-4235-1209-25977-76132-00003F3807",
+					["aID"] = "76132",
 				}, -- [12]
 				{
 					["flag_original"] = 2632,
@@ -34818,16 +34423,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 7388.015016,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["aID"] = "76097",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 632.015016,
 					["total"] = 632.015016,
-					["monster"] = true,
+					["fight_component"] = true,
 					["end_time"] = 1648310397,
-					["last_dps"] = 0,
+					["damage_taken"] = 7388.015016,
 					["tipo"] = 1,
 					["nome"] = "Solar Familiar",
 					["spells"] = {
@@ -34914,16 +34519,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1648310393,
-					["serial"] = "Creature-0-4235-1209-25977-76097-00003F3807",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1648310393,
+					["serial"] = "Creature-0-4235-1209-25977-76097-00003F3807",
+					["dps_started"] = false,
 				}, -- [13]
 				{
 					["flag_original"] = 2632,
@@ -34946,16 +34551,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 25622.010318,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["aID"] = "79462",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 10148.010318,
 					["total"] = 10148.010318,
-					["monster"] = true,
+					["fight_component"] = true,
 					["end_time"] = 1648310397,
-					["last_dps"] = 0,
+					["damage_taken"] = 25622.010318,
 					["tipo"] = 1,
 					["nome"] = "Blinding Solar Flare",
 					["spells"] = {
@@ -35071,16 +34676,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1648310352,
-					["serial"] = "Creature-0-4235-1209-25977-79462-00003F3807",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1648310352,
+					["serial"] = "Creature-0-4235-1209-25977-79462-00003F3807",
+					["dps_started"] = false,
 				}, -- [14]
 				{
 					["flag_original"] = 2632,
@@ -35099,16 +34704,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 11825.009872,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["aID"] = "78933",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 1023.009872,
 					["total"] = 1023.009872,
-					["monster"] = true,
+					["fight_component"] = true,
 					["end_time"] = 1648310397,
-					["last_dps"] = 0,
+					["damage_taken"] = 11825.009872,
 					["tipo"] = 1,
 					["nome"] = "Herald of Sunrise",
 					["spells"] = {
@@ -35170,16 +34775,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1648310380,
-					["serial"] = "Creature-0-4235-1209-25977-78933-00003F3807",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1648310380,
+					["serial"] = "Creature-0-4235-1209-25977-78933-00003F3807",
+					["dps_started"] = false,
 				}, -- [15]
 				{
 					["flag_original"] = 8466,
@@ -35205,15 +34810,15 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["nome"] = "Wild Imp <Scolo-Lightbringer>",
-					["last_dps"] = 0,
-					["friendlyfire_total"] = 0,
+					["end_time"] = 1648310397,
+					["classe"] = "PET",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 11986.048237,
-					["total"] = 11986.048237,
+					["on_hold"] = false,
 					["dps_started"] = false,
-					["end_time"] = 1648310397,
-					["damage_taken"] = 1257.048237,
+					["total"] = 11986.048237,
+					["last_dps"] = 0,
 					["ownerName"] = "Scolo-Lightbringer",
 					["boss_fight_component"] = true,
 					["spells"] = {
@@ -35264,10 +34869,10 @@ _detalhes_database = {
 					["aID"] = "55659",
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
+					["damage_taken"] = 1257.048237,
 					["start_time"] = 1648310190,
 					["serial"] = "Creature-0-4235-1209-25977-55659-00003F3865",
-					["classe"] = "PET",
+					["friendlyfire_total"] = 0,
 				}, -- [16]
 				{
 					["flag_original"] = 68168,
@@ -35287,16 +34892,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 24652.011296,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["aID"] = "75975",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 4677.011296,
 					["total"] = 4677.011296,
-					["monster"] = true,
+					["fight_component"] = true,
 					["end_time"] = 1648310427,
-					["last_dps"] = 0,
+					["damage_taken"] = 24652.011296,
 					["tipo"] = 1,
 					["nome"] = "Skyreach Overlord",
 					["spells"] = {
@@ -35386,16 +34991,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1648310407,
-					["serial"] = "Creature-0-4235-1209-25977-75975-00003F3807",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1648310407,
+					["serial"] = "Creature-0-4235-1209-25977-75975-00003F3807",
+					["dps_started"] = false,
 				}, -- [17]
 				{
 					["flag_original"] = 2632,
@@ -35415,16 +35020,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 41376.010514,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["aID"] = "75976",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 9674.010514,
 					["total"] = 9674.010514,
-					["monster"] = true,
+					["fight_component"] = true,
 					["end_time"] = 1648310427,
-					["last_dps"] = 0,
+					["damage_taken"] = 41376.010514,
 					["tipo"] = 1,
 					["nome"] = "Low-Born Arakkoa",
 					["spells"] = {
@@ -35463,16 +35068,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1648310405,
-					["serial"] = "Creature-0-4235-1209-25977-75976-0000BF3807",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1648310405,
+					["serial"] = "Creature-0-4235-1209-25977-75976-0000BF3807",
+					["dps_started"] = false,
 				}, -- [18]
 				{
 					["flag_original"] = 68168,
@@ -35497,17 +35102,17 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 117948.012044,
-					["aID"] = "75964",
+					["nome"] = "Ranjit",
+					["monster"] = true,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 						5419, -- [1]
 					},
 					["total_without_pet"] = 67269.01204399999,
 					["total"] = 67269.01204399999,
-					["monster"] = true,
+					["dps_started"] = false,
 					["end_time"] = 1648310495,
-					["last_dps"] = 0,
+					["damage_taken"] = 117948.012044,
 					["tipo"] = 1,
 					["boss_fight_component"] = true,
 					["spells"] = {
@@ -35817,16 +35422,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["nome"] = "Ranjit",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1648310435,
-					["serial"] = "Creature-0-4235-1209-25977-75964-00003F3807",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1648310435,
+					["serial"] = "Creature-0-4235-1209-25977-75964-00003F3807",
+					["aID"] = "75964",
 				}, -- [19]
 				{
 					["flag_original"] = 8466,
@@ -35848,15 +35453,15 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["nome"] = "Kyrian Goliath <Shaazia-DefiasBrotherhood>",
-					["last_dps"] = 0,
-					["friendlyfire_total"] = 0,
+					["end_time"] = 1648310495,
+					["classe"] = "PET",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 6595.03387,
-					["total"] = 6595.03387,
+					["on_hold"] = false,
 					["dps_started"] = false,
-					["end_time"] = 1648310495,
-					["damage_taken"] = 109.03387,
+					["total"] = 6595.03387,
+					["last_dps"] = 0,
 					["ownerName"] = "Shaazia-DefiasBrotherhood",
 					["boss_fight_component"] = true,
 					["spells"] = {
@@ -35991,10 +35596,10 @@ _detalhes_database = {
 					["aID"] = "171396",
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
+					["damage_taken"] = 109.03387,
 					["start_time"] = 1648310437,
 					["serial"] = "Creature-0-4235-1209-25977-171396-00003F38D2",
-					["classe"] = "PET",
+					["friendlyfire_total"] = 0,
 				}, -- [20]
 				{
 					["flag_original"] = 68168,
@@ -36014,16 +35619,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 32018.019063,
-					["aID"] = "79303",
+					["monster"] = true,
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 5847.019063,
 					["total"] = 5847.019063,
-					["fight_component"] = true,
+					["dps_started"] = false,
 					["end_time"] = 1648310525,
-					["last_dps"] = 0,
+					["damage_taken"] = 32018.019063,
 					["tipo"] = 1,
 					["nome"] = "Adorned Bladetalon",
 					["spells"] = {
@@ -36060,16 +35665,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["monster"] = true,
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1648310494,
-					["serial"] = "Creature-0-4235-1209-25977-79303-00003F3807",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1648310494,
+					["serial"] = "Creature-0-4235-1209-25977-79303-00003F3807",
+					["aID"] = "79303",
 				}, -- [21]
 				{
 					["flag_original"] = 2632,
@@ -36089,16 +35694,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 12811.011019,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["aID"] = "78932",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 2357.011019,
 					["total"] = 2357.011019,
-					["monster"] = true,
+					["fight_component"] = true,
 					["end_time"] = 1648310525,
-					["last_dps"] = 0,
+					["damage_taken"] = 12811.011019,
 					["tipo"] = 1,
 					["nome"] = "Driving Gale-Caller",
 					["spells"] = {
@@ -36187,16 +35792,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1648310501,
-					["serial"] = "Creature-0-4235-1209-25977-78932-00003F3807",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1648310501,
+					["serial"] = "Creature-0-4235-1209-25977-78932-00003F3807",
+					["dps_started"] = false,
 				}, -- [22]
 				{
 					["flag_original"] = 68168,
@@ -36223,17 +35828,17 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 138536.008703,
-					["aID"] = "76141",
+					["nome"] = "Araknath",
+					["monster"] = true,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 						3965, -- [1]
 					},
 					["total_without_pet"] = 41882.008703,
 					["total"] = 41882.008703,
-					["monster"] = true,
+					["dps_started"] = false,
 					["end_time"] = 1648310591,
-					["last_dps"] = 0,
+					["damage_taken"] = 138536.008703,
 					["tipo"] = 1,
 					["boss_fight_component"] = true,
 					["spells"] = {
@@ -36384,16 +35989,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["nome"] = "Araknath",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1648310536,
-					["serial"] = "Creature-0-4235-1209-25977-76141-00003F38DF",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1648310536,
+					["serial"] = "Creature-0-4235-1209-25977-76141-00003F38DF",
+					["aID"] = "76141",
 				}, -- [23]
 				{
 					["flag_original"] = 8466,
@@ -36408,15 +36013,15 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["nome"] = "Demonic Tyrant <Scolo-Lightbringer>",
-					["damage_taken"] = 0.020036,
-					["friendlyfire_total"] = 0,
+					["end_time"] = 1648310591,
+					["aID"] = "135002",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 5271.020036,
-					["total"] = 5271.020036,
+					["on_hold"] = false,
 					["dps_started"] = false,
-					["end_time"] = 1648310591,
-					["last_dps"] = 0,
+					["total"] = 5271.020036,
+					["damage_taken"] = 0.020036,
 					["ownerName"] = "Scolo-Lightbringer",
 					["boss_fight_component"] = true,
 					["spells"] = {
@@ -36458,10 +36063,10 @@ _detalhes_database = {
 					["classe"] = "PET",
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
+					["last_dps"] = 0,
 					["start_time"] = 1648310560,
 					["serial"] = "Creature-0-4235-1209-25977-135002-00003F390E",
-					["aID"] = "135002",
+					["friendlyfire_total"] = 0,
 				}, -- [24]
 				{
 					["flag_original"] = 2632,
@@ -36476,17 +36081,17 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 0.007169999999999999,
-					["aID"] = "76142",
+					["nome"] = "Skyreach Sun Construct Prototype",
+					["monster"] = true,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 						2489, -- [1]
 					},
 					["total_without_pet"] = 5443.00717,
 					["total"] = 5443.00717,
-					["monster"] = true,
+					["dps_started"] = false,
 					["end_time"] = 1648310591,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.007169999999999999,
 					["tipo"] = 1,
 					["boss_fight_component"] = true,
 					["spells"] = {
@@ -36523,16 +36128,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["nome"] = "Skyreach Sun Construct Prototype",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1648310570,
-					["serial"] = "Creature-0-4235-1209-25977-76142-00033F38DF",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1648310570,
+					["serial"] = "Creature-0-4235-1209-25977-76142-00033F38DF",
+					["aID"] = "76142",
 				}, -- [25]
 				{
 					["flag_original"] = 68168,
@@ -36554,17 +36159,17 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 98696.00983,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["aID"] = "79093",
 					["raid_targets"] = {
 						2005, -- [1]
 					},
 					["total_without_pet"] = 25145.00983,
 					["total"] = 25145.00983,
-					["monster"] = true,
+					["fight_component"] = true,
 					["end_time"] = 1648310631,
-					["last_dps"] = 0,
+					["damage_taken"] = 98696.00983,
 					["tipo"] = 1,
 					["nome"] = "Skyreach Sun Talon",
 					["spells"] = {
@@ -36631,16 +36236,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1648310609,
-					["serial"] = "Creature-0-4235-1209-25977-79093-00013F3807",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1648310609,
+					["serial"] = "Creature-0-4235-1209-25977-79093-00013F3807",
+					["dps_started"] = false,
 				}, -- [26]
 				{
 					["flag_original"] = 68168,
@@ -36661,16 +36266,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["total"] = 20504.007776,
-					["damage_taken"] = 68960.007776,
+					["classe"] = "UNKNOW",
+					["dps_started"] = false,
 					["aID"] = "",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 20504.007776,
-					["fight_component"] = true,
-					["dps_started"] = false,
+					["total"] = 20504.007776,
+					["monster"] = true,
 					["end_time"] = 1648310667,
-					["last_dps"] = 0,
+					["damage_taken"] = 68960.007776,
 					["tipo"] = 1,
 					["nome"] = "Dread Raven Hatchling",
 					["spells"] = {
@@ -36709,16 +36314,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1648310631,
 					["serial"] = "Vehicle-0-4235-1209-25977-76253-00013F3807",
-					["monster"] = true,
+					["fight_component"] = true,
 				}, -- [27]
 				{
 					["flag_original"] = 68168,
@@ -36737,16 +36342,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 20227.015864,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["aID"] = "76154",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 2646.015864,
 					["total"] = 2646.015864,
-					["monster"] = true,
+					["fight_component"] = true,
 					["end_time"] = 1648310667,
-					["last_dps"] = 0,
+					["damage_taken"] = 20227.015864,
 					["tipo"] = 1,
 					["nome"] = "Skyreach Raven Whisperer",
 					["spells"] = {
@@ -36834,16 +36439,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1648310645,
-					["serial"] = "Creature-0-4235-1209-25977-76154-00003F3807",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1648310645,
+					["serial"] = "Creature-0-4235-1209-25977-76154-00003F3807",
+					["dps_started"] = false,
 				}, -- [28]
 				{
 					["flag_original"] = 68168,
@@ -36852,11 +36457,11 @@ _detalhes_database = {
 						["Shaazia-DefiasBrotherhood"] = true,
 						["Scolo-Lightbringer"] = true,
 						["Wild Imp <Scolo-Lightbringer>"] = true,
-						["Timewarrior-Ravencrest"] = true,
+						["Illidaryr"] = true,
 						["Kyrian Goliath <Shaazia-DefiasBrotherhood>"] = true,
 						["Dreadstalker <Scolo-Lightbringer>"] = true,
+						["Timewarrior-Ravencrest"] = true,
 						["Felguard <Scolo-Lightbringer>"] = true,
-						["Illidaryr"] = true,
 						["Demonic Tyrant <Scolo-Lightbringer>"] = true,
 						["Xanthoros"] = true,
 						["Chinilferil <Scolo-Lightbringer>"] = true,
@@ -36872,17 +36477,17 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["total"] = 119443.011403,
-					["damage_taken"] = 192422.011403,
+					["nome"] = "Rukhran",
+					["classe"] = "UNKNOW",
 					["aID"] = "76143",
 					["raid_targets"] = {
 						22298, -- [1]
 					},
 					["total_without_pet"] = 119443.011403,
-					["classe"] = "UNKNOW",
-					["dps_started"] = false,
+					["total"] = 119443.011403,
+					["monster"] = true,
 					["end_time"] = 1648310737,
-					["last_dps"] = 0,
+					["damage_taken"] = 192422.011403,
 					["tipo"] = 1,
 					["boss_fight_component"] = true,
 					["spells"] = {
@@ -37116,16 +36721,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["nome"] = "Rukhran",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["monster"] = true,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1648310595,
-					["serial"] = "Creature-0-4235-1209-25977-76143-00003F3807",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1648310595,
+					["serial"] = "Creature-0-4235-1209-25977-76143-00003F3807",
+					["dps_started"] = false,
 				}, -- [29]
 				{
 					["flag_original"] = 2632,
@@ -37149,17 +36754,17 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["total"] = 62220.017363,
-					["damage_taken"] = 14029.017363,
+					["nome"] = "Solar Flare",
+					["classe"] = "UNKNOW",
 					["aID"] = "79505",
 					["raid_targets"] = {
 						21987, -- [1]
 					},
 					["total_without_pet"] = 62220.017363,
-					["classe"] = "UNKNOW",
-					["dps_started"] = false,
+					["total"] = 62220.017363,
+					["monster"] = true,
 					["end_time"] = 1648310737,
-					["last_dps"] = 0,
+					["damage_taken"] = 14029.017363,
 					["tipo"] = 1,
 					["boss_fight_component"] = true,
 					["spells"] = {
@@ -37230,16 +36835,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["nome"] = "Solar Flare",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["monster"] = true,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1648310711,
-					["serial"] = "Creature-0-4235-1209-25977-79505-00013F3807",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1648310711,
+					["serial"] = "Creature-0-4235-1209-25977-79505-00013F3807",
+					["dps_started"] = false,
 				}, -- [30]
 				{
 					["flag_original"] = 4370,
@@ -37264,15 +36869,15 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["nome"] = "Chinilferil <Scolo-Lightbringer>",
-					["last_dps"] = 0,
-					["friendlyfire_total"] = 0,
+					["end_time"] = 1648310927,
+					["classe"] = "PET",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 22590.028882,
-					["total"] = 22590.028882,
+					["on_hold"] = false,
 					["dps_started"] = false,
-					["end_time"] = 1648310927,
-					["damage_taken"] = 3896.028882,
+					["total"] = 22590.028882,
+					["last_dps"] = 0,
 					["ownerName"] = "Scolo-Lightbringer",
 					["boss_fight_component"] = true,
 					["spells"] = {
@@ -37416,10 +37021,10 @@ _detalhes_database = {
 					["aID"] = "17252",
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
+					["damage_taken"] = 3896.028882,
 					["start_time"] = 1648310793,
 					["serial"] = "Creature-0-4235-1209-25977-17252-00003F3A04",
-					["classe"] = "PET",
+					["friendlyfire_total"] = 0,
 				}, -- [31]
 				{
 					["flag_original"] = 68168,
@@ -37436,16 +37041,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 12811.012624,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["aID"] = "79467",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 1319.012624,
 					["total"] = 1319.012624,
-					["monster"] = true,
+					["fight_component"] = true,
 					["end_time"] = 1648311008,
-					["last_dps"] = 0,
+					["damage_taken"] = 12811.012624,
 					["tipo"] = 1,
 					["nome"] = "Adept of the Dawn",
 					["spells"] = {
@@ -37481,16 +37086,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1648310996,
-					["serial"] = "Creature-0-4235-1209-25977-79467-00013F3807",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1648310996,
+					["serial"] = "Creature-0-4235-1209-25977-79467-00013F3807",
+					["dps_started"] = false,
 				}, -- [32]
 				{
 					["flag_original"] = 2632,
@@ -37501,9 +37106,9 @@ _detalhes_database = {
 						["Xanthoros"] = true,
 						["Kyrian Goliath <Shaazia-DefiasBrotherhood>"] = true,
 						["Dreadstalker <Scolo-Lightbringer>"] = true,
-						["Illidaryr"] = true,
 						["Felguard <Scolo-Lightbringer>"] = true,
 						["Timewarrior-Ravencrest"] = true,
+						["Illidaryr"] = true,
 						["Wild Imp <Scolo-Lightbringer>"] = true,
 						["Chinilferil <Scolo-Lightbringer>"] = true,
 					},
@@ -37513,16 +37118,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 39406.023949,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["aID"] = "77559",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 3015.023949,
 					["total"] = 3015.023949,
-					["monster"] = true,
+					["fight_component"] = true,
 					["end_time"] = 1648311008,
-					["last_dps"] = 0,
+					["damage_taken"] = 39406.023949,
 					["tipo"] = 1,
 					["nome"] = "Solar Magnifier",
 					["spells"] = {
@@ -37583,16 +37188,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1648310996,
-					["serial"] = "Creature-0-4235-1209-25977-77559-0000BF3807",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1648310996,
+					["serial"] = "Creature-0-4235-1209-25977-77559-0000BF3807",
+					["dps_started"] = false,
 				}, -- [33]
 				{
 					["flag_original"] = 2632,
@@ -37608,17 +37213,17 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["total"] = 1085.007,
-					["damage_taken"] = 0.006999999999999999,
+					["classe"] = "UNKNOW",
+					["dps_started"] = false,
 					["aID"] = "",
 					["raid_targets"] = {
 						1085, -- [1]
 					},
 					["total_without_pet"] = 1085.007,
-					["fight_component"] = true,
-					["dps_started"] = false,
+					["total"] = 1085.007,
+					["monster"] = true,
 					["end_time"] = 1648311008,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.006999999999999999,
 					["tipo"] = 1,
 					["nome"] = "[*] Pierce",
 					["spells"] = {
@@ -37656,16 +37261,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1648311004,
 					["serial"] = "",
-					["monster"] = true,
+					["fight_component"] = true,
 				}, -- [34]
 				{
 					["flag_original"] = 2632,
@@ -37695,17 +37300,17 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 17939.004801,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["aID"] = "79463",
 					["raid_targets"] = {
 						980, -- [1]
 					},
 					["total_without_pet"] = 11209.004801,
 					["total"] = 11209.004801,
-					["monster"] = true,
+					["fight_component"] = true,
 					["end_time"] = 1648311044,
-					["last_dps"] = 0,
+					["damage_taken"] = 17939.004801,
 					["tipo"] = 1,
 					["nome"] = "Radiant Supernova",
 					["spells"] = {
@@ -37831,16 +37436,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1648311014,
-					["serial"] = "Creature-0-4235-1209-25977-79463-00003F3807",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1648311014,
+					["serial"] = "Creature-0-4235-1209-25977-79463-00003F3807",
+					["dps_started"] = false,
 				}, -- [35]
 				{
 					["flag_original"] = 68168,
@@ -37867,17 +37472,17 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 19703.011138,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["aID"] = "76087",
 					["raid_targets"] = {
 						1153, -- [1]
 					},
 					["total_without_pet"] = 6327.011138,
 					["total"] = 6327.011138,
-					["monster"] = true,
+					["fight_component"] = true,
 					["end_time"] = 1648311044,
-					["last_dps"] = 0,
+					["damage_taken"] = 19703.011138,
 					["tipo"] = 1,
 					["nome"] = "Defense Construct",
 					["spells"] = {
@@ -37997,16 +37602,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1648311034,
-					["serial"] = "Creature-0-4235-1209-25977-76087-00003F3807",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1648311034,
+					["serial"] = "Creature-0-4235-1209-25977-76087-00003F3807",
+					["dps_started"] = false,
 				}, -- [36]
 				{
 					["flag_original"] = 8776,
@@ -38023,10 +37628,10 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["last_dps"] = 0,
 					["friendlyfire"] = {
 					},
-					["aID"] = "76778",
+					["on_hold"] = false,
+					["classe"] = "PET",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 2602.011924,
@@ -38034,7 +37639,7 @@ _detalhes_database = {
 					["fight_component"] = true,
 					["end_time"] = 1648311044,
 					["friendlyfire_total"] = 0,
-					["damage_taken"] = 7388.011924,
+					["last_dps"] = 0,
 					["nome"] = "Life-Pact Familiar",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -38075,10 +37680,10 @@ _detalhes_database = {
 					["total"] = 2602.011924,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
+					["damage_taken"] = 7388.011924,
 					["start_time"] = 1648311033,
 					["serial"] = "Creature-0-4235-1209-25977-76778-00003F3807",
-					["classe"] = "PET",
+					["aID"] = "76778",
 				}, -- [37]
 				{
 					["flag_original"] = 68168,
@@ -38105,17 +37710,17 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["total"] = 15803.007755,
-					["damage_taken"] = 101111.007755,
+					["classe"] = "UNKNOW",
+					["dps_started"] = false,
 					["aID"] = "",
 					["raid_targets"] = {
 						1060, -- [1]
 					},
 					["total_without_pet"] = 15803.007755,
-					["fight_component"] = true,
-					["dps_started"] = false,
+					["total"] = 15803.007755,
+					["monster"] = true,
 					["end_time"] = 1648311074,
-					["last_dps"] = 0,
+					["damage_taken"] = 101111.007755,
 					["tipo"] = 1,
 					["nome"] = "Grand Defense Construct",
 					["spells"] = {
@@ -38239,16 +37844,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1648311047,
 					["serial"] = "Vehicle-0-4235-1209-25977-76145-00003F3807",
-					["monster"] = true,
+					["fight_component"] = true,
 				}, -- [38]
 				{
 					["flag_original"] = 68168,
@@ -38270,16 +37875,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 128344.011511,
-					["aID"] = "76266",
+					["nome"] = "High Sage Viryx",
+					["monster"] = true,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 21127.011511,
 					["total"] = 21127.011511,
-					["monster"] = true,
+					["dps_started"] = false,
 					["end_time"] = 1648311147,
-					["last_dps"] = 0,
+					["damage_taken"] = 128344.011511,
 					["tipo"] = 1,
 					["boss_fight_component"] = true,
 					["spells"] = {
@@ -38343,16 +37948,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["nome"] = "High Sage Viryx",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1648311079,
-					["serial"] = "Creature-0-4235-1209-25977-76266-00003F3807",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1648311079,
+					["serial"] = "Creature-0-4235-1209-25977-76266-00003F3807",
+					["aID"] = "76266",
 				}, -- [39]
 				{
 					["flag_original"] = 2632,
@@ -38372,16 +37977,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["total"] = 0.015087,
-					["damage_taken"] = 16215.015087,
+					["nome"] = "Solar Zealot",
+					["classe"] = "UNKNOW",
 					["aID"] = "",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.015087,
-					["classe"] = "UNKNOW",
-					["dps_started"] = false,
+					["total"] = 0.015087,
+					["monster"] = true,
 					["end_time"] = 1648311147,
-					["last_dps"] = 0,
+					["damage_taken"] = 16215.015087,
 					["tipo"] = 1,
 					["boss_fight_component"] = true,
 					["spells"] = {
@@ -38389,16 +37994,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["nome"] = "Solar Zealot",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1648311144,
 					["serial"] = "Vehicle-0-4235-1209-25977-76267-00003F3B3A",
-					["monster"] = true,
+					["dps_started"] = false,
 				}, -- [40]
 				{
 					["flag_original"] = 8776,
@@ -38415,18 +38020,18 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["last_dps"] = 0,
 					["friendlyfire"] = {
 					},
-					["aID"] = "76292",
+					["nome"] = "Skyreach Shield Construct",
+					["classe"] = "PET",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 636.00676,
 					["delay"] = 0,
 					["dps_started"] = false,
 					["end_time"] = 1648311147,
-					["nome"] = "Skyreach Shield Construct",
-					["damage_taken"] = 7619.00676,
+					["on_hold"] = false,
+					["last_dps"] = 0,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -38491,10 +38096,10 @@ _detalhes_database = {
 					["total"] = 636.00676,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
+					["damage_taken"] = 7619.00676,
 					["start_time"] = 1648311141,
 					["serial"] = "Creature-0-4235-1209-25977-76292-00003F3B4B",
-					["classe"] = "PET",
+					["aID"] = "76292",
 				}, -- [41]
 				{
 					["flag_original"] = 2632,
@@ -38509,16 +38114,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 0.009067,
-					["aID"] = "76285",
+					["nome"] = "Arakkoa Magnifying Glass",
+					["monster"] = true,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 4766.009066999999,
 					["total"] = 4766.009066999999,
-					["monster"] = true,
+					["dps_started"] = false,
 					["end_time"] = 1648311147,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.009067,
 					["tipo"] = 1,
 					["boss_fight_component"] = true,
 					["spells"] = {
@@ -38555,16 +38160,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["nome"] = "Arakkoa Magnifying Glass",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1648311138,
-					["serial"] = "Creature-0-4235-1209-25977-76285-00003F3807",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1648311138,
+					["serial"] = "Creature-0-4235-1209-25977-76285-00003F3807",
+					["aID"] = "76285",
 				}, -- [42]
 			},
 		}, -- [1]
@@ -38604,8 +38209,8 @@ _detalhes_database = {
 					["totaldenied"] = 0.057069,
 					["fight_component"] = true,
 					["end_time"] = 1648310349,
-					["last_event"] = 0,
 					["heal_enemy_amt"] = 0,
+					["aID"] = "1301-0A44C97F",
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -38629,9 +38234,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 805,
 								["n_curado"] = 10364,
 								["totaldenied"] = 0,
+								["n_amt"] = 805,
 								["absorbed"] = 0,
 							},
 							[774] = {
@@ -38656,9 +38261,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 21,
 								["n_curado"] = 1194,
 								["totaldenied"] = 0,
+								["n_amt"] = 21,
 								["absorbed"] = 0,
 							},
 							[59913] = {
@@ -38681,9 +38286,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 6,
 								["n_curado"] = 1248,
 								["totaldenied"] = 0,
+								["n_amt"] = 6,
 								["absorbed"] = 0,
 							},
 							[291843] = {
@@ -38706,9 +38311,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 237,
 								["n_curado"] = 3300,
 								["totaldenied"] = 0,
+								["n_amt"] = 237,
 								["absorbed"] = 0,
 							},
 							[8936] = {
@@ -38737,17 +38342,17 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 297,
-								["n_amt"] = 52,
 								["n_curado"] = 4602,
 								["totaldenied"] = 0,
+								["n_amt"] = 52,
 								["absorbed"] = 0,
 							},
 						},
 						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["aID"] = "1301-0A44C97F",
 					["spec"] = 104,
+					["last_event"] = 0,
 					["custom"] = 0,
 					["tipo"] = 2,
 					["nome"] = "Xanthoros",
@@ -38788,9 +38393,9 @@ _detalhes_database = {
 					["totaldenied"] = 0.083011,
 					["fight_component"] = true,
 					["end_time"] = 1648310349,
-					["last_event"] = 0,
-					["nome"] = "Timewarrior-Ravencrest",
 					["boss_fight_component"] = true,
+					["spec"] = 72,
+					["nome"] = "Timewarrior-Ravencrest",
 					["spells"] = {
 						["_ActorTable"] = {
 							[118779] = {
@@ -38813,9 +38418,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 1,
 								["n_curado"] = 768,
 								["totaldenied"] = 0,
+								["n_amt"] = 1,
 								["absorbed"] = 0,
 							},
 							[117313] = {
@@ -38838,9 +38443,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 27,
 								["n_curado"] = 6700,
 								["totaldenied"] = 0,
+								["n_amt"] = 27,
 								["absorbed"] = 0,
 							},
 							[357945] = {
@@ -38863,9 +38468,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 27,
 								["n_curado"] = 8172,
 								["totaldenied"] = 0,
+								["n_amt"] = 27,
 								["absorbed"] = 0,
 							},
 							[190456] = {
@@ -38888,17 +38493,17 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 11,
 								["n_curado"] = 3078,
 								["totaldenied"] = 0,
+								["n_amt"] = 11,
 								["absorbed"] = 0,
 							},
 						},
 						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["spec"] = 72,
 					["classe"] = "WARRIOR",
+					["last_event"] = 0,
 					["custom"] = 0,
 					["tipo"] = 2,
 					["heal_enemy_amt"] = 0,
@@ -38954,9 +38559,9 @@ _detalhes_database = {
 					["totaldenied"] = 0.05768100000000001,
 					["fight_component"] = true,
 					["end_time"] = 1648310349,
-					["last_event"] = 0,
-					["nome"] = "Shaazia-DefiasBrotherhood",
 					["boss_fight_component"] = true,
+					["spec"] = 65,
+					["nome"] = "Shaazia-DefiasBrotherhood",
 					["spells"] = {
 						["_ActorTable"] = {
 							[339119] = {
@@ -38979,9 +38584,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 2756,
-								["n_amt"] = 341,
 								["n_curado"] = 6897,
 								["totaldenied"] = 0,
+								["n_amt"] = 341,
 								["absorbed"] = 0,
 							},
 							[325983] = {
@@ -39016,92 +38621,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 7168,
-								["n_amt"] = 124,
 								["n_curado"] = 13877,
 								["totaldenied"] = 0,
-								["absorbed"] = 0,
-							},
-							[296330] = {
-								["c_amt"] = 0,
-								["totalabsorb"] = 0,
-								["targets_overheal"] = {
-									["Shaazia-DefiasBrotherhood"] = 4250,
-								},
-								["n_max"] = 425,
-								["targets"] = {
-									["Shaazia-DefiasBrotherhood"] = 850,
-								},
-								["n_min"] = 0,
-								["counter"] = 12,
-								["overheal"] = 4250,
-								["total"] = 850,
-								["c_max"] = 0,
-								["id"] = 296330,
-								["targets_absorbs"] = {
-								},
-								["c_min"] = 0,
-								["c_curado"] = 0,
-								["n_amt"] = 12,
-								["n_curado"] = 850,
-								["totaldenied"] = 0,
-								["absorbed"] = 0,
-							},
-							[85673] = {
-								["c_amt"] = 6,
-								["totalabsorb"] = 0,
-								["targets_overheal"] = {
-									["Shaazia-DefiasBrotherhood"] = 69,
-									["Timewarrior-Ravencrest"] = 1445,
-									["Illidaryr"] = 2140,
-									["Xanthoros"] = 3002,
-									["Scolo-Lightbringer"] = 1307,
-								},
-								["n_max"] = 2195,
-								["targets"] = {
-									["Shaazia-DefiasBrotherhood"] = 7124,
-									["Illidaryr"] = 7154,
-									["Timewarrior-Ravencrest"] = 13016,
-									["Xanthoros"] = 30905,
-									["Scolo-Lightbringer"] = 7453,
-								},
-								["n_min"] = 0,
-								["counter"] = 35,
-								["overheal"] = 7963,
-								["total"] = 65652,
-								["c_max"] = 3560,
-								["id"] = 85673,
-								["targets_absorbs"] = {
-								},
-								["c_min"] = 0,
-								["c_curado"] = 17662,
-								["n_amt"] = 29,
-								["n_curado"] = 47990,
-								["totaldenied"] = 0,
-								["absorbed"] = 0,
-							},
-							[338788] = {
-								["c_amt"] = 0,
-								["totalabsorb"] = 8335,
-								["targets_overheal"] = {
-								},
-								["n_max"] = 970,
-								["targets"] = {
-									["Shaazia-DefiasBrotherhood"] = 8335,
-								},
-								["n_min"] = 0,
-								["counter"] = 27,
-								["overheal"] = 0,
-								["total"] = 8335,
-								["c_max"] = 0,
-								["id"] = 338788,
-								["targets_absorbs"] = {
-									["Shaazia-DefiasBrotherhood"] = 8335,
-								},
-								["c_min"] = 0,
-								["c_curado"] = 0,
-								["n_amt"] = 27,
-								["n_curado"] = 8335,
-								["totaldenied"] = 0,
+								["n_amt"] = 124,
 								["absorbed"] = 0,
 							},
 							[53652] = {
@@ -39124,9 +38646,92 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 182,
 								["n_curado"] = 39283,
 								["totaldenied"] = 0,
+								["n_amt"] = 182,
+								["absorbed"] = 0,
+							},
+							[296330] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Shaazia-DefiasBrotherhood"] = 4250,
+								},
+								["n_max"] = 425,
+								["targets"] = {
+									["Shaazia-DefiasBrotherhood"] = 850,
+								},
+								["n_min"] = 0,
+								["counter"] = 12,
+								["overheal"] = 4250,
+								["total"] = 850,
+								["c_max"] = 0,
+								["id"] = 296330,
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["c_curado"] = 0,
+								["n_curado"] = 850,
+								["totaldenied"] = 0,
+								["n_amt"] = 12,
+								["absorbed"] = 0,
+							},
+							[337824] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 34512,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 421,
+								["targets"] = {
+									["Shaazia-DefiasBrotherhood"] = 6089,
+									["Illidaryr"] = 2979,
+									["Timewarrior-Ravencrest"] = 4084,
+									["Xanthoros"] = 18000,
+									["Scolo-Lightbringer"] = 3360,
+								},
+								["n_min"] = 0,
+								["counter"] = 137,
+								["overheal"] = 0,
+								["total"] = 34512,
+								["c_max"] = 0,
+								["id"] = 337824,
+								["targets_absorbs"] = {
+									["Shaazia-DefiasBrotherhood"] = 6089,
+									["Illidaryr"] = 2979,
+									["Timewarrior-Ravencrest"] = 4084,
+									["Xanthoros"] = 18000,
+									["Scolo-Lightbringer"] = 3360,
+								},
+								["c_min"] = 0,
+								["c_curado"] = 0,
+								["n_curado"] = 34512,
+								["totaldenied"] = 0,
+								["n_amt"] = 137,
+								["absorbed"] = 0,
+							},
+							[338788] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 8335,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 970,
+								["targets"] = {
+									["Shaazia-DefiasBrotherhood"] = 8335,
+								},
+								["n_min"] = 0,
+								["counter"] = 27,
+								["overheal"] = 0,
+								["total"] = 8335,
+								["c_max"] = 0,
+								["id"] = 338788,
+								["targets_absorbs"] = {
+									["Shaazia-DefiasBrotherhood"] = 8335,
+								},
+								["c_min"] = 0,
+								["c_curado"] = 0,
+								["n_curado"] = 8335,
+								["totaldenied"] = 0,
+								["n_amt"] = 27,
 								["absorbed"] = 0,
 							},
 							[25914] = {
@@ -39161,9 +38766,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 67167,
-								["n_amt"] = 31,
 								["n_curado"] = 22178,
 								["totaldenied"] = 0,
+								["n_amt"] = 31,
 								["absorbed"] = 0,
 							},
 							[183998] = {
@@ -39186,8 +38791,8 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["anti_heal"] = 1460,
-								["n_amt"] = 3,
 								["totaldenied"] = 0,
+								["n_amt"] = 3,
 								["n_curado"] = 3472,
 								["c_curado"] = 0,
 								["absorbed"] = 0,
@@ -39214,9 +38819,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 2189,
-								["n_amt"] = 5,
 								["n_curado"] = 7170,
 								["totaldenied"] = 0,
+								["n_amt"] = 5,
 								["absorbed"] = 0,
 							},
 							[303380] = {
@@ -39247,42 +38852,40 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 5414,
-								["n_amt"] = 93,
 								["n_curado"] = 11428,
 								["totaldenied"] = 0,
+								["n_amt"] = 93,
 								["absorbed"] = 0,
 							},
-							[337824] = {
-								["c_amt"] = 0,
-								["totalabsorb"] = 34512,
+							[19750] = {
+								["c_amt"] = 8,
+								["totalabsorb"] = 0,
 								["targets_overheal"] = {
+									["Illidaryr"] = 125,
+									["Xanthoros"] = 496,
+									["Shaazia-DefiasBrotherhood"] = 1651,
 								},
-								["n_max"] = 421,
+								["n_max"] = 1637,
 								["targets"] = {
-									["Shaazia-DefiasBrotherhood"] = 6089,
-									["Illidaryr"] = 2979,
-									["Timewarrior-Ravencrest"] = 4084,
-									["Xanthoros"] = 18000,
-									["Scolo-Lightbringer"] = 3360,
+									["Shaazia-DefiasBrotherhood"] = 9430,
+									["Timewarrior-Ravencrest"] = 1389,
+									["Illidaryr"] = 2450,
+									["Xanthoros"] = 8963,
+									["Scolo-Lightbringer"] = 3822,
 								},
 								["n_min"] = 0,
-								["counter"] = 137,
-								["overheal"] = 0,
-								["total"] = 34512,
-								["c_max"] = 0,
-								["id"] = 337824,
+								["counter"] = 15,
+								["overheal"] = 2272,
+								["total"] = 26054,
+								["c_max"] = 2388,
+								["id"] = 19750,
 								["targets_absorbs"] = {
-									["Shaazia-DefiasBrotherhood"] = 6089,
-									["Illidaryr"] = 2979,
-									["Timewarrior-Ravencrest"] = 4084,
-									["Xanthoros"] = 18000,
-									["Scolo-Lightbringer"] = 3360,
 								},
 								["c_min"] = 0,
-								["c_curado"] = 0,
-								["n_amt"] = 137,
-								["n_curado"] = 34512,
+								["c_curado"] = 16473,
+								["n_curado"] = 9581,
 								["totaldenied"] = 0,
+								["n_amt"] = 7,
 								["absorbed"] = 0,
 							},
 							[183811] = {
@@ -39312,40 +38915,42 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 10039,
-								["n_amt"] = 408,
 								["n_curado"] = 16156,
 								["totaldenied"] = 0,
+								["n_amt"] = 408,
 								["absorbed"] = 0,
 							},
-							[19750] = {
-								["c_amt"] = 8,
+							[85673] = {
+								["c_amt"] = 6,
 								["totalabsorb"] = 0,
 								["targets_overheal"] = {
-									["Illidaryr"] = 125,
-									["Xanthoros"] = 496,
-									["Shaazia-DefiasBrotherhood"] = 1651,
+									["Shaazia-DefiasBrotherhood"] = 69,
+									["Timewarrior-Ravencrest"] = 1445,
+									["Illidaryr"] = 2140,
+									["Xanthoros"] = 3002,
+									["Scolo-Lightbringer"] = 1307,
 								},
-								["n_max"] = 1637,
+								["n_max"] = 2195,
 								["targets"] = {
-									["Shaazia-DefiasBrotherhood"] = 9430,
-									["Timewarrior-Ravencrest"] = 1389,
-									["Illidaryr"] = 2450,
-									["Xanthoros"] = 8963,
-									["Scolo-Lightbringer"] = 3822,
+									["Shaazia-DefiasBrotherhood"] = 7124,
+									["Illidaryr"] = 7154,
+									["Timewarrior-Ravencrest"] = 13016,
+									["Xanthoros"] = 30905,
+									["Scolo-Lightbringer"] = 7453,
 								},
 								["n_min"] = 0,
-								["counter"] = 15,
-								["overheal"] = 2272,
-								["total"] = 26054,
-								["c_max"] = 2388,
-								["id"] = 19750,
+								["counter"] = 35,
+								["overheal"] = 7963,
+								["total"] = 65652,
+								["c_max"] = 3560,
+								["id"] = 85673,
 								["targets_absorbs"] = {
 								},
 								["c_min"] = 0,
-								["c_curado"] = 16473,
-								["n_amt"] = 7,
-								["n_curado"] = 9581,
+								["c_curado"] = 17662,
+								["n_curado"] = 47990,
 								["totaldenied"] = 0,
+								["n_amt"] = 29,
 								["absorbed"] = 0,
 							},
 							[323436] = {
@@ -39367,9 +38972,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 1,
 								["n_curado"] = 1699,
 								["totaldenied"] = 0,
+								["n_amt"] = 1,
 								["absorbed"] = 0,
 							},
 							[225311] = {
@@ -39399,17 +39004,17 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 6,
 								["n_curado"] = 747,
 								["totaldenied"] = 0,
+								["n_amt"] = 6,
 								["absorbed"] = 0,
 							},
 						},
 						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["spec"] = 65,
 					["classe"] = "PALADIN",
+					["last_event"] = 0,
 					["custom"] = 0,
 					["tipo"] = 2,
 					["heal_enemy_amt"] = 0,
@@ -39451,9 +39056,9 @@ _detalhes_database = {
 					["totaldenied"] = 0.09883700000000001,
 					["fight_component"] = true,
 					["end_time"] = 1648310349,
-					["tipo"] = 2,
-					["nome"] = "Illidaryr",
 					["boss_fight_component"] = true,
+					["spec"] = 577,
+					["nome"] = "Illidaryr",
 					["spells"] = {
 						["_ActorTable"] = {
 							[303390] = {
@@ -39476,9 +39081,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 5,
 								["n_curado"] = 5025,
 								["totaldenied"] = 0,
+								["n_amt"] = 5,
 								["absorbed"] = 0,
 							},
 							[228532] = {
@@ -39501,9 +39106,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 5,
 								["n_curado"] = 633,
 								["totaldenied"] = 0,
+								["n_amt"] = 5,
 								["absorbed"] = 0,
 							},
 							[143924] = {
@@ -39526,9 +39131,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 134,
 								["n_curado"] = 32640,
 								["totaldenied"] = 0,
+								["n_amt"] = 134,
 								["absorbed"] = 0,
 							},
 							[269238] = {
@@ -39551,9 +39156,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 1863,
-								["n_amt"] = 33,
 								["n_curado"] = 696,
 								["totaldenied"] = 0,
+								["n_amt"] = 33,
 								["absorbed"] = 0,
 							},
 							[345423] = {
@@ -39576,9 +39181,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 563,
 								["n_curado"] = 12503,
 								["totaldenied"] = 0,
+								["n_amt"] = 563,
 								["absorbed"] = 0,
 							},
 							[178963] = {
@@ -39601,17 +39206,17 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 7,
 								["n_curado"] = 1267,
 								["totaldenied"] = 0,
+								["n_amt"] = 7,
 								["absorbed"] = 0,
 							},
 						},
 						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["spec"] = 577,
 					["heal_enemy_amt"] = 0,
+					["tipo"] = 2,
 					["custom"] = 0,
 					["last_event"] = 0,
 					["aID"] = "1301-0878F932",
@@ -39661,9 +39266,9 @@ _detalhes_database = {
 					["totaldenied"] = 0.06586600000000001,
 					["fight_component"] = true,
 					["end_time"] = 1648310397,
-					["tipo"] = 2,
-					["nome"] = "Scolo-Lightbringer",
 					["boss_fight_component"] = true,
+					["spec"] = 266,
+					["nome"] = "Scolo-Lightbringer",
 					["spells"] = {
 						["_ActorTable"] = {
 							[108447] = {
@@ -39687,9 +39292,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 67,
 								["n_curado"] = 847,
 								["totaldenied"] = 0,
+								["n_amt"] = 67,
 								["absorbed"] = 0,
 							},
 							[108416] = {
@@ -39713,9 +39318,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 5,
 								["n_curado"] = 5935,
 								["totaldenied"] = 0,
+								["n_amt"] = 5,
 								["absorbed"] = 0,
 							},
 							[143924] = {
@@ -39737,9 +39342,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 26,
 								["n_curado"] = 230,
 								["totaldenied"] = 0,
+								["n_amt"] = 26,
 								["absorbed"] = 0,
 							},
 							[6262] = {
@@ -39762,9 +39367,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 1,
 								["n_curado"] = 1582,
 								["totaldenied"] = 0,
+								["n_amt"] = 1,
 								["absorbed"] = 0,
 							},
 							[108366] = {
@@ -39790,9 +39395,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 53,
 								["n_curado"] = 4852,
 								["totaldenied"] = 0,
+								["n_amt"] = 53,
 								["absorbed"] = 0,
 							},
 							[234153] = {
@@ -39815,17 +39420,17 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 3,
 								["n_curado"] = 0,
 								["totaldenied"] = 0,
+								["n_amt"] = 3,
 								["absorbed"] = 0,
 							},
 						},
 						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["spec"] = 266,
 					["heal_enemy_amt"] = 0,
+					["tipo"] = 2,
 					["custom"] = 0,
 					["last_event"] = 0,
 					["aID"] = "1388-08384D39",
@@ -39864,9 +39469,12 @@ _detalhes_database = {
 					["healing_taken"] = 0.015415,
 					["fight_component"] = true,
 					["end_time"] = 1648310495,
-					["aID"] = "171396",
+					["targets_overheal"] = {
+						["Illidaryr"] = 0,
+						["Scolo-Lightbringer"] = 0,
+					},
 					["ownerName"] = "Shaazia-DefiasBrotherhood",
-					["nome"] = "Kyrian Goliath <Shaazia-DefiasBrotherhood>",
+					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
 							[332526] = {
@@ -39892,26 +39500,23 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 11,
 								["n_curado"] = 4155,
 								["totaldenied"] = 0,
+								["n_amt"] = 11,
 								["absorbed"] = 0,
 							},
 						},
 						["tipo"] = 3,
 					},
-					["targets_overheal"] = {
-						["Illidaryr"] = 0,
-						["Scolo-Lightbringer"] = 0,
-					},
-					["totaldenied"] = 0.015415,
+					["aID"] = "171396",
 					["classe"] = "PET",
+					["totaldenied"] = 0.015415,
 					["custom"] = 0,
 					["last_event"] = 0,
 					["tipo"] = 2,
 					["start_time"] = 1648310438,
 					["delay"] = 0,
-					["boss_fight_component"] = true,
+					["nome"] = "Kyrian Goliath <Shaazia-DefiasBrotherhood>",
 				}, -- [6]
 				{
 					["flag_original"] = 2632,
@@ -39920,7 +39525,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 20742,
+					["aID"] = "76142",
 					["totalover"] = 0.014468,
 					["total_without_pet"] = 0.014468,
 					["monster"] = true,
@@ -39939,23 +39544,23 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.014468,
 					["healing_taken"] = 0.014468,
 					["end_time"] = 1648310591,
-					["targets_overheal"] = {
-					},
+					["boss_fight_component"] = true,
 					["nome"] = "Skyreach Sun Construct Prototype",
 					["spells"] = {
 						["_ActorTable"] = {
 						},
 						["tipo"] = 3,
 					},
-					["totaldenied"] = 0.014468,
-					["tipo"] = 2,
+					["targets_overheal"] = {
+					},
+					["last_event"] = 0,
 					["classe"] = "UNKNOW",
 					["custom"] = 0,
-					["last_event"] = 0,
-					["aID"] = "76142",
+					["tipo"] = 2,
+					["totaldenied"] = 0.014468,
 					["start_time"] = 1648310588,
 					["delay"] = 0,
-					["boss_fight_component"] = true,
+					["heal_enemy_amt"] = 20742,
 				}, -- [7]
 				{
 					["flag_original"] = 68168,
@@ -39964,7 +39569,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
+					["aID"] = "76141",
 					["totalover"] = 0.006492,
 					["total_without_pet"] = 0.006492,
 					["monster"] = true,
@@ -39982,23 +39587,23 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.006492,
 					["healing_taken"] = 0.006492,
 					["end_time"] = 1648310591,
-					["targets_overheal"] = {
-					},
+					["boss_fight_component"] = true,
 					["nome"] = "Araknath",
 					["spells"] = {
 						["_ActorTable"] = {
 						},
 						["tipo"] = 3,
 					},
-					["totaldenied"] = 0.006492,
-					["tipo"] = 2,
+					["targets_overheal"] = {
+					},
+					["last_event"] = 0,
 					["classe"] = "UNKNOW",
 					["custom"] = 0,
-					["last_event"] = 0,
-					["aID"] = "76141",
+					["tipo"] = 2,
+					["totaldenied"] = 0.006492,
 					["start_time"] = 1648310588,
 					["delay"] = 0,
-					["boss_fight_component"] = true,
+					["heal_enemy_amt"] = 0,
 				}, -- [8]
 				{
 					["flag_original"] = 8466,
@@ -40027,9 +39632,10 @@ _detalhes_database = {
 					["healing_taken"] = 14.024508,
 					["fight_component"] = true,
 					["end_time"] = 1648310591,
-					["aID"] = "55659",
+					["targets_overheal"] = {
+					},
 					["ownerName"] = "Scolo-Lightbringer",
-					["nome"] = "Wild Imp <Scolo-Lightbringer>",
+					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
 							[143924] = {
@@ -40051,24 +39657,23 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 8,
 								["n_curado"] = 14,
 								["totaldenied"] = 0,
+								["n_amt"] = 8,
 								["absorbed"] = 0,
 							},
 						},
 						["tipo"] = 3,
 					},
-					["targets_overheal"] = {
-					},
-					["totaldenied"] = 0.024508,
+					["aID"] = "55659",
 					["classe"] = "PET",
+					["totaldenied"] = 0.024508,
 					["custom"] = 0,
 					["last_event"] = 0,
 					["tipo"] = 2,
 					["start_time"] = 1648310576,
 					["delay"] = 0,
-					["boss_fight_component"] = true,
+					["nome"] = "Wild Imp <Scolo-Lightbringer>",
 				}, -- [9]
 				{
 					["flag_original"] = 8466,
@@ -40097,9 +39702,10 @@ _detalhes_database = {
 					["healing_taken"] = 268.032715,
 					["fight_component"] = true,
 					["end_time"] = 1648310591,
-					["aID"] = "98035",
+					["targets_overheal"] = {
+					},
 					["ownerName"] = "Scolo-Lightbringer",
-					["nome"] = "Dreadstalker <Scolo-Lightbringer>",
+					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
 							[143924] = {
@@ -40121,24 +39727,23 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 22,
 								["n_curado"] = 268,
 								["totaldenied"] = 0,
+								["n_amt"] = 22,
 								["absorbed"] = 0,
 							},
 						},
 						["tipo"] = 3,
 					},
-					["targets_overheal"] = {
-					},
-					["totaldenied"] = 0.032715,
+					["aID"] = "98035",
 					["classe"] = "PET",
+					["totaldenied"] = 0.032715,
 					["custom"] = 0,
 					["last_event"] = 0,
 					["tipo"] = 2,
 					["start_time"] = 1648310548,
 					["delay"] = 0,
-					["boss_fight_component"] = true,
+					["nome"] = "Dreadstalker <Scolo-Lightbringer>",
 				}, -- [10]
 				{
 					["flag_original"] = 4370,
@@ -40168,9 +39773,10 @@ _detalhes_database = {
 					["healing_taken"] = 2021.025314,
 					["fight_component"] = true,
 					["end_time"] = 1648310927,
-					["aID"] = "17252",
+					["targets_overheal"] = {
+					},
 					["ownerName"] = "Scolo-Lightbringer",
-					["nome"] = "Chinilferil <Scolo-Lightbringer>",
+					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
 							[143924] = {
@@ -40192,24 +39798,23 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 12,
 								["n_curado"] = 252,
 								["totaldenied"] = 0,
+								["n_amt"] = 12,
 								["absorbed"] = 0,
 							},
 						},
 						["tipo"] = 3,
 					},
-					["targets_overheal"] = {
-					},
-					["totaldenied"] = 0.025314,
+					["aID"] = "17252",
 					["classe"] = "PET",
+					["totaldenied"] = 0.025314,
 					["custom"] = 0,
 					["last_event"] = 0,
 					["tipo"] = 2,
 					["start_time"] = 1648310874,
 					["delay"] = 0,
-					["boss_fight_component"] = true,
+					["nome"] = "Chinilferil <Scolo-Lightbringer>",
 				}, -- [11]
 				{
 					["flag_original"] = 8466,
@@ -40260,25 +39865,25 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 2,
 								["n_curado"] = 54,
 								["totaldenied"] = 0,
+								["n_amt"] = 2,
 								["absorbed"] = 0,
 							},
 						},
 						["tipo"] = 3,
 					},
+					["heal_enemy_amt"] = 0,
 					["healing_from"] = {
 						["Felguard <Scolo-Lightbringer>"] = true,
 					},
+					["last_event"] = 0,
+					["custom"] = 0,
 					["tipo"] = 2,
 					["totaldenied"] = 0.00836,
-					["custom"] = 0,
-					["last_event"] = 0,
-					["aID"] = "17252",
 					["start_time"] = 1648311032,
 					["delay"] = 0,
-					["heal_enemy_amt"] = 0,
+					["aID"] = "17252",
 				}, -- [12]
 			},
 		}, -- [2]
@@ -40287,7 +39892,7 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["received"] = 2221.890798914403,
-					["resource"] = 12.118999,
+					["resource"] = 18.175409,
 					["targets"] = {
 						["Xanthoros"] = 0,
 					},
@@ -40296,11 +39901,11 @@ _detalhes_database = {
 					["powertype"] = 1,
 					["classe"] = "DRUID",
 					["passiveover"] = 0.008404,
-					["aID"] = "1301-0A44C97F",
+					["nome"] = "Xanthoros",
 					["fight_component"] = true,
 					["resource_type"] = 4,
+					["aID"] = "1301-0A44C97F",
 					["totalover"] = 0.008404,
-					["nome"] = "Xanthoros",
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -40322,15 +39927,6 @@ _detalhes_database = {
 								},
 								["counter"] = 37,
 							},
-							[33917] = {
-								["total"] = 816.1000003814697,
-								["id"] = 33917,
-								["totalover"] = 0,
-								["targets"] = {
-									["Xanthoros"] = 0,
-								},
-								["counter"] = 65,
-							},
 							[17057] = {
 								["total"] = 25,
 								["id"] = 17057,
@@ -40339,15 +39935,6 @@ _detalhes_database = {
 									["Xanthoros"] = 0,
 								},
 								["counter"] = 1,
-							},
-							[195707] = {
-								["total"] = 549.7000000029802,
-								["id"] = 195707,
-								["totalover"] = 0,
-								["targets"] = {
-									["Xanthoros"] = 0,
-								},
-								["counter"] = 191,
 							},
 							[77758] = {
 								["total"] = 335,
@@ -40358,12 +39945,30 @@ _detalhes_database = {
 								},
 								["counter"] = 72,
 							},
+							[195707] = {
+								["total"] = 549.7000000029802,
+								["id"] = 195707,
+								["totalover"] = 0,
+								["targets"] = {
+									["Xanthoros"] = 0,
+								},
+								["counter"] = 191,
+							},
+							[33917] = {
+								["total"] = 816.1000003814697,
+								["id"] = 33917,
+								["totalover"] = 0,
+								["targets"] = {
+									["Xanthoros"] = 0,
+								},
+								["counter"] = 65,
+							},
 						},
 						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["last_event"] = 0,
 					["alternatepower"] = 0.09079400000000001,
+					["last_event"] = 0,
 					["flag_original"] = 1297,
 					["tipo"] = 3,
 					["spec"] = 104,
@@ -40373,7 +39978,7 @@ _detalhes_database = {
 				}, -- [1]
 				{
 					["received"] = 3753.275945359287,
-					["resource"] = 0.100282,
+					["resource"] = 0.148976,
 					["targets"] = {
 						["Timewarrior-Ravencrest"] = 0,
 					},
@@ -40384,8 +39989,8 @@ _detalhes_database = {
 					["passiveover"] = 0.004802,
 					["fight_component"] = true,
 					["total"] = 3753.275945359287,
-					["nome"] = "Timewarrior-Ravencrest",
 					["boss_fight_component"] = true,
+					["nome"] = "Timewarrior-Ravencrest",
 					["spells"] = {
 						["_ActorTable"] = {
 							[280735] = {
@@ -40483,9 +40088,9 @@ _detalhes_database = {
 					},
 					["grupo"] = true,
 					["aID"] = "1329-09C6E2DC",
-					["last_event"] = 0,
 					["alternatepower"] = 0.075935,
 					["tipo"] = 3,
+					["last_event"] = 0,
 					["flag_original"] = 1298,
 					["spec"] = 72,
 					["serial"] = "Player-1329-09C6E2DC",
@@ -40493,7 +40098,7 @@ _detalhes_database = {
 				}, -- [2]
 				{
 					["received"] = 0.065135,
-					["resource"] = 270.081322,
+					["resource"] = 484.113696,
 					["targets"] = {
 					},
 					["pets"] = {
@@ -40503,8 +40108,8 @@ _detalhes_database = {
 					["passiveover"] = 0.002145,
 					["fight_component"] = true,
 					["resource_type"] = 9,
+					["total"] = 0.065135,
 					["aID"] = "1096-05E8A18D",
-					["totalover"] = 0.002145,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -40512,18 +40117,18 @@ _detalhes_database = {
 						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["last_event"] = 0,
 					["alternatepower"] = 0.065135,
 					["flag_original"] = 1298,
+					["last_event"] = 0,
 					["tipo"] = 3,
 					["spec"] = 65,
 					["nome"] = "Shaazia-DefiasBrotherhood",
 					["serial"] = "Player-1096-05E8A18D",
-					["total"] = 0.065135,
+					["totalover"] = 0.002145,
 				}, -- [3]
 				{
 					["received"] = 0.076502,
-					["resource"] = 8236.10311,
+					["resource"] = 14656.156326,
 					["targets"] = {
 					},
 					["pets"] = {
@@ -40533,8 +40138,8 @@ _detalhes_database = {
 					["passiveover"] = 0.004123,
 					["fight_component"] = true,
 					["resource_type"] = 17,
+					["total"] = 0.076502,
 					["aID"] = "1301-0878F932",
-					["totalover"] = 0.004123,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -40542,18 +40147,18 @@ _detalhes_database = {
 						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["last_event"] = 0,
 					["alternatepower"] = 0.076502,
 					["flag_original"] = 1298,
+					["last_event"] = 0,
 					["tipo"] = 3,
 					["spec"] = 577,
 					["nome"] = "Illidaryr",
 					["serial"] = "Player-1301-0878F932",
-					["total"] = 0.076502,
+					["totalover"] = 0.004123,
 				}, -- [4]
 				{
 					["received"] = 0.062115,
-					["resource"] = 200.090781,
+					["resource"] = 358.148113,
 					["targets"] = {
 					},
 					["pets"] = {
@@ -40563,8 +40168,8 @@ _detalhes_database = {
 					["passiveover"] = 0.005082,
 					["fight_component"] = true,
 					["resource_type"] = 7,
+					["total"] = 0.062115,
 					["aID"] = "1388-08384D39",
-					["totalover"] = 0.005082,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -40572,14 +40177,14 @@ _detalhes_database = {
 						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["last_event"] = 0,
 					["alternatepower"] = 0.062115,
 					["flag_original"] = 1298,
+					["last_event"] = 0,
 					["tipo"] = 3,
 					["spec"] = 266,
 					["nome"] = "Scolo-Lightbringer",
 					["serial"] = "Player-1388-08384D39",
-					["total"] = 0.062115,
+					["totalover"] = 0.005082,
 				}, -- [5]
 			},
 		}, -- [3]
@@ -40821,15 +40426,15 @@ _detalhes_database = {
 								},
 								["refreshamt"] = 0,
 							},
-							[333943] = {
+							[93805] = {
 								["counter"] = 0,
-								["activedamt"] = 20,
-								["appliedamt"] = 20,
-								["id"] = 333943,
-								["uptime"] = 207,
+								["activedamt"] = 14,
+								["appliedamt"] = 14,
+								["id"] = 93805,
+								["uptime"] = 553,
 								["targets"] = {
 								},
-								["refreshamt"] = 63,
+								["refreshamt"] = 0,
 							},
 							[324748] = {
 								["counter"] = 0,
@@ -40841,25 +40446,25 @@ _detalhes_database = {
 								},
 								["refreshamt"] = 17,
 							},
-							[93805] = {
+							[333943] = {
 								["counter"] = 0,
-								["activedamt"] = 14,
-								["appliedamt"] = 14,
-								["id"] = 93805,
-								["uptime"] = 553,
+								["activedamt"] = 20,
+								["appliedamt"] = 20,
+								["id"] = 333943,
+								["uptime"] = 207,
 								["targets"] = {
 								},
-								["refreshamt"] = 0,
+								["refreshamt"] = 63,
 							},
-							[170818] = {
+							[304056] = {
 								["counter"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 170818,
-								["uptime"] = 3,
+								["activedamt"] = 21,
+								["appliedamt"] = 21,
+								["id"] = 304056,
+								["uptime"] = 492,
 								["targets"] = {
 								},
-								["refreshamt"] = 0,
+								["refreshamt"] = 134,
 							},
 							[287280] = {
 								["counter"] = 0,
@@ -40982,15 +40587,15 @@ _detalhes_database = {
 								},
 								["refreshamt"] = 0,
 							},
-							[304056] = {
+							[170818] = {
 								["counter"] = 0,
-								["activedamt"] = 21,
-								["appliedamt"] = 21,
-								["id"] = 304056,
-								["uptime"] = 492,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 170818,
+								["uptime"] = 3,
 								["targets"] = {
 								},
-								["refreshamt"] = 134,
+								["refreshamt"] = 0,
 							},
 						},
 						["tipo"] = 9,
@@ -40999,11 +40604,9 @@ _detalhes_database = {
 					["buff_uptime"] = 5679,
 					["fight_component"] = true,
 					["ress"] = 1.007363,
-					["debuff_uptime_targets"] = {
-					},
+					["nome"] = "Shaazia-DefiasBrotherhood",
 					["cc_done"] = 2.01312,
-					["buff_uptime_targets"] = {
-					},
+					["boss_fight_component"] = true,
 					["spec"] = 65,
 					["grupo"] = true,
 					["classe"] = "PALADIN",
@@ -41029,7 +40632,8 @@ _detalhes_database = {
 						[212056] = 1,
 						[853] = 2,
 					},
-					["nome"] = "Shaazia-DefiasBrotherhood",
+					["debuff_uptime_targets"] = {
+					},
 					["ress_spells"] = {
 						["_ActorTable"] = {
 							[212056] = {
@@ -41045,7 +40649,8 @@ _detalhes_database = {
 					},
 					["last_event"] = 0,
 					["debuff_uptime"] = 1427,
-					["boss_fight_component"] = true,
+					["buff_uptime_targets"] = {
+					},
 					["cooldowns_defensive_spells"] = {
 						["_ActorTable"] = {
 							[6940] = {
@@ -41084,15 +40689,16 @@ _detalhes_database = {
 								},
 								["refreshamt"] = 0,
 							},
-							[295367] = {
+							[1490] = {
 								["counter"] = 0,
-								["activedamt"] = 0,
-								["appliedamt"] = 29,
-								["id"] = 295367,
-								["uptime"] = 220,
+								["refreshamt"] = 0,
+								["activedamt"] = 11,
+								["uptime"] = 443,
+								["id"] = 1490,
+								["appliedamt"] = 59,
 								["targets"] = {
 								},
-								["refreshamt"] = 8,
+								["actived_at"] = 1648310590,
 							},
 							[179057] = {
 								["counter"] = 0,
@@ -41104,16 +40710,16 @@ _detalhes_database = {
 								},
 								["refreshamt"] = 0,
 							},
-							[1490] = {
+							[303438] = {
 								["counter"] = 0,
 								["refreshamt"] = 0,
-								["activedamt"] = 11,
-								["uptime"] = 443,
-								["id"] = 1490,
-								["appliedamt"] = 59,
+								["activedamt"] = 1,
+								["uptime"] = 180,
+								["id"] = 303438,
+								["appliedamt"] = 5,
 								["targets"] = {
 								},
-								["actived_at"] = 1648310590,
+								["actived_at"] = 1648311068,
 							},
 							[345335] = {
 								["counter"] = 0,
@@ -41145,47 +40751,30 @@ _detalhes_database = {
 								},
 								["refreshamt"] = 0,
 							},
-							[303438] = {
+							[295367] = {
 								["counter"] = 0,
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["uptime"] = 180,
-								["id"] = 303438,
-								["appliedamt"] = 5,
+								["activedamt"] = 0,
+								["appliedamt"] = 29,
+								["id"] = 295367,
+								["uptime"] = 220,
 								["targets"] = {
 								},
-								["actived_at"] = 1648311068,
+								["refreshamt"] = 8,
 							},
 						},
 						["tipo"] = 9,
 					},
 					["interrupt"] = 3.021609,
-					["spell_cast"] = {
-						[200166] = 3,
-						[210152] = 13,
-						[183752] = 3,
-						[188499] = 9,
-						[323802] = 7,
-						[131347] = 5,
-						[258920] = 21,
-						[195072] = 26,
-						[198013] = 19,
-						[162243] = 114,
-						[278326] = 10,
-						[201427] = 78,
-						[179057] = 4,
-						[228537] = 5,
-						[209693] = 13,
-						[162794] = 53,
-						[323639] = 7,
-						[198793] = 1,
-						[198589] = 2,
-						[196718] = 1,
+					["interrupt_targets"] = {
+						["Skyreach Shield Construct"] = 1,
+						["Adept of the Dawn"] = 1,
+						["Initiate of the Rising Sun"] = 1,
 					},
 					["cooldowns_defensive"] = 3.014239,
 					["pets"] = {
 					},
-					["nome"] = "Illidaryr",
+					["buff_uptime_targets"] = {
+					},
 					["cc_done_spells"] = {
 						["_ActorTable"] = {
 							[179057] = {
@@ -41410,15 +40999,31 @@ _detalhes_database = {
 					["debuff_uptime"] = 1064,
 					["buff_uptime"] = 2792,
 					["cc_done"] = 29.022138,
-					["buff_uptime_targets"] = {
-					},
-					["interrupt_targets"] = {
-						["Skyreach Shield Construct"] = 1,
-						["Adept of the Dawn"] = 1,
-						["Initiate of the Rising Sun"] = 1,
-					},
+					["nome"] = "Illidaryr",
+					["spec"] = 577,
 					["grupo"] = true,
-					["tipo"] = 4,
+					["spell_cast"] = {
+						[200166] = 3,
+						[210152] = 13,
+						[183752] = 3,
+						[188499] = 9,
+						[323802] = 7,
+						[131347] = 5,
+						[258920] = 21,
+						[162243] = 114,
+						[198013] = 19,
+						[195072] = 26,
+						[278326] = 10,
+						[201427] = 78,
+						[179057] = 4,
+						[228537] = 5,
+						[209693] = 13,
+						[162794] = 53,
+						[323639] = 7,
+						[198793] = 1,
+						[198589] = 2,
+						[196718] = 1,
+					},
 					["cc_done_targets"] = {
 						["Blooded Bladefeather"] = 2,
 						["Soaring Chakram Master"] = 1,
@@ -41454,9 +41059,9 @@ _detalhes_database = {
 						["tipo"] = 9,
 					},
 					["last_event"] = 0,
+					["tipo"] = 4,
 					["debuff_uptime_targets"] = {
 					},
-					["boss_fight_component"] = true,
 					["cooldowns_defensive_spells"] = {
 						["_ActorTable"] = {
 							[198589] = {
@@ -41476,7 +41081,7 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["spec"] = 577,
+					["boss_fight_component"] = true,
 				}, -- [2]
 				{
 					["flag_original"] = 1047,
@@ -41516,22 +41121,9 @@ _detalhes_database = {
 						["tipo"] = 9,
 					},
 					["interrupt"] = 2.006848,
-					["spell_cast"] = {
-						[111898] = 5,
-						[686] = 35,
-						[108416] = 2,
-						[265187] = 2,
-						[196277] = 8,
-						[5782] = 2,
-						[119914] = 1,
-						[30283] = 2,
-						[104316] = 20,
-						[105174] = 35,
-						[6262] = 1,
-						[264178] = 57,
-						[234153] = 1,
-						[20707] = 1,
-						[333889] = 3,
+					["interrupt_targets"] = {
+						["Defense Construct"] = 1,
+						["Blinding Solar Flare"] = 1,
 					},
 					["cooldowns_defensive"] = 2.012744,
 					["pets"] = {
@@ -41540,7 +41132,8 @@ _detalhes_database = {
 						"Demonic Tyrant <Scolo-Lightbringer>", -- [3]
 						"Chinilferil <Scolo-Lightbringer>", -- [4]
 					},
-					["nome"] = "Scolo-Lightbringer",
+					["buff_uptime_targets"] = {
+					},
 					["cc_done_spells"] = {
 						["_ActorTable"] = {
 							[30283] = {
@@ -41586,15 +41179,15 @@ _detalhes_database = {
 								},
 								["refreshamt"] = 0,
 							},
-							[205146] = {
+							[224001] = {
 								["counter"] = 0,
-								["activedamt"] = 13,
-								["appliedamt"] = 13,
-								["id"] = 205146,
-								["uptime"] = 92,
+								["activedamt"] = 9,
+								["appliedamt"] = 9,
+								["id"] = 224001,
+								["uptime"] = 305,
 								["targets"] = {
 								},
-								["refreshamt"] = 6,
+								["refreshamt"] = 0,
 							},
 							[333889] = {
 								["counter"] = 0,
@@ -41606,15 +41199,15 @@ _detalhes_database = {
 								},
 								["refreshamt"] = 0,
 							},
-							[224001] = {
+							[205146] = {
 								["counter"] = 0,
-								["activedamt"] = 9,
-								["appliedamt"] = 9,
-								["id"] = 224001,
-								["uptime"] = 305,
+								["activedamt"] = 13,
+								["appliedamt"] = 13,
+								["id"] = 205146,
+								["uptime"] = 92,
 								["targets"] = {
 								},
-								["refreshamt"] = 0,
+								["refreshamt"] = 6,
 							},
 							[228128] = {
 								["counter"] = 0,
@@ -41677,22 +41270,22 @@ _detalhes_database = {
 								},
 								["refreshamt"] = 0,
 							},
-							[108446] = {
-								["counter"] = 0,
-								["activedamt"] = 0,
-								["appliedamt"] = 0,
-								["id"] = 108446,
-								["uptime"] = 0,
-								["targets"] = {
-								},
-								["refreshamt"] = 0,
-							},
 							[108416] = {
 								["counter"] = 0,
 								["activedamt"] = 2,
 								["appliedamt"] = 2,
 								["id"] = 108416,
 								["uptime"] = 36,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[108446] = {
+								["counter"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 0,
+								["id"] = 108446,
+								["uptime"] = 0,
 								["targets"] = {
 								},
 								["refreshamt"] = 0,
@@ -41709,14 +41302,26 @@ _detalhes_database = {
 					["debuff_uptime"] = 211,
 					["buff_uptime"] = 2005,
 					["cc_done"] = 18.012028,
-					["buff_uptime_targets"] = {
-					},
-					["interrupt_targets"] = {
-						["Defense Construct"] = 1,
-						["Blinding Solar Flare"] = 1,
-					},
+					["nome"] = "Scolo-Lightbringer",
+					["spec"] = 266,
 					["grupo"] = true,
-					["tipo"] = 4,
+					["spell_cast"] = {
+						[111898] = 5,
+						[104316] = 20,
+						[108416] = 2,
+						[265187] = 2,
+						[196277] = 8,
+						[333889] = 3,
+						[119914] = 1,
+						[30283] = 2,
+						[686] = 35,
+						[105174] = 35,
+						[6262] = 1,
+						[264178] = 57,
+						[234153] = 1,
+						[20707] = 1,
+						[5782] = 2,
+					},
 					["cc_done_targets"] = {
 						["Blooded Bladefeather"] = 2,
 						["Blinding Solar Flare"] = 1,
@@ -41734,9 +41339,9 @@ _detalhes_database = {
 						["tipo"] = 9,
 					},
 					["last_event"] = 0,
+					["tipo"] = 4,
 					["debuff_uptime_targets"] = {
 					},
-					["boss_fight_component"] = true,
 					["cooldowns_defensive_spells"] = {
 						["_ActorTable"] = {
 							[108416] = {
@@ -41749,7 +41354,7 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["spec"] = 266,
+					["boss_fight_component"] = true,
 				}, -- [3]
 				{
 					["flag_original"] = 1047,
@@ -41809,33 +41414,15 @@ _detalhes_database = {
 						["tipo"] = 9,
 					},
 					["interrupt"] = 3.016976,
-					["spell_cast"] = {
-						[34428] = 1,
-						[307865] = 8,
-						[184367] = 52,
-						[46924] = 10,
-						[5246] = 1,
-						[6552] = 5,
-						[184364] = 5,
-						[280735] = 29,
-						[126664] = 10,
-						[107570] = 8,
-						[1464] = 2,
-						[324260] = 52,
-						[23920] = 1,
-						[1719] = 11,
-						[100] = 10,
-						[52174] = 4,
-						[190411] = 33,
-						[23881] = 64,
-						[85288] = 83,
-						[190456] = 5,
-						[12323] = 1,
-						[97462] = 1,
+					["interrupt_targets"] = {
+						["Whirling Dervish"] = 1,
+						["High Sage Viryx"] = 1,
+						["Radiant Supernova"] = 1,
 					},
 					["cooldowns_defensive"] = 6.0328,
 					["buff_uptime"] = 2122,
-					["nome"] = "Timewarrior-Ravencrest",
+					["buff_uptime_targets"] = {
+					},
 					["cc_done_spells"] = {
 						["_ActorTable"] = {
 							[132169] = {
@@ -42078,15 +41665,33 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["cc_done"] = 7.029973,
-					["buff_uptime_targets"] = {
-					},
-					["interrupt_targets"] = {
-						["Whirling Dervish"] = 1,
-						["High Sage Viryx"] = 1,
-						["Radiant Supernova"] = 1,
-					},
+					["nome"] = "Timewarrior-Ravencrest",
+					["spec"] = 72,
 					["grupo"] = true,
-					["tipo"] = 4,
+					["spell_cast"] = {
+						[34428] = 1,
+						[307865] = 8,
+						[184367] = 52,
+						[46924] = 10,
+						[5246] = 1,
+						[6552] = 5,
+						[184364] = 5,
+						[280735] = 29,
+						[126664] = 10,
+						[107570] = 8,
+						[1464] = 2,
+						[324260] = 52,
+						[23920] = 1,
+						[1719] = 11,
+						[100] = 10,
+						[52174] = 4,
+						[190411] = 33,
+						[23881] = 64,
+						[85288] = 83,
+						[190456] = 5,
+						[12323] = 1,
+						[97462] = 1,
+					},
 					["cc_done_targets"] = {
 						["Skyreach Raven Whisperer"] = 1,
 						["Solar Flare"] = 3,
@@ -42099,9 +41704,9 @@ _detalhes_database = {
 						["[*] raid wide cooldown"] = 1,
 					},
 					["last_event"] = 0,
+					["tipo"] = 4,
 					["debuff_uptime_targets"] = {
 					},
-					["boss_fight_component"] = true,
 					["cooldowns_defensive_spells"] = {
 						["_ActorTable"] = {
 							[184364] = {
@@ -42121,7 +41726,7 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["spec"] = 72,
+					["boss_fight_component"] = true,
 				}, -- [4]
 				{
 					["flag_original"] = 1047,
@@ -42178,12 +41783,13 @@ _detalhes_database = {
 								},
 								["refreshamt"] = 24,
 							},
-							[6795] = {
+							[45334] = {
 								["counter"] = 0,
-								["activedamt"] = 0,
-								["appliedamt"] = 2,
-								["id"] = 6795,
-								["uptime"] = 6,
+								["appliedamt"] = 0,
+								["activedamt"] = -5,
+								["actived_at"] = 8241553510,
+								["id"] = 45334,
+								["uptime"] = 0,
 								["targets"] = {
 								},
 								["refreshamt"] = 0,
@@ -42198,13 +41804,12 @@ _detalhes_database = {
 								},
 								["refreshamt"] = 0,
 							},
-							[45334] = {
+							[6795] = {
 								["counter"] = 0,
-								["appliedamt"] = 0,
-								["activedamt"] = -5,
-								["actived_at"] = 8241553510,
-								["id"] = 45334,
-								["uptime"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 2,
+								["id"] = 6795,
+								["uptime"] = 6,
 								["targets"] = {
 								},
 								["refreshamt"] = 0,
@@ -42215,14 +41820,15 @@ _detalhes_database = {
 					["ress_targets"] = {
 						["Shaazia-DefiasBrotherhood"] = 1,
 					},
-					["interrupt"] = 1.002396,
-					["classe"] = "DRUID",
+					["ress"] = 1.004732,
+					["tipo"] = 4,
 					["cooldowns_defensive"] = 17.05522,
 					["pets"] = {
 					},
-					["ress"] = 1.004732,
+					["debuff_uptime_targets"] = {
+					},
 					["buff_uptime"] = 3350,
-					["aID"] = "1301-0A44C97F",
+					["classe"] = "DRUID",
 					["interrupt_spells"] = {
 						["_ActorTable"] = {
 							[93985] = {
@@ -42424,21 +42030,21 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["tipo"] = 4,
+					["nome"] = "Xanthoros",
 					["interrompeu_oque"] = {
 						[154396] = 1,
 					},
 					["fight_component"] = true,
 					["debuff_uptime"] = 1217,
+					["aID"] = "1301-0A44C97F",
 					["cooldowns_defensive_targets"] = {
 						["Xanthoros"] = 16,
 						["[*] raid wide cooldown"] = 1,
 					},
-					["serial"] = "Player-1301-0A44C97F",
-					["nome"] = "Xanthoros",
+					["interrupt"] = 1.002396,
 					["spec"] = 104,
 					["grupo"] = true,
-					["boss_fight_component"] = true,
+					["serial"] = "Player-1301-0A44C97F",
 					["spell_cast"] = {
 						[6807] = 43,
 						[61336] = 2,
@@ -42462,8 +42068,7 @@ _detalhes_database = {
 						[339] = 1,
 						[106839] = 1,
 					},
-					["buff_uptime_targets"] = {
-					},
+					["boss_fight_component"] = true,
 					["ress_spells"] = {
 						["_ActorTable"] = {
 							[20484] = {
@@ -42508,7 +42113,7 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["debuff_uptime_targets"] = {
+					["buff_uptime_targets"] = {
 					},
 				}, -- [5]
 				{
@@ -42551,8 +42156,8 @@ _detalhes_database = {
 						[89753] = 28,
 						[30151] = 2,
 					},
-					["tipo"] = 4,
 					["last_event"] = 0,
+					["tipo"] = 4,
 					["interrupt"] = 2.009319,
 					["nome"] = "Felguard <Scolo-Lightbringer>",
 					["serial"] = "Creature-0-4235-1209-25977-17252-00003F3847",
@@ -42560,106 +42165,106 @@ _detalhes_database = {
 				}, -- [6]
 				{
 					["monster"] = true,
-					["flag_original"] = 2632,
+					["aID"] = "79466",
 					["nome"] = "Initiate of the Rising Sun",
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["tipo"] = 4,
+					["serial"] = "Creature-0-4235-1209-25977-79466-00003F3807",
 					["spell_cast"] = {
 						[152894] = 1,
 						[160274] = 1,
 					},
-					["fight_component"] = true,
-					["last_event"] = 0,
-					["classe"] = "UNKNOW",
-					["aID"] = "79466",
-					["serial"] = "Creature-0-4235-1209-25977-79466-00003F3807",
-					["pets"] = {
-					},
 				}, -- [7]
 				{
 					["monster"] = true,
-					["flag_original"] = 2632,
+					["aID"] = "76116",
 					["nome"] = "Diving Chakram Spinner",
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["tipo"] = 4,
+					["serial"] = "Creature-0-4235-1209-25977-76116-00003F3807",
 					["spell_cast"] = {
 						[169690] = 7,
 						[169689] = 8,
 						[153544] = 7,
 					},
-					["fight_component"] = true,
-					["last_event"] = 0,
-					["classe"] = "UNKNOW",
-					["aID"] = "76116",
-					["serial"] = "Creature-0-4235-1209-25977-76116-00003F3807",
-					["pets"] = {
-					},
 				}, -- [8]
 				{
 					["monster"] = true,
-					["flag_original"] = 2632,
+					["aID"] = "79462",
 					["nome"] = "Blinding Solar Flare",
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["tipo"] = 4,
+					["serial"] = "Creature-0-4235-1209-25977-79462-00003F3807",
 					["spell_cast"] = {
 						[157020] = 9,
 						[160288] = 3,
 					},
-					["fight_component"] = true,
-					["last_event"] = 0,
-					["classe"] = "UNKNOW",
-					["aID"] = "79462",
-					["serial"] = "Creature-0-4235-1209-25977-79462-00003F3807",
-					["pets"] = {
-					},
 				}, -- [9]
 				{
 					["flag_original"] = 68168,
+					["tipo"] = 4,
+					["nome"] = "Soaring Chakram Master",
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[153544] = 6,
 						[169689] = 1,
 						[153581] = 2,
 						[169690] = 1,
 					},
-					["nome"] = "Soaring Chakram Master",
-					["last_event"] = 0,
-					["pets"] = {
-					},
-					["classe"] = "UNKNOW",
-					["fight_component"] = true,
-					["aID"] = "76132",
-					["tipo"] = 4,
-					["serial"] = "Creature-0-4235-1209-25977-76132-00003F3807",
 					["monster"] = true,
+					["aID"] = "76132",
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
+					["serial"] = "Creature-0-4235-1209-25977-76132-00003F3807",
+					["fight_component"] = true,
 				}, -- [10]
 				{
 					["monster"] = true,
-					["flag_original"] = 2632,
+					["aID"] = "76097",
 					["nome"] = "Solar Familiar",
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["tipo"] = 4,
+					["serial"] = "Creature-0-4235-1209-25977-76097-00003F3807",
 					["spell_cast"] = {
 						[159290] = 2,
 						[152953] = 1,
 					},
-					["fight_component"] = true,
-					["last_event"] = 0,
-					["classe"] = "UNKNOW",
-					["aID"] = "76097",
-					["serial"] = "Creature-0-4235-1209-25977-76097-00003F3807",
-					["pets"] = {
-					},
 				}, -- [11]
 				{
 					["monster"] = true,
-					["flag_original"] = 2632,
+					["aID"] = "78933",
 					["nome"] = "Herald of Sunrise",
-					["tipo"] = 4,
-					["spell_cast"] = {
-						[152893] = 1,
+					["flag_original"] = 2632,
+					["pets"] = {
 					},
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["classe"] = "UNKNOW",
-					["aID"] = "78933",
+					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-4235-1209-25977-78933-00003F3807",
-					["pets"] = {
+					["spell_cast"] = {
+						[152893] = 1,
 					},
 				}, -- [12]
 				{
@@ -42679,8 +42284,8 @@ _detalhes_database = {
 					["nome"] = "Spinning Blade",
 					["aID"] = "76116",
 					["serial"] = "Creature-0-4235-1209-25977-76116-00003F3807",
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["damage_twin"] = "Diving Chakram Spinner",
 					["debuff_uptime_targets"] = {
 						["Shaazia-DefiasBrotherhood"] = {
@@ -42739,8 +42344,8 @@ _detalhes_database = {
 					["nome"] = "Solar Detonation",
 					["aID"] = "79462",
 					["serial"] = "Creature-0-4235-1209-25977-79462-00003F3807",
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["damage_twin"] = "Blinding Solar Flare",
 					["debuff_uptime_targets"] = {
 						["Shaazia-DefiasBrotherhood"] = {
@@ -42784,37 +42389,37 @@ _detalhes_database = {
 				}, -- [14]
 				{
 					["monster"] = true,
-					["flag_original"] = 2632,
+					["aID"] = "76205",
 					["nome"] = "Blooded Bladefeather",
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["tipo"] = 4,
+					["serial"] = "Creature-0-4235-1209-25977-76205-00003F3807",
 					["spell_cast"] = {
 						[165731] = 2,
 						[165733] = 2,
 					},
-					["fight_component"] = true,
-					["last_event"] = 0,
-					["classe"] = "UNKNOW",
-					["aID"] = "76205",
-					["serial"] = "Creature-0-4235-1209-25977-76205-00003F3807",
-					["pets"] = {
-					},
 				}, -- [15]
 				{
 					["fight_component"] = true,
+					["pets"] = {
+					},
+					["ownerName"] = "Scolo-Lightbringer",
+					["nome"] = "Wild Imp <Scolo-Lightbringer>",
+					["flag_original"] = 8466,
 					["spell_cast"] = {
 						[104318] = 453,
 					},
-					["ownerName"] = "Scolo-Lightbringer",
-					["boss_fight_component"] = true,
-					["flag_original"] = 8466,
-					["pets"] = {
-					},
-					["last_event"] = 0,
-					["nome"] = "Wild Imp <Scolo-Lightbringer>",
-					["classe"] = "PET",
-					["aID"] = "55659",
-					["serial"] = "Creature-0-4235-1209-25977-55659-00013F3865",
 					["tipo"] = 4,
+					["boss_fight_component"] = true,
+					["classe"] = "PET",
+					["last_event"] = 0,
+					["serial"] = "Creature-0-4235-1209-25977-55659-00013F3865",
+					["aID"] = "55659",
 				}, -- [16]
 				{
 					["flag_original"] = 68168,
@@ -42860,35 +42465,35 @@ _detalhes_database = {
 						[153177] = 2,
 						[153178] = 1,
 					},
+					["monster"] = true,
+					["last_event"] = 0,
 					["dispell_oque"] = {
 						[192090] = 2,
 						[204242] = 1,
 						[270569] = 1,
 					},
-					["tipo"] = 4,
-					["last_event"] = 0,
 					["classe"] = "UNKNOW",
 					["serial"] = "Creature-0-4235-1209-25977-75975-00003F3807",
-					["monster"] = true,
+					["tipo"] = 4,
 				}, -- [17]
 				{
 					["flag_original"] = 68168,
-					["tipo"] = 4,
+					["spell_cast"] = {
+						[153757] = 4,
+						[165733] = 1,
+						[165731] = 1,
+						[156793] = 1,
+						[153315] = 2,
+						[153544] = 1,
+					},
 					["boss_fight_component"] = true,
 					["last_event"] = 0,
 					["pets"] = {
 					},
 					["nome"] = "Ranjit",
-					["aID"] = "75964",
 					["classe"] = "UNKNOW",
-					["spell_cast"] = {
-						[153757] = 4,
-						[153315] = 2,
-						[153544] = 1,
-						[156793] = 1,
-						[165733] = 1,
-						[165731] = 1,
-					},
+					["aID"] = "75964",
+					["tipo"] = 4,
 					["serial"] = "Creature-0-4235-1209-25977-75964-00003F3807",
 					["monster"] = true,
 				}, -- [18]
@@ -42946,9 +42551,9 @@ _detalhes_database = {
 					["aID"] = "75964",
 					["serial"] = "Creature-0-4235-1209-25977-75964-00003F3807",
 					["nome"] = "Fan of Blades",
-					["last_event"] = 0,
-					["damage_twin"] = "Ranjit",
 					["tipo"] = 4,
+					["damage_twin"] = "Ranjit",
+					["last_event"] = 0,
 					["damage_spellid"] = 153757,
 					["boss_fight_component"] = true,
 				}, -- [19]
@@ -42985,9 +42590,9 @@ _detalhes_database = {
 					["aID"] = "75964",
 					["serial"] = "Creature-0-4235-1209-25977-75964-00003F3807",
 					["nome"] = "Windwall",
-					["last_event"] = 0,
-					["damage_twin"] = "Ranjit",
 					["tipo"] = 4,
+					["damage_twin"] = "Ranjit",
+					["last_event"] = 0,
 					["damage_spellid"] = 153759,
 					["boss_fight_component"] = true,
 				}, -- [20]
@@ -43017,45 +42622,45 @@ _detalhes_database = {
 					["aID"] = "75964",
 					["serial"] = "Creature-0-4235-1209-25977-75964-00003F3807",
 					["nome"] = "Four Winds",
-					["last_event"] = 0,
-					["damage_twin"] = "Ranjit",
 					["tipo"] = 4,
+					["damage_twin"] = "Ranjit",
+					["last_event"] = 0,
 					["damage_spellid"] = 153139,
 					["boss_fight_component"] = true,
 				}, -- [21]
 				{
 					["fight_component"] = true,
-					["classe"] = "PET",
+					["pets"] = {
+					},
 					["ownerName"] = "Shaazia-DefiasBrotherhood",
-					["boss_fight_component"] = true,
+					["nome"] = "Kyrian Goliath <Shaazia-DefiasBrotherhood>",
 					["flag_original"] = 8466,
 					["spell_cast"] = {
 						[332525] = 7,
 						[332526] = 14,
 						[341163] = 3,
 					},
-					["pets"] = {
-					},
-					["nome"] = "Kyrian Goliath <Shaazia-DefiasBrotherhood>",
-					["last_event"] = 0,
-					["aID"] = "171396",
-					["serial"] = "Creature-0-4235-1209-25977-171396-00003F38D2",
 					["tipo"] = 4,
+					["boss_fight_component"] = true,
+					["last_event"] = 0,
+					["classe"] = "PET",
+					["serial"] = "Creature-0-4235-1209-25977-171396-00003F38D2",
+					["aID"] = "171396",
 				}, -- [22]
 				{
 					["monster"] = true,
-					["flag_original"] = 2632,
+					["aID"] = "78932",
 					["nome"] = "Driving Gale-Caller",
-					["tipo"] = 4,
-					["spell_cast"] = {
-						[153905] = 1,
+					["flag_original"] = 2632,
+					["pets"] = {
 					},
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["classe"] = "UNKNOW",
-					["aID"] = "78932",
+					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-4235-1209-25977-78932-00003F3807",
-					["pets"] = {
+					["spell_cast"] = {
+						[153905] = 1,
 					},
 				}, -- [23]
 				{
@@ -43076,18 +42681,18 @@ _detalhes_database = {
 				}, -- [24]
 				{
 					["flag_original"] = 68168,
-					["tipo"] = 4,
+					["spell_cast"] = {
+						[154110] = 4,
+						[154135] = 2,
+					},
 					["boss_fight_component"] = true,
 					["last_event"] = 0,
 					["pets"] = {
 					},
 					["nome"] = "Araknath",
-					["aID"] = "76141",
 					["classe"] = "UNKNOW",
-					["spell_cast"] = {
-						[154110] = 4,
-						[154135] = 2,
-					},
+					["aID"] = "76141",
+					["tipo"] = 4,
 					["serial"] = "Creature-0-4235-1209-25977-76141-00003F38DF",
 					["monster"] = true,
 				}, -- [25]
@@ -43138,61 +42743,61 @@ _detalhes_database = {
 					["aID"] = "76142",
 					["serial"] = "Creature-0-4235-1209-25977-76142-00033F38DF",
 					["nome"] = "Energize",
-					["last_event"] = 0,
-					["damage_twin"] = "Skyreach Sun Construct Prototype",
 					["tipo"] = 4,
+					["damage_twin"] = "Skyreach Sun Construct Prototype",
+					["last_event"] = 0,
 					["damage_spellid"] = 154150,
 					["boss_fight_component"] = true,
 				}, -- [26]
 				{
 					["monster"] = true,
-					["flag_original"] = 68168,
+					["aID"] = "79093",
 					["nome"] = "Skyreach Sun Talon",
-					["tipo"] = 4,
-					["spell_cast"] = {
-						[152838] = 6,
+					["flag_original"] = 68168,
+					["pets"] = {
 					},
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["classe"] = "UNKNOW",
-					["aID"] = "79093",
+					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-4235-1209-25977-79093-00003F3807",
-					["pets"] = {
+					["spell_cast"] = {
+						[152838] = 6,
 					},
 				}, -- [27]
 				{
 					["monster"] = true,
-					["flag_original"] = 68168,
+					["aID"] = "76154",
 					["nome"] = "Skyreach Raven Whisperer",
+					["flag_original"] = 68168,
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["tipo"] = 4,
+					["serial"] = "Creature-0-4235-1209-25977-76154-00003F3807",
 					["spell_cast"] = {
 						[153923] = 3,
 						[153926] = 1,
 					},
-					["fight_component"] = true,
-					["last_event"] = 0,
-					["classe"] = "UNKNOW",
-					["aID"] = "76154",
-					["serial"] = "Creature-0-4235-1209-25977-76154-00003F3807",
-					["pets"] = {
-					},
 				}, -- [28]
 				{
 					["flag_original"] = 68168,
-					["tipo"] = 4,
-					["boss_fight_component"] = true,
-					["last_event"] = 0,
-					["pets"] = {
-					},
-					["nome"] = "Rukhran",
-					["aID"] = "76143",
-					["classe"] = "UNKNOW",
 					["spell_cast"] = {
 						[159382] = 3,
 						[153810] = 5,
 						[153794] = 6,
 						[153896] = 5,
 					},
+					["boss_fight_component"] = true,
+					["last_event"] = 0,
+					["pets"] = {
+					},
+					["nome"] = "Rukhran",
+					["classe"] = "UNKNOW",
+					["aID"] = "76143",
+					["tipo"] = 4,
 					["serial"] = "Creature-0-4235-1209-25977-76143-00003F3807",
 					["monster"] = true,
 				}, -- [29]
@@ -43229,9 +42834,9 @@ _detalhes_database = {
 					["aID"] = "76143",
 					["serial"] = "Creature-0-4235-1209-25977-76143-00003F3807",
 					["nome"] = "Pierced Armor",
-					["last_event"] = 0,
-					["damage_twin"] = "Rukhran",
 					["tipo"] = 4,
+					["damage_twin"] = "Rukhran",
+					["last_event"] = 0,
 					["damage_spellid"] = 153795,
 					["boss_fight_component"] = true,
 				}, -- [30]
@@ -43289,34 +42894,35 @@ _detalhes_database = {
 					["aID"] = "76143",
 					["serial"] = "Creature-0-4235-1209-25977-76143-00003F3807",
 					["nome"] = "Weak",
-					["last_event"] = 0,
-					["damage_twin"] = "Rukhran",
 					["tipo"] = 4,
+					["damage_twin"] = "Rukhran",
+					["last_event"] = 0,
 					["damage_spellid"] = 160149,
 					["boss_fight_component"] = true,
 				}, -- [31]
 				{
 					["flag_original"] = 68168,
-					["tipo"] = 4,
+					["spell_cast"] = {
+						[153828] = 9,
+						[169810] = 4,
+					},
 					["boss_fight_component"] = true,
 					["last_event"] = 0,
 					["pets"] = {
 					},
 					["nome"] = "Solar Flare",
-					["aID"] = "79505",
 					["classe"] = "UNKNOW",
-					["spell_cast"] = {
-						[153828] = 9,
-						[169810] = 4,
-					},
+					["aID"] = "79505",
+					["tipo"] = 4,
 					["serial"] = "Creature-0-4235-1209-25977-79505-00013F3807",
 					["monster"] = true,
 				}, -- [32]
 				{
 					["fight_component"] = true,
-					["classe"] = "PET",
+					["pets"] = {
+					},
 					["ownerName"] = "Scolo-Lightbringer",
-					["boss_fight_component"] = true,
+					["nome"] = "Chinilferil <Scolo-Lightbringer>",
 					["flag_original"] = 4370,
 					["spell_cast"] = {
 						[89751] = 5,
@@ -43324,95 +42930,94 @@ _detalhes_database = {
 						[89753] = 30,
 						[30151] = 3,
 					},
-					["pets"] = {
-					},
-					["nome"] = "Chinilferil <Scolo-Lightbringer>",
-					["last_event"] = 0,
-					["aID"] = "17252",
-					["serial"] = "Creature-0-4235-1209-25977-17252-00003F3A04",
 					["tipo"] = 4,
+					["boss_fight_component"] = true,
+					["last_event"] = 0,
+					["classe"] = "PET",
+					["serial"] = "Creature-0-4235-1209-25977-17252-00003F3A04",
+					["aID"] = "17252",
 				}, -- [33]
 				{
 					["monster"] = true,
-					["flag_original"] = 2632,
+					["aID"] = "77559",
 					["nome"] = "Solar Magnifier",
-					["tipo"] = 4,
-					["spell_cast"] = {
-						[152917] = 2,
+					["flag_original"] = 2632,
+					["pets"] = {
 					},
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["classe"] = "UNKNOW",
-					["aID"] = "77559",
+					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-4235-1209-25977-77559-0000BF3807",
-					["pets"] = {
+					["spell_cast"] = {
+						[152917] = 2,
 					},
 				}, -- [34]
 				{
 					["monster"] = true,
-					["flag_original"] = 2632,
+					["aID"] = "79469",
 					["nome"] = "Whirling Dervish",
-					["tipo"] = 4,
-					["spell_cast"] = {
-						[156515] = 1,
+					["flag_original"] = 2632,
+					["pets"] = {
 					},
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["classe"] = "UNKNOW",
-					["aID"] = "79469",
+					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-4235-1209-25977-79469-0000BF3807",
-					["pets"] = {
+					["spell_cast"] = {
+						[156515] = 1,
 					},
 				}, -- [35]
 				{
 					["monster"] = true,
-					["flag_original"] = 2632,
+					["aID"] = "79463",
 					["nome"] = "Radiant Supernova",
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["tipo"] = 4,
+					["serial"] = "Creature-0-4235-1209-25977-79463-00003F3807",
 					["spell_cast"] = {
 						[157020] = 5,
 						[160303] = 2,
 					},
-					["fight_component"] = true,
-					["last_event"] = 0,
-					["classe"] = "UNKNOW",
-					["aID"] = "79463",
-					["serial"] = "Creature-0-4235-1209-25977-79463-00003F3807",
-					["pets"] = {
-					},
 				}, -- [36]
 				{
 					["monster"] = true,
-					["flag_original"] = 68168,
+					["aID"] = "76087",
 					["nome"] = "Defense Construct",
+					["flag_original"] = 68168,
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["tipo"] = 4,
+					["serial"] = "Creature-0-4235-1209-25977-76087-00003F3807",
 					["spell_cast"] = {
 						[152973] = 1,
 						[174489] = 1,
 					},
-					["fight_component"] = true,
-					["last_event"] = 0,
-					["classe"] = "UNKNOW",
-					["aID"] = "76087",
-					["serial"] = "Creature-0-4235-1209-25977-76087-00003F3807",
-					["pets"] = {
-					},
 				}, -- [37]
 				{
 					["monster"] = true,
-					["flag_original"] = 68168,
+					["aID"] = "",
 					["nome"] = "Grand Defense Construct",
+					["flag_original"] = 68168,
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["tipo"] = 4,
+					["serial"] = "Vehicle-0-4235-1209-25977-76145-00003F3807",
 					["spell_cast"] = {
 						[153001] = 2,
 						[152998] = 1,
-					},
-					["fight_component"] = true,
-					["last_event"] = 0,
-					["classe"] = "UNKNOW",
-					["aID"] = "",
-					["serial"] = "Vehicle-0-4235-1209-25977-76145-00003F3807",
-					["pets"] = {
 					},
 				}, -- [38]
 				{
@@ -43455,9 +43060,9 @@ _detalhes_database = {
 					["aID"] = "76285",
 					["serial"] = "Creature-0-4235-1209-25977-76285-00003F3807",
 					["nome"] = "Lens Flare",
-					["last_event"] = 0,
-					["damage_twin"] = "Arakkoa Magnifying Glass",
 					["tipo"] = 4,
+					["damage_twin"] = "Arakkoa Magnifying Glass",
+					["last_event"] = 0,
 					["damage_spellid"] = 154043,
 					["boss_fight_component"] = true,
 				}, -- [39]
@@ -43478,17 +43083,17 @@ _detalhes_database = {
 				}, -- [40]
 				{
 					["flag_original"] = 2632,
-					["tipo"] = 4,
+					["spell_cast"] = {
+						[154396] = 1,
+					},
 					["boss_fight_component"] = true,
 					["last_event"] = 0,
 					["pets"] = {
 					},
 					["nome"] = "High Sage Viryx",
-					["aID"] = "76266",
 					["classe"] = "UNKNOW",
-					["spell_cast"] = {
-						[154396] = 1,
-					},
+					["aID"] = "76266",
+					["tipo"] = 4,
 					["serial"] = "Creature-0-4235-1209-25977-76266-00003F3807",
 					["monster"] = true,
 				}, -- [41]
@@ -43502,82 +43107,6 @@ _detalhes_database = {
 		["raid_roster"] = {
 		},
 		["raid_roster_indexed"] = {
-		},
-		["cleu_timeline"] = {
-		},
-		["tempo_start"] = 1648310335,
-		["last_events_tables"] = {
-		},
-		["alternate_power"] = {
-		},
-		["combat_counter"] = 2871,
-		["totals"] = {
-			2007832.765277001, -- [1]
-			468865.4566330001, -- [2]
-			{
-				5975.225917273691, -- [1]
-				[0] = 0.120023,
-				["alternatepower"] = 0,
-				[6] = 0,
-				[3] = 0,
-			}, -- [3]
-			{
-				["buff_uptime"] = 0,
-				["ress"] = 2.012095,
-				["dead"] = 0,
-				["cc_break"] = 0,
-				["interrupt"] = 11.057148,
-				["debuff_uptime"] = 0,
-				["dispell"] = 4.008682,
-				["cooldowns_defensive"] = 31.11806900000001,
-			}, -- [4]
-			["voidzone_damage"] = 0,
-			["frags_total"] = 0,
-		},
-		["player_last_events"] = {
-		},
-		["frags_need_refresh"] = false,
-		["aura_timeline"] = {
-		},
-		["__call"] = {
-		},
-		["data_inicio"] = "17:58:55",
-		["end_time"] = 7090.895,
-		["totals_grupo"] = {
-			1352714.333198, -- [1]
-			464122.3340490001, -- [2]
-			{
-				5975.225917273691, -- [1]
-				[0] = 0.120023,
-				["alternatepower"] = 0,
-				[6] = 0,
-				[3] = 0,
-			}, -- [3]
-			{
-				["buff_uptime"] = 0,
-				["ress"] = 2.012095,
-				["dead"] = 0,
-				["cc_break"] = 0,
-				["interrupt"] = 9.047829,
-				["debuff_uptime"] = 0,
-				["dispell"] = 0,
-				["cooldowns_defensive"] = 31.11806900000001,
-			}, -- [4]
-		},
-		["overall_refreshed"] = true,
-		["PhaseData"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-			}, -- [1]
-			["damage"] = {
-			},
-			["heal_section"] = {
-			},
-			["heal"] = {
-			},
-			["damage_section"] = {
-			},
 		},
 		["segments_added"] = {
 			{
@@ -43665,6 +43194,82 @@ _detalhes_database = {
 				["clock"] = "17:58:55",
 			}, -- [14]
 		},
+		["tempo_start"] = 1648310335,
+		["cleu_timeline"] = {
+		},
+		["alternate_power"] = {
+		},
+		["combat_counter"] = 2871,
+		["totals"] = {
+			2007832.759182001, -- [1]
+			468865.4201530002, -- [2]
+			{
+				5975.225917273691, -- [1]
+				[0] = 0.120023,
+				["alternatepower"] = 0,
+				[6] = 0,
+				[3] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 2.012095,
+				["dead"] = 0,
+				["cc_break"] = 0,
+				["interrupt"] = 11.057148,
+				["debuff_uptime"] = 0,
+				["dispell"] = 4.008682,
+				["cooldowns_defensive"] = 31.11806900000001,
+			}, -- [4]
+			["voidzone_damage"] = 0,
+			["frags_total"] = 0,
+		},
+		["player_last_events"] = {
+		},
+		["frags_need_refresh"] = false,
+		["aura_timeline"] = {
+		},
+		["__call"] = {
+		},
+		["data_inicio"] = "17:58:55",
+		["end_time"] = 7090.895,
+		["last_events_tables"] = {
+		},
+		["totals_grupo"] = {
+			1352714.333198, -- [1]
+			464122.3340490001, -- [2]
+			{
+				5975.225917273691, -- [1]
+				[0] = 0.120023,
+				["alternatepower"] = 0,
+				[6] = 0,
+				[3] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 2.012095,
+				["dead"] = 0,
+				["cc_break"] = 0,
+				["interrupt"] = 9.047829,
+				["debuff_uptime"] = 0,
+				["dispell"] = 0,
+				["cooldowns_defensive"] = 31.11806900000001,
+			}, -- [4]
+		},
+		["overall_refreshed"] = true,
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["damage"] = {
+			},
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage_section"] = {
+			},
+		},
 		["hasSaved"] = true,
 		["spells_cast_timeline"] = {
 		},
@@ -43687,11 +43292,9 @@ _detalhes_database = {
 		["frame"] = {
 		},
 	},
-	["announce_firsthit"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
-	},
 	["last_encounter"] = "Yogg-Saron",
+	["cached_talents"] = {
+	},
 	["announce_cooldowns"] = {
 		["enabled"] = false,
 		["ignored_cooldowns"] = {
@@ -43706,6 +43309,10 @@ _detalhes_database = {
 	["cached_roles"] = {
 	},
 	["cached_specs"] = {
+		["Player-1301-0878F932"] = 577,
+		["Player-1096-05E8A18D"] = 65,
 		["Player-1301-0A44C97F"] = 104,
+		["Player-1329-09C6E2DC"] = 72,
+		["Player-1388-08384D39"] = 266,
 	},
 }

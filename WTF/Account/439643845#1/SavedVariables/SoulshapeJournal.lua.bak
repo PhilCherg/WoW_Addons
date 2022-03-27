@@ -1,6 +1,7 @@
 
 SoulshapeJournalDB = {
 	["profileKeys"] = {
+		["Bankeristor - Outland"] = "Bankeristor - Outland",
 		["Barbaxius - Outland"] = "Barbaxius - Outland",
 		["Phelanara - Outland"] = "Phelanara - Outland",
 		["Xanthoros - Outland"] = "Xanthoros - Outland",

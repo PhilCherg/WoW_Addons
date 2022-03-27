@@ -228,7 +228,7 @@ TomTomWaypointsM = {
 					0.502, -- [2]
 					0.49, -- [3]
 					["crazy"] = true,
-					["minimap_displayID"] = 94765,
+					["from"] = "ATT\nDo not take the mirror portal!  To the right of the mirror, there is a |cFFFFFFFFHanging Chain|r.\n Clicking the chain will pull you up to the tiny alcove above the treasure.\n Click the |cFFFFFFFFGrinchin Calligraphy Set|r on the desk to pick up the |cFFFFFFFFHouse Grinchin Ring|r, which will allow you to loot the treasure.",
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
@@ -238,16 +238,16 @@ TomTomWaypointsM = {
 						["world"] = {
 						},
 					},
-					["from"] = "ATT\nDo not take the mirror portal!  To the right of the mirror, there is a |cFFFFFFFFHanging Chain|r.\n Clicking the chain will pull you up to the tiny alcove above the treasure.\n Click the |cFFFFFFFFGrinchin Calligraphy Set|r on the desk to pick up the |cFFFFFFFFHouse Grinchin Ring|r, which will allow you to loot the treasure.",
+					["minimap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
 					["persistent"] = true,
-					["desc"] = "Secret Treasure",
+					["minimap"] = true,
 					["silent"] = true,
 					["cleardistance"] = 0,
 					["title"] = "Secret Treasure",
+					["minimap_displayID"] = 94765,
 					["worldmap_displayID"] = 94765,
-					["minimap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
+					["desc"] = "Secret Treasure",
 					["worldmap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
-					["minimap"] = true,
 					["world"] = true,
 				},
 				["1525:458000000:478000000:Forgotten Noble's Chest"] = {
