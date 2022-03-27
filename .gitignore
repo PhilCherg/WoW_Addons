@@ -11,3 +11,9 @@ d3d12.dll
 DBGHELP.DLL
 dxilconv7.dll
 Wow.exe
+
+/Interface/AddOns/RaiderIO/db/db_client_characters.lua
+/Interface/AddOns/RaiderIO/db/db_client_colors.lua
+/Interface/AddOns/RaiderIO/db/db_client_config.lua
+/Interface/AddOns/RaiderIO/db/db_client_guilds.lua
+/Interface/AddOns/TradeSkillMaster_AppHelper/AppData.lua
