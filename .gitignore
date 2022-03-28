@@ -17,3 +17,4 @@ Wow.exe
 /Interface/**/db_client_config.lua
 /Interface/**/db_client_guilds.lua
 /Interface/**/AppData.lua
+Interface/AddOns/TradeSkillMaster_AppHelper/AppData.lua
