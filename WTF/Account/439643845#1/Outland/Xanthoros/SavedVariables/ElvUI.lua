@@ -2,1634 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"Interrupted |cff71d5ff|Hspell:166464:0|h[Fireball]|h|r on Archmage Sol", -- [1]
-			"Doggytreats-Shadowsong", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Doggytreats-Shadowsong", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			657, -- [11]
-			"Player-3666-0A48C949", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Doggytreats-Shadowsong|r",
-			[51] = 1648154758,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [1]
-		{
-			"Interrupted Archmage Sol's |cff71d5ff|Hspell:168885:0|h[Parasitic Growth]|h|r!", -- [1]
-			"Defo-Wildhammer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Defo-Wildhammer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			662, -- [11]
-			"Player-1313-0C25A2DD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Defo-Wildhammer|r",
-			[51] = 1648154770,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [2]
-		{
-			"Interrupted Spore Image's |cff71d5ff|Hspell:168894:0|h[Fireball]|h|r!", -- [1]
-			"Defo-Wildhammer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Defo-Wildhammer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			667, -- [11]
-			"Player-1313-0C25A2DD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Defo-Wildhammer|r",
-			[51] = 1648154791,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [3]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:9044:Player-1301-0A44C97F:1:3:24:22:4294967295:4294967295:4294967295:4294967295|h[The Everbloom]|h|r!", -- [1]
-			"Xanthoros-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Xanthoros-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			689, -- [11]
-			"Player-1301-0A44C97F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Xanthoros|r",
-			[51] = 1648154896,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [4]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:9053:Player-1301-0A44C97F:1:3:24:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Everbloom]|h|r!", -- [1]
-			"Xanthoros-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Xanthoros-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			690, -- [11]
-			"Player-1301-0A44C97F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Xanthoros|r",
-			[51] = 1648154896,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [5]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:9223:Player-1301-0A44C97F:1:3:24:22:4294967295:4294967295:4294967295:4294967295|h[Weed Whacker]|h|r!", -- [1]
-			"Xanthoros-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Xanthoros-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			691, -- [11]
-			"Player-1301-0A44C97F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Xanthoros|r",
-			[51] = 1648154896,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [6]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14628:Player-1301-0A44C97F:1:3:24:22:4294967295:4294967295:4294967295:4294967295|h[The Road to Renown]|h|r!", -- [1]
-			"Xanthoros-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Xanthoros-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			735, -- [11]
-			"Player-1301-0A44C97F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Xanthoros|r",
-			[51] = 1648155255,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [7]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14629:Player-1301-0A44C97F:1:3:24:22:4294967295:4294967295:4294967295:4294967295|h[Gaining Respect]|h|r!", -- [1]
-			"Xanthoros-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Xanthoros-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			737, -- [11]
-			"Player-1301-0A44C97F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Xanthoros|r",
-			[51] = 1648155255,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [8]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14630:Player-1301-0A44C97F:1:3:24:22:4294967295:4294967295:4294967295:4294967295|h[Becoming a Hero]|h|r!", -- [1]
-			"Xanthoros-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Xanthoros-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			738, -- [11]
-			"Player-1301-0A44C97F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Xanthoros|r",
-			[51] = 1648155255,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [9]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14837:Player-1301-0A44C97F:1:3:24:22:4294967295:4294967295:4294967295:4294967295|h[Nexus of Bonds]|h|r!", -- [1]
-			"Xanthoros-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Xanthoros-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			739, -- [11]
-			"Player-1301-0A44C97F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Xanthoros|r",
-			[51] = 1648155255,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [10]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14631:Player-1301-0A44C97F:1:3:24:22:4294967295:4294967295:4294967295:4294967295|h[Champion of the Covenant]|h|r!", -- [1]
-			"Xanthoros-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Xanthoros-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			740, -- [11]
-			"Player-1301-0A44C97F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Xanthoros|r",
-			[51] = 1648155255,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [11]
-		{
-			"stay near tank if you dont know the istance pls", -- [1]
-			"Zocca-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Zocca-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			48, -- [11]
-			"Player-3391-076EABFF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Zocca-Silvermoon|r",
-			[51] = 1648159462,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [12]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:9043:Player-1301-0A44C97F:1:3:25:22:4294967295:4294967295:4294967295:4294967295|h[Grimrail Depot]|h|r!", -- [1]
-			"Xanthoros-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Xanthoros-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			170, -- [11]
-			"Player-1301-0A44C97F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Xanthoros|r",
-			[51] = 1648160243,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [13]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:9052:Player-1301-0A44C97F:1:3:25:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Grimrail Depot]|h|r!", -- [1]
-			"Xanthoros-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Xanthoros-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			171, -- [11]
-			"Player-1301-0A44C97F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Xanthoros|r",
-			[51] = 1648160243,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [14]
-		{
-			"Hunter", -- [1]
-			"Jannelinda-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Jannelinda-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			320, -- [11]
-			"Player-3702-0A251146", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaJannelinda-ArgentDawn|r",
-			[51] = 1648160911,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [15]
-		{
-			"Can you please show me your soulshape again", -- [1]
-			"Jannelinda-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Jannelinda-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			321, -- [11]
-			"Player-3702-0A251146", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaJannelinda-ArgentDawn|r",
-			[51] = 1648160918,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [16]
-		{
-			"Oh my god, it's so cute", -- [1]
-			"Jannelinda-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Jannelinda-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			350, -- [11]
-			"Player-3702-0A251146", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaJannelinda-ArgentDawn|r",
-			[51] = 1648161060,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [17]
-		{
-			"I want this one", -- [1]
-			"Jannelinda-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Jannelinda-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			351, -- [11]
-			"Player-3702-0A251146", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaJannelinda-ArgentDawn|r",
-			[51] = 1648161063,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [18]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:9041:Player-1301-0A44C97F:1:3:25:22:4294967295:4294967295:4294967295:4294967295|h[Shadowmoon Burial Grounds]|h|r!", -- [1]
-			"Xanthoros-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Xanthoros-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			362, -- [11]
-			"Player-1301-0A44C97F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Xanthoros|r",
-			[51] = 1648161157,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [19]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:9054:Player-1301-0A44C97F:1:3:25:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Shadowmoon Burial Grounds]|h|r!", -- [1]
-			"Xanthoros-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Xanthoros-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			363, -- [11]
-			"Player-1301-0A44C97F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Xanthoros|r",
-			[51] = 1648161157,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [20]
-		{
-			"Thanks all", -- [1]
-			"Methix-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Methix-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			375, -- [11]
-			"Player-3702-06270DE9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Methix-ArgentDawn|r",
-			[51] = 1648161163,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [21]
-		{
-			"go big!", -- [1]
-			"Diabolouz-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Diabolouz-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			409, -- [11]
-			"Player-3702-0A37EFF7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaDiabolouz-ArgentDawn|r",
-			[51] = 1648161539,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [22]
-		{
-			"oO", -- [1]
-			"Jnsorange-Aszune", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Jnsorange-Aszune", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			410, -- [11]
-			"Player-3666-057F9260", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edJnsorange-Aszune|r",
-			[51] = 1648161546,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [23]
-		{
-			")", -- [1]
-			"Jnsorange-Aszune", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Jnsorange-Aszune", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			411, -- [11]
-			"Player-3666-057F9260", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edJnsorange-Aszune|r",
-			[51] = 1648161549,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [24]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:9551:Player-1301-0A44C97F:1:3:25:22:4294967295:4294967295:4294967295:4294967295|h[Demon's Souls]|h|r!", -- [1]
-			"Xanthoros-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Xanthoros-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			507, -- [11]
-			"Player-1301-0A44C97F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Xanthoros|r",
-			[51] = 1648161967,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [25]
-		{
-			"Inane women, insane hunt lf insane guild", -- [1]
-			"Nhakuho-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Nhakuho-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			562, -- [11]
-			"Player-1301-0A350072", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Nhakuho|r",
-			[51] = 1648162330,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
-		{
-			"WTS Mythic+ (0-17) With my team, Keystone master (2500 Rating ). weekly / intime & Torghast all layers for gold Only. /w for more information.", -- [1]
-			"Sunboy-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Sunboy-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			174, -- [11]
-			"Player-1301-0C266EA5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Sunboy|r",
-			[51] = 1648305410,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
-		{
-			"ㆍ WTS Mythic+15 keys=280k/Get ur weekly fast and  easy/Outland only w/me", -- [1]
-			"Makingmoves-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Makingmoves-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			345, -- [11]
-			"Player-1301-0A724D5E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Makingmoves|r",
-			[51] = 1648306455,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
-		{
-			"WTS cloth / neck and ring 291 /w me", -- [1]
-			"Trazyx-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Trazyx-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			350, -- [11]
-			"Player-1301-0AC17631", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaTrazyx|r",
-			[51] = 1648306615,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:9033:Player-1301-0A44C97F:1:3:26:22:4294967295:4294967295:4294967295:4294967295|h[Ready for Raiding IV]|h|r!", -- [1]
-			"Xanthoros-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Xanthoros-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			380, -- [11]
-			"Player-1301-0A44C97F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Xanthoros|r",
-			[51] = 1648306895,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [30]
-		{
-			"lol", -- [1]
-			"Timewarrior-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Timewarrior-Ravencrest", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			426, -- [11]
-			"Player-1329-09C6E2DC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cTimewarrior-Ravencrest|r",
-			[51] = 1648307125,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [31]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:1178:Player-1301-0A44C97F:1:3:26:22:4294967295:4294967295:4294967295:4294967295|h[Got My Mind On My Money]|h|r!", -- [1]
-			"Xanthoros-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Xanthoros-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			480, -- [11]
-			"Player-1301-0A44C97F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Xanthoros|r",
-			[51] = 1648307549,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [32]
-		{
-			"LF LW who can craft |cffffffff|Hitem:172323::::::::60:264:::2:1507:6717::::::|h[Boneshatter Treads]|h|r291", -- [1]
-			"Florius-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Florius-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1516, -- [11]
-			"Player-1301-0441C2BF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcFlorius|r",
-			[51] = 1648381769,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
-		{
-			"WTS |cffa335ee|Hitem:49286::::::::10:62::15::1:28:872:::::|h[X-51 Nether-Rocket X-TREME]|h|r cheaper then AH /w me", -- [1]
-			"Bankstudent-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Bankstudent-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1531, -- [11]
-			"Player-1301-0C211058", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaBankstudent|r",
-			[51] = 1648381780,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
-		{
-			"Sewer Beast |cffffff00|Hworldmap:84:6720:5300|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Givaymachina-Outland", -- [2]
-			"", -- [3]
-			"1. General - Stormwind City", -- [4]
-			"Givaymachina-Outland", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Stormwind City", -- [9]
-			0, -- [10]
-			1559, -- [11]
-			"Player-1301-0C2AE7E1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Givaymachina|r",
-			[51] = 1648381803,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
-		{
-			"lf bs for max ilvl shadowghast breastplate", -- [1]
-			"Maxbutcher-Trollbane", -- [2]
-			"", -- [3]
-			"1. General - Stormwind City", -- [4]
-			"Maxbutcher-Trollbane", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Stormwind City", -- [9]
-			0, -- [10]
-			1648, -- [11]
-			"Player-1598-0654DCCB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Maxbutcher-Trollbane|r",
-			[51] = 1648382433,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
-		{
-			"LF LW with mail legendary 291 pieces", -- [1]
-			"Florius-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Florius-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1654, -- [11]
-			"Player-1301-0441C2BF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcFlorius|r",
-			[51] = 1648383074,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
-		{
-			"more people queue Reliquary of Opulence please! Raid finder Castle Nathria.", -- [1]
-			"Rooster-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Rooster-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1655, -- [11]
-			"Player-1301-0952C852", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edRooster|r",
-			[51] = 1648383082,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
-		{
-			"|cff0070dd|Hitem:109846::::::::60:265::22:2:7915:6652:2:28:181:9:60:::::|h[Gloves of Swirling Light]|h|r anyone?", -- [1]
-			"Sheezafreek-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Sheezafreek-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			317, -- [11]
-			"Player-3391-0C215B71", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edSheezafreek-Silvermoon|r",
-			[51] = 1648415576,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [39]
-		{
-			"nty", -- [1]
-			"Midwinter-Nagrand", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Midwinter-Nagrand", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			322, -- [11]
-			"Player-1587-0C827510", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cMidwinter-Nagrand|r",
-			[51] = 1648415713,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [40]
-		{
-			"hello ", -- [1]
-			"Okwhopulled-Bloodhoof", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Okwhopulled-Bloodhoof", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			359, -- [11]
-			"Player-1080-06C8A27A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cOkwhopulled-Bloodhoof|r",
-			[51] = 1648415875,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [41]
-		{
-			"hey :DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD", -- [1]
-			"Shamannie-Bloodhoof", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Shamannie-Bloodhoof", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			361, -- [11]
-			"Player-1080-0A60F12E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcShamannie-Bloodhoof|r",
-			[51] = 1648415886,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [42]
-		{
-			"Interrupted |cff71d5ff|Hspell:152814:0|h[Shadow Bolt]|h|r on Shadowmoon Bone-Mender", -- [1]
-			"Okwhopulled-Bloodhoof", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Okwhopulled-Bloodhoof", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			362, -- [11]
-			"Player-1080-06C8A27A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cOkwhopulled-Bloodhoof|r",
-			[51] = 1648415895,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [43]
-		{
-			"Interrupted |cff71d5ff|Hspell:152964:0|h[Void Pulse]|h|r on Void Spawn", -- [1]
-			"Shamannie-Bloodhoof", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shamannie-Bloodhoof", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			370, -- [11]
-			"Player-1080-0A60F12E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcShamannie-Bloodhoof|r",
-			[51] = 1648415930,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [44]
-		{
-			"Interrupted |cff71d5ff|Hspell:152814:0|h[Shadow Bolt]|h|r on Shadowmoon Bone-Mender", -- [1]
-			"Shamannie-Bloodhoof", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shamannie-Bloodhoof", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			399, -- [11]
-			"Player-1080-0A60F12E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcShamannie-Bloodhoof|r",
-			[51] = 1648416016,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [45]
-		{
-			"Interrupted |cff71d5ff|Hspell:156722:0|h[Void Bolt]|h|r on Shadowmoon Exhumer", -- [1]
-			"Shamannie-Bloodhoof", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shamannie-Bloodhoof", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			424, -- [11]
-			"Player-1080-0A60F12E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcShamannie-Bloodhoof|r",
-			[51] = 1648416129,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [46]
-		{
-			"Interrupted |cff71d5ff|Hspell:156722:0|h[Void Bolt]|h|r on Shadowmoon Exhumer", -- [1]
-			"Okwhopulled-Bloodhoof", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Okwhopulled-Bloodhoof", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			425, -- [11]
-			"Player-1080-06C8A27A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cOkwhopulled-Bloodhoof|r",
-			[51] = 1648416133,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [47]
-		{
-			"Interrupted |cff71d5ff|Hspell:156717:0|h[Death Venom]|h|r on Monstrous Corpse Spider", -- [1]
-			"Shamannie-Bloodhoof", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shamannie-Bloodhoof", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			469, -- [11]
-			"Player-1080-0A60F12E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcShamannie-Bloodhoof|r",
-			[51] = 1648416296,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [48]
-		{
-			"Interrupted |cff71d5ff|Hspell:156718:0|h[Necrotic Burst]|h|r on Monstrous Corpse Spider", -- [1]
-			"Okwhopulled-Bloodhoof", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Okwhopulled-Bloodhoof", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			473, -- [11]
-			"Player-1080-06C8A27A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cOkwhopulled-Bloodhoof|r",
-			[51] = 1648416300,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [49]
-		{
-			"Interrupted |cff71d5ff|Hspell:156718:0|h[Necrotic Burst]|h|r on Monstrous Corpse Spider", -- [1]
-			"Shamannie-Bloodhoof", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shamannie-Bloodhoof", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			498, -- [11]
-			"Player-1080-0A60F12E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcShamannie-Bloodhoof|r",
-			[51] = 1648416342,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [50]
-		{
-			"my bad", -- [1]
-			"Okwhopulled-Bloodhoof", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Okwhopulled-Bloodhoof", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			501, -- [11]
-			"Player-1080-06C8A27A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cOkwhopulled-Bloodhoof|r",
-			[51] = 1648416370,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [51]
-		{
-			"sorry", -- [1]
-			"Okwhopulled-Bloodhoof", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Okwhopulled-Bloodhoof", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			502, -- [11]
-			"Player-1080-06C8A27A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cOkwhopulled-Bloodhoof|r",
-			[51] = 1648416371,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [52]
-		{
-			"ty i love you", -- [1]
-			"Okwhopulled-Bloodhoof", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Okwhopulled-Bloodhoof", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			510, -- [11]
-			"Player-1080-06C8A27A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cOkwhopulled-Bloodhoof|r",
-			[51] = 1648416425,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [53]
-		{
-			"Interrupted |cff71d5ff|Hspell:152964:0|h[Void Pulse]|h|r on Void Spawn", -- [1]
-			"Shamannie-Bloodhoof", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shamannie-Bloodhoof", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			535, -- [11]
-			"Player-1080-0A60F12E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcShamannie-Bloodhoof|r",
-			[51] = 1648416532,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [54]
-		{
-			"Interrupted |cff71d5ff|Hspell:152964:0|h[Void Pulse]|h|r on Void Spawn", -- [1]
-			"Okwhopulled-Bloodhoof", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Okwhopulled-Bloodhoof", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			536, -- [11]
-			"Player-1080-06C8A27A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cOkwhopulled-Bloodhoof|r",
-			[51] = 1648416539,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [55]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:4477:Player-1301-0A44C97F:1:3:28:22:4294967295:4294967295:4294967295:4294967295|h[Looking For Many]|h|r!", -- [1]
-			"Xanthoros-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Xanthoros-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			551, -- [11]
-			"Player-1301-0A44C97F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Xanthoros|r",
-			[51] = 1648416621,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [56]
-		{
-			"wachten we op mooi weer jong>???", -- [1]
-			"Shamannie-Bloodhoof", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Shamannie-Bloodhoof", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			575, -- [11]
-			"Player-1080-0A60F12E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcShamannie-Bloodhoof|r",
-			[51] = 1648416708,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [57]
-		{
-			"wat i dit man", -- [1]
-			"Okwhopulled-Bloodhoof", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Okwhopulled-Bloodhoof", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			576, -- [11]
-			"Player-1080-06C8A27A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cOkwhopulled-Bloodhoof|r",
-			[51] = 1648416716,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [58]
-		{
-			"Interrupted |cff71d5ff|Hspell:152894:0|h[Flash Heal]|h|r on Initiate of the Rising Sun", -- [1]
-			"Okwhopulled-Bloodhoof", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Okwhopulled-Bloodhoof", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			578, -- [11]
-			"Player-1080-06C8A27A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cOkwhopulled-Bloodhoof|r",
-			[51] = 1648416728,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [59]
-		{
-			"Interrupted |cff71d5ff|Hspell:153905:0|h[Dervish]|h|r on Whirling Dervish", -- [1]
-			"Shamannie-Bloodhoof", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shamannie-Bloodhoof", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			580, -- [11]
-			"Player-1080-0A60F12E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcShamannie-Bloodhoof|r",
-			[51] = 1648416741,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [60]
-		{
-			"Interrupted |cff71d5ff|Hspell:152894:0|h[Flash Heal]|h|r on Herald of Sunrise", -- [1]
-			"Shamannie-Bloodhoof", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shamannie-Bloodhoof", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			587, -- [11]
-			"Player-1080-0A60F12E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcShamannie-Bloodhoof|r",
-			[51] = 1648416803,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [61]
-		{
-			"limit testing?", -- [1]
-			"Shamannie-Bloodhoof", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Shamannie-Bloodhoof", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			588, -- [11]
-			"Player-1080-0A60F12E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcShamannie-Bloodhoof|r",
-			[51] = 1648416815,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [62]
-		{
-			"if we just pullet", -- [1]
-			"Shamannie-Bloodhoof", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Shamannie-Bloodhoof", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			593, -- [11]
-			"Player-1080-0A60F12E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcShamannie-Bloodhoof|r",
-			[51] = 1648416850,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [63]
-		{
-			"one by one", -- [1]
-			"Shamannie-Bloodhoof", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Shamannie-Bloodhoof", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			595, -- [11]
-			"Player-1080-0A60F12E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcShamannie-Bloodhoof|r",
-			[51] = 1648416852,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [64]
-		{
-			"we would be even quickere", -- [1]
-			"Shamannie-Bloodhoof", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Shamannie-Bloodhoof", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			596, -- [11]
-			"Player-1080-0A60F12E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcShamannie-Bloodhoof|r",
-			[51] = 1648416854,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [65]
-		{
-			"thats what she said", -- [1]
-			"Okwhopulled-Bloodhoof", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Okwhopulled-Bloodhoof", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			597, -- [11]
-			"Player-1080-06C8A27A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cOkwhopulled-Bloodhoof|r",
-			[51] = 1648416865,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [66]
-		{
-			"HAHAHAHAHAHAHAAHAAAAAA", -- [1]
-			"Shamannie-Bloodhoof", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Shamannie-Bloodhoof", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			598, -- [11]
-			"Player-1080-0A60F12E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcShamannie-Bloodhoof|r",
-			[51] = 1648416872,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [67]
-		{
-			"send feet pics pls", -- [1]
-			"Shamannie-Bloodhoof", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Shamannie-Bloodhoof", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			601, -- [11]
-			"Player-1080-0A60F12E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcShamannie-Bloodhoof|r",
-			[51] = 1648416889,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [68]
-		{
-			"Interrupted |cff71d5ff|Hspell:157020:0|h[Solar Wrath]|h|r on Blinding Solar Flare", -- [1]
-			"Okwhopulled-Bloodhoof", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Okwhopulled-Bloodhoof", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			611, -- [11]
-			"Player-1080-06C8A27A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cOkwhopulled-Bloodhoof|r",
-			[51] = 1648417009,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [69]
-		{
-			"mana break", -- [1]
-			"Shamannie-Bloodhoof", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Shamannie-Bloodhoof", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			613, -- [11]
-			"Player-1080-0A60F12E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcShamannie-Bloodhoof|r",
-			[51] = 1648417013,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [70]
-		{
-			"pls", -- [1]
-			"Shamannie-Bloodhoof", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Shamannie-Bloodhoof", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			614, -- [11]
-			"Player-1080-0A60F12E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcShamannie-Bloodhoof|r",
-			[51] = 1648417014,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [71]
-		{
-			"we are in combat", -- [1]
-			"Okwhopulled-Bloodhoof", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Okwhopulled-Bloodhoof", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			617, -- [11]
-			"Player-1080-06C8A27A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cOkwhopulled-Bloodhoof|r",
-			[51] = 1648417024,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [72]
-		{
-			"1 sec", -- [1]
-			"Shamannie-Bloodhoof", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Shamannie-Bloodhoof", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			619, -- [11]
-			"Player-1080-0A60F12E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcShamannie-Bloodhoof|r",
-			[51] = 1648417031,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [73]
-		{
-			"are ytou even a tank", -- [1]
-			"Shamannie-Bloodhoof", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Shamannie-Bloodhoof", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			629, -- [11]
-			"Player-1080-0A60F12E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcShamannie-Bloodhoof|r",
-			[51] = 1648417158,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [74]
-		{
 			"i think he is a skelter", -- [1]
 			"Okwhopulled-Bloodhoof", -- [2]
 			"", -- [3]
@@ -1650,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cOkwhopulled-Bloodhoof|r",
 			[51] = 1648417180,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [75]
+		}, -- [1]
 		{
 			"man im lvl58", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1672,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1648417220,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [76]
+		}, -- [2]
 		{
 			"m sorry my bad", -- [1]
 			"Okwhopulled-Bloodhoof", -- [2]
@@ -1694,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cOkwhopulled-Bloodhoof|r",
 			[51] = 1648417228,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [77]
+		}, -- [3]
 		{
 			"DONT RES", -- [1]
 			"Okwhopulled-Bloodhoof", -- [2]
@@ -1716,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cOkwhopulled-Bloodhoof|r",
 			[51] = 1648417232,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [78]
+		}, -- [4]
 		{
 			"and this is a random wod dungeon", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1738,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1648417233,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [79]
+		}, -- [5]
 		{
 			"i have no clue what the mechanics are lol", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1760,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1648417248,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [80]
+		}, -- [6]
 		{
 			"just keep tauntingf", -- [1]
 			"Shamannie-Bloodhoof", -- [2]
@@ -1782,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcShamannie-Bloodhoof|r",
 			[51] = 1648417257,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [81]
+		}, -- [7]
 		{
 			"accept", -- [1]
 			"Shamannie-Bloodhoof", -- [2]
@@ -1804,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcShamannie-Bloodhoof|r",
 			[51] = 1648417301,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [82]
+		}, -- [8]
 		{
 			"he is gone", -- [1]
 			"Shamannie-Bloodhoof", -- [2]
@@ -1826,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcShamannie-Bloodhoof|r",
 			[51] = 1648417304,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [83]
+		}, -- [9]
 		{
 			"Welcome ", -- [1]
 			"Shamannie-Bloodhoof", -- [2]
@@ -1848,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcShamannie-Bloodhoof|r",
 			[51] = 1648417336,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [84]
+		}, -- [10]
 		{
 			"dad", -- [1]
 			"Shamannie-Bloodhoof", -- [2]
@@ -1870,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcShamannie-Bloodhoof|r",
 			[51] = 1648417338,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [85]
+		}, -- [11]
 		{
 			"hi daddy", -- [1]
 			"Okwhopulled-Bloodhoof", -- [2]
@@ -1892,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cOkwhopulled-Bloodhoof|r",
 			[51] = 1648417345,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [86]
+		}, -- [12]
 		{
 			"he dealt no dmg", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1914,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1648417350,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [87]
+		}, -- [13]
 		{
 			"lets just go", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1936,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1648417354,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [88]
+		}, -- [14]
 		{
 			"just a easy pull beartankyxoxoxoxoxox", -- [1]
 			"Shamannie-Bloodhoof", -- [2]
@@ -1958,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcShamannie-Bloodhoof|r",
 			[51] = 1648417358,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [89]
+		}, -- [15]
 		{
 			"ty daddy", -- [1]
 			"Okwhopulled-Bloodhoof", -- [2]
@@ -1980,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cOkwhopulled-Bloodhoof|r",
 			[51] = 1648417476,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [90]
+		}, -- [16]
 		{
 			"damn clothies", -- [1]
 			"Bombardment-AzjolNerub", -- [2]
@@ -2002,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edBombardment-AzjolNerub|r",
 			[51] = 1648417552,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [91]
+		}, -- [17]
 		{
 			"ty", -- [1]
 			"Bombardment-AzjolNerub", -- [2]
@@ -2024,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edBombardment-AzjolNerub|r",
 			[51] = 1648417556,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [92]
+		}, -- [18]
 		{
 			"Interrupted |cff71d5ff|Hspell:157020:0|h[Solar Wrath]|h|r on Radiant Supernova", -- [1]
 			"Shamannie-Bloodhoof", -- [2]
@@ -2046,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcShamannie-Bloodhoof|r",
 			[51] = 1648417631,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [93]
+		}, -- [19]
 		{
 			"wait", -- [1]
 			"Shamannie-Bloodhoof", -- [2]
@@ -2068,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcShamannie-Bloodhoof|r",
 			[51] = 1648417679,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [94]
+		}, -- [20]
 		{
 			"hell", -- [1]
 			"Shamannie-Bloodhoof", -- [2]
@@ -2090,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcShamannie-Bloodhoof|r",
 			[51] = 1648417717,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [95]
+		}, -- [21]
 		{
 			"hlep", -- [1]
 			"Shamannie-Bloodhoof", -- [2]
@@ -2112,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcShamannie-Bloodhoof|r",
 			[51] = 1648417717,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [96]
+		}, -- [22]
 		{
 			"Interrupted |cff71d5ff|Hspell:154055:0|h[Shielding]|h|r on Skyreach Shield Construct", -- [1]
 			"Okwhopulled-Bloodhoof", -- [2]
@@ -2134,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cOkwhopulled-Bloodhoof|r",
 			[51] = 1648417738,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [97]
+		}, -- [23]
 		{
 			"Interrupted |cff71d5ff|Hspell:154396:0|h[Solar Burst]|h|r on High Sage Viryx", -- [1]
 			"Shamannie-Bloodhoof", -- [2]
@@ -2156,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcShamannie-Bloodhoof|r",
 			[51] = 1648417742,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [98]
+		}, -- [24]
 		{
 			"hiojrewjwefewf\\", -- [1]
 			"Shamannie-Bloodhoof", -- [2]
@@ -2178,29 +550,1657 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcShamannie-Bloodhoof|r",
 			[51] = 1648417753,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [25]
+		{
+			"Aint that Gladiator or something", -- [1]
+			"Jamble-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Jamble-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2, -- [11]
+			"Player-1301-0BFC033C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcJamble|r",
+			[51] = 1648494032,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [26]
+		{
+			"gladiatorlossa", -- [1]
+			"Aintchu-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Aintchu-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3, -- [11]
+			"Player-1301-08CC4D8A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Aintchu|r",
+			[51] = 1648494061,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [27]
+		{
+			"wtf xD", -- [1]
+			"Xanthoros-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xanthoros-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			16, -- [11]
+			"Player-1301-0A44C97F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Xanthoros|r",
+			[51] = 1648497729,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [28]
+		{
+			"nice", -- [1]
+			"Suppedragen-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Suppedragen-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			17, -- [11]
+			"Player-2074-0582C013", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Suppedragen-EmeraldDream|r",
+			[51] = 1648497744,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [29]
+		{
+			"was it something we said", -- [1]
+			"Moonpearl-Terenas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Moonpearl-Terenas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			20, -- [11]
+			"Player-2074-07794FA9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Moonpearl-Terenas|r",
+			[51] = 1648497785,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [30]
+		{
+			"wtf are those mobs?", -- [1]
+			"Xanthoros-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xanthoros-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			29, -- [11]
+			"Player-1301-0A44C97F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Xanthoros|r",
+			[51] = 1648497860,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [31]
+		{
+			"perma stun", -- [1]
+			"Xanthoros-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xanthoros-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			30, -- [11]
+			"Player-1301-0A44C97F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Xanthoros|r",
+			[51] = 1648497862,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [32]
+		{
+			"seem mad this one", -- [1]
+			"Moonpearl-Terenas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Moonpearl-Terenas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			69, -- [11]
+			"Player-2074-07794FA9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Moonpearl-Terenas|r",
+			[51] = 1648498223,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [33]
+		{
+			"sell meth guys", -- [1]
+			"Vandalf-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vandalf-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			172, -- [11]
+			"Player-1301-08BCEC80", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaVandalf|r",
+			[51] = 1648498894,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [34]
+		{
+			"Yeah safer ", -- [1]
+			"Nüberu-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Nüberu-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			173, -- [11]
+			"Player-1301-092C712E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaNüberu|r",
+			[51] = 1648498900,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [35]
+		{
+			"yea drugs is way safer", -- [1]
+			"Sutmindiller-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Sutmindiller-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			174, -- [11]
+			"Player-1301-09D1BD72", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Sutmindiller|r",
+			[51] = 1648498906,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [36]
+		{
+			"real money there", -- [1]
+			"Nüberu-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Nüberu-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			176, -- [11]
+			"Player-1301-092C712E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaNüberu|r",
+			[51] = 1648498909,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [37]
+		{
+			"keep going im not watching TV for this ", -- [1]
+			"Noitoved-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Noitoved-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			177, -- [11]
+			"Player-1301-0BC74198", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cNoitoved|r",
+			[51] = 1648498910,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [38]
+		{
+			"Because making big money with stocks is for people who already have a lot of money. NFT's allow ordinary people to turn £50 to £500-£100 in a day or two. I like the fact you're all hating on NFT's when some of the biggest companies have already...", -- [1]
+			"Jamble-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Jamble-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			178, -- [11]
+			"Player-1301-0BFC033C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcJamble|r",
+			[51] = 1648498914,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [39]
+		{
+			"...Released NFT's with a high floor price. anyway, you can't educate stupid people", -- [1]
+			"Jamble-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Jamble-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			179, -- [11]
+			"Player-1301-0BFC033C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcJamble|r",
+			[51] = 1648498929,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [40]
+		{
+			"Only streamers made real money with stocks, cause they are using THE MONEY that people give to them lmao", -- [1]
+			"Nüberu-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Nüberu-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			180, -- [11]
+			"Player-1301-092C712E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaNüberu|r",
+			[51] = 1648498940,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [41]
+		{
+			"High floor price doesn't mean people will pay that??", -- [1]
+			"Foat-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Foat-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			181, -- [11]
+			"Player-1301-0773C841", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Foat|r",
+			[51] = 1648498946,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [42]
+		{
+			"Dont do stocks and do not do drugs kids", -- [1]
+			"Nüberu-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Nüberu-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			183, -- [11]
+			"Player-1301-092C712E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaNüberu|r",
+			[51] = 1648498961,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [43]
+		{
+			"WTS 0-1.4/1.6k boosts fast and cheap ", -- [1]
+			"Drazen-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Drazen-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			184, -- [11]
+			"Player-1301-0C1B1305", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Drazen|r",
+			[51] = 1648498967,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [44]
+		{
+			"DONT NOT DO DRUGS", -- [1]
+			"Vandalf-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vandalf-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			185, -- [11]
+			"Player-1301-08BCEC80", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaVandalf|r",
+			[51] = 1648498972,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [45]
+		{
+			"Are you an idiot? LITERALY LOOK AT BAYC. There's been several sales in the last hour for 200,000 dollars each minimum. But I'm the stupid one lmao", -- [1]
+			"Jamble-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Jamble-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			186, -- [11]
+			"Player-1301-0BFC033C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcJamble|r",
+			[51] = 1648498974,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [46]
+		{
+			"I can sell you some 1s and 0s :)", -- [1]
+			"Maldo-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Maldo-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			187, -- [11]
+			"Player-1301-0B1941BA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Maldo|r",
+			[51] = 1648498983,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [47]
+		{
+			"imagine trying this hard", -- [1]
+			"Sniperpg-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Sniperpg-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			188, -- [11]
+			"Player-1301-0B77071C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Sniperpg|r",
+			[51] = 1648498993,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [48]
+		{
+			"but never do flakka", -- [1]
+			"Vandalf-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vandalf-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			189, -- [11]
+			"Player-1301-08BCEC80", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaVandalf|r",
+			[51] = 1648498997,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [49]
+		{
+			"Honey there's always 1 guy selling piss for money, but not every1 can do that if you ask me", -- [1]
+			"Nüberu-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Nüberu-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			190, -- [11]
+			"Player-1301-092C712E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaNüberu|r",
+			[51] = 1648499007,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [50]
+		{
+			"The VAST majority of NFT's are fucking useless and will make you no money. Bored Apes have shot up in price over time because of influencers hyping them. Hope you've saved up some of the \"massive amounts\" of money you've made for capital gains ", -- [1]
+			"Foat-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Foat-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			191, -- [11]
+			"Player-1301-0773C841", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Foat|r",
+			[51] = 1648499013,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [51]
+		{
+			"NFTs are scams created by streamers to earn more money from they viewers, change my mind", -- [1]
+			"Nüberu-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Nüberu-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			192, -- [11]
+			"Player-1301-092C712E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaNüberu|r",
+			[51] = 1648499051,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [52]
+		{
+			"can i show u my NFT's", -- [1]
+			"Vandalf-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vandalf-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			193, -- [11]
+			"Player-1301-08BCEC80", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaVandalf|r",
+			[51] = 1648499057,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [53]
+		{
+			".", -- [1]
+			"Victorîa-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Victorîa-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			267, -- [11]
+			"Player-3391-0913E8FB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Victorîa-Silvermoon|r",
+			[51] = 1648499371,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [54]
+		{
+			"[23:11]", -- [1]
+			"Victorîa-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Victorîa-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			268, -- [11]
+			"Player-3391-0913E8FB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Victorîa-Silvermoon|r",
+			[51] = 1648499371,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [55]
+		{
+			"Interrupted Life Warden Gola's |cff71d5ff|Hspell:168092:0|h[Water Bolt]|h|r!", -- [1]
+			"Victorîa-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Victorîa-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			307, -- [11]
+			"Player-3391-0913E8FB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Victorîa-Silvermoon|r",
+			[51] = 1648499514,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [56]
+		{
+			"Interrupted Earthshaper Telu's |cff71d5ff|Hspell:168040:0|h[Nature's Wrath]|h|r!", -- [1]
+			"Victorîa-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Victorîa-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			314, -- [11]
+			"Player-3391-0913E8FB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Victorîa-Silvermoon|r",
+			[51] = 1648499555,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [57]
+		{
+			"Interrupted Archmage Sol's |cff71d5ff|Hspell:166464:0|h[Fireball]|h|r!", -- [1]
+			"Victorîa-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Victorîa-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			329, -- [11]
+			"Player-3391-0913E8FB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Victorîa-Silvermoon|r",
+			[51] = 1648499675,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [58]
+		{
+			"dıspğeell", -- [1]
+			"Victorîa-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Victorîa-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			363, -- [11]
+			"Player-3391-0913E8FB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Victorîa-Silvermoon|r",
+			[51] = 1648499810,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [59]
+		{
+			"Then don't fucking talk about how it's an amazing thing. It's INHERENTLY bad.", -- [1]
+			"Foat-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Foat-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			391, -- [11]
+			"Player-1301-0773C841", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Foat|r",
+			[51] = 1648499844,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [60]
+		{
+			"im just hoping to see bruto soon on some bmah", -- [1]
+			"Bankstudent-Outland", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Bankstudent-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			392, -- [11]
+			"Player-1301-0C211058", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaBankstudent|r",
+			[51] = 1648499844,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [61]
+		{
+			"anyone can \"mint\" whatever the fuck they want", -- [1]
+			"Maldo-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Maldo-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			401, -- [11]
+			"Player-1301-0B1941BA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Maldo|r",
+			[51] = 1648499860,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [62]
+		{
+			"Yes I can agree that the vast majority of NFT's are a pump and dump. That doesn't mean all. that's why RESEARCHING is crucial. If I, the average citizen can make £23,000 in 5.5 months, then anyone can :))", -- [1]
+			"Jamble-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Jamble-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			403, -- [11]
+			"Player-1301-0BFC033C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcJamble|r",
+			[51] = 1648499864,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [63]
+		{
+			"So, can you make money with NFT's? Sure. Is it the most fantastic thing since sliced bread that is the future and saviour for everything? Fuck no.", -- [1]
+			"Foat-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Foat-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			404, -- [11]
+			"Player-1301-0773C841", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Foat|r",
+			[51] = 1648499875,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [64]
+		{
+			"Oh yeah, this thing has 95% failure rate, imma bet my life savings on it", -- [1]
+			"Krangled-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Krangled-Outland", -- [5]
+			"AFK", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			405, -- [11]
+			"Player-1301-0C1A1BF4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Krangled|r",
+			[51] = 1648499875,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [65]
+		{
+			"\"researching\"", -- [1]
+			"Maldo-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Maldo-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			406, -- [11]
+			"Player-1301-0B1941BA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Maldo|r",
+			[51] = 1648499880,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [66]
+		{
+			"You'd be better of buying shitload of lottery tickets in that case", -- [1]
+			"Krangled-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Krangled-Outland", -- [5]
+			"AFK", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			407, -- [11]
+			"Player-1301-0C1A1BF4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Krangled|r",
+			[51] = 1648499886,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [67]
+		{
+			"23k? You said you have 23 ETH?", -- [1]
+			"Foat-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Foat-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			408, -- [11]
+			"Player-1301-0773C841", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Foat|r",
+			[51] = 1648499894,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [68]
+		{
+			"{star} Gratz {star}", -- [1]
+			"Simzzy-Dragonblight", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Simzzy-Dragonblight", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			457, -- [11]
+			"Player-1596-0DD0F825", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Simzzy-Dragonblight|r",
+			[51] = 1648500144,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [69]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14783:Player-1301-0A44C97F:1:3:29:22:4294967295:4294967295:4294967295:4294967295|h[Level 60]|h|r!", -- [1]
+			"Xanthoros-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xanthoros-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			658, -- [11]
+			"Player-1301-0A44C97F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Xanthoros|r",
+			[51] = 1648501288,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [70]
+		{
+			"the NFT. The PNG is another matter. In the rare chance I manage to take, upload and try to sell someone else's artwork before them, will result in many of the marketplace platforms removing it before it could ever be purchased in the first place", -- [1]
+			"Jamble-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Jamble-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			670, -- [11]
+			"Player-1301-0BFC033C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcJamble|r",
+			[51] = 1648501300,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [71]
+		{
+			"Maldo, how's the teaching life?", -- [1]
+			"Jamble-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Jamble-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			671, -- [11]
+			"Player-1301-0BFC033C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcJamble|r",
+			[51] = 1648501326,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [72]
+		{
+			"What if thief manages to \"post\" it on the platform before me?", -- [1]
+			"Xenariss-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Xenariss-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			672, -- [11]
+			"Player-1301-0C17395F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Xenariss|r",
+			[51] = 1648501343,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [73]
+		{
+			"what other options do i have than Bigdebuffs in pvp?", -- [1]
+			"Sutmindiller-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Sutmindiller-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			680, -- [11]
+			"Player-1301-09D1BD72", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Sutmindiller|r",
+			[51] = 1648501381,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [74]
+		{
+			"It can be legally disputed. You contact the marketplace directly. I mean, look at the news - a few days ago 2 teens from LA defrauded thousands of people out of 1.1 million in NFT's. They were caught and face up to 40 years each", -- [1]
+			"Jamble-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Jamble-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			685, -- [11]
+			"Player-1301-0BFC033C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcJamble|r",
+			[51] = 1648501393,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [75]
+		{
+			"To make it clear - I mean a PNG NFT that is just created and have no previous history, like a pic created an hour ago", -- [1]
+			"Xenariss-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Xenariss-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			686, -- [11]
+			"Player-1301-0C17395F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Xenariss|r",
+			[51] = 1648501411,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [76]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14834:Player-1301-0A44C97F:1:3:29:22:4294967295:4294967295:4294967295:4294967295|h[Bound with Purpose]|h|r!", -- [1]
+			"Xanthoros-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xanthoros-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			724, -- [11]
+			"Player-1301-0A44C97F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Xanthoros|r",
+			[51] = 1648501770,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [77]
+		{
+			"If they're doing it already - well, they're failling at it", -- [1]
+			"Xenariss-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Xenariss-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			753, -- [11]
+			"Player-1301-0C17395F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Xenariss|r",
+			[51] = 1648501927,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [78]
+		{
+			"Xenariss - yes, that would be beneficial. But how do you propose that they know the 'uploader' is the OG creator?", -- [1]
+			"Jamble-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Jamble-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			754, -- [11]
+			"Player-1301-0BFC033C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcJamble|r",
+			[51] = 1648501927,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [79]
+		{
+			"if blockchain is reliable, why do you need other verifications?", -- [1]
+			"Maldo-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Maldo-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			755, -- [11]
+			"Player-1301-0B1941BA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Maldo|r",
+			[51] = 1648501930,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [80]
+		{
+			"Like request limited access to PSD?", -- [1]
+			"Xenariss-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Xenariss-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			756, -- [11]
+			"Player-1301-0C17395F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Xenariss|r",
+			[51] = 1648501943,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [81]
+		{
+			"or do not allow it to happen at all", -- [1]
+			"Xenariss-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Xenariss-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			760, -- [11]
+			"Player-1301-0C17395F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Xenariss|r",
+			[51] = 1648501960,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [82]
+		{
+			"Because, in the very rare scenario where artwork is stolen and uploaded before the OG author does it, the other verifications can only be approved by a platform with evidence/proof", -- [1]
+			"Jamble-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Jamble-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			762, -- [11]
+			"Player-1301-0BFC033C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcJamble|r",
+			[51] = 1648501965,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [83]
+		{
+			"IMO - you do it the right way or don't do it, that's it", -- [1]
+			"Xenariss-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Xenariss-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			768, -- [11]
+			"Player-1301-0C17395F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Xenariss|r",
+			[51] = 1648501976,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [84]
+		{
+			"then what's the point of the blockchain if it can't be trusted?", -- [1]
+			"Maldo-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Maldo-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			770, -- [11]
+			"Player-1301-0B1941BA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Maldo|r",
+			[51] = 1648501988,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [85]
+		{
+			"What if the artist have no idea about platform's existence?", -- [1]
+			"Xenariss-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Xenariss-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			789, -- [11]
+			"Player-1301-0C17395F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Xenariss|r",
+			[51] = 1648502020,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [86]
+		{
+			"I just see what it does to others ", -- [1]
+			"Xenariss-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Xenariss-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			852, -- [11]
+			"Player-1301-0C17395F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Xenariss|r",
+			[51] = 1648502242,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [87]
+		{
+			"|cffffff00|Hworldmap:1970:6901:3651|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Sergeí-Outland", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Sergeí-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			868, -- [11]
+			"Player-1301-0B864C8F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Sergeí|r",
+			[51] = 1648502657,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [88]
+		{
+			"Otiosen up WM OFF", -- [1]
+			"Xanthoros-Outland", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Xanthoros-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			870, -- [11]
+			"Player-1301-0A44C97F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Xanthoros|r",
+			[51] = 1648502675,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [89]
+		{
+			"|cffffff00|Hworldmap:1970:4366:8713|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Xanthoros-Outland", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Xanthoros-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			871, -- [11]
+			"Player-1301-0A44C97F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Xanthoros|r",
+			[51] = 1648502682,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [90]
+		{
+			"mother is up", -- [1]
+			"Kelestra-Outland", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Kelestra-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			872, -- [11]
+			"Player-1301-0C1FA9FA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Kelestra|r",
+			[51] = 1648502741,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [91]
+		{
+			"{rt8}Tahkwitz (100%)|cffffff00|Hworldmap:1970:4855:3909|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Isotrophia-Outland", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Isotrophia-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			881, -- [11]
+			"Player-1301-09B87CBB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Isotrophia|r",
+			[51] = 1648503231,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"Otaris the Provoked 100.00% ~(58.6, 39.02) |cffffff00|Hworldmap:1970:5860:3902|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Minmage-Outland", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Minmage-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			885, -- [11]
+			"Player-1301-008DB7D9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaMinmage|r",
+			[51] = 1648503774,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"+1", -- [1]
+			"Kromegia-CultedelaRivenoire", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Kromegia-CultedelaRivenoire", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			890, -- [11]
+			"Player-1127-0A0149AC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edKromegia-CultedelaRivenoire|r",
+			[51] = 1648503881,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"quand vous voulez", -- [1]
+			"Kromegia-CultedelaRivenoire", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kromegia-CultedelaRivenoire", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			892, -- [11]
+			"Player-1127-0A0149AC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edKromegia-CultedelaRivenoire|r",
+			[51] = 1648503972,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [95]
+		{
+			"Go !!!!", -- [1]
+			"Mylania-LesSentinelles", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mylania-LesSentinelles", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			893, -- [11]
+			"Player-1127-05F54D35", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaMylania-LesSentinelles|r",
+			[51] = 1648503979,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [96]
+		{
+			"architecte up", -- [1]
+			"Usulle-ConfrérieduThorium", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Usulle-ConfrérieduThorium", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			894, -- [11]
+			"Player-1127-0191325E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Usulle-ConfrérieduThorium|r",
+			[51] = 1648503980,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"|cffffff00|Hworldmap:1970:4921:6047|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Emplacement marqué sur la carte]|h|r", -- [1]
+			"Usulle-ConfrérieduThorium", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Usulle-ConfrérieduThorium", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			895, -- [11]
+			"Player-1127-0191325E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Usulle-ConfrérieduThorium|r",
+			[51] = 1648503993,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"architecte pop", -- [1]
+			"Usulle-ConfrérieduThorium", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Usulle-ConfrérieduThorium", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			899, -- [11]
+			"Player-1127-0191325E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Usulle-ConfrérieduThorium|r",
+			[51] = 1648504170,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/i yeah wtf who pulled?", -- [1]
-		"/i sad", -- [2]
-		"/i stack one me", -- [3]
-		"/i big bear with blue", -- [4]
-		"/att Sweet Perfume Brooch", -- [5]
-		"/i mage", -- [6]
-		"/i stop playing games", -- [7]
-		"/p do you need cloak/", -- [8]
-		"/p ?", -- [9]
-		"/i do you need cloak?", -- [10]
-		"/i gogo", -- [11]
-		"/i tank afk?", -- [12]
-		"/i after thir boss", -- [13]
-		"/i click circle", -- [14]
-		"/i down there", -- [15]
-		"/i man im lvl58", -- [16]
-		"/i and this is a random wod dungeon", -- [17]
-		"/i i have no clue what the mechanics are lol", -- [18]
-		"/i he dealt no dmg", -- [19]
-		"/i lets just go", -- [20]
+		"/i mage", -- [1]
+		"/i stop playing games", -- [2]
+		"/p do you need cloak/", -- [3]
+		"/p ?", -- [4]
+		"/i do you need cloak?", -- [5]
+		"/i gogo", -- [6]
+		"/i tank afk?", -- [7]
+		"/i after thir boss", -- [8]
+		"/i click circle", -- [9]
+		"/i down there", -- [10]
+		"/i man im lvl58", -- [11]
+		"/i and this is a random wod dungeon", -- [12]
+		"/i i have no clue what the mechanics are lol", -- [13]
+		"/i he dealt no dmg", -- [14]
+		"/i lets just go", -- [15]
+		"/i wtf xD", -- [16]
+		"/i wtf are those mobs?", -- [17]
+		"/i perma stun", -- [18]
+		"/1 Otiosen up WM OFF", -- [19]
+		"/1 |cffffff00|Hworldmap:1970:4366:8713|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }

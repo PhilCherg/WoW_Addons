@@ -2,138 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"593", -- [1]
-			"Valsheres-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3600, -- [11]
-			"Player-1301-0C26735A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edValsheres|r",
-			[51] = 1648485984,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [1]
-		{
-			"i bid 560 im out", -- [1]
-			"Iskoldgnom-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3601, -- [11]
-			"Player-1301-0C214462", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaIskoldgnom|r",
-			[51] = 1648485989,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [2]
-		{
-			"xD", -- [1]
-			"Bommel-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3602, -- [11]
-			"Player-1301-0C049FB7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1648485997,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [3]
-		{
-			"not even worth 400", -- [1]
-			"Iskoldgnom-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3603, -- [11]
-			"Player-1301-0C214462", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaIskoldgnom|r",
-			[51] = 1648486004,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [4]
-		{
-			"it's just my childhood nightmare, that i wasnt able to log when the raid was up xD", -- [1]
-			"Bommel-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3606, -- [11]
-			"Player-1301-0C049FB7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1648486036,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [5]
-		{
-			"mom's pc didnt go through loadscreen xD and iw as like GOOOOOOO", -- [1]
-			"Bommel-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3608, -- [11]
-			"Player-1301-0C049FB7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1648486063,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [6]
-		{
 			"already have it |cff71d5ff|Hspell:170347:0|h[Core Hound]|h|r don't think you can get it now though", -- [1]
 			"Jithalis-Outland", -- [2]
 			"", -- [3]
@@ -154,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Jithalis|r",
 			[51] = 1648486063,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [7]
+		}, -- [1]
 		{
 			"only in black market auction you can yeah", -- [1]
 			"Bommel-Outland", -- [2]
@@ -176,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648486083,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [8]
+		}, -- [2]
 		{
 			"fat dog who doesnt fit anywhere", -- [1]
 			"Psychocat-Outland", -- [2]
@@ -198,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Psychocat|r",
 			[51] = 1648486096,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [9]
+		}, -- [3]
 		{
 			"fit's right in my mountbook xD", -- [1]
 			"Bommel-Outland", -- [2]
@@ -220,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648486182,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [10]
+		}, -- [4]
 		{
 			"Luxury problems", -- [1]
 			"Psychocat-Outland", -- [2]
@@ -242,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Psychocat|r",
 			[51] = 1648486194,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [11]
+		}, -- [5]
 		{
 			"guess you're collecting mounts Bommel", -- [1]
 			"Jithalis-Outland", -- [2]
@@ -264,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Jithalis|r",
 			[51] = 1648486248,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [12]
+		}, -- [6]
 		{
 			"stuck at 593", -- [1]
 			"Valsheres-Outland", -- [2]
@@ -286,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edValsheres|r",
 			[51] = 1648486255,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [13]
+		}, -- [7]
 		{
 			"459 here working on more though", -- [1]
 			"Jithalis-Outland", -- [2]
@@ -308,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Jithalis|r",
 			[51] = 1648486286,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [14]
+		}, -- [8]
 		{
 			"how do you get that much gad demmit", -- [1]
 			"Karamfilchi-Outland", -- [2]
@@ -330,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Karamfilchi|r",
 			[51] = 1648486303,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [15]
+		}, -- [9]
 		{
 			"yeah i wanna het to 600 ", -- [1]
 			"Bommel-Outland", -- [2]
@@ -352,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648486321,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [16]
+		}, -- [10]
 		{
 			"only hit 300 achiev today xD", -- [1]
 			"Bommel-Outland", -- [2]
@@ -374,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648486327,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [17]
+		}, -- [11]
 		{
 			"same but to hit 600 u need to grind all reps", -- [1]
 			"Karamfilchi-Outland", -- [2]
@@ -396,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Karamfilchi|r",
 			[51] = 1648486347,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [18]
+		}, -- [12]
 		{
 			"i even boiught  2 tokens on m yold horde char", -- [1]
 			"Bommel-Outland", -- [2]
@@ -418,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648486360,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [19]
+		}, -- [13]
 		{
 			"to buy |cff71d5ff|Hspell:239013:0|h[Lightforged Warframe]|h|r", -- [1]
 			"Bommel-Outland", -- [2]
@@ -440,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648486370,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [20]
+		}, -- [14]
 		{
 			"Shifting Stargorger (100%) |cffffff00|Hworldmap:1970:4230:2100|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Shredlölqt-Outland", -- [2]
@@ -462,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shredlölqt|r",
 			[51] = 1648486376,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
+		}, -- [15]
 		{
 			"Zereth Mortis find the schemics already have 3 mounts  from there", -- [1]
 			"Jithalis-Outland", -- [2]
@@ -484,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Jithalis|r",
 			[51] = 1648486395,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [22]
+		}, -- [16]
 		{
 			"In next xpac, we will have 40 currencies just for 10.0", -- [1]
 			"Séphirá-Outland", -- [2]
@@ -506,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSéphirá|r",
 			[51] = 1648486395,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
+		}, -- [17]
 		{
 			"<RTC> Protector of the First Ones (100%) seen at |cffffff00|Hworldmap:1970:3887:2762|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Rennela-Dragonblight", -- [2]
@@ -528,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rennela-Dragonblight|r",
 			[51] = 1648486412,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
+		}, -- [18]
 		{
 			"ye but no schematics drop for me ", -- [1]
 			"Karamfilchi-Outland", -- [2]
@@ -550,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Karamfilchi|r",
 			[51] = 1648486417,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [25]
+		}, -- [19]
 		{
 			"<RTC> Protector of the First Ones (100%) seen at |cffffff00|Hworldmap:1970:3887:2762|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Zifir-Frostmane", -- [2]
@@ -572,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Zifir-Frostmane|r",
 			[51] = 1648486419,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
+		}, -- [20]
 		{
 			"i have some chematics but gotta get genesis mote stuff", -- [1]
 			"Bommel-Outland", -- [2]
@@ -594,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648486445,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [27]
+		}, -- [21]
 		{
 			"they are 100% drop rate, arent they?", -- [1]
 			"Messwme-Outland", -- [2]
@@ -616,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edMesswme|r",
 			[51] = 1648486445,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [28]
+		}, -- [22]
 		{
 			"most of them you need pick from places", -- [1]
 			"Valsheres-Outland", -- [2]
@@ -638,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edValsheres|r",
 			[51] = 1648486449,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [29]
+		}, -- [23]
 		{
 			"+", -- [1]
 			"Psychocat-Outland", -- [2]
@@ -660,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Psychocat|r",
 			[51] = 1648486454,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [30]
+		}, -- [24]
 		{
 			"you have to find them i have found 11 so far", -- [1]
 			"Jithalis-Outland", -- [2]
@@ -682,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Jithalis|r",
 			[51] = 1648486466,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [31]
+		}, -- [25]
 		{
 			"<RTC> Protector of the First Ones has died", -- [1]
 			"Rennela-Dragonblight", -- [2]
@@ -704,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rennela-Dragonblight|r",
 			[51] = 1648486468,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
+		}, -- [26]
 		{
 			"I got renown 80 with Necrolords. Working on night fae now, but I am not max renown or done with the story line. Will I loose all progress with night fae if I swap back to necro before getting renown 80?", -- [1]
 			"Miketysem-Outland", -- [2]
@@ -726,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Miketysem|r",
 			[51] = 1648486477,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [33]
+		}, -- [27]
 		{
 			"got them on map lol", -- [1]
 			"Valsheres-Outland", -- [2]
@@ -748,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edValsheres|r",
 			[51] = 1648486487,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [34]
+		}, -- [28]
 		{
 			"no", -- [1]
 			"Messwme-Outland", -- [2]
@@ -770,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edMesswme|r",
 			[51] = 1648486501,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [35]
+		}, -- [29]
 		{
 			"RAID INVITES FOR ORANGE TEAM IS STARTING WHISP ME 123 ", -- [1]
 			"Tuàh-Outland", -- [2]
@@ -792,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Tuàh|r",
 			[51] = 1648486505,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [36]
+		}, -- [30]
 		{
 			"u can swap freely", -- [1]
 			"Messwme-Outland", -- [2]
@@ -814,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edMesswme|r",
 			[51] = 1648486510,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [37]
+		}, -- [31]
 		{
 			"Ok thanks", -- [1]
 			"Miketysem-Outland", -- [2]
@@ -836,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Miketysem|r",
 			[51] = 1648486526,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [38]
+		}, -- [32]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14283:Player-1301-0C267EFF:1:3:28:22:4294967295:4294967295:4294967295:4294967295|h[Heroic Edition: Ensorcelled Everwyrm]|h|r!", -- [1]
 			"Wariorh-Outland", -- [2]
@@ -858,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Wariorh|r",
 			[51] = 1648486591,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [39]
+		}, -- [33]
 		{
 			"anyone still have a view on the bmah? xD", -- [1]
 			"Bommel-Outland", -- [2]
@@ -880,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648486688,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [40]
+		}, -- [34]
 		{
 			"i have a view on dat ass", -- [1]
 			"Brucebrews-Outland", -- [2]
@@ -902,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brucebrews|r",
 			[51] = 1648486702,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [41]
+		}, -- [35]
 		{
 			"xD", -- [1]
 			"Bommel-Outland", -- [2]
@@ -924,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648486708,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [42]
+		}, -- [36]
 		{
 			"its done at 593k", -- [1]
 			"Tuàh-Outland", -- [2]
@@ -946,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Tuàh|r",
 			[51] = 1648486715,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [43]
+		}, -- [37]
 		{
 			"i have no shame", -- [1]
 			"Brucebrews-Outland", -- [2]
@@ -968,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brucebrews|r",
 			[51] = 1648486717,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [44]
+		}, -- [38]
 		{
 			"ooof ", -- [1]
 			"Bommel-Outland", -- [2]
@@ -990,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648486772,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [45]
+		}, -- [39]
 		{
 			"my fiance shouted at me like shouldnt have bought the mount yesterday for 270k xD", -- [1]
 			"Bommel-Outland", -- [2]
@@ -1012,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648486789,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [46]
+		}, -- [40]
 		{
 			"XD", -- [1]
 			"Maaiiky-Outland", -- [2]
@@ -1034,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edMaaiiky|r",
 			[51] = 1648486796,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [47]
+		}, -- [41]
 		{
 			"no ragrets", -- [1]
 			"Bommel-Outland", -- [2]
@@ -1056,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648486797,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [48]
+		}, -- [42]
 		{
 			"she knows all", -- [1]
 			"Brucebrews-Outland", -- [2]
@@ -1078,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brucebrews|r",
 			[51] = 1648483227,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [49]
+		}, -- [43]
 		{
 			"you ought to listen to her more ", -- [1]
 			"Brucebrews-Outland", -- [2]
@@ -1100,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brucebrews|r",
 			[51] = 1648483234,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [50]
+		}, -- [44]
 		{
 			"egh well ", -- [1]
 			"Bommel-Outland", -- [2]
@@ -1122,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648483243,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [51]
+		}, -- [45]
 		{
 			"another day another bmah sale xD", -- [1]
 			"Bommel-Outland", -- [2]
@@ -1144,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648483249,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [52]
+		}, -- [46]
 		{
 			"had 2 afk some B- what mount did U move?", -- [1]
 			"Iongclaw-Outland", -- [2]
@@ -1166,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Iongclaw|r",
 			[51] = 1648487076,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [53]
+		}, -- [47]
 		{
 			"didnt get is ling", -- [1]
 			"Bommel-Outland", -- [2]
@@ -1188,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648487115,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [54]
+		}, -- [48]
 		{
 			"sold for 593k ", -- [1]
 			"Bommel-Outland", -- [2]
@@ -1210,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648487124,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [55]
+		}, -- [49]
 		{
 			"just a bit out of mah pocket xD", -- [1]
 			"Bommel-Outland", -- [2]
@@ -1232,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648487133,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [56]
+		}, -- [50]
 		{
 			"ahh IC now - sry 2 hear friendo", -- [1]
 			"Iongclaw-Outland", -- [2]
@@ -1254,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Iongclaw|r",
 			[51] = 1648487136,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [57]
+		}, -- [51]
 		{
 			"saul goodman ", -- [1]
 			"Bommel-Outland", -- [2]
@@ -1276,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648487143,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [58]
+		}, -- [52]
 		{
 			"another day another bmah sale", -- [1]
 			"Bommel-Outland", -- [2]
@@ -1298,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648487149,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [59]
+		}, -- [53]
 		{
 			"I thought U got for 275 and flipped for 577", -- [1]
 			"Iongclaw-Outland", -- [2]
@@ -1320,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Iongclaw|r",
 			[51] = 1648487151,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [60]
+		}, -- [54]
 		{
 			"nah ", -- [1]
 			"Bommel-Outland", -- [2]
@@ -1342,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648487157,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [61]
+		}, -- [55]
 		{
 			"dont think you can resale bmah items? ", -- [1]
 			"Bommel-Outland", -- [2]
@@ -1364,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648487171,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [62]
+		}, -- [56]
 		{
 			"as it goes bound on pick up i think", -- [1]
 			"Bommel-Outland", -- [2]
@@ -1386,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648487183,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [63]
+		}, -- [57]
 		{
 			"patrick ?", -- [1]
 			"Tuàh-Outland", -- [2]
@@ -1408,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Tuàh|r",
 			[51] = 1648487208,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [64]
+		}, -- [58]
 		{
 			"Dont see him on yet Tuah", -- [1]
 			"Trimagia-Outland", -- [2]
@@ -1430,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaTrimagia|r",
 			[51] = 1648487225,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [65]
+		}, -- [59]
 		{
 			"I dont think you'll want my pally, I do less healing as holy than as prot xD", -- [1]
 			"Trimagia-Outland", -- [2]
@@ -1452,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaTrimagia|r",
 			[51] = 1648487249,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [66]
+		}, -- [60]
 		{
 			"no he was before and said he could heal thats why ", -- [1]
 			"Tuàh-Outland", -- [2]
@@ -1474,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Tuàh|r",
 			[51] = 1648487251,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [67]
+		}, -- [61]
 		{
 			"Might've popped out to eat right, though he said he might be a fw mins late in discord", -- [1]
 			"Trimagia-Outland", -- [2]
@@ -1496,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaTrimagia|r",
 			[51] = 1648487274,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [68]
+		}, -- [62]
 		{
 			"sry B had 2 get up again- U might very well be right", -- [1]
 			"Iongclaw-Outland", -- [2]
@@ -1518,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Iongclaw|r",
 			[51] = 1648487294,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [69]
+		}, -- [63]
 		{
 			"Ive never BMAHed anything", -- [1]
 			"Iongclaw-Outland", -- [2]
@@ -1540,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Iongclaw|r",
 			[51] = 1648487317,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [70]
+		}, -- [64]
 		{
 			"i could be wrong but anyhting i buy there i'd deffo keep xD", -- [1]
 			"Bommel-Outland", -- [2]
@@ -1562,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648487330,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [71]
+		}, -- [65]
 		{
 			"i wanna get the tabards", -- [1]
 			"Bommel-Outland", -- [2]
@@ -1584,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648487335,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [72]
+		}, -- [66]
 		{
 			" : )", -- [1]
 			"Iongclaw-Outland", -- [2]
@@ -1606,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Iongclaw|r",
 			[51] = 1648487337,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [73]
+		}, -- [67]
 		{
 			"is a guide 4 it on wowhead Ive gone through when was on the hunter and I seem 2 recall that a FR I got from UR neck of the woods actually  : ) was telling me there is a small trick or smthg about it", -- [1]
 			"Iongclaw-Outland", -- [2]
@@ -1628,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Iongclaw|r",
 			[51] = 1648487384,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [74]
+		}, -- [68]
 		{
 			"if on a low pop realm ", -- [1]
 			"Iongclaw-Outland", -- [2]
@@ -1650,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Iongclaw|r",
 			[51] = 1648487395,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [75]
+		}, -- [69]
 		{
 			"might be fewer bids", -- [1]
 			"Iongclaw-Outland", -- [2]
@@ -1672,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Iongclaw|r",
 			[51] = 1648487400,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [76]
+		}, -- [70]
 		{
 			"smthg like that ", -- [1]
 			"Iongclaw-Outland", -- [2]
@@ -1694,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Iongclaw|r",
 			[51] = 1648487401,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [77]
+		}, -- [71]
 		{
 			"but was awhile ago so might not even be ingame anymore", -- [1]
 			"Iongclaw-Outland", -- [2]
@@ -1716,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Iongclaw|r",
 			[51] = 1648487415,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [78]
+		}, -- [72]
 		{
 			"think with the server merges might still be going high but yeha i can deffo have look on low servers ", -- [1]
 			"Bommel-Outland", -- [2]
@@ -1738,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648487459,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [79]
+		}, -- [73]
 		{
 			"uff my bad brother", -- [1]
 			"Iongrifle-Outland", -- [2]
@@ -1760,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Iongrifle|r",
 			[51] = 1648487477,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [80]
+		}, -- [74]
 		{
 			"I didnt realise U lot in raid", -- [1]
 			"Iongrifle-Outland", -- [2]
@@ -1782,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Iongrifle|r",
 			[51] = 1648487482,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [81]
+		}, -- [75]
 		{
 			"sry 4 bothering U and gl fighting", -- [1]
 			"Iongrifle-Outland", -- [2]
@@ -1804,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Iongrifle|r",
 			[51] = 1648487491,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [82]
+		}, -- [76]
 		{
 			"we aint started yet so all good <3 xD", -- [1]
 			"Bommel-Outland", -- [2]
@@ -1826,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648487503,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [83]
+		}, -- [77]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12515:Player-1301-0C267EFF:1:3:28:22:4294967295:4294967295:4294967295:4294967295|h[Allied Races: Dark Iron Dwarf]|h|r!", -- [1]
 			"Wariorh-Outland", -- [2]
@@ -1848,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Wariorh|r",
 			[51] = 1648487509,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [84]
+		}, -- [78]
 		{
 			" : ))", -- [1]
 			"Iongrifle-Outland", -- [2]
@@ -1870,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Iongrifle|r",
 			[51] = 1648487509,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [85]
+		}, -- [79]
 		{
 			"<RTC> Furidian (100%) seen at |cffffff00|Hworldmap:1970:6450:5861|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Rennela-Dragonblight", -- [2]
@@ -1892,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rennela-Dragonblight|r",
 			[51] = 1648487521,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [80]
 		{
 			"is how the top top guilds R I hear- 1st chill shoot the shit some and then clear raid mythic in 12-13 min : )))", -- [1]
 			"Iongrifle-Outland", -- [2]
@@ -1914,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Iongrifle|r",
 			[51] = 1648487545,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [87]
+		}, -- [81]
 		{
 			"yes we are a little late today ", -- [1]
 			"Tuàh-Outland", -- [2]
@@ -1936,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Tuàh|r",
 			[51] = 1648487550,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [88]
+		}, -- [82]
 		{
 			"ooh I didnt C U there Tu- all the fashionable folks in team  : ))", -- [1]
 			"Iongrifle-Outland", -- [2]
@@ -1958,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Iongrifle|r",
 			[51] = 1648487575,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [89]
+		}, -- [83]
 		{
 			"<RTC> Furidian has died", -- [1]
 			"Rennela-Dragonblight", -- [2]
@@ -1980,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rennela-Dragonblight|r",
 			[51] = 1648487576,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [84]
 		{
 			"what U targeting outa raid friendo- set??", -- [1]
 			"Iongrifle-Outland", -- [2]
@@ -2002,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Iongrifle|r",
 			[51] = 1648487588,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [91]
+		}, -- [85]
 		{
 			"heyas long ", -- [1]
 			"Tuàh-Outland", -- [2]
@@ -2024,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Tuàh|r",
 			[51] = 1648487603,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [92]
+		}, -- [86]
 		{
 			" : )", -- [1]
 			"Iongrifle-Outland", -- [2]
@@ -2046,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Iongrifle|r",
 			[51] = 1648487610,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [93]
+		}, -- [87]
 		{
 			"true true B 5M mos def", -- [1]
 			"Iongclaw-Outland", -- [2]
@@ -2068,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Iongclaw|r",
 			[51] = 1648487731,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [94]
+		}, -- [88]
 		{
 			"lemme google hound U said", -- [1]
 			"Iongclaw-Outland", -- [2]
@@ -2090,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Iongclaw|r",
 			[51] = 1648487735,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [95]
+		}, -- [89]
 		{
 			"yeah it sold for 596 today ", -- [1]
 			"Bommel-Outland", -- [2]
@@ -2112,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648487752,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [96]
+		}, -- [90]
 		{
 			"wait there's 2 long's? ", -- [1]
 			"Bommel-Outland", -- [2]
@@ -2134,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648487759,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [97]
+		}, -- [91]
 		{
 			"well could be worse |cffa335ee|Hitem:189834::::::::60:267::3:4:7189:6652:1498:6646:1:28:2060:::::|h[Guardstaff of the Great Cycle]|h|r", -- [1]
 			"Messwme-Outland", -- [2]
@@ -2156,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edMesswme|r",
 			[51] = 1648487780,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [98]
+		}, -- [92]
 		{
 			" :)))))", -- [1]
 			"Iongclaw-Outland", -- [2]
@@ -2177,6 +2045,138 @@ ElvCharacterDB = {
 			false, -- [17]
 			[52] = "|cfffe7b09Iongclaw|r",
 			[51] = 1648487794,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [93]
+		{
+			"ummm |cff1eff00|Hitem:173204::::::::60:268:::::::::|h[Lightless Silk]|h|r each for 1k?", -- [1]
+			"Jashinsama-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			812, -- [11]
+			"Player-1301-0BD39C09", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Jashinsama|r",
+			[51] = 1648502170,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [94]
+		{
+			"what the hell?", -- [1]
+			"Jashinsama-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			813, -- [11]
+			"Player-1301-0BD39C09", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Jashinsama|r",
+			[51] = 1648502175,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [95]
+		{
+			"Worth ", -- [1]
+			"Nóxùs-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			815, -- [11]
+			"Player-1301-085463D8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcNóxùs|r",
+			[51] = 1648502181,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [96]
+		{
+			"Protector of the First Ones |cffffff00|Hworldmap:1970:3887:2762|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Healingtree-Outland", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Healingtree-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			816, -- [11]
+			"Player-1301-0BE887DB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Healingtree|r",
+			[51] = 1648502188,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"Shifting Stargorger |cffffff00|Hworldmap:1970:4230:2099|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Healingtree-Outland", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Healingtree-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			817, -- [11]
+			"Player-1301-0BE887DB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Healingtree|r",
+			[51] = 1648502188,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"somone reset lol", -- [1]
+			"Telchino-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			818, -- [11]
+			"Player-1301-0824E18F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaTelchino|r",
+			[51] = 1648502188,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [99]
 	},

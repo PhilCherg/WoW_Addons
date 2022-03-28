@@ -238,7 +238,7 @@ Grail-Achievements: disabled
 Grail-Rewards: disabled
 Grail-When: disabled
 MonkeySpeed: enabled
-RareScanner: disabled
+RareScanner: enabled
 RoutesImportExport: disabled
 ElvUI_QuestXP: disabled
 GarrisonCommander: disabled

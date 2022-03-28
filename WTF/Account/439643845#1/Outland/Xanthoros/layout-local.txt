@@ -1,11 +1,4 @@
 Version: 1
-Frame: MonkeySpeedFrame
-FrameLevel: 1
-Anchor: TOPRIGHT
-X: -304
-Y: -39
-W: 151
-H: 49
 Frame: AllTheThings-Window-CurrentInstance
 FrameLevel: 1
 Anchor: LEFT
@@ -13,6 +6,13 @@ X: 0
 Y: -220
 W: 406
 H: 190
+Frame: MonkeySpeedFrame
+FrameLevel: 1
+Anchor: TOPRIGHT
+X: -304
+Y: -39
+W: 151
+H: 49
 Frame: ObjectiveTrackerFrame
 FrameLevel: 1
 Anchor: BOTTOMRIGHT
@@ -69,3 +69,10 @@ X: 0
 Y: 0
 W: 300
 H: 300
+Frame: scanner_button
+FrameLevel: 200
+Anchor: CENTER
+X: 347
+Y: 19
+W: 200
+H: 50
