@@ -36,9 +36,9 @@ W: 365
 H: 240
 Frame: AllTheThings-Window-Prime
 FrameLevel: 1
-Anchor: RIGHT
-X: -270
-Y: -124
+Anchor: CENTER
+X: 273
+Y: -114
 W: 618
 H: 482
 Frame: AllTheThings-Window-Bounty

@@ -300,3 +300,4 @@ StoredAnimaCounter: disabled
 ZerethMortisPuzzleHelper: disabled
 DBM-Sepulcher: disabled
 DBM-VPVEM: disabled
+ACP: enabled

@@ -1,6 +1,6 @@
 ## Interface: 90200
-## Title: BetterWardrobe (3.14.3)
-## Version: 3.14.3
+## Title: BetterWardrobe (3.14.4a)
+## Version: 3.14.4a
 ## Author: SLOKnightfall
 ## Notes: 
 ## OptionalDeps: MogIt, CanIMogIt, LegionWardrobe, WardrobeEnhanced, Rarity, TransmogOutfits, ExtendedSets, ElvUI
@@ -61,7 +61,6 @@ Modules\Wardrobe.xml
 Modules\ColorFilter.lua
 
 #Modules\PreviewWindows.lua
-
 
 Modules\CollectionList.xml
 Modules\Sources.lua

@@ -1,6 +1,6 @@
 ## Interface: 90200
-## Title: BetterWardrobe_SourceData (3.14.3)
-## Version: 3.14.3
+## Title: BetterWardrobe_SourceData (3.14.4a)
+## Version: 3.14.4a
 ## Author: SLOKnightfall
 ## Notes: 
 ## LoadOnDemand: 1

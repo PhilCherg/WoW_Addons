@@ -1,45 +1,78 @@
 # AllTheThings
 
-## [SL-2.7.4](https://github.com/DFortun81/AllTheThings/tree/SL-2.7.4) (2022-03-20)
-[Full Changelog](https://github.com/DFortun81/AllTheThings/compare/SL-2.7.3a...SL-2.7.4) [Previous Releases](https://github.com/DFortun81/AllTheThings/releases)
+## [SL-2.7.5](https://github.com/DFortun81/AllTheThings/tree/SL-2.7.5) (2022-03-27)
+[Full Changelog](https://github.com/DFortun81/AllTheThings/compare/SL-2.7.4...SL-2.7.5) [Previous Releases](https://github.com/DFortun81/AllTheThings/releases)
 
-- -- Repase  
-- Merge pull request #954 from DFortun81/auto\_localization  
+- Reparse  
+- Merge branch 'master' of https://github.com/DFortun81/AllTheThings  
+- -- Reparse  
+- Merge pull request #960 from DFortun81/auto\_localization  
     Sync localization  
 - Sync localization  
-- Merge pull request #953 from DFortun81/auto\_localization  
+- Merge pull request #959 from DFortun81/auto\_localization  
     Sync localization  
 - Sync localization  
-- Some fixes  
-- tag for a daily cache  
-- Fixed a NYI mount from appearing in the TBC/Classic builds.  
-- Demonology artifact HQT  
-- Couple coords/adjust  
-- Greater Drums are coming with Phase 4.  
-- TBC Dungeons now properly make use of root and timelines for HQTs.  
-- Moved all legacy Blackrock Spire related quests to Blackrock Spire, as they appear in Classic with respective timeline information.  
-- Missing comma!  
-    Parser will now pause when complaining about missing name/icons for DB files, before continuing in Debug Mode (Debug has lots of spam and causes the message to be missed)  
-- Updated LBRS with timeline data.  
-- correct bonusid maybe? need parser tho pvp upgrade  
-- -- Unsorted SL sorted completed  
-- Moved "Upper Blackrock Spire - Original" into the Blackrock Spire file and added timeline data.  
-- Updated Scarlet Monastery.  
-- More Mount stuff and various errors (HQTs and Confirmed quests)  
-- Some duplicate questID clean up on Items  
-- Revised/improved the Parser logic which determines duplicate field uses so that it can support other Types with minimal effort in the future  
-    The Parser now informs me that there are now far more questID duplications than I had previously seen... ThisIsFine.jpg  
-- Further duplicate quest clean up  
-- Scarlet Halls (Heroic and Normal) has been moved to Classic Dungeons & Raids and cleaned up a bit.  
-- Updated the classic coordinates for Stratholme.  
-- Quick clean up of a few more duplicated quests  
-- Couple ZM adjustments  
-    Commented a bunch of debug info statements  
-- TBC mount update  
-- maybe pvp elite ID fix. prolly not  
-- Parser fix for not properly merging 0-value fields in some situations (This led to Items with SpellID's tied to Professions being considered as Recipes when they are not)  
-    Don't need to report unused fields for Items specifically, since in many cases the field is used for a certain Source of the Item but not necessary in the global Item data  
-- Some Darkshore fixes: (#951)  
-    Timely Arrival: added coörds  
-    A Love Eternal: "Need to finish A Cure In The Dark" too  
-- Finished updating Stratholme.  
+- Various Errors  
+    Conduits in the raid,  
+    and NYI  
+- Greatly improved the Tom Tom Waypoint implementation.  
+- Couple ZM achievement listing improvements from completing them personally  
+- Big update regrading mounts  
+- Fixed repeated Object listings to work with modified waypoint-plotting logic  
+    Repeated Objects will now show their cumulative, nested, unsaved coordinates in the root-Object tooltip (i.e. Argus Treasures, etc.)  
+    Tooltips will now only show up to 10 Coordinates with a note of how many additional coordinates exist  
+- Cleaned up the TomTomWaypoint functionality.  
+- Whooops! I left my debug code in for the holiday settings.  
+- All of the Holidays now automatically activate the base seasonal filters for their respective holiday.  
+- All holidays now make use of the Holidays root.  
+- Fixed a weird caching issue with the new autoresolver. (see the difference on "To Honor One's Elders")  
+- Updated Lunar Festival. (Particularly with how the elders achievements work!)  
+    Achievements now autoresolve their symbolic links OnUpdate, should they have one.  
+    Symbolic Links are now cached on the object whose symbolic link was resolved.  
+- Various #errors  
+- Fixed popout windows not inheriting current Minilist scale when created  
+- Parser now complains about badly-formatted coord/coords data  
+    Fixed all the badly-formatted coords data  
+- Some data adjustments to appease Parser complaints  
+- Few more Parser adjustments:  
+    * Remove invalid FilterID values when validating the data  
+    * Cleaned up 'timeline' logic ('removed' items should no longer become unsorted? maybe?)  
+    * Accidentally removed all Shadowlands Outdoor Zones content, but put it all back because I know how upset everyone would have been  
+    * Instances which are Raids will now show as Raids everywhere they are referenced (i.e. in NYI headers as well)  
+- NYI sorting  
+- Various errors  
+- Updated single quoted fields to double quotes.  
+    Lunar Festival to one file.  
+- The Stranglethorn Fishing Extravaganza file is now the source of truth for classic.  
+- Found an odd issue in the Parser where a specific version of an Item could overwrite a valid filter value with an invalid filter value, leading to the in-game reference of that Item not matching the filters for anyone, requiring Account or Debug modes to be considered collectible (There were apparently 3779 Things tagged with an invalid filter previously)  
+- Some unsorted stuff and start of conduits in Sofo  
+- Added item information for Formula: Enchant Ring - Stats.  
+- Added Item Data for the Greater Drum patterns.  
+- Updated "To Hellfire And Back" to also reference the HFC dungeon quests.  
+- Reworked Trial of Style to use costs  
+- Couple more coords for sphere items  
+- Outland Outdoor Zones now use root so they can be embedded in the reference file without losing data.  
+- Merged Shattrath City with the TBC Classic version.  
+- Merged Hellfire Peninsula with the TBC Classic version.  
+- Merged Netherstorm with the TBC Classic version.  
+- Merged Blade's Edge Mountains with the TBC Classic version.  
+- Merged Nagrand with the TBC Classic version.  
+- Merged Terokkar Forest with the TBC Classic version.  
+- Merged Zangarmarsh with the TBC Classic version of Zangarmarsh.  
+- Added timeline data for 'An Awfully Big Pain in my As-dventure' to prevent it from appearing in the addon before it should.  
+- Outland has had its subzones merged into singular files for easier comparisons between classic and retail database structures. (data merge incoming)  
+- Added the northrend vendor mount achievements.  
+- Added the exploration achievements for azuremyst isle and bloodmyst isle.  
+- Couple #errors  
+- Added the exploration achievements for ghostlands and eversong woods.  
+- Added some missing classic dungeon reputation achievements.  
+- Added The Violet Eye and The Scale of the Sands Achievements to their respective raids.  
+- Added the remaining shadowmoon valley achievements.  
+- Added Explore Shadowmoon Valley for TBC Classic.  
+- Converted all remaining simple achievement handlers to use the common ones instead.  
+- Added the ALL\_SOURCE\_QUESTS and ANY\_SOURCE\_QUESTS achievement handlers.  
+- Added the ALL\_ITEM\_PROVIDERS common achievement handler.  
+- Added the ANY\_ITEM\_PROVIDER common achievement handler.  
+- The battleground rep achievements now use common achievement handlers.  
+- Fixed the phase requirements for Primal Nether.  
+- Fixed race filter for Meats to Orgrimmar  

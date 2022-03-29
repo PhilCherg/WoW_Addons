@@ -1,0 +1,8 @@
+## Interface: 90200
+## Title: |cffEEE4AEPremade Sort|r
+## Author: Yuyuli
+## Version: 1.2.10
+## Notes: |cff58C6FASort LFG list by creation time.|r
+## SavedVariables: PremadeSortDB
+
+PremadeSort.lua
