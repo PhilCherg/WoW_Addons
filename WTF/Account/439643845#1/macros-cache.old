@@ -1,7 +1,3 @@
-VER 3 0000000000000010 "AAP_MACRO" "INV_MISC_QUESTIONMARK"
-/tar diso
-/script SetRaidTarget("target", 2);
-END
 VER 3 000000000000002B "Achiev" "1416161"
 /tar Ghostly Contender
 /challenge
@@ -19,13 +15,6 @@ END
 VER 3 000000000000001F "Bow" "136172"
 /bow
 END
-VER 3 0000000000000038 "Burning Rush" "237513"
-n
-END
-VER 3 000000000000004E "CataclysmCursor" "409545"
-#showtooltip Cataclysm
-/cast [@cursor] Cataclysm
-END
 VER 3 0000000000000019 "Chain Heal" "136042"
 #showtooltip Chain Heal
 /use [@mouseover, exists] Chain Heal
@@ -42,14 +31,6 @@ VER 3 0000000000000042 "CovSignature" "INV_MISC_QUESTIONMARK"
 /cast Summon Steward
 /run local G=GetSpellInfo SetMacroSpell(GetRunningMacro(), G"Door of Shadows" or G"Soulshape" or G"Fleshcraft"or G"Summon Steward")
 END
-VER 3 0000000000000043 "CovWarlock" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast Impending Catastrophe
-/cast Decimating Bolt
-/cast Soul Rot
-/cast Scouring Tithe
-/run local G=GetSpellInfo SetMacroSpell(GetRunningMacro(), G"Impending Catastrophe" or G"Decimating Bolt" or G"Soul Rot"or G"Scouring Tithe")
-END
 VER 3 000000000000002A "CraftBracers" "135973"
 /run PickupSpell(309181)
 END
@@ -63,16 +44,6 @@ VER 3 0000000000000029 "Disenchant" "135952"
 END
 VER 3 000000000000003B "Eye" "136135"
 /run local t,c="Saltsea Globule",0 for i=1,10000 do local p=C_NamePlate.GetNamePlateForUnit("nameplate"..i) if p and p:IsVisible() and p:GetChildren():GetRegions():GetText()==t then c=c+1 end end print(t,":",c)
-END
-VER 3 000000000000004B "FastFelhunter" "136217"
-#showtooltip Summon Felhunter
-/cast Fel Domination
-/cast Summon Felhunter
-END
-VER 3 000000000000004A "FastVoidwalker" "136221"
-#showtooltip Summon Voidwalker
-/cast Fel Domination
-/cast Summon Voidwalker
 END
 VER 3 0000000000000049 "Fear Worm" "136183"
 #showtooltip Fear
@@ -112,10 +83,6 @@ VER 3 000000000000001B "Healing Wave" "136043"
 #showtooltip Healing Wave
 /use [@mouseover, exists] Healing Wave
 END
-VER 3 000000000000004F "InfernalCursor" "136219"
-#showtooltip Summon Infernal
-/cast [@cursor] Summon Infernal
-END
 VER 3 0000000000000036 "Kill" "136217"
 /tar Siorin
 /cast Incinerate
@@ -123,11 +90,11 @@ END
 VER 3 0000000000000021 "KIss" "136217"
 /kneel
 END
-VER 3 0000000000000041 "Kneel" "INV_MISC_QUESTIONMARK"
-END
 VER 3 0000000000000028 "Kneel" "236291"
 /tar Queen
 /kneel
+END
+VER 3 0000000000000041 "Kneel" "INV_MISC_QUESTIONMARK"
 END
 VER 3 000000000000004C "MountAutoTag" "1033183"
 /tar Arachnoid Harvester
@@ -147,10 +114,6 @@ END
 VER 3 000000000000002F "PvP Trinket DS" "135473"
 /use Sinful Gladiator's Badge of Ferocity
 /use Dark Soul: Instabilityaw
-END
-VER 3 000000000000004D "RainOfFireCursor" "136186"
-#showtooltip Rain of Fire
-/cast [@cursor] Rain of Fire
 END
 VER 3 0000000000000018 "Riptide" "252995"
 #showtooltip Riptide
@@ -184,11 +147,6 @@ VER 3 000000000000003A "SylvanasPrioHC" "136103"
 /tar [dead][noexists] Mawforged Goliath
 /tar [dead][noexists] Sylvanas Windrunner
 /targetlasttarget [noexists]
-END
-VER 3 000000000000002E "TaintSingularity" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [talent:4/2] Phantom Singularity
-/cast [talent:4/3] Vile Taint
 END
 VER 3 0000000000000022 "Tar Horse" "136103"
 /target Paper

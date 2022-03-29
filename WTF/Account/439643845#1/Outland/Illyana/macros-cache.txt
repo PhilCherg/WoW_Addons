@@ -1,0 +1,7 @@
+VER 3 0100000000000001 "CovDH" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Elysian Decree
+/cast Sinful Brand
+/cast The Hunt
+/run local G=GetSpellInfo SetMacroSpell(GetRunningMacro(), G"Elysian Decree" or G"Sinful Brand" or G"The Hunt")
+END

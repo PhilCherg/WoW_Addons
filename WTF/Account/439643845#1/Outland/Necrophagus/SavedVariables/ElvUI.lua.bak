@@ -2,996 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"593", -- [1]
-			"Valsheres-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3600, -- [11]
-			"Player-1301-0C26735A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edValsheres|r",
-			[51] = 1648485984,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [1]
-		{
-			"i bid 560 im out", -- [1]
-			"Iskoldgnom-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3601, -- [11]
-			"Player-1301-0C214462", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaIskoldgnom|r",
-			[51] = 1648485989,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [2]
-		{
-			"xD", -- [1]
-			"Bommel-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3602, -- [11]
-			"Player-1301-0C049FB7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1648485997,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [3]
-		{
-			"not even worth 400", -- [1]
-			"Iskoldgnom-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3603, -- [11]
-			"Player-1301-0C214462", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaIskoldgnom|r",
-			[51] = 1648486004,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [4]
-		{
-			"it's just my childhood nightmare, that i wasnt able to log when the raid was up xD", -- [1]
-			"Bommel-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3606, -- [11]
-			"Player-1301-0C049FB7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1648486036,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [5]
-		{
-			"mom's pc didnt go through loadscreen xD and iw as like GOOOOOOO", -- [1]
-			"Bommel-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3608, -- [11]
-			"Player-1301-0C049FB7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1648486063,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [6]
-		{
-			"already have it |cff71d5ff|Hspell:170347:0|h[Core Hound]|h|r don't think you can get it now though", -- [1]
-			"Jithalis-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3609, -- [11]
-			"Player-1301-0C189668", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Jithalis|r",
-			[51] = 1648486063,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [7]
-		{
-			"only in black market auction you can yeah", -- [1]
-			"Bommel-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3610, -- [11]
-			"Player-1301-0C049FB7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1648486083,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [8]
-		{
-			"fat dog who doesnt fit anywhere", -- [1]
-			"Psychocat-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3611, -- [11]
-			"Player-1301-08AD87F4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Psychocat|r",
-			[51] = 1648486096,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [9]
-		{
-			"fit's right in my mountbook xD", -- [1]
-			"Bommel-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3612, -- [11]
-			"Player-1301-0C049FB7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1648486182,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [10]
-		{
-			"Luxury problems", -- [1]
-			"Psychocat-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3614, -- [11]
-			"Player-1301-08AD87F4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Psychocat|r",
-			[51] = 1648486194,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [11]
-		{
-			"guess you're collecting mounts Bommel", -- [1]
-			"Jithalis-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3617, -- [11]
-			"Player-1301-0C189668", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Jithalis|r",
-			[51] = 1648486248,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [12]
-		{
-			"stuck at 593", -- [1]
-			"Valsheres-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3619, -- [11]
-			"Player-1301-0C26735A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edValsheres|r",
-			[51] = 1648486255,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [13]
-		{
-			"459 here working on more though", -- [1]
-			"Jithalis-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3620, -- [11]
-			"Player-1301-0C189668", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Jithalis|r",
-			[51] = 1648486286,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [14]
-		{
-			"how do you get that much gad demmit", -- [1]
-			"Karamfilchi-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3621, -- [11]
-			"Player-1301-0BDA0C82", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Karamfilchi|r",
-			[51] = 1648486303,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [15]
-		{
-			"yeah i wanna het to 600 ", -- [1]
-			"Bommel-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3622, -- [11]
-			"Player-1301-0C049FB7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1648486321,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [16]
-		{
-			"only hit 300 achiev today xD", -- [1]
-			"Bommel-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3623, -- [11]
-			"Player-1301-0C049FB7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1648486327,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [17]
-		{
-			"same but to hit 600 u need to grind all reps", -- [1]
-			"Karamfilchi-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3625, -- [11]
-			"Player-1301-0BDA0C82", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Karamfilchi|r",
-			[51] = 1648486347,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [18]
-		{
-			"i even boiught  2 tokens on m yold horde char", -- [1]
-			"Bommel-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3627, -- [11]
-			"Player-1301-0C049FB7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1648486360,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [19]
-		{
-			"to buy |cff71d5ff|Hspell:239013:0|h[Lightforged Warframe]|h|r", -- [1]
-			"Bommel-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3629, -- [11]
-			"Player-1301-0C049FB7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1648486370,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [20]
-		{
-			"Shifting Stargorger (100%) |cffffff00|Hworldmap:1970:4230:2100|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Shredlölqt-Outland", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Shredlölqt-Outland", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			3630, -- [11]
-			"Player-1301-0BA6B1F0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Shredlölqt|r",
-			[51] = 1648486376,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
-		{
-			"Zereth Mortis find the schemics already have 3 mounts  from there", -- [1]
-			"Jithalis-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3631, -- [11]
-			"Player-1301-0C189668", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Jithalis|r",
-			[51] = 1648486395,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [22]
-		{
-			"In next xpac, we will have 40 currencies just for 10.0", -- [1]
-			"Séphirá-Outland", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Séphirá-Outland", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			3632, -- [11]
-			"Player-1301-0345B9A4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edSéphirá|r",
-			[51] = 1648486395,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
-		{
-			"<RTC> Protector of the First Ones (100%) seen at |cffffff00|Hworldmap:1970:3887:2762|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Rennela-Dragonblight", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Rennela-Dragonblight", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			3634, -- [11]
-			"Player-1596-0E2DCD33", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Rennela-Dragonblight|r",
-			[51] = 1648486412,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
-		{
-			"ye but no schematics drop for me ", -- [1]
-			"Karamfilchi-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3635, -- [11]
-			"Player-1301-0BDA0C82", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Karamfilchi|r",
-			[51] = 1648486417,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [25]
-		{
-			"<RTC> Protector of the First Ones (100%) seen at |cffffff00|Hworldmap:1970:3887:2762|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Zifir-Frostmane", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Zifir-Frostmane", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			3636, -- [11]
-			"Player-1303-0B6745B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Zifir-Frostmane|r",
-			[51] = 1648486419,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
-		{
-			"i have some chematics but gotta get genesis mote stuff", -- [1]
-			"Bommel-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3637, -- [11]
-			"Player-1301-0C049FB7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1648486445,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [27]
-		{
-			"they are 100% drop rate, arent they?", -- [1]
-			"Messwme-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3638, -- [11]
-			"Player-1301-04D2D437", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edMesswme|r",
-			[51] = 1648486445,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [28]
-		{
-			"most of them you need pick from places", -- [1]
-			"Valsheres-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3639, -- [11]
-			"Player-1301-0C26735A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edValsheres|r",
-			[51] = 1648486449,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [29]
-		{
-			"+", -- [1]
-			"Psychocat-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3641, -- [11]
-			"Player-1301-08AD87F4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Psychocat|r",
-			[51] = 1648486454,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [30]
-		{
-			"you have to find them i have found 11 so far", -- [1]
-			"Jithalis-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3642, -- [11]
-			"Player-1301-0C189668", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Jithalis|r",
-			[51] = 1648486466,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [31]
-		{
-			"<RTC> Protector of the First Ones has died", -- [1]
-			"Rennela-Dragonblight", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Rennela-Dragonblight", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			3643, -- [11]
-			"Player-1596-0E2DCD33", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Rennela-Dragonblight|r",
-			[51] = 1648486468,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
-		{
-			"I got renown 80 with Necrolords. Working on night fae now, but I am not max renown or done with the story line. Will I loose all progress with night fae if I swap back to necro before getting renown 80?", -- [1]
-			"Miketysem-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3645, -- [11]
-			"Player-1301-05EB1510", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Miketysem|r",
-			[51] = 1648486477,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [33]
-		{
-			"got them on map lol", -- [1]
-			"Valsheres-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3646, -- [11]
-			"Player-1301-0C26735A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edValsheres|r",
-			[51] = 1648486487,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [34]
-		{
-			"no", -- [1]
-			"Messwme-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3648, -- [11]
-			"Player-1301-04D2D437", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edMesswme|r",
-			[51] = 1648486501,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [35]
-		{
-			"RAID INVITES FOR ORANGE TEAM IS STARTING WHISP ME 123 ", -- [1]
-			"Tuàh-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3649, -- [11]
-			"Player-1301-0A147CFC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Tuàh|r",
-			[51] = 1648486505,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [36]
-		{
-			"u can swap freely", -- [1]
-			"Messwme-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3650, -- [11]
-			"Player-1301-04D2D437", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edMesswme|r",
-			[51] = 1648486510,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [37]
-		{
-			"Ok thanks", -- [1]
-			"Miketysem-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3652, -- [11]
-			"Player-1301-05EB1510", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Miketysem|r",
-			[51] = 1648486526,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [38]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14283:Player-1301-0C267EFF:1:3:28:22:4294967295:4294967295:4294967295:4294967295|h[Heroic Edition: Ensorcelled Everwyrm]|h|r!", -- [1]
-			"Wariorh-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Wariorh-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3655, -- [11]
-			"Player-1301-0C267EFF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Wariorh|r",
-			[51] = 1648486591,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [39]
-		{
-			"anyone still have a view on the bmah? xD", -- [1]
-			"Bommel-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3660, -- [11]
-			"Player-1301-0C049FB7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1648486688,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [40]
-		{
-			"i have a view on dat ass", -- [1]
-			"Brucebrews-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3662, -- [11]
-			"Player-1301-0C02C264", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Brucebrews|r",
-			[51] = 1648486702,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [41]
-		{
-			"xD", -- [1]
-			"Bommel-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3663, -- [11]
-			"Player-1301-0C049FB7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1648486708,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [42]
-		{
-			"its done at 593k", -- [1]
-			"Tuàh-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3665, -- [11]
-			"Player-1301-0A147CFC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Tuàh|r",
-			[51] = 1648486715,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [43]
-		{
-			"i have no shame", -- [1]
-			"Brucebrews-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3666, -- [11]
-			"Player-1301-0C02C264", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Brucebrews|r",
-			[51] = 1648486717,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [44]
-		{
-			"ooof ", -- [1]
-			"Bommel-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3671, -- [11]
-			"Player-1301-0C049FB7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1648486772,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [45]
-		{
 			"my fiance shouted at me like shouldnt have bought the mount yesterday for 270k xD", -- [1]
 			"Bommel-Outland", -- [2]
 			"", -- [3]
@@ -1012,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648486789,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [46]
+		}, -- [1]
 		{
 			"XD", -- [1]
 			"Maaiiky-Outland", -- [2]
@@ -1034,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edMaaiiky|r",
 			[51] = 1648486796,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [47]
+		}, -- [2]
 		{
 			"no ragrets", -- [1]
 			"Bommel-Outland", -- [2]
@@ -1056,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648486797,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [48]
+		}, -- [3]
 		{
 			"she knows all", -- [1]
 			"Brucebrews-Outland", -- [2]
@@ -1078,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brucebrews|r",
 			[51] = 1648483227,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [49]
+		}, -- [4]
 		{
 			"you ought to listen to her more ", -- [1]
 			"Brucebrews-Outland", -- [2]
@@ -1100,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brucebrews|r",
 			[51] = 1648483234,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [50]
+		}, -- [5]
 		{
 			"egh well ", -- [1]
 			"Bommel-Outland", -- [2]
@@ -1122,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648483243,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [51]
+		}, -- [6]
 		{
 			"another day another bmah sale xD", -- [1]
 			"Bommel-Outland", -- [2]
@@ -1144,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648483249,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [52]
+		}, -- [7]
 		{
 			"had 2 afk some B- what mount did U move?", -- [1]
 			"Iongclaw-Outland", -- [2]
@@ -1166,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Iongclaw|r",
 			[51] = 1648487076,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [53]
+		}, -- [8]
 		{
 			"didnt get is ling", -- [1]
 			"Bommel-Outland", -- [2]
@@ -1188,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648487115,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [54]
+		}, -- [9]
 		{
 			"sold for 593k ", -- [1]
 			"Bommel-Outland", -- [2]
@@ -1210,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648487124,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [55]
+		}, -- [10]
 		{
 			"just a bit out of mah pocket xD", -- [1]
 			"Bommel-Outland", -- [2]
@@ -1232,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648487133,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [56]
+		}, -- [11]
 		{
 			"ahh IC now - sry 2 hear friendo", -- [1]
 			"Iongclaw-Outland", -- [2]
@@ -1254,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Iongclaw|r",
 			[51] = 1648487136,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [57]
+		}, -- [12]
 		{
 			"saul goodman ", -- [1]
 			"Bommel-Outland", -- [2]
@@ -1276,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648487143,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [58]
+		}, -- [13]
 		{
 			"another day another bmah sale", -- [1]
 			"Bommel-Outland", -- [2]
@@ -1298,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648487149,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [59]
+		}, -- [14]
 		{
 			"I thought U got for 275 and flipped for 577", -- [1]
 			"Iongclaw-Outland", -- [2]
@@ -1320,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Iongclaw|r",
 			[51] = 1648487151,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [60]
+		}, -- [15]
 		{
 			"nah ", -- [1]
 			"Bommel-Outland", -- [2]
@@ -1342,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648487157,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [61]
+		}, -- [16]
 		{
 			"dont think you can resale bmah items? ", -- [1]
 			"Bommel-Outland", -- [2]
@@ -1364,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648487171,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [62]
+		}, -- [17]
 		{
 			"as it goes bound on pick up i think", -- [1]
 			"Bommel-Outland", -- [2]
@@ -1386,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648487183,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [63]
+		}, -- [18]
 		{
 			"patrick ?", -- [1]
 			"Tuàh-Outland", -- [2]
@@ -1408,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Tuàh|r",
 			[51] = 1648487208,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [64]
+		}, -- [19]
 		{
 			"Dont see him on yet Tuah", -- [1]
 			"Trimagia-Outland", -- [2]
@@ -1430,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaTrimagia|r",
 			[51] = 1648487225,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [65]
+		}, -- [20]
 		{
 			"I dont think you'll want my pally, I do less healing as holy than as prot xD", -- [1]
 			"Trimagia-Outland", -- [2]
@@ -1452,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaTrimagia|r",
 			[51] = 1648487249,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [66]
+		}, -- [21]
 		{
 			"no he was before and said he could heal thats why ", -- [1]
 			"Tuàh-Outland", -- [2]
@@ -1474,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Tuàh|r",
 			[51] = 1648487251,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [67]
+		}, -- [22]
 		{
 			"Might've popped out to eat right, though he said he might be a fw mins late in discord", -- [1]
 			"Trimagia-Outland", -- [2]
@@ -1496,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaTrimagia|r",
 			[51] = 1648487274,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [68]
+		}, -- [23]
 		{
 			"sry B had 2 get up again- U might very well be right", -- [1]
 			"Iongclaw-Outland", -- [2]
@@ -1518,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Iongclaw|r",
 			[51] = 1648487294,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [69]
+		}, -- [24]
 		{
 			"Ive never BMAHed anything", -- [1]
 			"Iongclaw-Outland", -- [2]
@@ -1540,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Iongclaw|r",
 			[51] = 1648487317,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [70]
+		}, -- [25]
 		{
 			"i could be wrong but anyhting i buy there i'd deffo keep xD", -- [1]
 			"Bommel-Outland", -- [2]
@@ -1562,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648487330,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [71]
+		}, -- [26]
 		{
 			"i wanna get the tabards", -- [1]
 			"Bommel-Outland", -- [2]
@@ -1584,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648487335,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [72]
+		}, -- [27]
 		{
 			" : )", -- [1]
 			"Iongclaw-Outland", -- [2]
@@ -1606,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Iongclaw|r",
 			[51] = 1648487337,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [73]
+		}, -- [28]
 		{
 			"is a guide 4 it on wowhead Ive gone through when was on the hunter and I seem 2 recall that a FR I got from UR neck of the woods actually  : ) was telling me there is a small trick or smthg about it", -- [1]
 			"Iongclaw-Outland", -- [2]
@@ -1628,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Iongclaw|r",
 			[51] = 1648487384,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [74]
+		}, -- [29]
 		{
 			"if on a low pop realm ", -- [1]
 			"Iongclaw-Outland", -- [2]
@@ -1650,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Iongclaw|r",
 			[51] = 1648487395,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [75]
+		}, -- [30]
 		{
 			"might be fewer bids", -- [1]
 			"Iongclaw-Outland", -- [2]
@@ -1672,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Iongclaw|r",
 			[51] = 1648487400,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [76]
+		}, -- [31]
 		{
 			"smthg like that ", -- [1]
 			"Iongclaw-Outland", -- [2]
@@ -1694,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Iongclaw|r",
 			[51] = 1648487401,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [77]
+		}, -- [32]
 		{
 			"but was awhile ago so might not even be ingame anymore", -- [1]
 			"Iongclaw-Outland", -- [2]
@@ -1716,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Iongclaw|r",
 			[51] = 1648487415,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [78]
+		}, -- [33]
 		{
 			"think with the server merges might still be going high but yeha i can deffo have look on low servers ", -- [1]
 			"Bommel-Outland", -- [2]
@@ -1738,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648487459,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [79]
+		}, -- [34]
 		{
 			"uff my bad brother", -- [1]
 			"Iongrifle-Outland", -- [2]
@@ -1760,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Iongrifle|r",
 			[51] = 1648487477,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [80]
+		}, -- [35]
 		{
 			"I didnt realise U lot in raid", -- [1]
 			"Iongrifle-Outland", -- [2]
@@ -1782,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Iongrifle|r",
 			[51] = 1648487482,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [81]
+		}, -- [36]
 		{
 			"sry 4 bothering U and gl fighting", -- [1]
 			"Iongrifle-Outland", -- [2]
@@ -1804,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Iongrifle|r",
 			[51] = 1648487491,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [82]
+		}, -- [37]
 		{
 			"we aint started yet so all good <3 xD", -- [1]
 			"Bommel-Outland", -- [2]
@@ -1826,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648487503,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [83]
+		}, -- [38]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12515:Player-1301-0C267EFF:1:3:28:22:4294967295:4294967295:4294967295:4294967295|h[Allied Races: Dark Iron Dwarf]|h|r!", -- [1]
 			"Wariorh-Outland", -- [2]
@@ -1848,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Wariorh|r",
 			[51] = 1648487509,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [84]
+		}, -- [39]
 		{
 			" : ))", -- [1]
 			"Iongrifle-Outland", -- [2]
@@ -1870,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Iongrifle|r",
 			[51] = 1648487509,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [85]
+		}, -- [40]
 		{
 			"<RTC> Furidian (100%) seen at |cffffff00|Hworldmap:1970:6450:5861|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Rennela-Dragonblight", -- [2]
@@ -1892,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rennela-Dragonblight|r",
 			[51] = 1648487521,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [41]
 		{
 			"is how the top top guilds R I hear- 1st chill shoot the shit some and then clear raid mythic in 12-13 min : )))", -- [1]
 			"Iongrifle-Outland", -- [2]
@@ -1914,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Iongrifle|r",
 			[51] = 1648487545,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [87]
+		}, -- [42]
 		{
 			"yes we are a little late today ", -- [1]
 			"Tuàh-Outland", -- [2]
@@ -1936,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Tuàh|r",
 			[51] = 1648487550,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [88]
+		}, -- [43]
 		{
 			"ooh I didnt C U there Tu- all the fashionable folks in team  : ))", -- [1]
 			"Iongrifle-Outland", -- [2]
@@ -1958,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Iongrifle|r",
 			[51] = 1648487575,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [89]
+		}, -- [44]
 		{
 			"<RTC> Furidian has died", -- [1]
 			"Rennela-Dragonblight", -- [2]
@@ -1980,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rennela-Dragonblight|r",
 			[51] = 1648487576,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [45]
 		{
 			"what U targeting outa raid friendo- set??", -- [1]
 			"Iongrifle-Outland", -- [2]
@@ -2002,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Iongrifle|r",
 			[51] = 1648487588,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [91]
+		}, -- [46]
 		{
 			"heyas long ", -- [1]
 			"Tuàh-Outland", -- [2]
@@ -2024,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Tuàh|r",
 			[51] = 1648487603,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [92]
+		}, -- [47]
 		{
 			" : )", -- [1]
 			"Iongrifle-Outland", -- [2]
@@ -2046,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Iongrifle|r",
 			[51] = 1648487610,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [93]
+		}, -- [48]
 		{
 			"true true B 5M mos def", -- [1]
 			"Iongclaw-Outland", -- [2]
@@ -2068,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Iongclaw|r",
 			[51] = 1648487731,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [94]
+		}, -- [49]
 		{
 			"lemme google hound U said", -- [1]
 			"Iongclaw-Outland", -- [2]
@@ -2090,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Iongclaw|r",
 			[51] = 1648487735,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [95]
+		}, -- [50]
 		{
 			"yeah it sold for 596 today ", -- [1]
 			"Bommel-Outland", -- [2]
@@ -2112,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648487752,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [96]
+		}, -- [51]
 		{
 			"wait there's 2 long's? ", -- [1]
 			"Bommel-Outland", -- [2]
@@ -2134,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648487759,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [97]
+		}, -- [52]
 		{
 			"well could be worse |cffa335ee|Hitem:189834::::::::60:267::3:4:7189:6652:1498:6646:1:28:2060:::::|h[Guardstaff of the Great Cycle]|h|r", -- [1]
 			"Messwme-Outland", -- [2]
@@ -2156,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edMesswme|r",
 			[51] = 1648487780,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [98]
+		}, -- [53]
 		{
 			" :)))))", -- [1]
 			"Iongclaw-Outland", -- [2]
@@ -2178,29 +1188,1019 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Iongclaw|r",
 			[51] = 1648487794,
 			[50] = "CHAT_MSG_GUILD",
+		}, -- [54]
+		{
+			"ummm |cff1eff00|Hitem:173204::::::::60:268:::::::::|h[Lightless Silk]|h|r each for 1k?", -- [1]
+			"Jashinsama-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			812, -- [11]
+			"Player-1301-0BD39C09", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Jashinsama|r",
+			[51] = 1648502170,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [55]
+		{
+			"what the hell?", -- [1]
+			"Jashinsama-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			813, -- [11]
+			"Player-1301-0BD39C09", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Jashinsama|r",
+			[51] = 1648502175,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [56]
+		{
+			"Worth ", -- [1]
+			"Nóxùs-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			815, -- [11]
+			"Player-1301-085463D8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcNóxùs|r",
+			[51] = 1648502181,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [57]
+		{
+			"Protector of the First Ones |cffffff00|Hworldmap:1970:3887:2762|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Healingtree-Outland", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Healingtree-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			816, -- [11]
+			"Player-1301-0BE887DB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Healingtree|r",
+			[51] = 1648502188,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [58]
+		{
+			"Shifting Stargorger |cffffff00|Hworldmap:1970:4230:2099|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Healingtree-Outland", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Healingtree-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			817, -- [11]
+			"Player-1301-0BE887DB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Healingtree|r",
+			[51] = 1648502188,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [59]
+		{
+			"somone reset lol", -- [1]
+			"Telchino-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			818, -- [11]
+			"Player-1301-0824E18F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaTelchino|r",
+			[51] = 1648502188,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [60]
+		{
+			"Feasting Up |cffffff00|Hworldmap:1970:6232:6017|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			7, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1648529639,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [61]
+		{
+			"euvóuk and thkwitz up", -- [1]
+			"Zaarh-Outland", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Zaarh-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			82, -- [11]
+			"Player-1301-08B320CA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Zaarh|r",
+			[51] = 1648531084,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [62]
+		{
+			"gz :)", -- [1]
+			"Saaril-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			88, -- [11]
+			"Player-1301-0C0ACF0C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Saaril|r",
+			[51] = 1648531275,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [63]
+		{
+			"feasting up |cffffff00|Hworldmap:1970:6169:6047|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Zaarh-Outland", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Zaarh-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			146, -- [11]
+			"Player-1301-08B320CA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Zaarh|r",
+			[51] = 1648531801,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [64]
+		{
+			"No daily quests today?", -- [1]
+			"Grudgês-Outland", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Grudgês-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			236, -- [11]
+			"Player-1301-08DB4211", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Grudgês|r",
+			[51] = 1648532820,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [65]
+		{
+			"I had some", -- [1]
+			"Qïx-Outland", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Qïx-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			237, -- [11]
+			"Player-1301-0C1B420F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Qïx|r",
+			[51] = 1648532832,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [66]
+		{
+			"i think the reset is isn 13 mins", -- [1]
+			"Beiwe-Outland", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Beiwe-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			238, -- [11]
+			"Player-1301-0BC4F0F4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeBeiwe|r",
+			[51] = 1648532843,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [67]
+		{
+			"9 am ", -- [1]
+			"Cohnw-Outland", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Cohnw-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			239, -- [11]
+			"Player-1301-0C2A1537", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edCohnw|r",
+			[51] = 1648532850,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [68]
+		{
+			"ohhh", -- [1]
+			"Grudgês-Outland", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Grudgês-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			240, -- [11]
+			"Player-1301-08DB4211", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Grudgês|r",
+			[51] = 1648532876,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [69]
+		{
+			"lol", -- [1]
+			"Grudgês-Outland", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Grudgês-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			241, -- [11]
+			"Player-1301-08DB4211", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Grudgês|r",
+			[51] = 1648532877,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [70]
+		{
+			"|cffffff00|Hworldmap:1970:5844:6779|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r Helmix 100%", -- [1]
+			"Oscha-Outland", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Oscha-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			331, -- [11]
+			"Player-1301-07C6262D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cOscha|r",
+			[51] = 1648534055,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [71]
+		{
+			"Guardian 4 set getting nerfed before I get it. REEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE", -- [1]
+			"Teldrae-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			438, -- [11]
+			"Player-1301-0742687A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Teldrae|r",
+			[51] = 1648534499,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [72]
+		{
+			"Blizzard really can't let druids have nice things ._.", -- [1]
+			"Teldrae-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			445, -- [11]
+			"Player-1301-0742687A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Teldrae|r",
+			[51] = 1648534543,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [73]
+		{
+			"oookaaay x", -- [1]
+			"Bommel-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			446, -- [11]
+			"Player-1301-0C049FB7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1648534544,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [74]
+		{
+			"how did u know?", -- [1]
+			"Divill-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			462, -- [11]
+			"Player-1301-0C21A867", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edDivill|r",
+			[51] = 1648534564,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [75]
+		{
+			"In this week's patch notes :[", -- [1]
+			"Teldrae-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			463, -- [11]
+			"Player-1301-0742687A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Teldrae|r",
+			[51] = 1648534589,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [76]
+		{
+			"oh", -- [1]
+			"Divill-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			464, -- [11]
+			"Player-1301-0C21A867", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edDivill|r",
+			[51] = 1648534599,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [77]
+		{
+			"Okay I can confirm the WQ rewards don't look at your item its 100% random", -- [1]
+			"Lolhun-Outland", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Lolhun-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			517, -- [11]
+			"Player-1301-06F0CB36", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Lolhun|r",
+			[51] = 1648535292,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [78]
+		{
+			"Helmix up", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			531, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1648535427,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [79]
+		{
+			"Orixal 100.00% ~(55.37, 68.74) |cffffff00|Hworldmap:1970:5536:6874|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Wakandariano-Outland", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Wakandariano-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			533, -- [11]
+			"Player-1301-0C24FBB6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Wakandariano|r",
+			[51] = 1648535444,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [80]
+		{
+			"anyone for antorus mythic? ", -- [1]
+			"Bommel-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			554, -- [11]
+			"Player-1301-0C049FB7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1648535544,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [81]
+		{
+			"60", -- [1]
+			"Meatbawl-Quel'Thalas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Meatbawl-Quel'Thalas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			556, -- [11]
+			"Player-1396-087BBB64", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcMeatbawl-Quel'Thalas|r",
+			[51] = 1648535611,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [82]
+		{
+			"ty", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			570, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1648535678,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [83]
+		{
+			"thanks", -- [1]
+			"Abdíel-Kilrogg", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Abdíel-Kilrogg", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			572, -- [11]
+			"Player-1587-0C8515D4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeAbdíel-Kilrogg|r",
+			[51] = 1648535683,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [84]
+		{
+			"yo omw", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			580, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1648535759,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [85]
+		{
+			"mother up", -- [1]
+			"Chïllï-Outland", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Chïllï-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			601, -- [11]
+			"Player-1301-0B115C8A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Chïllï|r",
+			[51] = 1648535892,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [86]
+		{
+			"morning", -- [1]
+			"Nerdix-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			641, -- [11]
+			"Player-1301-0B280C1F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Nerdix|r",
+			[51] = 1648536012,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [87]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:11543:Player-1301-0C049FB7:1:3:29:22:4294967295:4294967295:4294967295:4294967295|h[Explore Broken Shore]|h|r!", -- [1]
+			"Bommel-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bommel-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			685, -- [11]
+			"Player-1301-0C049FB7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1648536214,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [88]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:10665:Player-1301-0C049FB7:1:3:29:22:4294967295:4294967295:4294967295:4294967295|h[Explore Azsuna]|h|r!", -- [1]
+			"Bommel-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bommel-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			686, -- [11]
+			"Player-1301-0C049FB7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1648536214,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [89]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:10666:Player-1301-0C049FB7:1:3:29:22:4294967295:4294967295:4294967295:4294967295|h[Explore Val'sharah]|h|r!", -- [1]
+			"Bommel-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bommel-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			687, -- [11]
+			"Player-1301-0C049FB7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1648536214,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [90]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:10669:Player-1301-0C049FB7:1:3:29:22:4294967295:4294967295:4294967295:4294967295|h[Explore Suramar]|h|r!", -- [1]
+			"Bommel-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bommel-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			688, -- [11]
+			"Player-1301-0C049FB7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1648536214,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [91]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:10667:Player-1301-0C049FB7:1:3:29:22:4294967295:4294967295:4294967295:4294967295|h[Explore Highmountain]|h|r!", -- [1]
+			"Bommel-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bommel-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			689, -- [11]
+			"Player-1301-0C049FB7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1648536214,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [92]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:10668:Player-1301-0C049FB7:1:3:29:22:4294967295:4294967295:4294967295:4294967295|h[Explore Stormheim]|h|r!", -- [1]
+			"Bommel-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bommel-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			690, -- [11]
+			"Player-1301-0C049FB7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1648536214,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [93]
+		{
+			"|cffffff00|Hworldmap:1970:5939:3999|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r Otaris 100%", -- [1]
+			"Oscha-Outland", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Oscha-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			692, -- [11]
+			"Player-1301-07C6262D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cOscha|r",
+			[51] = 1648536232,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14836:Player-1301-0C0F4D86:1:3:29:22:4294967295:4294967295:4294967295:4294967295|h[Unwavering Bond]|h|r!", -- [1]
+			"Thetruck-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Thetruck-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			987, -- [11]
+			"Player-1301-0C0F4D86", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cThetruck|r",
+			[51] = 1648539732,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [95]
+		{
+			"Or when the robot voice says : You are the first in line, and still need to wait 40 minutes to talk to someone.", -- [1]
+			"Darknight-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			991, -- [11]
+			"Player-1301-0002D0A4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edDarknight|r",
+			[51] = 1648539758,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [96]
+		{
+			"meanwhile i get no calls and just play  wow xD", -- [1]
+			"Bommel-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			992, -- [11]
+			"Player-1301-0C049FB7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1648539773,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [97]
+		{
+			"and then they shout IVE BEEN WAITING FOR 40 MINUTES and i go SO HAVE I", -- [1]
+			"Bommel-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1002, -- [11]
+			"Player-1301-0C049FB7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1648539795,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [98]
+		{
+			":D", -- [1]
+			"Darknight-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1010, -- [11]
+			"Player-1301-0002D0A4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edDarknight|r",
+			[51] = 1648539829,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/s i believe", -- [1]
-		"/s do it", -- [2]
-		"/s eluith you have become the very thing you swore to destroy", -- [3]
-		"/s oof outclicked", -- [4]
-		"/yay", -- [5]
-		"/s dude its a multi dollar company", -- [6]
-		"/s cut them some slack", -- [7]
-		"/s can i get an AH mount?", -- [8]
-		"/s ty :D", -- [9]
-		"/roll", -- [10]
-		"/s ranged can kill all adds", -- [11]
-		"/s melee can kill only close adds", -- [12]
-		"/s ranged > melee", -- [13]
-		"/raid im here", -- [14]
-		"/raid does anyone have a key for the chest btw?", -- [15]
-		"/raid i got hit for 90k by collapsing emptiness", -- [16]
-		"/raid while we were stacked", -- [17]
-		"/raid tf is that xD", -- [18]
-		"/who", -- [19]
-		"/p |cffff80ff|Houtfit:27R27^27J27Z1;N1;O22*27N21P27V21\\&&&&&&&&&&&&&&'&&&|h[|T1598183:13:13:-1:0|tOutfit]|h|r", -- [20]
+		"/s dude its a multi dollar company", -- [1]
+		"/s cut them some slack", -- [2]
+		"/s can i get an AH mount?", -- [3]
+		"/s ty :D", -- [4]
+		"/roll", -- [5]
+		"/s ranged can kill all adds", -- [6]
+		"/s melee can kill only close adds", -- [7]
+		"/s ranged > melee", -- [8]
+		"/raid im here", -- [9]
+		"/raid does anyone have a key for the chest btw?", -- [10]
+		"/raid i got hit for 90k by collapsing emptiness", -- [11]
+		"/raid while we were stacked", -- [12]
+		"/raid tf is that xD", -- [13]
+		"/p |cffff80ff|Houtfit:27R27^27J27Z1;N1;O22*27N21P27V21\\&&&&&&&&&&&&&&'&&&|h[|T1598183:13:13:-1:0|tOutfit]|h|r", -- [14]
+		"/who", -- [15]
+		"/1 Feasting Up |cffffff00|Hworldmap:1970:6232:6017|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [16]
+		"/wave", -- [17]
+		"/1 Helmix up", -- [18]
+		"/p ty", -- [19]
+		"/p yo omw", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }

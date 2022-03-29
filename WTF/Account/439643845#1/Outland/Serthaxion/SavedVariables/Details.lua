@@ -28,13 +28,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 10765.002871,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["total"] = 10765.002871,
 							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Serthaxion",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -104,10 +104,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 0.002871,
+							["last_dps"] = 2845.625924133333,
 							["start_time"] = 1648390539,
 							["delay"] = 0,
-							["last_dps"] = 2845.625924133333,
+							["damage_taken"] = 0.002871,
 						}, -- [1]
 						{
 							["flag_original"] = 2600,
@@ -119,9 +119,10 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["aID"] = "65207",
-							["damage_taken"] = 128.008833,
 							["friendlyfire_total"] = 0,
+							["friendlyfire"] = {
+							},
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.008833,
@@ -129,7 +130,7 @@ _detalhes_database = {
 							["fight_component"] = true,
 							["total"] = 0.008833,
 							["dps_started"] = false,
-							["on_hold"] = false,
+							["damage_taken"] = 128.008833,
 							["nome"] = "Golden Civet Kitten",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -141,11 +142,10 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1648390543,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["aID"] = "65207",
 						}, -- [2]
 						{
 							["flag_original"] = 2600,
@@ -157,9 +157,10 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["aID"] = "65206",
-							["damage_taken"] = 64.003186,
 							["friendlyfire_total"] = 0,
+							["friendlyfire"] = {
+							},
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.003186,
@@ -167,7 +168,7 @@ _detalhes_database = {
 							["fight_component"] = true,
 							["total"] = 0.003186,
 							["dps_started"] = false,
-							["on_hold"] = false,
+							["damage_taken"] = 64.003186,
 							["nome"] = "Golden Civet",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -179,11 +180,10 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1648390543,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["aID"] = "65206",
 						}, -- [3]
 						{
 							["flag_original"] = 68168,
@@ -196,15 +196,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-56-65132-0000406E17",
 							["pets"] = {
 							},
-							["friendlyfire_total"] = 0,
-							["fight_component"] = true,
+							["last_dps"] = 0,
 							["aID"] = "65132",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.001996,
-							["total"] = 0.001996,
+							["fight_component"] = true,
 							["monster"] = true,
-							["end_time"] = 1648390543,
+							["total"] = 0.001996,
 							["damage_taken"] = 10573.001996,
 							["last_event"] = 0,
 							["nome"] = "Shao-Tien Conqueror",
@@ -213,16 +213,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["friendlyfire"] = {
-							},
+							["end_time"] = 1648390543,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1648390543,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [4]
 					},
 				}, -- [1]
@@ -261,7 +261,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["buff_uptime"] = 4,
-							["classe"] = "DEATHKNIGHT",
+							["aID"] = "1301-0B465EB0",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[335152] = {
@@ -279,19 +279,19 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 3,
-							["debuff_uptime_targets"] = {
-							},
+							["nome"] = "Serthaxion",
 							["spec"] = 252,
 							["grupo"] = true,
-							["aID"] = "1301-0B465EB0",
-							["nome"] = "Serthaxion",
-							["last_event"] = 1648390543,
+							["classe"] = "DEATHKNIGHT",
 							["buff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
 							},
 							["pets"] = {
 							},
 							["serial"] = "Player-1301-0B465EB0",
-							["tipo"] = 4,
+							["last_event"] = 1648390543,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -316,7 +316,7 @@ _detalhes_database = {
 				["playing_solo"] = true,
 				["totals"] = {
 					10764.961117, -- [1]
-					-0.1113769999982282, -- [2]
+					-0.1197179999982282, -- [2]
 					{
 						0, -- [1]
 						[0] = -0.017822,
@@ -352,7 +352,25 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "17:15:39",
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Serthaxion"] = 10765.002871,
+						}, -- [1]
+					},
+				},
 				["end_time"] = 9609.746000000001,
 				["combat_id"] = 70,
 				["frags"] = {
@@ -393,25 +411,7 @@ _detalhes_database = {
 				},
 				["start_time"] = 9605.963,
 				["contra"] = "Shao-Tien Conqueror",
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["Serthaxion"] = 10765.002871,
-						}, -- [1]
-					},
-				},
+				["data_inicio"] = "17:15:39",
 			}, -- [1]
 			{
 				{
@@ -466,13 +466,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 20759.006591,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["total"] = 20759.006591,
 							["classe"] = "DEATHKNIGHT",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["nome"] = "Serthaxion",
 							["spec"] = 252,
 							["grupo"] = true,
@@ -481,10 +481,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648390536,
-							["damage_taken"] = 0.006591,
+							["last_dps"] = 109836.0137088171,
 							["start_time"] = 1648390536,
 							["delay"] = 0,
-							["last_dps"] = 109836.0137088171,
+							["damage_taken"] = 0.006591,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -497,16 +497,16 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-56-65132-0000C06E17",
 							["pets"] = {
 							},
-							["on_hold"] = false,
-							["classe"] = "UNKNOW",
+							["end_time"] = 1648390537,
 							["friendlyfire_total"] = 0,
+							["aID"] = "65132",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.008184,
 							["monster"] = true,
 							["fight_component"] = true,
 							["total"] = 0.008184,
-							["damage_taken"] = 20759.008184,
+							["on_hold"] = false,
 							["last_event"] = 0,
 							["nome"] = "Shao-Tien Conqueror",
 							["spells"] = {
@@ -514,16 +514,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["end_time"] = 1648390537,
+							["last_dps"] = 0,
 							["dps_started"] = false,
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 20759.008184,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1648390537,
 							["delay"] = 0,
-							["aID"] = "65132",
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -568,9 +568,9 @@ _detalhes_database = {
 							["spec"] = 252,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.005756,
-							["last_event"] = 1648390539,
-							["aID"] = "1301-0B465EB0",
 							["tipo"] = 3,
+							["aID"] = "1301-0B465EB0",
+							["last_event"] = 1648390539,
 							["serial"] = "Player-1301-0B465EB0",
 							["totalover"] = 0.005756,
 						}, -- [1]
@@ -714,11 +714,11 @@ _detalhes_database = {
 				},
 				["end_time"] = 9604.118,
 				["combat_id"] = 69,
-				["frags"] = {
-					["Shao-Tien Conqueror"] = 1,
+				["spells_cast_timeline"] = {
 				},
 				["contra"] = "Shao-Tien Conqueror",
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["Shao-Tien Conqueror"] = 1,
 				},
 				["combat_counter"] = 1782,
 				["data_inicio"] = "17:15:36",
@@ -784,13 +784,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 10242.003386,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["total"] = 10242.003386,
 							["classe"] = "DEATHKNIGHT",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["nome"] = "Serthaxion",
 							["spec"] = 252,
 							["grupo"] = true,
@@ -799,10 +799,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648390532,
-							["damage_taken"] = 0.003386,
+							["last_dps"] = 7416.36740478235,
 							["start_time"] = 1648390532,
 							["delay"] = 0,
-							["last_dps"] = 7416.36740478235,
+							["damage_taken"] = 0.003386,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -815,16 +815,16 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-56-65132-0000406E19",
 							["pets"] = {
 							},
-							["on_hold"] = false,
-							["classe"] = "UNKNOW",
+							["end_time"] = 1648390533,
 							["friendlyfire_total"] = 0,
+							["aID"] = "65132",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.007619,
 							["monster"] = true,
 							["fight_component"] = true,
 							["total"] = 0.007619,
-							["damage_taken"] = 10242.007619,
+							["on_hold"] = false,
 							["last_event"] = 0,
 							["nome"] = "Shao-Tien Conqueror",
 							["spells"] = {
@@ -832,16 +832,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["end_time"] = 1648390533,
+							["last_dps"] = 0,
 							["dps_started"] = false,
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 10242.007619,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1648390533,
 							["delay"] = 0,
-							["aID"] = "65132",
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -886,9 +886,9 @@ _detalhes_database = {
 							["spec"] = 252,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.00375,
-							["last_event"] = 1648390536,
-							["aID"] = "1301-0B465EB0",
 							["tipo"] = 3,
+							["aID"] = "1301-0B465EB0",
+							["last_event"] = 1648390536,
 							["serial"] = "Player-1301-0B465EB0",
 							["totalover"] = 0.00375,
 						}, -- [1]
@@ -1032,12 +1032,12 @@ _detalhes_database = {
 				},
 				["end_time"] = 9600.029,
 				["combat_id"] = 68,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Shao-Tien Conqueror",
 				["frags"] = {
 					["Golden Civet"] = 1,
 					["Shao-Tien Conqueror"] = 1,
-				},
-				["contra"] = "Shao-Tien Conqueror",
-				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1781,
 				["data_inicio"] = "17:15:32",
@@ -1103,13 +1103,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 10124.00284,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["total"] = 10124.00284,
 							["classe"] = "DEATHKNIGHT",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["nome"] = "Serthaxion",
 							["spec"] = 252,
 							["grupo"] = true,
@@ -1118,10 +1118,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648390528,
-							["damage_taken"] = 0.00284,
+							["last_dps"] = 20703.4822903294,
 							["start_time"] = 1648390528,
 							["delay"] = 0,
-							["last_dps"] = 20703.4822903294,
+							["damage_taken"] = 0.00284,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -1134,16 +1134,16 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-56-65132-0000405078",
 							["pets"] = {
 							},
-							["on_hold"] = false,
-							["classe"] = "UNKNOW",
+							["end_time"] = 1648390530,
 							["friendlyfire_total"] = 0,
+							["aID"] = "65132",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004919,
 							["monster"] = true,
 							["fight_component"] = true,
 							["total"] = 0.004919,
-							["damage_taken"] = 10124.004919,
+							["on_hold"] = false,
 							["last_event"] = 0,
 							["nome"] = "Shao-Tien Conqueror",
 							["spells"] = {
@@ -1151,16 +1151,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["end_time"] = 1648390530,
+							["last_dps"] = 0,
 							["dps_started"] = false,
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 10124.004919,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1648390530,
 							["delay"] = 0,
-							["aID"] = "65132",
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -1205,9 +1205,9 @@ _detalhes_database = {
 							["spec"] = 252,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.005686,
-							["last_event"] = 1648390532,
-							["aID"] = "1301-0B465EB0",
 							["tipo"] = 3,
+							["aID"] = "1301-0B465EB0",
+							["last_event"] = 1648390532,
 							["serial"] = "Player-1301-0B465EB0",
 							["totalover"] = 0.005686,
 						}, -- [1]
@@ -1351,11 +1351,11 @@ _detalhes_database = {
 				},
 				["end_time"] = 9596.788,
 				["combat_id"] = 67,
-				["frags"] = {
-					["Shao-Tien Conqueror"] = 1,
+				["spells_cast_timeline"] = {
 				},
 				["contra"] = "Shao-Tien Conqueror",
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["Shao-Tien Conqueror"] = 1,
 				},
 				["combat_counter"] = 1780,
 				["data_inicio"] = "17:15:28",
@@ -1482,13 +1482,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 33357.006452,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["total"] = 33357.006452,
 							["classe"] = "DEATHKNIGHT",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["nome"] = "Serthaxion",
 							["spec"] = 252,
 							["grupo"] = true,
@@ -1497,10 +1497,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648390525,
-							["damage_taken"] = 0.006452,
+							["last_dps"] = 10701.63825858132,
 							["start_time"] = 1648390522,
 							["delay"] = 0,
-							["last_dps"] = 10701.63825858132,
+							["damage_taken"] = 0.006452,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -1513,16 +1513,16 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-56-65132-0000406E30",
 							["pets"] = {
 							},
-							["on_hold"] = false,
-							["classe"] = "UNKNOW",
+							["end_time"] = 1648390526,
 							["friendlyfire_total"] = 0,
+							["aID"] = "65132",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.00467,
 							["monster"] = true,
 							["fight_component"] = true,
 							["total"] = 0.00467,
-							["damage_taken"] = 22744.00467,
+							["on_hold"] = false,
 							["last_event"] = 0,
 							["nome"] = "Shao-Tien Conqueror",
 							["spells"] = {
@@ -1530,16 +1530,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["end_time"] = 1648390526,
+							["last_dps"] = 0,
 							["dps_started"] = false,
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 22744.00467,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1648390526,
 							["delay"] = 0,
-							["aID"] = "65132",
+							["classe"] = "UNKNOW",
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
@@ -1552,16 +1552,16 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-56-65130-00004061CE",
 							["pets"] = {
 							},
-							["on_hold"] = false,
-							["classe"] = "UNKNOW",
+							["end_time"] = 1648390526,
 							["friendlyfire_total"] = 0,
+							["aID"] = "65130",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.006179,
 							["monster"] = true,
 							["fight_component"] = true,
 							["total"] = 0.006179,
-							["damage_taken"] = 10418.006179,
+							["on_hold"] = false,
 							["last_event"] = 0,
 							["nome"] = "Shao-Tien Imperion",
 							["spells"] = {
@@ -1569,16 +1569,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["end_time"] = 1648390526,
+							["last_dps"] = 0,
 							["dps_started"] = false,
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 10418.006179,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1648390526,
 							["delay"] = 0,
-							["aID"] = "65130",
+							["classe"] = "UNKNOW",
 						}, -- [3]
 						{
 							["flag_original"] = 2600,
@@ -1590,16 +1590,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
-							["fight_component"] = true,
 							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["aID"] = "65206",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004922,
 							["serial"] = "Creature-0-1631-870-56-65206-0000406F50",
-							["dps_started"] = false,
-							["end_time"] = 1648390526,
+							["fight_component"] = true,
 							["total"] = 0.004922,
+							["end_time"] = 1648390526,
 							["friendlyfire"] = {
 							},
 							["nome"] = "Golden Civet",
@@ -1616,7 +1616,7 @@ _detalhes_database = {
 							["damage_taken"] = 65.004922,
 							["start_time"] = 1648390526,
 							["delay"] = 0,
-							["aID"] = "65206",
+							["classe"] = "UNKNOW",
 						}, -- [4]
 						{
 							["flag_original"] = 2600,
@@ -1628,16 +1628,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
-							["fight_component"] = true,
 							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["aID"] = "65207",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.00297,
 							["serial"] = "Creature-0-1631-870-56-65207-0000406F50",
-							["dps_started"] = false,
-							["end_time"] = 1648390526,
+							["fight_component"] = true,
 							["total"] = 0.00297,
+							["end_time"] = 1648390526,
 							["friendlyfire"] = {
 							},
 							["nome"] = "Golden Civet Kitten",
@@ -1654,7 +1654,7 @@ _detalhes_database = {
 							["damage_taken"] = 130.00297,
 							["start_time"] = 1648390526,
 							["delay"] = 0,
-							["aID"] = "65207",
+							["classe"] = "UNKNOW",
 						}, -- [5]
 					},
 				}, -- [1]
@@ -1699,9 +1699,9 @@ _detalhes_database = {
 							["spec"] = 252,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.008669,
-							["last_event"] = 1648390528,
-							["aID"] = "1301-0B465EB0",
 							["tipo"] = 3,
+							["aID"] = "1301-0B465EB0",
+							["last_event"] = 1648390528,
 							["serial"] = "Player-1301-0B465EB0",
 							["totalover"] = 0.008669,
 						}, -- [1]
@@ -1867,14 +1867,14 @@ _detalhes_database = {
 				},
 				["end_time"] = 9592.725,
 				["combat_id"] = 66,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Shao-Tien Conqueror",
 				["frags"] = {
 					["Shao-Tien Imperion"] = 1,
 					["Golden Civet"] = 1,
 					["Golden Civet Kitten"] = 2,
 					["Shao-Tien Conqueror"] = 2,
-				},
-				["contra"] = "Shao-Tien Conqueror",
-				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1779,
 				["data_inicio"] = "17:15:22",
@@ -1969,13 +1969,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 46498.00508,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["total"] = 46498.00508,
 							["classe"] = "DEATHKNIGHT",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["nome"] = "Serthaxion",
 							["spec"] = 252,
 							["grupo"] = true,
@@ -1984,10 +1984,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648390518,
-							["damage_taken"] = 0.00508,
+							["last_dps"] = 11907.29963636164,
 							["start_time"] = 1648390515,
 							["delay"] = 0,
-							["last_dps"] = 11907.29963636164,
+							["damage_taken"] = 0.00508,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -2000,16 +2000,16 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-56-63045-0000406FA3",
 							["pets"] = {
 							},
-							["on_hold"] = false,
-							["classe"] = "UNKNOW",
+							["end_time"] = 1648390519,
 							["friendlyfire_total"] = 0,
+							["aID"] = "63045",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.008795,
 							["monster"] = true,
 							["fight_component"] = true,
 							["total"] = 0.008795,
-							["damage_taken"] = 25852.008795,
+							["on_hold"] = false,
 							["last_event"] = 1648390517,
 							["nome"] = "Dominated Scalelord",
 							["spells"] = {
@@ -2047,16 +2047,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["end_time"] = 1648390519,
+							["last_dps"] = 0,
 							["dps_started"] = false,
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 25852.008795,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1648390519,
 							["delay"] = 0,
-							["aID"] = "63045",
+							["classe"] = "UNKNOW",
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
@@ -2069,16 +2069,16 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-56-63101-0000406FA3",
 							["pets"] = {
 							},
-							["on_hold"] = false,
-							["classe"] = "UNKNOW",
+							["end_time"] = 1648390519,
 							["friendlyfire_total"] = 0,
+							["aID"] = "63101",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.005551,
 							["monster"] = true,
 							["fight_component"] = true,
 							["total"] = 0.005551,
-							["damage_taken"] = 20646.005551,
+							["on_hold"] = false,
 							["last_event"] = 0,
 							["nome"] = "General Temuja",
 							["spells"] = {
@@ -2086,16 +2086,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["end_time"] = 1648390519,
+							["last_dps"] = 0,
 							["dps_started"] = false,
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 20646.005551,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1648390519,
 							["delay"] = 0,
-							["aID"] = "63101",
+							["classe"] = "UNKNOW",
 						}, -- [3]
 					},
 				}, -- [1]
@@ -2140,9 +2140,9 @@ _detalhes_database = {
 							["spec"] = 252,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.001229,
-							["last_event"] = 1648390522,
-							["aID"] = "1301-0B465EB0",
 							["tipo"] = 3,
+							["aID"] = "1301-0B465EB0",
+							["last_event"] = 1648390522,
 							["serial"] = "Player-1301-0B465EB0",
 							["totalover"] = 0.001229,
 						}, -- [1]
@@ -2171,7 +2171,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["buff_uptime"] = 4,
-							["classe"] = "DEATHKNIGHT",
+							["aID"] = "1301-0B465EB0",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[335152] = {
@@ -2189,19 +2189,19 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 3,
-							["debuff_uptime_targets"] = {
-							},
+							["nome"] = "Serthaxion",
 							["spec"] = 252,
 							["grupo"] = true,
-							["aID"] = "1301-0B465EB0",
-							["nome"] = "Serthaxion",
-							["last_event"] = 1648390519,
+							["classe"] = "DEATHKNIGHT",
 							["buff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
 							},
 							["pets"] = {
 							},
 							["serial"] = "Player-1301-0B465EB0",
-							["tipo"] = 4,
+							["last_event"] = 1648390519,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -2305,12 +2305,12 @@ _detalhes_database = {
 				},
 				["end_time"] = 9585.416000000001,
 				["combat_id"] = 65,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "General Temuja",
 				["frags"] = {
 					["Dominated Scalelord"] = 2,
 					["General Temuja"] = 1,
-				},
-				["contra"] = "General Temuja",
-				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1778,
 				["data_inicio"] = "17:15:15",
@@ -2346,11 +2346,11 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 35413.007805,
-							["aID"] = "1301-0B465EB0",
+							["friendlyfire_total"] = 0,
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["total"] = 54207.007805,
-							["friendlyfire_total"] = 0,
+							["aID"] = "1301-0B465EB0",
 							["friendlyfire"] = {
 							},
 							["nome"] = "Serthaxion",
@@ -2418,13 +2418,13 @@ _detalhes_database = {
 							["grupo"] = true,
 							["last_event"] = 1648384190,
 							["colocacao"] = 1,
-							["damage_taken"] = 1.007805,
+							["on_hold"] = false,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["on_hold"] = false,
+							["last_dps"] = 23858.71822403238,
 							["start_time"] = 1648384189,
 							["delay"] = 0,
-							["last_dps"] = 23858.71822403238,
+							["damage_taken"] = 1.007805,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -2436,16 +2436,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["tipo"] = 1,
 							["aID"] = "Pet-0-1631-870-78-26125-0A02F9C049",
+							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 18794.008507,
 							["serial"] = "Pet-0-1631-870-78-26125-0A02F9C049",
 							["dps_started"] = false,
 							["total"] = 18794.008507,
-							["on_hold"] = false,
+							["damage_taken"] = 0.008507,
 							["ownerName"] = "Serthaxion",
 							["nome"] = "Rockbender <Serthaxion>",
 							["spells"] = {
@@ -2481,16 +2481,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["end_time"] = 1648384191,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1648384190,
-							["damage_taken"] = 0.008507,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1648384190,
 							["delay"] = 0,
-							["friendlyfire_total"] = 0,
+							["classe"] = "PET",
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
@@ -2505,16 +2505,16 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-65575-0000403426",
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["classe"] = "UNKNOW",
+							["monster"] = true,
 							["friendlyfire_total"] = 0,
+							["aID"] = "65575",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1.001114,
 							["dps_started"] = false,
 							["fight_component"] = true,
-							["end_time"] = 1648384191,
-							["damage_taken"] = 54207.001114,
+							["total"] = 1.001114,
+							["last_dps"] = 0,
 							["last_event"] = 1648384190,
 							["nome"] = "Vor'thik Swarmborn",
 							["spells"] = {
@@ -2551,16 +2551,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["monster"] = true,
+							["end_time"] = 1648384191,
 							["friendlyfire"] = {
 							},
-							["total"] = 1.001114,
+							["damage_taken"] = 54207.001114,
 							["custom"] = 0,
 							["tipo"] = 1,
 							["on_hold"] = false,
 							["start_time"] = 1648384190,
 							["delay"] = 0,
-							["aID"] = "65575",
+							["classe"] = "UNKNOW",
 						}, -- [3]
 					},
 				}, -- [1]
@@ -2605,9 +2605,9 @@ _detalhes_database = {
 							["spec"] = 252,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.00617,
-							["last_event"] = 1648390515,
-							["aID"] = "1301-0B465EB0",
 							["tipo"] = 3,
+							["aID"] = "1301-0B465EB0",
+							["last_event"] = 1648390515,
 							["serial"] = "Player-1301-0B465EB0",
 							["totalover"] = 0.00617,
 						}, -- [1]
@@ -2636,7 +2636,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["buff_uptime"] = 2,
-							["aID"] = "1301-0B465EB0",
+							["classe"] = "DEATHKNIGHT",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[335152] = {
@@ -2654,19 +2654,19 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 1,
-							["nome"] = "Serthaxion",
-							["spec"] = 252,
-							["grupo"] = true,
-							["classe"] = "DEATHKNIGHT",
 							["buff_uptime_targets"] = {
 							},
-							["tipo"] = 4,
+							["spec"] = 252,
+							["grupo"] = true,
+							["aID"] = "1301-0B465EB0",
 							["debuff_uptime_targets"] = {
 							},
+							["last_event"] = 1648384191,
+							["nome"] = "Serthaxion",
 							["pets"] = {
 							},
 							["serial"] = "Player-1301-0B465EB0",
-							["last_event"] = 1648384191,
+							["tipo"] = 4,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -2770,11 +2770,11 @@ _detalhes_database = {
 				},
 				["end_time"] = 3258.629,
 				["combat_id"] = 64,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Vor'thik Swarmborn",
 				["frags"] = {
 					["Vor'thik Swarmborn"] = 3,
+				},
+				["contra"] = "Vor'thik Swarmborn",
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1775,
 				["data_inicio"] = "15:29:50",
@@ -2869,13 +2869,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 46022.008992,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["total"] = 64816.008992,
 							["classe"] = "DEATHKNIGHT",
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Serthaxion",
 							["spec"] = 252,
 							["grupo"] = true,
@@ -2884,10 +2884,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648384179,
-							["last_dps"] = 47658.83014117201,
+							["damage_taken"] = 0.008992,
 							["start_time"] = 1648384178,
 							["delay"] = 0,
-							["damage_taken"] = 0.008992,
+							["last_dps"] = 47658.83014117201,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -2901,15 +2901,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-65575-0000403791",
 							["pets"] = {
 							},
-							["end_time"] = 1648384180,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "65575",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.005561,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.005561,
+							["end_time"] = 1648384180,
 							["on_hold"] = false,
 							["last_event"] = 0,
 							["nome"] = "Vor'thik Swarmborn",
@@ -2918,16 +2918,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 64816.005561,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.005561,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 64816.005561,
 							["start_time"] = 1648384180,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
@@ -2939,15 +2939,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1648384180,
+							["total"] = 18794.001237,
 							["last_event"] = 1648384179,
-							["aID"] = "Pet-0-1631-870-78-26125-0A02F9C049",
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 18794.001237,
 							["serial"] = "Pet-0-1631-870-78-26125-0A02F9C049",
 							["dps_started"] = false,
-							["total"] = 18794.001237,
+							["end_time"] = 1648384180,
 							["friendlyfire_total"] = 0,
 							["ownerName"] = "Serthaxion",
 							["nome"] = "Rockbender <Serthaxion>",
@@ -2993,7 +2993,7 @@ _detalhes_database = {
 							["damage_taken"] = 0.001237,
 							["start_time"] = 1648384179,
 							["delay"] = 0,
-							["classe"] = "PET",
+							["aID"] = "Pet-0-1631-870-78-26125-0A02F9C049",
 						}, -- [3]
 					},
 				}, -- [1]
@@ -3038,9 +3038,9 @@ _detalhes_database = {
 							["spec"] = 252,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.001456,
-							["tipo"] = 3,
-							["aID"] = "1301-0B465EB0",
 							["last_event"] = 1648384189,
+							["aID"] = "1301-0B465EB0",
+							["tipo"] = 3,
 							["serial"] = "Player-1301-0B465EB0",
 							["totalover"] = 0.001456,
 						}, -- [1]
@@ -3069,7 +3069,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["buff_uptime"] = 2,
-							["aID"] = "1301-0B465EB0",
+							["classe"] = "DEATHKNIGHT",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[335152] = {
@@ -3087,19 +3087,19 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 1,
-							["nome"] = "Serthaxion",
-							["spec"] = 252,
-							["grupo"] = true,
-							["classe"] = "DEATHKNIGHT",
 							["buff_uptime_targets"] = {
 							},
-							["tipo"] = 4,
+							["spec"] = 252,
+							["grupo"] = true,
+							["aID"] = "1301-0B465EB0",
 							["debuff_uptime_targets"] = {
 							},
+							["last_event"] = 1648384180,
+							["nome"] = "Serthaxion",
 							["pets"] = {
 							},
 							["serial"] = "Player-1301-0B465EB0",
-							["last_event"] = 1648384180,
+							["tipo"] = 4,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -3160,25 +3160,7 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["Serthaxion"] = 64816.008992,
-						}, -- [1]
-					},
-				},
+				["data_inicio"] = "15:29:39",
 				["end_time"] = 3247.196,
 				["combat_id"] = 63,
 				["frags"] = {
@@ -3217,7 +3199,25 @@ _detalhes_database = {
 				},
 				["start_time"] = 3245.623,
 				["contra"] = "Vor'thik Swarmborn",
-				["data_inicio"] = "15:29:39",
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Serthaxion"] = 64816.008992,
+						}, -- [1]
+					},
+				},
 			}, -- [8]
 			{
 				{
@@ -3274,13 +3274,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 10377.00895,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["total"] = 29171.00895,
 							["classe"] = "DEATHKNIGHT",
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Serthaxion",
 							["spec"] = 252,
 							["grupo"] = true,
@@ -3289,10 +3289,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648384176,
-							["last_dps"] = 24472.32294463072,
+							["damage_taken"] = 0.00895,
 							["start_time"] = 1648384175,
 							["delay"] = 0,
-							["damage_taken"] = 0.00895,
+							["last_dps"] = 24472.32294463072,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -3305,15 +3305,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-62814-0000405896",
 							["pets"] = {
 							},
-							["end_time"] = 1648384177,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "62814",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.007174,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.007174,
+							["end_time"] = 1648384177,
 							["on_hold"] = false,
 							["last_event"] = 0,
 							["nome"] = "Vor'thik Fear-Shaper",
@@ -3322,16 +3322,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 10377.007174,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.007174,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 10377.007174,
 							["start_time"] = 1648384177,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
@@ -3344,15 +3344,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-65575-000040378D",
 							["pets"] = {
 							},
-							["end_time"] = 1648384177,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "65575",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004217,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.004217,
+							["end_time"] = 1648384177,
 							["on_hold"] = false,
 							["last_event"] = 1648384176,
 							["nome"] = "Vor'thik Swarmborn",
@@ -3390,16 +3390,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 18794.004217,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.004217,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 18794.004217,
 							["start_time"] = 1648384177,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [3]
 						{
 							["flag_original"] = 4369,
@@ -3411,15 +3411,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1648384177,
+							["total"] = 18794.007607,
 							["last_event"] = 1648384176,
-							["aID"] = "Pet-0-1631-870-78-26125-0A02F9C049",
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 18794.007607,
 							["serial"] = "Pet-0-1631-870-78-26125-0A02F9C049",
 							["dps_started"] = false,
-							["total"] = 18794.007607,
+							["end_time"] = 1648384177,
 							["friendlyfire_total"] = 0,
 							["ownerName"] = "Serthaxion",
 							["nome"] = "Rockbender <Serthaxion>",
@@ -3465,7 +3465,7 @@ _detalhes_database = {
 							["damage_taken"] = 0.007607,
 							["start_time"] = 1648384176,
 							["delay"] = 0,
-							["classe"] = "PET",
+							["aID"] = "Pet-0-1631-870-78-26125-0A02F9C049",
 						}, -- [4]
 					},
 				}, -- [1]
@@ -3510,9 +3510,9 @@ _detalhes_database = {
 							["spec"] = 252,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.008395,
-							["tipo"] = 3,
-							["aID"] = "1301-0B465EB0",
 							["last_event"] = 1648384178,
+							["aID"] = "1301-0B465EB0",
+							["tipo"] = 3,
 							["serial"] = "Player-1301-0B465EB0",
 							["totalover"] = 0.008395,
 						}, -- [1]
@@ -3541,7 +3541,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["buff_uptime"] = 2,
-							["aID"] = "1301-0B465EB0",
+							["classe"] = "DEATHKNIGHT",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[335152] = {
@@ -3559,19 +3559,19 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 1,
-							["nome"] = "Serthaxion",
-							["spec"] = 252,
-							["grupo"] = true,
-							["classe"] = "DEATHKNIGHT",
 							["buff_uptime_targets"] = {
 							},
-							["tipo"] = 4,
+							["spec"] = 252,
+							["grupo"] = true,
+							["aID"] = "1301-0B465EB0",
 							["debuff_uptime_targets"] = {
 							},
+							["last_event"] = 1648384177,
+							["nome"] = "Serthaxion",
 							["pets"] = {
 							},
 							["serial"] = "Player-1301-0B465EB0",
-							["last_event"] = 1648384177,
+							["tipo"] = 4,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -3675,12 +3675,12 @@ _detalhes_database = {
 				},
 				["end_time"] = 3244.797,
 				["combat_id"] = 62,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Vor'thik Fear-Shaper",
 				["frags"] = {
 					["Vor'thik Swarmborn"] = 1,
 					["Vor'thik Fear-Shaper"] = 1,
+				},
+				["contra"] = "Vor'thik Fear-Shaper",
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1773,
 				["data_inicio"] = "15:29:36",
@@ -3720,13 +3720,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.007481,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["total"] = 18793.007481,
 							["classe"] = "DEATHKNIGHT",
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Serthaxion",
 							["spec"] = 252,
 							["grupo"] = true,
@@ -3735,10 +3735,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648384173,
-							["last_dps"] = 22135.46228621491,
+							["damage_taken"] = 1.007481,
 							["start_time"] = 1648384173,
 							["delay"] = 0,
-							["damage_taken"] = 1.007481,
+							["last_dps"] = 22135.46228621491,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -3750,15 +3750,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1648384173,
+							["total"] = 18793.007892,
 							["last_event"] = 1648384173,
-							["aID"] = "Pet-0-1631-870-78-26125-0A02F9C049",
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 18793.007892,
 							["serial"] = "Pet-0-1631-870-78-26125-0A02F9C049",
 							["dps_started"] = false,
-							["total"] = 18793.007892,
+							["end_time"] = 1648384173,
 							["friendlyfire_total"] = 0,
 							["ownerName"] = "Serthaxion",
 							["nome"] = "Rockbender <Serthaxion>",
@@ -3804,7 +3804,7 @@ _detalhes_database = {
 							["damage_taken"] = 0.007892,
 							["start_time"] = 1648384173,
 							["delay"] = 0,
-							["classe"] = "PET",
+							["aID"] = "Pet-0-1631-870-78-26125-0A02F9C049",
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
@@ -3818,16 +3818,17 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-65575-0000403784",
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
 							["friendlyfire_total"] = 0,
+							["aID"] = "65575",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1.001268,
 							["monster"] = true,
 							["fight_component"] = true,
-							["end_time"] = 1648384173,
-							["damage_taken"] = 18793.001268,
+							["total"] = 1.001268,
+							["last_dps"] = 0,
 							["last_event"] = 1648384172,
 							["nome"] = "Vor'thik Swarmborn",
 							["spells"] = {
@@ -3863,16 +3864,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["end_time"] = 1648384173,
 							["dps_started"] = false,
-							["total"] = 1.001268,
+							["damage_taken"] = 18793.001268,
 							["custom"] = 0,
 							["tipo"] = 1,
 							["on_hold"] = false,
 							["start_time"] = 1648384172,
 							["delay"] = 0,
-							["aID"] = "65575",
+							["classe"] = "UNKNOW",
 						}, -- [3]
 					},
 				}, -- [1]
@@ -3917,9 +3917,9 @@ _detalhes_database = {
 							["spec"] = 252,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.002991,
-							["tipo"] = 3,
-							["aID"] = "1301-0B465EB0",
 							["last_event"] = 1648384175,
+							["aID"] = "1301-0B465EB0",
+							["tipo"] = 3,
 							["serial"] = "Player-1301-0B465EB0",
 							["totalover"] = 0.002991,
 						}, -- [1]
@@ -4063,11 +4063,11 @@ _detalhes_database = {
 				},
 				["end_time"] = 3240.746,
 				["combat_id"] = 61,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Vor'thik Swarmborn",
 				["frags"] = {
 					["Vor'thik Swarmborn"] = 1,
+				},
+				["contra"] = "Vor'thik Swarmborn",
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1772,
 				["data_inicio"] = "15:29:33",
@@ -4133,13 +4133,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 10344.004282,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["total"] = 10344.004282,
 							["classe"] = "DEATHKNIGHT",
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Serthaxion",
 							["spec"] = 252,
 							["grupo"] = true,
@@ -4148,10 +4148,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648384087,
-							["last_dps"] = 29386.3758011479,
+							["damage_taken"] = 0.004282,
 							["start_time"] = 1648384087,
 							["delay"] = 0,
-							["damage_taken"] = 0.004282,
+							["last_dps"] = 29386.3758011479,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -4164,15 +4164,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-62813-0000BFD3D5",
 							["pets"] = {
 							},
-							["end_time"] = 1648384088,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "62813",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004806,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.004806,
+							["end_time"] = 1648384088,
 							["on_hold"] = false,
 							["last_event"] = 0,
 							["nome"] = "Vor'thik Dreadsworn",
@@ -4181,16 +4181,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 10344.004806,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.004806,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 10344.004806,
 							["start_time"] = 1648384088,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -4344,11 +4344,11 @@ _detalhes_database = {
 				},
 				["end_time"] = 3155.816,
 				["combat_id"] = 60,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Vor'thik Dreadsworn",
 				["frags"] = {
 					["Vor'thik Dreadsworn"] = 1,
+				},
+				["contra"] = "Vor'thik Dreadsworn",
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1771,
 				["data_inicio"] = "15:28:08",
@@ -4414,13 +4414,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 10298.001902,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["total"] = 10298.001902,
 							["classe"] = "DEATHKNIGHT",
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Serthaxion",
 							["spec"] = 252,
 							["grupo"] = true,
@@ -4429,10 +4429,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648384077,
-							["last_dps"] = 88017.11027336196,
+							["damage_taken"] = 0.001902,
 							["start_time"] = 1648384077,
 							["delay"] = 0,
-							["damage_taken"] = 0.001902,
+							["last_dps"] = 88017.11027336196,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -4445,15 +4445,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-62813-0000403799",
 							["pets"] = {
 							},
-							["end_time"] = 1648384078,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "62813",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004311,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.004311,
+							["end_time"] = 1648384078,
 							["on_hold"] = false,
 							["last_event"] = 1648384087,
 							["nome"] = "Vor'thik Dreadsworn",
@@ -4491,16 +4491,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 10298.004311,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.004311,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 10298.004311,
 							["start_time"] = 1648384078,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -4545,9 +4545,9 @@ _detalhes_database = {
 							["spec"] = 252,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.002153,
-							["tipo"] = 3,
-							["aID"] = "1301-0B465EB0",
 							["last_event"] = 1648384087,
+							["aID"] = "1301-0B465EB0",
+							["tipo"] = 3,
 							["serial"] = "Player-1301-0B465EB0",
 							["totalover"] = 0.002153,
 						}, -- [1]
@@ -4691,11 +4691,11 @@ _detalhes_database = {
 				},
 				["end_time"] = 3145.24,
 				["combat_id"] = 59,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Vor'thik Dreadsworn",
 				["frags"] = {
 					["Vor'thik Dreadsworn"] = 1,
+				},
+				["contra"] = "Vor'thik Dreadsworn",
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1770,
 				["data_inicio"] = "15:27:57",
@@ -4790,13 +4790,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 61198.006082,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["total"] = 61198.006082,
 							["classe"] = "DEATHKNIGHT",
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Serthaxion",
 							["spec"] = 252,
 							["grupo"] = true,
@@ -4805,10 +4805,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648384074,
-							["last_dps"] = 44572.4734756141,
+							["damage_taken"] = 0.006082,
 							["start_time"] = 1648384073,
 							["delay"] = 0,
-							["damage_taken"] = 0.006082,
+							["last_dps"] = 44572.4734756141,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -4821,15 +4821,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-62813-0000403736",
 							["pets"] = {
 							},
-							["end_time"] = 1648384074,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "62813",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004553,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.004553,
+							["end_time"] = 1648384074,
 							["on_hold"] = false,
 							["last_event"] = 0,
 							["nome"] = "Vor'thik Dreadsworn",
@@ -4838,16 +4838,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 51079.004553,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.004553,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 51079.004553,
 							["start_time"] = 1648384074,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
@@ -4860,15 +4860,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-62814-000040368F",
 							["pets"] = {
 							},
-							["end_time"] = 1648384074,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "62814",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.002793,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.002793,
+							["end_time"] = 1648384074,
 							["on_hold"] = false,
 							["last_event"] = 0,
 							["nome"] = "Vor'thik Fear-Shaper",
@@ -4877,16 +4877,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 10119.002793,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.002793,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 10119.002793,
 							["start_time"] = 1648384074,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [3]
 					},
 				}, -- [1]
@@ -4931,9 +4931,9 @@ _detalhes_database = {
 							["spec"] = 252,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.004053,
-							["tipo"] = 3,
-							["aID"] = "1301-0B465EB0",
 							["last_event"] = 1648384077,
+							["aID"] = "1301-0B465EB0",
+							["tipo"] = 3,
 							["serial"] = "Player-1301-0B465EB0",
 							["totalover"] = 0.004053,
 						}, -- [1]
@@ -4950,15 +4950,15 @@ _detalhes_database = {
 							},
 							["spec"] = 252,
 							["grupo"] = true,
+							["pets"] = {
+							},
 							["spell_cast"] = {
 								[77575] = 1,
 							},
 							["buff_uptime"] = 2,
-							["pets"] = {
-							},
-							["tipo"] = 4,
 							["classe"] = "DEATHKNIGHT",
-							["last_event"] = 1648384074,
+							["tipo"] = 4,
+							["aID"] = "1301-0B465EB0",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[335152] = {
@@ -4987,7 +4987,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-1301-0B465EB0",
-							["aID"] = "1301-0B465EB0",
+							["last_event"] = 1648384074,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -5091,12 +5091,12 @@ _detalhes_database = {
 				},
 				["end_time"] = 3141.573,
 				["combat_id"] = 58,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Vor'thik Dreadsworn",
 				["frags"] = {
 					["Vor'thik Dreadsworn"] = 1,
 					["Vor'thik Fear-Shaper"] = 1,
+				},
+				["contra"] = "Vor'thik Dreadsworn",
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1769,
 				["data_inicio"] = "15:27:53",
@@ -5162,13 +5162,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 10441.006173,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["total"] = 10441.006173,
 							["classe"] = "DEATHKNIGHT",
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Serthaxion",
 							["spec"] = 252,
 							["grupo"] = true,
@@ -5177,10 +5177,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648384071,
-							["last_dps"] = 93223.2694017191,
+							["damage_taken"] = 0.006173,
 							["start_time"] = 1648384071,
 							["delay"] = 0,
-							["damage_taken"] = 0.006173,
+							["last_dps"] = 93223.2694017191,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -5193,15 +5193,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-62814-00004036A7",
 							["pets"] = {
 							},
-							["end_time"] = 1648384072,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "62814",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.007246,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.007246,
+							["end_time"] = 1648384072,
 							["on_hold"] = false,
 							["last_event"] = 0,
 							["nome"] = "Vor'thik Fear-Shaper",
@@ -5210,16 +5210,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 10441.007246,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.007246,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 10441.007246,
 							["start_time"] = 1648384072,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -5373,11 +5373,11 @@ _detalhes_database = {
 				},
 				["end_time"] = 3139.149,
 				["combat_id"] = 57,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Vor'thik Fear-Shaper",
 				["frags"] = {
 					["Vor'thik Fear-Shaper"] = 1,
+				},
+				["contra"] = "Vor'thik Fear-Shaper",
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1768,
 				["data_inicio"] = "15:27:51",
@@ -5443,13 +5443,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 10299.001249,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["total"] = 10299.001249,
 							["classe"] = "DEATHKNIGHT",
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Serthaxion",
 							["spec"] = 252,
 							["grupo"] = true,
@@ -5458,10 +5458,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648384069,
-							["last_dps"] = 21061.35224744236,
+							["damage_taken"] = 0.001249,
 							["start_time"] = 1648384069,
 							["delay"] = 0,
-							["damage_taken"] = 0.001249,
+							["last_dps"] = 21061.35224744236,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -5474,15 +5474,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-62813-0000403766",
 							["pets"] = {
 							},
-							["end_time"] = 1648384070,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "62813",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.006839,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.006839,
+							["end_time"] = 1648384070,
 							["on_hold"] = false,
 							["last_event"] = 0,
 							["nome"] = "Vor'thik Dreadsworn",
@@ -5491,16 +5491,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 10299.006839,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.006839,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 10299.006839,
 							["start_time"] = 1648384070,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -5545,9 +5545,9 @@ _detalhes_database = {
 							["spec"] = 252,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.007751,
-							["tipo"] = 3,
-							["aID"] = "1301-0B465EB0",
 							["last_event"] = 1648384071,
+							["aID"] = "1301-0B465EB0",
+							["tipo"] = 3,
 							["serial"] = "Player-1301-0B465EB0",
 							["totalover"] = 0.007751,
 						}, -- [1]
@@ -5691,11 +5691,11 @@ _detalhes_database = {
 				},
 				["end_time"] = 3137.151,
 				["combat_id"] = 56,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Vor'thik Dreadsworn",
 				["frags"] = {
 					["Vor'thik Dreadsworn"] = 1,
+				},
+				["contra"] = "Vor'thik Dreadsworn",
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1767,
 				["data_inicio"] = "15:27:49",
@@ -5761,13 +5761,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 51861.007969,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["total"] = 51861.007969,
 							["classe"] = "DEATHKNIGHT",
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Serthaxion",
 							["spec"] = 252,
 							["grupo"] = true,
@@ -5776,10 +5776,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648384062,
-							["last_dps"] = 196443.2120036958,
+							["damage_taken"] = 0.007969,
 							["start_time"] = 1648384062,
 							["delay"] = 0,
-							["damage_taken"] = 0.007969,
+							["last_dps"] = 196443.2120036958,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -5792,15 +5792,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-62814-00004032F5",
 							["pets"] = {
 							},
-							["end_time"] = 1648384063,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "62814",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.007824,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.007824,
+							["end_time"] = 1648384063,
 							["on_hold"] = false,
 							["last_event"] = 0,
 							["nome"] = "Vor'thik Fear-Shaper",
@@ -5809,16 +5809,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 51861.007824,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.007824,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 51861.007824,
 							["start_time"] = 1648384063,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -5863,9 +5863,9 @@ _detalhes_database = {
 							["spec"] = 252,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.005456,
-							["tipo"] = 3,
-							["aID"] = "1301-0B465EB0",
 							["last_event"] = 1648384069,
+							["aID"] = "1301-0B465EB0",
+							["tipo"] = 3,
 							["serial"] = "Player-1301-0B465EB0",
 							["totalover"] = 0.005456,
 						}, -- [1]
@@ -6009,11 +6009,11 @@ _detalhes_database = {
 				},
 				["end_time"] = 3130.754,
 				["combat_id"] = 55,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Vor'thik Fear-Shaper",
 				["frags"] = {
 					["Vor'thik Fear-Shaper"] = 1,
+				},
+				["contra"] = "Vor'thik Fear-Shaper",
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1766,
 				["data_inicio"] = "15:27:43",
@@ -6225,13 +6225,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 212278.00328,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["total"] = 229376.00328,
 							["classe"] = "DEATHKNIGHT",
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Serthaxion",
 							["spec"] = 252,
 							["grupo"] = true,
@@ -6240,10 +6240,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648384060,
-							["last_dps"] = 43417.75568427111,
+							["damage_taken"] = 0.00328,
 							["start_time"] = 1648384055,
 							["delay"] = 0,
-							["damage_taken"] = 0.00328,
+							["last_dps"] = 43417.75568427111,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -6255,15 +6255,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1648384061,
+							["total"] = 17098.007178,
 							["last_event"] = 1648384058,
-							["aID"] = "Pet-0-1631-870-78-26125-0902F9C049",
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 17098.007178,
 							["serial"] = "Pet-0-1631-870-78-26125-0902F9C049",
 							["dps_started"] = false,
-							["total"] = 17098.007178,
+							["end_time"] = 1648384061,
 							["friendlyfire_total"] = 0,
 							["ownerName"] = "Serthaxion",
 							["nome"] = "Rockbender <Serthaxion>",
@@ -6309,7 +6309,7 @@ _detalhes_database = {
 							["damage_taken"] = 0.007178,
 							["start_time"] = 1648384058,
 							["delay"] = 0,
-							["classe"] = "PET",
+							["aID"] = "Pet-0-1631-870-78-26125-0902F9C049",
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
@@ -6322,15 +6322,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-62813-0000403793",
 							["pets"] = {
 							},
-							["end_time"] = 1648384061,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "62813",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004277,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.004277,
+							["end_time"] = 1648384061,
 							["on_hold"] = false,
 							["last_event"] = 0,
 							["nome"] = "Vor'thik Dreadsworn",
@@ -6339,16 +6339,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 10503.004277,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.004277,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 10503.004277,
 							["start_time"] = 1648384061,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [3]
 						{
 							["flag_original"] = 68168,
@@ -6361,15 +6361,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-62814-000040367B",
 							["pets"] = {
 							},
-							["end_time"] = 1648384061,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "62814",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.003462,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.003462,
+							["end_time"] = 1648384061,
 							["on_hold"] = false,
 							["last_event"] = 1648384057,
 							["nome"] = "Vor'thik Fear-Shaper",
@@ -6407,16 +6407,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 150844.003462,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.003462,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 150844.003462,
 							["start_time"] = 1648384061,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [4]
 						{
 							["flag_original"] = 2632,
@@ -6430,15 +6430,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-65996-00004033C0",
 							["pets"] = {
 							},
-							["end_time"] = 1648384061,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "65996",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.001827,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.001827,
+							["end_time"] = 1648384061,
 							["on_hold"] = false,
 							["last_event"] = 1648384058,
 							["nome"] = "Nagging Dreadling",
@@ -6477,16 +6477,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 67964.001827,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.001827,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 67964.001827,
 							["start_time"] = 1648384061,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [5]
 						{
 							["flag_original"] = 2600,
@@ -6498,16 +6498,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["friendlyfire_total"] = 0,
-							["dps_started"] = false,
 							["aID"] = "64807",
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.001048,
 							["serial"] = "Creature-0-1631-870-78-64807-00004033AB",
-							["fight_component"] = true,
-							["total"] = 0.001048,
+							["dps_started"] = false,
 							["end_time"] = 1648384061,
+							["total"] = 0.001048,
 							["friendlyfire"] = {
 							},
 							["nome"] = "Resilient Roach",
@@ -6524,7 +6524,7 @@ _detalhes_database = {
 							["damage_taken"] = 65.001048,
 							["start_time"] = 1648384061,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [6]
 					},
 				}, -- [1]
@@ -6569,9 +6569,9 @@ _detalhes_database = {
 							["spec"] = 252,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.001468,
-							["tipo"] = 3,
-							["aID"] = "1301-0B465EB0",
 							["last_event"] = 1648384060,
+							["aID"] = "1301-0B465EB0",
+							["tipo"] = 3,
 							["serial"] = "Player-1301-0B465EB0",
 							["totalover"] = 0.001468,
 						}, -- [1]
@@ -6749,14 +6749,14 @@ _detalhes_database = {
 				},
 				["end_time"] = 3128.215,
 				["combat_id"] = 54,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Nagging Dreadling",
 				["frags"] = {
 					["Vor'thik Dreadsworn"] = 1,
 					["Vor'thik Fear-Shaper"] = 3,
 					["Resilient Roach"] = 1,
 					["Nagging Dreadling"] = 7,
+				},
+				["contra"] = "Nagging Dreadling",
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1765,
 				["data_inicio"] = "15:27:36",
@@ -6822,13 +6822,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 10269.00726,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["total"] = 10269.00726,
 							["classe"] = "DEATHKNIGHT",
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Serthaxion",
 							["spec"] = 252,
 							["grupo"] = true,
@@ -6837,10 +6837,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648384050,
-							["last_dps"] = 102690.0726,
+							["damage_taken"] = 0.00726,
 							["start_time"] = 1648384050,
 							["delay"] = 0,
-							["damage_taken"] = 0.00726,
+							["last_dps"] = 102690.0726,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -6853,15 +6853,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-62814-00004032FD",
 							["pets"] = {
 							},
-							["end_time"] = 1648384052,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "62814",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.008065,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.008065,
+							["end_time"] = 1648384052,
 							["on_hold"] = false,
 							["last_event"] = 0,
 							["nome"] = "Vor'thik Fear-Shaper",
@@ -6870,16 +6870,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 10269.008065,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.008065,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 10269.008065,
 							["start_time"] = 1648384052,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -6924,9 +6924,9 @@ _detalhes_database = {
 							["spec"] = 252,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.004813,
-							["tipo"] = 3,
-							["aID"] = "1301-0B465EB0",
 							["last_event"] = 1648384055,
+							["aID"] = "1301-0B465EB0",
+							["tipo"] = 3,
 							["serial"] = "Player-1301-0B465EB0",
 							["totalover"] = 0.004813,
 						}, -- [1]
@@ -7070,11 +7070,11 @@ _detalhes_database = {
 				},
 				["end_time"] = 3119.304,
 				["combat_id"] = 53,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Vor'thik Fear-Shaper",
 				["frags"] = {
 					["Vor'thik Fear-Shaper"] = 1,
+				},
+				["contra"] = "Vor'thik Fear-Shaper",
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1764,
 				["data_inicio"] = "15:27:31",
@@ -7108,13 +7108,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 77615.003299,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["end_time"] = 1648384047,
 							["aID"] = "1301-0B465EB0",
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Serthaxion",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7155,10 +7155,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648384045,
-							["last_dps"] = 152485.2717072648,
+							["damage_taken"] = 0.003299,
 							["start_time"] = 1648384045,
 							["delay"] = 0,
-							["damage_taken"] = 0.003299,
+							["last_dps"] = 152485.2717072648,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -7171,15 +7171,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-62813-00003FD33C",
 							["pets"] = {
 							},
-							["end_time"] = 1648384047,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "62813",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.007278,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.007278,
+							["end_time"] = 1648384047,
 							["on_hold"] = false,
 							["last_event"] = 0,
 							["nome"] = "Vor'thik Dreadsworn",
@@ -7188,16 +7188,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 77615.007278,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.007278,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 77615.007278,
 							["start_time"] = 1648384047,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -7251,9 +7251,9 @@ _detalhes_database = {
 							["spec"] = 252,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.002197,
-							["tipo"] = 3,
-							["aID"] = "1301-0B465EB0",
 							["last_event"] = 1648384050,
+							["aID"] = "1301-0B465EB0",
+							["tipo"] = 3,
 							["serial"] = "Player-1301-0B465EB0",
 							["totalover"] = 0.002197,
 						}, -- [1]
@@ -7397,11 +7397,11 @@ _detalhes_database = {
 				},
 				["end_time"] = 3114.036,
 				["combat_id"] = 52,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Vor'thik Dreadsworn",
 				["frags"] = {
 					["Vor'thik Dreadsworn"] = 1,
+				},
+				["contra"] = "Vor'thik Dreadsworn",
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1763,
 				["data_inicio"] = "15:27:26",
@@ -7524,13 +7524,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 142094.007588,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["total"] = 142094.007588,
 							["classe"] = "DEATHKNIGHT",
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Serthaxion",
 							["spec"] = 252,
 							["grupo"] = true,
@@ -7539,10 +7539,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648384040,
-							["last_dps"] = 43137.2214899835,
+							["damage_taken"] = 0.007588,
 							["start_time"] = 1648384037,
 							["delay"] = 0,
-							["damage_taken"] = 0.007588,
+							["last_dps"] = 43137.2214899835,
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
@@ -7555,15 +7555,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-65996-0001BFEC76",
 							["pets"] = {
 							},
-							["end_time"] = 1648384040,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "65996",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004949,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.004949,
+							["end_time"] = 1648384040,
 							["on_hold"] = false,
 							["last_event"] = 1648384039,
 							["nome"] = "Nagging Dreadling",
@@ -7601,16 +7601,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 77556.004949,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.004949,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 77556.004949,
 							["start_time"] = 1648384040,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
@@ -7623,15 +7623,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-62814-00004032DB",
 							["pets"] = {
 							},
-							["end_time"] = 1648384040,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "62814",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.001207,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.001207,
+							["end_time"] = 1648384040,
 							["on_hold"] = false,
 							["last_event"] = 1648384040,
 							["nome"] = "Vor'thik Fear-Shaper",
@@ -7669,16 +7669,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 64538.001207,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.001207,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 64538.001207,
 							["start_time"] = 1648384040,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [3]
 					},
 				}, -- [1]
@@ -7732,9 +7732,9 @@ _detalhes_database = {
 							["spec"] = 252,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.001938,
-							["tipo"] = 3,
-							["aID"] = "1301-0B465EB0",
 							["last_event"] = 1648384045,
+							["aID"] = "1301-0B465EB0",
+							["tipo"] = 3,
 							["serial"] = "Player-1301-0B465EB0",
 							["totalover"] = 0.001938,
 						}, -- [1]
@@ -7900,12 +7900,12 @@ _detalhes_database = {
 				},
 				["end_time"] = 3107.567,
 				["combat_id"] = 51,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Vor'thik Fear-Shaper",
 				["frags"] = {
 					["Nagging Dreadling"] = 5,
 					["Vor'thik Fear-Shaper"] = 2,
+				},
+				["contra"] = "Vor'thik Fear-Shaper",
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1762,
 				["data_inicio"] = "15:27:17",
@@ -7941,13 +7941,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 61350.00187,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["end_time"] = 1648384031,
 							["aID"] = "1301-0B465EB0",
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Serthaxion",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -8045,10 +8045,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648384030,
-							["last_dps"] = 17433.93062517645,
+							["damage_taken"] = 0.00187,
 							["start_time"] = 1648384027,
 							["delay"] = 0,
-							["damage_taken"] = 0.00187,
+							["last_dps"] = 17433.93062517645,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -8061,15 +8061,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-62814-00004036C3",
 							["pets"] = {
 							},
-							["end_time"] = 1648384031,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "62814",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004769,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.004769,
+							["end_time"] = 1648384031,
 							["on_hold"] = false,
 							["last_event"] = 0,
 							["nome"] = "Vor'thik Fear-Shaper",
@@ -8078,16 +8078,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 10362.004769,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.004769,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 10362.004769,
 							["start_time"] = 1648384031,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
@@ -8100,15 +8100,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-65575-00004037AA",
 							["pets"] = {
 							},
-							["end_time"] = 1648384031,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "65575",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.001426,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.001426,
+							["end_time"] = 1648384031,
 							["on_hold"] = false,
 							["last_event"] = 1648384030,
 							["nome"] = "Vor'thik Swarmborn",
@@ -8147,16 +8147,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 50923.001426,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.001426,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 50923.001426,
 							["start_time"] = 1648384031,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [3]
 						{
 							["flag_original"] = 2600,
@@ -8168,16 +8168,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["friendlyfire_total"] = 0,
-							["dps_started"] = false,
 							["aID"] = "64807",
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.003442,
 							["serial"] = "Creature-0-1631-870-78-64807-00003FD42C",
-							["fight_component"] = true,
-							["total"] = 0.003442,
+							["dps_started"] = false,
 							["end_time"] = 1648384031,
+							["total"] = 0.003442,
 							["friendlyfire"] = {
 							},
 							["nome"] = "Resilient Roach",
@@ -8194,7 +8194,7 @@ _detalhes_database = {
 							["damage_taken"] = 65.003442,
 							["start_time"] = 1648384031,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [4]
 					},
 				}, -- [1]
@@ -8239,9 +8239,9 @@ _detalhes_database = {
 							["spec"] = 252,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.005857,
-							["tipo"] = 3,
-							["aID"] = "1301-0B465EB0",
 							["last_event"] = 1648384037,
+							["aID"] = "1301-0B465EB0",
+							["tipo"] = 3,
 							["serial"] = "Player-1301-0B465EB0",
 							["totalover"] = 0.005857,
 						}, -- [1]
@@ -8270,7 +8270,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["buff_uptime"] = 4,
-							["aID"] = "1301-0B465EB0",
+							["classe"] = "DEATHKNIGHT",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[335152] = {
@@ -8288,19 +8288,19 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 3,
-							["nome"] = "Serthaxion",
-							["spec"] = 252,
-							["grupo"] = true,
-							["classe"] = "DEATHKNIGHT",
 							["buff_uptime_targets"] = {
 							},
-							["tipo"] = 4,
+							["spec"] = 252,
+							["grupo"] = true,
+							["aID"] = "1301-0B465EB0",
 							["debuff_uptime_targets"] = {
 							},
+							["last_event"] = 1648384031,
+							["nome"] = "Serthaxion",
 							["pets"] = {
 							},
 							["serial"] = "Player-1301-0B465EB0",
-							["last_event"] = 1648384031,
+							["tipo"] = 4,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -8404,13 +8404,13 @@ _detalhes_database = {
 				},
 				["end_time"] = 3098.64,
 				["combat_id"] = 50,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Vor'thik Fear-Shaper",
 				["frags"] = {
 					["Vor'thik Fear-Shaper"] = 1,
 					["Resilient Roach"] = 1,
 					["Vor'thik Swarmborn"] = 3,
+				},
+				["contra"] = "Vor'thik Fear-Shaper",
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1761,
 				["data_inicio"] = "15:27:08",
@@ -8476,13 +8476,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 10347.004687,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["total"] = 10347.004687,
 							["classe"] = "DEATHKNIGHT",
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Serthaxion",
 							["spec"] = 252,
 							["grupo"] = true,
@@ -8491,10 +8491,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648384021,
-							["last_dps"] = 71358.65301380206,
+							["damage_taken"] = 0.004687,
 							["start_time"] = 1648384021,
 							["delay"] = 0,
-							["damage_taken"] = 0.004687,
+							["last_dps"] = 71358.65301380206,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -8507,15 +8507,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-62863-00003FEB30",
 							["pets"] = {
 							},
-							["end_time"] = 1648384022,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "62863",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.002494,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.002494,
+							["end_time"] = 1648384022,
 							["on_hold"] = false,
 							["last_event"] = 0,
 							["nome"] = "Qi'tar the Deathcaller",
@@ -8524,16 +8524,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 10347.002494,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.002494,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 10347.002494,
 							["start_time"] = 1648384022,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -8578,9 +8578,9 @@ _detalhes_database = {
 							["spec"] = 252,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.002899,
-							["tipo"] = 3,
-							["aID"] = "1301-0B465EB0",
 							["last_event"] = 1648384027,
+							["aID"] = "1301-0B465EB0",
+							["tipo"] = 3,
 							["serial"] = "Player-1301-0B465EB0",
 							["totalover"] = 0.002899,
 						}, -- [1]
@@ -8724,12 +8724,12 @@ _detalhes_database = {
 				},
 				["end_time"] = 3089.268,
 				["combat_id"] = 49,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Qi'tar the Deathcaller",
 				["frags"] = {
 					["Qi'tar the Deathcaller"] = 1,
 					["Vor'thik Fear-Shaper"] = 1,
+				},
+				["contra"] = "Qi'tar the Deathcaller",
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1760,
 				["data_inicio"] = "15:27:01",
@@ -8825,13 +8825,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 35633.003707,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["total"] = 52731.003707,
 							["classe"] = "DEATHKNIGHT",
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Serthaxion",
 							["spec"] = 252,
 							["grupo"] = true,
@@ -8840,10 +8840,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648383927,
-							["last_dps"] = 38801.32723105442,
+							["damage_taken"] = 0.003707,
 							["start_time"] = 1648383926,
 							["delay"] = 0,
-							["damage_taken"] = 0.003707,
+							["last_dps"] = 38801.32723105442,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -8856,15 +8856,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-62749-00004057B3",
 							["pets"] = {
 							},
-							["end_time"] = 1648383929,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "62749",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.002279,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.002279,
+							["end_time"] = 1648383929,
 							["on_hold"] = false,
 							["last_event"] = 0,
 							["nome"] = "Shek'zeer Bladesworn",
@@ -8873,16 +8873,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 10377.002279,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.002279,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 10377.002279,
 							["start_time"] = 1648383929,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
@@ -8894,15 +8894,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1648383929,
+							["total"] = 17098.001623,
 							["last_event"] = 1648383927,
-							["aID"] = "Pet-0-1631-870-78-26125-0502F9C049",
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 17098.001623,
 							["serial"] = "Pet-0-1631-870-78-26125-0502F9C049",
 							["dps_started"] = false,
-							["total"] = 17098.001623,
+							["end_time"] = 1648383929,
 							["friendlyfire_total"] = 0,
 							["ownerName"] = "Serthaxion",
 							["nome"] = "Rockbender <Serthaxion>",
@@ -8948,7 +8948,7 @@ _detalhes_database = {
 							["damage_taken"] = 0.001623,
 							["start_time"] = 1648383927,
 							["delay"] = 0,
-							["classe"] = "PET",
+							["aID"] = "Pet-0-1631-870-78-26125-0502F9C049",
 						}, -- [3]
 						{
 							["flag_original"] = 2632,
@@ -8962,15 +8962,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-62748-0000C057B3",
 							["pets"] = {
 							},
-							["end_time"] = 1648383929,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "62748",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.008758,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.008758,
+							["end_time"] = 1648383929,
 							["on_hold"] = false,
 							["last_event"] = 1648383927,
 							["nome"] = "Shek'zeer Swarmborn",
@@ -9008,16 +9008,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 42354.008758,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.008758,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 42354.008758,
 							["start_time"] = 1648383929,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [4]
 					},
 				}, -- [1]
@@ -9062,9 +9062,9 @@ _detalhes_database = {
 							["spec"] = 252,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.005063,
-							["tipo"] = 3,
-							["aID"] = "1301-0B465EB0",
 							["last_event"] = 1648384021,
+							["aID"] = "1301-0B465EB0",
+							["tipo"] = 3,
 							["serial"] = "Player-1301-0B465EB0",
 							["totalover"] = 0.005063,
 						}, -- [1]
@@ -9093,7 +9093,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["buff_uptime"] = 3,
-							["aID"] = "1301-0B465EB0",
+							["classe"] = "DEATHKNIGHT",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[335152] = {
@@ -9111,19 +9111,19 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 1,
-							["nome"] = "Serthaxion",
-							["spec"] = 252,
-							["grupo"] = true,
-							["classe"] = "DEATHKNIGHT",
 							["buff_uptime_targets"] = {
 							},
-							["tipo"] = 4,
+							["spec"] = 252,
+							["grupo"] = true,
+							["aID"] = "1301-0B465EB0",
 							["debuff_uptime_targets"] = {
 							},
+							["last_event"] = 1648383929,
+							["nome"] = "Serthaxion",
 							["pets"] = {
 							},
 							["serial"] = "Player-1301-0B465EB0",
-							["last_event"] = 1648383929,
+							["tipo"] = 4,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -9227,12 +9227,12 @@ _detalhes_database = {
 				},
 				["end_time"] = 2996.608,
 				["combat_id"] = 48,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Shek'zeer Bladesworn",
 				["frags"] = {
 					["Shek'zeer Swarmborn"] = 3,
 					["Shek'zeer Bladesworn"] = 1,
+				},
+				["contra"] = "Shek'zeer Bladesworn",
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1759,
 				["data_inicio"] = "15:25:27",
@@ -9327,13 +9327,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 35404.004734,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["total"] = 52502.004734,
 							["classe"] = "DEATHKNIGHT",
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Serthaxion",
 							["spec"] = 252,
 							["grupo"] = true,
@@ -9342,10 +9342,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648383906,
-							["last_dps"] = 44008.38619782961,
+							["damage_taken"] = 0.004734,
 							["start_time"] = 1648383904,
 							["delay"] = 0,
-							["damage_taken"] = 0.004734,
+							["last_dps"] = 44008.38619782961,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -9359,15 +9359,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-62748-000040579F",
 							["pets"] = {
 							},
-							["end_time"] = 1648383907,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "62748",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.001819,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.001819,
+							["end_time"] = 1648383907,
 							["on_hold"] = false,
 							["last_event"] = 1648383906,
 							["nome"] = "Shek'zeer Swarmborn",
@@ -9405,16 +9405,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 52502.001819,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.001819,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 52502.001819,
 							["start_time"] = 1648383907,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
@@ -9426,15 +9426,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1648383907,
+							["total"] = 17098.001579,
 							["last_event"] = 1648383906,
-							["aID"] = "Pet-0-1631-870-78-26125-0502F9C049",
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 17098.001579,
 							["serial"] = "Pet-0-1631-870-78-26125-0502F9C049",
 							["dps_started"] = false,
-							["total"] = 17098.001579,
+							["end_time"] = 1648383907,
 							["friendlyfire_total"] = 0,
 							["ownerName"] = "Serthaxion",
 							["nome"] = "Rockbender <Serthaxion>",
@@ -9480,7 +9480,7 @@ _detalhes_database = {
 							["damage_taken"] = 0.001579,
 							["start_time"] = 1648383906,
 							["delay"] = 0,
-							["classe"] = "PET",
+							["aID"] = "Pet-0-1631-870-78-26125-0502F9C049",
 						}, -- [3]
 					},
 				}, -- [1]
@@ -9525,9 +9525,9 @@ _detalhes_database = {
 							["spec"] = 252,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.005346,
-							["tipo"] = 3,
-							["aID"] = "1301-0B465EB0",
 							["last_event"] = 1648383926,
+							["aID"] = "1301-0B465EB0",
+							["tipo"] = 3,
 							["serial"] = "Player-1301-0B465EB0",
 							["totalover"] = 0.005346,
 						}, -- [1]
@@ -9556,7 +9556,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["buff_uptime"] = 3,
-							["aID"] = "1301-0B465EB0",
+							["classe"] = "DEATHKNIGHT",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[335152] = {
@@ -9574,19 +9574,19 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 2,
-							["nome"] = "Serthaxion",
-							["spec"] = 252,
-							["grupo"] = true,
-							["classe"] = "DEATHKNIGHT",
 							["buff_uptime_targets"] = {
 							},
-							["tipo"] = 4,
+							["spec"] = 252,
+							["grupo"] = true,
+							["aID"] = "1301-0B465EB0",
 							["debuff_uptime_targets"] = {
 							},
+							["last_event"] = 1648383907,
+							["nome"] = "Serthaxion",
 							["pets"] = {
 							},
 							["serial"] = "Player-1301-0B465EB0",
-							["last_event"] = 1648383907,
+							["tipo"] = 4,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -9690,11 +9690,11 @@ _detalhes_database = {
 				},
 				["end_time"] = 2974.702,
 				["combat_id"] = 47,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Shek'zeer Swarmborn",
 				["frags"] = {
 					["Shek'zeer Swarmborn"] = 3,
+				},
+				["contra"] = "Shek'zeer Swarmborn",
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1758,
 				["data_inicio"] = "15:25:05",
@@ -9789,13 +9789,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 47530.001246,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["total"] = 66324.001246,
 							["classe"] = "DEATHKNIGHT",
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Serthaxion",
 							["spec"] = 252,
 							["grupo"] = true,
@@ -9804,10 +9804,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648383893,
-							["last_dps"] = 39455.08699940418,
+							["damage_taken"] = 0.001246,
 							["start_time"] = 1648383892,
 							["delay"] = 0,
-							["damage_taken"] = 0.001246,
+							["last_dps"] = 39455.08699940418,
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
@@ -9821,15 +9821,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-62582-000140578F",
 							["pets"] = {
 							},
-							["end_time"] = 1648383895,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "62582",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.005973,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.005973,
+							["end_time"] = 1648383895,
 							["on_hold"] = false,
 							["last_event"] = 1648383893,
 							["nome"] = "Shek'zeer Swarmborn",
@@ -9867,16 +9867,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 66324.00597299999,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.005973,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 66324.00597299999,
 							["start_time"] = 1648383895,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
@@ -9888,15 +9888,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1648383895,
+							["total"] = 18794.006653,
 							["last_event"] = 1648383893,
-							["aID"] = "Pet-0-1631-870-78-26125-0502F9C049",
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 18794.006653,
 							["serial"] = "Pet-0-1631-870-78-26125-0502F9C049",
 							["dps_started"] = false,
-							["total"] = 18794.006653,
+							["end_time"] = 1648383895,
 							["friendlyfire_total"] = 0,
 							["ownerName"] = "Serthaxion",
 							["nome"] = "Rockbender <Serthaxion>",
@@ -9942,7 +9942,7 @@ _detalhes_database = {
 							["damage_taken"] = 0.006653,
 							["start_time"] = 1648383893,
 							["delay"] = 0,
-							["classe"] = "PET",
+							["aID"] = "Pet-0-1631-870-78-26125-0502F9C049",
 						}, -- [3]
 					},
 				}, -- [1]
@@ -9987,9 +9987,9 @@ _detalhes_database = {
 							["spec"] = 252,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.007265,
-							["tipo"] = 3,
-							["aID"] = "1301-0B465EB0",
 							["last_event"] = 1648383904,
+							["aID"] = "1301-0B465EB0",
+							["tipo"] = 3,
 							["serial"] = "Player-1301-0B465EB0",
 							["totalover"] = 0.007265,
 						}, -- [1]
@@ -10155,11 +10155,11 @@ _detalhes_database = {
 				},
 				["end_time"] = 2962.076,
 				["combat_id"] = 46,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Shek'zeer Swarmborn",
 				["frags"] = {
 					["Shek'zeer Swarmborn"] = 4,
+				},
+				["contra"] = "Shek'zeer Swarmborn",
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1757,
 				["data_inicio"] = "15:24:52",
@@ -10193,13 +10193,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 62208.005497,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["end_time"] = 1648383892,
 							["aID"] = "1301-0B465EB0",
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Serthaxion",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -10268,10 +10268,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648383892,
-							["last_dps"] = 36346.03978203711,
+							["damage_taken"] = 0.005497,
 							["start_time"] = 1648383889,
 							["delay"] = 0,
-							["damage_taken"] = 0.005497,
+							["last_dps"] = 36346.03978203711,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -10284,15 +10284,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-62748-000040578F",
 							["pets"] = {
 							},
-							["end_time"] = 1648383890,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "62748",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.002563,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.002563,
+							["end_time"] = 1648383890,
 							["on_hold"] = false,
 							["last_event"] = 0,
 							["nome"] = "Shek'zeer Swarmborn",
@@ -10301,16 +10301,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 62208.002563,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.002563,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 62208.002563,
 							["start_time"] = 1648383890,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -10349,7 +10349,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["buff_uptime"] = 1,
-							["aID"] = "1301-0B465EB0",
+							["classe"] = "DEATHKNIGHT",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[335152] = {
@@ -10367,19 +10367,19 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 1,
-							["nome"] = "Serthaxion",
-							["spec"] = 252,
-							["grupo"] = true,
-							["classe"] = "DEATHKNIGHT",
 							["buff_uptime_targets"] = {
 							},
-							["tipo"] = 4,
+							["spec"] = 252,
+							["grupo"] = true,
+							["aID"] = "1301-0B465EB0",
 							["debuff_uptime_targets"] = {
 							},
+							["last_event"] = 1648383890,
+							["nome"] = "Serthaxion",
 							["pets"] = {
 							},
 							["serial"] = "Player-1301-0B465EB0",
-							["last_event"] = 1648383890,
+							["tipo"] = 4,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -10440,25 +10440,7 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["Serthaxion"] = 10504.005497,
-						}, -- [1]
-					},
-				},
+				["data_inicio"] = "15:24:49",
 				["end_time"] = 2957.211,
 				["combat_id"] = 45,
 				["frags"] = {
@@ -10497,7 +10479,25 @@ _detalhes_database = {
 				},
 				["start_time"] = 2956.209,
 				["contra"] = "Shek'zeer Swarmborn",
-				["data_inicio"] = "15:24:49",
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Serthaxion"] = 10504.005497,
+						}, -- [1]
+					},
+				},
 			}, -- [26]
 			{
 				{
@@ -10664,13 +10664,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 200948.003582,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["total"] = 200948.003582,
 							["classe"] = "DEATHKNIGHT",
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Serthaxion",
 							["spec"] = 252,
 							["grupo"] = true,
@@ -10679,10 +10679,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648383777,
-							["last_dps"] = 50782.91725600357,
+							["damage_taken"] = 0.003582,
 							["start_time"] = 1648383773,
 							["delay"] = 0,
-							["damage_taken"] = 0.003582,
+							["last_dps"] = 50782.91725600357,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -10695,15 +10695,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-62582-0000403081",
 							["pets"] = {
 							},
-							["end_time"] = 1648383777,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "62582",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.00115,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.00115,
+							["end_time"] = 1648383777,
 							["on_hold"] = false,
 							["last_event"] = 1648383777,
 							["nome"] = "Shek'zeer Swarmborn",
@@ -10742,16 +10742,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 200948.00115,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.00115,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 200948.00115,
 							["start_time"] = 1648383777,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -10814,9 +10814,9 @@ _detalhes_database = {
 							["spec"] = 252,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.008185,
-							["tipo"] = 3,
-							["aID"] = "1301-0B465EB0",
 							["last_event"] = 1648383889,
+							["aID"] = "1301-0B465EB0",
+							["tipo"] = 3,
 							["serial"] = "Player-1301-0B465EB0",
 							["totalover"] = 39.008185,
 						}, -- [1]
@@ -11006,11 +11006,11 @@ _detalhes_database = {
 				},
 				["end_time"] = 2844.198,
 				["combat_id"] = 44,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Shek'zeer Swarmborn",
 				["frags"] = {
 					["Shek'zeer Swarmborn"] = 6,
+				},
+				["contra"] = "Shek'zeer Swarmborn",
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1755,
 				["data_inicio"] = "15:22:53",
@@ -11045,13 +11045,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 118837.003398,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["end_time"] = 1648383770,
 							["aID"] = "1301-0B465EB0",
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Serthaxion",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -11122,10 +11122,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648383769,
-							["last_dps"] = 17465.75593738955,
+							["damage_taken"] = 0.003398,
 							["start_time"] = 1648383763,
 							["delay"] = 0,
-							["damage_taken"] = 0.003398,
+							["last_dps"] = 17465.75593738955,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -11138,15 +11138,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-62582-0000403080",
 							["pets"] = {
 							},
-							["end_time"] = 1648383770,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "62582",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.008485,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.008485,
+							["end_time"] = 1648383770,
 							["on_hold"] = false,
 							["last_event"] = 1648383768,
 							["nome"] = "Shek'zeer Swarmborn",
@@ -11184,16 +11184,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 72077.008485,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.008485,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 72077.008485,
 							["start_time"] = 1648383770,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
@@ -11206,15 +11206,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-64559-000040317A",
 							["pets"] = {
 							},
-							["end_time"] = 1648383770,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "64559",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.005445,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.005445,
+							["end_time"] = 1648383770,
 							["on_hold"] = false,
 							["last_event"] = 1648383764,
 							["nome"] = "Shek'zeer Clutch-Keeper",
@@ -11278,16 +11278,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 46760.005445,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.005445,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 46760.005445,
 							["start_time"] = 1648383770,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [3]
 					},
 				}, -- [1]
@@ -11332,9 +11332,9 @@ _detalhes_database = {
 							["spec"] = 252,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.002465,
-							["tipo"] = 3,
-							["aID"] = "1301-0B465EB0",
 							["last_event"] = 1648383773,
+							["aID"] = "1301-0B465EB0",
+							["tipo"] = 3,
 							["serial"] = "Player-1301-0B465EB0",
 							["totalover"] = 18.70246504768372,
 						}, -- [1]
@@ -11411,18 +11411,18 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["monster"] = true,
-							["tipo"] = 4,
+							["classe"] = "UNKNOW",
 							["nome"] = "Shek'zeer Clutch-Keeper",
 							["flag_original"] = 2632,
-							["spell_cast"] = {
-								[128803] = 2,
+							["pets"] = {
 							},
 							["fight_component"] = true,
-							["aID"] = "64559",
 							["last_event"] = 0,
-							["classe"] = "UNKNOW",
+							["aID"] = "64559",
+							["tipo"] = 4,
 							["serial"] = "Creature-0-1631-870-78-64559-000040317A",
-							["pets"] = {
+							["spell_cast"] = {
+								[128803] = 2,
 							},
 						}, -- [2]
 					},
@@ -11527,12 +11527,12 @@ _detalhes_database = {
 				},
 				["end_time"] = 2837.679,
 				["combat_id"] = 43,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Shek'zeer Swarmborn",
 				["frags"] = {
 					["Shek'zeer Clutch-Keeper"] = 3,
 					["Shek'zeer Swarmborn"] = 5,
+				},
+				["contra"] = "Shek'zeer Swarmborn",
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1754,
 				["data_inicio"] = "15:22:44",
@@ -11626,13 +11626,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 62411.002279,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["total"] = 62411.002279,
 							["classe"] = "DEATHKNIGHT",
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Serthaxion",
 							["spec"] = 252,
 							["grupo"] = true,
@@ -11641,10 +11641,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648383751,
-							["last_dps"] = 143804.1527166755,
+							["damage_taken"] = 0.002279,
 							["start_time"] = 1648383751,
 							["delay"] = 0,
-							["damage_taken"] = 0.002279,
+							["last_dps"] = 143804.1527166755,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -11657,15 +11657,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-65995-00003F6950",
 							["pets"] = {
 							},
-							["end_time"] = 1648383752,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "65995",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.006546,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.006546,
+							["end_time"] = 1648383752,
 							["on_hold"] = false,
 							["last_event"] = 0,
 							["nome"] = "Shek'zeer Bladesworn",
@@ -11674,16 +11674,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 62411.006546,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.006546,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 62411.006546,
 							["start_time"] = 1648383752,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -11728,9 +11728,9 @@ _detalhes_database = {
 							["spec"] = 252,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.003875,
-							["tipo"] = 3,
-							["aID"] = "1301-0B465EB0",
 							["last_event"] = 1648383763,
+							["aID"] = "1301-0B465EB0",
+							["tipo"] = 3,
 							["serial"] = "Player-1301-0B465EB0",
 							["totalover"] = 0.003875,
 						}, -- [1]
@@ -11842,25 +11842,7 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["Serthaxion"] = 62411.002279,
-						}, -- [1]
-					},
-				},
+				["data_inicio"] = "15:22:32",
 				["end_time"] = 2819.849,
 				["combat_id"] = 42,
 				["frags"] = {
@@ -11899,7 +11881,25 @@ _detalhes_database = {
 				},
 				["start_time"] = 2818.608,
 				["contra"] = "Shek'zeer Bladesworn",
-				["data_inicio"] = "15:22:32",
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Serthaxion"] = 62411.002279,
+						}, -- [1]
+					},
+				},
 			}, -- [29]
 			{
 				{
@@ -11954,13 +11954,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 10521.004819,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["total"] = 10521.004819,
 							["classe"] = "DEATHKNIGHT",
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Serthaxion",
 							["spec"] = 252,
 							["grupo"] = true,
@@ -11969,10 +11969,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648383742,
-							["last_dps"] = 65756.28011862292,
+							["damage_taken"] = 0.004819,
 							["start_time"] = 1648383742,
 							["delay"] = 0,
-							["damage_taken"] = 0.004819,
+							["last_dps"] = 65756.28011862292,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -11985,15 +11985,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-64559-0000403177",
 							["pets"] = {
 							},
-							["end_time"] = 1648383743,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "64559",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.002367,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.002367,
+							["end_time"] = 1648383743,
 							["on_hold"] = false,
 							["last_event"] = 0,
 							["nome"] = "Shek'zeer Clutch-Keeper",
@@ -12028,16 +12028,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 10521.002367,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.002367,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 10521.002367,
 							["start_time"] = 1648383743,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -12082,9 +12082,9 @@ _detalhes_database = {
 							["spec"] = 252,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.008629,
-							["tipo"] = 3,
-							["aID"] = "1301-0B465EB0",
 							["last_event"] = 1648383751,
+							["aID"] = "1301-0B465EB0",
+							["tipo"] = 3,
 							["serial"] = "Player-1301-0B465EB0",
 							["totalover"] = 0.008629,
 						}, -- [1]
@@ -12139,18 +12139,18 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["monster"] = true,
-							["tipo"] = 4,
+							["classe"] = "UNKNOW",
 							["nome"] = "Shek'zeer Clutch-Keeper",
 							["flag_original"] = 2632,
-							["spell_cast"] = {
-								[128803] = 1,
+							["pets"] = {
 							},
 							["fight_component"] = true,
-							["aID"] = "64559",
 							["last_event"] = 0,
-							["classe"] = "UNKNOW",
+							["aID"] = "64559",
+							["tipo"] = 4,
 							["serial"] = "Creature-0-1631-870-78-64559-000040317A",
-							["pets"] = {
+							["spell_cast"] = {
+								[128803] = 1,
 							},
 						}, -- [2]
 					},
@@ -12255,11 +12255,11 @@ _detalhes_database = {
 				},
 				["end_time"] = 2810.496,
 				["combat_id"] = 41,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Shek'zeer Clutch-Keeper",
 				["frags"] = {
 					["Shek'zeer Clutch-Keeper"] = 1,
+				},
+				["contra"] = "Shek'zeer Clutch-Keeper",
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1752,
 				["data_inicio"] = "15:22:23",
@@ -12325,13 +12325,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 10164.004017,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["total"] = 10164.004017,
 							["classe"] = "DEATHKNIGHT",
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Serthaxion",
 							["spec"] = 252,
 							["grupo"] = true,
@@ -12340,10 +12340,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648383738,
-							["last_dps"] = 19929.41964116794,
+							["damage_taken"] = 0.004017,
 							["start_time"] = 1648383738,
 							["delay"] = 0,
-							["damage_taken"] = 0.004017,
+							["last_dps"] = 19929.41964116794,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -12356,15 +12356,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-64559-0000403139",
 							["pets"] = {
 							},
-							["end_time"] = 1648383739,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "64559",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.006701,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.006701,
+							["end_time"] = 1648383739,
 							["on_hold"] = false,
 							["last_event"] = 0,
 							["nome"] = "Shek'zeer Clutch-Keeper",
@@ -12373,16 +12373,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 10164.006701,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.006701,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 10164.006701,
 							["start_time"] = 1648383739,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -12427,9 +12427,9 @@ _detalhes_database = {
 							["spec"] = 252,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.007579,
-							["tipo"] = 3,
-							["aID"] = "1301-0B465EB0",
 							["last_event"] = 1648383742,
+							["aID"] = "1301-0B465EB0",
+							["tipo"] = 3,
 							["serial"] = "Player-1301-0B465EB0",
 							["totalover"] = 0.007579,
 						}, -- [1]
@@ -12584,11 +12584,11 @@ _detalhes_database = {
 				},
 				["end_time"] = 2806.453,
 				["combat_id"] = 40,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Shek'zeer Clutch-Keeper",
 				["frags"] = {
 					["Shek'zeer Clutch-Keeper"] = 1,
+				},
+				["contra"] = "Shek'zeer Clutch-Keeper",
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1751,
 				["data_inicio"] = "15:22:18",
@@ -12711,13 +12711,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 134012.004566,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["total"] = 134012.004566,
 							["classe"] = "DEATHKNIGHT",
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Serthaxion",
 							["spec"] = 252,
 							["grupo"] = true,
@@ -12726,10 +12726,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648383735,
-							["last_dps"] = 26158.89216591817,
+							["damage_taken"] = 0.004566,
 							["start_time"] = 1648383730,
 							["delay"] = 0,
-							["damage_taken"] = 0.004566,
+							["last_dps"] = 26158.89216591817,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -12742,15 +12742,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-64559-0000BFEB29",
 							["pets"] = {
 							},
-							["end_time"] = 1648383736,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "64559",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.00213,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.00213,
+							["end_time"] = 1648383736,
 							["on_hold"] = false,
 							["last_event"] = 0,
 							["nome"] = "Shek'zeer Clutch-Keeper",
@@ -12811,16 +12811,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 20949.00213,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.00213,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 20949.00213,
 							["start_time"] = 1648383736,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
@@ -12833,15 +12833,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-62582-0000C056E1",
 							["pets"] = {
 							},
-							["end_time"] = 1648383736,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "62582",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004118,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.004118,
+							["end_time"] = 1648383736,
 							["on_hold"] = false,
 							["last_event"] = 0,
 							["nome"] = "Shek'zeer Swarmborn",
@@ -12850,16 +12850,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 113063.004118,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.004118,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 113063.004118,
 							["start_time"] = 1648383736,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [3]
 					},
 				}, -- [1]
@@ -12922,9 +12922,9 @@ _detalhes_database = {
 							["spec"] = 252,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.005251,
-							["tipo"] = 3,
-							["aID"] = "1301-0B465EB0",
 							["last_event"] = 1648383738,
+							["aID"] = "1301-0B465EB0",
+							["tipo"] = 3,
 							["serial"] = "Player-1301-0B465EB0",
 							["totalover"] = 0.005251,
 						}, -- [1]
@@ -13013,19 +13013,19 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["monster"] = true,
-							["tipo"] = 4,
+							["classe"] = "UNKNOW",
 							["nome"] = "Shek'zeer Clutch-Keeper",
 							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["last_event"] = 0,
+							["aID"] = "64559",
+							["tipo"] = 4,
+							["serial"] = "Creature-0-1631-870-78-64559-000040317A",
 							["spell_cast"] = {
 								[128803] = 2,
 								[128282] = 1,
-							},
-							["fight_component"] = true,
-							["aID"] = "64559",
-							["last_event"] = 0,
-							["classe"] = "UNKNOW",
-							["serial"] = "Creature-0-1631-870-78-64559-000040317A",
-							["pets"] = {
 							},
 						}, -- [2]
 					},
@@ -13130,12 +13130,12 @@ _detalhes_database = {
 				},
 				["end_time"] = 2803.609,
 				["combat_id"] = 39,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Shek'zeer Clutch-Keeper",
 				["frags"] = {
 					["Shek'zeer Swarmborn"] = 3,
 					["Shek'zeer Clutch-Keeper"] = 1,
+				},
+				["contra"] = "Shek'zeer Clutch-Keeper",
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1750,
 				["data_inicio"] = "15:22:11",
@@ -13201,13 +13201,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 10090.006196,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["total"] = 10090.006196,
 							["classe"] = "DEATHKNIGHT",
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Serthaxion",
 							["spec"] = 252,
 							["grupo"] = true,
@@ -13216,10 +13216,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648383729,
-							["last_dps"] = 24254.82258652871,
+							["damage_taken"] = 0.006196,
 							["start_time"] = 1648383729,
 							["delay"] = 0,
-							["damage_taken"] = 0.006196,
+							["last_dps"] = 24254.82258652871,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -13232,15 +13232,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-62582-00014056EE",
 							["pets"] = {
 							},
-							["end_time"] = 1648383730,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "62582",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.001644,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.001644,
+							["end_time"] = 1648383730,
 							["on_hold"] = false,
 							["last_event"] = 0,
 							["nome"] = "Shek'zeer Swarmborn",
@@ -13249,16 +13249,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 10090.001644,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.001644,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 10090.001644,
 							["start_time"] = 1648383730,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -13303,9 +13303,9 @@ _detalhes_database = {
 							["spec"] = 252,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.00327,
-							["tipo"] = 3,
-							["aID"] = "1301-0B465EB0",
 							["last_event"] = 1648383730,
+							["aID"] = "1301-0B465EB0",
+							["tipo"] = 3,
 							["serial"] = "Player-1301-0B465EB0",
 							["totalover"] = 0.00327,
 						}, -- [1]
@@ -13471,11 +13471,11 @@ _detalhes_database = {
 				},
 				["end_time"] = 2797.532,
 				["combat_id"] = 38,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Shek'zeer Swarmborn",
 				["frags"] = {
 					["Shek'zeer Swarmborn"] = 1,
+				},
+				["contra"] = "Shek'zeer Swarmborn",
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1749,
 				["data_inicio"] = "15:22:10",
@@ -13598,13 +13598,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 112922.002164,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["total"] = 112922.002164,
 							["classe"] = "DEATHKNIGHT",
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Serthaxion",
 							["spec"] = 252,
 							["grupo"] = true,
@@ -13613,10 +13613,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648383728,
-							["last_dps"] = 76453.62367229235,
+							["damage_taken"] = 0.002164,
 							["start_time"] = 1648383726,
 							["delay"] = 0,
-							["damage_taken"] = 0.002164,
+							["last_dps"] = 76453.62367229235,
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
@@ -13629,15 +13629,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-62582-0000C056EB",
 							["pets"] = {
 							},
-							["end_time"] = 1648383728,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "62582",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.006931,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.006931,
+							["end_time"] = 1648383728,
 							["on_hold"] = false,
 							["last_event"] = 0,
 							["nome"] = "Shek'zeer Swarmborn",
@@ -13646,16 +13646,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 92004.00693100001,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.006931,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 92004.00693100001,
 							["start_time"] = 1648383728,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
@@ -13668,15 +13668,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-62563-00003FA1B4",
 							["pets"] = {
 							},
-							["end_time"] = 1648383728,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "62563",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.002396,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.002396,
+							["end_time"] = 1648383728,
 							["on_hold"] = false,
 							["last_event"] = 0,
 							["nome"] = "Shek'zeer Bladesworn",
@@ -13685,16 +13685,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 20918.002396,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.002396,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 20918.002396,
 							["start_time"] = 1648383728,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [3]
 					},
 				}, -- [1]
@@ -13739,9 +13739,9 @@ _detalhes_database = {
 							["spec"] = 252,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.001355,
-							["tipo"] = 3,
-							["aID"] = "1301-0B465EB0",
 							["last_event"] = 1648383729,
+							["aID"] = "1301-0B465EB0",
+							["tipo"] = 3,
 							["serial"] = "Player-1301-0B465EB0",
 							["totalover"] = 0.001355,
 						}, -- [1]
@@ -13929,12 +13929,12 @@ _detalhes_database = {
 				},
 				["end_time"] = 2795.099,
 				["combat_id"] = 37,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Shek'zeer Bladesworn",
 				["frags"] = {
 					["Shek'zeer Swarmborn"] = 5,
 					["Shek'zeer Bladesworn"] = 1,
+				},
+				["contra"] = "Shek'zeer Bladesworn",
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1748,
 				["data_inicio"] = "15:22:07",
@@ -13970,13 +13970,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 104825.006503,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["end_time"] = 1648383718,
 							["aID"] = "1301-0B465EB0",
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Serthaxion",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -14103,10 +14103,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648383718,
-							["last_dps"] = 21104.28961203904,
+							["damage_taken"] = 0.006503,
 							["start_time"] = 1648383713,
 							["delay"] = 0,
-							["damage_taken"] = 0.006503,
+							["last_dps"] = 21104.28961203904,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -14119,15 +14119,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-62563-0000BFA1B7",
 							["pets"] = {
 							},
-							["end_time"] = 1648383718,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "62563",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004587,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.004587,
+							["end_time"] = 1648383718,
 							["on_hold"] = false,
 							["last_event"] = 0,
 							["nome"] = "Shek'zeer Bladesworn",
@@ -14136,16 +14136,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 48794.004587,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.004587,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 48794.004587,
 							["start_time"] = 1648383718,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 2600,
@@ -14157,16 +14157,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["friendlyfire_total"] = 0,
-							["dps_started"] = false,
 							["aID"] = "64807",
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.003753,
 							["serial"] = "Creature-0-1631-870-78-64807-00003F888E",
-							["fight_component"] = true,
-							["total"] = 0.003753,
+							["dps_started"] = false,
 							["end_time"] = 1648383718,
+							["total"] = 0.003753,
 							["friendlyfire"] = {
 							},
 							["nome"] = "Resilient Roach",
@@ -14183,7 +14183,7 @@ _detalhes_database = {
 							["damage_taken"] = 65.003753,
 							["start_time"] = 1648383718,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [3]
 						{
 							["flag_original"] = 68168,
@@ -14196,15 +14196,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-62582-0000C05466",
 							["pets"] = {
 							},
-							["end_time"] = 1648383718,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "62582",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.002383,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.002383,
+							["end_time"] = 1648383718,
 							["on_hold"] = false,
 							["last_event"] = 1648383714,
 							["nome"] = "Shek'zeer Swarmborn",
@@ -14242,16 +14242,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 55966.002383,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.002383,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 55966.002383,
 							["start_time"] = 1648383718,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [4]
 					},
 				}, -- [1]
@@ -14296,9 +14296,9 @@ _detalhes_database = {
 							["spec"] = 252,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.00412,
-							["tipo"] = 3,
-							["aID"] = "1301-0B465EB0",
 							["last_event"] = 1648383726,
+							["aID"] = "1301-0B465EB0",
+							["tipo"] = 3,
 							["serial"] = "Player-1301-0B465EB0",
 							["totalover"] = 10.20412000298023,
 						}, -- [1]
@@ -14432,25 +14432,7 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["Serthaxion"] = 104825.006503,
-						}, -- [1]
-					},
-				},
+				["data_inicio"] = "15:21:54",
 				["end_time"] = 2785.826,
 				["combat_id"] = 36,
 				["frags"] = {
@@ -14491,7 +14473,25 @@ _detalhes_database = {
 				},
 				["start_time"] = 2780.859,
 				["contra"] = "Shek'zeer Bladesworn",
-				["data_inicio"] = "15:21:54",
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Serthaxion"] = 104825.006503,
+						}, -- [1]
+					},
+				},
 			}, -- [35]
 			{
 				{
@@ -14515,13 +14515,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 72006.00251399999,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["end_time"] = 1648383711,
 							["aID"] = "1301-0B465EB0",
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Serthaxion",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -14590,10 +14590,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648383711,
-							["last_dps"] = 14988.75989050764,
+							["damage_taken"] = 1.002514,
 							["start_time"] = 1648383706,
 							["delay"] = 0,
-							["damage_taken"] = 1.002514,
+							["last_dps"] = 14988.75989050764,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -14607,16 +14607,17 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-62582-0000403099",
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
 							["friendlyfire_total"] = 0,
+							["aID"] = "62582",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1.004988,
 							["monster"] = true,
 							["fight_component"] = true,
-							["end_time"] = 1648383711,
-							["damage_taken"] = 72006.004988,
+							["total"] = 1.004988,
+							["last_dps"] = 0,
 							["last_event"] = 1648383712,
 							["nome"] = "Shek'zeer Swarmborn",
 							["spells"] = {
@@ -14654,16 +14655,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["end_time"] = 1648383711,
 							["dps_started"] = false,
-							["total"] = 1.004988,
+							["damage_taken"] = 72006.004988,
 							["custom"] = 0,
 							["tipo"] = 1,
 							["on_hold"] = false,
 							["start_time"] = 1648383709,
 							["delay"] = 0,
-							["aID"] = "62582",
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -14708,9 +14708,9 @@ _detalhes_database = {
 							["spec"] = 252,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.007893,
-							["tipo"] = 3,
-							["aID"] = "1301-0B465EB0",
 							["last_event"] = 1648383713,
+							["aID"] = "1301-0B465EB0",
+							["tipo"] = 3,
 							["serial"] = "Player-1301-0B465EB0",
 							["totalover"] = 19.30789319073486,
 						}, -- [1]
@@ -14899,11 +14899,11 @@ _detalhes_database = {
 				},
 				["end_time"] = 2778.51,
 				["combat_id"] = 35,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Shek'zeer Swarmborn",
 				["frags"] = {
 					["Shek'zeer Swarmborn"] = 6,
+				},
+				["contra"] = "Shek'zeer Swarmborn",
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1746,
 				["data_inicio"] = "15:21:47",
@@ -14937,13 +14937,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 26035.007519,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["end_time"] = 1648383704,
 							["aID"] = "1301-0B465EB0",
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Serthaxion",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -14984,10 +14984,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648383703,
-							["last_dps"] = 115199.1483141018,
+							["damage_taken"] = 0.007519,
 							["start_time"] = 1648383703,
 							["delay"] = 0,
-							["damage_taken"] = 0.007519,
+							["last_dps"] = 115199.1483141018,
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
@@ -15000,15 +15000,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-62582-0000C056D5",
 							["pets"] = {
 							},
-							["end_time"] = 1648383704,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "62582",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.00661,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.00661,
+							["end_time"] = 1648383704,
 							["on_hold"] = false,
 							["last_event"] = 0,
 							["nome"] = "Shek'zeer Swarmborn",
@@ -15017,16 +15017,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 26035.00661,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.00661,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 26035.00661,
 							["start_time"] = 1648383704,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -15071,9 +15071,9 @@ _detalhes_database = {
 							["spec"] = 252,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.00814,
-							["tipo"] = 3,
-							["aID"] = "1301-0B465EB0",
 							["last_event"] = 1648383706,
+							["aID"] = "1301-0B465EB0",
+							["tipo"] = 3,
 							["serial"] = "Player-1301-0B465EB0",
 							["totalover"] = 7.408140095367432,
 						}, -- [1]
@@ -15239,11 +15239,11 @@ _detalhes_database = {
 				},
 				["end_time"] = 2772.009,
 				["combat_id"] = 34,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Shek'zeer Swarmborn",
 				["frags"] = {
 					["Shek'zeer Swarmborn"] = 6,
+				},
+				["contra"] = "Shek'zeer Swarmborn",
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1745,
 				["data_inicio"] = "15:21:44",
@@ -15277,13 +15277,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 97741.006857,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["end_time"] = 1648383697,
 							["aID"] = "1301-0B465EB0",
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Serthaxion",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -15352,10 +15352,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648383696,
-							["last_dps"] = 34994.98992373642,
+							["damage_taken"] = 0.006857,
 							["start_time"] = 1648383693,
 							["delay"] = 0,
-							["damage_taken"] = 0.006857,
+							["last_dps"] = 34994.98992373642,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -15368,15 +15368,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-62563-00003F87ED",
 							["pets"] = {
 							},
-							["end_time"] = 1648383697,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "62563",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.00646,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.00646,
+							["end_time"] = 1648383697,
 							["on_hold"] = false,
 							["last_event"] = 1648383695,
 							["nome"] = "Shek'zeer Bladesworn",
@@ -15414,16 +15414,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 97741.00646,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.00646,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 97741.00646,
 							["start_time"] = 1648383697,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -15495,9 +15495,9 @@ _detalhes_database = {
 							["spec"] = 252,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.004471,
-							["tipo"] = 3,
-							["aID"] = "1301-0B465EB0",
 							["last_event"] = 1648383703,
+							["aID"] = "1301-0B465EB0",
+							["tipo"] = 3,
 							["serial"] = "Player-1301-0B465EB0",
 							["totalover"] = 27.20447104768372,
 						}, -- [1]
@@ -15686,11 +15686,11 @@ _detalhes_database = {
 				},
 				["end_time"] = 2764.737,
 				["combat_id"] = 33,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Shek'zeer Bladesworn",
 				["frags"] = {
 					["Shek'zeer Bladesworn"] = 3,
+				},
+				["contra"] = "Shek'zeer Bladesworn",
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1744,
 				["data_inicio"] = "15:21:34",
@@ -15784,13 +15784,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 117526.00832,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["total"] = 117526.00832,
 							["classe"] = "DEATHKNIGHT",
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Serthaxion",
 							["spec"] = 252,
 							["grupo"] = true,
@@ -15799,10 +15799,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648383692,
-							["last_dps"] = 221747.1855093502,
+							["damage_taken"] = 0.00832,
 							["start_time"] = 1648383692,
 							["delay"] = 0,
-							["damage_taken"] = 0.00832,
+							["last_dps"] = 221747.1855093502,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -15815,15 +15815,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-65995-00003F87F6",
 							["pets"] = {
 							},
-							["end_time"] = 1648383693,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "65995",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.006604,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.006604,
+							["end_time"] = 1648383693,
 							["on_hold"] = false,
 							["last_event"] = 1648383692,
 							["nome"] = "Shek'zeer Bladesworn",
@@ -15861,16 +15861,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 117526.006604,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.006604,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 117526.006604,
 							["start_time"] = 1648383693,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -15924,9 +15924,9 @@ _detalhes_database = {
 							["spec"] = 252,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.007687,
-							["tipo"] = 3,
-							["aID"] = "1301-0B465EB0",
 							["last_event"] = 1648383693,
+							["aID"] = "1301-0B465EB0",
+							["tipo"] = 3,
 							["serial"] = "Player-1301-0B465EB0",
 							["totalover"] = 0.007687,
 						}, -- [1]
@@ -15955,7 +15955,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["buff_uptime"] = 2,
-							["aID"] = "1301-0B465EB0",
+							["classe"] = "DEATHKNIGHT",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[335152] = {
@@ -15984,19 +15984,19 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 0,
-							["nome"] = "Serthaxion",
-							["spec"] = 252,
-							["grupo"] = true,
-							["classe"] = "DEATHKNIGHT",
 							["buff_uptime_targets"] = {
 							},
-							["tipo"] = 4,
+							["spec"] = 252,
+							["grupo"] = true,
+							["aID"] = "1301-0B465EB0",
 							["debuff_uptime_targets"] = {
 							},
+							["last_event"] = 1648383693,
+							["nome"] = "Serthaxion",
 							["pets"] = {
 							},
 							["serial"] = "Player-1301-0B465EB0",
-							["last_event"] = 1648383693,
+							["tipo"] = 4,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -16100,11 +16100,11 @@ _detalhes_database = {
 				},
 				["end_time"] = 2760.24,
 				["combat_id"] = 32,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Shek'zeer Bladesworn",
 				["frags"] = {
 					["Shek'zeer Bladesworn"] = 1,
+				},
+				["contra"] = "Shek'zeer Bladesworn",
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1743,
 				["data_inicio"] = "15:21:32",
@@ -16199,13 +16199,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 51933.007638,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["serial"] = "Player-1301-0B465EB0",
 							["dps_started"] = false,
 							["total"] = 51933.007638,
 							["classe"] = "DEATHKNIGHT",
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Serthaxion",
 							["spec"] = 252,
 							["grupo"] = true,
@@ -16214,10 +16214,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1648383677,
-							["last_dps"] = 30930.9158058352,
+							["damage_taken"] = 0.007638,
 							["start_time"] = 1648383676,
 							["delay"] = 0,
-							["damage_taken"] = 0.007638,
+							["last_dps"] = 30930.9158058352,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -16230,15 +16230,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-64559-00003EF421",
 							["pets"] = {
 							},
-							["end_time"] = 1648383678,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "64559",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.006328,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.006328,
+							["end_time"] = 1648383678,
 							["on_hold"] = false,
 							["last_event"] = 0,
 							["nome"] = "Shek'zeer Clutch-Keeper",
@@ -16247,16 +16247,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 10157.006328,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.006328,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 10157.006328,
 							["start_time"] = 1648383678,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
@@ -16269,15 +16269,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-1631-870-78-62563-00003EF421",
 							["pets"] = {
 							},
-							["end_time"] = 1648383678,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["aID"] = "62563",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.002663,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.002663,
+							["end_time"] = 1648383678,
 							["on_hold"] = false,
 							["last_event"] = 1648383677,
 							["nome"] = "Shek'zeer Bladesworn",
@@ -16315,16 +16315,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 0,
-							["dps_started"] = false,
-							["damage_taken"] = 41776.002663,
-							["custom"] = 0,
-							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["total"] = 0.002663,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 41776.002663,
 							["start_time"] = 1648383678,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [3]
 					},
 				}, -- [1]
@@ -16369,9 +16369,9 @@ _detalhes_database = {
 							["spec"] = 252,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.006505,
-							["tipo"] = 3,
-							["aID"] = "1301-0B465EB0",
 							["last_event"] = 1648383692,
+							["aID"] = "1301-0B465EB0",
+							["tipo"] = 3,
 							["serial"] = "Player-1301-0B465EB0",
 							["totalover"] = 0.006505,
 						}, -- [1]
@@ -16400,7 +16400,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["buff_uptime"] = 4,
-							["aID"] = "1301-0B465EB0",
+							["classe"] = "DEATHKNIGHT",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[335152] = {
@@ -16429,19 +16429,19 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 1,
-							["nome"] = "Serthaxion",
-							["spec"] = 252,
-							["grupo"] = true,
-							["classe"] = "DEATHKNIGHT",
 							["buff_uptime_targets"] = {
 							},
-							["tipo"] = 4,
+							["spec"] = 252,
+							["grupo"] = true,
+							["aID"] = "1301-0B465EB0",
 							["debuff_uptime_targets"] = {
 							},
+							["last_event"] = 1648383678,
+							["nome"] = "Serthaxion",
 							["pets"] = {
 							},
 							["serial"] = "Player-1301-0B465EB0",
-							["last_event"] = 1648383678,
+							["tipo"] = 4,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -16502,25 +16502,7 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["Serthaxion"] = 51933.007638,
-						}, -- [1]
-					},
-				},
+				["data_inicio"] = "15:21:16",
 				["end_time"] = 2745.564,
 				["combat_id"] = 31,
 				["frags"] = {
@@ -16560,7 +16542,25 @@ _detalhes_database = {
 				},
 				["start_time"] = 2743.096,
 				["contra"] = "Shek'zeer Clutch-Keeper",
-				["data_inicio"] = "15:21:16",
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Serthaxion"] = 51933.007638,
+						}, -- [1]
+					},
+				},
 			}, -- [40]
 		},
 	},
@@ -16617,7 +16617,11 @@ _detalhes_database = {
 		["previous_boss_killed_at"] = 0,
 	},
 	["ignore_nicktag"] = false,
-	["last_realversion"] = 146,
+	["announce_prepots"] = {
+		["enabled"] = false,
+		["channel"] = "SELF",
+		["reverse"] = false,
+	},
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["enabled"] = true,
@@ -16715,11 +16719,6 @@ _detalhes_database = {
 			["main_frame_locked"] = false,
 			["row_texture"] = "Details Serenity",
 			["arrow_anchor_y"] = 0,
-			["use_spark"] = true,
-			["author"] = "Details! Team",
-			["square_amount"] = 5,
-			["enabled"] = false,
-			["arrow_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -16731,6 +16730,11 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
+			["author"] = "Details! Team",
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["font_size"] = 10,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -16738,53 +16742,39 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["y"] = 4.57763671875e-05,
-			["font_size"] = 10,
-			["x"] = 0,
-			["font_face"] = "Friz Quadrata TT",
-			["square_size"] = 32,
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
 				0.1, -- [3]
 				0.4, -- [4]
 			},
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["use_spark"] = true,
+			["y"] = 4.57763671875e-05,
+			["x"] = 0,
+			["font_face"] = "Friz Quadrata TT",
+			["square_size"] = 32,
+			["main_frame_strata"] = "LOW",
 			["point"] = "CENTER",
 			["row_height"] = 20,
 			["scale"] = 1,
 		},
 	},
-	["benchmark_db"] = {
-		["frame"] = {
-		},
-	},
+	["last_encounter"] = "Yogg-Saron",
 	["announce_damagerecord"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["cd_tracker"] = {
-		["enabled"] = false,
-		["cds_enabled"] = {
-		},
-		["show_conditions"] = {
-			["only_inside_instance"] = true,
-			["only_in_group"] = true,
-		},
-		["pos"] = {
+	["last_realversion"] = 146,
+	["benchmark_db"] = {
+		["frame"] = {
 		},
 	},
-	["last_day"] = "28",
-	["announce_prepots"] = {
-		["enabled"] = false,
-		["channel"] = "SELF",
-		["reverse"] = false,
-	},
+	["last_day"] = "29",
 	["character_data"] = {
-		["logons"] = 136,
+		["logons"] = 138,
 	},
-	["combat_counter"] = 1787,
+	["combat_counter"] = 1789,
 	["combat_id"] = 70,
 	["savedStyles"] = {
 	},
@@ -16858,29 +16848,29 @@ _detalhes_database = {
 						["Vor'thik Fear-Shaper"] = 318811,
 						["Vengeful Gurthani Spirit"] = 260660,
 						["Shao-Tien Imperion"] = 10418,
-						["Dreadspinner Egg"] = 2726153,
 						["Sapfly"] = 812065,
-						["Dreadspinner Tender"] = 166191,
+						["Dreadspinner Egg"] = 2726153,
+						["Shek'zeer Swarmborn"] = 813873,
 						["Resilient Roach"] = 260,
 						["General Temuja"] = 20646,
-						["Shek'zeer Swarmborn"] = 813873,
+						["Dreadspinner Tender"] = 166191,
 						["Shao-Tien Conqueror"] = 74442,
 					},
 					["serial"] = "Player-1301-0B465EB0",
 					["pets"] = {
 						"Rockbender <Serthaxion>", -- [1]
 					},
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["last_dps"] = 0,
-					["classe"] = "DEATHKNIGHT",
+					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 6558096.348264,
 					["total"] = 6703359.348264,
 					["dps_started"] = false,
 					["end_time"] = 1648383230,
-					["damage_taken"] = 3.348264,
+					["friendlyfire"] = {
+					},
 					["last_event"] = 0,
 					["nome"] = "Serthaxion",
 					["spec"] = 252,
@@ -17171,11 +17161,11 @@ _detalhes_database = {
 									["Vor'thik Swarmborn"] = 31370,
 									["Shao-Tien Imperion"] = 10418,
 									["Shek'zeer Clutch-Keeper"] = 72699,
-									["Shek'zeer Bladesworn"] = 155885,
 									["Dreadspinner Tender"] = 82444,
+									["Shek'zeer Swarmborn"] = 113235,
 									["General Temuja"] = 20646,
 									["Sapfly"] = 134669,
-									["Shek'zeer Swarmborn"] = 113235,
+									["Shek'zeer Bladesworn"] = 155885,
 									["Shao-Tien Conqueror"] = 62056,
 								},
 								["n_dmg"] = 557829,
@@ -17262,10 +17252,10 @@ _detalhes_database = {
 					},
 					["custom"] = 0,
 					["tipo"] = 1,
-					["on_hold"] = false,
+					["damage_taken"] = 3.348264,
 					["start_time"] = 1648383039,
 					["delay"] = 0,
-					["friendlyfire_total"] = 0,
+					["classe"] = "DEATHKNIGHT",
 				}, -- [1]
 				{
 					["flag_original"] = 2600,
@@ -17277,17 +17267,17 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["aID"] = "62077",
-					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
+					["aID"] = "62077",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.040203,
 					["serial"] = "Creature-0-1631-870-78-62077-00003FE377",
 					["dps_started"] = false,
-					["end_time"] = 1648383230,
+					["total"] = 0.040203,
 					["classe"] = "UNKNOW",
-					["damage_taken"] = 2726153.040203,
+					["on_hold"] = false,
 					["nome"] = "Dreadspinner Egg",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -17300,10 +17290,10 @@ _detalhes_database = {
 					["fight_component"] = true,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 2726153.040203,
 					["start_time"] = 1648383227,
 					["delay"] = 0,
-					["total"] = 0.040203,
+					["end_time"] = 1648383230,
 				}, -- [2]
 				{
 					["flag_original"] = 2600,
@@ -17315,17 +17305,17 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["aID"] = "62143",
-					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
+					["aID"] = "62143",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.053178,
 					["serial"] = "Creature-0-1631-870-78-62143-00003FE403",
 					["dps_started"] = false,
-					["end_time"] = 1648383230,
+					["total"] = 0.053178,
 					["classe"] = "UNKNOW",
-					["damage_taken"] = 2258.053178,
+					["on_hold"] = false,
 					["nome"] = "Dreadspinner Hatchling",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -17366,10 +17356,10 @@ _detalhes_database = {
 					["fight_component"] = true,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 2258.053178,
 					["start_time"] = 1648383227,
 					["delay"] = 0,
-					["total"] = 0.053178,
+					["end_time"] = 1648383230,
 				}, -- [3]
 				{
 					["flag_original"] = 68168,
@@ -17382,15 +17372,15 @@ _detalhes_database = {
 					["serial"] = "Creature-0-1631-870-78-61981-00003FE3BA",
 					["pets"] = {
 					},
-					["end_time"] = 1648383246,
-					["fight_component"] = true,
-					["aID"] = "61981",
+					["damage_taken"] = 166191.023499,
+					["dps_started"] = false,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.023499,
-					["dps_started"] = false,
+					["fight_component"] = true,
 					["monster"] = true,
-					["total"] = 0.023499,
+					["end_time"] = 1648383246,
 					["last_dps"] = 0,
 					["last_event"] = 0,
 					["nome"] = "Dreadspinner Tender",
@@ -17427,16 +17417,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["damage_taken"] = 166191.023499,
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["friendlyfire"] = {
-					},
+					["total"] = 0.023499,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1648383243,
 					["delay"] = 0,
-					["classe"] = "UNKNOW",
+					["aID"] = "61981",
 				}, -- [4]
 				{
 					["flag_original"] = 68168,
@@ -17449,15 +17439,15 @@ _detalhes_database = {
 					["serial"] = "Creature-0-1631-870-78-62301-00003FE50F",
 					["pets"] = {
 					},
-					["end_time"] = 1648383330,
-					["fight_component"] = true,
-					["aID"] = "62301",
+					["damage_taken"] = 10208.013816,
+					["dps_started"] = false,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.013816,
-					["dps_started"] = false,
+					["fight_component"] = true,
 					["monster"] = true,
-					["total"] = 0.013816,
+					["end_time"] = 1648383330,
 					["last_dps"] = 0,
 					["last_event"] = 0,
 					["nome"] = "Adjunct Kree'zot",
@@ -17466,16 +17456,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["damage_taken"] = 10208.013816,
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["friendlyfire"] = {
-					},
+					["total"] = 0.013816,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1648383327,
 					["delay"] = 0,
-					["classe"] = "UNKNOW",
+					["aID"] = "62301",
 				}, -- [5]
 				{
 					["flag_original"] = 68136,
@@ -17488,10 +17478,9 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
-					["friendlyfire"] = {
-					},
 					["aID"] = "62386",
+					["on_hold"] = false,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.032603,
@@ -17499,7 +17488,8 @@ _detalhes_database = {
 					["fight_component"] = true,
 					["end_time"] = 1648383380,
 					["friendlyfire_total"] = 0,
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 					["nome"] = "Sapfly",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -17568,10 +17558,10 @@ _detalhes_database = {
 					["dps_started"] = false,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["on_hold"] = false,
+					["damage_taken"] = 812065.032603,
 					["start_time"] = 1648383377,
 					["delay"] = 0,
-					["damage_taken"] = 812065.032603,
+					["last_dps"] = 0,
 				}, -- [6]
 				{
 					["flag_original"] = 68168,
@@ -17584,15 +17574,15 @@ _detalhes_database = {
 					["serial"] = "Creature-0-1631-870-78-65452-0000403140",
 					["pets"] = {
 					},
-					["end_time"] = 1648383386,
-					["fight_component"] = true,
-					["aID"] = "65452",
+					["damage_taken"] = 260660.021181,
+					["dps_started"] = false,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.021181,
-					["dps_started"] = false,
+					["fight_component"] = true,
 					["monster"] = true,
-					["total"] = 0.021181,
+					["end_time"] = 1648383386,
 					["last_dps"] = 0,
 					["last_event"] = 0,
 					["nome"] = "Vengeful Gurthani Spirit",
@@ -17629,16 +17619,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["damage_taken"] = 260660.021181,
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["friendlyfire"] = {
-					},
+					["total"] = 0.021181,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1648383383,
 					["delay"] = 0,
-					["classe"] = "UNKNOW",
+					["aID"] = "65452",
 				}, -- [7]
 				{
 					["flag_original"] = 2632,
@@ -17651,15 +17641,15 @@ _detalhes_database = {
 					["serial"] = "Creature-0-1631-870-78-65450-000040317C",
 					["pets"] = {
 					},
-					["end_time"] = 1648383404,
-					["fight_component"] = true,
-					["aID"] = "65450",
+					["damage_taken"] = 193299.009708,
+					["dps_started"] = false,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.009708,
-					["dps_started"] = false,
+					["fight_component"] = true,
 					["monster"] = true,
-					["total"] = 0.009708,
+					["end_time"] = 1648383404,
 					["last_dps"] = 0,
 					["last_event"] = 0,
 					["nome"] = "Ancient Guardian",
@@ -17696,16 +17686,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["damage_taken"] = 193299.009708,
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["friendlyfire"] = {
-					},
+					["total"] = 0.009708,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1648383401,
 					["delay"] = 0,
-					["classe"] = "UNKNOW",
+					["aID"] = "65450",
 				}, -- [8]
 				{
 					["flag_original"] = 68168,
@@ -17718,15 +17708,15 @@ _detalhes_database = {
 					["serial"] = "Creature-0-1631-870-78-64559-00003F88F3",
 					["pets"] = {
 					},
-					["end_time"] = 1648383656,
-					["fight_component"] = true,
-					["aID"] = "64559",
+					["damage_taken"] = 262068.0560010001,
+					["dps_started"] = false,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.056001,
-					["dps_started"] = false,
+					["fight_component"] = true,
 					["monster"] = true,
-					["total"] = 0.056001,
+					["end_time"] = 1648383656,
 					["last_dps"] = 0,
 					["last_event"] = 0,
 					["nome"] = "Shek'zeer Clutch-Keeper",
@@ -17815,16 +17805,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["damage_taken"] = 262068.0560010001,
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["friendlyfire"] = {
-					},
+					["total"] = 0.056001,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1648383653,
 					["delay"] = 0,
-					["classe"] = "UNKNOW",
+					["aID"] = "64559",
 				}, -- [9]
 				{
 					["flag_original"] = 68168,
@@ -17837,15 +17827,15 @@ _detalhes_database = {
 					["serial"] = "Creature-0-1631-870-78-65995-00003F6EC0",
 					["pets"] = {
 					},
-					["end_time"] = 1648383657,
-					["classe"] = "UNKNOW",
+					["damage_taken"] = 472230.0554990001,
 					["aID"] = "65995",
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.05549900000000001,
 					["dps_started"] = false,
-					["fight_component"] = true,
-					["total"] = 0.05549900000000001,
+					["monster"] = true,
+					["end_time"] = 1648383657,
 					["last_dps"] = 0,
 					["last_event"] = 0,
 					["nome"] = "Shek'zeer Bladesworn",
@@ -17884,16 +17874,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["damage_taken"] = 472230.0554990001,
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["friendlyfire"] = {
-					},
+					["total"] = 0.05549900000000001,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1648383654,
 					["delay"] = 0,
-					["monster"] = true,
+					["fight_component"] = true,
 				}, -- [10]
 				{
 					["flag_original"] = 2600,
@@ -17905,17 +17895,17 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["aID"] = "64807",
-					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
+					["aID"] = "64807",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.023254,
 					["serial"] = "Creature-0-1631-870-78-64807-00003F6FCC",
 					["dps_started"] = false,
-					["end_time"] = 1648383670,
+					["total"] = 0.023254,
 					["classe"] = "UNKNOW",
-					["damage_taken"] = 260.023254,
+					["on_hold"] = false,
 					["nome"] = "Resilient Roach",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -17928,10 +17918,10 @@ _detalhes_database = {
 					["fight_component"] = true,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 260.023254,
 					["start_time"] = 1648383667,
 					["delay"] = 0,
-					["total"] = 0.023254,
+					["end_time"] = 1648383670,
 				}, -- [11]
 				{
 					["flag_original"] = 2632,
@@ -17946,15 +17936,15 @@ _detalhes_database = {
 					["serial"] = "Creature-0-1631-870-78-62582-0000C056D5",
 					["pets"] = {
 					},
-					["end_time"] = 1648383705,
-					["classe"] = "UNKNOW",
+					["damage_taken"] = 813873.062234,
 					["aID"] = "62582",
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 1.062234,
 					["dps_started"] = false,
-					["fight_component"] = true,
-					["total"] = 1.062234,
+					["monster"] = true,
+					["end_time"] = 1648383705,
 					["last_dps"] = 0,
 					["last_event"] = 0,
 					["nome"] = "Shek'zeer Swarmborn",
@@ -17994,16 +17984,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["damage_taken"] = 813873.062234,
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["friendlyfire"] = {
-					},
+					["total"] = 1.062234,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1648383700,
 					["delay"] = 0,
-					["monster"] = true,
+					["fight_component"] = true,
 				}, -- [12]
 				{
 					["flag_original"] = 4369,
@@ -18017,16 +18007,17 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["damage_taken"] = 0.044384,
+					["on_hold"] = false,
 					["last_event"] = 0,
-					["aID"] = "Pet-0-1631-870-78-26125-0502F9C049",
+					["classe"] = "PET",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 145263.044384,
 					["serial"] = "Pet-0-1631-870-78-26125-0502F9C049",
 					["dps_started"] = false,
 					["total"] = 145263.044384,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["ownerName"] = "Serthaxion",
 					["nome"] = "Rockbender <Serthaxion>",
 					["spells"] = {
@@ -18063,16 +18054,15 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["damage_taken"] = 0.044384,
 					["end_time"] = 1648383895,
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["start_time"] = 1648383881,
 					["delay"] = 0,
-					["classe"] = "PET",
+					["aID"] = "Pet-0-1631-870-78-26125-0502F9C049",
 				}, -- [13]
 				{
 					["flag_original"] = 68168,
@@ -18085,15 +18075,15 @@ _detalhes_database = {
 					["serial"] = "Creature-0-1631-870-78-62863-00003FEB30",
 					["pets"] = {
 					},
-					["end_time"] = 1648384022,
-					["fight_component"] = true,
-					["aID"] = "62863",
+					["damage_taken"] = 10347.007488,
+					["dps_started"] = false,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.007488,
-					["dps_started"] = false,
+					["fight_component"] = true,
 					["monster"] = true,
-					["total"] = 0.007488,
+					["end_time"] = 1648384022,
 					["last_dps"] = 0,
 					["last_event"] = 0,
 					["nome"] = "Qi'tar the Deathcaller",
@@ -18102,16 +18092,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["damage_taken"] = 10347.007488,
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["friendlyfire"] = {
-					},
+					["total"] = 0.007488,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1648384019,
 					["delay"] = 0,
-					["classe"] = "UNKNOW",
+					["aID"] = "62863",
 				}, -- [14]
 				{
 					["flag_original"] = 68168,
@@ -18124,15 +18114,15 @@ _detalhes_database = {
 					["serial"] = "Creature-0-1631-870-78-62814-00004036C3",
 					["pets"] = {
 					},
-					["end_time"] = 1648384032,
-					["classe"] = "UNKNOW",
+					["damage_taken"] = 318811.0441840001,
 					["aID"] = "62814",
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.04418399999999999,
 					["dps_started"] = false,
-					["fight_component"] = true,
-					["total"] = 0.04418399999999999,
+					["monster"] = true,
+					["end_time"] = 1648384032,
 					["last_dps"] = 0,
 					["last_event"] = 0,
 					["nome"] = "Vor'thik Fear-Shaper",
@@ -18169,16 +18159,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["damage_taken"] = 318811.0441840001,
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["friendlyfire"] = {
-					},
+					["total"] = 0.04418399999999999,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1648384029,
 					["delay"] = 0,
-					["monster"] = true,
+					["fight_component"] = true,
 				}, -- [15]
 				{
 					["flag_original"] = 68168,
@@ -18193,15 +18183,15 @@ _detalhes_database = {
 					["serial"] = "Creature-0-1631-870-78-65575-00004037AA",
 					["pets"] = {
 					},
-					["end_time"] = 1648384032,
-					["classe"] = "UNKNOW",
+					["damage_taken"] = 207533.014779,
 					["aID"] = "65575",
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 2.014779,
 					["dps_started"] = false,
-					["fight_component"] = true,
-					["total"] = 2.014779,
+					["monster"] = true,
+					["end_time"] = 1648384032,
 					["last_dps"] = 0,
 					["last_event"] = 0,
 					["nome"] = "Vor'thik Swarmborn",
@@ -18240,16 +18230,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["damage_taken"] = 207533.014779,
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["friendlyfire"] = {
-					},
+					["total"] = 2.014779,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1648384027,
 					["delay"] = 0,
-					["monster"] = true,
+					["fight_component"] = true,
 				}, -- [16]
 				{
 					["flag_original"] = 2632,
@@ -18263,15 +18253,15 @@ _detalhes_database = {
 					["serial"] = "Creature-0-1631-870-78-65996-0001BFEC76",
 					["pets"] = {
 					},
-					["end_time"] = 1648384041,
-					["fight_component"] = true,
-					["aID"] = "65996",
+					["damage_taken"] = 145520.007793,
+					["dps_started"] = false,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.007793,
-					["dps_started"] = false,
+					["fight_component"] = true,
 					["monster"] = true,
-					["total"] = 0.007793,
+					["end_time"] = 1648384041,
 					["last_dps"] = 0,
 					["last_event"] = 0,
 					["nome"] = "Nagging Dreadling",
@@ -18309,16 +18299,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["damage_taken"] = 145520.007793,
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["friendlyfire"] = {
-					},
+					["total"] = 0.007793,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1648384038,
 					["delay"] = 0,
-					["classe"] = "UNKNOW",
+					["aID"] = "65996",
 				}, -- [17]
 				{
 					["flag_original"] = 68168,
@@ -18331,15 +18321,15 @@ _detalhes_database = {
 					["serial"] = "Creature-0-1631-870-78-62813-00003FD33C",
 					["pets"] = {
 					},
-					["end_time"] = 1648384047,
-					["fight_component"] = true,
-					["aID"] = "62813",
+					["damage_taken"] = 170138.033932,
+					["dps_started"] = false,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.033932,
-					["dps_started"] = false,
+					["fight_component"] = true,
 					["monster"] = true,
-					["total"] = 0.033932,
+					["end_time"] = 1648384047,
 					["last_dps"] = 0,
 					["last_event"] = 0,
 					["nome"] = "Vor'thik Dreadsworn",
@@ -18375,16 +18365,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["damage_taken"] = 170138.033932,
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["friendlyfire"] = {
-					},
+					["total"] = 0.033932,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1648384044,
 					["delay"] = 0,
-					["classe"] = "UNKNOW",
+					["aID"] = "62813",
 				}, -- [18]
 				{
 					["flag_original"] = 68168,
@@ -18397,17 +18387,16 @@ _detalhes_database = {
 					["serial"] = "Creature-0-1631-870-56-63101-0000406FA3",
 					["pets"] = {
 					},
-					["last_dps"] = 0,
-					["dps_started"] = false,
-					["classe"] = "UNKNOW",
+					["end_time"] = 1648390519,
+					["fight_component"] = true,
+					["aID"] = "63101",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.013669,
-					["fight_component"] = true,
+					["dps_started"] = false,
 					["monster"] = true,
 					["total"] = 0.013669,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["last_event"] = 0,
 					["nome"] = "General Temuja",
 					["spells"] = {
@@ -18415,15 +18404,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["end_time"] = 1648390519,
+					["damage_taken"] = 20646.013669,
 					["friendlyfire_total"] = 0,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 20646.013669,
+					["on_hold"] = false,
 					["start_time"] = 1648390516,
 					["delay"] = 0,
-					["aID"] = "63101",
+					["classe"] = "UNKNOW",
 				}, -- [19]
 				{
 					["flag_original"] = 68168,
@@ -18436,17 +18426,16 @@ _detalhes_database = {
 					["serial"] = "Creature-0-1631-870-56-63045-0000406FA3",
 					["pets"] = {
 					},
-					["last_dps"] = 0,
-					["dps_started"] = false,
-					["classe"] = "UNKNOW",
+					["end_time"] = 1648390519,
+					["fight_component"] = true,
+					["aID"] = "63045",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.010807,
-					["fight_component"] = true,
+					["dps_started"] = false,
 					["monster"] = true,
 					["total"] = 0.010807,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["last_event"] = 0,
 					["nome"] = "Dominated Scalelord",
 					["spells"] = {
@@ -18483,15 +18472,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["end_time"] = 1648390519,
+					["damage_taken"] = 25852.010807,
 					["friendlyfire_total"] = 0,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 25852.010807,
+					["on_hold"] = false,
 					["start_time"] = 1648390516,
 					["delay"] = 0,
-					["aID"] = "63045",
+					["classe"] = "UNKNOW",
 				}, -- [20]
 				{
 					["flag_original"] = 68168,
@@ -18504,17 +18494,16 @@ _detalhes_database = {
 					["serial"] = "Creature-0-1631-870-56-65132-0000406E30",
 					["pets"] = {
 					},
-					["last_dps"] = 0,
-					["dps_started"] = false,
-					["classe"] = "UNKNOW",
+					["end_time"] = 1648390526,
+					["fight_component"] = true,
+					["aID"] = "65132",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.034653,
-					["fight_component"] = true,
+					["dps_started"] = false,
 					["monster"] = true,
 					["total"] = 0.034653,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["last_event"] = 0,
 					["nome"] = "Shao-Tien Conqueror",
 					["spells"] = {
@@ -18522,15 +18511,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["end_time"] = 1648390526,
+					["damage_taken"] = 74442.034653,
 					["friendlyfire_total"] = 0,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 74442.034653,
+					["on_hold"] = false,
 					["start_time"] = 1648390523,
 					["delay"] = 0,
-					["aID"] = "65132",
+					["classe"] = "UNKNOW",
 				}, -- [21]
 				{
 					["flag_original"] = 68168,
@@ -18543,17 +18533,16 @@ _detalhes_database = {
 					["serial"] = "Creature-0-1631-870-56-65130-00004061CE",
 					["pets"] = {
 					},
-					["last_dps"] = 0,
-					["dps_started"] = false,
-					["classe"] = "UNKNOW",
+					["end_time"] = 1648390526,
+					["fight_component"] = true,
+					["aID"] = "65130",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.015161,
-					["fight_component"] = true,
+					["dps_started"] = false,
 					["monster"] = true,
 					["total"] = 0.015161,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["last_event"] = 0,
 					["nome"] = "Shao-Tien Imperion",
 					["spells"] = {
@@ -18561,15 +18550,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["end_time"] = 1648390526,
+					["damage_taken"] = 10418.015161,
 					["friendlyfire_total"] = 0,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 10418.015161,
+					["on_hold"] = false,
 					["start_time"] = 1648390523,
 					["delay"] = 0,
-					["aID"] = "65130",
+					["classe"] = "UNKNOW",
 				}, -- [22]
 				{
 					["flag_original"] = 2600,
@@ -18582,9 +18572,10 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["aID"] = "65206",
-					["last_dps"] = 0,
 					["classe"] = "UNKNOW",
+					["friendlyfire"] = {
+					},
+					["aID"] = "65206",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.01959,
@@ -18592,7 +18583,7 @@ _detalhes_database = {
 					["fight_component"] = true,
 					["end_time"] = 1648390526,
 					["friendlyfire_total"] = 0,
-					["damage_taken"] = 374.01959,
+					["last_dps"] = 0,
 					["nome"] = "Golden Civet",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -18604,11 +18595,10 @@ _detalhes_database = {
 					["dps_started"] = false,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["start_time"] = 1648390523,
 					["delay"] = 0,
-					["on_hold"] = false,
+					["damage_taken"] = 374.01959,
 				}, -- [23]
 				{
 					["flag_original"] = 2600,
@@ -18620,9 +18610,10 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["aID"] = "65207",
-					["last_dps"] = 0,
 					["classe"] = "UNKNOW",
+					["friendlyfire"] = {
+					},
+					["aID"] = "65207",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.015152,
@@ -18630,7 +18621,7 @@ _detalhes_database = {
 					["fight_component"] = true,
 					["end_time"] = 1648390526,
 					["friendlyfire_total"] = 0,
-					["damage_taken"] = 258.0151519999999,
+					["last_dps"] = 0,
 					["nome"] = "Golden Civet Kitten",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -18642,11 +18633,10 @@ _detalhes_database = {
 					["dps_started"] = false,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["start_time"] = 1648390523,
 					["delay"] = 0,
-					["on_hold"] = false,
+					["damage_taken"] = 258.0151519999999,
 				}, -- [24]
 			},
 		}, -- [1]
@@ -18660,7 +18650,7 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 1297,
-					["resource"] = 1.201939,
+					["resource"] = 1.561511,
 					["targets"] = {
 						["Serthaxion"] = 0,
 					},
@@ -18676,9 +18666,9 @@ _detalhes_database = {
 					["received"] = 240.1213014768371,
 					["classe"] = "DEATHKNIGHT",
 					["passiveover"] = 0.007811,
-					["tipo"] = 3,
-					["total"] = 240.1213014768371,
 					["last_event"] = 0,
+					["total"] = 240.1213014768371,
+					["tipo"] = 3,
 					["serial"] = "Player-1301-0B465EB0",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -18846,13 +18836,13 @@ _detalhes_database = {
 					["spec"] = 252,
 					["grupo"] = true,
 					["spell_cast"] = {
-						[122158] = 2,
-						[120754] = 2,
 						[77575] = 21,
+						[120754] = 2,
+						[207317] = 4,
 						[55090] = 1,
 						[85948] = 4,
 						[47541] = 1,
-						[207317] = 4,
+						[122158] = 2,
 					},
 					["debuff_uptime_targets"] = {
 					},
@@ -18881,18 +18871,18 @@ _detalhes_database = {
 				}, -- [2]
 				{
 					["monster"] = true,
-					["last_event"] = 0,
+					["classe"] = "UNKNOW",
 					["nome"] = "Shek'zeer Clutch-Keeper",
-					["pets"] = {
-					},
 					["spell_cast"] = {
 						[128803] = 12,
 						[128282] = 3,
 					},
+					["pets"] = {
+					},
 					["fight_component"] = true,
-					["aID"] = "64559",
 					["tipo"] = 4,
-					["classe"] = "UNKNOW",
+					["aID"] = "64559",
+					["last_event"] = 0,
 					["serial"] = "Creature-0-1631-870-78-64559-000040317A",
 					["flag_original"] = 2632,
 				}, -- [3]
@@ -19247,8 +19237,18 @@ _detalhes_database = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["last_encounter"] = "Yogg-Saron",
 	["cached_talents"] = {
+	},
+	["cd_tracker"] = {
+		["enabled"] = false,
+		["cds_enabled"] = {
+		},
+		["show_conditions"] = {
+			["only_inside_instance"] = true,
+			["only_in_group"] = true,
+		},
+		["pos"] = {
+		},
 	},
 	["announce_cooldowns"] = {
 		["ignored_cooldowns"] = {

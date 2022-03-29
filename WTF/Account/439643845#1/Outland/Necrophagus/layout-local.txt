@@ -9,8 +9,8 @@ H: 190
 Frame: MonkeySpeedFrame
 FrameLevel: 1
 Anchor: TOPRIGHT
-X: -293
-Y: -40
+X: -292
+Y: -37
 W: 164
 H: 45
 Frame: ObjectiveTrackerFrame
@@ -43,9 +43,9 @@ W: 365
 H: 240
 Frame: AllTheThings-Window-Prime
 FrameLevel: 1
-Anchor: RIGHT
-X: -270
-Y: -124
+Anchor: CENTER
+X: 273
+Y: -114
 W: 618
 H: 482
 Frame: AllTheThings-Window-Bounty
