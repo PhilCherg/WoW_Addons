@@ -161,7 +161,7 @@ VER 3 0000000000000030 "Tol Barad" "136203"
 /click MiniMapWorldMapButton
 /script SetMapByID(708)
 END
-VER 3 0000000000000035 "TSMMacro" "Achievement_Faction_GoldenLotus"
+VER 3 000000000000004D "TSMMacro" "Achievement_Faction_GoldenLotus"
 /click TSMCancelAuctionBtn
 /click TSMShoppingBuyoutBtn
 /click TSMCraftingBtn

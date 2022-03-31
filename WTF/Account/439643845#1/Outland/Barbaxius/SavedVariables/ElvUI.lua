@@ -2,28 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"Rustfeather - 65.97 79.09 - 71% life. - AzerPUG RareUtility", -- [1]
-			"Terrorboss-Hellscream", -- [2]
-			"", -- [3]
-			"1. General - Mechagon", -- [4]
-			"Terrorboss-Hellscream", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Mechagon", -- [9]
-			0, -- [10]
-			630, -- [11]
-			"Player-1325-03FCE3E0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cTerrorboss-Hellscream|r",
-			[51] = 1646661035,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
 			"Kazum ogg makogg throm  uruk nogu ", -- [1]
 			"Papachristos-TwistingNether", -- [2]
 			"Orcish", -- [3]
@@ -44,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefePapachristos-TwistingNether|r",
 			[51] = 1646662050,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [2]
+		}, -- [1]
 		{
 			"any1 for weekly mechagon m0 mountrun? 4th boss (Mechagon Peacekeeper)", -- [1]
 			"Steampunky-Frostmane", -- [2]
@@ -66,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaSteampunky-Frostmane|r",
 			[51] = 1646662146,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
+		}, -- [2]
 		{
 			" ruK Kaz'goth'no ruK Ka ZUg NUk  KAZUM'NOBU ", -- [1]
 			"Zeallyn-Kazzak", -- [2]
@@ -88,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeZeallyn-Kazzak|r",
 			[51] = 1646663630,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [4]
+		}, -- [3]
 		{
 			"wts|cffffffff|Hitem:172320::::::::60:64::69:4:7194:7882:8156:1588:1:28:2142::::Player-1301-0BE49E18:|h[Umbrahide Waistguard]|h|r|cffffffff|Hitem:172315::::::::60:64::69:3:7882:8156:1588:1:28:2142::::Player-1301-0BE49E18:|h[Umbrahide Treads]|h|r 291", -- [1]
 			"Fishercc-Outland", -- [2]
@@ -110,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFishercc|r",
 			[51] = 1646825536,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
+		}, -- [4]
 		{
 			"rust last seen?", -- [1]
 			"Nighhunt-Silvermoon", -- [2]
@@ -132,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Nighhunt-Silvermoon|r",
 			[51] = 1646826820,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
+		}, -- [5]
 		{
 			"{rt8}A. Harvester{rt8}: 0s-19m 58s (WorldBossTimers:1646830371)", -- [1]
 			"Warscope-Silvermoon", -- [2]
@@ -154,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWarscope-Silvermoon|r",
 			[51] = 1646827974,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [7]
+		}, -- [6]
 		{
 			"<RTC> Arachnoid Harvester was last seen ~20 minutes ago", -- [1]
 			"Warscope-Silvermoon", -- [2]
@@ -176,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWarscope-Silvermoon|r",
 			[51] = 1646827976,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [8]
+		}, -- [7]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15241:Player-1301-0C0C1CC1:1:3:9:22:4294967295:4294967295:4294967295:4294967295|h[Renowned]|h|r!", -- [1]
 			"Alkizen-Outland", -- [2]
@@ -198,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaAlkizen|r",
 			[51] = 1646828442,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [9]
+		}, -- [8]
 		{
 			"reclamation rig up", -- [1]
 			"Pierette-Thunderhorn", -- [2]
@@ -220,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edPierette-Thunderhorn|r",
 			[51] = 1646828505,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
+		}, -- [9]
 		{
 			"need only 3 energy cell :D", -- [1]
 			"Pierette-Thunderhorn", -- [2]
@@ -242,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edPierette-Thunderhorn|r",
 			[51] = 1646828527,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
+		}, -- [10]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14840:Player-1301-0C0C1CC1:1:3:9:22:4294967295:4294967295:4294967295:4294967295|h[Adventures: Learning the Ropes]|h|r!", -- [1]
 			"Alkizen-Outland", -- [2]
@@ -264,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaAlkizen|r",
 			[51] = 1646828694,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [12]
+		}, -- [11]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:505:Player-1301-0936A2C6:1:3:9:22:4294967295:4294967295:4294967295:4294967295|h[250 Quests Completed]|h|r!", -- [1]
 			"Sallander-Outland", -- [2]
@@ -286,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Sallander|r",
 			[51] = 1646828804,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [13]
+		}, -- [12]
 		{
 			"WTS[Shadowghast Ring][Umbrahide Vest] 291ilvl cheaper than AH", -- [1]
 			"Llee-Outland", -- [2]
@@ -308,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Llee|r",
 			[51] = 1646829202,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
+		}, -- [13]
 		{
 			"WTS Boneshatter Vest 291 Cheaper than Ah", -- [1]
 			"Respectina-Outland", -- [2]
@@ -330,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Respectina|r",
 			[51] = 1646829256,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
+		}, -- [14]
 		{
 			"wts|cffffffff|Hitem:172320::::::::60:64::69:4:7194:7882:8156:1588:1:28:2142::::Player-1301-0BE49E18:|h[Umbrahide Waistguard]|h|r|cffffffff|Hitem:172315::::::::60:64::69:3:7882:8156:1588:1:28:2142::::Player-1301-0BE49E18:|h[Umbrahide Treads]|h|r 291", -- [1]
 			"Fishercc-Outland", -- [2]
@@ -352,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFishercc|r",
 			[51] = 1646829264,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
+		}, -- [15]
 		{
 			"|cffffd100|HclubFinder:ClubFinder-1-280335-1301-108474159|h[Guild: Armata de Strigoi]|h|rLF Mythic+ and Raiding players to form a core team in the near future for semihardcore progression.", -- [1]
 			"Vastharia-Outland", -- [2]
@@ -374,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Vastharia|r",
 			[51] = 1646829389,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
+		}, -- [16]
 		{
 			"WTS[Shadowghast Ring][Umbrahide Vest] 291ilvl cheaper than AH", -- [1]
 			"Llee-Outland", -- [2]
@@ -396,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Llee|r",
 			[51] = 1646829453,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
+		}, -- [17]
 		{
 			"Konthrogz up", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -418,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1646916431,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
+		}, -- [18]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:11993:Player-1301-0BBEF71E:1:3:10:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Hounds of Sargeras]|h|r!", -- [1]
 			"Warhaammerr-Outland", -- [2]
@@ -440,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Warhaammerr|r",
 			[51] = 1646916472,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [20]
+		}, -- [19]
 		{
 			"wtb |cffa335ee|Hitem:173131::::::::60:577::13:3:6648:7881:7891:3:9:60:28:2142:29:49:::::|h[Versatile Solenium Ring]|h|r haste/vers 40k", -- [1]
 			"Xchaos-Outland", -- [2]
@@ -462,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Xchaos|r",
 			[51] = 1646916664,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
+		}, -- [20]
 		{
 			"Crafting 291 Cloth, Leather & Mail Legendaries (ONLY NON-TIER PIECES) If it is a tier piece let me know and I will see if I can craft! ALL MY MATS SO EASY FOR YOU!", -- [1]
 			"Gemma-Outland", -- [2]
@@ -484,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Gemma|r",
 			[51] = 1646916686,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
+		}, -- [21]
 		{
 			"WTS |cffa335ee|Hitem:173131::::::::60:72::13:3:6648:7881:7891:3:9:60:28:2142:29:49:::::|h[Versatile Solenium Ring]|h|r 20g", -- [1]
 			"Aragón-Outland", -- [2]
@@ -506,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAragón|r",
 			[51] = 1646916724,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
+		}, -- [22]
 		{
 			"WTS |cffffffff|Hitem:172320::::::::60:102:::::::::|h[Umbrahide Waistguard]|h|r |cffffffff|Hitem:172315::::::::60:102:::::::::|h[Umbrahide Treads]|h|r  leather 291", -- [1]
 			"Blpxspg-Outland", -- [2]
@@ -528,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Blpxspg|r",
 			[51] = 1646916941,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
+		}, -- [23]
 		{
 			"wts |cffffffff|Hitem:173245::::::::60:258:::::::::|h[Grim-Veiled Hood]|h|r |cffffffff|Hitem:178926::::::::60:258:::::::::|h[Shadowghast Ring]|h|r |cffffffff|Hitem:178927::::::::60:258:::::::::|h[Shadowghast Necklace]|h|r 291", -- [1]
 			"Raoxj-Outland", -- [2]
@@ -550,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRaoxj|r",
 			[51] = 1646916952,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
+		}, -- [24]
 		{
 			"which mount are you guys talking about?", -- [1]
 			"Bobdor-Silvermoon", -- [2]
@@ -572,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaBobdor-Silvermoon|r",
 			[51] = 1646917356,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [26]
+		}, -- [25]
 		{
 			"this one", -- [1]
 			"Marcozpal-TwistingNether", -- [2]
@@ -594,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Marcozpal-TwistingNether|r",
 			[51] = 1646917363,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [27]
+		}, -- [26]
 		{
 			"the ah one", -- [1]
 			"Resheren-Silvermoon", -- [2]
@@ -616,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Resheren-Silvermoon|r",
 			[51] = 1646917370,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [28]
+		}, -- [27]
 		{
 			"does it really go for gold cap? damn", -- [1]
 			"Bobdor-Silvermoon", -- [2]
@@ -638,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaBobdor-Silvermoon|r",
 			[51] = 1646917375,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [29]
+		}, -- [28]
 		{
 			"Mighty Caravan Brutosaur", -- [1]
 			"Marcozpal-TwistingNether", -- [2]
@@ -660,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Marcozpal-TwistingNether|r",
 			[51] = 1646917387,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [30]
+		}, -- [29]
 		{
 			"yeah on bm", -- [1]
 			"Marcozpal-TwistingNether", -- [2]
@@ -682,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Marcozpal-TwistingNether|r",
 			[51] = 1646917393,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [31]
+		}, -- [30]
 		{
 			"like almost everything good on bmah :D", -- [1]
 			"Resheren-Silvermoon", -- [2]
@@ -704,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Resheren-Silvermoon|r",
 			[51] = 1646917402,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [32]
+		}, -- [31]
 		{
 			"i reaslly need it", -- [1]
 			"Marcozpal-TwistingNether", -- [2]
@@ -726,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Marcozpal-TwistingNether|r",
 			[51] = 1646917413,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [33]
+		}, -- [32]
 		{
 			"really", -- [1]
 			"Marcozpal-TwistingNether", -- [2]
@@ -748,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Marcozpal-TwistingNether|r",
 			[51] = 1646917416,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [34]
+		}, -- [33]
 		{
 			"sadly ppl cant give out mounts xD", -- [1]
 			"Marcozpal-TwistingNether", -- [2]
@@ -770,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Marcozpal-TwistingNether|r",
 			[51] = 1646917434,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [35]
+		}, -- [34]
 		{
 			"then get to goldfarming :)", -- [1]
 			"Resheren-Silvermoon", -- [2]
@@ -792,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Resheren-Silvermoon|r",
 			[51] = 1646917447,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [36]
+		}, -- [35]
 		{
 			"or token buying ", -- [1]
 			"Bobdor-Silvermoon", -- [2]
@@ -814,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaBobdor-Silvermoon|r",
 			[51] = 1646917459,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [37]
+		}, -- [36]
 		{
 			"i got 9.2 m bruh", -- [1]
 			"Marcozpal-TwistingNether", -- [2]
@@ -836,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Marcozpal-TwistingNether|r",
 			[51] = 1646917460,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [38]
+		}, -- [37]
 		{
 			"no", -- [1]
 			"Elwart-Kazzak", -- [2]
@@ -858,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cElwart-Kazzak|r",
 			[51] = 1646917470,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [39]
+		}, -- [38]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14369:Player-1301-0AB85E3F:1:3:12:22:4294967295:4294967295:4294967295:4294967295|h[Plaguefall]|h|r!", -- [1]
 			"Gwary-Outland", -- [2]
@@ -880,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGwary|r",
 			[51] = 1647104628,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [40]
+		}, -- [39]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14414:Player-1301-0AB85E3F:1:3:12:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Plaguefall]|h|r!", -- [1]
 			"Gwary-Outland", -- [2]
@@ -902,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGwary|r",
 			[51] = 1647104628,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [41]
+		}, -- [40]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14415:Player-1301-0AB85E3F:1:3:12:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Plaguefall]|h|r!", -- [1]
 			"Gwary-Outland", -- [2]
@@ -924,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGwary|r",
 			[51] = 1647104628,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [42]
+		}, -- [41]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14366:Player-1301-0AB85E3F:1:3:12:22:4294967295:4294967295:4294967295:4294967295|h[The Necrotic Wake]|h|r!", -- [1]
 			"Gwary-Outland", -- [2]
@@ -946,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGwary|r",
 			[51] = 1647108909,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [43]
+		}, -- [42]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14367:Player-1301-0AB85E3F:1:3:12:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Necrotic Wake]|h|r!", -- [1]
 			"Gwary-Outland", -- [2]
@@ -968,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGwary|r",
 			[51] = 1647108909,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [44]
+		}, -- [43]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14368:Player-1301-0AB85E3F:1:3:12:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: The Necrotic Wake]|h|r!", -- [1]
 			"Gwary-Outland", -- [2]
@@ -990,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGwary|r",
 			[51] = 1647108909,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [45]
+		}, -- [44]
 		{
 			"Kroke the Tormented up", -- [1]
 			"Valana-Trollbane", -- [2]
@@ -1012,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Valana-Trollbane|r",
 			[51] = 1647110072,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
+		}, -- [45]
 		{
 			"|cffffff00|Hworldmap:1961:5859:3480|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Valana-Trollbane", -- [2]
@@ -1034,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Valana-Trollbane|r",
 			[51] = 1647110144,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
+		}, -- [46]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:1182:Player-1301-0C0C1CC1:1:3:12:22:4294967295:4294967295:4294967295:4294967295|h[The Bread Winner]|h|r!", -- [1]
 			"Alkizen-Outland", -- [2]
@@ -1056,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaAlkizen|r",
 			[51] = 1647110243,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [48]
+		}, -- [47]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:11717:Player-1301-0AB85E3F:1:3:12:22:4294967295:4294967295:4294967295:4294967295|h[Why Male(volent) Models?]|h|r!", -- [1]
 			"Gwary-Outland", -- [2]
@@ -1078,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGwary|r",
 			[51] = 1647110819,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [49]
+		}, -- [48]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9714:Player-1301-0B858AC1:1:3:14:22:4294967295:4294967295:4294967295:4294967295|h[Thy Kingdom Come]|h|r!", -- [1]
 			"Hetguzzx-Outland", -- [2]
@@ -1100,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHetguzzx|r",
 			[51] = 1647271382,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [50]
+		}, -- [49]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14493:Player-1301-0B7F3455:1:3:18:22:4294967295:4294967295:4294967295:4294967295|h[The Upper Reaches]|h|r!", -- [1]
 			"Wumpalumpaa-Outland", -- [2]
@@ -1122,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edWumpalumpaa|r",
 			[51] = 1647615261,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [51]
+		}, -- [50]
 		{
 			"|cffffff00|Hworldmap:1970:6063:5181|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r feasting", -- [1]
 			"Lenery-Outland", -- [2]
@@ -1144,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lenery|r",
 			[51] = 1647963498,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [51]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15224:Player-1301-0C0A97C4:1:3:22:22:4294967295:4294967295:4294967295:4294967295|h[Explore Zereth Mortis]|h|r!", -- [1]
 			"Hozho-Outland", -- [2]
@@ -1166,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Hozho|r",
 			[51] = 1647963540,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [53]
+		}, -- [52]
 		{
 			"can someone ping the next rare will be so i can have a chance of getting to it ", -- [1]
 			"Jákd-Outland", -- [2]
@@ -1188,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Jákd|r",
 			[51] = 1647964025,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [53]
 		{
 			"hi -ty", -- [1]
 			"Thronerbe-Rexxar", -- [2]
@@ -1210,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Thronerbe-Rexxar|r",
 			[51] = 1647964103,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [55]
+		}, -- [54]
 		{
 			"Helmix (100%) |cffffff00|Hworldmap:1970:5820:6835|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Kartenmarkierung]|h|r", -- [1]
 			"Sixus-DieArguswacht", -- [2]
@@ -1232,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cSixus-DieArguswacht|r",
 			[51] = 1647964120,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
+		}, -- [55]
 		{
 			"Swarm:: Helmix - 97%", -- [1]
 			"Alienn-DieArguswacht", -- [2]
@@ -1254,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAlienn-DieArguswacht|r",
 			[51] = 1647964122,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
+		}, -- [56]
 		{
 			"Swarm:: Ungezähmtes Grün |cffffff00|Hworldmap:1970:5846:6793|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Kartenmarkierung]|h|r", -- [1]
 			"Alienn-DieArguswacht", -- [2]
@@ -1276,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAlienn-DieArguswacht|r",
 			[51] = 1647964122,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [57]
 		{
 			"WM on ?", -- [1]
 			"Keefchief-Ysondre", -- [2]
@@ -1298,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Keefchief-Ysondre|r",
 			[51] = 1647964124,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [59]
+		}, -- [58]
 		{
 			"Ich mach die gruppe voll dann starte ich", -- [1]
 			"Kretze-DerAbyssischeRat", -- [2]
@@ -1320,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaKretze-DerAbyssischeRat|r",
 			[51] = 1647964161,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [59]
 		{
 			"Du bist net auffindbar XD", -- [1]
 			"Andradiêllê-DasSyndikat", -- [2]
@@ -1342,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaAndradiêllê-DasSyndikat|r",
 			[51] = 1647964170,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [60]
 		{
 			"ty for invite", -- [1]
 			"Ysotares-Ner'zhul", -- [2]
@@ -1364,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Ysotares-Ner'zhul|r",
 			[51] = 1647964175,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [62]
+		}, -- [61]
 		{
 			"psl wair for me", -- [1]
 			"Joynatura-Silvermoon", -- [2]
@@ -1386,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Joynatura-Silvermoon|r",
 			[51] = 1647964185,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [63]
+		}, -- [62]
 		{
 			"np", -- [1]
 			"Kretze-DerAbyssischeRat", -- [2]
@@ -1408,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaKretze-DerAbyssischeRat|r",
 			[51] = 1647964185,
 			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [64]
+		}, -- [63]
 		{
 			"omw", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1430,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1647964191,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [65]
+		}, -- [64]
 		{
 			"Wo is der Maddin? :-D", -- [1]
 			"Jägernus-Arygos", -- [2]
@@ -1452,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Jägernus-Arygos|r",
 			[51] = 1647964229,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [66]
+		}, -- [65]
 		{
 			"GL", -- [1]
 			"Soulcrusher-Hyjal", -- [2]
@@ -1474,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cSoulcrusher-Hyjal|r",
 			[51] = 1647964384,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [67]
+		}, -- [66]
 		{
 			"gz", -- [1]
 			"Soulcrusher-Hyjal", -- [2]
@@ -1496,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cSoulcrusher-Hyjal|r",
 			[51] = 1647964408,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [68]
+		}, -- [67]
 		{
 			"General Zarathura |cffffff00|Hworldmap:1970:5974:2119|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Bigbaddruid-Outland", -- [2]
@@ -1518,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Bigbaddruid|r",
 			[51] = 1647964431,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [68]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:977:Player-1301-09D6D88A:1:3:23:22:4294967295:4294967295:4294967295:4294967295|h[1000 Daily Quests Completed]|h|r!", -- [1]
 			"Hairyhands-Outland", -- [2]
@@ -1540,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaHairyhands|r",
 			[51] = 1648050844,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [70]
+		}, -- [69]
 		{
 			"Tahkwitz is up", -- [1]
 			"Fraithe-Outland", -- [2]
@@ -1562,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Fraithe|r",
 			[51] = 1648051750,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [70]
 		{
 			"pin?", -- [1]
 			"Plyhm-Outland", -- [2]
@@ -1584,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Plyhm|r",
 			[51] = 1648051776,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [71]
 		{
 			"ty for the inv", -- [1]
 			"Zwaigari-AzjolNerub", -- [2]
@@ -1606,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Zwaigari-AzjolNerub|r",
 			[51] = 1648052240,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [73]
+		}, -- [72]
 		{
 			"<Team> Boosting Key +10 - 17  || Torghast  || /w for info (only gold)", -- [1]
 			"Yaveh-Outland", -- [2]
@@ -1628,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcYaveh|r",
 			[51] = 1648219590,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [73]
 		{
 			"pin?", -- [1]
 			"Höjrup-Outland", -- [2]
@@ -1650,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHöjrup|r",
 			[51] = 1648219601,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [74]
 		{
 			"Gluttonous Overgrowth (97%) |cffffff00|Hworldmap:1970:5295:9293|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Bommel-Outland", -- [2]
@@ -1672,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648219616,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [75]
 		{
 			"thx", -- [1]
 			"Höjrup-Outland", -- [2]
@@ -1694,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHöjrup|r",
 			[51] = 1648219624,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [76]
 		{
 			"80 %", -- [1]
 			"Bommel-Outland", -- [2]
@@ -1716,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648219629,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [77]
 		{
 			"though i probably wont make it x", -- [1]
 			"Höjrup-Outland", -- [2]
@@ -1738,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHöjrup|r",
 			[51] = 1648219633,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [78]
 		{
 			"57", -- [1]
 			"Bommel-Outland", -- [2]
@@ -1760,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648219651,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [79]
 		{
 			"mah boi Maaiky gonna have flying now!!! ", -- [1]
 			"Bommel-Outland", -- [2]
@@ -1782,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648219676,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [80]
 		{
 			"who maaiky?", -- [1]
 			"Yazmine-Outland", -- [2]
@@ -1804,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cYazmine|r",
 			[51] = 1648219692,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [81]
 		{
 			"gz to your friend", -- [1]
 			"Höjrup-Outland", -- [2]
@@ -1826,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHöjrup|r",
 			[51] = 1648219701,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [82]
 		{
 			"engulfer|cffffff00|Hworldmap:1970:4371:7567|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Höjrup-Outland", -- [2]
@@ -1848,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHöjrup|r",
 			[51] = 1648219783,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [83]
 		{
 			"any rares up?", -- [1]
 			"Belowzerox-Outland", -- [2]
@@ -1870,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaBelowzerox|r",
 			[51] = 1648219898,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [84]
 		{
 			"stargorger|cffffff00|Hworldmap:1970:4265:1937|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Höjrup-Outland", -- [2]
@@ -1892,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHöjrup|r",
 			[51] = 1648220078,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [85]
 		{
 			"|cffffff00|Hworldmap:1970:6250:5594|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Archimeda-Outland", -- [2]
@@ -1914,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaArchimeda|r",
 			[51] = 1648220144,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [86]
 		{
 			"Vexis (100%) |cffffff00|Hworldmap:1970:3955:5737|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Bommel-Outland", -- [2]
@@ -1936,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1648220184,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [87]
 		{
 			"Vexis 100.00% ~(39.58, 55.97) |cffffff00|Hworldmap:1970:3958:5597|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Dorah-Outland", -- [2]
@@ -1958,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cDorah|r",
 			[51] = 1648220197,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [88]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15513:Player-1301-0BF29035:1:3:25:22:4294967295:4294967295:4294967295:4294967295|h[Curious Collections]|h|r!", -- [1]
 			"Cronks-Outland", -- [2]
@@ -1980,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcCronks|r",
 			[51] = 1648221664,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [90]
+		}, -- [89]
 		{
 			"is there a potion for m+ n raids like in legion with pre pot?", -- [1]
 			"Bangaresh-Outland", -- [2]
@@ -2002,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Bangaresh|r",
 			[51] = 1648540412,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [90]
 		{
 			"Any one know lf you can get |cff71d5ff|Hspell:327508:0|h[Slick Ice]|h|r from other place then mort'regar?", -- [1]
 			"Xmadbro-Outland", -- [2]
@@ -2024,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaXmadbro|r",
 			[51] = 1648542251,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [91]
 		{
 			"Core is up |cffffff00|Hworldmap:1970:5403:4220|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Saience-Silvermoon", -- [2]
@@ -2046,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Saience-Silvermoon|r",
 			[51] = 1648543008,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [92]
 		{
 			"any rare farms?", -- [1]
 			"Füzi-Outland", -- [2]
@@ -2068,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeFüzi|r",
 			[51] = 1648543627,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [93]
 		{
 			"xyrath", -- [1]
 			"Tanktron-Sylvanas", -- [2]
@@ -2090,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cTanktron-Sylvanas|r",
 			[51] = 1648543700,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [94]
 		{
 			"Vexis up", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -2112,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1648544084,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [95]
 		{
 			"|cffffff00|Hworldmap:1961:5830:7039|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r two bosses", -- [1]
 			"Morbidmind-Outland", -- [2]
@@ -2134,7 +2112,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMorbidmind|r",
 			[51] = 1648547670,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [96]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14754:Player-1301-0C0576F6:1:3:29:22:4294967295:4294967295:4294967295:4294967295|h[The Forgotten One]|h|r!", -- [1]
 			"Yazoos-Outland", -- [2]
@@ -2156,7 +2134,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaYazoos|r",
 			[51] = 1648548094,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [98]
+		}, -- [97]
 		{
 			"fooooock", -- [1]
 			"Emyly-Outland", -- [2]
@@ -2178,29 +2156,51 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Emyly|r",
 			[51] = 1648549171,
 			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:9130:Player-1301-0B14B054:1:3:31:22:4294967295:4294967295:4294967295:4294967295|h[A Rare Friend]|h|r!", -- [1]
+			"Dalag-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Dalag-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			195, -- [11]
+			"Player-1301-0B14B054", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Dalag|r",
+			[51] = 1648751285,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/i alright", -- [1]
-		"/i HEY", -- [2]
-		"/i jeez", -- [3]
-		"/i that was a lot of trash xD", -- [4]
-		"/i after this", -- [5]
-		"/i give me a sec", -- [6]
-		"/i to tp out and in to repair", -- [7]
-		"/i thanks for waiting xD", -- [8]
-		"/i kite him", -- [9]
-		"/i i cant taunt him here", -- [10]
-		"/i lol", -- [11]
-		"/cw Cannabizy-Silvermoon sry we already got autofilled someone else", -- [12]
-		"/cw Cannabizy-Silvermoon can i have it plz?", -- [13]
-		"/cw Venaxus-Wildhammer can i have it plz?", -- [14]
-		"/1 Famu up", -- [15]
-		"/who", -- [16]
-		"/1 ||Konthrogz up near consumption", -- [17]
-		"/1 Konthrogz up", -- [18]
-		"/raid omw", -- [19]
-		"/1 Vexis up", -- [20]
+		"/i HEY", -- [1]
+		"/i jeez", -- [2]
+		"/i that was a lot of trash xD", -- [3]
+		"/i after this", -- [4]
+		"/i give me a sec", -- [5]
+		"/i to tp out and in to repair", -- [6]
+		"/i thanks for waiting xD", -- [7]
+		"/i kite him", -- [8]
+		"/i i cant taunt him here", -- [9]
+		"/i lol", -- [10]
+		"/cw Cannabizy-Silvermoon sry we already got autofilled someone else", -- [11]
+		"/cw Cannabizy-Silvermoon can i have it plz?", -- [12]
+		"/cw Venaxus-Wildhammer can i have it plz?", -- [13]
+		"/1 Famu up", -- [14]
+		"/who", -- [15]
+		"/1 ||Konthrogz up near consumption", -- [16]
+		"/1 Konthrogz up", -- [17]
+		"/raid omw", -- [18]
+		"/1 Vexis up", -- [19]
+		"/reload", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }

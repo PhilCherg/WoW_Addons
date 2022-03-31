@@ -1937,15 +1937,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lokimori-Silvermoon",
 		},
-		[15253] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Arcane Fiend",
-		},
 		[329170] = {
 			["school"] = 1,
 			["token"] = {
@@ -1961,6 +1952,15 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Tred'ova",
+		},
+		[15253] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Arcane Fiend",
 		},
 		[322655] = {
 			["school"] = 8,

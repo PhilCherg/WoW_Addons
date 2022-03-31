@@ -1,6 +1,65 @@
-VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1LR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+VER 3 0100000000000016 "Bile/Strength" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor,talent:1/2] Bilescourge Bombers
+/cast [talent:1/3] Demonic Strength
 END
-VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
-N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Nec[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+VER 3 0100000000000006 "BurningRush/Pact" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:3/2] Burning Rush
+/cast [talent:3/3] Dark Pact
+END
+VER 3 010000000000000F "CataclysmCursor" "409545"
+#showtooltip Cataclysm
+/cast [@cursor] Cataclysm
+END
+VER 3 0100000000000005 "Coil/Howl" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:5/2] Mortal Coil
+/cast [talent:5/3] Howl of Terror
+END
+VER 3 0100000000000008 "CovWarlock" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Impending Catastrophe
+/cast Decimating Bolt
+/cast Soul Rot
+/cast Scouring Tithe
+/run local G=GetSpellInfo SetMacroSpell(GetRunningMacro(), G"Impending Catastrophe" or G"Decimating Bolt" or G"Soul Rot"or G"Scouring Tithe")
+END
+VER 3 0100000000000014 "Demonfire/Soul" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:7/2] Channel Demonfire
+/cast [talent:7/3] Dark Soul: Instability
+END
+VER 3 0100000000000010 "FastFelhunter" "136217"
+#showtooltip Summon Felhunter
+/cast Fel Domination
+/cast Summon Felhunter
+END
+VER 3 0100000000000011 "FastVoidwalker" "136221"
+#showtooltip Summon Voidwalker
+/cast Fel Domination
+/cast Summon Voidwalker
+END
+VER 3 0100000000000015 "Haunt/Sacrifice" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:6/2] Haunt
+/cast [talent:6/3] Grimoire of Sacrifice
+END
+VER 3 0100000000000012 "InfernalCursor" "136219"
+#showtooltip Summon Infernal
+/cast [@cursor] Summon Infernal
+END
+VER 3 0100000000000004 "PS/VileTaint" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:4/2] Phantom Singularity
+/cast [@cursor][talent:4/3] Vile Taint
+END
+VER 3 0100000000000013 "RainOfFireCursor" "136186"
+#showtooltip Rain of Fire
+/cast [@cursor] Rain of Fire
+END
+VER 3 010000000000000A "Strike/Vilefiend" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:4/2] Soul Strike
+/cast [talent:4/3] Summon Vilefiend
 END

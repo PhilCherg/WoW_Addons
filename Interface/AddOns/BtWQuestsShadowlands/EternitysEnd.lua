@@ -1062,7 +1062,7 @@ Database:AddChain(Chain.CrownOfWills, {
             id = 64803,
             x = -1,
             connections = {
-                2, 
+                3, 
             },
         },
         {
@@ -1075,7 +1075,7 @@ Database:AddChain(Chain.CrownOfWills, {
         {
             type = "quest",
             id = 64804,
-            x = 0,
+            x = 1,
             connections = {
                 1, 
             },
@@ -1649,7 +1649,7 @@ Database:AddChain(Chain.StartingOver, {
     }
 })
 Database:AddChain(Chain.EpilogueJudgment, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 8),
+    name = L["EPILOGUE_JUDGMENT"],
     questline = 1284,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -1764,6 +1764,14 @@ Database:AddChain(Chain.EpilogueJudgment, {
     rewards = {
     },
     items = {
+        {
+            type = "npc",
+            id = 181183,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
         {
             type = "quest",
             id = 65249,
@@ -2112,12 +2120,6 @@ Database:AddChain(Chain.SmallPetProblems, {
             connections = {
                 1, 
             },
-        },
-        {
-            type = "item",
-            id = 189585,
-            aside = true,
-            x = 0,
         },
     },
 })
@@ -3357,21 +3359,29 @@ Database:AddChain(Chain.Chain07, {
             id = 177958,
             x = 0,
             connections = {
-                1, 2, 3, 
+                1,
             },
         },
         {
             type = "quest",
             id = 65460,
-            x = -2,
+            x = 0,
+            connections = {
+                1,
+            },
         },
         {
             type = "quest",
             id = 65461,
+            x = 0,
+            connections = {
+                1,
+            },
         },
         {
             type = "quest",
             id = 65466,
+            x = 0,
         },
     }
 })
@@ -3445,10 +3455,10 @@ Database:AddCategory(CATEGORY_ID, {
             type = "chain",
             id = Chain.StartingOver,
         },
-        -- {
-        --     type = "chain",
-        --     id = Chain.EpilogueJudgment,
-        -- },
+        {
+            type = "chain",
+            id = Chain.EpilogueJudgment,
+        },
         
         {
             type = "chain",

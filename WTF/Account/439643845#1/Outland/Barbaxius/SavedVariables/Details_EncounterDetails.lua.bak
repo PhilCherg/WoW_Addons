@@ -1932,14 +1932,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lokimori-Silvermoon",
 		},
-		[322527] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Tred'ova",
-		},
 		[15253] = {
 			["school"] = 64,
 			["token"] = {
@@ -1956,6 +1948,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Sinstone Statue",
+		},
+		[322527] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Tred'ova",
 		},
 		[322655] = {
 			["school"] = 8,

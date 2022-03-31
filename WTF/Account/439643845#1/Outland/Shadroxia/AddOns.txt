@@ -282,6 +282,6 @@ RaiderIO_DB_US_F: disabled
 RaiderIO_DB_EU_F: disabled
 RaiderIO_DB_KR_F: disabled
 RaiderIO_DB_TW_F: disabled
-StoredAnimaCounter: disabled
+StoredAnimaCounter: enabled
 SoulshapeJournal: disabled
 ZerethMortisPuzzleHelper: disabled
