@@ -2195,12 +2195,12 @@ ElvCharacterDB = {
 		"/att", -- [12]
 		"/rarescanner", -- [13]
 		"/reload", -- [14]
-		"/who", -- [15]
-		"/cw Dilidan-Sylvanas hey are you still looking for people?", -- [16]
-		"/cw Dilidan-Sylvanas oke, i will come on my dh, give me a sec", -- [17]
-		"/cw Stefankalosz-Silvermoon hey you wanna do hard mode?", -- [18]
-		"/cw Stefankalosz-Silvermoon i can come on my warrior, give me a sec", -- [19]
-		"/ltp", -- [20]
+		"/cw Dilidan-Sylvanas hey are you still looking for people?", -- [15]
+		"/cw Dilidan-Sylvanas oke, i will come on my dh, give me a sec", -- [16]
+		"/cw Stefankalosz-Silvermoon hey you wanna do hard mode?", -- [17]
+		"/cw Stefankalosz-Silvermoon i can come on my warrior, give me a sec", -- [18]
+		"/ltp", -- [19]
+		"/who", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }
