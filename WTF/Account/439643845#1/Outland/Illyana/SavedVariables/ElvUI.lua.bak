@@ -2,270 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14417:Player-1301-08C76C2D:1:3:13:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Theater of Pain]|h|r!", -- [1]
-			"Miniroze-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Miniroze-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2361, -- [11]
-			"Player-1301-08C76C2D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Miniroze|r",
-			[51] = 1647180655,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [1]
-		{
-			"Consumption |cffffff00|Hworldmap:1961:5115:4128|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Spellsnstuff-LaughingSkull", -- [2]
-			"", -- [3]
-			"1. General - Korthia", -- [4]
-			"Spellsnstuff-LaughingSkull", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Korthia", -- [9]
-			0, -- [10]
-			2431, -- [11]
-			"Player-1598-0BD76FE2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Spellsnstuff-LaughingSkull|r",
-			[51] = 1647181773,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14410:Player-1301-08C76C2D:1:3:13:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Halls of Atonement]|h|r!", -- [1]
-			"Miniroze-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Miniroze-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2433, -- [11]
-			"Player-1301-08C76C2D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Miniroze|r",
-			[51] = 1647182098,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [3]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14411:Player-1301-08C76C2D:1:3:13:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Halls of Atonement]|h|r!", -- [1]
-			"Miniroze-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Miniroze-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2434, -- [11]
-			"Player-1301-08C76C2D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Miniroze|r",
-			[51] = 1647182098,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [4]
-		{
-			"timer on spider spawn? :D", -- [1]
-			"Snowfehérke-Ragnaros", -- [2]
-			"", -- [3]
-			"1. General - Mechagon", -- [4]
-			"Snowfehérke-Ragnaros", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Mechagon", -- [9]
-			0, -- [10]
-			3439, -- [11]
-			"Player-3682-05BACCB5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Snowfehérke-Ragnaros|r",
-			[51] = 1647187393,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
-		{
-			"cant remember but think 30-60 min", -- [1]
-			"Wusar-Silvermoon", -- [2]
-			"", -- [3]
-			"1. General - Mechagon", -- [4]
-			"Wusar-Silvermoon", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Mechagon", -- [9]
-			0, -- [10]
-			3440, -- [11]
-			"Player-3391-0C088634", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Wusar-Silvermoon|r",
-			[51] = 1647187442,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
-		{
-			"ty", -- [1]
-			"Snowfehérke-Ragnaros", -- [2]
-			"", -- [3]
-			"1. General - Mechagon", -- [4]
-			"Snowfehérke-Ragnaros", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Mechagon", -- [9]
-			0, -- [10]
-			3441, -- [11]
-			"Player-3682-05BACCB5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Snowfehérke-Ragnaros|r",
-			[51] = 1647187452,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
-		{
-			"Kazum ogg makogg throm  uruk nogu ", -- [1]
-			"Thurster-Ragnaros", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Thurster-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			3484, -- [11]
-			"Player-3682-0AE07CFE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cThurster-Ragnaros|r",
-			[51] = 1647187908,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [8]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14630:Player-1301-09F79C6A:1:3:14:22:4294967295:4294967295:4294967295:4294967295|h[Becoming a Hero]|h|r!", -- [1]
-			"Dráke-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Dráke-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			691, -- [11]
-			"Player-1301-09F79C6A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Dráke|r",
-			[51] = 1647279502,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [9]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:15509:Player-1301-0AB865F0:1:3:18:22:4294967295:4294967295:4294967295:4294967295|h[Tales of the Exile]|h|r!", -- [1]
-			"Deamonclap-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Deamonclap-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			439, -- [11]
-			"Player-1301-0AB865F0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Deamonclap|r",
-			[51] = 1647612581,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [10]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:15252:Player-1301-054D44A0:1:3:18:22:4294967295:4294967295:4294967295:4294967295|h[The Jailer's Gauntlet: Layer 2]|h|r!", -- [1]
-			"Deadlyguns-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Deadlyguns-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			450, -- [11]
-			"Player-1301-054D44A0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Deadlyguns|r",
-			[51] = 1647612699,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [11]
-		{
-			"Arachnoid Harvester 0% |cffffff00|Hworldmap:1462:5214:4210|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Danorion-Silvermoon", -- [2]
-			"", -- [3]
-			"1. General - Mechagon", -- [4]
-			"Danorion-Silvermoon", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Mechagon", -- [9]
-			0, -- [10]
-			466, -- [11]
-			"Player-3391-0ACB52D6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Danorion-Silvermoon|r",
-			[51] = 1647613459,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
-		{
 			"dead right?", -- [1]
 			"Pugnacia-Sylvanas", -- [2]
 			"", -- [3]
@@ -286,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPugnacia-Sylvanas|r",
 			[51] = 1647613506,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
+		}, -- [1]
 		{
 			"Kazum ogg makogg throm  uruk nogu ", -- [1]
 			"Thunderlort-Ragnaros", -- [2]
@@ -308,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcThunderlort-Ragnaros|r",
 			[51] = 1647613572,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [14]
+		}, -- [2]
 		{
 			"Rustfeather died at 16:37 server time!", -- [1]
 			"Renova-Ravencrest", -- [2]
@@ -330,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRenova-Ravencrest|r",
 			[51] = 1647614235,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
+		}, -- [3]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14894:Player-1301-09F79C6A:1:3:21:22:4294967295:4294967295:4294967295:4294967295|h[To 'Ghast, Two Curios]|h|r!", -- [1]
 			"Dráke-Outland", -- [2]
@@ -352,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Dráke|r",
 			[51] = 1647867443,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [16]
+		}, -- [4]
 		{
 			"WTS |cffffffff|Hitem:172320::::::::60:64:::::::::|h[Umbrahide Waistguard]|h|r |cffffffff|Hitem:172316::::::::60:64:::::::::|h[Umbrahide Gauntlets]|h|r |cffffffff|Hitem:172315::::::::60:64:::::::::|h[Umbrahide Treads]|h|r  leather 291", -- [1]
 			"Fishercc-Outland", -- [2]
@@ -374,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFishercc|r",
 			[51] = 1647867784,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
+		}, -- [5]
 		{
 			"wts|cff0070dd|Hbattlepet:183:25:3:1481:276:276:BattlePet-0-000012074CC2:25002|h[Ethereal Soul-Trader]|h|r750k -2007 tcg pet", -- [1]
 			"Walthorn-Outland", -- [2]
@@ -396,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Walthorn|r",
 			[51] = 1648232602,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
+		}, -- [6]
 		{
 			"WTS 0-1.4/1.6k boosts fast and cheap ", -- [1]
 			"Drazen-Outland", -- [2]
@@ -418,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Drazen|r",
 			[51] = 1648232620,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
+		}, -- [7]
 		{
 			"wts |cff0070dd|Hbattlepet:183:25:3:1481:276:276:BattlePet-0-00000B24839A:25002|h[Ethereal Soul-Trader]|h|r 700k", -- [1]
 			"Pampulan-Outland", -- [2]
@@ -440,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Pampulan|r",
 			[51] = 1648232642,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
+		}, -- [8]
 		{
 			"WTS |cff66bbff|Hjournal:0:1195:16|h[Sepulcher of the First Ones]|h|r HC ( all tier Set bosses Lords Anduin Jailer spot going now wisper me for more info", -- [1]
 			"Twmatee-Outland", -- [2]
@@ -462,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cTwmatee|r",
 			[51] = 1648232685,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
+		}, -- [9]
 		{
 			"sold, ya m*ron :D", -- [1]
 			"Walthorn-Outland", -- [2]
@@ -484,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Walthorn|r",
 			[51] = 1648232691,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
+		}, -- [10]
 		{
 			"Wtb [Boneshatter Waistguard] 291", -- [1]
 			"Respectina-Outland", -- [2]
@@ -506,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Respectina|r",
 			[51] = 1648232727,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
+		}, -- [11]
 		{
 			"WTS |cffa335ee|Hitem:49284::::::::53:263:::::::::|h[Reins of the Swift Spectral Tiger]|h|r. Reasonable offers only. /w me only if you're serious.", -- [1]
 			"Xuiron-Outland", -- [2]
@@ -528,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcXuiron|r",
 			[51] = 1648232940,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
+		}, -- [12]
 		{
 			"Wtb [Boneshatter Waistguard] 291", -- [1]
 			"Respectina-Outland", -- [2]
@@ -550,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Respectina|r",
 			[51] = 1648233024,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
+		}, -- [13]
 		{
 			"meqdar kuchiki tala kharidarim", -- [1]
 			"Qangqang-Outland", -- [2]
@@ -572,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaQangqang|r",
 			[51] = 1648536890,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
+		}, -- [14]
 		{
 			"du får gå til legen da vet du - ikke bra med sår i ræva", -- [1]
 			"Callmerosyy-Outland", -- [2]
@@ -594,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edCallmerosyy|r",
 			[51] = 1648536921,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
+		}, -- [15]
 		{
 			"WTS Legendary 291 iLvL - Any slot Tailoring / Jewelcrafting (Ring/Neck) , Leather - Belt/Bracer/Legs/Chest , Mail - Legs/Hands ,  BS - Belt/Legs/Boots Fair Price /w me", -- [1]
 			"Bankstudent-Outland", -- [2]
@@ -616,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaBankstudent|r",
 			[51] = 1648539598,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
+		}, -- [16]
 		{
 			"On sale - |cffffffff|Hitem:178927::::::::10:62::69:4:7193:7882:8156:1588:1:28:2142::::Player-1301-0ADD993C:|h[Shadowghast Necklace]|h|r 291 ilvl for 69k gold - [30] left /w me", -- [1]
 			"Bankstudent-Outland", -- [2]
@@ -638,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaBankstudent|r",
 			[51] = 1648539599,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
+		}, -- [17]
 		{
 			"wtb [Umbrahide Pauldrons] 291", -- [1]
 			"Respectina-Outland", -- [2]
@@ -660,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Respectina|r",
 			[51] = 1648549797,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
+		}, -- [18]
 		{
 			"<LEGIO MORTIS> (PvE; 10/11 N; Wed+Sun) Bored of guilds full of mute zombies doing literally nothing? Looking for a strong community? We welcome all willing to play -  join us now! Now started PvP Section - Arenas, 2200 RBG, Open World PvP - /w for more", -- [1]
 			"Shandril-Outland", -- [2]
@@ -682,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shandril|r",
 			[51] = 1648549811,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
+		}, -- [19]
 		{
 			"Thok gi mog thukad gi n o ", -- [1]
 			"Hornâ-Stormscale", -- [2]
@@ -704,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcHornâ-Stormscale|r",
 			[51] = 1648584670,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [32]
+		}, -- [20]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15053:Player-1301-08A53EFB:1:3:31:22:4294967295:4294967295:4294967295:4294967295|h[Explore Korthia]|h|r!", -- [1]
 			"Decode-Outland", -- [2]
@@ -726,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Decode|r",
 			[51] = 1648674907,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [33]
+		}, -- [21]
 		{
 			"yo", -- [1]
 			"Illyana-Outland", -- [2]
@@ -748,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1648728568,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [34]
+		}, -- [22]
 		{
 			"ok let's go like this", -- [1]
 			"Dilidan-Sylvanas", -- [2]
@@ -770,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Dilidan-Sylvanas|r",
 			[51] = 1648728577,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [35]
+		}, -- [23]
 		{
 			"can i get a sum plz :D", -- [1]
 			"Illyana-Outland", -- [2]
@@ -792,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1648728580,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [36]
+		}, -- [24]
 		{
 			"its impossible to find heal", -- [1]
 			"Dilidan-Sylvanas", -- [2]
@@ -814,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Dilidan-Sylvanas|r",
 			[51] = 1648728582,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [37]
+		}, -- [25]
 		{
 			"warr go protection if u can survive beter", -- [1]
 			"Dilidan-Sylvanas", -- [2]
@@ -836,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Dilidan-Sylvanas|r",
 			[51] = 1648728590,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [38]
+		}, -- [26]
 		{
 			"you know what to do on last boss right?", -- [1]
 			"Illyana-Outland", -- [2]
@@ -858,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1648728629,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [39]
+		}, -- [27]
 		{
 			"come in", -- [1]
 			"Dilidan-Sylvanas", -- [2]
@@ -880,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Dilidan-Sylvanas|r",
 			[51] = 1648728630,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [40]
+		}, -- [28]
 		{
 			"yup", -- [1]
 			"Dilidan-Sylvanas", -- [2]
@@ -902,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Dilidan-Sylvanas|r",
 			[51] = 1648728633,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [41]
+		}, -- [29]
 		{
 			"nice", -- [1]
 			"Illyana-Outland", -- [2]
@@ -924,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1648728636,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [42]
+		}, -- [30]
 		{
 			"i think we can brute force it", -- [1]
 			"Dilidan-Sylvanas", -- [2]
@@ -946,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Dilidan-Sylvanas|r",
 			[51] = 1648728638,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [43]
+		}, -- [31]
 		{
 			"mhm", -- [1]
 			"Illyana-Outland", -- [2]
@@ -968,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1648728641,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [44]
+		}, -- [32]
 		{
 			"i don't have a shield for the spec :( but if arms dosn't work i will switch", -- [1]
 			"Wellson-ArgentDawn", -- [2]
@@ -990,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWellson-ArgentDawn|r",
 			[51] = 1648728646,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [45]
+		}, -- [33]
 		{
 			"come in wrr", -- [1]
 			"Dilidan-Sylvanas", -- [2]
@@ -1012,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Dilidan-Sylvanas|r",
 			[51] = 1648728646,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [46]
+		}, -- [34]
 		{
 			"i 2-manned this on my main, very doable", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1034,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1648728649,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [47]
+		}, -- [35]
 		{
 			"what to do on last boss?", -- [1]
 			"Skrutt-Hellscream", -- [2]
@@ -1056,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSkrutt-Hellscream|r",
 			[51] = 1648728661,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [48]
+		}, -- [36]
 		{
 			"we are not doing the hole dg right?", -- [1]
 			"Wellson-ArgentDawn", -- [2]
@@ -1078,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWellson-ArgentDawn|r",
 			[51] = 1648728774,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [49]
+		}, -- [37]
 		{
 			"we do", -- [1]
 			"Dilidan-Sylvanas", -- [2]
@@ -1100,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Dilidan-Sylvanas|r",
 			[51] = 1648728786,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [50]
+		}, -- [38]
 		{
 			"ah okay", -- [1]
 			"Wellson-ArgentDawn", -- [2]
@@ -1122,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWellson-ArgentDawn|r",
 			[51] = 1648728790,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [51]
+		}, -- [39]
 		{
 			"it+s hardmode run", -- [1]
 			"Dilidan-Sylvanas", -- [2]
@@ -1144,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Dilidan-Sylvanas|r",
 			[51] = 1648728790,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [52]
+		}, -- [40]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:13706:Player-1301-09F61344:1:3:31:22:4294967295:4294967295:4294967295:4294967295|h[Stay Positive]|h|r!", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1166,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1648728818,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [53]
+		}, -- [41]
 		{
 			"hope ur good at dodging stuff xD", -- [1]
 			"Dilidan-Sylvanas", -- [2]
@@ -1188,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Dilidan-Sylvanas|r",
 			[51] = 1648729010,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [54]
+		}, -- [42]
 		{
 			"focus car", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1210,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1648729164,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [55]
+		}, -- [43]
 		{
 			"1 do robot", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1232,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1648729169,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [56]
+		}, -- [44]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:13545:Player-1301-09F61344:1:3:31:22:4294967295:4294967295:4294967295:4294967295|h[Go Ahead, Make My Daisy]|h|r!", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1254,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1648729558,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [57]
+		}, -- [45]
 		{
 			"wait before this boss", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1276,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1648729600,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [58]
+		}, -- [46]
 		{
 			"kk", -- [1]
 			"Wellson-ArgentDawn", -- [2]
@@ -1298,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWellson-ArgentDawn|r",
 			[51] = 1648729605,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [59]
+		}, -- [47]
 		{
 			"wait here", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1320,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1648729651,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [60]
+		}, -- [48]
 		{
 			"we gotta reset him", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1342,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1648729659,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [61]
+		}, -- [49]
 		{
 			"why is that?", -- [1]
 			"Wellson-ArgentDawn", -- [2]
@@ -1364,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWellson-ArgentDawn|r",
 			[51] = 1648729670,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [62]
+		}, -- [50]
 		{
 			"lemme go pull and reset him", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1386,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1648729671,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [63]
+		}, -- [51]
 		{
 			"then go to where he is", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1408,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1648729675,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [64]
+		}, -- [52]
 		{
 			"and when he respawns", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1430,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1648729678,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [65]
+		}, -- [53]
 		{
 			"start bursting him", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1452,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1648729681,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [66]
+		}, -- [54]
 		{
 			"ok?", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1474,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1648729684,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [67]
+		}, -- [55]
 		{
 			"got it", -- [1]
 			"Wellson-ArgentDawn", -- [2]
@@ -1496,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWellson-ArgentDawn|r",
 			[51] = 1648729686,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [68]
+		}, -- [56]
 		{
 			"when the big robot is at like 15%", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1518,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1648729692,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [69]
+		}, -- [57]
 		{
 			"chill dps", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1540,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1648729695,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [70]
+		}, -- [58]
 		{
 			"so we click button before he dies", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1562,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1648729700,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [71]
+		}, -- [59]
 		{
 			"and ez", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1584,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1648729702,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [72]
+		}, -- [60]
 		{
 			"wtf", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1606,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1648729824,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [73]
+		}, -- [61]
 		{
 			"bug?", -- [1]
 			"Wellson-ArgentDawn", -- [2]
@@ -1628,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWellson-ArgentDawn|r",
 			[51] = 1648729824,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [74]
+		}, -- [62]
 		{
 			"did he reset", -- [1]
 			"Dilidan-Sylvanas", -- [2]
@@ -1650,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Dilidan-Sylvanas|r",
 			[51] = 1648729824,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [75]
+		}, -- [63]
 		{
 			"i guess so", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1672,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1648729828,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [76]
+		}, -- [64]
 		{
 			";P", -- [1]
 			"Skrutt-Hellscream", -- [2]
@@ -1694,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSkrutt-Hellscream|r",
 			[51] = 1648729836,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [77]
+		}, -- [65]
 		{
 			"welp", -- [1]
 			"Wellson-ArgentDawn", -- [2]
@@ -1716,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWellson-ArgentDawn|r",
 			[51] = 1648729839,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [78]
+		}, -- [66]
 		{
 			"where is big butoon", -- [1]
 			"Dilidan-Sylvanas", -- [2]
@@ -1738,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Dilidan-Sylvanas|r",
 			[51] = 1648729854,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [79]
+		}, -- [67]
 		{
 			"who got the mount", -- [1]
 			"Dilidan-Sylvanas", -- [2]
@@ -1760,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Dilidan-Sylvanas|r",
 			[51] = 1648729923,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [80]
+		}, -- [68]
 		{
 			"i think i unlcoked mechagnome :D", -- [1]
 			"Wellson-ArgentDawn", -- [2]
@@ -1782,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWellson-ArgentDawn|r",
 			[51] = 1648729942,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [81]
+		}, -- [69]
 		{
 			"shit", -- [1]
 			"Dilidan-Sylvanas", -- [2]
@@ -1804,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Dilidan-Sylvanas|r",
 			[51] = 1648729967,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [82]
+		}, -- [70]
 		{
 			"we failed", -- [1]
 			"Dilidan-Sylvanas", -- [2]
@@ -1826,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Dilidan-Sylvanas|r",
 			[51] = 1648729979,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [83]
+		}, -- [71]
 		{
 			"we need to clikc button before the fight", -- [1]
 			"Dilidan-Sylvanas", -- [2]
@@ -1848,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Dilidan-Sylvanas|r",
 			[51] = 1648729979,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [84]
+		}, -- [72]
 		{
 			"not after..", -- [1]
 			"Dilidan-Sylvanas", -- [2]
@@ -1870,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Dilidan-Sylvanas|r",
 			[51] = 1648729979,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [85]
+		}, -- [73]
 		{
 			"haha", -- [1]
 			"Skrutt-Hellscream", -- [2]
@@ -1892,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSkrutt-Hellscream|r",
 			[51] = 1648729981,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [86]
+		}, -- [74]
 		{
 			"no mount", -- [1]
 			"Dilidan-Sylvanas", -- [2]
@@ -1914,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Dilidan-Sylvanas|r",
 			[51] = 1648729981,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [87]
+		}, -- [75]
 		{
 			"why did it bug", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1936,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1648729986,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [88]
+		}, -- [76]
 		{
 			"it didn't bug", -- [1]
 			"Dilidan-Sylvanas", -- [2]
@@ -1958,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Dilidan-Sylvanas|r",
 			[51] = 1648729992,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [89]
+		}, -- [77]
 		{
 			"nah, i did the exact same thing on my lock", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1980,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1648729994,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [90]
+		}, -- [78]
 		{
 			"and it worked fine", -- [1]
 			"Illyana-Outland", -- [2]
@@ -2002,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1648729997,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [91]
+		}, -- [79]
 		{
 			"says on wowhead", -- [1]
 			"Dilidan-Sylvanas", -- [2]
@@ -2024,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Dilidan-Sylvanas|r",
 			[51] = 1648730005,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [92]
+		}, -- [80]
 		{
 			"click button before fight", -- [1]
 			"Dilidan-Sylvanas", -- [2]
@@ -2046,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Dilidan-Sylvanas|r",
 			[51] = 1648730008,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [93]
+		}, -- [81]
 		{
 			"ye ye i know", -- [1]
 			"Illyana-Outland", -- [2]
@@ -2068,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1648730012,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [94]
+		}, -- [82]
 		{
 			"but thats the ordinary strat", -- [1]
 			"Illyana-Outland", -- [2]
@@ -2090,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1648730021,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [95]
+		}, -- [83]
 		{
 			"a well", -- [1]
 			"Dilidan-Sylvanas", -- [2]
@@ -2112,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Dilidan-Sylvanas|r",
 			[51] = 1648730036,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [96]
+		}, -- [84]
 		{
 			"ty anyhow", -- [1]
 			"Dilidan-Sylvanas", -- [2]
@@ -2134,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Dilidan-Sylvanas|r",
 			[51] = 1648730038,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [97]
+		}, -- [85]
 		{
 			"gl all", -- [1]
 			"Dilidan-Sylvanas", -- [2]
@@ -2156,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Dilidan-Sylvanas|r",
 			[51] = 1648730042,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [98]
+		}, -- [86]
 		{
 			"ty", -- [1]
 			"Skrutt-Hellscream", -- [2]
@@ -2178,6 +1914,270 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSkrutt-Hellscream|r",
 			[51] = 1648730043,
 			[50] = "CHAT_MSG_PARTY",
+		}, -- [87]
+		{
+			"any timer?", -- [1]
+			"Váhry-Ravencrest", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Váhry-Ravencrest", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			67, -- [11]
+			"Player-1329-069A9A50", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cVáhry-Ravencrest|r",
+			[51] = 1648747619,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [88]
+		{
+			"no clue", -- [1]
+			"Ifera-Ravencrest", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Ifera-Ravencrest", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			68, -- [11]
+			"Player-1329-06DF6399", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcIfera-Ravencrest|r",
+			[51] = 1648747627,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [89]
+		{
+			"ko", -- [1]
+			"Lekkerbisken-Stormscale", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Lekkerbisken-Stormscale", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			69, -- [11]
+			"Player-2073-09C34006", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Lekkerbisken-Stormscale|r",
+			[51] = 1648747627,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [90]
+		{
+			"ko", -- [1]
+			"Ifera-Ravencrest", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Ifera-Ravencrest", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			70, -- [11]
+			"Player-1329-06DF6399", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcIfera-Ravencrest|r",
+			[51] = 1648747641,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [91]
+		{
+			"ty", -- [1]
+			"Váhry-Ravencrest", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Váhry-Ravencrest", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			71, -- [11]
+			"Player-1329-069A9A50", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cVáhry-Ravencrest|r",
+			[51] = 1648747644,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [92]
+		{
+			"gi", -- [1]
+			"Lekkerbisken-Stormscale", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Lekkerbisken-Stormscale", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			72, -- [11]
+			"Player-2073-09C34006", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Lekkerbisken-Stormscale|r",
+			[51] = 1648747654,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [93]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14370:Player-1301-08A22EA3:1:3:31:22:4294967295:4294967295:4294967295:4294967295|h[Halls of Atonement]|h|r!", -- [1]
+			"Naralh-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Naralh-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			73, -- [11]
+			"Player-1301-08A22EA3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcNaralh|r",
+			[51] = 1648748164,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [94]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:15498:Player-1301-09F79C6A:1:3:31:22:4294967295:4294967295:4294967295:4294967295|h[Shadowlands Keystone Conqueror: Season Three]|h|r!", -- [1]
+			"Dráke-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Dráke-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			95, -- [11]
+			"Player-1301-09F79C6A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Dráke|r",
+			[51] = 1648749047,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [95]
+		{
+			"Arachnoid Harvester died at 21:02 server time!", -- [1]
+			"Renova-Ravencrest", -- [2]
+			"", -- [3]
+			"1. General - Mechagon", -- [4]
+			"Renova-Ravencrest", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Mechagon", -- [9]
+			0, -- [10]
+			106, -- [11]
+			"Player-1329-04F91391", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeRenova-Ravencrest|r",
+			[51] = 1648749742,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"Rustfeather (325.92k/409.94k 79.50%) 65.84 79.11 |cffffff00|Hworldmap:1462:6583:7910|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Renova-Ravencrest", -- [2]
+			"", -- [3]
+			"1. General - Mechagon", -- [4]
+			"Renova-Ravencrest", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Mechagon", -- [9]
+			0, -- [10]
+			110, -- [11]
+			"Player-1329-04F91391", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeRenova-Ravencrest|r",
+			[51] = 1648749855,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"makes some strange gestures.", -- [1]
+			"Rivso-Auchindoun", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rivso-Auchindoun", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			111, -- [11]
+			"Player-1597-0EF79340", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Rivso-Auchindoun|r",
+			[51] = 1648749861,
+			[50] = "CHAT_MSG_EMOTE",
+		}, -- [98]
+		{
+			"Rustfeather died at 21:05 server time!", -- [1]
+			"Renova-Ravencrest", -- [2]
+			"", -- [3]
+			"1. General - Mechagon", -- [4]
+			"Renova-Ravencrest", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Mechagon", -- [9]
+			0, -- [10]
+			112, -- [11]
+			"Player-1329-04F91391", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeRenova-Ravencrest|r",
+			[51] = 1648749867,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {

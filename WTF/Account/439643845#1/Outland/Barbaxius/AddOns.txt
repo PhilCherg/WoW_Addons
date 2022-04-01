@@ -277,3 +277,4 @@ BetterWardrobe_SourceData: disabled
 HandyNotes_BattleForAzeroth: disabled
 DBM-Sepulcher: disabled
 DBM-VPVEM: disabled
+Leatrix_Plus: enabled
