@@ -2861,12 +2861,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Qiang the Merciless",
 		},
-		[87116] = {
+		[124967] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Stonard Warlock",
+			["source"] = "Elegon",
 		},
 		[21562] = {
 			["school"] = 2,
@@ -2876,13 +2878,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Vitiøck-KhazModan",
 		},
-		[167966] = {
+		[87116] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Earthshaper Telu",
+			["source"] = "Stonard Warlock",
 		},
 		[63059] = {
 			["school"] = 8,
@@ -3227,13 +3228,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ruination",
 		},
-		[166565] = {
+		[104318] = {
 			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Assault Cannon",
+			["source"] = "Wild Imp",
 		},
 		[151859] = {
 			["school"] = 4,
@@ -3257,16 +3257,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Onyxian Warder",
 		},
-		[114548] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
+		[166565] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Yan-Zhu the Uncasked",
+			["source"] = "Assault Cannon",
 		},
 		[63476] = {
 			["school"] = 4,
@@ -3694,16 +3691,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ønlyfans-Arathor",
 		},
-		[131790] = {
-			["school"] = 64,
-			["type"] = "DEBUFF",
+		[161457] = {
+			["school"] = 2,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Feng the Accursed",
+			["source"] = "Vigilant Kaathar",
 		},
 		[1943] = {
 			["school"] = 1,
@@ -3721,12 +3714,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Forgemaster Gog'duh",
 		},
-		[161457] = {
-			["school"] = 2,
+		[166572] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Vigilant Kaathar",
+			["source"] = "Archmage Sol",
 		},
 		[40652] = {
 			["school"] = 1,
@@ -3736,12 +3729,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Captured Mercenary Soldier",
 		},
-		[166572] = {
-			["school"] = 1,
+		[131790] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Archmage Sol",
+			["source"] = "Feng the Accursed",
 		},
 		[150332] = {
 			["school"] = 1,
@@ -4463,13 +4460,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Hodir",
 		},
-		[162491] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[16006] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Railmaster Rocketspark",
+			["source"] = "Revelosh",
 		},
 		[165579] = {
 			["school"] = 32,
@@ -4478,12 +4476,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Bonemaw",
 		},
-		[62937] = {
-			["school"] = 4,
+		[162491] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Detonating Lasher",
+			["source"] = "Railmaster Rocketspark",
 		},
 		[224127] = {
 			["school"] = 8,
@@ -4684,6 +4683,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ignis the Furnace Master",
 		},
+		[9739] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Marl Wormthorn",
+		},
 		[149963] = {
 			["school"] = 8,
 			["type"] = "DEBUFF",
@@ -4692,22 +4700,11 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
-		[279729] = {
-			["school"] = 8,
+		[161089] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Drugho-ArgentDawn",
-		},
-		[64153] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Corruptor Tentacle",
 		},
 		[10092] = {
 			["school"] = 1,
@@ -4737,14 +4734,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Skyreach Shield Construct",
 		},
-		[9739] = {
-			["school"] = 8,
+		[62395] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Marl Wormthorn",
+			["source"] = "Flame Leviathan Turret",
 		},
 		[117628] = {
 			["school"] = 32,
@@ -4788,11 +4784,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Hamashu-Stormscale",
 		},
-		[161089] = {
-			["school"] = 1,
+		[23381] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
 			},
+			["source"] = "Druid of the Fang",
 		},
 		[153033] = {
 			["school"] = 32,
@@ -4811,21 +4810,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Obsidian Sentinel",
 		},
-		[62395] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Flame Leviathan Turret",
-		},
-		[167739] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-		},
 		[116990] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -4834,6 +4818,22 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Stone Quilen",
+		},
+		[167739] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+		},
+		[10348] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Leprous Technician",
 		},
 		[31661] = {
 			["school"] = 4,
@@ -4937,12 +4937,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Unknown",
 		},
-		[160964] = {
+		[150734] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Rukhran",
+			["source"] = "Unstable Slag",
 		},
 		[64953] = {
 			["school"] = 1,
@@ -4982,14 +4982,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Viscous Fallout",
 		},
-		[10348] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[279729] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Leprous Technician",
+			["source"] = "Drugho-ArgentDawn",
 		},
 		[80610] = {
 			["school"] = 1,
@@ -5021,13 +5019,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Drugho-ArgentDawn",
 		},
-		[227723] = {
+		[117506] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Clubs-Ragnaros",
+			["source"] = "Zian of the Endless Shadow",
 		},
 		[345714] = {
 			["school"] = 1,
@@ -5036,22 +5033,27 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fallen Monk",
 		},
-		[65209] = {
-			["school"] = 32,
+		[3636] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Guardian of Yogg-Saron",
+			["source"] = "Jadespine Basilisk",
 		},
-		[29920] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[149975] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Spell Shade",
+			["source"] = "Calamity",
 		},
 		[8374] = {
 			["school"] = 1,
@@ -5061,21 +5063,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ironaya",
 		},
-		[152143] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Gelatanized Plague Gunk",
-		},
-		[166464] = {
+		[62396] = {
 			["school"] = 4,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Flame Leviathan",
+		},
+		[65209] = {
+			["school"] = 32,
+			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Archmage Sol",
+			["source"] = "Guardian of Yogg-Saron",
 		},
 		[162500] = {
 			["school"] = 4,
@@ -5115,16 +5118,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Vigilant Kaathar",
 		},
-		[149975] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[29920] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Calamity",
+			["source"] = "Spell Shade",
 		},
 		[164163] = {
 			["school"] = 1,
@@ -5143,14 +5144,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dulhu",
 		},
-		[166465] = {
-			["school"] = 16,
+		[77670] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Archmage Sol",
+			["source"] = "Shadowsworn Spellblade",
 		},
 		[164547] = {
 			["school"] = 64,
@@ -5223,12 +5224,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gelatanized Plague Gunk",
 		},
-		[341884] = {
+		[153679] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Skadi the Ruthless",
+			["source"] = "Slave Watcher Crushto",
 		},
 		[93655] = {
 			["school"] = 4,
@@ -5248,13 +5253,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Archmage Sol",
 		},
-		[119358] = {
+		[341884] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Elegon",
+			["source"] = "Skadi the Ruthless",
 		},
 		[63526] = {
 			["school"] = 8,
@@ -5501,16 +5505,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Malygos",
 		},
-		[153679] = {
+		[119358] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Slave Watcher Crushto",
+			["source"] = "Elegon",
 		},
 		[8806] = {
 			["school"] = 8,
@@ -5540,21 +5541,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Steelforged Defender",
 		},
-		[117506] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Zian of the Endless Shadow",
-		},
-		[77670] = {
+		[227723] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Shadowsworn Spellblade",
+			["source"] = "Clubs-Ragnaros",
+		},
+		[166465] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Archmage Sol",
 		},
 		[162507] = {
 			["school"] = 1,
@@ -5564,25 +5566,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Railmaster Rocketspark",
 		},
-		[3636] = {
-			["school"] = 64,
-			["type"] = "DEBUFF",
+		[166464] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Jadespine Basilisk",
+			["source"] = "Archmage Sol",
 		},
-		[62396] = {
-			["school"] = 4,
-			["type"] = "BUFF",
+		[152143] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Flame Leviathan",
+			["source"] = "Gelatanized Plague Gunk",
 		},
 		[195627] = {
 			["school"] = 1,
@@ -5592,12 +5590,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Hamashu-Stormscale",
 		},
-		[150734] = {
+		[160964] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Unstable Slag",
+			["source"] = "Rukhran",
 		},
 		[93402] = {
 			["school"] = 8,
@@ -5641,14 +5639,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Jarroc Torn-Wing",
 		},
-		[23381] = {
-			["school"] = 8,
+		[116989] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Druid of the Fang",
+			["source"] = "Empyreal Focus",
 		},
 		[150616] = {
 			["school"] = 32,
@@ -5668,12 +5664,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lady Baihu",
 		},
-		[116989] = {
-			["school"] = 1,
+		[64153] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Empyreal Focus",
+			["source"] = "Corruptor Tentacle",
 		},
 		[118530] = {
 			["school"] = 32,
@@ -5769,14 +5768,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Electrocutioner 6000",
 		},
-		[16006] = {
-			["school"] = 8,
+		[62937] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Revelosh",
+			["source"] = "Detonating Lasher",
 		},
 		[164812] = {
 			["school"] = 64,
@@ -6358,12 +6355,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Splinterbone Warrior",
 		},
-		[104318] = {
-			["school"] = 4,
+		[114548] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Wild Imp",
+			["source"] = "Yan-Zhu the Uncasked",
 		},
 		[63967] = {
 			["school"] = 64,
@@ -6525,14 +6526,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Meng the Demented",
 		},
-		[124967] = {
+		[167966] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Elegon",
+			["source"] = "Earthshaper Telu",
 		},
 		[37018] = {
 			["school"] = 4,
