@@ -8,12 +8,12 @@ RaiderIO_Config = {
 	["inverseProfileModifier"] = false,
 	["showScoreInCombat"] = true,
 	["lockProfile"] = false,
-	["enableGuildTooltips"] = true,
+	["displayWeeklyGuildBest"] = false,
 	["enableClientEnhancements"] = true,
 	["enableProfileModifier"] = true,
 	["showRaiderIOProfile"] = true,
 	["enableLFGDropdown"] = true,
-	["displayWeeklyGuildBest"] = false,
+	["enableGuildTooltips"] = true,
 	["showRoleIcons"] = true,
 	["mplusHeadlineMode"] = 1,
 	["showMainsScore"] = true,
@@ -24,16 +24,15 @@ RaiderIO_Config = {
 	["showDropDownCopyURL"] = true,
 	["showAverageScore"] = true,
 	["enableLFGTooltips"] = true,
-	["hidePersonalRaiderIOProfile"] = false,
+	["showScoreModifier"] = false,
 	["enableWhoTooltips"] = true,
 	["enableWhoMessages"] = true,
 	["showSimpleScoreColors"] = false,
-	["showScoreModifier"] = false,
+	["hidePersonalRaiderIOProfile"] = false,
 	["showClientGuildBest"] = true,
 }
 RaiderIO_LastCharacter = "eu-Necrophagus-outland"
 RaiderIO_MissingCharacters = {
-	["eu-Kittenx-outland"] = true,
 }
 RaiderIO_MissingServers = {
 }
