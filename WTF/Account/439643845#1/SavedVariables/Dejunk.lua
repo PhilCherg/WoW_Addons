@@ -48,13 +48,13 @@ __DEJUNK_SAVED_VARIABLES__ = {
 		["Mallazin-Azjol-Nerub"] = {
 			["version"] = 3,
 		},
-		["Illydaria-Draenor"] = {
+		["Serthaxion-Outland"] = {
 			["version"] = 3,
 		},
 		["Chernakotka-Die Aldor"] = {
 			["version"] = 3,
 		},
-		["Feastyone-Outland"] = {
+		["Nibirus-Azjol-Nerub"] = {
 			["version"] = 3,
 		},
 		["Phelanara-Outland"] = {
@@ -69,10 +69,41 @@ __DEJUNK_SAVED_VARIABLES__ = {
 		["Luminaxia-Outland"] = {
 			["version"] = 3,
 		},
-		["Feastfive-Outland"] = {
+		["Illyana-Outland"] = {
+			["sell"] = {
+				["auto"] = true,
+				["inclusions"] = {
+					["172241"] = true,
+				},
+				["safeMode"] = false,
+			},
 			["version"] = 3,
 		},
 		["Bankeristor-Outland"] = {
+			["version"] = 3,
+		},
+		["Phaltraxion-Outland"] = {
+			["version"] = 3,
+		},
+		["Barbaxius-Outland"] = {
+			["version"] = 3,
+		},
+		["Xanthoros-Outland"] = {
+			["version"] = 3,
+		},
+		["Destruxia-Outland"] = {
+			["version"] = 3,
+		},
+		["Feastfour-Outland"] = {
+			["version"] = 3,
+		},
+		["Elementior-Outland"] = {
+			["version"] = 3,
+		},
+		["Feastthree-Outland"] = {
+			["version"] = 3,
+		},
+		["Bullenic-Silvermoon"] = {
 			["version"] = 3,
 		},
 		["Necrophagus-Outland"] = {
@@ -90,9 +121,9 @@ __DEJUNK_SAVED_VARIABLES__ = {
 			["sell"] = {
 				["auto"] = true,
 				["exclusions"] = {
+					["187454"] = true,
 					["187468"] = true,
 					["187455"] = true,
-					["187454"] = true,
 					["187451"] = true,
 				},
 				["inclusions"] = {
@@ -103,51 +134,20 @@ __DEJUNK_SAVED_VARIABLES__ = {
 					["172053"] = true,
 					["179314"] = true,
 					["172054"] = true,
-					["173204"] = true,
-					["172052"] = true,
 					["187431"] = true,
+					["172052"] = true,
+					["173204"] = true,
 				},
 			},
 			["version"] = 3,
 		},
-		["Barbaxius-Outland"] = {
+		["Feastfive-Outland"] = {
 			["version"] = 3,
 		},
-		["Xanthoros-Outland"] = {
+		["Feastyone-Outland"] = {
 			["version"] = 3,
 		},
-		["Bullenic-Silvermoon"] = {
-			["version"] = 3,
-		},
-		["Feastfour-Outland"] = {
-			["version"] = 3,
-		},
-		["Elementior-Outland"] = {
-			["version"] = 3,
-		},
-		["Feastthree-Outland"] = {
-			["version"] = 3,
-		},
-		["Destruxia-Outland"] = {
-			["version"] = 3,
-		},
-		["Phaltraxion-Outland"] = {
-			["version"] = 3,
-		},
-		["Illyana-Outland"] = {
-			["sell"] = {
-				["auto"] = true,
-				["inclusions"] = {
-					["172241"] = true,
-				},
-				["safeMode"] = false,
-			},
-			["version"] = 3,
-		},
-		["Nibirus-Azjol-Nerub"] = {
-			["version"] = 3,
-		},
-		["Serthaxion-Outland"] = {
+		["Illydaria-Draenor"] = {
 			["version"] = 3,
 		},
 	},

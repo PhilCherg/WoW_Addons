@@ -1,9 +1,9 @@
 Version: 1
 Frame: AllTheThings-Window-CurrentInstance
 FrameLevel: 1
-Anchor: LEFT
+Anchor: BOTTOMLEFT
 X: 0
-Y: -220
+Y: 223
 W: 406
 H: 190
 Frame: MonkeySpeedFrame
@@ -27,13 +27,6 @@ X: 0
 Y: 27
 W: 10
 H: 10
-Frame: ItemRefTooltip
-FrameLevel: 1
-Anchor: CENTER
-X: -45
-Y: -15
-W: 128
-H: 64
 Frame: ColorPickerFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -90,3 +83,16 @@ X: 230
 Y: 194
 W: 306
 H: 225
+Frame: AllTheThings-Window-ATT > Expansion Features > Shadowlands > Covenant Sanctums > Achievements > |cffffff00|Hachievement:FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 300
+H: 300
+Frame: ItemRefTooltip
+FrameLevel: 1
+Anchor: CENTER
+X: -45
+Y: -15
+W: 354
+H: 321

@@ -54,7 +54,7 @@ ShadowedUnitFrames: disabled
 TipTac: disabled
 HandyNotes_Achievements: enabled
 HandyNotes_Arathi: enabled
-Mapster: disabled
+Mapster: enabled
 DBM-AntorusBurningThrone: disabled
 DBM-Argus: enabled
 DBM-Azeroth: enabled
