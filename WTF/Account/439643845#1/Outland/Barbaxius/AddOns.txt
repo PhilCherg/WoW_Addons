@@ -21,7 +21,7 @@ DoYouNeedThat: disabled
 FakeAchievement: enabled
 GatherMate2: disabled
 GatherMate2_Data: disabled
-HandyNotes: disabled
+HandyNotes: enabled
 HandyNotes_Argus: enabled
 HandyNotes_DraenorTreasures: disabled
 InstancePortals: disabled
@@ -274,7 +274,7 @@ PremadeGroupsFilter: disabled
 Playtime: enabled
 ElvUI_CustomTags: disabled
 BetterWardrobe_SourceData: disabled
-HandyNotes_BattleForAzeroth: disabled
+HandyNotes_BattleForAzeroth: enabled
 DBM-Sepulcher: disabled
 DBM-VPVEM: disabled
 Leatrix_Plus: enabled

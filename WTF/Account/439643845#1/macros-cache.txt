@@ -3,7 +3,7 @@ VER 3 000000000000002B "Achiev" "1416161"
 /challenge
 END
 VER 3 0000000000000037 "Alpaca" "136218"
-/tar Friendly
+/tar Enraged
 END
 VER 3 000000000000003F "Applause" "132095"
 /tar Queen

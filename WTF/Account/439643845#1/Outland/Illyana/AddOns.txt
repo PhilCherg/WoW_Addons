@@ -36,7 +36,7 @@ DBM-WorldEvents: disabled
 ElvUI_EverySecondCounts: disabled
 TradeSkillMaster: enabled
 TradeSkillMaster_AppHelper: enabled
-HandyNotes: disabled
+HandyNotes: enabled
 HandyNotes_DungeonLocations: enabled
 BagBrother: disabled
 Bagnon: disabled
@@ -321,7 +321,7 @@ Playtime: enabled
 ElvUI_CustomTags: disabled
 BetterWardrobe_SourceData: disabled
 FarmHud_TrailPath: disabled
-HandyNotes_BattleForAzeroth: disabled
+HandyNotes_BattleForAzeroth: enabled
 RaiderIO_DB_US_F: disabled
 RaiderIO_DB_EU_F: disabled
 RaiderIO_DB_KR_F: disabled

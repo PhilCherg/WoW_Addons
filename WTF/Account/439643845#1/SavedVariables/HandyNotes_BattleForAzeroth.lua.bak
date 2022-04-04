@@ -1,10 +1,11 @@
 
 HandyNotes_BattleForAzerothDB = {
 	["profileKeys"] = {
-		["Necrophagus - Outland"] = "Default",
 		["Illyana - Outland"] = "Default",
-		["Lianxia - Draenor"] = "Default",
+		["Barbaxius - Outland"] = "Default",
 		["Phelanara - Outland"] = "Default",
+		["Lianxia - Draenor"] = "Default",
+		["Necrophagus - Outland"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

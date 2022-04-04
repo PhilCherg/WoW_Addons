@@ -107,6 +107,7 @@ VER 3 000000000000004C "MountAutoTag" "1033183"
 /cast Throw Glaive
 /cast Heroic Throw
 /cast Pistol Shot
+/cast Poisoned Knife
 END
 VER 3 000000000000002C "PetAndStones" "136103"
 /use Fel Domination
