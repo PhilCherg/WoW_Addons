@@ -14,49 +14,49 @@ TomTomDB = {
 		["Moneymakeri - Outland"] = "Default",
 		["Moneyfive - Outland"] = "Default",
 		["Necrophagus - Outland"] = "Default",
-		["Feastthree - Outland"] = "Default",
+		["Elementior - Outland"] = "Default",
 		["Lysanaria - Outland"] = "Default",
 		["Moneyseven - Outland"] = "Default",
 		["Feattwo - Outland"] = "Default",
 		["Destruxia - Outland"] = "Default",
-		["Afadsfasdfs - Outland"] = "Default",
+		["Illydaria - Draenor"] = "Default",
 		["Wolfados - Azjol-Nerub"] = "Default",
 		["Farmerixus - Outland"] = "Default",
 		["Luminaxia - Outland"] = "Default",
 		["Testfirst - Outland"] = "Default",
-		["Phalonius - Azjol-Nerub"] = "Default",
 		["Mallazin - Azjol-Nerub"] = "Default",
+		["Bullenic - Silvermoon"] = "Default",
 		["Barbaxius - Outland"] = "Default",
 		["Asdawdwd - Outland"] = "Default",
-		["Moneythree - Outland"] = "Default",
+		["Moneyfour - Outland"] = "Default",
 		["Phelanara - Outland"] = "Default",
 		["Xanthoros - Outland"] = "Default",
 		["Phaltraxion - Outland"] = "Default",
 		["Nibirus - Azjol-Nerub"] = "Default",
-		["Asdsaasdf - Outland"] = "Default",
-		["Illyana - Outland"] = "Default",
+		["Moneyeight - Outland"] = "Default",
+		["Dominaria - Outland"] = "Default",
 		["Käguya - Turalyon"] = "Default",
 		["Feastfour - Outland"] = "Default",
-		["Necropharia - Outland"] = "Default",
-		["Presentone - Outland"] = "Default",
-		["Tinkerflame - Outland"] = "Default",
+		["Adsfasdfasdf - Outland"] = "Default",
+		["Asdfsadfsadf - Outland"] = "Default",
+		["Tempgoddess - Outland"] = "Default",
 		["Feastfive - Outland"] = "Default",
 		["Bankeristor - Outland"] = "Default",
-		["Asdqaweqwd - Outland"] = "Default",
-		["Asdqwdwq - Die Silberne Hand"] = "Default",
 		["Moneymakerii - Outland"] = "Default",
-		["Tempgoddess - Outland"] = "Default",
-		["Asdfsadfsadf - Outland"] = "Default",
-		["Adsfasdfasdf - Outland"] = "Default",
+		["Asdqwdwq - Die Silberne Hand"] = "Default",
+		["Asdqaweqwd - Outland"] = "Default",
+		["Tinkerflame - Outland"] = "Default",
+		["Presentone - Outland"] = "Default",
+		["Necropharia - Outland"] = "Default",
 		["Aasdfasdfd - Outland"] = "Default",
-		["Dominaria - Outland"] = "Default",
-		["Moneyeight - Outland"] = "Default",
+		["Illyana - Outland"] = "Default",
+		["Asdsaasdf - Outland"] = "Default",
 		["Chernakotka - Die Aldor"] = "Default",
-		["Moneyfour - Outland"] = "Default",
+		["Moneythree - Outland"] = "Default",
 		["Serthaxion - Outland"] = "Default",
-		["Bullenic - Silvermoon"] = "Default",
-		["Illydaria - Draenor"] = "Default",
-		["Elementior - Outland"] = "Default",
+		["Phalonius - Azjol-Nerub"] = "Default",
+		["Afadsfasdfs - Outland"] = "Default",
+		["Feastthree - Outland"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -78,8 +78,8 @@ TomTomDB = {
 				["cleardistance"] = 0,
 			},
 			["mapcoords"] = {
-				["cursorenable"] = false,
 				["playerenable"] = false,
+				["cursorenable"] = false,
 			},
 			["block"] = {
 				["enable"] = false,
@@ -110,49 +110,49 @@ TomTomWaypointsM = {
 		["Moneymakeri - Outland"] = "Moneymakeri - Outland",
 		["Moneyfive - Outland"] = "Moneyfive - Outland",
 		["Necrophagus - Outland"] = "Necrophagus - Outland",
-		["Feastthree - Outland"] = "Feastthree - Outland",
+		["Elementior - Outland"] = "Elementior - Outland",
 		["Lysanaria - Outland"] = "Lysanaria - Outland",
 		["Moneyseven - Outland"] = "Moneyseven - Outland",
 		["Feattwo - Outland"] = "Feattwo - Outland",
 		["Destruxia - Outland"] = "Destruxia - Outland",
-		["Afadsfasdfs - Outland"] = "Afadsfasdfs - Outland",
+		["Illydaria - Draenor"] = "Illydaria - Draenor",
 		["Wolfados - Azjol-Nerub"] = "Wolfados - Azjol-Nerub",
 		["Farmerixus - Outland"] = "Farmerixus - Outland",
 		["Luminaxia - Outland"] = "Luminaxia - Outland",
 		["Testfirst - Outland"] = "Testfirst - Outland",
-		["Phalonius - Azjol-Nerub"] = "Phalonius - Azjol-Nerub",
 		["Mallazin - Azjol-Nerub"] = "Mallazin - Azjol-Nerub",
+		["Bullenic - Silvermoon"] = "Bullenic - Silvermoon",
 		["Barbaxius - Outland"] = "Barbaxius - Outland",
 		["Asdawdwd - Outland"] = "Asdawdwd - Outland",
-		["Moneythree - Outland"] = "Moneythree - Outland",
+		["Moneyfour - Outland"] = "Moneyfour - Outland",
 		["Phelanara - Outland"] = "Phelanara - Outland",
 		["Xanthoros - Outland"] = "Xanthoros - Outland",
 		["Phaltraxion - Outland"] = "Phaltraxion - Outland",
 		["Nibirus - Azjol-Nerub"] = "Nibirus - Azjol-Nerub",
-		["Asdsaasdf - Outland"] = "Asdsaasdf - Outland",
-		["Illyana - Outland"] = "Illyana - Outland",
+		["Moneyeight - Outland"] = "Moneyeight - Outland",
+		["Dominaria - Outland"] = "Dominaria - Outland",
 		["Käguya - Turalyon"] = "Käguya - Turalyon",
 		["Feastfour - Outland"] = "Feastfour - Outland",
-		["Necropharia - Outland"] = "Necropharia - Outland",
-		["Presentone - Outland"] = "Presentone - Outland",
-		["Tinkerflame - Outland"] = "Tinkerflame - Outland",
+		["Adsfasdfasdf - Outland"] = "Adsfasdfasdf - Outland",
+		["Asdfsadfsadf - Outland"] = "Asdfsadfsadf - Outland",
+		["Tempgoddess - Outland"] = "Tempgoddess - Outland",
 		["Feastfive - Outland"] = "Feastfive - Outland",
 		["Bankeristor - Outland"] = "Bankeristor - Outland",
-		["Asdqaweqwd - Outland"] = "Asdqaweqwd - Outland",
-		["Asdqwdwq - Die Silberne Hand"] = "Asdqwdwq - Die Silberne Hand",
 		["Moneymakerii - Outland"] = "Moneymakerii - Outland",
-		["Tempgoddess - Outland"] = "Tempgoddess - Outland",
-		["Asdfsadfsadf - Outland"] = "Asdfsadfsadf - Outland",
-		["Adsfasdfasdf - Outland"] = "Adsfasdfasdf - Outland",
+		["Asdqwdwq - Die Silberne Hand"] = "Asdqwdwq - Die Silberne Hand",
+		["Asdqaweqwd - Outland"] = "Asdqaweqwd - Outland",
+		["Tinkerflame - Outland"] = "Tinkerflame - Outland",
+		["Presentone - Outland"] = "Presentone - Outland",
+		["Necropharia - Outland"] = "Necropharia - Outland",
 		["Aasdfasdfd - Outland"] = "Aasdfasdfd - Outland",
-		["Dominaria - Outland"] = "Dominaria - Outland",
-		["Moneyeight - Outland"] = "Moneyeight - Outland",
+		["Illyana - Outland"] = "Illyana - Outland",
+		["Asdsaasdf - Outland"] = "Asdsaasdf - Outland",
 		["Chernakotka - Die Aldor"] = "Chernakotka - Die Aldor",
-		["Moneyfour - Outland"] = "Moneyfour - Outland",
+		["Moneythree - Outland"] = "Moneythree - Outland",
 		["Serthaxion - Outland"] = "Serthaxion - Outland",
-		["Bullenic - Silvermoon"] = "Bullenic - Silvermoon",
-		["Illydaria - Draenor"] = "Illydaria - Draenor",
-		["Elementior - Outland"] = "Elementior - Outland",
+		["Phalonius - Azjol-Nerub"] = "Phalonius - Azjol-Nerub",
+		["Afadsfasdfs - Outland"] = "Afadsfasdfs - Outland",
+		["Feastthree - Outland"] = "Feastthree - Outland",
 	},
 	["profiles"] = {
 		["Asefawefad - Outland"] = {
@@ -181,9 +181,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
+						},
+						["world"] = {
 						},
 					},
 					["crazy"] = true,
@@ -193,9 +193,9 @@ TomTomWaypointsM = {
 					["cleardistance"] = 0,
 					["title"] = "The Harvest",
 					["from"] = "ATT\nRead the |cFFFFFFFFNote What Says Where You Put The Key|r near the treasure to figure out where the key is.\n\n? 'By one of those big lamps' = |cFFFFFFFF43.8, 41.4|r\n? 'In another storehouse' = |cFFFFFFFF38.2, 43.7|r",
-					["minimap"] = true,
-					["minimap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
 					["worldmap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
+					["minimap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
+					["minimap"] = true,
 					["world"] = true,
 				},
 				["1525:665000000:428000000:Secret Treasure"] = {
@@ -206,9 +206,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
+						},
+						["world"] = {
 						},
 					},
 					["crazy"] = true,
@@ -218,33 +218,35 @@ TomTomWaypointsM = {
 					["cleardistance"] = 0,
 					["title"] = "Secret Treasure",
 					["from"] = "ATT\nFind the small alcove at |cFFFFFFFF65.7, 42.9|r.\n On the wall behind a dark red oval rug is a single |cFFFFFFFFFlickering Candle|r.\n Click it to open up a secret passage beneath the rug.\n To exit after you collect the treasure, click the candle on the right-hand side of the stairs where you entered.",
-					["minimap"] = true,
-					["minimap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
 					["worldmap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
+					["minimap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
+					["minimap"] = true,
 					["world"] = true,
 				},
-				["1525:425000000:503000000:Secret Treasure"] = {
+				["1525:502000000:490000000:Secret Treasure"] = {
 					1525, -- [1]
-					0.425, -- [2]
-					0.503, -- [3]
+					0.502, -- [2]
+					0.49, -- [3]
+					["crazy"] = true,
+					["minimap_displayID"] = 94765,
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
 						},
+						["world"] = {
+						},
 					},
-					["crazy"] = true,
-					["persistent"] = true,
 					["desc"] = "Secret Treasure",
+					["persistent"] = true,
+					["minimap"] = true,
 					["silent"] = true,
 					["cleardistance"] = 0,
 					["title"] = "Secret Treasure",
-					["from"] = "ATT\nEnter the crypt at |cFFFFFFFF41.9, 50.0|r.\n Downstairs, go through the right-hand door.\n On the left side of the room is a bookshelf with a |cFFFFFFFFNondescript Book|r.\n Click the book, and the treasure will appear.",
-					["minimap"] = true,
+					["worldmap_displayID"] = 94765,
 					["minimap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
+					["from"] = "ATT\nDo not take the mirror portal!  To the right of the mirror, there is a |cFFFFFFFFHanging Chain|r.\n Clicking the chain will pull you up to the tiny alcove above the treasure.\n Click the |cFFFFFFFFGrinchin Calligraphy Set|r on the desk to pick up the |cFFFFFFFFHouse Grinchin Ring|r, which will allow you to loot the treasure.",
 					["worldmap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
 					["world"] = true,
 				},
@@ -256,9 +258,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
+						},
+						["world"] = {
 						},
 					},
 					["crazy"] = true,
@@ -268,9 +270,9 @@ TomTomWaypointsM = {
 					["cleardistance"] = 0,
 					["title"] = "Forgotten Noble's Chest",
 					["from"] = "ATT\nOpening a Crypt Door with the Atonement Crypt Key has a chance to reveal a Mirror that leads to this chest.",
-					["minimap"] = true,
-					["minimap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
 					["worldmap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
+					["minimap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
+					["minimap"] = true,
 					["world"] = true,
 				},
 				["1525:553000000:359000000:Secret Treasure"] = {
@@ -281,9 +283,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
+						},
+						["world"] = {
 						},
 					},
 					["crazy"] = true,
@@ -293,36 +295,34 @@ TomTomWaypointsM = {
 					["cleardistance"] = 0,
 					["title"] = "Secret Treasure",
 					["from"] = "ATT\nEnter the crypt at |cFFFFFFFF55.2, 34.7|r.\n Downstairs, go through the right-hand door and defeat Lord Darion.\n\nWhen you turn to leave the room, you will see a painting on either side of the door.\n The one on the right side is a |cFFFFFFFFFlickering Portrait|r, and it has a hidden lever behind it that will open the door to the treasure.\n There are two more Venthyr guarding the chest.",
-					["minimap"] = true,
-					["minimap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
 					["worldmap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
+					["minimap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
+					["minimap"] = true,
 					["world"] = true,
 				},
-				["1525:502000000:490000000:Secret Treasure"] = {
+				["1525:425000000:503000000:Secret Treasure"] = {
 					1525, -- [1]
-					0.502, -- [2]
-					0.49, -- [3]
+					0.425, -- [2]
+					0.503, -- [3]
+					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
 						},
+						["world"] = {
+						},
 					},
-					["worldmap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
-					["arrivaldistance"] = 15,
 					["crazy"] = true,
-					["desc"] = "Secret Treasure",
 					["persistent"] = true,
-					["minimap"] = true,
+					["desc"] = "Secret Treasure",
 					["silent"] = true,
 					["cleardistance"] = 0,
 					["title"] = "Secret Treasure",
-					["from"] = "ATT\nDo not take the mirror portal!  To the right of the mirror, there is a |cFFFFFFFFHanging Chain|r.\n Clicking the chain will pull you up to the tiny alcove above the treasure.\n Click the |cFFFFFFFFGrinchin Calligraphy Set|r on the desk to pick up the |cFFFFFFFFHouse Grinchin Ring|r, which will allow you to loot the treasure.",
+					["from"] = "ATT\nEnter the crypt at |cFFFFFFFF41.9, 50.0|r.\n Downstairs, go through the right-hand door.\n On the left side of the room is a bookshelf with a |cFFFFFFFFNondescript Book|r.\n Click the book, and the treasure will appear.",
+					["worldmap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
 					["minimap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
-					["minimap_displayID"] = 94765,
-					["worldmap_displayID"] = 94765,
+					["minimap"] = true,
 					["world"] = true,
 				},
 			},
@@ -334,8 +334,250 @@ TomTomWaypointsM = {
 		["Moneyfive - Outland"] = {
 		},
 		["Necrophagus - Outland"] = {
+			[62] = {
+				["62:440000000:650000000:Frightened Kodo"] = {
+					62, -- [1]
+					0.44, -- [2]
+					0.65, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Frightened Kodo",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Frightened Kodo",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["62:385000000:330000000:Frightened Kodo"] = {
+					62, -- [1]
+					0.385, -- [2]
+					0.33, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Frightened Kodo",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Frightened Kodo",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["62:392000000:565000000:Frightened Kodo"] = {
+					62, -- [1]
+					0.392, -- [2]
+					0.565, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Frightened Kodo",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Frightened Kodo",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["62:412700000:540100000:Frightened Kodo"] = {
+					62, -- [1]
+					0.4127, -- [2]
+					0.5401, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Frightened Kodo",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Frightened Kodo",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["62:410000000:650000000:Frightened Kodo"] = {
+					62, -- [1]
+					0.41, -- [2]
+					0.65, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Frightened Kodo",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Frightened Kodo",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["62:450000000:513000000:Frightened Kodo"] = {
+					62, -- [1]
+					0.45, -- [2]
+					0.513, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Frightened Kodo",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Frightened Kodo",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["62:440400000:675600000:Frightened Kodo"] = {
+					62, -- [1]
+					0.4404, -- [2]
+					0.6756, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Frightened Kodo",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Frightened Kodo",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["62:380000000:660000000:Frightened Kodo"] = {
+					62, -- [1]
+					0.38, -- [2]
+					0.66, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Frightened Kodo",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Frightened Kodo",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
 		},
-		["Feastthree - Outland"] = {
+		["Elementior - Outland"] = {
 		},
 		["Lysanaria - Outland"] = {
 		},
@@ -345,7 +587,7 @@ TomTomWaypointsM = {
 		},
 		["Destruxia - Outland"] = {
 		},
-		["Afadsfasdfs - Outland"] = {
+		["Illydaria - Draenor"] = {
 		},
 		["Wolfados - Azjol-Nerub"] = {
 		},
@@ -357,69 +599,69 @@ TomTomWaypointsM = {
 					1161, -- [1]
 					0.4777, -- [2]
 					0.3937, -- [3]
+					["crazy"] = true,
+					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
+					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
 						},
+						["world"] = {
+						},
 					},
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["desc"] = "Return to the Orphanage",
+					["minimap_displayID"] = 89265,
 					["persistent"] = true,
 					["minimap"] = true,
 					["silent"] = true,
 					["cleardistance"] = 0,
 					["title"] = "Return to the Orphanage",
-					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
-					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["worldmap_displayID"] = 89265,
-					["minimap_displayID"] = 89265,
+					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["desc"] = "Return to the Orphanage",
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["world"] = true,
 				},
 				["1161:480100000:402800000:Return to the Orphanage"] = {
 					1161, -- [1]
 					0.4801, -- [2]
 					0.4028, -- [3]
+					["crazy"] = true,
+					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
+					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
 						},
+						["world"] = {
+						},
 					},
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["desc"] = "Return to the Orphanage",
+					["minimap_displayID"] = 89265,
 					["persistent"] = true,
 					["minimap"] = true,
 					["silent"] = true,
 					["cleardistance"] = 0,
 					["title"] = "Return to the Orphanage",
-					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
-					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["worldmap_displayID"] = 89265,
-					["minimap_displayID"] = 89265,
+					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["desc"] = "Return to the Orphanage",
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["world"] = true,
 				},
 			},
 		},
 		["Testfirst - Outland"] = {
 		},
-		["Phalonius - Azjol-Nerub"] = {
-		},
 		["Mallazin - Azjol-Nerub"] = {
+		},
+		["Bullenic - Silvermoon"] = {
 		},
 		["Barbaxius - Outland"] = {
 		},
 		["Asdawdwd - Outland"] = {
 		},
-		["Moneythree - Outland"] = {
+		["Moneyfour - Outland"] = {
 		},
 		["Phelanara - Outland"] = {
 			[1161] = {
@@ -427,54 +669,54 @@ TomTomWaypointsM = {
 					1161, -- [1]
 					0.4777, -- [2]
 					0.3937, -- [3]
+					["crazy"] = true,
+					["desc"] = "Return to the Orphanage",
+					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
 						},
+						["world"] = {
+						},
 					},
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["worldmap_displayID"] = 89265,
+					["title"] = "Return to the Orphanage",
 					["persistent"] = true,
-					["desc"] = "Return to the Orphanage",
+					["minimap"] = true,
 					["silent"] = true,
 					["cleardistance"] = 0,
-					["title"] = "Return to the Orphanage",
+					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
 					["minimap_displayID"] = 89265,
-					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
-					["minimap"] = true,
+					["worldmap_displayID"] = 89265,
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["world"] = true,
 				},
 				["1161:480100000:402800000:Return to the Orphanage"] = {
 					1161, -- [1]
 					0.4801, -- [2]
 					0.4028, -- [3]
+					["crazy"] = true,
+					["desc"] = "Return to the Orphanage",
+					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
 						},
+						["world"] = {
+						},
 					},
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["worldmap_displayID"] = 89265,
+					["title"] = "Return to the Orphanage",
 					["persistent"] = true,
-					["desc"] = "Return to the Orphanage",
+					["minimap"] = true,
 					["silent"] = true,
 					["cleardistance"] = 0,
-					["title"] = "Return to the Orphanage",
+					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
 					["minimap_displayID"] = 89265,
-					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
-					["minimap"] = true,
+					["worldmap_displayID"] = 89265,
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["world"] = true,
 				},
 			},
@@ -485,7 +727,37 @@ TomTomWaypointsM = {
 		},
 		["Nibirus - Azjol-Nerub"] = {
 		},
-		["Asdsaasdf - Outland"] = {
+		["Moneyeight - Outland"] = {
+		},
+		["Dominaria - Outland"] = {
+		},
+		["Käguya - Turalyon"] = {
+		},
+		["Feastfour - Outland"] = {
+		},
+		["Adsfasdfasdf - Outland"] = {
+		},
+		["Asdfsadfsadf - Outland"] = {
+		},
+		["Tempgoddess - Outland"] = {
+		},
+		["Feastfive - Outland"] = {
+		},
+		["Bankeristor - Outland"] = {
+		},
+		["Moneymakerii - Outland"] = {
+		},
+		["Asdqwdwq - Die Silberne Hand"] = {
+		},
+		["Asdqaweqwd - Outland"] = {
+		},
+		["Tinkerflame - Outland"] = {
+		},
+		["Presentone - Outland"] = {
+		},
+		["Necropharia - Outland"] = {
+		},
+		["Aasdfasdfd - Outland"] = {
 		},
 		["Illyana - Outland"] = {
 			[830] = {
@@ -504,9 +776,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -514,41 +786,11 @@ TomTomWaypointsM = {
 				},
 			},
 		},
-		["Käguya - Turalyon"] = {
-		},
-		["Feastfour - Outland"] = {
-		},
-		["Necropharia - Outland"] = {
-		},
-		["Presentone - Outland"] = {
-		},
-		["Tinkerflame - Outland"] = {
-		},
-		["Feastfive - Outland"] = {
-		},
-		["Bankeristor - Outland"] = {
-		},
-		["Asdqaweqwd - Outland"] = {
-		},
-		["Asdqwdwq - Die Silberne Hand"] = {
-		},
-		["Moneymakerii - Outland"] = {
-		},
-		["Tempgoddess - Outland"] = {
-		},
-		["Asdfsadfsadf - Outland"] = {
-		},
-		["Adsfasdfasdf - Outland"] = {
-		},
-		["Aasdfasdfd - Outland"] = {
-		},
-		["Dominaria - Outland"] = {
-		},
-		["Moneyeight - Outland"] = {
+		["Asdsaasdf - Outland"] = {
 		},
 		["Chernakotka - Die Aldor"] = {
 		},
-		["Moneyfour - Outland"] = {
+		["Moneythree - Outland"] = {
 		},
 		["Serthaxion - Outland"] = {
 			[1161] = {
@@ -556,63 +798,63 @@ TomTomWaypointsM = {
 					1161, -- [1]
 					0.4777, -- [2]
 					0.3937, -- [3]
-					["crazy"] = true,
-					["desc"] = "Return to the Orphanage",
-					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
 						},
+						["minimap"] = {
+						},
 					},
-					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
-					["persistent"] = true,
 					["minimap"] = true,
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["worldmap_displayID"] = 89265,
+					["persistent"] = true,
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["silent"] = true,
 					["cleardistance"] = 0,
 					["title"] = "Return to the Orphanage",
-					["worldmap_displayID"] = 89265,
-					["minimap_displayID"] = 89265,
 					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["minimap_displayID"] = 89265,
+					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["desc"] = "Return to the Orphanage",
 					["world"] = true,
 				},
 				["1161:480100000:402800000:Return to the Orphanage"] = {
 					1161, -- [1]
 					0.4801, -- [2]
 					0.4028, -- [3]
-					["crazy"] = true,
-					["desc"] = "Return to the Orphanage",
-					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
 						},
+						["minimap"] = {
+						},
 					},
-					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
-					["persistent"] = true,
 					["minimap"] = true,
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["worldmap_displayID"] = 89265,
+					["persistent"] = true,
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["silent"] = true,
 					["cleardistance"] = 0,
 					["title"] = "Return to the Orphanage",
-					["worldmap_displayID"] = 89265,
-					["minimap_displayID"] = 89265,
 					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["minimap_displayID"] = 89265,
+					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["desc"] = "Return to the Orphanage",
 					["world"] = true,
 				},
 			},
 		},
-		["Bullenic - Silvermoon"] = {
+		["Phalonius - Azjol-Nerub"] = {
 		},
-		["Illydaria - Draenor"] = {
+		["Afadsfasdfs - Outland"] = {
 		},
-		["Elementior - Outland"] = {
+		["Feastthree - Outland"] = {
 		},
 	},
 }

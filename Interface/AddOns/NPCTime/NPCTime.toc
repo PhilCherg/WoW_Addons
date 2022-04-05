@@ -1,0 +1,8 @@
+## Interface: 90200
+## Title: |cffEEE4AENPC Time|r
+## Notes: |cffFFC700Slash command: /npctime|r
+## Author: Yuyuli
+## Version: 1.0.4
+## SavedVariables: NPCTimeDB
+
+NPCTime.lua

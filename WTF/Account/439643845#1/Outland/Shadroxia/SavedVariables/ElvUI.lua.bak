@@ -2,226 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"coming right up", -- [1]
-			"Renardo-Outland", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Renardo-Outland", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			875, -- [11]
-			"Player-1301-0C1292DA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cRenardo|r",
-			[51] = 1648731099,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"leggends", -- [1]
-			"Sabillidan-Outland", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Sabillidan-Outland", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			877, -- [11]
-			"Player-1301-0C22AEC3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Sabillidan|r",
-			[51] = 1648731108,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"thanks guys", -- [1]
-			"Sabillidan-Outland", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Sabillidan-Outland", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			879, -- [11]
-			"Player-1301-0C22AEC3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Sabillidan|r",
-			[51] = 1648731136,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"Protector of the First Ones |cffffff00|Hworldmap:1970:3885:2760|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Suzanita-Outland", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Suzanita-Outland", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			902, -- [11]
-			"Player-1301-0C24EAC6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Suzanita|r",
-			[51] = 1648731235,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"hey you wanna do hard mode?", -- [1]
-			"Stefankalosz-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Stefankalosz-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			903, -- [11]
-			"Player-3391-0C260FE9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edStefankalosz-Silvermoon|r",
-			[51] = 1648731310,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [5]
-		{
-			"sure", -- [1]
-			"Stefankalosz-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Stefankalosz-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			904, -- [11]
-			"Player-3391-0C260FE9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edStefankalosz-Silvermoon|r",
-			[51] = 1648731321,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [6]
-		{
-			"i can come on my warrior, give me a sec", -- [1]
-			"Stefankalosz-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Stefankalosz-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			905, -- [11]
-			"Player-3391-0C260FE9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edStefankalosz-Silvermoon|r",
-			[51] = 1648731328,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [7]
-		{
-			"ok", -- [1]
-			"Stefankalosz-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Stefankalosz-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			906, -- [11]
-			"Player-3391-0C260FE9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edStefankalosz-Silvermoon|r",
-			[51] = 1648731334,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [8]
-		{
-			"General Zarathura |cffffff00|Hworldmap:1970:5960:2129|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Øshikuru-Outland", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Øshikuru-Outland", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			1, -- [11]
-			"Player-1301-0C146EC7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Øshikuru|r",
-			[51] = 1648733737,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
-		{
-			"General Zarathura (100%) |cffffff00|Hworldmap:1970:5999:2088|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Øshikuru-Outland", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Øshikuru-Outland", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			2, -- [11]
-			"Player-1301-0C146EC7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Øshikuru|r",
-			[51] = 1648733754,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
-		{
 			"Mother Phestis |cffffff00|Hworldmap:1970:5405:3495|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Øshikuru-Outland", -- [2]
 			"", -- [3]
@@ -242,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Øshikuru|r",
 			[51] = 1648733879,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
+		}, -- [1]
 		{
 			"abd dont forget iska", -- [1]
 			"Smeagöl-Outland", -- [2]
@@ -264,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Smeagöl|r",
 			[51] = 1648737168,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
+		}, -- [2]
 		{
 			"WTS 0-1.4/1.6k boosts fast and cheap ", -- [1]
 			"Drazen-Outland", -- [2]
@@ -286,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Drazen|r",
 			[51] = 1648760191,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
+		}, -- [3]
 		{
 			"guys ruby jewel is special", -- [1]
 			"Orgasmically-Outland", -- [2]
@@ -308,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Orgasmically|r",
 			[51] = 1648760311,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
+		}, -- [4]
 		{
 			"who's that", -- [1]
 			"Mintcocacola-Outland", -- [2]
@@ -330,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Mintcocacola|r",
 			[51] = 1648760325,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
+		}, -- [5]
 		{
 			"i dont know her personally but her name is ruby jewel", -- [1]
 			"Orgasmically-Outland", -- [2]
@@ -352,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Orgasmically|r",
 			[51] = 1648763978,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
+		}, -- [6]
 		{
 			"oh, just type in google ruby jewel xxx", -- [1]
 			"Orgasmically-Outland", -- [2]
@@ -374,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Orgasmically|r",
 			[51] = 1648760408,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
+		}, -- [7]
 		{
 			"I know her. She's really great", -- [1]
 			"Erivius-Outland", -- [2]
@@ -396,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaErivius|r",
 			[51] = 1648760411,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
+		}, -- [8]
 		{
 			"erivius u nearly made my tail pop out", -- [1]
 			"Orgasmically-Outland", -- [2]
@@ -418,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Orgasmically|r",
 			[51] = 1648760446,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
+		}, -- [9]
 		{
 			"I get to see her like 3 times a week :). Gets expensive though each time these private shows", -- [1]
 			"Erivius-Outland", -- [2]
@@ -440,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaErivius|r",
 			[51] = 1648760450,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
+		}, -- [10]
 		{
 			"when u say u know her", -- [1]
 			"Orgasmically-Outland", -- [2]
@@ -462,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Orgasmically|r",
 			[51] = 1648760454,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
+		}, -- [11]
 		{
 			"Hol''up", -- [1]
 			"Erivius-Outland", -- [2]
@@ -484,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaErivius|r",
 			[51] = 1648760473,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
+		}, -- [12]
 		{
 			"if u gona /w me her phone number i make explode", -- [1]
 			"Orgasmically-Outland", -- [2]
@@ -506,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Orgasmically|r",
 			[51] = 1648760505,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
+		}, -- [13]
 		{
 			"That would suit your name nicely", -- [1]
 			"Erivius-Outland", -- [2]
@@ -528,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaErivius|r",
 			[51] = 1648760547,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
+		}, -- [14]
 		{
 			"LF leatherworker to craft two rank 7 gear legendary pieces (I have all mats) - will give 10 000g tip", -- [1]
 			"Mynamegeoff-Outland", -- [2]
@@ -550,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Mynamegeoff|r",
 			[51] = 1648760875,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
+		}, -- [15]
 		{
 			"WTS 0-1.4/1.6k boosts fast and cheap ", -- [1]
 			"Drazen-Outland", -- [2]
@@ -572,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Drazen|r",
 			[51] = 1648761781,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
+		}, -- [16]
 		{
 			"so a party is very much recommended", -- [1]
 			"Snowfehérke", -- [2]
@@ -594,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Snowfehérke|r",
 			[51] = 1648801610,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
+		}, -- [17]
 		{
 			"i did it on 2 characters solo, just farm the 3 valves yourself", -- [1]
 			"Femalee-Arathor", -- [2]
@@ -616,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFemalee-Arathor|r",
 			[51] = 1648801639,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
+		}, -- [18]
 		{
 			"but aint valves only dropping from the quest ?", -- [1]
 			"Méf-Ravencrest", -- [2]
@@ -638,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Méf-Ravencrest|r",
 			[51] = 1648801656,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
+		}, -- [19]
 		{
 			"yeah", -- [1]
 			"Femalee-Arathor", -- [2]
@@ -660,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFemalee-Arathor|r",
 			[51] = 1648801664,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
+		}, -- [20]
 		{
 			"rather just get 3 players with valves and ez pez", -- [1]
 			"Méf-Ravencrest", -- [2]
@@ -682,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Méf-Ravencrest|r",
 			[51] = 1648801667,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
+		}, -- [21]
 		{
 			"did you read? i summoned it and horde stole it before i could tag..", -- [1]
 			"Snowfehérke-Ragnaros", -- [2]
@@ -704,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Snowfehérke-Ragnaros|r",
 			[51] = 1648801670,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
+		}, -- [22]
 		{
 			"that sounds like a you problem tbh xD", -- [1]
 			"Femalee-Arathor", -- [2]
@@ -726,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFemalee-Arathor|r",
 			[51] = 1648801686,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
+		}, -- [23]
 		{
 			"Map pin?", -- [1]
 			"Vorpål-Silvermoon", -- [2]
@@ -748,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaVorpål-Silvermoon|r",
 			[51] = 1648802044,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
+		}, -- [24]
 		{
 			"horde was on it", -- [1]
 			"Femalee-Arathor", -- [2]
@@ -770,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFemalee-Arathor|r",
 			[51] = 1648802125,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
+		}, -- [25]
 		{
 			"oh wow...", -- [1]
 			"Snowfehérke-Ragnaros", -- [2]
@@ -792,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Snowfehérke-Ragnaros|r",
 			[51] = 1648802152,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
+		}, -- [26]
 		{
 			"1 valve is added to doppel gang, 2 more needed", -- [1]
 			"Snowfehérke-Ragnaros", -- [2]
@@ -814,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Snowfehérke-Ragnaros|r",
 			[51] = 1648802627,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
+		}, -- [27]
 		{
 			"2 more person with valve (reward from construction frenzy daily today) needed to summon doppel gang", -- [1]
 			"Snowfehérke-Ragnaros", -- [2]
@@ -836,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Snowfehérke-Ragnaros|r",
 			[51] = 1648803139,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
+		}, -- [28]
 		{
 			"you know you could just wait instead of putting the valve in right? xD", -- [1]
 			"Femalee-Arathor", -- [2]
@@ -858,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFemalee-Arathor|r",
 			[51] = 1648803204,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
+		}, -- [29]
 		{
 			"hi, have u been waiting long?", -- [1]
 			"Immulinati-Silvermoon", -- [2]
@@ -880,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Immulinati-Silvermoon|r",
 			[51] = 1648803821,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [40]
+		}, -- [30]
 		{
 			"maybe 8 min", -- [1]
 			"Sonoshee-Sylvanas", -- [2]
@@ -902,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSonoshee-Sylvanas|r",
 			[51] = 1648803842,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [41]
+		}, -- [31]
 		{
 			"kk", -- [1]
 			"Immulinati-Silvermoon", -- [2]
@@ -924,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Immulinati-Silvermoon|r",
 			[51] = 1648803852,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [42]
+		}, -- [32]
 		{
 			"The way arenas is basically fighting Dhs and hunters? STOP IT", -- [1]
 			"Mërcï-Outland", -- [2]
@@ -946,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Mërcï|r",
 			[51] = 1648840907,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
+		}, -- [33]
 		{
 			"Nerf them till people play they real class, ty", -- [1]
 			"Mërcï-Outland", -- [2]
@@ -968,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Mërcï|r",
 			[51] = 1648840934,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
+		}, -- [34]
 		{
 			"any high rated warriors on?", -- [1]
 			"Lilodin-Outland", -- [2]
@@ -990,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cLilodin|r",
 			[51] = 1648840945,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [35]
 		{
 			"Its exhausting to be dealing with DH and hunters every single game", -- [1]
 			"Mërcï-Outland", -- [2]
@@ -1012,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Mërcï|r",
 			[51] = 1648840961,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
+		}, -- [36]
 		{
 			"pipipipipipiiii", -- [1]
 			"Lötslöp-Outland", -- [2]
@@ -1034,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Lötslöp|r",
 			[51] = 1648840980,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
+		}, -- [37]
 		{
 			"go on trap mouse", -- [1]
 			"Lötslöp-Outland", -- [2]
@@ -1056,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Lötslöp|r",
 			[51] = 1648840987,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [38]
 		{
 			"You should be banned for playing that class, no hate", -- [1]
 			"Mërcï-Outland", -- [2]
@@ -1078,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Mërcï|r",
 			[51] = 1648840990,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+		}, -- [39]
 		{
 			"go on trap", -- [1]
 			"Lötslöp-Outland", -- [2]
@@ -1100,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Lötslöp|r",
 			[51] = 1648841014,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
+		}, -- [40]
 		{
 			"pipiii", -- [1]
 			"Lötslöp-Outland", -- [2]
@@ -1122,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Lötslöp|r",
 			[51] = 1648841017,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
+		}, -- [41]
 		{
 			"Boost me daddy", -- [1]
 			"Mërcï-Outland", -- [2]
@@ -1144,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Mërcï|r",
 			[51] = 1648841017,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [42]
 		{
 			"why you need boost?", -- [1]
 			"Lötslöp-Outland", -- [2]
@@ -1166,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Lötslöp|r",
 			[51] = 1648841063,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [43]
 		{
 			"Private team With 3K io players, selling M+ 10-20 > (time & weekly) (ONLY GOLD)  (Armor stack+share loot) /w me for more info", -- [1]
 			"Escânoor-Outland", -- [2]
@@ -1188,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Escânoor|r",
 			[51] = 1648841066,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [44]
 		{
 			"you cant play with out it?", -- [1]
 			"Lötslöp-Outland", -- [2]
@@ -1210,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Lötslöp|r",
 			[51] = 1648841069,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [45]
 		{
 			"Palas have had their time", -- [1]
 			"Turbolag-Outland", -- [2]
@@ -1232,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeTurbolag|r",
 			[51] = 1648841081,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
+		}, -- [46]
 		{
 			"during Wotlk they were untouchable", -- [1]
 			"Turbolag-Outland", -- [2]
@@ -1254,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeTurbolag|r",
 			[51] = 1648841093,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
+		}, -- [47]
 		{
 			"mmmhh i would love to eat some poop right now", -- [1]
 			"Odimm-Outland", -- [2]
@@ -1276,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaOdimm|r",
 			[51] = 1648841103,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [48]
 		{
 			"april fools ahahaha!", -- [1]
 			"Odimm-Outland", -- [2]
@@ -1298,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaOdimm|r",
 			[51] = 1648841108,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [49]
 		{
 			"dont touch me nananananana", -- [1]
 			"Radixlecti-Outland", -- [2]
@@ -1320,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edRadixlecti|r",
 			[51] = 1648841110,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [50]
 		{
 			"patch 9.4 is awesome=)", -- [1]
 			"Radixlecti-Outland", -- [2]
@@ -1342,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edRadixlecti|r",
 			[51] = 1648841169,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [51]
 		{
 			"Mother Phestis 100.00% ~(54.79, 34.08) |cffffff00|Hworldmap:1970:5479:3407|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Emplacement marqué sur la carte]|h|r", -- [1]
 			"Dumdum-LesSentinelles", -- [2]
@@ -1364,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Dumdum-LesSentinelles|r",
 			[51] = 1648906132,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [52]
 		{
 			"omw", -- [1]
 			"Frozenkisses-Outland", -- [2]
@@ -1386,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFrozenkisses|r",
 			[51] = 1648906151,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [53]
 		{
 			"Furdian 100% at |cffffff00|Hworldmap:1970:6386:5862|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Stellagos-Outland", -- [2]
@@ -1408,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Stellagos|r",
 			[51] = 1648906317,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [54]
 		{
 			"Tahkwitz 98.19% ~(49.14, 37.09) |cffffff00|Hworldmap:1970:4914:3709|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Ravenfelhunt-Outland", -- [2]
@@ -1430,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Ravenfelhunt|r",
 			[51] = 1648906321,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [55]
 		{
 			"Otaris the Provoked |cffffff00|Hworldmap:1970:5865:4035|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Druydude-Anachronos", -- [2]
@@ -1452,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Druydude-Anachronos|r",
 			[51] = 1648906435,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [56]
 		{
 			"Screaming Shade is up!", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -1474,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1648906596,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [57]
 		{
 			"yo", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -1496,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1648906763,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [68]
+		}, -- [58]
 		{
 			"hi", -- [1]
 			"Jocelynn-Aggramar", -- [2]
@@ -1518,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaJocelynn-Aggramar|r",
 			[51] = 1648906769,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [69]
+		}, -- [59]
 		{
 			"can you summon this, i dont have the item on this alt", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -1540,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1648906779,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [70]
+		}, -- [60]
 		{
 			"where do i get it", -- [1]
 			"Jocelynn-Aggramar", -- [2]
@@ -1562,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaJocelynn-Aggramar|r",
 			[51] = 1648906839,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [71]
+		}, -- [61]
 		{
 			"canm i buy it?", -- [1]
 			"Jocelynn-Aggramar", -- [2]
@@ -1584,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaJocelynn-Aggramar|r",
 			[51] = 1648906843,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [72]
+		}, -- [62]
 		{
 			"its from the archivist vendor", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -1606,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1648906853,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [73]
+		}, -- [63]
 		{
 			"but you need rep", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -1628,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1648906856,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [74]
+		}, -- [64]
 		{
 			"let me check", -- [1]
 			"Jocelynn-Aggramar", -- [2]
@@ -1650,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaJocelynn-Aggramar|r",
 			[51] = 1648906862,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [75]
+		}, -- [65]
 		{
 			"not sure if its honored or revered", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -1672,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1648906869,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [76]
+		}, -- [66]
 		{
 			"|cff1eff00|Hitem:186731::::::::60:63:::::::::|h[Repaired Riftkey]|h|r", -- [1]
 			"Jocelynn-Aggramar", -- [2]
@@ -1694,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaJocelynn-Aggramar|r",
 			[51] = 1648906935,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [77]
+		}, -- [67]
 		{
 			"ye this", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -1716,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1648906953,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [78]
+		}, -- [68]
 		{
 			"got it", -- [1]
 			"Jocelynn-Aggramar", -- [2]
@@ -1738,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaJocelynn-Aggramar|r",
 			[51] = 1648906959,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [79]
+		}, -- [69]
 		{
 			"come", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -1760,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1648906998,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [80]
+		}, -- [70]
 		{
 			"click this portall", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -1782,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1648907005,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [81]
+		}, -- [71]
 		{
 			"then click the rare", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -1804,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1648907008,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [82]
+		}, -- [72]
 		{
 			"thanks :D", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -1826,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1648907086,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [83]
+		}, -- [73]
 		{
 			"ty", -- [1]
 			"Jocelynn-Aggramar", -- [2]
@@ -1848,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaJocelynn-Aggramar|r",
 			[51] = 1648907088,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [84]
+		}, -- [74]
 		{
 			"dont leave yet", -- [1]
 			"Jocelynn-Aggramar", -- [2]
@@ -1870,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaJocelynn-Aggramar|r",
 			[51] = 1648907099,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [85]
+		}, -- [75]
 		{
 			"too late xD", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -1892,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1648907107,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [86]
+		}, -- [76]
 		{
 			"i mean grou pxd", -- [1]
 			"Jocelynn-Aggramar", -- [2]
@@ -1914,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaJocelynn-Aggramar|r",
 			[51] = 1648907114,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [87]
+		}, -- [77]
 		{
 			"for tha phasing?", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -1936,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1648907128,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [88]
+		}, -- [78]
 		{
 			"i can give you lead and you wont be ported away", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -1958,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1648907142,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [89]
+		}, -- [79]
 		{
 			"ok try", -- [1]
 			"Jocelynn-Aggramar", -- [2]
@@ -1980,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaJocelynn-Aggramar|r",
 			[51] = 1648907151,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [90]
+		}, -- [80]
 		{
 			"there, cya :D", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -2002,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1648907158,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [91]
+		}, -- [81]
 		{
 			"cya", -- [1]
 			"Jocelynn-Aggramar", -- [2]
@@ -2024,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaJocelynn-Aggramar|r",
 			[51] = 1648907160,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [92]
+		}, -- [82]
 		{
 			"Could you please share WorldBossTimers kill data?", -- [1]
 			"Zejan-Frostmane", -- [2]
@@ -2046,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Zejan-Frostmane|r",
 			[51] = 1648997964,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [93]
+		}, -- [83]
 		{
 			"{rt8}A. Harvester{rt8}: 0s-4m 29s (WorldBossTimers:1648999446)", -- [1]
 			"Zejan-Frostmane", -- [2]
@@ -2068,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Zejan-Frostmane|r",
 			[51] = 1648997978,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [94]
+		}, -- [84]
 		{
 			"{rt8}A. Harvester{rt8}: 0s-4m 28s (WorldBossTimers:1648999445)", -- [1]
 			"Katè-Nagrand", -- [2]
@@ -2090,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Katè-Nagrand|r",
 			[51] = 1648997978,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [95]
+		}, -- [85]
 		{
 			"Mechanized Chest |cffffff00|Hworldmap:1462:6410:2626|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Cucucovich-Silvermoon", -- [2]
@@ -2112,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Cucucovich-Silvermoon|r",
 			[51] = 1648998485,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [86]
 		{
 			"Screaming Shade is UP!!!", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -2134,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1648999588,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [87]
 		{
 			"bug event up mount drop", -- [1]
 			"Emyly-Outland", -- [2]
@@ -2156,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Emyly|r",
 			[51] = 1648999639,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [88]
 		{
 			"anyone wanna come help for screaming shade?", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -2178,29 +1958,249 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1649000105,
 			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [89]
+		{
+			"LF someone to craft |cffa335ee|Hitem:172250::::::::60:105::13:3:6893:7881:7960:4:9:60:28:391:29:49:30:32::::Player-1301-088029AC:|h[Shadebound Vest]|h|r but with haste/mastery", -- [1]
+			"Gräsklippare-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gräsklippare-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			356, -- [11]
+			"Player-1301-0A3F1103", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Gräsklippare|r",
+			[51] = 1649077987,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [90]
+		{
+			"Screaming Shade up!", -- [1]
+			"Shadroxia-Outland", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Shadroxia-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			381, -- [11]
+			"Player-1301-0B005465", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Shadroxia|r",
+			[51] = 1649081787,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [91]
+		{
+			"Dominated Protector |cffffff00|Hworldmap:1961:5181:2080|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Bigbaddruid-Outland", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Bigbaddruid-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			1374, -- [11]
+			"Player-1301-0BFCCE7C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Bigbaddruid|r",
+			[51] = 1649169659,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"Consumption (100%) |cffffff00|Hworldmap:1961:5115:4177|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Tzomping-Outland", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Tzomping-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			1388, -- [11]
+			"Player-1301-0C139D21", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Tzomping|r",
+			[51] = 1649172730,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"anyone here?", -- [1]
+			"Tzomping-Outland", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Tzomping-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			1389, -- [11]
+			"Player-1301-0C139D21", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Tzomping|r",
+			[51] = 1649172883,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"sup", -- [1]
+			"Dororu-Outland", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Dororu-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			1390, -- [11]
+			"Player-1301-0C292DDA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Dororu|r",
+			[51] = 1649172906,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"let's kill some rares", -- [1]
+			"Tzomping-Outland", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Tzomping-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			1391, -- [11]
+			"Player-1301-0C139D21", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Tzomping|r",
+			[51] = 1649172919,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"i could help with 1", -- [1]
+			"Dororu-Outland", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Dororu-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			1392, -- [11]
+			"Player-1301-0C292DDA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Dororu|r",
+			[51] = 1649172938,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"come to kroke", -- [1]
+			"Dororu-Outland", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Dororu-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			1393, -- [11]
+			"Player-1301-0C292DDA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Dororu|r",
+			[51] = 1649172942,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"Zelnithop |cffffff00|Hworldmap:1961:2771:5883|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Tzomping-Outland", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Tzomping-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			1395, -- [11]
+			"Player-1301-0C139D21", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Tzomping|r",
+			[51] = 1649173540,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/cw Stefankalosz-Silvermoon i can come on my warrior, give me a sec", -- [1]
-		"/ltp", -- [2]
-		"/1 Screaming Shade is up!", -- [3]
-		"/p yo", -- [4]
-		"/p can you summon this, i dont have the item on this alt", -- [5]
-		"/p its from the archivist vendor", -- [6]
-		"/p but you need rep", -- [7]
-		"/p not sure if its honored or revered", -- [8]
-		"/p ye this", -- [9]
-		"/p come", -- [10]
-		"/p click this portall", -- [11]
-		"/p then click the rare", -- [12]
-		"/p thanks :D", -- [13]
-		"/p too late xD", -- [14]
-		"/p for tha phasing?", -- [15]
-		"/p i can give you lead and you wont be ported away", -- [16]
-		"/p there, cya :D", -- [17]
-		"/who", -- [18]
-		"/1 Screaming Shade is UP!!!", -- [19]
-		"/1 anyone wanna come help for screaming shade?", -- [20]
+		"/1 Screaming Shade is up!", -- [1]
+		"/p yo", -- [2]
+		"/p can you summon this, i dont have the item on this alt", -- [3]
+		"/p its from the archivist vendor", -- [4]
+		"/p but you need rep", -- [5]
+		"/p not sure if its honored or revered", -- [6]
+		"/p ye this", -- [7]
+		"/p come", -- [8]
+		"/p click this portall", -- [9]
+		"/p then click the rare", -- [10]
+		"/p thanks :D", -- [11]
+		"/p too late xD", -- [12]
+		"/p for tha phasing?", -- [13]
+		"/p i can give you lead and you wont be ported away", -- [14]
+		"/p there, cya :D", -- [15]
+		"/who", -- [16]
+		"/1 Screaming Shade is UP!!!", -- [17]
+		"/1 anyone wanna come help for screaming shade?", -- [18]
+		"/1 Screaming Shade up!", -- [19]
+		"/wave", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }

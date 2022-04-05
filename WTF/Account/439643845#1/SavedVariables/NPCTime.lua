@@ -1,0 +1,3 @@
+
+NPCTimeDB = {
+}
