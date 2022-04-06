@@ -2,72 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:15513:Player-1301-0BB70205:1:4:4:22:4294967295:4294967295:4294967295:4294967295|h[Curious Collections]|h|r!", -- [1]
-			"Greenpees-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Greenpees-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2307, -- [11]
-			"Player-1301-0BB70205", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Greenpees|r",
-			[51] = 1649099348,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [1]
-		{
-			"Der Umhüller |cffffff00|Hworldmap:1970:4367:7604|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Kartenmarkierung]|h|r", -- [1]
-			"Hezrâel-Antonidas", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Hezrâel-Antonidas", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			2315, -- [11]
-			"Player-3686-09B950C6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Hezrâel-Antonidas|r",
-			[51] = 1649099399,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"Congrats Orange!", -- [1]
-			"Telchino-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2318, -- [11]
-			"Player-1301-0824E18F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaTelchino|r",
-			[51] = 1649099408,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [3]
-		{
 			"try ty ", -- [1]
 			"Tuàh-Outland", -- [2]
 			"", -- [3]
@@ -88,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Tuàh|r",
 			[51] = 1649099418,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [4]
+		}, -- [1]
 		{
 			"KING BEHAVIOUR", -- [1]
 			"Augustíne-Outland", -- [2]
@@ -110,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Augustíne|r",
 			[51] = 1649099439,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [5]
+		}, -- [2]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14842:Player-1301-0BD15041:1:4:4:22:4294967295:4294967295:4294967295:4294967295|h[Adventures: Strength and Resilience]|h|r!", -- [1]
 			"Mercuil-Outland", -- [2]
@@ -132,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Mercuil|r",
 			[51] = 1649099459,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [6]
+		}, -- [3]
 		{
 			"*dance*", -- [1]
 			"Mackinz-Outland", -- [2]
@@ -154,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edMackinz|r",
 			[51] = 1649099466,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [7]
+		}, -- [4]
 		{
 			"what did I miss?", -- [1]
 			"Mercuil-Outland", -- [2]
@@ -176,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Mercuil|r",
 			[51] = 1649099497,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [8]
+		}, -- [5]
 		{
 			"Helmix |cffffff00|Hworldmap:1970:5820:6835|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Kartenmarkierung]|h|r", -- [1]
 			"Hezrâel-Antonidas", -- [2]
@@ -198,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Hezrâel-Antonidas|r",
 			[51] = 1649099506,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
+		}, -- [6]
 		{
 			"orange team kil", -- [1]
 			"Augustíne-Outland", -- [2]
@@ -220,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Augustíne|r",
 			[51] = 1649099513,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [10]
+		}, -- [7]
 		{
 			"jailer?", -- [1]
 			"Mercuil-Outland", -- [2]
@@ -242,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Mercuil|r",
 			[51] = 1649099521,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [11]
+		}, -- [8]
 		{
 			"Lihivum hc", -- [1]
 			"Telchino-Outland", -- [2]
@@ -264,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaTelchino|r",
 			[51] = 1649099528,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [12]
+		}, -- [9]
 		{
 			"damn ", -- [1]
 			"Mercuil-Outland", -- [2]
@@ -286,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Mercuil|r",
 			[51] = 1649099533,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [13]
+		}, -- [10]
 		{
 			"they got jailer a while ago", -- [1]
 			"Telchino-Outland", -- [2]
@@ -308,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaTelchino|r",
 			[51] = 1649099536,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [14]
+		}, -- [11]
 		{
 			"jailer lfr", -- [1]
 			"Augustíne-Outland", -- [2]
@@ -330,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Augustíne|r",
 			[51] = 1649099537,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [15]
+		}, -- [12]
 		{
 			"that progress already", -- [1]
 			"Mercuil-Outland", -- [2]
@@ -352,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Mercuil|r",
 			[51] = 1649099539,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [16]
+		}, -- [13]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15391:Player-1301-0BF29514:1:4:4:22:4294967295:4294967295:4294967295:4294967295|h[Adventurer of Zereth Mortis]|h|r!", -- [1]
 			"Queén-Outland", -- [2]
@@ -374,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Queén|r",
 			[51] = 1649099569,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [17]
+		}, -- [14]
 		{
 			"jesus stop killing them so fast .... :(", -- [1]
 			"Creyonel-Outland", -- [2]
@@ -396,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Creyonel|r",
 			[51] = 1649099613,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
+		}, -- [15]
 		{
 			"I don't think Jesus is involved, but what do I know", -- [1]
 			"Steelsteak-Silvermoon", -- [2]
@@ -418,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cSteelsteak-Silvermoon|r",
 			[51] = 1649099655,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
+		}, -- [16]
 		{
 			"yeah what do you know, i saw him with my own dang eyes", -- [1]
 			"Pèn-Outland", -- [2]
@@ -440,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcPèn|r",
 			[51] = 1649099679,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
+		}, -- [17]
 		{
 			"i never get in time to kill them and i cant unlock flying bcz of that fml ", -- [1]
 			"Creyonel-Outland", -- [2]
@@ -462,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Creyonel|r",
 			[51] = 1649099692,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
+		}, -- [18]
 		{
 			"pic or it didn't happen", -- [1]
 			"Steelsteak-Silvermoon", -- [2]
@@ -484,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cSteelsteak-Silvermoon|r",
 			[51] = 1649099693,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
+		}, -- [19]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:964:Player-1301-0C2AA317:1:4:4:22:4294967295:4294967295:4294967295:4294967295|h[Going Down?]|h|r!", -- [1]
 			"Keydepleter-Outland", -- [2]
@@ -506,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Keydepleter|r",
 			[51] = 1649099695,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [23]
+		}, -- [20]
 		{
 			"=((((", -- [1]
 			"Creyonel-Outland", -- [2]
@@ -528,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Creyonel|r",
 			[51] = 1649099705,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
+		}, -- [21]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14371:Player-1301-0C2AF589:1:4:4:22:4294967295:4294967295:4294967295:4294967295|h[Mists of Tirna Scithe]|h|r!", -- [1]
 			"Draedragon-Outland", -- [2]
@@ -550,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcDraedragon|r",
 			[51] = 1649099765,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [25]
+		}, -- [22]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14326:Player-1301-0C294971:1:4:4:22:4294967295:4294967295:4294967295:4294967295|h[Spires of Ascension]|h|r!", -- [1]
 			"Druidhelive-Outland", -- [2]
@@ -572,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Druidhelive|r",
 			[51] = 1649099839,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [26]
+		}, -- [23]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14324:Player-1301-0C294971:1:4:4:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Spires of Ascension]|h|r!", -- [1]
 			"Druidhelive-Outland", -- [2]
@@ -594,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Druidhelive|r",
 			[51] = 1649099839,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [27]
+		}, -- [24]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14325:Player-1301-0C294971:1:4:4:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Spires of Ascension]|h|r!", -- [1]
 			"Druidhelive-Outland", -- [2]
@@ -616,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Druidhelive|r",
 			[51] = 1649099839,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [28]
+		}, -- [25]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:11183:Player-1301-0C294971:1:4:4:22:4294967295:4294967295:4294967295:4294967295|h[Keystone Initiate]|h|r!", -- [1]
 			"Druidhelive-Outland", -- [2]
@@ -638,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Druidhelive|r",
 			[51] = 1649099839,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [29]
+		}, -- [26]
 		{
 			"Gefräßige Überwucherung |cffffff00|Hworldmap:1970:5308:9305|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Kartenmarkierung]|h|r", -- [1]
 			"Hezrâel-Antonidas", -- [2]
@@ -660,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Hezrâel-Antonidas|r",
 			[51] = 1649100013,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
+		}, -- [27]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15351:Player-1301-0BD73D0A:1:4:4:22:4294967295:4294967295:4294967295:4294967295|h[Duelist: Shadowlands Season 3]|h|r!", -- [1]
 			"Mercurialx-Outland", -- [2]
@@ -682,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaMercurialx|r",
 			[51] = 1649100048,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [31]
+		}, -- [28]
 		{
 			"Need a tank and a dps for some 15s =)", -- [1]
 			"Megaferilla-Outland", -- [2]
@@ -704,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMegaferilla|r",
 			[51] = 1649100090,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [32]
+		}, -- [29]
 		{
 			"what 15", -- [1]
 			"Misspicklés-Outland", -- [2]
@@ -726,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Misspicklés|r",
 			[51] = 1649100104,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [33]
+		}, -- [30]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:5180:Player-1301-0C2AF589:1:4:4:22:4294967295:4294967295:4294967295:4294967295|h[Breaking the Sound Barrier]|h|r!", -- [1]
 			"Draedragon-Outland", -- [2]
@@ -748,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcDraedragon|r",
 			[51] = 1649100107,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [34]
+		}, -- [31]
 		{
 			":<", -- [1]
 			"Tirica-Outland", -- [2]
@@ -770,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeTirica|r",
 			[51] = 1649100111,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [35]
+		}, -- [32]
 		{
 			"Depends on what we have", -- [1]
 			"Megaferilla-Outland", -- [2]
@@ -792,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMegaferilla|r",
 			[51] = 1649100116,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [36]
+		}, -- [33]
 		{
 			"!keys", -- [1]
 			"Megaferilla-Outland", -- [2]
@@ -814,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMegaferilla|r",
 			[51] = 1649100216,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [37]
+		}, -- [34]
 		{
 			"|cffa335ee|Hkeystone:180653:379:2:9:0:0:0|h[Keystone: Plaguefall (2)]|h|r (Night Fae)", -- [1]
 			"Lossien-Outland", -- [2]
@@ -836,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Lossien|r",
 			[51] = 1649100216,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [38]
+		}, -- [35]
 		{
 			"|cffa335ee|Hkeystone:180653:375:18:9:123:4:130|h[Keystone: Mists of Tirna Scithe (18)]|h|r", -- [1]
 			"Megaferilla-Outland", -- [2]
@@ -858,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMegaferilla|r",
 			[51] = 1649100216,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [39]
+		}, -- [36]
 		{
 			"Astral Keys: |cffa335ee|Hkeystone:180653:381:6:9:123:0:0|h[Keystone: Spires of Ascension (6)]|h|r (Venthyr)", -- [1]
 			"Kotakai-Outland", -- [2]
@@ -880,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Kotakai|r",
 			[51] = 1649100216,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [40]
+		}, -- [37]
 		{
 			"|cffa335ee|Hkeystone:180653:376:14:9:123:4:130|h[Keystone: The Necrotic Wake (14)]|h|r (Night Fae)", -- [1]
 			"Locia-Outland", -- [2]
@@ -902,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edLocia|r",
 			[51] = 1649100216,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [41]
+		}, -- [38]
 		{
 			"|cffa335ee|Hkeystone:180653:381:20:9:123:4:130|h[Keystone: Spires of Ascension (20)]|h|r", -- [1]
 			"Nóxùs-Outland", -- [2]
@@ -924,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNóxùs|r",
 			[51] = 1649100216,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [42]
+		}, -- [39]
 		{
 			"Astral Keys: |cffa335ee|Hkeystone:180653:391:9:9:123:4:130|h[Keystone: Tazavesh: Streets of Wonder (9)]|h|r (Kyrian)", -- [1]
 			"Zypres-Outland", -- [2]
@@ -946,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zypres|r",
 			[51] = 1649100216,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [43]
+		}, -- [40]
 		{
 			"|cffa335ee|Hkeystone:180653:380:19:9:123:4:130|h[Keystone: Sanguine Depths (19)]|h|r (Venthyr)", -- [1]
 			"Minimokey-Outland", -- [2]
@@ -968,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaMinimokey|r",
 			[51] = 1649100216,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [44]
+		}, -- [41]
 		{
 			"Astral Keys: |cffa335ee|Hkeystone:180653:380:13:9:123:4:130|h[Keystone: Sanguine Depths (13)]|h|r (Night Fae)", -- [1]
 			"Inamoira-Outland", -- [2]
@@ -990,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Inamoira|r",
 			[51] = 1649100216,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [45]
+		}, -- [42]
 		{
 			"Astral Keys: |cffa335ee|Hkeystone:180653:378:2:9:0:0:0|h[Keystone: Halls of Atonement (2)]|h|r (Necrolord)", -- [1]
 			"Keydepleter-Outland", -- [2]
@@ -1012,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Keydepleter|r",
 			[51] = 1649100216,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [46]
+		}, -- [43]
 		{
 			"|cffa335ee|Hkeystone:180653:378:2:9:0:0:0|h[Keystone: Halls of Atonement (2)]|h|r (Venthyr)", -- [1]
 			"Druidhelive-Outland", -- [2]
@@ -1034,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Druidhelive|r",
 			[51] = 1649100216,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [47]
+		}, -- [44]
 		{
 			"Astral Keys: |cffa335ee|Hkeystone:180653:381:18:9:123:4:130|h[Keystone: Spires of Ascension (18)]|h|r (Necrolord)", -- [1]
 			"Misspicklés-Outland", -- [2]
@@ -1056,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Misspicklés|r",
 			[51] = 1649100216,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [48]
+		}, -- [45]
 		{
 			"Astral Keys: |cffa335ee|Hkeystone:180653:382:20:9:123:4:130|h[Keystone: Theater of Pain (20)]|h|r (Night Fae)", -- [1]
 			"Karamfilchi-Outland", -- [2]
@@ -1078,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Karamfilchi|r",
 			[51] = 1649100216,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [49]
+		}, -- [46]
 		{
 			"Astral Keys: |cffa335ee|Hkeystone:180653:382:12:9:123:4:130|h[Keystone: Theater of Pain (12)]|h|r (Night Fae)", -- [1]
 			"Mackinz-Outland", -- [2]
@@ -1100,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edMackinz|r",
 			[51] = 1649100216,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [50]
+		}, -- [47]
 		{
 			"Astral Keys: |cffa335ee|Hkeystone:180653:376:9:9:123:4:130|h[Keystone: The Necrotic Wake (9)]|h|r (Necrolord)", -- [1]
 			"Darknight-Outland", -- [2]
@@ -1122,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDarknight|r",
 			[51] = 1649100216,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [51]
+		}, -- [48]
 		{
 			"Astral Keys: |cffa335ee|Hkeystone:180653:378:16:9:123:4:130|h[Keystone: Halls of Atonement (16)]|h|r (Night Fae)", -- [1]
 			"Itsfrost-Outland", -- [2]
@@ -1144,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaItsfrost|r",
 			[51] = 1649100216,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [52]
+		}, -- [49]
 		{
 			"Astral Keys: |cffa335ee|Hkeystone:180653:392:17:9:123:4:130|h[Keystone: Tazavesh: So'leah's Gambit (17)]|h|r (Venthyr)", -- [1]
 			"Creadmonk-Outland", -- [2]
@@ -1166,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Creadmonk|r",
 			[51] = 1649100216,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [53]
+		}, -- [50]
 		{
 			"Astral Keys: |cffa335ee|Hkeystone:180653:381:5:9:123:0:0|h[Keystone: Spires of Ascension (5)]|h|r (Night Fae)", -- [1]
 			"Valsheres-Outland", -- [2]
@@ -1188,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edValsheres|r",
 			[51] = 1649100216,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [54]
+		}, -- [51]
 		{
 			"|cffa335ee|Hkeystone:180653:381:15:9:123:4:130|h[Keystone: Spires of Ascension (15)]|h|r", -- [1]
 			"Jrd-Outland", -- [2]
@@ -1210,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cJrd|r",
 			[51] = 1649100216,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [55]
+		}, -- [52]
 		{
 			"Astral Keys: |cffa335ee|Hkeystone:180653:392:13:9:123:4:130|h[Keystone: Tazavesh: So'leah's Gambit (13)]|h|r (Night Fae)", -- [1]
 			"Tuàh-Outland", -- [2]
@@ -1232,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Tuàh|r",
 			[51] = 1649100216,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [56]
+		}, -- [53]
 		{
 			"Virathus |cffa335ee|Hkeystone:180653:392:21:9:123:4:130|h[Keystone: Tazavesh: So'leah's Gambit (21)]|h|r", -- [1]
 			"Virathus-Outland", -- [2]
@@ -1254,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Virathus|r",
 			[51] = 1649100216,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [57]
+		}, -- [54]
 		{
 			"|cffa335ee|Hkeystone:180653:380:19:9:123:4:130|h[Keystone: Sanguine Depths (19)]|h|r (Night Fae)", -- [1]
 			"Carbons-Outland", -- [2]
@@ -1276,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaCarbons|r",
 			[51] = 1649100216,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [58]
+		}, -- [55]
 		{
 			"|cffa335ee|Hkeystone:180653:378:17:9:123:4:130|h[Keystone: Halls of Atonement (17)]|h|r", -- [1]
 			"Kinnd-Outland", -- [2]
@@ -1298,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaKinnd|r",
 			[51] = 1649100216,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [59]
+		}, -- [56]
 		{
 			"Astral Keys: |cffa335ee|Hkeystone:180653:376:15:9:123:4:130|h[Keystone: The Necrotic Wake (15)]|h|r (Kyrian)", -- [1]
 			"Tytties-Outland", -- [2]
@@ -1320,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Tytties|r",
 			[51] = 1649100216,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [60]
+		}, -- [57]
 		{
 			"|cffa335ee|Hkeystone:180653:378:17:9:123:4:130|h[Keystone: Halls of Atonement (17)]|h|r", -- [1]
 			"Deckstaer-Outland", -- [2]
@@ -1342,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Deckstaer|r",
 			[51] = 1649100216,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [61]
+		}, -- [58]
 		{
 			"|cffa335ee|Hkeystone:180653:375:15:9:123:4:130|h[Keystone: Mists of Tirna Scithe (15)]|h|r", -- [1]
 			"Thaek-Outland", -- [2]
@@ -1364,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcThaek|r",
 			[51] = 1649100216,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [62]
+		}, -- [59]
 		{
 			"Virathus |cffa335ee|Hkeystone:180653:392:21:9:123:4:130|h[Keystone: Tazavesh: So'leah's Gambit (21)]|h|r", -- [1]
 			"Virathus-Outland", -- [2]
@@ -1386,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Virathus|r",
 			[51] = 1649100216,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [63]
+		}, -- [60]
 		{
 			"Astral Keys: |cffa335ee|Hkeystone:180653:379:19:9:123:4:130|h[Keystone: Plaguefall (19)]|h|r (Kyrian)", -- [1]
 			"Mafyol-Outland", -- [2]
@@ -1408,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMafyol|r",
 			[51] = 1649100216,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [64]
+		}, -- [61]
 		{
 			"Reotha |cffa335ee|Hkeystone:180653:377:19:9:123:4:130|h[Keystone: De Other Side (19)]|h|r", -- [1]
 			"Reotha-Outland", -- [2]
@@ -1430,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Reotha|r",
 			[51] = 1649100216,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [65]
+		}, -- [62]
 		{
 			"|cffa335ee|Hkeystone:180653:380:18:9:123:4:130|h[Keystone: Sanguine Depths (18)]|h|r (Night Fae)", -- [1]
 			"Telchino-Outland", -- [2]
@@ -1452,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaTelchino|r",
 			[51] = 1649100216,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [66]
+		}, -- [63]
 		{
 			"any tank or healer for |cffa335ee|Hkeystone:180653:381:6:9:123:0:0|h[Keystone: Spires of Ascension (6)]|h|r?", -- [1]
 			"Kotakai-Outland", -- [2]
@@ -1474,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Kotakai|r",
 			[51] = 1649100325,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [67]
+		}, -- [64]
 		{
 			"Still spots open for 15s/16s ", -- [1]
 			"Megaferilla-Outland", -- [2]
@@ -1496,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMegaferilla|r",
 			[51] = 1649100409,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [68]
+		}, -- [65]
 		{
 			"got 2 dps spots?", -- [1]
 			"Cantarella-Outland", -- [2]
@@ -1518,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Cantarella|r",
 			[51] = 1649100419,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [69]
+		}, -- [66]
 		{
 			"Mother Phestis up |cffffff00|Hworldmap:1970:5423:3353|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Shammysan-Outland", -- [2]
@@ -1540,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcShammysan|r",
 			[51] = 1649100421,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [67]
 		{
 			"No :", -- [1]
 			"Megaferilla-Outland", -- [2]
@@ -1562,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMegaferilla|r",
 			[51] = 1649100428,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [71]
+		}, -- [68]
 		{
 			":(", -- [1]
 			"Megaferilla-Outland", -- [2]
@@ -1584,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMegaferilla|r",
 			[51] = 1649100432,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [72]
+		}, -- [69]
 		{
 			"y u do dis", -- [1]
 			"Cantarella-Outland", -- [2]
@@ -1606,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Cantarella|r",
 			[51] = 1649100434,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [73]
+		}, -- [70]
 		{
 			"sold me a dream", -- [1]
 			"Cantarella-Outland", -- [2]
@@ -1628,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Cantarella|r",
 			[51] = 1649100442,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [74]
+		}, -- [71]
 		{
 			"if u make room for fat healer", -- [1]
 			"Misspicklés-Outland", -- [2]
@@ -1650,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Misspicklés|r",
 			[51] = 1649100450,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [75]
+		}, -- [72]
 		{
 			"Anyone wanna boost me on mythics? <3 haha", -- [1]
 			"Camila-Outland", -- [2]
@@ -1672,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Camila|r",
 			[51] = 1649100467,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [76]
+		}, -- [73]
 		{
 			"we can make room for sure", -- [1]
 			"Megaferilla-Outland", -- [2]
@@ -1694,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMegaferilla|r",
 			[51] = 1649100467,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [77]
+		}, -- [74]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14372:Player-1301-0C2AA317:1:4:4:22:4294967295:4294967295:4294967295:4294967295|h[Theater of Pain]|h|r!", -- [1]
 			"Keydepleter-Outland", -- [2]
@@ -1716,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Keydepleter|r",
 			[51] = 1649100551,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [78]
+		}, -- [75]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14416:Player-1301-0C2AA317:1:4:4:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Theater of Pain]|h|r!", -- [1]
 			"Keydepleter-Outland", -- [2]
@@ -1738,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Keydepleter|r",
 			[51] = 1649100551,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [79]
+		}, -- [76]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14417:Player-1301-0C2AA317:1:4:4:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Theater of Pain]|h|r!", -- [1]
 			"Keydepleter-Outland", -- [2]
@@ -1760,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Keydepleter|r",
 			[51] = 1649100551,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [80]
+		}, -- [77]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:11183:Player-1301-0C2AA317:1:4:4:22:4294967295:4294967295:4294967295:4294967295|h[Keystone Initiate]|h|r!", -- [1]
 			"Keydepleter-Outland", -- [2]
@@ -1782,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Keydepleter|r",
 			[51] = 1649100551,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [81]
+		}, -- [78]
 		{
 			"tank and/or healer for SoA+6", -- [1]
 			"Zypres-Outland", -- [2]
@@ -1804,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zypres|r",
 			[51] = 1649100583,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [82]
+		}, -- [79]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15496:Player-1301-05D79BCA:1:4:4:22:4294967295:4294967295:4294967295:4294967295|h[Shadowlands Keystone Explorer: Season Three]|h|r!", -- [1]
 			"Bjandyr-Outland", -- [2]
@@ -1826,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Bjandyr|r",
 			[51] = 1649100664,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [83]
+		}, -- [80]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6980:Player-1301-0C2A329A:1:4:4:22:4294967295:4294967295:4294967295:4294967295|h[Temple of Kotmogu All-Star]|h|r!", -- [1]
 			"Retkô-Outland", -- [2]
@@ -1848,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRetkô|r",
 			[51] = 1649100689,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [84]
+		}, -- [81]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:7102:Player-1301-0BC4B80E:1:4:4:22:4294967295:4294967295:4294967295:4294967295|h[Escort Service]|h|r!", -- [1]
 			"Tierundelfee-Outland", -- [2]
@@ -1870,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Tierundelfee|r",
 			[51] = 1649100846,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [85]
+		}, -- [82]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15500:Player-1301-0B324E62:1:4:4:22:4294967295:4294967295:4294967295:4294967295|h[Keystone Hero: Tazavesh, the Veiled Market]|h|r!", -- [1]
 			"Grimsvetliy-Outland", -- [2]
@@ -1892,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGrimsvetliy|r",
 			[51] = 1649100872,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [86]
+		}, -- [83]
 		{
 			"GZ :)", -- [1]
 			"Shexxi-Outland", -- [2]
@@ -1914,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Shexxi|r",
 			[51] = 1649100879,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [87]
+		}, -- [84]
 		{
 			"ty!", -- [1]
 			"Teldrae-Outland", -- [2]
@@ -1936,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Teldrae|r",
 			[51] = 1649100900,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [88]
+		}, -- [85]
 		{
 			":3", -- [1]
 			"Shexxi-Outland", -- [2]
@@ -1958,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Shexxi|r",
 			[51] = 1649100908,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [89]
+		}, -- [86]
 		{
 			"Your first 20 grim", -- [1]
 			"Locia-Outland", -- [2]
@@ -1980,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edLocia|r",
 			[51] = 1649100918,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [90]
+		}, -- [87]
 		{
 			"nice", -- [1]
 			"Locia-Outland", -- [2]
@@ -2002,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edLocia|r",
 			[51] = 1649100921,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [91]
+		}, -- [88]
 		{
 			"lel", -- [1]
 			"Grimsvetliy-Outland", -- [2]
@@ -2024,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGrimsvetliy|r",
 			[51] = 1649100926,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [92]
+		}, -- [89]
 		{
 			"gz", -- [1]
 			"Lastreaper-Outland", -- [2]
@@ -2046,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Lastreaper|r",
 			[51] = 1649100955,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [93]
+		}, -- [90]
 		{
 			"gz", -- [1]
 			"Itsfrost-Outland", -- [2]
@@ -2068,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaItsfrost|r",
 			[51] = 1649100973,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [94]
+		}, -- [91]
 		{
 			"Shifting Stargorger (100%) |cffffff00|Hworldmap:1970:4230:2099|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Renardo-Outland", -- [2]
@@ -2090,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRenardo|r",
 			[51] = 1649101016,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [92]
 		{
 			"Morning yall", -- [1]
 			"Inamoira-Outland", -- [2]
@@ -2112,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Inamoira|r",
 			[51] = 1649142861,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [96]
+		}, -- [93]
 		{
 			"Xy'rath the Covetous 100.00% ~(63.51, 49.26) |cffffff00|Hworldmap:1970:6351:4926|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Gënisis-Outland", -- [2]
@@ -2134,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Gënisis|r",
 			[51] = 1649143270,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [94]
 		{
 			"any engineers online?", -- [1]
 			"Totemgirl-Outland", -- [2]
@@ -2156,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcTotemgirl|r",
 			[51] = 1649143893,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [98]
+		}, -- [95]
 		{
 			"i am but only got level 1 on this character for CR and the button in DOS", -- [1]
 			"Haxxsor-Outland", -- [2]
@@ -2178,6 +2112,72 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Haxxsor|r",
 			[51] = 1649143930,
 			[50] = "CHAT_MSG_GUILD",
+		}, -- [96]
+		{
+			"Private team With 3K io pro players selling M+ 10-20 > (time & weekly) (ONLY GOLD)  (Armor stack+share loot) Get discounts for extra runs /w me for more info", -- [1]
+			"Escânoor-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Escânoor-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1412, -- [11]
+			"Player-1301-0BF902C8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Escânoor|r",
+			[51] = 1649178491,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"LF +10 boost ", -- [1]
+			"Cluxian-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Cluxian-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1413, -- [11]
+			"Player-1301-07C164D1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Cluxian|r",
+			[51] = 1649178501,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14737:Player-1301-0BE8B625:1:4:5:22:4294967295:4294967295:4294967295:4294967295|h[What Bastion Remembered]|h|r!", -- [1]
+			"Thelasa-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Thelasa-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1415, -- [11]
+			"Player-1301-0BE8B625", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Thelasa|r",
+			[51] = 1649178518,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {

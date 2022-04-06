@@ -15,10 +15,10 @@ PlaytimeDB = {
 	["Phalonius (Azjol-Nerub)"] = 21647,
 	["Bullenic (Silvermoon)"] = 8180,
 	["Käguya (Turalyon)"] = 12101,
-	["Illydaria (Draenor)"] = 47,
+	["Luminaxia (Outland)"] = 224404,
 	["Xanthoros (Outland)"] = 336708,
 	["Barbaxius (Outland)"] = 281789,
 	["Nibirus (Azjol-Nerub)"] = 6832,
-	["Necrophagus (Outland)"] = 12882702,
-	["Luminaxia (Outland)"] = 224404,
+	["Necrophagus (Outland)"] = 12882881,
+	["Illydaria (Draenor)"] = 47,
 }
