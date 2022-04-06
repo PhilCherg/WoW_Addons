@@ -19,17 +19,17 @@ Details_Vanguard: enabled
 DoYouNeedThat: disabled
 GatherMate2: disabled
 GatherMate2_Data: disabled
-HandyNotes: disabled
+HandyNotes: enabled
 HandyNotes_MechagonAndNazjatar: disabled
 HandyNotes_VisionsOfNZoth: disabled
 Immersion: enabled
 InstanceAchievementTracker: disabled
-InstancePortals: disabled
+InstancePortals: enabled
 LibRaiderIO_Loader: disabled
 LookingForGroup_RaiderIO: disabled
 Mapster: enabled
 MBB: enabled
-Paste: disabled
+Paste: enabled
 Pawn: disabled
 RaiderIO: disabled
 RaiderIO_DB_US_A: disabled
@@ -54,7 +54,7 @@ RareShareMechagon: disabled
 Rarity: enabled
 Rarity_Options: enabled
 Simulationcraft: disabled
-TomTom: disabled
+TomTom: enabled
 WeakAuras: disabled
 WeakAurasArchive: disabled
 WeakAurasModelPaths: disabled
@@ -205,7 +205,7 @@ Grail-Rewards: disabled
 Grail-When: disabled
 HandyNotes_WarfrontRares: disabled
 MonkeySpeed: enabled
-RareScanner: disabled
+RareScanner: enabled
 RoutesImportExport: disabled
 Wholly: disabled
 ElvUI_QuestXP: disabled
@@ -223,11 +223,11 @@ TomCats-LunarFestival: disabled
 TomCats-Noblegarden: disabled
 AngryKeystones: disabled
 AutoTrackMapPin: enabled
-BtWQuests: enabled
+BtWQuests: disabled
 BtWQuestsBattleForAzerothPrologue: disabled
 BtWQuestsCataclysm: disabled
 BtWQuestsLegion: disabled
-BtWQuestsMistsOfPandaria: enabled
+BtWQuestsMistsOfPandaria: disabled
 BtWQuestsShadowlands: disabled
 BtWQuestsTheBurningCrusade: disabled
 BtWQuestsWarlordsOfDraenor: disabled
@@ -235,7 +235,7 @@ BtWQuestsWrathOfTheLichKing: disabled
 BulkBuy: disabled
 GarrisonCommander: disabled
 GarrisonCommander-Broker: disabled
-HandyNotes_Shadowlands: disabled
+HandyNotes_Shadowlands: enabled
 HandyNotes_LunarFestival: enabled
 Mists_of_Tirna_Solved: enabled
 MythicDungeonTools: disabled
@@ -245,7 +245,7 @@ SimpleArmory: disabled
 TalentSetManager: disabled
 TomCats: disabled
 UnlimitedMapPinDistance: enabled
-WorldQuestTab: disabled
+WorldQuestTab: enabled
 DBM-Shadowlands: disabled
 BtWQuestsBattleForAzeroth: disabled
 Dejunk: disabled
@@ -253,7 +253,7 @@ HandyNotes_SummerFestival: disabled
 MazeHelper: disabled
 PremadeAutoAccept: disabled
 VenturePlan: disabled
-WorldQuestsList: disabled
+WorldQuestsList: enabled
 +Wowhead_Looter: disabled
 CamelSpotter: disabled
 DBM-SanctumOfDomination: disabled
@@ -265,7 +265,7 @@ Playtime: enabled
 ElvUI_CustomTags: disabled
 BetterWardrobe_SourceData: disabled
 FarmHud_TrailPath: disabled
-HandyNotes_BattleForAzeroth: disabled
+HandyNotes_BattleForAzeroth: enabled
 RaiderIO_DB_US_F: disabled
 RaiderIO_DB_EU_F: disabled
 RaiderIO_DB_KR_F: disabled
@@ -275,3 +275,7 @@ StoredAnimaCounter: disabled
 ZerethMortisPuzzleHelper: disabled
 DBM-Sepulcher: disabled
 DBM-VPVEM: disabled
+Leatrix_Plus: enabled
+NoMoreErrors: enabled
+NPCTime: enabled
+PremadeSort: enabled

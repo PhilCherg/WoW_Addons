@@ -7,996 +7,359 @@ _detalhes_database = {
 		["tabelas"] = {
 			{
 				{
+					["combatId"] = 3,
 					["tipo"] = 2,
-					["combatId"] = 1,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.001487,
+							["totalabsorbed"] = 0.001026,
 							["damage_from"] = {
-								["Laughing Skull"] = true,
-								["Yogg-Saron"] = true,
-								["Sara"] = true,
-								["Guardian of Yogg-Saron <Ominous Cloud>"] = true,
-								["Immortal Guardian"] = true,
+								["Luminaxia"] = true,
+								["Ravenous Ranishu"] = true,
+								["[*] Shadow Word: Death"] = true,
+								["Dunegorger Kraulok"] = true,
 							},
 							["targets"] = {
-								["Guardian of Yogg-Saron <Ominous Cloud>"] = 504604,
-								["Constrictor Tentacle"] = 31641,
-								["Deathsworn Zealot"] = 248683,
-								["Corruptor Tentacle"] = 32915,
-								["Yogg-Saron"] = 417334,
-								["Brain of Yogg-Saron"] = 275995,
-								["Crusher Tentacle"] = 56887,
+								["Dunegorger Kraulok"] = 18500,
 							},
-							["last_dps"] = 16968.1318604402,
-							["pets"] = {
-							},
-							["damage_taken"] = 72.001487,
-							["end_time"] = 1624967661,
-							["aID"] = "1301-0B0D29D2",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 1568059.001487,
-							["last_event"] = 1624967661,
-							["friendlyfire_total"] = 0,
-							["dps_started"] = false,
-							["total"] = 1568059.001487,
-							["delay"] = 1624967607,
-							["classe"] = "PRIEST",
-							["boss_fight_component"] = true,
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Yogg-Saron"] = 0,
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_dmg"] = 0,
-										["n_amt"] = 0,
-										["spellschool"] = 1,
-										["IMMUNE"] = 1,
-									}, -- [1]
-									[8092] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 255663,
-										["targets"] = {
-											["Guardian of Yogg-Saron <Ominous Cloud>"] = 504604,
-											["Brain of Yogg-Saron"] = 219437,
-										},
-										["n_dmg"] = 724041,
-										["n_min"] = 219437,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 724041,
-										["c_max"] = 0,
-										["id"] = 8092,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 3,
-										["extra"] = {
-										},
-										["spellschool"] = 32,
-									},
-									[589] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 32915,
-										["targets"] = {
-											["Brain of Yogg-Saron"] = 56558,
-											["Corruptor Tentacle"] = 32915,
-											["Yogg-Saron"] = 56351,
-											["Constrictor Tentacle"] = 31641,
-											["Crusher Tentacle"] = 56887,
-										},
-										["n_dmg"] = 234352,
-										["n_min"] = 23982,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 234352,
-										["c_max"] = 0,
-										["id"] = 589,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 8,
-										["extra"] = {
-										},
-										["spellschool"] = 32,
-									},
-									[49821] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 50271,
-										["g_amt"] = 0,
-										["n_max"] = 25380,
-										["targets"] = {
-											["Deathsworn Zealot"] = 248683,
-										},
-										["n_dmg"] = 198412,
-										["n_min"] = 24383,
-										["g_dmg"] = 0,
-										["counter"] = 9,
-										["total"] = 248683,
-										["c_max"] = 50271,
-										["id"] = 49821,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["c_min"] = 50271,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 8,
-										["extra"] = {
-										},
-										["spellschool"] = 32,
-									},
-									[32379] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 360983,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Yogg-Saron"] = 360983,
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 360983,
-										["c_max"] = 360983,
-										["id"] = 32379,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["c_min"] = 360983,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["extra"] = {
-										},
-										["spellschool"] = 32,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["grupo"] = true,
-							["custom"] = 0,
-							["nome"] = "Luminaxia",
 							["spec"] = 258,
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+								["Luminaxia"] = {
+									["spells"] = {
+										[186439] = 3436,
+									},
+									["total"] = 3436,
+								},
+							},
+							["fight_component"] = true,
+							["friendlyfire_total"] = 3436,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 18500.001026,
+							["end_time"] = 1649260369,
 							["colocacao"] = 1,
-							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1624967625,
-							["serial"] = "Player-1301-0B0D29D2",
-							["friendlyfire"] = {
-							},
-						}, -- [1]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.008018,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Sara"] = 34700,
-								["Luminaxia"] = 4,
-							},
-							["delay"] = 1624967607,
-							["pets"] = {
-								"Guardian of Yogg-Saron <Ominous Cloud>", -- [1]
-							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.008018,
-							["on_hold"] = false,
-							["monster"] = true,
-							["total"] = 34704.008018,
-							["damage_taken"] = 0.008018,
-							["friendlyfire_total"] = 0,
-							["boss_fight_component"] = true,
+							["dps_started"] = false,
+							["total"] = 18500.001026,
+							["aID"] = "1301-0B0D29D2",
+							["classe"] = "PRIEST",
+							["nome"] = "Luminaxia",
 							["spells"] = {
-								["_ActorTable"] = {
-								},
 								["tipo"] = 2,
-							},
-							["nome"] = "Ominous Cloud",
-							["end_time"] = 1624967661,
-							["aID"] = "33292",
-							["custom"] = 0,
-							["last_event"] = 1624967607,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1624967660,
-							["serial"] = "Creature-0-4240-603-20786-33292-0002DB0970",
-							["dps_started"] = false,
-						}, -- [2]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 0.005316,
-							["monster"] = true,
-							["damage_from"] = {
-								["Luminaxia"] = true,
-							},
-							["targets"] = {
-								["Sara"] = 34700,
-								["Luminaxia"] = 4,
-							},
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["last_dps"] = 0,
-							["aID"] = "33136",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 34704.005316,
-							["last_event"] = 1624967607,
-							["delay"] = 1624967607,
-							["dps_started"] = false,
-							["end_time"] = 1624967661,
-							["friendlyfire_total"] = 0,
-							["ownerName"] = "Ominous Cloud",
-							["nome"] = "Guardian of Yogg-Saron <Ominous Cloud>",
-							["spells"] = {
 								["_ActorTable"] = {
-									{
+									[34914] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 4,
+										["n_max"] = 163,
 										["targets"] = {
-											["Luminaxia"] = 4,
+											["Dunegorger Kraulok"] = 163,
 										},
-										["n_dmg"] = 4,
-										["n_min"] = 4,
+										["n_dmg"] = 163,
+										["n_min"] = 163,
 										["g_dmg"] = 0,
 										["counter"] = 1,
-										["total"] = 4,
+										["total"] = 163,
 										["c_max"] = 0,
-										["id"] = 1,
+										["id"] = 34914,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
-									}, -- [1]
-									[65719] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 17350,
-										["targets"] = {
-											["Sara"] = 34700,
-										},
-										["n_dmg"] = 34700,
-										["n_min"] = 17350,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 34700,
-										["c_max"] = 0,
-										["id"] = 65719,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
 										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["extra"] = {
+										["r_amt"] = 0,
+									},
+									[335467] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 460,
+										["g_amt"] = 0,
+										["n_max"] = 277,
+										["targets"] = {
+											["Dunegorger Kraulok"] = 3332,
 										},
+										["n_dmg"] = 2872,
+										["n_min"] = 47,
+										["g_dmg"] = 0,
+										["counter"] = 15,
+										["total"] = 3332,
+										["c_max"] = 460,
+										["id"] = 335467,
+										["r_dmg"] = 0,
 										["spellschool"] = 32,
-									},
-									[65209] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Luminaxia"] = 0,
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 65209,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["extra"] = {
-										},
-										["MISS"] = 1,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["damage_taken"] = 504604.005316,
-							["total"] = 34704.005316,
-							["boss_fight_component"] = true,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1624967660,
-							["serial"] = "Creature-0-4240-603-20786-33136-00005B099B",
-							["friendlyfire"] = {
-							},
-						}, -- [3]
-						{
-							["flag_original"] = 2584,
-							["totalabsorbed"] = 0.0014,
-							["friendlyfire"] = {
-							},
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Stormforged Reaver"] = 443,
-							},
-							["pets"] = {
-							},
-							["timeMachine"] = 1,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 443.0014,
-							["aID"] = "29485",
-							["dps_started"] = true,
-							["total"] = 443.0014,
-							["classe"] = "UNKNOW",
-							["serial"] = "Creature-0-3102-571-70-29485-00005F776D",
-							["nome"] = "Dolomite Giant",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 48,
-										["targets"] = {
-											["Stormforged Reaver"] = 443,
-										},
-										["n_dmg"] = 443,
-										["n_min"] = 34,
-										["g_dmg"] = 0,
-										["counter"] = 12,
-										["total"] = 443,
-										["c_max"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["DODGE"] = 1,
-										["spellschool"] = 1,
 										["extra"] = {
 										},
 										["a_dmg"] = 0,
-										["c_min"] = 0,
+										["c_min"] = 460,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 11,
+										["n_amt"] = 14,
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
-									}, -- [1]
-								},
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.0014,
-							["start_time"] = 1625258079,
-							["delay"] = 1625258060,
-							["last_event"] = 1625258098,
-						}, -- [4]
-						{
-							["flag_original"] = 2584,
-							["totalabsorbed"] = 0.001799,
-							["damage_from"] = {
-								["Guardian of Yogg-Saron <Ominous Cloud>"] = true,
-							},
-							["targets"] = {
-								["Luminaxia"] = 50,
-							},
-							["pets"] = {
-							},
-							["tipo"] = 1,
-							["total"] = 50.001799,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 50.001799,
-							["delay"] = 1624967636,
-							["dps_started"] = false,
-							["end_time"] = 1624967661,
-							["nome"] = "Sara",
-							["damage_taken"] = 34700.00179900001,
-							["boss_fight_component"] = true,
-							["spells"] = {
-								["_ActorTable"] = {
-									[64775] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 64775,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["extra"] = {
-										},
 									},
-									[65301] = {
-										["c_amt"] = 0,
+									[263165] = {
+										["c_amt"] = 2,
 										["b_amt"] = 0,
-										["c_dmg"] = 0,
+										["c_dmg"] = 1516,
 										["g_amt"] = 0,
-										["n_max"] = 2,
+										["n_max"] = 522,
 										["targets"] = {
-											["Luminaxia"] = 10,
+											["Dunegorger Kraulok"] = 3604,
 										},
-										["n_dmg"] = 10,
-										["n_min"] = 1,
+										["n_dmg"] = 2088,
+										["n_min"] = 522,
 										["g_dmg"] = 0,
-										["counter"] = 9,
-										["total"] = 10,
-										["c_max"] = 0,
-										["id"] = 65301,
+										["counter"] = 6,
+										["total"] = 3604,
+										["c_max"] = 1044,
+										["id"] = 263165,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 10,
-										["a_amt"] = 0,
-										["n_amt"] = 9,
-										["a_dmg"] = 0,
-										["extra"] = {
-										},
-									},
-									[63134] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 3,
-										["targets"] = {
-											["Luminaxia"] = 40,
-										},
-										["n_dmg"] = 40,
-										["n_min"] = 1,
-										["g_dmg"] = 0,
-										["counter"] = 17,
-										["total"] = 40,
-										["c_max"] = 0,
-										["id"] = 63134,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 17,
-										["extra"] = {
-										},
 										["spellschool"] = 32,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["aID"] = "33134",
-							["last_dps"] = 0,
-							["friendlyfire_total"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1624967636,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1624967611,
-							["serial"] = "Creature-0-4240-603-20786-33134-00005B0970",
-							["on_hold"] = false,
-						}, -- [5]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.007064,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Luminaxia"] = 12,
-							},
-							["delay"] = 0,
-							["pets"] = {
-							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 12.007064,
-							["on_hold"] = false,
-							["monster"] = true,
-							["total"] = 12.007064,
-							["damage_taken"] = 0.007064,
-							["friendlyfire_total"] = 0,
-							["boss_fight_component"] = true,
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 12,
-										["targets"] = {
-											["Luminaxia"] = 12,
-										},
-										["n_dmg"] = 12,
-										["n_min"] = 12,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 12,
-										["c_max"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
 										["extra"] = {
 										},
-										["spellschool"] = 1,
-									}, -- [1]
-								},
-								["tipo"] = 2,
-							},
-							["nome"] = "Immortal Guardian",
-							["end_time"] = 1624967661,
-							["aID"] = "33988",
-							["custom"] = 0,
-							["last_event"] = 1624967661,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1624967661,
-							["serial"] = "Creature-0-4240-603-20786-33988-00005B09E9",
-							["dps_started"] = false,
-						}, -- [6]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.007091,
-							["damage_from"] = {
-								["Luminaxia"] = true,
-							},
-							["targets"] = {
-								["Luminaxia"] = 5,
-							},
-							["pets"] = {
-							},
-							["boss"] = true,
-							["delay"] = 0,
-							["aID"] = "",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 5.007091,
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["dps_started"] = false,
-							["total"] = 5.007091,
-							["classe"] = "UNKNOW",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Yogg-Saron",
-							["spells"] = {
-								["_ActorTable"] = {
-									[64163] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 64163,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
 										["a_dmg"] = 0,
-										["extra"] = {
-										},
-									},
-									[64465] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 64465,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["extra"] = {
-										},
-									},
-									[63894] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 63894,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["extra"] = {
-										},
-									},
-									[64164] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 2,
-										["targets"] = {
-											["Luminaxia"] = 5,
-										},
-										["n_dmg"] = 5,
-										["n_min"] = 1,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 5,
-										["c_max"] = 0,
-										["id"] = 64164,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["c_min"] = 0,
+										["c_min"] = 472,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 4,
-										["extra"] = {
-										},
-										["spellschool"] = 32,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["monster"] = true,
-							["end_time"] = 1624967661,
-							["damage_taken"] = 417334.007091,
-							["boss_fight_component"] = true,
-							["custom"] = 0,
-							["last_event"] = 1624967660,
-							["on_hold"] = false,
-							["start_time"] = 1624967656,
-							["serial"] = "Vehicle-0-4240-603-20786-33288-00005B09C8",
-							["friendlyfire"] = {
-							},
-						}, -- [7]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.001663,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Luminaxia"] = 1,
-							},
-							["delay"] = 1624967640,
-							["pets"] = {
-							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 1.001663,
-							["on_hold"] = false,
-							["monster"] = true,
-							["total"] = 1.001663,
-							["damage_taken"] = 0.001663,
-							["friendlyfire_total"] = 0,
-							["boss_fight_component"] = true,
-							["spells"] = {
-								["_ActorTable"] = {
-									[64167] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 64167,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
 										["b_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 4,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[15407] = {
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 987,
+										["g_amt"] = 0,
+										["n_max"] = 127,
+										["targets"] = {
+											["Dunegorger Kraulok"] = 3256,
+										},
+										["n_dmg"] = 2269,
+										["n_min"] = 119,
+										["g_dmg"] = 0,
+										["counter"] = 22,
+										["total"] = 3256,
+										["c_max"] = 254,
+										["id"] = 15407,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
 										["extra"] = {
 										},
+										["a_dmg"] = 0,
+										["c_min"] = 240,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 18,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
-									[64168] = {
+									[32379] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 1,
+										["n_max"] = 452,
 										["targets"] = {
-											["Luminaxia"] = 1,
+											["Dunegorger Kraulok"] = 452,
 										},
-										["n_dmg"] = 1,
-										["n_min"] = 1,
+										["n_dmg"] = 452,
+										["n_min"] = 452,
 										["g_dmg"] = 0,
 										["counter"] = 1,
-										["total"] = 1,
+										["total"] = 452,
 										["c_max"] = 0,
-										["id"] = 64168,
+										["id"] = 32379,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["extra"] = {
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[589] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 471,
+										["g_amt"] = 0,
+										["n_max"] = 111,
+										["targets"] = {
+											["Dunegorger Kraulok"] = 2357,
 										},
+										["n_dmg"] = 1886,
+										["n_min"] = 5,
+										["g_dmg"] = 0,
+										["counter"] = 27,
+										["total"] = 2357,
+										["c_max"] = 162,
+										["id"] = 589,
+										["r_dmg"] = 0,
 										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 154,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 24,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[8092] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 3399,
+										["g_amt"] = 0,
+										["n_max"] = 589,
+										["targets"] = {
+											["Dunegorger Kraulok"] = 5142,
+										},
+										["n_dmg"] = 1743,
+										["n_min"] = 569,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 5142,
+										["c_max"] = 1192,
+										["id"] = 8092,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 1091,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[259756] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 59,
+										["targets"] = {
+											["Dunegorger Kraulok"] = 194,
+										},
+										["n_dmg"] = 194,
+										["n_min"] = 3,
+										["g_dmg"] = 0,
+										["counter"] = 20,
+										["total"] = 194,
+										["c_max"] = 0,
+										["id"] = 259756,
+										["r_dmg"] = 0,
+										["spellschool"] = 48,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 20,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
-								["tipo"] = 2,
 							},
-							["nome"] = "Laughing Skull",
-							["end_time"] = 1624967661,
-							["aID"] = "33990",
-							["custom"] = 0,
-							["last_event"] = 1624967640,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1624967660,
-							["serial"] = "Creature-0-4240-603-20786-33990-00005B09D3",
-							["dps_started"] = false,
-						}, -- [8]
-						{
-							["flag_original"] = 2600,
-							["totalabsorbed"] = 0.007715,
-							["damage_from"] = {
-								["Luminaxia"] = true,
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["last_event"] = 0,
-							["nome"] = "Deathsworn Zealot",
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.007715,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["total"] = 0.007715,
-							["classe"] = "UNKNOW",
-							["damage_taken"] = 248683.007715,
-							["boss_fight_component"] = true,
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 2,
-							},
-							["aID"] = "33567",
-							["last_dps"] = 0,
-							["end_time"] = 1624967661,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1624967661,
-							["serial"] = "Creature-0-4240-603-20786-33567-0001DB09D3",
+							["grupo"] = true,
 							["on_hold"] = false,
-						}, -- [9]
+							["serial"] = "Player-1301-0B0D29D2",
+							["last_dps"] = 289.1483569497205,
+							["custom"] = 0,
+							["last_event"] = 1649260367,
+							["damage_taken"] = 19223.001026,
+							["start_time"] = 1649260305,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
 						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.007173,
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 34208.002719,
 							["damage_from"] = {
+								["Ewus-Arathor"] = true,
+								["Spirit Wolf <Noyx-ChamberofAspects>"] = true,
+								["Naltuk"] = true,
 								["Luminaxia"] = true,
+								["Greeshon"] = true,
+								["Darkglare <Mugins-Silvermoon>"] = true,
+								["Mugins-Silvermoon"] = true,
+								["Bartah-TwistingNether"] = true,
+								["Baldera-Kazzak"] = true,
+								["Lärive-Ragnaros"] = true,
+								["Infernal <Baldera-Kazzak>"] = true,
+								["Stjernemageb-TwistingNether"] = true,
+								["Noyx-ChamberofAspects"] = true,
 							},
 							["targets"] = {
+								["Ewus-Arathor"] = 101098,
+								["Lärive-Ragnaros"] = 1486,
+								["Baldera-Kazzak"] = 2864,
+								["Luminaxia"] = 1810,
+								["Naltuk"] = 49,
+								["Bartah-TwistingNether"] = 3215,
+								["Noyx-ChamberofAspects"] = 4963,
 							},
-							["delay"] = 0,
+							["serial"] = "Vehicle-0-3102-1642-38-138794-00004DB643",
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
+							["on_hold"] = false,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 0.007173,
-							["friendlyfire_total"] = 0,
+							["total_without_pet"] = 115485.002719,
+							["fight_component"] = true,
+							["end_time"] = 1649260369,
+							["dps_started"] = false,
+							["total"] = 115485.002719,
 							["monster"] = true,
-							["end_time"] = 1624967661,
-							["damage_taken"] = 275995.007173,
-							["nome"] = "Brain of Yogg-Saron",
-							["boss_fight_component"] = true,
-							["spells"] = {
-								["_ActorTable"] = {
-									[64173] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 64173,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["extra"] = {
-										},
-									},
-								},
-								["tipo"] = 2,
-							},
-							["aID"] = "33890",
-							["on_hold"] = false,
-							["total"] = 0.007173,
-							["custom"] = 0,
-							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1624967661,
-							["serial"] = "Creature-0-4240-603-20786-33890-00005B0970",
-							["dps_started"] = false,
-						}, -- [10]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.007124,
-							["damage_from"] = {
-								["Luminaxia"] = true,
-							},
-							["targets"] = {
-							},
-							["delay"] = 0,
-							["pets"] = {
-							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.007124,
 							["friendlyfire_total"] = 0,
-							["monster"] = true,
-							["end_time"] = 1624967661,
-							["damage_taken"] = 56887.007124,
-							["nome"] = "Crusher Tentacle",
-							["boss_fight_component"] = true,
+							["nome"] = "Dunegorger Kraulok",
 							["spells"] = {
+								["tipo"] = 2,
 								["_ActorTable"] = {
-									[57688] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 14888,
+										["g_amt"] = 0,
+										["n_max"] = 4362,
+										["targets"] = {
+											["Ewus-Arathor"] = 101098,
+											["Bartah-TwistingNether"] = 2434,
+										},
+										["n_dmg"] = 88644,
+										["n_min"] = 2434,
+										["g_dmg"] = 0,
+										["counter"] = 27,
+										["total"] = 103532,
+										["c_max"] = 8227,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 17829,
+										["c_min"] = 6661,
+										["successful_casted"] = 0,
+										["a_amt"] = 4,
+										["n_amt"] = 25,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[275200] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
@@ -1010,19 +373,19 @@ _detalhes_database = {
 										["counter"] = 0,
 										["total"] = 0,
 										["c_max"] = 0,
-										["id"] = 57688,
+										["id"] = 275200,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
 										["extra"] = {
 										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 2,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
-									[64144] = {
+									[276046] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
@@ -1036,243 +399,206 @@ _detalhes_database = {
 										["counter"] = 0,
 										["total"] = 0,
 										["c_max"] = 0,
-										["id"] = 64144,
+										["id"] = 276046,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
 										["extra"] = {
 										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 2,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
-								},
-								["tipo"] = 2,
-							},
-							["aID"] = "33966",
-							["on_hold"] = false,
-							["total"] = 0.007124,
-							["custom"] = 0,
-							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1624967661,
-							["serial"] = "Creature-0-4240-603-20786-33966-00005B09C8",
-							["dps_started"] = false,
-						}, -- [11]
-						{
-							["flag_original"] = 2600,
-							["totalabsorbed"] = 0.006684,
-							["damage_from"] = {
-								["Dolomite Giant"] = true,
-							},
-							["targets"] = {
-							},
-							["friendlyfire"] = {
-							},
-							["pets"] = {
-							},
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.006684,
-							["aID"] = "29382",
-							["dps_started"] = false,
-							["total"] = 0.006684,
-							["classe"] = "UNKNOW",
-							["serial"] = "Creature-0-3102-571-70-29382-00005F7506",
-							["nome"] = "Stormforged Reaver",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-								},
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 443.006684,
-							["start_time"] = 0,
-							["delay"] = 0,
-							["last_event"] = 0,
-						}, -- [12]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.004414,
-							["damage_from"] = {
-								["Luminaxia"] = true,
-							},
-							["targets"] = {
-							},
-							["delay"] = 0,
-							["pets"] = {
-							},
-							["last_dps"] = 0,
-							["last_event"] = 0,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.004414,
-							["classe"] = "UNKNOW",
-							["monster"] = true,
-							["total"] = 0.004414,
-							["damage_taken"] = 31641.004414,
-							["dps_started"] = false,
-							["boss_fight_component"] = true,
-							["spells"] = {
-								["_ActorTable"] = {
-									[64144] = {
+									[275184] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 0,
+										["n_max"] = 1645,
 										["targets"] = {
+											["Baldera-Kazzak"] = 1361,
+											["Lärive-Ragnaros"] = 1486,
+											["Bartah-TwistingNether"] = 781,
+											["Noyx-ChamberofAspects"] = 3290,
 										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
+										["n_dmg"] = 6918,
+										["n_min"] = 781,
 										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
+										["counter"] = 5,
+										["total"] = 6918,
 										["c_max"] = 0,
-										["id"] = 64144,
+										["id"] = 275184,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
+										["spellschool"] = 1,
 										["extra"] = {
 										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 5,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[275175] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1810,
+										["targets"] = {
+											["Luminaxia"] = 1810,
+											["Naltuk"] = 49,
+											["Noyx-ChamberofAspects"] = 1673,
+											["Baldera-Kazzak"] = 1503,
+										},
+										["n_dmg"] = 5035,
+										["n_min"] = 49,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 5035,
+										["c_max"] = 0,
+										["id"] = 275175,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 3,
+										["a_amt"] = 0,
+										["n_amt"] = 4,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
-								["tipo"] = 2,
 							},
-							["nome"] = "Constrictor Tentacle",
-							["end_time"] = 1624967661,
-							["friendlyfire"] = {
-							},
-							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1624967661,
-							["serial"] = "Vehicle-0-4240-603-20786-33983-00005B09C8",
 							["aID"] = "",
-						}, -- [13]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.003382,
-							["damage_from"] = {
-								["Luminaxia"] = true,
-							},
-							["targets"] = {
-							},
-							["delay"] = 0,
-							["pets"] = {
+							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1649260367,
+							["damage_taken"] = 467868.002719,
+							["start_time"] = 1649260309,
+							["delay"] = 0,
 							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+						}, -- [2]
+						{
+							["flag_original"] = 8776,
+							["totalabsorbed"] = 17869.003826,
+							["damage_from"] = {
+								["Ewus-Arathor"] = true,
+								["Mugins-Silvermoon"] = true,
+								["Lärive-Ragnaros"] = true,
+								["Baldera-Kazzak"] = true,
+								["Infernal <Baldera-Kazzak>"] = true,
+								["Naltuk"] = true,
+								["Stjernemageb-TwistingNether"] = true,
+								["Noyx-ChamberofAspects"] = true,
+							},
+							["targets"] = {
+								["Infernal <Baldera-Kazzak>"] = 1466,
+								["Spirit Wolf <Noyx-ChamberofAspects>"] = 1667,
+								["Luminaxia"] = 13526,
+								["Greeshon"] = 33,
+								["Mugins-Silvermoon"] = 11508,
+								["Baldera-Kazzak"] = 833,
+								["Lärive-Ragnaros"] = 870,
+								["Ewus-Arathor"] = 11875,
+								["Noyx-ChamberofAspects"] = 10923,
+							},
+							["pets"] = {
+							},
+							["aID"] = "139614",
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 0.003382,
-							["friendlyfire_total"] = 0,
-							["monster"] = true,
-							["end_time"] = 1624967661,
-							["damage_taken"] = 32915.003382,
-							["nome"] = "Corruptor Tentacle",
-							["boss_fight_component"] = true,
+							["total_without_pet"] = 52701.003826,
+							["friendlyfire"] = {
+							},
+							["fight_component"] = true,
+							["dps_started"] = true,
+							["total"] = 52701.003826,
+							["timeMachine"] = 42,
+							["on_hold"] = true,
+							["nome"] = "Ravenous Ranishu",
 							["spells"] = {
+								["tipo"] = 2,
 								["_ActorTable"] = {
-									[64153] = {
+									{
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 2282,
+										["g_amt"] = 0,
+										["n_max"] = 401,
+										["targets"] = {
+											["Ewus-Arathor"] = 4830,
+											["Mugins-Silvermoon"] = 3491,
+											["Lärive-Ragnaros"] = 870,
+											["Baldera-Kazzak"] = 289,
+											["Luminaxia"] = 5095,
+											["Infernal <Baldera-Kazzak>"] = 107,
+											["Infernal"] = 0,
+											["Noyx-ChamberofAspects"] = 3797,
+										},
+										["n_dmg"] = 16197,
+										["n_min"] = 107,
+										["g_dmg"] = 0,
+										["counter"] = 83,
+										["total"] = 18479,
+										["c_max"] = 731,
+										["MISS"] = 14,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["DODGE"] = 4,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 438,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 61,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[275996] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 0,
+										["n_max"] = 195,
 										["targets"] = {
-											["Luminaxia"] = 0,
+											["Ewus-Arathor"] = 4907,
+											["Mugins-Silvermoon"] = 6869,
+											["Infernal <Baldera-Kazzak>"] = 1345,
+											["Luminaxia"] = 5416,
+											["Greeshon"] = 0,
+											["Spirit Wolf <Noyx-ChamberofAspects>"] = 1640,
+											["Noyx-ChamberofAspects"] = 3876,
 										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
+										["n_dmg"] = 24053,
+										["n_min"] = 84,
 										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 0,
+										["counter"] = 149,
+										["total"] = 24053,
 										["c_max"] = 0,
-										["id"] = 64153,
+										["id"] = 275996,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
+										["MISS"] = 3,
 										["extra"] = {
 										},
-										["MISS"] = 1,
-									},
-									[64156] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Luminaxia"] = 0,
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 64156,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 0,
+										["a_dmg"] = 164,
 										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["extra"] = {
-										},
-										["MISS"] = 1,
-									},
-									[64152] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Luminaxia"] = 0,
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 64152,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
+										["successful_casted"] = 22,
+										["a_amt"] = 1,
+										["n_amt"] = 146,
 										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["extra"] = {
-										},
-										["MISS"] = 1,
+										["r_amt"] = 0,
 									},
-									[64144] = {
+									[276000] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
@@ -1286,746 +612,1342 @@ _detalhes_database = {
 										["counter"] = 0,
 										["total"] = 0,
 										["c_max"] = 0,
-										["id"] = 64144,
+										["id"] = 276000,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
 										["extra"] = {
 										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 15,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[276036] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 650,
+										["targets"] = {
+											["Ewus-Arathor"] = 2138,
+											["Spirit Wolf <Noyx-ChamberofAspects>"] = 27,
+											["Luminaxia"] = 3015,
+											["Greeshon"] = 33,
+											["Infernal"] = 0,
+											["Mugins-Silvermoon"] = 1148,
+											["Baldera-Kazzak"] = 544,
+											["Infernal <Baldera-Kazzak>"] = 14,
+											["Noyx-ChamberofAspects"] = 3250,
+										},
+										["n_dmg"] = 10169,
+										["n_min"] = 14,
+										["g_dmg"] = 0,
+										["counter"] = 28,
+										["total"] = 10169,
+										["c_max"] = 0,
+										["id"] = 276036,
+										["r_dmg"] = 0,
+										["MISS"] = 7,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 19,
+										["a_amt"] = 0,
+										["n_amt"] = 21,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
-								["tipo"] = 2,
 							},
-							["aID"] = "33985",
-							["on_hold"] = false,
-							["total"] = 0.003382,
+							["friendlyfire_total"] = 0,
+							["serial"] = "Creature-0-3102-1642-38-139614-00004DB711",
+							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1624967631,
+							["last_event"] = 1649260374,
+							["damage_taken"] = 137863.003826,
+							["start_time"] = 1649260309,
+							["delay"] = 1649260374,
+							["tipo"] = 1,
+						}, -- [3]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.004532,
+							["serial"] = "",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Luminaxia"] = 451,
+							},
+							["spellicon"] = 136149,
+							["on_hold"] = false,
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 451.004532,
+							["pets"] = {
+							},
+							["monster"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1649260369,
+							["friendlyfire_total"] = 0,
+							["aID"] = "",
+							["nome"] = "[*] Shadow Word: Death",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[32409] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 451,
+										["targets"] = {
+											["Luminaxia"] = 451,
+										},
+										["n_dmg"] = 451,
+										["n_min"] = 451,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 451,
+										["c_max"] = 0,
+										["id"] = 32409,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["total"] = 451.004532,
 							["friendlyfire"] = {
 							},
-							["start_time"] = 1624967661,
-							["serial"] = "Creature-0-4240-603-20786-33985-00005B09C8",
-							["dps_started"] = false,
-						}, -- [14]
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1649260346,
+							["damage_taken"] = 0.004532,
+							["start_time"] = 1649260368,
+							["delay"] = 1649260346,
+							["tipo"] = 1,
+						}, -- [4]
 					},
 				}, -- [1]
 				{
+					["combatId"] = 3,
 					["tipo"] = 3,
-					["combatId"] = 1,
 					["_ActorTable"] = {
 						{
-							["flag_original"] = 2584,
-							["totalabsorb"] = 0.001399,
-							["last_hps"] = 0,
+							["flag_original"] = 1297,
 							["targets_overheal"] = {
-								["Luminaxia"] = 3283,
+								["Luminaxia"] = 415,
 							},
-							["targets"] = {
-								["Luminaxia"] = 21,
-							},
-							["heal_enemy_amt"] = 0,
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["healing_from"] = {
+							["classe"] = "PRIEST",
+							["totalover"] = 415.002921,
+							["total_without_pet"] = 20295.002921,
+							["total"] = 20295.002921,
+							["targets_absorbs"] = {
 							},
-							["classe"] = "UNKNOW",
-							["totalover"] = 3283.001399,
-							["total_without_pet"] = 21.001399,
-							["totalover_without_pet"] = 0.001399,
-							["totaldenied"] = 0.001399,
-							["aID"] = "33134",
-							["end_time"] = 1624967661,
-							["healing_taken"] = 0.001399,
-							["total"] = 21.001399,
-							["boss_fight_component"] = true,
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-1301-0B0D29D2",
+							["totalabsorb"] = 0.002921,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Luminaxia"] = 20295,
+							},
+							["totalover_without_pet"] = 0.002921,
+							["healing_taken"] = 20295.002921,
+							["fight_component"] = true,
+							["end_time"] = 1649260369,
+							["healing_from"] = {
+								["Luminaxia"] = true,
+							},
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Luminaxia",
 							["spells"] = {
+								["tipo"] = 3,
 								["_ActorTable"] = {
-									[63134] = {
+									[335467] = {
 										["c_amt"] = 0,
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
-											["Luminaxia"] = 3283,
 										},
-										["n_max"] = 21,
+										["n_max"] = 229,
 										["targets"] = {
-											["Luminaxia"] = 21,
+											["Luminaxia"] = 1660,
 										},
-										["n_min"] = 21,
-										["counter"] = 1,
-										["overheal"] = 3283,
-										["total"] = 21,
+										["n_min"] = 23,
+										["counter"] = 15,
+										["overheal"] = 0,
+										["total"] = 1660,
 										["c_max"] = 0,
-										["id"] = 63134,
+										["id"] = 335467,
 										["targets_absorbs"] = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 1,
-										["n_curado"] = 21,
+										["n_curado"] = 1660,
 										["totaldenied"] = 0,
+										["n_amt"] = 15,
+										["absorbed"] = 0,
+									},
+									[34914] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 81,
+										["targets"] = {
+											["Luminaxia"] = 81,
+										},
+										["n_min"] = 81,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 81,
+										["c_max"] = 0,
+										["id"] = 34914,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 81,
+										["totaldenied"] = 0,
+										["n_amt"] = 1,
+										["absorbed"] = 0,
+									},
+									[259760] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 87,
+										["targets"] = {
+											["Luminaxia"] = 172,
+										},
+										["n_min"] = 85,
+										["counter"] = 2,
+										["overheal"] = 0,
+										["total"] = 172,
+										["c_max"] = 0,
+										["id"] = 259760,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 172,
+										["totaldenied"] = 0,
+										["n_amt"] = 2,
+										["absorbed"] = 0,
+									},
+									[186263] = {
+										["c_amt"] = 3,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Luminaxia"] = 415,
+										},
+										["n_max"] = 1725,
+										["targets"] = {
+											["Luminaxia"] = 18382,
+										},
+										["n_min"] = 1297,
+										["counter"] = 8,
+										["overheal"] = 415,
+										["total"] = 18382,
+										["c_max"] = 3461,
+										["id"] = 186263,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 3347,
+										["c_curado"] = 10252,
+										["n_curado"] = 8130,
+										["totaldenied"] = 0,
+										["n_amt"] = 5,
 										["absorbed"] = 0,
 									},
 								},
-								["tipo"] = 3,
-							},
-							["tipo"] = 2,
-							["nome"] = "Sara",
-							["heal_enemy"] = {
-							},
-							["targets_absorbs"] = {
-							},
-							["custom"] = 0,
-							["last_event"] = 1624967597,
-							["on_hold"] = false,
-							["start_time"] = 1624967660,
-							["serial"] = "Creature-0-4240-603-20786-33134-00005B0970",
-							["delay"] = 1624967597,
-						}, -- [1]
-						{
-							["flag_original"] = 1297,
-							["healing_from"] = {
-								["Sara"] = true,
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 0.007896,
-							["total_without_pet"] = 0.007896,
-							["total"] = 0.007896,
-							["targets_absorbs"] = {
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Player-1301-0B0D29D2",
-							["totalabsorb"] = 0.007896,
-							["last_hps"] = 0,
-							["targets"] = {
-							},
-							["totalover_without_pet"] = 0.007896,
-							["healing_taken"] = 21.007896,
-							["spec"] = 258,
-							["end_time"] = 1624967661,
-							["last_event"] = 0,
-							["targets_overheal"] = {
-							},
-							["nome"] = "Luminaxia",
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["totaldenied"] = 0.007896,
-							["aID"] = "1301-0B0D29D2",
+							["start_time"] = 1649260317,
+							["spec"] = 258,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["classe"] = "PRIEST",
-							["start_time"] = 1624967661,
+							["aID"] = "1301-0B0D29D2",
+							["totaldenied"] = 0.002921,
 							["delay"] = 0,
-							["boss_fight_component"] = true,
-						}, -- [2]
+							["last_event"] = 1649260368,
+						}, -- [1]
 					},
 				}, -- [2]
 				{
+					["combatId"] = 3,
 					["tipo"] = 7,
-					["combatId"] = 1,
 					["_ActorTable"] = {
 						{
-							["received"] = 0.008137,
-							["resource"] = 48.20813585559082,
+							["received"] = 0.006795,
+							["resource"] = 212.806789468689,
 							["targets"] = {
 							},
 							["pets"] = {
 							},
 							["powertype"] = 0,
 							["classe"] = "PRIEST",
-							["passiveover"] = 0.008137,
-							["total"] = 0.008137,
+							["passiveover"] = 0.006795,
+							["fight_component"] = true,
+							["total"] = 0.006795,
+							["resource_type"] = 13,
 							["nome"] = "Luminaxia",
-							["totalover"] = 0.008137,
-							["boss_fight_component"] = true,
 							["spells"] = {
+								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
-								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["tipo"] = 3,
-							["aID"] = "1301-0B0D29D2",
-							["alternatepower"] = 0.008137,
-							["last_event"] = 1624967659,
-							["flag_original"] = 1297,
 							["spec"] = 258,
+							["flag_original"] = 1297,
+							["alternatepower"] = 0.006795,
+							["last_event"] = 1649260367,
+							["aID"] = "1301-0B0D29D2",
+							["tipo"] = 3,
 							["serial"] = "Player-1301-0B0D29D2",
-							["resource_type"] = 13,
+							["totalover"] = 0.006795,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
+					["combatId"] = 3,
 					["tipo"] = 9,
-					["combatId"] = 1,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
 								["_ActorTable"] = {
-									[589] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 2,
-										["refreshamt"] = 0,
-										["id"] = 589,
-										["uptime"] = 11,
-										["targets"] = {
-										},
-										["appliedamt"] = 3,
-									},
-									[48045] = {
-										["counter"] = 0,
-										["actived"] = false,
+									[187464] = {
 										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 48045,
-										["uptime"] = 3,
+										["id"] = 187464,
 										["targets"] = {
 										},
+										["uptime"] = 17,
+										["appliedamt"] = 4,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[15407] = {
+										["activedamt"] = 0,
+										["id"] = 15407,
+										["targets"] = {
+										},
+										["uptime"] = 16,
+										["appliedamt"] = 5,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[34914] = {
+										["activedamt"] = 0,
+										["id"] = 34914,
+										["targets"] = {
+										},
+										["uptime"] = 5,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[589] = {
+										["activedamt"] = 0,
+										["id"] = 589,
+										["targets"] = {
+										},
+										["uptime"] = 42,
 										["appliedamt"] = 3,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[335467] = {
+										["activedamt"] = 0,
+										["id"] = 335467,
+										["targets"] = {
+										},
+										["uptime"] = 24,
+										["appliedamt"] = 3,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[263165] = {
+										["activedamt"] = 0,
+										["id"] = 263165,
+										["targets"] = {
+										},
+										["uptime"] = 4,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
-								["tipo"] = 9,
 							},
-							["buff_uptime"] = 136,
+							["buff_uptime"] = 282,
 							["aID"] = "1301-0B0D29D2",
 							["buff_uptime_spells"] = {
+								["tipo"] = 9,
 								["_ActorTable"] = {
-									[45242] = {
-										["counter"] = 0,
-										["actived"] = false,
+									[256374] = {
 										["activedamt"] = 2,
-										["refreshamt"] = 0,
-										["id"] = 45242,
-										["uptime"] = 8,
+										["id"] = 256374,
 										["targets"] = {
 										},
+										["uptime"] = 16,
 										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[122687] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
+										["activedamt"] = 2,
 										["id"] = 122687,
-										["uptime"] = 20,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
-									},
-									[186403] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
+										["uptime"] = 23,
+										["appliedamt"] = 2,
 										["refreshamt"] = 0,
-										["id"] = 186403,
-										["uptime"] = 75,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[256374] = {
-										["counter"] = 0,
 										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 256374,
-										["uptime"] = 12,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[63988] = {
 										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 63988,
-										["uptime"] = 21,
+									},
+									[45242] = {
+										["activedamt"] = 3,
+										["id"] = 45242,
 										["targets"] = {
 										},
+										["uptime"] = 42,
+										["appliedamt"] = 3,
+										["refreshamt"] = 19,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[225788] = {
+										["activedamt"] = 1,
+										["id"] = 225788,
+										["targets"] = {
+										},
+										["uptime"] = 64,
 										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[263165] = {
+										["activedamt"] = 2,
+										["id"] = 263165,
+										["targets"] = {
+										},
+										["uptime"] = 4,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[215294] = {
+										["activedamt"] = 1,
+										["id"] = 215294,
+										["targets"] = {
+										},
+										["uptime"] = 49,
+										["appliedamt"] = 1,
+										["refreshamt"] = 3,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[232698] = {
+										["activedamt"] = 1,
+										["id"] = 232698,
+										["targets"] = {
+										},
+										["uptime"] = 64,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[289577] = {
+										["activedamt"] = 2,
+										["id"] = 289577,
+										["targets"] = {
+										},
+										["uptime"] = 4,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[15407] = {
+										["activedamt"] = 5,
+										["id"] = 15407,
+										["targets"] = {
+										},
+										["uptime"] = 16,
+										["appliedamt"] = 5,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
-								["tipo"] = 9,
 							},
-							["debuff_uptime"] = 14,
-							["tipo"] = 4,
-							["boss_fight_component"] = true,
+							["fight_component"] = true,
+							["debuff_uptime"] = 108,
+							["nome"] = "Luminaxia",
 							["spec"] = 258,
 							["grupo"] = true,
 							["spell_cast"] = {
-								[589] = 5,
+								[15407] = 5,
+								[335467] = 4,
+								[34914] = 1,
+								[8092] = 6,
 								[32379] = 1,
-								[341263] = 3,
-								[8092] = 2,
-								[48045] = 3,
+								[186263] = 8,
+								[263165] = 2,
+								[341263] = 13,
+								[589] = 2,
+								[147193] = 2,
 							},
 							["debuff_uptime_targets"] = {
-							},
-							["classe"] = "PRIEST",
-							["last_event"] = 1624967661,
-							["pets"] = {
 							},
 							["buff_uptime_targets"] = {
 							},
+							["last_event"] = 1649260369,
+							["pets"] = {
+							},
+							["classe"] = "PRIEST",
 							["serial"] = "Player-1301-0B0D29D2",
-							["nome"] = "Luminaxia",
+							["tipo"] = 4,
 						}, -- [1]
 						{
-							["flag_original"] = 2584,
-							["tipo"] = 4,
-							["nome"] = "Sara",
+							["flag_original"] = 8776,
+							["classe"] = "PET",
+							["nome"] = "Ravenous Ranishu",
 							["pets"] = {
 							},
-							["last_event"] = 0,
+							["fight_component"] = true,
 							["spell_cast"] = {
-								[63134] = 1,
-								[64775] = 1,
-								[65301] = 10,
-								[63138] = 1,
+								[275996] = 22,
+								[276000] = 15,
+								[276036] = 19,
 							},
-							["classe"] = "UNKNOW",
-							["aID"] = "33134",
-							["serial"] = "Creature-0-4240-603-20786-33134-00005B0970",
-							["boss_fight_component"] = true,
+							["tipo"] = 4,
+							["aID"] = "139614",
+							["serial"] = "Creature-0-3102-1642-38-139614-00004DB711",
+							["last_event"] = 0,
 						}, -- [2]
 						{
-							["flag_original"] = 2584,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 9,
-							},
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["boss_debuff"] = true,
-							["debuff_uptime"] = 22,
-							["spellschool"] = 32,
-							["boss_fight_component"] = true,
-							["debuff_uptime_targets"] = {
-								["Luminaxia"] = {
-									["uptime"] = 22,
-									["refreshamt"] = 0,
-									["appliedamt"] = 0,
-									["activedamt"] = -1,
-									["actived"] = true,
-									["actived_at"] = 1624967619,
-								},
-							},
-							["last_event"] = 1624967619,
-							["serial"] = "Creature-0-4240-603-20786-33134-00005B0970",
-							["tipo"] = 4,
-							["damage_twin"] = "Sara",
-							["aID"] = "33134",
-							["damage_spellid"] = 63134,
-							["nome"] = "Sara's Blessing",
-						}, -- [3]
-						{
-							["flag_original"] = 2584,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 9,
-							},
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["boss_debuff"] = true,
-							["debuff_uptime"] = 20,
-							["spellschool"] = 32,
-							["boss_fight_component"] = true,
-							["debuff_uptime_targets"] = {
-								["Luminaxia"] = {
-									["uptime"] = 20,
-									["refreshamt"] = 0,
-									["appliedamt"] = 0,
-									["activedamt"] = -1,
-									["actived"] = true,
-									["actived_at"] = 1624967619,
-								},
-							},
-							["last_event"] = 1624967619,
-							["serial"] = "Creature-0-4240-603-20786-33134-00005B0970",
-							["tipo"] = 4,
-							["damage_twin"] = "Sara",
-							["aID"] = "33134",
-							["damage_spellid"] = 63138,
-							["nome"] = "Sara's Fervor",
-						}, -- [4]
-						{
-							["flag_original"] = 2632,
-							["tipo"] = 4,
-							["nome"] = "Ominous Cloud",
-							["pets"] = {
-								"Guardian of Yogg-Saron <Ominous Cloud>", -- [1]
-							},
-							["last_event"] = 0,
-							["monster"] = true,
-							["classe"] = "UNKNOW",
-							["aID"] = "33292",
-							["serial"] = "Creature-0-4240-603-20786-33292-0002DB0970",
-							["boss_fight_component"] = true,
-						}, -- [5]
-						{
-							["monster"] = true,
-							["classe"] = "UNKNOW",
-							["ownerName"] = "Ominous Cloud",
-							["nome"] = "Guardian of Yogg-Saron <Ominous Cloud>",
 							["flag_original"] = 68168,
+							["classe"] = "UNKNOW",
+							["nome"] = "Dunegorger Kraulok",
+							["fight_component"] = true,
 							["pets"] = {
 							},
 							["spell_cast"] = {
-								[65209] = 1,
-								[65719] = 1,
+								[275200] = 2,
+								[275175] = 3,
+								[276046] = 2,
 							},
-							["boss_fight_component"] = true,
-							["aID"] = "33136",
-							["tipo"] = 4,
-							["serial"] = "Creature-0-4240-603-20786-33136-00005B09B0",
-							["last_event"] = 0,
-						}, -- [6]
-						{
-							["flag_original"] = 2632,
 							["monster"] = true,
-							["nome"] = "Yogg-Saron",
-							["last_event"] = 0,
-							["pets"] = {
-							},
-							["spell_cast"] = {
-								[64163] = 1,
-								[64465] = 1,
-								[63894] = 1,
-							},
+							["tipo"] = 4,
 							["aID"] = "",
-							["classe"] = "UNKNOW",
-							["tipo"] = 4,
-							["serial"] = "Vehicle-0-4240-603-20786-33288-00005B09C8",
-							["boss_fight_component"] = true,
-						}, -- [7]
-						{
-							["monster"] = true,
+							["serial"] = "Vehicle-0-3102-1642-38-138794-00004DB643",
 							["last_event"] = 0,
-							["boss_fight_component"] = true,
-							["aID"] = "33985",
-							["spell_cast"] = {
-								[64153] = 1,
-								[64156] = 1,
-								[64152] = 1,
-								[64144] = 1,
-							},
-							["nome"] = "Corruptor Tentacle",
-							["tipo"] = 4,
-							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
-							["serial"] = "Creature-0-4240-603-20786-33985-00005B09C8",
-							["flag_original"] = 2632,
-						}, -- [8]
-						{
-							["monster"] = true,
-							["last_event"] = 0,
-							["boss_fight_component"] = true,
-							["aID"] = "33966",
-							["spell_cast"] = {
-								[57688] = 1,
-								[64144] = 1,
-							},
-							["nome"] = "Crusher Tentacle",
-							["tipo"] = 4,
-							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
-							["serial"] = "Creature-0-4240-603-20786-33966-00005B09C8",
-							["flag_original"] = 2632,
-						}, -- [9]
-						{
-							["flag_original"] = 2632,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 9,
-							},
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["boss_debuff"] = true,
-							["monster"] = true,
-							["debuff_uptime"] = 1,
-							["spellschool"] = 1,
-							["nome"] = "Squeeze",
-							["tipo"] = 4,
-							["serial"] = "",
-							["aID"] = "",
-							["last_event"] = 1624967625,
-							["damage_twin"] = "[*] Squeeze",
-							["debuff_uptime_targets"] = {
-								["Luminaxia"] = {
-									["uptime"] = 1,
-									["refreshamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["appliedamt"] = 0,
-								},
-							},
-							["damage_spellid"] = 64126,
-							["boss_fight_component"] = true,
-						}, -- [10]
-						{
-							["flag_original"] = 2632,
-							["monster"] = true,
-							["nome"] = "Constrictor Tentacle",
-							["last_event"] = 0,
-							["pets"] = {
-							},
-							["spell_cast"] = {
-								[64144] = 1,
-							},
-							["aID"] = "",
-							["classe"] = "UNKNOW",
-							["tipo"] = 4,
-							["serial"] = "Vehicle-0-4240-603-20786-33983-00005B09C8",
-							["boss_fight_component"] = true,
-						}, -- [11]
-						{
-							["monster"] = true,
-							["last_event"] = 0,
-							["boss_fight_component"] = true,
-							["aID"] = "33990",
-							["spell_cast"] = {
-								[64167] = 4,
-							},
-							["nome"] = "Laughing Skull",
-							["tipo"] = 4,
-							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
-							["serial"] = "Creature-0-4240-603-20786-33990-00005B09D3",
-							["flag_original"] = 2632,
-						}, -- [12]
-						{
-							["monster"] = true,
-							["last_event"] = 0,
-							["boss_fight_component"] = true,
-							["aID"] = "33890",
-							["spell_cast"] = {
-								[64173] = 1,
-							},
-							["nome"] = "Brain of Yogg-Saron",
-							["tipo"] = 4,
-							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
-							["serial"] = "Creature-0-4240-603-20786-33890-00005B0970",
-							["flag_original"] = 2632,
-						}, -- [13]
-						{
-							["flag_original"] = 2632,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 9,
-							},
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["boss_debuff"] = true,
-							["monster"] = true,
-							["debuff_uptime"] = 0,
-							["spellschool"] = 1,
-							["nome"] = "Sanity",
-							["tipo"] = 4,
-							["serial"] = "",
-							["aID"] = "",
-							["last_event"] = 1624967661,
-							["damage_twin"] = "[*] Sanity",
-							["debuff_uptime_targets"] = {
-								["Luminaxia"] = {
-									["uptime"] = 0,
-									["refreshamt"] = 0,
-									["appliedamt"] = 0,
-									["activedamt"] = -1,
-									["actived"] = false,
-									["actived_at"] = 1624967661,
-								},
-							},
-							["damage_spellid"] = 63050,
-							["boss_fight_component"] = true,
-						}, -- [14]
+						}, -- [3]
 					},
 				}, -- [4]
 				{
+					["combatId"] = 3,
 					["tipo"] = 2,
-					["combatId"] = 1,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
 				["raid_roster"] = {
 					["Luminaxia"] = true,
-					["Destruxia"] = true,
 				},
 				["raid_roster_indexed"] = {
 					"Luminaxia", -- [1]
-					"Destruxia", -- [2]
 				},
-				["tempo_start"] = 1624967586,
+				["tempo_start"] = 1649260305,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
+				["combat_counter"] = 1224,
+				["playing_solo"] = true,
 				["totals"] = {
-					1603274, -- [1]
-					21, -- [2]
+					187136.9313499999, -- [1]
+					20294.96040399999, -- [2]
 					{
 						0, -- [1]
-						[0] = 0,
+						[0] = -0.005678,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = -0.007804000000000144,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
 						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
-				["player_last_events"] = {
+				["totals_grupo"] = {
+					21936, -- [1]
+					20295, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
-				["instance_type"] = "raid",
-				["hasSaved"] = true,
-				["data_fim"] = "14:54:22",
+				["instance_type"] = "none",
+				["data_fim"] = "18:52:50",
 				["cleu_timeline"] = {
 				},
-				["enemy"] = "Yogg-Saron",
-				["TotalElapsedCombatTime"] = 1772.313,
-				["CombatEndedAt"] = 1772.313,
+				["enemy"] = "Dunegorger Kraulok",
+				["TotalElapsedCombatTime"] = 18901.772,
+				["CombatEndedAt"] = 18901.772,
 				["aura_timeline"] = {
 				},
 				["__call"] = {
-				},
-				["data_inicio"] = "14:53:06",
-				["end_time"] = 1771.089,
-				["combat_id"] = 1,
-				["combat_counter"] = 1216,
-				["overall_added"] = true,
-				["contra"] = "Guardian of Yogg-Saron",
-				["spells_cast_timeline"] = {
-				},
-				["is_boss"] = {
-					["bossimage"] = 1385774,
-					["diff_string"] = "Normal",
-					["index"] = 1,
-					["zone"] = "Ulduar",
-					["encounter"] = "Yogg-Saron",
-					["mapid"] = 603,
-					["try_number"] = 1,
-					["name"] = "Yogg-Saron",
-					["diff"] = 14,
-					["ej_instance_id"] = 759,
-					["id"] = 1143,
-					["killed"] = true,
-				},
-				["totals_grupo"] = {
-					1568059, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-				},
-				["CombatSkillCache"] = {
 				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					{
-						2, -- [1]
-						37.90300000000002, -- [2]
-					}, -- [2]
-					{
-						3, -- [1]
-						69.50799999999981, -- [2]
-					}, -- [3]
-					["damage"] = {
-						{
-							["Luminaxia"] = 504604.001487,
-						}, -- [1]
-						{
-							["Luminaxia"] = 646120.9999999999,
-						}, -- [2]
-						{
-							["Luminaxia"] = 417334,
-						}, -- [3]
-					},
 					["heal_section"] = {
 					},
 					["heal"] = {
 						{
-							["Luminaxia"] = 0.007896,
+							["Luminaxia"] = 20295.002921,
 						}, -- [1]
-						{
-							["Luminaxia"] = 0,
-						}, -- [2]
-						{
-							["Luminaxia"] = 0,
-						}, -- [3]
 					},
 					["damage_section"] = {
 					},
+					["damage"] = {
+						{
+							["Luminaxia"] = 18500.001026,
+						}, -- [1]
+					},
 				},
-				["start_time"] = 1678.677,
-				["TimeData"] = {
+				["end_time"] = 18901.772,
+				["combat_id"] = 3,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["player_last_events"] = {
+					["Bartah-TwistingNether"] = {
+						{
+							true, -- [1]
+							124255, -- [2]
+							37, -- [3]
+							1649260369.688, -- [4]
+							0, -- [5]
+							"Bartah-TwistingNether", -- [6]
+							1, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							124255, -- [2]
+							33, -- [3]
+							1649260370.248, -- [4]
+							0, -- [5]
+							"Bartah-TwistingNether", -- [6]
+							1, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							124255, -- [2]
+							29, -- [3]
+							1649260370.723, -- [4]
+							0, -- [5]
+							"Bartah-TwistingNether", -- [6]
+							1, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [3]
+						{
+							true, -- [1]
+							124255, -- [2]
+							25, -- [3]
+							1649260371.255, -- [4]
+							0, -- [5]
+							"Bartah-TwistingNether", -- [6]
+							1, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [4]
+						{
+							true, -- [1]
+							124255, -- [2]
+							23, -- [3]
+							1649260371.74, -- [4]
+							0, -- [5]
+							"Bartah-TwistingNether", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [5]
+						{
+							true, -- [1]
+							124255, -- [2]
+							20, -- [3]
+							1649260372.19, -- [4]
+							0, -- [5]
+							"Bartah-TwistingNether", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [6]
+						{
+							true, -- [1]
+							124255, -- [2]
+							18, -- [3]
+							1649260372.679, -- [4]
+							0, -- [5]
+							"Bartah-TwistingNether", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [7]
+						{
+							true, -- [1]
+							124255, -- [2]
+							15, -- [3]
+							1649260373.227, -- [4]
+							0, -- [5]
+							"Bartah-TwistingNether", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [8]
+						{
+							true, -- [1]
+							124255, -- [2]
+							14, -- [3]
+							1649260373.73, -- [4]
+							0, -- [5]
+							"Bartah-TwistingNether", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [9]
+						{
+							true, -- [1]
+							124255, -- [2]
+							12, -- [3]
+							1649260374.21, -- [4]
+							0, -- [5]
+							"Bartah-TwistingNether", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [10]
+						{
+							true, -- [1]
+							124255, -- [2]
+							11, -- [3]
+							1649260374.734, -- [4]
+							0, -- [5]
+							"Bartah-TwistingNether", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [11]
+						{
+							true, -- [1]
+							124255, -- [2]
+							9, -- [3]
+							1649260375.231, -- [4]
+							0, -- [5]
+							"Bartah-TwistingNether", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [12]
+						{
+							true, -- [1]
+							124255, -- [2]
+							9, -- [3]
+							1649260375.745, -- [4]
+							0, -- [5]
+							"Bartah-TwistingNether", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [13]
+						{
+							true, -- [1]
+							124255, -- [2]
+							7, -- [3]
+							1649260376.24, -- [4]
+							0, -- [5]
+							"Bartah-TwistingNether", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [14]
+						{
+							true, -- [1]
+							124255, -- [2]
+							6, -- [3]
+							1649260376.75, -- [4]
+							0, -- [5]
+							"Bartah-TwistingNether", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [15]
+						{
+							true, -- [1]
+							124255, -- [2]
+							6, -- [3]
+							1649260377.245, -- [4]
+							0, -- [5]
+							"Bartah-TwistingNether", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [16]
+						{
+							true, -- [1]
+							124255, -- [2]
+							5, -- [3]
+							1649260377.723, -- [4]
+							0, -- [5]
+							"Bartah-TwistingNether", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [17]
+						{
+							true, -- [1]
+							124255, -- [2]
+							4, -- [3]
+							1649260378.222, -- [4]
+							0, -- [5]
+							"Bartah-TwistingNether", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [18]
+						{
+							true, -- [1]
+							124255, -- [2]
+							4, -- [3]
+							1649260378.699, -- [4]
+							0, -- [5]
+							"Bartah-TwistingNether", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [19]
+						{
+							true, -- [1]
+							124255, -- [2]
+							3, -- [3]
+							1649260379.177, -- [4]
+							0, -- [5]
+							"Bartah-TwistingNether", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [20]
+						{
+							true, -- [1]
+							124255, -- [2]
+							3, -- [3]
+							1649260379.735, -- [4]
+							0, -- [5]
+							"Bartah-TwistingNether", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 22,
+					},
+				},
+				["data_inicio"] = "18:51:46",
+				["CombatSkillCache"] = {
 				},
 				["frags"] = {
-					["Constrictor Tentacle"] = 1,
-					["Corruptor Tentacle"] = 1,
-					["Influence Tentacle"] = 9,
-					["Guardian of Yogg-Saron"] = 2,
-					["Crusher Tentacle"] = 1,
+					["Dunegorger Kraulok"] = 1,
+					["Capacitor Totem"] = 1,
+					["Ravenous Ranishu"] = 13,
+					["Healing Stream Totem"] = 1,
+					["Dune Bug"] = 1,
+					["Noyx-ChamberofAspects"] = 1,
 				},
+				["start_time"] = 18837.791,
+				["TimeData"] = {
+				},
+				["contra"] = "Dunegorger Kraulok",
 			}, -- [1]
+			{
+				{
+					["combatId"] = 2,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.003073,
+							["damage_from"] = {
+								["Dunegorger Kraulok"] = true,
+							},
+							["targets"] = {
+							},
+							["total"] = 0.003073,
+							["pets"] = {
+							},
+							["spec"] = 258,
+							["classe"] = "PRIEST",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.003073,
+							["friendlyfire"] = {
+							},
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["end_time"] = 1649260303,
+							["friendlyfire_total"] = 0,
+							["aID"] = "1301-0B0D29D2",
+							["nome"] = "Luminaxia",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-1301-0B0D29D2",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 1774.003073,
+							["start_time"] = 1649260303,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 1068.008002,
+							["damage_from"] = {
+								["Ewus-Arathor"] = true,
+								["Mugins-Silvermoon"] = true,
+								["Naltuk"] = true,
+								["Mirror Image <Ewus-Arathor>"] = true,
+								["Darkglare <Mugins-Silvermoon>"] = true,
+							},
+							["targets"] = {
+								["Ewus-Arathor"] = 1068,
+								["Mirror Image <Ewus-Arathor>"] = 10450,
+								["Luminaxia"] = 1774,
+							},
+							["serial"] = "Vehicle-0-3102-1642-38-138794-00004DB643",
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 13292.008002,
+							["fight_component"] = true,
+							["monster"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1649260305,
+							["friendlyfire_total"] = 0,
+							["aID"] = "",
+							["nome"] = "Dunegorger Kraulok",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 3921,
+										["targets"] = {
+											["Mirror Image <Ewus-Arathor>"] = 10450,
+										},
+										["n_dmg"] = 10450,
+										["n_min"] = 2811,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 10450,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[275184] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1774,
+										["targets"] = {
+											["Luminaxia"] = 1774,
+											["Ewus-Arathor"] = 1068,
+										},
+										["n_dmg"] = 2842,
+										["n_min"] = 1068,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 2842,
+										["c_max"] = 0,
+										["id"] = 275184,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["total"] = 13292.008002,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1649260304,
+							["damage_taken"] = 52935.008002,
+							["start_time"] = 1649260299,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 2,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["combatId"] = 2,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 0.006184,
+							["resource"] = 4.006184,
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "PRIEST",
+							["passiveover"] = 0.006184,
+							["total"] = 0.006184,
+							["resource_type"] = 13,
+							["nome"] = "Luminaxia",
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 258,
+							["flag_original"] = 1297,
+							["alternatepower"] = 0.006184,
+							["last_event"] = 1649260305,
+							["aID"] = "1301-0B0D29D2",
+							["tipo"] = 3,
+							["serial"] = "Player-1301-0B0D29D2",
+							["totalover"] = 0.006184,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 2,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["nome"] = "Luminaxia",
+							["spec"] = 258,
+							["grupo"] = true,
+							["buff_uptime_targets"] = {
+							},
+							["pets"] = {
+							},
+							["buff_uptime"] = 16,
+							["classe"] = "PRIEST",
+							["aID"] = "1301-0B0D29D2",
+							["last_event"] = 1649260303,
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[97560] = {
+										["activedamt"] = 1,
+										["id"] = 97560,
+										["targets"] = {
+										},
+										["uptime"] = 4,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[232698] = {
+										["activedamt"] = 1,
+										["id"] = 232698,
+										["targets"] = {
+										},
+										["uptime"] = 4,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[225788] = {
+										["activedamt"] = 1,
+										["id"] = 225788,
+										["targets"] = {
+										},
+										["uptime"] = 4,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[296863] = {
+										["activedamt"] = 1,
+										["id"] = 296863,
+										["targets"] = {
+										},
+										["uptime"] = 4,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["serial"] = "Player-1301-0B0D29D2",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 2,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Luminaxia"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"Luminaxia", -- [1]
+				},
+				["CombatStartedAt"] = 18836.884,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 1223,
+				["playing_solo"] = true,
+				["totals"] = {
+					13291.980815, -- [1]
+					-0.01465400000022212, -- [2]
+					{
+						0, -- [1]
+						[0] = -0.00791,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = false,
+				["instance_type"] = "none",
+				["data_fim"] = "18:51:43",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Dunegorger Kraulok",
+				["TotalElapsedCombatTime"] = 18835.595,
+				["CombatEndedAt"] = 18835.595,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "18:51:40",
+				["end_time"] = 18835.595,
+				["combat_id"] = 2,
+				["tempo_start"] = 1649260299,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["frags"] = {
+				},
+				["totals_grupo"] = {
+					0, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Luminaxia"] = 0.003073,
+						}, -- [1]
+					},
+				},
+				["CombatSkillCache"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+				["start_time"] = 18831.996,
+				["contra"] = "Dunegorger Kraulok",
+				["TimeData"] = {
+				},
+			}, -- [2]
 		},
 	},
 	["ocd_tracker"] = {
@@ -2042,7 +1964,7 @@ _detalhes_database = {
 		["pos"] = {
 		},
 	},
-	["last_version"] = "9.1.08697",
+	["last_version"] = "9.2.09722",
 	["SoloTablesSaved"] = {
 		["Mode"] = 1,
 	},
@@ -2056,7 +1978,7 @@ _detalhes_database = {
 	},
 	["on_death_menu"] = true,
 	["nick_tag_cache"] = {
-		["nextreset"] = 1625355203,
+		["nextreset"] = 1650555125,
 		["last_version"] = 14,
 	},
 	["last_instance_id"] = 603,
@@ -2081,11 +2003,12 @@ _detalhes_database = {
 		["previous_boss_killed_at"] = 0,
 	},
 	["ignore_nicktag"] = false,
-	["last_encounter"] = "Yogg-Saron",
+	["last_day"] = "06",
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["enabled"] = true,
 			["animate"] = false,
+			["hide_pull_bar"] = false,
 			["author"] = "Details! Team",
 			["playercolor"] = {
 				1, -- [1]
@@ -2096,6 +2019,7 @@ _detalhes_database = {
 			["updatespeed"] = 1,
 			["showamount"] = false,
 			["useplayercolor"] = false,
+			["usefocus"] = false,
 			["playSoundFile"] = "Details Threat Warning Volume 3",
 			["useclasscolors"] = false,
 		},
@@ -2124,15 +2048,15 @@ _detalhes_database = {
 			["tank_block_size"] = 150,
 			["bar_height"] = 24,
 			["tank_block_texture"] = "Details Serenity",
+			["show_inc_bars"] = false,
+			["tank_block_height"] = 40,
+			["tank_block_powerbar_size_height"] = 10,
 			["tank_block_color"] = {
 				0.24705882, -- [1]
 				0.0039215, -- [2]
 				0, -- [3]
 				0.8, -- [4]
 			},
-			["tank_block_powerbar_size_height"] = 10,
-			["tank_block_height"] = 40,
-			["show_inc_bars"] = false,
 		},
 		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
 			["enabled"] = true,
@@ -2142,11 +2066,11 @@ _detalhes_database = {
 			["last_section_selected"] = "main",
 			["author"] = "Details! Team",
 			["window_scale"] = 1,
-			["hide_on_combat"] = false,
-			["show_icon"] = 5,
-			["opened"] = 0,
 			["encounter_timers_dbm"] = {
 			},
+			["show_icon"] = 5,
+			["opened"] = 0,
+			["hide_on_combat"] = false,
 		},
 		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
 			["font_color"] = {
@@ -2172,36 +2096,11 @@ _detalhes_database = {
 				["radius"] = 160,
 				["hide"] = true,
 			},
-			["scale"] = 1,
+			["use_square_mode"] = false,
 			["arrow_anchor_x"] = 0,
-			["row_height"] = 20,
+			["main_frame_locked"] = false,
 			["row_texture"] = "Details Serenity",
-			["point"] = "CENTER",
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
-			["author"] = "Details! Team",
-			["square_amount"] = 5,
-			["enabled"] = false,
-			["arrow_size"] = 10,
-			["y"] = 4.57763671875e-05,
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
-			["main_frame_strata"] = "LOW",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["use_spark"] = true,
-			["font_size"] = 10,
-			["x"] = 0,
-			["font_face"] = "Friz Quadrata TT",
-			["square_size"] = 32,
+			["arrow_anchor_y"] = 0,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -2209,35 +2108,66 @@ _detalhes_database = {
 				["font_shadow"] = true,
 				["y"] = 3.0517578125e-05,
 				["x"] = 3.0517578125e-05,
-				["size"] = 32,
-				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
+				["update_speed"] = 0.05,
+				["size"] = 32,
 			},
-			["arrow_anchor_y"] = 0,
-			["main_frame_locked"] = false,
-			["use_square_mode"] = false,
+			["main_frame_strata"] = "LOW",
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["use_spark"] = true,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["font_size"] = 10,
+			["y"] = 4.57763671875e-05,
+			["x"] = 0,
+			["font_face"] = "Friz Quadrata TT",
+			["square_size"] = 32,
+			["author"] = "Details! Team",
+			["point"] = "CENTER",
+			["row_height"] = 20,
+			["scale"] = 1,
 		},
+	},
+	["last_encounter"] = "Yogg-Saron",
+	["announce_damagerecord"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
 	},
 	["benchmark_db"] = {
 		["frame"] = {
 		},
 	},
-	["cached_roles"] = {
-	},
-	["last_realversion"] = 145,
-	["cached_talents"] = {
-	},
-	["announce_prepots"] = {
+	["last_realversion"] = 146,
+	["cd_tracker"] = {
 		["enabled"] = false,
-		["channel"] = "SELF",
-		["reverse"] = false,
+		["cds_enabled"] = {
+		},
+		["show_conditions"] = {
+			["only_inside_instance"] = true,
+			["only_in_group"] = true,
+		},
+		["pos"] = {
+		},
 	},
-	["announce_firsthit"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
+	["character_data"] = {
+		["logons"] = 108,
 	},
-	["combat_counter"] = 1217,
-	["combat_id"] = 1,
+	["combat_counter"] = 1224,
+	["combat_id"] = 3,
 	["savedStyles"] = {
 	},
 	["local_instances_config"] = {
@@ -2262,10 +2192,10 @@ _detalhes_database = {
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
-					["y"] = -420.8414993286133,
+					["y"] = -420.8414154052734,
 					["x"] = 759.0111694335938,
 					["w"] = 404.9828491210938,
-					["h"] = 240.0071868896484,
+					["h"] = 240.0073089599609,
 				},
 				["solo"] = {
 					["y"] = -40.9999084472656,
@@ -2288,737 +2218,586 @@ _detalhes_database = {
 			["tipo"] = 2,
 			["_ActorTable"] = {
 				{
-					["flag_original"] = 1297,
-					["totalabsorbed"] = 0.008633,
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 35276.019384,
+					["dps_started"] = false,
 					["damage_from"] = {
-						["Guardian of Yogg-Saron <Ominous Cloud>"] = true,
-						["Yogg-Saron"] = true,
-						["Sara"] = true,
-						["Laughing Skull"] = true,
-						["Immortal Guardian"] = true,
+						["Ewus-Arathor"] = true,
+						["Spirit Wolf <Noyx-ChamberofAspects>"] = true,
+						["Naltuk"] = true,
+						["Luminaxia"] = true,
+						["Greeshon"] = true,
+						["Darkglare <Mugins-Silvermoon>"] = true,
+						["Bartah-TwistingNether"] = true,
+						["Mugins-Silvermoon"] = true,
+						["Lärive-Ragnaros"] = true,
+						["Baldera-Kazzak"] = true,
+						["Infernal <Baldera-Kazzak>"] = true,
+						["Mirror Image <Ewus-Arathor>"] = true,
+						["Stjernemageb-TwistingNether"] = true,
+						["Noyx-ChamberofAspects"] = true,
 					},
 					["targets"] = {
-						["Guardian of Yogg-Saron <Ominous Cloud>"] = 504604,
-						["Constrictor Tentacle"] = 31641,
-						["Deathsworn Zealot"] = 248683,
-						["Corruptor Tentacle"] = 32915,
-						["Yogg-Saron"] = 417334,
-						["Brain of Yogg-Saron"] = 275995,
-						["Crusher Tentacle"] = 56887,
+						["Ewus-Arathor"] = 102166,
+						["Lärive-Ragnaros"] = 1486,
+						["Naltuk"] = 49,
+						["Baldera-Kazzak"] = 2864,
+						["Luminaxia"] = 3584,
+						["Mirror Image <Ewus-Arathor>"] = 6732,
+						["Bartah-TwistingNether"] = 3215,
+						["Noyx-ChamberofAspects"] = 4963,
+					},
+					["pets"] = {
+					},
+					["end_time"] = 1649260303,
+					["on_hold"] = false,
+					["aID"] = "",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 125059.019384,
+					["fight_component"] = true,
+					["monster"] = true,
+					["total"] = 125059.019384,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
+					["nome"] = "Dunegorger Kraulok",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 14888,
+								["g_amt"] = 0,
+								["n_max"] = 4362,
+								["targets"] = {
+									["Ewus-Arathor"] = 101098,
+									["Mirror Image <Ewus-Arathor>"] = 6732,
+									["Bartah-TwistingNether"] = 2434,
+								},
+								["n_dmg"] = 95376,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 29,
+								["total"] = 110264,
+								["c_max"] = 8227,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 17829,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 4,
+								["n_amt"] = 27,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+							[275200] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 275200,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 2,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[275175] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 1810,
+								["targets"] = {
+									["Luminaxia"] = 1810,
+									["Baldera-Kazzak"] = 1503,
+									["Noyx-ChamberofAspects"] = 1673,
+									["Naltuk"] = 49,
+								},
+								["n_dmg"] = 5035,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 4,
+								["total"] = 5035,
+								["c_max"] = 0,
+								["id"] = 275175,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 3,
+								["a_amt"] = 0,
+								["n_amt"] = 4,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[275184] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 1774,
+								["targets"] = {
+									["Ewus-Arathor"] = 1068,
+									["Lärive-Ragnaros"] = 1486,
+									["Baldera-Kazzak"] = 1361,
+									["Luminaxia"] = 1774,
+									["Bartah-TwistingNether"] = 781,
+									["Noyx-ChamberofAspects"] = 3290,
+								},
+								["n_dmg"] = 9760,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 7,
+								["total"] = 9760,
+								["c_max"] = 0,
+								["id"] = 275184,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 7,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[276046] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 276046,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 2,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+					},
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["serial"] = "Vehicle-0-3102-1642-38-138794-00004DB643",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1649260236,
+					["delay"] = 0,
+					["damage_taken"] = 511328.019384,
+				}, -- [1]
+				{
+					["flag_original"] = 1297,
+					["totalabsorbed"] = 0.011067,
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Luminaxia"] = true,
+						["Ravenous Ranishu"] = true,
+						["[*] Shadow Word: Death"] = true,
+						["Dunegorger Kraulok"] = true,
+					},
+					["targets"] = {
+						["Dunegorger Kraulok"] = 18500,
 					},
 					["pets"] = {
 					},
 					["classe"] = "PRIEST",
-					["total"] = 1568059.008633,
-					["aID"] = "1301-0B0D29D2",
+					["fight_component"] = true,
+					["friendlyfire_total"] = 3436,
 					["raid_targets"] = {
 					},
-					["total_without_pet"] = 1568059.008633,
-					["damage_taken"] = 72.008633,
-					["delay"] = 0,
+					["total_without_pet"] = 18500.011067,
+					["end_time"] = 1649260303,
+					["friendlyfire"] = {
+						["Luminaxia"] = {
+							["spells"] = {
+								[186439] = 3436,
+							},
+							["total"] = 3436,
+						},
+					},
 					["dps_started"] = false,
-					["end_time"] = 1624967662,
-					["friendlyfire_total"] = 0,
-					["last_dps"] = 0,
+					["total"] = 18500.011067,
+					["aID"] = "1301-0B0D29D2",
+					["last_event"] = 0,
 					["nome"] = "Luminaxia",
 					["spec"] = 258,
 					["grupo"] = true,
-					["tipo"] = 1,
-					["on_hold"] = false,
-					["boss_fight_component"] = true,
-					["custom"] = 0,
-					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
-					["start_time"] = 1624967623,
-					["serial"] = "Player-1301-0B0D29D2",
 					["spells"] = {
+						["tipo"] = 2,
 						["_ActorTable"] = {
-							{
+							[259756] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["c_dmg"] = 0,
 								["g_amt"] = 0,
-								["n_max"] = 0,
+								["n_max"] = 59,
 								["targets"] = {
-									["Yogg-Saron"] = 0,
+									["Dunegorger Kraulok"] = 194,
 								},
-								["n_dmg"] = 0,
+								["n_dmg"] = 194,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 1,
-								["total"] = 0,
+								["counter"] = 20,
+								["total"] = 194,
 								["c_max"] = 0,
-								["id"] = 1,
+								["id"] = 259756,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["extra"] = {
+								},
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
-								["n_amt"] = 0,
-								["extra"] = {
-								},
-								["IMMUNE"] = 1,
-							}, -- [1]
-							[8092] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 255663,
-								["targets"] = {
-									["Guardian of Yogg-Saron <Ominous Cloud>"] = 504604,
-									["Brain of Yogg-Saron"] = 219437,
-								},
-								["n_dmg"] = 724041,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 3,
-								["total"] = 724041,
-								["c_max"] = 0,
-								["id"] = 8092,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["n_amt"] = 20,
 								["b_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 3,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["r_amt"] = 0,
 							},
 							[589] = {
-								["c_amt"] = 0,
+								["c_amt"] = 3,
 								["b_amt"] = 0,
-								["c_dmg"] = 0,
+								["c_dmg"] = 471,
 								["g_amt"] = 0,
-								["n_max"] = 32915,
+								["n_max"] = 111,
 								["targets"] = {
-									["Yogg-Saron"] = 56351,
-									["Corruptor Tentacle"] = 32915,
-									["Constrictor Tentacle"] = 31641,
-									["Brain of Yogg-Saron"] = 56558,
-									["Crusher Tentacle"] = 56887,
+									["Dunegorger Kraulok"] = 2357,
 								},
-								["n_dmg"] = 234352,
+								["n_dmg"] = 1886,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 8,
-								["total"] = 234352,
-								["c_max"] = 0,
+								["counter"] = 27,
+								["total"] = 2357,
+								["c_max"] = 162,
 								["id"] = 589,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
-								["n_amt"] = 8,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["n_amt"] = 24,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							},
-							[49821] = {
-								["c_amt"] = 1,
+							[263165] = {
+								["c_amt"] = 2,
 								["b_amt"] = 0,
-								["c_dmg"] = 50271,
+								["c_dmg"] = 1516,
 								["g_amt"] = 0,
-								["n_max"] = 25380,
+								["n_max"] = 522,
 								["targets"] = {
-									["Deathsworn Zealot"] = 248683,
+									["Dunegorger Kraulok"] = 3604,
 								},
-								["n_dmg"] = 198412,
+								["n_dmg"] = 2088,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 9,
-								["total"] = 248683,
-								["c_max"] = 50271,
-								["id"] = 49821,
+								["counter"] = 6,
+								["total"] = 3604,
+								["c_max"] = 1044,
+								["id"] = 263165,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 8,
-								["a_dmg"] = 0,
 								["extra"] = {
 								},
-							},
-							[32379] = {
-								["c_amt"] = 1,
-								["b_amt"] = 0,
-								["c_dmg"] = 360983,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Yogg-Saron"] = 360983,
-								},
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 1,
-								["total"] = 360983,
-								["c_max"] = 360983,
-								["id"] = 32379,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 0,
 								["a_dmg"] = 0,
-								["extra"] = {
-								},
-							},
-						},
-						["tipo"] = 2,
-					},
-				}, -- [1]
-				{
-					["flag_original"] = 2632,
-					["totalabsorbed"] = 0.011525,
-					["damage_from"] = {
-					},
-					["targets"] = {
-						["Sara"] = 34700,
-						["Luminaxia"] = 4,
-					},
-					["delay"] = 0,
-					["pets"] = {
-						"Guardian of Yogg-Saron <Ominous Cloud>", -- [1]
-					},
-					["dps_started"] = false,
-					["damage_taken"] = 0.011525,
-					["aID"] = "33292",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 0.011525,
-					["total"] = 34704.011525,
-					["monster"] = true,
-					["end_time"] = 1624967662,
-					["last_dps"] = 0,
-					["tipo"] = 1,
-					["boss_fight_component"] = true,
-					["spells"] = {
-						["_ActorTable"] = {
-						},
-						["tipo"] = 2,
-					},
-					["nome"] = "Ominous Cloud",
-					["friendlyfire_total"] = 0,
-					["classe"] = "UNKNOW",
-					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1624967658,
-					["serial"] = "Creature-0-4240-603-20786-33292-0002DB0970",
-					["friendlyfire"] = {
-					},
-				}, -- [2]
-				{
-					["flag_original"] = 68168,
-					["totalabsorbed"] = 0.010154,
-					["monster"] = true,
-					["damage_from"] = {
-						["Luminaxia"] = true,
-					},
-					["targets"] = {
-						["Sara"] = 34700,
-						["Luminaxia"] = 4,
-					},
-					["pets"] = {
-					},
-					["total"] = 34704.010154,
-					["friendlyfire"] = {
-					},
-					["friendlyfire_total"] = 0,
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 34704.010154,
-					["last_dps"] = 0,
-					["delay"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1624967662,
-					["classe"] = "UNKNOW",
-					["ownerName"] = "Ominous Cloud",
-					["nome"] = "Guardian of Yogg-Saron <Ominous Cloud>",
-					["spells"] = {
-						["_ActorTable"] = {
-							{
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 4,
-								["targets"] = {
-									["Luminaxia"] = 4,
-								},
-								["n_dmg"] = 4,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 1,
-								["total"] = 4,
-								["c_max"] = 0,
-								["id"] = 1,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 1,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
-							}, -- [1]
-							[65719] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 17350,
-								["targets"] = {
-									["Sara"] = 34700,
-								},
-								["n_dmg"] = 34700,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 2,
-								["total"] = 34700,
-								["c_max"] = 0,
-								["id"] = 65719,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 1,
-								["a_amt"] = 0,
-								["n_amt"] = 2,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
-							},
-							[65209] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Luminaxia"] = 0,
-								},
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 1,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 65209,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 1,
-								["a_amt"] = 0,
-								["n_amt"] = 0,
-								["extra"] = {
-								},
-								["MISS"] = 1,
-							},
-						},
-						["tipo"] = 2,
-					},
-					["damage_taken"] = 504604.010154,
-					["last_event"] = 0,
-					["boss_fight_component"] = true,
-					["custom"] = 0,
-					["tipo"] = 1,
-					["on_hold"] = false,
-					["start_time"] = 1624967658,
-					["serial"] = "Creature-0-4240-603-20786-33136-00005B099B",
-					["aID"] = "33136",
-				}, -- [3]
-				{
-					["flag_original"] = 2584,
-					["totalabsorbed"] = 0.010764,
-					["damage_from"] = {
-						["Guardian of Yogg-Saron <Ominous Cloud>"] = true,
-					},
-					["targets"] = {
-						["Luminaxia"] = 50,
-					},
-					["pets"] = {
-					},
-					["last_dps"] = 0,
-					["friendlyfire"] = {
-					},
-					["aID"] = "33134",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 50.010764,
-					["delay"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1624967662,
-					["nome"] = "Sara",
-					["damage_taken"] = 34700.01076400001,
-					["boss_fight_component"] = true,
-					["spells"] = {
-						["_ActorTable"] = {
-							[64775] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-								},
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 64775,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 1,
-								["a_amt"] = 0,
-								["n_amt"] = 0,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
-							},
-							[65301] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 2,
-								["targets"] = {
-									["Luminaxia"] = 10,
-								},
-								["n_dmg"] = 10,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 9,
-								["total"] = 10,
-								["c_max"] = 0,
-								["id"] = 65301,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 10,
-								["a_amt"] = 0,
-								["n_amt"] = 9,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
-							},
-							[63134] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 3,
-								["targets"] = {
-									["Luminaxia"] = 40,
-								},
-								["n_dmg"] = 40,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 17,
-								["total"] = 40,
-								["c_max"] = 0,
-								["id"] = 63134,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 17,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
-							},
-						},
-						["tipo"] = 2,
-					},
-					["tipo"] = 1,
-					["friendlyfire_total"] = 0,
-					["total"] = 50.010764,
-					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1624967609,
-					["serial"] = "Creature-0-4240-603-20786-33134-00005B0970",
-					["classe"] = "UNKNOW",
-				}, -- [4]
-				{
-					["flag_original"] = 2632,
-					["totalabsorbed"] = 0.012395,
-					["damage_from"] = {
-						["Luminaxia"] = true,
-					},
-					["targets"] = {
-						["Luminaxia"] = 5,
-					},
-					["pets"] = {
-					},
-					["boss"] = true,
-					["delay"] = 0,
-					["classe"] = "UNKNOW",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 5.012395,
-					["total"] = 5.012395,
-					["last_dps"] = 0,
-					["monster"] = true,
-					["end_time"] = 1624967662,
-					["friendlyfire_total"] = 0,
-					["aID"] = "",
-					["nome"] = "Yogg-Saron",
-					["spells"] = {
-						["_ActorTable"] = {
-							[64163] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-								},
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 64163,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 1,
-								["a_amt"] = 0,
-								["n_amt"] = 0,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
-							},
-							[64465] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-								},
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 64465,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 1,
-								["a_amt"] = 0,
-								["n_amt"] = 0,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
-							},
-							[63894] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-								},
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 63894,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 1,
-								["a_amt"] = 0,
-								["n_amt"] = 0,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
-							},
-							[64164] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 2,
-								["targets"] = {
-									["Luminaxia"] = 5,
-								},
-								["n_dmg"] = 5,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 4,
-								["total"] = 5,
-								["c_max"] = 0,
-								["id"] = 64164,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 4,
-								["a_dmg"] = 0,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[15407] = {
+								["c_amt"] = 4,
+								["b_amt"] = 0,
+								["c_dmg"] = 987,
+								["g_amt"] = 0,
+								["n_max"] = 127,
+								["targets"] = {
+									["Dunegorger Kraulok"] = 3256,
+								},
+								["n_dmg"] = 2269,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 22,
+								["total"] = 3256,
+								["c_max"] = 254,
+								["id"] = 15407,
+								["r_dmg"] = 0,
 								["extra"] = {
 								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 18,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[32379] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 452,
+								["targets"] = {
+									["Dunegorger Kraulok"] = 452,
+								},
+								["n_dmg"] = 452,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 452,
+								["c_max"] = 0,
+								["id"] = 32379,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 1,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[335467] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 460,
+								["g_amt"] = 0,
+								["n_max"] = 277,
+								["targets"] = {
+									["Dunegorger Kraulok"] = 3332,
+								},
+								["n_dmg"] = 2872,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 15,
+								["total"] = 3332,
+								["c_max"] = 460,
+								["id"] = 335467,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 14,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[8092] = {
+								["c_amt"] = 3,
+								["b_amt"] = 0,
+								["c_dmg"] = 3399,
+								["g_amt"] = 0,
+								["n_max"] = 589,
+								["targets"] = {
+									["Dunegorger Kraulok"] = 5142,
+								},
+								["n_dmg"] = 1743,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 6,
+								["total"] = 5142,
+								["c_max"] = 1192,
+								["id"] = 8092,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 3,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[34914] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 163,
+								["targets"] = {
+									["Dunegorger Kraulok"] = 163,
+								},
+								["n_dmg"] = 163,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 163,
+								["c_max"] = 0,
+								["id"] = 34914,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 1,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							},
 						},
-						["tipo"] = 2,
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 417334.012395,
-					["tipo"] = 1,
-					["boss_fight_component"] = true,
+					["serial"] = "Player-1301-0B0D29D2",
 					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1624967654,
-					["serial"] = "Vehicle-0-4240-603-20786-33288-00005B09C8",
-					["friendlyfire"] = {
-					},
-				}, -- [5]
+					["tipo"] = 1,
+					["damage_taken"] = 20997.011067,
+					["start_time"] = 1649260236,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [2]
 				{
-					["flag_original"] = 2632,
-					["totalabsorbed"] = 0.01067,
+					["flag_original"] = 8776,
+					["totalabsorbed"] = 17541.00806,
+					["aID"] = "139614",
 					["damage_from"] = {
-						["Luminaxia"] = true,
+						["Ewus-Arathor"] = true,
+						["Lärive-Ragnaros"] = true,
+						["Mugins-Silvermoon"] = true,
+						["Baldera-Kazzak"] = true,
+						["Infernal <Baldera-Kazzak>"] = true,
+						["Naltuk"] = true,
+						["Stjernemageb-TwistingNether"] = true,
+						["Noyx-ChamberofAspects"] = true,
 					},
 					["targets"] = {
+						["Ewus-Arathor"] = 10891,
+						["Spirit Wolf <Noyx-ChamberofAspects>"] = 1667,
+						["Luminaxia"] = 13526,
+						["Greeshon"] = 33,
+						["Mugins-Silvermoon"] = 11508,
+						["Baldera-Kazzak"] = 833,
+						["Lärive-Ragnaros"] = 870,
+						["Infernal <Baldera-Kazzak>"] = 1214,
+						["Noyx-ChamberofAspects"] = 10923,
 					},
-					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 32915.01067,
-					["aID"] = "33985",
+					["fight_component"] = true,
+					["classe"] = "PET",
 					["raid_targets"] = {
 					},
-					["total_without_pet"] = 0.01067,
-					["total"] = 0.01067,
-					["monster"] = true,
-					["end_time"] = 1624967662,
-					["last_dps"] = 0,
-					["tipo"] = 1,
-					["boss_fight_component"] = true,
+					["total_without_pet"] = 51465.00806,
+					["last_event"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1649260370,
+					["on_hold"] = false,
+					["friendlyfire_total"] = 0,
+					["nome"] = "Ravenous Ranishu",
 					["spells"] = {
+						["tipo"] = 2,
 						["_ActorTable"] = {
-							[64156] = {
+							{
+								["c_amt"] = 4,
+								["b_amt"] = 0,
+								["c_dmg"] = 2282,
+								["g_amt"] = 0,
+								["n_max"] = 401,
+								["targets"] = {
+									["Ewus-Arathor"] = 4830,
+									["Lärive-Ragnaros"] = 870,
+									["Noyx-ChamberofAspects"] = 3797,
+									["Baldera-Kazzak"] = 289,
+									["Luminaxia"] = 5095,
+									["Mugins-Silvermoon"] = 3491,
+									["Infernal <Baldera-Kazzak>"] = 107,
+									["Infernal"] = 0,
+								},
+								["n_dmg"] = 16197,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 83,
+								["total"] = 18479,
+								["c_max"] = 731,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["DODGE"] = 4,
+								["MISS"] = 14,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 61,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+							[275996] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["c_dmg"] = 0,
 								["g_amt"] = 0,
-								["n_max"] = 0,
+								["n_max"] = 195,
 								["targets"] = {
-									["Luminaxia"] = 0,
+									["Infernal <Baldera-Kazzak>"] = 1093,
+									["Mugins-Silvermoon"] = 6869,
+									["Ewus-Arathor"] = 3923,
+									["Luminaxia"] = 5416,
+									["Greeshon"] = 0,
+									["Spirit Wolf <Noyx-ChamberofAspects>"] = 1640,
+									["Noyx-ChamberofAspects"] = 3876,
 								},
-								["n_dmg"] = 0,
+								["n_dmg"] = 22817,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 1,
-								["total"] = 0,
+								["counter"] = 140,
+								["total"] = 22817,
 								["c_max"] = 0,
-								["id"] = 64156,
+								["id"] = 275996,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 1,
-								["a_amt"] = 0,
-								["n_amt"] = 0,
+								["MISS"] = 3,
 								["extra"] = {
 								},
-								["MISS"] = 1,
-							},
-							[64153] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Luminaxia"] = 0,
-								},
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 1,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 64153,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
-								["successful_casted"] = 1,
+								["successful_casted"] = 22,
 								["a_amt"] = 0,
-								["n_amt"] = 0,
-								["extra"] = {
-								},
-								["MISS"] = 1,
-							},
-							[64152] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Luminaxia"] = 0,
-								},
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 1,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 64152,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["n_amt"] = 137,
 								["b_dmg"] = 0,
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 1,
-								["a_amt"] = 0,
-								["n_amt"] = 0,
-								["extra"] = {
-								},
-								["MISS"] = 1,
+								["r_amt"] = 0,
 							},
-							[64144] = {
+							[276000] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["c_dmg"] = 0,
@@ -3032,601 +2811,315 @@ _detalhes_database = {
 								["counter"] = 0,
 								["total"] = 0,
 								["c_max"] = 0,
-								["id"] = 64144,
+								["id"] = 276000,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 1,
-								["a_amt"] = 0,
-								["n_amt"] = 0,
-								["a_dmg"] = 0,
 								["extra"] = {
 								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 15,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[276036] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 650,
+								["targets"] = {
+									["Infernal <Baldera-Kazzak>"] = 14,
+									["Spirit Wolf <Noyx-ChamberofAspects>"] = 27,
+									["Luminaxia"] = 3015,
+									["Greeshon"] = 33,
+									["Infernal"] = 0,
+									["Mugins-Silvermoon"] = 1148,
+									["Baldera-Kazzak"] = 544,
+									["Ewus-Arathor"] = 2138,
+									["Noyx-ChamberofAspects"] = 3250,
+								},
+								["n_dmg"] = 10169,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 28,
+								["total"] = 10169,
+								["c_max"] = 0,
+								["id"] = 276036,
+								["r_dmg"] = 0,
+								["MISS"] = 7,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 19,
+								["a_amt"] = 0,
+								["n_amt"] = 21,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							},
 						},
-						["tipo"] = 2,
 					},
-					["nome"] = "Corruptor Tentacle",
-					["friendlyfire_total"] = 0,
-					["classe"] = "UNKNOW",
-					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1624967659,
-					["serial"] = "Creature-0-4240-603-20786-33985-00005B09C8",
 					["friendlyfire"] = {
 					},
-				}, -- [6]
+					["total"] = 51465.00806,
+					["serial"] = "Creature-0-3102-1642-38-139614-00004DB711",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 137863.00806,
+					["start_time"] = 1649260307,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [3]
 				{
 					["flag_original"] = 2632,
-					["totalabsorbed"] = 0.013913,
+					["totalabsorbed"] = 0.007396,
 					["damage_from"] = {
-						["Luminaxia"] = true,
 					},
 					["targets"] = {
-					},
-					["delay"] = 0,
-					["pets"] = {
+						["Luminaxia"] = 451,
 					},
 					["dps_started"] = false,
-					["damage_taken"] = 56887.013913,
-					["aID"] = "33966",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 0.013913,
-					["total"] = 0.013913,
-					["monster"] = true,
-					["end_time"] = 1624967662,
-					["last_dps"] = 0,
-					["tipo"] = 1,
-					["boss_fight_component"] = true,
-					["spells"] = {
-						["_ActorTable"] = {
-							[57688] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-								},
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 57688,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 1,
-								["a_amt"] = 0,
-								["n_amt"] = 0,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
-							},
-							[64144] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-								},
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 64144,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 1,
-								["a_amt"] = 0,
-								["n_amt"] = 0,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
-							},
-						},
-						["tipo"] = 2,
-					},
-					["nome"] = "Crusher Tentacle",
-					["friendlyfire_total"] = 0,
-					["classe"] = "UNKNOW",
-					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1624967659,
-					["serial"] = "Creature-0-4240-603-20786-33966-00005B09C8",
-					["friendlyfire"] = {
-					},
-				}, -- [7]
-				{
-					["flag_original"] = 2632,
-					["totalabsorbed"] = 0.005677000000000001,
-					["damage_from"] = {
-						["Luminaxia"] = true,
-					},
-					["targets"] = {
-					},
-					["delay"] = 0,
 					["pets"] = {
 					},
-					["total"] = 0.005677000000000001,
-					["damage_taken"] = 31641.005677,
+					["last_event"] = 0,
 					["aID"] = "",
 					["raid_targets"] = {
 					},
-					["total_without_pet"] = 0.005677000000000001,
-					["classe"] = "UNKNOW",
-					["dps_started"] = false,
-					["end_time"] = 1624967662,
-					["last_dps"] = 0,
-					["tipo"] = 1,
-					["boss_fight_component"] = true,
-					["spells"] = {
-						["_ActorTable"] = {
-							[64144] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-								},
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 64144,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 1,
-								["a_amt"] = 0,
-								["n_amt"] = 0,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
-							},
-						},
-						["tipo"] = 2,
-					},
-					["nome"] = "Constrictor Tentacle",
-					["friendlyfire_total"] = 0,
-					["friendlyfire"] = {
-					},
-					["custom"] = 0,
-					["last_event"] = 0,
+					["total_without_pet"] = 451.007396,
 					["on_hold"] = false,
-					["start_time"] = 1624967659,
-					["serial"] = "Vehicle-0-4240-603-20786-33983-00005B09C8",
+					["end_time"] = 1649260370,
 					["monster"] = true,
-				}, -- [8]
-				{
-					["flag_original"] = 2632,
-					["totalabsorbed"] = 0.00719,
-					["damage_from"] = {
-					},
-					["targets"] = {
-						["Luminaxia"] = 1,
-					},
-					["delay"] = 0,
-					["pets"] = {
-					},
-					["dps_started"] = false,
-					["damage_taken"] = 0.00719,
-					["aID"] = "33990",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 1.00719,
-					["total"] = 1.00719,
-					["monster"] = true,
-					["end_time"] = 1624967662,
-					["last_dps"] = 0,
-					["tipo"] = 1,
-					["boss_fight_component"] = true,
+					["total"] = 451.007396,
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["nome"] = "[*] Shadow Word: Death",
 					["spells"] = {
+						["tipo"] = 2,
 						["_ActorTable"] = {
-							[64167] = {
+							[32409] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["c_dmg"] = 0,
 								["g_amt"] = 0,
-								["n_max"] = 0,
+								["n_max"] = 451,
 								["targets"] = {
+									["Luminaxia"] = 451,
 								},
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 64167,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 4,
-								["a_amt"] = 0,
-								["n_amt"] = 0,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
-							},
-							[64168] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 1,
-								["targets"] = {
-									["Luminaxia"] = 1,
-								},
-								["n_dmg"] = 1,
+								["n_dmg"] = 451,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
 								["counter"] = 1,
-								["total"] = 1,
+								["total"] = 451,
 								["c_max"] = 0,
-								["id"] = 64168,
+								["id"] = 32409,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 1,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							},
 						},
-						["tipo"] = 2,
 					},
-					["nome"] = "Laughing Skull",
+					["friendlyfire"] = {
+					},
 					["friendlyfire_total"] = 0,
-					["classe"] = "UNKNOW",
+					["serial"] = "",
 					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1624967658,
-					["serial"] = "Creature-0-4240-603-20786-33990-00005B09D3",
-					["friendlyfire"] = {
-					},
-				}, -- [9]
-				{
-					["flag_original"] = 2600,
-					["totalabsorbed"] = 0.015018,
-					["damage_from"] = {
-						["Luminaxia"] = true,
-					},
-					["targets"] = {
-					},
-					["pets"] = {
-					},
-					["last_dps"] = 0,
-					["friendlyfire"] = {
-					},
-					["aID"] = "33567",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 0.015018,
-					["delay"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1624967662,
-					["nome"] = "Deathsworn Zealot",
-					["damage_taken"] = 248683.015018,
-					["boss_fight_component"] = true,
-					["spells"] = {
-						["_ActorTable"] = {
-						},
-						["tipo"] = 2,
-					},
 					["tipo"] = 1,
-					["friendlyfire_total"] = 0,
-					["total"] = 0.015018,
-					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1624967659,
-					["serial"] = "Creature-0-4240-603-20786-33567-0001DB09D3",
-					["classe"] = "UNKNOW",
-				}, -- [10]
-				{
-					["flag_original"] = 2632,
-					["totalabsorbed"] = 0.01513,
-					["damage_from"] = {
-						["Luminaxia"] = true,
-					},
-					["targets"] = {
-					},
-					["delay"] = 0,
-					["pets"] = {
-					},
-					["dps_started"] = false,
-					["damage_taken"] = 275995.01513,
-					["aID"] = "33890",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 0.01513,
-					["total"] = 0.01513,
-					["monster"] = true,
-					["end_time"] = 1624967662,
 					["last_dps"] = 0,
-					["tipo"] = 1,
-					["boss_fight_component"] = true,
-					["spells"] = {
-						["_ActorTable"] = {
-							[64173] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-								},
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 64173,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 1,
-								["a_amt"] = 0,
-								["n_amt"] = 0,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
-							},
-						},
-						["tipo"] = 2,
-					},
-					["nome"] = "Brain of Yogg-Saron",
-					["friendlyfire_total"] = 0,
-					["classe"] = "UNKNOW",
-					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1624967659,
-					["serial"] = "Creature-0-4240-603-20786-33890-00005B0970",
-					["friendlyfire"] = {
-					},
-				}, -- [11]
-				{
-					["flag_original"] = 2632,
-					["totalabsorbed"] = 0.009729,
-					["damage_from"] = {
-					},
-					["targets"] = {
-						["Luminaxia"] = 12,
-					},
+					["start_time"] = 1649260366,
 					["delay"] = 0,
-					["pets"] = {
-					},
-					["dps_started"] = false,
-					["damage_taken"] = 0.009729,
-					["aID"] = "33988",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 12.009729,
-					["total"] = 12.009729,
-					["monster"] = true,
-					["end_time"] = 1624967662,
-					["last_dps"] = 0,
-					["tipo"] = 1,
-					["boss_fight_component"] = true,
-					["spells"] = {
-						["_ActorTable"] = {
-							{
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 12,
-								["targets"] = {
-									["Luminaxia"] = 12,
-								},
-								["n_dmg"] = 12,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 1,
-								["total"] = 12,
-								["c_max"] = 0,
-								["id"] = 1,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 1,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
-							}, -- [1]
-						},
-						["tipo"] = 2,
-					},
-					["nome"] = "Immortal Guardian",
-					["friendlyfire_total"] = 0,
-					["classe"] = "UNKNOW",
-					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1624967659,
-					["serial"] = "Creature-0-4240-603-20786-33988-00005B09E9",
-					["friendlyfire"] = {
-					},
-				}, -- [12]
+					["damage_taken"] = 0.007396,
+				}, -- [4]
 			},
 		}, -- [1]
 		{
 			["tipo"] = 3,
 			["_ActorTable"] = {
 				{
-					["flag_original"] = 2584,
-					["totalabsorb"] = 0.010155,
-					["last_hps"] = 0,
-					["targets_overheal"] = {
-						["Luminaxia"] = 0,
-					},
-					["targets"] = {
-						["Luminaxia"] = 0,
-					},
-					["aID"] = "33134",
-					["pets"] = {
-					},
-					["totalover_without_pet"] = 0.010155,
-					["healing_from"] = {
-					},
-					["classe"] = "UNKNOW",
-					["totalover"] = 3283.010155,
-					["total_without_pet"] = 21.010155,
-					["iniciar_hps"] = false,
-					["totaldenied"] = 0.010155,
-					["heal_enemy_amt"] = 0,
-					["end_time"] = 1624967662,
-					["nome"] = "Sara",
-					["healing_taken"] = 0.010155,
-					["boss_fight_component"] = true,
-					["spells"] = {
-						["_ActorTable"] = {
-							[63134] = {
-								["c_amt"] = 0,
-								["totalabsorb"] = 0,
-								["targets_overheal"] = {
-									["Luminaxia"] = 3283,
-								},
-								["n_max"] = 21,
-								["targets"] = {
-									["Luminaxia"] = 21,
-								},
-								["n_min"] = 0,
-								["counter"] = 1,
-								["overheal"] = 3283,
-								["total"] = 21,
-								["c_max"] = 0,
-								["id"] = 63134,
-								["targets_absorbs"] = {
-								},
-								["c_min"] = 0,
-								["c_curado"] = 0,
-								["n_amt"] = 1,
-								["n_curado"] = 21,
-								["totaldenied"] = 0,
-								["absorbed"] = 0,
-							},
-						},
-						["tipo"] = 3,
-					},
-					["total"] = 21.010155,
-					["tipo"] = 2,
-					["heal_enemy"] = {
-					},
-					["targets_absorbs"] = {
-					},
-					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1624967658,
-					["serial"] = "Creature-0-4240-603-20786-33134-00005B0970",
-					["delay"] = 0,
-				}, -- [1]
-				{
 					["flag_original"] = 1297,
 					["targets_overheal"] = {
+						["Luminaxia"] = 415,
 					},
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
-					["totalover"] = 0.014901,
-					["total_without_pet"] = 0.014901,
-					["total"] = 0.014901,
+					["aID"] = "1301-0B0D29D2",
+					["totalover"] = 415.01118,
+					["total_without_pet"] = 20295.01118,
+					["total"] = 20295.01118,
 					["targets_absorbs"] = {
 					},
 					["heal_enemy"] = {
 					},
 					["on_hold"] = false,
 					["serial"] = "Player-1301-0B0D29D2",
-					["totalabsorb"] = 0.014901,
+					["totalabsorb"] = 0.01118,
 					["last_hps"] = 0,
 					["targets"] = {
+						["Luminaxia"] = 20295,
 					},
-					["totalover_without_pet"] = 0.014901,
-					["healing_taken"] = 21.014901,
-					["aID"] = "1301-0B0D29D2",
-					["end_time"] = 1624967662,
-					["tipo"] = 2,
+					["totalover_without_pet"] = 0.01118,
+					["healing_taken"] = 20295.01118,
+					["fight_component"] = true,
+					["end_time"] = 1649260370,
+					["start_time"] = 1649260315,
 					["healing_from"] = {
-						["Sara"] = true,
+						["Luminaxia"] = true,
 					},
 					["nome"] = "Luminaxia",
 					["spells"] = {
-						["_ActorTable"] = {
-						},
 						["tipo"] = 3,
+						["_ActorTable"] = {
+							[335467] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 229,
+								["targets"] = {
+									["Luminaxia"] = 1660,
+								},
+								["n_min"] = 0,
+								["counter"] = 15,
+								["overheal"] = 0,
+								["total"] = 1660,
+								["c_max"] = 0,
+								["id"] = 335467,
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["c_curado"] = 0,
+								["n_curado"] = 1660,
+								["totaldenied"] = 0,
+								["n_amt"] = 15,
+								["absorbed"] = 0,
+							},
+							[186263] = {
+								["c_amt"] = 3,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Luminaxia"] = 415,
+								},
+								["n_max"] = 1725,
+								["targets"] = {
+									["Luminaxia"] = 18382,
+								},
+								["n_min"] = 0,
+								["counter"] = 8,
+								["overheal"] = 415,
+								["total"] = 18382,
+								["c_max"] = 3461,
+								["id"] = 186263,
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["c_curado"] = 10252,
+								["n_curado"] = 8130,
+								["totaldenied"] = 0,
+								["n_amt"] = 5,
+								["absorbed"] = 0,
+							},
+							[34914] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 81,
+								["targets"] = {
+									["Luminaxia"] = 81,
+								},
+								["n_min"] = 0,
+								["counter"] = 1,
+								["overheal"] = 0,
+								["total"] = 81,
+								["c_max"] = 0,
+								["id"] = 34914,
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["c_curado"] = 0,
+								["n_curado"] = 81,
+								["totaldenied"] = 0,
+								["n_amt"] = 1,
+								["absorbed"] = 0,
+							},
+							[259760] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 87,
+								["targets"] = {
+									["Luminaxia"] = 172,
+								},
+								["n_min"] = 0,
+								["counter"] = 2,
+								["overheal"] = 0,
+								["total"] = 172,
+								["c_max"] = 0,
+								["id"] = 259760,
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["c_curado"] = 0,
+								["n_curado"] = 172,
+								["totaldenied"] = 0,
+								["n_amt"] = 2,
+								["absorbed"] = 0,
+							},
+						},
 					},
 					["grupo"] = true,
-					["totaldenied"] = 0.014901,
-					["spec"] = 258,
-					["custom"] = 0,
-					["last_event"] = 0,
+					["heal_enemy_amt"] = 0,
 					["classe"] = "PRIEST",
-					["start_time"] = 1624967659,
+					["custom"] = 0,
+					["tipo"] = 2,
+					["spec"] = 258,
+					["totaldenied"] = 0.01118,
 					["delay"] = 0,
-					["boss_fight_component"] = true,
-				}, -- [2]
+					["last_event"] = 0,
+				}, -- [1]
 			},
 		}, -- [2]
 		{
 			["tipo"] = 7,
 			["_ActorTable"] = {
 				{
-					["received"] = 0.014325,
-					["resource"] = 96.42245971118163,
+					["received"] = 0.013772,
+					["resource"] = 212.813766468689,
 					["targets"] = {
 					},
 					["pets"] = {
 					},
 					["powertype"] = 0,
 					["classe"] = "PRIEST",
-					["passiveover"] = 0.006188,
+					["passiveover"] = 0.006977,
 					["resource_type"] = 13,
-					["aID"] = "1301-0B0D29D2",
-					["totalover"] = 0.006188,
-					["boss_fight_component"] = true,
+					["fight_component"] = true,
+					["total"] = 0.013772,
+					["tipo"] = 3,
+					["totalover"] = 0.006977,
+					["nome"] = "Luminaxia",
 					["spells"] = {
+						["tipo"] = 7,
 						["_ActorTable"] = {
 						},
-						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["last_event"] = 0,
-					["alternatepower"] = 0.014325,
-					["flag_original"] = 1297,
-					["tipo"] = 3,
 					["spec"] = 258,
-					["nome"] = "Luminaxia",
+					["flag_original"] = 1297,
+					["alternatepower"] = 0.013772,
+					["last_event"] = 0,
+					["aID"] = "1301-0B0D29D2",
 					["serial"] = "Player-1301-0B0D29D2",
-					["total"] = 0.014325,
 				}, -- [1]
 			},
 		}, -- [3]
@@ -3636,388 +3129,250 @@ _detalhes_database = {
 				{
 					["flag_original"] = 1047,
 					["debuff_uptime_spells"] = {
+						["tipo"] = 9,
 						["_ActorTable"] = {
-							[589] = {
-								["counter"] = 0,
-								["activedamt"] = 2,
-								["appliedamt"] = 3,
-								["id"] = 589,
-								["uptime"] = 11,
+							[187464] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 4,
+								["id"] = 187464,
+								["uptime"] = 17,
 								["targets"] = {
 								},
-								["refreshamt"] = 0,
-							},
-							[48045] = {
 								["counter"] = 0,
+							},
+							[34914] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 1,
+								["id"] = 34914,
+								["uptime"] = 5,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[263165] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 2,
+								["id"] = 263165,
+								["uptime"] = 4,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[589] = {
+								["refreshamt"] = 1,
 								["activedamt"] = 0,
 								["appliedamt"] = 3,
-								["id"] = 48045,
-								["uptime"] = 3,
+								["id"] = 589,
+								["uptime"] = 42,
 								["targets"] = {
 								},
+								["counter"] = 0,
+							},
+							[335467] = {
+								["refreshamt"] = 1,
+								["activedamt"] = 0,
+								["appliedamt"] = 3,
+								["id"] = 335467,
+								["uptime"] = 24,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[15407] = {
 								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 5,
+								["id"] = 15407,
+								["uptime"] = 16,
+								["targets"] = {
+								},
+								["counter"] = 0,
 							},
 						},
-						["tipo"] = 9,
 					},
-					["pets"] = {
-					},
-					["classe"] = "PRIEST",
+					["buff_uptime"] = 298,
+					["aID"] = "1301-0B0D29D2",
 					["buff_uptime_spells"] = {
+						["tipo"] = 9,
 						["_ActorTable"] = {
-							[63988] = {
-								["counter"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 63988,
-								["uptime"] = 21,
-								["targets"] = {
-								},
+							[256374] = {
 								["refreshamt"] = 0,
-							},
-							[122687] = {
-								["counter"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 122687,
-								["uptime"] = 20,
-								["targets"] = {
-								},
-								["refreshamt"] = 0,
-							},
-							[186403] = {
-								["counter"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 186403,
-								["uptime"] = 75,
-								["targets"] = {
-								},
-								["refreshamt"] = 0,
-							},
-							[45242] = {
-								["counter"] = 0,
 								["activedamt"] = 2,
 								["appliedamt"] = 2,
-								["id"] = 45242,
-								["uptime"] = 8,
+								["id"] = 256374,
+								["uptime"] = 16,
 								["targets"] = {
 								},
-								["refreshamt"] = 0,
-							},
-							[256374] = {
 								["counter"] = 0,
+							},
+							[97560] = {
+								["refreshamt"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
-								["id"] = 256374,
-								["uptime"] = 12,
+								["id"] = 97560,
+								["uptime"] = 4,
 								["targets"] = {
 								},
+								["counter"] = 0,
+							},
+							[122687] = {
 								["refreshamt"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 122687,
+								["uptime"] = 23,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[45242] = {
+								["refreshamt"] = 19,
+								["activedamt"] = 3,
+								["appliedamt"] = 3,
+								["id"] = 45242,
+								["uptime"] = 42,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[225788] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 225788,
+								["uptime"] = 68,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[263165] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 263165,
+								["uptime"] = 4,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[215294] = {
+								["refreshamt"] = 3,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 215294,
+								["uptime"] = 49,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[296863] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 296863,
+								["uptime"] = 4,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[232698] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 232698,
+								["uptime"] = 68,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[15407] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 5,
+								["appliedamt"] = 5,
+								["id"] = 15407,
+								["uptime"] = 16,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[289577] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 289577,
+								["uptime"] = 4,
+								["targets"] = {
+								},
+								["counter"] = 0,
 							},
 						},
-						["tipo"] = 9,
 					},
-					["debuff_uptime"] = 14,
-					["aID"] = "1301-0B0D29D2",
-					["debuff_uptime_targets"] = {
+					["fight_component"] = true,
+					["debuff_uptime"] = 108,
+					["buff_uptime_targets"] = {
 					},
 					["spec"] = 258,
 					["grupo"] = true,
 					["spell_cast"] = {
-						[8092] = 2,
+						[15407] = 5,
+						[335467] = 4,
+						[34914] = 1,
+						[8092] = 6,
 						[32379] = 1,
-						[589] = 5,
-						[48045] = 3,
-						[341263] = 3,
+						[186263] = 8,
+						[263165] = 2,
+						[341263] = 13,
+						[589] = 2,
+						[147193] = 2,
 					},
-					["buff_uptime_targets"] = {
+					["debuff_uptime_targets"] = {
 					},
-					["nome"] = "Luminaxia",
 					["last_event"] = 0,
-					["buff_uptime"] = 136,
 					["tipo"] = 4,
+					["nome"] = "Luminaxia",
+					["pets"] = {
+					},
 					["serial"] = "Player-1301-0B0D29D2",
-					["boss_fight_component"] = true,
+					["classe"] = "PRIEST",
 				}, -- [1]
 				{
-					["flag_original"] = 2584,
-					["aID"] = "33134",
-					["nome"] = "Sara",
+					["fight_component"] = true,
+					["last_event"] = 0,
+					["nome"] = "Ravenous Ranishu",
 					["pets"] = {
 					},
-					["tipo"] = 4,
-					["boss_fight_component"] = true,
-					["last_event"] = 0,
-					["classe"] = "UNKNOW",
-					["serial"] = "Creature-0-4240-603-20786-33134-00005B0970",
 					["spell_cast"] = {
-						[63134] = 1,
-						[63138] = 1,
-						[65301] = 10,
-						[64775] = 1,
+						[275996] = 22,
+						[276000] = 15,
+						[276036] = 19,
 					},
+					["flag_original"] = 8776,
+					["aID"] = "139614",
+					["classe"] = "PET",
+					["serial"] = "Creature-0-3102-1642-38-139614-00004DB711",
+					["tipo"] = 4,
 				}, -- [2]
 				{
-					["flag_original"] = 2584,
-					["debuff_uptime_spells"] = {
-						["_ActorTable"] = {
-						},
-						["tipo"] = 9,
-					},
-					["pets"] = {
-					},
-					["aID"] = "33134",
-					["boss_debuff"] = true,
-					["debuff_uptime"] = 22,
-					["spellschool"] = 32,
-					["nome"] = "Sara's Blessing",
-					["boss_fight_component"] = true,
-					["last_event"] = 0,
-					["serial"] = "Creature-0-4240-603-20786-33134-00005B0970",
-					["tipo"] = 4,
-					["damage_twin"] = "Sara",
-					["debuff_uptime_targets"] = {
-						["Luminaxia"] = {
-							["uptime"] = 22,
-							["refreshamt"] = 0,
-							["activedamt"] = -1,
-							["actived"] = false,
-							["appliedamt"] = 0,
-						},
-					},
-					["damage_spellid"] = 63134,
-					["classe"] = "UNKNOW",
-				}, -- [3]
-				{
-					["flag_original"] = 2584,
-					["debuff_uptime_spells"] = {
-						["_ActorTable"] = {
-						},
-						["tipo"] = 9,
-					},
-					["pets"] = {
-					},
-					["aID"] = "33134",
-					["boss_debuff"] = true,
-					["debuff_uptime"] = 20,
-					["spellschool"] = 32,
-					["nome"] = "Sara's Fervor",
-					["boss_fight_component"] = true,
-					["last_event"] = 0,
-					["serial"] = "Creature-0-4240-603-20786-33134-00005B0970",
-					["tipo"] = 4,
-					["damage_twin"] = "Sara",
-					["debuff_uptime_targets"] = {
-						["Luminaxia"] = {
-							["uptime"] = 20,
-							["refreshamt"] = 0,
-							["activedamt"] = -1,
-							["actived"] = false,
-							["appliedamt"] = 0,
-						},
-					},
-					["damage_spellid"] = 63138,
-					["classe"] = "UNKNOW",
-				}, -- [4]
-				{
 					["monster"] = true,
-					["aID"] = "33292",
-					["nome"] = "Ominous Cloud",
-					["pets"] = {
-						"Guardian of Yogg-Saron <Ominous Cloud>", -- [1]
-					},
-					["tipo"] = 4,
-					["boss_fight_component"] = true,
 					["classe"] = "UNKNOW",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-4240-603-20786-33292-0002DB0970",
-					["flag_original"] = 2632,
-				}, -- [5]
-				{
+					["spell_cast"] = {
+						[275200] = 2,
+						[275175] = 3,
+						[276046] = 2,
+					},
+					["nome"] = "Dunegorger Kraulok",
+					["pets"] = {
+					},
+					["fight_component"] = true,
 					["flag_original"] = 68168,
-					["last_event"] = 0,
-					["ownerName"] = "Ominous Cloud",
-					["boss_fight_component"] = true,
-					["monster"] = true,
-					["spell_cast"] = {
-						[65209] = 1,
-						[65719] = 1,
-					},
-					["pets"] = {
-					},
-					["nome"] = "Guardian of Yogg-Saron <Ominous Cloud>",
-					["classe"] = "UNKNOW",
-					["aID"] = "33136",
-					["serial"] = "Creature-0-4240-603-20786-33136-00005B09B0",
-					["tipo"] = 4,
-				}, -- [6]
-				{
-					["flag_original"] = 2632,
-					["tipo"] = 4,
-					["boss_fight_component"] = true,
-					["last_event"] = 0,
-					["pets"] = {
-					},
-					["nome"] = "Yogg-Saron",
 					["aID"] = "",
-					["classe"] = "UNKNOW",
-					["spell_cast"] = {
-						[64163] = 1,
-						[64465] = 1,
-						[63894] = 1,
-					},
-					["serial"] = "Vehicle-0-4240-603-20786-33288-00005B09C8",
-					["monster"] = true,
-				}, -- [7]
-				{
-					["flag_original"] = 2632,
-					["tipo"] = 4,
-					["boss_fight_component"] = true,
 					["last_event"] = 0,
-					["pets"] = {
-					},
-					["nome"] = "Corruptor Tentacle",
-					["aID"] = "33985",
-					["classe"] = "UNKNOW",
-					["spell_cast"] = {
-						[64156] = 1,
-						[64153] = 1,
-						[64152] = 1,
-						[64144] = 1,
-					},
-					["serial"] = "Creature-0-4240-603-20786-33985-00005B09C8",
-					["monster"] = true,
-				}, -- [8]
-				{
-					["flag_original"] = 2632,
+					["serial"] = "Vehicle-0-3102-1642-38-138794-00004DB643",
 					["tipo"] = 4,
-					["boss_fight_component"] = true,
-					["last_event"] = 0,
-					["pets"] = {
-					},
-					["nome"] = "Crusher Tentacle",
-					["aID"] = "33966",
-					["classe"] = "UNKNOW",
-					["spell_cast"] = {
-						[57688] = 1,
-						[64144] = 1,
-					},
-					["serial"] = "Creature-0-4240-603-20786-33966-00005B09C8",
-					["monster"] = true,
-				}, -- [9]
-				{
-					["flag_original"] = 2632,
-					["debuff_uptime_spells"] = {
-						["_ActorTable"] = {
-						},
-						["tipo"] = 9,
-					},
-					["pets"] = {
-					},
-					["classe"] = "UNKNOW",
-					["boss_debuff"] = true,
-					["monster"] = true,
-					["debuff_uptime"] = 1,
-					["spellschool"] = 1,
-					["debuff_uptime_targets"] = {
-						["Luminaxia"] = {
-							["uptime"] = 1,
-							["refreshamt"] = 0,
-							["activedamt"] = 0,
-							["actived"] = false,
-							["appliedamt"] = 0,
-						},
-					},
-					["aID"] = "",
-					["serial"] = "",
-					["nome"] = "Squeeze",
-					["last_event"] = 0,
-					["damage_twin"] = "[*] Squeeze",
-					["tipo"] = 4,
-					["damage_spellid"] = 64126,
-					["boss_fight_component"] = true,
-				}, -- [10]
-				{
-					["flag_original"] = 2632,
-					["tipo"] = 4,
-					["boss_fight_component"] = true,
-					["last_event"] = 0,
-					["pets"] = {
-					},
-					["nome"] = "Constrictor Tentacle",
-					["aID"] = "",
-					["classe"] = "UNKNOW",
-					["spell_cast"] = {
-						[64144] = 1,
-					},
-					["serial"] = "Vehicle-0-4240-603-20786-33983-00005B09C8",
-					["monster"] = true,
-				}, -- [11]
-				{
-					["flag_original"] = 2632,
-					["tipo"] = 4,
-					["boss_fight_component"] = true,
-					["last_event"] = 0,
-					["pets"] = {
-					},
-					["nome"] = "Laughing Skull",
-					["aID"] = "33990",
-					["classe"] = "UNKNOW",
-					["spell_cast"] = {
-						[64167] = 4,
-					},
-					["serial"] = "Creature-0-4240-603-20786-33990-00005B09D3",
-					["monster"] = true,
-				}, -- [12]
-				{
-					["flag_original"] = 2632,
-					["tipo"] = 4,
-					["boss_fight_component"] = true,
-					["last_event"] = 0,
-					["pets"] = {
-					},
-					["nome"] = "Brain of Yogg-Saron",
-					["aID"] = "33890",
-					["classe"] = "UNKNOW",
-					["spell_cast"] = {
-						[64173] = 1,
-					},
-					["serial"] = "Creature-0-4240-603-20786-33890-00005B0970",
-					["monster"] = true,
-				}, -- [13]
-				{
-					["flag_original"] = 2632,
-					["debuff_uptime_spells"] = {
-						["_ActorTable"] = {
-						},
-						["tipo"] = 9,
-					},
-					["pets"] = {
-					},
-					["classe"] = "UNKNOW",
-					["boss_debuff"] = true,
-					["monster"] = true,
-					["debuff_uptime"] = 0,
-					["spellschool"] = 1,
-					["debuff_uptime_targets"] = {
-						["Luminaxia"] = {
-							["uptime"] = 0,
-							["refreshamt"] = 0,
-							["activedamt"] = -1,
-							["actived"] = false,
-							["appliedamt"] = 0,
-						},
-					},
-					["aID"] = "",
-					["serial"] = "",
-					["nome"] = "Sanity",
-					["last_event"] = 0,
-					["damage_twin"] = "[*] Sanity",
-					["tipo"] = 4,
-					["damage_spellid"] = 63050,
-					["boss_fight_component"] = true,
-				}, -- [14]
+				}, -- [3]
 			},
 		}, -- [4]
 		{
@@ -4029,36 +3384,36 @@ _detalhes_database = {
 		},
 		["raid_roster_indexed"] = {
 		},
-		["cleu_timeline"] = {
-		},
-		["tempo_start"] = 1624967586,
+		["tempo_start"] = 1649260299,
 		["last_events_tables"] = {
 		},
 		["alternate_power"] = {
 		},
-		["combat_counter"] = 1215,
+		["combat_counter"] = 1222,
+		["spells_cast_timeline"] = {
+		},
 		["totals"] = {
-			1637535.062246, -- [1]
-			21.009295, -- [2]
+			876693.1429339999, -- [1]
+			127459.065351, -- [2]
 			{
 				0, -- [1]
-				[0] = 0.008137,
+				[0] = 0.020383,
 				["alternatepower"] = 0,
-				[6] = 0,
 				[3] = 0,
+				[6] = 56.007804,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["dead"] = 0,
-				["cc_break"] = 0,
-				["interrupt"] = 0,
 				["debuff_uptime"] = 0,
-				["dispell"] = 0,
 				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
 			}, -- [4]
-			["voidzone_damage"] = 0,
 			["frags_total"] = 0,
+			["voidzone_damage"] = 0,
 		},
 		["player_last_events"] = {
 		},
@@ -4067,89 +3422,89 @@ _detalhes_database = {
 		},
 		["__call"] = {
 		},
-		["data_inicio"] = "14:53:06",
-		["end_time"] = 1771.089,
+		["data_inicio"] = "18:51:40",
+		["end_time"] = 18901.772,
+		["cleu_events"] = {
+			["n"] = 1,
+		},
+		["segments_added"] = {
+			{
+				["elapsed"] = 63.98099999999977,
+				["type"] = 0,
+				["name"] = "Dunegorger Kraulok",
+				["clock"] = "18:51:46",
+			}, -- [1]
+			{
+				["elapsed"] = 3.599000000001979,
+				["type"] = 0,
+				["name"] = "Dunegorger Kraulok",
+				["clock"] = "18:51:40",
+			}, -- [2]
+		},
 		["totals_grupo"] = {
-			1568059.001487, -- [1]
-			0.007896, -- [2]
+			18500.004099, -- [1]
+			20295.002921, -- [2]
 			{
 				0, -- [1]
-				[0] = 0.008137,
+				[0] = 0.006795,
 				["alternatepower"] = 0,
-				[6] = 0,
 				[3] = 0,
+				[6] = 0,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["dead"] = 0,
-				["cc_break"] = 0,
-				["interrupt"] = 0,
 				["debuff_uptime"] = 0,
-				["dispell"] = 0,
 				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
 			}, -- [4]
 		},
-		["overall_refreshed"] = true,
+		["frags"] = {
+		},
+		["data_fim"] = "18:52:50",
+		["overall_enemy_name"] = "Dunegorger Kraulok",
+		["CombatSkillCache"] = {
+		},
+		["cleu_timeline"] = {
+		},
+		["start_time"] = 18834.192,
+		["TimeData"] = {
+			["Raid Damage Done"] = {
+			},
+		},
 		["PhaseData"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 			}, -- [1]
-			["damage"] = {
-			},
 			["heal_section"] = {
 			},
 			["heal"] = {
 			},
 			["damage_section"] = {
 			},
-		},
-		["segments_added"] = {
-			{
-				["elapsed"] = 92.41199999999981,
-				["type"] = 8,
-				["name"] = "Yogg-Saron",
-				["clock"] = "14:53:06",
-			}, -- [1]
-		},
-		["hasSaved"] = true,
-		["spells_cast_timeline"] = {
-		},
-		["data_fim"] = "14:54:22",
-		["overall_enemy_name"] = "Yogg-Saron",
-		["CombatSkillCache"] = {
-		},
-		["frags"] = {
-		},
-		["start_time"] = 1678.677,
-		["TimeData"] = {
-			["Raid Damage Done"] = {
+			["damage"] = {
 			},
 		},
-		["cleu_events"] = {
-			["n"] = 1,
-		},
 	},
-	["character_data"] = {
-		["logons"] = 107,
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
 	},
-	["last_day"] = "02",
-	["cd_tracker"] = {
+	["announce_prepots"] = {
 		["enabled"] = false,
-		["cds_enabled"] = {
-		},
-		["show_conditions"] = {
-			["only_inside_instance"] = true,
-			["only_in_group"] = true,
-		},
-		["pos"] = {
-		},
+		["channel"] = "SELF",
+		["reverse"] = false,
+	},
+	["cached_talents"] = {
 	},
 	["announce_cooldowns"] = {
-		["enabled"] = false,
 		["ignored_cooldowns"] = {
 		},
+		["enabled"] = false,
 		["custom"] = "",
 		["channel"] = "RAID",
 	},
@@ -4157,11 +3512,17 @@ _detalhes_database = {
 		["last_difficulty"] = 15,
 		["last_raid"] = "",
 	},
-	["announce_damagerecord"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
+	["cached_roles"] = {
 	},
 	["cached_specs"] = {
+		["Player-3682-07DADEDC"] = 252,
 		["Player-1301-0B0D29D2"] = 258,
+		["Player-3674-0A51822A"] = 268,
+		["Player-3391-0BB115B7"] = 263,
+		["Player-1587-0732035E"] = 64,
+		["Player-1305-0B435956"] = 267,
+		["Player-1307-07EDFB6A"] = 263,
+		["Player-3674-0A7D389A"] = 63,
+		["Player-3391-09CDC724"] = 265,
 	},
 }

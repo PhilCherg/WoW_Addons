@@ -1,35 +1,35 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0528,
+	["LastVersion"] = 2.0534,
 	["LastPlayerFullName"] = "Necrophagus-Outland",
 	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
-			["ID"] = 186325,
-			["Level"] = 233,
-			["Link"] = "|cffa335ee|Hitem:186325::::::::60:267::3:4:7189:6652:1472:6646:1:28:2044:::::|h[Veil of the Banshee Queen]|h|r",
+			["ID"] = 188889,
+			["Level"] = 252,
+			["Link"] = "|cffa335ee|Hitem:188889::::::::60:267::3:6:7189:6652:7579:8151:1472:6646::::::|h[Horns of the Demon Star]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 178827,
-			["Level"] = 242,
-			["Link"] = "|cffa335ee|Hitem:178827::::::::60:267::33:6:7359:6652:7575:7619:1556:6646:1:28:1279:::::|h[Sin Stained Pendant]|h|r",
+			["ID"] = 189827,
+			["Level"] = 252,
+			["Link"] = "|cffa335ee|Hitem:189827::::::::60:267::3:5:7189:6652:7578:1498:6646:1:28:2165:::::|h[Cartel Xy's Proof of Initiation]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 186286,
-			["Level"] = 239,
-			["Link"] = "|cffa335ee|Hitem:186286::::::::60:267::5:4:7188:6652:1485:6646::::::|h[Mantle of Arthura's Chosen]|h|r",
+			["ID"] = 190982,
+			["Level"] = 252,
+			["Link"] = "|cffa335ee|Hitem:190982::::::::60:267::11:4:8115:6652:7957:1491:1:28:2057:::::|h[Synchronous Oracular Mantle]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 186282,
-			["Level"] = 226,
-			["Link"] = "|cffa335ee|Hitem:186282::::::::60:267::3:4:7189:6652:1472:6646::::::|h[Sacrificer's Sacramental Cassock]|h|r",
+			["ID"] = 188884,
+			["Level"] = 259,
+			["Link"] = "|cffa335ee|Hitem:188884:6230:::::::60:267::3:5:7189:6652:8153:1479:6646::::::|h[Robes of the Demon Star]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 180109,
-			["Level"] = 246,
-			["Link"] = "|cffa335ee|Hitem:180109::::::::60:267::35:6:7606:7359:42:7576:1560:6646::::::|h[Kin-Tara's Baleful Cord]|h|r",
+			["ID"] = 190469,
+			["Level"] = 265,
+			["Link"] = "|cffff8000|Hitem:190469::::::::60:267::11:2:6652:7579:1:28:2057:::::|h[Cord of Unity]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 173246,
@@ -37,54 +37,53 @@ PawnOptions = {
 			["Link"] = "|cffffffff|Hitem:173246::::::::60:267::68:2:7451:1559:1:28:2142:::::|h[Grim-Veiled Pants]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 186281,
-			["Level"] = 239,
-			["Link"] = "|cffa335ee|Hitem:186281::::::::60:267::5:4:7188:6652:1485:6646:1:28:2105:::::|h[Phantasma-Forged Striders]|h|r",
+			["ID"] = 189794,
+			["Level"] = 265,
+			["Link"] = "|cffa335ee|Hitem:189794::::::::60:267::5:6:7188:8118:8137:42:1511:6646:1:28:2060:::::|h[Boots of Ceaseless Conflict]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 186283,
-			["Level"] = 239,
-			["Link"] = "|cffa335ee|Hitem:186283::::::::60:267::5:4:7188:6652:1485:6646::::::|h[Cruel Overlord's Shackles]|h|r",
+			["ID"] = 178704,
+			["Level"] = 262,
+			["Link"] = "|cffa335ee|Hitem:178704::::::::60:267::16:8:7795:8136:8138:7359:6652:7578:1576:6646:1:28:1279:::::|h[Deathshackle Wristwraps]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 186288,
-			["Level"] = 239,
-			["Link"] = "|cffa335ee|Hitem:186288::::::::60:267::5:4:7188:6652:1485:6646::::::|h[Grasps of the Clairvoyant Sage]|h|r",
+			["ID"] = 188890,
+			["Level"] = 252,
+			["Link"] = "|cffa335ee|Hitem:188890::::::::60:267::3:5:7189:6652:8154:1472:6646::::::|h[Grasps of the Demon Star]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 186377,
-			["Level"] = 246,
+			["ID"] = 178824,
+			["Level"] = 252,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:186377::::::::60:267::5:5:7188:6652:7574:1485:6646:1:28:2044:::::|h[Tarnished Insignia of Quel'Thalas]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178824:6166:::::::60:267::35:6:7622:7359:42:7575:1566:6646::::::|h[Signet of the False Accuser]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 186377,
-			["Level"] = 246,
+			["ID"] = 190633,
+			["Level"] = 252,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:186377::::::::60:265::5:5:7188:6652:7574:1485:6646:1:28:2044:::::|h[Tarnished Insignia of Quel'Thalas]|h|r",
+			["Link"] = "|cffa335ee|Hitem:190633:6166:::::::60:267::11:4:8115:6652:7579:1491:1:28:2057:::::|h[Cypher-Etched Band]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 178809,
-			["Level"] = 242,
+			["ID"] = 180117,
+			["Level"] = 259,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cffa335ee|Hitem:178809::::::::60:267::16:5:7359:6652:7605:1556:6646:1:28:1279:::::|h[Soulletting Ruby]|h|r",
+			["Link"] = "|cffa335ee|Hitem:180117::::::::60:267::33:5:7780:7359:6652:1573:6646:1:28:1279:::::|h[Empyreal Ordnance]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 186428,
-			["Level"] = 239,
+			["ID"] = 188272,
+			["Level"] = 252,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cffa335ee|Hitem:186428::::::::60:266::5:4:7188:6652:1485:6646:1:28:2105:::::|h[Shadowed Orb of Torment]|h|r",
+			["Link"] = "|cffa335ee|Hitem:188272::::::::60:267::3:4:7189:6652:1498:6646:1:28:2165:::::|h[Resonant Reservoir]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 179349,
-			["Level"] = 246,
-			["Link"] = "|cffa335ee|Hitem:179349::::::::60:267::35:5:7620:7359:6652:1560:6646::::::|h[Dealer Xy'exa's Cape]|h|r",
+			["ID"] = 189847,
+			["Level"] = 259,
+			["Link"] = "|cffa335ee|Hitem:189847:6203:::::::60:267::3:6:7189:8133:8138:6652:1498:6646:1:28:2165:::::|h[Shroud of the Sire's Chosen]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 186385,
-			["Level"] = 239,
-			["AlsoFitsIn"] = 17,
-			["Link"] = "|cffa335ee|Hitem:186385:6229:::::::60:267::5:4:7188:6652:1485:6646:1:28:2105:::::|h[Signe's Sonorous Scramaseax]|h|r",
+			["ID"] = 189834,
+			["Level"] = 252,
+			["Link"] = "|cffa335ee|Hitem:189834:6229:::::::60:267::3:4:7189:6652:1498:6646:1:28:2167:::::|h[Guardstaff of the Great Cycle]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 178868,

@@ -24,11 +24,11 @@ GatherMate2_Data: disabled
 HandyNotes: enabled
 HandyNotes_Argus: enabled
 HandyNotes_DraenorTreasures: disabled
-InstancePortals: disabled
+InstancePortals: enabled
 LibRaiderIO_Loader: enabled
 LookingForGroup_RaiderIO: enabled
 Mapster: enabled
-Paste: disabled
+Paste: enabled
 Pawn: disabled
 RaiderIO: disabled
 RaiderIO_DB_US_A: disabled
@@ -51,7 +51,7 @@ Simulationcraft: disabled
 TomCats: disabled
 TomCats-ArathiHighlandsRares: disabled
 TomCats-DarkshoreRares: disabled
-TomTom: disabled
+TomTom: enabled
 WeakAuras: disabled
 WeakAurasArchive: disabled
 WeakAurasModelPaths: disabled
@@ -236,7 +236,7 @@ BtWQuestsWrathOfTheLichKing: disabled
 BulkBuy: disabled
 GarrisonCommander: disabled
 GarrisonCommander-Broker: disabled
-HandyNotes_Shadowlands: disabled
+HandyNotes_Shadowlands: enabled
 HandyNotes_LunarFestival: disabled
 Mists_of_Tirna_Solved: disabled
 MythicDungeonTools: disabled
@@ -286,3 +286,6 @@ RaiderIO_DB_TW_F: disabled
 SoulshapeJournal: disabled
 StoredAnimaCounter: disabled
 ZerethMortisPuzzleHelper: disabled
+NoMoreErrors: enabled
+NPCTime: enabled
+PremadeSort: enabled

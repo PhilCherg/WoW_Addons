@@ -3,7 +3,11 @@ VER 3 000000000000002B "Achiev" "1416161"
 /challenge
 END
 VER 3 0000000000000037 "Alpaca" "136218"
-/tar Enraged
+/cleartarget
+/tar Frightened Kodo
+/stopmacro [noexists]
+/script PlaySound(8959)
+/run RaidNotice_AddMessage(RaidBossEmoteFrame,"Frightened Kodo!", ChatTypeInfo["RAID_WARNING"])
 END
 VER 3 000000000000003F "Applause" "132095"
 /tar Queen
@@ -94,11 +98,11 @@ END
 VER 3 0000000000000021 "KIss" "136217"
 /kneel
 END
-VER 3 0000000000000041 "Kneel" "INV_MISC_QUESTIONMARK"
-END
 VER 3 0000000000000028 "Kneel" "236291"
 /tar Queen
 /kneel
+END
+VER 3 0000000000000041 "Kneel" "INV_MISC_QUESTIONMARK"
 END
 VER 3 000000000000004C "MountAutoTag" "1033183"
 /tar Arachnoid Harvester

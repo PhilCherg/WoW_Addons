@@ -114,14 +114,13 @@ BWQDB = {
 				["name"] = "Default",
 				["list"] = {
 				},
+				["pin"] = {
+				},
 				["external"] = {
 					["TomTom"] = {
 					},
 				},
-				["pin"] = {
-				},
 				["general"] = {
-					["showDisliked"] = false,
 					["useLFGButtons"] = true,
 					["sortBy"] = 7,
 				},

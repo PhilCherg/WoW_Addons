@@ -120,9 +120,9 @@ HandyNotes_WellRead: disabled
 HandyNotes_DraenorTreasures: disabled
 HandyNotes_TreasureHunter: disabled
 HHPH: enabled
-InstancePortals: disabled
+InstancePortals: enabled
 Immersion: enabled
-Paste: disabled
+Paste: enabled
 TomTom: enabled
 RaiderIO_DB_US_H_R: disabled
 RaiderIO_DB_US_H: disabled
@@ -293,10 +293,10 @@ BtWQuestsShadowlands: disabled
 BtWQuestsTheBurningCrusade: disabled
 BtWQuestsWarlordsOfDraenor: disabled
 BtWQuestsWrathOfTheLichKing: disabled
-BulkBuy: enabled
+BulkBuy: disabled
 GarrisonCommander: disabled
 GarrisonCommander-Broker: disabled
-HandyNotes_Shadowlands: disabled
+HandyNotes_Shadowlands: enabled
 Mists_of_Tirna_Solved: enabled
 MythicDungeonTools: disabled
 OmniBar: enabled
@@ -306,7 +306,7 @@ UnlimitedMapPinDistance: enabled
 WorldQuestTab: enabled
 DBM-Shadowlands: disabled
 BtWQuestsBattleForAzeroth: disabled
-Dejunk: enabled
+Dejunk: disabled
 MazeHelper: disabled
 PremadeAutoAccept: disabled
 VenturePlan: disabled
@@ -331,3 +331,7 @@ StoredAnimaCounter: disabled
 ZerethMortisPuzzleHelper: disabled
 DBM-Sepulcher: disabled
 DBM-VPVEM: disabled
+Leatrix_Plus: enabled
+NoMoreErrors: enabled
+NPCTime: enabled
+PremadeSort: enabled

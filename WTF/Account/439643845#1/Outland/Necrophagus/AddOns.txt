@@ -8,7 +8,7 @@ ArtifactPowerUser: enabled
 _NPCScan.Overlay: enabled
 _NPCScan.Overlay.Broker: enabled
 NPCScan: enabled
-OrderHallCommander: disabled
+OrderHallCommander: enabled
 Paste: enabled
 TomTom: enabled
 AngryAssignments: enabled
@@ -83,7 +83,7 @@ ArgusEliteTracker: disabled
 ServerHop: enabled
 ZoneAchievementTracker: disabled
 StopResetingMyCameraPlease: enabled
-TalentSetManager: disabled
+TalentSetManager: enabled
 WorldQuestsList: enabled
 DBM-Core: enabled
 DBM-DefaultSkin: enabled
@@ -110,7 +110,7 @@ HandyNotes_BattleForAzerothTreasures: enabled
 Grail: enabled
 Wholly: enabled
 AutoQuestTracker: enabled
-ChampionCommander: disabled
+ChampionCommander: enabled
 EasyScrap: enabled
 Leatrix_Plus: enabled
 OPie: enabled
@@ -122,7 +122,7 @@ Ace3: enabled
 LibStub: enabled
 ButtonFacade: enabled
 Masque: enabled
-Pawn: disabled
+Pawn: enabled
 Azeroth Auto Pilot: disabled
 ElvUI_EverySecondCounts: disabled
 Details: enabled
@@ -200,7 +200,7 @@ DBM-Ulduar: enabled
 DBM-VoA: enabled
 DBM-ZuldazarRaid: enabled
 HandyNotes_WarfrontRares: enabled
-Simulationcraft: disabled
+Simulationcraft: enabled
 HandyNotes_BattleForAzerothAchievments: enabled
 HandyNotes_BFA_HF_Tracker: enabled
 HandyNotes_FieldPhotographer: enabled
@@ -354,8 +354,8 @@ RoutesImportExport: disabled
 ElvUI_QuestXP: disabled
 CandyBuckets: enabled
 AutoTrackMapPin: enabled
-GarrisonCommander: disabled
-GarrisonCommander-Broker: disabled
+GarrisonCommander: enabled
+GarrisonCommander-Broker: enabled
 MythicDungeonTools: disabled
 TomCats-Bundled-DeathsRising: enabled
 UnlimitedMapPinDistance: enabled
@@ -364,7 +364,7 @@ DBM-Shadowlands: enabled
 Rematch: disabled
 Rematch_TSMPetValues: disabled
 TomCats-Bundled-DarkshoreRares: enabled
-BulkBuy: enabled
+BulkBuy: disabled
 TomCats-Bundled-ArathiHighlandsRares: enabled
 TomCats-Bundled-Mechagon: enabled
 TomCats-Bundled-Nazjatar: enabled
@@ -391,11 +391,11 @@ OmniBar: disabled
 SimpleArmory: enabled
 MazeHelper: enabled
 BtWQuestsBattleForAzeroth: disabled
-Dejunk: enabled
+Dejunk: disabled
 HandyNotes_Stygia: disabled
 PremadeAutoAccept: disabled
 CamelSpotter: disabled
-AstralKeys: disabled
+AstralKeys: enabled
 PremadeGroupsFilter: enabled
 VenturePlan: enabled
 +Wowhead_Looter: enabled
@@ -406,3 +406,15 @@ ElvUI_CustomTags: disabled
 RaiderIO_DB_US_F: disabled
 RaiderIO_DB_TW_F: disabled
 RaiderIO_DB_KR_F: disabled
+BetterWardrobe: enabled
+FarmHud_TrailPath: disabled
+HandyNotes_BattleForAzeroth: enabled
+NoMoreErrors: enabled
+RaiderIO_DB_EU_F: enabled
+SoulshapeJournal: enabled
+StoredAnimaCounter: enabled
+ZerethMortisPuzzleHelper: enabled
+NPCTime: enabled
+PremadeSort: enabled
+DBM-Sepulcher: enabled
+DBM-VPVEM: enabled

@@ -3,576 +3,384 @@ EncounterDetailsDB = {
 	["emotes"] = {
 		{
 			{
-				0.1980000000039581, -- [1]
+				0.1039999999993597, -- [1]
 				"I am past my breaking point!", -- [2]
 				"Artificer Xy'mox", -- [3]
 				7, -- [4]
 			}, -- [1]
 			{
-				2.732000000003609, -- [1]
-				"Pay for your crimes!", -- [2]
-				"Darkosis", -- [3]
-				7, -- [4]
-			}, -- [2]
-			{
-				8.19600000000355, -- [1]
-				"It is amusing how you stumble through space and time.", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [3]
-			{
-				19.20399999999791, -- [1]
-				"Huddle close, so you can die together!", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [4]
-			{
-				21.00200000000041, -- [1]
-				"Your agony amuses me.", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [5]
-			{
-				26.1929999999993, -- [1]
-				"Your destruction is unavoidable!", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [6]
-			{
-				26.1929999999993, -- [1]
-				"|TInterface\\ICONS\\Spell_Broker_GroundState.BLP:20|t The Relic comes to life as Xy'mox channels into it, emanating Genesis Rings!", -- [2]
-				"Genesis Relic", -- [3]
-				1, -- [4]
-			}, -- [7]
-			{
-				40.15499999999884, -- [1]
-				"You cannot even control where you stand!", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [8]
-			{
-				49.21199999999953, -- [1]
-				"You mortals cannot even bear a spark of my genius!", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [9]
-			{
-				51.18600000000151, -- [1]
-				"These stasis fields should keep you busy!", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [10]
-			{
-				56.22000000000116, -- [1]
-				"This force will overtake you!", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [11]
-			{
-				56.22000000000116, -- [1]
-				"|TInterface\\ICONS\\Spell_Broker_GroundState.BLP:20|t The Relic comes to life as Xy'mox channels into it, emanating Genesis Rings!", -- [2]
-				"Genesis Relic", -- [3]
-				1, -- [4]
-			}, -- [12]
-			{
-				58.33600000000297, -- [1]
-				"Ephemera is unbridled power!", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [13]
-			{
-				58.33600000000297, -- [1]
-				"|TInterface\\ICONS\\INV_Cloth_Broker_C_01_Helm.BLP:20|t Xy'mox calls in Xy Reinforcements as he deciphers the secrets of the Genesis Relic!", -- [2]
-				"Hyperlight Reinforcer", -- [3]
-				1, -- [4]
-			}, -- [14]
-			{
-				105.6399999999994, -- [1]
-				"I wonder what effect folding space has on your flesh.", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [15]
-			{
-				117.2890000000043, -- [1]
-				"Huddle close, so you can die together!", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [16]
-			{
-				120.0760000000009, -- [1]
-				"Your agony amuses me.", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [17]
-			{
-				125.6560000000027, -- [1]
-				"Your destruction is unavoidable!", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [18]
-			{
-				125.6560000000027, -- [1]
-				"|TInterface\\ICONS\\Spell_Broker_GroundState.BLP:20|t The Relic comes to life as Xy'mox channels into it, emanating Genesis Rings!", -- [2]
-				"Genesis Relic", -- [3]
-				1, -- [4]
-			}, -- [19]
-			{
-				141.2050000000018, -- [1]
-				"Gravity bends to my will!", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [20]
-			{
-				146.7620000000024, -- [1]
-				"You lack power.", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [21]
-			{
-				150.6560000000027, -- [1]
-				"You mortals cannot even bear a spark of my genius!", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [22]
-			{
-				153.2830000000031, -- [1]
-				"These stasis fields should keep you busy!", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [23]
-			{
-				158.9720000000016, -- [1]
-				"This force will overtake you!", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [24]
-			{
-				158.9720000000016, -- [1]
-				"|TInterface\\ICONS\\Spell_Broker_GroundState.BLP:20|t The Relic comes to life as Xy'mox channels into it, emanating Genesis Rings!", -- [2]
-				"Genesis Relic", -- [3]
-				1, -- [4]
-			}, -- [25]
-			{
-				183.9380000000019, -- [1]
-				"Huddle close, so you can die together!", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [26]
-			{
-				184.6970000000001, -- [1]
-				"There is no limit to the wealth I can obtain!", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [27]
-			{
-				184.6970000000001, -- [1]
-				"|TInterface\\ICONS\\INV_Cloth_Broker_C_01_Helm.BLP:20|t Xy'mox calls in Xy Reinforcements as he deciphers the secrets of the Genesis Relic!", -- [2]
-				"Hyperlight Reinforcer", -- [3]
-				1, -- [4]
-			}, -- [28]
-			{
-				192.3990000000049, -- [1]
-				"Taste my axe!", -- [2]
-				"Darkosis", -- [3]
-				7, -- [4]
-			}, -- [29]
-			["boss"] = "Artificer Xy'mox",
-		}, -- [1]
-		{
-			{
-				0.184000000001106, -- [1]
-				"I am past my breaking point!", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				8.201000000000931, -- [1]
+				8.224000000001979, -- [1]
 				"It is amusing how you stumble through space and time.", -- [2]
 				"Artificer Xy'mox", -- [3]
 				7, -- [4]
 			}, -- [2]
 			{
-				19.23199999999633, -- [1]
+				19.25900000000547, -- [1]
 				"Huddle close, so you can die together!", -- [2]
 				"Artificer Xy'mox", -- [3]
 				7, -- [4]
 			}, -- [3]
 			{
-				21.20899999999529, -- [1]
+				21.25700000000506, -- [1]
 				"Your agony amuses me.", -- [2]
 				"Artificer Xy'mox", -- [3]
 				7, -- [4]
 			}, -- [4]
 			{
-				26.11999999999534, -- [1]
+				26.22600000000239, -- [1]
 				"Your destruction is unavoidable!", -- [2]
 				"Artificer Xy'mox", -- [3]
 				7, -- [4]
 			}, -- [5]
 			{
-				26.11999999999534, -- [1]
+				26.22600000000239, -- [1]
 				"|TInterface\\ICONS\\Spell_Broker_GroundState.BLP:20|t The Relic comes to life as Xy'mox channels into it, emanating Genesis Rings!", -- [2]
 				"Genesis Relic", -- [3]
 				1, -- [4]
 			}, -- [6]
 			{
-				40.1820000000007, -- [1]
+				40.22100000000501, -- [1]
 				"You cannot even control where you stand!", -- [2]
 				"Artificer Xy'mox", -- [3]
 				7, -- [4]
 			}, -- [7]
 			{
-				49.20300000000134, -- [1]
-				"You mortals cannot even bear a spark of my genius!", -- [2]
+				43.75200000000041, -- [1]
+				"Reveal your secrets to me!", -- [2]
 				"Artificer Xy'mox", -- [3]
 				7, -- [4]
 			}, -- [8]
 			{
-				51.18800000000192, -- [1]
-				"These stasis fields should keep you busy!", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
+				43.75200000000041, -- [1]
+				"|TInterface\\ICONS\\INV_Cloth_Broker_C_01_Helm.BLP:20|t Xy'mox calls in Xy Reinforcements as he deciphers the secrets of the Genesis Relic!", -- [2]
+				"Hyperlight Reinforcer", -- [3]
+				1, -- [4]
 			}, -- [9]
 			{
-				56.1820000000007, -- [1]
-				"This force will overtake you!", -- [2]
+				83.45200000000477, -- [1]
+				"I wonder what effect folding space has on your flesh.", -- [2]
 				"Artificer Xy'mox", -- [3]
 				7, -- [4]
 			}, -- [10]
 			{
-				56.1820000000007, -- [1]
-				"|TInterface\\ICONS\\Spell_Broker_GroundState.BLP:20|t The Relic comes to life as Xy'mox channels into it, emanating Genesis Rings!", -- [2]
-				"Genesis Relic", -- [3]
-				1, -- [4]
+				95.10800000000017, -- [1]
+				"You mortals cannot even bear a spark of my genius!", -- [2]
+				"Artificer Xy'mox", -- [3]
+				7, -- [4]
 			}, -- [11]
 			{
-				59.20999999999913, -- [1]
-				"What wonders! I want more!", -- [2]
+				97.70700000000215, -- [1]
+				"These stasis fields should keep you busy!", -- [2]
 				"Artificer Xy'mox", -- [3]
 				7, -- [4]
 			}, -- [12]
 			{
-				59.20999999999913, -- [1]
-				"|TInterface\\ICONS\\INV_Cloth_Broker_C_01_Helm.BLP:20|t Xy'mox calls in Xy Reinforcements as he deciphers the secrets of the Genesis Relic!", -- [2]
-				"Hyperlight Reinforcer", -- [3]
-				1, -- [4]
-			}, -- [13]
-			{
-				108.125, -- [1]
-				"I wonder what effect folding space has on your flesh.", -- [2]
+				103.4230000000025, -- [1]
+				"This force will overtake you!", -- [2]
 				"Artificer Xy'mox", -- [3]
 				7, -- [4]
+			}, -- [13]
+			{
+				103.4230000000025, -- [1]
+				"|TInterface\\ICONS\\Spell_Broker_GroundState.BLP:20|t The Relic comes to life as Xy'mox channels into it, emanating Genesis Rings!", -- [2]
+				"Genesis Relic", -- [3]
+				1, -- [4]
 			}, -- [14]
 			{
-				119.8039999999965, -- [1]
-				"Huddle close, so you can die together!", -- [2]
+				119.0109999999986, -- [1]
+				"Gravity bends to my will!", -- [2]
 				"Artificer Xy'mox", -- [3]
 				7, -- [4]
 			}, -- [15]
 			{
-				122.5800000000018, -- [1]
-				"Your agony amuses me.", -- [2]
+				128.4570000000022, -- [1]
+				"Huddle close, so you can die together!", -- [2]
 				"Artificer Xy'mox", -- [3]
 				7, -- [4]
 			}, -- [16]
 			{
-				128.1290000000008, -- [1]
-				"Your destruction is unavoidable!", -- [2]
+				131.2309999999998, -- [1]
+				"Your agony amuses me.", -- [2]
 				"Artificer Xy'mox", -- [3]
 				7, -- [4]
 			}, -- [17]
 			{
-				128.1290000000008, -- [1]
-				"|TInterface\\ICONS\\Spell_Broker_GroundState.BLP:20|t The Relic comes to life as Xy'mox channels into it, emanating Genesis Rings!", -- [2]
-				"Genesis Relic", -- [3]
-				1, -- [4]
+				136.7300000000032, -- [1]
+				"Your destruction is unavoidable!", -- [2]
+				"Artificer Xy'mox", -- [3]
+				7, -- [4]
 			}, -- [18]
 			{
-				143.5720000000001, -- [1]
-				"Gravity bends to my will!", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [19]
-			{
-				153.150999999998, -- [1]
-				"You mortals cannot even bear a spark of my genius!", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [20]
-			{
-				155.9190000000017, -- [1]
-				"These stasis fields should keep you busy!", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [21]
-			{
-				161.4649999999965, -- [1]
-				"This force will overtake you!", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [22]
-			{
-				161.4649999999965, -- [1]
+				136.7300000000032, -- [1]
 				"|TInterface\\ICONS\\Spell_Broker_GroundState.BLP:20|t The Relic comes to life as Xy'mox channels into it, emanating Genesis Rings!", -- [2]
 				"Genesis Relic", -- [3]
 				1, -- [4]
-			}, -- [23]
+			}, -- [19]
 			{
-				189.0910000000004, -- [1]
-				"Your agony amuses me.", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [24]
-			{
-				191.6330000000016, -- [1]
+				145.7550000000047, -- [1]
 				"Minions! Secure the artifact!", -- [2]
 				"Artificer Xy'mox", -- [3]
 				7, -- [4]
-			}, -- [25]
+			}, -- [20]
 			{
-				191.6330000000016, -- [1]
+				145.7550000000047, -- [1]
 				"|TInterface\\ICONS\\INV_Cloth_Broker_C_01_Helm.BLP:20|t Xy'mox calls in Xy Reinforcements as he deciphers the secrets of the Genesis Relic!", -- [2]
 				"Hyperlight Reinforcer", -- [3]
 				1, -- [4]
+			}, -- [21]
+			{
+				190.8570000000036, -- [1]
+				"It is amusing how you stumble through space and time.", -- [2]
+				"Artificer Xy'mox", -- [3]
+				7, -- [4]
+			}, -- [22]
+			{
+				202.3640000000014, -- [1]
+				"You mortals cannot even bear a spark of my genius!", -- [2]
+				"Artificer Xy'mox", -- [3]
+				7, -- [4]
+			}, -- [23]
+			{
+				205.2920000000013, -- [1]
+				"These stasis fields should keep you busy!", -- [2]
+				"Artificer Xy'mox", -- [3]
+				7, -- [4]
+			}, -- [24]
+			{
+				210.8499999999985, -- [1]
+				"This force will overtake you!", -- [2]
+				"Artificer Xy'mox", -- [3]
+				7, -- [4]
+			}, -- [25]
+			{
+				210.8499999999985, -- [1]
+				"|TInterface\\ICONS\\Spell_Broker_GroundState.BLP:20|t The Relic comes to life as Xy'mox channels into it, emanating Genesis Rings!", -- [2]
+				"Genesis Relic", -- [3]
+				1, -- [4]
 			}, -- [26]
 			{
-				238.3629999999976, -- [1]
-				"It is amusing how you stumble through space and time.", -- [2]
+				244.760000000002, -- [1]
+				"Huddle close, so you can die together!", -- [2]
 				"Artificer Xy'mox", -- [3]
 				7, -- [4]
 			}, -- [27]
 			{
-				250.1520000000019, -- [1]
-				"Huddle close, so you can die together!", -- [2]
+				249.2450000000026, -- [1]
+				"Your agony amuses me.", -- [2]
 				"Artificer Xy'mox", -- [3]
 				7, -- [4]
 			}, -- [28]
 			{
-				252.9119999999966, -- [1]
-				"These stasis fields should keep you busy!", -- [2]
+				254.5849999999991, -- [1]
+				"I wonder what effect folding space has on your flesh.", -- [2]
 				"Artificer Xy'mox", -- [3]
 				7, -- [4]
 			}, -- [29]
 			{
-				258.4850000000006, -- [1]
+				257.237000000001, -- [1]
 				"Your destruction is unavoidable!", -- [2]
 				"Artificer Xy'mox", -- [3]
 				7, -- [4]
 			}, -- [30]
 			{
-				258.4850000000006, -- [1]
+				257.237000000001, -- [1]
 				"|TInterface\\ICONS\\Spell_Broker_GroundState.BLP:20|t The Relic comes to life as Xy'mox channels into it, emanating Genesis Rings!", -- [2]
 				"Genesis Relic", -- [3]
 				1, -- [4]
 			}, -- [31]
 			{
-				274.0630000000019, -- [1]
+				274.5570000000007, -- [1]
 				"You cannot even control where you stand!", -- [2]
 				"Artificer Xy'mox", -- [3]
 				7, -- [4]
 			}, -- [32]
 			{
-				283.4779999999955, -- [1]
+				284.7320000000036, -- [1]
 				"You mortals cannot even bear a spark of my genius!", -- [2]
 				"Artificer Xy'mox", -- [3]
 				7, -- [4]
 			}, -- [33]
 			{
-				286.2649999999994, -- [1]
-				"Your agony amuses me.", -- [2]
+				289.2360000000044, -- [1]
+				"These stasis fields should keep you busy!", -- [2]
 				"Artificer Xy'mox", -- [3]
 				7, -- [4]
 			}, -- [34]
 			{
-				291.6160000000018, -- [1]
+				295.747000000003, -- [1]
 				"This force will overtake you!", -- [2]
 				"Artificer Xy'mox", -- [3]
 				7, -- [4]
 			}, -- [35]
 			{
-				291.8260000000009, -- [1]
+				295.747000000003, -- [1]
 				"|TInterface\\ICONS\\Spell_Broker_GroundState.BLP:20|t The Relic comes to life as Xy'mox channels into it, emanating Genesis Rings!", -- [2]
 				"Genesis Relic", -- [3]
 				1, -- [4]
 			}, -- [36]
-			{
-				329.4850000000006, -- [1]
-				"Huddle close, so you can die together!", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [37]
-			{
-				333.8320000000022, -- [1]
-				"These stasis fields should keep you busy!", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [38]
-			{
-				339.1440000000002, -- [1]
-				"I wonder what effect folding space has on your flesh.", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [39]
-			{
-				341.8169999999955, -- [1]
-				"Your destruction is unavoidable!", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [40]
-			{
-				341.8169999999955, -- [1]
-				"|TInterface\\ICONS\\Spell_Broker_GroundState.BLP:20|t The Relic comes to life as Xy'mox channels into it, emanating Genesis Rings!", -- [2]
-				"Genesis Relic", -- [3]
-				1, -- [4]
-			}, -- [41]
-			{
-				359.1549999999988, -- [1]
-				"Gravity bends to my will!", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [42]
-			{
-				369.4979999999996, -- [1]
-				"You mortals cannot even bear a spark of my genius!", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [43]
-			{
-				373.8169999999955, -- [1]
-				"Your agony amuses me.", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [44]
-			{
-				380.4749999999985, -- [1]
-				"This force will overtake you!", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [45]
-			{
-				380.4749999999985, -- [1]
-				"|TInterface\\ICONS\\Spell_Broker_GroundState.BLP:20|t The Relic comes to life as Xy'mox channels into it, emanating Genesis Rings!", -- [2]
-				"Genesis Relic", -- [3]
-				1, -- [4]
-			}, -- [46]
-			{
-				399.0610000000015, -- [1]
-				"You cannot even control where you stand!", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [47]
-			{
-				409.4720000000016, -- [1]
-				"Huddle close, so you can die together!", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [48]
-			{
-				413.6929999999993, -- [1]
-				"These stasis fields should keep you busy!", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [49]
-			{
-				420.4599999999991, -- [1]
-				"Your destruction is unavoidable!", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [50]
-			{
-				420.4599999999991, -- [1]
-				"|TInterface\\ICONS\\Spell_Broker_GroundState.BLP:20|t The Relic comes to life as Xy'mox channels into it, emanating Genesis Rings!", -- [2]
-				"Genesis Relic", -- [3]
-				1, -- [4]
-			}, -- [51]
-			{
-				427.913999999997, -- [1]
-				"You lack power.", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [52]
-			{
-				437.0009999999966, -- [1]
-				"You lack power.", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
-			}, -- [53]
+			["boss"] = "Artificer Xy'mox",
+		}, -- [1]
+		{
 			["boss"] = "Artificer Xy'mox",
 		}, -- [2]
 		{
 			{
-				0.1900000000023283, -- [1]
-				"I am past my breaking point!", -- [2]
-				"Artificer Xy'mox", -- [3]
+				0.1, -- [1]
+				"The cycle is interrupted. Aberrations cannot be tolerated.", -- [2]
+				"Halondrus", -- [3]
 				7, -- [4]
 			}, -- [1]
 			{
-				8.195999999996275, -- [1]
-				"It is amusing how you stumble through space and time.", -- [2]
-				"Artificer Xy'mox", -- [3]
+				8.56300000000192, -- [1]
+				"Ephemeral excavation is underway.", -- [2]
+				"Halondrus", -- [3]
 				7, -- [4]
 			}, -- [2]
 			{
-				19.20500000000175, -- [1]
-				"Huddle close, so you can die together!", -- [2]
-				"Artificer Xy'mox", -- [3]
+				13.38800000000629, -- [1]
+				"Focused obliteration is necessary.", -- [2]
+				"Halondrus", -- [3]
 				7, -- [4]
 			}, -- [3]
 			{
-				21.24699999999575, -- [1]
-				"Your agony amuses me.", -- [2]
-				"Artificer Xy'mox", -- [3]
+				25.60000000000582, -- [1]
+				"Focused obliteration is necessary.", -- [2]
+				"Halondrus", -- [3]
 				7, -- [4]
 			}, -- [4]
 			{
-				26.05999999999767, -- [1]
-				"Your destruction is unavoidable!", -- [2]
-				"Artificer Xy'mox", -- [3]
+				35.98200000000361, -- [1]
+				"Ephemeral excavation is underway.", -- [2]
+				"Halondrus", -- [3]
 				7, -- [4]
 			}, -- [5]
 			{
-				26.05999999999767, -- [1]
-				"|TInterface\\ICONS\\Spell_Broker_GroundState.BLP:20|t The Relic comes to life as Xy'mox channels into it, emanating Genesis Rings!", -- [2]
-				"Genesis Relic", -- [3]
-				1, -- [4]
+				39.86300000000483, -- [1]
+				"The ephemera is exhausted. The collection cycle continues.", -- [2]
+				"Halondrus", -- [3]
+				7, -- [4]
 			}, -- [6]
 			{
-				40.04699999999866, -- [1]
-				"You cannot even control where you stand!", -- [2]
-				"Artificer Xy'mox", -- [3]
-				7, -- [4]
+				39.86300000000483, -- [1]
+				"|TInterface\\Icons\\INV_ProgenitorBotMineMount.BLP:20|t Halondrus enters |cFFFF0000|Hspell:359236|h[Relocation Form]|h|r and descends deeper into the caverns!", -- [2]
+				"Halondrus", -- [3]
+				1, -- [4]
 			}, -- [7]
 			{
-				49.22099999999773, -- [1]
-				"You mortals cannot even bear a spark of my genius!", -- [2]
-				"Artificer Xy'mox", -- [3]
+				69.99700000000303, -- [1]
+				"A necessary sacrifice.", -- [2]
+				"Halondrus", -- [3]
 				7, -- [4]
 			}, -- [8]
 			{
-				51.18299999999726, -- [1]
-				"These stasis fields should keep you busy!", -- [2]
-				"Artificer Xy'mox", -- [3]
+				92.05500000000029, -- [1]
+				"A necessary sacrifice.", -- [2]
+				"Halondrus", -- [3]
 				7, -- [4]
 			}, -- [9]
 			{
-				54.52399999999761, -- [1]
-				"There is no limit to the wealth I can obtain!", -- [2]
-				"Artificer Xy'mox", -- [3]
+				100.823000000004, -- [1]
+				"Ephemera collection ensues.", -- [2]
+				"Halondrus", -- [3]
 				7, -- [4]
 			}, -- [10]
 			{
-				54.52399999999761, -- [1]
-				"|TInterface\\ICONS\\INV_Cloth_Broker_C_01_Helm.BLP:20|t Xy'mox calls in Xy Reinforcements as he deciphers the secrets of the Genesis Relic!", -- [2]
-				"Hyperlight Reinforcer", -- [3]
+				100.823000000004, -- [1]
+				"|TInterface\\Icons\\INV_Achievement_Raid_ProgenitorRaid_Progenium_Keeper.BLP:20|t Halondrus enters |cFFFF0000|Hspell:359235|h[Reclamation Form]|h|r!", -- [2]
+				"Halondrus", -- [3]
 				1, -- [4]
 			}, -- [11]
 			{
-				87.8269999999975, -- [1]
-				"You lack power.", -- [2]
-				"Artificer Xy'mox", -- [3]
+				107.9160000000047, -- [1]
+				"A significant hindrance.", -- [2]
+				"Halondrus", -- [3]
 				7, -- [4]
 			}, -- [12]
-			["boss"] = "Artificer Xy'mox",
+			{
+				111.9140000000043, -- [1]
+				"Ephemeral excavation is underway.", -- [2]
+				"Halondrus", -- [3]
+				7, -- [4]
+			}, -- [13]
+			{
+				116.7200000000012, -- [1]
+				"Focused obliteration is necessary.", -- [2]
+				"Halondrus", -- [3]
+				7, -- [4]
+			}, -- [14]
+			{
+				128.9170000000013, -- [1]
+				"Focused obliteration is necessary.", -- [2]
+				"Halondrus", -- [3]
+				7, -- [4]
+			}, -- [15]
+			{
+				136.9700000000012, -- [1]
+				"The ephemera is exhausted. The collection cycle continues.", -- [2]
+				"Halondrus", -- [3]
+				7, -- [4]
+			}, -- [16]
+			{
+				136.9700000000012, -- [1]
+				"|TInterface\\Icons\\INV_ProgenitorBotMineMount.BLP:20|t Halondrus enters |cFFFF0000|Hspell:359236|h[Relocation Form]|h|r and descends deeper into the caverns!", -- [2]
+				"Halondrus", -- [3]
+				1, -- [4]
+			}, -- [17]
+			{
+				161.1670000000013, -- [1]
+				"Fragmentation is required.", -- [2]
+				"Halondrus", -- [3]
+				7, -- [4]
+			}, -- [18]
+			{
+				185.2220000000016, -- [1]
+				"A necessary sacrifice.", -- [2]
+				"Halondrus", -- [3]
+				7, -- [4]
+			}, -- [19]
+			{
+				203.2640000000029, -- [1]
+				"A necessary sacrifice.", -- [2]
+				"Halondrus", -- [3]
+				7, -- [4]
+			}, -- [20]
+			{
+				222.135000000002, -- [1]
+				"Ephemera collection ensues.", -- [2]
+				"Halondrus", -- [3]
+				7, -- [4]
+			}, -- [21]
+			{
+				222.135000000002, -- [1]
+				"|TInterface\\Icons\\INV_Achievement_Raid_ProgenitorRaid_Progenium_Keeper.BLP:20|t Halondrus enters |cFFFF0000|Hspell:359235|h[Reclamation Form]|h|r!", -- [2]
+				"Halondrus", -- [3]
+				1, -- [4]
+			}, -- [22]
+			{
+				228.211000000003, -- [1]
+				"The pattern disruption is severe.", -- [2]
+				"Halondrus", -- [3]
+				7, -- [4]
+			}, -- [23]
+			{
+				229.6059999999998, -- [1]
+				"Ephemeral excavation is underway.", -- [2]
+				"Halondrus", -- [3]
+				7, -- [4]
+			}, -- [24]
+			{
+				236.1310000000012, -- [1]
+				"Focused obliteration is necessary.", -- [2]
+				"Halondrus", -- [3]
+				7, -- [4]
+			}, -- [25]
+			{
+				248.984000000004, -- [1]
+				"Focused obliteration is necessary.", -- [2]
+				"Halondrus", -- [3]
+				7, -- [4]
+			}, -- [26]
+			["boss"] = "Halondrus the Reclaimer",
 		}, -- [3]
 	},
 	["encounter_spells"] = {
@@ -21249,10 +21057,10 @@ EncounterDetailsDB = {
 		[69869] = {
 			["school"] = 20,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Kor'kron Invoker",
 		},
@@ -37583,6 +37391,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Reanimated Mage",
 		},
+		[362273] = {
+			["school"] = 106,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Collapsing Quasar",
+		},
 		[272167] = {
 			["school"] = 8,
 			["token"] = {
@@ -42423,6 +42239,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Goriona",
 		},
+		[365887] = {
+			["school"] = 106,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Eternal Forger",
+		},
 		[264247] = {
 			["school"] = 1,
 			["token"] = {
@@ -42437,6 +42260,13 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Risen Guardsman",
+		},
+		[362274] = {
+			["school"] = 106,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Rygelon",
 		},
 		[261148] = {
 			["school"] = 1,
@@ -52928,6 +52758,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Plaguesplash",
 		},
+		[358771] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Burning Shade",
+		},
 		[326005] = {
 			["school"] = 32,
 			["type"] = "BUFF",
@@ -52936,14 +52774,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Sire Denathrius",
-		},
-		[309622] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Cureshotx",
 		},
 		[160963] = {
 			["school"] = 4,
@@ -61208,13 +61038,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dragonmaw Tidal Shaman",
 		},
-		[21163] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[152897] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Smith Regzar",
+			["source"] = "Heat Wave",
 		},
 		[334448] = {
 			["school"] = 8,
@@ -61224,14 +61055,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Pheniya-Stormscale",
 		},
-		[84644] = {
-			["school"] = 8,
+		[21163] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Nezir",
+			["source"] = "Smith Regzar",
 		},
 		[69927] = {
 			["school"] = 2,
@@ -64887,15 +64717,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fel-Powered Purifier",
 		},
-		[72385] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Deathbringer Saurfang",
-		},
 		[322274] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -64906,6 +64727,15 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Zolramus Siphoner",
+		},
+		[210294] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Eyesman-TarrenMill",
 		},
 		[70337] = {
 			["school"] = 32,
@@ -64924,14 +64754,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dread Captain Lockwood",
 		},
-		[210294] = {
+		[72385] = {
 			["school"] = 1,
-			["type"] = "BUFF",
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Eyesman-TarrenMill",
+			["source"] = "Deathbringer Saurfang",
 		},
 		[220481] = {
 			["school"] = 64,
@@ -68018,12 +67848,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Hanic-Stormscale",
 		},
-		[107223] = {
-			["school"] = 4,
+		[314179] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Sun",
+			["source"] = "Dark Inquisitor Xanesh",
 		},
 		[83672] = {
 			["school"] = 1,
@@ -68084,14 +67915,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Hideous Amalgamation",
 		},
-		[346945] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[107223] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Baroness Frieda",
+			["source"] = "Sun",
 		},
 		[62317] = {
 			["school"] = 1,
@@ -68537,12 +68366,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lava Elemental",
 		},
-		[115418] = {
-			["school"] = 8,
+		[346959] = {
+			["school"] = 2,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Krik'thik Wind Shaper",
+			["source"] = "Titanic Defense Turret",
 		},
 		[20153] = {
 			["school"] = 4,
@@ -68559,12 +68390,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Cho'gall",
 		},
-		[66269] = {
-			["school"] = 32,
+		[115418] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Lord Jaraxxus",
+			["source"] = "Krik'thik Wind Shaper",
 		},
 		[32323] = {
 			["school"] = 1,
@@ -69139,14 +68970,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Chopper Redhook",
 		},
-		[91872] = {
-			["school"] = 8,
+		[232885] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Servant of Siamat",
+			["source"] = "Sarukel",
 		},
 		[22458] = {
 			["school"] = 2,
@@ -69165,14 +68994,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Klera",
 		},
-		[351073] = {
-			["school"] = 32,
+		[91872] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Remnant of Ner'zhul",
+			["source"] = "Servant of Siamat",
 		},
 		[273254] = {
 			["school"] = 1,
@@ -69216,22 +69045,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Bloodthirsty Crawg",
 		},
-		[202168] = {
-			["school"] = 1,
+		[338788] = {
+			["school"] = 2,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Azdal-Thrall",
+			["source"] = "Eyesman-TarrenMill",
 		},
-		[403] = {
-			["school"] = 8,
+		[346980] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Lilithcn-Ravencrest",
+			["source"] = "Vault Purifier",
 		},
 		[100064] = {
 			["school"] = 1,
@@ -69242,14 +69072,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rageface",
 		},
-		[169402] = {
+		[202168] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Gronnling Laborer",
+			["source"] = "Azdal-Thrall",
 		},
 		[93019] = {
 			["school"] = 32,
@@ -69258,15 +69087,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Twilight Rift",
 		},
-		[25786] = {
+		[403] = {
 			["school"] = 8,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Unknown",
+			["source"] = "Lilithcn-Ravencrest",
 		},
 		[334693] = {
 			["school"] = 16,
@@ -70708,13 +70536,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Empowered Eye of Gul'dan",
 		},
-		[273301] = {
-			["school"] = 1,
+		[259531] = {
+			["school"] = 32,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Stormsong Loyalist",
+			["source"] = "Reanimation Totem",
 		},
 		[71405] = {
 			["school"] = 32,
@@ -70725,14 +70554,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Prince Keleseth",
 		},
-		[322450] = {
-			["school"] = 8,
+		[161233] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Tred'ova",
+			["source"] = "Kyrak",
 		},
 		[227736] = {
 			["school"] = 1,
@@ -72059,14 +71888,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Margrave Stradama",
 		},
-		[228834] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[310205] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Bonecurse",
+			["source"] = "Wrathion",
 		},
 		[31935] = {
 			["school"] = 2,
@@ -72078,12 +71905,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Merzi-Antonidas",
 		},
-		[310205] = {
-			["school"] = 4,
+		[196068] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Wrathion",
 		},
 		[322492] = {
 			["school"] = 8,
@@ -72094,12 +71921,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Margrave Stradama",
 		},
-		[196068] = {
-			["school"] = 64,
+		[228834] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
+			["source"] = "Bonecurse",
 		},
 		[106834] = {
 			["school"] = 4,
@@ -72165,14 +71994,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Bonecurse",
 		},
-		[293827] = {
+		[204262] = {
 			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
-			["source"] = "Mechagon Tinkerer",
+			["source"] = "Käris-TwistingNether",
 		},
 		[101111] = {
 			["school"] = 1,
@@ -72182,14 +72011,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Riplimb",
 		},
-		[204262] = {
-			["school"] = 8,
+		[69369] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_HEAL"] = true,
 			},
-			["source"] = "Käris-TwistingNether",
+			["source"] = "Dwëy",
 		},
 		[187878] = {
 			["school"] = 8,
@@ -72259,13 +72087,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Susih-Turalyon",
 		},
-		[69369] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[293827] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Dwëy",
+			["source"] = "Mechagon Tinkerer",
 		},
 		[265157] = {
 			["school"] = 4,
@@ -72829,6 +72658,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Bargast",
 		},
+		[285653] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Potornot",
+		},
 		[334802] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -72836,14 +72672,6 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Freezog",
-		},
-		[62335] = {
-			["school"] = 2,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Dark Rune Acolyte",
 		},
 		[175601] = {
 			["school"] = 32,
@@ -73383,13 +73211,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Winter Rumbler",
 		},
-		[228854] = {
-			["school"] = 16,
+		[343011] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Helarjar Mistwatcher",
+			["source"] = "Либия-Ревущийфьорд",
 		},
 		[293861] = {
 			["school"] = 8,
@@ -73424,14 +73252,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Vol'kaal",
 		},
-		[245237] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[228854] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Garothi Worldbreaker",
+			["source"] = "Helarjar Mistwatcher",
 		},
 		[115455] = {
 			["school"] = 1,
@@ -73885,15 +73712,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Wrathion",
 		},
-		[269302] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[318451] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Hired Assassin",
+			["source"] = "N'Zoth the Corruptor",
 		},
 		[265206] = {
 			["school"] = 8,
@@ -73905,16 +73729,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Plague Amalgam",
 		},
-		[285685] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[269302] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Uu'nat",
+			["source"] = "Hired Assassin",
 		},
 		[269301] = {
 			["school"] = 32,
@@ -74161,14 +73984,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Bleeding Hollow Scryer",
 		},
-		[70408] = {
-			["school"] = 64,
-			["type"] = "DEBUFF",
+		[265217] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Darkfallen Archmage",
+			["source"] = "Vectis",
 		},
 		[351225] = {
 			["school"] = 1,
@@ -74218,15 +74042,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rîckjames-Blackhand",
 		},
-		[265217] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[206340] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Vectis",
+			["source"] = "Gul'dan",
 		},
 		[192005] = {
 			["school"] = 64,
@@ -74261,12 +74082,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Skorpyron",
 		},
-		[206340] = {
-			["school"] = 4,
+		[70408] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Gul'dan",
+			["source"] = "Darkfallen Archmage",
 		},
 		[257537] = {
 			["school"] = 16,
@@ -75191,12 +75014,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Instructor Razuvious",
 		},
-		[144918] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[355352] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
+			["source"] = "Guardian of the First Ones",
 		},
 		[69391] = {
 			["school"] = 32,
@@ -75222,13 +75046,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Шимицукагуя-ВечнаяПесня",
 		},
-		[44425] = {
-			["school"] = 64,
+		[144918] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Mimingøt-ArgentDawn",
 		},
 		[196115] = {
 			["school"] = 64,
@@ -76684,14 +76507,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Krosus",
 		},
-		[37263] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
+		[230951] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Crimson Hand Battle Mage",
+			["source"] = "Unknown",
 		},
 		[289864] = {
 			["school"] = 1,
@@ -76708,12 +76532,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rowry-Blackmoore",
 		},
-		[298056] = {
+		[37263] = {
 			["school"] = 16,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Lady Ashvane",
+			["source"] = "Crimson Hand Battle Mage",
 		},
 		[132653] = {
 			["school"] = 1,
@@ -76799,12 +76625,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Blingtron MK2",
 		},
-		[204330] = {
-			["school"] = 4,
+		[118552] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Rÿofu-Blackhand",
+			["source"] = "Mogu'shan Secret-Keeper",
 		},
 		[260066] = {
 			["school"] = 1,
@@ -77419,13 +77246,11 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mistress of Pain",
 		},
-		[175670] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[257585] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ironworker",
 		},
 		[235058] = {
 			["school"] = 64,
@@ -77453,14 +77278,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Star Augur Etraeus",
 		},
-		[192053] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[175670] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Warlord Parjesh",
+			["source"] = "Ironworker",
 		},
 		[322654] = {
 			["school"] = 1,
@@ -78735,12 +78559,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Felblood Goliath",
 		},
-		[298120] = {
-			["school"] = 8,
+		[37271] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Aethanel",
+			["source"] = "Crimson Hand Centurion",
 		},
 		[343173] = {
 			["school"] = 1,
@@ -78750,14 +78574,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ajooì-Blackmoore",
 		},
-		[347269] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[298120] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "The Tarragrue",
+			["source"] = "Aethanel",
 		},
 		[202347] = {
 			["school"] = 72,
@@ -78790,12 +78612,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Heínzbeans",
 		},
-		[37271] = {
-			["school"] = 64,
+		[347269] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Crimson Hand Centurion",
+			["source"] = "The Tarragrue",
 		},
 		[38295] = {
 			["school"] = 1,
@@ -78815,6 +78639,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Defiled Spirit",
 		},
+		[298121] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Aethanel",
+		},
 		[255558] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -78822,16 +78654,6 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-		},
-		[111400] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Displacement",
 		},
 		[306311] = {
 			["school"] = 32,
@@ -80164,13 +79986,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Shade of Xavius",
 		},
-		[56219] = {
+		[192094] = {
 			["school"] = 1,
-			["type"] = "BUFF",
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Jedoga Shadowseeker",
+			["source"] = "Warlord Parjesh",
 		},
 		[322736] = {
 			["school"] = 1,
@@ -80321,6 +80144,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Wicked Oppressor",
 		},
+		[302262] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Прауддмур-Гордунни",
+		},
 		[285879] = {
 			["school"] = 8,
 			["type"] = "DEBUFF",
@@ -80336,14 +80167,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Felblood Evoker",
-		},
-		[302262] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Прауддмур-Гордунни",
 		},
 		[310454] = {
 			["school"] = 64,
@@ -80402,15 +80225,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Eye of the Jailer",
 		},
-		[192094] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Warlord Parjesh",
-		},
 		[285874] = {
 			["school"] = 1,
 			["token"] = {
@@ -80418,6 +80232,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Grong the Revenant",
+		},
+		[56219] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Jedoga Shadowseeker",
 		},
 		[255582] = {
 			["school"] = 4,
@@ -81039,13 +80861,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sire Denathrius",
 		},
-		[298121] = {
-			["school"] = 8,
+		[111400] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Aethanel",
+			["source"] = "Displacement",
 		},
 		[82425] = {
 			["school"] = 32,
@@ -81620,11 +81444,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Skylord Tovra",
 		},
-		[257585] = {
-			["school"] = 64,
+		[192053] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
+			["source"] = "Warlord Parjesh",
 		},
 		[351451] = {
 			["school"] = 32,
@@ -81905,14 +81732,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Spectral Death Knight",
 		},
-		[118552] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Mogu'shan Secret-Keeper",
-		},
 		[155181] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -81921,6 +81740,13 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Bellows Operator",
+		},
+		[204330] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Rÿofu-Blackhand",
 		},
 		[55802] = {
 			["school"] = 16,
@@ -81955,15 +81781,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lady Ashvane",
 		},
-		[230951] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[298056] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Unknown",
+			["source"] = "Lady Ashvane",
 		},
 		[310343] = {
 			["school"] = 8,
@@ -82756,13 +82579,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sinister Soulcarver",
 		},
-		[355352] = {
-			["school"] = 1,
+		[44425] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Guardian of the First Ones",
+			["source"] = "Mimingøt-ArgentDawn",
 		},
 		[136841] = {
 			["school"] = 8,
@@ -83317,12 +83140,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Huntsman Altimor",
 		},
-		[318451] = {
+		[285685] = {
 			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "N'Zoth the Corruptor",
+			["source"] = "Uu'nat",
 		},
 		[40872] = {
 			["school"] = 4,
@@ -83579,13 +83406,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Illidan Stormrage",
 		},
-		[343011] = {
+		[245237] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Либия-Ревущийфьорд",
+			["source"] = "Garothi Worldbreaker",
 		},
 		[212625] = {
 			["school"] = 32,
@@ -83877,12 +83705,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Neferset Plaguebringer",
 		},
-		[285653] = {
-			["school"] = 32,
+		[62335] = {
+			["school"] = 2,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Potornot",
+			["source"] = "Dark Rune Acolyte",
 		},
 		[5302] = {
 			["school"] = 1,
@@ -84850,23 +84679,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Azure Serpent",
 		},
-		[161233] = {
-			["school"] = 1,
+		[322450] = {
+			["school"] = 8,
 			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Kyrak",
+			["source"] = "Tred'ova",
 		},
-		[259531] = {
-			["school"] = 32,
+		[273301] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Reanimation Totem",
+			["source"] = "Stormsong Loyalist",
 		},
 		[18392] = {
 			["school"] = 4,
@@ -85424,23 +85252,24 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Zandalari Water-Binder",
 		},
-		[346980] = {
+		[25786] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Unknown",
+		},
+		[169402] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Vault Purifier",
-		},
-		[338788] = {
-			["school"] = 2,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Eyesman-TarrenMill",
+			["source"] = "Gronnling Laborer",
 		},
 		[269651] = {
 			["school"] = 4,
@@ -85450,12 +85279,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fartan",
 		},
-		[232885] = {
-			["school"] = 1,
+		[351073] = {
+			["school"] = 32,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Sarukel",
+			["source"] = "Remnant of Ner'zhul",
 		},
 		[212653] = {
 			["school"] = 64,
@@ -85689,14 +85520,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Priestess Delrissa",
 		},
-		[346959] = {
-			["school"] = 2,
-			["type"] = "BUFF",
+		[66269] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Titanic Defense Turret",
+			["source"] = "Lord Jaraxxus",
 		},
 		[79710] = {
 			["school"] = 64,
@@ -85896,13 +85725,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gul'dan",
 		},
-		[314179] = {
+		[346945] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Dark Inquisitor Xanesh",
+			["source"] = "Baroness Frieda",
 		},
 		[163241] = {
 			["school"] = 8,
@@ -89422,14 +89252,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Leichenstampfer",
 		},
-		[152897] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[84644] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Heat Wave",
+			["source"] = "Nezir",
 		},
 		[198379] = {
 			["school"] = 1,
@@ -93602,13 +93432,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Slâpdâsh",
 		},
-		[358771] = {
-			["school"] = 4,
-			["type"] = "BUFF",
+		[309622] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Burning Shade",
+			["source"] = "Cureshotx",
 		},
 		[298571] = {
 			["school"] = 1,
