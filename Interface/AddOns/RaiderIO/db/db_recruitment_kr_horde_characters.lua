@@ -2,10 +2,10 @@
 -- Copyright (c) 2022 by Ludicrous Speed, LLC
 -- All rights reserved.
 --
-local provider={name=...,data=3,region="kr",faction=2,date="2022-03-26T06:49:25Z",numCharacters=21173,db2={}}
+local provider={name=...,data=3,region="kr",faction=2,date="2022-04-07T19:10:22Z",numCharacters=20305,db2={}}
 local F
 
-F = function() provider.db2["아즈샤라"]={0,"회드새끼"} end F()
+F = function() provider.db2["아즈샤라"]={0,"단수명","장수명"} end F()
 
 F = nil
 RaiderIO.AddProvider(provider)

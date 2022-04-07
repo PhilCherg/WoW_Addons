@@ -7335,6 +7335,7 @@ do
     ---@field public index number
     ---@field public guid string
     ---@field public count number
+    ---@field public who string
     ---@field public sources table<number, number>
     ---@field public hasNewSources boolean
     ---@field public addLoot boolean
@@ -8034,7 +8035,7 @@ do
             local typeText = lootEntry.type and LOG_TYPE_LABEL[lootEntry.type] or "Unknown"
             local linkText = lootEntry.count and lootEntry.count > 1 and format("%sx%d", lootEntry.link, lootEntry.count) or lootEntry.link
             local sourcesText = lootEntry.sources and CountSources(lootEntry.sources) or ""
-            return format("%s | %s | %s%s", timeText, typeText, linkText, sourcesText)
+            return format("%s | %s | %s%s%s", timeText, typeText, linkText, sourcesText, lootEntry.who and format(" (%s)", lootEntry.who) or "")
         end
 
         local function GetHyperlink(elementData)

@@ -1,4 +1,4 @@
--- Generated from CurseForge on Sat Mar 26 19:01:22 UTC 2022
+-- Generated from CurseForge on Thu Apr  7 19:17:59 UTC 2022
 local ns = select(2, ...) ---@type ns @The addon namespace.
 
 if ns:IsSameLocale("esES") then
@@ -50,7 +50,7 @@ L["CONFIRM"] = "Confirmar"
 L["COPY_RAIDERIO_PROFILE_URL"] = "Copiar URL de Raider.IO"
 L["COPY_RAIDERIO_RECRUITMENT_URL"] = "Copiar URL de Recutramiento"
 L["COPY_RAIDERIO_URL"] = "Copiar la URL de Raider.IO"
-L["CURRENT_MAINS_SCORE"] = "Puntuación actual de M+ del Personaje Principal"
+L["CURRENT_MAINS_SCORE"] = "Puntuación actual de M+ del Main"
 L["CURRENT_SCORE"] = [=[Actual puntuación M+
 ]=]
 L["DISABLE_DEBUG_MODE_RELOAD"] = "Estás desactivando el modo Debug. Al hacer clic en Confirmar se cargará de nuevo su interfaz."
@@ -135,7 +135,7 @@ L["KEYSTONE_COMPLETED_5"] = "+5-9 (en tiempo)"
 L["LEGION_MAIN_SCORE"] = "Puntuación de personaje principal en Legion"
 L["LEGION_SCORE"] = "Puntuación en Legion"
 L["LOCKING_PROFILE_FRAME"] = "RaiderIO: bloqueando el marco de perfil de M+."
-L["MAINS_BEST_SCORE_BEST_SEASON"] = "Mejor puntuación en M+ con el personaje principal (%s)"
+L["MAINS_BEST_SCORE_BEST_SEASON"] = "Mejor puntuación en M+ con el main (%s)"
 L["MAINS_RAID_PROGRESS"] = "Progreso de personaje principal"
 L["MAINS_SCORE"] = "Puntuación de personaje principal"
 L["MAINS_SCORE_COLON"] = "Puntuación de personaje principal:"

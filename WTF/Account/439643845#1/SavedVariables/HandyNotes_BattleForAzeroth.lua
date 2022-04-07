@@ -4,13 +4,15 @@ HandyNotes_BattleForAzerothDB = {
 		["Barbaxius - Outland"] = "Default",
 		["Necrophagus - Outland"] = "Default",
 		["Phaltraxion - Outland"] = "Default",
+		["Phelanara - Outland"] = "Default",
 		["Illyana - Outland"] = "Default",
 		["Destruxia - Outland"] = "Default",
-		["Phaladinus - Outland"] = "Default",
 		["Serthaxion - Outland"] = "Default",
+		["Phaladinus - Outland"] = "Default",
+		["Shadroxia - Outland"] = "Default",
 		["Luminaxia - Outland"] = "Default",
 		["Lianxia - Draenor"] = "Default",
-		["Phelanara - Outland"] = "Default",
+		["Elementior - Outland"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

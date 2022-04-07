@@ -20,12 +20,12 @@ TomTomDB = {
 		["Feattwo - Outland"] = "Default",
 		["Destruxia - Outland"] = "Default",
 		["Illydaria - Draenor"] = "Default",
-		["Wolfados - Azjol-Nerub"] = "Default",
+		["Afadsfasdfs - Outland"] = "Default",
 		["Farmerixus - Outland"] = "Default",
 		["Luminaxia - Outland"] = "Default",
 		["Testfirst - Outland"] = "Default",
-		["Mallazin - Azjol-Nerub"] = "Default",
 		["Bullenic - Silvermoon"] = "Default",
+		["Mallazin - Azjol-Nerub"] = "Default",
 		["Barbaxius - Outland"] = "Default",
 		["Asdawdwd - Outland"] = "Default",
 		["Moneyfour - Outland"] = "Default",
@@ -55,7 +55,7 @@ TomTomDB = {
 		["Moneythree - Outland"] = "Default",
 		["Serthaxion - Outland"] = "Default",
 		["Phalonius - Azjol-Nerub"] = "Default",
-		["Afadsfasdfs - Outland"] = "Default",
+		["Wolfados - Azjol-Nerub"] = "Default",
 		["Feastthree - Outland"] = "Default",
 	},
 	["profiles"] = {
@@ -116,12 +116,12 @@ TomTomWaypointsM = {
 		["Feattwo - Outland"] = "Feattwo - Outland",
 		["Destruxia - Outland"] = "Destruxia - Outland",
 		["Illydaria - Draenor"] = "Illydaria - Draenor",
-		["Wolfados - Azjol-Nerub"] = "Wolfados - Azjol-Nerub",
+		["Afadsfasdfs - Outland"] = "Afadsfasdfs - Outland",
 		["Farmerixus - Outland"] = "Farmerixus - Outland",
 		["Luminaxia - Outland"] = "Luminaxia - Outland",
 		["Testfirst - Outland"] = "Testfirst - Outland",
-		["Mallazin - Azjol-Nerub"] = "Mallazin - Azjol-Nerub",
 		["Bullenic - Silvermoon"] = "Bullenic - Silvermoon",
+		["Mallazin - Azjol-Nerub"] = "Mallazin - Azjol-Nerub",
 		["Barbaxius - Outland"] = "Barbaxius - Outland",
 		["Asdawdwd - Outland"] = "Asdawdwd - Outland",
 		["Moneyfour - Outland"] = "Moneyfour - Outland",
@@ -151,7 +151,7 @@ TomTomWaypointsM = {
 		["Moneythree - Outland"] = "Moneythree - Outland",
 		["Serthaxion - Outland"] = "Serthaxion - Outland",
 		["Phalonius - Azjol-Nerub"] = "Phalonius - Azjol-Nerub",
-		["Afadsfasdfs - Outland"] = "Afadsfasdfs - Outland",
+		["Wolfados - Azjol-Nerub"] = "Wolfados - Azjol-Nerub",
 		["Feastthree - Outland"] = "Feastthree - Outland",
 	},
 	["profiles"] = {
@@ -172,160 +172,6 @@ TomTomWaypointsM = {
 		["Phaladinus - Outland"] = {
 		},
 		["Shadroxia - Outland"] = {
-			[1525] = {
-				["1525:385000000:399000000:The Harvest"] = {
-					1525, -- [1]
-					0.385, -- [2]
-					0.399, -- [3]
-					["arrivaldistance"] = 15,
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "The Harvest",
-					["silent"] = true,
-					["cleardistance"] = 0,
-					["title"] = "The Harvest",
-					["from"] = "ATT\nRead the |cFFFFFFFFNote What Says Where You Put The Key|r near the treasure to figure out where the key is.\n\n? 'By one of those big lamps' = |cFFFFFFFF43.8, 41.4|r\n? 'In another storehouse' = |cFFFFFFFF38.2, 43.7|r",
-					["worldmap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
-					["minimap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1525:665000000:428000000:Secret Treasure"] = {
-					1525, -- [1]
-					0.665, -- [2]
-					0.428, -- [3]
-					["arrivaldistance"] = 15,
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Secret Treasure",
-					["silent"] = true,
-					["cleardistance"] = 0,
-					["title"] = "Secret Treasure",
-					["from"] = "ATT\nFind the small alcove at |cFFFFFFFF65.7, 42.9|r.\n On the wall behind a dark red oval rug is a single |cFFFFFFFFFlickering Candle|r.\n Click it to open up a secret passage beneath the rug.\n To exit after you collect the treasure, click the candle on the right-hand side of the stairs where you entered.",
-					["worldmap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
-					["minimap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1525:502000000:490000000:Secret Treasure"] = {
-					1525, -- [1]
-					0.502, -- [2]
-					0.49, -- [3]
-					["crazy"] = true,
-					["minimap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
-					["arrivaldistance"] = 15,
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["from"] = "ATT\nDo not take the mirror portal!  To the right of the mirror, there is a |cFFFFFFFFHanging Chain|r.\n Clicking the chain will pull you up to the tiny alcove above the treasure.\n Click the |cFFFFFFFFGrinchin Calligraphy Set|r on the desk to pick up the |cFFFFFFFFHouse Grinchin Ring|r, which will allow you to loot the treasure.",
-					["persistent"] = true,
-					["minimap"] = true,
-					["silent"] = true,
-					["cleardistance"] = 0,
-					["title"] = "Secret Treasure",
-					["worldmap_displayID"] = 94765,
-					["worldmap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
-					["minimap_displayID"] = 94765,
-					["desc"] = "Secret Treasure",
-					["world"] = true,
-				},
-				["1525:458000000:478000000:Forgotten Noble's Chest"] = {
-					1525, -- [1]
-					0.458, -- [2]
-					0.478, -- [3]
-					["arrivaldistance"] = 15,
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Forgotten Noble's Chest",
-					["silent"] = true,
-					["cleardistance"] = 0,
-					["title"] = "Forgotten Noble's Chest",
-					["from"] = "ATT\nOpening a Crypt Door with the Atonement Crypt Key has a chance to reveal a Mirror that leads to this chest.",
-					["worldmap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
-					["minimap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1525:553000000:359000000:Secret Treasure"] = {
-					1525, -- [1]
-					0.5529999999999999, -- [2]
-					0.359, -- [3]
-					["arrivaldistance"] = 15,
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Secret Treasure",
-					["silent"] = true,
-					["cleardistance"] = 0,
-					["title"] = "Secret Treasure",
-					["from"] = "ATT\nEnter the crypt at |cFFFFFFFF55.2, 34.7|r.\n Downstairs, go through the right-hand door and defeat Lord Darion.\n\nWhen you turn to leave the room, you will see a painting on either side of the door.\n The one on the right side is a |cFFFFFFFFFlickering Portrait|r, and it has a hidden lever behind it that will open the door to the treasure.\n There are two more Venthyr guarding the chest.",
-					["worldmap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
-					["minimap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1525:425000000:503000000:Secret Treasure"] = {
-					1525, -- [1]
-					0.425, -- [2]
-					0.503, -- [3]
-					["arrivaldistance"] = 15,
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Secret Treasure",
-					["silent"] = true,
-					["cleardistance"] = 0,
-					["title"] = "Secret Treasure",
-					["from"] = "ATT\nEnter the crypt at |cFFFFFFFF41.9, 50.0|r.\n Downstairs, go through the right-hand door.\n On the left side of the room is a bookshelf with a |cFFFFFFFFNondescript Book|r.\n Click the book, and the treasure will appear.",
-					["worldmap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
-					["minimap_icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
 		},
 		["Lianxia - Draenor"] = {
 		},
@@ -589,7 +435,7 @@ TomTomWaypointsM = {
 		},
 		["Illydaria - Draenor"] = {
 		},
-		["Wolfados - Azjol-Nerub"] = {
+		["Afadsfasdfs - Outland"] = {
 		},
 		["Farmerixus - Outland"] = {
 		},
@@ -610,15 +456,15 @@ TomTomWaypointsM = {
 					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
-					["minimap_displayID"] = 89265,
+					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
 					["persistent"] = true,
 					["desc"] = "Return to the Orphanage",
 					["silent"] = true,
 					["cleardistance"] = 0,
-					["title"] = "Return to the Orphanage",
-					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
-					["worldmap_displayID"] = 89265,
 					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["minimap_displayID"] = 89265,
+					["worldmap_displayID"] = 89265,
+					["title"] = "Return to the Orphanage",
 					["minimap"] = true,
 					["world"] = true,
 				},
@@ -637,15 +483,15 @@ TomTomWaypointsM = {
 					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
-					["minimap_displayID"] = 89265,
+					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
 					["persistent"] = true,
 					["desc"] = "Return to the Orphanage",
 					["silent"] = true,
 					["cleardistance"] = 0,
-					["title"] = "Return to the Orphanage",
-					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
-					["worldmap_displayID"] = 89265,
 					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["minimap_displayID"] = 89265,
+					["worldmap_displayID"] = 89265,
+					["title"] = "Return to the Orphanage",
 					["minimap"] = true,
 					["world"] = true,
 				},
@@ -653,9 +499,9 @@ TomTomWaypointsM = {
 		},
 		["Testfirst - Outland"] = {
 		},
-		["Mallazin - Azjol-Nerub"] = {
-		},
 		["Bullenic - Silvermoon"] = {
+		},
+		["Mallazin - Azjol-Nerub"] = {
 		},
 		["Barbaxius - Outland"] = {
 		},
@@ -809,15 +655,15 @@ TomTomWaypointsM = {
 						["world"] = {
 						},
 					},
-					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
+					["minimap_displayID"] = 89265,
 					["persistent"] = true,
 					["minimap"] = true,
 					["silent"] = true,
 					["cleardistance"] = 0,
-					["title"] = "Return to the Orphanage",
-					["minimap_displayID"] = 89265,
-					["worldmap_displayID"] = 89265,
 					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
+					["worldmap_displayID"] = 89265,
+					["title"] = "Return to the Orphanage",
 					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["world"] = true,
 				},
@@ -836,15 +682,15 @@ TomTomWaypointsM = {
 						["world"] = {
 						},
 					},
-					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
+					["minimap_displayID"] = 89265,
 					["persistent"] = true,
 					["minimap"] = true,
 					["silent"] = true,
 					["cleardistance"] = 0,
-					["title"] = "Return to the Orphanage",
-					["minimap_displayID"] = 89265,
-					["worldmap_displayID"] = 89265,
 					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
+					["worldmap_displayID"] = 89265,
+					["title"] = "Return to the Orphanage",
 					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["world"] = true,
 				},
@@ -852,7 +698,7 @@ TomTomWaypointsM = {
 		},
 		["Phalonius - Azjol-Nerub"] = {
 		},
-		["Afadsfasdfs - Outland"] = {
+		["Wolfados - Azjol-Nerub"] = {
 		},
 		["Feastthree - Outland"] = {
 		},

@@ -1,9 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0534,
-	["LastPlayerFullName"] = "Necrophagus-Outland",
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 188889,
@@ -58,10 +55,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:189854::::::::60:267::3:5:7189:6652:7578:1498:6646:1:28:2165:::::|h[Rygelon's Heraldric Ring]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 190633,
-			["Level"] = 252,
+			["ID"] = 189854,
+			["Level"] = 259,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:190633:6166:::::::60:267::11:4:8115:6652:7579:1491:1:28:2057:::::|h[Cypher-Etched Band]|h|r",
+			["Link"] = "|cffa335ee|Hitem:189854:6166:::::::60:267::3:5:7189:6652:7578:1498:6646:1:28:2165:::::|h[Rygelon's Heraldric Ring]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 180117,
@@ -91,7 +88,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178868::::::::60:267::35:5:7662:7359:6652:1560:6646::::::|h[Deathwalker's Promise]|h|r",
 		}, -- [17]
 	},
-	["LastKeybindingsSet"] = 1,
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Necrophagus-Outland",
 	["Artifacts"] = {
 		[128941] = {
 			["Relics"] = {
@@ -133,6 +132,7 @@ PawnOptions = {
 			["Name"] = "Underlight Angler",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "WARLOCK",

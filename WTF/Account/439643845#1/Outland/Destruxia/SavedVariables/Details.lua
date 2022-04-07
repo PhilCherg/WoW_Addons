@@ -7,13 +7,12 @@ _detalhes_database = {
 		["tabelas"] = {
 			{
 				{
-					["combatId"] = 5,
 					["tipo"] = 2,
+					["combatId"] = 5,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["totalabsorbed"] = 0.003307,
-							["spec"] = 63,
 							["damage_from"] = {
 								["Ravenous Ranishu"] = true,
 								["Dunegorger Kraulok"] = true,
@@ -24,22 +23,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
-							["end_time"] = 1649263674,
-							["aID"] = "1301-0B0D298B",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 38622.003307,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["total"] = 38622.003307,
 							["classe"] = "MAGE",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Destruxia",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[257542] = {
 										["c_amt"] = 2,
@@ -58,16 +43,16 @@ _detalhes_database = {
 										["c_max"] = 1056,
 										["id"] = 257542,
 										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 910,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 4,
 									},
 									[108853] = {
 										["c_amt"] = 8,
@@ -86,16 +71,16 @@ _detalhes_database = {
 										["c_max"] = 1086,
 										["id"] = 108853,
 										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 1038,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 4,
 									},
 									[133] = {
 										["c_amt"] = 4,
@@ -114,16 +99,16 @@ _detalhes_database = {
 										["c_max"] = 1250,
 										["id"] = 133,
 										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 1215,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 7,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 4,
 									},
 									[277703] = {
 										["c_amt"] = 14,
@@ -143,16 +128,16 @@ _detalhes_database = {
 										["c_max"] = 35,
 										["id"] = 277703,
 										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 29,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 11,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 4,
 									},
 									[205345] = {
 										["c_amt"] = 4,
@@ -172,16 +157,156 @@ _detalhes_database = {
 										["c_max"] = 79,
 										["id"] = 205345,
 										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 70,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 4,
+									},
+									[226757] = {
+										["c_amt"] = 10,
+										["b_amt"] = 0,
+										["c_dmg"] = 173,
+										["g_amt"] = 0,
+										["n_max"] = 10,
+										["targets"] = {
+											["Dunegorger Kraulok"] = 277,
+										},
+										["n_dmg"] = 104,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 22,
+										["total"] = 277,
+										["c_max"] = 20,
+										["id"] = 226757,
+										["r_dmg"] = 0,
 										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 9,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 12,
+										["extra"] = {
+										},
+										["spellschool"] = 4,
+									},
+									[259756] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 86,
+										["targets"] = {
+											["Dunegorger Kraulok"] = 522,
+										},
+										["n_dmg"] = 522,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 25,
+										["total"] = 522,
+										["c_max"] = 0,
+										["id"] = 259756,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 25,
+										["extra"] = {
+										},
+										["spellschool"] = 48,
+									},
+									[12654] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 291,
+										["targets"] = {
+											["Dunegorger Kraulok"] = 6226,
+										},
+										["n_dmg"] = 6226,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 53,
+										["total"] = 6226,
+										["c_max"] = 0,
+										["id"] = 12654,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 53,
+										["extra"] = {
+										},
+										["spellschool"] = 4,
+									},
+									[11366] = {
+										["c_amt"] = 5,
+										["b_amt"] = 0,
+										["c_dmg"] = 8136,
+										["g_amt"] = 0,
+										["n_max"] = 795,
+										["targets"] = {
+											["Dunegorger Kraulok"] = 9699,
+										},
+										["n_dmg"] = 1563,
+										["n_min"] = 768,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 9699,
+										["c_max"] = 1747,
+										["id"] = 11366,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 1520,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["extra"] = {
+										},
+										["spellschool"] = 4,
+									},
+									[2948] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 88,
+										["targets"] = {
+											["Dunegorger Kraulok"] = 88,
+										},
+										["n_dmg"] = 88,
+										["n_min"] = 88,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 88,
+										["c_max"] = 0,
+										["id"] = 2948,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 4,
 									},
 									[235314] = {
 										["c_amt"] = 1,
@@ -201,168 +326,43 @@ _detalhes_database = {
 										["c_max"] = 167,
 										["id"] = 235314,
 										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 167,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[226757] = {
-										["c_amt"] = 10,
-										["b_amt"] = 0,
-										["c_dmg"] = 173,
-										["g_amt"] = 0,
-										["n_max"] = 10,
-										["targets"] = {
-											["Dunegorger Kraulok"] = 277,
+										["extra"] = {
 										},
-										["n_dmg"] = 104,
-										["n_min"] = 8,
-										["g_dmg"] = 0,
-										["counter"] = 22,
-										["total"] = 277,
-										["c_max"] = 20,
-										["id"] = 226757,
-										["r_dmg"] = 0,
 										["spellschool"] = 4,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 9,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 12,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[12654] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 291,
-										["targets"] = {
-											["Dunegorger Kraulok"] = 6226,
-										},
-										["n_dmg"] = 6226,
-										["n_min"] = 1,
-										["g_dmg"] = 0,
-										["counter"] = 53,
-										["total"] = 6226,
-										["c_max"] = 0,
-										["id"] = 12654,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 53,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[11366] = {
-										["c_amt"] = 5,
-										["b_amt"] = 0,
-										["c_dmg"] = 8136,
-										["g_amt"] = 0,
-										["n_max"] = 795,
-										["targets"] = {
-											["Dunegorger Kraulok"] = 9699,
-										},
-										["n_dmg"] = 1563,
-										["n_min"] = 768,
-										["g_dmg"] = 0,
-										["counter"] = 7,
-										["total"] = 9699,
-										["c_max"] = 1747,
-										["id"] = 11366,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 1520,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[2948] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 88,
-										["targets"] = {
-											["Dunegorger Kraulok"] = 88,
-										},
-										["n_dmg"] = 88,
-										["n_min"] = 88,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 88,
-										["c_max"] = 0,
-										["id"] = 2948,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[259756] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 86,
-										["targets"] = {
-											["Dunegorger Kraulok"] = 522,
-										},
-										["n_dmg"] = 522,
-										["n_min"] = 1,
-										["g_dmg"] = 0,
-										["counter"] = 25,
-										["total"] = 522,
-										["c_max"] = 0,
-										["id"] = 259756,
-										["r_dmg"] = 0,
-										["spellschool"] = 48,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 25,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["serial"] = "Player-1301-0B0D298B",
-							["last_dps"] = 711.0219869106638,
-							["custom"] = 0,
-							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 38622.003307,
 							["damage_taken"] = 2129.003307,
-							["start_time"] = 1649263620,
 							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 38622.003307,
+							["aID"] = "1301-0B0D298B",
+							["last_dps"] = 711.0219869106638,
+							["nome"] = "Destruxia",
+							["spec"] = 63,
+							["grupo"] = true,
+							["end_time"] = 1649263674,
 							["last_event"] = 1649263674,
+							["custom"] = 0,
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1649263620,
+							["serial"] = "Player-1301-0B0D298B",
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -372,39 +372,38 @@ _detalhes_database = {
 								["Akasum-Silvermoon"] = true,
 								["Wild Imp <Faudes-Silvermoon>"] = true,
 								["Felguard <Pleven-Kazzak>"] = true,
-								["Ttknd-Kazzak"] = true,
 								["Pleven-Kazzak"] = true,
+								["Knar-Ravencrest"] = true,
 								["Destruxia"] = true,
 								["Wild Imp <Pleven-Kazzak>"] = true,
 								["Faudes-Silvermoon"] = true,
-								["Knar-Ravencrest"] = true,
+								["Ttknd-Kazzak"] = true,
 								["Infernal <Ttknd-Kazzak>"] = true,
 							},
 							["targets"] = {
 								["Akasum-Silvermoon"] = 6535,
 								["Destruxia"] = 1783,
 								["Maathun"] = 39,
-								["Ttknd-Kazzak"] = 10923,
 								["Knar-Ravencrest"] = 5158,
+								["Ttknd-Kazzak"] = 10923,
 								["Infernal <Ttknd-Kazzak>"] = 73,
 							},
-							["serial"] = "Vehicle-0-3102-1642-38-138794-00004DC3FA",
+							["delay"] = 0,
 							["pets"] = {
 							},
-							["on_hold"] = false,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
+							["end_time"] = 1649263674,
+							["aID"] = "",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 24511.00899,
 							["fight_component"] = true,
-							["end_time"] = 1649263674,
 							["dps_started"] = false,
 							["total"] = 24511.00899,
-							["monster"] = true,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Dunegorger Kraulok",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -425,8 +424,8 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["a_dmg"] = 4037,
-										["spellschool"] = 1,
+										["r_amt"] = 0,
+										["b_dmg"] = 2523,
 										["extra"] = {
 										},
 										["PARRY"] = 4,
@@ -434,8 +433,8 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["a_amt"] = 1,
 										["n_amt"] = 21,
-										["b_dmg"] = 2523,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 4037,
 									}, -- [1]
 									[275194] = {
 										["c_amt"] = 0,
@@ -453,15 +452,15 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 275194,
 										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
 									},
 									[275175] = {
 										["c_amt"] = 0,
@@ -470,9 +469,9 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 1424,
 										["targets"] = {
-											["Maathun"] = 39,
-											["Ttknd-Kazzak"] = 2791,
 											["Infernal <Ttknd-Kazzak>"] = 73,
+											["Ttknd-Kazzak"] = 2791,
+											["Maathun"] = 39,
 										},
 										["n_dmg"] = 2903,
 										["n_min"] = 36,
@@ -482,15 +481,15 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 275175,
 										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 2,
 										["a_amt"] = 0,
 										["n_amt"] = 5,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
 									},
 									[275184] = {
 										["c_amt"] = 0,
@@ -511,16 +510,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 275184,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 5,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[275200] = {
 										["c_amt"] = 0,
@@ -538,15 +537,15 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 275200,
 										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
 									},
 									[276046] = {
 										["c_amt"] = 0,
@@ -565,29 +564,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 276046,
 										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["PARRY"] = 2,
 										["c_min"] = 0,
 										["successful_casted"] = 2,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "",
+							["on_hold"] = false,
 							["friendlyfire"] = {
 							},
-							["last_dps"] = 0,
+							["monster"] = true,
 							["custom"] = 0,
 							["last_event"] = 1649263673,
 							["damage_taken"] = 708682.00899,
 							["start_time"] = 1649263621,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Vehicle-0-3102-1642-38-138794-00004DC3FA",
+							["classe"] = "UNKNOW",
 						}, -- [2]
 						{
 							["flag_original"] = 8776,
@@ -595,9 +595,9 @@ _detalhes_database = {
 							["damage_from"] = {
 								["Akasum-Silvermoon"] = true,
 								["Destruxia"] = true,
-								["Ttknd-Kazzak"] = true,
-								["Faudes-Silvermoon"] = true,
 								["Knar-Ravencrest"] = true,
+								["Faudes-Silvermoon"] = true,
+								["Ttknd-Kazzak"] = true,
 								["Infernal <Ttknd-Kazzak>"] = true,
 							},
 							["targets"] = {
@@ -609,20 +609,19 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["aID"] = "139614",
+							["timeMachine"] = 1,
 							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3393.002031,
+							["delay"] = 1649263683,
+							["fight_component"] = true,
+							["total"] = 3393.002031,
 							["friendlyfire"] = {
 							},
-							["fight_component"] = true,
-							["dps_started"] = true,
-							["total"] = 3393.002031,
-							["timeMachine"] = 1,
 							["on_hold"] = true,
 							["nome"] = "Ravenous Ranishu",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -639,23 +638,23 @@ _detalhes_database = {
 										["n_min"] = 9,
 										["g_dmg"] = 0,
 										["counter"] = 24,
-										["a_dmg"] = 0,
 										["total"] = 726,
+										["r_amt"] = 0,
 										["c_max"] = 0,
-										["DODGE"] = 5,
+										["b_dmg"] = 18,
 										["id"] = 1,
 										["r_dmg"] = 0,
 										["MISS"] = 6,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
 										["extra"] = {
 										},
 										["PARRY"] = 6,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
 										["n_amt"] = 7,
-										["b_dmg"] = 18,
-										["r_amt"] = 0,
+										["DODGE"] = 5,
+										["a_dmg"] = 0,
 									}, -- [1]
 									[275996] = {
 										["c_amt"] = 0,
@@ -676,16 +675,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 275996,
 										["r_dmg"] = 0,
-										["MISS"] = 2,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 6,
 										["a_amt"] = 0,
 										["n_amt"] = 30,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["MISS"] = 2,
 									},
 									[276000] = {
 										["c_amt"] = 0,
@@ -703,15 +702,15 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 276000,
 										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 10,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
 									},
 									[276036] = {
 										["c_amt"] = 0,
@@ -731,49 +730,48 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 276036,
 										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 3,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
-							["serial"] = "Creature-0-3102-1642-38-139614-00004DC419",
+							["tipo"] = 1,
 							["last_dps"] = 0,
+							["dps_started"] = true,
 							["custom"] = 0,
 							["last_event"] = 1649263683,
 							["damage_taken"] = 48397.002031,
 							["start_time"] = 1649263655,
-							["delay"] = 1649263683,
-							["tipo"] = 1,
+							["serial"] = "Creature-0-3102-1642-38-139614-00004DC419",
+							["friendlyfire_total"] = 0,
 						}, -- [3]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 5,
 					["tipo"] = 3,
+					["combatId"] = 5,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["targets_overheal"] = {
-								["Destruxia"] = 23,
+							["healing_from"] = {
+								["Destruxia"] = true,
 							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "MAGE",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 23.006952,
 							["total_without_pet"] = 2129.006952,
 							["total"] = 2129.006952,
-							["targets_absorbs"] = {
-								["Destruxia"] = 2129,
-							},
+							["spec"] = 63,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -787,13 +785,12 @@ _detalhes_database = {
 							["healing_taken"] = 2129.006952,
 							["fight_component"] = true,
 							["end_time"] = 1649263674,
-							["healing_from"] = {
-								["Destruxia"] = true,
+							["targets_overheal"] = {
+								["Destruxia"] = 23,
 							},
-							["heal_enemy_amt"] = 0,
+							["tipo"] = 2,
 							["nome"] = "Destruxia",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[269279] = {
 										["c_amt"] = 0,
@@ -813,9 +810,9 @@ _detalhes_database = {
 										["targets_absorbs"] = {
 											["Destruxia"] = 1121,
 										},
-										["n_amt"] = 2,
-										["c_min"] = 0,
 										["c_curado"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 2,
 										["n_curado"] = 1121,
 										["totaldenied"] = 0,
 										["is_shield"] = true,
@@ -864,216 +861,219 @@ _detalhes_database = {
 										["targets_absorbs"] = {
 											["Destruxia"] = 1008,
 										},
-										["n_amt"] = 1,
-										["c_min"] = 0,
 										["c_curado"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 1,
 										["n_curado"] = 1008,
 										["totaldenied"] = 0,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1649263662,
-							["spec"] = 63,
-							["custom"] = 0,
-							["tipo"] = 2,
-							["aID"] = "1301-0B0D298B",
+							["classe"] = "MAGE",
 							["totaldenied"] = 0.006952,
-							["delay"] = 1649263658,
+							["custom"] = 0,
 							["last_event"] = 1649263671,
+							["aID"] = "1301-0B0D298B",
+							["start_time"] = 1649263662,
+							["delay"] = 1649263658,
+							["targets_absorbs"] = {
+								["Destruxia"] = 2129,
+							},
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 5,
 					["tipo"] = 7,
+					["combatId"] = 5,
 					["_ActorTable"] = {
 					},
 				}, -- [3]
 				{
-					["combatId"] = 5,
 					["tipo"] = 9,
+					["combatId"] = 5,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[12654] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 29,
 										["id"] = 12654,
+										["uptime"] = 54,
 										["targets"] = {
 										},
-										["uptime"] = 54,
 										["appliedamt"] = 1,
-										["refreshamt"] = 29,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[277703] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 2,
+										["refreshamt"] = 3,
 										["id"] = 277703,
+										["uptime"] = 29,
 										["targets"] = {
 										},
-										["uptime"] = 29,
 										["appliedamt"] = 6,
-										["refreshamt"] = 3,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[226757] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 8,
 										["id"] = 226757,
+										["uptime"] = 40,
 										["targets"] = {
 										},
-										["uptime"] = 40,
 										["appliedamt"] = 2,
-										["refreshamt"] = 8,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 307,
 							["aID"] = "1301-0B0D298B",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[256374] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 256374,
+										["uptime"] = 12,
 										["targets"] = {
 										},
-										["uptime"] = 12,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[116267] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 116267,
+										["uptime"] = 0,
 										["targets"] = {
 										},
-										["uptime"] = 0,
 										["appliedamt"] = 0,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[48107] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 11,
+										["refreshamt"] = 0,
 										["id"] = 48107,
+										["uptime"] = 14,
 										["targets"] = {
 										},
-										["uptime"] = 14,
 										["appliedamt"] = 11,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[274598] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 7,
+										["refreshamt"] = 1,
 										["id"] = 274598,
+										["uptime"] = 23,
 										["targets"] = {
 										},
-										["uptime"] = 23,
 										["appliedamt"] = 7,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[235313] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 235313,
+										["uptime"] = 50,
 										["targets"] = {
 										},
-										["uptime"] = 50,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[270661] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 3,
+										["refreshamt"] = 0,
 										["id"] = 270661,
-										["targets"] = {
-										},
 										["uptime"] = 49,
+										["targets"] = {
+										},
 										["appliedamt"] = 3,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[48108] = {
-										["activedamt"] = 7,
-										["id"] = 48108,
-										["targets"] = {
-										},
-										["uptime"] = 7,
-										["appliedamt"] = 7,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[190319] = {
-										["activedamt"] = 1,
-										["id"] = 190319,
-										["targets"] = {
-										},
-										["uptime"] = 10,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[157644] = {
-										["activedamt"] = 4,
-										["id"] = 157644,
-										["targets"] = {
-										},
-										["uptime"] = 32,
-										["appliedamt"] = 4,
-										["refreshamt"] = 3,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[269279] = {
-										["activedamt"] = 2,
-										["id"] = 269279,
-										["targets"] = {
-										},
-										["uptime"] = 53,
-										["appliedamt"] = 2,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[236060] = {
-										["activedamt"] = 1,
-										["id"] = 236060,
-										["targets"] = {
-										},
-										["uptime"] = 3,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[225788] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 225788,
+										["uptime"] = 54,
 										["targets"] = {
 										},
-										["uptime"] = 54,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
+									},
+									[190319] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 190319,
+										["uptime"] = 10,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[157644] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 4,
+										["refreshamt"] = 3,
+										["id"] = 157644,
+										["uptime"] = 32,
+										["targets"] = {
+										},
+										["appliedamt"] = 4,
+									},
+									[269279] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 1,
+										["id"] = 269279,
+										["uptime"] = 53,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[236060] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 236060,
+										["uptime"] = 3,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[48108] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 7,
+										["refreshamt"] = 0,
+										["id"] = 48108,
+										["uptime"] = 7,
+										["targets"] = {
+										},
+										["appliedamt"] = 7,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 123,
@@ -1084,62 +1084,62 @@ _detalhes_database = {
 								[133] = 10,
 								[190319] = 1,
 								[257541] = 3,
-								[11366] = 7,
-								[235313] = 1,
 								[108853] = 8,
-							},
-							["debuff_uptime_targets"] = {
+								[235313] = 1,
+								[11366] = 7,
 							},
 							["buff_uptime_targets"] = {
 							},
+							["tipo"] = 4,
 							["last_event"] = 1649263674,
+							["classe"] = "MAGE",
 							["pets"] = {
 							},
-							["classe"] = "MAGE",
 							["serial"] = "Player-1301-0B0D298B",
-							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
-							["classe"] = "UNKNOW",
+							["tipo"] = 4,
 							["nome"] = "Dunegorger Kraulok",
-							["fight_component"] = true,
+							["monster"] = true,
 							["pets"] = {
 							},
 							["spell_cast"] = {
 								[275194] = 1,
-								[275200] = 1,
-								[275175] = 2,
 								[276046] = 2,
+								[275175] = 2,
+								[275200] = 1,
 							},
-							["monster"] = true,
-							["tipo"] = 4,
+							["classe"] = "UNKNOW",
 							["aID"] = "",
-							["serial"] = "Vehicle-0-3102-1642-38-138794-00004DC3FA",
 							["last_event"] = 0,
+							["serial"] = "Vehicle-0-3102-1642-38-138794-00004DC3FA",
+							["fight_component"] = true,
 						}, -- [2]
 						{
 							["flag_original"] = 8776,
-							["classe"] = "PET",
+							["tipo"] = 4,
 							["nome"] = "Ravenous Ranishu",
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["last_event"] = 0,
 							["spell_cast"] = {
 								[275996] = 6,
 								[276000] = 10,
 								[276036] = 3,
 							},
-							["tipo"] = 4,
+							["classe"] = "PET",
 							["aID"] = "139614",
 							["serial"] = "Creature-0-3102-1642-38-139614-00004DC419",
-							["last_event"] = 0,
+							["fight_component"] = true,
 						}, -- [3]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 5,
 					["tipo"] = 2,
+					["combatId"] = 5,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -1150,40 +1150,62 @@ _detalhes_database = {
 					"Destruxia", -- [1]
 				},
 				["CombatStartedAt"] = 22152.889,
-				["overall_added"] = true,
+				["tempo_start"] = 1649263620,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 794,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
-					66525.94556800002, -- [1]
-					2128.966165000001, -- [2]
+					66525.91091100003, -- [1]
+					2128.961093000001, -- [2]
 					{
 						-0.01192300000003144, -- [1]
 						[0] = -0.019965,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
-				["player_last_events"] = {
+				["totals_grupo"] = {
+					38622, -- [1]
+					2129, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "none",
+				["hasSaved"] = true,
 				["data_fim"] = "19:47:55",
 				["cleu_timeline"] = {
 				},
@@ -1194,44 +1216,16 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "19:47:01",
-				["end_time"] = 22207.208,
-				["combat_id"] = 5,
-				["tempo_start"] = 1649263620,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["frags"] = {
-					["Ravenous Ranishu"] = 4,
-					["Sidewinder"] = 2,
-					["Dunegorger Kraulok"] = 1,
-				},
-				["totals_grupo"] = {
-					38622, -- [1]
-					2129, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage"] = {
+						{
+							["Destruxia"] = 38622.003307,
+						}, -- [1]
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -1241,19 +1235,26 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
-					["damage"] = {
-						{
-							["Destruxia"] = 38622.003307,
-						}, -- [1]
-					},
 				},
-				["CombatSkillCache"] = {
+				["end_time"] = 22207.208,
+				["combat_id"] = 5,
+				["overall_added"] = true,
+				["TimeData"] = {
 				},
 				["spells_cast_timeline"] = {
 				},
+				["combat_counter"] = 794,
+				["player_last_events"] = {
+				},
+				["CombatSkillCache"] = {
+				},
+				["data_inicio"] = "19:47:01",
 				["start_time"] = 22152.889,
 				["contra"] = "Dunegorger Kraulok",
-				["TimeData"] = {
+				["frags"] = {
+					["Ravenous Ranishu"] = 4,
+					["Sidewinder"] = 2,
+					["Dunegorger Kraulok"] = 1,
 				},
 			}, -- [1]
 		},
@@ -1311,9 +1312,7 @@ _detalhes_database = {
 		["previous_boss_killed_at"] = 0,
 	},
 	["ignore_nicktag"] = false,
-	["benchmark_db"] = {
-		["frame"] = {
-		},
+	["cached_talents"] = {
 	},
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
@@ -1330,9 +1329,9 @@ _detalhes_database = {
 			["updatespeed"] = 1,
 			["showamount"] = false,
 			["useplayercolor"] = false,
-			["useclasscolors"] = false,
-			["playSoundFile"] = "Details Threat Warning Volume 3",
 			["usefocus"] = false,
+			["playSoundFile"] = "Details Threat Warning Volume 3",
+			["useclasscolors"] = false,
 		},
 		["DETAILS_PLUGIN_RAIDCHECK"] = {
 			["enabled"] = true,
@@ -1359,15 +1358,15 @@ _detalhes_database = {
 			["tank_block_size"] = 150,
 			["bar_height"] = 24,
 			["tank_block_texture"] = "Details Serenity",
-			["show_inc_bars"] = false,
-			["tank_block_height"] = 40,
-			["tank_block_powerbar_size_height"] = 10,
 			["tank_block_color"] = {
 				0.24705882, -- [1]
 				0.0039215, -- [2]
 				0, -- [3]
 				0.8, -- [4]
 			},
+			["tank_block_powerbar_size_height"] = 10,
+			["tank_block_height"] = 40,
+			["show_inc_bars"] = false,
 		},
 		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
 			["enabled"] = true,
@@ -1377,11 +1376,11 @@ _detalhes_database = {
 			["last_section_selected"] = "main",
 			["author"] = "Details! Team",
 			["window_scale"] = 1,
-			["encounter_timers_dbm"] = {
-			},
+			["hide_on_combat"] = false,
 			["show_icon"] = 5,
 			["opened"] = 0,
-			["hide_on_combat"] = false,
+			["encounter_timers_dbm"] = {
+			},
 		},
 		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
 			["font_color"] = {
@@ -1407,27 +1406,22 @@ _detalhes_database = {
 				["radius"] = 160,
 				["hide"] = true,
 			},
-			["use_square_mode"] = false,
+			["scale"] = 1,
 			["arrow_anchor_x"] = 0,
-			["main_frame_locked"] = false,
+			["row_height"] = 20,
 			["row_texture"] = "Details Serenity",
-			["arrow_anchor_y"] = 0,
-			["use_spark"] = true,
-			["main_frame_strata"] = "LOW",
+			["point"] = "CENTER",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["author"] = "Details! Team",
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["per_second"] = {
-				["enabled"] = false,
-				["point"] = "CENTER",
-				["scale"] = 1,
-				["font_shadow"] = true,
-				["y"] = 3.0517578125e-05,
-				["x"] = 3.0517578125e-05,
-				["attribute_type"] = 1,
-				["update_speed"] = 0.05,
-				["size"] = 32,
-			},
+			["use_spark"] = true,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -1435,39 +1429,27 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["y"] = 4.57763671875e-05,
-			["font_size"] = 10,
+			["per_second"] = {
+				["enabled"] = false,
+				["point"] = "CENTER",
+				["scale"] = 1,
+				["font_shadow"] = true,
+				["y"] = 3.0517578125e-05,
+				["x"] = 3.0517578125e-05,
+				["size"] = 32,
+				["update_speed"] = 0.05,
+				["attribute_type"] = 1,
+			},
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
-			["author"] = "Details! Team",
-			["point"] = "CENTER",
-			["row_height"] = 20,
-			["scale"] = 1,
-		},
-	},
-	["last_realversion"] = 146,
-	["announce_damagerecord"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
-	},
-	["last_day"] = "06",
-	["cd_tracker"] = {
-		["enabled"] = false,
-		["cds_enabled"] = {
-		},
-		["show_conditions"] = {
-			["only_inside_instance"] = true,
-			["only_in_group"] = true,
-		},
-		["pos"] = {
+			["font_size"] = 10,
+			["arrow_anchor_y"] = 0,
+			["main_frame_locked"] = false,
+			["use_square_mode"] = false,
 		},
 	},
 	["announce_prepots"] = {
@@ -1475,10 +1457,19 @@ _detalhes_database = {
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
-	["character_data"] = {
-		["logons"] = 176,
+	["cached_roles"] = {
 	},
-	["combat_counter"] = 794,
+	["last_encounter"] = "Kael'thas Sunstrider",
+	["benchmark_db"] = {
+		["frame"] = {
+		},
+	},
+	["last_day"] = "07",
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["combat_counter"] = 797,
 	["combat_id"] = 5,
 	["savedStyles"] = {
 	},
@@ -1530,7 +1521,6 @@ _detalhes_database = {
 				{
 					["flag_original"] = 1297,
 					["totalabsorbed"] = 0.004756,
-					["friendlyfire_total"] = 0,
 					["damage_from"] = {
 						["Ravenous Ranishu"] = true,
 						["Dunegorger Kraulok"] = true,
@@ -1539,23 +1529,23 @@ _detalhes_database = {
 						["Ravenous Ranishu"] = 296,
 						["Dunegorger Kraulok"] = 38326,
 					},
+					["delay"] = 0,
 					["pets"] = {
 					},
 					["friendlyfire"] = {
 					},
-					["end_time"] = 1649263675,
+					["damage_taken"] = 2129.004756,
 					["aID"] = "1301-0B0D298B",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 38622.004756,
-					["classe"] = "MAGE",
-					["dps_started"] = false,
 					["total"] = 38622.004756,
-					["last_event"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1649263675,
 					["on_hold"] = false,
+					["tipo"] = 1,
 					["nome"] = "Destruxia",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[257542] = {
 								["c_amt"] = 2,
@@ -1574,15 +1564,15 @@ _detalhes_database = {
 								["c_max"] = 1056,
 								["id"] = 257542,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 1,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[108853] = {
 								["c_amt"] = 8,
@@ -1601,15 +1591,15 @@ _detalhes_database = {
 								["c_max"] = 1086,
 								["id"] = 108853,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[226757] = {
 								["c_amt"] = 10,
@@ -1628,15 +1618,15 @@ _detalhes_database = {
 								["c_max"] = 20,
 								["id"] = 226757,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 12,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[277703] = {
 								["c_amt"] = 14,
@@ -1656,15 +1646,15 @@ _detalhes_database = {
 								["c_max"] = 35,
 								["id"] = 277703,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 11,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[205345] = {
 								["c_amt"] = 4,
@@ -1684,150 +1674,15 @@ _detalhes_database = {
 								["c_max"] = 79,
 								["id"] = 205345,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 2,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
-							},
-							[259756] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 86,
-								["targets"] = {
-									["Dunegorger Kraulok"] = 522,
-								},
-								["n_dmg"] = 522,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 25,
-								["total"] = 522,
-								["c_max"] = 0,
-								["id"] = 259756,
-								["r_dmg"] = 0,
+								["a_dmg"] = 0,
 								["extra"] = {
 								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 25,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
-							},
-							[133] = {
-								["c_amt"] = 4,
-								["b_amt"] = 0,
-								["c_dmg"] = 4954,
-								["g_amt"] = 0,
-								["n_max"] = 685,
-								["targets"] = {
-									["Dunegorger Kraulok"] = 9575,
-								},
-								["n_dmg"] = 4621,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 11,
-								["total"] = 9575,
-								["c_max"] = 1250,
-								["id"] = 133,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 7,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
-							},
-							[12654] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 291,
-								["targets"] = {
-									["Dunegorger Kraulok"] = 6226,
-								},
-								["n_dmg"] = 6226,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 53,
-								["total"] = 6226,
-								["c_max"] = 0,
-								["id"] = 12654,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 53,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
-							},
-							[11366] = {
-								["c_amt"] = 5,
-								["b_amt"] = 0,
-								["c_dmg"] = 8136,
-								["g_amt"] = 0,
-								["n_max"] = 795,
-								["targets"] = {
-									["Dunegorger Kraulok"] = 9699,
-								},
-								["n_dmg"] = 1563,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 7,
-								["total"] = 9699,
-								["c_max"] = 1747,
-								["id"] = 11366,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 2,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
-							},
-							[2948] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 88,
-								["targets"] = {
-									["Dunegorger Kraulok"] = 88,
-								},
-								["n_dmg"] = 88,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 1,
-								["total"] = 88,
-								["c_max"] = 0,
-								["id"] = 2948,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 1,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
 							},
 							[235314] = {
 								["c_amt"] = 1,
@@ -1847,27 +1702,163 @@ _detalhes_database = {
 								["c_max"] = 167,
 								["id"] = 235314,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 2,
-								["b_dmg"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[12654] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 291,
+								["targets"] = {
+									["Dunegorger Kraulok"] = 6226,
+								},
+								["n_dmg"] = 6226,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 53,
+								["total"] = 6226,
+								["c_max"] = 0,
+								["id"] = 12654,
+								["r_dmg"] = 0,
 								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 53,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[259756] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 86,
+								["targets"] = {
+									["Dunegorger Kraulok"] = 522,
+								},
+								["n_dmg"] = 522,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 25,
+								["total"] = 522,
+								["c_max"] = 0,
+								["id"] = 259756,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 25,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[11366] = {
+								["c_amt"] = 5,
+								["b_amt"] = 0,
+								["c_dmg"] = 8136,
+								["g_amt"] = 0,
+								["n_max"] = 795,
+								["targets"] = {
+									["Dunegorger Kraulok"] = 9699,
+								},
+								["n_dmg"] = 1563,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 7,
+								["total"] = 9699,
+								["c_max"] = 1747,
+								["id"] = 11366,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 2,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[2948] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 88,
+								["targets"] = {
+									["Dunegorger Kraulok"] = 88,
+								},
+								["n_dmg"] = 88,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 88,
+								["c_max"] = 0,
+								["id"] = 2948,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 1,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[133] = {
+								["c_amt"] = 4,
+								["b_amt"] = 0,
+								["c_dmg"] = 4954,
+								["g_amt"] = 0,
+								["n_max"] = 685,
+								["targets"] = {
+									["Dunegorger Kraulok"] = 9575,
+								},
+								["n_dmg"] = 4621,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 11,
+								["total"] = 9575,
+								["c_max"] = 1250,
+								["id"] = 133,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 7,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 						},
+						["tipo"] = 2,
 					},
 					["grupo"] = true,
+					["classe"] = "MAGE",
 					["spec"] = 63,
-					["serial"] = "Player-1301-0B0D298B",
 					["custom"] = 0,
-					["tipo"] = 1,
+					["last_event"] = 0,
 					["last_dps"] = 0,
 					["start_time"] = 1649263618,
-					["delay"] = 0,
-					["damage_taken"] = 2129.004756,
+					["serial"] = "Player-1301-0B0D298B",
+					["friendlyfire_total"] = 0,
 				}, -- [1]
 				{
 					["flag_original"] = 68168,
@@ -1878,38 +1869,37 @@ _detalhes_database = {
 						["Wild Imp <Faudes-Silvermoon>"] = true,
 						["Pleven-Kazzak"] = true,
 						["Felguard <Pleven-Kazzak>"] = true,
-						["Knar-Ravencrest"] = true,
+						["Ttknd-Kazzak"] = true,
 						["Destruxia"] = true,
 						["Wild Imp <Pleven-Kazzak>"] = true,
 						["Faudes-Silvermoon"] = true,
-						["Ttknd-Kazzak"] = true,
+						["Knar-Ravencrest"] = true,
 						["Infernal <Ttknd-Kazzak>"] = true,
 					},
 					["targets"] = {
 						["Akasum-Silvermoon"] = 6535,
 						["Destruxia"] = 1783,
 						["Maathun"] = 39,
-						["Knar-Ravencrest"] = 5158,
 						["Ttknd-Kazzak"] = 10923,
+						["Knar-Ravencrest"] = 5158,
 						["Infernal <Ttknd-Kazzak>"] = 73,
 					},
-					["dps_started"] = false,
+					["delay"] = 0,
 					["pets"] = {
 					},
-					["last_event"] = 0,
+					["classe"] = "UNKNOW",
+					["dps_started"] = false,
 					["aID"] = "",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 24511.011008,
-					["on_hold"] = false,
-					["end_time"] = 1649263675,
-					["monster"] = true,
 					["total"] = 24511.011008,
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["monster"] = true,
+					["end_time"] = 1649263675,
+					["damage_taken"] = 708682.011008,
+					["tipo"] = 1,
 					["nome"] = "Dunegorger Kraulok",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -1930,16 +1920,16 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["a_dmg"] = 4037,
-								["extra"] = {
-								},
+								["r_amt"] = 0,
+								["b_dmg"] = 2523,
 								["PARRY"] = 4,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 1,
 								["n_amt"] = 21,
-								["b_dmg"] = 2523,
-								["r_amt"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 4037,
 							}, -- [1]
 							[275194] = {
 								["c_amt"] = 0,
@@ -1957,15 +1947,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 275194,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[275175] = {
 								["c_amt"] = 0,
@@ -1974,9 +1964,9 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 1424,
 								["targets"] = {
-									["Infernal <Ttknd-Kazzak>"] = 73,
-									["Ttknd-Kazzak"] = 2791,
 									["Maathun"] = 39,
+									["Ttknd-Kazzak"] = 2791,
+									["Infernal <Ttknd-Kazzak>"] = 73,
 								},
 								["n_dmg"] = 2903,
 								["n_min"] = 0,
@@ -1986,15 +1976,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 275175,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 2,
 								["a_amt"] = 0,
 								["n_amt"] = 5,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[275184] = {
 								["c_amt"] = 0,
@@ -2015,15 +2005,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 275184,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 5,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[275200] = {
 								["c_amt"] = 0,
@@ -2041,15 +2031,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 275200,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[276046] = {
 								["c_amt"] = 0,
@@ -2068,40 +2058,40 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 276046,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["PARRY"] = 2,
 								["c_min"] = 0,
 								["successful_casted"] = 2,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
+					["on_hold"] = false,
+					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
+					["custom"] = 0,
+					["last_event"] = 0,
 					["friendlyfire"] = {
 					},
-					["friendlyfire_total"] = 0,
-					["serial"] = "Vehicle-0-3102-1642-38-138794-00004DC3FA",
-					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
 					["start_time"] = 1649263619,
-					["delay"] = 0,
-					["damage_taken"] = 708682.011008,
+					["serial"] = "Vehicle-0-3102-1642-38-138794-00004DC3FA",
+					["fight_component"] = true,
 				}, -- [2]
 				{
 					["flag_original"] = 8776,
 					["totalabsorbed"] = 433.010456,
-					["aID"] = "139614",
 					["damage_from"] = {
 						["Akasum-Silvermoon"] = true,
 						["Destruxia"] = true,
-						["Knar-Ravencrest"] = true,
-						["Faudes-Silvermoon"] = true,
 						["Ttknd-Kazzak"] = true,
+						["Faudes-Silvermoon"] = true,
+						["Knar-Ravencrest"] = true,
 						["Infernal <Ttknd-Kazzak>"] = true,
 					},
 					["targets"] = {
@@ -2112,19 +2102,20 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
+					["on_hold"] = false,
 					["classe"] = "PET",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 2610.010456,
-					["last_event"] = 0,
-					["dps_started"] = false,
+					["delay"] = 0,
+					["fight_component"] = true,
 					["end_time"] = 1649263675,
-					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
 					["nome"] = "Ravenous Ranishu",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -2143,20 +2134,20 @@ _detalhes_database = {
 								["counter"] = 24,
 								["total"] = 726,
 								["c_max"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["MISS"] = 6,
+								["b_dmg"] = 18,
 								["DODGE"] = 5,
-								["extra"] = {
-								},
+								["a_amt"] = 0,
 								["PARRY"] = 6,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
-								["a_amt"] = 0,
+								["extra"] = {
+								},
 								["n_amt"] = 7,
-								["b_dmg"] = 18,
-								["r_amt"] = 0,
+								["MISS"] = 6,
+								["a_dmg"] = 0,
 							}, -- [1]
 							[275996] = {
 								["c_amt"] = 0,
@@ -2177,16 +2168,16 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 275996,
 								["r_dmg"] = 0,
-								["MISS"] = 2,
-								["extra"] = {
-								},
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 6,
 								["a_amt"] = 0,
 								["n_amt"] = 21,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["extra"] = {
+								},
+								["MISS"] = 2,
 							},
 							[276000] = {
 								["c_amt"] = 0,
@@ -2204,15 +2195,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 276000,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 10,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[276036] = {
 								["c_amt"] = 0,
@@ -2232,28 +2223,28 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 276036,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 3,
 								["a_amt"] = 0,
 								["n_amt"] = 3,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 						},
+						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
-					["total"] = 2610.010456,
-					["serial"] = "Creature-0-3102-1642-38-139614-00004DC419",
-					["custom"] = 0,
 					["tipo"] = 1,
+					["dps_started"] = false,
+					["total"] = 2610.010456,
+					["custom"] = 0,
+					["last_event"] = 0,
 					["damage_taken"] = 48397.010456,
 					["start_time"] = 1649263653,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "Creature-0-3102-1642-38-139614-00004DC419",
+					["aID"] = "139614",
 				}, -- [3]
 			},
 		}, -- [1]
@@ -2262,18 +2253,18 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 1297,
-					["targets_overheal"] = {
-						["Destruxia"] = 23,
+					["healing_from"] = {
+						["Destruxia"] = true,
 					},
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["aID"] = "1301-0B0D298B",
+					["classe"] = "MAGE",
 					["totalover"] = 23.008153,
 					["total_without_pet"] = 2129.008153,
 					["total"] = 2129.008153,
 					["targets_absorbs"] = {
-						["Destruxia"] = 2129,
+						["Destruxia"] = 0,
 					},
 					["heal_enemy"] = {
 					},
@@ -2282,19 +2273,18 @@ _detalhes_database = {
 					["totalabsorb"] = 2129.008153,
 					["last_hps"] = 0,
 					["targets"] = {
-						["Destruxia"] = 2129,
+						["Destruxia"] = 0,
 					},
 					["totalover_without_pet"] = 0.008153,
 					["healing_taken"] = 2129.008153,
 					["fight_component"] = true,
 					["end_time"] = 1649263675,
-					["start_time"] = 1649263660,
-					["healing_from"] = {
-						["Destruxia"] = true,
+					["targets_overheal"] = {
+						["Destruxia"] = 0,
 					},
+					["tipo"] = 2,
 					["nome"] = "Destruxia",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[269279] = {
 								["c_amt"] = 0,
@@ -2372,16 +2362,17 @@ _detalhes_database = {
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["heal_enemy_amt"] = 0,
-					["classe"] = "MAGE",
-					["custom"] = 0,
-					["tipo"] = 2,
-					["spec"] = 63,
+					["aID"] = "1301-0B0D298B",
 					["totaldenied"] = 0.008153,
-					["delay"] = 0,
+					["custom"] = 0,
 					["last_event"] = 0,
+					["spec"] = 63,
+					["start_time"] = 1649263660,
+					["delay"] = 0,
+					["heal_enemy_amt"] = 0,
 				}, -- [1]
 			},
 		}, -- [2]
@@ -2396,167 +2387,167 @@ _detalhes_database = {
 				{
 					["flag_original"] = 1047,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[12654] = {
-								["refreshamt"] = 29,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 1,
 								["id"] = 12654,
 								["uptime"] = 54,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 29,
 							},
 							[277703] = {
-								["refreshamt"] = 3,
+								["counter"] = 0,
 								["activedamt"] = 2,
 								["appliedamt"] = 6,
 								["id"] = 277703,
 								["uptime"] = 29,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 3,
 							},
 							[226757] = {
-								["refreshamt"] = 8,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 2,
 								["id"] = 226757,
 								["uptime"] = 40,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 8,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["pets"] = {
 					},
 					["classe"] = "MAGE",
 					["buff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[256374] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 256374,
 								["uptime"] = 12,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[116267] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 0,
 								["id"] = 116267,
 								["uptime"] = 0,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[48107] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 11,
 								["appliedamt"] = 11,
 								["id"] = 48107,
 								["uptime"] = 14,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[274598] = {
-								["refreshamt"] = 1,
+								["counter"] = 0,
 								["activedamt"] = 7,
 								["appliedamt"] = 7,
 								["id"] = 274598,
 								["uptime"] = 23,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 1,
 							},
 							[235313] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 235313,
 								["uptime"] = 50,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[270661] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 3,
 								["appliedamt"] = 3,
 								["id"] = 270661,
 								["uptime"] = 49,
 								["targets"] = {
 								},
-								["counter"] = 0,
-							},
-							[225788] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 225788,
-								["uptime"] = 54,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[190319] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 190319,
-								["uptime"] = 10,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[157644] = {
-								["refreshamt"] = 3,
-								["activedamt"] = 4,
-								["appliedamt"] = 4,
-								["id"] = 157644,
-								["uptime"] = 32,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[269279] = {
-								["refreshamt"] = 1,
-								["activedamt"] = 2,
-								["appliedamt"] = 2,
-								["id"] = 269279,
-								["uptime"] = 53,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[236060] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 236060,
-								["uptime"] = 3,
-								["targets"] = {
-								},
-								["counter"] = 0,
 							},
 							[48108] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 7,
 								["appliedamt"] = 7,
 								["id"] = 48108,
 								["uptime"] = 7,
 								["targets"] = {
 								},
+								["refreshamt"] = 0,
+							},
+							[190319] = {
 								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 190319,
+								["uptime"] = 10,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[157644] = {
+								["counter"] = 0,
+								["activedamt"] = 4,
+								["appliedamt"] = 4,
+								["id"] = 157644,
+								["uptime"] = 32,
+								["targets"] = {
+								},
+								["refreshamt"] = 3,
+							},
+							[269279] = {
+								["counter"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 269279,
+								["uptime"] = 53,
+								["targets"] = {
+								},
+								["refreshamt"] = 1,
+							},
+							[236060] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 236060,
+								["uptime"] = 3,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[225788] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 225788,
+								["uptime"] = 54,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["fight_component"] = true,
 					["debuff_uptime"] = 123,
@@ -2567,55 +2558,55 @@ _detalhes_database = {
 						[133] = 10,
 						[190319] = 1,
 						[257541] = 3,
-						[108853] = 8,
 						[11366] = 7,
 						[235313] = 1,
+						[108853] = 8,
 					},
-					["debuff_uptime_targets"] = {
-					},
-					["last_event"] = 0,
+					["aID"] = "1301-0B0D298B",
 					["tipo"] = 4,
+					["last_event"] = 0,
+					["buff_uptime"] = 307,
 					["buff_uptime_targets"] = {
 					},
-					["buff_uptime"] = 307,
 					["serial"] = "Player-1301-0B0D298B",
-					["aID"] = "1301-0B0D298B",
+					["debuff_uptime_targets"] = {
+					},
 				}, -- [1]
 				{
 					["monster"] = true,
-					["classe"] = "UNKNOW",
-					["spell_cast"] = {
-						[275200] = 1,
-						[276046] = 2,
-						[275175] = 2,
-						[275194] = 1,
-					},
+					["aID"] = "",
 					["nome"] = "Dunegorger Kraulok",
+					["flag_original"] = 68168,
 					["pets"] = {
 					},
 					["fight_component"] = true,
-					["flag_original"] = 68168,
-					["aID"] = "",
+					["classe"] = "UNKNOW",
 					["last_event"] = 0,
-					["serial"] = "Vehicle-0-3102-1642-38-138794-00004DC3FA",
 					["tipo"] = 4,
+					["serial"] = "Vehicle-0-3102-1642-38-138794-00004DC3FA",
+					["spell_cast"] = {
+						[275200] = 1,
+						[275194] = 1,
+						[275175] = 2,
+						[276046] = 2,
+					},
 				}, -- [2]
 				{
 					["fight_component"] = true,
-					["last_event"] = 0,
+					["aID"] = "139614",
 					["nome"] = "Ravenous Ranishu",
 					["pets"] = {
 					},
+					["tipo"] = 4,
+					["flag_original"] = 8776,
+					["last_event"] = 0,
+					["classe"] = "PET",
+					["serial"] = "Creature-0-3102-1642-38-139614-00004DC419",
 					["spell_cast"] = {
 						[275996] = 6,
 						[276000] = 10,
 						[276036] = 3,
 					},
-					["flag_original"] = 8776,
-					["aID"] = "139614",
-					["classe"] = "PET",
-					["serial"] = "Creature-0-3102-1642-38-139614-00004DC419",
-					["tipo"] = 4,
 				}, -- [3]
 			},
 		}, -- [4]
@@ -2628,14 +2619,20 @@ _detalhes_database = {
 		},
 		["raid_roster_indexed"] = {
 		},
+		["segments_added"] = {
+			{
+				["elapsed"] = 54.31899999999951,
+				["type"] = 0,
+				["name"] = "Dunegorger Kraulok",
+				["clock"] = "19:47:01",
+			}, -- [1]
+		},
 		["tempo_start"] = 1649263620,
-		["last_events_tables"] = {
+		["cleu_timeline"] = {
 		},
 		["alternate_power"] = {
 		},
 		["combat_counter"] = 793,
-		["spells_cast_timeline"] = {
-		},
 		["totals"] = {
 			133059.9968640001, -- [1]
 			2128.971920999999, -- [2]
@@ -2643,21 +2640,21 @@ _detalhes_database = {
 				-0.003191000000015265, -- [1]
 				[0] = -0.018152,
 				["alternatepower"] = 0,
-				[3] = 0,
 				[6] = 0,
+				[3] = 0,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["debuff_uptime"] = 0,
-				["cooldowns_defensive"] = 0,
-				["interrupt"] = 0,
-				["dispell"] = 0,
-				["cc_break"] = 0,
 				["dead"] = 0,
+				["cc_break"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["dispell"] = 0,
+				["cooldowns_defensive"] = 0,
 			}, -- [4]
-			["frags_total"] = 0,
 			["voidzone_damage"] = 0,
+			["frags_total"] = 0,
 		},
 		["player_last_events"] = {
 		},
@@ -2668,16 +2665,7 @@ _detalhes_database = {
 		},
 		["data_inicio"] = "19:47:01",
 		["end_time"] = 22207.208,
-		["cleu_events"] = {
-			["n"] = 1,
-		},
-		["segments_added"] = {
-			{
-				["elapsed"] = 54.31899999999951,
-				["type"] = 0,
-				["name"] = "Dunegorger Kraulok",
-				["clock"] = "19:47:01",
-			}, -- [1]
+		["last_events_tables"] = {
 		},
 		["totals_grupo"] = {
 			38622.003307, -- [1]
@@ -2686,59 +2674,72 @@ _detalhes_database = {
 				0, -- [1]
 				[0] = 0,
 				["alternatepower"] = 0,
-				[3] = 0,
 				[6] = 0,
+				[3] = 0,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["debuff_uptime"] = 0,
-				["cooldowns_defensive"] = 0,
-				["interrupt"] = 0,
-				["dispell"] = 0,
-				["cc_break"] = 0,
 				["dead"] = 0,
+				["cc_break"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["dispell"] = 0,
+				["cooldowns_defensive"] = 0,
 			}, -- [4]
 		},
-		["frags"] = {
-		},
-		["data_fim"] = "19:47:55",
-		["overall_enemy_name"] = "Dunegorger Kraulok",
-		["CombatSkillCache"] = {
-		},
-		["cleu_timeline"] = {
-		},
-		["start_time"] = 22152.889,
-		["TimeData"] = {
-			["Raid Damage Done"] = {
-			},
-		},
+		["overall_refreshed"] = true,
 		["PhaseData"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 			}, -- [1]
+			["damage"] = {
+			},
 			["heal_section"] = {
 			},
 			["heal"] = {
 			},
 			["damage_section"] = {
 			},
-			["damage"] = {
+		},
+		["hasSaved"] = true,
+		["spells_cast_timeline"] = {
+		},
+		["data_fim"] = "19:47:55",
+		["overall_enemy_name"] = "Dunegorger Kraulok",
+		["CombatSkillCache"] = {
+		},
+		["frags"] = {
+		},
+		["start_time"] = 22152.889,
+		["TimeData"] = {
+			["Raid Damage Done"] = {
 			},
 		},
+		["cleu_events"] = {
+			["n"] = 1,
+		},
 	},
-	["announce_firsthit"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
+	["character_data"] = {
+		["logons"] = 179,
 	},
-	["last_encounter"] = "Kael'thas Sunstrider",
-	["cached_talents"] = {
+	["cd_tracker"] = {
+		["enabled"] = false,
+		["cds_enabled"] = {
+		},
+		["show_conditions"] = {
+			["only_inside_instance"] = true,
+			["only_in_group"] = true,
+		},
+		["pos"] = {
+		},
 	},
+	["last_realversion"] = 146,
 	["announce_cooldowns"] = {
+		["enabled"] = false,
 		["ignored_cooldowns"] = {
 		},
-		["enabled"] = false,
 		["custom"] = "",
 		["channel"] = "RAID",
 	},
@@ -2746,7 +2747,9 @@ _detalhes_database = {
 		["last_difficulty"] = 15,
 		["last_raid"] = "",
 	},
-	["cached_roles"] = {
+	["announce_damagerecord"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
 	},
 	["cached_specs"] = {
 		["Player-1301-0B0D298B"] = 63,
