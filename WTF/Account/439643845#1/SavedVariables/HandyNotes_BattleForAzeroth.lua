@@ -19,10 +19,10 @@ HandyNotes_BattleForAzerothDB = {
 			["icon_display_coffers"] = false,
 			["icon_display_mech_chest"] = true,
 			["hide_done_rares"] = true,
-			["icon_display_recrig"] = false,
+			["icon_display_locked_chest"] = false,
 			["icon_display_daily_chests"] = false,
 			["icon_display_misc"] = false,
-			["icon_display_locked_chest"] = false,
+			["icon_display_recrig"] = false,
 		},
 	},
 }

@@ -1,9 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0534,
-	["LastPlayerFullName"] = "Necrophagus-Outland",
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 188889,
@@ -16,9 +13,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:189827::::::::60:267::3:5:7189:6652:7578:1498:6646:1:28:2165:::::|h[Cartel Xy's Proof of Initiation]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 190982,
-			["Level"] = 252,
-			["Link"] = "|cffa335ee|Hitem:190982::::::::60:267::11:4:8115:6652:7957:1491:1:28:2057:::::|h[Synchronous Oracular Mantle]|h|r",
+			["ID"] = 188888,
+			["Level"] = 259,
+			["Link"] = "|cffa335ee|Hitem:188888::::::::60:267::3:5:7189:6652:8152:1479:6646:1:28:1040:::::|h[Mantle of the Demon Star]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
@@ -32,9 +29,9 @@ PawnOptions = {
 			["Link"] = "|cffff8000|Hitem:190469::::::::60:267::11:2:6652:7579:1:28:2057:::::|h[Cord of Unity]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 173246,
-			["Level"] = 262,
-			["Link"] = "|cffffffff|Hitem:173246::::::::60:267::68:2:7451:1559:1:28:2142:::::|h[Grim-Veiled Pants]|h|r",
+			["ID"] = 188887,
+			["Level"] = 265,
+			["Link"] = "|cffa335ee|Hitem:188887::::::::60:267::5:5:7188:41:8155:1485:6646::::::|h[Leggings of the Demon Star]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 189794,
@@ -52,10 +49,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:188890::::::::60:267::3:5:7189:6652:8154:1472:6646::::::|h[Grasps of the Demon Star]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 178824,
-			["Level"] = 252,
+			["ID"] = 189854,
+			["Level"] = 259,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:178824:6166:::::::60:267::35:6:7622:7359:42:7575:1566:6646::::::|h[Signet of the False Accuser]|h|r",
+			["Link"] = "|cffa335ee|Hitem:189854::::::::60:267::3:5:7189:6652:7578:1498:6646:1:28:2165:::::|h[Rygelon's Heraldric Ring]|h|r",
 		}, -- [11]
 		{
 			["ID"] = 190633,
@@ -76,9 +73,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:188272::::::::60:267::3:4:7189:6652:1498:6646:1:28:2165:::::|h[Resonant Reservoir]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 189847,
-			["Level"] = 259,
-			["Link"] = "|cffa335ee|Hitem:189847:6203:::::::60:267::3:6:7189:8133:8138:6652:1498:6646:1:28:2165:::::|h[Shroud of the Sire's Chosen]|h|r",
+			["ID"] = 173242,
+			["Level"] = 291,
+			["Link"] = "|cffff8000|Hitem:173242::::::::60:267::69:6:7040:7882:8156:6649:6648:1588:1:28:2142:::::|h[Embers of the Diabolic Raiment]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 189834,
@@ -91,7 +88,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178868::::::::60:267::35:5:7662:7359:6652:1560:6646::::::|h[Deathwalker's Promise]|h|r",
 		}, -- [17]
 	},
-	["LastKeybindingsSet"] = 1,
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Necrophagus-Outland",
 	["Artifacts"] = {
 		[128941] = {
 			["Relics"] = {
@@ -133,6 +132,7 @@ PawnOptions = {
 			["Name"] = "Underlight Angler",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "WARLOCK",
