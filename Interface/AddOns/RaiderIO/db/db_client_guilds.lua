@@ -1,5 +1,5 @@
 --
--- RaiderIO Client Data. Generated on 2022-04-07T20:27:19Z
+-- RaiderIO Client Data. Generated on 2022-04-08T07:32:54Z
 --
 local _, ns = ...
 ns.GUILD_BEST_DATA = {
@@ -852,36 +852,36 @@ ns.GUILD_BEST_DATA = {
         }
       },
       [5] = {
-        ["zone_id"] = 1000000,
-        ["level"] = 21,
-        ["upgrades"] = 1,
-        ["fraction"] = 0.9001550192887737,
-        ["clear_time"] = "00:35:07.262",
+        ["zone_id"] = 12842,
+        ["level"] = 22,
+        ["upgrades"] = 0,
+        ["fraction"] = 1.1358537732034837,
+        ["clear_time"] = "00:46:35.335",
         ["party"] = {
           [1] = {
-            ["name"] = "Shaene",
+            ["name"] = "Twuist",
             ["role"] = "tank",
-            ["class_id"] = 12
+            ["class_id"] = 2
           },
           [2] = {
-            ["name"] = "Larën",
+            ["name"] = "Niinaa",
             ["role"] = "healer",
-            ["class_id"] = 5
+            ["class_id"] = 10
           },
           [3] = {
-            ["name"] = "Pg",
+            ["name"] = "Darnii",
+            ["role"] = "dps",
+            ["class_id"] = 6
+          },
+          [4] = {
+            ["name"] = "Helive",
             ["role"] = "dps",
             ["class_id"] = 4
           },
-          [4] = {
-            ["name"] = "Virathus",
-            ["role"] = "dps",
-            ["class_id"] = 12
-          },
           [5] = {
-            ["name"] = "Деадрол",
+            ["name"] = "Nessx",
             ["role"] = "dps",
-            ["class_id"] = 1
+            ["class_id"] = 3
           }
         }
       }
