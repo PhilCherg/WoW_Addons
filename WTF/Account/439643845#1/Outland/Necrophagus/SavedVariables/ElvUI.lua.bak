@@ -2,2205 +2,2205 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"says something unintelligible.", -- [1]
-			"Pâppi-Dalaran", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Pâppi-Dalaran", -- [5]
+			"WTB JAILER HC KILL!", -- [1]
+			"Meroving-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Meroving-Outland", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			4801, -- [11]
-			"Player-1621-0ADFA603", -- [12]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			94, -- [11]
+			"Player-1301-0C014C16", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcPâppi-Dalaran|r",
-			[51] = 1649357197,
-			[50] = "CHAT_MSG_EMOTE",
+			true, -- [17]
+			[52] = "|cffc31d39Meroving|r",
+			[51] = 1649430569,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [1]
 		{
-			"LOW HEALTH: Pâppi (Shaman)", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"havent \"seen\" U lot in 2 days- what have I missed- have we moved away from the metric system : )))", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4803, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			100, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357202,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649430653,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [2]
 		{
-			"LOW HEALTH: Pâppi (Shaman)", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"WTB |cffa335ee|Hitem:190631::::::::60:258:::::::::|h[Vandalized Ephemera Mitts]|h|r (225k my offer) Outland only trade.", -- [1]
+			"Drjonés-Outland", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"2. Trade - City", -- [4]
+			"Drjonés-Outland", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			4804, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			103, -- [11]
+			"Player-1301-0BFB65A5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357202,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			true, -- [17]
+			[52] = "|cfffefefeDrjonés|r",
+			[51] = 1649430666,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [3]
 		{
-			"LOW HEALTH: Pâppi (Shaman)", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"John and anna got a divorce", -- [1]
+			"Nezeroth-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4805, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			105, -- [11]
+			"Player-1301-04E9C790", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357202,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff38bb9Nezeroth|r",
+			[51] = 1649430674,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [4]
 		{
-			"LOW HEALTH: Pâppi (Shaman)", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"mike left the clan", -- [1]
+			"Nezeroth-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4806, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			106, -- [11]
+			"Player-1301-04E9C790", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357202,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfff38bb9Nezeroth|r",
+			[51] = 1649430679,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [5]
 		{
-			"wo", -- [1]
-			"Wific-AeriePeak", -- [2]
+			"david is on holiday in spain", -- [1]
+			"Nezeroth-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Wific-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4807, -- [11]
-			"Player-1416-0A2AFE33", -- [12]
+			107, -- [11]
+			"Player-1301-04E9C790", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Wific-AeriePeak|r",
-			[51] = 1649357207,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff38bb9Nezeroth|r",
+			[51] = 1649430695,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [6]
 		{
-			"wp guys", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"Ricky's got an ingrown toenail atm too so he's not raiding", -- [1]
+			"Penneh-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4808, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			109, -- [11]
+			"Player-1301-05D8E8B4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357208,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff006fdcPenneh|r",
+			[51] = 1649430729,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [7]
 		{
-			"wp", -- [1]
-			"Wific-AeriePeak", -- [2]
+			"uff alot happening", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Wific-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4809, -- [11]
-			"Player-1416-0A2AFE33", -- [12]
+			110, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Wific-AeriePeak|r",
-			[51] = 1649357208,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649430736,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [8]
 		{
-			"holy shit", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"good and bad it seems", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4810, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			111, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357211,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649430744,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [9]
 		{
-			"holy fuck", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"i like turtles", -- [1]
+			"Bommel-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4811, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			112, -- [11]
+			"Player-1301-0C049FB7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357212,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1649430756,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [10]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14628:Player-1301-08969041:1:4:7:22:4294967295:4294967295:4294967295:4294967295|h[The Road to Renown]|h|r!", -- [1]
-			"Missmikos-Outland", -- [2]
+			"and I though I had an eventfull set of days- learning how 2 make a mean BLT  : ))))", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Missmikos-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4813, -- [11]
-			"Player-1301-08969041", -- [12]
+			113, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Missmikos|r",
-			[51] = 1649357231,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649430763,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [11]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14409:Player-1301-0BC11921:1:4:7:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: De Other Side]|h|r!", -- [1]
-			"Felkz-Outland", -- [2]
+			"aaah B with the mos vital data- gg : ))))", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Felkz-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4815, -- [11]
-			"Player-1301-0BC11921", -- [12]
+			117, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Felkz|r",
-			[51] = 1649357262,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649430779,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [12]
 		{
-			"LOW HEALTH: Impregna (Mage)", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"Oof, spergs looking for 250 for a +10 it seems", -- [1]
+			"Cheapcoffee-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4816, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			119, -- [11]
+			"Player-1301-0C2B9DB7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357267,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffefefeCheapcoffee|r",
+			[51] = 1649430784,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [13]
 		{
-			"LOW HEALTH: Impregna (Mage)", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"my buddy maaiky got 2 set today, I funneled lfr loot to him xD", -- [1]
+			"Bommel-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4817, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			124, -- [11]
+			"Player-1301-0C049FB7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357267,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1649430809,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [14]
 		{
-			"LOW HEALTH: Impregna (Mage)", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"big Mikey", -- [1]
+			"Penneh-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4818, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			126, -- [11]
+			"Player-1301-05D8E8B4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357267,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff006fdcPenneh|r",
+			[51] = 1649430820,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [15]
 		{
-			"LOW HEALTH: Impregna (Mage)", -- [1]
-			"Necrophagus-Outland", -- [2]
+			" : )) gg", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4819, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			127, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357267,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649430828,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [16]
 		{
-			"LOW HEALTH: Pâppi (Shaman)", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"his dps rose so much cause of it xD", -- [1]
+			"Bommel-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4821, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			133, -- [11]
+			"Player-1301-0C049FB7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357283,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1649430849,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [17]
 		{
-			"LOW HEALTH: Pâppi (Shaman)", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"the only positive thing about me not being able 2 run instances is", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4822, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			134, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357283,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649430855,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [18]
 		{
-			"LOW HEALTH: Impregna (Mage)", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"he's starting to enjoy dpsing ", -- [1]
+			"Bommel-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4823, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			138, -- [11]
+			"Player-1301-0C049FB7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357284,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1649430859,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [19]
 		{
-			"LOW HEALTH: Impregna (Mage)", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"I dont bug U lot 2 run em with me", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4824, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			139, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357284,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649430861,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [20]
 		{
-			"LOW HEALTH: Impregna (Mage)", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"ohh good news that", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4825, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			140, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357284,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649430872,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [21]
 		{
-			"LOW HEALTH: Impregna (Mage)", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"is he comofrtable with new playstyle", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4826, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			141, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357284,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649430879,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [22]
 		{
-			"LOW HEALTH: Impregna (Mage)", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"pc cant handle?", -- [1]
+			"Bommel-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4827, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			142, -- [11]
+			"Player-1301-0C049FB7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357295,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1649430881,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [23]
 		{
-			"LOW HEALTH: Impregna (Mage)", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"or still getting used 2", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4828, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			143, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357295,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649430882,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [24]
 		{
-			"LOW HEALTH: Impregna (Mage)", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"how do sets affect- bigtime I bet??", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4829, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			144, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357296,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649430889,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [25]
 		{
-			"LOW HEALTH: Impregna (Mage)", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"ahh no B- cause of work and afks what I told U other day\\", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4830, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			145, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357296,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649430904,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [26]
 		{
-			"LOW HEALTH: Impregna (Mage)", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"just that", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4832, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			146, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357317,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649430906,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [27]
 		{
-			"LOW HEALTH: Impregna (Mage)", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"yeah for most classes it's a 2 -4 cm increase in pp size", -- [1]
+			"Bommel-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4833, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			147, -- [11]
+			"Player-1301-0C049FB7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357317,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1649430910,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [28]
 		{
-			"LOW HEALTH: Impregna (Mage)", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"damn", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4834, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			148, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357318,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649430915,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [29]
 		{
-			"LOW HEALTH: Impregna (Mage)", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"solid indeed", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4835, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			149, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357318,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649430918,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [30]
 		{
-			"nice wp", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"Ive planned it out on my end @ least", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4841, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			150, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357324,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649430933,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [31]
 		{
-			"gg", -- [1]
-			"Wific-AeriePeak", -- [2]
+			"time allowing and if I ever have chance this is what will do", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Wific-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4846, -- [11]
-			"Player-1416-0A2AFE33", -- [12]
+			152, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Wific-AeriePeak|r",
-			[51] = 1649357332,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649430942,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [32]
 		{
-			"good one", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"respec into MM- shift leggos no need 2 up old ", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4847, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			155, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357336,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649430953,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [33]
 		{
-			"that sham was legit at 0.1% hp and healed to 30 at one point", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"and that will +++ dmg mos def", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4848, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			156, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357348,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649430962,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [34]
 		{
-			"he had 58 hp", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"any1 doing 15's ? v_v", -- [1]
+			"Misspicklés-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4851, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			159, -- [11]
+			"Player-1301-0BD2137F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357358,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffe7b09Misspicklés|r",
+			[51] = 1649430966,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [35]
 		{
-			";D", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"finalllyyyyy|cff0070dd|Hitem:190585::::::::60:251:::::::::|h[Schematic: Heartbond Lupine]|h|r", -- [1]
+			"Bommel-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4852, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			161, -- [11]
+			"Player-1301-0C049FB7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357359,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1649430968,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [36]
 		{
-			"so close", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"or @ least is what am getting from guide", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4855, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			162, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357363,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649430969,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [37]
 		{
-			"lol", -- [1]
-			"Wific-AeriePeak", -- [2]
+			"had to kill that wolf like 20 times", -- [1]
+			"Bommel-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Wific-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4856, -- [11]
-			"Player-1416-0A2AFE33", -- [12]
+			167, -- [11]
+			"Player-1301-0C049FB7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Wific-AeriePeak|r",
-			[51] = 1649357364,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1649430982,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [38]
 		{
-			"why tf do shams deal dps damage, while also heal like healers, and also are tanky af???", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"gg B", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4857, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			169, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357373,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649430984,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [39]
 		{
-			"so dumb xD", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:14308:Player-1301-05D8E8B4:1:4:8:22:4294967295:4294967295:4294967295:4294967295|h[Adventurer of Maldraxxus]|h|r!", -- [1]
+			"Penneh-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"Penneh-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4858, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			170, -- [11]
+			"Player-1301-05D8E8B4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357376,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cff006fdcPenneh|r",
+			[51] = 1649430985,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [40]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:15518:Player-1301-0B2E9435:1:4:7:22:4294967295:4294967295:4294967295:4294967295|h[A Means to an End]|h|r!", -- [1]
-			"Kuchikirukia-Outland", -- [2]
+			"dun remmber what that is lemme google brb", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kuchikirukia-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4859, -- [11]
-			"Player-1301-0B2E9435", -- [12]
+			172, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Kuchikirukia|r",
-			[51] = 1649357379,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649430995,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [41]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:15518:Player-1301-0ACA310C:1:4:7:22:4294967295:4294967295:4294967295:4294967295|h[A Means to an End]|h|r!", -- [1]
-			"Boompop-Outland", -- [2]
+			"|cff71d5ff|Hspell:367673:0|h[Heartbond Lupine]|h|r this", -- [1]
+			"Bommel-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Boompop-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4860, -- [11]
-			"Player-1301-0ACA310C", -- [12]
+			177, -- [11]
+			"Player-1301-0C049FB7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Boompop|r",
-			[51] = 1649357379,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1649431024,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [42]
 		{
-			"Enemy Spec: Havoc DEMONHUNTER", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"aha just saw", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4864, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			178, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357384,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649431045,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [43]
 		{
-			"Enemy Spec: Havoc DEMONHUNTER", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"damn pretty pretty white fox that 1", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4869, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			179, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357384,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649431051,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [44]
 		{
-			"Enemy Spec: Havoc DEMONHUNTER", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"and with the new lore mechanicals color scheme", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4870, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			182, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357384,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649431064,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [45]
 		{
-			"Enemy Spec: Holy PRIEST", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"yeah it;s easy to farm ", -- [1]
+			"Bommel-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4871, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			184, -- [11]
+			"Player-1301-0C049FB7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357384,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1649431079,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [46]
 		{
-			"Enemy Spec: Havoc DEMONHUNTER", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"just 1 mob that drops ", -- [1]
+			"Bommel-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4872, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			186, -- [11]
+			"Player-1301-0C049FB7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357384,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1649431084,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [47]
 		{
-			"Enemy Spec: Holy PRIEST", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"wowhead comments read no daily lockout- U killed 20 1 after other?", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4873, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			187, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357384,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649431084,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [48]
 		{
-			"they were good", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"you kill that until you get schematic", -- [1]
+			"Bommel-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4874, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			189, -- [11]
+			"Player-1301-0C049FB7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357385,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1649431090,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [49]
 		{
-			"Enemy Spec: Havoc DEMONHUNTER", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"ye", -- [1]
+			"Bommel-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4875, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			190, -- [11]
+			"Player-1301-0C049FB7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357387,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1649431096,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [50]
 		{
-			"Enemy Spec: Holy PRIEST", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:15404:Player-1301-09A53184:1:4:8:22:4294967295:4294967295:4294967295:4294967295|h[Cosmic Empowerment]|h|r!", -- [1]
+			"Dragonpl-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"Dragonpl-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4876, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			191, -- [11]
+			"Player-1301-09A53184", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357387,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff38bb9Dragonpl|r",
+			[51] = 1649431097,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [51]
 		{
-			"Enemy Spec: Retribution PALADIN", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"then you need |cff0070dd|Hitem:189172::::::::60:251:::::::::|h[Crystallized Echo of the First Song]|h|r that you literally just pick up ", -- [1]
+			"Bommel-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4877, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			193, -- [11]
+			"Player-1301-0C049FB7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357387,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1649431108,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [52]
 		{
-			"Enemy Spec: Havoc DEMONHUNTER", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"need 500 |cff1eff00|Hitem:188957::::::::60:251:::::::::|h[Genesis Mote]|h|r tho", -- [1]
+			"Bommel-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4878, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			195, -- [11]
+			"Player-1301-0C049FB7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357387,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1649431113,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [53]
 		{
-			"Enemy Spec: Holy PRIEST", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"which take not too long to farm either in a farm group", -- [1]
+			"Bommel-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4879, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			196, -- [11]
+			"Player-1301-0C049FB7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357387,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1649431124,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [54]
 		{
-			"Enemy Spec: Retribution PALADIN", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"i have some", -- [1]
+			"Inamoira-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4880, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			204, -- [11]
+			"Player-1301-0C282752", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357387,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfffe7b09Inamoira|r",
+			[51] = 1649431160,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [55]
 		{
-			"ill intervene parry pala pop", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"10k one piece", -- [1]
+			"Inamoira-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4882, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			205, -- [11]
+			"Player-1301-0C282752", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357407,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffe7b09Inamoira|r",
+			[51] = 1649431164,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [56]
 		{
-			"oke", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"special offer for you", -- [1]
+			"Inamoira-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4887, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			207, -- [11]
+			"Player-1301-0C282752", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357418,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfffe7b09Inamoira|r",
+			[51] = 1649431171,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [57]
 		{
-			"if they have gear we will get oneshot :D", -- [1]
-			"Wific-AeriePeak", -- [2]
+			":)", -- [1]
+			"Inamoira-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Wific-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4888, -- [11]
-			"Player-1416-0A2AFE33", -- [12]
+			208, -- [11]
+			"Player-1301-0C282752", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Wific-AeriePeak|r",
-			[51] = 1649357422,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffe7b09Inamoira|r",
+			[51] = 1649431173,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [58]
 		{
-			"yea", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"aha  I see", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4891, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			215, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357438,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649431232,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [59]
 		{
-			"Isaori - Priest", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"cant trade em hahaha xD", -- [1]
+			"Bommel-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4893, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			216, -- [11]
+			"Player-1301-0C049FB7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357441,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1649431233,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [60]
 		{
-			"Baddyl - Paladin", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"and sry 4 late reply had 2 afk", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4894, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			218, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357441,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649431237,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [61]
 		{
-			"Yllavaris - Demon Hunter", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"saul goodman", -- [1]
+			"Bommel-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4895, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			219, -- [11]
+			"Player-1301-0C049FB7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357441,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1649431243,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [62]
 		{
-			"Yllavaris - Demon Hunter", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"|cffa335ee|Hkeystone:180653:381:10:10:7:14:130|h[Keystone: Spires of Ascension (10)]|h|r dps tank welcome", -- [1]
+			"Darknightz-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4896, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			224, -- [11]
+			"Player-1301-0501883A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357442,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfffefefeDarknightz|r",
+			[51] = 1649431268,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [63]
 		{
-			"Isaori - Priest", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:14841:Player-1301-059F790E:1:4:8:22:4294967295:4294967295:4294967295:4294967295|h[Adventures: Now You're Cooking]|h|r!", -- [1]
+			"Hytta-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"Hytta-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4897, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			227, -- [11]
+			"Player-1301-059F790E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357442,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfffe7b09Hytta|r",
+			[51] = 1649431286,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [64]
 		{
-			"Baddyl - Paladin", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"I dont get that reference B", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4898, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			229, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357442,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649431312,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [65]
 		{
-			"ah maybe", -- [1]
-			"Wific-AeriePeak", -- [2]
+			"saul goodman?", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Wific-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4900, -- [11]
-			"Player-1416-0A2AFE33", -- [12]
+			230, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Wific-AeriePeak|r",
-			[51] = 1649357450,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649431315,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [66]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:6106:Player-1301-099AEB6A:1:4:7:22:4294967295:4294967295:4294967295:4294967295|h[Siege of Wyrmrest Temple]|h|r!", -- [1]
-			"Annisette-Outland", -- [2]
+			"it's a reference to breaking bad ", -- [1]
+			"Bommel-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Annisette-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4901, -- [11]
-			"Player-1301-099AEB6A", -- [12]
+			232, -- [11]
+			"Player-1301-0C049FB7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edAnnisette|r",
-			[51] = 1649357477,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1649431346,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [67]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:6112:Player-1301-099AEB6A:1:4:7:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Hagara the Stormbinder]|h|r!", -- [1]
-			"Annisette-Outland", -- [2]
+			"kk", -- [1]
+			"Darknightz-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Annisette-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4902, -- [11]
-			"Player-1301-099AEB6A", -- [12]
+			233, -- [11]
+			"Player-1301-0501883A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edAnnisette|r",
-			[51] = 1649357477,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffefefeDarknightz|r",
+			[51] = 1649431352,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [68]
 		{
-			"LOW HEALTH: Baddyl (Paladin)", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"it's all good man", -- [1]
+			"Bommel-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4903, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			235, -- [11]
+			"Player-1301-0C049FB7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357482,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1649431353,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [69]
 		{
-			"LOW HEALTH: Baddyl (Paladin)", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"Need dps", -- [1]
+			"Darknightz-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4904, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			236, -- [11]
+			"Player-1301-0501883A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357482,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfffefefeDarknightz|r",
+			[51] = 1649431361,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [70]
 		{
-			"LOW HEALTH: Isaori (Priest)", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"s'all goodman", -- [1]
+			"Bommel-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4906, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			237, -- [11]
+			"Player-1301-0C049FB7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357539,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1649431363,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [71]
 		{
-			"LOW HEALTH: Isaori (Priest)", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"aaah gotcha", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4907, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			238, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357539,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649431369,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [72]
 		{
-			"LOW HEALTH: Yllavaris (Demon Hunter)", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"thx 4 expl", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4911, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			239, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357565,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649431372,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [73]
 		{
-			"LOW HEALTH: Yllavaris (Demon Hunter)", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"dodgy lawyer's name :p", -- [1]
+			"Bommel-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4912, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			240, -- [11]
+			"Player-1301-0C049FB7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357565,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1649431374,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [74]
 		{
-			"LOW HEALTH: Isaori (Priest)", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"+10 SoA need dps last call!", -- [1]
+			"Darknightz-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4913, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			242, -- [11]
+			"Player-1301-0501883A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357573,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffefefeDarknightz|r",
+			[51] = 1649431392,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [75]
 		{
-			"LOW HEALTH: Isaori (Priest)", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"havent seen 2 many eps of these 2 shows", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4914, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			244, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357573,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649431417,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [76]
 		{
-			"LOW HEALTH: Isaori (Priest)", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"have heard the crack 1 is solid though", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4915, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			246, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357574,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649431430,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [77]
 		{
-			"LOW HEALTH: Isaori (Priest)", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"i havent seen much better call saul", -- [1]
+			"Bommel-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4916, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			247, -- [11]
+			"Player-1301-0C049FB7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357574,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1649431431,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [78]
 		{
-			"LOW HEALTH: Baddyl (Paladin)", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"but i finished breaking abd twicte", -- [1]
+			"Bommel-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4917, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			251, -- [11]
+			"Player-1301-0C049FB7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357575,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1649431437,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [79]
 		{
-			"LOW HEALTH: Baddyl (Paladin)", -- [1]
-			"Necrophagus-Outland", -- [2]
+			" : )", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4918, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			252, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357575,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649431447,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [80]
 		{
-			"LOW HEALTH: Isaori (Priest)", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"was scared of watching it... : )", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4919, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			254, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357595,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649431463,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [81]
 		{
-			"LOW HEALTH: Isaori (Priest)", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"afraid it will give me ideas on criminality : ))))))))", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4920, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			256, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357595,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649431475,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [82]
 		{
-			"LOW HEALTH: Isaori (Priest)", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"back when i watched it me and some buddy's had some nice tomato plants ", -- [1]
+			"Bommel-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4921, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			260, -- [11]
+			"Player-1301-0C049FB7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357595,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1649431510,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [83]
 		{
-			"LOW HEALTH: Isaori (Priest)", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"hahaha", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4922, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			261, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357595,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649431530,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [84]
 		{
-			"why so mad?", -- [1]
-			"Escânoor-Outland", -- [2]
+			"tomato", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Escânoor-Outland", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			4933, -- [11]
-			"Player-1301-0BF902C8", -- [12]
+			262, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Escânoor|r",
-			[51] = 1649357639,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649431533,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [85]
 		{
-			"boosted pros?", -- [1]
-			"Freyaluna-Outland", -- [2]
+			"best 1 of that type I seen is True Detective", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Freyaluna-Outland", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			4935, -- [11]
-			"Player-1301-0BE98969", -- [12]
+			263, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Freyaluna|r",
-			[51] = 1649357640,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649431552,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [86]
 		{
-			"kos nagoo madar jende boosted nane khar kosate", -- [1]
-			"Ziireal-Outland", -- [2]
+			"season 1", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ziireal-Outland", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			4936, -- [11]
-			"Player-1301-08857D7E", -- [12]
+			264, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cZiireal|r",
-			[51] = 1649357648,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649431555,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [87]
 		{
-			"wtf", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"saddest absolutly saddest tv show I ever seen but very... informative and well made", -- [1]
+			"Iongrifle-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4937, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			265, -- [11]
+			"Player-1301-086CA866", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357651,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffa9d271Iongrifle|r",
+			[51] = 1649431575,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [88]
 		{
-			"?", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"ooh yaas |cffa335ee|Hitem:190580::::::::60:251::::1:28:872::::Player-1301-0C049FB7:|h[Heartbond Lupine]|h|r", -- [1]
+			"Bommel-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4938, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			277, -- [11]
+			"Player-1301-0C049FB7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357654,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1649431647,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [89]
 		{
-			"sadly i must endure this wank as tbc servers full", -- [1]
-			"Freyaluna-Outland", -- [2]
+			"cheater", -- [1]
+			"Bigfil-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Freyaluna-Outland", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			4939, -- [11]
-			"Player-1301-0BE98969", -- [12]
+			281, -- [11]
+			"Player-1301-0A28DCA8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Freyaluna|r",
-			[51] = 1649357656,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffc31d39Bigfil|r",
+			[51] = 1649431665,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [90]
 		{
-			"i stopped seeing my mouse in game", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"shit", -- [1]
+			"Bommel-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4940, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			283, -- [11]
+			"Player-1301-0C049FB7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357657,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1649431668,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [91]
 		{
-			"DUEL ?", -- [1]
-			"Ziireal-Outland", -- [2]
+			"gotta log steffanie in on classic", -- [1]
+			"Bommel-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ziireal-Outland", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			4941, -- [11]
-			"Player-1301-08857D7E", -- [12]
+			285, -- [11]
+			"Player-1301-0C049FB7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cZiireal|r",
-			[51] = 1649357658,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1649431674,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [92]
 		{
-			"give me a sec", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"what do you mean i cheatedd??? ", -- [1]
+			"Bommel-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4942, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			294, -- [11]
+			"Player-1301-0C049FB7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357659,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1649431800,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [93]
 		{
-			"ok", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"xSDD", -- [1]
+			"Bommel-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4943, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			295, -- [11]
+			"Player-1301-0C049FB7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357662,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc31d39Bommel|r",
+			[51] = 1649431801,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [94]
 		{
-			"kk", -- [1]
-			"Wific-AeriePeak", -- [2]
+			"eve all", -- [1]
+			"Eleami-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Wific-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4944, -- [11]
-			"Player-1416-0A2AFE33", -- [12]
+			297, -- [11]
+			"Player-1301-0C0C3AF1", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Wific-AeriePeak|r",
-			[51] = 1649357664,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Eleami|r",
+			[51] = 1649431815,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [95]
 		{
-			"np", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:15331:Player-1301-0BE8B625:1:4:8:22:4294967295:4294967295:4294967295:4294967295|h[Treasures of Zereth Mortis]|h|r!", -- [1]
+			"Thelasa-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"Thelasa-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4945, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			301, -- [11]
+			"Player-1301-0BE8B625", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649357664,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff38bb9Thelasa|r",
+			[51] = 1649431845,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [96]
 		{
-			"b r u h", -- [1]
-			"Snakehead-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Snakehead-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			4948, -- [11]
-			"Player-1301-0A24B100", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cSnakehead|r",
-			[51] = 1649357677,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
-		{
-			"always :P", -- [1]
-			"Bubblendash-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Bubblendash-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			4949, -- [11]
-			"Player-1301-0C19800C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Bubblendash|r",
-			[51] = 1649357688,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
-		{
-			"quick relog", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"haia", -- [1]
+			"Mesra-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4950, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			313, -- [11]
+			"Player-1301-087ACDBB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649357690,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffa22fc8Mesra|r",
+			[51] = 1649431920,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [97]
+		{
+			"evening 2 U 2 : )", -- [1]
+			"Iongclaw-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			323, -- [11]
+			"Player-1301-08DE11A7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Iongclaw|r",
+			[51] = 1649431972,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [98]
+		{
+			":D", -- [1]
+			"Mesra-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			328, -- [11]
+			"Player-1301-087ACDBB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Mesra|r",
+			[51] = 1649431985,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/p he is chonky", -- [1]
-		"/p shit", -- [2]
-		"/p i almost oneshot the pala", -- [3]
-		"/p 2 chaos bolts left him at like 5% hp", -- [4]
-		"/p nice", -- [5]
-		"/p ew", -- [6]
-		"/p i hate dks", -- [7]
-		"/p idk what here tbh", -- [8]
-		"/p ok", -- [9]
-		"/p holy shit", -- [10]
-		"/p good one", -- [11]
-		"/p that sham was legit at 0.1% hp and healed to 30 at one point", -- [12]
-		"/p why tf do shams deal dps damage, while also heal like healers, and also are tanky af???", -- [13]
-		"/p so dumb xD", -- [14]
-		"/p oke", -- [15]
-		"/reload", -- [16]
-		"/p wtf", -- [17]
-		"/p i stopped seeing my mouse in game", -- [18]
-		"/p give me a sec", -- [19]
-		"/p quick relog", -- [20]
+		"/p tank soak the green plz", -- [1]
+		"/p bro...", -- [2]
+		"/p Дендрафил", -- [3]
+		"/p soak the add", -- [4]
+		"/p its irrelevant man", -- [5]
+		"/p when the add places the circle on the ground", -- [6]
+		"/p stand in it", -- [7]
+		"/p дендрафил", -- [8]
+		"/p dodge the slimes...", -- [9]
+		"/p im legit out of battle rezes", -- [10]
+		"/p quake doesnt stop you from dodging...", -- [11]
+		"/p no", -- [12]
+		"/p we died cause healer was dead", -- [13]
+		"/p you got killed by slime", -- [14]
+		"/p i see on the graph", -- [15]
+		"/p its fine", -- [16]
+		"/p im just saying", -- [17]
+		"/p dont do it again", -- [18]
+		"/p ok", -- [19]
+		"/p noted, dont take gargabe healers", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }

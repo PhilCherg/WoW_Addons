@@ -1,6 +1,9 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0534,
+	["LastPlayerFullName"] = "Necrophagus-Outland",
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 188889,
@@ -67,10 +70,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:180117::::::::60:267::33:5:7780:7359:6652:1573:6646:1:28:1279:::::|h[Empyreal Ordnance]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 188272,
-			["Level"] = 252,
+			["ID"] = 180117,
+			["Level"] = 259,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cffa335ee|Hitem:188272::::::::60:267::3:4:7189:6652:1498:6646:1:28:2165:::::|h[Resonant Reservoir]|h|r",
+			["Link"] = "|cffa335ee|Hitem:180117::::::::60:265::33:5:7780:7359:6652:1573:6646:1:28:1279:::::|h[Empyreal Ordnance]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 173242,
@@ -88,9 +91,7 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178868::::::::60:267::35:5:7662:7359:6652:1560:6646::::::|h[Deathwalker's Promise]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Necrophagus-Outland",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128941] = {
 			["Relics"] = {
@@ -132,7 +133,6 @@ PawnOptions = {
 			["Name"] = "Underlight Angler",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "WARLOCK",

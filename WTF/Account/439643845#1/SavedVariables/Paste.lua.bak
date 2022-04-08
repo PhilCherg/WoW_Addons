@@ -87,10 +87,10 @@ PasteDB = {
 			["whispertarget"] = "",
 			["where"] = "Default",
 			["loaded"] = true,
+			["pos"] = {
+			},
 			["minimap"] = {
 				["minimapPos"] = 181.3399852121823,
-			},
-			["pos"] = {
 			},
 		},
 		["Lianxia - Draenor"] = {

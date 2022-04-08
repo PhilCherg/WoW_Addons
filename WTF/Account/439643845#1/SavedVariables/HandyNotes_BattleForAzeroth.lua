@@ -1,6 +1,7 @@
 
 HandyNotes_BattleForAzerothDB = {
 	["profileKeys"] = {
+		["Bankeristor - Outland"] = "Default",
 		["Barbaxius - Outland"] = "Default",
 		["Necrophagus - Outland"] = "Default",
 		["Phaltraxion - Outland"] = "Default",

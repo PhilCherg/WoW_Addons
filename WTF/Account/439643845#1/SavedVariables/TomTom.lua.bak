@@ -422,6 +422,158 @@ TomTomWaypointsM = {
 					["world"] = true,
 				},
 			},
+			[1525] = {
+				["1525:735000000:455000000:Starting Point"] = {
+					1525, -- [1]
+					0.735, -- [2]
+					0.455, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Starting Point",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Starting Point",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1525:677000000:413000000:Starting Point Halls of Atonement"] = {
+					1525, -- [1]
+					0.677, -- [2]
+					0.413, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Starting Point Halls of Atonement",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Starting Point Halls of Atonement",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1525:738000000:464000000:Secret Treasure"] = {
+					1525, -- [1]
+					0.738, -- [2]
+					0.464, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Secret Treasure",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Secret Treasure",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1525:666000000:427000000:Secret Treasure"] = {
+					1525, -- [1]
+					0.6659999999999999, -- [2]
+					0.4270000000000001, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Secret Treasure",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Secret Treasure",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1525:731000000:473000000:Dredger's Hammer"] = {
+					1525, -- [1]
+					0.731, -- [2]
+					0.473, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Dredger's Hammer",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Dredger's Hammer",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
 		},
 		["Elementior - Outland"] = {
 		},
@@ -622,9 +774,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,

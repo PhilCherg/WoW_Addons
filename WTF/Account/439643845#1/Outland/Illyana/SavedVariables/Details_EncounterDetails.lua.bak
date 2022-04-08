@@ -14071,12 +14071,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Plague Doctor",
 		},
-		[197509] = {
-			["school"] = 32,
+		[263914] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_HEAL"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Bloodworm",
+			["source"] = "Merektha",
 		},
 		[83926] = {
 			["school"] = 32,
@@ -14098,13 +14100,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Naz'jar Tempest Witch",
 		},
-		[3409] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[197509] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Alihulk-Ravencrest",
+			["source"] = "Bloodworm",
 		},
 		[68983] = {
 			["school"] = 16,
@@ -15625,6 +15626,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Vol'kaal",
 		},
+		[145833] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Garrosh Hellscream",
+		},
 		[203163] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -15634,15 +15643,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Felspite Dominator",
-		},
-		[11426] = {
-			["school"] = 16,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Cuddlemage-Quel'Thalas",
 		},
 		[108853] = {
 			["school"] = 4,
@@ -16482,13 +16482,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gorefiend",
 		},
-		[98021] = {
+		[142775] = {
 			["school"] = 8,
 			["token"] = {
-				["SPELL_HEAL"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Spirit Link Totem",
+			["source"] = "Spark of Life",
 		},
 		[333602] = {
 			["school"] = 16,
@@ -16499,15 +16498,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Reanimated Mage",
 		},
-		[200105] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[98021] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ghostly Protector",
+			["source"] = "Spirit Link Totem",
 		},
 		[266035] = {
 			["school"] = 1,
@@ -16616,14 +16613,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Grotesque Horror",
 		},
-		[260508] = {
+		[231843] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Soulbound Goliath",
+			["source"] = "Azraard-ArgentDawn",
 		},
 		[105444] = {
 			["school"] = 4,
@@ -16634,13 +16630,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Blistering Tentacle",
 		},
-		[312107] = {
-			["school"] = 4,
-			["type"] = "BUFF",
+		[260508] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Appolyon-Boulderfist",
+			["source"] = "Soulbound Goliath",
 		},
 		[336449] = {
 			["school"] = 1,
@@ -16650,13 +16647,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Defender of Many Eyes",
 		},
-		[221606] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[36990] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Gul'dan",
+			["source"] = "Staff of Disintegration",
 		},
 		[184239] = {
 			["school"] = 32,
@@ -16669,15 +16666,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sargerei Shadowcaller",
 		},
-		[69869] = {
-			["school"] = 20,
+		[221606] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Kor'kron Invoker",
+			["source"] = "Gul'dan",
 		},
 		[74675] = {
 			["school"] = 1,
@@ -17432,13 +17427,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lord Chamberlain",
 		},
-		[36990] = {
-			["school"] = 16,
+		[69869] = {
+			["school"] = 20,
 			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Staff of Disintegration",
+			["source"] = "Kor'kron Invoker",
 		},
 		[250096] = {
 			["school"] = 32,
@@ -17452,13 +17449,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Yazma",
 		},
-		[231843] = {
-			["school"] = 1,
+		[312107] = {
+			["school"] = 4,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Azraard-ArgentDawn",
+			["source"] = "Appolyon-Boulderfist",
 		},
 		[323393] = {
 			["school"] = 1,
@@ -17493,12 +17490,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Auralea-ArgentDawn",
 		},
-		[142775] = {
-			["school"] = 8,
+		[200105] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Spark of Life",
+			["source"] = "Ghostly Protector",
 		},
 		[116778] = {
 			["school"] = 1,
@@ -17916,13 +17916,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Haliax-Stormscale",
 		},
-		[145833] = {
-			["school"] = 32,
+		[11426] = {
+			["school"] = 16,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Garrosh Hellscream",
+			["source"] = "Cuddlemage-Quel'Thalas",
 		},
 		[199775] = {
 			["school"] = 1,
@@ -18797,14 +18798,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fionara",
 		},
-		[263914] = {
-			["school"] = 1,
+		[3409] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Merektha",
+			["source"] = "Alihulk-Ravencrest",
 		},
 		[260541] = {
 			["school"] = 1,

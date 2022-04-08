@@ -1,5 +1,5 @@
 --
--- RaiderIO Client Data. Generated on 2022-04-08T07:32:54Z
+-- RaiderIO Client Data. Generated on 2022-04-08T21:23:50Z
 --
 local _, ns = ...
 ns.GUILD_BEST_DATA = {
@@ -264,6 +264,40 @@ ns.GUILD_BEST_DATA = {
         ["zone_id"] = 12831,
         ["level"] = 16,
         ["upgrades"] = 1,
+        ["fraction"] = 0.9073383171984993,
+        ["clear_time"] = "00:29:02.996",
+        ["party"] = {
+          [1] = {
+            ["name"] = "Exley",
+            ["role"] = "tank",
+            ["class_id"] = 2
+          },
+          [2] = {
+            ["name"] = "Linduskaa",
+            ["role"] = "healer",
+            ["class_id"] = 11
+          },
+          [3] = {
+            ["name"] = "Deadlyguns",
+            ["role"] = "dps",
+            ["class_id"] = 3
+          },
+          [4] = {
+            ["name"] = "Silencious",
+            ["role"] = "dps",
+            ["class_id"] = 4
+          },
+          [5] = {
+            ["name"] = "Tryscham",
+            ["role"] = "dps",
+            ["class_id"] = 7
+          }
+        }
+      },
+      [4] = {
+        ["zone_id"] = 12831,
+        ["level"] = 16,
+        ["upgrades"] = 1,
         ["fraction"] = 0.9106912601203853,
         ["clear_time"] = "00:29:09.437",
         ["party"] = {
@@ -294,7 +328,7 @@ ns.GUILD_BEST_DATA = {
           }
         }
       },
-      [4] = {
+      [5] = {
         ["zone_id"] = 13334,
         ["level"] = 16,
         ["upgrades"] = 1,
@@ -325,40 +359,6 @@ ns.GUILD_BEST_DATA = {
             ["name"] = "Xzerat",
             ["role"] = "dps",
             ["class_id"] = 12
-          }
-        }
-      },
-      [5] = {
-        ["zone_id"] = 12837,
-        ["level"] = 16,
-        ["upgrades"] = 1,
-        ["fraction"] = 0.9575437665714509,
-        ["clear_time"] = "00:37:21.609",
-        ["party"] = {
-          [1] = {
-            ["name"] = "Келория",
-            ["role"] = "tank",
-            ["class_id"] = 10
-          },
-          [2] = {
-            ["name"] = "Merkato",
-            ["role"] = "healer",
-            ["class_id"] = 2
-          },
-          [3] = {
-            ["name"] = "Dráke",
-            ["role"] = "dps",
-            ["class_id"] = 4
-          },
-          [4] = {
-            ["name"] = "Krio",
-            ["role"] = "dps",
-            ["class_id"] = 1
-          },
-          [5] = {
-            ["name"] = "Marcâurel",
-            ["role"] = "dps",
-            ["class_id"] = 3
           }
         }
       }
@@ -433,6 +433,40 @@ ns.GUILD_BEST_DATA = {
         }
       },
       [3] = {
+        ["zone_id"] = 12831,
+        ["level"] = 16,
+        ["upgrades"] = 1,
+        ["fraction"] = 0.9073383171984993,
+        ["clear_time"] = "00:29:02.996",
+        ["party"] = {
+          [1] = {
+            ["name"] = "Exley",
+            ["role"] = "tank",
+            ["class_id"] = 2
+          },
+          [2] = {
+            ["name"] = "Linduskaa",
+            ["role"] = "healer",
+            ["class_id"] = 11
+          },
+          [3] = {
+            ["name"] = "Deadlyguns",
+            ["role"] = "dps",
+            ["class_id"] = 3
+          },
+          [4] = {
+            ["name"] = "Silencious",
+            ["role"] = "dps",
+            ["class_id"] = 4
+          },
+          [5] = {
+            ["name"] = "Tryscham",
+            ["role"] = "dps",
+            ["class_id"] = 7
+          }
+        }
+      },
+      [4] = {
         ["zone_id"] = 12837,
         ["level"] = 16,
         ["upgrades"] = 1,
@@ -466,7 +500,7 @@ ns.GUILD_BEST_DATA = {
           }
         }
       },
-      [4] = {
+      [5] = {
         ["zone_id"] = 1000001,
         ["level"] = 16,
         ["upgrades"] = 0,
@@ -497,40 +531,6 @@ ns.GUILD_BEST_DATA = {
             ["name"] = "Jøsitø",
             ["role"] = "dps",
             ["class_id"] = 1
-          }
-        }
-      },
-      [5] = {
-        ["zone_id"] = 13309,
-        ["level"] = 16,
-        ["upgrades"] = 0,
-        ["fraction"] = 1.0813010776059968,
-        ["clear_time"] = "00:46:30.837",
-        ["party"] = {
-          [1] = {
-            ["name"] = "Vadries",
-            ["role"] = "tank",
-            ["class_id"] = 12
-          },
-          [2] = {
-            ["name"] = "Skorpa",
-            ["role"] = "healer",
-            ["class_id"] = 11
-          },
-          [3] = {
-            ["name"] = "Arohna",
-            ["role"] = "dps",
-            ["class_id"] = 3
-          },
-          [4] = {
-            ["name"] = "Botvatt",
-            ["role"] = "dps",
-            ["class_id"] = 8
-          },
-          [5] = {
-            ["name"] = "Dráke",
-            ["role"] = "dps",
-            ["class_id"] = 4
           }
         }
       }

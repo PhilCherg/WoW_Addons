@@ -2,137 +2,181 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"it is what it is xD", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"can u tmog those if u are not dh", -- [1]
+			"Neitipikkéls-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			387, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			1045, -- [11]
+			"Player-1301-0C1B1011", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649359100,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfffefefeNeitipikkéls|r",
+			[51] = 1649443087,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [1]
 		{
-			"Private team With 3K io pro players selling M+ 10-20 > (time & weekly) (ONLY GOLD)  (Armor stack+share loot) Get discounts for extra runs /w me for more info", -- [1]
-			"Escânoor-Outland", -- [2]
+			"no", -- [1]
+			"Pepstsd-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Escânoor-Outland", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			391, -- [11]
-			"Player-1301-0BF902C8", -- [12]
+			1047, -- [11]
+			"Player-1301-075DEC3D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Escânoor|r",
-			[51] = 1649359106,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffef367Pepstsd|r",
+			[51] = 1649443094,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [2]
 		{
-			"We dont get sun in scotland", -- [1]
-			"Freyaluna-Outland", -- [2]
+			"its only for dh :3", -- [1]
+			"Pepstsd-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Freyaluna-Outland", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			398, -- [11]
-			"Player-1301-0BE98969", -- [12]
+			1048, -- [11]
+			"Player-1301-075DEC3D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Freyaluna|r",
-			[51] = 1649359116,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffef367Pepstsd|r",
+			[51] = 1649443098,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [3]
 		{
-			"wait", -- [1]
-			"Wific-AeriePeak", -- [2]
+			"boo", -- [1]
+			"Neitipikkéls-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Wific-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			412, -- [11]
-			"Player-1416-0A2AFE33", -- [12]
+			1049, -- [11]
+			"Player-1301-0C1B1011", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Wific-AeriePeak|r",
-			[51] = 1649359133,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffefefeNeitipikkéls|r",
+			[51] = 1649443103,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [4]
 		{
-			"did warr just leave", -- [1]
-			"Wific-AeriePeak", -- [2]
+			"and only way you can tmog them is if you complet the achivments", -- [1]
+			"Pepstsd-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Wific-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			414, -- [11]
-			"Player-1416-0A2AFE33", -- [12]
+			1051, -- [11]
+			"Player-1301-075DEC3D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Wific-AeriePeak|r",
-			[51] = 1649359136,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffef367Pepstsd|r",
+			[51] = 1649443112,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [5]
 		{
-			"Enemy Spec: Fury WARRIOR", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"the 2 that taelrys sent", -- [1]
+			"Pepstsd-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			416, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			1053, -- [11]
+			"Player-1301-075DEC3D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649359137,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfffef367Pepstsd|r",
+			[51] = 1649443127,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [6]
+		{
+			"that is fine but u can use them but not mog :-d", -- [1]
+			"Neitipikkéls-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1055, -- [11]
+			"Player-1301-0C1B1011", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeNeitipikkéls|r",
+			[51] = 1649443144,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [7]
+		{
+			"yea u can use them if your class can use sword :3", -- [1]
+			"Pepstsd-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1060, -- [11]
+			"Player-1301-075DEC3D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Pepstsd|r",
+			[51] = 1649443172,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [8]
 		{
 			"Enemy Spec: Holy PRIEST", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -144,7 +188,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			417, -- [11]
+			1088, -- [11]
 			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -152,55 +196,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649359137,
+			[51] = 1649443530,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [7]
-		{
-			"Enemy Spec: Enhancement SHAMAN", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			418, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649359137,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [8]
-		{
-			"nvm", -- [1]
-			"Wific-AeriePeak", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Wific-AeriePeak", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			420, -- [11]
-			"Player-1416-0A2AFE33", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Wific-AeriePeak|r",
-			[51] = 1649359140,
-			[50] = "CHAT_MSG_PARTY",
 		}, -- [9]
 		{
-			"Yunharla - Warrior", -- [1]
+			"Enemy Spec: Fire MAGE", -- [1]
 			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -210,7 +210,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			430, -- [11]
+			1089, -- [11]
 			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -218,11 +218,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649359185,
+			[51] = 1649443530,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [10]
 		{
-			"Farans - Priest", -- [1]
+			"Enemy Spec: Assassination ROGUE", -- [1]
 			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -232,7 +232,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			431, -- [11]
+			1090, -- [11]
 			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -240,121 +240,77 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649359185,
+			[51] = 1649443530,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [11]
 		{
-			"Siluz - Shaman", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"Enemy Spec: Holy PRIEST", -- [1]
+			"Hysteria-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"Hysteria-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			432, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			1091, -- [11]
+			"Player-1301-0718A29E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649359185,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649443530,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [12]
 		{
-			"Farans - Priest", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"Enemy Spec: Fire MAGE", -- [1]
+			"Hysteria-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"Hysteria-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			433, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			1092, -- [11]
+			"Player-1301-0718A29E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649359185,
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649443530,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [13]
 		{
-			"Siluz - Shaman", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"Enemy Spec: Assassination ROGUE", -- [1]
+			"Hysteria-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"Hysteria-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			434, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			1093, -- [11]
+			"Player-1301-0718A29E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649359185,
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649443530,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [14]
 		{
-			"Yunharla - Warrior", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			435, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649359185,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [15]
-		{
-			"LOW HEALTH: Yunharla (Warrior)", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			438, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649359204,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [16]
-		{
-			"LOW HEALTH: Yunharla (Warrior)", -- [1]
+			"Pëôñmòñstër - Mage", -- [1]
 			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -364,7 +320,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			439, -- [11]
+			1097, -- [11]
 			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -372,121 +328,143 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649359204,
+			[51] = 1649443572,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [17]
+		}, -- [15]
 		{
-			"LOW HEALTH: Yunharla (Warrior)", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"Morkotulee - Priest", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			442, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			1098, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649359226,
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1649443572,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [16]
+		{
+			"Pëôñmòñstër - Mage", -- [1]
+			"Fionara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1099, -- [11]
+			"Player-1301-09D4F339", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1649443572,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [17]
+		{
+			"Morkotulee - Priest", -- [1]
+			"Fionara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1100, -- [11]
+			"Player-1301-09D4F339", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1649443572,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [18]
 		{
-			"LOW HEALTH: Yunharla (Warrior)", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"Pëôñmòñstër - Mage", -- [1]
+			"Hysteria-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"Hysteria-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			443, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			1101, -- [11]
+			"Player-1301-0718A29E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649359226,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649443572,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [19]
 		{
-			"LOW HEALTH: Yunharla (Warrior)", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"Morkotulee - Priest", -- [1]
+			"Hysteria-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"Hysteria-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			445, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			1102, -- [11]
+			"Player-1301-0718A29E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649359226,
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649443572,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [20]
 		{
-			"LOW HEALTH: Yunharla (Warrior)", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:15513:Player-1301-0C1A026D:1:4:8:22:4294967295:4294967295:4294967295:4294967295|h[Curious Collections]|h|r!", -- [1]
+			"Kazta-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"Kazta-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			446, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			1103, -- [11]
+			"Player-1301-0C1A026D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649359226,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfff38bb9Kazta|r",
+			[51] = 1649443580,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [21]
 		{
-			"LOW HEALTH: Yunharla (Warrior)", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			448, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649359236,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [22]
-		{
-			"LOW HEALTH: Yunharla (Warrior)", -- [1]
+			"Kimurax - Rogue", -- [1]
 			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -496,7 +474,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			449, -- [11]
+			1104, -- [11]
 			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -504,33 +482,55 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649359236,
+			[51] = 1649443589,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [23]
+		}, -- [22]
 		{
-			"LOW HEALTH: Yunharla (Warrior)", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"Kimurax - Rogue", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			450, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			1105, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649359236,
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1649443589,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [23]
+		{
+			"Kimurax - Rogue", -- [1]
+			"Hysteria-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hysteria-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1106, -- [11]
+			"Player-1301-0718A29E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649443589,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [24]
 		{
-			"LOW HEALTH: Yunharla (Warrior)", -- [1]
+			"Enemy Spec: Restoration DRUID", -- [1]
 			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -540,7 +540,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			451, -- [11]
+			1136, -- [11]
 			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -548,77 +548,55 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649359236,
+			[51] = 1649443717,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [25]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:15259:Player-1301-0ACA310C:1:4:7:22:4294967295:4294967295:4294967295:4294967295|h[Secrets of the First Ones]|h|r!", -- [1]
-			"Boompop-Outland", -- [2]
+			"Enemy Spec: Restoration DRUID", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Boompop-Outland", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			453, -- [11]
-			"Player-1301-0ACA310C", -- [12]
+			1137, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Boompop|r",
-			[51] = 1649359243,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1649443717,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [26]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:8461:Player-1301-0BB3D8CE:1:4:7:22:4294967295:4294967295:4294967295:4294967295|h[The Underhold]|h|r!", -- [1]
-			"Immortallce-Outland", -- [2]
+			"Enemy Spec: Restoration DRUID", -- [1]
+			"Hysteria-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Immortallce-Outland", -- [5]
+			"Hysteria-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			459, -- [11]
-			"Player-1301-0BB3D8CE", -- [12]
+			1139, -- [11]
+			"Player-1301-0718A29E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Immortallce|r",
-			[51] = 1649359300,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649443718,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [27]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:8472:Player-1301-0BB3D8CE:1:4:7:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Malkorok]|h|r!", -- [1]
-			"Immortallce-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Immortallce-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			460, -- [11]
-			"Player-1301-0BB3D8CE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Immortallce|r",
-			[51] = 1649359300,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [28]
-		{
-			"LOW HEALTH: Yunharla (Warrior)", -- [1]
+			"Enemy Spec: Restoration DRUID", -- [1]
 			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -628,7 +606,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			463, -- [11]
+			1140, -- [11]
 			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -636,99 +614,121 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649359303,
+			[51] = 1649443726,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [28]
+		{
+			"Enemy Spec: Fire MAGE", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1141, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1649443726,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [29]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14796:Player-1301-0B27E1B3:1:4:7:22:4294967295:4294967295:4294967295:4294967295|h[Superior]|h|r!", -- [1]
-			"Karroun-Outland", -- [2]
+			"Enemy Spec: Restoration DRUID", -- [1]
+			"Hysteria-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Karroun-Outland", -- [5]
+			"Hysteria-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			464, -- [11]
-			"Player-1301-0B27E1B3", -- [12]
+			1142, -- [11]
+			"Player-1301-0718A29E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Karroun|r",
-			[51] = 1649359331,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649443726,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [30]
 		{
-			"fuck srry", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"Enemy Spec: Fire MAGE", -- [1]
+			"Hysteria-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"Hysteria-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			467, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			1143, -- [11]
+			"Player-1301-0718A29E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649359366,
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649443726,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [31]
 		{
-			"my bad ", -- [1]
-			"Wific-AeriePeak", -- [2]
+			"Enemy Spec: Restoration DRUID", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Wific-AeriePeak", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			472, -- [11]
-			"Player-1416-0A2AFE33", -- [12]
+			1144, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Wific-AeriePeak|r",
-			[51] = 1649359377,
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1649443726,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [32]
 		{
-			"anal |cffffff00|Hachievement:1793:Player-1301-0923C5C2:0:0:0:-1:9:0:0:0|h[For the Children]|h|r", -- [1]
-			"Dexui-Outland", -- [2]
+			"Enemy Spec: Fire MAGE", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Dexui-Outland", -- [5]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			477, -- [11]
-			"Player-1301-0923C5C2", -- [12]
+			1145, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Dexui|r",
-			[51] = 1649359379,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1649443726,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [33]
 		{
-			"damn this was rough", -- [1]
+			"Enemy Spec: Restoration DRUID", -- [1]
 			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -738,7 +738,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			479, -- [11]
+			1148, -- [11]
 			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -746,11 +746,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649359384,
+			[51] = 1649443731,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [34]
 		{
-			"cant cast anything", -- [1]
+			"Enemy Spec: Fire MAGE", -- [1]
 			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -760,7 +760,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			481, -- [11]
+			1149, -- [11]
 			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -768,77 +768,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649359388,
+			[51] = 1649443731,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [35]
 		{
-			"na 2 melees up ur ass", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			492, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649359399,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [36]
-		{
-			"anal |cff71d5ff|Hspell:185789:0|h[Wild Call]|h|r", -- [1]
-			"Heilsenberg-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Heilsenberg-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			493, -- [11]
-			"Player-1301-0B88316F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Heilsenberg|r",
-			[51] = 1649359399,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
-		{
-			"FBI OPEN UP", -- [1]
-			"Sminem-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Sminem-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			496, -- [11]
-			"Player-1301-0C2BA2BF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Sminem|r",
-			[51] = 1649359400,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
-		{
-			"mhm", -- [1]
+			"Enemy Spec: Affliction WARLOCK", -- [1]
 			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -848,7 +782,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			505, -- [11]
+			1150, -- [11]
 			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -856,165 +790,231 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649359405,
+			[51] = 1649443731,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [39]
+		}, -- [36]
 		{
-			"nothing you could do", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"Enemy Spec: Restoration DRUID", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			508, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			1151, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649359406,
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1649443731,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [37]
+		{
+			"Enemy Spec: Fire MAGE", -- [1]
+			"Fionara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1152, -- [11]
+			"Player-1301-09D4F339", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1649443731,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [38]
+		{
+			"Enemy Spec: Affliction WARLOCK", -- [1]
+			"Fionara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1153, -- [11]
+			"Player-1301-09D4F339", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1649443731,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [39]
+		{
+			"Enemy Spec: Restoration DRUID", -- [1]
+			"Hysteria-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hysteria-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1154, -- [11]
+			"Player-1301-0718A29E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649443732,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [40]
 		{
-			"they fucked my port too", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"Enemy Spec: Fire MAGE", -- [1]
+			"Hysteria-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"Hysteria-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			530, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			1155, -- [11]
+			"Player-1301-0718A29E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649359415,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649443732,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [41]
 		{
-			"Anal |cffffff00|Hachievement:8116:Player-1301-08790A17:0:0:0:-1:0:0:0:0|h[You Made Me Bleed My Own Blood]|h|r", -- [1]
-			"Orlando-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Orlando-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			535, -- [11]
-			"Player-1301-08790A17", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Orlando|r",
-			[51] = 1649359416,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
-		{
-			"ye", -- [1]
-			"Wific-AeriePeak", -- [2]
+			"Enemy Spec: Affliction WARLOCK", -- [1]
+			"Hysteria-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Wific-AeriePeak", -- [5]
+			"Hysteria-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			543, -- [11]
-			"Player-1416-0A2AFE33", -- [12]
+			1156, -- [11]
+			"Player-1301-0718A29E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Wific-AeriePeak|r",
-			[51] = 1649359419,
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649443732,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [42]
+		{
+			"Kevlock - Warlock", -- [1]
+			"Fionara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1162, -- [11]
+			"Player-1301-09D4F339", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1649443774,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [43]
 		{
-			"anal |cff71d5ff|Hspell:34162:0|h[Pounding]|h|r |cffffff00|Hachievement:1793:Player-1301-0923C5C2:0:0:0:-1:9:0:0:0|h[For the Children]|h|r", -- [1]
-			"Hávocado-Outland", -- [2]
+			"Geldleaf - Druid", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Hávocado-Outland", -- [5]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			544, -- [11]
-			"Player-1301-0C2B189E", -- [12]
+			1163, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Hávocado|r",
-			[51] = 1649359419,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1649443774,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [44]
 		{
-			"and war pulled me right when i used soulshape", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"Kevlock - Warlock", -- [1]
+			"Hysteria-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"Hysteria-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			559, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			1164, -- [11]
+			"Player-1301-0718A29E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649359424,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649443774,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [45]
 		{
-			"unwinnable for u without the trinket", -- [1]
-			"Wific-AeriePeak", -- [2]
+			"Geldleaf - Druid", -- [1]
+			"Hysteria-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Wific-AeriePeak", -- [5]
+			"Hysteria-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			561, -- [11]
-			"Player-1416-0A2AFE33", -- [12]
+			1165, -- [11]
+			"Player-1301-0718A29E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Wific-AeriePeak|r",
-			[51] = 1649359426,
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649443774,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [46]
 		{
-			"so it didnt go through", -- [1]
+			"Geldleaf - Druid", -- [1]
 			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1024,7 +1024,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			570, -- [11]
+			1166, -- [11]
 			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1032,957 +1032,979 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649359430,
+			[51] = 1649443774,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [47]
 		{
-			"|cffffff00|Hachievement:15418:Player-1301-0B88316F:1:4:5:22:4294967295:4294967295:4294967295:4294967295|h[The Grand Design]|h|r of anal |cff71d5ff|Hspell:187708:0|h[Carve]|h|r", -- [1]
-			"Heilsenberg-Outland", -- [2]
+			"Kevlock - Warlock", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Heilsenberg-Outland", -- [5]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			576, -- [11]
-			"Player-1301-0B88316F", -- [12]
+			1167, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Heilsenberg|r",
-			[51] = 1649359433,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1649443774,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [48]
 		{
-			"anal |cffff8000|Hitem:172328::173130::::::60:263::69:7:8128:7882:8156:6648:6650:1588:6935:1:28:2142::::Player-1301-0C181062:|h[Unity]|h|r", -- [1]
-			"Belisario-Outland", -- [2]
+			"Mondottica - Mage", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Belisario-Outland", -- [5]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			580, -- [11]
-			"Player-1301-0439AFA2", -- [12]
+			1169, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcBelisario|r",
-			[51] = 1649359434,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1649443783,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [49]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:15492:Player-1301-0B7D6BF9:1:4:7:22:4294967295:4294967295:4294967295:4294967295|h[Cornerstone of Creation]|h|r!", -- [1]
-			"Krachtig-Outland", -- [2]
+			"Mondottica - Mage", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Krachtig-Outland", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			581, -- [11]
-			"Player-1301-0B7D6BF9", -- [12]
+			1170, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Krachtig|r",
-			[51] = 1649359435,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1649443783,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [50]
 		{
-			"mmm |cffffff00|Hachievement:1157:Player-1301-0C26B86E:1:6:1:9:4294967295:4294967295:4294967295:4294967295|h[Duel-icious]|h|r anal", -- [1]
-			"Mawthorn-Outland", -- [2]
+			"Mondottica - Mage", -- [1]
+			"Hysteria-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mawthorn-Outland", -- [5]
+			"", -- [4]
+			"Hysteria-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			582, -- [11]
-			"Player-1301-0C26B86E", -- [12]
+			1171, -- [11]
+			"Player-1301-0718A29E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Mawthorn|r",
-			[51] = 1649359435,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649443783,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [51]
 		{
-			"i guess so", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"|cffa335ee|Hkeystone:180653:382:11:10:7:14:130|h[Keystone: Theater of Pain (11)]|h|r any cuties, 1 dps heal and tank", -- [1]
+			"Mesra-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			583, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			1178, -- [11]
+			"Player-1301-087ACDBB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649359441,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffa22fc8Mesra|r",
+			[51] = 1649443864,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [52]
 		{
-			"anal |cffffff00|Hachievement:15094:Player-1301-0C02A60E:1:3:28:22:4294967295:4294967295:4294967295:4294967295|h[Rampage]|h|r", -- [1]
-			"Iceweave-Outland", -- [2]
+			"if we get all bis items is that mean we deal maximum possible damage by our class?", -- [1]
+			"Cocowitch-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Iceweave-Outland", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			584, -- [11]
-			"Player-1301-0C02A60E", -- [12]
+			1180, -- [11]
+			"Player-1301-0BC2795E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaIceweave|r",
-			[51] = 1649359441,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff00fe97Cocowitch|r",
+			[51] = 1649443899,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [53]
 		{
-			"|cffffff00|Hachievement:12066:Player-1301-08790A17:1:2:8:18:4294967295:4294967295:4294967295:4294967295|h[You Are Now Prepared!]|h|r for anal", -- [1]
-			"Orlando-Outland", -- [2]
+			"im to low geared :(", -- [1]
+			"Lerboni-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Orlando-Outland", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			587, -- [11]
-			"Player-1301-08790A17", -- [12]
+			1183, -- [11]
+			"Player-1301-08C831EA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Orlando|r",
-			[51] = 1649359462,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffa22fc8Lerboni|r",
+			[51] = 1649443943,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [54]
 		{
-			"|cff71d5ff|Hspell:66770:0|h[Ferocious Butt]|h|r|cff71d5ff|Hspell:34162:0|h[Pounding]|h|r|cffffff00|Hachievement:1793:Player-1301-0923C5C2:0:0:0:-1:9:0:0:0|h[For the Children]|h|r", -- [1]
-			"Hávocado-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Hávocado-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			588, -- [11]
-			"Player-1301-0C2B189E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Hávocado|r",
-			[51] = 1649359464,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
-		{
-			"|cffffff00|Hachievement:7520:Player-1301-0B88316F:0:0:0:-1:448:0:0:0|h[The Loremaster]|h|r of Anal ", -- [1]
-			"Heilsenberg-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Heilsenberg-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			589, -- [11]
-			"Player-1301-0B88316F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Heilsenberg|r",
-			[51] = 1649359469,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
-		{
-			"Enemy Spec: Enhancement SHAMAN", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			593, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649359470,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [57]
-		{
-			"Enemy Spec: Mistweaver MONK", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			594, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649359470,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [58]
-		{
-			"Enemy Spec: Enhancement SHAMAN", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			602, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649359472,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [59]
-		{
-			"Enemy Spec: Mistweaver MONK", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			603, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649359472,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [60]
-		{
-			"Enemy Spec: Arms WARRIOR", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			604, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649359472,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [61]
-		{
-			"Enemy Spec: Enhancement SHAMAN", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			605, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649359472,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [62]
-		{
-			"Enemy Spec: Mistweaver MONK", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			606, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649359472,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [63]
-		{
-			"Enemy Spec: Arms WARRIOR", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			607, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649359472,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [64]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:15255:Player-1301-0646EE6A:1:4:7:22:4294967295:4294967295:4294967295:4294967295|h[The Jailer's Gauntlet: Layer 5]|h|r!", -- [1]
-			"Áv-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Áv-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			612, -- [11]
-			"Player-1301-0646EE6A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Áv|r",
-			[51] = 1649359492,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [65]
-		{
-			"idk", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			617, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649359509,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [66]
-		{
-			"turbo hmm", -- [1]
-			"Wific-AeriePeak", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Wific-AeriePeak", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			618, -- [11]
-			"Player-1416-0A2AFE33", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Wific-AeriePeak|r",
-			[51] = 1649359511,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [67]
-		{
-			"try and cleave them", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			620, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649359517,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [68]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14633:Player-1301-0C0291AB:1:4:7:22:4294967295:4294967295:4294967295:4294967295|h[Master Navigator]|h|r!", -- [1]
-			"Tascheris-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Tascheris-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			622, -- [11]
-			"Player-1301-0C0291AB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Tascheris|r",
-			[51] = 1649359521,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [69]
-		{
-			"ill spear both ", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			623, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649359522,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [70]
-		{
-			"Pédalo - Warrior", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			625, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649359527,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [71]
-		{
-			"Totemkin - Shaman", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			626, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649359527,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [72]
-		{
-			"Aléri - Monk", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			627, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649359527,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [73]
-		{
-			"Pédalo - Warrior", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			628, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649359527,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [74]
-		{
-			"Totemkin - Shaman", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			629, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649359527,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [75]
-		{
-			"Aléri - Monk", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			630, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649359527,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [76]
-		{
-			"so u can run and spam chaos", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			631, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649359528,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [77]
-		{
-			"ok", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			632, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649359529,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [78]
-		{
-			"mb", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			637, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649359590,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [79]
-		{
-			"mine too", -- [1]
-			"Wific-AeriePeak", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Wific-AeriePeak", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			646, -- [11]
-			"Player-1416-0A2AFE33", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Wific-AeriePeak|r",
-			[51] = 1649359607,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [80]
-		{
-			"bop too late", -- [1]
-			"Wific-AeriePeak", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Wific-AeriePeak", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			647, -- [11]
-			"Player-1416-0A2AFE33", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Wific-AeriePeak|r",
-			[51] = 1649359608,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [81]
-		{
-			"i guess im just useless against melee without trinket", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			649, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649359625,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [82]
-		{
-			"Private team With 3K io pro players selling M+ 10-20 > (time & weekly) (ONLY GOLD)  (Armor stack+share loot) Get discounts for extra runs /w me for more info", -- [1]
+			"you need bis stats and best rotation", -- [1]
 			"Escânoor-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Escânoor-Outland", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			650, -- [11]
+			1184, -- [11]
 			"Player-1301-0BF902C8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
+			false, -- [17]
 			[52] = "|cfff38bb9Escânoor|r",
-			[51] = 1649359630,
-			[50] = "CHAT_MSG_CHANNEL",
+			[51] = 1649443945,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [55]
+		{
+			"only 255", -- [1]
+			"Lerboni-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1185, -- [11]
+			"Player-1301-08C831EA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Lerboni|r",
+			[51] = 1649443946,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [56]
+		{
+			"ESCANOR", -- [1]
+			"Lerboni-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1186, -- [11]
+			"Player-1301-08C831EA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Lerboni|r",
+			[51] = 1649443954,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [57]
+		{
+			"IV BEEN TRYING TO GET A HOLD ON YOU", -- [1]
+			"Lerboni-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1187, -- [11]
+			"Player-1301-08C831EA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Lerboni|r",
+			[51] = 1649443961,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [58]
+		{
+			"hi", -- [1]
+			"Escânoor-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1188, -- [11]
+			"Player-1301-0BF902C8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Escânoor|r",
+			[51] = 1649443965,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [59]
+		{
+			"why you ignore ", -- [1]
+			"Lerboni-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1189, -- [11]
+			"Player-1301-08C831EA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Lerboni|r",
+			[51] = 1649443975,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [60]
+		{
+			"me", -- [1]
+			"Lerboni-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1190, -- [11]
+			"Player-1301-08C831EA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Lerboni|r",
+			[51] = 1649443976,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [61]
+		{
+			":(", -- [1]
+			"Lerboni-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1191, -- [11]
+			"Player-1301-08C831EA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Lerboni|r",
+			[51] = 1649443977,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [62]
+		{
+			"i dont", -- [1]
+			"Escânoor-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1192, -- [11]
+			"Player-1301-0BF902C8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Escânoor|r",
+			[51] = 1649443979,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [63]
+		{
+			"check whisper", -- [1]
+			"Lerboni-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1193, -- [11]
+			"Player-1301-08C831EA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Lerboni|r",
+			[51] = 1649443988,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [64]
+		{
+			"bro", -- [1]
+			"Escânoor-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1194, -- [11]
+			"Player-1301-0BF902C8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Escânoor|r",
+			[51] = 1649443994,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [65]
+		{
+			"i m totaly afk in wow", -- [1]
+			"Escânoor-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1195, -- [11]
+			"Player-1301-0BF902C8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Escânoor|r",
+			[51] = 1649443997,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [66]
+		{
+			"meow", -- [1]
+			"Mesra-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1197, -- [11]
+			"Player-1301-087ACDBB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Mesra|r",
+			[51] = 1649444024,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [67]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:15416:Player-1301-0BCCB5E9:1:4:8:22:4294967295:4294967295:4294967295:4294967295|h[Domination's Grasp]|h|r!", -- [1]
+			"Robobean-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Robobean-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1198, -- [11]
+			"Player-1301-0BCCB5E9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaRobobean|r",
+			[51] = 1649444049,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [68]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:15416:Player-1301-0BE033DA:1:4:8:22:4294967295:4294967295:4294967295:4294967295|h[Domination's Grasp]|h|r!", -- [1]
+			"Lychea-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lychea-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1199, -- [11]
+			"Player-1301-0BE033DA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaLychea|r",
+			[51] = 1649444070,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [69]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:15416:Player-1301-087FB4EF:1:4:8:22:4294967295:4294967295:4294967295:4294967295|h[Domination's Grasp]|h|r!", -- [1]
+			"Nokap-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nokap-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1200, -- [11]
+			"Player-1301-087FB4EF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaNokap|r",
+			[51] = 1649444070,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [70]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:15492:Player-1301-0C2B67E7:1:4:8:22:4294967295:4294967295:4294967295:4294967295|h[Cornerstone of Creation]|h|r!", -- [1]
+			"Lyvianne-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lyvianne-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1202, -- [11]
+			"Player-1301-0C2B67E7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeLyvianne|r",
+			[51] = 1649444104,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [71]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14758:Player-1301-0A498A6E:1:4:8:22:4294967295:4294967295:4294967295:4294967295|h[The World Beyond]|h|r!", -- [1]
+			"Tharlak-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tharlak-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1204, -- [11]
+			"Player-1301-0A498A6E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Tharlak|r",
+			[51] = 1649444171,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [72]
+		{
+			"LOW HEALTH: Mondottica (Mage)", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1212, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1649444277,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [73]
+		{
+			"LOW HEALTH: Mondottica (Mage)", -- [1]
+			"Fionara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1213, -- [11]
+			"Player-1301-09D4F339", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1649444277,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [74]
+		{
+			"LOW HEALTH: Mondottica (Mage)", -- [1]
+			"Hysteria-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hysteria-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1214, -- [11]
+			"Player-1301-0718A29E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649444277,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [75]
+		{
+			"!keys", -- [1]
+			"Karamfilchi-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1215, -- [11]
+			"Player-1301-0BDA0C82", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Karamfilchi|r",
+			[51] = 1649444279,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [76]
+		{
+			"|cffa335ee|Hkeystone:180653:380:18:10:7:14:130|h[Keystone: Sanguine Depths (18)]|h|r (Necrolord)", -- [1]
+			"Simoníds-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1216, -- [11]
+			"Player-1301-08EE0858", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Simoníds|r",
+			[51] = 1649444280,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [77]
+		{
+			"|cffa335ee|Hkeystone:180653:392:18:10:7:14:130|h[Keystone: Tazavesh: So'leah's Gambit (18)]|h|r", -- [1]
+			"Deckstaer-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1217, -- [11]
+			"Player-1301-089D9D14", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Deckstaer|r",
+			[51] = 1649444280,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [78]
+		{
+			"Astral Keys: |cffa335ee|Hkeystone:180653:379:16:10:7:14:130|h[Keystone: Plaguefall (16)]|h|r (Venthyr)", -- [1]
+			"Schamirock-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1218, -- [11]
+			"Player-1301-0C2B40D3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcSchamirock|r",
+			[51] = 1649444280,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [79]
+		{
+			"|cffa335ee|Hkeystone:180653:379:19:10:7:14:130|h[Keystone: Plaguefall (19)]|h|r", -- [1]
+			"Álomar-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1219, -- [11]
+			"Player-1301-0A5E7654", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Álomar|r",
+			[51] = 1649444280,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [80]
+		{
+			"Astral Keys: |cffa335ee|Hkeystone:180653:377:21:10:7:14:130|h[Keystone: De Other Side (21)]|h|r (Night Fae)", -- [1]
+			"Sdolf-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1220, -- [11]
+			"Player-1301-0BBED336", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edSdolf|r",
+			[51] = 1649444280,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [81]
+		{
+			"Astral Keys: |cffa335ee|Hkeystone:180653:382:17:10:7:14:130|h[Keystone: Theater of Pain (17)]|h|r (Night Fae)", -- [1]
+			"Tytt-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1221, -- [11]
+			"Player-1301-0BDC072C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaTytt|r",
+			[51] = 1649444280,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [82]
+		{
+			"|cffa335ee|Hkeystone:180653:381:21:10:7:14:130|h[Keystone: Spires of Ascension (21)]|h|r", -- [1]
+			"Megaferilla-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1222, -- [11]
+			"Player-1301-0A22824E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcMegaferilla|r",
+			[51] = 1649444280,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [83]
 		{
-			"im so fucking bad geared", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"|cffa335ee|Hkeystone:180653:391:20:10:7:14:130|h[Keystone: Tazavesh: Streets of Wonder (20)]|h|r (Necrolord)", -- [1]
+			"Minimokey-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			651, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			1223, -- [11]
+			"Player-1301-028BBC10", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649359631,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff3ec6eaMinimokey|r",
+			[51] = 1649444280,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [84]
 		{
-			"same", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"Astral Keys: |cffa335ee|Hkeystone:180653:377:15:10:7:14:130|h[Keystone: De Other Side (15)]|h|r (Necrolord)", -- [1]
+			"Moorindal-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			652, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			1224, -- [11]
+			"Player-1301-0C0B0456", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649359636,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc31d39Moorindal|r",
+			[51] = 1649444280,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [85]
 		{
-			"i dont have pvp gear except the trinket", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"|cffa335ee|Hkeystone:180653:380:15:10:7:14:130|h[Keystone: Sanguine Depths (15)]|h|r", -- [1]
+			"Nóxùs-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			653, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			1225, -- [11]
+			"Player-1301-085463D8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649359642,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cff006fdcNóxùs|r",
+			[51] = 1649444280,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [86]
 		{
-			"7 hours this level", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"Astral Keys: |cffa335ee|Hkeystone:180653:379:14:10:7:14:130|h[Keystone: Plaguefall (14)]|h|r (Night Fae)", -- [1]
+			"Zenanda-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			654, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			1226, -- [11]
+			"Player-1301-0B23E9D8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649359644,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc31d39Zenanda|r",
+			[51] = 1649444280,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [87]
 		{
-			"just started doing this", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"Astral Keys: |cffa335ee|Hkeystone:180653:377:16:10:7:14:130|h[Keystone: De Other Side (16)]|h|r (Night Fae)", -- [1]
+			"Neitipikkéls-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			655, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			1227, -- [11]
+			"Player-1301-0C1B1011", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649359645,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfffefefeNeitipikkéls|r",
+			[51] = 1649444280,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [88]
 		{
-			":D", -- [1]
-			"Wific-AeriePeak", -- [2]
+			"|cffa335ee|Hkeystone:180653:391:17:10:7:14:130|h[Keystone: Tazavesh: Streets of Wonder (17)]|h|r", -- [1]
+			"Jrd-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Wific-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			656, -- [11]
-			"Player-1416-0A2AFE33", -- [12]
+			1228, -- [11]
+			"Player-1301-0084A190", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Wific-AeriePeak|r",
-			[51] = 1649359651,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc59a6cJrd|r",
+			[51] = 1649444280,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [89]
 		{
-			"np", -- [1]
-			"Wific-AeriePeak", -- [2]
+			"Astral Keys: |cffa335ee|Hkeystone:180653:379:15:10:7:14:130|h[Keystone: Plaguefall (15)]|h|r (Venthyr)", -- [1]
+			"Itsfrost-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Wific-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			657, -- [11]
-			"Player-1416-0A2AFE33", -- [12]
+			1229, -- [11]
+			"Player-1301-040A63C7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Wific-AeriePeak|r",
-			[51] = 1649359652,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff3ec6eaItsfrost|r",
+			[51] = 1649444280,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [90]
 		{
-			"welp, its getting kinda late, so imma go, thanks for the games guys :D", -- [1]
+			"Astral Keys: |cffa335ee|Hkeystone:180653:382:19:10:7:14:130|h[Keystone: Theater of Pain (19)]|h|r (Kyrian)", -- [1]
+			"Karamfilchi-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1230, -- [11]
+			"Player-1301-0BDA0C82", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Karamfilchi|r",
+			[51] = 1649444280,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [91]
+		{
+			"LOW HEALTH: Mondottica (Mage)", -- [1]
 			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1992,7 +2014,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			658, -- [11]
+			1232, -- [11]
 			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -2000,143 +2022,77 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649359667,
+			[51] = 1649444364,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [91]
-		{
-			"ok", -- [1]
-			"Wific-AeriePeak", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Wific-AeriePeak", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			666, -- [11]
-			"Player-1416-0A2AFE33", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Wific-AeriePeak|r",
-			[51] = 1649359673,
-			[50] = "CHAT_MSG_PARTY",
 		}, -- [92]
 		{
-			"was fun ", -- [1]
-			"Wific-AeriePeak", -- [2]
+			"LOW HEALTH: Mondottica (Mage)", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Wific-AeriePeak", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			667, -- [11]
-			"Player-1416-0A2AFE33", -- [12]
+			1233, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Wific-AeriePeak|r",
-			[51] = 1649359675,
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1649444364,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [93]
 		{
-			"ty for games", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"LOW HEALTH: Mondottica (Mage)", -- [1]
+			"Hysteria-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"Hysteria-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			668, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			1234, -- [11]
+			"Player-1301-0718A29E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649359676,
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649444364,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [94]
 		{
-			"ggs guys", -- [1]
-			"Wific-AeriePeak", -- [2]
+			"LOW HEALTH: Mondottica (Mage)", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Wific-AeriePeak", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			669, -- [11]
-			"Player-1416-0A2AFE33", -- [12]
+			1235, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Wific-AeriePeak|r",
-			[51] = 1649359678,
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1649444364,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [95]
 		{
-			"yea", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			670, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649359678,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [96]
-		{
-			"ty", -- [1]
-			"Wific-AeriePeak", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Wific-AeriePeak", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			671, -- [11]
-			"Player-1416-0A2AFE33", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Wific-AeriePeak|r",
-			[51] = 1649359679,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [97]
-		{
-			"ggs", -- [1]
+			"LOW HEALTH: Mondottica (Mage)", -- [1]
 			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -2146,7 +2102,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			672, -- [11]
+			1236, -- [11]
 			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -2154,53 +2110,97 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649359679,
+			[51] = 1649444364,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [98]
+		}, -- [96]
 		{
-			"pala", -- [1]
-			"Zeptyx-Silvermoon", -- [2]
+			"LOW HEALTH: Mondottica (Mage)", -- [1]
+			"Hysteria-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeptyx-Silvermoon", -- [5]
+			"Hysteria-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			673, -- [11]
-			"Player-3391-0C2C4F99", -- [12]
+			1238, -- [11]
+			"Player-1301-0718A29E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeptyx-Silvermoon|r",
-			[51] = 1649359680,
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649444364,
 			[50] = "CHAT_MSG_PARTY",
+		}, -- [97]
+		{
+			"aight guys i will stop here for now i suck", -- [1]
+			"Hysteria-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hysteria-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1251, -- [11]
+			"Player-1301-0718A29E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649440824,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [98]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:15416:Player-1301-0BEBC7A2:1:4:8:22:4294967295:4294967295:4294967295:4294967295|h[Domination's Grasp]|h|r!", -- [1]
+			"Tokikoo-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tokikoo-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1257, -- [11]
+			"Player-1301-0BEBC7A2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Tokikoo|r",
+			[51] = 1649444514,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/p nice", -- [1]
-		"/p ye he got removed", -- [2]
-		"/p wp wp", -- [3]
-		"/p they just have twice our dmg", -- [4]
-		"/p it is what it is xD", -- [5]
-		"/p damn this was rough", -- [6]
-		"/p cant cast anything", -- [7]
-		"/p mhm", -- [8]
-		"/p they fucked my port too", -- [9]
-		"/p and war pulled me right when i used soulshape", -- [10]
-		"/p so it didnt go through", -- [11]
-		"/p i guess so", -- [12]
-		"/p ok", -- [13]
-		"/p mb", -- [14]
-		"/p i guess im just useless against melee without trinket", -- [15]
-		"/p same", -- [16]
-		"/p i dont have pvp gear except the trinket", -- [17]
-		"/p just started doing this", -- [18]
-		"/p welp, its getting kinda late, so imma go, thanks for the games guys :D", -- [19]
-		"/p ggs", -- [20]
+		"/p look at dmg taken", -- [1]
+		"/p 2 melee retarded", -- [2]
+		"/p it is what it is xD", -- [3]
+		"/p jesus", -- [4]
+		"/p tonight is not my night huh", -- [5]
+		"/p rip", -- [6]
+		"/p cant 1v1 warrior", -- [7]
+		"/p stun and reflect every 3 seconds", -- [8]
+		"/p ok", -- [9]
+		"/p i will insta die tho", -- [10]
+		"/p war + dk", -- [11]
+		"/p MONK?", -- [12]
+		"/p HEY", -- [13]
+		"/p who focus?", -- [14]
+		"/p hey", -- [15]
+		"/p yee", -- [16]
+		"/p sry", -- [17]
+		"/p had to go afk for a min", -- [18]
+		"/p mage r?", -- [19]
+		"/p oke", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }
