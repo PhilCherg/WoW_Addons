@@ -2,30 +2,8 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"WTB JAILER HC KILL!", -- [1]
-			"Meroving-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Meroving-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			94, -- [11]
-			"Player-1301-0C014C16", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Meroving|r",
-			[51] = 1649430569,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"havent \"seen\" U lot in 2 days- what have I missed- have we moved away from the metric system : )))", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"can u tmog those if u are not dh", -- [1]
+			"Neitipikkéls-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -34,42 +12,42 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			100, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1045, -- [11]
+			"Player-1301-0C1B1011", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649430653,
+			[52] = "|cfffefefeNeitipikkéls|r",
+			[51] = 1649443087,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [1]
+		{
+			"no", -- [1]
+			"Pepstsd-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1047, -- [11]
+			"Player-1301-075DEC3D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Pepstsd|r",
+			[51] = 1649443094,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [2]
 		{
-			"WTB |cffa335ee|Hitem:190631::::::::60:258:::::::::|h[Vandalized Ephemera Mitts]|h|r (225k my offer) Outland only trade.", -- [1]
-			"Drjonés-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Drjonés-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			103, -- [11]
-			"Player-1301-0BFB65A5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeDrjonés|r",
-			[51] = 1649430666,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"John and anna got a divorce", -- [1]
-			"Nezeroth-Outland", -- [2]
+			"its only for dh :3", -- [1]
+			"Pepstsd-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -78,20 +56,42 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			105, -- [11]
-			"Player-1301-04E9C790", -- [12]
+			1048, -- [11]
+			"Player-1301-075DEC3D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Nezeroth|r",
-			[51] = 1649430674,
+			[52] = "|cfffef367Pepstsd|r",
+			[51] = 1649443098,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [3]
+		{
+			"boo", -- [1]
+			"Neitipikkéls-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1049, -- [11]
+			"Player-1301-0C1B1011", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeNeitipikkéls|r",
+			[51] = 1649443103,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [4]
 		{
-			"mike left the clan", -- [1]
-			"Nezeroth-Outland", -- [2]
+			"and only way you can tmog them is if you complet the achivments", -- [1]
+			"Pepstsd-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -100,20 +100,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			106, -- [11]
-			"Player-1301-04E9C790", -- [12]
+			1051, -- [11]
+			"Player-1301-075DEC3D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Nezeroth|r",
-			[51] = 1649430679,
+			[52] = "|cfffef367Pepstsd|r",
+			[51] = 1649443112,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [5]
 		{
-			"david is on holiday in spain", -- [1]
-			"Nezeroth-Outland", -- [2]
+			"the 2 that taelrys sent", -- [1]
+			"Pepstsd-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -122,20 +122,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			107, -- [11]
-			"Player-1301-04E9C790", -- [12]
+			1053, -- [11]
+			"Player-1301-075DEC3D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Nezeroth|r",
-			[51] = 1649430695,
+			[52] = "|cfffef367Pepstsd|r",
+			[51] = 1649443127,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [6]
 		{
-			"Ricky's got an ingrown toenail atm too so he's not raiding", -- [1]
-			"Penneh-Outland", -- [2]
+			"that is fine but u can use them but not mog :-d", -- [1]
+			"Neitipikkéls-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -144,20 +144,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			109, -- [11]
-			"Player-1301-05D8E8B4", -- [12]
+			1055, -- [11]
+			"Player-1301-0C1B1011", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcPenneh|r",
-			[51] = 1649430729,
+			[52] = "|cfffefefeNeitipikkéls|r",
+			[51] = 1649443144,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [7]
 		{
-			"uff alot happening", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"yea u can use them if your class can use sword :3", -- [1]
+			"Pepstsd-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -166,966 +166,966 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			110, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1060, -- [11]
+			"Player-1301-075DEC3D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649430736,
+			[52] = "|cfffef367Pepstsd|r",
+			[51] = 1649443172,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [8]
 		{
-			"good and bad it seems", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"Enemy Spec: Holy PRIEST", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			111, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1088, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649430744,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1649443530,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [9]
 		{
-			"i like turtles", -- [1]
-			"Bommel-Outland", -- [2]
+			"Enemy Spec: Fire MAGE", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			112, -- [11]
-			"Player-1301-0C049FB7", -- [12]
+			1089, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1649430756,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1649443530,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [10]
 		{
-			"and I though I had an eventfull set of days- learning how 2 make a mean BLT  : ))))", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"Enemy Spec: Assassination ROGUE", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			113, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1090, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649430763,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1649443530,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [11]
 		{
-			"aaah B with the mos vital data- gg : ))))", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"Enemy Spec: Holy PRIEST", -- [1]
+			"Hysteria-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Hysteria-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			117, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1091, -- [11]
+			"Player-1301-0718A29E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649430779,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649443530,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [12]
 		{
-			"Oof, spergs looking for 250 for a +10 it seems", -- [1]
-			"Cheapcoffee-Outland", -- [2]
+			"Enemy Spec: Fire MAGE", -- [1]
+			"Hysteria-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Hysteria-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			119, -- [11]
-			"Player-1301-0C2B9DB7", -- [12]
+			1092, -- [11]
+			"Player-1301-0718A29E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeCheapcoffee|r",
-			[51] = 1649430784,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649443530,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [13]
 		{
-			"my buddy maaiky got 2 set today, I funneled lfr loot to him xD", -- [1]
-			"Bommel-Outland", -- [2]
+			"Enemy Spec: Assassination ROGUE", -- [1]
+			"Hysteria-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Hysteria-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			124, -- [11]
-			"Player-1301-0C049FB7", -- [12]
+			1093, -- [11]
+			"Player-1301-0718A29E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1649430809,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649443530,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [14]
 		{
-			"big Mikey", -- [1]
-			"Penneh-Outland", -- [2]
+			"Pëôñmòñstër - Mage", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			126, -- [11]
-			"Player-1301-05D8E8B4", -- [12]
+			1097, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcPenneh|r",
-			[51] = 1649430820,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1649443572,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [15]
 		{
-			" : )) gg", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"Morkotulee - Priest", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			127, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1098, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649430828,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1649443572,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [16]
 		{
-			"his dps rose so much cause of it xD", -- [1]
-			"Bommel-Outland", -- [2]
+			"Pëôñmòñstër - Mage", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			133, -- [11]
-			"Player-1301-0C049FB7", -- [12]
+			1099, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1649430849,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1649443572,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [17]
 		{
-			"the only positive thing about me not being able 2 run instances is", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"Morkotulee - Priest", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			134, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1100, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649430855,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1649443572,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [18]
 		{
-			"he's starting to enjoy dpsing ", -- [1]
-			"Bommel-Outland", -- [2]
+			"Pëôñmòñstër - Mage", -- [1]
+			"Hysteria-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Hysteria-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			138, -- [11]
-			"Player-1301-0C049FB7", -- [12]
+			1101, -- [11]
+			"Player-1301-0718A29E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1649430859,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649443572,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [19]
 		{
-			"I dont bug U lot 2 run em with me", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"Morkotulee - Priest", -- [1]
+			"Hysteria-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Hysteria-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			139, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1102, -- [11]
+			"Player-1301-0718A29E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649430861,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649443572,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [20]
 		{
-			"ohh good news that", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:15513:Player-1301-0C1A026D:1:4:8:22:4294967295:4294967295:4294967295:4294967295|h[Curious Collections]|h|r!", -- [1]
+			"Kazta-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Kazta-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			140, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1103, -- [11]
+			"Player-1301-0C1A026D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649430872,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Kazta|r",
+			[51] = 1649443580,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [21]
 		{
-			"is he comofrtable with new playstyle", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"Kimurax - Rogue", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			141, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1104, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649430879,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1649443589,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [22]
 		{
-			"pc cant handle?", -- [1]
-			"Bommel-Outland", -- [2]
+			"Kimurax - Rogue", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			142, -- [11]
-			"Player-1301-0C049FB7", -- [12]
+			1105, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1649430881,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1649443589,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [23]
 		{
-			"or still getting used 2", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"Kimurax - Rogue", -- [1]
+			"Hysteria-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Hysteria-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			143, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1106, -- [11]
+			"Player-1301-0718A29E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649430882,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649443589,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [24]
 		{
-			"how do sets affect- bigtime I bet??", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"Enemy Spec: Restoration DRUID", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			144, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1136, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649430889,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1649443717,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [25]
 		{
-			"ahh no B- cause of work and afks what I told U other day\\", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"Enemy Spec: Restoration DRUID", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			145, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1137, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649430904,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1649443717,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [26]
 		{
-			"just that", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"Enemy Spec: Restoration DRUID", -- [1]
+			"Hysteria-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Hysteria-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			146, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1139, -- [11]
+			"Player-1301-0718A29E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649430906,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649443718,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [27]
 		{
-			"yeah for most classes it's a 2 -4 cm increase in pp size", -- [1]
-			"Bommel-Outland", -- [2]
+			"Enemy Spec: Restoration DRUID", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			147, -- [11]
-			"Player-1301-0C049FB7", -- [12]
+			1140, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1649430910,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1649443726,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [28]
 		{
-			"damn", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"Enemy Spec: Fire MAGE", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			148, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1141, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649430915,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1649443726,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [29]
 		{
-			"solid indeed", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"Enemy Spec: Restoration DRUID", -- [1]
+			"Hysteria-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Hysteria-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			149, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1142, -- [11]
+			"Player-1301-0718A29E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649430918,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649443726,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [30]
 		{
-			"Ive planned it out on my end @ least", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"Enemy Spec: Fire MAGE", -- [1]
+			"Hysteria-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Hysteria-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			150, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1143, -- [11]
+			"Player-1301-0718A29E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649430933,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649443726,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [31]
 		{
-			"time allowing and if I ever have chance this is what will do", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"Enemy Spec: Restoration DRUID", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			152, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1144, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649430942,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1649443726,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [32]
 		{
-			"respec into MM- shift leggos no need 2 up old ", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"Enemy Spec: Fire MAGE", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			155, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1145, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649430953,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1649443726,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [33]
 		{
-			"and that will +++ dmg mos def", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"Enemy Spec: Restoration DRUID", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			156, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1148, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649430962,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1649443731,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [34]
 		{
-			"any1 doing 15's ? v_v", -- [1]
-			"Misspicklés-Outland", -- [2]
+			"Enemy Spec: Fire MAGE", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			159, -- [11]
-			"Player-1301-0BD2137F", -- [12]
+			1149, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Misspicklés|r",
-			[51] = 1649430966,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1649443731,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [35]
 		{
-			"finalllyyyyy|cff0070dd|Hitem:190585::::::::60:251:::::::::|h[Schematic: Heartbond Lupine]|h|r", -- [1]
-			"Bommel-Outland", -- [2]
+			"Enemy Spec: Affliction WARLOCK", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			161, -- [11]
-			"Player-1301-0C049FB7", -- [12]
+			1150, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1649430968,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1649443731,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [36]
 		{
-			"or @ least is what am getting from guide", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"Enemy Spec: Restoration DRUID", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			162, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1151, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649430969,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1649443731,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [37]
 		{
-			"had to kill that wolf like 20 times", -- [1]
-			"Bommel-Outland", -- [2]
+			"Enemy Spec: Fire MAGE", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			167, -- [11]
-			"Player-1301-0C049FB7", -- [12]
+			1152, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1649430982,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1649443731,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [38]
 		{
-			"gg B", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"Enemy Spec: Affliction WARLOCK", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			169, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1153, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649430984,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1649443731,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [39]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14308:Player-1301-05D8E8B4:1:4:8:22:4294967295:4294967295:4294967295:4294967295|h[Adventurer of Maldraxxus]|h|r!", -- [1]
-			"Penneh-Outland", -- [2]
+			"Enemy Spec: Restoration DRUID", -- [1]
+			"Hysteria-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Penneh-Outland", -- [5]
+			"Hysteria-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			170, -- [11]
-			"Player-1301-05D8E8B4", -- [12]
+			1154, -- [11]
+			"Player-1301-0718A29E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcPenneh|r",
-			[51] = 1649430985,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649443732,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [40]
 		{
-			"dun remmber what that is lemme google brb", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"Enemy Spec: Fire MAGE", -- [1]
+			"Hysteria-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Hysteria-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			172, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1155, -- [11]
+			"Player-1301-0718A29E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649430995,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649443732,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [41]
 		{
-			"|cff71d5ff|Hspell:367673:0|h[Heartbond Lupine]|h|r this", -- [1]
-			"Bommel-Outland", -- [2]
+			"Enemy Spec: Affliction WARLOCK", -- [1]
+			"Hysteria-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Hysteria-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			177, -- [11]
-			"Player-1301-0C049FB7", -- [12]
+			1156, -- [11]
+			"Player-1301-0718A29E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1649431024,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649443732,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [42]
 		{
-			"aha just saw", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"Kevlock - Warlock", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			178, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1162, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649431045,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1649443774,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [43]
 		{
-			"damn pretty pretty white fox that 1", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"Geldleaf - Druid", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			179, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1163, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649431051,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1649443774,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [44]
 		{
-			"and with the new lore mechanicals color scheme", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"Kevlock - Warlock", -- [1]
+			"Hysteria-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Hysteria-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			182, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1164, -- [11]
+			"Player-1301-0718A29E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649431064,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649443774,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [45]
 		{
-			"yeah it;s easy to farm ", -- [1]
-			"Bommel-Outland", -- [2]
+			"Geldleaf - Druid", -- [1]
+			"Hysteria-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Hysteria-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			184, -- [11]
-			"Player-1301-0C049FB7", -- [12]
+			1165, -- [11]
+			"Player-1301-0718A29E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1649431079,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649443774,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [46]
 		{
-			"just 1 mob that drops ", -- [1]
-			"Bommel-Outland", -- [2]
+			"Geldleaf - Druid", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			186, -- [11]
-			"Player-1301-0C049FB7", -- [12]
+			1166, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1649431084,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1649443774,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [47]
 		{
-			"wowhead comments read no daily lockout- U killed 20 1 after other?", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"Kevlock - Warlock", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			187, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1167, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649431084,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1649443774,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [48]
 		{
-			"you kill that until you get schematic", -- [1]
-			"Bommel-Outland", -- [2]
+			"Mondottica - Mage", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			189, -- [11]
-			"Player-1301-0C049FB7", -- [12]
+			1169, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1649431090,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1649443783,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [49]
 		{
-			"ye", -- [1]
-			"Bommel-Outland", -- [2]
+			"Mondottica - Mage", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			190, -- [11]
-			"Player-1301-0C049FB7", -- [12]
+			1170, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1649431096,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1649443783,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [50]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:15404:Player-1301-09A53184:1:4:8:22:4294967295:4294967295:4294967295:4294967295|h[Cosmic Empowerment]|h|r!", -- [1]
-			"Dragonpl-Outland", -- [2]
+			"Mondottica - Mage", -- [1]
+			"Hysteria-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Dragonpl-Outland", -- [5]
+			"Hysteria-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			191, -- [11]
-			"Player-1301-09A53184", -- [12]
+			1171, -- [11]
+			"Player-1301-0718A29E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Dragonpl|r",
-			[51] = 1649431097,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649443783,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [51]
 		{
-			"then you need |cff0070dd|Hitem:189172::::::::60:251:::::::::|h[Crystallized Echo of the First Song]|h|r that you literally just pick up ", -- [1]
-			"Bommel-Outland", -- [2]
+			"|cffa335ee|Hkeystone:180653:382:11:10:7:14:130|h[Keystone: Theater of Pain (11)]|h|r any cuties, 1 dps heal and tank", -- [1]
+			"Mesra-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1134,20 +1134,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			193, -- [11]
-			"Player-1301-0C049FB7", -- [12]
+			1178, -- [11]
+			"Player-1301-087ACDBB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1649431108,
+			[52] = "|cffa22fc8Mesra|r",
+			[51] = 1649443864,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [52]
 		{
-			"need 500 |cff1eff00|Hitem:188957::::::::60:251:::::::::|h[Genesis Mote]|h|r tho", -- [1]
-			"Bommel-Outland", -- [2]
+			"if we get all bis items is that mean we deal maximum possible damage by our class?", -- [1]
+			"Cocowitch-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1156,20 +1156,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			195, -- [11]
-			"Player-1301-0C049FB7", -- [12]
+			1180, -- [11]
+			"Player-1301-0BC2795E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1649431113,
+			[52] = "|cff00fe97Cocowitch|r",
+			[51] = 1649443899,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [53]
 		{
-			"which take not too long to farm either in a farm group", -- [1]
-			"Bommel-Outland", -- [2]
+			"im to low geared :(", -- [1]
+			"Lerboni-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1178,20 +1178,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			196, -- [11]
-			"Player-1301-0C049FB7", -- [12]
+			1183, -- [11]
+			"Player-1301-08C831EA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1649431124,
+			[52] = "|cffa22fc8Lerboni|r",
+			[51] = 1649443943,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [54]
 		{
-			"i have some", -- [1]
-			"Inamoira-Outland", -- [2]
+			"you need bis stats and best rotation", -- [1]
+			"Escânoor-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1200,20 +1200,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			204, -- [11]
-			"Player-1301-0C282752", -- [12]
+			1184, -- [11]
+			"Player-1301-0BF902C8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Inamoira|r",
-			[51] = 1649431160,
+			[52] = "|cfff38bb9Escânoor|r",
+			[51] = 1649443945,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [55]
 		{
-			"10k one piece", -- [1]
-			"Inamoira-Outland", -- [2]
+			"only 255", -- [1]
+			"Lerboni-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1222,20 +1222,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			205, -- [11]
-			"Player-1301-0C282752", -- [12]
+			1185, -- [11]
+			"Player-1301-08C831EA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Inamoira|r",
-			[51] = 1649431164,
+			[52] = "|cffa22fc8Lerboni|r",
+			[51] = 1649443946,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [56]
 		{
-			"special offer for you", -- [1]
-			"Inamoira-Outland", -- [2]
+			"ESCANOR", -- [1]
+			"Lerboni-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1244,20 +1244,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			207, -- [11]
-			"Player-1301-0C282752", -- [12]
+			1186, -- [11]
+			"Player-1301-08C831EA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Inamoira|r",
-			[51] = 1649431171,
+			[52] = "|cffa22fc8Lerboni|r",
+			[51] = 1649443954,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [57]
 		{
-			":)", -- [1]
-			"Inamoira-Outland", -- [2]
+			"IV BEEN TRYING TO GET A HOLD ON YOU", -- [1]
+			"Lerboni-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1266,20 +1266,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			208, -- [11]
-			"Player-1301-0C282752", -- [12]
+			1187, -- [11]
+			"Player-1301-08C831EA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Inamoira|r",
-			[51] = 1649431173,
+			[52] = "|cffa22fc8Lerboni|r",
+			[51] = 1649443961,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [58]
 		{
-			"aha  I see", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"hi", -- [1]
+			"Escânoor-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1288,20 +1288,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			215, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1188, -- [11]
+			"Player-1301-0BF902C8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649431232,
+			[52] = "|cfff38bb9Escânoor|r",
+			[51] = 1649443965,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [59]
 		{
-			"cant trade em hahaha xD", -- [1]
-			"Bommel-Outland", -- [2]
+			"why you ignore ", -- [1]
+			"Lerboni-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1310,20 +1310,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			216, -- [11]
-			"Player-1301-0C049FB7", -- [12]
+			1189, -- [11]
+			"Player-1301-08C831EA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1649431233,
+			[52] = "|cffa22fc8Lerboni|r",
+			[51] = 1649443975,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [60]
 		{
-			"and sry 4 late reply had 2 afk", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"me", -- [1]
+			"Lerboni-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1332,20 +1332,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			218, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1190, -- [11]
+			"Player-1301-08C831EA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649431237,
+			[52] = "|cffa22fc8Lerboni|r",
+			[51] = 1649443976,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [61]
 		{
-			"saul goodman", -- [1]
-			"Bommel-Outland", -- [2]
+			":(", -- [1]
+			"Lerboni-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1354,20 +1354,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			219, -- [11]
-			"Player-1301-0C049FB7", -- [12]
+			1191, -- [11]
+			"Player-1301-08C831EA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1649431243,
+			[52] = "|cffa22fc8Lerboni|r",
+			[51] = 1649443977,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [62]
 		{
-			"|cffa335ee|Hkeystone:180653:381:10:10:7:14:130|h[Keystone: Spires of Ascension (10)]|h|r dps tank welcome", -- [1]
-			"Darknightz-Outland", -- [2]
+			"i dont", -- [1]
+			"Escânoor-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1376,42 +1376,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			224, -- [11]
-			"Player-1301-0501883A", -- [12]
+			1192, -- [11]
+			"Player-1301-0BF902C8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeDarknightz|r",
-			[51] = 1649431268,
+			[52] = "|cfff38bb9Escânoor|r",
+			[51] = 1649443979,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [63]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14841:Player-1301-059F790E:1:4:8:22:4294967295:4294967295:4294967295:4294967295|h[Adventures: Now You're Cooking]|h|r!", -- [1]
-			"Hytta-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Hytta-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			227, -- [11]
-			"Player-1301-059F790E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Hytta|r",
-			[51] = 1649431286,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [64]
-		{
-			"I dont get that reference B", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"check whisper", -- [1]
+			"Lerboni-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1420,20 +1398,42 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			229, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1193, -- [11]
+			"Player-1301-08C831EA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649431312,
+			[52] = "|cffa22fc8Lerboni|r",
+			[51] = 1649443988,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [64]
+		{
+			"bro", -- [1]
+			"Escânoor-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1194, -- [11]
+			"Player-1301-0BF902C8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Escânoor|r",
+			[51] = 1649443994,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [65]
 		{
-			"saul goodman?", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"i m totaly afk in wow", -- [1]
+			"Escânoor-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1442,20 +1442,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			230, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1195, -- [11]
+			"Player-1301-0BF902C8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649431315,
+			[52] = "|cfff38bb9Escânoor|r",
+			[51] = 1649443997,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [66]
 		{
-			"it's a reference to breaking bad ", -- [1]
-			"Bommel-Outland", -- [2]
+			"meow", -- [1]
+			"Mesra-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1464,196 +1464,196 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			232, -- [11]
-			"Player-1301-0C049FB7", -- [12]
+			1197, -- [11]
+			"Player-1301-087ACDBB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1649431346,
+			[52] = "|cffa22fc8Mesra|r",
+			[51] = 1649444024,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [67]
 		{
-			"kk", -- [1]
-			"Darknightz-Outland", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:15416:Player-1301-0BCCB5E9:1:4:8:22:4294967295:4294967295:4294967295:4294967295|h[Domination's Grasp]|h|r!", -- [1]
+			"Robobean-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Robobean-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			233, -- [11]
-			"Player-1301-0501883A", -- [12]
+			1198, -- [11]
+			"Player-1301-0BCCB5E9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeDarknightz|r",
-			[51] = 1649431352,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaRobobean|r",
+			[51] = 1649444049,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [68]
 		{
-			"it's all good man", -- [1]
-			"Bommel-Outland", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:15416:Player-1301-0BE033DA:1:4:8:22:4294967295:4294967295:4294967295:4294967295|h[Domination's Grasp]|h|r!", -- [1]
+			"Lychea-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Lychea-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			235, -- [11]
-			"Player-1301-0C049FB7", -- [12]
+			1199, -- [11]
+			"Player-1301-0BE033DA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1649431353,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaLychea|r",
+			[51] = 1649444070,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [69]
 		{
-			"Need dps", -- [1]
-			"Darknightz-Outland", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:15416:Player-1301-087FB4EF:1:4:8:22:4294967295:4294967295:4294967295:4294967295|h[Domination's Grasp]|h|r!", -- [1]
+			"Nokap-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Nokap-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			236, -- [11]
-			"Player-1301-0501883A", -- [12]
+			1200, -- [11]
+			"Player-1301-087FB4EF", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeDarknightz|r",
-			[51] = 1649431361,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaNokap|r",
+			[51] = 1649444070,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [70]
 		{
-			"s'all goodman", -- [1]
-			"Bommel-Outland", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:15492:Player-1301-0C2B67E7:1:4:8:22:4294967295:4294967295:4294967295:4294967295|h[Cornerstone of Creation]|h|r!", -- [1]
+			"Lyvianne-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Lyvianne-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			237, -- [11]
-			"Player-1301-0C049FB7", -- [12]
+			1202, -- [11]
+			"Player-1301-0C2B67E7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1649431363,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffefefeLyvianne|r",
+			[51] = 1649444104,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [71]
 		{
-			"aaah gotcha", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:14758:Player-1301-0A498A6E:1:4:8:22:4294967295:4294967295:4294967295:4294967295|h[The World Beyond]|h|r!", -- [1]
+			"Tharlak-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Tharlak-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			238, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1204, -- [11]
+			"Player-1301-0A498A6E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649431369,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc31d39Tharlak|r",
+			[51] = 1649444171,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [72]
 		{
-			"thx 4 expl", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"LOW HEALTH: Mondottica (Mage)", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			239, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1212, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649431372,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1649444277,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [73]
 		{
-			"dodgy lawyer's name :p", -- [1]
-			"Bommel-Outland", -- [2]
+			"LOW HEALTH: Mondottica (Mage)", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			240, -- [11]
-			"Player-1301-0C049FB7", -- [12]
+			1213, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1649431374,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1649444277,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [74]
 		{
-			"+10 SoA need dps last call!", -- [1]
-			"Darknightz-Outland", -- [2]
+			"LOW HEALTH: Mondottica (Mage)", -- [1]
+			"Hysteria-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Hysteria-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			242, -- [11]
-			"Player-1301-0501883A", -- [12]
+			1214, -- [11]
+			"Player-1301-0718A29E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeDarknightz|r",
-			[51] = 1649431392,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649444277,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [75]
 		{
-			"havent seen 2 many eps of these 2 shows", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"!keys", -- [1]
+			"Karamfilchi-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1662,20 +1662,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			244, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1215, -- [11]
+			"Player-1301-0BDA0C82", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649431417,
+			[52] = "|cffa9d271Karamfilchi|r",
+			[51] = 1649444279,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [76]
 		{
-			"have heard the crack 1 is solid though", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"|cffa335ee|Hkeystone:180653:380:18:10:7:14:130|h[Keystone: Sanguine Depths (18)]|h|r (Necrolord)", -- [1]
+			"Simoníds-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1684,20 +1684,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			246, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1216, -- [11]
+			"Player-1301-08EE0858", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649431430,
+			[52] = "|cff00fe97Simoníds|r",
+			[51] = 1649444280,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [77]
 		{
-			"i havent seen much better call saul", -- [1]
-			"Bommel-Outland", -- [2]
+			"|cffa335ee|Hkeystone:180653:392:18:10:7:14:130|h[Keystone: Tazavesh: So'leah's Gambit (18)]|h|r", -- [1]
+			"Deckstaer-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1706,20 +1706,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			247, -- [11]
-			"Player-1301-0C049FB7", -- [12]
+			1217, -- [11]
+			"Player-1301-089D9D14", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1649431431,
+			[52] = "|cfffef367Deckstaer|r",
+			[51] = 1649444280,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [78]
 		{
-			"but i finished breaking abd twicte", -- [1]
-			"Bommel-Outland", -- [2]
+			"Astral Keys: |cffa335ee|Hkeystone:180653:379:16:10:7:14:130|h[Keystone: Plaguefall (16)]|h|r (Venthyr)", -- [1]
+			"Schamirock-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1728,20 +1728,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			251, -- [11]
-			"Player-1301-0C049FB7", -- [12]
+			1218, -- [11]
+			"Player-1301-0C2B40D3", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1649431437,
+			[52] = "|cff006fdcSchamirock|r",
+			[51] = 1649444280,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [79]
 		{
-			" : )", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"|cffa335ee|Hkeystone:180653:379:19:10:7:14:130|h[Keystone: Plaguefall (19)]|h|r", -- [1]
+			"Álomar-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1750,20 +1750,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			252, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1219, -- [11]
+			"Player-1301-0A5E7654", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649431447,
+			[52] = "|cffc31d39Álomar|r",
+			[51] = 1649444280,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [80]
 		{
-			"was scared of watching it... : )", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"Astral Keys: |cffa335ee|Hkeystone:180653:377:21:10:7:14:130|h[Keystone: De Other Side (21)]|h|r (Night Fae)", -- [1]
+			"Sdolf-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1772,20 +1772,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			254, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1220, -- [11]
+			"Player-1301-0BBED336", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649431463,
+			[52] = "|cff8687edSdolf|r",
+			[51] = 1649444280,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [81]
 		{
-			"afraid it will give me ideas on criminality : ))))))))", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"Astral Keys: |cffa335ee|Hkeystone:180653:382:17:10:7:14:130|h[Keystone: Theater of Pain (17)]|h|r (Night Fae)", -- [1]
+			"Tytt-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1794,20 +1794,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			256, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1221, -- [11]
+			"Player-1301-0BDC072C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649431475,
+			[52] = "|cff3ec6eaTytt|r",
+			[51] = 1649444280,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [82]
 		{
-			"back when i watched it me and some buddy's had some nice tomato plants ", -- [1]
-			"Bommel-Outland", -- [2]
+			"|cffa335ee|Hkeystone:180653:381:21:10:7:14:130|h[Keystone: Spires of Ascension (21)]|h|r", -- [1]
+			"Megaferilla-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1816,20 +1816,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			260, -- [11]
-			"Player-1301-0C049FB7", -- [12]
+			1222, -- [11]
+			"Player-1301-0A22824E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1649431510,
+			[52] = "|cff006fdcMegaferilla|r",
+			[51] = 1649444280,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [83]
 		{
-			"hahaha", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"|cffa335ee|Hkeystone:180653:391:20:10:7:14:130|h[Keystone: Tazavesh: Streets of Wonder (20)]|h|r (Necrolord)", -- [1]
+			"Minimokey-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1838,20 +1838,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			261, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1223, -- [11]
+			"Player-1301-028BBC10", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649431530,
+			[52] = "|cff3ec6eaMinimokey|r",
+			[51] = 1649444280,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [84]
 		{
-			"tomato", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"Astral Keys: |cffa335ee|Hkeystone:180653:377:15:10:7:14:130|h[Keystone: De Other Side (15)]|h|r (Necrolord)", -- [1]
+			"Moorindal-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1860,20 +1860,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			262, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1224, -- [11]
+			"Player-1301-0C0B0456", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649431533,
+			[52] = "|cffc31d39Moorindal|r",
+			[51] = 1649444280,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [85]
 		{
-			"best 1 of that type I seen is True Detective", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"|cffa335ee|Hkeystone:180653:380:15:10:7:14:130|h[Keystone: Sanguine Depths (15)]|h|r", -- [1]
+			"Nóxùs-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1882,20 +1882,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			263, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1225, -- [11]
+			"Player-1301-085463D8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649431552,
+			[52] = "|cff006fdcNóxùs|r",
+			[51] = 1649444280,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [86]
 		{
-			"season 1", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"Astral Keys: |cffa335ee|Hkeystone:180653:379:14:10:7:14:130|h[Keystone: Plaguefall (14)]|h|r (Night Fae)", -- [1]
+			"Zenanda-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1904,20 +1904,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			264, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1226, -- [11]
+			"Player-1301-0B23E9D8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649431555,
+			[52] = "|cffc31d39Zenanda|r",
+			[51] = 1649444280,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [87]
 		{
-			"saddest absolutly saddest tv show I ever seen but very... informative and well made", -- [1]
-			"Iongrifle-Outland", -- [2]
+			"Astral Keys: |cffa335ee|Hkeystone:180653:377:16:10:7:14:130|h[Keystone: De Other Side (16)]|h|r (Night Fae)", -- [1]
+			"Neitipikkéls-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1926,20 +1926,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			265, -- [11]
-			"Player-1301-086CA866", -- [12]
+			1227, -- [11]
+			"Player-1301-0C1B1011", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Iongrifle|r",
-			[51] = 1649431575,
+			[52] = "|cfffefefeNeitipikkéls|r",
+			[51] = 1649444280,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [88]
 		{
-			"ooh yaas |cffa335ee|Hitem:190580::::::::60:251::::1:28:872::::Player-1301-0C049FB7:|h[Heartbond Lupine]|h|r", -- [1]
-			"Bommel-Outland", -- [2]
+			"|cffa335ee|Hkeystone:180653:391:17:10:7:14:130|h[Keystone: Tazavesh: Streets of Wonder (17)]|h|r", -- [1]
+			"Jrd-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1948,20 +1948,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			277, -- [11]
-			"Player-1301-0C049FB7", -- [12]
+			1228, -- [11]
+			"Player-1301-0084A190", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1649431647,
+			[52] = "|cffc59a6cJrd|r",
+			[51] = 1649444280,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [89]
 		{
-			"cheater", -- [1]
-			"Bigfil-Outland", -- [2]
+			"Astral Keys: |cffa335ee|Hkeystone:180653:379:15:10:7:14:130|h[Keystone: Plaguefall (15)]|h|r (Venthyr)", -- [1]
+			"Itsfrost-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1970,20 +1970,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			281, -- [11]
-			"Player-1301-0A28DCA8", -- [12]
+			1229, -- [11]
+			"Player-1301-040A63C7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Bigfil|r",
-			[51] = 1649431665,
+			[52] = "|cff3ec6eaItsfrost|r",
+			[51] = 1649444280,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [90]
 		{
-			"shit", -- [1]
-			"Bommel-Outland", -- [2]
+			"Astral Keys: |cffa335ee|Hkeystone:180653:382:19:10:7:14:130|h[Keystone: Theater of Pain (19)]|h|r (Kyrian)", -- [1]
+			"Karamfilchi-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1992,215 +1992,215 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			283, -- [11]
-			"Player-1301-0C049FB7", -- [12]
+			1230, -- [11]
+			"Player-1301-0BDA0C82", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1649431668,
+			[52] = "|cffa9d271Karamfilchi|r",
+			[51] = 1649444280,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [91]
 		{
-			"gotta log steffanie in on classic", -- [1]
-			"Bommel-Outland", -- [2]
+			"LOW HEALTH: Mondottica (Mage)", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			285, -- [11]
-			"Player-1301-0C049FB7", -- [12]
+			1232, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1649431674,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1649444364,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [92]
 		{
-			"what do you mean i cheatedd??? ", -- [1]
-			"Bommel-Outland", -- [2]
+			"LOW HEALTH: Mondottica (Mage)", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			294, -- [11]
-			"Player-1301-0C049FB7", -- [12]
+			1233, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1649431800,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1649444364,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [93]
 		{
-			"xSDD", -- [1]
-			"Bommel-Outland", -- [2]
+			"LOW HEALTH: Mondottica (Mage)", -- [1]
+			"Hysteria-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Hysteria-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			295, -- [11]
-			"Player-1301-0C049FB7", -- [12]
+			1234, -- [11]
+			"Player-1301-0718A29E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Bommel|r",
-			[51] = 1649431801,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649444364,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [94]
 		{
-			"eve all", -- [1]
-			"Eleami-Outland", -- [2]
+			"LOW HEALTH: Mondottica (Mage)", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			297, -- [11]
-			"Player-1301-0C0C3AF1", -- [12]
+			1235, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Eleami|r",
-			[51] = 1649431815,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1649444364,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [95]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:15331:Player-1301-0BE8B625:1:4:8:22:4294967295:4294967295:4294967295:4294967295|h[Treasures of Zereth Mortis]|h|r!", -- [1]
-			"Thelasa-Outland", -- [2]
+			"LOW HEALTH: Mondottica (Mage)", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Thelasa-Outland", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			301, -- [11]
-			"Player-1301-0BE8B625", -- [12]
+			1236, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Thelasa|r",
-			[51] = 1649431845,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1649444364,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [96]
 		{
-			"haia", -- [1]
-			"Mesra-Outland", -- [2]
+			"LOW HEALTH: Mondottica (Mage)", -- [1]
+			"Hysteria-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Hysteria-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			313, -- [11]
-			"Player-1301-087ACDBB", -- [12]
+			1238, -- [11]
+			"Player-1301-0718A29E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Mesra|r",
-			[51] = 1649431920,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649444364,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [97]
 		{
-			"evening 2 U 2 : )", -- [1]
-			"Iongclaw-Outland", -- [2]
+			"aight guys i will stop here for now i suck", -- [1]
+			"Hysteria-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Hysteria-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			323, -- [11]
-			"Player-1301-08DE11A7", -- [12]
+			1251, -- [11]
+			"Player-1301-0718A29E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Iongclaw|r",
-			[51] = 1649431972,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Hysteria|r",
+			[51] = 1649440824,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [98]
 		{
-			":D", -- [1]
-			"Mesra-Outland", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:15416:Player-1301-0BEBC7A2:1:4:8:22:4294967295:4294967295:4294967295:4294967295|h[Domination's Grasp]|h|r!", -- [1]
+			"Tokikoo-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Tokikoo-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			328, -- [11]
-			"Player-1301-087ACDBB", -- [12]
+			1257, -- [11]
+			"Player-1301-0BEBC7A2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Mesra|r",
-			[51] = 1649431985,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffa9d271Tokikoo|r",
+			[51] = 1649444514,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/p tank soak the green plz", -- [1]
-		"/p bro...", -- [2]
-		"/p Дендрафил", -- [3]
-		"/p soak the add", -- [4]
-		"/p its irrelevant man", -- [5]
-		"/p when the add places the circle on the ground", -- [6]
-		"/p stand in it", -- [7]
-		"/p дендрафил", -- [8]
-		"/p dodge the slimes...", -- [9]
-		"/p im legit out of battle rezes", -- [10]
-		"/p quake doesnt stop you from dodging...", -- [11]
-		"/p no", -- [12]
-		"/p we died cause healer was dead", -- [13]
-		"/p you got killed by slime", -- [14]
-		"/p i see on the graph", -- [15]
-		"/p its fine", -- [16]
-		"/p im just saying", -- [17]
-		"/p dont do it again", -- [18]
-		"/p ok", -- [19]
-		"/p noted, dont take gargabe healers", -- [20]
+		"/p look at dmg taken", -- [1]
+		"/p 2 melee retarded", -- [2]
+		"/p it is what it is xD", -- [3]
+		"/p jesus", -- [4]
+		"/p tonight is not my night huh", -- [5]
+		"/p rip", -- [6]
+		"/p cant 1v1 warrior", -- [7]
+		"/p stun and reflect every 3 seconds", -- [8]
+		"/p ok", -- [9]
+		"/p i will insta die tho", -- [10]
+		"/p war + dk", -- [11]
+		"/p MONK?", -- [12]
+		"/p HEY", -- [13]
+		"/p who focus?", -- [14]
+		"/p hey", -- [15]
+		"/p yee", -- [16]
+		"/p sry", -- [17]
+		"/p had to go afk for a min", -- [18]
+		"/p mage r?", -- [19]
+		"/p oke", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }
