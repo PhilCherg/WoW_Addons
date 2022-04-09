@@ -24,8 +24,8 @@ PasteDB = {
 		["Farmerixus - Outland"] = "Farmerixus - Outland",
 		["Luminaxia - Outland"] = "Luminaxia - Outland",
 		["Testfirst - Outland"] = "Testfirst - Outland",
-		["Bullenic - Silvermoon"] = "Bullenic - Silvermoon",
 		["Mallazin - Azjol-Nerub"] = "Mallazin - Azjol-Nerub",
+		["Bullenic - Silvermoon"] = "Bullenic - Silvermoon",
 		["Barbaxius - Outland"] = "Barbaxius - Outland",
 		["Wolfados - Azjol-Nerub"] = "Wolfados - Azjol-Nerub",
 		["Moneyfour - Outland"] = "Moneyfour - Outland",
@@ -154,10 +154,10 @@ PasteDB = {
 		["Testfirst - Outland"] = {
 			["loaded"] = true,
 		},
-		["Bullenic - Silvermoon"] = {
+		["Mallazin - Azjol-Nerub"] = {
 			["loaded"] = true,
 		},
-		["Mallazin - Azjol-Nerub"] = {
+		["Bullenic - Silvermoon"] = {
 			["loaded"] = true,
 		},
 		["Barbaxius - Outland"] = {

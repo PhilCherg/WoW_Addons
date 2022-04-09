@@ -2,94 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"good afternoon", -- [1]
-			"Deathguust-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			266, -- [11]
-			"Player-1301-08D15836", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Deathguust|r",
-			[51] = 1649511875,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [1]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:15512:Player-1301-08951491:1:4:9:22:4294967295:4294967295:4294967295:4294967295|h[Adventures in Zereth Mortis]|h|r!", -- [1]
-			"Florescere-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Florescere-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			278, -- [11]
-			"Player-1301-08951491", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Florescere|r",
-			[51] = 1649512299,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [2]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:15514:Player-1301-08951491:1:4:9:22:4294967295:4294967295:4294967295:4294967295|h[Unlocking the Secrets]|h|r!", -- [1]
-			"Florescere-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Florescere-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			279, -- [11]
-			"Player-1301-08951491", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Florescere|r",
-			[51] = 1649512299,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [3]
-		{
-			"meow", -- [1]
-			"Mesra-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			280, -- [11]
-			"Player-1301-087ACDBB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Mesra|r",
-			[51] = 1649512327,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [4]
-		{
 			"meow", -- [1]
 			"Drjonés-Outland", -- [2]
 			"", -- [3]
@@ -110,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDrjonés|r",
 			[51] = 1649512336,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [5]
+		}, -- [1]
 		{
 			"Hello friends.", -- [1]
 			"Florescere-Outland", -- [2]
@@ -132,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Florescere|r",
 			[51] = 1649512349,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [6]
+		}, -- [2]
 		{
 			"Hai Flor", -- [1]
 			"Mesra-Outland", -- [2]
@@ -154,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Mesra|r",
 			[51] = 1649512357,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [7]
+		}, -- [3]
 		{
 			"I just got flying :D", -- [1]
 			"Florescere-Outland", -- [2]
@@ -176,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Florescere|r",
 			[51] = 1649512369,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [8]
+		}, -- [4]
 		{
 			"Weeeee", -- [1]
 			"Florescere-Outland", -- [2]
@@ -198,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Florescere|r",
 			[51] = 1649512373,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [9]
+		}, -- [5]
 		{
 			"yippi", -- [1]
 			"Mesra-Outland", -- [2]
@@ -220,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Mesra|r",
 			[51] = 1649512375,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [10]
+		}, -- [6]
 		{
 			"enjoy it! :D", -- [1]
 			"Typhion-Outland", -- [2]
@@ -242,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Typhion|r",
 			[51] = 1649512404,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [11]
+		}, -- [7]
 		{
 			"So much faster!", -- [1]
 			"Florescere-Outland", -- [2]
@@ -264,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Florescere|r",
 			[51] = 1649512421,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [12]
+		}, -- [8]
 		{
 			"Mother Phestis |cffffff00|Hworldmap:1970:5405:3495|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Felinisa-Outland", -- [2]
@@ -286,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeFelinisa|r",
 			[51] = 1649512509,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
+		}, -- [9]
 		{
 			"¨Purr", -- [1]
 			"Mesra-Outland", -- [2]
@@ -308,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Mesra|r",
 			[51] = 1649512670,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [14]
+		}, -- [10]
 		{
 			"hmm litle birds told me dk is best tank dmg and def wise atm", -- [1]
 			"Neitipikkéls-Outland", -- [2]
@@ -330,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeNeitipikkéls|r",
 			[51] = 1649512715,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [15]
+		}, -- [11]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:508:Player-1301-0C0C3AF1:1:4:9:22:4294967295:4294967295:4294967295:4294967295|h[1500 Quests Completed]|h|r!", -- [1]
 			"Eleami-Outland", -- [2]
@@ -352,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Eleami|r",
 			[51] = 1649516367,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [16]
+		}, -- [12]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:1178:Player-1301-0A642FFA:1:4:9:22:4294967295:4294967295:4294967295:4294967295|h[Got My Mind On My Money]|h|r!", -- [1]
 			"Stanex-Outland", -- [2]
@@ -374,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Stanex|r",
 			[51] = 1649516367,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [17]
+		}, -- [13]
 		{
 			"2.5k+ on both my mains easy lets gooo", -- [1]
 			"Brucebrews-Outland", -- [2]
@@ -396,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brucebrews|r",
 			[51] = 1649512812,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [18]
+		}, -- [14]
 		{
 			"Meow", -- [1]
 			"Mesra-Outland", -- [2]
@@ -418,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Mesra|r",
 			[51] = 1649512825,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [19]
+		}, -- [15]
 		{
 			"woof", -- [1]
 			"Brucebrews-Outland", -- [2]
@@ -440,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brucebrews|r",
 			[51] = 1649512831,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [20]
+		}, -- [16]
 		{
 			":D", -- [1]
 			"Mesra-Outland", -- [2]
@@ -462,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Mesra|r",
 			[51] = 1649512835,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [21]
+		}, -- [17]
 		{
 			"nice", -- [1]
 			"Hávocado-Outland", -- [2]
@@ -484,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Hávocado|r",
 			[51] = 1649512839,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [22]
+		}, -- [18]
 		{
 			" steve what key u got", -- [1]
 			"Karamfilchi-Outland", -- [2]
@@ -506,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Karamfilchi|r",
 			[51] = 1649512845,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [23]
+		}, -- [19]
 		{
 			"You mean the 'well off citizens' who just use IRL money to sell the monthly sub on the AH to pay for it? That's literally the opposite of RP", -- [1]
 			"Xezlun-Outland", -- [2]
@@ -528,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Xezlun|r",
 			[51] = 1649520810,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
+		}, -- [20]
 		{
 			"SHUT UP AND PAY 15$ A MONTH AND FUCK OFF", -- [1]
 			"Mihaitheawsm-Outland", -- [2]
@@ -550,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMihaitheawsm|r",
 			[51] = 1649520825,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
+		}, -- [21]
 		{
 			"there is a service i m capable of doing while others cant and it has a price", -- [1]
 			"Escânoor-Outland", -- [2]
@@ -572,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Escânoor|r",
 			[51] = 1649520832,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
+		}, -- [22]
 		{
 			"dude its not trade xD its basically rwt. who has millions of gold without buying tokens lol ", -- [1]
 			"Shëxy-Outland", -- [2]
@@ -594,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edShëxy|r",
 			[51] = 1649520833,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
+		}, -- [23]
 		{
 			"WTS M+ 0_20, KSM. SFO NM,HC all bosses and individuals, tier bosses with traders ) Tazavesh HM, Torghast up to layer 16 flawless,( jailers guantlet)  Level up,PVP 2v2 3v3.Mounts,Achivments, Legacy. GOLD ONLY, /w me for more info ^^  Private team.", -- [1]
 			"Jïñx-Outland", -- [2]
@@ -616,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaJïñx|r",
 			[51] = 1649520842,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
+		}, -- [24]
 		{
 			"WoW has been pay to win for years ", -- [1]
 			"Nojuu-Outland", -- [2]
@@ -638,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Nojuu|r",
 			[51] = 1649520849,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
+		}, -- [25]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15416:Player-1301-0A04BC88:1:4:9:22:4294967295:4294967295:4294967295:4294967295|h[Domination's Grasp]|h|r!", -- [1]
 			"Illiner-Outland", -- [2]
@@ -660,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Illiner|r",
 			[51] = 1649520850,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [30]
+		}, -- [26]
 		{
 			"ppl who spend like 1h on ah a day", -- [1]
 			"Nël-Outland", -- [2]
@@ -682,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Nël|r",
 			[51] = 1649520853,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
+		}, -- [27]
 		{
 			"shut up and buy tokens", -- [1]
 			"Mihaitheawsm-Outland", -- [2]
@@ -704,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMihaitheawsm|r",
 			[51] = 1649520862,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
+		}, -- [28]
 		{
 			"buy tokens so i dont have to xD ", -- [1]
 			"Shëxy-Outland", -- [2]
@@ -726,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edShëxy|r",
 			[51] = 1649520876,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
+		}, -- [29]
 		{
 			"No it hasn't. I've played this game long enough to know that. There was a sense of community which eliminted the P2W culture we have now. It's completely saturated the market. Hilarious.", -- [1]
 			"Xezlun-Outland", -- [2]
@@ -748,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Xezlun|r",
 			[51] = 1649520888,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
+		}, -- [30]
 		{
 			"dont like it? quit", -- [1]
 			"Mihaitheawsm-Outland", -- [2]
@@ -770,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMihaitheawsm|r",
 			[51] = 1649520898,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
+		}, -- [31]
 		{
 			"but you cant", -- [1]
 			"Mihaitheawsm-Outland", -- [2]
@@ -792,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMihaitheawsm|r",
 			[51] = 1649520902,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
+		}, -- [32]
 		{
 			"I <3 WoW", -- [1]
 			"Akiru-Outland", -- [2]
@@ -814,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAkiru|r",
 			[51] = 1649520908,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
+		}, -- [33]
 		{
 			"we are stuck here ", -- [1]
 			"Shëxy-Outland", -- [2]
@@ -836,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edShëxy|r",
 			[51] = 1649520912,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
+		}, -- [34]
 		{
 			"what is the difference between the previous banned trade spammers and the current ones who just put the additional: private team", -- [1]
 			"Bankalini-Outland", -- [2]
@@ -858,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcBankalini|r",
 			[51] = 1649520921,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
+		}, -- [35]
 		{
 			"aint no diff bruh", -- [1]
 			"Mihaitheawsm-Outland", -- [2]
@@ -880,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMihaitheawsm|r",
 			[51] = 1649520935,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
+		}, -- [36]
 		{
 			"i keep quitting this game but i keep coming back", -- [1]
 			"Mihaitheawsm-Outland", -- [2]
@@ -902,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMihaitheawsm|r",
 			[51] = 1649520942,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
+		}, -- [37]
 		{
 			"if u dont know the diff why bother talking?!", -- [1]
 			"Escânoor-Outland", -- [2]
@@ -924,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Escânoor|r",
 			[51] = 1649520955,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
+		}, -- [38]
 		{
 			"Everyone who says wow is not pay to win is delusional", -- [1]
 			"Nojuu-Outland", -- [2]
@@ -946,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Nojuu|r",
 			[51] = 1649520957,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
+		}, -- [39]
 		{
 			"Society in a nutshell init, loopholes everywhere that people use regardless of laws bans etc..", -- [1]
 			"Asmodeoss-Outland", -- [2]
@@ -968,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Asmodeoss|r",
 			[51] = 1649520960,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
+		}, -- [40]
 		{
 			"I miss Totalbiscuit. He fought hard by being a public voice against P2W.", -- [1]
 			"Syphonn-Outland", -- [2]
@@ -990,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSyphonn|r",
 			[51] = 1649520968,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [41]
 		{
 			"guys just play the game", -- [1]
 			"Mihaitheawsm-Outland", -- [2]
@@ -1012,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMihaitheawsm|r",
 			[51] = 1649520969,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
+		}, -- [42]
 		{
 			"its good", -- [1]
 			"Mihaitheawsm-Outland", -- [2]
@@ -1034,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMihaitheawsm|r",
 			[51] = 1649520972,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
+		}, -- [43]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14795:Player-1301-08951491:1:4:9:22:4294967295:4294967295:4294967295:4294967295|h[Clearing the Fog]|h|r!", -- [1]
 			"Florescere-Outland", -- [2]
@@ -1056,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Florescere|r",
 			[51] = 1649520978,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [48]
+		}, -- [44]
 		{
 			"BOOST PLX", -- [1]
 			"Grytax-Outland", -- [2]
@@ -1078,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Grytax|r",
 			[51] = 1649521201,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+		}, -- [45]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:7386:Player-1301-096AE5A8:1:4:9:22:4294967295:4294967295:4294967295:4294967295|h[Grand Expedition Yak]|h|r!", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1100,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1649523305,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [50]
+		}, -- [46]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15076:Player-1301-08951491:1:4:9:22:4294967295:4294967295:4294967295:4294967295|h[The Box of Many Things]|h|r!", -- [1]
 			"Florescere-Outland", -- [2]
@@ -1122,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Florescere|r",
 			[51] = 1649523311,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [51]
+		}, -- [47]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15224:Player-1301-0B27454F:1:4:9:22:4294967295:4294967295:4294967295:4294967295|h[Explore Zereth Mortis]|h|r!", -- [1]
 			"Eup-Outland", -- [2]
@@ -1144,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Eup|r",
 			[51] = 1649523380,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [52]
+		}, -- [48]
 		{
 			"any room left in the raid? :D ", -- [1]
 			"Carlights-Outland", -- [2]
@@ -1166,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Carlights|r",
 			[51] = 1649523411,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [53]
+		}, -- [49]
 		{
 			"every spot is still available :P", -- [1]
 			"Mackinz-Outland", -- [2]
@@ -1188,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edMackinz|r",
 			[51] = 1649523419,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [54]
+		}, -- [50]
 		{
 			"Did invites start?", -- [1]
 			"Siérra-Outland", -- [2]
@@ -1210,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaSiérra|r",
 			[51] = 1649523422,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [55]
+		}, -- [51]
 		{
 			"nope :)", -- [1]
 			"Mackinz-Outland", -- [2]
@@ -1232,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edMackinz|r",
 			[51] = 1649523427,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [56]
+		}, -- [52]
 		{
 			"no", -- [1]
 			"Mintpepsimax-Outland", -- [2]
@@ -1254,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaMintpepsimax|r",
 			[51] = 1649523428,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [57]
+		}, -- [53]
 		{
 			"not yet guys ", -- [1]
 			"Thanàtos-Outland", -- [2]
@@ -1276,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Thanàtos|r",
 			[51] = 1649523430,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [58]
+		}, -- [54]
 		{
 			"not yet apperently", -- [1]
 			"Eup-Outland", -- [2]
@@ -1298,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Eup|r",
 			[51] = 1649523430,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [59]
+		}, -- [55]
 		{
 			"xD", -- [1]
 			"Siérra-Outland", -- [2]
@@ -1320,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaSiérra|r",
 			[51] = 1649523431,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [60]
+		}, -- [56]
 		{
 			"Casual raid invites starting now, please whisper me 123", -- [1]
 			"Telchino-Outland", -- [2]
@@ -1342,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaTelchino|r",
 			[51] = 1649523439,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [61]
+		}, -- [57]
 		{
 			"123", -- [1]
 			"Drjonés-Outland", -- [2]
@@ -1364,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDrjonés|r",
 			[51] = 1649523444,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [62]
+		}, -- [58]
 		{
 			"is it normal or hc :3 ", -- [1]
 			"Lerboni-Outland", -- [2]
@@ -1386,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Lerboni|r",
 			[51] = 1649523497,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [63]
+		}, -- [59]
 		{
 			"Normal", -- [1]
 			"Shexxi-Outland", -- [2]
@@ -1408,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Shexxi|r",
 			[51] = 1649523502,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [64]
+		}, -- [60]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15406:Player-1301-03DFEE62:1:4:9:22:4294967295:4294967295:4294967295:4294967295|h[Synthesized!]|h|r!", -- [1]
 			"Doza-Outland", -- [2]
@@ -1430,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cDoza|r",
 			[51] = 1649523502,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [65]
+		}, -- [61]
 		{
 			"aiiight :3", -- [1]
 			"Lerboni-Outland", -- [2]
@@ -1452,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Lerboni|r",
 			[51] = 1649523509,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [66]
+		}, -- [62]
 		{
 			"is discord a most", -- [1]
 			"Lerboni-Outland", -- [2]
@@ -1474,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Lerboni|r",
 			[51] = 1649523514,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [67]
+		}, -- [63]
 		{
 			"my headset is broke so i only have speakers", -- [1]
 			"Lerboni-Outland", -- [2]
@@ -1496,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Lerboni|r",
 			[51] = 1649523531,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [68]
+		}, -- [64]
 		{
 			"gonna buy new tomorrow", -- [1]
 			"Lerboni-Outland", -- [2]
@@ -1518,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Lerboni|r",
 			[51] = 1649527143,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [69]
+		}, -- [65]
 		{
 			"u dont have to speak ", -- [1]
 			"Thanàtos-Outland", -- [2]
@@ -1540,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Thanàtos|r",
 			[51] = 1649527144,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [70]
+		}, -- [66]
 		{
 			"just to listen ", -- [1]
 			"Thanàtos-Outland", -- [2]
@@ -1562,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Thanàtos|r",
 			[51] = 1649527147,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [71]
+		}, -- [67]
 		{
 			"well its on speaker", -- [1]
 			"Lerboni-Outland", -- [2]
@@ -1584,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Lerboni|r",
 			[51] = 1649523629,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [72]
+		}, -- [68]
 		{
 			"and people can hear", -- [1]
 			"Lerboni-Outland", -- [2]
@@ -1606,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Lerboni|r",
 			[51] = 1649523633,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [73]
+		}, -- [69]
 		{
 			"123", -- [1]
 			"Artémíss-Outland", -- [2]
@@ -1628,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaArtémíss|r",
 			[51] = 1649523635,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [74]
+		}, -- [70]
 		{
 			"Anyone for |cffa335ee|Hkeystone:180653:391:8:10:7:14:0|h[Keystone: Tazavesh: Streets of Wonder (8)]|h|r ?", -- [1]
 			"Darknight-Outland", -- [2]
@@ -1650,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDarknight|r",
 			[51] = 1649523636,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [75]
+		}, -- [71]
 		{
 			"for the raid whisper 123 to Telchino", -- [1]
 			"Mackinz-Outland", -- [2]
@@ -1672,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edMackinz|r",
 			[51] = 1649523671,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [76]
+		}, -- [72]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:32:Player-1301-0BE033DA:1:4:9:22:4294967295:4294967295:4294967295:4294967295|h[2000 Quests Completed]|h|r!", -- [1]
 			"Lychea-Outland", -- [2]
@@ -1694,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaLychea|r",
 			[51] = 1649523701,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [77]
+		}, -- [73]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14638:Player-1301-08D15836:1:4:9:22:4294967295:4294967295:4294967295:4294967295|h[The Anima Must Flow]|h|r!", -- [1]
 			"Deathguust-Outland", -- [2]
@@ -1716,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Deathguust|r",
 			[51] = 1649523764,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [78]
+		}, -- [74]
 		{
 			"Private team With 3K io players, Helping ppl with M+ 13-20 > (time & weekly) (ONLY GOLD)  (Armor stack+share loot)  /w me for more info", -- [1]
 			"Escânoor-Outland", -- [2]
@@ -1738,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Escânoor|r",
 			[51] = 1649523776,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [75]
 		{
 			"Boosting Group WTS +15 - +20 keys INTIME guaranteed and CHEAP with loot included. Experienced through multiple expansions with a lot of sucessfull runs done. Whisper for more info <GOLD ONLY>", -- [1]
 			"Unstabledudu-Outland", -- [2]
@@ -1760,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Unstabledudu|r",
 			[51] = 1649523780,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [76]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15493:Player-1301-0A04BC88:1:4:9:22:4294967295:4294967295:4294967295:4294967295|h[Ephemeral Plains]|h|r!", -- [1]
 			"Illiner-Outland", -- [2]
@@ -1782,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Illiner|r",
 			[51] = 1649523870,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [81]
+		}, -- [77]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14336:Player-1301-08070651:1:4:9:22:4294967295:4294967295:4294967295:4294967295|h[Undying Army]|h|r!", -- [1]
 			"Bagration-Outland", -- [2]
@@ -1804,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaBagration|r",
 			[51] = 1649523919,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [82]
+		}, -- [78]
 		{
 			" ", -- [1]
 			"Joebear-Eredar", -- [2]
@@ -1826,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Joebear-Eredar|r",
 			[51] = 1649524048,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [83]
+		}, -- [79]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15351:Player-1301-0C1A1BF4:1:4:9:22:4294967295:4294967295:4294967295:4294967295|h[Duelist: Shadowlands Season 3]|h|r!", -- [1]
 			"Krangled-Outland", -- [2]
@@ -1848,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Krangled|r",
 			[51] = 1649524050,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [84]
+		}, -- [80]
 		{
 			"gz", -- [1]
 			"Siérra-Outland", -- [2]
@@ -1870,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaSiérra|r",
 			[51] = 1649524059,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [85]
+		}, -- [81]
 		{
 			"anyone here, plz join Influenza Discord chat (Eevent channel) for raiding, its a requirment.", -- [1]
 			"Drjonés-Outland", -- [2]
@@ -1892,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDrjonés|r",
 			[51] = 1649524062,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [86]
+		}, -- [82]
 		{
 			"big now in this deflated season krangled", -- [1]
 			"Siérra-Outland", -- [2]
@@ -1914,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaSiérra|r",
 			[51] = 1649524068,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [87]
+		}, -- [83]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:11992:Player-1301-0BDA0C82:1:4:9:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Garothi Worldbreaker]|h|r!", -- [1]
 			"Karamfilchi-Outland", -- [2]
@@ -1936,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Karamfilchi|r",
 			[51] = 1649524159,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [88]
+		}, -- [84]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:11993:Player-1301-0BDA0C82:1:4:9:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Hounds of Sargeras]|h|r!", -- [1]
 			"Karamfilchi-Outland", -- [2]
@@ -1958,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Karamfilchi|r",
 			[51] = 1649524235,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [89]
+		}, -- [85]
 		{
 			"123", -- [1]
 			"Zypres-Outland", -- [2]
@@ -1980,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zypres|r",
 			[51] = 1649524296,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [90]
+		}, -- [86]
 		{
 			"123", -- [1]
 			"Schrodinga-Outland", -- [2]
@@ -2002,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Schrodinga|r",
 			[51] = 1649524305,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [91]
+		}, -- [87]
 		{
 			"123", -- [1]
 			"Herbw-Outland", -- [2]
@@ -2024,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Herbw|r",
 			[51] = 1649524307,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [92]
+		}, -- [88]
 		{
 			"213? >.>", -- [1]
 			"Misspicklés-Outland", -- [2]
@@ -2046,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Misspicklés|r",
 			[51] = 1649524311,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [93]
+		}, -- [89]
 		{
 			"123", -- [1]
 			"Xremac-Outland", -- [2]
@@ -2068,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Xremac|r",
 			[51] = 1649524318,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [94]
+		}, -- [90]
 		{
 			"groups 2 4 6 8 whisper Kasdeya", -- [1]
 			"Telchino-Outland", -- [2]
@@ -2090,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaTelchino|r",
 			[51] = 1649524322,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [95]
+		}, -- [91]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15045:Player-1301-058C263A:1:4:9:22:4294967295:4294967295:4294967295:4294967295|h[Keystone Hero: The Necrotic Wake]|h|r!", -- [1]
 			"Dragonzhun-Outland", -- [2]
@@ -2112,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcDragonzhun|r",
 			[51] = 1649524322,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [96]
+		}, -- [92]
 		{
 			"whisper me 123", -- [1]
 			"Kasdeya-Outland", -- [2]
@@ -2134,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaKasdeya|r",
 			[51] = 1649524332,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [97]
+		}, -- [93]
 		{
 			"(In my raid (Join SOCIAL 1) Discord, thanks", -- [1]
 			"Drjonés-Outland", -- [2]
@@ -2156,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDrjonés|r",
 			[51] = 1649524386,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [98]
+		}, -- [94]
 		{
 			"Boosting Group Limited WTS +15 - +20 keys INTIME guaranteed and OVERPRICED without loot included. Underexperienced from the most recent expansions with negative runs completed. Whisper me for more! <COPPER ONLY>", -- [1]
 			"Xezlun-Outland", -- [2]
@@ -2178,6 +2090,94 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Xezlun|r",
 			[51] = 1649524391,
 			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"Private team With 3K io players, Selling M+  13-20 > (time & weekly) (ONLY GOLD)  ( Full share loot)  /w me for more info", -- [1]
+			"Escânoor-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Escânoor-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			176, -- [11]
+			"Player-1301-0BF902C8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Escânoor|r",
+			[51] = 1649540759,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:11129:Player-1301-0BF92332:1:4:10:22:4294967295:4294967295:4294967295:4294967295|h[1000 World Quests Completed]|h|r!", -- [1]
+			"Carbons-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Carbons-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			191, -- [11]
+			"Player-1301-0BF92332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaCarbons|r",
+			[51] = 1649540825,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [97]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:15496:Player-1301-0A642FFA:1:4:10:22:4294967295:4294967295:4294967295:4294967295|h[Shadowlands Keystone Explorer: Season Three]|h|r!", -- [1]
+			"Stanex-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stanex-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			217, -- [11]
+			"Player-1301-0A642FFA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Stanex|r",
+			[51] = 1649540985,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [98]
+		{
+			"|cffa335ee|Hkeystone:180653:391:11:10:7:14:130|h[Keystone: Tazavesh: Streets of Wonder (11)]|h|r dps /healer?", -- [1]
+			"Stanex-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			255, -- [11]
+			"Player-1301-0A642FFA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Stanex|r",
+			[51] = 1649541403,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
