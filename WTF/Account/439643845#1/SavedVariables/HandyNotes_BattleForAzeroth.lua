@@ -4,6 +4,7 @@ HandyNotes_BattleForAzerothDB = {
 		["Bankeristor - Outland"] = "Default",
 		["Barbaxius - Outland"] = "Default",
 		["Necrophagus - Outland"] = "Default",
+		["Xanthoros - Outland"] = "Default",
 		["Phaltraxion - Outland"] = "Default",
 		["Phelanara - Outland"] = "Default",
 		["Illyana - Outland"] = "Default",

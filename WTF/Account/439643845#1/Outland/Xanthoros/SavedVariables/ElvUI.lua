@@ -2,94 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"{rt8}Tahkwitz (100%)|cffffff00|Hworldmap:1970:4855:3909|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Isotrophia-Outland", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Isotrophia-Outland", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			881, -- [11]
-			"Player-1301-09B87CBB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Isotrophia|r",
-			[51] = 1648503231,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"Otaris the Provoked 100.00% ~(58.6, 39.02) |cffffff00|Hworldmap:1970:5860:3902|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Minmage-Outland", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Minmage-Outland", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			885, -- [11]
-			"Player-1301-008DB7D9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaMinmage|r",
-			[51] = 1648503774,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"+1", -- [1]
-			"Kromegia-CultedelaRivenoire", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Kromegia-CultedelaRivenoire", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			890, -- [11]
-			"Player-1127-0A0149AC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edKromegia-CultedelaRivenoire|r",
-			[51] = 1648503881,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"quand vous voulez", -- [1]
-			"Kromegia-CultedelaRivenoire", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kromegia-CultedelaRivenoire", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			892, -- [11]
-			"Player-1127-0A0149AC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edKromegia-CultedelaRivenoire|r",
-			[51] = 1648503972,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [4]
-		{
 			"Go !!!!", -- [1]
 			"Mylania-LesSentinelles", -- [2]
 			"", -- [3]
@@ -110,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaMylania-LesSentinelles|r",
 			[51] = 1648503979,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [5]
+		}, -- [1]
 		{
 			"architecte up", -- [1]
 			"Usulle-ConfrérieduThorium", -- [2]
@@ -132,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Usulle-ConfrérieduThorium|r",
 			[51] = 1648503980,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
+		}, -- [2]
 		{
 			"|cffffff00|Hworldmap:1970:4921:6047|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Emplacement marqué sur la carte]|h|r", -- [1]
 			"Usulle-ConfrérieduThorium", -- [2]
@@ -154,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Usulle-ConfrérieduThorium|r",
 			[51] = 1648503993,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
+		}, -- [3]
 		{
 			"architecte pop", -- [1]
 			"Usulle-ConfrérieduThorium", -- [2]
@@ -176,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Usulle-ConfrérieduThorium|r",
 			[51] = 1648504170,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
+		}, -- [4]
 		{
 			"feasting up", -- [1]
 			"Drakthuil-Outland", -- [2]
@@ -198,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDrakthuil|r",
 			[51] = 1648569156,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
+		}, -- [5]
 		{
 			"Feasting 98.35% ~(63.01, 56.84) |cffffff00|Hworldmap:1970:6301:5684|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Gënisis-Outland", -- [2]
@@ -220,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Gënisis|r",
 			[51] = 1648569193,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
+		}, -- [6]
 		{
 			"Garudeon 100.00% ~(68.29, 36.73) |cffffff00|Hworldmap:1970:6829:3673|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Boldshire-Outland", -- [2]
@@ -242,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Boldshire|r",
 			[51] = 1648569574,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
+		}, -- [7]
 		{
 			"orixal up", -- [1]
 			"Swiftstrykes-Outland", -- [2]
@@ -264,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Swiftstrykes|r",
 			[51] = 1648570363,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
+		}, -- [8]
 		{
 			"|cffffff00|Hworldmap:1970:5597:6859|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Swiftstrykes-Outland", -- [2]
@@ -286,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Swiftstrykes|r",
 			[51] = 1648570394,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
+		}, -- [9]
 		{
 			"architect is up", -- [1]
 			"Qïx-Outland", -- [2]
@@ -308,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Qïx|r",
 			[51] = 1648570402,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
+		}, -- [10]
 		{
 			"щьц", -- [1]
 			"Халионка-Голдринн", -- [2]
@@ -330,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeХалионка-Голдринн|r",
 			[51] = 1648570452,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [15]
+		}, -- [11]
 		{
 			"omw", -- [1]
 			"Халионка-Голдринн", -- [2]
@@ -352,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeХалионка-Голдринн|r",
 			[51] = 1648570454,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [16]
+		}, -- [12]
 		{
 			"Interrupted Otiosen's |cff71d5ff|Hspell:365110:0|h[Regenerate]|h|r!", -- [1]
 			"Blockvalue-Turalyon", -- [2]
@@ -374,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaBlockvalue-Turalyon|r",
 			[51] = 1648570619,
 			[50] = "CHAT_MSG_EMOTE",
-		}, -- [17]
+		}, -- [13]
 		{
 			"Hadeon the Stonebreaker 37.60% ~(52.42, 25.63) |cffffff00|Hworldmap:1970:5242:2563|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a координаты точки на карте]|h|r", -- [1]
 			"Джосина-Гордунни", -- [2]
@@ -396,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaДжосина-Гордунни|r",
 			[51] = 1648570839,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
+		}, -- [14]
 		{
 			"Why blizzard,why ?? |cffffff00|Hquest:64889:2057|h[Match Made in Zereth Mortis]|h|r", -- [1]
 			"Huntti-Outland", -- [2]
@@ -418,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Huntti|r",
 			[51] = 1648572210,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
+		}, -- [15]
 		{
 			"Mother Phestis 100.00% ~(54.64, 34.27) |cffffff00|Hworldmap:1970:5464:3427|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Wakandariano-Outland", -- [2]
@@ -440,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Wakandariano|r",
 			[51] = 1648572249,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
+		}, -- [16]
 		{
 			"Protector of the flames ", -- [1]
 			"Jádë-Outland", -- [2]
@@ -462,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Jádë|r",
 			[51] = 1648573717,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
+		}, -- [17]
 		{
 			"Up and out ", -- [1]
 			"Jádë-Outland", -- [2]
@@ -484,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Jádë|r",
 			[51] = 1648573720,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
+		}, -- [18]
 		{
 			"Corrupted Architect up", -- [1]
 			"Zavvy-Outland", -- [2]
@@ -506,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Zavvy|r",
 			[51] = 1648574158,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
+		}, -- [19]
 		{
 			"lag?", -- [1]
 			"Dorphin-Outland", -- [2]
@@ -528,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cDorphin|r",
 			[51] = 1648574527,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
+		}, -- [20]
 		{
 			"never heard of her", -- [1]
 			"Gramrin-Lightbringer", -- [2]
@@ -550,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Gramrin-Lightbringer|r",
 			[51] = 1648574542,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
+		}, -- [21]
 		{
 			"shes a bit slow .", -- [1]
 			"Swiftstrykes-Outland", -- [2]
@@ -572,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Swiftstrykes|r",
 			[51] = 1648574562,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
+		}, -- [22]
 		{
 			"cause ur gay", -- [1]
 			"Dorphin-Outland", -- [2]
@@ -594,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cDorphin|r",
 			[51] = 1648574564,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
+		}, -- [23]
 		{
 			"|cffffff00|Hworldmap:1970:5513:3333|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r Mother Phestis is up", -- [1]
 			"Paulius-Outland", -- [2]
@@ -616,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefePaulius|r",
 			[51] = 1648574623,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
+		}, -- [24]
 		{
 			"Tahkwitz 100.00% ~(51.48, 44.49) |cffffff00|Hworldmap:1970:5148:4449|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a координаты точки на карте]|h|r", -- [1]
 			"Фалрик-ЧерныйШрам", -- [2]
@@ -638,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Фалрик-ЧерныйШрам|r",
 			[51] = 1648574747,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
+		}, -- [25]
 		{
 			"Shifting Stargorger up", -- [1]
 			"Eversor-Outland", -- [2]
@@ -660,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Eversor|r",
 			[51] = 1648636163,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
+		}, -- [26]
 		{
 			"Shifting Stargorger 100.00% ~(43.04, 20.51) |cffffff00|Hworldmap:1970:4304:2051|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Siggypew-Outland", -- [2]
@@ -682,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Siggypew|r",
 			[51] = 1648636202,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
+		}, -- [27]
 		{
 			"Mother Phestis 29.67% ~(54.59, 34.24) |cffffff00|Hworldmap:1970:5459:3424|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Siggypew-Outland", -- [2]
@@ -704,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Siggypew|r",
 			[51] = 1648637023,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
+		}, -- [28]
 		{
 			"Zatojin 24.63% ~(43.49, 32.56) |cffffff00|Hworldmap:1970:4349:3256|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Siggypew-Outland", -- [2]
@@ -726,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Siggypew|r",
 			[51] = 1648637153,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
+		}, -- [29]
 		{
 			"Euvouk up", -- [1]
 			"Megamoist-Outland", -- [2]
@@ -748,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMegamoist|r",
 			[51] = 1648637211,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
+		}, -- [30]
 		{
 			"inv plz", -- [1]
 			"Yatschinka-Blackmoore", -- [2]
@@ -770,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Yatschinka-Blackmoore|r",
 			[51] = 1648637213,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [35]
+		}, -- [31]
 		{
 			"ty ", -- [1]
 			"Dazlin-Doomhammer", -- [2]
@@ -792,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Dazlin-Doomhammer|r",
 			[51] = 1648734378,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [36]
+		}, -- [32]
 		{
 			"finally exalted", -- [1]
 			"Aiyun-Outland", -- [2]
@@ -814,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Aiyun|r",
 			[51] = 1648734408,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
+		}, -- [33]
 		{
 			"gz", -- [1]
 			"Thunderbolt-Outland", -- [2]
@@ -836,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeThunderbolt|r",
 			[51] = 1648734448,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
+		}, -- [34]
 		{
 			"ty xD", -- [1]
 			"Aiyun-Outland", -- [2]
@@ -858,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Aiyun|r",
 			[51] = 1648734453,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
+		}, -- [35]
 		{
 			"omw", -- [1]
 			"Ashtrays-Ravencrest", -- [2]
@@ -880,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Ashtrays-Ravencrest|r",
 			[51] = 1648734867,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [40]
+		}, -- [36]
 		{
 			"Group attempting WB probably", -- [1]
 			"Heramaar-ArgentDawn", -- [2]
@@ -902,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Heramaar-ArgentDawn|r",
 			[51] = 1648734918,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
+		}, -- [37]
 		{
 			"Is there a good source of Protoform Synthesis Crowns or just luck/RNG?", -- [1]
 			"Flannacha-ArgentDawn", -- [2]
@@ -924,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcFlannacha-ArgentDawn|r",
 			[51] = 1648734937,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
+		}, -- [38]
 		{
 			"ty", -- [1]
 			"Acerolaorion-Ragnaros", -- [2]
@@ -946,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Acerolaorion-Ragnaros|r",
 			[51] = 1648734968,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [43]
+		}, -- [39]
 		{
 			"mother phestis up", -- [1]
 			"Siiss-Outland", -- [2]
@@ -968,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Siiss|r",
 			[51] = 1648736223,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
+		}, -- [40]
 		{
 			"Laggs?", -- [1]
 			"Tjackdieten-Outland", -- [2]
@@ -990,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Tjackdieten|r",
 			[51] = 1648736953,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [41]
 		{
 			"y", -- [1]
 			"Bøuntÿ-Outland", -- [2]
@@ -1012,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaBøuntÿ|r",
 			[51] = 1648736958,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
+		}, -- [42]
 		{
 			"+", -- [1]
 			"Valekar-Outland", -- [2]
@@ -1034,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cValekar|r",
 			[51] = 1648736959,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
+		}, -- [43]
 		{
 			"big one", -- [1]
 			"Vîdar-Outland", -- [2]
@@ -1056,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Vîdar|r",
 			[51] = 1648736965,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [44]
 		{
 			"Can they fix this fucking game already", -- [1]
 			"Tjackdieten-Outland", -- [2]
@@ -1078,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Tjackdieten|r",
 			[51] = 1648736974,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+		}, -- [45]
 		{
 			"fuck this lagg paying oney for this gg", -- [1]
 			"Oredacort-Outland", -- [2]
@@ -1100,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cOredacort|r",
 			[51] = 1648736981,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
+		}, -- [46]
 		{
 			"money", -- [1]
 			"Oredacort-Outland", -- [2]
@@ -1122,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cOredacort|r",
 			[51] = 1648736993,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
+		}, -- [47]
 		{
 			"you need to pay more then they say they will fix it", -- [1]
 			"Synadenium-Outland", -- [2]
@@ -1144,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Synadenium|r",
 			[51] = 1648737006,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [48]
 		{
 			"Wooden server", -- [1]
 			"Tjackdieten-Outland", -- [2]
@@ -1166,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Tjackdieten|r",
 			[51] = 1648737044,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [49]
 		{
 			"memba nazmir? laggy as hell in WM off but lag free in wm on", -- [1]
 			"Smeagöl-Outland", -- [2]
@@ -1188,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Smeagöl|r",
 			[51] = 1648737045,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [50]
 		{
 			"It's fairly simple. World boss fight? -> Lag. No world boss? No lag. No one actually plays in WM on, so no one pulls the boss there. :D", -- [1]
 			"Verthasian-Silvermoon", -- [2]
@@ -1210,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Verthasian-Silvermoon|r",
 			[51] = 1648737081,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [51]
 		{
 			"World of Woodcraft", -- [1]
 			"Camrad-Silvermoon", -- [2]
@@ -1232,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cCamrad-Silvermoon|r",
 			[51] = 1648737100,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
+		}, -- [52]
 		{
 			"World quests = laggs aswell", -- [1]
 			"Tjackdieten-Outland", -- [2]
@@ -1254,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Tjackdieten|r",
 			[51] = 1648737108,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
+		}, -- [53]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12582:Player-1301-0A44C97F:1:4:1:22:4294967295:4294967295:4294967295:4294967295|h[Come Sail Away]|h|r!", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1276,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1648846433,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [58]
+		}, -- [54]
 		{
 			"Private team With 3K io players, selling M+ 10-20 > (time & weekly) (ONLY GOLD)  (Armor stack+share loot) /w me for more info", -- [1]
 			"Ziireal-Outland", -- [2]
@@ -1298,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cZiireal|r",
 			[51] = 1648846623,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [55]
 		{
 			"DISPELL GEORGINO", -- [1]
 			"Georgino-Kilrogg", -- [2]
@@ -1320,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaGeorgino-Kilrogg|r",
 			[51] = 1648846750,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [60]
+		}, -- [56]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:13572:Player-1301-0A44C97F:1:4:2:22:4294967295:4294967295:4294967295:4294967295|h[The Heart Forge]|h|r!", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1342,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1648848039,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [61]
+		}, -- [57]
 		{
 			"anyone got aprox timer`", -- [1]
 			"Drama-TheMaelstrom", -- [2]
@@ -1364,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Drama-TheMaelstrom|r",
 			[51] = 1648908212,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [62]
+		}, -- [58]
 		{
 			"?*", -- [1]
 			"Drama-TheMaelstrom", -- [2]
@@ -1386,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Drama-TheMaelstrom|r",
 			[51] = 1648908214,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [63]
+		}, -- [59]
 		{
 			"hey", -- [1]
 			"Rzya-Aegwynn", -- [2]
@@ -1408,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edRzya-Aegwynn|r",
 			[51] = 1648909862,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [64]
+		}, -- [60]
 		{
 			"Hirukon 100.00% ~(51.75, 74.21) |cffffff00|Hworldmap:1970:5175:7421|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Zelendiaz-Outland", -- [2]
@@ -1430,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Zelendiaz|r",
 			[51] = 1648909941,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [61]
 		{
 			"Hirukon 100.00% ~(51.75, 74.42) |cffffff00|Hworldmap:1970:5175:7442|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Zelendiaz-Outland", -- [2]
@@ -1452,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Zelendiaz|r",
 			[51] = 1648910427,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [62]
 		{
 			"Mother Phestis 100.00% ~(54.95, 33.89) |cffffff00|Hworldmap:1970:5495:3389|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Emplacement marqué sur la carte]|h|r", -- [1]
 			"Dumdum-LesSentinelles", -- [2]
@@ -1474,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Dumdum-LesSentinelles|r",
 			[51] = 1648910456,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [63]
 		{
 			"kaz ogg magan ", -- [1]
 			"Shumyy-Stormscale", -- [2]
@@ -1496,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeShumyy-Stormscale|r",
 			[51] = 1649001741,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [68]
+		}, -- [64]
 		{
 			" ", -- [1]
 			"Rakgal-Kazzak", -- [2]
@@ -1518,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaRakgal-Kazzak|r",
 			[51] = 1649002188,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [69]
+		}, -- [65]
 		{
 			"WTS |cffffffff|Hitem:171412::::::::60:64:::::::::|h[Shadowghast Breastplate]|h|r (291ivl)  - |cffffffff|Hitem:173244::::::::60:64:::::::::|h[Grim-Veiled Mittens]|h|r (291ilvl) - |cffffffff|Hitem:173245::::::::60:64:::::::::|h[Grim-Veiled Hood]|h|r (291ilvl) cheaper than AH /w me with offer need fast sale so selling at silly prices!", -- [1]
 			"Seraphinaz-Outland", -- [2]
@@ -1540,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaSeraphinaz|r",
 			[51] = 1649002405,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [66]
 		{
 			"WTS Legendary 291 iLvL - Any slot Tailoring / Jewelcrafting (Ring/Neck) , Leather - Belt/Bracer/Legs/Chest , Mail - Legs/Hands/Belt ,  Plate - Belt/Legs/Boots/Wrist Fair Price /w me", -- [1]
 			"Probot-Outland", -- [2]
@@ -1562,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaProbot|r",
 			[51] = 1649002407,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [67]
 		{
 			"Sale - New better price - [Shadowghast Necklace] 291 ilvl for 60k gold /w me", -- [1]
 			"Probot-Outland", -- [2]
@@ -1584,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaProbot|r",
 			[51] = 1649002407,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [68]
 		{
 			"any idea why overgrwoth is here but the roots to pull it not ?", -- [1]
 			"Moradîn-Outland", -- [2]
@@ -1606,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Moradîn|r",
 			[51] = 1649002425,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [69]
 		{
 			"they are, just hard to spot", -- [1]
 			"Naì-Outland", -- [2]
@@ -1628,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Naì|r",
 			[51] = 1649002454,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [70]
 		{
 			"no they are not here i have summoned this rare like 50 times till now from the begining ot the patch", -- [1]
 			"Moradîn-Outland", -- [2]
@@ -1650,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Moradîn|r",
 			[51] = 1649002478,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [71]
 		{
 			"want me to come pull it up for you?", -- [1]
 			"Naì-Outland", -- [2]
@@ -1672,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Naì|r",
 			[51] = 1649002483,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [72]
 		{
 			"nah no need ty", -- [1]
 			"Moradîn-Outland", -- [2]
@@ -1694,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Moradîn|r",
 			[51] = 1649002510,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [73]
 		{
 			"thx :)", -- [1]
 			"Laikija-Theradras", -- [2]
@@ -1716,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Laikija-Theradras|r",
 			[51] = 1649002793,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [78]
+		}, -- [74]
 		{
 			"Anyone for Broken Rig?", -- [1]
 			"Emaryllis-TheMaelstrom", -- [2]
@@ -1738,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cEmaryllis-TheMaelstrom|r",
 			[51] = 1649074984,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [75]
 		{
 			"Kazum ogg makogg throm  uruk nogu ", -- [1]
 			"Tìdùs-Nemesis", -- [2]
@@ -1760,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeTìdùs-Nemesis|r",
 			[51] = 1649076300,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [80]
+		}, -- [76]
 		{
 			"KO gul ogg", -- [1]
 			"Mideum-Kazzak", -- [2]
@@ -1782,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMideum-Kazzak|r",
 			[51] = 1649076306,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [81]
+		}, -- [77]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:508:Player-1301-0A44C97F:1:4:4:22:4294967295:4294967295:4294967295:4294967295|h[1500 Quests Completed]|h|r!", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1804,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1649076469,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [82]
+		}, -- [78]
 		{
 			"was mort regar up last week ?", -- [1]
 			"Selenarr-Outland", -- [2]
@@ -1826,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaSelenarr|r",
 			[51] = 1649076511,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [79]
 		{
 			"or is it gonna be next week", -- [1]
 			"Selenarr-Outland", -- [2]
@@ -1848,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaSelenarr|r",
 			[51] = 1649076515,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [80]
 		{
 			"does mage tower unlock one both sides if i do it as horde", -- [1]
 			"Ðrüidärk-Outland", -- [2]
@@ -1870,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Ðrüidärk|r",
 			[51] = 1649076536,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [81]
 		{
 			"Orixal (100%) |cffffff00|Hworldmap:1970:5558:6790|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Øshikuru-Outland", -- [2]
@@ -1892,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Øshikuru|r",
 			[51] = 1649077032,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [82]
 		{
 			"Tahkwitz |cffffff00|Hworldmap:1970:5008:3964|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Chadriel-Outland", -- [2]
@@ -1914,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Chadriel|r",
 			[51] = 1649077057,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [83]
 		{
 			"Orixal (43%) |cffffff00|Hworldmap:1970:5639:6820|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Øshikuru-Outland", -- [2]
@@ -1936,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Øshikuru|r",
 			[51] = 1649080731,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [84]
 		{
 			"|cffffd100|HclubFinder:ClubFinder-1-76730-1301-87462970|h[Guild: The Flat Azeroth Society]|h|r  [Outland] We raid, do a ton of mythic +, transmog runs and achivements. Join our Community for crossrealm fun aswell: The Flat Azeroth Society.", -- [1]
 			"Missbunny-Outland", -- [2]
@@ -1958,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Missbunny|r",
 			[51] = 1649077522,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [85]
 		{
 			"Otiosen up", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1980,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1649077540,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [86]
 		{
 			"wheres that?", -- [1]
 			"Rynlix-Outland", -- [2]
@@ -2002,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rynlix|r",
 			[51] = 1649077581,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [87]
 		{
 			"|cffffff00|Hworldmap:1970:4386:8808|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Yummorrigan-Outland", -- [2]
@@ -2024,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Yummorrigan|r",
 			[51] = 1649077596,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [88]
 		{
 			"|cffffff00|Hworldmap:1970:4342:8716|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -2046,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1649077597,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [89]
 		{
 			"ty", -- [1]
 			"Rynlix-Outland", -- [2]
@@ -2068,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rynlix|r",
 			[51] = 1649077613,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [90]
 		{
 			"Protector of the First Ones up", -- [1]
 			"Seraphinaz-Outland", -- [2]
@@ -2090,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaSeraphinaz|r",
 			[51] = 1649077621,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [91]
 		{
 			"Oh yeah, I heard about this. How was the dupe done?", -- [1]
 			"Jolodi-Outland", -- [2]
@@ -2112,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Jolodi|r",
 			[51] = 1649254013,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [92]
 		{
 			"xD", -- [1]
 			"Assassasin-Outland", -- [2]
@@ -2134,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Assassasin|r",
 			[51] = 1649254020,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [93]
 		{
 			"was done using item restoration", -- [1]
 			"Sjokois-Outland", -- [2]
@@ -2156,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaSjokois|r",
 			[51] = 1649254055,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [94]
 		{
 			"there was dupe with hippogryph hatchlings too", -- [1]
 			"Assassasin-Outland", -- [2]
@@ -2178,6 +2090,94 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Assassasin|r",
 			[51] = 1649254059,
 			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"{rt8}A. Harvester{rt8}: 5m 21s-25m 21s (WorldBossTimers:1649519137)", -- [1]
+			"Greddhyllan-Frostmane", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Greddhyllan-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			432, -- [11]
+			"Player-1303-0B6947D8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Greddhyllan-Frostmane|r",
+			[51] = 1649516417,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [96]
+		{
+			"i agree", -- [1]
+			"Greddhyllan-Frostmane", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Greddhyllan-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			436, -- [11]
+			"Player-1303-0B6947D8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Greddhyllan-Frostmane|r",
+			[51] = 1649517224,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [97]
+		{
+			":-)", -- [1]
+			"Greddhyllan-Frostmane", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Greddhyllan-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			440, -- [11]
+			"Player-1303-0B6947D8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Greddhyllan-Frostmane|r",
+			[51] = 1649517251,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [98]
+		{
+			"{rt8}A. Harvester{rt8}: 0s-3m 51s (WorldBossTimers:1649519137)", -- [1]
+			"Greddhyllan-Frostmane", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Greddhyllan-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			447, -- [11]
+			"Player-1303-0B6947D8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Greddhyllan-Frostmane|r",
+			[51] = 1649517706,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {

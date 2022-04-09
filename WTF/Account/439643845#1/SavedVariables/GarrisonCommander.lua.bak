@@ -29,12 +29,6 @@ dbGAC = {
 			["firstun"] = false,
 		},
 	},
-	["global"] = {
-		["firstrun"] = false,
-		["news"] = {
-			["MissionControl"] = true,
-		},
-	},
 	["profileKeys"] = {
 		["Phelanara - Outland"] = "Default",
 		["Xanthoros - Outland"] = "Default",
@@ -46,12 +40,18 @@ dbGAC = {
 		["Lianxia - Draenor"] = "Default",
 		["Necrophagus - Outland"] = "Default",
 	},
+	["global"] = {
+		["firstrun"] = false,
+		["news"] = {
+			["MissionControl"] = true,
+		},
+	},
 	["profiles"] = {
 		["Default"] = {
 			["shipControl"] = {
 				["rig"] = false,
 				["skipEpic"] = false,
-				["version"] = 3,
+				["minLevel"] = 535,
 				["rewardList"] = {
 					"gold", -- [1]
 					"rush", -- [2]
@@ -68,7 +68,7 @@ dbGAC = {
 					"toys", -- [13]
 					"reputation", -- [14]
 				},
-				["minLevel"] = 535,
+				["version"] = 3,
 				["minimumChance"] = 50,
 			},
 			["missionControl"] = {
@@ -92,40 +92,40 @@ dbGAC = {
 					"toys", -- [15]
 					"reputation", -- [16]
 				},
-				["skipRare"] = false,
 				["minimumChance"] = 50,
+				["skipRare"] = false,
 			},
 			["toggles"] = {
-				["IGP"] = true,
 				["SGCSKIPEPIC"] = false,
+				["IGP"] = true,
 				["NOTOOLTIP"] = false,
 				["MINGOLD"] = 50,
 				["MSORT"] = "Garrison_SortMissions_Original",
+				["SHIPPIN"] = true,
 				["PIN"] = true,
-				["GCSKIPEPIC"] = false,
-				["UPG"] = true,
+				["SWAPBUTTONS"] = false,
 				["IXP"] = true,
 				["MINXPLEVEL"] = 30,
-				["USEFUL"] = true,
+				["MAXRESCHANCE"] = 80,
 				["IGM"] = true,
 				["HF"] = false,
 				["SHIPENHA"] = false,
-				["MAXMISSIONS"] = 5,
-				["SAUTOLOGOUT"] = false,
-				["MAXRES"] = true,
-				["MAXRESCHANCE"] = 80,
 				["MINPERC"] = 50,
-				["NOFILL"] = false,
-				["SGCMINLEVEL"] = 535,
+				["SAUTOLOGOUT"] = false,
+				["UPG"] = true,
+				["USEFUL"] = true,
+				["GCMINLEVEL"] = 540,
+				["BIGSCREEN"] = true,
+				["MAXMISSIONS"] = 5,
 				["AUTOLOGOUT"] = false,
 				["GCSKIPRARE"] = false,
 				["ILV"] = true,
-				["BIGSCREEN"] = true,
-				["GCMINLEVEL"] = 540,
+				["NOFILL"] = false,
+				["SGCMINLEVEL"] = 535,
 				["GCMINUPGRADE"] = 600,
 				["NOCONFIRM"] = true,
-				["SWAPBUTTONS"] = false,
-				["SHIPPIN"] = true,
+				["MAXRES"] = true,
+				["GCSKIPEPIC"] = false,
 				["SGCRIG"] = false,
 			},
 		},
