@@ -1,5 +1,5 @@
 --
--- RaiderIO Client Data. Generated on 2022-04-09T21:39:29Z
+-- RaiderIO Client Data. Generated on 2022-04-10T20:58:54Z
 --
 local _, ns = ...
 ns.GUILD_BEST_DATA = {
@@ -885,6 +885,19 @@ ns.GUILD_BEST_DATA = {
           }
         }
       }
+    }
+  },
+  ["Glory of the Simps-Outland"] = {
+    ["profile"] = {
+      ["name"] = "Glory of the Simps",
+      ["realm"] = "Outland",
+      ["faction"] = "alliance"
+    },
+    ["season_best"] = {
+
+    },
+    ["weekly_best"] = {
+
     }
   }
 }
