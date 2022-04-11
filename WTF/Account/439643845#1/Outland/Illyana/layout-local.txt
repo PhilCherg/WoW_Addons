@@ -1,4 +1,11 @@
 Version: 1
+Frame: scanner_button
+FrameLevel: 200
+Anchor: CENTER
+X: 341
+Y: 16
+W: 200
+H: 50
 Frame: AllTheThings-Window-CurrentInstance
 FrameLevel: 1
 Anchor: BOTTOMLEFT
@@ -69,10 +76,3 @@ X: 0
 Y: 0
 W: 300
 H: 300
-Frame: scanner_button
-FrameLevel: 200
-Anchor: CENTER
-X: 341
-Y: 16
-W: 200
-H: 50
