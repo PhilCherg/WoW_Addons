@@ -14,49 +14,49 @@ TomTomDB = {
 		["Moneymakeri - Outland"] = "Default",
 		["Moneyfive - Outland"] = "Default",
 		["Necrophagus - Outland"] = "Default",
-		["Feastthree - Outland"] = "Default",
+		["Elementior - Outland"] = "Default",
 		["Lysanaria - Outland"] = "Default",
 		["Moneyseven - Outland"] = "Default",
 		["Feattwo - Outland"] = "Default",
 		["Destruxia - Outland"] = "Default",
+		["Illydaria - Draenor"] = "Default",
 		["Afadsfasdfs - Outland"] = "Default",
-		["Wolfados - Azjol-Nerub"] = "Default",
 		["Farmerixus - Outland"] = "Default",
 		["Luminaxia - Outland"] = "Default",
 		["Testfirst - Outland"] = "Default",
-		["Phalonius - Azjol-Nerub"] = "Default",
+		["Bullenic - Silvermoon"] = "Default",
 		["Mallazin - Azjol-Nerub"] = "Default",
 		["Barbaxius - Outland"] = "Default",
 		["Asdawdwd - Outland"] = "Default",
-		["Moneythree - Outland"] = "Default",
+		["Moneyfour - Outland"] = "Default",
 		["Phelanara - Outland"] = "Default",
 		["Xanthoros - Outland"] = "Default",
 		["Phaltraxion - Outland"] = "Default",
 		["Nibirus - Azjol-Nerub"] = "Default",
-		["Asdsaasdf - Outland"] = "Default",
-		["Illyana - Outland"] = "Default",
+		["Moneyeight - Outland"] = "Default",
+		["Dominaria - Outland"] = "Default",
 		["Käguya - Turalyon"] = "Default",
 		["Feastfour - Outland"] = "Default",
-		["Necropharia - Outland"] = "Default",
-		["Presentone - Outland"] = "Default",
-		["Tinkerflame - Outland"] = "Default",
+		["Adsfasdfasdf - Outland"] = "Default",
+		["Asdfsadfsadf - Outland"] = "Default",
+		["Tempgoddess - Outland"] = "Default",
 		["Feastfive - Outland"] = "Default",
 		["Bankeristor - Outland"] = "Default",
-		["Asdqaweqwd - Outland"] = "Default",
-		["Asdqwdwq - Die Silberne Hand"] = "Default",
 		["Moneymakerii - Outland"] = "Default",
-		["Tempgoddess - Outland"] = "Default",
-		["Asdfsadfsadf - Outland"] = "Default",
-		["Adsfasdfasdf - Outland"] = "Default",
+		["Asdqwdwq - Die Silberne Hand"] = "Default",
+		["Asdqaweqwd - Outland"] = "Default",
+		["Tinkerflame - Outland"] = "Default",
+		["Presentone - Outland"] = "Default",
+		["Necropharia - Outland"] = "Default",
 		["Aasdfasdfd - Outland"] = "Default",
-		["Dominaria - Outland"] = "Default",
-		["Moneyeight - Outland"] = "Default",
+		["Illyana - Outland"] = "Default",
+		["Asdsaasdf - Outland"] = "Default",
 		["Chernakotka - Die Aldor"] = "Default",
-		["Moneyfour - Outland"] = "Default",
+		["Moneythree - Outland"] = "Default",
 		["Serthaxion - Outland"] = "Default",
-		["Bullenic - Silvermoon"] = "Default",
-		["Illydaria - Draenor"] = "Default",
-		["Elementior - Outland"] = "Default",
+		["Phalonius - Azjol-Nerub"] = "Default",
+		["Wolfados - Azjol-Nerub"] = "Default",
+		["Feastthree - Outland"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -78,8 +78,8 @@ TomTomDB = {
 				["cleardistance"] = 0,
 			},
 			["mapcoords"] = {
-				["cursorenable"] = false,
 				["playerenable"] = false,
+				["cursorenable"] = false,
 			},
 			["block"] = {
 				["enable"] = false,
@@ -110,49 +110,49 @@ TomTomWaypointsM = {
 		["Moneymakeri - Outland"] = "Moneymakeri - Outland",
 		["Moneyfive - Outland"] = "Moneyfive - Outland",
 		["Necrophagus - Outland"] = "Necrophagus - Outland",
-		["Feastthree - Outland"] = "Feastthree - Outland",
+		["Elementior - Outland"] = "Elementior - Outland",
 		["Lysanaria - Outland"] = "Lysanaria - Outland",
 		["Moneyseven - Outland"] = "Moneyseven - Outland",
 		["Feattwo - Outland"] = "Feattwo - Outland",
 		["Destruxia - Outland"] = "Destruxia - Outland",
+		["Illydaria - Draenor"] = "Illydaria - Draenor",
 		["Afadsfasdfs - Outland"] = "Afadsfasdfs - Outland",
-		["Wolfados - Azjol-Nerub"] = "Wolfados - Azjol-Nerub",
 		["Farmerixus - Outland"] = "Farmerixus - Outland",
 		["Luminaxia - Outland"] = "Luminaxia - Outland",
 		["Testfirst - Outland"] = "Testfirst - Outland",
-		["Phalonius - Azjol-Nerub"] = "Phalonius - Azjol-Nerub",
+		["Bullenic - Silvermoon"] = "Bullenic - Silvermoon",
 		["Mallazin - Azjol-Nerub"] = "Mallazin - Azjol-Nerub",
 		["Barbaxius - Outland"] = "Barbaxius - Outland",
 		["Asdawdwd - Outland"] = "Asdawdwd - Outland",
-		["Moneythree - Outland"] = "Moneythree - Outland",
+		["Moneyfour - Outland"] = "Moneyfour - Outland",
 		["Phelanara - Outland"] = "Phelanara - Outland",
 		["Xanthoros - Outland"] = "Xanthoros - Outland",
 		["Phaltraxion - Outland"] = "Phaltraxion - Outland",
 		["Nibirus - Azjol-Nerub"] = "Nibirus - Azjol-Nerub",
-		["Asdsaasdf - Outland"] = "Asdsaasdf - Outland",
-		["Illyana - Outland"] = "Illyana - Outland",
+		["Moneyeight - Outland"] = "Moneyeight - Outland",
+		["Dominaria - Outland"] = "Dominaria - Outland",
 		["Käguya - Turalyon"] = "Käguya - Turalyon",
 		["Feastfour - Outland"] = "Feastfour - Outland",
-		["Necropharia - Outland"] = "Necropharia - Outland",
-		["Presentone - Outland"] = "Presentone - Outland",
-		["Tinkerflame - Outland"] = "Tinkerflame - Outland",
+		["Adsfasdfasdf - Outland"] = "Adsfasdfasdf - Outland",
+		["Asdfsadfsadf - Outland"] = "Asdfsadfsadf - Outland",
+		["Tempgoddess - Outland"] = "Tempgoddess - Outland",
 		["Feastfive - Outland"] = "Feastfive - Outland",
 		["Bankeristor - Outland"] = "Bankeristor - Outland",
-		["Asdqaweqwd - Outland"] = "Asdqaweqwd - Outland",
-		["Asdqwdwq - Die Silberne Hand"] = "Asdqwdwq - Die Silberne Hand",
 		["Moneymakerii - Outland"] = "Moneymakerii - Outland",
-		["Tempgoddess - Outland"] = "Tempgoddess - Outland",
-		["Asdfsadfsadf - Outland"] = "Asdfsadfsadf - Outland",
-		["Adsfasdfasdf - Outland"] = "Adsfasdfasdf - Outland",
+		["Asdqwdwq - Die Silberne Hand"] = "Asdqwdwq - Die Silberne Hand",
+		["Asdqaweqwd - Outland"] = "Asdqaweqwd - Outland",
+		["Tinkerflame - Outland"] = "Tinkerflame - Outland",
+		["Presentone - Outland"] = "Presentone - Outland",
+		["Necropharia - Outland"] = "Necropharia - Outland",
 		["Aasdfasdfd - Outland"] = "Aasdfasdfd - Outland",
-		["Dominaria - Outland"] = "Dominaria - Outland",
-		["Moneyeight - Outland"] = "Moneyeight - Outland",
+		["Illyana - Outland"] = "Illyana - Outland",
+		["Asdsaasdf - Outland"] = "Asdsaasdf - Outland",
 		["Chernakotka - Die Aldor"] = "Chernakotka - Die Aldor",
-		["Moneyfour - Outland"] = "Moneyfour - Outland",
+		["Moneythree - Outland"] = "Moneythree - Outland",
 		["Serthaxion - Outland"] = "Serthaxion - Outland",
-		["Bullenic - Silvermoon"] = "Bullenic - Silvermoon",
-		["Illydaria - Draenor"] = "Illydaria - Draenor",
-		["Elementior - Outland"] = "Elementior - Outland",
+		["Phalonius - Azjol-Nerub"] = "Phalonius - Azjol-Nerub",
+		["Wolfados - Azjol-Nerub"] = "Wolfados - Azjol-Nerub",
+		["Feastthree - Outland"] = "Feastthree - Outland",
 	},
 	["profiles"] = {
 		["Asefawefad - Outland"] = {
@@ -181,66 +181,6 @@ TomTomWaypointsM = {
 		},
 		["Necrophagus - Outland"] = {
 			[62] = {
-				["62:392000000:565000000:Frightened Kodo"] = {
-					62, -- [1]
-					0.392, -- [2]
-					0.565, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Frightened Kodo",
-					["silent"] = true,
-					["cleardistance"] = 0,
-					["title"] = "Frightened Kodo",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["62:412700000:540100000:Frightened Kodo"] = {
-					62, -- [1]
-					0.4127, -- [2]
-					0.5401, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Frightened Kodo",
-					["silent"] = true,
-					["cleardistance"] = 0,
-					["title"] = "Frightened Kodo",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
 				["62:410000000:650000000:Frightened Kodo"] = {
 					62, -- [1]
 					0.41, -- [2]
@@ -255,17 +195,10 @@ TomTomWaypointsM = {
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
 						},
 						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
 					["minimap"] = true,
@@ -285,17 +218,10 @@ TomTomWaypointsM = {
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
 						},
 						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
 					["minimap"] = true,
@@ -315,17 +241,56 @@ TomTomWaypointsM = {
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
 						},
 						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["62:412700000:540100000:Frightened Kodo"] = {
+					62, -- [1]
+					0.4127, -- [2]
+					0.5401, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Frightened Kodo",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Frightened Kodo",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["62:392000000:565000000:Frightened Kodo"] = {
+					62, -- [1]
+					0.392, -- [2]
+					0.565, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Frightened Kodo",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Frightened Kodo",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -345,17 +310,10 @@ TomTomWaypointsM = {
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
 						},
 						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
 					["minimap"] = true,
@@ -375,17 +333,10 @@ TomTomWaypointsM = {
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
 						},
 						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
 					["minimap"] = true,
@@ -405,319 +356,10 @@ TomTomWaypointsM = {
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
 						},
 						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
-			[1970] = {
-				["1970:406000000:700000000:D"] = {
-					1970, -- [1]
-					0.406, -- [2]
-					0.7, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "D",
-					["silent"] = true,
-					["cleardistance"] = 0,
-					["title"] = "D",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1970:676000000:404000000:D"] = {
-					1970, -- [1]
-					0.6759999999999999, -- [2]
-					0.404, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "D",
-					["silent"] = true,
-					["cleardistance"] = 0,
-					["title"] = "D",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1970:604000000:489000000:D"] = {
-					1970, -- [1]
-					0.604, -- [2]
-					0.489, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "D",
-					["silent"] = true,
-					["cleardistance"] = 0,
-					["title"] = "D",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1970:548000000:467000000:D"] = {
-					1970, -- [1]
-					0.5479999999999999, -- [2]
-					0.467, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "D",
-					["silent"] = true,
-					["cleardistance"] = 0,
-					["title"] = "D",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1970:441000000:903000000:D"] = {
-					1970, -- [1]
-					0.441, -- [2]
-					0.903, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "D",
-					["silent"] = true,
-					["cleardistance"] = 0,
-					["title"] = "D",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1970:622000000:749000000:D"] = {
-					1970, -- [1]
-					0.622, -- [2]
-					0.7490000000000001, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "D",
-					["silent"] = true,
-					["cleardistance"] = 0,
-					["title"] = "D",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1970:596000000:512000000:D"] = {
-					1970, -- [1]
-					0.596, -- [2]
-					0.512, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "D",
-					["silent"] = true,
-					["cleardistance"] = 0,
-					["title"] = "D",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1970:590000000:609000000:D"] = {
-					1970, -- [1]
-					0.59, -- [2]
-					0.609, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "D",
-					["silent"] = true,
-					["cleardistance"] = 0,
-					["title"] = "D",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1970:488000000:448000000:D"] = {
-					1970, -- [1]
-					0.488, -- [2]
-					0.448, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "D",
-					["silent"] = true,
-					["cleardistance"] = 0,
-					["title"] = "D",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1970:658000000:404000000:D"] = {
-					1970, -- [1]
-					0.6579999999999999, -- [2]
-					0.404, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "D",
-					["silent"] = true,
-					["cleardistance"] = 0,
-					["title"] = "D",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
 					["minimap"] = true,
@@ -725,7 +367,7 @@ TomTomWaypointsM = {
 				},
 			},
 		},
-		["Feastthree - Outland"] = {
+		["Elementior - Outland"] = {
 		},
 		["Lysanaria - Outland"] = {
 		},
@@ -735,9 +377,9 @@ TomTomWaypointsM = {
 		},
 		["Destruxia - Outland"] = {
 		},
-		["Afadsfasdfs - Outland"] = {
+		["Illydaria - Draenor"] = {
 		},
-		["Wolfados - Azjol-Nerub"] = {
+		["Afadsfasdfs - Outland"] = {
 		},
 		["Farmerixus - Outland"] = {
 		},
@@ -747,61 +389,61 @@ TomTomWaypointsM = {
 					1161, -- [1]
 					0.4777, -- [2]
 					0.3937, -- [3]
-					["crazy"] = true,
-					["desc"] = "Return to the Orphanage",
-					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
 						},
+						["minimap"] = {
+						},
 					},
-					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
 					["persistent"] = true,
-					["minimap"] = true,
+					["desc"] = "Return to the Orphanage",
 					["silent"] = true,
 					["cleardistance"] = 0,
-					["title"] = "Return to the Orphanage",
+					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["minimap_displayID"] = 89265,
 					["worldmap_displayID"] = 89265,
-					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["title"] = "Return to the Orphanage",
+					["minimap"] = true,
 					["world"] = true,
 				},
 				["1161:480100000:402800000:Return to the Orphanage"] = {
 					1161, -- [1]
 					0.4801, -- [2]
 					0.4028, -- [3]
-					["crazy"] = true,
-					["desc"] = "Return to the Orphanage",
-					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
 						},
+						["minimap"] = {
+						},
 					},
-					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
 					["persistent"] = true,
-					["minimap"] = true,
+					["desc"] = "Return to the Orphanage",
 					["silent"] = true,
 					["cleardistance"] = 0,
-					["title"] = "Return to the Orphanage",
+					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["minimap_displayID"] = 89265,
 					["worldmap_displayID"] = 89265,
-					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["title"] = "Return to the Orphanage",
+					["minimap"] = true,
 					["world"] = true,
 				},
 			},
 		},
 		["Testfirst - Outland"] = {
 		},
-		["Phalonius - Azjol-Nerub"] = {
+		["Bullenic - Silvermoon"] = {
 		},
 		["Mallazin - Azjol-Nerub"] = {
 		},
@@ -809,7 +451,7 @@ TomTomWaypointsM = {
 		},
 		["Asdawdwd - Outland"] = {
 		},
-		["Moneythree - Outland"] = {
+		["Moneyfour - Outland"] = {
 		},
 		["Phelanara - Outland"] = {
 			[1161] = {
@@ -819,25 +461,32 @@ TomTomWaypointsM = {
 					0.3937, -- [3]
 					["callbacks"] = {
 						["distance"] = {
+							[15] = nil --[[ skipped inline function ]],
 						},
 						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["minimap"] = true,
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
-					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
+					["minimap_displayID"] = 89265,
 					["persistent"] = true,
-					["desc"] = "Return to the Orphanage",
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["silent"] = true,
 					["cleardistance"] = 0,
 					["title"] = "Return to the Orphanage",
-					["worldmap_displayID"] = 89265,
+					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
 					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
-					["minimap_displayID"] = 89265,
-					["minimap"] = true,
+					["desc"] = "Return to the Orphanage",
+					["worldmap_displayID"] = 89265,
 					["world"] = true,
 				},
 				["1161:480100000:402800000:Return to the Orphanage"] = {
@@ -846,25 +495,32 @@ TomTomWaypointsM = {
 					0.4028, -- [3]
 					["callbacks"] = {
 						["distance"] = {
+							[15] = nil --[[ skipped inline function ]],
 						},
 						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["minimap"] = true,
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
-					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
+					["minimap_displayID"] = 89265,
 					["persistent"] = true,
-					["desc"] = "Return to the Orphanage",
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["silent"] = true,
 					["cleardistance"] = 0,
 					["title"] = "Return to the Orphanage",
-					["worldmap_displayID"] = 89265,
+					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
 					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
-					["minimap_displayID"] = 89265,
-					["minimap"] = true,
+					["desc"] = "Return to the Orphanage",
+					["worldmap_displayID"] = 89265,
 					["world"] = true,
 				},
 			},
@@ -875,7 +531,37 @@ TomTomWaypointsM = {
 		},
 		["Nibirus - Azjol-Nerub"] = {
 		},
-		["Asdsaasdf - Outland"] = {
+		["Moneyeight - Outland"] = {
+		},
+		["Dominaria - Outland"] = {
+		},
+		["Käguya - Turalyon"] = {
+		},
+		["Feastfour - Outland"] = {
+		},
+		["Adsfasdfasdf - Outland"] = {
+		},
+		["Asdfsadfsadf - Outland"] = {
+		},
+		["Tempgoddess - Outland"] = {
+		},
+		["Feastfive - Outland"] = {
+		},
+		["Bankeristor - Outland"] = {
+		},
+		["Moneymakerii - Outland"] = {
+		},
+		["Asdqwdwq - Die Silberne Hand"] = {
+		},
+		["Asdqaweqwd - Outland"] = {
+		},
+		["Tinkerflame - Outland"] = {
+		},
+		["Presentone - Outland"] = {
+		},
+		["Necropharia - Outland"] = {
+		},
+		["Aasdfasdfd - Outland"] = {
 		},
 		["Illyana - Outland"] = {
 			[830] = {
@@ -904,41 +590,11 @@ TomTomWaypointsM = {
 				},
 			},
 		},
-		["Käguya - Turalyon"] = {
-		},
-		["Feastfour - Outland"] = {
-		},
-		["Necropharia - Outland"] = {
-		},
-		["Presentone - Outland"] = {
-		},
-		["Tinkerflame - Outland"] = {
-		},
-		["Feastfive - Outland"] = {
-		},
-		["Bankeristor - Outland"] = {
-		},
-		["Asdqaweqwd - Outland"] = {
-		},
-		["Asdqwdwq - Die Silberne Hand"] = {
-		},
-		["Moneymakerii - Outland"] = {
-		},
-		["Tempgoddess - Outland"] = {
-		},
-		["Asdfsadfsadf - Outland"] = {
-		},
-		["Adsfasdfasdf - Outland"] = {
-		},
-		["Aasdfasdfd - Outland"] = {
-		},
-		["Dominaria - Outland"] = {
-		},
-		["Moneyeight - Outland"] = {
+		["Asdsaasdf - Outland"] = {
 		},
 		["Chernakotka - Die Aldor"] = {
 		},
-		["Moneyfour - Outland"] = {
+		["Moneythree - Outland"] = {
 		},
 		["Serthaxion - Outland"] = {
 			[1161] = {
@@ -946,63 +602,63 @@ TomTomWaypointsM = {
 					1161, -- [1]
 					0.4777, -- [2]
 					0.3937, -- [3]
+					["crazy"] = true,
+					["desc"] = "Return to the Orphanage",
+					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
 						},
+						["world"] = {
+						},
 					},
-					["minimap"] = true,
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["minimap_displayID"] = 89265,
 					["persistent"] = true,
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["minimap"] = true,
 					["silent"] = true,
 					["cleardistance"] = 0,
-					["title"] = "Return to the Orphanage",
+					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
 					["worldmap_displayID"] = 89265,
-					["minimap_displayID"] = 89265,
-					["desc"] = "Return to the Orphanage",
+					["title"] = "Return to the Orphanage",
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["world"] = true,
 				},
 				["1161:480100000:402800000:Return to the Orphanage"] = {
 					1161, -- [1]
 					0.4801, -- [2]
 					0.4028, -- [3]
+					["crazy"] = true,
+					["desc"] = "Return to the Orphanage",
+					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
 						},
+						["world"] = {
+						},
 					},
-					["minimap"] = true,
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["minimap_displayID"] = 89265,
 					["persistent"] = true,
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["minimap"] = true,
 					["silent"] = true,
 					["cleardistance"] = 0,
-					["title"] = "Return to the Orphanage",
+					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
 					["worldmap_displayID"] = 89265,
-					["minimap_displayID"] = 89265,
-					["desc"] = "Return to the Orphanage",
+					["title"] = "Return to the Orphanage",
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["world"] = true,
 				},
 			},
 		},
-		["Bullenic - Silvermoon"] = {
+		["Phalonius - Azjol-Nerub"] = {
 		},
-		["Illydaria - Draenor"] = {
+		["Wolfados - Azjol-Nerub"] = {
 		},
-		["Elementior - Outland"] = {
+		["Feastthree - Outland"] = {
 		},
 	},
 }

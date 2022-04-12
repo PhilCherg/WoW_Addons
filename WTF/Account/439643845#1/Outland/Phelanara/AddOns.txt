@@ -14,7 +14,7 @@ WeakAurasOptions: disabled
 WeakAurasTemplates: disabled
 ElvUI_Config: enabled
 ElvUI: enabled
-HandyNotes: enabled
+HandyNotes: disabled
 HandyNotes_EverShiftingMirror: disabled
 HandyNotes_MoleMachine: disabled
 HandyNotes_WitheredArmyTraining: disabled
@@ -209,7 +209,7 @@ Grail-Reputations: disabled
 Grail-Rewards: disabled
 Grail-When: disabled
 AAP-Mekkatorque: disabled
-DoYouNeedThat: disabled
+DoYouNeedThat: enabled
 NPCScan: enabled
 _NPCScan.Overlay: enabled
 DBM-EternalPalace: enabled
@@ -331,7 +331,7 @@ BtWQuestsWrathOfTheLichKing: disabled
 BulkBuy: disabled
 GarrisonCommander: disabled
 GarrisonCommander-Broker: disabled
-HandyNotes_Shadowlands: enabled
+HandyNotes_Shadowlands: disabled
 Mists_of_Tirna_Solved: enabled
 MythicDungeonTools: disabled
 OmniBar: disabled
@@ -355,7 +355,7 @@ Playtime: enabled
 ElvUI_CustomTags: disabled
 BetterWardrobe_SourceData: disabled
 FarmHud_TrailPath: disabled
-HandyNotes_BattleForAzeroth: enabled
+HandyNotes_BattleForAzeroth: disabled
 RaiderIO_DB_US_F: disabled
 RaiderIO_DB_EU_F: disabled
 RaiderIO_DB_KR_F: disabled

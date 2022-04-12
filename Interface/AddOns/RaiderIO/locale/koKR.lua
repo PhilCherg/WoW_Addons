@@ -1,4 +1,4 @@
--- Generated from CurseForge on Mon Apr 11 19:16:20 UTC 2022
+-- Generated from CurseForge on Tue Apr 12 18:47:37 UTC 2022
 local ns = select(2, ...) ---@type ns @The addon namespace.
 
 if ns:IsSameLocale("koKR") then
