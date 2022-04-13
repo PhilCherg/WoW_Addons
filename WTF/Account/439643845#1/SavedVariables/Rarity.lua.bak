@@ -41,7 +41,7 @@ RarityDB = {
 	["profiles"] = {
 		["Default"] = {
 			["blankLineAfterRarity"] = true,
-			["trackedItem"] = 185996,
+			["trackedItem"] = 86547,
 			["groups"] = {
 				["pets"] = {
 					["Black Chitinous Plate"] = {
@@ -603,20 +603,20 @@ RarityDB = {
 					["Giant Sewer Rat"] = {
 						["time"] = 152.618999999997,
 						["dates"] = {
+							[20201222] = {
+								["attempts"] = 19,
+							},
 							[20200919] = {
 								["time"] = 70.04299999999785,
 								["attempts"] = 4,
-							},
-							[20200922] = {
-								["time"] = 1,
-								["attempts"] = 1,
 							},
 							[20200815] = {
 								["time"] = 81.57599999999911,
 								["attempts"] = 4,
 							},
-							[20201222] = {
-								["attempts"] = 19,
+							[20200922] = {
+								["time"] = 1,
+								["attempts"] = 1,
 							},
 						},
 						["attempts"] = 28,
@@ -1858,11 +1858,11 @@ RarityDB = {
 							[20210113] = {
 								["time"] = 2,
 							},
-							[20210426] = {
+							[20210111] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
-							[20201223] = {
+							[20210426] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
@@ -1870,7 +1870,7 @@ RarityDB = {
 								["time"] = 2,
 								["attempts"] = 1,
 							},
-							[20210111] = {
+							[20201223] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
@@ -2149,13 +2149,22 @@ RarityDB = {
 						["found"] = true,
 						["lastTime"] = 2,
 					},
-					["Silvershell Snapper"] = {
+					["Necrofin Tadpole"] = {
+						["known"] = true,
+						["attempts"] = 2,
+						["enabled"] = false,
+						["found"] = true,
+						["time"] = 2,
 						["dates"] = {
-							[20220219] = {
+							[20201011] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20210909] = {
+								["time"] = 1,
 								["attempts"] = 1,
 							},
 						},
-						["attempts"] = 1,
 					},
 					["Lord Woofington"] = {
 						["lastAttempts"] = 13,
@@ -2188,13 +2197,48 @@ RarityDB = {
 						["totalFinds"] = 1,
 						["found"] = true,
 					},
-					["Cinderweb Egg"] = {
-						["enabled"] = false,
-						["known"] = true,
-						["found"] = true,
+					["Chitterspine Needler"] = {
+						["time"] = 2,
+						["dates"] = {
+							[20210204] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20210916] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+						},
+						["attempts"] = 2,
 					},
 					["Droplet of Y'Shaarj"] = {
 						["attempts"] = 18,
+					},
+					["Golden Eye"] = {
+						["time"] = 5,
+						["dates"] = {
+							[20210930] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20210922] = {
+								["time"] = 1,
+								["attempts"] = 2,
+							},
+							[20210715] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20210718] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20210722] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+						},
+						["attempts"] = 6,
 					},
 					["Nerubian Relic"] = {
 						["lastAttempts"] = 1,
@@ -2222,44 +2266,19 @@ RarityDB = {
 						["found"] = true,
 						["lastTime"] = 1,
 					},
-					["Red Helper Box"] = {
-						["known"] = true,
-						["enabled"] = false,
-						["found"] = true,
-					},
-					["Viscidus Globule"] = {
-						["lastAttempts"] = 2,
-						["known"] = true,
-						["finds"] = {
-							{
-								["num"] = 1,
-								["totalAttempts"] = 2,
-								["time"] = 2,
-								["totalTime"] = 2,
-								["attempts"] = 2,
-							}, -- [1]
-						},
-						["time"] = 2,
+					["Ominous Flame"] = {
+						["time"] = 12.73999999999978,
 						["dates"] = {
-							[20211020] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20211028] = {
-								["time"] = 1,
-								["attempts"] = 1,
+							[20210420] = {
+								["time"] = 12.73999999999978,
+								["attempts"] = 3,
 							},
 						},
-						["attempts"] = 2,
-						["enabled"] = false,
-						["realAttempts"] = 2,
-						["totalFinds"] = 1,
-						["found"] = true,
-						["lastTime"] = 2,
+						["attempts"] = 3,
 					},
-					["Syd the Squid"] = {
-						["known"] = true,
+					["Instant Arcane Sanctum Security Kit"] = {
 						["enabled"] = false,
+						["known"] = true,
 						["found"] = true,
 					},
 					["Torghast Lurker"] = {
@@ -2357,9 +2376,9 @@ RarityDB = {
 						},
 						["attempts"] = 3,
 					},
-					["Celestial Gift"] = {
-						["enabled"] = false,
+					["Red Helper Box"] = {
 						["known"] = true,
+						["enabled"] = false,
 						["found"] = true,
 					},
 					["Corrupted Nest Guardian"] = {
@@ -2489,14 +2508,18 @@ RarityDB = {
 							},
 						},
 					},
-					["Fragment of Anger"] = {
+					["Daggertooth Frenzy"] = {
 						["known"] = true,
-						["attempts"] = 1,
+						["attempts"] = 2,
 						["enabled"] = false,
 						["found"] = true,
-						["time"] = 1,
+						["time"] = 2,
 						["dates"] = {
-							[20200902] = {
+							[20200814] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20200822] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
@@ -2571,57 +2594,65 @@ RarityDB = {
 						["found"] = true,
 						["lastTime"] = 1,
 					},
-					["Sunscale Hatchling"] = {
+					["Wicked Lurker"] = {
+						["time"] = 2,
+						["dates"] = {
+							[20200903] = {
+								["attempts"] = 1,
+							},
+							[20201003] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20210623] = {
+								["attempts"] = 1,
+							},
+							[20220222] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+						},
+						["attempts"] = 4,
+					},
+					["Korthian Specimen"] = {
 						["known"] = true,
-						["attempts"] = 20,
+						["attempts"] = 9,
 						["enabled"] = false,
 						["found"] = true,
+						["time"] = 8,
 						["dates"] = {
-							[20200904] = {
-								["attempts"] = 4,
+							[20210831] = {
+								["time"] = 1,
+								["attempts"] = 1,
 							},
-							[20200814] = {
-								["attempts"] = 8,
+							[20211005] = {
+								["time"] = 1,
+								["attempts"] = 1,
 							},
-							[20200813] = {
+							[20210828] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20210704] = {
+								["time"] = 2,
 								["attempts"] = 2,
 							},
-							[20200906] = {
-								["attempts"] = 2,
-							},
-							[20200812] = {
+							[20210720] = {
 								["attempts"] = 1,
 							},
-							[20200905] = {
-								["attempts"] = 3,
-							},
-						},
-					},
-					["Golden Eye"] = {
-						["time"] = 5,
-						["dates"] = {
-							[20210930] = {
+							[20210903] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
-							[20210922] = {
-								["time"] = 1,
-								["attempts"] = 2,
-							},
-							[20210715] = {
+							[20210921] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
-							[20210718] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20210722] = {
+							[20210723] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
 						},
-						["attempts"] = 6,
 					},
 					["Undying Deathroach"] = {
 						["known"] = true,
@@ -2668,11 +2699,15 @@ RarityDB = {
 							},
 						},
 					},
-					["Void-Scarred Anubisath"] = {
-						["known"] = true,
-						["attempts"] = 4,
-						["enabled"] = false,
-						["found"] = true,
+					["Animated Tome"] = {
+						["time"] = 1,
+						["dates"] = {
+							[20210711] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+						},
+						["attempts"] = 1,
 					},
 					["Murgle"] = {
 						["time"] = 1,
@@ -2771,21 +2806,9 @@ RarityDB = {
 						},
 						["attempts"] = 1,
 					},
-					["Shadowy Pile of Bones"] = {
-						["lastAttempts"] = 6,
+					["Fractured Obsidian Claw"] = {
 						["known"] = true,
-						["finds"] = {
-							{
-								["time"] = 0,
-								["num"] = 1,
-								["totalAttempts"] = 6,
-								["attempts"] = 6,
-							}, -- [1]
-						},
-						["attempts"] = 6,
 						["enabled"] = false,
-						["realAttempts"] = 6,
-						["totalFinds"] = 1,
 						["found"] = true,
 					},
 					["Contained Essence of Dread"] = {
@@ -2871,38 +2894,10 @@ RarityDB = {
 							},
 						},
 					},
-					["Moon Moon"] = {
-						["lastAttempts"] = 3,
-						["known"] = true,
-						["finds"] = {
-							{
-								["num"] = 1,
-								["totalAttempts"] = 3,
-								["time"] = 90.34299999999985,
-								["totalTime"] = 90.34299999999985,
-								["attempts"] = 3,
-							}, -- [1]
-						},
-						["time"] = 90.34299999999985,
-						["dates"] = {
-							[20201107] = {
-								["attempts"] = 1,
-							},
-							[20210406] = {
-								["time"] = 89.34299999999985,
-								["attempts"] = 1,
-							},
-							[20210908] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-						},
-						["attempts"] = 3,
+					["Cinderweb Egg"] = {
 						["enabled"] = false,
-						["realAttempts"] = 3,
-						["totalFinds"] = 1,
+						["known"] = true,
 						["found"] = true,
-						["lastTime"] = 90.34299999999985,
 					},
 					["Lump of Coal"] = {
 						["lastAttempts"] = 49,
@@ -3279,29 +3274,43 @@ RarityDB = {
 						["totalFinds"] = 1,
 						["found"] = true,
 					},
-					["Voidwoven Cat Collar"] = {
-						["enabled"] = false,
+					["Viscidus Globule"] = {
+						["lastAttempts"] = 2,
 						["known"] = true,
+						["finds"] = {
+							{
+								["num"] = 1,
+								["totalAttempts"] = 2,
+								["time"] = 2,
+								["totalTime"] = 2,
+								["attempts"] = 2,
+							}, -- [1]
+						},
+						["time"] = 2,
+						["dates"] = {
+							[20211020] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20211028] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+						},
+						["attempts"] = 2,
+						["enabled"] = false,
+						["realAttempts"] = 2,
+						["totalFinds"] = 1,
 						["found"] = true,
+						["lastTime"] = 2,
 					},
 					["Sultry Grimoire"] = {
 						["enabled"] = false,
 						["known"] = true,
 						["found"] = true,
 					},
-					["Chitterspine Needler"] = {
-						["time"] = 2,
-						["dates"] = {
-							[20210204] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20210916] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-						},
-						["attempts"] = 2,
+					["Mawsworn Minion"] = {
+						["attempts"] = 4,
 					},
 					["Sandclaw Nestseeker"] = {
 						["time"] = 630.0799999999999,
@@ -3317,53 +3326,48 @@ RarityDB = {
 						},
 						["attempts"] = 51,
 					},
-					["Darkmoon Eye"] = {
+					["Snarling Butterfly Crate"] = {
+						["known"] = true,
+						["attempts"] = 9,
+						["enabled"] = false,
+						["found"] = true,
+						["time"] = 7,
 						["dates"] = {
-							[20210704] = {
-								["attempts"] = 1,
-							},
-							[20210908] = {
+							[20200821] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
-							[20210906] = {
+							[20200823] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
-							[20210907] = {
+							[20200902] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
-							[20210909] = {
-								["attempts"] = 1,
-							},
-							[20210910] = {
+							[20200903] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
-							[20210911] = {
+							[20200815] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
-							[20211003] = {
+							[20200816] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
-							[20210802] = {
+							[20200817] = {
+								["attempts"] = 1,
+							},
+							[20200813] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
-							[20211004] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20210801] = {
-								["time"] = 1,
+							[20200906] = {
 								["attempts"] = 1,
 							},
 						},
-						["attempts"] = 11,
-						["time"] = 9,
 					},
 					["Red-Hot Coal"] = {
 						["known"] = true,
@@ -3429,66 +3433,32 @@ RarityDB = {
 						},
 						["attempts"] = 10,
 					},
-					["Pygmy Direhorn"] = {
+					["Syd the Squid"] = {
 						["known"] = true,
-						["time"] = 134.8979999999974,
-						["dates"] = {
-							[20210421] = {
-								["time"] = 1,
-							},
-							[20201010] = {
-								["time"] = 5,
-							},
-							[20200828] = {
-								["time"] = 1,
-							},
-							[20210208] = {
-								["time"] = 127.8979999999974,
-							},
-						},
-						["attempts"] = 34,
 						["enabled"] = false,
 						["found"] = true,
 					},
-					["Korthian Specimen"] = {
+					["Mosscoated Hopper"] = {
+						["lastAttempts"] = 1,
 						["known"] = true,
-						["attempts"] = 9,
-						["enabled"] = false,
-						["found"] = true,
-						["time"] = 8,
+						["finds"] = {
+							{
+								["totalAttempts"] = 1,
+								["num"] = 1,
+								["time"] = 0,
+								["attempts"] = 1,
+							}, -- [1]
+						},
 						["dates"] = {
-							[20210831] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20211005] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20210828] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20210704] = {
-								["time"] = 2,
-								["attempts"] = 2,
-							},
-							[20210720] = {
-								["attempts"] = 1,
-							},
-							[20210903] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20210921] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20210723] = {
-								["time"] = 1,
+							[20210929] = {
 								["attempts"] = 1,
 							},
 						},
+						["attempts"] = 1,
+						["enabled"] = false,
+						["realAttempts"] = 1,
+						["totalFinds"] = 1,
+						["found"] = true,
 					},
 					["Aldrusian Sproutling"] = {
 						["time"] = 12,
@@ -3571,8 +3541,10 @@ RarityDB = {
 						},
 						["attempts"] = 22,
 					},
-					["Mawsworn Minion"] = {
-						["attempts"] = 4,
+					["Voidwoven Cat Collar"] = {
+						["enabled"] = false,
+						["known"] = true,
+						["found"] = true,
 					},
 					["Kunchong Hatchling"] = {
 						["enabled"] = false,
@@ -3608,10 +3580,13 @@ RarityDB = {
 							},
 						},
 					},
-					["Whistle of Chromatic Bone"] = {
-						["enabled"] = false,
-						["known"] = true,
-						["found"] = true,
+					["Silvershell Snapper"] = {
+						["dates"] = {
+							[20220219] = {
+								["attempts"] = 1,
+							},
+						},
+						["attempts"] = 1,
 					},
 					["Jar of Ashes"] = {
 						["lastAttempts"] = 16,
@@ -3676,51 +3651,111 @@ RarityDB = {
 						["found"] = true,
 						["lastTime"] = 13,
 					},
-					["Thundering Scale of Akunda"] = {
-						["attempts"] = 6,
-					},
-					["Ominous Flame"] = {
-						["time"] = 12.73999999999978,
+					["Sandkeep"] = {
+						["time"] = 3,
 						["dates"] = {
-							[20210420] = {
-								["time"] = 12.73999999999978,
+							[20210916] = {
+								["time"] = 3,
 								["attempts"] = 3,
 							},
 						},
 						["attempts"] = 3,
+					},
+					["Moon Moon"] = {
+						["lastAttempts"] = 3,
+						["known"] = true,
+						["finds"] = {
+							{
+								["num"] = 1,
+								["totalAttempts"] = 3,
+								["time"] = 90.34299999999985,
+								["totalTime"] = 90.34299999999985,
+								["attempts"] = 3,
+							}, -- [1]
+						},
+						["time"] = 90.34299999999985,
+						["dates"] = {
+							[20201107] = {
+								["attempts"] = 1,
+							},
+							[20210406] = {
+								["time"] = 89.34299999999985,
+								["attempts"] = 1,
+							},
+							[20210908] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+						},
+						["attempts"] = 3,
+						["enabled"] = false,
+						["realAttempts"] = 3,
+						["totalFinds"] = 1,
+						["found"] = true,
+						["lastTime"] = 90.34299999999985,
 					},
 					["Inky"] = {
 						["enabled"] = false,
 						["found"] = true,
 						["known"] = true,
 					},
-					["Spraybot 0D"] = {
-						["time"] = 2,
+					["Darkmoon Eye"] = {
 						["dates"] = {
-							[20220129] = {
+							[20210704] = {
+								["attempts"] = 1,
+							},
+							[20210908] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
-							[20220221] = {
+							[20210906] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20210907] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20210909] = {
+								["attempts"] = 1,
+							},
+							[20210910] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20210911] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20211003] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20210802] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20211004] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20210801] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
 						},
-						["attempts"] = 2,
+						["attempts"] = 11,
+						["time"] = 9,
 					},
-					["Crystal of the Void"] = {
-						["enabled"] = false,
-						["known"] = true,
-						["found"] = true,
+					["Dark Whelpling"] = {
+						["time"] = 1,
 						["dates"] = {
-							[20200826] = {
-								["attempts"] = 1,
-							},
-							[20200902] = {
+							[20201227] = {
+								["time"] = 1,
 								["attempts"] = 1,
 							},
 						},
-						["attempts"] = 2,
+						["attempts"] = 1,
 					},
 					["Phoenix Hatchling"] = {
 						["lastAttempts"] = 4,
@@ -4097,31 +4132,10 @@ RarityDB = {
 						["found"] = true,
 						["lastTime"] = 2,
 					},
-					["Octopode Fry"] = {
-						["dates"] = {
-							[20200904] = {
-								["attempts"] = 4,
-							},
-							[20200813] = {
-								["attempts"] = 2,
-							},
-							[20200814] = {
-								["attempts"] = 8,
-							},
-							[20220128] = {
-								["attempts"] = 2,
-							},
-							[20200906] = {
-								["attempts"] = 2,
-							},
-							[20200812] = {
-								["attempts"] = 1,
-							},
-							[20200905] = {
-								["attempts"] = 3,
-							},
-						},
-						["attempts"] = 22,
+					["Whistle of Chromatic Bone"] = {
+						["enabled"] = false,
+						["known"] = true,
+						["found"] = true,
 					},
 					["Irongrasp"] = {
 						["lastAttempts"] = 7,
@@ -4140,7 +4154,7 @@ RarityDB = {
 						["totalFinds"] = 1,
 						["found"] = true,
 					},
-					["Satyr Charm"] = {
+					["Smelly Gravestone"] = {
 						["lastAttempts"] = 3,
 						["known"] = true,
 						["finds"] = {
@@ -4154,17 +4168,15 @@ RarityDB = {
 						},
 						["time"] = 3,
 						["dates"] = {
-							[20211020] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20211017] = {
-								["attempts"] = 1,
-							},
-							[20211018] = {
-								["time"] = 1,
-							},
 							[20211028] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20211021] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20201106] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
@@ -4210,31 +4222,16 @@ RarityDB = {
 						["found"] = true,
 						["lastTime"] = 3,
 					},
-					["Grotesque Statue"] = {
-						["lastAttempts"] = 1,
+					["Eye of Inquisition"] = {
+						["enabled"] = false,
 						["known"] = true,
-						["finds"] = {
-							{
-								["num"] = 1,
-								["totalAttempts"] = 1,
-								["time"] = 1,
-								["totalTime"] = 1,
-								["attempts"] = 1,
-							}, -- [1]
-						},
-						["time"] = 1,
+						["found"] = true,
 						["dates"] = {
-							[20211021] = {
-								["time"] = 1,
-								["attempts"] = 1,
+							[20210426] = {
+								["attempts"] = 5,
 							},
 						},
-						["attempts"] = 1,
-						["enabled"] = false,
-						["realAttempts"] = 1,
-						["totalFinds"] = 1,
-						["found"] = true,
-						["lastTime"] = 1,
+						["attempts"] = 5,
 					},
 					["Violet Abyssal Eel"] = {
 						["enabled"] = false,
@@ -4246,89 +4243,61 @@ RarityDB = {
 						["enabled"] = false,
 						["found"] = true,
 					},
-					["Rotten Helper Box"] = {
-						["known"] = true,
-						["attempts"] = 23,
+					["Crystal of the Void"] = {
 						["enabled"] = false,
+						["known"] = true,
 						["found"] = true,
 						["dates"] = {
-							[20201224] = {
-								["attempts"] = 2,
-							},
-							[20201225] = {
-								["attempts"] = 2,
-							},
-							[20201226] = {
-								["attempts"] = 2,
-							},
-							[20201227] = {
-								["attempts"] = 2,
-							},
-							[20201229] = {
-								["attempts"] = 2,
-							},
-							[20201230] = {
-								["attempts"] = 2,
-							},
-							[20201231] = {
-								["attempts"] = 2,
-							},
-							[20210101] = {
+							[20200826] = {
 								["attempts"] = 1,
 							},
-							[20201218] = {
+							[20200902] = {
 								["attempts"] = 1,
 							},
-							[20201219] = {
+						},
+						["attempts"] = 2,
+					},
+					["Tower Deathroach"] = {
+						["known"] = true,
+						["attempts"] = 4,
+						["enabled"] = false,
+						["found"] = true,
+						["time"] = 4,
+						["dates"] = {
+							[20210109] = {
+								["time"] = 1,
 								["attempts"] = 1,
 							},
-							[20201220] = {
+							[20210426] = {
+								["time"] = 1,
 								["attempts"] = 1,
 							},
-							[20201221] = {
+							[20210112] = {
+								["time"] = 1,
 								["attempts"] = 1,
 							},
-							[20201222] = {
+							[20210825] = {
+								["time"] = 1,
 								["attempts"] = 1,
-							},
-							[20201223] = {
-								["attempts"] = 1,
-							},
-							[20201228] = {
-								["attempts"] = 2,
 							},
 						},
 					},
-					["Coldlight Surfrunner"] = {
+					["Mark of Flame"] = {
+						["known"] = true,
+						["attempts"] = 2,
+						["enabled"] = false,
+						["found"] = true,
+						["time"] = 2,
 						["dates"] = {
-							[20200904] = {
-								["attempts"] = 4,
-							},
-							[20200813] = {
-								["attempts"] = 2,
-							},
-							[20200814] = {
-								["attempts"] = 8,
-							},
-							[20220128] = {
-								["attempts"] = 2,
-							},
-							[20200906] = {
-								["attempts"] = 2,
-							},
-							[20200812] = {
+							[20200824] = {
+								["time"] = 1,
 								["attempts"] = 1,
 							},
 							[20200905] = {
-								["attempts"] = 3,
+								["time"] = 1,
+								["attempts"] = 1,
 							},
 						},
-						["attempts"] = 22,
-					},
-					["Elementium Back Plate"] = {
-						["known"] = true,
-						["enabled"] = false,
-						["found"] = true,
 					},
 					["Fel Lasher"] = {
 						["enabled"] = false,
@@ -4375,10 +4344,77 @@ RarityDB = {
 							},
 						},
 					},
-					["Zandalari Footslasher"] = {
+					["Grotesque Statue"] = {
+						["lastAttempts"] = 1,
+						["known"] = true,
+						["finds"] = {
+							{
+								["num"] = 1,
+								["totalAttempts"] = 1,
+								["time"] = 1,
+								["totalTime"] = 1,
+								["attempts"] = 1,
+							}, -- [1]
+						},
+						["time"] = 1,
+						["dates"] = {
+							[20211021] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+						},
+						["attempts"] = 1,
+						["enabled"] = false,
+						["realAttempts"] = 1,
+						["totalFinds"] = 1,
+						["found"] = true,
+						["lastTime"] = 1,
+					},
+					["Time-Locked Box"] = {
 						["enabled"] = false,
 						["known"] = true,
 						["found"] = true,
+					},
+					["Mr. Grubbs"] = {
+						["time"] = 6.461000000002969,
+						["dates"] = {
+							[20201030] = {
+								["time"] = 6.461000000002969,
+								["attempts"] = 6,
+							},
+						},
+						["attempts"] = 6,
+					},
+					["Elementium Back Plate"] = {
+						["known"] = true,
+						["enabled"] = false,
+						["found"] = true,
+					},
+					["Arachnoid Skitterbot"] = {
+						["time"] = 5,
+						["dates"] = {
+							[20210909] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20220221] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20220222] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20200814] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20220225] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+						},
+						["attempts"] = 5,
 					},
 					["Trapped Stonefiend"] = {
 						["enabled"] = false,
@@ -4393,88 +4429,6 @@ RarityDB = {
 						},
 						["attempts"] = 1,
 					},
-					["Bronze Proto-Whelp"] = {
-						["enabled"] = false,
-						["known"] = true,
-						["found"] = true,
-					},
-					["Muskflank Calfling"] = {
-						["known"] = true,
-						["attempts"] = 20,
-						["enabled"] = false,
-						["found"] = true,
-						["dates"] = {
-							[20200904] = {
-								["attempts"] = 4,
-							},
-							[20200814] = {
-								["attempts"] = 8,
-							},
-							[20200813] = {
-								["attempts"] = 2,
-							},
-							[20200906] = {
-								["attempts"] = 2,
-							},
-							[20200812] = {
-								["attempts"] = 1,
-							},
-							[20200905] = {
-								["attempts"] = 3,
-							},
-						},
-					},
-					["Tiny Fel Engine Key"] = {
-						["enabled"] = false,
-						["known"] = true,
-						["found"] = true,
-					},
-					["Everburning Treant"] = {
-						["lastAttempts"] = 6,
-						["known"] = true,
-						["finds"] = {
-							{
-								["num"] = 1,
-								["totalAttempts"] = 6,
-								["time"] = 6,
-								["totalTime"] = 6,
-								["attempts"] = 6,
-							}, -- [1]
-						},
-						["time"] = 6,
-						["dates"] = {
-							[20210420] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20210125] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20210908] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20210504] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20200903] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20210930] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-						},
-						["attempts"] = 6,
-						["enabled"] = false,
-						["realAttempts"] = 6,
-						["totalFinds"] = 1,
-						["found"] = true,
-						["lastTime"] = 6,
-					},
 					["Hollow Reed"] = {
 						["dates"] = {
 							[20210623] = {
@@ -4483,25 +4437,20 @@ RarityDB = {
 						},
 						["attempts"] = 1,
 					},
-					["Captured Firefly"] = {
-						["time"] = 1,
-						["dates"] = {
-							[20200825] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-						},
-						["attempts"] = 1,
+					["Zandalari Footslasher"] = {
+						["enabled"] = false,
+						["known"] = true,
+						["found"] = true,
 					},
 					["Putricide's Alchemy Supplies"] = {
 						["enabled"] = false,
 						["known"] = true,
 						["found"] = true,
 					},
-					["Animated Tome"] = {
+					["Devoured Wader"] = {
 						["time"] = 1,
 						["dates"] = {
-							[20210711] = {
+							[20220131] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
@@ -4524,38 +4473,12 @@ RarityDB = {
 							},
 						},
 					},
-					["Deathsting Scorpid"] = {
-						["lastAttempts"] = 13,
-						["known"] = true,
-						["finds"] = {
-							{
-								["time"] = 0,
-								["num"] = 1,
-								["totalAttempts"] = 13,
-								["attempts"] = 13,
-							}, -- [1]
-						},
-						["dates"] = {
-							[20200814] = {
-								["attempts"] = 8,
-							},
-							[20200812] = {
-								["attempts"] = 1,
-							},
-							[20200813] = {
-								["attempts"] = 2,
-							},
-							[20200904] = {
-								["attempts"] = 2,
-							},
-						},
-						["attempts"] = 13,
+					["Blighted Spore"] = {
 						["enabled"] = false,
-						["realAttempts"] = 13,
-						["totalFinds"] = 1,
+						["known"] = true,
 						["found"] = true,
 					},
-					["Toxic Wasteling"] = {
+					["Aqir Hivespawn"] = {
 						["known"] = true,
 						["enabled"] = false,
 						["found"] = true,
@@ -4610,30 +4533,7 @@ RarityDB = {
 						},
 						["attempts"] = 209,
 					},
-					["Overcomplicated Controller"] = {
-						["known"] = true,
-						["time"] = 3,
-						["dates"] = {
-							[20200822] = {
-								["attempts"] = 1,
-							},
-							[20200823] = {
-								["time"] = 1,
-							},
-							[20200902] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20200826] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-						},
-						["attempts"] = 3,
-						["enabled"] = false,
-						["found"] = true,
-					},
-					["Leatherwing Screecher"] = {
+					["Muskflank Calfling"] = {
 						["known"] = true,
 						["attempts"] = 20,
 						["enabled"] = false,
@@ -4659,40 +4559,92 @@ RarityDB = {
 							},
 						},
 					},
-					["Wicked Lurker"] = {
-						["time"] = 2,
+					["Deathsting Scorpid"] = {
+						["lastAttempts"] = 13,
+						["known"] = true,
+						["finds"] = {
+							{
+								["time"] = 0,
+								["num"] = 1,
+								["totalAttempts"] = 13,
+								["attempts"] = 13,
+							}, -- [1]
+						},
 						["dates"] = {
-							[20200903] = {
+							[20200814] = {
+								["attempts"] = 8,
+							},
+							[20200812] = {
 								["attempts"] = 1,
 							},
-							[20201003] = {
-								["time"] = 1,
-								["attempts"] = 1,
+							[20200813] = {
+								["attempts"] = 2,
 							},
-							[20210623] = {
-								["attempts"] = 1,
-							},
-							[20220222] = {
-								["time"] = 1,
-								["attempts"] = 1,
+							[20200904] = {
+								["attempts"] = 2,
 							},
 						},
-						["attempts"] = 4,
+						["attempts"] = 13,
+						["enabled"] = false,
+						["realAttempts"] = 13,
+						["totalFinds"] = 1,
+						["found"] = true,
+					},
+					["Mischievous Zephyr"] = {
+						["enabled"] = false,
+						["found"] = true,
+						["known"] = true,
 					},
 					["Ominous Pile of Snow"] = {
 						["enabled"] = false,
 						["known"] = true,
 						["found"] = true,
 					},
-					["Sandkeep"] = {
-						["time"] = 3,
+					["Everburning Treant"] = {
+						["lastAttempts"] = 6,
+						["known"] = true,
+						["finds"] = {
+							{
+								["num"] = 1,
+								["totalAttempts"] = 6,
+								["time"] = 6,
+								["totalTime"] = 6,
+								["attempts"] = 6,
+							}, -- [1]
+						},
+						["time"] = 6,
 						["dates"] = {
-							[20210916] = {
-								["time"] = 3,
-								["attempts"] = 3,
+							[20210420] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20210125] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20210908] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20210504] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20200903] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20210930] = {
+								["time"] = 1,
+								["attempts"] = 1,
 							},
 						},
-						["attempts"] = 3,
+						["attempts"] = 6,
+						["enabled"] = false,
+						["realAttempts"] = 6,
+						["totalFinds"] = 1,
+						["found"] = true,
+						["lastTime"] = 6,
 					},
 					["Thunderscale Whelpling"] = {
 						["known"] = true,
@@ -4782,15 +4734,31 @@ RarityDB = {
 							},
 						},
 					},
-					["Magnataur Hunting Horn"] = {
-						["time"] = 1,
+					["Leatherwing Screecher"] = {
+						["known"] = true,
+						["attempts"] = 20,
+						["enabled"] = false,
+						["found"] = true,
 						["dates"] = {
-							[20211029] = {
-								["time"] = 1,
+							[20200904] = {
+								["attempts"] = 4,
+							},
+							[20200814] = {
+								["attempts"] = 8,
+							},
+							[20200813] = {
+								["attempts"] = 2,
+							},
+							[20200906] = {
+								["attempts"] = 2,
+							},
+							[20200812] = {
 								["attempts"] = 1,
 							},
+							[20200905] = {
+								["attempts"] = 3,
+							},
 						},
-						["attempts"] = 1,
 					},
 					["Shadefeather Hatchling"] = {
 						["known"] = true,
@@ -4818,26 +4786,9 @@ RarityDB = {
 							},
 						},
 					},
-					["Mosscoated Hopper"] = {
-						["lastAttempts"] = 1,
+					["Toxic Wasteling"] = {
 						["known"] = true,
-						["finds"] = {
-							{
-								["totalAttempts"] = 1,
-								["num"] = 1,
-								["time"] = 0,
-								["attempts"] = 1,
-							}, -- [1]
-						},
-						["dates"] = {
-							[20210929] = {
-								["attempts"] = 1,
-							},
-						},
-						["attempts"] = 1,
 						["enabled"] = false,
-						["realAttempts"] = 1,
-						["totalFinds"] = 1,
 						["found"] = true,
 					},
 					["Parrot Cage (Hyacinth Macaw)"] = {
@@ -4895,18 +4846,14 @@ RarityDB = {
 						["enabled"] = false,
 						["found"] = true,
 					},
-					["Daggertooth Frenzy"] = {
+					["Fragment of Anger"] = {
 						["known"] = true,
-						["attempts"] = 2,
+						["attempts"] = 1,
 						["enabled"] = false,
 						["found"] = true,
-						["time"] = 2,
+						["time"] = 1,
 						["dates"] = {
-							[20200814] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20200822] = {
+							[20200902] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
@@ -4954,10 +4901,15 @@ RarityDB = {
 						["found"] = true,
 						["lastTime"] = 3,
 					},
-					["Blighted Spore"] = {
-						["enabled"] = false,
-						["known"] = true,
-						["found"] = true,
+					["Magnataur Hunting Horn"] = {
+						["time"] = 1,
+						["dates"] = {
+							[20211029] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+						},
+						["attempts"] = 1,
 					},
 					["Void Collar"] = {
 						["lastAttempts"] = 1,
@@ -5043,27 +4995,13 @@ RarityDB = {
 						["found"] = true,
 						["lastTime"] = 2,
 					},
-					["Mana-Warped Egg"] = {
+					["Eye of Corruption"] = {
 						["known"] = true,
-						["attempts"] = 2,
 						["enabled"] = false,
 						["found"] = true,
-						["time"] = 2,
-						["dates"] = {
-							[20200902] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20200919] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-						},
 					},
-					["Fractured Obsidian Claw"] = {
-						["known"] = true,
-						["enabled"] = false,
-						["found"] = true,
+					["Drudge Remains"] = {
+						["attempts"] = 2,
 					},
 					["Smoldering Treat"] = {
 						["enabled"] = false,
@@ -5094,83 +5032,58 @@ RarityDB = {
 						["enabled"] = false,
 						["found"] = true,
 					},
-					["Eye of Corruption"] = {
+					["Overcomplicated Controller"] = {
 						["known"] = true,
-						["enabled"] = false,
-						["found"] = true,
-					},
-					["Drudge Remains"] = {
-						["attempts"] = 2,
-					},
-					["Snarling Butterfly Crate"] = {
-						["known"] = true,
-						["attempts"] = 9,
-						["enabled"] = false,
-						["found"] = true,
-						["time"] = 7,
+						["time"] = 3,
 						["dates"] = {
-							[20200821] = {
-								["time"] = 1,
+							[20200822] = {
 								["attempts"] = 1,
 							},
 							[20200823] = {
 								["time"] = 1,
-								["attempts"] = 1,
 							},
 							[20200902] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
-							[20200903] = {
+							[20200826] = {
 								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20200815] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20200816] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20200817] = {
-								["attempts"] = 1,
-							},
-							[20200813] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20200906] = {
 								["attempts"] = 1,
 							},
 						},
+						["attempts"] = 3,
+						["enabled"] = false,
+						["found"] = true,
+					},
+					["Captured Firefly"] = {
+						["time"] = 1,
+						["dates"] = {
+							[20200825] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+						},
+						["attempts"] = 1,
+					},
+					["Spirit of the Spring"] = {
+						["enabled"] = false,
+						["known"] = true,
+						["found"] = true,
 					},
 					["Sludge Feeler"] = {
 						["attempts"] = 17,
 					},
-					["Necrofin Tadpole"] = {
-						["known"] = true,
-						["attempts"] = 2,
+					["Strand Crawler"] = {
 						["enabled"] = false,
+						["known"] = true,
 						["found"] = true,
-						["time"] = 2,
-						["dates"] = {
-							[20201011] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20210909] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-						},
 					},
 					["Gnashtooth"] = {
 						["enabled"] = false,
 						["known"] = true,
 						["found"] = true,
 					},
-					["Spirit of the Spring"] = {
+					["Tiny Fel Engine Key"] = {
 						["enabled"] = false,
 						["known"] = true,
 						["found"] = true,
@@ -5188,7 +5101,7 @@ RarityDB = {
 						},
 						["attempts"] = 2,
 					},
-					["Strand Crawler"] = {
+					["Bronze Proto-Whelp"] = {
 						["enabled"] = false,
 						["known"] = true,
 						["found"] = true,
@@ -5199,25 +5112,97 @@ RarityDB = {
 						["known"] = true,
 						["found"] = true,
 					},
-					["Mischievous Zephyr"] = {
-						["enabled"] = false,
-						["found"] = true,
-						["known"] = true,
-					},
-					["Aqir Hivespawn"] = {
-						["known"] = true,
-						["enabled"] = false,
-						["found"] = true,
-					},
-					["Devoured Wader"] = {
-						["time"] = 1,
+					["Ridgeback Piglet"] = {
+						["time"] = 5,
 						["dates"] = {
-							[20220131] = {
-								["time"] = 1,
+							[20220325] = {
+								["attempts"] = 1,
+							},
+							[20220409] = {
+								["time"] = 5,
 								["attempts"] = 1,
 							},
 						},
-						["attempts"] = 1,
+						["attempts"] = 2,
+					},
+					["Coldlight Surfrunner"] = {
+						["dates"] = {
+							[20200904] = {
+								["attempts"] = 4,
+							},
+							[20200813] = {
+								["attempts"] = 2,
+							},
+							[20200814] = {
+								["attempts"] = 8,
+							},
+							[20220128] = {
+								["attempts"] = 2,
+							},
+							[20200906] = {
+								["attempts"] = 2,
+							},
+							[20200812] = {
+								["attempts"] = 1,
+							},
+							[20200905] = {
+								["attempts"] = 3,
+							},
+						},
+						["attempts"] = 22,
+					},
+					["Rotten Helper Box"] = {
+						["known"] = true,
+						["attempts"] = 23,
+						["enabled"] = false,
+						["found"] = true,
+						["dates"] = {
+							[20201224] = {
+								["attempts"] = 2,
+							},
+							[20201225] = {
+								["attempts"] = 2,
+							},
+							[20201226] = {
+								["attempts"] = 2,
+							},
+							[20201227] = {
+								["attempts"] = 2,
+							},
+							[20201229] = {
+								["attempts"] = 2,
+							},
+							[20201230] = {
+								["attempts"] = 2,
+							},
+							[20201231] = {
+								["attempts"] = 2,
+							},
+							[20210101] = {
+								["attempts"] = 1,
+							},
+							[20201218] = {
+								["attempts"] = 1,
+							},
+							[20201219] = {
+								["attempts"] = 1,
+							},
+							[20201220] = {
+								["attempts"] = 1,
+							},
+							[20201221] = {
+								["attempts"] = 1,
+							},
+							[20201222] = {
+								["attempts"] = 1,
+							},
+							[20201223] = {
+								["attempts"] = 1,
+							},
+							[20201228] = {
+								["attempts"] = 2,
+							},
+						},
 					},
 					["Ji-Kun Hatchling"] = {
 						["lastAttempts"] = 8,
@@ -5290,23 +5275,75 @@ RarityDB = {
 						["found"] = true,
 						["lastTime"] = 12,
 					},
-					["Ridgeback Piglet"] = {
-						["time"] = 5,
+					["Satyr Charm"] = {
+						["lastAttempts"] = 3,
+						["known"] = true,
+						["finds"] = {
+							{
+								["num"] = 1,
+								["totalAttempts"] = 3,
+								["time"] = 3,
+								["totalTime"] = 3,
+								["attempts"] = 3,
+							}, -- [1]
+						},
+						["time"] = 3,
 						["dates"] = {
-							[20220325] = {
+							[20211020] = {
+								["time"] = 1,
 								["attempts"] = 1,
 							},
-							[20220409] = {
-								["time"] = 5,
+							[20211017] = {
+								["attempts"] = 1,
+							},
+							[20211018] = {
+								["time"] = 1,
+							},
+							[20211028] = {
+								["time"] = 1,
 								["attempts"] = 1,
 							},
 						},
+						["attempts"] = 3,
+						["enabled"] = false,
+						["realAttempts"] = 3,
+						["totalFinds"] = 1,
+						["found"] = true,
+						["lastTime"] = 3,
+					},
+					["Octopode Fry"] = {
+						["dates"] = {
+							[20200904] = {
+								["attempts"] = 4,
+							},
+							[20200813] = {
+								["attempts"] = 2,
+							},
+							[20200814] = {
+								["attempts"] = 8,
+							},
+							[20220128] = {
+								["attempts"] = 2,
+							},
+							[20200906] = {
+								["attempts"] = 2,
+							},
+							[20200812] = {
+								["attempts"] = 1,
+							},
+							[20200905] = {
+								["attempts"] = 3,
+							},
+						},
+						["attempts"] = 22,
+					},
+					["Gooey Sha-ling"] = {
 						["attempts"] = 2,
 					},
-					["Arachnoid Skitterbot"] = {
-						["time"] = 5,
+					["Spraybot 0D"] = {
+						["time"] = 2,
 						["dates"] = {
-							[20210909] = {
+							[20220129] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
@@ -5314,38 +5351,11 @@ RarityDB = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
-							[20220222] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20200814] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20220225] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
 						},
-						["attempts"] = 5,
-					},
-					["Gooey Sha-ling"] = {
 						["attempts"] = 2,
 					},
-					["Mr. Grubbs"] = {
-						["time"] = 6.461000000002969,
-						["dates"] = {
-							[20201030] = {
-								["time"] = 6.461000000002969,
-								["attempts"] = 6,
-							},
-						},
+					["Thundering Scale of Akunda"] = {
 						["attempts"] = 6,
-					},
-					["Time-Locked Box"] = {
-						["enabled"] = false,
-						["known"] = true,
-						["found"] = true,
 					},
 					["Hyjal Wisp"] = {
 						["enabled"] = false,
@@ -5365,47 +5375,16 @@ RarityDB = {
 						},
 						["attempts"] = 1,
 					},
-					["Mark of Flame"] = {
-						["known"] = true,
-						["attempts"] = 2,
-						["enabled"] = false,
-						["found"] = true,
-						["time"] = 2,
-						["dates"] = {
-							[20200824] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20200905] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-						},
-					},
-					["Tower Deathroach"] = {
+					["Void-Scarred Anubisath"] = {
 						["known"] = true,
 						["attempts"] = 4,
 						["enabled"] = false,
 						["found"] = true,
-						["time"] = 4,
-						["dates"] = {
-							[20210426] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20210825] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20210112] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20210109] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-						},
+					},
+					["Dusty Clutch of Eggs"] = {
+						["enabled"] = false,
+						["known"] = true,
+						["found"] = true,
 					},
 					["Odd Twilight Egg"] = {
 						["lastAttempts"] = 2,
@@ -5445,16 +5424,31 @@ RarityDB = {
 							},
 						},
 					},
-					["Eye of Inquisition"] = {
-						["enabled"] = false,
+					["Littlehoof"] = {
 						["known"] = true,
+						["attempts"] = 20,
+						["enabled"] = false,
 						["found"] = true,
 						["dates"] = {
-							[20210426] = {
-								["attempts"] = 5,
+							[20200904] = {
+								["attempts"] = 4,
+							},
+							[20200814] = {
+								["attempts"] = 8,
+							},
+							[20200813] = {
+								["attempts"] = 2,
+							},
+							[20200906] = {
+								["attempts"] = 2,
+							},
+							[20200812] = {
+								["attempts"] = 1,
+							},
+							[20200905] = {
+								["attempts"] = 3,
 							},
 						},
-						["attempts"] = 5,
 					},
 					["Severed Tentacle"] = {
 						["lastAttempts"] = 7,
@@ -5484,43 +5478,51 @@ RarityDB = {
 						["found"] = true,
 						["lastTime"] = 140.0169999999998,
 					},
-					["Smelly Gravestone"] = {
-						["lastAttempts"] = 3,
+					["Sunscale Hatchling"] = {
 						["known"] = true,
-						["finds"] = {
-							{
-								["num"] = 1,
-								["totalAttempts"] = 3,
-								["time"] = 3,
-								["totalTime"] = 3,
-								["attempts"] = 3,
-							}, -- [1]
-						},
-						["time"] = 3,
-						["dates"] = {
-							[20211028] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20211021] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20201106] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-						},
-						["attempts"] = 3,
+						["attempts"] = 20,
 						["enabled"] = false,
-						["realAttempts"] = 3,
-						["totalFinds"] = 1,
 						["found"] = true,
-						["lastTime"] = 3,
+						["dates"] = {
+							[20200904] = {
+								["attempts"] = 4,
+							},
+							[20200814] = {
+								["attempts"] = 8,
+							},
+							[20200813] = {
+								["attempts"] = 2,
+							},
+							[20200906] = {
+								["attempts"] = 2,
+							},
+							[20200812] = {
+								["attempts"] = 1,
+							},
+							[20200905] = {
+								["attempts"] = 3,
+							},
+						},
 					},
-					["Dusty Clutch of Eggs"] = {
-						["enabled"] = false,
+					["Pygmy Direhorn"] = {
 						["known"] = true,
+						["time"] = 134.8979999999974,
+						["dates"] = {
+							[20210421] = {
+								["time"] = 1,
+							},
+							[20201010] = {
+								["time"] = 5,
+							},
+							[20200828] = {
+								["time"] = 1,
+							},
+							[20210208] = {
+								["time"] = 127.8979999999974,
+							},
+						},
+						["attempts"] = 34,
+						["enabled"] = false,
 						["found"] = true,
 					},
 					["Remains of a Blood Beast"] = {
@@ -5533,19 +5535,38 @@ RarityDB = {
 						["found"] = true,
 						["known"] = true,
 					},
-					["Dark Whelpling"] = {
-						["time"] = 1,
+					["Mana-Warped Egg"] = {
+						["known"] = true,
+						["attempts"] = 2,
+						["enabled"] = false,
+						["found"] = true,
+						["time"] = 2,
 						["dates"] = {
-							[20201227] = {
+							[20200902] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20200919] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
 						},
-						["attempts"] = 1,
 					},
-					["Instant Arcane Sanctum Security Kit"] = {
-						["enabled"] = false,
+					["Shadowy Pile of Bones"] = {
+						["lastAttempts"] = 6,
 						["known"] = true,
+						["finds"] = {
+							{
+								["time"] = 0,
+								["num"] = 1,
+								["totalAttempts"] = 6,
+								["attempts"] = 6,
+							}, -- [1]
+						},
+						["attempts"] = 6,
+						["enabled"] = false,
+						["realAttempts"] = 6,
+						["totalFinds"] = 1,
 						["found"] = true,
 					},
 					["Imbued Jade Fragment"] = {
@@ -5592,31 +5613,10 @@ RarityDB = {
 						},
 						["attempts"] = 8,
 					},
-					["Littlehoof"] = {
-						["known"] = true,
-						["attempts"] = 20,
+					["Celestial Gift"] = {
 						["enabled"] = false,
+						["known"] = true,
 						["found"] = true,
-						["dates"] = {
-							[20200904] = {
-								["attempts"] = 4,
-							},
-							[20200814] = {
-								["attempts"] = 8,
-							},
-							[20200813] = {
-								["attempts"] = 2,
-							},
-							[20200906] = {
-								["attempts"] = 2,
-							},
-							[20200812] = {
-								["attempts"] = 1,
-							},
-							[20200905] = {
-								["attempts"] = 3,
-							},
-						},
 					},
 				},
 				["items"] = {
@@ -5754,7 +5754,7 @@ RarityDB = {
 						["known"] = true,
 					},
 					["Skyshard"] = {
-						["time"] = 5864.156000000013,
+						["time"] = 5870.156000000013,
 						["dates"] = {
 							[20200827] = {
 								["time"] = 837.3269999999998,
@@ -5805,13 +5805,17 @@ RarityDB = {
 								["time"] = 648.5279999999984,
 								["attempts"] = 12,
 							},
+							[20211229] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
 							[20220404] = {
 								["time"] = 4,
 								["attempts"] = 7,
 							},
-							[20211229] = {
-								["time"] = 1,
-								["attempts"] = 1,
+							[20220413] = {
+								["time"] = 6,
+								["attempts"] = 10,
 							},
 							[20201005] = {
 								["attempts"] = 8,
@@ -5844,7 +5848,7 @@ RarityDB = {
 								["attempts"] = 4,
 							},
 						},
-						["attempts"] = 460,
+						["attempts"] = 470,
 					},
 					["Overly Sensitive Void Spectacles"] = {
 						["lastAttempts"] = 2,
@@ -6739,16 +6743,8 @@ RarityDB = {
 						["enabled"] = false,
 					},
 					["Pristine Cloud Serpent Scale"] = {
-						["time"] = 4,
+						["time"] = 6,
 						["dates"] = {
-							[20210921] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20200922] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
 							[20210930] = {
 								["time"] = 1,
 								["attempts"] = 1,
@@ -6757,8 +6753,20 @@ RarityDB = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
+							[20220413] = {
+								["time"] = 2,
+								["attempts"] = 2,
+							},
+							[20200922] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20210921] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
 						},
-						["attempts"] = 4,
+						["attempts"] = 6,
 					},
 					["Odd Polished Stone"] = {
 						["time"] = 1,
@@ -7091,10 +7099,21 @@ RarityDB = {
 						},
 						["attempts"] = 1,
 					},
-					["Toy Weapon Set (Horde)"] = {
+					["Crashin' Thrashin' Mortar Controller"] = {
 						["known"] = true,
-						["found"] = true,
+						["attempts"] = 2,
 						["enabled"] = false,
+						["found"] = true,
+						["time"] = 1,
+						["dates"] = {
+							[20200903] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20200919] = {
+								["attempts"] = 1,
+							},
+						},
 					},
 					["Adamant Vaults Cell"] = {
 						["dates"] = {
@@ -7122,22 +7141,22 @@ RarityDB = {
 						["known"] = true,
 						["found"] = true,
 					},
-					["Mnemonic Attunement Pane"] = {
-						["time"] = 2,
-						["dates"] = {
-							[20210318] = {
-								["time"] = 1,
+					["Makaris's Satchel of Mines"] = {
+						["lastAttempts"] = 1,
+						["known"] = true,
+						["finds"] = {
+							{
+								["totalAttempts"] = 1,
+								["num"] = 1,
+								["time"] = 0,
 								["attempts"] = 1,
-							},
-							[20220203] = {
-								["attempts"] = 1,
-							},
-							[20210113] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
+							}, -- [1]
 						},
-						["attempts"] = 3,
+						["attempts"] = 1,
+						["enabled"] = false,
+						["realAttempts"] = 1,
+						["totalFinds"] = 1,
+						["found"] = true,
 					},
 					["Sira's Extra Cloak"] = {
 						["lastAttempts"] = 2,
@@ -7169,7 +7188,19 @@ RarityDB = {
 						["found"] = true,
 						["lastTime"] = 2,
 					},
-					["collapsed"] = true,
+					["Personal Ball and Chain"] = {
+						["enabled"] = false,
+						["known"] = true,
+						["found"] = true,
+						["time"] = 172.1400000000012,
+						["dates"] = {
+							[20210921] = {
+								["time"] = 172.1400000000012,
+								["attempts"] = 4,
+							},
+						},
+						["attempts"] = 4,
+					},
 					["Oomgut Ritual Drum"] = {
 						["dates"] = {
 							[20200904] = {
@@ -7227,13 +7258,22 @@ RarityDB = {
 						["found"] = true,
 						["lastTime"] = 1,
 					},
-					["Farwater Conch"] = {
+					["Mnemonic Attunement Pane"] = {
+						["time"] = 2,
 						["dates"] = {
-							[20211017] = {
+							[20210318] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20220203] = {
+								["attempts"] = 1,
+							},
+							[20210113] = {
+								["time"] = 1,
 								["attempts"] = 1,
 							},
 						},
-						["attempts"] = 1,
+						["attempts"] = 3,
 					},
 					["Chalice of Secrets"] = {
 						["time"] = 567.4960000000001,
@@ -7375,8 +7415,36 @@ RarityDB = {
 						["found"] = true,
 						["lastTime"] = 318.6120000000001,
 					},
-					["Red Wooden Sled"] = {
+					["Strange Goop"] = {
+						["enabled"] = false,
 						["known"] = true,
+						["found"] = true,
+					},
+					["Scroll of Storytelling"] = {
+						["known"] = true,
+						["found"] = true,
+						["enabled"] = false,
+					},
+					["Pilfered Sweeper"] = {
+						["enabled"] = false,
+						["known"] = true,
+						["found"] = true,
+					},
+					["Eternal Warrior's Sigil"] = {
+						["time"] = 1,
+						["dates"] = {
+							[20210420] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+						},
+						["attempts"] = 1,
+					},
+					["Crashin' Thrashin' Flyer Controller"] = {
+						["known"] = true,
+						["attempts"] = 23,
+						["enabled"] = false,
+						["found"] = true,
 						["dates"] = {
 							[20201224] = {
 								["attempts"] = 2,
@@ -7403,11 +7471,9 @@ RarityDB = {
 								["attempts"] = 1,
 							},
 							[20201218] = {
-								["time"] = 1,
 								["attempts"] = 1,
 							},
 							[20201219] = {
-								["time"] = 3,
 								["attempts"] = 1,
 							},
 							[20201220] = {
@@ -7426,35 +7492,6 @@ RarityDB = {
 								["attempts"] = 2,
 							},
 						},
-						["attempts"] = 23,
-						["enabled"] = false,
-						["found"] = true,
-						["time"] = 4,
-					},
-					["Scroll of Storytelling"] = {
-						["known"] = true,
-						["found"] = true,
-						["enabled"] = false,
-					},
-					["Holy Lightsphere"] = {
-						["enabled"] = false,
-						["known"] = true,
-						["found"] = true,
-					},
-					["Eternal Warrior's Sigil"] = {
-						["time"] = 1,
-						["dates"] = {
-							[20210420] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-						},
-						["attempts"] = 1,
-					},
-					["Eternal Kiln"] = {
-						["enabled"] = false,
-						["known"] = true,
-						["found"] = true,
 					},
 					["Shirakess Warning Sign"] = {
 						["time"] = 1,
@@ -7483,15 +7520,15 @@ RarityDB = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
+							[20210406] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
 							[20210908] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
 							[20211003] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20210406] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
@@ -7704,35 +7741,63 @@ RarityDB = {
 						["lastTime"] = 17.60400000000027,
 					},
 					["collapsedGroup"] = true,
-					["Xy'rath's Booby-Trapped Cache"] = {
-						["lastAttempts"] = 2,
+					["Crashin' Thrashin' Flamer Controller"] = {
+						["lastAttempts"] = 20,
 						["known"] = true,
 						["finds"] = {
 							{
+								["time"] = 0,
 								["num"] = 1,
-								["totalAttempts"] = 2,
-								["time"] = 2,
-								["totalTime"] = 2,
-								["attempts"] = 2,
+								["totalAttempts"] = 20,
+								["attempts"] = 20,
 							}, -- [1]
 						},
-						["time"] = 2,
 						["dates"] = {
-							[20220225] = {
-								["time"] = 1,
+							[20201224] = {
+								["attempts"] = 2,
+							},
+							[20201225] = {
+								["attempts"] = 2,
+							},
+							[20201226] = {
+								["attempts"] = 2,
+							},
+							[20201227] = {
+								["attempts"] = 2,
+							},
+							[20201229] = {
+								["attempts"] = 2,
+							},
+							[20201230] = {
+								["attempts"] = 2,
+							},
+							[20201218] = {
 								["attempts"] = 1,
 							},
-							[20220307] = {
-								["time"] = 1,
+							[20201219] = {
 								["attempts"] = 1,
+							},
+							[20201220] = {
+								["attempts"] = 1,
+							},
+							[20201221] = {
+								["attempts"] = 1,
+							},
+							[20201222] = {
+								["attempts"] = 1,
+							},
+							[20201223] = {
+								["attempts"] = 1,
+							},
+							[20201228] = {
+								["attempts"] = 2,
 							},
 						},
-						["attempts"] = 2,
+						["attempts"] = 20,
 						["enabled"] = false,
-						["realAttempts"] = 2,
+						["realAttempts"] = 20,
 						["totalFinds"] = 1,
 						["found"] = true,
-						["lastTime"] = 2,
 					},
 					["Gastropod Shell"] = {
 						["lastAttempts"] = 5,
@@ -8111,7 +8176,7 @@ RarityDB = {
 							},
 						},
 					},
-					["Faintly Glowing Flagon of Mead"] = {
+					["Holy Lightsphere"] = {
 						["enabled"] = false,
 						["known"] = true,
 						["found"] = true,
@@ -8129,15 +8194,44 @@ RarityDB = {
 						},
 						["attempts"] = 2,
 					},
-					["Red Conservatory Scroll"] = {
-						["enabled"] = false,
+					["Steward's First Feather"] = {
+						["lastAttempts"] = 3,
 						["known"] = true,
+						["finds"] = {
+							{
+								["num"] = 1,
+								["totalAttempts"] = 3,
+								["time"] = 2.627000000000408,
+								["totalTime"] = 2.627000000000408,
+								["attempts"] = 3,
+							}, -- [1]
+						},
+						["time"] = 2.627000000000408,
+						["dates"] = {
+							[20220131] = {
+								["attempts"] = 1,
+							},
+							[20220203] = {
+								["time"] = 2.627000000000408,
+								["attempts"] = 2,
+							},
+						},
+						["attempts"] = 3,
+						["enabled"] = false,
+						["realAttempts"] = 3,
+						["totalFinds"] = 1,
 						["found"] = true,
+						["lastTime"] = 2.627000000000408,
 					},
-					["Magic Monkey Banana"] = {
-						["enabled"] = false,
-						["known"] = true,
-						["found"] = true,
+					["Hell-Bent Bracers"] = {
+						["time"] = 1,
+						["dates"] = {
+							[20220220] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+						},
+						["attempts"] = 1,
 					},
 					["Zhevra Lounge Cushion"] = {
 						["known"] = true,
@@ -8208,347 +8302,6 @@ RarityDB = {
 						["known"] = true,
 						["found"] = true,
 					},
-					["All-Seeing Right Eye"] = {
-						["time"] = 2,
-						["dates"] = {
-							[20220220] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20220221] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-						},
-						["attempts"] = 2,
-					},
-					["Pilfered Sweeper"] = {
-						["enabled"] = false,
-						["known"] = true,
-						["found"] = true,
-					},
-					["Blight Boar Microphone"] = {
-						["time"] = 2,
-						["dates"] = {
-							[20201006] = {
-								["attempts"] = 1,
-							},
-							[20201102] = {
-								["time"] = 2,
-								["attempts"] = 2,
-							},
-						},
-						["attempts"] = 3,
-					},
-					["Time-Lost Figurine"] = {
-						["lastAttempts"] = 5,
-						["finds"] = {
-							{
-								["num"] = 1,
-								["totalAttempts"] = 5,
-								["time"] = 5,
-								["totalTime"] = 5,
-								["attempts"] = 5,
-							}, -- [1]
-						},
-						["time"] = 5,
-						["dates"] = {
-							[20201101] = {
-								["time"] = 5,
-								["attempts"] = 5,
-							},
-						},
-						["attempts"] = 5,
-						["enabled"] = false,
-						["realAttempts"] = 5,
-						["totalFinds"] = 1,
-						["found"] = true,
-						["lastTime"] = 5,
-					},
-					["Crashin' Thrashin' Flamer Controller"] = {
-						["lastAttempts"] = 20,
-						["known"] = true,
-						["finds"] = {
-							{
-								["time"] = 0,
-								["num"] = 1,
-								["totalAttempts"] = 20,
-								["attempts"] = 20,
-							}, -- [1]
-						},
-						["dates"] = {
-							[20201224] = {
-								["attempts"] = 2,
-							},
-							[20201225] = {
-								["attempts"] = 2,
-							},
-							[20201226] = {
-								["attempts"] = 2,
-							},
-							[20201227] = {
-								["attempts"] = 2,
-							},
-							[20201229] = {
-								["attempts"] = 2,
-							},
-							[20201230] = {
-								["attempts"] = 2,
-							},
-							[20201218] = {
-								["attempts"] = 1,
-							},
-							[20201219] = {
-								["attempts"] = 1,
-							},
-							[20201220] = {
-								["attempts"] = 1,
-							},
-							[20201221] = {
-								["attempts"] = 1,
-							},
-							[20201222] = {
-								["attempts"] = 1,
-							},
-							[20201223] = {
-								["attempts"] = 1,
-							},
-							[20201228] = {
-								["attempts"] = 2,
-							},
-						},
-						["attempts"] = 20,
-						["enabled"] = false,
-						["realAttempts"] = 20,
-						["totalFinds"] = 1,
-						["found"] = true,
-					},
-					["Crashin' Thrashin' Battleship)"] = {
-						["known"] = true,
-						["found"] = true,
-						["enabled"] = false,
-					},
-					["Small Corpsefly Egg"] = {
-						["lastAttempts"] = 22,
-						["finds"] = {
-							{
-								["num"] = 1,
-								["totalAttempts"] = 22,
-								["time"] = 22,
-								["totalTime"] = 22,
-								["attempts"] = 22,
-							}, -- [1]
-						},
-						["time"] = 22,
-						["dates"] = {
-							[20220207] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20220203] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20220219] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20220204] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20220220] = {
-								["time"] = 2,
-								["attempts"] = 2,
-							},
-							[20220208] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20220216] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20220129] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20220205] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20220221] = {
-								["time"] = 2,
-								["attempts"] = 2,
-							},
-							[20220209] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20220213] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20220217] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20220130] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20220206] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20220214] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20220218] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20220131] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20220201] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20220215] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-						},
-						["attempts"] = 22,
-						["enabled"] = false,
-						["realAttempts"] = 22,
-						["totalFinds"] = 1,
-						["found"] = true,
-						["lastTime"] = 22,
-					},
-					["Makaris's Satchel of Mines"] = {
-						["lastAttempts"] = 1,
-						["known"] = true,
-						["finds"] = {
-							{
-								["totalAttempts"] = 1,
-								["num"] = 1,
-								["time"] = 0,
-								["attempts"] = 1,
-							}, -- [1]
-						},
-						["attempts"] = 1,
-						["enabled"] = false,
-						["realAttempts"] = 1,
-						["totalFinds"] = 1,
-						["found"] = true,
-					},
-					["Steward's First Feather"] = {
-						["lastAttempts"] = 3,
-						["known"] = true,
-						["finds"] = {
-							{
-								["num"] = 1,
-								["totalAttempts"] = 3,
-								["time"] = 2.627000000000408,
-								["totalTime"] = 2.627000000000408,
-								["attempts"] = 3,
-							}, -- [1]
-						},
-						["time"] = 2.627000000000408,
-						["dates"] = {
-							[20220131] = {
-								["attempts"] = 1,
-							},
-							[20220203] = {
-								["time"] = 2.627000000000408,
-								["attempts"] = 2,
-							},
-						},
-						["attempts"] = 3,
-						["enabled"] = false,
-						["realAttempts"] = 3,
-						["totalFinds"] = 1,
-						["found"] = true,
-						["lastTime"] = 2.627000000000408,
-					},
-					["Malfunctioning Goliath Gauntlet"] = {
-						["lastAttempts"] = 1,
-						["known"] = true,
-						["finds"] = {
-							{
-								["num"] = 1,
-								["totalAttempts"] = 1,
-								["time"] = 1,
-								["totalTime"] = 1,
-								["attempts"] = 1,
-							}, -- [1]
-						},
-						["time"] = 1,
-						["dates"] = {
-							[20210619] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-						},
-						["attempts"] = 1,
-						["enabled"] = false,
-						["realAttempts"] = 1,
-						["totalFinds"] = 1,
-						["found"] = true,
-						["lastTime"] = 1,
-					},
-					["Bonestorm Top"] = {
-						["enabled"] = false,
-						["known"] = true,
-						["found"] = true,
-					},
-					["Bottled Tornado"] = {
-						["enabled"] = false,
-						["known"] = true,
-						["found"] = true,
-					},
-					["Molok Morion"] = {
-						["lastAttempts"] = 4,
-						["known"] = true,
-						["finds"] = {
-							{
-								["num"] = 1,
-								["totalAttempts"] = 4,
-								["time"] = 4,
-								["totalTime"] = 4,
-								["attempts"] = 4,
-							}, -- [1]
-						},
-						["time"] = 4,
-						["dates"] = {
-							[20210420] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20200919] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20200902] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20210125] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-						},
-						["attempts"] = 4,
-						["enabled"] = false,
-						["realAttempts"] = 4,
-						["totalFinds"] = 1,
-						["found"] = true,
-						["lastTime"] = 4,
-					},
 					["Highborne Memento"] = {
 						["time"] = 9,
 						["dates"] = {
@@ -8590,6 +8343,236 @@ RarityDB = {
 						},
 						["attempts"] = 11,
 					},
+					["Xy'rath's Booby-Trapped Cache"] = {
+						["lastAttempts"] = 2,
+						["known"] = true,
+						["finds"] = {
+							{
+								["num"] = 1,
+								["totalAttempts"] = 2,
+								["time"] = 2,
+								["totalTime"] = 2,
+								["attempts"] = 2,
+							}, -- [1]
+						},
+						["time"] = 2,
+						["dates"] = {
+							[20220225] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20220307] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+						},
+						["attempts"] = 2,
+						["enabled"] = false,
+						["realAttempts"] = 2,
+						["totalFinds"] = 1,
+						["found"] = true,
+						["lastTime"] = 2,
+					},
+					["Molok Morion"] = {
+						["lastAttempts"] = 4,
+						["known"] = true,
+						["finds"] = {
+							{
+								["num"] = 1,
+								["totalAttempts"] = 4,
+								["time"] = 4,
+								["totalTime"] = 4,
+								["attempts"] = 4,
+							}, -- [1]
+						},
+						["time"] = 4,
+						["dates"] = {
+							[20210420] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20200919] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20200902] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20210125] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+						},
+						["attempts"] = 4,
+						["enabled"] = false,
+						["realAttempts"] = 4,
+						["totalFinds"] = 1,
+						["found"] = true,
+						["lastTime"] = 4,
+					},
+					["Time-Lost Figurine"] = {
+						["lastAttempts"] = 5,
+						["finds"] = {
+							{
+								["num"] = 1,
+								["totalAttempts"] = 5,
+								["time"] = 5,
+								["totalTime"] = 5,
+								["attempts"] = 5,
+							}, -- [1]
+						},
+						["time"] = 5,
+						["dates"] = {
+							[20201101] = {
+								["time"] = 5,
+								["attempts"] = 5,
+							},
+						},
+						["attempts"] = 5,
+						["enabled"] = false,
+						["realAttempts"] = 5,
+						["totalFinds"] = 1,
+						["found"] = true,
+						["lastTime"] = 5,
+					},
+					["Faintly Glowing Flagon of Mead"] = {
+						["enabled"] = false,
+						["known"] = true,
+						["found"] = true,
+					},
+					["Crashin' Thrashin' Battleship)"] = {
+						["known"] = true,
+						["found"] = true,
+						["enabled"] = false,
+					},
+					["Infested Arachnid Casing"] = {
+						["lastAttempts"] = 1,
+						["known"] = true,
+						["finds"] = {
+							{
+								["num"] = 1,
+								["totalAttempts"] = 1,
+								["time"] = 1,
+								["totalTime"] = 1,
+								["attempts"] = 1,
+							}, -- [1]
+						},
+						["time"] = 1,
+						["dates"] = {
+							[20210701] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+						},
+						["attempts"] = 1,
+						["enabled"] = false,
+						["realAttempts"] = 1,
+						["totalFinds"] = 1,
+						["found"] = true,
+						["lastTime"] = 1,
+					},
+					["Bottled Shade Heart"] = {
+						["known"] = true,
+						["dates"] = {
+							[20210717] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+						},
+						["attempts"] = 1,
+						["enabled"] = false,
+						["found"] = true,
+						["time"] = 1,
+					},
+					["Zan-Tien Lasso"] = {
+						["time"] = 1925.810000000002,
+						["dates"] = {
+							[20210930] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20200923] = {
+								["attempts"] = 9,
+							},
+							[20220413] = {
+								["attempts"] = 2,
+							},
+							[20210921] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20200902] = {
+								["time"] = 1276.282000000003,
+								["attempts"] = 46,
+							},
+							[20220410] = {
+								["attempts"] = 11,
+							},
+							[20200922] = {
+								["time"] = 646.5279999999984,
+								["attempts"] = 8,
+							},
+							[20220404] = {
+								["time"] = 1,
+								["attempts"] = 2,
+							},
+						},
+						["attempts"] = 80,
+					},
+					["Malfunctioning Goliath Gauntlet"] = {
+						["lastAttempts"] = 1,
+						["known"] = true,
+						["finds"] = {
+							{
+								["num"] = 1,
+								["totalAttempts"] = 1,
+								["time"] = 1,
+								["totalTime"] = 1,
+								["attempts"] = 1,
+							}, -- [1]
+						},
+						["time"] = 1,
+						["dates"] = {
+							[20210619] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+						},
+						["attempts"] = 1,
+						["enabled"] = false,
+						["realAttempts"] = 1,
+						["totalFinds"] = 1,
+						["found"] = true,
+						["lastTime"] = 1,
+					},
+					["Bonestorm Top"] = {
+						["enabled"] = false,
+						["known"] = true,
+						["found"] = true,
+					},
+					["collapsed"] = true,
+					["Blight Boar Microphone"] = {
+						["time"] = 2,
+						["dates"] = {
+							[20201006] = {
+								["attempts"] = 1,
+							},
+							[20201102] = {
+								["time"] = 2,
+								["attempts"] = 2,
+							},
+						},
+						["attempts"] = 3,
+					},
+					["Farwater Conch"] = {
+						["dates"] = {
+							[20211017] = {
+								["attempts"] = 1,
+							},
+						},
+						["attempts"] = 1,
+					},
 					["Crashin' Thrashin' Juggernaught"] = {
 						["known"] = true,
 						["found"] = true,
@@ -8605,18 +8588,76 @@ RarityDB = {
 						},
 						["attempts"] = 1,
 					},
-					["Bottled Shade Heart"] = {
+					["The Pigskin"] = {
+						["lastAttempts"] = 29,
 						["known"] = true,
-						["dates"] = {
-							[20210717] = {
+						["finds"] = {
+							{
+								["num"] = 1,
+								["totalAttempts"] = 29,
 								["time"] = 1,
+								["totalTime"] = 1,
+								["attempts"] = 29,
+							}, -- [1]
+						},
+						["time"] = 1,
+						["dates"] = {
+							[20201224] = {
+								["attempts"] = 2,
+							},
+							[20201225] = {
+								["attempts"] = 2,
+							},
+							[20201226] = {
+								["attempts"] = 2,
+							},
+							[20201227] = {
+								["attempts"] = 2,
+							},
+							[20201229] = {
+								["attempts"] = 2,
+							},
+							[20201230] = {
+								["attempts"] = 2,
+							},
+							[20201231] = {
+								["attempts"] = 2,
+							},
+							[20201228] = {
+								["attempts"] = 2,
+							},
+							[20201221] = {
 								["attempts"] = 1,
 							},
+							[20201218] = {
+								["attempts"] = 1,
+							},
+							[20201219] = {
+								["attempts"] = 1,
+							},
+							[20201220] = {
+								["attempts"] = 1,
+							},
+							[20210101] = {
+								["attempts"] = 1,
+							},
+							[20201222] = {
+								["attempts"] = 1,
+							},
+							[20201223] = {
+								["attempts"] = 1,
+							},
+							[20211220] = {
+								["time"] = 1,
+								["attempts"] = 6,
+							},
 						},
-						["attempts"] = 1,
+						["attempts"] = 29,
 						["enabled"] = false,
+						["realAttempts"] = 29,
+						["totalFinds"] = 1,
 						["found"] = true,
-						["time"] = 1,
+						["lastTime"] = 1,
 					},
 					["Bad Mojo Banana"] = {
 						["lastAttempts"] = 20,
@@ -8727,23 +8768,24 @@ RarityDB = {
 						["found"] = true,
 						["enabled"] = false,
 					},
-					["Personal Ball and Chain"] = {
+					["Bottled Tornado"] = {
 						["enabled"] = false,
 						["known"] = true,
 						["found"] = true,
-						["time"] = 172.1400000000012,
+					},
+					["All-Seeing Right Eye"] = {
+						["time"] = 2,
 						["dates"] = {
-							[20210921] = {
-								["time"] = 172.1400000000012,
-								["attempts"] = 4,
+							[20220220] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20220221] = {
+								["time"] = 1,
+								["attempts"] = 1,
 							},
 						},
-						["attempts"] = 4,
-					},
-					["Strange Goop"] = {
-						["enabled"] = false,
-						["known"] = true,
-						["found"] = true,
+						["attempts"] = 2,
 					},
 					["Shadescale"] = {
 						["known"] = true,
@@ -8779,15 +8821,10 @@ RarityDB = {
 						},
 						["attempts"] = 106,
 					},
-					["Hell-Bent Bracers"] = {
-						["time"] = 1,
-						["dates"] = {
-							[20220220] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-						},
-						["attempts"] = 1,
+					["Magic Monkey Banana"] = {
+						["enabled"] = false,
+						["known"] = true,
+						["found"] = true,
 					},
 					["Battle Horn"] = {
 						["enabled"] = false,
@@ -8802,19 +8839,8 @@ RarityDB = {
 						},
 						["attempts"] = 1,
 					},
-					["The Pigskin"] = {
-						["lastAttempts"] = 29,
+					["Red Wooden Sled"] = {
 						["known"] = true,
-						["finds"] = {
-							{
-								["num"] = 1,
-								["totalAttempts"] = 29,
-								["time"] = 1,
-								["totalTime"] = 1,
-								["attempts"] = 29,
-							}, -- [1]
-						},
-						["time"] = 1,
 						["dates"] = {
 							[20201224] = {
 								["attempts"] = 2,
@@ -8837,22 +8863,21 @@ RarityDB = {
 							[20201231] = {
 								["attempts"] = 2,
 							},
-							[20201228] = {
-								["attempts"] = 2,
-							},
-							[20201221] = {
+							[20210101] = {
 								["attempts"] = 1,
 							},
 							[20201218] = {
+								["time"] = 1,
 								["attempts"] = 1,
 							},
 							[20201219] = {
+								["time"] = 3,
 								["attempts"] = 1,
 							},
 							[20201220] = {
 								["attempts"] = 1,
 							},
-							[20210101] = {
+							[20201221] = {
 								["attempts"] = 1,
 							},
 							[20201222] = {
@@ -8861,86 +8886,24 @@ RarityDB = {
 							[20201223] = {
 								["attempts"] = 1,
 							},
-							[20211220] = {
-								["time"] = 1,
-								["attempts"] = 6,
+							[20201228] = {
+								["attempts"] = 2,
 							},
 						},
-						["attempts"] = 29,
-						["enabled"] = false,
-						["realAttempts"] = 29,
-						["totalFinds"] = 1,
-						["found"] = true,
-						["lastTime"] = 1,
-					},
-					["Crashin' Thrashin' Mortar Controller"] = {
-						["known"] = true,
-						["attempts"] = 2,
-						["enabled"] = false,
-						["found"] = true,
-						["time"] = 1,
-						["dates"] = {
-							[20200903] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20200919] = {
-								["attempts"] = 1,
-							},
-						},
-					},
-					["Crashin' Thrashin' Flyer Controller"] = {
-						["known"] = true,
 						["attempts"] = 23,
 						["enabled"] = false,
 						["found"] = true,
-						["dates"] = {
-							[20201224] = {
-								["attempts"] = 2,
-							},
-							[20201225] = {
-								["attempts"] = 2,
-							},
-							[20201226] = {
-								["attempts"] = 2,
-							},
-							[20201227] = {
-								["attempts"] = 2,
-							},
-							[20201229] = {
-								["attempts"] = 2,
-							},
-							[20201230] = {
-								["attempts"] = 2,
-							},
-							[20201231] = {
-								["attempts"] = 2,
-							},
-							[20210101] = {
-								["attempts"] = 1,
-							},
-							[20201218] = {
-								["attempts"] = 1,
-							},
-							[20201219] = {
-								["attempts"] = 1,
-							},
-							[20201220] = {
-								["attempts"] = 1,
-							},
-							[20201221] = {
-								["attempts"] = 1,
-							},
-							[20201222] = {
-								["attempts"] = 1,
-							},
-							[20201223] = {
-								["attempts"] = 1,
-							},
-							[20201228] = {
-								["attempts"] = 2,
-							},
-						},
+						["time"] = 4,
+					},
+					["Toy Weapon Set (Horde)"] = {
+						["known"] = true,
+						["found"] = true,
+						["enabled"] = false,
+					},
+					["Red Conservatory Scroll"] = {
+						["enabled"] = false,
+						["known"] = true,
+						["found"] = true,
 					},
 					["Twiddle Twirler: Sentinel's Glaive"] = {
 						["lastAttempts"] = 10,
@@ -9050,37 +9013,10 @@ RarityDB = {
 						["found"] = true,
 						["lastTime"] = 4,
 					},
-					["Zan-Tien Lasso"] = {
-						["time"] = 1925.810000000002,
-						["dates"] = {
-							[20210930] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20200923] = {
-								["attempts"] = 9,
-							},
-							[20220410] = {
-								["attempts"] = 11,
-							},
-							[20200902] = {
-								["time"] = 1276.282000000003,
-								["attempts"] = 46,
-							},
-							[20210921] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20200922] = {
-								["time"] = 646.5279999999984,
-								["attempts"] = 8,
-							},
-							[20220404] = {
-								["time"] = 1,
-								["attempts"] = 2,
-							},
-						},
-						["attempts"] = 78,
+					["Eternal Kiln"] = {
+						["enabled"] = false,
+						["known"] = true,
+						["found"] = true,
 					},
 					["Aqua Jewel"] = {
 						["time"] = 61.59600000000501,
@@ -9092,31 +9028,106 @@ RarityDB = {
 						},
 						["attempts"] = 1,
 					},
-					["Infested Arachnid Casing"] = {
-						["lastAttempts"] = 1,
-						["known"] = true,
+					["Small Corpsefly Egg"] = {
+						["lastAttempts"] = 22,
 						["finds"] = {
 							{
 								["num"] = 1,
-								["totalAttempts"] = 1,
-								["time"] = 1,
-								["totalTime"] = 1,
-								["attempts"] = 1,
+								["totalAttempts"] = 22,
+								["time"] = 22,
+								["totalTime"] = 22,
+								["attempts"] = 22,
 							}, -- [1]
 						},
-						["time"] = 1,
+						["time"] = 22,
 						["dates"] = {
-							[20210701] = {
+							[20220207] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20220203] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20220219] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20220204] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20220220] = {
+								["time"] = 2,
+								["attempts"] = 2,
+							},
+							[20220208] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20220216] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20220129] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20220205] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20220221] = {
+								["time"] = 2,
+								["attempts"] = 2,
+							},
+							[20220209] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20220213] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20220217] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20220130] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20220206] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20220214] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20220218] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20220131] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20220201] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20220215] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
 						},
-						["attempts"] = 1,
+						["attempts"] = 22,
 						["enabled"] = false,
-						["realAttempts"] = 1,
+						["realAttempts"] = 22,
 						["totalFinds"] = 1,
 						["found"] = true,
-						["lastTime"] = 1,
+						["lastTime"] = 22,
 					},
 				},
 				["mounts"] = {
@@ -9469,13 +9480,13 @@ RarityDB = {
 							[20200903] = {
 								["time"] = 1,
 							},
+							[20210623] = {
+								["time"] = 1,
+							},
 							[20200824] = {
 								["time"] = 1,
 							},
 							[20200923] = {
-								["time"] = 1,
-							},
-							[20210623] = {
 								["time"] = 1,
 							},
 						},
@@ -10287,7 +10298,7 @@ RarityDB = {
 							[20201231] = {
 								["attempts"] = 1,
 							},
-							[20210123] = {
+							[20200826] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
@@ -10306,11 +10317,11 @@ RarityDB = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
-							[20200826] = {
+							[20201104] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
-							[20201104] = {
+							[20210123] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
@@ -10465,7 +10476,7 @@ RarityDB = {
 								["attempts"] = 1,
 							},
 							[20220413] = {
-								["attempts"] = 1,
+								["attempts"] = 2,
 							},
 							[20220324] = {
 								["time"] = 1,
@@ -10512,10 +10523,7 @@ RarityDB = {
 								["attempts"] = 1,
 							},
 						},
-						["session"] = {
-							["attempts"] = 1,
-						},
-						["attempts"] = 14,
+						["attempts"] = 15,
 					},
 					["Reins of the Infinite Timereaver"] = {
 						["time"] = 20621.679,
@@ -11934,8 +11942,12 @@ RarityDB = {
 						["found"] = true,
 					},
 					["Xinlao"] = {
-						["time"] = 3,
+						["time"] = 5,
 						["dates"] = {
+							[20220413] = {
+								["time"] = 2,
+								["attempts"] = 2,
+							},
 							[20210930] = {
 								["time"] = 1,
 								["attempts"] = 1,
@@ -11949,7 +11961,7 @@ RarityDB = {
 								["attempts"] = 1,
 							},
 						},
-						["attempts"] = 3,
+						["attempts"] = 5,
 					},
 					["Armored Bonehoof Tauralus"] = {
 						["time"] = 1,
@@ -12450,15 +12462,20 @@ RarityDB = {
 						["attempts"] = 26,
 					},
 					["Clutch of Ha-Li"] = {
+						["time"] = 1,
 						["dates"] = {
-							[20200922] = {
+							[20220413] = {
+								["time"] = 1,
 								["attempts"] = 1,
 							},
 							[20220404] = {
 								["attempts"] = 1,
 							},
+							[20200922] = {
+								["attempts"] = 1,
+							},
 						},
-						["attempts"] = 2,
+						["attempts"] = 3,
 					},
 					["Smoldering Egg of Millagazor"] = {
 						["known"] = true,
@@ -12738,7 +12755,7 @@ RarityDB = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
-							[20210830] = {
+							[20210421] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
@@ -12764,14 +12781,14 @@ RarityDB = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
-							[20210703] = {
+							[20210830] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
 							[20210426] = {
 								["attempts"] = 1,
 							},
-							[20210421] = {
+							[20210703] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
@@ -13506,11 +13523,11 @@ RarityDB = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
-							[20210923] = {
+							[20210916] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
-							[20210928] = {
+							[20210923] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
@@ -13526,7 +13543,7 @@ RarityDB = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
-							[20210916] = {
+							[20210928] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
@@ -13921,11 +13938,11 @@ RarityDB = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
-							[20220327] = {
+							[20220223] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
-							[20210922] = {
+							[20220327] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
@@ -13950,7 +13967,7 @@ RarityDB = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
-							[20220223] = {
+							[20210922] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
@@ -13989,17 +14006,21 @@ RarityDB = {
 						["lastTime"] = 1,
 					},
 					["Ren's Stalwart Hound"] = {
-						["time"] = 1,
+						["time"] = 2,
 						["dates"] = {
-							[20210921] = {
-								["attempts"] = 1,
+							[20220413] = {
+								["time"] = 1,
+								["attempts"] = 2,
 							},
 							[20220404] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
+							[20210921] = {
+								["attempts"] = 1,
+							},
 						},
-						["attempts"] = 2,
+						["attempts"] = 4,
 					},
 					["Ashenvale Chimaera"] = {
 						["lastAttempts"] = 0,
@@ -16532,7 +16553,7 @@ RarityDB = {
 						[8620] = 0,
 						[4653] = 0,
 						[8146] = 0,
-						[5558] = 0,
+						[1088] = 0,
 						[8147] = 0,
 						[9279] = 0,
 						[8148] = 0,
@@ -16562,7 +16583,7 @@ RarityDB = {
 						[13374] = 0,
 						[5557] = 0,
 						[8638] = 0,
-						[13592] = 0,
+						[5558] = 0,
 						[13593] = 0,
 						[5559] = 0,
 						[10928] = 0,
@@ -16581,7 +16602,7 @@ RarityDB = {
 						[5566] = 0,
 						[7924] = 0,
 						[5567] = 0,
-						[5572] = 0,
+						[13366] = 0,
 						[5568] = 0,
 						[13613] = 0,
 						[13614] = 0,
@@ -16590,11 +16611,11 @@ RarityDB = {
 						[13617] = 0,
 						[13364] = 0,
 						[13619] = 0,
-						[13620] = 0,
+						[5572] = 0,
 						[13618] = 0,
 						[8637] = 0,
 						[7923] = 0,
-						[13366] = 0,
+						[13620] = 0,
 						[8178] = 0,
 						[13372] = 0,
 						[1394] = 0,
@@ -16610,7 +16631,7 @@ RarityDB = {
 						[11986] = 0,
 						[5560] = 0,
 						[13594] = 0,
-						[1088] = 0,
+						[13592] = 0,
 						[13591] = 0,
 						[14404] = 0,
 						[10980] = 0,
@@ -16673,8 +16694,8 @@ RarityDB = {
 						[14138] = 0,
 						[14110] = 0,
 						[13374] = 0,
-						[15143] = 0,
-						[15142] = 0,
+						[13619] = 0,
+						[13618] = 0,
 						[5557] = 0,
 						[8638] = 0,
 						[5558] = 0,
@@ -16690,22 +16711,22 @@ RarityDB = {
 						[13602] = 0,
 						[13603] = 0,
 						[7924] = 0,
-						[13618] = 0,
+						[15142] = 0,
 						[15147] = 0,
 						[13616] = 0,
 						[13617] = 0,
 						[5572] = 0,
-						[13619] = 0,
-						[13364] = 0,
+						[13365] = 0,
+						[5571] = 0,
 						[13612] = 0,
 						[13613] = 0,
 						[13614] = 0,
 						[13615] = 0,
 						[5570] = 0,
 						[15141] = 0,
-						[5571] = 0,
-						[13365] = 0,
-						[15144] = 0,
+						[13364] = 0,
+						[15143] = 0,
+						[13366] = 0,
 						[15145] = 0,
 						[15146] = 0,
 						[7923] = 0,
@@ -16714,7 +16735,7 @@ RarityDB = {
 						[13372] = 0,
 						[13373] = 0,
 						[4687] = 0,
-						[13366] = 0,
+						[13620] = 0,
 						[4688] = 0,
 						[15140] = 0,
 						[13601] = 0,
@@ -16723,7 +16744,7 @@ RarityDB = {
 						[5559] = 0,
 						[14398] = 0,
 						[11986] = 0,
-						[13620] = 0,
+						[15144] = 0,
 						[6162] = 0,
 						[6161] = 0,
 						[10980] = 0,
@@ -16906,8 +16927,8 @@ RarityDB = {
 						[6162] = 0,
 						[9365] = 0,
 						[6161] = 0,
-						[15144] = 0,
-						[13364] = 0,
+						[13366] = 0,
+						[13618] = 0,
 						[4653] = 0,
 						[8146] = 0,
 						[8637] = 0,
@@ -16920,7 +16941,7 @@ RarityDB = {
 						[14458] = 0,
 						[5570] = 0,
 						[4688] = 0,
-						[5572] = 0,
+						[15144] = 0,
 						[8620] = 0,
 						[8621] = 0,
 						[8622] = 0,
@@ -16935,7 +16956,7 @@ RarityDB = {
 						[8631] = 0,
 						[4687] = 0,
 						[13601] = 0,
-						[13365] = 0,
+						[15143] = 0,
 						[8178] = 0,
 						[13614] = 0,
 						[5557] = 0,
@@ -16957,22 +16978,22 @@ RarityDB = {
 						[5565] = 0,
 						[13617] = 0,
 						[5566] = 0,
-						[13366] = 0,
-						[15143] = 0,
-						[5571] = 0,
+						[5572] = 0,
+						[13619] = 0,
+						[15142] = 0,
 						[13612] = 0,
 						[13613] = 0,
 						[5569] = 0,
 						[13615] = 0,
 						[13616] = 0,
 						[15141] = 0,
-						[13618] = 0,
-						[13619] = 0,
+						[13364] = 0,
+						[13365] = 0,
 						[13620] = 0,
 						[15145] = 0,
 						[15146] = 0,
 						[15147] = 0,
-						[15142] = 0,
+						[5571] = 0,
 						[7924] = 0,
 						[13372] = 0,
 						[13373] = 0,
@@ -17025,14 +17046,14 @@ RarityDB = {
 						[11896] = 0,
 						[14056] = 0,
 						[6162] = 0,
-						[13592] = 0,
-						[13366] = 0,
+						[1088] = 0,
+						[5572] = 0,
 						[8620] = 0,
 						[5557] = 0,
 						[10252] = 0,
 						[8638] = 0,
 						[9365] = 0,
-						[5558] = 0,
+						[13592] = 0,
 						[10930] = 0,
 						[12745] = 0,
 						[4653] = 0,
@@ -17041,7 +17062,7 @@ RarityDB = {
 						[8147] = 0,
 						[14109] = 0,
 						[8148] = 0,
-						[14128] = 0,
+						[13366] = 0,
 						[8149] = 0,
 						[4688] = 0,
 						[8150] = 0,
@@ -17067,7 +17088,7 @@ RarityDB = {
 						[5569] = 0,
 						[8637] = 0,
 						[13591] = 0,
-						[1088] = 0,
+						[5558] = 0,
 						[13593] = 0,
 						[5559] = 0,
 						[10928] = 0,
@@ -17082,7 +17103,7 @@ RarityDB = {
 						[5570] = 0,
 						[13618] = 0,
 						[5565] = 0,
-						[5572] = 0,
+						[14128] = 0,
 						[11957] = 0,
 						[11958] = 0,
 						[11959] = 0,
@@ -17479,9 +17500,9 @@ RarityDB = {
 						[6162] = 0,
 						[10980] = 0,
 						[9365] = 0,
-						[5558] = 0,
+						[1088] = 0,
 						[13591] = 0,
-						[13592] = 0,
+						[5558] = 0,
 						[4653] = 0,
 						[8146] = 0,
 						[5559] = 0,
@@ -17511,10 +17532,10 @@ RarityDB = {
 						[13614] = 0,
 						[5570] = 0,
 						[4688] = 0,
-						[13618] = 0,
+						[5571] = 0,
 						[8637] = 0,
 						[8638] = 0,
-						[1088] = 0,
+						[13592] = 0,
 						[13593] = 0,
 						[13594] = 0,
 						[10928] = 0,
@@ -17533,25 +17554,25 @@ RarityDB = {
 						[5566] = 0,
 						[8178] = 0,
 						[5567] = 0,
-						[13620] = 0,
+						[5572] = 0,
 						[13612] = 0,
 						[13613] = 0,
 						[5569] = 0,
 						[13615] = 0,
 						[13616] = 0,
 						[13617] = 0,
-						[13364] = 0,
+						[13618] = 0,
 						[13365] = 0,
-						[13366] = 0,
+						[13620] = 0,
 						[5568] = 0,
 						[1391] = 0,
 						[7923] = 0,
-						[5572] = 0,
+						[13366] = 0,
 						[7924] = 0,
 						[13372] = 0,
 						[13373] = 0,
 						[5576] = 0,
-						[5571] = 0,
+						[13364] = 0,
 						[5577] = 0,
 						[13374] = 0,
 						[14110] = 0,
@@ -17945,7 +17966,7 @@ RarityDB = {
 						[8631] = 0,
 						[14110] = 0,
 						[2869] = 0,
-						[14138] = 0,
+						[5577] = 0,
 						[13366] = 0,
 						[13614] = 0,
 						[8637] = 0,
@@ -17962,8 +17983,8 @@ RarityDB = {
 						[14109] = 0,
 						[13602] = 0,
 						[13603] = 0,
-						[5577] = 0,
-						[13618] = 0,
+						[4688] = 0,
+						[13364] = 0,
 						[5565] = 0,
 						[13374] = 0,
 						[5566] = 0,
@@ -17976,7 +17997,7 @@ RarityDB = {
 						[13615] = 0,
 						[5570] = 0,
 						[13617] = 0,
-						[5571] = 0,
+						[13618] = 0,
 						[13619] = 0,
 						[13620] = 0,
 						[7924] = 0,
@@ -17987,8 +18008,8 @@ RarityDB = {
 						[13372] = 0,
 						[13373] = 0,
 						[4687] = 0,
-						[13364] = 0,
-						[4688] = 0,
+						[5571] = 0,
+						[14138] = 0,
 						[13616] = 0,
 						[13612] = 0,
 						[13379] = 0,
@@ -18188,12 +18209,12 @@ RarityDB = {
 						[8637] = 0,
 						[4653] = 0,
 						[8146] = 0,
-						[8638] = 0,
+						[13591] = 0,
 						[8147] = 0,
-						[13594] = 0,
+						[5559] = 0,
 						[12745] = 0,
 						[14455] = 0,
-						[10929] = 0,
+						[5560] = 0,
 						[13600] = 0,
 						[14458] = 0,
 						[13616] = 0,
@@ -18213,16 +18234,16 @@ RarityDB = {
 						[8631] = 0,
 						[4687] = 0,
 						[13366] = 0,
-						[13619] = 0,
+						[13365] = 0,
 						[8178] = 0,
 						[13614] = 0,
 						[5557] = 0,
-						[13591] = 0,
+						[8638] = 0,
 						[5558] = 0,
 						[13593] = 0,
-						[5559] = 0,
+						[13594] = 0,
 						[10928] = 0,
-						[5560] = 0,
+						[10929] = 0,
 						[10930] = 0,
 						[10931] = 0,
 						[14107] = 0,
@@ -18235,22 +18256,22 @@ RarityDB = {
 						[5565] = 0,
 						[13617] = 0,
 						[5566] = 0,
-						[5572] = 0,
-						[13365] = 0,
-						[13618] = 0,
+						[15144] = 0,
+						[15143] = 0,
+						[5571] = 0,
 						[13612] = 0,
 						[13613] = 0,
 						[5569] = 0,
 						[13615] = 0,
 						[5570] = 0,
 						[15141] = 0,
-						[15142] = 0,
-						[15143] = 0,
-						[15144] = 0,
+						[13618] = 0,
+						[13619] = 0,
+						[5572] = 0,
 						[15145] = 0,
 						[15146] = 0,
 						[15147] = 0,
-						[5571] = 0,
+						[13364] = 0,
 						[7924] = 0,
 						[13372] = 0,
 						[13373] = 0,
@@ -18264,7 +18285,7 @@ RarityDB = {
 						[13592] = 0,
 						[14398] = 0,
 						[11986] = 0,
-						[13364] = 0,
+						[15142] = 0,
 						[2883] = 0,
 						[10977] = 0,
 						[10978] = 0,
@@ -18336,12 +18357,12 @@ RarityDB = {
 						[15145] = 0,
 						[1391] = 0,
 						[15143] = 0,
-						[13365] = 0,
+						[13620] = 0,
 						[15144] = 0,
 						[13616] = 0,
 						[13592] = 0,
 						[13594] = 0,
-						[13620] = 0,
+						[14130] = 0,
 						[14108] = 0,
 						[13600] = 0,
 						[13602] = 0,
@@ -18353,7 +18374,7 @@ RarityDB = {
 						[13614] = 0,
 						[15146] = 0,
 						[14128] = 0,
-						[14130] = 0,
+						[13365] = 0,
 						[15152] = 0,
 						[15154] = 0,
 						[8183] = 0,
@@ -18677,10 +18698,10 @@ RarityDB = {
 						[8630] = 0,
 						[8631] = 0,
 						[13374] = 0,
-						[15143] = 0,
-						[13618] = 0,
-						[7924] = 0,
+						[13365] = 0,
 						[13364] = 0,
+						[7924] = 0,
+						[13618] = 0,
 						[8637] = 0,
 						[13591] = 0,
 						[13592] = 0,
@@ -18701,17 +18722,17 @@ RarityDB = {
 						[13617] = 0,
 						[5566] = 0,
 						[15144] = 0,
-						[13365] = 0,
-						[15142] = 0,
+						[13619] = 0,
+						[5571] = 0,
 						[13612] = 0,
 						[13613] = 0,
 						[13614] = 0,
 						[13615] = 0,
 						[15140] = 0,
 						[15141] = 0,
-						[5571] = 0,
-						[13619] = 0,
-						[5572] = 0,
+						[15142] = 0,
+						[15143] = 0,
+						[13366] = 0,
 						[15145] = 0,
 						[15146] = 0,
 						[7923] = 0,
@@ -18720,7 +18741,7 @@ RarityDB = {
 						[13372] = 0,
 						[13373] = 0,
 						[4687] = 0,
-						[13366] = 0,
+						[13620] = 0,
 						[4688] = 0,
 						[5570] = 0,
 						[14110] = 0,
@@ -18729,7 +18750,7 @@ RarityDB = {
 						[13594] = 0,
 						[14398] = 0,
 						[11986] = 0,
-						[13620] = 0,
+						[5572] = 0,
 						[6161] = 0,
 						[6162] = 0,
 						[15172] = 0,
@@ -18766,8 +18787,8 @@ RarityDB = {
 						[6162] = 0,
 						[9365] = 0,
 						[6161] = 0,
-						[5572] = 0,
-						[13364] = 0,
+						[15144] = 0,
+						[5571] = 0,
 						[4653] = 0,
 						[8146] = 0,
 						[5557] = 0,
@@ -18780,7 +18801,7 @@ RarityDB = {
 						[14458] = 0,
 						[15140] = 0,
 						[4688] = 0,
-						[13366] = 0,
+						[5572] = 0,
 						[8620] = 0,
 						[8621] = 0,
 						[8622] = 0,
@@ -18795,7 +18816,7 @@ RarityDB = {
 						[8631] = 0,
 						[4687] = 0,
 						[13601] = 0,
-						[13365] = 0,
+						[15143] = 0,
 						[8178] = 0,
 						[13614] = 0,
 						[8637] = 0,
@@ -18817,22 +18838,22 @@ RarityDB = {
 						[5565] = 0,
 						[13617] = 0,
 						[5566] = 0,
-						[15144] = 0,
-						[15143] = 0,
-						[15142] = 0,
+						[13366] = 0,
+						[13619] = 0,
+						[13618] = 0,
 						[13612] = 0,
 						[13613] = 0,
 						[5569] = 0,
 						[13615] = 0,
 						[13616] = 0,
 						[15141] = 0,
-						[5571] = 0,
-						[13619] = 0,
+						[13364] = 0,
+						[13365] = 0,
 						[13620] = 0,
 						[15145] = 0,
 						[15146] = 0,
 						[15147] = 0,
-						[13618] = 0,
+						[15142] = 0,
 						[7924] = 0,
 						[13372] = 0,
 						[13373] = 0,
@@ -18883,8 +18904,8 @@ RarityDB = {
 						[6162] = 0,
 						[9365] = 0,
 						[6161] = 0,
-						[13620] = 0,
-						[13618] = 0,
+						[15144] = 0,
+						[13364] = 0,
 						[4653] = 0,
 						[8146] = 0,
 						[8637] = 0,
@@ -18897,7 +18918,7 @@ RarityDB = {
 						[14458] = 0,
 						[13616] = 0,
 						[4688] = 0,
-						[5572] = 0,
+						[13620] = 0,
 						[8620] = 0,
 						[8621] = 0,
 						[8622] = 0,
@@ -18912,7 +18933,7 @@ RarityDB = {
 						[8631] = 0,
 						[4687] = 0,
 						[13601] = 0,
-						[13365] = 0,
+						[15143] = 0,
 						[8178] = 0,
 						[5569] = 0,
 						[5557] = 0,
@@ -18934,22 +18955,22 @@ RarityDB = {
 						[5565] = 0,
 						[15141] = 0,
 						[5566] = 0,
-						[15144] = 0,
-						[15143] = 0,
-						[15142] = 0,
+						[5572] = 0,
+						[13619] = 0,
+						[5571] = 0,
 						[13612] = 0,
 						[13613] = 0,
 						[13614] = 0,
 						[13615] = 0,
 						[5570] = 0,
 						[13617] = 0,
-						[13364] = 0,
-						[13619] = 0,
+						[13618] = 0,
+						[13365] = 0,
 						[13366] = 0,
 						[15145] = 0,
 						[15146] = 0,
 						[15147] = 0,
-						[5571] = 0,
+						[15142] = 0,
 						[7924] = 0,
 						[13372] = 0,
 						[13373] = 0,
@@ -19197,10 +19218,10 @@ RarityDB = {
 						[8630] = 0,
 						[8631] = 0,
 						[13374] = 0,
-						[13619] = 0,
-						[15142] = 0,
-						[7924] = 0,
+						[13365] = 0,
 						[5571] = 0,
+						[7924] = 0,
+						[15142] = 0,
 						[8637] = 0,
 						[13591] = 0,
 						[13592] = 0,
@@ -19221,17 +19242,17 @@ RarityDB = {
 						[15141] = 0,
 						[5566] = 0,
 						[15144] = 0,
-						[13365] = 0,
-						[13364] = 0,
+						[15143] = 0,
+						[13618] = 0,
 						[13612] = 0,
 						[13613] = 0,
 						[13614] = 0,
 						[13615] = 0,
 						[5570] = 0,
 						[13617] = 0,
-						[13618] = 0,
-						[15143] = 0,
-						[13366] = 0,
+						[13364] = 0,
+						[13619] = 0,
+						[13620] = 0,
 						[15145] = 0,
 						[15146] = 0,
 						[7923] = 0,
@@ -19240,7 +19261,7 @@ RarityDB = {
 						[13372] = 0,
 						[13373] = 0,
 						[4687] = 0,
-						[13620] = 0,
+						[5572] = 0,
 						[4688] = 0,
 						[15140] = 0,
 						[13602] = 0,
@@ -19249,7 +19270,7 @@ RarityDB = {
 						[5559] = 0,
 						[14398] = 0,
 						[11986] = 0,
-						[5572] = 0,
+						[13366] = 0,
 						[6161] = 0,
 						[6162] = 0,
 						[10980] = 0,
@@ -19490,8 +19511,8 @@ RarityDB = {
 						[14138] = 0,
 						[14110] = 0,
 						[13374] = 0,
-						[13365] = 0,
-						[5571] = 0,
+						[15143] = 0,
+						[15142] = 0,
 						[5557] = 0,
 						[8638] = 0,
 						[5558] = 0,
@@ -19507,22 +19528,22 @@ RarityDB = {
 						[13602] = 0,
 						[13603] = 0,
 						[7924] = 0,
-						[15142] = 0,
+						[5571] = 0,
 						[15147] = 0,
 						[13616] = 0,
 						[13617] = 0,
 						[5572] = 0,
-						[15143] = 0,
-						[13618] = 0,
+						[13619] = 0,
+						[13364] = 0,
 						[13612] = 0,
 						[13613] = 0,
 						[13614] = 0,
 						[13615] = 0,
 						[5570] = 0,
 						[15141] = 0,
-						[13364] = 0,
-						[13619] = 0,
-						[13620] = 0,
+						[13618] = 0,
+						[13365] = 0,
+						[15144] = 0,
 						[15145] = 0,
 						[15146] = 0,
 						[7923] = 0,
@@ -19531,7 +19552,7 @@ RarityDB = {
 						[13372] = 0,
 						[13373] = 0,
 						[4687] = 0,
-						[15144] = 0,
+						[13366] = 0,
 						[4688] = 0,
 						[15140] = 0,
 						[13601] = 0,
@@ -19540,7 +19561,7 @@ RarityDB = {
 						[13594] = 0,
 						[14398] = 0,
 						[11986] = 0,
-						[13366] = 0,
+						[13620] = 0,
 						[6161] = 0,
 						[15172] = 0,
 						[10980] = 0,
@@ -19577,8 +19598,8 @@ RarityDB = {
 						[6162] = 0,
 						[9365] = 0,
 						[6161] = 0,
-						[13366] = 0,
-						[5571] = 0,
+						[5572] = 0,
+						[13364] = 0,
 						[4653] = 0,
 						[8146] = 0,
 						[8637] = 0,
@@ -19591,7 +19612,7 @@ RarityDB = {
 						[14458] = 0,
 						[15140] = 0,
 						[4688] = 0,
-						[13620] = 0,
+						[13366] = 0,
 						[8620] = 0,
 						[8621] = 0,
 						[8622] = 0,
@@ -19606,7 +19627,7 @@ RarityDB = {
 						[8631] = 0,
 						[4687] = 0,
 						[13601] = 0,
-						[15143] = 0,
+						[13365] = 0,
 						[8178] = 0,
 						[5569] = 0,
 						[5557] = 0,
@@ -19628,22 +19649,22 @@ RarityDB = {
 						[5565] = 0,
 						[15141] = 0,
 						[5566] = 0,
-						[5572] = 0,
-						[13365] = 0,
-						[13618] = 0,
+						[13620] = 0,
+						[13619] = 0,
+						[15142] = 0,
 						[13612] = 0,
 						[13613] = 0,
 						[13614] = 0,
 						[13615] = 0,
 						[5570] = 0,
 						[13617] = 0,
-						[13364] = 0,
-						[13619] = 0,
+						[5571] = 0,
+						[15143] = 0,
 						[15144] = 0,
 						[15145] = 0,
 						[15146] = 0,
 						[15147] = 0,
-						[15142] = 0,
+						[13618] = 0,
 						[7924] = 0,
 						[13372] = 0,
 						[13373] = 0,
@@ -19924,7 +19945,7 @@ RarityDB = {
 						[13602] = 0,
 						[13603] = 0,
 						[13614] = 0,
-						[5571] = 0,
+						[13364] = 0,
 						[5565] = 0,
 						[13365] = 0,
 						[5566] = 0,
@@ -19937,10 +19958,10 @@ RarityDB = {
 						[13615] = 0,
 						[13616] = 0,
 						[13617] = 0,
-						[13618] = 0,
+						[5571] = 0,
 						[13619] = 0,
 						[13366] = 0,
-						[13364] = 0,
+						[13618] = 0,
 						[5570] = 0,
 						[7923] = 0,
 						[5572] = 0,
@@ -20168,16 +20189,16 @@ RarityDB = {
 						[10977] = 0,
 						[9365] = 0,
 						[2883] = 0,
-						[15144] = 0,
+						[13620] = 0,
 						[5557] = 0,
 						[4653] = 0,
 						[8146] = 0,
-						[13591] = 0,
+						[8638] = 0,
 						[8147] = 0,
 						[5558] = 0,
 						[2869] = 0,
 						[14455] = 0,
-						[5560] = 0,
+						[10929] = 0,
 						[10930] = 0,
 						[14458] = 0,
 						[13600] = 0,
@@ -20196,17 +20217,17 @@ RarityDB = {
 						[8630] = 0,
 						[8631] = 0,
 						[13374] = 0,
-						[15143] = 0,
-						[15142] = 0,
+						[13619] = 0,
+						[13618] = 0,
 						[7924] = 0,
-						[13364] = 0,
+						[15142] = 0,
 						[8637] = 0,
-						[8638] = 0,
+						[13591] = 0,
 						[13592] = 0,
 						[13593] = 0,
-						[5559] = 0,
+						[13594] = 0,
 						[10928] = 0,
-						[10929] = 0,
+						[5560] = 0,
 						[9279] = 0,
 						[10931] = 0,
 						[14107] = 0,
@@ -20220,17 +20241,17 @@ RarityDB = {
 						[13617] = 0,
 						[5566] = 0,
 						[13366] = 0,
-						[13619] = 0,
-						[5571] = 0,
+						[13365] = 0,
+						[13364] = 0,
 						[13612] = 0,
 						[13613] = 0,
 						[5569] = 0,
 						[13615] = 0,
 						[15140] = 0,
 						[15141] = 0,
-						[13618] = 0,
-						[13365] = 0,
-						[13620] = 0,
+						[5571] = 0,
+						[15143] = 0,
+						[15144] = 0,
 						[15145] = 0,
 						[15146] = 0,
 						[7923] = 0,
@@ -20245,7 +20266,7 @@ RarityDB = {
 						[13602] = 0,
 						[13379] = 0,
 						[12745] = 0,
-						[13594] = 0,
+						[5559] = 0,
 						[14398] = 0,
 						[11986] = 0,
 						[6161] = 0,
@@ -20288,13 +20309,13 @@ RarityDB = {
 						[14056] = 0,
 						[10980] = 0,
 						[6161] = 0,
-						[5558] = 0,
+						[1088] = 0,
 						[8147] = 0,
 						[13374] = 0,
 						[10252] = 0,
 						[8638] = 0,
 						[9365] = 0,
-						[13592] = 0,
+						[5558] = 0,
 						[13594] = 0,
 						[2869] = 0,
 						[4653] = 0,
@@ -20329,7 +20350,7 @@ RarityDB = {
 						[5569] = 0,
 						[8637] = 0,
 						[13591] = 0,
-						[1088] = 0,
+						[13592] = 0,
 						[13593] = 0,
 						[5559] = 0,
 						[10928] = 0,
@@ -20357,7 +20378,7 @@ RarityDB = {
 						[13617] = 0,
 						[5571] = 0,
 						[14127] = 0,
-						[13620] = 0,
+						[5572] = 0,
 						[14129] = 0,
 						[14130] = 0,
 						[7923] = 0,
@@ -20368,7 +20389,7 @@ RarityDB = {
 						[4687] = 0,
 						[5566] = 0,
 						[4688] = 0,
-						[5572] = 0,
+						[14128] = 0,
 						[1391] = 0,
 						[13379] = 0,
 						[12745] = 0,
@@ -20377,7 +20398,7 @@ RarityDB = {
 						[11986] = 0,
 						[5557] = 0,
 						[8152] = 0,
-						[14128] = 0,
+						[13620] = 0,
 						[6162] = 0,
 						[12118] = 0,
 						[10228] = 0,
@@ -20586,9 +20607,9 @@ RarityDB = {
 						[6162] = 0,
 						[10980] = 0,
 						[9365] = 0,
+						[5558] = 0,
+						[13618] = 0,
 						[13592] = 0,
-						[5571] = 0,
-						[1088] = 0,
 						[4653] = 0,
 						[8146] = 0,
 						[5560] = 0,
@@ -20618,10 +20639,10 @@ RarityDB = {
 						[5569] = 0,
 						[13616] = 0,
 						[4688] = 0,
-						[13364] = 0,
+						[5571] = 0,
 						[5557] = 0,
 						[13591] = 0,
-						[5558] = 0,
+						[1088] = 0,
 						[13593] = 0,
 						[13594] = 0,
 						[10928] = 0,
@@ -20640,20 +20661,20 @@ RarityDB = {
 						[5566] = 0,
 						[8178] = 0,
 						[5567] = 0,
-						[5572] = 0,
+						[13620] = 0,
 						[13612] = 0,
 						[13613] = 0,
 						[13614] = 0,
 						[13615] = 0,
 						[5570] = 0,
 						[13617] = 0,
-						[13618] = 0,
+						[13364] = 0,
 						[13619] = 0,
-						[13366] = 0,
+						[5572] = 0,
 						[8637] = 0,
 						[8638] = 0,
 						[7923] = 0,
-						[13620] = 0,
+						[13366] = 0,
 						[7924] = 0,
 						[13372] = 0,
 						[13373] = 0,
@@ -20704,8 +20725,8 @@ RarityDB = {
 						[6162] = 0,
 						[9365] = 0,
 						[6161] = 0,
-						[5572] = 0,
-						[5571] = 0,
+						[13620] = 0,
+						[15142] = 0,
 						[4653] = 0,
 						[8146] = 0,
 						[8637] = 0,
@@ -20718,7 +20739,7 @@ RarityDB = {
 						[14458] = 0,
 						[15140] = 0,
 						[4688] = 0,
-						[15144] = 0,
+						[5572] = 0,
 						[8620] = 0,
 						[8621] = 0,
 						[8622] = 0,
@@ -20733,7 +20754,7 @@ RarityDB = {
 						[8631] = 0,
 						[4687] = 0,
 						[13601] = 0,
-						[13619] = 0,
+						[13365] = 0,
 						[8178] = 0,
 						[13614] = 0,
 						[5557] = 0,
@@ -20755,22 +20776,22 @@ RarityDB = {
 						[5565] = 0,
 						[15141] = 0,
 						[5566] = 0,
-						[13620] = 0,
-						[13365] = 0,
-						[13618] = 0,
+						[15144] = 0,
+						[15143] = 0,
+						[13364] = 0,
 						[13612] = 0,
 						[13613] = 0,
 						[5569] = 0,
 						[13615] = 0,
 						[5570] = 0,
 						[13617] = 0,
-						[15142] = 0,
-						[15143] = 0,
+						[5571] = 0,
+						[13619] = 0,
 						[13366] = 0,
 						[15145] = 0,
 						[15146] = 0,
 						[15147] = 0,
-						[13364] = 0,
+						[13618] = 0,
 						[7924] = 0,
 						[13372] = 0,
 						[13373] = 0,
@@ -20999,10 +21020,10 @@ RarityDB = {
 						[8630] = 0,
 						[8631] = 0,
 						[13374] = 0,
-						[13619] = 0,
-						[15142] = 0,
-						[7924] = 0,
+						[15143] = 0,
 						[5571] = 0,
+						[7924] = 0,
+						[15142] = 0,
 						[8637] = 0,
 						[13591] = 0,
 						[5558] = 0,
@@ -21023,17 +21044,17 @@ RarityDB = {
 						[13617] = 0,
 						[5566] = 0,
 						[5572] = 0,
-						[15143] = 0,
-						[13618] = 0,
+						[13365] = 0,
+						[13364] = 0,
 						[13612] = 0,
 						[13613] = 0,
 						[13614] = 0,
 						[13615] = 0,
 						[5570] = 0,
 						[15141] = 0,
-						[13364] = 0,
-						[13365] = 0,
-						[15144] = 0,
+						[13618] = 0,
+						[13619] = 0,
+						[13620] = 0,
 						[15145] = 0,
 						[15146] = 0,
 						[7923] = 0,
@@ -21042,7 +21063,7 @@ RarityDB = {
 						[13372] = 0,
 						[13373] = 0,
 						[4687] = 0,
-						[13620] = 0,
+						[13366] = 0,
 						[4688] = 0,
 						[15140] = 0,
 						[14110] = 0,
@@ -21051,7 +21072,7 @@ RarityDB = {
 						[5560] = 0,
 						[14398] = 0,
 						[11986] = 0,
-						[13366] = 0,
+						[15144] = 0,
 						[6161] = 0,
 						[15172] = 0,
 						[10980] = 0,
@@ -21093,7 +21114,7 @@ RarityDB = {
 						[5557] = 0,
 						[4653] = 0,
 						[8146] = 0,
-						[1088] = 0,
+						[13592] = 0,
 						[2883] = 0,
 						[10930] = 0,
 						[8148] = 0,
@@ -21123,7 +21144,7 @@ RarityDB = {
 						[13364] = 0,
 						[8637] = 0,
 						[13591] = 0,
-						[5558] = 0,
+						[1088] = 0,
 						[13593] = 0,
 						[5559] = 0,
 						[10928] = 0,
@@ -21170,7 +21191,7 @@ RarityDB = {
 						[14398] = 0,
 						[11986] = 0,
 						[13594] = 0,
-						[13592] = 0,
+						[5558] = 0,
 						[8638] = 0,
 						[8147] = 0,
 						[14404] = 0,
@@ -21384,8 +21405,8 @@ RarityDB = {
 						[14138] = 0,
 						[13602] = 0,
 						[13374] = 0,
-						[13619] = 0,
-						[13618] = 0,
+						[15143] = 0,
+						[13364] = 0,
 						[8637] = 0,
 						[8638] = 0,
 						[5558] = 0,
@@ -21401,22 +21422,22 @@ RarityDB = {
 						[14110] = 0,
 						[13603] = 0,
 						[7924] = 0,
-						[13364] = 0,
+						[13618] = 0,
 						[15147] = 0,
 						[5570] = 0,
 						[15141] = 0,
 						[5572] = 0,
-						[15143] = 0,
-						[15142] = 0,
+						[13365] = 0,
+						[5571] = 0,
 						[13612] = 0,
 						[13613] = 0,
 						[5569] = 0,
 						[13615] = 0,
 						[15140] = 0,
 						[13617] = 0,
-						[5571] = 0,
-						[13365] = 0,
-						[13366] = 0,
+						[15142] = 0,
+						[13619] = 0,
+						[15144] = 0,
 						[15145] = 0,
 						[15146] = 0,
 						[7923] = 0,
@@ -21425,7 +21446,7 @@ RarityDB = {
 						[13372] = 0,
 						[13373] = 0,
 						[4687] = 0,
-						[15144] = 0,
+						[13620] = 0,
 						[4688] = 0,
 						[13616] = 0,
 						[14109] = 0,
@@ -21434,7 +21455,7 @@ RarityDB = {
 						[13594] = 0,
 						[14398] = 0,
 						[11986] = 0,
-						[13620] = 0,
+						[13366] = 0,
 						[6162] = 0,
 						[10980] = 0,
 						[6797] = 0,
@@ -21450,7 +21471,7 @@ RarityDB = {
 				["relativePoint"] = "CENTER",
 				["y"] = -180.1148376464844,
 			},
-			["trackedGroup"] = "mounts",
+			["trackedGroup"] = "items",
 			["minimap"] = {
 				["minimapPos"] = 193.7607497651885,
 			},
