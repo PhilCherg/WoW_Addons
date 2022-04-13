@@ -1,5 +1,53 @@
 
 RematchSaved = {
+	[141046] = {
+		{
+			"BattlePet-0-000008EF02E8", -- [1]
+			1372, -- [2]
+			204, -- [3]
+			1380, -- [4]
+			1541, -- [5]
+		}, -- [1]
+		{
+			"BattlePet-0-0000096019FD", -- [1]
+			420, -- [2]
+			190, -- [3]
+			521, -- [4]
+			195, -- [5]
+		}, -- [2]
+		{
+			"BattlePet-0-0000072163D1", -- [1]
+			122, -- [2]
+			204, -- [3]
+			779, -- [4]
+			1721, -- [5]
+		}, -- [3]
+		["teamName"] = "Leana Darkwind",
+	},
+	[139489] = {
+		{
+			"BattlePet-0-000009756E4C", -- [1]
+			420, -- [2]
+			506, -- [3]
+			507, -- [4]
+			141, -- [5]
+		}, -- [1]
+		{
+			"BattlePet-0-000009756E4E", -- [1]
+			420, -- [2]
+			506, -- [3]
+			507, -- [4]
+			140, -- [5]
+		}, -- [2]
+		{
+			"BattlePet-0-00000AA48648", -- [1]
+			429, -- [2]
+			479, -- [3]
+			624, -- [4]
+			1145, -- [5]
+		}, -- [3]
+		["teamName"] = "Captain Hermes",
+	},
 }
 RematchSettings = {
 	["ScriptFilters"] = {
@@ -24,23 +72,27 @@ RematchSettings = {
 			"-- Pets with three or more attack types different than their pet type.\n\nlocal count = 0\nfor _,abilityID in ipairs(abilityList) do\n  local abilityType,noHints = select(7, C_PetBattles.GetAbilityInfoByID(abilityID) )\n  if not noHints and abilityType~=petType then\n    count = count + 1\n  end\nend\n\nreturn count>=3\n", -- [2]
 		}, -- [5]
 	},
+	["loadedTeam"] = 139489,
+	["XPos"] = 123.6385192871094,
+	["CollectionChartType"] = 7,
+	["AutoLoad"] = true,
+	["SpecialSlots"] = {
+	},
 	["QueueSortOrder"] = 1,
-	["XPos"] = 676.50244140625,
+	["CustomScaleValue"] = 100,
 	["HidePetToast"] = true,
-	["FavoriteFilters"] = {
+	["QueueSanctuary"] = {
 	},
-	["Sort"] = {
-		["Order"] = 50,
-	},
+	["CollectionChartSources"] = false,
 	["AllowHiddenPetsDefaulted"] = true,
 	["BackupCount"] = 0,
 	["TeamGroups"] = {
 		{
-			"General", -- [1]
+			"WQ Fights", -- [1]
 			"Interface\\Icons\\PetJournalPortrait", -- [2]
 		}, -- [1]
 	},
-	["JournalPanel"] = 1,
+	["YPos"] = 388.0783081054688,
 	["Filters"] = {
 		["Other"] = {
 		},
@@ -73,23 +125,84 @@ RematchSettings = {
 	},
 	["ExpandedOptHeaders"] = {
 	},
+	["FavoriteFilters"] = {
+	},
 	["LevelingQueue"] = {
 	},
-	["CustomScaleValue"] = 100,
-	["SpecialSlots"] = {
+	["Sort"] = {
+		["Order"] = 50,
 	},
 	["ExpandedTargetHeaders"] = {
 	},
-	["PreferredMode"] = 1,
-	["ActivePanel"] = 1,
-	["Sanctuary"] = {
-	},
 	["ElvUIToastDefaulted"] = true,
+	["ActivePanel"] = 2,
+	["Sanctuary"] = {
+		["BattlePet-0-0000072163D1"] = {
+			1, -- [1]
+			true, -- [2]
+			1721, -- [3]
+			2, -- [4]
+			204, -- [5]
+			24, -- [6]
+			22, -- [7]
+			4, -- [8]
+		},
+		["BattlePet-0-000009756E4C"] = {
+			1, -- [1]
+			true, -- [2]
+			141, -- [3]
+			1, -- [4]
+			150, -- [5]
+			9, -- [6]
+			11, -- [7]
+			3, -- [8]
+		},
+		["BattlePet-0-0000096019FD"] = {
+			1, -- [1]
+			true, -- [2]
+			195, -- [3]
+			1, -- [4]
+			145, -- [5]
+			10, -- [6]
+			12, -- [7]
+			3, -- [8]
+		},
+		["BattlePet-0-000009756E4E"] = {
+			1, -- [1]
+			true, -- [2]
+			140, -- [3]
+			2, -- [4]
+			207, -- [5]
+			21, -- [6]
+			19, -- [7]
+			3, -- [8]
+		},
+		["BattlePet-0-000008EF02E8"] = {
+			1, -- [1]
+			true, -- [2]
+			1541, -- [3]
+			1, -- [4]
+			155, -- [5]
+			12, -- [6]
+			11, -- [7]
+			4, -- [8]
+		},
+		["BattlePet-0-00000AA48648"] = {
+			1, -- [1]
+			true, -- [2]
+			1145, -- [3]
+			1, -- [4]
+			152, -- [5]
+			10, -- [6]
+			13, -- [7]
+			4, -- [8]
+		},
+	},
+	["PreferredMode"] = 1,
 	["CornerPos"] = "BOTTOMLEFT",
 	["JournalUsed"] = true,
-	["QueueSanctuary"] = {
-	},
-	["YPos"] = 238.8450469970703,
+	["JournalPanel"] = 3,
+	["UseTypeBar"] = true,
 	["SelectedTab"] = 1,
 	["PetNotes"] = {
 	},

@@ -9,7 +9,7 @@ SoulshapeJournalDB = {
 		["Destruxia - Outland"] = "Destruxia - Outland",
 		["Shadroxia - Outland"] = "Shadroxia - Outland",
 		["Luminaxia - Outland"] = "Luminaxia - Outland",
-		["Serthaxion - Outland"] = "Serthaxion - Outland",
 		["Necrophagus - Outland"] = "Necrophagus - Outland",
+		["Serthaxion - Outland"] = "Serthaxion - Outland",
 	},
 }

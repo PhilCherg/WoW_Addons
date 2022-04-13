@@ -361,7 +361,7 @@ TomCats-Bundled-DeathsRising: enabled
 UnlimitedMapPinDistance: enabled
 WorldQuestTab: enabled
 DBM-Shadowlands: enabled
-Rematch: disabled
+Rematch: enabled
 Rematch_TSMPetValues: disabled
 TomCats-Bundled-DarkshoreRares: enabled
 BulkBuy: disabled

@@ -1,20 +1,23 @@
 # <DBM> World Bosses (Shadowlands)
 
-## [9.2.11](https://github.com/DeadlyBossMods/DBM-Retail/tree/9.2.11) (2022-04-04)
-[Full Changelog](https://github.com/DeadlyBossMods/DBM-Retail/compare/9.2.10...9.2.11) [Previous Releases](https://github.com/DeadlyBossMods/DBM-Retail/releases)
+## [9.2.13](https://github.com/DeadlyBossMods/DBM-Retail/tree/9.2.13) (2022-04-12)
+[Full Changelog](https://github.com/DeadlyBossMods/DBM-Retail/compare/9.2.12...9.2.13) [Previous Releases](https://github.com/DeadlyBossMods/DBM-Retail/releases)
 
-- prep new tags to get some core fixes out  
-- Fix a bug where having voice pack meant no DBM\_Announce callback would fire on special announcements (annoucements didn't have issue). This bug has existed since always but only got noticed because VEM was recently added as built in and on by default.  
-- Fix spam on soleah  
-- Move xymox to new timer table method  
-- move to new table lookup for anduin timer tables  
-- Update koKR (#94) Co-authored-by: Adam <MysticalOS@users.noreply.github.com>  
-- Moved jailer mod to new table lookup and cleaned up code slightly  
-- clipped m in there. that's why i hate code editor in dark mode. can't see :D  
-- move hal to new table lookup. also reformated table to match conventions of other mods  
-- New Timers Table Util, to handle nil's on dc/reload  
-- Fixed a lua error introduced by last jailer update (when i merged the two spellids back together to clean up code)  
-- Fix icon spam of biting wounds to actually use icon instead of looking like Quin's twitch chat.  
-- Change exposed core behavior to be more useful  
-- Lords of dread march 30th hotfixes, extend infiltration on normal (and assuming LFR as well)  
-- bump alpha revisions  
+- Update DBM-WorldEvents.toc (#750)  
+- fixed bug that caused tbc to flag every update as a new patch update (thus causing force update to run every update since patch 2.5.4. It's not intended behavior for the force to run every update, just for major patches. Also prep for new tags  
+- Fixed a bug where Titantic Insight was using wrong spell id and thus showing wrong spell name in options and alerts  
+- Update DBM-SanctumOfDomination.toc (#749)  
+- fix lua error when calling \"whereami\" command in a zone that has no map  
+- Peel back some of debug spam  
+- Remove this useless variable  
+- Add in some core debug  
+- note it so it doesn't happen again  
+- Fixed a logic regression that caused all regular announces to have no sounds unless they had voice pack sounds. apparently only one user out of hundreds f thousands noticed this in 3 weeks. 🤷‍♂️  
+- Fix something that slipped through last  
+- Remove useless stuff from antros  
+- apply antispam for good measure  
+- Add two more requests for Tazavesh trash.  
+- Fix missing spellid regististration on Lihuvim  
+- bump alpha  
+- prep new tbc tag for the ZA fix  
+- bump alpha  

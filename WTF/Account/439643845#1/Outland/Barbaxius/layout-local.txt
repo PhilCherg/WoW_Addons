@@ -1,11 +1,4 @@
 Version: 1
-Frame: MonkeySpeedFrame
-FrameLevel: 1
-Anchor: TOPRIGHT
-X: -307
-Y: -38
-W: 141
-H: 46
 Frame: AllTheThings-Window-CurrentInstance
 FrameLevel: 1
 Anchor: BOTTOMLEFT
@@ -20,6 +13,13 @@ X: -13
 Y: -1
 W: 235
 H: 802
+Frame: MonkeySpeedFrame
+FrameLevel: 1
+Anchor: TOPRIGHT
+X: -307
+Y: -38
+W: 141
+H: 46
 Frame: PlayerPowerBarAlt
 FrameLevel: 2
 Anchor: BOTTOM

@@ -1,42 +1,47 @@
 # AllTheThings
 
-## [SL-2.7.6](https://github.com/DFortun81/AllTheThings/tree/SL-2.7.6) (2022-04-03)
-[Full Changelog](https://github.com/DFortun81/AllTheThings/compare/SL-2.7.5...SL-2.7.6) [Previous Releases](https://github.com/DFortun81/AllTheThings/releases)
+## [SL-2.7.7](https://github.com/DFortun81/AllTheThings/tree/SL-2.7.7) (2022-04-10)
+[Full Changelog](https://github.com/DFortun81/AllTheThings/compare/SL-2.7.6...SL-2.7.7) [Previous Releases](https://github.com/DFortun81/AllTheThings/releases)
 
-- SourceID fixes and some Quest Fixes  
-- Few more #errors  
-- Adjusted some waypoint logic so that the directly clicked group will always be plotted, and nested inaccessible or saved content (not completed quest pre-requisites) will not be plotted  
-- Parser now uses a 'debugDBs' file to automatically create additional Debug DB JSON files based on the specified keys within the 'debugDBs' file, when running in Debug mode  
-- Updated the format of The Ruby Sanctum.  
-- Updated The Obsidian Sanctum and added instance information to the "Must Die!" quests.  
-- Updated the format of Naxxramas and the Eye of Eternity to account for timelines.  
-- Couple adjustments/#errors  
-- Added preliminary wrath phase ids to the Wrath Dungeons and made them all utilize root.  
-    Added mapID constants for all of the wrath dungeons and raids.  
-- Hippogryph Soul sourced  
-- Fixed an oddity in Recipe caching by including the ItemID as part of the caching Key if present (it's possible for the same Recipe to have different associated Items, and the order of caching either the Spell or Spell & Item led to incomplete tooltips on the opposite listing source)  
-- Raw Clone function now supports an existing table of data that will make it cleaner to support appending Type functionality onto an existing Type  
-    Recipe Type now derives from Spell Type for shared underlying functionality  
-    Added/cleaned Spell/Recipe caching logic  
-    Spells/Recipes will now properly show their Item link if they are associated to one (previously they would show the Spell Link first, then change to Item Link after another refresh... so weird!)  
-- Merge branch 'master' of https://github.com/DFortun81/AllTheThings  
-    # Conflicts:  
-    #	db/Categories.lua  
-- The Dragonwrath, Tarecgosa's Rest quest line no longer appears in the unphased version of The Nexus.  
-- Items Sourced explicitly as Recipes will now convert their associated spellID into a recipeID automatically, and be considered collectible based on the Recipes filter in-game (probably will change as mentioned before to some new 'Class Collectible' type  
-    Added Recipe filter to various Class-specific spells that can be learned, but stopped for now since the design will probably change to something more permanent/separate from Recipes in the future  
-- Quick pass through some #errors  
-    Tomes of Polymorph/Hex/etc. will need to be treated as 'Recipes' going forward to properly be treated as collectible 'spells' for the time being (potentially an alternate solution in the future for these 'unique' types of collectibles)  
-- Harvesting from wow.tools all missing quests compared to ATT db. Names are harvested from WoWhead  
-- Mojo doesn't get removed from game completely, it gets added back into the Heroic dungeon version of ZA.  
-- Adjusted costs for Playin' With Dolls.  
-- Updated the root function to properly handle different types of roots.  
-- Players that use Carbonite without TomTom no longer see fancy tooltips, but also no longer crash when plotting coordinates because TomTom.DefaultCallbacks is missing.  
-- Some more post chapter 7 "stay a while and listen" conversations  
-- Post chapter 7 quests that went live this week  
-- Couple data fixes  
-    Fixed some non-existent variables in the waypoint functionality  
-    Fixed not being able to plot specific visible, completed groups  
-- Fixed known Recipes which are no longer allowed to be crafted from being unlearned in ATT  
-    Fixed Recipes which are no longer allowed to be crafted from being used in reagent crafting tooltips once re-cached  
-- Added "removed with patch" data to ZA.  
+- Merge pull request #968 from DFortun81/auto\_localization  
+    Sync localization  
+- Sync localization  
+- Merge pull request #967 from DFortun81/auto\_localization  
+    Sync localization  
+- Sync localization  
+- --Update to creation catalyst and PvP  
+    --Various Error Fixes  
+- Knocked out a few quick #errors  
+- Consolidated some logic for showing content within creature tooltips (still haven't found the cause/reason that Infinite Timereaver shows up for some people without being in Timewalking...)  
+    While in Debug Mode, Show Completed Groups/Things now properly will hide both Completed/Empty Groups & Uncollectible Things respectively  
+    Fixed a situation where theoretically a trackable group with content could be completed but not visible with Show Trackable enabled  
+    Debug Mode no longer forces Show Trackable Things since groups are now properly visible based on the Default filter  
+- Adjusted Parser's object merging logic to only merge common data into objects which do not already contain the respective fields  
+    Fixed Cata ZA from showing as a Raid due to BC ZA  
+- Moving Azjol-Nerub quests to the instance.  
+- Marking Chefs faction specific in Hellfire.  
+- More Pocopoc QuestIDs  
+- -- Added Pocopocs but still missing 3 questIDs  
+    -- Symlink and deduplicated some PS materials  
+    -- Add all cosmetic cloaks  
+- Vestige of Origins added to Korthia vendor.  
+- Creation Catalyst should only contain unique sourceIDs with the rest being symlinked. The header is also moved to expansions features instead of Zereth Mortis.  
+- Note about Aspirant Eolis  
+- Some adjustments to Threads introduction quest sequences (many much breadcrumbs)  
+- Fixed Glimmer of Satisfaction in ZM  
+    Quest popouts which are started from Items that are not Sourced in ATT will now show a reference of the Item under the Quest Requirements header  
+    Popout lists can now plot coordinates from the header  
+- FP's in SotFO are not really collectible since they reset based on weekly raid progress  
+    Removed some excessive Genesis Motes in SotFO  
+    Cleaned up Pet Battle quests/rewards using simpler symlink tech and so the Item rewards have proper Sources  
+- Added a few more coords from Wowhead for Fedfennel (fixes #942)  
+- Fixed a map reference  
+- Improved the layout of some ZM treasures and required alcove interactions  
+    Big pass through #errors of quick fixes  
+- saering gorge recipe coords  
+- popocoppocpocpopcopooocoocopopo stuff  
+- Added some missing vendor items to Zangarmarsh for Classic TBC.  
+- wotlk timeline stuff for crieve  
+- added coordinates for some zone drops  
+- Some sorting and fixes  
+- Craftables (pre-cata) now properly use root.  
