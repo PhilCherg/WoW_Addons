@@ -2,7 +2,7 @@
 -- Copyright (c) 2022 by Ludicrous Speed, LLC
 -- All rights reserved.
 --
-local provider={name=...,data=3,region="tw",faction=2,date="2022-04-13T18:45:06Z",numCharacters=20025,db2={}}
+local provider={name=...,data=3,region="tw",faction=2,date="2022-04-14T18:43:55Z",numCharacters=19873,db2={}}
 local F
 
 F = function() provider.db2["巨龍之喉"]={0,"極陰乂魂噬"} end F()

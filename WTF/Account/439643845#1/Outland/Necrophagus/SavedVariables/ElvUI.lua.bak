@@ -2,1018 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"{rt2}6", -- [1]
-			"Lizhorn-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Lizhorn-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2417, -- [11]
-			"Player-1301-0B9CD051", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Lizhorn|r",
-			[51] = 1649880061,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [1]
-		{
-			"{rt1}5", -- [1]
-			"Littleree-Doomhammer", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Littleree-Doomhammer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2418, -- [11]
-			"Player-1402-07E68907", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaLittleree-Doomhammer|r",
-			[51] = 1649880062,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [2]
-		{
-			"{rt2}5", -- [1]
-			"Lizhorn-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Lizhorn-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2419, -- [11]
-			"Player-1301-0B9CD051", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Lizhorn|r",
-			[51] = 1649880062,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [3]
-		{
-			"{rt1}4", -- [1]
-			"Littleree-Doomhammer", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Littleree-Doomhammer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2420, -- [11]
-			"Player-1402-07E68907", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaLittleree-Doomhammer|r",
-			[51] = 1649880063,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [4]
-		{
-			"{rt2}4", -- [1]
-			"Lizhorn-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Lizhorn-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2421, -- [11]
-			"Player-1301-0B9CD051", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Lizhorn|r",
-			[51] = 1649880063,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [5]
-		{
-			"{rt1}3", -- [1]
-			"Littleree-Doomhammer", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Littleree-Doomhammer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2422, -- [11]
-			"Player-1402-07E68907", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaLittleree-Doomhammer|r",
-			[51] = 1649880064,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [6]
-		{
-			"{rt2}3", -- [1]
-			"Lizhorn-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Lizhorn-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2423, -- [11]
-			"Player-1301-0B9CD051", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Lizhorn|r",
-			[51] = 1649880064,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [7]
-		{
-			"{rt1}2", -- [1]
-			"Littleree-Doomhammer", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Littleree-Doomhammer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2424, -- [11]
-			"Player-1402-07E68907", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaLittleree-Doomhammer|r",
-			[51] = 1649880065,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [8]
-		{
-			"{rt2}2", -- [1]
-			"Lizhorn-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Lizhorn-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2425, -- [11]
-			"Player-1301-0B9CD051", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Lizhorn|r",
-			[51] = 1649880065,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [9]
-		{
-			"{rt1}1", -- [1]
-			"Littleree-Doomhammer", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Littleree-Doomhammer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2426, -- [11]
-			"Player-1402-07E68907", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaLittleree-Doomhammer|r",
-			[51] = 1649880066,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [10]
-		{
-			"{rt2}1", -- [1]
-			"Lizhorn-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Lizhorn-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2427, -- [11]
-			"Player-1301-0B9CD051", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Lizhorn|r",
-			[51] = 1649880066,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [11]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:4598:Player-1301-0C26735A:1:4:13:22:4294967295:4294967295:4294967295:4294967295|h[The Ashen Verdict]|h|r!", -- [1]
-			"Valsheres-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Valsheres-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2432, -- [11]
-			"Player-1301-0C26735A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edValsheres|r",
-			[51] = 1649880091,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [12]
-		{
-			"Wormhole 1 on {rt1}Totemgirl{rt1}", -- [1]
-			"Totemgirl-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Totemgirl-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2439, -- [11]
-			"Player-1301-0C0BB275", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcTotemgirl|r",
-			[51] = 1649880128,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [13]
-		{
-			"Wormhole 2 on {rt2}Darkosis{rt2}", -- [1]
-			"Darkosis-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Darkosis-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2440, -- [11]
-			"Player-1301-05EE51ED", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Darkosis|r",
-			[51] = 1649880128,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [14]
-		{
-			"{rt1}7", -- [1]
-			"Totemgirl-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Totemgirl-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2441, -- [11]
-			"Player-1301-0C0BB275", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcTotemgirl|r",
-			[51] = 1649880129,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [15]
-		{
-			"Stasis Trap on Necrophagus", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2442, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649880129,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [16]
-		{
-			"{rt1}6", -- [1]
-			"Totemgirl-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Totemgirl-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2443, -- [11]
-			"Player-1301-0C0BB275", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcTotemgirl|r",
-			[51] = 1649880130,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [17]
-		{
-			"{rt2}6", -- [1]
-			"Darkosis-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Darkosis-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2444, -- [11]
-			"Player-1301-05EE51ED", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Darkosis|r",
-			[51] = 1649880130,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [18]
-		{
-			"{rt1}5", -- [1]
-			"Totemgirl-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Totemgirl-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2447, -- [11]
-			"Player-1301-0C0BB275", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcTotemgirl|r",
-			[51] = 1649880131,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [19]
-		{
-			"{rt2}5", -- [1]
-			"Darkosis-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Darkosis-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2448, -- [11]
-			"Player-1301-05EE51ED", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Darkosis|r",
-			[51] = 1649880131,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [20]
-		{
-			"{rt1}4", -- [1]
-			"Totemgirl-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Totemgirl-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2449, -- [11]
-			"Player-1301-0C0BB275", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcTotemgirl|r",
-			[51] = 1649880132,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [21]
-		{
-			"{rt2}4", -- [1]
-			"Darkosis-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Darkosis-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2450, -- [11]
-			"Player-1301-05EE51ED", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Darkosis|r",
-			[51] = 1649880132,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [22]
-		{
-			"{rt2}3", -- [1]
-			"Darkosis-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Darkosis-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2451, -- [11]
-			"Player-1301-05EE51ED", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Darkosis|r",
-			[51] = 1649880133,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [23]
-		{
-			"{rt2}2", -- [1]
-			"Darkosis-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Darkosis-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2453, -- [11]
-			"Player-1301-05EE51ED", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Darkosis|r",
-			[51] = 1649880134,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [24]
-		{
-			"{rt1}1", -- [1]
-			"Totemgirl-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Totemgirl-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2454, -- [11]
-			"Player-1301-0C0BB275", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcTotemgirl|r",
-			[51] = 1649880135,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [25]
-		{
-			"{rt2}1", -- [1]
-			"Darkosis-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Darkosis-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2455, -- [11]
-			"Player-1301-05EE51ED", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Darkosis|r",
-			[51] = 1649880135,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [26]
-		{
-			"Glyph of Relocation on Lizhorn", -- [1]
-			"Lizhorn-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Lizhorn-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2461, -- [11]
-			"Player-1301-0B9CD051", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Lizhorn|r",
-			[51] = 1649880148,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [27]
-		{
-			"3", -- [1]
-			"Lizhorn-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Lizhorn-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2462, -- [11]
-			"Player-1301-0B9CD051", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Lizhorn|r",
-			[51] = 1649880150,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [28]
-		{
-			"2", -- [1]
-			"Lizhorn-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Lizhorn-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2463, -- [11]
-			"Player-1301-0B9CD051", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Lizhorn|r",
-			[51] = 1649880151,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [29]
-		{
-			"Stasis Trap on Jashinsama", -- [1]
-			"Jashinsama-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Jashinsama-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2466, -- [11]
-			"Player-1301-0BD39C09", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Jashinsama|r",
-			[51] = 1649880159,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [30]
-		{
-			"i pressed soul shape and it didn't activate :D", -- [1]
-			"Kronós-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kronós-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2470, -- [11]
-			"Player-1301-0BB8CFFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Kronós|r",
-			[51] = 1649880176,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [31]
-		{
-			"gg", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2487, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1649880214,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [32]
-		{
-			"pogu", -- [1]
-			"Misspicklés-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2488, -- [11]
-			"Player-1301-0BD2137F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Misspicklés|r",
-			[51] = 1649880215,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [33]
-		{
-			"grats", -- [1]
-			"Brucebrews-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2489, -- [11]
-			"Player-1301-0C02C264", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Brucebrews|r",
-			[51] = 1649880216,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [34]
-		{
-			"Rise", -- [1]
-			"Augustíne-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2490, -- [11]
-			"Player-1301-0C28DCDF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Augustíne|r",
-			[51] = 1649880227,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [35]
-		{
-			":(", -- [1]
-			"Jashinsama-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2497, -- [11]
-			"Player-1301-0BD39C09", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Jashinsama|r",
-			[51] = 1649880229,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [36]
-		{
-			"Where is my mod rank?", -- [1]
-			"Jashinsama-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2507, -- [11]
-			"Player-1301-0BD39C09", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Jashinsama|r",
-			[51] = 1649880233,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [37]
-		{
-			"Congratulations guys", -- [1]
-			"Locia-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2509, -- [11]
-			"Player-1301-0AD0B664", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edLocia|r",
-			[51] = 1649880238,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [38]
-		{
-			"GZ", -- [1]
-			"Lizhorn-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2512, -- [11]
-			"Player-1301-0B9CD051", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Lizhorn|r",
-			[51] = 1649880244,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [39]
-		{
-			"think you deserve it jash", -- [1]
-			"Brucebrews-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2513, -- [11]
-			"Player-1301-0C02C264", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Brucebrews|r",
-			[51] = 1649880252,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [40]
-		{
-			"Gz!", -- [1]
-			"Morbidmind-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2514, -- [11]
-			"Player-1301-085795E3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cMorbidmind|r",
-			[51] = 1649880256,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [41]
-		{
-			"|cffa335ee|Hitem:189825::::::::60:66::5:7:7188:6652:7578:8118:8138:1511:6646:1:28:2166:::::|h[Veiled Auctioneer's Vambraces]|h|r", -- [1]
-			"Lizhorn-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lizhorn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2515, -- [11]
-			"Player-1301-0B9CD051", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Lizhorn|r",
-			[51] = 1649880260,
-			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [42]
-		{
-			"read my note steve ^^", -- [1]
-			"Jashinsama-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2516, -- [11]
-			"Player-1301-0BD39C09", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Jashinsama|r",
-			[51] = 1649880272,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [43]
-		{
-			"cuuuute", -- [1]
-			"Brucebrews-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2518, -- [11]
-			"Player-1301-0C02C264", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Brucebrews|r",
-			[51] = 1649880299,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [44]
-		{
-			"have you seen mine? jaja", -- [1]
-			"Brucebrews-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2523, -- [11]
-			"Player-1301-0C02C264", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Brucebrews|r",
-			[51] = 1649880302,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [45]
-		{
-			"gz", -- [1]
-			"Itsfrost-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2525, -- [11]
-			"Player-1301-040A63C7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaItsfrost|r",
-			[51] = 1649880308,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [46]
-		{
 			"can i roll for vendor gold?", -- [1]
 			"Necrophagus-Outland", -- [2]
 			"", -- [3]
@@ -1034,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1649880342,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [47]
+		}, -- [1]
 		{
 			"sadge", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1056,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1649880352,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [48]
+		}, -- [2]
 		{
 			"fellas is this trinket any good |cffa335ee|Hitem:178861::::::::60:255::35:5:7786:7359:6652:1592:6646::::::|h[Decanter of Anima-Charged Winds]|h|r ?", -- [1]
 			"Doksan-Outland", -- [2]
@@ -1078,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Doksan|r",
 			[51] = 1649880356,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+		}, -- [3]
 		{
 			"wts |cffa335ee|Hitem:49286::::::::60:577::15::1:28:872:::::|h[X-51 Nether-Rocket X-TREME]|h|r ", -- [1]
 			"Skhmett-Outland", -- [2]
@@ -1100,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Skhmett|r",
 			[51] = 1649880366,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
+		}, -- [4]
 		{
 			"thanks all", -- [1]
 			"Totemgirl-Outland", -- [2]
@@ -1122,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcTotemgirl|r",
 			[51] = 1649880395,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [51]
+		}, -- [5]
 		{
 			"Thanks for the Raid", -- [1]
 			"Jashinsama-Outland", -- [2]
@@ -1144,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Jashinsama|r",
 			[51] = 1649880407,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [52]
+		}, -- [6]
 		{
 			"GREEN TEAM=BEST TEAM", -- [1]
 			"Kronós-Outland", -- [2]
@@ -1166,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Kronós|r",
 			[51] = 1649880420,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [53]
+		}, -- [7]
 		{
 			"thanks guys, gg!", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1188,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1649880424,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [54]
+		}, -- [8]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10784:Player-1301-08EE0858:1:4:13:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Darkheart Thicket]|h|r!", -- [1]
 			"Simoníds-Outland", -- [2]
@@ -1210,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Simoníds|r",
 			[51] = 1649880578,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [55]
+		}, -- [9]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12313:Player-1301-0C26735A:1:4:13:22:4294967295:4294967295:4294967295:4294967295|h[Unbroken]|h|r!", -- [1]
 			"Valsheres-Outland", -- [2]
@@ -1232,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edValsheres|r",
 			[51] = 1649880824,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [56]
+		}, -- [10]
 		{
 			"sure", -- [1]
 			"Aélynthi-Outland", -- [2]
@@ -1254,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Aélynthi|r",
 			[51] = 1649883495,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [57]
+		}, -- [11]
 		{
 			"if i was not in the middle of a quest i woud do it for free", -- [1]
 			"Monroè-Outland", -- [2]
@@ -1276,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMonroè|r",
 			[51] = 1649883529,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [58]
+		}, -- [12]
 		{
 			"WTS 262 Necks/Rings, your choice of stats and comes with 50% more flask Duration! /w for info. |cffa335ee|Hitem:173145::::::::60:250::13:2:7881:7917:3:9:60:28:2142:29:36::::Player-1301-0B27F711:|h[Masterful Phaedrum Necklace]|h|r for example.", -- [1]
 			"Sabreeze-Outland", -- [2]
@@ -1298,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Sabreeze|r",
 			[51] = 1649883535,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [13]
 		{
 			"any m+ gamers?", -- [1]
 			"Thaek-Outland", -- [2]
@@ -1320,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcThaek|r",
 			[51] = 1649883536,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [60]
+		}, -- [14]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12398:Player-1301-0C26735A:1:4:13:22:4294967295:4294967295:4294967295:4294967295|h[In His House He Waits Dreaming]|h|r!", -- [1]
 			"Valsheres-Outland", -- [2]
@@ -1342,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edValsheres|r",
 			[51] = 1649883541,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [61]
+		}, -- [15]
 		{
 			"free?!? D:", -- [1]
 			"Misspicklés-Outland", -- [2]
@@ -1364,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Misspicklés|r",
 			[51] = 1649883542,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [62]
+		}, -- [16]
 		{
 			"madness", -- [1]
 			"Misspicklés-Outland", -- [2]
@@ -1386,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Misspicklés|r",
 			[51] = 1649883547,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [63]
+		}, -- [17]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12385:Player-1301-0C26735A:1:4:13:22:4294967295:4294967295:4294967295:4294967295|h[Three Lights in the Darkness]|h|r!", -- [1]
 			"Valsheres-Outland", -- [2]
@@ -1408,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edValsheres|r",
 			[51] = 1649880000,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [64]
+		}, -- [18]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12395:Player-1301-0C26735A:1:4:13:22:4294967295:4294967295:4294967295:4294967295|h[Drive Me Crazy]|h|r!", -- [1]
 			"Valsheres-Outland", -- [2]
@@ -1430,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edValsheres|r",
 			[51] = 1649880000,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [65]
+		}, -- [19]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10804:Player-1301-0C0AB5A0:1:4:13:22:4294967295:4294967295:4294967295:4294967295|h[Black Rook Hold]|h|r!", -- [1]
 			"Gingiisdom-Outland", -- [2]
@@ -1452,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Gingiisdom|r",
 			[51] = 1649880008,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [66]
+		}, -- [20]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10805:Player-1301-0C0AB5A0:1:4:13:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Black Rook Hold]|h|r!", -- [1]
 			"Gingiisdom-Outland", -- [2]
@@ -1474,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Gingiisdom|r",
 			[51] = 1649880008,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [67]
+		}, -- [21]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:4476:Player-1301-0C0AB5A0:1:4:13:22:4294967295:4294967295:4294967295:4294967295|h[Looking For More]|h|r!", -- [1]
 			"Gingiisdom-Outland", -- [2]
@@ -1496,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Gingiisdom|r",
 			[51] = 1649880008,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [68]
+		}, -- [22]
 		{
 			"|cffa335ee|Hkeystone:180653:392:12:9:8:124:130|h[Keystone: Tazavesh: So'leah's Gambit (12)]|h|r 1 tank 1 heal 1 dps", -- [1]
 			"Mesra-Outland", -- [2]
@@ -1518,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Mesra|r",
 			[51] = 1649883727,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [69]
+		}, -- [23]
 		{
 			"deeps here", -- [1]
 			"Drahlum-Outland", -- [2]
@@ -1540,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Drahlum|r",
 			[51] = 1649883743,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [70]
+		}, -- [24]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10783:Player-1301-0C189668:1:4:14:22:4294967295:4294967295:4294967295:4294967295|h[Darkheart Thicket]|h|r!", -- [1]
 			"Jithalis-Outland", -- [2]
@@ -1562,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Jithalis|r",
 			[51] = 1649883751,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [71]
+		}, -- [25]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10784:Player-1301-0C189668:1:4:14:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Darkheart Thicket]|h|r!", -- [1]
 			"Jithalis-Outland", -- [2]
@@ -1584,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Jithalis|r",
 			[51] = 1649883751,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [72]
+		}, -- [26]
 		{
 			"can log my druid to tank if you want", -- [1]
 			"Drahlum-Outland", -- [2]
@@ -1606,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Drahlum|r",
 			[51] = 1649883755,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [73]
+		}, -- [27]
 		{
 			"Yea sure", -- [1]
 			"Mesra-Outland", -- [2]
@@ -1628,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Mesra|r",
 			[51] = 1649883768,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [74]
+		}, -- [28]
 		{
 			"LF JC", -- [1]
 			"Fritzi-Outland", -- [2]
@@ -1650,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Fritzi|r",
 			[51] = 1649883781,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [29]
 		{
 			"what is the haste cap on boomkin pvp?", -- [1]
 			"Moontrace-Outland", -- [2]
@@ -1672,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Moontrace|r",
 			[51] = 1649883868,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [30]
 		{
 			"Healer n dps |cffa335ee|Hkeystone:180653:392:12:9:8:124:130|h[Keystone: Tazavesh: So'leah's Gambit (12)]|h|r", -- [1]
 			"Mesra-Outland", -- [2]
@@ -1694,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Mesra|r",
 			[51] = 1649883891,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [77]
+		}, -- [31]
 		{
 			"tbc or lich king?", -- [1]
 			"Krebben-Outland", -- [2]
@@ -1716,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Krebben|r",
 			[51] = 1649883902,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [32]
 		{
 			"LF JC with 291 ring", -- [1]
 			"Fritzi-Outland", -- [2]
@@ -1738,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Fritzi|r",
 			[51] = 1649883922,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [33]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12399:Player-1301-0C26735A:1:4:14:22:4294967295:4294967295:4294967295:4294967295|h[Observed]|h|r!", -- [1]
 			"Valsheres-Outland", -- [2]
@@ -1760,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edValsheres|r",
 			[51] = 1649883953,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [80]
+		}, -- [34]
 		{
 			"WTS 262 Necks/Rings, your choice of stats and comes with 50% more flask Duration! /w for info. |cffa335ee|Hitem:173145::::::::60:250::13:2:7881:7917:3:9:60:28:2142:29:36::::Player-1301-0B27F711:|h[Masterful Phaedrum Necklace]|h|r for example.", -- [1]
 			"Sabreeze-Outland", -- [2]
@@ -1782,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Sabreeze|r",
 			[51] = 1649883975,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [35]
 		{
 			"i usually do cata to do classic quests", -- [1]
 			"Bübbles-Boulderfist", -- [2]
@@ -1804,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaBübbles-Boulderfist|r",
 			[51] = 1649883983,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [36]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:784:Player-1301-0646EE6A:1:4:14:22:4294967295:4294967295:4294967295:4294967295|h[Eye of the Storm Domination]|h|r!", -- [1]
 			"Áv-Outland", -- [2]
@@ -1826,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Áv|r",
 			[51] = 1649884005,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [83]
+		}, -- [37]
 		{
 			"then i will go for that :)", -- [1]
 			"Krebben-Outland", -- [2]
@@ -1848,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Krebben|r",
 			[51] = 1649884035,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [38]
 		{
 			"damn bug", -- [1]
 			"Mesra-Outland", -- [2]
@@ -1870,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Mesra|r",
 			[51] = 1649884137,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [85]
+		}, -- [39]
 		{
 			"putting streets", -- [1]
 			"Mesra-Outland", -- [2]
@@ -1892,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Mesra|r",
 			[51] = 1649884143,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [86]
+		}, -- [40]
 		{
 			"instead of gambit", -- [1]
 			"Mesra-Outland", -- [2]
@@ -1914,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Mesra|r",
 			[51] = 1649884144,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [87]
+		}, -- [41]
 		{
 			"No I did it wrong actually >.<", -- [1]
 			"Mesra-Outland", -- [2]
@@ -1936,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Mesra|r",
 			[51] = 1649884176,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [88]
+		}, -- [42]
 		{
 			"just put it in title", -- [1]
 			"Bammel-Outland", -- [2]
@@ -1958,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Bammel|r",
 			[51] = 1649884180,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [89]
+		}, -- [43]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14326:Player-1301-0BC2795E:1:4:14:22:4294967295:4294967295:4294967295:4294967295|h[Spires of Ascension]|h|r!", -- [1]
 			"Cocowitch-Outland", -- [2]
@@ -1980,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Cocowitch|r",
 			[51] = 1649884201,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [90]
+		}, -- [44]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14324:Player-1301-0BC2795E:1:4:14:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Spires of Ascension]|h|r!", -- [1]
 			"Cocowitch-Outland", -- [2]
@@ -2002,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Cocowitch|r",
 			[51] = 1649884201,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [91]
+		}, -- [45]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14325:Player-1301-0BC2795E:1:4:14:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Spires of Ascension]|h|r!", -- [1]
 			"Cocowitch-Outland", -- [2]
@@ -2024,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Cocowitch|r",
 			[51] = 1649884201,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [92]
+		}, -- [46]
 		{
 			"anyone wanna do the 5x timewalking?", -- [1]
 			"Doksan-Outland", -- [2]
@@ -2046,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Doksan|r",
 			[51] = 1649884228,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [93]
+		}, -- [47]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15498:Player-1301-0848EE1A:1:4:14:22:4294967295:4294967295:4294967295:4294967295|h[Shadowlands Keystone Conqueror: Season Three]|h|r!", -- [1]
 			"Carlights-Outland", -- [2]
@@ -2068,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Carlights|r",
 			[51] = 1649884314,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [94]
+		}, -- [48]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15259:Player-1301-0BCB836C:1:4:14:22:4294967295:4294967295:4294967295:4294967295|h[Secrets of the First Ones]|h|r!", -- [1]
 			"Monroè-Outland", -- [2]
@@ -2090,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMonroè|r",
 			[51] = 1649884366,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [95]
+		}, -- [49]
 		{
 			"jash is bae", -- [1]
 			"Gingiisdom-Outland", -- [2]
@@ -2112,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Gingiisdom|r",
 			[51] = 1649884368,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [96]
+		}, -- [50]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10801:Player-1301-063FD241:1:4:14:22:4294967295:4294967295:4294967295:4294967295|h[Vault of the Wardens]|h|r!", -- [1]
 			"Samys-Outland", -- [2]
@@ -2134,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Samys|r",
 			[51] = 1649884496,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [97]
+		}, -- [51]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10803:Player-1301-063FD241:1:4:14:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Vault of the Wardens]|h|r!", -- [1]
 			"Samys-Outland", -- [2]
@@ -2156,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Samys|r",
 			[51] = 1649884496,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [98]
+		}, -- [52]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10802:Player-1301-063FD241:1:4:14:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Vault of the Wardens]|h|r!", -- [1]
 			"Samys-Outland", -- [2]
@@ -2178,29 +1166,1041 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Samys|r",
 			[51] = 1649884496,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [53]
+		{
+			"GZ", -- [1]
+			"Bammel-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			234, -- [11]
+			"Player-1301-0C124CE3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Bammel|r",
+			[51] = 1649884632,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [54]
+		{
+			"gzz", -- [1]
+			"Niinaa-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			236, -- [11]
+			"Player-1301-0C28F275", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Niinaa|r",
+			[51] = 1649884633,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [55]
+		{
+			"doksan u need a heal in the tws?", -- [1]
+			"Wdforty-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			314, -- [11]
+			"Player-1301-0793D2E0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Wdforty|r",
+			[51] = 1649884809,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [56]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:10780:Player-1301-0C189668:1:4:14:22:4294967295:4294967295:4294967295:4294967295|h[Eye of Azshara]|h|r!", -- [1]
+			"Jithalis-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Jithalis-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			316, -- [11]
+			"Player-1301-0C189668", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Jithalis|r",
+			[51] = 1649884834,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [57]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:10781:Player-1301-0C189668:1:4:14:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Eye of Azshara]|h|r!", -- [1]
+			"Jithalis-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Jithalis-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			317, -- [11]
+			"Player-1301-0C189668", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Jithalis|r",
+			[51] = 1649884834,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [58]
+		{
+			"sure m8 im alone", -- [1]
+			"Doksan-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			318, -- [11]
+			"Player-1301-05BAB94E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Doksan|r",
+			[51] = 1649884843,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [59]
+		{
+			"darkheart?", -- [1]
+			"Misspicklés-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			321, -- [11]
+			"Player-1301-0BD2137F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Misspicklés|r",
+			[51] = 1649884863,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [60]
+		{
+			"got into a bg though waiting for que", -- [1]
+			"Doksan-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			322, -- [11]
+			"Player-1301-05BAB94E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Doksan|r",
+			[51] = 1649884866,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [61]
+		{
+			"np i might just go to bed yknow", -- [1]
+			"Wdforty-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			324, -- [11]
+			"Player-1301-0793D2E0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Wdforty|r",
+			[51] = 1649884876,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [62]
+		{
+			"is it even possible to kill locks in pvp?", -- [1]
+			"Doksan-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			330, -- [11]
+			"Player-1301-05BAB94E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Doksan|r",
+			[51] = 1649885007,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [63]
+		{
+			"i like where locks are at now days", -- [1]
+			"Wdforty-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			337, -- [11]
+			"Player-1301-0793D2E0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Wdforty|r",
+			[51] = 1649885036,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [64]
+		{
+			"try harder :P", -- [1]
+			"Abenormal-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			359, -- [11]
+			"Player-1301-0C24ADC7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cAbenormal|r",
+			[51] = 1649885064,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [65]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14306:Player-1301-0C2B8DB1:1:4:14:22:4294967295:4294967295:4294967295:4294967295|h[Explore Revendreth]|h|r!", -- [1]
+			"Lyamz-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lyamz-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			30, -- [11]
+			"Player-1301-0C2B8DB1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Lyamz|r",
+			[51] = 1649920332,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [66]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:15388:Player-1301-0C2B8DB1:1:4:14:22:4294967295:4294967295:4294967295:4294967295|h[Shadowlands Explorer]|h|r!", -- [1]
+			"Lyamz-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lyamz-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			31, -- [11]
+			"Player-1301-0C2B8DB1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Lyamz|r",
+			[51] = 1649920332,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [67]
+		{
+			"Mornin", -- [1]
+			"Darknight-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			34, -- [11]
+			"Player-1301-0002D0A4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edDarknight|r",
+			[51] = 1649920406,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [68]
+		{
+			"Mornin", -- [1]
+			"Kvaerion-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			37, -- [11]
+			"Player-1301-0A7F50E1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Kvaerion|r",
+			[51] = 1649920434,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [69]
+		{
+			"morning", -- [1]
+			"Goxish-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			38, -- [11]
+			"Player-1301-088817BE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Goxish|r",
+			[51] = 1649920454,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [70]
+		{
+			"hey", -- [1]
+			"Herbw-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			39, -- [11]
+			"Player-1301-0C269AB5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Herbw|r",
+			[51] = 1649920458,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [71]
+		{
+			"hully!", -- [1]
+			"Haylat-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			41, -- [11]
+			"Player-1301-0BC5C0F1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Haylat|r",
+			[51] = 1649920472,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [72]
+		{
+			"moorning", -- [1]
+			"Bammel-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			42, -- [11]
+			"Player-1301-0C124CE3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Bammel|r",
+			[51] = 1649920506,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [73]
+		{
+			"WTS |cffffffff|Hitem:173245::::::::60:258::69:4:7193:7882:8156:1588:1:28:2142::::Player-1301-0A1900C8:|h[Grim-Veiled Hood]|h|r", -- [1]
+			"Yarä-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Yarä-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			47, -- [11]
+			"Player-1301-06BD61A4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeYarä|r",
+			[51] = 1649920700,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [74]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:9228:Player-1301-0BFBD6B7:1:4:14:22:4294967295:4294967295:4294967295:4294967295|h[Down Goes Van Rook]|h|r!", -- [1]
+			"Mintpepsimax-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mintpepsimax-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			177, -- [11]
+			"Player-1301-0BFBD6B7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaMintpepsimax|r",
+			[51] = 1649921301,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [75]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:11171:Player-1301-0A240454:1:4:14:22:4294967295:4294967295:4294967295:4294967295|h[Arsenal of Power]|h|r!", -- [1]
+			"Drahlum-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Drahlum-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			183, -- [11]
+			"Player-1301-0A240454", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Drahlum|r",
+			[51] = 1649921353,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [76]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:697:Player-1301-0C0EC21A:1:4:14:22:4294967295:4294967295:4294967295:4294967295|h[The Black Temple]|h|r!", -- [1]
+			"Thaek-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Thaek-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			194, -- [11]
+			"Player-1301-0C0EC21A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcThaek|r",
+			[51] = 1649921439,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [77]
+		{
+			"Morning", -- [1]
+			"Greybeard-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			196, -- [11]
+			"Player-1301-0B08A27C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cGreybeard|r",
+			[51] = 1649921455,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [78]
+		{
+			"morning ", -- [1]
+			"Herbw-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			197, -- [11]
+			"Player-1301-0C269AB5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Herbw|r",
+			[51] = 1649921481,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [79]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14328:Player-1301-059F790E:1:4:14:22:4294967295:4294967295:4294967295:4294967295|h[Professional Shadowlands Master]|h|r!", -- [1]
+			"Hytta-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hytta-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			307, -- [11]
+			"Player-1301-059F790E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Hytta|r",
+			[51] = 1649921780,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [80]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:15512:Player-1301-0A240454:1:4:14:22:4294967295:4294967295:4294967295:4294967295|h[Adventures in Zereth Mortis]|h|r!", -- [1]
+			"Drahlum-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Drahlum-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			344, -- [11]
+			"Player-1301-0A240454", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Drahlum|r",
+			[51] = 1649921918,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [81]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14160:Player-1301-088817BE:1:4:14:22:4294967295:4294967295:4294967295:4294967295|h[Rare to Well Done]|h|r!", -- [1]
+			"Goxish-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Goxish-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			345, -- [11]
+			"Player-1301-088817BE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Goxish|r",
+			[51] = 1649921922,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [82]
+		{
+			"yo any1 who can craft a 291 ring online ?", -- [1]
+			"Piqn-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			294, -- [11]
+			"Player-1301-0C28154E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Piqn|r",
+			[51] = 1649929458,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [83]
+		{
+			"5 min queue for random bgs in Spring break, what is this", -- [1]
+			"Diablillu-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Diablillu-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			299, -- [11]
+			"Player-1301-08D98F23", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edDiablillu|r",
+			[51] = 1649929582,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [84]
+		{
+			"this is: 5 min queue for random bgs in Spring break", -- [1]
+			"Rockefeller-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Rockefeller-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			306, -- [11]
+			"Player-1301-0BC59049", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaRockefeller|r",
+			[51] = 1649929618,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [85]
+		{
+			"How many guys we still playing wow, 300?", -- [1]
+			"Diablillu-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Diablillu-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			316, -- [11]
+			"Player-1301-08D98F23", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edDiablillu|r",
+			[51] = 1649929637,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [86]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:15518:Player-1301-0B0820A7:1:4:14:22:4294967295:4294967295:4294967295:4294967295|h[A Means to an End]|h|r!", -- [1]
+			"Vyridael-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vyridael-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			332, -- [11]
+			"Player-1301-0B0820A7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Vyridael|r",
+			[51] = 1649929679,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [87]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:10804:Player-1301-0C10F388:1:4:14:22:4294967295:4294967295:4294967295:4294967295|h[Black Rook Hold]|h|r!", -- [1]
+			"Apustajahunu-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Apustajahunu-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			333, -- [11]
+			"Player-1301-0C10F388", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Apustajahunu|r",
+			[51] = 1649929682,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [88]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:10805:Player-1301-0C10F388:1:4:14:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Black Rook Hold]|h|r!", -- [1]
+			"Apustajahunu-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Apustajahunu-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			334, -- [11]
+			"Player-1301-0C10F388", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Apustajahunu|r",
+			[51] = 1649929682,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [89]
+		{
+			"<Team> Boosting Key +10 - 20  || Torghast  || /w for info (only gold)", -- [1]
+			"Yaveh-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Yaveh-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			985, -- [11]
+			"Player-1301-0BCF9138", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcYaveh|r",
+			[51] = 1649935815,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [90]
+		{
+			"|cffa335ee|Hitem:179350::::::::60:63::33:5:7359:6652:7778:1566:6646:1:28:1279:::::|h[Inscrutable Quantum Device]|h|r :D", -- [1]
+			"Huolong-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1001, -- [11]
+			"Player-1301-0BE52B54", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaHuolong|r",
+			[51] = 1649935999,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [91]
+		{
+			"GZ", -- [1]
+			"Bammel-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1002, -- [11]
+			"Player-1301-0C124CE3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Bammel|r",
+			[51] = 1649936022,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [92]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:10816:Player-1301-063FD241:1:4:14:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Court of Stars]|h|r!", -- [1]
+			"Samys-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Samys-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1005, -- [11]
+			"Player-1301-063FD241", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Samys|r",
+			[51] = 1649936046,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [93]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14760:Player-1301-0B0820A7:1:4:14:22:4294967295:4294967295:4294967295:4294967295|h[Recollection Collection]|h|r!", -- [1]
+			"Vyridael-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vyridael-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1015, -- [11]
+			"Player-1301-0B0820A7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Vyridael|r",
+			[51] = 1649936105,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [94]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:10805:Player-1301-0C2B67E7:1:4:14:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Black Rook Hold]|h|r!", -- [1]
+			"Lyvianne-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lyvianne-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1021, -- [11]
+			"Player-1301-0C2B67E7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeLyvianne|r",
+			[51] = 1649936226,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [95]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14797:Player-1301-0C2B67E7:1:4:14:22:4294967295:4294967295:4294967295:4294967295|h[Epic]|h|r!", -- [1]
+			"Lyvianne-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lyvianne-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1030, -- [11]
+			"Player-1301-0C2B67E7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeLyvianne|r",
+			[51] = 1649936298,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [96]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:15492:Player-1301-0C10F388:1:4:14:22:4294967295:4294967295:4294967295:4294967295|h[Cornerstone of Creation]|h|r!", -- [1]
+			"Apustajahunu-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Apustajahunu-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1032, -- [11]
+			"Player-1301-0C10F388", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Apustajahunu|r",
+			[51] = 1649936308,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [97]
+		{
+			"can you do m0 legion dungs?", -- [1]
+			"Apustajahunu-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1065, -- [11]
+			"Player-1301-0C10F388", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Apustajahunu|r",
+			[51] = 1649936438,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [98]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:15513:Player-1301-0BE033DA:1:4:14:22:4294967295:4294967295:4294967295:4294967295|h[Curious Collections]|h|r!", -- [1]
+			"Lychea-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lychea-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1069, -- [11]
+			"Player-1301-0BE033DA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaLychea|r",
+			[51] = 1649936466,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/s literal mount farmers", -- [1]
-		"/raid i officially promise", -- [2]
-		"/raid i will never ask for this chest", -- [3]
-		"/raid ever again", -- [4]
-		"/raid instead of this messy portal swap midway through", -- [5]
-		"/raid why dont we agree to directly place them after 2 intermission", -- [6]
-		"/raid ye ye my point was to not wait an additional portal to do it", -- [7]
-		"/raid i meant the second one", -- [8]
-		"/raid first seemed like the traps were fine", -- [9]
-		"/raid but by the time the second came, traps were everywhere", -- [10]
-		"/s we should xD", -- [11]
-		"/raid you can stop getting pulled by the tank with a blink btw", -- [12]
-		"/raid so soulshape works too in clutch moments", -- [13]
-		"/raid gg", -- [14]
-		"/raid can i roll for vendor gold?", -- [15]
-		"/raid sadge", -- [16]
-		"/raid thanks guys, gg!", -- [17]
-		"/wql", -- [18]
+		"/raid first seemed like the traps were fine", -- [1]
+		"/raid so soulshape works too in clutch moments", -- [2]
+		"/raid thanks guys, gg!", -- [3]
+		"/rematch", -- [4]
+		"/raid i meant the second one", -- [5]
+		"/raid sadge", -- [6]
+		"/raid why dont we agree to directly place them after 2 intermission", -- [7]
+		"/raid i officially promise", -- [8]
+		"/raid but by the time the second came, traps were everywhere", -- [9]
+		"/raid ye ye my point was to not wait an additional portal to do it", -- [10]
+		"/raid can i roll for vendor gold?", -- [11]
+		"/raid ever again", -- [12]
+		"/reload", -- [13]
+		"/wql", -- [14]
+		"/s we should xD", -- [15]
+		"/raid you can stop getting pulled by the tank with a blink btw", -- [16]
+		"/raid i will never ask for this chest", -- [17]
+		"/raid gg", -- [18]
 		"/att |cffffffff|Hitem:163036::::::::60:267:::1:3407::::::|h[Polished Pet Charm]|h|r", -- [19]
-		"/reload", -- [20]
+		"/way 47.4 62.1", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }
