@@ -242,10 +242,10 @@ PasteDB = {
 			["whispertarget"] = "",
 			["where"] = "Default",
 			["loaded"] = true,
-			["pos"] = {
-			},
 			["minimap"] = {
 				["minimapPos"] = 179.0857583389598,
+			},
+			["pos"] = {
 			},
 		},
 		["Moneymakerii - Outland"] = {
