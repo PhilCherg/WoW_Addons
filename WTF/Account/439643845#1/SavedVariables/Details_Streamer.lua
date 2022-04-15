@@ -24,8 +24,8 @@ Details_StreamerDB = {
 		["Farmerixus - Outland"] = "Necrophagus - Outland",
 		["Luminaxia - Outland"] = "Necrophagus - Outland",
 		["Testfirst - Outland"] = "Necrophagus - Outland",
-		["Bullenic - Silvermoon"] = "Necrophagus - Outland",
 		["Mallazin - Azjol-Nerub"] = "Necrophagus - Outland",
+		["Bullenic - Silvermoon"] = "Necrophagus - Outland",
 		["Barbaxius - Outland"] = "Necrophagus - Outland",
 		["Wolfados - Azjol-Nerub"] = "Necrophagus - Outland",
 		["Moneythree - Outland"] = "Necrophagus - Outland",
@@ -83,32 +83,16 @@ Details_StreamerDB = {
 				["radius"] = 160,
 				["hide"] = true,
 			},
-			["arrow_anchor_y"] = 0,
+			["use_square_mode"] = false,
 			["arrow_anchor_x"] = 0,
 			["main_frame_locked"] = false,
 			["row_texture"] = "Details Serenity",
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
-			["font_size"] = 10,
-			["author"] = "Details! Team",
+			["arrow_anchor_y"] = 0,
+			["use_spark"] = true,
+			["main_frame_strata"] = "LOW",
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["y"] = 4.57763671875e-05,
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
-			["main_frame_strata"] = "LOW",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["use_spark"] = true,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -120,13 +104,29 @@ Details_StreamerDB = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["y"] = 4.57763671875e-05,
+			["font_size"] = 10,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
-			["use_square_mode"] = false,
-			["scale"] = 1,
-			["row_height"] = 20,
+			["author"] = "Details! Team",
 			["point"] = "CENTER",
+			["row_height"] = 20,
+			["scale"] = 1,
 		},
 	},
 }

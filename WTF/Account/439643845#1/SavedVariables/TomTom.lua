@@ -19,13 +19,13 @@ TomTomDB = {
 		["Moneyseven - Outland"] = "Default",
 		["Feattwo - Outland"] = "Default",
 		["Destruxia - Outland"] = "Default",
-		["Afadsfasdfs - Outland"] = "Default",
 		["Wolfados - Azjol-Nerub"] = "Default",
+		["Afadsfasdfs - Outland"] = "Default",
 		["Farmerixus - Outland"] = "Default",
 		["Luminaxia - Outland"] = "Default",
 		["Testfirst - Outland"] = "Default",
 		["Phalonius - Azjol-Nerub"] = "Default",
-		["Mallazin - Azjol-Nerub"] = "Default",
+		["Bullenic - Silvermoon"] = "Default",
 		["Barbaxius - Outland"] = "Default",
 		["Asdawdwd - Outland"] = "Default",
 		["Moneythree - Outland"] = "Default",
@@ -54,7 +54,7 @@ TomTomDB = {
 		["Chernakotka - Die Aldor"] = "Default",
 		["Moneyfour - Outland"] = "Default",
 		["Serthaxion - Outland"] = "Default",
-		["Bullenic - Silvermoon"] = "Default",
+		["Mallazin - Azjol-Nerub"] = "Default",
 		["Illydaria - Draenor"] = "Default",
 		["Elementior - Outland"] = "Default",
 	},
@@ -115,13 +115,13 @@ TomTomWaypointsM = {
 		["Moneyseven - Outland"] = "Moneyseven - Outland",
 		["Feattwo - Outland"] = "Feattwo - Outland",
 		["Destruxia - Outland"] = "Destruxia - Outland",
-		["Afadsfasdfs - Outland"] = "Afadsfasdfs - Outland",
 		["Wolfados - Azjol-Nerub"] = "Wolfados - Azjol-Nerub",
+		["Afadsfasdfs - Outland"] = "Afadsfasdfs - Outland",
 		["Farmerixus - Outland"] = "Farmerixus - Outland",
 		["Luminaxia - Outland"] = "Luminaxia - Outland",
 		["Testfirst - Outland"] = "Testfirst - Outland",
 		["Phalonius - Azjol-Nerub"] = "Phalonius - Azjol-Nerub",
-		["Mallazin - Azjol-Nerub"] = "Mallazin - Azjol-Nerub",
+		["Bullenic - Silvermoon"] = "Bullenic - Silvermoon",
 		["Barbaxius - Outland"] = "Barbaxius - Outland",
 		["Asdawdwd - Outland"] = "Asdawdwd - Outland",
 		["Moneythree - Outland"] = "Moneythree - Outland",
@@ -150,7 +150,7 @@ TomTomWaypointsM = {
 		["Chernakotka - Die Aldor"] = "Chernakotka - Die Aldor",
 		["Moneyfour - Outland"] = "Moneyfour - Outland",
 		["Serthaxion - Outland"] = "Serthaxion - Outland",
-		["Bullenic - Silvermoon"] = "Bullenic - Silvermoon",
+		["Mallazin - Azjol-Nerub"] = "Mallazin - Azjol-Nerub",
 		["Illydaria - Draenor"] = "Illydaria - Draenor",
 		["Elementior - Outland"] = "Elementior - Outland",
 	},
@@ -181,10 +181,10 @@ TomTomWaypointsM = {
 		},
 		["Necrophagus - Outland"] = {
 			[62] = {
-				["62:440000000:650000000:Frightened Kodo"] = {
+				["62:392000000:565000000:Frightened Kodo"] = {
 					62, -- [1]
-					0.44, -- [2]
-					0.65, -- [3]
+					0.392, -- [2]
+					0.565, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
@@ -227,10 +227,10 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["world"] = true,
 				},
-				["62:392000000:565000000:Frightened Kodo"] = {
+				["62:410000000:650000000:Frightened Kodo"] = {
 					62, -- [1]
-					0.392, -- [2]
-					0.565, -- [3]
+					0.41, -- [2]
+					0.65, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
@@ -273,9 +273,9 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["world"] = true,
 				},
-				["62:410000000:650000000:Frightened Kodo"] = {
+				["62:440000000:650000000:Frightened Kodo"] = {
 					62, -- [1]
-					0.41, -- [2]
+					0.44, -- [2]
 					0.65, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
@@ -377,9 +377,9 @@ TomTomWaypointsM = {
 		},
 		["Destruxia - Outland"] = {
 		},
-		["Afadsfasdfs - Outland"] = {
-		},
 		["Wolfados - Azjol-Nerub"] = {
+		},
+		["Afadsfasdfs - Outland"] = {
 		},
 		["Farmerixus - Outland"] = {
 		},
@@ -390,7 +390,7 @@ TomTomWaypointsM = {
 					0.4777, -- [2]
 					0.3937, -- [3]
 					["crazy"] = true,
-					["minimap"] = true,
+					["desc"] = "Return to the Orphanage",
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
@@ -400,16 +400,16 @@ TomTomWaypointsM = {
 						["world"] = {
 						},
 					},
-					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["title"] = "Return to the Orphanage",
 					["persistent"] = true,
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["minimap"] = true,
 					["silent"] = true,
 					["cleardistance"] = 0,
-					["title"] = "Return to the Orphanage",
-					["minimap_displayID"] = 89265,
-					["worldmap_displayID"] = 89265,
+					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
-					["desc"] = "Return to the Orphanage",
+					["worldmap_displayID"] = 89265,
+					["minimap_displayID"] = 89265,
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["world"] = true,
 				},
 				["1161:480100000:402800000:Return to the Orphanage"] = {
@@ -417,7 +417,7 @@ TomTomWaypointsM = {
 					0.4801, -- [2]
 					0.4028, -- [3]
 					["crazy"] = true,
-					["minimap"] = true,
+					["desc"] = "Return to the Orphanage",
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
@@ -427,16 +427,16 @@ TomTomWaypointsM = {
 						["world"] = {
 						},
 					},
-					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["title"] = "Return to the Orphanage",
 					["persistent"] = true,
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["minimap"] = true,
 					["silent"] = true,
 					["cleardistance"] = 0,
-					["title"] = "Return to the Orphanage",
-					["minimap_displayID"] = 89265,
-					["worldmap_displayID"] = 89265,
+					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
-					["desc"] = "Return to the Orphanage",
+					["worldmap_displayID"] = 89265,
+					["minimap_displayID"] = 89265,
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["world"] = true,
 				},
 			},
@@ -445,7 +445,7 @@ TomTomWaypointsM = {
 		},
 		["Phalonius - Azjol-Nerub"] = {
 		},
-		["Mallazin - Azjol-Nerub"] = {
+		["Bullenic - Silvermoon"] = {
 		},
 		["Barbaxius - Outland"] = {
 		},
@@ -460,7 +460,7 @@ TomTomWaypointsM = {
 					0.4777, -- [2]
 					0.3937, -- [3]
 					["crazy"] = true,
-					["desc"] = "Return to the Orphanage",
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
@@ -470,16 +470,16 @@ TomTomWaypointsM = {
 						["world"] = {
 						},
 					},
-					["worldmap_displayID"] = 89265,
+					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
 					["persistent"] = true,
-					["minimap"] = true,
+					["desc"] = "Return to the Orphanage",
 					["silent"] = true,
 					["cleardistance"] = 0,
 					["title"] = "Return to the Orphanage",
-					["minimap_displayID"] = 89265,
+					["worldmap_displayID"] = 89265,
 					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
-					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["minimap_displayID"] = 89265,
+					["minimap"] = true,
 					["world"] = true,
 				},
 				["1161:480100000:402800000:Return to the Orphanage"] = {
@@ -487,7 +487,7 @@ TomTomWaypointsM = {
 					0.4801, -- [2]
 					0.4028, -- [3]
 					["crazy"] = true,
-					["desc"] = "Return to the Orphanage",
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
@@ -497,16 +497,16 @@ TomTomWaypointsM = {
 						["world"] = {
 						},
 					},
-					["worldmap_displayID"] = 89265,
+					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
 					["persistent"] = true,
-					["minimap"] = true,
+					["desc"] = "Return to the Orphanage",
 					["silent"] = true,
 					["cleardistance"] = 0,
 					["title"] = "Return to the Orphanage",
-					["minimap_displayID"] = 89265,
+					["worldmap_displayID"] = 89265,
 					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
-					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["minimap_displayID"] = 89265,
+					["minimap"] = true,
 					["world"] = true,
 				},
 			},
@@ -596,19 +596,19 @@ TomTomWaypointsM = {
 						["minimap"] = {
 						},
 					},
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["minimap"] = true,
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
-					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["title"] = "Return to the Orphanage",
 					["persistent"] = true,
-					["desc"] = "Return to the Orphanage",
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["silent"] = true,
 					["cleardistance"] = 0,
-					["title"] = "Return to the Orphanage",
-					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
-					["worldmap_displayID"] = 89265,
+					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["minimap_displayID"] = 89265,
-					["minimap"] = true,
+					["worldmap_displayID"] = 89265,
+					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
+					["desc"] = "Return to the Orphanage",
 					["world"] = true,
 				},
 				["1161:480100000:402800000:Return to the Orphanage"] = {
@@ -623,24 +623,24 @@ TomTomWaypointsM = {
 						["minimap"] = {
 						},
 					},
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["minimap"] = true,
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
-					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["title"] = "Return to the Orphanage",
 					["persistent"] = true,
-					["desc"] = "Return to the Orphanage",
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["silent"] = true,
 					["cleardistance"] = 0,
-					["title"] = "Return to the Orphanage",
-					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
-					["worldmap_displayID"] = 89265,
+					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["minimap_displayID"] = 89265,
-					["minimap"] = true,
+					["worldmap_displayID"] = 89265,
+					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
+					["desc"] = "Return to the Orphanage",
 					["world"] = true,
 				},
 			},
 		},
-		["Bullenic - Silvermoon"] = {
+		["Mallazin - Azjol-Nerub"] = {
 		},
 		["Illydaria - Draenor"] = {
 		},
