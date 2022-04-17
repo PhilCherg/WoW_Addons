@@ -4512,11 +4512,18 @@ do
         return true
     end
 
+    local function IsReady()
+        return ns.PLAYER_REGION ~= nil -- GetProfile will fail if called too early before the player info is properly loaded so we avoid doing that by safely checking if we're loaded ready
+    end
+
     local pristine = {
         AddProvider = function(...)
             return provider:AddProvider(...)
         end,
         GetProfile = function(arg1, arg2, arg3, ...)
+            if not IsReady() then
+                return
+            end
             local name, realm, faction = arg1, arg2, arg3
             local _, _, unitIsPlayer = util:IsUnit(arg1, arg2)
             if unitIsPlayer then
@@ -4534,6 +4541,9 @@ do
             return provider:GetProfile(name, realm, faction, ...)
         end,
         ShowProfile = function(tooltip, ...)
+            if not IsReady() then
+                return
+            end
             if type(tooltip) ~= "table" or type(tooltip.GetObjectType) ~= "function" or tooltip:GetObjectType() ~= "GameTooltip" then
                 return
             end
@@ -6015,35 +6025,33 @@ do
 end
 
 -- keystonetooltip.lua
--- dependencies: module, config, util, render
+-- dependencies: module, config, render
 do
 
     ---@class KeystoneTooltipModule : Module
     local tooltip = ns:NewModule("KeystoneTooltip") ---@type KeystoneTooltipModule
     local config = ns:GetModule("Config") ---@type ConfigModule
-    local util = ns:GetModule("Util") ---@type UtilModule
     local render = ns:GetModule("Render") ---@type RenderModule
 
-    -- TODO: the item pattern might not detect all the stuff, need to revise the pattern for it as it might have changed in 8.3.0. also any new API maybe to get info from a keystone link?
-    local KEYSTONE_PATTERNS = {
-        "keystone:(%d+):(.-):(.-):(.-):(.-):(.-)",
-        "item:(158923):.-:.-:.-:.-:.-:.-:.-:.-:.-:.-:.-:.-:(.-):(.-):(.-):(.-):(.-):(.-)"
-    }
+    local KEYSTONE_PATTERN = "keystone:(%d+):(.-):(.-):(.-):(.-):(.-):(.-)"
+    local KEYSTONE_ITEM_PATTERN_1 = "item:(187786):.-:.-:.-:.-:.-:.-:.-:.-:.-:.-:.-:.-:(%d+):(%d+):(%d+):(%d+):(%d+):(.-):(.-):(.-):(.-):(.-):(.-):(.-):(.-)"
+    local KEYSTONE_ITEM_PATTERN_2 = "item:(180653):.-:.-:.-:.-:.-:.-:.-:.-:.-:.-:.-:.-:(%d+):(%d+):(%d+):(%d+):(%d+):(.-):(.-):(.-):(.-):(.-):(.-):(.-):(.-)"
 
     ---@type table<table, KeystoneInfo>
     local currentKeystone = {}
 
     local function GetKeystoneInfo(link)
-        for i = 1, #KEYSTONE_PATTERNS do
-            local pattern = KEYSTONE_PATTERNS[i]
-            local item, instance, level, affix1, affix2, affix3, affix4 = link:match(pattern)
-            if item and instance and level then
-                item, instance, level, affix1, affix2, affix3, affix4 = tonumber(item), tonumber(instance), tonumber(level), tonumber(affix1), tonumber(affix2), tonumber(affix3), tonumber(affix4)
-                if item and instance and level then
-                    return item, instance, level, affix1, affix2, affix3, affix4
-                end
-            end
+        local item, instance, level, affix1, affix2, affix3, affix4, _ = link:match(KEYSTONE_PATTERN)
+        if not item then
+            item, _, _, instance, _, level, _, affix1, _, affix2, _, affix3, _, affix4 = link:match(KEYSTONE_ITEM_PATTERN_1)
         end
+        if not item then
+            item, _, _, instance, _, level, _, affix1, _, affix2, _, affix3, _, affix4 = link:match(KEYSTONE_ITEM_PATTERN_2)
+        end
+        if item then
+            item, instance, level, affix1, affix2, affix3, affix4 = tonumber(item), tonumber(instance), tonumber(level), tonumber(affix1), tonumber(affix2), tonumber(affix3), tonumber(affix4)
+        end
+        return item, instance, level, affix1, affix2, affix3, affix4
     end
 
     ---@param keystone KeystoneInfo
@@ -6093,7 +6101,7 @@ do
 end
 
 -- guildweekly.lua
--- dependencies: module, callback, config, util, render
+-- dependencies: module, callback, config, util
 do
 
     ---@class GuildWeeklyModule : Module
@@ -6101,7 +6109,6 @@ do
     local callback = ns:GetModule("Callback") ---@type CallbackModule
     local config = ns:GetModule("Config") ---@type ConfigModule
     local util = ns:GetModule("Util") ---@type UtilModule
-    local render = ns:GetModule("Render") ---@type RenderModule
 
     local CLASS_FILENAME_TO_ID = {
         WARRIOR = 1,

@@ -2,358 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"|cffffff00|Hworldmap:1462:7020:6255|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Weemoose-TheMaelstrom", -- [2]
-			"", -- [3]
-			"1. General - Mechagon", -- [4]
-			"Weemoose-TheMaelstrom", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Mechagon", -- [9]
-			0, -- [10]
-			550, -- [11]
-			"Player-1596-0766A868", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeWeemoose-TheMaelstrom|r",
-			[51] = 1649241589,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"hardmode? :D", -- [1]
-			"Snowfehérke-Ragnaros", -- [2]
-			"", -- [3]
-			"1. General - Mechagon", -- [4]
-			"Snowfehérke-Ragnaros", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Mechagon", -- [9]
-			0, -- [10]
-			551, -- [11]
-			"Player-3682-05BACCB5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Snowfehérke-Ragnaros|r",
-			[51] = 1649241600,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"normal mode. no armories up", -- [1]
-			"Weemoose-TheMaelstrom", -- [2]
-			"", -- [3]
-			"1. General - Mechagon", -- [4]
-			"Weemoose-TheMaelstrom", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Mechagon", -- [9]
-			0, -- [10]
-			552, -- [11]
-			"Player-1596-0766A868", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeWeemoose-TheMaelstrom|r",
-			[51] = 1649241630,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"reclamation rig 37%", -- [1]
-			"Weemoose-TheMaelstrom", -- [2]
-			"", -- [3]
-			"1. General - Mechagon", -- [4]
-			"Weemoose-TheMaelstrom", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Mechagon", -- [9]
-			0, -- [10]
-			553, -- [11]
-			"Player-1596-0766A868", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeWeemoose-TheMaelstrom|r",
-			[51] = 1649241685,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"reclamation rig 50%", -- [1]
-			"Weemoose-TheMaelstrom", -- [2]
-			"", -- [3]
-			"1. General - Mechagon", -- [4]
-			"Weemoose-TheMaelstrom", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Mechagon", -- [9]
-			0, -- [10]
-			554, -- [11]
-			"Player-1596-0766A868", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeWeemoose-TheMaelstrom|r",
-			[51] = 1649241721,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
-		{
-			"final wave inc at rig", -- [1]
-			"Weemoose-TheMaelstrom", -- [2]
-			"", -- [3]
-			"1. General - Mechagon", -- [4]
-			"Weemoose-TheMaelstrom", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Mechagon", -- [9]
-			0, -- [10]
-			556, -- [11]
-			"Player-1596-0766A868", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeWeemoose-TheMaelstrom|r",
-			[51] = 1649241831,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
-		{
-			" ruK G Ruk'ka'ha ruK Ko OGg Ko  MAZA'ROTHA ", -- [1]
-			"Râgon-Pozzodell'Eternità", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Râgon-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			558, -- [11]
-			"Player-1309-0AD006D9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
-			[51] = 1649242232,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [7]
-		{
-			" ruK G Ruk'ka'ha ruK Ka GUl TAr  MAZA'ROTHA ", -- [1]
-			"Râgon-Pozzodell'Eternità", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Râgon-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			559, -- [11]
-			"Player-1309-0AD006D9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
-			[51] = 1649242239,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [8]
-		{
-			" ruK G Ruk'ka'ha ruK Ka GUl LOk  MAZA'ROTHA ", -- [1]
-			"Râgon-Pozzodell'Eternità", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Râgon-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			560, -- [11]
-			"Player-1309-0AD006D9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
-			[51] = 1649242268,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [9]
-		{
-			"|cffffff00|Hworldmap:1462:7991:2880|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r sparkqueen", -- [1]
-			"Smq-Sylvanas", -- [2]
-			"", -- [3]
-			"1. General - Mechagon", -- [4]
-			"Smq-Sylvanas", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Mechagon", -- [9]
-			0, -- [10]
-			402, -- [11]
-			"Player-1597-0F071D87", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Smq-Sylvanas|r",
-			[51] = 1649514838,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
-		{
-			"come fast", -- [1]
-			"Smq-Sylvanas", -- [2]
-			"", -- [3]
-			"1. General - Mechagon", -- [4]
-			"Smq-Sylvanas", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Mechagon", -- [9]
-			0, -- [10]
-			403, -- [11]
-			"Player-1597-0F071D87", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Smq-Sylvanas|r",
-			[51] = 1649514840,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
-		{
-			" ruK G Ruk'ka'ha ruK KEk KIl KIl KIl  MAZA'ROTHA ", -- [1]
-			"Râgon-Pozzodell'Eternità", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Râgon-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			368, -- [11]
-			"Player-1309-0AD006D9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
-			[51] = 1649590264,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [12]
-		{
-			" ruK G Ruk'ka'ha ruK RUk KEk MOg KEk  MAZA'ROTHA ", -- [1]
-			"Râgon-Pozzodell'Eternità", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Râgon-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			369, -- [11]
-			"Player-1309-0AD006D9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
-			[51] = 1649590300,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [13]
-		{
-			" ruK G Ruk'ka'ha ruK RUk AAz TAr AAz  MAZA'ROTHA ", -- [1]
-			"Râgon-Pozzodell'Eternità", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Râgon-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			372, -- [11]
-			"Player-1309-0AD006D9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
-			[51] = 1649590561,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [14]
-		{
-			" ruK G Ruk'ka'ha ruK RUk Ka TAr Ka  MAZA'ROTHA ", -- [1]
-			"Râgon-Pozzodell'Eternità", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Râgon-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			374, -- [11]
-			"Player-1309-0AD006D9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
-			[51] = 1649590570,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [15]
-		{
-			" ruK G Ruk'ka'ha ruK Il OGg RUk OGg  MAZA'ROTHA ", -- [1]
-			"Râgon-Pozzodell'Eternità", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Râgon-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			377, -- [11]
-			"Player-1309-0AD006D9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
-			[51] = 1649591085,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [16]
-		{
 			" ruK G Ruk'ka'ha ruK Gi GUl KIl GUl  MAZA'ROTHA ", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
 			"Orcish", -- [3]
@@ -374,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1649591134,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [17]
+		}, -- [1]
 		{
 			"aaz'No ogar kazum", -- [1]
 			"Garbageboi-Outland", -- [2]
@@ -396,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Garbageboi|r",
 			[51] = 1649591150,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [18]
+		}, -- [2]
 		{
 			" ruK G Ruk'ka'ha ruK LOk OGg LOk  MAZA'ROTHA ", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
@@ -418,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1649591215,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [19]
+		}, -- [3]
 		{
 			" ruK G Ruk'ka'ha ruK Ka GUl ZUg  MAZA'ROTHA ", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
@@ -440,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1649591286,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [20]
+		}, -- [4]
 		{
 			" ruK G Ruk'ka'ha ruK Ka MOg Ha  MAZA'ROTHA ", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
@@ -462,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1649591415,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [21]
+		}, -- [5]
 		{
 			" ruK G Ruk'ka'ha ruK GUl MOg MOg MOg  THROM'BOLA ", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
@@ -484,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1649591648,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [22]
+		}, -- [6]
 		{
 			"{rt8}A. Harvester{rt8}: 15m 46s-35m 46s (WorldBossTimers:1649689072)", -- [1]
 			"Vyol-Pozzodell'Eternità", -- [2]
@@ -506,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cVyol-Pozzodell'Eternità|r",
 			[51] = 1649685726,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [23]
+		}, -- [7]
 		{
 			"{rt8}A. Harvester{rt8}: 4m 25s-24m 25s (WorldBossTimers:1649689071)", -- [1]
 			"Pomei-Thunderhorn", -- [2]
@@ -528,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaPomei-Thunderhorn|r",
 			[51] = 1649686405,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [24]
+		}, -- [8]
 		{
 			"Anyone with WBT timer?", -- [1]
 			"Cutxi-GrimBatol", -- [2]
@@ -550,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeCutxi-GrimBatol|r",
 			[51] = 1649686446,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [25]
+		}, -- [9]
 		{
 			"Could you please share WorldBossTimers kill data?", -- [1]
 			"Bighimself-Nagrand", -- [2]
@@ -572,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bighimself-Nagrand|r",
 			[51] = 1649686624,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [26]
+		}, -- [10]
 		{
 			"{rt8}A. Harvester{rt8}: 44s-20m 44s (WorldBossTimers:1649689071)", -- [1]
 			"Pomina-Thunderhorn", -- [2]
@@ -594,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefePomina-Thunderhorn|r",
 			[51] = 1649686627,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [27]
+		}, -- [11]
 		{
 			"{rt8}A. Harvester{rt8}: 36s-20m 36s (WorldBossTimers:1649689072)", -- [1]
 			"Vyol-Pozzodell'Eternità", -- [2]
@@ -616,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cVyol-Pozzodell'Eternità|r",
 			[51] = 1649686636,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [28]
+		}, -- [12]
 		{
 			"{rt8}A. Harvester{rt8}: 0s-16m 29s (WorldBossTimers:1649689071)", -- [1]
 			"Pomina-Thunderhorn", -- [2]
@@ -638,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefePomina-Thunderhorn|r",
 			[51] = 1649686883,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [29]
+		}, -- [13]
 		{
 			"{rt8}A. Harvester{rt8}: 0s-16m 26s (WorldBossTimers:1649689072)", -- [1]
 			"Vyol-Pozzodell'Eternità", -- [2]
@@ -660,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cVyol-Pozzodell'Eternità|r",
 			[51] = 1649686886,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [30]
+		}, -- [14]
 		{
 			"im the harvester", -- [1]
 			"Vyol-Pozzodell'Eternità", -- [2]
@@ -682,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cVyol-Pozzodell'Eternità|r",
 			[51] = 1649686912,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [31]
+		}, -- [15]
 		{
 			"maniac", -- [1]
 			"Vyol-Pozzodell'Eternità", -- [2]
@@ -704,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cVyol-Pozzodell'Eternità|r",
 			[51] = 1649686952,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [32]
+		}, -- [16]
 		{
 			"MAAANIAC", -- [1]
 			"Vyol-Pozzodell'Eternità", -- [2]
@@ -726,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cVyol-Pozzodell'Eternità|r",
 			[51] = 1649686954,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [33]
+		}, -- [17]
 		{
 			"UUH YEAH", -- [1]
 			"Vyol-Pozzodell'Eternità", -- [2]
@@ -748,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cVyol-Pozzodell'Eternità|r",
 			[51] = 1649686980,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [34]
+		}, -- [18]
 		{
 			"DANCE ALL", -- [1]
 			"Vyol-Pozzodell'Eternità", -- [2]
@@ -770,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cVyol-Pozzodell'Eternità|r",
 			[51] = 1649686999,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [35]
+		}, -- [19]
 		{
 			"CMON ALL HERE DANCE ", -- [1]
 			"Vyol-Pozzodell'Eternità", -- [2]
@@ -792,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cVyol-Pozzodell'Eternità|r",
 			[51] = 1649687005,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [36]
+		}, -- [20]
 		{
 			"WUUU", -- [1]
 			"Vyol-Pozzodell'Eternità", -- [2]
@@ -814,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cVyol-Pozzodell'Eternità|r",
 			[51] = 1649687007,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [37]
+		}, -- [21]
 		{
 			"DANCE FOR STUPID SPIDEEER.. LIKE DANCE FOR THE RAITETE", -- [1]
 			"Vyol-Pozzodell'Eternità", -- [2]
@@ -836,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cVyol-Pozzodell'Eternità|r",
 			[51] = 1649687033,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [38]
+		}, -- [22]
 		{
 			"BUUURN", -- [1]
 			"Vyol-Pozzodell'Eternità", -- [2]
@@ -858,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cVyol-Pozzodell'Eternità|r",
 			[51] = 1649687043,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [39]
+		}, -- [23]
 		{
 			"{rt8}A. Harvester{rt8}: 19m 55s-39m 55s (WorldBossTimers:1649690647)", -- [1]
 			"Vyol-Pozzodell'Eternità", -- [2]
@@ -880,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cVyol-Pozzodell'Eternità|r",
 			[51] = 1649687052,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [40]
+		}, -- [24]
 		{
 			"{rt8}A. Harvester{rt8}: 11m 50s-31m 50s (WorldBossTimers:1649767816)", -- [1]
 			"Dorsale-Pozzodell'Eternità", -- [2]
@@ -902,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Dorsale-Pozzodell'Eternità|r",
 			[51] = 1649764706,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [41]
+		}, -- [25]
 		{
 			"{rt8}A. Harvester{rt8}: 10m 35s-30m 35s (WorldBossTimers:1649767816)", -- [1]
 			"Vyol-Pozzodell'Eternità", -- [2]
@@ -924,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cVyol-Pozzodell'Eternità|r",
 			[51] = 1649768381,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [42]
+		}, -- [26]
 		{
 			"{rt8}A. Harvester{rt8}: 6m 25s-26m 25s (WorldBossTimers:1649767816)", -- [1]
 			"Vyol-Pozzodell'Eternità", -- [2]
@@ -946,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cVyol-Pozzodell'Eternità|r",
 			[51] = 1649765031,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [43]
+		}, -- [27]
 		{
 			"{rt8}A. Harvester{rt8}: 2m 5s-22m 5s (WorldBossTimers:1649767816)", -- [1]
 			"Vyol-Pozzodell'Eternità", -- [2]
@@ -968,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cVyol-Pozzodell'Eternità|r",
 			[51] = 1649765291,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [44]
+		}, -- [28]
 		{
 			"{rt8}A. Harvester{rt8}: 12s-20m 12s (WorldBossTimers:1649767816)", -- [1]
 			"Vyol-Pozzodell'Eternità", -- [2]
@@ -990,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cVyol-Pozzodell'Eternità|r",
 			[51] = 1649765404,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [45]
+		}, -- [29]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10458:Player-1301-0BEBF097:1:4:14:22:4294967295:4294967295:4294967295:4294967295|h[Ready for Raiding V]|h|r!", -- [1]
 			"Misscotty-Outland", -- [2]
@@ -1012,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Misscotty|r",
 			[51] = 1649931219,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [46]
+		}, -- [30]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10780:Player-1301-0BEBF097:1:4:14:22:4294967295:4294967295:4294967295:4294967295|h[Eye of Azshara]|h|r!", -- [1]
 			"Misscotty-Outland", -- [2]
@@ -1034,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Misscotty|r",
 			[51] = 1649931219,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [47]
+		}, -- [31]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10781:Player-1301-0BEBF097:1:4:14:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Eye of Azshara]|h|r!", -- [1]
 			"Misscotty-Outland", -- [2]
@@ -1056,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Misscotty|r",
 			[51] = 1649931219,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [48]
+		}, -- [32]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10782:Player-1301-0BEBF097:1:4:14:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Eye of Azshara]|h|r!", -- [1]
 			"Misscotty-Outland", -- [2]
@@ -1078,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Misscotty|r",
 			[51] = 1649931219,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [49]
+		}, -- [33]
 		{
 			"dont nuke ", -- [1]
 			"Drama-TheMaelstrom", -- [2]
@@ -1100,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Drama-TheMaelstrom|r",
 			[51] = 1649931453,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
+		}, -- [34]
 		{
 			".......", -- [1]
 			"Drama-TheMaelstrom", -- [2]
@@ -1122,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Drama-TheMaelstrom|r",
 			[51] = 1649931466,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
+		}, -- [35]
 		{
 			"<Team> Boosting Key +10 - 20  || Torghast  || /w for info (only gold)", -- [1]
 			"Yaveh-Outland", -- [2]
@@ -1144,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcYaveh|r",
 			[51] = 1649930419,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [36]
 		{
 			"e", -- [1]
 			"Themagicbum-Outland", -- [2]
@@ -1166,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Themagicbum|r",
 			[51] = 1649935326,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [37]
 		{
 			"hello", -- [1]
 			"Themagicbum-Outland", -- [2]
@@ -1188,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Themagicbum|r",
 			[51] = 1649935350,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [38]
 		{
 			"cheap flasks on ah", -- [1]
 			"Sötdruid-Outland", -- [2]
@@ -1210,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Sötdruid|r",
 			[51] = 1649935368,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [39]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14840:Player-1301-0B0D2B3F:1:4:14:22:4294967295:4294967295:4294967295:4294967295|h[Adventures: Learning the Ropes]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1232,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1649935545,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [56]
+		}, -- [40]
 		{
 			"WTB |cffffffff|Hitem:178926::::::::60:261:::::::::|h[Shadowghast Ring]|h|r 291, 55k", -- [1]
 			"Stifflix-Outland", -- [2]
@@ -1254,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Stifflix|r",
 			[51] = 1649935714,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
+		}, -- [41]
 		{
 			"Why hasn't Blizzard removed Warcraft availability in Russia?", -- [1]
 			"Warfarian-Outland", -- [2]
@@ -1276,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Warfarian|r",
 			[51] = 1650017862,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [42]
 		{
 			"thanks, ur allways such a big help :)", -- [1]
 			"Slutstagram-Sylvanas", -- [2]
@@ -1298,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSlutstagram-Sylvanas|r",
 			[51] = 1650036714,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [43]
 		{
 			"Aw np. and thanks ^^", -- [1]
 			"Renova-Ravencrest", -- [2]
@@ -1320,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRenova-Ravencrest|r",
 			[51] = 1650036738,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [44]
 		{
 			"bless u ", -- [1]
 			"Drama-TheMaelstrom", -- [2]
@@ -1342,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Drama-TheMaelstrom|r",
 			[51] = 1650036751,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [45]
 		{
 			"harvester is a 1hour spawn timer or?", -- [1]
 			"Tooralyon-Silvermoon", -- [2]
@@ -1364,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Tooralyon-Silvermoon|r",
 			[51] = 1650036768,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [46]
 		{
 			"harvester is 20-40min", -- [1]
 			"Slutstagram-Sylvanas", -- [2]
@@ -1386,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSlutstagram-Sylvanas|r",
 			[51] = 1650036776,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [47]
 		{
 			"20 to 40 minutes", -- [1]
 			"Renova-Ravencrest", -- [2]
@@ -1408,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRenova-Ravencrest|r",
 			[51] = 1650036778,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [48]
 		{
 			"ok thx", -- [1]
 			"Tooralyon-Silvermoon", -- [2]
@@ -1430,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Tooralyon-Silvermoon|r",
 			[51] = 1650036791,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [49]
 		{
 			"Ive been trying to get flying in BFA and i need revered with rustbolt, is there a better way than just doing dailys? is there a farm?", -- [1]
 			"Slutstagram-Sylvanas", -- [2]
@@ -1452,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSlutstagram-Sylvanas|r",
 			[51] = 1650036811,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [50]
 		{
 			"It is kinda slow yeah. I think the dungeon could give some rep as well", -- [1]
 			"Renova-Ravencrest", -- [2]
@@ -1474,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRenova-Ravencrest|r",
 			[51] = 1650036860,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [51]
 		{
 			"You could go Warmode for a little bit of extra rep since you get an extra quest when you have Warmode on. ", -- [1]
 			"Taranar-ZirkeldesCenarius", -- [2]
@@ -1496,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edTaranar-ZirkeldesCenarius|r",
 			[51] = 1650036866,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [52]
 		{
 			"smart! ", -- [1]
 			"Slutstagram-Sylvanas", -- [2]
@@ -1518,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSlutstagram-Sylvanas|r",
 			[51] = 1650036895,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [53]
 		{
 			"yesterday i was doing dailies in nazjatar and fabious spawned, and i didnt have the camera :((((((", -- [1]
 			"Slutstagram-Sylvanas", -- [2]
@@ -1540,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSlutstagram-Sylvanas|r",
 			[51] = 1650036915,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [54]
 		{
 			"any1 doing the dung mythic? i wanna get transmog and need help", -- [1]
 			"Ásh-Ragnaros", -- [2]
@@ -1562,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ásh-Ragnaros|r",
 			[51] = 1650036915,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [55]
 		{
 			"timer anyone?", -- [1]
 			"Kolpina-Aggramar", -- [2]
@@ -1584,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kolpina-Aggramar|r",
 			[51] = 1650037061,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [72]
+		}, -- [56]
 		{
 			"Been here since 18:17 and not spawn since", -- [1]
 			"Renova-Ravencrest", -- [2]
@@ -1606,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRenova-Ravencrest|r",
 			[51] = 1650037081,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [73]
+		}, -- [57]
 		{
 			"thnc", -- [1]
 			"Kolpina-Aggramar", -- [2]
@@ -1628,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kolpina-Aggramar|r",
 			[51] = 1650037089,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [74]
+		}, -- [58]
 		{
 			"so should be soon", -- [1]
 			"Renova-Ravencrest", -- [2]
@@ -1650,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRenova-Ravencrest|r",
 			[51] = 1650037090,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [75]
+		}, -- [59]
 		{
 			"np :)", -- [1]
 			"Renova-Ravencrest", -- [2]
@@ -1672,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRenova-Ravencrest|r",
 			[51] = 1650037095,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [76]
+		}, -- [60]
 		{
 			"need 1 more for hardmode Mechagon mount run", -- [1]
 			"Dilidan-Sylvanas", -- [2]
@@ -1694,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Dilidan-Sylvanas|r",
 			[51] = 1650037443,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [61]
 		{
 			"Rustfeather 2 to 17 minutes", -- [1]
 			"Renova-Ravencrest", -- [2]
@@ -1716,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRenova-Ravencrest|r",
 			[51] = 1650037462,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [62]
 		{
 			"High chance for Harvester to spawn before since it hasn't been up for quite a while", -- [1]
 			"Renova-Ravencrest", -- [2]
@@ -1738,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRenova-Ravencrest|r",
 			[51] = 1650037502,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [63]
 		{
 			"Arachnoid Harvester (330.40k/331.27k 99.74%) 51.86 41.16 |cffffff00|Hworldmap:1462:5185:4115|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Renova-Ravencrest", -- [2]
@@ -1760,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRenova-Ravencrest|r",
 			[51] = 1650037839,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [64]
 		{
 			"Arachnoid Harvester died at 18:50 server time!", -- [1]
 			"Renova-Ravencrest", -- [2]
@@ -1782,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRenova-Ravencrest|r",
 			[51] = 1650037857,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [65]
 		{
 			"Oh god, I finally got the harvester mount...", -- [1]
 			"Renova-Ravencrest", -- [2]
@@ -1804,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRenova-Ravencrest|r",
 			[51] = 1650037879,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [66]
 		{
 			" ruK G Ruk'ka'ha ruK RUk KEk TAr KEk  KAZUM'NOBU ", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
@@ -1826,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1650124924,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [83]
+		}, -- [67]
 		{
 			" ruK G Ruk'ka'ha ruK Gi GUl ZUg GUl  KAZUM'NOBU ", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
@@ -1848,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1650125047,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [84]
+		}, -- [68]
 		{
 			" ruK G Ruk'ka'ha ruK Ko KEk AAz KEk  KAZUM'NOBU ", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
@@ -1870,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1650125092,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [85]
+		}, -- [69]
 		{
 			"how long have u been waiting", -- [1]
 			"Ælli-Ravencrest", -- [2]
@@ -1892,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Ælli-Ravencrest|r",
 			[51] = 1650125380,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [86]
+		}, -- [70]
 		{
 			" ruK G Ruk'ka'ha ruK Ka GUl AAz  KAZUM'NOBU ", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
@@ -1914,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1650125628,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [87]
+		}, -- [71]
 		{
 			" ruK G Ruk'ka'ha ruK Ka GUl KEk  KAZUM'NOBU ", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
@@ -1936,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1650125633,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [88]
+		}, -- [72]
 		{
 			" ruK G Ruk'ka'ha ruK Ka GUl Ka  KAZUM'NOBU ", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
@@ -1958,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1650125687,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [89]
+		}, -- [73]
 		{
 			" ruK G Ruk'ka'ha ruK Ka TAr KIl  KAZUM'NOBU ", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
@@ -1980,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1650125994,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [90]
+		}, -- [74]
 		{
 			" ruK G Ruk'ka'ha ruK Ka RUk KIl  KAZUM'NOBU ", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
@@ -2002,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1650126111,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [91]
+		}, -- [75]
 		{
 			" ruK G Ruk'ka'ha ruK Ka KEk GUl  KAZUM'NOBU ", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
@@ -2024,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1650126210,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [92]
+		}, -- [76]
 		{
 			" ruK G Ruk'ka'ha ruK Ka Gi GUl  KAZUM'NOBU ", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
@@ -2046,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1650126248,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [93]
+		}, -- [77]
 		{
 			" ruK G Ruk'ka'ha ruK Ka Ka GUl  KAZUM'NOBU ", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
@@ -2068,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1650126530,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [94]
+		}, -- [78]
 		{
 			" ruK G Ruk'ka'ha ruK Ka Il TAr  KAZUM'NOBU ", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
@@ -2090,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1650126651,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [95]
+		}, -- [79]
 		{
 			"nogu kagg ha ogerin", -- [1]
 			"ßloodmonk-Silvermoon", -- [2]
@@ -2112,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97ßloodmonk-Silvermoon|r",
 			[51] = 1650126669,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [96]
+		}, -- [80]
 		{
 			"kaz", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
@@ -2134,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1650126687,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [97]
+		}, -- [81]
 		{
 			"ha g raznos", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
@@ -2156,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1650126688,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [98]
+		}, -- [82]
 		{
 			" ruK G Ruk'ka'ha ruK GUl KIl MOg KIl  REGASNOGAH ", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
@@ -2178,29 +1826,381 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1650126698,
 			[50] = "CHAT_MSG_SAY",
+		}, -- [83]
+		{
+			"you need lvl60 to be able to TP to Zereth Mortis ", -- [1]
+			"Chubbles-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Chubbles-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1149, -- [11]
+			"Player-1301-0BC4A098", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeChubbles|r",
+			[51] = 1650141309,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [84]
+		{
+			"You need achievements both in SL and Zereth Mortis to unlock flying", -- [1]
+			"Silverhând-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Silverhând-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1150, -- [11]
+			"Player-1301-0C192C2C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Silverhând|r",
+			[51] = 1650141313,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [85]
+		{
+			"Ahhhh I'll check those. Thank you guys", -- [1]
+			"William-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"William-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1151, -- [11]
+			"Player-1301-04B8D8F6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9William|r",
+			[51] = 1650141324,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [86]
+		{
+			"Unlocking the Secrets is the achievement you need", -- [1]
+			"Braetius-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Braetius-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1161, -- [11]
+			"Player-1301-0C27B58A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edBraetius|r",
+			[51] = 1650141352,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [87]
+		{
+			"Maybe a bad time to start with a new expansion being revealed soon lol", -- [1]
+			"William-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"William-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1162, -- [11]
+			"Player-1301-04B8D8F6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9William|r",
+			[51] = 1650141353,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [88]
+		{
+			"thanks mate", -- [1]
+			"William-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"William-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1165, -- [11]
+			"Player-1301-04B8D8F6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9William|r",
+			[51] = 1650141366,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [89]
+		{
+			"Will that give me flying for all zones? like bastion etc?", -- [1]
+			"William-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"William-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1167, -- [11]
+			"Player-1301-04B8D8F6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9William|r",
+			[51] = 1650141403,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [90]
+		{
+			"nah should be fine it's only the announcement probably talking november+ ", -- [1]
+			"Braetius-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Braetius-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1168, -- [11]
+			"Player-1301-0C27B58A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edBraetius|r",
+			[51] = 1650141409,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [91]
+		{
+			"Sorry I'm so confused", -- [1]
+			"William-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"William-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1169, -- [11]
+			"Player-1301-04B8D8F6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9William|r",
+			[51] = 1650141410,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"that achievement is for Zereth Mortis only ", -- [1]
+			"Braetius-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Braetius-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1170, -- [11]
+			"Player-1301-0C27B58A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edBraetius|r",
+			[51] = 1650141431,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"WTS 2v2 Arena 1.4 / 2.1", -- [1]
+			"Elesis-Outland", -- [2]
+			"", -- [3]
+			"1. General - Oribos", -- [4]
+			"Elesis-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Oribos", -- [9]
+			0, -- [10]
+			1450, -- [11]
+			"Player-1301-050D85CB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Elesis|r",
+			[51] = 1650142079,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"Furypig the 2 tier set trade chat legend", -- [1]
+			"Bleuberry-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Bleuberry-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1451, -- [11]
+			"Player-1301-052C26AC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeBleuberry|r",
+			[51] = 1650142084,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"games shit playbase is shit, bascially the same as 9,1 but with zereth mortis ", -- [1]
+			"Furypig-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Furypig-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1534, -- [11]
+			"Player-1301-0C2BACD2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cFurypig|r",
+			[51] = 1650142426,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"come back for new xpac unless u want collectibles like m+ mount and glad mount", -- [1]
+			"Selenarr-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Selenarr-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1535, -- [11]
+			"Player-1301-0523BFE2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaSelenarr|r",
+			[51] = 1650142428,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"WTB 291 BACK", -- [1]
+			"Immortaldru-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Immortaldru-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1536, -- [11]
+			"Player-1301-095FCA9A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Immortaldru|r",
+			[51] = 1650142428,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"WTB 291 back ", -- [1]
+			"Immortaldru-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Immortaldru-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1537, -- [11]
+			"Player-1301-095FCA9A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Immortaldru|r",
+			[51] = 1650142455,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/cw Tecknitik-Wildhammer hi, its a rate called Arachnoid Harvester", -- [1]
-		"/cw Cannabizy-Silvermoon sry we already got autofilled someone else", -- [2]
-		"/reload", -- [3]
-		"/1 ||Konthrogz up near consumption", -- [4]
-		"/cw Tecknitik-Wildhammer i usually wait around 20-30min in worst case scenarios", -- [5]
-		"/cw Katnish-Silvermoon inv plz", -- [6]
-		"/cw Tecknitik-Wildhammer it can drop a rare mount", -- [7]
-		"/cw Eirionaa-Drek'Thar inv plz", -- [8]
-		"/i lol", -- [9]
-		"/i thanks for waiting xD", -- [10]
-		"/cw Venaxus-Wildhammer can i have it plz?", -- [11]
-		"/cw Tecknitik-Wildhammer np :D", -- [12]
-		"/raid omw", -- [13]
-		"/1 Vexis up", -- [14]
-		"/1 Konthrogz up", -- [15]
-		"/who", -- [16]
-		"/cw Cannabizy-Silvermoon can i have it plz?", -- [17]
-		"/1 Famu up", -- [18]
-		"/i i cant taunt him here", -- [19]
-		"/i kite him", -- [20]
+		"/cw Cannabizy-Silvermoon sry we already got autofilled someone else", -- [1]
+		"/1 ||Konthrogz up near consumption", -- [2]
+		"/cw Katnish-Silvermoon inv plz", -- [3]
+		"/cw Eirionaa-Drek'Thar inv plz", -- [4]
+		"/i thanks for waiting xD", -- [5]
+		"/cw Tecknitik-Wildhammer np :D", -- [6]
+		"/1 Vexis up", -- [7]
+		"/who", -- [8]
+		"/1 Famu up", -- [9]
+		"/i kite him", -- [10]
+		"/reload", -- [11]
+		"/cw Tecknitik-Wildhammer it can drop a rare mount", -- [12]
+		"/cw Venaxus-Wildhammer can i have it plz?", -- [13]
+		"/1 Konthrogz up", -- [14]
+		"/i i cant taunt him here", -- [15]
+		"/cw Tecknitik-Wildhammer i usually wait around 20-30min in worst case scenarios", -- [16]
+		"/raid omw", -- [17]
+		"/cw Tecknitik-Wildhammer hi, its a rate called Arachnoid Harvester", -- [18]
+		"/cw Cannabizy-Silvermoon can i have it plz?", -- [19]
+		"/i lol", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }
