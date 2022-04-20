@@ -30,8 +30,8 @@ PawnOptions = {
 		}, -- [6]
 		{
 			["ID"] = 188887,
-			["Level"] = 265,
-			["Link"] = "|cffa335ee|Hitem:188887::::::::60:267::5:5:7188:41:8155:1485:6646::::::|h[Leggings of the Demon Star]|h|r",
+			["Level"] = 275,
+			["Link"] = "|cffa335ee|Hitem:188887::::::::60:267::35:6:7771:8116:6652:7359:8155:1495::::::|h[Leggings of the Demon Star]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 189794,

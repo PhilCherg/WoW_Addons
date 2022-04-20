@@ -33,8 +33,8 @@ PawnOptions = {
 		}, -- [6]
 		{
 			["ID"] = 188887,
-			["Level"] = 265,
-			["Link"] = "|cffa335ee|Hitem:188887::::::::60:267::5:5:7188:41:8155:1485:6646::::::|h[Leggings of the Demon Star]|h|r",
+			["Level"] = 275,
+			["Link"] = "|cffa335ee|Hitem:188887::::::::60:267::35:6:7771:8116:6652:7359:8155:1495::::::|h[Leggings of the Demon Star]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 189794,
@@ -52,16 +52,16 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:188890::::::::60:267::3:5:7189:6652:8154:1472:6646::::::|h[Grasps of the Demon Star]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 189854,
-			["Level"] = 259,
+			["ID"] = 189772,
+			["Level"] = 265,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:189854::::::::60:267::3:5:7189:6652:7578:1498:6646:1:28:2165:::::|h[Rygelon's Heraldric Ring]|h|r",
+			["Link"] = "|cffa335ee|Hitem:189772::::::::60:267::5:5:7188:6652:7578:1511:6646:1:28:2166:::::|h[Modified Defense Grid]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 189854,
-			["Level"] = 259,
+			["ID"] = 189772,
+			["Level"] = 265,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:189854:6166:::::::60:267::3:5:7189:6652:7578:1498:6646:1:28:2165:::::|h[Rygelon's Heraldric Ring]|h|r",
+			["Link"] = "|cffa335ee|Hitem:189772:6166:::::::60:267::5:5:7188:6652:7578:1511:6646:1:28:2166:::::|h[Modified Defense Grid]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 180117,

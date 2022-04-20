@@ -111,11 +111,11 @@ TalentSetManager_CharacterSaves = {
 			["auto_equip3"] = 0,
 		},
 	},
-	["Destruxia-Outland"] = {
+	["Asdfsadfsadf-Outland"] = {
 		["talents_pvp"] = {
 		},
 		["talents"] = {
-			[2] = {
+			[3] = {
 			},
 		},
 		["version"] = 0,
@@ -186,10 +186,23 @@ TalentSetManager_CharacterSaves = {
 			["auto_equip3"] = 0,
 		},
 	},
-	["Phaltraxion-Outland"] = {
+	["Lianxia-Draenor"] = {
 		["talents"] = {
-			{
-			}, -- [1]
+			[2] = {
+			},
+		},
+		["talents_pvp"] = {
+		},
+		["version"] = 0,
+		["interface"] = {
+			["auto_equip4"] = 0,
+			["auto_equip2"] = 0,
+			["auto_equip1"] = 0,
+			["auto_equip3"] = 0,
+		},
+	},
+	["Asdsaasdf-Outland"] = {
+		["talents"] = {
 			[3] = {
 			},
 		},
@@ -203,26 +216,11 @@ TalentSetManager_CharacterSaves = {
 			["auto_equip3"] = 0,
 		},
 	},
-	["Chernakotka-Die Aldor"] = {
-		["talents"] = {
-			[3] = {
-			},
-		},
-		["talents_pvp"] = {
-		},
-		["version"] = 0,
-		["interface"] = {
-			["auto_equip4"] = 0,
-			["auto_equip2"] = 0,
-			["auto_equip1"] = 0,
-			["auto_equip3"] = 0,
-		},
-	},
-	["Asdfsadfsadf-Outland"] = {
+	["Destruxia-Outland"] = {
 		["talents_pvp"] = {
 		},
 		["talents"] = {
-			[3] = {
+			[2] = {
 			},
 		},
 		["version"] = 0,
@@ -263,9 +261,11 @@ TalentSetManager_CharacterSaves = {
 			["auto_equip3"] = 0,
 		},
 	},
-	["Lianxia-Draenor"] = {
+	["Phaltraxion-Outland"] = {
 		["talents"] = {
-			[2] = {
+			{
+			}, -- [1]
+			[3] = {
 			},
 		},
 		["talents_pvp"] = {
@@ -474,7 +474,7 @@ TalentSetManager_CharacterSaves = {
 			["auto_equip3"] = 0,
 		},
 	},
-	["Asdsaasdf-Outland"] = {
+	["Chernakotka-Die Aldor"] = {
 		["talents"] = {
 			[3] = {
 			},

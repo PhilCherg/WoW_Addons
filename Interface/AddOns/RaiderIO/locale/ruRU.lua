@@ -1,4 +1,4 @@
--- Generated from CurseForge on Sun Apr 17 18:47:37 UTC 2022
+-- Generated from CurseForge on Wed Apr 20 18:51:57 UTC 2022
 local ns = select(2, ...) ---@type ns @The addon namespace.
 
 if ns:IsSameLocale("ruRU") then
@@ -77,8 +77,7 @@ L["DUNGEON_SHORT_NAME_DHT"] = "Чаща Темного Сердца"
 L["DUNGEON_SHORT_NAME_DOS"] = "Та Сторона"
 L["DUNGEON_SHORT_NAME_EOA"] = "Око Азшары"
 L["DUNGEON_SHORT_NAME_FH"] = "Вольная гавань"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_GMBT"] = ""--]] 
+L["DUNGEON_SHORT_NAME_GMBT"] = "Гамбит Со'леи"
 L["DUNGEON_SHORT_NAME_HOA"] = "Чертоги Покаяния"
 L["DUNGEON_SHORT_NAME_HOV"] = "Чертоги Доблести"
 L["DUNGEON_SHORT_NAME_KR"] = "Гробница Королей"
@@ -94,8 +93,7 @@ L["DUNGEON_SHORT_NAME_SEAT"] = "Престол Триумвирата"
 L["DUNGEON_SHORT_NAME_SIEGE"] = "Осада Боралуса"
 L["DUNGEON_SHORT_NAME_SOA"] = "Шпили Перерождения"
 L["DUNGEON_SHORT_NAME_SOTS"] = "Святилище Штормов"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_STRT"] = ""--]] 
+L["DUNGEON_SHORT_NAME_STRT"] = "Улицы Чудес"
 L["DUNGEON_SHORT_NAME_TD"] = "Тол Дагор"
 L["DUNGEON_SHORT_NAME_TM"] = "ЗОЛОТАЯ ЖИЛА!!!"
 L["DUNGEON_SHORT_NAME_TOP"] = "Театр Боли"
