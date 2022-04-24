@@ -386,6 +386,9 @@ P.bags = {
 		showCount = true,
 		justBackpack = false,
 		visibility = E.Retail and '[petbattle] hide; show' or 'show',
+		font = 'PT Sans Narrow',
+		fontOutline = 'OUTLINE',
+		fontSize = 12,
 	},
 }
 
@@ -1272,6 +1275,7 @@ local UF_Castbar = {
 	iconYOffset = 0,
 	insideInfoPanel = true,
 	overlayOnFrame = 'None',
+	displayTarget = false,
 	reverse = false,
 	spark = true,
 	textColor = {r = 0.84, g = 0.75, b = 0.65, a = 1},
@@ -1432,6 +1436,7 @@ local UF_PVPIcon = {
 
 local UF_RaidRoles = {
 	enable = true,
+	scale = 1,
 	position = 'TOPLEFT',
 	xOffset = 0,
 	yOffset = 4,
@@ -1620,6 +1625,11 @@ P.unitframe = {
 			MAELSTROM = {r = 0, g = 0.5, b = 1},
 			ALT_POWER = {r = 0.2, g = 0.4, b = 0.8},
 		},
+		happiness = {
+			[1] = {r = .69, g = .31, b = .31},
+			[2] = {r = .65, g = .63, b = .35},
+			[3] = {r = .33, g = .59, b = .33},
+		},
 		reaction = {
 			BAD = { r = 199/255, g = 64/255, b = 64/255 },
 			NEUTRAL = { r = 218/255, g = 197/255, b = 92/255 },
@@ -1739,6 +1749,7 @@ P.unitframe = {
 				xOffset = -3,
 				yOffset = 6,
 				size = 22,
+				hideAtMaxLevel = false,
 			},
 			CombatIcon = CopyTable(UF_CombatIcon),
 			classbar = CopyTable(UF_ClassBar),
@@ -2021,7 +2032,6 @@ P.unitframe.units.player.buffs.priority = 'Blacklist,Personal,PlayerBuffs,Whitel
 P.unitframe.units.player.debuffs.enable = true
 P.unitframe.units.player.debuffs.priority = 'Blacklist,Personal,nonPersonal'
 P.unitframe.units.player.castbar.latency = true
-P.unitframe.units.player.castbar.displayTarget = false
 
 P.unitframe.units.player.fader.enable = false
 P.unitframe.units.player.fader.casting = true

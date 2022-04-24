@@ -87,7 +87,7 @@ local trackEnableMouse,suppressNextMouseEnable = false,false; -- try to get more
 do
 	local addon_short = "FH";
 	local colors = {"82c5ff","00ff00","ff6060","44ffff","ffff00","ff8800","ff44ff","ffffff"};
-	local debugMode = "9.0.2-release" == "@".."project-version".."@";
+	local debugMode = "9.0.3-release" == "@".."project-version".."@";
 	local function colorize(...)
 		local t,c,a1 = {tostringall(...)},1,...;
 		if type(a1)=="boolean" then tremove(t,1); end
@@ -945,7 +945,7 @@ function FarmHudMixin:ToggleOptions()
 		ACD:Close(addon);
 	else
 		ACD:Open(addon);
-		ACD.OpenFrames[addon]:SetStatusText(GAME_VERSION_LABEL..CHAT_HEADER_SUFFIX.."9.0.2-release");
+		ACD.OpenFrames[addon]:SetStatusText(GAME_VERSION_LABEL..CHAT_HEADER_SUFFIX.."9.0.3-release");
 	end
 end
 

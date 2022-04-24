@@ -135,6 +135,10 @@ function FarmHudTrailPathPinMixin:UpdatePin(facing,pinIcon,scale)
 	end
 end
 
+function FarmHudTrailPathPinMixin:EnableMouse()
+	-- dummy
+end
+
 local function GetMicrotime()
 	return ceil(GetTime()*100);
 end
@@ -220,8 +224,10 @@ local function UpdateTrailPath(force)
 	elseif force==false and trailPathTicker then
 		trailPathTicker:Cancel();
 		trailPathTicker = nil;
-		for i,v in ipairs(FarmHud.TrailPathPool)do
-			v:Hide();
+		if FarmHud.TrailPathPool then
+			for i,v in ipairs(FarmHud.TrailPathPool)do
+				v:Hide();
+			end
 		end
 	end
 end

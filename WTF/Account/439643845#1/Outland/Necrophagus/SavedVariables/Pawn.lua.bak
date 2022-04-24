@@ -1,6 +1,9 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0537,
+	["LastPlayerFullName"] = "Necrophagus-Outland",
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 188889,
@@ -49,16 +52,16 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:188890::::::::60:267::3:5:7189:6652:8154:1472:6646::::::|h[Grasps of the Demon Star]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 189854,
-			["Level"] = 259,
+			["ID"] = 189772,
+			["Level"] = 265,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:189854::::::::60:267::3:5:7189:6652:7578:1498:6646:1:28:2165:::::|h[Rygelon's Heraldric Ring]|h|r",
+			["Link"] = "|cffa335ee|Hitem:189772::::::::60:267::5:5:7188:6652:7578:1511:6646:1:28:2166:::::|h[Modified Defense Grid]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 189854,
-			["Level"] = 259,
+			["ID"] = 189772,
+			["Level"] = 265,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:189854:6166:::::::60:267::3:5:7189:6652:7578:1498:6646:1:28:2165:::::|h[Rygelon's Heraldric Ring]|h|r",
+			["Link"] = "|cffa335ee|Hitem:189772:6166:::::::60:267::5:5:7188:6652:7578:1511:6646:1:28:2166:::::|h[Modified Defense Grid]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 180117,
@@ -88,9 +91,7 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178868::::::::60:267::35:5:7662:7359:6652:1560:6646::::::|h[Deathwalker's Promise]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Necrophagus-Outland",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128941] = {
 			["Relics"] = {
@@ -132,7 +133,6 @@ PawnOptions = {
 			["Name"] = "Underlight Angler",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "WARLOCK",

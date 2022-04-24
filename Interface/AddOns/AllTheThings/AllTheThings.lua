@@ -51,7 +51,7 @@ local IsTitleKnown = _G["IsTitleKnown"];
 local InCombatLockdown = _G["InCombatLockdown"];
 local MAX_CREATURES_PER_ENCOUNTER = 9;
 local DESCRIPTION_SEPARATOR = "`";
-local rawget, rawset, tinsert, string_lower, tostring, ipairs, pairs = rawget, rawset, tinsert, string.lower, tostring, ipairs, pairs;
+local rawget, rawset, tinsert, string_lower, tostring, ipairs, pairs, tonumber = rawget, rawset, tinsert, string.lower, tostring, ipairs, pairs, tonumber;
 local ATTAccountWideData;
 local ALLIANCE_ONLY = {
 	1,
@@ -1321,29 +1321,101 @@ function app:PlayAudio(targetAudio, delay)
 end
 
 -- Color Lib
-local CS = CreateFrame("ColorSelect", nil, app._);
-local function Colorize(str, color)
-	return "|c" .. color .. str .. "|r";
-end
+local GetProgressColor, Colorize, RGBToHex;
 local function HexToARGB(hex)
 	return tonumber("0x"..hex:sub(1,2)), tonumber("0x"..hex:sub(3,4)), tonumber("0x"..hex:sub(5,6)), tonumber("0x"..hex:sub(7,8));
 end
 local function HexToRGB(hex)
-	return tonumber("0x"..hex:sub(1,2)), tonumber("0x"..hex:sub(3,4)), tonumber("0x"..hex:sub(5,6));
+	return tonumber("0x"..hex:sub(1,2)) / 255, tonumber("0x"..hex:sub(3,4)) / 255, tonumber("0x"..hex:sub(5,6)) / 255;
 end
-local function RGBToHex(r, g, b)
+(function()
+local RAID_CLASS_COLORS = RAID_CLASS_COLORS;
+local Alliance, Horde = Enum.FlightPathFaction.Alliance, Enum.FlightPathFaction.Horde;
+-- Color AARRGGBB values used throughout ATT
+app.Colors = {
+	["Raid"] = "ffff8000",
+	["SourceIgnored"] = "ffd15517",
+	["Locked"] = "ff7f40bf",
+	["LockedWarning"] = "ffd15517",
+	["Horde"] = "ffcc6666",
+	["Alliance"] = "ff407fbf",
+	["Completed"] = "ff15abff",
+	["ChatLinkError"] = "ffff5c6c",
+	["ChatLinkHQT"] = "ff7aff92",
+	["ChatLink"] = "ff149bfd",
+	["TooltipDescription"] = "ff66ccff",
+	["DefaultDifficulty"] = "ff1eff00",
+};
+Colorize = function(str, color)
+	return "|c" .. color .. str .. "|r";
+end
+RGBToHex = function(r, g, b)
 	return string.format("ff%02x%02x%02x",
 		r <= 255 and r >= 0 and r or 0,
 		g <= 255 and g >= 0 and g or 0,
 		b <= 255 and b >= 0 and b or 0);
 end
+-- Attempts to determine the colorized text for a given Group
+app.TryColorizeName = function(group, name)
+	if not name or name == RETRIEVING_DATA then return name; end
+	-- raid headers
+	if group.isRaid then
+		return Colorize(name, app.Colors.Raid);
+	-- groups which are ignored for progress
+	elseif group.sourceIgnored then
+		return Colorize(name, app.Colors.SourceIgnored);
+	-- faction rep status
+	elseif group.factionID and group.standing then
+		return app.ColorizeStandingText((group.saved and 8) or (group.standing + (group.isFriend and 2 or 0)), name);
+	-- locked/breadcrumb things
+	elseif group.locked or group.isBreadcrumb then
+		return Colorize(name, app.Colors.Locked);
+		-- if people REALLY only want to see colors in account/debug then we can comment this in
+	elseif app.Settings:GetTooltipSetting("UseMoreColors") --and (app.MODE_ACCOUNT or app.MODE_DEBUG)
+	then
+		-- class color
+		if group.classID then
+			return Colorize(name, RAID_CLASS_COLORS[select(2, GetClassInfo(group.classID))].colorStr);
+		elseif group.c and #group.c == 1 then
+			return Colorize(name, RAID_CLASS_COLORS[select(2, GetClassInfo(group.c[1]))].colorStr);
+		-- faction colors
+		elseif group.r then
+			-- red for Horde
+			if group.r == Horde then
+				return Colorize(name, app.Colors.Horde);
+			-- blue for Alliance
+			elseif group.r == Alliance then
+				return Colorize(name, app.Colors.Alliance);
+			end
+		-- specific races
+		elseif group.races then
+			local hrace = containsAny(group.races, HORDE_ONLY);
+			local arace = containsAny(group.races, ALLIANCE_ONLY);
+			if hrace and not arace then
+				-- this group requires a horde-only race, and not any alliance race
+				return Colorize(name, app.Colors.Horde);
+			elseif arace and not hrace then
+				-- this group requires a alliance-only race, and not any horde race
+				return Colorize(name, app.Colors.Alliance);
+			end
+		-- un-acquirable color
+		-- TODO: grey color for things which are otherwise not available to the current character (would only show in account mode due to filtering)
+		-- elseif not app.FilterItemClass(group) then
+		-- 	return Colorize(name, "ff808080");
+		end
+	end
+	return name;
+end
+local CS = CreateFrame("ColorSelect", nil, app._);
+CS:Hide();
 local function ConvertColorRgbToHsv(r, g, b)
   CS:SetColorRGB(r, g, b);
   local h,s,v = CS:GetColorHSV()
   return {h=h,s=s,v=v}
 end
 local red, green = ConvertColorRgbToHsv(1,0,0), ConvertColorRgbToHsv(0,1,0);
-local progress_colors = setmetatable({[1] = "ff15abff"}, {
+local abs, floor = abs, floor;
+local progress_colors = setmetatable({[1] = app.Colors.Completed}, {
 	__index = function(t, p)
 		local h;
 		p = tonumber(p);
@@ -1366,6 +1438,11 @@ local progress_colors = setmetatable({[1] = "ff15abff"}, {
 		return color;
 	end
 });
+GetProgressColor = function(p)
+	return progress_colors[p];
+end
+end)();
+
 local function GetNumberWithZeros(number, desiredLength)
 	if desiredLength > 0 then
 		local str = tostring(number);
@@ -1400,9 +1477,6 @@ local function GetProgressPercent(progress, total)
 	local percent = (progress or 0) / total;
 	return percent, app.Settings:GetTooltipSetting("Show:Percentage")
 		and (" (" .. GetNumberWithZeros(percent * 100, app.Settings:GetTooltipSetting("Precision")) .. "%)");
-end
-local function GetProgressColor(p)
-	return progress_colors[p];
 end
 local function GetProgressColorText(progress, total)
 	if total and total > 0 then
@@ -1468,7 +1542,6 @@ end
 app.GetProgressText = GetProgressTextDefault;
 app.GetProgressTextDefault = GetProgressTextDefault;
 app.GetProgressTextRemaining = GetProgressTextRemaining;
-CS:Hide();
 
 -- Source ID Harvesting Lib
 local DressUpModel = CreateFrame('DressUpModel');
@@ -2257,7 +2330,7 @@ app.CheckInaccurateQuestInfo = function(questRef, questChange)
 			if app:SetupReportDialog(popupID, "Inaccurate Quest Info: " .. id,
 				app.BuildDiscordQuestInfoTable(id, "inaccurate-quest", questChange, questRef)
 			) then
-				local reportMsg = app:Linkify(L["REPORT_INACCURATE_QUEST"], "f7b531", "dialog:" .. popupID);
+				local reportMsg = app:Linkify(L["REPORT_INACCURATE_QUEST"], app.Colors.ChatLinkError, "dialog:" .. popupID);
 				Callback(app.print, reportMsg);
 			end
 		end
@@ -2283,7 +2356,7 @@ local PrintQuestInfo = function(questID, new, info)
 		if not questRef or GetRelativeField(questRef, "text", L["UNSORTED_1"]) then
 			-- Linkify the output
 			local popupID = "quest-" .. questID .. questChange;
-			chatMsg = app:Linkify(questID .. " (Not in ATT " .. app.Version .. ")", "ff5c6c", "dialog:" .. popupID);
+			chatMsg = app:Linkify(questID .. " (Not in ATT " .. app.Version .. ")", app.Colors.ChatLinkError, "dialog:" .. popupID);
 			app:SetupReportDialog(popupID, "Missing Quest: " .. questID,
 				app.BuildDiscordQuestInfoTable(questID, "missing-quest", questChange)
 			);
@@ -2292,7 +2365,7 @@ local PrintQuestInfo = function(questID, new, info)
 			if GetRelativeField(questRef, "text", L["NEVER_IMPLEMENTED"]) then
 				-- Linkify the output
 				local popupID = "quest-" .. questID .. questChange;
-				chatMsg = app:Linkify(questID .. " [NYI] ATT " .. app.Version, "ff5c6c", "dialog:" .. popupID);
+				chatMsg = app:Linkify(questID .. " [NYI] ATT " .. app.Version, app.Colors.ChatLinkError, "dialog:" .. popupID);
 				app:SetupReportDialog(popupID, "NYI Quest: " .. questID,
 					app.BuildDiscordQuestInfoTable(questID, "nyi-quest", questChange)
 				);
@@ -2304,13 +2377,13 @@ local PrintQuestInfo = function(questID, new, info)
 					return true;
 				end
 				-- Linkify the output
-				chatMsg = app:Linkify(questID .. " [HQT]", "7aff92", "search:questID:" .. questID);
+				chatMsg = app:Linkify(questID .. " [HQT]", app.Colors.ChatLinkHQT, "search:questID:" .. questID);
 			else
 				if app.Settings:GetTooltipSetting("Report:UnsortedQuests") then
 					return true;
 				end
 				-- Linkify the output
-				chatMsg = app:Linkify(questID, "149bfd", "search:questID:" .. questID);
+				chatMsg = app:Linkify(questID, app.Colors.ChatLink, "search:questID:" .. questID);
 			end
 		end
 		print("Quest",questChange,chatMsg,(info or ""));
@@ -2352,8 +2425,8 @@ local IsAnyQuestFlaggedCompleted = function(quests)
 end
 local IsQuestFlaggedCompletedForObject = function(t)
 	-- nil if not a quest-based object
-	if not t.questID then return; end
 	local questID = t.questID;
+	if not questID then return; end
 	-- 1 = This character completed this quest
 	-- 2 = This quest was completed by another character on the account / This quest cannot be completed by this character
 	-- If the quest is completed for this character, return completed.
@@ -2362,8 +2435,8 @@ local IsQuestFlaggedCompletedForObject = function(t)
 	end
 	-- account-mode: any character is viable to complete the quest, so alt quest completion shouldn't count for this quest
 	-- this quest cannot be obtained if any altQuest is completed on this character and not tracking as account mode
-	-- If the quest has an altQuest which was completed on this character and this character is not in Party Sync, return shared completed
-	if not app.MODE_DEBUG_OR_ACCOUNT and t.altcollected and not app.IsInPartySync then
+	-- If the quest has an altQuest which was completed on this character and this character is not in Party Sync nor tracking Locked Quests, return shared completed
+	if not app.MODE_DEBUG_OR_ACCOUNT and t.altcollected and not app.IsInPartySync and not app.CollectibleQuestsLocked then
 		return 2;
 	end
 	-- If the quest is repeatable, then check other things to determine if it has ever been completed
@@ -3300,7 +3373,7 @@ ResolveSymbolicLink = function(o)
 				local field = sym[2];
 				local cache;
 				for i=3,#sym do
-					cache = app.SearchForField(field, sym[i]);
+					cache = app.CleanSourceIgnoredGroups(app.SearchForField(field, sym[i]));
 					if cache then
 						for _,s in ipairs(cache) do
 							if s == o or (s.hash and s.hash == o.hash) then
@@ -3331,10 +3404,17 @@ ResolveSymbolicLink = function(o)
 					-- Select the direct parent object.
 					tinsert(searchResults, o.parent);
 				end
+			elseif cmd == "selectprofession" then
+				local cache = app:BuildSearchResponse(app:GetDataCache().g, "requireSkill", sym[2]);
+				if cache and #cache > 0 then
+					for _,k in ipairs(cache) do
+						tinsert(searchResults, k);
+					end
+				end
 			elseif cmd == "fill" then
 				-- Instruction to fill with identical content cached elsewhere for this group (no symlinks)
 				if o.key and o[o.key] then
-					local cache = app.SearchForField(o.key, o[o.key]);
+					local cache = app.CleanSourceIgnoredGroups(app.SearchForField(o.key, o[o.key]));
 					if cache then
 						for _,s in ipairs(cache) do
 							ArrayAppend(searchResults, s.g);
@@ -3765,6 +3845,9 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 	if a then paramA = a; end
 	if b then paramB = b; end
 
+	-- Clean results which are cached under 'Source Ignored' content since they've been copied from another Source and we don't care about them in search results
+	group = app.CleanSourceIgnoredGroups(group);
+
 	-- For Creatures and Encounters that are inside of an instance, we only want the data relevant for the instance + difficulty.
 	if paramA == "creatureID" or paramA == "encounterID" then
 		if group and #group > 0 then
@@ -4102,7 +4185,7 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 							-- if this is true here, that means C_TransmogCollection_GetAllAppearanceSources() for this SourceID's VisualID
 							-- does not return this SourceID, so it doesn't get flagged by the refresh logic and we need to track it manually for
 							-- this Account as being 'collected'
-							if topLevelSearch then tinsert(info, { left = Colorize(L["ADHOC_UNIQUE_COLLECTED_INFO"], "ffe35832") }); end
+							if topLevelSearch then tinsert(info, { left = Colorize(L["ADHOC_UNIQUE_COLLECTED_INFO"], app.Colors.ChatLinkError) }); end
 							-- if the tooltip immediately refreshes for whatever reason the
 							-- store this SourceID as being collected* so it can be properly collected* during force refreshes in the future without requiring a tooltip search
 							if not ATTAccountWideData.BrokenUniqueSources then ATTAccountWideData.BrokenUniqueSources = {}; end
@@ -4113,9 +4196,9 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 
 					if topLevelSearch then
 						if app.IsReady and sourceGroup.missing and itemID ~= 53097 then
-							tinsert(info, { left = Colorize("Item Source not found in the " .. app.Version .. " database.\n" .. L["SOURCE_ID_MISSING"], "ffff0000") });	-- Do not localize first part of the message, it is for contribs
-							tinsert(info, { left = Colorize(sourceID .. ":" .. tostring(sourceInfo.visualID), "ffe35832") });
-							tinsert(info, { left = Colorize(itemString, "ffe35832") });
+							tinsert(info, { left = Colorize("Item Source not found in the " .. app.Version .. " database.\n" .. L["SOURCE_ID_MISSING"], app.Colors.ChatLinkError) });	-- Do not localize first part of the message, it is for contribs
+							tinsert(info, { left = Colorize(sourceID .. ":" .. tostring(sourceInfo.visualID), app.Colors.SourceIgnored) });
+							tinsert(info, { left = Colorize(itemString, app.Colors.SourceIgnored) });
 						end
 						if app.Settings:GetTooltipSetting("visualID") then tinsert(info, { left = L["VISUAL_ID"], right = tostring(sourceInfo.visualID) }); end
 						if app.Settings:GetTooltipSetting("sourceID") then tinsert(info, { left = L["SOURCE_ID"], right = sourceID .. " " .. GetCollectionIcon(sourceInfo.isCollected) }); end
@@ -4174,7 +4257,7 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 							tinsert(info, 1, { left = L["ARTIFACT_RELIC_COMPLETION"], right = L[progress == total and "TRADEABLE" or "NOT_TRADEABLE"] });
 						end
 					else
-						tinsert(info, 1, { left = L["ARTIFACT_RELIC_CACHE"], wrap = true, color = "ff66ccff" });
+						tinsert(info, 1, { left = L["ARTIFACT_RELIC_CACHE"], wrap = true, color = app.Colors.TooltipDescription });
 					end
 				end
 			end
@@ -4193,7 +4276,6 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 			if j.parent and not j.parent.hideText and j.parent.parent
 				and (showCompleted or not app.IsComplete(j))
 				and not app.HasCost(j, paramA, paramB)
-				and not app.RecursiveFirstParentWithField(j, "sourceIgnored")
 				then
 				text = BuildSourceText(paramA ~= "itemID" and j.parent or j, paramA ~= "itemID" and 1 or 0);
 				if showUnsorted or (not string.match(text, L["UNSORTED_1"]) and not string.match(text, L["HIDDEN_QUEST_TRIGGERS"])) then
@@ -4446,21 +4528,21 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 	if topLevelSearch and not app.ATTWindowTooltip then
 		-- Add various text to the group now that it has been consolidated from all sources
 		if group.isLimited then
-			tinsert(info, 1, { left = L.LIMITED_QUANTITY, wrap = false, color = "ff66ccff" });
+			tinsert(info, 1, { left = L.LIMITED_QUANTITY, wrap = false, color = app.Colors.TooltipDescription });
 		end
 		-- Description for Items
 		if group.lore and app.Settings:GetTooltipSetting("Lore") then
-			tinsert(info, 1, { left = group.lore, wrap = true, color = "ff66ccff" });
+			tinsert(info, 1, { left = group.lore, wrap = true, color = app.Colors.TooltipDescription });
 		end
 		if group.description and app.Settings:GetTooltipSetting("Descriptions") then
-			tinsert(info, 1, { left = group.description, wrap = true, color = "ff66ccff" });
+			tinsert(info, 1, { left = group.description, wrap = true, color = app.Colors.TooltipDescription });
 		end
 		if group.u and (not group.crs or group.itemID or group.s) then
 			tinsert(info, { left = L["UNOBTAINABLE_ITEM_REASONS"][group.u][2], wrap = true });
 		end
 		-- an item used for a faction which is repeatable
 		if group.itemID and group.factionID and group.repeatable then
-			tinsert(info, { left = L["ITEM_GIVES_REP"] .. (select(1, GetFactionInfoByID(group.factionID)) or ("Faction #" .. tostring(group.factionID))) .. "'", wrap = true, color = "ff66ccff" });
+			tinsert(info, { left = L["ITEM_GIVES_REP"] .. (select(1, GetFactionInfoByID(group.factionID)) or ("Faction #" .. tostring(group.factionID))) .. "'", wrap = true, color = app.Colors.TooltipDescription });
 		end
 		-- Pet Battles
 		if group.pb then
@@ -4472,7 +4554,7 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 		end
 		if paramA == "itemID" and paramB == 137642 then
 			if app.Settings:GetTooltipSetting("SummarizeThings") then
-				tinsert(info, 1, { left = L["MARKS_OF_HONOR_DESC"], color = "ffff8426" });
+				tinsert(info, 1, { left = L["MARKS_OF_HONOR_DESC"], color = app.Colors.SourceIgnored });
 			end
 		end
 		-- Ignored for Source/Progress
@@ -4627,7 +4709,7 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 		if #knownBy > 0 then
 			app.Sort(knownBy, function(a, b) return (a.name or "") < (b.name or ""); end);
 			local desc = L["KNOWN_BY"] .. app.TableConcat(knownBy, "text", "??", ", ");
-			tinsert(info, { left = string.gsub(desc, "-" .. GetRealmName(), ""), wrap = true, color = "ff66ccff" });
+			tinsert(info, { left = string.gsub(desc, "-" .. GetRealmName(), ""), wrap = true, color = app.Colors.TooltipDescription });
 		end
 	end
 
@@ -4874,6 +4956,7 @@ local ThingKeys = {
 	-- ["mapID"] = true,
 	["npcID"] = true,
 	["creatureID"] = true,
+	["currencyID"] = true,
 	["itemID"] = true,
 	["s"] = true,
 	["speciesID"] = true,
@@ -4896,11 +4979,11 @@ app.BuildSourceParent = function(group)
 	local things = app.SearchForLink(groupKey .. ":" .. keyValue);
 	if things then
 		-- print("Found things",#things)
-		local parents, parentKey;
+		local parents, parentKey, parent;
 		-- collect all possible parent groups for all instances of this Thing
 		for _,thing in pairs(things) do
-			local parent = thing.sourceParent or thing.parent;
-			if parent then
+			parent = thing.parent;
+			while parent do
 				-- print("parent",parent.text,parent.key)
 				parentKey = parent.key;
 				if parentKey and parent[parentKey] then
@@ -4916,9 +4999,12 @@ app.BuildSourceParent = function(group)
 							if parents then tinsert(parents, parent);
 							else parents = { parent }; end
 						end
+						break;
 					end
 					-- TODO: maybe handle mapID/instanceID in a different way as a fallback for things nested under headers within a zone....?
 				end
+				-- move to the next parent if the current parent is not a valid 'Thing'
+				parent = parent.parent;
 			end
 			-- Things tagged with an npcID should show that NPC as a Source
 			if thing.key ~= "npcID" and (thing.npcID or thing.creatureID) then
@@ -5190,6 +5276,7 @@ fieldCache["nextQuests"] = {};
 fieldCache["objectID"] = {};
 fieldCache["professionID"] = {};
 fieldCache["questID"] = {};
+fieldCache["runeforgePowerID"] = {};
 fieldCache["s"] = {};
 fieldCache["speciesID"] = {};
 fieldCache["spellID"] = {};
@@ -5297,6 +5384,9 @@ fieldConverters = {
 	["questID"] = cacheQuestID,
 	["requireSkill"] = function(group, value)
 		CacheField(group, "professionID", value);
+	end,
+	["runeforgePowerID"] = function(group, value)
+		CacheField(group, "runeforgePowerID", value);
 	end,
 	["s"] = function(group, value)
 		CacheField(group, "s", value);
@@ -5628,26 +5718,28 @@ local function SearchForLink(link)
 		end
 		if id then id = tonumber(select(1, strsplit("|[", id)) or id); end
 		--print(string.gsub(string.gsub(link, "|c", "c"), "|h", "h"));
-		if kind == "itemid" then
+		if kind == "itemid" or kind == "i" then
 			return SearchForField("itemID", id);
 		elseif kind == "sourceid" or kind == "s" then
 			return SearchForField("s", id);
-		elseif kind == "questid" or kind == "quest" then
+		elseif kind == "questid" or kind == "quest" or kind == "q" then
 			return SearchForField("questID", id);
-		elseif kind == "creatureid" or kind == "npcid" then
+		elseif kind == "creatureid" or kind == "npcid" or kind == "n" then
 			return SearchForField("creatureID", id);
-		elseif kind == "achievementid" or kind == "achievement" then
+		elseif kind == "achievementid" or kind == "achievement" or kind == "a" then
 			return SearchForField("achievementID", id);
-		elseif kind == "currencyid" or kind == "currency" then
+		elseif kind == "currencyid" or kind == "currency" or kind == "c" then
 			return SearchForField("currencyID", id);
-		elseif kind == "spellid" or kind == "spell" or kind == "enchant" or kind == "talent" then
+		elseif kind == "spellid" or kind == "spell" or kind == "enchant" or kind == "talent" or kind == "mount" or kind == "mountid" then
 			return SearchForField("spellID", id);
 		elseif kind == "speciesid" or kind == "species" or kind == "battlepet" then
 			return SearchForField("speciesID", id);
-		elseif kind == "follower" or kind == "followerid" or kind == "followerID" or kind == "garrfollower" then
+		elseif kind == "follower" or kind == "followerid" or kind == "garrfollower" then
 			return SearchForField("followerID", id);
-		elseif kind == "azessence" or kind == "azeriteEssenceID" then
+		elseif kind == "azessence" or kind == "azeriteessenceid" then
 			return SearchForField("azeriteEssenceID", id);
+		elseif kind == "rfp" or kind == "runeforgepowerid" then
+			return SearchForField("runeforgePowerID", id);
 		else
 			return SearchForField(string.gsub(kind, "id", "ID"), id);
 		end
@@ -6356,7 +6448,7 @@ local function RefreshCollections()
 
 		-- Harvest Illusion Collections
 		local collectedIllusions = ATTAccountWideData.Illusions;
-		for i,illusion in ipairs(C_TransmogCollection.GetIllusions()) do
+		for _,illusion in ipairs(C_TransmogCollection.GetIllusions()) do
 			if rawget(illusion, "isCollected") then rawset(collectedIllusions, illusion.sourceID, 1); end
 		end
 		coroutine.yield();
@@ -6366,6 +6458,7 @@ local function RefreshCollections()
 		local acctTitles, charTitles, charGuid = ATTAccountWideData.Titles, app.CurrentCharacter.Titles, app.GUID;
 		for i=1,GetNumTitles(),1 do
 			if IsTitleKnown(i) then
+				if not acctTitles[i] then print("Added Title",app:Linkify(i,app.Colors.ChatLink,"search:titleID:"..i)) end
 				rawset(acctTitles, i, charGuid);
 				rawset(charTitles, i, 1);
 			-- make sure to remove titles which this character does NOT know currently
@@ -6380,17 +6473,24 @@ local function RefreshCollections()
 		coroutine.yield();
 
 		-- Refresh Mounts / Pets
-		local collectedSpells = ATTAccountWideData.Spells;
+		local acctSpells, charSpells = ATTAccountWideData.Spells, app.CurrentCharacter.Spells;
 		local C_MountJournal_GetMountInfoByID = C_MountJournal.GetMountInfoByID;
-		for i,mountID in ipairs(C_MountJournal.GetMountIDs()) do
+		for _,mountID in ipairs(C_MountJournal.GetMountIDs()) do
 			local _, spellID, _, _, _, _, _, _, _, _, isCollected = C_MountJournal_GetMountInfoByID(mountID);
-			if spellID and isCollected then
-				rawset(collectedSpells, spellID, 1);
-				rawset(app.CurrentCharacter.Spells, spellID, 1);
+			if spellID then
+				if isCollected then
+					if not acctSpells[spellID] then print("Added Mount",app:Linkify(spellID,app.Colors.ChatLink,"search:spellID:"..spellID)) end
+					rawset(acctSpells, spellID, 1);
+					rawset(charSpells, spellID, 1);
+				else
+					-- remove mounts that the player doesnt actually know
+					-- TODO: there are actually character-specific mounts... will probably just need to deal with this situation via character data maintenance
+					-- if acctSpells[spellID] then print("Removed Mount",app:Linkify(spellID,app.Colors.ChatLink,"search:spellID:"..spellID)) end
+					-- acctSpells[spellID] = nil;
+					charSpells[spellID] = nil;
+				end
 			end
 		end
-
-		-- Wait a frame before harvesting item collection status.
 		coroutine.yield();
 
 		-- Harvest Item Collections that are used by the addon.
@@ -6398,10 +6498,32 @@ local function RefreshCollections()
 		coroutine.yield();
 
 		-- Refresh Toys from Cache
-		local collectedToys = ATTAccountWideData.Toys;
-		for id,group in pairs(fieldCache["toyID"]) do
-			if not rawget(collectedToys, id) and PlayerHasToy(id) then
-				rawset(collectedToys, id, 1);
+		local acctToys = ATTAccountWideData.Toys;
+		for id,_ in pairs(fieldCache["toyID"]) do
+			if PlayerHasToy(id) then
+				if not acctToys[id] then print("Added Toy",app:Linkify(id,app.Colors.ChatLink,"search:toyID:"..id)) end
+				rawset(acctToys, id, 1);
+			else
+				-- remove Toys that the account doesnt actually have
+				if acctToys[id] then print("Removed Toy",app:Linkify(id,app.Colors.ChatLink,"search:toyID:"..id)) end
+				acctToys[id] = nil;
+			end
+		end
+		coroutine.yield();
+
+		-- Refresh RuneforgeLegendaries from Cache
+		local acctRFLs = ATTAccountWideData.RuneforgeLegendaries;
+		local C_LegendaryCrafting_GetRuneforgePowerInfo = C_LegendaryCrafting.GetRuneforgePowerInfo;
+		local state;
+		for id,_ in pairs(fieldCache["runeforgePowerID"]) do
+			state = (C_LegendaryCrafting_GetRuneforgePowerInfo(id) or app.EmptyTable).state;
+			if state == 0 then
+				if not acctRFLs[id] then print("Added Runeforge Power",app:Linkify(id,app.Colors.ChatLink,"search:runeforgePowerID:"..id)) end
+				rawset(acctRFLs, id, 1);
+			else
+				-- remove RFLs that the account doesnt actually have
+				if acctRFLs[id] then print("Removed Runeforge Power",app:Linkify(id,app.Colors.ChatLink,"search:runeforgePowerID:"..id)) end
+				acctRFLs[id] = nil;
 			end
 		end
 		coroutine.yield();
@@ -6453,57 +6575,6 @@ app.ToggleMainList = function()
 end
 app.RefreshCollections = RefreshCollections;
 app.RefreshSaves = RefreshSaves;
--- Attempts to determine the colorized text for a given Group
-app.TryColorizeName = function(group, name)
-	if not name or name == RETRIEVING_DATA then return name; end
-	-- breadcrumbs
-	if group.isBreadcrumb then
-		return Colorize(name, "ff7f40bf");
-	-- raid headers
-	elseif group.isRaid then
-		return Colorize(name, "ffff8000");
-	-- faction rep status
-	elseif group.factionID and group.standing then
-		return app.ColorizeStandingText((group.saved and 8) or (group.standing + (group.isFriend and 2 or 0)), name);
-	-- groups which are ignored for progress
-	elseif group.sourceIgnored then
-		return Colorize(name, "ff7f40bf");
-		-- if people REALLY only want to see colors in account/debug then we can comment this in
-	elseif app.Settings:GetTooltipSetting("UseMoreColors") --and (app.MODE_ACCOUNT or app.MODE_DEBUG)
-	then
-		-- class color
-		if group.classID then
-			return Colorize(name, RAID_CLASS_COLORS[select(2, GetClassInfo(group.classID))].colorStr);
-		elseif group.c and #group.c == 1 then
-			return Colorize(name, RAID_CLASS_COLORS[select(2, GetClassInfo(group.c[1]))].colorStr);
-		-- faction colors
-		elseif group.r then
-			-- red for Horde
-			if group.r == Enum.FlightPathFaction.Horde then
-				return Colorize(name, "ffcc6666");
-			-- blue for Alliance
-			elseif group.r == Enum.FlightPathFaction.Alliance then
-				return Colorize(name, "ff407fbf");
-			end
-		-- specific races
-		elseif group.races then
-			local hrace = containsAny(group.races, HORDE_ONLY);
-			local arace = containsAny(group.races, ALLIANCE_ONLY);
-			if hrace and not arace then
-				-- this group requires a horde-only race, and not any alliance race
-				return Colorize(name, "ffcc6666");
-			elseif arace and not hrace then
-				-- this group requires a alliance-only race, and not any horde race
-				return Colorize(name, "ff407fbf");
-			end
-		-- un-acquirable color
-		-- TODO: grey color for things which are otherwise not available to the current character (would only show in account mode due to filtering)
-		-- elseif not app.FilterItemClass(group) then
-		-- 	return Colorize(name, "ff808080");
-		end
-	end
-	return name;
-end
 
 
 local npcQuestsCache = {}
@@ -8121,22 +8192,26 @@ local function CacheInfo(t, field)
 	local specc = math_floor(specc_decimal + 0.00001);
 	if specc > 0 then
 		local text = select(2, GetSpecializationInfoForSpecID(specc));
+		--[[
 		if t.mapID then
 			text = app.GetMapName(t.mapID) .. " (" .. text .. ")";
 		elseif t.maps then
 			text = app.GetMapName(t.maps[1]) .. " (" .. text .. ")";
 		end
+		--]]
 		text = "|c" .. t.classColors.colorStr .. text .. "|r";
 		rawset(t, "text", text);
 		_t.text = text;
 		_t.icon = select(4, GetSpecializationInfoForSpecID(specc));
 	else
 		local text = GetClassInfo(t.classID);
+		--[[
 		if t.mapID then
 			text = app.GetMapName(t.mapID) .. " (" .. text .. ")";
 		elseif t.maps then
 			text = app.GetMapName(t.maps[1]) .. " (" .. text .. ")";
 		end
+		--]]
 		text = "|c" .. t.classColors.colorStr .. text .. "|r";
 		rawset(t, "text", text);
 		_t.text = text;
@@ -8149,9 +8224,7 @@ local fields = {
 		return "classID";
 	end,
 	["text"] = function(t)
-		return cache.GetCachedField(t, "text", CacheInfo);
-		--[[
-		local text = GetClassInfo(t.classID);
+		local text = cache.GetCachedField(t, "text", CacheInfo);
 		if t.mapID then
 			text = app.GetMapName(t.mapID) .. " (" .. text .. ")";
 		elseif t.maps then
@@ -8160,7 +8233,6 @@ local fields = {
 		text = "|c" .. t.classColors.colorStr .. text .. "|r";
 		rawset(t, "text", text);
 		return text;
-		--]]
 	end,
 	["icon"] = function(t)
 		return cache.GetCachedField(t, "icon", CacheInfo);
@@ -10039,6 +10111,7 @@ end
 -- copy base Item fields
 local fields = RawCloneData(itemFields);
 -- Runeforge Legendary differences
+local C_LegendaryCrafting_GetRuneforgePowerInfo = C_LegendaryCrafting.GetRuneforgePowerInfo;
 fields.key = function(t) return "runeforgePowerID"; end;
 fields.collectible = function(t) return app.CollectibleRuneforgeLegendaries; end;
 fields.collectibleAsCost = app.ReturnFalse;
@@ -10047,7 +10120,7 @@ fields.collected = function(t)
 	-- account-wide collected
 	if ATTAccountWideData.RuneforgeLegendaries[rfID] then return 1; end
 	-- fresh collected
-	local state = (C_LegendaryCrafting.GetRuneforgePowerInfo(rfID) or app.EmptyTable).state;
+	local state = (C_LegendaryCrafting_GetRuneforgePowerInfo(rfID) or app.EmptyTable).state;
 	if state == 0 then
 		ATTAccountWideData.RuneforgeLegendaries[rfID] = 1;
 		return 1;
@@ -11549,6 +11622,12 @@ local fields = {
 	["requireSkill"] = function(t)
 		return t.professionID;
 	end,
+	--[[
+	["sym"] = function(t)
+		return {{"selectprofession", t.professionID},
+				{"not","headerID",-38}};	-- Ignore the Main Professions header that will get pulled in
+	end,
+	--]]--
 };
 app.BaseProfession = app.BaseObjectFields(fields, "BaseProfession");
 app.CreateProfession = function(id, t)
@@ -11604,6 +11683,53 @@ local C_QuestLog_IsOnQuest = C_QuestLog.IsOnQuest;
 local C_QuestLog_IsQuestReplayable = C_QuestLog.IsQuestReplayable;
 local C_QuestLog_IsQuestReplayedRecently = C_QuestLog.IsQuestReplayedRecently;
 local C_QuestLog_ReadyForTurnIn = C_QuestLog.ReadyForTurnIn;
+local IsSpellKnown, GetSpellInfo, math_floor = IsSpellKnown, GetSpellInfo, math.floor;
+
+local criteriaFuncs = {
+    ["lvl"] = function(v)
+        return app.Level >= v;
+    end,
+	["label_lvl"] = L["LOCK_CRITERIA_LEVEL_LABEL"],
+    ["text_lvl"] = function(v)
+        return v;
+    end,
+
+    ["questID"] = function(v)
+        return CompletedQuests[v];
+    end,
+	["label_questID"] = L["LOCK_CRITERIA_QUEST_LABEL"],
+    ["text_questID"] = function(v)
+		local questObj = app.SearchForObject("questID", v);
+        return questObj.text;
+    end,
+
+    ["spellID"] = function(v)
+        return IsSpellKnown(v) or app.CurrentCharacter.Spells[v];
+    end,
+	["label_spellID"] = L["LOCK_CRITERIA_SPELL_LABEL"],
+    ["text_spellID"] = function(v)
+        return select(1, GetSpellInfo(v));
+    end,
+
+    ["factionID"] = function(v)
+		-- v = factionID.standingRequiredToLock
+		local factionID = math_floor(v + 0.00001);
+		local lockStanding = math_floor((v - factionID) * 10 + 0.00001);
+        local standing = select(3, GetFactionInfoByID(factionID));
+		-- app.PrintDebug(string.format("Check Faction %s Standing (%d) is locked @ (%d)", factionID, standing, lockStanding))
+		return standing >= lockStanding;
+    end,
+	["label_factionID"] = L["LOCK_CRITERIA_FACTION_LABEL"],
+    ["text_factionID"] = function(v)
+		-- v = factionID.standingRequiredToLock
+		local factionID = math_floor(v + 0.00001);
+		local lockStanding = math_floor((v - factionID) * 10 + 0.00001);
+		local name, _, standing = GetFactionInfoByID(factionID);
+        return string.format(L["LOCK_CRITERIA_FACTION_FORMAT"], app.GetFactionStandingText(lockStanding), name, app.GetFactionStandingText(standing));
+    end,
+};
+app.QuestLockCriteriaFunctions = criteriaFuncs;
+
 local questFields = {
 	["key"] = function(t)
 		return "questID";
@@ -11686,21 +11812,18 @@ local questFields = {
 	end,
 	["collectibleAsReputation"] = function(t)
 		local factionID = t.maxReputation[1];
-		-- If Collectible by providing reputation towards a Faction with which the character is below the rep-granting Standing, and the Faction itself is Collectible & Not Collected
-		if app.CollectibleReputations then
+		-- If Collectible by providing reputation towards a Faction with which the character is below the rep-granting Standing
+		-- and the Faction itself is Collectible & Not Collected
+		-- and the Quest is not locked from being completed
+		if app.CollectibleReputations and not t.locked then
 			local factionRef = app.SearchForObject("factionID", factionID);
 			if factionRef and not factionRef.collected and (select(6, GetFactionInfoByID(factionID)) or 0) < t.maxReputation[2] then
 				return true;
 			end
 		end
-		-- If Collectible by being a Quest, and the character is able to turn in the Quest
-		if app.CollectibleQuests then
-			if (select(6, GetFactionInfoByID(factionID)) or 0) <= t.maxReputation[2] then
-				return app.CollectibleAsQuest(t);
-			else
-				-- Otherwise, treat the quest as collectible if it has already been completed
-				return IsQuestFlaggedCompletedForObject(t);
-			end
+		-- If Collectible by being a Quest
+		if app.CollectibleQuests or app.CollectibleQuestsLocked then
+			return app.CollectibleAsQuest(t);
 		end
 	end,
 	["collectedAsReputation"] = function(t)
@@ -11715,7 +11838,7 @@ local questFields = {
 			-- Completing the quest will increase the Faction, so it is incomplete
 			if factionRef and not factionRef.collected and (select(6, GetFactionInfoByID(factionID)) or 0) < t.maxReputation[2] then
 				return false;
-			elseif not app.CollectibleQuests then
+			elseif not app.CollectibleQuests and not app.CollectibleQuestsLocked then
 			-- Completing the quest will not increase the Faction, but User doesn't care about Quests, then consider it 'collected'
 				return 2;
 			end
@@ -11723,13 +11846,10 @@ local questFields = {
 		-- Finally, check if the quest is otherwise considered 'collected' by normal logic
 		return IsQuestFlaggedCompletedForObject(t);
 	end,
-	-- Questionable Fields... TODO: Investigate if necessary.
 	["altcollected"] = function(t)
-		-- local LOG = t.questID == 8753 and t.questID;
-		-- if LOG then print(LOG,"checking altCollected") end
 		-- determine if an altQuest is considered completed for this quest for this character
 		if t.altQuests then
-			for i,questID in ipairs(t.altQuests) do
+			for _,questID in ipairs(t.altQuests) do
 				if IsQuestFlaggedCompleted(questID) then
 					-- if LOG then print(LOG,"altCollected by",questID) end
 					rawset(t, "altcollected", questID);
@@ -11738,43 +11858,19 @@ local questFields = {
 			end
 		end
 	end,
-	["breadcrumbLockedBy"] = function(t)
-		-- returns nil if available or non-breadcrumb quest, or returns a completed questID which blocks this breadcrumb from being obtained
-		-- TODO: change to 'isLockedBy' property for all quests
-		-- do not consider a completed breadcrumb as being locked from being collectible
-		if not IsQuestFlaggedCompleted(t.questID) then
-			-- determine if a 'nextQuest' exists and is completed specifically by this character, to remove availability of the breadcrumb
-			if t.isBreadcrumb and t.nextQuests then
-				local nq;
-				for i,questID in ipairs(t.nextQuests) do
-					if IsQuestFlaggedCompleted(questID) then
-						rawset(t, "breadcrumbLockedBy", questID);
-						return questID;
-					else
-						-- this questID may not even be available to pick up, so try to find an object with this questID to determine if the object is complete
-						nq = app.SearchForObject("questID", questID);
-						if nq and (IsQuestFlaggedCompleted(nq.questID) or nq.altcollected or nq.breadcrumbLockedBy) then
-							rawset(t, "breadcrumbLockedBy", questID);
-							return questID;
-						end
-					end
-				end
-			end
-		end
-	end,
 	["missingSourceQuests"] = function(t)
 		if t.sourceQuests and #t.sourceQuests > 0 then
-			local includeBreadcrumbs = app.Settings:Get("Thing:QuestBreadcrumbs");
+			local includeBreadcrumbs = app.Settings:Get("Thing:QuestsLocked");
 			local sq;
 			for _,sourceQuestID in ipairs(t.sourceQuests) do
 				if not IsQuestFlaggedCompleted(sourceQuestID) then
+					-- consider the breadcrumb as an actual sq since the user is tracking them
 					if includeBreadcrumbs then
-						-- consider the breadcrumb as an actual sq since the user is tracking them
 						return true;
+					-- otherwise incomplete breadcrumbs will not prevent picking up a quest if they are ignored
 					else
-						-- otherwise incomplete breadcrumbs will not prevent picking up a quest if they are ignored
 						sq = app.SearchForObject("questID", sourceQuestID);
-						if sq and not sq.isBreadcrumb and not (sq.breadcrumbLockedBy or sq.altcollected) then
+						if sq and not sq.isBreadcrumb and not (sq.locked or sq.altcollected) then
 							return true;
 						end
 					end
@@ -11782,41 +11878,117 @@ local questFields = {
 			end
 		end
 	end,
+	["locked"] = function(t)
+		local questID = t.questID;
+		if not IsQuestFlaggedCompleted(questID) then
+			local lockCriteria = t.lc;
+			if lockCriteria then
+				local criteriaRequired = lockCriteria[1];
+				local critKey, critFunc;
+				local i, limit = 2, #lockCriteria;
+				while i < limit do
+					critKey = lockCriteria[i];
+					critFunc = criteriaFuncs[critKey];
+					i = i + 1;
+					if critFunc then
+						if critFunc(lockCriteria[i]) then
+							criteriaRequired = criteriaRequired - 1;
+						end
+					else
+						app.print("Unknown 'lockCriteria' key:",critKey,lockCriteria[i]);
+					end
+					-- enough criteria met to consider this quest locked
+					if criteriaRequired <= 0 then
+						-- we can rawset this since there's no real way for a player to 'remove' this lock during a session
+						-- and this does not come into play during party sync
+						rawset(t, "locked", true);
+						return true;
+					end
+					i = i + 1;
+				end
+			end
+			-- if an alt-quest is completed, then this quest is locked
+			if t.altcollected then
+				rawset(t, "locked", t.altcollected);
+				return true;
+			end
+			-- determine if a 'nextQuest' exists and is completed specifically by this character, to remove availability of the breadcrumb
+			if t.isBreadcrumb and t.nextQuests then
+				local nq;
+				for _,questID in ipairs(t.nextQuests) do
+					if IsQuestFlaggedCompleted(questID) then
+						rawset(t, "locked", questID);
+						return questID;
+					else
+						-- this questID may not even be available to pick up, so try to find an object with this questID to determine if the object is complete
+						nq = app.SearchForObject("questID", questID);
+						if nq and (IsQuestFlaggedCompleted(nq.questID) or nq.altcollected or nq.locked) then
+							rawset(t, "locked", questID);
+							return questID;
+						end
+					end
+				end
+			end
+		end
+		-- rawset means that this will persist as a non-locked quest until reload, so quests that become locked while playing will not immediately update
+		-- maybe can revise that somehow without also having this entire logic be calculated billions of times when nothing changes....
+		rawset(t, "locked", false);
+	end,
 };
 app.BaseQuest = app.BaseObjectFields(questFields, "BaseQuest");
 
 -- consolidated representation of whether a Thing can be collectible via QuestID
 app.CollectibleAsQuest = function(t)
+	local questID = t.questID;
 	return
-	-- must treat Quests as collectible
-	app.CollectibleQuests
 	-- must have a questID associated
-	and t.questID
-	and (
+	questID
+	-- must not be repeatable, unless considering repeatable quests as collectible
+	and (not t.repeatable or app.Settings:GetTooltipSetting("Repeatable"))
+	and
+	(
+		(	-- Regular Quests
+			app.CollectibleQuests
+			and
 			(
-			-- must not be repeatable, unless considering repeatable quests as collectible
-			(not t.repeatable or app.Settings:GetTooltipSetting("Repeatable"))
-			-- debug mode
-			and (app.MODE_DEBUG
-				-- must not be a breadcrumb
-				or (not t.isBreadcrumb)
-				-- unless collecting breadcrumbs
-				or (app.CollectibleBreadcrumbs and
-					-- in account mode
-					(app.MODE_ACCOUNT
-					-- or party sync without the quest being disabled for it
-					or (app.IsInPartySync and not t.DisablePartySync)
-					-- or simply being able to access the breadcrumb
-					or not t.breadcrumbLockedBy)))
-			-- account-wide quests (special case since quests are only available once per account, so can only consider them collectible if they've never been completed otherwise)
-			and (app.AccountWideQuests
-				-- otherwise must not be a once-per-account quest which has already been flagged as completed on a different character
-				or (not ATTAccountWideData.OneTimeQuests[t.questID] or ATTAccountWideData.OneTimeQuests[t.questID] == app.GUID)))
-
-			-- If it is an item and associated to an active quest.
-			-- TODO: add t.requiredForQuestID
-			or (not t.isWorldQuest and (t.cost or t.itemID) and C_QuestLog_IsOnQuest(t.questID))
-		);
+				(
+					(
+						-- debug/account mode
+						app.MODE_DEBUG_OR_ACCOUNT
+						-- or able to access quest on current character
+						or not t.locked
+					)
+					-- account-wide quests (special case since quests are only available once per account, so can only consider them collectible if they've never been completed otherwise)
+					and
+					(
+						app.AccountWideQuests
+						-- otherwise must not be a once-per-account quest which has already been flagged as completed on a different character
+						or (not ATTAccountWideData.OneTimeQuests[questID] or ATTAccountWideData.OneTimeQuests[questID] == app.GUID)
+					)
+				)
+				-- If it is an item/cost and associated to an active quest.
+				-- TODO: add t.requiredForQuestID
+				or (not t.isWorldQuest and (t.cost or t.itemID) and C_QuestLog_IsOnQuest(questID))
+			)
+		)
+		or
+		(	-- Locked Quests
+			app.CollectibleQuestsLocked
+			and
+			(
+				-- not able to access quest on current character
+				t.locked
+				and
+				(
+					-- debug/account mode
+					app.MODE_DEBUG_OR_ACCOUNT
+					or
+					-- available in party sync
+					not t.DisablePartySync
+				)
+			)
+		)
+	)
 end
 
 -- These are Items rewarded by WQs which are treated as currency
@@ -12242,7 +12414,7 @@ app.CheckForBreadcrumbPrevention = function(title, questID)
 		local warning;
 		for _,group in pairs(nextQuests) do
 			if not group.collected and app.RecursiveGroupRequirementsFilter(group) then
-				app.print(string.format(L["QUEST_PREVENTS_BREADCRUMB_COLLECTION_FORMAT"], title, app:Linkify(questID, "149bfd", "search:questID:"..questID), group.text or RETRIEVING_DATA, app:Linkify(group.questID, "7f40bf", "search:questID:"..group.questID)));
+				app.print(string.format(L["QUEST_PREVENTS_BREADCRUMB_COLLECTION_FORMAT"], title, app:Linkify(questID, app.Colors.ChatLink, "search:questID:"..questID), group.text or RETRIEVING_DATA, app:Linkify(group.questID, app.Colors.Locked, "search:questID:"..group.questID)));
 				warning = true;
 			end
 		end
@@ -13332,9 +13504,7 @@ app.RecursiveFirstParentWithField = function(group, field)
 		if group[field] then
 			return group[field];
 		else
-			if group.sourceParent or group.parent then
-				return app.RecursiveFirstParentWithField(group.sourceParent or group.parent, field)
-			end
+			return app.RecursiveFirstParentWithField(group.parent, field);
 		end
 	end
 end
@@ -13344,10 +13514,22 @@ app.RecursiveFirstParentWithFieldValue = function(group, field, value)
 		if group[field] == value then
 			return group;
 		else
-			if group.parent then
-				return app.RecursiveFirstParentWithFieldValue(group.parent, field, value);
+			return app.RecursiveFirstParentWithFieldValue(group.parent, field, value);
+		end
+	end
+end
+-- Cleans any groups which are nested under 'Source Ignored' content
+app.CleanSourceIgnoredGroups = function(groups)
+	if groups then
+		local parentCheck = app.RecursiveFirstParentWithField;
+		local refined = {};
+		for _,j in ipairs(groups) do
+			if not parentCheck(j, "sourceIgnored") then
+				tinsert(refined, j);
+			-- else print("  ",j.hash)
 			end
 		end
+		return refined;
 	end
 end
 
@@ -13819,7 +14001,7 @@ app.CustomCollectQuests = {
 function app.QuestCompletionHelper(questID)
 	if questID then
 		-- Only increase progress for Quests as Collectible users.
-		if app.CollectibleQuests then
+		if app.CollectibleQuests or app.CollectibleQuestsLocked then
 			-- Search ATT for the related quests.
 			local searchResults = SearchForField("questID", questID);
 			UpdateSearchResults(searchResults, true);
@@ -14931,6 +15113,23 @@ app.StoreWindowPosition = function(self)
 		end
 	end
 end
+-- Adds ATT information about the list of Quests into the provided tooltip
+local function AddQuestInfoToTooltip(tooltip, quests)
+	if quests and tooltip.AddLine then
+		local text;
+		for _,q in ipairs(quests) do
+			text = GetCompletionIcon(q.saved) .. " " .. q.questID .. ": " .. (q.text or RETRIEVING_DATA);
+			if q.mapID then
+				text = text .. " (" .. (app.GetMapName(q.mapID) or RETRIEVING_DATA) .. ")";
+			elseif q.maps then
+				text = text .. " (" .. (app.GetMapName(q.maps[1]) or RETRIEVING_DATA) .. ")";
+			elseif q.coords then
+				text = text .. " (" .. (app.GetMapName(q.coords[1][3]) or RETRIEVING_DATA) .. ")";
+			end
+			tooltip:AddLine(text);
+		end
+	end
+end
 local RowOnEnter, RowOnLeave;
 local function RowOnClick(self, button)
 	local reference = self.ref;
@@ -15479,9 +15678,9 @@ RowOnEnter = function (self)
 				end
 			elseif reference.r and reference.r > 0 then
 				if reference.r == 2 then
-					GameTooltip:AddDoubleLine(L["RACES_CHECKBOX"], app.Settings:GetTooltipSetting("UseMoreColors") and Colorize(ITEM_REQ_ALLIANCE, "ff407fbf") or ITEM_REQ_ALLIANCE);
+					GameTooltip:AddDoubleLine(L["RACES_CHECKBOX"], app.Settings:GetTooltipSetting("UseMoreColors") and Colorize(ITEM_REQ_ALLIANCE, app.Colors.Alliance) or ITEM_REQ_ALLIANCE);
 				elseif reference.r == 1 then
-					GameTooltip:AddDoubleLine(L["RACES_CHECKBOX"], app.Settings:GetTooltipSetting("UseMoreColors") and Colorize(ITEM_REQ_HORDE, "ffcc6666") or ITEM_REQ_HORDE);
+					GameTooltip:AddDoubleLine(L["RACES_CHECKBOX"], app.Settings:GetTooltipSetting("UseMoreColors") and Colorize(ITEM_REQ_HORDE, app.Colors.Horde) or ITEM_REQ_HORDE);
 				else
 					GameTooltip:AddDoubleLine(L["RACES_CHECKBOX"], "Unknown");
 				end
@@ -15575,7 +15774,7 @@ RowOnEnter = function (self)
 		end
 		-- an item used for a faction which is repeatable
 		if reference.itemID and reference.factionID and reference.repeatable then
-			GameTooltip:AddLine(L["ITEM_GIVES_REP"] .. (select(1, GetFactionInfoByID(group.factionID)) or ("Faction #" .. tostring(group.factionID))) .. "'", 0.4, 0.8, 1, 1, true);
+			GameTooltip:AddLine(L["ITEM_GIVES_REP"] .. (select(1, GetFactionInfoByID(reference.factionID)) or ("Faction #" .. tostring(reference.factionID))) .. "'", 0.4, 0.8, 1, 1, true);
 		end
 		-- Unobtainable
 		if reference.u then
@@ -15821,50 +16020,29 @@ RowOnEnter = function (self)
 			end
 			if prereqs and #prereqs > 0 then
 				GameTooltip:AddLine(L["PREREQUISITE_QUESTS"]);
-				local text;
-				for i,prereq in ipairs(prereqs) do
-					text = "   " .. prereq.questID .. ": " .. (prereq.text or RETRIEVING_DATA);
-					if prereq.mapID then
-						text = text .. " (" .. (app.GetMapName(prereq.mapID) or RETRIEVING_DATA) .. ")";
-					elseif prereq.maps then
-						text = text .. " (" .. (app.GetMapName(prereq.maps[1]) or RETRIEVING_DATA) .. ")";
-					elseif prereq.coords then
-						text = text .. " (" .. (app.GetMapName(prereq.coords[1][3]) or RETRIEVING_DATA) .. ")";
-					end
-					GameTooltip:AddDoubleLine(text, GetCompletionIcon(IsQuestFlaggedCompleted(prereq.questID)));
-				end
+				AddQuestInfoToTooltip(GameTooltip, prereqs);
 			end
 			if bc and #bc > 0 then
 				GameTooltip:AddLine(L["BREADCRUMBS_WARNING"]);
-				local text;
-				for i,prereq in ipairs(bc) do
-					text = "   " .. prereq.questID .. ": " .. (prereq.text or RETRIEVING_DATA);
-					if prereq.mapID then
-						text = text .. " (" .. (app.GetMapName(prereq.mapID) or RETRIEVING_DATA) .. ")";
-					elseif prereq.maps then
-						text = text .. " (" .. (app.GetMapName(prereq.maps[1]) or RETRIEVING_DATA) .. ")";
-					elseif prereq.coords then
-						text = text .. " (" .. (app.GetMapName(prereq.coords[1][3]) or RETRIEVING_DATA) .. ")";
-					end
-					GameTooltip:AddDoubleLine(text, GetCompletionIcon(IsQuestFlaggedCompleted(prereq.questID)));
-				end
+				AddQuestInfoToTooltip(GameTooltip, bc);
 			end
 		end
 
 		-- Show Breadcrumb information
+		local lockedWarning;
 		if reference.isBreadcrumb then
-			GameTooltip:AddLine(L["THIS_IS_BREADCRUMB"]);
+			GameTooltip:AddLine(string.format("|c%s%s|r", app.Colors.Locked, L["THIS_IS_BREADCRUMB"]));
 			if reference.nextQuests then
 				local isBreadcrumbAvailable = true;
 				local nextq, nq = {};
-				for i,nextQuestID in ipairs(reference.nextQuests) do
+				for _,nextQuestID in ipairs(reference.nextQuests) do
 					if nextQuestID > 0 then
 						nq = app.SearchForObject("questID", nextQuestID);
 						-- existing quest group
 						if nq then
 							tinsert(nextq, nq);
 						else
-							tinsert(nextq, app.CreateQuest(questID));
+							tinsert(nextq, app.CreateQuest(nextQuestID));
 						end
 						if IsQuestFlaggedCompleted(nextQuestID) then
 							isBreadcrumbAvailable = false;
@@ -15874,16 +16052,48 @@ RowOnEnter = function (self)
 				if isBreadcrumbAvailable then
 					-- The character is able to accept the breadcrumb quest without Party Sync
 					GameTooltip:AddLine(L["BREADCRUMB_PARTYSYNC"]);
-				else
+					AddQuestInfoToTooltip(GameTooltip, nextq);
+				elseif not reference.DisablePartySync then
 					-- The character wont be able to accept this quest without the help of a lower level character using Party Sync
-					GameTooltip:AddLine(L["BREADCRUMB_PARTYSYNC_2"]);
+					GameTooltip:AddLine(string.format("|c%s%s|r", app.Colors.LockedWarning, L["BREADCRUMB_PARTYSYNC_2"]));
+					AddQuestInfoToTooltip(GameTooltip, nextq);
+				else
+					-- known to not be possible in party sync
+					GameTooltip:AddLine(L["DISABLE_PARTYSYNC"]);
 				end
-				for i,nquest in ipairs(nextq) do
-					GameTooltip:AddLine("   " .. nquest.questID .. ": " .. nquest.text);
+				lockedWarning = true;
+			end
+		end
+
+		-- Show information about it becoming locked due to some criteira
+		local lockCriteria = reference.lc;
+		if lockCriteria then
+			-- list the reasons this may become locked
+			local critKey, critValue;
+			local critFuncs = app.QuestLockCriteriaFunctions;
+			local critFunc;
+			GameTooltip:AddLine(string.format(L["UNAVAILABLE_WARNING_FORMAT"], app.Colors.LockedWarning, lockCriteria[1]));
+			for i=2,#lockCriteria,1 do
+				critKey = lockCriteria[i];
+				i = i + 1;
+				critValue = lockCriteria[i];
+				critFunc = critFuncs[critKey];
+				if critFunc then
+					local label = critFuncs["label_"..critKey];
+					local text = critFuncs["text_"..critKey](critValue);
+					GameTooltip:AddLine(GetCompletionIcon(critFunc(critValue)).." "..label..": "..text);
 				end
-			elseif not reference.DisablePartySync then
-				-- There is no information about next quests that invalidates the breadcrumb
-				GameTooltip:AddLine(L["BREADCRUMB_PARTYSYNC_3"]);
+			end
+		end
+
+		-- it is locked and no warning has been added to the tooltip
+		if not lockedWarning and reference.locked then
+			if not reference.DisablePartySync then
+				-- should be possible in party sync
+				GameTooltip:AddLine(string.format("|c%s%s|r", app.Colors.LockedWarning, L["BREADCRUMB_PARTYSYNC_3"]));
+			else
+				-- known to not be possible in party sync
+				GameTooltip:AddLine(L["DISABLE_PARTYSYNC"]);
 			end
 		end
 
@@ -15906,7 +16116,7 @@ RowOnEnter = function (self)
 						if key == "shared" then
 							-- Skip
 						else
-							GameTooltip:AddDoubleLine(Colorize(GetDifficultyInfo(key), app.DifficultyColors[key] or "ff1eff00"), date("%c", value.reset));
+							GameTooltip:AddDoubleLine(Colorize(GetDifficultyInfo(key), app.DifficultyColors[key] or app.Colors.DefaultDifficulty), date("%c", value.reset));
 							for encounterIter,encounter in pairs(value.encounters) do
 								GameTooltip:AddDoubleLine(" " .. encounter.name, GetCompletionIcon(encounter.isKilled));
 							end
@@ -15953,6 +16163,8 @@ RowOnEnter = function (self)
 			"key",
 			"hash",
 			"link",
+			"sourceParent",
+			"sourceIgnored",
 		};
 		GameTooltip:AddLine("-- Extra Fields:");
 		for _,key in ipairs(fields) do
@@ -16292,7 +16504,7 @@ app.DynamicCategory_Simple = function(self)
 		-- dynamic groups are ignored for the source tooltips
 		self.sourceIgnored = true;
 		-- change the text color of the dynamic group to help indicate it is not included in the window total
-		self.text = Colorize(self.text, "ff7f40bf");
+		self.text = Colorize(self.text, app.Colors.SourceIgnored);
 		-- sort all of the Things by name in each top header and put it under the dynamic group
 		for _,header in pairs(topHeaders) do
 			-- delay-sort the groups in each categorized header
@@ -16317,7 +16529,7 @@ app.DynamicCategory_Nested = function(self)
 	-- dynamic groups are ignored for the source tooltips
 	self.sourceIgnored = true;
 	-- change the text color of the dynamic group to help indicate it is not included in the window total
-	self.text = Colorize(self.text, "ff7f40bf");
+	self.text = Colorize(self.text, app.Colors.SourceIgnored);
 	-- pull out all Things which should go into this category based on field & value
 	self.g = app:BuildSearchResponse(app:GetWindow("Prime").data.g, self.dynamic, self.dynamic_value, true);
 	-- reset indents and such
@@ -16570,7 +16782,7 @@ function app:GetDataCache()
 		flightPathsCategory.fps = {};
 		flightPathsCategory.expanded = false;
 		flightPathsCategory.icon = app.asset("Category_FlightPaths");
-		flightPathsCategory.text = Colorize(L["FLIGHT_PATHS"], "ff7f40bf");
+		flightPathsCategory.text = Colorize(L["FLIGHT_PATHS"], app.Colors.SourceIgnored);
 		db.name = L["FLIGHT_PATHS"];
 		tinsert(g, flightPathsCategory);
 
@@ -16892,8 +17104,21 @@ function app:GetDataCache()
 			db.text = db.name;
 			db.description = L["NEVER_IMPLEMENTED_DESC"];
 			tinsert(g, db);
-			tinsert(db.g, 1, flightPathsCategory_NYI);
+			--tinsert(db.g, 1, flightPathsCategory_NYI);
 			CacheFields(db);
+		end
+		-- Hidden Achievement Triggers
+		if app.Categories.HiddenAchievementTriggers then
+			db = {};
+			db.expanded = false;
+			db.g = app.Categories.HiddenAchievementTriggers;
+			db.name = "Hidden Achievement Triggers";
+			db.text = db.name;
+			db.description = "Hidden Achievement Triggers";
+			tinsert(g, db);
+			--app.ToggleCacheMaps(true);
+			--CacheFields(db);
+			--app.ToggleCacheMaps();
 		end
 
 		-- Hidden Quest Triggers
@@ -17878,7 +18103,8 @@ customWindowUpdates["CurrentInstance"] = function(self, force, got)
 				return;
 			end
 			wipe(self.CurrentMaps);
-			results = SearchForField("mapID", self.mapID);
+			-- Get all results for this map, without any results that have been cloned into Source Ignored groups
+			results = app.CleanSourceIgnoredGroups(SearchForField("mapID", self.mapID));
 			if results then
 				-- print(#results,"Minilist Results for mapID",self.mapID)
 				-- Simplify the returned groups
@@ -19914,7 +20140,7 @@ customWindowUpdates["Tradeskills"] = function(self, force, got)
 							app:PlayFanfare();
 							app:TakeScreenShot();
 							if app.Settings:GetTooltipSetting("Report:Collected") then
-								local link = app:Linkify(spellID, "149bfd", "search:spellID:"..spellID);
+								local link = app:Linkify(spellID, app.Colors.ChatLink, "search:spellID:"..spellID);
 								print(NEW_RECIPE_LEARNED_TITLE, link);
 							end
 						end
@@ -20236,7 +20462,7 @@ customWindowUpdates["WorldQuests"] = function(self, force, got)
 				local temp = {};
 				-- options when refreshing the list
 				self.includeAll = app.MODE_DEBUG;
-				self.includeQuests = app.CollectibleQuests;
+				self.includeQuests = app.CollectibleQuests or app.CollectibleQuestsLocked;
 				self.includePermanent = IsAltKeyDown() or self.includeAll;
 
 				-- Acquire all of the world mapIDs
@@ -21795,12 +22021,12 @@ app.InitDataCoroutine = function()
 
 		-- Blanchy (reported as Blanchy no longer shows to alts on an account which has obtained the mount)
 		-- TODO: In future, it would be nice if these quests could be flagged unobtainable based on the learned spellID of the mount
-		62038,	-- Handful of Oats
-		62042,	-- Grooming Brush
-		62047,	-- Sturdy Horseshoe
-		62049,	-- Bucket of Clean Water
-		62048,	-- Comfortable Saddle Blanket
-		62050,	-- Dredhollow Apple
+		-- 62038,	-- Handful of Oats
+		-- 62042,	-- Grooming Brush
+		-- 62047,	-- Sturdy Horseshoe
+		-- 62049,	-- Bucket of Clean Water
+		-- 62048,	-- Comfortable Saddle Blanket
+		-- 62050,	-- Dredhollow Apple
 
 		-- Druid forms
 		65047, 	-- Mark of the Nightwing Raven
@@ -21824,6 +22050,13 @@ app.InitDataCoroutine = function()
 	for _,questID in ipairs({
 		32008,	-- Audrey Burnhep (A)
 		32009,	-- Varzok (H)
+
+		62038,	-- Handful of Oats
+		62042,	-- Grooming Brush
+		62047,	-- Sturdy Horseshoe
+		62049,	-- Bucket of Clean Water
+		62048,	-- Comfortable Saddle Blanket
+		62050,	-- Dredhollow Apple
 	}) do
 		oneTimeQuests[questID] = nil;
 	end
@@ -22178,7 +22411,7 @@ end
 
 	-- Turns a bit of text into a colored link which ATT will attempt to understand
 	function app:Linkify(text, color, operation)
-		text = "|Hgarrmission:ATT:"..operation.."|h|cff"..color.."["..text.."]|r|h";
+		text = "|Hgarrmission:ATT:"..operation.."|h|c"..color.."["..text.."]|r|h";
 		-- print("Linkify",text)
 		return text;
 	end
@@ -22209,7 +22442,7 @@ end
 	-- 	local nav = GetNavPath(group);
 	-- 	if nav then
 	-- 		print("nav:",nav)
-	-- 		return app:Linkify(group.text, "f5d142", "nav:"..nav);
+	-- 		return app:Linkify(group.text, app.Colors.ChatLink, "nav:"..nav);
 	-- 		-- return app:ChatLink(group.text, "nav:"..nav);
 	-- 	end
 	-- end
@@ -22488,8 +22721,8 @@ app.events.QUEST_ACCEPTED = function(questID)
 			end
 		end
 		PrintQuestInfo(questID, true, freq);
-		-- Check if this quest is a nextQuest of a non-collected breadcrumb if breadcrumbs are being tracked
-		if app.Settings:Get("Thing:QuestBreadcrumbs") then
+		-- Check if this quest is a nextQuest of a non-collected breadcrumb (users may care to get the breadcrumb before it becomes locked, simply due to tracking quests as well)
+		if app.CollectibleQuests or app.CollectibleQuestsLocked then
 			-- Run this warning check after a small delay in case addons pick up quests before the turned in quest is registered as complete
 			DelayedCallback(app.CheckForBreadcrumbPrevention, 1, title, questID);
 		end

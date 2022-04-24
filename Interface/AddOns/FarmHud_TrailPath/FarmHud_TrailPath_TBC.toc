@@ -1,6 +1,6 @@
 ## Interface: 20503
 ## Title: FarmHud [TrailPath]
-## Version: 9.0.2-release
+## Version: 9.0.3-release
 ## Notes: [Experimental] Trail path on minimap
 ## Author: Hizuro
 ## Dependencies: FarmHud

@@ -5,12 +5,14 @@
 ]]
 
 local _G, format, next = _G, format, next
-local gsub, pairs, type = gsub, pairs, type
+local gsub, pairs, tinsert, type = gsub, pairs, tinsert, type
 
 local CreateFrame = CreateFrame
+local RegisterCVar = C_CVar.RegisterCVar
 local GetAddOnEnableState = GetAddOnEnableState
 local GetAddOnMetadata = GetAddOnMetadata
 local DisableAddOn = DisableAddOn
+local IsAddOnLoaded = IsAddOnLoaded
 local ReloadUI = ReloadUI
 local GetLocale = GetLocale
 local GetTime = GetTime
@@ -203,6 +205,10 @@ do
 		'ElvUI_CustomTags'
 	}
 
+	if not IsAddOnLoaded('ShadowedUnitFrames') then
+		tinsert(alwaysDisable, 'kExtraBossFrames')
+	end
+
 	for _, addon in next, alwaysDisable do
 		DisableAddOn(addon)
 	end
@@ -255,6 +261,10 @@ function E:OnInitialize()
 
 	if E.private.general.minimap.enable then
 		E.Minimap:SetGetMinimapShape() -- This is just to support for other mods, keep below UIMult
+	end
+
+	if not E.Retail then -- temp cause blizz broke it?
+		RegisterCVar('fstack_showhighlight', '1')
 	end
 
 	if GetAddOnEnableState(E.myname, 'Tukui') == 2 then

@@ -53,12 +53,10 @@ function S:MailFrame()
 
 			if index <= numItems then
 				local packageIcon, _, _, _, _, _, _, _, _, _, _, _, isGM = GetInboxHeaderInfo(index)
-
 				if packageIcon and not isGM then
-					local ItemLink = GetInboxItemLink(index, 1)
-
-					if ItemLink then
-						local quality = select(3, GetItemInfo(ItemLink))
+					local itemlink = GetInboxItemLink(index, 1)
+					if itemlink then
+						local quality = select(3, GetItemInfo(itemlink))
 
 						if quality and quality > 1 then
 							mail.backdrop:SetBackdropBorderColor(GetItemQualityColor(quality))
@@ -99,50 +97,46 @@ function S:MailFrame()
 
 	-- Send Mail Frame
 	_G.SendMailFrame:StripTextures()
-
-	_G.SendMailScrollFrame:StripTextures(true)
-	_G.SendMailScrollFrame:SetTemplate('Default')
+	_G.SendStationeryBackgroundLeft:Hide()
+	_G.SendStationeryBackgroundRight:Hide()
+	_G.MailEditBox.ScrollBox:StripTextures(true)
+	_G.MailEditBox.ScrollBox:SetTemplate('Default')
+	_G.MailEditBox.ScrollBox.EditBox:SetTextColor(1, 1, 1)
 
 	_G.SendMailTitleText:Point('CENTER', _G.SendMailFrame, 'TOP', -10, -17)
 
 	hooksecurefunc('SendMailFrame_Update', function()
 		for i = 1, _G.ATTACHMENTS_MAX_SEND do
 			local button = _G['SendMailAttachment'..i]
-			local icon = button:GetNormalTexture()
-			local name = GetSendMailItem(i)
-
-			if not button.skinned then
+			if not button.template then
 				button:StripTextures()
 				button:SetTemplate('Default', true)
 				button:StyleButton(nil, true)
-
-				button.skinned = true
 			end
 
+			local name = GetSendMailItem(i)
 			if name then
 				local quality = select(3, GetItemInfo(name))
-
 				if quality and quality > 1 then
 					button:SetBackdropBorderColor(GetItemQualityColor(quality))
 				else
 					button:SetBackdropBorderColor(unpack(E.media.bordercolor))
 				end
 
-				icon:SetTexCoord(unpack(E.TexCoords))
-				icon:SetInside()
+				local icon = button:GetNormalTexture()
+				if icon then
+					icon:SetTexCoord(unpack(E.TexCoords))
+					icon:SetInside()
+				end
 			else
 				button:SetBackdropBorderColor(unpack(E.media.bordercolor))
 			end
 		end
+
+		_G.MailEditBox:SetHeight(_G.SendStationeryBackgroundLeft:GetHeight())
 	end)
 
-	_G.SendMailBodyEditBox:SetTextColor(1, 1, 1)
-
-	S:HandleScrollBar(_G.SendMailScrollFrameScrollBar)
-	_G.SendMailScrollFrameScrollBar:ClearAllPoints()
-	_G.SendMailScrollFrameScrollBar:Point('TOPRIGHT', _G.SendMailScrollFrame, 'TOPRIGHT', 20, -18)
-	_G.SendMailScrollFrameScrollBar:Point('BOTTOMRIGHT', _G.SendMailScrollFrame, 'BOTTOMRIGHT', 0, 18)
-
+	S:HandleScrollBar(_G.MailEditBoxScrollBar)
 	S:HandleEditBox(_G.SendMailNameEditBox)
 	S:HandleEditBox(_G.SendMailSubjectEditBox)
 	S:HandleEditBox(_G.SendMailMoneyGold)
@@ -180,7 +174,7 @@ function S:MailFrame()
 
 	_G.OpenMailFrameCloseButton:Point('TOPRIGHT', OpenMailFrame.backdrop, 'TOPRIGHT', 4, 3)
 
-	for i = 1, _G.ATTACHMENTS_MAX_SEND do
+	for i = 1, _G.ATTACHMENTS_MAX_RECEIVE do
 		local button = _G['OpenMailAttachmentButton'..i]
 		local icon = _G['OpenMailAttachmentButton'..i..'IconTexture']
 		local count = _G['OpenMailAttachmentButton'..i..'Count']
@@ -203,11 +197,8 @@ function S:MailFrame()
 			local itemLink = GetInboxItemLink(_G.InboxFrame.openMailID, i)
 			local button = _G['OpenMailAttachmentButton'..i]
 
-			button:SetTemplate('NoBackdrop')
-
 			if itemLink then
 				local quality = select(3, GetItemInfo(itemLink))
-
 				if quality and quality > 1 then
 					button:SetBackdropBorderColor(GetItemQualityColor(quality))
 				else

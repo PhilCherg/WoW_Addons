@@ -1,6 +1,7 @@
-# FarmHud
+# FarmHud [QuestArrow]
 
-## 9.0.2-release (2022-03-04)
+## 9.0.3-release (2022-04-18)
  
 
-- fix Localization.workfile.lua error  
+- bugfix in TrailPath module  
+- fix problem with mouse event catching trail path icons  

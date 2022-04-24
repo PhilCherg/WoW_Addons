@@ -567,13 +567,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Midnight",
 		},
-		[36990] = {
-			["school"] = 16,
+		[29799] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Staff of Disintegration",
+			["source"] = "Attumen the Huntsman",
 		},
 		[227499] = {
 			["school"] = 2,
@@ -608,12 +607,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "King Deepbeard",
 		},
-		[29799] = {
-			["school"] = 1,
+		[36990] = {
+			["school"] = 16,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Attumen the Huntsman",
+			["source"] = "Staff of Disintegration",
 		},
 		[192617] = {
 			["school"] = 16,

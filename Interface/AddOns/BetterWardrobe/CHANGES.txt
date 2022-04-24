@@ -1,12 +1,12 @@
-tag 77d01ff2f3d74ed1eae599d3cf52a7c8506162ab 3.14.4a
+tag b3276bea0a80ff27cb86ac314ec71c640017497f 3.14.5
 Author:	SLOKnightfall <SLOKnightfall@gmail.com>
-Date:	Fri Mar 25 11:05:56 2022 -0700
+Date:	Thu Apr 21 13:44:31 2022 -0700
 
-Push to get curseforge to correctly build tag
+Bugfix
 
-commit 49200577e52a1ea8d20beb5d545fab75cfe52270
+commit a6cb28bc440bd4b8d2bb88bc0f0e14ac7a411d27
 Author: SLOKnightfall <SLOKnightfall@gmail.com>
-Date:   Fri Mar 25 11:03:31 2022 -0700
+Date:   Thu Apr 21 13:44:04 2022 -0700
 
-    Push to get curseforge to properly build tag.
+    Added delay to repositioning the second should transmog checkbox to fix a conflict if BlizzMove addon is installed
 

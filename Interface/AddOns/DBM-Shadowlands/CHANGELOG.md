@@ -1,23 +1,11 @@
 # <DBM> World Bosses (Shadowlands)
 
-## [9.2.13](https://github.com/DeadlyBossMods/DBM-Retail/tree/9.2.13) (2022-04-12)
-[Full Changelog](https://github.com/DeadlyBossMods/DBM-Retail/compare/9.2.12...9.2.13) [Previous Releases](https://github.com/DeadlyBossMods/DBM-Retail/releases)
+## [9.2.16](https://github.com/DeadlyBossMods/DBM-Retail/tree/9.2.16) (2022-04-23)
+[Full Changelog](https://github.com/DeadlyBossMods/DBM-Retail/compare/9.2.15...9.2.16) [Previous Releases](https://github.com/DeadlyBossMods/DBM-Retail/releases)
 
-- Update DBM-WorldEvents.toc (#750)  
-- fixed bug that caused tbc to flag every update as a new patch update (thus causing force update to run every update since patch 2.5.4. It's not intended behavior for the force to run every update, just for major patches. Also prep for new tags  
-- Fixed a bug where Titantic Insight was using wrong spell id and thus showing wrong spell name in options and alerts  
-- Update DBM-SanctumOfDomination.toc (#749)  
-- fix lua error when calling \"whereami\" command in a zone that has no map  
-- Peel back some of debug spam  
-- Remove this useless variable  
-- Add in some core debug  
-- note it so it doesn't happen again  
-- Fixed a logic regression that caused all regular announces to have no sounds unless they had voice pack sounds. apparently only one user out of hundreds f thousands noticed this in 3 weeks. 🤷‍♂️  
-- Fix something that slipped through last  
-- Remove useless stuff from antros  
-- apply antispam for good measure  
-- Add two more requests for Tazavesh trash.  
-- Fix missing spellid regististration on Lihuvim  
-- bump alpha  
-- prep new tbc tag for the ZA fix  
-- bump alpha  
+- prep another tag because of more bug fixes  
+- Update commonlocal.ru.lua (#104)  
+- Fixed a bug where heroic  jailer was missing timers for a few ability casts in stage 2  
+    Also added test code to play with idea of adding time to tank combo timer when skolex burrows, since he does seem to consistently pause energy gains when doing so now (something that was bugged in the past)  
+- Update zhTW (#102)  
+- bump alpha again  

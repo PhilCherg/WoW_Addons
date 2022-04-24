@@ -1,4 +1,4 @@
--- Generated from CurseForge on Wed Apr 20 18:51:57 UTC 2022
+-- Generated from CurseForge on Sun Apr 24 18:53:27 UTC 2022
 local ns = select(2, ...) ---@type ns @The addon namespace.
 
 if ns:IsSameLocale("ruRU") then
@@ -236,28 +236,17 @@ L["RAID_BOSS_NYA_6"] = "Шад'хар Ненасытный"
 L["RAID_BOSS_NYA_7"] = "Дест'агат"
 L["RAID_BOSS_NYA_8"] = "Ил'гинот, Возрожденная Порча"
 L["RAID_BOSS_NYA_9"] = "Вексиона"
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_1"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_10"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_11"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_2"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_3"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_4"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_5"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_6"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_7"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_8"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_9"] = ""--]] 
+L["RAID_BOSS_SFO_1"] = "Бдительный Страж"
+L["RAID_BOSS_SFO_10"] = "Ригелон"
+L["RAID_BOSS_SFO_11"] = "Тюремщик"
+L["RAID_BOSS_SFO_2"] = "Сколекс"
+L["RAID_BOSS_SFO_3"] = "Изобретатель Зи'мокс"
+L["RAID_BOSS_SFO_4"] = "Даусинь"
+L["RAID_BOSS_SFO_5"] = "Прототип пантеона"
+L["RAID_BOSS_SFO_6"] = "Лихувим"
+L["RAID_BOSS_SFO_7"] = "Галондрий"
+L["RAID_BOSS_SFO_8"] = "Андуин Ринн"
+L["RAID_BOSS_SFO_9"] = "Властители Ужаса"
 L["RAID_BOSS_SOD_1"] = "Таррагр"
 L["RAID_BOSS_SOD_10"] = "Сильвана Ветрокрылая"
 L["RAID_BOSS_SOD_2"] = "Око Тюремщика"

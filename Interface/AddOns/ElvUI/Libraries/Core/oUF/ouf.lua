@@ -19,65 +19,25 @@ local callback, objects, headers = {}, {}, {}
 local elements = {}
 local activeElements = {}
 
+-- ElvUI
+local _G = _G
+local assert, setmetatable = assert, setmetatable
+local unpack, tinsert, tremove = unpack, tinsert, tremove
+local next, time, wipe, type = next, time, wipe, type
+local select, pairs, ipairs = select, pairs, ipairs
+local strupper, strsplit = strupper, strsplit
+
+local GetNamePlateForUnit = C_NamePlate.GetNamePlateForUnit
+local CreateFrame = CreateFrame
+local IsLoggedIn = IsLoggedIn
+local UnitGUID = UnitGUID
+local SetCVar = SetCVar
+-- end
+
 local PetBattleFrameHider = CreateFrame('Frame', (global or parent) .. '_PetBattleFrameHider', UIParent, 'SecureHandlerStateTemplate')
 PetBattleFrameHider:SetAllPoints()
 PetBattleFrameHider:SetFrameStrata('LOW')
 RegisterStateDriver(PetBattleFrameHider, 'visibility', '[petbattle] hide; show')
-
--- updating of "invalid" units, function edited by ElvUI
-local function xtargetOnUpdate(self, elapsed)
-	if not self.unit or not UnitExists(self.unit) then
-		return
-	else
-		local frequency = self.elapsed or 0
-		if frequency > self.onUpdateFrequency then
-			local guid = UnitGUID(self.unit)
-			if self.lastGUID ~= guid then
-				self:UpdateAllElements('OnUpdate')
-				self.lastGUID = guid
-			else
-				if self:IsElementEnabled('Health') then self.Health:ForceUpdate() end
-				if self:IsElementEnabled('Power') then self.Power:ForceUpdate() end
-			end
-
-			self.elapsed = 0
-		else
-			self.elapsed = frequency + elapsed
-		end
-
-		local prediction = self.elapsedPrediction or 0
-		if prediction > self.onUpdatePrediction then
-			if self:IsElementEnabled('HealthPrediction') then self.HealthPrediction:ForceUpdate() end
-			if self:IsElementEnabled('PowerPrediction') then self.PowerPrediction:ForceUpdate() end
-			if self:IsElementEnabled('RaidTargetIndicator') then self.RaidTargetIndicator:ForceUpdate() end
-
-			self.elapsedPrediction = 0
-		else
-			self.elapsedPrediction = prediction + elapsed
-		end
-
-		local auras = self.elapsedAuras or 0
-		if auras > self.onUpdateAuras and self:IsElementEnabled('Auras') then
-			if self.Auras then self.Auras:ForceUpdate() end
-			if self.Buffs then self.Buffs:ForceUpdate() end
-			if self.Debuffs then self.Debuffs:ForceUpdate() end
-
-			self.elapsedAuras = 0
-		else
-			self.elapsedAuras = auras + elapsed
-		end
-	end
-end
-
-local function enableTargetUpdate(object)
-	if not object.onUpdateFrequency then object.onUpdateFrequency = 0.2 end
-	if not object.onUpdatePrediction then object.onUpdatePrediction = 0.4 end
-	if not object.onUpdateAuras then object.onUpdateAuras = 0.6 end
-
-	object.__eventless = true
-	object:SetScript('OnUpdate', xtargetOnUpdate)
-end
-Private.enableTargetUpdate = enableTargetUpdate
 
 local function updateActiveUnit(self, event)
 	-- Calculate units to work with
@@ -156,7 +116,7 @@ for k, v in next, {
 			activeElements[self][name] = true
 
 			if(element.update) then
-				table.insert(self.__elements, element.update)
+				tinsert(self.__elements, element.update)
 			end
 		end
 	end,
@@ -177,7 +137,7 @@ for k, v in next, {
 		if(update) then
 			for k, func in next, self.__elements do
 				if(func == update) then
-					table.remove(self.__elements, k)
+					tremove(self.__elements, k)
 					break
 				end
 			end
@@ -298,6 +258,18 @@ local function updateRaid(self, event)
 	end
 end
 
+-- boss6-8 exsist in some encounters, but unit event registration seems to be
+-- completely broken for them, so instead we use OnUpdate to update them.
+local eventlessUnits = {
+	['boss6'] = true,
+	['boss7'] = true,
+	['boss8'] = true,
+}
+
+local function isEventlessUnit(unit)
+	return unit:match('%w+target') or eventlessUnits[unit]
+end
+
 local function initObject(unit, style, styleFunc, header, ...)
 	local num = select('#', ...)
 	for i = 1, num do
@@ -305,12 +277,18 @@ local function initObject(unit, style, styleFunc, header, ...)
 		local objectUnit = object:GetAttribute('oUF-guessUnit') or unit
 		local suffix = object:GetAttribute('unitsuffix')
 
+		-- Handle the case where someone has modified the unitsuffix attribute in
+		-- oUF-initialConfigFunction.
+		if(suffix and not objectUnit:match(suffix)) then
+			objectUnit = objectUnit .. suffix
+		end
+
 		object.__elements = {}
 		object.style = style
 		object = setmetatable(object, frame_metatable)
 
 		-- Expose the frame through oUF.objects.
-		table.insert(objects, object)
+		tinsert(objects, object)
 
 		-- We have to force update the frames when PEW fires.
 		-- It's also important to evaluate units before running an update
@@ -321,15 +299,9 @@ local function initObject(unit, style, styleFunc, header, ...)
 		-- frame will be stuck with the 'vehicle' unit.
 		object:RegisterEvent('PLAYER_ENTERING_WORLD', evalUnitAndUpdate, true)
 
-		-- Handle the case where someone has modified the unitsuffix attribute in
-		-- oUF-initialConfigFunction.
-		if(suffix and not objectUnit:match(suffix)) then
-			objectUnit = objectUnit .. suffix
-		end
-
-		if(not (suffix == 'target' or objectUnit and objectUnit:match('target'))) then
-			object:RegisterEvent('UNIT_ENTERED_VEHICLE', updateActiveUnit)
-			object:RegisterEvent('UNIT_EXITED_VEHICLE', updateActiveUnit)
+		if(not isEventlessUnit(objectUnit)) then
+			object:RegisterEvent('UNIT_ENTERED_VEHICLE', evalUnitAndUpdate)
+			object:RegisterEvent('UNIT_EXITED_VEHICLE', evalUnitAndUpdate)
 
 			-- We don't need to register UNIT_PET for the player unit. We register it
 			-- mainly because UNIT_EXITED_VEHICLE and UNIT_ENTERED_VEHICLE don't always
@@ -344,15 +316,11 @@ local function initObject(unit, style, styleFunc, header, ...)
 			object:SetAttribute('*type1', 'target')
 			object:SetAttribute('*type2', 'togglemenu')
 
-			-- No need to enable this for *target frames.
-			if(not (unit:match('target') or suffix == 'target')) then
-				object:SetAttribute('toggleForVehicle', true)
-			end
-
-			-- Other boss and target units are handled by :HandleUnit().
-			if(suffix == 'target') then
-				enableTargetUpdate(object)
+			if(isEventlessUnit(objectUnit)) then
+				oUF:HandleEventlessUnit(object)
 			else
+				-- No need to enable this for eventless units.
+				object:SetAttribute('toggleForVehicle', true)
 				oUF:HandleUnit(object)
 			end
 		else
@@ -369,7 +337,7 @@ local function initObject(unit, style, styleFunc, header, ...)
 			end
 
 			if(suffix == 'target') then
-				enableTargetUpdate(object)
+				oUF:HandleEventlessUnit(object)
 			end
 		end
 
@@ -427,7 +395,7 @@ Used to add a function to a table to be executed upon unit frame/header initiali
 * func - function to be added
 --]]
 function oUF:RegisterInitCallback(func)
-	table.insert(callback, func)
+	tinsert(callback, func)
 end
 
 --[[ oUF:RegisterMetaFunction(name, func)
@@ -570,7 +538,7 @@ local function generateName(unit, ...)
 	elseif(party) then
 		append = 'Party'
 	elseif(unit) then
-		append = unit:gsub('^%l', string.upper)
+		append = unit:gsub('^%l', strupper)
 	end
 
 	if(append) then
@@ -700,7 +668,7 @@ do
 		header.visibility = visibility
 
 		-- Expose the header through oUF.headers.
-		table.insert(headers, header)
+		tinsert(headers, header)
 
 		-- We set it here so layouts can't directly override it.
 		header:SetAttribute('initialConfigFunction', initialConfigFunction)
@@ -744,12 +712,12 @@ do
 		end
 
 		if(visibility) then
-			local type, list = string.split(' ', visibility, 2)
+			local type, list = strsplit(' ', visibility, 2)
 			if(list and type == 'custom') then
 				RegisterAttributeDriver(header, 'state-visibility', list)
 				header.visibility = list
 			else
-				local condition = getCondition(string.split(',', visibility))
+				local condition = getCondition(strsplit(',', visibility))
 				RegisterAttributeDriver(header, 'state-visibility', condition)
 				header.visibility = condition
 			end
@@ -843,7 +811,7 @@ function oUF:SpawnNamePlates(namePrefix, nameplateCallback, nameplateCVars)
 				end
 			end
 		elseif(event == 'PLAYER_TARGET_CHANGED') then
-			local nameplate = C_NamePlate.GetNamePlateForUnit('target')
+			local nameplate = GetNamePlateForUnit('target')
 			if(nameplateCallback) then
 				nameplateCallback(nameplate and nameplate.unitFrame, event, 'target')
 			end
@@ -854,14 +822,14 @@ function oUF:SpawnNamePlates(namePrefix, nameplateCallback, nameplateCVars)
 				nameplate.unitFrame:UpdateAllElements(event)
 			end
 		elseif(event == 'UNIT_FACTION' and unit) then
-			local nameplate = C_NamePlate.GetNamePlateForUnit(unit)
+			local nameplate = GetNamePlateForUnit(unit)
 			if(not nameplate) then return end
 
 			if(nameplateCallback) then
 				nameplateCallback(nameplate.unitFrame, event, unit)
 			end
 		elseif(event == 'NAME_PLATE_UNIT_ADDED' and unit) then
-			local nameplate = C_NamePlate.GetNamePlateForUnit(unit)
+			local nameplate = GetNamePlateForUnit(unit)
 			if(not nameplate) then return end
 
 			if(not nameplate.unitFrame) then
@@ -888,7 +856,7 @@ function oUF:SpawnNamePlates(namePrefix, nameplateCallback, nameplateCVars)
 			-- ForceUpdate calls layout devs have to do themselves
 			nameplate.unitFrame:UpdateAllElements(event)
 		elseif(event == 'NAME_PLATE_UNIT_REMOVED' and unit) then
-			local nameplate = C_NamePlate.GetNamePlateForUnit(unit)
+			local nameplate = GetNamePlateForUnit(unit)
 			if(not nameplate) then return end
 
 			nameplate.unitFrame:SetAttribute('unit', nil)
@@ -943,6 +911,98 @@ if(global) then
 	end
 end
 
+do -- ShouldSkipAuraUpdate by Blizzard (implemented and heavily modified by Simpy)
+	local SpellGetVisibilityInfo = SpellGetVisibilityInfo
+	local SpellIsPriorityAura = SpellIsPriorityAura
+	local UnitAffectingCombat = UnitAffectingCombat
+
+	local hasValidPlayer = false
+	local cachedVisibility = {}
+	local cachedPriority = {}
+
+	local eventFrame = CreateFrame('Frame')
+	eventFrame:RegisterEvent('PLAYER_REGEN_ENABLED')
+	eventFrame:RegisterEvent('PLAYER_REGEN_DISABLED')
+	eventFrame:RegisterEvent('PLAYER_ENTERING_WORLD')
+	eventFrame:RegisterEvent('PLAYER_LEAVING_WORLD')
+
+	if oUF.isRetail then
+		eventFrame:RegisterEvent('PLAYER_SPECIALIZATION_CHANGED')
+	end
+
+	eventFrame:SetScript('OnEvent', function(_, event)
+		if event == 'PLAYER_ENTERING_WORLD' then
+			hasValidPlayer = true
+		elseif event == 'PLAYER_LEAVING_WORLD' then
+			hasValidPlayer = false
+		elseif event == 'PLAYER_SPECIALIZATION_CHANGED' then
+			wipe(cachedVisibility)
+		elseif event == 'PLAYER_REGEN_ENABLED' or event == 'PLAYER_REGEN_DISABLED' then
+			wipe(cachedVisibility)
+			wipe(cachedPriority)
+		end
+	end)
+
+	local function VisibilityInfo(spellId)
+		return SpellGetVisibilityInfo(spellId, UnitAffectingCombat('player') and 'RAID_INCOMBAT' or 'RAID_OUTOFCOMBAT')
+	end
+
+	local function CachedVisibility(spellId)
+		if cachedVisibility[spellId] == nil then
+			if not hasValidPlayer then -- Don't cache the info if the player is not valid since we didn't get a valid result
+				return VisibilityInfo(spellId)
+			else
+				cachedVisibility[spellId] = {VisibilityInfo(spellId)}
+			end
+		end
+
+		return unpack(cachedVisibility[spellId])
+	end
+
+	local function AllowAura(spellId)
+		local hasCustom, alwaysShowMine, showForMySpec = CachedVisibility(spellId)
+		return (not hasCustom) or alwaysShowMine or showForMySpec
+	end
+
+	local function AuraIsPriority(spellId)
+		if cachedPriority[spellId] == nil then
+			cachedPriority[spellId] = SpellIsPriorityAura(spellId)
+		end
+
+		return cachedPriority[spellId]
+	end
+
+	local function CouldDisplayAura(frame, event, unit, auraInfo)
+		if auraInfo.isNameplateOnly then
+			return frame.isNamePlate
+		elseif auraInfo.isBossAura or AuraIsPriority(auraInfo.spellId) then
+			return true
+		elseif auraInfo.isHarmful or auraInfo.isHelpful then
+			return AllowAura(auraInfo.spellId)
+		end
+
+		return false
+	end
+
+	local function ShouldSkipAura(frame, event, unit, fullUpdate, updatedAuras, relevantFunc, ...)
+		if fullUpdate or fullUpdate == nil then
+			return false
+		elseif updatedAuras and relevantFunc then
+			for _, auraInfo in ipairs(updatedAuras) do
+				if relevantFunc(frame, event, unit, auraInfo, ...) then
+					return false
+				end
+			end
+
+			return true
+		end
+	end
+
+	function oUF:ShouldSkipAuraUpdate(frame, event, unit, fullUpdate, updatedAuras, relevantFunc)
+		return (not unit or frame.unit ~= unit) or ShouldSkipAura(frame, event, unit, fullUpdate, updatedAuras, relevantFunc or CouldDisplayAura)
+	end
+end
+
 do -- Event Pooler by Simpy
 	local pooler = CreateFrame('Frame')
 	pooler.events = {}
@@ -961,14 +1021,40 @@ do -- Event Pooler by Simpy
 		for frame, info in pairs(pool) do
 			local funcs = info.functions
 			if instant and funcs then
-				pooler.run(funcs, frame, event, arg1, ...)
+				if event == 'UNIT_AURA' and oUF.isRetail then
+					local fullUpdate, updatedAuras = ...
+					if not oUF:ShouldSkipAuraUpdate(frame, event, arg1, fullUpdate, updatedAuras) then
+						pooler.run(funcs, frame, event, arg1, fullUpdate, updatedAuras)
+					end
+				else
+					pooler.run(funcs, frame, event, arg1, ...)
+				end
 			else
 				local data = funcs and info.data[event]
-				local count = data and #data
-				local args = count and data[count]
-				if args then
-					-- if count > 1 then print(frame:GetDebugName(), event, count, unpack(args)) end
-					pooler.run(funcs, frame, event, unpack(args))
+				if data then
+					if event == 'UNIT_AURA' and oUF.isRetail then
+						local allowUnit = false
+						for _, args in ipairs(data) do
+							local unit, fullUpdate, updatedAuras = unpack(args)
+							if not oUF:ShouldSkipAuraUpdate(frame, event, unit, fullUpdate, updatedAuras) then
+								allowUnit = unit
+								break
+							end
+						end
+
+						if allowUnit then
+							pooler.run(funcs, frame, event, allowUnit)
+						end
+					else
+						local count = #data
+						local args = count and data[count]
+						if args then
+							-- if count > 1 then print(frame:GetDebugName(), event, count, unpack(args)) end
+							pooler.run(funcs, frame, event, unpack(args))
+						end
+
+					end
+
 					wipe(data)
 				end
 			end

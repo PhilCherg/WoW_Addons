@@ -13,7 +13,7 @@ local GetClassInfo = GetClassInfo
 local CopyTable = CopyTable
 
 local NUM_CLASSES = #CLASS_SORT_ORDER
-local MAX_BOSS_FRAMES = _G.MAX_BOSS_FRAMES
+local MAX_BOSS_FRAMES = 8
 
 local orientationValues = {
 	LEFT = L["Left"],
@@ -157,10 +157,7 @@ local function GetOptionsTable_Auras(auraType, updateFunc, groupName, numUnits)
 	config.args.growthY = ACH:Select(L["Growth Y-Direction"], nil, 14, { UP = L["Up"], DOWN = L["Down"] }, nil, nil, nil, nil, function() local point = E.db.unitframe.units[groupName][auraType].anchorPoint return point == 'TOP' or point == 'BOTTOM' end)
 	config.args.clickThrough = ACH:Toggle(L["Click Through"], L["Ignore mouse events."], 15)
 	config.args.sortDirection = ACH:Select(L["Sort Direction"], L["Ascending or Descending order."], 17, { ASCENDING = L["Ascending"], DESCENDING = L["Descending"] })
-
-	if not strmatch(groupName, '%w+target') then -- these frames are special and run onupdate because of that we dont sort them.
-		config.args.sortMethod = ACH:Select(L["Sort By"], L["Method to sort by."], 16, { TIME_REMAINING = L["Time Remaining"], DURATION = L["Duration"], NAME = L["Name"], INDEX = L["Index"], PLAYER = L["Player"] })
-	end
+	config.args.sortMethod = ACH:Select(L["Sort By"], L["Method to sort by."], 16, { TIME_REMAINING = L["Time Remaining"], DURATION = L["Duration"], NAME = L["Name"], INDEX = L["Index"], PLAYER = L["Player"] })
 
 	config.args.stacks = ACH:Group(L["Stack Counter"], nil, 20, nil, function(info) return E.db.unitframe.units[groupName][auraType][info[#info]] end, function(info, value) E.db.unitframe.units[groupName][auraType][info[#info]] = value updateFunc(UF, groupName, numUnits) end)
 	config.args.stacks.inline = true
@@ -242,7 +239,7 @@ local function GetOptionsTable_AuraWatch(updateFunc, groupName, numGroup, subGro
 	else
 		config.args.applyToAll = ACH:Group(' ', nil, 50, nil, function(info) return BuffIndicator_ApplyToAll(info, nil, E.db.unitframe.units[groupName].buffIndicator.profileSpecific, groupName == 'pet') end, function(info, value) BuffIndicator_ApplyToAll(info, value, E.db.unitframe.units[groupName].buffIndicator.profileSpecific, groupName == 'pet') updateFunc(UF, groupName, numGroup) end)
 		config.args.applyToAll.inline = true
-		config.args.applyToAll.args.header = ACH:Description(L["|cffFF0000Warning:|r Changing options in this section will apply to all Aura Indicator auras. To change only one Aura, please click \"Configure Auras\" and change that specific Auras settings. If \"Profile Specific\" is selected it will apply to that filter set."], 1)
+		config.args.applyToAll.args.header = ACH:Description(L["|cffFF3333Warning:|r Changing options in this section will apply to all Aura Indicator auras. To change only one Aura, please click \"Configure Auras\" and change that specific Auras settings. If \"Profile Specific\" is selected it will apply to that filter set."], 1)
 		config.args.applyToAll.args.style = ACH:Select(L["Style"], nil, 2, { timerOnly = L["Timer Only"], coloredIcon = L["Colored Icon"], texturedIcon = L["Textured Icon"] })
 		config.args.applyToAll.args.textThreshold = ACH:Range(L["Text Threshold"], L["At what point should the text be displayed. Set to -1 to disable."], 3, { min = -1, max = 60, step = 1 })
 		config.args.applyToAll.args.displayText = ACH:Toggle(L["Display Text"], nil, 4)
@@ -374,6 +371,8 @@ local function GetOptionsTable_Castbar(updateFunc, groupName, numUnits)
 		config.args.ticks.args.ticks = ACH:Toggle(L["Ticks"], L["Display tick marks on the castbar for channelled spells. This will adjust automatically for spells like Drain Soul and add additional ticks based on haste."], 1)
 		config.args.ticks.args.tickColor = ACH:Color(L["COLOR"], nil, 2, true, nil, function() local c, d = E.db.unitframe.units[groupName].castbar.tickColor, P.unitframe.units[groupName].castbar.tickColor return c.r, c.g, c.b, c.a, d.r, d.g, d.b, d.a end, function(_, r, g, b, a) local c = E.db.unitframe.units[groupName].castbar.tickColor c.r, c.g, c.b, c.a = r, g, b, a updateFunc(UF, groupName, numUnits) end)
 		config.args.ticks.args.tickWidth = ACH:Range(L["Width"], nil, 3, { min = 1, max = 20, step = 1 })
+	elseif groupName == 'pet' or groupName == 'boss' then
+		config.args.displayTarget = ACH:Toggle(L["Display Target"], L["Display the target of current cast."], 13)
 	end
 
 	if groupName == 'party' then
@@ -783,6 +782,7 @@ end
 local function GetOptionsTable_RaidRoleIcons(updateFunc, groupName, numGroup)
 	local config = ACH:Group(L["Raid Role Indicator"], nil, nil, nil, function(info) return E.db.unitframe.units[groupName].raidRoleIcons[info[#info]] end, function(info, value) E.db.unitframe.units[groupName].raidRoleIcons[info[#info]] = value updateFunc(UF, groupName, numGroup) end)
 	config.args.enable = ACH:Toggle(L["Enable"], nil, 0)
+	config.args.scale = ACH:Range(L["Scale"], nil, 1, { min = .5, max = 2, step = .01, isPercent = true })
 	config.args.position = ACH:Select(L["Position"], nil, 2, C.Values.AllPoints)
 	config.args.xOffset = ACH:Range(L["X-Offset"], nil, 6, { min = -300, max = 300, step = 1 })
 	config.args.yOffset = ACH:Range(L["Y-Offset"], nil, 7, { min = -300, max = 300, step = 1 })
@@ -873,7 +873,9 @@ local function GetOptionsTable_GeneralGroup(updateFunc, groupName, numUnits)
 		config.args.smartAuraPosition = ACH:Select(L["Smart Aura Position"], L["Will show Buffs in the Debuff position when there are no Debuffs active, or vice versa."], 6, C.Values.SmartAuraPositions)
 	end
 
-	if groupName ~= 'arena' then
+	if groupName == 'arena' then
+		config.args.pvpSpecIcon = ACH:Toggle(L["Spec Icon"], L["Display icon on arena frame indicating the units talent specialization or the units faction if inside a battleground."], 5)
+	else
 		config.args.threatStyle = ACH:Select(L["Threat Display Mode"], nil, 7, threatValues)
 	end
 
@@ -1079,6 +1081,11 @@ Colors.reactionGroup.args.BAD = ACH:Color(L["Bad"], nil, 1)
 Colors.reactionGroup.args.NEUTRAL = ACH:Color(L["Neutral"], nil, 2)
 Colors.reactionGroup.args.GOOD = ACH:Color(L["Good"], nil, 3)
 
+Colors.happiness = ACH:Group(L["Pet Happiness"], nil, 6, nil, function(info) local n = tonumber(info[#info]) local t, d = E.db.unitframe.colors.happiness[n], P.unitframe.colors.happiness[n] return t.r, t.g, t.b, t.a, d.r, d.g, d.b end, function(info, r, g, b) local n = tonumber(info[#info]) local t = E.db.unitframe.colors.happiness[n] t.r, t.g, t.b = r, g, b UF:Update_AllFrames() end, nil, E.Retail)
+Colors.happiness.args['1'] = ACH:Color(L["Unhappy"], nil, 1)
+Colors.happiness.args['2'] = ACH:Color(L["Content"], nil, 2)
+Colors.happiness.args['3'] = ACH:Color(L["Happy"], nil, 3)
+
 Colors.selectionGroup = ACH:Group(L["Selection"], nil, 7, nil, function(info) local n = tonumber(info[#info]) local t, d = E.db.unitframe.colors.selection[n], P.unitframe.colors.selection[n] return t.r, t.g, t.b, t.a, d.r, d.g, d.b end, function(info, r, g, b) local n = tonumber(info[#info]) local t = E.db.unitframe.colors.selection[n] t.r, t.g, t.b = r, g, b UF:Update_AllFrames() end)
 Colors.selectionGroup.args['0'] = ACH:Color(L["Hostile"], nil, 0)
 Colors.selectionGroup.args['1'] = ACH:Color(L["Unfriendly"], nil, 1)
@@ -1220,15 +1227,16 @@ Player.resurrectIcon = GetOptionsTable_ResurrectIcon(UF.CreateAndUpdateUF, 'play
 
 Player.RestIcon = ACH:Group(L["Rest Icon"], nil, nil, nil, function(info) return E.db.unitframe.units.player.RestIcon[info[#info]] end, function(info, value) E.db.unitframe.units.player.RestIcon[info[#info]] = value UF:CreateAndUpdateUF('player') UF:TestingDisplay_RestingIndicator(UF.player) end)
 Player.RestIcon.args.enable = ACH:Toggle(L["Enable"], nil, 1)
-Player.RestIcon.args.size = ACH:Range(L["Size"], nil, 2, { min = 12, max = 64, step = 1 })
-Player.RestIcon.args.anchorPoint = ACH:Select(L["Position"], nil, 3, C.Values.AllPoints)
-Player.RestIcon.args.xOffset = ACH:Range(L["X-Offset"], nil, 4, { min = -100, max = 100, step = 1 })
-Player.RestIcon.args.yOffset = ACH:Range(L["Y-Offset"], nil, 5, { min = -100, max = 100, step = 1 })
-Player.RestIcon.args.defaultColor = ACH:Toggle(L["Default Color"], nil, 6)
-Player.RestIcon.args.color = ACH:Color(L["COLOR"], nil, 7, true, nil, function() local c, d = E.db.unitframe.units.player.RestIcon.color, P.unitframe.units.player.RestIcon.color return c.r, c.g, c.b, c.a, d.r, d.g, d.b, d.a end, function(_, r, g, b, a) local c = E.db.unitframe.units.player.RestIcon.color c.r, c.g, c.b, c.a = r, g, b, a UF:CreateAndUpdateUF('player') UF:TestingDisplay_RestingIndicator(UF.player) end, nil, function() return E.db.unitframe.units.player.RestIcon.defaultColor end)
-Player.RestIcon.args.texture = ACH:Select(L["Texture"], nil, 8, { CUSTOM = L["CUSTOM"], DEFAULT = L["DEFAULT"] })
+Player.RestIcon.args.hideAtMaxLevel = ACH:Toggle(L["Hide At Max Level"], nil, 2)
+Player.RestIcon.args.size = ACH:Range(L["Size"], nil, 3, { min = 12, max = 64, step = 1 })
+Player.RestIcon.args.anchorPoint = ACH:Select(L["Position"], nil, 4, C.Values.AllPoints)
+Player.RestIcon.args.xOffset = ACH:Range(L["X-Offset"], nil, 5, { min = -100, max = 100, step = 1 })
+Player.RestIcon.args.yOffset = ACH:Range(L["Y-Offset"], nil, 6, { min = -100, max = 100, step = 1 })
+Player.RestIcon.args.defaultColor = ACH:Toggle(L["Default Color"], nil, 7)
+Player.RestIcon.args.color = ACH:Color(L["COLOR"], nil, 8, true, nil, function() local c, d = E.db.unitframe.units.player.RestIcon.color, P.unitframe.units.player.RestIcon.color return c.r, c.g, c.b, c.a, d.r, d.g, d.b, d.a end, function(_, r, g, b, a) local c = E.db.unitframe.units.player.RestIcon.color c.r, c.g, c.b, c.a = r, g, b, a UF:CreateAndUpdateUF('player') UF:TestingDisplay_RestingIndicator(UF.player) end, nil, function() return E.db.unitframe.units.player.RestIcon.defaultColor end)
+Player.RestIcon.args.texture = ACH:Select(L["Texture"], nil, 9, { CUSTOM = L["CUSTOM"], DEFAULT = L["DEFAULT"] })
 Player.RestIcon.args.texture.sortByValue = true
-Player.RestIcon.args.customTexture = ACH:Input(L["Custom Texture"], nil, 9, nil, 250, nil, function(_, value) E.db.unitframe.units.player.RestIcon.customTexture = (value and (not value:match('^%s-$')) and value) or nil UF:CreateAndUpdateUF('player') UF:TestingDisplay_RestingIndicator(UF.player) end)
+Player.RestIcon.args.customTexture = ACH:Input(L["Custom Texture"], nil, 10, nil, 250, nil, function(_, value) E.db.unitframe.units.player.RestIcon.customTexture = (value and (not value:match('^%s-$')) and value) or nil UF:CreateAndUpdateUF('player') UF:TestingDisplay_RestingIndicator(UF.player) end)
 
 for key, icon in pairs(E.Media.RestIcons) do
 	Player.RestIcon.args.texture.values[key] = E:TextureString(icon, ':14:14')
@@ -1530,7 +1538,7 @@ Party.targetsGroup.args.raidicon = GetOptionsTable_RaidIcon(UF.CreateAndUpdateHe
 GroupUnits.raid = ACH:Group(L["Raid"], nil, nil, nil, function(info) return E.db.unitframe.units.raid[info[#info]] end, function(info, value) E.db.unitframe.units.raid[info[#info]] = value UF:CreateAndUpdateHeaderGroup('raid') end)
 local Raid = GroupUnits.raid.args
 
-Raid.header = ACH:Description(L["|cffFF0000Warning:|r Enable and Number of Groups are managed by Smart Raid Filter. Disable Smart Raid Filter in (UnitFrames - General) to change these settings."], 0, 'large', nil, nil, nil, nil, nil, function() return not E.db.unitframe.smartRaidFilter end)
+Raid.header = ACH:Description(L["|cffFF3333Warning:|r Enable and Number of Groups are managed by Smart Raid Filter. Disable Smart Raid Filter in (UnitFrames - General) to change these settings."], 0, 'large', nil, nil, nil, nil, nil, function() return not E.db.unitframe.smartRaidFilter end)
 Raid.enable = ACH:Toggle(L["Enable"], nil, 1, nil, nil, nil, nil, nil, function() return E.db.unitframe.smartRaidFilter end)
 Raid.configureToggle = ACH:Execute(L["Display Frames"], nil, 2, function() UF:HeaderConfig(UF.raid, UF.raid.forceShow ~= true or nil) end)
 Raid.resetSettings = ACH:Execute(L["Restore Defaults"], nil, 3, function() E:StaticPopup_Show('RESET_UF_UNIT', L["Raid Frames"], nil, {unit = 'raid', mover='Raid Frames'}) end)
@@ -1563,7 +1571,7 @@ Raid.pvpclassificationindicator = GetOptionsTable_PVPClassificationIndicator(UF.
 GroupUnits.raid40 = ACH:Group(L["Raid-40"], nil, nil, nil, function(info) return E.db.unitframe.units.raid40[info[#info]] end, function(info, value) E.db.unitframe.units.raid40[info[#info]] = value UF:CreateAndUpdateHeaderGroup('raid40') end)
 local Raid40 = GroupUnits.raid40.args
 
-Raid40.header = ACH:Description(L["|cffFF0000Warning:|r Enable and Number of Groups are managed by Smart Raid Filter. Disable Smart Raid Filter in (UnitFrames - General) to change these settings."], 0, 'large', nil, nil, nil, nil, nil, function() return not E.db.unitframe.smartRaidFilter end)
+Raid40.header = ACH:Description(L["|cffFF3333Warning:|r Enable and Number of Groups are managed by Smart Raid Filter. Disable Smart Raid Filter in (UnitFrames - General) to change these settings."], 0, 'large', nil, nil, nil, nil, nil, function() return not E.db.unitframe.smartRaidFilter end)
 Raid40.enable = ACH:Toggle(L["Enable"], nil, 1, nil, nil, nil, nil, nil, function() return E.db.unitframe.smartRaidFilter end)
 Raid40.configureToggle = ACH:Execute(L["Display Frames"], nil, 2, function() UF:HeaderConfig(UF.raid40, UF.raid40.forceShow ~= true or nil) end)
 Raid40.resetSettings = ACH:Execute(L["Restore Defaults"], nil, 3, function() E:StaticPopup_Show('RESET_UF_UNIT', L["Raid-40 Frames"], nil, {unit = 'raid40', mover='Raid Frames'}) end)

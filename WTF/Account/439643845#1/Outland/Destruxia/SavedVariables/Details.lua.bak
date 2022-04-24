@@ -29,13 +29,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 38622.003307,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["serial"] = "Player-1301-0B0D298B",
 							["dps_started"] = false,
 							["end_time"] = 1649263674,
 							["classe"] = "MAGE",
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Destruxia",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -359,10 +359,10 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1649263674,
-							["last_dps"] = 711.0219869106638,
+							["damage_taken"] = 2129.003307,
 							["start_time"] = 1649263620,
 							["delay"] = 0,
-							["damage_taken"] = 2129.003307,
+							["last_dps"] = 711.0219869106638,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -391,16 +391,16 @@ _detalhes_database = {
 							["serial"] = "Vehicle-0-3102-1642-38-138794-00004DC3FA",
 							["pets"] = {
 							},
-							["aID"] = "",
-							["dps_started"] = false,
+							["monster"] = true,
 							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 24511.00899,
-							["damage_taken"] = 708682.00899,
+							["dps_started"] = false,
 							["fight_component"] = true,
-							["total"] = 24511.00899,
-							["on_hold"] = false,
+							["end_time"] = 1649263674,
+							["damage_taken"] = 708682.00899,
 							["last_event"] = 1649263673,
 							["nome"] = "Dunegorger Kraulok",
 							["spells"] = {
@@ -578,16 +578,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["monster"] = true,
+							["total"] = 24511.00899,
 							["friendlyfire"] = {
 							},
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["custom"] = 0,
 							["tipo"] = 1,
 							["last_dps"] = 0,
 							["start_time"] = 1649263621,
 							["delay"] = 0,
-							["end_time"] = 1649263674,
+							["aID"] = "",
 						}, -- [2]
 						{
 							["flag_original"] = 8776,
@@ -608,18 +608,17 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["nome"] = "Ravenous Ranishu",
 							["friendlyfire_total"] = 0,
+							["nome"] = "Ravenous Ranishu",
+							["aID"] = "139614",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3393.002031,
 							["serial"] = "Creature-0-3102-1642-38-139614-00004DC419",
 							["fight_component"] = true,
 							["total"] = 3393.002031,
+							["on_hold"] = true,
 							["damage_taken"] = 48397.002031,
-							["friendlyfire"] = {
-							},
 							["timeMachine"] = 1,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -639,7 +638,7 @@ _detalhes_database = {
 										["g_dmg"] = 0,
 										["counter"] = 24,
 										["a_dmg"] = 0,
-										["r_amt"] = 0,
+										["total"] = 726,
 										["c_max"] = 0,
 										["DODGE"] = 5,
 										["id"] = 1,
@@ -654,7 +653,7 @@ _detalhes_database = {
 										["a_amt"] = 0,
 										["n_amt"] = 7,
 										["b_dmg"] = 18,
-										["total"] = 726,
+										["r_amt"] = 0,
 									}, -- [1]
 									[275996] = {
 										["c_amt"] = 0,
@@ -748,10 +747,11 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["on_hold"] = true,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1649263655,
 							["delay"] = 1649263683,
-							["aID"] = "139614",
+							["classe"] = "PET",
 						}, -- [3]
 					},
 				}, -- [1]
@@ -771,9 +771,7 @@ _detalhes_database = {
 							["totalover"] = 23.006952,
 							["total_without_pet"] = 2129.006952,
 							["total"] = 2129.006952,
-							["targets_absorbs"] = {
-								["Destruxia"] = 2129,
-							},
+							["spec"] = 63,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -790,7 +788,9 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Destruxia"] = true,
 							},
-							["spec"] = 63,
+							["targets_absorbs"] = {
+								["Destruxia"] = 2129,
+							},
 							["nome"] = "Destruxia",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -814,9 +814,9 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_curado"] = 1121,
 										["totaldenied"] = 0,
 										["n_amt"] = 2,
-										["n_curado"] = 1121,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -840,9 +840,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["totaldenied"] = 0,
 										["n_amt"] = 4,
 										["n_curado"] = 0,
+										["totaldenied"] = 0,
 										["absorbed"] = 0,
 									},
 									[235313] = {
@@ -865,9 +865,9 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_curado"] = 1008,
 										["totaldenied"] = 0,
 										["n_amt"] = 1,
-										["n_curado"] = 1008,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -878,11 +878,11 @@ _detalhes_database = {
 							["heal_enemy_amt"] = 0,
 							["start_time"] = 1649263662,
 							["custom"] = 0,
-							["last_event"] = 1649263671,
+							["tipo"] = 2,
 							["aID"] = "1301-0B0D298B",
 							["totaldenied"] = 0.006952,
 							["delay"] = 1649263658,
-							["tipo"] = 2,
+							["last_event"] = 1649263671,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -1084,8 +1084,8 @@ _detalhes_database = {
 								[133] = 10,
 								[190319] = 1,
 								[257541] = 3,
-								[235313] = 1,
 								[11366] = 7,
+								[235313] = 1,
 								[108853] = 8,
 							},
 							["debuff_uptime_targets"] = {
@@ -1101,7 +1101,7 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
-							["aID"] = "",
+							["classe"] = "UNKNOW",
 							["nome"] = "Dunegorger Kraulok",
 							["fight_component"] = true,
 							["pets"] = {
@@ -1112,9 +1112,9 @@ _detalhes_database = {
 								[275175] = 2,
 								[276046] = 2,
 							},
-							["tipo"] = 4,
 							["last_event"] = 0,
-							["classe"] = "UNKNOW",
+							["tipo"] = 4,
+							["aID"] = "",
 							["serial"] = "Vehicle-0-3102-1642-38-138794-00004DC3FA",
 							["monster"] = true,
 						}, -- [2]
@@ -1160,7 +1160,7 @@ _detalhes_database = {
 				},
 				["playing_solo"] = true,
 				["totals"] = {
-					66525.92313600003, -- [1]
+					66525.90154400004, -- [1]
 					2128.961093000001, -- [2]
 					{
 						-0.01192300000003144, -- [1]
@@ -1238,13 +1238,13 @@ _detalhes_database = {
 				},
 				["end_time"] = 22207.208,
 				["combat_id"] = 5,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Dunegorger Kraulok",
 				["frags"] = {
 					["Ravenous Ranishu"] = 4,
 					["Sidewinder"] = 2,
 					["Dunegorger Kraulok"] = 1,
+				},
+				["contra"] = "Dunegorger Kraulok",
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 794,
 				["data_inicio"] = "19:47:01",
@@ -1273,7 +1273,7 @@ _detalhes_database = {
 		["pos"] = {
 		},
 	},
-	["last_version"] = "9.2.09722",
+	["last_version"] = "9.2.09735",
 	["SoloTablesSaved"] = {
 		["Mode"] = 1,
 	},
@@ -1287,7 +1287,7 @@ _detalhes_database = {
 	},
 	["on_death_menu"] = true,
 	["nick_tag_cache"] = {
-		["nextreset"] = 1650557918,
+		["nextreset"] = 1652044831,
 		["last_version"] = 14,
 	},
 	["last_instance_id"] = 550,
@@ -1312,10 +1312,16 @@ _detalhes_database = {
 		["previous_boss_killed_at"] = 0,
 	},
 	["ignore_nicktag"] = false,
-	["announce_prepots"] = {
+	["cd_tracker"] = {
 		["enabled"] = false,
-		["channel"] = "SELF",
-		["reverse"] = false,
+		["cds_enabled"] = {
+		},
+		["show_conditions"] = {
+			["only_inside_instance"] = true,
+			["only_in_group"] = true,
+		},
+		["pos"] = {
+		},
 	},
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
@@ -1414,6 +1420,26 @@ _detalhes_database = {
 			["main_frame_locked"] = false,
 			["row_texture"] = "Details Serenity",
 			["arrow_anchor_y"] = 0,
+			["font_size"] = 10,
+			["main_frame_strata"] = "LOW",
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["y"] = 4.57763671875e-05,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -1425,61 +1451,33 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
-			["main_frame_strata"] = "LOW",
-			["square_amount"] = 5,
-			["enabled"] = false,
-			["arrow_size"] = 10,
-			["font_size"] = 10,
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
-			["author"] = "Details! Team",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["use_spark"] = true,
-			["y"] = 4.57763671875e-05,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["author"] = "Details! Team",
 			["point"] = "CENTER",
 			["row_height"] = 20,
 			["scale"] = 1,
 		},
 	},
-	["last_encounter"] = "Kael'thas Sunstrider",
+	["cached_talents"] = {
+	},
 	["announce_damagerecord"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["benchmark_db"] = {
-		["frame"] = {
-		},
-	},
-	["last_realversion"] = 146,
-	["cd_tracker"] = {
+	["announce_prepots"] = {
 		["enabled"] = false,
-		["cds_enabled"] = {
-		},
-		["show_conditions"] = {
-			["only_inside_instance"] = true,
-			["only_in_group"] = true,
-		},
-		["pos"] = {
-		},
+		["channel"] = "SELF",
+		["reverse"] = false,
 	},
+	["last_encounter"] = "Kael'thas Sunstrider",
+	["last_realversion"] = 146,
 	["character_data"] = {
-		["logons"] = 178,
+		["logons"] = 180,
 	},
-	["combat_counter"] = 796,
+	["combat_counter"] = 798,
 	["combat_id"] = 5,
 	["savedStyles"] = {
 	},
@@ -1542,17 +1540,16 @@ _detalhes_database = {
 					["serial"] = "Player-1301-0B0D298B",
 					["pets"] = {
 					},
-					["last_dps"] = 0,
-					["aID"] = "1301-0B0D298B",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
+					["aID"] = "1301-0B0D298B",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 38622.004756,
 					["end_time"] = 1649263675,
 					["dps_started"] = false,
 					["total"] = 38622.004756,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["last_event"] = 0,
 					["nome"] = "Destruxia",
 					["spells"] = {
@@ -1865,7 +1862,8 @@ _detalhes_database = {
 					["classe"] = "MAGE",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1649263618,
 					["delay"] = 0,
 					["damage_taken"] = 2129.004756,
@@ -1897,17 +1895,17 @@ _detalhes_database = {
 					["serial"] = "Vehicle-0-3102-1642-38-138794-00004DC3FA",
 					["pets"] = {
 					},
-					["friendlyfire"] = {
-					},
-					["monster"] = true,
-					["aID"] = "",
+					["last_dps"] = 0,
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 24511.011008,
-					["end_time"] = 1649263675,
-					["fight_component"] = true,
+					["monster"] = true,
+					["dps_started"] = false,
 					["total"] = 24511.011008,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["last_event"] = 0,
 					["nome"] = "Dunegorger Kraulok",
 					["spells"] = {
@@ -2083,15 +2081,15 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["end_time"] = 1649263675,
 					["friendlyfire_total"] = 0,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["custom"] = 0,
 					["tipo"] = 1,
 					["damage_taken"] = 708682.011008,
 					["start_time"] = 1649263619,
 					["delay"] = 0,
-					["dps_started"] = false,
+					["aID"] = "",
 				}, -- [2]
 				{
 					["flag_original"] = 8776,
@@ -2112,9 +2110,9 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["classe"] = "PET",
-					["damage_taken"] = 48397.010456,
 					["aID"] = "139614",
+					["last_dps"] = 0,
+					["classe"] = "PET",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 2610.010456,
@@ -2122,7 +2120,7 @@ _detalhes_database = {
 					["fight_component"] = true,
 					["end_time"] = 1649263675,
 					["friendlyfire_total"] = 0,
-					["on_hold"] = false,
+					["damage_taken"] = 48397.010456,
 					["nome"] = "Ravenous Ranishu",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -2250,11 +2248,11 @@ _detalhes_database = {
 					["dps_started"] = false,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
-					["start_time"] = 1649263653,
-					["delay"] = 0,
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1649263653,
+					["delay"] = 0,
+					["on_hold"] = false,
 				}, -- [3]
 			},
 		}, -- [1]
@@ -2292,7 +2290,7 @@ _detalhes_database = {
 					["healing_from"] = {
 						["Destruxia"] = true,
 					},
-					["classe"] = "MAGE",
+					["heal_enemy_amt"] = 0,
 					["nome"] = "Destruxia",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -2316,9 +2314,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["totaldenied"] = 0,
 								["n_amt"] = 2,
 								["n_curado"] = 1121,
+								["totaldenied"] = 0,
 								["absorbed"] = 0,
 							},
 							[259760] = {
@@ -2341,9 +2339,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["totaldenied"] = 0,
 								["n_amt"] = 4,
 								["n_curado"] = 0,
+								["totaldenied"] = 0,
 								["absorbed"] = 0,
 							},
 							[235313] = {
@@ -2366,23 +2364,23 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["totaldenied"] = 0,
 								["n_amt"] = 1,
 								["n_curado"] = 1008,
+								["totaldenied"] = 0,
 								["absorbed"] = 0,
 							},
 						},
 						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["heal_enemy_amt"] = 0,
+					["classe"] = "MAGE",
 					["start_time"] = 1649263660,
 					["custom"] = 0,
-					["last_event"] = 0,
+					["tipo"] = 2,
 					["spec"] = 63,
 					["totaldenied"] = 0.008153,
 					["delay"] = 0,
-					["tipo"] = 2,
+					["last_event"] = 0,
 				}, -- [1]
 			},
 		}, -- [2]
@@ -2569,8 +2567,8 @@ _detalhes_database = {
 						[190319] = 1,
 						[257541] = 3,
 						[108853] = 8,
-						[235313] = 1,
 						[11366] = 7,
+						[235313] = 1,
 					},
 					["debuff_uptime_targets"] = {
 					},
@@ -2584,20 +2582,20 @@ _detalhes_database = {
 				}, -- [1]
 				{
 					["monster"] = true,
-					["last_event"] = 0,
+					["classe"] = "UNKNOW",
 					["nome"] = "Dunegorger Kraulok",
-					["pets"] = {
-					},
 					["spell_cast"] = {
 						[275200] = 1,
 						[276046] = 2,
 						[275175] = 2,
 						[275194] = 1,
 					},
+					["pets"] = {
+					},
 					["fight_component"] = true,
-					["aID"] = "",
 					["tipo"] = 4,
-					["classe"] = "UNKNOW",
+					["aID"] = "",
+					["last_event"] = 0,
 					["serial"] = "Vehicle-0-3102-1642-38-138794-00004DC3FA",
 					["flag_original"] = 68168,
 				}, -- [2]
@@ -2735,9 +2733,11 @@ _detalhes_database = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["cached_talents"] = {
+	["last_day"] = "24",
+	["benchmark_db"] = {
+		["frame"] = {
+		},
 	},
-	["last_day"] = "07",
 	["announce_cooldowns"] = {
 		["ignored_cooldowns"] = {
 		},
@@ -2752,5 +2752,6 @@ _detalhes_database = {
 	["cached_roles"] = {
 	},
 	["cached_specs"] = {
+		["Player-1301-0B0D298B"] = 63,
 	},
 }

@@ -20,6 +20,7 @@ local GetGuildInfo = GetGuildInfo
 local GetInstanceInfo = GetInstanceInfo
 local GetNumGroupMembers = GetNumGroupMembers
 local GetPVPTimer = GetPVPTimer
+local GetRaidRosterInfo = GetRaidRosterInfo
 local GetQuestDifficultyColor = GetQuestDifficultyColor
 local GetCreatureDifficultyColor = GetCreatureDifficultyColor
 local GetRelativeDifficultyColor = GetRelativeDifficultyColor
@@ -74,6 +75,7 @@ local C_PetJournal_GetPetTeamAverageLevel = C_PetJournal and C_PetJournal.GetPet
 
 local CHAT_FLAG_AFK = CHAT_FLAG_AFK:gsub('<(.-)>', '|r<|cffFF3333%1|r>')
 local CHAT_FLAG_DND = CHAT_FLAG_DND:gsub('<(.-)>', '|r<|cffFFFF33%1|r>')
+local LEVEL = strlower(LEVEL)
 
 local POWERTYPE_MANA = Enum.PowerType.Mana
 local POWERTYPE_COMBOPOINTS = Enum.PowerType.ComboPoints
@@ -83,7 +85,6 @@ local SPEC_MONK_BREWMASTER = SPEC_MONK_BREWMASTER
 local UNITNAME_SUMMON_TITLE17 = UNITNAME_SUMMON_TITLE17
 local DEFAULT_AFK_MESSAGE = DEFAULT_AFK_MESSAGE
 local UNKNOWN = UNKNOWN
-local LEVEL = LEVEL
 local PVP = PVP
 
 -- GLOBALS: ElvUF, Hex, _TAGS, _COLORS
@@ -95,8 +96,7 @@ function E:AddTag(tagName, eventsOrSeconds, func, block)
 	if type(eventsOrSeconds) == 'number' then
 		Tags.OnUpdateThrottle[tagName] = eventsOrSeconds
 	else
-
-		Tags.Events[tagName] = (E.Retail and gsub(eventsOrSeconds, 'UNIT_HEALTH_FREQUENT', 'UNIT_HEALTH')) or gsub(eventsOrSeconds, 'UNIT_HEALTH([^_])', 'UNIT_HEALTH_FREQUENT%1')
+		Tags.Events[tagName] = (E.Retail and gsub(eventsOrSeconds, 'UNIT_HEALTH_FREQUENT', 'UNIT_HEALTH')) or gsub(eventsOrSeconds, 'UNIT_HEALTH([^%s_]?)', 'UNIT_HEALTH_FREQUENT%1')
 	end
 
 	Tags.Methods[tagName] = func
@@ -722,6 +722,21 @@ E:AddTag('guild', 'UNIT_NAME_UPDATE PLAYER_GUILD_UPDATE', function(unit)
 	end
 end)
 
+E:AddTag('group:raid', 'GROUP_ROSTER_UPDATE', function(unit)
+	if IsInRaid() then
+		local name, realm = UnitName(unit)
+		if name then
+			local nameRealm = (realm and realm ~= '' and format('%s-%s', name, realm)) or name
+			for i = 1, GetNumGroupMembers() do
+				local raidName, _, group = GetRaidRosterInfo(i)
+				if raidName == nameRealm then
+					return group
+				end
+			end
+		end
+	end
+end)
+
 E:AddTag('guild:brackets', 'PLAYER_GUILD_UPDATE', function(unit)
 	local guildName = GetGuildInfo(unit)
 	if guildName then
@@ -1101,9 +1116,12 @@ do
 		E.ScanTooltip:SetUnit(unit)
 		E.ScanTooltip:Show()
 
-		local Title = _G[format('ElvUI_ScanTooltipTextLeft%d', GetCVarBool('colorblindmode') and 3 or 2)]:GetText()
-		if Title and not strfind(Title, '^'..LEVEL) then
-			return custom and format(custom, Title) or Title
+		-- similar to TT.GetLevelLine
+		local ttLine = _G[format('ElvUI_ScanTooltipTextLeft%d', GetCVarBool('colorblindmode') and 3 or 2)]
+		local ttText = ttLine and ttLine:GetText()
+		local ttLower = ttText and strlower(ttText)
+		if ttLower and not strfind(ttLower, LEVEL) then
+			return custom and format(custom, ttText) or ttText
 		end
 	end
 	E.TagFunctions.GetTitleNPC = GetTitleNPC
@@ -1507,7 +1525,8 @@ E.TagInfo = {
 		['npctitle'] = { category = 'Names', description = "Displays the NPC title (e.g. General Goods Vendor)" },
 		['title'] = { category = 'Names', description = "Displays player title" },
 	-- Party and Raid
-		['group'] = { category = 'Party and Raid', description = "Displays the group number the unit is in ('1' - '8')" },
+		['group'] = { category = 'Party and Raid', description = "Displays the group number the unit is in (1-8)" },
+		['group:raid'] = { category = 'Party and Raid', description = "Displays the group number the unit is in (1-8): Only while in a raid." },
 		['leader'] = { category = 'Party and Raid', description = "Displays 'L' if the unit is the group/raid leader" },
 		['leaderlong'] = { category = 'Party and Raid', description = "Displays 'Leader' if the unit is the group/raid leader" },
 	-- Power

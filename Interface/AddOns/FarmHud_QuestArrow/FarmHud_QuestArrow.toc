@@ -1,8 +1,6 @@
 ## Interface: 90200
-## Interface-BCC: 20503
-## Interface-Classic: 11402
 ## Title: FarmHud [QuestArrow]
-## Version: 9.0.2-release
+## Version: 9.0.3-release
 ## Notes: Experimental way to suppress the quest arrow while FarmHud is active.
 ## Author: Hizuro
 ## Dependencies: FarmHud

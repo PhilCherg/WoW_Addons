@@ -74,11 +74,11 @@ function E:SetupChat(noDisplayMsg)
 			frame:Point('BOTTOMLEFT', _G.LeftChatToggleButton, 'TOPLEFT', 1, 3)
 		elseif id == 2 then
 			FCF_SetWindowName(frame, GUILD_EVENT_LOG)
-		elseif (E.Retail and id == 3) then
+		elseif (not E.Classic and id == 3) then
 			VoiceTranscriptionFrame_UpdateVisibility(frame)
 			VoiceTranscriptionFrame_UpdateVoiceTab(frame)
 			VoiceTranscriptionFrame_UpdateEditBox(frame)
-		elseif (E.Retail and id == 4) or id == 3 then
+		elseif (not E.Classic and id == 4) or id == 3 then
 			frame:ClearAllPoints()
 			frame:Point('BOTTOMLEFT', _G.RightChatDataPanel, 'TOPLEFT', 1, 3)
 			FCF_SetWindowName(frame, LOOT..' / '..TRADE)
@@ -533,7 +533,7 @@ function E:SetupComplete(reload)
 	end
 end
 
-local function ResetAll()
+function E:SetupReset()
 	_G.InstallNextButton:Disable()
 	_G.InstallPrevButton:Disable()
 	_G.InstallOption1Button:Hide()
@@ -564,7 +564,7 @@ end
 
 function E:SetPage(PageNum)
 	CURRENT_PAGE = PageNum
-	ResetAll()
+	E:SetupReset()
 
 	_G.InstallStatus.anim.progress:SetChange(PageNum)
 	_G.InstallStatus.anim.progress:Play()
@@ -582,13 +582,12 @@ function E:SetPage(PageNum)
 		_G.InstallPrevButton:Enable()
 	end
 
+	local f = ElvUIInstallFrame
 	local InstallOption1Button = _G.InstallOption1Button
 	local InstallOption2Button = _G.InstallOption2Button
 	local InstallOption3Button = _G.InstallOption3Button
 	local InstallOption4Button = _G.InstallOption4Button
 	local InstallSlider = _G.InstallSlider
-
-	local f = ElvUIInstallFrame
 
 	local r, g, b = E:ColorGradient(CURRENT_PAGE / MAX_PAGE, 1, 0, 0, 1, 1, 0, 0, 1, 0)
 	f.Status:SetStatusBarColor(r, g, b)
