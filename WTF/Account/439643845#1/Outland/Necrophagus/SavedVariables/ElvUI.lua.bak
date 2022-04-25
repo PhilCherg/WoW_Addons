@@ -2,2205 +2,2205 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"Hio", -- [1]
-			"Kvaerion-Outland", -- [2]
-			"", -- [3]
+			"{rt3}1", -- [1]
+			"Kronós-Outland", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Kronós-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			0, -- [10]
-			3633, -- [11]
-			"Player-1301-0A7F50E1", -- [12]
+			7, -- [10]
+			7236, -- [11]
+			"Player-1301-0BB8CFFA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Kvaerion|r",
-			[51] = 1650815470,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Kronós|r",
+			[51] = 1650830571,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [1]
 		{
-			"go 4 ?", -- [1]
-			"Андурэл-ЧерныйШрам", -- [2]
-			"", -- [3]
+			"PI ASTRO", -- [1]
+			"Astrø-Outland", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Андурэл-ЧерныйШрам", -- [5]
+			"Astrø-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			0, -- [10]
-			3634, -- [11]
-			"Player-1929-095A6326", -- [12]
+			7, -- [10]
+			7242, -- [11]
+			"Player-1301-0C0E457A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Андурэл-ЧерныйШрам|r",
-			[51] = 1650815472,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Astrø|r",
+			[51] = 1650830599,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [2]
 		{
-			"its a +4", -- [1]
-			"Fionara-Outland", -- [2]
+			"PI ASTRO", -- [1]
+			"Astrø-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Fionara-Outland", -- [5]
+			"Astrø", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3639, -- [11]
-			"Player-1301-09D4F339", -- [12]
+			7243, -- [11]
+			"Player-1301-0C0E457A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1650815494,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffa9d271Astrø|r",
+			[51] = 1650830599,
+			[50] = "CHAT_MSG_RAID_WARNING",
 		}, -- [3]
 		{
-			"+2", -- [1]
-			"Fionara-Outland", -- [2]
+			"PI ASTRO", -- [1]
+			"Astrø-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Fionara-Outland", -- [5]
+			"Astrø", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3641, -- [11]
-			"Player-1301-09D4F339", -- [12]
+			7244, -- [11]
+			"Player-1301-0C0E457A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1650815497,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffa9d271Astrø|r",
+			[51] = 1650830600,
+			[50] = "CHAT_MSG_RAID_WARNING",
 		}, -- [4]
 		{
-			"i mean", -- [1]
-			"Fionara-Outland", -- [2]
+			"PI ASTRO", -- [1]
+			"Astrø-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Fionara-Outland", -- [5]
+			"Astrø", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3642, -- [11]
-			"Player-1301-09D4F339", -- [12]
+			7281, -- [11]
+			"Player-1301-0C0E457A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1650815498,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffa9d271Astrø|r",
+			[51] = 1650830665,
+			[50] = "CHAT_MSG_RAID_WARNING",
 		}, -- [5]
 		{
-			"+2", -- [1]
-			"Андурэл-ЧерныйШрам", -- [2]
+			"PI ASTRO", -- [1]
+			"Astrø-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Андурэл-ЧерныйШрам", -- [5]
+			"Astrø", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3644, -- [11]
-			"Player-1929-095A6326", -- [12]
+			7283, -- [11]
+			"Player-1301-0C0E457A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Андурэл-ЧерныйШрам|r",
-			[51] = 1650815515,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Astrø|r",
+			[51] = 1650830665,
+			[50] = "CHAT_MSG_RAID_WARNING",
 		}, -- [6]
 		{
-			"i think i solo can", -- [1]
-			"Андурэл-ЧерныйШрам", -- [2]
+			"PI ASTRO", -- [1]
+			"Astrø-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Андурэл-ЧерныйШрам", -- [5]
+			"Astrø", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3645, -- [11]
-			"Player-1929-095A6326", -- [12]
+			7286, -- [11]
+			"Player-1301-0C0E457A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Андурэл-ЧерныйШрам|r",
-			[51] = 1650815524,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Astrø|r",
+			[51] = 1650830665,
+			[50] = "CHAT_MSG_RAID_WARNING",
 		}, -- [7]
 		{
-			"right ill accept a dps if they apply", -- [1]
-			"Fionara-Outland", -- [2]
+			"PI ASTRO", -- [1]
+			"Astrø-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Fionara-Outland", -- [5]
+			"Astrø", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3646, -- [11]
-			"Player-1301-09D4F339", -- [12]
+			7288, -- [11]
+			"Player-1301-0C0E457A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1650815524,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffa9d271Astrø|r",
+			[51] = 1650830665,
+			[50] = "CHAT_MSG_RAID_WARNING",
 		}, -- [8]
 		{
-			"can try", -- [1]
-			"Андурэл-ЧерныйШрам", -- [2]
+			"PI ASTRO", -- [1]
+			"Astrø-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Андурэл-ЧерныйШрам", -- [5]
+			"Astrø", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3650, -- [11]
-			"Player-1929-095A6326", -- [12]
+			7289, -- [11]
+			"Player-1301-0C0E457A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Андурэл-ЧерныйШрам|r",
-			[51] = 1650815544,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Astrø|r",
+			[51] = 1650830665,
+			[50] = "CHAT_MSG_RAID_WARNING",
 		}, -- [9]
 		{
-			"pala can go heal", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"PI ASTRO", -- [1]
+			"Astrø-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"Astrø", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3652, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			7291, -- [11]
+			"Player-1301-0C0E457A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1650815550,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Astrø|r",
+			[51] = 1650830665,
+			[50] = "CHAT_MSG_RAID_WARNING",
 		}, -- [10]
 		{
-			"ok", -- [1]
-			"Андурэл-ЧерныйШрам", -- [2]
+			"PI ASTRO", -- [1]
+			"Astrø-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Андурэл-ЧерныйШрам", -- [5]
+			"Astrø", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3653, -- [11]
-			"Player-1929-095A6326", -- [12]
+			7294, -- [11]
+			"Player-1301-0C0E457A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Андурэл-ЧерныйШрам|r",
-			[51] = 1650815553,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Astrø|r",
+			[51] = 1650830666,
+			[50] = "CHAT_MSG_RAID_WARNING",
 		}, -- [11]
 		{
-			"and we take another dps", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"PI ASTRO", -- [1]
+			"Astrø-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"Astrø", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3654, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			7296, -- [11]
+			"Player-1301-0C0E457A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1650815553,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Astrø|r",
+			[51] = 1650830666,
+			[50] = "CHAT_MSG_RAID_WARNING",
 		}, -- [12]
 		{
-			"cool", -- [1]
-			"Андурэл-ЧерныйШрам", -- [2]
+			"PI ASTRO", -- [1]
+			"Astrø-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Андурэл-ЧерныйШрам", -- [5]
+			"Astrø", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3655, -- [11]
-			"Player-1929-095A6326", -- [12]
+			7298, -- [11]
+			"Player-1301-0C0E457A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Андурэл-ЧерныйШрам|r",
-			[51] = 1650815554,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Astrø|r",
+			[51] = 1650830666,
+			[50] = "CHAT_MSG_RAID_WARNING",
 		}, -- [13]
 		{
-			"ez", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"PI ASTRO", -- [1]
+			"Astrø-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"Astrø", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3656, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			7300, -- [11]
+			"Player-1301-0C0E457A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1650815554,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Astrø|r",
+			[51] = 1650830666,
+			[50] = "CHAT_MSG_RAID_WARNING",
 		}, -- [14]
 		{
-			"go 4", -- [1]
-			"Андурэл-ЧерныйШрам", -- [2]
+			"PI ASTRO", -- [1]
+			"Astrø-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Андурэл-ЧерныйШрам", -- [5]
+			"Astrø", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3657, -- [11]
-			"Player-1929-095A6326", -- [12]
+			7302, -- [11]
+			"Player-1301-0C0E457A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Андурэл-ЧерныйШрам|r",
-			[51] = 1650815556,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Astrø|r",
+			[51] = 1650830666,
+			[50] = "CHAT_MSG_RAID_WARNING",
 		}, -- [15]
 		{
-			"?", -- [1]
-			"Андурэл-ЧерныйШрам", -- [2]
+			"PI ASTRO", -- [1]
+			"Astrø-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Андурэл-ЧерныйШрам", -- [5]
+			"Astrø", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3658, -- [11]
-			"Player-1929-095A6326", -- [12]
+			7303, -- [11]
+			"Player-1301-0C0E457A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Андурэл-ЧерныйШрам|r",
-			[51] = 1650815557,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Astrø|r",
+			[51] = 1650830667,
+			[50] = "CHAT_MSG_RAID_WARNING",
 		}, -- [16]
 		{
-			"yes yes just wait one swec", -- [1]
-			"Fionara-Outland", -- [2]
+			"PI ASTRO", -- [1]
+			"Astrø-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Fionara-Outland", -- [5]
+			"Astrø", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3660, -- [11]
-			"Player-1301-09D4F339", -- [12]
+			7306, -- [11]
+			"Player-1301-0C0E457A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1650815562,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffa9d271Astrø|r",
+			[51] = 1650830667,
+			[50] = "CHAT_MSG_RAID_WARNING",
 		}, -- [17]
 		{
-			"yes we  go 4", -- [1]
-			"Fionara-Outland", -- [2]
+			"PI ASTRO", -- [1]
+			"Astrø-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Fionara-Outland", -- [5]
+			"Astrø", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3662, -- [11]
-			"Player-1301-09D4F339", -- [12]
+			7307, -- [11]
+			"Player-1301-0C0E457A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1650815567,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffa9d271Astrø|r",
+			[51] = 1650830667,
+			[50] = "CHAT_MSG_RAID_WARNING",
 		}, -- [18]
 		{
-			"hi", -- [1]
-			"Spasseren-Darkspear", -- [2]
+			"PI ASTRO", -- [1]
+			"Astrø-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Spasseren-Darkspear", -- [5]
+			"Astrø", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3663, -- [11]
-			"Player-633-0A5091DB", -- [12]
+			7310, -- [11]
+			"Player-1301-0C0E457A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Spasseren-Darkspear|r",
-			[51] = 1650815569,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Astrø|r",
+			[51] = 1650830667,
+			[50] = "CHAT_MSG_RAID_WARNING",
 		}, -- [19]
 		{
-			"ty", -- [1]
-			"Spasseren-Darkspear", -- [2]
+			"PI ASTRO", -- [1]
+			"Astrø-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Spasseren-Darkspear", -- [5]
+			"Astrø", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3666, -- [11]
-			"Player-633-0A5091DB", -- [12]
+			7311, -- [11]
+			"Player-1301-0C0E457A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Spasseren-Darkspear|r",
-			[51] = 1650815580,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Astrø|r",
+			[51] = 1650830667,
+			[50] = "CHAT_MSG_RAID_WARNING",
 		}, -- [20]
 		{
-			"summ us we r dumb", -- [1]
-			"Fionara-Outland", -- [2]
+			"PI ASTRO", -- [1]
+			"Astrø-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Fionara-Outland", -- [5]
+			"Astrø", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3670, -- [11]
-			"Player-1301-09D4F339", -- [12]
+			7312, -- [11]
+			"Player-1301-0C0E457A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1650815608,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffa9d271Astrø|r",
+			[51] = 1650830667,
+			[50] = "CHAT_MSG_RAID_WARNING",
 		}, -- [21]
 		{
-			"coom", -- [1]
-			"Андурэл-ЧерныйШрам", -- [2]
+			"PI ASTRO", -- [1]
+			"Astrø-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Андурэл-ЧерныйШрам", -- [5]
+			"Astrø", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3672, -- [11]
-			"Player-1929-095A6326", -- [12]
+			7313, -- [11]
+			"Player-1301-0C0E457A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Андурэл-ЧерныйШрам|r",
-			[51] = 1650815637,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Astrø|r",
+			[51] = 1650830668,
+			[50] = "CHAT_MSG_RAID_WARNING",
 		}, -- [22]
 		{
-			"yes coom", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"PI ASTRO", -- [1]
+			"Astrø-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"Astrø", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3673, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			7314, -- [11]
+			"Player-1301-0C0E457A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1650815642,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Astrø|r",
+			[51] = 1650830668,
+			[50] = "CHAT_MSG_RAID_WARNING",
 		}, -- [23]
 		{
-			"1 sec", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"PI ASTRO", -- [1]
+			"Astrø-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"Astrø", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3674, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			7315, -- [11]
+			"Player-1301-0C0E457A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1650815647,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Astrø|r",
+			[51] = 1650830668,
+			[50] = "CHAT_MSG_RAID_WARNING",
 		}, -- [24]
 		{
-			"aura", -- [1]
-			"Андурэл-ЧерныйШрам", -- [2]
+			"PI ASTRO", -- [1]
+			"Astrø-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Андурэл-ЧерныйШрам", -- [5]
+			"Astrø", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3679, -- [11]
-			"Player-1929-095A6326", -- [12]
+			7316, -- [11]
+			"Player-1301-0C0E457A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Андурэл-ЧерныйШрам|r",
-			[51] = 1650815677,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Astrø|r",
+			[51] = 1650830668,
+			[50] = "CHAT_MSG_RAID_WARNING",
 		}, -- [25]
 		{
-			"|cff71d5ff|Hspell:96231:0|h[Rebuke]|h|r interrupted Depraved Collector's |cff71d5ff|Hspell:325700:0|h[Collect Sins]|h|r!", -- [1]
-			"Spasseren-Darkspear", -- [2]
+			"PI ASTRO", -- [1]
+			"Astrø-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Spasseren-Darkspear", -- [5]
+			"Astrø", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3687, -- [11]
-			"Player-633-0A5091DB", -- [12]
+			7317, -- [11]
+			"Player-1301-0C0E457A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Spasseren-Darkspear|r",
-			[51] = 1650815796,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Astrø|r",
+			[51] = 1650830668,
+			[50] = "CHAT_MSG_RAID_WARNING",
 		}, -- [26]
 		{
-			"|cff71d5ff|Hspell:96231:0|h[Rebuke]|h|r interrupted Depraved Obliterator's |cff71d5ff|Hspell:338003:0|h[Wicked Bolt]|h|r!", -- [1]
-			"Spasseren-Darkspear", -- [2]
+			"xD", -- [1]
+			"Mafyol-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Spasseren-Darkspear", -- [5]
+			"Mafyol-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3692, -- [11]
-			"Player-633-0A5091DB", -- [12]
+			7318, -- [11]
+			"Player-1301-0B957263", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Spasseren-Darkspear|r",
-			[51] = 1650815864,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc59a6cMafyol|r",
+			[51] = 1650830668,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [27]
 		{
-			"hphphph", -- [1]
-			"Андурэл-ЧерныйШрам", -- [2]
+			"PI ASTRO", -- [1]
+			"Astrø-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Андурэл-ЧерныйШрам", -- [5]
+			"Astrø", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3694, -- [11]
-			"Player-1929-095A6326", -- [12]
+			7319, -- [11]
+			"Player-1301-0C0E457A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Андурэл-ЧерныйШрам|r",
-			[51] = 1650815890,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Astrø|r",
+			[51] = 1650830668,
+			[50] = "CHAT_MSG_RAID_WARNING",
 		}, -- [28]
 		{
-			"oops", -- [1]
-			"Андурэл-ЧерныйШрам", -- [2]
+			"PI ASTRO", -- [1]
+			"Astrø-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Андурэл-ЧерныйШрам", -- [5]
+			"Astrø", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3695, -- [11]
-			"Player-1929-095A6326", -- [12]
+			7320, -- [11]
+			"Player-1301-0C0E457A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Андурэл-ЧерныйШрам|r",
-			[51] = 1650815894,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Astrø|r",
+			[51] = 1650830669,
+			[50] = "CHAT_MSG_RAID_WARNING",
 		}, -- [29]
 		{
-			"jajajaja", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"PI ASTRO", -- [1]
+			"Astrø-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"Astrø", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3696, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			7321, -- [11]
+			"Player-1301-0C0E457A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1650815895,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Astrø|r",
+			[51] = 1650830669,
+			[50] = "CHAT_MSG_RAID_WARNING",
 		}, -- [30]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14840:Player-1301-0A0EEC4D:1:4:24:22:4294967295:4294967295:4294967295:4294967295|h[Adventures: Learning the Ropes]|h|r!", -- [1]
-			"Drgreenthums-Outland", -- [2]
+			"PI ASTRO", -- [1]
+			"Astrø-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Drgreenthums-Outland", -- [5]
+			"Astrø", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3698, -- [11]
-			"Player-1301-0A0EEC4D", -- [12]
+			7322, -- [11]
+			"Player-1301-0C0E457A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeDrgreenthums|r",
-			[51] = 1650815899,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffa9d271Astrø|r",
+			[51] = 1650830669,
+			[50] = "CHAT_MSG_RAID_WARNING",
 		}, -- [31]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14631:Player-1301-0ADE2E67:1:4:24:22:4294967295:4294967295:4294967295:4294967295|h[Champion of the Covenant]|h|r!", -- [1]
-			"Healingguru-Outland", -- [2]
+			"|cffa335ee|Hitem:189840::::::::60:72::5:7:7188:6652:7579:8118:8137:1511:6646:1:28:2167:::::|h[Remnant's Blasphemous Scourgebelt]|h|r roll", -- [1]
+			"Morbidmind-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Healingguru-Outland", -- [5]
+			"Morbidmind-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3699, -- [11]
-			"Player-1301-0ADE2E67", -- [12]
+			7323, -- [11]
+			"Player-1301-085795E3", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Healingguru|r",
-			[51] = 1650815901,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc59a6cMorbidmind|r",
+			[51] = 1650830671,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [32]
 		{
-			"|cff71d5ff|Hspell:96231:0|h[Rebuke]|h|r interrupted Depraved Obliterator's |cff71d5ff|Hspell:338003:0|h[Wicked Bolt]|h|r!", -- [1]
-			"Spasseren-Darkspear", -- [2]
+			"i think astro wants a PI, eluith...", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Spasseren-Darkspear", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3702, -- [11]
-			"Player-633-0A5091DB", -- [12]
+			7324, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Spasseren-Darkspear|r",
-			[51] = 1650815955,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1650830682,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [33]
 		{
-			"|cff71d5ff|Hspell:96231:0|h[Rebuke]|h|r interrupted Depraved Obliterator's |cff71d5ff|Hspell:325876:0|h[Curse of Obliteration]|h|r!", -- [1]
-			"Spasseren-Darkspear", -- [2]
+			"mabey", -- [1]
+			"Eluitha-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Spasseren-Darkspear", -- [5]
+			"Eluitha-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3708, -- [11]
-			"Player-633-0A5091DB", -- [12]
+			7327, -- [11]
+			"Player-1301-0B8AF965", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Spasseren-Darkspear|r",
-			[51] = 1650816057,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffefefeEluitha|r",
+			[51] = 1650830688,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [34]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:5752:Player-1301-0C2B189E:1:4:24:22:4294967295:4294967295:4294967295:4294967295|h[Justly Rewarded]|h|r!", -- [1]
-			"Hávocado-Outland", -- [2]
+			"I am still not sure", -- [1]
+			"Eluitha-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Hávocado-Outland", -- [5]
+			"Eluitha-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3710, -- [11]
-			"Player-1301-0C2B189E", -- [12]
+			7328, -- [11]
+			"Player-1301-0B8AF965", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Hávocado|r",
-			[51] = 1650816063,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffefefeEluitha|r",
+			[51] = 1650830693,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [35]
 		{
-			"Leap on Necrophagus", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"Common", -- [3]
+			"no im good actually", -- [1]
+			"Astrø-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"Astrø-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			3717, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			0, -- [10]
+			7329, -- [11]
+			"Player-1301-0C0E457A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1650816152,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffa9d271Astrø|r",
+			[51] = 1650830695,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [36]
 		{
-			"3", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"next week i will get 4 set and then u wont see a pi astro", -- [1]
+			"Kronós-Outland", -- [2]
 			"Common", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"Kronós-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			7, -- [10]
-			3719, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			7330, -- [11]
+			"Player-1301-0BB8CFFA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1650816154,
+			[52] = "|cfffe7b09Kronós|r",
+			[51] = 1650830697,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [37]
 		{
-			"2", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"Common", -- [3]
+			"too late now", -- [1]
+			"Astrø-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"Astrø-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			3720, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			0, -- [10]
+			7331, -- [11]
+			"Player-1301-0C0E457A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1650816155,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffa9d271Astrø|r",
+			[51] = 1650830698,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [38]
 		{
-			"1", -- [1]
-			"Necrophagus-Outland", -- [2]
+			":D", -- [1]
+			"Kronós-Outland", -- [2]
 			"Common", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"Kronós-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			7, -- [10]
-			3721, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			7332, -- [11]
+			"Player-1301-0BB8CFFA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1650816156,
+			[52] = "|cfffe7b09Kronós|r",
+			[51] = 1650830699,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [39]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14836:Player-1301-0ADE2E67:1:4:24:22:4294967295:4294967295:4294967295:4294967295|h[Unwavering Bond]|h|r!", -- [1]
-			"Healingguru-Outland", -- [2]
+			":-P", -- [1]
+			"Eluitha-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Healingguru-Outland", -- [5]
+			"Eluitha-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3726, -- [11]
-			"Player-1301-0ADE2E67", -- [12]
+			7333, -- [11]
+			"Player-1301-0B8AF965", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Healingguru|r",
-			[51] = 1650816194,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffefefeEluitha|r",
+			[51] = 1650830703,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [40]
 		{
-			"|cff71d5ff|Hspell:96231:0|h[Rebuke]|h|r interrupted Depraved Obliterator's |cff71d5ff|Hspell:338003:0|h[Wicked Bolt]|h|r!", -- [1]
-			"Spasseren-Darkspear", -- [2]
+			"Last pull=kill Dont break the law", -- [1]
+			"Jashinsama-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Spasseren-Darkspear", -- [5]
+			"Jashinsama-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3727, -- [11]
-			"Player-633-0A5091DB", -- [12]
+			7335, -- [11]
+			"Player-1301-0BD39C09", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Spasseren-Darkspear|r",
-			[51] = 1650816222,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff00fe97Jashinsama|r",
+			[51] = 1650830705,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [41]
 		{
-			"Haunting Fixation on Spasseren", -- [1]
-			"Spasseren-Darkspear", -- [2]
-			"Common", -- [3]
+			"|cffa335ee|Hitem:191002::::::::60:254::5:4:7188:8151:1511:6646:1:28:2167:::::|h[Mystic Helm Module]|h|r", -- [1]
+			"Astrø-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Spasseren-Darkspear", -- [5]
+			"Astrø-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			3731, -- [11]
-			"Player-633-0A5091DB", -- [12]
+			0, -- [10]
+			7337, -- [11]
+			"Player-1301-0C0E457A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Spasseren-Darkspear|r",
-			[51] = 1650816268,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffa9d271Astrø|r",
+			[51] = 1650830710,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [42]
 		{
-			"|cff71d5ff|Hspell:96231:0|h[Rebuke]|h|r interrupted High Adjudicator Aleez's |cff71d5ff|Hspell:323552:0|h[Volley of Power]|h|r!", -- [1]
-			"Spasseren-Darkspear", -- [2]
+			"|cffa335ee|Hitem:191002::::::::60:66::5:4:7188:8151:1511:6646:1:28:2167:::::|h[Mystic Helm Module]|h|r", -- [1]
+			"Lizhorn-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Spasseren-Darkspear", -- [5]
+			"Lizhorn", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3732, -- [11]
-			"Player-633-0A5091DB", -- [12]
+			7339, -- [11]
+			"Player-1301-0B9CD051", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Spasseren-Darkspear|r",
-			[51] = 1650816281,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff38bb9Lizhorn|r",
+			[51] = 1650830715,
+			[50] = "CHAT_MSG_RAID_WARNING",
 		}, -- [43]
 		{
-			"Haunting Fixation on Baaradir", -- [1]
-			"Baaradir-Outland", -- [2]
-			"Common", -- [3]
+			"last pull = first try", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Baaradir-Outland", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			3736, -- [11]
-			"Player-1301-07D1C69F", -- [12]
+			0, -- [10]
+			7340, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Baaradir|r",
-			[51] = 1650816289,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1650830716,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [44]
 		{
-			"|cff71d5ff|Hspell:96231:0|h[Rebuke]|h|r interrupted Inquisitor Sigar's |cff71d5ff|Hspell:326829:0|h[Wicked Bolt]|h|r!", -- [1]
-			"Spasseren-Darkspear", -- [2]
-			"", -- [3]
+			"can i roll", -- [1]
+			"Kronós-Outland", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Spasseren-Darkspear", -- [5]
+			"Kronós-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			0, -- [10]
-			3738, -- [11]
-			"Player-633-0A5091DB", -- [12]
+			7, -- [10]
+			7344, -- [11]
+			"Player-1301-0BB8CFFA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Spasseren-Darkspear|r",
-			[51] = 1650816312,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffe7b09Kronós|r",
+			[51] = 1650830727,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [45]
 		{
-			"cheers", -- [1]
-			"Spasseren-Darkspear", -- [2]
+			"2+2=5", -- [1]
+			"Jashinsama-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Spasseren-Darkspear", -- [5]
+			"Jashinsama-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3751, -- [11]
-			"Player-633-0A5091DB", -- [12]
+			7345, -- [11]
+			"Player-1301-0BD39C09", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Spasseren-Darkspear|r",
-			[51] = 1650816395,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff00fe97Jashinsama|r",
+			[51] = 1650830727,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [46]
 		{
-			"need ?", -- [1]
-			"Андурэл-ЧерныйШрам", -- [2]
-			"", -- [3]
+			"for byandir", -- [1]
+			"Kronós-Outland", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Андурэл-ЧерныйШрам", -- [5]
+			"Kronós-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			0, -- [10]
-			3759, -- [11]
-			"Player-1929-095A6326", -- [12]
+			7, -- [10]
+			7346, -- [11]
+			"Player-1301-0BB8CFFA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Андурэл-ЧерныйШрам|r",
-			[51] = 1650816419,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cfffe7b09Kronós|r",
+			[51] = 1650830729,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [47]
 		{
-			"yes ", -- [1]
-			"Андурэл-ЧерныйШрам", -- [2]
+			"?", -- [1]
+			"Kronós-Outland", -- [2]
 			"Common", -- [3]
 			"", -- [4]
-			"Андурэл-ЧерныйШрам", -- [5]
+			"Kronós-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			7, -- [10]
-			3761, -- [11]
-			"Player-1929-095A6326", -- [12]
+			7347, -- [11]
+			"Player-1301-0BB8CFFA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Андурэл-ЧерныйШрам|r",
-			[51] = 1650816435,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cfffe7b09Kronós|r",
+			[51] = 1650830730,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [48]
 		{
-			"this vis for me", -- [1]
-			"Андурэл-ЧерныйШрам", -- [2]
+			"|cffa335ee|Hitem:188880::::::::60:257::35:7:7772:8116:6652:7579:7359:8151:1498::::::|h[Amice of the Empyrean]|h|r :-P", -- [1]
+			"Eluitha-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Андурэл-ЧерныйШрам", -- [5]
+			"Eluitha-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3762, -- [11]
-			"Player-1929-095A6326", -- [12]
+			7350, -- [11]
+			"Player-1301-0B8AF965", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Андурэл-ЧерныйШрам|r",
-			[51] = 1650816438,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cfffefefeEluitha|r",
+			[51] = 1650830747,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [49]
 		{
-			"bis", -- [1]
-			"Андурэл-ЧерныйШрам", -- [2]
+			"eluith now give it", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Андурэл-ЧерныйШрам", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3763, -- [11]
-			"Player-1929-095A6326", -- [12]
+			7354, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Андурэл-ЧерныйШрам|r",
-			[51] = 1650816444,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1650830764,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [50]
 		{
-			"same", -- [1]
-			"Андурэл-ЧерныйШрам", -- [2]
-			"Common", -- [3]
+			"uwuwuwu", -- [1]
+			"Jashinsama-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Андурэл-ЧерныйШрам", -- [5]
+			"Jashinsama-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			3767, -- [11]
-			"Player-1929-095A6326", -- [12]
+			0, -- [10]
+			7356, -- [11]
+			"Player-1301-0BD39C09", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Андурэл-ЧерныйШрам|r",
-			[51] = 1650816487,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff00fe97Jashinsama|r",
+			[51] = 1650830768,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [51]
 		{
-			"haste mastery", -- [1]
-			"Андурэл-ЧерныйШрам", -- [2]
-			"Common", -- [3]
+			"can we do last 2 bosses", -- [1]
+			"Goxish-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Андурэл-ЧерныйШрам", -- [5]
+			"Goxish-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			3769, -- [11]
-			"Player-1929-095A6326", -- [12]
+			0, -- [10]
+			7357, -- [11]
+			"Player-1301-088817BE", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Андурэл-ЧерныйШрам|r",
-			[51] = 1650816491,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffa22fc8Goxish|r",
+			[51] = 1650830783,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [52]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14636:Player-1301-0C21A867:1:4:24:22:4294967295:4294967295:4294967295:4294967295|h[Adventurer in Chief]|h|r!", -- [1]
-			"Divill-Outland", -- [2]
+			"I did not :-P", -- [1]
+			"Eluitha-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Divill-Outland", -- [5]
+			"Eluitha-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3771, -- [11]
-			"Player-1301-0C21A867", -- [12]
+			7363, -- [11]
+			"Player-1301-0B8AF965", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edDivill|r",
-			[51] = 1650816499,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffefefeEluitha|r",
+			[51] = 1650830805,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [53]
 		{
-			"|cffa335ee|Hitem:178827::::::::60:66::35:6:7798:7359:6652:7578:1586:6646::::::|h[Запятнанная грехом подвеска]|h|r you why need ?)", -- [1]
-			"Андурэл-ЧерныйШрам", -- [2]
+			"or mabey", -- [1]
+			"Eluitha-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Андурэл-ЧерныйШрам", -- [5]
+			"Eluitha-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3773, -- [11]
-			"Player-1929-095A6326", -- [12]
+			7364, -- [11]
+			"Player-1301-0B8AF965", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Андурэл-ЧерныйШрам|r",
-			[51] = 1650816504,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cfffefefeEluitha|r",
+			[51] = 1650830810,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [54]
 		{
-			"cause haste mastery", -- [1]
-			"Андурэл-ЧерныйШрам", -- [2]
-			"Common", -- [3]
+			"like twice", -- [1]
+			"Eluitha-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Андурэл-ЧерныйШрам", -- [5]
+			"Eluitha-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			3774, -- [11]
-			"Player-1929-095A6326", -- [12]
+			0, -- [10]
+			7365, -- [11]
+			"Player-1301-0B8AF965", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Андурэл-ЧерныйШрам|r",
-			[51] = 1650816510,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cfffefefeEluitha|r",
+			[51] = 1650830813,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [55]
 		{
-			"i upgrade", -- [1]
-			"Андурэл-ЧерныйШрам", -- [2]
-			"Common", -- [3]
+			":D", -- [1]
+			"Eluitha-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Андурэл-ЧерныйШрам", -- [5]
+			"Eluitha-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			3775, -- [11]
-			"Player-1929-095A6326", -- [12]
+			0, -- [10]
+			7366, -- [11]
+			"Player-1301-0B8AF965", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Андурэл-ЧерныйШрам|r",
-			[51] = 1650816515,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cfffefefeEluitha|r",
+			[51] = 1650830814,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [56]
 		{
-			"yea and you say need neck this", -- [1]
-			"Андурэл-ЧерныйШрам", -- [2]
+			"\"uugh, i dont have ss\"", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Андурэл-ЧерныйШрам", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3776, -- [11]
-			"Player-1929-095A6326", -- [12]
+			7368, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Андурэл-ЧерныйШрам|r",
-			[51] = 1650816528,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1650830825,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [57]
 		{
-			"|cffa335ee|Hitem:178827::::::::60:66::16:6:7787:7359:6652:7579:1550:6646:1:28:1279:::::|h[Запятнанная грехом подвеска]|h|r 236", -- [1]
-			"Андурэл-ЧерныйШрам", -- [2]
+			"i played perfectly x)", -- [1]
+			"Jashinsama-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Андурэл-ЧерныйШрам", -- [5]
+			"Jashinsama-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3779, -- [11]
-			"Player-1929-095A6326", -- [12]
+			7369, -- [11]
+			"Player-1301-0BD39C09", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Андурэл-ЧерныйШрам|r",
-			[51] = 1650816536,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cff00fe97Jashinsama|r",
+			[51] = 1650830827,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [58]
 		{
-			"bye", -- [1]
-			"Андурэл-ЧерныйШрам", -- [2]
-			"Common", -- [3]
+			"i wonder why... xD", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Андурэл-ЧерныйШрам", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			3781, -- [11]
-			"Player-1929-095A6326", -- [12]
+			0, -- [10]
+			7370, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Андурэл-ЧерныйШрам|r",
-			[51] = 1650816537,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1650830828,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [59]
 		{
-			"WTS ARENA 2v2 1.4 2.1 Fast Win Cap", -- [1]
-			"Elesis-Outland", -- [2]
+			"rank 1 heal me", -- [1]
+			"Jashinsama-Outland", -- [2]
 			"", -- [3]
-			"1. General - Oribos", -- [4]
-			"Elesis-Outland", -- [5]
+			"", -- [4]
+			"Jashinsama-Outland", -- [5]
 			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Oribos", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3802, -- [11]
-			"Player-1301-050D85CB", -- [12]
+			7373, -- [11]
+			"Player-1301-0BD39C09", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Elesis|r",
-			[51] = 1650816586,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff00fe97Jashinsama|r",
+			[51] = 1650830841,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [60]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14373:Player-1301-073A34F3:1:4:24:22:4294967295:4294967295:4294967295:4294967295|h[De Other Side]|h|r!", -- [1]
-			"Visto-Outland", -- [2]
+			"not you eluith", -- [1]
+			"Jashinsama-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Visto-Outland", -- [5]
+			"Jashinsama-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3806, -- [11]
-			"Player-1301-073A34F3", -- [12]
+			7374, -- [11]
+			"Player-1301-0BD39C09", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Visto|r",
-			[51] = 1650816661,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff00fe97Jashinsama|r",
+			[51] = 1650830846,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [61]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14408:Player-1301-073A34F3:1:4:24:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: De Other Side]|h|r!", -- [1]
-			"Visto-Outland", -- [2]
+			"ME", -- [1]
+			"Jashinsama-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Visto-Outland", -- [5]
+			"Jashinsama-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3807, -- [11]
-			"Player-1301-073A34F3", -- [12]
+			7376, -- [11]
+			"Player-1301-0BD39C09", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Visto|r",
-			[51] = 1650816661,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff00fe97Jashinsama|r",
+			[51] = 1650830850,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [62]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14409:Player-1301-073A34F3:1:4:24:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: De Other Side]|h|r!", -- [1]
-			"Visto-Outland", -- [2]
+			":D", -- [1]
+			"Jashinsama-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Visto-Outland", -- [5]
+			"Jashinsama-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3808, -- [11]
-			"Player-1301-073A34F3", -- [12]
+			7377, -- [11]
+			"Player-1301-0BD39C09", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Visto|r",
-			[51] = 1650816661,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff00fe97Jashinsama|r",
+			[51] = 1650830850,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [63]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:11184:Player-1301-073A34F3:1:4:24:22:4294967295:4294967295:4294967295:4294967295|h[Keystone Challenger]|h|r!", -- [1]
-			"Visto-Outland", -- [2]
+			"yea", -- [1]
+			"Eluitha-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Visto-Outland", -- [5]
+			"Eluitha-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3809, -- [11]
-			"Player-1301-073A34F3", -- [12]
+			7378, -- [11]
+			"Player-1301-0B8AF965", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Visto|r",
-			[51] = 1650816662,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffefefeEluitha|r",
+			[51] = 1650830852,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [64]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14776:Player-1301-0BA11963:1:4:24:22:4294967295:4294967295:4294967295:4294967295|h[For the Hoarder!]|h|r!", -- [1]
-			"Diplomat-Outland", -- [2]
+			"rank one hpriest does 40k HPS", -- [1]
+			"Eluitha-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Diplomat-Outland", -- [5]
+			"Eluitha-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3816, -- [11]
-			"Player-1301-0BA11963", -- [12]
+			7379, -- [11]
+			"Player-1301-0B8AF965", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcDiplomat|r",
-			[51] = 1650816762,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffefefeEluitha|r",
+			[51] = 1650830860,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [65]
 		{
-			"wtb  |cffffffff|Hitem:171413::::::::60:73:::::::::|h[Shadowghast Sabatons]|h|r 20k now and 10 later", -- [1]
-			"Ggen-Outland", -- [2]
+			"so you kinda shit :-D", -- [1]
+			"Eluitha-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ggen-Outland", -- [5]
+			"", -- [4]
+			"Eluitha-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3818, -- [11]
-			"Player-1301-0BBE1535", -- [12]
+			7380, -- [11]
+			"Player-1301-0B8AF965", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cGgen|r",
-			[51] = 1650816862,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffefefeEluitha|r",
+			[51] = 1650830864,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [66]
 		{
-			"wtb |cffffffff|Hitem:171413::::::::50:263:::::::::|h[Shadowghast Sabatons]|h|r 0g now and 30k in 2 years", -- [1]
-			"Bankalini-Outland", -- [2]
+			"but they double heal it", -- [1]
+			"Eluitha-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Bankalini-Outland", -- [5]
+			"", -- [4]
+			"Eluitha-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3822, -- [11]
-			"Player-1301-0C28B337", -- [12]
+			7381, -- [11]
+			"Player-1301-0B8AF965", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcBankalini|r",
-			[51] = 1650816902,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffefefeEluitha|r",
+			[51] = 1650830871,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [67]
 		{
-			"ask probot, he gives for free", -- [1]
-			"Kostana-Outland", -- [2]
+			"nah kidding man u are great dude", -- [1]
+			"Jashinsama-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Kostana-Outland", -- [5]
+			"", -- [4]
+			"Jashinsama-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3824, -- [11]
-			"Player-1301-0ADD993C", -- [12]
+			7383, -- [11]
+			"Player-1301-0BD39C09", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeKostana|r",
-			[51] = 1650816918,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff00fe97Jashinsama|r",
+			[51] = 1650830873,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [68]
 		{
-			"?", -- [1]
-			"Trazyx-Outland", -- [2]
+			"I dont get it how they do it, but they just run it with 2 holy priests", -- [1]
+			"Eluitha-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Trazyx-Outland", -- [5]
+			"", -- [4]
+			"Eluitha-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3825, -- [11]
-			"Player-1301-0AC17631", -- [12]
+			7384, -- [11]
+			"Player-1301-0B8AF965", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaTrazyx|r",
-			[51] = 1650816927,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffefefeEluitha|r",
+			[51] = 1650830895,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [69]
 		{
-			"???????", -- [1]
-			"Kostana-Outland", -- [2]
+			"and smash it...", -- [1]
+			"Eluitha-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Kostana-Outland", -- [5]
+			"", -- [4]
+			"Eluitha-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3826, -- [11]
-			"Player-1301-0ADD993C", -- [12]
+			7385, -- [11]
+			"Player-1301-0B8AF965", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeKostana|r",
-			[51] = 1650816942,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffefefeEluitha|r",
+			[51] = 1650830898,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [70]
 		{
-			"??????????????", -- [1]
-			"Felxprod-Outland", -- [2]
+			"one does 40k hps the other abour 8k hps :-D just stupid", -- [1]
+			"Eluitha-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Felxprod-Outland", -- [5]
+			"", -- [4]
+			"Eluitha-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3827, -- [11]
-			"Player-1301-0B9B4C9C", -- [12]
+			7387, -- [11]
+			"Player-1301-0B8AF965", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Felxprod|r",
-			[51] = 1650816947,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffefefeEluitha|r",
+			[51] = 1650830912,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [71]
 		{
-			"??????????????", -- [1]
-			"Tankytoast-Outland", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:15499:Player-1301-0C0EC21A:1:4:24:22:4294967295:4294967295:4294967295:4294967295|h[Shadowlands Keystone Master: Season Three]|h|r!", -- [1]
+			"Thaek-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Tankytoast-Outland", -- [5]
+			"", -- [4]
+			"Thaek-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3828, -- [11]
-			"Player-1301-0C2C09B8", -- [12]
+			7388, -- [11]
+			"Player-1301-0C0EC21A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Tankytoast|r",
-			[51] = 1650816954,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff006fdcThaek|r",
+			[51] = 1650830914,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [72]
 		{
-			"i get a feeling u are all confused", -- [1]
-			"Bankalini-Outland", -- [2]
+			"hard to make a hight pars ", -- [1]
+			"Eluitha-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Bankalini-Outland", -- [5]
+			"", -- [4]
+			"Eluitha-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3829, -- [11]
-			"Player-1301-0C28B337", -- [12]
+			7389, -- [11]
+			"Player-1301-0B8AF965", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcBankalini|r",
-			[51] = 1650816964,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffefefeEluitha|r",
+			[51] = 1650830919,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [73]
 		{
-			"confus", -- [1]
-			"Stygiawar-Outland", -- [2]
+			"Probably some Hymnal shit", -- [1]
+			"Pøsregn-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Stygiawar-Outland", -- [5]
+			"", -- [4]
+			"Pøsregn-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3830, -- [11]
-			"Player-1301-0C2F4B73", -- [12]
+			7391, -- [11]
+			"Player-1301-0BE1C7BB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cStygiawar|r",
-			[51] = 1650816970,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff006fdcPøsregn|r",
+			[51] = 1650830942,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [74]
 		{
-			"any1 willing to trade em to me|cffffffff|Hitem:171413::::::::60:73:::::::::|h[Shadowghast Sabatons]|h|r", -- [1]
-			"Ggen-Outland", -- [2]
+			"38% pars....", -- [1]
+			"Eluitha-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ggen-Outland", -- [5]
+			"", -- [4]
+			"Eluitha-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3831, -- [11]
-			"Player-1301-0BBE1535", -- [12]
+			7392, -- [11]
+			"Player-1301-0B8AF965", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cGgen|r",
-			[51] = 1650816979,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffefefeEluitha|r",
+			[51] = 1650830945,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [75]
 		{
-			"i am poor boy", -- [1]
-			"Ggen-Outland", -- [2]
+			"nope", -- [1]
+			"Eluitha-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ggen-Outland", -- [5]
+			"", -- [4]
+			"Eluitha-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3832, -- [11]
-			"Player-1301-0BBE1535", -- [12]
+			7393, -- [11]
+			"Player-1301-0B8AF965", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cGgen|r",
-			[51] = 1650816982,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffefefeEluitha|r",
+			[51] = 1650830950,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [76]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14306:Player-1301-0C2B189E:1:4:24:22:4294967295:4294967295:4294967295:4294967295|h[Explore Revendreth]|h|r!", -- [1]
-			"Hávocado-Outland", -- [2]
+			"he just uses Heal and has HUGE mastery I gues", -- [1]
+			"Eluitha-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Hávocado-Outland", -- [5]
+			"Eluitha-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3833, -- [11]
-			"Player-1301-0C2B189E", -- [12]
+			7395, -- [11]
+			"Player-1301-0B8AF965", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Hávocado|r",
-			[51] = 1650817029,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffefefeEluitha|r",
+			[51] = 1650830963,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [77]
 		{
-			"LF Arena partner, Subrogue 259ilvl Mage, priest, hunter or pala prefered", -- [1]
-			"Serup-Outland", -- [2]
+			"coz like 40% us ddibe by |cff71d5ff|Hspell:77485:0|h[Mastery: Echo of Light]|h|r", -- [1]
+			"Eluitha-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Serup-Outland", -- [5]
+			"", -- [4]
+			"Eluitha-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3834, -- [11]
-			"Player-1301-0689C9A0", -- [12]
+			7400, -- [11]
+			"Player-1301-0B8AF965", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Serup|r",
-			[51] = 1650817036,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffefefeEluitha|r",
+			[51] = 1650830981,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [78]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:15418:Player-1301-0C2E0727:1:4:24:22:4294967295:4294967295:4294967295:4294967295|h[The Grand Design]|h|r!", -- [1]
-			"Blubbadaa-Outland", -- [2]
+			"I am checking him up... shame is that there is no Wow analyzer for Holy priests for 9.2", -- [1]
+			"Eluitha-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Blubbadaa-Outland", -- [5]
-			"AFK", -- [6]
+			"Eluitha-Outland", -- [5]
+			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3835, -- [11]
-			"Player-1301-0C2E0727", -- [12]
+			7402, -- [11]
+			"Player-1301-0B8AF965", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Blubbadaa|r",
-			[51] = 1650817043,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffefefeEluitha|r",
+			[51] = 1650831004,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [79]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:15470:Player-1301-0C2E0727:1:4:24:22:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: The Jailer]|h|r!", -- [1]
-			"Blubbadaa-Outland", -- [2]
+			"use |cffffffff|Hitem:187802::::::::60:72:::::::::|h[Cosmic Healing Potion]|h|r in barrier:D lul", -- [1]
+			"Mafyol-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Blubbadaa-Outland", -- [5]
-			"AFK", -- [6]
+			"Mafyol-Outland", -- [5]
+			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3836, -- [11]
-			"Player-1301-0C2E0727", -- [12]
+			7404, -- [11]
+			"Player-1301-0B957263", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Blubbadaa|r",
-			[51] = 1650817043,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc59a6cMafyol|r",
+			[51] = 1650831015,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [80]
 		{
-			"you think this is lfg brah?", -- [1]
-			"Felxprod-Outland", -- [2]
+			"WTS |cffa335ee|Hitem:2801::::::::60:102:::1:6661:1:9:30:::::|h[Blade of Hanna]|h|r |cffa335ee|Hitem:1728::::::::60:102:::1:6661:1:9:30:::::|h[Teebu's Blazing Longsword]|h|r /w me", -- [1]
+			"Cruzor-Outland", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Felxprod-Outland", -- [5]
+			"Cruzor-Outland", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3838, -- [11]
-			"Player-1301-0B9B4C9C", -- [12]
+			7407, -- [11]
+			"Player-1301-0BC57D61", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffe7b09Felxprod|r",
-			[51] = 1650817072,
+			[52] = "|cfffe7b09Cruzor|r",
+			[51] = 1650831044,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [81]
 		{
-			"i have no clue", -- [1]
-			"Serup-Outland", -- [2]
+			"3 days = W", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Serup-Outland", -- [5]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3839, -- [11]
-			"Player-1301-0689C9A0", -- [12]
+			7417, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Serup|r",
-			[51] = 1650817078,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1650831060,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [82]
 		{
-			"just looking for someone to do arena brah", -- [1]
-			"Serup-Outland", -- [2]
+			"well the next week is my last raid :-D then I am out for 1,5 moths :-P", -- [1]
+			"Eluitha-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Serup-Outland", -- [5]
+			"", -- [4]
+			"Eluitha-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3840, -- [11]
-			"Player-1301-0689C9A0", -- [12]
+			7420, -- [11]
+			"Player-1301-0B8AF965", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Serup|r",
-			[51] = 1650817088,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffefefeEluitha|r",
+			[51] = 1650831095,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [83]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:974:Player-1301-0C1CC9C4:1:4:24:22:4294967295:4294967295:4294967295:4294967295|h[50 Daily Quests Completed]|h|r!", -- [1]
-			"Mikäsa-Outland", -- [2]
+			"so you should start looking for a priest :-P", -- [1]
+			"Eluitha-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mikäsa-Outland", -- [5]
+			"Eluitha-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3842, -- [11]
-			"Player-1301-0C1CC9C4", -- [12]
+			7421, -- [11]
+			"Player-1301-0B8AF965", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Mikäsa|r",
-			[51] = 1650817110,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffefefeEluitha|r",
+			[51] = 1650831110,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [84]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:153:Player-1301-0C289884:1:4:24:22:4294967295:4294967295:4294967295:4294967295|h[The Old Gnome and the Sea]|h|r!", -- [1]
-			"Ðjdopeydog-Outland", -- [2]
+			"What!?", -- [1]
+			"Pøsregn-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Ðjdopeydog-Outland", -- [5]
+			"Pøsregn-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3846, -- [11]
-			"Player-1301-0C289884", -- [12]
+			7423, -- [11]
+			"Player-1301-0BE1C7BB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Ðjdopeydog|r",
-			[51] = 1650817396,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff006fdcPøsregn|r",
+			[51] = 1650831129,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [85]
 		{
-			"WTS Private team , M+ 13-20 LVLUP 50/60 Troghast (ONLY GOLD)  /w me for more info", -- [1]
-			"Ziraeal-Outland", -- [2]
+			"yeah first boss mythic would be a huge waste of time imo", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ziraeal-Outland", -- [5]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3852, -- [11]
-			"Player-1301-0908ACAC", -- [12]
+			7425, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Ziraeal|r",
-			[51] = 1650817623,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1650831136,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [86]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:5306:Player-1301-0C229578:1:4:24:22:4294967295:4294967295:4294967295:4294967295|h[Parasite Evening]|h|r!", -- [1]
-			"Demzen-Outland", -- [2]
+			"noooooooo", -- [1]
+			"Jashinsama-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Demzen-Outland", -- [5]
+			"Jashinsama-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3861, -- [11]
-			"Player-1301-0C229578", -- [12]
+			7426, -- [11]
+			"Player-1301-0BD39C09", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Demzen|r",
-			[51] = 1650818053,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff00fe97Jashinsama|r",
+			[51] = 1650831140,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [87]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:5094:Player-1301-0C229578:1:4:24:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Magmaw]|h|r!", -- [1]
-			"Demzen-Outland", -- [2]
+			"considering we only have 2 days", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Demzen-Outland", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3862, -- [11]
-			"Player-1301-0C229578", -- [12]
+			7427, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Demzen|r",
-			[51] = 1650818053,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1650831140,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [88]
 		{
-			"WTS Private team , M+ 13-20 LVLUP 50/60 Troghast (ONLY GOLD)  /w me for more info", -- [1]
-			"Ziireal-Outland", -- [2]
+			"eluith :(((", -- [1]
+			"Jashinsama-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ziireal-Outland", -- [5]
+			"", -- [4]
+			"Jashinsama-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3865, -- [11]
-			"Player-1301-08857D7E", -- [12]
+			7428, -- [11]
+			"Player-1301-0BD39C09", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cZiireal|r",
-			[51] = 1650818083,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff00fe97Jashinsama|r",
+			[51] = 1650831144,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [89]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:13776:Player-1301-0C2B9DAC:1:4:24:22:4294967295:4294967295:4294967295:4294967295|h[Explore Mechagon]|h|r!", -- [1]
-			"Kaetus-Outland", -- [2]
+			"for real?", -- [1]
+			"Jashinsama-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kaetus-Outland", -- [5]
+			"Jashinsama-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3866, -- [11]
-			"Player-1301-0C2B9DAC", -- [12]
+			7429, -- [11]
+			"Player-1301-0BD39C09", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Kaetus|r",
-			[51] = 1650818097,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff00fe97Jashinsama|r",
+			[51] = 1650831147,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [90]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:5107:Player-1301-0C229578:1:4:24:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Omnotron Defense System]|h|r!", -- [1]
-			"Demzen-Outland", -- [2]
+			"yea", -- [1]
+			"Eluitha-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Demzen-Outland", -- [5]
+			"Eluitha-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3867, -- [11]
-			"Player-1301-0C229578", -- [12]
+			7430, -- [11]
+			"Player-1301-0B8AF965", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Demzen|r",
-			[51] = 1650818101,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffefefeEluitha|r",
+			[51] = 1650831149,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [91]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:5307:Player-1301-0C229578:1:4:24:22:4294967295:4294967295:4294967295:4294967295|h[Achieve-a-tron]|h|r!", -- [1]
-			"Demzen-Outland", -- [2]
+			"Need your mass dispell to heal ;(", -- [1]
+			"Pøsregn-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Demzen-Outland", -- [5]
+			"Pøsregn-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3868, -- [11]
-			"Player-1301-0C229578", -- [12]
+			7431, -- [11]
+			"Player-1301-0BE1C7BB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Demzen|r",
-			[51] = 1650818101,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff006fdcPøsregn|r",
+			[51] = 1650831152,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [92]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:5108:Player-1301-0C229578:1:4:24:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Maloriak]|h|r!", -- [1]
-			"Demzen-Outland", -- [2]
+			"I will be going around Italy :-)", -- [1]
+			"Eluitha-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Demzen-Outland", -- [5]
+			"Eluitha-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3870, -- [11]
-			"Player-1301-0C229578", -- [12]
+			7432, -- [11]
+			"Player-1301-0B8AF965", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Demzen|r",
-			[51] = 1650818156,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffefefeEluitha|r",
+			[51] = 1650831155,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [93]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:5308:Player-1301-0C229578:1:4:24:22:4294967295:4294967295:4294967295:4294967295|h[Silence is Golden]|h|r!", -- [1]
-			"Demzen-Outland", -- [2]
+			"ah thats nice then", -- [1]
+			"Jashinsama-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Demzen-Outland", -- [5]
+			"Jashinsama-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3873, -- [11]
-			"Player-1301-0C229578", -- [12]
+			7433, -- [11]
+			"Player-1301-0BD39C09", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Demzen|r",
-			[51] = 1650818256,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff00fe97Jashinsama|r",
+			[51] = 1650831161,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [94]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:5109:Player-1301-0C229578:1:4:24:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Atramedes]|h|r!", -- [1]
-			"Demzen-Outland", -- [2]
+			"take pics there", -- [1]
+			"Jashinsama-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Demzen-Outland", -- [5]
+			"Jashinsama-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3874, -- [11]
-			"Player-1301-0C229578", -- [12]
+			7437, -- [11]
+			"Player-1301-0BD39C09", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Demzen|r",
-			[51] = 1650818256,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff00fe97Jashinsama|r",
+			[51] = 1650831176,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [95]
 		{
-			"wanna go?", -- [1]
-			"Serup-Outland", -- [2]
+			"send it for us", -- [1]
+			"Jashinsama-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Serup-Outland", -- [5]
+			"", -- [4]
+			"Jashinsama-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3875, -- [11]
-			"Player-1301-0689C9A0", -- [12]
+			7438, -- [11]
+			"Player-1301-0BD39C09", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Serup|r",
-			[51] = 1650818256,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff00fe97Jashinsama|r",
+			[51] = 1650831179,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [96]
 		{
-			"oops", -- [1]
-			"Serup-Outland", -- [2]
+			";-)", -- [1]
+			"Eluitha-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Serup-Outland", -- [5]
+			"", -- [4]
+			"Eluitha-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3877, -- [11]
-			"Player-1301-0689C9A0", -- [12]
+			7439, -- [11]
+			"Player-1301-0B8AF965", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Serup|r",
-			[51] = 1650818262,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffefefeEluitha|r",
+			[51] = 1650831180,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [97]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:5309:Player-1301-0C229578:1:4:24:22:4294967295:4294967295:4294967295:4294967295|h[Full of Sound and Fury]|h|r!", -- [1]
-			"Demzen-Outland", -- [2]
+			"pizza", -- [1]
+			"Jashinsama-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Demzen-Outland", -- [5]
+			"Jashinsama-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3879, -- [11]
-			"Player-1301-0C229578", -- [12]
+			7440, -- [11]
+			"Player-1301-0BD39C09", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Demzen|r",
-			[51] = 1650818316,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff00fe97Jashinsama|r",
+			[51] = 1650831187,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [98]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:5115:Player-1301-0C229578:1:4:24:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Chimaeron]|h|r!", -- [1]
-			"Demzen-Outland", -- [2]
+			"ty for the raid guys, cya next week :D", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Demzen-Outland", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3880, -- [11]
-			"Player-1301-0C229578", -- [12]
+			7445, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Demzen|r",
-			[51] = 1650818316,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1650831221,
+			[50] = "CHAT_MSG_RAID_LEADER",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/raid SOAK", -- [1]
-		"/s TVA E OT KORTHIA MOUNTA", -- [2]
-		"/raid ye", -- [3]
-		"/p |cffa335ee|Hitem:169051::::::::60:267::23:5:4779:6516:6515:1479:4786:1:28:704:::::|h[Anodized Plate Legguards]|h|r", -- [4]
-		"/raid COPIUM", -- [5]
-		"/raid <3", -- [6]
-		"/raid that sounds like an unironically good idea", -- [7]
-		"/p hey", -- [8]
-		"/p pala can go heal", -- [9]
-		"/p and we take another dps", -- [10]
-		"/p ez", -- [11]
-		"/p yes coom", -- [12]
-		"/p 1 sec", -- [13]
-		"/p jajajaja", -- [14]
-		"/cw Андурэл-ЧерныйШрам yes", -- [15]
-		"/cw Андурэл-ЧерныйШрам same", -- [16]
-		"/cw Андурэл-ЧерныйШрам haste mastery", -- [17]
-		"/cw Андурэл-ЧерныйШрам cause haste mastery", -- [18]
-		"/cw Андурэл-ЧерныйШрам i upgrade", -- [19]
-		"/cw Андурэл-ЧерныйШрам bye", -- [20]
+		"/raid no man its passive damage downstairs", -- [1]
+		"/raid mhm", -- [2]
+		"/raid and we arent getting enough healing for it", -- [3]
+		"/raid i mean im fine healing myself but the dh is struggling for example", -- [4]
+		"/s i am the 1%", -- [5]
+		"/s true", -- [6]
+		"/raid i can do that too", -- [7]
+		"/raid nah im good dodging them", -- [8]
+		"/raid i also got oneshot by myself", -- [9]
+		"/raid wtf", -- [10]
+		"/raid i think astro wants a PI, eluith...", -- [11]
+		"/raid last pull = first try", -- [12]
+		"/roll 1000", -- [13]
+		"/raid eluith now give it", -- [14]
+		"/raid \"uugh, i dont have ss\"", -- [15]
+		"/raid i wonder why... xD", -- [16]
+		"/raid 3 days = W", -- [17]
+		"/raid yeah first boss mythic would be a huge waste of time imo", -- [18]
+		"/raid considering we only have 2 days", -- [19]
+		"/raid ty for the raid guys, cya next week :D", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }
