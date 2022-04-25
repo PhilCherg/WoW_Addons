@@ -289,3 +289,4 @@ ZerethMortisPuzzleHelper: disabled
 NoMoreErrors: enabled
 NPCTime: enabled
 PremadeSort: enabled
+kExtraBossFrames: disabled

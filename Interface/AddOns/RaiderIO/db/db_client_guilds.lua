@@ -1,5 +1,5 @@
 --
--- RaiderIO Client Data. Generated on 2022-04-24T21:06:41Z
+-- RaiderIO Client Data. Generated on 2022-04-25T21:32:51Z
 --
 local _, ns = ...
 ns.GUILD_BEST_DATA = {
@@ -849,16 +849,16 @@ ns.GUILD_BEST_DATA = {
         }
       },
       [5] = {
-        ["zone_id"] = 12831,
+        ["zone_id"] = 12842,
         ["level"] = 25,
         ["upgrades"] = 0,
-        ["fraction"] = 1.263937669931114,
-        ["clear_time"] = "00:40:28.023",
+        ["fraction"] = 1.0429272827823173,
+        ["clear_time"] = "00:42:46.643",
         ["party"] = {
           [1] = {
-            ["name"] = "Twuist",
+            ["name"] = "Интус",
             ["role"] = "tank",
-            ["class_id"] = 2
+            ["class_id"] = 1
           },
           [2] = {
             ["name"] = "Niinaa",
@@ -871,9 +871,9 @@ ns.GUILD_BEST_DATA = {
             ["class_id"] = 4
           },
           [4] = {
-            ["name"] = "Kompast",
+            ["name"] = "Mefaisto",
             ["role"] = "dps",
-            ["class_id"] = 8
+            ["class_id"] = 9
           },
           [5] = {
             ["name"] = "Nessx",
@@ -1021,11 +1021,11 @@ ns.GUILD_BEST_DATA = {
         }
       },
       [5] = {
-        ["zone_id"] = 12916,
-        ["level"] = 24,
-        ["upgrades"] = 2,
-        ["fraction"] = 0.762015160580824,
-        ["clear_time"] = "00:27:26.714",
+        ["zone_id"] = 12842,
+        ["level"] = 25,
+        ["upgrades"] = 0,
+        ["fraction"] = 1.0429272827823173,
+        ["clear_time"] = "00:42:46.643",
         ["party"] = {
           [1] = {
             ["name"] = "Интус",
@@ -1043,12 +1043,12 @@ ns.GUILD_BEST_DATA = {
             ["class_id"] = 4
           },
           [4] = {
-            ["name"] = "Nessx",
+            ["name"] = "Mefaisto",
             ["role"] = "dps",
-            ["class_id"] = 3
+            ["class_id"] = 9
           },
           [5] = {
-            ["name"] = "Аскентр",
+            ["name"] = "Nessx",
             ["role"] = "dps",
             ["class_id"] = 3
           }

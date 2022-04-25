@@ -28,7 +28,6 @@ VER 3 000000000000000F "Command Demon" "INV_MISC_QUESTIONMARK"
 /cast [@mouseover,exists,nodead] [] Command Demon
 END
 VER 3 0000000000000042 "CovSignature" "INV_MISC_QUESTIONMARK"
-#showtooltip
 /cast Door of Shadows
 /cast Soulshape
 /cast Fleshcraft
@@ -112,6 +111,7 @@ VER 3 000000000000004C "MountAutoTag" "1033183"
 /cast Heroic Throw
 /cast Pistol Shot
 /cast Poisoned Knife
+/cast Moonfire
 END
 VER 3 000000000000002C "PetAndStones" "136103"
 /use Fel Domination

@@ -335,3 +335,4 @@ Leatrix_Plus: enabled
 NoMoreErrors: enabled
 NPCTime: enabled
 PremadeSort: enabled
+kExtraBossFrames: disabled

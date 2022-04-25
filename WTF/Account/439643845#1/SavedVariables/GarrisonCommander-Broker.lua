@@ -328,8 +328,8 @@ dbGACB = {
 			[610] = 2,
 			[185] = 1,
 			[217] = 1,
-			[1220] = 4,
 			[611] = 2,
+			[1220] = 4,
 			[370] = 1,
 			[1221] = 4,
 			[282] = 1,
@@ -498,31 +498,25 @@ dbGACB = {
 				["Phaladinus"] = 500,
 				["Feastthree"] = 500,
 				["Asdfsadfsadf"] = 500,
-				["Feattwo"] = 500,
-				["Destruxia"] = 500,
 				["Elementior"] = 500,
+				["Destruxia"] = 500,
+				["Feattwo"] = 500,
 				["Presentone"] = 500,
 				["Illyana"] = 500,
 				["Phelanara"] = 500,
 			},
 			["missions"] = {
 				"000001619822668.1247.Shadroxia.4", -- [1]
-				"000001634561295.2250.Necrophagus.123", -- [2]
-				"000001634567786.2210.Necrophagus.123", -- [3]
-				"000001634567787.2238.Necrophagus.123", -- [4]
-				"000001634571836.2268.Necrophagus.123", -- [5]
-				"000001634579935.2278.Necrophagus.123", -- [6]
-				"000001634582617.2277.Necrophagus.123", -- [7]
 			},
 			["caches"] = {
-				["Phaltraxion"] = 1606914863,
+				["Destruxia"] = 1606851192,
 				["Necrophagus"] = 1630874651,
 				["Shadroxia"] = 1608050868,
-				["Destruxia"] = 1606851192,
-				["Illyana"] = 1606811472,
+				["Phaltraxion"] = 1606914863,
+				["Luminaxia"] = 1608050516,
 				["Phelanara"] = 1608828591,
 				["Xanthoros"] = 1605728094,
-				["Luminaxia"] = 1608050516,
+				["Illyana"] = 1606811472,
 			},
 			["orders"] = {
 				["Illyana"] = {
