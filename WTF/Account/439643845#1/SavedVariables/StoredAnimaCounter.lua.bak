@@ -6,6 +6,7 @@ StoredAnimaCounterDB = {
 		["Phelanara - Outland"] = "Phelanara - Outland",
 		["Xanthoros - Outland"] = "Xanthoros - Outland",
 		["Phaltraxion - Outland"] = "Phaltraxion - Outland",
+		["Wolfdestroye - Outland"] = "Wolfdestroye - Outland",
 		["Illyana - Outland"] = "Illyana - Outland",
 		["Destruxia - Outland"] = "Destruxia - Outland",
 		["Necrophagus - Outland"] = "Necrophagus - Outland",
@@ -25,6 +26,8 @@ StoredAnimaCounterDB = {
 		["Xanthoros - Outland"] = {
 		},
 		["Phaltraxion - Outland"] = {
+		},
+		["Wolfdestroye - Outland"] = {
 		},
 		["Illyana - Outland"] = {
 		},

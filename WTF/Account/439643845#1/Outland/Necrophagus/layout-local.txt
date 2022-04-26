@@ -10,7 +10,7 @@ Frame: AllTheThings-Window-CurrentInstance
 FrameLevel: 1
 Anchor: BOTTOMLEFT
 X: 0
-Y: 220
+Y: 219
 W: 406
 H: 190
 Frame: ObjectiveTrackerFrame
@@ -27,13 +27,6 @@ X: 0
 Y: 27
 W: 10
 H: 10
-Frame: ItemRefTooltip
-FrameLevel: 1
-Anchor: CENTER
-X: -45
-Y: -15
-W: 128
-H: 64
 Frame: ColorPickerFrame
 FrameLevel: 23
 Anchor: CENTER
@@ -43,9 +36,9 @@ W: 365
 H: 240
 Frame: AllTheThings-Window-Prime
 FrameLevel: 1
-Anchor: TOPRIGHT
-X: -297
-Y: -83
+Anchor: CENTER
+X: 303
+Y: 104
 W: 618
 H: 482
 Frame: AllTheThings-Window-Bounty
@@ -104,3 +97,10 @@ X: 230
 Y: 194
 W: 306
 H: 225
+Frame: ItemRefTooltip
+FrameLevel: 1
+Anchor: CENTER
+X: -45
+Y: -15
+W: 235
+H: 99

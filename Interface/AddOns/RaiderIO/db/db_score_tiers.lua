@@ -1,5 +1,5 @@
 --
--- Generated on 2022-04-25T18:52:42Z. DO NOT EDIT.
+-- Generated on 2022-04-26T18:52:58Z. DO NOT EDIT.
 --
 -- Ranges: {"epic":[2676,3725],"superior":[2126,2675],"uncommon":[601,2125],"common":[200,600]}
 --

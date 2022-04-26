@@ -1,5 +1,5 @@
 --
--- RaiderIO Client Data. Generated on 2022-04-25T21:32:51Z
+-- RaiderIO Client Data. Generated on 2022-04-26T21:20:22Z
 --
 local _, ns = ...
 ns.GUILD_BEST_DATA = {
@@ -12,13 +12,13 @@ ns.GUILD_BEST_DATA = {
     ["season_best"] = {
       [1] = {
         ["zone_id"] = 12916,
-        ["level"] = 15,
+        ["level"] = 16,
         ["upgrades"] = 1,
-        ["fraction"] = 0.9449675821228978,
-        ["clear_time"] = "00:34:02.074",
+        ["fraction"] = 0.8306486953487716,
+        ["clear_time"] = "00:29:55.031",
         ["party"] = {
           [1] = {
-            ["name"] = "Eakl",
+            ["name"] = "Менетиил",
             ["role"] = "tank",
             ["class_id"] = 2
           },
@@ -28,31 +28,31 @@ ns.GUILD_BEST_DATA = {
             ["class_id"] = 5
           },
           [3] = {
-            ["name"] = "Ors",
-            ["role"] = "dps",
-            ["class_id"] = 1
-          },
-          [4] = {
             ["name"] = "Trûpzîk",
             ["role"] = "dps",
             ["class_id"] = 11
           },
-          [5] = {
+          [4] = {
             ["name"] = "Крумхильд",
             ["role"] = "dps",
             ["class_id"] = 3
+          },
+          [5] = {
+            ["name"] = "Салманела",
+            ["role"] = "dps",
+            ["class_id"] = 11
           }
         }
       },
       [2] = {
-        ["zone_id"] = 12841,
-        ["level"] = 14,
-        ["upgrades"] = 1,
-        ["fraction"] = 0.9568583765271269,
-        ["clear_time"] = "00:36:22.593",
+        ["zone_id"] = 13228,
+        ["level"] = 15,
+        ["upgrades"] = 2,
+        ["fraction"] = 0.7923089839145041,
+        ["clear_time"] = "00:30:07.256",
         ["party"] = {
           [1] = {
-            ["name"] = "Eakl",
+            ["name"] = "Inaari",
             ["role"] = "tank",
             ["class_id"] = 2
           },
@@ -62,127 +62,23 @@ ns.GUILD_BEST_DATA = {
             ["class_id"] = 5
           },
           [3] = {
-            ["name"] = "Ors",
-            ["role"] = "dps",
-            ["class_id"] = 1
-          },
-          [4] = {
             ["name"] = "Trûpzîk",
             ["role"] = "dps",
             ["class_id"] = 11
           },
-          [5] = {
+          [4] = {
             ["name"] = "Крумхильд",
             ["role"] = "dps",
             ["class_id"] = 3
+          },
+          [5] = {
+            ["name"] = "Салманела",
+            ["role"] = "dps",
+            ["class_id"] = 11
           }
         }
       },
       [3] = {
-        ["zone_id"] = 13334,
-        ["level"] = 13,
-        ["upgrades"] = 2,
-        ["fraction"] = 0.7998349804747255,
-        ["clear_time"] = "00:24:00.502",
-        ["party"] = {
-          [1] = {
-            ["name"] = "Eakl",
-            ["role"] = "tank",
-            ["class_id"] = 2
-          },
-          [2] = {
-            ["name"] = "Пусясвета",
-            ["role"] = "healer",
-            ["class_id"] = 5
-          },
-          [3] = {
-            ["name"] = "Ors",
-            ["role"] = "dps",
-            ["class_id"] = 1
-          },
-          [4] = {
-            ["name"] = "Trûpzîk",
-            ["role"] = "dps",
-            ["class_id"] = 11
-          },
-          [5] = {
-            ["name"] = "Крумхильд",
-            ["role"] = "dps",
-            ["class_id"] = 3
-          }
-        }
-      },
-      [4] = {
-        ["zone_id"] = 13228,
-        ["level"] = 13,
-        ["upgrades"] = 1,
-        ["fraction"] = 0.828979758430407,
-        ["clear_time"] = "00:31:30.902",
-        ["party"] = {
-          [1] = {
-            ["name"] = "Гренфаир",
-            ["role"] = "tank",
-            ["class_id"] = 12
-          },
-          [2] = {
-            ["name"] = "Пусясвета",
-            ["role"] = "healer",
-            ["class_id"] = 5
-          },
-          [3] = {
-            ["name"] = "Trûpzîk",
-            ["role"] = "dps",
-            ["class_id"] = 11
-          },
-          [4] = {
-            ["name"] = "Велорс",
-            ["role"] = "dps",
-            ["class_id"] = 6
-          },
-          [5] = {
-            ["name"] = "Крумхильд",
-            ["role"] = "dps",
-            ["class_id"] = 3
-          }
-        }
-      },
-      [5] = {
-        ["zone_id"] = 13334,
-        ["level"] = 12,
-        ["upgrades"] = 2,
-        ["fraction"] = 0.7438360598756579,
-        ["clear_time"] = "00:22:19.648",
-        ["party"] = {
-          [1] = {
-            ["name"] = "Horgax",
-            ["role"] = "tank",
-            ["class_id"] = 2
-          },
-          [2] = {
-            ["name"] = "Пусясвета",
-            ["role"] = "healer",
-            ["class_id"] = 5
-          },
-          [3] = {
-            ["name"] = "Ors",
-            ["role"] = "dps",
-            ["class_id"] = 1
-          },
-          [4] = {
-            ["name"] = "Trûpzîk",
-            ["role"] = "dps",
-            ["class_id"] = 11
-          },
-          [5] = {
-            ["name"] = "Крумхильд",
-            ["role"] = "dps",
-            ["class_id"] = 3
-          }
-        }
-      }
-    },
-    ["weekly_best"] = {
-      [1] = {
         ["zone_id"] = 12916,
         ["level"] = 15,
         ["upgrades"] = 1,
@@ -216,15 +112,15 @@ ns.GUILD_BEST_DATA = {
           }
         }
       },
-      [2] = {
-        ["zone_id"] = 12841,
-        ["level"] = 14,
+      [4] = {
+        ["zone_id"] = 12831,
+        ["level"] = 15,
         ["upgrades"] = 1,
-        ["fraction"] = 0.9568583765271269,
-        ["clear_time"] = "00:36:22.593",
+        ["fraction"] = 0.9797334615999279,
+        ["clear_time"] = "00:31:22.067",
         ["party"] = {
           [1] = {
-            ["name"] = "Eakl",
+            ["name"] = "Koruhl",
             ["role"] = "tank",
             ["class_id"] = 2
           },
@@ -234,28 +130,132 @@ ns.GUILD_BEST_DATA = {
             ["class_id"] = 5
           },
           [3] = {
-            ["name"] = "Ors",
-            ["role"] = "dps",
-            ["class_id"] = 1
-          },
-          [4] = {
             ["name"] = "Trûpzîk",
             ["role"] = "dps",
             ["class_id"] = 11
           },
-          [5] = {
+          [4] = {
             ["name"] = "Крумхильд",
             ["role"] = "dps",
             ["class_id"] = 3
+          },
+          [5] = {
+            ["name"] = "Салманела",
+            ["role"] = "dps",
+            ["class_id"] = 11
+          }
+        }
+      },
+      [5] = {
+        ["zone_id"] = 1000001,
+        ["level"] = 15,
+        ["upgrades"] = 0,
+        ["fraction"] = 1.1538795968237627,
+        ["clear_time"] = "00:34:38.136",
+        ["party"] = {
+          [1] = {
+            ["name"] = "Менетиил",
+            ["role"] = "tank",
+            ["class_id"] = 2
+          },
+          [2] = {
+            ["name"] = "Пусясвета",
+            ["role"] = "healer",
+            ["class_id"] = 5
+          },
+          [3] = {
+            ["name"] = "Trûpzîk",
+            ["role"] = "dps",
+            ["class_id"] = 11
+          },
+          [4] = {
+            ["name"] = "Крумхильд",
+            ["role"] = "dps",
+            ["class_id"] = 3
+          },
+          [5] = {
+            ["name"] = "Салманела",
+            ["role"] = "dps",
+            ["class_id"] = 11
+          }
+        }
+      }
+    },
+    ["weekly_best"] = {
+      [1] = {
+        ["zone_id"] = 12916,
+        ["level"] = 16,
+        ["upgrades"] = 1,
+        ["fraction"] = 0.8306486953487716,
+        ["clear_time"] = "00:29:55.031",
+        ["party"] = {
+          [1] = {
+            ["name"] = "Менетиил",
+            ["role"] = "tank",
+            ["class_id"] = 2
+          },
+          [2] = {
+            ["name"] = "Пусясвета",
+            ["role"] = "healer",
+            ["class_id"] = 5
+          },
+          [3] = {
+            ["name"] = "Trûpzîk",
+            ["role"] = "dps",
+            ["class_id"] = 11
+          },
+          [4] = {
+            ["name"] = "Крумхильд",
+            ["role"] = "dps",
+            ["class_id"] = 3
+          },
+          [5] = {
+            ["name"] = "Салманела",
+            ["role"] = "dps",
+            ["class_id"] = 11
+          }
+        }
+      },
+      [2] = {
+        ["zone_id"] = 13228,
+        ["level"] = 15,
+        ["upgrades"] = 2,
+        ["fraction"] = 0.7923089839145041,
+        ["clear_time"] = "00:30:07.256",
+        ["party"] = {
+          [1] = {
+            ["name"] = "Inaari",
+            ["role"] = "tank",
+            ["class_id"] = 2
+          },
+          [2] = {
+            ["name"] = "Пусясвета",
+            ["role"] = "healer",
+            ["class_id"] = 5
+          },
+          [3] = {
+            ["name"] = "Trûpzîk",
+            ["role"] = "dps",
+            ["class_id"] = 11
+          },
+          [4] = {
+            ["name"] = "Крумхильд",
+            ["role"] = "dps",
+            ["class_id"] = 3
+          },
+          [5] = {
+            ["name"] = "Салманела",
+            ["role"] = "dps",
+            ["class_id"] = 11
           }
         }
       },
       [3] = {
-        ["zone_id"] = 13334,
-        ["level"] = 13,
-        ["upgrades"] = 2,
-        ["fraction"] = 0.7998349804747255,
-        ["clear_time"] = "00:24:00.502",
+        ["zone_id"] = 12916,
+        ["level"] = 15,
+        ["upgrades"] = 1,
+        ["fraction"] = 0.9449675821228978,
+        ["clear_time"] = "00:34:02.074",
         ["party"] = {
           [1] = {
             ["name"] = "Eakl",
@@ -285,14 +285,14 @@ ns.GUILD_BEST_DATA = {
         }
       },
       [4] = {
-        ["zone_id"] = 13334,
-        ["level"] = 12,
-        ["upgrades"] = 2,
-        ["fraction"] = 0.7438360598756579,
-        ["clear_time"] = "00:22:19.648",
+        ["zone_id"] = 12831,
+        ["level"] = 15,
+        ["upgrades"] = 1,
+        ["fraction"] = 0.9797334615999279,
+        ["clear_time"] = "00:31:22.067",
         ["party"] = {
           [1] = {
-            ["name"] = "Horgax",
+            ["name"] = "Koruhl",
             ["role"] = "tank",
             ["class_id"] = 2
           },
@@ -302,53 +302,53 @@ ns.GUILD_BEST_DATA = {
             ["class_id"] = 5
           },
           [3] = {
-            ["name"] = "Ors",
-            ["role"] = "dps",
-            ["class_id"] = 1
-          },
-          [4] = {
             ["name"] = "Trûpzîk",
             ["role"] = "dps",
             ["class_id"] = 11
           },
-          [5] = {
+          [4] = {
             ["name"] = "Крумхильд",
             ["role"] = "dps",
             ["class_id"] = 3
+          },
+          [5] = {
+            ["name"] = "Салманела",
+            ["role"] = "dps",
+            ["class_id"] = 11
           }
         }
       },
       [5] = {
-        ["zone_id"] = 12837,
-        ["level"] = 11,
+        ["zone_id"] = 1000001,
+        ["level"] = 15,
         ["upgrades"] = 0,
-        ["fraction"] = 1.1031076903492911,
-        ["clear_time"] = "00:43:02.374",
+        ["fraction"] = 1.1538795968237627,
+        ["clear_time"] = "00:34:38.136",
         ["party"] = {
           [1] = {
-            ["name"] = "Bollixd",
+            ["name"] = "Менетиил",
             ["role"] = "tank",
-            ["class_id"] = 12
+            ["class_id"] = 2
           },
           [2] = {
-            ["name"] = "Faytaii",
+            ["name"] = "Пусясвета",
             ["role"] = "healer",
-            ["class_id"] = 7
+            ["class_id"] = 5
           },
           [3] = {
-            ["name"] = "Misscotty",
+            ["name"] = "Trûpzîk",
             ["role"] = "dps",
-            ["class_id"] = 3
+            ["class_id"] = 11
           },
           [4] = {
-            ["name"] = "Morgandeb",
+            ["name"] = "Крумхильд",
             ["role"] = "dps",
             ["class_id"] = 3
           },
           [5] = {
-            ["name"] = "Ráub",
+            ["name"] = "Салманела",
             ["role"] = "dps",
-            ["class_id"] = 6
+            ["class_id"] = 11
           }
         }
       }

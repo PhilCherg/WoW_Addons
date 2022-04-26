@@ -20,33 +20,34 @@ Gladius2DB = {
 		["Xanthoros - Outland"] = "Xanthoros - Outland",
 		["Nibirus - Azjol-Nerub"] = "Nibirus - Azjol-Nerub",
 		["Käguya - Turalyon"] = "Käguya - Turalyon",
+		["Feastthree - Outland"] = "Feastthree - Outland",
 		["Feastfive - Outland"] = "Feastfive - Outland",
 		["Bankeristor - Outland"] = "Bankeristor - Outland",
-		["Elementior - Outland"] = "Elementior - Outland",
-		["Bullenic - Silvermoon"] = "Bullenic - Silvermoon",
+		["Feastone - Outland"] = "Feastone - Outland",
+		["Barbaxius - Outland"] = "Barbaxius - Outland",
 		["Illydaria - Draenor"] = "Illydaria - Draenor",
-		["Necropharia - Outland"] = "Necropharia - Outland",
+		["Asdfsadfsadf - Outland"] = "Asdfsadfsadf - Outland",
 		["Presentone - Outland"] = "Presentone - Outland",
-		["Phaltraxion - Outland"] = "Phaltraxion - Outland",
+		["Shadroxia - Outland"] = "Shadroxia - Outland",
 		["Asdawdwd - Outland"] = "Asdawdwd - Outland",
 		["Illyana - Outland"] = "Illyana - Outland",
-		["Shadroxia - Outland"] = "Shadroxia - Outland",
+		["Phaltraxion - Outland"] = "Phaltraxion - Outland",
 		["Chernakotka - Die Aldor"] = "Chernakotka - Die Aldor",
-		["Asdfsadfsadf - Outland"] = "Asdfsadfsadf - Outland",
+		["Necropharia - Outland"] = "Necropharia - Outland",
 		["Serthaxion - Outland"] = "Serthaxion - Outland",
-		["Barbaxius - Outland"] = "Barbaxius - Outland",
-		["Feastone - Outland"] = "Feastone - Outland",
-		["Feastthree - Outland"] = "Feastthree - Outland",
+		["Bullenic - Silvermoon"] = "Bullenic - Silvermoon",
+		["Wolfdestroye - Outland"] = "Wolfdestroye - Outland",
+		["Elementior - Outland"] = "Elementior - Outland",
 	},
 	["profiles"] = {
 		["Feastfour - Outland"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 519.082137022222,
-			},
 			["x"] = {
 				["arena1"] = 1024.800205844818,
+			},
+			["y"] = {
+				["arena1"] = 519.082137022222,
 			},
 		},
 		["Feastyone - Outland"] = {
@@ -56,11 +57,11 @@ Gladius2DB = {
 		["Phaladinus - Outland"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["x"] = {
-				["arena1"] = 1007.645250093956,
-			},
 			["y"] = {
 				["arena1"] = 657.0667693826908,
+			},
+			["x"] = {
+				["arena1"] = 1007.645250093956,
 			},
 		},
 		["Phalonius - Azjol-Nerub"] = {
@@ -74,11 +75,11 @@ Gladius2DB = {
 		["Asdsaasdf - Outland"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["x"] = {
-				["arena1"] = 649.3334184861487,
-			},
 			["y"] = {
 				["arena1"] = 217.5710517741609,
+			},
+			["x"] = {
+				["arena1"] = 649.3334184861487,
 			},
 		},
 		["Necrophagus - Outland"] = {
@@ -102,21 +103,21 @@ Gladius2DB = {
 		["Feattwo - Outland"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 485.6598327344618,
-			},
 			["x"] = {
 				["arena1"] = 915.2890360587699,
+			},
+			["y"] = {
+				["arena1"] = 485.6598327344618,
 			},
 		},
 		["Destruxia - Outland"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 599.437892650345,
-			},
 			["x"] = {
 				["arena1"] = 830.6667803154487,
+			},
+			["y"] = {
+				["arena1"] = 599.437892650345,
 			},
 		},
 		["Wolfados - Azjol-Nerub"] = {
@@ -126,11 +127,11 @@ Gladius2DB = {
 		["Luminaxia - Outland"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["x"] = {
-				["arena1"] = 865.5113813131538,
-			},
 			["y"] = {
 				["arena1"] = 637.1265237134648,
+			},
+			["x"] = {
+				["arena1"] = 865.5113813131538,
 			},
 		},
 		["Testfirst - Outland"] = {
@@ -140,21 +141,21 @@ Gladius2DB = {
 		["Mallazin - Azjol-Nerub"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 420.9486042214194,
-			},
 			["x"] = {
 				["arena1"] = 1100.179201369443,
+			},
+			["y"] = {
+				["arena1"] = 420.9486042214194,
 			},
 		},
 		["Adsfasdfasdf - Outland"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["x"] = {
-				["arena1"] = 928.0890564238798,
-			},
 			["y"] = {
 				["arena1"] = 283.704490327229,
+			},
+			["x"] = {
+				["arena1"] = 928.0890564238798,
 			},
 		},
 		["Phelanara - Outland"] = {
@@ -164,31 +165,41 @@ Gladius2DB = {
 		["Xanthoros - Outland"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["x"] = {
-				["arena1"] = 128.7998744948518,
-			},
 			["y"] = {
 				["arena1"] = 623.6154633307815,
+			},
+			["x"] = {
+				["arena1"] = 128.7998744948518,
 			},
 		},
 		["Nibirus - Azjol-Nerub"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 553.2155246625152,
-			},
 			["x"] = {
 				["arena1"] = 953.689183824019,
+			},
+			["y"] = {
+				["arena1"] = 553.2155246625152,
 			},
 		},
 		["Käguya - Turalyon"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
+			["y"] = {
+				["arena1"] = 410.9934806209167,
+			},
 			["x"] = {
 				["arena1"] = 1037.600226209928,
 			},
+		},
+		["Feastthree - Outland"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
 			["y"] = {
-				["arena1"] = 410.9934806209167,
+				["arena1"] = 369.7488261056969,
+			},
+			["x"] = {
+				["arena1"] = 970.0445776168344,
 			},
 		},
 		["Feastfive - Outland"] = {
@@ -199,17 +210,11 @@ Gladius2DB = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
 		},
-		["Elementior - Outland"] = {
-			["y"] = {
-				["arena1"] = 588.7711223428341,
-			},
-			["tagsVersion"] = 4,
+		["Feastone - Outland"] = {
 			["auraVersion"] = 1,
-			["x"] = {
-				["arena1"] = 854.8445676706833,
-			},
+			["tagsVersion"] = 4,
 		},
-		["Bullenic - Silvermoon"] = {
+		["Barbaxius - Outland"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
 		},
@@ -217,107 +222,113 @@ Gladius2DB = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
 		},
-		["Necropharia - Outland"] = {
-			["y"] = {
-				["arena1"] = 631.4376835533621,
-			},
-			["tagsVersion"] = 4,
+		["Asdfsadfsadf - Outland"] = {
 			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
 			["x"] = {
-				["arena1"] = 965.0666041344666,
+				["arena1"] = 817.8666732804195,
+			},
+			["y"] = {
+				["arena1"] = 233.9266405742947,
 			},
 		},
 		["Presentone - Outland"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
 		},
-		["Phaltraxion - Outland"] = {
+		["Shadroxia - Outland"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
 			["y"] = {
-				["arena1"] = 611.5265263182046,
+				["arena1"] = 511.9710868220936,
 			},
 			["x"] = {
-				["arena1"] = 876.1779349458666,
+				["arena1"] = 797.9554727103023,
 			},
 		},
 		["Asdawdwd - Outland"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 610.8154863006312,
-			},
 			["x"] = {
 				["arena1"] = 1010.577758764885,
+			},
+			["y"] = {
+				["arena1"] = 610.8154863006312,
 			},
 		},
 		["Illyana - Outland"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 646.3710406459904,
-			},
 			["x"] = {
 				["arena1"] = 860.5335811706245,
 			},
+			["y"] = {
+				["arena1"] = 646.3710406459904,
+			},
 		},
-		["Shadroxia - Outland"] = {
+		["Phaltraxion - Outland"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
 			["x"] = {
-				["arena1"] = 797.9554727103023,
+				["arena1"] = 876.1779349458666,
 			},
 			["y"] = {
-				["arena1"] = 511.9710868220936,
+				["arena1"] = 611.5265263182046,
 			},
 		},
 		["Chernakotka - Die Aldor"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 561.0378315550151,
-			},
 			["x"] = {
 				["arena1"] = 929.5112231289459,
 			},
-		},
-		["Asdfsadfsadf - Outland"] = {
-			["auraVersion"] = 1,
-			["tagsVersion"] = 4,
 			["y"] = {
-				["arena1"] = 233.9266405742947,
+				["arena1"] = 561.0378315550151,
 			},
+		},
+		["Necropharia - Outland"] = {
+			["y"] = {
+				["arena1"] = 631.4376835533621,
+			},
+			["tagsVersion"] = 4,
 			["x"] = {
-				["arena1"] = 817.8666732804195,
+				["arena1"] = 965.0666041344666,
 			},
+			["auraVersion"] = 1,
 		},
 		["Serthaxion - Outland"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 550.3710612475043,
-			},
 			["x"] = {
 				["arena1"] = 838.4890005380294,
 			},
+			["y"] = {
+				["arena1"] = 550.3710612475043,
+			},
 		},
-		["Barbaxius - Outland"] = {
+		["Bullenic - Silvermoon"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
 		},
-		["Feastone - Outland"] = {
-			["auraVersion"] = 1,
-			["tagsVersion"] = 4,
-		},
-		["Feastthree - Outland"] = {
+		["Wolfdestroye - Outland"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
 			["x"] = {
-				["arena1"] = 970.0445776168344,
+				["arena1"] = 836.3559671552284,
 			},
 			["y"] = {
-				["arena1"] = 369.7488261056969,
+				["arena1"] = 413.1265140037176,
 			},
+		},
+		["Elementior - Outland"] = {
+			["y"] = {
+				["arena1"] = 588.7711223428341,
+			},
+			["tagsVersion"] = 4,
+			["x"] = {
+				["arena1"] = 854.8445676706833,
+			},
+			["auraVersion"] = 1,
 		},
 	},
 }

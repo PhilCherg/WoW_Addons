@@ -16,6 +16,7 @@ FarmHudDB = {
 	["tracking^136465"] = "client",
 	["tracking^132328"] = "client",
 	["coords_radius"] = 0.455,
+	["trailPathScale"] = 1,
 	["tracking^136457"] = "client",
 	["QuestArrowInfoMsg"] = false,
 	["tracking^135942"] = "client",
@@ -23,8 +24,16 @@ FarmHudDB = {
 	["tracking^1064187"] = "client",
 	["rotation"] = true,
 	["tracking^136025"] = "client",
+	["trailPathColor1"] = {
+		1, -- [1]
+		0.2, -- [2]
+		0.2, -- [3]
+		1, -- [4]
+		0.75, -- [5]
+	},
 	["hud_size"] = 1,
 	["tracking^132275"] = "client",
+	["trailPathShow"] = true,
 	["coords_show"] = true,
 	["tracking^457292"] = "client",
 	["showDummy"] = true,
@@ -79,35 +88,38 @@ FarmHudDB = {
 	["buttons_show"] = true,
 	["tracking^135861"] = "client",
 	["tracking^535615"] = "client",
+	["tracking^136217"] = "client",
+	["trailPathCount"] = 32,
+	["tracking^136466"] = "client",
 	["tracking^613074"] = "client",
 	["cardinalpoints_radius"] = 0.5,
+	["trailPathTimeout"] = 60,
+	["tracking^134153"] = "client",
+	["tracking^133888"] = "client",
+	["time_bottom"] = false,
+	["tracking^136142"] = "client",
+	["MinimapIcon"] = {
+		["minimapPos"] = 220,
+		["radius"] = 80,
+		["hide"] = false,
+	},
+	["holdKeyForMouseOn"] = "_none",
+	["tracking^136459"] = "client",
+	["buttons_radius"] = 0.455,
+	["tracking^133939"] = "client",
+	["tracking^136464"] = "client",
+	["coords_bottom"] = false,
+	["tracking^535616"] = "client",
+	["buttons_alpha"] = 0.5,
+	["buttons_bottom"] = true,
+	["SuperTrackedQuest"] = true,
+	["showDummyBg"] = false,
+	["trailPathIcon"] = "arrow01",
+	["tracking^136452"] = "client",
 	["time_color"] = {
 		1, -- [1]
 		0.82, -- [2]
 		0, -- [3]
 		0.7, -- [4]
 	},
-	["tracking^134153"] = "client",
-	["tracking^133888"] = "client",
-	["time_bottom"] = false,
-	["tracking^136466"] = "client",
-	["MinimapIcon"] = {
-		["minimapPos"] = 220,
-		["radius"] = 80,
-		["hide"] = false,
-	},
-	["showDummyBg"] = false,
-	["SuperTrackedQuest"] = true,
-	["buttons_bottom"] = true,
-	["tracking^133939"] = "client",
-	["buttons_alpha"] = 0.5,
-	["coords_bottom"] = false,
-	["tracking^535616"] = "client",
-	["tracking^136464"] = "client",
-	["buttons_radius"] = 0.455,
-	["tracking^136459"] = "client",
-	["holdKeyForMouseOn"] = "_none",
-	["tracking^136142"] = "client",
-	["tracking^136452"] = "client",
-	["tracking^136217"] = "client",
 }
