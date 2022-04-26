@@ -20,7 +20,7 @@ AstralKeys = {
 		["dungeon_id"] = 380,
 		["week"] = 248,
 		["faction"] = 0,
-		["time_stamp"] = 460694,
+		["time_stamp"] = 484294,
 	}, -- [2]
 	{
 		["source"] = "guild",
@@ -53,7 +53,7 @@ AstralKeys = {
 		["dungeon_id"] = 381,
 		["week"] = 248,
 		["faction"] = 0,
-		["time_stamp"] = 460218,
+		["time_stamp"] = 478164,
 	}, -- [5]
 	{
 		["source"] = "guild",
@@ -64,7 +64,7 @@ AstralKeys = {
 		["dungeon_id"] = 375,
 		["week"] = 248,
 		["faction"] = 0,
-		["time_stamp"] = 464459,
+		["time_stamp"] = 484137,
 	}, -- [6]
 	{
 		["source"] = "guild",
@@ -156,25 +156,25 @@ AstralKeys = {
 	}, -- [14]
 	{
 		["source"] = "guild",
-		["weekly_best"] = 0,
+		["weekly_best"] = 15,
 		["class"] = "HUNTER",
-		["key_level"] = 14,
+		["key_level"] = 16,
 		["unit"] = "Soous-Outland",
-		["dungeon_id"] = 378,
+		["dungeon_id"] = 379,
 		["week"] = 248,
 		["faction"] = 0,
-		["time_stamp"] = 6,
+		["time_stamp"] = 474042,
 	}, -- [15]
 	{
 		["source"] = "guild",
-		["weekly_best"] = 11,
+		["weekly_best"] = 13,
 		["class"] = "SHAMAN",
 		["key_level"] = 15,
 		["unit"] = "Kaleni-Outland",
 		["dungeon_id"] = 377,
 		["week"] = 248,
 		["faction"] = 0,
-		["time_stamp"] = 385418,
+		["time_stamp"] = 474071,
 	}, -- [16]
 	{
 		["source"] = "guild",
@@ -202,12 +202,12 @@ AstralKeys = {
 		["source"] = "guild",
 		["weekly_best"] = 16,
 		["class"] = "DEATHKNIGHT",
-		["key_level"] = 16,
+		["key_level"] = 17,
 		["unit"] = "Moorindal-Outland",
-		["dungeon_id"] = 378,
+		["dungeon_id"] = 381,
 		["week"] = 248,
 		["faction"] = 0,
-		["time_stamp"] = 3,
+		["time_stamp"] = 475543,
 	}, -- [19]
 	{
 		["source"] = "guild",
@@ -224,12 +224,12 @@ AstralKeys = {
 		["source"] = "guild",
 		["weekly_best"] = 19,
 		["class"] = "DRUID",
-		["key_level"] = 19,
+		["key_level"] = 18,
 		["unit"] = "Bamsea-Outland",
 		["dungeon_id"] = 381,
 		["week"] = 248,
 		["faction"] = 0,
-		["time_stamp"] = 464846,
+		["time_stamp"] = 484438,
 	}, -- [21]
 	{
 		["source"] = "guild",
@@ -321,14 +321,14 @@ AstralKeys = {
 	}, -- [29]
 	{
 		["source"] = "guild",
-		["weekly_best"] = 0,
+		["weekly_best"] = 11,
 		["class"] = "PRIEST",
-		["key_level"] = 10,
+		["key_level"] = 11,
 		["unit"] = "Darknightz-Outland",
-		["dungeon_id"] = 381,
+		["dungeon_id"] = 391,
 		["week"] = 248,
 		["faction"] = 0,
-		["time_stamp"] = 464960,
+		["time_stamp"] = 483012,
 	}, -- [30]
 	{
 		["source"] = "guild",
@@ -361,7 +361,7 @@ AstralKeys = {
 		["dungeon_id"] = 391,
 		["week"] = 248,
 		["faction"] = 0,
-		["time_stamp"] = 382255,
+		["time_stamp"] = 481107,
 	}, -- [33]
 	{
 		["source"] = "guild",
@@ -405,7 +405,7 @@ AstralKeys = {
 		["dungeon_id"] = 381,
 		["week"] = 248,
 		["faction"] = 0,
-		["time_stamp"] = 461312,
+		["time_stamp"] = 483755,
 	}, -- [37]
 	{
 		["source"] = "guild",
@@ -420,14 +420,14 @@ AstralKeys = {
 	}, -- [38]
 	{
 		["source"] = "guild",
-		["weekly_best"] = 10,
+		["weekly_best"] = 17,
 		["class"] = "DEMONHUNTER",
 		["key_level"] = 17,
 		["unit"] = "Boompop-Outland",
-		["dungeon_id"] = 392,
+		["dungeon_id"] = 382,
 		["week"] = 248,
 		["faction"] = 0,
-		["time_stamp"] = 6,
+		["time_stamp"] = 484701,
 	}, -- [39]
 	{
 		["source"] = "guild",
@@ -438,7 +438,7 @@ AstralKeys = {
 		["dungeon_id"] = 380,
 		["week"] = 248,
 		["faction"] = 0,
-		["time_stamp"] = 459405,
+		["time_stamp"] = 477314,
 	}, -- [40]
 	{
 		["source"] = "guild",
@@ -449,18 +449,18 @@ AstralKeys = {
 		["dungeon_id"] = 392,
 		["week"] = 248,
 		["faction"] = 0,
-		["time_stamp"] = 458714,
+		["time_stamp"] = 484377,
 	}, -- [41]
 	{
 		["source"] = "guild",
-		["weekly_best"] = 15,
+		["weekly_best"] = 16,
 		["class"] = "HUNTER",
-		["key_level"] = 14,
+		["key_level"] = 17,
 		["unit"] = "Tinkerplyzz-Outland",
-		["dungeon_id"] = 382,
+		["dungeon_id"] = 376,
 		["week"] = 248,
 		["faction"] = 0,
-		["time_stamp"] = 461583,
+		["time_stamp"] = 484456,
 	}, -- [42]
 	{
 		["source"] = "guild",
@@ -493,7 +493,7 @@ AstralKeys = {
 		["dungeon_id"] = 377,
 		["week"] = 248,
 		["faction"] = 0,
-		["time_stamp"] = 453421,
+		["time_stamp"] = 477134,
 	}, -- [45]
 	{
 		["source"] = "guild",
@@ -515,7 +515,7 @@ AstralKeys = {
 		["dungeon_id"] = 379,
 		["week"] = 248,
 		["faction"] = 0,
-		["time_stamp"] = 2,
+		["time_stamp"] = 4,
 	}, -- [47]
 	{
 		["source"] = "guild",
@@ -548,7 +548,7 @@ AstralKeys = {
 		["dungeon_id"] = 381,
 		["week"] = 248,
 		["faction"] = 0,
-		["time_stamp"] = 462537,
+		["time_stamp"] = 481551,
 	}, -- [50]
 	{
 		["source"] = "guild",
@@ -581,7 +581,7 @@ AstralKeys = {
 		["dungeon_id"] = 392,
 		["week"] = 248,
 		["faction"] = 0,
-		["time_stamp"] = 464852,
+		["time_stamp"] = 473431,
 	}, -- [53]
 	{
 		["source"] = "guild",
@@ -592,7 +592,7 @@ AstralKeys = {
 		["dungeon_id"] = 391,
 		["week"] = 248,
 		["faction"] = 0,
-		["time_stamp"] = 462090,
+		["time_stamp"] = 475544,
 	}, -- [54]
 	{
 		["source"] = "guild",
@@ -647,7 +647,7 @@ AstralKeys = {
 		["dungeon_id"] = 380,
 		["week"] = 248,
 		["faction"] = 0,
-		["time_stamp"] = 313835,
+		["time_stamp"] = 481783,
 	}, -- [59]
 	{
 		["source"] = "guild",
@@ -658,7 +658,7 @@ AstralKeys = {
 		["dungeon_id"] = 379,
 		["week"] = 248,
 		["faction"] = 0,
-		["time_stamp"] = 385083,
+		["time_stamp"] = 481463,
 	}, -- [60]
 	{
 		["source"] = "guild",
@@ -675,34 +675,34 @@ AstralKeys = {
 		["source"] = "guild",
 		["weekly_best"] = 14,
 		["class"] = "PALADIN",
-		["key_level"] = 14,
+		["key_level"] = 13,
 		["unit"] = "Kalishtra-Outland",
-		["dungeon_id"] = 381,
+		["dungeon_id"] = 377,
 		["week"] = 248,
 		["faction"] = 0,
-		["time_stamp"] = 313122,
+		["time_stamp"] = 476122,
 	}, -- [62]
 	{
 		["source"] = "guild",
-		["weekly_best"] = 0,
+		["weekly_best"] = 12,
 		["class"] = "PRIEST",
-		["key_level"] = 12,
+		["key_level"] = 14,
 		["unit"] = "Enstral-Outland",
-		["dungeon_id"] = 378,
-		["week"] = 248,
-		["faction"] = 0,
-		["time_stamp"] = 312547,
-	}, -- [63]
-	{
-		["source"] = "guild",
-		["weekly_best"] = 0,
-		["class"] = "WARRIOR",
-		["key_level"] = 15,
-		["unit"] = "Floods-Outland",
 		["dungeon_id"] = 381,
 		["week"] = 248,
 		["faction"] = 0,
-		["time_stamp"] = 42105,
+		["time_stamp"] = 481509,
+	}, -- [63]
+	{
+		["source"] = "guild",
+		["weekly_best"] = 17,
+		["class"] = "WARRIOR",
+		["key_level"] = 17,
+		["unit"] = "Floods-Outland",
+		["dungeon_id"] = 379,
+		["week"] = 248,
+		["faction"] = 0,
+		["time_stamp"] = 484290,
 	}, -- [64]
 	{
 		["source"] = "guild",
@@ -713,7 +713,7 @@ AstralKeys = {
 		["dungeon_id"] = 375,
 		["week"] = 248,
 		["faction"] = 0,
-		["time_stamp"] = 462947,
+		["time_stamp"] = 478081,
 	}, -- [65]
 	{
 		["source"] = "guild",
@@ -772,25 +772,25 @@ AstralKeys = {
 	}, -- [70]
 	{
 		["source"] = "guild",
-		["weekly_best"] = 0,
+		["weekly_best"] = 8,
 		["class"] = "MONK",
 		["key_level"] = 12,
 		["unit"] = "Harlvar-Outland",
 		["dungeon_id"] = 375,
 		["week"] = 248,
 		["faction"] = 0,
-		["time_stamp"] = 48280,
+		["time_stamp"] = 481404,
 	}, -- [71]
 	{
 		["source"] = "guild",
 		["weekly_best"] = 19,
 		["class"] = "WARLOCK",
-		["key_level"] = 21,
+		["key_level"] = 20,
 		["unit"] = "Dwalewyth-Outland",
 		["dungeon_id"] = 379,
 		["week"] = 248,
 		["faction"] = 0,
-		["time_stamp"] = 371986,
+		["time_stamp"] = 476170,
 	}, -- [72]
 	{
 		["source"] = "guild",
@@ -834,7 +834,7 @@ AstralKeys = {
 		["dungeon_id"] = 378,
 		["week"] = 248,
 		["faction"] = 0,
-		["time_stamp"] = 405583,
+		["time_stamp"] = 483756,
 	}, -- [76]
 	{
 		["source"] = "guild",
@@ -845,29 +845,29 @@ AstralKeys = {
 		["dungeon_id"] = 378,
 		["week"] = 248,
 		["faction"] = 0,
-		["time_stamp"] = 457209,
+		["time_stamp"] = 474756,
 	}, -- [77]
 	{
 		["source"] = "guild",
-		["weekly_best"] = 0,
+		["weekly_best"] = 17,
 		["class"] = "WARLOCK",
 		["key_level"] = 14,
 		["unit"] = "Maaiiky-Outland",
-		["dungeon_id"] = 391,
+		["dungeon_id"] = 378,
 		["week"] = 248,
 		["faction"] = 0,
-		["time_stamp"] = 51557,
+		["time_stamp"] = 484750,
 	}, -- [78]
 	{
 		["source"] = "guild",
-		["weekly_best"] = 19,
+		["weekly_best"] = 22,
 		["class"] = "MONK",
 		["key_level"] = 18,
 		["unit"] = "Fistinmidget-Outland",
-		["dungeon_id"] = 375,
+		["dungeon_id"] = 379,
 		["week"] = 248,
 		["faction"] = 0,
-		["time_stamp"] = 375697,
+		["time_stamp"] = 484052,
 	}, -- [79]
 	{
 		["source"] = "guild",
@@ -882,14 +882,14 @@ AstralKeys = {
 	}, -- [80]
 	{
 		["source"] = "guild",
-		["weekly_best"] = 5,
+		["weekly_best"] = 8,
 		["class"] = "DEATHKNIGHT",
 		["key_level"] = 8,
 		["unit"] = "Deathníghtz-Outland",
 		["dungeon_id"] = 377,
 		["week"] = 248,
 		["faction"] = 0,
-		["time_stamp"] = 461677,
+		["time_stamp"] = 475643,
 	}, -- [81]
 	{
 		["source"] = "guild",
@@ -900,7 +900,7 @@ AstralKeys = {
 		["dungeon_id"] = 381,
 		["week"] = 248,
 		["faction"] = 0,
-		["time_stamp"] = 405581,
+		["time_stamp"] = 483789,
 	}, -- [82]
 	{
 		["source"] = "guild",
@@ -908,10 +908,10 @@ AstralKeys = {
 		["class"] = "WARRIOR",
 		["key_level"] = 19,
 		["unit"] = "Mafyol-Outland",
-		["dungeon_id"] = 377,
+		["dungeon_id"] = 381,
 		["week"] = 248,
 		["faction"] = 0,
-		["time_stamp"] = 384989,
+		["time_stamp"] = 480189,
 	}, -- [83]
 	{
 		["source"] = "guild",
@@ -939,12 +939,12 @@ AstralKeys = {
 		["source"] = "guild",
 		["weekly_best"] = 20,
 		["class"] = "HUNTER",
-		["key_level"] = 20,
+		["key_level"] = 17,
 		["unit"] = "Mercuil-Outland",
-		["dungeon_id"] = 381,
+		["dungeon_id"] = 376,
 		["week"] = 248,
 		["faction"] = 0,
-		["time_stamp"] = 461850,
+		["time_stamp"] = 481111,
 	}, -- [86]
 	{
 		["source"] = "guild",
@@ -966,7 +966,7 @@ AstralKeys = {
 		["dungeon_id"] = 381,
 		["week"] = 248,
 		["faction"] = 0,
-		["time_stamp"] = 392944,
+		["time_stamp"] = 484074,
 	}, -- [88]
 	{
 		["source"] = "guild",
@@ -977,7 +977,7 @@ AstralKeys = {
 		["dungeon_id"] = 375,
 		["week"] = 248,
 		["faction"] = 0,
-		["time_stamp"] = 459342,
+		["time_stamp"] = 484533,
 	}, -- [89]
 	{
 		["source"] = "guild",
@@ -1034,13 +1034,35 @@ AstralKeys = {
 		["faction"] = 0,
 		["time_stamp"] = 458173,
 	}, -- [94]
+	{
+		["source"] = "guild",
+		["weekly_best"] = 10,
+		["class"] = "PALADIN",
+		["key_level"] = 12,
+		["unit"] = "Bassangell-Outland",
+		["dungeon_id"] = 380,
+		["week"] = 248,
+		["faction"] = 0,
+		["time_stamp"] = 483376,
+	}, -- [95]
+	{
+		["source"] = "guild",
+		["weekly_best"] = 15,
+		["class"] = "SHAMAN",
+		["key_level"] = 6,
+		["unit"] = "Orvalleke-Outland",
+		["dungeon_id"] = 382,
+		["week"] = 248,
+		["faction"] = 0,
+		["time_stamp"] = 484479,
+	}, -- [96]
 }
 AstralCharacters = {
 	{
 		["weekly_best"] = 2,
 		["class"] = "WARLOCK",
-		["faction"] = 0,
 		["unit"] = "Necrophagus-Outland",
+		["faction"] = 0,
 	}, -- [1]
 }
 AstralKeysSettings = {
@@ -1054,10 +1076,10 @@ AstralKeysSettings = {
 			["isEnabled"] = true,
 		},
 		["report_on_message"] = {
-			["party"] = true,
-			["raid"] = false,
-			["guild"] = false,
 			["no_key"] = false,
+			["party"] = true,
+			["guild"] = false,
+			["raid"] = false,
 		},
 		["show_tooltip_key"] = {
 			["isEnabled"] = true,
@@ -1082,7 +1104,9 @@ AstralKeysSettings = {
 			true, -- [9]
 			true, -- [10]
 		},
-		["current_list"] = "GUILD",
+		["show_offline"] = {
+			["isEnabled"] = true,
+		},
 		["isCollapsed"] = {
 			["isEnabled"] = false,
 		},
@@ -1091,11 +1115,8 @@ AstralKeysSettings = {
 			["isEnabled"] = false,
 		},
 		["sorth_method"] = "character_name",
-		["show_offline"] = {
-			["isEnabled"] = true,
-		},
+		["current_list"] = "GUILD",
 	},
-	["new_settings_config"] = true,
 	["friendOptions"] = {
 		["friend_sync"] = {
 			["isEnabled"] = true,
@@ -1104,6 +1125,7 @@ AstralKeysSettings = {
 			["isEnabled"] = true,
 		},
 	},
+	["new_settings_config"] = true,
 }
 AstralMinimap = {
 	["profileKeys"] = {
@@ -1119,21 +1141,21 @@ AstralMinimap = {
 		["Lianxia - Draenor"] = "Lianxia - Draenor",
 		["Feastfive - Outland"] = "Feastfive - Outland",
 		["Bankeristor - Outland"] = "Bankeristor - Outland",
-		["Feastthree - Outland"] = "Feastthree - Outland",
-		["Nibirus - Azjol-Nerub"] = "Nibirus - Azjol-Nerub",
+		["Elementior - Outland"] = "Elementior - Outland",
+		["Bullenic - Silvermoon"] = "Bullenic - Silvermoon",
 		["Feastyone - Outland"] = "Feastyone - Outland",
 		["Necrophagus - Outland"] = "Necrophagus - Outland",
 		["Phalonius - Azjol-Nerub"] = "Phalonius - Azjol-Nerub",
 		["Feastfour - Outland"] = "Feastfour - Outland",
-		["Feattwo - Outland"] = "Feattwo - Outland",
-		["Illyana - Outland"] = "Illyana - Outland",
-		["Destruxia - Outland"] = "Destruxia - Outland",
 		["Illydaria - Draenor"] = "Illydaria - Draenor",
+		["Feattwo - Outland"] = "Feattwo - Outland",
+		["Destruxia - Outland"] = "Destruxia - Outland",
+		["Illyana - Outland"] = "Illyana - Outland",
 		["Wolfados - Azjol-Nerub"] = "Wolfados - Azjol-Nerub",
 		["Serthaxion - Outland"] = "Serthaxion - Outland",
 		["Luminaxia - Outland"] = "Luminaxia - Outland",
-		["Bullenic - Silvermoon"] = "Bullenic - Silvermoon",
-		["Elementior - Outland"] = "Elementior - Outland",
+		["Nibirus - Azjol-Nerub"] = "Nibirus - Azjol-Nerub",
+		["Feastthree - Outland"] = "Feastthree - Outland",
 	},
 	["profiles"] = {
 		["Mallazin - Azjol-Nerub"] = {
@@ -1160,9 +1182,9 @@ AstralMinimap = {
 		},
 		["Bankeristor - Outland"] = {
 		},
-		["Feastthree - Outland"] = {
+		["Elementior - Outland"] = {
 		},
-		["Nibirus - Azjol-Nerub"] = {
+		["Bullenic - Silvermoon"] = {
 		},
 		["Feastyone - Outland"] = {
 		},
@@ -1172,19 +1194,19 @@ AstralMinimap = {
 		},
 		["Feastfour - Outland"] = {
 		},
-		["Feattwo - Outland"] = {
+		["Illydaria - Draenor"] = {
 		},
-		["Illyana - Outland"] = {
-			["minimap"] = {
-				["minimapPos"] = 192.1442721043813,
-			},
+		["Feattwo - Outland"] = {
 		},
 		["Destruxia - Outland"] = {
 			["minimap"] = {
 				["minimapPos"] = 263.3456083575512,
 			},
 		},
-		["Illydaria - Draenor"] = {
+		["Illyana - Outland"] = {
+			["minimap"] = {
+				["minimapPos"] = 192.1442721043813,
+			},
 		},
 		["Wolfados - Azjol-Nerub"] = {
 		},
@@ -1192,9 +1214,9 @@ AstralMinimap = {
 		},
 		["Luminaxia - Outland"] = {
 		},
-		["Bullenic - Silvermoon"] = {
+		["Nibirus - Azjol-Nerub"] = {
 		},
-		["Elementior - Outland"] = {
+		["Feastthree - Outland"] = {
 		},
 	},
 }
@@ -1270,7 +1292,7 @@ AstralLists = {
 			["Lifemystica-Outland"] = true,
 			["Cbboi-Outland"] = true,
 			["Saxania-Outland"] = true,
-			["Clizer-Outland"] = true,
+			["Nitiri-Outland"] = true,
 			["Inamoira-Outland"] = true,
 			["Screwminator-Outland"] = true,
 			["Harlvar-Outland"] = true,
@@ -1280,32 +1302,32 @@ AstralLists = {
 			["Vulkore-Outland"] = true,
 			["Bamsea-Outland"] = true,
 			["Duespriest-Outland"] = true,
-			["Birdynamnam-Outland"] = true,
-			["Schwífty-Outland"] = true,
+			["Creadhunter-Outland"] = true,
 			["Spawncro-Outland"] = true,
+			["Schwífty-Outland"] = true,
 			["Bjørné-Outland"] = true,
 			["Necrophagus-Outland"] = true,
 			["Nénhalla-Outland"] = true,
 			["Moorindaal-Outland"] = true,
 			["Drakoo-Outland"] = true,
 			["Maaiiky-Outland"] = true,
-			["Berìuz-Outland"] = true,
-			["Niinaa-Outland"] = true,
-			["Nessx-Outland"] = true,
+			["Cusimworthit-Outland"] = true,
+			["Soous-Outland"] = true,
+			["Malfuryion-Outland"] = true,
 			["Cieryn-Outland"] = true,
-			["Wildfury-Outland"] = true,
-			["Tuàh-Outland"] = true,
+			["Darkbetty-Outland"] = true,
+			["Níghtlíghtz-Outland"] = true,
 			["Zypres-Outland"] = true,
 			["Posco-Outland"] = true,
-			["Fandryn-Outland"] = true,
-			["Koulix-Outland"] = true,
 			["Drflash-Outland"] = true,
+			["Koulix-Outland"] = true,
+			["Fandryn-Outland"] = true,
 			["Gingiitwo-Outland"] = true,
-			["Creaddk-Outland"] = true,
-			["Oakenhide-Outland"] = true,
+			["Neitipikkéls-Outland"] = true,
+			["Elixyyr-Outland"] = true,
 			["Soultone-Outland"] = true,
 			["Itlandir-Outland"] = true,
-			["Zeldax-Outland"] = true,
+			["Oakenhide-Outland"] = true,
 			["Deathbyday-Outland"] = true,
 			["Typhion-Outland"] = true,
 			["Shamandalie-Outland"] = true,
@@ -1313,112 +1335,112 @@ AstralLists = {
 			["Wizzardgirl-Outland"] = true,
 			["Yedder-Outland"] = true,
 			["Darnius-Outland"] = true,
-			["Bigzé-Outland"] = true,
 			["Kalishtra-Outland"] = true,
-			["Drunkhomer-Outland"] = true,
+			["Bigzé-Outland"] = true,
+			["Orvakill-Outland"] = true,
 			["Shruggs-Outland"] = true,
 			["Tinkerplyzz-Outland"] = true,
 			["Deanni-Outland"] = true,
 			["Lûc-Outland"] = true,
-			["Deszczyk-Outland"] = true,
-			["Misspickles-Outland"] = true,
+			["Mianaai-Outland"] = true,
+			["Karamfilchi-Outland"] = true,
 			["Bambambigelo-Outland"] = true,
-			["Mesmero-Outland"] = true,
+			["Baldbull-Outland"] = true,
 			["Oldmandruid-Outland"] = true,
 			["Itsfrost-Outland"] = true,
-			["Verias-Outland"] = true,
+			["Mesmero-Outland"] = true,
 			["Maaiky-Outland"] = true,
 			["Moorindal-Outland"] = true,
 			["Mídníghtz-Outland"] = true,
 			["Rorogi-Outland"] = true,
-			["Gindruid-Outland"] = true,
 			["Lereniel-Outland"] = true,
-			["Alugren-Outland"] = true,
-			["Mafyol-Outland"] = true,
+			["Gindruid-Outland"] = true,
+			["Brucebrews-Outland"] = true,
 			["Rullgardin-Outland"] = true,
-			["Dûk-Outland"] = true,
-			["Duesmonk-Outland"] = true,
 			["Voidshifer-Outland"] = true,
+			["Dûk-Outland"] = true,
+			["Mujitzu-Outland"] = true,
+			["Mafyol-Outland"] = true,
 			["Wildmistfury-Outland"] = true,
-			["Valsheres-Outland"] = true,
-			["Keydepleter-Outland"] = true,
+			["Nureyev-Outland"] = true,
+			["Monroè-Outland"] = true,
 			["Dûr-Outland"] = true,
 			["Hotsforsale-Outland"] = true,
 			["Eluitha-Outland"] = true,
-			["Serinïty-Outland"] = true,
-			["Dwalewyth-Outland"] = true,
+			["Specialguest-Outland"] = true,
+			["Keydepleter-Outland"] = true,
 			["Doksan-Outland"] = true,
 			["Lightmystica-Outland"] = true,
-			["Specialguest-Outland"] = true,
-			["Eluith-Outland"] = true,
-			["Tytties-Outland"] = true,
+			["Serinïty-Outland"] = true,
+			["Tytt-Outland"] = true,
+			["Dues-Outland"] = true,
 			["Bowerdk-Outland"] = true,
-			["Thanàtos-Outland"] = true,
-			["Beradorn-Outland"] = true,
-			["Greybeard-Outland"] = true,
-			["Kickhisass-Outland"] = true,
+			["Totemgirl-Outland"] = true,
+			["Malseman-Outland"] = true,
+			["Hávocado-Outland"] = true,
+			["Rövlappen-Outland"] = true,
 			["Ironbllek-Outland"] = true,
 			["Thuulsadoom-Outland"] = true,
 			["Fistinmidget-Outland"] = true,
 			["Mackinz-Outland"] = true,
-			["Hávocado-Outland"] = true,
+			["Greybeard-Outland"] = true,
 			["Kínghippo-Outland"] = true,
-			["Slurphurp-Outland"] = true,
-			["Bólvár-Outland"] = true,
-			["Shuggs-Outland"] = true,
-			["Leedr-Outland"] = true,
-			["Orvalleke-Outland"] = true,
-			["Liubei-Outland"] = true,
-			["Aldorien-Outland"] = true,
-			["Alatheya-Outland"] = true,
-			["Oziah-Outland"] = true,
-			["Sû-Outland"] = true,
-			["Lychea-Outland"] = true,
-			["Huolong-Outland"] = true,
-			["Velena-Outland"] = true,
-			["Jäéger-Outland"] = true,
-			["Hskll-Outland"] = true,
 			["Gingii-Outland"] = true,
-			["Rövlappen-Outland"] = true,
+			["Bólvár-Outland"] = true,
+			["Hskll-Outland"] = true,
+			["Leedr-Outland"] = true,
+			["Jäéger-Outland"] = true,
+			["Velena-Outland"] = true,
+			["Huolong-Outland"] = true,
+			["Lychea-Outland"] = true,
+			["Alatheya-Outland"] = true,
+			["Sû-Outland"] = true,
+			["Oziah-Outland"] = true,
+			["Aldorien-Outland"] = true,
+			["Liubei-Outland"] = true,
+			["Orvalleke-Outland"] = true,
+			["Shuggs-Outland"] = true,
+			["Slurphurp-Outland"] = true,
+			["Kickhisass-Outland"] = true,
 			["Stiefbrúder-Outland"] = true,
-			["Malseman-Outland"] = true,
-			["Totemgirl-Outland"] = true,
-			["Dues-Outland"] = true,
-			["Tytt-Outland"] = true,
+			["Beradorn-Outland"] = true,
+			["Thanàtos-Outland"] = true,
+			["Tytties-Outland"] = true,
+			["Eluith-Outland"] = true,
 			["Druidhelive-Outland"] = true,
-			["Monroè-Outland"] = true,
-			["Nureyev-Outland"] = true,
-			["Mujitzu-Outland"] = true,
+			["Dwalewyth-Outland"] = true,
+			["Valsheres-Outland"] = true,
+			["Duesmonk-Outland"] = true,
 			["Kasdeya-Outland"] = true,
 			["Creadmonk-Outland"] = true,
-			["Brucebrews-Outland"] = true,
+			["Alugren-Outland"] = true,
 			["Zeverin-Outland"] = true,
 			["Måneskin-Outland"] = true,
 			["Venatrixa-Outland"] = true,
-			["Baldbull-Outland"] = true,
-			["Karamfilchi-Outland"] = true,
-			["Mianaai-Outland"] = true,
+			["Verias-Outland"] = true,
+			["Misspickles-Outland"] = true,
+			["Deszczyk-Outland"] = true,
 			["Maxicat-Outland"] = true,
-			["Orvakill-Outland"] = true,
+			["Drunkhomer-Outland"] = true,
 			["Boompóp-Outland"] = true,
 			["Netflixx-Outland"] = true,
 			["Dustbringer-Outland"] = true,
-			["Elixyyr-Outland"] = true,
-			["Neitipikkéls-Outland"] = true,
+			["Zeldax-Outland"] = true,
+			["Creaddk-Outland"] = true,
 			["Phaebe-Outland"] = true,
 			["Helive-Outland"] = true,
-			["Níghtlíghtz-Outland"] = true,
-			["Darkbetty-Outland"] = true,
-			["Malfuryion-Outland"] = true,
-			["Soous-Outland"] = true,
-			["Cusimworthit-Outland"] = true,
+			["Tuàh-Outland"] = true,
+			["Wildfury-Outland"] = true,
+			["Nessx-Outland"] = true,
+			["Niinaa-Outland"] = true,
+			["Berìuz-Outland"] = true,
 			["Marílyn-Outland"] = true,
 			["Prco-Outland"] = true,
-			["Creadhunter-Outland"] = true,
+			["Birdynamnam-Outland"] = true,
 			["Psychocat-Outland"] = true,
 			["Apustajahunu-Outland"] = true,
 			["Thetruck-Outland"] = true,
-			["Nitiri-Outland"] = true,
+			["Clizer-Outland"] = true,
 		},
 	}, -- [1]
 	{
