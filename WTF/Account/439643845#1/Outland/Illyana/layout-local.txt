@@ -83,9 +83,3 @@ X: 0
 Y: 0
 W: 300
 H: 300
-Frame: AllTheThings-Window-ATT > Outdoor Zones > The Shadowlands > Revendreth > Treasure Chest > Forgotten Noble's Chest > ForgFrameLevel: 1
-Anchor: CENTER
-X: 0
-Y: 0
-W: 300
-H: 300
