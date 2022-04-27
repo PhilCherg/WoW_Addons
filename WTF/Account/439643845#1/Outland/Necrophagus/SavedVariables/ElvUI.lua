@@ -2,358 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14369:Player-1301-0AB5509A:1:4:26:22:4294967295:4294967295:4294967295:4294967295|h[Plaguefall]|h|r!", -- [1]
-			"Fuchsbáu-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fuchsbáu-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3455, -- [11]
-			"Player-1301-0AB5509A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaFuchsbáu|r",
-			[51] = 1651000489,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [1]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:15254:Player-1301-096AE5A8:1:4:26:22:4294967295:4294967295:4294967295:4294967295|h[The Jailer's Gauntlet: Layer 4]|h|r!", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3467, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1651000561,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [2]
-		{
-			"GJ guys :)", -- [1]
-			"Rudis-BurningLegion", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rudis-BurningLegion", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3474, -- [11]
-			"Player-3713-0A706788", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Rudis-BurningLegion|r",
-			[51] = 1651000568,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [3]
-		{
-			"boom gg", -- [1]
-			"Poxytitz-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Poxytitz-Ravencrest", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3475, -- [11]
-			"Player-1329-06F9973F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Poxytitz-Ravencrest|r",
-			[51] = 1651000571,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [4]
-		{
-			"GG", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3476, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1651000571,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [5]
-		{
-			"lvl 5?", -- [1]
-			"Poxytitz-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Poxytitz-Ravencrest", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3482, -- [11]
-			"Player-1329-06F9973F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Poxytitz-Ravencrest|r",
-			[51] = 1651000585,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [6]
-		{
-			"im game", -- [1]
-			"Makaveliuk-Moonglade", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Makaveliuk-Moonglade", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3489, -- [11]
-			"Player-1085-06A253BA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edMakaveliuk-Moonglade|r",
-			[51] = 1651000591,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [7]
-		{
-			"yeah", -- [1]
-			"Poxytitz-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Poxytitz-Ravencrest", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3491, -- [11]
-			"Player-1329-06F9973F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Poxytitz-Ravencrest|r",
-			[51] = 1651000597,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [8]
-		{
-			"same", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3492, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1651000602,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [9]
-		{
-			"tank?", -- [1]
-			"Poxytitz-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Poxytitz-Ravencrest", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3493, -- [11]
-			"Player-1329-06F9973F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Poxytitz-Ravencrest|r",
-			[51] = 1651000612,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [10]
-		{
-			"meow", -- [1]
-			"Mesra-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3494, -- [11]
-			"Player-1301-087ACDBB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Mesra|r",
-			[51] = 1651000618,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [11]
-		{
-			"need this and can get my legendary", -- [1]
-			"Poxytitz-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Poxytitz-Ravencrest", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3496, -- [11]
-			"Player-1329-06F9973F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Poxytitz-Ravencrest|r",
-			[51] = 1651000637,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [12]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:6105:Player-1301-0B27E1B3:1:4:26:22:4294967295:4294967295:4294967295:4294967295|h[Deck Defender]|h|r!", -- [1]
-			"Karroun-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Karroun-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3501, -- [11]
-			"Player-1301-0B27E1B3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Karroun|r",
-			[51] = 1651000648,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [13]
-		{
-			"im done ty", -- [1]
-			"Rudis-BurningLegion", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rudis-BurningLegion", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3502, -- [11]
-			"Player-3713-0A706788", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Rudis-BurningLegion|r",
-			[51] = 1651000654,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [14]
-		{
-			"++", -- [1]
-			"Santox-Nemesis", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Santox-Nemesis", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3503, -- [11]
-			"Player-1316-049AB0AB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeSantox-Nemesis|r",
-			[51] = 1651000658,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [15]
-		{
-			"blessed be her voice", -- [1]
-			"Cocowitch-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3504, -- [11]
-			"Player-1301-0BC2795E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Cocowitch|r",
-			[51] = 1651000661,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [16]
-		{
 			"kk ty", -- [1]
 			"Poxytitz-Ravencrest", -- [2]
 			"", -- [3]
@@ -374,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Poxytitz-Ravencrest|r",
 			[51] = 1651000662,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [17]
+		}, -- [1]
 		{
 			"or...", -- [1]
 			"Rudis-BurningLegion", -- [2]
@@ -396,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rudis-BurningLegion|r",
 			[51] = 1651000677,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [18]
+		}, -- [2]
 		{
 			"hold on, tank you staying?", -- [1]
 			"Poxytitz-Ravencrest", -- [2]
@@ -418,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Poxytitz-Ravencrest|r",
 			[51] = 1651000711,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [19]
+		}, -- [3]
 		{
 			"make sure theyve done level four please", -- [1]
 			"Makaveliuk-Moonglade", -- [2]
@@ -440,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edMakaveliuk-Moonglade|r",
 			[51] = 1651000713,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [20]
+		}, -- [4]
 		{
 			"yea im  staying", -- [1]
 			"Rudis-BurningLegion", -- [2]
@@ -462,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rudis-BurningLegion|r",
 			[51] = 1651000722,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [21]
+		}, -- [5]
 		{
 			"just need heal?", -- [1]
 			"Poxytitz-Ravencrest", -- [2]
@@ -484,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Poxytitz-Ravencrest|r",
 			[51] = 1651000723,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [22]
+		}, -- [6]
 		{
 			"kk", -- [1]
 			"Poxytitz-Ravencrest", -- [2]
@@ -506,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Poxytitz-Ravencrest|r",
 			[51] = 1651000725,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [23]
+		}, -- [7]
 		{
 			"wow |cffa335ee|Hitem:178754::::::::60:269::35:5:7811:7359:43:1582:6646::::::|h[Poxstorm, Longsword of Pestilence]|h|r", -- [1]
 			"Cocowitch-Outland", -- [2]
@@ -528,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Cocowitch|r",
 			[51] = 1651000749,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [24]
+		}, -- [8]
 		{
 			"gz", -- [1]
 			"Mackinz-Outland", -- [2]
@@ -550,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edMackinz|r",
 			[51] = 1651000760,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [25]
+		}, -- [9]
 		{
 			"shouldnt we get the mount?", -- [1]
 			"Rudis-BurningLegion", -- [2]
@@ -572,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rudis-BurningLegion|r",
 			[51] = 1651000780,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [26]
+		}, -- [10]
 		{
 			"yes", -- [1]
 			"Poxytitz-Ravencrest", -- [2]
@@ -594,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Poxytitz-Ravencrest|r",
 			[51] = 1651000789,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [27]
+		}, -- [11]
 		{
 			"dont think i have it ?", -- [1]
 			"Rudis-BurningLegion", -- [2]
@@ -616,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rudis-BurningLegion|r",
 			[51] = 1651000809,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [28]
+		}, -- [12]
 		{
 			"you get it in the collection automatically", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -638,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1651000815,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [29]
+		}, -- [13]
 		{
 			"hmm yeah i got nothing in my bag", -- [1]
 			"Poxytitz-Ravencrest", -- [2]
@@ -660,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Poxytitz-Ravencrest|r",
 			[51] = 1651000816,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [30]
+		}, -- [14]
 		{
 			"ahh", -- [1]
 			"Poxytitz-Ravencrest", -- [2]
@@ -682,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Poxytitz-Ravencrest|r",
 			[51] = 1651000820,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [31]
+		}, -- [15]
 		{
 			"can some one inv  my friend please? :)", -- [1]
 			"Fuchsbáu-Outland", -- [2]
@@ -704,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFuchsbáu|r",
 			[51] = 1651000839,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [32]
+		}, -- [16]
 		{
 			"Wakkie", -- [1]
 			"Fuchsbáu-Outland", -- [2]
@@ -726,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFuchsbáu|r",
 			[51] = 1651000844,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [33]
+		}, -- [17]
 		{
 			"bakkie", -- [1]
 			"Profarts-Outland", -- [2]
@@ -748,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edProfarts|r",
 			[51] = 1651000864,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [34]
+		}, -- [18]
 		{
 			"ok got it i think", -- [1]
 			"Rudis-BurningLegion", -- [2]
@@ -770,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rudis-BurningLegion|r",
 			[51] = 1651000866,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [35]
+		}, -- [19]
 		{
 			"hey", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -792,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1651000877,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [36]
+		}, -- [20]
 		{
 			"yo ", -- [1]
 			"Poxytitz-Ravencrest", -- [2]
@@ -814,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Poxytitz-Ravencrest|r",
 			[51] = 1651000881,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [37]
+		}, -- [21]
 		{
 			"you got lvl 4", -- [1]
 			"Poxytitz-Ravencrest", -- [2]
@@ -836,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Poxytitz-Ravencrest|r",
 			[51] = 1651000885,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [38]
+		}, -- [22]
 		{
 			"yes", -- [1]
 			"Chouptti-Archimonde", -- [2]
@@ -858,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Chouptti-Archimonde|r",
 			[51] = 1651000896,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [39]
+		}, -- [23]
 		{
 			"got this 1 as well |cff71d5ff|Hspell:368128:0|h[Colossal Wraithbound Mawrat]|h|r", -- [1]
 			"Rudis-BurningLegion", -- [2]
@@ -880,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rudis-BurningLegion|r",
 			[51] = 1651000897,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [40]
+		}, -- [24]
 		{
 			"nice", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -902,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1651000910,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [41]
+		}, -- [25]
 		{
 			"that one was annoying to farm", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -924,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1651000915,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [42]
+		}, -- [26]
 		{
 			"from the chest lol", -- [1]
 			"Rudis-BurningLegion", -- [2]
@@ -946,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rudis-BurningLegion|r",
 			[51] = 1651000915,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [43]
+		}, -- [27]
 		{
 			"|cff71d5ff|Hspell:363178:0|h[Colossal Umbrahide Mawrat]|h|r", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -968,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1651000936,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [44]
+		}, -- [28]
 		{
 			"and so was this one", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -990,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1651000939,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [45]
+		}, -- [29]
 		{
 			"help me sum monk", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1012,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1651000972,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [46]
+		}, -- [30]
 		{
 			"im coming", -- [1]
 			"Chouptti-Archimonde", -- [2]
@@ -1034,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Chouptti-Archimonde|r",
 			[51] = 1651000982,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [47]
+		}, -- [31]
 		{
 			"oo one sec, just nipping to the loo", -- [1]
 			"Poxytitz-Ravencrest", -- [2]
@@ -1056,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Poxytitz-Ravencrest|r",
 			[51] = 1651001100,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [48]
+		}, -- [32]
 		{
 			"lock focus everything on infernals and pets btw", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1078,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1651001118,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [49]
+		}, -- [33]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14414:Player-1301-0C2D72AC:1:4:26:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Plaguefall]|h|r!", -- [1]
 			"Xeifer-Outland", -- [2]
@@ -1100,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edXeifer|r",
 			[51] = 1651001129,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [50]
+		}, -- [34]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14415:Player-1301-0C2D72AC:1:4:26:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Plaguefall]|h|r!", -- [1]
 			"Xeifer-Outland", -- [2]
@@ -1122,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edXeifer|r",
 			[51] = 1651001129,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [51]
+		}, -- [35]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:11162:Player-1301-0B3AE8FC:1:4:26:22:4294967295:4294967295:4294967295:4294967295|h[Keystone Master]|h|r!", -- [1]
 			"Veltn-Outland", -- [2]
@@ -1144,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeVeltn|r",
 			[51] = 1651001368,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [52]
+		}, -- [36]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:647:Player-1301-0C2F36A9:1:4:26:22:4294967295:4294967295:4294967295:4294967295|h[Hellfire Ramparts]|h|r!", -- [1]
 			"Dizzledorf-Outland", -- [2]
@@ -1166,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Dizzledorf|r",
 			[51] = 1651001380,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [53]
+		}, -- [37]
 		{
 			"Anyone wanna join |cffa335ee|Hkeystone:180653:379:17:10:6:13:130|h[Keystone: Plaguefall (17)]|h|r?", -- [1]
 			"Tascheris-Outland", -- [2]
@@ -1188,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Tascheris|r",
 			[51] = 1651001399,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [54]
+		}, -- [38]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:4956:Player-1301-0C2F36A9:1:4:26:22:4294967295:4294967295:4294967295:4294967295|h[5 Dungeon Quests Completed]|h|r!", -- [1]
 			"Dizzledorf-Outland", -- [2]
@@ -1210,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Dizzledorf|r",
 			[51] = 1651001442,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [55]
+		}, -- [39]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15496:Player-1301-076FB3AA:1:4:26:22:4294967295:4294967295:4294967295:4294967295|h[Shadowlands Keystone Explorer: Season Three]|h|r!", -- [1]
 			"Valadrie-Outland", -- [2]
@@ -1232,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaValadrie|r",
 			[51] = 1651001614,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [56]
+		}, -- [40]
 		{
 			"i think i gotta go, sorry guys", -- [1]
 			"Makaveliuk-Moonglade", -- [2]
@@ -1254,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edMakaveliuk-Moonglade|r",
 			[51] = 1651001614,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [57]
+		}, -- [41]
 		{
 			"?", -- [1]
 			"Chouptti-Archimonde", -- [2]
@@ -1276,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Chouptti-Archimonde|r",
 			[51] = 1651001628,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [58]
+		}, -- [42]
 		{
 			"will it resclae when he leaves?", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1298,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1651001638,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [59]
+		}, -- [43]
 		{
 			"rescale*", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1320,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1651001643,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [60]
+		}, -- [44]
 		{
 			"pffffffffff", -- [1]
 			"Chouptti-Archimonde", -- [2]
@@ -1342,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Chouptti-Archimonde|r",
 			[51] = 1651001654,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [61]
+		}, -- [45]
 		{
 			"if yes we good", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1364,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1651001660,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [62]
+		}, -- [46]
 		{
 			"he had no dmg anyways", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1386,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1651001663,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [63]
+		}, -- [47]
 		{
 			"he has no dps", -- [1]
 			"Chouptti-Archimonde", -- [2]
@@ -1408,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Chouptti-Archimonde|r",
 			[51] = 1651001664,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [64]
+		}, -- [48]
 		{
 			"just upscaling their hp", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1430,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1651001669,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [65]
+		}, -- [49]
 		{
 			"i hope its rescale", -- [1]
 			"Chouptti-Archimonde", -- [2]
@@ -1452,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Chouptti-Archimonde|r",
 			[51] = 1651001683,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [66]
+		}, -- [50]
 		{
 			"oooh i got long infernals", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1474,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1651001690,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [67]
+		}, -- [51]
 		{
 			"huge", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1496,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1651001695,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [68]
+		}, -- [52]
 		{
 			"1min", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1518,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1651001696,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [69]
+		}, -- [53]
 		{
 			"any plate crafter online?", -- [1]
 			"Euph-Outland", -- [2]
@@ -1540,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cEuph|r",
 			[51] = 1651001760,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [70]
+		}, -- [54]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:908:Player-1301-098D1CD5:1:4:26:22:4294967295:4294967295:4294967295:4294967295|h[Call to Arms!]|h|r!", -- [1]
 			"Zollelthal-Outland", -- [2]
@@ -1562,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Zollelthal|r",
 			[51] = 1651001766,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [71]
+		}, -- [55]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14186:Player-1301-098D1CD5:1:4:26:22:4294967295:4294967295:4294967295:4294967295|h[Market Dominance]|h|r!", -- [1]
 			"Zollelthal-Outland", -- [2]
@@ -1584,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Zollelthal|r",
 			[51] = 1651001767,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [72]
+		}, -- [56]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14370:Player-1301-0AB5509A:1:4:26:22:4294967295:4294967295:4294967295:4294967295|h[Halls of Atonement]|h|r!", -- [1]
 			"Fuchsbáu-Outland", -- [2]
@@ -1606,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFuchsbáu|r",
 			[51] = 1651001778,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [73]
+		}, -- [57]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10678:Player-1301-0C2A2D46:1:4:26:22:4294967295:4294967295:4294967295:4294967295|h[Cage Rematch]|h|r!", -- [1]
 			"Negurche-Outland", -- [2]
@@ -1628,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNegurche|r",
 			[51] = 1651001805,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [74]
+		}, -- [58]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10829:Player-1301-0C2A2D46:1:4:26:22:4294967295:4294967295:4294967295:4294967295|h[Arcing Aqueducts]|h|r!", -- [1]
 			"Negurche-Outland", -- [2]
@@ -1650,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNegurche|r",
 			[51] = 1651002021,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [75]
+		}, -- [59]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10742:Player-1301-0C2A2D46:1:4:26:22:4294967295:4294967295:4294967295:4294967295|h[Gluten Free]|h|r!", -- [1]
 			"Negurche-Outland", -- [2]
@@ -1672,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNegurche|r",
 			[51] = 1651002021,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [76]
+		}, -- [60]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15349:Player-1301-0BD5F36F:1:4:26:22:4294967295:4294967295:4294967295:4294967295|h[Challenger I: Shadowlands Season 3]|h|r!", -- [1]
 			"Twoßeautiful-Outland", -- [2]
@@ -1694,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Twoßeautiful|r",
 			[51] = 1651002143,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [77]
+		}, -- [61]
 		{
 			"oof", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1716,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1651002154,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [78]
+		}, -- [62]
 		{
 			"well :)", -- [1]
 			"Rudis-BurningLegion", -- [2]
@@ -1738,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rudis-BurningLegion|r",
 			[51] = 1651002175,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [79]
+		}, -- [63]
 		{
 			"fml", -- [1]
 			"Poxytitz-Ravencrest", -- [2]
@@ -1760,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Poxytitz-Ravencrest|r",
 			[51] = 1651002195,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [80]
+		}, -- [64]
 		{
 			"this is definitely doable tho", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1782,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1651002202,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [81]
+		}, -- [65]
 		{
 			"yeah", -- [1]
 			"Poxytitz-Ravencrest", -- [2]
@@ -1804,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Poxytitz-Ravencrest|r",
 			[51] = 1651002207,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [82]
+		}, -- [66]
 		{
 			"its just the warlock dealt less dmg than my pet auto attacks", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1826,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1651002211,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [83]
+		}, -- [67]
 		{
 			"ok guys thx for run :)", -- [1]
 			"Rudis-BurningLegion", -- [2]
@@ -1848,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rudis-BurningLegion|r",
 			[51] = 1651002212,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [84]
+		}, -- [68]
 		{
 			"get another dps", -- [1]
 			"Poxytitz-Ravencrest", -- [2]
@@ -1870,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Poxytitz-Ravencrest|r",
 			[51] = 1651002212,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [85]
+		}, -- [69]
 		{
 			"240 ilvl is not enoug for L5 ;)", -- [1]
 			"Chouptti-Archimonde", -- [2]
@@ -1892,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Chouptti-Archimonde|r",
 			[51] = 1651002214,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [86]
+		}, -- [70]
 		{
 			"mhm", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1914,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1651002217,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [87]
+		}, -- [71]
 		{
 			"yeah i only dinged 60 yesterday", -- [1]
 			"Poxytitz-Ravencrest", -- [2]
@@ -1936,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Poxytitz-Ravencrest|r",
 			[51] = 1651002234,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [88]
+		}, -- [72]
 		{
 			"thanks for the run guys, cya :D", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1958,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1651002234,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [89]
+		}, -- [73]
 		{
 			"you wanna try again ?", -- [1]
 			"Rudis-BurningLegion", -- [2]
@@ -1980,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rudis-BurningLegion|r",
 			[51] = 1651002241,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [90]
+		}, -- [74]
 		{
 			"yeah", -- [1]
 			"Poxytitz-Ravencrest", -- [2]
@@ -2002,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Poxytitz-Ravencrest|r",
 			[51] = 1651002244,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [91]
+		}, -- [75]
 		{
 			"no ty", -- [1]
 			"Chouptti-Archimonde", -- [2]
@@ -2024,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Chouptti-Archimonde|r",
 			[51] = 1651002246,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [92]
+		}, -- [76]
 		{
 			"hehe", -- [1]
 			"Rudis-BurningLegion", -- [2]
@@ -2046,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rudis-BurningLegion|r",
 			[51] = 1651002249,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [93]
+		}, -- [77]
 		{
 			"cya", -- [1]
 			"Chouptti-Archimonde", -- [2]
@@ -2068,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Chouptti-Archimonde|r",
 			[51] = 1651002249,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [94]
+		}, -- [78]
 		{
 			"for me its getting kinda late", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -2090,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1651002250,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [95]
+		}, -- [79]
 		{
 			"ok", -- [1]
 			"Rudis-BurningLegion", -- [2]
@@ -2112,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rudis-BurningLegion|r",
 			[51] = 1651002251,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [96]
+		}, -- [80]
 		{
 			"imma go", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -2134,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1651002252,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [97]
+		}, -- [81]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15241:Player-1301-0B42A3D7:1:4:26:22:4294967295:4294967295:4294967295:4294967295|h[Renowned]|h|r!", -- [1]
 			"Lyneheym-Outland", -- [2]
@@ -2156,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Lyneheym|r",
 			[51] = 1651002300,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [98]
+		}, -- [82]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10837:Player-1301-0C2A2D46:1:4:26:22:4294967295:4294967295:4294967295:4294967295|h[Royal Athenaeum]|h|r!", -- [1]
 			"Negurche-Outland", -- [2]
@@ -2178,29 +1826,381 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNegurche|r",
 			[51] = 1651002444,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [83]
+		{
+			"Any helpers for |cffa335ee|Hkeystone:180653:376:9:10:6:13:0|h[Keystone: The Necrotic Wake (9)]|h|r?", -- [1]
+			"Øe-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			28, -- [11]
+			"Player-1301-07FD471E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Øe|r",
+			[51] = 1651009339,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [84]
+		{
+			"any tank for mists 18?", -- [1]
+			"Astrø-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			74, -- [11]
+			"Player-1301-0C0E457A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Astrø|r",
+			[51] = 1651009867,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [85]
+		{
+			"!keys", -- [1]
+			"Mercuil-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			89, -- [11]
+			"Player-1301-0BD15041", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Mercuil|r",
+			[51] = 1651010009,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [86]
+		{
+			"Astral Keys: |cffa335ee|Hkeystone:180653:381:24:10:6:13:130|h[Keystone: Spires of Ascension (24)]|h|r (Kyrian)", -- [1]
+			"Nessx-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			90, -- [11]
+			"Player-1301-0C11751F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Nessx|r",
+			[51] = 1651010009,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [87]
+		{
+			"Astral Keys: |cffa335ee|Hkeystone:180653:391:23:10:6:13:130|h[Keystone: Tazavesh: Streets of Wonder (23)]|h|r (Venthyr)", -- [1]
+			"Helive-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			91, -- [11]
+			"Player-1301-0C0F59BA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Helive|r",
+			[51] = 1651010009,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [88]
+		{
+			"Astral Keys: |cffa335ee|Hkeystone:180653:375:16:10:6:13:130|h[Keystone: Mists of Tirna Scithe (16)]|h|r (Kyrian)", -- [1]
+			"Mercuil-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			92, -- [11]
+			"Player-1301-0BD15041", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Mercuil|r",
+			[51] = 1651010009,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [89]
+		{
+			"Astral Keys: |cffa335ee|Hkeystone:180653:379:11:10:6:13:130|h[Keystone: Plaguefall (11)]|h|r (Necrolord)", -- [1]
+			"Cieryn-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			93, -- [11]
+			"Player-1301-0A53983A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeCieryn|r",
+			[51] = 1651010009,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [90]
+		{
+			"Virathus |cffa335ee|Hkeystone:180653:379:23:10:6:13:130|h[Keystone: Plaguefall (23)]|h|r", -- [1]
+			"Virathus-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			94, -- [11]
+			"Player-1301-0B120A34", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Virathus|r",
+			[51] = 1651010009,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [91]
+		{
+			"Astral Keys: |cffa335ee|Hkeystone:180653:378:10:10:6:13:130|h[Keystone: Halls of Atonement (10)]|h|r (Night Fae)", -- [1]
+			"Maaiiky-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			95, -- [11]
+			"Player-1301-0C28D304", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edMaaiiky|r",
+			[51] = 1651010009,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [92]
+		{
+			"|cffa335ee|Hkeystone:180653:378:16:10:6:13:130|h[Keystone: Halls of Atonement (16)]|h|r", -- [1]
+			"Xremac-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			96, -- [11]
+			"Player-1301-09163B61", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Xremac|r",
+			[51] = 1651010009,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [93]
+		{
+			"Astral Keys: |cffa335ee|Hkeystone:180653:380:18:10:6:13:130|h[Keystone: Sanguine Depths (18)]|h|r (Night Fae)", -- [1]
+			"Inamoira-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			97, -- [11]
+			"Player-1301-0C282752", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Inamoira|r",
+			[51] = 1651010009,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [94]
+		{
+			"Virathus |cffa335ee|Hkeystone:180653:379:23:10:6:13:130|h[Keystone: Plaguefall (23)]|h|r", -- [1]
+			"Virathus-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			98, -- [11]
+			"Player-1301-0B120A34", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Virathus|r",
+			[51] = 1651010009,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [95]
+		{
+			"|cffa335ee|Hkeystone:180653:380:14:10:6:13:130|h[Keystone: Sanguine Depths (14)]|h|r", -- [1]
+			"Xeifer-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			99, -- [11]
+			"Player-1301-0C2D72AC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edXeifer|r",
+			[51] = 1651010009,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [96]
+		{
+			"|cffa335ee|Hkeystone:180653:376:19:10:6:13:130|h[Keystone: The Necrotic Wake (19)]|h|r (Necrolord)", -- [1]
+			"Carbons-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			100, -- [11]
+			"Player-1301-0BF92332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaCarbons|r",
+			[51] = 1651010009,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [97]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:199:Player-1301-08B8DC46:1:4:27:22:4294967295:4294967295:4294967295:4294967295|h[Capture the Flag]|h|r!", -- [1]
+			"Espina-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Espina-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			222, -- [11]
+			"Player-1301-08B8DC46", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Espina|r",
+			[51] = 1651010269,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [98]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:504:Player-1301-0C2EE952:1:4:27:22:4294967295:4294967295:4294967295:4294967295|h[100 Quests Completed]|h|r!", -- [1]
+			"Scottie-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Scottie-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			342, -- [11]
+			"Player-1301-0C2EE952", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Scottie|r",
+			[51] = 1651010696,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/p that one was annoying to farm", -- [1]
-		"/p |cff71d5ff|Hspell:363178:0|h[Colossal Umbrahide Mawrat]|h|r", -- [2]
-		"/p and so was this one", -- [3]
-		"/p help me sum monk", -- [4]
-		"/p lock focus everything on infernals and pets btw", -- [5]
-		"/p will it resclae when he leaves?", -- [6]
-		"/p rescale*", -- [7]
-		"/p if yes we good", -- [8]
-		"/p he had no dmg anyways", -- [9]
-		"/p just upscaling their hp", -- [10]
-		"/p oooh i got long infernals", -- [11]
-		"/p huge", -- [12]
-		"/p 1min", -- [13]
-		"/p oof", -- [14]
-		"/p this is definitely doable tho", -- [15]
-		"/p its just the warlock dealt less dmg than my pet auto attacks", -- [16]
-		"/p mhm", -- [17]
-		"/p thanks for the run guys, cya :D", -- [18]
-		"/p for me its getting kinda late", -- [19]
-		"/p imma go", -- [20]
+		"/p |cff71d5ff|Hspell:363178:0|h[Colossal Umbrahide Mawrat]|h|r", -- [1]
+		"/p help me sum monk", -- [2]
+		"/p will it resclae when he leaves?", -- [3]
+		"/p if yes we good", -- [4]
+		"/p just upscaling their hp", -- [5]
+		"/p huge", -- [6]
+		"/p oof", -- [7]
+		"/p its just the warlock dealt less dmg than my pet auto attacks", -- [8]
+		"/p thanks for the run guys, cya :D", -- [9]
+		"/p imma go", -- [10]
+		"/p and so was this one", -- [11]
+		"/p rescale*", -- [12]
+		"/p oooh i got long infernals", -- [13]
+		"/p this is definitely doable tho", -- [14]
+		"/p for me its getting kinda late", -- [15]
+		"/p lock focus everything on infernals and pets btw", -- [16]
+		"/p 1min", -- [17]
+		"/p that one was annoying to farm", -- [18]
+		"/p mhm", -- [19]
+		"/p he had no dmg anyways", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }

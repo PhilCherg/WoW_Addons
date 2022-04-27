@@ -117,17 +117,32 @@ BWQDB = {
 				["name"] = "Default",
 				["list"] = {
 				},
-				["pin"] = {
-				},
 				["external"] = {
 					["TomTom"] = {
 					},
+				},
+				["pin"] = {
 				},
 				["general"] = {
 					["useLFGButtons"] = true,
 					["sortBy"] = 7,
 				},
 				["filters"] = {
+					[3] = {
+						["flags"] = {
+							["Conduits"] = false,
+							["Honor"] = false,
+							["Reputation"] = false,
+							["Experience"] = false,
+							["Currency"] = false,
+							["Item"] = false,
+							["Gold"] = false,
+							["Armor"] = false,
+							["Relic"] = false,
+							["Artifact"] = false,
+							["None"] = false,
+						},
+					},
 				},
 			},
 		},
