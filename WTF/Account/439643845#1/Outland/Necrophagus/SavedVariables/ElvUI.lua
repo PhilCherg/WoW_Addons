@@ -2,2205 +2,2205 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"1", -- [1]
-			"Kronós-Outland", -- [2]
-			"Common", -- [3]
+			"i respect it", -- [1]
+			"Stevecleave-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Kronós-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4167, -- [11]
-			"Player-1301-0BB8CFFA", -- [12]
+			0, -- [10]
+			553, -- [11]
+			"Player-1301-09EFC5AE", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Kronós|r",
-			[51] = 1651089243,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc59a6cStevecleave|r",
+			[51] = 1651097099,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [1]
 		{
-			"3", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"Common", -- [3]
+			"ofc", -- [1]
+			"Aélynthi-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4168, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			0, -- [10]
+			554, -- [11]
+			"Player-1301-0A4AD509", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1651089248,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffef367Aélynthi|r",
+			[51] = 1651097100,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [2]
 		{
-			"2", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"Common", -- [3]
+			"and aelynthi", -- [1]
+			"Stevecleave-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4170, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			0, -- [10]
+			555, -- [11]
+			"Player-1301-09EFC5AE", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1651089249,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc59a6cStevecleave|r",
+			[51] = 1651097104,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [3]
 		{
-			"1", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"Common", -- [3]
+			"anytime", -- [1]
+			"Aélynthi-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4171, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			0, -- [10]
+			556, -- [11]
+			"Player-1301-0A4AD509", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1651089250,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffef367Aélynthi|r",
+			[51] = 1651097104,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [4]
 		{
-			"{rt1}Dark Eclipse 1", -- [1]
-			"Kalulpar-Outland", -- [2]
-			"Common", -- [3]
+			"dont listen to her, she s a rogue and rogues lie", -- [1]
+			"Xremac-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Kalulpar-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4174, -- [11]
-			"Player-1301-087EA7A0", -- [12]
+			0, -- [10]
+			557, -- [11]
+			"Player-1301-09163B61", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Kalulpar|r",
-			[51] = 1651089251,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc31d39Xremac|r",
+			[51] = 1651097110,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [5]
 		{
-			"3", -- [1]
-			"Littleree-Doomhammer", -- [2]
-			"Common", -- [3]
+			"shes a queen for a reason", -- [1]
+			"Stevecleave-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Littleree-Doomhammer", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4179, -- [11]
-			"Player-1402-07E68907", -- [12]
+			0, -- [10]
+			558, -- [11]
+			"Player-1301-09EFC5AE", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaLittleree-Doomhammer|r",
-			[51] = 1651089256,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc59a6cStevecleave|r",
+			[51] = 1651097113,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [6]
 		{
-			"{rt1}Dark Eclipse 1", -- [1]
-			"Bjandyr-Outland", -- [2]
-			"Common", -- [3]
+			"<333", -- [1]
+			"Aélynthi-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Bjandyr-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4181, -- [11]
-			"Player-1301-05D79BCA", -- [12]
+			0, -- [10]
+			559, -- [11]
+			"Player-1301-0A4AD509", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Bjandyr|r",
-			[51] = 1651089262,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffef367Aélynthi|r",
+			[51] = 1651097119,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [7]
 		{
-			"3", -- [1]
-			"Bjandyr-Outland", -- [2]
-			"Common", -- [3]
+			"<3 <3", -- [1]
+			"Stevecleave-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Bjandyr-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4186, -- [11]
-			"Player-1301-05D79BCA", -- [12]
+			0, -- [10]
+			560, -- [11]
+			"Player-1301-09EFC5AE", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Bjandyr|r",
-			[51] = 1651089267,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc59a6cStevecleave|r",
+			[51] = 1651097123,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [8]
 		{
-			"ROROGI  <------PI ME *Eluitha* :D 5K GOLD EACH ", -- [1]
-			"Rorogi-Outland", -- [2]
+			"smh xrem", -- [1]
+			"Aélynthi-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rorogi", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4187, -- [11]
-			"Player-1301-0AAFAE15", -- [12]
+			561, -- [11]
+			"Player-1301-0A4AD509", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Rorogi|r",
-			[51] = 1651089268,
-			[50] = "CHAT_MSG_RAID_WARNING",
+			[52] = "|cfffef367Aélynthi|r",
+			[51] = 1651097125,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [9]
 		{
-			"ROROGI  <------PI ME *Eluitha* :D 5K GOLD EACH ", -- [1]
-			"Rorogi-Outland", -- [2]
+			"a sexman... FILM", -- [1]
+			"Haylat-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rorogi", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4188, -- [11]
-			"Player-1301-0AAFAE15", -- [12]
+			562, -- [11]
+			"Player-1301-0BC5C0F1", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Rorogi|r",
-			[51] = 1651089268,
-			[50] = "CHAT_MSG_RAID_WARNING",
+			[52] = "|cfffe7b09Haylat|r",
+			[51] = 1651097126,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [10]
 		{
-			"2", -- [1]
-			"Bjandyr-Outland", -- [2]
-			"Common", -- [3]
+			"Only fans", -- [1]
+			"Stevecleave-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Bjandyr-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4189, -- [11]
-			"Player-1301-05D79BCA", -- [12]
+			0, -- [10]
+			564, -- [11]
+			"Player-1301-09EFC5AE", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Bjandyr|r",
-			[51] = 1651089268,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc59a6cStevecleave|r",
+			[51] = 1651097133,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [11]
 		{
-			"1", -- [1]
-			"Bjandyr-Outland", -- [2]
-			"Common", -- [3]
+			"Onlyfans.com/SexMan", -- [1]
+			"Stevecleave-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Bjandyr-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4190, -- [11]
-			"Player-1301-05D79BCA", -- [12]
+			0, -- [10]
+			565, -- [11]
+			"Player-1301-09EFC5AE", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Bjandyr|r",
-			[51] = 1651089269,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc59a6cStevecleave|r",
+			[51] = 1651097142,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [12]
 		{
-			"{rt1}Dark Eclipse 1", -- [1]
-			"Rorogi-Outland", -- [2]
-			"Common", -- [3]
+			"im a rogue main, i know", -- [1]
+			"Xremac-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Rorogi-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4191, -- [11]
-			"Player-1301-0AAFAE15", -- [12]
+			0, -- [10]
+			566, -- [11]
+			"Player-1301-09163B61", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Rorogi|r",
-			[51] = 1651089273,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc31d39Xremac|r",
+			[51] = 1651097143,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [13]
 		{
-			"3", -- [1]
-			"Darkosis-Outland", -- [2]
-			"Common", -- [3]
+			"Oo", -- [1]
+			"Hotassfuo-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Darkosis-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4202, -- [11]
-			"Player-1301-05EE51ED", -- [12]
+			0, -- [10]
+			567, -- [11]
+			"Player-1301-0C130A9A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Darkosis|r",
-			[51] = 1651089286,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffe7b09Hotassfuo|r",
+			[51] = 1651097144,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [14]
 		{
-			"2", -- [1]
-			"Darkosis-Outland", -- [2]
-			"Common", -- [3]
+			"any pruane stans in the chat", -- [1]
+			"Haylat-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Darkosis-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4203, -- [11]
-			"Player-1301-05EE51ED", -- [12]
+			0, -- [10]
+			568, -- [11]
+			"Player-1301-0BC5C0F1", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Darkosis|r",
-			[51] = 1651089287,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffe7b09Haylat|r",
+			[51] = 1651097161,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [15]
 		{
-			"1", -- [1]
-			"Darkosis-Outland", -- [2]
-			"Common", -- [3]
+			"50% off for the bois", -- [1]
+			"Stevecleave-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Darkosis-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4204, -- [11]
-			"Player-1301-05EE51ED", -- [12]
+			0, -- [10]
+			569, -- [11]
+			"Player-1301-09EFC5AE", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Darkosis|r",
-			[51] = 1651089288,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc59a6cStevecleave|r",
+			[51] = 1651097161,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [16]
 		{
-			"SS on Eluith up!", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"Common", -- [3]
+			"%s has earned the achievement |cffffff00|Hachievement:12021:Player-1301-0C2A2D46:1:4:28:22:4294967295:4294967295:4294967295:4294967295|h[Claws Out]|h|r!", -- [1]
+			"Negurche-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"Negurche-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4221, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			0, -- [10]
+			571, -- [11]
+			"Player-1301-0C2A2D46", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1651089411,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff006fdcNegurche|r",
+			[51] = 1651097169,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [17]
 		{
-			"No food (0): ", -- [1]
-			"Johna-Outland", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:13553:Player-1301-0C2D72AC:1:4:28:22:4294967295:4294967295:4294967295:4294967295|h[The Mechagonian Threat]|h|r!", -- [1]
+			"Xeifer-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Johna-Outland", -- [5]
+			"Xeifer-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4224, -- [11]
-			"Player-1301-0BCD3B58", -- [12]
+			589, -- [11]
+			"Player-1301-0C2D72AC", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaJohna|r",
-			[51] = 1651089424,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff8687edXeifer|r",
+			[51] = 1651097403,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [18]
 		{
-			"No flask (0): Darkosis(1)", -- [1]
-			"Johna-Outland", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:15259:Player-1301-0BDDBA3C:1:4:28:22:4294967295:4294967295:4294967295:4294967295|h[Secrets of the First Ones]|h|r!", -- [1]
+			"Bigstaros-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Johna-Outland", -- [5]
+			"Bigstaros-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4225, -- [11]
-			"Player-1301-0BCD3B58", -- [12]
+			611, -- [11]
+			"Player-1301-0BDDBA3C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaJohna|r",
-			[51] = 1651089424,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff3ec6eaBigstaros|r",
+			[51] = 1651097500,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [19]
 		{
-			"Party Buffs All", -- [1]
-			"Johna-Outland", -- [2]
+			"anyone for", -- [1]
+			"Inamoira-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Johna-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4226, -- [11]
-			"Player-1301-0BCD3B58", -- [12]
+			615, -- [11]
+			"Player-1301-0C282752", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaJohna|r",
-			[51] = 1651089424,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfffe7b09Inamoira|r",
+			[51] = 1651097533,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [20]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:15349:Player-1301-0B1FA87A:1:4:27:22:4294967295:4294967295:4294967295:4294967295|h[Challenger I: Shadowlands Season 3]|h|r!", -- [1]
-			"Euph-Outland", -- [2]
+			"|cffa335ee|Hkeystone:180653:378:18:9:11:3:130|h[Keystone: Halls of Atonement (18)]|h|r", -- [1]
+			"Inamoira-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Euph-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4227, -- [11]
-			"Player-1301-0B1FA87A", -- [12]
+			616, -- [11]
+			"Player-1301-0C282752", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cEuph|r",
-			[51] = 1651089433,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Inamoira|r",
+			[51] = 1651097538,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [21]
 		{
-			"PI ASTRO", -- [1]
-			"Astrø-Outland", -- [2]
-			"Common", -- [3]
+			"is 236 ilvl too low for that? i mean has it been adjusted since season 1?", -- [1]
+			"Bigstaros-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Astrø-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4232, -- [11]
-			"Player-1301-0C0E457A", -- [12]
+			0, -- [10]
+			618, -- [11]
+			"Player-1301-0BDDBA3C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Astrø|r",
-			[51] = 1651089457,
-			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff3ec6eaBigstaros|r",
+			[51] = 1651097561,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [22]
 		{
-			"[IAT] |cffffff00|Hachievement:15396:Player-1301-0BB8CFFA:0:0:0:-1:0:0:0:0|h[We Are All Made of Stars]|h|r FAILED!", -- [1]
-			"Kronós-Outland", -- [2]
+			"hmm challenging", -- [1]
+			"Xremac-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kronós-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4233, -- [11]
-			"Player-1301-0BB8CFFA", -- [12]
+			619, -- [11]
+			"Player-1301-09163B61", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Kronós|r",
-			[51] = 1651089459,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc31d39Xremac|r",
+			[51] = 1651097565,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [23]
 		{
-			"[IAT] Kalulpar, Pøsregn, Shemi, Darkosis, Skar, Orvalleke, Carlights, Rorogi, Eluitha, Necrophagus, Astrø, Goxish, Morbidmind, Bjandyr, Littleree, Johna, Mafyol, Kronós, ", -- [1]
-			"Kronós-Outland", -- [2]
+			"it's been adjusted twice", -- [1]
+			"Haylat-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kronós-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4234, -- [11]
-			"Player-1301-0BB8CFFA", -- [12]
+			620, -- [11]
+			"Player-1301-0BC5C0F1", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Kronós|r",
-			[51] = 1651089459,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfffe7b09Haylat|r",
+			[51] = 1651097575,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [24]
 		{
-			"ROROGI  <------PI ME *Eluitha* :D 5K GOLD EACH ", -- [1]
-			"Rorogi-Outland", -- [2]
+			"oh rip", -- [1]
+			"Bigstaros-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rorogi", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4235, -- [11]
-			"Player-1301-0AAFAE15", -- [12]
+			621, -- [11]
+			"Player-1301-0BDDBA3C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Rorogi|r",
-			[51] = 1651089459,
-			[50] = "CHAT_MSG_RAID_WARNING",
+			[52] = "|cff3ec6eaBigstaros|r",
+			[51] = 1651097580,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [25]
 		{
-			"ROROGI  <------PI ME *Eluitha* :D 5K GOLD EACH ", -- [1]
-			"Rorogi-Outland", -- [2]
+			"well its kinda low y", -- [1]
+			"Inamoira-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rorogi", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4236, -- [11]
-			"Player-1301-0AAFAE15", -- [12]
+			622, -- [11]
+			"Player-1301-0C282752", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Rorogi|r",
-			[51] = 1651089459,
-			[50] = "CHAT_MSG_RAID_WARNING",
+			[52] = "|cfffe7b09Inamoira|r",
+			[51] = 1651097581,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [26]
 		{
-			"{rt1}Dark Eclipse 1", -- [1]
-			"Goxish-Outland", -- [2]
-			"Common", -- [3]
+			"236 could be carried through a 15", -- [1]
+			"Kumquat-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Goxish-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4238, -- [11]
-			"Player-1301-088817BE", -- [12]
+			0, -- [10]
+			623, -- [11]
+			"Player-1301-0C028EC0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Goxish|r",
-			[51] = 1651089461,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff00fe97Kumquat|r",
+			[51] = 1651097589,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [27]
 		{
-			"{rt2}Dark Eclipse 2", -- [1]
-			"Rorogi-Outland", -- [2]
-			"Common", -- [3]
+			" is too low even if u pick just one digit out of it xD", -- [1]
+			"Xremac-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Rorogi-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4240, -- [11]
-			"Player-1301-0AAFAE15", -- [12]
+			0, -- [10]
+			624, -- [11]
+			"Player-1301-09163B61", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Rorogi|r",
-			[51] = 1651089461,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc31d39Xremac|r",
+			[51] = 1651097592,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [28]
 		{
-			"{rt1}Dark Eclipse 1", -- [1]
-			"Mafyol-Outland", -- [2]
-			"Common", -- [3]
+			"quite comfortably", -- [1]
+			"Kumquat-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Mafyol-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4246, -- [11]
-			"Player-1301-0B957263", -- [12]
+			0, -- [10]
+			625, -- [11]
+			"Player-1301-0C028EC0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cMafyol|r",
-			[51] = 1651089472,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff00fe97Kumquat|r",
+			[51] = 1651097594,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [29]
 		{
-			"3", -- [1]
-			"Rorogi-Outland", -- [2]
-			"Common", -- [3]
+			"i could do 6-7k dps on a 15", -- [1]
+			"Bigstaros-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Rorogi-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4248, -- [11]
-			"Player-1301-0AAFAE15", -- [12]
+			0, -- [10]
+			626, -- [11]
+			"Player-1301-0BDDBA3C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Rorogi|r",
-			[51] = 1651089473,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff3ec6eaBigstaros|r",
+			[51] = 1651097599,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [30]
 		{
-			"2", -- [1]
-			"Rorogi-Outland", -- [2]
-			"Common", -- [3]
+			"overall?", -- [1]
+			"Inamoira-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Rorogi-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4249, -- [11]
-			"Player-1301-0AAFAE15", -- [12]
+			0, -- [10]
+			627, -- [11]
+			"Player-1301-0C282752", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Rorogi|r",
-			[51] = 1651089474,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffe7b09Inamoira|r",
+			[51] = 1651097610,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [31]
 		{
-			"1", -- [1]
-			"Rorogi-Outland", -- [2]
-			"Common", -- [3]
+			"peak xD", -- [1]
+			"Xremac-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Rorogi-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4250, -- [11]
-			"Player-1301-0AAFAE15", -- [12]
+			0, -- [10]
+			628, -- [11]
+			"Player-1301-09163B61", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Rorogi|r",
-			[51] = 1651089475,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc31d39Xremac|r",
+			[51] = 1651097616,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [32]
 		{
-			"Knock 3", -- [1]
-			"Johna-Outland", -- [2]
-			"Common", -- [3]
+			"yeah maybe more idk how it is now", -- [1]
+			"Bigstaros-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Johna-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4251, -- [11]
-			"Player-1301-0BCD3B58", -- [12]
+			0, -- [10]
+			629, -- [11]
+			"Player-1301-0BDDBA3C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaJohna|r",
-			[51] = 1651089482,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff3ec6eaBigstaros|r",
+			[51] = 1651097619,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [33]
 		{
-			"Knock 2", -- [1]
-			"Johna-Outland", -- [2]
-			"Common", -- [3]
+			"i used to do ~7k dps in m+", -- [1]
+			"Bigstaros-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Johna-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4252, -- [11]
-			"Player-1301-0BCD3B58", -- [12]
+			0, -- [10]
+			630, -- [11]
+			"Player-1301-0BDDBA3C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaJohna|r",
-			[51] = 1651089483,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff3ec6eaBigstaros|r",
+			[51] = 1651097626,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [34]
 		{
-			"{rt2}Dark Eclipse 2", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"Common", -- [3]
+			"in phase 1", -- [1]
+			"Bigstaros-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4256, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			0, -- [10]
+			631, -- [11]
+			"Player-1301-0BDDBA3C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1651089483,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff3ec6eaBigstaros|r",
+			[51] = 1651097628,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [35]
 		{
-			"Knock 1", -- [1]
-			"Johna-Outland", -- [2]
-			"Common", -- [3]
+			"phase ?", -- [1]
+			"Xremac-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Johna-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4258, -- [11]
-			"Player-1301-0BCD3B58", -- [12]
+			0, -- [10]
+			632, -- [11]
+			"Player-1301-09163B61", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaJohna|r",
-			[51] = 1651089483,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc31d39Xremac|r",
+			[51] = 1651097639,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [36]
 		{
-			"3", -- [1]
-			"Morbidmind-Outland", -- [2]
-			"Common", -- [3]
+			"season?", -- [1]
+			"Xremac-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Morbidmind-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4261, -- [11]
-			"Player-1301-085795E3", -- [12]
+			0, -- [10]
+			633, -- [11]
+			"Player-1301-09163B61", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cMorbidmind|r",
-			[51] = 1651089487,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc31d39Xremac|r",
+			[51] = 1651097647,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [37]
 		{
-			"2", -- [1]
-			"Morbidmind-Outland", -- [2]
-			"Common", -- [3]
+			"well when shadowlands released :p", -- [1]
+			"Bigstaros-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Morbidmind-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4262, -- [11]
-			"Player-1301-085795E3", -- [12]
+			0, -- [10]
+			634, -- [11]
+			"Player-1301-0BDDBA3C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cMorbidmind|r",
-			[51] = 1651089488,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff3ec6eaBigstaros|r",
+			[51] = 1651097650,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [38]
 		{
-			"3", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"Common", -- [3]
+			"yeah season 1", -- [1]
+			"Bigstaros-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4263, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			0, -- [10]
+			635, -- [11]
+			"Player-1301-0BDDBA3C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1651089489,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff3ec6eaBigstaros|r",
+			[51] = 1651097652,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [39]
 		{
-			"2", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"Common", -- [3]
+			"oh oki", -- [1]
+			"Xremac-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4264, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			0, -- [10]
+			638, -- [11]
+			"Player-1301-09163B61", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1651089491,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc31d39Xremac|r",
+			[51] = 1651097658,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [40]
 		{
-			"1", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"Common", -- [3]
+			"i believe 236 should hope for like 3-4k overall tops", -- [1]
+			"Xremac-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4265, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			0, -- [10]
+			645, -- [11]
+			"Player-1301-09163B61", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1651089492,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc31d39Xremac|r",
+			[51] = 1651097691,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [41]
 		{
-			"{rt1}Dark Eclipse 1", -- [1]
-			"Carlights-Outland", -- [2]
-			"Common", -- [3]
+			"20k", -- [1]
+			"Stevecleave-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Carlights-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4266, -- [11]
-			"Player-1301-0848EE1A", -- [12]
+			0, -- [10]
+			655, -- [11]
+			"Player-1301-09EFC5AE", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Carlights|r",
-			[51] = 1651089494,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc59a6cStevecleave|r",
+			[51] = 1651097711,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [42]
 		{
-			"3", -- [1]
-			"Carlights-Outland", -- [2]
-			"Common", -- [3]
+			"considering no set items and probably some old legos, 1 probably", -- [1]
+			"Xremac-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Carlights-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4271, -- [11]
-			"Player-1301-0848EE1A", -- [12]
+			0, -- [10]
+			656, -- [11]
+			"Player-1301-09163B61", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Carlights|r",
-			[51] = 1651089499,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc31d39Xremac|r",
+			[51] = 1651097716,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [43]
 		{
-			"3", -- [1]
-			"Bjandyr-Outland", -- [2]
-			"Common", -- [3]
+			"3-4k? nah not even", -- [1]
+			"Bigstaros-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Bjandyr-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4272, -- [11]
-			"Player-1301-05D79BCA", -- [12]
+			0, -- [10]
+			658, -- [11]
+			"Player-1301-0BDDBA3C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Bjandyr|r",
-			[51] = 1651089499,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff3ec6eaBigstaros|r",
+			[51] = 1651097720,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [44]
 		{
-			"2", -- [1]
-			"Carlights-Outland", -- [2]
-			"Common", -- [3]
+			"i used to do +20s back then :p", -- [1]
+			"Bigstaros-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Carlights-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4273, -- [11]
-			"Player-1301-0848EE1A", -- [12]
+			0, -- [10]
+			659, -- [11]
+			"Player-1301-0BDDBA3C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Carlights|r",
-			[51] = 1651089500,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff3ec6eaBigstaros|r",
+			[51] = 1651097731,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [45]
 		{
-			"2", -- [1]
-			"Bjandyr-Outland", -- [2]
-			"Common", -- [3]
+			"yeah still got |cffff8000|Hitem:178926:6166:::::::60:63::66:7:6832:6758:7194:6649:6650:1532:8156:::::Player-1301-0BE207A7:|h[Band of Disciplinary Command]|h|r", -- [1]
+			"Bigstaros-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Bjandyr-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4274, -- [11]
-			"Player-1301-05D79BCA", -- [12]
+			0, -- [10]
+			661, -- [11]
+			"Player-1301-0BDDBA3C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Bjandyr|r",
-			[51] = 1651089500,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff3ec6eaBigstaros|r",
+			[51] = 1651097744,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [46]
 		{
-			"1", -- [1]
-			"Carlights-Outland", -- [2]
-			"Common", -- [3]
+			"and just got now |cffff8000|Hitem:190464::::::::60:63::11:2:6652:7578:1:28:2057:::::|h[Cord of Unity]|h|r", -- [1]
+			"Bigstaros-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Carlights-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4275, -- [11]
-			"Player-1301-0848EE1A", -- [12]
+			0, -- [10]
+			662, -- [11]
+			"Player-1301-0BDDBA3C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Carlights|r",
-			[51] = 1651089501,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff3ec6eaBigstaros|r",
+			[51] = 1651097747,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [47]
 		{
-			"1", -- [1]
-			"Bjandyr-Outland", -- [2]
-			"Common", -- [3]
+			"so yeah got some questions.. whats the max upgrade lvl now?", -- [1]
+			"Bigstaros-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Bjandyr-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4276, -- [11]
-			"Player-1301-05D79BCA", -- [12]
+			0, -- [10]
+			683, -- [11]
+			"Player-1301-0BDDBA3C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Bjandyr|r",
-			[51] = 1651089501,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff3ec6eaBigstaros|r",
+			[51] = 1651097870,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [48]
 		{
-			"{rt1}Dark Eclipse 1", -- [1]
-			"Littleree-Doomhammer", -- [2]
-			"Common", -- [3]
+			"i.e. this |cffa335ee|Hitem:178804::::::::60:63::23:8:7773:8136:8137:7359:6652:7578:1550:6646:1:28:749:::::|h[Fallen Empress's Cord]|h|r upgrades to how much each time?", -- [1]
+			"Bigstaros-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Littleree-Doomhammer", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4277, -- [11]
-			"Player-1402-07E68907", -- [12]
+			0, -- [10]
+			684, -- [11]
+			"Player-1301-0BDDBA3C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaLittleree-Doomhammer|r",
-			[51] = 1651089505,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff3ec6eaBigstaros|r",
+			[51] = 1651097878,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [49]
 		{
-			"3", -- [1]
-			"Littleree-Doomhammer", -- [2]
-			"Common", -- [3]
+			"272", -- [1]
+			"Xremac-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Littleree-Doomhammer", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4280, -- [11]
-			"Player-1402-07E68907", -- [12]
+			0, -- [10]
+			686, -- [11]
+			"Player-1301-09163B61", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaLittleree-Doomhammer|r",
-			[51] = 1651089512,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc31d39Xremac|r",
+			[51] = 1651097886,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [50]
 		{
-			"3", -- [1]
-			"Astrø-Outland", -- [2]
-			"Common", -- [3]
+			"not bad", -- [1]
+			"Bigstaros-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Astrø-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4281, -- [11]
-			"Player-1301-0C0E457A", -- [12]
+			0, -- [10]
+			687, -- [11]
+			"Player-1301-0BDDBA3C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Astrø|r",
-			[51] = 1651089513,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff3ec6eaBigstaros|r",
+			[51] = 1651097897,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [51]
 		{
-			"2", -- [1]
-			"Littleree-Doomhammer", -- [2]
-			"Common", -- [3]
+			"u need to have 2k dung rtg for that", -- [1]
+			"Xremac-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Littleree-Doomhammer", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4282, -- [11]
-			"Player-1402-07E68907", -- [12]
+			0, -- [10]
+			688, -- [11]
+			"Player-1301-09163B61", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaLittleree-Doomhammer|r",
-			[51] = 1651089513,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc31d39Xremac|r",
+			[51] = 1651097906,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [52]
 		{
-			"2", -- [1]
-			"Astrø-Outland", -- [2]
-			"Common", -- [3]
+			"the +15s again?", -- [1]
+			"Bigstaros-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Astrø-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4283, -- [11]
-			"Player-1301-0C0E457A", -- [12]
+			0, -- [10]
+			694, -- [11]
+			"Player-1301-0BDDBA3C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Astrø|r",
-			[51] = 1651089514,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff3ec6eaBigstaros|r",
+			[51] = 1651097917,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [53]
 		{
-			"1", -- [1]
-			"Littleree-Doomhammer", -- [2]
-			"Common", -- [3]
+			"lower lvls have lower rtgs required", -- [1]
+			"Xremac-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Littleree-Doomhammer", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4284, -- [11]
-			"Player-1402-07E68907", -- [12]
+			0, -- [10]
+			698, -- [11]
+			"Player-1301-09163B61", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaLittleree-Doomhammer|r",
-			[51] = 1651089514,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc31d39Xremac|r",
+			[51] = 1651097922,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [54]
 		{
-			"1", -- [1]
-			"Astrø-Outland", -- [2]
-			"Common", -- [3]
+			"i just want the 2.5k rating mount", -- [1]
+			"Camila-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Astrø-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4285, -- [11]
-			"Player-1301-0C0E457A", -- [12]
+			0, -- [10]
+			707, -- [11]
+			"Player-1301-07EC4578", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Astrø|r",
-			[51] = 1651089515,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffe7b09Camila|r",
+			[51] = 1651097927,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [55]
 		{
-			"{rt2}Dark Eclipse 2", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"Common", -- [3]
+			"its shit mount", -- [1]
+			"Xremac-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4298, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			0, -- [10]
+			709, -- [11]
+			"Player-1301-09163B61", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1651089568,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc31d39Xremac|r",
+			[51] = 1651097939,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [56]
 		{
-			"{rt1}Dark Eclipse 1", -- [1]
-			"Morbidmind-Outland", -- [2]
-			"Common", -- [3]
+			"Takes so long time |cffffd100|HdungeonScore:1757:Player-1301-07EC4578:Camila:11:258:60:26:1757:3:375:1:7:376:1:11:377:1:14:378:1:11:379:1:13:380:1:9:381:1:12:382:1:10:391:0:9:392:1:9|h[Mythic+ Rating]|h|r", -- [1]
+			"Camila-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Morbidmind-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4302, -- [11]
-			"Player-1301-085795E3", -- [12]
+			0, -- [10]
+			710, -- [11]
+			"Player-1301-07EC4578", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cMorbidmind|r",
-			[51] = 1651093179,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffe7b09Camila|r",
+			[51] = 1651097940,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [57]
 		{
-			"{rt2}Dark Eclipse 2", -- [1]
-			"Bjandyr-Outland", -- [2]
-			"Common", -- [3]
+			"so thats the equilevant to this? |cffffff00|Hachievement:14532:Player-1301-0BDDBA3C:1:2:25:21:4294967295:4294967295:4294967295:4294967295|h[Shadowlands Keystone Master: Season One]|h|r", -- [1]
+			"Bigstaros-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Bjandyr-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4304, -- [11]
-			"Player-1301-05D79BCA", -- [12]
+			0, -- [10]
+			713, -- [11]
+			"Player-1301-0BDDBA3C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Bjandyr|r",
-			[51] = 1651093179,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff3ec6eaBigstaros|r",
+			[51] = 1651097973,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [58]
 		{
-			"3", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"Common", -- [3]
+			"all 3 mounts r the same, just diff colour", -- [1]
+			"Xremac-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4306, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			0, -- [10]
+			714, -- [11]
+			"Player-1301-09163B61", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1651093180,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc31d39Xremac|r",
+			[51] = 1651097987,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [59]
 		{
-			"2", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"Common", -- [3]
+			"|cffa335ee|Hitem:189859::::::::60:72::5:5:7188:6652:7579:1511:6646:1:28:2060:::::|h[Worldkiller Iris]|h|r thats hot", -- [1]
+			"Stevecleave-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4307, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			0, -- [10]
+			715, -- [11]
+			"Player-1301-09EFC5AE", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1651093181,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc59a6cStevecleave|r",
+			[51] = 1651097987,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [60]
 		{
-			"1", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"Common", -- [3]
+			"whats ur ilvl Camila", -- [1]
+			"Inamoira-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4308, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			0, -- [10]
+			716, -- [11]
+			"Player-1301-0C282752", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1651093182,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffe7b09Inamoira|r",
+			[51] = 1651097997,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [61]
 		{
-			"3", -- [1]
-			"Bjandyr-Outland", -- [2]
-			"Common", -- [3]
+			"257", -- [1]
+			"Camila-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Bjandyr-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4310, -- [11]
-			"Player-1301-05D79BCA", -- [12]
+			0, -- [10]
+			722, -- [11]
+			"Player-1301-07EC4578", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Bjandyr|r",
-			[51] = 1651093186,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffe7b09Camila|r",
+			[51] = 1651098020,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [62]
 		{
-			"ROROGI  <------PI ME *Eluitha* :D 5K GOLD EACH ", -- [1]
-			"Rorogi-Outland", -- [2]
+			"damn u should be doing more than those 14", -- [1]
+			"Inamoira-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rorogi", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4311, -- [11]
-			"Player-1301-0AAFAE15", -- [12]
+			724, -- [11]
+			"Player-1301-0C282752", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Rorogi|r",
-			[51] = 1651093186,
-			[50] = "CHAT_MSG_RAID_WARNING",
+			[52] = "|cfffe7b09Inamoira|r",
+			[51] = 1651098041,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [63]
 		{
-			"2", -- [1]
-			"Bjandyr-Outland", -- [2]
-			"Common", -- [3]
+			"if someone has a 15 i would like to give it a try", -- [1]
+			"Bigstaros-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Bjandyr-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4312, -- [11]
-			"Player-1301-05D79BCA", -- [12]
+			0, -- [10]
+			725, -- [11]
+			"Player-1301-0BDDBA3C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Bjandyr|r",
-			[51] = 1651093187,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff3ec6eaBigstaros|r",
+			[51] = 1651098045,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [64]
 		{
-			"1", -- [1]
-			"Bjandyr-Outland", -- [2]
-			"Common", -- [3]
+			"honestly 15s walk in the park nate", -- [1]
+			"Kumquat-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Bjandyr-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4313, -- [11]
-			"Player-1301-05D79BCA", -- [12]
+			0, -- [10]
+			726, -- [11]
+			"Player-1301-0C028EC0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Bjandyr|r",
-			[51] = 1651093188,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff00fe97Kumquat|r",
+			[51] = 1651098059,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [65]
 		{
-			"2", -- [1]
-			"Morbidmind-Outland", -- [2]
-			"Common", -- [3]
+			"mate", -- [1]
+			"Kumquat-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Morbidmind-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4316, -- [11]
-			"Player-1301-085795E3", -- [12]
+			0, -- [10]
+			727, -- [11]
+			"Player-1301-0C028EC0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cMorbidmind|r",
-			[51] = 1651093190,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff00fe97Kumquat|r",
+			[51] = 1651098061,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [66]
 		{
-			"1", -- [1]
-			"Morbidmind-Outland", -- [2]
-			"Common", -- [3]
+			"if you ccan get in a guild group youd easily do it", -- [1]
+			"Kumquat-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Morbidmind-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4318, -- [11]
-			"Player-1301-085795E3", -- [12]
+			0, -- [10]
+			728, -- [11]
+			"Player-1301-0C028EC0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cMorbidmind|r",
-			[51] = 1651093191,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff00fe97Kumquat|r",
+			[51] = 1651098066,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [67]
 		{
-			"PI ASTRO", -- [1]
-			"Astrø-Outland", -- [2]
-			"Common", -- [3]
+			"Inamoira, Idk even know. I just que up for everything between 9 and 14", -- [1]
+			"Camila-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Astrø-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4319, -- [11]
-			"Player-1301-0C0E457A", -- [12]
+			0, -- [10]
+			729, -- [11]
+			"Player-1301-07EC4578", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Astrø|r",
-			[51] = 1651093192,
-			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfffe7b09Camila|r",
+			[51] = 1651098067,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [68]
 		{
-			"Knock 3", -- [1]
-			"Johna-Outland", -- [2]
-			"Common", -- [3]
+			"even at your ilvl#", -- [1]
+			"Kumquat-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Johna-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4320, -- [11]
-			"Player-1301-0BCD3B58", -- [12]
+			0, -- [10]
+			730, -- [11]
+			"Player-1301-0C028EC0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaJohna|r",
-			[51] = 1651093196,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff00fe97Kumquat|r",
+			[51] = 1651098070,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [69]
 		{
-			"3", -- [1]
-			"Goxish-Outland", -- [2]
-			"Common", -- [3]
+			"yeah if u can get people who let u in :p", -- [1]
+			"Bigstaros-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Goxish-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4322, -- [11]
-			"Player-1301-088817BE", -- [12]
+			0, -- [10]
+			731, -- [11]
+			"Player-1301-0BDDBA3C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Goxish|r",
-			[51] = 1651093197,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff3ec6eaBigstaros|r",
+			[51] = 1651098071,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [70]
 		{
-			"Knock 2", -- [1]
-			"Johna-Outland", -- [2]
-			"Common", -- [3]
+			"|cffa335ee|Hitem:189843::::::::60:581::5:6:7188:8118:8117:6652:1511:6646:1:28:2060:::::|h[Grasps of Abducted Fate]|h|r", -- [1]
+			"Shibzstain-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Johna-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4323, -- [11]
-			"Player-1301-0BCD3B58", -- [12]
+			0, -- [10]
+			734, -- [11]
+			"Player-1301-0AC3D396", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaJohna|r",
-			[51] = 1651093197,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffa22fc8Shibzstain|r",
+			[51] = 1651098119,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [71]
 		{
-			"2", -- [1]
-			"Goxish-Outland", -- [2]
-			"Common", -- [3]
+			"u r a mage", -- [1]
+			"Xremac-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Goxish-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4324, -- [11]
-			"Player-1301-088817BE", -- [12]
+			0, -- [10]
+			735, -- [11]
+			"Player-1301-09163B61", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Goxish|r",
-			[51] = 1651093198,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc31d39Xremac|r",
+			[51] = 1651098120,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [72]
 		{
-			"Knock 1", -- [1]
-			"Johna-Outland", -- [2]
-			"Common", -- [3]
+			"dont tell me mages have problems joining m+ now xD", -- [1]
+			"Xremac-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Johna-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4325, -- [11]
-			"Player-1301-0BCD3B58", -- [12]
+			0, -- [10]
+			737, -- [11]
+			"Player-1301-09163B61", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaJohna|r",
-			[51] = 1651093198,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc31d39Xremac|r",
+			[51] = 1651098132,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [73]
 		{
-			"1", -- [1]
-			"Goxish-Outland", -- [2]
-			"Common", -- [3]
+			"try boing a rogue", -- [1]
+			"Xremac-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Goxish-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4326, -- [11]
-			"Player-1301-088817BE", -- [12]
+			0, -- [10]
+			738, -- [11]
+			"Player-1301-09163B61", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Goxish|r",
-			[51] = 1651093199,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc31d39Xremac|r",
+			[51] = 1651098145,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [74]
 		{
-			"{rt1}Dark Eclipse 1", -- [1]
-			"Mafyol-Outland", -- [2]
-			"Common", -- [3]
+			"a 15 at my lvl maybe", -- [1]
+			"Bigstaros-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Mafyol-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4328, -- [11]
-			"Player-1301-0B957263", -- [12]
+			0, -- [10]
+			739, -- [11]
+			"Player-1301-0BDDBA3C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cMafyol|r",
-			[51] = 1651089601,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff3ec6eaBigstaros|r",
+			[51] = 1651098148,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [75]
 		{
-			"{rt2}Dark Eclipse 2", -- [1]
-			"Rorogi-Outland", -- [2]
-			"Common", -- [3]
+			"i do godlike dps as venth dub in dungs and ppl r still like meh i wanna hunt/mage", -- [1]
+			"Xremac-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Rorogi-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4329, -- [11]
-			"Player-1301-0AAFAE15", -- [12]
+			0, -- [10]
+			743, -- [11]
+			"Player-1301-09163B61", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Rorogi|r",
-			[51] = 1651089601,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc31d39Xremac|r",
+			[51] = 1651098183,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [76]
 		{
-			"3", -- [1]
-			"Mafyol-Outland", -- [2]
-			"Common", -- [3]
+			"Camila  focus on 14,15 u will get it much faster", -- [1]
+			"Inamoira-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Mafyol-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4333, -- [11]
-			"Player-1301-0B957263", -- [12]
+			0, -- [10]
+			747, -- [11]
+			"Player-1301-0C282752", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cMafyol|r",
-			[51] = 1651089604,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffe7b09Inamoira|r",
+			[51] = 1651098188,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [77]
 		{
-			"2", -- [1]
-			"Mafyol-Outland", -- [2]
-			"Common", -- [3]
+			"venth sub*", -- [1]
+			"Xremac-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Mafyol-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4334, -- [11]
-			"Player-1301-0B957263", -- [12]
+			0, -- [10]
+			749, -- [11]
+			"Player-1301-09163B61", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cMafyol|r",
-			[51] = 1651089605,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc31d39Xremac|r",
+			[51] = 1651098189,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [78]
 		{
-			"3", -- [1]
-			"Rorogi-Outland", -- [2]
-			"Common", -- [3]
+			"u need like all of the 15", -- [1]
+			"Inamoira-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Rorogi-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4335, -- [11]
-			"Player-1301-0AAFAE15", -- [12]
+			0, -- [10]
+			752, -- [11]
+			"Player-1301-0C282752", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Rorogi|r",
-			[51] = 1651089605,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffe7b09Inamoira|r",
+			[51] = 1651098192,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [79]
 		{
-			"1", -- [1]
-			"Mafyol-Outland", -- [2]
-			"Common", -- [3]
+			"and some 16", -- [1]
+			"Inamoira-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Mafyol-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4336, -- [11]
-			"Player-1301-0B957263", -- [12]
+			0, -- [10]
+			755, -- [11]
+			"Player-1301-0C282752", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cMafyol|r",
-			[51] = 1651089606,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffe7b09Inamoira|r",
+			[51] = 1651098196,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [80]
 		{
-			"2", -- [1]
-			"Rorogi-Outland", -- [2]
-			"Common", -- [3]
+			"to get 2.5k", -- [1]
+			"Inamoira-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Rorogi-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4337, -- [11]
-			"Player-1301-0AAFAE15", -- [12]
+			0, -- [10]
+			757, -- [11]
+			"Player-1301-0C282752", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Rorogi|r",
-			[51] = 1651089606,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffe7b09Inamoira|r",
+			[51] = 1651098199,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [81]
 		{
-			"1", -- [1]
-			"Rorogi-Outland", -- [2]
-			"Common", -- [3]
+			"yeah as soon as i start playing again it will be a walk in the park", -- [1]
+			"Bigstaros-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Rorogi-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4338, -- [11]
-			"Player-1301-0AAFAE15", -- [12]
+			0, -- [10]
+			767, -- [11]
+			"Player-1301-0BDDBA3C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Rorogi|r",
-			[51] = 1651089607,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff3ec6eaBigstaros|r",
+			[51] = 1651098235,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [82]
 		{
-			"{rt1}Dark Eclipse 1", -- [1]
-			"Littleree-Doomhammer", -- [2]
-			"Common", -- [3]
+			"No one is accepting me into 15s tho", -- [1]
+			"Camila-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Littleree-Doomhammer", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4339, -- [11]
-			"Player-1402-07E68907", -- [12]
+			0, -- [10]
+			768, -- [11]
+			"Player-1301-07EC4578", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaLittleree-Doomhammer|r",
-			[51] = 1651089612,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffe7b09Camila|r",
+			[51] = 1651098236,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [83]
 		{
-			"{rt2}Dark Eclipse 2", -- [1]
-			"Kronós-Outland", -- [2]
-			"Common", -- [3]
+			"oor u push the ones u like and then do like the least possible of the ones u hate", -- [1]
+			"Xremac-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Kronós-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4342, -- [11]
-			"Player-1301-0BB8CFFA", -- [12]
+			0, -- [10]
+			769, -- [11]
+			"Player-1301-09163B61", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Kronós|r",
-			[51] = 1651089612,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc31d39Xremac|r",
+			[51] = 1651098243,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [84]
 		{
-			"3", -- [1]
-			"Littleree-Doomhammer", -- [2]
-			"Common", -- [3]
+			"if i did 20s 1 year ago it should be no prob now with some gear :p", -- [1]
+			"Bigstaros-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Littleree-Doomhammer", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4344, -- [11]
-			"Player-1402-07E68907", -- [12]
+			0, -- [10]
+			770, -- [11]
+			"Player-1301-0BDDBA3C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaLittleree-Doomhammer|r",
-			[51] = 1651089616,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff3ec6eaBigstaros|r",
+			[51] = 1651098247,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [85]
 		{
-			"2", -- [1]
-			"Littleree-Doomhammer", -- [2]
-			"Common", -- [3]
+			"like i timed mists 18 then got my ksm by timing streets 13 :D", -- [1]
+			"Xremac-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Littleree-Doomhammer", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4345, -- [11]
-			"Player-1402-07E68907", -- [12]
+			0, -- [10]
+			771, -- [11]
+			"Player-1301-09163B61", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaLittleree-Doomhammer|r",
-			[51] = 1651089617,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc31d39Xremac|r",
+			[51] = 1651098265,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [86]
 		{
-			"1", -- [1]
-			"Littleree-Doomhammer", -- [2]
-			"Common", -- [3]
+			"shroud kidney shot blind magic immun evasion feint vanish", -- [1]
+			"Scottie-Outland", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Littleree-Doomhammer", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			4346, -- [11]
-			"Player-1402-07E68907", -- [12]
+			0, -- [10]
+			780, -- [11]
+			"Player-1301-0C2EE952", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaLittleree-Doomhammer|r",
-			[51] = 1651089618,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffa9d271Scottie|r",
+			[51] = 1651098301,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [87]
 		{
-			"f", -- [1]
-			"Rorogi-Outland", -- [2]
+			"rogues are amazing", -- [1]
+			"Scottie-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rorogi-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4360, -- [11]
-			"Player-1301-0AAFAE15", -- [12]
+			787, -- [11]
+			"Player-1301-0C2EE952", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Rorogi|r",
-			[51] = 1651089678,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffa9d271Scottie|r",
+			[51] = 1651098308,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [88]
 		{
-			"d", -- [1]
-			"Rorogi-Outland", -- [2]
+			"wise man once said", -- [1]
+			"Nessx-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rorogi-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4361, -- [11]
-			"Player-1301-0AAFAE15", -- [12]
+			788, -- [11]
+			"Player-1301-0C11751F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Rorogi|r",
-			[51] = 1651089678,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffa9d271Nessx|r",
+			[51] = 1651098322,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [89]
 		{
-			"sd", -- [1]
-			"Rorogi-Outland", -- [2]
+			"just press turtle 4head", -- [1]
+			"Nessx-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rorogi-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4362, -- [11]
-			"Player-1301-0AAFAE15", -- [12]
+			789, -- [11]
+			"Player-1301-0C11751F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Rorogi|r",
-			[51] = 1651089679,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffa9d271Nessx|r",
+			[51] = 1651098325,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [90]
 		{
-			"a", -- [1]
-			"Rorogi-Outland", -- [2]
+			"well they r, just half of those stuff u dont need in m+ xD", -- [1]
+			"Xremac-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rorogi-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4363, -- [11]
-			"Player-1301-0AAFAE15", -- [12]
+			790, -- [11]
+			"Player-1301-09163B61", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Rorogi|r",
-			[51] = 1651089679,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc31d39Xremac|r",
+			[51] = 1651098330,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [91]
 		{
-			"f", -- [1]
-			"Rorogi-Outland", -- [2]
+			"i mean if u need evasion in m+, somethings terribly wrong", -- [1]
+			"Xremac-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rorogi-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4364, -- [11]
-			"Player-1301-0AAFAE15", -- [12]
+			791, -- [11]
+			"Player-1301-09163B61", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Rorogi|r",
-			[51] = 1651089680,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc31d39Xremac|r",
+			[51] = 1651098351,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [92]
 		{
-			"sa", -- [1]
-			"Rorogi-Outland", -- [2]
+			"but you have it", -- [1]
+			"Scottie-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rorogi-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4365, -- [11]
-			"Player-1301-0AAFAE15", -- [12]
+			793, -- [11]
+			"Player-1301-0C2EE952", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Rorogi|r",
-			[51] = 1651089680,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffa9d271Scottie|r",
+			[51] = 1651098363,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [93]
 		{
-			"The balls won", -- [1]
-			"Morbidmind-Outland", -- [2]
+			"tanking for seconds", -- [1]
+			"Scottie-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Morbidmind-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4366, -- [11]
-			"Player-1301-085795E3", -- [12]
+			794, -- [11]
+			"Player-1301-0C2EE952", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cMorbidmind|r",
-			[51] = 1651089692,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffa9d271Scottie|r",
+			[51] = 1651098368,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [94]
 		{
-			"we did twice as well as last time tbh", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"lol", -- [1]
+			"Scottie-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4368, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			796, -- [11]
+			"Player-1301-0C2EE952", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1651089703,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffa9d271Scottie|r",
+			[51] = 1651098369,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [95]
 		{
-			"- Morbid 2022", -- [1]
-			"Shemi-Outland", -- [2]
+			"yea...", -- [1]
+			"Xremac-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Shemi", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4369, -- [11]
-			"Player-1301-07A50C29", -- [12]
+			797, -- [11]
+			"Player-1301-09163B61", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Shemi|r",
-			[51] = 1651089703,
-			[50] = "CHAT_MSG_RAID_WARNING",
+			[52] = "|cffc31d39Xremac|r",
+			[51] = 1651098375,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [96]
 		{
-			"2 bosses in 3 hours", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"prolongs the agony", -- [1]
+			"Xremac-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4370, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			806, -- [11]
+			"Player-1301-09163B61", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1651089706,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc31d39Xremac|r",
+			[51] = 1651098390,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [97]
 		{
-			"Better than only 1", -- [1]
-			"Shemi-Outland", -- [2]
+			"while ppl write \"just wipe\" in the chat", -- [1]
+			"Xremac-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Shemi-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4371, -- [11]
-			"Player-1301-07A50C29", -- [12]
+			807, -- [11]
+			"Player-1301-09163B61", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Shemi|r",
-			[51] = 1651089719,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[52] = "|cffc31d39Xremac|r",
+			[51] = 1651098408,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [98]
 		{
-			"nn", -- [1]
-			"Goxish-Outland", -- [2]
+			"the rest ic nice for cc and surviving mechanics", -- [1]
+			"Scottie-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Goxish-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4374, -- [11]
-			"Player-1301-088817BE", -- [12]
+			810, -- [11]
+			"Player-1301-0C2EE952", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Goxish|r",
-			[51] = 1651089731,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffa9d271Scottie|r",
+			[51] = 1651098413,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/raid ah, tanks trolling again, got it xD", -- [1]
-		"/s WHERE IS THE LAMB SAUCE???", -- [2]
-		"/raid guys for the debuff i think the easiest way to deal with it is for the person with the debuff to select an add even while it is alive and just follow it", -- [3]
-		"/raid so when it dies you are instantly on the puddle with no delay", -- [4]
-		"/raid i think the knockback is something else", -- [5]
-		"/raid its after you remove the debuff no?", -- [6]
-		"/raid ye", -- [7]
-		"/raid so why did i get a big circle around me that killed me in like 1 sec", -- [8]
-		"/raid aha ok i see", -- [9]
-		"/raid stop assaulting your mic", -- [10]
-		"/raid i feel like people are prioritizing minmaxing 1 extra cast over doing the debuff", -- [11]
-		"/s here", -- [12]
-		"/raid its not rescaled btw", -- [13]
-		"/raid now it is", -- [14]
-		"/raid was 20-man on this one", -- [15]
-		"/s no", -- [16]
-		"/raid nice minmax", -- [17]
-		"/raid really showed them on the dps meter", -- [18]
-		"/raid we did twice as well as last time tbh", -- [19]
-		"/raid 2 bosses in 3 hours", -- [20]
+		"/way #1543 44 58 Stygia Nexus", -- [1]
+		"/way #1543 45 67 Stygia Nexus", -- [2]
+		"/way #1543 50 73 Stygia Nexus", -- [3]
+		"/way #1543 52 67 Stygia Nexus", -- [4]
+		"/way #1543 52 76 Stygia Nexus", -- [5]
+		"/way #1543 52 81 Stygia Nexus", -- [6]
+		"/way #1543 53 78 Stygia Nexus", -- [7]
+		"/way #1543 54 84 Stygia Nexus", -- [8]
+		"/way #1543 57 71 Stygia Nexus", -- [9]
+		"/way #1543 67 55 Stygia Nexus", -- [10]
+		"/way #1543 45 66 Stygia Nexus", -- [11]
+		"/way #1543 51 83 Stygia Nexus", -- [12]
+		"/way #1543 52 79 Stygia Nexus", -- [13]
+		"/way #1543 53 80 Stygia Nexus", -- [14]
+		"/way #1543 59 78 Stygia Nexus", -- [15]
+		"/way #1543 48 70 Stygia Nexus", -- [16]
+		"/way #1543 53 66 Stygia Nexus", -- [17]
+		"/way #1543 43 68 Stygia Nexus", -- [18]
+		"/way #1543 57 60 Stygia Nexus", -- [19]
+		"/way #1543 52 68 Stygia Nexus", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }

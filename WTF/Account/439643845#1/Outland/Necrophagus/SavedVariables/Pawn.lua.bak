@@ -1,9 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0537,
-	["LastPlayerFullName"] = "Necrophagus-Outland",
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 188889,
@@ -48,8 +45,8 @@ PawnOptions = {
 		}, -- [9]
 		{
 			["ID"] = 188890,
-			["Level"] = 252,
-			["Link"] = "|cffa335ee|Hitem:188890::::::::60:267::3:5:7189:6652:8154:1472:6646::::::|h[Grasps of the Demon Star]|h|r",
+			["Level"] = 259,
+			["Link"] = "|cffa335ee|Hitem:188890::::::::60:267::33:6:7780:8117:6652:7359:8154:1479::::::|h[Grasps of the Demon Star]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 189772,
@@ -91,7 +88,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178868::::::::60:267::35:5:7662:7359:6652:1560:6646::::::|h[Deathwalker's Promise]|h|r",
 		}, -- [17]
 	},
-	["LastKeybindingsSet"] = 1,
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Necrophagus-Outland",
 	["Artifacts"] = {
 		[128941] = {
 			["Relics"] = {
@@ -133,6 +132,7 @@ PawnOptions = {
 			["Name"] = "Underlight Angler",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "WARLOCK",
