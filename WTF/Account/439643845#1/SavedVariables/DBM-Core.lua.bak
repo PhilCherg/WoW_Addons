@@ -35,7 +35,6 @@ DBM_AllSavedOptions = {
 		["DontShowPT2"] = false,
 		["GroupOptionsBySpell"] = true,
 		["WorldBuffAlert"] = false,
-		["NewsMessageShown2"] = 1,
 		["SpamSpecRoletaunt"] = false,
 		["DontShowSpecialWarnings"] = false,
 		["SpamSpecRoledispel"] = false,
@@ -70,7 +69,7 @@ DBM_AllSavedOptions = {
 		["EventSoundEngage2"] = "None",
 		["WarningFontStyle"] = "None",
 		["VPReplacesSA1"] = false,
-		["InfoFrameY"] = -107.7205123901367,
+		["InfoFrameY"] = -108.7221603393555,
 		["ChatFrame"] = "DEFAULT_CHAT_FRAME",
 		["WarningIconRight"] = true,
 		["UseSoundChannel"] = "Dialog",
@@ -121,6 +120,7 @@ DBM_AllSavedOptions = {
 			1, -- [2]
 			1, -- [3]
 		},
+		["NewsMessageShown2"] = 1,
 		["UseNameplateHandoff"] = true,
 		["EventSoundPullTimer"] = "None",
 		["RangeFrameSound2"] = "none",
@@ -145,7 +145,7 @@ DBM_AllSavedOptions = {
 		["VPReplacesCustom"] = false,
 		["SpecialWarningFlashCount5"] = 3,
 		["SpecialWarningSound4"] = 9278,
-		["InfoFrameX"] = 417.4437866210938,
+		["InfoFrameX"] = 393.406005859375,
 		["AutologBosses"] = false,
 		["DisableSFX"] = false,
 		["GUIX"] = 78.74724578857422,

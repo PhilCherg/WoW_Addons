@@ -184,6 +184,859 @@ TomTomWaypointsM = {
 		["Feastthree - Outland"] = {
 		},
 		["Necrophagus - Outland"] = {
+			[1970] = {
+				["1970:640000000:438000000:Coreless Tarachnid"] = {
+					1970, -- [1]
+					0.64, -- [2]
+					0.4379999999999999, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Coreless Tarachnid",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Coreless Tarachnid",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1970:664000000:380000000:Coreless Geomental"] = {
+					1970, -- [1]
+					0.664, -- [2]
+					0.38, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Coreless Geomental",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Coreless Geomental",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1970:536000000:270000000:Coreless Tarachnid"] = {
+					1970, -- [1]
+					0.536, -- [2]
+					0.27, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Coreless Tarachnid",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Coreless Tarachnid",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1970:570000000:254000000:Coreless Tarachnid"] = {
+					1970, -- [1]
+					0.57, -- [2]
+					0.254, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Coreless Tarachnid",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Coreless Tarachnid",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1970:372000000:376000000:Coreless Vombata"] = {
+					1970, -- [1]
+					0.3720000000000001, -- [2]
+					0.376, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Coreless Vombata",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Coreless Vombata",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1970:384000000:708000000:Coreless Vombata"] = {
+					1970, -- [1]
+					0.384, -- [2]
+					0.708, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Coreless Vombata",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Coreless Vombata",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1970:416000000:278000000:Coreless Tarachnid"] = {
+					1970, -- [1]
+					0.416, -- [2]
+					0.278, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Coreless Tarachnid",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Coreless Tarachnid",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1970:424000000:882000000:Coreless Helicid"] = {
+					1970, -- [1]
+					0.424, -- [2]
+					0.882, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Coreless Helicid",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Coreless Helicid",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1970:500000000:416000000:Coreless Geomental"] = {
+					1970, -- [1]
+					0.5, -- [2]
+					0.416, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Coreless Geomental",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Coreless Geomental",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1970:468000000:786000000:Coreless Vombata"] = {
+					1970, -- [1]
+					0.468, -- [2]
+					0.7859999999999999, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Coreless Vombata",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Coreless Vombata",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1970:332000000:562000000:Coreless Vombata"] = {
+					1970, -- [1]
+					0.332, -- [2]
+					0.562, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Coreless Vombata",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Coreless Vombata",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1970:444000000:368000000:Coreless Scarabid"] = {
+					1970, -- [1]
+					0.444, -- [2]
+					0.368, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Coreless Scarabid",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Coreless Scarabid",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1970:550000000:604000000:Coreless Geomental"] = {
+					1970, -- [1]
+					0.55, -- [2]
+					0.604, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Coreless Geomental",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Coreless Geomental",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1970:372000000:708000000:Coreless Helicid"] = {
+					1970, -- [1]
+					0.3720000000000001, -- [2]
+					0.708, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Coreless Helicid",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Coreless Helicid",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1970:632000000:704000000:Coreless Helicid"] = {
+					1970, -- [1]
+					0.632, -- [2]
+					0.7040000000000001, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Coreless Helicid",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Coreless Helicid",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1970:500000000:626000000:Coreless Helicid"] = {
+					1970, -- [1]
+					0.5, -- [2]
+					0.626, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Coreless Helicid",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Coreless Helicid",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1970:426000000:436000000:Coreless Scarabid"] = {
+					1970, -- [1]
+					0.426, -- [2]
+					0.436, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Coreless Scarabid",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Coreless Scarabid",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1970:444000000:564000000:Coreless Helicid"] = {
+					1970, -- [1]
+					0.444, -- [2]
+					0.564, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Coreless Helicid",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Coreless Helicid",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1970:538000000:904000000:Coreless Geomental"] = {
+					1970, -- [1]
+					0.5379999999999999, -- [2]
+					0.904, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Coreless Geomental",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Coreless Geomental",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1970:620000000:320000000:Coreless Scarabid"] = {
+					1970, -- [1]
+					0.62, -- [2]
+					0.32, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Coreless Scarabid",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Coreless Scarabid",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1970:590000000:842000000:Coreless Helicid"] = {
+					1970, -- [1]
+					0.59, -- [2]
+					0.8420000000000001, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Coreless Helicid",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Coreless Helicid",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1970:326000000:598000000:Coreless Helicid"] = {
+					1970, -- [1]
+					0.326, -- [2]
+					0.598, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Coreless Helicid",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Coreless Helicid",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1970:672000000:250000000:Coreless Scarabid"] = {
+					1970, -- [1]
+					0.672, -- [2]
+					0.25, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Coreless Scarabid",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Coreless Scarabid",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1970:408000000:316000000:Coreless Scarabid"] = {
+					1970, -- [1]
+					0.408, -- [2]
+					0.316, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Coreless Scarabid",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Coreless Scarabid",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1970:628000000:624000000:Coreless Tarachnid"] = {
+					1970, -- [1]
+					0.628, -- [2]
+					0.624, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Coreless Tarachnid",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Coreless Tarachnid",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1970:454000000:758000000:Coreless Vombata"] = {
+					1970, -- [1]
+					0.454, -- [2]
+					0.758, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Coreless Vombata",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Coreless Vombata",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1970:594000000:548000000:Coreless Tarachnid"] = {
+					1970, -- [1]
+					0.594, -- [2]
+					0.5479999999999999, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Coreless Tarachnid",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Coreless Tarachnid",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1970:476000000:242000000:Coreless Scarabid"] = {
+					1970, -- [1]
+					0.476, -- [2]
+					0.242, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Coreless Scarabid",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Coreless Scarabid",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1970:378000000:550000000:Coreless Helicid"] = {
+					1970, -- [1]
+					0.378, -- [2]
+					0.55, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Coreless Helicid",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Coreless Helicid",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1970:472000000:460000000:Coreless Geomental"] = {
+					1970, -- [1]
+					0.472, -- [2]
+					0.46, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Coreless Geomental",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Coreless Geomental",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1970:590000000:490000000:Coreless Tarachnid"] = {
+					1970, -- [1]
+					0.59, -- [2]
+					0.49, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Coreless Tarachnid",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Coreless Tarachnid",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1970:378000000:472000000:Coreless Vombata"] = {
+					1970, -- [1]
+					0.378, -- [2]
+					0.472, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Coreless Vombata",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Coreless Vombata",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1970:560000000:666000000:Coreless Vombata"] = {
+					1970, -- [1]
+					0.56, -- [2]
+					0.6659999999999999, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Coreless Vombata",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Coreless Vombata",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1970:438000000:612000000:Coreless Helicid"] = {
+					1970, -- [1]
+					0.4379999999999999, -- [2]
+					0.612, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Coreless Helicid",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Coreless Helicid",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1970:514000000:492000000:Coreless Scarabid"] = {
+					1970, -- [1]
+					0.514, -- [2]
+					0.4920000000000001, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Coreless Scarabid",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Coreless Scarabid",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1970:526000000:750000000:Coreless Helicid"] = {
+					1970, -- [1]
+					0.526, -- [2]
+					0.75, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Coreless Helicid",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Coreless Helicid",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1970:442000000:246000000:Coreless Tarachnid"] = {
+					1970, -- [1]
+					0.442, -- [2]
+					0.246, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Coreless Tarachnid",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Coreless Tarachnid",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
 		},
 		["Phalonius - Azjol-Nerub"] = {
 		},

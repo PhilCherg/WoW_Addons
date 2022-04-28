@@ -512,7 +512,7 @@ local L = app.L;
 	-- About tab
 		L.ABOUT = "Об аддоне";
 		L.ABOUT_1 = " |CFFFFFFFF- модификация для отслеживания коллекции, которая показывает Вам где и как получить всё в игре! У нас большое сообщество в Discord (ссылка внизу), где Вы можете спрашивать, оставлять предложения, а также сообщать об ошибках и пропавших предметах. Если Вы нашли предмет или задание, которые не задокументированы, Вы можете сказать нам в Discord, для более технически подкованных у нас Git, в котором Вы можете участвовать.\n\nПока мы стремимся к выполнению, есть множество вещей, что добавляются в игру с каждым патчем, и если что-то отсутствует, пожалуйста, поймите, у нас небольшая команда, пытающаяся держать темп с изменениями, в то же время собирая Штучки. :D\n\nНе стесняйтесь спрашивать меня во время трансляций, даже если вопрос не связан напрямую с ATT (стандартное программирование аддонов WoW тоже).\nПримечание переводчика: на английском языке.\n\n- |r|Cffff8000Crieve|CFFFFFFFF\n\nPS: Зацените версию All The Things Classic и TBC Classic!\n\nНет, ATT не тот аддон, который ставит иконки в Ваших сумках. Это CanIMogIt и Caerdon Wardrobe!\n\nРекомендуем сайт для сравнения коллекций DataForAzeroth.com от shoogen!|r";
-		L.ABOUT_2 = "Дополнительные Участники: |CFFFFFFFF(в произвольном порядке)\nDaktar, Lucetia, Slumber, Gold, Avella, Aiue, Dead Serious, Oiche, Oxlotus, Eiltherune, Blueyleader, Iyanden, Pr3vention, BigBlaris, Talonzor, Mogwai, Heallie, Eckhardt, Boohyaka, Sadidorf, Sanctuari, Molkree, Runawaynow, Braghe, Myrhial, Darkal и весь остальной ALL THE THINGS Discord!\n\nОсобая Благодарность AmiYuy (CanIMogIt) и Caerdon (Caerdon Wardrobe).|r  ";
+		L.ABOUT_2 = "Дополнительные Участники: |CFFFFFFFF(в произвольном порядке)\nDaktar, Lucetia, Slumber, Gold, Avella, Aiue, Dead Serious, Oiche, Oxlotus, Eiltherune, Blueyleader, Iyanden, Pr3vention, BigBlaris, Talonzor, Mogwai, Heallie, Eckhardt, Boohyaka, Sadidorf, Sanctuari, Molkree, Runawaynow, Braghe, Myrhial, Darkal, Tag и весь остальной ALL THE THINGS Discord!\n\nОсобая Благодарность AmiYuy (CanIMogIt) и Caerdon (Caerdon Wardrobe).|r  ";
 		L.ABOUT_3 = "\n|CFFFFFFFFВы просто обязаны загрузить их аддоны для иконок коллекций в Ваших сумках!|r";
 
 	-- Binding Localizations
@@ -2058,7 +2058,6 @@ for key,value in pairs({
 	[250109] = "Сундук с сокровищами",	-- Treasure Chest
 	[250383] = "Реликвия обители Лунной Тени",	-- Moonshade Relic
 	[250541] = "Сундук с сокровищами",	-- Treasure Chest
-	[250671] = "Записки \"Незримой Длани\"",	-- Notes on the Veiled Hand
 	[250984] = "Маленький сундук с сокровищами",	-- Small Treasure Chest
 	[250985] = "Сундук с сокровищами",	-- Treasure Chest
 	[251032] = "Комод",	-- Armoire
@@ -2980,7 +2979,7 @@ for key,value in pairs({
 	[375362] = "Гнездо авиана",	-- Avian Nest
 	[375363] = "Сундук с припасами Верных Утробе",	-- Mawsworn Supply Chest
 	[375366] = "Яйца тарахнидов",	-- Tarachnid Eggs
-	--TODO: [375368] = "Creation Catalyst Console",	-- Creation Catalyst Console
+	[375368] = "Консоль катализатора творения",	-- Creation Catalyst Console
 	[375369] = "Изгрызенная сумка",	-- Gnawed Valise
 	[375370] = "Схема протосинтеза",	-- Protoform Schematic
 	[375371] = "Схема протосинтеза",	-- Protoform Schematic

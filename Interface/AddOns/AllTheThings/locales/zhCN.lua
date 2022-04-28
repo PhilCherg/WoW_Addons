@@ -511,7 +511,7 @@ local L = app.L;
 	-- About tab
 		L.ABOUT = "关于";
 		L.ABOUT_1 = " |CFFFFFFFF是一个收藏跟踪插件，可以向您展示在游戏中获取所有内容的位置和方式！我们的 Discord 上有大量用户社区（底部链接），您可以在其中提问、提交建议以及报告错误或丢失的物品。如果发现一些收藏品或未记录的任务，可以在 Discord 上告诉我们，或者对于更精通技术的人，我们有一个您可以直接贡献的 Git。\n\n虽然我们努力争取完成，但每个补丁都会添加很多东西，所以如果我们遗漏了什么，请理解我们是一个小团队，试图跟上变化并自己收藏东西。:D\n\n在我直播时随时问我问题，我会尽力回答，即使它与 ATT（一般魔兽插件编程也是如此）没有直接关系。\n\n- |r|Cffff8000Crieve|CFFFFFFFF\n\n另外：查看 All The Things 经典旧世和燃烧的远征经典旧世！\n\n是的，我打算玩经典旧世魔兽哦，但是在全职工作和开发插件的两个版本之间，不会有很多时间用于团队。\n\n不，ATT 不是将图标放在包图标上的插件。那是 CanIMogIt 和 Caerdon Wardrobe！\n\n对于在线收藏比较，请查看 shoogen 的 DataForAzeroth.com！|r";
-		L.ABOUT_2 = "其他贡献者：|CFFFFFFFF（加入团队顺序）\nDaktar，Lucetia，Slumber，Gold，Avella，Aiue，Dead Serious，Oiche，Oxlotus，Eiltherune，Blueyleader，Iyanden，Pr3vention，BigBlaris，Talonzor，Mogwai，Heallie，Eckhardt，Boohyaka，Sadidorf，Sanctuari，Molkree，Runawaynow，Braghe，Myrhial，Darkal 和其他 ATT Discord 的人们！\n\n特别鸣谢 AmiYuy（CanIMogIt）和Caerdon（Caerdon Wardrobe）。|r  ";
+		L.ABOUT_2 = "其他贡献者：|CFFFFFFFF（加入团队顺序）\nDaktar，Lucetia，Slumber，Gold，Avella，Aiue，Dead Serious，Oiche，Oxlotus，Eiltherune，Blueyleader，Iyanden，Pr3vention，BigBlaris，Talonzor，Mogwai，Heallie，Eckhardt，Boohyaka，Sadidorf，Sanctuari，Molkree，Runawaynow，Braghe，Myrhial，Darkal，Tag 和其他 ATT Discord 的人们！\n\n特别鸣谢 AmiYuy（CanIMogIt）和Caerdon（Caerdon Wardrobe）。|r  ";
 		L.ABOUT_3 = "\n|CFFFFFFFF你绝对应该下载他们的插件，以便在你的背包里的物品上获得收藏图标！|r";
 
 	-- Binding Localizations
@@ -2072,7 +2072,6 @@ for key, value in pairs({
 	[250109] = "宝箱",	-- Treasure Chest
 	[250383] = "月影圣物",	-- Moonshade Relic
 	[250541] = "宝箱",	-- Treasure Chest
-	--TODO: [250671] = "Notes on the Veiled Hand",	-- Notes on the Veiled Hand
 	[250984] = "小宝箱",	-- Small Treasure Chest
 	[250985] = "宝箱",	-- Treasure Chest
 	[251032] = "衣橱",	-- Armoire
@@ -2309,7 +2308,7 @@ for key, value in pairs({
 	[278570] = "古代日志",	-- Ancient Journal
 	[278577] = "被撕碎的部落信函",	-- Torn Horde Missive
 	[278669] = "萧湾镇账本",	-- Fallhaven Ledger
-	[278675] = "被诅咒的雕像",	-- Cursed Effigy	--TODO: This was manually translated
+	[278675] = "被诅咒的雕像",	-- Cursed Effigy
 	[279042] = "走私者的藏品",	-- Smuggler's Stash
 	[279253] = "幸运的霍拉斯的幸运宝箱",	-- Lucky Horace's Lucky Chest
 	[279260] = "“精心”伪装的宝箱",	-- Cleverly Disguised Chest
@@ -2342,7 +2341,7 @@ for key, value in pairs({
 	[281397] = "破浪宝箱",	-- Cutwater Treasure Chest
 	[281494] = "冰霜宝箱",	-- Frosty Treasure Chest
 	[281551] = "求助布告",	-- Help Wanted Poster
-	[281583] = "古代圣物",	-- Ancient Reliquary	--TODO: This was manually translated
+	[281583] = "古代圣物",	-- Ancient Reliquary
 	[281639] = "崩解的雕像",	-- Crumbling Statue
 	[281646] = "蜂蜜大桶",	-- Honey Vat
 	[281647] = "张贴的布告",	-- Posted Notice
@@ -2803,14 +2802,14 @@ for key, value in pairs({
 	[355886] = "凋殇者宝箱",	-- Plaguefallen Chest
 	[355947] = "格拉萨恩的宝箱",	-- Glutharn's Stash
 	[356555] = "欧律迪亚的项链",	-- Eurydea's Necklace
-	--TODO: [356693] = "Baroness Vashj's Extravagant Tribute",	-- Baroness Vashj's Extravagant Tribute
+	[356693] = "瓦丝琪女男爵的奢华礼品",	-- Baroness Vashj's Extravagant Tribute
 	[356697] = "亚历山德罗斯·莫格莱尼的奢华礼品",	-- Alexandros Mograine's Extravagant Tribute
-	--TODO: [356700] = "Grandmaster Vole's Extravagant Tribute",	-- Grandmaster Vole's Extravagant Tribute
+	[356700] = "沃尔大师的奢华礼品",	-- Grandmaster Vole's Extravagant Tribute
 	[356705] = "魔药设计师马里莱斯的奢华礼品",	-- Plague Deviser Marileth's Extravagant Tribute
 	[356709] = "月莓女勋爵的奢华礼品",	-- Lady Moonberry's Extravagant Tribute
-	--TODO: [356712] = "Hunt-Captain Korayn's Extravagant Tribute",	-- Hunt-Captain Korayn's Extravagant Tribute
+	[356712] = "狩猎队长柯莱恩的奢华礼品",	-- Hunt-Captain Korayn's Extravagant Tribute
 	[356716] = "宗主艾莉奥瑟的奢华供品",	-- Droman Aliothe's Extravagant Tribute
-	--TODO: [356720] = "Choofa's Extravagant Tribute",	-- Choofa's Extravagant Tribute
+	[356720] = "丘法的奢华礼品",	-- Choofa's Extravagant Tribute
 	[356725] = "文官阿得赖斯提斯的奢华供品",	-- Polemarch Adrestes' Extravagant Tribute
 	[356728] = "米卡尼科斯的奢华礼品",	-- Mikanikos' Extravagant Tribute
 	[356733] = "克雷雅和裴拉戈斯的奢华供品",	-- Kleia and Pelagos' Extravagant Tribute
@@ -2994,7 +2993,7 @@ for key, value in pairs({
 	[375362] = "元鸟之巢",	-- Avian Nest
 	[375363] = "渊誓补给宝箱",	-- Mawsworn Supply Chest
 	[375366] = "元蛛卵",	-- Tarachnid Eggs
-	--TODO: [375368] = "Creation Catalyst Console",	-- Creation Catalyst Console
+	[375368] = "造物化生控制台",	-- Creation Catalyst Console
 	[375369] = "被咬过的旅行袋",	-- Gnawed Valise
 	[375370] = "原生体设计方案",	-- Protoform Schematic
 	[375371] = "原生体设计方案",	-- Protoform Schematic
