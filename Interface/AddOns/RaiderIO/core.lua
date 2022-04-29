@@ -6978,6 +6978,13 @@ do
         return search:ShowProfile(arg3, nil, arg2, arg1)
     end
 
+    function search:SearchAndShowProfile(region, faction, realm, name)
+        searchRegionBox:SetText(region)
+        searchRealmBox:SetText(realm)
+        searchNameBox:SetText(name)
+        return search:ShowProfile(region, faction, realm, name)
+    end
+
     function search:Toggle()
         if not self:IsEnabled() then
             return
@@ -7162,7 +7169,7 @@ do
         if not shown then
             search:Show()
         end
-        if search:Search(format("%s %s", selectedName, selectedRealm)) then
+        if search:SearchAndShowProfile(ns.PLAYER_REGION, selectedFaction, selectedRealm, selectedName) then
             return true -- indicates we are showing the search dialog and we don't want to show the static popup
         elseif not shown then
             search:Hide()

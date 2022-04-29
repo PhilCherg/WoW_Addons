@@ -1,5 +1,5 @@
 --
--- RaiderIO Client Data. Generated on 2022-04-28T22:21:15Z
+-- RaiderIO Client Data. Generated on 2022-04-29T21:17:30Z
 --
 local _, ns = ...
 ns.GUILD_BEST_DATA = {
@@ -750,6 +750,40 @@ ns.GUILD_BEST_DATA = {
         }
       },
       [2] = {
+        ["zone_id"] = 12837,
+        ["level"] = 24,
+        ["upgrades"] = 1,
+        ["fraction"] = 0.90230196595556,
+        ["clear_time"] = "00:35:12.288",
+        ["party"] = {
+          [1] = {
+            ["name"] = "Cummycxnt",
+            ["role"] = "tank",
+            ["class_id"] = 12
+          },
+          [2] = {
+            ["name"] = "Wetterradar",
+            ["role"] = "healer",
+            ["class_id"] = 7
+          },
+          [3] = {
+            ["name"] = "Helive",
+            ["role"] = "dps",
+            ["class_id"] = 4
+          },
+          [4] = {
+            ["name"] = "Ithiden",
+            ["role"] = "dps",
+            ["class_id"] = 8
+          },
+          [5] = {
+            ["name"] = "Týroné",
+            ["role"] = "dps",
+            ["class_id"] = 9
+          }
+        }
+      },
+      [3] = {
         ["zone_id"] = 13309,
         ["level"] = 24,
         ["upgrades"] = 1,
@@ -783,7 +817,7 @@ ns.GUILD_BEST_DATA = {
           }
         }
       },
-      [3] = {
+      [4] = {
         ["zone_id"] = 1000001,
         ["level"] = 23,
         ["upgrades"] = 1,
@@ -817,7 +851,7 @@ ns.GUILD_BEST_DATA = {
           }
         }
       },
-      [4] = {
+      [5] = {
         ["zone_id"] = 13334,
         ["level"] = 23,
         ["upgrades"] = 0,
@@ -848,40 +882,6 @@ ns.GUILD_BEST_DATA = {
             ["name"] = "Virathus",
             ["role"] = "dps",
             ["class_id"] = 12
-          }
-        }
-      },
-      [5] = {
-        ["zone_id"] = 12831,
-        ["level"] = 22,
-        ["upgrades"] = 1,
-        ["fraction"] = 0.9550827460087173,
-        ["clear_time"] = "00:30:34.713",
-        ["party"] = {
-          [1] = {
-            ["name"] = "Purplestuff",
-            ["role"] = "tank",
-            ["class_id"] = 6
-          },
-          [2] = {
-            ["name"] = "Reef",
-            ["role"] = "healer",
-            ["class_id"] = 11
-          },
-          [3] = {
-            ["name"] = "Divill",
-            ["role"] = "dps",
-            ["class_id"] = 9
-          },
-          [4] = {
-            ["name"] = "Georgilina",
-            ["role"] = "dps",
-            ["class_id"] = 3
-          },
-          [5] = {
-            ["name"] = "Lanera",
-            ["role"] = "dps",
-            ["class_id"] = 3
           }
         }
       }
