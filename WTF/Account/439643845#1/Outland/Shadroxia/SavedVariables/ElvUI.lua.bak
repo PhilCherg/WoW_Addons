@@ -2,28 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"its only reve", -- [1]
-			"Nagetsu-Pozzodell'Eternità", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Nagetsu-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			104, -- [11]
-			"Player-1309-0AE9B1BD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
-			[51] = 1650354234,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [1]
-		{
 			"and explore", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
 			"Common", -- [3]
@@ -44,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650354238,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [2]
+		}, -- [1]
 		{
 			"jsut do the wq when itts up", -- [1]
 			"Kolpina-Aggramar", -- [2]
@@ -66,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kolpina-Aggramar|r",
 			[51] = 1650354240,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [3]
+		}, -- [2]
 		{
 			"I hate these dailies here", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -88,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354249,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [4]
+		}, -- [3]
 		{
 			"the hard is kill all rares fir the achi etc", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -110,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650354256,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [5]
+		}, -- [4]
 		{
 			"fuck achievments EKS DEE", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -132,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354268,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [6]
+		}, -- [5]
 		{
 			"u dont need rares for flying xd", -- [1]
 			"Kolpina-Aggramar", -- [2]
@@ -154,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kolpina-Aggramar|r",
 			[51] = 1650354272,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [7]
+		}, -- [6]
 		{
 			"deep worlds bro", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -176,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650354280,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [8]
+		}, -- [7]
 		{
 			"I need then for WQ", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -198,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354282,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [9]
+		}, -- [8]
 		{
 			"explore mechagon is complete? ", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -220,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650354304,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [10]
+		}, -- [9]
 		{
 			"YUP", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -242,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354309,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [11]
+		}, -- [10]
 		{
 			"quite ez", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -264,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354323,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [12]
+		}, -- [11]
 		{
 			":D", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -286,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650354325,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [13]
+		}, -- [12]
 		{
 			"same as naga land", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -308,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354327,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [14]
+		}, -- [13]
 		{
 			"I hate that flying is locked behind this shit", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -330,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354338,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [15]
+		}, -- [14]
 		{
 			"we are already grinding our asses off and for what ? ", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -352,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354349,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [16]
+		}, -- [15]
 		{
 			"time gates and pain and suffering", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -374,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354358,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [17]
+		}, -- [16]
 		{
 			"first legion u have to buyfly with all characters", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -396,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650354363,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [18]
+		}, -- [17]
 		{
 			"dont bother with getting flying then", -- [1]
 			"Kolpina-Aggramar", -- [2]
@@ -418,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kolpina-Aggramar|r",
 			[51] = 1650354379,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [19]
+		}, -- [18]
 		{
 			"Legion was ...... OKAY", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -440,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354379,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [20]
+		}, -- [19]
 		{
 			"is better now u unlock with 1 and  fly for all", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -462,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650354385,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [21]
+		}, -- [20]
 		{
 			"blizzard might give it in 10:0", -- [1]
 			"Kolpina-Aggramar", -- [2]
@@ -484,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kolpina-Aggramar|r",
 			[51] = 1650354388,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [22]
+		}, -- [21]
 		{
 			"for everyone", -- [1]
 			"Kolpina-Aggramar", -- [2]
@@ -506,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kolpina-Aggramar|r",
 			[51] = 1650354392,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [23]
+		}, -- [22]
 		{
 			"yeah", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -528,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354393,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [24]
+		}, -- [23]
 		{
 			"like tthey did with legion", -- [1]
 			"Kolpina-Aggramar", -- [2]
@@ -550,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kolpina-Aggramar|r",
 			[51] = 1650354396,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [25]
+		}, -- [24]
 		{
 			"in wrath u must buy fky with all.. 0 alts for me", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -572,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650354397,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [26]
+		}, -- [25]
 		{
 			"expansion reveal today btw", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -594,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354399,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [27]
+		}, -- [26]
 		{
 			"Naga playable race when ? ", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -616,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354414,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [28]
+		}, -- [27]
 		{
 			"hope soon xD i want a naga ", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -638,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650354434,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [29]
+		}, -- [28]
 		{
 			"i want a tortollian tank", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -660,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650354449,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [30]
+		}, -- [29]
 		{
 			"I saw a leak of some CRINGE dragon humanoid that wa slike the worgen : it had a human counterpart", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -682,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354461,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [31]
+		}, -- [30]
 		{
 			"By the Light I hope it is fake", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -704,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354476,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [32]
+		}, -- [31]
 		{
 			"like a shaman but dragons", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -726,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650354493,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [33]
+		}, -- [32]
 		{
 			"No no, like the wogen race", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -748,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354512,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [34]
+		}, -- [33]
 		{
 			"you can transform into a dragon thing", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -770,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354521,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [35]
+		}, -- [34]
 		{
 			"a dragon humanoid", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -792,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354530,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [36]
+		}, -- [35]
 		{
 			"it look BAD", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -814,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354533,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [37]
+		}, -- [36]
 		{
 			"I hope it is fake", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -836,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354538,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [38]
+		}, -- [37]
 		{
 			"I want a warden class because Maiev Shadowsong is my girl", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -858,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354556,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [39]
+		}, -- [38]
 		{
 			"OVER HERE !!! COME AT ME !!!", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -880,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354583,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [40]
+		}, -- [39]
 		{
 			"Ready to engage!", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -902,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354591,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [41]
+		}, -- [40]
 		{
 			"This is soooo Fallout inspired island", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -924,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354624,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [42]
+		}, -- [41]
 		{
 			"it's like Blizz is copying other games and says : look we have that too in our game", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -946,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354640,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [43]
+		}, -- [42]
 		{
 			"Where is this loser ? ", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -968,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354666,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [44]
+		}, -- [43]
 		{
 			"He is not in there", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -990,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354696,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [45]
+		}, -- [44]
 		{
 			"What in light's name ws that XD", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1012,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354727,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [46]
+		}, -- [45]
 		{
 			"I smell ... hooorde >:(", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1034,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354747,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [47]
+		}, -- [46]
 		{
 			"Look at this edgelord", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1056,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354872,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [48]
+		}, -- [47]
 		{
 			"whhuuhu", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -1078,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650354881,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [49]
+		}, -- [48]
 		{
 			"I summon thee boss", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1100,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354898,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [50]
+		}, -- [49]
 		{
 			"le spawnu nowu", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1122,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354902,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [51]
+		}, -- [50]
 		{
 			"Do you guys smell it ? ", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1144,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354934,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [52]
+		}, -- [51]
 		{
 			"it started to stink in here", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1166,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354941,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [53]
+		}, -- [52]
 		{
 			"yeee ", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -1188,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650354944,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [54]
+		}, -- [53]
 		{
 			"yupp stink", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1210,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354950,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [55]
+		}, -- [54]
 		{
 			"here too", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1232,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354957,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [56]
+		}, -- [55]
 		{
 			"and here", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1254,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354960,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [57]
+		}, -- [56]
 		{
 			"its mine", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -1276,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650354974,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [58]
+		}, -- [57]
 		{
 			"the ''priviledge'' faction is here", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1298,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354974,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [59]
+		}, -- [58]
 		{
 			"i eat after kill", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -1320,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650354978,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [60]
+		}, -- [59]
 		{
 			"blblblbl", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -1342,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650354980,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [61]
+		}, -- [60]
 		{
 			"the plot armor faction is here", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1364,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354981,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [62]
+		}, -- [61]
 		{
 			"plof", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -1386,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650354987,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [63]
+		}, -- [62]
 		{
 			"mm my stomach", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -1408,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650354995,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [64]
+		}, -- [63]
 		{
 			"anyone want a beer? ", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -1430,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650355010,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [65]
+		}, -- [64]
 		{
 			"Sure my good man", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1452,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355020,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [66]
+		}, -- [65]
 		{
 			"ogar kaz gi zil'nok ", -- [1]
 			"Hekali-Ragnaros", -- [2]
@@ -1474,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHekali-Ragnaros|r",
 			[51] = 1650355022,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [67]
+		}, -- [66]
 		{
 			"SHUT THE FUCK UP !", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1496,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355029,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [68]
+		}, -- [67]
 		{
 			"Please continue my good man", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1518,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355040,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [69]
+		}, -- [68]
 		{
 			"limp bizkit rocking the set", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -1540,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650355041,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [70]
+		}, -- [69]
 		{
 			"XD", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1562,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355048,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [71]
+		}, -- [70]
 		{
 			"its like a russian roulette where u place u bet", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -1584,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650355073,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [72]
+		}, -- [71]
 		{
 			"Can someone pull up an auction house dinosaur ? ", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1606,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355082,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [73]
+		}, -- [72]
 		{
 			"if i have.. sad", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -1628,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650355093,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [74]
+		}, -- [73]
 		{
 			"Talking to the rich people ofcourse", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1650,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355097,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [75]
+		}, -- [74]
 		{
 			"lul", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -1672,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650355107,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [76]
+		}, -- [75]
 		{
 			"Hey", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1694,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355123,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [77]
+		}, -- [76]
 		{
 			"my dude that is running", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1716,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355132,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [78]
+		}, -- [77]
 		{
 			"dude", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1738,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355135,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [79]
+		}, -- [78]
 		{
 			"Come here", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1760,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355140,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [80]
+		}, -- [79]
 		{
 			"Pls transmog yourself", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1782,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355147,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [81]
+		}, -- [80]
 		{
 			"hi", -- [1]
 			"Tomyrris-Silvermoon", -- [2]
@@ -1804,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaTomyrris-Silvermoon|r",
 			[51] = 1650355154,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [82]
+		}, -- [81]
 		{
 			"shadowlands armor is cringe", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1826,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355157,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [83]
+		}, -- [82]
 		{
 			"sure", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -1848,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650355164,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [84]
+		}, -- [83]
 		{
 			"nice", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1870,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355171,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [85]
+		}, -- [84]
 		{
 			"id like zereth trasmo", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -1892,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650355173,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [86]
+		}, -- [85]
 		{
 			"for nothing", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -1914,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650355176,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [87]
+		}, -- [86]
 		{
 			"Absolute chad", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1936,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355179,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [88]
+		}, -- [87]
 		{
 			"prefeeer last patch", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -1958,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650355182,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [89]
+		}, -- [88]
 		{
 			"zereth is the ''atheist delight'' zone", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1980,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355188,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [90]
+		}, -- [89]
 		{
 			"LFM Operation Mechagon ", -- [1]
 			"Hundige-Outland", -- [2]
@@ -2002,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Hundige|r",
 			[51] = 1650356519,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [90]
 		{
 			"14 m", -- [1]
 			"Esplide-Nemesis", -- [2]
@@ -2024,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Esplide-Nemesis|r",
 			[51] = 1650356928,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [92]
+		}, -- [91]
 		{
 			"20 s", -- [1]
 			"Esplide-Nemesis", -- [2]
@@ -2046,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Esplide-Nemesis|r",
 			[51] = 1650357755,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [93]
+		}, -- [92]
 		{
 			"{rt8}A. Harvester{rt8}: 19m 50s-39m 50s (WorldBossTimers:1650361375)", -- [1]
 			"Esplide-Nemesis", -- [2]
@@ -2068,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Esplide-Nemesis|r",
 			[51] = 1650357784,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [94]
+		}, -- [93]
 		{
 			"Rustfeather (262.00k/282.40k 92.78%) 65.48 78.33 |cffffff00|Hworldmap:1462:6547:7832|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Renova-Ravencrest", -- [2]
@@ -2090,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRenova-Ravencrest|r",
 			[51] = 1650996764,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [94]
 		{
 			"Rustfeather died at 21:12 server time!", -- [1]
 			"Renova-Ravencrest", -- [2]
@@ -2112,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRenova-Ravencrest|r",
 			[51] = 1650996780,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [95]
 		{
 			"wtb plate legendary ", -- [1]
 			"Immortallcé-Outland", -- [2]
@@ -2134,7 +2112,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Immortallcé|r",
 			[51] = 1651012701,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [96]
 		{
 			"lol", -- [1]
 			"Cornsnacker-Outland", -- [2]
@@ -2156,7 +2134,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Cornsnacker|r",
 			[51] = 1651012732,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [97]
 		{
 			"<Team> Boosting Key +10 - 20  || Torghast || Level Up  /w for info (only gold)", -- [1]
 			"Yaveh-Outland", -- [2]
@@ -2177,6 +2155,28 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "|cff006fdcYaveh|r",
 			[51] = 1651013067,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"WTS |cff1eff00|Hitem:24585::::::::46:64:::1:1708::::::|h[Outlander's Facewrap of the Aurora]|h|r /w me", -- [1]
+			"Ragedmage-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ragedmage-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			10, -- [11]
+			"Player-1301-068BF6B6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaRagedmage|r",
+			[51] = 1651122190,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},
