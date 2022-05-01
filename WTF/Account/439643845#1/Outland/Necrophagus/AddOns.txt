@@ -376,9 +376,9 @@ TomCats-HallowsEnd: disabled
 TomCats-LoveIsInTheAir: disabled
 TomCats-LunarFestival: disabled
 TomCats-Noblegarden: disabled
-BtWQuests: disabled
+BtWQuests: enabled
 BtWQuestsBattleForAzerothPrologue: disabled
-BtWQuestsCataclysm: disabled
+BtWQuestsCataclysm: enabled
 BtWQuestsLegion: disabled
 BtWQuestsMistsOfPandaria: disabled
 BtWQuestsShadowlands: disabled

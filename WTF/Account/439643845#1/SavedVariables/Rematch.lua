@@ -416,7 +416,7 @@ RematchSettings = {
 	["QueueSanctuary"] = {
 	},
 	["Sort"] = {
-		["Order"] = 1,
+		["Order"] = 2,
 	},
 	["JournalPanel"] = 1,
 	["BackupCount"] = 0,
@@ -693,14 +693,14 @@ RematchSettings = {
 			11, -- [7]
 			3, -- [8]
 		},
-		["BattlePet-0-000009601AFD"] = {
+		["BattlePet-0-0000079892E6"] = {
 			1, -- [1]
 			true, -- [2]
-			2552, -- [3]
-			1, -- [4]
-			153, -- [5]
-			12, -- [6]
-			11, -- [7]
+			1233, -- [3]
+			2, -- [4]
+			219, -- [5]
+			24, -- [6]
+			19, -- [7]
 			4, -- [8]
 		},
 		["BattlePet-0-000009B8B99D"] = {
@@ -713,14 +713,14 @@ RematchSettings = {
 			187, -- [7]
 			1, -- [8]
 		},
-		["BattlePet-0-0000079892E6"] = {
+		["BattlePet-0-000009601AFD"] = {
 			1, -- [1]
 			true, -- [2]
-			1233, -- [3]
-			2, -- [4]
-			219, -- [5]
-			24, -- [6]
-			19, -- [7]
+			2552, -- [3]
+			1, -- [4]
+			153, -- [5]
+			12, -- [6]
+			11, -- [7]
 			4, -- [8]
 		},
 		["BattlePet-0-000009760873"] = {
@@ -895,7 +895,7 @@ RematchSettings = {
 		},
 	},
 	["YPos"] = 388.0783081054688,
-	["SelectedTab"] = 3,
+	["SelectedTab"] = 2,
 	["ScriptFilters"] = {
 		{
 			"Unnamed Pets", -- [1]
@@ -953,9 +953,9 @@ RematchSettings = {
 		},
 		["Collected"] = {
 		},
-		["Sources"] = {
-		},
 		["Similar"] = {
+		},
+		["Sources"] = {
 		},
 		["Breed"] = {
 		},
@@ -964,6 +964,7 @@ RematchSettings = {
 		["Strong"] = {
 		},
 		["Level"] = {
+			[3] = true,
 		},
 		["Tough"] = {
 		},
