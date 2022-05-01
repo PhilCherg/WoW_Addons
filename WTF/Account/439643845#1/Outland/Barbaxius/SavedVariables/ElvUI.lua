@@ -2,50 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14840:Player-1301-0B0D2B3F:1:4:14:22:4294967295:4294967295:4294967295:4294967295|h[Adventures: Learning the Ropes]|h|r!", -- [1]
-			"Barbaxius-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Barbaxius-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			955, -- [11]
-			"Player-1301-0B0D2B3F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cBarbaxius|r",
-			[51] = 1649935545,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [1]
-		{
-			"WTB |cffffffff|Hitem:178926::::::::60:261:::::::::|h[Shadowghast Ring]|h|r 291, 55k", -- [1]
-			"Stifflix-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Stifflix-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			968, -- [11]
-			"Player-1301-0C29D43A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Stifflix|r",
-			[51] = 1649935714,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
 			"Why hasn't Blizzard removed Warcraft availability in Russia?", -- [1]
 			"Warfarian-Outland", -- [2]
 			"", -- [3]
@@ -66,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Warfarian|r",
 			[51] = 1650017862,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
+		}, -- [1]
 		{
 			"thanks, ur allways such a big help :)", -- [1]
 			"Slutstagram-Sylvanas", -- [2]
@@ -88,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSlutstagram-Sylvanas|r",
 			[51] = 1650036714,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
+		}, -- [2]
 		{
 			"Aw np. and thanks ^^", -- [1]
 			"Renova-Ravencrest", -- [2]
@@ -110,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRenova-Ravencrest|r",
 			[51] = 1650036738,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
+		}, -- [3]
 		{
 			"bless u ", -- [1]
 			"Drama-TheMaelstrom", -- [2]
@@ -132,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Drama-TheMaelstrom|r",
 			[51] = 1650036751,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
+		}, -- [4]
 		{
 			"harvester is a 1hour spawn timer or?", -- [1]
 			"Tooralyon-Silvermoon", -- [2]
@@ -154,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Tooralyon-Silvermoon|r",
 			[51] = 1650036768,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
+		}, -- [5]
 		{
 			"harvester is 20-40min", -- [1]
 			"Slutstagram-Sylvanas", -- [2]
@@ -176,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSlutstagram-Sylvanas|r",
 			[51] = 1650036776,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
+		}, -- [6]
 		{
 			"20 to 40 minutes", -- [1]
 			"Renova-Ravencrest", -- [2]
@@ -198,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRenova-Ravencrest|r",
 			[51] = 1650036778,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
+		}, -- [7]
 		{
 			"ok thx", -- [1]
 			"Tooralyon-Silvermoon", -- [2]
@@ -220,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Tooralyon-Silvermoon|r",
 			[51] = 1650036791,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
+		}, -- [8]
 		{
 			"Ive been trying to get flying in BFA and i need revered with rustbolt, is there a better way than just doing dailys? is there a farm?", -- [1]
 			"Slutstagram-Sylvanas", -- [2]
@@ -242,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSlutstagram-Sylvanas|r",
 			[51] = 1650036811,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
+		}, -- [9]
 		{
 			"It is kinda slow yeah. I think the dungeon could give some rep as well", -- [1]
 			"Renova-Ravencrest", -- [2]
@@ -264,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRenova-Ravencrest|r",
 			[51] = 1650036860,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
+		}, -- [10]
 		{
 			"You could go Warmode for a little bit of extra rep since you get an extra quest when you have Warmode on. ", -- [1]
 			"Taranar-ZirkeldesCenarius", -- [2]
@@ -286,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edTaranar-ZirkeldesCenarius|r",
 			[51] = 1650036866,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
+		}, -- [11]
 		{
 			"smart! ", -- [1]
 			"Slutstagram-Sylvanas", -- [2]
@@ -308,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSlutstagram-Sylvanas|r",
 			[51] = 1650036895,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
+		}, -- [12]
 		{
 			"yesterday i was doing dailies in nazjatar and fabious spawned, and i didnt have the camera :((((((", -- [1]
 			"Slutstagram-Sylvanas", -- [2]
@@ -330,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSlutstagram-Sylvanas|r",
 			[51] = 1650036915,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
+		}, -- [13]
 		{
 			"any1 doing the dung mythic? i wanna get transmog and need help", -- [1]
 			"Ásh-Ragnaros", -- [2]
@@ -352,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ásh-Ragnaros|r",
 			[51] = 1650036915,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
+		}, -- [14]
 		{
 			"timer anyone?", -- [1]
 			"Kolpina-Aggramar", -- [2]
@@ -374,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kolpina-Aggramar|r",
 			[51] = 1650037061,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [17]
+		}, -- [15]
 		{
 			"Been here since 18:17 and not spawn since", -- [1]
 			"Renova-Ravencrest", -- [2]
@@ -396,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRenova-Ravencrest|r",
 			[51] = 1650037081,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [18]
+		}, -- [16]
 		{
 			"thnc", -- [1]
 			"Kolpina-Aggramar", -- [2]
@@ -418,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kolpina-Aggramar|r",
 			[51] = 1650037089,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [19]
+		}, -- [17]
 		{
 			"so should be soon", -- [1]
 			"Renova-Ravencrest", -- [2]
@@ -440,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRenova-Ravencrest|r",
 			[51] = 1650037090,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [20]
+		}, -- [18]
 		{
 			"np :)", -- [1]
 			"Renova-Ravencrest", -- [2]
@@ -462,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRenova-Ravencrest|r",
 			[51] = 1650037095,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [21]
+		}, -- [19]
 		{
 			"need 1 more for hardmode Mechagon mount run", -- [1]
 			"Dilidan-Sylvanas", -- [2]
@@ -484,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Dilidan-Sylvanas|r",
 			[51] = 1650037443,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
+		}, -- [20]
 		{
 			"Rustfeather 2 to 17 minutes", -- [1]
 			"Renova-Ravencrest", -- [2]
@@ -506,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRenova-Ravencrest|r",
 			[51] = 1650037462,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
+		}, -- [21]
 		{
 			"High chance for Harvester to spawn before since it hasn't been up for quite a while", -- [1]
 			"Renova-Ravencrest", -- [2]
@@ -528,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRenova-Ravencrest|r",
 			[51] = 1650037502,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
+		}, -- [22]
 		{
 			"Arachnoid Harvester (330.40k/331.27k 99.74%) 51.86 41.16 |cffffff00|Hworldmap:1462:5185:4115|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Renova-Ravencrest", -- [2]
@@ -550,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRenova-Ravencrest|r",
 			[51] = 1650037839,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
+		}, -- [23]
 		{
 			"Arachnoid Harvester died at 18:50 server time!", -- [1]
 			"Renova-Ravencrest", -- [2]
@@ -572,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRenova-Ravencrest|r",
 			[51] = 1650037857,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
+		}, -- [24]
 		{
 			"Oh god, I finally got the harvester mount...", -- [1]
 			"Renova-Ravencrest", -- [2]
@@ -594,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRenova-Ravencrest|r",
 			[51] = 1650037879,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
+		}, -- [25]
 		{
 			" ruK G Ruk'ka'ha ruK RUk KEk TAr KEk  KAZUM'NOBU ", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
@@ -616,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1650124924,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [28]
+		}, -- [26]
 		{
 			" ruK G Ruk'ka'ha ruK Gi GUl ZUg GUl  KAZUM'NOBU ", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
@@ -638,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1650125047,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [29]
+		}, -- [27]
 		{
 			" ruK G Ruk'ka'ha ruK Ko KEk AAz KEk  KAZUM'NOBU ", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
@@ -660,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1650125092,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [30]
+		}, -- [28]
 		{
 			"how long have u been waiting", -- [1]
 			"Ælli-Ravencrest", -- [2]
@@ -682,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Ælli-Ravencrest|r",
 			[51] = 1650125380,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [31]
+		}, -- [29]
 		{
 			" ruK G Ruk'ka'ha ruK Ka GUl AAz  KAZUM'NOBU ", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
@@ -704,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1650125628,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [32]
+		}, -- [30]
 		{
 			" ruK G Ruk'ka'ha ruK Ka GUl KEk  KAZUM'NOBU ", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
@@ -726,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1650125633,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [33]
+		}, -- [31]
 		{
 			" ruK G Ruk'ka'ha ruK Ka GUl Ka  KAZUM'NOBU ", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
@@ -748,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1650125687,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [34]
+		}, -- [32]
 		{
 			" ruK G Ruk'ka'ha ruK Ka TAr KIl  KAZUM'NOBU ", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
@@ -770,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1650125994,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [35]
+		}, -- [33]
 		{
 			" ruK G Ruk'ka'ha ruK Ka RUk KIl  KAZUM'NOBU ", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
@@ -792,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1650126111,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [36]
+		}, -- [34]
 		{
 			" ruK G Ruk'ka'ha ruK Ka KEk GUl  KAZUM'NOBU ", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
@@ -814,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1650126210,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [37]
+		}, -- [35]
 		{
 			" ruK G Ruk'ka'ha ruK Ka Gi GUl  KAZUM'NOBU ", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
@@ -836,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1650126248,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [38]
+		}, -- [36]
 		{
 			" ruK G Ruk'ka'ha ruK Ka Ka GUl  KAZUM'NOBU ", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
@@ -858,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1650126530,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [39]
+		}, -- [37]
 		{
 			" ruK G Ruk'ka'ha ruK Ka Il TAr  KAZUM'NOBU ", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
@@ -880,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1650126651,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [40]
+		}, -- [38]
 		{
 			"nogu kagg ha ogerin", -- [1]
 			"ßloodmonk-Silvermoon", -- [2]
@@ -902,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97ßloodmonk-Silvermoon|r",
 			[51] = 1650126669,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [41]
+		}, -- [39]
 		{
 			"kaz", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
@@ -924,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1650126687,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [42]
+		}, -- [40]
 		{
 			"ha g raznos", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
@@ -946,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1650126688,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [43]
+		}, -- [41]
 		{
 			" ruK G Ruk'ka'ha ruK GUl KIl MOg KIl  REGASNOGAH ", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
@@ -968,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1650126698,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [44]
+		}, -- [42]
 		{
 			"you need lvl60 to be able to TP to Zereth Mortis ", -- [1]
 			"Chubbles-Outland", -- [2]
@@ -990,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeChubbles|r",
 			[51] = 1650141309,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [43]
 		{
 			"You need achievements both in SL and Zereth Mortis to unlock flying", -- [1]
 			"Silverhând-Outland", -- [2]
@@ -1012,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Silverhând|r",
 			[51] = 1650141313,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
+		}, -- [44]
 		{
 			"Ahhhh I'll check those. Thank you guys", -- [1]
 			"William-Outland", -- [2]
@@ -1034,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9William|r",
 			[51] = 1650141324,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
+		}, -- [45]
 		{
 			"Unlocking the Secrets is the achievement you need", -- [1]
 			"Braetius-Outland", -- [2]
@@ -1056,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edBraetius|r",
 			[51] = 1650141352,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [46]
 		{
 			"Maybe a bad time to start with a new expansion being revealed soon lol", -- [1]
 			"William-Outland", -- [2]
@@ -1078,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9William|r",
 			[51] = 1650141353,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+		}, -- [47]
 		{
 			"thanks mate", -- [1]
 			"William-Outland", -- [2]
@@ -1100,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9William|r",
 			[51] = 1650141366,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
+		}, -- [48]
 		{
 			"Will that give me flying for all zones? like bastion etc?", -- [1]
 			"William-Outland", -- [2]
@@ -1122,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9William|r",
 			[51] = 1650141403,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
+		}, -- [49]
 		{
 			"nah should be fine it's only the announcement probably talking november+ ", -- [1]
 			"Braetius-Outland", -- [2]
@@ -1144,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edBraetius|r",
 			[51] = 1650141409,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [50]
 		{
 			"Sorry I'm so confused", -- [1]
 			"William-Outland", -- [2]
@@ -1166,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9William|r",
 			[51] = 1650141410,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [51]
 		{
 			"that achievement is for Zereth Mortis only ", -- [1]
 			"Braetius-Outland", -- [2]
@@ -1188,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edBraetius|r",
 			[51] = 1650141431,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [52]
 		{
 			"WTS 2v2 Arena 1.4 / 2.1", -- [1]
 			"Elesis-Outland", -- [2]
@@ -1210,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Elesis|r",
 			[51] = 1650142079,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [53]
 		{
 			"Furypig the 2 tier set trade chat legend", -- [1]
 			"Bleuberry-Outland", -- [2]
@@ -1232,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeBleuberry|r",
 			[51] = 1650142084,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
+		}, -- [54]
 		{
 			"games shit playbase is shit, bascially the same as 9,1 but with zereth mortis ", -- [1]
 			"Furypig-Outland", -- [2]
@@ -1254,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cFurypig|r",
 			[51] = 1650142426,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
+		}, -- [55]
 		{
 			"come back for new xpac unless u want collectibles like m+ mount and glad mount", -- [1]
 			"Selenarr-Outland", -- [2]
@@ -1276,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaSelenarr|r",
 			[51] = 1650142428,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [56]
 		{
 			"WTB 291 BACK", -- [1]
 			"Immortaldru-Outland", -- [2]
@@ -1298,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Immortaldru|r",
 			[51] = 1650142428,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [57]
 		{
 			"WTB 291 back ", -- [1]
 			"Immortaldru-Outland", -- [2]
@@ -1320,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Immortaldru|r",
 			[51] = 1650142455,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [58]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8992:Player-1301-0BEC03AD:1:4:25:22:4294967295:4294967295:4294967295:4294967295|h[Blackhand's Crucible]|h|r!", -- [1]
 			"Lidskahyena-Outland", -- [2]
@@ -1342,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cLidskahyena|r",
 			[51] = 1650907496,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [61]
+		}, -- [59]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8973:Player-1301-0BEC03AD:1:4:25:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Blackhand's Crucible]|h|r!", -- [1]
 			"Lidskahyena-Outland", -- [2]
@@ -1364,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cLidskahyena|r",
 			[51] = 1650907496,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [62]
+		}, -- [60]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14338:Player-1301-0A273418:1:4:26:22:4294967295:4294967295:4294967295:4294967295|h[Court of Harvesters]|h|r!", -- [1]
 			"Methwish-Outland", -- [2]
@@ -1386,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Methwish|r",
 			[51] = 1650993809,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [63]
+		}, -- [61]
 		{
 			"does anyone have bosstimer?", -- [1]
 			"Durollo-Pozzodell'Eternità", -- [2]
@@ -1408,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cDurollo-Pozzodell'Eternità|r",
 			[51] = 1650995533,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [64]
+		}, -- [62]
 		{
 			"Any M+ boosters for last minute 15?", -- [1]
 			"Rainofgayos-Outland", -- [2]
@@ -1430,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edRainofgayos|r",
 			[51] = 1651013614,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [63]
 		{
 			"go farm pets", -- [1]
 			"Nadii-Outland", -- [2]
@@ -1452,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cNadii|r",
 			[51] = 1651013625,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [64]
 		{
 			"V", -- [1]
 			"Demonaak-Outland", -- [2]
@@ -1474,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcDemonaak|r",
 			[51] = 1651168906,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [65]
 		{
 			"Friendly, sociable guild looking for new members. We have just transferred, and like chatting, chilling in Oribos, and random karaoke (optional). Join us at <UnlimitedX> for m+, fun nights and raids :) Actively recruiting for raid spots!", -- [1]
 			"Demonaak-Outland", -- [2]
@@ -1496,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcDemonaak|r",
 			[51] = 1651168910,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [66]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8463:Player-1301-0B0D2B3F:1:4:28:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Immerseus]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1518,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1651169173,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [69]
+		}, -- [67]
 		{
 			"Sha Sear on Fionara", -- [1]
 			"Fionara-Outland", -- [2]
@@ -1540,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFionara|r",
 			[51] = 1651169336,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [70]
+		}, -- [68]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8465:Player-1301-0B0D2B3F:1:4:28:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Fallen Protectors]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1562,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1651169755,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [71]
+		}, -- [69]
 		{
 			"turns his |Hitem:118427|h|cFFFFFFFF[Autographed Hearthstone Card]|r|h card over, revealing a |cFF0070dd[Rare Hearthstone Card]|r!", -- [1]
 			"Baaradir-Outland", -- [2]
@@ -1584,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Baaradir|r",
 			[51] = 1651169852,
 			[50] = "CHAT_MSG_EMOTE",
-		}, -- [72]
+		}, -- [70]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8466:Player-1301-0B0D2B3F:1:4:28:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Norushen]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1606,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1651169935,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [73]
+		}, -- [71]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8532:Player-1301-0B0D2B3F:1:4:28:22:4294967295:4294967295:4294967295:4294967295|h[None Shall Pass]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1628,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1651169935,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [74]
+		}, -- [72]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8458:Player-1301-0B0D2B3F:1:4:28:22:4294967295:4294967295:4294967295:4294967295|h[Vale of Eternal Sorrows]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1650,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1651170001,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [75]
+		}, -- [73]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8467:Player-1301-0B0D2B3F:1:4:28:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Sha of Pride]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1672,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1651170001,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [76]
+		}, -- [74]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8521:Player-1301-0B0D2B3F:1:4:28:22:4294967295:4294967295:4294967295:4294967295|h[Swallow Your Pride]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1694,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1651170001,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [77]
+		}, -- [75]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8468:Player-1301-0B0D2B3F:1:4:28:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Galakras]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1716,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1651170474,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [78]
+		}, -- [76]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8530:Player-1301-0B0D2B3F:1:4:28:22:4294967295:4294967295:4294967295:4294967295|h[The Immortal Vanguard]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1738,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1651170474,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [79]
+		}, -- [77]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8469:Player-1301-0B0D2B3F:1:4:28:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Iron Juggernaut]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1760,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1651170602,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [80]
+		}, -- [78]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8470:Player-1301-0B0D2B3F:1:4:28:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Kor'kron Dark Shaman]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1782,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1651170652,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [81]
+		}, -- [79]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8448:Player-1301-0B0D2B3F:1:4:28:22:4294967295:4294967295:4294967295:4294967295|h[Gamon Will Save Us!]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1804,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1651170786,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [82]
+		}, -- [80]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8459:Player-1301-0B0D2B3F:1:4:28:22:4294967295:4294967295:4294967295:4294967295|h[Gates of Retribution]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1826,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1651170786,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [83]
+		}, -- [81]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8471:Player-1301-0B0D2B3F:1:4:28:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: General Nazgrim]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1848,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1651170786,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [84]
+		}, -- [82]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8472:Player-1301-0B0D2B3F:1:4:28:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Malkorok]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1870,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1651170949,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [85]
+		}, -- [83]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8480:Player-1301-0B0D2B3F:1:4:28:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Siegecrafter Blackfuse]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1892,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1651171115,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [86]
+		}, -- [84]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8543:Player-1301-0B0D2B3F:1:4:28:22:4294967295:4294967295:4294967295:4294967295|h[Lasers and Magnets and Drills! Oh My!]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1914,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1651171115,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [87]
+		}, -- [85]
 		{
 			"Warlord Zaela", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1936,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1651171183,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [88]
+		}, -- [86]
 		{
 			"My life for the Horde!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1958,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1651171186,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [89]
+		}, -- [87]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8478:Player-1301-0B0D2B3F:1:4:28:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Spoils of Pandaria]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1980,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1651171338,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [90]
+		}, -- [88]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8461:Player-1301-0B0D2B3F:1:4:28:22:4294967295:4294967295:4294967295:4294967295|h[The Underhold]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -2002,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1651171435,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [91]
+		}, -- [89]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8479:Player-1301-0B0D2B3F:1:4:28:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Thok the Bloodthirsty]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -2024,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1651171435,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [92]
+		}, -- [90]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8481:Player-1301-0B0D2B3F:1:4:28:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Paragons of the Klaxxi]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -2046,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1651171646,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [93]
+		}, -- [91]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8462:Player-1301-0B0D2B3F:1:4:28:22:4294967295:4294967295:4294967295:4294967295|h[Downfall]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -2068,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1651171954,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [94]
+		}, -- [92]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8482:Player-1301-0B0D2B3F:1:4:28:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Garrosh Hellscream]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -2090,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1651171954,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [95]
+		}, -- [93]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8679:Player-1301-0B0D2B3F:1:4:28:22:4294967295:4294967295:4294967295:4294967295|h[Conqueror of Orgrimmar]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -2112,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1651171954,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [96]
+		}, -- [94]
 		{
 			"{rt8}A. Harvester{rt8}: 14m 33s-34m 33s (WorldBossTimers:1651333269)", -- [1]
 			"Killmongerka-Arathor", -- [2]
@@ -2134,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Killmongerka-Arathor|r",
 			[51] = 1651329996,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [97]
+		}, -- [95]
 		{
 			"Need help with |cff808080|Hquest:55609:713|h[Operation: Mechagon - The Mechoriginator]|h|r", -- [1]
 			"Kenshex-Silvermoon", -- [2]
@@ -2156,7 +2112,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeKenshex-Silvermoon|r",
 			[51] = 1651330091,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [96]
 		{
 			"LFM |cff808080|Hquest:55609:713|h[Operation: Mechagon - The Mechoriginator]|h|r", -- [1]
 			"Kenshex-Silvermoon", -- [2]
@@ -2177,6 +2133,50 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "|cfffefefeKenshex-Silvermoon|r",
 			[51] = 1651330279,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"<Team> Boosting Key +10 - 20  || Torghast || Level Up  /w for info (only gold)", -- [1]
+			"Yaveh-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Yaveh-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1135, -- [11]
+			"Player-1301-0BCF9138", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcYaveh|r",
+			[51] = 1651419441,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"WTS |cffa335ee|Hitem:44413::::::::60:254::::1:28:872::::Player-1301-0AFA5AF7:|h[Mekgineer's Chopper]|h|r Cheap !", -- [1]
+			"Silentz-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Silentz-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1137, -- [11]
+			"Player-1301-0AFA5AF7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Silentz|r",
+			[51] = 1651419484,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},

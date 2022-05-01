@@ -121,11 +121,11 @@ BWQDB = {
 					["useLFGButtons"] = true,
 					["sortBy"] = 7,
 				},
-				["pin"] = {
-				},
 				["external"] = {
 					["TomTom"] = {
 					},
+				},
+				["pin"] = {
 				},
 				["filters"] = {
 					[3] = {
@@ -133,9 +133,9 @@ BWQDB = {
 							["Conduits"] = false,
 							["Honor"] = false,
 							["Reputation"] = false,
-							["Experience"] = false,
-							["Currency"] = false,
 							["Item"] = false,
+							["Currency"] = false,
+							["Experience"] = false,
 							["Gold"] = false,
 							["Armor"] = false,
 							["Relic"] = false,
