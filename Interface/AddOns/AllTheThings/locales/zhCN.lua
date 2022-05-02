@@ -220,6 +220,11 @@ local L = app.L;
 	L.MAIN_LIST_REQUIRES_REFRESH = "[打开主列表更新进度 ]";
 	L.DOES_NOT_CONTRIBUTE_TO_PROGRESS = "|cffe08207此群组及其内容不影响此窗口的进度！|r";
 	L.CURRENCY_NEEDED_TO_BUY = "需要购买物品未收藏的事物";
+	L.LOCK_CRITERIA_LEVEL_LABEL = "玩家等级";
+	L.LOCK_CRITERIA_QUEST_LABEL = "已完成任务";
+	L.LOCK_CRITERIA_SPELL_LABEL = "已学法术/坐骑/配方";
+	L.LOCK_CRITERIA_FACTION_LABEL = "阵营声望";
+	L.LOCK_CRITERIA_FACTION_FORMAT = "%s 和 %s（当前：%s）";
 
 	-- Item Filter Window
 		L.ITEM_FILTER_TEXT = "物品过滤";
@@ -239,7 +244,7 @@ local L = app.L;
 	L.TOP_ROW_TO_LOCK = "|cff3399ffAlt+点击锁定窗口";
 	L.TOP_ROW_TO_UNLOCK = "|cffcf0000Alt+点击解锁窗口";
 	L.QUEST_ROW_INSTRUCTIONS = "右击查看任何任务链要求";
-	--TODO: L.SYM_ROW_INFORMATION = "Right Click to see additional content which is Sourced in another location";
+	L.SYM_ROW_INFORMATION = "右键单击以查看来自其他位置的其它内容";
 	L.QUEST_ONCE_PER_ACCOUNT = "帐号一次性任务";
 	L.QUEST_ONCE_PER_ACCOUNT_FORMAT = "完成：%s";
 
@@ -889,16 +894,26 @@ do a[key] = value; end
 local a = app.ObjectNames;
 for key, value in pairs({
 	[31] = "陈旧的石狮子",	-- Old Lion Statue
+	[34] = "旧罐子",	-- Old Jug
+	[35] = "船长的手提箱",	-- Captain's Footlocker
+	[36] = "破酒桶",	-- Broken Barrel
+	[47] = "通缉！",	-- Wanted: Lieutenant Fangore
 	[55] = "被吃掉一半的尸体",	-- A half-eaten body
 	[56] = "罗尔夫的尸体",	-- Rolf's corpse
+	[59] = "一堆松软的泥土",	-- Mound of loose dirt	--TODO: This was taken from classic Wowhead
+	[60] = "通缉：加塞尔佐格",	-- Wanted: Gath'Ilzogg
 	[61] = "破旧的坟墓",	-- A Weathered Grave
 	[256] = "通缉",	-- Wanted!
+	[257] = "可疑的桶",	-- Suspicious Barrel
 	[259] = "半埋的大桶",	-- Half-buried Barrel
 	[261] = "破损的箱子",	-- Damaged Crate
 	[270] = "无人守卫的雷酒桶",	-- Unguarded Thunder Ale Barrel	--TODO: This was taken from classic Wowhead
 	[711] = "通缉！",	-- Wanted!	--TODO: This was taken from classic Wowhead
+	[1561] = "密封的箱子",	-- Sealed Crate
+	[1585] = "爆炸品",	-- Explosive Charge	--TODO: This was taken from classic Wowhead
 	[1593] = "运尸船",	-- Corpse Laden Boat	--TODO: This was taken from classic Wowhead
 	--TODO: [1599] = "Shallow Grave",	-- Shallow Grave
+	[1609] = "龙喉投石车",	-- Dragonmaw Catapult
 	[1627] = "达拉然板条箱",	-- Dalaran Crate
 	[1763] = "通缉",	-- WANTED	--TODO: This was taken from classic Wowhead
 	[2059] = "矮人的尸体",	-- A Dwarven Corpse
@@ -906,16 +921,20 @@ for key, value in pairs({
 	[2083] = "血帆海盗的信件",	-- Bloodsail Correspondence
 	[2553] = "浸水的卷轴",	-- A Soggy Scroll
 	[2555] = "发霉的卷轴",	-- Musty Scroll
+	[2652] = "伊贝尼瑟的尸体",	-- Ebenezer Rustlocke's Corpse
 	[2688] = "钥匙之石",	-- Keystone
 	[2701] = "虹光水晶碎块",	-- Iridescent Shards
 	[2702] = "内禁锢之石",	-- Stone of Inner Binding
 	[2703] = "托尔贝恩的墓室",	-- Trollbane's Tomb	--TODO: This was taken from classic Wowhead
+	[2704] = "爆炸品",	-- Cache of Explosives	--TODO: This was taken from classic Wowhead
 	[2713] = "通缉板",	-- Wanted Board
+	[2734] = "浸水的箱子",	-- Waterlogged Chest
 	[2908] = "密封的补给箱",	-- Sealed Supply Crate
 	[3189] = "进攻计划：试炼谷",	-- Attack Plan: Valley of Trials
 	[3190] = "进攻计划：森金村",	-- Attack Plan: Sen'jin Village
 	[3192] = "进攻计划：奥格瑞玛",	-- Attack Plan: Orgrimmar
 	[3238] = "老陈的空酒桶",	-- Chen's Empty Keg	--TODO: This was taken from classic Wowhead
+	[3643] = "旧提箱",	-- Old Footlocker
 	[3972] = "通缉",	-- WANTED
 	[4141] = "控制台",	-- Control Console
 	[5620] = "有裂痕的能量石",	-- Flawed Power Stones
@@ -927,6 +946,7 @@ for key, value in pairs({
 	[19022] = "旧箱子",	-- Worn Chest
 	[19023] = "|cFFFFFFFF第7步:|r 第2351页",	-- |cFFFFFFFFStep 7:|r Page 2351
 	[19024] = "隐蔽的神龛",	-- Hidden Shrine
+	[19030] = "一堆泥土",	-- Mound of Dirt
 	[20805] = "瑞兹尔的计划",	-- Rizzle's Unguarded Plans	--TODO: This was taken from classic Wowhead
 	[20985] = "松软的泥土",	-- Loose Dirt
 	[20992] = "黑色盾牌",	-- Black Shield
@@ -934,6 +954,7 @@ for key, value in pairs({
 	[21042] = "塞拉摩卫兵徽章",	-- Theramore Guard Badge
 	[35251] = "卡尼托的箱子",	-- Karnitol's Chest	--TODO: This was taken from classic Wowhead
 	[37099] = "阿塔莱石板",	-- Atal'ai Tablet
+	[51708] = "伊莉莎的坟墓",	-- Eliza's Grave Dirt	--TODO: This was taken from classic Wowhead
 	[91138] = "乔丹的铁锤",	-- Jordan's Hammer
 	[103821] = "杜安的保险箱",	-- Doan's Strongbox	--TODO: This was taken from classic Wowhead
 	[112948] = "保险箱",	-- Intrepid's Locked Strongbox
@@ -1041,7 +1062,7 @@ for key, value in pairs({
 	[180793] = "节日礼物",	-- Festive Gift
 	[180794] = "詹迪斯·巴罗夫的日记",	-- Journal of Jandice Barov	--TODO: This was taken from classic Wowhead
 	[180918] = "通缉：饥饿者泰里斯",	-- Wanted: Thaelis the Hungerer
-	[181011] = "魔导师达斯维瑟的日记",	-- Magister Duskwither's Journal	--TODO: This was manually translated
+	[181011] = "魔导师达斯维瑟的日记",	-- Magister Duskwither's Journal	--TODO: This was taken from tbc Wowhead
 	[181073] = "薰炉",	-- Fragrant Cauldron	--TODO: This was taken from tbc Wowhead
 	[181074] = "竞技场的泥土",	-- Arena Spoils	--TODO: This was taken from classic Wowhead
 	--TODO: [181083] = "Sothos and Jarien's Heirlooms",	-- Sothos and Jarien's Heirlooms
@@ -2022,6 +2043,7 @@ for key, value in pairs({
 	[245602] = "宝箱",	-- Treasure Chest
 	[245603] = "小宝箱",	-- Small Treasure Chest
 	[245688] = "碎裂的骨灰坛",	-- Shattered Burial Urn
+	[245793] = "破碎的日记",	-- Battered Journal
 	[245996] = "小宝箱",	-- Small Treasure Chest
 	[246037] = "宝箱",	-- Treasure Chest
 	[246147] = "小宝箱",	-- Small Treasure Chest
@@ -3147,6 +3169,17 @@ do a[key] = value; end
 --TODO:
 local a = L.UNOBTAINABLE_ITEM_REASONS;
 for key,value in pairs({
+		[1] = {1, "|CFFFF0000此项玩家永远无法获得。|r", "从未实施"}, -- No Hope
+		[2] = {1, "|CFFFF0000此项已从游戏中删除。|r", "从游戏中移除"}, -- No Hope
+		[9] = {3, "|CFFFF0000获得它的原始来源已被删除，现在只能通过黑市拍卖行获得。|r", "黑市拍卖行 [BMAH]"},
+		[10] = {3, "|CFFFF0000最初通过不再印刷的 TCG 卡获得，但仍可通过黑市、游戏内或现实中的拍卖行获得。|r", "集换式卡牌游戏 [TCG]"},
+		[11] = {3, "|CFFFF0000除非您认识可以使用用于召唤首领的物品的人，否则这将不再可用。|r", "需要召唤物品"},
+		[14] = {3, "|CFFFF0000除非您拥有所需的 PvP 头衔、所需的 PvP 等级或处于该赛季的前 %，否则无法再购买或解锁幻化。|r", "PvP 精良/角斗士"},
+		[15] = {1, "|CFFFF0000这不能永久学习或用于幻化。|r", "不可学"},
+		[35] = {3, "|CFFFF0000这被锁定在付费墙后面，例如游戏内商店、另一个暴雪产品或战友招募服务。|r", "暴雪礼品卡"},
+		[38] = {1, "|CFFFF0000这仅适用于在《熊猫人之谜》或通过黑市拍卖行完成传奇披风任务链的玩家。|r", "斡耳朵斯 - 传奇披风"},
+		[45] = {1, "|CFFFF0000暴雪的战利品更改损坏了几件物品，使其无法获得。\n贵族披风/古拉巴什帝国大氅（同为《争霸艾泽拉斯》使者奖励），“绞肉机”奥戈姆，《德拉诺之王》任务拾取战利品和经典试玩目前已损坏，需要修复。|r", "战利品损坏"},
+
 	-- Seasonal Filters
 		[1000] = {4, "|CFF00FFDE这要求美酒节处于激活状态。|r", "美酒节"},
 		[1001] = {4, "|CFF00FFDE这要求儿童周处于激活状态。|r", "儿童周"},

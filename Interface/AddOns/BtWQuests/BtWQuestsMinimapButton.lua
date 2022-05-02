@@ -26,9 +26,9 @@ local minimapShapes = {
 	["TRICORNER-BOTTOMRIGHT"] 	= { true,  true,  true, false},
 }
 function BtWQuestsMinimapButton_Toggle()
-	BtWQuestSettingsData:SetValue("minimapShown", not BtWQuestSettingsData:GetValue("minimapShown"))
+	BtWQuests.Settings.minimapShown = not BtWQuests.Settings.minimapShown
 
-    BtWQuestsMinimapButton:SetShown(BtWQuestSettingsData:GetValue("minimapShown"))
+    BtWQuestsMinimapButton:SetShown(BtWQuests.Settings.minimapShown)
 end
 function BtWQuestsMinimapButton_Reposition(degrees)
 	local rounding = 10;

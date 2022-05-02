@@ -3716,6 +3716,11 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 		elseif (not alvo_name) then
 			return
 		end
+
+		--development honey pot for interrupt spells
+		if (TrackerCleuDB and TrackerCleuDB.honey_pot) then
+			TrackerCleuDB.honey_pot[spellid] = true
+		end
 		
 		_current_misc_container.need_refresh = true
 
@@ -5657,6 +5662,12 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 
 		--load auto run code
 		Details:StartAutoRun()
+
+		Details.isLoaded = true
+	end
+
+	function Details.IsLoaded()
+		return Details.isLoaded
 	end
 	
 	function _detalhes.parser_functions:ADDON_LOADED (...)

@@ -740,6 +740,27 @@ function DataMixin:GetPrerequisites()
 
     return self.prerequisitesItems, self.hasLowPriorityPrerequisites;
 end
+function DataMixin:GetRestrictions()
+    if self.restrictionsItems == nil then
+        self.restrictionsItems = {}
+
+        if self.restrictions then
+            local restrictions = self.restrictions
+            if type(restrictions) == "number" then
+                restrictions = self.database:GetConditionByID(restrictions)
+            end
+            if restrictions[1] == nil then
+                self.restrictionsItems[#self.restrictionsItems+1] = self.database:CreateItem(-1, restrictions, item);
+            else
+                for _,restriction in ipairs(restrictions) do
+                    self.restrictionsItems[#self.restrictionsItems+1] = self.database:CreateItem(-1, restriction, item);
+                end
+            end
+        end
+    end
+
+    return self.restrictionsItems;
+end
 function DataMixin:GetRewards()
     if self.rewardsItems == nil then
         self.rewardsItems = {}
@@ -2126,7 +2147,25 @@ function ExperienceItemMixin:IsCompleted(database, item, character)
     return false
 end
 
+local Races = {}
+for i=1,100 do
+    local race = C_CreatureInfo.GetRaceInfo(i);
+    if race then
+        Races[race.clientFileString] = race
+    end
+end
 local RaceItemMixin = CreateFromMixins(ItemMixin);
+function RaceItemMixin:GetName(database, item, character, variation)
+    local name
+    if item.name then
+        name = ItemMixin.GetName(self, database, item, character);
+    else
+        local race = Races[item.id] or C_CreatureInfo.GetRaceInfo(item.id);
+        name = race and race.raceName
+    end
+    
+    return name
+end
 function RaceItemMixin:IsCompleted(database, item, character)
     if item.id then
         return character:IsRace(item.id);
@@ -2136,6 +2175,17 @@ function RaceItemMixin:IsCompleted(database, item, character)
 end
 
 local ClassItemMixin = CreateFromMixins(ItemMixin);
+function ClassItemMixin:GetName(dcatabase, item, character, variation)
+    local name
+    if item.name then
+        name = ItemMixin.GetName(self, database, item, character);
+    else
+        local class = C_CreatureInfo.GetClassInfo(item.id);
+        name = class and class.className
+    end
+    
+    return name
+end
 function ClassItemMixin:IsCompleted(database, item, character)
     if item.id then
         return character:IsClass(item.id);
@@ -2149,17 +2199,13 @@ function FactionItemMixin:GetName(database, item, character, variation)
     local name
     if item.name then
         name = ItemMixin.GetName(self, database, item, character);
+    elseif item.id == "Horde" then
+        name = FACTION_HORDE
+    elseif item.id == "Alliance" then
+        name = FACTION_ALLIANCE
     end
-    if variation == "reward" then
-        name = name or L["FACTION_REWARD"]
-    end
-
-    local factionName = (character or BtWQuestsCharacters:GetPlayer()):GetFactionInfoByID(item.id)
-    if factionName == nil then
-        factionName = L["UNKNOWN"]
-    end
-
-    return name and format(name, factionName) or factionName
+    
+    return name
 end
 function FactionItemMixin:IsCompleted(database, item, character)
     return character:IsFaction(item.id);
