@@ -9,11 +9,11 @@ StoredAnimaCounterDB = {
 		["Wolfdestroye - Outland"] = "Wolfdestroye - Outland",
 		["Illyana - Outland"] = "Illyana - Outland",
 		["Destruxia - Outland"] = "Destruxia - Outland",
-		["Serthaxion - Outland"] = "Serthaxion - Outland",
+		["Necrophagus - Outland"] = "Necrophagus - Outland",
 		["Phaladinus - Outland"] = "Phaladinus - Outland",
 		["Shadroxia - Outland"] = "Shadroxia - Outland",
 		["Luminaxia - Outland"] = "Luminaxia - Outland",
-		["Necrophagus - Outland"] = "Necrophagus - Outland",
+		["Serthaxion - Outland"] = "Serthaxion - Outland",
 		["Elementior - Outland"] = "Elementior - Outland",
 	},
 	["profiles"] = {
@@ -33,7 +33,7 @@ StoredAnimaCounterDB = {
 		},
 		["Destruxia - Outland"] = {
 		},
-		["Serthaxion - Outland"] = {
+		["Necrophagus - Outland"] = {
 		},
 		["Phaladinus - Outland"] = {
 		},
@@ -41,7 +41,7 @@ StoredAnimaCounterDB = {
 		},
 		["Luminaxia - Outland"] = {
 		},
-		["Necrophagus - Outland"] = {
+		["Serthaxion - Outland"] = {
 		},
 		["Elementior - Outland"] = {
 		},

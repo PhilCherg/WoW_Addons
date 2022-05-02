@@ -1,3 +1,4 @@
+bind A NONE
 bind LEFT NONE
 bind RIGHT NONE
 bind Q ELVUIBAR2BUTTON1
