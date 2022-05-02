@@ -83,13 +83,6 @@ X: 0
 Y: 0
 W: 800
 H: 525
-Frame: RematchDialog
-FrameLevel: 1
-Anchor: CENTER
-X: 0
-Y: 0
-W: 420
-H: 200
 Frame: AllTheThings-Window-Unsorted
 FrameLevel: 1
 Anchor: CENTER
@@ -111,3 +104,10 @@ X: 339
 Y: 54
 W: 200
 H: 50
+Frame: RematchDialog
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: -1
+W: 300
+H: 288
