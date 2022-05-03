@@ -18,10 +18,10 @@ Details_StreamerDB = {
 		["Asdawdwd - Outland"] = "Necrophagus - Outland",
 		["Lysanaria - Outland"] = "Necrophagus - Outland",
 		["Moneyseven - Outland"] = "Necrophagus - Outland",
-		["Feattwo - Outland"] = "Necrophagus - Outland",
+		["Illydaria - Draenor"] = "Necrophagus - Outland",
 		["Destruxia - Outland"] = "Necrophagus - Outland",
 		["Phalonius - Azjol-Nerub"] = "Necrophagus - Outland",
-		["Wolfados - Azjol-Nerub"] = "Necrophagus - Outland",
+		["Afadsfasdfs - Outland"] = "Necrophagus - Outland",
 		["Farmerixus - Outland"] = "Necrophagus - Outland",
 		["Luminaxia - Outland"] = "Necrophagus - Outland",
 		["Testfirst - Outland"] = "Necrophagus - Outland",
@@ -55,8 +55,8 @@ Details_StreamerDB = {
 		["Chernakotka - Die Aldor"] = "Necrophagus - Outland",
 		["Moneythree - Outland"] = "Necrophagus - Outland",
 		["Serthaxion - Outland"] = "Necrophagus - Outland",
-		["Afadsfasdfs - Outland"] = "Necrophagus - Outland",
-		["Illydaria - Draenor"] = "Necrophagus - Outland",
+		["Wolfados - Azjol-Nerub"] = "Necrophagus - Outland",
+		["Feattwo - Outland"] = "Necrophagus - Outland",
 		["Elementior - Outland"] = "Necrophagus - Outland",
 	},
 	["profiles"] = {
@@ -89,12 +89,12 @@ Details_StreamerDB = {
 			["main_frame_locked"] = false,
 			["row_texture"] = "Details Serenity",
 			["arrow_anchor_y"] = 0,
-			["y"] = 4.57763671875e-05,
+			["font_size"] = 10,
 			["main_frame_strata"] = "LOW",
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["font_size"] = 10,
+			["use_spark"] = true,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -102,13 +102,9 @@ Details_StreamerDB = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["author"] = "Details! Team",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["y"] = 4.57763671875e-05,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -120,11 +116,15 @@ Details_StreamerDB = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
-			["use_spark"] = true,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
-			["author"] = "Details! Team",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["point"] = "CENTER",
 			["row_height"] = 20,
 			["scale"] = 1,

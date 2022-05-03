@@ -3,4129 +3,4009 @@ Blizzard_Console_SavedVars = {
 	["version"] = 3,
 	["messageHistory"] = {
 		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [1]
 		{
-			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"     Slot   0, Species 213, Health 1400, Level  25, DisplayID 45960, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [2]
 		{
-			"        abilities : 472, 471, 650,", -- [1]
+			"        abilities : 452, 457, 456,", -- [1]
 			0, -- [2]
 		}, -- [3]
 		{
-			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"     Slot   1, Species 2441, Health 1426, Level  24, DisplayID 16880, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [4]
 		{
-			"        abilities : 768, 256, 769,", -- [1]
+			"        abilities : 504, 488, 589,", -- [1]
 			0, -- [2]
 		}, -- [5]
 		{
-			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"     Slot   2, Species 1394, Health 1806, Level  25, DisplayID 54511, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [6]
 		{
-			"        abilities : 1121, 312, 1125,", -- [1]
+			"        abilities : 1273, 665, 663,", -- [1]
 			0, -- [2]
 		}, -- [7]
 		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [8]
 		{
-			"---Battle Begin---", -- [1]
+			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [9]
 		{
-			"  PetSwap P0 PET 0", -- [1]
+			"        abilities : 472, 471, 650,", -- [1]
 			0, -- [2]
 		}, -- [10]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [11]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"        abilities : 768, 256, 769,", -- [1]
 			0, -- [2]
 		}, -- [12]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [13]
 		{
-			"---Replacements made---", -- [1]
+			"        abilities : 1121, 312, 1125,", -- [1]
 			0, -- [2]
 		}, -- [14]
 		{
-			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"<waiting for PetBattleReadyToStart command>", -- [1]
 			0, -- [2]
 		}, -- [15]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"---Battle Begin---", -- [1]
 			0, -- [2]
 		}, -- [16]
 		{
-			"---Replacements made---", -- [1]
+			"  PetSwap P0 PET 0", -- [1]
 			0, -- [2]
 		}, -- [17]
 		{
-			"  P1 PET 0 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [18]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [19]
 		{
-			"---BattleFinished: You Won ---", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [20]
 		{
-			"<waiting for PetBattleInput final>", -- [1]
+			"---Replacements made---", -- [1]
 			0, -- [2]
 		}, -- [21]
 		{
-			"---ClientPetBattleFinished---", -- [1]
+			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [22]
 		{
-			"PetBattle Initial Update", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [23]
 		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
+			"---Replacements made---", -- [1]
 			0, -- [2]
 		}, -- [24]
 		{
-			"     Slot   0, Species 213, Health 1400, Level  25, DisplayID 45960, CollarID 0", -- [1]
+			"  P1 PET 0 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [25]
 		{
-			"        abilities : 452, 457, 456,", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [26]
 		{
-			"     Slot   1, Species 1804, Health 977, Level  18, DisplayID 66157, CollarID 0", -- [1]
+			"---BattleFinished: You Won ---", -- [1]
 			0, -- [2]
 		}, -- [27]
 		{
-			"        abilities : 160, 492, 538,", -- [1]
+			"<waiting for PetBattleInput final>", -- [1]
 			0, -- [2]
 		}, -- [28]
 		{
-			"     Slot   2, Species 1394, Health 1806, Level  25, DisplayID 54511, CollarID 0", -- [1]
+			"---ClientPetBattleFinished---", -- [1]
 			0, -- [2]
 		}, -- [29]
 		{
-			"        abilities : 1273, 665, 663,", -- [1]
+			"PetBattle Initial Update", -- [1]
 			0, -- [2]
 		}, -- [30]
 		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [31]
 		{
-			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"     Slot   0, Species 213, Health 1400, Level  25, DisplayID 45960, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [32]
 		{
-			"        abilities : 472, 471, 650,", -- [1]
+			"        abilities : 452, 457, 456,", -- [1]
 			0, -- [2]
 		}, -- [33]
 		{
-			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"     Slot   1, Species 2449, Health 160, Level   1, DisplayID 26524, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [34]
 		{
-			"        abilities : 768, 256, 769,", -- [1]
+			"        abilities : 349,", -- [1]
 			0, -- [2]
 		}, -- [35]
 		{
-			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"     Slot   2, Species 1394, Health 1806, Level  25, DisplayID 54511, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [36]
 		{
-			"        abilities : 1121, 312, 1125,", -- [1]
+			"        abilities : 1273, 665, 663,", -- [1]
 			0, -- [2]
 		}, -- [37]
 		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [38]
 		{
-			"---Battle Begin---", -- [1]
+			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [39]
 		{
-			"  PetSwap P0 PET 0", -- [1]
+			"        abilities : 472, 471, 650,", -- [1]
 			0, -- [2]
 		}, -- [40]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [41]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"        abilities : 768, 256, 769,", -- [1]
 			0, -- [2]
 		}, -- [42]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [43]
 		{
-			"---Replacements made---", -- [1]
+			"        abilities : 1121, 312, 1125,", -- [1]
 			0, -- [2]
 		}, -- [44]
 		{
-			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"<waiting for PetBattleReadyToStart command>", -- [1]
 			0, -- [2]
 		}, -- [45]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"---Battle Begin---", -- [1]
 			0, -- [2]
 		}, -- [46]
 		{
-			"---BattleFinished: You Won ---", -- [1]
+			"  PetSwap P0 PET 0", -- [1]
 			0, -- [2]
 		}, -- [47]
 		{
-			"<waiting for PetBattleInput final>", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [48]
 		{
-			"---ClientPetBattleFinished---", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [49]
 		{
-			"PetBattle Initial Update", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [50]
 		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
+			"---Replacements made---", -- [1]
 			0, -- [2]
 		}, -- [51]
 		{
-			"     Slot   0, Species 213, Health 1400, Level  25, DisplayID 45960, CollarID 0", -- [1]
+			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [52]
 		{
-			"        abilities : 452, 457, 456,", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [53]
 		{
-			"     Slot   1, Species 1804, Health 1172, Level  22, DisplayID 66157, CollarID 0", -- [1]
+			"---BattleFinished: You Won ---", -- [1]
 			0, -- [2]
 		}, -- [54]
 		{
-			"        abilities : 160, 492, 538,", -- [1]
+			"<waiting for PetBattleInput final>", -- [1]
 			0, -- [2]
 		}, -- [55]
 		{
-			"     Slot   2, Species 1394, Health 1806, Level  25, DisplayID 54511, CollarID 0", -- [1]
+			"---ClientPetBattleFinished---", -- [1]
 			0, -- [2]
 		}, -- [56]
 		{
-			"        abilities : 1273, 665, 663,", -- [1]
+			"PetBattle Initial Update", -- [1]
 			0, -- [2]
 		}, -- [57]
 		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [58]
 		{
-			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"     Slot   0, Species 213, Health 1400, Level  25, DisplayID 45960, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [59]
 		{
-			"        abilities : 472, 471, 650,", -- [1]
+			"        abilities : 452, 457, 456,", -- [1]
 			0, -- [2]
 		}, -- [60]
 		{
-			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"     Slot   1, Species 2449, Health 823, Level  12, DisplayID 26524, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [61]
 		{
-			"        abilities : 768, 256, 769,", -- [1]
+			"        abilities : 349, 347, 352,", -- [1]
 			0, -- [2]
 		}, -- [62]
 		{
-			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"     Slot   2, Species 1394, Health 1806, Level  25, DisplayID 54511, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [63]
 		{
-			"        abilities : 1121, 312, 1125,", -- [1]
+			"        abilities : 1273, 665, 663,", -- [1]
 			0, -- [2]
 		}, -- [64]
 		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [65]
 		{
-			"---Battle Begin---", -- [1]
+			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [66]
 		{
-			"  PetSwap P0 PET 0", -- [1]
+			"        abilities : 472, 471, 650,", -- [1]
 			0, -- [2]
 		}, -- [67]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [68]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"        abilities : 768, 256, 769,", -- [1]
 			0, -- [2]
 		}, -- [69]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [70]
 		{
-			"---Replacements made---", -- [1]
+			"        abilities : 1121, 312, 1125,", -- [1]
 			0, -- [2]
 		}, -- [71]
 		{
-			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"<waiting for PetBattleReadyToStart command>", -- [1]
 			0, -- [2]
 		}, -- [72]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"---Battle Begin---", -- [1]
 			0, -- [2]
 		}, -- [73]
 		{
-			"---BattleFinished: You Won ---", -- [1]
+			"  PetSwap P0 PET 0", -- [1]
 			0, -- [2]
 		}, -- [74]
 		{
-			"<waiting for PetBattleInput final>", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [75]
 		{
-			"---ClientPetBattleFinished---", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [76]
 		{
-			"PetBattle Initial Update", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [77]
 		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
+			"---Replacements made---", -- [1]
 			0, -- [2]
 		}, -- [78]
 		{
-			"     Slot   0, Species 213, Health 1400, Level  25, DisplayID 45960, CollarID 0", -- [1]
+			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [79]
 		{
-			"        abilities : 452, 457, 456,", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [80]
 		{
-			"     Slot   1, Species 1804, Health 1270, Level  24, DisplayID 66157, CollarID 0", -- [1]
+			"---BattleFinished: You Won ---", -- [1]
 			0, -- [2]
 		}, -- [81]
 		{
-			"        abilities : 160, 492, 538,", -- [1]
+			"<waiting for PetBattleInput final>", -- [1]
 			0, -- [2]
 		}, -- [82]
 		{
-			"     Slot   2, Species 1394, Health 1806, Level  25, DisplayID 54511, CollarID 0", -- [1]
+			"---ClientPetBattleFinished---", -- [1]
 			0, -- [2]
 		}, -- [83]
 		{
-			"        abilities : 1273, 665, 663,", -- [1]
+			"PetBattle Initial Update", -- [1]
 			0, -- [2]
 		}, -- [84]
 		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [85]
 		{
-			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"     Slot   0, Species 213, Health 1400, Level  25, DisplayID 45960, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [86]
 		{
-			"        abilities : 472, 471, 650,", -- [1]
+			"        abilities : 452, 457, 456,", -- [1]
 			0, -- [2]
 		}, -- [87]
 		{
-			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"     Slot   1, Species 2449, Health 1185, Level  18, DisplayID 26524, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [88]
 		{
-			"        abilities : 768, 256, 769,", -- [1]
+			"        abilities : 349, 347, 352,", -- [1]
 			0, -- [2]
 		}, -- [89]
 		{
-			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"     Slot   2, Species 1394, Health 1806, Level  25, DisplayID 54511, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [90]
 		{
-			"        abilities : 1121, 312, 1125,", -- [1]
+			"        abilities : 1273, 665, 663,", -- [1]
 			0, -- [2]
 		}, -- [91]
 		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [92]
 		{
-			"---Battle Begin---", -- [1]
+			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [93]
 		{
-			"  PetSwap P0 PET 0", -- [1]
+			"        abilities : 472, 471, 650,", -- [1]
 			0, -- [2]
 		}, -- [94]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [95]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"        abilities : 768, 256, 769,", -- [1]
 			0, -- [2]
 		}, -- [96]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [97]
 		{
-			"---Replacements made---", -- [1]
+			"        abilities : 1121, 312, 1125,", -- [1]
 			0, -- [2]
 		}, -- [98]
 		{
-			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"<waiting for PetBattleReadyToStart command>", -- [1]
 			0, -- [2]
 		}, -- [99]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"---Battle Begin---", -- [1]
 			0, -- [2]
 		}, -- [100]
 		{
-			"---BattleFinished: You Won ---", -- [1]
+			"  PetSwap P0 PET 0", -- [1]
 			0, -- [2]
 		}, -- [101]
 		{
-			"<waiting for PetBattleInput final>", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [102]
 		{
-			"---ClientPetBattleFinished---", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [103]
 		{
-			"PetBattle Initial Update", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [104]
 		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
+			"---Replacements made---", -- [1]
 			0, -- [2]
 		}, -- [105]
 		{
-			"     Slot   0, Species 213, Health 1400, Level  25, DisplayID 45960, CollarID 0", -- [1]
+			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [106]
 		{
-			"        abilities : 452, 457, 456,", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [107]
 		{
-			"     Slot   1, Species 1625, Health 158, Level   1, DisplayID 61890, CollarID 0", -- [1]
+			"---Replacements made---", -- [1]
 			0, -- [2]
 		}, -- [108]
 		{
-			"        abilities : 1066,", -- [1]
+			"  P1 PET 0 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [109]
 		{
-			"     Slot   2, Species 1394, Health 1806, Level  25, DisplayID 54511, CollarID 0", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [110]
 		{
-			"        abilities : 1273, 665, 663,", -- [1]
+			"---BattleFinished: You Won ---", -- [1]
 			0, -- [2]
 		}, -- [111]
 		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			"<waiting for PetBattleInput final>", -- [1]
 			0, -- [2]
 		}, -- [112]
 		{
-			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"---ClientPetBattleFinished---", -- [1]
 			0, -- [2]
 		}, -- [113]
 		{
-			"        abilities : 472, 471, 650,", -- [1]
+			"PetBattle Initial Update", -- [1]
 			0, -- [2]
 		}, -- [114]
 		{
-			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [115]
 		{
-			"        abilities : 768, 256, 769,", -- [1]
+			"     Slot   0, Species 213, Health 1400, Level  25, DisplayID 45960, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [116]
 		{
-			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"        abilities : 452, 457, 456,", -- [1]
 			0, -- [2]
 		}, -- [117]
 		{
-			"        abilities : 1121, 312, 1125,", -- [1]
+			"     Slot   1, Species 2449, Health 1426, Level  22, DisplayID 26524, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [118]
 		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
+			"        abilities : 349, 347, 352,", -- [1]
 			0, -- [2]
 		}, -- [119]
 		{
-			"---Battle Begin---", -- [1]
+			"     Slot   2, Species 1394, Health 1806, Level  25, DisplayID 54511, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [120]
 		{
-			"  PetSwap P0 PET 0", -- [1]
+			"        abilities : 1273, 665, 663,", -- [1]
 			0, -- [2]
 		}, -- [121]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [122]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [123]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"        abilities : 472, 471, 650,", -- [1]
 			0, -- [2]
 		}, -- [124]
 		{
-			"---Replacements made---", -- [1]
+			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [125]
 		{
-			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"        abilities : 768, 256, 769,", -- [1]
 			0, -- [2]
 		}, -- [126]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [127]
 		{
-			"---BattleFinished: You Won ---", -- [1]
+			"        abilities : 1121, 312, 1125,", -- [1]
 			0, -- [2]
 		}, -- [128]
 		{
-			"<waiting for PetBattleInput final>", -- [1]
+			"<waiting for PetBattleReadyToStart command>", -- [1]
 			0, -- [2]
 		}, -- [129]
 		{
-			"---ClientPetBattleFinished---", -- [1]
+			"---Battle Begin---", -- [1]
 			0, -- [2]
 		}, -- [130]
 		{
-			"PetBattle Initial Update", -- [1]
+			"  PetSwap P0 PET 0", -- [1]
 			0, -- [2]
 		}, -- [131]
 		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [132]
 		{
-			"     Slot   0, Species 213, Health 1400, Level  25, DisplayID 45960, CollarID 0", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [133]
 		{
-			"        abilities : 452, 457, 456,", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [134]
 		{
-			"     Slot   1, Species 1625, Health 794, Level  12, DisplayID 61890, CollarID 0", -- [1]
+			"---Replacements made---", -- [1]
 			0, -- [2]
 		}, -- [135]
 		{
-			"        abilities : 1066, 1035, 752,", -- [1]
+			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [136]
 		{
-			"     Slot   2, Species 1394, Health 1806, Level  25, DisplayID 54511, CollarID 0", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [137]
 		{
-			"        abilities : 1273, 665, 663,", -- [1]
+			"---Replacements made---", -- [1]
 			0, -- [2]
 		}, -- [138]
 		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			"  P1 PET 0 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [139]
 		{
-			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [140]
 		{
-			"        abilities : 472, 471, 650,", -- [1]
+			"---BattleFinished: You Won ---", -- [1]
 			0, -- [2]
 		}, -- [141]
 		{
-			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"<waiting for PetBattleInput final>", -- [1]
 			0, -- [2]
 		}, -- [142]
 		{
-			"        abilities : 768, 256, 769,", -- [1]
+			"---ClientPetBattleFinished---", -- [1]
 			0, -- [2]
 		}, -- [143]
 		{
-			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"PetBattle Initial Update", -- [1]
 			0, -- [2]
 		}, -- [144]
 		{
-			"        abilities : 1121, 312, 1125,", -- [1]
+			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [145]
 		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
+			"     Slot   0, Species 213, Health 1400, Level  25, DisplayID 45960, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [146]
 		{
-			"---Battle Begin---", -- [1]
+			"        abilities : 452, 457, 456,", -- [1]
 			0, -- [2]
 		}, -- [147]
 		{
-			"  PetSwap P0 PET 0", -- [1]
+			"     Slot   1, Species 2449, Health 1547, Level  24, DisplayID 26524, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [148]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"        abilities : 349, 347, 352,", -- [1]
 			0, -- [2]
 		}, -- [149]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"     Slot   2, Species 1394, Health 1806, Level  25, DisplayID 54511, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [150]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"        abilities : 1273, 665, 663,", -- [1]
 			0, -- [2]
 		}, -- [151]
 		{
-			"---Replacements made---", -- [1]
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [152]
 		{
-			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [153]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"        abilities : 472, 471, 650,", -- [1]
 			0, -- [2]
 		}, -- [154]
 		{
-			"---Replacements made---", -- [1]
+			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [155]
 		{
-			"  P1 PET 0 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"        abilities : 768, 256, 769,", -- [1]
 			0, -- [2]
 		}, -- [156]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [157]
 		{
-			"---BattleFinished: You Won ---", -- [1]
+			"        abilities : 1121, 312, 1125,", -- [1]
 			0, -- [2]
 		}, -- [158]
 		{
-			"<waiting for PetBattleInput final>", -- [1]
+			"<waiting for PetBattleReadyToStart command>", -- [1]
 			0, -- [2]
 		}, -- [159]
 		{
-			"---ClientPetBattleFinished---", -- [1]
+			"---Battle Begin---", -- [1]
 			0, -- [2]
 		}, -- [160]
 		{
-			"PetBattle Initial Update", -- [1]
+			"  PetSwap P0 PET 0", -- [1]
 			0, -- [2]
 		}, -- [161]
 		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [162]
 		{
-			"     Slot   0, Species 213, Health 1400, Level  25, DisplayID 45960, CollarID 0", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [163]
 		{
-			"        abilities : 452, 457, 456,", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [164]
 		{
-			"     Slot   1, Species 1625, Health 1141, Level  18, DisplayID 61890, CollarID 0", -- [1]
+			"---Replacements made---", -- [1]
 			0, -- [2]
 		}, -- [165]
 		{
-			"        abilities : 1066, 1035, 752,", -- [1]
+			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [166]
 		{
-			"     Slot   2, Species 1394, Health 1806, Level  25, DisplayID 54511, CollarID 0", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [167]
 		{
-			"        abilities : 1273, 665, 663,", -- [1]
+			"---BattleFinished: You Won ---", -- [1]
 			0, -- [2]
 		}, -- [168]
 		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			"<waiting for PetBattleInput final>", -- [1]
 			0, -- [2]
 		}, -- [169]
 		{
-			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"---ClientPetBattleFinished---", -- [1]
 			0, -- [2]
 		}, -- [170]
 		{
-			"        abilities : 472, 471, 650,", -- [1]
+			"PetBattle Initial Update", -- [1]
 			0, -- [2]
 		}, -- [171]
 		{
-			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [172]
 		{
-			"        abilities : 768, 256, 769,", -- [1]
+			"     Slot   0, Species 213, Health 1400, Level  25, DisplayID 45960, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [173]
 		{
-			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"        abilities : 452, 457, 456,", -- [1]
 			0, -- [2]
 		}, -- [174]
 		{
-			"        abilities : 1121, 312, 1125,", -- [1]
+			"     Slot   1, Species 1567, Health 149, Level   1, DisplayID 60820, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [175]
 		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
+			"        abilities : 112,", -- [1]
 			0, -- [2]
 		}, -- [176]
 		{
-			"---Battle Begin---", -- [1]
+			"     Slot   2, Species 1394, Health 1806, Level  25, DisplayID 54511, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [177]
 		{
-			"  PetSwap P0 PET 0", -- [1]
+			"        abilities : 1273, 665, 663,", -- [1]
 			0, -- [2]
 		}, -- [178]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [179]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [180]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"        abilities : 472, 471, 650,", -- [1]
 			0, -- [2]
 		}, -- [181]
 		{
-			"---Replacements made---", -- [1]
+			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [182]
 		{
-			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"        abilities : 768, 256, 769,", -- [1]
 			0, -- [2]
 		}, -- [183]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [184]
 		{
-			"---BattleFinished: You Won ---", -- [1]
+			"        abilities : 1121, 312, 1125,", -- [1]
 			0, -- [2]
 		}, -- [185]
 		{
-			"<waiting for PetBattleInput final>", -- [1]
+			"<waiting for PetBattleReadyToStart command>", -- [1]
 			0, -- [2]
 		}, -- [186]
 		{
-			"---ClientPetBattleFinished---", -- [1]
+			"---Battle Begin---", -- [1]
 			0, -- [2]
 		}, -- [187]
 		{
-			"PetBattle Initial Update", -- [1]
+			"  PetSwap P0 PET 0", -- [1]
 			0, -- [2]
 		}, -- [188]
 		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [189]
 		{
-			"     Slot   0, Species 213, Health 1400, Level  25, DisplayID 45960, CollarID 0", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [190]
 		{
-			"        abilities : 452, 457, 456,", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [191]
 		{
-			"     Slot   1, Species 1625, Health 1373, Level  22, DisplayID 61890, CollarID 0", -- [1]
+			"---Replacements made---", -- [1]
 			0, -- [2]
 		}, -- [192]
 		{
-			"        abilities : 1066, 1035, 752,", -- [1]
+			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [193]
 		{
-			"     Slot   2, Species 1394, Health 1806, Level  25, DisplayID 54511, CollarID 0", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [194]
 		{
-			"        abilities : 1273, 665, 663,", -- [1]
+			"---BattleFinished: You Won ---", -- [1]
 			0, -- [2]
 		}, -- [195]
 		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			"<waiting for PetBattleInput final>", -- [1]
 			0, -- [2]
 		}, -- [196]
 		{
-			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"---ClientPetBattleFinished---", -- [1]
 			0, -- [2]
 		}, -- [197]
 		{
-			"        abilities : 472, 471, 650,", -- [1]
+			"PetBattle Initial Update", -- [1]
 			0, -- [2]
 		}, -- [198]
 		{
-			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [199]
 		{
-			"        abilities : 768, 256, 769,", -- [1]
+			"     Slot   0, Species 213, Health 1400, Level  25, DisplayID 45960, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [200]
 		{
-			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"        abilities : 452, 457, 456,", -- [1]
 			0, -- [2]
 		}, -- [201]
 		{
-			"        abilities : 1121, 312, 1125,", -- [1]
+			"     Slot   1, Species 1567, Health 685, Level  12, DisplayID 60820, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [202]
 		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
+			"        abilities : 112, 517, 595,", -- [1]
 			0, -- [2]
 		}, -- [203]
 		{
-			"---Battle Begin---", -- [1]
+			"     Slot   2, Species 1394, Health 1806, Level  25, DisplayID 54511, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [204]
 		{
-			"  PetSwap P0 PET 0", -- [1]
+			"        abilities : 1273, 665, 663,", -- [1]
 			0, -- [2]
 		}, -- [205]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [206]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [207]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"        abilities : 472, 471, 650,", -- [1]
 			0, -- [2]
 		}, -- [208]
 		{
-			"---Replacements made---", -- [1]
+			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [209]
 		{
-			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"        abilities : 768, 256, 769,", -- [1]
 			0, -- [2]
 		}, -- [210]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [211]
 		{
-			"---BattleFinished: You Won ---", -- [1]
+			"        abilities : 1121, 312, 1125,", -- [1]
 			0, -- [2]
 		}, -- [212]
 		{
-			"<waiting for PetBattleInput final>", -- [1]
+			"<waiting for PetBattleReadyToStart command>", -- [1]
 			0, -- [2]
 		}, -- [213]
 		{
-			"---ClientPetBattleFinished---", -- [1]
+			"---Battle Begin---", -- [1]
 			0, -- [2]
 		}, -- [214]
 		{
-			"PetBattle Initial Update", -- [1]
+			"  PetSwap P0 PET 0", -- [1]
 			0, -- [2]
 		}, -- [215]
 		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [216]
 		{
-			"     Slot   0, Species 213, Health 1400, Level  25, DisplayID 45960, CollarID 0", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [217]
 		{
-			"        abilities : 452, 457, 456,", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [218]
 		{
-			"     Slot   1, Species 1625, Health 1488, Level  24, DisplayID 61890, CollarID 0", -- [1]
+			"---Replacements made---", -- [1]
 			0, -- [2]
 		}, -- [219]
 		{
-			"        abilities : 1066, 1035, 752,", -- [1]
+			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [220]
 		{
-			"     Slot   2, Species 1394, Health 1806, Level  25, DisplayID 54511, CollarID 0", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [221]
 		{
-			"        abilities : 1273, 665, 663,", -- [1]
+			"---BattleFinished: You Won ---", -- [1]
 			0, -- [2]
 		}, -- [222]
 		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			"<waiting for PetBattleInput final>", -- [1]
 			0, -- [2]
 		}, -- [223]
 		{
-			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"---ClientPetBattleFinished---", -- [1]
 			0, -- [2]
 		}, -- [224]
 		{
-			"        abilities : 472, 471, 650,", -- [1]
+			"PetBattle Initial Update", -- [1]
 			0, -- [2]
 		}, -- [225]
 		{
-			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [226]
 		{
-			"        abilities : 768, 256, 769,", -- [1]
+			"     Slot   0, Species 213, Health 1400, Level  25, DisplayID 45960, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [227]
 		{
-			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"        abilities : 452, 457, 456,", -- [1]
 			0, -- [2]
 		}, -- [228]
 		{
-			"        abilities : 1121, 312, 1125,", -- [1]
+			"     Slot   1, Species 1567, Health 977, Level  18, DisplayID 60820, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [229]
 		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
+			"        abilities : 112, 517, 595,", -- [1]
 			0, -- [2]
 		}, -- [230]
 		{
-			"---Battle Begin---", -- [1]
+			"     Slot   2, Species 1394, Health 1806, Level  25, DisplayID 54511, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [231]
 		{
-			"  PetSwap P0 PET 0", -- [1]
+			"        abilities : 1273, 665, 663,", -- [1]
 			0, -- [2]
 		}, -- [232]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [233]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [234]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"        abilities : 472, 471, 650,", -- [1]
 			0, -- [2]
 		}, -- [235]
 		{
-			"---Replacements made---", -- [1]
+			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [236]
 		{
-			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"        abilities : 768, 256, 769,", -- [1]
 			0, -- [2]
 		}, -- [237]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [238]
 		{
-			"---BattleFinished: You Won ---", -- [1]
+			"        abilities : 1121, 312, 1125,", -- [1]
 			0, -- [2]
 		}, -- [239]
 		{
-			"<waiting for PetBattleInput final>", -- [1]
+			"<waiting for PetBattleReadyToStart command>", -- [1]
 			0, -- [2]
 		}, -- [240]
 		{
-			"---ClientPetBattleFinished---", -- [1]
+			"---Battle Begin---", -- [1]
 			0, -- [2]
 		}, -- [241]
 		{
-			"PetBattle Initial Update", -- [1]
+			"  PetSwap P0 PET 0", -- [1]
 			0, -- [2]
 		}, -- [242]
 		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [243]
 		{
-			"     Slot   0, Species 213, Health 1400, Level  25, DisplayID 45960, CollarID 0", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [244]
 		{
-			"        abilities : 452, 457, 456,", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [245]
 		{
-			"     Slot   1, Species 2563, Health 159, Level   1, DisplayID 90230, CollarID 0", -- [1]
+			"---Replacements made---", -- [1]
 			0, -- [2]
 		}, -- [246]
 		{
-			"        abilities : 1370,", -- [1]
+			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [247]
 		{
-			"     Slot   2, Species 1394, Health 1806, Level  25, DisplayID 54511, CollarID 0", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [248]
 		{
-			"        abilities : 1273, 665, 663,", -- [1]
+			"---Replacements made---", -- [1]
 			0, -- [2]
 		}, -- [249]
 		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			"  P1 PET 0 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [250]
 		{
-			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [251]
 		{
-			"        abilities : 472, 471, 650,", -- [1]
+			"---BattleFinished: You Won ---", -- [1]
 			0, -- [2]
 		}, -- [252]
 		{
-			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"<waiting for PetBattleInput final>", -- [1]
 			0, -- [2]
 		}, -- [253]
 		{
-			"        abilities : 768, 256, 769,", -- [1]
+			"---ClientPetBattleFinished---", -- [1]
 			0, -- [2]
 		}, -- [254]
 		{
-			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"PetBattle Initial Update", -- [1]
 			0, -- [2]
 		}, -- [255]
 		{
-			"        abilities : 1121, 312, 1125,", -- [1]
+			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [256]
 		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
+			"     Slot   0, Species 213, Health 1400, Level  25, DisplayID 45960, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [257]
 		{
-			"---Battle Begin---", -- [1]
+			"        abilities : 452, 457, 456,", -- [1]
 			0, -- [2]
 		}, -- [258]
 		{
-			"  PetSwap P0 PET 0", -- [1]
+			"     Slot   1, Species 1567, Health 1172, Level  22, DisplayID 60820, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [259]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"        abilities : 112, 517, 595,", -- [1]
 			0, -- [2]
 		}, -- [260]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"     Slot   2, Species 1394, Health 1806, Level  25, DisplayID 54511, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [261]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"        abilities : 1273, 665, 663,", -- [1]
 			0, -- [2]
 		}, -- [262]
 		{
-			"---Replacements made---", -- [1]
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [263]
 		{
-			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [264]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"        abilities : 472, 471, 650,", -- [1]
 			0, -- [2]
 		}, -- [265]
 		{
-			"---Replacements made---", -- [1]
+			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [266]
 		{
-			"  P1 PET 0 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"        abilities : 768, 256, 769,", -- [1]
 			0, -- [2]
 		}, -- [267]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [268]
 		{
-			"---BattleFinished: You Won ---", -- [1]
+			"        abilities : 1121, 312, 1125,", -- [1]
 			0, -- [2]
 		}, -- [269]
 		{
-			"<waiting for PetBattleInput final>", -- [1]
+			"<waiting for PetBattleReadyToStart command>", -- [1]
 			0, -- [2]
 		}, -- [270]
 		{
-			"---ClientPetBattleFinished---", -- [1]
+			"---Battle Begin---", -- [1]
 			0, -- [2]
 		}, -- [271]
 		{
-			"PetBattle Initial Update", -- [1]
+			"  PetSwap P0 PET 0", -- [1]
 			0, -- [2]
 		}, -- [272]
 		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [273]
 		{
-			"     Slot   0, Species 213, Health 1400, Level  25, DisplayID 45960, CollarID 0", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [274]
 		{
-			"        abilities : 452, 457, 456,", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [275]
 		{
-			"     Slot   1, Species 2563, Health 804, Level  12, DisplayID 90230, CollarID 0", -- [1]
+			"---Replacements made---", -- [1]
 			0, -- [2]
 		}, -- [276]
 		{
-			"        abilities : 1370, 170, 2253,", -- [1]
+			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [277]
 		{
-			"     Slot   2, Species 1394, Health 1806, Level  25, DisplayID 54511, CollarID 0", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [278]
 		{
-			"        abilities : 1273, 665, 663,", -- [1]
+			"---Replacements made---", -- [1]
 			0, -- [2]
 		}, -- [279]
 		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			"  P1 PET 0 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [280]
 		{
-			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [281]
 		{
-			"        abilities : 472, 471, 650,", -- [1]
+			"---BattleFinished: You Won ---", -- [1]
 			0, -- [2]
 		}, -- [282]
 		{
-			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"<waiting for PetBattleInput final>", -- [1]
 			0, -- [2]
 		}, -- [283]
 		{
-			"        abilities : 768, 256, 769,", -- [1]
+			"---ClientPetBattleFinished---", -- [1]
 			0, -- [2]
 		}, -- [284]
 		{
-			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [285]
 		{
-			"        abilities : 1121, 312, 1125,", -- [1]
+			"Sorting particles normally.", -- [1]
 			0, -- [2]
 		}, -- [286]
 		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
+			"Multithreaded rendering enabled.", -- [1]
 			0, -- [2]
 		}, -- [287]
 		{
-			"---Battle Begin---", -- [1]
+			"Multithreaded BeginDraw enabled.", -- [1]
 			0, -- [2]
 		}, -- [288]
 		{
-			"  PetSwap P0 PET 0", -- [1]
+			"Multithread shadows changed to 1.", -- [1]
 			0, -- [2]
 		}, -- [289]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"Multithreaded prepass enabled.", -- [1]
 			0, -- [2]
 		}, -- [290]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"Multithreaded opaque pass enabled.", -- [1]
 			0, -- [2]
 		}, -- [291]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"Multithreaded opaque pass enabled.", -- [1]
 			0, -- [2]
 		}, -- [292]
 		{
-			"---Replacements made---", -- [1]
+			"Multithreaded alpha M2 pass enabled.", -- [1]
 			0, -- [2]
 		}, -- [293]
 		{
-			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"Multithreaded opaque WMO pass enabled.", -- [1]
 			0, -- [2]
 		}, -- [294]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"Multithreaded terrain pass enabled.", -- [1]
 			0, -- [2]
 		}, -- [295]
 		{
-			"---Replacements made---", -- [1]
+			"Water detail changed to 2", -- [1]
 			0, -- [2]
 		}, -- [296]
 		{
-			"  P1 PET 0 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"Ripple detail changed to 1", -- [1]
 			0, -- [2]
 		}, -- [297]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"Reflection mode changed to 0", -- [1]
 			0, -- [2]
 		}, -- [298]
 		{
-			"---BattleFinished: You Won ---", -- [1]
+			"Reflection downscale changed to 0", -- [1]
 			0, -- [2]
 		}, -- [299]
 		{
-			"<waiting for PetBattleInput final>", -- [1]
+			"Sunshafts quality changed to 2", -- [1]
 			0, -- [2]
 		}, -- [300]
 		{
-			"---ClientPetBattleFinished---", -- [1]
+			"Refraction mode changed to 2", -- [1]
 			0, -- [2]
 		}, -- [301]
 		{
-			"PetBattle Initial Update", -- [1]
+			"Enabling BSP node cache (first time - starting up)", -- [1]
 			0, -- [2]
 		}, -- [302]
 		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
+			"Volume fog enabled.", -- [1]
 			0, -- [2]
 		}, -- [303]
 		{
-			"     Slot   0, Species 213, Health 1400, Level  25, DisplayID 45960, CollarID 0", -- [1]
+			"Particulate volumes enabled.", -- [1]
 			0, -- [2]
 		}, -- [304]
 		{
-			"        abilities : 452, 457, 456,", -- [1]
+			"Projected textures enabled.", -- [1]
 			0, -- [2]
 		}, -- [305]
 		{
-			"     Slot   1, Species 2563, Health 1156, Level  18, DisplayID 90230, CollarID 0", -- [1]
+			"Spell Clutter set to dynamic", -- [1]
 			0, -- [2]
 		}, -- [306]
 		{
-			"        abilities : 1370, 170, 2253,", -- [1]
+			"Shadow mode changed to 3 - 3 band dynamic shadows on units and terrain, 2048", -- [1]
 			0, -- [2]
 		}, -- [307]
 		{
-			"     Slot   2, Species 1394, Health 1806, Level  25, DisplayID 54511, CollarID 0", -- [1]
+			"Shadow texture size changed to 2048.", -- [1]
 			0, -- [2]
 		}, -- [308]
 		{
-			"        abilities : 1273, 665, 663,", -- [1]
+			"Soft shadows changed to 0.", -- [1]
 			0, -- [2]
 		}, -- [309]
 		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			"Shadow RT mode changed to 0 (Disabled)", -- [1]
 			0, -- [2]
 		}, -- [310]
 		{
-			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"maxLightCount must be in range 0 to 32.", -- [1]
 			0, -- [2]
 		}, -- [311]
 		{
-			"        abilities : 472, 471, 650,", -- [1]
+			"CVar 'maxLightCount' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [312]
 		{
-			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"SSAO mode set to 3", -- [1]
 			0, -- [2]
 		}, -- [313]
 		{
-			"        abilities : 768, 256, 769,", -- [1]
+			"SSAO type set to 0", -- [1]
 			0, -- [2]
 		}, -- [314]
 		{
-			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"Depth Based Opacity Enabled", -- [1]
 			0, -- [2]
 		}, -- [315]
 		{
-			"        abilities : 1121, 312, 1125,", -- [1]
+			"SkyCloudLOD set to 0", -- [1]
 			0, -- [2]
 		}, -- [316]
 		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
+			"Texture filtering mode updated.", -- [1]
 			0, -- [2]
 		}, -- [317]
 		{
-			"---Battle Begin---", -- [1]
+			"Terrain mip level changed to 0.", -- [1]
 			0, -- [2]
 		}, -- [318]
 		{
-			"  PetSwap P0 PET 0", -- [1]
+			"Outline mode changed to 2", -- [1]
 			0, -- [2]
 		}, -- [319]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"Physics interaction level changed to 1", -- [1]
 			0, -- [2]
 		}, -- [320]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"Render scale changed to 1", -- [1]
 			0, -- [2]
 		}, -- [321]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"Resample quality changed to 1", -- [1]
 			0, -- [2]
 		}, -- [322]
 		{
-			"---Replacements made---", -- [1]
+			"MSAA set to 8 color samples, 8 coverage samples", -- [1]
 			0, -- [2]
 		}, -- [323]
 		{
-			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"MSAA for alpha-test enabled.", -- [1]
 			0, -- [2]
 		}, -- [324]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"Variable Rate Shading not supported on this hardware", -- [1]
 			0, -- [2]
 		}, -- [325]
 		{
-			"---Replacements made---", -- [1]
+			"CVar 'vrsWorldGeo' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [326]
 		{
-			"  P1 PET 0 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"Variable Rate Shading not supported on this hardware", -- [1]
 			0, -- [2]
 		}, -- [327]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"CVar 'vrsParticles' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [328]
 		{
-			"---BattleFinished: You Won ---", -- [1]
+			"lodObjectSizeScale cannot be changed.", -- [1]
 			0, -- [2]
 		}, -- [329]
 		{
-			"<waiting for PetBattleInput final>", -- [1]
+			"Volume fog enabled.", -- [1]
 			0, -- [2]
 		}, -- [330]
 		{
-			"---ClientPetBattleFinished---", -- [1]
+			"Particulate volumes enabled.", -- [1]
 			0, -- [2]
 		}, -- [331]
 		{
-			"PetBattle Initial Update", -- [1]
+			"dynamicLod enabled", -- [1]
 			0, -- [2]
 		}, -- [332]
 		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
+			"World preload object sort enabled.", -- [1]
 			0, -- [2]
 		}, -- [333]
 		{
-			"     Slot   0, Species 213, Health 1400, Level  25, DisplayID 45960, CollarID 0", -- [1]
+			"World load object sort enabled.", -- [1]
 			0, -- [2]
 		}, -- [334]
 		{
-			"        abilities : 452, 457, 456,", -- [1]
+			"World preload non critical enabled.", -- [1]
 			0, -- [2]
 		}, -- [335]
 		{
-			"     Slot   1, Species 2563, Health 1391, Level  22, DisplayID 90230, CollarID 0", -- [1]
+			"World preload high res textures enabled.", -- [1]
 			0, -- [2]
 		}, -- [336]
 		{
-			"        abilities : 1370, 170, 2253,", -- [1]
+			"FFX: Color Blind Test Mode Disabled", -- [1]
 			0, -- [2]
 		}, -- [337]
 		{
-			"     Slot   2, Species 1394, Health 1806, Level  25, DisplayID 54511, CollarID 0", -- [1]
+			"Full memory crash dump disabled", -- [1]
 			0, -- [2]
 		}, -- [338]
 		{
-			"        abilities : 1273, 665, 663,", -- [1]
+			"Error display disabled", -- [1]
 			0, -- [2]
 		}, -- [339]
 		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			"Error display shown", -- [1]
 			0, -- [2]
 		}, -- [340]
 		{
-			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"Displaying errors through fatal errors", -- [1]
 			0, -- [2]
 		}, -- [341]
 		{
-			"        abilities : 472, 471, 650,", -- [1]
+			"Displaying errors through fatal errors", -- [1]
 			0, -- [2]
 		}, -- [342]
 		{
-			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"Now filtering: all messages", -- [1]
 			0, -- [2]
 		}, -- [343]
 		{
-			"        abilities : 768, 256, 769,", -- [1]
+			"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [344]
 		{
-			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [345]
 		{
-			"        abilities : 1121, 312, 1125,", -- [1]
+			"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [346]
 		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
+			"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [347]
 		{
-			"---Battle Begin---", -- [1]
+			"[GlueLogin] Starting loginlauncherPortal=\"eu.actual.battle.net\" loginPortal=\"eu.actual.battle.net:1119\"", -- [1]
 			0, -- [2]
 		}, -- [348]
 		{
-			"  PetSwap P0 PET 0", -- [1]
+			"[GlueLogin] Resetting", -- [1]
 			0, -- [2]
 		}, -- [349]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"[IBN_Login] Initializing", -- [1]
 			0, -- [2]
 		}, -- [350]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"[IBN_Login] Attempting logonhost=\"eu.actual.battle.net\" port=\"1119\"", -- [1]
 			0, -- [2]
 		}, -- [351]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
 		}, -- [352]
 		{
-			"---Replacements made---", -- [1]
+			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
 		}, -- [353]
 		{
-			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
 		}, -- [354]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"[GlueLogin] Logon complete.", -- [1]
 			0, -- [2]
 		}, -- [355]
 		{
-			"---BattleFinished: You Won ---", -- [1]
+			"[GlueLogin] Reconnect token saved; creationTime=\"1651519392\" expirationTime=\"1651533792\"", -- [1]
 			0, -- [2]
 		}, -- [356]
 		{
-			"<waiting for PetBattleInput final>", -- [1]
+			"[GlueLogin] Waiting for realm list.", -- [1]
 			0, -- [2]
 		}, -- [357]
 		{
-			"---ClientPetBattleFinished---", -- [1]
+			"[IBN_Login] Requesting realm list ticket", -- [1]
 			0, -- [2]
 		}, -- [358]
 		{
-			"PetBattle Initial Update", -- [1]
+			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [359]
 		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
+			"[GlueLogin] Waiting for realm list.", -- [1]
 			0, -- [2]
 		}, -- [360]
 		{
-			"     Slot   0, Species 213, Health 1400, Level  25, DisplayID 45960, CollarID 0", -- [1]
+			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [361]
 		{
-			"        abilities : 452, 457, 456,", -- [1]
+			"[IBN_Login] Requesting last played charsnumSubRegions=\"3\"", -- [1]
 			0, -- [2]
 		}, -- [362]
 		{
-			"     Slot   1, Species 2563, Health 1508, Level  24, DisplayID 90230, CollarID 0", -- [1]
+			"[GlueLogin] Realm list ready.", -- [1]
 			0, -- [2]
 		}, -- [363]
 		{
-			"        abilities : 1370, 170, 2253,", -- [1]
+			"[IBN_Login] Joining realmsubRegion=\"3-4-89\" realmAddress=\"3-5-4\"", -- [1]
 			0, -- [2]
 		}, -- [364]
 		{
-			"     Slot   2, Species 1394, Health 1806, Level  25, DisplayID 54511, CollarID 0", -- [1]
+			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [365]
 		{
-			"        abilities : 1273, 665, 663,", -- [1]
+			"NetClient::HandleConnect()\n", -- [1]
 			0, -- [2]
 		}, -- [366]
 		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [367]
 		{
-			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"[IBN_Login] Front disconnectingconnectionId=\"1\"", -- [1]
 			0, -- [2]
 		}, -- [368]
 		{
-			"        abilities : 472, 471, 650,", -- [1]
+			"[GlueLogin] Disconnecting from authentication server.", -- [1]
 			0, -- [2]
 		}, -- [369]
 		{
-			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
 			0, -- [2]
 		}, -- [370]
 		{
-			"        abilities : 768, 256, 769,", -- [1]
+			"[WowEntitlements] [BNetAccount-0-00001A346EC5] [WowAccount-0-000005146EC9] Initialized with 15 entitlements.", -- [1]
 			0, -- [2]
 		}, -- [371]
 		{
-			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
+			"[IBN_Login] Front disconnectedconnectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
 			0, -- [2]
 		}, -- [372]
 		{
-			"        abilities : 1121, 312, 1125,", -- [1]
+			"[GlueLogin] Disconnected from authentication server.", -- [1]
 			0, -- [2]
 		}, -- [373]
 		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [374]
 		{
-			"---Battle Begin---", -- [1]
-			0, -- [2]
-		}, -- [375]
-		{
-			"  PetSwap P0 PET 0", -- [1]
-			0, -- [2]
-		}, -- [376]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [377]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [378]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [379]
-		{
-			"---Replacements made---", -- [1]
-			0, -- [2]
-		}, -- [380]
-		{
-			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
-			0, -- [2]
-		}, -- [381]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [382]
-		{
-			"---BattleFinished: You Won ---", -- [1]
-			0, -- [2]
-		}, -- [383]
-		{
-			"<waiting for PetBattleInput final>", -- [1]
-			0, -- [2]
-		}, -- [384]
-		{
-			"---ClientPetBattleFinished---", -- [1]
-			0, -- [2]
-		}, -- [385]
-		{
-			"PetBattle Initial Update", -- [1]
-			0, -- [2]
-		}, -- [386]
-		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [387]
-		{
-			"     Slot   0, Species 213, Health 1400, Level  25, DisplayID 45960, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [388]
-		{
-			"        abilities : 452, 457, 456,", -- [1]
-			0, -- [2]
-		}, -- [389]
-		{
-			"     Slot   1, Species 2441, Health 155, Level   1, DisplayID 16880, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [390]
-		{
-			"        abilities : 504,", -- [1]
-			0, -- [2]
-		}, -- [391]
-		{
-			"     Slot   2, Species 1394, Health 1806, Level  25, DisplayID 54511, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [392]
-		{
-			"        abilities : 1273, 665, 663,", -- [1]
-			0, -- [2]
-		}, -- [393]
-		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [394]
-		{
-			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [395]
-		{
-			"        abilities : 472, 471, 650,", -- [1]
-			0, -- [2]
-		}, -- [396]
-		{
-			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [397]
-		{
-			"        abilities : 768, 256, 769,", -- [1]
-			0, -- [2]
-		}, -- [398]
-		{
-			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [399]
-		{
-			"        abilities : 1121, 312, 1125,", -- [1]
-			0, -- [2]
-		}, -- [400]
-		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
-			0, -- [2]
-		}, -- [401]
-		{
-			"---Battle Begin---", -- [1]
-			0, -- [2]
-		}, -- [402]
-		{
-			"  PetSwap P0 PET 0", -- [1]
-			0, -- [2]
-		}, -- [403]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [404]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [405]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [406]
-		{
-			"---Replacements made---", -- [1]
-			0, -- [2]
-		}, -- [407]
-		{
-			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
-			0, -- [2]
-		}, -- [408]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [409]
-		{
-			"---BattleFinished: You Won ---", -- [1]
-			0, -- [2]
-		}, -- [410]
-		{
-			"<waiting for PetBattleInput final>", -- [1]
-			0, -- [2]
-		}, -- [411]
-		{
-			"---ClientPetBattleFinished---", -- [1]
-			0, -- [2]
-		}, -- [412]
-		{
-			"PetBattle Initial Update", -- [1]
-			0, -- [2]
-		}, -- [413]
-		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [414]
-		{
-			"     Slot   0, Species 213, Health 1400, Level  25, DisplayID 45960, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [415]
-		{
-			"        abilities : 452, 457, 456,", -- [1]
-			0, -- [2]
-		}, -- [416]
-		{
-			"     Slot   1, Species 2441, Health 763, Level  12, DisplayID 16880, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [417]
-		{
-			"        abilities : 504, 488, 589,", -- [1]
-			0, -- [2]
-		}, -- [418]
-		{
-			"     Slot   2, Species 1394, Health 1806, Level  25, DisplayID 54511, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [419]
-		{
-			"        abilities : 1273, 665, 663,", -- [1]
-			0, -- [2]
-		}, -- [420]
-		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [421]
-		{
-			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [422]
-		{
-			"        abilities : 472, 471, 650,", -- [1]
-			0, -- [2]
-		}, -- [423]
-		{
-			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [424]
-		{
-			"        abilities : 768, 256, 769,", -- [1]
-			0, -- [2]
-		}, -- [425]
-		{
-			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [426]
-		{
-			"        abilities : 1121, 312, 1125,", -- [1]
-			0, -- [2]
-		}, -- [427]
-		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
-			0, -- [2]
-		}, -- [428]
-		{
-			"---Battle Begin---", -- [1]
-			0, -- [2]
-		}, -- [429]
-		{
-			"  PetSwap P0 PET 0", -- [1]
-			0, -- [2]
-		}, -- [430]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [431]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [432]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [433]
-		{
-			"---Replacements made---", -- [1]
-			0, -- [2]
-		}, -- [434]
-		{
-			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
-			0, -- [2]
-		}, -- [435]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [436]
-		{
-			"---Replacements made---", -- [1]
-			0, -- [2]
-		}, -- [437]
-		{
-			"  P1 PET 0 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
-			0, -- [2]
-		}, -- [438]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [439]
-		{
-			"---BattleFinished: You Won ---", -- [1]
-			0, -- [2]
-		}, -- [440]
-		{
-			"<waiting for PetBattleInput final>", -- [1]
-			0, -- [2]
-		}, -- [441]
-		{
-			"---ClientPetBattleFinished---", -- [1]
-			0, -- [2]
-		}, -- [442]
-		{
-			"PetBattle Initial Update", -- [1]
-			0, -- [2]
-		}, -- [443]
-		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [444]
-		{
-			"     Slot   0, Species 213, Health 1400, Level  25, DisplayID 45960, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [445]
-		{
-			"        abilities : 452, 457, 456,", -- [1]
-			0, -- [2]
-		}, -- [446]
-		{
-			"     Slot   1, Species 2441, Health 1094, Level  18, DisplayID 16880, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [447]
-		{
-			"        abilities : 504, 488, 589,", -- [1]
-			0, -- [2]
-		}, -- [448]
-		{
-			"     Slot   2, Species 1394, Health 1806, Level  25, DisplayID 54511, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [449]
-		{
-			"        abilities : 1273, 665, 663,", -- [1]
-			0, -- [2]
-		}, -- [450]
-		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [451]
-		{
-			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [452]
-		{
-			"        abilities : 472, 471, 650,", -- [1]
-			0, -- [2]
-		}, -- [453]
-		{
-			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [454]
-		{
-			"        abilities : 768, 256, 769,", -- [1]
-			0, -- [2]
-		}, -- [455]
-		{
-			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [456]
-		{
-			"        abilities : 1121, 312, 1125,", -- [1]
-			0, -- [2]
-		}, -- [457]
-		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
-			0, -- [2]
-		}, -- [458]
-		{
-			"---Battle Begin---", -- [1]
-			0, -- [2]
-		}, -- [459]
-		{
-			"  PetSwap P0 PET 0", -- [1]
-			0, -- [2]
-		}, -- [460]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [461]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [462]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [463]
-		{
-			"---Replacements made---", -- [1]
-			0, -- [2]
-		}, -- [464]
-		{
-			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
-			0, -- [2]
-		}, -- [465]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [466]
-		{
-			"---BattleFinished: You Won ---", -- [1]
-			0, -- [2]
-		}, -- [467]
-		{
-			"<waiting for PetBattleInput final>", -- [1]
-			0, -- [2]
-		}, -- [468]
-		{
-			"---ClientPetBattleFinished---", -- [1]
-			0, -- [2]
-		}, -- [469]
-		{
-			"PetBattle Initial Update", -- [1]
-			0, -- [2]
-		}, -- [470]
-		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [471]
-		{
-			"     Slot   0, Species 213, Health 1400, Level  25, DisplayID 45960, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [472]
-		{
-			"        abilities : 452, 457, 456,", -- [1]
-			0, -- [2]
-		}, -- [473]
-		{
-			"     Slot   1, Species 2441, Health 1315, Level  22, DisplayID 16880, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [474]
-		{
-			"        abilities : 504, 488, 589,", -- [1]
-			0, -- [2]
-		}, -- [475]
-		{
-			"     Slot   2, Species 1394, Health 1806, Level  25, DisplayID 54511, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [476]
-		{
-			"        abilities : 1273, 665, 663,", -- [1]
-			0, -- [2]
-		}, -- [477]
-		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [478]
-		{
-			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [479]
-		{
-			"        abilities : 472, 471, 650,", -- [1]
-			0, -- [2]
-		}, -- [480]
-		{
-			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [481]
-		{
-			"        abilities : 768, 256, 769,", -- [1]
-			0, -- [2]
-		}, -- [482]
-		{
-			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [483]
-		{
-			"        abilities : 1121, 312, 1125,", -- [1]
-			0, -- [2]
-		}, -- [484]
-		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
-			0, -- [2]
-		}, -- [485]
-		{
-			"---Battle Begin---", -- [1]
-			0, -- [2]
-		}, -- [486]
-		{
-			"  PetSwap P0 PET 0", -- [1]
-			0, -- [2]
-		}, -- [487]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [488]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [489]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [490]
-		{
-			"---Replacements made---", -- [1]
-			0, -- [2]
-		}, -- [491]
-		{
-			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
-			0, -- [2]
-		}, -- [492]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [493]
-		{
-			"---Replacements made---", -- [1]
-			0, -- [2]
-		}, -- [494]
-		{
-			"  P1 PET 0 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
-			0, -- [2]
-		}, -- [495]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [496]
-		{
-			"---BattleFinished: You Won ---", -- [1]
-			0, -- [2]
-		}, -- [497]
-		{
-			"<waiting for PetBattleInput final>", -- [1]
-			0, -- [2]
-		}, -- [498]
-		{
-			"---ClientPetBattleFinished---", -- [1]
-			0, -- [2]
-		}, -- [499]
-		{
-			"PetBattle Initial Update", -- [1]
-			0, -- [2]
-		}, -- [500]
-		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [501]
-		{
-			"     Slot   0, Species 213, Health 1400, Level  25, DisplayID 45960, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [502]
-		{
-			"        abilities : 452, 457, 456,", -- [1]
-			0, -- [2]
-		}, -- [503]
-		{
-			"     Slot   1, Species 2441, Health 1426, Level  24, DisplayID 16880, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [504]
-		{
-			"        abilities : 504, 488, 589,", -- [1]
-			0, -- [2]
-		}, -- [505]
-		{
-			"     Slot   2, Species 1394, Health 1806, Level  25, DisplayID 54511, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [506]
-		{
-			"        abilities : 1273, 665, 663,", -- [1]
-			0, -- [2]
-		}, -- [507]
-		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [508]
-		{
-			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [509]
-		{
-			"        abilities : 472, 471, 650,", -- [1]
-			0, -- [2]
-		}, -- [510]
-		{
-			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [511]
-		{
-			"        abilities : 768, 256, 769,", -- [1]
-			0, -- [2]
-		}, -- [512]
-		{
-			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [513]
-		{
-			"        abilities : 1121, 312, 1125,", -- [1]
-			0, -- [2]
-		}, -- [514]
-		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
-			0, -- [2]
-		}, -- [515]
-		{
-			"---Battle Begin---", -- [1]
-			0, -- [2]
-		}, -- [516]
-		{
-			"  PetSwap P0 PET 0", -- [1]
-			0, -- [2]
-		}, -- [517]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [518]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [519]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [520]
-		{
-			"---Replacements made---", -- [1]
-			0, -- [2]
-		}, -- [521]
-		{
-			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
-			0, -- [2]
-		}, -- [522]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [523]
-		{
-			"---Replacements made---", -- [1]
-			0, -- [2]
-		}, -- [524]
-		{
-			"  P1 PET 0 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
-			0, -- [2]
-		}, -- [525]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [526]
-		{
-			"---BattleFinished: You Won ---", -- [1]
-			0, -- [2]
-		}, -- [527]
-		{
-			"<waiting for PetBattleInput final>", -- [1]
-			0, -- [2]
-		}, -- [528]
-		{
-			"---ClientPetBattleFinished---", -- [1]
-			0, -- [2]
-		}, -- [529]
-		{
-			"PetBattle Initial Update", -- [1]
-			0, -- [2]
-		}, -- [530]
-		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [531]
-		{
-			"     Slot   0, Species 213, Health 1400, Level  25, DisplayID 45960, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [532]
-		{
-			"        abilities : 452, 457, 456,", -- [1]
-			0, -- [2]
-		}, -- [533]
-		{
-			"     Slot   1, Species 2449, Health 160, Level   1, DisplayID 26524, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [534]
-		{
-			"        abilities : 349,", -- [1]
-			0, -- [2]
-		}, -- [535]
-		{
-			"     Slot   2, Species 1394, Health 1806, Level  25, DisplayID 54511, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [536]
-		{
-			"        abilities : 1273, 665, 663,", -- [1]
-			0, -- [2]
-		}, -- [537]
-		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [538]
-		{
-			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [539]
-		{
-			"        abilities : 472, 471, 650,", -- [1]
-			0, -- [2]
-		}, -- [540]
-		{
-			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [541]
-		{
-			"        abilities : 768, 256, 769,", -- [1]
-			0, -- [2]
-		}, -- [542]
-		{
-			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [543]
-		{
-			"        abilities : 1121, 312, 1125,", -- [1]
-			0, -- [2]
-		}, -- [544]
-		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
-			0, -- [2]
-		}, -- [545]
-		{
-			"---Battle Begin---", -- [1]
-			0, -- [2]
-		}, -- [546]
-		{
-			"  PetSwap P0 PET 0", -- [1]
-			0, -- [2]
-		}, -- [547]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [548]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [549]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [550]
-		{
-			"---Replacements made---", -- [1]
-			0, -- [2]
-		}, -- [551]
-		{
-			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
-			0, -- [2]
-		}, -- [552]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [553]
-		{
-			"---BattleFinished: You Won ---", -- [1]
-			0, -- [2]
-		}, -- [554]
-		{
-			"<waiting for PetBattleInput final>", -- [1]
-			0, -- [2]
-		}, -- [555]
-		{
-			"---ClientPetBattleFinished---", -- [1]
-			0, -- [2]
-		}, -- [556]
-		{
-			"PetBattle Initial Update", -- [1]
-			0, -- [2]
-		}, -- [557]
-		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [558]
-		{
-			"     Slot   0, Species 213, Health 1400, Level  25, DisplayID 45960, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [559]
-		{
-			"        abilities : 452, 457, 456,", -- [1]
-			0, -- [2]
-		}, -- [560]
-		{
-			"     Slot   1, Species 2449, Health 823, Level  12, DisplayID 26524, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [561]
-		{
-			"        abilities : 349, 347, 352,", -- [1]
-			0, -- [2]
-		}, -- [562]
-		{
-			"     Slot   2, Species 1394, Health 1806, Level  25, DisplayID 54511, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [563]
-		{
-			"        abilities : 1273, 665, 663,", -- [1]
-			0, -- [2]
-		}, -- [564]
-		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [565]
-		{
-			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [566]
-		{
-			"        abilities : 472, 471, 650,", -- [1]
-			0, -- [2]
-		}, -- [567]
-		{
-			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [568]
-		{
-			"        abilities : 768, 256, 769,", -- [1]
-			0, -- [2]
-		}, -- [569]
-		{
-			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [570]
-		{
-			"        abilities : 1121, 312, 1125,", -- [1]
-			0, -- [2]
-		}, -- [571]
-		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
-			0, -- [2]
-		}, -- [572]
-		{
-			"---Battle Begin---", -- [1]
-			0, -- [2]
-		}, -- [573]
-		{
-			"  PetSwap P0 PET 0", -- [1]
-			0, -- [2]
-		}, -- [574]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [575]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [576]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [577]
-		{
-			"---Replacements made---", -- [1]
-			0, -- [2]
-		}, -- [578]
-		{
-			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
-			0, -- [2]
-		}, -- [579]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [580]
-		{
-			"---BattleFinished: You Won ---", -- [1]
-			0, -- [2]
-		}, -- [581]
-		{
-			"<waiting for PetBattleInput final>", -- [1]
-			0, -- [2]
-		}, -- [582]
-		{
-			"---ClientPetBattleFinished---", -- [1]
-			0, -- [2]
-		}, -- [583]
-		{
-			"PetBattle Initial Update", -- [1]
-			0, -- [2]
-		}, -- [584]
-		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [585]
-		{
-			"     Slot   0, Species 213, Health 1400, Level  25, DisplayID 45960, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [586]
-		{
-			"        abilities : 452, 457, 456,", -- [1]
-			0, -- [2]
-		}, -- [587]
-		{
-			"     Slot   1, Species 2449, Health 1185, Level  18, DisplayID 26524, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [588]
-		{
-			"        abilities : 349, 347, 352,", -- [1]
-			0, -- [2]
-		}, -- [589]
-		{
-			"     Slot   2, Species 1394, Health 1806, Level  25, DisplayID 54511, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [590]
-		{
-			"        abilities : 1273, 665, 663,", -- [1]
-			0, -- [2]
-		}, -- [591]
-		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [592]
-		{
-			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [593]
-		{
-			"        abilities : 472, 471, 650,", -- [1]
-			0, -- [2]
-		}, -- [594]
-		{
-			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [595]
-		{
-			"        abilities : 768, 256, 769,", -- [1]
-			0, -- [2]
-		}, -- [596]
-		{
-			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [597]
-		{
-			"        abilities : 1121, 312, 1125,", -- [1]
-			0, -- [2]
-		}, -- [598]
-		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
-			0, -- [2]
-		}, -- [599]
-		{
-			"---Battle Begin---", -- [1]
-			0, -- [2]
-		}, -- [600]
-		{
-			"  PetSwap P0 PET 0", -- [1]
-			0, -- [2]
-		}, -- [601]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [602]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [603]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [604]
-		{
-			"---Replacements made---", -- [1]
-			0, -- [2]
-		}, -- [605]
-		{
-			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
-			0, -- [2]
-		}, -- [606]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [607]
-		{
-			"---Replacements made---", -- [1]
-			0, -- [2]
-		}, -- [608]
-		{
-			"  P1 PET 0 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
-			0, -- [2]
-		}, -- [609]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [610]
-		{
-			"---BattleFinished: You Won ---", -- [1]
-			0, -- [2]
-		}, -- [611]
-		{
-			"<waiting for PetBattleInput final>", -- [1]
-			0, -- [2]
-		}, -- [612]
-		{
-			"---ClientPetBattleFinished---", -- [1]
-			0, -- [2]
-		}, -- [613]
-		{
-			"PetBattle Initial Update", -- [1]
-			0, -- [2]
-		}, -- [614]
-		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [615]
-		{
-			"     Slot   0, Species 213, Health 1400, Level  25, DisplayID 45960, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [616]
-		{
-			"        abilities : 452, 457, 456,", -- [1]
-			0, -- [2]
-		}, -- [617]
-		{
-			"     Slot   1, Species 2449, Health 1426, Level  22, DisplayID 26524, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [618]
-		{
-			"        abilities : 349, 347, 352,", -- [1]
-			0, -- [2]
-		}, -- [619]
-		{
-			"     Slot   2, Species 1394, Health 1806, Level  25, DisplayID 54511, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [620]
-		{
-			"        abilities : 1273, 665, 663,", -- [1]
-			0, -- [2]
-		}, -- [621]
-		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [622]
-		{
-			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [623]
-		{
-			"        abilities : 472, 471, 650,", -- [1]
-			0, -- [2]
-		}, -- [624]
-		{
-			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [625]
-		{
-			"        abilities : 768, 256, 769,", -- [1]
-			0, -- [2]
-		}, -- [626]
-		{
-			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [627]
-		{
-			"        abilities : 1121, 312, 1125,", -- [1]
-			0, -- [2]
-		}, -- [628]
-		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
-			0, -- [2]
-		}, -- [629]
-		{
-			"---Battle Begin---", -- [1]
-			0, -- [2]
-		}, -- [630]
-		{
-			"  PetSwap P0 PET 0", -- [1]
-			0, -- [2]
-		}, -- [631]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [632]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [633]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [634]
-		{
-			"---Replacements made---", -- [1]
-			0, -- [2]
-		}, -- [635]
-		{
-			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
-			0, -- [2]
-		}, -- [636]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [637]
-		{
-			"---Replacements made---", -- [1]
-			0, -- [2]
-		}, -- [638]
-		{
-			"  P1 PET 0 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
-			0, -- [2]
-		}, -- [639]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [640]
-		{
-			"---BattleFinished: You Won ---", -- [1]
-			0, -- [2]
-		}, -- [641]
-		{
-			"<waiting for PetBattleInput final>", -- [1]
-			0, -- [2]
-		}, -- [642]
-		{
-			"---ClientPetBattleFinished---", -- [1]
-			0, -- [2]
-		}, -- [643]
-		{
-			"PetBattle Initial Update", -- [1]
-			0, -- [2]
-		}, -- [644]
-		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [645]
-		{
-			"     Slot   0, Species 213, Health 1400, Level  25, DisplayID 45960, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [646]
-		{
-			"        abilities : 452, 457, 456,", -- [1]
-			0, -- [2]
-		}, -- [647]
-		{
-			"     Slot   1, Species 2449, Health 1547, Level  24, DisplayID 26524, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [648]
-		{
-			"        abilities : 349, 347, 352,", -- [1]
-			0, -- [2]
-		}, -- [649]
-		{
-			"     Slot   2, Species 1394, Health 1806, Level  25, DisplayID 54511, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [650]
-		{
-			"        abilities : 1273, 665, 663,", -- [1]
-			0, -- [2]
-		}, -- [651]
-		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [652]
-		{
-			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [653]
-		{
-			"        abilities : 472, 471, 650,", -- [1]
-			0, -- [2]
-		}, -- [654]
-		{
-			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [655]
-		{
-			"        abilities : 768, 256, 769,", -- [1]
-			0, -- [2]
-		}, -- [656]
-		{
-			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [657]
-		{
-			"        abilities : 1121, 312, 1125,", -- [1]
-			0, -- [2]
-		}, -- [658]
-		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
-			0, -- [2]
-		}, -- [659]
-		{
-			"---Battle Begin---", -- [1]
-			0, -- [2]
-		}, -- [660]
-		{
-			"  PetSwap P0 PET 0", -- [1]
-			0, -- [2]
-		}, -- [661]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [662]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [663]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [664]
-		{
-			"---Replacements made---", -- [1]
-			0, -- [2]
-		}, -- [665]
-		{
-			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
-			0, -- [2]
-		}, -- [666]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [667]
-		{
-			"---BattleFinished: You Won ---", -- [1]
-			0, -- [2]
-		}, -- [668]
-		{
-			"<waiting for PetBattleInput final>", -- [1]
-			0, -- [2]
-		}, -- [669]
-		{
-			"---ClientPetBattleFinished---", -- [1]
-			0, -- [2]
-		}, -- [670]
-		{
-			"PetBattle Initial Update", -- [1]
-			0, -- [2]
-		}, -- [671]
-		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [672]
-		{
-			"     Slot   0, Species 213, Health 1400, Level  25, DisplayID 45960, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [673]
-		{
-			"        abilities : 452, 457, 456,", -- [1]
-			0, -- [2]
-		}, -- [674]
-		{
-			"     Slot   1, Species 1567, Health 149, Level   1, DisplayID 60820, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [675]
-		{
-			"        abilities : 112,", -- [1]
-			0, -- [2]
-		}, -- [676]
-		{
-			"     Slot   2, Species 1394, Health 1806, Level  25, DisplayID 54511, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [677]
-		{
-			"        abilities : 1273, 665, 663,", -- [1]
-			0, -- [2]
-		}, -- [678]
-		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [679]
-		{
-			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [680]
-		{
-			"        abilities : 472, 471, 650,", -- [1]
-			0, -- [2]
-		}, -- [681]
-		{
-			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [682]
-		{
-			"        abilities : 768, 256, 769,", -- [1]
-			0, -- [2]
-		}, -- [683]
-		{
-			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [684]
-		{
-			"        abilities : 1121, 312, 1125,", -- [1]
-			0, -- [2]
-		}, -- [685]
-		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
-			0, -- [2]
-		}, -- [686]
-		{
-			"---Battle Begin---", -- [1]
-			0, -- [2]
-		}, -- [687]
-		{
-			"  PetSwap P0 PET 0", -- [1]
-			0, -- [2]
-		}, -- [688]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [689]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [690]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [691]
-		{
-			"---Replacements made---", -- [1]
-			0, -- [2]
-		}, -- [692]
-		{
-			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
-			0, -- [2]
-		}, -- [693]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [694]
-		{
-			"---BattleFinished: You Won ---", -- [1]
-			0, -- [2]
-		}, -- [695]
-		{
-			"<waiting for PetBattleInput final>", -- [1]
-			0, -- [2]
-		}, -- [696]
-		{
-			"---ClientPetBattleFinished---", -- [1]
-			0, -- [2]
-		}, -- [697]
-		{
-			"PetBattle Initial Update", -- [1]
-			0, -- [2]
-		}, -- [698]
-		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [699]
-		{
-			"     Slot   0, Species 213, Health 1400, Level  25, DisplayID 45960, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [700]
-		{
-			"        abilities : 452, 457, 456,", -- [1]
-			0, -- [2]
-		}, -- [701]
-		{
-			"     Slot   1, Species 1567, Health 685, Level  12, DisplayID 60820, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [702]
-		{
-			"        abilities : 112, 517, 595,", -- [1]
-			0, -- [2]
-		}, -- [703]
-		{
-			"     Slot   2, Species 1394, Health 1806, Level  25, DisplayID 54511, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [704]
-		{
-			"        abilities : 1273, 665, 663,", -- [1]
-			0, -- [2]
-		}, -- [705]
-		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [706]
-		{
-			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [707]
-		{
-			"        abilities : 472, 471, 650,", -- [1]
-			0, -- [2]
-		}, -- [708]
-		{
-			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [709]
-		{
-			"        abilities : 768, 256, 769,", -- [1]
-			0, -- [2]
-		}, -- [710]
-		{
-			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [711]
-		{
-			"        abilities : 1121, 312, 1125,", -- [1]
-			0, -- [2]
-		}, -- [712]
-		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
-			0, -- [2]
-		}, -- [713]
-		{
-			"---Battle Begin---", -- [1]
-			0, -- [2]
-		}, -- [714]
-		{
-			"  PetSwap P0 PET 0", -- [1]
-			0, -- [2]
-		}, -- [715]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [716]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [717]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [718]
-		{
-			"---Replacements made---", -- [1]
-			0, -- [2]
-		}, -- [719]
-		{
-			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
-			0, -- [2]
-		}, -- [720]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [721]
-		{
-			"---BattleFinished: You Won ---", -- [1]
-			0, -- [2]
-		}, -- [722]
-		{
-			"<waiting for PetBattleInput final>", -- [1]
-			0, -- [2]
-		}, -- [723]
-		{
-			"---ClientPetBattleFinished---", -- [1]
-			0, -- [2]
-		}, -- [724]
-		{
-			"PetBattle Initial Update", -- [1]
-			0, -- [2]
-		}, -- [725]
-		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [726]
-		{
-			"     Slot   0, Species 213, Health 1400, Level  25, DisplayID 45960, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [727]
-		{
-			"        abilities : 452, 457, 456,", -- [1]
-			0, -- [2]
-		}, -- [728]
-		{
-			"     Slot   1, Species 1567, Health 977, Level  18, DisplayID 60820, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [729]
-		{
-			"        abilities : 112, 517, 595,", -- [1]
-			0, -- [2]
-		}, -- [730]
-		{
-			"     Slot   2, Species 1394, Health 1806, Level  25, DisplayID 54511, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [731]
-		{
-			"        abilities : 1273, 665, 663,", -- [1]
-			0, -- [2]
-		}, -- [732]
-		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [733]
-		{
-			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [734]
-		{
-			"        abilities : 472, 471, 650,", -- [1]
-			0, -- [2]
-		}, -- [735]
-		{
-			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [736]
-		{
-			"        abilities : 768, 256, 769,", -- [1]
-			0, -- [2]
-		}, -- [737]
-		{
-			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [738]
-		{
-			"        abilities : 1121, 312, 1125,", -- [1]
-			0, -- [2]
-		}, -- [739]
-		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
-			0, -- [2]
-		}, -- [740]
-		{
-			"---Battle Begin---", -- [1]
-			0, -- [2]
-		}, -- [741]
-		{
-			"  PetSwap P0 PET 0", -- [1]
-			0, -- [2]
-		}, -- [742]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [743]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [744]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [745]
-		{
-			"---Replacements made---", -- [1]
-			0, -- [2]
-		}, -- [746]
-		{
-			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
-			0, -- [2]
-		}, -- [747]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [748]
-		{
-			"---Replacements made---", -- [1]
-			0, -- [2]
-		}, -- [749]
-		{
-			"  P1 PET 0 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
-			0, -- [2]
-		}, -- [750]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [751]
-		{
-			"---BattleFinished: You Won ---", -- [1]
-			0, -- [2]
-		}, -- [752]
-		{
-			"<waiting for PetBattleInput final>", -- [1]
-			0, -- [2]
-		}, -- [753]
-		{
-			"---ClientPetBattleFinished---", -- [1]
-			0, -- [2]
-		}, -- [754]
-		{
-			"PetBattle Initial Update", -- [1]
-			0, -- [2]
-		}, -- [755]
-		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [756]
-		{
-			"     Slot   0, Species 213, Health 1400, Level  25, DisplayID 45960, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [757]
-		{
-			"        abilities : 452, 457, 456,", -- [1]
-			0, -- [2]
-		}, -- [758]
-		{
-			"     Slot   1, Species 1567, Health 1172, Level  22, DisplayID 60820, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [759]
-		{
-			"        abilities : 112, 517, 595,", -- [1]
-			0, -- [2]
-		}, -- [760]
-		{
-			"     Slot   2, Species 1394, Health 1806, Level  25, DisplayID 54511, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [761]
-		{
-			"        abilities : 1273, 665, 663,", -- [1]
-			0, -- [2]
-		}, -- [762]
-		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [763]
-		{
-			"     Slot   0, Species 1400, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [764]
-		{
-			"        abilities : 472, 471, 650,", -- [1]
-			0, -- [2]
-		}, -- [765]
-		{
-			"     Slot   1, Species 1401, Health 1319, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [766]
-		{
-			"        abilities : 768, 256, 769,", -- [1]
-			0, -- [2]
-		}, -- [767]
-		{
-			"     Slot   2, Species 1402, Health 1481, Level  25, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [768]
-		{
-			"        abilities : 1121, 312, 1125,", -- [1]
-			0, -- [2]
-		}, -- [769]
-		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
-			0, -- [2]
-		}, -- [770]
-		{
-			"---Battle Begin---", -- [1]
-			0, -- [2]
-		}, -- [771]
-		{
-			"  PetSwap P0 PET 0", -- [1]
-			0, -- [2]
-		}, -- [772]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [773]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [774]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [775]
-		{
-			"---Replacements made---", -- [1]
-			0, -- [2]
-		}, -- [776]
-		{
-			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
-			0, -- [2]
-		}, -- [777]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [778]
-		{
-			"---Replacements made---", -- [1]
-			0, -- [2]
-		}, -- [779]
-		{
-			"  P1 PET 0 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
-			0, -- [2]
-		}, -- [780]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [781]
-		{
-			"---BattleFinished: You Won ---", -- [1]
-			0, -- [2]
-		}, -- [782]
-		{
-			"<waiting for PetBattleInput final>", -- [1]
-			0, -- [2]
-		}, -- [783]
-		{
-			"---ClientPetBattleFinished---", -- [1]
-			0, -- [2]
-		}, -- [784]
-		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
-			0, -- [2]
-		}, -- [785]
-		{
-			"Sorting particles normally.", -- [1]
-			0, -- [2]
-		}, -- [786]
-		{
-			"Multithreaded rendering enabled.", -- [1]
-			0, -- [2]
-		}, -- [787]
-		{
-			"Multithreaded BeginDraw enabled.", -- [1]
-			0, -- [2]
-		}, -- [788]
-		{
-			"Multithread shadows changed to 1.", -- [1]
-			0, -- [2]
-		}, -- [789]
-		{
-			"Multithreaded prepass enabled.", -- [1]
-			0, -- [2]
-		}, -- [790]
-		{
-			"Multithreaded opaque pass enabled.", -- [1]
-			0, -- [2]
-		}, -- [791]
-		{
-			"Multithreaded opaque pass enabled.", -- [1]
-			0, -- [2]
-		}, -- [792]
-		{
-			"Multithreaded alpha M2 pass enabled.", -- [1]
-			0, -- [2]
-		}, -- [793]
-		{
-			"Multithreaded opaque WMO pass enabled.", -- [1]
-			0, -- [2]
-		}, -- [794]
-		{
-			"Multithreaded terrain pass enabled.", -- [1]
-			0, -- [2]
-		}, -- [795]
-		{
-			"Water detail changed to 2", -- [1]
-			0, -- [2]
-		}, -- [796]
-		{
-			"Ripple detail changed to 1", -- [1]
-			0, -- [2]
-		}, -- [797]
-		{
-			"Reflection mode changed to 0", -- [1]
-			0, -- [2]
-		}, -- [798]
-		{
-			"Reflection downscale changed to 0", -- [1]
-			0, -- [2]
-		}, -- [799]
-		{
-			"Sunshafts quality changed to 2", -- [1]
-			0, -- [2]
-		}, -- [800]
-		{
-			"Refraction mode changed to 2", -- [1]
-			0, -- [2]
-		}, -- [801]
-		{
-			"Enabling BSP node cache (first time - starting up)", -- [1]
-			0, -- [2]
-		}, -- [802]
-		{
-			"Volume fog enabled.", -- [1]
-			0, -- [2]
-		}, -- [803]
-		{
-			"Particulate volumes enabled.", -- [1]
-			0, -- [2]
-		}, -- [804]
-		{
-			"Projected textures enabled.", -- [1]
-			0, -- [2]
-		}, -- [805]
-		{
-			"Spell Clutter set to dynamic", -- [1]
-			0, -- [2]
-		}, -- [806]
-		{
-			"Shadow mode changed to 3 - 3 band dynamic shadows on units and terrain, 2048", -- [1]
-			0, -- [2]
-		}, -- [807]
-		{
-			"Shadow texture size changed to 2048.", -- [1]
-			0, -- [2]
-		}, -- [808]
-		{
-			"Soft shadows changed to 0.", -- [1]
-			0, -- [2]
-		}, -- [809]
-		{
-			"Shadow RT mode changed to 0 (Disabled)", -- [1]
-			0, -- [2]
-		}, -- [810]
-		{
-			"maxLightCount must be in range 0 to 32.", -- [1]
-			0, -- [2]
-		}, -- [811]
-		{
-			"CVar 'maxLightCount' failed validation for its initial value.", -- [1]
-			0, -- [2]
-		}, -- [812]
-		{
-			"SSAO mode set to 3", -- [1]
-			0, -- [2]
-		}, -- [813]
-		{
-			"SSAO type set to 0", -- [1]
-			0, -- [2]
-		}, -- [814]
-		{
-			"Depth Based Opacity Enabled", -- [1]
-			0, -- [2]
-		}, -- [815]
-		{
-			"SkyCloudLOD set to 0", -- [1]
-			0, -- [2]
-		}, -- [816]
-		{
-			"Texture filtering mode updated.", -- [1]
-			0, -- [2]
-		}, -- [817]
-		{
-			"Terrain mip level changed to 0.", -- [1]
-			0, -- [2]
-		}, -- [818]
-		{
-			"Outline mode changed to 2", -- [1]
-			0, -- [2]
-		}, -- [819]
-		{
-			"Physics interaction level changed to 1", -- [1]
-			0, -- [2]
-		}, -- [820]
-		{
-			"Render scale changed to 1", -- [1]
-			0, -- [2]
-		}, -- [821]
-		{
-			"Resample quality changed to 1", -- [1]
-			0, -- [2]
-		}, -- [822]
-		{
-			"MSAA set to 8 color samples, 8 coverage samples", -- [1]
-			0, -- [2]
-		}, -- [823]
-		{
-			"MSAA for alpha-test enabled.", -- [1]
-			0, -- [2]
-		}, -- [824]
-		{
-			"Variable Rate Shading not supported on this hardware", -- [1]
-			0, -- [2]
-		}, -- [825]
-		{
-			"CVar 'vrsWorldGeo' failed validation for its initial value.", -- [1]
-			0, -- [2]
-		}, -- [826]
-		{
-			"Variable Rate Shading not supported on this hardware", -- [1]
-			0, -- [2]
-		}, -- [827]
-		{
-			"CVar 'vrsParticles' failed validation for its initial value.", -- [1]
-			0, -- [2]
-		}, -- [828]
-		{
-			"lodObjectSizeScale cannot be changed.", -- [1]
-			0, -- [2]
-		}, -- [829]
-		{
-			"Volume fog enabled.", -- [1]
-			0, -- [2]
-		}, -- [830]
-		{
-			"Particulate volumes enabled.", -- [1]
-			0, -- [2]
-		}, -- [831]
-		{
-			"dynamicLod enabled", -- [1]
-			0, -- [2]
-		}, -- [832]
-		{
-			"World preload object sort enabled.", -- [1]
-			0, -- [2]
-		}, -- [833]
-		{
-			"World load object sort enabled.", -- [1]
-			0, -- [2]
-		}, -- [834]
-		{
-			"World preload non critical enabled.", -- [1]
-			0, -- [2]
-		}, -- [835]
-		{
-			"World preload high res textures enabled.", -- [1]
-			0, -- [2]
-		}, -- [836]
-		{
-			"FFX: Color Blind Test Mode Disabled", -- [1]
-			0, -- [2]
-		}, -- [837]
-		{
-			"Full memory crash dump disabled", -- [1]
-			0, -- [2]
-		}, -- [838]
-		{
-			"Error display disabled", -- [1]
-			0, -- [2]
-		}, -- [839]
-		{
-			"Error display shown", -- [1]
-			0, -- [2]
-		}, -- [840]
-		{
-			"Displaying errors through fatal errors", -- [1]
-			0, -- [2]
-		}, -- [841]
-		{
-			"Displaying errors through fatal errors", -- [1]
-			0, -- [2]
-		}, -- [842]
-		{
-			"Now filtering: all messages", -- [1]
-			0, -- [2]
-		}, -- [843]
-		{
-			"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.", -- [1]
-			0, -- [2]
-		}, -- [844]
-		{
-			"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
-			0, -- [2]
-		}, -- [845]
-		{
-			"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
-			0, -- [2]
-		}, -- [846]
-		{
-			"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.", -- [1]
-			0, -- [2]
-		}, -- [847]
-		{
-			"[GlueLogin] Starting loginlauncherPortal=\"eu.actual.battle.net\" loginPortal=\"eu.actual.battle.net:1119\"", -- [1]
-			0, -- [2]
-		}, -- [848]
-		{
-			"[GlueLogin] Resetting", -- [1]
-			0, -- [2]
-		}, -- [849]
-		{
-			"[IBN_Login] Initializing", -- [1]
-			0, -- [2]
-		}, -- [850]
-		{
-			"[IBN_Login] Attempting logonhost=\"eu.actual.battle.net\" port=\"1119\"", -- [1]
-			0, -- [2]
-		}, -- [851]
-		{
-			"[GlueLogin] Waiting for server response.", -- [1]
-			0, -- [2]
-		}, -- [852]
-		{
-			"[GlueLogin] Waiting for server response.", -- [1]
-			0, -- [2]
-		}, -- [853]
-		{
-			"[GlueLogin] Waiting for server response.", -- [1]
-			0, -- [2]
-		}, -- [854]
-		{
-			"[GlueLogin] Logon complete.", -- [1]
-			0, -- [2]
-		}, -- [855]
-		{
-			"[GlueLogin] Reconnect token saved; creationTime=\"1651519392\" expirationTime=\"1651533792\"", -- [1]
-			0, -- [2]
-		}, -- [856]
-		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
-			0, -- [2]
-		}, -- [857]
-		{
-			"[IBN_Login] Requesting realm list ticket", -- [1]
-			0, -- [2]
-		}, -- [858]
-		{
-			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
-			0, -- [2]
-		}, -- [859]
-		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
-			0, -- [2]
-		}, -- [860]
-		{
-			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
-			0, -- [2]
-		}, -- [861]
-		{
-			"[IBN_Login] Requesting last played charsnumSubRegions=\"3\"", -- [1]
-			0, -- [2]
-		}, -- [862]
-		{
-			"[GlueLogin] Realm list ready.", -- [1]
-			0, -- [2]
-		}, -- [863]
-		{
-			"[IBN_Login] Joining realmsubRegion=\"3-4-89\" realmAddress=\"3-5-4\"", -- [1]
-			0, -- [2]
-		}, -- [864]
-		{
-			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
-			0, -- [2]
-		}, -- [865]
-		{
-			"NetClient::HandleConnect()\n", -- [1]
-			0, -- [2]
-		}, -- [866]
-		{
-			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
-			0, -- [2]
-		}, -- [867]
-		{
-			"[IBN_Login] Front disconnectingconnectionId=\"1\"", -- [1]
-			0, -- [2]
-		}, -- [868]
-		{
-			"[GlueLogin] Disconnecting from authentication server.", -- [1]
-			0, -- [2]
-		}, -- [869]
-		{
-			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
-			0, -- [2]
-		}, -- [870]
-		{
-			"[WowEntitlements] [BNetAccount-0-00001A346EC5] [WowAccount-0-000005146EC9] Initialized with 15 entitlements.", -- [1]
-			0, -- [2]
-		}, -- [871]
-		{
-			"[IBN_Login] Front disconnectedconnectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
-			0, -- [2]
-		}, -- [872]
-		{
-			"[GlueLogin] Disconnected from authentication server.", -- [1]
-			0, -- [2]
-		}, -- [873]
-		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
-			0, -- [2]
-		}, -- [874]
-		{
 			"Game table failed consistency check: ChallengeModeHealth. rows: 50, expectedRows: 51, columns: 1, expectedColumns: 1\n", -- [1]
 			3, -- [2]
-		}, -- [875]
+		}, -- [375]
 		{
 			"Game table failed consistency check: ChallengeModeDamage. rows: 50, expectedRows: 51, columns: 1, expectedColumns: 1\n", -- [1]
 			3, -- [2]
-		}, -- [876]
+		}, -- [376]
 		{
 			"Got new connection 3", -- [1]
 			0, -- [2]
-		}, -- [877]
+		}, -- [377]
 		{
 			"Proficiency in item class 2 set to 0x0000000080", -- [1]
 			0, -- [2]
-		}, -- [878]
+		}, -- [378]
 		{
 			"Proficiency in item class 2 set to 0x0000000480", -- [1]
 			0, -- [2]
-		}, -- [879]
+		}, -- [379]
 		{
 			"Proficiency in item class 2 set to 0x0000008480", -- [1]
 			0, -- [2]
-		}, -- [880]
+		}, -- [380]
 		{
 			"Proficiency in item class 4 set to 0x0000000021", -- [1]
 			0, -- [2]
-		}, -- [881]
+		}, -- [381]
 		{
 			"Proficiency in item class 2 set to 0x000000c480", -- [1]
 			0, -- [2]
-		}, -- [882]
+		}, -- [382]
 		{
 			"Proficiency in item class 2 set to 0x000008c480", -- [1]
 			0, -- [2]
-		}, -- [883]
+		}, -- [383]
 		{
 			"Proficiency in item class 2 set to 0x000018c480", -- [1]
 			0, -- [2]
-		}, -- [884]
+		}, -- [384]
 		{
 			"Proficiency in item class 4 set to 0x0000000023", -- [1]
 			0, -- [2]
-		}, -- [885]
+		}, -- [385]
 		{
 			"Proficiency in item class 2 set to 0x000018c480", -- [1]
 			0, -- [2]
-		}, -- [886]
+		}, -- [386]
 		{
 			"Proficiency in item class 4 set to 0x0000000023", -- [1]
 			0, -- [2]
-		}, -- [887]
+		}, -- [387]
 		{
 			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
-		}, -- [888]
+		}, -- [388]
 		{
 			"Time set to 5/2/2022 (Mon) 21:22", -- [1]
 			0, -- [2]
-		}, -- [889]
+		}, -- [389]
 		{
 			"Gamespeed set from 0.017 to 0.017", -- [1]
 			0, -- [2]
-		}, -- [890]
+		}, -- [390]
 		{
 			"Time played:", -- [1]
 			0, -- [2]
-		}, -- [891]
+		}, -- [391]
 		{
 			"Total: 155d 9h 49m 46s", -- [1]
 			0, -- [2]
-		}, -- [892]
+		}, -- [392]
 		{
 			"Level: 74d 17h 2m 55s", -- [1]
 			0, -- [2]
-		}, -- [893]
+		}, -- [393]
 		{
 			"World transfer pending...", -- [1]
 			0, -- [2]
-		}, -- [894]
+		}, -- [394]
 		{
 			"Got new connection 3", -- [1]
 			0, -- [2]
-		}, -- [895]
+		}, -- [395]
 		{
 			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
-		}, -- [896]
+		}, -- [396]
 		{
 			"World transfer pending...", -- [1]
 			0, -- [2]
-		}, -- [897]
+		}, -- [397]
 		{
 			"Got new connection 3", -- [1]
 			0, -- [2]
-		}, -- [898]
+		}, -- [398]
 		{
 			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
-		}, -- [899]
+		}, -- [399]
 		{
 			"World transfer pending...", -- [1]
 			0, -- [2]
-		}, -- [900]
+		}, -- [400]
 		{
 			"Got new connection 3", -- [1]
 			0, -- [2]
-		}, -- [901]
+		}, -- [401]
 		{
 			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
-		}, -- [902]
+		}, -- [402]
 		{
 			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
-		}, -- [903]
+		}, -- [403]
 		{
 			"PetBattle Initial Update", -- [1]
 			0, -- [2]
-		}, -- [904]
+		}, -- [404]
 		{
 			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
 			0, -- [2]
-		}, -- [905]
+		}, -- [405]
 		{
 			"     Slot   0, Species 1977, Health 1400, Level  25, DisplayID 70068, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [906]
+		}, -- [406]
 		{
 			"        abilities : 1370, 1773, 518,", -- [1]
 			0, -- [2]
-		}, -- [907]
+		}, -- [407]
 		{
 			"     Slot   1, Species 1974, Health 1400, Level  25, DisplayID 70071, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [908]
+		}, -- [408]
 		{
 			"        abilities : 1773, 524, 518,", -- [1]
 			0, -- [2]
-		}, -- [909]
+		}, -- [409]
 		{
 			"     Slot   2, Species 1976, Health 1400, Level  25, DisplayID 70069, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [910]
+		}, -- [410]
 		{
 			"        abilities : 1773, 514, 518,", -- [1]
 			0, -- [2]
-		}, -- [911]
+		}, -- [411]
 		{
 			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
 			0, -- [2]
-		}, -- [912]
+		}, -- [412]
 		{
 			"     Slot   0, Species 1774, Health 1115, Level  25, DisplayID 65716, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [913]
+		}, -- [413]
 		{
 			"        abilities : 421, 488, 589,", -- [1]
 			0, -- [2]
-		}, -- [914]
+		}, -- [414]
 		{
 			"     Slot   1, Species 396, Health 885, Level  25, DisplayID 9829, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [915]
+		}, -- [415]
 		{
 			"        abilities : 378, 339, 383,", -- [1]
 			0, -- [2]
-		}, -- [916]
+		}, -- [416]
 		{
 			"     Slot   2, Species 743, Health 1125, Level  25, DisplayID 45882, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [917]
+		}, -- [417]
 		{
 			"        abilities : 445, 369, 376,", -- [1]
 			0, -- [2]
-		}, -- [918]
+		}, -- [418]
 		{
 			"<waiting for PetBattleReadyToStart command>", -- [1]
 			0, -- [2]
-		}, -- [919]
+		}, -- [419]
 		{
 			"---Battle Begin---", -- [1]
 			0, -- [2]
-		}, -- [920]
+		}, -- [420]
 		{
 			"  PetSwap P0 PET 0", -- [1]
 			0, -- [2]
-		}, -- [921]
+		}, -- [421]
 		{
 			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
-		}, -- [922]
+		}, -- [422]
 		{
 			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
-		}, -- [923]
+		}, -- [423]
 		{
 			"---Replacements made---", -- [1]
 			0, -- [2]
-		}, -- [924]
+		}, -- [424]
 		{
 			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
-		}, -- [925]
+		}, -- [425]
 		{
 			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
-		}, -- [926]
+		}, -- [426]
 		{
 			"---Replacements made---", -- [1]
 			0, -- [2]
-		}, -- [927]
+		}, -- [427]
 		{
 			"  P1 PET 1 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
-		}, -- [928]
+		}, -- [428]
 		{
 			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
-		}, -- [929]
+		}, -- [429]
 		{
 			"---Replacements made---", -- [1]
 			0, -- [2]
-		}, -- [930]
+		}, -- [430]
 		{
 			"  P0 PET 0 performs PET_SWAP       on P0 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
-		}, -- [931]
+		}, -- [431]
 		{
 			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
-		}, -- [932]
+		}, -- [432]
 		{
 			"---BattleFinished: You Won ---", -- [1]
 			0, -- [2]
-		}, -- [933]
+		}, -- [433]
 		{
 			"<waiting for PetBattleInput final>", -- [1]
 			0, -- [2]
-		}, -- [934]
+		}, -- [434]
 		{
 			"---ClientPetBattleFinished---", -- [1]
 			0, -- [2]
-		}, -- [935]
+		}, -- [435]
 		{
 			"PetBattle Initial Update", -- [1]
 			0, -- [2]
-		}, -- [936]
+		}, -- [436]
 		{
 			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
 			0, -- [2]
-		}, -- [937]
+		}, -- [437]
 		{
 			"     Slot   0, Species 1977, Health 1400, Level  25, DisplayID 70068, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [938]
+		}, -- [438]
 		{
 			"        abilities : 1370, 1773, 518,", -- [1]
 			0, -- [2]
-		}, -- [939]
+		}, -- [439]
 		{
 			"     Slot   1, Species 1974, Health 1400, Level  25, DisplayID 70071, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [940]
+		}, -- [440]
 		{
 			"        abilities : 1773, 524, 518,", -- [1]
 			0, -- [2]
-		}, -- [941]
+		}, -- [441]
 		{
 			"     Slot   2, Species 1976, Health 1400, Level  25, DisplayID 70069, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [942]
+		}, -- [442]
 		{
 			"        abilities : 1773, 514, 518,", -- [1]
 			0, -- [2]
-		}, -- [943]
+		}, -- [443]
 		{
 			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
 			0, -- [2]
-		}, -- [944]
+		}, -- [444]
 		{
 			"     Slot   0, Species 1774, Health 1115, Level  25, DisplayID 65716, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [945]
+		}, -- [445]
 		{
 			"        abilities : 299, 488, 589,", -- [1]
 			0, -- [2]
-		}, -- [946]
+		}, -- [446]
 		{
 			"     Slot   1, Species 1583, Health 1020, Level  25, DisplayID 60914, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [947]
+		}, -- [447]
 		{
 			"        abilities : 429, 1073, 564,", -- [1]
 			0, -- [2]
-		}, -- [948]
+		}, -- [448]
 		{
 			"     Slot   2, Species 706, Health 1145, Level  25, DisplayID 40089, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [949]
+		}, -- [449]
 		{
 			"        abilities : 228, 158, 152,", -- [1]
 			0, -- [2]
-		}, -- [950]
+		}, -- [450]
 		{
 			"<waiting for PetBattleReadyToStart command>", -- [1]
 			0, -- [2]
-		}, -- [951]
+		}, -- [451]
 		{
 			"---Battle Begin---", -- [1]
 			0, -- [2]
-		}, -- [952]
+		}, -- [452]
 		{
 			"  PetSwap P0 PET 0", -- [1]
 			0, -- [2]
-		}, -- [953]
+		}, -- [453]
 		{
 			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
-		}, -- [954]
+		}, -- [454]
 		{
 			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
-		}, -- [955]
+		}, -- [455]
 		{
 			"---BattleAbandoned---", -- [1]
 			0, -- [2]
-		}, -- [956]
+		}, -- [456]
 		{
 			"<waiting for PetBattleInput final>", -- [1]
 			0, -- [2]
-		}, -- [957]
+		}, -- [457]
 		{
 			"GameTimeSync: skipping forwards 2 game minutes, (current = 5/2/2022 (Mon) 21:30, newtime = 5/2/2022 (Mon) 21:32)", -- [1]
 			0, -- [2]
-		}, -- [958]
+		}, -- [458]
 		{
 			"---ClientPetBattleFinished---", -- [1]
 			0, -- [2]
-		}, -- [959]
+		}, -- [459]
 		{
 			"PetBattle Initial Update", -- [1]
 			0, -- [2]
-		}, -- [960]
+		}, -- [460]
 		{
 			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
 			0, -- [2]
-		}, -- [961]
+		}, -- [461]
 		{
 			"     Slot   0, Species 1977, Health 1400, Level  25, DisplayID 70068, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [962]
+		}, -- [462]
 		{
 			"        abilities : 1370, 1773, 518,", -- [1]
 			0, -- [2]
-		}, -- [963]
+		}, -- [463]
 		{
 			"     Slot   1, Species 1974, Health 1400, Level  25, DisplayID 70071, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [964]
+		}, -- [464]
 		{
 			"        abilities : 1773, 524, 518,", -- [1]
 			0, -- [2]
-		}, -- [965]
+		}, -- [465]
 		{
 			"     Slot   2, Species 1976, Health 1400, Level  25, DisplayID 70069, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [966]
+		}, -- [466]
 		{
 			"        abilities : 1773, 514, 518,", -- [1]
 			0, -- [2]
-		}, -- [967]
+		}, -- [467]
 		{
 			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
 			0, -- [2]
-		}, -- [968]
+		}, -- [468]
 		{
 			"     Slot   0, Species 1774, Health 1115, Level  25, DisplayID 65716, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [969]
+		}, -- [469]
 		{
 			"        abilities : 299, 488, 589,", -- [1]
 			0, -- [2]
-		}, -- [970]
+		}, -- [470]
 		{
 			"     Slot   1, Species 1583, Health 864, Level  25, DisplayID 60914, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [971]
+		}, -- [471]
 		{
 			"        abilities : 429, 1073, 423,", -- [1]
 			0, -- [2]
-		}, -- [972]
+		}, -- [472]
 		{
 			"     Slot   2, Species 396, Health 812, Level  25, DisplayID 2536, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [973]
+		}, -- [473]
 		{
 			"        abilities : 378, 339, 250,", -- [1]
 			0, -- [2]
-		}, -- [974]
+		}, -- [474]
 		{
 			"<waiting for PetBattleReadyToStart command>", -- [1]
 			0, -- [2]
-		}, -- [975]
+		}, -- [475]
 		{
 			"---Battle Begin---", -- [1]
 			0, -- [2]
-		}, -- [976]
+		}, -- [476]
 		{
 			"  PetSwap P0 PET 0", -- [1]
 			0, -- [2]
-		}, -- [977]
+		}, -- [477]
 		{
 			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
-		}, -- [978]
+		}, -- [478]
 		{
 			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
-		}, -- [979]
+		}, -- [479]
 		{
 			"---BattleAbandoned---", -- [1]
 			0, -- [2]
-		}, -- [980]
+		}, -- [480]
 		{
 			"<waiting for PetBattleInput final>", -- [1]
 			0, -- [2]
-		}, -- [981]
+		}, -- [481]
 		{
 			"---ClientPetBattleFinished---", -- [1]
 			0, -- [2]
-		}, -- [982]
+		}, -- [482]
 		{
 			"Weather changed to 2, intensity 0.800000\n", -- [1]
 			0, -- [2]
-		}, -- [983]
+		}, -- [483]
 		{
 			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
-		}, -- [984]
+		}, -- [484]
 		{
 			"PetBattle Initial Update", -- [1]
 			0, -- [2]
-		}, -- [985]
+		}, -- [485]
 		{
 			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
 			0, -- [2]
-		}, -- [986]
+		}, -- [486]
 		{
 			"     Slot   0, Species 1977, Health 1400, Level  25, DisplayID 70068, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [987]
+		}, -- [487]
 		{
 			"        abilities : 1370, 1773, 518,", -- [1]
 			0, -- [2]
-		}, -- [988]
+		}, -- [488]
 		{
 			"     Slot   1, Species 1974, Health 1400, Level  25, DisplayID 70071, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [989]
+		}, -- [489]
 		{
 			"        abilities : 1773, 524, 518,", -- [1]
 			0, -- [2]
-		}, -- [990]
+		}, -- [490]
 		{
 			"     Slot   2, Species 1976, Health 1400, Level  25, DisplayID 70069, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [991]
+		}, -- [491]
 		{
 			"        abilities : 1773, 514, 518,", -- [1]
 			0, -- [2]
-		}, -- [992]
+		}, -- [492]
 		{
 			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
 			0, -- [2]
-		}, -- [993]
+		}, -- [493]
 		{
 			"     Slot   0, Species 1587, Health 1010, Level  25, DisplayID 60891, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [994]
+		}, -- [494]
 		{
 			"        abilities : 420, 521, 518,", -- [1]
 			0, -- [2]
-		}, -- [995]
+		}, -- [495]
 		{
 			"     Slot   1, Species 1583, Health 864, Level  25, DisplayID 60914, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [996]
+		}, -- [496]
 		{
 			"        abilities : 803, 310, 423,", -- [1]
 			0, -- [2]
-		}, -- [997]
+		}, -- [497]
 		{
 			"     Slot   2, Species 743, Health 1333, Level  25, DisplayID 34590, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [998]
+		}, -- [498]
 		{
 			"        abilities : 449, 369, 564,", -- [1]
 			0, -- [2]
-		}, -- [999]
+		}, -- [499]
 		{
 			"<waiting for PetBattleReadyToStart command>", -- [1]
+			0, -- [2]
+		}, -- [500]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [501]
+		{
+			"NetClient::HandleDisconnect()\n", -- [1]
+			0, -- [2]
+		}, -- [502]
+		{
+			"[IBN_BackInterface] Session with Battle.net destroyed.", -- [1]
+			0, -- [2]
+		}, -- [503]
+		{
+			"[GlueLogin] Disconnected from WoWpreviouslyConnected=\"true\"", -- [1]
+			0, -- [2]
+		}, -- [504]
+		{
+			"[GlueLogin] Starting loginlauncherPortal=\"eu.actual.battle.net\" loginPortal=\"eu.actual.battle.net:1119\"", -- [1]
+			0, -- [2]
+		}, -- [505]
+		{
+			"[GlueLogin] Resetting", -- [1]
+			0, -- [2]
+		}, -- [506]
+		{
+			"[IBN_Login] DestroyingisInitialized=\"true\"", -- [1]
+			0, -- [2]
+		}, -- [507]
+		{
+			"[IBN_Login] Initializing", -- [1]
+			0, -- [2]
+		}, -- [508]
+		{
+			"[IBN_Login] Attempting logonhost=\"eu.actual.battle.net\" port=\"1119\"", -- [1]
+			0, -- [2]
+		}, -- [509]
+		{
+			"[GlueLogin] Waiting for server response.", -- [1]
+			0, -- [2]
+		}, -- [510]
+		{
+			"[GlueLogin] Waiting for server response.", -- [1]
+			0, -- [2]
+		}, -- [511]
+		{
+			"[GlueLogin] Waiting for server response.", -- [1]
+			0, -- [2]
+		}, -- [512]
+		{
+			"[GlueLogin] Logon complete.", -- [1]
+			0, -- [2]
+		}, -- [513]
+		{
+			"[GlueLogin] Reconnect token saved; creationTime=\"1651520059\" expirationTime=\"1651534459\"", -- [1]
+			0, -- [2]
+		}, -- [514]
+		{
+			"[GlueLogin] Waiting for realm list.", -- [1]
+			0, -- [2]
+		}, -- [515]
+		{
+			"[IBN_Login] Requesting realm list ticket", -- [1]
+			0, -- [2]
+		}, -- [516]
+		{
+			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [517]
+		{
+			"[GlueLogin] Waiting for realm list.", -- [1]
+			0, -- [2]
+		}, -- [518]
+		{
+			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [519]
+		{
+			"[IBN_Login] Requesting last played charsnumSubRegions=\"3\"", -- [1]
+			0, -- [2]
+		}, -- [520]
+		{
+			"[GlueLogin] Realm list ready.", -- [1]
+			0, -- [2]
+		}, -- [521]
+		{
+			"[IBN_Login] Joining realmsubRegion=\"3-4-89\" realmAddress=\"3-5-4\"", -- [1]
+			0, -- [2]
+		}, -- [522]
+		{
+			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [523]
+		{
+			"NetClient::HandleConnect()\n", -- [1]
+			0, -- [2]
+		}, -- [524]
+		{
+			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [525]
+		{
+			"[IBN_Login] Front disconnectingconnectionId=\"2\"", -- [1]
+			0, -- [2]
+		}, -- [526]
+		{
+			"[GlueLogin] Disconnecting from authentication server.", -- [1]
+			0, -- [2]
+		}, -- [527]
+		{
+			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
+			0, -- [2]
+		}, -- [528]
+		{
+			"[WowEntitlements] [BNetAccount-0-00001A346EC5] [WowAccount-0-000005146EC9] Initialized with 15 entitlements.", -- [1]
+			0, -- [2]
+		}, -- [529]
+		{
+			"[IBN_Login] Front disconnectedconnectionId=\"2\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
+			0, -- [2]
+		}, -- [530]
+		{
+			"[GlueLogin] Disconnected from authentication server.", -- [1]
+			0, -- [2]
+		}, -- [531]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [532]
+		{
+			"Attempted to register existing command: ShowObjUsage\n", -- [1]
+			0, -- [2]
+		}, -- [533]
+		{
+			"Attempted to register existing command: SetDifficulty\n", -- [1]
+			0, -- [2]
+		}, -- [534]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [535]
+		{
+			"Proficiency in item class 2 set to 0x000018c480", -- [1]
+			0, -- [2]
+		}, -- [536]
+		{
+			"Proficiency in item class 4 set to 0x0000000023", -- [1]
+			0, -- [2]
+		}, -- [537]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [538]
+		{
+			"Time set to 5/2/2022 (Mon) 21:34", -- [1]
+			0, -- [2]
+		}, -- [539]
+		{
+			"Gamespeed set from 0.017 to 0.017", -- [1]
+			0, -- [2]
+		}, -- [540]
+		{
+			"Time played:", -- [1]
+			0, -- [2]
+		}, -- [541]
+		{
+			"Total: 155d 10h 0m 49s", -- [1]
+			0, -- [2]
+		}, -- [542]
+		{
+			"Level: 74d 17h 13m 58s", -- [1]
+			0, -- [2]
+		}, -- [543]
+		{
+			"PetBattle Initial Update", -- [1]
+			0, -- [2]
+		}, -- [544]
+		{
+			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [545]
+		{
+			"     Slot   0, Species 1977, Health 1400, Level  25, DisplayID 70068, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [546]
+		{
+			"        abilities : 1370, 1773, 518,", -- [1]
+			0, -- [2]
+		}, -- [547]
+		{
+			"     Slot   1, Species 1974, Health 1400, Level  25, DisplayID 70071, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [548]
+		{
+			"        abilities : 1773, 524, 518,", -- [1]
+			0, -- [2]
+		}, -- [549]
+		{
+			"     Slot   2, Species 1976, Health 1400, Level  25, DisplayID 70069, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [550]
+		{
+			"        abilities : 1773, 514, 518,", -- [1]
+			0, -- [2]
+		}, -- [551]
+		{
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [552]
+		{
+			"     Slot   0, Species 1587, Health 1010, Level  25, DisplayID 60891, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [553]
+		{
+			"        abilities : 504, 308, 508,", -- [1]
+			0, -- [2]
+		}, -- [554]
+		{
+			"     Slot   1, Species 1583, Health 864, Level  25, DisplayID 60914, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [555]
+		{
+			"        abilities : 429, 1073, 423,", -- [1]
+			0, -- [2]
+		}, -- [556]
+		{
+			"     Slot   2, Species 743, Health 1333, Level  25, DisplayID 45882, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [557]
+		{
+			"        abilities : 449, 310, 376,", -- [1]
+			0, -- [2]
+		}, -- [558]
+		{
+			"<waiting for PetBattleReadyToStart command>", -- [1]
+			0, -- [2]
+		}, -- [559]
+		{
+			"---Battle Begin---", -- [1]
+			0, -- [2]
+		}, -- [560]
+		{
+			"  PetSwap P0 PET 0", -- [1]
+			0, -- [2]
+		}, -- [561]
+		{
+			"  PetSwap P1 PET 0", -- [1]
+			0, -- [2]
+		}, -- [562]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [563]
+		{
+			"---Replacements made---", -- [1]
+			0, -- [2]
+		}, -- [564]
+		{
+			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [565]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [566]
+		{
+			"---Replacements made---", -- [1]
+			0, -- [2]
+		}, -- [567]
+		{
+			"  P1 PET 1 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [568]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [569]
+		{
+			"---BattleFinished: You Won ---", -- [1]
+			0, -- [2]
+		}, -- [570]
+		{
+			"<waiting for PetBattleInput final>", -- [1]
+			0, -- [2]
+		}, -- [571]
+		{
+			"---ClientPetBattleFinished---", -- [1]
+			0, -- [2]
+		}, -- [572]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [573]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [574]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [575]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [576]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [577]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [578]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [579]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [580]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [581]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [582]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [583]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [584]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [585]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [586]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [587]
+		{
+			"Weather changed to 5, intensity 1.000000\n", -- [1]
+			0, -- [2]
+		}, -- [588]
+		{
+			"Weather changed to 5, intensity 1.000000\n", -- [1]
+			0, -- [2]
+		}, -- [589]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [590]
+		{
+			"Weather changed to 5, intensity 1.000000\n", -- [1]
+			0, -- [2]
+		}, -- [591]
+		{
+			"PetBattle Initial Update", -- [1]
+			0, -- [2]
+		}, -- [592]
+		{
+			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [593]
+		{
+			"     Slot   0, Species 119, Health 1375, Level  25, DisplayID 15660, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [594]
+		{
+			"        abilities : 413, 206, 586,", -- [1]
+			0, -- [2]
+		}, -- [595]
+		{
+			"     Slot   1, Species 1349, Health 1263, Level  25, DisplayID 51505, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [596]
+		{
+			"        abilities : 413, 624, 206,", -- [1]
+			0, -- [2]
+		}, -- [597]
+		{
+			"     Slot   2, Species 120, Health 1375, Level  25, DisplayID 15663, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [598]
+		{
+			"        abilities : 413, 206, 586,", -- [1]
+			0, -- [2]
+		}, -- [599]
+		{
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [600]
+		{
+			"     Slot   0, Species 2969, Health 1766, Level  25, DisplayID 0, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [601]
+		{
+			"        abilities : 632, 1963, 508,", -- [1]
+			0, -- [2]
+		}, -- [602]
+		{
+			"     Slot   1, Species 2970, Health 1766, Level  25, DisplayID 0, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [603]
+		{
+			"        abilities : 420, 1062, 2253,", -- [1]
+			0, -- [2]
+		}, -- [604]
+		{
+			"     Slot   2, Species 2971, Health 2253, Level  25, DisplayID 0, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [605]
+		{
+			"        abilities : 377, 1016, 593,", -- [1]
+			0, -- [2]
+		}, -- [606]
+		{
+			"<waiting for PetBattleReadyToStart command>", -- [1]
+			0, -- [2]
+		}, -- [607]
+		{
+			"---Battle Begin---", -- [1]
+			0, -- [2]
+		}, -- [608]
+		{
+			"  PetSwap P0 PET 0", -- [1]
+			0, -- [2]
+		}, -- [609]
+		{
+			"  PetSwap P1 PET 0", -- [1]
+			0, -- [2]
+		}, -- [610]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [611]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [612]
+		{
+			"---Replacements made---", -- [1]
+			0, -- [2]
+		}, -- [613]
+		{
+			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [614]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [615]
+		{
+			"---Replacements made---", -- [1]
+			0, -- [2]
+		}, -- [616]
+		{
+			"  P0 PET 1 performs PET_SWAP       on P0 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [617]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [618]
+		{
+			"---Replacements made---", -- [1]
+			0, -- [2]
+		}, -- [619]
+		{
+			"  P1 PET 1 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [620]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [621]
+		{
+			"---Replacements made---", -- [1]
+			0, -- [2]
+		}, -- [622]
+		{
+			"  P0 PET 2 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [623]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [624]
+		{
+			"---BattleFinished: You Won ---", -- [1]
+			0, -- [2]
+		}, -- [625]
+		{
+			"<waiting for PetBattleInput final>", -- [1]
+			0, -- [2]
+		}, -- [626]
+		{
+			"---ClientPetBattleFinished---", -- [1]
+			0, -- [2]
+		}, -- [627]
+		{
+			"PetBattle Initial Update", -- [1]
+			0, -- [2]
+		}, -- [628]
+		{
+			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [629]
+		{
+			"     Slot   0, Species 2580, Health 1278, Level  25, DisplayID 90715, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [630]
+		{
+			"        abilities : 1066, 1035, 1084,", -- [1]
+			0, -- [2]
+		}, -- [631]
+		{
+			"     Slot   1, Species 1625, Health 1546, Level  25, DisplayID 61890, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [632]
+		{
+			"        abilities : 1066, 1035, 752,", -- [1]
+			0, -- [2]
+		}, -- [633]
+		{
+			"     Slot   2, Species 1965, Health 1522, Level  25, DisplayID 0, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [634]
+		{
+			"        abilities : 668, 640, 1051,", -- [1]
+			0, -- [2]
+		}, -- [635]
+		{
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [636]
+		{
+			"     Slot   0, Species 2969, Health 1766, Level  25, DisplayID 0, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [637]
+		{
+			"        abilities : 632, 1963, 508,", -- [1]
+			0, -- [2]
+		}, -- [638]
+		{
+			"     Slot   1, Species 2970, Health 1766, Level  25, DisplayID 0, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [639]
+		{
+			"        abilities : 420, 1062, 2253,", -- [1]
+			0, -- [2]
+		}, -- [640]
+		{
+			"     Slot   2, Species 2971, Health 2253, Level  25, DisplayID 0, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [641]
+		{
+			"        abilities : 377, 1016, 593,", -- [1]
+			0, -- [2]
+		}, -- [642]
+		{
+			"<waiting for PetBattleReadyToStart command>", -- [1]
+			0, -- [2]
+		}, -- [643]
+		{
+			"---Battle Begin---", -- [1]
+			0, -- [2]
+		}, -- [644]
+		{
+			"  PetSwap P0 PET 0", -- [1]
+			0, -- [2]
+		}, -- [645]
+		{
+			"  PetSwap P1 PET 0", -- [1]
+			0, -- [2]
+		}, -- [646]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [647]
+		{
+			"---Replacements made---", -- [1]
+			0, -- [2]
+		}, -- [648]
+		{
+			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [649]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [650]
+		{
+			"---Replacements made---", -- [1]
+			0, -- [2]
+		}, -- [651]
+		{
+			"  P1 PET 1 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [652]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [653]
+		{
+			"---Replacements made---", -- [1]
+			0, -- [2]
+		}, -- [654]
+		{
+			"  P0 PET 1 performs PET_SWAP       on P0 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [655]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [656]
+		{
+			"---BattleFinished: You Won ---", -- [1]
+			0, -- [2]
+		}, -- [657]
+		{
+			"<waiting for PetBattleInput final>", -- [1]
+			0, -- [2]
+		}, -- [658]
+		{
+			"---ClientPetBattleFinished---", -- [1]
+			0, -- [2]
+		}, -- [659]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [660]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [661]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [662]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [663]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [664]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [665]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [666]
+		{
+			"Weather changed to 3, intensity 0.250303\n", -- [1]
+			0, -- [2]
+		}, -- [667]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [668]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [669]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [670]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [671]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [672]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [673]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [674]
+		{
+			"Sorting particles normally.", -- [1]
+			0, -- [2]
+		}, -- [675]
+		{
+			"Multithreaded rendering enabled.", -- [1]
+			0, -- [2]
+		}, -- [676]
+		{
+			"Multithreaded BeginDraw enabled.", -- [1]
+			0, -- [2]
+		}, -- [677]
+		{
+			"Multithread shadows changed to 1.", -- [1]
+			0, -- [2]
+		}, -- [678]
+		{
+			"Multithreaded prepass enabled.", -- [1]
+			0, -- [2]
+		}, -- [679]
+		{
+			"Multithreaded opaque pass enabled.", -- [1]
+			0, -- [2]
+		}, -- [680]
+		{
+			"Multithreaded opaque pass enabled.", -- [1]
+			0, -- [2]
+		}, -- [681]
+		{
+			"Multithreaded alpha M2 pass enabled.", -- [1]
+			0, -- [2]
+		}, -- [682]
+		{
+			"Multithreaded opaque WMO pass enabled.", -- [1]
+			0, -- [2]
+		}, -- [683]
+		{
+			"Multithreaded terrain pass enabled.", -- [1]
+			0, -- [2]
+		}, -- [684]
+		{
+			"Water detail changed to 2", -- [1]
+			0, -- [2]
+		}, -- [685]
+		{
+			"Ripple detail changed to 1", -- [1]
+			0, -- [2]
+		}, -- [686]
+		{
+			"Reflection mode changed to 0", -- [1]
+			0, -- [2]
+		}, -- [687]
+		{
+			"Reflection downscale changed to 0", -- [1]
+			0, -- [2]
+		}, -- [688]
+		{
+			"Sunshafts quality changed to 2", -- [1]
+			0, -- [2]
+		}, -- [689]
+		{
+			"Refraction mode changed to 2", -- [1]
+			0, -- [2]
+		}, -- [690]
+		{
+			"Enabling BSP node cache (first time - starting up)", -- [1]
+			0, -- [2]
+		}, -- [691]
+		{
+			"Volume fog enabled.", -- [1]
+			0, -- [2]
+		}, -- [692]
+		{
+			"Particulate volumes enabled.", -- [1]
+			0, -- [2]
+		}, -- [693]
+		{
+			"Projected textures enabled.", -- [1]
+			0, -- [2]
+		}, -- [694]
+		{
+			"Spell Clutter set to dynamic", -- [1]
+			0, -- [2]
+		}, -- [695]
+		{
+			"Shadow mode changed to 3 - 3 band dynamic shadows on units and terrain, 2048", -- [1]
+			0, -- [2]
+		}, -- [696]
+		{
+			"Shadow texture size changed to 2048.", -- [1]
+			0, -- [2]
+		}, -- [697]
+		{
+			"Soft shadows changed to 0.", -- [1]
+			0, -- [2]
+		}, -- [698]
+		{
+			"Shadow RT mode changed to 0 (Disabled)", -- [1]
+			0, -- [2]
+		}, -- [699]
+		{
+			"maxLightCount must be in range 0 to 32.", -- [1]
+			0, -- [2]
+		}, -- [700]
+		{
+			"CVar 'maxLightCount' failed validation for its initial value.", -- [1]
+			0, -- [2]
+		}, -- [701]
+		{
+			"SSAO mode set to 3", -- [1]
+			0, -- [2]
+		}, -- [702]
+		{
+			"SSAO type set to 0", -- [1]
+			0, -- [2]
+		}, -- [703]
+		{
+			"Depth Based Opacity Enabled", -- [1]
+			0, -- [2]
+		}, -- [704]
+		{
+			"SkyCloudLOD set to 0", -- [1]
+			0, -- [2]
+		}, -- [705]
+		{
+			"Texture filtering mode updated.", -- [1]
+			0, -- [2]
+		}, -- [706]
+		{
+			"Terrain mip level changed to 0.", -- [1]
+			0, -- [2]
+		}, -- [707]
+		{
+			"Outline mode changed to 2", -- [1]
+			0, -- [2]
+		}, -- [708]
+		{
+			"Physics interaction level changed to 1", -- [1]
+			0, -- [2]
+		}, -- [709]
+		{
+			"Render scale changed to 1", -- [1]
+			0, -- [2]
+		}, -- [710]
+		{
+			"Resample quality changed to 1", -- [1]
+			0, -- [2]
+		}, -- [711]
+		{
+			"MSAA set to 8 color samples, 8 coverage samples", -- [1]
+			0, -- [2]
+		}, -- [712]
+		{
+			"MSAA for alpha-test enabled.", -- [1]
+			0, -- [2]
+		}, -- [713]
+		{
+			"lodObjectSizeScale cannot be changed.", -- [1]
+			0, -- [2]
+		}, -- [714]
+		{
+			"Volume fog enabled.", -- [1]
+			0, -- [2]
+		}, -- [715]
+		{
+			"Particulate volumes enabled.", -- [1]
+			0, -- [2]
+		}, -- [716]
+		{
+			"dynamicLod enabled", -- [1]
+			0, -- [2]
+		}, -- [717]
+		{
+			"World preload object sort enabled.", -- [1]
+			0, -- [2]
+		}, -- [718]
+		{
+			"World load object sort enabled.", -- [1]
+			0, -- [2]
+		}, -- [719]
+		{
+			"World preload non critical enabled.", -- [1]
+			0, -- [2]
+		}, -- [720]
+		{
+			"World preload high res textures enabled.", -- [1]
+			0, -- [2]
+		}, -- [721]
+		{
+			"FFX: Color Blind Test Mode Disabled", -- [1]
+			0, -- [2]
+		}, -- [722]
+		{
+			"Full memory crash dump disabled", -- [1]
+			0, -- [2]
+		}, -- [723]
+		{
+			"Error display disabled", -- [1]
+			0, -- [2]
+		}, -- [724]
+		{
+			"Error display shown", -- [1]
+			0, -- [2]
+		}, -- [725]
+		{
+			"Displaying errors through fatal errors", -- [1]
+			0, -- [2]
+		}, -- [726]
+		{
+			"Displaying errors through fatal errors", -- [1]
+			0, -- [2]
+		}, -- [727]
+		{
+			"Now filtering: all messages", -- [1]
+			0, -- [2]
+		}, -- [728]
+		{
+			"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			0, -- [2]
+		}, -- [729]
+		{
+			"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			0, -- [2]
+		}, -- [730]
+		{
+			"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			0, -- [2]
+		}, -- [731]
+		{
+			"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			0, -- [2]
+		}, -- [732]
+		{
+			"[GlueLogin] Starting loginlauncherPortal=\"eu.actual.battle.net\" loginPortal=\"eu.actual.battle.net:1119\"", -- [1]
+			0, -- [2]
+		}, -- [733]
+		{
+			"[GlueLogin] Resetting", -- [1]
+			0, -- [2]
+		}, -- [734]
+		{
+			"[IBN_Login] Initializing", -- [1]
+			0, -- [2]
+		}, -- [735]
+		{
+			"[IBN_Login] Attempting logonhost=\"eu.actual.battle.net\" port=\"1119\"", -- [1]
+			0, -- [2]
+		}, -- [736]
+		{
+			"[GlueLogin] Waiting for server response.", -- [1]
+			0, -- [2]
+		}, -- [737]
+		{
+			"[GlueLogin] Waiting for server response.", -- [1]
+			0, -- [2]
+		}, -- [738]
+		{
+			"[GlueLogin] Waiting for server response.", -- [1]
+			0, -- [2]
+		}, -- [739]
+		{
+			"[GlueLogin] Logon complete.", -- [1]
+			0, -- [2]
+		}, -- [740]
+		{
+			"[GlueLogin] Reconnect token saved; creationTime=\"1651523946\" expirationTime=\"1651538346\"", -- [1]
+			0, -- [2]
+		}, -- [741]
+		{
+			"[GlueLogin] Waiting for realm list.", -- [1]
+			0, -- [2]
+		}, -- [742]
+		{
+			"[IBN_Login] Requesting realm list ticket", -- [1]
+			0, -- [2]
+		}, -- [743]
+		{
+			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [744]
+		{
+			"[GlueLogin] Waiting for realm list.", -- [1]
+			0, -- [2]
+		}, -- [745]
+		{
+			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [746]
+		{
+			"[IBN_Login] Requesting last played charsnumSubRegions=\"3\"", -- [1]
+			0, -- [2]
+		}, -- [747]
+		{
+			"[GlueLogin] Realm list ready.", -- [1]
+			0, -- [2]
+		}, -- [748]
+		{
+			"[IBN_Login] Joining realmsubRegion=\"3-4-89\" realmAddress=\"3-5-4\"", -- [1]
+			0, -- [2]
+		}, -- [749]
+		{
+			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [750]
+		{
+			"NetClient::HandleConnect()\n", -- [1]
+			0, -- [2]
+		}, -- [751]
+		{
+			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [752]
+		{
+			"[IBN_Login] Front disconnectingconnectionId=\"1\"", -- [1]
+			0, -- [2]
+		}, -- [753]
+		{
+			"[GlueLogin] Disconnecting from authentication server.", -- [1]
+			0, -- [2]
+		}, -- [754]
+		{
+			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
+			0, -- [2]
+		}, -- [755]
+		{
+			"[IBN_Login] Front disconnectedconnectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
+			0, -- [2]
+		}, -- [756]
+		{
+			"[GlueLogin] Disconnected from authentication server.", -- [1]
+			0, -- [2]
+		}, -- [757]
+		{
+			"[WowEntitlements] [BNetAccount-0-00001A346EC5] [WowAccount-0-000005146EC9] Initialized with 15 entitlements.", -- [1]
+			0, -- [2]
+		}, -- [758]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [759]
+		{
+			"Game table failed consistency check: ChallengeModeHealth. rows: 50, expectedRows: 51, columns: 1, expectedColumns: 1\n", -- [1]
+			3, -- [2]
+		}, -- [760]
+		{
+			"Game table failed consistency check: ChallengeModeDamage. rows: 50, expectedRows: 51, columns: 1, expectedColumns: 1\n", -- [1]
+			3, -- [2]
+		}, -- [761]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [762]
+		{
+			"Proficiency in item class 2 set to 0x0000000080", -- [1]
+			0, -- [2]
+		}, -- [763]
+		{
+			"Proficiency in item class 2 set to 0x0000000480", -- [1]
+			0, -- [2]
+		}, -- [764]
+		{
+			"Proficiency in item class 2 set to 0x0000008480", -- [1]
+			0, -- [2]
+		}, -- [765]
+		{
+			"Proficiency in item class 4 set to 0x0000000021", -- [1]
+			0, -- [2]
+		}, -- [766]
+		{
+			"Proficiency in item class 2 set to 0x000000c480", -- [1]
+			0, -- [2]
+		}, -- [767]
+		{
+			"Proficiency in item class 2 set to 0x000008c480", -- [1]
+			0, -- [2]
+		}, -- [768]
+		{
+			"Proficiency in item class 2 set to 0x000018c480", -- [1]
+			0, -- [2]
+		}, -- [769]
+		{
+			"Proficiency in item class 4 set to 0x0000000023", -- [1]
+			0, -- [2]
+		}, -- [770]
+		{
+			"Proficiency in item class 2 set to 0x000018c480", -- [1]
+			0, -- [2]
+		}, -- [771]
+		{
+			"Proficiency in item class 4 set to 0x0000000023", -- [1]
+			0, -- [2]
+		}, -- [772]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [773]
+		{
+			"Time set to 5/2/2022 (Mon) 22:40", -- [1]
+			0, -- [2]
+		}, -- [774]
+		{
+			"Gamespeed set from 0.017 to 0.017", -- [1]
+			0, -- [2]
+		}, -- [775]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [776]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [777]
+		{
+			"Time played:", -- [1]
+			0, -- [2]
+		}, -- [778]
+		{
+			"Total: 155d 10h 57m 39s", -- [1]
+			0, -- [2]
+		}, -- [779]
+		{
+			"Level: 74d 18h 10m 48s", -- [1]
+			0, -- [2]
+		}, -- [780]
+		{
+			"PetBattle Initial Update", -- [1]
+			0, -- [2]
+		}, -- [781]
+		{
+			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [782]
+		{
+			"     Slot   0, Species 393, Health 730, Level  12, DisplayID 2177, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [783]
+		{
+			"        abilities : 119, 155, 706,", -- [1]
+			0, -- [2]
+		}, -- [784]
+		{
+			"     Slot   1, Species 415, Health 646, Level  13, DisplayID 8971, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [785]
+		{
+			"        abilities : 113, 155, 172,", -- [1]
+			0, -- [2]
+		}, -- [786]
+		{
+			"     Slot   2, Species 1161, Health 646, Level  13, DisplayID 47636, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [787]
+		{
+			"        abilities : 122, 168, 405,", -- [1]
+			0, -- [2]
+		}, -- [788]
+		{
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [789]
+		{
+			"     Slot   0, Species 456, Health 541, Level  11, DisplayID 42265, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [790]
+		{
+			"        abilities : 117, 665, 170,", -- [1]
+			0, -- [2]
+		}, -- [791]
+		{
+			"     Slot   1, Species 379, Health 545, Level  11, DisplayID 134, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [792]
+		{
+			"        abilities : 411, 162, 167,", -- [1]
+			0, -- [2]
+		}, -- [793]
+		{
+			"<waiting for PetBattleReadyToStart command>", -- [1]
+			0, -- [2]
+		}, -- [794]
+		{
+			"---Battle Begin---", -- [1]
+			0, -- [2]
+		}, -- [795]
+		{
+			"  PetSwap P0 PET 0", -- [1]
+			0, -- [2]
+		}, -- [796]
+		{
+			"  PetSwap P1 PET 0", -- [1]
+			0, -- [2]
+		}, -- [797]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [798]
+		{
+			"---Replacements made---", -- [1]
+			0, -- [2]
+		}, -- [799]
+		{
+			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [800]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [801]
+		{
+			"---Replacements made---", -- [1]
+			0, -- [2]
+		}, -- [802]
+		{
+			"  P0 PET 0 performs PET_SWAP       on P0 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [803]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [804]
+		{
+			"---BattleFinished: You Won ---", -- [1]
+			0, -- [2]
+		}, -- [805]
+		{
+			"<waiting for PetBattleInput final>", -- [1]
+			0, -- [2]
+		}, -- [806]
+		{
+			"---ClientPetBattleFinished---", -- [1]
+			0, -- [2]
+		}, -- [807]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [808]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [809]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [810]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [811]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [812]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [813]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [814]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [815]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [816]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [817]
+		{
+			"PetBattle Initial Update", -- [1]
+			0, -- [2]
+		}, -- [818]
+		{
+			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [819]
+		{
+			"     Slot   0, Species 545, Health 980, Level  22, DisplayID 15469, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [820]
+		{
+			"        abilities : 356, 165, 359,", -- [1]
+			0, -- [2]
+		}, -- [821]
+		{
+			"     Slot   1, Species 503, Health 1068, Level  22, DisplayID 36953, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [822]
+		{
+			"        abilities : 420, 506, 507,", -- [1]
+			0, -- [2]
+		}, -- [823]
+		{
+			"     Slot   2, Species 1465, Health 1066, Level  23, DisplayID 58748, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [824]
+		{
+			"        abilities : 1369, 426, 1050,", -- [1]
+			0, -- [2]
+		}, -- [825]
+		{
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [826]
+		{
+			"     Slot   0, Species 559, Health 853, Level  22, DisplayID 45879, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [827]
+		{
+			"        abilities : 484, 488, 621,", -- [1]
+			0, -- [2]
+		}, -- [828]
+		{
+			"     Slot   1, Species 480, Health 980, Level  22, DisplayID 36648, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [829]
+		{
+			"        abilities : 383, 380, 436,", -- [1]
+			0, -- [2]
+		}, -- [830]
+		{
+			"     Slot   2, Species 480, Health 1018, Level  22, DisplayID 36648, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [831]
+		{
+			"        abilities : 113, 380, 621,", -- [1]
+			0, -- [2]
+		}, -- [832]
+		{
+			"<waiting for PetBattleReadyToStart command>", -- [1]
+			0, -- [2]
+		}, -- [833]
+		{
+			"---Battle Begin---", -- [1]
+			0, -- [2]
+		}, -- [834]
+		{
+			"  PetSwap P0 PET 0", -- [1]
+			0, -- [2]
+		}, -- [835]
+		{
+			"  PetSwap P1 PET 0", -- [1]
+			0, -- [2]
+		}, -- [836]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [837]
+		{
+			"---Replacements made---", -- [1]
+			0, -- [2]
+		}, -- [838]
+		{
+			"  P0 PET 0 performs PET_SWAP       on P0 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [839]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [840]
+		{
+			"---Replacements made---", -- [1]
+			0, -- [2]
+		}, -- [841]
+		{
+			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [842]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [843]
+		{
+			"---Replacements made---", -- [1]
+			0, -- [2]
+		}, -- [844]
+		{
+			"  P1 PET 1 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [845]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [846]
+		{
+			"---Replacements made---", -- [1]
+			0, -- [2]
+		}, -- [847]
+		{
+			"  P0 PET 1 performs PET_SWAP       on P0 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [848]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [849]
+		{
+			"---BattleFinished: You Won ---", -- [1]
+			0, -- [2]
+		}, -- [850]
+		{
+			"<waiting for PetBattleInput final>", -- [1]
+			0, -- [2]
+		}, -- [851]
+		{
+			"---ClientPetBattleFinished---", -- [1]
+			0, -- [2]
+		}, -- [852]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [853]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [854]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [855]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [856]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [857]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [858]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [859]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [860]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [861]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [862]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [863]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [864]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [865]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [866]
+		{
+			"PetBattle Initial Update", -- [1]
+			0, -- [2]
+		}, -- [867]
+		{
+			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [868]
+		{
+			"     Slot   0, Species 1977, Health 1400, Level  25, DisplayID 70068, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [869]
+		{
+			"        abilities : 1370, 1773, 518,", -- [1]
+			0, -- [2]
+		}, -- [870]
+		{
+			"     Slot   1, Species 1974, Health 1400, Level  25, DisplayID 70071, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [871]
+		{
+			"        abilities : 1773, 524, 518,", -- [1]
+			0, -- [2]
+		}, -- [872]
+		{
+			"     Slot   2, Species 1976, Health 1400, Level  25, DisplayID 70069, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [873]
+		{
+			"        abilities : 1773, 514, 518,", -- [1]
+			0, -- [2]
+		}, -- [874]
+		{
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [875]
+		{
+			"     Slot   0, Species 749, Health 1000, Level  25, DisplayID 43428, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [876]
+		{
+			"        abilities : 110, 357, 564,", -- [1]
+			0, -- [2]
+		}, -- [877]
+		{
+			"     Slot   1, Species 751, Health 968, Level  25, DisplayID 40584, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [878]
+		{
+			"        abilities : 380, 123, 297,", -- [1]
+			0, -- [2]
+		}, -- [879]
+		{
+			"     Slot   2, Species 749, Health 916, Level  25, DisplayID 43428, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [880]
+		{
+			"        abilities : 110, 283, 564,", -- [1]
+			0, -- [2]
+		}, -- [881]
+		{
+			"<waiting for PetBattleReadyToStart command>", -- [1]
+			0, -- [2]
+		}, -- [882]
+		{
+			"---Battle Begin---", -- [1]
+			0, -- [2]
+		}, -- [883]
+		{
+			"  PetSwap P0 PET 0", -- [1]
+			0, -- [2]
+		}, -- [884]
+		{
+			"  PetSwap P1 PET 0", -- [1]
+			0, -- [2]
+		}, -- [885]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [886]
+		{
+			"---Replacements made---", -- [1]
+			0, -- [2]
+		}, -- [887]
+		{
+			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [888]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [889]
+		{
+			"---Replacements made---", -- [1]
+			0, -- [2]
+		}, -- [890]
+		{
+			"  P1 PET 1 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [891]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [892]
+		{
+			"---BattleFinished: You Won ---", -- [1]
+			0, -- [2]
+		}, -- [893]
+		{
+			"<waiting for PetBattleInput final>", -- [1]
+			0, -- [2]
+		}, -- [894]
+		{
+			"---ClientPetBattleFinished---", -- [1]
+			0, -- [2]
+		}, -- [895]
+		{
+			"PetBattle Initial Update", -- [1]
+			0, -- [2]
+		}, -- [896]
+		{
+			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [897]
+		{
+			"     Slot   0, Species 1977, Health 1400, Level  25, DisplayID 70068, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [898]
+		{
+			"        abilities : 1370, 1773, 518,", -- [1]
+			0, -- [2]
+		}, -- [899]
+		{
+			"     Slot   1, Species 1974, Health 1400, Level  25, DisplayID 70071, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [900]
+		{
+			"        abilities : 1773, 524, 518,", -- [1]
+			0, -- [2]
+		}, -- [901]
+		{
+			"     Slot   2, Species 1976, Health 1400, Level  25, DisplayID 70069, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [902]
+		{
+			"        abilities : 1773, 514, 518,", -- [1]
+			0, -- [2]
+		}, -- [903]
+		{
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [904]
+		{
+			"     Slot   0, Species 752, Health 1033, Level  24, DisplayID 22468, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [905]
+		{
+			"        abilities : 118, 123, 233,", -- [1]
+			0, -- [2]
+		}, -- [906]
+		{
+			"     Slot   1, Species 749, Health 1091, Level  24, DisplayID 43428, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [907]
+		{
+			"        abilities : 110, 357, 509,", -- [1]
+			0, -- [2]
+		}, -- [908]
+		{
+			"     Slot   2, Species 752, Health 1223, Level  24, DisplayID 22468, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [909]
+		{
+			"        abilities : 228, 123, 233,", -- [1]
+			0, -- [2]
+		}, -- [910]
+		{
+			"<waiting for PetBattleReadyToStart command>", -- [1]
+			0, -- [2]
+		}, -- [911]
+		{
+			"---Battle Begin---", -- [1]
+			0, -- [2]
+		}, -- [912]
+		{
+			"  PetSwap P0 PET 0", -- [1]
+			0, -- [2]
+		}, -- [913]
+		{
+			"  PetSwap P1 PET 0", -- [1]
+			0, -- [2]
+		}, -- [914]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [915]
+		{
+			"---BattleAbandoned---", -- [1]
+			0, -- [2]
+		}, -- [916]
+		{
+			"<waiting for PetBattleInput final>", -- [1]
+			0, -- [2]
+		}, -- [917]
+		{
+			"---ClientPetBattleFinished---", -- [1]
+			0, -- [2]
+		}, -- [918]
+		{
+			"PetBattle Initial Update", -- [1]
+			0, -- [2]
+		}, -- [919]
+		{
+			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [920]
+		{
+			"     Slot   0, Species 1977, Health 1400, Level  25, DisplayID 70068, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [921]
+		{
+			"        abilities : 1370, 1773, 518,", -- [1]
+			0, -- [2]
+		}, -- [922]
+		{
+			"     Slot   1, Species 1974, Health 1400, Level  25, DisplayID 70071, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [923]
+		{
+			"        abilities : 1773, 524, 518,", -- [1]
+			0, -- [2]
+		}, -- [924]
+		{
+			"     Slot   2, Species 1976, Health 1400, Level  25, DisplayID 70069, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [925]
+		{
+			"        abilities : 1773, 514, 518,", -- [1]
+			0, -- [2]
+		}, -- [926]
+		{
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [927]
+		{
+			"     Slot   0, Species 752, Health 1223, Level  24, DisplayID 22468, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [928]
+		{
+			"        abilities : 228, 230, 232,", -- [1]
+			0, -- [2]
+		}, -- [929]
+		{
+			"     Slot   1, Species 751, Health 973, Level  24, DisplayID 40584, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [930]
+		{
+			"        abilities : 380, 230, 497,", -- [1]
+			0, -- [2]
+		}, -- [931]
+		{
+			"     Slot   2, Species 747, Health 1007, Level  24, DisplayID 46000, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [932]
+		{
+			"        abilities : 420, 632, 706,", -- [1]
+			0, -- [2]
+		}, -- [933]
+		{
+			"<waiting for PetBattleReadyToStart command>", -- [1]
+			0, -- [2]
+		}, -- [934]
+		{
+			"---Battle Begin---", -- [1]
+			0, -- [2]
+		}, -- [935]
+		{
+			"  PetSwap P0 PET 0", -- [1]
+			0, -- [2]
+		}, -- [936]
+		{
+			"  PetSwap P1 PET 0", -- [1]
+			0, -- [2]
+		}, -- [937]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [938]
+		{
+			"---BattleAbandoned---", -- [1]
+			0, -- [2]
+		}, -- [939]
+		{
+			"<waiting for PetBattleInput final>", -- [1]
+			0, -- [2]
+		}, -- [940]
+		{
+			"---ClientPetBattleFinished---", -- [1]
+			0, -- [2]
+		}, -- [941]
+		{
+			"PetBattle Initial Update", -- [1]
+			0, -- [2]
+		}, -- [942]
+		{
+			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [943]
+		{
+			"     Slot   0, Species 1977, Health 1400, Level  25, DisplayID 70068, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [944]
+		{
+			"        abilities : 1370, 1773, 518,", -- [1]
+			0, -- [2]
+		}, -- [945]
+		{
+			"     Slot   1, Species 1974, Health 1400, Level  25, DisplayID 70071, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [946]
+		{
+			"        abilities : 1773, 524, 518,", -- [1]
+			0, -- [2]
+		}, -- [947]
+		{
+			"     Slot   2, Species 1976, Health 1400, Level  25, DisplayID 70069, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [948]
+		{
+			"        abilities : 1773, 514, 518,", -- [1]
+			0, -- [2]
+		}, -- [949]
+		{
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [950]
+		{
+			"     Slot   0, Species 752, Health 1223, Level  24, DisplayID 22468, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [951]
+		{
+			"        abilities : 228, 123, 233,", -- [1]
+			0, -- [2]
+		}, -- [952]
+		{
+			"     Slot   1, Species 751, Health 973, Level  24, DisplayID 40584, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [953]
+		{
+			"        abilities : 118, 230, 497,", -- [1]
+			0, -- [2]
+		}, -- [954]
+		{
+			"     Slot   2, Species 747, Health 1007, Level  24, DisplayID 46000, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [955]
+		{
+			"        abilities : 119, 632, 706,", -- [1]
+			0, -- [2]
+		}, -- [956]
+		{
+			"<waiting for PetBattleReadyToStart command>", -- [1]
+			0, -- [2]
+		}, -- [957]
+		{
+			"---Battle Begin---", -- [1]
+			0, -- [2]
+		}, -- [958]
+		{
+			"  PetSwap P0 PET 0", -- [1]
+			0, -- [2]
+		}, -- [959]
+		{
+			"  PetSwap P1 PET 0", -- [1]
+			0, -- [2]
+		}, -- [960]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [961]
+		{
+			"---BattleAbandoned---", -- [1]
+			0, -- [2]
+		}, -- [962]
+		{
+			"<waiting for PetBattleInput final>", -- [1]
+			0, -- [2]
+		}, -- [963]
+		{
+			"---ClientPetBattleFinished---", -- [1]
+			0, -- [2]
+		}, -- [964]
+		{
+			"PetBattle Initial Update", -- [1]
+			0, -- [2]
+		}, -- [965]
+		{
+			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [966]
+		{
+			"     Slot   0, Species 1977, Health 1400, Level  25, DisplayID 70068, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [967]
+		{
+			"        abilities : 1370, 1773, 518,", -- [1]
+			0, -- [2]
+		}, -- [968]
+		{
+			"     Slot   1, Species 1974, Health 1400, Level  25, DisplayID 70071, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [969]
+		{
+			"        abilities : 1773, 524, 518,", -- [1]
+			0, -- [2]
+		}, -- [970]
+		{
+			"     Slot   2, Species 1976, Health 1400, Level  25, DisplayID 70069, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [971]
+		{
+			"        abilities : 1773, 514, 518,", -- [1]
+			0, -- [2]
+		}, -- [972]
+		{
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [973]
+		{
+			"     Slot   0, Species 750, Health 1103, Level  24, DisplayID 43259, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [974]
+		{
+			"        abilities : 110, 283, 564,", -- [1]
+			0, -- [2]
+		}, -- [975]
+		{
+			"     Slot   1, Species 752, Health 1163, Level  24, DisplayID 6297, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [976]
+		{
+			"        abilities : 118, 230, 232,", -- [1]
+			0, -- [2]
+		}, -- [977]
+		{
+			"     Slot   2, Species 747, Health 873, Level  24, DisplayID 46000, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [978]
+		{
+			"        abilities : 119, 506, 706,", -- [1]
+			0, -- [2]
+		}, -- [979]
+		{
+			"<waiting for PetBattleReadyToStart command>", -- [1]
+			0, -- [2]
+		}, -- [980]
+		{
+			"---Battle Begin---", -- [1]
+			0, -- [2]
+		}, -- [981]
+		{
+			"  PetSwap P0 PET 0", -- [1]
+			0, -- [2]
+		}, -- [982]
+		{
+			"  PetSwap P1 PET 0", -- [1]
+			0, -- [2]
+		}, -- [983]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [984]
+		{
+			"---Replacements made---", -- [1]
+			0, -- [2]
+		}, -- [985]
+		{
+			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [986]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [987]
+		{
+			"---Replacements made---", -- [1]
+			0, -- [2]
+		}, -- [988]
+		{
+			"  P1 PET 1 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [989]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [990]
+		{
+			"---BattleFinished: You Won ---", -- [1]
+			0, -- [2]
+		}, -- [991]
+		{
+			"<waiting for PetBattleInput final>", -- [1]
+			0, -- [2]
+		}, -- [992]
+		{
+			"---ClientPetBattleFinished---", -- [1]
+			0, -- [2]
+		}, -- [993]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [994]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [995]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [996]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [997]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [998]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [999]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1000]
 		{
 			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [1001]
-		{
-			"NetClient::HandleDisconnect()\n", -- [1]
-			0, -- [2]
-		}, -- [1002]
-		{
-			"[IBN_BackInterface] Session with Battle.net destroyed.", -- [1]
-			0, -- [2]
-		}, -- [1003]
-		{
-			"[GlueLogin] Disconnected from WoWpreviouslyConnected=\"true\"", -- [1]
-			0, -- [2]
-		}, -- [1004]
-		{
-			"[GlueLogin] Starting loginlauncherPortal=\"eu.actual.battle.net\" loginPortal=\"eu.actual.battle.net:1119\"", -- [1]
-			0, -- [2]
-		}, -- [1005]
-		{
-			"[GlueLogin] Resetting", -- [1]
-			0, -- [2]
-		}, -- [1006]
-		{
-			"[IBN_Login] DestroyingisInitialized=\"true\"", -- [1]
-			0, -- [2]
-		}, -- [1007]
-		{
-			"[IBN_Login] Initializing", -- [1]
-			0, -- [2]
-		}, -- [1008]
-		{
-			"[IBN_Login] Attempting logonhost=\"eu.actual.battle.net\" port=\"1119\"", -- [1]
-			0, -- [2]
-		}, -- [1009]
-		{
-			"[GlueLogin] Waiting for server response.", -- [1]
-			0, -- [2]
-		}, -- [1010]
-		{
-			"[GlueLogin] Waiting for server response.", -- [1]
-			0, -- [2]
-		}, -- [1011]
-		{
-			"[GlueLogin] Waiting for server response.", -- [1]
-			0, -- [2]
-		}, -- [1012]
-		{
-			"[GlueLogin] Logon complete.", -- [1]
-			0, -- [2]
-		}, -- [1013]
-		{
-			"[GlueLogin] Reconnect token saved; creationTime=\"1651520059\" expirationTime=\"1651534459\"", -- [1]
-			0, -- [2]
-		}, -- [1014]
-		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
-			0, -- [2]
-		}, -- [1015]
-		{
-			"[IBN_Login] Requesting realm list ticket", -- [1]
-			0, -- [2]
-		}, -- [1016]
-		{
-			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
-			0, -- [2]
-		}, -- [1017]
-		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
-			0, -- [2]
-		}, -- [1018]
-		{
-			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
-			0, -- [2]
-		}, -- [1019]
-		{
-			"[IBN_Login] Requesting last played charsnumSubRegions=\"3\"", -- [1]
-			0, -- [2]
-		}, -- [1020]
-		{
-			"[GlueLogin] Realm list ready.", -- [1]
-			0, -- [2]
-		}, -- [1021]
-		{
-			"[IBN_Login] Joining realmsubRegion=\"3-4-89\" realmAddress=\"3-5-4\"", -- [1]
-			0, -- [2]
-		}, -- [1022]
-		{
-			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
-			0, -- [2]
-		}, -- [1023]
-		{
-			"NetClient::HandleConnect()\n", -- [1]
-			0, -- [2]
-		}, -- [1024]
-		{
-			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
-			0, -- [2]
-		}, -- [1025]
-		{
-			"[IBN_Login] Front disconnectingconnectionId=\"2\"", -- [1]
-			0, -- [2]
-		}, -- [1026]
-		{
-			"[GlueLogin] Disconnecting from authentication server.", -- [1]
-			0, -- [2]
-		}, -- [1027]
-		{
-			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
-			0, -- [2]
-		}, -- [1028]
-		{
-			"[WowEntitlements] [BNetAccount-0-00001A346EC5] [WowAccount-0-000005146EC9] Initialized with 15 entitlements.", -- [1]
-			0, -- [2]
-		}, -- [1029]
-		{
-			"[IBN_Login] Front disconnectedconnectionId=\"2\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
-			0, -- [2]
-		}, -- [1030]
-		{
-			"[GlueLogin] Disconnected from authentication server.", -- [1]
-			0, -- [2]
-		}, -- [1031]
 	},
 	["height"] = 299.9999694824219,
 	["fontHeight"] = 14,
