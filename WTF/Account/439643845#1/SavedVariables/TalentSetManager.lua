@@ -385,21 +385,6 @@ TalentSetManager_CharacterSaves = {
 			["auto_equip3"] = 0,
 		},
 	},
-	["Bullenic-Silvermoon"] = {
-		["talents_pvp"] = {
-		},
-		["talents"] = {
-			[2] = {
-			},
-		},
-		["version"] = 0,
-		["interface"] = {
-			["auto_equip2"] = 0,
-			["auto_equip4"] = 0,
-			["auto_equip1"] = 0,
-			["auto_equip3"] = 0,
-		},
-	},
 	["Elementior-Outland"] = {
 		["talents"] = {
 			[2] = {
@@ -461,6 +446,21 @@ TalentSetManager_CharacterSaves = {
 					["texture"] = 136156,
 				}, -- [3]
 			}, -- [3]
+		},
+		["version"] = 0,
+		["interface"] = {
+			["auto_equip2"] = 0,
+			["auto_equip4"] = 0,
+			["auto_equip1"] = 0,
+			["auto_equip3"] = 0,
+		},
+	},
+	["Bullenic-Silvermoon"] = {
+		["talents_pvp"] = {
+		},
+		["talents"] = {
+			[2] = {
+			},
 		},
 		["version"] = 0,
 		["interface"] = {

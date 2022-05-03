@@ -18,6 +18,8 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 		},
 	},
 	["profileKeys"] = {
+		["Illyana - Outland"] = "Default",
+		["Barbaxius - Outland"] = "Default",
 		["Necrophagus - Outland"] = "Default",
 	},
 	["profiles"] = {

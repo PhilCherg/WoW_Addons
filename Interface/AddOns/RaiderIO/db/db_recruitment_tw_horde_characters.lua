@@ -2,7 +2,7 @@
 -- Copyright (c) 2022 by Ludicrous Speed, LLC
 -- All rights reserved.
 --
-local provider={name=...,data=3,region="tw",faction=2,date="2022-05-02T18:51:54Z",numCharacters=19753,db2={}}
+local provider={name=...,data=3,region="tw",faction=2,date="2022-05-03T19:04:49Z",numCharacters=19859,db2={}}
 local F
 
 F = function() provider.db2["亞雷戈斯"]={0,"夾土豆","惡魔臘入"} end F()
