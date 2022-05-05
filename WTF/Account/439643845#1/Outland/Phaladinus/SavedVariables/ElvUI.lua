@@ -2181,17 +2181,17 @@ ElvCharacterDB = {
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/s now what", -- [1]
-		"/s bruh", -- [2]
-		"/s idk", -- [3]
-		"/s lol", -- [4]
-		"/s where is the guardian of the deep?", -- [5]
-		"/s why", -- [6]
-		"/reload", -- [7]
-		"/played", -- [8]
-		"/s AZ TE CHUVAM", -- [9]
-		"/s MA TI MENE?7", -- [10]
-		"/att |cffffffff|Hitem:49927::::::::50:66:::::::::|h[Love Token]|h|r", -- [11]
+		"/played", -- [1]
+		"/s AZ TE CHUVAM", -- [2]
+		"/s bruh", -- [3]
+		"/s idk", -- [4]
+		"/att |cffffffff|Hitem:49927::::::::50:66:::::::::|h[Love Token]|h|r", -- [5]
+		"/s lol", -- [6]
+		"/s MA TI MENE?7", -- [7]
+		"/s why", -- [8]
+		"/s now what", -- [9]
+		"/reload", -- [10]
+		"/s where is the guardian of the deep?", -- [11]
 	},
 	["ConvertKeybindings"] = true,
 }

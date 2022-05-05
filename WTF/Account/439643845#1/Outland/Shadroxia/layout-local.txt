@@ -37,8 +37,8 @@ H: 240
 Frame: AllTheThings-Window-Prime
 FrameLevel: 1
 Anchor: TOPLEFT
-X: 0
-Y: -133
+X: 178
+Y: -123
 W: 425
 H: 470
 Frame: AllTheThings-Window-Bounty
@@ -62,13 +62,6 @@ X: 154
 Y: 54
 W: 614
 H: 452
-Frame: AllTheThings-Window-Unsorted
-FrameLevel: 1
-Anchor: CENTER
-X: 0
-Y: 0
-W: 300
-H: 300
 Frame: scanner_button
 FrameLevel: 200
 Anchor: CENTER
@@ -76,3 +69,10 @@ X: 345
 Y: 30
 W: 200
 H: 50
+Frame: AllTheThings-Window-Unsorted
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 300
+H: 300

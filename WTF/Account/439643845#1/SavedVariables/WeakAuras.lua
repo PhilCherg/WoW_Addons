@@ -2491,16 +2491,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 134,
 			["regionType"] = "icon",
 			["displayIcon"] = 1416161,
-			["xOffset"] = 134,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["icon"] = true,
+			["authorOptions"] = {
 			},
 			["cooldown"] = true,
 			["animation"] = {
@@ -2535,13 +2530,18 @@ WeakAurasSaved = {
 			["config"] = {
 			},
 			["inverse"] = false,
-			["stickyDuration"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["conditions"] = {
 			},
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["icon"] = true,
+			["stickyDuration"] = false,
 		},
 		["Seed Reminder"] = {
 			["iconSource"] = 0,
@@ -2652,16 +2652,16 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["desaturate"] = false,
-			["regionType"] = "icon",
-			["displayIcon"] = 136193,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["xOffset"] = 0,
+			["regionType"] = "icon",
+			["displayIcon"] = 136193,
+			["icon"] = true,
+			["desaturate"] = false,
 			["cooldown"] = false,
 			["authorOptions"] = {
 			},
@@ -2677,6 +2677,12 @@ WeakAurasSaved = {
 			["config"] = {
 			},
 			["inverse"] = false,
+			["xOffset"] = 0,
+			["conditions"] = {
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -2697,12 +2703,6 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["conditions"] = {
-			},
-			["information"] = {
-				["ignoreOptionsEventErrors"] = true,
-			},
-			["icon"] = true,
 		},
 		["PROC"] = {
 			["iconSource"] = -1,
@@ -4207,16 +4207,16 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["selfPoint"] = "BOTTOM",
+			["regionType"] = "icon",
+			["displayIcon"] = 136219,
+			["parent"] = "Destruction WL",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["regionType"] = "icon",
-			["displayIcon"] = 136219,
-			["selfPoint"] = "BOTTOM",
-			["xOffset"] = 67,
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
@@ -4233,11 +4233,11 @@ WeakAurasSaved = {
 			["zoom"] = 0,
 			["uid"] = "10T4nk648RN",
 			["inverse"] = false,
-			["icon"] = true,
+			["xOffset"] = 67,
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "Destruction WL",
+			["icon"] = true,
 		},
 		["Demonfire CD"] = {
 			["iconSource"] = -1,
@@ -4379,17 +4379,18 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["desaturate"] = false,
-			["regionType"] = "icon",
-			["conditions"] = {
-			},
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["parent"] = "Destruction WL",
+			["regionType"] = "icon",
+			["conditions"] = {
+			},
+			["authorOptions"] = {
+			},
+			["desaturate"] = false,
 			["cooldown"] = true,
 			["selfPoint"] = "BOTTOM",
 			["uid"] = "PRecELCY)R)",
@@ -4404,6 +4405,11 @@ WeakAurasSaved = {
 			["config"] = {
 			},
 			["inverse"] = false,
+			["parent"] = "Destruction WL",
+			["displayIcon"] = 840407,
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
 			["actions"] = {
 				["start"] = {
 				},
@@ -4411,12 +4417,6 @@ WeakAurasSaved = {
 				},
 				["finish"] = {
 				},
-			},
-			["displayIcon"] = 840407,
-			["information"] = {
-				["ignoreOptionsEventErrors"] = true,
-			},
-			["authorOptions"] = {
 			},
 		},
 		["Infernal Reminder"] = {
@@ -4570,12 +4570,17 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["parent"] = "Destruction WL",
+			["xOffset"] = 67,
 			["regionType"] = "icon",
 			["conditions"] = {
 			},
-			["xOffset"] = 67,
-			["icon"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["parent"] = "Destruction WL",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
@@ -4592,15 +4597,10 @@ WeakAurasSaved = {
 			["zoom"] = 0,
 			["uid"] = "fPPkgs3Sh6M",
 			["inverse"] = false,
-			["selfPoint"] = "BOTTOM",
+			["icon"] = true,
 			["displayIcon"] = 136219,
 			["cooldown"] = true,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["selfPoint"] = "BOTTOM",
 		},
 		["Unholy DK"] = {
 			["backdropColor"] = {
@@ -5202,12 +5202,17 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["parent"] = "Destruction WL",
+			["xOffset"] = 67,
 			["regionType"] = "icon",
 			["conditions"] = {
 			},
-			["xOffset"] = 67,
-			["icon"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["parent"] = "Destruction WL",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
@@ -5224,15 +5229,10 @@ WeakAurasSaved = {
 			["zoom"] = 0,
 			["uid"] = "gFvmGUg0iZ9",
 			["inverse"] = false,
-			["selfPoint"] = "BOTTOM",
+			["icon"] = true,
 			["displayIcon"] = 136219,
 			["cooldown"] = true,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["selfPoint"] = "BOTTOM",
 		},
 		["COMBO"] = {
 			["iconSource"] = -1,
@@ -6469,37 +6469,10 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["desaturate"] = false,
 			["regionType"] = "icon",
 			["conditions"] = {
 			},
-			["desaturate"] = false,
-			["authorOptions"] = {
-			},
-			["information"] = {
-				["ignoreOptionsEventErrors"] = true,
-			},
-			["icon"] = true,
-			["config"] = {
-			},
-			["zoom"] = 0,
-			["auto"] = true,
-			["alpha"] = 1,
-			["id"] = "Demonfire Reminder",
-			["anchorFrameType"] = "SCREEN",
-			["frameStrata"] = 1,
-			["width"] = 50,
-			["cooldownTextDisabled"] = false,
-			["uid"] = "Us7WB2vj4wj",
-			["inverse"] = false,
-			["parent"] = "Destruction WL",
-			["displayIcon"] = 840407,
-			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -6520,6 +6493,33 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["icon"] = true,
+			["config"] = {
+			},
+			["zoom"] = 0,
+			["auto"] = true,
+			["alpha"] = 1,
+			["id"] = "Demonfire Reminder",
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
+			["width"] = 50,
+			["cooldownTextDisabled"] = false,
+			["uid"] = "Us7WB2vj4wj",
+			["inverse"] = false,
+			["authorOptions"] = {
+			},
+			["displayIcon"] = 840407,
+			["cooldown"] = false,
+			["parent"] = "Destruction WL",
 		},
 		["CRIT"] = {
 			["iconSource"] = -1,
@@ -8003,10 +8003,6 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = -134,
-			["regionType"] = "icon",
-			["conditions"] = {
-			},
 			["actions"] = {
 				["start"] = {
 					["do_glow"] = true,
@@ -8027,7 +8023,16 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["stickyDuration"] = false,
+			["regionType"] = "icon",
+			["conditions"] = {
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["xOffset"] = -134,
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
@@ -8063,15 +8068,10 @@ WeakAurasSaved = {
 			["cooldownTextDisabled"] = false,
 			["uid"] = "tZwgrmxllUN",
 			["inverse"] = false,
-			["parent"] = "Destruction WL",
+			["stickyDuration"] = false,
 			["displayIcon"] = 135817,
 			["cooldown"] = false,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["parent"] = "Destruction WL",
 		},
 		["ENERGY"] = {
 			["iconSource"] = -1,
@@ -8810,6 +8810,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["selfPoint"] = "BOTTOM",
+			["regionType"] = "icon",
+			["conditions"] = {
+			},
+			["xOffset"] = -67,
 			["actions"] = {
 				["start"] = {
 				},
@@ -8818,11 +8823,6 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["conditions"] = {
-			},
-			["selfPoint"] = "BOTTOM",
-			["desaturate"] = false,
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
@@ -8839,11 +8839,11 @@ WeakAurasSaved = {
 			["config"] = {
 			},
 			["inverse"] = false,
-			["authorOptions"] = {
-			},
+			["desaturate"] = false,
 			["displayIcon"] = 236290,
 			["cooldown"] = false,
-			["xOffset"] = -67,
+			["authorOptions"] = {
+			},
 		},
 		["Immolate Effect"] = {
 			["iconSource"] = 0,
@@ -8988,13 +8988,13 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["parent"] = "Destruction WL",
+			["authorOptions"] = {
+			},
 			["regionType"] = "icon",
 			["conditions"] = {
 			},
-			["authorOptions"] = {
-			},
-			["icon"] = true,
+			["desaturate"] = false,
+			["parent"] = "Destruction WL",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
@@ -9011,15 +9011,15 @@ WeakAurasSaved = {
 			["config"] = {
 			},
 			["inverse"] = false,
+			["icon"] = true,
+			["displayIcon"] = 135817,
+			["cooldown"] = true,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["displayIcon"] = 135817,
-			["cooldown"] = true,
-			["desaturate"] = false,
 		},
 		["DSM Reminder"] = {
 			["iconSource"] = -1,
@@ -9800,16 +9800,16 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["selfPoint"] = "BOTTOM",
+			["regionType"] = "icon",
+			["displayIcon"] = 463286,
+			["parent"] = "Destruction WL",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["regionType"] = "icon",
-			["displayIcon"] = 463286,
-			["selfPoint"] = "BOTTOM",
-			["xOffset"] = 134,
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
@@ -9826,11 +9826,11 @@ WeakAurasSaved = {
 			["zoom"] = 0,
 			["uid"] = "kZswiObRHgh",
 			["inverse"] = false,
-			["icon"] = true,
+			["xOffset"] = 134,
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "Destruction WL",
+			["icon"] = true,
 		},
 		["Eye Beam Reminder"] = {
 			["iconSource"] = -1,
@@ -10767,36 +10767,10 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["desaturate"] = false,
-			["regionType"] = "icon",
-			["conditions"] = {
-			},
 			["authorOptions"] = {
 			},
-			["selfPoint"] = "BOTTOM",
-			["cooldown"] = false,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["uid"] = "UxqTdTkBiaS",
-			["cooldownTextDisabled"] = false,
-			["auto"] = true,
-			["alpha"] = 1,
-			["id"] = "Cataclysm Reminder",
-			["anchorFrameType"] = "SCREEN",
-			["frameStrata"] = 1,
-			["width"] = 50,
-			["zoom"] = 0,
-			["config"] = {
-			},
-			["inverse"] = false,
-			["xOffset"] = -67,
-			["displayIcon"] = 409545,
-			["information"] = {
-				["ignoreOptionsEventErrors"] = true,
+			["regionType"] = "icon",
+			["conditions"] = {
 			},
 			["actions"] = {
 				["start"] = {
@@ -10818,6 +10792,32 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
+			["desaturate"] = false,
+			["cooldown"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["uid"] = "UxqTdTkBiaS",
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
+			["alpha"] = 1,
+			["id"] = "Cataclysm Reminder",
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
+			["width"] = 50,
+			["zoom"] = 0,
+			["config"] = {
+			},
+			["inverse"] = false,
+			["selfPoint"] = "BOTTOM",
+			["displayIcon"] = 409545,
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["xOffset"] = -67,
 		},
 		["Meta(h) Reminder"] = {
 			["iconSource"] = -1,
@@ -12820,12 +12820,17 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["parent"] = "Destruction WL",
+			["xOffset"] = -67,
 			["regionType"] = "icon",
 			["conditions"] = {
 			},
-			["xOffset"] = -67,
-			["icon"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["parent"] = "Destruction WL",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
@@ -12842,15 +12847,10 @@ WeakAurasSaved = {
 			["zoom"] = 0,
 			["uid"] = "bc7rmDZ8use",
 			["inverse"] = false,
-			["selfPoint"] = "BOTTOM",
+			["icon"] = true,
 			["displayIcon"] = 409545,
 			["cooldown"] = true,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["selfPoint"] = "BOTTOM",
 		},
 		["Demon Spikes Reminder"] = {
 			["iconSource"] = -1,
@@ -15139,12 +15139,17 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["parent"] = "Destruction WL",
+			["xOffset"] = 134,
 			["regionType"] = "icon",
 			["conditions"] = {
 			},
-			["xOffset"] = 134,
-			["icon"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["parent"] = "Destruction WL",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
@@ -15161,15 +15166,10 @@ WeakAurasSaved = {
 			["zoom"] = 0,
 			["uid"] = "pk8ipOW)nk)",
 			["inverse"] = false,
-			["selfPoint"] = "BOTTOM",
+			["icon"] = true,
 			["displayIcon"] = 463286,
 			["cooldown"] = true,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["selfPoint"] = "BOTTOM",
 		},
 		["Meta(v) CD"] = {
 			["iconSource"] = -1,
@@ -15497,12 +15497,17 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["parent"] = "Destruction WL",
+			["xOffset"] = 134,
 			["regionType"] = "icon",
 			["conditions"] = {
 			},
-			["xOffset"] = 134,
-			["icon"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["parent"] = "Destruction WL",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
@@ -15519,15 +15524,10 @@ WeakAurasSaved = {
 			["zoom"] = 0,
 			["uid"] = "OzZtP3dLxPh",
 			["inverse"] = false,
-			["selfPoint"] = "BOTTOM",
+			["icon"] = true,
 			["displayIcon"] = 463286,
 			["cooldown"] = false,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["selfPoint"] = "BOTTOM",
 		},
 		["Haunt Reminder"] = {
 			["iconSource"] = -1,
@@ -16261,7 +16261,7 @@ WeakAurasSaved = {
 			["internalVersion"] = 51,
 			["keepAspectRatio"] = false,
 			["wordWrap"] = "WordWrap",
-			["fixedWidth"] = 200,
+			["icon"] = true,
 			["desaturate"] = false,
 			["font"] = "Friz Quadrata TT",
 			["version"] = 9,
@@ -16271,7 +16271,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["height"] = 35,
-			["icon"] = true,
+			["displayText_format_p_time_dynamic_threshold"] = 60,
 			["load"] = {
 				["size"] = {
 					["multi"] = {
@@ -16456,7 +16456,7 @@ WeakAurasSaved = {
 				["spellId"] = 360418,
 			},
 			["inverse"] = false,
-			["displayText_format_p_time_dynamic_threshold"] = 60,
+			["fixedWidth"] = 200,
 			["shadowColor"] = {
 				0, -- [1]
 				0, -- [2]

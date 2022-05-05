@@ -4,27 +4,7 @@ AngryKeystones_Config = {
 }
 AngryKeystones_Data = {
 	["state"] = {
-		["mapID"] = 381,
-		["splits"] = {
-			405, -- [1]
-			1229, -- [2]
-			1640, -- [3]
-			false, -- [4]
-			1874, -- [5]
-		},
 		["playerDeaths"] = {
-			["Necrophagus"] = 3,
-			["Fionara"] = 2,
-			["Kalneth-KhazModan"] = 1,
-			["Nings-KhazModan"] = 8,
-			["Gärenne-KhazModan"] = 2,
-		},
-		["splitNames"] = {
-			"Kin-Tara defeated", -- [1]
-			"Ventunax defeated", -- [2]
-			"Oryphrion defeated", -- [3]
-			"Devos defeated", -- [4]
-			"Enemy Forces", -- [5]
 		},
 	},
 	["splits"] = {
@@ -335,14 +315,11 @@ AngryKeystones_Data = {
 		[168949] = {
 			[4] = 101,
 		},
-		[167611] = {
-			[4] = 17,
+		[171181] = {
+			[4] = 82,
 		},
-		[169141] = {
-			20, -- [1]
-			[8] = 8,
-			[6] = 1,
-			[12] = 3,
+		[168886] = {
+			[25] = 15,
 		},
 		[174210] = {
 			[4] = 80,
@@ -353,8 +330,8 @@ AngryKeystones_Data = {
 		[166304] = {
 			[4] = 22,
 		},
-		[171181] = {
-			[4] = 82,
+		[167611] = {
+			[4] = 17,
 		},
 		[168153] = {
 			[12] = 9,
@@ -591,8 +568,11 @@ AngryKeystones_Data = {
 		[163882] = {
 			[14] = 31,
 		},
-		[168886] = {
-			[25] = 15,
+		[169141] = {
+			20, -- [1]
+			[8] = 8,
+			[6] = 1,
+			[12] = 3,
 		},
 		[162744] = {
 			[20] = 7,

@@ -7,8 +7,8 @@ _detalhes_database = {
 		["tabelas"] = {
 			{
 				{
-					["combatId"] = 2,
 					["tipo"] = 2,
+					["combatId"] = 2,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -22,24 +22,21 @@ _detalhes_database = {
 								["Ravenous Ranishu"] = 6639,
 								["Dunegorger Kraulok"] = 23377,
 							},
+							["delay"] = 1649323735,
 							["pets"] = {
 								"Capacitor Totem <Elementior>", -- [1]
 							},
-							["spec"] = 262,
+							["total"] = 30016.00466,
+							["tipo"] = 1,
 							["classe"] = "SHAMAN",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 30016.00466,
-							["friendlyfire"] = {
-							},
-							["on_hold"] = false,
+							["aID"] = "1301-0B0D2A8D",
 							["dps_started"] = false,
 							["end_time"] = 1649323746,
-							["friendlyfire_total"] = 0,
-							["aID"] = "1301-0B0D2A8D",
-							["nome"] = "Elementior",
+							["damage_taken"] = 8095.004660000001,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 1,
@@ -58,16 +55,16 @@ _detalhes_database = {
 										["c_max"] = 155,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 155,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									}, -- [1]
 									[73899] = {
 										["c_amt"] = 0,
@@ -86,16 +83,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 73899,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[188389] = {
 										["c_amt"] = 12,
@@ -114,16 +111,16 @@ _detalhes_database = {
 										["c_max"] = 177,
 										["id"] = 188389,
 										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 107,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 55,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 4,
 									},
 									[45297] = {
 										["c_amt"] = 1,
@@ -143,16 +140,16 @@ _detalhes_database = {
 										["c_max"] = 497,
 										["id"] = 45297,
 										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 497,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 4,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 8,
 									},
 									[196840] = {
 										["c_amt"] = 0,
@@ -171,16 +168,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 196840,
 										["r_dmg"] = 0,
-										["spellschool"] = 16,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 5,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 16,
 									},
 									[188196] = {
 										["c_amt"] = 7,
@@ -199,16 +196,16 @@ _detalhes_database = {
 										["c_max"] = 886,
 										["id"] = 188196,
 										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 735,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 30,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 8,
 									},
 									[188443] = {
 										["c_amt"] = 7,
@@ -228,40 +225,43 @@ _detalhes_database = {
 										["c_max"] = 600,
 										["id"] = 188443,
 										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 575,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 14,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 8,
 									},
 								},
+								["tipo"] = 2,
 							},
+							["nome"] = "Elementior",
+							["spec"] = 262,
 							["grupo"] = true,
-							["total"] = 30016.00466,
-							["serial"] = "Player-1301-0B0D2A8D",
 							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1649323735,
-							["damage_taken"] = 8095.004660000001,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1649323646,
-							["delay"] = 1649323735,
-							["tipo"] = 1,
+							["serial"] = "Player-1301-0B0D2A8D",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 3342.008447,
 							["damage_from"] = {
-								["Zinga-TheMaelstrom"] = true,
-								["Treant"] = true,
+								["Drudaas-Silvermoon"] = true,
 								["Elementior"] = true,
+								["Zinga-TheMaelstrom"] = true,
 								["Chara-Dunemaul"] = true,
 								["Sutarei-Silvermoon"] = true,
-								["Drudaas-Silvermoon"] = true,
+								["Treant"] = true,
 							},
 							["targets"] = {
 								["Elementior"] = 3320,
@@ -269,22 +269,22 @@ _detalhes_database = {
 								["Drudaas-Silvermoon"] = 95028,
 								["Sutarei-Silvermoon"] = 2796,
 							},
+							["delay"] = 1649323735,
 							["pets"] = {
 							},
-							["on_hold"] = false,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 103945.008447,
-							["fight_component"] = true,
-							["monster"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1649323746,
 							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1649323746,
+							["damage_taken"] = 350826.008447,
 							["aID"] = "",
 							["nome"] = "Dunegorger Kraulok",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 3,
@@ -303,17 +303,17 @@ _detalhes_database = {
 										["c_max"] = 4782,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["DODGE"] = 1,
-										["spellschool"] = 1,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 2329,
+										["a_amt"] = 1,
 										["c_min"] = 3692,
 										["successful_casted"] = 0,
-										["a_amt"] = 1,
+										["a_dmg"] = 2329,
 										["n_amt"] = 39,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["DODGE"] = 1,
 									}, -- [1]
 									[276046] = {
 										["c_amt"] = 0,
@@ -331,70 +331,15 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 276046,
 										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 3,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[275200] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 275200,
-										["r_dmg"] = 0,
+										["a_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 3,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[275184] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1621,
-										["targets"] = {
-											["Elementior"] = 1621,
-											["Drudaas-Silvermoon"] = 2241,
-										},
-										["n_dmg"] = 3862,
-										["n_min"] = 747,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 3862,
-										["c_max"] = 0,
-										["id"] = 275184,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 4,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
 									},
 									[275175] = {
 										["c_amt"] = 0,
@@ -416,64 +361,118 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 275175,
 										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 1583,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 6,
 										["a_amt"] = 1,
 										["n_amt"] = 7,
-										["b_dmg"] = 0,
+										["a_dmg"] = 1583,
+										["extra"] = {
+										},
+									},
+									[275184] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1621,
+										["targets"] = {
+											["Elementior"] = 1621,
+											["Drudaas-Silvermoon"] = 2241,
+										},
+										["n_dmg"] = 3862,
+										["n_min"] = 747,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 3862,
+										["c_max"] = 0,
+										["id"] = 275184,
+										["r_dmg"] = 0,
 										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 4,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[275200] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 275200,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 3,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
 									},
 								},
+								["tipo"] = 2,
 							},
 							["total"] = 103945.008447,
-							["serial"] = "Vehicle-0-3102-1642-38-138794-00004EAD9A",
 							["friendlyfire"] = {
 							},
-							["last_dps"] = 0,
+							["dps_started"] = false,
 							["custom"] = 0,
 							["last_event"] = 1649323735,
-							["damage_taken"] = 350826.008447,
+							["on_hold"] = false,
 							["start_time"] = 1649323647,
-							["delay"] = 1649323735,
-							["tipo"] = 1,
+							["serial"] = "Vehicle-0-3102-1642-38-138794-00004EAD9A",
+							["monster"] = true,
 						}, -- [2]
 						{
 							["flag_original"] = 8776,
 							["totalabsorbed"] = 3751.008862,
 							["damage_from"] = {
-								["Zinga-TheMaelstrom"] = true,
-								["Treant"] = true,
+								["Sutarei-Silvermoon"] = true,
 								["Elementior"] = true,
+								["Zinga-TheMaelstrom"] = true,
 								["Chara-Dunemaul"] = true,
 								["Drudaas-Silvermoon"] = true,
-								["Sutarei-Silvermoon"] = true,
+								["Treant"] = true,
 							},
 							["targets"] = {
+								["Drudaas-Silvermoon"] = 14563,
 								["Treant"] = 1168,
-								["Elementior"] = 2927,
 								["Chara-Dunemaul"] = 15168,
 								["Sutarei-Silvermoon"] = 17524,
-								["Drudaas-Silvermoon"] = 14563,
+								["Elementior"] = 2927,
 							},
 							["pets"] = {
 							},
+							["tipo"] = 1,
+							["total"] = 51350.008862,
 							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 51350.008862,
-							["friendlyfire"] = {
-							},
+							["delay"] = 1649323730,
 							["fight_component"] = true,
-							["dps_started"] = false,
 							["end_time"] = 1649323746,
-							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
+							["damage_taken"] = 141112.008862,
 							["nome"] = "Ravenous Ranishu",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 7,
@@ -482,33 +481,33 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 343,
 										["targets"] = {
+											["Sutarei-Silvermoon"] = 5242,
 											["Treant"] = 813,
-											["Elementior"] = 984,
 											["Chara-Dunemaul"] = 6242,
 											["Drudaas-Silvermoon"] = 6799,
-											["Sutarei-Silvermoon"] = 5242,
+											["Elementior"] = 984,
 										},
 										["n_dmg"] = 17639,
 										["n_min"] = 40,
 										["g_dmg"] = 0,
 										["counter"] = 160,
-										["a_dmg"] = 269,
+										["r_amt"] = 0,
 										["total"] = 20080,
 										["c_max"] = 506,
-										["DODGE"] = 14,
+										["b_dmg"] = 154,
 										["id"] = 1,
 										["r_dmg"] = 0,
 										["MISS"] = 30,
-										["spellschool"] = 1,
+										["a_amt"] = 1,
 										["extra"] = {
 										},
 										["PARRY"] = 3,
 										["c_min"] = 219,
 										["successful_casted"] = 0,
-										["a_amt"] = 1,
+										["spellschool"] = 1,
 										["n_amt"] = 106,
-										["b_dmg"] = 154,
-										["r_amt"] = 0,
+										["DODGE"] = 14,
+										["a_dmg"] = 269,
 									}, -- [1]
 									[275996] = {
 										["c_amt"] = 0,
@@ -517,11 +516,11 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 209,
 										["targets"] = {
+											["Drudaas-Silvermoon"] = 4474,
 											["Treant"] = 328,
-											["Elementior"] = 1943,
 											["Chara-Dunemaul"] = 6296,
 											["Sutarei-Silvermoon"] = 7745,
-											["Drudaas-Silvermoon"] = 4474,
+											["Elementior"] = 1943,
 										},
 										["n_dmg"] = 20786,
 										["n_min"] = 32,
@@ -531,17 +530,17 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 275996,
 										["r_dmg"] = 0,
-										["MISS"] = 1,
-										["spellschool"] = 1,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 209,
+										["a_amt"] = 1,
 										["c_min"] = 0,
 										["successful_casted"] = 24,
-										["a_amt"] = 1,
+										["a_dmg"] = 209,
 										["n_amt"] = 159,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["MISS"] = 1,
 									},
 									[276036] = {
 										["c_amt"] = 0,
@@ -561,20 +560,20 @@ _detalhes_database = {
 										["counter"] = 43,
 										["total"] = 10484,
 										["c_max"] = 0,
-										["a_dmg"] = 300,
+										["r_amt"] = 0,
 										["id"] = 276036,
 										["r_dmg"] = 0,
-										["MISS"] = 5,
+										["b_dmg"] = 0,
 										["DODGE"] = 7,
-										["extra"] = {
-										},
+										["a_amt"] = 1,
 										["PARRY"] = 1,
 										["c_min"] = 0,
 										["successful_casted"] = 23,
-										["a_amt"] = 1,
+										["extra"] = {
+										},
 										["n_amt"] = 30,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["MISS"] = 5,
+										["a_dmg"] = 300,
 									},
 									[276000] = {
 										["c_amt"] = 0,
@@ -592,54 +591,52 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 276000,
 										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 12,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
 									},
 								},
+								["tipo"] = 2,
 							},
 							["aID"] = "139614",
-							["total"] = 51350.008862,
-							["serial"] = "Creature-0-3102-1642-38-139614-00004EAE70",
 							["last_dps"] = 0,
+							["on_hold"] = false,
 							["custom"] = 0,
 							["last_event"] = 1649323730,
-							["damage_taken"] = 141112.008862,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1649323652,
-							["delay"] = 1649323730,
-							["tipo"] = 1,
+							["serial"] = "Creature-0-3102-1642-38-139614-00004EAE70",
+							["dps_started"] = false,
 						}, -- [3]
 						{
 							["flag_original"] = 8465,
 							["totalabsorbed"] = 0.0027,
-							["friendlyfire"] = {
-							},
 							["damage_from"] = {
 							},
 							["targets"] = {
 							},
-							["on_hold"] = false,
 							["pets"] = {
 							},
-							["serial"] = "Creature-0-3102-1642-38-61245-00004EAEAE",
+							["last_event"] = 1649323696,
+							["classe"] = "PET",
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.0027,
-							["aID"] = "61245",
+							["delay"] = 0,
 							["dps_started"] = false,
 							["total"] = 0.0027,
-							["classe"] = "PET",
+							["aID"] = "61245",
 							["ownerName"] = "Elementior",
 							["nome"] = "Capacitor Totem <Elementior>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[118905] = {
 										["c_amt"] = 0,
@@ -658,28 +655,31 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 118905,
 										["r_dmg"] = 0,
-										["IMMUNE"] = 1,
-										["spellschool"] = 8,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
+										["a_amt"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["a_dmg"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 8,
+										["IMMUNE"] = 1,
 									},
 								},
+								["tipo"] = 2,
 							},
+							["damage_taken"] = 0.0027,
 							["end_time"] = 1649323746,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 0.0027,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1649323746,
-							["delay"] = 0,
-							["last_event"] = 1649323696,
+							["serial"] = "Creature-0-3102-1642-38-61245-00004EAEAE",
+							["on_hold"] = false,
 						}, -- [4]
 						{
 							["flag_original"] = 2632,
@@ -692,24 +692,22 @@ _detalhes_database = {
 								["Dune Bug"] = 539,
 								["Sutarei-Silvermoon"] = 952,
 							},
-							["total"] = 3339.005073,
+							["delay"] = 0,
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3339.005073,
-							["fight_component"] = true,
-							["monster"] = true,
-							["dps_started"] = false,
 							["end_time"] = 1649323746,
+							["fight_component"] = true,
+							["total"] = 3339.005073,
+							["damage_taken"] = 4793.005073,
 							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
 							["nome"] = "Krolusk Dunecrawler",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -730,17 +728,17 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["MISS"] = 1,
-										["spellschool"] = 1,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
+										["a_amt"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["a_dmg"] = 0,
 										["n_amt"] = 8,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["MISS"] = 1,
 									}, -- [1]
 									[261711] = {
 										["c_amt"] = 0,
@@ -760,258 +758,148 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 261711,
 										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 2,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
 									},
 								},
+								["tipo"] = 2,
 							},
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
 							["aID"] = "124654",
-							["serial"] = "Creature-0-3102-1642-38-124654-00004EAA71",
-							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1649323742,
-							["damage_taken"] = 4793.005073,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1649323719,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Creature-0-3102-1642-38-124654-00004EAA71",
+							["monster"] = true,
 						}, -- [5]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 2,
 					["tipo"] = 3,
+					["combatId"] = 2,
 					["_ActorTable"] = {
 						{
-							["flag_original"] = 1304,
-							["totalabsorb"] = 0.005292,
-							["last_hps"] = 0,
+							["flag_original"] = 1297,
 							["targets_overheal"] = {
-								["Treant <Drudaas-Silvermoon>"] = 1074,
-								["Drudaas-Silvermoon"] = 87,
-								["Elementior"] = 1014,
 							},
+							["pets"] = {
+								"Healing Stream Totem <Elementior>", -- [1]
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "SHAMAN",
+							["totalover"] = 0.004956,
+							["total_without_pet"] = 991.004956,
+							["total"] = 3436.004956,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-1301-0B0D2A8D",
+							["totalabsorb"] = 0.004956,
+							["last_hps"] = 31.15794731448986,
 							["targets"] = {
-								["Elementior"] = 3557,
-								["Treant <Drudaas-Silvermoon>"] = 393,
-								["Sutarei-Silvermoon"] = 1287,
-								["Drudaas-Silvermoon"] = 44714,
+								["Elementior"] = 1975,
+								["Drudaas-Silvermoon"] = 1461,
 							},
+							["totalover_without_pet"] = 0.004956,
+							["healing_taken"] = 8095.004956,
+							["fight_component"] = true,
+							["end_time"] = 1649323746,
+							["heal_enemy_amt"] = 0,
+							["last_event"] = 1649323707,
+							["nome"] = "Elementior",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
-									[143924] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Drudaas-Silvermoon"] = 87,
-										},
-										["n_max"] = 1051,
-										["targets"] = {
-											["Drudaas-Silvermoon"] = 11684,
-										},
-										["n_min"] = 10,
-										["counter"] = 81,
-										["overheal"] = 87,
-										["total"] = 11684,
-										["c_max"] = 0,
-										["id"] = 143924,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_curado"] = 11684,
-										["totaldenied"] = 0,
-										["n_amt"] = 81,
-										["absorbed"] = 0,
-									},
-									[774] = {
-										["c_amt"] = 1,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Elementior"] = 735,
-										},
-										["n_max"] = 267,
-										["targets"] = {
-											["Elementior"] = 1021,
-											["Sutarei-Silvermoon"] = 1137,
-										},
-										["n_min"] = 16,
-										["counter"] = 14,
-										["overheal"] = 735,
-										["total"] = 2158,
-										["c_max"] = 0,
-										["id"] = 774,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_curado"] = 2158,
-										["totaldenied"] = 0,
-										["n_amt"] = 13,
-										["absorbed"] = 0,
-									},
-									[8936] = {
-										["c_amt"] = 1,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Elementior"] = 279,
-										},
-										["n_max"] = 2069,
-										["targets"] = {
-											["Elementior"] = 2536,
-										},
-										["n_min"] = 0,
-										["counter"] = 9,
-										["overheal"] = 279,
-										["total"] = 2536,
-										["c_max"] = 185,
-										["id"] = 8936,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 185,
-										["c_curado"] = 185,
-										["n_curado"] = 2351,
-										["totaldenied"] = 0,
-										["n_amt"] = 8,
-										["absorbed"] = 0,
-									},
-									[357945] = {
+									[8004] = {
 										["c_amt"] = 0,
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
 										},
-										["n_max"] = 2430,
+										["n_max"] = 991,
 										["targets"] = {
-											["Drudaas-Silvermoon"] = 20909,
+											["Elementior"] = 991,
 										},
-										["n_min"] = 1936,
-										["counter"] = 10,
+										["n_min"] = 991,
+										["counter"] = 1,
 										["overheal"] = 0,
-										["total"] = 20909,
+										["total"] = 991,
 										["c_max"] = 0,
-										["id"] = 357945,
+										["id"] = 8004,
 										["targets_absorbs"] = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 20909,
+										["n_amt"] = 1,
+										["n_curado"] = 991,
 										["totaldenied"] = 0,
-										["n_amt"] = 10,
-										["absorbed"] = 0,
-									},
-									[352857] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 848,
-										["targets"] = {
-											["Drudaas-Silvermoon"] = 8416,
-										},
-										["n_min"] = 840,
-										["counter"] = 10,
-										["overheal"] = 0,
-										["total"] = 8416,
-										["c_max"] = 0,
-										["id"] = 352857,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_curado"] = 8416,
-										["totaldenied"] = 0,
-										["n_amt"] = 10,
-										["absorbed"] = 0,
-									},
-									[352871] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Treant <Drudaas-Silvermoon>"] = 1074,
-										},
-										["n_max"] = 1023,
-										["targets"] = {
-											["Treant <Drudaas-Silvermoon>"] = 393,
-											["Sutarei-Silvermoon"] = 150,
-											["Drudaas-Silvermoon"] = 3705,
-										},
-										["n_min"] = 11,
-										["counter"] = 9,
-										["overheal"] = 1074,
-										["total"] = 4248,
-										["c_max"] = 0,
-										["id"] = 352871,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_curado"] = 4248,
-										["totaldenied"] = 0,
-										["n_amt"] = 9,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
-							["pets"] = {
-								"Treant <Drudaas-Silvermoon>", -- [1]
-							},
-							["iniciar_hps"] = false,
-							["healing_from"] = {
-								["Healing Stream Totem <Elementior>"] = true,
-								["Sutarei-Silvermoon"] = true,
-								["Drudaas-Silvermoon"] = true,
-							},
-							["aID"] = "3391-0AB97017",
-							["totalover"] = 2175.005292,
-							["total_without_pet"] = 49951.005292,
-							["end_time"] = 1649323746,
-							["totalover_without_pet"] = 0.005292,
-							["fight_component"] = true,
-							["total"] = 49951.005292,
-							["classe"] = "UNGROUPPLAYER",
-							["serial"] = "Player-3391-0AB97017",
-							["nome"] = "Drudaas-Silvermoon",
-							["targets_absorbs"] = {
-							},
-							["heal_enemy_amt"] = 0,
-							["start_time"] = 1649323645,
-							["heal_enemy"] = {
-							},
-							["healing_taken"] = 129675.005292,
+							["grupo"] = true,
+							["totaldenied"] = 0.004956,
+							["aID"] = "1301-0B0D2A8D",
 							["custom"] = 0,
 							["tipo"] = 2,
-							["on_hold"] = false,
-							["totaldenied"] = 0.005292,
-							["delay"] = 1649323736,
-							["last_event"] = 1649323736,
+							["spec"] = 262,
+							["start_time"] = 1649323720,
+							["delay"] = 1649323707,
+							["healing_from"] = {
+								["Elementior"] = true,
+								["Healing Stream Totem <Elementior>"] = true,
+								["Drudaas-Silvermoon"] = true,
+								["Sutarei-Silvermoon"] = true,
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 1304,
-							["totalabsorb"] = 8266.001326,
-							["last_hps"] = 0,
-							["healing_from"] = {
-								["Sutarei-Silvermoon"] = true,
-								["Drudaas-Silvermoon"] = true,
-							},
 							["targets_overheal"] = {
 								["Elementior"] = 1821,
 								["Drudaas-Silvermoon"] = 12455,
 								["Sutarei-Silvermoon"] = 48,
 							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 14324.001326,
+							["total_without_pet"] = 108901.001326,
+							["total"] = 108901.001326,
+							["targets_absorbs"] = {
+								["Sutarei-Silvermoon"] = 2802,
+								["Drudaas-Silvermoon"] = 5464,
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-3391-0681E18D",
+							["totalabsorb"] = 8266.001326,
+							["last_hps"] = 0,
 							["targets"] = {
 								["Elementior"] = 2563,
 								["Drudaas-Silvermoon"] = 83500,
 								["Sutarei-Silvermoon"] = 22838,
 							},
+							["totalover_without_pet"] = 0.001326,
+							["healing_taken"] = 24125.001326,
+							["fight_component"] = true,
+							["end_time"] = 1649323746,
+							["spec"] = 257,
+							["nome"] = "Sutarei-Silvermoon",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[77489] = {
 										["c_amt"] = 0,
@@ -1037,9 +925,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
+										["n_amt"] = 52,
 										["n_curado"] = 18063,
 										["totaldenied"] = 0,
-										["n_amt"] = 52,
 										["absorbed"] = 0,
 									},
 									[110745] = {
@@ -1062,9 +950,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
+										["n_amt"] = 4,
 										["n_curado"] = 3601,
 										["totaldenied"] = 0,
-										["n_amt"] = 4,
 										["absorbed"] = 0,
 									},
 									[368276] = {
@@ -1086,9 +974,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
+										["n_amt"] = 4,
 										["n_curado"] = 1346,
 										["totaldenied"] = 0,
-										["n_amt"] = 4,
 										["absorbed"] = 0,
 									},
 									[270117] = {
@@ -1111,33 +999,33 @@ _detalhes_database = {
 										},
 										["c_min"] = 541,
 										["c_curado"] = 1107,
+										["n_amt"] = 11,
 										["n_curado"] = 3113,
 										["totaldenied"] = 0,
-										["n_amt"] = 11,
 										["absorbed"] = 0,
 									},
-									[2060] = {
-										["c_amt"] = 0,
+									[139] = {
+										["c_amt"] = 2,
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
 										},
-										["n_max"] = 1909,
+										["n_max"] = 615,
 										["targets"] = {
-											["Sutarei-Silvermoon"] = 1909,
+											["Drudaas-Silvermoon"] = 9793,
 										},
-										["n_min"] = 1909,
-										["counter"] = 1,
+										["n_min"] = 592,
+										["counter"] = 14,
 										["overheal"] = 0,
-										["total"] = 1909,
-										["c_max"] = 0,
-										["id"] = 2060,
+										["total"] = 9793,
+										["c_max"] = 1230,
+										["id"] = 139,
 										["targets_absorbs"] = {
 										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_curado"] = 1909,
+										["c_min"] = 1229,
+										["c_curado"] = 2459,
+										["n_amt"] = 12,
+										["n_curado"] = 7334,
 										["totaldenied"] = 0,
-										["n_amt"] = 1,
 										["absorbed"] = 0,
 									},
 									[2061] = {
@@ -1162,34 +1050,33 @@ _detalhes_database = {
 										},
 										["c_min"] = 2563,
 										["c_curado"] = 5180,
+										["n_amt"] = 3,
 										["n_curado"] = 12040,
 										["totaldenied"] = 0,
-										["n_amt"] = 3,
 										["absorbed"] = 0,
 									},
-									[2050] = {
-										["c_amt"] = 1,
+									[269238] = {
+										["c_amt"] = 0,
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
-											["Drudaas-Silvermoon"] = 9857,
 										},
-										["n_max"] = 15028,
+										["n_max"] = 400,
 										["targets"] = {
-											["Drudaas-Silvermoon"] = 32642,
+											["Sutarei-Silvermoon"] = 2398,
 										},
-										["n_min"] = 15028,
-										["counter"] = 2,
-										["overheal"] = 9857,
-										["total"] = 32642,
-										["c_max"] = 17614,
-										["id"] = 2050,
+										["n_min"] = 399,
+										["counter"] = 6,
+										["overheal"] = 0,
+										["total"] = 2398,
+										["c_max"] = 0,
+										["id"] = 269238,
 										["targets_absorbs"] = {
 										},
-										["c_min"] = 17614,
-										["c_curado"] = 17614,
-										["n_curado"] = 15028,
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_amt"] = 6,
+										["n_curado"] = 2398,
 										["totaldenied"] = 0,
-										["n_amt"] = 1,
 										["absorbed"] = 0,
 									},
 									[33110] = {
@@ -1212,9 +1099,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 798,
 										["c_curado"] = 1604,
+										["n_amt"] = 8,
 										["n_curado"] = 7839,
 										["totaldenied"] = 0,
-										["n_amt"] = 8,
 										["absorbed"] = 0,
 									},
 									[17] = {
@@ -1237,178 +1124,291 @@ _detalhes_database = {
 											["Sutarei-Silvermoon"] = 2802,
 											["Drudaas-Silvermoon"] = 5464,
 										},
-										["n_amt"] = 28,
-										["c_min"] = 0,
 										["c_curado"] = 0,
+										["c_min"] = 0,
 										["n_curado"] = 8266,
 										["totaldenied"] = 0,
+										["n_amt"] = 28,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
-									[269238] = {
+									[2050] = {
+										["c_amt"] = 1,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Drudaas-Silvermoon"] = 9857,
+										},
+										["n_max"] = 15028,
+										["targets"] = {
+											["Drudaas-Silvermoon"] = 32642,
+										},
+										["n_min"] = 15028,
+										["counter"] = 2,
+										["overheal"] = 9857,
+										["total"] = 32642,
+										["c_max"] = 17614,
+										["id"] = 2050,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 17614,
+										["c_curado"] = 17614,
+										["n_amt"] = 1,
+										["n_curado"] = 15028,
+										["totaldenied"] = 0,
+										["absorbed"] = 0,
+									},
+									[2060] = {
 										["c_amt"] = 0,
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
 										},
-										["n_max"] = 400,
+										["n_max"] = 1909,
 										["targets"] = {
-											["Sutarei-Silvermoon"] = 2398,
+											["Sutarei-Silvermoon"] = 1909,
 										},
-										["n_min"] = 399,
-										["counter"] = 6,
-										["overheal"] = 0,
-										["total"] = 2398,
-										["c_max"] = 0,
-										["id"] = 269238,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_curado"] = 2398,
-										["totaldenied"] = 0,
-										["n_amt"] = 6,
-										["absorbed"] = 0,
-									},
-									[139] = {
-										["c_amt"] = 2,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 615,
-										["targets"] = {
-											["Drudaas-Silvermoon"] = 9793,
-										},
-										["n_min"] = 592,
-										["counter"] = 14,
-										["overheal"] = 0,
-										["total"] = 9793,
-										["c_max"] = 1230,
-										["id"] = 139,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 1229,
-										["c_curado"] = 2459,
-										["n_curado"] = 7334,
-										["totaldenied"] = 0,
-										["n_amt"] = 12,
-										["absorbed"] = 0,
-									},
-								},
-							},
-							["pets"] = {
-							},
-							["totalover_without_pet"] = 0.001326,
-							["iniciar_hps"] = false,
-							["healing_taken"] = 24125.001326,
-							["totalover"] = 14324.001326,
-							["total_without_pet"] = 108901.001326,
-							["end_time"] = 1649323746,
-							["aID"] = "3391-0681E18D",
-							["fight_component"] = true,
-							["total"] = 108901.001326,
-							["classe"] = "PRIEST",
-							["start_time"] = 1649323638,
-							["nome"] = "Sutarei-Silvermoon",
-							["targets_absorbs"] = {
-								["Sutarei-Silvermoon"] = 2802,
-								["Drudaas-Silvermoon"] = 5464,
-							},
-							["heal_enemy_amt"] = 0,
-							["spec"] = 257,
-							["heal_enemy"] = {
-							},
-							["serial"] = "Player-3391-0681E18D",
-							["custom"] = 0,
-							["last_event"] = 1649323745,
-							["on_hold"] = false,
-							["totaldenied"] = 0.001326,
-							["delay"] = 0,
-							["tipo"] = 2,
-						}, -- [2]
-						{
-							["flag_original"] = 1297,
-							["targets_overheal"] = {
-							},
-							["pets"] = {
-								"Healing Stream Totem <Elementior>", -- [1]
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "SHAMAN",
-							["totalover"] = 0.004956,
-							["total_without_pet"] = 991.004956,
-							["total"] = 3436.004956,
-							["targets_absorbs"] = {
-							},
-							["heal_enemy"] = {
-							},
-							["colocacao"] = 1,
-							["on_hold"] = false,
-							["serial"] = "Player-1301-0B0D2A8D",
-							["totalabsorb"] = 0.004956,
-							["last_hps"] = 31.48167959466021,
-							["targets"] = {
-								["Elementior"] = 1975,
-								["Drudaas-Silvermoon"] = 1461,
-							},
-							["totalover_without_pet"] = 0.004956,
-							["healing_taken"] = 8095.004956,
-							["fight_component"] = true,
-							["end_time"] = 1649323746,
-							["healing_from"] = {
-								["Elementior"] = true,
-								["Healing Stream Totem <Elementior>"] = true,
-								["Drudaas-Silvermoon"] = true,
-								["Sutarei-Silvermoon"] = true,
-							},
-							["heal_enemy_amt"] = 0,
-							["nome"] = "Elementior",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									[8004] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 991,
-										["targets"] = {
-											["Elementior"] = 991,
-										},
-										["n_min"] = 991,
+										["n_min"] = 1909,
 										["counter"] = 1,
 										["overheal"] = 0,
-										["total"] = 991,
+										["total"] = 1909,
 										["c_max"] = 0,
-										["id"] = 8004,
+										["id"] = 2060,
 										["targets_absorbs"] = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 991,
-										["totaldenied"] = 0,
 										["n_amt"] = 1,
+										["n_curado"] = 1909,
+										["totaldenied"] = 0,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
-							["grupo"] = true,
-							["start_time"] = 1649323720,
-							["spec"] = 262,
+							["healing_from"] = {
+								["Sutarei-Silvermoon"] = true,
+								["Drudaas-Silvermoon"] = true,
+							},
+							["tipo"] = 2,
+							["classe"] = "PRIEST",
+							["custom"] = 0,
+							["last_event"] = 1649323745,
+							["totaldenied"] = 0.001326,
+							["start_time"] = 1649323638,
+							["delay"] = 0,
+							["aID"] = "3391-0681E18D",
+						}, -- [2]
+						{
+							["flag_original"] = 1304,
+							["totalabsorb"] = 0.005292,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["Healing Stream Totem <Elementior>"] = true,
+								["Sutarei-Silvermoon"] = true,
+								["Drudaas-Silvermoon"] = true,
+							},
+							["targets"] = {
+								["Elementior"] = 3557,
+								["Drudaas-Silvermoon"] = 44714,
+								["Sutarei-Silvermoon"] = 1287,
+								["Treant <Drudaas-Silvermoon>"] = 393,
+							},
+							["spells"] = {
+								["_ActorTable"] = {
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Drudaas-Silvermoon"] = 87,
+										},
+										["n_max"] = 1051,
+										["targets"] = {
+											["Drudaas-Silvermoon"] = 11684,
+										},
+										["n_min"] = 10,
+										["counter"] = 81,
+										["overheal"] = 87,
+										["total"] = 11684,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_amt"] = 81,
+										["n_curado"] = 11684,
+										["totaldenied"] = 0,
+										["absorbed"] = 0,
+									},
+									[774] = {
+										["c_amt"] = 1,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Elementior"] = 735,
+										},
+										["n_max"] = 267,
+										["targets"] = {
+											["Elementior"] = 1021,
+											["Sutarei-Silvermoon"] = 1137,
+										},
+										["n_min"] = 16,
+										["counter"] = 14,
+										["overheal"] = 735,
+										["total"] = 2158,
+										["c_max"] = 0,
+										["id"] = 774,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_amt"] = 13,
+										["n_curado"] = 2158,
+										["totaldenied"] = 0,
+										["absorbed"] = 0,
+									},
+									[8936] = {
+										["c_amt"] = 1,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Elementior"] = 279,
+										},
+										["n_max"] = 2069,
+										["targets"] = {
+											["Elementior"] = 2536,
+										},
+										["n_min"] = 0,
+										["counter"] = 9,
+										["overheal"] = 279,
+										["total"] = 2536,
+										["c_max"] = 185,
+										["id"] = 8936,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 185,
+										["c_curado"] = 185,
+										["n_amt"] = 8,
+										["n_curado"] = 2351,
+										["totaldenied"] = 0,
+										["absorbed"] = 0,
+									},
+									[352871] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Treant <Drudaas-Silvermoon>"] = 1074,
+										},
+										["n_max"] = 1023,
+										["targets"] = {
+											["Treant <Drudaas-Silvermoon>"] = 393,
+											["Sutarei-Silvermoon"] = 150,
+											["Drudaas-Silvermoon"] = 3705,
+										},
+										["n_min"] = 11,
+										["counter"] = 9,
+										["overheal"] = 1074,
+										["total"] = 4248,
+										["c_max"] = 0,
+										["id"] = 352871,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_amt"] = 9,
+										["n_curado"] = 4248,
+										["totaldenied"] = 0,
+										["absorbed"] = 0,
+									},
+									[352857] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 848,
+										["targets"] = {
+											["Drudaas-Silvermoon"] = 8416,
+										},
+										["n_min"] = 840,
+										["counter"] = 10,
+										["overheal"] = 0,
+										["total"] = 8416,
+										["c_max"] = 0,
+										["id"] = 352857,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_amt"] = 10,
+										["n_curado"] = 8416,
+										["totaldenied"] = 0,
+										["absorbed"] = 0,
+									},
+									[357945] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 2430,
+										["targets"] = {
+											["Drudaas-Silvermoon"] = 20909,
+										},
+										["n_min"] = 1936,
+										["counter"] = 10,
+										["overheal"] = 0,
+										["total"] = 20909,
+										["c_max"] = 0,
+										["id"] = 357945,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_amt"] = 10,
+										["n_curado"] = 20909,
+										["totaldenied"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["pets"] = {
+								"Treant <Drudaas-Silvermoon>", -- [1]
+							},
+							["totalover_without_pet"] = 0.005292,
+							["targets_overheal"] = {
+								["Treant <Drudaas-Silvermoon>"] = 1074,
+								["Drudaas-Silvermoon"] = 87,
+								["Elementior"] = 1014,
+							},
+							["classe"] = "UNGROUPPLAYER",
+							["totalover"] = 2175.005292,
+							["total_without_pet"] = 49951.005292,
+							["iniciar_hps"] = false,
+							["totaldenied"] = 0.005292,
+							["fight_component"] = true,
+							["end_time"] = 1649323746,
+							["healing_taken"] = 129675.005292,
+							["total"] = 49951.005292,
+							["nome"] = "Drudaas-Silvermoon",
+							["targets_absorbs"] = {
+							},
+							["heal_enemy_amt"] = 0,
+							["last_event"] = 1649323736,
+							["heal_enemy"] = {
+							},
+							["delay"] = 1649323736,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["aID"] = "1301-0B0D2A8D",
-							["totaldenied"] = 0.004956,
-							["delay"] = 1649323707,
-							["last_event"] = 1649323707,
+							["on_hold"] = false,
+							["start_time"] = 1649323645,
+							["serial"] = "Player-3391-0AB97017",
+							["aID"] = "3391-0AB97017",
 						}, -- [3]
 						{
 							["flag_original"] = 2600,
-							["healing_from"] = {
+							["targets_overheal"] = {
 							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["aID"] = "3527",
+							["classe"] = "UNKNOW",
 							["totalover"] = 0.003857,
 							["total_without_pet"] = 2445.003857,
 							["total"] = 2445.003857,
@@ -1428,12 +1428,9 @@ _detalhes_database = {
 							["healing_taken"] = 0.003857,
 							["fight_component"] = true,
 							["end_time"] = 1649323746,
-							["targets_overheal"] = {
-							},
 							["ownerName"] = "Elementior",
 							["nome"] = "Healing Stream Totem <Elementior>",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[52042] = {
 										["c_amt"] = 0,
@@ -1455,70 +1452,73 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
+										["n_amt"] = 10,
 										["n_curado"] = 2445,
 										["totaldenied"] = 0,
-										["n_amt"] = 10,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
-							["start_time"] = 1649323729,
-							["classe"] = "UNKNOW",
+							["healing_from"] = {
+							},
+							["tipo"] = 2,
+							["aID"] = "3527",
 							["custom"] = 0,
 							["last_event"] = 1649323707,
-							["heal_enemy_amt"] = 0,
 							["totaldenied"] = 0.003857,
+							["start_time"] = 1649323729,
 							["delay"] = 1649323707,
-							["tipo"] = 2,
+							["heal_enemy_amt"] = 0,
 						}, -- [4]
 						{
 							["flag_original"] = 8472,
-							["totalabsorb"] = 0.007645,
-							["last_hps"] = 0,
-							["healing_from"] = {
-								["Drudaas-Silvermoon"] = true,
-							},
-							["targets"] = {
-							},
 							["targets_overheal"] = {
 							},
 							["pets"] = {
 							},
-							["totalover_without_pet"] = 0.007645,
-							["start_time"] = 1649323746,
-							["aID"] = "103822",
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 0.007645,
 							["total_without_pet"] = 0.007645,
-							["iniciar_hps"] = false,
-							["classe"] = "PET",
-							["end_time"] = 1649323746,
 							["total"] = 0.007645,
-							["heal_enemy_amt"] = 0,
-							["ownerName"] = "Drudaas-Silvermoon",
-							["nome"] = "Treant <Drudaas-Silvermoon>",
 							["targets_absorbs"] = {
-							},
-							["healing_taken"] = 393.007645,
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-								},
 							},
 							["heal_enemy"] = {
 							},
+							["on_hold"] = false,
 							["serial"] = "Creature-0-3102-1642-38-103822-00014EAEC8",
+							["totalabsorb"] = 0.007645,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.007645,
+							["healing_taken"] = 393.007645,
+							["end_time"] = 1649323746,
+							["ownerName"] = "Drudaas-Silvermoon",
+							["nome"] = "Treant <Drudaas-Silvermoon>",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["totaldenied"] = 0.007645,
+							["healing_from"] = {
+								["Drudaas-Silvermoon"] = true,
+							},
+							["tipo"] = 2,
 							["custom"] = 0,
 							["last_event"] = 0,
-							["on_hold"] = false,
-							["totaldenied"] = 0.007645,
+							["aID"] = "103822",
+							["start_time"] = 1649323746,
 							["delay"] = 0,
-							["tipo"] = 2,
+							["classe"] = "PET",
 						}, -- [5]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 2,
 					["tipo"] = 7,
+					["combatId"] = 2,
 					["_ActorTable"] = {
 						{
 							["received"] = 0.006265,
@@ -1532,22 +1532,22 @@ _detalhes_database = {
 							["passiveover"] = 0.006265,
 							["fight_component"] = true,
 							["total"] = 0.006265,
-							["resource_type"] = 11,
+							["totalover"] = 0.006265,
 							["nome"] = "Elementior",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 262,
-							["flag_original"] = 1297,
-							["alternatepower"] = 0.006265,
-							["last_event"] = 1649323735,
-							["aID"] = "1301-0B0D2A8D",
 							["tipo"] = 3,
+							["aID"] = "1301-0B0D2A8D",
+							["last_event"] = 1649323735,
+							["alternatepower"] = 0.006265,
+							["flag_original"] = 1297,
 							["serial"] = "Player-1301-0B0D2A8D",
-							["totalover"] = 0.006265,
+							["resource_type"] = 11,
 						}, -- [1]
 						{
 							["received"] = 5.003481,
@@ -1564,7 +1564,6 @@ _detalhes_database = {
 							["total"] = 5.003481,
 							["nome"] = "Drudaas-Silvermoon",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[77758] = {
 										["total"] = 5,
@@ -1576,43 +1575,43 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 7,
 							},
-							["resource_type"] = 8,
+							["totalover"] = 0.003481,
 							["flag_original"] = 1304,
-							["alternatepower"] = 0.003481,
+							["tipo"] = 3,
 							["last_event"] = 1649323736,
 							["aID"] = "3391-0AB97017",
-							["tipo"] = 3,
+							["alternatepower"] = 0.003481,
 							["serial"] = "Player-3391-0AB97017",
-							["totalover"] = 0.003481,
+							["resource_type"] = 8,
 						}, -- [2]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 2,
 					["tipo"] = 9,
+					["combatId"] = 2,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[188389] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 9,
 										["id"] = 188389,
+										["uptime"] = 99,
 										["targets"] = {
 										},
-										["uptime"] = 99,
 										["appliedamt"] = 1,
-										["refreshamt"] = 9,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 150,
 							["cc_done_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[118905] = {
 										["id"] = 118905,
@@ -1622,74 +1621,75 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["aID"] = "1301-0B0D2A8D",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[225788] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 225788,
+										["uptime"] = 110,
 										["targets"] = {
 										},
-										["uptime"] = 110,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[77762] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 4,
+										["refreshamt"] = 0,
 										["id"] = 77762,
+										["uptime"] = 40,
 										["targets"] = {
 										},
-										["uptime"] = 40,
 										["appliedamt"] = 4,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 99,
-							["cc_done_targets"] = {
-								["Ravenous Ranishu"] = 1,
-							},
+							["tipo"] = 4,
 							["cc_done"] = 1.003558,
 							["nome"] = "Elementior",
 							["spec"] = 262,
 							["grupo"] = true,
-							["spell_cast"] = {
-								[192058] = 1,
-								[73899] = 2,
-								[5394] = 1,
-								[188389] = 10,
-								[8004] = 1,
-								[196840] = 5,
-								[188196] = 22,
-								[188443] = 5,
+							["cc_done_targets"] = {
+								["Ravenous Ranishu"] = 1,
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["buff_uptime_targets"] = {
-							},
+							["classe"] = "SHAMAN",
 							["last_event"] = 1649323746,
 							["pets"] = {
 								"Healing Stream Totem <Elementior>", -- [1]
 								"Capacitor Totem <Elementior>", -- [2]
 							},
-							["classe"] = "SHAMAN",
+							["buff_uptime_targets"] = {
+							},
 							["serial"] = "Player-1301-0B0D2A8D",
-							["tipo"] = 4,
+							["spell_cast"] = {
+								[188443] = 5,
+								[73899] = 2,
+								[8004] = 1,
+								[188389] = 10,
+								[192058] = 1,
+								[196840] = 5,
+								[188196] = 22,
+								[5394] = 1,
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 1304,
+							["tipo"] = 4,
 							["nome"] = "Drudaas-Silvermoon",
-							["classe"] = "UNGROUPPLAYER",
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["last_event"] = 0,
 							["spell_cast"] = {
 								[93402] = 3,
 								[191034] = 4,
@@ -1699,54 +1699,41 @@ _detalhes_database = {
 								[194153] = 9,
 								[205636] = 2,
 								[8921] = 2,
-								[323764] = 1,
 								[102560] = 1,
+								[323764] = 1,
 							},
-							["tipo"] = 4,
+							["classe"] = "UNGROUPPLAYER",
 							["aID"] = "3391-0AB97017",
 							["serial"] = "Player-3391-0AB97017",
-							["last_event"] = 0,
+							["fight_component"] = true,
 						}, -- [2]
 						{
 							["flag_original"] = 8776,
-							["classe"] = "PET",
+							["tipo"] = 4,
 							["nome"] = "Ravenous Ranishu",
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["last_event"] = 0,
 							["spell_cast"] = {
 								[275996] = 24,
 								[276036] = 23,
 								[276000] = 12,
 							},
-							["tipo"] = 4,
+							["classe"] = "PET",
 							["aID"] = "139614",
 							["serial"] = "Creature-0-3102-1642-38-139614-0000CEAE70",
-							["last_event"] = 0,
+							["fight_component"] = true,
 						}, -- [3]
 						{
-							["fight_component"] = true,
+							["flag_original"] = 1304,
+							["last_event"] = 1649323742,
 							["cc_done"] = 1.002339,
 							["nome"] = "Sutarei-Silvermoon",
 							["spec"] = 257,
-							["flag_original"] = 1304,
-							["last_event"] = 1649323742,
-							["pets"] = {
+							["fight_component"] = true,
+							["cc_done_targets"] = {
+								["Krolusk Dunecrawler"] = 1,
 							},
-							["aID"] = "3391-0681E18D",
-							["cc_done_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[200200] = {
-										["id"] = 200200,
-										["targets"] = {
-											["Krolusk Dunecrawler"] = 1,
-										},
-										["counter"] = 1,
-									},
-								},
-							},
-							["tipo"] = 4,
 							["spell_cast"] = {
 								[139] = 2,
 								[2050] = 2,
@@ -1756,22 +1743,35 @@ _detalhes_database = {
 								[88625] = 3,
 								[2061] = 5,
 								[585] = 17,
-								[2060] = 1,
-								[17] = 5,
-								[110744] = 1,
 								[14914] = 7,
+								[110744] = 1,
+								[17] = 5,
+								[2060] = 1,
 							},
-							["cc_done_targets"] = {
-								["Krolusk Dunecrawler"] = 1,
+							["pets"] = {
 							},
+							["cc_done_spells"] = {
+								["_ActorTable"] = {
+									[200200] = {
+										["id"] = 200200,
+										["targets"] = {
+											["Krolusk Dunecrawler"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["tipo"] = 4,
+							["aID"] = "3391-0681E18D",
 							["serial"] = "Player-3391-0681E18D",
 							["classe"] = "PRIEST",
 						}, -- [4]
 						{
 							["flag_original"] = 68168,
-							["classe"] = "UNKNOW",
+							["monster"] = true,
 							["nome"] = "Dunegorger Kraulok",
-							["fight_component"] = true,
+							["last_event"] = 0,
 							["pets"] = {
 							},
 							["spell_cast"] = {
@@ -1779,42 +1779,42 @@ _detalhes_database = {
 								[275175] = 6,
 								[275200] = 3,
 							},
-							["monster"] = true,
-							["tipo"] = 4,
 							["aID"] = "",
+							["classe"] = "UNKNOW",
+							["tipo"] = 4,
 							["serial"] = "Vehicle-0-3102-1642-38-138794-00004EAD9A",
-							["last_event"] = 0,
+							["fight_component"] = true,
 						}, -- [5]
 						{
 							["flag_original"] = 8465,
-							["classe"] = "PET",
+							["tipo"] = 4,
 							["ownerName"] = "Elementior",
 							["nome"] = "Healing Stream Totem <Elementior>",
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["last_event"] = 0,
 							["spell_cast"] = {
 								[5672] = 1,
 							},
-							["tipo"] = 4,
+							["classe"] = "PET",
 							["aID"] = "3527",
 							["serial"] = "Creature-0-3102-1642-38-3527-00004EAEAC",
-							["last_event"] = 0,
+							["fight_component"] = true,
 						}, -- [6]
 						{
 							["flag_original"] = 8465,
 							["last_event"] = 1649323696,
-							["cc_done"] = 1.00868,
 							["ownerName"] = "Elementior",
 							["nome"] = "Capacitor Totem <Elementior>",
 							["aID"] = "61245",
-							["pets"] = {
-							},
+							["cc_done"] = 1.00868,
 							["cc_done_targets"] = {
 								["Ravenous Ranishu"] = 1,
 							},
+							["spell_cast"] = {
+								[118905] = 1,
+							},
 							["cc_done_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[118905] = {
 										["id"] = 118905,
@@ -1824,35 +1824,35 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["classe"] = "PET",
-							["spell_cast"] = {
-								[118905] = 1,
+							["pets"] = {
 							},
 							["serial"] = "Creature-0-3102-1642-38-61245-00004EAEAE",
 							["tipo"] = 4,
 						}, -- [7]
 						{
 							["monster"] = true,
+							["last_event"] = 0,
 							["nome"] = "Krolusk Dunecrawler",
-							["flag_original"] = 2632,
+							["aID"] = "124654",
 							["spell_cast"] = {
 								[261711] = 2,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
+							["tipo"] = 4,
+							["classe"] = "UNKNOW",
 							["pets"] = {
 							},
-							["tipo"] = 4,
 							["serial"] = "Creature-0-3102-1642-38-124654-00004EAEB6",
-							["aID"] = "124654",
+							["flag_original"] = 2632,
 						}, -- [8]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 2,
 					["tipo"] = 2,
+					["combatId"] = 2,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -1862,59 +1862,43 @@ _detalhes_database = {
 				["raid_roster_indexed"] = {
 					"Elementior", -- [1]
 				},
-				["tempo_start"] = 1649323636,
+				["overall_added"] = true,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 450,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
-					188649.9255589999, -- [1]
+					188649.9155939999, -- [1]
 					162287.98666, -- [2]
 					{
 						4.996326000000011, -- [1]
 						[0] = -0.003253999999998314,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
-				["totals_grupo"] = {
-					30016, -- [1]
-					991, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
+				["player_last_events"] = {
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "none",
+				["hasSaved"] = true,
 				["data_fim"] = "12:29:07",
 				["cleu_timeline"] = {
 				},
@@ -1930,6 +1914,11 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage"] = {
+						{
+							["Elementior"] = 30016.00466,
+						}, -- [1]
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -1939,24 +1928,40 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
-					["damage"] = {
-						{
-							["Elementior"] = 30016.00466,
-						}, -- [1]
-					},
 				},
 				["end_time"] = 13205.572,
 				["combat_id"] = 2,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["overall_added"] = true,
+				["data_inicio"] = "12:27:17",
+				["tempo_start"] = 1649323636,
 				["spells_cast_timeline"] = {
 				},
-				["player_last_events"] = {
-				},
-				["data_inicio"] = "12:27:17",
+				["contra"] = "Dunegorger Kraulok",
+				["combat_counter"] = 450,
 				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					30016, -- [1]
+					991, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 13095.295,
+				["TimeData"] = {
 				},
 				["frags"] = {
 					["Krolusk Dunecrawler"] = 1,
@@ -1967,10 +1972,6 @@ _detalhes_database = {
 					["Dune Bug"] = 2,
 					["Dunegorger Kraulok"] = 1,
 				},
-				["start_time"] = 13095.295,
-				["TimeData"] = {
-				},
-				["contra"] = "Dunegorger Kraulok",
 			}, -- [1]
 		},
 	},
@@ -1978,17 +1979,28 @@ _detalhes_database = {
 		["enabled"] = false,
 		["current_cooldowns"] = {
 		},
+		["lines_per_column"] = 12,
+		["show_options"] = false,
+		["pos"] = {
+		},
+		["height"] = 18,
 		["cooldowns"] = {
 		},
+		["framme_locked"] = false,
 		["show_conditions"] = {
 			["only_inside_instance"] = true,
 			["only_in_group"] = true,
 		},
-		["show_options"] = false,
-		["pos"] = {
+		["width"] = 120,
+		["filters"] = {
+			["defensive-raid"] = false,
+			["ofensive"] = true,
+			["defensive-target"] = false,
+			["utility"] = false,
+			["defensive-personal"] = false,
 		},
 	},
-	["last_version"] = "9.2.09722",
+	["last_version"] = "9.2.09780",
 	["SoloTablesSaved"] = {
 		["Mode"] = 1,
 	},
@@ -2002,7 +2014,7 @@ _detalhes_database = {
 	},
 	["on_death_menu"] = true,
 	["nick_tag_cache"] = {
-		["nextreset"] = 1650618512,
+		["nextreset"] = 1653050934,
 		["last_version"] = 14,
 	},
 	["last_instance_id"] = 603,
@@ -2042,9 +2054,9 @@ _detalhes_database = {
 			["updatespeed"] = 1,
 			["showamount"] = false,
 			["useplayercolor"] = false,
-			["usefocus"] = false,
-			["playSoundFile"] = "Details Threat Warning Volume 3",
 			["author"] = "Details! Team",
+			["playSoundFile"] = "Details Threat Warning Volume 3",
+			["usefocus"] = false,
 		},
 		["DETAILS_PLUGIN_RAIDCHECK"] = {
 			["enabled"] = true,
@@ -2071,15 +2083,15 @@ _detalhes_database = {
 			["tank_block_size"] = 150,
 			["bar_height"] = 24,
 			["tank_block_texture"] = "Details Serenity",
+			["show_inc_bars"] = false,
+			["tank_block_height"] = 40,
+			["tank_block_powerbar_size_height"] = 10,
 			["tank_block_color"] = {
 				0.24705882, -- [1]
 				0.0039215, -- [2]
 				0, -- [3]
 				0.8, -- [4]
 			},
-			["tank_block_powerbar_size_height"] = 10,
-			["tank_block_height"] = 40,
-			["show_inc_bars"] = false,
 		},
 		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
 			["enabled"] = true,
@@ -2089,11 +2101,11 @@ _detalhes_database = {
 			["last_section_selected"] = "main",
 			["author"] = "Details! Team",
 			["window_scale"] = 1,
-			["encounter_timers_dbm"] = {
-			},
+			["hide_on_combat"] = false,
 			["show_icon"] = 5,
 			["opened"] = 0,
-			["hide_on_combat"] = false,
+			["encounter_timers_dbm"] = {
+			},
 		},
 		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
 			["font_color"] = {
@@ -2119,32 +2131,17 @@ _detalhes_database = {
 				["radius"] = 160,
 				["hide"] = true,
 			},
-			["use_square_mode"] = false,
+			["scale"] = 1,
 			["arrow_anchor_x"] = 0,
-			["main_frame_locked"] = false,
+			["row_height"] = 20,
 			["row_texture"] = "Details Serenity",
-			["arrow_anchor_y"] = 0,
-			["per_second"] = {
-				["enabled"] = false,
-				["point"] = "CENTER",
-				["scale"] = 1,
-				["font_shadow"] = true,
-				["y"] = 3.0517578125e-05,
-				["x"] = 3.0517578125e-05,
-				["attribute_type"] = 1,
-				["update_speed"] = 0.05,
-				["size"] = 32,
-			},
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["point"] = "CENTER",
+			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["use_spark"] = true,
+			["font_size"] = 10,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -2152,37 +2149,51 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["author"] = "Details! Team",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["font_size"] = 10,
 			["y"] = 4.57763671875e-05,
+			["per_second"] = {
+				["enabled"] = false,
+				["point"] = "CENTER",
+				["scale"] = 1,
+				["font_shadow"] = true,
+				["y"] = 3.0517578125e-05,
+				["x"] = 3.0517578125e-05,
+				["size"] = 32,
+				["update_speed"] = 0.05,
+				["attribute_type"] = 1,
+			},
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
-			["main_frame_strata"] = "LOW",
-			["point"] = "CENTER",
-			["row_height"] = 20,
-			["scale"] = 1,
+			["use_spark"] = true,
+			["arrow_anchor_y"] = 0,
+			["main_frame_locked"] = false,
+			["use_square_mode"] = false,
 		},
 	},
+	["last_day"] = "05",
 	["announce_prepots"] = {
 		["enabled"] = false,
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
+	["announce_damagerecord"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
 	["last_realversion"] = 146,
-	["cached_roles"] = {
-	},
 	["last_encounter"] = "Yogg-Saron",
-	["cached_talents"] = {
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
 	},
-	["benchmark_db"] = {
-		["frame"] = {
-		},
-	},
-	["character_data"] = {
-		["logons"] = 28,
-	},
+	["combat_counter"] = 451,
 	["combat_id"] = 2,
 	["savedStyles"] = {
 	},
@@ -2243,25 +2254,23 @@ _detalhes_database = {
 						["Ravenous Ranishu"] = 6639,
 						["Dunegorger Kraulok"] = 23377,
 					},
-					["friendlyfire_total"] = 0,
+					["delay"] = 0,
 					["pets"] = {
 						"Capacitor Totem <Elementior>", -- [1]
 					},
-					["last_event"] = 0,
-					["aID"] = "1301-0B0D2A8D",
+					["on_hold"] = false,
+					["damage_taken"] = 8095.005762000001,
+					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 30016.005762,
-					["end_time"] = 1649323747,
-					["friendlyfire"] = {
-					},
-					["dps_started"] = false,
-					["total"] = 30016.005762,
 					["classe"] = "SHAMAN",
-					["on_hold"] = false,
+					["dps_started"] = false,
+					["end_time"] = 1649323747,
+					["last_dps"] = 0,
+					["tipo"] = 1,
 					["nome"] = "Elementior",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 1,
@@ -2280,15 +2289,15 @@ _detalhes_database = {
 								["c_max"] = 155,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 2,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							}, -- [1]
 							[73899] = {
 								["c_amt"] = 0,
@@ -2307,15 +2316,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 73899,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 2,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[188389] = {
 								["c_amt"] = 12,
@@ -2334,15 +2343,15 @@ _detalhes_database = {
 								["c_max"] = 177,
 								["id"] = 188389,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 55,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[45297] = {
 								["c_amt"] = 1,
@@ -2362,15 +2371,15 @@ _detalhes_database = {
 								["c_max"] = 497,
 								["id"] = 45297,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 4,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[196840] = {
 								["c_amt"] = 0,
@@ -2389,15 +2398,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 196840,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 5,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[188196] = {
 								["c_amt"] = 7,
@@ -2416,15 +2425,15 @@ _detalhes_database = {
 								["c_max"] = 886,
 								["id"] = 188196,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 30,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[188443] = {
 								["c_amt"] = 7,
@@ -2444,38 +2453,40 @@ _detalhes_database = {
 								["c_max"] = 600,
 								["id"] = 188443,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 14,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 						},
+						["tipo"] = 2,
 					},
 					["grupo"] = true,
+					["total"] = 30016.005762,
 					["spec"] = 262,
-					["serial"] = "Player-1301-0B0D2A8D",
 					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1649323644,
-					["delay"] = 0,
-					["damage_taken"] = 8095.005762000001,
+					["serial"] = "Player-1301-0B0D2A8D",
+					["aID"] = "1301-0B0D2A8D",
 				}, -- [1]
 				{
 					["flag_original"] = 68168,
 					["totalabsorbed"] = 3342.01002,
 					["damage_from"] = {
-						["Drudaas-Silvermoon"] = true,
-						["Treant"] = true,
-						["Zinga-TheMaelstrom"] = true,
-						["Chara-Dunemaul"] = true,
-						["Sutarei-Silvermoon"] = true,
 						["Elementior"] = true,
+						["Sutarei-Silvermoon"] = true,
+						["Treant"] = true,
+						["Chara-Dunemaul"] = true,
+						["Drudaas-Silvermoon"] = true,
+						["Zinga-TheMaelstrom"] = true,
 					},
 					["targets"] = {
 						["Elementior"] = 3320,
@@ -2483,23 +2494,22 @@ _detalhes_database = {
 						["Drudaas-Silvermoon"] = 95028,
 						["Sutarei-Silvermoon"] = 2796,
 					},
-					["dps_started"] = false,
+					["delay"] = 0,
 					["pets"] = {
 					},
-					["last_event"] = 0,
+					["total"] = 103945.01002,
+					["damage_taken"] = 350826.01002,
 					["aID"] = "",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 103945.01002,
-					["on_hold"] = false,
-					["end_time"] = 1649323747,
-					["monster"] = true,
-					["total"] = 103945.01002,
 					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["dps_started"] = false,
+					["end_time"] = 1649323747,
+					["last_dps"] = 0,
+					["tipo"] = 1,
 					["nome"] = "Dunegorger Kraulok",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 3,
@@ -2518,16 +2528,16 @@ _detalhes_database = {
 								["c_max"] = 4782,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["DODGE"] = 1,
-								["extra"] = {
-								},
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["a_dmg"] = 2329,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 1,
 								["n_amt"] = 39,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["extra"] = {
+								},
+								["DODGE"] = 1,
 							}, -- [1]
 							[275200] = {
 								["c_amt"] = 0,
@@ -2545,15 +2555,41 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 275200,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 3,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[276046] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 276046,
+								["r_dmg"] = 0,
 								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 3,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[275175] = {
 								["c_amt"] = 0,
@@ -2575,15 +2611,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 275175,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 1583,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 6,
 								["a_amt"] = 1,
 								["n_amt"] = 7,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 1583,
+								["extra"] = {
+								},
 							},
 							[275184] = {
 								["c_amt"] = 0,
@@ -2603,89 +2639,64 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 275184,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 4,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
-							},
-							[276046] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-								},
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 276046,
-								["r_dmg"] = 0,
+								["a_dmg"] = 0,
 								["extra"] = {
 								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 3,
-								["a_amt"] = 0,
-								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
+					["classe"] = "UNKNOW",
+					["friendlyfire_total"] = 0,
 					["friendlyfire"] = {
 					},
-					["friendlyfire_total"] = 0,
-					["serial"] = "Vehicle-0-3102-1642-38-138794-00004EAD9A",
 					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
 					["start_time"] = 1649323645,
-					["delay"] = 0,
-					["damage_taken"] = 350826.01002,
+					["serial"] = "Vehicle-0-3102-1642-38-138794-00004EAD9A",
+					["monster"] = true,
 				}, -- [2]
 				{
 					["flag_original"] = 8776,
 					["totalabsorbed"] = 3751.00989,
-					["aID"] = "139614",
 					["damage_from"] = {
-						["Sutarei-Silvermoon"] = true,
-						["Treant"] = true,
-						["Zinga-TheMaelstrom"] = true,
-						["Chara-Dunemaul"] = true,
-						["Drudaas-Silvermoon"] = true,
 						["Elementior"] = true,
+						["Drudaas-Silvermoon"] = true,
+						["Treant"] = true,
+						["Chara-Dunemaul"] = true,
+						["Sutarei-Silvermoon"] = true,
+						["Zinga-TheMaelstrom"] = true,
 					},
 					["targets"] = {
-						["Drudaas-Silvermoon"] = 14563,
+						["Elementior"] = 2927,
 						["Treant"] = 1168,
 						["Chara-Dunemaul"] = 15168,
+						["Drudaas-Silvermoon"] = 14563,
 						["Sutarei-Silvermoon"] = 17524,
-						["Elementior"] = 2927,
 					},
 					["pets"] = {
 					},
-					["fight_component"] = true,
-					["classe"] = "PET",
+					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
+					["aID"] = "139614",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 51350.00989,
-					["last_event"] = 0,
-					["dps_started"] = false,
+					["delay"] = 0,
+					["fight_component"] = true,
 					["end_time"] = 1649323747,
-					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
+					["damage_taken"] = 141112.00989,
 					["nome"] = "Ravenous Ranishu",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 7,
@@ -2694,11 +2705,11 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 343,
 								["targets"] = {
-									["Sutarei-Silvermoon"] = 5242,
+									["Elementior"] = 984,
 									["Treant"] = 813,
 									["Chara-Dunemaul"] = 6242,
+									["Sutarei-Silvermoon"] = 5242,
 									["Drudaas-Silvermoon"] = 6799,
-									["Elementior"] = 984,
 								},
 								["n_dmg"] = 17639,
 								["n_min"] = 0,
@@ -2706,20 +2717,20 @@ _detalhes_database = {
 								["counter"] = 160,
 								["total"] = 20080,
 								["c_max"] = 506,
-								["a_dmg"] = 269,
+								["r_amt"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["MISS"] = 30,
+								["b_dmg"] = 154,
 								["DODGE"] = 14,
-								["extra"] = {
-								},
+								["a_amt"] = 1,
 								["PARRY"] = 3,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
-								["a_amt"] = 1,
+								["extra"] = {
+								},
 								["n_amt"] = 106,
-								["b_dmg"] = 154,
-								["r_amt"] = 0,
+								["MISS"] = 30,
+								["a_dmg"] = 269,
 							}, -- [1]
 							[275996] = {
 								["c_amt"] = 0,
@@ -2728,11 +2739,11 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 209,
 								["targets"] = {
-									["Drudaas-Silvermoon"] = 4474,
+									["Elementior"] = 1943,
 									["Treant"] = 328,
 									["Chara-Dunemaul"] = 6296,
+									["Drudaas-Silvermoon"] = 4474,
 									["Sutarei-Silvermoon"] = 7745,
-									["Elementior"] = 1943,
 								},
 								["n_dmg"] = 20786,
 								["n_min"] = 0,
@@ -2742,16 +2753,16 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 275996,
 								["r_dmg"] = 0,
-								["MISS"] = 1,
-								["extra"] = {
-								},
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["a_dmg"] = 209,
 								["c_min"] = 0,
 								["successful_casted"] = 24,
 								["a_amt"] = 1,
 								["n_amt"] = 159,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["extra"] = {
+								},
+								["MISS"] = 1,
 							},
 							[276036] = {
 								["c_amt"] = 0,
@@ -2771,20 +2782,20 @@ _detalhes_database = {
 								["counter"] = 43,
 								["total"] = 10484,
 								["c_max"] = 0,
-								["a_dmg"] = 300,
+								["r_amt"] = 0,
 								["id"] = 276036,
 								["r_dmg"] = 0,
-								["DODGE"] = 7,
+								["b_dmg"] = 0,
 								["MISS"] = 5,
-								["extra"] = {
-								},
+								["a_amt"] = 1,
 								["PARRY"] = 1,
 								["c_min"] = 0,
 								["successful_casted"] = 23,
-								["a_amt"] = 1,
+								["extra"] = {
+								},
 								["n_amt"] = 30,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["DODGE"] = 7,
+								["a_dmg"] = 300,
 							},
 							[276000] = {
 								["c_amt"] = 0,
@@ -2802,53 +2813,51 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 276000,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 12,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 						},
+						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
-					["total"] = 51350.00989,
-					["serial"] = "Creature-0-3102-1642-38-139614-00004EAE70",
-					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 141112.00989,
+					["dps_started"] = false,
+					["total"] = 51350.00989,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
 					["start_time"] = 1649323650,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "Creature-0-3102-1642-38-139614-00004EAE70",
+					["classe"] = "PET",
 				}, -- [3]
 				{
 					["flag_original"] = 8465,
 					["totalabsorbed"] = 0.006776,
-					["serial"] = "Creature-0-3102-1642-38-61245-00004EAEAE",
 					["damage_from"] = {
 					},
 					["targets"] = {
 					},
-					["end_time"] = 1649323747,
 					["pets"] = {
 					},
+					["damage_taken"] = 0.006776,
+					["tipo"] = 1,
 					["friendlyfire_total"] = 0,
-					["aID"] = "61245",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.006776,
-					["last_event"] = 0,
+					["delay"] = 0,
 					["dps_started"] = false,
+					["end_time"] = 1649323747,
 					["total"] = 0.006776,
-					["classe"] = "PET",
 					["ownerName"] = "Elementior",
 					["nome"] = "Capacitor Totem <Elementior>",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[118905] = {
 								["c_amt"] = 0,
@@ -2867,28 +2876,30 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 118905,
 								["r_dmg"] = 0,
-								["IMMUNE"] = 1,
-								["extra"] = {
-								},
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["extra"] = {
+								},
+								["IMMUNE"] = 1,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["on_hold"] = false,
+					["last_dps"] = 0,
+					["classe"] = "PET",
 					["friendlyfire"] = {
 					},
 					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
 					["start_time"] = 1649323744,
-					["delay"] = 0,
-					["damage_taken"] = 0.006776,
+					["serial"] = "Creature-0-3102-1642-38-61245-00004EAEAE",
+					["aID"] = "61245",
 				}, -- [4]
 				{
 					["flag_original"] = 2632,
@@ -2901,24 +2912,22 @@ _detalhes_database = {
 						["Dune Bug"] = 539,
 						["Sutarei-Silvermoon"] = 952,
 					},
-					["on_hold"] = false,
+					["delay"] = 0,
 					["pets"] = {
 					},
-					["monster"] = true,
+					["dps_started"] = false,
+					["damage_taken"] = 4793.007355000001,
 					["aID"] = "124654",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 3339.007355,
-					["friendlyfire"] = {
-					},
-					["end_time"] = 1649323747,
-					["dps_started"] = false,
 					["total"] = 3339.007355,
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["monster"] = true,
+					["end_time"] = 1649323747,
+					["last_dps"] = 0,
+					["tipo"] = 1,
 					["nome"] = "Krolusk Dunecrawler",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -2939,16 +2948,16 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["MISS"] = 1,
-								["extra"] = {
-								},
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 8,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["extra"] = {
+								},
+								["MISS"] = 1,
 							}, -- [1]
 							[261711] = {
 								["c_amt"] = 0,
@@ -2968,27 +2977,29 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 261711,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 2,
 								["a_amt"] = 0,
 								["n_amt"] = 2,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["classe"] = "UNKNOW",
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3102-1642-38-124654-00004EAA71",
+					["fight_component"] = true,
 					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
 					["start_time"] = 1649323717,
-					["delay"] = 0,
-					["damage_taken"] = 4793.007355000001,
+					["serial"] = "Creature-0-3102-1642-38-124654-00004EAA71",
+					["friendlyfire"] = {
+					},
 				}, -- [5]
 			},
 		}, -- [1]
@@ -2999,40 +3010,50 @@ _detalhes_database = {
 					["flag_original"] = 1304,
 					["totalabsorb"] = 0.011816,
 					["last_hps"] = 0,
+					["targets_overheal"] = {
+						["Treant <Drudaas-Silvermoon>"] = 0,
+						["Drudaas-Silvermoon"] = 0,
+						["Elementior"] = 0,
+					},
+					["targets"] = {
+						["Treant <Drudaas-Silvermoon>"] = 0,
+						["Elementior"] = 0,
+						["Drudaas-Silvermoon"] = 0,
+						["Sutarei-Silvermoon"] = 0,
+					},
+					["delay"] = 0,
+					["pets"] = {
+						"Treant <Drudaas-Silvermoon>", -- [1]
+					},
+					["totalover_without_pet"] = 0.011816,
 					["healing_from"] = {
 						["Healing Stream Totem <Elementior>"] = true,
 						["Sutarei-Silvermoon"] = true,
 						["Drudaas-Silvermoon"] = true,
 					},
-					["targets"] = {
-						["Treant <Drudaas-Silvermoon>"] = 393,
-						["Drudaas-Silvermoon"] = 44714,
-						["Sutarei-Silvermoon"] = 1287,
-						["Elementior"] = 3557,
-					},
-					["start_time"] = 1649323643,
-					["pets"] = {
-						"Treant <Drudaas-Silvermoon>", -- [1]
-					},
-					["iniciar_hps"] = false,
-					["targets_overheal"] = {
-						["Treant <Drudaas-Silvermoon>"] = 1074,
-						["Drudaas-Silvermoon"] = 87,
-						["Elementior"] = 1014,
-					},
 					["healing_taken"] = 129675.011816,
 					["totalover"] = 2175.011816,
 					["total_without_pet"] = 49951.011816,
-					["end_time"] = 1649323747,
-					["totalover_without_pet"] = 0.011816,
+					["iniciar_hps"] = false,
+					["totaldenied"] = 0.011816,
 					["fight_component"] = true,
-					["total"] = 49951.011816,
+					["end_time"] = 1649323747,
 					["aID"] = "3391-0AB97017",
+					["heal_enemy_amt"] = 0,
+					["nome"] = "Drudaas-Silvermoon",
 					["targets_absorbs"] = {
 					},
-					["nome"] = "Drudaas-Silvermoon",
+					["total"] = 49951.011816,
+					["classe"] = "UNGROUPPLAYER",
+					["heal_enemy"] = {
+					},
+					["tipo"] = 2,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1649323643,
+					["serial"] = "Player-3391-0AB97017",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[143924] = {
 								["c_amt"] = 0,
@@ -3054,9 +3075,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
+								["n_amt"] = 81,
 								["n_curado"] = 11684,
 								["totaldenied"] = 0,
-								["n_amt"] = 81,
 								["absorbed"] = 0,
 							},
 							[774] = {
@@ -3080,9 +3101,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
+								["n_amt"] = 13,
 								["n_curado"] = 2158,
 								["totaldenied"] = 0,
-								["n_amt"] = 13,
 								["absorbed"] = 0,
 							},
 							[8936] = {
@@ -3105,9 +3126,33 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 185,
+								["n_amt"] = 8,
 								["n_curado"] = 2351,
 								["totaldenied"] = 0,
-								["n_amt"] = 8,
+								["absorbed"] = 0,
+							},
+							[357945] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 2430,
+								["targets"] = {
+									["Drudaas-Silvermoon"] = 20909,
+								},
+								["n_min"] = 0,
+								["counter"] = 10,
+								["overheal"] = 0,
+								["total"] = 20909,
+								["c_max"] = 0,
+								["id"] = 357945,
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["c_curado"] = 0,
+								["n_amt"] = 10,
+								["n_curado"] = 20909,
+								["totaldenied"] = 0,
 								["absorbed"] = 0,
 							},
 							[352871] = {
@@ -3132,9 +3177,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
+								["n_amt"] = 9,
 								["n_curado"] = 4248,
 								["totaldenied"] = 0,
-								["n_amt"] = 9,
 								["absorbed"] = 0,
 							},
 							[352857] = {
@@ -3156,65 +3201,32 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
+								["n_amt"] = 10,
 								["n_curado"] = 8416,
 								["totaldenied"] = 0,
-								["n_amt"] = 10,
-								["absorbed"] = 0,
-							},
-							[357945] = {
-								["c_amt"] = 0,
-								["totalabsorb"] = 0,
-								["targets_overheal"] = {
-								},
-								["n_max"] = 2430,
-								["targets"] = {
-									["Drudaas-Silvermoon"] = 20909,
-								},
-								["n_min"] = 0,
-								["counter"] = 10,
-								["overheal"] = 0,
-								["total"] = 20909,
-								["c_max"] = 0,
-								["id"] = 357945,
-								["targets_absorbs"] = {
-								},
-								["c_min"] = 0,
-								["c_curado"] = 0,
-								["n_curado"] = 20909,
-								["totaldenied"] = 0,
-								["n_amt"] = 10,
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
-					["classe"] = "UNGROUPPLAYER",
-					["heal_enemy_amt"] = 0,
-					["heal_enemy"] = {
-					},
-					["serial"] = "Player-3391-0AB97017",
-					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
-					["totaldenied"] = 0.011816,
-					["delay"] = 0,
-					["tipo"] = 2,
 				}, -- [1]
 				{
 					["flag_original"] = 1304,
-					["healing_from"] = {
-						["Sutarei-Silvermoon"] = true,
-						["Drudaas-Silvermoon"] = true,
+					["targets_overheal"] = {
+						["Elementior"] = 0,
+						["Drudaas-Silvermoon"] = 0,
+						["Sutarei-Silvermoon"] = 0,
 					},
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
+					["aID"] = "3391-0681E18D",
 					["totalover"] = 14324.008664,
 					["total_without_pet"] = 108901.008664,
 					["total"] = 108901.008664,
 					["targets_absorbs"] = {
-						["Sutarei-Silvermoon"] = 2802,
-						["Drudaas-Silvermoon"] = 5464,
+						["Sutarei-Silvermoon"] = 0,
+						["Drudaas-Silvermoon"] = 0,
 					},
 					["heal_enemy"] = {
 					},
@@ -3223,23 +3235,20 @@ _detalhes_database = {
 					["totalabsorb"] = 8266.008663999999,
 					["last_hps"] = 0,
 					["targets"] = {
-						["Elementior"] = 2563,
-						["Drudaas-Silvermoon"] = 83500,
-						["Sutarei-Silvermoon"] = 22838,
+						["Elementior"] = 0,
+						["Drudaas-Silvermoon"] = 0,
+						["Sutarei-Silvermoon"] = 0,
 					},
 					["totalover_without_pet"] = 0.008664,
 					["healing_taken"] = 24125.008664,
-					["start_time"] = 1649323636,
 					["fight_component"] = true,
 					["end_time"] = 1649323747,
-					["targets_overheal"] = {
-						["Elementior"] = 1821,
-						["Drudaas-Silvermoon"] = 12455,
-						["Sutarei-Silvermoon"] = 48,
+					["healing_from"] = {
+						["Sutarei-Silvermoon"] = true,
+						["Drudaas-Silvermoon"] = true,
 					},
 					["nome"] = "Sutarei-Silvermoon",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[77489] = {
 								["c_amt"] = 0,
@@ -3265,9 +3274,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
+								["n_amt"] = 52,
 								["n_curado"] = 18063,
 								["totaldenied"] = 0,
-								["n_amt"] = 52,
 								["absorbed"] = 0,
 							},
 							[110745] = {
@@ -3290,9 +3299,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
+								["n_amt"] = 4,
 								["n_curado"] = 3601,
 								["totaldenied"] = 0,
-								["n_amt"] = 4,
 								["absorbed"] = 0,
 							},
 							[368276] = {
@@ -3314,9 +3323,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
+								["n_amt"] = 4,
 								["n_curado"] = 1346,
 								["totaldenied"] = 0,
-								["n_amt"] = 4,
 								["absorbed"] = 0,
 							},
 							[270117] = {
@@ -3339,33 +3348,33 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 1107,
+								["n_amt"] = 11,
 								["n_curado"] = 3113,
 								["totaldenied"] = 0,
-								["n_amt"] = 11,
 								["absorbed"] = 0,
 							},
-							[139] = {
-								["c_amt"] = 2,
+							[2060] = {
+								["c_amt"] = 0,
 								["totalabsorb"] = 0,
 								["targets_overheal"] = {
 								},
-								["n_max"] = 615,
+								["n_max"] = 1909,
 								["targets"] = {
-									["Drudaas-Silvermoon"] = 9793,
+									["Sutarei-Silvermoon"] = 1909,
 								},
 								["n_min"] = 0,
-								["counter"] = 14,
+								["counter"] = 1,
 								["overheal"] = 0,
-								["total"] = 9793,
-								["c_max"] = 1230,
-								["id"] = 139,
+								["total"] = 1909,
+								["c_max"] = 0,
+								["id"] = 2060,
 								["targets_absorbs"] = {
 								},
 								["c_min"] = 0,
-								["c_curado"] = 2459,
-								["n_curado"] = 7334,
+								["c_curado"] = 0,
+								["n_amt"] = 1,
+								["n_curado"] = 1909,
 								["totaldenied"] = 0,
-								["n_amt"] = 12,
 								["absorbed"] = 0,
 							},
 							[2061] = {
@@ -3390,33 +3399,34 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 5180,
+								["n_amt"] = 3,
 								["n_curado"] = 12040,
 								["totaldenied"] = 0,
-								["n_amt"] = 3,
 								["absorbed"] = 0,
 							},
-							[269238] = {
-								["c_amt"] = 0,
+							[2050] = {
+								["c_amt"] = 1,
 								["totalabsorb"] = 0,
 								["targets_overheal"] = {
+									["Drudaas-Silvermoon"] = 9857,
 								},
-								["n_max"] = 400,
+								["n_max"] = 15028,
 								["targets"] = {
-									["Sutarei-Silvermoon"] = 2398,
+									["Drudaas-Silvermoon"] = 32642,
 								},
 								["n_min"] = 0,
-								["counter"] = 6,
-								["overheal"] = 0,
-								["total"] = 2398,
-								["c_max"] = 0,
-								["id"] = 269238,
+								["counter"] = 2,
+								["overheal"] = 9857,
+								["total"] = 32642,
+								["c_max"] = 17614,
+								["id"] = 2050,
 								["targets_absorbs"] = {
 								},
 								["c_min"] = 0,
-								["c_curado"] = 0,
-								["n_curado"] = 2398,
+								["c_curado"] = 17614,
+								["n_amt"] = 1,
+								["n_curado"] = 15028,
 								["totaldenied"] = 0,
-								["n_amt"] = 6,
 								["absorbed"] = 0,
 							},
 							[33110] = {
@@ -3439,9 +3449,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 1604,
+								["n_amt"] = 8,
 								["n_curado"] = 7839,
 								["totaldenied"] = 0,
-								["n_amt"] = 8,
 								["absorbed"] = 0,
 							},
 							[17] = {
@@ -3466,80 +3476,85 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
+								["n_amt"] = 28,
 								["n_curado"] = 8266,
 								["totaldenied"] = 0,
-								["n_amt"] = 28,
 								["absorbed"] = 0,
 							},
-							[2050] = {
-								["c_amt"] = 1,
-								["totalabsorb"] = 0,
-								["targets_overheal"] = {
-									["Drudaas-Silvermoon"] = 9857,
-								},
-								["n_max"] = 15028,
-								["targets"] = {
-									["Drudaas-Silvermoon"] = 32642,
-								},
-								["n_min"] = 0,
-								["counter"] = 2,
-								["overheal"] = 9857,
-								["total"] = 32642,
-								["c_max"] = 17614,
-								["id"] = 2050,
-								["targets_absorbs"] = {
-								},
-								["c_min"] = 0,
-								["c_curado"] = 17614,
-								["n_curado"] = 15028,
-								["totaldenied"] = 0,
-								["n_amt"] = 1,
-								["absorbed"] = 0,
-							},
-							[2060] = {
+							[269238] = {
 								["c_amt"] = 0,
 								["totalabsorb"] = 0,
 								["targets_overheal"] = {
 								},
-								["n_max"] = 1909,
+								["n_max"] = 400,
 								["targets"] = {
-									["Sutarei-Silvermoon"] = 1909,
+									["Sutarei-Silvermoon"] = 2398,
 								},
 								["n_min"] = 0,
-								["counter"] = 1,
+								["counter"] = 6,
 								["overheal"] = 0,
-								["total"] = 1909,
+								["total"] = 2398,
 								["c_max"] = 0,
-								["id"] = 2060,
+								["id"] = 269238,
 								["targets_absorbs"] = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_curado"] = 1909,
+								["n_amt"] = 6,
+								["n_curado"] = 2398,
 								["totaldenied"] = 0,
-								["n_amt"] = 1,
+								["absorbed"] = 0,
+							},
+							[139] = {
+								["c_amt"] = 2,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 615,
+								["targets"] = {
+									["Drudaas-Silvermoon"] = 9793,
+								},
+								["n_min"] = 0,
+								["counter"] = 14,
+								["overheal"] = 0,
+								["total"] = 9793,
+								["c_max"] = 1230,
+								["id"] = 139,
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["c_curado"] = 2459,
+								["n_amt"] = 12,
+								["n_curado"] = 7334,
+								["totaldenied"] = 0,
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
-					["aID"] = "3391-0681E18D",
-					["classe"] = "PRIEST",
-					["custom"] = 0,
-					["last_event"] = 0,
+					["tipo"] = 2,
 					["spec"] = 257,
 					["totaldenied"] = 0.008664,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["heal_enemy_amt"] = 0,
+					["start_time"] = 1649323636,
 					["delay"] = 0,
-					["tipo"] = 2,
+					["classe"] = "PRIEST",
 				}, -- [2]
 				{
 					["flag_original"] = 1297,
-					["targets_overheal"] = {
+					["healing_from"] = {
+						["Elementior"] = true,
+						["Healing Stream Totem <Elementior>"] = true,
+						["Drudaas-Silvermoon"] = true,
+						["Sutarei-Silvermoon"] = true,
 					},
 					["pets"] = {
 						"Healing Stream Totem <Elementior>", -- [1]
 					},
 					["iniciar_hps"] = false,
-					["aID"] = "1301-0B0D2A8D",
+					["heal_enemy_amt"] = 0,
 					["totalover"] = 0.006884,
 					["total_without_pet"] = 991.006884,
 					["total"] = 3436.006884,
@@ -3552,23 +3567,18 @@ _detalhes_database = {
 					["totalabsorb"] = 0.006884,
 					["last_hps"] = 0,
 					["targets"] = {
-						["Elementior"] = 1975,
-						["Drudaas-Silvermoon"] = 1461,
+						["Elementior"] = 0,
+						["Drudaas-Silvermoon"] = 0,
 					},
 					["totalover_without_pet"] = 0.006884,
 					["healing_taken"] = 8095.006883999999,
 					["fight_component"] = true,
 					["end_time"] = 1649323747,
-					["start_time"] = 1649323718,
-					["healing_from"] = {
-						["Elementior"] = true,
-						["Healing Stream Totem <Elementior>"] = true,
-						["Drudaas-Silvermoon"] = true,
-						["Sutarei-Silvermoon"] = true,
+					["targets_overheal"] = {
 					},
+					["last_event"] = 0,
 					["nome"] = "Elementior",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[8004] = {
 								["c_amt"] = 0,
@@ -3589,31 +3599,32 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
+								["n_amt"] = 1,
 								["n_curado"] = 991,
 								["totaldenied"] = 0,
-								["n_amt"] = 1,
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["heal_enemy_amt"] = 0,
-					["classe"] = "SHAMAN",
+					["aID"] = "1301-0B0D2A8D",
+					["totaldenied"] = 0.006884,
 					["custom"] = 0,
 					["tipo"] = 2,
 					["spec"] = 262,
-					["totaldenied"] = 0.006884,
+					["start_time"] = 1649323718,
 					["delay"] = 0,
-					["last_event"] = 0,
+					["classe"] = "SHAMAN",
 				}, -- [3]
 				{
 					["flag_original"] = 2600,
-					["healing_from"] = {
+					["targets_overheal"] = {
 					},
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["aID"] = "3527",
+					["classe"] = "UNKNOW",
 					["totalover"] = 0.008125,
 					["total_without_pet"] = 2445.008125,
 					["total"] = 2445.008125,
@@ -3626,20 +3637,16 @@ _detalhes_database = {
 					["totalabsorb"] = 0.008125,
 					["last_hps"] = 0,
 					["targets"] = {
-						["Drudaas-Silvermoon"] = 1461,
-						["Elementior"] = 984,
+						["Drudaas-Silvermoon"] = 0,
+						["Elementior"] = 0,
 					},
 					["totalover_without_pet"] = 0.008125,
 					["healing_taken"] = 0.008125,
-					["last_event"] = 0,
 					["fight_component"] = true,
 					["end_time"] = 1649323747,
-					["targets_overheal"] = {
-					},
 					["ownerName"] = "Elementior",
 					["nome"] = "Healing Stream Totem <Elementior>",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[52042] = {
 								["c_amt"] = 0,
@@ -3661,29 +3668,34 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
+								["n_amt"] = 10,
 								["n_curado"] = 2445,
 								["totaldenied"] = 0,
-								["n_amt"] = 10,
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
-					["classe"] = "UNKNOW",
-					["heal_enemy_amt"] = 0,
-					["custom"] = 0,
+					["healing_from"] = {
+					},
 					["tipo"] = 2,
-					["start_time"] = 1649323727,
 					["totaldenied"] = 0.008125,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["aID"] = "3527",
+					["start_time"] = 1649323727,
 					["delay"] = 0,
+					["heal_enemy_amt"] = 0,
 				}, -- [4]
 				{
 					["flag_original"] = 8472,
-					["targets_overheal"] = {
+					["healing_from"] = {
+						["Drudaas-Silvermoon"] = true,
 					},
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
+					["classe"] = "PET",
 					["totalover"] = 0.009766,
 					["total_without_pet"] = 0.009766,
 					["total"] = 0.009766,
@@ -3699,25 +3711,24 @@ _detalhes_database = {
 					},
 					["totalover_without_pet"] = 0.009766,
 					["healing_taken"] = 393.009766,
-					["last_event"] = 0,
 					["end_time"] = 1649323747,
-					["healing_from"] = {
-						["Drudaas-Silvermoon"] = true,
-					},
 					["ownerName"] = "Drudaas-Silvermoon",
 					["nome"] = "Treant <Drudaas-Silvermoon>",
-					["aID"] = "103822",
-					["classe"] = "PET",
-					["custom"] = 0,
-					["tipo"] = 2,
-					["start_time"] = 1649323744,
-					["totaldenied"] = 0.009766,
-					["delay"] = 0,
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 3,
 					},
+					["totaldenied"] = 0.009766,
+					["targets_overheal"] = {
+					},
+					["aID"] = "103822",
+					["custom"] = 0,
+					["last_event"] = 0,
+					["heal_enemy_amt"] = 0,
+					["start_time"] = 1649323744,
+					["delay"] = 0,
+					["tipo"] = 2,
 				}, -- [5]
 			},
 		}, -- [2]
@@ -3726,7 +3737,7 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["received"] = 0.011926,
-					["resource"] = 92.011926,
+					["resource"] = 184.018191,
 					["targets"] = {
 					},
 					["pets"] = {
@@ -3734,61 +3745,61 @@ _detalhes_database = {
 					["powertype"] = 0,
 					["classe"] = "SHAMAN",
 					["passiveover"] = 0.005661,
-					["resource_type"] = 11,
 					["fight_component"] = true,
-					["total"] = 0.011926,
-					["tipo"] = 3,
+					["resource_type"] = 11,
 					["totalover"] = 0.005661,
 					["nome"] = "Elementior",
 					["spells"] = {
-						["tipo"] = 7,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["spec"] = 262,
-					["flag_original"] = 1297,
-					["alternatepower"] = 0.011926,
-					["last_event"] = 0,
 					["aID"] = "1301-0B0D2A8D",
+					["last_event"] = 0,
+					["alternatepower"] = 0.011926,
+					["tipo"] = 3,
+					["flag_original"] = 1297,
+					["spec"] = 262,
 					["serial"] = "Player-1301-0B0D2A8D",
+					["total"] = 0.011926,
 				}, -- [1]
 				{
 					["received"] = 5.0055,
-					["resource"] = 413.0055,
+					["resource"] = 826.008981,
 					["targets"] = {
-						["Drudaas-Silvermoon"] = 5,
+						["Drudaas-Silvermoon"] = 0,
 					},
 					["pets"] = {
 					},
 					["powertype"] = 0,
 					["classe"] = "UNGROUPPLAYER",
 					["passiveover"] = 0.002019,
-					["resource_type"] = 8,
 					["fight_component"] = true,
-					["total"] = 5.0055,
-					["tipo"] = 3,
-					["totalover"] = 0.002019,
+					["resource_type"] = 8,
 					["nome"] = "Drudaas-Silvermoon",
 					["spells"] = {
-						["tipo"] = 7,
 						["_ActorTable"] = {
 							[77758] = {
 								["total"] = 5,
 								["id"] = 77758,
 								["totalover"] = 0,
 								["targets"] = {
-									["Drudaas-Silvermoon"] = 5,
+									["Drudaas-Silvermoon"] = 0,
 								},
 								["counter"] = 1,
 							},
 						},
+						["tipo"] = 7,
 					},
-					["flag_original"] = 1304,
-					["alternatepower"] = 0.0055,
-					["last_event"] = 0,
+					["totalover"] = 0.002019,
 					["aID"] = "3391-0AB97017",
+					["last_event"] = 0,
+					["tipo"] = 3,
+					["alternatepower"] = 0.0055,
+					["flag_original"] = 1304,
 					["serial"] = "Player-3391-0AB97017",
+					["total"] = 5.0055,
 				}, -- [2]
 			},
 		}, -- [3]
@@ -3798,26 +3809,25 @@ _detalhes_database = {
 				{
 					["flag_original"] = 1047,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[188389] = {
-								["refreshamt"] = 9,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 1,
 								["id"] = 188389,
 								["uptime"] = 99,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 9,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["pets"] = {
 						"Healing Stream Totem <Elementior>", -- [1]
 						"Capacitor Totem <Elementior>", -- [2]
 					},
 					["cc_done_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[118905] = {
 								["id"] = 118905,
@@ -3827,68 +3837,74 @@ _detalhes_database = {
 								["counter"] = 1,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["classe"] = "SHAMAN",
 					["buff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[225788] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 225788,
 								["uptime"] = 110,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[77762] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 4,
 								["appliedamt"] = 4,
 								["id"] = 77762,
 								["uptime"] = 40,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["fight_component"] = true,
 					["debuff_uptime"] = 99,
+					["last_event"] = 0,
+					["cc_done"] = 1.009708,
 					["debuff_uptime_targets"] = {
 					},
-					["cc_done"] = 1.009708,
-					["nome"] = "Elementior",
 					["spec"] = 262,
 					["grupo"] = true,
 					["spell_cast"] = {
+						[73899] = 2,
 						[188443] = 5,
-						[5394] = 1,
-						[8004] = 1,
-						[188389] = 10,
 						[192058] = 1,
+						[188389] = 10,
+						[8004] = 1,
 						[196840] = 5,
 						[188196] = 22,
-						[73899] = 2,
+						[5394] = 1,
 					},
 					["buff_uptime_targets"] = {
 					},
-					["buff_uptime"] = 150,
+					["aID"] = "1301-0B0D2A8D",
 					["tipo"] = 4,
 					["cc_done_targets"] = {
 						["Ravenous Ranishu"] = 1,
 					},
-					["aID"] = "1301-0B0D2A8D",
+					["buff_uptime"] = 150,
 					["serial"] = "Player-1301-0B0D2A8D",
-					["last_event"] = 0,
+					["nome"] = "Elementior",
 				}, -- [1]
 				{
 					["fight_component"] = true,
-					["last_event"] = 0,
+					["aID"] = "3391-0AB97017",
 					["nome"] = "Drudaas-Silvermoon",
 					["pets"] = {
 					},
+					["tipo"] = 4,
+					["flag_original"] = 1304,
+					["last_event"] = 0,
+					["classe"] = "UNGROUPPLAYER",
+					["serial"] = "Player-3391-0AB97017",
 					["spell_cast"] = {
 						[93402] = 3,
 						[191034] = 4,
@@ -3898,39 +3914,39 @@ _detalhes_database = {
 						[194153] = 9,
 						[205636] = 2,
 						[8921] = 2,
-						[102560] = 1,
 						[323764] = 1,
+						[102560] = 1,
 					},
-					["flag_original"] = 1304,
-					["aID"] = "3391-0AB97017",
-					["classe"] = "UNGROUPPLAYER",
-					["serial"] = "Player-3391-0AB97017",
-					["tipo"] = 4,
 				}, -- [2]
 				{
 					["fight_component"] = true,
-					["last_event"] = 0,
+					["aID"] = "139614",
 					["nome"] = "Ravenous Ranishu",
 					["pets"] = {
 					},
+					["tipo"] = 4,
+					["flag_original"] = 8776,
+					["last_event"] = 0,
+					["classe"] = "PET",
+					["serial"] = "Creature-0-3102-1642-38-139614-0000CEAE70",
 					["spell_cast"] = {
 						[275996] = 24,
 						[276036] = 23,
 						[276000] = 12,
 					},
-					["flag_original"] = 8776,
-					["aID"] = "139614",
-					["classe"] = "PET",
-					["serial"] = "Creature-0-3102-1642-38-139614-0000CEAE70",
-					["tipo"] = 4,
 				}, -- [3]
 				{
-					["flag_original"] = 1304,
+					["fight_component"] = true,
+					["classe"] = "PRIEST",
 					["cc_done"] = 1.0111,
 					["nome"] = "Sutarei-Silvermoon",
 					["spec"] = 257,
-					["fight_component"] = true,
-					["classe"] = "PRIEST",
+					["flag_original"] = 1304,
+					["cc_done_targets"] = {
+						["Krolusk Dunecrawler"] = 1,
+					},
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[139] = 2,
 						[2050] = 2,
@@ -3940,14 +3956,12 @@ _detalhes_database = {
 						[88625] = 3,
 						[2061] = 5,
 						[585] = 17,
-						[14914] = 7,
-						[110744] = 1,
-						[17] = 5,
 						[2060] = 1,
+						[17] = 5,
+						[110744] = 1,
+						[14914] = 7,
 					},
-					["tipo"] = 4,
 					["cc_done_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[200200] = {
 								["id"] = 200200,
@@ -3957,64 +3971,61 @@ _detalhes_database = {
 								["counter"] = 1,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["last_event"] = 0,
-					["pets"] = {
-					},
-					["cc_done_targets"] = {
-						["Krolusk Dunecrawler"] = 1,
-					},
+					["tipo"] = 4,
 					["serial"] = "Player-3391-0681E18D",
 					["aID"] = "3391-0681E18D",
 				}, -- [4]
 				{
 					["monster"] = true,
-					["classe"] = "UNKNOW",
+					["flag_original"] = 68168,
+					["nome"] = "Dunegorger Kraulok",
+					["tipo"] = 4,
 					["spell_cast"] = {
 						[276046] = 3,
 						[275175] = 6,
 						[275200] = 3,
 					},
-					["nome"] = "Dunegorger Kraulok",
+					["fight_component"] = true,
+					["last_event"] = 0,
+					["classe"] = "UNKNOW",
+					["aID"] = "",
+					["serial"] = "Vehicle-0-3102-1642-38-138794-00004EAD9A",
 					["pets"] = {
 					},
-					["fight_component"] = true,
-					["flag_original"] = 68168,
-					["aID"] = "",
-					["last_event"] = 0,
-					["serial"] = "Vehicle-0-3102-1642-38-138794-00004EAD9A",
-					["tipo"] = 4,
 				}, -- [5]
 				{
 					["fight_component"] = true,
+					["tipo"] = 4,
 					["ownerName"] = "Elementior",
 					["nome"] = "Healing Stream Totem <Elementior>",
-					["aID"] = "3527",
 					["pets"] = {
 					},
-					["flag_original"] = 8465,
+					["last_event"] = 0,
 					["classe"] = "PET",
-					["tipo"] = 4,
+					["aID"] = "3527",
 					["spell_cast"] = {
 						[5672] = 1,
 					},
 					["serial"] = "Creature-0-3102-1642-38-3527-00004EAEAC",
-					["last_event"] = 0,
+					["flag_original"] = 8465,
 				}, -- [6]
 				{
 					["flag_original"] = 8465,
 					["aID"] = "61245",
-					["ownerName"] = "Elementior",
 					["cc_done"] = 1.016183,
 					["nome"] = "Capacitor Totem <Elementior>",
 					["classe"] = "PET",
-					["pets"] = {
-					},
+					["ownerName"] = "Elementior",
 					["cc_done_targets"] = {
 						["Ravenous Ranishu"] = 1,
 					},
+					["spell_cast"] = {
+						[118905] = 1,
+					},
 					["cc_done_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[118905] = {
 								["id"] = 118905,
@@ -4024,29 +4035,29 @@ _detalhes_database = {
 								["counter"] = 1,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["tipo"] = 4,
-					["spell_cast"] = {
-						[118905] = 1,
+					["pets"] = {
 					},
 					["serial"] = "Creature-0-3102-1642-38-61245-00004EAEAE",
 					["last_event"] = 0,
 				}, -- [7]
 				{
 					["monster"] = true,
-					["classe"] = "UNKNOW",
+					["flag_original"] = 2632,
+					["nome"] = "Krolusk Dunecrawler",
+					["tipo"] = 4,
 					["spell_cast"] = {
 						[261711] = 2,
 					},
-					["nome"] = "Krolusk Dunecrawler",
+					["fight_component"] = true,
+					["last_event"] = 0,
+					["classe"] = "UNKNOW",
+					["aID"] = "124654",
+					["serial"] = "Creature-0-3102-1642-38-124654-00004EAEB6",
 					["pets"] = {
 					},
-					["fight_component"] = true,
-					["flag_original"] = 2632,
-					["aID"] = "124654",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-3102-1642-38-124654-00004EAEB6",
-					["tipo"] = 4,
 				}, -- [8]
 			},
 		}, -- [4]
@@ -4059,14 +4070,14 @@ _detalhes_database = {
 		},
 		["raid_roster_indexed"] = {
 		},
+		["cleu_timeline"] = {
+		},
 		["tempo_start"] = 1649323636,
 		["last_events_tables"] = {
 		},
 		["alternate_power"] = {
 		},
 		["combat_counter"] = 449,
-		["spells_cast_timeline"] = {
-		},
 		["totals"] = {
 			660038.088146, -- [1]
 			164733.045349, -- [2]
@@ -4074,21 +4085,21 @@ _detalhes_database = {
 				154.8036741907349, -- [1]
 				[0] = 115.013,
 				["alternatepower"] = 0,
-				[3] = 0,
 				[6] = 0,
+				[3] = 0,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["debuff_uptime"] = 0,
-				["cooldowns_defensive"] = 0,
-				["interrupt"] = 0,
-				["dispell"] = 0,
-				["cc_break"] = 0,
 				["dead"] = 0,
+				["cc_break"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["dispell"] = 0,
+				["cooldowns_defensive"] = 0,
 			}, -- [4]
-			["frags_total"] = 0,
 			["voidzone_damage"] = 0,
+			["frags_total"] = 0,
 		},
 		["player_last_events"] = {
 		},
@@ -4099,8 +4110,41 @@ _detalhes_database = {
 		},
 		["data_inicio"] = "12:27:17",
 		["end_time"] = 13205.572,
-		["cleu_events"] = {
-			["n"] = 1,
+		["totals_grupo"] = {
+			30016.00466, -- [1]
+			3436.004956, -- [2]
+			{
+				0, -- [1]
+				[0] = 0.006265,
+				["alternatepower"] = 0,
+				[6] = 0,
+				[3] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["dead"] = 0,
+				["cc_break"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["dispell"] = 0,
+				["cooldowns_defensive"] = 0,
+			}, -- [4]
+		},
+		["overall_refreshed"] = true,
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["damage"] = {
+			},
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage_section"] = {
+			},
 		},
 		["segments_added"] = {
 			{
@@ -4110,65 +4154,37 @@ _detalhes_database = {
 				["clock"] = "12:27:17",
 			}, -- [1]
 		},
-		["totals_grupo"] = {
-			30016.00466, -- [1]
-			3436.004956, -- [2]
-			{
-				0, -- [1]
-				[0] = 0.006265,
-				["alternatepower"] = 0,
-				[3] = 0,
-				[6] = 0,
-			}, -- [3]
-			{
-				["buff_uptime"] = 0,
-				["ress"] = 0,
-				["debuff_uptime"] = 0,
-				["cooldowns_defensive"] = 0,
-				["interrupt"] = 0,
-				["dispell"] = 0,
-				["cc_break"] = 0,
-				["dead"] = 0,
-			}, -- [4]
-		},
-		["frags"] = {
+		["hasSaved"] = true,
+		["spells_cast_timeline"] = {
 		},
 		["data_fim"] = "12:29:07",
 		["overall_enemy_name"] = "Dunegorger Kraulok",
 		["CombatSkillCache"] = {
 		},
-		["cleu_timeline"] = {
+		["frags"] = {
 		},
 		["start_time"] = 13095.295,
 		["TimeData"] = {
 			["Raid Damage Done"] = {
 			},
 		},
-		["PhaseData"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-			}, -- [1]
-			["heal_section"] = {
-			},
-			["heal"] = {
-			},
-			["damage_section"] = {
-			},
-			["damage"] = {
-			},
+		["cleu_events"] = {
+			["n"] = 1,
 		},
 	},
-	["combat_counter"] = 450,
-	["announce_firsthit"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
+	["character_data"] = {
+		["logons"] = 29,
 	},
-	["last_day"] = "07",
+	["benchmark_db"] = {
+		["frame"] = {
+		},
+	},
+	["cached_talents"] = {
+	},
 	["announce_cooldowns"] = {
+		["enabled"] = false,
 		["ignored_cooldowns"] = {
 		},
-		["enabled"] = false,
 		["custom"] = "",
 		["channel"] = "RAID",
 	},
@@ -4176,16 +4192,9 @@ _detalhes_database = {
 		["last_difficulty"] = 15,
 		["last_raid"] = "",
 	},
-	["announce_damagerecord"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
+	["cached_roles"] = {
 	},
 	["cached_specs"] = {
-		["Player-1596-0F31DFD0"] = 264,
-		["Player-1597-030D383F"] = 64,
-		["Player-1597-06C0A718"] = 262,
-		["Player-3391-0681E18D"] = 257,
 		["Player-1301-0B0D2A8D"] = 262,
-		["Player-1596-07519A33"] = 72,
 	},
 }

@@ -266,3 +266,4 @@ NPCTime: enabled
 PremadeSort: enabled
 DBM-Sepulcher: disabled
 DBM-VPVEM: disabled
+kExtraBossFrames: disabled

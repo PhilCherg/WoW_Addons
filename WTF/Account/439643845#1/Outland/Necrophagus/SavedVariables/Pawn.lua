@@ -7,8 +7,8 @@ PawnOptions = {
 	["ItemLevels"] = {
 		{
 			["ID"] = 188889,
-			["Level"] = 252,
-			["Link"] = "|cffa335ee|Hitem:188889::::::::60:267::3:6:7189:6652:7579:8151:1472:6646::::::|h[Horns of the Demon Star]|h|r",
+			["Level"] = 259,
+			["Link"] = "|cffa335ee|Hitem:188889::::::::60:267::81:5:8116:6652:7578:8151:1479::::::|h[Horns of the Demon Star]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 178827,
