@@ -91,6 +91,7 @@ PawnOptions = {
 	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
 	["LastPlayerFullName"] = "Necrophagus-Outland",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128941] = {
 			["Relics"] = {
@@ -132,7 +133,6 @@ PawnOptions = {
 			["Name"] = "Underlight Angler",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "WARLOCK",

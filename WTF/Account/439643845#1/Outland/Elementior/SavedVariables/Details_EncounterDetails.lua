@@ -1052,6 +1052,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "\"Captain\" Cookie",
 		},
+		[64010] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Deathsworn Zealot",
+		},
 		[113616] = {
 			["school"] = 1,
 			["token"] = {
@@ -1268,6 +1276,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Crusher Tentacle",
 		},
+		[64152] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Corruptor Tentacle",
+		},
+		[63038] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Guardian of Yogg-Saron",
+		},
 		[93914] = {
 			["school"] = 1,
 			["token"] = {
@@ -1328,12 +1351,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dark Shaman Acolyte",
 		},
-		[63134] = {
+		[64156] = {
 			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Sara",
+			["source"] = "Corruptor Tentacle",
 		},
 		[93691] = {
 			["school"] = 32,
@@ -1386,12 +1412,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "\"Captain\" Cookie",
 		},
-		[119433] = {
-			["school"] = 4,
+		[86729] = {
+			["school"] = 1,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Slagmaw",
+			["source"] = "Randolph Moloch",
 		},
 		[55964] = {
 			["school"] = 1,
@@ -1402,13 +1429,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Randolph Moloch",
 		},
-		[64156] = {
+		[63134] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Corruptor Tentacle",
+			["source"] = "Sara",
 		},
 		[93468] = {
 			["school"] = 2,
@@ -1464,15 +1490,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mordresh Fire Eye",
 		},
-		[90602] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "\"Captain\" Cookie",
-		},
 		[16100] = {
 			["school"] = 1,
 			["token"] = {
@@ -1481,6 +1498,15 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Tinkerer Gizlock",
+		},
+		[90602] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "\"Captain\" Cookie",
 		},
 		[113653] = {
 			["school"] = 4,
@@ -1564,15 +1590,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Eldreth Seether",
 		},
-		[111610] = {
-			["school"] = 1,
+		[21068] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Instructor Chillheart",
+			["source"] = "Corruptor",
 		},
 		[150082] = {
 			["school"] = 8,
@@ -1583,13 +1610,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Aarux",
 		},
-		[113143] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[111610] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Darkmaster Gandling",
+			["source"] = "Instructor Chillheart",
 		},
 		[93629] = {
 			["school"] = 32,
@@ -1623,16 +1652,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Razorfen Huntmaster",
 		},
-		[21068] = {
+		[113143] = {
 			["school"] = 32,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Corruptor",
+			["source"] = "Darkmaster Gandling",
 		},
 		[9532] = {
 			["school"] = 8,
@@ -1667,14 +1693,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Prince Tortheldrin",
 		},
-		[88839] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Admiral Ripsnarl",
-		},
 		[151475] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -1689,20 +1707,29 @@ EncounterDetailsDB = {
 		},
 		[64157] = {
 			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Corruptor Tentacle",
 		},
-		[64173] = {
-			["school"] = 8,
-			["type"] = "BUFF",
+		[88839] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Brain of Yogg-Saron",
+			["source"] = "Admiral Ripsnarl",
+		},
+		[150914] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Hunter Bonetusk",
 		},
 		[22899] = {
 			["school"] = 32,
@@ -1794,15 +1821,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rotten Corn",
 		},
-		[12167] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Lord Serpentis",
-		},
 		[15744] = {
 			["school"] = 4,
 			["type"] = "DEBUFF",
@@ -1812,6 +1830,15 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Searing Destroyer",
+		},
+		[12167] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Lord Serpentis",
 		},
 		[151810] = {
 			["school"] = 16,
@@ -1989,14 +2016,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Razorfen Beast Stalker",
 		},
-		[7964] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[113620] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Lord Vyletongue",
+			["source"] = "Book Case",
 		},
 		[88490] = {
 			["school"] = 1,
@@ -2015,13 +2040,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Foe Reaper 5000",
 		},
-		[113620] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Book Case",
-		},
 		[22919] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -2038,27 +2056,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Adarogg",
-		},
-		[93952] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Odo the Blindwatcher",
-		},
-		[114009] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-		},
-		[65719] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Guardian of Yogg-Saron",
 		},
 		[13341] = {
 			["school"] = 4,
@@ -2077,20 +2074,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Druid of the Fang",
 		},
-		[57755] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Tirana",
-		},
 		[149834] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Mushlump",
+		},
+		[65719] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Guardian of Yogg-Saron",
 		},
 		[90560] = {
 			["school"] = 1,
@@ -2100,6 +2097,39 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "\"Captain\" Cookie",
+		},
+		[150601] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Death Speaker Blackthorn",
+		},
+		[57755] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Tirana",
+		},
+		[93952] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Odo the Blindwatcher",
+		},
+		[149835] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Mushlump",
 		},
 		[93505] = {
 			["school"] = 16,
@@ -2118,24 +2148,18 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Scarlet Defender",
 		},
-		[150601] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[114009] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Death Speaker Blackthorn",
-		},
-		[93697] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Lord Walden",
+		},
+		[113626] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Flameweaver Koegler",
 		},
 		[93857] = {
 			["school"] = 32,
@@ -2144,6 +2168,33 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Baron Silverlaine",
+		},
+		[5413] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Corruptor",
+		},
+		[93697] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Lord Walden",
+		},
+		[151432] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Groyat, the Blind Hunter",
 		},
 		[113690] = {
 			["school"] = 4,
@@ -2157,32 +2208,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Flameweaver Koegler",
 		},
-		[149835] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Mushlump",
-		},
-		[151432] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Groyat, the Blind Hunter",
-		},
-		[5413] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Corruptor",
-		},
 		[151534] = {
 			["school"] = 1,
 			["token"] = {
@@ -2191,12 +2216,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Charlga Razorflank",
 		},
-		[113626] = {
+		[7964] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Flameweaver Koegler",
+			["source"] = "Lord Vyletongue",
 		},
 		[89769] = {
 			["school"] = 4,
@@ -2445,12 +2472,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dark Shaman Koranthal",
 		},
-		[150914] = {
-			["school"] = 1,
+		[64173] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Hunter Bonetusk",
+			["source"] = "Brain of Yogg-Saron",
 		},
 		[151564] = {
 			["school"] = 16,
@@ -2609,13 +2638,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sara",
 		},
-		[86729] = {
-			["school"] = 1,
+		[119433] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Randolph Moloch",
+			["source"] = "Slagmaw",
 		},
 		[16128] = {
 			["school"] = 8,
@@ -2662,239 +2690,203 @@ EncounterDetailsDB = {
 	["emotes"] = {
 		{
 			{
-				3.628000000000611, -- [1]
-				"%s begins to boil upon touching Elementior!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
+				5.10399999999936, -- [1]
+				"I am the lucid dream.", -- [2]
+				"Sara", -- [3]
+				7, -- [4]
 			}, -- [1]
 			{
-				5.829000000000633, -- [1]
-				"Yes! YES! Show them no mercy! Give no pause to your attacks!", -- [2]
-				"Sara", -- [3]
+				9.147000000004482, -- [1]
+				"What a battle! Did you see that, Rhydian?!", -- [2]
+				"Brann Bronzebeard", -- [3]
 				7, -- [4]
 			}, -- [2]
 			{
-				20.83200000000034, -- [1]
-				"I am the lucid dream.", -- [2]
+				9.989000000001397, -- [1]
+				"The monster in your nightmares.", -- [2]
 				"Sara", -- [3]
 				7, -- [4]
 			}, -- [3]
 			{
-				23.67600000000039, -- [1]
-				"What a battle! Did you see that, Rhydian?!", -- [2]
-				"Brann Bronzebeard", -- [3]
+				14.70999999999913, -- [1]
+				"The fiend of a thousand faces.", -- [2]
+				"Sara", -- [3]
 				7, -- [4]
 			}, -- [4]
 			{
-				25.69400000000042, -- [1]
-				"The monster in your nightmares.", -- [2]
-				"Sara", -- [3]
+				18.11100000000442, -- [1]
+				"Our friends fought well, Brann, but we're not done yet.", -- [2]
+				"Archmage Rhydian", -- [3]
 				7, -- [4]
 			}, -- [5]
 			{
-				30.53900000000067, -- [1]
-				"The fiend of a thousand faces.", -- [2]
+				19.72899999999936, -- [1]
+				"Cower before my true form.", -- [2]
 				"Sara", -- [3]
 				7, -- [4]
 			}, -- [6]
 			{
-				32.57099999999991, -- [1]
-				"Our friends fought well, Brann, but we're not done yet.", -- [2]
-				"Archmage Rhydian", -- [3]
-				7, -- [4]
-			}, -- [7]
-			{
-				35.39500000000044, -- [1]
-				"Cower before my true form.", -- [2]
-				"Sara", -- [3]
-				7, -- [4]
-			}, -- [8]
-			{
-				37.82900000000063, -- [1]
+				22.54400000000169, -- [1]
 				"BOW DOWN BEFORE THE GOD OF DEATH!", -- [2]
 				"Yogg-Saron", -- [3]
 				7, -- [4]
-			}, -- [9]
+			}, -- [7]
 			{
-				41.07600000000002, -- [1]
+				26.58400000000256, -- [1]
 				"Perhaps so, but it's only a matter of time until we break back into Ulduar. Any luck finding a way to teleport inside?", -- [2]
 				"Brann Bronzebeard", -- [3]
 				7, -- [4]
-			}, -- [10]
+			}, -- [8]
 			{
-				46.38299999999981, -- [1]
+				29.85199999999895, -- [1]
 				"Portals open into %s's mind!", -- [2]
 				"Yogg-Saron", -- [3]
 				1, -- [4]
-			}, -- [11]
+			}, -- [9]
 			{
-				46.38299999999981, -- [1]
+				29.85199999999895, -- [1]
 				"MADNESS WILL CONSUME YOU!", -- [2]
 				"Yogg-Saron", -- [3]
 				7, -- [4]
+			}, -- [10]
+			{
+				33.82400000000052, -- [1]
+				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 2%% Sanity Lost|r", -- [2]
+				"Elementior", -- [3]
+				2, -- [4]
+			}, -- [11]
+			{
+				34.83699999999953, -- [1]
+				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 2%% Sanity Lost|r", -- [2]
+				"Elementior", -- [3]
+				2, -- [4]
 			}, -- [12]
 			{
-				49.59799999999996, -- [1]
+				35.08000000000175, -- [1]
 				"None at all. I suspect it has something to do with that giant mechanical construct that our scouts spotted in front of the gate.", -- [2]
 				"Archmage Rhydian", -- [3]
 				7, -- [4]
 			}, -- [13]
 			{
-				50.36700000000019, -- [1]
+				35.84500000000116, -- [1]
 				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 2%% Sanity Lost|r", -- [2]
 				"Elementior", -- [3]
 				2, -- [4]
 			}, -- [14]
 			{
-				51.29899999999998, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 2%% Sanity Lost|r", -- [2]
-				"Elementior", -- [3]
-				2, -- [4]
+				37.14199999999983, -- [1]
+				"Your resilience is admirable.", -- [2]
+				"The Lich King", -- [3]
+				4, -- [4]
 			}, -- [15]
 			{
-				52.40099999999984, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 2%% Sanity Lost|r", -- [2]
-				"Elementior", -- [3]
-				2, -- [4]
+				41.48300000000018, -- [1]
+				"Tremble, mortals, before the coming of the end!", -- [2]
+				"Sara", -- [3]
+				7, -- [4]
 			}, -- [16]
 			{
-				54.36200000000008, -- [1]
+				41.83899999999994, -- [1]
 				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 2%% Sanity Lost|r", -- [2]
 				"Elementior", -- [3]
 				2, -- [4]
 			}, -- [17]
 			{
-				55.36099999999988, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 2%% Sanity Lost|r", -- [2]
-				"Elementior", -- [3]
-				2, -- [4]
+				43.2410000000018, -- [1]
+				"Arrrrrrgh!", -- [2]
+				"Immolated Champion", -- [3]
+				7, -- [4]
 			}, -- [18]
 			{
-				55.36099999999988, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 2%% Sanity Lost|r", -- [2]
-				"Elementior", -- [3]
-				2, -- [4]
+				43.62099999999919, -- [1]
+				"Oi. So we'll have to contend with that thing after all then?", -- [2]
+				"Brann Bronzebeard", -- [3]
+				7, -- [4]
 			}, -- [19]
 			{
-				56.35400000000027, -- [1]
+				46.85800000000018, -- [1]
 				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 2%% Sanity Lost|r", -- [2]
 				"Elementior", -- [3]
 				2, -- [4]
 			}, -- [20]
 			{
-				57.35500000000047, -- [1]
+				47.83099999999831, -- [1]
 				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 2%% Sanity Lost|r", -- [2]
 				"Elementior", -- [3]
 				2, -- [4]
 			}, -- [21]
 			{
-				57.5659999999998, -- [1]
-				"Tremble, mortals, before the coming of the end!", -- [2]
-				"Sara", -- [3]
-				7, -- [4]
+				48.81999999999971, -- [1]
+				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 2%% Sanity Lost|r", -- [2]
+				"Elementior", -- [3]
+				2, -- [4]
 			}, -- [22]
 			{
-				58.41400000000067, -- [1]
-				"Oi. So we'll have to contend with that thing after all then?", -- [2]
-				"Brann Bronzebeard", -- [3]
-				7, -- [4]
+				49.32300000000396, -- [1]
+				"I'm not afraid of you!", -- [2]
+				"Immolated Champion", -- [3]
+				4, -- [4]
 			}, -- [23]
 			{
-				58.41400000000067, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 2%% Sanity Lost|r", -- [2]
-				"Elementior", -- [3]
-				2, -- [4]
+				49.6730000000025, -- [1]
+				"The illusion shatters and a path to the central chamber opens!", -- [2]
+				"Brain of Yogg-Saron", -- [3]
+				1, -- [4]
 			}, -- [24]
 			{
-				62.3710000000001, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 2%% Sanity Lost|r", -- [2]
-				"Elementior", -- [3]
-				2, -- [4]
-			}, -- [25]
-			{
-				63.36200000000008, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 2%% Sanity Lost|r", -- [2]
-				"Elementior", -- [3]
-				2, -- [4]
-			}, -- [26]
-			{
-				64.36599999999999, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 2%% Sanity Lost|r", -- [2]
-				"Elementior", -- [3]
-				2, -- [4]
-			}, -- [27]
-			{
-				66.60500000000047, -- [1]
+				52.15200000000186, -- [1]
 				"What about the plated proto-drake and the fire giant that were spotted nearby? Think your mages can handle those?", -- [2]
 				"Brann Bronzebeard", -- [3]
 				7, -- [4]
+			}, -- [25]
+			{
+				60.69900000000052, -- [1]
+				"The Kirin Tor can't possibly spare any additional resources to take on anything that size. We may not have to though.", -- [2]
+				"Archmage Rhydian", -- [3]
+				7, -- [4]
+			}, -- [26]
+			{
+				63.5109999999986, -- [1]
+				"Look upon the true face of death, and know that your end comes soon!", -- [2]
+				"Yogg-Saron", -- [3]
+				7, -- [4]
+			}, -- [27]
+			{
+				64.31900000000314, -- [1]
+				"%s prepares to unleash Empowering Shadows!", -- [2]
+				"Yogg-Saron", -- [3]
+				1, -- [4]
 			}, -- [28]
 			{
-				69.35400000000027, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 2%% Sanity Lost|r", -- [2]
+				64.31900000000314, -- [1]
+				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
 				"Elementior", -- [3]
 				2, -- [4]
 			}, -- [29]
 			{
-				69.59600000000046, -- [1]
-				"The illusion shatters and a path to the central chamber opens!", -- [2]
-				"Brain of Yogg-Saron", -- [3]
-				1, -- [4]
+				66.32500000000437, -- [1]
+				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
+				"Elementior", -- [3]
+				2, -- [4]
 			}, -- [30]
 			{
-				70.65500000000065, -- [1]
-				"Gul'dan is bringing up his warlocks by nightfall. Until then, the Blackrock clan will be trying to take the Eastern Wall.", -- [2]
-				"Garona", -- [3]
-				4, -- [4]
+				67.33299999999872, -- [1]
+				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
+				"Elementior", -- [3]
+				2, -- [4]
 			}, -- [31]
 			{
-				75.11999999999989, -- [1]
-				"The Kirin Tor can't possibly spare any additional resources to take on anything that size. We may not have to though.", -- [2]
-				"Archmage Rhydian", -- [3]
-				7, -- [4]
+				68.32800000000134, -- [1]
+				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
+				"Elementior", -- [3]
+				2, -- [4]
 			}, -- [32]
 			{
-				80.35100000000057, -- [1]
-				"Look upon the true face of death, and know that your end comes soon!", -- [2]
-				"Yogg-Saron", -- [3]
-				7, -- [4]
-			}, -- [33]
-			{
-				81.55799999999999, -- [1]
-				"%s prepares to unleash Empowering Shadows!", -- [2]
-				"Yogg-Saron", -- [3]
-				1, -- [4]
-			}, -- [34]
-			{
-				81.55799999999999, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
-				"Elementior", -- [3]
-				2, -- [4]
-			}, -- [35]
-			{
-				83.5640000000003, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
-				"Elementior", -- [3]
-				2, -- [4]
-			}, -- [36]
-			{
-				83.5640000000003, -- [1]
+				69.22699999999895, -- [1]
 				"We can sneak past them. As long as we can take down that construct in front of the gate, we should be able to get inside.", -- [2]
 				"Archmage Rhydian", -- [3]
 				7, -- [4]
-			}, -- [37]
-			{
-				84.58300000000054, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
-				"Elementior", -- [3]
-				2, -- [4]
-			}, -- [38]
-			{
-				85.55699999999979, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
-				"Elementior", -- [3]
-				2, -- [4]
-			}, -- [39]
+			}, -- [33]
 			["boss"] = "Yogg-Saron",
 		}, -- [1]
 	},

@@ -200,9 +200,9 @@ DBMDMF_AllSavedVars = {
 		},
 		["Cannon"] = {
 			[0] = {
-				["Timer102116fades2CVoice"] = 0,
 				["Enabled"] = true,
 				["Timer102116fades2TColor"] = 5,
+				["Timer102116fades2CVoice"] = 0,
 				["Timer102116fades2"] = false,
 			},
 		},

@@ -1,11 +1,11 @@
 --
--- Raider.IO Client Config - Auto Generated On 2022-05-05T21:30:31Z
+-- Raider.IO Client Config - Auto Generated On 2022-05-06T22:00:47Z
 --
 -- DO NOT MODIFY
 --
 local _, ns = ...
 ns.CLIENT_CONFIG = {
-	["lastModified"] = "2022-05-05T21:30:31Z",
+	["lastModified"] = "2022-05-06T22:00:47Z",
 	["enableCombatLogTracking"] = true,
 	["syncMode"] = "all",
 	["syncAmericasHorde"] = true,

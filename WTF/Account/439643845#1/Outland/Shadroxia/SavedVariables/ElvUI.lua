@@ -2,842 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"and explore", -- [1]
-			"Nagetsu-Pozzodell'Eternità", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Nagetsu-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			105, -- [11]
-			"Player-1309-0AE9B1BD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
-			[51] = 1650354238,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [1]
-		{
-			"jsut do the wq when itts up", -- [1]
-			"Kolpina-Aggramar", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Kolpina-Aggramar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			106, -- [11]
-			"Player-1325-067DD22A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kolpina-Aggramar|r",
-			[51] = 1650354240,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [2]
-		{
-			"I hate these dailies here", -- [1]
-			"Zazbaz-Auchindoun", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Zazbaz-Auchindoun", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			107, -- [11]
-			"Player-1597-09AA648D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
-			[51] = 1650354249,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [3]
-		{
-			"the hard is kill all rares fir the achi etc", -- [1]
-			"Nagetsu-Pozzodell'Eternità", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Nagetsu-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			108, -- [11]
-			"Player-1309-0AE9B1BD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
-			[51] = 1650354256,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [4]
-		{
-			"fuck achievments EKS DEE", -- [1]
-			"Zazbaz-Auchindoun", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Zazbaz-Auchindoun", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			109, -- [11]
-			"Player-1597-09AA648D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
-			[51] = 1650354268,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [5]
-		{
-			"u dont need rares for flying xd", -- [1]
-			"Kolpina-Aggramar", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Kolpina-Aggramar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			110, -- [11]
-			"Player-1325-067DD22A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kolpina-Aggramar|r",
-			[51] = 1650354272,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [6]
-		{
-			"deep worlds bro", -- [1]
-			"Nagetsu-Pozzodell'Eternità", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Nagetsu-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			111, -- [11]
-			"Player-1309-0AE9B1BD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
-			[51] = 1650354280,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [7]
-		{
-			"I need then for WQ", -- [1]
-			"Zazbaz-Auchindoun", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Zazbaz-Auchindoun", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			112, -- [11]
-			"Player-1597-09AA648D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
-			[51] = 1650354282,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [8]
-		{
-			"explore mechagon is complete? ", -- [1]
-			"Nagetsu-Pozzodell'Eternità", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Nagetsu-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			113, -- [11]
-			"Player-1309-0AE9B1BD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
-			[51] = 1650354304,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [9]
-		{
-			"YUP", -- [1]
-			"Zazbaz-Auchindoun", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Zazbaz-Auchindoun", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			114, -- [11]
-			"Player-1597-09AA648D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
-			[51] = 1650354309,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [10]
-		{
-			"quite ez", -- [1]
-			"Zazbaz-Auchindoun", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Zazbaz-Auchindoun", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			116, -- [11]
-			"Player-1597-09AA648D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
-			[51] = 1650354323,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [11]
-		{
-			":D", -- [1]
-			"Nagetsu-Pozzodell'Eternità", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Nagetsu-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			117, -- [11]
-			"Player-1309-0AE9B1BD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
-			[51] = 1650354325,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [12]
-		{
-			"same as naga land", -- [1]
-			"Zazbaz-Auchindoun", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Zazbaz-Auchindoun", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			118, -- [11]
-			"Player-1597-09AA648D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
-			[51] = 1650354327,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [13]
-		{
-			"I hate that flying is locked behind this shit", -- [1]
-			"Zazbaz-Auchindoun", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Zazbaz-Auchindoun", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			120, -- [11]
-			"Player-1597-09AA648D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
-			[51] = 1650354338,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [14]
-		{
-			"we are already grinding our asses off and for what ? ", -- [1]
-			"Zazbaz-Auchindoun", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Zazbaz-Auchindoun", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			121, -- [11]
-			"Player-1597-09AA648D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
-			[51] = 1650354349,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [15]
-		{
-			"time gates and pain and suffering", -- [1]
-			"Zazbaz-Auchindoun", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Zazbaz-Auchindoun", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			122, -- [11]
-			"Player-1597-09AA648D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
-			[51] = 1650354358,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [16]
-		{
-			"first legion u have to buyfly with all characters", -- [1]
-			"Nagetsu-Pozzodell'Eternità", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Nagetsu-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			123, -- [11]
-			"Player-1309-0AE9B1BD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
-			[51] = 1650354363,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [17]
-		{
-			"dont bother with getting flying then", -- [1]
-			"Kolpina-Aggramar", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Kolpina-Aggramar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			124, -- [11]
-			"Player-1325-067DD22A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kolpina-Aggramar|r",
-			[51] = 1650354379,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [18]
-		{
-			"Legion was ...... OKAY", -- [1]
-			"Zazbaz-Auchindoun", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Zazbaz-Auchindoun", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			125, -- [11]
-			"Player-1597-09AA648D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
-			[51] = 1650354379,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [19]
-		{
-			"is better now u unlock with 1 and  fly for all", -- [1]
-			"Nagetsu-Pozzodell'Eternità", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Nagetsu-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			126, -- [11]
-			"Player-1309-0AE9B1BD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
-			[51] = 1650354385,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [20]
-		{
-			"blizzard might give it in 10:0", -- [1]
-			"Kolpina-Aggramar", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Kolpina-Aggramar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			127, -- [11]
-			"Player-1325-067DD22A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kolpina-Aggramar|r",
-			[51] = 1650354388,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [21]
-		{
-			"for everyone", -- [1]
-			"Kolpina-Aggramar", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Kolpina-Aggramar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			128, -- [11]
-			"Player-1325-067DD22A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kolpina-Aggramar|r",
-			[51] = 1650354392,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [22]
-		{
-			"yeah", -- [1]
-			"Zazbaz-Auchindoun", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Zazbaz-Auchindoun", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			129, -- [11]
-			"Player-1597-09AA648D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
-			[51] = 1650354393,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [23]
-		{
-			"like tthey did with legion", -- [1]
-			"Kolpina-Aggramar", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Kolpina-Aggramar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			130, -- [11]
-			"Player-1325-067DD22A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kolpina-Aggramar|r",
-			[51] = 1650354396,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [24]
-		{
-			"in wrath u must buy fky with all.. 0 alts for me", -- [1]
-			"Nagetsu-Pozzodell'Eternità", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Nagetsu-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			131, -- [11]
-			"Player-1309-0AE9B1BD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
-			[51] = 1650354397,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [25]
-		{
-			"expansion reveal today btw", -- [1]
-			"Zazbaz-Auchindoun", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Zazbaz-Auchindoun", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			132, -- [11]
-			"Player-1597-09AA648D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
-			[51] = 1650354399,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [26]
-		{
-			"Naga playable race when ? ", -- [1]
-			"Zazbaz-Auchindoun", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Zazbaz-Auchindoun", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			133, -- [11]
-			"Player-1597-09AA648D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
-			[51] = 1650354414,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [27]
-		{
-			"hope soon xD i want a naga ", -- [1]
-			"Nagetsu-Pozzodell'Eternità", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Nagetsu-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			134, -- [11]
-			"Player-1309-0AE9B1BD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
-			[51] = 1650354434,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [28]
-		{
-			"i want a tortollian tank", -- [1]
-			"Nagetsu-Pozzodell'Eternità", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Nagetsu-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			135, -- [11]
-			"Player-1309-0AE9B1BD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
-			[51] = 1650354449,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [29]
-		{
-			"I saw a leak of some CRINGE dragon humanoid that wa slike the worgen : it had a human counterpart", -- [1]
-			"Zazbaz-Auchindoun", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Zazbaz-Auchindoun", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			136, -- [11]
-			"Player-1597-09AA648D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
-			[51] = 1650354461,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [30]
-		{
-			"By the Light I hope it is fake", -- [1]
-			"Zazbaz-Auchindoun", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Zazbaz-Auchindoun", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			137, -- [11]
-			"Player-1597-09AA648D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
-			[51] = 1650354476,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [31]
-		{
-			"like a shaman but dragons", -- [1]
-			"Nagetsu-Pozzodell'Eternità", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Nagetsu-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			138, -- [11]
-			"Player-1309-0AE9B1BD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
-			[51] = 1650354493,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [32]
-		{
-			"No no, like the wogen race", -- [1]
-			"Zazbaz-Auchindoun", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Zazbaz-Auchindoun", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			139, -- [11]
-			"Player-1597-09AA648D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
-			[51] = 1650354512,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [33]
-		{
-			"you can transform into a dragon thing", -- [1]
-			"Zazbaz-Auchindoun", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Zazbaz-Auchindoun", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			140, -- [11]
-			"Player-1597-09AA648D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
-			[51] = 1650354521,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [34]
-		{
-			"a dragon humanoid", -- [1]
-			"Zazbaz-Auchindoun", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Zazbaz-Auchindoun", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			141, -- [11]
-			"Player-1597-09AA648D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
-			[51] = 1650354530,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [35]
-		{
-			"it look BAD", -- [1]
-			"Zazbaz-Auchindoun", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Zazbaz-Auchindoun", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			142, -- [11]
-			"Player-1597-09AA648D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
-			[51] = 1650354533,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [36]
-		{
-			"I hope it is fake", -- [1]
-			"Zazbaz-Auchindoun", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Zazbaz-Auchindoun", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			143, -- [11]
-			"Player-1597-09AA648D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
-			[51] = 1650354538,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [37]
-		{
-			"I want a warden class because Maiev Shadowsong is my girl", -- [1]
-			"Zazbaz-Auchindoun", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Zazbaz-Auchindoun", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			144, -- [11]
-			"Player-1597-09AA648D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
-			[51] = 1650354556,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [38]
-		{
 			"OVER HERE !!! COME AT ME !!!", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
 			"Common", -- [3]
@@ -858,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354583,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [39]
+		}, -- [1]
 		{
 			"Ready to engage!", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -880,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354591,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [40]
+		}, -- [2]
 		{
 			"This is soooo Fallout inspired island", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -902,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354624,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [41]
+		}, -- [3]
 		{
 			"it's like Blizz is copying other games and says : look we have that too in our game", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -924,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354640,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [42]
+		}, -- [4]
 		{
 			"Where is this loser ? ", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -946,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354666,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [43]
+		}, -- [5]
 		{
 			"He is not in there", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -968,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354696,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [44]
+		}, -- [6]
 		{
 			"What in light's name ws that XD", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -990,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354727,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [45]
+		}, -- [7]
 		{
 			"I smell ... hooorde >:(", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1012,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354747,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [46]
+		}, -- [8]
 		{
 			"Look at this edgelord", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1034,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354872,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [47]
+		}, -- [9]
 		{
 			"whhuuhu", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -1056,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650354881,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [48]
+		}, -- [10]
 		{
 			"I summon thee boss", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1078,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354898,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [49]
+		}, -- [11]
 		{
 			"le spawnu nowu", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1100,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354902,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [50]
+		}, -- [12]
 		{
 			"Do you guys smell it ? ", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1122,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354934,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [51]
+		}, -- [13]
 		{
 			"it started to stink in here", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1144,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354941,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [52]
+		}, -- [14]
 		{
 			"yeee ", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -1166,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650354944,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [53]
+		}, -- [15]
 		{
 			"yupp stink", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1188,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354950,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [54]
+		}, -- [16]
 		{
 			"here too", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1210,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354957,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [55]
+		}, -- [17]
 		{
 			"and here", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1232,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354960,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [56]
+		}, -- [18]
 		{
 			"its mine", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -1254,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650354974,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [57]
+		}, -- [19]
 		{
 			"the ''priviledge'' faction is here", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1276,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354974,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [58]
+		}, -- [20]
 		{
 			"i eat after kill", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -1298,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650354978,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [59]
+		}, -- [21]
 		{
 			"blblblbl", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -1320,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650354980,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [60]
+		}, -- [22]
 		{
 			"the plot armor faction is here", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1342,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650354981,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [61]
+		}, -- [23]
 		{
 			"plof", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -1364,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650354987,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [62]
+		}, -- [24]
 		{
 			"mm my stomach", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -1386,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650354995,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [63]
+		}, -- [25]
 		{
 			"anyone want a beer? ", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -1408,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650355010,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [64]
+		}, -- [26]
 		{
 			"Sure my good man", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1430,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355020,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [65]
+		}, -- [27]
 		{
 			"ogar kaz gi zil'nok ", -- [1]
 			"Hekali-Ragnaros", -- [2]
@@ -1452,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHekali-Ragnaros|r",
 			[51] = 1650355022,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [66]
+		}, -- [28]
 		{
 			"SHUT THE FUCK UP !", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1474,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355029,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [67]
+		}, -- [29]
 		{
 			"Please continue my good man", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1496,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355040,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [68]
+		}, -- [30]
 		{
 			"limp bizkit rocking the set", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -1518,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650355041,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [69]
+		}, -- [31]
 		{
 			"XD", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1540,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355048,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [70]
+		}, -- [32]
 		{
 			"its like a russian roulette where u place u bet", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -1562,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650355073,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [71]
+		}, -- [33]
 		{
 			"Can someone pull up an auction house dinosaur ? ", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1584,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355082,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [72]
+		}, -- [34]
 		{
 			"if i have.. sad", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -1606,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650355093,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [73]
+		}, -- [35]
 		{
 			"Talking to the rich people ofcourse", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1628,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355097,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [74]
+		}, -- [36]
 		{
 			"lul", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -1650,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650355107,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [75]
+		}, -- [37]
 		{
 			"Hey", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1672,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355123,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [76]
+		}, -- [38]
 		{
 			"my dude that is running", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1694,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355132,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [77]
+		}, -- [39]
 		{
 			"dude", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1716,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355135,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [78]
+		}, -- [40]
 		{
 			"Come here", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1738,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355140,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [79]
+		}, -- [41]
 		{
 			"Pls transmog yourself", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1760,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355147,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [80]
+		}, -- [42]
 		{
 			"hi", -- [1]
 			"Tomyrris-Silvermoon", -- [2]
@@ -1782,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaTomyrris-Silvermoon|r",
 			[51] = 1650355154,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [81]
+		}, -- [43]
 		{
 			"shadowlands armor is cringe", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1804,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355157,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [82]
+		}, -- [44]
 		{
 			"sure", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -1826,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650355164,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [83]
+		}, -- [45]
 		{
 			"nice", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1848,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355171,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [84]
+		}, -- [46]
 		{
 			"id like zereth trasmo", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -1870,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650355173,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [85]
+		}, -- [47]
 		{
 			"for nothing", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -1892,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650355176,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [86]
+		}, -- [48]
 		{
 			"Absolute chad", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1914,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355179,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [87]
+		}, -- [49]
 		{
 			"prefeeer last patch", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -1936,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650355182,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [88]
+		}, -- [50]
 		{
 			"zereth is the ''atheist delight'' zone", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -1958,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355188,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [89]
+		}, -- [51]
 		{
 			"LFM Operation Mechagon ", -- [1]
 			"Hundige-Outland", -- [2]
@@ -1980,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Hundige|r",
 			[51] = 1650356519,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [52]
 		{
 			"14 m", -- [1]
 			"Esplide-Nemesis", -- [2]
@@ -2002,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Esplide-Nemesis|r",
 			[51] = 1650356928,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [91]
+		}, -- [53]
 		{
 			"20 s", -- [1]
 			"Esplide-Nemesis", -- [2]
@@ -2024,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Esplide-Nemesis|r",
 			[51] = 1650357755,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [92]
+		}, -- [54]
 		{
 			"{rt8}A. Harvester{rt8}: 19m 50s-39m 50s (WorldBossTimers:1650361375)", -- [1]
 			"Esplide-Nemesis", -- [2]
@@ -2046,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Esplide-Nemesis|r",
 			[51] = 1650357784,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [93]
+		}, -- [55]
 		{
 			"Rustfeather (262.00k/282.40k 92.78%) 65.48 78.33 |cffffff00|Hworldmap:1462:6547:7832|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Renova-Ravencrest", -- [2]
@@ -2068,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRenova-Ravencrest|r",
 			[51] = 1650996764,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [56]
 		{
 			"Rustfeather died at 21:12 server time!", -- [1]
 			"Renova-Ravencrest", -- [2]
@@ -2090,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRenova-Ravencrest|r",
 			[51] = 1650996780,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [57]
 		{
 			"wtb plate legendary ", -- [1]
 			"Immortallcé-Outland", -- [2]
@@ -2112,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Immortallcé|r",
 			[51] = 1651012701,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [58]
 		{
 			"lol", -- [1]
 			"Cornsnacker-Outland", -- [2]
@@ -2134,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Cornsnacker|r",
 			[51] = 1651012732,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [59]
 		{
 			"<Team> Boosting Key +10 - 20  || Torghast || Level Up  /w for info (only gold)", -- [1]
 			"Yaveh-Outland", -- [2]
@@ -2156,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcYaveh|r",
 			[51] = 1651013067,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [60]
 		{
 			"WTS |cff1eff00|Hitem:24585::::::::46:64:::1:1708::::::|h[Outlander's Facewrap of the Aurora]|h|r /w me", -- [1]
 			"Ragedmage-Outland", -- [2]
@@ -2178,29 +1342,865 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaRagedmage|r",
 			[51] = 1651122190,
 			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [61]
+		{
+			"Crazed trogg green", -- [1]
+			"Mkenzie-Silvermoon", -- [2]
+			"", -- [3]
+			"1. General - Mechagon", -- [4]
+			"Mkenzie-Silvermoon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Mechagon", -- [9]
+			0, -- [10]
+			159, -- [11]
+			"Player-3391-0B0F41F5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Mkenzie-Silvermoon|r",
+			[51] = 1651833218,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [62]
+		{
+			"cmere ill paint u", -- [1]
+			"Mkenzie-Silvermoon", -- [2]
+			"", -- [3]
+			"1. General - Mechagon", -- [4]
+			"Mkenzie-Silvermoon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Mechagon", -- [9]
+			0, -- [10]
+			160, -- [11]
+			"Player-3391-0B0F41F5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Mkenzie-Silvermoon|r",
+			[51] = 1651833222,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [63]
+		{
+			"gone?", -- [1]
+			"Mimimi-Nemesis", -- [2]
+			"", -- [3]
+			"1. General - Mechagon", -- [4]
+			"Mimimi-Nemesis", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Mechagon", -- [9]
+			0, -- [10]
+			161, -- [11]
+			"Player-1316-0B133F3B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Mimimi-Nemesis|r",
+			[51] = 1651833417,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [64]
+		{
+			"|cffffff00|Hworldmap:1462:8863:2169|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Localizzazione del punto sulla mappa]|h|r Mecha spider up", -- [1]
+			"Mimimi-Nemesis", -- [2]
+			"", -- [3]
+			"1. General - Mechagon", -- [4]
+			"Mimimi-Nemesis", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Mechagon", -- [9]
+			0, -- [10]
+			162, -- [11]
+			"Player-1316-0B133F3B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Mimimi-Nemesis|r",
+			[51] = 1651833598,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [65]
+		{
+			"anyone around? can't solo it", -- [1]
+			"Mimimi-Nemesis", -- [2]
+			"", -- [3]
+			"1. General - Mechagon", -- [4]
+			"Mimimi-Nemesis", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Mechagon", -- [9]
+			0, -- [10]
+			164, -- [11]
+			"Player-1316-0B133F3B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Mimimi-Nemesis|r",
+			[51] = 1651833888,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [66]
+		{
+			"who", -- [1]
+			"Falt-Nemesis", -- [2]
+			"", -- [3]
+			"1. General - Mechagon", -- [4]
+			"Falt-Nemesis", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Mechagon", -- [9]
+			0, -- [10]
+			165, -- [11]
+			"Player-1316-0B255AF9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Falt-Nemesis|r",
+			[51] = 1651833894,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [67]
+		{
+			"mecharantula", -- [1]
+			"Mimimi-Nemesis", -- [2]
+			"", -- [3]
+			"1. General - Mechagon", -- [4]
+			"Mimimi-Nemesis", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Mechagon", -- [9]
+			0, -- [10]
+			166, -- [11]
+			"Player-1316-0B133F3B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Mimimi-Nemesis|r",
+			[51] = 1651833921,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [68]
+		{
+			"|cffffff00|Hworldmap:1462:8863:2169|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Localizzazione del punto sulla mappa]|h|r", -- [1]
+			"Mimimi-Nemesis", -- [2]
+			"", -- [3]
+			"1. General - Mechagon", -- [4]
+			"Mimimi-Nemesis", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Mechagon", -- [9]
+			0, -- [10]
+			167, -- [11]
+			"Player-1316-0B133F3B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Mimimi-Nemesis|r",
+			[51] = 1651833932,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [69]
+		{
+			"ok someone came, nvm", -- [1]
+			"Mimimi-Nemesis", -- [2]
+			"", -- [3]
+			"1. General - Mechagon", -- [4]
+			"Mimimi-Nemesis", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Mechagon", -- [9]
+			0, -- [10]
+			168, -- [11]
+			"Player-1316-0B133F3B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Mimimi-Nemesis|r",
+			[51] = 1651833995,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [70]
+		{
+			"anyone have world boss timer :)", -- [1]
+			"Olsengang-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Olsengang-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			171, -- [11]
+			"Player-3391-0B027A02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Olsengang-Silvermoon|r",
+			[51] = 1651834534,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [71]
+		{
+			"Less than 10 minutes to spawn I believe", -- [1]
+			"Cerane-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Cerane-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			172, -- [11]
+			"Player-3391-0B3D64B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Cerane-Silvermoon|r",
+			[51] = 1651834558,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [72]
+		{
+			"ok ty", -- [1]
+			"Olsengang-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Olsengang-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			173, -- [11]
+			"Player-3391-0B027A02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Olsengang-Silvermoon|r",
+			[51] = 1651834570,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [73]
+		{
+			"{rt8}A. Harvester{rt8}: 0s-8m 1s (WorldBossTimers:1651836265)", -- [1]
+			"Juuzou-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Juuzou-Silvermoon", -- [5]
+			"AFK", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			174, -- [11]
+			"Player-3391-0BFF7A3C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Juuzou-Silvermoon|r",
+			[51] = 1651834585,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [74]
+		{
+			"inv pls", -- [1]
+			"Zubrówkaa-AzjolNerub", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Zubrówkaa-AzjolNerub", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			188, -- [11]
+			"Player-1396-0ABAD5B4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cZubrówkaa-AzjolNerub|r",
+			[51] = 1651840322,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [75]
+		{
+			"how many more can't see the quest", -- [1]
+			"Zubrówkaa-AzjolNerub", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Zubrówkaa-AzjolNerub", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			213, -- [11]
+			"Player-1396-0ABAD5B4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cZubrówkaa-AzjolNerub|r",
+			[51] = 1651840712,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [76]
+		{
+			"same", -- [1]
+			"Shadroxia-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Shadroxia-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			214, -- [11]
+			"Player-1301-0B005465", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Shadroxia|r",
+			[51] = 1651840716,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [77]
+		{
+			"no idea", -- [1]
+			"Shadroxia-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Shadroxia-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			215, -- [11]
+			"Player-1301-0B005465", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Shadroxia|r",
+			[51] = 1651840719,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [78]
+		{
+			"hi", -- [1]
+			"Xénny-Ysondre", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xénny-Ysondre", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			218, -- [11]
+			"Player-1335-05EF37C2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Xénny-Ysondre|r",
+			[51] = 1651840731,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [79]
+		{
+			"yo", -- [1]
+			"Shadroxia-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Shadroxia-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			219, -- [11]
+			"Player-1301-0B005465", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Shadroxia|r",
+			[51] = 1651840734,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [80]
+		{
+			"how many is it?", -- [1]
+			"Shadroxia-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Shadroxia-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			245, -- [11]
+			"Player-1301-0B005465", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Shadroxia|r",
+			[51] = 1651840907,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [81]
+		{
+			"they respawn fast", -- [1]
+			"Xénny-Ysondre", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xénny-Ysondre", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			247, -- [11]
+			"Player-1335-05EF37C2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Xénny-Ysondre|r",
+			[51] = 1651840912,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [82]
+		{
+			"do you see the quest?", -- [1]
+			"Shadroxia-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Shadroxia-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			249, -- [11]
+			"Player-1301-0B005465", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Shadroxia|r",
+			[51] = 1651840920,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [83]
+		{
+			"cause im on an alt and dont see it", -- [1]
+			"Shadroxia-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Shadroxia-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			250, -- [11]
+			"Player-1301-0B005465", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Shadroxia|r",
+			[51] = 1651840925,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [84]
+		{
+			"do we need someone who can actually see it or what?", -- [1]
+			"Shadroxia-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Shadroxia-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			273, -- [11]
+			"Player-1301-0B005465", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Shadroxia|r",
+			[51] = 1651841028,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [85]
+		{
+			"im pretty sure this needs 6 packs", -- [1]
+			"Shadroxia-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Shadroxia-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			282, -- [11]
+			"Player-1301-0B005465", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Shadroxia|r",
+			[51] = 1651841034,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [86]
+		{
+			"i'm on alt to", -- [1]
+			"Zubrówkaa-AzjolNerub", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Zubrówkaa-AzjolNerub", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			283, -- [11]
+			"Player-1396-0ABAD5B4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cZubrówkaa-AzjolNerub|r",
+			[51] = 1651841036,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [87]
+		{
+			"we've done way more", -- [1]
+			"Shadroxia-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Shadroxia-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			284, -- [11]
+			"Player-1301-0B005465", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Shadroxia|r",
+			[51] = 1651841037,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [88]
+		{
+			"no", -- [1]
+			"Xénny-Ysondre", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xénny-Ysondre", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			285, -- [11]
+			"Player-1335-05EF37C2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Xénny-Ysondre|r",
+			[51] = 1651841041,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [89]
+		{
+			"just need to kill quickly", -- [1]
+			"Xénny-Ysondre", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xénny-Ysondre", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			286, -- [11]
+			"Player-1335-05EF37C2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Xénny-Ysondre|r",
+			[51] = 1651841046,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [90]
+		{
+			"or maybe it's bugged", -- [1]
+			"Xénny-Ysondre", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xénny-Ysondre", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			297, -- [11]
+			"Player-1335-05EF37C2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Xénny-Ysondre|r",
+			[51] = 1651841072,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [91]
+		{
+			"i just did it on 3 other alts", -- [1]
+			"Shadroxia-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Shadroxia-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			299, -- [11]
+			"Player-1301-0B005465", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Shadroxia|r",
+			[51] = 1651841084,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [92]
+		{
+			"it was ok", -- [1]
+			"Shadroxia-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Shadroxia-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			300, -- [11]
+			"Player-1301-0B005465", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Shadroxia|r",
+			[51] = 1651841086,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [93]
+		{
+			"weird", -- [1]
+			"Shadroxia-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Shadroxia-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			301, -- [11]
+			"Player-1301-0B005465", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Shadroxia|r",
+			[51] = 1651841088,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [94]
+		{
+			"respawn rate too quick", -- [1]
+			"Xénny-Ysondre", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xénny-Ysondre", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			312, -- [11]
+			"Player-1335-05EF37C2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Xénny-Ysondre|r",
+			[51] = 1651841138,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [95]
+		{
+			"aha", -- [1]
+			"Shadroxia-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Shadroxia-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			313, -- [11]
+			"Player-1301-0B005465", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Shadroxia|r",
+			[51] = 1651841144,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [96]
+		{
+			"can't do it solo", -- [1]
+			"Xénny-Ysondre", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xénny-Ysondre", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			314, -- [11]
+			"Player-1335-05EF37C2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Xénny-Ysondre|r",
+			[51] = 1651841145,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [97]
+		{
+			"we gotta do it in 1 cycle?", -- [1]
+			"Shadroxia-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Shadroxia-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			315, -- [11]
+			"Player-1301-0B005465", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Shadroxia|r",
+			[51] = 1651841148,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [98]
+		{
+			"with some of my alts", -- [1]
+			"Xénny-Ysondre", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xénny-Ysondre", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			316, -- [11]
+			"Player-1335-05EF37C2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Xénny-Ysondre|r",
+			[51] = 1651841149,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/p i can give you lead and you wont be ported away", -- [1]
-		"/wave", -- [2]
-		"/s hey", -- [3]
-		"hmm", -- [4]
-		"you mentioned you wanted to go to it", -- [5]
-		"/1 anyone wanna come help for screaming shade?", -- [6]
-		"will play later", -- [7]
-		"/p there, cya :D", -- [8]
-		"/p thanks :D", -- [9]
-		"/1 Screaming Shade up!", -- [10]
-		"/1 Screaming Shade is UP!!!", -- [11]
-		"yo, im camping rares on alts rn while doing some school work", -- [12]
-		"/p for tha phasing?", -- [13]
-		"dnes btw e casual raida ot 9", -- [14]
-		"after dinner prob", -- [15]
-		"/1 need someone to activate it", -- [16]
-		"/who", -- [17]
-		"/p too late xD", -- [18]
-		"/s can you activate it?", -- [19]
-		"like 8-9", -- [20]
+		"/1 need someone to activate it", -- [1]
+		"/who", -- [2]
+		"/p too late xD", -- [3]
+		"/s can you activate it?", -- [4]
+		"like 8-9", -- [5]
+		"/cw Boukitos-Drek'Thar inv plz", -- [6]
+		"/p same", -- [7]
+		"/p no idea", -- [8]
+		"/p yo", -- [9]
+		"/p how many is it?", -- [10]
+		"/p do you see the quest?", -- [11]
+		"/p cause im on an alt and dont see it", -- [12]
+		"/p do we need someone who can actually see it or what?", -- [13]
+		"/p im pretty sure this needs 6 packs", -- [14]
+		"/p we've done way more", -- [15]
+		"/p i just did it on 3 other alts", -- [16]
+		"/p it was ok", -- [17]
+		"/p weird", -- [18]
+		"/p aha", -- [19]
+		"/p we gotta do it in 1 cycle?", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }

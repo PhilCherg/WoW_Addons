@@ -20,14 +20,6 @@ dbOHC = {
 			["firstun"] = false,
 		},
 	},
-	["global"] = {
-		["warn01_seen"] = 0,
-		["warn03_seen"] = 3,
-		["news"] = {
-		},
-		["warn02_seen"] = 0,
-		["firstrun"] = false,
-	},
 	["profileKeys"] = {
 		["Illyana - Outland"] = "Default",
 		["Destruxia - Outland"] = "Default",
@@ -35,6 +27,14 @@ dbOHC = {
 		["Luminaxia - Outland"] = "Default",
 		["Lianxia - Draenor"] = "Default",
 		["Shadroxia - Outland"] = "Default",
+	},
+	["global"] = {
+		["warn01_seen"] = 0,
+		["warn03_seen"] = 3,
+		["news"] = {
+		},
+		["warn02_seen"] = 0,
+		["firstrun"] = false,
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -58,8 +58,8 @@ dbOHC = {
 				["PREFERHIGH"] = false,
 				["NOTROOPS"] = false,
 				["MAKEITQUICK"] = true,
-				["MAXCHAMP"] = 3,
 				["TROOPALERT"] = true,
+				["MAXCHAMP"] = 3,
 				["IGNOREBUSY"] = true,
 				["BASECHANCE"] = 0,
 			},
