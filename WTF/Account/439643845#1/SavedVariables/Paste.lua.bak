@@ -218,13 +218,13 @@ PasteDB = {
 			["loaded"] = true,
 		},
 		["Illyana - Outland"] = {
-			["whispertarget"] = "",
-			["where"] = "Default",
 			["loaded"] = true,
-			["pos"] = {
-			},
 			["minimap"] = {
 				["minimapPos"] = 179.0857583389598,
+			},
+			["where"] = "Default",
+			["whispertarget"] = "",
+			["pos"] = {
 			},
 		},
 		["Feastfive - Outland"] = {

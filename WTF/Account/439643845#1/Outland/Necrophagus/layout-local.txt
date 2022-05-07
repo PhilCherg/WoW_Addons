@@ -3,9 +3,9 @@ Frame: AllTheThings-Window-CurrentInstance
 FrameLevel: 1
 Anchor: BOTTOMLEFT
 X: 0
-Y: 219
-W: 406
-H: 190
+Y: 220
+W: 407
+H: 189
 Frame: MonkeySpeedFrame
 FrameLevel: 1
 Anchor: TOPRIGHT
@@ -78,15 +78,8 @@ W: 306
 H: 225
 Frame: AllTheThings-Window-Prime
 FrameLevel: 1
-Anchor: TOPLEFT
-X: 177
-Y: -124
+Anchor: CENTER
+X: -263
+Y: 121
 W: 581
 H: 557
-Frame: AllTheThings-Window-ATT > Outdoor Zones > The Shadowlands > Korthia > KorthiamapID1961
-FrameLevel: 1
-Anchor: LEFT
-X: 133
-Y: 85
-W: 455
-H: 336

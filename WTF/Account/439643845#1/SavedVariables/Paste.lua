@@ -85,12 +85,12 @@ PasteDB = {
 			["loaded"] = true,
 		},
 		["Shadroxia - Outland"] = {
+			["whispertarget"] = "",
+			["where"] = "Default",
 			["loaded"] = true,
 			["minimap"] = {
 				["minimapPos"] = 181.3399852121823,
 			},
-			["where"] = "Default",
-			["whispertarget"] = "",
 			["pos"] = {
 			},
 		},
@@ -115,17 +115,17 @@ PasteDB = {
 			},
 		},
 		["Necrophagus - Outland"] = {
-			["whispertarget"] = "",
-			["where"] = "Default",
 			["loaded"] = true,
+			["minimap"] = {
+				["minimapPos"] = 178.6279061133446,
+			},
+			["where"] = "Default",
+			["whispertarget"] = "",
 			["pos"] = {
 				["height"] = 320,
 				["top"] = 700.8450927734375,
 				["left"] = 711.5023803710938,
 				["width"] = 500.0000305175781,
-			},
-			["minimap"] = {
-				["minimapPos"] = 178.6279061133446,
 			},
 		},
 		["Illydaria - Draenor"] = {
@@ -240,10 +240,10 @@ PasteDB = {
 			["whispertarget"] = "",
 			["where"] = "Default",
 			["loaded"] = true,
+			["pos"] = {
+			},
 			["minimap"] = {
 				["minimapPos"] = 179.0857583389598,
-			},
-			["pos"] = {
 			},
 		},
 		["Moneymakerii - Outland"] = {
