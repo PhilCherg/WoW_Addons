@@ -2,1194 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"spawntimer is?", -- [1]
-			"Theliquidz-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Theliquidz-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			200, -- [11]
-			"Player-3391-0907B26B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Theliquidz-Silvermoon|r",
-			[51] = 1650558147,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [1]
-		{
-			"30-60 min?", -- [1]
-			"Theliquidz-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Theliquidz-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			201, -- [11]
-			"Player-3391-0907B26B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Theliquidz-Silvermoon|r",
-			[51] = 1650558152,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [2]
-		{
-			"ogar", -- [1]
-			"Hàshem-Kazzak", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Hàshem-Kazzak", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			28, -- [11]
-			"Player-1305-094667DB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaHàshem-Kazzak|r",
-			[51] = 1650906260,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [3]
-		{
-			"Tov'osh magan ", -- [1]
-			"Nightchill-Kazzak", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Nightchill-Kazzak", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			29, -- [11]
-			"Player-1305-0933D703", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Nightchill-Kazzak|r",
-			[51] = 1650906761,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [4]
-		{
-			"revash nogah kazum", -- [1]
-			"Hàshem-Kazzak", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Hàshem-Kazzak", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			32, -- [11]
-			"Player-1305-094667DB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaHàshem-Kazzak|r",
-			[51] = 1650906812,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [5]
-		{
-			"|cffffff00|Hworldmap:1527:5496:6816|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Xely-Outland", -- [2]
-			"", -- [3]
-			"1. General - Uldum", -- [4]
-			"Xely-Outland", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Uldum", -- [9]
-			0, -- [10]
-			2659, -- [11]
-			"Player-1301-071E5DE9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaXely|r",
-			[51] = 1650986395,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
-		{
-			"thank you kindly sir", -- [1]
-			"Kubaboi-Kazzak", -- [2]
-			"", -- [3]
-			"1. General - Uldum", -- [4]
-			"Kubaboi-Kazzak", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Uldum", -- [9]
-			0, -- [10]
-			2660, -- [11]
-			"Player-1305-0C2D7509", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Kubaboi-Kazzak|r",
-			[51] = 1650986405,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
-		{
-			"may RNG bless you", -- [1]
-			"Kubaboi-Kazzak", -- [2]
-			"", -- [3]
-			"1. General - Uldum", -- [4]
-			"Kubaboi-Kazzak", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Uldum", -- [9]
-			0, -- [10]
-			2661, -- [11]
-			"Player-1305-0C2D7509", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Kubaboi-Kazzak|r",
-			[51] = 1650986410,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
-		{
-			"I dont know btw", -- [1]
-			"Xely-Outland", -- [2]
-			"", -- [3]
-			"1. General - Uldum", -- [4]
-			"Xely-Outland", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Uldum", -- [9]
-			0, -- [10]
-			2662, -- [11]
-			"Player-1301-071E5DE9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaXely|r",
-			[51] = 1650986410,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
-		{
-			"I just sent something random", -- [1]
-			"Xely-Outland", -- [2]
-			"", -- [3]
-			"1. General - Uldum", -- [4]
-			"Xely-Outland", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Uldum", -- [9]
-			0, -- [10]
-			2663, -- [11]
-			"Player-1301-071E5DE9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaXely|r",
-			[51] = 1650986451,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
-		{
-			"you lied to me ;(", -- [1]
-			"Kubaboi-Kazzak", -- [2]
-			"", -- [3]
-			"1. General - Uldum", -- [4]
-			"Kubaboi-Kazzak", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Uldum", -- [9]
-			0, -- [10]
-			2664, -- [11]
-			"Player-1305-0C2D7509", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Kubaboi-Kazzak|r",
-			[51] = 1650986451,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
-		{
-			"dogg aaz zug", -- [1]
-			"Jägob-Kazzak", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Jägob-Kazzak", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			2666, -- [11]
-			"Player-1305-0C2527E8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Jägob-Kazzak|r",
-			[51] = 1650986856,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [12]
-		{
-			"l gesh", -- [1]
-			"Jägob-Kazzak", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Jägob-Kazzak", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			2667, -- [11]
-			"Player-1305-0C2527E8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Jägob-Kazzak|r",
-			[51] = 1650986858,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [13]
-		{
-			"broski", -- [1]
-			"Kubaboi-Kazzak", -- [2]
-			"", -- [3]
-			"1. General - Uldum", -- [4]
-			"Kubaboi-Kazzak", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Uldum", -- [9]
-			0, -- [10]
-			2668, -- [11]
-			"Player-1305-0C2D7509", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Kubaboi-Kazzak|r",
-			[51] = 1650986889,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
-		{
-			"where da alpaca", -- [1]
-			"Kubaboi-Kazzak", -- [2]
-			"", -- [3]
-			"1. General - Uldum", -- [4]
-			"Kubaboi-Kazzak", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Uldum", -- [9]
-			0, -- [10]
-			2669, -- [11]
-			"Player-1305-0C2D7509", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Kubaboi-Kazzak|r",
-			[51] = 1650986896,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
-		{
-			"Friendly Alpaca |cffffff00|Hworldmap:1527:5300:1900|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Kubaboi-Kazzak", -- [2]
-			"", -- [3]
-			"1. General - Uldum", -- [4]
-			"Kubaboi-Kazzak", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Uldum", -- [9]
-			0, -- [10]
-			2670, -- [11]
-			"Player-1305-0C2D7509", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Kubaboi-Kazzak|r",
-			[51] = 1650987172,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
-		{
-			"pog |cffa335ee|Hitem:174859::::::::60:103::11::1:28:872:::::|h[Reins of the Springfur Alpaca]|h|r", -- [1]
-			"Kubaboi-Kazzak", -- [2]
-			"", -- [3]
-			"1. General - Uldum", -- [4]
-			"Kubaboi-Kazzak", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Uldum", -- [9]
-			0, -- [10]
-			2671, -- [11]
-			"Player-1305-0C2D7509", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Kubaboi-Kazzak|r",
-			[51] = 1650987184,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
-		{
-			"Nakazz kazum'nobu ", -- [1]
-			"Hanzzi-Outland", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Hanzzi-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			2676, -- [11]
-			"Player-1301-0C2E2B11", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Hanzzi|r",
-			[51] = 1650987896,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [18]
-		{
-			"anyone else keep getting randomly dc'd?", -- [1]
-			"Arganelement-Thunderhorn", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Arganelement-Thunderhorn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2682, -- [11]
-			"Player-1313-056F9151", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcArganelement-Thunderhorn|r",
-			[51] = 1650989524,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [19]
-		{
-			"its happened to me twice", -- [1]
-			"Arganelement-Thunderhorn", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Arganelement-Thunderhorn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2683, -- [11]
-			"Player-1313-056F9151", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcArganelement-Thunderhorn|r",
-			[51] = 1650989533,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [20]
-		{
-			"wow froze my PC today LoL. So you better be happy you only dc)", -- [1]
-			"Mentalbreak-Dragonblight", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Mentalbreak-Dragonblight", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2684, -- [11]
-			"Player-1596-0E2DECF9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Mentalbreak-Dragonblight|r",
-			[51] = 1650989560,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [21]
-		{
-			"lol", -- [1]
-			"Arganelement-Thunderhorn", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Arganelement-Thunderhorn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2685, -- [11]
-			"Player-1313-056F9151", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcArganelement-Thunderhorn|r",
-			[51] = 1650989575,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [22]
-		{
-			"that was like 1h20m", -- [1]
-			"Arganelement-Thunderhorn", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Arganelement-Thunderhorn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			2692, -- [11]
-			"Player-1313-056F9151", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcArganelement-Thunderhorn|r",
-			[51] = 1650990879,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [23]
-		{
-			"anyone seen alpaca?", -- [1]
-			"Xyc-Outland", -- [2]
-			"", -- [3]
-			"1. General - Uldum", -- [4]
-			"Xyc-Outland", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Uldum", -- [9]
-			0, -- [10]
-			2696, -- [11]
-			"Player-1301-0B86A769", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edXyc|r",
-			[51] = 1650992083,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
-		{
-			"Ritual of doom any1 ???????", -- [1]
-			"Phelola-Sylvanas", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Phelola-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			514, -- [11]
-			"Player-1597-0CE20236", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edPhelola-Sylvanas|r",
-			[51] = 1651011921,
-			[50] = "CHAT_MSG_YELL",
-		}, -- [25]
-		{
-			"<Team> Boosting Key +10 - 20  || Torghast || Level Up  /w for info (only gold)", -- [1]
-			"Yaveh-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Yaveh-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			519, -- [11]
-			"Player-1301-0BCF9138", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcYaveh|r",
-			[51] = 1651012023,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
-		{
-			"can summ?", -- [1]
-			"Ironheade-DunModr", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Ironheade-DunModr", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			531, -- [11]
-			"Player-1378-059D8E72", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Ironheade-DunModr|r",
-			[51] = 1651012178,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [27]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14630:Player-1301-0641A710:1:4:30:22:4294967295:4294967295:4294967295:4294967295|h[Becoming a Hero]|h|r!", -- [1]
-			"Kepman-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kepman-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			19, -- [11]
-			"Player-1301-0641A710", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cKepman|r",
-			[51] = 1651329503,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [28]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14837:Player-1301-0641A710:1:4:30:22:4294967295:4294967295:4294967295:4294967295|h[Nexus of Bonds]|h|r!", -- [1]
-			"Kepman-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kepman-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			20, -- [11]
-			"Player-1301-0641A710", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cKepman|r",
-			[51] = 1651329503,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [29]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14631:Player-1301-0641A710:1:4:30:22:4294967295:4294967295:4294967295:4294967295|h[Champion of the Covenant]|h|r!", -- [1]
-			"Kepman-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kepman-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			21, -- [11]
-			"Player-1301-0641A710", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cKepman|r",
-			[51] = 1651329503,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [30]
-		{
-			"WTS |cffa335ee|Hitem:44413::::::::60:254::::1:28:872::::Player-1301-072BEB34:|h[Mekgineer's Chopper]|h|r", -- [1]
-			"Silentz-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Silentz-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1118, -- [11]
-			"Player-1301-0AFA5AF7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Silentz|r",
-			[51] = 1651419240,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
-		{
-			"hey guys, any timer? :)", -- [1]
-			"Drama-TheMaelstrom", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Drama-TheMaelstrom", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			86, -- [11]
-			"Player-1596-07661DCB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Drama-TheMaelstrom|r",
-			[51] = 1651826506,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [32]
-		{
-			"killed on an alt at 11:25", -- [1]
-			"Vynille-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Vynille-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			87, -- [11]
-			"Player-3391-083B8421", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Vynille-Silvermoon|r",
-			[51] = 1651826521,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [33]
-		{
-			"tyvm <3", -- [1]
-			"Drama-TheMaelstrom", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Drama-TheMaelstrom", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			88, -- [11]
-			"Player-1596-07661DCB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Drama-TheMaelstrom|r",
-			[51] = 1651826529,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [34]
-		{
-			"Ishak up! chance for mount!", -- [1]
-			"Weemoose-TheMaelstrom", -- [2]
-			"", -- [3]
-			"1. General - Uldum", -- [4]
-			"Weemoose-TheMaelstrom", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Uldum", -- [9]
-			0, -- [10]
-			89, -- [11]
-			"Player-1596-0766A868", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeWeemoose-TheMaelstrom|r",
-			[51] = 1651826751,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
-		{
-			"Ishak has died at 11:46", -- [1]
-			"Weemoose-TheMaelstrom", -- [2]
-			"", -- [3]
-			"1. General - Uldum", -- [4]
-			"Weemoose-TheMaelstrom", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Uldum", -- [9]
-			0, -- [10]
-			90, -- [11]
-			"Player-1596-0766A868", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeWeemoose-TheMaelstrom|r",
-			[51] = 1651826808,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
-		{
-			"been here for long?", -- [1]
-			"Serulioth-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Serulioth-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			92, -- [11]
-			"Player-3391-0A49E8B1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaSerulioth-Silvermoon|r",
-			[51] = 1651827951,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [37]
-		{
-			"nearly 20 min", -- [1]
-			"Vynille-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Vynille-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			93, -- [11]
-			"Player-3391-083B8421", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Vynille-Silvermoon|r",
-			[51] = 1651827962,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [38]
-		{
-			"a kind player wrote they killed it on an alt 11.25 ", -- [1]
-			"Drama-TheMaelstrom", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Drama-TheMaelstrom", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			94, -- [11]
-			"Player-1596-07661DCB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Drama-TheMaelstrom|r",
-			[51] = 1651828011,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [39]
-		{
-			"then any time in the next hour", -- [1]
-			"Serulioth-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Serulioth-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			95, -- [11]
-			"Player-3391-0A49E8B1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaSerulioth-Silvermoon|r",
-			[51] = 1651828043,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [40]
-		{
-			"think lowest spawn is around 40 mins ", -- [1]
-			"Drama-TheMaelstrom", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Drama-TheMaelstrom", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			96, -- [11]
-			"Player-1596-07661DCB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Drama-TheMaelstrom|r",
-			[51] = 1651828071,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [41]
-		{
-			"gl", -- [1]
-			"Serulioth-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Serulioth-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			105, -- [11]
-			"Player-3391-0A49E8B1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaSerulioth-Silvermoon|r",
-			[51] = 1651829360,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [42]
-		{
-			"Mr. Fixthis up", -- [1]
-			"Mimimi-Nemesis", -- [2]
-			"", -- [3]
-			"1. General - Mechagon", -- [4]
-			"Mimimi-Nemesis", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Mechagon", -- [9]
-			0, -- [10]
-			115, -- [11]
-			"Player-1316-0B133F3B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Mimimi-Nemesis|r",
-			[51] = 1651830024,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
-		{
-			"|cffffff00|Hworldmap:1462:5943:6291|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Localizzazione del punto sulla mappa]|h|r", -- [1]
-			"Mimimi-Nemesis", -- [2]
-			"", -- [3]
-			"1. General - Mechagon", -- [4]
-			"Mimimi-Nemesis", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Mechagon", -- [9]
-			0, -- [10]
-			117, -- [11]
-			"Player-1316-0B133F3B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Mimimi-Nemesis|r",
-			[51] = 1651830046,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
-		{
-			"Kazum ogg makogg throm  uruk nogu ", -- [1]
-			"Sabaga-Pozzodell'Eternità", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Sabaga-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			118, -- [11]
-			"Player-1309-0AC40813", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Sabaga-Pozzodell'Eternità|r",
-			[51] = 1651830057,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [45]
-		{
-			"Ty", -- [1]
-			"Lohrena-GrimBatol", -- [2]
-			"", -- [3]
-			"1. General - Mechagon", -- [4]
-			"Lohrena-GrimBatol", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Mechagon", -- [9]
-			0, -- [10]
-			119, -- [11]
-			"Player-1303-03A1F923", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaLohrena-GrimBatol|r",
-			[51] = 1651830075,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:6719:Player-1301-0C1B3328:1:5:6:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Stone Guard]|h|r!", -- [1]
-			"Brewswayne-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Brewswayne-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			5, -- [11]
-			"Player-1301-0C1B3328", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcBrewswayne|r",
-			[51] = 1651837944,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [47]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:6720:Player-1301-0C1B3328:1:5:6:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Feng the Accursed]|h|r!", -- [1]
-			"Brewswayne-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Brewswayne-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			7, -- [11]
-			"Player-1301-0C1B3328", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcBrewswayne|r",
-			[51] = 1651838007,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [48]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:6458:Player-1301-0C1B3328:1:5:6:22:4294967295:4294967295:4294967295:4294967295|h[Guardians of Mogu'shan]|h|r!", -- [1]
-			"Brewswayne-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Brewswayne-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			9, -- [11]
-			"Player-1301-0C1B3328", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcBrewswayne|r",
-			[51] = 1651838116,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [49]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:6721:Player-1301-0C1B3328:1:5:6:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Gara'jal the Spiritbinder]|h|r!", -- [1]
-			"Brewswayne-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Brewswayne-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			10, -- [11]
-			"Player-1301-0C1B3328", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcBrewswayne|r",
-			[51] = 1651838116,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [50]
-		{
-			"timer?", -- [1]
-			"Myzpådinpyz-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Myzpådinpyz-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			12, -- [11]
-			"Player-3391-0C25B1E7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Myzpådinpyz-Silvermoon|r",
-			[51] = 1651838134,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [51]
-		{
-			"yo anyone here?", -- [1]
-			"Dashin-Sylvanas", -- [2]
-			"", -- [3]
-			"1. General - Mechagon", -- [4]
-			"Dashin-Sylvanas", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Mechagon", -- [9]
-			0, -- [10]
-			13, -- [11]
-			"Player-1597-0D008412", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Dashin-Sylvanas|r",
-			[51] = 1651838158,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
-		{
-			"no", -- [1]
-			"Castellan-Wildhammer", -- [2]
-			"", -- [3]
-			"1. General - Mechagon", -- [4]
-			"Castellan-Wildhammer", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Mechagon", -- [9]
-			0, -- [10]
-			14, -- [11]
-			"Player-1313-0BC06291", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Castellan-Wildhammer|r",
-			[51] = 1651838178,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
-		{
-			"unfortunately :(", -- [1]
-			"Eldarin-Ghostlands", -- [2]
-			"", -- [3]
-			"1. General - Mechagon", -- [4]
-			"Eldarin-Ghostlands", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Mechagon", -- [9]
-			0, -- [10]
-			15, -- [11]
-			"Player-1596-0E2DDD2C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Eldarin-Ghostlands|r",
-			[51] = 1651838181,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
-		{
 			"(classic, timeless comedy)", -- [1]
 			"Castellan-Wildhammer", -- [2]
 			"", -- [3]
@@ -1210,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Castellan-Wildhammer|r",
 			[51] = 1651838182,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [1]
 		{
 			"need help to kill scrapclaw", -- [1]
 			"Dashin-Sylvanas", -- [2]
@@ -1232,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Dashin-Sylvanas|r",
 			[51] = 1651838191,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
+		}, -- [2]
 		{
 			"joe's here", -- [1]
 			"Kopys-Wildhammer", -- [2]
@@ -1254,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Kopys-Wildhammer|r",
 			[51] = 1651838195,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
+		}, -- [3]
 		{
 			"omw", -- [1]
 			"Eldarin-Ghostlands", -- [2]
@@ -1276,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Eldarin-Ghostlands|r",
 			[51] = 1651838201,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [4]
 		{
 			"2 to go", -- [1]
 			"Dashin-Sylvanas", -- [2]
@@ -1298,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Dashin-Sylvanas|r",
 			[51] = 1651838274,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [5]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6722:Player-1301-0C1B3328:1:5:6:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Four Kings]|h|r!", -- [1]
 			"Brewswayne-Outland", -- [2]
@@ -1320,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcBrewswayne|r",
 			[51] = 1651838289,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [60]
+		}, -- [6]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6723:Player-1301-0C1B3328:1:5:6:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Elegon]|h|r!", -- [1]
 			"Brewswayne-Outland", -- [2]
@@ -1342,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcBrewswayne|r",
 			[51] = 1651838453,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [61]
+		}, -- [7]
 		{
 			"Could you please share WorldBossTimers kill data?", -- [1]
 			"Cutxi-GrimBatol", -- [2]
@@ -1364,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeCutxi-GrimBatol|r",
 			[51] = 1651838484,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [62]
+		}, -- [8]
 		{
 			"rare Paol is up", -- [1]
 			"Dashin-Sylvanas", -- [2]
@@ -1386,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Dashin-Sylvanas|r",
 			[51] = 1651838525,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [9]
 		{
 			"want help?", -- [1]
 			"Eldarin-Ghostlands", -- [2]
@@ -1408,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Eldarin-Ghostlands|r",
 			[51] = 1651838545,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [10]
 		{
 			"yea please", -- [1]
 			"Dashin-Sylvanas", -- [2]
@@ -1430,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Dashin-Sylvanas|r",
 			[51] = 1651838549,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [11]
 		{
 			"omwwww", -- [1]
 			"Eldarin-Ghostlands", -- [2]
@@ -1452,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Eldarin-Ghostlands|r",
 			[51] = 1651838558,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [12]
 		{
 			"there 2 rares near by each other", -- [1]
 			"Dashin-Sylvanas", -- [2]
@@ -1474,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Dashin-Sylvanas|r",
 			[51] = 1651838565,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [13]
 		{
 			"hi", -- [1]
 			"Urénny-Elune", -- [2]
@@ -1496,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Urénny-Elune|r",
 			[51] = 1651839098,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [68]
+		}, -- [14]
 		{
 			"yo", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1518,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1651839101,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [69]
+		}, -- [15]
 		{
 			"thx", -- [1]
 			"Belnia-Blackmoore", -- [2]
@@ -1540,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Belnia-Blackmoore|r",
 			[51] = 1651839269,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [70]
+		}, -- [16]
 		{
 			"ty for the help", -- [1]
 			"Urénny-Elune", -- [2]
@@ -1562,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Urénny-Elune|r",
 			[51] = 1651839269,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [71]
+		}, -- [17]
 		{
 			"ty", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1584,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1651839272,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [72]
+		}, -- [18]
 		{
 			"cya", -- [1]
 			"Urénny-Elune", -- [2]
@@ -1606,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Urénny-Elune|r",
 			[51] = 1651839272,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [73]
+		}, -- [19]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:670:Player-1301-08A22EA3:1:5:6:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Underbog]|h|r!", -- [1]
 			"Naralh-Outland", -- [2]
@@ -1628,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNaralh|r",
 			[51] = 1651854110,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [74]
+		}, -- [20]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:697:Player-1301-09F61344:1:5:6:22:4294967295:4294967295:4294967295:4294967295|h[The Black Temple]|h|r!", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1650,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1651854399,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [75]
+		}, -- [21]
 		{
 			"hi", -- [1]
 			"Ranah-Runetotem", -- [2]
@@ -1672,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Ranah-Runetotem|r",
 			[51] = 1651857660,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [76]
+		}, -- [22]
 		{
 			"hi", -- [1]
 			"Dëäth-Aggra(Português)", -- [2]
@@ -1694,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Dëäth-Aggra(Português)|r",
 			[51] = 1651857677,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [77]
+		}, -- [23]
 		{
 			"Juggernaut Rush on Ranah", -- [1]
 			"Ranah-Runetotem", -- [2]
@@ -1716,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Ranah-Runetotem|r",
 			[51] = 1651857859,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [78]
+		}, -- [24]
 		{
 			"3", -- [1]
 			"Ranah-Runetotem", -- [2]
@@ -1738,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Ranah-Runetotem|r",
 			[51] = 1651857860,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [79]
+		}, -- [25]
 		{
 			"2", -- [1]
 			"Ranah-Runetotem", -- [2]
@@ -1760,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Ranah-Runetotem|r",
 			[51] = 1651857861,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [80]
+		}, -- [26]
 		{
 			"need pala? can i get for ilvl to raid finder?", -- [1]
 			"Heheitsme-Frostmane", -- [2]
@@ -1782,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Heheitsme-Frostmane|r",
 			[51] = 1651858148,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [81]
+		}, -- [27]
 		{
 			"Guards! Slay them all!", -- [1]
 			"", -- [2]
@@ -1804,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1651858270,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [82]
+		}, -- [28]
 		{
 			"Guards! Slay them all!", -- [1]
 			"", -- [2]
@@ -1826,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1651858270,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [83]
+		}, -- [29]
 		{
 			"That prisoner belongs to the Master. You will not take it!", -- [1]
 			"", -- [2]
@@ -1848,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1651858305,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [84]
+		}, -- [30]
 		{
 			"That prisoner belongs to the Master. You will not take it!", -- [1]
 			"", -- [2]
@@ -1870,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1651858305,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [85]
+		}, -- [31]
 		{
 			"These halls will be your tomb!", -- [1]
 			"", -- [2]
@@ -1892,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1651858341,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [86]
+		}, -- [32]
 		{
 			"These halls will be your tomb!", -- [1]
 			"", -- [2]
@@ -1914,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1651858341,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [87]
+		}, -- [33]
 		{
 			"Wicked Rush on Ranah", -- [1]
 			"Ranah-Runetotem", -- [2]
@@ -1936,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Ranah-Runetotem|r",
 			[51] = 1651858411,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [88]
+		}, -- [34]
 		{
 			"Wicked Rush on Dëäth", -- [1]
 			"Dëäth-Aggra(Português)", -- [2]
@@ -1958,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Dëäth-Aggra(Português)|r",
 			[51] = 1651858427,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [89]
+		}, -- [35]
 		{
 			"Wicked Rush on Baaradir", -- [1]
 			"Baaradir-Outland", -- [2]
@@ -1980,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Baaradir|r",
 			[51] = 1651858445,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [90]
+		}, -- [36]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14197:Player-1301-09F61344:1:5:6:22:4294967295:4294967295:4294967295:4294967295|h[Sanguine Depths]|h|r!", -- [1]
 			"Illyana-Outland", -- [2]
@@ -2002,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1651858446,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [91]
+		}, -- [37]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14198:Player-1301-09F61344:1:5:6:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Sanguine Depths]|h|r!", -- [1]
 			"Illyana-Outland", -- [2]
@@ -2024,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1651858446,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [92]
+		}, -- [38]
 		{
 			"ty", -- [1]
 			"Ranah-Runetotem", -- [2]
@@ -2046,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Ranah-Runetotem|r",
 			[51] = 1651858460,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [93]
+		}, -- [39]
 		{
 			"ned?", -- [1]
 			"Heheitsme-Frostmane", -- [2]
@@ -2068,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Heheitsme-Frostmane|r",
 			[51] = 1651858471,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [94]
+		}, -- [40]
 		{
 			"need trinket bro", -- [1]
 			"Heheitsme-Frostmane", -- [2]
@@ -2090,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Heheitsme-Frostmane|r",
 			[51] = 1651858483,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [95]
+		}, -- [41]
 		{
 			"<RTC> Arachnoid Harvester (79%) seen at |cffffff00|Hworldmap:1462:5260:4058|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Warscope-Silvermoon", -- [2]
@@ -2112,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWarscope-Silvermoon|r",
 			[51] = 1651858498,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [42]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:659:Player-1301-09F61344:1:5:6:22:4294967295:4294967295:4294967295:4294967295|h[The Botanica]|h|r!", -- [1]
 			"Illyana-Outland", -- [2]
@@ -2134,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1651859415,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [97]
+		}, -- [43]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:680:Player-1301-09F61344:1:5:6:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Botanica]|h|r!", -- [1]
 			"Illyana-Outland", -- [2]
@@ -2156,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1651859415,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [98]
+		}, -- [44]
 		{
 			"[Guild: Boundless Army] WTS  [Sepulcher of the First Ones] Normal/Heroic Full Run , Tier Set Bosses , Curve & Illidan TimeWalking for [I'll Hold These For You Until You Get Out] !! also VIP Trader !!!! Just for Gold", -- [1]
 			"Trustfist-Outland", -- [2]
@@ -2178,6 +990,1194 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Trustfist|r",
 			[51] = 1651859462,
 			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [45]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:9218:Player-1301-0A5DDDDD:1:5:7:22:4294967295:4294967295:4294967295:4294967295|h[Grand Theft, 1st Degree]|h|r!", -- [1]
+			"Broxitar-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Broxitar-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			29, -- [11]
+			"Player-1301-0A5DDDDD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Broxitar|r",
+			[51] = 1651914928,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [46]
+		{
+			"wts |cffa335ee|Hitem:65891::::::::60:64::::1:28:872::::Player-1301-09EF5CDB:|h[Vial of the Sands]|h|r", -- [1]
+			"Chipsomania-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Chipsomania-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			32, -- [11]
+			"Player-1301-09EF5CDB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaChipsomania|r",
+			[51] = 1651914944,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [47]
+		{
+			"Private team With 3K io players, Selling M+  13-20 > (Fair price) (ONLY GOLD) (share loot) Buy 5x runs and get a good discount. Team is ready to go anytime  /w me for more info", -- [1]
+			"Mikäsa-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Mikäsa-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			35, -- [11]
+			"Player-1301-0C1CC9C4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Mikäsa|r",
+			[51] = 1651915017,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [48]
+		{
+			"kazreth thok kazreth kil", -- [1]
+			"Xorxee-LaughingSkull", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Xorxee-LaughingSkull", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			205, -- [11]
+			"Player-1598-06DB42D9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Xorxee-LaughingSkull|r",
+			[51] = 1651917936,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [49]
+		{
+			"kaz dogg gi magan ", -- [1]
+			"Xorxee-LaughingSkull", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Xorxee-LaughingSkull", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			207, -- [11]
+			"Player-1598-06DB42D9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Xorxee-LaughingSkull|r",
+			[51] = 1651918284,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [50]
+		{
+			"KEK KAZRETH", -- [1]
+			"Jabbadiah-Stormscale", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Jabbadiah-Stormscale", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			209, -- [11]
+			"Player-2073-09CD7A32", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Jabbadiah-Stormscale|r",
+			[51] = 1651918828,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [51]
+		{
+			"golar", -- [1]
+			"Mazrou-TheMaelstrom", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Mazrou-TheMaelstrom", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			210, -- [11]
+			"Player-1596-0F31A6A2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcMazrou-TheMaelstrom|r",
+			[51] = 1651918835,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [52]
+		{
+			"gul l tago ag", -- [1]
+			"Jabbadiah-Stormscale", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Jabbadiah-Stormscale", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			211, -- [11]
+			"Player-2073-09CD7A32", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Jabbadiah-Stormscale|r",
+			[51] = 1651918841,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [53]
+		{
+			"golar", -- [1]
+			"Klalell-Wildhammer", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Klalell-Wildhammer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			212, -- [11]
+			"Player-1313-0C046450", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Klalell-Wildhammer|r",
+			[51] = 1651918842,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [54]
+		{
+			"kek kaz zug zaga moguna", -- [1]
+			"Mazrou-TheMaelstrom", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Mazrou-TheMaelstrom", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			213, -- [11]
+			"Player-1596-0F31A6A2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcMazrou-TheMaelstrom|r",
+			[51] = 1651918856,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [55]
+		{
+			"osh'kava tago", -- [1]
+			"Mazrou-TheMaelstrom", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Mazrou-TheMaelstrom", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			214, -- [11]
+			"Player-1596-0F31A6A2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcMazrou-TheMaelstrom|r",
+			[51] = 1651918863,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [56]
+		{
+			"nogu kek ag A zug", -- [1]
+			"Mazrou-TheMaelstrom", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Mazrou-TheMaelstrom", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			215, -- [11]
+			"Player-1596-0F31A6A2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcMazrou-TheMaelstrom|r",
+			[51] = 1651918869,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [57]
+		{
+			"kil l golar tar g moguna il tar ag", -- [1]
+			"Mazrou-TheMaelstrom", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Mazrou-TheMaelstrom", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			216, -- [11]
+			"Player-1596-0F31A6A2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcMazrou-TheMaelstrom|r",
+			[51] = 1651918875,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [58]
+		{
+			"thok kil ag kazum maza'rotha ", -- [1]
+			"Curzio-Ragnaros", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Curzio-Ragnaros", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			218, -- [11]
+			"Player-3682-09B77C9D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edCurzio-Ragnaros|r",
+			[51] = 1651919217,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [59]
+		{
+			"tar", -- [1]
+			"Thokjin-TwistingNether", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Thokjin-TwistingNether", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			219, -- [11]
+			"Player-3674-0889D096", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cThokjin-TwistingNether|r",
+			[51] = 1651919224,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [60]
+		{
+			"ko", -- [1]
+			"Curzio-Ragnaros", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Curzio-Ragnaros", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			220, -- [11]
+			"Player-3682-09B77C9D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edCurzio-Ragnaros|r",
+			[51] = 1651919228,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [61]
+		{
+			"tar", -- [1]
+			"Desley-TwistingNether", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Desley-TwistingNether", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			221, -- [11]
+			"Player-3674-09C6DB19", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Desley-TwistingNether|r",
+			[51] = 1651919229,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [62]
+		{
+			"ko", -- [1]
+			"Mazrou-TheMaelstrom", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Mazrou-TheMaelstrom", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			222, -- [11]
+			"Player-1596-0F31A6A2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcMazrou-TheMaelstrom|r",
+			[51] = 1651919254,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [63]
+		{
+			"ha l ogar ogar ag revash ogg maza zaga", -- [1]
+			"Thokjin-TwistingNether", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Thokjin-TwistingNether", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			223, -- [11]
+			"Player-3674-0889D096", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cThokjin-TwistingNether|r",
+			[51] = 1651919258,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [64]
+		{
+			"l gi grom maza A tago", -- [1]
+			"Mazrou-TheMaelstrom", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Mazrou-TheMaelstrom", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			224, -- [11]
+			"Player-1596-0F31A6A2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcMazrou-TheMaelstrom|r",
+			[51] = 1651919263,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [65]
+		{
+			"ogar ha tago gezzno l regas", -- [1]
+			"Thokjin-TwistingNether", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Thokjin-TwistingNether", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			226, -- [11]
+			"Player-3674-0889D096", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cThokjin-TwistingNether|r",
+			[51] = 1651919271,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [66]
+		{
+			"gi rath'is no'bu gi ogar", -- [1]
+			"Mazrou-TheMaelstrom", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Mazrou-TheMaelstrom", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			228, -- [11]
+			"Player-1596-0F31A6A2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcMazrou-TheMaelstrom|r",
+			[51] = 1651919282,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [67]
+		{
+			"Mog kil'azi GRom nakazz ha KA tago", -- [1]
+			"Klalell-Wildhammer", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Klalell-Wildhammer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			229, -- [11]
+			"Player-1313-0C046450", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Klalell-Wildhammer|r",
+			[51] = 1651919286,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [68]
+		{
+			"tar", -- [1]
+			"Thokjin-TwistingNether", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Thokjin-TwistingNether", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			230, -- [11]
+			"Player-3674-0889D096", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cThokjin-TwistingNether|r",
+			[51] = 1651919287,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [69]
+		{
+			"tar", -- [1]
+			"Mazrou-TheMaelstrom", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Mazrou-TheMaelstrom", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			231, -- [11]
+			"Player-1596-0F31A6A2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcMazrou-TheMaelstrom|r",
+			[51] = 1651919294,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [70]
+		{
+			"gi l zaga", -- [1]
+			"Desley-TwistingNether", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Desley-TwistingNether", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			232, -- [11]
+			"Player-3674-09C6DB19", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Desley-TwistingNether|r",
+			[51] = 1651919299,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [71]
+		{
+			"l revash osh'kava throm nogah nogu IL golar", -- [1]
+			"Thokjin-TwistingNether", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Thokjin-TwistingNether", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			234, -- [11]
+			"Player-3674-0889D096", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cThokjin-TwistingNether|r",
+			[51] = 1651919307,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [72]
+		{
+			"no'bu N zugas", -- [1]
+			"Thokjin-TwistingNether", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Thokjin-TwistingNether", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			235, -- [11]
+			"Player-3674-0889D096", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cThokjin-TwistingNether|r",
+			[51] = 1651919311,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [73]
+		{
+			"dogg", -- [1]
+			"Mazrou-TheMaelstrom", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Mazrou-TheMaelstrom", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			236, -- [11]
+			"Player-1596-0F31A6A2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcMazrou-TheMaelstrom|r",
+			[51] = 1651919316,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [74]
+		{
+			"no'gOr kazreth ", -- [1]
+			"Klalell-Wildhammer", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Klalell-Wildhammer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			237, -- [11]
+			"Player-1313-0C046450", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Klalell-Wildhammer|r",
+			[51] = 1651919318,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [75]
+		{
+			"ko no'bu nuk kil ha nakazz", -- [1]
+			"Thokjin-TwistingNether", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Thokjin-TwistingNether", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			238, -- [11]
+			"Player-3674-0889D096", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cThokjin-TwistingNether|r",
+			[51] = 1651919332,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [76]
+		{
+			"ogar kazreth grom rath'is ", -- [1]
+			"Klalell-Wildhammer", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Klalell-Wildhammer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			239, -- [11]
+			"Player-1313-0C046450", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Klalell-Wildhammer|r",
+			[51] = 1651919336,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [77]
+		{
+			"tar", -- [1]
+			"Thokjin-TwistingNether", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Thokjin-TwistingNether", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			240, -- [11]
+			"Player-3674-0889D096", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cThokjin-TwistingNether|r",
+			[51] = 1651919344,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [78]
+		{
+			"ko", -- [1]
+			"Mazrou-TheMaelstrom", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Mazrou-TheMaelstrom", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			241, -- [11]
+			"Player-1596-0F31A6A2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcMazrou-TheMaelstrom|r",
+			[51] = 1651919349,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [79]
+		{
+			"tar", -- [1]
+			"Desley-TwistingNether", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Desley-TwistingNether", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			242, -- [11]
+			"Player-3674-09C6DB19", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Desley-TwistingNether|r",
+			[51] = 1651919352,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [80]
+		{
+			"tar", -- [1]
+			"Mazrou-TheMaelstrom", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Mazrou-TheMaelstrom", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			243, -- [11]
+			"Player-1596-0F31A6A2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcMazrou-TheMaelstrom|r",
+			[51] = 1651919368,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [81]
+		{
+			"re'Ka gi maka thok ag dogg grom gi ragath'a gul tar g zug ha", -- [1]
+			"Klalell-Wildhammer", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Klalell-Wildhammer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			244, -- [11]
+			"Player-1313-0C046450", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Klalell-Wildhammer|r",
+			[51] = 1651919369,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [82]
+		{
+			"thukad kek ragath'a ha g uruk kil ogar ", -- [1]
+			"Curzio-Ragnaros", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Curzio-Ragnaros", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			245, -- [11]
+			"Player-3682-09B77C9D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edCurzio-Ragnaros|r",
+			[51] = 1651919371,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [83]
+		{
+			"l regAs lok'tar ogar ", -- [1]
+			"Thokjin-TwistingNether", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Thokjin-TwistingNether", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			246, -- [11]
+			"Player-3674-0889D096", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cThokjin-TwistingNether|r",
+			[51] = 1651919379,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [84]
+		{
+			"mog maza raznos makogg ag mog maza nakazz ag dogg", -- [1]
+			"Thokjin-TwistingNether", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Thokjin-TwistingNether", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			247, -- [11]
+			"Player-3674-0889D096", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cThokjin-TwistingNether|r",
+			[51] = 1651919388,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [85]
+		{
+			"kil nakazz maza dogg gul'rok", -- [1]
+			"Mazrou-TheMaelstrom", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Mazrou-TheMaelstrom", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			248, -- [11]
+			"Player-1596-0F31A6A2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcMazrou-TheMaelstrom|r",
+			[51] = 1651919389,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [86]
+		{
+			"thrakk gi rath'is ", -- [1]
+			"Klalell-Wildhammer", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Klalell-Wildhammer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			250, -- [11]
+			"Player-1313-0C046450", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Klalell-Wildhammer|r",
+			[51] = 1651919397,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [87]
+		{
+			"GUl golar lok'tar ogar", -- [1]
+			"Klalell-Wildhammer", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Klalell-Wildhammer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			252, -- [11]
+			"Player-1313-0C046450", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Klalell-Wildhammer|r",
+			[51] = 1651919405,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [88]
+		{
+			"kagg regas revash moguna il tar golar iL", -- [1]
+			"Sshady-TwistingNether", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Sshady-TwistingNether", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			255, -- [11]
+			"Player-3674-05B1BD65", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Sshady-TwistingNether|r",
+			[51] = 1651919468,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [89]
+		{
+			" ", -- [1]
+			"Klalell-Wildhammer", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Klalell-Wildhammer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			257, -- [11]
+			"Player-1313-0C046450", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Klalell-Wildhammer|r",
+			[51] = 1651919482,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [90]
+		{
+			"ag", -- [1]
+			"Desley-TwistingNether", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Desley-TwistingNether", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			258, -- [11]
+			"Player-3674-09C6DB19", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Desley-TwistingNether|r",
+			[51] = 1651919488,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [91]
+		{
+			"tar", -- [1]
+			"Thokjin-TwistingNether", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Thokjin-TwistingNether", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			259, -- [11]
+			"Player-3674-0889D096", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cThokjin-TwistingNether|r",
+			[51] = 1651919495,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [92]
+		{
+			"kek", -- [1]
+			"Desley-TwistingNether", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Desley-TwistingNether", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			260, -- [11]
+			"Player-3674-09C6DB19", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Desley-TwistingNether|r",
+			[51] = 1651919502,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [93]
+		{
+			"fasterrrrr", -- [1]
+			"Ravaila-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Ravaila-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			265, -- [11]
+			"Player-3391-0B3785AD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcRavaila-Silvermoon|r",
+			[51] = 1651919580,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [94]
+		{
+			"makes some strange gestures.", -- [1]
+			"Mazrou-TheMaelstrom", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mazrou-TheMaelstrom", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			266, -- [11]
+			"Player-1596-0F31A6A2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcMazrou-TheMaelstrom|r",
+			[51] = 1651919585,
+			[50] = "CHAT_MSG_EMOTE",
+		}, -- [95]
+		{
+			"makes some strange gestures.", -- [1]
+			"Mazrou-TheMaelstrom", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mazrou-TheMaelstrom", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			274, -- [11]
+			"Player-1596-0F31A6A2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcMazrou-TheMaelstrom|r",
+			[51] = 1651919758,
+			[50] = "CHAT_MSG_EMOTE",
+		}, -- [96]
+		{
+			"Rustfeather 65.31% ~(65.42, 79) |cffffff00|Hworldmap:1462:6542:7900|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Inushi-Auchindoun", -- [2]
+			"", -- [3]
+			"1. General - Mechagon", -- [4]
+			"Inushi-Auchindoun", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Mechagon", -- [9]
+			0, -- [10]
+			291, -- [11]
+			"Player-1597-0549C7BD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcInushi-Auchindoun|r",
+			[51] = 1651920105,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"Rustfeather died at 13:43 server time!", -- [1]
+			"Inushi-Auchindoun", -- [2]
+			"", -- [3]
+			"1. General - Mechagon", -- [4]
+			"Inushi-Auchindoun", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Mechagon", -- [9]
+			0, -- [10]
+			294, -- [11]
+			"Player-1597-0549C7BD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcInushi-Auchindoun|r",
+			[51] = 1651920118,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"thrakk", -- [1]
+			"Mariamelia-Stormscale", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Mariamelia-Stormscale", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			296, -- [11]
+			"Player-2073-051138A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaMariamelia-Stormscale|r",
+			[51] = 1651920182,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
