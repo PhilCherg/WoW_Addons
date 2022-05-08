@@ -27,6 +27,10 @@ VER 3 000000000000000F "Command Demon" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover,exists,nodead] [] Command Demon
 END
+VER 3 000000000000004F "Cookies" "136194"
+/say Cookies Here!!!
+/cast Create Soulwell
+END
 VER 3 0000000000000042 "CovSignature" "INV_MISC_QUESTIONMARK"
 /cast Door of Shadows
 /cast Soulshape
@@ -139,9 +143,9 @@ VER 3 0000000000000048 "Shadowburn Totem" "136191"
 /cast Shadowburn
 END
 VER 3 0000000000000039 "Shemi SS" "136210"
-/tar Eluitha
+/tar Skar
 /cast Soulstone
-/say SS on Eluith up!
+/say SS on Skar up!
 END
 VER 3 0000000000000011 "Sit" "136172"
 /sit

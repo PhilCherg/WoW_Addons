@@ -1,5 +1,5 @@
 --
--- RaiderIO Client Data. Generated on 2022-05-07T21:44:35Z
+-- RaiderIO Client Data. Generated on 2022-05-08T21:01:33Z
 --
 local _, ns = ...
 ns.GUILD_BEST_DATA = {
@@ -213,6 +213,74 @@ ns.GUILD_BEST_DATA = {
             ["name"] = "Xerah",
             ["role"] = "dps",
             ["class_id"] = 2
+          }
+        }
+      },
+      [2] = {
+        ["zone_id"] = 13228,
+        ["level"] = 2,
+        ["upgrades"] = 3,
+        ["fraction"] = 0.4422636748196733,
+        ["clear_time"] = "00:16:48.803",
+        ["party"] = {
+          [1] = {
+            ["name"] = "Insawen",
+            ["role"] = "tank",
+            ["class_id"] = 6
+          },
+          [2] = {
+            ["name"] = "Stormiiemonk",
+            ["role"] = "healer",
+            ["class_id"] = 10
+          },
+          [3] = {
+            ["name"] = "Mëg",
+            ["role"] = "dps",
+            ["class_id"] = 1
+          },
+          [4] = {
+            ["name"] = "Smõsh",
+            ["role"] = "dps",
+            ["class_id"] = 9
+          },
+          [5] = {
+            ["name"] = "Vlarion",
+            ["role"] = "dps",
+            ["class_id"] = 12
+          }
+        }
+      },
+      [3] = {
+        ["zone_id"] = 12837,
+        ["level"] = 2,
+        ["upgrades"] = 3,
+        ["fraction"] = 0.5256631890914947,
+        ["clear_time"] = "00:20:30.577",
+        ["party"] = {
+          [1] = {
+            ["name"] = "Seraphinel",
+            ["role"] = "tank",
+            ["class_id"] = 2
+          },
+          [2] = {
+            ["name"] = "Barzzakh",
+            ["role"] = "healer",
+            ["class_id"] = 5
+          },
+          [3] = {
+            ["name"] = "Mëg",
+            ["role"] = "dps",
+            ["class_id"] = 1
+          },
+          [4] = {
+            ["name"] = "Valerea",
+            ["role"] = "dps",
+            ["class_id"] = 11
+          },
+          [5] = {
+            ["name"] = "Кельтасович",
+            ["role"] = "dps",
+            ["class_id"] = 8
           }
         }
       }
@@ -682,14 +750,14 @@ ns.GUILD_BEST_DATA = {
         }
       },
       [4] = {
-        ["zone_id"] = 1000000,
-        ["level"] = 25,
-        ["upgrades"] = 1,
-        ["fraction"] = 0.9528252681867869,
-        ["clear_time"] = "00:37:10.563",
+        ["zone_id"] = 12842,
+        ["level"] = 26,
+        ["upgrades"] = 0,
+        ["fraction"] = 1.1607887691136811,
+        ["clear_time"] = "00:47:36.700",
         ["party"] = {
           [1] = {
-            ["name"] = "Половаящель",
+            ["name"] = "Startoverdh",
             ["role"] = "tank",
             ["class_id"] = 12
           },
@@ -709,18 +777,18 @@ ns.GUILD_BEST_DATA = {
             ["class_id"] = 3
           },
           [5] = {
-            ["name"] = "Виионта",
+            ["name"] = "Tplock",
             ["role"] = "dps",
-            ["class_id"] = 5
+            ["class_id"] = 9
           }
         }
       },
       [5] = {
-        ["zone_id"] = 12841,
+        ["zone_id"] = 12916,
         ["level"] = 25,
-        ["upgrades"] = 0,
-        ["fraction"] = 1.0286931296331125,
-        ["clear_time"] = "00:39:06.448",
+        ["upgrades"] = 1,
+        ["fraction"] = 0.8965459956251715,
+        ["clear_time"] = "00:32:17.435",
         ["party"] = {
           [1] = {
             ["name"] = "Startoverdh",
@@ -738,7 +806,7 @@ ns.GUILD_BEST_DATA = {
             ["class_id"] = 4
           },
           [4] = {
-            ["name"] = "Killabudz",
+            ["name"] = "Kresher",
             ["role"] = "dps",
             ["class_id"] = 9
           },
