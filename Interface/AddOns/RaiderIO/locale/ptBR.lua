@@ -1,4 +1,4 @@
--- Generated from CurseForge on Sun May  8 19:15:45 UTC 2022
+-- Generated from CurseForge on Mon May  9 19:15:43 UTC 2022
 local ns = select(2, ...) ---@type ns @The addon namespace.
 
 if ns:IsSameLocale("ptBR") then

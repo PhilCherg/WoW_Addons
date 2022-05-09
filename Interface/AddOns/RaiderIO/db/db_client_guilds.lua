@@ -1,5 +1,5 @@
 --
--- RaiderIO Client Data. Generated on 2022-05-08T21:01:33Z
+-- RaiderIO Client Data. Generated on 2022-05-09T20:45:31Z
 --
 local _, ns = ...
 ns.GUILD_BEST_DATA = {
@@ -183,6 +183,40 @@ ns.GUILD_BEST_DATA = {
     },
     ["weekly_best"] = {
       [1] = {
+        ["zone_id"] = 12841,
+        ["level"] = 4,
+        ["upgrades"] = 2,
+        ["fraction"] = 0.704810918373923,
+        ["clear_time"] = "00:26:47.673",
+        ["party"] = {
+          [1] = {
+            ["name"] = "Nümy",
+            ["role"] = "tank",
+            ["class_id"] = 2
+          },
+          [2] = {
+            ["name"] = "Vetrartoskr",
+            ["role"] = "healer",
+            ["class_id"] = 11
+          },
+          [3] = {
+            ["name"] = "Broly",
+            ["role"] = "dps",
+            ["class_id"] = 1
+          },
+          [4] = {
+            ["name"] = "Mëg",
+            ["role"] = "dps",
+            ["class_id"] = 1
+          },
+          [5] = {
+            ["name"] = "Prawk",
+            ["role"] = "dps",
+            ["class_id"] = 1
+          }
+        }
+      },
+      [2] = {
         ["zone_id"] = 13309,
         ["level"] = 3,
         ["upgrades"] = 2,
@@ -216,7 +250,7 @@ ns.GUILD_BEST_DATA = {
           }
         }
       },
-      [2] = {
+      [3] = {
         ["zone_id"] = 13228,
         ["level"] = 2,
         ["upgrades"] = 3,
@@ -250,7 +284,7 @@ ns.GUILD_BEST_DATA = {
           }
         }
       },
-      [3] = {
+      [4] = {
         ["zone_id"] = 12837,
         ["level"] = 2,
         ["upgrades"] = 3,
@@ -281,6 +315,40 @@ ns.GUILD_BEST_DATA = {
             ["name"] = "Кельтасович",
             ["role"] = "dps",
             ["class_id"] = 8
+          }
+        }
+      },
+      [5] = {
+        ["zone_id"] = 1000001,
+        ["level"] = 2,
+        ["upgrades"] = 1,
+        ["fraction"] = 0.9106479237356601,
+        ["clear_time"] = "00:27:20.076",
+        ["party"] = {
+          [1] = {
+            ["name"] = "Alvira",
+            ["role"] = "tank",
+            ["class_id"] = 12
+          },
+          [2] = {
+            ["name"] = "Grambold",
+            ["role"] = "healer",
+            ["class_id"] = 2
+          },
+          [3] = {
+            ["name"] = "Lyndisa",
+            ["role"] = "dps",
+            ["class_id"] = 9
+          },
+          [4] = {
+            ["name"] = "Mëg",
+            ["role"] = "dps",
+            ["class_id"] = 1
+          },
+          [5] = {
+            ["name"] = "Starejkorody",
+            ["role"] = "dps",
+            ["class_id"] = 2
           }
         }
       }

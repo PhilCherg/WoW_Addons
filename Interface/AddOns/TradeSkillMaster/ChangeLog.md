@@ -1,5 +1,5 @@
-## v4.11.27 Changes
+## v4.11.28 Changes
 
-* [Retail] Bonus ID updates
+* [Retail] Added proper support for the 'Vestige of the Devourers' optional material
 
 [Known Issues](https://support.tradeskillmaster.com/en_US/known_issues)
