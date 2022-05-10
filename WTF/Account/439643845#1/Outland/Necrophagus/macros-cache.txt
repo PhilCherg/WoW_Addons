@@ -35,6 +35,11 @@ VER 3 0100000000000010 "FastFelhunter" "136217"
 /cast Fel Domination
 /cast Summon Felhunter
 END
+VER 3 0100000000000018 "FastImp" "136218"
+#showtooltip Summon Imp
+/cast Fel Domination
+/cast Summon Imp
+END
 VER 3 0100000000000011 "FastVoidwalker" "136221"
 #showtooltip Summon Voidwalker
 /cast Fel Domination

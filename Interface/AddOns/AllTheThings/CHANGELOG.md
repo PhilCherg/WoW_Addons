@@ -1,93 +1,71 @@
 # AllTheThings
 
-## [SL-2.7.10](https://github.com/DFortun81/AllTheThings/tree/SL-2.7.10) (2022-05-01)
-[Full Changelog](https://github.com/DFortun81/AllTheThings/compare/SL-2.7.9...SL-2.7.10) [Previous Releases](https://github.com/DFortun81/AllTheThings/releases)
+## [SL-2.7.11](https://github.com/DFortun81/AllTheThings/tree/SL-2.7.11) (2022-05-08)
+[Full Changelog](https://github.com/DFortun81/AllTheThings/compare/SL-2.7.10...SL-2.7.11) [Previous Releases](https://github.com/DFortun81/AllTheThings/releases)
 
-- Reparse  
-- Merge pull request #990 from DFortun81/auto\_localization  
+- -- Reparse  
+- Merge pull request #995 from DFortun81/auto\_localization  
     Sync localization  
 - Sync localization  
-- Merge pull request #988 from Cagomei/patch-3  
-    Gorgrond Monster Hunter Adjustments  
-- Merge pull request #989 from DFortun81/auto\_localization  
-    Sync localization  
-- Sync localization  
-- Fixed coords in Shadowmoon Valley  
-    Fixed Shared Appearance listings for Heirlooms  
-- Fixed sourcequest id for Projections and Plans (H)  
-- ...  
-- Some of the Children's Week quests were incorrectly marked one time quests.  
-- Fixed a source quest for Children's Week.  
-- Quick name fix.  
-- Added another poor and common items.  
-- Some #errors  
-    Added a 'cost' to Spirit of Harmony so that Motes of Harmony display nested uses (probably a better solution than this later on for "click A to create B" type Items which aren't a cost or recipe...)  
-    SoO LFR Zone Drops which haven't been confirmed are now listed as NYI with proper SourceID's so it should be more apparent when someone obtains one  
-- Added white items to Dun Morogh  
-- Updated Wetlands for Classic data.  
-- Added all poor (grey) quality items into ATT. It's currently visible only in /att unsorted. It might be helpful if blizz adds these items into collection one day.  
-- Added all common (white) quality items into ATT. It's currently visible only in /att unsorted. It might be helpful if blizz adds these items into collection one day.  
-- Fixed some objectives in Ghostlands and Eversong Woods.  
-- TBC Classic Children's Week 2022 follows 2009 May 1-7: Midnight of the first through 23:59 on the night of the 7th.  
-- Updated Loch Modan for Classic data.  
-- Added coordinates for Exarch Onaala  
-- Update missing Quests  
-- Corrected and added some more coordinates reported in #retail-errors  
-- Yak Soul also drops on M+  
-- Adjusted coordinates for Mazzer Stripscrew  
-- Updated Duskwood for Classic data.  
-- '(Nested) Quest Chain Requirements' group will only be included when the popout Thing actually does have known pre-requisite Quests  
-    Things with 'provider' data will now include that information in popouts under the 'Source(s)' group, including Items/Objects/NPCs (previously it was only Items, and under Quest Chain requirements)  
-- -- Class Hall Updates  
-- Redundant map  
-- Update Achievements.lua  
-    Moved to Achievements/Explore  
-- Update 08 - Draenor.lua  
-    Added Tracking for the monsters  
-- Updated Westfall for Classic data.  
-- Added all 5.4 NYI quests  
-    Added some last WoD NYI quests  
-    Made all MoP NYI quests to show their names  
-- Updated Redridge Mountains for Classic data.  
-- Tagged a couple more Things for Chordy tooltips  
-- Antonio Perelli restructured to be based in Elwynn Forest rather than in all of the associated zones explicitly.  
-- Merged Classic Deadwind Pass data into the retail file.  
-    Moved all quests related to Return to Karazhan that were in Deadwind Pass to the dungeon. (someone should probably take a look for others, only did a quick sweep)  
-- Merged Classic Blackrock Mountain data into the retail file.  
-- Merged Classic Searing Gorge data into the Searing Gorge file.  
-- Heirlooms and their associated Upgrades have been brought back from their unexpected vacation. Sorry to all of you who thought you gained a lot of IACM progress since 2.7.2 (yes they've been away that long)  
-- Selfie Filters now generate a proper Link  
-    Fixed Source Locations not showing on certain Types of Things  
-    Barrel O' Fish available with max Shadowlands Fishing  
-- -- Some headers fix  
-- To All the Squirrels I Set Sail to See adjustments (#985)  
-    * Update 10 - Battle for Azeroth.lua  
-    * Update Achievements.lua  
-    * Update Achievements.lua  
-    * Update Achievements.lua  
-    * Update Achievements.lua  
-    * Update Achievements.lua  
-    * Update Achievements.lua  
-    * Update Achievements.lua  
-- Slight adjustment to Source Location tooltip logic  
-- Added sourcequest for a Legion LW quest  
-- Couple adjustments & #errors  
-- More Deepholm constants  
-- Fix Cosmic Aspirant's Battleaxe vendor source  
-- Slightly condensed/improved Base Object table implementation  
-- Minor adjust & #error HQT  
-- Further adjustments/fixes in ZM from personal experience  
-    MIssing object name  
-- Class Hall updates  
-- Update zhCN translation  
-- To All The Squirrels Through Time and Space adjustments  
-- Minor adjustment to row tooltip logic (noticed situations of duplicate data)  
-    Creatures/Encounters/Objects in ATT lists will not generate additional search data in tooltip  
-    Default function for modItemID doesn't need to rawset itemID  
-- Removed unnecessary text functions  
-- Another pass at revising the logic for ATT's generation of tooltips when cursoring over lists to try to consolidate logic and make the results consistent (may adjust further if there is feedback or concerns)  
-    Fixed various ATT tooltips where the text of the Thing was not being added to the tooltip as expected  
-- Prevent filling crafted and symlinks under saved quests (in addition to purchases)  
-    Crafting materials will also be prevented from duplicating from the lowest level, whereas other content will continue to be allowed to duplicate a few times for visibility  
-    Adjusted default .text logic to include .link if .name doesn't exist  
-- Fix one Korean line  
+- NYI Quest BFA.  
+    Class Hall Updates  
+    Various Errors  
+- Levixus the Soul Caller now appears in Terokkar Forest's mini list.  
+- Compendium of the Fallen is available for Blood Elves too.  
+- ItemRecipes now supports timeline/unobtainable data to be applied  
+    Copied a few examples from Cooking over (leaving them there until Classic decides to parse ItemRecipes as well)  
+    Couple coords  
+- Added the maps for the turn in for rescuing the princess.  
+- Reparsed with some fixed unobtainable data merging  
+- Parser now merges unobtainable status and timeline data from the global Item cache back into all Sources of the corresponding Items where the field is not already present. However, those fields are now only merged into the global Item cache when directly set into the ItemDB. This way the values can be provided in one place for all Sources of an Item, but an Item Sourced in multiple places with differing unobtainable statuses (i.e anything on Black Market, Time-Walking re-added Items, etc.) will not cross-contaminate other Sources of itself with erroneous unobtainable status data. whew  
+- Adjusted Teardrop Crimson Spinel's recipeID.  
+- The Tome of Polymorph Turtle bug with its timeline no longer exists, removing the bandaid.  
+- Ensemble: Epoch Sentinel's Mail tracking quest  
+- The Flesh-Bound Tome sourcequest added  
+- Key of Kalyndras HQT  
+- Setting spellID to 0 arbitrarily is pointless as the collectibility of a Thing should not be specifically determined by having a spellID or not  
+    Decided to just fix Lockpicking to not use profession() and make profession() perform its previous functionality since bubbleDown of the requireSkill value is consolidated upwards in the hierarchy and will be cleaned up where possible by the Parser (And yes in the future we will probably have a better solution for marking Things with their 'requireSkill' value(s))  
+- Re-ordered the Saved Variables that ATT generates so that it is easier to find in-game harvest/debug data when the file gets huge  
+- Inscription Recipes have proper skill requirements again  
+    Some other Item Recipes mapped properly  
+- Fixed an issue in the Parser where the 'requireSkill' field was imported from the itemDB and not converted from the expansion-specific value into the General value that ATT utilizes  
+- Parser will now consolidate 'requireSkill' upwards in the heirarchy of the DB. This way we can apply the correct requiredSkill to ALL profession recipes while parsing, and it will be consolidated upwards where needed, and maintained on recipes listed in one-off Locations which still require the per-Recipe skill filtering  
+    Alchemy recipes now have proper skill requirements applied again  
+- In TBC Classic, you can buy PVP Gear in Shatt with Tier Tokens.  
+- Added phase and timeline data for the Battle for Sun's Reach event, which commences the assault on the Isle of Quel'Danas.  
+- Chordy once more  
+- Chordy won't show on all summonable NPCs from Abominable Factory.  
+- Confirmed and fixed all level 60 boost items.  
+- Cleaned up a bunch of Shadowlands Item Recipe listings  
+- Further revised and fixed Parser logic situations for handling Recipe information for Items  
+    Added Parser debug logging to help with converting Location-Sourced Item Recipe data into their proper file  
+    More example Item Recipes  
+- Allowed Parser merging of RecipeID for Items (can't think of any situation where two identical Items can teach different Recipes...?)  
+    Stubbed out an ItemRecipes file to allow us to easily define all Item-Recipe/Profession associations in one place instead of having that data randomly scattered across hundreds of files inconsistently  
+    Provided a single example of using ItemRecipes file :D (Eventually will make the Parser complain when in Debug mode, and provide the proper Lua to copy into the ItemRecipes file to make life easier)  
+- Attached the scenario mapIDs to The Stormwind Extraction quest.  
+- Allow a slightly deeper level of duplication for filling cost/symlink groups (some things in ZM were not showing their collectibles in minilist)  
+    Tooltips should properly refresh to load their cost information instead of leaving "???" for the cost Items  
+- Added current TW weekly Cache reward  
+- Couple #errors  
+    Threw a bunch of recipe data onto various Items which were broken due to a recent change to profession data. Hopefully this is a temporary solution and we can at some point actually have a consolidated single file of ItemID -> Profession/RecipeID mappings that don't need to be strewn about in hundreds of Source files because it's really gross  
+- Fixed a possible Lua error  
+- Item Finder is now way faster at finding Items (will re-harvest Item data soon to fix some various Recipes)  
+- Collectible White/Grey items in /att unsorted as a proof of concept for Gold!  
+- Added a symlink for Barnacled Lockboxes.  
+- Custom Parameters for /att windows now support setting custom values as well (param=value)  
+    Item Finder window (/att finder) now supprts custom defined Partition and Limits for range of harvesting Item data (args: partition, limit)  
+    Revised a bit of logic for the Item Finder  
+- Disabling the automatic "requires profession" tag that gets applied to everything inside of a profession header, it's assumed as it's relative.  
+- Moved Lockpicking to the Professions section.  
+- Functions now get copied over using MergeInto in Parser.  
+- Removed a couple duplicate Quests  
+- Legion leatherworking quest requirements by @henbe  
+- Fixed an issue with the Parser where something tagged directly as a Recipe would fail to be treated as a Recipe when generating the Lua data  
+- Couple Mag'har reputation notes/requirements in Nagrand  
+- Timelines using the "deleted" keyword now properly mark themselves with an RWP field.  
+- Removed with Patch data now appears in the tooltip if it exists.  
+- No longer need to load this file first. (it was also causing other problems)  
+- Added mapIDs for New Tinkertown.  
+- The Removed with Patch (RWP) field is now a numerical value for easier comparison to now.  
+- Fix comment typos  

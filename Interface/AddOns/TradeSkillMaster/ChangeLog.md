@@ -1,5 +1,5 @@
-## v4.11.28 Changes
+## v4.11.29 Changes
 
-* [Retail] Added proper support for the 'Vestige of the Devourers' optional material
+* Fixed an issue where row text weren't always updated properly in some edge cases
 
 [Known Issues](https://support.tradeskillmaster.com/en_US/known_issues)

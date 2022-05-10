@@ -1,6 +1,7 @@
 VER 3 000000000000002B "Achiev" "1416161"
 /tar Ghostly Contender
 /challenge
+ee
 END
 VER 3 0000000000000037 "Alpaca" "136218"
 /cleartarget
@@ -94,6 +95,12 @@ VER 3 000000000000001B "Healing Wave" "136043"
 #showtooltip Healing Wave
 /use [@mouseover, exists] Healing Wave
 END
+VER 3 0000000000000051 "InvBaaradir" "134337"
+/inv Baaradir
+END
+VER 3 0000000000000050 "InvBaaradir" "INV_Misc_QuestionMark"
+/inv Baaradir
+END
 VER 3 0000000000000036 "Kill" "136217"
 /tar Siorin
 /cast Incinerate
@@ -101,11 +108,11 @@ END
 VER 3 0000000000000021 "KIss" "136217"
 /kneel
 END
+VER 3 0000000000000041 "Kneel" "INV_MISC_QUESTIONMARK"
+END
 VER 3 0000000000000028 "Kneel" "236291"
 /tar Queen
 /kneel
-END
-VER 3 0000000000000041 "Kneel" "INV_MISC_QUESTIONMARK"
 END
 VER 3 000000000000004C "MountAutoTag" "1033183"
 /tar Arachnoid Harvester

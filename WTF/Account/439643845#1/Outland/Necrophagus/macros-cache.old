@@ -63,3 +63,7 @@ VER 3 010000000000000A "Strike/Vilefiend" "INV_MISC_QUESTIONMARK"
 /cast [talent:4/2] Soul Strike
 /cast [talent:4/3] Summon Vilefiend
 END
+VER 3 0100000000000017 "Trinket" "135757"
+/use Resonant Reservoir
+/use Empyreal Ordnance
+END

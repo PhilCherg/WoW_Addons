@@ -1,0 +1,16 @@
+
+MacroToolkitDB = {
+	["global"] = {
+		["backups"] = {
+		},
+		["ebackups"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Illyana - Outland"] = "profile",
+	},
+	["profiles"] = {
+		["profile"] = {
+		},
+	},
+}

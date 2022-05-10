@@ -1,5 +1,5 @@
 --
--- RaiderIO Client Data. Generated on 2022-05-09T20:45:31Z
+-- RaiderIO Client Data. Generated on 2022-05-10T22:44:42Z
 --
 local _, ns = ...
 ns.GUILD_BEST_DATA = {
@@ -533,7 +533,40 @@ ns.GUILD_BEST_DATA = {
       }
     },
     ["weekly_best"] = {
-
+      [1] = {
+        ["zone_id"] = 12831,
+        ["level"] = 15,
+        ["upgrades"] = 1,
+        ["fraction"] = 0.8945439326100638,
+        ["clear_time"] = "00:28:38.418",
+        ["party"] = {
+          [1] = {
+            ["name"] = "Simplydk",
+            ["role"] = "tank",
+            ["class_id"] = 6
+          },
+          [2] = {
+            ["name"] = "Armoredsaint",
+            ["role"] = "healer",
+            ["class_id"] = 2
+          },
+          [3] = {
+            ["name"] = "Deadlyguns",
+            ["role"] = "dps",
+            ["class_id"] = 3
+          },
+          [4] = {
+            ["name"] = "Yodaz",
+            ["role"] = "dps",
+            ["class_id"] = 1
+          },
+          [5] = {
+            ["name"] = "Джесресида",
+            ["role"] = "dps",
+            ["class_id"] = 8
+          }
+        }
+      }
     }
   },
   ["Influenza-Outland"] = {

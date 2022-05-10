@@ -1568,6 +1568,12 @@ local function GetProgressTextForTooltip(data)
 		return GetCompletionText(data.saved);
 	end
 end
+local function GetRemovedWithPatchString(rwp)
+	if rwp then
+		rwp = tonumber(rwp);
+		return "This gets removed in patch " .. math.floor(rwp / 10000) .. "." .. (math.floor(rwp / 100) % 10) .. "." .. (rwp % 10);
+	end
+end
 app.GetProgressText = GetProgressTextDefault;
 app.GetProgressTextDefault = GetProgressTextDefault;
 app.GetProgressTextRemaining = GetProgressTextRemaining;
@@ -4498,6 +4504,9 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 		if group.description and app.Settings:GetTooltipSetting("Descriptions") then
 			tinsert(info, 1, { left = group.description, wrap = true, color = app.Colors.TooltipDescription });
 		end
+		if group.rwp then
+			tinsert(info, 1, { left = GetRemovedWithPatchString(group.rwp), wrap = true, color = "FFFFAAAA" });
+		end
 		if group.u and (not group.crs or group.itemID or group.s) then
 			tinsert(info, { left = L["UNOBTAINABLE_ITEM_REASONS"][group.u][2], wrap = true });
 		end
@@ -4728,7 +4737,7 @@ end
 (function()
 local included = {};
 local knownSkills;
-local DuplicatePreventionLevel = 3;
+local DuplicatePreventionLevel = 5;
 -- ItemID's which should be skipped when filling purchases with certain levels of 'skippability'
 app.SkipPurchases = {
 	[-1] = 0,	-- Whether to skip certain cost items
@@ -10076,6 +10085,32 @@ fields.trackable = itemFields.trackableAsQuest;
 fields.saved = itemFields.savedAsQuest;
 app.BaseItemWithQuestIDAndFactionID = app.BaseObjectFields(fields, "BaseItemWithQuestIDAndFactionID");
 
+local fields = RawCloneData(itemFields);
+fields.collectible = function(t)
+	return app.CollectibleTransmog;
+end
+fields.collected = function(t)
+	if t.itemID then
+		if GetItemCount(t.itemID, true) > 0 then
+			app.CurrentCharacter.CommonItems[t.itemID] = 1;
+			ATTAccountWideData.CommonItems[t.itemID] = 1;
+			return 1;
+		elseif app.CurrentCharacter.CommonItems[t.itemID] == 1 then
+			app.CurrentCharacter.CommonItems[t.itemID] = nil;
+			ATTAccountWideData.CommonItems[t.itemID] = nil;
+			for guid,characterData in pairs(ATTCharacterData) do
+				if characterData.CommonItems and characterData.CommonItems[t.itemID] then
+					ATTAccountWideData.CommonItems[t.itemID] = 1;
+				end
+			end
+		end
+		if ATTAccountWideData.CommonItems[t.itemID] then
+			return 2;
+		end
+	end
+end
+app.BaseCommonItem = app.BaseObjectFields(fields, "BaseCommonItem");
+
 -- Appearance Lib (Item Source)
 local fields = RawCloneData(itemFields);
 fields.key = function(t) return "s"; end;
@@ -10433,13 +10468,17 @@ app.CreateToy = function(id, t)
 end
 end)();
 
-local HarvestedItemDatabase = {};
+local HarvestedItemDatabase;
 local C_Item_GetItemInventoryTypeByID = C_Item.GetItemInventoryTypeByID;
 local itemHarvesterFields = RawCloneData(itemFields);
 itemHarvesterFields.visible = app.ReturnTrue;
 itemHarvesterFields.collectible = app.ReturnTrue;
 itemHarvesterFields.collected = app.ReturnFalse;
 itemHarvesterFields.text = function(t)
+	-- delayed localization since ATT's globals don't exist when this logic is processed on load
+	if not HarvestedItemDatabase then
+		HarvestedItemDatabase = LocalizeGlobal("AllTheThingsHarvestItems", true);
+	end
 	local link = t.link;
 	if link then
 		local itemName, itemLink, itemQuality, itemLevel, itemMinLevel, itemType, itemSubType, itemStackCount,
@@ -10490,7 +10529,6 @@ itemHarvesterFields.text = function(t)
 			t.info = info;
 			t.retries = nil;
 			HarvestedItemDatabase[t.itemID] = info;
-			AllTheThingsHarvestItems = HarvestedItemDatabase;
 			return link;
 		end
 	end
@@ -11553,7 +11591,8 @@ app.SkillIDToSpellID = {
 	[393] = 8613,	-- Skinning
 	[197] = 3908,	-- Tailoring
 	[960] = 53428,  -- Runeforging
-	[40] = 2842,	-- Poison
+	[40] = 2842,	-- Poisons
+	[633] = 1809,	-- Lockpicking
 
 	-- Specializations
 	[20219] = 20219,	-- Gnomish Engineering
@@ -11606,6 +11645,7 @@ local fields = {
 	["key"] = function(t)
 		return "professionID";
 	end,
+	--[[
 	["name"] = function(t)
 		if app.GetSpecializationBaseTradeSkill(t.professionID) then return select(1, GetSpellInfo(t.professionID)); end
 		if t.professionID == 129 then return select(1, GetSpellInfo(t.spellID)); end
@@ -11615,6 +11655,13 @@ local fields = {
 		if app.GetSpecializationBaseTradeSkill(t.professionID) then return select(3, GetSpellInfo(t.professionID)); end
 		if t.professionID == 129 then return select(3, GetSpellInfo(t.spellID)); end
 		return C_TradeSkillUI.GetTradeSkillTexture(t.professionID);
+	end,
+	]]--
+	["name"] = function(t)
+		return t.spellID ~= 2366 and select(1, GetSpellInfo(t.spellID)) or C_TradeSkillUI.GetTradeSkillDisplayName(t.professionID);
+	end,
+	["icon"] = function(t)
+		return select(3, GetSpellInfo(t.spellID)) or C_TradeSkillUI.GetTradeSkillTexture(t.professionID);
 	end,
 	["spellID"] = function(t)
 		return app.SkillIDToSpellID[t.professionID];
@@ -11710,7 +11757,7 @@ local criteriaFuncs = {
 	["label_questID"] = L["LOCK_CRITERIA_QUEST_LABEL"],
     ["text_questID"] = function(v)
 		local questObj = app.SearchForObject("questID", v);
-        return sformat("[%d] %s", v, questObj.text);
+        return sformat("[%d] %s", v, questObj and questObj.text or "???");
     end,
 
     ["spellID"] = function(v)
@@ -15710,9 +15757,9 @@ RowOnEnter = function (self)
 						end
 					elseif _ == "c" then
 						amount = v[3];
-						local currencyData = C_CurrencyInfo.GetCurrencyInfo(v[2])
-						name = C_CurrencyInfo.GetCurrencyLink(v[2], amount) or currencyData.name or "Unknown"
-						icon = currencyData.iconFileID or nil
+						local currencyData = C_CurrencyInfo.GetCurrencyInfo(v[2]);
+						name = C_CurrencyInfo.GetCurrencyLink(v[2], amount) or currencyData.name or "Unknown";
+						icon = currencyData.iconFileID or nil;
 						if amount > 1 then
 							amount = formatNumericWithCommas(amount) .. "x ";
 						else
@@ -15723,10 +15770,10 @@ RowOnEnter = function (self)
 						icon = nil;
 						amount = GetMoneyString(v[2]);
 					end
-					GameTooltip:AddDoubleLine(k == 1 and L["COST"] or " ", amount .. (icon and ("|T" .. icon .. ":0|t") or "") .. (name or "???"));
+					GameTooltip:AddDoubleLine(k == 1 and L["COST"] or " ", amount .. (icon and ("|T" .. icon .. ":0|t") or "") .. (name or RETRIEVING_DATA));
 				end
 			else
-				local amount = GetMoneyString(reference.cost)
+				local amount = GetMoneyString(reference.cost);
 				GameTooltip:AddDoubleLine(L["COST"], amount);
 			end
 		end
@@ -15749,6 +15796,20 @@ RowOnEnter = function (self)
 		-- Description
 		if app.Settings:GetTooltipSetting("Descriptions") and reference.description then
 			GameTooltip:AddLine(reference.description, 0.4, 0.8, 1, 1);
+		end
+		if reference.rwp then
+			local found = false;
+			local rwp = GetRemovedWithPatchString(reference.rwp);
+			for i=1,GameTooltip:NumLines() do
+				if _G["GameTooltipTextLeft"..i]:GetText() == rwp then
+					found = true;
+					break;
+				end
+			end
+			if not found then
+				local a,r,g,b = HexToARGB("FFFFAAAA");
+				GameTooltip:AddLine(rwp, r / 255, g / 255, b / 255, 1);
+			end
 		end
 		-- an item used for a faction which is repeatable
 		if reference.itemID and reference.factionID and reference.repeatable then
@@ -18581,48 +18642,47 @@ end;
 customWindowUpdates["ItemFinder"] = function(self, ...)
 	if self:IsVisible() then
 		if not self.initialized then
-			app.MaximumItemInfoRetries = 30;
+			local partition = app.GetCustomWindowParam("finder", "partition");
+			local limit = app.GetCustomWindowParam("finder", "limit");
+
+			app.MaximumItemInfoRetries = 10;
 			self.doesOwnUpdate = true;
 			self.initialized = true;
-			self.Limit = 200000;
-			self.PartitionSize = 1000;
+			self.Limit = tonumber(limit) or 200000;
+			self.PartitionSize = tonumber(partition) or 1000;
+			self.ScrollCount = 2;
 			local db = {};
 			local CleanUpHarvests = function()
-				local g, partition, pg, pgcount, refresh = self.data.g;
-				local count = g and #g or 0;
-				if count > 0 then
-					for p=count,1,-1 do
-						partition = g[p];
-						if partition.g and partition.expanded then
-							refresh = true;
-							pg = partition.g;
-							pgcount = #pg;
-							-- print("UpdateDone.Partition",partition.text,pgcount)
-							if pgcount > 0 then
-								for i=pgcount,1,-1 do
-									if pg[i].collected then
-										-- item harvested, so remove it
-										-- print("remove",pg[i].text)
-										table.remove(pg, i);
-									end
-								end
-							else
-								-- empty partition, so remove it
-								table.remove(g, p);
-							end
-						end
-					end
-					if refresh then
-						-- refresh the window again
-						self:BaseUpdate();
-					else
-						-- otherwise stop until a group is expanded again
-						self.UpdateDone = nil;
+				local scrollCount = self.ScrollCount;
+				local windowRows = self.rowData;
+				local completed = true;
+				local currentRow;
+				local text;
+				-- check each row in order to see if it is completed
+				while completed do
+					currentRow = windowRows[scrollCount];
+					-- i don't know why calling the .text field on the row an extra time is necessary. but otherwise this logic doesn't work.
+					text = currentRow and currentRow.text;
+					completed = currentRow and currentRow.collected;
+					if completed then
+						scrollCount = scrollCount + 1;
 					end
 				end
-			end;
+				-- set the scroll position of the window based on how many completed rows have been encountered
+				-- every row has been completed
+				if scrollCount >= #windowRows then
+					self.ScrollCount = 2;
+					self.ScrollBar:SetValue(1);
+					self.UpdateDone = nil;
+				else
+					self.ScrollCount = scrollCount;
+					self.ScrollBar:SetValue(scrollCount);
+				end
+				-- refresh the window
+				self:Refresh();
+			end
 			-- add a bunch of raw, delay-loaded items in order into the window
-			local groupCount = self.Limit / self.PartitionSize - 1;
+			local groupCount, id = math.floor(self.Limit / self.PartitionSize);
 			local g, overrides = {}, {visible=true};
 			local partition, partitionStart, partitionGroups;
 			local dlo, obj = app.DelayLoadedObject, app.CreateItemHarvester;
@@ -18634,6 +18694,7 @@ customWindowUpdates["ItemFinder"] = function(self, ...)
 					["text"] = tostring(partitionStart + 1).."+",
 					["icon"] = app.asset("Interface_Quest_header"),
 					["visible"] = true,
+					["collected"] = true,
 					["OnClick"] = function(row, button)
 						-- assign the clean up method now that the group was clicked
 						self.UpdateDone = CleanUpHarvests;
@@ -18641,8 +18702,13 @@ customWindowUpdates["ItemFinder"] = function(self, ...)
 					end,
 					["g"] = partitionGroups,
 				};
-				for i=1,self.PartitionSize,1 do
-					tinsert(partitionGroups, dlo(obj, "text", overrides, partitionStart + i));
+				if partitionStart + 1 < self.Limit then
+					for i=1,self.PartitionSize,1 do
+						id = partitionStart + i;
+						if id <= self.Limit then
+							tinsert(partitionGroups, dlo(obj, "text", overrides, id));
+						end
+					end
 				end
 				tinsert(g, partition);
 			end
@@ -21641,6 +21707,7 @@ app.Startup = function()
 	if not currentCharacter.ArtifactRelicItemLevels then currentCharacter.ArtifactRelicItemLevels = {}; end
 	if not currentCharacter.AzeriteEssenceRanks then currentCharacter.AzeriteEssenceRanks = {}; end
 	if not currentCharacter.Buildings then currentCharacter.Buildings = {}; end
+	if not currentCharacter.CommonItems then currentCharacter.CommonItems = {}; end
 	if not currentCharacter.CustomCollects then currentCharacter.CustomCollects = {}; end
 	if not currentCharacter.Deaths then currentCharacter.Deaths = 0; end
 	if not currentCharacter.Factions then currentCharacter.Factions = {}; end
@@ -21763,6 +21830,7 @@ app.Startup = function()
 	if not accountWideData.Artifacts then accountWideData.Artifacts = {}; end
 	if not accountWideData.AzeriteEssenceRanks then accountWideData.AzeriteEssenceRanks = {}; end
 	if not accountWideData.Buildings then accountWideData.Buildings = {}; end
+	if not accountWideData.CommonItems then accountWideData.CommonItems = {}; end
 	if not accountWideData.Factions then accountWideData.Factions = {}; end
 	if not accountWideData.FactionBonus then accountWideData.FactionBonus = {}; end
 	if not accountWideData.FlightPaths then accountWideData.FlightPaths = {}; end
@@ -22183,8 +22251,10 @@ SlashCmdList["AllTheThings"] = function(cmd)
 		-- app.print(args)
 		-- first arg is always the window/command to execute
 		for k=2,#args do
-			-- maybe allow input of params with values?
-			app.SetCustomWindowParam(cmd, args[k], true);
+			local customArg, customValue = args[k];
+			customArg, customValue = strsplit("=",customArg);
+			-- app.PrintDebug("Split custom arg:",customArg,customValue)
+			app.SetCustomWindowParam(cmd, customArg, customValue or true);
 		end
 		if not cmd or cmd == "" or cmd == "main" or cmd == "mainlist" then
 			app.ToggleMainList();
