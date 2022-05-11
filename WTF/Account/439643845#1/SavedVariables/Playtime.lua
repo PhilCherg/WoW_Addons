@@ -20,6 +20,6 @@ PlaytimeDB = {
 	["Xanthoros (Outland)"] = 364126,
 	["Barbaxius (Outland)"] = 328450,
 	["Nibirus (Azjol-Nerub)"] = 6832,
-	["Necrophagus (Outland)"] = 13682781,
+	["Necrophagus (Outland)"] = 13691908,
 	["Luminaxia (Outland)"] = 225796,
 }
