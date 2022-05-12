@@ -88,10 +88,10 @@ PasteDB = {
 			["whispertarget"] = "",
 			["where"] = "Default",
 			["loaded"] = true,
-			["pos"] = {
-			},
 			["minimap"] = {
 				["minimapPos"] = 181.3399852121823,
+			},
+			["pos"] = {
 			},
 		},
 		["Lianxia - Draenor"] = {
@@ -174,11 +174,11 @@ PasteDB = {
 			["whispertarget"] = "",
 			["where"] = "Default",
 			["loaded"] = true,
+			["pos"] = {
+			},
 			["minimap"] = {
 				["minimapPos"] = 185.6703494819772,
 				["hide"] = true,
-			},
-			["pos"] = {
 			},
 		},
 		["Phelanara - Outland"] = {
@@ -240,10 +240,10 @@ PasteDB = {
 			["whispertarget"] = "",
 			["where"] = "Default",
 			["loaded"] = true,
-			["pos"] = {
-			},
 			["minimap"] = {
 				["minimapPos"] = 179.0857583389598,
+			},
+			["pos"] = {
 			},
 		},
 		["Moneymakerii - Outland"] = {
