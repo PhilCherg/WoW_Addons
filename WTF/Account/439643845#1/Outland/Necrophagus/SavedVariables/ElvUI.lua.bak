@@ -2,51 +2,7 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"xD", -- [1]
-			"Swiftstrykes-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2136, -- [11]
-			"Player-1301-0BE9DFFE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Swiftstrykes|r",
-			[51] = 1652372687,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [1]
-		{
-			"Interrupted Fionara casting |cff71d5ff|Hspell:133:0|h[Fireball]|h|r", -- [1]
-			"Fionara-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fionara-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2149, -- [11]
-			"Player-1301-09D4F339", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652372771,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [2]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:15499:Player-1301-096AE5A8:1:5:12:22:4294967295:4294967295:4294967295:4294967295|h[Shadowlands Keystone Master: Season Three]|h|r!", -- [1]
+			"LOW HEALTH: Suhdüd (Rogue)", -- [1]
 			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -56,7 +12,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2165, -- [11]
+			4453, -- [11]
 			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -64,11 +20,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652372882,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [3]
+			[51] = 1652381438,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [1]
 		{
-			"do u need the necklace", -- [1]
+			"LOW HEALTH: Schiéßmuskel (Hunter)", -- [1]
 			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -78,7 +34,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2180, -- [11]
+			4456, -- [11]
 			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -86,77 +42,121 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652372906,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [4]
+			[51] = 1652381447,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [2]
 		{
-			"ANY1 |cffa335ee|Hitem:178827::::::::60:66::16:6:7795:7359:6652:7578:1576:6646:1:28:1279:::::|h[Sin Stained Pendant]|h|r?", -- [1]
-			"Kissmywings-Outland", -- [2]
+			"LOW HEALTH: Schiéßmuskel (Hunter)", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kissmywings-Outland", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2181, -- [11]
-			"Player-1301-0B22DAEF", -- [12]
+			4457, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Kissmywings|r",
-			[51] = 1652372907,
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1652381447,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [3]
+		{
+			"LOW HEALTH: Schiéßmuskel (Hunter)", -- [1]
+			"Fionara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4458, -- [11]
+			"Player-1301-09D4F339", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652381447,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [4]
+		{
+			"LOW HEALTH: Schiéßmuskel (Hunter)", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4459, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1652381447,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [5]
 		{
-			"i rly need that", -- [1]
-			"Fionara-Outland", -- [2]
+			"cruise vacation soon!", -- [1]
+			"Mediga-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Fionara-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2182, -- [11]
-			"Player-1301-09D4F339", -- [12]
+			4462, -- [11]
+			"Player-1301-0AE5944B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652372908,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff38bb9Mediga|r",
+			[51] = 1652381453,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [6]
 		{
-			"me pls", -- [1]
-			"Fionara-Outland", -- [2]
+			"where to?", -- [1]
+			"Fleafeast-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Fionara-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2183, -- [11]
-			"Player-1301-09D4F339", -- [12]
+			4464, -- [11]
+			"Player-1301-073FE8EF", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652372910,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff3ec6eaFleafeast|r",
+			[51] = 1652381465,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [7]
 		{
-			"love u", -- [1]
+			"LOW HEALTH: Suhdüd (Rogue)", -- [1]
 			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -166,7 +166,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2184, -- [11]
+			4467, -- [11]
 			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -174,55 +174,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652372921,
-			[50] = "CHAT_MSG_PARTY",
+			[51] = 1652381470,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [8]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:3849:Player-1301-0C31E3C5:1:5:12:22:4294967295:4294967295:4294967295:4294967295|h[A-bomb-ination]|h|r!", -- [1]
-			"Avaleon-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Avaleon-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2185, -- [11]
-			"Player-1301-0C31E3C5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cAvaleon|r",
-			[51] = 1652372928,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [9]
-		{
-			"ty ++", -- [1]
-			"Dèks-Dalaran", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Dèks-Dalaran", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2186, -- [11]
-			"Player-1621-09ABD372", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edDèks-Dalaran|r",
-			[51] = 1652372931,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [10]
-		{
-			"mage", -- [1]
+			"LOW HEALTH: Suhdüd (Rogue)", -- [1]
 			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -232,7 +188,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2187, -- [11]
+			4468, -- [11]
 			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -240,11 +196,55 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652372934,
+			[51] = 1652381470,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [9]
+		{
+			"LOW HEALTH: Suhdüd (Rogue)", -- [1]
+			"Fionara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4470, -- [11]
+			"Player-1301-09D4F339", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652381470,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [10]
+		{
+			"LOW HEALTH: Suhdüd (Rogue)", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4471, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1652381470,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [11]
 		{
-			"look at mount", -- [1]
+			"LOW HEALTH: Ungläubigê (Priest)", -- [1]
 			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -254,7 +254,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2189, -- [11]
+			4472, -- [11]
 			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -262,11 +262,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652372936,
+			[51] = 1652381479,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [12]
 		{
-			"lokc ", -- [1]
+			"LOW HEALTH: Ungläubigê (Priest)", -- [1]
 			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -276,7 +276,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2190, -- [11]
+			4473, -- [11]
 			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -284,11 +284,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652372942,
-			[50] = "CHAT_MSG_PARTY",
+			[51] = 1652381479,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [13]
 		{
-			"suck my cock", -- [1]
+			"Interrupted Ungläubigê-Antonidas casting |cff71d5ff|Hspell:2061:0|h[Flash Heal]|h|r", -- [1]
 			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -298,7 +298,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2191, -- [11]
+			4476, -- [11]
 			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -306,121 +306,231 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652372945,
-			[50] = "CHAT_MSG_PARTY",
+			[51] = 1652381485,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [14]
 		{
-			"you will get it too", -- [1]
-			"Kissmywings-Outland", -- [2]
+			"stockholm, enstonia and finland", -- [1]
+			"Mediga-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kissmywings-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2192, -- [11]
-			"Player-1301-0B22DAEF", -- [12]
+			4479, -- [11]
+			"Player-1301-0AE5944B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Kissmywings|r",
-			[51] = 1652372947,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff38bb9Mediga|r",
+			[51] = 1652381490,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [15]
 		{
-			"xD", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:15470:Player-1301-0BED218C:1:5:12:22:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: The Jailer]|h|r!", -- [1]
+			"Añwiel-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"Añwiel-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2193, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			4490, -- [11]
+			"Player-1301-0BED218C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652372951,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa22fc8Añwiel|r",
+			[51] = 1652381499,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [16]
 		{
-			"im 3 points away", -- [1]
-			"Fionara-Outland", -- [2]
+			"Nice", -- [1]
+			"Fleafeast-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Fionara-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2194, -- [11]
-			"Player-1301-09D4F339", -- [12]
+			4491, -- [11]
+			"Player-1301-073FE8EF", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652372951,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff3ec6eaFleafeast|r",
+			[51] = 1652381501,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [17]
 		{
-			"if you hero when needed :D", -- [1]
-			"Kissmywings-Outland", -- [2]
+			"Welcome to Stockholm", -- [1]
+			"Camila-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kissmywings-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2195, -- [11]
-			"Player-1301-0B22DAEF", -- [12]
+			4494, -- [11]
+			"Player-1301-07EC4578", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Kissmywings|r",
-			[51] = 1652372953,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffe7b09Camila|r",
+			[51] = 1652381509,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [18]
 		{
-			"nah we are friends", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"we should have been at Russia but that aint gonna happen", -- [1]
+			"Mediga-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2196, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			4496, -- [11]
+			"Player-1301-0AE5944B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652372956,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff38bb9Mediga|r",
+			[51] = 1652381519,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [19]
 		{
-			"and hes 3 points away from it xD", -- [1]
+			":(", -- [1]
+			"Mediga-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4497, -- [11]
+			"Player-1301-0AE5944B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Mediga|r",
+			[51] = 1652381524,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [20]
+		{
+			"Cookies Here!!!", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			4518, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1652381560,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [21]
+		{
+			"Enemy Spec: Discipline PRIEST", -- [1]
+			"Fionara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4521, -- [11]
+			"Player-1301-09D4F339", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652381563,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [22]
+		{
+			"Enemy Spec: Retribution PALADIN", -- [1]
+			"Fionara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4522, -- [11]
+			"Player-1301-09D4F339", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652381563,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [23]
+		{
+			"Enemy Spec: Survival HUNTER", -- [1]
+			"Fionara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4523, -- [11]
+			"Player-1301-09D4F339", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652381563,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [24]
+		{
+			"Enemy Spec: Discipline PRIEST", -- [1]
 			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -430,7 +540,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2198, -- [11]
+			4524, -- [11]
 			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -438,165 +548,33 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652372962,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [20]
-		{
-			"u called me out fr", -- [1]
-			"Fionara-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fionara-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2199, -- [11]
-			"Player-1301-09D4F339", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652372966,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [21]
-		{
-			"bye", -- [1]
-			"Fionara-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fionara-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2200, -- [11]
-			"Player-1301-09D4F339", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652372967,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [22]
-		{
-			"ty ", -- [1]
-			"Fionara-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fionara-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2201, -- [11]
-			"Player-1301-09D4F339", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652372968,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [23]
-		{
-			"bahaha ", -- [1]
-			"Kissmywings-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kissmywings-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2202, -- [11]
-			"Player-1301-0B22DAEF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Kissmywings|r",
-			[51] = 1652372971,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [24]
-		{
-			"kidding all good mate", -- [1]
-			"Kissmywings-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kissmywings-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2203, -- [11]
-			"Player-1301-0B22DAEF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Kissmywings|r",
-			[51] = 1652372974,
+			[51] = 1652381563,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [25]
 		{
-			"hope you get ksm today", -- [1]
-			"Kissmywings-Outland", -- [2]
+			"Enemy Spec: Retribution PALADIN", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kissmywings-Outland", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2204, -- [11]
-			"Player-1301-0B22DAEF", -- [12]
+			4525, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Kissmywings|r",
-			[51] = 1652372979,
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1652381563,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [26]
 		{
-			"*rolls around meowing*", -- [1]
-			"Mesra-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2205, -- [11]
-			"Player-1301-087ACDBB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Mesra|r",
-			[51] = 1652372980,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [27]
-		{
-			"thanks for group", -- [1]
+			"Enemy Spec: Survival HUNTER", -- [1]
 			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -606,7 +584,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2206, -- [11]
+			4526, -- [11]
 			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -614,11 +592,33 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652372982,
+			[51] = 1652381563,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [27]
+		{
+			"Graq - Priest", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4532, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1652381613,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [28]
 		{
-			"cya", -- [1]
+			"Lorripaladin - Paladin", -- [1]
 			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -628,7 +628,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2207, -- [11]
+			4533, -- [11]
 			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -636,55 +636,55 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652372983,
+			[51] = 1652381613,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [29]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:10693:Player-1301-0C214462:1:5:12:22:4294967295:4294967295:4294967295:4294967295|h[Fashionista: Hand]|h|r!", -- [1]
-			"Iskoldgnom-Outland", -- [2]
+			"Tjugga - Hunter", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Iskoldgnom-Outland", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2208, -- [11]
-			"Player-1301-0C214462", -- [12]
+			4534, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaIskoldgnom|r",
-			[51] = 1652372992,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1652381613,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [30]
 		{
-			"You think a lot of yourself... ", -- [1]
-			"Veethree-Outland", -- [2]
+			"Graq - Priest", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Veethree-Outland", -- [5]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			2212, -- [11]
-			"Player-1301-0C26865F", -- [12]
+			4535, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edVeethree|r",
-			[51] = 1652372995,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652381613,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [31]
 		{
-			"ty guys", -- [1]
+			"Lorripaladin - Paladin", -- [1]
 			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -694,7 +694,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2213, -- [11]
+			4536, -- [11]
 			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -702,11 +702,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652372997,
-			[50] = "CHAT_MSG_PARTY",
+			[51] = 1652381613,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [32]
 		{
-			"cya", -- [1]
+			"Tjugga - Hunter", -- [1]
 			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -716,7 +716,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2214, -- [11]
+			4537, -- [11]
 			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -724,451 +724,451 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652372998,
-			[50] = "CHAT_MSG_PARTY",
+			[51] = 1652381613,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [33]
 		{
-			"bb^^", -- [1]
-			"Dèks-Dalaran", -- [2]
+			"LOW HEALTH: Tjugga (Hunter)", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Dèks-Dalaran", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2216, -- [11]
-			"Player-1621-09ABD372", -- [12]
+			4543, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edDèks-Dalaran|r",
-			[51] = 1652373007,
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1652381638,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [34]
 		{
-			"i am", -- [1]
-			"Cowboyhenk-Outland", -- [2]
+			"LOW HEALTH: Tjugga (Hunter)", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Cowboyhenk-Outland", -- [5]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			2218, -- [11]
-			"Player-1301-0C31DCEB", -- [12]
+			4544, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Cowboyhenk|r",
-			[51] = 1652373012,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652381638,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [35]
 		{
-			"lol you cant fault his confidence", -- [1]
-			"Auraszune-Outland", -- [2]
+			"Interrupted Graq-TarrenMill casting |cff71d5ff|Hspell:605:0|h[Mind Control]|h|r", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Auraszune-Outland", -- [5]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			2219, -- [11]
-			"Player-1301-0BEB721A", -- [12]
+			4545, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Auraszune|r",
-			[51] = 1652373015,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652381665,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [36]
 		{
-			"can confirm, he is really chill and cool", -- [1]
-			"Phasmo-Outland", -- [2]
+			"LOW HEALTH: Graq (Priest)", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Phasmo-Outland", -- [5]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			2222, -- [11]
-			"Player-1301-0BA10D76", -- [12]
+			4547, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edPhasmo|r",
-			[51] = 1652373017,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652381671,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [37]
 		{
-			"u dont have socket on ur waist btw", -- [1]
-			"Kissmywings-Outland", -- [2]
+			"LOW HEALTH: Graq (Priest)", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kissmywings-Outland", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2223, -- [11]
-			"Player-1301-0B22DAEF", -- [12]
+			4548, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Kissmywings|r",
-			[51] = 1652373026,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1652381671,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [38]
 		{
-			"Phasmo, meet Cowboyhenk. Cowboyhenk, meet Phasmo.", -- [1]
-			"Veethree-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Veethree-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2226, -- [11]
-			"Player-1301-0C26865F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edVeethree|r",
-			[51] = 1652373035,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
-		{
-			"im also maining lock ", -- [1]
-			"Kissmywings-Outland", -- [2]
+			"LOW HEALTH: Tjugga (Hunter)", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kissmywings-Outland", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2228, -- [11]
-			"Player-1301-0B22DAEF", -- [12]
+			4549, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Kissmywings|r",
-			[51] = 1652373043,
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1652381687,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [39]
+		{
+			"LOW HEALTH: Tjugga (Hunter)", -- [1]
+			"Fionara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4550, -- [11]
+			"Player-1301-09D4F339", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652381687,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [40]
 		{
-			"There. Just call me cupid.", -- [1]
-			"Veethree-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Veethree-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2229, -- [11]
-			"Player-1301-0C26865F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edVeethree|r",
-			[51] = 1652373044,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
-		{
-			"aww", -- [1]
-			"Auraszune-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Auraszune-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2230, -- [11]
-			"Player-1301-0BEB721A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Auraszune|r",
-			[51] = 1652373045,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
-		{
-			"not sure if inci is what you should run", -- [1]
-			"Kissmywings-Outland", -- [2]
+			"LOW HEALTH: Tjugga (Hunter)", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kissmywings-Outland", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2231, -- [11]
-			"Player-1301-0B22DAEF", -- [12]
+			4551, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Kissmywings|r",
-			[51] = 1652373050,
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652381687,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [41]
+		{
+			"LOW HEALTH: Tjugga (Hunter)", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4552, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1652381687,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [42]
+		{
+			"LOW HEALTH: Lorripaladin (Paladin)", -- [1]
+			"Fionara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4553, -- [11]
+			"Player-1301-09D4F339", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652381696,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [43]
 		{
-			"i know", -- [1]
-			"Kissmywings-Outland", -- [2]
+			"LOW HEALTH: Lorripaladin (Paladin)", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kissmywings-Outland", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2232, -- [11]
-			"Player-1301-0B22DAEF", -- [12]
+			4554, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Kissmywings|r",
-			[51] = 1652373059,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1652381696,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [44]
 		{
-			"i need friends if anyone is interested", -- [1]
-			"Phasmo-Outland", -- [2]
+			"LOW HEALTH: Lorripaladin (Paladin)", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Phasmo-Outland", -- [5]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			2233, -- [11]
-			"Player-1301-0BA10D76", -- [12]
+			4555, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edPhasmo|r",
-			[51] = 1652373061,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652381707,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [45]
 		{
-			"I went to prison in 2012 for Vehicular Mans Laughter", -- [1]
-			"Redskirt-Outland", -- [2]
+			"LOW HEALTH: Lorripaladin (Paladin)", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Redskirt-Outland", -- [5]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			2234, -- [11]
-			"Player-1301-071B3A53", -- [12]
+			4556, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edRedskirt|r",
-			[51] = 1652373073,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1652381707,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [46]
 		{
-			"i just replaced it with the tier set machine", -- [1]
-			"Kissmywings-Outland", -- [2]
+			"LOW HEALTH: Lorripaladin (Paladin)", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kissmywings-Outland", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2236, -- [11]
-			"Player-1301-0B22DAEF", -- [12]
+			4557, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Kissmywings|r",
-			[51] = 1652373078,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652381707,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [47]
 		{
-			"and it removed the gem xD", -- [1]
-			"Kissmywings-Outland", -- [2]
+			"LOW HEALTH: Lorripaladin (Paladin)", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kissmywings-Outland", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2237, -- [11]
-			"Player-1301-0B22DAEF", -- [12]
+			4558, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Kissmywings|r",
-			[51] = 1652373081,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1652381707,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [48]
 		{
-			"and yhou should go for the aoe build in keys if you have 4p", -- [1]
-			"Kissmywings-Outland", -- [2]
+			"Enemy Spec: Subtlety ROGUE", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kissmywings-Outland", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2238, -- [11]
-			"Player-1301-0B22DAEF", -- [12]
+			4577, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Kissmywings|r",
-			[51] = 1652373087,
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652381803,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [49]
 		{
-			"does not matter the afix", -- [1]
-			"Kissmywings-Outland", -- [2]
-			"", -- [3]
+			"Cookies Here!!!", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Kissmywings-Outland", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			0, -- [10]
-			2239, -- [11]
-			"Player-1301-0B22DAEF", -- [12]
+			7, -- [10]
+			4584, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Kissmywings|r",
-			[51] = 1652373091,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1652381808,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [50]
 		{
-			"if you get |cff71d5ff|Htalent:19284|h[Soul Conduit]|h|r|cff71d5ff|Htalent:22090|h[Eradication]|h|r", -- [1]
-			"Kissmywings-Outland", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:12895:Player-1301-073FE8EF:1:5:12:22:4294967295:4294967295:4294967295:4294967295|h[Honor Level 15]|h|r!", -- [1]
+			"Fleafeast-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kissmywings-Outland", -- [5]
+			"Fleafeast-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2240, -- [11]
-			"Player-1301-0B22DAEF", -- [12]
+			4585, -- [11]
+			"Player-1301-073FE8EF", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Kissmywings|r",
-			[51] = 1652373097,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cff3ec6eaFleafeast|r",
+			[51] = 1652381810,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [51]
 		{
-			"I like skin. Dunno if that's weird or a kink but... ", -- [1]
-			"Veethree-Outland", -- [2]
+			"Enemy Spec: Subtlety ROGUE", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Veethree-Outland", -- [5]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			2241, -- [11]
-			"Player-1301-0C26865F", -- [12]
+			4586, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edVeethree|r",
-			[51] = 1652373097,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652381810,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [52]
 		{
-			"yeah well", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"Enemy Spec: Balance DRUID", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2242, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			4587, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652373100,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652381810,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [53]
 		{
-			"i already got the achiev", -- [1]
+			"Enemy Spec: Subtlety ROGUE", -- [1]
 			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1178,7 +1178,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2243, -- [11]
+			4588, -- [11]
 			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1186,33 +1186,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652373105,
+			[51] = 1652381810,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [54]
 		{
-			"ohhh", -- [1]
-			"Kissmywings-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kissmywings-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2244, -- [11]
-			"Player-1301-0B22DAEF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Kissmywings|r",
-			[51] = 1652373108,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [55]
-		{
-			"not a big m+ enjoyer myself", -- [1]
+			"Enemy Spec: Balance DRUID", -- [1]
 			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1222,7 +1200,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2245, -- [11]
+			4589, -- [11]
 			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1230,121 +1208,77 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652373112,
+			[51] = 1652381810,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [56]
+		}, -- [55]
 		{
-			"i see ", -- [1]
-			"Kissmywings-Outland", -- [2]
+			"Enemy Spec: Subtlety ROGUE", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kissmywings-Outland", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2247, -- [11]
-			"Player-1301-0B22DAEF", -- [12]
+			4591, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Kissmywings|r",
-			[51] = 1652373117,
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652381822,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [56]
+		{
+			"Enemy Spec: Balance DRUID", -- [1]
+			"Fionara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4592, -- [11]
+			"Player-1301-09D4F339", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652381822,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [57]
 		{
-			"so i will help my friend with his and not do it till next patch xD", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"Enemy Spec: Frost MAGE", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2248, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			4593, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652373123,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652381822,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [58]
 		{
-			"1 big pumper for spires 17 ?", -- [1]
-			"Swiftstrykes-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2249, -- [11]
-			"Player-1301-0BE9DFFE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Swiftstrykes|r",
-			[51] = 1652373123,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [59]
-		{
-			"99.99% of humans on the planet have skin", -- [1]
-			"Redskirt-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Redskirt-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2250, -- [11]
-			"Player-1301-071B3A53", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edRedskirt|r",
-			[51] = 1652373124,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
-		{
-			"I like pandas", -- [1]
-			"Mesra-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mesra-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2251, -- [11]
-			"Player-1301-087ACDBB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Mesra|r",
-			[51] = 1652373126,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
-		{
-			"anyways, again thanks, cya", -- [1]
+			"Enemy Spec: Subtlety ROGUE", -- [1]
 			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1354,7 +1288,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2252, -- [11]
+			4594, -- [11]
 			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1362,55 +1296,143 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652373128,
+			[51] = 1652381822,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [62]
+		}, -- [59]
 		{
-			"i got a question does the invinsible mount from the lich king ever drop?", -- [1]
-			"Eliewilliams-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Eliewilliams-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2253, -- [11]
-			"Player-1301-0B89E87B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaEliewilliams|r",
-			[51] = 1652373129,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
-		{
-			"so your are raiding or pvp more?", -- [1]
-			"Kissmywings-Outland", -- [2]
+			"Enemy Spec: Balance DRUID", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kissmywings-Outland", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2254, -- [11]
-			"Player-1301-0B22DAEF", -- [12]
+			4595, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Kissmywings|r",
-			[51] = 1652373129,
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1652381822,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [60]
+		{
+			"Enemy Spec: Frost MAGE", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4596, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1652381822,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [61]
+		{
+			"3dps", -- [1]
+			"Fionara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4597, -- [11]
+			"Player-1301-09D4F339", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652381828,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [62]
+		{
+			"care", -- [1]
+			"Fionara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4599, -- [11]
+			"Player-1301-09D4F339", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652381829,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [63]
+		{
+			"Rosebëef - Rogue", -- [1]
+			"Fionara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4605, -- [11]
+			"Player-1301-09D4F339", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652381859,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [64]
 		{
-			"yeah", -- [1]
+			"Hyüjï - Mage", -- [1]
+			"Fionara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4606, -- [11]
+			"Player-1301-09D4F339", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652381859,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [65]
+		{
+			"Rosebëef - Rogue", -- [1]
 			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1420,7 +1442,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2255, -- [11]
+			4607, -- [11]
 			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1428,779 +1450,757 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652373132,
+			[51] = 1652381859,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [65]
-		{
-			"i see", -- [1]
-			"Kissmywings-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kissmywings-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2256, -- [11]
-			"Player-1301-0B22DAEF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Kissmywings|r",
-			[51] = 1652373138,
-			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [66]
 		{
-			"No, it's invisible.", -- [1]
-			"Veethree-Outland", -- [2]
+			"Hyüjï - Mage", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Veethree-Outland", -- [5]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			2257, -- [11]
-			"Player-1301-0C26865F", -- [12]
+			4608, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edVeethree|r",
-			[51] = 1652373138,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1652381859,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [67]
 		{
-			"well enjoy", -- [1]
-			"Kissmywings-Outland", -- [2]
+			"Interrupted Hyüjï-Dalaran casting |cff71d5ff|Hspell:118:0|h[Polymorph]|h|r", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kissmywings-Outland", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2258, -- [11]
-			"Player-1301-0B22DAEF", -- [12]
+			4609, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Kissmywings|r",
-			[51] = 1652373140,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652381875,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [68]
 		{
-			"drops less than ur mums pants", -- [1]
-			"Znc-Outland", -- [2]
+			"Leywä - Druid", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Znc-Outland", -- [5]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			2259, -- [11]
-			"Player-1301-08CF1C18", -- [12]
+			4610, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Znc|r",
-			[51] = 1652373142,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1652381878,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [69]
 		{
-			"Yes", -- [1]
-			"Redskirt-Outland", -- [2]
+			"Leywä - Druid", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Redskirt-Outland", -- [5]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			2260, -- [11]
-			"Player-1301-071B3A53", -- [12]
+			4611, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edRedskirt|r",
-			[51] = 1652373142,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652381878,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [70]
 		{
-			"cya", -- [1]
-			"Kissmywings-Outland", -- [2]
+			"LOW HEALTH: Rosebëef (Rogue)", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kissmywings-Outland", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2261, -- [11]
-			"Player-1301-0B22DAEF", -- [12]
+			4613, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Kissmywings|r",
-			[51] = 1652373142,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1652381891,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [71]
 		{
-			"It doesn't exist.", -- [1]
-			"Sariridel-Outland", -- [2]
+			"LOW HEALTH: Rosebëef (Rogue)", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Sariridel-Outland", -- [5]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			2262, -- [11]
-			"Player-1301-0C321E8A", -- [12]
+			4614, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeSariridel|r",
-			[51] = 1652373142,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652381891,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [72]
 		{
-			"i met a fellow gnome mage yesterday, i helped him with a low lvl quest and made him a few bags, and this guy followed us like attenborough \"and here are 2 gnomes in their natural habit\" xD", -- [1]
-			"Auraszune-Outland", -- [2]
+			"LOW HEALTH: Hyüjï (Mage)", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Auraszune-Outland", -- [5]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			2264, -- [11]
-			"Player-1301-0BEB721A", -- [12]
+			4616, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Auraszune|r",
-			[51] = 1652373146,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652381905,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [73]
 		{
-			"probably dropped a dozen times for you! its just invisible on the ground. you have to click it", -- [1]
-			"Eranarebirth-Outland", -- [2]
+			"LOW HEALTH: Hyüjï (Mage)", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Eranarebirth-Outland", -- [5]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			2265, -- [11]
-			"Player-1301-04132539", -- [12]
+			4617, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Eranarebirth|r",
-			[51] = 1652373158,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1652381905,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [74]
 		{
-			"Sorry to break it to you but you're a Hunter", -- [1]
-			"Veethree-Outland", -- [2]
+			"sap", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Veethree-Outland", -- [5]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			2266, -- [11]
-			"Player-1301-0C26865F", -- [12]
+			4621, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edVeethree|r",
-			[51] = 1652373158,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652381922,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [75]
 		{
-			"Got it on my first try after buying a level boost (Shadowlands Pre-Order)", -- [1]
-			"Redskirt-Outland", -- [2]
+			"Interrupted Leywä-Drek'Thar casting |cff71d5ff|Hspell:33786:0|h[Cyclone]|h|r", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Redskirt-Outland", -- [5]
+			"", -- [4]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			2267, -- [11]
-			"Player-1301-071B3A53", -- [12]
+			4622, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edRedskirt|r",
-			[51] = 1652373160,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652381926,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [76]
 		{
-			".p", -- [1]
-			"Itsfrost-Outland", -- [2]
+			"LOW HEALTH: Rosebëef (Rogue)", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2273, -- [11]
-			"Player-1301-040A63C7", -- [12]
+			4623, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaItsfrost|r",
-			[51] = 1652373265,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652381936,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [77]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:977:Player-1301-0C214462:1:5:12:22:4294967295:4294967295:4294967295:4294967295|h[1000 Daily Quests Completed]|h|r!", -- [1]
-			"Iskoldgnom-Outland", -- [2]
+			"LOW HEALTH: Rosebëef (Rogue)", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Iskoldgnom-Outland", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2276, -- [11]
-			"Player-1301-0C214462", -- [12]
+			4624, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaIskoldgnom|r",
-			[51] = 1652373276,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1652381936,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [78]
 		{
-			"I love bunnies and pandas", -- [1]
-			"Mesra-Outland", -- [2]
+			"LOW HEALTH: Rosebëef (Rogue)", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2321, -- [11]
-			"Player-1301-087ACDBB", -- [12]
+			4625, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Mesra|r",
-			[51] = 1652373470,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1652381936,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [79]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:15075:Player-1301-0A1E7B72:1:5:12:22:4294967295:4294967295:4294967295:4294967295|h[Infiltrators]|h|r!", -- [1]
-			"Lsx-Outland", -- [2]
+			"LOW HEALTH: Rosebëef (Rogue)", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Lsx-Outland", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2328, -- [11]
-			"Player-1301-0A1E7B72", -- [12]
+			4626, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cLsx|r",
-			[51] = 1652373632,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652381936,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [80]
 		{
-			"anyone wanna buy |cffffffff|Hitem:173243::::::::60:269::69:3:7882:8156:1588:1:28:2142:::::|h[Grim-Veiled Sandals]|h|r cheapo", -- [1]
-			"Gonkun-Outland", -- [2]
+			"LOW HEALTH: Hyüjï (Mage)", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2329, -- [11]
-			"Player-1301-062C0C83", -- [12]
+			4630, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe97Gonkun|r",
-			[51] = 1652373669,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1652385598,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [81]
 		{
-			"how much?", -- [1]
-			"Zoinkle-Outland", -- [2]
+			"Interrupted Leywä-Drek'Thar casting |cff71d5ff|Hspell:33786:0|h[Cyclone]|h|r", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2331, -- [11]
-			"Player-1301-0C2FAD42", -- [12]
+			4634, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaZoinkle|r",
-			[51] = 1652373723,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652382027,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [82]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:10067:Player-1301-0BB8CFFA:1:5:12:22:4294967295:4294967295:4294967295:4294967295|h[In Pursuit of Gul'dan]|h|r!", -- [1]
-			"Kronós-Outland", -- [2]
+			"LOW HEALTH: Leywä (Druid)", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kronós-Outland", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2343, -- [11]
-			"Player-1301-0BB8CFFA", -- [12]
+			4638, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Kronós|r",
-			[51] = 1652373864,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652382050,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [83]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:10262:Player-1301-0BB8CFFA:1:5:12:22:4294967295:4294967295:4294967295:4294967295|h[Jungle Treasure Master]|h|r!", -- [1]
-			"Kronós-Outland", -- [2]
+			"LOW HEALTH: Leywä (Druid)", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kronós-Outland", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2346, -- [11]
-			"Player-1301-0BB8CFFA", -- [12]
+			4639, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Kronós|r",
-			[51] = 1652373900,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1652382050,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [84]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:515:Player-1301-0C31E3C5:1:5:12:22:4294967295:4294967295:4294967295:4294967295|h[500 Honorable Kills]|h|r!", -- [1]
-			"Avaleon-Outland", -- [2]
+			"LOW HEALTH: Hyüjï (Mage)", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Avaleon-Outland", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2347, -- [11]
-			"Player-1301-0C31E3C5", -- [12]
+			4641, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cAvaleon|r",
-			[51] = 1652373913,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652382058,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [85]
 		{
-			"Who goes there?!", -- [1]
-			"Ash-Talnivarr", -- [2]
+			"LOW HEALTH: Hyüjï (Mage)", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Ash-Talnivarr", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2463, -- [11]
-			"Player-1598-0986DF8E", -- [12]
+			4642, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Ash-Talnivarr|r",
-			[51] = 1652374023,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652382062,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [86]
 		{
-			"Big boys n lil girls 123", -- [1]
-			"Prikx-Outland", -- [2]
+			"LOW HEALTH: Rosebëef (Rogue)", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2675, -- [11]
-			"Player-1301-0BA534DB", -- [12]
+			4643, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefePrikx|r",
-			[51] = 1652374246,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652382064,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [87]
 		{
-			"but im smol", -- [1]
-			"Zenanda-Outland", -- [2]
+			"LOW HEALTH: Rosebëef (Rogue)", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2680, -- [11]
-			"Player-1301-0B23E9D8", -- [12]
+			4644, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Zenanda|r",
-			[51] = 1652374255,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1652382064,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [88]
 		{
-			"RED TEAM 123", -- [1]
-			"Prikx-Outland", -- [2]
+			"LOW HEALTH: Rosebëef (Rogue)", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2683, -- [11]
-			"Player-1301-0BA534DB", -- [12]
+			4645, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefePrikx|r",
-			[51] = 1652374263,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652382064,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [89]
 		{
-			"legooo", -- [1]
-			"Prikx-Outland", -- [2]
+			"LOW HEALTH: Rosebëef (Rogue)", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2684, -- [11]
-			"Player-1301-0BA534DB", -- [12]
+			4646, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefePrikx|r",
-			[51] = 1652374264,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1652382064,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [90]
 		{
-			"my mom says I'm red team :)", -- [1]
-			"Nénhalla-Outland", -- [2]
+			"LOW HEALTH: Rosebëef (Rogue)", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2692, -- [11]
-			"Player-1301-0BF8A914", -- [12]
+			4648, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Nénhalla|r",
-			[51] = 1652374278,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652382074,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [91]
 		{
-			"123", -- [1]
-			"Shugahnips-Outland", -- [2]
+			"LOW HEALTH: Rosebëef (Rogue)", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2695, -- [11]
-			"Player-1301-05D7FA70", -- [12]
+			4649, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeShugahnips|r",
-			[51] = 1652374279,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1652382074,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [92]
 		{
-			"bread team", -- [1]
-			"Shugahnips-Outland", -- [2]
+			"LOW HEALTH: Rosebëef (Rogue)", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2704, -- [11]
-			"Player-1301-05D7FA70", -- [12]
+			4650, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeShugahnips|r",
-			[51] = 1652374286,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1652382074,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [93]
 		{
-			"eat da bread", -- [1]
-			"Augustíne-Outland", -- [2]
+			"LOW HEALTH: Rosebëef (Rogue)", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2712, -- [11]
-			"Player-1301-0C28DCDF", -- [12]
+			4651, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Augustíne|r",
-			[51] = 1652374291,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652382074,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [94]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:15418:Player-1301-0C30784C:1:5:12:22:4294967295:4294967295:4294967295:4294967295|h[The Grand Design]|h|r!", -- [1]
-			"Beltizek-Outland", -- [2]
+			"how did he not die again", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Beltizek-Outland", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2737, -- [11]
-			"Player-1301-0C30784C", -- [12]
+			4660, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Beltizek|r",
-			[51] = 1652374317,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652382088,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [95]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:1556:Player-1301-0BEBC7A2:1:5:12:22:4294967295:4294967295:4294967295:4294967295|h[25 Fish]|h|r!", -- [1]
-			"Tokikoo-Outland", -- [2]
+			"we r gonna go play league", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Tokikoo-Outland", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2798, -- [11]
-			"Player-1301-0BEBC7A2", -- [12]
+			4668, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Tokikoo|r",
-			[51] = 1652374390,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652382112,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [96]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:1557:Player-1301-0BEBC7A2:1:5:12:22:4294967295:4294967295:4294967295:4294967295|h[50 Fish]|h|r!", -- [1]
-			"Tokikoo-Outland", -- [2]
+			"kk, thc for games ;)", -- [1]
+			"Dodyn-TwistingNether", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Tokikoo-Outland", -- [5]
+			"Dodyn-TwistingNether", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2976, -- [11]
-			"Player-1301-0BEBC7A2", -- [12]
+			4669, -- [11]
+			"Player-3674-0A5B8D9D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Tokikoo|r",
-			[51] = 1652374733,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Dodyn-TwistingNether|r",
+			[51] = 1652382127,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [97]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:1182:Player-1301-0C2FAD42:1:5:12:22:4294967295:4294967295:4294967295:4294967295|h[The Bread Winner]|h|r!", -- [1]
-			"Zoinkle-Outland", -- [2]
+			"see ya man and ty for the gmes", -- [1]
+			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zoinkle-Outland", -- [5]
+			"Fionara-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2994, -- [11]
-			"Player-1301-0C2FAD42", -- [12]
+			4670, -- [11]
+			"Player-1301-09D4F339", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaZoinkle|r",
-			[51] = 1652374806,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff3ec6eaFionara|r",
+			[51] = 1652382127,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [98]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14840:Player-1301-0C2F7712:1:5:12:22:4294967295:4294967295:4294967295:4294967295|h[Adventures: Learning the Ropes]|h|r!", -- [1]
-			"Ukgaming-Outland", -- [2]
+			"cya", -- [1]
+			"Dodyn-TwistingNether", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Ukgaming-Outland", -- [5]
+			"Dodyn-TwistingNether", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3019, -- [11]
-			"Player-1301-0C2F7712", -- [12]
+			4671, -- [11]
+			"Player-3674-0A5B8D9D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeUkgaming|r",
-			[51] = 1652374997,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Dodyn-TwistingNether|r",
+			[51] = 1652382127,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/p like this?", -- [1]
-		"/p mage", -- [2]
-		"/p look at mount", -- [3]
-		"/p xD", -- [4]
-		"/p nah we are friends", -- [5]
-		"/p and hes 3 points away from it xD", -- [6]
-		"/p thanks for group", -- [7]
-		"/p cya", -- [8]
-		"/cw Kissmywings-Outland i know", -- [9]
-		"/cw Kissmywings-Outland i just replaced it with the tier set machine", -- [10]
-		"/cw Kissmywings-Outland and it removed the gem xD", -- [11]
-		"/p yeah well", -- [12]
-		"/p i already got the achiev", -- [13]
-		"/p not a big m+ enjoyer myself", -- [14]
-		"/p so i will help my friend with his and not do it till next patch xD", -- [15]
-		"/p anyways, again thanks, cya", -- [16]
-		"/p yeah", -- [17]
-		"/mountspecial", -- [18]
-		"/wa", -- [19]
-		"/reload", -- [20]
+		"/cw Kissmywings-Outland i just replaced it with the tier set machine", -- [1]
+		"/cw Kissmywings-Outland and it removed the gem xD", -- [2]
+		"/p yeah well", -- [3]
+		"/p i already got the achiev", -- [4]
+		"/p not a big m+ enjoyer myself", -- [5]
+		"/p so i will help my friend with his and not do it till next patch xD", -- [6]
+		"/p anyways, again thanks, cya", -- [7]
+		"/mountspecial", -- [8]
+		"/reload", -- [9]
+		"/dbm", -- [10]
+		"/wa", -- [11]
+		"/p yeah", -- [12]
+		"/p lets see", -- [13]
+		"/p no one applies for this so it will prob take a while", -- [14]
+		"/g gz!!!", -- [15]
+		"/p hey", -- [16]
+		"/p just a sec", -- [17]
+		"/p pala", -- [18]
+		"/p how much did the glad mount cost back in the day?", -- [19]
+		"/p yeah but how much gold did you pay", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }
