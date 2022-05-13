@@ -61,19 +61,19 @@ BWQDB = {
 		["Bankeristor - Outland"] = {
 			["activeProfile"] = 0,
 		},
-		["Elementior - Outland"] = {
+		["Feastthree - Outland"] = {
 			["activeProfile"] = 0,
 		},
-		["Wolfdestroye - Outland"] = {
+		["Presentone - Outland"] = {
 			["activeProfile"] = 0,
 		},
-		["Bullenic - Silvermoon"] = {
+		["Shadroxia - Outland"] = {
 			["activeProfile"] = 0,
 		},
 		["Barbaxius - Outland"] = {
 			["activeProfile"] = 0,
 		},
-		["Feastone - Outland"] = {
+		["Asdfsadfsadf - Outland"] = {
 			["activeProfile"] = 0,
 		},
 		["Illydaria - Draenor"] = {
@@ -91,19 +91,19 @@ BWQDB = {
 		["Chernakotka - Die Aldor"] = {
 			["activeProfile"] = 0,
 		},
-		["Asdfsadfsadf - Outland"] = {
+		["Feastone - Outland"] = {
 			["activeProfile"] = 0,
 		},
 		["Serthaxion - Outland"] = {
 			["activeProfile"] = 0,
 		},
-		["Shadroxia - Outland"] = {
+		["Bullenic - Silvermoon"] = {
 			["activeProfile"] = 0,
 		},
-		["Presentone - Outland"] = {
+		["Wolfdestroye - Outland"] = {
 			["activeProfile"] = 0,
 		},
-		["Feastthree - Outland"] = {
+		["Elementior - Outland"] = {
 			["activeProfile"] = 0,
 		},
 	},
@@ -112,21 +112,21 @@ BWQDB = {
 		["versionCheck"] = "9.0.08.2",
 		["profiles"] = {
 			[0] = {
+				["name"] = "Default",
 				["colors"] = {
 				},
-				["name"] = "Default",
 				["list"] = {
+				},
+				["general"] = {
+					["showDisliked"] = false,
+					["useLFGButtons"] = true,
+					["sortBy"] = 7,
 				},
 				["pin"] = {
 				},
 				["external"] = {
 					["TomTom"] = {
 					},
-				},
-				["general"] = {
-					["showDisliked"] = false,
-					["useLFGButtons"] = true,
-					["sortBy"] = 7,
 				},
 				["filters"] = {
 				},
@@ -154,20 +154,20 @@ BWQDB = {
 		["Käguya - Turalyon"] = "Default",
 		["Feastfive - Outland"] = "Default",
 		["Bankeristor - Outland"] = "Default",
-		["Elementior - Outland"] = "Default",
-		["Wolfdestroye - Outland"] = "Default",
-		["Bullenic - Silvermoon"] = "Default",
+		["Feastthree - Outland"] = "Default",
+		["Presentone - Outland"] = "Default",
+		["Shadroxia - Outland"] = "Default",
 		["Barbaxius - Outland"] = "Default",
-		["Feastone - Outland"] = "Default",
+		["Asdfsadfsadf - Outland"] = "Default",
 		["Illydaria - Draenor"] = "Default",
 		["Aasdfasdfd - Outland"] = "Default",
 		["Illyana - Outland"] = "Default",
 		["Phaltraxion - Outland"] = "Default",
 		["Chernakotka - Die Aldor"] = "Default",
-		["Asdfsadfsadf - Outland"] = "Default",
+		["Feastone - Outland"] = "Default",
 		["Serthaxion - Outland"] = "Default",
-		["Shadroxia - Outland"] = "Default",
-		["Presentone - Outland"] = "Default",
-		["Feastthree - Outland"] = "Default",
+		["Bullenic - Silvermoon"] = "Default",
+		["Wolfdestroye - Outland"] = "Default",
+		["Elementior - Outland"] = "Default",
 	},
 }

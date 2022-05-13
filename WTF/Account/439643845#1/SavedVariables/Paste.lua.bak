@@ -18,10 +18,10 @@ PasteDB = {
 		["Asdawdwd - Outland"] = "Asdawdwd - Outland",
 		["Lysanaria - Outland"] = "Lysanaria - Outland",
 		["Moneyseven - Outland"] = "Moneyseven - Outland",
-		["Feattwo - Outland"] = "Feattwo - Outland",
+		["Illydaria - Draenor"] = "Illydaria - Draenor",
 		["Destruxia - Outland"] = "Destruxia - Outland",
 		["Phalonius - Azjol-Nerub"] = "Phalonius - Azjol-Nerub",
-		["Wolfados - Azjol-Nerub"] = "Wolfados - Azjol-Nerub",
+		["Afadsfasdfs - Outland"] = "Afadsfasdfs - Outland",
 		["Farmerixus - Outland"] = "Farmerixus - Outland",
 		["Luminaxia - Outland"] = "Luminaxia - Outland",
 		["Testfirst - Outland"] = "Testfirst - Outland",
@@ -55,8 +55,8 @@ PasteDB = {
 		["Chernakotka - Die Aldor"] = "Chernakotka - Die Aldor",
 		["Moneyfour - Outland"] = "Moneyfour - Outland",
 		["Serthaxion - Outland"] = "Serthaxion - Outland",
-		["Afadsfasdfs - Outland"] = "Afadsfasdfs - Outland",
-		["Illydaria - Draenor"] = "Illydaria - Draenor",
+		["Wolfados - Azjol-Nerub"] = "Wolfados - Azjol-Nerub",
+		["Feattwo - Outland"] = "Feattwo - Outland",
 		["Elementior - Outland"] = "Elementior - Outland",
 	},
 	["profiles"] = {
@@ -133,7 +133,7 @@ PasteDB = {
 		["Moneyseven - Outland"] = {
 			["loaded"] = true,
 		},
-		["Feattwo - Outland"] = {
+		["Illydaria - Draenor"] = {
 			["loaded"] = true,
 		},
 		["Destruxia - Outland"] = {
@@ -142,7 +142,7 @@ PasteDB = {
 		["Phalonius - Azjol-Nerub"] = {
 			["loaded"] = true,
 		},
-		["Wolfados - Azjol-Nerub"] = {
+		["Afadsfasdfs - Outland"] = {
 			["loaded"] = true,
 		},
 		["Farmerixus - Outland"] = {
@@ -272,10 +272,10 @@ PasteDB = {
 		["Serthaxion - Outland"] = {
 			["loaded"] = true,
 		},
-		["Afadsfasdfs - Outland"] = {
+		["Wolfados - Azjol-Nerub"] = {
 			["loaded"] = true,
 		},
-		["Illydaria - Draenor"] = {
+		["Feattwo - Outland"] = {
 			["loaded"] = true,
 		},
 		["Elementior - Outland"] = {
