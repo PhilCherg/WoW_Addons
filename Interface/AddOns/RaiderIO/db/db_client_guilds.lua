@@ -1,5 +1,5 @@
 --
--- RaiderIO Client Data. Generated on 2022-05-13T20:59:20Z
+-- RaiderIO Client Data. Generated on 2022-05-14T18:55:18Z
 --
 local _, ns = ...
 ns.GUILD_BEST_DATA = {
@@ -784,6 +784,40 @@ ns.GUILD_BEST_DATA = {
         }
       },
       [3] = {
+        ["zone_id"] = 12842,
+        ["level"] = 23,
+        ["upgrades"] = 1,
+        ["fraction"] = 0.8859182795279478,
+        ["clear_time"] = "00:36:20.244",
+        ["party"] = {
+          [1] = {
+            ["name"] = "Elfarïse",
+            ["role"] = "tank",
+            ["class_id"] = 6
+          },
+          [2] = {
+            ["name"] = "Shugahnips",
+            ["role"] = "healer",
+            ["class_id"] = 5
+          },
+          [3] = {
+            ["name"] = "Arthémîs",
+            ["role"] = "dps",
+            ["class_id"] = 3
+          },
+          [4] = {
+            ["name"] = "Enialock",
+            ["role"] = "dps",
+            ["class_id"] = 9
+          },
+          [5] = {
+            ["name"] = "Néphaistøs",
+            ["role"] = "dps",
+            ["class_id"] = 3
+          }
+        }
+      },
+      [4] = {
         ["zone_id"] = 1000000,
         ["level"] = 23,
         ["upgrades"] = 1,
@@ -817,7 +851,7 @@ ns.GUILD_BEST_DATA = {
           }
         }
       },
-      [4] = {
+      [5] = {
         ["zone_id"] = 1000000,
         ["level"] = 23,
         ["upgrades"] = 1,
@@ -848,40 +882,6 @@ ns.GUILD_BEST_DATA = {
             ["name"] = "Superman",
             ["role"] = "dps",
             ["class_id"] = 1
-          }
-        }
-      },
-      [5] = {
-        ["zone_id"] = 12837,
-        ["level"] = 23,
-        ["upgrades"] = 1,
-        ["fraction"] = 0.9937847047350298,
-        ["clear_time"] = "00:38:46.449",
-        ["party"] = {
-          [1] = {
-            ["name"] = "Tankabbott",
-            ["role"] = "tank",
-            ["class_id"] = 2
-          },
-          [2] = {
-            ["name"] = "Katheríne",
-            ["role"] = "healer",
-            ["class_id"] = 2
-          },
-          [3] = {
-            ["name"] = "Johna",
-            ["role"] = "dps",
-            ["class_id"] = 8
-          },
-          [4] = {
-            ["name"] = "Lorspeattat",
-            ["role"] = "dps",
-            ["class_id"] = 9
-          },
-          [5] = {
-            ["name"] = "Yäpo",
-            ["role"] = "dps",
-            ["class_id"] = 3
           }
         }
       }

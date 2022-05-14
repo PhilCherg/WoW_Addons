@@ -673,7 +673,7 @@ PremadeGroupsFilterState = {
 		},
 		["sorting"] = "",
 	},
-	["t3c1f0"] = {
+	["t3c3f2"] = {
 		["enabled"] = true,
 		["tanks"] = {
 			["max"] = "",
@@ -800,7 +800,7 @@ PremadeGroupsFilterState = {
 		["sorting"] = "",
 	},
 	["moveable"] = false,
-	["t3c3f2"] = {
+	["t3c1f0"] = {
 		["enabled"] = true,
 		["tanks"] = {
 			["max"] = "",
@@ -1094,7 +1094,7 @@ PremadeGroupsFilterState = {
 		},
 		["sorting"] = "",
 	},
-	["t3c6f5"] = {
+	["t1c2f5"] = {
 		["enabled"] = true,
 		["tanks"] = {
 			["max"] = "",
@@ -1136,7 +1136,7 @@ PremadeGroupsFilterState = {
 		},
 		["sorting"] = "",
 	},
-	["t1c2f5"] = {
+	["t3c6f5"] = {
 		["enabled"] = true,
 		["tanks"] = {
 			["max"] = "",

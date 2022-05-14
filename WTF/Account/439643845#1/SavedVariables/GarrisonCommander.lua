@@ -29,6 +29,12 @@ dbGAC = {
 			["firstun"] = false,
 		},
 	},
+	["global"] = {
+		["firstrun"] = false,
+		["news"] = {
+			["MissionControl"] = true,
+		},
+	},
 	["profileKeys"] = {
 		["Phelanara - Outland"] = "Default",
 		["Xanthoros - Outland"] = "Default",
@@ -40,18 +46,12 @@ dbGAC = {
 		["Lianxia - Draenor"] = "Default",
 		["Necrophagus - Outland"] = "Default",
 	},
-	["global"] = {
-		["firstrun"] = false,
-		["news"] = {
-			["MissionControl"] = true,
-		},
-	},
 	["profiles"] = {
 		["Default"] = {
 			["shipControl"] = {
 				["rig"] = false,
 				["skipEpic"] = false,
-				["minLevel"] = 535,
+				["version"] = 3,
 				["rewardList"] = {
 					"gold", -- [1]
 					"rush", -- [2]
@@ -68,7 +68,7 @@ dbGAC = {
 					"toys", -- [13]
 					"reputation", -- [14]
 				},
-				["version"] = 3,
+				["minLevel"] = 535,
 				["minimumChance"] = 50,
 			},
 			["missionControl"] = {
@@ -92,40 +92,40 @@ dbGAC = {
 					"toys", -- [15]
 					"reputation", -- [16]
 				},
-				["minimumChance"] = 50,
 				["skipRare"] = false,
+				["minimumChance"] = 50,
 			},
 			["toggles"] = {
-				["SGCSKIPEPIC"] = false,
 				["IGP"] = true,
+				["SGCSKIPEPIC"] = false,
 				["NOTOOLTIP"] = false,
 				["MINGOLD"] = 50,
 				["MSORT"] = "Garrison_SortMissions_Original",
-				["SHIPPIN"] = true,
+				["GCSKIPEPIC"] = false,
 				["PIN"] = true,
-				["SWAPBUTTONS"] = false,
+				["MAXRES"] = true,
 				["IXP"] = true,
-				["MINXPLEVEL"] = 30,
-				["MAXRESCHANCE"] = 80,
+				["SWAPBUTTONS"] = false,
+				["USEFUL"] = true,
 				["IGM"] = true,
 				["HF"] = false,
 				["SHIPENHA"] = false,
-				["MINPERC"] = 50,
+				["MAXMISSIONS"] = 5,
 				["SAUTOLOGOUT"] = false,
 				["UPG"] = true,
-				["USEFUL"] = true,
-				["GCMINLEVEL"] = 540,
-				["BIGSCREEN"] = true,
-				["MAXMISSIONS"] = 5,
-				["AUTOLOGOUT"] = false,
-				["GCSKIPRARE"] = false,
-				["ILV"] = true,
-				["NOFILL"] = false,
+				["MAXRESCHANCE"] = 80,
 				["SGCMINLEVEL"] = 535,
+				["NOFILL"] = false,
+				["MINPERC"] = 50,
+				["AUTOLOGOUT"] = false,
+				["GCMINLEVEL"] = 540,
+				["ILV"] = true,
+				["BIGSCREEN"] = true,
+				["GCSKIPRARE"] = false,
 				["GCMINUPGRADE"] = 600,
 				["NOCONFIRM"] = true,
-				["MAXRES"] = true,
-				["GCSKIPEPIC"] = false,
+				["MINXPLEVEL"] = 30,
+				["SHIPPIN"] = true,
 				["SGCRIG"] = false,
 			},
 		},
