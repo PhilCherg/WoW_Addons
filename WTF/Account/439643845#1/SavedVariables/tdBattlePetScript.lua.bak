@@ -1,5 +1,22 @@
 
 TD_DB_BATTLEPETSCRIPT_GLOBAL = {
+	["global"] = {
+		["version"] = 99999.99,
+		["scripts"] = {
+			["AllInOne"] = {
+			},
+			["Base"] = {
+			},
+			["FirstEnemy"] = {
+			},
+			["Rematch"] = {
+				["Squirt Boosting"] = {
+					["name"] = "Squirt Boosting",
+					["code"] = "use(Sweep:457) [round=1]\nchange(next) [round=2]\nchange(Weebomination:1394) [round=3]\nif [ally(Weebomination:1394).active]\nuse(Cleave:1273)\nendif\nchange(Enchanted Broom:213)\nuse(Sweep:457)\nuse(Clean-Up:456)\nuse(Broom:452)",
+				},
+			},
+		},
+	},
 	["profileKeys"] = {
 		["Bankeristor - Outland"] = "Default",
 		["Barbaxius - Outland"] = "Default",
@@ -8,29 +25,12 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 		["Phaltraxion - Outland"] = "Default",
 		["Illyana - Outland"] = "Default",
 		["Destruxia - Outland"] = "Default",
-		["Serthaxion - Outland"] = "Default",
-		["Phaladinus - Outland"] = "Default",
 		["Shadroxia - Outland"] = "Default",
+		["Phaladinus - Outland"] = "Default",
+		["Serthaxion - Outland"] = "Default",
 		["Luminaxia - Outland"] = "Default",
 		["Phelanara - Outland"] = "Default",
 		["Elementior - Outland"] = "Default",
-	},
-	["global"] = {
-		["version"] = 99999.99,
-		["scripts"] = {
-			["Rematch"] = {
-				["Squirt Boosting"] = {
-					["name"] = "Squirt Boosting",
-					["code"] = "use(Sweep:457) [round=1]\nchange(next) [round=2]\nchange(Weebomination:1394) [round=3]\nif [ally(Weebomination:1394).active]\nuse(Cleave:1273)\nendif\nchange(Enchanted Broom:213)\nuse(Sweep:457)\nuse(Clean-Up:456)\nuse(Broom:452)",
-				},
-			},
-			["FirstEnemy"] = {
-			},
-			["Base"] = {
-			},
-			["AllInOne"] = {
-			},
-		},
 	},
 	["profiles"] = {
 		["Default"] = {

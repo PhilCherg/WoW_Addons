@@ -4,1359 +4,1359 @@ Blizzard_Console_SavedVars = {
 	["height"] = 299.9999694824219,
 	["messageHistory"] = {
 		{
-			"---ClientPetBattleFinished---", -- [1]
+			"[GlueLogin] Logon complete.", -- [1]
 			0, -- [2]
 		}, -- [1]
 		{
-			"World transfer pending...", -- [1]
+			"[GlueLogin] Reconnect token saved; creationTime=\"1652525376\" expirationTime=\"1652539776\"", -- [1]
 			0, -- [2]
 		}, -- [2]
 		{
-			"Got new connection 3", -- [1]
+			"[GlueLogin] Waiting for realm list.", -- [1]
 			0, -- [2]
 		}, -- [3]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"[IBN_Login] Requesting realm list ticket", -- [1]
 			0, -- [2]
 		}, -- [4]
 		{
-			"World transfer pending...", -- [1]
+			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [5]
 		{
-			"Got new connection 3", -- [1]
+			"[GlueLogin] Waiting for realm list.", -- [1]
 			0, -- [2]
 		}, -- [6]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [7]
 		{
-			"World transfer pending...", -- [1]
+			"[IBN_Login] Requesting last played charsnumSubRegions=\"3\"", -- [1]
 			0, -- [2]
 		}, -- [8]
 		{
-			"Got new connection 3", -- [1]
+			"[GlueLogin] Realm list ready.", -- [1]
 			0, -- [2]
 		}, -- [9]
 		{
-			"Weather changed to 2, intensity 0.800000\n", -- [1]
+			"[IBN_Login] Joining realmsubRegion=\"3-4-89\" realmAddress=\"3-5-4\"", -- [1]
 			0, -- [2]
 		}, -- [10]
 		{
-			"Weather changed to 2, intensity 0.800000\n", -- [1]
+			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [11]
 		{
-			"World transfer pending...", -- [1]
+			"NetClient::HandleConnect()\n", -- [1]
 			0, -- [2]
 		}, -- [12]
 		{
-			"Got new connection 3", -- [1]
+			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [13]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Got new connection 2", -- [1]
 			0, -- [2]
 		}, -- [14]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"[IBN_Login] Front disconnectingconnectionId=\"1\"", -- [1]
 			0, -- [2]
 		}, -- [15]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"[GlueLogin] Disconnecting from authentication server.", -- [1]
 			0, -- [2]
 		}, -- [16]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
 			0, -- [2]
 		}, -- [17]
 		{
-			"World transfer pending...", -- [1]
+			"[IBN_Login] Front disconnectedconnectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
 			0, -- [2]
 		}, -- [18]
 		{
-			"Got new connection 3", -- [1]
+			"[GlueLogin] Disconnected from authentication server.", -- [1]
 			0, -- [2]
 		}, -- [19]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"[WowEntitlements] [BNetAccount-0-00001A346EC5] [WowAccount-0-000005146EC9] Initialized with 15 entitlements.", -- [1]
 			0, -- [2]
 		}, -- [20]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [21]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
-			0, -- [2]
-		}, -- [22]
-		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
-			0, -- [2]
-		}, -- [23]
-		{
-			"PetBattle Initial Update", -- [1]
-			0, -- [2]
-		}, -- [24]
-		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [25]
-		{
-			"     Slot   0, Species 1977, Health 1400, Level  25, DisplayID 70068, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [26]
-		{
-			"        abilities : 1370, 1773, 518,", -- [1]
-			0, -- [2]
-		}, -- [27]
-		{
-			"     Slot   1, Species 1974, Health 1400, Level  25, DisplayID 70071, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [28]
-		{
-			"        abilities : 1773, 524, 518,", -- [1]
-			0, -- [2]
-		}, -- [29]
-		{
-			"     Slot   2, Species 1976, Health 1400, Level  25, DisplayID 70069, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [30]
-		{
-			"        abilities : 1773, 514, 518,", -- [1]
-			0, -- [2]
-		}, -- [31]
-		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [32]
-		{
-			"     Slot   0, Species 2397, Health 1083, Level  25, DisplayID 81076, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [33]
-		{
-			"        abilities : 1223, 517, 1772,", -- [1]
-			0, -- [2]
-		}, -- [34]
-		{
-			"     Slot   1, Species 2392, Health 1036, Level  25, DisplayID 79015, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [35]
-		{
-			"        abilities : 118, 249, 564,", -- [1]
-			0, -- [2]
-		}, -- [36]
-		{
-			"     Slot   2, Species 2400, Health 1145, Level  25, DisplayID 6296, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [37]
-		{
-			"        abilities : 233, 922, 932,", -- [1]
-			0, -- [2]
-		}, -- [38]
-		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
-			0, -- [2]
-		}, -- [39]
-		{
-			"---Battle Begin---", -- [1]
-			0, -- [2]
-		}, -- [40]
-		{
-			"  PetSwap P0 PET 0", -- [1]
-			0, -- [2]
-		}, -- [41]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [42]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [43]
-		{
-			"---Replacements made---", -- [1]
-			0, -- [2]
-		}, -- [44]
-		{
-			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
-			0, -- [2]
-		}, -- [45]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [46]
-		{
-			"---Replacements made---", -- [1]
-			0, -- [2]
-		}, -- [47]
-		{
-			"  P1 PET 1 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
-			0, -- [2]
-		}, -- [48]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [49]
-		{
-			"---BattleFinished: You Won ---", -- [1]
-			0, -- [2]
-		}, -- [50]
-		{
-			"<waiting for PetBattleInput final>", -- [1]
-			0, -- [2]
-		}, -- [51]
-		{
-			"---ClientPetBattleFinished---", -- [1]
-			0, -- [2]
-		}, -- [52]
-		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
-			0, -- [2]
-		}, -- [53]
-		{
-			"Sorting particles normally.", -- [1]
-			0, -- [2]
-		}, -- [54]
-		{
-			"Multithreaded rendering enabled.", -- [1]
-			0, -- [2]
-		}, -- [55]
-		{
-			"Multithreaded BeginDraw enabled.", -- [1]
-			0, -- [2]
-		}, -- [56]
-		{
-			"Multithread shadows changed to 1.", -- [1]
-			0, -- [2]
-		}, -- [57]
-		{
-			"Multithreaded prepass enabled.", -- [1]
-			0, -- [2]
-		}, -- [58]
-		{
-			"Multithreaded opaque pass enabled.", -- [1]
-			0, -- [2]
-		}, -- [59]
-		{
-			"Multithreaded opaque pass enabled.", -- [1]
-			0, -- [2]
-		}, -- [60]
-		{
-			"Multithreaded alpha M2 pass enabled.", -- [1]
-			0, -- [2]
-		}, -- [61]
-		{
-			"Multithreaded opaque WMO pass enabled.", -- [1]
-			0, -- [2]
-		}, -- [62]
-		{
-			"Multithreaded terrain pass enabled.", -- [1]
-			0, -- [2]
-		}, -- [63]
-		{
-			"Water detail changed to 2", -- [1]
-			0, -- [2]
-		}, -- [64]
-		{
-			"Ripple detail changed to 1", -- [1]
-			0, -- [2]
-		}, -- [65]
-		{
-			"Reflection mode changed to 0", -- [1]
-			0, -- [2]
-		}, -- [66]
-		{
-			"Reflection downscale changed to 0", -- [1]
-			0, -- [2]
-		}, -- [67]
-		{
-			"Sunshafts quality changed to 2", -- [1]
-			0, -- [2]
-		}, -- [68]
-		{
-			"Refraction mode changed to 2", -- [1]
-			0, -- [2]
-		}, -- [69]
-		{
-			"Enabling BSP node cache (first time - starting up)", -- [1]
-			0, -- [2]
-		}, -- [70]
-		{
-			"Volume fog enabled.", -- [1]
-			0, -- [2]
-		}, -- [71]
-		{
-			"Particulate volumes enabled.", -- [1]
-			0, -- [2]
-		}, -- [72]
-		{
-			"Projected textures enabled.", -- [1]
-			0, -- [2]
-		}, -- [73]
-		{
-			"Spell Clutter set to dynamic", -- [1]
-			0, -- [2]
-		}, -- [74]
-		{
-			"Shadow mode changed to 3 - 3 band dynamic shadows on units and terrain, 2048", -- [1]
-			0, -- [2]
-		}, -- [75]
-		{
-			"Shadow texture size changed to 2048.", -- [1]
-			0, -- [2]
-		}, -- [76]
-		{
-			"Soft shadows changed to 0.", -- [1]
-			0, -- [2]
-		}, -- [77]
-		{
-			"Shadow RT mode changed to 0 (Disabled)", -- [1]
-			0, -- [2]
-		}, -- [78]
-		{
-			"maxLightCount must be in range 0 to 32.", -- [1]
-			0, -- [2]
-		}, -- [79]
-		{
-			"CVar 'maxLightCount' failed validation for its initial value.", -- [1]
-			0, -- [2]
-		}, -- [80]
-		{
-			"SSAO mode set to 3", -- [1]
-			0, -- [2]
-		}, -- [81]
-		{
-			"SSAO type set to 0", -- [1]
-			0, -- [2]
-		}, -- [82]
-		{
-			"Depth Based Opacity Enabled", -- [1]
-			0, -- [2]
-		}, -- [83]
-		{
-			"SkyCloudLOD set to 0", -- [1]
-			0, -- [2]
-		}, -- [84]
-		{
-			"Texture filtering mode updated.", -- [1]
-			0, -- [2]
-		}, -- [85]
-		{
-			"Terrain mip level changed to 0.", -- [1]
-			0, -- [2]
-		}, -- [86]
-		{
-			"Outline mode changed to 2", -- [1]
-			0, -- [2]
-		}, -- [87]
-		{
-			"Physics interaction level changed to 1", -- [1]
-			0, -- [2]
-		}, -- [88]
-		{
-			"Render scale changed to 1", -- [1]
-			0, -- [2]
-		}, -- [89]
-		{
-			"Resample quality changed to 1", -- [1]
-			0, -- [2]
-		}, -- [90]
-		{
-			"MSAA set to 8 color samples, 8 coverage samples", -- [1]
-			0, -- [2]
-		}, -- [91]
-		{
-			"MSAA for alpha-test enabled.", -- [1]
-			0, -- [2]
-		}, -- [92]
-		{
-			"Variable Rate Shading not supported on this hardware", -- [1]
-			0, -- [2]
-		}, -- [93]
-		{
-			"CVar 'vrsWorldGeo' failed validation for its initial value.", -- [1]
-			0, -- [2]
-		}, -- [94]
-		{
-			"Variable Rate Shading not supported on this hardware", -- [1]
-			0, -- [2]
-		}, -- [95]
-		{
-			"CVar 'vrsParticles' failed validation for its initial value.", -- [1]
-			0, -- [2]
-		}, -- [96]
-		{
-			"lodObjectSizeScale cannot be changed.", -- [1]
-			0, -- [2]
-		}, -- [97]
-		{
-			"Volume fog enabled.", -- [1]
-			0, -- [2]
-		}, -- [98]
-		{
-			"Particulate volumes enabled.", -- [1]
-			0, -- [2]
-		}, -- [99]
-		{
-			"dynamicLod enabled", -- [1]
-			0, -- [2]
-		}, -- [100]
-		{
-			"World preload object sort enabled.", -- [1]
-			0, -- [2]
-		}, -- [101]
-		{
-			"World load object sort enabled.", -- [1]
-			0, -- [2]
-		}, -- [102]
-		{
-			"World preload non critical enabled.", -- [1]
-			0, -- [2]
-		}, -- [103]
-		{
-			"World preload high res textures enabled.", -- [1]
-			0, -- [2]
-		}, -- [104]
-		{
-			"FFX: Color Blind Test Mode Disabled", -- [1]
-			0, -- [2]
-		}, -- [105]
-		{
-			"Full memory crash dump disabled", -- [1]
-			0, -- [2]
-		}, -- [106]
-		{
-			"Error display disabled", -- [1]
-			0, -- [2]
-		}, -- [107]
-		{
-			"Error display shown", -- [1]
-			0, -- [2]
-		}, -- [108]
-		{
-			"Displaying errors through fatal errors", -- [1]
-			0, -- [2]
-		}, -- [109]
-		{
-			"Displaying errors through fatal errors", -- [1]
-			0, -- [2]
-		}, -- [110]
-		{
-			"Now filtering: all messages", -- [1]
-			0, -- [2]
-		}, -- [111]
-		{
-			"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.", -- [1]
-			0, -- [2]
-		}, -- [112]
-		{
-			"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
-			0, -- [2]
-		}, -- [113]
-		{
-			"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
-			0, -- [2]
-		}, -- [114]
-		{
-			"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.", -- [1]
-			0, -- [2]
-		}, -- [115]
-		{
-			"[GlueLogin] Starting loginlauncherPortal=\"eu.actual.battle.net\" loginPortal=\"eu.actual.battle.net:1119\"", -- [1]
-			0, -- [2]
-		}, -- [116]
-		{
-			"[GlueLogin] Resetting", -- [1]
-			0, -- [2]
-		}, -- [117]
-		{
-			"[IBN_Login] Initializing", -- [1]
-			0, -- [2]
-		}, -- [118]
-		{
-			"[IBN_Login] Attempting logonhost=\"eu.actual.battle.net\" port=\"1119\"", -- [1]
-			0, -- [2]
-		}, -- [119]
-		{
-			"[GlueLogin] Waiting for server response.", -- [1]
-			0, -- [2]
-		}, -- [120]
-		{
-			"[GlueLogin] Waiting for server response.", -- [1]
-			0, -- [2]
-		}, -- [121]
-		{
-			"[GlueLogin] Waiting for server response.", -- [1]
-			0, -- [2]
-		}, -- [122]
-		{
-			"[GlueLogin] Logon complete.", -- [1]
-			0, -- [2]
-		}, -- [123]
-		{
-			"[GlueLogin] Reconnect token saved; creationTime=\"1652525376\" expirationTime=\"1652539776\"", -- [1]
-			0, -- [2]
-		}, -- [124]
-		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
-			0, -- [2]
-		}, -- [125]
-		{
-			"[IBN_Login] Requesting realm list ticket", -- [1]
-			0, -- [2]
-		}, -- [126]
-		{
-			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
-			0, -- [2]
-		}, -- [127]
-		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
-			0, -- [2]
-		}, -- [128]
-		{
-			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
-			0, -- [2]
-		}, -- [129]
-		{
-			"[IBN_Login] Requesting last played charsnumSubRegions=\"3\"", -- [1]
-			0, -- [2]
-		}, -- [130]
-		{
-			"[GlueLogin] Realm list ready.", -- [1]
-			0, -- [2]
-		}, -- [131]
-		{
-			"[IBN_Login] Joining realmsubRegion=\"3-4-89\" realmAddress=\"3-5-4\"", -- [1]
-			0, -- [2]
-		}, -- [132]
-		{
-			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
-			0, -- [2]
-		}, -- [133]
-		{
-			"NetClient::HandleConnect()\n", -- [1]
-			0, -- [2]
-		}, -- [134]
-		{
-			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
-			0, -- [2]
-		}, -- [135]
-		{
-			"Got new connection 2", -- [1]
-			0, -- [2]
-		}, -- [136]
-		{
-			"[IBN_Login] Front disconnectingconnectionId=\"1\"", -- [1]
-			0, -- [2]
-		}, -- [137]
-		{
-			"[GlueLogin] Disconnecting from authentication server.", -- [1]
-			0, -- [2]
-		}, -- [138]
-		{
-			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
-			0, -- [2]
-		}, -- [139]
-		{
-			"[IBN_Login] Front disconnectedconnectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
-			0, -- [2]
-		}, -- [140]
-		{
-			"[GlueLogin] Disconnected from authentication server.", -- [1]
-			0, -- [2]
-		}, -- [141]
-		{
-			"[WowEntitlements] [BNetAccount-0-00001A346EC5] [WowAccount-0-000005146EC9] Initialized with 15 entitlements.", -- [1]
-			0, -- [2]
-		}, -- [142]
-		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
-			0, -- [2]
-		}, -- [143]
-		{
 			"Game table failed consistency check: ChallengeModeHealth. rows: 50, expectedRows: 51, columns: 1, expectedColumns: 1\n", -- [1]
 			3, -- [2]
-		}, -- [144]
+		}, -- [22]
 		{
 			"Game table failed consistency check: ChallengeModeDamage. rows: 50, expectedRows: 51, columns: 1, expectedColumns: 1\n", -- [1]
 			3, -- [2]
-		}, -- [145]
+		}, -- [23]
 		{
 			"Got new connection 3", -- [1]
 			0, -- [2]
-		}, -- [146]
+		}, -- [24]
 		{
 			"Proficiency in item class 2 set to 0x0000000080", -- [1]
 			0, -- [2]
-		}, -- [147]
+		}, -- [25]
 		{
 			"Proficiency in item class 2 set to 0x0000000480", -- [1]
 			0, -- [2]
-		}, -- [148]
+		}, -- [26]
 		{
 			"Proficiency in item class 2 set to 0x0000008480", -- [1]
 			0, -- [2]
-		}, -- [149]
+		}, -- [27]
 		{
 			"Proficiency in item class 4 set to 0x0000000021", -- [1]
 			0, -- [2]
-		}, -- [150]
+		}, -- [28]
 		{
 			"Proficiency in item class 2 set to 0x000000c480", -- [1]
 			0, -- [2]
-		}, -- [151]
+		}, -- [29]
 		{
 			"Proficiency in item class 2 set to 0x000008c480", -- [1]
 			0, -- [2]
-		}, -- [152]
+		}, -- [30]
 		{
 			"Proficiency in item class 2 set to 0x000018c480", -- [1]
 			0, -- [2]
-		}, -- [153]
+		}, -- [31]
 		{
 			"Proficiency in item class 4 set to 0x0000000023", -- [1]
 			0, -- [2]
-		}, -- [154]
+		}, -- [32]
 		{
 			"Proficiency in item class 2 set to 0x000018c480", -- [1]
 			0, -- [2]
-		}, -- [155]
+		}, -- [33]
 		{
 			"Proficiency in item class 4 set to 0x0000000023", -- [1]
 			0, -- [2]
-		}, -- [156]
+		}, -- [34]
 		{
 			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
-		}, -- [157]
+		}, -- [35]
 		{
 			"Time set to 5/14/2022 (Sat) 12:51", -- [1]
 			0, -- [2]
-		}, -- [158]
+		}, -- [36]
 		{
 			"Gamespeed set from 0.017 to 0.017", -- [1]
 			0, -- [2]
-		}, -- [159]
+		}, -- [37]
 		{
 			"Got new connection 3", -- [1]
 			0, -- [2]
-		}, -- [160]
+		}, -- [38]
 		{
 			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
-		}, -- [161]
+		}, -- [39]
 		{
 			"Time played:", -- [1]
 			0, -- [2]
-		}, -- [162]
+		}, -- [40]
 		{
 			"Total: 159d 8h 13m 1s", -- [1]
 			0, -- [2]
-		}, -- [163]
+		}, -- [41]
 		{
 			"Level: 78d 15h 26m 10s", -- [1]
 			0, -- [2]
-		}, -- [164]
+		}, -- [42]
 		{
 			"World transfer pending...", -- [1]
 			0, -- [2]
-		}, -- [165]
+		}, -- [43]
 		{
 			"Got new connection 3", -- [1]
 			0, -- [2]
-		}, -- [166]
+		}, -- [44]
 		{
 			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
-		}, -- [167]
+		}, -- [45]
 		{
 			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
-		}, -- [168]
+		}, -- [46]
 		{
 			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
-		}, -- [169]
+		}, -- [47]
 		{
 			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
-		}, -- [170]
+		}, -- [48]
 		{
 			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
-		}, -- [171]
+		}, -- [49]
 		{
 			"Got new connection 3", -- [1]
 			0, -- [2]
-		}, -- [172]
+		}, -- [50]
 		{
 			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
-		}, -- [173]
+		}, -- [51]
 		{
 			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
-		}, -- [174]
+		}, -- [52]
 		{
 			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
-		}, -- [175]
+		}, -- [53]
 		{
 			"PetBattle Initial Update", -- [1]
 			0, -- [2]
-		}, -- [176]
+		}, -- [54]
 		{
 			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
 			0, -- [2]
-		}, -- [177]
+		}, -- [55]
 		{
 			"     Slot   0, Species 1977, Health 1400, Level  25, DisplayID 70068, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [178]
+		}, -- [56]
 		{
 			"        abilities : 1370, 1773, 518,", -- [1]
 			0, -- [2]
-		}, -- [179]
+		}, -- [57]
 		{
 			"     Slot   1, Species 1974, Health 1400, Level  25, DisplayID 70071, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [180]
+		}, -- [58]
 		{
 			"        abilities : 1773, 524, 518,", -- [1]
 			0, -- [2]
-		}, -- [181]
+		}, -- [59]
 		{
 			"     Slot   2, Species 1976, Health 1400, Level  25, DisplayID 70069, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [182]
+		}, -- [60]
 		{
 			"        abilities : 1773, 514, 518,", -- [1]
 			0, -- [2]
-		}, -- [183]
+		}, -- [61]
 		{
 			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
 			0, -- [2]
-		}, -- [184]
+		}, -- [62]
 		{
 			"     Slot   0, Species 2664, Health 1572, Level  25, DisplayID 88789, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [185]
+		}, -- [63]
 		{
 			"        abilities : 380, 197, 519,", -- [1]
 			0, -- [2]
-		}, -- [186]
+		}, -- [64]
 		{
 			"     Slot   1, Species 2661, Health 1023, Level  25, DisplayID 88762, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [187]
+		}, -- [65]
 		{
 			"        abilities : 119, 578, 283,", -- [1]
 			0, -- [2]
-		}, -- [188]
+		}, -- [66]
 		{
 			"     Slot   2, Species 2663, Health 992, Level  25, DisplayID 88788, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [189]
+		}, -- [67]
 		{
 			"        abilities : 119, 155, 1380,", -- [1]
 			0, -- [2]
-		}, -- [190]
+		}, -- [68]
 		{
 			"<waiting for PetBattleReadyToStart command>", -- [1]
 			0, -- [2]
-		}, -- [191]
+		}, -- [69]
 		{
 			"---Battle Begin---", -- [1]
 			0, -- [2]
-		}, -- [192]
+		}, -- [70]
 		{
 			"  PetSwap P0 PET 0", -- [1]
 			0, -- [2]
-		}, -- [193]
+		}, -- [71]
 		{
 			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
-		}, -- [194]
+		}, -- [72]
 		{
 			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
-		}, -- [195]
+		}, -- [73]
 		{
 			"---Replacements made---", -- [1]
 			0, -- [2]
-		}, -- [196]
+		}, -- [74]
 		{
 			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
-		}, -- [197]
+		}, -- [75]
 		{
 			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
-		}, -- [198]
+		}, -- [76]
 		{
 			"---Replacements made---", -- [1]
 			0, -- [2]
-		}, -- [199]
+		}, -- [77]
 		{
 			"  P1 PET 1 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
-		}, -- [200]
+		}, -- [78]
 		{
 			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
-		}, -- [201]
+		}, -- [79]
 		{
 			"---BattleFinished: You Won ---", -- [1]
 			0, -- [2]
-		}, -- [202]
+		}, -- [80]
 		{
 			"<waiting for PetBattleInput final>", -- [1]
 			0, -- [2]
-		}, -- [203]
+		}, -- [81]
 		{
 			"---ClientPetBattleFinished---", -- [1]
 			0, -- [2]
-		}, -- [204]
+		}, -- [82]
 		{
 			"World transfer pending...", -- [1]
 			0, -- [2]
-		}, -- [205]
+		}, -- [83]
 		{
 			"Got new connection 3", -- [1]
 			0, -- [2]
-		}, -- [206]
+		}, -- [84]
 		{
 			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
-		}, -- [207]
+		}, -- [85]
 		{
 			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
-		}, -- [208]
+		}, -- [86]
 		{
 			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
-		}, -- [209]
+		}, -- [87]
 		{
 			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
-		}, -- [210]
+		}, -- [88]
 		{
 			"Got new connection 3", -- [1]
 			0, -- [2]
-		}, -- [211]
+		}, -- [89]
 		{
 			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
-		}, -- [212]
+		}, -- [90]
 		{
 			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
-		}, -- [213]
+		}, -- [91]
 		{
 			"PetBattle Initial Update", -- [1]
 			0, -- [2]
-		}, -- [214]
+		}, -- [92]
 		{
 			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
 			0, -- [2]
-		}, -- [215]
+		}, -- [93]
 		{
 			"     Slot   0, Species 1977, Health 1400, Level  25, DisplayID 70068, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [216]
+		}, -- [94]
 		{
 			"        abilities : 1370, 1773, 518,", -- [1]
 			0, -- [2]
-		}, -- [217]
+		}, -- [95]
 		{
 			"     Slot   1, Species 1974, Health 1400, Level  25, DisplayID 70071, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [218]
+		}, -- [96]
 		{
 			"        abilities : 1773, 524, 518,", -- [1]
 			0, -- [2]
-		}, -- [219]
+		}, -- [97]
 		{
 			"     Slot   2, Species 1976, Health 1400, Level  25, DisplayID 70069, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [220]
+		}, -- [98]
 		{
 			"        abilities : 1773, 514, 518,", -- [1]
 			0, -- [2]
-		}, -- [221]
+		}, -- [99]
 		{
 			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
 			0, -- [2]
-		}, -- [222]
+		}, -- [100]
 		{
 			"     Slot   0, Species 1776, Health 1383, Level  25, DisplayID 45883, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [223]
+		}, -- [101]
 		{
 			"        abilities : 449, 369, 376,", -- [1]
 			0, -- [2]
-		}, -- [224]
+		}, -- [102]
 		{
 			"     Slot   1, Species 1763, Health 1258, Level  25, DisplayID 40716, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [225]
+		}, -- [103]
 		{
 			"        abilities : 424, 541, 325,", -- [1]
 			0, -- [2]
-		}, -- [226]
+		}, -- [104]
 		{
 			"     Slot   2, Species 1441, Health 1020, Level  25, DisplayID 47992, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [227]
+		}, -- [105]
 		{
 			"        abilities : 118, 572, 297,", -- [1]
 			0, -- [2]
-		}, -- [228]
+		}, -- [106]
 		{
 			"<waiting for PetBattleReadyToStart command>", -- [1]
 			0, -- [2]
-		}, -- [229]
+		}, -- [107]
 		{
 			"---Battle Begin---", -- [1]
 			0, -- [2]
-		}, -- [230]
+		}, -- [108]
 		{
 			"  PetSwap P0 PET 0", -- [1]
 			0, -- [2]
-		}, -- [231]
+		}, -- [109]
 		{
 			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
-		}, -- [232]
+		}, -- [110]
 		{
 			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
-		}, -- [233]
+		}, -- [111]
 		{
 			"---Replacements made---", -- [1]
 			0, -- [2]
-		}, -- [234]
+		}, -- [112]
 		{
 			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
-		}, -- [235]
+		}, -- [113]
 		{
 			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
-		}, -- [236]
+		}, -- [114]
 		{
 			"---BattleAbandoned---", -- [1]
 			0, -- [2]
-		}, -- [237]
+		}, -- [115]
 		{
 			"<waiting for PetBattleInput final>", -- [1]
 			0, -- [2]
-		}, -- [238]
+		}, -- [116]
 		{
 			"---ClientPetBattleFinished---", -- [1]
 			0, -- [2]
-		}, -- [239]
+		}, -- [117]
 		{
 			"PetBattle Initial Update", -- [1]
 			0, -- [2]
-		}, -- [240]
+		}, -- [118]
 		{
 			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
 			0, -- [2]
-		}, -- [241]
+		}, -- [119]
 		{
 			"     Slot   0, Species 1977, Health 1400, Level  25, DisplayID 70068, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [242]
+		}, -- [120]
 		{
 			"        abilities : 1370, 1773, 518,", -- [1]
 			0, -- [2]
-		}, -- [243]
+		}, -- [121]
 		{
 			"     Slot   1, Species 1974, Health 1400, Level  25, DisplayID 70071, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [244]
+		}, -- [122]
 		{
 			"        abilities : 1773, 524, 518,", -- [1]
 			0, -- [2]
-		}, -- [245]
+		}, -- [123]
 		{
 			"     Slot   2, Species 1976, Health 1400, Level  25, DisplayID 70069, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [246]
+		}, -- [124]
 		{
 			"        abilities : 1773, 514, 518,", -- [1]
 			0, -- [2]
-		}, -- [247]
+		}, -- [125]
 		{
 			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
 			0, -- [2]
-		}, -- [248]
+		}, -- [126]
 		{
 			"     Slot   0, Species 1776, Health 1166, Level  25, DisplayID 45883, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [249]
+		}, -- [127]
 		{
 			"        abilities : 445, 310, 564,", -- [1]
 			0, -- [2]
-		}, -- [250]
+		}, -- [128]
 		{
 			"     Slot   1, Species 569, Health 1208, Level  25, DisplayID 5379, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [251]
+		}, -- [129]
 		{
 			"        abilities : 228, 230, 233,", -- [1]
 			0, -- [2]
-		}, -- [252]
+		}, -- [130]
 		{
 			"     Slot   2, Species 569, Health 1208, Level  25, DisplayID 5379, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [253]
+		}, -- [131]
 		{
 			"        abilities : 228, 123, 232,", -- [1]
 			0, -- [2]
-		}, -- [254]
+		}, -- [132]
 		{
 			"<waiting for PetBattleReadyToStart command>", -- [1]
 			0, -- [2]
-		}, -- [255]
+		}, -- [133]
 		{
 			"---Battle Begin---", -- [1]
 			0, -- [2]
-		}, -- [256]
+		}, -- [134]
 		{
 			"  PetSwap P0 PET 0", -- [1]
 			0, -- [2]
-		}, -- [257]
+		}, -- [135]
 		{
 			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
-		}, -- [258]
+		}, -- [136]
 		{
 			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
-		}, -- [259]
+		}, -- [137]
 		{
 			"---Replacements made---", -- [1]
 			0, -- [2]
-		}, -- [260]
+		}, -- [138]
 		{
 			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
-		}, -- [261]
+		}, -- [139]
 		{
 			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
-		}, -- [262]
+		}, -- [140]
 		{
 			"---Replacements made---", -- [1]
 			0, -- [2]
-		}, -- [263]
+		}, -- [141]
 		{
 			"  P1 PET 1 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
-		}, -- [264]
+		}, -- [142]
 		{
 			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
-		}, -- [265]
+		}, -- [143]
 		{
 			"---BattleFinished: You Won ---", -- [1]
 			0, -- [2]
-		}, -- [266]
+		}, -- [144]
 		{
 			"<waiting for PetBattleInput final>", -- [1]
 			0, -- [2]
-		}, -- [267]
+		}, -- [145]
 		{
 			"---ClientPetBattleFinished---", -- [1]
 			0, -- [2]
-		}, -- [268]
+		}, -- [146]
 		{
 			"Weather changed to 2, intensity 1.000000\n", -- [1]
 			0, -- [2]
-		}, -- [269]
+		}, -- [147]
 		{
 			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
-		}, -- [270]
+		}, -- [148]
 		{
 			"Weather changed to 2, intensity 1.000000\n", -- [1]
 			0, -- [2]
-		}, -- [271]
+		}, -- [149]
 		{
 			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
-		}, -- [272]
+		}, -- [150]
 		{
 			"PetBattle Initial Update", -- [1]
 			0, -- [2]
-		}, -- [273]
+		}, -- [151]
 		{
 			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
 			0, -- [2]
-		}, -- [274]
+		}, -- [152]
 		{
 			"     Slot   0, Species 1977, Health 1400, Level  25, DisplayID 70068, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [275]
+		}, -- [153]
 		{
 			"        abilities : 1370, 1773, 518,", -- [1]
 			0, -- [2]
-		}, -- [276]
+		}, -- [154]
 		{
 			"     Slot   1, Species 1974, Health 1400, Level  25, DisplayID 70071, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [277]
+		}, -- [155]
 		{
 			"        abilities : 1773, 524, 518,", -- [1]
 			0, -- [2]
-		}, -- [278]
+		}, -- [156]
 		{
 			"     Slot   2, Species 1976, Health 1400, Level  25, DisplayID 70069, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [279]
+		}, -- [157]
 		{
 			"        abilities : 1773, 514, 518,", -- [1]
 			0, -- [2]
-		}, -- [280]
+		}, -- [158]
 		{
 			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
 			0, -- [2]
-		}, -- [281]
+		}, -- [159]
 		{
 			"     Slot   0, Species 1913, Health 1000, Level  25, DisplayID 71224, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [282]
+		}, -- [160]
 		{
 			"        abilities : 493, 574, 539,", -- [1]
 			0, -- [2]
-		}, -- [283]
+		}, -- [161]
 		{
 			"     Slot   1, Species 396, Health 958, Level  25, DisplayID 1160, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [284]
+		}, -- [162]
 		{
 			"        abilities : 378, 382, 383,", -- [1]
 			0, -- [2]
-		}, -- [285]
+		}, -- [163]
 		{
 			"     Slot   2, Species 447, Health 1010, Level  25, DisplayID 654, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [286]
+		}, -- [164]
 		{
 			"        abilities : 493, 574, 376,", -- [1]
 			0, -- [2]
-		}, -- [287]
+		}, -- [165]
 		{
 			"<waiting for PetBattleReadyToStart command>", -- [1]
 			0, -- [2]
-		}, -- [288]
+		}, -- [166]
 		{
 			"---Battle Begin---", -- [1]
 			0, -- [2]
-		}, -- [289]
+		}, -- [167]
 		{
 			"  PetSwap P0 PET 0", -- [1]
 			0, -- [2]
-		}, -- [290]
+		}, -- [168]
 		{
 			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
-		}, -- [291]
+		}, -- [169]
 		{
 			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
-		}, -- [292]
+		}, -- [170]
 		{
 			"---Replacements made---", -- [1]
 			0, -- [2]
-		}, -- [293]
+		}, -- [171]
 		{
 			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
-		}, -- [294]
+		}, -- [172]
 		{
 			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
-		}, -- [295]
+		}, -- [173]
 		{
 			"---BattleAbandoned---", -- [1]
 			0, -- [2]
-		}, -- [296]
+		}, -- [174]
 		{
 			"<waiting for PetBattleInput final>", -- [1]
 			0, -- [2]
-		}, -- [297]
+		}, -- [175]
 		{
 			"---ClientPetBattleFinished---", -- [1]
 			0, -- [2]
-		}, -- [298]
+		}, -- [176]
 		{
 			"PetBattle Initial Update", -- [1]
 			0, -- [2]
-		}, -- [299]
+		}, -- [177]
 		{
 			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
 			0, -- [2]
-		}, -- [300]
+		}, -- [178]
 		{
 			"     Slot   0, Species 1977, Health 1400, Level  25, DisplayID 70068, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [301]
+		}, -- [179]
 		{
 			"        abilities : 1370, 1773, 518,", -- [1]
 			0, -- [2]
-		}, -- [302]
+		}, -- [180]
 		{
 			"     Slot   1, Species 1974, Health 1400, Level  25, DisplayID 70071, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [303]
+		}, -- [181]
 		{
 			"        abilities : 1773, 524, 518,", -- [1]
 			0, -- [2]
-		}, -- [304]
+		}, -- [182]
 		{
 			"     Slot   2, Species 1976, Health 1400, Level  25, DisplayID 70069, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [305]
+		}, -- [183]
 		{
 			"        abilities : 1773, 514, 518,", -- [1]
 			0, -- [2]
-		}, -- [306]
+		}, -- [184]
 		{
 			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
 			0, -- [2]
-		}, -- [307]
+		}, -- [185]
 		{
 			"     Slot   0, Species 1913, Health 916, Level  25, DisplayID 71224, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [308]
+		}, -- [186]
 		{
 			"        abilities : 493, 574, 376,", -- [1]
 			0, -- [2]
-		}, -- [309]
+		}, -- [187]
 		{
 			"     Slot   1, Species 743, Health 1274, Level  25, DisplayID 45882, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [310]
+		}, -- [188]
 		{
 			"        abilities : 449, 369, 564,", -- [1]
 			0, -- [2]
-		}, -- [311]
+		}, -- [189]
 		{
 			"     Slot   2, Species 479, Health 968, Level  25, DisplayID 4626, CollarID 0", -- [1]
 			0, -- [2]
-		}, -- [312]
+		}, -- [190]
 		{
 			"        abilities : 119, 162, 159,", -- [1]
 			0, -- [2]
-		}, -- [313]
+		}, -- [191]
 		{
 			"<waiting for PetBattleReadyToStart command>", -- [1]
 			0, -- [2]
-		}, -- [314]
+		}, -- [192]
 		{
 			"---Battle Begin---", -- [1]
 			0, -- [2]
-		}, -- [315]
+		}, -- [193]
 		{
 			"  PetSwap P0 PET 0", -- [1]
 			0, -- [2]
-		}, -- [316]
+		}, -- [194]
 		{
 			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
-		}, -- [317]
+		}, -- [195]
 		{
 			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
-		}, -- [318]
+		}, -- [196]
 		{
 			"---Replacements made---", -- [1]
 			0, -- [2]
-		}, -- [319]
+		}, -- [197]
 		{
 			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
-		}, -- [320]
+		}, -- [198]
 		{
 			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
-		}, -- [321]
+		}, -- [199]
 		{
 			"---Replacements made---", -- [1]
 			0, -- [2]
-		}, -- [322]
+		}, -- [200]
 		{
 			"  P0 PET 1 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
-		}, -- [323]
+		}, -- [201]
 		{
 			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
-		}, -- [324]
+		}, -- [202]
 		{
 			"---Replacements made---", -- [1]
 			0, -- [2]
-		}, -- [325]
+		}, -- [203]
 		{
 			"  P1 PET 1 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
-		}, -- [326]
+		}, -- [204]
 		{
 			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
-		}, -- [327]
+		}, -- [205]
 		{
 			"---BattleFinished: You Won ---", -- [1]
 			0, -- [2]
-		}, -- [328]
+		}, -- [206]
 		{
 			"<waiting for PetBattleInput final>", -- [1]
 			0, -- [2]
-		}, -- [329]
+		}, -- [207]
 		{
 			"---ClientPetBattleFinished---", -- [1]
 			0, -- [2]
-		}, -- [330]
+		}, -- [208]
 		{
 			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [209]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [210]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [211]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [212]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [213]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [214]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [215]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [216]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [217]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [218]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [219]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [220]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [221]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [222]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [223]
+		{
+			"PetBattle Initial Update", -- [1]
+			0, -- [2]
+		}, -- [224]
+		{
+			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [225]
+		{
+			"     Slot   0, Species 1977, Health 1400, Level  25, DisplayID 70068, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [226]
+		{
+			"        abilities : 1370, 1773, 518,", -- [1]
+			0, -- [2]
+		}, -- [227]
+		{
+			"     Slot   1, Species 1974, Health 1400, Level  25, DisplayID 70071, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [228]
+		{
+			"        abilities : 1773, 524, 518,", -- [1]
+			0, -- [2]
+		}, -- [229]
+		{
+			"     Slot   2, Species 1976, Health 1400, Level  25, DisplayID 70069, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [230]
+		{
+			"        abilities : 1773, 514, 518,", -- [1]
+			0, -- [2]
+		}, -- [231]
+		{
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [232]
+		{
+			"     Slot   0, Species 2131, Health 984, Level  25, DisplayID 78595, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [233]
+		{
+			"        abilities : 484, 488, 490,", -- [1]
+			0, -- [2]
+		}, -- [234]
+		{
+			"     Slot   1, Species 2134, Health 968, Level  25, DisplayID 78499, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [235]
+		{
+			"        abilities : 420, 270, 518,", -- [1]
+			0, -- [2]
+		}, -- [236]
+		{
+			"     Slot   2, Species 2132, Health 984, Level  25, DisplayID 78606, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [237]
+		{
+			"        abilities : 901, 486, 490,", -- [1]
+			0, -- [2]
+		}, -- [238]
+		{
+			"<waiting for PetBattleReadyToStart command>", -- [1]
+			0, -- [2]
+		}, -- [239]
+		{
+			"---Battle Begin---", -- [1]
+			0, -- [2]
+		}, -- [240]
+		{
+			"  PetSwap P0 PET 0", -- [1]
+			0, -- [2]
+		}, -- [241]
+		{
+			"  PetSwap P1 PET 0", -- [1]
+			0, -- [2]
+		}, -- [242]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [243]
+		{
+			"---Replacements made---", -- [1]
+			0, -- [2]
+		}, -- [244]
+		{
+			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [245]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [246]
+		{
+			"---Replacements made---", -- [1]
+			0, -- [2]
+		}, -- [247]
+		{
+			"  P1 PET 1 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [248]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [249]
+		{
+			"---Replacements made---", -- [1]
+			0, -- [2]
+		}, -- [250]
+		{
+			"  P0 PET 1 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [251]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [252]
+		{
+			"---BattleFinished: You Won ---", -- [1]
+			0, -- [2]
+		}, -- [253]
+		{
+			"<waiting for PetBattleInput final>", -- [1]
+			0, -- [2]
+		}, -- [254]
+		{
+			"---ClientPetBattleFinished---", -- [1]
+			0, -- [2]
+		}, -- [255]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [256]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [257]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [258]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [259]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [260]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [261]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [262]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [263]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [264]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [265]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [266]
+		{
+			"PetBattle Initial Update", -- [1]
+			0, -- [2]
+		}, -- [267]
+		{
+			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [268]
+		{
+			"     Slot   0, Species 1977, Health 1400, Level  25, DisplayID 70068, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [269]
+		{
+			"        abilities : 1370, 1773, 518,", -- [1]
+			0, -- [2]
+		}, -- [270]
+		{
+			"     Slot   1, Species 1974, Health 1400, Level  25, DisplayID 70071, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [271]
+		{
+			"        abilities : 1773, 524, 518,", -- [1]
+			0, -- [2]
+		}, -- [272]
+		{
+			"     Slot   2, Species 1976, Health 1400, Level  25, DisplayID 70069, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [273]
+		{
+			"        abilities : 1773, 514, 518,", -- [1]
+			0, -- [2]
+		}, -- [274]
+		{
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [275]
+		{
+			"     Slot   0, Species 2387, Health 1164, Level  25, DisplayID 33088, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [276]
+		{
+			"        abilities : 360, 283, 159,", -- [1]
+			0, -- [2]
+		}, -- [277]
+		{
+			"     Slot   1, Species 2385, Health 1010, Level  25, DisplayID 87603, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [278]
+		{
+			"        abilities : 1060, 572, 376,", -- [1]
+			0, -- [2]
+		}, -- [279]
+		{
+			"     Slot   2, Species 2385, Health 916, Level  25, DisplayID 87603, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [280]
+		{
+			"        abilities : 119, 297, 376,", -- [1]
+			0, -- [2]
+		}, -- [281]
+		{
+			"<waiting for PetBattleReadyToStart command>", -- [1]
+			0, -- [2]
+		}, -- [282]
+		{
+			"---Battle Begin---", -- [1]
+			0, -- [2]
+		}, -- [283]
+		{
+			"  PetSwap P0 PET 0", -- [1]
+			0, -- [2]
+		}, -- [284]
+		{
+			"  PetSwap P1 PET 0", -- [1]
+			0, -- [2]
+		}, -- [285]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [286]
+		{
+			"---Replacements made---", -- [1]
+			0, -- [2]
+		}, -- [287]
+		{
+			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [288]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [289]
+		{
+			"---Replacements made---", -- [1]
+			0, -- [2]
+		}, -- [290]
+		{
+			"  P1 PET 1 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [291]
+		{
+			"  P1 PET 1 performs AURA_APPLY     on P1 PET 2 : (248,8,3,0) :Ability(718), Turn(1111), Effect(1347), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [292]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [293]
+		{
+			"---BattleFinished: You Won ---", -- [1]
+			0, -- [2]
+		}, -- [294]
+		{
+			"<waiting for PetBattleInput final>", -- [1]
+			0, -- [2]
+		}, -- [295]
+		{
+			"---ClientPetBattleFinished---", -- [1]
+			0, -- [2]
+		}, -- [296]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [297]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [298]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [299]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [300]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [301]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [302]
+		{
+			"PetBattle Initial Update", -- [1]
+			0, -- [2]
+		}, -- [303]
+		{
+			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [304]
+		{
+			"     Slot   0, Species 1977, Health 1400, Level  25, DisplayID 70068, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [305]
+		{
+			"        abilities : 1370, 1773, 518,", -- [1]
+			0, -- [2]
+		}, -- [306]
+		{
+			"     Slot   1, Species 1974, Health 1400, Level  25, DisplayID 70071, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [307]
+		{
+			"        abilities : 1773, 524, 518,", -- [1]
+			0, -- [2]
+		}, -- [308]
+		{
+			"     Slot   2, Species 1976, Health 1400, Level  25, DisplayID 70069, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [309]
+		{
+			"        abilities : 1773, 514, 518,", -- [1]
+			0, -- [2]
+		}, -- [310]
+		{
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [311]
+		{
+			"     Slot   0, Species 2127, Health 1160, Level  25, DisplayID 78464, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [312]
+		{
+			"        abilities : 617, 770, 769,", -- [1]
+			0, -- [2]
+		}, -- [313]
+		{
+			"     Slot   1, Species 2123, Health 1114, Level  25, DisplayID 77759, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [314]
+		{
+			"        abilities : 499, 369, 657,", -- [1]
+			0, -- [2]
+		}, -- [315]
+		{
+			"     Slot   2, Species 2123, Health 1320, Level  25, DisplayID 77760, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [316]
+		{
+			"        abilities : 499, 369, 657,", -- [1]
+			0, -- [2]
+		}, -- [317]
+		{
+			"<waiting for PetBattleReadyToStart command>", -- [1]
+			0, -- [2]
+		}, -- [318]
+		{
+			"---Battle Begin---", -- [1]
+			0, -- [2]
+		}, -- [319]
+		{
+			"  PetSwap P0 PET 0", -- [1]
+			0, -- [2]
+		}, -- [320]
+		{
+			"  PetSwap P1 PET 0", -- [1]
+			0, -- [2]
+		}, -- [321]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [322]
+		{
+			"---Replacements made---", -- [1]
+			0, -- [2]
+		}, -- [323]
+		{
+			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [324]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [325]
+		{
+			"---Replacements made---", -- [1]
+			0, -- [2]
+		}, -- [326]
+		{
+			"  P1 PET 1 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [327]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [328]
+		{
+			"---Replacements made---", -- [1]
+			0, -- [2]
+		}, -- [329]
+		{
+			"  P0 PET 0 performs PET_SWAP       on P0 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [330]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [331]
 		{
-			"Got new connection 3", -- [1]
+			"---BattleFinished: You Won ---", -- [1]
 			0, -- [2]
 		}, -- [332]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"<waiting for PetBattleInput final>", -- [1]
 			0, -- [2]
 		}, -- [333]
 		{
-			"World transfer pending...", -- [1]
+			"---ClientPetBattleFinished---", -- [1]
 			0, -- [2]
 		}, -- [334]
 		{
-			"Got new connection 3", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [335]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [336]
 		{
-			"World transfer pending...", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [337]
 		{
-			"Got new connection 3", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [338]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [339]
 		{
@@ -1368,295 +1368,295 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [341]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [342]
 		{
-			"World transfer pending...", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [343]
 		{
-			"Got new connection 3", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [344]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [345]
 		{
-			"PetBattle Initial Update", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [346]
 		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [347]
 		{
-			"     Slot   0, Species 1977, Health 1400, Level  25, DisplayID 70068, CollarID 0", -- [1]
+			"Weather changed to 2, intensity 0.800000\n", -- [1]
 			0, -- [2]
 		}, -- [348]
 		{
-			"        abilities : 1370, 1773, 518,", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [349]
 		{
-			"     Slot   1, Species 1974, Health 1400, Level  25, DisplayID 70071, CollarID 0", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [350]
 		{
-			"        abilities : 1773, 524, 518,", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [351]
 		{
-			"     Slot   2, Species 1976, Health 1400, Level  25, DisplayID 70069, CollarID 0", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [352]
 		{
-			"        abilities : 1773, 514, 518,", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [353]
 		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [354]
 		{
-			"     Slot   0, Species 2131, Health 984, Level  25, DisplayID 78595, CollarID 0", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [355]
 		{
-			"        abilities : 484, 488, 490,", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [356]
 		{
-			"     Slot   1, Species 2134, Health 968, Level  25, DisplayID 78499, CollarID 0", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [357]
 		{
-			"        abilities : 420, 270, 518,", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [358]
 		{
-			"     Slot   2, Species 2132, Health 984, Level  25, DisplayID 78606, CollarID 0", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [359]
 		{
-			"        abilities : 901, 486, 490,", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [360]
 		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [361]
 		{
-			"---Battle Begin---", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [362]
 		{
-			"  PetSwap P0 PET 0", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [363]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [364]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [365]
 		{
-			"---Replacements made---", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [366]
 		{
-			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [367]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [368]
 		{
-			"---Replacements made---", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [369]
 		{
-			"  P1 PET 1 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"PetBattle Initial Update", -- [1]
 			0, -- [2]
 		}, -- [370]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [371]
 		{
-			"---Replacements made---", -- [1]
+			"     Slot   0, Species 1977, Health 1400, Level  25, DisplayID 70068, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [372]
 		{
-			"  P0 PET 1 performs PET_SWAP       on P0 PET 0 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"        abilities : 1370, 1773, 518,", -- [1]
 			0, -- [2]
 		}, -- [373]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"     Slot   1, Species 1974, Health 1400, Level  25, DisplayID 70071, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [374]
 		{
-			"---BattleFinished: You Won ---", -- [1]
+			"        abilities : 1773, 524, 518,", -- [1]
 			0, -- [2]
 		}, -- [375]
 		{
-			"<waiting for PetBattleInput final>", -- [1]
+			"     Slot   2, Species 1976, Health 1400, Level  25, DisplayID 70069, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [376]
 		{
-			"---ClientPetBattleFinished---", -- [1]
+			"        abilities : 1773, 514, 518,", -- [1]
 			0, -- [2]
 		}, -- [377]
 		{
-			"World transfer pending...", -- [1]
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [378]
 		{
-			"Got new connection 3", -- [1]
+			"     Slot   0, Species 380, Health 1195, Level  25, DisplayID 40716, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [379]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"        abilities : 424, 283, 541,", -- [1]
 			0, -- [2]
 		}, -- [380]
 		{
-			"World transfer pending...", -- [1]
+			"     Slot   1, Species 550, Health 1000, Level  25, DisplayID 4959, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [381]
 		{
-			"Got new connection 3", -- [1]
+			"        abilities : 119, 360, 163,", -- [1]
 			0, -- [2]
 		}, -- [382]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"     Slot   2, Species 647, Health 1220, Level  25, DisplayID 134, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [383]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"        abilities : 119, 165, 163,", -- [1]
 			0, -- [2]
 		}, -- [384]
 		{
-			"World transfer pending...", -- [1]
+			"<waiting for PetBattleReadyToStart command>", -- [1]
 			0, -- [2]
 		}, -- [385]
 		{
-			"Got new connection 3", -- [1]
+			"---Battle Begin---", -- [1]
 			0, -- [2]
 		}, -- [386]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"  PetSwap P0 PET 0", -- [1]
 			0, -- [2]
 		}, -- [387]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [388]
 		{
-			"PetBattle Initial Update", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [389]
 		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
+			"---BattleAbandoned---", -- [1]
 			0, -- [2]
 		}, -- [390]
 		{
-			"     Slot   0, Species 1977, Health 1400, Level  25, DisplayID 70068, CollarID 0", -- [1]
+			"<waiting for PetBattleInput final>", -- [1]
 			0, -- [2]
 		}, -- [391]
 		{
-			"        abilities : 1370, 1773, 518,", -- [1]
+			"---ClientPetBattleFinished---", -- [1]
 			0, -- [2]
 		}, -- [392]
 		{
-			"     Slot   1, Species 1974, Health 1400, Level  25, DisplayID 70071, CollarID 0", -- [1]
+			"PetBattle Initial Update", -- [1]
 			0, -- [2]
 		}, -- [393]
 		{
-			"        abilities : 1773, 524, 518,", -- [1]
+			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [394]
 		{
-			"     Slot   2, Species 1976, Health 1400, Level  25, DisplayID 70069, CollarID 0", -- [1]
+			"     Slot   0, Species 1977, Health 1400, Level  25, DisplayID 70068, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [395]
 		{
-			"        abilities : 1773, 514, 518,", -- [1]
+			"        abilities : 1370, 1773, 518,", -- [1]
 			0, -- [2]
 		}, -- [396]
 		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			"     Slot   1, Species 1974, Health 1400, Level  25, DisplayID 70071, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [397]
 		{
-			"     Slot   0, Species 2387, Health 1164, Level  25, DisplayID 33088, CollarID 0", -- [1]
+			"        abilities : 1773, 524, 518,", -- [1]
 			0, -- [2]
 		}, -- [398]
 		{
-			"        abilities : 360, 283, 159,", -- [1]
+			"     Slot   2, Species 1976, Health 1400, Level  25, DisplayID 70069, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [399]
 		{
-			"     Slot   1, Species 2385, Health 1010, Level  25, DisplayID 87603, CollarID 0", -- [1]
+			"        abilities : 1773, 514, 518,", -- [1]
 			0, -- [2]
 		}, -- [400]
 		{
-			"        abilities : 1060, 572, 376,", -- [1]
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [401]
 		{
-			"     Slot   2, Species 2385, Health 916, Level  25, DisplayID 87603, CollarID 0", -- [1]
+			"     Slot   0, Species 1917, Health 1145, Level  25, DisplayID 47633, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [402]
 		{
-			"        abilities : 119, 297, 376,", -- [1]
+			"        abilities : 908, 578, 1717,", -- [1]
 			0, -- [2]
 		}, -- [403]
 		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
+			"     Slot   1, Species 550, Health 1057, Level  25, DisplayID 4959, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [404]
 		{
-			"---Battle Begin---", -- [1]
+			"        abilities : 253, 360, 163,", -- [1]
 			0, -- [2]
 		}, -- [405]
 		{
-			"  PetSwap P0 PET 0", -- [1]
+			"     Slot   2, Species 645, Health 968, Level  25, DisplayID 45970, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [406]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"        abilities : 420, 579, 580,", -- [1]
 			0, -- [2]
 		}, -- [407]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"<waiting for PetBattleReadyToStart command>", -- [1]
 			0, -- [2]
 		}, -- [408]
 		{
-			"---Replacements made---", -- [1]
+			"---Battle Begin---", -- [1]
 			0, -- [2]
 		}, -- [409]
 		{
-			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"  PetSwap P0 PET 0", -- [1]
 			0, -- [2]
 		}, -- [410]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [411]
 		{
-			"---Replacements made---", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [412]
 		{
-			"  P1 PET 1 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"---Replacements made---", -- [1]
 			0, -- [2]
 		}, -- [413]
 		{
-			"  P1 PET 1 performs AURA_APPLY     on P1 PET 2 : (248,8,3,0) :Ability(718), Turn(1111), Effect(1347), Flags(0)", -- [1]
+			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [414]
 		{
@@ -1664,151 +1664,151 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [415]
 		{
-			"---BattleFinished: You Won ---", -- [1]
+			"---Replacements made---", -- [1]
 			0, -- [2]
 		}, -- [416]
 		{
-			"<waiting for PetBattleInput final>", -- [1]
+			"  P0 PET 0 performs PET_SWAP       on P0 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [417]
 		{
-			"---ClientPetBattleFinished---", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [418]
 		{
-			"World transfer pending...", -- [1]
+			"---Replacements made---", -- [1]
 			0, -- [2]
 		}, -- [419]
 		{
-			"Got new connection 3", -- [1]
+			"  P1 PET 1 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [420]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [421]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"---BattleFinished: You Won ---", -- [1]
 			0, -- [2]
 		}, -- [422]
 		{
-			"World transfer pending...", -- [1]
+			"<waiting for PetBattleInput final>", -- [1]
 			0, -- [2]
 		}, -- [423]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"---ClientPetBattleFinished---", -- [1]
 			0, -- [2]
 		}, -- [424]
 		{
-			"PetBattle Initial Update", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [425]
 		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [426]
 		{
-			"     Slot   0, Species 1977, Health 1400, Level  25, DisplayID 70068, CollarID 0", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [427]
 		{
-			"        abilities : 1370, 1773, 518,", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [428]
 		{
-			"     Slot   1, Species 1974, Health 1400, Level  25, DisplayID 70071, CollarID 0", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [429]
 		{
-			"        abilities : 1773, 524, 518,", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [430]
 		{
-			"     Slot   2, Species 1976, Health 1400, Level  25, DisplayID 70069, CollarID 0", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [431]
 		{
-			"        abilities : 1773, 514, 518,", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [432]
 		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [433]
 		{
-			"     Slot   0, Species 2127, Health 1160, Level  25, DisplayID 78464, CollarID 0", -- [1]
+			"PetBattle Initial Update", -- [1]
 			0, -- [2]
 		}, -- [434]
 		{
-			"        abilities : 617, 770, 769,", -- [1]
+			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [435]
 		{
-			"     Slot   1, Species 2123, Health 1114, Level  25, DisplayID 77759, CollarID 0", -- [1]
+			"     Slot   0, Species 1977, Health 1400, Level  25, DisplayID 70068, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [436]
 		{
-			"        abilities : 499, 369, 657,", -- [1]
+			"        abilities : 1370, 1773, 518,", -- [1]
 			0, -- [2]
 		}, -- [437]
 		{
-			"     Slot   2, Species 2123, Health 1320, Level  25, DisplayID 77760, CollarID 0", -- [1]
+			"     Slot   1, Species 1974, Health 1400, Level  25, DisplayID 70071, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [438]
 		{
-			"        abilities : 499, 369, 657,", -- [1]
+			"        abilities : 1773, 524, 518,", -- [1]
 			0, -- [2]
 		}, -- [439]
 		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
+			"     Slot   2, Species 1976, Health 1400, Level  25, DisplayID 70069, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [440]
 		{
-			"---Battle Begin---", -- [1]
+			"        abilities : 1773, 514, 518,", -- [1]
 			0, -- [2]
 		}, -- [441]
 		{
-			"  PetSwap P0 PET 0", -- [1]
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [442]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"     Slot   0, Species 838, Health 850, Level  23, DisplayID 36604, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [443]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"        abilities : 113, 339, 436,", -- [1]
 			0, -- [2]
 		}, -- [444]
 		{
-			"---Replacements made---", -- [1]
+			"     Slot   1, Species 553, Health 979, Level  23, DisplayID 1141, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [445]
 		{
-			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"        abilities : 119, 152, 283,", -- [1]
 			0, -- [2]
 		}, -- [446]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"     Slot   2, Species 554, Health 968, Level  23, DisplayID 36605, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [447]
 		{
-			"---Replacements made---", -- [1]
+			"        abilities : 113, 339, 621,", -- [1]
 			0, -- [2]
 		}, -- [448]
 		{
-			"  P1 PET 1 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"<waiting for PetBattleReadyToStart command>", -- [1]
 			0, -- [2]
 		}, -- [449]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"---Battle Begin---", -- [1]
 			0, -- [2]
 		}, -- [450]
 		{
-			"---Replacements made---", -- [1]
+			"  PetSwap P0 PET 0", -- [1]
 			0, -- [2]
 		}, -- [451]
 		{
-			"  P0 PET 0 performs PET_SWAP       on P0 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [452]
 		{
@@ -1816,39 +1816,39 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [453]
 		{
-			"---BattleFinished: You Won ---", -- [1]
+			"---Replacements made---", -- [1]
 			0, -- [2]
 		}, -- [454]
 		{
-			"<waiting for PetBattleInput final>", -- [1]
+			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [455]
 		{
-			"---ClientPetBattleFinished---", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [456]
 		{
-			"World transfer pending...", -- [1]
+			"---Replacements made---", -- [1]
 			0, -- [2]
 		}, -- [457]
 		{
-			"Got new connection 3", -- [1]
+			"  P1 PET 1 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [458]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [459]
 		{
-			"World transfer pending...", -- [1]
+			"---BattleFinished: You Won ---", -- [1]
 			0, -- [2]
 		}, -- [460]
 		{
-			"Got new connection 3", -- [1]
+			"<waiting for PetBattleInput final>", -- [1]
 			0, -- [2]
 		}, -- [461]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"---ClientPetBattleFinished---", -- [1]
 			0, -- [2]
 		}, -- [462]
 		{
@@ -1864,91 +1864,91 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [465]
 		{
-			"World transfer pending...", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [466]
 		{
-			"Got new connection 3", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [467]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Attempted to register existing command: ShowObjUsage\n", -- [1]
 			0, -- [2]
 		}, -- [468]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Attempted to register existing command: SetDifficulty\n", -- [1]
 			0, -- [2]
 		}, -- [469]
 		{
-			"Weather changed to 2, intensity 0.800000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [470]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 2 set to 0x0000000010", -- [1]
 			0, -- [2]
 		}, -- [471]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 2 set to 0x0000000410", -- [1]
 			0, -- [2]
 		}, -- [472]
 		{
-			"World transfer pending...", -- [1]
+			"Proficiency in item class 2 set to 0x0000000430", -- [1]
 			0, -- [2]
 		}, -- [473]
 		{
-			"Got new connection 3", -- [1]
+			"Proficiency in item class 2 set to 0x0000008430", -- [1]
 			0, -- [2]
 		}, -- [474]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 4 set to 0x0000000021", -- [1]
 			0, -- [2]
 		}, -- [475]
 		{
-			"World transfer pending...", -- [1]
+			"Proficiency in item class 2 set to 0x000000c430", -- [1]
 			0, -- [2]
 		}, -- [476]
 		{
-			"Got new connection 3", -- [1]
+			"Proficiency in item class 2 set to 0x000000c470", -- [1]
 			0, -- [2]
 		}, -- [477]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 2 set to 0x000010c470", -- [1]
 			0, -- [2]
 		}, -- [478]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 4 set to 0x0000000025", -- [1]
 			0, -- [2]
 		}, -- [479]
 		{
-			"World transfer pending...", -- [1]
+			"Proficiency in item class 4 set to 0x0000000027", -- [1]
 			0, -- [2]
 		}, -- [480]
 		{
-			"Got new connection 3", -- [1]
+			"Proficiency in item class 2 set to 0x000010e470", -- [1]
 			0, -- [2]
 		}, -- [481]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 2 set to 0x000010e470", -- [1]
 			0, -- [2]
 		}, -- [482]
 		{
-			"World transfer pending...", -- [1]
+			"Proficiency in item class 4 set to 0x0000000027", -- [1]
 			0, -- [2]
 		}, -- [483]
 		{
-			"Got new connection 3", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [484]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Time set to 5/14/2022 (Sat) 14:19", -- [1]
 			0, -- [2]
 		}, -- [485]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Gamespeed set from 0.017 to 0.017", -- [1]
 			0, -- [2]
 		}, -- [486]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [487]
 		{
@@ -1956,619 +1956,619 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [488]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Time played:", -- [1]
 			0, -- [2]
 		}, -- [489]
 		{
-			"Got new connection 3", -- [1]
+			"Total: 4d 6h 35m 15s", -- [1]
 			0, -- [2]
 		}, -- [490]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Level: 0d 15h 53m 2s", -- [1]
 			0, -- [2]
 		}, -- [491]
 		{
-			"PetBattle Initial Update", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [492]
 		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [493]
 		{
-			"     Slot   0, Species 1977, Health 1400, Level  25, DisplayID 70068, CollarID 0", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [494]
 		{
-			"        abilities : 1370, 1773, 518,", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [495]
 		{
-			"     Slot   1, Species 1974, Health 1400, Level  25, DisplayID 70071, CollarID 0", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [496]
 		{
-			"        abilities : 1773, 524, 518,", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [497]
 		{
-			"     Slot   2, Species 1976, Health 1400, Level  25, DisplayID 70069, CollarID 0", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [498]
 		{
-			"        abilities : 1773, 514, 518,", -- [1]
+			"Attempted to register existing command: ShowObjUsage\n", -- [1]
 			0, -- [2]
 		}, -- [499]
 		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			"Attempted to register existing command: SetDifficulty\n", -- [1]
 			0, -- [2]
 		}, -- [500]
 		{
-			"     Slot   0, Species 380, Health 1195, Level  25, DisplayID 40716, CollarID 0", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [501]
 		{
-			"        abilities : 424, 283, 541,", -- [1]
+			"Proficiency in item class 2 set to 0x0000000080", -- [1]
 			0, -- [2]
 		}, -- [502]
 		{
-			"     Slot   1, Species 550, Health 1000, Level  25, DisplayID 4959, CollarID 0", -- [1]
+			"Proficiency in item class 2 set to 0x0000000480", -- [1]
 			0, -- [2]
 		}, -- [503]
 		{
-			"        abilities : 119, 360, 163,", -- [1]
+			"Proficiency in item class 2 set to 0x0000008480", -- [1]
 			0, -- [2]
 		}, -- [504]
 		{
-			"     Slot   2, Species 647, Health 1220, Level  25, DisplayID 134, CollarID 0", -- [1]
+			"Proficiency in item class 4 set to 0x0000000021", -- [1]
 			0, -- [2]
 		}, -- [505]
 		{
-			"        abilities : 119, 165, 163,", -- [1]
+			"Proficiency in item class 2 set to 0x000000c480", -- [1]
 			0, -- [2]
 		}, -- [506]
 		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
+			"Proficiency in item class 2 set to 0x000008c480", -- [1]
 			0, -- [2]
 		}, -- [507]
 		{
-			"---Battle Begin---", -- [1]
+			"Proficiency in item class 2 set to 0x000018c480", -- [1]
 			0, -- [2]
 		}, -- [508]
 		{
-			"  PetSwap P0 PET 0", -- [1]
+			"Proficiency in item class 4 set to 0x0000000023", -- [1]
 			0, -- [2]
 		}, -- [509]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"Proficiency in item class 2 set to 0x000018c480", -- [1]
 			0, -- [2]
 		}, -- [510]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"Proficiency in item class 4 set to 0x0000000023", -- [1]
 			0, -- [2]
 		}, -- [511]
 		{
-			"---BattleAbandoned---", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [512]
 		{
-			"<waiting for PetBattleInput final>", -- [1]
+			"Time set to 5/14/2022 (Sat) 14:23", -- [1]
 			0, -- [2]
 		}, -- [513]
 		{
-			"---ClientPetBattleFinished---", -- [1]
+			"Gamespeed set from 0.017 to 0.017", -- [1]
 			0, -- [2]
 		}, -- [514]
 		{
-			"PetBattle Initial Update", -- [1]
+			"Time played:", -- [1]
 			0, -- [2]
 		}, -- [515]
 		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
+			"Total: 159d 9h 39m 22s", -- [1]
 			0, -- [2]
 		}, -- [516]
 		{
-			"     Slot   0, Species 1977, Health 1400, Level  25, DisplayID 70068, CollarID 0", -- [1]
+			"Level: 78d 16h 52m 31s", -- [1]
 			0, -- [2]
 		}, -- [517]
 		{
-			"        abilities : 1370, 1773, 518,", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [518]
 		{
-			"     Slot   1, Species 1974, Health 1400, Level  25, DisplayID 70071, CollarID 0", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [519]
 		{
-			"        abilities : 1773, 524, 518,", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [520]
 		{
-			"     Slot   2, Species 1976, Health 1400, Level  25, DisplayID 70069, CollarID 0", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [521]
 		{
-			"        abilities : 1773, 514, 518,", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [522]
 		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [523]
 		{
-			"     Slot   0, Species 1917, Health 1145, Level  25, DisplayID 47633, CollarID 0", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [524]
 		{
-			"        abilities : 908, 578, 1717,", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [525]
 		{
-			"     Slot   1, Species 550, Health 1057, Level  25, DisplayID 4959, CollarID 0", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [526]
 		{
-			"        abilities : 253, 360, 163,", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [527]
 		{
-			"     Slot   2, Species 645, Health 968, Level  25, DisplayID 45970, CollarID 0", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [528]
 		{
-			"        abilities : 420, 579, 580,", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [529]
 		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [530]
 		{
-			"---Battle Begin---", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [531]
 		{
-			"  PetSwap P0 PET 0", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [532]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [533]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [534]
 		{
-			"---Replacements made---", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [535]
 		{
-			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [536]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [537]
 		{
-			"---Replacements made---", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [538]
 		{
-			"  P0 PET 0 performs PET_SWAP       on P0 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [539]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"PetBattle Initial Update", -- [1]
 			0, -- [2]
 		}, -- [540]
 		{
-			"---Replacements made---", -- [1]
+			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [541]
 		{
-			"  P1 PET 1 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"     Slot   0, Species 1977, Health 1400, Level  25, DisplayID 70068, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [542]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"        abilities : 1370, 1773, 518,", -- [1]
 			0, -- [2]
 		}, -- [543]
 		{
-			"---BattleFinished: You Won ---", -- [1]
+			"     Slot   1, Species 1974, Health 1400, Level  25, DisplayID 70071, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [544]
 		{
-			"<waiting for PetBattleInput final>", -- [1]
+			"        abilities : 1773, 524, 518,", -- [1]
 			0, -- [2]
 		}, -- [545]
 		{
-			"---ClientPetBattleFinished---", -- [1]
+			"     Slot   2, Species 1976, Health 1400, Level  25, DisplayID 70069, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [546]
 		{
-			"World transfer pending...", -- [1]
+			"        abilities : 1773, 514, 518,", -- [1]
 			0, -- [2]
 		}, -- [547]
 		{
-			"Got new connection 3", -- [1]
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [548]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"     Slot   0, Species 1735, Health 1505, Level  25, DisplayID 30995, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [549]
 		{
-			"World transfer pending...", -- [1]
+			"        abilities : 160, 369, 159,", -- [1]
 			0, -- [2]
 		}, -- [550]
 		{
-			"Got new connection 3", -- [1]
+			"     Slot   1, Species 1583, Health 1020, Level  25, DisplayID 60914, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [551]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"        abilities : 429, 310, 423,", -- [1]
 			0, -- [2]
 		}, -- [552]
 		{
-			"World transfer pending...", -- [1]
+			"     Slot   2, Species 447, Health 1288, Level  25, DisplayID 654, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [553]
 		{
-			"Got new connection 3", -- [1]
+			"        abilities : 493, 574, 376,", -- [1]
 			0, -- [2]
 		}, -- [554]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"<waiting for PetBattleReadyToStart command>", -- [1]
 			0, -- [2]
 		}, -- [555]
 		{
-			"PetBattle Initial Update", -- [1]
+			"---Battle Begin---", -- [1]
 			0, -- [2]
 		}, -- [556]
 		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
+			"  PetSwap P0 PET 0", -- [1]
 			0, -- [2]
 		}, -- [557]
 		{
-			"     Slot   0, Species 1977, Health 1400, Level  25, DisplayID 70068, CollarID 0", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [558]
 		{
-			"        abilities : 1370, 1773, 518,", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [559]
 		{
-			"     Slot   1, Species 1974, Health 1400, Level  25, DisplayID 70071, CollarID 0", -- [1]
+			"---Replacements made---", -- [1]
 			0, -- [2]
 		}, -- [560]
 		{
-			"        abilities : 1773, 524, 518,", -- [1]
+			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [561]
 		{
-			"     Slot   2, Species 1976, Health 1400, Level  25, DisplayID 70069, CollarID 0", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [562]
 		{
-			"        abilities : 1773, 514, 518,", -- [1]
+			"---Replacements made---", -- [1]
 			0, -- [2]
 		}, -- [563]
 		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			"  P0 PET 0 performs PET_SWAP       on P0 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [564]
 		{
-			"     Slot   0, Species 838, Health 850, Level  23, DisplayID 36604, CollarID 0", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [565]
 		{
-			"        abilities : 113, 339, 436,", -- [1]
+			"---Replacements made---", -- [1]
 			0, -- [2]
 		}, -- [566]
 		{
-			"     Slot   1, Species 553, Health 979, Level  23, DisplayID 1141, CollarID 0", -- [1]
+			"  P1 PET 1 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [567]
 		{
-			"        abilities : 119, 152, 283,", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [568]
 		{
-			"     Slot   2, Species 554, Health 968, Level  23, DisplayID 36605, CollarID 0", -- [1]
+			"---BattleFinished: You Won ---", -- [1]
 			0, -- [2]
 		}, -- [569]
 		{
-			"        abilities : 113, 339, 621,", -- [1]
+			"<waiting for PetBattleInput final>", -- [1]
 			0, -- [2]
 		}, -- [570]
 		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
+			"---ClientPetBattleFinished---", -- [1]
 			0, -- [2]
 		}, -- [571]
 		{
-			"---Battle Begin---", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [572]
 		{
-			"  PetSwap P0 PET 0", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [573]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"PetBattle Initial Update", -- [1]
 			0, -- [2]
 		}, -- [574]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [575]
 		{
-			"---Replacements made---", -- [1]
+			"     Slot   0, Species 1977, Health 1400, Level  25, DisplayID 70068, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [576]
 		{
-			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"        abilities : 1370, 1773, 518,", -- [1]
 			0, -- [2]
 		}, -- [577]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"     Slot   1, Species 1974, Health 1400, Level  25, DisplayID 70071, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [578]
 		{
-			"---Replacements made---", -- [1]
+			"        abilities : 1773, 524, 518,", -- [1]
 			0, -- [2]
 		}, -- [579]
 		{
-			"  P1 PET 1 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"     Slot   2, Species 1976, Health 1400, Level  25, DisplayID 70069, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [580]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"        abilities : 1773, 514, 518,", -- [1]
 			0, -- [2]
 		}, -- [581]
 		{
-			"---BattleFinished: You Won ---", -- [1]
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [582]
 		{
-			"<waiting for PetBattleInput final>", -- [1]
+			"     Slot   0, Species 1810, Health 864, Level  25, DisplayID 66213, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [583]
 		{
-			"---ClientPetBattleFinished---", -- [1]
+			"        abilities : 441, 1043, 159,", -- [1]
 			0, -- [2]
 		}, -- [584]
 		{
-			"World transfer pending...", -- [1]
+			"     Slot   1, Species 1914, Health 1000, Level  25, DisplayID 71056, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [585]
 		{
-			"Got new connection 3", -- [1]
+			"        abilities : 563, 581, 912,", -- [1]
 			0, -- [2]
 		}, -- [586]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"     Slot   2, Species 706, Health 916, Level  25, DisplayID 40090, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [587]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"        abilities : 110, 158, 152,", -- [1]
 			0, -- [2]
 		}, -- [588]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"<waiting for PetBattleReadyToStart command>", -- [1]
 			0, -- [2]
 		}, -- [589]
 		{
-			"Attempted to register existing command: ShowObjUsage\n", -- [1]
+			"---Battle Begin---", -- [1]
 			0, -- [2]
 		}, -- [590]
 		{
-			"Attempted to register existing command: SetDifficulty\n", -- [1]
+			"  PetSwap P0 PET 0", -- [1]
 			0, -- [2]
 		}, -- [591]
 		{
-			"Got new connection 3", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [592]
 		{
-			"Proficiency in item class 2 set to 0x0000000010", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [593]
 		{
-			"Proficiency in item class 2 set to 0x0000000410", -- [1]
+			"---BattleAbandoned---", -- [1]
 			0, -- [2]
 		}, -- [594]
 		{
-			"Proficiency in item class 2 set to 0x0000000430", -- [1]
+			"<waiting for PetBattleInput final>", -- [1]
 			0, -- [2]
 		}, -- [595]
 		{
-			"Proficiency in item class 2 set to 0x0000008430", -- [1]
+			"---ClientPetBattleFinished---", -- [1]
 			0, -- [2]
 		}, -- [596]
 		{
-			"Proficiency in item class 4 set to 0x0000000021", -- [1]
+			"PetBattle Initial Update", -- [1]
 			0, -- [2]
 		}, -- [597]
 		{
-			"Proficiency in item class 2 set to 0x000000c430", -- [1]
+			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [598]
 		{
-			"Proficiency in item class 2 set to 0x000000c470", -- [1]
+			"     Slot   0, Species 1977, Health 1400, Level  25, DisplayID 70068, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [599]
 		{
-			"Proficiency in item class 2 set to 0x000010c470", -- [1]
+			"        abilities : 1370, 1773, 518,", -- [1]
 			0, -- [2]
 		}, -- [600]
 		{
-			"Proficiency in item class 4 set to 0x0000000025", -- [1]
+			"     Slot   1, Species 1974, Health 1400, Level  25, DisplayID 70071, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [601]
 		{
-			"Proficiency in item class 4 set to 0x0000000027", -- [1]
+			"        abilities : 1773, 524, 518,", -- [1]
 			0, -- [2]
 		}, -- [602]
 		{
-			"Proficiency in item class 2 set to 0x000010e470", -- [1]
+			"     Slot   2, Species 1976, Health 1400, Level  25, DisplayID 70069, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [603]
 		{
-			"Proficiency in item class 2 set to 0x000010e470", -- [1]
+			"        abilities : 1773, 514, 518,", -- [1]
 			0, -- [2]
 		}, -- [604]
 		{
-			"Proficiency in item class 4 set to 0x0000000027", -- [1]
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [605]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"     Slot   0, Species 1810, Health 906, Level  25, DisplayID 66213, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [606]
 		{
-			"Time set to 5/14/2022 (Sat) 14:19", -- [1]
+			"        abilities : 626, 382, 250,", -- [1]
 			0, -- [2]
 		}, -- [607]
 		{
-			"Gamespeed set from 0.017 to 0.017", -- [1]
+			"     Slot   1, Species 1914, Health 1083, Level  25, DisplayID 71056, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [608]
 		{
-			"Got new connection 3", -- [1]
+			"        abilities : 112, 581, 912,", -- [1]
 			0, -- [2]
 		}, -- [609]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"     Slot   2, Species 1591, Health 1103, Level  25, DisplayID 60863, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [610]
 		{
-			"Time played:", -- [1]
+			"        abilities : 119, 359, 366,", -- [1]
 			0, -- [2]
 		}, -- [611]
 		{
-			"Total: 4d 6h 35m 15s", -- [1]
+			"<waiting for PetBattleReadyToStart command>", -- [1]
 			0, -- [2]
 		}, -- [612]
 		{
-			"Level: 0d 15h 53m 2s", -- [1]
+			"---Battle Begin---", -- [1]
 			0, -- [2]
 		}, -- [613]
 		{
-			"World transfer pending...", -- [1]
+			"  PetSwap P0 PET 0", -- [1]
 			0, -- [2]
 		}, -- [614]
 		{
-			"Got new connection 3", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [615]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [616]
 		{
-			"World transfer pending...", -- [1]
+			"---BattleAbandoned---", -- [1]
 			0, -- [2]
 		}, -- [617]
 		{
-			"Got new connection 3", -- [1]
+			"<waiting for PetBattleInput final>", -- [1]
 			0, -- [2]
 		}, -- [618]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"---ClientPetBattleFinished---", -- [1]
 			0, -- [2]
 		}, -- [619]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"PetBattle Initial Update", -- [1]
 			0, -- [2]
 		}, -- [620]
 		{
-			"Attempted to register existing command: ShowObjUsage\n", -- [1]
+			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [621]
 		{
-			"Attempted to register existing command: SetDifficulty\n", -- [1]
+			"     Slot   0, Species 1977, Health 1400, Level  25, DisplayID 70068, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [622]
 		{
-			"Got new connection 3", -- [1]
+			"        abilities : 1370, 1773, 518,", -- [1]
 			0, -- [2]
 		}, -- [623]
 		{
-			"Proficiency in item class 2 set to 0x0000000080", -- [1]
+			"     Slot   1, Species 1974, Health 1400, Level  25, DisplayID 70071, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [624]
 		{
-			"Proficiency in item class 2 set to 0x0000000480", -- [1]
+			"        abilities : 1773, 524, 518,", -- [1]
 			0, -- [2]
 		}, -- [625]
 		{
-			"Proficiency in item class 2 set to 0x0000008480", -- [1]
+			"     Slot   2, Species 1976, Health 1400, Level  25, DisplayID 70069, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [626]
 		{
-			"Proficiency in item class 4 set to 0x0000000021", -- [1]
+			"        abilities : 1773, 514, 518,", -- [1]
 			0, -- [2]
 		}, -- [627]
 		{
-			"Proficiency in item class 2 set to 0x000000c480", -- [1]
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [628]
 		{
-			"Proficiency in item class 2 set to 0x000008c480", -- [1]
+			"     Slot   0, Species 1810, Health 988, Level  25, DisplayID 66213, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [629]
 		{
-			"Proficiency in item class 2 set to 0x000018c480", -- [1]
+			"        abilities : 441, 382, 250,", -- [1]
 			0, -- [2]
 		}, -- [630]
 		{
-			"Proficiency in item class 4 set to 0x0000000023", -- [1]
+			"     Slot   1, Species 751, Health 1195, Level  25, DisplayID 40584, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [631]
 		{
-			"Proficiency in item class 2 set to 0x000018c480", -- [1]
+			"        abilities : 118, 123, 297,", -- [1]
 			0, -- [2]
 		}, -- [632]
 		{
-			"Proficiency in item class 4 set to 0x0000000023", -- [1]
+			"     Slot   2, Species 1325, Health 916, Level  25, DisplayID 51301, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [633]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"        abilities : 113, 168, 508,", -- [1]
 			0, -- [2]
 		}, -- [634]
 		{
-			"Time set to 5/14/2022 (Sat) 14:23", -- [1]
+			"<waiting for PetBattleReadyToStart command>", -- [1]
 			0, -- [2]
 		}, -- [635]
 		{
-			"Gamespeed set from 0.017 to 0.017", -- [1]
+			"---Battle Begin---", -- [1]
 			0, -- [2]
 		}, -- [636]
 		{
-			"Time played:", -- [1]
+			"  PetSwap P0 PET 0", -- [1]
 			0, -- [2]
 		}, -- [637]
 		{
-			"Total: 159d 9h 39m 22s", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [638]
 		{
-			"Level: 78d 16h 52m 31s", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [639]
 		{
-			"World transfer pending...", -- [1]
+			"---BattleAbandoned---", -- [1]
 			0, -- [2]
 		}, -- [640]
 		{
-			"Got new connection 3", -- [1]
+			"<waiting for PetBattleInput final>", -- [1]
 			0, -- [2]
 		}, -- [641]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"---ClientPetBattleFinished---", -- [1]
 			0, -- [2]
 		}, -- [642]
 		{
@@ -2580,51 +2580,51 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [644]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Weather changed to 4, intensity 1.000000\n", -- [1]
 			0, -- [2]
 		}, -- [645]
 		{
-			"Got new connection 3", -- [1]
+			"Weather changed to 4, intensity 1.000000\n", -- [1]
 			0, -- [2]
 		}, -- [646]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Weather changed to 4, intensity 1.000000\n", -- [1]
 			0, -- [2]
 		}, -- [647]
 		{
-			"World transfer pending...", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [648]
 		{
-			"Got new connection 3", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [649]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [650]
 		{
-			"World transfer pending...", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [651]
 		{
-			"Got new connection 3", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [652]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Skill 2731 increased from 300 to 0", -- [1]
 			0, -- [2]
 		}, -- [653]
 		{
-			"World transfer pending...", -- [1]
+			"Skill 2733 increased from 0 to 300", -- [1]
 			0, -- [2]
 		}, -- [654]
 		{
-			"Got new connection 3", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [655]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [656]
 		{
@@ -2636,7 +2636,7 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [658]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [659]
 		{
@@ -2648,135 +2648,135 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [661]
 		{
-			"PetBattle Initial Update", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [662]
 		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [663]
 		{
-			"     Slot   0, Species 1977, Health 1400, Level  25, DisplayID 70068, CollarID 0", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [664]
 		{
-			"        abilities : 1370, 1773, 518,", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [665]
 		{
-			"     Slot   1, Species 1974, Health 1400, Level  25, DisplayID 70071, CollarID 0", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [666]
 		{
-			"        abilities : 1773, 524, 518,", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [667]
 		{
-			"     Slot   2, Species 1976, Health 1400, Level  25, DisplayID 70069, CollarID 0", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [668]
 		{
-			"        abilities : 1773, 514, 518,", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [669]
 		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [670]
 		{
-			"     Slot   0, Species 1735, Health 1505, Level  25, DisplayID 30995, CollarID 0", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [671]
 		{
-			"        abilities : 160, 369, 159,", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [672]
 		{
-			"     Slot   1, Species 1583, Health 1020, Level  25, DisplayID 60914, CollarID 0", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [673]
 		{
-			"        abilities : 429, 310, 423,", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [674]
 		{
-			"     Slot   2, Species 447, Health 1288, Level  25, DisplayID 654, CollarID 0", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [675]
 		{
-			"        abilities : 493, 574, 376,", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [676]
 		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [677]
 		{
-			"---Battle Begin---", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [678]
 		{
-			"  PetSwap P0 PET 0", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [679]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [680]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [681]
 		{
-			"---Replacements made---", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [682]
 		{
-			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [683]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [684]
 		{
-			"---Replacements made---", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [685]
 		{
-			"  P0 PET 0 performs PET_SWAP       on P0 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [686]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [687]
 		{
-			"---Replacements made---", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [688]
 		{
-			"  P1 PET 1 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [689]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [690]
 		{
-			"---BattleFinished: You Won ---", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [691]
 		{
-			"<waiting for PetBattleInput final>", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [692]
 		{
-			"---ClientPetBattleFinished---", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [693]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [694]
 		{
@@ -2784,611 +2784,611 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [695]
 		{
-			"PetBattle Initial Update", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [696]
 		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [697]
 		{
-			"     Slot   0, Species 1977, Health 1400, Level  25, DisplayID 70068, CollarID 0", -- [1]
+			"Weather changed to 2, intensity 0.800000\n", -- [1]
 			0, -- [2]
 		}, -- [698]
 		{
-			"        abilities : 1370, 1773, 518,", -- [1]
+			"Weather changed to 2, intensity 0.800000\n", -- [1]
 			0, -- [2]
 		}, -- [699]
 		{
-			"     Slot   1, Species 1974, Health 1400, Level  25, DisplayID 70071, CollarID 0", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [700]
 		{
-			"        abilities : 1773, 524, 518,", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [701]
 		{
-			"     Slot   2, Species 1976, Health 1400, Level  25, DisplayID 70069, CollarID 0", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [702]
 		{
-			"        abilities : 1773, 514, 518,", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [703]
 		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [704]
 		{
-			"     Slot   0, Species 1810, Health 864, Level  25, DisplayID 66213, CollarID 0", -- [1]
+			"Weather changed to 3, intensity 0.500000\n", -- [1]
 			0, -- [2]
 		}, -- [705]
 		{
-			"        abilities : 441, 1043, 159,", -- [1]
+			"Weather changed to 3, intensity 0.500000\n", -- [1]
 			0, -- [2]
 		}, -- [706]
 		{
-			"     Slot   1, Species 1914, Health 1000, Level  25, DisplayID 71056, CollarID 0", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [707]
 		{
-			"        abilities : 563, 581, 912,", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [708]
 		{
-			"     Slot   2, Species 706, Health 916, Level  25, DisplayID 40090, CollarID 0", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [709]
 		{
-			"        abilities : 110, 158, 152,", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [710]
 		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [711]
 		{
-			"---Battle Begin---", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [712]
 		{
-			"  PetSwap P0 PET 0", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [713]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [714]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [715]
 		{
-			"---BattleAbandoned---", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [716]
 		{
-			"<waiting for PetBattleInput final>", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [717]
 		{
-			"---ClientPetBattleFinished---", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [718]
 		{
-			"PetBattle Initial Update", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [719]
 		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [720]
 		{
-			"     Slot   0, Species 1977, Health 1400, Level  25, DisplayID 70068, CollarID 0", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [721]
 		{
-			"        abilities : 1370, 1773, 518,", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [722]
 		{
-			"     Slot   1, Species 1974, Health 1400, Level  25, DisplayID 70071, CollarID 0", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [723]
 		{
-			"        abilities : 1773, 524, 518,", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [724]
 		{
-			"     Slot   2, Species 1976, Health 1400, Level  25, DisplayID 70069, CollarID 0", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [725]
 		{
-			"        abilities : 1773, 514, 518,", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [726]
 		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [727]
 		{
-			"     Slot   0, Species 1810, Health 906, Level  25, DisplayID 66213, CollarID 0", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [728]
 		{
-			"        abilities : 626, 382, 250,", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [729]
 		{
-			"     Slot   1, Species 1914, Health 1083, Level  25, DisplayID 71056, CollarID 0", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [730]
 		{
-			"        abilities : 112, 581, 912,", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [731]
 		{
-			"     Slot   2, Species 1591, Health 1103, Level  25, DisplayID 60863, CollarID 0", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [732]
 		{
-			"        abilities : 119, 359, 366,", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [733]
 		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [734]
 		{
-			"---Battle Begin---", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [735]
 		{
-			"  PetSwap P0 PET 0", -- [1]
+			"Weather changed to 2, intensity 0.800000\n", -- [1]
 			0, -- [2]
 		}, -- [736]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"Weather changed to 2, intensity 0.800000\n", -- [1]
 			0, -- [2]
 		}, -- [737]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [738]
 		{
-			"---BattleAbandoned---", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [739]
 		{
-			"<waiting for PetBattleInput final>", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [740]
 		{
-			"---ClientPetBattleFinished---", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [741]
 		{
-			"PetBattle Initial Update", -- [1]
+			"Sorting particles normally.", -- [1]
 			0, -- [2]
 		}, -- [742]
 		{
-			"   Player 0 Player-1301-096AE5A8  frontPet 0 ", -- [1]
+			"Multithreaded rendering enabled.", -- [1]
 			0, -- [2]
 		}, -- [743]
 		{
-			"     Slot   0, Species 1977, Health 1400, Level  25, DisplayID 70068, CollarID 0", -- [1]
+			"Multithreaded BeginDraw enabled.", -- [1]
 			0, -- [2]
 		}, -- [744]
 		{
-			"        abilities : 1370, 1773, 518,", -- [1]
+			"Multithread shadows changed to 1.", -- [1]
 			0, -- [2]
 		}, -- [745]
 		{
-			"     Slot   1, Species 1974, Health 1400, Level  25, DisplayID 70071, CollarID 0", -- [1]
+			"Multithreaded prepass enabled.", -- [1]
 			0, -- [2]
 		}, -- [746]
 		{
-			"        abilities : 1773, 524, 518,", -- [1]
+			"Multithreaded opaque pass enabled.", -- [1]
 			0, -- [2]
 		}, -- [747]
 		{
-			"     Slot   2, Species 1976, Health 1400, Level  25, DisplayID 70069, CollarID 0", -- [1]
+			"Multithreaded opaque pass enabled.", -- [1]
 			0, -- [2]
 		}, -- [748]
 		{
-			"        abilities : 1773, 514, 518,", -- [1]
+			"Multithreaded alpha M2 pass enabled.", -- [1]
 			0, -- [2]
 		}, -- [749]
 		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			"Multithreaded opaque WMO pass enabled.", -- [1]
 			0, -- [2]
 		}, -- [750]
 		{
-			"     Slot   0, Species 1810, Health 988, Level  25, DisplayID 66213, CollarID 0", -- [1]
+			"Multithreaded terrain pass enabled.", -- [1]
 			0, -- [2]
 		}, -- [751]
 		{
-			"        abilities : 441, 382, 250,", -- [1]
+			"Water detail changed to 2", -- [1]
 			0, -- [2]
 		}, -- [752]
 		{
-			"     Slot   1, Species 751, Health 1195, Level  25, DisplayID 40584, CollarID 0", -- [1]
+			"Ripple detail changed to 1", -- [1]
 			0, -- [2]
 		}, -- [753]
 		{
-			"        abilities : 118, 123, 297,", -- [1]
+			"Reflection mode changed to 0", -- [1]
 			0, -- [2]
 		}, -- [754]
 		{
-			"     Slot   2, Species 1325, Health 916, Level  25, DisplayID 51301, CollarID 0", -- [1]
+			"Reflection downscale changed to 0", -- [1]
 			0, -- [2]
 		}, -- [755]
 		{
-			"        abilities : 113, 168, 508,", -- [1]
+			"Sunshafts quality changed to 2", -- [1]
 			0, -- [2]
 		}, -- [756]
 		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
+			"Refraction mode changed to 2", -- [1]
 			0, -- [2]
 		}, -- [757]
 		{
-			"---Battle Begin---", -- [1]
+			"Enabling BSP node cache (first time - starting up)", -- [1]
 			0, -- [2]
 		}, -- [758]
 		{
-			"  PetSwap P0 PET 0", -- [1]
+			"Volume fog enabled.", -- [1]
 			0, -- [2]
 		}, -- [759]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"Particulate volumes enabled.", -- [1]
 			0, -- [2]
 		}, -- [760]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"Projected textures enabled.", -- [1]
 			0, -- [2]
 		}, -- [761]
 		{
-			"---BattleAbandoned---", -- [1]
+			"Spell Clutter set to dynamic", -- [1]
 			0, -- [2]
 		}, -- [762]
 		{
-			"<waiting for PetBattleInput final>", -- [1]
+			"Shadow mode changed to 3 - 3 band dynamic shadows on units and terrain, 2048", -- [1]
 			0, -- [2]
 		}, -- [763]
 		{
-			"---ClientPetBattleFinished---", -- [1]
+			"Shadow texture size changed to 2048.", -- [1]
 			0, -- [2]
 		}, -- [764]
 		{
-			"World transfer pending...", -- [1]
+			"Soft shadows changed to 0.", -- [1]
 			0, -- [2]
 		}, -- [765]
 		{
-			"Got new connection 3", -- [1]
+			"Shadow RT mode changed to 0 (Disabled)", -- [1]
 			0, -- [2]
 		}, -- [766]
 		{
-			"Weather changed to 4, intensity 1.000000\n", -- [1]
+			"maxLightCount must be in range 0 to 32.", -- [1]
 			0, -- [2]
 		}, -- [767]
 		{
-			"Weather changed to 4, intensity 1.000000\n", -- [1]
+			"CVar 'maxLightCount' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [768]
 		{
-			"Weather changed to 4, intensity 1.000000\n", -- [1]
+			"SSAO mode set to 3", -- [1]
 			0, -- [2]
 		}, -- [769]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"SSAO type set to 0", -- [1]
 			0, -- [2]
 		}, -- [770]
 		{
-			"World transfer pending...", -- [1]
+			"Depth Based Opacity Enabled", -- [1]
 			0, -- [2]
 		}, -- [771]
 		{
-			"Got new connection 3", -- [1]
+			"SkyCloudLOD set to 0", -- [1]
 			0, -- [2]
 		}, -- [772]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Texture filtering mode updated.", -- [1]
 			0, -- [2]
 		}, -- [773]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Terrain mip level changed to 0.", -- [1]
 			0, -- [2]
 		}, -- [774]
 		{
-			"Skill 2731 increased from 300 to 0", -- [1]
+			"Outline mode changed to 2", -- [1]
 			0, -- [2]
 		}, -- [775]
 		{
-			"Skill 2733 increased from 0 to 300", -- [1]
+			"Physics interaction level changed to 1", -- [1]
 			0, -- [2]
 		}, -- [776]
 		{
-			"World transfer pending...", -- [1]
+			"Render scale changed to 1", -- [1]
 			0, -- [2]
 		}, -- [777]
 		{
-			"Got new connection 3", -- [1]
+			"Resample quality changed to 1", -- [1]
 			0, -- [2]
 		}, -- [778]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"MSAA set to 8 color samples, 8 coverage samples", -- [1]
 			0, -- [2]
 		}, -- [779]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"MSAA for alpha-test enabled.", -- [1]
 			0, -- [2]
 		}, -- [780]
 		{
-			"World transfer pending...", -- [1]
+			"Variable Rate Shading not supported on this hardware", -- [1]
 			0, -- [2]
 		}, -- [781]
 		{
-			"Got new connection 3", -- [1]
+			"CVar 'vrsWorldGeo' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [782]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Variable Rate Shading not supported on this hardware", -- [1]
 			0, -- [2]
 		}, -- [783]
 		{
-			"World transfer pending...", -- [1]
+			"CVar 'vrsParticles' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [784]
 		{
-			"Got new connection 3", -- [1]
+			"lodObjectSizeScale cannot be changed.", -- [1]
 			0, -- [2]
 		}, -- [785]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Volume fog enabled.", -- [1]
 			0, -- [2]
 		}, -- [786]
 		{
-			"World transfer pending...", -- [1]
+			"Particulate volumes enabled.", -- [1]
 			0, -- [2]
 		}, -- [787]
 		{
-			"Got new connection 3", -- [1]
+			"dynamicLod enabled", -- [1]
 			0, -- [2]
 		}, -- [788]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"World preload object sort enabled.", -- [1]
 			0, -- [2]
 		}, -- [789]
 		{
-			"World transfer pending...", -- [1]
+			"World load object sort enabled.", -- [1]
 			0, -- [2]
 		}, -- [790]
 		{
-			"Got new connection 3", -- [1]
+			"World preload non critical enabled.", -- [1]
 			0, -- [2]
 		}, -- [791]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"World preload high res textures enabled.", -- [1]
 			0, -- [2]
 		}, -- [792]
 		{
-			"World transfer pending...", -- [1]
+			"FFX: Color Blind Test Mode Disabled", -- [1]
 			0, -- [2]
 		}, -- [793]
 		{
-			"Got new connection 3", -- [1]
+			"Full memory crash dump disabled", -- [1]
 			0, -- [2]
 		}, -- [794]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Error display disabled", -- [1]
 			0, -- [2]
 		}, -- [795]
 		{
-			"World transfer pending...", -- [1]
+			"Error display shown", -- [1]
 			0, -- [2]
 		}, -- [796]
 		{
-			"Got new connection 3", -- [1]
+			"Displaying errors through fatal errors", -- [1]
 			0, -- [2]
 		}, -- [797]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Displaying errors through fatal errors", -- [1]
 			0, -- [2]
 		}, -- [798]
 		{
-			"World transfer pending...", -- [1]
+			"Now filtering: all messages", -- [1]
 			0, -- [2]
 		}, -- [799]
 		{
-			"Got new connection 3", -- [1]
+			"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [800]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [801]
 		{
-			"World transfer pending...", -- [1]
+			"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [802]
 		{
-			"Got new connection 3", -- [1]
+			"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [803]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"[GlueLogin] Starting loginlauncherPortal=\"eu.actual.battle.net\" loginPortal=\"eu.actual.battle.net:1119\"", -- [1]
 			0, -- [2]
 		}, -- [804]
 		{
-			"World transfer pending...", -- [1]
+			"[GlueLogin] Resetting", -- [1]
 			0, -- [2]
 		}, -- [805]
 		{
-			"Got new connection 3", -- [1]
+			"[IBN_Login] Initializing", -- [1]
 			0, -- [2]
 		}, -- [806]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"[IBN_Login] Attempting logonhost=\"eu.actual.battle.net\" port=\"1119\"", -- [1]
 			0, -- [2]
 		}, -- [807]
 		{
-			"World transfer pending...", -- [1]
+			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
 		}, -- [808]
 		{
-			"Got new connection 3", -- [1]
+			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
 		}, -- [809]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
 		}, -- [810]
 		{
-			"Got new connection 3", -- [1]
+			"[GlueLogin] Logon complete.", -- [1]
 			0, -- [2]
 		}, -- [811]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"[GlueLogin] Reconnect token saved; creationTime=\"1652544251\" expirationTime=\"1652558651\"", -- [1]
 			0, -- [2]
 		}, -- [812]
 		{
-			"World transfer pending...", -- [1]
+			"[GlueLogin] Waiting for realm list.", -- [1]
 			0, -- [2]
 		}, -- [813]
 		{
-			"Got new connection 3", -- [1]
+			"[IBN_Login] Requesting realm list ticket", -- [1]
 			0, -- [2]
 		}, -- [814]
 		{
-			"World transfer pending...", -- [1]
+			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [815]
 		{
-			"Got new connection 3", -- [1]
+			"[GlueLogin] Waiting for realm list.", -- [1]
 			0, -- [2]
 		}, -- [816]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [817]
 		{
-			"World transfer pending...", -- [1]
+			"[IBN_Login] Requesting last played charsnumSubRegions=\"3\"", -- [1]
 			0, -- [2]
 		}, -- [818]
 		{
-			"Got new connection 3", -- [1]
+			"[GlueLogin] Realm list ready.", -- [1]
 			0, -- [2]
 		}, -- [819]
 		{
-			"Weather changed to 2, intensity 0.800000\n", -- [1]
+			"[IBN_Login] Joining realmsubRegion=\"3-4-89\" realmAddress=\"3-5-4\"", -- [1]
 			0, -- [2]
 		}, -- [820]
 		{
-			"Weather changed to 2, intensity 0.800000\n", -- [1]
+			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [821]
 		{
-			"World transfer pending...", -- [1]
+			"NetClient::HandleConnect()\n", -- [1]
 			0, -- [2]
 		}, -- [822]
 		{
-			"Got new connection 3", -- [1]
+			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [823]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Got new connection 2", -- [1]
 			0, -- [2]
 		}, -- [824]
 		{
-			"World transfer pending...", -- [1]
+			"[IBN_Login] Front disconnectingconnectionId=\"1\"", -- [1]
 			0, -- [2]
 		}, -- [825]
 		{
-			"Got new connection 3", -- [1]
+			"[GlueLogin] Disconnecting from authentication server.", -- [1]
 			0, -- [2]
 		}, -- [826]
 		{
-			"Weather changed to 3, intensity 0.500000\n", -- [1]
+			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
 			0, -- [2]
 		}, -- [827]
 		{
-			"Weather changed to 3, intensity 0.500000\n", -- [1]
+			"[IBN_Login] Front disconnectedconnectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
 			0, -- [2]
 		}, -- [828]
 		{
-			"World transfer pending...", -- [1]
+			"[GlueLogin] Disconnected from authentication server.", -- [1]
 			0, -- [2]
 		}, -- [829]
 		{
-			"Got new connection 3", -- [1]
+			"[WowEntitlements] [BNetAccount-0-00001A346EC5] [WowAccount-0-000005146EC9] Initialized with 15 entitlements.", -- [1]
 			0, -- [2]
 		}, -- [830]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [831]
 		{
-			"World transfer pending...", -- [1]
-			0, -- [2]
+			"Game table failed consistency check: ChallengeModeHealth. rows: 50, expectedRows: 51, columns: 1, expectedColumns: 1\n", -- [1]
+			3, -- [2]
 		}, -- [832]
 		{
-			"Got new connection 3", -- [1]
-			0, -- [2]
+			"Game table failed consistency check: ChallengeModeDamage. rows: 50, expectedRows: 51, columns: 1, expectedColumns: 1\n", -- [1]
+			3, -- [2]
 		}, -- [833]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [834]
 		{
-			"World transfer pending...", -- [1]
+			"Proficiency in item class 2 set to 0x0000000080", -- [1]
 			0, -- [2]
 		}, -- [835]
 		{
-			"Got new connection 3", -- [1]
+			"Proficiency in item class 2 set to 0x0000000480", -- [1]
 			0, -- [2]
 		}, -- [836]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 2 set to 0x0000008480", -- [1]
 			0, -- [2]
 		}, -- [837]
 		{
-			"World transfer pending...", -- [1]
+			"Proficiency in item class 4 set to 0x0000000021", -- [1]
 			0, -- [2]
 		}, -- [838]
 		{
-			"Got new connection 3", -- [1]
+			"Proficiency in item class 2 set to 0x000000c480", -- [1]
 			0, -- [2]
 		}, -- [839]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 2 set to 0x000008c480", -- [1]
 			0, -- [2]
 		}, -- [840]
 		{
-			"World transfer pending...", -- [1]
+			"Proficiency in item class 2 set to 0x000018c480", -- [1]
 			0, -- [2]
 		}, -- [841]
 		{
-			"Got new connection 3", -- [1]
+			"Proficiency in item class 4 set to 0x0000000023", -- [1]
 			0, -- [2]
 		}, -- [842]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 2 set to 0x000018c480", -- [1]
 			0, -- [2]
 		}, -- [843]
 		{
-			"World transfer pending...", -- [1]
+			"Proficiency in item class 4 set to 0x0000000023", -- [1]
 			0, -- [2]
 		}, -- [844]
 		{
-			"Got new connection 3", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [845]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Time set to 5/14/2022 (Sat) 18:05", -- [1]
 			0, -- [2]
 		}, -- [846]
 		{
-			"World transfer pending...", -- [1]
+			"Gamespeed set from 0.017 to 0.017", -- [1]
 			0, -- [2]
 		}, -- [847]
 		{
@@ -3400,51 +3400,51 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [849]
 		{
-			"World transfer pending...", -- [1]
+			"Time played:", -- [1]
 			0, -- [2]
 		}, -- [850]
 		{
-			"Got new connection 3", -- [1]
+			"Total: 159d 11h 45m 59s", -- [1]
 			0, -- [2]
 		}, -- [851]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Level: 78d 18h 59m 8s", -- [1]
 			0, -- [2]
 		}, -- [852]
 		{
-			"World transfer pending...", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [853]
 		{
-			"Got new connection 3", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [854]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [855]
 		{
-			"World transfer pending...", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [856]
 		{
-			"Got new connection 3", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [857]
 		{
-			"Weather changed to 2, intensity 0.800000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [858]
 		{
-			"Weather changed to 2, intensity 0.800000\n", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [859]
 		{
-			"World transfer pending...", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [860]
 		{
-			"Got new connection 3", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [861]
 		{
@@ -3452,431 +3452,431 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [862]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [863]
 		{
-			"Sorting particles normally.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [864]
 		{
-			"Multithreaded rendering enabled.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [865]
 		{
-			"Multithreaded BeginDraw enabled.", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [866]
 		{
-			"Multithread shadows changed to 1.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [867]
 		{
-			"Multithreaded prepass enabled.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [868]
 		{
-			"Multithreaded opaque pass enabled.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [869]
 		{
-			"Multithreaded opaque pass enabled.", -- [1]
+			"Weather changed to 5, intensity 1.000000\n", -- [1]
 			0, -- [2]
 		}, -- [870]
 		{
-			"Multithreaded alpha M2 pass enabled.", -- [1]
+			"Weather changed to 5, intensity 1.000000\n", -- [1]
 			0, -- [2]
 		}, -- [871]
 		{
-			"Multithreaded opaque WMO pass enabled.", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [872]
 		{
-			"Multithreaded terrain pass enabled.", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [873]
 		{
-			"Water detail changed to 2", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [874]
 		{
-			"Ripple detail changed to 1", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [875]
 		{
-			"Reflection mode changed to 0", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [876]
 		{
-			"Reflection downscale changed to 0", -- [1]
+			"Weather changed to 5, intensity 0.600000\n", -- [1]
 			0, -- [2]
 		}, -- [877]
 		{
-			"Sunshafts quality changed to 2", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [878]
 		{
-			"Refraction mode changed to 2", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [879]
 		{
-			"Enabling BSP node cache (first time - starting up)", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [880]
 		{
-			"Volume fog enabled.", -- [1]
+			"Attempted to register existing command: ShowObjUsage\n", -- [1]
 			0, -- [2]
 		}, -- [881]
 		{
-			"Particulate volumes enabled.", -- [1]
+			"Attempted to register existing command: SetDifficulty\n", -- [1]
 			0, -- [2]
 		}, -- [882]
 		{
-			"Projected textures enabled.", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [883]
 		{
-			"Spell Clutter set to dynamic", -- [1]
+			"Proficiency in item class 2 set to 0x0000000080", -- [1]
 			0, -- [2]
 		}, -- [884]
 		{
-			"Shadow mode changed to 3 - 3 band dynamic shadows on units and terrain, 2048", -- [1]
+			"Proficiency in item class 2 set to 0x0000000480", -- [1]
 			0, -- [2]
 		}, -- [885]
 		{
-			"Shadow texture size changed to 2048.", -- [1]
+			"Proficiency in item class 2 set to 0x0000008480", -- [1]
 			0, -- [2]
 		}, -- [886]
 		{
-			"Soft shadows changed to 0.", -- [1]
+			"Proficiency in item class 4 set to 0x0000000021", -- [1]
 			0, -- [2]
 		}, -- [887]
 		{
-			"Shadow RT mode changed to 0 (Disabled)", -- [1]
+			"Proficiency in item class 2 set to 0x000000c480", -- [1]
 			0, -- [2]
 		}, -- [888]
 		{
-			"maxLightCount must be in range 0 to 32.", -- [1]
+			"Proficiency in item class 2 set to 0x000008c480", -- [1]
 			0, -- [2]
 		}, -- [889]
 		{
-			"CVar 'maxLightCount' failed validation for its initial value.", -- [1]
+			"Proficiency in item class 2 set to 0x000018c480", -- [1]
 			0, -- [2]
 		}, -- [890]
 		{
-			"SSAO mode set to 3", -- [1]
+			"Proficiency in item class 4 set to 0x0000000023", -- [1]
 			0, -- [2]
 		}, -- [891]
 		{
-			"SSAO type set to 0", -- [1]
+			"Proficiency in item class 2 set to 0x000018c480", -- [1]
 			0, -- [2]
 		}, -- [892]
 		{
-			"Depth Based Opacity Enabled", -- [1]
+			"Proficiency in item class 4 set to 0x0000000023", -- [1]
 			0, -- [2]
 		}, -- [893]
 		{
-			"SkyCloudLOD set to 0", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [894]
 		{
-			"Texture filtering mode updated.", -- [1]
+			"Time set to 5/14/2022 (Sat) 19:00", -- [1]
 			0, -- [2]
 		}, -- [895]
 		{
-			"Terrain mip level changed to 0.", -- [1]
+			"Gamespeed set from 0.017 to 0.017", -- [1]
 			0, -- [2]
 		}, -- [896]
 		{
-			"Outline mode changed to 2", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [897]
 		{
-			"Physics interaction level changed to 1", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [898]
 		{
-			"Render scale changed to 1", -- [1]
+			"Time played:", -- [1]
 			0, -- [2]
 		}, -- [899]
 		{
-			"Resample quality changed to 1", -- [1]
+			"Total: 159d 12h 38m 33s", -- [1]
 			0, -- [2]
 		}, -- [900]
 		{
-			"MSAA set to 8 color samples, 8 coverage samples", -- [1]
+			"Level: 78d 19h 51m 42s", -- [1]
 			0, -- [2]
 		}, -- [901]
 		{
-			"MSAA for alpha-test enabled.", -- [1]
+			"Weather changed to 5, intensity 0.600000\n", -- [1]
 			0, -- [2]
 		}, -- [902]
 		{
-			"Variable Rate Shading not supported on this hardware", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [903]
 		{
-			"CVar 'vrsWorldGeo' failed validation for its initial value.", -- [1]
+			"Weather changed to 5, intensity 0.600000\n", -- [1]
 			0, -- [2]
 		}, -- [904]
 		{
-			"Variable Rate Shading not supported on this hardware", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [905]
 		{
-			"CVar 'vrsParticles' failed validation for its initial value.", -- [1]
+			"Weather changed to 5, intensity 0.600000\n", -- [1]
 			0, -- [2]
 		}, -- [906]
 		{
-			"lodObjectSizeScale cannot be changed.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [907]
 		{
-			"Volume fog enabled.", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [908]
 		{
-			"Particulate volumes enabled.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [909]
 		{
-			"dynamicLod enabled", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [910]
 		{
-			"World preload object sort enabled.", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [911]
 		{
-			"World load object sort enabled.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [912]
 		{
-			"World preload non critical enabled.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [913]
 		{
-			"World preload high res textures enabled.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [914]
 		{
-			"FFX: Color Blind Test Mode Disabled", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [915]
 		{
-			"Full memory crash dump disabled", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [916]
 		{
-			"Error display disabled", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [917]
 		{
-			"Error display shown", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [918]
 		{
-			"Displaying errors through fatal errors", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [919]
 		{
-			"Displaying errors through fatal errors", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [920]
 		{
-			"Now filtering: all messages", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [921]
 		{
-			"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [922]
 		{
-			"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [923]
 		{
-			"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [924]
 		{
-			"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [925]
 		{
-			"[GlueLogin] Starting loginlauncherPortal=\"eu.actual.battle.net\" loginPortal=\"eu.actual.battle.net:1119\"", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [926]
 		{
-			"[GlueLogin] Resetting", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [927]
 		{
-			"[IBN_Login] Initializing", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [928]
 		{
-			"[IBN_Login] Attempting logonhost=\"eu.actual.battle.net\" port=\"1119\"", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [929]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [930]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [931]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [932]
 		{
-			"[GlueLogin] Logon complete.", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [933]
 		{
-			"[GlueLogin] Reconnect token saved; creationTime=\"1652544251\" expirationTime=\"1652558651\"", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [934]
 		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [935]
 		{
-			"[IBN_Login] Requesting realm list ticket", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [936]
 		{
-			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [937]
 		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
+			"Weather changed to 2, intensity 0.800000\n", -- [1]
 			0, -- [2]
 		}, -- [938]
 		{
-			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
+			"Weather changed to 2, intensity 0.800000\n", -- [1]
 			0, -- [2]
 		}, -- [939]
 		{
-			"[IBN_Login] Requesting last played charsnumSubRegions=\"3\"", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [940]
 		{
-			"[GlueLogin] Realm list ready.", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [941]
 		{
-			"[IBN_Login] Joining realmsubRegion=\"3-4-89\" realmAddress=\"3-5-4\"", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [942]
 		{
-			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [943]
 		{
-			"NetClient::HandleConnect()\n", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [944]
 		{
-			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [945]
 		{
-			"Got new connection 2", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [946]
 		{
-			"[IBN_Login] Front disconnectingconnectionId=\"1\"", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [947]
 		{
-			"[GlueLogin] Disconnecting from authentication server.", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [948]
 		{
-			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [949]
 		{
-			"[IBN_Login] Front disconnectedconnectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [950]
 		{
-			"[GlueLogin] Disconnected from authentication server.", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [951]
 		{
-			"[WowEntitlements] [BNetAccount-0-00001A346EC5] [WowAccount-0-000005146EC9] Initialized with 15 entitlements.", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [952]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [953]
 		{
-			"Game table failed consistency check: ChallengeModeHealth. rows: 50, expectedRows: 51, columns: 1, expectedColumns: 1\n", -- [1]
-			3, -- [2]
+			"World transfer pending...", -- [1]
+			0, -- [2]
 		}, -- [954]
-		{
-			"Game table failed consistency check: ChallengeModeDamage. rows: 50, expectedRows: 51, columns: 1, expectedColumns: 1\n", -- [1]
-			3, -- [2]
-		}, -- [955]
 		{
 			"Got new connection 3", -- [1]
 			0, -- [2]
-		}, -- [956]
-		{
-			"Proficiency in item class 2 set to 0x0000000080", -- [1]
-			0, -- [2]
-		}, -- [957]
-		{
-			"Proficiency in item class 2 set to 0x0000000480", -- [1]
-			0, -- [2]
-		}, -- [958]
-		{
-			"Proficiency in item class 2 set to 0x0000008480", -- [1]
-			0, -- [2]
-		}, -- [959]
-		{
-			"Proficiency in item class 4 set to 0x0000000021", -- [1]
-			0, -- [2]
-		}, -- [960]
-		{
-			"Proficiency in item class 2 set to 0x000000c480", -- [1]
-			0, -- [2]
-		}, -- [961]
-		{
-			"Proficiency in item class 2 set to 0x000008c480", -- [1]
-			0, -- [2]
-		}, -- [962]
-		{
-			"Proficiency in item class 2 set to 0x000018c480", -- [1]
-			0, -- [2]
-		}, -- [963]
-		{
-			"Proficiency in item class 4 set to 0x0000000023", -- [1]
-			0, -- [2]
-		}, -- [964]
-		{
-			"Proficiency in item class 2 set to 0x000018c480", -- [1]
-			0, -- [2]
-		}, -- [965]
-		{
-			"Proficiency in item class 4 set to 0x0000000023", -- [1]
-			0, -- [2]
-		}, -- [966]
+		}, -- [955]
 		{
 			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
+		}, -- [956]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [957]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [958]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [959]
+		{
+			"Weather changed to 2, intensity 0.192858\n", -- [1]
+			0, -- [2]
+		}, -- [960]
+		{
+			"Weather changed to 2, intensity 0.192858\n", -- [1]
+			0, -- [2]
+		}, -- [961]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [962]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [963]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [964]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [965]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [966]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
 		}, -- [967]
 		{
-			"Time set to 5/14/2022 (Sat) 18:05", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [968]
 		{
-			"Gamespeed set from 0.017 to 0.017", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [969]
 		{
@@ -3888,43 +3888,43 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [971]
 		{
-			"Time played:", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [972]
 		{
-			"Total: 159d 11h 45m 59s", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [973]
 		{
-			"Level: 78d 18h 59m 8s", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [974]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [975]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [976]
 		{
-			"Got new connection 3", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [977]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [978]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [979]
 		{
-			"Got new connection 3", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [980]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [981]
 		{
@@ -3932,11 +3932,11 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [982]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [983]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [984]
 		{
@@ -3944,23 +3944,23 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [985]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [986]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [987]
 		{
-			"Got new connection 3", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [988]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [989]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [990]
 		{
@@ -3968,35 +3968,35 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [991]
 		{
-			"Weather changed to 5, intensity 1.000000\n", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [992]
 		{
-			"Weather changed to 5, intensity 1.000000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [993]
 		{
-			"World transfer pending...", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [994]
 		{
-			"Got new connection 3", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [995]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [996]
 		{
-			"Got new connection 3", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [997]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [998]
 		{
-			"Weather changed to 5, intensity 0.600000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [999]
 		{
@@ -4007,6 +4007,362 @@ Blizzard_Console_SavedVars = {
 			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [1001]
+		{
+			"Sorting particles normally.", -- [1]
+			0, -- [2]
+		}, -- [1002]
+		{
+			"Multithreaded rendering enabled.", -- [1]
+			0, -- [2]
+		}, -- [1003]
+		{
+			"Multithreaded BeginDraw enabled.", -- [1]
+			0, -- [2]
+		}, -- [1004]
+		{
+			"Multithread shadows changed to 1.", -- [1]
+			0, -- [2]
+		}, -- [1005]
+		{
+			"Multithreaded prepass enabled.", -- [1]
+			0, -- [2]
+		}, -- [1006]
+		{
+			"Multithreaded opaque pass enabled.", -- [1]
+			0, -- [2]
+		}, -- [1007]
+		{
+			"Multithreaded opaque pass enabled.", -- [1]
+			0, -- [2]
+		}, -- [1008]
+		{
+			"Multithreaded alpha M2 pass enabled.", -- [1]
+			0, -- [2]
+		}, -- [1009]
+		{
+			"Multithreaded opaque WMO pass enabled.", -- [1]
+			0, -- [2]
+		}, -- [1010]
+		{
+			"Multithreaded terrain pass enabled.", -- [1]
+			0, -- [2]
+		}, -- [1011]
+		{
+			"Water detail changed to 2", -- [1]
+			0, -- [2]
+		}, -- [1012]
+		{
+			"Ripple detail changed to 1", -- [1]
+			0, -- [2]
+		}, -- [1013]
+		{
+			"Reflection mode changed to 0", -- [1]
+			0, -- [2]
+		}, -- [1014]
+		{
+			"Reflection downscale changed to 0", -- [1]
+			0, -- [2]
+		}, -- [1015]
+		{
+			"Sunshafts quality changed to 2", -- [1]
+			0, -- [2]
+		}, -- [1016]
+		{
+			"Refraction mode changed to 2", -- [1]
+			0, -- [2]
+		}, -- [1017]
+		{
+			"Enabling BSP node cache (first time - starting up)", -- [1]
+			0, -- [2]
+		}, -- [1018]
+		{
+			"Volume fog enabled.", -- [1]
+			0, -- [2]
+		}, -- [1019]
+		{
+			"Particulate volumes enabled.", -- [1]
+			0, -- [2]
+		}, -- [1020]
+		{
+			"Projected textures enabled.", -- [1]
+			0, -- [2]
+		}, -- [1021]
+		{
+			"Spell Clutter set to dynamic", -- [1]
+			0, -- [2]
+		}, -- [1022]
+		{
+			"Shadow mode changed to 3 - 3 band dynamic shadows on units and terrain, 2048", -- [1]
+			0, -- [2]
+		}, -- [1023]
+		{
+			"Shadow texture size changed to 2048.", -- [1]
+			0, -- [2]
+		}, -- [1024]
+		{
+			"Soft shadows changed to 0.", -- [1]
+			0, -- [2]
+		}, -- [1025]
+		{
+			"Shadow RT mode changed to 0 (Disabled)", -- [1]
+			0, -- [2]
+		}, -- [1026]
+		{
+			"maxLightCount must be in range 0 to 32.", -- [1]
+			0, -- [2]
+		}, -- [1027]
+		{
+			"CVar 'maxLightCount' failed validation for its initial value.", -- [1]
+			0, -- [2]
+		}, -- [1028]
+		{
+			"SSAO mode set to 3", -- [1]
+			0, -- [2]
+		}, -- [1029]
+		{
+			"SSAO type set to 0", -- [1]
+			0, -- [2]
+		}, -- [1030]
+		{
+			"Depth Based Opacity Enabled", -- [1]
+			0, -- [2]
+		}, -- [1031]
+		{
+			"SkyCloudLOD set to 0", -- [1]
+			0, -- [2]
+		}, -- [1032]
+		{
+			"Texture filtering mode updated.", -- [1]
+			0, -- [2]
+		}, -- [1033]
+		{
+			"Terrain mip level changed to 0.", -- [1]
+			0, -- [2]
+		}, -- [1034]
+		{
+			"Outline mode changed to 2", -- [1]
+			0, -- [2]
+		}, -- [1035]
+		{
+			"Physics interaction level changed to 1", -- [1]
+			0, -- [2]
+		}, -- [1036]
+		{
+			"Render scale changed to 1", -- [1]
+			0, -- [2]
+		}, -- [1037]
+		{
+			"Resample quality changed to 1", -- [1]
+			0, -- [2]
+		}, -- [1038]
+		{
+			"MSAA set to 8 color samples, 8 coverage samples", -- [1]
+			0, -- [2]
+		}, -- [1039]
+		{
+			"MSAA for alpha-test enabled.", -- [1]
+			0, -- [2]
+		}, -- [1040]
+		{
+			"Variable Rate Shading not supported on this hardware", -- [1]
+			0, -- [2]
+		}, -- [1041]
+		{
+			"CVar 'vrsWorldGeo' failed validation for its initial value.", -- [1]
+			0, -- [2]
+		}, -- [1042]
+		{
+			"Variable Rate Shading not supported on this hardware", -- [1]
+			0, -- [2]
+		}, -- [1043]
+		{
+			"CVar 'vrsParticles' failed validation for its initial value.", -- [1]
+			0, -- [2]
+		}, -- [1044]
+		{
+			"lodObjectSizeScale cannot be changed.", -- [1]
+			0, -- [2]
+		}, -- [1045]
+		{
+			"Volume fog enabled.", -- [1]
+			0, -- [2]
+		}, -- [1046]
+		{
+			"Particulate volumes enabled.", -- [1]
+			0, -- [2]
+		}, -- [1047]
+		{
+			"dynamicLod enabled", -- [1]
+			0, -- [2]
+		}, -- [1048]
+		{
+			"World preload object sort enabled.", -- [1]
+			0, -- [2]
+		}, -- [1049]
+		{
+			"World load object sort enabled.", -- [1]
+			0, -- [2]
+		}, -- [1050]
+		{
+			"World preload non critical enabled.", -- [1]
+			0, -- [2]
+		}, -- [1051]
+		{
+			"World preload high res textures enabled.", -- [1]
+			0, -- [2]
+		}, -- [1052]
+		{
+			"FFX: Color Blind Test Mode Disabled", -- [1]
+			0, -- [2]
+		}, -- [1053]
+		{
+			"Full memory crash dump disabled", -- [1]
+			0, -- [2]
+		}, -- [1054]
+		{
+			"Error display disabled", -- [1]
+			0, -- [2]
+		}, -- [1055]
+		{
+			"Error display shown", -- [1]
+			0, -- [2]
+		}, -- [1056]
+		{
+			"Displaying errors through fatal errors", -- [1]
+			0, -- [2]
+		}, -- [1057]
+		{
+			"Displaying errors through fatal errors", -- [1]
+			0, -- [2]
+		}, -- [1058]
+		{
+			"Now filtering: all messages", -- [1]
+			0, -- [2]
+		}, -- [1059]
+		{
+			"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			0, -- [2]
+		}, -- [1060]
+		{
+			"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			0, -- [2]
+		}, -- [1061]
+		{
+			"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			0, -- [2]
+		}, -- [1062]
+		{
+			"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			0, -- [2]
+		}, -- [1063]
+		{
+			"[GlueLogin] Starting loginlauncherPortal=\"eu.actual.battle.net\" loginPortal=\"eu.actual.battle.net:1119\"", -- [1]
+			0, -- [2]
+		}, -- [1064]
+		{
+			"[GlueLogin] Resetting", -- [1]
+			0, -- [2]
+		}, -- [1065]
+		{
+			"[IBN_Login] Initializing", -- [1]
+			0, -- [2]
+		}, -- [1066]
+		{
+			"[IBN_Login] Attempting logonhost=\"eu.actual.battle.net\" port=\"1119\"", -- [1]
+			0, -- [2]
+		}, -- [1067]
+		{
+			"[GlueLogin] Waiting for server response.", -- [1]
+			0, -- [2]
+		}, -- [1068]
+		{
+			"[GlueLogin] Waiting for server response.", -- [1]
+			0, -- [2]
+		}, -- [1069]
+		{
+			"[GlueLogin] Waiting for server response.", -- [1]
+			0, -- [2]
+		}, -- [1070]
+		{
+			"[GlueLogin] Logon complete.", -- [1]
+			0, -- [2]
+		}, -- [1071]
+		{
+			"[GlueLogin] Reconnect token saved; creationTime=\"1652556169\" expirationTime=\"1652570569\"", -- [1]
+			0, -- [2]
+		}, -- [1072]
+		{
+			"[GlueLogin] Waiting for realm list.", -- [1]
+			0, -- [2]
+		}, -- [1073]
+		{
+			"[IBN_Login] Requesting realm list ticket", -- [1]
+			0, -- [2]
+		}, -- [1074]
+		{
+			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [1075]
+		{
+			"[GlueLogin] Waiting for realm list.", -- [1]
+			0, -- [2]
+		}, -- [1076]
+		{
+			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [1077]
+		{
+			"[IBN_Login] Requesting last played charsnumSubRegions=\"3\"", -- [1]
+			0, -- [2]
+		}, -- [1078]
+		{
+			"[GlueLogin] Realm list ready.", -- [1]
+			0, -- [2]
+		}, -- [1079]
+		{
+			"[IBN_Login] Joining realmsubRegion=\"3-4-89\" realmAddress=\"3-5-4\"", -- [1]
+			0, -- [2]
+		}, -- [1080]
+		{
+			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [1081]
+		{
+			"NetClient::HandleConnect()\n", -- [1]
+			0, -- [2]
+		}, -- [1082]
+		{
+			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [1083]
+		{
+			"Got new connection 2", -- [1]
+			0, -- [2]
+		}, -- [1084]
+		{
+			"[IBN_Login] Front disconnectingconnectionId=\"1\"", -- [1]
+			0, -- [2]
+		}, -- [1085]
+		{
+			"[GlueLogin] Disconnecting from authentication server.", -- [1]
+			0, -- [2]
+		}, -- [1086]
+		{
+			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
+			0, -- [2]
+		}, -- [1087]
+		{
+			"[IBN_Login] Front disconnectedconnectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
+			0, -- [2]
+		}, -- [1088]
+		{
+			"[GlueLogin] Disconnected from authentication server.", -- [1]
+			0, -- [2]
+		}, -- [1089]
+		{
+			"[WowEntitlements] [BNetAccount-0-00001A346EC5] [WowAccount-0-000005146EC9] Initialized with 15 entitlements.", -- [1]
+			0, -- [2]
+		}, -- [1090]
 	},
 	["isShown"] = false,
 	["fontHeight"] = 14,

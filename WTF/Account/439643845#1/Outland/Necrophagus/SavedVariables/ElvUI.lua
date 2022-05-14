@@ -3,182 +3,6 @@ ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
 			"LOW HEALTH: Dàntrag (Hunter)", -- [1]
-			"Santax-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Santax-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1776, -- [11]
-			"Player-3702-0860C0AC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeSantax-ArgentDawn|r",
-			[51] = 1652548925,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [1]
-		{
-			"LOW HEALTH: Dàntrag (Hunter)", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1777, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652548925,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [2]
-		{
-			"LOW HEALTH: Dàntrag (Hunter)", -- [1]
-			"Fionara-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fionara-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1778, -- [11]
-			"Player-1301-09D4F339", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652548925,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [3]
-		{
-			"LOW HEALTH: Dàntrag (Hunter)", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1779, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652548925,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [4]
-		{
-			"LOW HEALTH: Dàntrag (Hunter)", -- [1]
-			"Santax-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Santax-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1780, -- [11]
-			"Player-3702-0860C0AC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeSantax-ArgentDawn|r",
-			[51] = 1652548925,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [5]
-		{
-			"LOW HEALTH: Entrerix (Druid)", -- [1]
-			"Fionara-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fionara-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1781, -- [11]
-			"Player-1301-09D4F339", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652548946,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [6]
-		{
-			"LOW HEALTH: Entrerix (Druid)", -- [1]
-			"Santax-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Santax-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1782, -- [11]
-			"Player-3702-0860C0AC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeSantax-ArgentDawn|r",
-			[51] = 1652548946,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [7]
-		{
-			"LOW HEALTH: Entrerix (Druid)", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1783, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652548946,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [8]
-		{
-			"LOW HEALTH: Dàntrag (Hunter)", -- [1]
 			"Fionara-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -198,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFionara|r",
 			[51] = 1652548953,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [9]
+		}, -- [1]
 		{
 			"LOW HEALTH: Dàntrag (Hunter)", -- [1]
 			"Santax-ArgentDawn", -- [2]
@@ -220,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSantax-ArgentDawn|r",
 			[51] = 1652548953,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [10]
+		}, -- [2]
 		{
 			"LOW HEALTH: Dàntrag (Hunter)", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -242,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1652548953,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [11]
+		}, -- [3]
 		{
 			"Interrupted Entrerix-TwistingNether casting |cff71d5ff|Hspell:33786:0|h[Cyclone]|h|r", -- [1]
 			"Fionara-Outland", -- [2]
@@ -264,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFionara|r",
 			[51] = 1652548976,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [12]
+		}, -- [4]
 		{
 			"LOW HEALTH: Dàntrag (Hunter)", -- [1]
 			"Fionara-Outland", -- [2]
@@ -286,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFionara|r",
 			[51] = 1652548986,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [13]
+		}, -- [5]
 		{
 			"LOW HEALTH: Dàntrag (Hunter)", -- [1]
 			"Santax-ArgentDawn", -- [2]
@@ -308,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSantax-ArgentDawn|r",
 			[51] = 1652548986,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [14]
+		}, -- [6]
 		{
 			"LOW HEALTH: Dàntrag (Hunter)", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -330,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1652548986,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [15]
+		}, -- [7]
 		{
 			"Enemy Spec: Restoration DRUID", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -352,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1652549072,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [16]
+		}, -- [8]
 		{
 			"Enemy Spec: Fury WARRIOR", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -374,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1652549072,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [17]
+		}, -- [9]
 		{
 			"Enemy Spec: Restoration DRUID", -- [1]
 			"Santax-ArgentDawn", -- [2]
@@ -396,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSantax-ArgentDawn|r",
 			[51] = 1652549072,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [18]
+		}, -- [10]
 		{
 			"Enemy Spec: Fury WARRIOR", -- [1]
 			"Santax-ArgentDawn", -- [2]
@@ -418,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSantax-ArgentDawn|r",
 			[51] = 1652549072,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [19]
+		}, -- [11]
 		{
 			"Cookies Here!!!", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -440,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1652549073,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [20]
+		}, -- [12]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14197:Player-1301-0A4395D3:1:5:14:22:4294967295:4294967295:4294967295:4294967295|h[Sanguine Depths]|h|r!", -- [1]
 			"Breathing-Outland", -- [2]
@@ -462,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Breathing|r",
 			[51] = 1652549074,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [21]
+		}, -- [13]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14198:Player-1301-0A4395D3:1:5:14:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Sanguine Depths]|h|r!", -- [1]
 			"Breathing-Outland", -- [2]
@@ -484,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Breathing|r",
 			[51] = 1652549074,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [22]
+		}, -- [14]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14199:Player-1301-0A4395D3:1:5:14:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Sanguine Depths]|h|r!", -- [1]
 			"Breathing-Outland", -- [2]
@@ -506,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Breathing|r",
 			[51] = 1652549074,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [23]
+		}, -- [15]
 		{
 			"Enemy Spec: Restoration DRUID", -- [1]
 			"Fionara-Outland", -- [2]
@@ -528,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFionara|r",
 			[51] = 1652549077,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [24]
+		}, -- [16]
 		{
 			"Enemy Spec: Fury WARRIOR", -- [1]
 			"Fionara-Outland", -- [2]
@@ -550,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFionara|r",
 			[51] = 1652549077,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [25]
+		}, -- [17]
 		{
 			"Enemy Spec: Windwalker MONK", -- [1]
 			"Fionara-Outland", -- [2]
@@ -572,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFionara|r",
 			[51] = 1652549077,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [26]
+		}, -- [18]
 		{
 			"Enemy Spec: Restoration DRUID", -- [1]
 			"Santax-ArgentDawn", -- [2]
@@ -594,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSantax-ArgentDawn|r",
 			[51] = 1652549077,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [27]
+		}, -- [19]
 		{
 			"Enemy Spec: Restoration DRUID", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -616,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1652549077,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [28]
+		}, -- [20]
 		{
 			"Enemy Spec: Fury WARRIOR", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -638,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1652549077,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [29]
+		}, -- [21]
 		{
 			"Enemy Spec: Windwalker MONK", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -660,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1652549077,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [30]
+		}, -- [22]
 		{
 			"Enemy Spec: Fury WARRIOR", -- [1]
 			"Santax-ArgentDawn", -- [2]
@@ -682,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSantax-ArgentDawn|r",
 			[51] = 1652549077,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [31]
+		}, -- [23]
 		{
 			"Enemy Spec: Windwalker MONK", -- [1]
 			"Santax-ArgentDawn", -- [2]
@@ -704,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSantax-ArgentDawn|r",
 			[51] = 1652549077,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [32]
+		}, -- [24]
 		{
 			"Vanzam - Warrior", -- [1]
 			"Santax-ArgentDawn", -- [2]
@@ -726,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSantax-ArgentDawn|r",
 			[51] = 1652549130,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [33]
+		}, -- [25]
 		{
 			"Vanzam - Warrior", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -748,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1652549130,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [34]
+		}, -- [26]
 		{
 			"Marianform - Druid", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -770,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1652549130,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [35]
+		}, -- [27]
 		{
 			"Фистингиз - Monk", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -792,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1652549130,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [36]
+		}, -- [28]
 		{
 			"Vanzam - Warrior", -- [1]
 			"Fionara-Outland", -- [2]
@@ -814,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFionara|r",
 			[51] = 1652549130,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [37]
+		}, -- [29]
 		{
 			"Marianform - Druid", -- [1]
 			"Fionara-Outland", -- [2]
@@ -836,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFionara|r",
 			[51] = 1652549130,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [38]
+		}, -- [30]
 		{
 			"Фистингиз - Monk", -- [1]
 			"Fionara-Outland", -- [2]
@@ -858,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFionara|r",
 			[51] = 1652549130,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [39]
+		}, -- [31]
 		{
 			"Marianform - Druid", -- [1]
 			"Santax-ArgentDawn", -- [2]
@@ -880,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSantax-ArgentDawn|r",
 			[51] = 1652549130,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [40]
+		}, -- [32]
 		{
 			"Фистингиз - Monk", -- [1]
 			"Santax-ArgentDawn", -- [2]
@@ -902,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSantax-ArgentDawn|r",
 			[51] = 1652549130,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [41]
+		}, -- [33]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15220:Player-1301-0BED218C:1:5:14:22:4294967295:4294967295:4294967295:4294967295|h[The Enlightened]|h|r!", -- [1]
 			"Añwiel-Outland", -- [2]
@@ -924,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Añwiel|r",
 			[51] = 1652549217,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [42]
+		}, -- [34]
 		{
 			"war was in poly", -- [1]
 			"Fionara-Outland", -- [2]
@@ -946,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFionara|r",
 			[51] = 1652549249,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [43]
+		}, -- [35]
 		{
 			"i was max hp", -- [1]
 			"Fionara-Outland", -- [2]
@@ -968,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFionara|r",
 			[51] = 1652549251,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [44]
+		}, -- [36]
 		{
 			"he killed me in 1 sec", -- [1]
 			"Fionara-Outland", -- [2]
@@ -990,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFionara|r",
 			[51] = 1652549254,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [45]
+		}, -- [37]
 		{
 			"gx", -- [1]
 			"Swiftstrykes-Outland", -- [2]
@@ -1012,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Swiftstrykes|r",
 			[51] = 1652549259,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [46]
+		}, -- [38]
 		{
 			"gz", -- [1]
 			"Swiftstrykes-Outland", -- [2]
@@ -1034,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Swiftstrykes|r",
 			[51] = 1652549260,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [47]
+		}, -- [39]
 		{
 			"I try to heal u at max ,but they hitted a lot ", -- [1]
 			"Santax-ArgentDawn", -- [2]
@@ -1056,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSantax-ArgentDawn|r",
 			[51] = 1652549293,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [48]
+		}, -- [40]
 		{
 			"4 days", -- [1]
 			"Senky-Outland", -- [2]
@@ -1078,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cSenky|r",
 			[51] = 1652549293,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+		}, -- [41]
 		{
 			"Enemy Spec: Retribution PALADIN", -- [1]
 			"Fionara-Outland", -- [2]
@@ -1100,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFionara|r",
 			[51] = 1652549304,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [50]
+		}, -- [42]
 		{
 			"Enemy Spec: Holy PRIEST", -- [1]
 			"Fionara-Outland", -- [2]
@@ -1122,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFionara|r",
 			[51] = 1652549304,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [51]
+		}, -- [43]
 		{
 			"Enemy Spec: Retribution PALADIN", -- [1]
 			"Santax-ArgentDawn", -- [2]
@@ -1144,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSantax-ArgentDawn|r",
 			[51] = 1652549304,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [52]
+		}, -- [44]
 		{
 			"Enemy Spec: Holy PRIEST", -- [1]
 			"Santax-ArgentDawn", -- [2]
@@ -1166,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSantax-ArgentDawn|r",
 			[51] = 1652549304,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [53]
+		}, -- [45]
 		{
 			"Cookies Here!!!", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1188,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1652549307,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [54]
+		}, -- [46]
 		{
 			"Enemy Spec: Retribution PALADIN", -- [1]
 			"Fionara-Outland", -- [2]
@@ -1210,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFionara|r",
 			[51] = 1652549311,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [55]
+		}, -- [47]
 		{
 			"Enemy Spec: Holy PRIEST", -- [1]
 			"Fionara-Outland", -- [2]
@@ -1232,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFionara|r",
 			[51] = 1652549311,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [56]
+		}, -- [48]
 		{
 			"Enemy Spec: Survival HUNTER", -- [1]
 			"Fionara-Outland", -- [2]
@@ -1254,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFionara|r",
 			[51] = 1652549311,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [57]
+		}, -- [49]
 		{
 			"Enemy Spec: Retribution PALADIN", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1276,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1652549311,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [58]
+		}, -- [50]
 		{
 			"Enemy Spec: Holy PRIEST", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1298,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1652549311,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [59]
+		}, -- [51]
 		{
 			"Enemy Spec: Survival HUNTER", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1320,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1652549311,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [60]
+		}, -- [52]
 		{
 			"Enemy Spec: Retribution PALADIN", -- [1]
 			"Santax-ArgentDawn", -- [2]
@@ -1342,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSantax-ArgentDawn|r",
 			[51] = 1652549311,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [61]
+		}, -- [53]
 		{
 			"Enemy Spec: Holy PRIEST", -- [1]
 			"Santax-ArgentDawn", -- [2]
@@ -1364,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSantax-ArgentDawn|r",
 			[51] = 1652549311,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [62]
+		}, -- [54]
 		{
 			"Enemy Spec: Survival HUNTER", -- [1]
 			"Santax-ArgentDawn", -- [2]
@@ -1386,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSantax-ArgentDawn|r",
 			[51] = 1652549311,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [63]
+		}, -- [55]
 		{
 			"is there dps spot on casual?", -- [1]
 			"Misspicklés-Outland", -- [2]
@@ -1408,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Misspicklés|r",
 			[51] = 1652549352,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [64]
+		}, -- [56]
 		{
 			"Гташник - Paladin", -- [1]
 			"Santax-ArgentDawn", -- [2]
@@ -1430,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSantax-ArgentDawn|r",
 			[51] = 1652549360,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [65]
+		}, -- [57]
 		{
 			"Увасёк - Priest", -- [1]
 			"Santax-ArgentDawn", -- [2]
@@ -1452,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSantax-ArgentDawn|r",
 			[51] = 1652549360,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [66]
+		}, -- [58]
 		{
 			"Гташник - Paladin", -- [1]
 			"Fionara-Outland", -- [2]
@@ -1474,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFionara|r",
 			[51] = 1652549360,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [67]
+		}, -- [59]
 		{
 			"Увасёк - Priest", -- [1]
 			"Fionara-Outland", -- [2]
@@ -1496,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFionara|r",
 			[51] = 1652549360,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [68]
+		}, -- [60]
 		{
 			"Гташник - Paladin", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1518,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1652549360,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [69]
+		}, -- [61]
 		{
 			"Увасёк - Priest", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1540,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1652549360,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [70]
+		}, -- [62]
 		{
 			"Хакамаде - Hunter", -- [1]
 			"Fionara-Outland", -- [2]
@@ -1562,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFionara|r",
 			[51] = 1652549413,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [71]
+		}, -- [63]
 		{
 			"Хакамаде - Hunter", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1584,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1652549413,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [72]
+		}, -- [64]
 		{
 			"Хакамаде - Hunter", -- [1]
 			"Santax-ArgentDawn", -- [2]
@@ -1606,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSantax-ArgentDawn|r",
 			[51] = 1652549413,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [73]
+		}, -- [65]
 		{
 			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
 			"Fionara-Outland", -- [2]
@@ -1628,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFionara|r",
 			[51] = 1652549418,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [74]
+		}, -- [66]
 		{
 			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
 			"Santax-ArgentDawn", -- [2]
@@ -1650,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSantax-ArgentDawn|r",
 			[51] = 1652549418,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [75]
+		}, -- [67]
 		{
 			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1672,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1652549418,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [76]
+		}, -- [68]
 		{
 			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
 			"Fionara-Outland", -- [2]
@@ -1694,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFionara|r",
 			[51] = 1652549437,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [77]
+		}, -- [69]
 		{
 			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
 			"Santax-ArgentDawn", -- [2]
@@ -1716,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSantax-ArgentDawn|r",
 			[51] = 1652549437,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [78]
+		}, -- [70]
 		{
 			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1738,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1652549437,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [79]
+		}, -- [71]
 		{
 			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
 			"Fionara-Outland", -- [2]
@@ -1760,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFionara|r",
 			[51] = 1652549437,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [80]
+		}, -- [72]
 		{
 			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1782,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1652549437,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [81]
+		}, -- [73]
 		{
 			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
 			"Santax-ArgentDawn", -- [2]
@@ -1804,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSantax-ArgentDawn|r",
 			[51] = 1652549437,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [82]
+		}, -- [74]
 		{
 			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
 			"Fionara-Outland", -- [2]
@@ -1826,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFionara|r",
 			[51] = 1652549456,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [83]
+		}, -- [75]
 		{
 			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
 			"Santax-ArgentDawn", -- [2]
@@ -1848,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSantax-ArgentDawn|r",
 			[51] = 1652549456,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [84]
+		}, -- [76]
 		{
 			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1870,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1652549456,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [85]
+		}, -- [77]
 		{
 			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
 			"Fionara-Outland", -- [2]
@@ -1892,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFionara|r",
 			[51] = 1652549456,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [86]
+		}, -- [78]
 		{
 			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
 			"Santax-ArgentDawn", -- [2]
@@ -1914,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSantax-ArgentDawn|r",
 			[51] = 1652549456,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [87]
+		}, -- [79]
 		{
 			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
 			"Santax-ArgentDawn", -- [2]
@@ -1936,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSantax-ArgentDawn|r",
 			[51] = 1652549472,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [88]
+		}, -- [80]
 		{
 			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1958,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1652549472,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [89]
+		}, -- [81]
 		{
 			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
 			"Fionara-Outland", -- [2]
@@ -1980,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFionara|r",
 			[51] = 1652549472,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [90]
+		}, -- [82]
 		{
 			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
 			"Fionara-Outland", -- [2]
@@ -2002,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFionara|r",
 			[51] = 1652549472,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [91]
+		}, -- [83]
 		{
 			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
 			"Santax-ArgentDawn", -- [2]
@@ -2024,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSantax-ArgentDawn|r",
 			[51] = 1652549472,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [92]
+		}, -- [84]
 		{
 			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
 			"Fionara-Outland", -- [2]
@@ -2046,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFionara|r",
 			[51] = 1652549491,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [93]
+		}, -- [85]
 		{
 			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -2068,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1652549491,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [94]
+		}, -- [86]
 		{
 			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
 			"Santax-ArgentDawn", -- [2]
@@ -2090,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSantax-ArgentDawn|r",
 			[51] = 1652549491,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [95]
+		}, -- [87]
 		{
 			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
 			"Santax-ArgentDawn", -- [2]
@@ -2112,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSantax-ArgentDawn|r",
 			[51] = 1652549511,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [96]
+		}, -- [88]
 		{
 			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -2134,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1652549511,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [97]
+		}, -- [89]
 		{
 			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
 			"Fionara-Outland", -- [2]
@@ -2156,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFionara|r",
 			[51] = 1652549511,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [98]
+		}, -- [90]
 		{
 			"guys thx for games.gtg cya", -- [1]
 			"Santax-ArgentDawn", -- [2]
@@ -2178,6 +2002,182 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSantax-ArgentDawn|r",
 			[51] = 1652549546,
 			[50] = "CHAT_MSG_PARTY",
+		}, -- [91]
+		{
+			"Xy'rath the Covetous 100.00% ~(63.75, 49.28) |cffffff00|Hworldmap:1970:6375:4928|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Skykarp-Outland", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Skykarp-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			5, -- [11]
+			"Player-1301-0C2CD207", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cSkykarp|r",
+			[51] = 1652552790,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"Otaris up |cffffff00|Hworldmap:1970:5867:3871|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Theonid-Outland", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Theonid-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			18, -- [11]
+			"Player-1301-0B7ED14F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Theonid|r",
+			[51] = 1652552899,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:1178:Player-1301-0C309B00:1:5:14:22:4294967295:4294967295:4294967295:4294967295|h[Got My Mind On My Money]|h|r!", -- [1]
+			"Takeu-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Takeu-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			19, -- [11]
+			"Player-1301-0C309B00", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaTakeu|r",
+			[51] = 1652552899,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [94]
+		{
+			"Mother Phestis 100.00% ~(55.15, 33.65) |cffffff00|Hworldmap:1970:5515:3365|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Skykarp-Outland", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Skykarp-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			29, -- [11]
+			"Player-1301-0C2CD207", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cSkykarp|r",
+			[51] = 1652552956,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"yo", -- [1]
+			"Djratslayerx-Thunderhorn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Djratslayerx-Thunderhorn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			58, -- [11]
+			"Player-1313-0BD495A5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaDjratslayerx-Thunderhorn|r",
+			[51] = 1652553091,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [96]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14796:Player-1301-0C305AC0:1:5:14:22:4294967295:4294967295:4294967295:4294967295|h[Superior]|h|r!", -- [1]
+			"Dianaraywolf-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Dianaraywolf-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			75, -- [11]
+			"Player-1301-0C305AC0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Dianaraywolf|r",
+			[51] = 1652553220,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [97]
+		{
+			"anyone up for protector of the first? ", -- [1]
+			"Nooxi-Outland", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Nooxi-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			95, -- [11]
+			"Player-1301-0C2BE0EB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edNooxi|r",
+			[51] = 1652553376,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:15316:Player-1301-08E9789E:1:5:14:22:4294967295:4294967295:4294967295:4294967295|h[Flawless: Fracture Chambers (Layer 16)]|h|r!", -- [1]
+			"Veltt-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Veltt-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			97, -- [11]
+			"Player-1301-08E9789E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Veltt|r",
+			[51] = 1652553438,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
