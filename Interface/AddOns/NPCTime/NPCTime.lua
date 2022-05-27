@@ -37,7 +37,6 @@ function NPCTime:ShowTime(self)
 
         if spawnTime > serverTime then
             spawnTime = spawnTime - ((2^23) - 1)
-            serverTime = serverTime - ((2^23) - 1)
         end
 
         AddColoredDoubleLine(self, "Alive", SecondsToTime(serverTime-spawnTime).." ("..date(timeFormat, spawnTime)..")")

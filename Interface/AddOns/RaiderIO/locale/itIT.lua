@@ -1,4 +1,4 @@
--- Generated from CurseForge on Sat May 14 19:36:14 UTC 2022
+-- Generated from CurseForge on Sun May 15 07:40:17 UTC 2022
 local ns = select(2, ...) ---@type ns @The addon namespace.
 
 if ns:IsSameLocale("itIT") then

@@ -21,8 +21,8 @@ Azeroth Auto Pilot: disabled
 ChampionCommander: disabled
 CharacterQuickLinks: disabled
 CrossRealmAssist: disabled
-DoYouNeedThat: disabled
-HandyNotes: enabled
+DoYouNeedThat: enabled
+HandyNotes: disabled
 HandyNotes_Achievements: disabled
 HandyNotes_BattleForAzerothAchievments: disabled
 HandyNotes_BFA_HF_Tracker: disabled
@@ -41,7 +41,7 @@ RaiderIO_DB_EU_H_R: disabled
 RaiderIO_DB_EU_A_R: disabled
 Wholly: disabled
 WorldQuestTracker: enabled
-WorldQuestsList: enabled
+WorldQuestsList: disabled
 AAP-Mekkatorque: disabled
 LookingForGroup_RaiderIO: disabled
 NPCScan: enabled
@@ -163,7 +163,7 @@ VuhDo: disabled
 VuhDoOptions: disabled
 HandyNotes_LostAndFound: disabled
 HandyNotes_Lorewalkers: disabled
-LootAppraiser: disabled
+LootAppraiser: enabled
 SavedInstances: disabled
 Routes: disabled
 WIT: enabled
@@ -259,12 +259,12 @@ BtWQuestsTheBurningCrusade: disabled
 BtWQuestsWarlordsOfDraenor: disabled
 BtWQuestsWrathOfTheLichKing: disabled
 BulkBuy: disabled
-HandyNotes_Shadowlands: enabled
+HandyNotes_Shadowlands: disabled
 Mists_of_Tirna_Solved: enabled
 OmniBar: enabled
 SimpleArmory: disabled
 UnlimitedMapPinDistance: enabled
-WorldQuestTab: enabled
+WorldQuestTab: disabled
 DBM-Shadowlands: disabled
 TomCats-WarfrontsCommandCenter: disabled
 TomCats-Complete: disabled
@@ -290,13 +290,13 @@ Playtime: enabled
 ElvUI_CustomTags: disabled
 BetterWardrobe_SourceData: disabled
 FarmHud_TrailPath: disabled
-HandyNotes_BattleForAzeroth: enabled
+HandyNotes_BattleForAzeroth: disabled
 RaiderIO_DB_US_F: disabled
 RaiderIO_DB_EU_F: disabled
 RaiderIO_DB_KR_F: disabled
 RaiderIO_DB_TW_F: disabled
 SoulshapeJournal: disabled
-StoredAnimaCounter: disabled
+StoredAnimaCounter: enabled
 ZerethMortisPuzzleHelper: disabled
 DBM-Sepulcher: disabled
 DBM-VPVEM: disabled
@@ -306,3 +306,7 @@ NoMoreErrors: enabled
 NPCTime: enabled
 PremadeSort: enabled
 kExtraBossFrames: disabled
+MacroToolkit: disabled
+MacroToolkitIcons: disabled
+tdBattlePetScript: disabled
+tdBattlePetScript_Rematch: disabled

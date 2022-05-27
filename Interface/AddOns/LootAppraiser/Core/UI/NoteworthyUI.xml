@@ -1,0 +1,67 @@
+<Ui xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="NoteworthyUI.lua" />
+	<Frame name="NoteworthyUI" inherits="BackdropTemplate" hidden="true" parent="UIParent" toplevel="true" movable="true" resizable="true">
+		<Size>
+			<AbsDimension x="287" y="286" />
+		</Size>
+		<Anchors>
+			<Anchor point="TOPLEFT">
+				<Offset>
+					<AbsDimension x="100" y="-150" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<KeyValues>
+			<KeyValue key="backdropInfo" value="BACKDROP_ARENA_32_32" keyType="string" type="global" />
+			<KeyValue key="backdropBorderColor" value="COMMON_GRAY_COLOR" keyType="string" type="global" />
+			<KeyValue key="backdropBorderColorAlpha" value="0.5" keyType="string" type="number" />
+		</KeyValues>
+		<Backdrop bgFile="Interface\CharacterFrame\UI-Party-Background" edgeFile="Interface\ArenaEnemyFrame\UI-Arena-Border" tile="true">
+			<BackgroundInsets>
+				<AbsInset left="11" right="12" top="12" bottom="11" />
+			</BackgroundInsets>
+			<TileSize>
+				<AbsValue val="32" />
+			</TileSize>
+			<EdgeSize>
+				<AbsValue val="32" />
+			</EdgeSize>
+			<Color r="0.89" g="0.89" b="0.89" />
+		</Backdrop>
+		<Layers>
+			<Layer level="OVERLAY">
+				<FontString name="FontStringTitle" inherits="GameFontNormal" text="Noteworthy Items Looted">
+					<Size x="227" y="20" />
+					<Anchors>
+						<Anchor point="TOPLEFT" x="19" y="-14" />
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+		<Frames>
+			<Button name="btnNWIClose" inherits="UIPanelButtonTemplate" text="x">
+				<Size x="30" y="23" />
+				<Anchors>
+					<Anchor point="TOPLEFT" x="240" y="-10" />
+				</Anchors>
+				<Scripts>
+					<OnClick>
+						btnNWIClose_OnClick()
+					</OnClick>
+				</Scripts>
+			</Button>
+		</Frames>
+		<Scripts>
+			<OnLoad inherit="prepend">
+				NoteworthyUI_OnLoad()
+				self:RegisterForDrag("LeftButton");
+			</OnLoad>
+			<OnDragStop>
+				self:StopMovingOrSizing();
+			</OnDragStop>
+			<OnDragStart>
+				self:StartMoving();
+			</OnDragStart>
+		</Scripts>
+	</Frame>
+</Ui>

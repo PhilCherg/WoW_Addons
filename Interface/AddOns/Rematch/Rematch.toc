@@ -2,7 +2,8 @@
 ## Title: Rematch
 ## Notes: A pet journal alternative for managing pets and teams.
 ## Author: Gello
-## Version: 4.11.21
+## Version: 4.11.22
+## X-WoWI-ID: 22190
 ## SavedVariables: RematchSaved, RematchSettings
 
 Localization\Rematch deDE.lua

@@ -9,17 +9,17 @@ AAP-BfA: disabled
 Azeroth Auto Pilot: disabled
 ChampionCommander: disabled
 CharacterQuickLinks: disabled
-Details: enabled
-Details_EncounterDetails: enabled
-Details_RaidCheck: enabled
-Details_DataStorage: enabled
-Details_Streamer: enabled
-Details_TinyThreat: enabled
-Details_Vanguard: enabled
+Details: disabled
+Details_EncounterDetails: disabled
+Details_RaidCheck: disabled
+Details_DataStorage: disabled
+Details_Streamer: disabled
+Details_TinyThreat: disabled
+Details_Vanguard: disabled
 DoYouNeedThat: disabled
 GatherMate2: disabled
 GatherMate2_Data: disabled
-HandyNotes: enabled
+HandyNotes: disabled
 HandyNotes_MechagonAndNazjatar: disabled
 HandyNotes_VisionsOfNZoth: disabled
 Immersion: enabled
@@ -205,7 +205,7 @@ Grail-Rewards: disabled
 Grail-When: disabled
 HandyNotes_WarfrontRares: disabled
 MonkeySpeed: enabled
-RareScanner: enabled
+RareScanner: disabled
 RoutesImportExport: disabled
 Wholly: disabled
 ElvUI_QuestXP: disabled
@@ -235,7 +235,7 @@ BtWQuestsWrathOfTheLichKing: disabled
 BulkBuy: disabled
 GarrisonCommander: disabled
 GarrisonCommander-Broker: disabled
-HandyNotes_Shadowlands: enabled
+HandyNotes_Shadowlands: disabled
 HandyNotes_LunarFestival: enabled
 Mists_of_Tirna_Solved: enabled
 MythicDungeonTools: disabled
@@ -245,7 +245,7 @@ SimpleArmory: disabled
 TalentSetManager: disabled
 TomCats: disabled
 UnlimitedMapPinDistance: enabled
-WorldQuestTab: enabled
+WorldQuestTab: disabled
 DBM-Shadowlands: disabled
 BtWQuestsBattleForAzeroth: disabled
 Dejunk: disabled
@@ -253,7 +253,7 @@ HandyNotes_SummerFestival: disabled
 MazeHelper: disabled
 PremadeAutoAccept: disabled
 VenturePlan: disabled
-WorldQuestsList: enabled
+WorldQuestsList: disabled
 +Wowhead_Looter: disabled
 CamelSpotter: disabled
 DBM-SanctumOfDomination: disabled
@@ -265,7 +265,7 @@ Playtime: enabled
 ElvUI_CustomTags: disabled
 BetterWardrobe_SourceData: disabled
 FarmHud_TrailPath: disabled
-HandyNotes_BattleForAzeroth: enabled
+HandyNotes_BattleForAzeroth: disabled
 RaiderIO_DB_US_F: disabled
 RaiderIO_DB_EU_F: disabled
 RaiderIO_DB_KR_F: disabled
@@ -277,6 +277,11 @@ DBM-Sepulcher: disabled
 DBM-VPVEM: disabled
 Leatrix_Plus: enabled
 NoMoreErrors: enabled
-NPCTime: enabled
+NPCTime: disabled
 PremadeSort: enabled
 kExtraBossFrames: disabled
+MacroToolkit: disabled
+MacroToolkitIcons: disabled
+Rematch: disabled
+tdBattlePetScript: disabled
+tdBattlePetScript_Rematch: disabled

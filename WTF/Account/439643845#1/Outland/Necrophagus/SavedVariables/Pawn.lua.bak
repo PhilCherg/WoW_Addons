@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0537,
+	["LastVersion"] = 2.0538,
 	["LastPlayerFullName"] = "Necrophagus-Outland",
 	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
@@ -33,8 +33,8 @@ PawnOptions = {
 		}, -- [6]
 		{
 			["ID"] = 188887,
-			["Level"] = 275,
-			["Link"] = "|cffa335ee|Hitem:188887::::::::60:267::35:6:7771:8116:6652:7359:8155:1495::::::|h[Leggings of the Demon Star]|h|r",
+			["Level"] = 278,
+			["Link"] = "|cffa335ee|Hitem:188887::::::::60:267::35:6:7772:8116:6652:7359:8155:1498::::::|h[Leggings of the Demon Star]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 189794,
@@ -95,15 +95,15 @@ PawnOptions = {
 		[128941] = {
 			["Relics"] = {
 				{
-					["ItemLevel"] = 26,
+					["ItemLevel"] = 16,
 					["Type"] = "Fel",
 				}, -- [1]
 				{
-					["ItemLevel"] = 30,
+					["ItemLevel"] = 17,
 					["Type"] = "Fire",
 				}, -- [2]
 				{
-					["ItemLevel"] = 25,
+					["ItemLevel"] = 16,
 					["Type"] = "Fel",
 				}, -- [3]
 			},

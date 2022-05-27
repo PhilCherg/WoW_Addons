@@ -17,11 +17,11 @@ Details_DataStorage: enabled
 Details_Streamer: enabled
 Details_TinyThreat: enabled
 Details_Vanguard: enabled
-DoYouNeedThat: disabled
+DoYouNeedThat: enabled
 FakeAchievement: enabled
 GatherMate2: disabled
 GatherMate2_Data: disabled
-HandyNotes: enabled
+HandyNotes: disabled
 HandyNotes_Argus: enabled
 HandyNotes_DraenorTreasures: disabled
 InstancePortals: enabled
@@ -236,7 +236,7 @@ BtWQuestsWrathOfTheLichKing: disabled
 BulkBuy: disabled
 GarrisonCommander: disabled
 GarrisonCommander-Broker: disabled
-HandyNotes_Shadowlands: enabled
+HandyNotes_Shadowlands: disabled
 HandyNotes_LunarFestival: disabled
 Mists_of_Tirna_Solved: disabled
 MythicDungeonTools: disabled
@@ -245,7 +245,7 @@ OrderHallCommander: disabled
 SimpleArmory: disabled
 TalentSetManager: disabled
 UnlimitedMapPinDistance: enabled
-WorldQuestTab: enabled
+WorldQuestTab: disabled
 DBM-Shadowlands: disabled
 TomCats-Mechagon: disabled
 TomCats-Nazjatar: disabled
@@ -263,7 +263,7 @@ Dejunk: disabled
 HandyNotes_SummerFestival: disabled
 PremadeAutoAccept: disabled
 VenturePlan: disabled
-WorldQuestsList: enabled
+WorldQuestsList: disabled
 +Wowhead_Looter: disabled
 CamelSpotter: disabled
 DBM-SanctumOfDomination: disabled
@@ -274,7 +274,7 @@ PremadeGroupsFilter: disabled
 Playtime: enabled
 ElvUI_CustomTags: disabled
 BetterWardrobe_SourceData: disabled
-HandyNotes_BattleForAzeroth: enabled
+HandyNotes_BattleForAzeroth: disabled
 DBM-Sepulcher: disabled
 DBM-VPVEM: disabled
 Leatrix_Plus: enabled
@@ -284,9 +284,14 @@ RaiderIO_DB_EU_F: disabled
 RaiderIO_DB_KR_F: disabled
 RaiderIO_DB_TW_F: disabled
 SoulshapeJournal: disabled
-StoredAnimaCounter: disabled
+StoredAnimaCounter: enabled
 ZerethMortisPuzzleHelper: disabled
 NoMoreErrors: enabled
 NPCTime: enabled
 PremadeSort: enabled
 kExtraBossFrames: disabled
+MacroToolkit: disabled
+MacroToolkitIcons: disabled
+Rematch: disabled
+tdBattlePetScript: disabled
+tdBattlePetScript_Rematch: disabled

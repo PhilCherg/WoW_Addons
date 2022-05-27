@@ -42,7 +42,7 @@ Paste: enabled
 TomTom: enabled
 StopResetingMyCameraPlease: enabled
 TalentSetManager: disabled
-WorldQuestsList: enabled
+WorldQuestsList: disabled
 DBM-Core: enabled
 DBM-DefaultSkin: enabled
 DBM-GUI: enabled
@@ -81,17 +81,17 @@ WorldQuestParty: enabled
 DejaCharacterStats: enabled
 Azeroth Auto Pilot: disabled
 XLoot: disabled
-Details: enabled
+Details: disabled
 Details_DmgRank: enabled
 Details_DpsTuning: enabled
-Details_EncounterDetails: enabled
-Details_RaidCheck: enabled
-Details_DataStorage: enabled
+Details_EncounterDetails: disabled
+Details_RaidCheck: disabled
+Details_DataStorage: disabled
 Details_TimeAttack: enabled
-Details_TinyThreat: enabled
-Details_Vanguard: enabled
+Details_TinyThreat: disabled
+Details_Vanguard: disabled
 Details_3DModelsPaths: enabled
-Details_Streamer: enabled
+Details_Streamer: disabled
 ElvUI_EverySecondCounts: disabled
 BagBrother: disabled
 Bagnon: disabled
@@ -209,7 +209,7 @@ Grail-Reputations: disabled
 Grail-Rewards: disabled
 Grail-When: disabled
 AAP-Mekkatorque: disabled
-DoYouNeedThat: enabled
+DoYouNeedThat: disabled
 NPCScan: enabled
 _NPCScan.Overlay: enabled
 DBM-EternalPalace: enabled
@@ -308,7 +308,7 @@ Grail-Quests-_classic_-zhTW: disabled
 Grail-Reputations-_retail_: disabled
 Grail-Reputations-_classic_: disabled
 MonkeySpeed: enabled
-RareScanner: enabled
+RareScanner: disabled
 RoutesImportExport: disabled
 ElvUI_QuestXP: disabled
 TomCats-WarfrontsCommandCenter: disabled
@@ -337,7 +337,7 @@ MythicDungeonTools: disabled
 OmniBar: disabled
 SimpleArmory: disabled
 UnlimitedMapPinDistance: enabled
-WorldQuestTab: enabled
+WorldQuestTab: disabled
 DBM-Shadowlands: disabled
 BtWQuestsBattleForAzeroth: disabled
 Dejunk: disabled
@@ -366,6 +366,11 @@ ZerethMortisPuzzleHelper: disabled
 DBM-Sepulcher: disabled
 DBM-VPVEM: disabled
 NoMoreErrors: enabled
-NPCTime: enabled
+NPCTime: disabled
 PremadeSort: enabled
 kExtraBossFrames: disabled
+MacroToolkit: disabled
+MacroToolkitIcons: disabled
+Rematch: disabled
+tdBattlePetScript: disabled
+tdBattlePetScript_Rematch: disabled

@@ -2,248 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"do you guys know when it spawns", -- [1]
-			"Feeraani-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Feeraani-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			818, -- [11]
-			"Player-3391-0C0DC064", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cFeeraani-Silvermoon|r",
-			[51] = 1651014255,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [1]
-		{
-			"should only be a few mins", -- [1]
-			"Renewedsub-Hellscream", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Renewedsub-Hellscream", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			821, -- [11]
-			"Player-1325-0538C6E8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Renewedsub-Hellscream|r",
-			[51] = 1651014292,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [2]
-		{
-			"go heal", -- [1]
-			"Feeraani-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Feeraani-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			836, -- [11]
-			"Player-3391-0C0DC064", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cFeeraani-Silvermoon|r",
-			[51] = 1651014427,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [3]
-		{
-			"gg", -- [1]
-			"Shadosnow-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Shadosnow-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			873, -- [11]
-			"Player-1402-07B4C631", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Shadosnow-Turalyon|r",
-			[51] = 1651014584,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [4]
-		{
-			"thks", -- [1]
-			"Shadosnow-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Shadosnow-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			875, -- [11]
-			"Player-1402-07B4C631", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Shadosnow-Turalyon|r",
-			[51] = 1651014586,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [5]
-		{
-			"ty", -- [1]
-			"Dennaile-Uldum", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Dennaile-Uldum", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			877, -- [11]
-			"Player-1379-0AB0F7A1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Dennaile-Uldum|r",
-			[51] = 1651014588,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [6]
-		{
-			"What is the closest port to Darkshore that mage can make?", -- [1]
-			"Sendi-Sylvanas", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Sendi-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			33, -- [11]
-			"Player-1597-0CF359FF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Sendi-Sylvanas|r",
-			[51] = 1651122519,
-			[50] = "CHAT_MSG_YELL",
-		}, -- [7]
-		{
-			"{rt8}A. Harvester{rt8}: 0s-11m 37s (WorldBossTimers:1651838568)", -- [1]
-			"Esplide-Nemesis", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Esplide-Nemesis", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			189, -- [11]
-			"Player-1316-0BC99EE1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Esplide-Nemesis|r",
-			[51] = 1651836670,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [8]
-		{
-			"hey", -- [1]
-			"Grusk-BronzeDragonflight", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Grusk-BronzeDragonflight", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			357, -- [11]
-			"Player-1393-09C38F76", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Grusk-BronzeDragonflight|r",
-			[51] = 1651841720,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [9]
-		{
-			"omw", -- [1]
-			"Grusk-BronzeDragonflight", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Grusk-BronzeDragonflight", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			358, -- [11]
-			"Player-1393-09C38F76", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Grusk-BronzeDragonflight|r",
-			[51] = 1651841721,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [10]
-		{
-			"holy shit we suck", -- [1]
-			"Juleøl-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Juleøl-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2112, -- [11]
-			"Player-1301-0AC7CC9A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Juleøl|r",
-			[51] = 1651861827,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [11]
-		{
 			"sadly so", -- [1]
 			"Alfandris-Bronzebeard", -- [2]
 			"", -- [3]
@@ -264,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Alfandris-Bronzebeard|r",
 			[51] = 1651861831,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [12]
+		}, -- [1]
 		{
 			"wanna bail?", -- [1]
 			"Alfandris-Bronzebeard", -- [2]
@@ -286,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Alfandris-Bronzebeard|r",
 			[51] = 1651861840,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [13]
+		}, -- [2]
 		{
 			"xD", -- [1]
 			"Alfandris-Bronzebeard", -- [2]
@@ -308,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Alfandris-Bronzebeard|r",
 			[51] = 1651861842,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [14]
+		}, -- [3]
 		{
 			"yes", -- [1]
 			"Juleøl-Outland", -- [2]
@@ -330,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Juleøl|r",
 			[51] = 1651861851,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [15]
+		}, -- [4]
 		{
 			"will take 30 min", -- [1]
 			"Juleøl-Outland", -- [2]
@@ -352,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Juleøl|r",
 			[51] = 1651861857,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [16]
+		}, -- [5]
 		{
 			"at least", -- [1]
 			"Juleøl-Outland", -- [2]
@@ -374,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Juleøl|r",
 			[51] = 1651861862,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [17]
+		}, -- [6]
 		{
 			"ou mama", -- [1]
 			"Alfandris-Bronzebeard", -- [2]
@@ -396,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Alfandris-Bronzebeard|r",
 			[51] = 1651861975,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [18]
+		}, -- [7]
 		{
 			"dont stand in the thing", -- [1]
 			"Juleøl-Outland", -- [2]
@@ -418,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Juleøl|r",
 			[51] = 1651862372,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [19]
+		}, -- [8]
 		{
 			"these guys fear", -- [1]
 			"Alfandris-Bronzebeard", -- [2]
@@ -440,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Alfandris-Bronzebeard|r",
 			[51] = 1651862536,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [20]
+		}, -- [9]
 		{
 			"dont worry", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -462,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1651862561,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [21]
+		}, -- [10]
 		{
 			"keep spamming buttons", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -484,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1651862565,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [22]
+		}, -- [11]
 		{
 			";)", -- [1]
 			"Alfandris-Bronzebeard", -- [2]
@@ -506,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Alfandris-Bronzebeard|r",
 			[51] = 1651862566,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [23]
+		}, -- [12]
 		{
 			"xdDDD", -- [1]
 			"Alfandris-Bronzebeard", -- [2]
@@ -528,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Alfandris-Bronzebeard|r",
 			[51] = 1651862569,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [24]
+		}, -- [13]
 		{
 			"i can ress", -- [1]
 			"Alfandris-Bronzebeard", -- [2]
@@ -550,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Alfandris-Bronzebeard|r",
 			[51] = 1651862651,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [25]
+		}, -- [14]
 		{
 			"maybe", -- [1]
 			"Alfandris-Bronzebeard", -- [2]
@@ -572,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Alfandris-Bronzebeard|r",
 			[51] = 1651862657,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [26]
+		}, -- [15]
 		{
 			"lets see if i get out of combat xD", -- [1]
 			"Alfandris-Bronzebeard", -- [2]
@@ -594,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Alfandris-Bronzebeard|r",
 			[51] = 1651862666,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [27]
+		}, -- [16]
 		{
 			"i am spam healing", -- [1]
 			"Juleøl-Outland", -- [2]
@@ -616,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Juleøl|r",
 			[51] = 1651862746,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [28]
+		}, -- [17]
 		{
 			":(", -- [1]
 			"Juleøl-Outland", -- [2]
@@ -638,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Juleøl|r",
 			[51] = 1651862750,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [29]
+		}, -- [18]
 		{
 			"spam more", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -660,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1651862755,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [30]
+		}, -- [19]
 		{
 			"cast time", -- [1]
 			"Juleøl-Outland", -- [2]
@@ -682,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Juleøl|r",
 			[51] = 1651862765,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [31]
+		}, -- [20]
 		{
 			"cast faster", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -704,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1651862769,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [32]
+		}, -- [21]
 		{
 			":D", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -726,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1651862770,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [33]
+		}, -- [22]
 		{
 			"i can co-heal then xDw", -- [1]
 			"Alfandris-Bronzebeard", -- [2]
@@ -748,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Alfandris-Bronzebeard|r",
 			[51] = 1651862776,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [34]
+		}, -- [23]
 		{
 			"buff haste then", -- [1]
 			"Juleøl-Outland", -- [2]
@@ -770,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Juleøl|r",
 			[51] = 1651862780,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [35]
+		}, -- [24]
 		{
 			"just get out of rain of fire and we should be good", -- [1]
 			"Juleøl-Outland", -- [2]
@@ -792,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Juleøl|r",
 			[51] = 1651862807,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [36]
+		}, -- [25]
 		{
 			"lol", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -814,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1651862817,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [37]
+		}, -- [26]
 		{
 			"you expect me to do 15 year old mechanics?", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -836,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1651862833,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [38]
+		}, -- [27]
 		{
 			"no", -- [1]
 			"Juleøl-Outland", -- [2]
@@ -858,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Juleøl|r",
 			[51] = 1651862837,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [39]
+		}, -- [28]
 		{
 			"not at all", -- [1]
 			"Juleøl-Outland", -- [2]
@@ -880,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Juleøl|r",
 			[51] = 1651862839,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [40]
+		}, -- [29]
 		{
 			"well, the rain of fire is common aoe", -- [1]
 			"Alfandris-Bronzebeard", -- [2]
@@ -902,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Alfandris-Bronzebeard|r",
 			[51] = 1651862845,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [41]
+		}, -- [30]
 		{
 			"i expect you to replace |cff0070dd|Hitem:87301::::::::55:65::11:1:4175:1:9:33:::::|h[Master Brewer's Gloves]|h|r", -- [1]
 			"Juleøl-Outland", -- [2]
@@ -924,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Juleøl|r",
 			[51] = 1651862853,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [42]
+		}, -- [31]
 		{
 			"i wasnt born when this dungeon came out", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -946,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1651862854,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [43]
+		}, -- [32]
 		{
 			"relax fam", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -968,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1651862856,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [44]
+		}, -- [33]
 		{
 			"xD", -- [1]
 			"Ewien-Outland", -- [2]
@@ -990,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ewien|r",
 			[51] = 1651862864,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [45]
+		}, -- [34]
 		{
 			"there are lots of rogues in the tunnel", -- [1]
 			"Alfandris-Bronzebeard", -- [2]
@@ -1012,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Alfandris-Bronzebeard|r",
 			[51] = 1651863023,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [46]
+		}, -- [35]
 		{
 			"flare", -- [1]
 			"Juleøl-Outland", -- [2]
@@ -1034,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Juleøl|r",
 			[51] = 1651863033,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [47]
+		}, -- [36]
 		{
 			"flare?", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1056,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1651863046,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [48]
+		}, -- [37]
 		{
 			"hunter ability", -- [1]
 			"Juleøl-Outland", -- [2]
@@ -1078,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Juleøl|r",
 			[51] = 1651863058,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [49]
+		}, -- [38]
 		{
 			"ye i have it", -- [1]
 			"Ewien-Outland", -- [2]
@@ -1100,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ewien|r",
 			[51] = 1651863070,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [50]
+		}, -- [39]
 		{
 			"or spam swipe", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1122,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1651863080,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [51]
+		}, -- [40]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:657:Player-1301-0A44C97F:1:5:6:22:4294967295:4294967295:4294967295:4294967295|h[The Shattered Halls]|h|r!", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1144,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1651863244,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [52]
+		}, -- [41]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:678:Player-1301-0A44C97F:1:5:6:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Shattered Halls]|h|r!", -- [1]
 			"Xanthoros-Outland", -- [2]
@@ -1166,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xanthoros|r",
 			[51] = 1651863244,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [53]
+		}, -- [42]
 		{
 			"no dragon :c", -- [1]
 			"Alfandris-Bronzebeard", -- [2]
@@ -1188,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Alfandris-Bronzebeard|r",
 			[51] = 1651863252,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [54]
+		}, -- [43]
 		{
 			"never dragon", -- [1]
 			"Ewien-Outland", -- [2]
@@ -1210,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ewien|r",
 			[51] = 1651863259,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [55]
+		}, -- [44]
 		{
 			"bb hf", -- [1]
 			"Ewien-Outland", -- [2]
@@ -1232,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ewien|r",
 			[51] = 1651863261,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [56]
+		}, -- [45]
 		{
 			"ogg thok tago mog tov'nokaz kazum ", -- [1]
 			"Maxjohnson-Kazzak", -- [2]
@@ -1254,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMaxjohnson-Kazzak|r",
 			[51] = 1651932169,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [57]
+		}, -- [46]
 		{
 			"ko", -- [1]
 			"Spack-TwistingNether", -- [2]
@@ -1276,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Spack-TwistingNether|r",
 			[51] = 1651932181,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [58]
+		}, -- [47]
 		{
 			" ", -- [1]
 			"Maxjohnson-Kazzak", -- [2]
@@ -1298,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMaxjohnson-Kazzak|r",
 			[51] = 1651932185,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [59]
+		}, -- [48]
 		{
 			"MAKA", -- [1]
 			"Maxjohnson-Kazzak", -- [2]
@@ -1320,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMaxjohnson-Kazzak|r",
 			[51] = 1651932191,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [60]
+		}, -- [49]
 		{
 			" ", -- [1]
 			"Panelia-Kazzak", -- [2]
@@ -1342,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Panelia-Kazzak|r",
 			[51] = 1651932196,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [61]
+		}, -- [50]
 		{
 			"ro'th golar kaz A uruk aaz kil no maka ", -- [1]
 			"Shapeir-ChamberofAspects", -- [2]
@@ -1364,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shapeir-ChamberofAspects|r",
 			[51] = 1651932615,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [62]
+		}, -- [51]
 		{
 			"ragath'a A makogg", -- [1]
 			"Panelia-Kazzak", -- [2]
@@ -1386,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Panelia-Kazzak|r",
 			[51] = 1651932628,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [63]
+		}, -- [52]
 		{
 			"tago mu", -- [1]
 			"Shapeir-ChamberofAspects", -- [2]
@@ -1408,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shapeir-ChamberofAspects|r",
 			[51] = 1651932643,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [64]
+		}, -- [53]
 		{
 			"moth'aga ogar maza golar aaz kil IL", -- [1]
 			"Panelia-Kazzak", -- [2]
@@ -1430,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Panelia-Kazzak|r",
 			[51] = 1651932650,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [65]
+		}, -- [54]
 		{
 			"GOlgonnashAR", -- [1]
 			"Panelia-Kazzak", -- [2]
@@ -1452,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Panelia-Kazzak|r",
 			[51] = 1651932655,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [66]
+		}, -- [55]
 		{
 			"l golar golar Revash gi ogar", -- [1]
 			"Shapeir-ChamberofAspects", -- [2]
@@ -1474,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shapeir-ChamberofAspects|r",
 			[51] = 1651932674,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [67]
+		}, -- [56]
 		{
 			"kaz zugas ha kazum no'bu kil tago ag maka", -- [1]
 			"Panelia-Kazzak", -- [2]
@@ -1496,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Panelia-Kazzak|r",
 			[51] = 1651932693,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [68]
+		}, -- [57]
 		{
 			"kaz ragath'a zaga maza kazum ", -- [1]
 			"Panelia-Kazzak", -- [2]
@@ -1518,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Panelia-Kazzak|r",
 			[51] = 1651932766,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [69]
+		}, -- [58]
 		{
 			"ogar nakazz zaga maza ogar no kek g maza ", -- [1]
 			"Panelia-Kazzak", -- [2]
@@ -1540,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Panelia-Kazzak|r",
 			[51] = 1651932779,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [70]
+		}, -- [59]
 		{
 			"l tago ko dogg", -- [1]
 			"Maxjohnson-Kazzak", -- [2]
@@ -1562,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMaxjohnson-Kazzak|r",
 			[51] = 1651932795,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [71]
+		}, -- [60]
 		{
 			"gi", -- [1]
 			"Panelia-Kazzak", -- [2]
@@ -1584,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Panelia-Kazzak|r",
 			[51] = 1651932801,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [72]
+		}, -- [61]
 		{
 			"mOg zug-zug'ama nakazz il tago aaz'no rath'is gesh'nuka", -- [1]
 			"Maxjohnson-Kazzak", -- [2]
@@ -1606,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMaxjohnson-Kazzak|r",
 			[51] = 1651932804,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [73]
+		}, -- [62]
 		{
 			"tov'osh l kaz nakazz zug", -- [1]
 			"Panelia-Kazzak", -- [2]
@@ -1628,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Panelia-Kazzak|r",
 			[51] = 1651932807,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [74]
+		}, -- [63]
 		{
 			"lok", -- [1]
 			"Panelia-Kazzak", -- [2]
@@ -1650,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Panelia-Kazzak|r",
 			[51] = 1651932813,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [75]
+		}, -- [64]
 		{
 			"kek kek mog kil'azi'aga nogu tago ag tago kagg kil L zugas", -- [1]
 			"Maxjohnson-Kazzak", -- [2]
@@ -1672,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMaxjohnson-Kazzak|r",
 			[51] = 1651932816,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [76]
+		}, -- [65]
 		{
 			"lok'mogul rath'is KO gul'nath goth'a aaz'no rath'is mog rega ro'th grom", -- [1]
 			"Maxjohnson-Kazzak", -- [2]
@@ -1694,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMaxjohnson-Kazzak|r",
 			[51] = 1651932836,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [77]
+		}, -- [66]
 		{
 			"l tago il ka kazreth ag ko ruk'ka'ha kek gRom kil'azi kek mog kil'azi'aga thukad", -- [1]
 			"Maxjohnson-Kazzak", -- [2]
@@ -1716,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMaxjohnson-Kazzak|r",
 			[51] = 1651932847,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [78]
+		}, -- [67]
 		{
 			" ", -- [1]
 			"Panelia-Kazzak", -- [2]
@@ -1738,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Panelia-Kazzak|r",
 			[51] = 1651932847,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [79]
+		}, -- [68]
 		{
 			"il ogg zaga re'ka ag kazum ka ", -- [1]
 			"Maxjohnson-Kazzak", -- [2]
@@ -1760,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMaxjohnson-Kazzak|r",
 			[51] = 1651932855,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [80]
+		}, -- [69]
 		{
 			"l kagg tov'osh throm'ka", -- [1]
 			"Panelia-Kazzak", -- [2]
@@ -1782,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Panelia-Kazzak|r",
 			[51] = 1651932895,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [81]
+		}, -- [70]
 		{
 			"kil'azi zaga throm'bola ha ragath'a", -- [1]
 			"Panelia-Kazzak", -- [2]
@@ -1804,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Panelia-Kazzak|r",
 			[51] = 1651932937,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [82]
+		}, -- [71]
 		{
 			"ogar g kil'azi'aga gRom zaga tov'osh kazum'nobu L", -- [1]
 			"Maxjohnson-Kazzak", -- [2]
@@ -1826,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMaxjohnson-Kazzak|r",
 			[51] = 1651932949,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [83]
+		}, -- [72]
 		{
 			"A Aaz'no Rath'is Gesh'nuka NO MU", -- [1]
 			"Panelia-Kazzak", -- [2]
@@ -1848,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Panelia-Kazzak|r",
 			[51] = 1651932969,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [84]
+		}, -- [73]
 		{
 			" ", -- [1]
 			"Panelia-Kazzak", -- [2]
@@ -1870,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Panelia-Kazzak|r",
 			[51] = 1651932977,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [85]
+		}, -- [74]
 		{
 			"grom no'gOr ogar no'ku zaga mog zaga thrakk", -- [1]
 			"Maxjohnson-Kazzak", -- [2]
@@ -1892,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMaxjohnson-Kazzak|r",
 			[51] = 1651932979,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [86]
+		}, -- [75]
 		{
 			"gRom no'bu gi re'ka makogg nogu gi ogar zugas", -- [1]
 			"Maxjohnson-Kazzak", -- [2]
@@ -1914,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMaxjohnson-Kazzak|r",
 			[51] = 1651932995,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [87]
+		}, -- [76]
 		{
 			"kazreth", -- [1]
 			"Panelia-Kazzak", -- [2]
@@ -1936,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Panelia-Kazzak|r",
 			[51] = 1651933012,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [88]
+		}, -- [77]
 		{
 			"gi aaz gi mog thrakk gi aaz gi mog gul'rok no'bu ogar il mog ogar", -- [1]
 			"Maxjohnson-Kazzak", -- [2]
@@ -1958,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMaxjohnson-Kazzak|r",
 			[51] = 1651933014,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [89]
+		}, -- [78]
 		{
 			"raznos maka aaz", -- [1]
 			"Maxjohnson-Kazzak", -- [2]
@@ -1980,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMaxjohnson-Kazzak|r",
 			[51] = 1651933019,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [90]
+		}, -- [79]
 		{
 			"grOm dogg ", -- [1]
 			"Maxjohnson-Kazzak", -- [2]
@@ -2002,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMaxjohnson-Kazzak|r",
 			[51] = 1651933091,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [91]
+		}, -- [80]
 		{
 			"maza il mog zaga gi gi", -- [1]
 			"Maxjohnson-Kazzak", -- [2]
@@ -2024,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMaxjohnson-Kazzak|r",
 			[51] = 1651933100,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [92]
+		}, -- [81]
 		{
 			"re'ka ogg kil mog kazum ", -- [1]
 			"Maxjohnson-Kazzak", -- [2]
@@ -2046,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMaxjohnson-Kazzak|r",
 			[51] = 1651933103,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [93]
+		}, -- [82]
 		{
 			"no", -- [1]
 			"Panelia-Kazzak", -- [2]
@@ -2068,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Panelia-Kazzak|r",
 			[51] = 1651933107,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [94]
+		}, -- [83]
 		{
 			"nogah mog magan gi ro'th golar ", -- [1]
 			"Shapeir-ChamberofAspects", -- [2]
@@ -2090,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shapeir-ChamberofAspects|r",
 			[51] = 1651933127,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [95]
+		}, -- [84]
 		{
 			"A Ko ", -- [1]
 			"Shapeir-ChamberofAspects", -- [2]
@@ -2112,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shapeir-ChamberofAspects|r",
 			[51] = 1651933129,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [96]
+		}, -- [85]
 		{
 			"if i join later to the rig i dont get the full rewards?", -- [1]
 			"Borgamor-Frostmane", -- [2]
@@ -2134,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeBorgamor-Frostmane|r",
 			[51] = 1652015260,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [86]
 		{
 			"lfg spare sparts farm", -- [1]
 			"Panko-Auchindoun", -- [2]
@@ -2156,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edPanko-Auchindoun|r",
 			[51] = 1652015693,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [87]
 		{
 			"Boilburn |cffffff00|Hworldmap:1462:5100:5060|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Liliath-Ravencrest", -- [2]
@@ -2178,6 +1936,248 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Liliath-Ravencrest|r",
 			[51] = 1652016515,
 			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [88]
+		{
+			"LFM to do |cffffff00|Hachievement:10412:Player-1301-0716E26B:0:0:0:-1:0:0:0:0|h[Poor Unfortunate Souls]|h|r for |cffffff00|Hachievement:11163:Player-1301-0716E26B:0:0:0:-1:66059237:0:0:0|h[Glory of the Legion Hero]|h|r  need full group - /w for inv", -- [1]
+			"Treggeret-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Treggeret-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			87, -- [11]
+			"Player-1301-0716E26B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Treggeret|r",
+			[51] = 1652618390,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [89]
+		{
+			"need 2 more", -- [1]
+			"Treggeret-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Treggeret-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			88, -- [11]
+			"Player-1301-0716E26B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Treggeret|r",
+			[51] = 1652618420,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [90]
+		{
+			"WTS ||Mythci Plus 15-20|| (private team) KSM/KSH  ||only gold|| {FREE armor stacks}", -- [1]
+			"Ziraeal-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ziraeal-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			947, -- [11]
+			"Player-1301-0908ACAC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Ziraeal|r",
+			[51] = 1652722239,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [91]
+		{
+			"El Imperio Desconocido; Recluta Dps y un heal para fortalecer roster SOD 11/11 NM Y 6/11 HM Raid X, J y D de 20 a 22 horas. Gracias.", -- [1]
+			"Xeanøth-Exodar", -- [2]
+			"", -- [3]
+			"1. General - Oribos", -- [4]
+			"Xeanøth-Exodar", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Oribos", -- [9]
+			0, -- [10]
+			951, -- [11]
+			"Player-1385-0964C404", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Xeanøth-Exodar|r",
+			[51] = 1652722283,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"Taunted Ragerider Battlehorn!", -- [1]
+			"Ailawiu-ScarshieldLegion", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ailawiu-ScarshieldLegion", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			993, -- [11]
+			"Player-1096-02284C2B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Ailawiu-ScarshieldLegion|r",
+			[51] = 1652722495,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [93]
+		{
+			"Taunted Captain Hawken!", -- [1]
+			"Ailawiu-ScarshieldLegion", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ailawiu-ScarshieldLegion", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1043, -- [11]
+			"Player-1096-02284C2B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Ailawiu-ScarshieldLegion|r",
+			[51] = 1652722550,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [94]
+		{
+			"Interrupted Chosen Warhound's |cff71d5ff|Hspell:333929:0|h[Bestial Howl]|h|r!", -- [1]
+			"Ailawiu-ScarshieldLegion", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ailawiu-ScarshieldLegion", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1050, -- [11]
+			"Player-1096-02284C2B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Ailawiu-ScarshieldLegion|r",
+			[51] = 1652722569,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [95]
+		{
+			"Interrupted Mel'san's |cff71d5ff|Hspell:330953:0|h[Icy Rift]|h|r!", -- [1]
+			"Ailawiu-ScarshieldLegion", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ailawiu-ScarshieldLegion", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1088, -- [11]
+			"Player-1096-02284C2B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Ailawiu-ScarshieldLegion|r",
+			[51] = 1652722644,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [96]
+		{
+			"|cff71d5ff|Hspell:853:0|h[Hammer of Justice]|h|r on Mel'san has ended!", -- [1]
+			"Ailawiu-ScarshieldLegion", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ailawiu-ScarshieldLegion", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1089, -- [11]
+			"Player-1096-02284C2B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Ailawiu-ScarshieldLegion|r",
+			[51] = 1652722668,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [97]
+		{
+			"even better than stinger missiles", -- [1]
+			"Vvowzorz-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vvowzorz-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1919, -- [11]
+			"Player-1301-0582F0C7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Vvowzorz|r",
+			[51] = 1653154889,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"but stingers already got given to taliban", -- [1]
+			"Vvowzorz-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vvowzorz-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1920, -- [11]
+			"Player-1301-0582F0C7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Vvowzorz|r",
+			[51] = 1653154916,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
@@ -2186,21 +2186,21 @@ ElvCharacterDB = {
 		"/1 |cffffff00|Hworldmap:1970:4366:8713|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [3]
 		"/ps", -- [4]
 		"/ps color (Toggle)", -- [5]
-		"/reload", -- [6]
-		"/cw Yatschinka-Blackmoore inv plz", -- [7]
-		"/1 Otiosen up", -- [8]
-		"/1 |cffffff00|Hworldmap:1970:4342:8716|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [9]
-		"/i dont worry", -- [10]
-		"/i keep spamming buttons", -- [11]
-		"/i spam more", -- [12]
-		"/i cast faster", -- [13]
-		"/i :D", -- [14]
-		"/i lol", -- [15]
-		"/i you expect me to do 15 year old mechanics?", -- [16]
-		"/i i wasnt born when this dungeon came out", -- [17]
-		"/i relax fam", -- [18]
-		"/i flare?", -- [19]
-		"/i or spam swipe", -- [20]
+		"/cw Yatschinka-Blackmoore inv plz", -- [6]
+		"/1 Otiosen up", -- [7]
+		"/1 |cffffff00|Hworldmap:1970:4342:8716|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [8]
+		"/i dont worry", -- [9]
+		"/i keep spamming buttons", -- [10]
+		"/i spam more", -- [11]
+		"/i cast faster", -- [12]
+		"/i :D", -- [13]
+		"/i lol", -- [14]
+		"/i you expect me to do 15 year old mechanics?", -- [15]
+		"/i i wasnt born when this dungeon came out", -- [16]
+		"/i relax fam", -- [17]
+		"/i flare?", -- [18]
+		"/i or spam swipe", -- [19]
+		"/reload", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }

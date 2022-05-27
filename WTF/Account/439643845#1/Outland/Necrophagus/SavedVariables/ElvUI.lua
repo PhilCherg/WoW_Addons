@@ -2,51 +2,51 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"LOW HEALTH: Dàntrag (Hunter)", -- [1]
-			"Fionara-Outland", -- [2]
+			"gl, cya :D", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Fionara-Outland", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1784, -- [11]
-			"Player-1301-09D4F339", -- [12]
+			3488, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652548953,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1653600662,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [1]
 		{
-			"LOW HEALTH: Dàntrag (Hunter)", -- [1]
-			"Santax-ArgentDawn", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:15518:Player-1301-0C2FE7B4:1:5:27:22:4294967295:4294967295:4294967295:4294967295|h[A Means to an End]|h|r!", -- [1]
+			"Becomehealed-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Santax-ArgentDawn", -- [5]
+			"Becomehealed-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1785, -- [11]
-			"Player-3702-0860C0AC", -- [12]
+			3546, -- [11]
+			"Player-1301-0C2FE7B4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeSantax-ArgentDawn|r",
-			[51] = 1652548953,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff006fdcBecomehealed|r",
+			[51] = 1653601279,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [2]
 		{
-			"LOW HEALTH: Dàntrag (Hunter)", -- [1]
+			"lets summon pala", -- [1]
 			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -56,7 +56,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1786, -- [11]
+			3595, -- [11]
 			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -64,1155 +64,121 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652548953,
-			[50] = "CHAT_MSG_PARTY",
+			[51] = 1653601524,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [3]
 		{
-			"Interrupted Entrerix-TwistingNether casting |cff71d5ff|Hspell:33786:0|h[Cyclone]|h|r", -- [1]
-			"Fionara-Outland", -- [2]
-			"", -- [3]
+			"click", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Fionara-Outland", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			0, -- [10]
-			1787, -- [11]
-			"Player-1301-09D4F339", -- [12]
+			7, -- [10]
+			3630, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652548976,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1653601554,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [4]
 		{
-			"LOW HEALTH: Dàntrag (Hunter)", -- [1]
-			"Fionara-Outland", -- [2]
+			"convert to party", -- [1]
+			"Necrophagus-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Fionara-Outland", -- [5]
+			"Necrophagus-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1788, -- [11]
-			"Player-1301-09D4F339", -- [12]
+			3693, -- [11]
+			"Player-1301-096AE5A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652548986,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1653601887,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [5]
 		{
-			"LOW HEALTH: Dàntrag (Hunter)", -- [1]
-			"Santax-ArgentDawn", -- [2]
+			"Thanks for coming :)", -- [1]
+			"Azkhen-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Santax-ArgentDawn", -- [5]
+			"Azkhen-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1789, -- [11]
-			"Player-3702-0860C0AC", -- [12]
+			3885, -- [11]
+			"Player-1301-0BBAA46F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeSantax-ArgentDawn|r",
-			[51] = 1652548986,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc59a6cAzkhen|r",
+			[51] = 1653602840,
+			[50] = "CHAT_MSG_RAID_LEADER",
 		}, -- [6]
 		{
-			"LOW HEALTH: Dàntrag (Hunter)", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"what can i do with excess cosmic flux?", -- [1]
+			"Fuzzwuzz-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1790, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			4020, -- [11]
+			"Player-1301-0BC488D4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652548986,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffe7b09Fuzzwuzz|r",
+			[51] = 1653603383,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [7]
 		{
-			"Enemy Spec: Restoration DRUID", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"i have like 12k", -- [1]
+			"Fuzzwuzz-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1816, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			4021, -- [11]
+			"Player-1301-0BC488D4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652549072,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffe7b09Fuzzwuzz|r",
+			[51] = 1653603386,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [8]
 		{
-			"Enemy Spec: Fury WARRIOR", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1817, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652549072,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [9]
-		{
-			"Enemy Spec: Restoration DRUID", -- [1]
-			"Santax-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Santax-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1818, -- [11]
-			"Player-3702-0860C0AC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeSantax-ArgentDawn|r",
-			[51] = 1652549072,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [10]
-		{
-			"Enemy Spec: Fury WARRIOR", -- [1]
-			"Santax-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Santax-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1819, -- [11]
-			"Player-3702-0860C0AC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeSantax-ArgentDawn|r",
-			[51] = 1652549072,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [11]
-		{
-			"Cookies Here!!!", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			1820, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652549073,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [12]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14197:Player-1301-0A4395D3:1:5:14:22:4294967295:4294967295:4294967295:4294967295|h[Sanguine Depths]|h|r!", -- [1]
-			"Breathing-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Breathing-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1821, -- [11]
-			"Player-1301-0A4395D3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Breathing|r",
-			[51] = 1652549074,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [13]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14198:Player-1301-0A4395D3:1:5:14:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Sanguine Depths]|h|r!", -- [1]
-			"Breathing-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Breathing-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1822, -- [11]
-			"Player-1301-0A4395D3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Breathing|r",
-			[51] = 1652549074,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [14]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14199:Player-1301-0A4395D3:1:5:14:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Sanguine Depths]|h|r!", -- [1]
-			"Breathing-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Breathing-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1823, -- [11]
-			"Player-1301-0A4395D3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Breathing|r",
-			[51] = 1652549074,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [15]
-		{
-			"Enemy Spec: Restoration DRUID", -- [1]
-			"Fionara-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fionara-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1825, -- [11]
-			"Player-1301-09D4F339", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652549077,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [16]
-		{
-			"Enemy Spec: Fury WARRIOR", -- [1]
-			"Fionara-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fionara-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1826, -- [11]
-			"Player-1301-09D4F339", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652549077,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [17]
-		{
-			"Enemy Spec: Windwalker MONK", -- [1]
-			"Fionara-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fionara-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1827, -- [11]
-			"Player-1301-09D4F339", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652549077,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [18]
-		{
-			"Enemy Spec: Restoration DRUID", -- [1]
-			"Santax-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Santax-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1828, -- [11]
-			"Player-3702-0860C0AC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeSantax-ArgentDawn|r",
-			[51] = 1652549077,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [19]
-		{
-			"Enemy Spec: Restoration DRUID", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1829, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652549077,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [20]
-		{
-			"Enemy Spec: Fury WARRIOR", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1830, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652549077,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [21]
-		{
-			"Enemy Spec: Windwalker MONK", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1831, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652549077,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [22]
-		{
-			"Enemy Spec: Fury WARRIOR", -- [1]
-			"Santax-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Santax-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1832, -- [11]
-			"Player-3702-0860C0AC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeSantax-ArgentDawn|r",
-			[51] = 1652549077,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [23]
-		{
-			"Enemy Spec: Windwalker MONK", -- [1]
-			"Santax-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Santax-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1833, -- [11]
-			"Player-3702-0860C0AC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeSantax-ArgentDawn|r",
-			[51] = 1652549077,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [24]
-		{
-			"Vanzam - Warrior", -- [1]
-			"Santax-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Santax-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1840, -- [11]
-			"Player-3702-0860C0AC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeSantax-ArgentDawn|r",
-			[51] = 1652549130,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [25]
-		{
-			"Vanzam - Warrior", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1841, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652549130,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [26]
-		{
-			"Marianform - Druid", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1842, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652549130,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [27]
-		{
-			"Фистингиз - Monk", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1843, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652549130,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [28]
-		{
-			"Vanzam - Warrior", -- [1]
-			"Fionara-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fionara-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1844, -- [11]
-			"Player-1301-09D4F339", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652549130,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [29]
-		{
-			"Marianform - Druid", -- [1]
-			"Fionara-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fionara-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1845, -- [11]
-			"Player-1301-09D4F339", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652549130,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [30]
-		{
-			"Фистингиз - Monk", -- [1]
-			"Fionara-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fionara-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1846, -- [11]
-			"Player-1301-09D4F339", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652549130,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [31]
-		{
-			"Marianform - Druid", -- [1]
-			"Santax-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Santax-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1847, -- [11]
-			"Player-3702-0860C0AC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeSantax-ArgentDawn|r",
-			[51] = 1652549130,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [32]
-		{
-			"Фистингиз - Monk", -- [1]
-			"Santax-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Santax-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1848, -- [11]
-			"Player-3702-0860C0AC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeSantax-ArgentDawn|r",
-			[51] = 1652549130,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [33]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:15220:Player-1301-0BED218C:1:5:14:22:4294967295:4294967295:4294967295:4294967295|h[The Enlightened]|h|r!", -- [1]
-			"Añwiel-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Añwiel-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1850, -- [11]
-			"Player-1301-0BED218C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Añwiel|r",
-			[51] = 1652549217,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [34]
-		{
-			"war was in poly", -- [1]
-			"Fionara-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fionara-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1853, -- [11]
-			"Player-1301-09D4F339", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652549249,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [35]
-		{
-			"i was max hp", -- [1]
-			"Fionara-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fionara-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1856, -- [11]
-			"Player-1301-09D4F339", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652549251,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [36]
-		{
-			"he killed me in 1 sec", -- [1]
-			"Fionara-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fionara-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1858, -- [11]
-			"Player-1301-09D4F339", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652549254,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [37]
-		{
-			"gx", -- [1]
-			"Swiftstrykes-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1859, -- [11]
-			"Player-1301-0BE9DFFE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Swiftstrykes|r",
-			[51] = 1652549259,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [38]
-		{
-			"gz", -- [1]
-			"Swiftstrykes-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1860, -- [11]
-			"Player-1301-0BE9DFFE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Swiftstrykes|r",
-			[51] = 1652549260,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [39]
-		{
-			"I try to heal u at max ,but they hitted a lot ", -- [1]
-			"Santax-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Santax-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1868, -- [11]
-			"Player-3702-0860C0AC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeSantax-ArgentDawn|r",
-			[51] = 1652549293,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [40]
-		{
-			"4 days", -- [1]
-			"Senky-Outland", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Senky-Outland", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			1869, -- [11]
-			"Player-1301-0B3A9199", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cSenky|r",
-			[51] = 1652549293,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
-		{
-			"Enemy Spec: Retribution PALADIN", -- [1]
-			"Fionara-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fionara-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1873, -- [11]
-			"Player-1301-09D4F339", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652549304,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [42]
-		{
-			"Enemy Spec: Holy PRIEST", -- [1]
-			"Fionara-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fionara-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1874, -- [11]
-			"Player-1301-09D4F339", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652549304,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [43]
-		{
-			"Enemy Spec: Retribution PALADIN", -- [1]
-			"Santax-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Santax-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1875, -- [11]
-			"Player-3702-0860C0AC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeSantax-ArgentDawn|r",
-			[51] = 1652549304,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [44]
-		{
-			"Enemy Spec: Holy PRIEST", -- [1]
-			"Santax-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Santax-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1876, -- [11]
-			"Player-3702-0860C0AC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeSantax-ArgentDawn|r",
-			[51] = 1652549304,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [45]
-		{
-			"Cookies Here!!!", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			1883, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652549307,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [46]
-		{
-			"Enemy Spec: Retribution PALADIN", -- [1]
-			"Fionara-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fionara-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1884, -- [11]
-			"Player-1301-09D4F339", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652549311,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [47]
-		{
-			"Enemy Spec: Holy PRIEST", -- [1]
-			"Fionara-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fionara-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1885, -- [11]
-			"Player-1301-09D4F339", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652549311,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [48]
-		{
-			"Enemy Spec: Survival HUNTER", -- [1]
-			"Fionara-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fionara-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1886, -- [11]
-			"Player-1301-09D4F339", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652549311,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [49]
-		{
-			"Enemy Spec: Retribution PALADIN", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1887, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652549311,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [50]
-		{
-			"Enemy Spec: Holy PRIEST", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1888, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652549311,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [51]
-		{
-			"Enemy Spec: Survival HUNTER", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1889, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652549311,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [52]
-		{
-			"Enemy Spec: Retribution PALADIN", -- [1]
-			"Santax-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Santax-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1890, -- [11]
-			"Player-3702-0860C0AC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeSantax-ArgentDawn|r",
-			[51] = 1652549311,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [53]
-		{
-			"Enemy Spec: Holy PRIEST", -- [1]
-			"Santax-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Santax-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1891, -- [11]
-			"Player-3702-0860C0AC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeSantax-ArgentDawn|r",
-			[51] = 1652549311,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [54]
-		{
-			"Enemy Spec: Survival HUNTER", -- [1]
-			"Santax-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Santax-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1892, -- [11]
-			"Player-3702-0860C0AC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeSantax-ArgentDawn|r",
-			[51] = 1652549311,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [55]
-		{
-			"is there dps spot on casual?", -- [1]
+			"nothing rly outside legos and catacylst", -- [1]
 			"Misspicklés-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1222,7 +188,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1899, -- [11]
+			4023, -- [11]
 			"Player-1301-0BD2137F", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1230,977 +196,2011 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffe7b09Misspicklés|r",
-			[51] = 1652549352,
+			[51] = 1653603412,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [9]
+		{
+			"how can i transfer anima from one covenant to the other?", -- [1]
+			"Fuzzwuzz-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4024, -- [11]
+			"Player-1301-0BC488D4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Fuzzwuzz|r",
+			[51] = 1653603531,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [10]
+		{
+			"|cffffff00|Hworldmap:1543:2785:2525|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Baaradir-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Baaradir-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4025, -- [11]
+			"Player-1301-07D1C69F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Baaradir|r",
+			[51] = 1653603545,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [11]
+		{
+			"next to flightmaster have vendor where u can buy 1k anima item", -- [1]
+			"Misspicklés-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4027, -- [11]
+			"Player-1301-0BD2137F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Misspicklés|r",
+			[51] = 1653603567,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [12]
+		{
+			"with anima", -- [1]
+			"Misspicklés-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4028, -- [11]
+			"Player-1301-0BD2137F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Misspicklés|r",
+			[51] = 1653603578,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [13]
+		{
+			"like be in NF and buy then go necro and use item", -- [1]
+			"Misspicklés-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4029, -- [11]
+			"Player-1301-0BD2137F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Misspicklés|r",
+			[51] = 1653603616,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [14]
+		{
+			"yeah got it thanks", -- [1]
+			"Fuzzwuzz-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4030, -- [11]
+			"Player-1301-0BC488D4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Fuzzwuzz|r",
+			[51] = 1653603627,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [15]
+		{
+			"is there any efficient gold farming thing left?", -- [1]
+			"Fuzzwuzz-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4031, -- [11]
+			"Player-1301-0BC488D4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Fuzzwuzz|r",
+			[51] = 1653603685,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [16]
+		{
+			"i'm just relying on dailies and covenant chests", -- [1]
+			"Fuzzwuzz-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4032, -- [11]
+			"Player-1301-0BC488D4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Fuzzwuzz|r",
+			[51] = 1653603692,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [17]
+		{
+			"not rly", -- [1]
+			"Misspicklés-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4033, -- [11]
+			"Player-1301-0BD2137F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Misspicklés|r",
+			[51] = 1653603700,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [18]
+		{
+			"maybe farm rank lego item", -- [1]
+			"Misspicklés-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4035, -- [11]
+			"Player-1301-0BD2137F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Misspicklés|r",
+			[51] = 1653603708,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [19]
+		{
+			"only one left", -- [1]
+			"Misspicklés-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4036, -- [11]
+			"Player-1301-0BD2137F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Misspicklés|r",
+			[51] = 1653603718,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [20]
+		{
+			"Prob to get the progenitor essentia buff and go around ZM and herb", -- [1]
+			"Snëk-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4039, -- [11]
+			"Player-1301-0B9401BD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Snëk|r",
+			[51] = 1653603728,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [21]
+		{
+			"i'm just doing dalieis and i can pull 20k per week but that's so dead", -- [1]
+			"Fuzzwuzz-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4042, -- [11]
+			"Player-1301-0BC488D4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Fuzzwuzz|r",
+			[51] = 1653603762,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [22]
+		{
+			"i remember 9.0 i farmed 20k in 30 minutes ", -- [1]
+			"Fuzzwuzz-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4043, -- [11]
+			"Player-1301-0BC488D4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Fuzzwuzz|r",
+			[51] = 1653603771,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [23]
+		{
+			"With porgentior farm and herbs i pull 20k a day easily", -- [1]
+			"Snëk-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4044, -- [11]
+			"Player-1301-0B9401BD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Snëk|r",
+			[51] = 1653603785,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [24]
+		{
+			"you can do nice gold bigger realm still pretty well", -- [1]
+			"Misspicklés-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4047, -- [11]
+			"Player-1301-0BD2137F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Misspicklés|r",
+			[51] = 1653603799,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [25]
+		{
+			"but wtf happend to Umbrahide pants ?", -- [1]
+			"Snëk-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4054, -- [11]
+			"Player-1301-0B9401BD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Snëk|r",
+			[51] = 1653603882,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [26]
+		{
+			"i bought some last week for 25k and now they sell for 125k", -- [1]
+			"Snëk-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4055, -- [11]
+			"Player-1301-0B9401BD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Snëk|r",
+			[51] = 1653603894,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [27]
+		{
+			"stupid ppl", -- [1]
+			"Misspicklés-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4056, -- [11]
+			"Player-1301-0BD2137F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Misspicklés|r",
+			[51] = 1653603908,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [28]
+		{
+			"ez 100k profit", -- [1]
+			"Snëk-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4057, -- [11]
+			"Player-1301-0B9401BD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Snëk|r",
+			[51] = 1653603912,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [29]
+		{
+			"no competition :D", -- [1]
+			"Misspicklés-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4058, -- [11]
+			"Player-1301-0BD2137F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Misspicklés|r",
+			[51] = 1653603934,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [30]
+		{
+			":D", -- [1]
+			"Snëk-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4062, -- [11]
+			"Player-1301-0B9401BD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Snëk|r",
+			[51] = 1653604015,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [31]
+		{
+			"anyone familiar with mog or mount farming?", -- [1]
+			"Fuzzwuzz-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4064, -- [11]
+			"Player-1301-0BC488D4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Fuzzwuzz|r",
+			[51] = 1653604074,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [32]
+		{
+			"kinda", -- [1]
+			"Misspicklés-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4065, -- [11]
+			"Player-1301-0BD2137F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Misspicklés|r",
+			[51] = 1653604084,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [33]
+		{
+			"only works in AD rly", -- [1]
+			"Misspicklés-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4068, -- [11]
+			"Player-1301-0BD2137F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Misspicklés|r",
+			[51] = 1653604096,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [34]
+		{
+			"AD?", -- [1]
+			"Fuzzwuzz-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4069, -- [11]
+			"Player-1301-0BC488D4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Fuzzwuzz|r",
+			[51] = 1653604104,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [35]
+		{
+			"argend dawn realm", -- [1]
+			"Misspicklés-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4070, -- [11]
+			"Player-1301-0BD2137F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Misspicklés|r",
+			[51] = 1653604112,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [36]
+		{
+			"RP realm", -- [1]
+			"Misspicklés-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4071, -- [11]
+			"Player-1301-0BD2137F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Misspicklés|r",
+			[51] = 1653604117,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [37]
+		{
+			"ew gross", -- [1]
+			"Fuzzwuzz-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4072, -- [11]
+			"Player-1301-0BC488D4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Fuzzwuzz|r",
+			[51] = 1653604139,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [38]
+		{
+			"i might DF in twisting nether realm so i can make some gold", -- [1]
+			"Misspicklés-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4083, -- [11]
+			"Player-1301-0BD2137F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Misspicklés|r",
+			[51] = 1653604247,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [39]
+		{
+			"might start?", -- [1]
+			"Misspicklés-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4084, -- [11]
+			"Player-1301-0BD2137F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Misspicklés|r",
+			[51] = 1653604255,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [40]
+		{
+			"*", -- [1]
+			"Misspicklés-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4085, -- [11]
+			"Player-1301-0BD2137F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Misspicklés|r",
+			[51] = 1653604261,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [41]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:15241:Player-1301-0C2FE7B4:1:5:27:22:4294967295:4294967295:4294967295:4294967295|h[Renowned]|h|r!", -- [1]
+			"Becomehealed-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Becomehealed-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4086, -- [11]
+			"Player-1301-0C2FE7B4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcBecomehealed|r",
+			[51] = 1653604343,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [42]
+		{
+			"why is engineering such a dead profession", -- [1]
+			"Fuzzwuzz-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4087, -- [11]
+			"Player-1301-0BC488D4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Fuzzwuzz|r",
+			[51] = 1653604366,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [43]
+		{
+			"it used to be the coolest", -- [1]
+			"Fuzzwuzz-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4088, -- [11]
+			"Player-1301-0BC488D4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Fuzzwuzz|r",
+			[51] = 1653604370,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [44]
+		{
+			"because blizz killed it", -- [1]
+			"Snëk-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4089, -- [11]
+			"Player-1301-0B9401BD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Snëk|r",
+			[51] = 1653604376,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [45]
+		{
+			"sadge", -- [1]
+			"Fuzzwuzz-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4090, -- [11]
+			"Player-1301-0BC488D4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Fuzzwuzz|r",
+			[51] = 1653604386,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [46]
+		{
+			"yep", -- [1]
+			"Snëk-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4091, -- [11]
+			"Player-1301-0B9401BD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Snëk|r",
+			[51] = 1653604391,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [47]
+		{
+			"is making eng mounts still profitable?", -- [1]
+			"Fuzzwuzz-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4092, -- [11]
+			"Player-1301-0BC488D4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Fuzzwuzz|r",
+			[51] = 1653604392,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [48]
+		{
+			"Not really", -- [1]
+			"Snëk-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4093, -- [11]
+			"Player-1301-0B9401BD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Snëk|r",
+			[51] = 1653604403,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [49]
+		{
+			"considering the time it takes", -- [1]
+			"Snëk-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4094, -- [11]
+			"Player-1301-0B9401BD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Snëk|r",
+			[51] = 1653604411,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [50]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:875:Player-1301-0C2E57A4:1:5:27:22:4294967295:4294967295:4294967295:4294967295|h[Vengefully Dedicated]|h|r!", -- [1]
+			"Ouleh-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ouleh-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4097, -- [11]
+			"Player-1301-0C2E57A4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Ouleh|r",
+			[51] = 1653604427,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [51]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12906:Player-1301-0C2E57A4:1:5:27:22:4294967295:4294967295:4294967295:4294967295|h[Honor Level 70]|h|r!", -- [1]
+			"Ouleh-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ouleh-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4098, -- [11]
+			"Player-1301-0C2E57A4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Ouleh|r",
+			[51] = 1653604427,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [52]
+		{
+			"you need to do pandaria farming for the mek thing right?", -- [1]
+			"Fuzzwuzz-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4107, -- [11]
+			"Player-1301-0BC488D4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Fuzzwuzz|r",
+			[51] = 1653604438,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [53]
+		{
+			"ye", -- [1]
+			"Misspicklés-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4110, -- [11]
+			"Player-1301-0BD2137F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Misspicklés|r",
+			[51] = 1653604448,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [54]
+		{
+			"i miss farming that underwater mount from cataclysm", -- [1]
+			"Fuzzwuzz-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4115, -- [11]
+			"Player-1301-0BC488D4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Fuzzwuzz|r",
+			[51] = 1653604606,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [55]
+		{
+			"does it still drop?", -- [1]
+			"Fuzzwuzz-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4116, -- [11]
+			"Player-1301-0BC488D4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Fuzzwuzz|r",
+			[51] = 1653604626,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [56]
 		{
-			"Гташник - Paladin", -- [1]
-			"Santax-ArgentDawn", -- [2]
+			"ye", -- [1]
+			"Misspicklés-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Santax-ArgentDawn", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1902, -- [11]
-			"Player-3702-0860C0AC", -- [12]
+			4117, -- [11]
+			"Player-1301-0BD2137F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeSantax-ArgentDawn|r",
-			[51] = 1652549360,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffe7b09Misspicklés|r",
+			[51] = 1653604642,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [57]
 		{
-			"Увасёк - Priest", -- [1]
-			"Santax-ArgentDawn", -- [2]
+			"It does", -- [1]
+			"Snëk-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Santax-ArgentDawn", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1903, -- [11]
-			"Player-3702-0860C0AC", -- [12]
+			4118, -- [11]
+			"Player-1301-0B9401BD", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeSantax-ArgentDawn|r",
-			[51] = 1652549360,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffe7b09Snëk|r",
+			[51] = 1653604652,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [58]
 		{
-			"Гташник - Paladin", -- [1]
-			"Fionara-Outland", -- [2]
+			"are any of you into timewalking dungeons?", -- [1]
+			"Fuzzwuzz-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Fionara-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1904, -- [11]
-			"Player-1301-09D4F339", -- [12]
+			4120, -- [11]
+			"Player-1301-0BC488D4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652549360,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfffe7b09Fuzzwuzz|r",
+			[51] = 1653604750,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [59]
 		{
-			"Увасёк - Priest", -- [1]
-			"Fionara-Outland", -- [2]
+			"i know there's people that have special gear sets", -- [1]
+			"Fuzzwuzz-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Fionara-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1905, -- [11]
-			"Player-1301-09D4F339", -- [12]
+			4121, -- [11]
+			"Player-1301-0BC488D4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652549360,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfffe7b09Fuzzwuzz|r",
+			[51] = 1653604757,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [60]
 		{
-			"Гташник - Paladin", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"with op bonuses and gems when rescaled in timewalking", -- [1]
+			"Fuzzwuzz-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1906, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			4122, -- [11]
+			"Player-1301-0BC488D4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652549360,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffe7b09Fuzzwuzz|r",
+			[51] = 1653604766,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [61]
 		{
-			"Увасёк - Priest", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"No set bonus is active from legacy content", -- [1]
+			"Snëk-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1907, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			4123, -- [11]
+			"Player-1301-0B9401BD", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652549360,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffe7b09Snëk|r",
+			[51] = 1653604830,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [62]
 		{
-			"Хакамаде - Hunter", -- [1]
-			"Fionara-Outland", -- [2]
+			"is it not active in timewalking?", -- [1]
+			"Fuzzwuzz-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Fionara-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1912, -- [11]
-			"Player-1301-09D4F339", -- [12]
+			4125, -- [11]
+			"Player-1301-0BC488D4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652549413,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfffe7b09Fuzzwuzz|r",
+			[51] = 1653604863,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [63]
 		{
-			"Хакамаде - Hunter", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"might be but not in retail content", -- [1]
+			"Snëk-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1913, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			4129, -- [11]
+			"Player-1301-0B9401BD", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652549413,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffe7b09Snëk|r",
+			[51] = 1653604876,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [64]
 		{
-			"Хакамаде - Hunter", -- [1]
-			"Santax-ArgentDawn", -- [2]
+			"so whats the point", -- [1]
+			"Snëk-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Santax-ArgentDawn", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1914, -- [11]
-			"Player-3702-0860C0AC", -- [12]
+			4130, -- [11]
+			"Player-1301-0B9401BD", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeSantax-ArgentDawn|r",
-			[51] = 1652549413,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffe7b09Snëk|r",
+			[51] = 1653604879,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [65]
 		{
-			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
-			"Fionara-Outland", -- [2]
+			"being op in timewalking", -- [1]
+			"Fuzzwuzz-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Fionara-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1915, -- [11]
-			"Player-1301-09D4F339", -- [12]
+			4131, -- [11]
+			"Player-1301-0BC488D4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652549418,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfffe7b09Fuzzwuzz|r",
+			[51] = 1653604885,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [66]
 		{
-			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
-			"Santax-ArgentDawn", -- [2]
+			"lmao", -- [1]
+			"Snëk-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Santax-ArgentDawn", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1916, -- [11]
-			"Player-3702-0860C0AC", -- [12]
+			4132, -- [11]
+			"Player-1301-0B9401BD", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeSantax-ArgentDawn|r",
-			[51] = 1652549418,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffe7b09Snëk|r",
+			[51] = 1653604889,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [67]
 		{
-			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"well if youre into that", -- [1]
+			"Snëk-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1917, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			4136, -- [11]
+			"Player-1301-0B9401BD", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652549418,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffe7b09Snëk|r",
+			[51] = 1653604898,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [68]
 		{
-			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
-			"Fionara-Outland", -- [2]
+			"go for it", -- [1]
+			"Snëk-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Fionara-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1918, -- [11]
-			"Player-1301-09D4F339", -- [12]
+			4137, -- [11]
+			"Player-1301-0B9401BD", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652549437,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfffe7b09Snëk|r",
+			[51] = 1653604900,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [69]
 		{
-			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
-			"Santax-ArgentDawn", -- [2]
+			"what M+ can i do with 265 ilvl?", -- [1]
+			"Fuzzwuzz-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Santax-ArgentDawn", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1919, -- [11]
-			"Player-3702-0860C0AC", -- [12]
+			4142, -- [11]
+			"Player-1301-0BC488D4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeSantax-ArgentDawn|r",
-			[51] = 1652549437,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffe7b09Fuzzwuzz|r",
+			[51] = 1653605024,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [70]
 		{
-			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"15", -- [1]
+			"Misspicklés-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1920, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			4146, -- [11]
+			"Player-1301-0BD2137F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652549437,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffe7b09Misspicklés|r",
+			[51] = 1653605037,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [71]
 		{
-			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
-			"Fionara-Outland", -- [2]
+			"plus", -- [1]
+			"Misspicklés-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Fionara-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1921, -- [11]
-			"Player-1301-09D4F339", -- [12]
+			4148, -- [11]
+			"Player-1301-0BD2137F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652549437,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfffe7b09Misspicklés|r",
+			[51] = 1653605041,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [72]
 		{
-			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"is that big?", -- [1]
+			"Fuzzwuzz-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1922, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			4151, -- [11]
+			"Player-1301-0BC488D4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652549437,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffe7b09Fuzzwuzz|r",
+			[51] = 1653605093,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [73]
 		{
-			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
-			"Santax-ArgentDawn", -- [2]
+			"its decent", -- [1]
+			"Snëk-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Santax-ArgentDawn", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1923, -- [11]
-			"Player-3702-0860C0AC", -- [12]
+			4152, -- [11]
+			"Player-1301-0B9401BD", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeSantax-ArgentDawn|r",
-			[51] = 1652549437,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffe7b09Snëk|r",
+			[51] = 1653605099,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [74]
 		{
-			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
-			"Fionara-Outland", -- [2]
+			"whats the main way to get gear in PVE", -- [1]
+			"Fuzzwuzz-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Fionara-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1924, -- [11]
-			"Player-1301-09D4F339", -- [12]
+			4154, -- [11]
+			"Player-1301-0BC488D4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652549456,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfffe7b09Fuzzwuzz|r",
+			[51] = 1653605122,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [75]
 		{
-			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
-			"Santax-ArgentDawn", -- [2]
+			"vault?", -- [1]
+			"Fuzzwuzz-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Santax-ArgentDawn", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1925, -- [11]
-			"Player-3702-0860C0AC", -- [12]
+			4155, -- [11]
+			"Player-1301-0BC488D4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeSantax-ArgentDawn|r",
-			[51] = 1652549456,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffe7b09Fuzzwuzz|r",
+			[51] = 1653605124,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [76]
 		{
-			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"you get highest ilv gear from 14 and up", -- [1]
+			"Misspicklés-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1926, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			4156, -- [11]
+			"Player-1301-0BD2137F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652549456,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffe7b09Misspicklés|r",
+			[51] = 1653605126,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [77]
 		{
-			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
-			"Fionara-Outland", -- [2]
+			"is there a cap on how many pieces you can get?", -- [1]
+			"Fuzzwuzz-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Fionara-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1927, -- [11]
-			"Player-1301-09D4F339", -- [12]
+			4158, -- [11]
+			"Player-1301-0BC488D4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652549456,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfffe7b09Fuzzwuzz|r",
+			[51] = 1653605145,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [78]
 		{
-			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
-			"Santax-ArgentDawn", -- [2]
+			"per week", -- [1]
+			"Fuzzwuzz-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Santax-ArgentDawn", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1928, -- [11]
-			"Player-3702-0860C0AC", -- [12]
+			4159, -- [11]
+			"Player-1301-0BC488D4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeSantax-ArgentDawn|r",
-			[51] = 1652549456,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffe7b09Fuzzwuzz|r",
+			[51] = 1653605147,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [79]
 		{
-			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
-			"Santax-ArgentDawn", -- [2]
+			"vault and get 2k m+ io so you can upgrade gear to 272", -- [1]
+			"Misspicklés-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Santax-ArgentDawn", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1930, -- [11]
-			"Player-3702-0860C0AC", -- [12]
+			4162, -- [11]
+			"Player-1301-0BD2137F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeSantax-ArgentDawn|r",
-			[51] = 1652549472,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffe7b09Misspicklés|r",
+			[51] = 1653605167,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [80]
 		{
-			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"cap from?", -- [1]
+			"Misspicklés-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1931, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			4163, -- [11]
+			"Player-1301-0BD2137F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652549472,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffe7b09Misspicklés|r",
+			[51] = 1653605190,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [81]
 		{
-			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
-			"Fionara-Outland", -- [2]
+			"vault gearing sounds like a pain", -- [1]
+			"Fuzzwuzz-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Fionara-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1932, -- [11]
-			"Player-1301-09D4F339", -- [12]
+			4164, -- [11]
+			"Player-1301-0BC488D4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652549472,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfffe7b09Fuzzwuzz|r",
+			[51] = 1653605191,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [82]
 		{
-			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
-			"Fionara-Outland", -- [2]
+			"is keystone master hard to get?", -- [1]
+			"Fuzzwuzz-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Fionara-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1933, -- [11]
-			"Player-1301-09D4F339", -- [12]
+			4169, -- [11]
+			"Player-1301-0BC488D4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652549472,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfffe7b09Fuzzwuzz|r",
+			[51] = 1653605293,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [83]
 		{
-			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
-			"Santax-ArgentDawn", -- [2]
+			"2,5k m+ score", -- [1]
+			"Misspicklés-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Santax-ArgentDawn", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1934, -- [11]
-			"Player-3702-0860C0AC", -- [12]
+			4170, -- [11]
+			"Player-1301-0BD2137F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeSantax-ArgentDawn|r",
-			[51] = 1652549472,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffe7b09Misspicklés|r",
+			[51] = 1653605331,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [84]
 		{
-			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
-			"Fionara-Outland", -- [2]
+			"= all keys 15 timed both week", -- [1]
+			"Misspicklés-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Fionara-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1935, -- [11]
-			"Player-1301-09D4F339", -- [12]
+			4171, -- [11]
+			"Player-1301-0BD2137F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652549491,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfffe7b09Misspicklés|r",
+			[51] = 1653605344,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [85]
 		{
-			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"i have no idea what that means", -- [1]
+			"Fuzzwuzz-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1936, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			4172, -- [11]
+			"Player-1301-0BC488D4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652549491,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffe7b09Fuzzwuzz|r",
+			[51] = 1653605346,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [86]
 		{
-			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
-			"Santax-ArgentDawn", -- [2]
+			"aleast", -- [1]
+			"Misspicklés-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Santax-ArgentDawn", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1937, -- [11]
-			"Player-3702-0860C0AC", -- [12]
+			4173, -- [11]
+			"Player-1301-0BD2137F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeSantax-ArgentDawn|r",
-			[51] = 1652549491,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffe7b09Misspicklés|r",
+			[51] = 1653605349,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [87]
 		{
-			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
-			"Santax-ArgentDawn", -- [2]
+			"atleast", -- [1]
+			"Misspicklés-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Santax-ArgentDawn", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1941, -- [11]
-			"Player-3702-0860C0AC", -- [12]
+			4174, -- [11]
+			"Player-1301-0BD2137F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeSantax-ArgentDawn|r",
-			[51] = 1652549511,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffe7b09Misspicklés|r",
+			[51] = 1653605355,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [88]
 		{
-			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
-			"Necrophagus-Outland", -- [2]
+			"all dungs*", -- [1]
+			"Misspicklés-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necrophagus-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1942, -- [11]
-			"Player-1301-096AE5A8", -- [12]
+			4175, -- [11]
+			"Player-1301-0BD2137F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1652549511,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffe7b09Misspicklés|r",
+			[51] = 1653605374,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [89]
 		{
-			"LOW HEALTH: Хакамаде (Hunter)", -- [1]
-			"Fionara-Outland", -- [2]
+			"zm map is so big compared to korthia", -- [1]
+			"Fuzzwuzz-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Fionara-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1943, -- [11]
-			"Player-1301-09D4F339", -- [12]
+			4178, -- [11]
+			"Player-1301-0BC488D4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaFionara|r",
-			[51] = 1652549511,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfffe7b09Fuzzwuzz|r",
+			[51] = 1653605544,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [90]
 		{
-			"guys thx for games.gtg cya", -- [1]
-			"Santax-ArgentDawn", -- [2]
+			"idk why it's so low on quests", -- [1]
+			"Fuzzwuzz-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Santax-ArgentDawn", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1955, -- [11]
-			"Player-3702-0860C0AC", -- [12]
+			4179, -- [11]
+			"Player-1301-0BC488D4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeSantax-ArgentDawn|r",
-			[51] = 1652549546,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffe7b09Fuzzwuzz|r",
+			[51] = 1653605551,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [91]
 		{
-			"Xy'rath the Covetous 100.00% ~(63.75, 49.28) |cffffff00|Hworldmap:1970:6375:4928|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Skykarp-Outland", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Skykarp-Outland", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			5, -- [11]
-			"Player-1301-0C2CD207", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cSkykarp|r",
-			[51] = 1652552790,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
-		{
-			"Otaris up |cffffff00|Hworldmap:1970:5867:3871|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Theonid-Outland", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Theonid-Outland", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			18, -- [11]
-			"Player-1301-0B7ED14F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Theonid|r",
-			[51] = 1652552899,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:1178:Player-1301-0C309B00:1:5:14:22:4294967295:4294967295:4294967295:4294967295|h[Got My Mind On My Money]|h|r!", -- [1]
-			"Takeu-Outland", -- [2]
+			"well coz korthia is just fart", -- [1]
+			"Misspicklés-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Takeu-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			19, -- [11]
-			"Player-1301-0C309B00", -- [12]
+			4181, -- [11]
+			"Player-1301-0BD2137F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaTakeu|r",
-			[51] = 1652552899,
+			[52] = "|cfffe7b09Misspicklés|r",
+			[51] = 1653605573,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [92]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12313:Player-1301-0C0ACF0C:1:5:27:22:4294967295:4294967295:4294967295:4294967295|h[Unbroken]|h|r!", -- [1]
+			"Saaril-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Saaril-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4199, -- [11]
+			"Player-1301-0C0ACF0C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Saaril|r",
+			[51] = 1653605612,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [93]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12316:Player-1301-0C0ACF0C:1:5:27:22:4294967295:4294967295:4294967295:4294967295|h[Shutout]|h|r!", -- [1]
+			"Saaril-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Saaril-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4200, -- [11]
+			"Player-1301-0C0ACF0C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Saaril|r",
+			[51] = 1653605612,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [94]
 		{
-			"Mother Phestis 100.00% ~(55.15, 33.65) |cffffff00|Hworldmap:1970:5515:3365|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Skykarp-Outland", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:12326:Player-1301-0C0ACF0C:1:5:27:22:4294967295:4294967295:4294967295:4294967295|h[Nerf Engineering]|h|r!", -- [1]
+			"Saaril-Outland", -- [2]
 			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Skykarp-Outland", -- [5]
+			"", -- [4]
+			"Saaril-Outland", -- [5]
 			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			29, -- [11]
-			"Player-1301-0C2CD207", -- [12]
+			4207, -- [11]
+			"Player-1301-0C0ACF0C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cSkykarp|r",
-			[51] = 1652552956,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffc31d39Saaril|r",
+			[51] = 1653605786,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [95]
 		{
-			"yo", -- [1]
-			"Djratslayerx-Thunderhorn", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:12328:Player-1301-0C0ACF0C:1:5:27:22:4294967295:4294967295:4294967295:4294967295|h[Nerf Gravity Bombs]|h|r!", -- [1]
+			"Saaril-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Djratslayerx-Thunderhorn", -- [5]
+			"Saaril-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			58, -- [11]
-			"Player-1313-0BD495A5", -- [12]
+			4208, -- [11]
+			"Player-1301-0C0ACF0C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaDjratslayerx-Thunderhorn|r",
-			[51] = 1652553091,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc31d39Saaril|r",
+			[51] = 1653605786,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [96]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14796:Player-1301-0C305AC0:1:5:14:22:4294967295:4294967295:4294967295:4294967295|h[Superior]|h|r!", -- [1]
-			"Dianaraywolf-Outland", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:12329:Player-1301-0C0ACF0C:1:5:27:22:4294967295:4294967295:4294967295:4294967295|h[Must Deconstruct Faster]|h|r!", -- [1]
+			"Saaril-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Dianaraywolf-Outland", -- [5]
+			"Saaril-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			75, -- [11]
-			"Player-1301-0C305AC0", -- [12]
+			4209, -- [11]
+			"Player-1301-0C0ACF0C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Dianaraywolf|r",
-			[51] = 1652553220,
+			[52] = "|cffc31d39Saaril|r",
+			[51] = 1653605786,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [97]
 		{
-			"anyone up for protector of the first? ", -- [1]
-			"Nooxi-Outland", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Nooxi-Outland", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			95, -- [11]
-			"Player-1301-0C2BE0EB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edNooxi|r",
-			[51] = 1652553376,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:15316:Player-1301-08E9789E:1:5:14:22:4294967295:4294967295:4294967295:4294967295|h[Flawless: Fracture Chambers (Layer 16)]|h|r!", -- [1]
-			"Veltt-Outland", -- [2]
+			"are you guys buying 10.0?", -- [1]
+			"Fuzzwuzz-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Veltt-Outland", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			97, -- [11]
-			"Player-1301-08E9789E", -- [12]
+			4213, -- [11]
+			"Player-1301-0BC488D4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Veltt|r",
-			[51] = 1652553438,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Fuzzwuzz|r",
+			[51] = 1653605830,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [98]
+		{
+			"pre order waiting room", -- [1]
+			"Misspicklés-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4217, -- [11]
+			"Player-1301-0BD2137F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Misspicklés|r",
+			[51] = 1653605853,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/raid |cffffff00|Hworldmap:1970:8340:4875|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-		"/raid |cffffff00|Hworldmap:1970:6441:3087|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [2]
-		"/raid otiosen", -- [3]
-		"/raid mega lag incoming xD", -- [4]
-		"/g we are full group, just need a heal", -- [5]
-		"/p we cant as 3", -- [6]
-		"/p its my cd", -- [7]
-		"/p sure", -- [8]
-		"/p lol", -- [9]
-		"/p 60k dmg", -- [10]
-		"/p from 2 instant chaos bolts", -- [11]
-		"/p couldnt los him, was perma stunned", -- [12]
-		"/p mb", -- [13]
-		"/raid gluttonous overgrowth is up", -- [14]
-		"/raid orixal", -- [15]
-		"/raid shifting stargorger is up", -- [16]
-		"/raid protector of the first ones", -- [17]
-		"/raid get the other rune", -- [18]
-		"/spit", -- [19]
-		"/cw Impregnos-Cho'gall bye", -- [20]
+		"/raid cause of that", -- [1]
+		"/raid tatakae", -- [2]
+		"/raid horde scum", -- [3]
+		"/cw Aeòn-Ahn'Qiraj sure", -- [4]
+		"/cw Aeòn-Ahn'Qiraj what class?", -- [5]
+		"/cw Aeòn-Ahn'Qiraj ok", -- [6]
+		"/cw Koronis-Ahn'Qiraj mb", -- [7]
+		"/cw Koronis-Ahn'Qiraj reapply", -- [8]
+		"/cw Åpril-Aegwynn hey man, the monk Koronis is trying to start rares while the group is not on them", -- [9]
+		"/cw Åpril-Aegwynn i think he is trolling", -- [10]
+		"/cw Åpril-Aegwynn :D", -- [11]
+		"/cw Åpril-Aegwynn you know best, i wouldnt accept him personally", -- [12]
+		"/cw Åpril-Aegwynn xD", -- [13]
+		"/cw Åpril-Aegwynn nice", -- [14]
+		"/raid thanks guys, that was the last for me", -- [15]
+		"/raid gl, cya :D", -- [16]
+		"/raid lets summon pala", -- [17]
+		"/s click", -- [18]
+		"/raid convert to party", -- [19]
+		"/way 23,0, 68,4 (cave entrance)", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }

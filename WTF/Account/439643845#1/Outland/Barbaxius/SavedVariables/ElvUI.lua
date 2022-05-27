@@ -2,622 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"{rt8}A. Harvester{rt8}: 14m 33s-34m 33s (WorldBossTimers:1651333269)", -- [1]
-			"Killmongerka-Arathor", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Killmongerka-Arathor", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			42, -- [11]
-			"Player-1587-0BB61137", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Killmongerka-Arathor|r",
-			[51] = 1651329996,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [1]
-		{
-			"Need help with |cff808080|Hquest:55609:713|h[Operation: Mechagon - The Mechoriginator]|h|r", -- [1]
-			"Kenshex-Silvermoon", -- [2]
-			"", -- [3]
-			"1. General - Mechagon", -- [4]
-			"Kenshex-Silvermoon", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Mechagon", -- [9]
-			0, -- [10]
-			43, -- [11]
-			"Player-3391-0812B6A3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeKenshex-Silvermoon|r",
-			[51] = 1651330091,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"LFM |cff808080|Hquest:55609:713|h[Operation: Mechagon - The Mechoriginator]|h|r", -- [1]
-			"Kenshex-Silvermoon", -- [2]
-			"", -- [3]
-			"1. General - Mechagon", -- [4]
-			"Kenshex-Silvermoon", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Mechagon", -- [9]
-			0, -- [10]
-			45, -- [11]
-			"Player-3391-0812B6A3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeKenshex-Silvermoon|r",
-			[51] = 1651330279,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"<Team> Boosting Key +10 - 20  || Torghast || Level Up  /w for info (only gold)", -- [1]
-			"Yaveh-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Yaveh-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1135, -- [11]
-			"Player-1301-0BCF9138", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcYaveh|r",
-			[51] = 1651419441,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"WTS |cffa335ee|Hitem:44413::::::::60:254::::1:28:872::::Player-1301-0AFA5AF7:|h[Mekgineer's Chopper]|h|r Cheap !", -- [1]
-			"Silentz-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Silentz-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1137, -- [11]
-			"Player-1301-0AFA5AF7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Silentz|r",
-			[51] = 1651419484,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
-		{
-			"gesh il uruk NOGAH MOG RUK'KA'HA", -- [1]
-			"Deadlyaxes-Stormscale", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Deadlyaxes-Stormscale", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			733, -- [11]
-			"Player-2073-0438FEAE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cDeadlyaxes-Stormscale|r",
-			[51] = 1651588473,
-			[50] = "CHAT_MSG_YELL",
-		}, -- [6]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:15053:Player-1301-0C187DD7:1:5:3:22:4294967295:4294967295:4294967295:4294967295|h[Explore Korthia]|h|r!", -- [1]
-			"Adekar-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Adekar-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			734, -- [11]
-			"Player-1301-0C187DD7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edAdekar|r",
-			[51] = 1651588587,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [7]
-		{
-			"Sha Sear on Baaradir", -- [1]
-			"Baaradir-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Baaradir-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			258, -- [11]
-			"Player-1301-07D1C69F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Baaradir|r",
-			[51] = 1651765237,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [8]
-		{
-			"Siegecrafter Blackfuse", -- [1]
-			"Barbaxius-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Barbaxius-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			545, -- [11]
-			"Player-1301-0B0D2B3F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cBarbaxius|r",
-			[51] = 1651766864,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [9]
-		{
-			"Lok'tar Ogar!", -- [1]
-			"Barbaxius-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Barbaxius-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			546, -- [11]
-			"Player-1301-0B0D2B3F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cBarbaxius|r",
-			[51] = 1651766866,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [10]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14493:Player-1301-0C187DD7:1:5:6:22:4294967295:4294967295:4294967295:4294967295|h[The Upper Reaches]|h|r!", -- [1]
-			"Adekar-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Adekar-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			138, -- [11]
-			"Player-1301-0C187DD7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edAdekar|r",
-			[51] = 1651831857,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [11]
-		{
-			"{rt8}A. Harvester{rt8}: 0s-19m 32s (WorldBossTimers:1651834508)", -- [1]
-			"Nagetsu-Pozzodell'Eternità", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Nagetsu-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			140, -- [11]
-			"Player-1309-0AE9B1BD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
-			[51] = 1651832137,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [12]
-		{
-			"{rt8}A. Harvester{rt8}: 0s-14m 47s (WorldBossTimers:1651834508)", -- [1]
-			"Nagetsu-Pozzodell'Eternità", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Nagetsu-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			144, -- [11]
-			"Player-1309-0AE9B1BD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
-			[51] = 1651832421,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [13]
-		{
-			"{rt8}A. Harvester{rt8}: 0s-11m 47s (WorldBossTimers:1651834508)", -- [1]
-			"Nagetsu-Pozzodell'Eternità", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Nagetsu-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			145, -- [11]
-			"Player-1309-0AE9B1BD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
-			[51] = 1651832602,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [14]
-		{
-			"inv plz", -- [1]
-			"Boukitos-Drek'Thar", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Boukitos-Drek'Thar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			110, -- [11]
-			"Player-1122-06BA9EAF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Boukitos-Drek'Thar|r",
-			[51] = 1651839553,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [15]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:1789:Player-1301-0C0EF5CF:1:5:6:22:4294967295:4294967295:4294967295:4294967295|h[Daily Chores]|h|r!", -- [1]
-			"Kitá-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kitá-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			116, -- [11]
-			"Player-1301-0C0EF5CF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaKitá|r",
-			[51] = 1651839571,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [16]
-		{
-			"this game", -- [1]
-			"Boukitos-Drek'Thar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Boukitos-Drek'Thar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			118, -- [11]
-			"Player-1122-06BA9EAF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Boukitos-Drek'Thar|r",
-			[51] = 1651839608,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [17]
-		{
-			"wait", -- [1]
-			"Boukitos-Drek'Thar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Boukitos-Drek'Thar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			126, -- [11]
-			"Player-1122-06BA9EAF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Boukitos-Drek'Thar|r",
-			[51] = 1651839657,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [18]
-		{
-			"it just fully respawned? xD", -- [1]
-			"Boukitos-Drek'Thar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Boukitos-Drek'Thar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			127, -- [11]
-			"Player-1122-06BA9EAF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Boukitos-Drek'Thar|r",
-			[51] = 1651839661,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [19]
-		{
-			"up here", -- [1]
-			"Barbaxius-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Barbaxius-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			144, -- [11]
-			"Player-1301-0B0D2B3F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cBarbaxius|r",
-			[51] = 1651839723,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [20]
-		{
-			"gg", -- [1]
-			"Boukitos-Drek'Thar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Boukitos-Drek'Thar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			148, -- [11]
-			"Player-1122-06BA9EAF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Boukitos-Drek'Thar|r",
-			[51] = 1651839801,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [21]
-		{
-			"ty", -- [1]
-			"Barbaxius-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Barbaxius-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			159, -- [11]
-			"Player-1301-0B0D2B3F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cBarbaxius|r",
-			[51] = 1651839811,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [22]
-		{
-			"fml", -- [1]
-			"Shayooni-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Shayooni-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1905, -- [11]
-			"Player-1301-0C3120E7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Shayooni|r",
-			[51] = 1651861072,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [23]
-		{
-			"Res please?", -- [1]
-			"Shayooni-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Shayooni-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1917, -- [11]
-			"Player-1301-0C3120E7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Shayooni|r",
-			[51] = 1651861114,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [24]
-		{
-			"ty", -- [1]
-			"Shayooni-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Shayooni-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1918, -- [11]
-			"Player-1301-0C3120E7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Shayooni|r",
-			[51] = 1651861130,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [25]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:650:Player-1301-0B0D2B3F:1:5:6:22:4294967295:4294967295:4294967295:4294967295|h[Underbog]|h|r!", -- [1]
-			"Barbaxius-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Barbaxius-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2004, -- [11]
-			"Player-1301-0B0D2B3F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cBarbaxius|r",
-			[51] = 1651861385,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [26]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:670:Player-1301-0B0D2B3F:1:5:6:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Underbog]|h|r!", -- [1]
-			"Barbaxius-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Barbaxius-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2005, -- [11]
-			"Player-1301-0B0D2B3F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cBarbaxius|r",
-			[51] = 1651861385,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [27]
-		{
-			"bruh", -- [1]
-			"Shayooni-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Shayooni-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2029, -- [11]
-			"Player-1301-0C3120E7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Shayooni|r",
-			[51] = 1651861389,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [28]
-		{
 			"keave my ass alone wth", -- [1]
 			"Shayooni-Outland", -- [2]
 			"", -- [3]
@@ -638,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Shayooni|r",
 			[51] = 1651861393,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [29]
+		}, -- [1]
 		{
 			"Rustfeather (141.17k/154.86k 91.16%) 65.73 78.23 |cffffff00|Hworldmap:1462:6572:7822|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Renova-Ravencrest", -- [2]
@@ -660,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRenova-Ravencrest|r",
 			[51] = 1651921094,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
+		}, -- [2]
 		{
 			"Rustfeather died at 13:57 server time!", -- [1]
 			"Renova-Ravencrest", -- [2]
@@ -682,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRenova-Ravencrest|r",
 			[51] = 1651921112,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
+		}, -- [3]
 		{
 			" ruK G Ruk'ka'ha ruK MOg OGg MOg  MAZA'ROTHA ", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
@@ -704,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1651921798,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [32]
+		}, -- [4]
 		{
 			" ruK G Ruk'ka'ha ruK Ka KEk TAr  MAZA'ROTHA ", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
@@ -726,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1651922005,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [33]
+		}, -- [5]
 		{
 			" ruK G Ruk'ka'ha ruK Ka TAr RUk  MAZA'ROTHA ", -- [1]
 			"Râgon-Pozzodell'Eternità", -- [2]
@@ -748,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Râgon-Pozzodell'Eternità|r",
 			[51] = 1651922212,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [34]
+		}, -- [6]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10821:Player-1301-0BBEF71E:1:5:8:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Nythendra]|h|r!", -- [1]
 			"Warhaammerr-Outland", -- [2]
@@ -770,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Warhaammerr|r",
 			[51] = 1652011236,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [35]
+		}, -- [7]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10822:Player-1301-0BBEF71E:1:5:8:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Elerethe Renferal]|h|r!", -- [1]
 			"Warhaammerr-Outland", -- [2]
@@ -792,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Warhaammerr|r",
 			[51] = 1652011476,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [36]
+		}, -- [8]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:668:Player-1301-08287653:1:5:8:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Blood Furnace]|h|r!", -- [1]
 			"Fulmir-Outland", -- [2]
@@ -814,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcFulmir|r",
 			[51] = 1652012306,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [37]
+		}, -- [9]
 		{
 			"Kazum ogg makogg throm  uruk nogu ", -- [1]
 			"Thegame-TwistingNether", -- [2]
@@ -836,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cThegame-TwistingNether|r",
 			[51] = 1652359781,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [38]
+		}, -- [10]
 		{
 			"thok maza ogar tar maka ", -- [1]
 			"Pashabizeps-Ravencrest", -- [2]
@@ -858,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Pashabizeps-Ravencrest|r",
 			[51] = 1652360511,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [39]
+		}, -- [11]
 		{
 			" ", -- [1]
 			"Pashabizeps-Ravencrest", -- [2]
@@ -880,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Pashabizeps-Ravencrest|r",
 			[51] = 1652360512,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [40]
+		}, -- [12]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:974:Player-1301-0BA737FA:1:5:12:22:4294967295:4294967295:4294967295:4294967295|h[50 Daily Quests Completed]|h|r!", -- [1]
 			"Yikés-Outland", -- [2]
@@ -902,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Yikés|r",
 			[51] = 1652360670,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [41]
+		}, -- [13]
 		{
 			"BASED", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -924,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360685,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [42]
+		}, -- [14]
 		{
 			"hotwheels gang", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -946,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360703,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [43]
+		}, -- [15]
 		{
 			"xD", -- [1]
 			"Demonscope-Silvermoon", -- [2]
@@ -968,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
 			[51] = 1652360706,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [44]
+		}, -- [16]
 		{
 			"hahaha", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -990,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360708,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [45]
+		}, -- [17]
 		{
 			"cocg wheel gang", -- [1]
 			"Demonscope-Silvermoon", -- [2]
@@ -1012,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
 			[51] = 1652360734,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [46]
+		}, -- [18]
 		{
 			"spider gang this time???", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -1034,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360744,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [47]
+		}, -- [19]
 		{
 			"well.. this is my 1410 kill of this damn spider so im guessing no time soon", -- [1]
 			"Demonscope-Silvermoon", -- [2]
@@ -1056,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
 			[51] = 1652360769,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [48]
+		}, -- [20]
 		{
 			"wtf?!", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -1078,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360775,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [49]
+		}, -- [21]
 		{
 			"yup", -- [1]
 			"Demonscope-Silvermoon", -- [2]
@@ -1100,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
 			[51] = 1652360779,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [50]
+		}, -- [22]
 		{
 			"are you for real?", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -1122,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360783,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [51]
+		}, -- [23]
 		{
 			"i got wheel at 47 kc", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -1144,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360785,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [52]
+		}, -- [24]
 		{
 			"rarity sasy 333, wowhead is 800+ average, my mate got it on his 4th kill...", -- [1]
 			"Demonscope-Silvermoon", -- [2]
@@ -1166,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
 			[51] = 1652360798,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [53]
+		}, -- [25]
 		{
 			"Bro you're so fcking unlucky wth", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -1188,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360810,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [54]
+		}, -- [26]
 		{
 			"you deserve it ", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -1210,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360812,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [55]
+		}, -- [27]
 		{
 			"i got deatcharger from rivendare or something ", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -1232,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360825,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [56]
+		}, -- [28]
 		{
 			"the spider mount", -- [1]
 			"Demonscope-Silvermoon", -- [2]
@@ -1254,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
 			[51] = 1652360827,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [57]
+		}, -- [29]
 		{
 			"at 21 kc", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -1276,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360827,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [58]
+		}, -- [30]
 		{
 			"i gave it away to my friend tho", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -1298,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360832,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [59]
+		}, -- [31]
 		{
 			"he deserved it", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -1320,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360835,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [60]
+		}, -- [32]
 		{
 			"ouch", -- [1]
 			"Demonscope-Silvermoon", -- [2]
@@ -1342,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
 			[51] = 1652360836,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [61]
+		}, -- [33]
 		{
 			"he was at 1.1k dry", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -1364,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360841,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [62]
+		}, -- [34]
 		{
 			"so yeah", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -1386,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360844,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [63]
+		}, -- [35]
 		{
 			"so u doing it again?", -- [1]
 			"Demonscope-Silvermoon", -- [2]
@@ -1408,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
 			[51] = 1652360851,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [64]
+		}, -- [36]
 		{
 			"ofc! my friend is helping me. we farm \"horse\" everyday ", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -1430,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360867,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [65]
+		}, -- [37]
 		{
 			"1 hour a day", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -1452,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360869,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [66]
+		}, -- [38]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15406:Player-1301-0C0EF5CF:1:5:12:22:4294967295:4294967295:4294967295:4294967295|h[Synthesized!]|h|r!", -- [1]
 			"Kitá-Outland", -- [2]
@@ -1474,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaKitá|r",
 			[51] = 1652360870,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [67]
+		}, -- [39]
 		{
 			"6  years for headless horse mount =)", -- [1]
 			"Jessejade-Wildhammer", -- [2]
@@ -1496,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Jessejade-Wildhammer|r",
 			[51] = 1652360873,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [68]
+		}, -- [40]
 		{
 			"good good ", -- [1]
 			"Demonscope-Silvermoon", -- [2]
@@ -1518,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
 			[51] = 1652360875,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [69]
+		}, -- [41]
 		{
 			"how many kills though?", -- [1]
 			"Demonscope-Silvermoon", -- [2]
@@ -1540,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
 			[51] = 1652360885,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [70]
+		}, -- [42]
 		{
 			"bro mounts in this game", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -1562,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360885,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [71]
+		}, -- [43]
 		{
 			"my reason to live", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -1584,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360887,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [72]
+		}, -- [44]
 		{
 			"ngl", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -1606,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360888,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [73]
+		}, -- [45]
 		{
 			"i got my wheel mount like 3 days ago", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -1628,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360902,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [74]
+		}, -- [46]
 		{
 			"i was so happy", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -1650,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360906,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [75]
+		}, -- [47]
 		{
 			"lucky i never got him =)", -- [1]
 			"Jessejade-Wildhammer", -- [2]
@@ -1672,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Jessejade-Wildhammer|r",
 			[51] = 1652360920,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [76]
+		}, -- [48]
 		{
 			"yeah I think i got the wheel in my 6th go (Rusty)", -- [1]
 			"Demonscope-Silvermoon", -- [2]
@@ -1694,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
 			[51] = 1652360922,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [77]
+		}, -- [49]
 		{
 			"oooo", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -1716,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360928,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [78]
+		}, -- [50]
 		{
 			"I'm about to finish bfa too (reverted) for flying", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -1738,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360942,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [79]
+		}, -- [51]
 		{
 			"u got this achev one? cos it was a pain in the ****", -- [1]
 			"Demonscope-Silvermoon", -- [2]
@@ -1760,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
 			[51] = 1652360942,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [80]
+		}, -- [52]
 		{
 			"nice", -- [1]
 			"Demonscope-Silvermoon", -- [2]
@@ -1782,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
 			[51] = 1652360949,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [81]
+		}, -- [53]
 		{
 			"<RTC> Arachnoid Harvester was last seen ~20 minutes ago", -- [1]
 			"Demonscope-Silvermoon", -- [2]
@@ -1804,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
 			[51] = 1652360976,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [82]
+		}, -- [54]
 		{
 			"{rt8}A. Harvester{rt8}: 0s-18m 18s (WorldBossTimers:1652363276)", -- [1]
 			"Demonscope-Silvermoon", -- [2]
@@ -1826,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
 			[51] = 1652360978,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [83]
+		}, -- [55]
 		{
 			"<RTC> Arachnoid Harvester was last seen ~30 minutes ago", -- [1]
 			"Electroscope-Silvermoon", -- [2]
@@ -1848,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElectroscope-Silvermoon|r",
 			[51] = 1652363062,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [84]
+		}, -- [56]
 		{
 			"{rt8}A. Harvester{rt8}: 0s-9m 55s (WorldBossTimers:1652364858)", -- [1]
 			"Electroscope-Silvermoon", -- [2]
@@ -1870,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElectroscope-Silvermoon|r",
 			[51] = 1652363063,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [85]
+		}, -- [57]
 		{
 			"<RTC> Arachnoid Harvester was last seen ~36 minutes ago", -- [1]
 			"Electroscope-Silvermoon", -- [2]
@@ -1892,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElectroscope-Silvermoon|r",
 			[51] = 1652363418,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [86]
+		}, -- [58]
 		{
 			"{rt8}A. Harvester{rt8}: 0s-3m 58s (WorldBossTimers:1652364858)", -- [1]
 			"Electroscope-Silvermoon", -- [2]
@@ -1914,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElectroscope-Silvermoon|r",
 			[51] = 1652363420,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [87]
+		}, -- [59]
 		{
 			" ruK G Ruk'ka'ha ruK Ka Ag Ha  REGASNOGAH ", -- [1]
 			"Sheeva-Kazzak", -- [2]
@@ -1936,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Sheeva-Kazzak|r",
 			[51] = 1652363469,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [88]
+		}, -- [60]
 		{
 			"looks like its going the full 50 mins, dont go for a piss, its about to spawn", -- [1]
 			"Electroscope-Silvermoon", -- [2]
@@ -1958,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElectroscope-Silvermoon|r",
 			[51] = 1652363501,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [89]
+		}, -- [61]
 		{
 			"40 mins**", -- [1]
 			"Electroscope-Silvermoon", -- [2]
@@ -1980,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElectroscope-Silvermoon|r",
 			[51] = 1652363523,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [90]
+		}, -- [62]
 		{
 			"<RTC> Arachnoid Harvester was last seen ~38 minutes ago", -- [1]
 			"Electroscope-Silvermoon", -- [2]
@@ -2002,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElectroscope-Silvermoon|r",
 			[51] = 1652363539,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [91]
+		}, -- [63]
 		{
 			"{rt8}A. Harvester{rt8}: 0s-1m 57s (WorldBossTimers:1652364858)", -- [1]
 			"Electroscope-Silvermoon", -- [2]
@@ -2024,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElectroscope-Silvermoon|r",
 			[51] = 1652363541,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [92]
+		}, -- [64]
 		{
 			"<RTC> Arachnoid Harvester has died", -- [1]
 			"Electroscope-Silvermoon", -- [2]
@@ -2046,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElectroscope-Silvermoon|r",
 			[51] = 1652363614,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [93]
+		}, -- [65]
 		{
 			"goth'a l ogg mog golar ", -- [1]
 			"Gorefest-Runetotem", -- [2]
@@ -2068,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Gorefest-Runetotem|r",
 			[51] = 1652363614,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [94]
+		}, -- [66]
 		{
 			"{rt8}A. Harvester{rt8}: 19m 30s-39m 30s (WorldBossTimers:1652367185)", -- [1]
 			"Electroscope-Silvermoon", -- [2]
@@ -2090,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElectroscope-Silvermoon|r",
 			[51] = 1652363615,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [95]
+		}, -- [67]
 		{
 			"<RTC> Arachnoid Harvester was last seen ~2 minutes ago", -- [1]
 			"Pallascope-Silvermoon", -- [2]
@@ -2112,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Pallascope-Silvermoon|r",
 			[51] = 1652363706,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [96]
+		}, -- [68]
 		{
 			"{rt8}A. Harvester{rt8}: 17m 57s-37m 57s (WorldBossTimers:1652367185)", -- [1]
 			"Pallascope-Silvermoon", -- [2]
@@ -2134,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Pallascope-Silvermoon|r",
 			[51] = 1652363707,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [97]
+		}, -- [69]
 		{
 			"<RTC> Arachnoid Harvester was last seen ~10 minutes ago", -- [1]
 			"Pallascope-Silvermoon", -- [2]
@@ -2156,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Pallascope-Silvermoon|r",
 			[51] = 1652364208,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [98]
+		}, -- [70]
 		{
 			"{rt8}A. Harvester{rt8}: 9m 36s-29m 36s (WorldBossTimers:1652367185)", -- [1]
 			"Pallascope-Silvermoon", -- [2]
@@ -2178,29 +1562,645 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Pallascope-Silvermoon|r",
 			[51] = 1652364209,
 			[50] = "CHAT_MSG_SAY",
+		}, -- [71]
+		{
+			"{rt4}{rt4} Spots Open for EPIC-BG type (+) in chat {rt4}{rt4}", -- [1]
+			"Fado-Daggerspine", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Oribos", -- [4]
+			"Fado-Daggerspine", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Oribos", -- [9]
+			0, -- [10]
+			16060, -- [11]
+			"Player-1598-062E64EB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Fado-Daggerspine|r",
+			[51] = 1652964077,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [72]
+		{
+			"Wartusk up", -- [1]
+			"Villtón-Outland", -- [2]
+			"", -- [3]
+			"1. General - Maldraxxus", -- [4]
+			"Villtón-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Maldraxxus", -- [9]
+			0, -- [10]
+			16086, -- [11]
+			"Player-1301-09F8A5E0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Villtón|r",
+			[51] = 1652964779,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [73]
+		{
+			"iooo", -- [1]
+			"Iî-Sylvanas", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Iî-Sylvanas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			1587, -- [11]
+			"Player-1597-0E8ECC84", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Iî-Sylvanas|r",
+			[51] = 1653593227,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [74]
+		{
+			"how do you make so much money for that mount?", -- [1]
+			"Iî-Sylvanas", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Iî-Sylvanas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			1590, -- [11]
+			"Player-1597-0E8ECC84", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Iî-Sylvanas|r",
+			[51] = 1653593236,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [75]
+		{
+			"KA", -- [1]
+			"Shallows-Stormscale", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Shallows-Stormscale", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			1591, -- [11]
+			"Player-2073-06EE636A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Shallows-Stormscale|r",
+			[51] = 1653593243,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [76]
+		{
+			"G", -- [1]
+			"Shallows-Stormscale", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Shallows-Stormscale", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			1592, -- [11]
+			"Player-2073-06EE636A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Shallows-Stormscale|r",
+			[51] = 1653593246,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [77]
+		{
+			"N", -- [1]
+			"Shallows-Stormscale", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Shallows-Stormscale", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			1593, -- [11]
+			"Player-2073-06EE636A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Shallows-Stormscale|r",
+			[51] = 1653593247,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [78]
+		{
+			"L", -- [1]
+			"Shallows-Stormscale", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Shallows-Stormscale", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			1594, -- [11]
+			"Player-2073-06EE636A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Shallows-Stormscale|r",
+			[51] = 1653593249,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [79]
+		{
+			"A", -- [1]
+			"Shallows-Stormscale", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Shallows-Stormscale", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			1596, -- [11]
+			"Player-2073-06EE636A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Shallows-Stormscale|r",
+			[51] = 1653593252,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [80]
+		{
+			"says something unintelligible.", -- [1]
+			"Shallows-Stormscale", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Shallows-Stormscale", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			1601, -- [11]
+			"Player-2073-06EE636A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Shallows-Stormscale|r",
+			[51] = 1653593262,
+			[50] = "CHAT_MSG_EMOTE",
+		}, -- [81]
+		{
+			"IL", -- [1]
+			"Lillunkan-TwistingNether", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Lillunkan-TwistingNether", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			1602, -- [11]
+			"Player-3674-0A1E1D37", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaLillunkan-TwistingNether|r",
+			[51] = 1653593265,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [82]
+		{
+			"makogg", -- [1]
+			"Shallows-Stormscale", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Shallows-Stormscale", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			1603, -- [11]
+			"Player-2073-06EE636A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Shallows-Stormscale|r",
+			[51] = 1653593267,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [83]
+		{
+			"hi", -- [1]
+			"Whet-C'Thun", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Whet-C'Thun", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1608, -- [11]
+			"Player-1378-0A396708", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcWhet-C'Thun|r",
+			[51] = 1653593347,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [84]
+		{
+			"hi", -- [1]
+			"Jilly-DunModr", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Jilly-DunModr", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1609, -- [11]
+			"Player-1378-0AB46ACD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Jilly-DunModr|r",
+			[51] = 1653593352,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [85]
+		{
+			"hey", -- [1]
+			"Gorgontd-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Gorgontd-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1610, -- [11]
+			"Player-1301-0892251D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edGorgontd|r",
+			[51] = 1653593364,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [86]
+		{
+			"o/", -- [1]
+			"Baaradir-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Baaradir-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1611, -- [11]
+			"Player-1301-07D1C69F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Baaradir|r",
+			[51] = 1653593364,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [87]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:15513:Player-1301-0A46735A:1:5:26:22:4294967295:4294967295:4294967295:4294967295|h[Curious Collections]|h|r!", -- [1]
+			"Phòbia-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phòbia-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1612, -- [11]
+			"Player-1301-0A46735A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Phòbia|r",
+			[51] = 1653593397,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [88]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:1297:Player-1301-0B0D2B3F:1:5:26:22:4294967295:4294967295:4294967295:4294967295|h[Hadronox Denied]|h|r!", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1626, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1653593523,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [89]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:1860:Player-1301-0B0D2B3F:1:5:26:22:4294967295:4294967295:4294967295:4294967295|h[Gotta Go!]|h|r!", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1682, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1653593824,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [90]
+		{
+			"Rocket League is amazing to watch and only gets more impressive when you try do it yourself", -- [1]
+			"Hexen-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hexen-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1702, -- [11]
+			"Player-1301-0B9A503B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Hexen|r",
+			[51] = 1653593854,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [91]
+		{
+			"chau", -- [1]
+			"Whet-C'Thun", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Whet-C'Thun", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1705, -- [11]
+			"Player-1378-0A396708", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcWhet-C'Thun|r",
+			[51] = 1653593858,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [92]
+		{
+			"e sports are not real sports", -- [1]
+			"Icexx-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Icexx-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1707, -- [11]
+			"Player-1301-0B817EC9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaIcexx|r",
+			[51] = 1653593861,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"its just sitting", -- [1]
+			"Icexx-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Icexx-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1708, -- [11]
+			"Player-1301-0B817EC9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaIcexx|r",
+			[51] = 1653593864,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"^ ", -- [1]
+			"Vten-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vten-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1713, -- [11]
+			"Player-1301-07AA828E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Vten|r",
+			[51] = 1653593869,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"Sure", -- [1]
+			"Hexen-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hexen-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1715, -- [11]
+			"Player-1301-0B9A503B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Hexen|r",
+			[51] = 1653593871,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"so you're saying only fatmen support it", -- [1]
+			"Vten-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vten-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1718, -- [11]
+			"Player-1301-07AA828E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Vten|r",
+			[51] = 1653593884,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"But thats TV and Videogames too", -- [1]
+			"Hexen-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hexen-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1719, -- [11]
+			"Player-1301-0B9A503B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Hexen|r",
+			[51] = 1653593884,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"So is rowing", -- [1]
+			"Galaord-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Galaord-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1720, -- [11]
+			"Player-1301-0C2551AF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edGalaord|r",
+			[51] = 1653593885,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/who", -- [1]
-		"/1 Famu up", -- [2]
-		"/i kite him", -- [3]
-		"/reload", -- [4]
-		"/cw Tecknitik-Wildhammer it can drop a rare mount", -- [5]
-		"/cw Venaxus-Wildhammer can i have it plz?", -- [6]
-		"/1 Konthrogz up", -- [7]
-		"/i i cant taunt him here", -- [8]
-		"/cw Tecknitik-Wildhammer i usually wait around 20-30min in worst case scenarios", -- [9]
-		"/raid omw", -- [10]
-		"/cw Tecknitik-Wildhammer hi, its a rate called Arachnoid Harvester", -- [11]
-		"/cw Cannabizy-Silvermoon can i have it plz?", -- [12]
-		"/i lol", -- [13]
-		"/inv Baaradir", -- [14]
-		"/inv Fionara", -- [15]
-		"/train", -- [16]
-		"/cat", -- [17]
-		"/cw Boukitos-Drek'Thar inv plz", -- [18]
-		"/p up here", -- [19]
-		"/p ty", -- [20]
+		"/1 Famu up", -- [1]
+		"/i kite him", -- [2]
+		"/reload", -- [3]
+		"/cw Tecknitik-Wildhammer it can drop a rare mount", -- [4]
+		"/cw Venaxus-Wildhammer can i have it plz?", -- [5]
+		"/1 Konthrogz up", -- [6]
+		"/i i cant taunt him here", -- [7]
+		"/cw Tecknitik-Wildhammer i usually wait around 20-30min in worst case scenarios", -- [8]
+		"/raid omw", -- [9]
+		"/cw Tecknitik-Wildhammer hi, its a rate called Arachnoid Harvester", -- [10]
+		"/cw Cannabizy-Silvermoon can i have it plz?", -- [11]
+		"/i lol", -- [12]
+		"/inv Baaradir", -- [13]
+		"/inv Fionara", -- [14]
+		"/train", -- [15]
+		"/cat", -- [16]
+		"/cw Boukitos-Drek'Thar inv plz", -- [17]
+		"/p up here", -- [18]
+		"/p ty", -- [19]
+		"/wave", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }

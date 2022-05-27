@@ -2,270 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"and here", -- [1]
-			"Zazbaz-Auchindoun", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Zazbaz-Auchindoun", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			165, -- [11]
-			"Player-1597-09AA648D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
-			[51] = 1650354960,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [1]
-		{
-			"its mine", -- [1]
-			"Nagetsu-Pozzodell'Eternità", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Nagetsu-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			166, -- [11]
-			"Player-1309-0AE9B1BD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
-			[51] = 1650354974,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [2]
-		{
-			"the ''priviledge'' faction is here", -- [1]
-			"Zazbaz-Auchindoun", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Zazbaz-Auchindoun", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			167, -- [11]
-			"Player-1597-09AA648D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
-			[51] = 1650354974,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [3]
-		{
-			"i eat after kill", -- [1]
-			"Nagetsu-Pozzodell'Eternità", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Nagetsu-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			168, -- [11]
-			"Player-1309-0AE9B1BD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
-			[51] = 1650354978,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [4]
-		{
-			"blblblbl", -- [1]
-			"Nagetsu-Pozzodell'Eternità", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Nagetsu-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			169, -- [11]
-			"Player-1309-0AE9B1BD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
-			[51] = 1650354980,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [5]
-		{
-			"the plot armor faction is here", -- [1]
-			"Zazbaz-Auchindoun", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Zazbaz-Auchindoun", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			170, -- [11]
-			"Player-1597-09AA648D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
-			[51] = 1650354981,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [6]
-		{
-			"plof", -- [1]
-			"Nagetsu-Pozzodell'Eternità", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Nagetsu-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			171, -- [11]
-			"Player-1309-0AE9B1BD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
-			[51] = 1650354987,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [7]
-		{
-			"mm my stomach", -- [1]
-			"Nagetsu-Pozzodell'Eternità", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Nagetsu-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			172, -- [11]
-			"Player-1309-0AE9B1BD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
-			[51] = 1650354995,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [8]
-		{
-			"anyone want a beer? ", -- [1]
-			"Nagetsu-Pozzodell'Eternità", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Nagetsu-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			173, -- [11]
-			"Player-1309-0AE9B1BD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
-			[51] = 1650355010,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [9]
-		{
-			"Sure my good man", -- [1]
-			"Zazbaz-Auchindoun", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Zazbaz-Auchindoun", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			174, -- [11]
-			"Player-1597-09AA648D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
-			[51] = 1650355020,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [10]
-		{
-			"ogar kaz gi zil'nok ", -- [1]
-			"Hekali-Ragnaros", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Hekali-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			175, -- [11]
-			"Player-3682-0ADEE29C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cHekali-Ragnaros|r",
-			[51] = 1650355022,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [11]
-		{
-			"SHUT THE FUCK UP !", -- [1]
-			"Zazbaz-Auchindoun", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Zazbaz-Auchindoun", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			176, -- [11]
-			"Player-1597-09AA648D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
-			[51] = 1650355029,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [12]
-		{
 			"Please continue my good man", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
 			"Common", -- [3]
@@ -286,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355040,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [13]
+		}, -- [1]
 		{
 			"limp bizkit rocking the set", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -308,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650355041,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [14]
+		}, -- [2]
 		{
 			"XD", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -330,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355048,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [15]
+		}, -- [3]
 		{
 			"its like a russian roulette where u place u bet", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -352,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650355073,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [16]
+		}, -- [4]
 		{
 			"Can someone pull up an auction house dinosaur ? ", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -374,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355082,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [17]
+		}, -- [5]
 		{
 			"if i have.. sad", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -396,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650355093,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [18]
+		}, -- [6]
 		{
 			"Talking to the rich people ofcourse", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -418,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355097,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [19]
+		}, -- [7]
 		{
 			"lul", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -440,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650355107,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [20]
+		}, -- [8]
 		{
 			"Hey", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -462,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355123,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [21]
+		}, -- [9]
 		{
 			"my dude that is running", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -484,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355132,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [22]
+		}, -- [10]
 		{
 			"dude", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -506,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355135,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [23]
+		}, -- [11]
 		{
 			"Come here", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -528,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355140,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [24]
+		}, -- [12]
 		{
 			"Pls transmog yourself", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -550,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355147,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [25]
+		}, -- [13]
 		{
 			"hi", -- [1]
 			"Tomyrris-Silvermoon", -- [2]
@@ -572,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaTomyrris-Silvermoon|r",
 			[51] = 1650355154,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [26]
+		}, -- [14]
 		{
 			"shadowlands armor is cringe", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -594,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355157,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [27]
+		}, -- [15]
 		{
 			"sure", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -616,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650355164,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [28]
+		}, -- [16]
 		{
 			"nice", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -638,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355171,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [29]
+		}, -- [17]
 		{
 			"id like zereth trasmo", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -660,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650355173,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [30]
+		}, -- [18]
 		{
 			"for nothing", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -682,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650355176,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [31]
+		}, -- [19]
 		{
 			"Absolute chad", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -704,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355179,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [32]
+		}, -- [20]
 		{
 			"prefeeer last patch", -- [1]
 			"Nagetsu-Pozzodell'Eternità", -- [2]
@@ -726,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Nagetsu-Pozzodell'Eternità|r",
 			[51] = 1650355182,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [33]
+		}, -- [21]
 		{
 			"zereth is the ''atheist delight'' zone", -- [1]
 			"Zazbaz-Auchindoun", -- [2]
@@ -748,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zazbaz-Auchindoun|r",
 			[51] = 1650355188,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [34]
+		}, -- [22]
 		{
 			"LFM Operation Mechagon ", -- [1]
 			"Hundige-Outland", -- [2]
@@ -770,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Hundige|r",
 			[51] = 1650356519,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
+		}, -- [23]
 		{
 			"14 m", -- [1]
 			"Esplide-Nemesis", -- [2]
@@ -792,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Esplide-Nemesis|r",
 			[51] = 1650356928,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [36]
+		}, -- [24]
 		{
 			"20 s", -- [1]
 			"Esplide-Nemesis", -- [2]
@@ -814,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Esplide-Nemesis|r",
 			[51] = 1650357755,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [37]
+		}, -- [25]
 		{
 			"{rt8}A. Harvester{rt8}: 19m 50s-39m 50s (WorldBossTimers:1650361375)", -- [1]
 			"Esplide-Nemesis", -- [2]
@@ -836,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Esplide-Nemesis|r",
 			[51] = 1650357784,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [38]
+		}, -- [26]
 		{
 			"Rustfeather (262.00k/282.40k 92.78%) 65.48 78.33 |cffffff00|Hworldmap:1462:6547:7832|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Renova-Ravencrest", -- [2]
@@ -858,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRenova-Ravencrest|r",
 			[51] = 1650996764,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
+		}, -- [27]
 		{
 			"Rustfeather died at 21:12 server time!", -- [1]
 			"Renova-Ravencrest", -- [2]
@@ -880,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRenova-Ravencrest|r",
 			[51] = 1650996780,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
+		}, -- [28]
 		{
 			"wtb plate legendary ", -- [1]
 			"Immortallcé-Outland", -- [2]
@@ -902,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Immortallcé|r",
 			[51] = 1651012701,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
+		}, -- [29]
 		{
 			"lol", -- [1]
 			"Cornsnacker-Outland", -- [2]
@@ -924,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Cornsnacker|r",
 			[51] = 1651012732,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
+		}, -- [30]
 		{
 			"<Team> Boosting Key +10 - 20  || Torghast || Level Up  /w for info (only gold)", -- [1]
 			"Yaveh-Outland", -- [2]
@@ -946,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcYaveh|r",
 			[51] = 1651013067,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
+		}, -- [31]
 		{
 			"WTS |cff1eff00|Hitem:24585::::::::46:64:::1:1708::::::|h[Outlander's Facewrap of the Aurora]|h|r /w me", -- [1]
 			"Ragedmage-Outland", -- [2]
@@ -968,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaRagedmage|r",
 			[51] = 1651122190,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
+		}, -- [32]
 		{
 			"Crazed trogg green", -- [1]
 			"Mkenzie-Silvermoon", -- [2]
@@ -990,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Mkenzie-Silvermoon|r",
 			[51] = 1651833218,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [33]
 		{
 			"cmere ill paint u", -- [1]
 			"Mkenzie-Silvermoon", -- [2]
@@ -1012,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Mkenzie-Silvermoon|r",
 			[51] = 1651833222,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
+		}, -- [34]
 		{
 			"gone?", -- [1]
 			"Mimimi-Nemesis", -- [2]
@@ -1034,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Mimimi-Nemesis|r",
 			[51] = 1651833417,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
+		}, -- [35]
 		{
 			"|cffffff00|Hworldmap:1462:8863:2169|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Localizzazione del punto sulla mappa]|h|r Mecha spider up", -- [1]
 			"Mimimi-Nemesis", -- [2]
@@ -1056,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Mimimi-Nemesis|r",
 			[51] = 1651833598,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [36]
 		{
 			"anyone around? can't solo it", -- [1]
 			"Mimimi-Nemesis", -- [2]
@@ -1078,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Mimimi-Nemesis|r",
 			[51] = 1651833888,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+		}, -- [37]
 		{
 			"who", -- [1]
 			"Falt-Nemesis", -- [2]
@@ -1100,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Falt-Nemesis|r",
 			[51] = 1651833894,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
+		}, -- [38]
 		{
 			"mecharantula", -- [1]
 			"Mimimi-Nemesis", -- [2]
@@ -1122,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Mimimi-Nemesis|r",
 			[51] = 1651833921,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
+		}, -- [39]
 		{
 			"|cffffff00|Hworldmap:1462:8863:2169|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Localizzazione del punto sulla mappa]|h|r", -- [1]
 			"Mimimi-Nemesis", -- [2]
@@ -1144,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Mimimi-Nemesis|r",
 			[51] = 1651833932,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [40]
 		{
 			"ok someone came, nvm", -- [1]
 			"Mimimi-Nemesis", -- [2]
@@ -1166,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Mimimi-Nemesis|r",
 			[51] = 1651833995,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [41]
 		{
 			"anyone have world boss timer :)", -- [1]
 			"Olsengang-Silvermoon", -- [2]
@@ -1188,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Olsengang-Silvermoon|r",
 			[51] = 1651834534,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [54]
+		}, -- [42]
 		{
 			"Less than 10 minutes to spawn I believe", -- [1]
 			"Cerane-Silvermoon", -- [2]
@@ -1210,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Cerane-Silvermoon|r",
 			[51] = 1651834558,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [55]
+		}, -- [43]
 		{
 			"ok ty", -- [1]
 			"Olsengang-Silvermoon", -- [2]
@@ -1232,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Olsengang-Silvermoon|r",
 			[51] = 1651834570,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [56]
+		}, -- [44]
 		{
 			"{rt8}A. Harvester{rt8}: 0s-8m 1s (WorldBossTimers:1651836265)", -- [1]
 			"Juuzou-Silvermoon", -- [2]
@@ -1254,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Juuzou-Silvermoon|r",
 			[51] = 1651834585,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [57]
+		}, -- [45]
 		{
 			"inv pls", -- [1]
 			"Zubrówkaa-AzjolNerub", -- [2]
@@ -1276,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cZubrówkaa-AzjolNerub|r",
 			[51] = 1651840322,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [58]
+		}, -- [46]
 		{
 			"how many more can't see the quest", -- [1]
 			"Zubrówkaa-AzjolNerub", -- [2]
@@ -1298,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cZubrówkaa-AzjolNerub|r",
 			[51] = 1651840712,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [59]
+		}, -- [47]
 		{
 			"same", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -1320,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1651840716,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [60]
+		}, -- [48]
 		{
 			"no idea", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -1342,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1651840719,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [61]
+		}, -- [49]
 		{
 			"hi", -- [1]
 			"Xénny-Ysondre", -- [2]
@@ -1364,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xénny-Ysondre|r",
 			[51] = 1651840731,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [62]
+		}, -- [50]
 		{
 			"yo", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -1386,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1651840734,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [63]
+		}, -- [51]
 		{
 			"how many is it?", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -1408,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1651840907,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [64]
+		}, -- [52]
 		{
 			"they respawn fast", -- [1]
 			"Xénny-Ysondre", -- [2]
@@ -1430,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xénny-Ysondre|r",
 			[51] = 1651840912,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [65]
+		}, -- [53]
 		{
 			"do you see the quest?", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -1452,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1651840920,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [66]
+		}, -- [54]
 		{
 			"cause im on an alt and dont see it", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -1474,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1651840925,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [67]
+		}, -- [55]
 		{
 			"do we need someone who can actually see it or what?", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -1496,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1651841028,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [68]
+		}, -- [56]
 		{
 			"im pretty sure this needs 6 packs", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -1518,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1651841034,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [69]
+		}, -- [57]
 		{
 			"i'm on alt to", -- [1]
 			"Zubrówkaa-AzjolNerub", -- [2]
@@ -1540,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cZubrówkaa-AzjolNerub|r",
 			[51] = 1651841036,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [70]
+		}, -- [58]
 		{
 			"we've done way more", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -1562,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1651841037,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [71]
+		}, -- [59]
 		{
 			"no", -- [1]
 			"Xénny-Ysondre", -- [2]
@@ -1584,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xénny-Ysondre|r",
 			[51] = 1651841041,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [72]
+		}, -- [60]
 		{
 			"just need to kill quickly", -- [1]
 			"Xénny-Ysondre", -- [2]
@@ -1606,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xénny-Ysondre|r",
 			[51] = 1651841046,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [73]
+		}, -- [61]
 		{
 			"or maybe it's bugged", -- [1]
 			"Xénny-Ysondre", -- [2]
@@ -1628,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xénny-Ysondre|r",
 			[51] = 1651841072,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [74]
+		}, -- [62]
 		{
 			"i just did it on 3 other alts", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -1650,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1651841084,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [75]
+		}, -- [63]
 		{
 			"it was ok", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -1672,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1651841086,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [76]
+		}, -- [64]
 		{
 			"weird", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -1694,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1651841088,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [77]
+		}, -- [65]
 		{
 			"respawn rate too quick", -- [1]
 			"Xénny-Ysondre", -- [2]
@@ -1716,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xénny-Ysondre|r",
 			[51] = 1651841138,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [78]
+		}, -- [66]
 		{
 			"aha", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -1738,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1651841144,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [79]
+		}, -- [67]
 		{
 			"can't do it solo", -- [1]
 			"Xénny-Ysondre", -- [2]
@@ -1760,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xénny-Ysondre|r",
 			[51] = 1651841145,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [80]
+		}, -- [68]
 		{
 			"we gotta do it in 1 cycle?", -- [1]
 			"Shadroxia-Outland", -- [2]
@@ -1782,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Shadroxia|r",
 			[51] = 1651841148,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [81]
+		}, -- [69]
 		{
 			"with some of my alts", -- [1]
 			"Xénny-Ysondre", -- [2]
@@ -1804,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Xénny-Ysondre|r",
 			[51] = 1651841149,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [82]
+		}, -- [70]
 		{
 			"can someone help me run through |cff808080|Hquest:55609:713|h[Operation: Mechagon - The Mechoriginator]|h|r?", -- [1]
 			"Fearthepets-Silvermoon", -- [2]
@@ -1826,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Fearthepets-Silvermoon|r",
 			[51] = 1651930105,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [71]
 		{
 			"any rare going down soon?", -- [1]
 			"Enkêza-GrimBatol", -- [2]
@@ -1848,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Enkêza-GrimBatol|r",
 			[51] = 1651930575,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [72]
 		{
 			"can someone help me run through |cff808080|Hquest:55609:713|h[Operation: Mechagon - The Mechoriginator]|h|r?", -- [1]
 			"Fearthepets-Silvermoon", -- [2]
@@ -1870,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Fearthepets-Silvermoon|r",
 			[51] = 1651930609,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [73]
 		{
 			"Gul'rok ha kil'azi ko raznos ", -- [1]
 			"Panelia-Kazzak", -- [2]
@@ -1892,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Panelia-Kazzak|r",
 			[51] = 1651930740,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [86]
+		}, -- [74]
 		{
 			"Gul'rok ha kil'azi Gul'rok", -- [1]
 			"Panelia-Kazzak", -- [2]
@@ -1914,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Panelia-Kazzak|r",
 			[51] = 1651930757,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [87]
+		}, -- [75]
 		{
 			"revash zaga mog kazum magan ", -- [1]
 			"Vizualize-Kazzak", -- [2]
@@ -1936,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cVizualize-Kazzak|r",
 			[51] = 1651931260,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [88]
+		}, -- [76]
 		{
 			"zaga zugas", -- [1]
 			"Daevok-Boulderfist", -- [2]
@@ -1958,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDaevok-Boulderfist|r",
 			[51] = 1651931265,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [89]
+		}, -- [77]
 		{
 			"rusfeather or the spider is next spawn?", -- [1]
 			"Scyper-Arathor", -- [2]
@@ -1980,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaScyper-Arathor|r",
 			[51] = 1652013295,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [78]
 		{
 			"An illusion! What are you hiding?", -- [1]
 			"Pram-Ragnaros", -- [2]
@@ -2002,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Pram-Ragnaros|r",
 			[51] = 1652364475,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [91]
+		}, -- [79]
 		{
 			"rec rig up", -- [1]
 			"Valkaya-Ravencrest", -- [2]
@@ -2024,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaValkaya-Ravencrest|r",
 			[51] = 1652364599,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [80]
 		{
 			"Does anybody have a timer?", -- [1]
 			"Killerdwarfi-Nagrand", -- [2]
@@ -2046,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edKillerdwarfi-Nagrand|r",
 			[51] = 1652365033,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [93]
+		}, -- [81]
 		{
 			"<RTC> Arachnoid Harvester was last seen ~24 minutes ago", -- [1]
 			"Pallascope-Silvermoon", -- [2]
@@ -2068,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Pallascope-Silvermoon|r",
 			[51] = 1652365078,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [94]
+		}, -- [82]
 		{
 			"{rt8}A. Harvester{rt8}: 0s-15m 6s (WorldBossTimers:1652367185)", -- [1]
 			"Pallascope-Silvermoon", -- [2]
@@ -2090,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Pallascope-Silvermoon|r",
 			[51] = 1652365079,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [95]
+		}, -- [83]
 		{
 			"Thank you", -- [1]
 			"Killerdwarfi-Nagrand", -- [2]
@@ -2112,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edKillerdwarfi-Nagrand|r",
 			[51] = 1652365087,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [96]
+		}, -- [84]
 		{
 			"nps", -- [1]
 			"Pallascope-Silvermoon", -- [2]
@@ -2134,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Pallascope-Silvermoon|r",
 			[51] = 1652365090,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [97]
+		}, -- [85]
 		{
 			"now xD", -- [1]
 			"Pallascope-Silvermoon", -- [2]
@@ -2156,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Pallascope-Silvermoon|r",
 			[51] = 1652365119,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [98]
+		}, -- [86]
 		{
 			"hehe", -- [1]
 			"Killerdwarfi-Nagrand", -- [2]
@@ -2178,29 +1914,293 @@ ElvCharacterDB = {
 			[52] = "|cff8687edKillerdwarfi-Nagrand|r",
 			[51] = 1652365121,
 			[50] = "CHAT_MSG_SAY",
+		}, -- [87]
+		{
+			"Private team With 3K io players, Selling M+  13-20 > (Fair price) (ONLY GOLD)(FREE LEATHER MAIL PLATE STACK) (share loot) Buy 5x runs and get a good discount. Smooth Quick runs big discount for KSM/KSH", -- [1]
+			"Mikäsa-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Mikäsa-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			780, -- [11]
+			"Player-1301-0C1CC9C4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Mikäsa|r",
+			[51] = 1652721261,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [88]
+		{
+			"NO GI", -- [1]
+			"Lauranne-Aggramar", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Lauranne-Aggramar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			2052, -- [11]
+			"Player-1325-03C0CDEA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaLauranne-Aggramar|r",
+			[51] = 1653156006,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [89]
+		{
+			"Could you please share WorldBossTimers kill data?", -- [1]
+			"Premenstral-Sylvanas", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Premenstral-Sylvanas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			154, -- [11]
+			"Player-1597-0CEB389E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaPremenstral-Sylvanas|r",
+			[51] = 1653392111,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [90]
+		{
+			"|cffffff00|Hworldmap:1961:4283:5993|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Shadroxia-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Shadroxia-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4225, -- [11]
+			"Player-1301-0B005465", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Shadroxia|r",
+			[51] = 1653605947,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [91]
+		{
+			"Picked Up: Necrolord Assault", -- [1]
+			"Fredemann-Alonsus", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fredemann-Alonsus", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4254, -- [11]
+			"Player-1082-07C96588", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Fredemann-Alonsus|r",
+			[51] = 1653609522,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [92]
+		{
+			"Picked Up: Orrholyn, Lord of Bloodletting", -- [1]
+			"Fredemann-Alonsus", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fredemann-Alonsus", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4258, -- [11]
+			"Player-1082-07C96588", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Fredemann-Alonsus|r",
+			[51] = 1653609731,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [93]
+		{
+			"Removed: Orrholyn, Lord of Bloodletting", -- [1]
+			"Fredemann-Alonsus", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fredemann-Alonsus", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4259, -- [11]
+			"Player-1082-07C96588", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Fredemann-Alonsus|r",
+			[51] = 1653609738,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [94]
+		{
+			"2min to goooo", -- [1]
+			"Chrisa-Madmortem", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Chrisa-Madmortem", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4268, -- [11]
+			"Player-3696-047CFBD2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Chrisa-Madmortem|r",
+			[51] = 1653609834,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [95]
+		{
+			"5% Jailer's efforts subdued (5%)", -- [1]
+			"Fredemann-Alonsus", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fredemann-Alonsus", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4297, -- [11]
+			"Player-1082-07C96588", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Fredemann-Alonsus|r",
+			[51] = 1653610134,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [96]
+		{
+			"Picked Up: Phantasmagoria", -- [1]
+			"Fredemann-Alonsus", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fredemann-Alonsus", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4330, -- [11]
+			"Player-1082-07C96588", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Fredemann-Alonsus|r",
+			[51] = 1653610145,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [97]
+		{
+			"ty", -- [1]
+			"Merida-Saurfang", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Merida-Saurfang", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			4331, -- [11]
+			"Player-633-0A4BE4B2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Merida-Saurfang|r",
+			[51] = 1653610145,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [98]
+		{
+			"ty", -- [1]
+			"Loknimin-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Loknimin-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4336, -- [11]
+			"Player-3702-09586ABC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Loknimin-ArgentDawn|r",
+			[51] = 1653610156,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/1 need someone to activate it", -- [1]
-		"/who", -- [2]
-		"/p too late xD", -- [3]
-		"/s can you activate it?", -- [4]
-		"like 8-9", -- [5]
-		"/cw Boukitos-Drek'Thar inv plz", -- [6]
-		"/p same", -- [7]
-		"/p no idea", -- [8]
-		"/p yo", -- [9]
-		"/p how many is it?", -- [10]
-		"/p do you see the quest?", -- [11]
-		"/p cause im on an alt and dont see it", -- [12]
-		"/p do we need someone who can actually see it or what?", -- [13]
-		"/p im pretty sure this needs 6 packs", -- [14]
-		"/p we've done way more", -- [15]
-		"/p i just did it on 3 other alts", -- [16]
-		"/p it was ok", -- [17]
-		"/p weird", -- [18]
-		"/p aha", -- [19]
-		"/p we gotta do it in 1 cycle?", -- [20]
+		"/p too late xD", -- [1]
+		"/s can you activate it?", -- [2]
+		"like 8-9", -- [3]
+		"/cw Boukitos-Drek'Thar inv plz", -- [4]
+		"/p same", -- [5]
+		"/p no idea", -- [6]
+		"/p yo", -- [7]
+		"/p how many is it?", -- [8]
+		"/p do you see the quest?", -- [9]
+		"/p cause im on an alt and dont see it", -- [10]
+		"/p do we need someone who can actually see it or what?", -- [11]
+		"/p im pretty sure this needs 6 packs", -- [12]
+		"/p we've done way more", -- [13]
+		"/p i just did it on 3 other alts", -- [14]
+		"/p it was ok", -- [15]
+		"/p weird", -- [16]
+		"/p aha", -- [17]
+		"/p we gotta do it in 1 cycle?", -- [18]
+		"/p |cffffff00|Hworldmap:1961:4283:5993|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [19]
+		"/playtime", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }
