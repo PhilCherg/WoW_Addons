@@ -1,6 +1,7 @@
 # <DBM> Icecrown Citadel
 
-## [r304](https://github.com/DeadlyBossMods/DBM-WotLK/tree/r304) (2022-01-16)
-[Full Changelog](https://github.com/DeadlyBossMods/DBM-WotLK/compare/r303...r304) [Previous Releases](https://github.com/DeadlyBossMods/DBM-WotLK/releases)
+## [r306](https://github.com/DeadlyBossMods/DBM-WotLK/tree/r306) (2022-05-17)
+[Full Changelog](https://github.com/DeadlyBossMods/DBM-WotLK/compare/r305...r306) [Previous Releases](https://github.com/DeadlyBossMods/DBM-WotLK/releases)
 
-- Fix DBM\_CORE\_L -> DBM\_COMMON\_L  
+- Rename Icon auto local globals  
+- update icon method  

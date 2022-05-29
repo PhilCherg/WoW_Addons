@@ -1,3 +1,6 @@
+05/22/2022 version 4.11.23
+- Added wago and curse project IDs to toc
+
 05/12/2022 version 4.11.22
 - Fix to make wowup recognize the wowinterface provider. (May require a rescan of folders in wowup)
 

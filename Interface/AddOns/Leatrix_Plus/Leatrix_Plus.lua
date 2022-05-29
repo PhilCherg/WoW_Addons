@@ -1,5 +1,5 @@
 ﻿----------------------------------------------------------------------
--- 	Leatrix Plus 9.2.10 (12th May 2022)
+-- 	Leatrix Plus 9.2.12 (25th May 2022)
 ----------------------------------------------------------------------
 
 --	01:Functions	20:Live			50:RunOnce		70:Logout			
@@ -20,7 +20,7 @@
 	local void
 
 	-- Version
-	LeaPlusLC["AddonVer"] = "9.2.10"
+	LeaPlusLC["AddonVer"] = "9.2.12"
 
 	-- Get locale table
 	local void, Leatrix_Plus = ...
@@ -496,6 +496,7 @@
 		or	(LeaPlusLC["ShowTrainAllButton"]	~= LeaPlusDB["ShowTrainAllButton"])		-- Show train all button
 		or	(LeaPlusLC["ShowBorders"]			~= LeaPlusDB["ShowBorders"])			-- Show borders
 		or	(LeaPlusLC["ShowPlayerChain"]		~= LeaPlusDB["ShowPlayerChain"])		-- Show player chain
+		or	(LeaPlusLC["ShowReadyTimer"]		~= LeaPlusDB["ShowReadyTimer"])			-- Show ready timer
 		or	(LeaPlusLC["ShowWowheadLinks"]		~= LeaPlusDB["ShowWowheadLinks"])		-- Show Wowhead links
 
 		-- Frames
@@ -3266,9 +3267,7 @@
 			end
 
 			-- ElvUI Fix
-			local eFixFuncApplied, eFixHookApplied
 			local function ElvUIFix()
-				if eFixFuncApplied then return end
 				local E = unpack(ElvUI)
 				if E.private.chat.enable then
 					C_Timer.After(2, function()
@@ -3276,16 +3275,6 @@
 						return
 					end)
 				end
-				hooksecurefunc(E, "PLAYER_ENTERING_WORLD", function()
-					if eFixHookApplied then return end
-					ChatFrame2Tab:EnableMouse(false)
-					ChatFrame2Tab:SetText(" ")
-					ChatFrame2Tab:SetScale(0.01)
-					ChatFrame2Tab:SetWidth(0.01)
-					ChatFrame2Tab:SetHeight(0.01)
-					eFixHookApplied = true
-				end)
-				eFixFuncApplied = true
 			end
 
 			-- Run ElvUI fix when ElvUI has loaded
@@ -3919,6 +3908,118 @@
 ----------------------------------------------------------------------
 
 	function LeaPlusLC:Player()
+
+		----------------------------------------------------------------------
+		-- Show ready timer
+		----------------------------------------------------------------------
+
+		if LeaPlusLC["ShowReadyTimer"] == "On" then
+
+
+			-- Dungeons and Raids
+			do
+
+				-- Declare variables
+				local duration, barTime = 40, -1
+				local t = duration
+
+				-- Create status bar below dungeon ready popup
+				local bar = CreateFrame("StatusBar", nil, LFGDungeonReadyPopup)
+				bar:SetPoint("TOPLEFT", LFGDungeonReadyPopup, "BOTTOMLEFT", 0, -5)
+				bar:SetPoint("TOPRIGHT", LFGDungeonReadyPopup, "BOTTOMRIGHT", 0, -5)
+				bar:SetHeight(5)
+				bar:SetStatusBarTexture("Interface\\TargetingFrame\\UI-StatusBar")
+				bar:SetStatusBarColor(1.0, 0.85, 0.0)
+				bar:SetMinMaxValues(0, duration)
+
+				-- Create status bar text
+				local text = bar:CreateFontString(nil, "ARTWORK")
+				text:SetFontObject("GameFontNormalLarge")
+				text:SetTextColor(1.0, 0.85, 0.0)
+				text:SetPoint("TOP", 0, -10)
+
+				-- Update bar as timer counts down
+				bar:SetScript("OnUpdate", function(self, elapsed)
+					t = t - elapsed
+					if barTime >= 1 or barTime == -1 then
+						self:SetValue(t)
+						text:SetText(SecondsToTime(floor(t + 0.5)))
+						barTime = 0
+					end
+					barTime = barTime + elapsed
+				end)
+
+				-- Show frame when dungeon ready frame shows
+				local frame = CreateFrame("FRAME")
+				frame:RegisterEvent("LFG_PROPOSAL_SHOW")
+				frame:RegisterEvent("LFG_PROPOSAL_FAILED")
+				frame:RegisterEvent("LFG_PROPOSAL_SUCCEEDED")
+				frame:SetScript("OnEvent", function(self, event)
+					if event == "LFG_PROPOSAL_SHOW" then
+						t = duration
+						barTime = -1
+						bar:Show()
+					else
+						bar:Hide()
+					end
+				end)
+
+			end
+
+			-- Player vs Player
+			do
+
+				-- Declare variables
+				local t, barTime = -1, -1
+
+				-- Create status bar below dungeon ready popup
+				local bar = CreateFrame("StatusBar", nil, PVPReadyDialog)
+				bar:SetPoint("TOPLEFT", PVPReadyDialog, "BOTTOMLEFT", 0, -5)
+				bar:SetPoint("TOPRIGHT", PVPReadyDialog, "BOTTOMRIGHT", 0, -5)
+				bar:SetHeight(5)
+				bar:SetStatusBarTexture("Interface\\TargetingFrame\\UI-StatusBar")
+				bar:SetStatusBarColor(1.0, 0.85, 0.0)
+
+				-- Create status bar text
+				local text = bar:CreateFontString(nil, "ARTWORK")
+				text:SetFontObject("GameFontNormalLarge")
+				text:SetTextColor(1.0, 0.85, 0.0)
+				text:SetPoint("TOP", 0, -10)
+
+				-- Update bar as timer counts down
+				bar:SetScript("OnUpdate", function(self, elapsed)
+					t = t - elapsed
+					if barTime >= 1 or barTime == -1 then
+						self:SetValue(t)
+						text:SetText(SecondsToTime(floor(t + 0.5)))
+						barTime = 0
+					end
+					barTime = barTime + elapsed
+				end)
+
+				-- Show frame when PvP ready frame shows
+				hooksecurefunc("PVPReadyDialog_Display", function(self, id)
+					t = GetBattlefieldPortExpiration(id) + 1
+					-- t = 89; -- debug
+					if t and t > 1 then
+						bar:SetMinMaxValues(0, t)
+						barTime = -1
+						bar:Show()
+					else
+						bar:Hide()
+					end
+				end)
+
+				PVPReadyDialog:HookScript("OnHide", function()
+					bar:Hide()
+				end)
+
+				-- Debug
+				-- C_Timer.After(2, function() PVPReadyDialog_Display(PVPReadyDialog, 1, "Warsong Gulch", 0, "BATTLEGROUND", "", "DAMAGER"); bar:Show() end)
+
+			end
+
+		end
 
 		----------------------------------------------------------------------
 		-- Remove transforms (no reload required)
@@ -9571,12 +9672,14 @@
 					local EnhanceMinimapElvUIButton1 = LeaPlusLC:CreateButton("EnhanceMinimapElvUIButton1", noFrame, "Leatrix Plus", "TOP", -100, -60, 0, 25, true, "")
 					EnhanceMinimapElvUIButton1:SetScript("OnClick", function()
 						E.private.general.minimap.enable = false
+						EnableAddOn("Leatrix_Plus")
 						ReloadUI()
 					end)
 
 					local EnhanceMinimapElvUIButton2 = LeaPlusLC:CreateButton("EnhanceMinimapElvUIButton2", noFrame, "ElvUI", "TOP", 100, -60, 0, 25, true, "")
 					EnhanceMinimapElvUIButton2:SetScript("OnClick", function()
 						LeaPlusLC["MinimapMod"] = "Off"
+						EnableAddOn("Leatrix_Plus")
 						ReloadUI()
 					end)
 
@@ -10873,6 +10976,7 @@
 				LeaPlusLC:LoadVarNum("BordersAlpha", 0, 0, 0.9)				-- Border alpha
 				LeaPlusLC:LoadVarChk("ShowPlayerChain", "Off")				-- Show player chain
 				LeaPlusLC:LoadVarNum("PlayerChainMenu", 2, 1, 3)			-- Player chain dropdown value
+				LeaPlusLC:LoadVarChk("ShowReadyTimer", "Off")				-- Show ready timer
 				LeaPlusLC:LoadVarChk("ShowWowheadLinks", "Off")				-- Show Wowhead links
 				LeaPlusLC:LoadVarChk("WowheadLinkComments", "Off")			-- Show Wowhead links to comments
 
@@ -11132,6 +11236,7 @@
 			LeaPlusDB["BordersAlpha"]			= LeaPlusLC["BordersAlpha"]
 			LeaPlusDB["ShowPlayerChain"]		= LeaPlusLC["ShowPlayerChain"]
 			LeaPlusDB["PlayerChainMenu"]		= LeaPlusLC["PlayerChainMenu"]
+			LeaPlusDB["ShowReadyTimer"]			= LeaPlusLC["ShowReadyTimer"]
 			LeaPlusDB["ShowWowheadLinks"]		= LeaPlusLC["ShowWowheadLinks"]
 			LeaPlusDB["WowheadLinkComments"]	= LeaPlusLC["WowheadLinkComments"]
 
@@ -13483,6 +13588,90 @@
 				end
 				if LeaPlusLC.MuteFrame:IsShown() then LeaPlusLC.MuteFrame:Hide() else LeaPlusLC.MuteFrame:Show() end
 				return
+			elseif str == "tz" then
+				-- Tazavesh: Myza's Oasis Helper
+				if not LeaPlusLC.clipFrame then
+					-- Create frame for first time
+					local clipFrame = CreateFrame("FRAME", nil, UIParent)
+					LeaPlusLC.clipFrame = clipFrame
+					clipFrame:SetSize(300, 100)
+					clipFrame:SetPoint("CENTER", UIParent, "CENTER", 0, 150)
+					clipFrame:SetFrameStrata("FULLSCREEN_DIALOG")
+					clipFrame:SetFrameLevel(5000)
+					clipFrame:Hide()
+					clipFrame:SetScript("OnMouseDown", function(self, btn)
+						if btn == "RightButton" then
+							clipFrame:Hide()
+						end
+					end)
+					-- Add background color
+					clipFrame.t = clipFrame:CreateTexture(nil, "BACKGROUND")
+					clipFrame.t:SetAllPoints()
+					clipFrame.t:SetColorTexture(0.05, 0.05, 0.05, 0.9)
+					-- Add labels
+					LeaPlusLC:MakeTx(clipFrame, "Press CTRL/C to copy.", 16, -52)
+					LeaPlusLC:MakeTx(clipFrame, "Right-click to cancel.", 16, -72)
+					-- Create editbox
+					clipFrame.b = CreateFrame("EditBox", nil, clipFrame, "InputBoxTemplate")
+					clipFrame.b:ClearAllPoints()
+					clipFrame.b:SetPoint("TOPLEFT", clipFrame, "TOPLEFT", 16, 0)
+					clipFrame.b:SetSize(274, 50)
+					clipFrame.b:SetFontObject("GameFontNormal")
+					clipFrame.b:SetTextColor(1.0, 1.0, 1.0, 1)
+					clipFrame.b:SetBlinkSpeed(0)
+					clipFrame.b:SetAltArrowKeyMode(true)
+					clipFrame.b:SetScript("OnKeyDown", function(void, key)
+						if key == "C" and IsControlKeyDown() then
+							C_Timer.After(0.1, function()
+								clipFrame:Hide()
+								LeaPlusLC:DisplayMessage(L["Copied to clipboard."], true)
+								local eBox = ChatEdit_ChooseBoxForSend()
+								ChatEdit_ActivateChat(eBox)
+							end)
+						end
+					end)
+					-- Prevent changes
+					clipFrame.b:SetScript("OnEscapePressed", function() clipFrame:Hide() end)
+					clipFrame.b:SetScript("OnEnterPressed", clipFrame.b.HighlightText)
+					clipFrame.b:SetScript("OnMouseDown", clipFrame.b.ClearFocus)
+					clipFrame.b:SetScript("OnMouseUp", clipFrame.b.HighlightText)
+				end
+				-- Process target
+				local target
+				for i = 1, 40 do
+					local void, void, void, void, length, expire, void, void, void, spellID = UnitDebuff("player", i)
+					if spellID then
+						if spellID == 352125 or spellID == 358911 or spellID == 358912 then
+							target = "Xy'ghana"
+						elseif spellID == 352127 or spellID == 358905 or spellID == 358906 then
+							target = "Xy'aqida"
+						elseif spellID == 352128 or spellID == 358907 or spellID == 358908 then
+							target = "Xy'tadir"
+						elseif spellID == 352129 or spellID == 358915 or spellID == 358916 then
+							target = "Xy'nara"
+						elseif spellID == 352130 or spellID == 358900 or spellID == 358901 then
+							target = "Xy'mal"
+						elseif spellID == 352131 or spellID == 358917 or spellID == 358918 then
+							target = "Xy'jahid"
+						elseif spellID == 352132 or spellID == 358903 or spellID == 358904 then
+							target = "Xy'kitaab"
+						elseif spellID == 352133 or spellID == 358913 or spellID == 358914 then
+							target = "Xy'har"
+						elseif spellID == 352134 or spellID == 358909 or spellID == 358910 then
+							target = "Xy'zaro"
+						-- elseif spellID == 15007 then target = "Ghost" -- Resurrection sickness (debug)
+						end
+					end
+				end
+				if target and target ~= "" then
+					LeaPlusLC.clipFrame.b:SetFocus(true)
+					LeaPlusLC.clipFrame.b:SetText("/tar" .. " " .. target)
+					LeaPlusLC.clipFrame.b:HighlightText()
+					LeaPlusLC.clipFrame.b:SetScript("OnChar", function() LeaPlusLC.clipFrame.b:SetFocus(true) LeaPlusLC.clipFrame.b:SetText("/tar" .. " " .. target) LeaPlusLC.clipFrame.b:HighlightText() end)
+					LeaPlusLC.clipFrame.b:SetScript("OnKeyUp", function() LeaPlusLC.clipFrame.b:SetFocus(true) LeaPlusLC.clipFrame.b:SetText("/tar" .. " " .. target) LeaPlusLC.clipFrame.b:HighlightText() end)
+					LeaPlusLC.clipFrame:Show()
+				end
+				return
 			elseif str == "admin" then
 				-- Preset profile (used for testing)
 				LpEvt:UnregisterAllEvents()						-- Prevent changes
@@ -13583,6 +13772,7 @@
 				LeaPlusDB["ShowBorders"] = "On"					-- Show borders
 				LeaPlusDB["ShowPlayerChain"] = "On"				-- Show player chain
 				LeaPlusDB["PlayerChainMenu"] = 3				-- Player chain style
+				LeaPlusDB["ShowReadyTimer"] = "On"				-- Show ready timer
 				LeaPlusDB["ShowWowheadLinks"] = "On"			-- Show Wowhead links
 				LeaPlusDB["WowheadLinkComments"] = "On"			-- Show Wowhead links to comments
 
@@ -14054,7 +14244,8 @@
 	LeaPlusLC:MakeCB(LeaPlusLC[pg], "ShowTrainAllButton"		, 	"Show train all button"			,	340, -192, 	true,	"If checked, a button will be added to the skill trainer frame which will allow you to train all available skills instantly.")
 	LeaPlusLC:MakeCB(LeaPlusLC[pg], "ShowBorders"				,	"Show borders"					,	340, -212, 	true,	"If checked, you will be able to show customisable borders around the edges of the screen.|n|nThe borders are placed on top of the game world but under the UI so you can place UI elements over them.")
 	LeaPlusLC:MakeCB(LeaPlusLC[pg], "ShowPlayerChain"			, 	"Show player chain"				,	340, -232, 	true,	"If checked, you will be able to show a rare, elite or rare elite chain around the player frame.")
-	LeaPlusLC:MakeCB(LeaPlusLC[pg], "ShowWowheadLinks"			, 	"Show Wowhead links"			, 	340, -252, 	true,	"If checked, Wowhead links will be shown in the world map frame and the achievements frame.")
+	LeaPlusLC:MakeCB(LeaPlusLC[pg], "ShowReadyTimer"			, 	"Show ready timer"				,	340, -252, 	true,	"If checked, a timer will be shown under the dungeon ready frame and the PvP encounter ready frame so that you know how long you have left to click the enter button.")
+	LeaPlusLC:MakeCB(LeaPlusLC[pg], "ShowWowheadLinks"			, 	"Show Wowhead links"			, 	340, -272, 	true,	"If checked, Wowhead links will be shown in the world map frame and the achievements frame.")
 
 	LeaPlusLC:CfgBtn("ModMinimapBtn", LeaPlusCB["MinimapMod"])
 	LeaPlusLC:CfgBtn("MoveTooltipButton", LeaPlusCB["TipModEnable"])

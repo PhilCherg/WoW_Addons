@@ -117,11 +117,11 @@ BWQDB = {
 				["name"] = "Default",
 				["list"] = {
 				},
-				["pin"] = {
-				},
 				["external"] = {
 					["TomTom"] = {
 					},
+				},
+				["pin"] = {
 				},
 				["general"] = {
 					["showDisliked"] = false,

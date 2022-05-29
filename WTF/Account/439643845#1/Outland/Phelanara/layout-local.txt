@@ -3,8 +3,8 @@ Frame: AllTheThings-Window-CurrentInstance
 FrameLevel: 1
 Anchor: LEFT
 X: 0
-Y: -222
-W: 412
+Y: -217
+W: 411
 H: 188
 Frame: MonkeySpeedFrame
 FrameLevel: 1

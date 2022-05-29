@@ -1788,6 +1788,7 @@ local MergeProperties = function(g, t, noReplace, clone)
 end
 -- The base logic for turning a Table of data into an 'object' that provides dynamic information concerning the type of object which was identified
 -- based on the priority of possible key values
+-- CreateObject(t, rootOnly)
 local CreateObject;
 CreateObject = function(t, rootOnly)
 	if not t then return {}; end
@@ -2966,7 +2967,7 @@ local function FillSymLinks(group, recursive)
 		-- app.PrintDebug("FillSymLinks",group.hash)
 		NestObjects(group, ResolveSymbolicLink(group));
 		-- make sure this group doesn't waste time getting resolved again somehow
-		group.sym = app.EmptyTable;
+		group.sym = nil;
 	end
 	-- if app.DEBUG_PRINT == group then app.DEBUG_PRINT = nil; end
 	return group;
@@ -3350,7 +3351,7 @@ subroutines = {
 		return {
 			{"select", "headerID", -23},				-- Common Dungeon Drops
 			{"pop"},									-- Discard the Header and acquire all of their children.
-			{"where", "difficultyID", difficultyID},	-- Normal/Heroic/Mythic/Timewajust 	jsutlking
+			{"where", "difficultyID", difficultyID},	-- Normal/Heroic/Mythic/Timewalking
 			{"pop"},									-- Discard the Diffculty Header and acquire all of their children.
 			{"where", "headerID", headerID},			-- Head/Shoulder/Chest/Legs/Feet/Wrist/Hands/Waist
 			{"pop"},									-- Discard the Header and acquire all of their children.
@@ -3398,10 +3399,16 @@ local function Resolve_Pop(group)
 	ArrayAppend(results, ResolveSymbolicLink(group));
 	return results;
 end
+local ResolveCache = {};
 ResolveSymbolicLink = function(o)
-	if o.resolved then return o.resolved; end
+	if o.resolved or (o.key and app.ThingKeys[o.key] and ResolveCache[o.hash]) then
+		-- app.PrintDebug("Cache Resolve:",o.hash)
+		local cloned = {};
+		MergeObjects(cloned, o.resolved or ResolveCache[o.hash], true);
+		return cloned;
+	end
 	if o and o.sym then
-		-- app.DEBUG_PRINT = true;
+		-- app.PrintDebug("Fresh Resolve:",o.hash)
 		local searchResults, finalized, ipairs, tremove = {}, {}, ipairs, table.remove;
 		for j,sym in ipairs(o.sym) do
 			local cmd = sym[1];
@@ -3742,6 +3749,13 @@ ResolveSymbolicLink = function(o)
 
 		-- If we had any finalized search results, then clone all the records and return it.
 		if #finalized > 0 then
+			if o.key and app.ThingKeys[o.key] then
+				-- global resolve cache if it's a 'Thing'
+				ResolveCache[o.hash] = finalized;
+			else
+				-- otherwise can store it in the object itself (like a header from the Main list with symlink)
+				o.resolved = finalized;
+			end
 			local cloned = {};
 			MergeObjects(cloned, finalized, true);
 			-- if app.DEBUG_PRINT then print("Symbolic Link for", o.key,o.key and o[o.key], "contains", #cloned, "values after filtering.") end
@@ -3752,7 +3766,6 @@ ResolveSymbolicLink = function(o)
 				s.parent = nil;
 				FillSymLinks(s);
 			end
-			o.resolved = cloned;
 			return cloned;
 		else
 			-- if app.DEBUG_PRINT then print("Symbolic Link for ", o.key, " ",o.key and o[o.key], " contained no values after filtering.") end
@@ -4473,6 +4486,7 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 
 		-- Resolve Cost, but not if the search itself was skipped (Mark of Honor)
 		if method ~= app.EmptyFunction then
+			group.fillable = true;
 			-- Append currency info to any orphan currency groups
 			app.BuildCurrencies(group);
 			-- Fill up the group
@@ -4849,15 +4863,15 @@ local function DetermineSymlinkGroups(group, depth)
 	if group.sym then
 		local groups = ResolveSymbolicLink(group);
 		-- make sure this group doesn't waste time getting resolved again somehow
-		group.sym = app.EmptyTable;
+		group.sym = nil;
 		-- app.PrintDebug("DetermineSymlinkGroups",group.hash,groups and #groups);
 		return groups;
 	end
 end
 local function FillGroupsRecursive(group, depth)
 	-- do not fill 'saved' groups
-	-- or groups directly under saved groups unless in Acct or Debug mode
-	if not app.MODE_DEBUG_OR_ACCOUNT then
+	-- or groups directly under saved groups unless in Acct or Debug mode or if the group is directly marked as fillable (i.e. from a search result)
+	if not app.MODE_DEBUG_OR_ACCOUNT and not group.fillable then
 		-- (unless they are actual Maps or Instances, or a Difficulty header. Also 'saved' Items usually means tied to a questID directly)
 		if group.saved and not (group.instanceID or group.mapID or group.difficultyID or group.itemID) then return; end
 		local parent = group.parent;
@@ -4966,7 +4980,7 @@ app.BuildCost = function(group)
 end
 (function()
 -- Keys for groups which are in-game 'Things'
-local ThingKeys = {
+app.ThingKeys = {
 	-- ["headerID"] = true,
 	-- ["filterID"] = true,
 	-- ["flightPathID"] = true,
@@ -4990,10 +5004,10 @@ local ThingKeys = {
 -- Builds a 'Source' group from the parent of the group (or other listings of this group) and lists it under the group itself for
 app.BuildSourceParent = function(group)
 	-- only show sources for Things and not 'headers'
-	if not group or not group.key or not ThingKeys[group.key] then return; end
+	if not group or not group.key or not app.ThingKeys[group.key] then return; end
 
 	-- pull all listings of this 'Thing'
-	local groupKey = group.key;
+	local groupKey, thingKeys = group.key, app.ThingKeys;
 	local keyValue = group[groupKey];
 	local things = app.SearchForLink(groupKey .. ":" .. keyValue);
 	if things then
@@ -5008,7 +5022,7 @@ app.BuildSourceParent = function(group)
 				if parentKey and parent[parentKey] then
 					-- only show certain types of parents as sources.. typically 'Game World Things'
 					-- or if the parent is directly tied to an NPC
-					if ThingKeys[parentKey] or parent.npcID or parent.creatureID then
+					if thingKeys[parentKey] or parent.npcID or parent.creatureID then
 						-- keep the Criteria nested for Achievements, to show proper completion tracking under various Sources
 						if groupKey == "achievementID" then
 							parent._keepSource = keyValue;
@@ -6899,7 +6913,7 @@ end
 	end
 	local GameTooltip_SetCurrencyToken = GameTooltip.SetCurrencyToken;
 	GameTooltip.SetCurrencyToken = function(self, tokenID)
-		-- print("set currency token", tokenID)
+		-- app.PrintDebug("GameTooltip.SetCurrencyToken", tokenID)
 		-- this only runs once per tooltip show
 		-- Make sure to call to base functionality
 		GameTooltip_SetCurrencyToken(self, tokenID);
@@ -17618,7 +17632,6 @@ function app:BuildSearchResponse(groups, field, value, clear)
 		local ignoreBoEFilter = app.FilterItemClass_IgnoreBoEFilter;
 		for _,group in ipairs(groups) do
 			v = group[field];
-			response = nil;
 			if v and (not value or
 				(v == value or
 					(field == "requireSkill" and app.SpellIDToSkillID[app.SpecializationSpellIDs[v] or 0] == value))) then

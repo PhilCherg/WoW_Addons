@@ -1,7 +1,6 @@
 # <DBM> World Bosses (Legion)
 
-## [r29](https://github.com/DeadlyBossMods/DBM-Legion/tree/r29) (2022-01-16)
-[Full Changelog](https://github.com/DeadlyBossMods/DBM-Legion/compare/r28...r29) [Previous Releases](https://github.com/DeadlyBossMods/DBM-Legion/releases)
+## [r31](https://github.com/DeadlyBossMods/DBM-Legion/tree/r31) (2022-05-16)
+[Full Changelog](https://github.com/DeadlyBossMods/DBM-Legion/compare/r30...r31) [Previous Releases](https://github.com/DeadlyBossMods/DBM-Legion/releases)
 
-- Fixed a LOT more DBM\_CORE\_L -> DBM\_COMMON\_L  
-- Fix missing uses of DBM\_CORE\_L -> DBM\_COMMON\_L - Closes #9  
+- Update icon method  
