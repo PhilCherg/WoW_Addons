@@ -2,72 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"2", -- [1]
-			"Kïtiara-DunModr", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Kïtiara-DunModr", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			3054, -- [11]
-			"Player-1378-0A915E0B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kïtiara-DunModr|r",
-			[51] = 1653743422,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [1]
-		{
-			"1", -- [1]
-			"Kïtiara-DunModr", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Kïtiara-DunModr", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			3055, -- [11]
-			"Player-1378-0A915E0B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kïtiara-DunModr|r",
-			[51] = 1653743423,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [2]
-		{
-			"Ty", -- [1]
-			"Tanui-Pozzodell'Eternità", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Tanui-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3080, -- [11]
-			"Player-1309-0885FF88", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Tanui-Pozzodell'Eternità|r",
-			[51] = 1653743462,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [3]
-		{
 			"%s has earned the achievement |cffffff00|Hachievement:15252:Player-1301-0C31FA28:1:5:28:22:4294967295:4294967295:4294967295:4294967295|h[The Jailer's Gauntlet: Layer 2]|h|r!", -- [1]
 			"Bloodtorixs-Outland", -- [2]
 			"", -- [3]
@@ -88,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bloodtorixs|r",
 			[51] = 1653743565,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [4]
+		}, -- [1]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15252:Player-1301-0C30F7C2:1:5:28:22:4294967295:4294967295:4294967295:4294967295|h[The Jailer's Gauntlet: Layer 2]|h|r!", -- [1]
 			"Bside-Outland", -- [2]
@@ -110,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBside|r",
 			[51] = 1653743565,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [5]
+		}, -- [2]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15252:Player-1301-0C3353DC:1:5:28:22:4294967295:4294967295:4294967295:4294967295|h[The Jailer's Gauntlet: Layer 2]|h|r!", -- [1]
 			"Oggê-Outland", -- [2]
@@ -132,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Oggê|r",
 			[51] = 1653743565,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [6]
+		}, -- [3]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15498:Player-1301-0BF1FEC3:1:5:28:22:4294967295:4294967295:4294967295:4294967295|h[Shadowlands Keystone Conqueror: Season Three]|h|r!", -- [1]
 			"Orvalleke-Outland", -- [2]
@@ -154,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcOrvalleke|r",
 			[51] = 1653743667,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [7]
+		}, -- [4]
 		{
 			"Meow", -- [1]
 			"Mesra-Outland", -- [2]
@@ -176,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Mesra|r",
 			[51] = 1653743677,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [8]
+		}, -- [5]
 		{
 			"Cookies Here!!!", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -198,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1653743713,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [9]
+		}, -- [6]
 		{
 			"Anyone want to join for Jailer Gauntlet layer 3? Last spot and we have full group", -- [1]
 			"Oggê-Outland", -- [2]
@@ -220,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Oggê|r",
 			[51] = 1653743734,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [10]
+		}, -- [7]
 		{
 			"Pinned", -- [1]
 			"Killock-AzjolNerub", -- [2]
@@ -242,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edKillock-AzjolNerub|r",
 			[51] = 1653743792,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [11]
+		}, -- [8]
 		{
 			"Pinned", -- [1]
 			"Rossilyn-Arathor", -- [2]
@@ -264,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edRossilyn-Arathor|r",
 			[51] = 1653743792,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [12]
+		}, -- [9]
 		{
 			"lol got |cffa335ee|Hitem:183893::::::::60:252::4:3:7186:1459:6646:1:28:2060:::::|h[Abominable Anima Spherule]|h|rfrom layer2", -- [1]
 			"Bloodtorixs-Outland", -- [2]
@@ -286,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bloodtorixs|r",
 			[51] = 1653743802,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [13]
+		}, -- [10]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10617:Player-1301-0BF9C813:1:5:28:22:4294967295:4294967295:4294967295:4294967295|h[Nightfallen But Not Forgotten]|h|r!", -- [1]
 			"Nelseth-Outland", -- [2]
@@ -308,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Nelseth|r",
 			[51] = 1653743913,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [14]
+		}, -- [11]
 		{
 			"you guys pushing layers?", -- [1]
 			"Messwme-Outland", -- [2]
@@ -330,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edMesswme|r",
 			[51] = 1653743984,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [15]
+		}, -- [12]
 		{
 			"can i join to push to layer 8?)", -- [1]
 			"Messwme-Outland", -- [2]
@@ -352,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edMesswme|r",
 			[51] = 1653743992,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [16]
+		}, -- [13]
 		{
 			"just at layer 3 now", -- [1]
 			"Oggê-Outland", -- [2]
@@ -374,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Oggê|r",
 			[51] = 1653743997,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [17]
+		}, -- [14]
 		{
 			"sure :D", -- [1]
 			"Oggê-Outland", -- [2]
@@ -396,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Oggê|r",
 			[51] = 1653744000,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [18]
+		}, -- [15]
 		{
 			"lmao", -- [1]
 			"Broxithar-Outland", -- [2]
@@ -418,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBroxithar|r",
 			[51] = 1653744006,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [19]
+		}, -- [16]
 		{
 			"meow", -- [1]
 			"Mesra-Outland", -- [2]
@@ -440,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Mesra|r",
 			[51] = 1653744067,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [20]
+		}, -- [17]
 		{
 			"anyone got gear they don't need", -- [1]
 			"Asthock-ArgentDawn", -- [2]
@@ -462,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAsthock-ArgentDawn|r",
 			[51] = 1653744067,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [21]
+		}, -- [18]
 		{
 			"|cffa335ee|Hitem:188270::::::::60:267::4:4:7186:6652:1485:6646:1:28:2168:::::|h[Elegy of the Eternals]|h|r", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -484,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1653744081,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [22]
+		}, -- [19]
 		{
 			"running back now", -- [1]
 			"Asthock-ArgentDawn", -- [2]
@@ -506,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAsthock-ArgentDawn|r",
 			[51] = 1653744189,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [23]
+		}, -- [20]
 		{
 			"same", -- [1]
 			"Emjaydaleigh-TheSha'tar", -- [2]
@@ -528,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Emjaydaleigh-TheSha'tar|r",
 			[51] = 1653744195,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [24]
+		}, -- [21]
 		{
 			"Cookies Here!!!", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -550,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1653744207,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [25]
+		}, -- [22]
 		{
 			"Mote on Bowlmage", -- [1]
 			"Bowlmage-BurningBlade", -- [2]
@@ -572,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaBowlmage-BurningBlade|r",
 			[51] = 1653744293,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [26]
+		}, -- [23]
 		{
 			"3", -- [1]
 			"Bowlmage-BurningBlade", -- [2]
@@ -594,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaBowlmage-BurningBlade|r",
 			[51] = 1653744294,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [27]
+		}, -- [24]
 		{
 			"2", -- [1]
 			"Bowlmage-BurningBlade", -- [2]
@@ -616,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaBowlmage-BurningBlade|r",
 			[51] = 1653744295,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [28]
+		}, -- [25]
 		{
 			"1", -- [1]
 			"Bowlmage-BurningBlade", -- [2]
@@ -638,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaBowlmage-BurningBlade|r",
 			[51] = 1653744296,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [29]
+		}, -- [26]
 		{
 			"Bomb on Necoarc", -- [1]
 			"Necoarc-BurningBlade", -- [2]
@@ -660,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecoarc-BurningBlade|r",
 			[51] = 1653744300,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [30]
+		}, -- [27]
 		{
 			"¡Bomba en Kïtiara!", -- [1]
 			"Kïtiara-DunModr", -- [2]
@@ -682,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kïtiara-DunModr|r",
 			[51] = 1653744300,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [31]
+		}, -- [28]
 		{
 			"3", -- [1]
 			"Necoarc-BurningBlade", -- [2]
@@ -704,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecoarc-BurningBlade|r",
 			[51] = 1653744303,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [32]
+		}, -- [29]
 		{
 			"2", -- [1]
 			"Necoarc-BurningBlade", -- [2]
@@ -726,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecoarc-BurningBlade|r",
 			[51] = 1653744304,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [33]
+		}, -- [30]
 		{
 			"1", -- [1]
 			"Necoarc-BurningBlade", -- [2]
@@ -748,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecoarc-BurningBlade|r",
 			[51] = 1653744305,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [34]
+		}, -- [31]
 		{
 			"inside", -- [1]
 			"Asthock-ArgentDawn", -- [2]
@@ -770,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAsthock-ArgentDawn|r",
 			[51] = 1653744345,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [35]
+		}, -- [32]
 		{
 			"Mote on Zyrinas", -- [1]
 			"Zyrinas-Silvermoon", -- [2]
@@ -792,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Zyrinas-Silvermoon|r",
 			[51] = 1653744395,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [36]
+		}, -- [33]
 		{
 			"Mote on Tarlo", -- [1]
 			"Tarlo-Quel'Thalas", -- [2]
@@ -814,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Tarlo-Quel'Thalas|r",
 			[51] = 1653744395,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [37]
+		}, -- [34]
 		{
 			"3", -- [1]
 			"Zyrinas-Silvermoon", -- [2]
@@ -836,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Zyrinas-Silvermoon|r",
 			[51] = 1653744396,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [38]
+		}, -- [35]
 		{
 			"2", -- [1]
 			"Zyrinas-Silvermoon", -- [2]
@@ -858,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Zyrinas-Silvermoon|r",
 			[51] = 1653744397,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [39]
+		}, -- [36]
 		{
 			"3", -- [1]
 			"Tarlo-Quel'Thalas", -- [2]
@@ -880,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Tarlo-Quel'Thalas|r",
 			[51] = 1653744397,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [40]
+		}, -- [37]
 		{
 			"2", -- [1]
 			"Tarlo-Quel'Thalas", -- [2]
@@ -902,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Tarlo-Quel'Thalas|r",
 			[51] = 1653744398,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [41]
+		}, -- [38]
 		{
 			"1", -- [1]
 			"Tarlo-Quel'Thalas", -- [2]
@@ -924,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Tarlo-Quel'Thalas|r",
 			[51] = 1653744399,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [42]
+		}, -- [39]
 		{
 			"Bomb on Sinux", -- [1]
 			"Sinux-Ravencrest", -- [2]
@@ -946,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSinux-Ravencrest|r",
 			[51] = 1653744402,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [43]
+		}, -- [40]
 		{
 			"¡Bomba en Kïtiara!", -- [1]
 			"Kïtiara-DunModr", -- [2]
@@ -968,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kïtiara-DunModr|r",
 			[51] = 1653744402,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [44]
+		}, -- [41]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14841:Player-1301-0C31FA28:1:5:28:22:4294967295:4294967295:4294967295:4294967295|h[Adventures: Now You're Cooking]|h|r!", -- [1]
 			"Bloodtorixs-Outland", -- [2]
@@ -990,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bloodtorixs|r",
 			[51] = 1653744404,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [45]
+		}, -- [42]
 		{
 			"3", -- [1]
 			"Sinux-Ravencrest", -- [2]
@@ -1012,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSinux-Ravencrest|r",
 			[51] = 1653744405,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [46]
+		}, -- [43]
 		{
 			"3", -- [1]
 			"Kïtiara-DunModr", -- [2]
@@ -1034,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kïtiara-DunModr|r",
 			[51] = 1653744405,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [47]
+		}, -- [44]
 		{
 			"2", -- [1]
 			"Sinux-Ravencrest", -- [2]
@@ -1056,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSinux-Ravencrest|r",
 			[51] = 1653744406,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [48]
+		}, -- [45]
 		{
 			"Bomb on Necoarc", -- [1]
 			"Necoarc-BurningBlade", -- [2]
@@ -1078,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecoarc-BurningBlade|r",
 			[51] = 1653744441,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [49]
+		}, -- [46]
 		{
 			"3", -- [1]
 			"Necoarc-BurningBlade", -- [2]
@@ -1100,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecoarc-BurningBlade|r",
 			[51] = 1653744444,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [50]
+		}, -- [47]
 		{
 			"2", -- [1]
 			"Necoarc-BurningBlade", -- [2]
@@ -1122,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecoarc-BurningBlade|r",
 			[51] = 1653744445,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [51]
+		}, -- [48]
 		{
 			"1", -- [1]
 			"Necoarc-BurningBlade", -- [2]
@@ -1144,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecoarc-BurningBlade|r",
 			[51] = 1653744446,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [52]
+		}, -- [49]
 		{
 			"anyone wanna do a key?", -- [1]
 			"Miidig-Outland", -- [2]
@@ -1166,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Miidig|r",
 			[51] = 1653744460,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [53]
+		}, -- [50]
 		{
 			"minimum 15 ;)", -- [1]
 			"Miidig-Outland", -- [2]
@@ -1188,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Miidig|r",
 			[51] = 1653744465,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [54]
+		}, -- [51]
 		{
 			"get in here", -- [1]
 			"Asthock-ArgentDawn", -- [2]
@@ -1210,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAsthock-ArgentDawn|r",
 			[51] = 1653744495,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [55]
+		}, -- [52]
 		{
 			"3", -- [1]
 			"Tarlo-Quel'Thalas", -- [2]
@@ -1232,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Tarlo-Quel'Thalas|r",
 			[51] = 1653744543,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [56]
+		}, -- [53]
 		{
 			"2", -- [1]
 			"Tarlo-Quel'Thalas", -- [2]
@@ -1254,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Tarlo-Quel'Thalas|r",
 			[51] = 1653744544,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [57]
+		}, -- [54]
 		{
 			"1", -- [1]
 			"Tarlo-Quel'Thalas", -- [2]
@@ -1276,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Tarlo-Quel'Thalas|r",
 			[51] = 1653744545,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [58]
+		}, -- [55]
 		{
 			"¡Bomba en Kïtiara!", -- [1]
 			"Kïtiara-DunModr", -- [2]
@@ -1298,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kïtiara-DunModr|r",
 			[51] = 1653744548,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [59]
+		}, -- [56]
 		{
 			"Bomb on Necoarc", -- [1]
 			"Necoarc-BurningBlade", -- [2]
@@ -1320,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecoarc-BurningBlade|r",
 			[51] = 1653744548,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [60]
+		}, -- [57]
 		{
 			"3", -- [1]
 			"Kïtiara-DunModr", -- [2]
@@ -1342,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kïtiara-DunModr|r",
 			[51] = 1653744551,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [61]
+		}, -- [58]
 		{
 			"3", -- [1]
 			"Necoarc-BurningBlade", -- [2]
@@ -1364,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecoarc-BurningBlade|r",
 			[51] = 1653744551,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [62]
+		}, -- [59]
 		{
 			"2", -- [1]
 			"Necoarc-BurningBlade", -- [2]
@@ -1386,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecoarc-BurningBlade|r",
 			[51] = 1653744552,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [63]
+		}, -- [60]
 		{
 			"1", -- [1]
 			"Necoarc-BurningBlade", -- [2]
@@ -1408,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecoarc-BurningBlade|r",
 			[51] = 1653744553,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [64]
+		}, -- [61]
 		{
 			"Mote on Zyrinas", -- [1]
 			"Zyrinas-Silvermoon", -- [2]
@@ -1430,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Zyrinas-Silvermoon|r",
 			[51] = 1653744574,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [65]
+		}, -- [62]
 		{
 			"Mote on Sherapriest", -- [1]
 			"Sherapriest-Ravencrest", -- [2]
@@ -1452,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSherapriest-Ravencrest|r",
 			[51] = 1653744574,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [66]
+		}, -- [63]
 		{
 			"3", -- [1]
 			"Zyrinas-Silvermoon", -- [2]
@@ -1474,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Zyrinas-Silvermoon|r",
 			[51] = 1653744574,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [67]
+		}, -- [64]
 		{
 			"3", -- [1]
 			"Sherapriest-Ravencrest", -- [2]
@@ -1496,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSherapriest-Ravencrest|r",
 			[51] = 1653744574,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [68]
+		}, -- [65]
 		{
 			"2", -- [1]
 			"Sherapriest-Ravencrest", -- [2]
@@ -1518,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSherapriest-Ravencrest|r",
 			[51] = 1653744575,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [69]
+		}, -- [66]
 		{
 			"1", -- [1]
 			"Sherapriest-Ravencrest", -- [2]
@@ -1540,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSherapriest-Ravencrest|r",
 			[51] = 1653744576,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [70]
+		}, -- [67]
 		{
 			"Bomb on Necrophagus", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1562,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1653744586,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [71]
+		}, -- [68]
 		{
 			"3", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1584,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1653744589,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [72]
+		}, -- [69]
 		{
 			"2", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1606,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1653744590,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [73]
+		}, -- [70]
 		{
 			"1", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1628,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1653744591,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [74]
+		}, -- [71]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15492:Player-1301-07D1C69F:1:5:28:22:4294967295:4294967295:4294967295:4294967295|h[Cornerstone of Creation]|h|r!", -- [1]
 			"Baaradir-Outland", -- [2]
@@ -1650,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Baaradir|r",
 			[51] = 1653744611,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [75]
+		}, -- [72]
 		{
 			"ty", -- [1]
 			"Tanui-Pozzodell'Eternità", -- [2]
@@ -1672,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Tanui-Pozzodell'Eternità|r",
 			[51] = 1653744629,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [76]
+		}, -- [73]
 		{
 			"bb", -- [1]
 			"Tanui-Pozzodell'Eternità", -- [2]
@@ -1694,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Tanui-Pozzodell'Eternità|r",
 			[51] = 1653744639,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [77]
+		}, -- [74]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:4961:Player-1301-0BBB3E52:1:5:28:22:4294967295:4294967295:4294967295:4294967295|h[In a Thousand Years Even You Might be Worth Something]|h|r!", -- [1]
 			"Elvyne-Outland", -- [2]
@@ -1716,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Elvyne|r",
 			[51] = 1653744719,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [78]
+		}, -- [75]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8220:Player-1301-096B3311:1:5:28:22:4294967295:4294967295:4294967295:4294967295|h[Collector: Banners of the Mantid Empire]|h|r!", -- [1]
 			"Gnomeö-Outland", -- [2]
@@ -1738,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGnomeö|r",
 			[51] = 1653744909,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [79]
+		}, -- [76]
 		{
 			"sushipizza not sure how I feel about that", -- [1]
 			"Mesra-Outland", -- [2]
@@ -1760,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Mesra|r",
 			[51] = 1653744994,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [80]
+		}, -- [77]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15391:Player-1301-0C2F6B59:1:5:28:22:4294967295:4294967295:4294967295:4294967295|h[Adventurer of Zereth Mortis]|h|r!", -- [1]
 			"Niwena-Outland", -- [2]
@@ -1782,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Niwena|r",
 			[51] = 1653745327,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [81]
+		}, -- [78]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8331:Player-1301-0C307D9A:1:5:28:22:4294967295:4294967295:4294967295:4294967295|h[Deepwind Gorge Victory]|h|r!", -- [1]
 			"Hannabelle-Outland", -- [2]
@@ -1804,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edHannabelle|r",
 			[51] = 1653745443,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [82]
+		}, -- [79]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:1296:Player-1301-055A0C1B:1:5:28:22:4294967295:4294967295:4294967295:4294967295|h[Watch Him Die]|h|r!", -- [1]
 			"Rebirt-Outland", -- [2]
@@ -1826,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcRebirt|r",
 			[51] = 1653745699,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [83]
+		}, -- [80]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14197:Player-1301-0C2FF5B3:1:5:28:22:4294967295:4294967295:4294967295:4294967295|h[Sanguine Depths]|h|r!", -- [1]
 			"Hunterfel-Outland", -- [2]
@@ -1848,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Hunterfel|r",
 			[51] = 1653745763,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [84]
+		}, -- [81]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14198:Player-1301-0C2FF5B3:1:5:28:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Sanguine Depths]|h|r!", -- [1]
 			"Hunterfel-Outland", -- [2]
@@ -1870,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Hunterfel|r",
 			[51] = 1653745763,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [85]
+		}, -- [82]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:1297:Player-1301-055A0C1B:1:5:28:22:4294967295:4294967295:4294967295:4294967295|h[Hadronox Denied]|h|r!", -- [1]
 			"Rebirt-Outland", -- [2]
@@ -1892,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcRebirt|r",
 			[51] = 1653745846,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [86]
+		}, -- [83]
 		{
 			"WTS |cff71d5ff|Hspell:179478:0|h[Voidtalon of the Dark Star]|h|r  & |cff71d5ff|Hspell:60002:0|h[Time-Lost Proto-Drake]|h|r &  |cff71d5ff|Hspell:88718:0|h[Phosphorescent Stone Drake]|h|r   And much more. Whisper for info.", -- [1]
 			"Eljohnson-Outland", -- [2]
@@ -1914,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edEljohnson|r",
 			[51] = 1653826091,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [84]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15492:Player-1301-0AD96A46:1:5:29:22:4294967295:4294967295:4294967295:4294967295|h[Cornerstone of Creation]|h|r!", -- [1]
 			"Meliodasi-Outland", -- [2]
@@ -1936,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Meliodasi|r",
 			[51] = 1653826295,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [88]
+		}, -- [85]
 		{
 			"so mists +18 and my Spirit bomb did 3,8m dmg,", -- [1]
 			"Miidig-Outland", -- [2]
@@ -1958,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Miidig|r",
 			[51] = 1653826725,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [89]
+		}, -- [86]
 		{
 			"xD", -- [1]
 			"Miidig-Outland", -- [2]
@@ -1980,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Miidig|r",
 			[51] = 1653826726,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [90]
+		}, -- [87]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15406:Player-1301-0C2FF5B3:1:5:29:22:4294967295:4294967295:4294967295:4294967295|h[Synthesized!]|h|r!", -- [1]
 			"Hunterfel-Outland", -- [2]
@@ -2002,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Hunterfel|r",
 			[51] = 1653826752,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [91]
+		}, -- [88]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15508:Player-1301-0C2FF5B3:1:5:29:22:4294967295:4294967295:4294967295:4294967295|h[Fashion of the First Ones]|h|r!", -- [1]
 			"Hunterfel-Outland", -- [2]
@@ -2024,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Hunterfel|r",
 			[51] = 1653826828,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [92]
+		}, -- [89]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:974:Player-1301-0C303E1F:1:5:29:22:4294967295:4294967295:4294967295:4294967295|h[50 Daily Quests Completed]|h|r!", -- [1]
 			"Grimpala-Outland", -- [2]
@@ -2046,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Grimpala|r",
 			[51] = 1653827492,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [93]
+		}, -- [90]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:3837:Player-1301-0B86A769:1:5:29:22:4294967295:4294967295:4294967295:4294967295|h[Koralon the Flame Watcher (25 player)]|h|r!", -- [1]
 			"Xyc-Outland", -- [2]
@@ -2068,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edXyc|r",
 			[51] = 1653828154,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [94]
+		}, -- [91]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:3137:Player-1301-0B86A769:1:5:29:22:4294967295:4294967295:4294967295:4294967295|h[Emalon the Storm Watcher (25 player)]|h|r!", -- [1]
 			"Xyc-Outland", -- [2]
@@ -2090,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edXyc|r",
 			[51] = 1653828221,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [95]
+		}, -- [92]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:4586:Player-1301-0B86A769:1:5:29:22:4294967295:4294967295:4294967295:4294967295|h[Toravon the Ice Watcher (25 player)]|h|r!", -- [1]
 			"Xyc-Outland", -- [2]
@@ -2112,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edXyc|r",
 			[51] = 1653828306,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [96]
+		}, -- [93]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:1721:Player-1301-0B86A769:1:5:29:22:4294967295:4294967295:4294967295:4294967295|h[Archavon the Stone Watcher (25 player)]|h|r!", -- [1]
 			"Xyc-Outland", -- [2]
@@ -2134,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edXyc|r",
 			[51] = 1653828357,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [97]
+		}, -- [94]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6616:Player-1301-09C56D1D:1:5:29:22:4294967295:4294967295:4294967295:4294967295|h[Pandaria Tamer]|h|r!", -- [1]
 			"Sweetelite-Outland", -- [2]
@@ -2156,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Sweetelite|r",
 			[51] = 1653829428,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [98]
+		}, -- [95]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6611:Player-1301-09C56D1D:1:5:29:22:4294967295:4294967295:4294967295:4294967295|h[Continental Tamer]|h|r!", -- [1]
 			"Sweetelite-Outland", -- [2]
@@ -2177,6 +2111,72 @@ ElvCharacterDB = {
 			false, -- [17]
 			[52] = "|cfffe7b09Sweetelite|r",
 			[51] = 1653829428,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [96]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:10821:Player-1301-0BF9C813:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Nythendra]|h|r!", -- [1]
+			"Nelseth-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nelseth-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			323, -- [11]
+			"Player-1301-0BF9C813", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Nelseth|r",
+			[51] = 1653863092,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [97]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:10824:Player-1301-0BF9C813:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Ursoc]|h|r!", -- [1]
+			"Nelseth-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nelseth-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			375, -- [11]
+			"Player-1301-0BF9C813", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Nelseth|r",
+			[51] = 1653863524,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [98]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:10825:Player-1301-0BF9C813:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Dragons of Nightmare]|h|r!", -- [1]
+			"Nelseth-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nelseth-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			425, -- [11]
+			"Player-1301-0BF9C813", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Nelseth|r",
+			[51] = 1653863737,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [99]
 	},
