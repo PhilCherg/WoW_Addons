@@ -1,5 +1,5 @@
 --
--- RaiderIO Client Data. Generated on 2022-05-29T21:31:32Z
+-- RaiderIO Client Data. Generated on 2022-05-30T22:15:26Z
 --
 local _, ns = ...
 ns.GUILD_BEST_DATA = {
@@ -213,6 +213,40 @@ ns.GUILD_BEST_DATA = {
             ["name"] = "Spoopy",
             ["role"] = "dps",
             ["class_id"] = 9
+          }
+        }
+      },
+      [2] = {
+        ["zone_id"] = 13228,
+        ["level"] = 7,
+        ["upgrades"] = 1,
+        ["fraction"] = 0.8060463858160394,
+        ["clear_time"] = "00:30:38.591",
+        ["party"] = {
+          [1] = {
+            ["name"] = "Tòókí",
+            ["role"] = "tank",
+            ["class_id"] = 6
+          },
+          [2] = {
+            ["name"] = "Lanina",
+            ["role"] = "healer",
+            ["class_id"] = 11
+          },
+          [3] = {
+            ["name"] = "Misscotty",
+            ["role"] = "dps",
+            ["class_id"] = 3
+          },
+          [4] = {
+            ["name"] = "Rakna",
+            ["role"] = "dps",
+            ["class_id"] = 7
+          },
+          [5] = {
+            ["name"] = "Raubkun",
+            ["role"] = "dps",
+            ["class_id"] = 11
           }
         }
       }

@@ -2581,7 +2581,11 @@ function ItemItemMixin:GetName(database, item, character, variation)
     
     local id = self:GetID(database, item);
     local name = GetItemInfo(id);
-    return string.format(L["BTWQUESTS_COLLECT"], name or L["UNKNOWN"]);
+    if variation == "reward" then
+        return name or L["UNKNOWN"];
+    else
+        return string.format(L["BTWQUESTS_COLLECT"], name or L["UNKNOWN"]);
+    end
 end
 function ItemItemMixin:IsCompleted(database, item, character)
     if character:IsPlayer() then

@@ -35,6 +35,7 @@ app.Settings = settings;
 settings.name = app:GetName();
 settings.MostRecentTab = nil;
 settings.Tabs = {};
+settings.TabsByName = {};
 settings:SetBackdrop({
 	bgFile = "Interface/RAIDFRAME/UI-RaidFrame-GroupBg",
 	edgeFile = "Interface/Tooltips/UI-Tooltip-Border",
@@ -168,6 +169,7 @@ local TooltipSettingsBase = {
 		["Auto:BountyList"] = false,
 		["Auto:MiniList"] = true,
 		["Auto:ProfessionList"] = true,
+		["Auto:Sync"] = true,
 		["Auto:AH"] = false,
 		["Celebrate"] = true,
 		["Coordinates"] = true,
@@ -291,6 +293,12 @@ settings.Initialize = function(self)
 	end
 	if self:GetTooltipSetting("Auto:WorldQuestsList") then
 		app:GetWindow("WorldQuests"):Show();
+	end
+
+	-- Account Synchronization
+	self.TabsByName["Sync"]:InitializeSyncWindow();
+	if self:GetTooltipSetting("Auto:Sync") then
+		app:Synchronize(true);
 	end
 
 	settings._Initialize = true;
@@ -720,6 +728,7 @@ settings.CreateTab = function(self, text)
 	tab.objects = {};
 	tab:SetID(id);
 	tab:SetText(text);
+	self.TabsByName[text] = tab;
 	PanelTemplates_TabResize(tab, 0);
 	tab:SetScript("OnClick", OnClickForTab);
 	return tab;
@@ -3545,6 +3554,40 @@ end);
 ShowKnownByCheckBox:SetATTTooltip(L["KNOWN_BY_CHECKBOX_TOOLTIP"]);
 ShowKnownByCheckBox:SetPoint("TOPLEFT", ShortenProgressCheckBox, "BOTTOMLEFT", -8, 4);
 
+local ShowProfessionRequirementsCheckBox = settings:CreateCheckBox(L["PROFESSION_CHECKBOX"],
+function(self)
+	self:SetChecked(settings:GetTooltipSetting("ProfessionRequirements"));
+	if not settings:GetTooltipSetting("Enabled") then
+		self:Disable();
+		self:SetAlpha(0.2);
+	else
+		self:Enable();
+		self:SetAlpha(1);
+	end
+end,
+function(self)
+	settings:SetTooltipSetting("ProfessionRequirements", self:GetChecked());
+end);
+ShowProfessionRequirementsCheckBox:SetATTTooltip(L["PROFESSION_CHECKBOX_TOOLTIP"]);
+ShowProfessionRequirementsCheckBox:SetPoint("TOPLEFT", ShowKnownByCheckBox, "BOTTOMLEFT", 0, 4);
+
+local ShowLevelRequirementsCheckBox = settings:CreateCheckBox(L["LEVELREQ_CHECKBOX"],
+function(self)
+	self:SetChecked(settings:GetTooltipSetting("LevelRequirements"));
+	if not settings:GetTooltipSetting("Enabled") then
+		self:Disable();
+		self:SetAlpha(0.2);
+	else
+		self:Enable();
+		self:SetAlpha(1);
+	end
+end,
+function(self)
+	settings:SetTooltipSetting("LevelRequirements", self:GetChecked());
+end);
+ShowLevelRequirementsCheckBox:SetATTTooltip(L["LEVELREQ_CHECKBOX_TOOLTIP"]);
+ShowLevelRequirementsCheckBox:SetPoint("TOPLEFT", ShowProfessionRequirementsCheckBox, "BOTTOMLEFT", 0, 4);
+
 local ShowClassRequirementsCheckBox = settings:CreateCheckBox(L["CLASSES_CHECKBOX"],
 function(self)
 	self:SetChecked(settings:GetTooltipSetting("ClassRequirements"));
@@ -3560,7 +3603,7 @@ function(self)
 	settings:SetTooltipSetting("ClassRequirements", self:GetChecked());
 end);
 ShowClassRequirementsCheckBox:SetATTTooltip(L["CLASSES_CHECKBOX_TOOLTIP"]);
-ShowClassRequirementsCheckBox:SetPoint("TOPLEFT", ShowKnownByCheckBox, "BOTTOMLEFT", 0, 4);
+ShowClassRequirementsCheckBox:SetPoint("TOPLEFT", ShowLevelRequirementsCheckBox, "BOTTOMLEFT", 0, 4);
 
 local ShowRaceRequirementsCheckBox = settings:CreateCheckBox(L["RACES_CHECKBOX"],
 function(self)
@@ -4598,6 +4641,62 @@ end
 tab.OnRefresh = refreshProfiles;
 
 end)();
+
+------------------------------------------
+-- The "Sync" Tab.					--
+------------------------------------------
+(function()
+local tab = settings:CreateTab("Sync");
+local SyncLabel = settings:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge");
+SyncLabel:SetPoint("TOPLEFT", line, "BOTTOMLEFT", 8, -8);
+SyncLabel:SetJustifyH("LEFT");
+SyncLabel:SetText("Account Synchronization");
+SyncLabel:Show();
+table.insert(settings.MostRecentTab.objects, SyncLabel);
+
+local AutomaticallySyncAccountDataCheckBox = settings:CreateCheckBox("Automatically Sync Account Data",
+function(self)
+	self:SetChecked(settings:GetTooltipSetting("Auto:Sync"));
+end,
+function(self)
+	local checked = self:GetChecked();
+	settings:SetTooltipSetting("Auto:Sync", checked);
+	if checked then app:Synchronize(true); end
+end);
+AutomaticallySyncAccountDataCheckBox:SetATTTooltip("Enable this option if you want ATT to attempt to automatically synchronize account data between accounts when logging in or reloading the UI.");
+AutomaticallySyncAccountDataCheckBox:SetPoint("TOPLEFT", SyncLabel, "BOTTOMLEFT", 4, 0);
+
+function tab:InitializeSyncWindow()
+	local syncWindow = app:GetWindow("Sync");
+	local syncWindow_Show,syncWindow_Refresh,naughty = syncWindow.Show, syncWindow.Refresh;
+	syncWindow.OnRefresh = syncWindow.Update;
+	syncWindow.Show = function(self)
+		if not naughty then
+			naughty = true;
+			syncWindow_Show(self);
+			self:Update();
+		end
+		naughty = nil;
+	end
+	syncWindow.Refresh = function(self)
+		self:ClearAllPoints();
+		self:SetPoint("LEFT", SyncLabel, "LEFT", 0, 0);
+		self:SetPoint("RIGHT", SyncLabel, "LEFT", 300, 0);
+		self:SetPoint("TOP", AutomaticallySyncAccountDataCheckBox, "BOTTOM", 0, 4);
+		self:SetPoint("BOTTOM", settings, "BOTTOM", 0, 4);
+		syncWindow_Refresh(self);
+	end
+	syncWindow.CloseButton:Disable();
+	syncWindow:SetClampedToScreen(false);
+	syncWindow:SetUserPlaced(false);
+	syncWindow:SetToplevel(false);
+	syncWindow:SetMovable(false);
+	syncWindow:SetResizable(false);
+	syncWindow:SetParent(settings);
+	table.insert(tab.objects, syncWindow);
+end
+end)();
+
 
 ------------------------------------------
 -- The "About" Tab.				--
