@@ -76,6 +76,13 @@ X: 340
 Y: 29
 W: 200
 H: 50
+Frame: RematchDialog
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: -1
+W: 420
+H: 200
 Frame: TTG_CombatTimer
 FrameLevel: 1
 Anchor: TOPRIGHT
@@ -104,10 +111,3 @@ X: 230
 Y: 194
 W: 306
 H: 225
-Frame: RematchDialog
-FrameLevel: 1
-Anchor: CENTER
-X: 0
-Y: -1
-W: 300
-H: 140

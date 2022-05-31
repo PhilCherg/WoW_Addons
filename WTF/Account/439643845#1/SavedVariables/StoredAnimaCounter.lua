@@ -11,9 +11,9 @@ StoredAnimaCounterDB = {
 		["Destruxia - Outland"] = "Destruxia - Outland",
 		["Necrophagus - Outland"] = "Necrophagus - Outland",
 		["Phaladinus - Outland"] = "Phaladinus - Outland",
-		["Serthaxion - Outland"] = "Serthaxion - Outland",
-		["Luminaxia - Outland"] = "Luminaxia - Outland",
 		["Shadroxia - Outland"] = "Shadroxia - Outland",
+		["Luminaxia - Outland"] = "Luminaxia - Outland",
+		["Serthaxion - Outland"] = "Serthaxion - Outland",
 		["Elementior - Outland"] = "Elementior - Outland",
 	},
 	["profiles"] = {
@@ -37,11 +37,11 @@ StoredAnimaCounterDB = {
 		},
 		["Phaladinus - Outland"] = {
 		},
-		["Serthaxion - Outland"] = {
+		["Shadroxia - Outland"] = {
 		},
 		["Luminaxia - Outland"] = {
 		},
-		["Shadroxia - Outland"] = {
+		["Serthaxion - Outland"] = {
 		},
 		["Elementior - Outland"] = {
 		},

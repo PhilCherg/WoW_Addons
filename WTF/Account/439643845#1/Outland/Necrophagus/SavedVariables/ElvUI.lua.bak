@@ -2,446 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:5063:Player-1301-0C25BE9F:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Stonecore]|h|r!", -- [1]
-			"Kuedon-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kuedon-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1957, -- [11]
-			"Player-1301-0C25BE9F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeKuedon|r",
-			[51] = 1653937714,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [1]
-		{
-			"you guys doing some lower keys or what I heard?", -- [1]
-			"Zelictoor-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1958, -- [11]
-			"Player-1301-0BB7A578", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeZelictoor|r",
-			[51] = 1653937721,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [2]
-		{
-			"was doing arenas but I noticed something", -- [1]
-			"Zelictoor-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1961, -- [11]
-			"Player-1301-0BB7A578", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeZelictoor|r",
-			[51] = 1653937749,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [3]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14371:Player-1301-0C31DDDB:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Mists of Tirna Scithe]|h|r!", -- [1]
-			"Bonniie-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Bonniie-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1964, -- [11]
-			"Player-1301-0C31DDDB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Bonniie|r",
-			[51] = 1653937831,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [4]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14412:Player-1301-0C31DDDB:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Mists of Tirna Scithe]|h|r!", -- [1]
-			"Bonniie-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Bonniie-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1965, -- [11]
-			"Player-1301-0C31DDDB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Bonniie|r",
-			[51] = 1653937831,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [5]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14413:Player-1301-0C31DDDB:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Mists of Tirna Scithe]|h|r!", -- [1]
-			"Bonniie-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Bonniie-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1966, -- [11]
-			"Player-1301-0C31DDDB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Bonniie|r",
-			[51] = 1653937831,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [6]
-		{
-			"Money Order on Necrophagus", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			1982, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1653937956,
-			[50] = "CHAT_MSG_YELL",
-		}, -- [7]
-		{
-			"3", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			1983, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1653937960,
-			[50] = "CHAT_MSG_YELL",
-		}, -- [8]
-		{
-			"2", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			1984, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1653937961,
-			[50] = "CHAT_MSG_YELL",
-		}, -- [9]
-		{
-			"1", -- [1]
-			"Necrophagus-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Necrophagus-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			1985, -- [11]
-			"Player-1301-096AE5A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNecrophagus|r",
-			[51] = 1653937962,
-			[50] = "CHAT_MSG_YELL",
-		}, -- [10]
-		{
-			"or not.. :D ", -- [1]
-			"Zelictoor-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1994, -- [11]
-			"Player-1301-0BB7A578", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeZelictoor|r",
-			[51] = 1653938011,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [11]
-		{
-			"You get the same amount of valor from every level, so spamming low level keys is easier to farm valor", -- [1]
-			"Snëk-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2003, -- [11]
-			"Player-1301-0B9401BD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Snëk|r",
-			[51] = 1653938041,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [12]
-		{
-			"hey yeah im doing a few", -- [1]
-			"Bonniie-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2007, -- [11]
-			"Player-1301-0C31DDDB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Bonniie|r",
-			[51] = 1653938051,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [13]
-		{
-			"just got a gambit key for level 2", -- [1]
-			"Bonniie-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2012, -- [11]
-			"Player-1301-0C31DDDB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Bonniie|r",
-			[51] = 1653938062,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [14]
-		{
-			"Im down", -- [1]
-			"Snëk-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2013, -- [11]
-			"Player-1301-0B9401BD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Snëk|r",
-			[51] = 1653938068,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [15]
-		{
-			"btw im low level as hell", -- [1]
-			"Bonniie-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2016, -- [11]
-			"Player-1301-0C31DDDB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Bonniie|r",
-			[51] = 1653938078,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [16]
-		{
-			"thats fine", -- [1]
-			"Snëk-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2018, -- [11]
-			"Player-1301-0B9401BD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Snëk|r",
-			[51] = 1653938089,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [17]
-		{
-			"I prolly don't need valor, but I can use some experience if you're missing a healer", -- [1]
-			"Zelictoor-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2020, -- [11]
-			"Player-1301-0BB7A578", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeZelictoor|r",
-			[51] = 1653938097,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [18]
-		{
-			"its a 2, doesnt really matter", -- [1]
-			"Snëk-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2022, -- [11]
-			"Player-1301-0B9401BD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Snëk|r",
-			[51] = 1653938098,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [19]
-		{
-			"you 100% need valor if you need itemlevel", -- [1]
-			"Snëk-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2024, -- [11]
-			"Player-1301-0B9401BD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Snëk|r",
-			[51] = 1653938116,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [20]
-		{
 			"am on hs haha", -- [1]
 			"Bonniie-Outland", -- [2]
 			"", -- [3]
@@ -462,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Bonniie|r",
 			[51] = 1653938133,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [21]
+		}, -- [1]
 		{
 			"yeah for sure", -- [1]
 			"Bonniie-Outland", -- [2]
@@ -484,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Bonniie|r",
 			[51] = 1653938152,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [22]
+		}, -- [2]
 		{
 			"any more for gambit +2", -- [1]
 			"Bonniie-Outland", -- [2]
@@ -506,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Bonniie|r",
 			[51] = 1653938171,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [23]
+		}, -- [3]
 		{
 			"inv if you need heal", -- [1]
 			"Zelictoor-Outland", -- [2]
@@ -528,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeZelictoor|r",
 			[51] = 1653938187,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [24]
+		}, -- [4]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14473:Player-1301-0C321DCD:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Fracture Chambers]|h|r!", -- [1]
 			"Cosmovoidum-Outland", -- [2]
@@ -550,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edCosmovoidum|r",
 			[51] = 1653938214,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [25]
+		}, -- [5]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12596:Player-1301-0C049FB7:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[No Tourist]|h|r!", -- [1]
 			"Bommel-Outland", -- [2]
@@ -572,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bommel|r",
 			[51] = 1653938229,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [26]
+		}, -- [6]
 		{
 			"Chains of Damnation on Pardus", -- [1]
 			"Pardus-Ambossar", -- [2]
@@ -594,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Pardus-Ambossar|r",
 			[51] = 1653938348,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [27]
+		}, -- [7]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:5297:Player-1301-0C2C1F3A:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Umbrage for Umbriss]|h|r!", -- [1]
 			"Felluzok-Outland", -- [2]
@@ -616,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cFelluzok|r",
 			[51] = 1653938543,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [28]
+		}, -- [8]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:5297:Player-1301-0C25BE9F:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Umbrage for Umbriss]|h|r!", -- [1]
 			"Kuedon-Outland", -- [2]
@@ -638,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeKuedon|r",
 			[51] = 1653938543,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [29]
+		}, -- [9]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:11162:Player-1301-07D1C69F:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Keystone Master]|h|r!", -- [1]
 			"Baaradir-Outland", -- [2]
@@ -660,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Baaradir|r",
 			[51] = 1653938964,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [30]
+		}, -- [10]
 		{
 			"Astral Keys: New key |cffa335ee|Hkeystone:180653:392:17:9:7:13:130|h[Keystone: Tazavesh: So'leah's Gambit (17)]|h|r (Kyrian)", -- [1]
 			"Baaradir-Outland", -- [2]
@@ -682,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Baaradir|r",
 			[51] = 1653938967,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [31]
+		}, -- [11]
 		{
 			"|cffa335ee|Hitem:185840::::::::60:104::16:6:7795:7359:6652:7579:1579:6646:1:28:1279:::::|h[Печать паноплии]|h|r", -- [1]
 			"Искадра-Гордунни", -- [2]
@@ -704,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Искадра-Гордунни|r",
 			[51] = 1653938980,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [32]
+		}, -- [12]
 		{
 			"can i have it?", -- [1]
 			"Baaradir-Outland", -- [2]
@@ -726,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Baaradir|r",
 			[51] = 1653938990,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [33]
+		}, -- [13]
 		{
 			"ty ", -- [1]
 			"Baaradir-Outland", -- [2]
@@ -748,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Baaradir|r",
 			[51] = 1653938998,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [34]
+		}, -- [14]
 		{
 			"txh for run", -- [1]
 			"Искадра-Гордунни", -- [2]
@@ -770,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Искадра-Гордунни|r",
 			[51] = 1653939002,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [35]
+		}, -- [15]
 		{
 			"ty :D", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -792,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1653939006,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [36]
+		}, -- [16]
 		{
 			"bb", -- [1]
 			"Искадра-Гордунни", -- [2]
@@ -814,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Искадра-Гордунни|r",
 			[51] = 1653939007,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [37]
+		}, -- [17]
 		{
 			"thx for party", -- [1]
 			"Дримфил-Гордунни", -- [2]
@@ -836,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cДримфил-Гордунни|r",
 			[51] = 1653939012,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [38]
+		}, -- [18]
 		{
 			"sia", -- [1]
 			"Дримфил-Гордунни", -- [2]
@@ -858,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cДримфил-Гордунни|r",
 			[51] = 1653939015,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [39]
+		}, -- [19]
 		{
 			"bb", -- [1]
 			"Pardus-Ambossar", -- [2]
@@ -880,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Pardus-Ambossar|r",
 			[51] = 1653939017,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [40]
+		}, -- [20]
 		{
 			"WTS 2v2 BOOST get 1.8 2.1 today // Only healers // W MEWTS 2v2 BOOST get 1.8 2.1 today // Only healers // W ME", -- [1]
 			"Spyrø-Outland", -- [2]
@@ -902,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cSpyrø|r",
 			[51] = 1653939285,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
+		}, -- [21]
 		{
 			"||Mythci Plus 15-20|| (private team) KSM/KSH  ||only gold|| {FREE armor stacks}", -- [1]
 			"Ziireal-Outland", -- [2]
@@ -924,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cZiireal|r",
 			[51] = 1653939301,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
+		}, -- [22]
 		{
 			" /2 3.4k+ team Selling +15-20! /w for more info! Outlland Gold only.", -- [1]
 			"Shugahnips-Outland", -- [2]
@@ -946,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeShugahnips|r",
 			[51] = 1653939303,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
+		}, -- [23]
 		{
 			"3.4k+ team Selling +15-20! /w for more info! Outlland Gold only.", -- [1]
 			"Shugahnips-Outland", -- [2]
@@ -968,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeShugahnips|r",
 			[51] = 1653939305,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
+		}, -- [24]
 		{
 			"LF Tailor", -- [1]
 			"Jaytooru-Outland", -- [2]
@@ -990,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeJaytooru|r",
 			[51] = 1653939330,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [25]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:1177:Player-1301-0C3415B1:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Got My Mind On My Money]|h|r!", -- [1]
 			"Profartshunt-Outland", -- [2]
@@ -1012,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Profartshunt|r",
 			[51] = 1653939799,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [46]
+		}, -- [26]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:4840:Player-1301-0C2C1F3A:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Grim Batol]|h|r!", -- [1]
 			"Felluzok-Outland", -- [2]
@@ -1034,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cFelluzok|r",
 			[51] = 1653939812,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [47]
+		}, -- [27]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:5298:Player-1301-0C2C1F3A:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Don't Need to Break Eggs to Make an Omelet]|h|r!", -- [1]
 			"Felluzok-Outland", -- [2]
@@ -1056,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cFelluzok|r",
 			[51] = 1653939812,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [48]
+		}, -- [28]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:5062:Player-1301-0C2C1F3A:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Grim Batol]|h|r!", -- [1]
 			"Felluzok-Outland", -- [2]
@@ -1078,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cFelluzok|r",
 			[51] = 1653939812,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [49]
+		}, -- [29]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:4840:Player-1301-0C25BE9F:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Grim Batol]|h|r!", -- [1]
 			"Kuedon-Outland", -- [2]
@@ -1100,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeKuedon|r",
 			[51] = 1653939812,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [50]
+		}, -- [30]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:5298:Player-1301-0C25BE9F:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Don't Need to Break Eggs to Make an Omelet]|h|r!", -- [1]
 			"Kuedon-Outland", -- [2]
@@ -1122,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeKuedon|r",
 			[51] = 1653939812,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [51]
+		}, -- [31]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:5062:Player-1301-0C25BE9F:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Grim Batol]|h|r!", -- [1]
 			"Kuedon-Outland", -- [2]
@@ -1144,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeKuedon|r",
 			[51] = 1653939812,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [52]
+		}, -- [32]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14478:Player-1301-0C321DCD:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[The Soulforges]|h|r!", -- [1]
 			"Cosmovoidum-Outland", -- [2]
@@ -1166,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edCosmovoidum|r",
 			[51] = 1653939920,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [53]
+		}, -- [33]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6977:Player-1301-0C31DDDB:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Explore Townlong Steppes]|h|r!", -- [1]
 			"Bonniie-Outland", -- [2]
@@ -1188,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Bonniie|r",
 			[51] = 1653940078,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [54]
+		}, -- [34]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6976:Player-1301-0C31DDDB:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Explore Kun-Lai Summit]|h|r!", -- [1]
 			"Bonniie-Outland", -- [2]
@@ -1210,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Bonniie|r",
 			[51] = 1653940078,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [55]
+		}, -- [35]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6979:Player-1301-0C31DDDB:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Explore Vale of Eternal Blossoms]|h|r!", -- [1]
 			"Bonniie-Outland", -- [2]
@@ -1232,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Bonniie|r",
 			[51] = 1653940078,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [56]
+		}, -- [36]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6351:Player-1301-0C31DDDB:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Explore Jade Forest]|h|r!", -- [1]
 			"Bonniie-Outland", -- [2]
@@ -1254,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Bonniie|r",
 			[51] = 1653940078,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [57]
+		}, -- [37]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6978:Player-1301-0C31DDDB:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Explore Dread Wastes]|h|r!", -- [1]
 			"Bonniie-Outland", -- [2]
@@ -1276,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Bonniie|r",
 			[51] = 1653940078,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [58]
+		}, -- [38]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6975:Player-1301-0C31DDDB:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Explore Krasarang Wilds]|h|r!", -- [1]
 			"Bonniie-Outland", -- [2]
@@ -1298,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Bonniie|r",
 			[51] = 1653940078,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [59]
+		}, -- [39]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6969:Player-1301-0C31DDDB:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Explore Valley of the Four Winds]|h|r!", -- [1]
 			"Bonniie-Outland", -- [2]
@@ -1320,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Bonniie|r",
 			[51] = 1653940078,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [60]
+		}, -- [40]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:858:Player-1301-0C31DDDB:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Explore Ghostlands]|h|r!", -- [1]
 			"Bonniie-Outland", -- [2]
@@ -1342,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Bonniie|r",
 			[51] = 1653940081,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [61]
+		}, -- [41]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:859:Player-1301-0C31DDDB:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Explore Eversong Woods]|h|r!", -- [1]
 			"Bonniie-Outland", -- [2]
@@ -1364,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Bonniie|r",
 			[51] = 1653940081,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [62]
+		}, -- [42]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:868:Player-1301-0C31DDDB:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Explore Isle of Quel'Danas]|h|r!", -- [1]
 			"Bonniie-Outland", -- [2]
@@ -1386,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Bonniie|r",
 			[51] = 1653940081,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [63]
+		}, -- [43]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:861:Player-1301-0C31DDDB:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Explore Bloodmyst Isle]|h|r!", -- [1]
 			"Bonniie-Outland", -- [2]
@@ -1408,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Bonniie|r",
 			[51] = 1653940085,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [64]
+		}, -- [44]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:860:Player-1301-0C31DDDB:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Explore Azuremyst Isle]|h|r!", -- [1]
 			"Bonniie-Outland", -- [2]
@@ -1430,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Bonniie|r",
 			[51] = 1653940085,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [65]
+		}, -- [45]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8938:Player-1301-0C31DDDB:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Explore Shadowmoon Valley]|h|r!", -- [1]
 			"Bonniie-Outland", -- [2]
@@ -1452,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Bonniie|r",
 			[51] = 1653940088,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [66]
+		}, -- [46]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8939:Player-1301-0C31DDDB:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Explore Gorgrond]|h|r!", -- [1]
 			"Bonniie-Outland", -- [2]
@@ -1474,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Bonniie|r",
 			[51] = 1653940088,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [67]
+		}, -- [47]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8941:Player-1301-0C31DDDB:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Explore Spires of Arak]|h|r!", -- [1]
 			"Bonniie-Outland", -- [2]
@@ -1496,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Bonniie|r",
 			[51] = 1653940088,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [68]
+		}, -- [48]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8937:Player-1301-0C31DDDB:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Explore Frostfire Ridge]|h|r!", -- [1]
 			"Bonniie-Outland", -- [2]
@@ -1518,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Bonniie|r",
 			[51] = 1653940088,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [69]
+		}, -- [49]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8942:Player-1301-0C31DDDB:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Explore Nagrand]|h|r!", -- [1]
 			"Bonniie-Outland", -- [2]
@@ -1540,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Bonniie|r",
 			[51] = 1653940088,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [70]
+		}, -- [50]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8940:Player-1301-0C31DDDB:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Explore Talador]|h|r!", -- [1]
 			"Bonniie-Outland", -- [2]
@@ -1562,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Bonniie|r",
 			[51] = 1653940088,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [71]
+		}, -- [51]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10260:Player-1301-0C31DDDB:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Explore Tanaan Jungle]|h|r!", -- [1]
 			"Bonniie-Outland", -- [2]
@@ -1584,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Bonniie|r",
 			[51] = 1653940088,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [72]
+		}, -- [52]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6531:Player-1301-07D1C69F:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Attention to Detail]|h|r!", -- [1]
 			"Baaradir-Outland", -- [2]
@@ -1606,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Baaradir|r",
 			[51] = 1653940109,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [73]
+		}, -- [53]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6394:Player-1301-07D1C69F:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Rattle No More]|h|r!", -- [1]
 			"Baaradir-Outland", -- [2]
@@ -1628,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Baaradir|r",
 			[51] = 1653940154,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [74]
+		}, -- [54]
 		{
 			"<Unexceptional> M+ team selling Mythic 15 Boosts. 100k a boost. All team members 3000+ IO.", -- [1]
 			"Acodemon-Outland", -- [2]
@@ -1650,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Acodemon|r",
 			[51] = 1653940629,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [55]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14755:Player-1301-0C321DCD:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Legendary Accord]|h|r!", -- [1]
 			"Cosmovoidum-Outland", -- [2]
@@ -1672,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edCosmovoidum|r",
 			[51] = 1653940804,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [76]
+		}, -- [56]
 		{
 			"Cookies Here!!!", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1694,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1653941009,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [77]
+		}, -- [57]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6821:Player-1301-07D1C69F:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[School's Out Forever]|h|r!", -- [1]
 			"Baaradir-Outland", -- [2]
@@ -1716,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Baaradir|r",
 			[51] = 1653941229,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [78]
+		}, -- [58]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6821:Player-1301-096AE5A8:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[School's Out Forever]|h|r!", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1738,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1653941229,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [79]
+		}, -- [59]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6762:Player-1301-07D1C69F:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Scholomance]|h|r!", -- [1]
 			"Baaradir-Outland", -- [2]
@@ -1760,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Baaradir|r",
 			[51] = 1653941233,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [80]
+		}, -- [60]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14369:Player-1301-08B5408C:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Plaguefall]|h|r!", -- [1]
 			"Ruvick-Outland", -- [2]
@@ -1782,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edRuvick|r",
 			[51] = 1653941447,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [81]
+		}, -- [61]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14414:Player-1301-08B5408C:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Plaguefall]|h|r!", -- [1]
 			"Ruvick-Outland", -- [2]
@@ -1804,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edRuvick|r",
 			[51] = 1653941447,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [82]
+		}, -- [62]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14415:Player-1301-08B5408C:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Plaguefall]|h|r!", -- [1]
 			"Ruvick-Outland", -- [2]
@@ -1826,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edRuvick|r",
 			[51] = 1653941447,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [83]
+		}, -- [63]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:7413:Player-1301-096AE5A8:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Scarlet Halls]|h|r!", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1848,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1653941562,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [84]
+		}, -- [64]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6760:Player-1301-096AE5A8:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Scarlet Halls]|h|r!", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1870,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1653941562,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [85]
+		}, -- [65]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6760:Player-1301-07D1C69F:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Scarlet Halls]|h|r!", -- [1]
 			"Baaradir-Outland", -- [2]
@@ -1892,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Baaradir|r",
 			[51] = 1653941562,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [86]
+		}, -- [66]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6925:Player-1301-096AE5A8:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Pandaria Dungeon Hero]|h|r!", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1914,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1653941562,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [87]
+		}, -- [67]
 		{
 			"yup", -- [1]
 			"Pipiczek-Outland", -- [2]
@@ -1936,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Pipiczek|r",
 			[51] = 1653941618,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [68]
 		{
 			"|cffffd100|HclubFinder:ClubFinder-1-28320-1301-20513266|h[Guild: Srebrna Krucjata]|h|r", -- [1]
 			"Pipiczek-Outland", -- [2]
@@ -1958,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Pipiczek|r",
 			[51] = 1653941653,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [69]
 		{
 			"go to legion dalaran and see how game is dead :D", -- [1]
 			"Zaboravko-Outland", -- [2]
@@ -1980,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcZaboravko|r",
 			[51] = 1653941693,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [70]
 		{
 			"anyone for some fun 2s?", -- [1]
 			"Zelictoor-Outland", -- [2]
@@ -2002,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeZelictoor|r",
 			[51] = 1653942116,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [91]
+		}, -- [71]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:11162:Player-1301-0C2F6B59:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Keystone Master]|h|r!", -- [1]
 			"Niwena-Outland", -- [2]
@@ -2024,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Niwena|r",
 			[51] = 1653942297,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [92]
+		}, -- [72]
 		{
 			"gzz", -- [1]
 			"Niinaa-Outland", -- [2]
@@ -2046,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Niinaa|r",
 			[51] = 1653942322,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [93]
+		}, -- [73]
 		{
 			"any 1500+ rating pvp tank in guild for rbg?", -- [1]
 			"Grimreáper-Outland", -- [2]
@@ -2068,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edGrimreáper|r",
 			[51] = 1653942332,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [94]
+		}, -- [74]
 		{
 			"ty :)", -- [1]
 			"Niwena-Outland", -- [2]
@@ -2090,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Niwena|r",
 			[51] = 1653942357,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [95]
+		}, -- [75]
 		{
 			"Omg, just got |cff71d5ff|Hspell:107845:0|h[Life-Binder's Handmaiden]|h|r & |cff71d5ff|Hspell:107842:0|h[Blazing Drake]|h|r in the same run on my alt", -- [1]
 			"Teldrae-Outland", -- [2]
@@ -2112,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Teldrae|r",
 			[51] = 1653942432,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [96]
+		}, -- [76]
 		{
 			"nice gzz :d", -- [1]
 			"Niinaa-Outland", -- [2]
@@ -2134,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Niinaa|r",
 			[51] = 1653942446,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [97]
+		}, -- [77]
 		{
 			":DDD ty", -- [1]
 			"Teldrae-Outland", -- [2]
@@ -2156,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Teldrae|r",
 			[51] = 1653942449,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [98]
+		}, -- [78]
 		{
 			"And |cffffff00|Hachievement:9713:Player-1301-0742687A:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Awake the Drakes]|h|r yay", -- [1]
 			"Teldrae-Outland", -- [2]
@@ -2177,6 +1737,446 @@ ElvCharacterDB = {
 			false, -- [17]
 			[52] = "|cfffe7b09Teldrae|r",
 			[51] = 1653942475,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [79]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:9714:Player-1301-0C30784C:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Thy Kingdom Come]|h|r!", -- [1]
+			"Beltizek-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Beltizek-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2897, -- [11]
+			"Player-1301-0C30784C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Beltizek|r",
+			[51] = 1653944324,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [80]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:9228:Player-1301-0AC162DA:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Down Goes Van Rook]|h|r!", -- [1]
+			"Bólvár-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bólvár-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2898, -- [11]
+			"Player-1301-0AC162DA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Bólvár|r",
+			[51] = 1653944340,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [81]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:15408:Player-1301-096AE5A8:1:5:30:22:4294967295:4294967295:4294967295:4294967295|h[Cosmic Chic]|h|r!", -- [1]
+			"Necrophagus-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Necrophagus-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2900, -- [11]
+			"Player-1301-096AE5A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNecrophagus|r",
+			[51] = 1653944350,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [82]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14841:Player-1301-0C30F7C2:1:5:31:22:4294967295:4294967295:4294967295:4294967295|h[Adventures: Now You're Cooking]|h|r!", -- [1]
+			"Bside-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bside-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2916, -- [11]
+			"Player-1301-0C30F7C2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBside|r",
+			[51] = 1653944616,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [83]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12914:Player-1301-0C2F49E9:1:5:31:22:4294967295:4294967295:4294967295:4294967295|h[Honor Level 250]|h|r!", -- [1]
+			"Grimreáper-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Grimreáper-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2918, -- [11]
+			"Player-1301-0C2F49E9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edGrimreáper|r",
+			[51] = 1653944667,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [84]
+		{
+			"dayummm honor level 250", -- [1]
+			"Hunterfel-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2919, -- [11]
+			"Player-1301-0C2FF5B3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Hunterfel|r",
+			[51] = 1653944680,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [85]
+		{
+			"big grats", -- [1]
+			"Bside-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2920, -- [11]
+			"Player-1301-0C30F7C2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBside|r",
+			[51] = 1653944687,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [86]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:11184:Player-1301-0C31DDDB:1:5:31:22:4294967295:4294967295:4294967295:4294967295|h[Keystone Challenger]|h|r!", -- [1]
+			"Bonniie-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bonniie-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2942, -- [11]
+			"Player-1301-0C31DDDB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Bonniie|r",
+			[51] = 1653944857,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [87]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:11185:Player-1301-0C31DDDB:1:5:31:22:4294967295:4294967295:4294967295:4294967295|h[Keystone Conqueror]|h|r!", -- [1]
+			"Bonniie-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bonniie-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2943, -- [11]
+			"Player-1301-0C31DDDB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Bonniie|r",
+			[51] = 1653944857,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [88]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:11162:Player-1301-0C31DDDB:1:5:31:22:4294967295:4294967295:4294967295:4294967295|h[Keystone Master]|h|r!", -- [1]
+			"Bonniie-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bonniie-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2944, -- [11]
+			"Player-1301-0C31DDDB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Bonniie|r",
+			[51] = 1653944857,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [89]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:11176:Player-1301-07D1C69F:1:5:31:22:4294967295:4294967295:4294967295:4294967295|h[Remember to Share]|h|r!", -- [1]
+			"Baaradir-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Baaradir-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2945, -- [11]
+			"Player-1301-07D1C69F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Baaradir|r",
+			[51] = 1653944909,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [90]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:5327:Player-1301-0C2F49E9:1:5:31:22:4294967295:4294967295:4294967295:4294967295|h[In Service of the Alliance]|h|r!", -- [1]
+			"Grimreáper-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Grimreáper-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2972, -- [11]
+			"Player-1301-0C2F49E9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edGrimreáper|r",
+			[51] = 1653945042,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [91]
+		{
+			"thanks all", -- [1]
+			"Grimreáper-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2979, -- [11]
+			"Player-1301-0C2F49E9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edGrimreáper|r",
+			[51] = 1653945139,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [92]
+		{
+			"|cff71d5ff|Hspell:222241:0|h[Prestigious Midnight Courser]|h|r was my reward", -- [1]
+			"Grimreáper-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2983, -- [11]
+			"Player-1301-0C2F49E9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edGrimreáper|r",
+			[51] = 1653945190,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [93]
+		{
+			"nice", -- [1]
+			"Bonniie-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2987, -- [11]
+			"Player-1301-0C31DDDB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Bonniie|r",
+			[51] = 1653945223,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [94]
+		{
+			"holy shit ", -- [1]
+			"Zelictoor-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3001, -- [11]
+			"Player-1301-0BB7A578", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeZelictoor|r",
+			[51] = 1653945286,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [95]
+		{
+			"im still at like lvl 30", -- [1]
+			"Zelictoor-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3005, -- [11]
+			"Player-1301-0BB7A578", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeZelictoor|r",
+			[51] = 1653945293,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [96]
+		{
+			"thats what I get for leaving the game for a year because there was no content for a year", -- [1]
+			"Zelictoor-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3034, -- [11]
+			"Player-1301-0BB7A578", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeZelictoor|r",
+			[51] = 1653945311,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [97]
+		{
+			"i can now average 4-5 milliona damage in rated battle grounds", -- [1]
+			"Grimreáper-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3038, -- [11]
+			"Player-1301-0C2F49E9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edGrimreáper|r",
+			[51] = 1653945380,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [98]
+		{
+			"dang", -- [1]
+			"Zelictoor-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3039, -- [11]
+			"Player-1301-0BB7A578", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeZelictoor|r",
+			[51] = 1653945392,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [99]
 	},

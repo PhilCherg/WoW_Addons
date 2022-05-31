@@ -15,9 +15,9 @@ _detalhes_database = {
 		["show_options"] = false,
 		["pos"] = {
 		},
+		["height"] = 18,
 		["cooldowns"] = {
 		},
-		["height"] = 18,
 		["framme_locked"] = false,
 		["show_conditions"] = {
 			["only_inside_instance"] = true,
@@ -107,14 +107,14 @@ _detalhes_database = {
 			23086, -- [6]
 			23456, -- [7]
 		},
-		["Player-1614-0ACAF590"] = {
-			19233, -- [1]
-			22333, -- [2]
-			19240, -- [3]
-			22122, -- [4]
-			23078, -- [5]
-			22336, -- [6]
-			21188, -- [7]
+		["Player-580-07FB3925"] = {
+			22296, -- [1]
+			21997, -- [2]
+			23100, -- [3]
+			22277, -- [4]
+			22499, -- [5]
+			22300, -- [6]
+			22301, -- [7]
 		},
 		["Player-1329-093E84B0"] = {
 			23106, -- [1]
@@ -197,14 +197,14 @@ _detalhes_database = {
 			23063, -- [6]
 			22288, -- [7]
 		},
-		["Player-3391-0C32DC72"] = {
-			22633, -- [1]
-			19676, -- [2]
-			22381, -- [3]
-			22627, -- [4]
-			19140, -- [5]
-			22398, -- [6]
-			22405, -- [7]
+		["Player-1602-0B5C9CAA"] = {
+			22136, -- [1]
+			22315, -- [2]
+			23127, -- [3]
+			21752, -- [4]
+			21755, -- [5]
+			21720, -- [6]
+			21978, -- [7]
 		},
 		["Player-1402-0A07906F"] = {
 			22590, -- [1]
@@ -251,14 +251,14 @@ _detalhes_database = {
 			18585, -- [6]
 			22404, -- [7]
 		},
-		["Player-1390-099647B3"] = {
-			22460, -- [1]
-			22443, -- [2]
-			22444, -- [3]
-			22466, -- [4]
-			22448, -- [5]
-			23176, -- [6]
-			21632, -- [7]
+		["Player-1301-07E9AE4F"] = {
+			20185, -- [1]
+			19302, -- [2]
+			22098, -- [3]
+			23364, -- [4]
+			20173, -- [5]
+			22102, -- [6]
+			22105, -- [7]
 		},
 		["Player-1301-096AE5A8"] = {
 			22038, -- [1]
@@ -278,14 +278,14 @@ _detalhes_database = {
 			23015, -- [6]
 			21186, -- [7]
 		},
-		["Player-1301-07D1C69F"] = {
-			22590, -- [1]
-			22592, -- [2]
+		["Player-1096-0A495B6D"] = {
+			22428, -- [1]
+			22431, -- [2]
 			22179, -- [3]
-			22434, -- [4]
+			22433, -- [4]
 			17597, -- [5]
-			23086, -- [6]
-			23456, -- [7]
+			22438, -- [6]
+			21202, -- [7]
 		},
 		["Player-1602-0118776C"] = {
 			22418, -- [1]
@@ -305,14 +305,14 @@ _detalhes_database = {
 			19357, -- [6]
 			22273, -- [7]
 		},
-		["Player-1417-05941102"] = {
-			23106, -- [1]
-			19302, -- [2]
-			22099, -- [3]
-			19995, -- [4]
-			23363, -- [5]
-			20184, -- [6]
-			22106, -- [7]
+		["Player-3391-0C32DC72"] = {
+			22633, -- [1]
+			19676, -- [2]
+			22381, -- [3]
+			22627, -- [4]
+			19140, -- [5]
+			22398, -- [6]
+			22405, -- [7]
 		},
 		["Player-1301-0C343D41"] = {
 			19233, -- [1]
@@ -332,14 +332,14 @@ _detalhes_database = {
 			22422, -- [6]
 			21651, -- [7]
 		},
-		["Player-1096-0A495B6D"] = {
-			22428, -- [1]
-			22431, -- [2]
+		["Player-1301-07D1C69F"] = {
+			22590, -- [1]
+			22592, -- [2]
 			22179, -- [3]
-			22433, -- [4]
+			22434, -- [4]
 			17597, -- [5]
-			22438, -- [6]
-			21202, -- [7]
+			23086, -- [6]
+			23456, -- [7]
 		},
 		["Player-580-08C8FD95"] = {
 			22428, -- [1]
@@ -386,15 +386,6 @@ _detalhes_database = {
 			22544, -- [6]
 			23455, -- [7]
 		},
-		["Player-1385-08F8864B"] = {
-			22090, -- [1]
-			23148, -- [2]
-			19286, -- [3]
-			22480, -- [4]
-			19291, -- [5]
-			23156, -- [6]
-			19284, -- [7]
-		},
 		["Player-3686-09C7F6B3"] = {
 			19290, -- [1]
 			22045, -- [2]
@@ -403,6 +394,15 @@ _detalhes_database = {
 			19291, -- [5]
 			23147, -- [6]
 			22479, -- [7]
+		},
+		["Player-1385-08F8864B"] = {
+			22090, -- [1]
+			23148, -- [2]
+			19286, -- [3]
+			22480, -- [4]
+			19291, -- [5]
+			23156, -- [6]
+			19284, -- [7]
 		},
 		["Player-580-0A481150"] = {
 			19823, -- [1]
@@ -449,14 +449,14 @@ _detalhes_database = {
 			22534, -- [6]
 			22030, -- [7]
 		},
-		["Player-580-07FB3925"] = {
-			22296, -- [1]
-			21997, -- [2]
-			23100, -- [3]
-			22277, -- [4]
-			22499, -- [5]
-			22300, -- [6]
-			22301, -- [7]
+		["Player-1614-0ACAF590"] = {
+			19233, -- [1]
+			22333, -- [2]
+			19240, -- [3]
+			22122, -- [4]
+			23078, -- [5]
+			22336, -- [6]
+			21188, -- [7]
 		},
 		["Player-3391-08495E27"] = {
 			22280, -- [1]
@@ -494,23 +494,23 @@ _detalhes_database = {
 			22300, -- [6]
 			22301, -- [7]
 		},
-		["Player-1602-0B5C9CAA"] = {
-			22136, -- [1]
-			22315, -- [2]
-			23127, -- [3]
-			21752, -- [4]
-			21755, -- [5]
-			21720, -- [6]
-			21978, -- [7]
-		},
-		["Player-1301-07E9AE4F"] = {
-			20185, -- [1]
+		["Player-1417-05941102"] = {
+			23106, -- [1]
 			19302, -- [2]
-			22098, -- [3]
-			23364, -- [4]
-			20173, -- [5]
-			22102, -- [6]
-			22105, -- [7]
+			22099, -- [3]
+			19995, -- [4]
+			23363, -- [5]
+			20184, -- [6]
+			22106, -- [7]
+		},
+		["Player-1390-099647B3"] = {
+			22460, -- [1]
+			22443, -- [2]
+			22444, -- [3]
+			22466, -- [4]
+			22448, -- [5]
+			23176, -- [6]
+			21632, -- [7]
 		},
 	},
 	["last_instance_id"] = 230,
@@ -525,7 +525,10 @@ _detalhes_database = {
 	["active_profile"] = "Necrophagus-Outland",
 	["last_realversion"] = 146,
 	["ignore_nicktag"] = false,
-	["last_encounter"] = "Madness of Deathwing",
+	["benchmark_db"] = {
+		["frame"] = {
+		},
+	},
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["enabled"] = true,
@@ -539,13 +542,13 @@ _detalhes_database = {
 			},
 			["playSound"] = false,
 			["updatespeed"] = 1,
-			["disable_gouge"] = false,
+			["usefocus"] = false,
 			["showamount"] = false,
 			["useplayercolor"] = false,
 			["absolute_mode"] = false,
 			["author"] = "Details! Team",
 			["playSoundFile"] = "Details Threat Warning Volume 3",
-			["usefocus"] = false,
+			["disable_gouge"] = false,
 		},
 		["DETAILS_PLUGIN_RAIDCHECK"] = {
 			["enabled"] = true,
@@ -572,15 +575,15 @@ _detalhes_database = {
 			["tank_block_size"] = 150,
 			["bar_height"] = 24,
 			["tank_block_texture"] = "Details Serenity",
-			["show_inc_bars"] = false,
-			["tank_block_height"] = 40,
-			["tank_block_powerbar_size_height"] = 10,
 			["tank_block_color"] = {
 				0.24705882, -- [1]
 				0.0039215, -- [2]
 				0, -- [3]
 				0.8, -- [4]
 			},
+			["tank_block_powerbar_size_height"] = 10,
+			["tank_block_height"] = 40,
+			["show_inc_bars"] = false,
 		},
 		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
 			["enabled"] = true,
@@ -590,11 +593,11 @@ _detalhes_database = {
 			["last_section_selected"] = "graph",
 			["author"] = "Details! Team",
 			["window_scale"] = 1,
-			["hide_on_combat"] = false,
-			["show_icon"] = 5,
-			["opened"] = 2,
 			["encounter_timers_dbm"] = {
 			},
+			["show_icon"] = 5,
+			["opened"] = 2,
+			["hide_on_combat"] = false,
 		},
 		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
 			["font_color"] = {
@@ -620,32 +623,17 @@ _detalhes_database = {
 				["radius"] = 160,
 				["hide"] = true,
 			},
-			["scale"] = 1,
+			["use_square_mode"] = false,
 			["arrow_anchor_x"] = 0,
-			["row_height"] = 20,
+			["main_frame_locked"] = false,
 			["row_texture"] = "Details Serenity",
-			["point"] = "CENTER",
-			["author"] = "Details! Team",
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["arrow_anchor_y"] = 0,
+			["font_size"] = 10,
+			["main_frame_strata"] = "LOW",
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["per_second"] = {
-				["enabled"] = false,
-				["point"] = "CENTER",
-				["scale"] = 1,
-				["font_shadow"] = true,
-				["y"] = 3.0517578125e-05,
-				["x"] = 3.0517578125e-05,
-				["size"] = 32,
-				["update_speed"] = 0.05,
-				["attribute_type"] = 1,
-			},
+			["use_spark"] = true,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -653,43 +641,54 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["use_spark"] = true,
 			["y"] = 4.57763671875e-05,
+			["per_second"] = {
+				["enabled"] = false,
+				["point"] = "CENTER",
+				["scale"] = 1,
+				["font_shadow"] = true,
+				["y"] = 3.0517578125e-05,
+				["x"] = 3.0517578125e-05,
+				["attribute_type"] = 1,
+				["update_speed"] = 0.05,
+				["size"] = 32,
+			},
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
-			["font_size"] = 10,
-			["arrow_anchor_y"] = 0,
-			["main_frame_locked"] = false,
-			["use_square_mode"] = false,
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["point"] = "CENTER",
+			["row_height"] = 20,
+			["scale"] = 1,
 		},
 	},
-	["on_death_menu"] = true,
-	["announce_damagerecord"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
+	["last_encounter"] = "Madness of Deathwing",
+	["cached_roles"] = {
 	},
+	["on_death_menu"] = true,
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["mythic_dungeon_currentsaved"] = {
-		["dungeon_name"] = "Tazavesh, the Veiled Market",
-		["started"] = false,
-		["segment_id"] = 6,
-		["ej_id"] = 1194,
-		["started_at"] = 1653940762.7,
-		["run_id"] = 275,
-		["level"] = 15,
-		["dungeon_zone_id"] = 2441,
-		["previous_boss_killed_at"] = 1653942564,
+	["cd_tracker"] = {
+		["enabled"] = false,
+		["cds_enabled"] = {
+		},
+		["show_conditions"] = {
+			["only_inside_instance"] = true,
+			["only_in_group"] = true,
+		},
+		["pos"] = {
+		},
 	},
-	["last_day"] = "31",
-	["character_data"] = {
-		["logons"] = 2787,
-	},
+	["combat_counter"] = 119380,
 	["announce_prepots"] = {
 		["enabled"] = false,
 		["channel"] = "SELF",
@@ -1001,8 +1000,8 @@ _detalhes_database = {
 			}, -- [6]
 			2, -- [7]
 		},
-		["Stevecleave"] = {
-			"Mokey's Bae", -- [1]
+		["Pallios"] = {
+			"Secret Tank", -- [1]
 			"", -- [2]
 			{
 				0, -- [1]
@@ -1022,7 +1021,7 @@ _detalhes_database = {
 				1, -- [2]
 				1, -- [3]
 			}, -- [6]
-			12, -- [7]
+			7, -- [7]
 		},
 		["Eggmcmuff"] = {
 			"Eggmcmuff", -- [1]
@@ -1416,7 +1415,29 @@ _detalhes_database = {
 			}, -- [6]
 			2, -- [7]
 		},
-		["last_version"] = 14,
+		["Dizzledorf"] = {
+			"Diz Master D", -- [1]
+			"", -- [2]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [3]
+			"", -- [4]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [5]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			}, -- [6]
+			2, -- [7]
+		},
 		["Barteos"] = {
 			"Barteos", -- [1]
 			"", -- [2]
@@ -1440,8 +1461,8 @@ _detalhes_database = {
 			}, -- [6]
 			6, -- [7]
 		},
-		["Karamfilchi"] = {
-			"Cbhunt", -- [1]
+		["Simoníds"] = {
+			"SimoníDs", -- [1]
 			"", -- [2]
 			{
 				0, -- [1]
@@ -1808,8 +1829,8 @@ _detalhes_database = {
 			}, -- [6]
 			2, -- [7]
 		},
-		["Prikx"] = {
-			"Prikx", -- [1]
+		["Thanàtos"] = {
+			"Thanàtos", -- [1]
 			"", -- [2]
 			{
 				0, -- [1]
@@ -1829,10 +1850,10 @@ _detalhes_database = {
 				1, -- [2]
 				1, -- [3]
 			}, -- [6]
-			5, -- [7]
+			3, -- [7]
 		},
-		["Pallios"] = {
-			"Secret Tank", -- [1]
+		["Stevecleave"] = {
+			"Mokey's Bae", -- [1]
 			"", -- [2]
 			{
 				0, -- [1]
@@ -1852,7 +1873,7 @@ _detalhes_database = {
 				1, -- [2]
 				1, -- [3]
 			}, -- [6]
-			7, -- [7]
+			12, -- [7]
 		},
 		["Drflash"] = {
 			"Drflash", -- [1]
@@ -1900,8 +1921,8 @@ _detalhes_database = {
 			}, -- [6]
 			27, -- [7]
 		},
-		["Thanàtos"] = {
-			"Thanàtos", -- [1]
+		["Tharylo"] = {
+			"Tharylo", -- [1]
 			"", -- [2]
 			{
 				0, -- [1]
@@ -1921,7 +1942,7 @@ _detalhes_database = {
 				1, -- [2]
 				1, -- [3]
 			}, -- [6]
-			3, -- [7]
+			11, -- [7]
 		},
 		["Kasdeya"] = {
 			"Aelynthi/Kas", -- [1]
@@ -2038,8 +2059,9 @@ _detalhes_database = {
 			}, -- [6]
 			13, -- [7]
 		},
-		["Dizzledorf"] = {
-			"Diz Master D", -- [1]
+		["last_version"] = 14,
+		["Karamfilchi"] = {
+			"Cbhunt", -- [1]
 			"", -- [2]
 			{
 				0, -- [1]
@@ -2083,29 +2105,6 @@ _detalhes_database = {
 				1, -- [3]
 			}, -- [6]
 			4, -- [7]
-		},
-		["Simoníds"] = {
-			"SimoníDs", -- [1]
-			"", -- [2]
-			{
-				0, -- [1]
-				1, -- [2]
-				0, -- [3]
-				1, -- [4]
-			}, -- [3]
-			"", -- [4]
-			{
-				0, -- [1]
-				1, -- [2]
-				0, -- [3]
-				1, -- [4]
-			}, -- [5]
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-			}, -- [6]
-			2, -- [7]
 		},
 		["Lynkeysha"] = {
 			"Ineedhelp", -- [1]
@@ -2268,8 +2267,8 @@ _detalhes_database = {
 			}, -- [6]
 			2, -- [7]
 		},
-		["Tharylo"] = {
-			"Tharylo", -- [1]
+		["Prikx"] = {
+			"Prikx", -- [1]
 			"", -- [2]
 			{
 				0, -- [1]
@@ -2289,7 +2288,7 @@ _detalhes_database = {
 				1, -- [2]
 				1, -- [3]
 			}, -- [6]
-			11, -- [7]
+			5, -- [7]
 		},
 		["Lossien"] = {
 			"Lossien", -- [1]
@@ -2380,7 +2379,7 @@ _detalhes_database = {
 		["alternate_power"] = {
 		},
 		["combat_counter"] = 119364,
-		["frags"] = {
+		["spells_cast_timeline"] = {
 		},
 		["totals"] = {
 			0, -- [1]
@@ -2389,21 +2388,21 @@ _detalhes_database = {
 				0, -- [1]
 				[0] = 0,
 				["alternatepower"] = 0,
-				[6] = 0,
 				[3] = 0,
+				[6] = 0,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["dead"] = 0,
-				["cc_break"] = 0,
+				["cooldowns_defensive"] = 0,
+				["dispell"] = 0,
 				["interrupt"] = 0,
 				["debuff_uptime"] = 0,
-				["dispell"] = 0,
-				["cooldowns_defensive"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
 			}, -- [4]
-			["voidzone_damage"] = 0,
 			["frags_total"] = 0,
+			["voidzone_damage"] = 0,
 		},
 		["player_last_events"] = {
 		},
@@ -2413,37 +2412,6 @@ _detalhes_database = {
 		["__call"] = {
 		},
 		["data_inicio"] = 0,
-		["PhaseData"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-			}, -- [1]
-			["damage"] = {
-			},
-			["heal_section"] = {
-			},
-			["heal"] = {
-			},
-			["damage_section"] = {
-			},
-		},
-		["overall_refreshed"] = true,
-		["hasSaved"] = true,
-		["spells_cast_timeline"] = {
-		},
-		["data_fim"] = 0,
-		["cleu_events"] = {
-			["n"] = 1,
-		},
-		["CombatSkillCache"] = {
-		},
-		["cleu_timeline"] = {
-		},
-		["start_time"] = 0,
-		["TimeData"] = {
-			["Raid Damage Done"] = {
-			},
-		},
 		["totals_grupo"] = {
 			0, -- [1]
 			0, -- [2]
@@ -2451,41 +2419,71 @@ _detalhes_database = {
 				0, -- [1]
 				[0] = 0,
 				["alternatepower"] = 0,
-				[6] = 0,
 				[3] = 0,
+				[6] = 0,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["dead"] = 0,
-				["cc_break"] = 0,
+				["cooldowns_defensive"] = 0,
+				["dispell"] = 0,
 				["interrupt"] = 0,
 				["debuff_uptime"] = 0,
-				["dispell"] = 0,
-				["cooldowns_defensive"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
 			}, -- [4]
 		},
-	},
-	["combat_counter"] = 119378,
-	["benchmark_db"] = {
-		["frame"] = {
+		["overall_refreshed"] = true,
+		["hasSaved"] = true,
+		["frags"] = {
+		},
+		["data_fim"] = 0,
+		["cleu_timeline"] = {
+		},
+		["CombatSkillCache"] = {
+		},
+		["cleu_events"] = {
+			["n"] = 1,
+		},
+		["start_time"] = 0,
+		["TimeData"] = {
+			["Raid Damage Done"] = {
+			},
+		},
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["damage_section"] = {
+			},
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage"] = {
+			},
 		},
 	},
-	["cd_tracker"] = {
-		["enabled"] = false,
-		["cds_enabled"] = {
-		},
-		["show_conditions"] = {
-			["only_inside_instance"] = true,
-			["only_in_group"] = true,
-		},
-		["pos"] = {
-		},
+	["character_data"] = {
+		["logons"] = 2788,
+	},
+	["last_day"] = "31",
+	["mythic_dungeon_currentsaved"] = {
+		["dungeon_name"] = "Tazavesh, the Veiled Market",
+		["started"] = false,
+		["segment_id"] = 6,
+		["ej_id"] = 1194,
+		["started_at"] = 1653940762.7,
+		["run_id"] = 275,
+		["level"] = 15,
+		["dungeon_zone_id"] = 2441,
+		["previous_boss_killed_at"] = 1653942564,
 	},
 	["announce_cooldowns"] = {
-		["enabled"] = false,
 		["ignored_cooldowns"] = {
 		},
+		["enabled"] = false,
 		["custom"] = "",
 		["channel"] = "RAID",
 	},
@@ -2493,10 +2491,14 @@ _detalhes_database = {
 		["last_difficulty"] = 15,
 		["last_raid"] = "",
 	},
-	["cached_roles"] = {
+	["announce_damagerecord"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
 	},
 	["cached_specs"] = {
-		["Player-1301-0C2D25C4"] = 257,
 		["Player-1301-096AE5A8"] = 267,
+		["Player-1301-0C328217"] = 64,
+		["Player-1301-08C64DCE"] = 105,
+		["Player-1301-0C2D25C4"] = 257,
 	},
 }
