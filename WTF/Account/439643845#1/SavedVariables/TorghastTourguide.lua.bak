@@ -16,21 +16,21 @@ TorghastTourgiudeDB = {
 		["vendorsKilled"] = 0,
 		["Deaths"] = 0,
 		["Chests"] = 0,
-		["AnimaPowers"] = 0,
+		["FloorsCompleted"] = 0,
 		["TrackerMessages"] = {
 		},
-		["JarsBroken"] = 0,
+		["MobsKilled"] = 0,
 		["FloorCompletion"] = {
 		},
 		["timeBonus"] = 30,
 		["SoulsSaved"] = 0,
-		["currentPhantasma"] = 0,
 		["Mawrats"] = 0,
+		["currentPhantasma"] = 0,
 		["QuestsCompleted"] = 0,
 		["Bosses"] = 0,
 		["RunsCompleted"] = 0,
-		["MobsKilled"] = 0,
-		["FloorsCompleted"] = 0,
+		["JarsBroken"] = 0,
+		["AnimaPowers"] = 0,
 	},
 	["Stats"] = {
 		["profileKeys"] = {
