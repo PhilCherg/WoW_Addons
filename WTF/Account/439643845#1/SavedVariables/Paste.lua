@@ -15,13 +15,13 @@ PasteDB = {
 		["Moneyfive - Outland"] = "Moneyfive - Outland",
 		["Elementior - Outland"] = "Elementior - Outland",
 		["Necrophagus - Outland"] = "Necrophagus - Outland",
-		["Feattwo - Outland"] = "Feattwo - Outland",
+		["Illydaria - Draenor"] = "Illydaria - Draenor",
 		["Lysanaria - Outland"] = "Lysanaria - Outland",
 		["Moneyseven - Outland"] = "Moneyseven - Outland",
-		["Illydaria - Draenor"] = "Illydaria - Draenor",
+		["Feattwo - Outland"] = "Feattwo - Outland",
 		["Destruxia - Outland"] = "Destruxia - Outland",
-		["Wolfados - Azjol-Nerub"] = "Wolfados - Azjol-Nerub",
 		["Afadsfasdfs - Outland"] = "Afadsfasdfs - Outland",
+		["Wolfados - Azjol-Nerub"] = "Wolfados - Azjol-Nerub",
 		["Farmerixus - Outland"] = "Farmerixus - Outland",
 		["Luminaxia - Outland"] = "Luminaxia - Outland",
 		["Testfirst - Outland"] = "Testfirst - Outland",
@@ -85,12 +85,12 @@ PasteDB = {
 			["loaded"] = true,
 		},
 		["Shadroxia - Outland"] = {
+			["whispertarget"] = "",
+			["where"] = "Default",
 			["loaded"] = true,
 			["minimap"] = {
 				["minimapPos"] = 181.3399852121823,
 			},
-			["where"] = "Default",
-			["whispertarget"] = "",
 			["pos"] = {
 			},
 		},
@@ -115,12 +115,12 @@ PasteDB = {
 			},
 		},
 		["Necrophagus - Outland"] = {
-			["whispertarget"] = "",
-			["where"] = "Default",
 			["loaded"] = true,
 			["minimap"] = {
 				["minimapPos"] = 178.6279061133446,
 			},
+			["where"] = "Default",
+			["whispertarget"] = "",
 			["pos"] = {
 				["height"] = 320,
 				["top"] = 700.8450927734375,
@@ -128,7 +128,7 @@ PasteDB = {
 				["width"] = 500.0000305175781,
 			},
 		},
-		["Feattwo - Outland"] = {
+		["Illydaria - Draenor"] = {
 			["loaded"] = true,
 		},
 		["Lysanaria - Outland"] = {
@@ -137,16 +137,16 @@ PasteDB = {
 		["Moneyseven - Outland"] = {
 			["loaded"] = true,
 		},
-		["Illydaria - Draenor"] = {
+		["Feattwo - Outland"] = {
 			["loaded"] = true,
 		},
 		["Destruxia - Outland"] = {
 			["loaded"] = true,
 		},
-		["Wolfados - Azjol-Nerub"] = {
+		["Afadsfasdfs - Outland"] = {
 			["loaded"] = true,
 		},
-		["Afadsfasdfs - Outland"] = {
+		["Wolfados - Azjol-Nerub"] = {
 			["loaded"] = true,
 		},
 		["Farmerixus - Outland"] = {
@@ -185,10 +185,10 @@ PasteDB = {
 			["whispertarget"] = "",
 			["where"] = "Default",
 			["loaded"] = true,
+			["pos"] = {
+			},
 			["minimap"] = {
 				["minimapPos"] = 177.7974045941253,
-			},
-			["pos"] = {
 			},
 		},
 		["Wolfdestroye - Outland"] = {

@@ -9,28 +9,31 @@ TorghastTourgiudeDB = {
 		["Time"] = 0,
 		["Rares"] = 0,
 		["TotalPar"] = 0,
-		["FloorTime"] = {
-		},
+		["FloorsCompleted"] = 0,
 		["FloorPar"] = {
 		},
-		["vendorsKilled"] = 0,
+		["MobsKilled"] = 0,
 		["Deaths"] = 0,
 		["Chests"] = 0,
 		["AnimaPowers"] = 0,
-		["TrackerMessages"] = {
-		},
+		["RunsCompleted"] = 0,
 		["JarsBroken"] = 0,
 		["FloorCompletion"] = {
 		},
 		["timeBonus"] = 30,
 		["SoulsSaved"] = 0,
+		["QuestsCompleted"] = 0,
 		["currentPhantasma"] = 0,
 		["Mawrats"] = 0,
-		["QuestsCompleted"] = 0,
 		["Bosses"] = 0,
-		["RunsCompleted"] = 0,
-		["MobsKilled"] = 0,
-		["FloorsCompleted"] = 0,
+		["TrackerMessages"] = {
+			["Reinforced"] = true,
+			["Highlander"] = true,
+			["Executioner"] = true,
+		},
+		["vendorsKilled"] = 0,
+		["FloorTime"] = {
+		},
 	},
 	["Stats"] = {
 		["profileKeys"] = {
@@ -69,27 +72,54 @@ TorghastTourgiudeDB = {
 			},
 			["Necrophagus - Outland"] = {
 				["total"] = {
-					["Deaths"] = 18,
-					["SoulsSaved"] = 20,
-					["FloorsCompleted"] = 10,
-					["Phantasma"] = -128,
-					["JarsBroken"] = 131,
-					["Chests"] = 4,
-					["QuestsCompleted"] = 3,
-					["Mawrats"] = 81,
-					["Time"] = 5513.514999999989,
+					["SoulsSaved"] = 38,
+					["Phantasma"] = 63,
+					["Time"] = 6762.90799999999,
 					["Rares"] = 3,
-					["Bosses"] = 5,
-					["CurrentTime"] = 5513.514999999989,
-					["MobsKilled"] = 537,
-					["AnimaPowers"] = 86,
+					["Deaths"] = 18,
+					["Chests"] = 4,
+					["QuestsCompleted"] = 5,
+					["JarsBroken"] = 137,
+					["AnimaPowers"] = 115,
+					["Mawrats"] = 115,
+					["CurrentTime"] = 6762.90799999999,
+					["Bosses"] = 7,
+					["MobsKilled"] = 713,
+					["FloorsCompleted"] = 15,
 				},
 				["current"] = {
-					["Deaths"] = 7,
-					["Time"] = 422.0990000000002,
-					["CurentTime"] = 6301.888,
-					["MobsKilled"] = 58,
-					["AnimaPowers"] = 6,
+					["FloorTime"] = {
+						"0:04:55", -- [1]
+						"0:06:22", -- [2]
+						nil, -- [3]
+						"0:04:14", -- [4]
+					},
+					["Phantasma"] = 191,
+					["Time"] = 1249.393000000001,
+					["TotalPar"] = 1247,
+					["FloorPar"] = {
+						" 0:06:46", -- [1]
+						" 0:07:05", -- [2]
+						nil, -- [3]
+						" 0:06:56", -- [4]
+					},
+					["currentPhantasma"] = 191,
+					["QuestsCompleted"] = 2,
+					["JarsBroken"] = 6,
+					["FloorCompletion"] = {
+						"100%", -- [1]
+						"100%", -- [2]
+						nil, -- [3]
+						"99%", -- [4]
+					},
+					["timeBonus"] = 38,
+					["CurentTime"] = 7790.264,
+					["FloorsCompleted"] = 5,
+					["Mawrats"] = 34,
+					["MobsKilled"] = 176,
+					["Bosses"] = 2,
+					["SoulsSaved"] = 18,
+					["AnimaPowers"] = 29,
 				},
 			},
 		},
@@ -205,9 +235,11 @@ TorghastTourgiudeDB = {
 			["Necrophagus - Outland"] = {
 				[332201] = {
 				},
+				[348908] = {
+				},
 			},
 		},
 	},
-	["ForceScoreDisable"] = false,
-	["CurrentRunType"] = false,
+	["ForceScoreDisable"] = true,
+	["CurrentRunType"] = true,
 }

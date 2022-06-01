@@ -61,16 +61,16 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:179355:6166:::::::60:267::16:6:7359:6652:7579:7798:1586:6646:1:28:1279:::::|h[Death God's Signet]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 179350,
-			["Level"] = 272,
+			["ID"] = 190958,
+			["Level"] = 278,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cffa335ee|Hitem:179350::::::::60:267::33:5:7359:6652:7784:1586:6646:1:28:1279:::::|h[Inscrutable Quantum Device]|h|r",
+			["Link"] = "|cffa335ee|Hitem:190958::::::::60:267::35:5:7786:7359:6652:1595:6646::::::|h[So'leah's Secret Technique]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 179350,
-			["Level"] = 268,
+			["Level"] = 272,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cffa335ee|Hitem:179350::::::::60:267::33:5:7359:6652:7783:1582:6646:1:28:1279:::::|h[Inscrutable Quantum Device]|h|r",
+			["Link"] = "|cffa335ee|Hitem:179350::::::::60:267::33:5:7359:6652:7784:1586:6646:1:28:1279:::::|h[Inscrutable Quantum Device]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 173242,

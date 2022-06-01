@@ -1,6 +1,6 @@
-## Interface: 90200
+## Interface: 90205
 ## Title: BtWQuests: Cataclysm
-## Version: 2.5
+## Version: 2.6
 ## Notes: Cataclysm quest data for BtWQuests
 ## Author: Breen
 ## Dependencies: BtWQuests

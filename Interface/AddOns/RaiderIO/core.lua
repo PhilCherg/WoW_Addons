@@ -1378,6 +1378,19 @@ do
         end
     end
 
+    --@param number @The wow factiongroup id
+    --@return number @The RaiderIO Faction Id
+    function util:FactionGroupToFactionId(factionId)
+        -- We've got alliance as 1, and horde as 2
+        -- WoW has alliance as 1, but horde as 0
+
+        if factionId == 1 then
+            return 1
+        end
+
+        return 2
+    end
+
     ---@param text string @The text that might contain the keystone level
     ---@param fallback number @The fallback value in case we can't read the keystone level
     ---@return number|nil @The keystone level we think is detected or nil if we don't know
@@ -5723,16 +5736,19 @@ do
             table.wipe(currentResult)
             return
         end
+
+        local leaderFaction = util:FactionGroupToFactionId(entry.leaderFactionGroup)
         local activityInfo = C_LFGList.GetActivityInfoTable(entry.activityID, nil, entry.isWarMode)
         if activityInfo and activityInfo.isMythicPlusActivity and entry.leaderOverallDungeonScore then
             local leaderName, leaderRealm = util:GetNameRealm(entry.leaderName)
-            provider:OverrideProfile(leaderName, leaderRealm, ns.PLAYER_FACTION, entry.leaderOverallDungeonScore)
+            provider:OverrideProfile(leaderName, leaderRealm, leaderFaction, entry.leaderOverallDungeonScore)
         end
         currentResult.activityID = entry.activityID
         currentResult.leaderName = entry.leaderName
+        currentResult.leaderFaction = leaderFaction
         currentResult.keystoneLevel = util:GetKeystoneLevelFromText(entry.title) or util:GetKeystoneLevelFromText(entry.description) or 0
-        local success1 = render:ShowProfile(tooltip, currentResult.leaderName, ns.PLAYER_FACTION, render.Preset.Unit(render.Flags.MOD_STICKY), currentResult)
-        local success2 = profile:ShowProfile(tooltip, currentResult.leaderName, ns.PLAYER_FACTION, currentResult)
+        local success1 = render:ShowProfile(tooltip, currentResult.leaderName, currentResult.leaderFaction, render.Preset.Unit(render.Flags.MOD_STICKY), currentResult)
+        local success2 = profile:ShowProfile(tooltip, currentResult.leaderName, currentResult.leaderFaction, currentResult)
         if success1 or success2 then
             if not hooked[tooltip] then
                 hooked[tooltip] = true
@@ -5759,17 +5775,19 @@ do
     end
 
     local function ShowApplicantProfile(parent, applicantID, memberIdx)
-        local fullName, _, _, _, _, _, _, _, _, _, _, dungeonScore = C_LFGList.GetApplicantMemberInfo(applicantID, memberIdx)
+        local fullName, _, _, _, _, _, _, _, _, _, _, dungeonScore, _, factionGroup = C_LFGList.GetApplicantMemberInfo(applicantID, memberIdx)
         if not fullName then
             return false
         end
+        local faction = util:FactionGroupToFactionId(factionGroup)
+
         if dungeonScore then
             local name, realm = util:GetNameRealm(fullName)
-            provider:OverrideProfile(name, realm, ns.PLAYER_FACTION, dungeonScore)
+            provider:OverrideProfile(name, realm, faction, dungeonScore)
         end
         local ownerSet, ownerExisted, ownerSetSame = util:SetOwnerSafely(GameTooltip, parent, "ANCHOR_NONE", 0, 0)
-        if render:ShowProfile(GameTooltip, fullName, ns.PLAYER_FACTION, render.Preset.Unit(render.Flags.MOD_STICKY), currentResult) then
-            return true, fullName
+        if render:ShowProfile(GameTooltip, fullName, faction, render.Preset.Unit(render.Flags.MOD_STICKY), currentResult) then
+            return true, fullName, faction
         end
         if ownerSet and not ownerExisted and ownerSetSame then
             GameTooltip:Hide()
@@ -5788,12 +5806,12 @@ do
         if self.applicantID and self.Members then
             HookApplicantButtons(self.Members)
         elseif self.memberIdx then
-            local shown, fullName = ShowApplicantProfile(self, self:GetParent().applicantID, self.memberIdx)
+            local shown, fullName, faction = ShowApplicantProfile(self, self:GetParent().applicantID, self.memberIdx)
             local success
             if shown then
-                success = profile:ShowProfile(GameTooltip, fullName, ns.PLAYER_FACTION, currentResult)
+                success = profile:ShowProfile(GameTooltip, fullName, faction, currentResult)
             else
-                success = profile:ShowProfile(false, "player", ns.PLAYER_FACTION, currentResult)
+                success = profile:ShowProfile(false, "player", faction, currentResult)
             end
             if not success then
                 profile:HideProfile()

@@ -5777,6 +5777,10 @@ Database:AddChain(Chain.UnusedChain02, {
 Database:AddCategory(CATEGORY_ID, {
     name = BtWQuests_GetMapName(MAP_ID),
     expansion = EXPANSION_ID,
+    buttonImage = {
+        texture = 1851116,
+		texCoords = {0,1,0,1},
+    },
     items = {
         {
             type = "chain",

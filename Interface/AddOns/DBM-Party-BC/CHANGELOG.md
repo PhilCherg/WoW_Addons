@@ -1,6 +1,7 @@
 # <DBM> Dungeons (BC)
 
-## [r34](https://github.com/DeadlyBossMods/DBM-Dungeons/tree/r34) (2022-05-17)
-[Full Changelog](https://github.com/DeadlyBossMods/DBM-Dungeons/compare/r33...r34) [Previous Releases](https://github.com/DeadlyBossMods/DBM-Dungeons/releases)
+## [r35](https://github.com/DeadlyBossMods/DBM-Dungeons/tree/r35) (2022-05-31)
+[Full Changelog](https://github.com/DeadlyBossMods/DBM-Dungeons/compare/r34...r35) [Previous Releases](https://github.com/DeadlyBossMods/DBM-Dungeons/releases)
 
-- Rename Icon auto local globals  
+- toc bump  
+- Fix boss spelling  
