@@ -9,28 +9,28 @@ TorghastTourgiudeDB = {
 		["Time"] = 0,
 		["Rares"] = 0,
 		["TotalPar"] = 0,
-		["AnimaPowers"] = 0,
+		["FloorTime"] = {
+		},
 		["FloorPar"] = {
 		},
-		["JarsBroken"] = 0,
+		["vendorsKilled"] = 0,
 		["Deaths"] = 0,
 		["Chests"] = 0,
-		["FloorsCompleted"] = 0,
-		["RunsCompleted"] = 0,
-		["MobsKilled"] = 0,
+		["AnimaPowers"] = 0,
+		["TrackerMessages"] = {
+		},
+		["JarsBroken"] = 0,
 		["FloorCompletion"] = {
 		},
 		["timeBonus"] = 30,
 		["SoulsSaved"] = 0,
-		["QuestsCompleted"] = 0,
-		["Mawrats"] = 0,
 		["currentPhantasma"] = 0,
+		["Mawrats"] = 0,
+		["QuestsCompleted"] = 0,
 		["Bosses"] = 0,
-		["TrackerMessages"] = {
-		},
-		["vendorsKilled"] = 0,
-		["FloorTime"] = {
-		},
+		["RunsCompleted"] = 0,
+		["MobsKilled"] = 0,
+		["FloorsCompleted"] = 0,
 	},
 	["Stats"] = {
 		["profileKeys"] = {
@@ -43,8 +43,8 @@ TorghastTourgiudeDB = {
 			["Destruxia - Outland"] = "Destruxia - Outland",
 			["Shadroxia - Outland"] = "Shadroxia - Outland",
 			["Luminaxia - Outland"] = "Luminaxia - Outland",
-			["Necrophagus - Outland"] = "Necrophagus - Outland",
 			["Serthaxion - Outland"] = "Serthaxion - Outland",
+			["Necrophagus - Outland"] = "Necrophagus - Outland",
 		},
 		["profiles"] = {
 			["Bankeristor - Outland"] = {
@@ -65,7 +65,25 @@ TorghastTourgiudeDB = {
 			},
 			["Luminaxia - Outland"] = {
 			},
+			["Serthaxion - Outland"] = {
+			},
 			["Necrophagus - Outland"] = {
+				["total"] = {
+					["Deaths"] = 18,
+					["SoulsSaved"] = 20,
+					["FloorsCompleted"] = 10,
+					["Phantasma"] = -128,
+					["JarsBroken"] = 131,
+					["Chests"] = 4,
+					["QuestsCompleted"] = 3,
+					["Mawrats"] = 81,
+					["Time"] = 5513.514999999989,
+					["Rares"] = 3,
+					["Bosses"] = 5,
+					["CurrentTime"] = 5513.514999999989,
+					["MobsKilled"] = 537,
+					["AnimaPowers"] = 86,
+				},
 				["current"] = {
 					["Deaths"] = 7,
 					["Time"] = 422.0990000000002,
@@ -73,24 +91,6 @@ TorghastTourgiudeDB = {
 					["MobsKilled"] = 58,
 					["AnimaPowers"] = 6,
 				},
-				["total"] = {
-					["Deaths"] = 18,
-					["CurrentTime"] = 5513.514999999989,
-					["QuestsCompleted"] = 3,
-					["Phantasma"] = -128,
-					["MobsKilled"] = 537,
-					["FloorsCompleted"] = 10,
-					["JarsBroken"] = 131,
-					["Bosses"] = 5,
-					["Time"] = 5513.514999999989,
-					["SoulsSaved"] = 20,
-					["Rares"] = 3,
-					["Mawrats"] = 81,
-					["AnimaPowers"] = 86,
-					["Chests"] = 4,
-				},
-			},
-			["Serthaxion - Outland"] = {
 			},
 		},
 	},
@@ -105,8 +105,8 @@ TorghastTourgiudeDB = {
 			["Destruxia - Outland"] = "Default",
 			["Shadroxia - Outland"] = "Default",
 			["Luminaxia - Outland"] = "Default",
-			["Necrophagus - Outland"] = "Default",
 			["Serthaxion - Outland"] = "Default",
+			["Necrophagus - Outland"] = "Default",
 		},
 		["profiles"] = {
 			["Default"] = {
@@ -133,8 +133,8 @@ TorghastTourgiudeDB = {
 			["Destruxia - Outland"] = "Destruxia - Outland",
 			["Shadroxia - Outland"] = "Shadroxia - Outland",
 			["Luminaxia - Outland"] = "Luminaxia - Outland",
-			["Necrophagus - Outland"] = "Necrophagus - Outland",
 			["Serthaxion - Outland"] = "Serthaxion - Outland",
+			["Necrophagus - Outland"] = "Necrophagus - Outland",
 		},
 		["profiles"] = {
 			["Bankeristor - Outland"] = {
@@ -155,14 +155,14 @@ TorghastTourgiudeDB = {
 			},
 			["Luminaxia - Outland"] = {
 			},
-			["Necrophagus - Outland"] = {
-			},
 			["Serthaxion - Outland"] = {
+			},
+			["Necrophagus - Outland"] = {
 			},
 		},
 	},
-	["CurrentRunType"] = false,
-	["ForceScoreDisable"] = false,
+	["Floor_Par_Estimate"] = {
+	},
 	["Weights_Notes"] = {
 		["namespaces"] = {
 			["LibDualSpec-1.0"] = {
@@ -178,8 +178,8 @@ TorghastTourgiudeDB = {
 			["Destruxia - Outland"] = "Destruxia - Outland",
 			["Shadroxia - Outland"] = "Shadroxia - Outland",
 			["Luminaxia - Outland"] = "Luminaxia - Outland",
-			["Necrophagus - Outland"] = "Necrophagus - Outland",
 			["Serthaxion - Outland"] = "Serthaxion - Outland",
+			["Necrophagus - Outland"] = "Necrophagus - Outland",
 		},
 		["profiles"] = {
 			["Bankeristor - Outland"] = {
@@ -200,14 +200,14 @@ TorghastTourgiudeDB = {
 			},
 			["Luminaxia - Outland"] = {
 			},
+			["Serthaxion - Outland"] = {
+			},
 			["Necrophagus - Outland"] = {
 				[332201] = {
 				},
 			},
-			["Serthaxion - Outland"] = {
-			},
 		},
 	},
-	["Floor_Par_Estimate"] = {
-	},
+	["ForceScoreDisable"] = false,
+	["CurrentRunType"] = false,
 }
