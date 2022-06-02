@@ -2274,11 +2274,8 @@ function private.FSMCreate()
 				local itemString = context.findAuction:GetItemString()
 				local maxQuantity = context.searchContext:GetMaxCanBuy(itemString)
 				if TSM.IsWowClassic() then
-					if maxQuantity then
-						maxQuantity = maxQuantity / context.findAuction:GetQuantities()
-					end
 					context.findResult = result
-					context.numFound = min(#result, maxQuantity or math.huge)
+					context.numFound = min(#result, maxQuantity and Math.Ceil(maxQuantity / context.findAuction:GetQuantities()) or math.huge)
 					context.maxQuantity = maxQuantity or 1
 					context.defaultBuyQuantity = context.numFound
 				else

@@ -45,7 +45,7 @@ AchievementTrackerNPCCache = {}
 
 -- Purpose:         Information about the current release. This is mianly used to detect which addon should output messages to chat to avoid spam
 Config.majorVersion = 3						--Addon with a higher major version change have priority over a lower major version
-Config.minorVersion = 40    				--Addon with a minor version change have prioirty over a lower minor version
+Config.minorVersion = 41    				--Addon with a minor version change have prioirty over a lower minor version
 Config.revisionVersion = 0					--Addon with a revision change have the same priorty as a lower revision verison
 Config.releaseType = ""                     --Release type (Alpha, Beta, Release)
 
@@ -1356,6 +1356,7 @@ function Config:CreateGUI()
     local buttonHeight = 30
     local numButtons = 200 --Total number of button we need for any instance. We can hide excess button for raids/dungeons with less bosses
     local idCounter = 0
+    local button
     for j = 2, 8 do
         local globalCounter = 1
         for i = 1, numButtons do

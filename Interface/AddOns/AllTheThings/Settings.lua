@@ -296,7 +296,7 @@ settings.Initialize = function(self)
 	end
 
 	-- Account Synchronization
-	self.TabsByName["Sync"]:InitializeSyncWindow();
+	self.TabsByName[L["SYNC"]]:InitializeSyncWindow();
 	if self:GetTooltipSetting("Auto:Sync") then
 		app:Synchronize(true);
 	end
@@ -722,7 +722,7 @@ end
 settings.CreateTab = function(self, text)
 	local id = #self.Tabs + 1;
 	local tab = CreateFrame("Button", self:GetName() .. "-Tab" .. id, self, "OptionsFrameTabButtonTemplate");
-	if id > 1 then tab:SetPoint("TOPLEFT", self.Tabs[id - 1], "TOPRIGHT", -10, 0); end
+	if id > 1 then tab:SetPoint("TOPLEFT", self.Tabs[id - 1], "TOPRIGHT", L["TAB_SPACING"], 0); end
 	table.insert(self.Tabs, tab);
 	self.MostRecentTab = tab;
 	tab.objects = {};
@@ -4646,15 +4646,15 @@ end)();
 -- The "Sync" Tab.					--
 ------------------------------------------
 (function()
-local tab = settings:CreateTab("Sync");
+local tab = settings:CreateTab(L["SYNC"]);
 local SyncLabel = settings:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge");
 SyncLabel:SetPoint("TOPLEFT", line, "BOTTOMLEFT", 8, -8);
 SyncLabel:SetJustifyH("LEFT");
-SyncLabel:SetText("Account Synchronization");
+SyncLabel:SetText(L["ACCOUNT_SYNCHRONIZATION"]);
 SyncLabel:Show();
 table.insert(settings.MostRecentTab.objects, SyncLabel);
 
-local AutomaticallySyncAccountDataCheckBox = settings:CreateCheckBox("Automatically Sync Account Data",
+local AutomaticallySyncAccountDataCheckBox = settings:CreateCheckBox(L["AUTO_SYNC_ACC_DATA_CHECKBOX"],
 function(self)
 	self:SetChecked(settings:GetTooltipSetting("Auto:Sync"));
 end,
@@ -4663,7 +4663,7 @@ function(self)
 	settings:SetTooltipSetting("Auto:Sync", checked);
 	if checked then app:Synchronize(true); end
 end);
-AutomaticallySyncAccountDataCheckBox:SetATTTooltip("Enable this option if you want ATT to attempt to automatically synchronize account data between accounts when logging in or reloading the UI.");
+AutomaticallySyncAccountDataCheckBox:SetATTTooltip(L["AUTO_SYNC_ACC_DATA_TOOLTIP"]);
 AutomaticallySyncAccountDataCheckBox:SetPoint("TOPLEFT", SyncLabel, "BOTTOMLEFT", 4, 0);
 
 function tab:InitializeSyncWindow()

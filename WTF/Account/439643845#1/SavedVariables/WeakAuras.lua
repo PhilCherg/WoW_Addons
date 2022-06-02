@@ -39,7 +39,6 @@ WeakAurasSaved = {
 		},
 	},
 	["editor_tab_spaces"] = 4,
-	["login_squelch_time"] = 10,
 	["displays"] = {
 		["Use adrenalin"] = {
 			["iconSource"] = -1,
@@ -187,19 +186,7 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
-			["actions"] = {
-				["start"] = {
-					["glow_frame_type"] = "FRAMESELECTOR",
-					["glow_action"] = "show",
-					["glow_type"] = "buttonOverlay",
-					["do_glow"] = true,
-					["glow_frame"] = "WeakAuras:Use adrenalin",
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
+			["parent"] = "Elondre's roll the bones",
 			["regionType"] = "icon",
 			["animation"] = {
 				["start"] = {
@@ -221,12 +208,23 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["authorOptions"] = {
+			["actions"] = {
+				["start"] = {
+					["glow_frame_type"] = "FRAMESELECTOR",
+					["glow_action"] = "show",
+					["glow_type"] = "buttonOverlay",
+					["do_glow"] = true,
+					["glow_frame"] = "WeakAuras:Use adrenalin",
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
 			},
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Elondre's roll the bones",
+			["desaturate"] = false,
 			["config"] = {
 			},
 			["frameStrata"] = 8,
@@ -240,16 +238,17 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["uid"] = "yZ2aQEq97fE",
 			["inverse"] = false,
+			["authorOptions"] = {
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = false,
 			["color"] = {
 				1, -- [1]
 				0.364705882352941, -- [2]
 				0.23921568627451, -- [3]
 				1, -- [4]
 			},
-			["conditions"] = {
-			},
-			["cooldown"] = false,
-			["desaturate"] = false,
 		},
 		["IA(h) Reminder"] = {
 			["iconSource"] = -1,
@@ -531,12 +530,17 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["icon"] = true,
+			["parent"] = "Unholy DK",
 			["regionType"] = "icon",
 			["conditions"] = {
 			},
-			["parent"] = "Unholy DK",
-			["selfPoint"] = "CENTER",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["icon"] = true,
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
@@ -553,15 +557,10 @@ WeakAurasSaved = {
 			["frameStrata"] = 1,
 			["uid"] = "Aybpe0fhznh",
 			["inverse"] = false,
-			["xOffset"] = -139,
+			["selfPoint"] = "CENTER",
 			["displayIcon"] = 879926,
 			["cooldown"] = false,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["xOffset"] = -139,
 		},
 		["PS Reminder"] = {
 			["iconSource"] = -1,
@@ -1058,19 +1057,14 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["stickyDuration"] = false,
+			["parent"] = "Elondre's roll the bones",
 			["regionType"] = "icon",
 			["selfPoint"] = "CENTER",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["stickyDuration"] = false,
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Elondre's roll the bones",
+			["icon"] = true,
 			["config"] = {
 			},
 			["alpha"] = 1,
@@ -1084,11 +1078,16 @@ WeakAurasSaved = {
 			["frameStrata"] = 3,
 			["uid"] = "(9vkisQ4(vM",
 			["inverse"] = false,
-			["xOffset"] = -81.888671875,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["icon"] = true,
+			["xOffset"] = -81.888671875,
 		},
 		["IA(v) Effect"] = {
 			["iconSource"] = -1,
@@ -1414,15 +1413,14 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["icon"] = true,
+			["parent"] = "Elondre's roll the bones",
 			["regionType"] = "icon",
 			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
+			["icon"] = true,
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Elondre's roll the bones",
+			["stickyDuration"] = false,
 			["config"] = {
 			},
 			["frameStrata"] = 1,
@@ -1436,16 +1434,17 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["uid"] = "lKdZ1l0Fkm5",
 			["inverse"] = false,
+			["authorOptions"] = {
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["conditions"] = {
-			},
-			["cooldown"] = true,
-			["stickyDuration"] = false,
 		},
 		["CDWN"] = {
 			["iconSource"] = -1,
@@ -1609,14 +1608,14 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["icon"] = true,
+			["parent"] = "Elondre's roll the bones",
 			["regionType"] = "icon",
 			["selfPoint"] = "CENTER",
-			["xOffset"] = 25.0794677734375,
+			["icon"] = true,
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Elondre's roll the bones",
+			["stickyDuration"] = false,
 			["config"] = {
 			},
 			["frameStrata"] = 1,
@@ -1630,16 +1629,16 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["uid"] = "vt1fcIxlJba",
 			["inverse"] = false,
+			["xOffset"] = 25.0794677734375,
+			["conditions"] = {
+			},
+			["cooldown"] = true,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["conditions"] = {
-			},
-			["cooldown"] = true,
-			["stickyDuration"] = false,
 		},
 		["IA(v) Cooldown"] = {
 			["iconSource"] = -1,
@@ -2638,14 +2637,14 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["icon"] = true,
+			["parent"] = "Elondre's roll the bones",
 			["regionType"] = "icon",
 			["selfPoint"] = "CENTER",
-			["xOffset"] = -156.968383789063,
+			["icon"] = true,
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Elondre's roll the bones",
+			["stickyDuration"] = false,
 			["config"] = {
 			},
 			["frameStrata"] = 1,
@@ -2659,16 +2658,16 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["uid"] = "bbtEQffSy6u",
 			["inverse"] = false,
+			["xOffset"] = -156.968383789063,
+			["conditions"] = {
+			},
+			["cooldown"] = true,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["conditions"] = {
-			},
-			["cooldown"] = true,
-			["stickyDuration"] = false,
 		},
 		["Corruption Effect"] = {
 			["iconSource"] = -1,
@@ -4913,12 +4912,17 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["icon"] = true,
+			["parent"] = "Unholy DK",
 			["regionType"] = "icon",
 			["conditions"] = {
 			},
-			["parent"] = "Unholy DK",
-			["selfPoint"] = "CENTER",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["icon"] = true,
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
@@ -4935,15 +4939,10 @@ WeakAurasSaved = {
 			["frameStrata"] = 1,
 			["uid"] = "PqqJYBJS7gA",
 			["inverse"] = false,
-			["xOffset"] = -84.0001220703125,
+			["selfPoint"] = "CENTER",
 			["displayIcon"] = 132099,
 			["cooldown"] = false,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["xOffset"] = -84.0001220703125,
 		},
 		["Demonfire Reminder"] = {
 			["iconSource"] = 0,
@@ -5831,26 +5830,6 @@ WeakAurasSaved = {
 				["announceVotes"] = false,
 				["debugMode"] = false,
 			},
-			["xOffset"] = -300,
-			["cooldownEdge"] = false,
-			["regionType"] = "icon",
-			["parent"] = "Aeon Remnants - Among Us Helper",
-			["cooldown"] = false,
-			["conditions"] = {
-			},
-			["icon"] = true,
-			["alpha"] = 1,
-			["width"] = 100,
-			["zoom"] = 0,
-			["semver"] = "5.0.0",
-			["tocversion"] = 90200,
-			["id"] = "\"My Votes\" List",
-			["useCooldownModRate"] = true,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
-			["uid"] = "1F01mQu7d6p",
-			["inverse"] = false,
 			["animation"] = {
 				["start"] = {
 					["easeStrength"] = 3,
@@ -5871,15 +5850,35 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["displayIcon"] = "",
-			["information"] = {
+			["cooldownEdge"] = false,
+			["regionType"] = "icon",
+			["xOffset"] = -300,
+			["cooldown"] = false,
+			["conditions"] = {
 			},
+			["parent"] = "Aeon Remnants - Among Us Helper",
+			["alpha"] = 1,
+			["width"] = 100,
+			["zoom"] = 0,
+			["semver"] = "5.0.0",
+			["tocversion"] = 90200,
+			["id"] = "\"My Votes\" List",
+			["useCooldownModRate"] = true,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["cooldownTextDisabled"] = false,
+			["uid"] = "1F01mQu7d6p",
+			["inverse"] = false,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				0, -- [4]
 			},
+			["displayIcon"] = "",
+			["information"] = {
+			},
+			["icon"] = true,
 		},
 		["DSM Effect"] = {
 			["iconSource"] = -1,
@@ -6600,14 +6599,14 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["icon"] = true,
+			["parent"] = "Elondre's roll the bones",
 			["regionType"] = "icon",
 			["selfPoint"] = "CENTER",
-			["xOffset"] = -34.412841796875,
+			["icon"] = true,
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Elondre's roll the bones",
+			["stickyDuration"] = false,
 			["config"] = {
 			},
 			["frameStrata"] = 1,
@@ -6621,16 +6620,16 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["uid"] = "H1qEXEiLTgH",
 			["inverse"] = false,
+			["xOffset"] = -34.412841796875,
+			["conditions"] = {
+			},
+			["cooldown"] = true,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["conditions"] = {
-			},
-			["cooldown"] = true,
-			["stickyDuration"] = false,
 		},
 		["Warrior of Elune Effect"] = {
 			["iconSource"] = -1,
@@ -7093,6 +7092,20 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
+			["stickyDuration"] = false,
+			["regionType"] = "icon",
+			["actions"] = {
+				["start"] = {
+					["message_type"] = "YELL",
+					["do_message"] = false,
+					["message"] = "",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -7113,24 +7126,10 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["regionType"] = "icon",
-			["actions"] = {
-				["start"] = {
-					["message_type"] = "YELL",
-					["do_message"] = false,
-					["message"] = "",
-				},
-				["init"] = {
-					["do_custom"] = false,
-				},
-				["finish"] = {
-				},
-			},
-			["parent"] = "Elondre's roll the bones",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["stickyDuration"] = false,
+			["xOffset"] = -99.5235595703125,
 			["uid"] = ")t2AyA4e8db",
 			["frameStrata"] = 1,
 			["cooldownTextDisabled"] = false,
@@ -7144,12 +7143,12 @@ WeakAurasSaved = {
 			["config"] = {
 			},
 			["inverse"] = false,
-			["authorOptions"] = {
-			},
+			["parent"] = "Elondre's roll the bones",
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["xOffset"] = -99.5235595703125,
+			["authorOptions"] = {
+			},
 		},
 		["Corruption Reminder"] = {
 			["iconSource"] = -1,
@@ -8143,14 +8142,14 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["icon"] = true,
+			["parent"] = "Elondre's roll the bones",
 			["regionType"] = "icon",
 			["selfPoint"] = "CENTER",
-			["xOffset"] = -98.5079345703125,
+			["icon"] = true,
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Elondre's roll the bones",
+			["stickyDuration"] = false,
 			["config"] = {
 			},
 			["frameStrata"] = 1,
@@ -8164,16 +8163,16 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["uid"] = "VlZTlAe9vtf",
 			["inverse"] = false,
+			["xOffset"] = -98.5079345703125,
+			["conditions"] = {
+			},
+			["cooldown"] = true,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["conditions"] = {
-			},
-			["cooldown"] = true,
-			["stickyDuration"] = false,
 		},
 		["Nameplate Hider"] = {
 			["outline"] = "OUTLINE",
@@ -8686,36 +8685,13 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
-			["icon"] = true,
+			["parent"] = "Elondre's roll the bones",
 			["regionType"] = "icon",
 			["desaturate"] = false,
-			["xOffset"] = -72.5555419921875,
+			["icon"] = true,
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Elondre's roll the bones",
-			["config"] = {
-			},
-			["alpha"] = 1,
-			["zoom"] = 0,
-			["auto"] = true,
-			["tocversion"] = 80300,
-			["id"] = "Adrenalin",
-			["anchorFrameType"] = "SCREEN",
-			["useCooldownModRate"] = true,
-			["width"] = 60,
-			["frameStrata"] = 9,
-			["uid"] = "LDYomTv)RCi",
-			["inverse"] = false,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["conditions"] = {
-			},
-			["cooldown"] = true,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -8735,6 +8711,29 @@ WeakAurasSaved = {
 					["easeStrength"] = 3,
 					["easeType"] = "none",
 				},
+			},
+			["config"] = {
+			},
+			["alpha"] = 1,
+			["zoom"] = 0,
+			["auto"] = true,
+			["tocversion"] = 80300,
+			["id"] = "Adrenalin",
+			["anchorFrameType"] = "SCREEN",
+			["useCooldownModRate"] = true,
+			["width"] = 60,
+			["frameStrata"] = 9,
+			["uid"] = "LDYomTv)RCi",
+			["inverse"] = false,
+			["xOffset"] = -72.5555419921875,
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
 		},
 		["Meta(h) CD"] = {
@@ -10384,6 +10383,36 @@ WeakAurasSaved = {
 			["version"] = 1,
 			["subRegions"] = {
 			},
+			["rowSpace"] = 1,
+			["uid"] = "37zntRfb22G",
+			["load"] = {
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["useLimit"] = false,
+			["backdropColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["config"] = {
+			},
+			["animate"] = true,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -10404,50 +10433,20 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["config"] = {
-			},
-			["load"] = {
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["rowSpace"] = 1,
-			["backdropColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				0.5, -- [4]
-			},
+			["scale"] = 1,
+			["gridType"] = "RD",
+			["border"] = false,
+			["borderEdge"] = "Square Full White",
+			["regionType"] = "dynamicgroup",
+			["borderSize"] = 2,
+			["sort"] = "ascending",
 			["borderColor"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 				1, -- [4]
 			},
-			["animate"] = true,
 			["grow"] = "DOWN",
-			["scale"] = 1,
-			["stagger"] = 0,
-			["border"] = false,
-			["borderEdge"] = "Square Full White",
-			["regionType"] = "dynamicgroup",
-			["borderSize"] = 2,
-			["sort"] = "ascending",
-			["yOffset"] = 357.1934204101563,
-			["gridType"] = "RD",
 			["constantFactor"] = "RADIUS",
 			["xOffset"] = 397.5864868164063,
 			["borderOffset"] = 4,
@@ -10457,15 +10456,15 @@ WeakAurasSaved = {
 			["frameStrata"] = 1,
 			["gridWidth"] = 5,
 			["anchorFrameType"] = "SCREEN",
+			["yOffset"] = 357.1934204101563,
 			["borderInset"] = 1,
-			["uid"] = "37zntRfb22G",
-			["internalVersion"] = 53,
+			["stagger"] = 0,
 			["limit"] = 5,
 			["conditions"] = {
 			},
 			["information"] = {
 			},
-			["useLimit"] = false,
+			["internalVersion"] = 53,
 		},
 		["Demon Spikes Effect"] = {
 			["iconSource"] = -1,
@@ -10733,12 +10732,17 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["icon"] = true,
+			["parent"] = "Unholy DK",
 			["regionType"] = "icon",
 			["conditions"] = {
 			},
-			["parent"] = "Unholy DK",
-			["selfPoint"] = "CENTER",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["icon"] = true,
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
@@ -10755,15 +10759,10 @@ WeakAurasSaved = {
 			["frameStrata"] = 1,
 			["uid"] = "uPpkD)cERca",
 			["inverse"] = false,
-			["xOffset"] = -83.00006103515625,
+			["selfPoint"] = "CENTER",
 			["displayIcon"] = 348565,
 			["cooldown"] = false,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["xOffset"] = -83.00006103515625,
 		},
 		["Zereth Mortis Checklist"] = {
 			["outline"] = "None",
@@ -10853,14 +10852,28 @@ WeakAurasSaved = {
 			["anchorFrameFrame"] = "UIParent",
 			["regionType"] = "text",
 			["displayText_format_c_format"] = "none",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["shadowYOffset"] = -1,
 			["fixedWidth"] = 200,
-			["preferToUpdate"] = false,
+			["animation"] = {
+				["start"] = {
+					["easeStrength"] = 3,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["easeStrength"] = 3,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["easeStrength"] = 3,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
 			["anchorFrameParent"] = true,
 			["displayText_format_p_time_dynamic_threshold"] = 60,
 			["uid"] = "(TrnzX907Uu",
@@ -11073,7 +11086,12 @@ WeakAurasSaved = {
 					["width"] = 2,
 				}, -- [17]
 			},
-			["shadowYOffset"] = -1,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["shadowColor"] = {
 				0, -- [1]
 				0, -- [2]
@@ -11085,26 +11103,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["animation"] = {
-				["start"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-			},
+			["preferToUpdate"] = false,
 		},
 		["Frailty Effect"] = {
 			["iconSource"] = -1,
@@ -11904,31 +11903,6 @@ WeakAurasSaved = {
 				["announceVotes"] = false,
 				["debugMode"] = false,
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				0, -- [4]
-			},
-			["url"] = "https://wago.io/dW5U0N3HP/21",
-			["regionType"] = "icon",
-			["parent"] = "Aeon Remnants - Among Us Helper",
-			["cooldown"] = false,
-			["conditions"] = {
-			},
-			["icon"] = true,
-			["frameStrata"] = 1,
-			["width"] = 64,
-			["cooldownTextDisabled"] = false,
-			["semver"] = "5.0.0",
-			["tocversion"] = 90200,
-			["id"] = "Vote Button",
-			["useCooldownModRate"] = true,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["zoom"] = 0,
-			["uid"] = "6)nOpbDAOTy",
-			["inverse"] = false,
 			["animation"] = {
 				["start"] = {
 					["easeStrength"] = 3,
@@ -11949,9 +11923,30 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["displayIcon"] = "",
-			["information"] = {
+			["url"] = "https://wago.io/dW5U0N3HP/21",
+			["regionType"] = "icon",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
 			},
+			["cooldown"] = false,
+			["conditions"] = {
+			},
+			["parent"] = "Aeon Remnants - Among Us Helper",
+			["frameStrata"] = 1,
+			["width"] = 64,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "5.0.0",
+			["tocversion"] = 90200,
+			["id"] = "Vote Button",
+			["useCooldownModRate"] = true,
+			["alpha"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0,
+			["uid"] = "6)nOpbDAOTy",
+			["inverse"] = false,
 			["authorOptions"] = {
 				{
 					["type"] = "header",
@@ -12163,6 +12158,10 @@ WeakAurasSaved = {
 					["width"] = 2,
 				}, -- [26]
 			},
+			["displayIcon"] = "",
+			["information"] = {
+			},
+			["icon"] = true,
 		},
 		["Vile Taint CD"] = {
 			["iconSource"] = -1,
@@ -14568,45 +14567,6 @@ WeakAurasSaved = {
 				["announceVotes"] = false,
 				["debugMode"] = false,
 			},
-			["parent"] = "Aeon Remnants - Among Us Helper",
-			["xOffset"] = 0,
-			["regionType"] = "icon",
-			["animation"] = {
-				["start"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-			},
-			["cooldown"] = false,
-			["conditions"] = {
-			},
-			["icon"] = true,
-			["alpha"] = 0.8,
-			["width"] = 50,
-			["cooldownTextDisabled"] = false,
-			["semver"] = "5.0.0",
-			["tocversion"] = 90200,
-			["id"] = "Vote Count on Nameplates",
-			["useCooldownModRate"] = true,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["zoom"] = 0,
-			["uid"] = "ycIBRd3JveD",
-			["inverse"] = false,
 			["authorOptions"] = {
 				{
 					["type"] = "header",
@@ -14818,10 +14778,49 @@ WeakAurasSaved = {
 					["width"] = 2,
 				}, -- [26]
 			},
+			["xOffset"] = 0,
+			["regionType"] = "icon",
+			["parent"] = "Aeon Remnants - Among Us Helper",
+			["cooldown"] = false,
+			["conditions"] = {
+			},
+			["animation"] = {
+				["start"] = {
+					["easeStrength"] = 3,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["easeStrength"] = 3,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["easeStrength"] = 3,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
+			["alpha"] = 0.8,
+			["width"] = 50,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "5.0.0",
+			["tocversion"] = 90200,
+			["id"] = "Vote Count on Nameplates",
+			["useCooldownModRate"] = true,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0,
+			["uid"] = "ycIBRd3JveD",
+			["inverse"] = false,
+			["url"] = "https://wago.io/dW5U0N3HP/21",
 			["displayIcon"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_White_Border",
 			["information"] = {
 			},
-			["url"] = "https://wago.io/dW5U0N3HP/21",
+			["icon"] = true,
 		},
 		["Warrior of Elune CD"] = {
 			["iconSource"] = -1,
@@ -15834,12 +15833,17 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["icon"] = true,
+			["parent"] = "Unholy DK",
 			["regionType"] = "icon",
 			["conditions"] = {
 			},
-			["parent"] = "Unholy DK",
-			["selfPoint"] = "CENTER",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["icon"] = true,
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
@@ -15856,15 +15860,10 @@ WeakAurasSaved = {
 			["frameStrata"] = 1,
 			["uid"] = "HK89Kt2qPpz",
 			["inverse"] = false,
-			["xOffset"] = -29.00006103515625,
+			["selfPoint"] = "CENTER",
 			["displayIcon"] = 237517,
 			["cooldown"] = false,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["xOffset"] = -29.00006103515625,
 		},
 		["Tier Set Stacks"] = {
 			["iconSource"] = 0,
@@ -16566,26 +16565,6 @@ WeakAurasSaved = {
 				["announceVotes"] = false,
 				["debugMode"] = false,
 			},
-			["xOffset"] = 0,
-			["cooldownEdge"] = false,
-			["regionType"] = "icon",
-			["parent"] = "Aeon Remnants - Among Us Helper",
-			["cooldown"] = false,
-			["conditions"] = {
-			},
-			["icon"] = true,
-			["alpha"] = 1,
-			["width"] = 64,
-			["zoom"] = 0,
-			["semver"] = "5.0.0",
-			["tocversion"] = 90200,
-			["id"] = "Auto Voter (CHEAT MODE)",
-			["useCooldownModRate"] = true,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
-			["uid"] = "93zOLL0aNsg",
-			["inverse"] = false,
 			["animation"] = {
 				["start"] = {
 					["easeStrength"] = 3,
@@ -16606,15 +16585,35 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["displayIcon"] = "",
-			["information"] = {
+			["cooldownEdge"] = false,
+			["regionType"] = "icon",
+			["xOffset"] = 0,
+			["cooldown"] = false,
+			["conditions"] = {
 			},
+			["parent"] = "Aeon Remnants - Among Us Helper",
+			["alpha"] = 1,
+			["width"] = 64,
+			["zoom"] = 0,
+			["semver"] = "5.0.0",
+			["tocversion"] = 90200,
+			["id"] = "Auto Voter (CHEAT MODE)",
+			["useCooldownModRate"] = true,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["cooldownTextDisabled"] = false,
+			["uid"] = "93zOLL0aNsg",
+			["inverse"] = false,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				0, -- [4]
 			},
+			["displayIcon"] = "",
+			["information"] = {
+			},
+			["icon"] = true,
 		},
 		["Soul Barrier Reminder"] = {
 			["iconSource"] = -1,
@@ -19950,26 +19949,6 @@ WeakAurasSaved = {
 				["announceVotes"] = false,
 				["debugMode"] = false,
 			},
-			["xOffset"] = -300,
-			["cooldownEdge"] = false,
-			["regionType"] = "icon",
-			["parent"] = "Aeon Remnants - Among Us Helper",
-			["cooldown"] = false,
-			["conditions"] = {
-			},
-			["icon"] = true,
-			["alpha"] = 1,
-			["width"] = 100,
-			["zoom"] = 0,
-			["semver"] = "5.0.0",
-			["tocversion"] = 90200,
-			["id"] = "Votes Summary",
-			["useCooldownModRate"] = true,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
-			["uid"] = "jrSMrVHr7uX",
-			["inverse"] = false,
 			["animation"] = {
 				["start"] = {
 					["easeStrength"] = 3,
@@ -19990,15 +19969,35 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["displayIcon"] = "",
-			["information"] = {
+			["cooldownEdge"] = false,
+			["regionType"] = "icon",
+			["xOffset"] = -300,
+			["cooldown"] = false,
+			["conditions"] = {
 			},
+			["parent"] = "Aeon Remnants - Among Us Helper",
+			["alpha"] = 1,
+			["width"] = 100,
+			["zoom"] = 0,
+			["semver"] = "5.0.0",
+			["tocversion"] = 90200,
+			["id"] = "Votes Summary",
+			["useCooldownModRate"] = true,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["cooldownTextDisabled"] = false,
+			["uid"] = "jrSMrVHr7uX",
+			["inverse"] = false,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				0, -- [4]
 			},
+			["displayIcon"] = "",
+			["information"] = {
+			},
+			["icon"] = true,
 		},
 		["Demon Spikes CD"] = {
 			["iconSource"] = -1,
@@ -20220,5 +20219,6 @@ WeakAurasSaved = {
 		["height"] = 492,
 		["width"] = 750,
 	},
+	["login_squelch_time"] = 10,
 	["editor_theme"] = "Monokai",
 }

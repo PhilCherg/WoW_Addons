@@ -2259,16 +2259,21 @@ local function GetItemIDAndModID(modItemID)
 end
 local function GroupMatchesParams(group, key, value, ignoreModID)
 	if not group then return false; end
-	if group.itemID and key == "itemID" then
-		if group.modItemID and group.modItemID == value then
+	-- Items are special
+	local itemID = group.itemID;
+	if itemID and key == "itemID" then
+		local modItemID = group.modItemID;
+		if modItemID and modItemID == value then
 			return true;
-		elseif ignoreModID or not group.modItemID then
+		elseif ignoreModID or not modItemID then
 			value = GetItemIDAndModID(value);
-			return group.itemID == value;
+			return itemID == value;
 		end
 	end
 	-- exact specific match for other keys
 	if group[key] == value then return true; end
+	-- Some objects also need to check altquestID for questID
+	if key == "questID" and group.otherFactionQuestID == value then return true; end
 end
 -- Filters a specs table to only those which the current Character class can choose
 local function FilterSpecs(specs)
@@ -2479,13 +2484,15 @@ end
 local IsAnyQuestFlaggedCompleted = function(quests)
 	if quests then
 		for _,questID in pairs(quests) do
-			if CompletedQuests[questID] then return 1; end
+			if CompletedQuests[questID] then return true; end
 		end
 	end
 end
-local IsQuestFlaggedCompletedForObject = function(t)
+local IsQuestFlaggedCompletedForObject = function(t, questIDKey)
+	-- allow specifying a specific 'questID' from the object
+	questIDKey = questIDKey or "questID";
 	-- nil if not a quest-based object
-	local questID = t.questID;
+	local questID = t[questIDKey];
 	if not questID then return; end
 	-- 1 = This character completed this quest
 	-- 2 = This quest was completed by another character on the account / This quest cannot be completed by this character
@@ -5232,7 +5239,7 @@ end
 -- Synchronization Functions
 (function()
 local outgoing,incoming,queue,active = {},{},{};
-local whiteListedFields = { "Achievements", "Buildings", --[["Exploration",]] "Factions", "FlightPaths", "Followers", "Spells", "Titles", "Quests" };
+local whiteListedFields = { --[["Achievements",]] "Buildings", --[["Exploration",]] "Factions", "FlightPaths", "Followers", "Spells", "Titles", "Quests" };
 local function splittoarray(sep, inputstr)
 	local t = {};
 	for str in string.gmatch(inputstr, "([^" .. (sep or "%s") .. "]+)") do
@@ -5634,6 +5641,8 @@ fieldConverters = {
 		CacheField(group, "professionID", value);
 	end,
 	["questID"] = cacheQuestID,
+	["questIDA"] = cacheQuestID,
+	["questIDH"] = cacheQuestID,
 	["requireSkill"] = function(group, value)
 		CacheField(group, "professionID", value);
 	end,
@@ -5672,11 +5681,6 @@ fieldConverters = {
 	["qgs"] = function(group, value)
 		for _,questGiverID in ipairs(value) do
 			cacheCreatureID(group, questGiverID);
-		end
-	end,
-	["altQuests"] = function(group, value)
-		for _,questID in ipairs(value) do
-			cacheQuestID(group, questID);
 		end
 	end,
 	["titleIDs"] = function(group, value)
@@ -5857,10 +5861,7 @@ local function SearchForFieldContainer(field)
 	if field then return rawget(fieldCache, field); end
 end
 app.SearchForFieldContainer = SearchForFieldContainer;
--- This method returns a table containing all groups which are related to or keyed by the
--- provided field type and key id
--- Meaning, when using this function, the results must be filtered to ensure the expected group(s) are being utilized
--- i.e. "questID" & 55780 will return groups for 55780 AND 55781 (which is an altquest of 55780)
+-- This method returns a table containing all groups which contain the provided field with id value
 local function SearchForField(field, id)
 	if field and id then
 		_cache = rawget(fieldCache, field);
@@ -5868,7 +5869,7 @@ local function SearchForField(field, id)
 	end
 end
 app.SearchForField = SearchForField;
--- This method performs the SearchForField logic, but then verifies that ONLY the specific matching object is returned
+-- This method performs the SearchForField logic, but then verifies that ONLY a specific matching, filtered-priority object is returned
 app.SearchForObject = function(field, id)
 	local fcache = SearchForField(field, id);
 	if fcache then
@@ -5876,15 +5877,13 @@ app.SearchForObject = function(field, id)
 		local fcacheObj, firstMatch, fieldMatch;
 		for i=1,#fcache,1 do
 			fcacheObj = fcache[i];
-			if fcacheObj[field] == id then
-				if fcacheObj.key == field then
-					firstMatch = firstMatch or fcacheObj;
-					if app.RecursiveGroupRequirementsFilter(fcacheObj) then
-						return fcacheObj;
-					end
-				else
-					fieldMatch = fieldMatch or fcacheObj;
+			if fcacheObj.key == field then
+				firstMatch = firstMatch or fcacheObj;
+				if app.RecursiveGroupRequirementsFilter(fcacheObj) then
+					return fcacheObj;
 				end
+			else
+				fieldMatch = fieldMatch or fcacheObj;
 			end
 		end
 		-- otherwise just find the first matching object
@@ -5900,7 +5899,7 @@ app.SearchForMergedObject = function(field, id)
 		local fcacheObj, merged;
 		for i=1,#fcache,1 do
 			fcacheObj = fcache[i];
-			if fcacheObj.key == field and fcacheObj[field] == id then
+			if fcacheObj.key == field then
 				if not merged then
 					merged = CreateObject(fcacheObj);
 				else
@@ -6431,21 +6430,6 @@ end
 -- Returns an Object based on a QuestID a lot of Quest information for displaying in a row
 local function GetPopulatedQuestObject(questID)
 	local cachedVersion = app.SearchForObject("questID", questID);
-	-- questID not sourced specifically as a questID, potentially only as an altQuest on another object...
-	if not cachedVersion then
-		local allCached = app.SearchForField("questID", questID);
-		if allCached then
-			for _,o in ipairs(allCached) do
-				if o.altQuests then
-					if contains(o.altQuests, questID) then
-						-- print("Found group for questID via altQuests",questID,"=>",o.hash)
-						cachedVersion = o;
-						break;
-					end
-				end
-			end
-		end
-	end
 	-- either want to duplicate the existing data for this quest, or create new data for a missing quest
 	local data = cachedVersion or { questID = questID, _missing = true };
 	local questObject = CreateObject(data, true);
@@ -6772,7 +6756,7 @@ local function RefreshCollections()
 			if CompletedQuests[questID] then
 				-- Throw up a warning to report if this was already completed by another character
 				if questGuid and questGuid ~= charGuid then
-					app.PrintDebug("One-Time-Quest ID #" .. questID .. " was previously marked as completed, but is also completed on the current character!");
+					app.PrintDebug("One-Time-Quest ID " .. app:Linkify(questID,app.Colors.ChatLink,"search:questID:"..questID) .. " was previously marked as completed, but is also completed on the current character!");
 				end
 				-- Mark the quest as completed for the Account
 				acctQuests[questID] = 1;
@@ -7867,11 +7851,11 @@ local questFields = {
 	end,
 	["indicatorIcon"] = app.GetQuestIndicator,
 	["collectibleAsReputation"] = function(t)
-		local factionID = t.maxReputation[1];
 		-- If Collectible by providing reputation towards a Faction with which the character is below the rep-granting Standing
 		-- and the Faction itself is Collectible & Not Collected
 		-- and the Quest is not locked from being completed
 		if app.CollectibleReputations and not t.locked then
+			local factionID = t.maxReputation[1];
 			local factionRef = app.SearchForObject("factionID", factionID);
 			if factionRef and not factionRef.collected and (select(6, GetFactionInfoByID(factionID)) or 0) < t.maxReputation[2] then
 				return true;
@@ -8493,13 +8477,27 @@ local fields = {
 		return app.CollectibleAchievements;
 	end,
 	["collected"] = function(t)
-		if app.CurrentCharacter.Achievements[t.achievementID] then return 1; end
-		if select(13, GetAchievementInfo(t.achievementID)) then
-			app.CurrentCharacter.Achievements[t.achievementID] = 1;
-			ATTAccountWideData.Achievements[t.achievementID] = 1;
-			return 1;
+		if t.saved then return 1; end
+		if app.AccountWideAchievements then
+			local id = t.achievementID;
+			-- cached account-wide credit, or API account-wide credit
+			if ATTAccountWideData.Achievements[id] then return 2; end
+			local acctApiCredit = select(4, GetAchievementInfo(id));
+			if acctApiCredit then
+				return 2;
+			end
 		end
-		if app.AccountWideAchievements and ATTAccountWideData.Achievements[t.achievementID] then return 2; end
+	end,
+	["trackable"] = app.ReturnTrue,
+	["saved"] = function(t)
+		local id = t.achievementID;
+		if app.CurrentCharacter.Achievements[id] then return true; end
+		local earnedByMe = select(13, GetAchievementInfo(id));
+		if earnedByMe then
+			app.CurrentCharacter.Achievements[id] = 1;
+			ATTAccountWideData.Achievements[id] = 1;
+			return true;
+		end
 	end,
 	["parentCategoryID"] = function(t)
 		return GetAchievementCategory(t.achievementID) or -1;
@@ -8627,12 +8625,14 @@ local criteriaFields = {
 	end,
 	["trackable"] = app.ReturnTrue,
 	["collected"] = function(t)
-		local achievementID = t.achievementID;
-		if achievementID then
-			if app.CurrentCharacter.Achievements[achievementID] then return 1; end
-			if app.AccountWideAchievements and ATTAccountWideData.Achievements[achievementID] then return 2; end
-			if t.criteriaID and t.criteriaID <= (GetAchievementNumCriteria(achievementID) or -1) then
-				return select(3, GetAchievementCriteriaInfo(achievementID, t.criteriaID, true));
+		if t.saved then return 1; end
+		if app.AccountWideAchievements then
+			local achievementID = t.achievementID;
+			-- cached account-wide credit, or API account-wide credit
+			if ATTAccountWideData.Achievements[achievementID] then return 2; end
+			local acctApiCredit = select(4, GetAchievementInfo(achievementID));
+			if acctApiCredit then
+				return 2;
 			end
 		end
 	end,
@@ -8911,7 +8911,7 @@ harvesterFields.text = function(t)
 			AllTheThingsHarvestItems = HarvestedAchievementDatabase;
 			setmetatable(t, app.BaseAchievement);
 			rawset(t, "collected", true);
-			return link;
+			return Name;
 		end
 	end
 
@@ -8927,9 +8927,13 @@ end
 
 local function CheckAchievementCollectionStatus(achievementID)
 	if ATTAccountWideData then
-		local id,name,_,accCompleted,_,_,_,_,flags,_,_,isGuild = GetAchievementInfo(achievementID)
-		if id and not isGuild and accCompleted and bit.band(flags,0x1) == 0 then
-			ATTAccountWideData.Achievements[id] = 1;
+		achievementID = tonumber(achievementID);
+		local _,_,_,acctCredit,_,_,_,_,_,_,_,isGuild,earnedByMe = GetAchievementInfo(achievementID);
+		if earnedByMe then
+			app.CurrentCharacter.Achievements[achievementID] = 1;
+			ATTAccountWideData.Achievements[achievementID] = 1;
+		elseif acctCredit and not isGuild then
+			ATTAccountWideData.Achievements[achievementID] = 1;
 		end
 	end
 end
@@ -12347,10 +12351,41 @@ local npcFields = {
 	["linkAsAchievement"] = function(t)
 		return GetAchievementLink(t.achievementID);
 	end,
+	-- questID is sometimes a faction-based questID for a single NPC (i.e. BFA Warfront Rares), thanks Blizzard
+	["questID"] = function(t)
+		local qa = t.questIDA;
+		local qh = t.questIDH;
+		if qa then
+			if app.FactionID == Enum.FlightPathFaction.Horde then
+				rawset(t, "questID", qh);
+				rawset(t, "otherFactionQuestID", qa);
+				return qh;
+			else
+				rawset(t, "questID", qa);
+				rawset(t, "otherFactionQuestID", qh);
+				return qa;
+			end
+		end
+	end,
+	["otherFactionQuestID"] = function(t)
+		local qa = t.questIDA;
+		local qh = t.questIDH;
+		if qa then
+			if app.FactionID == Enum.FlightPathFaction.Horde then
+				rawset(t, "questID", qh);
+				rawset(t, "otherFactionQuestID", qa);
+				return qa;
+			else
+				rawset(t, "questID", qa);
+				rawset(t, "otherFactionQuestID", qh);
+				return qh;
+			end
+		end
+	end,
 	["collectibleAsQuest"] = app.CollectibleAsQuest,
 	["collectedAsQuest"] = IsQuestFlaggedCompletedForObject,
 	["savedAsQuest"] = function(t)
-		return IsQuestFlaggedCompleted(t.questID) or IsAnyQuestFlaggedCompleted(t.altQuests);
+		return IsQuestFlaggedCompleted(t.questID);
 	end,
 	["trackableAsQuest"] = app.ReturnTrue,
 	["repeatableAsQuest"] = function(t)
@@ -12370,6 +12405,15 @@ local npcFields = {
 		if app.CurrentVignettes["npcID"][t.npcID] then
 			return "Category_Secrets";
 		end
+	end,
+	-- use custom to track opposite faction questID collection in account/debug if the NPC is considered collectible
+	["customTotal"] = function(t)
+		if app.MODE_DEBUG_OR_ACCOUNT and t.questIDA and t.collectible then
+			return 1;
+		end
+	end,
+	["customProgress"] = function(t)
+		return IsQuestFlaggedCompletedForObject(t, "otherFactionQuestID") and 1 or 0;
 	end,
 };
 npcFields.icon = npcFields.iconAsDefault;
@@ -12476,7 +12520,7 @@ app.CreateNPC = function(id, t)
 					return setmetatable(constructor(id, t, "npcID"), app.BaseNPCWithAchievement);
 				end
 			else
-				if rawget(t, "questID") then
+				if rawget(t, "questID") or rawget(t, "questIDA") then
 					return setmetatable(constructor(id, t, "npcID"), app.BaseNPCWithQuest);
 				else
 					return setmetatable(constructor(id, t, "npcID"), app.BaseNPC);
@@ -13271,33 +13315,30 @@ local fields = {
 			end
 		end
 	end,
-	-- use cost to track opposite gendered title in account/debug
+	-- use custom to track opposite gendered title in account/debug
 	["customTotal"] = function(t)
 		if app.CollectibleTitles and t.titleIDs and app.MODE_DEBUG_OR_ACCOUNT then
-			-- print("title.total",t.titleID)
 			return 1;
 		end
 	end,
 	["customProgress"] = function(t)
-		if app.CollectibleTitles and t.titleIDs and app.MODE_DEBUG_OR_ACCOUNT then
-			-- print("title.progress",t.titleID)
-			local acctTitles, charTitles = ATTAccountWideData.Titles, app.CurrentCharacter.Titles;
-			local ids = t.titleIDs;
-			local m, f = ids[1], ids[2];
-			local am, af = acctTitles[m], acctTitles[f];
-			-- both titles account-collected
-			if am and af then
-				return 1;
-			-- neither title collected
-			elseif not am and not af then
-				return 0;
-			-- only the available title is collected
-			elseif charTitles[m] or charTitles[f] then
-				return 0;
-			end
-			-- otherwise, unavailable title is collected
+		-- print("title.progress",t.titleID)
+		local acctTitles, charTitles = ATTAccountWideData.Titles, app.CurrentCharacter.Titles;
+		local ids = t.titleIDs;
+		local m, f = ids[1], ids[2];
+		local am, af = acctTitles[m], acctTitles[f];
+		-- both titles account-collected
+		if am and af then
 			return 1;
+		-- neither title collected
+		elseif not am and not af then
+			return 0;
+		-- only the available title is collected
+		elseif charTitles[m] or charTitles[f] then
+			return 0;
 		end
+		-- otherwise, unavailable title is collected
+		return 1;
 	end,
 };
 app.BaseTitle = app.BaseObjectFields(fields, "BaseTitle");
@@ -15675,6 +15716,7 @@ RowOnEnter = function (self)
 		-- Determine search results to add if nothing was added from being searched
 		-- AttachComplete will be true or false if ATT has processed the tooltip/search results already
 		-- nil means no search results were attached, so we can manually add it below
+		local refQuestID = reference.questID;
 		if doSearch or GameTooltip.AttachComplete == nil then
 			if reference.creatureID or reference.encounterID or reference.objectID then
 				-- rows with these fields should not include the extra search info
@@ -15686,8 +15728,8 @@ RowOnEnter = function (self)
 				AttachTooltipSearchResults(GameTooltip, 1, "speciesID:" .. reference.speciesID, SearchForField, "speciesID", reference.speciesID);
 			elseif reference.titleID then
 				AttachTooltipSearchResults(GameTooltip, 1, "titleID:" .. reference.titleID, SearchForField, "titleID", reference.titleID);
-			elseif reference.questID then
-				AttachTooltipSearchResults(GameTooltip, 1, "quest:"..reference.questID, SearchForField, "questID", reference.questID);
+			elseif refQuestID then
+				AttachTooltipSearchResults(GameTooltip, 1, "quest:"..refQuestID, SearchForField, "questID", refQuestID);
 			elseif reference.flightPathID then
 				AttachTooltipSearchResults(GameTooltip, 1, "fp:"..reference.flightPathID, SearchForField, "flightPathID", reference.flightPathID);
 			elseif reference.achievementID then
@@ -15739,7 +15781,7 @@ RowOnEnter = function (self)
 			else
 				GameTooltip:AddLine(title, 1, 1, 1);
 			end
-		elseif reference.questID and reference.retries and not reference.itemID then
+		elseif refQuestID and reference.retries and not reference.itemID then
 			GameTooltip:AddLine(L["QUEST_MAY_BE_REMOVED"] .. tostring(reference.retries), 1, 1, 1);
 		end
 		if reference.lvl then
@@ -15907,13 +15949,17 @@ RowOnEnter = function (self)
 			if app.Settings:GetTooltipSetting("titleID") then GameTooltip:AddDoubleLine(L["TITLE_ID"], tostring(reference.titleID)); end
 			GameTooltip:AddDoubleLine(" ", L[reference.saved and "KNOWN_ON_CHARACTER" or "UNKNOWN_ON_CHARACTER"]);
 		end
-		if reference.questID then
+		if refQuestID then
 			if app.Settings:GetTooltipSetting("questID") then
-				GameTooltip:AddDoubleLine(L["QUEST_ID"], tostring(reference.questID));
+				GameTooltip:AddDoubleLine(L["QUEST_ID"], tostring(refQuestID));
+				local otherFactionQuestID = reference.otherFactionQuestID;
+				if otherFactionQuestID then
+					GameTooltip:AddDoubleLine(L["QUEST_ID"].. " ["..(app.FactionID == Enum.FlightPathFaction.Alliance and FACTION_HORDE or FACTION_ALLIANCE).."]", tostring(otherFactionQuestID));
+				end
 			end
-			if ATTAccountWideData.OneTimeQuests[reference.questID] then
-				GameTooltip:AddDoubleLine(L["QUEST_ONCE_PER_ACCOUNT"], sformat(L["QUEST_ONCE_PER_ACCOUNT_FORMAT"], ATTCharacterData[ATTAccountWideData.OneTimeQuests[reference.questID]].text));
-			elseif ATTAccountWideData.OneTimeQuests[reference.questID] == false then
+			if ATTAccountWideData.OneTimeQuests[refQuestID] then
+				GameTooltip:AddDoubleLine(L["QUEST_ONCE_PER_ACCOUNT"], sformat(L["QUEST_ONCE_PER_ACCOUNT_FORMAT"], ATTCharacterData[ATTAccountWideData.OneTimeQuests[refQuestID]].text));
+			elseif ATTAccountWideData.OneTimeQuests[refQuestID] == false then
 				GameTooltip:AddLine("|cffcf271b" .. L["QUEST_ONCE_PER_ACCOUNT"] .. "|r");
 			end
 		end
@@ -16441,7 +16487,7 @@ RowOnEnter = function (self)
 					GameTooltip:AddLine(L[(self.index > 0 and "OTHER_ROW_INSTRUCTIONS") or "TOP_ROW_INSTRUCTIONS"], 1, 1, 1);
 				end
 			end
-			if reference.questID then
+			if refQuestID then
 				GameTooltip:AddLine(L["QUEST_ROW_INSTRUCTIONS"], 1, 1, 1);
 			end
 		end
@@ -20150,7 +20196,7 @@ customWindowUpdates["Sync"] = function(self)
 
 			local function OnRightButtonDeleteCharacter(row, button)
 				if button == "RightButton" then
-					app:ShowPopupDialog("CHARACTER DATA: " .. (row.ref.text or RETRIEVING_DATA) .. "\n \nAre you sure you want to delete this?",
+					app:ShowPopupDialog("CHARACTER DATA: " .. (row.ref.text or RETRIEVING_DATA) .. L["CONFIRM_DELETE"],
 					function()
 						ATTCharacterData[row.ref.datalink] = nil;
 						app:RecalculateAccountWideData();
@@ -20161,7 +20207,7 @@ customWindowUpdates["Sync"] = function(self)
 			end
 			local function OnRightButtonDeleteLinkedAccount(row, button)
 				if button == "RightButton" then
-					app:ShowPopupDialog("LINKED ACCOUNT: " .. (row.ref.text or RETRIEVING_DATA) .. "\n \nAre you sure you want to delete this?",
+					app:ShowPopupDialog("LINKED ACCOUNT: " .. (row.ref.text or RETRIEVING_DATA) .. L["CONFIRM_DELETE"],
 					function()
 						AllTheThingsAD.LinkedAccounts[row.ref.datalink] = nil;
 						app:SynchronizeWithPlayer(row.ref.datalink);
@@ -20189,35 +20235,35 @@ customWindowUpdates["Sync"] = function(self)
 					end
 					GameTooltip:AddLine(" ", 1, 1, 1);
 					GameTooltip:AddDoubleLine("Total", tostring(total), 0.8, 0.8, 1);
-					GameTooltip:AddLine("Right Click to Delete this Character", 1, 0.8, 0.8);
+					GameTooltip:AddLine(L["DELETE_CHARACTER"], 1, 0.8, 0.8);
 				end
 			end
 			local function OnTooltipForLinkedAccount(t)
 				if t.unit then
-					GameTooltip:AddLine("This character's account will be synchronized with automatically when they log in. For optimal play, you should whitelist a bank character and probably not your main as to not affect your ability to play your character when syncing account data.", 0.8, 0.8, 1, true);
-					GameTooltip:AddLine("Right Click to Delete this Linked Character", 1, 0.8, 0.8);
+					GameTooltip:AddLine(L["LINKED_ACCOUNT_TOOLTIP"], 0.8, 0.8, 1, true);
+					GameTooltip:AddLine(L["DELETE_LINKED_CHARACTER"], 1, 0.8, 0.8);
 				else
-					GameTooltip:AddLine("Right Click to Delete this Linked Account", 1, 0.8, 0.8);
+					GameTooltip:AddLine(L["DELETE_LINKED_ACCOUNT"], 1, 0.8, 0.8);
 				end
 			end
 
 			local syncHeader;
 			syncHeader = {
-				['text'] = "Account Management",
+				['text'] = L["ACCOUNT_MANAGEMENT"],
 				['icon'] = "Interface\\Icons\\Achievement_Dungeon_HEROIC_GloryoftheRaider",
-				["description"] = "This list shows you all of the functionality related to syncing account data.",
+				["description"] = L["ACCOUNT_MANAGEMENT_TOOLTIP"],
 				['visible'] = true,
 				['expanded'] = true,
 				['back'] = 1,
 				['OnUpdate'] = app.AlwaysShowUpdate,
 				['g'] = {
 					{
-						['text'] = "Add Linked Character / Account",
+						['text'] = L["ADD_LINKED_CHARACTER_ACCOUNT"],
 						['icon'] = "Interface\\Icons\\Ability_Priest_VoidShift",
-						['description'] = "Click here to link a character or account to your account.",
+						['description'] = L["ADD_LINKED_CHARACTER_ACCOUNT_TOOLTIP"],
 						['visible'] = true,
 						['OnClick'] = function(row, button)
-							app:ShowPopupDialogWithEditBox("Please type the name of the character or BNET account to link to.", "", function(cmd)
+							app:ShowPopupDialogWithEditBox(L["ADD_LINKED_POPUP"], "", function(cmd)
 								if cmd and cmd ~= "" then
 									AllTheThingsAD.LinkedAccounts[cmd] = true;
 									self:Reset();
@@ -20229,9 +20275,9 @@ customWindowUpdates["Sync"] = function(self)
 					},
 					-- Characters Section
 					{
-						['text'] = "Characters",
+						['text'] = L["CHARACTERS"],
 						['icon'] = "Interface\\FriendsFrame\\Battlenet-Portrait",
-						["description"] = "This shows all of the characters on your account.",
+						["description"] = L["SYNC_CHARACTERS_TOOLTIP"],
 						['OnUpdate'] = function(data)
 							data.g = {};
 							for guid,character in pairs(ATTCharacterData) do
@@ -20248,7 +20294,7 @@ customWindowUpdates["Sync"] = function(self)
 
 							if #data.g < 1 then
 								table.insert(data.g, {
-									['text'] = "No characters found.",
+									['text'] = L["NO_CHARACTERS_FOUND"],
 									['icon'] = "Interface\\FriendsFrame\\Battlenet-Portrait",
 									['visible'] = true,
 								});
@@ -20264,9 +20310,9 @@ customWindowUpdates["Sync"] = function(self)
 
 					-- Linked Accounts Section
 					{
-						['text'] = "Linked Accounts",
+						['text'] = L["LINKED_ACCOUNTS"],
 						['icon'] = "Interface\\FriendsFrame\\Battlenet-Portrait",
-						["description"] = "This shows all of the linked accounts you have defined so far.",
+						["description"] = L["LINKED_ACCOUNTS_TOOLTIP"],
 						['OnUpdate'] = function(data)
 							data.g = {};
 							local charactersByName = {};
@@ -20313,7 +20359,7 @@ customWindowUpdates["Sync"] = function(self)
 
 							if #data.g < 1 then
 								table.insert(data.g, {
-									['text'] = "No linked accounts found.",
+									['text'] = L["NO_LINKED_ACCOUNTS"],
 									['icon'] = "Interface\\FriendsFrame\\Battlenet-Portrait",
 									['visible'] = true,
 								});

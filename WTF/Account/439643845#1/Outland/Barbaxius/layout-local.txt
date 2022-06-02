@@ -6,13 +6,6 @@ X: 0
 Y: -217
 W: 410
 H: 188
-Frame: scanner_button
-FrameLevel: 200
-Anchor: CENTER
-X: 337
-Y: 42
-W: 200
-H: 50
 Frame: MonkeySpeedFrame
 FrameLevel: 1
 Anchor: TOPRIGHT
@@ -83,3 +76,10 @@ X: 0
 Y: 0
 W: 300
 H: 300
+Frame: scanner_button
+FrameLevel: 200
+Anchor: CENTER
+X: 337
+Y: 42
+W: 200
+H: 50
