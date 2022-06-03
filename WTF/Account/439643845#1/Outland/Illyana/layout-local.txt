@@ -8,9 +8,9 @@ W: 142
 H: 45
 Frame: AllTheThings-Window-CurrentInstance
 FrameLevel: 1
-Anchor: LEFT
+Anchor: BOTTOMLEFT
 X: 0
-Y: -217
+Y: 222
 W: 410
 H: 188
 Frame: ObjectiveTrackerFrame
@@ -69,13 +69,6 @@ X: -314
 Y: -99
 W: 380
 H: 200
-Frame: scanner_button
-FrameLevel: 200
-Anchor: CENTER
-X: 341
-Y: 16
-W: 200
-H: 50
 Frame: AllTheThings-Window-Unsorted
 FrameLevel: 1
 Anchor: CENTER
@@ -83,3 +76,10 @@ X: 0
 Y: 0
 W: 300
 H: 300
+Frame: scanner_button
+FrameLevel: 200
+Anchor: CENTER
+X: 341
+Y: 16
+W: 200
+H: 50
