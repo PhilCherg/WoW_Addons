@@ -115,17 +115,17 @@ PasteDB = {
 			},
 		},
 		["Necrophagus - Outland"] = {
-			["whispertarget"] = "",
-			["where"] = "Default",
 			["loaded"] = true,
+			["minimap"] = {
+				["minimapPos"] = 178.6279061133446,
+			},
+			["where"] = "Default",
+			["whispertarget"] = "",
 			["pos"] = {
 				["height"] = 320,
 				["top"] = 700.8450927734375,
 				["left"] = 711.5023803710938,
 				["width"] = 500.0000305175781,
-			},
-			["minimap"] = {
-				["minimapPos"] = 178.6279061133446,
 			},
 		},
 		["Illydaria - Draenor"] = {
@@ -237,12 +237,12 @@ PasteDB = {
 			["loaded"] = true,
 		},
 		["Illyana - Outland"] = {
+			["whispertarget"] = "",
+			["where"] = "Default",
 			["loaded"] = true,
 			["minimap"] = {
 				["minimapPos"] = 179.0857583389598,
 			},
-			["where"] = "Default",
-			["whispertarget"] = "",
 			["pos"] = {
 			},
 		},

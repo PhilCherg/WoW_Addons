@@ -1,5 +1,5 @@
 --
--- RaiderIO Client Data. Generated on 2022-06-02T22:18:17Z
+-- RaiderIO Client Data. Generated on 2022-06-03T21:14:50Z
 --
 local _, ns = ...
 ns.GUILD_BEST_DATA = {
@@ -319,36 +319,36 @@ ns.GUILD_BEST_DATA = {
         }
       },
       [5] = {
-        ["zone_id"] = 12916,
-        ["level"] = 4,
-        ["upgrades"] = 1,
-        ["fraction"] = 0.9172743717141933,
-        ["clear_time"] = "00:33:02.229",
+        ["zone_id"] = 13309,
+        ["level"] = 14,
+        ["upgrades"] = 0,
+        ["fraction"] = 1.03983883759738,
+        ["clear_time"] = "00:44:43.823",
         ["party"] = {
           [1] = {
-            ["name"] = "Genje",
+            ["name"] = "Trûpzîk",
             ["role"] = "tank",
-            ["class_id"] = 10
+            ["class_id"] = 11
           },
           [2] = {
-            ["name"] = "Ironballz",
+            ["name"] = "Themehio",
             ["role"] = "healer",
             ["class_id"] = 2
           },
           [3] = {
-            ["name"] = "Aertheas",
+            ["name"] = "Spøcky",
             ["role"] = "dps",
-            ["class_id"] = 12
+            ["class_id"] = 8
           },
           [4] = {
-            ["name"] = "Neomenia",
+            ["name"] = "Ледо",
             ["role"] = "dps",
-            ["class_id"] = 11
+            ["class_id"] = 3
           },
           [5] = {
-            ["name"] = "Simonbol",
+            ["name"] = "Шлёхасвета",
             ["role"] = "dps",
-            ["class_id"] = 1
+            ["class_id"] = 5
           }
         }
       }

@@ -1,9 +1,9 @@
 Version: 1
 Frame: AllTheThings-Window-CurrentInstance
 FrameLevel: 1
-Anchor: LEFT
+Anchor: BOTTOMLEFT
 X: 0
-Y: -217
+Y: 222
 W: 410
 H: 188
 Frame: MonkeySpeedFrame

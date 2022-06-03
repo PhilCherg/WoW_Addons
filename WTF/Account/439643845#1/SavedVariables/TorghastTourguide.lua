@@ -19,12 +19,11 @@ TorghastTourgiudeDB = {
 		["FloorsCompleted"] = 0,
 		["TrackerMessages"] = {
 			["Pauper"] = true,
+			["Rescuer"] = true,
 			["Highlander"] = true,
-			["Collector"] = true,
-			["Reinforced"] = true,
 			["Trapmaster"] = true,
 			["Plunderer"] = true,
-			["Rescuer"] = true,
+			["Collector"] = true,
 			["Executioner"] = true,
 		},
 		["MobsKilled"] = 0,
@@ -70,6 +69,16 @@ TorghastTourgiudeDB = {
 			["Destruxia - Outland"] = {
 			},
 			["Shadroxia - Outland"] = {
+				["current"] = {
+					["Deaths"] = 1,
+					["Time"] = 286.7220000000016,
+					["CurentTime"] = 17346.895,
+				},
+				["total"] = {
+					["Deaths"] = 1,
+					["Time"] = 286.7220000000016,
+					["CurrentTime"] = 286.7220000000016,
+				},
 			},
 			["Luminaxia - Outland"] = {
 			},
@@ -77,61 +86,61 @@ TorghastTourgiudeDB = {
 			},
 			["Necrophagus - Outland"] = {
 				["total"] = {
-					["Deaths"] = 29,
-					["CurrentTime"] = 10263.26699999999,
-					["AnimaPowers"] = 181,
-					["Phantasma"] = 239,
-					["MobsKilled"] = 1255,
-					["FloorsCompleted"] = 25,
-					["JarsBroken"] = 164,
-					["Bosses"] = 12,
-					["Time"] = 10263.26699999999,
-					["SoulsSaved"] = 62,
-					["Rares"] = 5,
-					["Mawrats"] = 187,
-					["QuestsCompleted"] = 8,
-					["Chests"] = 7,
+					["CurrentTime"] = 18082.62899999999,
+					["Phantasma"] = 26,
+					["Time"] = 18082.62899999999,
+					["Rares"] = 11,
+					["Deaths"] = 49,
+					["Chests"] = 10,
+					["QuestsCompleted"] = 15,
+					["MobsKilled"] = 2106,
+					["AnimaPowers"] = 369,
+					["Mawrats"] = 322,
+					["SoulsSaved"] = 105,
+					["Bosses"] = 18,
+					["JarsBroken"] = 329,
+					["FloorsCompleted"] = 41,
 				},
 				["current"] = {
 					["FloorTime"] = {
-						"0:05:02", -- [1]
-						"0:08:23", -- [2]
+						"0:04:43", -- [1]
+						"0:07:26", -- [2]
 						nil, -- [3]
-						"0:03:42", -- [4]
+						"0:09:45", -- [4]
 					},
-					["Phantasma"] = 319,
-					["Time"] = 1963.006,
-					["Rares"] = 2,
-					["TotalPar"] = 1306,
+					["Phantasma"] = 96,
+					["Time"] = 2133.217000000001,
+					["Rares"] = 3,
+					["TotalPar"] = 1380,
 					["FloorPar"] = {
-						" 0:05:55", -- [1]
-						" 0:10:30", -- [2]
+						" 0:04:57", -- [1]
+						" 0:07:28", -- [2]
 						nil, -- [3]
-						" 0:05:21", -- [4]
+						" 0:10:35", -- [4]
 					},
-					["Deaths"] = 7,
-					["Chests"] = 2,
-					["CurentTime"] = 4656.831,
-					["AnimaPowers"] = 37,
-					["JarsBroken"] = 12,
+					["Deaths"] = 2,
+					["Chests"] = 1,
+					["CurentTime"] = 25931.251,
+					["AnimaPowers"] = 46,
+					["JarsBroken"] = 71,
 					["FloorCompletion"] = {
 						"100%", -- [1]
 						"100%", -- [2]
 						nil, -- [3]
-						"100%", -- [4]
+						"98%", -- [4]
 					},
-					["timeBonus"] = 32,
-					["SoulsSaved"] = 10,
-					["currentPhantasma"] = 367,
-					["Mawrats"] = 36,
-					["QuestsCompleted"] = 2,
+					["timeBonus"] = 28,
+					["SoulsSaved"] = 14,
+					["currentPhantasma"] = 154,
+					["Mawrats"] = 21,
+					["QuestsCompleted"] = 3,
 					["Bosses"] = 3,
 					["TrackerMessages"] = {
 						["Plunderer"] = true,
 						["Rescuer"] = true,
 						["Collector"] = true,
 					},
-					["MobsKilled"] = 330,
+					["MobsKilled"] = 186,
 					["FloorsCompleted"] = 6,
 				},
 			},

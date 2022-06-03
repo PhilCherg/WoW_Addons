@@ -215,12 +215,12 @@ TomTomWaypointsM = {
 						["minimap"] = {
 						},
 					},
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["desc"] = "Return to the Orphanage",
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
-					["desc"] = "Return to the Orphanage",
-					["persistent"] = true,
 					["minimap"] = true,
+					["persistent"] = true,
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["silent"] = true,
 					["cleardistance"] = 0,
 					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
@@ -242,12 +242,12 @@ TomTomWaypointsM = {
 						["minimap"] = {
 						},
 					},
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["desc"] = "Return to the Orphanage",
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
-					["desc"] = "Return to the Orphanage",
-					["persistent"] = true,
 					["minimap"] = true,
+					["persistent"] = true,
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["silent"] = true,
 					["cleardistance"] = 0,
 					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
@@ -303,7 +303,7 @@ TomTomWaypointsM = {
 					0.4777, -- [2]
 					0.3937, -- [3]
 					["crazy"] = true,
-					["desc"] = "Return to the Orphanage",
+					["minimap"] = true,
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
@@ -315,14 +315,14 @@ TomTomWaypointsM = {
 					},
 					["title"] = "Return to the Orphanage",
 					["persistent"] = true,
-					["minimap"] = true,
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["silent"] = true,
 					["cleardistance"] = 0,
 					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
 					["minimap_displayID"] = 89265,
 					["worldmap_displayID"] = 89265,
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["desc"] = "Return to the Orphanage",
 					["world"] = true,
 				},
 				["1161:480100000:402800000:Return to the Orphanage"] = {
@@ -330,7 +330,7 @@ TomTomWaypointsM = {
 					0.4801, -- [2]
 					0.4028, -- [3]
 					["crazy"] = true,
-					["desc"] = "Return to the Orphanage",
+					["minimap"] = true,
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
@@ -342,14 +342,14 @@ TomTomWaypointsM = {
 					},
 					["title"] = "Return to the Orphanage",
 					["persistent"] = true,
-					["minimap"] = true,
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["silent"] = true,
 					["cleardistance"] = 0,
 					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
 					["minimap_displayID"] = 89265,
 					["worldmap_displayID"] = 89265,
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["desc"] = "Return to the Orphanage",
 					["world"] = true,
 				},
 			},
@@ -408,17 +408,10 @@ TomTomWaypointsM = {
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
 						},
 						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
 					["minimap"] = true,
@@ -440,17 +433,10 @@ TomTomWaypointsM = {
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
 						},
 						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
 					["minimap"] = true,
@@ -470,17 +456,10 @@ TomTomWaypointsM = {
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
 						},
 						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
 					["minimap"] = true,
@@ -500,17 +479,10 @@ TomTomWaypointsM = {
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
 						},
 						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
 					["minimap"] = true,
@@ -530,17 +502,10 @@ TomTomWaypointsM = {
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
 						},
 						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
 					["minimap"] = true,
@@ -561,7 +526,7 @@ TomTomWaypointsM = {
 					0.4777, -- [2]
 					0.3937, -- [3]
 					["crazy"] = true,
-					["minimap"] = true,
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
@@ -573,14 +538,14 @@ TomTomWaypointsM = {
 					},
 					["worldmap_displayID"] = 89265,
 					["persistent"] = true,
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["desc"] = "Return to the Orphanage",
 					["silent"] = true,
 					["cleardistance"] = 0,
 					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
 					["minimap_displayID"] = 89265,
 					["title"] = "Return to the Orphanage",
-					["desc"] = "Return to the Orphanage",
+					["minimap"] = true,
 					["world"] = true,
 				},
 				["1161:480100000:402800000:Return to the Orphanage"] = {
@@ -588,7 +553,7 @@ TomTomWaypointsM = {
 					0.4801, -- [2]
 					0.4028, -- [3]
 					["crazy"] = true,
-					["minimap"] = true,
+					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
@@ -600,14 +565,14 @@ TomTomWaypointsM = {
 					},
 					["worldmap_displayID"] = 89265,
 					["persistent"] = true,
-					["worldmap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
+					["desc"] = "Return to the Orphanage",
 					["silent"] = true,
 					["cleardistance"] = 0,
 					["minimap_icon"] = "Interface\\GossipFrame\\DailyQuestIcon",
 					["from"] = "ATT\nIf you are missing this quest resummon your Kul Tiran child to pick it up.",
 					["minimap_displayID"] = 89265,
 					["title"] = "Return to the Orphanage",
-					["desc"] = "Return to the Orphanage",
+					["minimap"] = true,
 					["world"] = true,
 				},
 			},
