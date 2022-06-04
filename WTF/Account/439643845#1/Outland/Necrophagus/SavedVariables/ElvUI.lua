@@ -2,160 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"tahkwitz up", -- [1]
-			"Hashslinging-DefiasBrotherhood", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Hashslinging-DefiasBrotherhood", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			967, -- [11]
-			"Player-1096-07FC1DFB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Hashslinging-DefiasBrotherhood|r",
-			[51] = 1654368394,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [1]
-		{
-			"garu", -- [1]
-			"Moraï-KhazModan", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Moraï-KhazModan", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			969, -- [11]
-			"Player-3690-07B305CB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Moraï-KhazModan|r",
-			[51] = 1654368404,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [2]
-		{
-			"link please", -- [1]
-			"Dxterminator-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Dxterminator-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			971, -- [11]
-			"Player-3702-088E1373", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Dxterminator-ArgentDawn|r",
-			[51] = 1654368408,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [3]
-		{
-			"mother after garudeon", -- [1]
-			"Hashslinging-DefiasBrotherhood", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Hashslinging-DefiasBrotherhood", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			974, -- [11]
-			"Player-1096-07FC1DFB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Hashslinging-DefiasBrotherhood|r",
-			[51] = 1654368439,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [4]
-		{
-			"link coordinates please", -- [1]
-			"Dxterminator-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Dxterminator-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			976, -- [11]
-			"Player-3702-088E1373", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Dxterminator-ArgentDawn|r",
-			[51] = 1654368447,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [5]
-		{
-			"garudeon still up?", -- [1]
-			"Nooraii-Eredar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Nooraii-Eredar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			979, -- [11]
-			"Player-3692-09D1051E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Nooraii-Eredar|r",
-			[51] = 1654368451,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [6]
-		{
-			"50% ", -- [1]
-			"Hashslinging-DefiasBrotherhood", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Hashslinging-DefiasBrotherhood", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			981, -- [11]
-			"Player-1096-07FC1DFB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Hashslinging-DefiasBrotherhood|r",
-			[51] = 1654368455,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [7]
-		{
 			"wait a bit", -- [1]
 			"Dareq-BurningLegion", -- [2]
 			"", -- [3]
@@ -176,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cDareq-BurningLegion|r",
 			[51] = 1654368460,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [8]
+		}, -- [1]
 		{
 			"wait for ppl", -- [1]
 			"Buval-Blackmoore", -- [2]
@@ -198,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaBuval-Blackmoore|r",
 			[51] = 1654368462,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [9]
+		}, -- [2]
 		{
 			"slow down", -- [1]
 			"Ticky-Eitrigg", -- [2]
@@ -220,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaTicky-Eitrigg|r",
 			[51] = 1654368466,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [10]
+		}, -- [3]
 		{
 			"was other group here", -- [1]
 			"Hashslinging-DefiasBrotherhood", -- [2]
@@ -242,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Hashslinging-DefiasBrotherhood|r",
 			[51] = 1654368478,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [11]
+		}, -- [4]
 		{
 			"other pepole doing it already from before", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -264,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1654368479,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [12]
+		}, -- [5]
 		{
 			"...", -- [1]
 			"Domexo-Antonidas", -- [2]
@@ -286,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Domexo-Antonidas|r",
 			[51] = 1654368484,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [13]
+		}, -- [6]
 		{
 			"gordens in the house", -- [1]
 			"Gorden-Outland", -- [2]
@@ -308,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Gorden|r",
 			[51] = 1654368488,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [14]
+		}, -- [7]
 		{
 			"..", -- [1]
 			"Moraï-KhazModan", -- [2]
@@ -330,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Moraï-KhazModan|r",
 			[51] = 1654368494,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [15]
+		}, -- [8]
 		{
 			"boom", -- [1]
 			"Swiftcasts-Outland", -- [2]
@@ -352,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSwiftcasts|r",
 			[51] = 1654368505,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [16]
+		}, -- [9]
 		{
 			"mother phestis", -- [1]
 			"Nooraii-Eredar", -- [2]
@@ -374,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Nooraii-Eredar|r",
 			[51] = 1654368506,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [17]
+		}, -- [10]
 		{
 			"link please", -- [1]
 			"Dxterminator-ArgentDawn", -- [2]
@@ -396,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Dxterminator-ArgentDawn|r",
 			[51] = 1654368511,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [18]
+		}, -- [11]
 		{
 			"Im getting my gun", -- [1]
 			"Snëk-Outland", -- [2]
@@ -418,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Snëk|r",
 			[51] = 1654368517,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [19]
+		}, -- [12]
 		{
 			"snek said ur 40", -- [1]
 			"Swiftcasts-Outland", -- [2]
@@ -440,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSwiftcasts|r",
 			[51] = 1654368519,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [20]
+		}, -- [13]
 		{
 			"trying out dh tanking any idcise", -- [1]
 			"Leonclamtur-Outland", -- [2]
@@ -462,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Leonclamtur|r",
 			[51] = 1654368522,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [21]
+		}, -- [14]
 		{
 			"at least", -- [1]
 			"Swiftcasts-Outland", -- [2]
@@ -484,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSwiftcasts|r",
 			[51] = 1654368525,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [22]
+		}, -- [15]
 		{
 			"|cffffff00|Hworldmap:1970:5625:3257|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Buval-Blackmoore", -- [2]
@@ -506,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaBuval-Blackmoore|r",
 			[51] = 1654368525,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [23]
+		}, -- [16]
 		{
 			"cant spell ", -- [1]
 			"Leonclamtur-Outland", -- [2]
@@ -528,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Leonclamtur|r",
 			[51] = 1654368527,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [24]
+		}, -- [17]
 		{
 			"- 13", -- [1]
 			"Snëk-Outland", -- [2]
@@ -550,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Snëk|r",
 			[51] = 1654368529,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [25]
+		}, -- [18]
 		{
 			"cant believe it im 28", -- [1]
 			"Gorden-Outland", -- [2]
@@ -572,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Gorden|r",
 			[51] = 1654368533,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [26]
+		}, -- [19]
 		{
 			"Mother Phestis 79.76% ~(54.43, 34.04) |cffffff00|Hworldmap:1970:5443:3404|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Emplacement marqué sur la carte]|h|r", -- [1]
 			"Ticky-Eitrigg", -- [2]
@@ -594,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaTicky-Eitrigg|r",
 			[51] = 1654368540,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
+		}, -- [20]
 		{
 			"halondrus is cute", -- [1]
 			"Mesra-Outland", -- [2]
@@ -616,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Mesra|r",
 			[51] = 1654368540,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [28]
+		}, -- [21]
 		{
 			"had a hard life", -- [1]
 			"Swiftcasts-Outland", -- [2]
@@ -638,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSwiftcasts|r",
 			[51] = 1654368544,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [29]
+		}, -- [22]
 		{
 			"all the drugs", -- [1]
 			"Gorden-Outland", -- [2]
@@ -660,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Gorden|r",
 			[51] = 1654368552,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [30]
+		}, -- [23]
 		{
 			"halondrus looking extra thicc these days", -- [1]
 			"Snëk-Outland", -- [2]
@@ -682,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Snëk|r",
 			[51] = 1654368555,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [31]
+		}, -- [24]
 		{
 			"crack baby", -- [1]
 			"Gorden-Outland", -- [2]
@@ -704,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Gorden|r",
 			[51] = 1654368565,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [32]
+		}, -- [25]
 		{
 			"lol", -- [1]
 			"Swiftcasts-Outland", -- [2]
@@ -726,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSwiftcasts|r",
 			[51] = 1654368569,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [33]
+		}, -- [26]
 		{
 			"move pls", -- [1]
 			"Moraï-KhazModan", -- [2]
@@ -748,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Moraï-KhazModan|r",
 			[51] = 1654368591,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [34]
+		}, -- [27]
 		{
 			"can you inv my mage corfix to the guild please gonna jump on him for a bit", -- [1]
 			"Gorden-Outland", -- [2]
@@ -770,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Gorden|r",
 			[51] = 1654368599,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [35]
+		}, -- [28]
 		{
 			"think normally only lvl 60s  i got lucky lol", -- [1]
 			"Swiftcasts-Outland", -- [2]
@@ -792,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSwiftcasts|r",
 			[51] = 1654368616,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [36]
+		}, -- [29]
 		{
 			"cause so many members in guild", -- [1]
 			"Swiftcasts-Outland", -- [2]
@@ -814,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSwiftcasts|r",
 			[51] = 1654368628,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [37]
+		}, -- [30]
 		{
 			"fair enough favouritism but alright", -- [1]
 			"Gorden-Outland", -- [2]
@@ -836,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Gorden|r",
 			[51] = 1654368644,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [38]
+		}, -- [31]
 		{
 			"its almost at cap", -- [1]
 			"Snëk-Outland", -- [2]
@@ -858,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Snëk|r",
 			[51] = 1654368649,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [39]
+		}, -- [32]
 		{
 			"im cute", -- [1]
 			"Swiftcasts-Outland", -- [2]
@@ -880,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSwiftcasts|r",
 			[51] = 1654368654,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [40]
+		}, -- [33]
 		{
 			"/doubt", -- [1]
 			"Snëk-Outland", -- [2]
@@ -902,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Snëk|r",
 			[51] = 1654368665,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [41]
+		}, -- [34]
 		{
 			"cap", -- [1]
 			"Gorden-Outland", -- [2]
@@ -924,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Gorden|r",
 			[51] = 1654368670,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [42]
+		}, -- [35]
 		{
 			"im a stud", -- [1]
 			"Swiftcasts-Outland", -- [2]
@@ -946,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSwiftcasts|r",
 			[51] = 1654368673,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [43]
+		}, -- [36]
 		{
 			"you gank lowbies", -- [1]
 			"Mesra-Outland", -- [2]
@@ -968,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Mesra|r",
 			[51] = 1654368674,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [44]
+		}, -- [37]
 		{
 			"Tahkwitz 100.00% ~(52.7, 41.23) |cffffff00|Hworldmap:1970:5270:4123|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Kartenmarkierung]|h|r", -- [1]
 			"Satanera-Antonidas", -- [2]
@@ -990,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSatanera-Antonidas|r",
 			[51] = 1654368676,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [38]
 		{
 			"no cute about that :(", -- [1]
 			"Mesra-Outland", -- [2]
@@ -1012,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Mesra|r",
 			[51] = 1654368678,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [46]
+		}, -- [39]
 		{
 			":<", -- [1]
 			"Swiftcasts-Outland", -- [2]
@@ -1034,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSwiftcasts|r",
 			[51] = 1654368682,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [47]
+		}, -- [40]
 		{
 			"mesra is right", -- [1]
 			"Snëk-Outland", -- [2]
@@ -1056,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Snëk|r",
 			[51] = 1654368684,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [48]
+		}, -- [41]
 		{
 			"DISGUTHANG", -- [1]
 			"Snëk-Outland", -- [2]
@@ -1078,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Snëk|r",
 			[51] = 1654368692,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [49]
+		}, -- [42]
 		{
 			"dont call me horde slayer swift for nothing", -- [1]
 			"Swiftcasts-Outland", -- [2]
@@ -1100,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSwiftcasts|r",
 			[51] = 1654368694,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [50]
+		}, -- [43]
 		{
 			"what now", -- [1]
 			"Dareq-BurningLegion", -- [2]
@@ -1122,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cDareq-BurningLegion|r",
 			[51] = 1654368695,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [51]
+		}, -- [44]
 		{
 			"fuck i spelt that wrong", -- [1]
 			"Snëk-Outland", -- [2]
@@ -1144,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Snëk|r",
 			[51] = 1654368700,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [52]
+		}, -- [45]
 		{
 			"sorry mike tyson", -- [1]
 			"Swiftcasts-Outland", -- [2]
@@ -1166,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSwiftcasts|r",
 			[51] = 1654368705,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [53]
+		}, -- [46]
 		{
 			"going on mage talk to you guys in a bit", -- [1]
 			"Gorden-Outland", -- [2]
@@ -1188,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Gorden|r",
 			[51] = 1654368708,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [54]
+		}, -- [47]
 		{
 			"|cffffff00|Hworldmap:1970:4964:4103|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Hashslinging-DefiasBrotherhood", -- [2]
@@ -1210,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Hashslinging-DefiasBrotherhood|r",
 			[51] = 1654368712,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [55]
+		}, -- [48]
 		{
 			"tahkwitz", -- [1]
 			"Jàíme-Antonidas", -- [2]
@@ -1232,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cJàíme-Antonidas|r",
 			[51] = 1654368712,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [56]
+		}, -- [49]
 		{
 			"tank up", -- [1]
 			"Dxterminator-ArgentDawn", -- [2]
@@ -1254,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Dxterminator-ArgentDawn|r",
 			[51] = 1654368723,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [57]
+		}, -- [50]
 		{
 			"protector is up", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1276,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1654368730,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [58]
+		}, -- [51]
 		{
 			"pls call and recall all rares", -- [1]
 			"Moraï-KhazModan", -- [2]
@@ -1298,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Moraï-KhazModan|r",
 			[51] = 1654368766,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [52]
 		{
 			"protector", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1320,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1654368777,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [53]
 		{
 			"thanks", -- [1]
 			"Dareq-BurningLegion", -- [2]
@@ -1342,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cDareq-BurningLegion|r",
 			[51] = 1654368783,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [61]
+		}, -- [54]
 		{
 			"taq 15", -- [1]
 			"Moraï-KhazModan", -- [2]
@@ -1364,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Moraï-KhazModan|r",
 			[51] = 1654368837,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [55]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15331:Player-1301-03DFEE62:1:6:4:22:4294967295:4294967295:4294967295:4294967295|h[Treasures of Zereth Mortis]|h|r!", -- [1]
 			"Doza-Outland", -- [2]
@@ -1386,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cDoza|r",
 			[51] = 1654368853,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [63]
+		}, -- [56]
 		{
 			"Tahkwitz died at 21:54 server time!", -- [1]
 			"Moraï-KhazModan", -- [2]
@@ -1408,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Moraï-KhazModan|r",
 			[51] = 1654368859,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [57]
 		{
 			"core is up", -- [1]
 			"Andrilune-LaCroisadeécarlate", -- [2]
@@ -1430,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Andrilune-LaCroisadeécarlate|r",
 			[51] = 1654368866,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [65]
+		}, -- [58]
 		{
 			"core ist up", -- [1]
 			"Nooraii-Eredar", -- [2]
@@ -1452,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Nooraii-Eredar|r",
 			[51] = 1654368868,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [66]
+		}, -- [59]
 		{
 			"prto up ?", -- [1]
 			"Moraï-KhazModan", -- [2]
@@ -1474,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Moraï-KhazModan|r",
 			[51] = 1654368873,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [67]
+		}, -- [60]
 		{
 			"link", -- [1]
 			"Dxterminator-ArgentDawn", -- [2]
@@ -1496,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Dxterminator-ArgentDawn|r",
 			[51] = 1654368873,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [68]
+		}, -- [61]
 		{
 			"Destabilized Core 99.55% ~(53.33, 44.77) |cffffff00|Hworldmap:1970:5333:4477|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Inoruuk-Silvermoon", -- [2]
@@ -1518,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cInoruuk-Silvermoon|r",
 			[51] = 1654368878,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [62]
 		{
 			"|cffffff00|Hworldmap:1970:5377:4478|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Kartenmarkierung]|h|r core", -- [1]
 			"Nooraii-Eredar", -- [2]
@@ -1540,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Nooraii-Eredar|r",
 			[51] = 1654368882,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [70]
+		}, -- [63]
 		{
 			"ty", -- [1]
 			"Dxterminator-ArgentDawn", -- [2]
@@ -1562,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Dxterminator-ArgentDawn|r",
 			[51] = 1654368895,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [71]
+		}, -- [64]
 		{
 			"Destabilized Core (6.94m/16.44m 42.25%) 53.70 44.71 |cffffff00|Hworldmap:1970:5369:4470|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Emplacement marqué sur la carte]|h|r", -- [1]
 			"Moraï-KhazModan", -- [2]
@@ -1584,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Moraï-KhazModan|r",
 			[51] = 1654368917,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [65]
 		{
 			"anyone free to help with custos?", -- [1]
 			"Bonniie-Outland", -- [2]
@@ -1606,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Bonniie|r",
 			[51] = 1654368937,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [73]
+		}, -- [66]
 		{
 			"wooh!! tnx everyone who gave me a ride!", -- [1]
 			"Valteri-Darksorrow", -- [2]
@@ -1628,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Valteri-Darksorrow|r",
 			[51] = 1654368944,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [74]
+		}, -- [67]
 		{
 			"|cffffff00|Hworldmap:1970:3931:3177|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Kartenmarkierung]|h|r", -- [1]
 			"Terrorworgen-Antonidas", -- [2]
@@ -1650,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Terrorworgen-Antonidas|r",
 			[51] = 1654368952,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [75]
+		}, -- [68]
 		{
 			"prot % ? ", -- [1]
 			"Moraï-KhazModan", -- [2]
@@ -1672,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Moraï-KhazModan|r",
 			[51] = 1654368955,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [69]
 		{
 			"yes", -- [1]
 			"Minx-Outland", -- [2]
@@ -1694,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Minx|r",
 			[51] = 1654368961,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [77]
+		}, -- [70]
 		{
 			"Protector of the First Ones 24.18% ~(39.44, 26.8) |cffffff00|Hworldmap:1970:3944:2680|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Emplacement marqué sur la carte]|h|r", -- [1]
 			"Moraï-KhazModan", -- [2]
@@ -1716,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Moraï-KhazModan|r",
 			[51] = 1654368972,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [71]
 		{
 			"Furidian 100.00% ~(63.89, 58.44) |cffffff00|Hworldmap:1970:6389:5844|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Reyla-Nagrand", -- [2]
@@ -1738,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Reyla-Nagrand|r",
 			[51] = 1654369025,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [72]
 		{
 			"Furidian (2.61m/6.94m 37.63%) 63.94 58.44 |cffffff00|Hworldmap:1970:6393:5843|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Emplacement marqué sur la carte]|h|r", -- [1]
 			"Moraï-KhazModan", -- [2]
@@ -1760,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Moraï-KhazModan|r",
 			[51] = 1654369108,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [73]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14842:Player-1301-0C2F7712:1:6:4:22:4294967295:4294967295:4294967295:4294967295|h[Adventures: Strength and Resilience]|h|r!", -- [1]
 			"Ukgaming-Outland", -- [2]
@@ -1782,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeUkgaming|r",
 			[51] = 1654370286,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [81]
+		}, -- [74]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15177:Player-1301-09D33F08:1:6:4:22:4294967295:4294967295:4294967295:4294967295|h[Tazavesh, the Veiled Market]|h|r!", -- [1]
 			"Dragoneeye-Outland", -- [2]
@@ -1804,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDragoneeye|r",
 			[51] = 1654370369,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [82]
+		}, -- [75]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15652:Player-1301-09D33F08:1:6:4:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: So'leah's Gambit]|h|r!", -- [1]
 			"Dragoneeye-Outland", -- [2]
@@ -1826,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDragoneeye|r",
 			[51] = 1654370369,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [83]
+		}, -- [76]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14463:Player-1301-0B8A5549:1:6:4:22:4294967295:4294967295:4294967295:4294967295|h[Skoldus Hall]|h|r!", -- [1]
 			"Dârkgnome-Outland", -- [2]
@@ -1848,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dârkgnome|r",
 			[51] = 1654370483,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [84]
+		}, -- [77]
 		{
 			"Hi", -- [1]
 			"Crowyn-Silvermoon", -- [2]
@@ -1870,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cCrowyn-Silvermoon|r",
 			[51] = 1654370549,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [85]
+		}, -- [78]
 		{
 			"yo", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1892,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1654370555,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [86]
+		}, -- [79]
 		{
 			"Ill do yellow", -- [1]
 			"Crowyn-Silvermoon", -- [2]
@@ -1914,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cCrowyn-Silvermoon|r",
 			[51] = 1654370563,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [87]
+		}, -- [80]
 		{
 			"oke", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -1936,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1654370566,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [88]
+		}, -- [81]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:1177:Player-1301-09555D07:1:6:4:22:4294967295:4294967295:4294967295:4294967295|h[Got My Mind On My Money]|h|r!", -- [1]
 			"Nordesh-Outland", -- [2]
@@ -1958,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Nordesh|r",
 			[51] = 1654370581,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [89]
+		}, -- [82]
 		{
 			"gl", -- [1]
 			"Crowyn-Silvermoon", -- [2]
@@ -1980,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cCrowyn-Silvermoon|r",
 			[51] = 1654370810,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [90]
+		}, -- [83]
 		{
 			"u2", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -2002,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1654370814,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [91]
+		}, -- [84]
 		{
 			"Ty :)", -- [1]
 			"Crowyn-Silvermoon", -- [2]
@@ -2024,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cCrowyn-Silvermoon|r",
 			[51] = 1654370843,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [92]
+		}, -- [85]
 		{
 			"ty cya", -- [1]
 			"Necrophagus-Outland", -- [2]
@@ -2046,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNecrophagus|r",
 			[51] = 1654370846,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [93]
+		}, -- [86]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:645:Player-1301-0C3501C8:1:6:4:22:4294967295:4294967295:4294967295:4294967295|h[Scholomance]|h|r!", -- [1]
 			"Swiftcasts-Outland", -- [2]
@@ -2068,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSwiftcasts|r",
 			[51] = 1654370972,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [94]
+		}, -- [87]
 		{
 			"is crossplay working now *?", -- [1]
 			"Weedmäklarn-Outland", -- [2]
@@ -2090,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWeedmäklarn|r",
 			[51] = 1654370985,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [88]
 		{
 			"not for pvp", -- [1]
 			"Sweetsap-Outland", -- [2]
@@ -2112,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Sweetsap|r",
 			[51] = 1654370997,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [89]
 		{
 			"they fixed crossplay arena?", -- [1]
 			"Ðøñðræpër-Outland", -- [2]
@@ -2134,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Ðøñðræpër|r",
 			[51] = 1654370999,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [90]
 		{
 			"yes you can play from your playstation now", -- [1]
 			"Kalamareas-Outland", -- [2]
@@ -2156,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Kalamareas|r",
 			[51] = 1654371007,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [91]
 		{
 			"[Orcish] not for pvp", -- [1]
 			"Sparkys-Outland", -- [2]
@@ -2178,6 +2024,160 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Sparkys|r",
 			[51] = 1654371018,
 			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"any 60s wanna help me thru some dungeons please? can give u like 50-100g per dung :)", -- [1]
+			"Rastadwarf-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Rastadwarf-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			349, -- [11]
+			"Player-1301-0C35242D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaRastadwarf|r",
+			[51] = 1654376081,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:15650:Player-1301-0AAFAE15:1:6:4:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Streets of Wonder]|h|r!", -- [1]
+			"Rorogi-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rorogi-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			351, -- [11]
+			"Player-1301-0AAFAE15", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Rorogi|r",
+			[51] = 1654376091,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [94]
+		{
+			"any 60s wanna hepl me thru some dungones pls? can give u like 50-100g per :)", -- [1]
+			"Rastadwarf-Outland", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Rastadwarf-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			352, -- [11]
+			"Player-1301-0C35242D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaRastadwarf|r",
+			[51] = 1654376094,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:632:Player-1301-0C25BE9F:1:6:4:22:4294967295:4294967295:4294967295:4294967295|h[Blackfathom Deeps]|h|r!", -- [1]
+			"Kuedon-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kuedon-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			362, -- [11]
+			"Player-1301-0C25BE9F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeKuedon|r",
+			[51] = 1654376160,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [96]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:1283:Player-1301-0C25BE9F:1:6:4:22:4294967295:4294967295:4294967295:4294967295|h[Classic Dungeonmaster]|h|r!", -- [1]
+			"Kuedon-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kuedon-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			363, -- [11]
+			"Player-1301-0C25BE9F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeKuedon|r",
+			[51] = 1654376160,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [97]
+		{
+			"tank n heal for |cffa335ee|Hkeystone:180653:381:18:10:11:124:130|h[Keystone: Spires of Ascension (18)]|h|r?", -- [1]
+			"Minx-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			379, -- [11]
+			"Player-1301-0923DF43", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Minx|r",
+			[51] = 1654376466,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [98]
+		{
+			"need a pumper for +18 SD", -- [1]
+			"Rorogi-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			389, -- [11]
+			"Player-1301-0AAFAE15", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Rorogi|r",
+			[51] = 1654376576,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
