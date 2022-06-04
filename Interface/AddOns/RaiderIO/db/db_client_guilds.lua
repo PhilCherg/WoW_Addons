@@ -1,5 +1,5 @@
 --
--- RaiderIO Client Data. Generated on 2022-06-03T21:14:50Z
+-- RaiderIO Client Data. Generated on 2022-06-04T10:47:02Z
 --
 local _, ns = ...
 ns.GUILD_BEST_DATA = {
@@ -749,14 +749,14 @@ ns.GUILD_BEST_DATA = {
       [4] = {
         ["zone_id"] = 12916,
         ["level"] = 26,
-        ["upgrades"] = 1,
-        ["fraction"] = 0.8168870045751988,
-        ["clear_time"] = "00:29:25.292",
+        ["upgrades"] = 2,
+        ["fraction"] = 0.7418323654939221,
+        ["clear_time"] = "00:26:43.099",
         ["party"] = {
           [1] = {
-            ["name"] = "Iron",
+            ["name"] = "Dogshîtspec",
             ["role"] = "tank",
-            ["class_id"] = 2
+            ["class_id"] = 6
           },
           [2] = {
             ["name"] = "Niinaa",
@@ -781,16 +781,16 @@ ns.GUILD_BEST_DATA = {
         }
       },
       [5] = {
-        ["zone_id"] = 13228,
+        ["zone_id"] = 12916,
         ["level"] = 26,
         ["upgrades"] = 1,
-        ["fraction"] = 0.8183401220254809,
-        ["clear_time"] = "00:31:06.633",
+        ["fraction"] = 0.8168870045751988,
+        ["clear_time"] = "00:29:25.292",
         ["party"] = {
           [1] = {
-            ["name"] = "Skatoshuwu",
+            ["name"] = "Iron",
             ["role"] = "tank",
-            ["class_id"] = 6
+            ["class_id"] = 2
           },
           [2] = {
             ["name"] = "Niinaa",
@@ -851,6 +851,40 @@ ns.GUILD_BEST_DATA = {
         }
       },
       [2] = {
+        ["zone_id"] = 12916,
+        ["level"] = 26,
+        ["upgrades"] = 2,
+        ["fraction"] = 0.7418323654939221,
+        ["clear_time"] = "00:26:43.099",
+        ["party"] = {
+          [1] = {
+            ["name"] = "Dogshîtspec",
+            ["role"] = "tank",
+            ["class_id"] = 6
+          },
+          [2] = {
+            ["name"] = "Niinaa",
+            ["role"] = "healer",
+            ["class_id"] = 10
+          },
+          [3] = {
+            ["name"] = "Helive",
+            ["role"] = "dps",
+            ["class_id"] = 4
+          },
+          [4] = {
+            ["name"] = "Mefaisto",
+            ["role"] = "dps",
+            ["class_id"] = 9
+          },
+          [5] = {
+            ["name"] = "Nessx",
+            ["role"] = "dps",
+            ["class_id"] = 3
+          }
+        }
+      },
+      [3] = {
         ["zone_id"] = 13228,
         ["level"] = 26,
         ["upgrades"] = 1,
@@ -884,51 +918,17 @@ ns.GUILD_BEST_DATA = {
           }
         }
       },
-      [3] = {
-        ["zone_id"] = 12831,
-        ["level"] = 26,
-        ["upgrades"] = 1,
-        ["fraction"] = 0.9102331651395966,
-        ["clear_time"] = "00:29:08.557",
-        ["party"] = {
-          [1] = {
-            ["name"] = "Tankÿ",
-            ["role"] = "tank",
-            ["class_id"] = 11
-          },
-          [2] = {
-            ["name"] = "Niinaa",
-            ["role"] = "healer",
-            ["class_id"] = 10
-          },
-          [3] = {
-            ["name"] = "Helive",
-            ["role"] = "dps",
-            ["class_id"] = 4
-          },
-          [4] = {
-            ["name"] = "Mefaisto",
-            ["role"] = "dps",
-            ["class_id"] = 9
-          },
-          [5] = {
-            ["name"] = "Nessx",
-            ["role"] = "dps",
-            ["class_id"] = 3
-          }
-        }
-      },
       [4] = {
-        ["zone_id"] = 13309,
+        ["zone_id"] = 12916,
         ["level"] = 26,
         ["upgrades"] = 1,
-        ["fraction"] = 0.9328744412531736,
-        ["clear_time"] = "00:40:07.748",
+        ["fraction"] = 0.8726982289209759,
+        ["clear_time"] = "00:31:25.900",
         ["party"] = {
           [1] = {
-            ["name"] = "Tankÿ",
+            ["name"] = "Dogshîtspec",
             ["role"] = "tank",
-            ["class_id"] = 11
+            ["class_id"] = 6
           },
           [2] = {
             ["name"] = "Niinaa",
@@ -953,16 +953,16 @@ ns.GUILD_BEST_DATA = {
         }
       },
       [5] = {
-        ["zone_id"] = 12837,
+        ["zone_id"] = 12831,
         ["level"] = 26,
         ["upgrades"] = 1,
-        ["fraction"] = 0.9787693202773687,
-        ["clear_time"] = "00:38:11.298",
+        ["fraction"] = 0.9102331651395966,
+        ["clear_time"] = "00:29:08.557",
         ["party"] = {
           [1] = {
-            ["name"] = "Dogshîtspec",
+            ["name"] = "Tankÿ",
             ["role"] = "tank",
-            ["class_id"] = 6
+            ["class_id"] = 11
           },
           [2] = {
             ["name"] = "Niinaa",
