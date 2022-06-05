@@ -2,28 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"|cffffff00|Hworldmap:1970:4369:7620|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Ashnabura-AzjolNerub", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Ashnabura-AzjolNerub", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			4042, -- [11]
-			"Player-1396-0A90F160", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Ashnabura-AzjolNerub|r",
-			[51] = 1653335626,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
 			"thnx", -- [1]
 			"Moonyu-Ravencrest", -- [2]
 			"", -- [3]
@@ -44,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMoonyu-Ravencrest|r",
 			[51] = 1653335627,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
+		}, -- [1]
 		{
 			"Interrupted Vexis casting |cff71d5ff|Hspell:359768:0|h[Strength of the Pack]|h|r", -- [1]
 			"Baaradir-Outland", -- [2]
@@ -66,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Baaradir|r",
 			[51] = 1653332426,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [3]
+		}, -- [2]
 		{
 			"Garudeon 56.34% ~(68.61, 36.88) |cffffff00|Hworldmap:1970:6861:3688|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Ragechubz-GrimBatol", -- [2]
@@ -88,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRagechubz-GrimBatol|r",
 			[51] = 1653336125,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
+		}, -- [3]
 		{
 			"Interrupted Mawsworn Inquisitor casting |cff71d5ff|Hspell:355805:0|h[Wracking Torture]|h|r", -- [1]
 			"Baaradir-Outland", -- [2]
@@ -110,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Baaradir|r",
 			[51] = 1653336199,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [5]
+		}, -- [4]
 		{
 			"theres another group with a tank, join", -- [1]
 			"Taikun-Frostmourne", -- [2]
@@ -132,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcTaikun-Frostmourne|r",
 			[51] = 1653337001,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [6]
+		}, -- [5]
 		{
 			"summ pls", -- [1]
 			"Нииа-Борейскаятундра", -- [2]
@@ -154,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Нииа-Борейскаятундра|r",
 			[51] = 1653337759,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [7]
+		}, -- [6]
 		{
 			"ty", -- [1]
 			"Нииа-Борейскаятундра", -- [2]
@@ -176,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Нииа-Борейскаятундра|r",
 			[51] = 1653337807,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [8]
+		}, -- [7]
 		{
 			"hi, summ possible?", -- [1]
 			"Blasphemy-Blackhand", -- [2]
@@ -198,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edBlasphemy-Blackhand|r",
 			[51] = 1653337808,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [9]
+		}, -- [8]
 		{
 			"ty!", -- [1]
 			"Blasphemy-Blackhand", -- [2]
@@ -220,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edBlasphemy-Blackhand|r",
 			[51] = 1653337836,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [10]
+		}, -- [9]
 		{
 			"np/raid np", -- [1]
 			"Pierrejean-Dalaran", -- [2]
@@ -242,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edPierrejean-Dalaran|r",
 			[51] = 1653337847,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [11]
+		}, -- [10]
 		{
 			"mage", -- [1]
 			"Qønic-Outland", -- [2]
@@ -264,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Qønic|r",
 			[51] = 1653592300,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [12]
+		}, -- [11]
 		{
 			"dont spam fb into 5 mobs lmao", -- [1]
 			"Qønic-Outland", -- [2]
@@ -286,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Qønic|r",
 			[51] = 1653592306,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [13]
+		}, -- [12]
 		{
 			"bress me i can heal", -- [1]
 			"Baaradir-Outland", -- [2]
@@ -308,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Baaradir|r",
 			[51] = 1653592511,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [14]
+		}, -- [13]
 		{
 			"1shot", -- [1]
 			"Qønic-Outland", -- [2]
@@ -330,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Qønic|r",
 			[51] = 1653592989,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [15]
+		}, -- [14]
 		{
 			"what", -- [1]
 			"Qønic-Outland", -- [2]
@@ -352,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Qønic|r",
 			[51] = 1653592990,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [16]
+		}, -- [15]
 		{
 			"onced", -- [1]
 			"Heavydòg-Outland", -- [2]
@@ -374,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Heavydòg|r",
 			[51] = 1653593116,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
+		}, -- [16]
 		{
 			"onced", -- [1]
 			"Bakedcity-Outland", -- [2]
@@ -396,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Bakedcity|r",
 			[51] = 1653593121,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
+		}, -- [17]
 		{
 			"^", -- [1]
 			"Vten-Outland", -- [2]
@@ -418,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Vten|r",
 			[51] = 1653593123,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
+		}, -- [18]
 		{
 			"onced", -- [1]
 			"Hávocado-Outland", -- [2]
@@ -440,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Hávocado|r",
 			[51] = 1653593126,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
+		}, -- [19]
 		{
 			"onced", -- [1]
 			"Vten-Outland", -- [2]
@@ -462,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Vten|r",
 			[51] = 1653593130,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
+		}, -- [20]
 		{
 			"ruch", -- [1]
 			"Dragthar-Outland", -- [2]
@@ -484,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Dragthar|r",
 			[51] = 1653593136,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
+		}, -- [21]
 		{
 			"i dided not knowed u writed liked taht", -- [1]
 			"Heavydòg-Outland", -- [2]
@@ -506,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Heavydòg|r",
 			[51] = 1653593161,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
+		}, -- [22]
 		{
 			"<Unexceptional> Currently 8/11 Heroic looking for big Dps to push into mythic. Also looking for some big M+ players. Whisper me for details.", -- [1]
 			"Acodemon-Outland", -- [2]
@@ -528,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Acodemon|r",
 			[51] = 1653860090,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
+		}, -- [23]
 		{
 			"|cffffff00|Hworldmap:1970:4720:6298|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Kartenmarkierung]|h|r", -- [1]
 			"Fliesentisch-Nozdormu", -- [2]
@@ -550,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Fliesentisch-Nozdormu|r",
 			[51] = 1653948125,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [25]
+		}, -- [24]
 		{
 			"can i fly with someone? cant fly now", -- [1]
 			"Summyy-Teldrassil", -- [2]
@@ -572,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Summyy-Teldrassil|r",
 			[51] = 1653948224,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [26]
+		}, -- [25]
 		{
 			"me too pls I will pay with gold", -- [1]
 			"Farmageddoñ-Sylvanas", -- [2]
@@ -594,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Farmageddoñ-Sylvanas|r",
 			[51] = 1653948246,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [27]
+		}, -- [26]
 		{
 			"core", -- [1]
 			"Lartisa-Pozzodell'Eternità", -- [2]
@@ -616,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Lartisa-Pozzodell'Eternità|r",
 			[51] = 1653948279,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [28]
+		}, -- [27]
 		{
 			"|cffffff00|Hworldmap:1970:5337:4340|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Emplacement marqué sur la carte]|h|r", -- [1]
 			"Furima-Archimonde", -- [2]
@@ -638,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Furima-Archimonde|r",
 			[51] = 1653948347,
 			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [29]
+		}, -- [28]
 		{
 			"Tahkwitz 100.00% ~(49.66, 43.5) |cffffff00|Hworldmap:1970:4966:4350|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Kartenmarkierung]|h|r", -- [1]
 			"Torrit-Blackmoore", -- [2]
@@ -660,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Torrit-Blackmoore|r",
 			[51] = 1653948434,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
+		}, -- [29]
 		{
 			"|cffffff00|Hworldmap:1970:4921:4045|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Emplacement marqué sur la carte]|h|r", -- [1]
 			"Furima-Archimonde", -- [2]
@@ -682,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Furima-Archimonde|r",
 			[51] = 1653948448,
 			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [31]
+		}, -- [30]
 		{
 			"The Engulfer (84%) |cffffff00|Hworldmap:1970:4395:7533|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Alpolon-Silvermoon", -- [2]
@@ -704,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Alpolon-Silvermoon|r",
 			[51] = 1653948762,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
+		}, -- [31]
 		{
 			"otiosen up", -- [1]
 			"Alpolon-Silvermoon", -- [2]
@@ -726,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Alpolon-Silvermoon|r",
 			[51] = 1653948844,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
+		}, -- [32]
 		{
 			"|cffffff00|Hworldmap:1970:4356:8772|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Alpolon-Silvermoon", -- [2]
@@ -748,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Alpolon-Silvermoon|r",
 			[51] = 1653948850,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
+		}, -- [33]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14840:Player-1301-09F61344:1:5:31:22:4294967295:4294967295:4294967295:4294967295|h[Adventures: Learning the Ropes]|h|r!", -- [1]
 			"Illyana-Outland", -- [2]
@@ -770,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1653949494,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [35]
+		}, -- [34]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15513:Player-1301-09F61344:1:5:31:22:4294967295:4294967295:4294967295:4294967295|h[Curious Collections]|h|r!", -- [1]
 			"Illyana-Outland", -- [2]
@@ -792,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1653950080,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [36]
+		}, -- [35]
 		{
 			"how long has it been since the engulfer was killed?", -- [1]
 			"Libbzy-Silvermoon", -- [2]
@@ -814,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Libbzy-Silvermoon|r",
 			[51] = 1653950112,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
+		}, -- [36]
 		{
 			"Feasting 88.22% ~(62.28, 60.43) |cffffff00|Hworldmap:1970:6228:6043|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Kartenmarkierung]|h|r", -- [1]
 			"Torrit-Blackmoore", -- [2]
@@ -836,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Torrit-Blackmoore|r",
 			[51] = 1653950162,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
+		}, -- [37]
 		{
 			"Unterbrochen Schlemmerin's |cff71d5ff|Hspell:368163:0|h[Klebriges Toxin]|h|r!", -- [1]
 			"Summyy-Teldrassil", -- [2]
@@ -858,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Summyy-Teldrassil|r",
 			[51] = 1653950191,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [39]
+		}, -- [38]
 		{
 			"zarathura", -- [1]
 			"Vanderlock-Dalaran", -- [2]
@@ -880,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edVanderlock-Dalaran|r",
 			[51] = 1653950262,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [40]
+		}, -- [39]
 		{
 			"next vexis", -- [1]
 			"Vanderlock-Dalaran", -- [2]
@@ -902,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edVanderlock-Dalaran|r",
 			[51] = 1653950330,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [41]
+		}, -- [40]
 		{
 			"General Zarathura 99.80% ~(59.6, 22.53) |cffffff00|Hworldmap:1970:5960:2253|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Kartenmarkierung]|h|r", -- [1]
 			"Torrit-Blackmoore", -- [2]
@@ -924,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Torrit-Blackmoore|r",
 			[51] = 1653950342,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
+		}, -- [41]
 		{
 			"Unterbrochen Verderbter Architekt's |cff71d5ff|Hspell:360334:0|h[Instabiler Kern]|h|r!", -- [1]
 			"Summyy-Teldrassil", -- [2]
@@ -946,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Summyy-Teldrassil|r",
 			[51] = 1653950458,
 			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [43]
+		}, -- [42]
 		{
 			"come", -- [1]
 			"Vanderlock-Dalaran", -- [2]
@@ -968,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edVanderlock-Dalaran|r",
 			[51] = 1653950645,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [44]
+		}, -- [43]
 		{
 			"startlighter", -- [1]
 			"Proleptyl-Krasus", -- [2]
@@ -990,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Proleptyl-Krasus|r",
 			[51] = 1653950658,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [45]
+		}, -- [44]
 		{
 			"Interrompu Dévoreur d’étoile changeant |cff71d5ff|Hspell:365400:0|h[Dévorer la vitalité]|h|r !", -- [1]
 			"Proleptyl-Krasus", -- [2]
@@ -1012,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Proleptyl-Krasus|r",
 			[51] = 1653950696,
 			[50] = "CHAT_MSG_EMOTE",
-		}, -- [46]
+		}, -- [45]
 		{
 			"Unterbrochen Veränderlicher Sternfresser's |cff71d5ff|Hspell:365400:0|h[Vitalität verschlingen]|h|r!", -- [1]
 			"Summyy-Teldrassil", -- [2]
@@ -1034,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Summyy-Teldrassil|r",
 			[51] = 1653950711,
 			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [47]
+		}, -- [46]
 		{
 			"Interrompu Dévoreur d’étoile changeant |cff71d5ff|Hspell:365400:0|h[Dévorer la vitalité]|h|r !", -- [1]
 			"Proleptyl-Krasus", -- [2]
@@ -1056,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Proleptyl-Krasus|r",
 			[51] = 1653950720,
 			[50] = "CHAT_MSG_EMOTE",
-		}, -- [48]
+		}, -- [47]
 		{
 			"|cffffff00|Hworldmap:1970:5007:4390|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Swarvo-BurningLegion", -- [2]
@@ -1078,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSwarvo-BurningLegion|r",
 			[51] = 1653950722,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+		}, -- [48]
 		{
 			"Interrompu Dévoreur d’étoile changeant |cff71d5ff|Hspell:365400:0|h[Dévorer la vitalité]|h|r !", -- [1]
 			"Proleptyl-Krasus", -- [2]
@@ -1100,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Proleptyl-Krasus|r",
 			[51] = 1653950739,
 			[50] = "CHAT_MSG_EMOTE",
-		}, -- [50]
+		}, -- [49]
 		{
 			"vitiane |cffffff00|Hworldmap:1970:5007:4390|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Swarvo-BurningLegion", -- [2]
@@ -1122,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSwarvo-BurningLegion|r",
 			[51] = 1653950756,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
+		}, -- [50]
 		{
 			"Interrompu Dévoreur d’étoile changeant |cff71d5ff|Hspell:365400:0|h[Dévorer la vitalité]|h|r !", -- [1]
 			"Proleptyl-Krasus", -- [2]
@@ -1144,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Proleptyl-Krasus|r",
 			[51] = 1653950759,
 			[50] = "CHAT_MSG_EMOTE",
-		}, -- [52]
+		}, -- [51]
 		{
 			"Interrompu Dévoreur d’étoile changeant |cff71d5ff|Hspell:365400:0|h[Dévorer la vitalité]|h|r !", -- [1]
 			"Proleptyl-Krasus", -- [2]
@@ -1166,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Proleptyl-Krasus|r",
 			[51] = 1653950785,
 			[50] = "CHAT_MSG_EMOTE",
-		}, -- [53]
+		}, -- [52]
 		{
 			"can someone give me a ride? :)", -- [1]
 			"Farmageddoñ-Sylvanas", -- [2]
@@ -1188,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Farmageddoñ-Sylvanas|r",
 			[51] = 1653950833,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [54]
+		}, -- [53]
 		{
 			"Mother Phestis|cffffff00|Hworldmap:1970:5322:3391|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Ticktock-Quel'Thalas", -- [2]
@@ -1210,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Ticktock-Quel'Thalas|r",
 			[51] = 1653950882,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [54]
 		{
 			"sec", -- [1]
 			"Farmageddoñ-Sylvanas", -- [2]
@@ -1232,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Farmageddoñ-Sylvanas|r",
 			[51] = 1653950891,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [56]
+		}, -- [55]
 		{
 			"combat", -- [1]
 			"Farmageddoñ-Sylvanas", -- [2]
@@ -1254,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Farmageddoñ-Sylvanas|r",
 			[51] = 1653950905,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [57]
+		}, -- [56]
 		{
 			"anyone know where fallen charger is rn?", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1276,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1653986081,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [57]
 		{
 			"have you found that drops more than korthia skin farms?", -- [1]
 			"Candlemoth-Silvermoon", -- [2]
@@ -1298,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeCandlemoth-Silvermoon|r",
 			[51] = 1654340867,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [59]
+		}, -- [58]
 		{
 			"nah i saw a comment about this on wowhead and wanted to try it", -- [1]
 			"Candlemoth-Silvermoon", -- [2]
@@ -1320,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeCandlemoth-Silvermoon|r",
 			[51] = 1654340895,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [60]
+		}, -- [59]
 		{
 			"ahh", -- [1]
 			"Candlemoth-Silvermoon", -- [2]
@@ -1342,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeCandlemoth-Silvermoon|r",
 			[51] = 1654340905,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [61]
+		}, -- [60]
 		{
 			"is the korthia skin farm good for this?", -- [1]
 			"Candlemoth-Silvermoon", -- [2]
@@ -1364,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeCandlemoth-Silvermoon|r",
 			[51] = 1654340917,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [62]
+		}, -- [61]
 		{
 			"i got a fair amount yesterday but trying to get into a group today is a pain in the bum", -- [1]
 			"Candlemoth-Silvermoon", -- [2]
@@ -1386,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeCandlemoth-Silvermoon|r",
 			[51] = 1654340934,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [63]
+		}, -- [62]
 		{
 			"i think it was like 50-80 in about a half hour but I really zone out on farms", -- [1]
 			"Candlemoth-Silvermoon", -- [2]
@@ -1408,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeCandlemoth-Silvermoon|r",
 			[51] = 1654340958,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [64]
+		}, -- [63]
 		{
 			"oh i see", -- [1]
 			"Candlemoth-Silvermoon", -- [2]
@@ -1430,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeCandlemoth-Silvermoon|r",
 			[51] = 1654340967,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [65]
+		}, -- [64]
 		{
 			"thats pretty good tbh", -- [1]
 			"Candlemoth-Silvermoon", -- [2]
@@ -1452,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeCandlemoth-Silvermoon|r",
 			[51] = 1654340972,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [66]
+		}, -- [65]
 		{
 			"well, i might give it a try later, thanks for mentioning it :D", -- [1]
 			"Candlemoth-Silvermoon", -- [2]
@@ -1474,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeCandlemoth-Silvermoon|r",
 			[51] = 1654340983,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [67]
+		}, -- [66]
 		{
 			"np ^-^", -- [1]
 			"Candlemoth-Silvermoon", -- [2]
@@ -1496,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeCandlemoth-Silvermoon|r",
 			[51] = 1654340989,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [68]
+		}, -- [67]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14197:Player-1301-0641A710:1:6:4:22:4294967295:4294967295:4294967295:4294967295|h[Sanguine Depths]|h|r!", -- [1]
 			"Kepman-Outland", -- [2]
@@ -1518,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cKepman|r",
 			[51] = 1654341251,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [69]
+		}, -- [68]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14198:Player-1301-0641A710:1:6:4:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Sanguine Depths]|h|r!", -- [1]
 			"Kepman-Outland", -- [2]
@@ -1540,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cKepman|r",
 			[51] = 1654341251,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [70]
+		}, -- [69]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14199:Player-1301-0641A710:1:6:4:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Sanguine Depths]|h|r!", -- [1]
 			"Kepman-Outland", -- [2]
@@ -1562,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cKepman|r",
 			[51] = 1654341251,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [71]
+		}, -- [70]
 		{
 			"yo omw", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1584,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1654341439,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [72]
+		}, -- [71]
 		{
 			"no worries take your time :D", -- [1]
 			"Navius-Ravencrest", -- [2]
@@ -1606,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Navius-Ravencrest|r",
 			[51] = 1654341445,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [73]
+		}, -- [72]
 		{
 			"hiya illy XD", -- [1]
 			"Candlemoth-Silvermoon", -- [2]
@@ -1628,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeCandlemoth-Silvermoon|r",
 			[51] = 1654341447,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [74]
+		}, -- [73]
 		{
 			"|cffffd100|HclubFinder:ClubFinder-1-59423-1301-86054970|h[Guild: Foreign Exchange Trader]|h|r is actively looking for ALL new members in preperation for Dragonflight! Join now!", -- [1]
 			"Serída-Outland", -- [2]
@@ -1650,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSerída|r",
 			[51] = 1654341452,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [74]
 		{
 			"hey :D", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1672,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1654341454,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [76]
+		}, -- [75]
 		{
 			"Escaped Wilderling |cffffff00|Hworldmap:1961:3007:3762|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Thedarkpally-Ravencrest", -- [2]
@@ -1694,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Thedarkpally-Ravencrest|r",
 			[51] = 1654341558,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [76]
 		{
 			"we prob need bear in our group", -- [1]
 			"Candlemoth-Silvermoon", -- [2]
@@ -1716,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeCandlemoth-Silvermoon|r",
 			[51] = 1654341810,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [78]
+		}, -- [77]
 		{
 			"think you are right ", -- [1]
 			"Navius-Ravencrest", -- [2]
@@ -1738,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Navius-Ravencrest|r",
 			[51] = 1654341824,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [79]
+		}, -- [78]
 		{
 			"as soon as 1 signs i will invite ofc", -- [1]
 			"Navius-Ravencrest", -- [2]
@@ -1760,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Navius-Ravencrest|r",
 			[51] = 1654341828,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [80]
+		}, -- [79]
 		{
 			"do u have 5 in your group bears?", -- [1]
 			"Candlemoth-Silvermoon", -- [2]
@@ -1782,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeCandlemoth-Silvermoon|r",
 			[51] = 1654341862,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [81]
+		}, -- [80]
 		{
 			"BEARS", -- [1]
 			"Candlemoth-Silvermoon", -- [2]
@@ -1804,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeCandlemoth-Silvermoon|r",
 			[51] = 1654341876,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [82]
+		}, -- [81]
 		{
 			"PLS ANSWER", -- [1]
 			"Candlemoth-Silvermoon", -- [2]
@@ -1826,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeCandlemoth-Silvermoon|r",
 			[51] = 1654341879,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [83]
+		}, -- [82]
 		{
 			"they are fucking our farm", -- [1]
 			"Candlemoth-Silvermoon", -- [2]
@@ -1848,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeCandlemoth-Silvermoon|r",
 			[51] = 1654341894,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [84]
+		}, -- [83]
 		{
 			"this is pointless if they are 5", -- [1]
 			"Candlemoth-Silvermoon", -- [2]
@@ -1870,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeCandlemoth-Silvermoon|r",
 			[51] = 1654341920,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [85]
+		}, -- [84]
 		{
 			"we could go down", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1892,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1654341924,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [86]
+		}, -- [85]
 		{
 			"here", -- [1]
 			"Illyana-Outland", -- [2]
@@ -1914,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1654341924,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [87]
+		}, -- [86]
 		{
 			"literally none", -- [1]
 			"Candlemoth-Silvermoon", -- [2]
@@ -1936,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeCandlemoth-Silvermoon|r",
 			[51] = 1654342023,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [88]
+		}, -- [87]
 		{
 			"well done bear group", -- [1]
 			"Candlemoth-Silvermoon", -- [2]
@@ -1958,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeCandlemoth-Silvermoon|r",
 			[51] = 1654342027,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [89]
+		}, -- [88]
 		{
 			"u screwed us", -- [1]
 			"Candlemoth-Silvermoon", -- [2]
@@ -1980,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeCandlemoth-Silvermoon|r",
 			[51] = 1654342030,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [90]
+		}, -- [89]
 		{
 			"stop fk cry", -- [1]
 			"Эринвия-Гордунни", -- [2]
@@ -2002,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Эринвия-Гордунни|r",
 			[51] = 1654342038,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [91]
+		}, -- [90]
 		{
 			"who care", -- [1]
 			"Эринвия-Гордунни", -- [2]
@@ -2024,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Эринвия-Гордунни|r",
 			[51] = 1654342039,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [92]
+		}, -- [91]
 		{
 			"guys", -- [1]
 			"Illyana-Outland", -- [2]
@@ -2046,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1654342207,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [93]
+		}, -- [92]
 		{
 			"instead of competing with the other people", -- [1]
 			"Illyana-Outland", -- [2]
@@ -2068,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1654342212,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [94]
+		}, -- [93]
 		{
 			"why dont we just move to the lower platform?", -- [1]
 			"Illyana-Outland", -- [2]
@@ -2090,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1654342218,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [95]
+		}, -- [94]
 		{
 			"they hyper spawn there as well", -- [1]
 			"Illyana-Outland", -- [2]
@@ -2112,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illyana|r",
 			[51] = 1654342224,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [96]
+		}, -- [95]
 		{
 			"i am comin in a bit am still skinnin all on floor :)", -- [1]
 			"Navius-Ravencrest", -- [2]
@@ -2134,7 +2112,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Navius-Ravencrest|r",
 			[51] = 1654342229,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [97]
+		}, -- [96]
 		{
 			"Allright lad :D", -- [1]
 			"Navius-Ravencrest", -- [2]
@@ -2156,7 +2134,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Navius-Ravencrest|r",
 			[51] = 1654342931,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [98]
+		}, -- [97]
 		{
 			":P", -- [1]
 			"Hegru-Ravencrest", -- [2]
@@ -2178,6 +2156,28 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Hegru-Ravencrest|r",
 			[51] = 1654343002,
 			[50] = "CHAT_MSG_PARTY",
+		}, -- [98]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:5752:Player-1301-09F61344:1:6:5:22:4294967295:4294967295:4294967295:4294967295|h[Justly Rewarded]|h|r!", -- [1]
+			"Illyana-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Illyana-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			345, -- [11]
+			"Player-1301-09F61344", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Illyana|r",
+			[51] = 1654450320,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {

@@ -2,182 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:668:Player-1301-08287653:1:5:8:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Blood Furnace]|h|r!", -- [1]
-			"Fulmir-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fulmir-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1578, -- [11]
-			"Player-1301-08287653", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcFulmir|r",
-			[51] = 1652012306,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [1]
-		{
-			"Kazum ogg makogg throm  uruk nogu ", -- [1]
-			"Thegame-TwistingNether", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Thegame-TwistingNether", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			810, -- [11]
-			"Player-3674-08C31581", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cThegame-TwistingNether|r",
-			[51] = 1652359781,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [2]
-		{
-			"thok maza ogar tar maka ", -- [1]
-			"Pashabizeps-Ravencrest", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Pashabizeps-Ravencrest", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			814, -- [11]
-			"Player-1329-09A4F15D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Pashabizeps-Ravencrest|r",
-			[51] = 1652360511,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [3]
-		{
-			" ", -- [1]
-			"Pashabizeps-Ravencrest", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Pashabizeps-Ravencrest", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			815, -- [11]
-			"Player-1329-09A4F15D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Pashabizeps-Ravencrest|r",
-			[51] = 1652360512,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [4]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:974:Player-1301-0BA737FA:1:5:12:22:4294967295:4294967295:4294967295:4294967295|h[50 Daily Quests Completed]|h|r!", -- [1]
-			"Yikés-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Yikés-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			817, -- [11]
-			"Player-1301-0BA737FA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Yikés|r",
-			[51] = 1652360670,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [5]
-		{
-			"BASED", -- [1]
-			"Silvarnn-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Silvarnn-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			818, -- [11]
-			"Player-3391-0C1F5F00", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
-			[51] = 1652360685,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [6]
-		{
-			"hotwheels gang", -- [1]
-			"Silvarnn-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Silvarnn-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			819, -- [11]
-			"Player-3391-0C1F5F00", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
-			[51] = 1652360703,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [7]
-		{
-			"xD", -- [1]
-			"Demonscope-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Demonscope-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			820, -- [11]
-			"Player-3391-08986DA5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
-			[51] = 1652360706,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [8]
-		{
 			"hahaha", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
 			"Common", -- [3]
@@ -198,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360708,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [9]
+		}, -- [1]
 		{
 			"cocg wheel gang", -- [1]
 			"Demonscope-Silvermoon", -- [2]
@@ -220,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
 			[51] = 1652360734,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [10]
+		}, -- [2]
 		{
 			"spider gang this time???", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -242,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360744,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [11]
+		}, -- [3]
 		{
 			"well.. this is my 1410 kill of this damn spider so im guessing no time soon", -- [1]
 			"Demonscope-Silvermoon", -- [2]
@@ -264,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
 			[51] = 1652360769,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [12]
+		}, -- [4]
 		{
 			"wtf?!", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -286,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360775,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [13]
+		}, -- [5]
 		{
 			"yup", -- [1]
 			"Demonscope-Silvermoon", -- [2]
@@ -308,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
 			[51] = 1652360779,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [14]
+		}, -- [6]
 		{
 			"are you for real?", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -330,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360783,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [15]
+		}, -- [7]
 		{
 			"i got wheel at 47 kc", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -352,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360785,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [16]
+		}, -- [8]
 		{
 			"rarity sasy 333, wowhead is 800+ average, my mate got it on his 4th kill...", -- [1]
 			"Demonscope-Silvermoon", -- [2]
@@ -374,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
 			[51] = 1652360798,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [17]
+		}, -- [9]
 		{
 			"Bro you're so fcking unlucky wth", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -396,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360810,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [18]
+		}, -- [10]
 		{
 			"you deserve it ", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -418,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360812,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [19]
+		}, -- [11]
 		{
 			"i got deatcharger from rivendare or something ", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -440,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360825,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [20]
+		}, -- [12]
 		{
 			"the spider mount", -- [1]
 			"Demonscope-Silvermoon", -- [2]
@@ -462,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
 			[51] = 1652360827,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [21]
+		}, -- [13]
 		{
 			"at 21 kc", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -484,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360827,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [22]
+		}, -- [14]
 		{
 			"i gave it away to my friend tho", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -506,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360832,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [23]
+		}, -- [15]
 		{
 			"he deserved it", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -528,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360835,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [24]
+		}, -- [16]
 		{
 			"ouch", -- [1]
 			"Demonscope-Silvermoon", -- [2]
@@ -550,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
 			[51] = 1652360836,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [25]
+		}, -- [17]
 		{
 			"he was at 1.1k dry", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -572,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360841,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [26]
+		}, -- [18]
 		{
 			"so yeah", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -594,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360844,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [27]
+		}, -- [19]
 		{
 			"so u doing it again?", -- [1]
 			"Demonscope-Silvermoon", -- [2]
@@ -616,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
 			[51] = 1652360851,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [28]
+		}, -- [20]
 		{
 			"ofc! my friend is helping me. we farm \"horse\" everyday ", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -638,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360867,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [29]
+		}, -- [21]
 		{
 			"1 hour a day", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -660,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360869,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [30]
+		}, -- [22]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15406:Player-1301-0C0EF5CF:1:5:12:22:4294967295:4294967295:4294967295:4294967295|h[Synthesized!]|h|r!", -- [1]
 			"Kitá-Outland", -- [2]
@@ -682,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaKitá|r",
 			[51] = 1652360870,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [31]
+		}, -- [23]
 		{
 			"6  years for headless horse mount =)", -- [1]
 			"Jessejade-Wildhammer", -- [2]
@@ -704,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Jessejade-Wildhammer|r",
 			[51] = 1652360873,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [32]
+		}, -- [24]
 		{
 			"good good ", -- [1]
 			"Demonscope-Silvermoon", -- [2]
@@ -726,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
 			[51] = 1652360875,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [33]
+		}, -- [25]
 		{
 			"how many kills though?", -- [1]
 			"Demonscope-Silvermoon", -- [2]
@@ -748,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
 			[51] = 1652360885,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [34]
+		}, -- [26]
 		{
 			"bro mounts in this game", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -770,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360885,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [35]
+		}, -- [27]
 		{
 			"my reason to live", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -792,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360887,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [36]
+		}, -- [28]
 		{
 			"ngl", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -814,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360888,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [37]
+		}, -- [29]
 		{
 			"i got my wheel mount like 3 days ago", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -836,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360902,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [38]
+		}, -- [30]
 		{
 			"i was so happy", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -858,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360906,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [39]
+		}, -- [31]
 		{
 			"lucky i never got him =)", -- [1]
 			"Jessejade-Wildhammer", -- [2]
@@ -880,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Jessejade-Wildhammer|r",
 			[51] = 1652360920,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [40]
+		}, -- [32]
 		{
 			"yeah I think i got the wheel in my 6th go (Rusty)", -- [1]
 			"Demonscope-Silvermoon", -- [2]
@@ -902,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
 			[51] = 1652360922,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [41]
+		}, -- [33]
 		{
 			"oooo", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -924,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360928,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [42]
+		}, -- [34]
 		{
 			"I'm about to finish bfa too (reverted) for flying", -- [1]
 			"Silvarnn-Silvermoon", -- [2]
@@ -946,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
 			[51] = 1652360942,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [43]
+		}, -- [35]
 		{
 			"u got this achev one? cos it was a pain in the ****", -- [1]
 			"Demonscope-Silvermoon", -- [2]
@@ -968,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
 			[51] = 1652360942,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [44]
+		}, -- [36]
 		{
 			"nice", -- [1]
 			"Demonscope-Silvermoon", -- [2]
@@ -990,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
 			[51] = 1652360949,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [45]
+		}, -- [37]
 		{
 			"<RTC> Arachnoid Harvester was last seen ~20 minutes ago", -- [1]
 			"Demonscope-Silvermoon", -- [2]
@@ -1012,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
 			[51] = 1652360976,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [46]
+		}, -- [38]
 		{
 			"{rt8}A. Harvester{rt8}: 0s-18m 18s (WorldBossTimers:1652363276)", -- [1]
 			"Demonscope-Silvermoon", -- [2]
@@ -1034,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
 			[51] = 1652360978,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [47]
+		}, -- [39]
 		{
 			"<RTC> Arachnoid Harvester was last seen ~30 minutes ago", -- [1]
 			"Electroscope-Silvermoon", -- [2]
@@ -1056,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElectroscope-Silvermoon|r",
 			[51] = 1652363062,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [48]
+		}, -- [40]
 		{
 			"{rt8}A. Harvester{rt8}: 0s-9m 55s (WorldBossTimers:1652364858)", -- [1]
 			"Electroscope-Silvermoon", -- [2]
@@ -1078,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElectroscope-Silvermoon|r",
 			[51] = 1652363063,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [49]
+		}, -- [41]
 		{
 			"<RTC> Arachnoid Harvester was last seen ~36 minutes ago", -- [1]
 			"Electroscope-Silvermoon", -- [2]
@@ -1100,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElectroscope-Silvermoon|r",
 			[51] = 1652363418,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [50]
+		}, -- [42]
 		{
 			"{rt8}A. Harvester{rt8}: 0s-3m 58s (WorldBossTimers:1652364858)", -- [1]
 			"Electroscope-Silvermoon", -- [2]
@@ -1122,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElectroscope-Silvermoon|r",
 			[51] = 1652363420,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [51]
+		}, -- [43]
 		{
 			" ruK G Ruk'ka'ha ruK Ka Ag Ha  REGASNOGAH ", -- [1]
 			"Sheeva-Kazzak", -- [2]
@@ -1144,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Sheeva-Kazzak|r",
 			[51] = 1652363469,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [52]
+		}, -- [44]
 		{
 			"looks like its going the full 50 mins, dont go for a piss, its about to spawn", -- [1]
 			"Electroscope-Silvermoon", -- [2]
@@ -1166,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElectroscope-Silvermoon|r",
 			[51] = 1652363501,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [53]
+		}, -- [45]
 		{
 			"40 mins**", -- [1]
 			"Electroscope-Silvermoon", -- [2]
@@ -1188,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElectroscope-Silvermoon|r",
 			[51] = 1652363523,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [54]
+		}, -- [46]
 		{
 			"<RTC> Arachnoid Harvester was last seen ~38 minutes ago", -- [1]
 			"Electroscope-Silvermoon", -- [2]
@@ -1210,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElectroscope-Silvermoon|r",
 			[51] = 1652363539,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [55]
+		}, -- [47]
 		{
 			"{rt8}A. Harvester{rt8}: 0s-1m 57s (WorldBossTimers:1652364858)", -- [1]
 			"Electroscope-Silvermoon", -- [2]
@@ -1232,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElectroscope-Silvermoon|r",
 			[51] = 1652363541,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [56]
+		}, -- [48]
 		{
 			"<RTC> Arachnoid Harvester has died", -- [1]
 			"Electroscope-Silvermoon", -- [2]
@@ -1254,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElectroscope-Silvermoon|r",
 			[51] = 1652363614,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [57]
+		}, -- [49]
 		{
 			"goth'a l ogg mog golar ", -- [1]
 			"Gorefest-Runetotem", -- [2]
@@ -1276,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Gorefest-Runetotem|r",
 			[51] = 1652363614,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [58]
+		}, -- [50]
 		{
 			"{rt8}A. Harvester{rt8}: 19m 30s-39m 30s (WorldBossTimers:1652367185)", -- [1]
 			"Electroscope-Silvermoon", -- [2]
@@ -1298,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElectroscope-Silvermoon|r",
 			[51] = 1652363615,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [59]
+		}, -- [51]
 		{
 			"<RTC> Arachnoid Harvester was last seen ~2 minutes ago", -- [1]
 			"Pallascope-Silvermoon", -- [2]
@@ -1320,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Pallascope-Silvermoon|r",
 			[51] = 1652363706,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [60]
+		}, -- [52]
 		{
 			"{rt8}A. Harvester{rt8}: 17m 57s-37m 57s (WorldBossTimers:1652367185)", -- [1]
 			"Pallascope-Silvermoon", -- [2]
@@ -1342,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Pallascope-Silvermoon|r",
 			[51] = 1652363707,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [61]
+		}, -- [53]
 		{
 			"<RTC> Arachnoid Harvester was last seen ~10 minutes ago", -- [1]
 			"Pallascope-Silvermoon", -- [2]
@@ -1364,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Pallascope-Silvermoon|r",
 			[51] = 1652364208,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [62]
+		}, -- [54]
 		{
 			"{rt8}A. Harvester{rt8}: 9m 36s-29m 36s (WorldBossTimers:1652367185)", -- [1]
 			"Pallascope-Silvermoon", -- [2]
@@ -1386,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Pallascope-Silvermoon|r",
 			[51] = 1652364209,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [63]
+		}, -- [55]
 		{
 			"{rt4}{rt4} Spots Open for EPIC-BG type (+) in chat {rt4}{rt4}", -- [1]
 			"Fado-Daggerspine", -- [2]
@@ -1408,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Fado-Daggerspine|r",
 			[51] = 1652964077,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [56]
 		{
 			"Wartusk up", -- [1]
 			"Villtón-Outland", -- [2]
@@ -1430,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Villtón|r",
 			[51] = 1652964779,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [57]
 		{
 			"iooo", -- [1]
 			"Iî-Sylvanas", -- [2]
@@ -1452,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Iî-Sylvanas|r",
 			[51] = 1653593227,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [66]
+		}, -- [58]
 		{
 			"how do you make so much money for that mount?", -- [1]
 			"Iî-Sylvanas", -- [2]
@@ -1474,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Iî-Sylvanas|r",
 			[51] = 1653593236,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [67]
+		}, -- [59]
 		{
 			"KA", -- [1]
 			"Shallows-Stormscale", -- [2]
@@ -1496,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shallows-Stormscale|r",
 			[51] = 1653593243,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [68]
+		}, -- [60]
 		{
 			"G", -- [1]
 			"Shallows-Stormscale", -- [2]
@@ -1518,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shallows-Stormscale|r",
 			[51] = 1653593246,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [69]
+		}, -- [61]
 		{
 			"N", -- [1]
 			"Shallows-Stormscale", -- [2]
@@ -1540,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shallows-Stormscale|r",
 			[51] = 1653593247,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [70]
+		}, -- [62]
 		{
 			"L", -- [1]
 			"Shallows-Stormscale", -- [2]
@@ -1562,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shallows-Stormscale|r",
 			[51] = 1653593249,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [71]
+		}, -- [63]
 		{
 			"A", -- [1]
 			"Shallows-Stormscale", -- [2]
@@ -1584,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shallows-Stormscale|r",
 			[51] = 1653593252,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [72]
+		}, -- [64]
 		{
 			"says something unintelligible.", -- [1]
 			"Shallows-Stormscale", -- [2]
@@ -1606,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shallows-Stormscale|r",
 			[51] = 1653593262,
 			[50] = "CHAT_MSG_EMOTE",
-		}, -- [73]
+		}, -- [65]
 		{
 			"IL", -- [1]
 			"Lillunkan-TwistingNether", -- [2]
@@ -1628,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaLillunkan-TwistingNether|r",
 			[51] = 1653593265,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [74]
+		}, -- [66]
 		{
 			"makogg", -- [1]
 			"Shallows-Stormscale", -- [2]
@@ -1650,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shallows-Stormscale|r",
 			[51] = 1653593267,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [75]
+		}, -- [67]
 		{
 			"hi", -- [1]
 			"Whet-C'Thun", -- [2]
@@ -1672,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcWhet-C'Thun|r",
 			[51] = 1653593347,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [76]
+		}, -- [68]
 		{
 			"hi", -- [1]
 			"Jilly-DunModr", -- [2]
@@ -1694,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Jilly-DunModr|r",
 			[51] = 1653593352,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [77]
+		}, -- [69]
 		{
 			"hey", -- [1]
 			"Gorgontd-Outland", -- [2]
@@ -1716,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edGorgontd|r",
 			[51] = 1653593364,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [78]
+		}, -- [70]
 		{
 			"o/", -- [1]
 			"Baaradir-Outland", -- [2]
@@ -1738,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Baaradir|r",
 			[51] = 1653593364,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [79]
+		}, -- [71]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15513:Player-1301-0A46735A:1:5:26:22:4294967295:4294967295:4294967295:4294967295|h[Curious Collections]|h|r!", -- [1]
 			"Phòbia-Outland", -- [2]
@@ -1760,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Phòbia|r",
 			[51] = 1653593397,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [80]
+		}, -- [72]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:1297:Player-1301-0B0D2B3F:1:5:26:22:4294967295:4294967295:4294967295:4294967295|h[Hadronox Denied]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1782,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1653593523,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [81]
+		}, -- [73]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:1860:Player-1301-0B0D2B3F:1:5:26:22:4294967295:4294967295:4294967295:4294967295|h[Gotta Go!]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1804,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1653593824,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [82]
+		}, -- [74]
 		{
 			"Rocket League is amazing to watch and only gets more impressive when you try do it yourself", -- [1]
 			"Hexen-Outland", -- [2]
@@ -1826,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Hexen|r",
 			[51] = 1653593854,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [75]
 		{
 			"chau", -- [1]
 			"Whet-C'Thun", -- [2]
@@ -1848,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcWhet-C'Thun|r",
 			[51] = 1653593858,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [84]
+		}, -- [76]
 		{
 			"e sports are not real sports", -- [1]
 			"Icexx-Outland", -- [2]
@@ -1870,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaIcexx|r",
 			[51] = 1653593861,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [77]
 		{
 			"its just sitting", -- [1]
 			"Icexx-Outland", -- [2]
@@ -1892,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaIcexx|r",
 			[51] = 1653593864,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [78]
 		{
 			"^ ", -- [1]
 			"Vten-Outland", -- [2]
@@ -1914,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Vten|r",
 			[51] = 1653593869,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [79]
 		{
 			"Sure", -- [1]
 			"Hexen-Outland", -- [2]
@@ -1936,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Hexen|r",
 			[51] = 1653593871,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [80]
 		{
 			"so you're saying only fatmen support it", -- [1]
 			"Vten-Outland", -- [2]
@@ -1958,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Vten|r",
 			[51] = 1653593884,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [81]
 		{
 			"But thats TV and Videogames too", -- [1]
 			"Hexen-Outland", -- [2]
@@ -1980,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Hexen|r",
 			[51] = 1653593884,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [82]
 		{
 			"So is rowing", -- [1]
 			"Galaord-Outland", -- [2]
@@ -2002,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edGalaord|r",
 			[51] = 1653593885,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [83]
 		{
 			"Gluttonous overgrowth 100%", -- [1]
 			"Paíned-Frostmane", -- [2]
@@ -2024,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPaíned-Frostmane|r",
 			[51] = 1654355297,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [84]
 		{
 			"Galirha zaubert |cff71d5ff|Hspell:20707:0|h[Seelenstein]|h|r -> Galirha", -- [1]
 			"Zâlivén-Malorne", -- [2]
@@ -2046,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Zâlivén-Malorne|r",
 			[51] = 1654355297,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [93]
+		}, -- [85]
 		{
 			"|cffffff00|Hworldmap:1970:5237:9351|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Paíned-Frostmane", -- [2]
@@ -2068,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPaíned-Frostmane|r",
 			[51] = 1654355303,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [86]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14304:Player-1301-0B0D2B3F:1:6:4:22:4294967295:4294967295:4294967295:4294967295|h[Explore Ardenweald]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -2090,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1654355489,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [95]
+		}, -- [87]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14303:Player-1301-0B0D2B3F:1:6:4:22:4294967295:4294967295:4294967295:4294967295|h[Explore Bastion]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -2112,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1654355489,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [96]
+		}, -- [88]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14305:Player-1301-0B0D2B3F:1:6:4:22:4294967295:4294967295:4294967295:4294967295|h[Explore Maldraxxus]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -2134,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1654355489,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [97]
+		}, -- [89]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14306:Player-1301-0B0D2B3F:1:6:4:22:4294967295:4294967295:4294967295:4294967295|h[Explore Revendreth]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -2156,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1654355489,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [98]
+		}, -- [90]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14663:Player-1301-0B0D2B3F:1:6:4:22:4294967295:4294967295:4294967295:4294967295|h[Explore The Maw]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -2178,6 +2002,182 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1654355489,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [91]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:15650:Player-1301-09965295:1:6:5:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Streets of Wonder]|h|r!", -- [1]
+			"Trûpzîk-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Trûpzîk-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			503, -- [11]
+			"Player-1301-09965295", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Trûpzîk|r",
+			[51] = 1654377780,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [92]
+		{
+			"pull", -- [1]
+			"Fervanis-Malfurion", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fervanis-Malfurion", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1195, -- [11]
+			"Player-1098-0582CEF2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Fervanis-Malfurion|r",
+			[51] = 1654378853,
+			[50] = "CHAT_MSG_YELL",
+		}, -- [93]
+		{
+			"skin", -- [1]
+			"Fervanis-Malfurion", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fervanis-Malfurion", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1341, -- [11]
+			"Player-1098-0582CEF2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Fervanis-Malfurion|r",
+			[51] = 1654378954,
+			[50] = "CHAT_MSG_YELL",
+		}, -- [94]
+		{
+			"skin!!!", -- [1]
+			"Кимдеел-Гордунни", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Кимдеел-Гордунни", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1664, -- [11]
+			"Player-1602-0C16F408", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Кимдеел-Гордунни|r",
+			[51] = 1654379041,
+			[50] = "CHAT_MSG_YELL",
+		}, -- [95]
+		{
+			"skin", -- [1]
+			"Fervanis-Malfurion", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fervanis-Malfurion", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1684, -- [11]
+			"Player-1098-0582CEF2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Fervanis-Malfurion|r",
+			[51] = 1654379049,
+			[50] = "CHAT_MSG_YELL",
+		}, -- [96]
+		{
+			"pull", -- [1]
+			"Fervanis-Malfurion", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fervanis-Malfurion", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1890, -- [11]
+			"Player-1098-0582CEF2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Fervanis-Malfurion|r",
+			[51] = 1654379095,
+			[50] = "CHAT_MSG_YELL",
+		}, -- [97]
+		{
+			"skin", -- [1]
+			"Fervanis-Malfurion", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fervanis-Malfurion", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2060, -- [11]
+			"Player-1098-0582CEF2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Fervanis-Malfurion|r",
+			[51] = 1654379216,
+			[50] = "CHAT_MSG_YELL",
+		}, -- [98]
+		{
+			"thx guy´s keep going", -- [1]
+			"Fervanis-Malfurion", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fervanis-Malfurion", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2611, -- [11]
+			"Player-1098-0582CEF2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Fervanis-Malfurion|r",
+			[51] = 1654379351,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
