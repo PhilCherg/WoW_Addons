@@ -1,6 +1,6 @@
 
 PlaytimeDB = {
-	["Phelanara (Outland)"] = 196503,
+	["Phelanara (Outland)"] = 199952,
 	["Wolfados (Azjol-Nerub)"] = 11647,
 	["Mallazin (Azjol-Nerub)"] = 32251,
 	["Bankeristor (Outland)"] = 87273,

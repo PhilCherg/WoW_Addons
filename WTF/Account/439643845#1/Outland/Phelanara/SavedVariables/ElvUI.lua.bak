@@ -2,72 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"It's over 9000 !", -- [1]
-			"Klin-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Klin-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			488, -- [11]
-			"Player-1301-0C1E402D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Klin|r",
-			[51] = 1645290644,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"anyone wanna do heroic battle for darkshore?", -- [1]
-			"Darktirant-Frostmane", -- [2]
-			"", -- [3]
-			"1. General - Boralus Harbor", -- [4]
-			"Darktirant-Frostmane", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Boralus Harbor", -- [9]
-			0, -- [10]
-			380, -- [11]
-			"Player-1303-0B62BB2A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Darktirant-Frostmane|r",
-			[51] = 1645722093,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"WTS|cffa335ee|Hitem:42550::::::::60:72:::::::::|h[Weakness Spectralizers]|h|r", -- [1]
-			"Aurelmaxwell-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Aurelmaxwell-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			382, -- [11]
-			"Player-1301-0C18B3FB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cAurelmaxwell|r",
-			[51] = 1645722322,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
 			"32 More if you wanna max renown", -- [1]
 			"Clazzer-Outland", -- [2]
 			"", -- [3]
@@ -88,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaClazzer|r",
 			[51] = 1648332747,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
+		}, -- [1]
 		{
 			"yea but what does max renown give me?", -- [1]
 			"Sutmindiller-Outland", -- [2]
@@ -110,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Sutmindiller|r",
 			[51] = 1648332764,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
+		}, -- [2]
 		{
 			"any1 fancy 2v1 arena ^^", -- [1]
 			"Phuxxii-Outland", -- [2]
@@ -132,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Phuxxii|r",
 			[51] = 1648477672,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
+		}, -- [3]
 		{
 			"WTS Any Tailoring/JC Legendary 291 ilvl (also Leather - Belt/Bracer/Legs/Chest , Mail - Legs/Hands ,  BS - Belt/Legs/Boots) Fair Price /w me", -- [1]
 			"Bankstudent-Outland", -- [2]
@@ -154,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaBankstudent|r",
 			[51] = 1648477675,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
+		}, -- [4]
 		{
 			"2vs1 arena sounds unfair", -- [1]
 			"Bankstudent-Outland", -- [2]
@@ -176,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaBankstudent|r",
 			[51] = 1648477689,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
+		}, -- [5]
 		{
 			"WTS Legendary 291 iLvL - Any slot Tailoring / Jewelcrafting (Ring/Neck) , Leather - Belt/Wrist/Legs/Chest/Boots/Shoulder , Mail - Legs/Hands/Belt ,  Plate - Belt/Legs/Boots/Wrist - Always best offer - /w me", -- [1]
 			"Probot-Outland", -- [2]
@@ -198,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaProbot|r",
 			[51] = 1649254473,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
+		}, -- [6]
 		{
 			"Sale - New better price - |cffffffff|Hitem:178927::::::::60:63::69:4:7194:7882:8156:1588:1:28:2142::::Player-1301-0ADD993C:|h[Shadowghast Necklace]|h|r 291 ilvl for 49k gold /w me", -- [1]
 			"Probot-Outland", -- [2]
@@ -220,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaProbot|r",
 			[51] = 1649254474,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
+		}, -- [7]
 		{
 			"ask xzibit to pimo yo threadz", -- [1]
 			"Zombii-Ragnaros", -- [2]
@@ -242,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edZombii-Ragnaros|r",
 			[51] = 1649254969,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
+		}, -- [8]
 		{
 			"any mage here ", -- [1]
 			"Arroganze-Silvermoon", -- [2]
@@ -264,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Arroganze-Silvermoon|r",
 			[51] = 1649255014,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [12]
+		}, -- [9]
 		{
 			"LF BS to craft belt 291", -- [1]
 			"Norskyler-Outland", -- [2]
@@ -286,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cNorskyler|r",
 			[51] = 1649778692,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
+		}, -- [10]
 		{
 			"broi", -- [1]
 			"Zeuzlol-Outland", -- [2]
@@ -308,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Zeuzlol|r",
 			[51] = 1649778697,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
+		}, -- [11]
 		{
 			"there is no bs in alliance", -- [1]
 			"Zeuzlol-Outland", -- [2]
@@ -330,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Zeuzlol|r",
 			[51] = 1649778705,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
+		}, -- [12]
 		{
 			"however he can still buy from me one ;p", -- [1]
 			"Probot-Outland", -- [2]
@@ -352,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaProbot|r",
 			[51] = 1649778749,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
+		}, -- [13]
 		{
 			"WTS Legendary 291 iLvL - Any slot Tailoring / Jewelcrafting (Ring/Neck) , Leather - Belt/Wrist/Legs/Chest/Boots/Shoulder , Mail - Legs/Hands/Belt ,  Plate - Belt/Legs/Boots/Wrist - Always best offer - /w me", -- [1]
 			"Probot-Outland", -- [2]
@@ -374,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaProbot|r",
 			[51] = 1649778751,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
+		}, -- [14]
 		{
 			"WTS |cffa335ee|Hitem:190626::::::::60:259::3:7:7189:8133:8116:6652:7579:1498:6646:1:28:2165:::::|h[Hood of Empty Eternities]|h|r 90k", -- [1]
 			"Safushi-Outland", -- [2]
@@ -396,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Safushi|r",
 			[51] = 1649778789,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
+		}, -- [15]
 		{
 			"You see, thats more optimistic, 252 for 90k xD", -- [1]
 			"Probot-Outland", -- [2]
@@ -418,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaProbot|r",
 			[51] = 1649778814,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
+		}, -- [16]
 		{
 			"i've heard some of your legendaries broke in the middle of the raid. using cheap materials, eh Probot? eh?", -- [1]
 			"Gulillidan-Outland", -- [2]
@@ -440,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edGulillidan|r",
 			[51] = 1649778861,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
+		}, -- [17]
 		{
 			"no - only made in Germany", -- [1]
 			"Probot-Outland", -- [2]
@@ -462,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaProbot|r",
 			[51] = 1649778879,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
+		}, -- [18]
 		{
 			"WTS |cffa335ee|Hitem:190334::::::::60:254::5:7:7188:6652:8048:8118:8138:1485:6646:1:28:2166:::::|h[Origin of the Feverflare]|h|r", -- [1]
 			"Aimsheit-Outland", -- [2]
@@ -484,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Aimsheit|r",
 			[51] = 1649778884,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
+		}, -- [19]
 		{
 			"Private team With 3K io players, Selling M+  13-20 > (time & weekly) (ONLY GOLD)  (share loot)  /w me for more info", -- [1]
 			"Escânoor-Outland", -- [2]
@@ -506,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Escânoor|r",
 			[51] = 1649778885,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
+		}, -- [20]
 		{
 			"others guys on AH sell leggos made in China tho", -- [1]
 			"Probot-Outland", -- [2]
@@ -528,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaProbot|r",
 			[51] = 1649778888,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
+		}, -- [21]
 		{
 			"WTB russian legendary crafter ", -- [1]
 			"Unstabledudu-Outland", -- [2]
@@ -550,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Unstabledudu|r",
 			[51] = 1649778899,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
+		}, -- [22]
 		{
 			"China > Germany", -- [1]
 			"Gulillidan-Outland", -- [2]
@@ -572,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edGulillidan|r",
 			[51] = 1649778905,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
+		}, -- [23]
 		{
 			"*grabs popcorn*", -- [1]
 			"Luvchild-Outland", -- [2]
@@ -594,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Luvchild|r",
 			[51] = 1649778927,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
+		}, -- [24]
 		{
 			"germany puts faulty software in their belts :P", -- [1]
 			"Bankalini-Outland", -- [2]
@@ -616,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcBankalini|r",
 			[51] = 1649778928,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
+		}, -- [25]
 		{
 			"still LF BS to craft belt 291", -- [1]
 			"Norskyler-Outland", -- [2]
@@ -638,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cNorskyler|r",
 			[51] = 1649778933,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
+		}, -- [26]
 		{
 			"Private team With 3K io players, Selling M+  13-20 > (time & weekly) (ONLY GOLD)  (share loot)  /w me for more info", -- [1]
 			"Escânoor-Outland", -- [2]
@@ -660,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Escânoor|r",
 			[51] = 1649778938,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
+		}, -- [27]
 		{
 			"WTB: 150k gold", -- [1]
 			"Legoless-Outland", -- [2]
@@ -682,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Legoless|r",
 			[51] = 1649778941,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
+		}, -- [28]
 		{
 			"WTS Legendary 291 iLvL - Any slot Tailoring / Jewelcrafting (Ring/Neck) , Leather - Belt/Wrist/Legs/Chest/Boots/Shoulder , Mail - Legs/Hands/Belt ,  Plate - Belt/Legs/Boots/Wrist - Always best offer - /w me", -- [1]
 			"Probot-Outland", -- [2]
@@ -704,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaProbot|r",
 			[51] = 1649778945,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
+		}, -- [29]
 		{
 			"wtb |cff0070dd|Hitem:138486::::::::19:258:::::::::|h[\"Third Wind\" Potion]|h|r 100g each", -- [1]
 			"Jaytooru-Outland", -- [2]
@@ -726,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeJaytooru|r",
 			[51] = 1649778960,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
+		}, -- [30]
 		{
 			"wts plate belt 50k tho", -- [1]
 			"Probot-Outland", -- [2]
@@ -748,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaProbot|r",
 			[51] = 1649778963,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
+		}, -- [31]
 		{
 			"u cant get it cheaper than that :O", -- [1]
 			"Bankalini-Outland", -- [2]
@@ -770,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcBankalini|r",
 			[51] = 1649778974,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
+		}, -- [32]
 		{
 			"your Audis and BMWs will start to break <100k km - Germany today", -- [1]
 			"Gulillidan-Outland", -- [2]
@@ -792,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edGulillidan|r",
 			[51] = 1649778978,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
+		}, -- [33]
 		{
 			"You never had new Audi/BMW/Mercedes in that case xD", -- [1]
 			"Probot-Outland", -- [2]
@@ -814,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaProbot|r",
 			[51] = 1649779009,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
+		}, -- [34]
 		{
 			"true", -- [1]
 			"Yazmine-Outland", -- [2]
@@ -836,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cYazmine|r",
 			[51] = 1649779105,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
+		}, -- [35]
 		{
 			"it can buy you tho, just need few more paches with leggo", -- [1]
 			"Probot-Outland", -- [2]
@@ -858,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaProbot|r",
 			[51] = 1649779115,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
+		}, -- [36]
 		{
 			"WTS Legendary 291 iLvL - Any slot Tailoring / Jewelcrafting (Ring/Neck) , Leather - Belt/Wrist/Legs/Chest/Boots/Shoulder , Mail - Legs/Hands/Belt ,  Plate - Belt/Legs/Boots/Wrist - Always best offer - /w me", -- [1]
 			"Probot-Outland", -- [2]
@@ -880,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaProbot|r",
 			[51] = 1649779298,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
+		}, -- [37]
 		{
 			"WTS |cffa335ee|Hitem:190626::::::::60:259::3:7:7189:8133:8116:6652:7579:1498:6646:1:28:2165:::::|h[Hood of Empty Eternities]|h|r 50k", -- [1]
 			"Safushi-Outland", -- [2]
@@ -902,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Safushi|r",
 			[51] = 1649779359,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
+		}, -- [38]
 		{
 			"WTS |cffa335ee|Hitem:190626::::::::20:103::3:7:7189:8133:8116:6652:7579:1498:6646:1:28:2165:::::|h[Hood of Empty Eternities]|h|r49.9k", -- [1]
 			"Depression-Outland", -- [2]
@@ -924,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Depression|r",
 			[51] = 1649779373,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
+		}, -- [39]
 		{
 			"Price go down every fast ", -- [1]
 			"Probot-Outland", -- [2]
@@ -946,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaProbot|r",
 			[51] = 1649779375,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
+		}, -- [40]
 		{
 			"WTS |cffa335ee|Hitem:190626::::::::60:72::3:7:7189:8133:8116:6652:7579:1498:6646:1:28:2165:::::|h[Hood of Empty Eternities]|h|r 49.8k", -- [1]
 			"Yazmine-Outland", -- [2]
@@ -968,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cYazmine|r",
 			[51] = 1649779394,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
+		}, -- [41]
 		{
 			"feel like probot is increasing every legendary price to sell his own", -- [1]
 			"Givememop-Outland", -- [2]
@@ -990,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGivememop|r",
 			[51] = 1649779414,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [42]
 		{
 			"WTS|cffa335ee|Hitem:190626::::::::60:261::3:7:7189:8133:8116:6652:7579:1498:6646:1:28:2165:::::|h[Hood of Empty Eternities]|h|r 49.7k", -- [1]
 			"Serpotex-Outland", -- [2]
@@ -1012,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Serpotex|r",
 			[51] = 1649779414,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
+		}, -- [43]
 		{
 			"anal |cffa335ee|Hitem:190626::::::::60:263::3:7:7189:8133:8116:6652:7579:1498:6646:1:28:2165:::::|h[Hood of Empty Eternities]|h|r", -- [1]
 			"Belisario-Outland", -- [2]
@@ -1034,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcBelisario|r",
 			[51] = 1649779418,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
+		}, -- [44]
 		{
 			"yes but your sister is free", -- [1]
 			"Safushi-Outland", -- [2]
@@ -1056,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Safushi|r",
 			[51] = 1649779420,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [45]
 		{
 			"WTS anal for |cffa335ee|Hitem:190626::::::::60:261::3:7:7189:8133:8116:6652:7579:1498:6646:1:28:2165:::::|h[Hood of Empty Eternities]|h|r", -- [1]
 			"Serpotex-Outland", -- [2]
@@ -1078,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Serpotex|r",
 			[51] = 1649779442,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+		}, -- [46]
 		{
 			"Private team With 3K io players, Selling M+  13-20 > (time & weekly) (ONLY GOLD)  (share loot)  /w me for more info", -- [1]
 			"Escânoor-Outland", -- [2]
@@ -1100,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Escânoor|r",
 			[51] = 1649779443,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
+		}, -- [47]
 		{
 			"Shadowlands best expansion ever made in WoW history so far ?", -- [1]
 			"Akiru-Outland", -- [2]
@@ -1122,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAkiru|r",
 			[51] = 1649779445,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
+		}, -- [48]
 		{
 			"Nah I keep my clients happy", -- [1]
 			"Probot-Outland", -- [2]
@@ -1144,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaProbot|r",
 			[51] = 1649779446,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [49]
 		{
 			"Yes you need friends, irl.", -- [1]
 			"Demophile-Outland", -- [2]
@@ -1166,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demophile|r",
 			[51] = 1649779449,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [50]
 		{
 			"hell ye akiru", -- [1]
 			"Yazmine-Outland", -- [2]
@@ -1188,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cYazmine|r",
 			[51] = 1649779452,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [51]
 		{
 			"WTS |cffffffff|Hitem:171418::::::::60:72::69:4:7193:7882:8156:1588:1:28:2142::::Player-1301-040322AE:|h[Shadowghast Waistguard]|h|r cheaper than AH!", -- [1]
 			"Kalupto-Outland", -- [2]
@@ -1210,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cKalupto|r",
 			[51] = 1649779459,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [52]
 		{
 			"akiru u ask that stupid question every day", -- [1]
 			"Escânoor-Outland", -- [2]
@@ -1232,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Escânoor|r",
 			[51] = 1649779461,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
+		}, -- [53]
 		{
 			"WTS |cffffffff|Hitem:171418::::::::60:63::69:4:7193:7882:8156:1588:1:28:2142::::Player-1301-0B0D43D9:|h[Shadowghast Waistguard]|h|r 45k", -- [1]
 			"Probot-Outland", -- [2]
@@ -1254,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaProbot|r",
 			[51] = 1649779471,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
+		}, -- [54]
 		{
 			"And you are spamming that stupid boost every day", -- [1]
 			"Akiru-Outland", -- [2]
@@ -1276,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAkiru|r",
 			[51] = 1649779478,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [55]
 		{
 			"Lets be serious now", -- [1]
 			"Probot-Outland", -- [2]
@@ -1298,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaProbot|r",
 			[51] = 1649779478,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [56]
 		{
 			"WTB |cffffffff|Hitem:171418::::::::60:261::69:4:7193:7882:8156:1588:1:28:2142:::::|h[Shadowghast Waistguard]|h|r 100k", -- [1]
 			"Serpotex-Outland", -- [2]
@@ -1320,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Serpotex|r",
 			[51] = 1649779486,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [57]
 		{
 			"stupid boost? lol", -- [1]
 			"Escânoor-Outland", -- [2]
@@ -1342,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Escânoor|r",
 			[51] = 1649779492,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [58]
 		{
 			"Well some of us don't have work to go 2 I understand.", -- [1]
 			"Demophile-Outland", -- [2]
@@ -1364,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demophile|r",
 			[51] = 1649779493,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [59]
 		{
 			"WTS Legendary 291 iLvL - Any slot Tailoring / Jewelcrafting (Ring/Neck) , Leather - Belt/Wrist/Legs/Chest/Boots/Shoulder , Mail - Legs/Hands/Belt ,  Plate - Belt/Legs/Boots/Wrist - Always best offer - /w me", -- [1]
 			"Probot-Outland", -- [2]
@@ -1386,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaProbot|r",
 			[51] = 1649779536,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [60]
 		{
 			"wtb |cff0070dd|Hitem:138486::::::::19:258:::::::::|h[\"Third Wind\" Potion]|h|r 100g each", -- [1]
 			"Jaytooru-Outland", -- [2]
@@ -1408,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeJaytooru|r",
 			[51] = 1649779623,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [61]
 		{
 			" Private Grp +2.8k io selling M+10-17 Intime & weekly (278ilvl in vault) share loot / KSM/  Tazavesh HM Disk mount [gold only] /w me for info", -- [1]
 			"Seorim-Outland", -- [2]
@@ -1430,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSeorim|r",
 			[51] = 1649779670,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [62]
 		{
 			"Private team With 3K io players, Selling M+  13-20 > (time & weekly) (ONLY GOLD)  (share loot)  /w me for more info", -- [1]
 			"Escânoor-Outland", -- [2]
@@ -1452,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Escânoor|r",
 			[51] = 1649779684,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [63]
 		{
 			"Throw Cleaver on Dyrciuch", -- [1]
 			"Dyrciuch-Silvermoon", -- [2]
@@ -1474,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dyrciuch-Silvermoon|r",
 			[51] = 1649781243,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [67]
+		}, -- [64]
 		{
 			"Throw Cleaver on Maktoz", -- [1]
 			"Maktoz-Silvermoon", -- [2]
@@ -1496,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Maktoz-Silvermoon|r",
 			[51] = 1649781247,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [68]
+		}, -- [65]
 		{
 			"Relese is faster", -- [1]
 			"Dyrciuch-Silvermoon", -- [2]
@@ -1518,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dyrciuch-Silvermoon|r",
 			[51] = 1649781292,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [69]
+		}, -- [66]
 		{
 			"ty i new to game", -- [1]
 			"Svetlokote-Outland", -- [2]
@@ -1540,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Svetlokote|r",
 			[51] = 1649781308,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [70]
+		}, -- [67]
 		{
 			"ty i new to game", -- [1]
 			"Svetlokote-Outland", -- [2]
@@ -1562,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Svetlokote|r",
 			[51] = 1649781313,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [71]
+		}, -- [68]
 		{
 			"np man", -- [1]
 			"Phelanara-Outland", -- [2]
@@ -1584,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Phelanara|r",
 			[51] = 1649781324,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [72]
+		}, -- [69]
 		{
 			"Throw Cleaver on Maktoz", -- [1]
 			"Maktoz-Silvermoon", -- [2]
@@ -1606,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Maktoz-Silvermoon|r",
 			[51] = 1649781331,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [73]
+		}, -- [70]
 		{
 			"Embalming Ichor on Dyrciuch", -- [1]
 			"Dyrciuch-Silvermoon", -- [2]
@@ -1628,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dyrciuch-Silvermoon|r",
 			[51] = 1649781422,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [74]
+		}, -- [71]
 		{
 			"Meat Hook on Svetlokote", -- [1]
 			"Svetlokote-Outland", -- [2]
@@ -1650,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Svetlokote|r",
 			[51] = 1649781422,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [75]
+		}, -- [72]
 		{
 			"3", -- [1]
 			"Svetlokote-Outland", -- [2]
@@ -1672,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Svetlokote|r",
 			[51] = 1649781423,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [76]
+		}, -- [73]
 		{
 			"2", -- [1]
 			"Svetlokote-Outland", -- [2]
@@ -1694,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Svetlokote|r",
 			[51] = 1649781424,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [77]
+		}, -- [74]
 		{
 			"1", -- [1]
 			"Svetlokote-Outland", -- [2]
@@ -1716,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Svetlokote|r",
 			[51] = 1649781425,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [78]
+		}, -- [75]
 		{
 			"Frozen Binds on Dyrciuch", -- [1]
 			"Dyrciuch-Silvermoon", -- [2]
@@ -1738,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dyrciuch-Silvermoon|r",
 			[51] = 1649781482,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [79]
+		}, -- [76]
 		{
 			"Frozen Binds on Raktoz", -- [1]
 			"Raktoz-Silvermoon", -- [2]
@@ -1760,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRaktoz-Silvermoon|r",
 			[51] = 1649781512,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [80]
+		}, -- [77]
 		{
 			"Do you need |cff0070dd|Hitem:178781::::::::58:255::17:4:7217:6771:6652:7578:2:28:747:9:54:::::|h[Ritual Commander's Ring]|h|r?", -- [1]
 			"Svetlokote-Outland", -- [2]
@@ -1782,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Svetlokote|r",
 			[51] = 1649781525,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [81]
+		}, -- [78]
 		{
 			"Do you need |cff0070dd|Hitem:178827::::::::54:254::1:5:6805:6652:7578:1524:4785:1:28:747:::::|h[Sin Stained Pendant]|h|r?", -- [1]
 			"Maktoz-Silvermoon", -- [2]
@@ -1804,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Maktoz-Silvermoon|r",
 			[51] = 1649781877,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [82]
+		}, -- [79]
 		{
 			"Leap on Maktoz", -- [1]
 			"Maktoz-Silvermoon", -- [2]
@@ -1826,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Maktoz-Silvermoon|r",
 			[51] = 1649782035,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [83]
+		}, -- [80]
 		{
 			"3", -- [1]
 			"Maktoz-Silvermoon", -- [2]
@@ -1848,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Maktoz-Silvermoon|r",
 			[51] = 1649782037,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [84]
+		}, -- [81]
 		{
 			"2", -- [1]
 			"Maktoz-Silvermoon", -- [2]
@@ -1870,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Maktoz-Silvermoon|r",
 			[51] = 1649782038,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [85]
+		}, -- [82]
 		{
 			"1", -- [1]
 			"Maktoz-Silvermoon", -- [2]
@@ -1892,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Maktoz-Silvermoon|r",
 			[51] = 1649782039,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [86]
+		}, -- [83]
 		{
 			"Do you need |cff0070dd|Hitem:178815::::::::54:254::17:4:7217:8134:6771:6652:2:28:747:9:58:::::|h[Soaring Decimator's Hauberk]|h|r?", -- [1]
 			"Svetlokote-Outland", -- [2]
@@ -1914,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Svetlokote|r",
 			[51] = 1649782054,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [87]
+		}, -- [84]
 		{
 			"go boss", -- [1]
 			"Svetlokote-Outland", -- [2]
@@ -1936,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Svetlokote|r",
 			[51] = 1649782090,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [88]
+		}, -- [85]
 		{
 			"Haunting Fixation on Maktoz", -- [1]
 			"Maktoz-Silvermoon", -- [2]
@@ -1958,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Maktoz-Silvermoon|r",
 			[51] = 1649782159,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [89]
+		}, -- [86]
 		{
 			"LOS HIM", -- [1]
 			"Phelanara-Outland", -- [2]
@@ -1980,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Phelanara|r",
 			[51] = 1649782196,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [90]
+		}, -- [87]
 		{
 			"Do you need |cff0070dd|Hitem:178824::::::::54:254::1:5:6805:6652:7579:1524:4785:1:28:747:::::|h[Signet of the False Accuser]|h|r?", -- [1]
 			"Maktoz-Silvermoon", -- [2]
@@ -2002,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Maktoz-Silvermoon|r",
 			[51] = 1649782279,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [91]
+		}, -- [88]
 		{
 			"Do you need |cff0070dd|Hitem:178824::::::::54:254::17:4:7217:6771:6652:7578:2:28:747:9:57:::::|h[Signet of the False Accuser]|h|r?", -- [1]
 			"Dyrciuch-Silvermoon", -- [2]
@@ -2024,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dyrciuch-Silvermoon|r",
 			[51] = 1649782279,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [92]
+		}, -- [89]
 		{
 			"throm'ka", -- [1]
 			"Victorian-Stormscale", -- [2]
@@ -2046,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcVictorian-Stormscale|r",
 			[51] = 1649785809,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [93]
+		}, -- [90]
 		{
 			"WTS Raid Boost Jailer HC , Get your curve and 100% Mount / w.me for more info / Starting Right Now", -- [1]
 			"Xnora-Outland", -- [2]
@@ -2068,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeXnora|r",
 			[51] = 1653754850,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [91]
 		{
 			"<Unexceptional> Currently 8/11 Heroic looking for big Dps to push into mythic. Also looking for some big M+ players. Whisper me for details.", -- [1]
 			"Acomonk-Outland", -- [2]
@@ -2090,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Acomonk|r",
 			[51] = 1653754869,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [92]
 		{
 			"Any1 that could help me with flying in zereth?", -- [1]
 			"Dumios-Outland", -- [2]
@@ -2112,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Dumios|r",
 			[51] = 1653754984,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [93]
 		{
 			"oioi", -- [1]
 			"Asteriacce-Silvermoon", -- [2]
@@ -2134,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Asteriacce-Silvermoon|r",
 			[51] = 1653758441,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [97]
+		}, -- [94]
 		{
 			"oh god", -- [1]
 			"Asteriacce-Silvermoon", -- [2]
@@ -2156,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Asteriacce-Silvermoon|r",
 			[51] = 1653758581,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [98]
+		}, -- [95]
 		{
 			"what an idiot...", -- [1]
 			"Phelanara-Outland", -- [2]
@@ -2178,29 +2112,95 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Phelanara|r",
 			[51] = 1653758615,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [96]
+		{
+			"|cffffd100|HclubFinder:ClubFinder-1-59423-1301-86054970|h[Guild: Foreign Exchange Trader]|h|r is actively looking for ALL new members in preperation for Dragonflight! Join now!", -- [1]
+			"Serída-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Serída-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1739, -- [11]
+			"Player-1301-0C34A607", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeSerída|r",
+			[51] = 1654457015,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"cross faction still not work?", -- [1]
+			"Azrook-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Azrook-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1748, -- [11]
+			"Player-1301-07E8E3D4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cAzrook|r",
+			[51] = 1654457045,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"do you need that?", -- [1]
+			"Bigmold-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Bigmold-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			124, -- [11]
+			"Player-3391-068002D8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Bigmold-Silvermoon|r",
+			[51] = 1654463720,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/p cheers :D", -- [1]
-		"/reload", -- [2]
-		"/tsm destroy", -- [3]
-		"/p |cffffff00|Hworldmap:388:6986:5465|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [4]
-		"/way 45 47", -- [5]
-		"/way 56 54", -- [6]
-		"/way 63 60", -- [7]
-		"/2 LF someone to trade Seven of Voracity", -- [8]
-		"/flirt", -- [9]
-		"/p asene shto si tam be?", -- [10]
-		"/p cya", -- [11]
-		"/way 34 34", -- [12]
-		"/cw Loléitä-Dalaran inv plz", -- [13]
-		"/playtime", -- [14]
-		"/who", -- [15]
-		"/who Feralas", -- [16]
-		"/who Stormwind", -- [17]
-		"/p np man", -- [18]
-		"/i LOS HIM", -- [19]
-		"/i what an idiot...", -- [20]
+		"/reload", -- [1]
+		"/tsm destroy", -- [2]
+		"/p |cffffff00|Hworldmap:388:6986:5465|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [3]
+		"/way 45 47", -- [4]
+		"/way 56 54", -- [5]
+		"/way 63 60", -- [6]
+		"/2 LF someone to trade Seven of Voracity", -- [7]
+		"/flirt", -- [8]
+		"/p asene shto si tam be?", -- [9]
+		"/p cya", -- [10]
+		"/way 34 34", -- [11]
+		"/cw Loléitä-Dalaran inv plz", -- [12]
+		"/playtime", -- [13]
+		"/who", -- [14]
+		"/who Feralas", -- [15]
+		"/who Stormwind", -- [16]
+		"/p np man", -- [17]
+		"/i LOS HIM", -- [18]
+		"/i what an idiot...", -- [19]
+		"/cw Bigmold-Silvermoon do you need that?", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }

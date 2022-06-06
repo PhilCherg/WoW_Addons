@@ -2,1590 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"WTS|cffa335ee|Hitem:42550::::::::60:72:::::::::|h[Weakness Spectralizers]|h|r", -- [1]
-			"Aurelmaxwell-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Aurelmaxwell-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			382, -- [11]
-			"Player-1301-0C18B3FB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cAurelmaxwell|r",
-			[51] = 1645722322,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"32 More if you wanna max renown", -- [1]
-			"Clazzer-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Clazzer-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			870, -- [11]
-			"Player-1301-0A91EA36", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaClazzer|r",
-			[51] = 1648332747,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"yea but what does max renown give me?", -- [1]
-			"Sutmindiller-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Sutmindiller-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			871, -- [11]
-			"Player-1301-09D1BD72", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Sutmindiller|r",
-			[51] = 1648332764,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"any1 fancy 2v1 arena ^^", -- [1]
-			"Phuxxii-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Phuxxii-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2200, -- [11]
-			"Player-1301-0C29EEBE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Phuxxii|r",
-			[51] = 1648477672,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"WTS Any Tailoring/JC Legendary 291 ilvl (also Leather - Belt/Bracer/Legs/Chest , Mail - Legs/Hands ,  BS - Belt/Legs/Boots) Fair Price /w me", -- [1]
-			"Bankstudent-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Bankstudent-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2203, -- [11]
-			"Player-1301-0C211058", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaBankstudent|r",
-			[51] = 1648477675,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
-		{
-			"2vs1 arena sounds unfair", -- [1]
-			"Bankstudent-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Bankstudent-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2219, -- [11]
-			"Player-1301-0C211058", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaBankstudent|r",
-			[51] = 1648477689,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
-		{
-			"WTS Legendary 291 iLvL - Any slot Tailoring / Jewelcrafting (Ring/Neck) , Leather - Belt/Wrist/Legs/Chest/Boots/Shoulder , Mail - Legs/Hands/Belt ,  Plate - Belt/Legs/Boots/Wrist - Always best offer - /w me", -- [1]
-			"Probot-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Probot-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1067, -- [11]
-			"Player-1301-0B8E0BFC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaProbot|r",
-			[51] = 1649254473,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
-		{
-			"Sale - New better price - |cffffffff|Hitem:178927::::::::60:63::69:4:7194:7882:8156:1588:1:28:2142::::Player-1301-0ADD993C:|h[Shadowghast Necklace]|h|r 291 ilvl for 49k gold /w me", -- [1]
-			"Probot-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Probot-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1068, -- [11]
-			"Player-1301-0B8E0BFC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaProbot|r",
-			[51] = 1649254474,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
-		{
-			"ask xzibit to pimo yo threadz", -- [1]
-			"Zombii-Ragnaros", -- [2]
-			"", -- [3]
-			"1. General - Stormwind City", -- [4]
-			"Zombii-Ragnaros", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Stormwind City", -- [9]
-			0, -- [10]
-			1089, -- [11]
-			"Player-3682-0AD9C8A4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edZombii-Ragnaros|r",
-			[51] = 1649254969,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
-		{
-			"any mage here ", -- [1]
-			"Arroganze-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Arroganze-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			1093, -- [11]
-			"Player-3391-0C1D02BF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Arroganze-Silvermoon|r",
-			[51] = 1649255014,
-			[50] = "CHAT_MSG_YELL",
-		}, -- [10]
-		{
-			"LF BS to craft belt 291", -- [1]
-			"Norskyler-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Norskyler-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3, -- [11]
-			"Player-1301-07F6A6D6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cNorskyler|r",
-			[51] = 1649778692,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
-		{
-			"broi", -- [1]
-			"Zeuzlol-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Zeuzlol-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			4, -- [11]
-			"Player-1301-095AA702", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Zeuzlol|r",
-			[51] = 1649778697,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
-		{
-			"there is no bs in alliance", -- [1]
-			"Zeuzlol-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Zeuzlol-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			5, -- [11]
-			"Player-1301-095AA702", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Zeuzlol|r",
-			[51] = 1649778705,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
-		{
-			"however he can still buy from me one ;p", -- [1]
-			"Probot-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Probot-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			6, -- [11]
-			"Player-1301-0B8E0BFC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaProbot|r",
-			[51] = 1649778749,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
-		{
-			"WTS Legendary 291 iLvL - Any slot Tailoring / Jewelcrafting (Ring/Neck) , Leather - Belt/Wrist/Legs/Chest/Boots/Shoulder , Mail - Legs/Hands/Belt ,  Plate - Belt/Legs/Boots/Wrist - Always best offer - /w me", -- [1]
-			"Probot-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Probot-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			8, -- [11]
-			"Player-1301-0B8E0BFC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaProbot|r",
-			[51] = 1649778751,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
-		{
-			"WTS |cffa335ee|Hitem:190626::::::::60:259::3:7:7189:8133:8116:6652:7579:1498:6646:1:28:2165:::::|h[Hood of Empty Eternities]|h|r 90k", -- [1]
-			"Safushi-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Safushi-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			9, -- [11]
-			"Player-1301-0C27E2E5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Safushi|r",
-			[51] = 1649778789,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
-		{
-			"You see, thats more optimistic, 252 for 90k xD", -- [1]
-			"Probot-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Probot-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			12, -- [11]
-			"Player-1301-0B8E0BFC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaProbot|r",
-			[51] = 1649778814,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
-		{
-			"i've heard some of your legendaries broke in the middle of the raid. using cheap materials, eh Probot? eh?", -- [1]
-			"Gulillidan-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gulillidan-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			25, -- [11]
-			"Player-1301-085C857C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edGulillidan|r",
-			[51] = 1649778861,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
-		{
-			"no - only made in Germany", -- [1]
-			"Probot-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Probot-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			26, -- [11]
-			"Player-1301-0B8E0BFC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaProbot|r",
-			[51] = 1649778879,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
-		{
-			"WTS |cffa335ee|Hitem:190334::::::::60:254::5:7:7188:6652:8048:8118:8138:1485:6646:1:28:2166:::::|h[Origin of the Feverflare]|h|r", -- [1]
-			"Aimsheit-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Aimsheit-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			27, -- [11]
-			"Player-1301-0B25CA7E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Aimsheit|r",
-			[51] = 1649778884,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
-		{
-			"Private team With 3K io players, Selling M+  13-20 > (time & weekly) (ONLY GOLD)  (share loot)  /w me for more info", -- [1]
-			"Escânoor-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Escânoor-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			28, -- [11]
-			"Player-1301-0BF902C8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Escânoor|r",
-			[51] = 1649778885,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
-		{
-			"others guys on AH sell leggos made in China tho", -- [1]
-			"Probot-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Probot-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			29, -- [11]
-			"Player-1301-0B8E0BFC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaProbot|r",
-			[51] = 1649778888,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
-		{
-			"WTB russian legendary crafter ", -- [1]
-			"Unstabledudu-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Unstabledudu-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			30, -- [11]
-			"Player-1301-0A4E0010", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Unstabledudu|r",
-			[51] = 1649778899,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
-		{
-			"China > Germany", -- [1]
-			"Gulillidan-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gulillidan-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			31, -- [11]
-			"Player-1301-085C857C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edGulillidan|r",
-			[51] = 1649778905,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
-		{
-			"*grabs popcorn*", -- [1]
-			"Luvchild-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Luvchild-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			41, -- [11]
-			"Player-1301-083389D9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Luvchild|r",
-			[51] = 1649778927,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
-		{
-			"germany puts faulty software in their belts :P", -- [1]
-			"Bankalini-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Bankalini-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			42, -- [11]
-			"Player-1301-0C28B337", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcBankalini|r",
-			[51] = 1649778928,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
-		{
-			"still LF BS to craft belt 291", -- [1]
-			"Norskyler-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Norskyler-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			46, -- [11]
-			"Player-1301-07F6A6D6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cNorskyler|r",
-			[51] = 1649778933,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
-		{
-			"Private team With 3K io players, Selling M+  13-20 > (time & weekly) (ONLY GOLD)  (share loot)  /w me for more info", -- [1]
-			"Escânoor-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Escânoor-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			49, -- [11]
-			"Player-1301-0BF902C8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Escânoor|r",
-			[51] = 1649778938,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
-		{
-			"WTB: 150k gold", -- [1]
-			"Legoless-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Legoless-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			51, -- [11]
-			"Player-1301-0A51E345", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Legoless|r",
-			[51] = 1649778941,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
-		{
-			"WTS Legendary 291 iLvL - Any slot Tailoring / Jewelcrafting (Ring/Neck) , Leather - Belt/Wrist/Legs/Chest/Boots/Shoulder , Mail - Legs/Hands/Belt ,  Plate - Belt/Legs/Boots/Wrist - Always best offer - /w me", -- [1]
-			"Probot-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Probot-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			54, -- [11]
-			"Player-1301-0B8E0BFC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaProbot|r",
-			[51] = 1649778945,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
-		{
-			"wtb |cff0070dd|Hitem:138486::::::::19:258:::::::::|h[\"Third Wind\" Potion]|h|r 100g each", -- [1]
-			"Jaytooru-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Jaytooru-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			62, -- [11]
-			"Player-1301-08F5E8AD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeJaytooru|r",
-			[51] = 1649778960,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
-		{
-			"wts plate belt 50k tho", -- [1]
-			"Probot-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Probot-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			64, -- [11]
-			"Player-1301-0B8E0BFC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaProbot|r",
-			[51] = 1649778963,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
-		{
-			"u cant get it cheaper than that :O", -- [1]
-			"Bankalini-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Bankalini-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			70, -- [11]
-			"Player-1301-0C28B337", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcBankalini|r",
-			[51] = 1649778974,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
-		{
-			"your Audis and BMWs will start to break <100k km - Germany today", -- [1]
-			"Gulillidan-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gulillidan-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			73, -- [11]
-			"Player-1301-085C857C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edGulillidan|r",
-			[51] = 1649778978,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
-		{
-			"You never had new Audi/BMW/Mercedes in that case xD", -- [1]
-			"Probot-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Probot-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			96, -- [11]
-			"Player-1301-0B8E0BFC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaProbot|r",
-			[51] = 1649779009,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
-		{
-			"true", -- [1]
-			"Yazmine-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Yazmine-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			106, -- [11]
-			"Player-1301-0BF38484", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cYazmine|r",
-			[51] = 1649779105,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
-		{
-			"it can buy you tho, just need few more paches with leggo", -- [1]
-			"Probot-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Probot-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			111, -- [11]
-			"Player-1301-0B8E0BFC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaProbot|r",
-			[51] = 1649779115,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
-		{
-			"WTS Legendary 291 iLvL - Any slot Tailoring / Jewelcrafting (Ring/Neck) , Leather - Belt/Wrist/Legs/Chest/Boots/Shoulder , Mail - Legs/Hands/Belt ,  Plate - Belt/Legs/Boots/Wrist - Always best offer - /w me", -- [1]
-			"Probot-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Probot-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			248, -- [11]
-			"Player-1301-0B8E0BFC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaProbot|r",
-			[51] = 1649779298,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
-		{
-			"WTS |cffa335ee|Hitem:190626::::::::60:259::3:7:7189:8133:8116:6652:7579:1498:6646:1:28:2165:::::|h[Hood of Empty Eternities]|h|r 50k", -- [1]
-			"Safushi-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Safushi-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			277, -- [11]
-			"Player-1301-0C27E2E5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Safushi|r",
-			[51] = 1649779359,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
-		{
-			"WTS |cffa335ee|Hitem:190626::::::::20:103::3:7:7189:8133:8116:6652:7579:1498:6646:1:28:2165:::::|h[Hood of Empty Eternities]|h|r49.9k", -- [1]
-			"Depression-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Depression-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			289, -- [11]
-			"Player-1301-0C1D61F1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Depression|r",
-			[51] = 1649779373,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
-		{
-			"Price go down every fast ", -- [1]
-			"Probot-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Probot-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			291, -- [11]
-			"Player-1301-0B8E0BFC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaProbot|r",
-			[51] = 1649779375,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
-		{
-			"WTS |cffa335ee|Hitem:190626::::::::60:72::3:7:7189:8133:8116:6652:7579:1498:6646:1:28:2165:::::|h[Hood of Empty Eternities]|h|r 49.8k", -- [1]
-			"Yazmine-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Yazmine-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			302, -- [11]
-			"Player-1301-0BF38484", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cYazmine|r",
-			[51] = 1649779394,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
-		{
-			"feel like probot is increasing every legendary price to sell his own", -- [1]
-			"Givememop-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Givememop-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			312, -- [11]
-			"Player-1301-0AAD9C14", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cGivememop|r",
-			[51] = 1649779414,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
-		{
-			"WTS|cffa335ee|Hitem:190626::::::::60:261::3:7:7189:8133:8116:6652:7579:1498:6646:1:28:2165:::::|h[Hood of Empty Eternities]|h|r 49.7k", -- [1]
-			"Serpotex-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Serpotex-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			313, -- [11]
-			"Player-1301-0C2A1197", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Serpotex|r",
-			[51] = 1649779414,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
-		{
-			"anal |cffa335ee|Hitem:190626::::::::60:263::3:7:7189:8133:8116:6652:7579:1498:6646:1:28:2165:::::|h[Hood of Empty Eternities]|h|r", -- [1]
-			"Belisario-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Belisario-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			315, -- [11]
-			"Player-1301-0439AFA2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcBelisario|r",
-			[51] = 1649779418,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
-		{
-			"yes but your sister is free", -- [1]
-			"Safushi-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Safushi-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			318, -- [11]
-			"Player-1301-0C27E2E5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Safushi|r",
-			[51] = 1649779420,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
-		{
-			"WTS anal for |cffa335ee|Hitem:190626::::::::60:261::3:7:7189:8133:8116:6652:7579:1498:6646:1:28:2165:::::|h[Hood of Empty Eternities]|h|r", -- [1]
-			"Serpotex-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Serpotex-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			329, -- [11]
-			"Player-1301-0C2A1197", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Serpotex|r",
-			[51] = 1649779442,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
-		{
-			"Private team With 3K io players, Selling M+  13-20 > (time & weekly) (ONLY GOLD)  (share loot)  /w me for more info", -- [1]
-			"Escânoor-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Escânoor-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			330, -- [11]
-			"Player-1301-0BF902C8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Escânoor|r",
-			[51] = 1649779443,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
-		{
-			"Shadowlands best expansion ever made in WoW history so far ?", -- [1]
-			"Akiru-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Akiru-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			332, -- [11]
-			"Player-1301-0B921EB5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcAkiru|r",
-			[51] = 1649779445,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
-		{
-			"Nah I keep my clients happy", -- [1]
-			"Probot-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Probot-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			334, -- [11]
-			"Player-1301-0B8E0BFC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaProbot|r",
-			[51] = 1649779446,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
-		{
-			"Yes you need friends, irl.", -- [1]
-			"Demophile-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Demophile-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			336, -- [11]
-			"Player-1301-087804E5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Demophile|r",
-			[51] = 1649779449,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
-		{
-			"hell ye akiru", -- [1]
-			"Yazmine-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Yazmine-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			338, -- [11]
-			"Player-1301-0BF38484", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cYazmine|r",
-			[51] = 1649779452,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
-		{
-			"WTS |cffffffff|Hitem:171418::::::::60:72::69:4:7193:7882:8156:1588:1:28:2142::::Player-1301-040322AE:|h[Shadowghast Waistguard]|h|r cheaper than AH!", -- [1]
-			"Kalupto-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Kalupto-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			343, -- [11]
-			"Player-1301-040322AE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cKalupto|r",
-			[51] = 1649779459,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
-		{
-			"akiru u ask that stupid question every day", -- [1]
-			"Escânoor-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Escânoor-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			345, -- [11]
-			"Player-1301-0BF902C8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Escânoor|r",
-			[51] = 1649779461,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
-		{
-			"WTS |cffffffff|Hitem:171418::::::::60:63::69:4:7193:7882:8156:1588:1:28:2142::::Player-1301-0B0D43D9:|h[Shadowghast Waistguard]|h|r 45k", -- [1]
-			"Probot-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Probot-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			350, -- [11]
-			"Player-1301-0B8E0BFC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaProbot|r",
-			[51] = 1649779471,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
-		{
-			"And you are spamming that stupid boost every day", -- [1]
-			"Akiru-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Akiru-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			355, -- [11]
-			"Player-1301-0B921EB5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcAkiru|r",
-			[51] = 1649779478,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
-		{
-			"Lets be serious now", -- [1]
-			"Probot-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Probot-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			356, -- [11]
-			"Player-1301-0B8E0BFC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaProbot|r",
-			[51] = 1649779478,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
-		{
-			"WTB |cffffffff|Hitem:171418::::::::60:261::69:4:7193:7882:8156:1588:1:28:2142:::::|h[Shadowghast Waistguard]|h|r 100k", -- [1]
-			"Serpotex-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Serpotex-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			360, -- [11]
-			"Player-1301-0C2A1197", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Serpotex|r",
-			[51] = 1649779486,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
-		{
-			"stupid boost? lol", -- [1]
-			"Escânoor-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Escânoor-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			364, -- [11]
-			"Player-1301-0BF902C8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Escânoor|r",
-			[51] = 1649779492,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
-		{
-			"Well some of us don't have work to go 2 I understand.", -- [1]
-			"Demophile-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Demophile-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			366, -- [11]
-			"Player-1301-087804E5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Demophile|r",
-			[51] = 1649779493,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
-		{
-			"WTS Legendary 291 iLvL - Any slot Tailoring / Jewelcrafting (Ring/Neck) , Leather - Belt/Wrist/Legs/Chest/Boots/Shoulder , Mail - Legs/Hands/Belt ,  Plate - Belt/Legs/Boots/Wrist - Always best offer - /w me", -- [1]
-			"Probot-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Probot-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			387, -- [11]
-			"Player-1301-0B8E0BFC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaProbot|r",
-			[51] = 1649779536,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
-		{
-			"wtb |cff0070dd|Hitem:138486::::::::19:258:::::::::|h[\"Third Wind\" Potion]|h|r 100g each", -- [1]
-			"Jaytooru-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Jaytooru-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			419, -- [11]
-			"Player-1301-08F5E8AD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeJaytooru|r",
-			[51] = 1649779623,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
-		{
-			" Private Grp +2.8k io selling M+10-17 Intime & weekly (278ilvl in vault) share loot / KSM/  Tazavesh HM Disk mount [gold only] /w me for info", -- [1]
-			"Seorim-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Seorim-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			430, -- [11]
-			"Player-1301-0C2D1063", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeSeorim|r",
-			[51] = 1649779670,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
-		{
-			"Private team With 3K io players, Selling M+  13-20 > (time & weekly) (ONLY GOLD)  (share loot)  /w me for more info", -- [1]
-			"Escânoor-Outland", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Escânoor-Outland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			431, -- [11]
-			"Player-1301-0BF902C8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Escânoor|r",
-			[51] = 1649779684,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
-		{
-			"Throw Cleaver on Dyrciuch", -- [1]
-			"Dyrciuch-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Dyrciuch-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			680, -- [11]
-			"Player-3391-0BF22831", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Dyrciuch-Silvermoon|r",
-			[51] = 1649781243,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [65]
-		{
-			"Throw Cleaver on Maktoz", -- [1]
-			"Maktoz-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Maktoz-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			682, -- [11]
-			"Player-3391-0ABA6572", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Maktoz-Silvermoon|r",
-			[51] = 1649781247,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [66]
-		{
-			"Relese is faster", -- [1]
-			"Dyrciuch-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Dyrciuch-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			700, -- [11]
-			"Player-3391-0BF22831", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Dyrciuch-Silvermoon|r",
-			[51] = 1649781292,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [67]
-		{
-			"ty i new to game", -- [1]
-			"Svetlokote-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Svetlokote-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			703, -- [11]
-			"Player-1301-0B8A1DA9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Svetlokote|r",
-			[51] = 1649781308,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [68]
-		{
-			"ty i new to game", -- [1]
-			"Svetlokote-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Svetlokote-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			705, -- [11]
-			"Player-1301-0B8A1DA9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Svetlokote|r",
-			[51] = 1649781313,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [69]
-		{
-			"np man", -- [1]
-			"Phelanara-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Phelanara-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			715, -- [11]
-			"Player-1301-09EB7895", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Phelanara|r",
-			[51] = 1649781324,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [70]
-		{
-			"Throw Cleaver on Maktoz", -- [1]
-			"Maktoz-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Maktoz-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			720, -- [11]
-			"Player-3391-0ABA6572", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Maktoz-Silvermoon|r",
-			[51] = 1649781331,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [71]
-		{
-			"Embalming Ichor on Dyrciuch", -- [1]
-			"Dyrciuch-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Dyrciuch-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			745, -- [11]
-			"Player-3391-0BF22831", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Dyrciuch-Silvermoon|r",
-			[51] = 1649781422,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [72]
-		{
 			"Meat Hook on Svetlokote", -- [1]
 			"Svetlokote-Outland", -- [2]
 			"Common", -- [3]
@@ -1606,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Svetlokote|r",
 			[51] = 1649781422,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [73]
+		}, -- [1]
 		{
 			"3", -- [1]
 			"Svetlokote-Outland", -- [2]
@@ -1628,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Svetlokote|r",
 			[51] = 1649781423,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [74]
+		}, -- [2]
 		{
 			"2", -- [1]
 			"Svetlokote-Outland", -- [2]
@@ -1650,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Svetlokote|r",
 			[51] = 1649781424,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [75]
+		}, -- [3]
 		{
 			"1", -- [1]
 			"Svetlokote-Outland", -- [2]
@@ -1672,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Svetlokote|r",
 			[51] = 1649781425,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [76]
+		}, -- [4]
 		{
 			"Frozen Binds on Dyrciuch", -- [1]
 			"Dyrciuch-Silvermoon", -- [2]
@@ -1694,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dyrciuch-Silvermoon|r",
 			[51] = 1649781482,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [77]
+		}, -- [5]
 		{
 			"Frozen Binds on Raktoz", -- [1]
 			"Raktoz-Silvermoon", -- [2]
@@ -1716,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRaktoz-Silvermoon|r",
 			[51] = 1649781512,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [78]
+		}, -- [6]
 		{
 			"Do you need |cff0070dd|Hitem:178781::::::::58:255::17:4:7217:6771:6652:7578:2:28:747:9:54:::::|h[Ritual Commander's Ring]|h|r?", -- [1]
 			"Svetlokote-Outland", -- [2]
@@ -1738,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Svetlokote|r",
 			[51] = 1649781525,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [79]
+		}, -- [7]
 		{
 			"Do you need |cff0070dd|Hitem:178827::::::::54:254::1:5:6805:6652:7578:1524:4785:1:28:747:::::|h[Sin Stained Pendant]|h|r?", -- [1]
 			"Maktoz-Silvermoon", -- [2]
@@ -1760,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Maktoz-Silvermoon|r",
 			[51] = 1649781877,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [80]
+		}, -- [8]
 		{
 			"Leap on Maktoz", -- [1]
 			"Maktoz-Silvermoon", -- [2]
@@ -1782,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Maktoz-Silvermoon|r",
 			[51] = 1649782035,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [81]
+		}, -- [9]
 		{
 			"3", -- [1]
 			"Maktoz-Silvermoon", -- [2]
@@ -1804,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Maktoz-Silvermoon|r",
 			[51] = 1649782037,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [82]
+		}, -- [10]
 		{
 			"2", -- [1]
 			"Maktoz-Silvermoon", -- [2]
@@ -1826,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Maktoz-Silvermoon|r",
 			[51] = 1649782038,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [83]
+		}, -- [11]
 		{
 			"1", -- [1]
 			"Maktoz-Silvermoon", -- [2]
@@ -1848,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Maktoz-Silvermoon|r",
 			[51] = 1649782039,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [84]
+		}, -- [12]
 		{
 			"Do you need |cff0070dd|Hitem:178815::::::::54:254::17:4:7217:8134:6771:6652:2:28:747:9:58:::::|h[Soaring Decimator's Hauberk]|h|r?", -- [1]
 			"Svetlokote-Outland", -- [2]
@@ -1870,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Svetlokote|r",
 			[51] = 1649782054,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [85]
+		}, -- [13]
 		{
 			"go boss", -- [1]
 			"Svetlokote-Outland", -- [2]
@@ -1892,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Svetlokote|r",
 			[51] = 1649782090,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [86]
+		}, -- [14]
 		{
 			"Haunting Fixation on Maktoz", -- [1]
 			"Maktoz-Silvermoon", -- [2]
@@ -1914,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Maktoz-Silvermoon|r",
 			[51] = 1649782159,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [87]
+		}, -- [15]
 		{
 			"LOS HIM", -- [1]
 			"Phelanara-Outland", -- [2]
@@ -1936,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Phelanara|r",
 			[51] = 1649782196,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [88]
+		}, -- [16]
 		{
 			"Do you need |cff0070dd|Hitem:178824::::::::54:254::1:5:6805:6652:7579:1524:4785:1:28:747:::::|h[Signet of the False Accuser]|h|r?", -- [1]
 			"Maktoz-Silvermoon", -- [2]
@@ -1958,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Maktoz-Silvermoon|r",
 			[51] = 1649782279,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [89]
+		}, -- [17]
 		{
 			"Do you need |cff0070dd|Hitem:178824::::::::54:254::17:4:7217:6771:6652:7578:2:28:747:9:57:::::|h[Signet of the False Accuser]|h|r?", -- [1]
 			"Dyrciuch-Silvermoon", -- [2]
@@ -1980,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dyrciuch-Silvermoon|r",
 			[51] = 1649782279,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [90]
+		}, -- [18]
 		{
 			"throm'ka", -- [1]
 			"Victorian-Stormscale", -- [2]
@@ -2002,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcVictorian-Stormscale|r",
 			[51] = 1649785809,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [91]
+		}, -- [19]
 		{
 			"WTS Raid Boost Jailer HC , Get your curve and 100% Mount / w.me for more info / Starting Right Now", -- [1]
 			"Xnora-Outland", -- [2]
@@ -2024,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeXnora|r",
 			[51] = 1653754850,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [20]
 		{
 			"<Unexceptional> Currently 8/11 Heroic looking for big Dps to push into mythic. Also looking for some big M+ players. Whisper me for details.", -- [1]
 			"Acomonk-Outland", -- [2]
@@ -2046,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Acomonk|r",
 			[51] = 1653754869,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [21]
 		{
 			"Any1 that could help me with flying in zereth?", -- [1]
 			"Dumios-Outland", -- [2]
@@ -2068,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Dumios|r",
 			[51] = 1653754984,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [22]
 		{
 			"oioi", -- [1]
 			"Asteriacce-Silvermoon", -- [2]
@@ -2090,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Asteriacce-Silvermoon|r",
 			[51] = 1653758441,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [95]
+		}, -- [23]
 		{
 			"oh god", -- [1]
 			"Asteriacce-Silvermoon", -- [2]
@@ -2112,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Asteriacce-Silvermoon|r",
 			[51] = 1653758581,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [96]
+		}, -- [24]
 		{
 			"what an idiot...", -- [1]
 			"Phelanara-Outland", -- [2]
@@ -2134,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Phelanara|r",
 			[51] = 1653758615,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [97]
+		}, -- [25]
 		{
 			"|cffffd100|HclubFinder:ClubFinder-1-59423-1301-86054970|h[Guild: Foreign Exchange Trader]|h|r is actively looking for ALL new members in preperation for Dragonflight! Join now!", -- [1]
 			"Serída-Outland", -- [2]
@@ -2156,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSerída|r",
 			[51] = 1654457015,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [26]
 		{
 			"cross faction still not work?", -- [1]
 			"Azrook-Outland", -- [2]
@@ -2178,29 +594,1613 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAzrook|r",
 			[51] = 1654457045,
 			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [27]
+		{
+			"do you need that?", -- [1]
+			"Bigmold-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Bigmold-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			124, -- [11]
+			"Player-3391-068002D8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Bigmold-Silvermoon|r",
+			[51] = 1654463720,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [28]
+		{
+			"Volatile Acid on Unbréakable", -- [1]
+			"Unbréakable-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Unbréakable-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			160, -- [11]
+			"Player-3391-0C352A9A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cUnbréakable-Silvermoon|r",
+			[51] = 1654463829,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [29]
+		{
+			"Volatile Acid on Xuriyn", -- [1]
+			"Xuriyn-Magtheridon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xuriyn-Magtheridon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			165, -- [11]
+			"Player-3681-088816DE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeXuriyn-Magtheridon|r",
+			[51] = 1654463833,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [30]
+		{
+			"Volatile Acid on Unbréakable", -- [1]
+			"Unbréakable-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Unbréakable-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			233, -- [11]
+			"Player-3391-0C352A9A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cUnbréakable-Silvermoon|r",
+			[51] = 1654463915,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [31]
+		{
+			"3", -- [1]
+			"Éva-Lightbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Éva-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			459, -- [11]
+			"Player-1388-0AC3293B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Éva-Lightbringer|r",
+			[51] = 1654465053,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [32]
+		{
+			"2", -- [1]
+			"Éva-Lightbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Éva-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			460, -- [11]
+			"Player-1388-0AC3293B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Éva-Lightbringer|r",
+			[51] = 1654465054,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [33]
+		{
+			"1", -- [1]
+			"Éva-Lightbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Éva-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			461, -- [11]
+			"Player-1388-0AC3293B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Éva-Lightbringer|r",
+			[51] = 1654465055,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [34]
+		{
+			"Do you need |cff0070dd|Hitem:178933::::::::57:254::17:4:7217:6771:6652:7579:2:28:747:9:54:::::|h[Arachnid Cipher Ring]|h|r?", -- [1]
+			"Soothingce-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Soothingce-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			467, -- [11]
+			"Player-3391-0C34FD62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Soothingce-Silvermoon|r",
+			[51] = 1654465066,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [35]
+		{
+			"Yes", -- [1]
+			"Soothingce-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Soothingce-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			469, -- [11]
+			"Player-3391-0C34FD62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Soothingce-Silvermoon|r",
+			[51] = 1654465074,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [36]
+		{
+			"Do you need |cff0070dd|Hitem:178755::::::::57:254::17:4:7217:8140:6771:6652:2:28:747:9:54:::::|h[Blighted Margrave's Cloak]|h|r?", -- [1]
+			"Voidreaver-DunModr", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Voidreaver-DunModr", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			526, -- [11]
+			"Player-1378-09C26773", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cVoidreaver-DunModr|r",
+			[51] = 1654465203,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [37]
+		{
+			"Do you need |cff0070dd|Hitem:178755::::::::57:254::17:4:7217:8140:6771:6652:2:28:747:9:53:::::|h[Blighted Margrave's Cloak]|h|r?", -- [1]
+			"Mastíno-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Mastíno-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			527, -- [11]
+			"Player-3391-0902FF00", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Mastíno-Silvermoon|r",
+			[51] = 1654465203,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [38]
+		{
+			"yup", -- [1]
+			"Voidreaver-DunModr", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Voidreaver-DunModr", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			579, -- [11]
+			"Player-1378-09C26773", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cVoidreaver-DunModr|r",
+			[51] = 1654465423,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [39]
+		{
+			":S", -- [1]
+			"Voidreaver-DunModr", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Voidreaver-DunModr", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			581, -- [11]
+			"Player-1378-09C26773", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cVoidreaver-DunModr|r",
+			[51] = 1654465433,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [40]
+		{
+			"Heaving Retch on Brewnos", -- [1]
+			"Brewnos-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Brewnos-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			687, -- [11]
+			"Player-1301-0BCFBB4A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Brewnos|r",
+			[51] = 1654465926,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [41]
+		{
+			"big pull", -- [1]
+			"Bearmantlé-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bearmantlé-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			764, -- [11]
+			"Player-1301-07A58B4D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Bearmantlé|r",
+			[51] = 1654466175,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [42]
+		{
+			"Throw Cleaver on Xuriyn", -- [1]
+			"Xuriyn-Magtheridon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xuriyn-Magtheridon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			782, -- [11]
+			"Player-3681-088816DE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeXuriyn-Magtheridon|r",
+			[51] = 1654466204,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [43]
+		{
+			"Spew Disease on Bearmantlé", -- [1]
+			"Bearmantlé-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bearmantlé-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			834, -- [11]
+			"Player-1301-07A58B4D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Bearmantlé|r",
+			[51] = 1654466291,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [44]
+		{
+			"Embalming Ichor on Bearmantlé", -- [1]
+			"Bearmantlé-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bearmantlé-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			840, -- [11]
+			"Player-1301-07A58B4D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Bearmantlé|r",
+			[51] = 1654466309,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [45]
+		{
+			"go in front of boss with hook", -- [1]
+			"Brewnos-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Brewnos-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			843, -- [11]
+			"Player-1301-0BCFBB4A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Brewnos|r",
+			[51] = 1654466321,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [46]
+		{
+			"bruh", -- [1]
+			"Brewnos-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Brewnos-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			850, -- [11]
+			"Player-1301-0BCFBB4A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Brewnos|r",
+			[51] = 1654466349,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [47]
+		{
+			"Embalming Ichor on Xuriyn", -- [1]
+			"Xuriyn-Magtheridon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xuriyn-Magtheridon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			851, -- [11]
+			"Player-3681-088816DE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeXuriyn-Magtheridon|r",
+			[51] = 1654466353,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [48]
+		{
+			"xD", -- [1]
+			"Phelanara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phelanara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			853, -- [11]
+			"Player-1301-09EB7895", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Phelanara|r",
+			[51] = 1654466357,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [49]
+		{
+			"if u get the hook on u run in between the boss and the mob", -- [1]
+			"Bearmantlé-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bearmantlé-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			855, -- [11]
+			"Player-1301-07A58B4D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Bearmantlé|r",
+			[51] = 1654466364,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [50]
+		{
+			"Meat Hook on Xuriyn", -- [1]
+			"Xuriyn-Magtheridon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xuriyn-Magtheridon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			857, -- [11]
+			"Player-3681-088816DE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeXuriyn-Magtheridon|r",
+			[51] = 1654466372,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [51]
+		{
+			"3", -- [1]
+			"Xuriyn-Magtheridon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xuriyn-Magtheridon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			858, -- [11]
+			"Player-3681-088816DE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeXuriyn-Magtheridon|r",
+			[51] = 1654466373,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [52]
+		{
+			"2", -- [1]
+			"Xuriyn-Magtheridon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xuriyn-Magtheridon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			860, -- [11]
+			"Player-3681-088816DE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeXuriyn-Magtheridon|r",
+			[51] = 1654466374,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [53]
+		{
+			"1", -- [1]
+			"Xuriyn-Magtheridon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xuriyn-Magtheridon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			861, -- [11]
+			"Player-3681-088816DE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeXuriyn-Magtheridon|r",
+			[51] = 1654466375,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [54]
+		{
+			"lets hope lock doesnt get again", -- [1]
+			"Phelanara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phelanara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			863, -- [11]
+			"Player-1301-09EB7895", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Phelanara|r",
+			[51] = 1654466375,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [55]
+		{
+			"oh well", -- [1]
+			"Phelanara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phelanara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			864, -- [11]
+			"Player-1301-09EB7895", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Phelanara|r",
+			[51] = 1654466377,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [56]
+		{
+			"AAAAAA", -- [1]
+			"Brewnos-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Brewnos-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			865, -- [11]
+			"Player-1301-0BCFBB4A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Brewnos|r",
+			[51] = 1654466380,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [57]
+		{
+			"lock", -- [1]
+			"Phelanara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phelanara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			868, -- [11]
+			"Player-1301-09EB7895", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Phelanara|r",
+			[51] = 1654469992,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [58]
+		{
+			"Embalming Ichor on Bearmantlé", -- [1]
+			"Bearmantlé-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bearmantlé-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			869, -- [11]
+			"Player-1301-07A58B4D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Bearmantlé|r",
+			[51] = 1654469994,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [59]
+		{
+			"he bouta get his cooldowns back up", -- [1]
+			"Brewnos-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Brewnos-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			870, -- [11]
+			"Player-1301-0BCFBB4A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Brewnos|r",
+			[51] = 1654469995,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [60]
+		{
+			"look at me", -- [1]
+			"Phelanara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phelanara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			871, -- [11]
+			"Player-1301-09EB7895", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Phelanara|r",
+			[51] = 1654469995,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [61]
+		{
+			"stay right here", -- [1]
+			"Phelanara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phelanara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			874, -- [11]
+			"Player-1301-09EB7895", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Phelanara|r",
+			[51] = 1654469998,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [62]
+		{
+			"here]", -- [1]
+			"Phelanara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phelanara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			876, -- [11]
+			"Player-1301-09EB7895", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Phelanara|r",
+			[51] = 1654466406,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [63]
+		{
+			"here", -- [1]
+			"Phelanara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phelanara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			880, -- [11]
+			"Player-1301-09EB7895", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Phelanara|r",
+			[51] = 1654466425,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [64]
+		{
+			"Embalming Ichor on Xuriyn", -- [1]
+			"Xuriyn-Magtheridon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xuriyn-Magtheridon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			884, -- [11]
+			"Player-3681-088816DE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeXuriyn-Magtheridon|r",
+			[51] = 1654466436,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [65]
+		{
+			"HERE", -- [1]
+			"Brewnos-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Brewnos-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			885, -- [11]
+			"Player-1301-0BCFBB4A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Brewnos|r",
+			[51] = 1654466437,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [66]
+		{
+			"here", -- [1]
+			"Phelanara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phelanara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			886, -- [11]
+			"Player-1301-09EB7895", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Phelanara|r",
+			[51] = 1654466437,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [67]
+		{
+			"please", -- [1]
+			"Brewnos-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Brewnos-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			888, -- [11]
+			"Player-1301-0BCFBB4A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Brewnos|r",
+			[51] = 1654466442,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [68]
+		{
+			"come here", -- [1]
+			"Bearmantlé-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bearmantlé-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			889, -- [11]
+			"Player-1301-07A58B4D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Bearmantlé|r",
+			[51] = 1654466444,
+			[50] = "CHAT_MSG_YELL",
+		}, -- [69]
+		{
+			"deez", -- [1]
+			"Brewnos-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Brewnos-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			890, -- [11]
+			"Player-1301-0BCFBB4A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Brewnos|r",
+			[51] = 1654466445,
+			[50] = "CHAT_MSG_YELL",
+		}, -- [70]
+		{
+			"lets kick him", -- [1]
+			"Phelanara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phelanara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			891, -- [11]
+			"Player-1301-09EB7895", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Phelanara|r",
+			[51] = 1654466449,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [71]
+		{
+			"dude", -- [1]
+			"Brewnos-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Brewnos-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			895, -- [11]
+			"Player-1301-0BCFBB4A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Brewnos|r",
+			[51] = 1654466460,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [72]
+		{
+			"come to the boss", -- [1]
+			"Brewnos-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Brewnos-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			897, -- [11]
+			"Player-1301-0BCFBB4A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Brewnos|r",
+			[51] = 1654466462,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [73]
+		{
+			"come close", -- [1]
+			"Brewnos-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Brewnos-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			898, -- [11]
+			"Player-1301-0BCFBB4A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Brewnos|r",
+			[51] = 1654466466,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [74]
+		{
+			"Meat Hook on Brewnos", -- [1]
+			"Brewnos-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Brewnos-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			899, -- [11]
+			"Player-1301-0BCFBB4A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Brewnos|r",
+			[51] = 1654466470,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [75]
+		{
+			"3", -- [1]
+			"Brewnos-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Brewnos-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			900, -- [11]
+			"Player-1301-0BCFBB4A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Brewnos|r",
+			[51] = 1654466471,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [76]
+		{
+			"2", -- [1]
+			"Brewnos-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Brewnos-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			901, -- [11]
+			"Player-1301-0BCFBB4A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Brewnos|r",
+			[51] = 1654466472,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [77]
+		{
+			"just kick him", -- [1]
+			"Phelanara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phelanara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			902, -- [11]
+			"Player-1301-09EB7895", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Phelanara|r",
+			[51] = 1654466472,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [78]
+		{
+			"1", -- [1]
+			"Brewnos-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Brewnos-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			903, -- [11]
+			"Player-1301-0BCFBB4A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Brewnos|r",
+			[51] = 1654466473,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [79]
+		{
+			"hes braindead", -- [1]
+			"Phelanara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phelanara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			904, -- [11]
+			"Player-1301-09EB7895", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Phelanara|r",
+			[51] = 1654466476,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [80]
+		{
+			"thank god", -- [1]
+			"Phelanara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phelanara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			910, -- [11]
+			"Player-1301-09EB7895", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Phelanara|r",
+			[51] = 1654466492,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [81]
+		{
+			"FINALLY", -- [1]
+			"Brewnos-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Brewnos-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			912, -- [11]
+			"Player-1301-0BCFBB4A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Brewnos|r",
+			[51] = 1654466493,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [82]
+		{
+			"Frozen Binds on Brewnos", -- [1]
+			"Brewnos-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Brewnos-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			926, -- [11]
+			"Player-1301-0BCFBB4A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Brewnos|r",
+			[51] = 1654466537,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [83]
+		{
+			"3", -- [1]
+			"Leóví-Ravencrest", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Leóví-Ravencrest", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1010, -- [11]
+			"Player-1329-09CD97C3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeLeóví-Ravencrest|r",
+			[51] = 1654467018,
+			[50] = "CHAT_MSG_YELL",
+		}, -- [84]
+		{
+			"Do you need |cff0070dd|Hitem:178707::::::::58:254::17:4:7217:6771:6652:7579:2:28:747:9:57:::::|h[Trailspinner Pendant]|h|r?", -- [1]
+			"Surelex-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Surelex-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			1057, -- [11]
+			"Player-3391-0C3581E9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Surelex-Silvermoon|r",
+			[51] = 1654467203,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [85]
+		{
+			"ty", -- [1]
+			"Voidreaver-DunModr", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Voidreaver-DunModr", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			1064, -- [11]
+			"Player-1378-09C26773", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cVoidreaver-DunModr|r",
+			[51] = 1654467241,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [86]
+		{
+			"ty", -- [1]
+			"Phelanara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phelanara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1068, -- [11]
+			"Player-1301-09EB7895", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Phelanara|r",
+			[51] = 1654467261,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [87]
+		{
+			"Volatile Acid on Saladprime", -- [1]
+			"Saladprime-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Saladprime-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1098, -- [11]
+			"Player-1301-0AB95D24", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaSaladprime|r",
+			[51] = 1654467335,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [88]
+		{
+			"Volatile Acid on Akliir", -- [1]
+			"Akliir-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Akliir-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1107, -- [11]
+			"Player-3391-0927059B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaAkliir-Silvermoon|r",
+			[51] = 1654467357,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [89]
+		{
+			"ress please", -- [1]
+			"Elliwes-Stormscale", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Elliwes-Stormscale", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1184, -- [11]
+			"Player-2073-093D94BB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Elliwes-Stormscale|r",
+			[51] = 1654467999,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [90]
+		{
+			"mage table pls", -- [1]
+			"Travarica-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Travarica-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1454, -- [11]
+			"Player-3702-0971DBCB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Travarica-ArgentDawn|r",
+			[51] = 1654469107,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [91]
+		{
+			"mage table pls", -- [1]
+			"Travarica-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Travarica-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1463, -- [11]
+			"Player-3702-0971DBCB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Travarica-ArgentDawn|r",
+			[51] = 1654469124,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [92]
+		{
+			"tnx", -- [1]
+			"Travarica-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Travarica-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1472, -- [11]
+			"Player-3702-0971DBCB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Travarica-ArgentDawn|r",
+			[51] = 1654469148,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [93]
+		{
+			"Leap on Rolexhuntard", -- [1]
+			"Rolexhuntard-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rolexhuntard-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1500, -- [11]
+			"Player-1301-0C2CB53D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Rolexhuntard|r",
+			[51] = 1654469295,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [94]
+		{
+			"3", -- [1]
+			"Rolexhuntard-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rolexhuntard-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1501, -- [11]
+			"Player-1301-0C2CB53D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Rolexhuntard|r",
+			[51] = 1654469297,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [95]
+		{
+			"2", -- [1]
+			"Rolexhuntard-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rolexhuntard-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1502, -- [11]
+			"Player-1301-0C2CB53D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Rolexhuntard|r",
+			[51] = 1654469298,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [96]
+		{
+			"1", -- [1]
+			"Rolexhuntard-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rolexhuntard-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1503, -- [11]
+			"Player-1301-0C2CB53D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Rolexhuntard|r",
+			[51] = 1654469299,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [97]
+		{
+			"is one healer enough?", -- [1]
+			"Poutanitsa-Norgannon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Poutanitsa-Norgannon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1868, -- [11]
+			"Player-1408-0A2CCEDE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cPoutanitsa-Norgannon|r",
+			[51] = 1654471705,
+			[50] = "CHAT_MSG_RAID_LEADER",
+		}, -- [98]
+		{
+			"depend what people do", -- [1]
+			"Mecacacouete-Varimathras", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mecacacouete-Varimathras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1871, -- [11]
+			"Player-1315-0B08F34B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Mecacacouete-Varimathras|r",
+			[51] = 1654471739,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/p cheers :D", -- [1]
-		"/reload", -- [2]
-		"/tsm destroy", -- [3]
-		"/p |cffffff00|Hworldmap:388:6986:5465|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [4]
-		"/way 45 47", -- [5]
-		"/way 56 54", -- [6]
-		"/way 63 60", -- [7]
-		"/2 LF someone to trade Seven of Voracity", -- [8]
-		"/flirt", -- [9]
-		"/p asene shto si tam be?", -- [10]
-		"/p cya", -- [11]
-		"/way 34 34", -- [12]
-		"/cw Loléitä-Dalaran inv plz", -- [13]
-		"/playtime", -- [14]
-		"/who", -- [15]
-		"/who Feralas", -- [16]
-		"/who Stormwind", -- [17]
-		"/p np man", -- [18]
-		"/i LOS HIM", -- [19]
-		"/i what an idiot...", -- [20]
+		"/who Stormwind", -- [1]
+		"/p np man", -- [2]
+		"/i LOS HIM", -- [3]
+		"/i what an idiot...", -- [4]
+		"/cw Bigmold-Silvermoon do you need that?", -- [5]
+		"/doyouneedthat", -- [6]
+		"/s xD", -- [7]
+		"/s lets hope lock doesnt get again", -- [8]
+		"/s oh well", -- [9]
+		"/s lock", -- [10]
+		"/s look at me", -- [11]
+		"/s stay right here", -- [12]
+		"/s here]", -- [13]
+		"/s here", -- [14]
+		"/s lets kick him", -- [15]
+		"/i just kick him", -- [16]
+		"/i hes braindead", -- [17]
+		"/i thank god", -- [18]
+		"/cw Voidreaver-DunModr ty", -- [19]
+		"/i ty", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }
