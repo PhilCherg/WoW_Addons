@@ -168,7 +168,7 @@ Grail-Reputations: disabled
 Grail-Rewards: disabled
 Grail-When: disabled
 AAP-Mekkatorque: disabled
-DoYouNeedThat: enabled
+DoYouNeedThat: disabled
 NPCScan: enabled
 _NPCScan.Overlay: enabled
 DBM-EternalPalace: enabled

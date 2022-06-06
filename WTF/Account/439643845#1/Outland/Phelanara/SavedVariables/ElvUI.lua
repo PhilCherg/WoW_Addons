@@ -2,160 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"Meat Hook on Svetlokote", -- [1]
-			"Svetlokote-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Svetlokote-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			746, -- [11]
-			"Player-1301-0B8A1DA9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Svetlokote|r",
-			[51] = 1649781422,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [1]
-		{
-			"3", -- [1]
-			"Svetlokote-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Svetlokote-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			747, -- [11]
-			"Player-1301-0B8A1DA9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Svetlokote|r",
-			[51] = 1649781423,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [2]
-		{
-			"2", -- [1]
-			"Svetlokote-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Svetlokote-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			749, -- [11]
-			"Player-1301-0B8A1DA9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Svetlokote|r",
-			[51] = 1649781424,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [3]
-		{
-			"1", -- [1]
-			"Svetlokote-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Svetlokote-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			750, -- [11]
-			"Player-1301-0B8A1DA9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Svetlokote|r",
-			[51] = 1649781425,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [4]
-		{
-			"Frozen Binds on Dyrciuch", -- [1]
-			"Dyrciuch-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Dyrciuch-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			761, -- [11]
-			"Player-3391-0BF22831", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Dyrciuch-Silvermoon|r",
-			[51] = 1649781482,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [5]
-		{
-			"Frozen Binds on Raktoz", -- [1]
-			"Raktoz-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Raktoz-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			765, -- [11]
-			"Player-3391-0A8F6D44", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cRaktoz-Silvermoon|r",
-			[51] = 1649781512,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [6]
-		{
-			"Do you need |cff0070dd|Hitem:178781::::::::58:255::17:4:7217:6771:6652:7578:2:28:747:9:54:::::|h[Ritual Commander's Ring]|h|r?", -- [1]
-			"Svetlokote-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Svetlokote-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			778, -- [11]
-			"Player-1301-0B8A1DA9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Svetlokote|r",
-			[51] = 1649781525,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [7]
-		{
 			"Do you need |cff0070dd|Hitem:178827::::::::54:254::1:5:6805:6652:7578:1524:4785:1:28:747:::::|h[Sin Stained Pendant]|h|r?", -- [1]
 			"Maktoz-Silvermoon", -- [2]
 			"Common", -- [3]
@@ -176,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Maktoz-Silvermoon|r",
 			[51] = 1649781877,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [8]
+		}, -- [1]
 		{
 			"Leap on Maktoz", -- [1]
 			"Maktoz-Silvermoon", -- [2]
@@ -198,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Maktoz-Silvermoon|r",
 			[51] = 1649782035,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [9]
+		}, -- [2]
 		{
 			"3", -- [1]
 			"Maktoz-Silvermoon", -- [2]
@@ -220,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Maktoz-Silvermoon|r",
 			[51] = 1649782037,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [10]
+		}, -- [3]
 		{
 			"2", -- [1]
 			"Maktoz-Silvermoon", -- [2]
@@ -242,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Maktoz-Silvermoon|r",
 			[51] = 1649782038,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [11]
+		}, -- [4]
 		{
 			"1", -- [1]
 			"Maktoz-Silvermoon", -- [2]
@@ -264,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Maktoz-Silvermoon|r",
 			[51] = 1649782039,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [12]
+		}, -- [5]
 		{
 			"Do you need |cff0070dd|Hitem:178815::::::::54:254::17:4:7217:8134:6771:6652:2:28:747:9:58:::::|h[Soaring Decimator's Hauberk]|h|r?", -- [1]
 			"Svetlokote-Outland", -- [2]
@@ -286,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Svetlokote|r",
 			[51] = 1649782054,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [13]
+		}, -- [6]
 		{
 			"go boss", -- [1]
 			"Svetlokote-Outland", -- [2]
@@ -308,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Svetlokote|r",
 			[51] = 1649782090,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [14]
+		}, -- [7]
 		{
 			"Haunting Fixation on Maktoz", -- [1]
 			"Maktoz-Silvermoon", -- [2]
@@ -330,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Maktoz-Silvermoon|r",
 			[51] = 1649782159,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [15]
+		}, -- [8]
 		{
 			"LOS HIM", -- [1]
 			"Phelanara-Outland", -- [2]
@@ -352,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Phelanara|r",
 			[51] = 1649782196,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [16]
+		}, -- [9]
 		{
 			"Do you need |cff0070dd|Hitem:178824::::::::54:254::1:5:6805:6652:7579:1524:4785:1:28:747:::::|h[Signet of the False Accuser]|h|r?", -- [1]
 			"Maktoz-Silvermoon", -- [2]
@@ -374,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Maktoz-Silvermoon|r",
 			[51] = 1649782279,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [17]
+		}, -- [10]
 		{
 			"Do you need |cff0070dd|Hitem:178824::::::::54:254::17:4:7217:6771:6652:7578:2:28:747:9:57:::::|h[Signet of the False Accuser]|h|r?", -- [1]
 			"Dyrciuch-Silvermoon", -- [2]
@@ -396,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dyrciuch-Silvermoon|r",
 			[51] = 1649782279,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [18]
+		}, -- [11]
 		{
 			"throm'ka", -- [1]
 			"Victorian-Stormscale", -- [2]
@@ -418,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcVictorian-Stormscale|r",
 			[51] = 1649785809,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [19]
+		}, -- [12]
 		{
 			"WTS Raid Boost Jailer HC , Get your curve and 100% Mount / w.me for more info / Starting Right Now", -- [1]
 			"Xnora-Outland", -- [2]
@@ -440,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeXnora|r",
 			[51] = 1653754850,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
+		}, -- [13]
 		{
 			"<Unexceptional> Currently 8/11 Heroic looking for big Dps to push into mythic. Also looking for some big M+ players. Whisper me for details.", -- [1]
 			"Acomonk-Outland", -- [2]
@@ -462,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Acomonk|r",
 			[51] = 1653754869,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
+		}, -- [14]
 		{
 			"Any1 that could help me with flying in zereth?", -- [1]
 			"Dumios-Outland", -- [2]
@@ -484,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Dumios|r",
 			[51] = 1653754984,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
+		}, -- [15]
 		{
 			"oioi", -- [1]
 			"Asteriacce-Silvermoon", -- [2]
@@ -506,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Asteriacce-Silvermoon|r",
 			[51] = 1653758441,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [23]
+		}, -- [16]
 		{
 			"oh god", -- [1]
 			"Asteriacce-Silvermoon", -- [2]
@@ -528,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Asteriacce-Silvermoon|r",
 			[51] = 1653758581,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [24]
+		}, -- [17]
 		{
 			"what an idiot...", -- [1]
 			"Phelanara-Outland", -- [2]
@@ -550,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Phelanara|r",
 			[51] = 1653758615,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [25]
+		}, -- [18]
 		{
 			"|cffffd100|HclubFinder:ClubFinder-1-59423-1301-86054970|h[Guild: Foreign Exchange Trader]|h|r is actively looking for ALL new members in preperation for Dragonflight! Join now!", -- [1]
 			"Serída-Outland", -- [2]
@@ -572,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSerída|r",
 			[51] = 1654457015,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
+		}, -- [19]
 		{
 			"cross faction still not work?", -- [1]
 			"Azrook-Outland", -- [2]
@@ -594,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAzrook|r",
 			[51] = 1654457045,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
+		}, -- [20]
 		{
 			"do you need that?", -- [1]
 			"Bigmold-Silvermoon", -- [2]
@@ -616,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Bigmold-Silvermoon|r",
 			[51] = 1654463720,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [28]
+		}, -- [21]
 		{
 			"Volatile Acid on Unbréakable", -- [1]
 			"Unbréakable-Silvermoon", -- [2]
@@ -638,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cUnbréakable-Silvermoon|r",
 			[51] = 1654463829,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [29]
+		}, -- [22]
 		{
 			"Volatile Acid on Xuriyn", -- [1]
 			"Xuriyn-Magtheridon", -- [2]
@@ -660,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeXuriyn-Magtheridon|r",
 			[51] = 1654463833,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [30]
+		}, -- [23]
 		{
 			"Volatile Acid on Unbréakable", -- [1]
 			"Unbréakable-Silvermoon", -- [2]
@@ -682,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cUnbréakable-Silvermoon|r",
 			[51] = 1654463915,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [31]
+		}, -- [24]
 		{
 			"3", -- [1]
 			"Éva-Lightbringer", -- [2]
@@ -704,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Éva-Lightbringer|r",
 			[51] = 1654465053,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [32]
+		}, -- [25]
 		{
 			"2", -- [1]
 			"Éva-Lightbringer", -- [2]
@@ -726,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Éva-Lightbringer|r",
 			[51] = 1654465054,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [33]
+		}, -- [26]
 		{
 			"1", -- [1]
 			"Éva-Lightbringer", -- [2]
@@ -748,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Éva-Lightbringer|r",
 			[51] = 1654465055,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [34]
+		}, -- [27]
 		{
 			"Do you need |cff0070dd|Hitem:178933::::::::57:254::17:4:7217:6771:6652:7579:2:28:747:9:54:::::|h[Arachnid Cipher Ring]|h|r?", -- [1]
 			"Soothingce-Silvermoon", -- [2]
@@ -770,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Soothingce-Silvermoon|r",
 			[51] = 1654465066,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [35]
+		}, -- [28]
 		{
 			"Yes", -- [1]
 			"Soothingce-Silvermoon", -- [2]
@@ -792,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Soothingce-Silvermoon|r",
 			[51] = 1654465074,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [36]
+		}, -- [29]
 		{
 			"Do you need |cff0070dd|Hitem:178755::::::::57:254::17:4:7217:8140:6771:6652:2:28:747:9:54:::::|h[Blighted Margrave's Cloak]|h|r?", -- [1]
 			"Voidreaver-DunModr", -- [2]
@@ -814,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cVoidreaver-DunModr|r",
 			[51] = 1654465203,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [37]
+		}, -- [30]
 		{
 			"Do you need |cff0070dd|Hitem:178755::::::::57:254::17:4:7217:8140:6771:6652:2:28:747:9:53:::::|h[Blighted Margrave's Cloak]|h|r?", -- [1]
 			"Mastíno-Silvermoon", -- [2]
@@ -836,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Mastíno-Silvermoon|r",
 			[51] = 1654465203,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [38]
+		}, -- [31]
 		{
 			"yup", -- [1]
 			"Voidreaver-DunModr", -- [2]
@@ -858,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cVoidreaver-DunModr|r",
 			[51] = 1654465423,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [39]
+		}, -- [32]
 		{
 			":S", -- [1]
 			"Voidreaver-DunModr", -- [2]
@@ -880,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cVoidreaver-DunModr|r",
 			[51] = 1654465433,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [40]
+		}, -- [33]
 		{
 			"Heaving Retch on Brewnos", -- [1]
 			"Brewnos-Outland", -- [2]
@@ -902,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brewnos|r",
 			[51] = 1654465926,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [41]
+		}, -- [34]
 		{
 			"big pull", -- [1]
 			"Bearmantlé-Outland", -- [2]
@@ -924,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Bearmantlé|r",
 			[51] = 1654466175,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [42]
+		}, -- [35]
 		{
 			"Throw Cleaver on Xuriyn", -- [1]
 			"Xuriyn-Magtheridon", -- [2]
@@ -946,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeXuriyn-Magtheridon|r",
 			[51] = 1654466204,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [43]
+		}, -- [36]
 		{
 			"Spew Disease on Bearmantlé", -- [1]
 			"Bearmantlé-Outland", -- [2]
@@ -968,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Bearmantlé|r",
 			[51] = 1654466291,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [44]
+		}, -- [37]
 		{
 			"Embalming Ichor on Bearmantlé", -- [1]
 			"Bearmantlé-Outland", -- [2]
@@ -990,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Bearmantlé|r",
 			[51] = 1654466309,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [45]
+		}, -- [38]
 		{
 			"go in front of boss with hook", -- [1]
 			"Brewnos-Outland", -- [2]
@@ -1012,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brewnos|r",
 			[51] = 1654466321,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [46]
+		}, -- [39]
 		{
 			"bruh", -- [1]
 			"Brewnos-Outland", -- [2]
@@ -1034,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brewnos|r",
 			[51] = 1654466349,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [47]
+		}, -- [40]
 		{
 			"Embalming Ichor on Xuriyn", -- [1]
 			"Xuriyn-Magtheridon", -- [2]
@@ -1056,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeXuriyn-Magtheridon|r",
 			[51] = 1654466353,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [48]
+		}, -- [41]
 		{
 			"xD", -- [1]
 			"Phelanara-Outland", -- [2]
@@ -1078,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Phelanara|r",
 			[51] = 1654466357,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [49]
+		}, -- [42]
 		{
 			"if u get the hook on u run in between the boss and the mob", -- [1]
 			"Bearmantlé-Outland", -- [2]
@@ -1100,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Bearmantlé|r",
 			[51] = 1654466364,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [50]
+		}, -- [43]
 		{
 			"Meat Hook on Xuriyn", -- [1]
 			"Xuriyn-Magtheridon", -- [2]
@@ -1122,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeXuriyn-Magtheridon|r",
 			[51] = 1654466372,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [51]
+		}, -- [44]
 		{
 			"3", -- [1]
 			"Xuriyn-Magtheridon", -- [2]
@@ -1144,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeXuriyn-Magtheridon|r",
 			[51] = 1654466373,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [52]
+		}, -- [45]
 		{
 			"2", -- [1]
 			"Xuriyn-Magtheridon", -- [2]
@@ -1166,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeXuriyn-Magtheridon|r",
 			[51] = 1654466374,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [53]
+		}, -- [46]
 		{
 			"1", -- [1]
 			"Xuriyn-Magtheridon", -- [2]
@@ -1188,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeXuriyn-Magtheridon|r",
 			[51] = 1654466375,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [54]
+		}, -- [47]
 		{
 			"lets hope lock doesnt get again", -- [1]
 			"Phelanara-Outland", -- [2]
@@ -1210,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Phelanara|r",
 			[51] = 1654466375,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [55]
+		}, -- [48]
 		{
 			"oh well", -- [1]
 			"Phelanara-Outland", -- [2]
@@ -1232,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Phelanara|r",
 			[51] = 1654466377,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [56]
+		}, -- [49]
 		{
 			"AAAAAA", -- [1]
 			"Brewnos-Outland", -- [2]
@@ -1254,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brewnos|r",
 			[51] = 1654466380,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [57]
+		}, -- [50]
 		{
 			"lock", -- [1]
 			"Phelanara-Outland", -- [2]
@@ -1276,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Phelanara|r",
 			[51] = 1654469992,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [58]
+		}, -- [51]
 		{
 			"Embalming Ichor on Bearmantlé", -- [1]
 			"Bearmantlé-Outland", -- [2]
@@ -1298,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Bearmantlé|r",
 			[51] = 1654469994,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [59]
+		}, -- [52]
 		{
 			"he bouta get his cooldowns back up", -- [1]
 			"Brewnos-Outland", -- [2]
@@ -1320,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brewnos|r",
 			[51] = 1654469995,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [60]
+		}, -- [53]
 		{
 			"look at me", -- [1]
 			"Phelanara-Outland", -- [2]
@@ -1342,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Phelanara|r",
 			[51] = 1654469995,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [61]
+		}, -- [54]
 		{
 			"stay right here", -- [1]
 			"Phelanara-Outland", -- [2]
@@ -1364,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Phelanara|r",
 			[51] = 1654469998,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [62]
+		}, -- [55]
 		{
 			"here]", -- [1]
 			"Phelanara-Outland", -- [2]
@@ -1386,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Phelanara|r",
 			[51] = 1654466406,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [63]
+		}, -- [56]
 		{
 			"here", -- [1]
 			"Phelanara-Outland", -- [2]
@@ -1408,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Phelanara|r",
 			[51] = 1654466425,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [64]
+		}, -- [57]
 		{
 			"Embalming Ichor on Xuriyn", -- [1]
 			"Xuriyn-Magtheridon", -- [2]
@@ -1430,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeXuriyn-Magtheridon|r",
 			[51] = 1654466436,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [65]
+		}, -- [58]
 		{
 			"HERE", -- [1]
 			"Brewnos-Outland", -- [2]
@@ -1452,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brewnos|r",
 			[51] = 1654466437,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [66]
+		}, -- [59]
 		{
 			"here", -- [1]
 			"Phelanara-Outland", -- [2]
@@ -1474,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Phelanara|r",
 			[51] = 1654466437,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [67]
+		}, -- [60]
 		{
 			"please", -- [1]
 			"Brewnos-Outland", -- [2]
@@ -1496,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brewnos|r",
 			[51] = 1654466442,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [68]
+		}, -- [61]
 		{
 			"come here", -- [1]
 			"Bearmantlé-Outland", -- [2]
@@ -1518,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Bearmantlé|r",
 			[51] = 1654466444,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [69]
+		}, -- [62]
 		{
 			"deez", -- [1]
 			"Brewnos-Outland", -- [2]
@@ -1540,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brewnos|r",
 			[51] = 1654466445,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [70]
+		}, -- [63]
 		{
 			"lets kick him", -- [1]
 			"Phelanara-Outland", -- [2]
@@ -1562,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Phelanara|r",
 			[51] = 1654466449,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [71]
+		}, -- [64]
 		{
 			"dude", -- [1]
 			"Brewnos-Outland", -- [2]
@@ -1584,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brewnos|r",
 			[51] = 1654466460,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [72]
+		}, -- [65]
 		{
 			"come to the boss", -- [1]
 			"Brewnos-Outland", -- [2]
@@ -1606,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brewnos|r",
 			[51] = 1654466462,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [73]
+		}, -- [66]
 		{
 			"come close", -- [1]
 			"Brewnos-Outland", -- [2]
@@ -1628,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brewnos|r",
 			[51] = 1654466466,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [74]
+		}, -- [67]
 		{
 			"Meat Hook on Brewnos", -- [1]
 			"Brewnos-Outland", -- [2]
@@ -1650,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brewnos|r",
 			[51] = 1654466470,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [75]
+		}, -- [68]
 		{
 			"3", -- [1]
 			"Brewnos-Outland", -- [2]
@@ -1672,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brewnos|r",
 			[51] = 1654466471,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [76]
+		}, -- [69]
 		{
 			"2", -- [1]
 			"Brewnos-Outland", -- [2]
@@ -1694,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brewnos|r",
 			[51] = 1654466472,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [77]
+		}, -- [70]
 		{
 			"just kick him", -- [1]
 			"Phelanara-Outland", -- [2]
@@ -1716,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Phelanara|r",
 			[51] = 1654466472,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [78]
+		}, -- [71]
 		{
 			"1", -- [1]
 			"Brewnos-Outland", -- [2]
@@ -1738,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brewnos|r",
 			[51] = 1654466473,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [79]
+		}, -- [72]
 		{
 			"hes braindead", -- [1]
 			"Phelanara-Outland", -- [2]
@@ -1760,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Phelanara|r",
 			[51] = 1654466476,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [80]
+		}, -- [73]
 		{
 			"thank god", -- [1]
 			"Phelanara-Outland", -- [2]
@@ -1782,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Phelanara|r",
 			[51] = 1654466492,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [81]
+		}, -- [74]
 		{
 			"FINALLY", -- [1]
 			"Brewnos-Outland", -- [2]
@@ -1804,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brewnos|r",
 			[51] = 1654466493,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [82]
+		}, -- [75]
 		{
 			"Frozen Binds on Brewnos", -- [1]
 			"Brewnos-Outland", -- [2]
@@ -1826,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brewnos|r",
 			[51] = 1654466537,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [83]
+		}, -- [76]
 		{
 			"3", -- [1]
 			"Leóví-Ravencrest", -- [2]
@@ -1848,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeLeóví-Ravencrest|r",
 			[51] = 1654467018,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [84]
+		}, -- [77]
 		{
 			"Do you need |cff0070dd|Hitem:178707::::::::58:254::17:4:7217:6771:6652:7579:2:28:747:9:57:::::|h[Trailspinner Pendant]|h|r?", -- [1]
 			"Surelex-Silvermoon", -- [2]
@@ -1870,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Surelex-Silvermoon|r",
 			[51] = 1654467203,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [85]
+		}, -- [78]
 		{
 			"ty", -- [1]
 			"Voidreaver-DunModr", -- [2]
@@ -1892,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cVoidreaver-DunModr|r",
 			[51] = 1654467241,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [86]
+		}, -- [79]
 		{
 			"ty", -- [1]
 			"Phelanara-Outland", -- [2]
@@ -1914,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Phelanara|r",
 			[51] = 1654467261,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [87]
+		}, -- [80]
 		{
 			"Volatile Acid on Saladprime", -- [1]
 			"Saladprime-Outland", -- [2]
@@ -1936,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaSaladprime|r",
 			[51] = 1654467335,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [88]
+		}, -- [81]
 		{
 			"Volatile Acid on Akliir", -- [1]
 			"Akliir-Silvermoon", -- [2]
@@ -1958,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaAkliir-Silvermoon|r",
 			[51] = 1654467357,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [89]
+		}, -- [82]
 		{
 			"ress please", -- [1]
 			"Elliwes-Stormscale", -- [2]
@@ -1980,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Elliwes-Stormscale|r",
 			[51] = 1654467999,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [90]
+		}, -- [83]
 		{
 			"mage table pls", -- [1]
 			"Travarica-ArgentDawn", -- [2]
@@ -2002,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Travarica-ArgentDawn|r",
 			[51] = 1654469107,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [91]
+		}, -- [84]
 		{
 			"mage table pls", -- [1]
 			"Travarica-ArgentDawn", -- [2]
@@ -2024,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Travarica-ArgentDawn|r",
 			[51] = 1654469124,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [92]
+		}, -- [85]
 		{
 			"tnx", -- [1]
 			"Travarica-ArgentDawn", -- [2]
@@ -2046,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Travarica-ArgentDawn|r",
 			[51] = 1654469148,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [93]
+		}, -- [86]
 		{
 			"Leap on Rolexhuntard", -- [1]
 			"Rolexhuntard-Outland", -- [2]
@@ -2068,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rolexhuntard|r",
 			[51] = 1654469295,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [94]
+		}, -- [87]
 		{
 			"3", -- [1]
 			"Rolexhuntard-Outland", -- [2]
@@ -2090,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rolexhuntard|r",
 			[51] = 1654469297,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [95]
+		}, -- [88]
 		{
 			"2", -- [1]
 			"Rolexhuntard-Outland", -- [2]
@@ -2112,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rolexhuntard|r",
 			[51] = 1654469298,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [96]
+		}, -- [89]
 		{
 			"1", -- [1]
 			"Rolexhuntard-Outland", -- [2]
@@ -2134,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rolexhuntard|r",
 			[51] = 1654469299,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [97]
+		}, -- [90]
 		{
 			"is one healer enough?", -- [1]
 			"Poutanitsa-Norgannon", -- [2]
@@ -2156,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPoutanitsa-Norgannon|r",
 			[51] = 1654471705,
 			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [98]
+		}, -- [91]
 		{
 			"depend what people do", -- [1]
 			"Mecacacouete-Varimathras", -- [2]
@@ -2178,29 +2024,183 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Mecacacouete-Varimathras|r",
 			[51] = 1654471739,
 			[50] = "CHAT_MSG_RAID",
+		}, -- [92]
+		{
+			"like bush said'fool me once shame on u, shame me twice..'", -- [1]
+			"Qmeltface-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Qmeltface-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1030, -- [11]
+			"Player-1301-0582C96D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeQmeltface|r",
+			[51] = 1654529525,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"yo omw", -- [1]
+			"Phelanara-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phelanara-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1033, -- [11]
+			"Player-1301-09EB7895", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Phelanara|r",
+			[51] = 1654529538,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [94]
+		{
+			"pull", -- [1]
+			"Noula-Aman'thul", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Noula-Aman'thul", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1244, -- [11]
+			"Player-1105-08F799C3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Noula-Aman'thul|r",
+			[51] = 1654529607,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [95]
+		{
+			"pull", -- [1]
+			"Noula-Aman'thul", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Noula-Aman'thul", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1800, -- [11]
+			"Player-1105-08F799C3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Noula-Aman'thul|r",
+			[51] = 1654529879,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [96]
+		{
+			"are you okay at all? you have types are thrown off during the pool", -- [1]
+			"Гачимунаа-СвежевательДуш", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Гачимунаа-СвежевательДуш", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			1829, -- [11]
+			"Player-1604-0F20A76A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cГачимунаа-СвежевательДуш|r",
+			[51] = 1654529961,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [97]
+		{
+			"piss dich", -- [1]
+			"Noula-Aman'thul", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Noula-Aman'thul", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1833, -- [11]
+			"Player-1105-08F799C3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Noula-Aman'thul|r",
+			[51] = 1654529980,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [98]
+		{
+			"private team selling M+15 to 22 ( free armor stack ) w for info KSM/KSH ( Cheap price )", -- [1]
+			"Mikäsa-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Mikäsa-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2472, -- [11]
+			"Player-1301-0C1CC9C4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Mikäsa|r",
+			[51] = 1654530984,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/who Stormwind", -- [1]
-		"/p np man", -- [2]
-		"/i LOS HIM", -- [3]
-		"/i what an idiot...", -- [4]
-		"/cw Bigmold-Silvermoon do you need that?", -- [5]
-		"/doyouneedthat", -- [6]
-		"/s xD", -- [7]
-		"/s lets hope lock doesnt get again", -- [8]
-		"/s oh well", -- [9]
-		"/s lock", -- [10]
-		"/s look at me", -- [11]
-		"/s stay right here", -- [12]
-		"/s here]", -- [13]
-		"/s here", -- [14]
-		"/s lets kick him", -- [15]
-		"/i just kick him", -- [16]
-		"/i hes braindead", -- [17]
-		"/i thank god", -- [18]
-		"/cw Voidreaver-DunModr ty", -- [19]
-		"/i ty", -- [20]
+		"/p np man", -- [1]
+		"/i LOS HIM", -- [2]
+		"/i what an idiot...", -- [3]
+		"/cw Bigmold-Silvermoon do you need that?", -- [4]
+		"/doyouneedthat", -- [5]
+		"/s xD", -- [6]
+		"/s lets hope lock doesnt get again", -- [7]
+		"/s oh well", -- [8]
+		"/s lock", -- [9]
+		"/s look at me", -- [10]
+		"/s stay right here", -- [11]
+		"/s here]", -- [12]
+		"/s here", -- [13]
+		"/s lets kick him", -- [14]
+		"/i just kick him", -- [15]
+		"/i hes braindead", -- [16]
+		"/i thank god", -- [17]
+		"/cw Voidreaver-DunModr ty", -- [18]
+		"/i ty", -- [19]
+		"/p yo omw", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }

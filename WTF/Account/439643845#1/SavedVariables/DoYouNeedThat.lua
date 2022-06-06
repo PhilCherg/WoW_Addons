@@ -10,7 +10,7 @@ DyntDB = {
 		["debug"] = false,
 		["openAfterEncounter"] = true,
 	},
-	["lootWindowOpen"] = true,
+	["lootWindowOpen"] = false,
 	["lootWindow"] = {
 		"TOPRIGHT", -- [1]
 		-314.2245178222656, -- [2]
