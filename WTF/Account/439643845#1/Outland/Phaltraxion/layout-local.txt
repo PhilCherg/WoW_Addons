@@ -1,10 +1,10 @@
 Version: 1
 Frame: AllTheThings-Window-CurrentInstance
 FrameLevel: 1
-Anchor: LEFT
+Anchor: BOTTOMLEFT
 X: 0
-Y: -222
-W: 412
+Y: 220
+W: 410
 H: 188
 Frame: MonkeySpeedFrame
 FrameLevel: 1
@@ -36,9 +36,9 @@ W: 365
 H: 240
 Frame: AllTheThings-Window-Prime
 FrameLevel: 1
-Anchor: TOPLEFT
-X: 111
-Y: -102
+Anchor: RIGHT
+X: 0
+Y: -20
 W: 750
 H: 595
 Frame: AllTheThings-Window-Bounty
