@@ -1,24 +1,3 @@
-**7.0.8**
-* Update for 9.2.0.
-* BCC fixes.
-
-**7.0.7**
-* BCC class fixes.
-* Fixed error in Dispel module while in rated BG.
-
-**7.0.6**
-* Initial update for BCC.
-
-**7.0.5**
-* Update for 9.0.5.
-* Added racials module.
-
-**7.0.4**
-* Fix error.
-
-**7.0.3**
-* Update for 9.0.2.
-
 **7.0.2**
 * Library updates.
 
@@ -26,7 +5,7 @@
 * Class spell fixes.
 
 **7.0.0**
-* Initial update for 9.0.1.
+* Initial update for 9.0.1
 
 **6.2.1**
 * Cleanups.

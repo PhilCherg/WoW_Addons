@@ -1,6 +1,6 @@
 # TomTom
 
-## [v3.0.6](https://github.com/jnwhiteh/TomTom/tree/v3.0.6) (2022-02-24)
-[Full Changelog](https://github.com/jnwhiteh/TomTom/compare/v3.0.5...v3.0.6) [Previous Releases](https://github.com/jnwhiteh/TomTom/releases)
+## [v3.0.7](https://github.com/jnwhiteh/TomTom/tree/v3.0.7) (2022-06-02)
+[Full Changelog](https://github.com/jnwhiteh/TomTom/compare/v3.0.6...v3.0.7) [Previous Releases](https://github.com/jnwhiteh/TomTom/releases)
 
-- Don't package branches  
+- Update TOC  

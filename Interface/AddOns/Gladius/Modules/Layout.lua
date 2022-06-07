@@ -5,7 +5,7 @@ end
 local L = Gladius.L
 local LSM
 
--- Global functions
+-- Global Functions
 local next = next
 local pairs = pairs
 local strformat = string.format

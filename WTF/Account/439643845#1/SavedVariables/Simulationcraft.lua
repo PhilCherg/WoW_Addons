@@ -14,11 +14,11 @@ SimulationCraftDB = {
 		["Necrophagus - Outland"] = "Necrophagus - Outland",
 		["Illyana - Outland"] = "Illyana - Outland",
 		["Bullenic - Silvermoon"] = "Bullenic - Silvermoon",
-		["Phaltraxion - Outland"] = "Phaltraxion - Outland",
-		["Wolfados - Azjol-Nerub"] = "Wolfados - Azjol-Nerub",
-		["Feattwo - Outland"] = "Feattwo - Outland",
-		["Feastone - Outland"] = "Feastone - Outland",
 		["Illydaria - Draenor"] = "Illydaria - Draenor",
+		["Wolfados - Azjol-Nerub"] = "Wolfados - Azjol-Nerub",
+		["Feastone - Outland"] = "Feastone - Outland",
+		["Feattwo - Outland"] = "Feattwo - Outland",
+		["Phaltraxion - Outland"] = "Phaltraxion - Outland",
 		["Feastthree - Outland"] = "Feastthree - Outland",
 	},
 	["profiles"] = {
@@ -51,15 +51,15 @@ SimulationCraftDB = {
 		},
 		["Bullenic - Silvermoon"] = {
 		},
-		["Phaltraxion - Outland"] = {
+		["Illydaria - Draenor"] = {
 		},
 		["Wolfados - Azjol-Nerub"] = {
 		},
-		["Feattwo - Outland"] = {
-		},
 		["Feastone - Outland"] = {
 		},
-		["Illydaria - Draenor"] = {
+		["Feattwo - Outland"] = {
+		},
+		["Phaltraxion - Outland"] = {
 		},
 		["Feastthree - Outland"] = {
 		},

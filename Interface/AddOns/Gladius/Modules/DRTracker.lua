@@ -7,7 +7,7 @@ local LSM
 
 local DRData = LibStub("DRData-1.0")
 
--- Global functions
+-- Global Functions
 local _G = _G
 local pairs = pairs
 local strfind = string.find

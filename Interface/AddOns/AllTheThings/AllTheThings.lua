@@ -2105,7 +2105,7 @@ local function GetUnobtainableTexture(groupORu)
 end
 -- Returns an applicable Indicator Icon Texture for the specific group if one can be determined
 app.GetIndicatorIcon = function(group)
-	if group.saved then
+	if group.trackable and group.saved then
 		if group.parent and group.parent.locks or group.repeatable then
 			return app.asset("known");
 		else
@@ -2387,10 +2387,17 @@ app.CheckInaccurateQuestInfo = function(questRef, questChange)
 		local id = questRef.questID;
 		-- TODO: change filtering technique so we can do app.CharacterFilter(questRef) to bypass any Account filtering active
 		if not (app.RequiredSkillFilter(questRef)
-			and app.ClassRequirementFilter(questRef)
-			and app.RaceRequirementFilter(questRef)
-			and app.RequireCustomCollectFilter(questRef)
-			and app.ItemIsInGame(questRef)) then
+		and app.ClassRequirementFilter(questRef)
+		and app.RaceRequirementFilter(questRef)
+		and app.RequireCustomCollectFilter(questRef)
+		and app.ItemIsInGame(questRef)) then
+
+			-- Play a sound when a reportable error is found, if any sound setting is enabled
+			if app.Settings:GetTooltipSetting("Warn:Removed")
+			or app.Settings:GetTooltipSetting("Celebrate") then
+				app:PlayAudio(app.Settings.AUDIO_REMOVE_TABLE, "Removed");
+			end
+
 			local popupID = "quest-filter-" .. id;
 			if app:SetupReportDialog(popupID, "Inaccurate Quest Info: " .. id,
 				app.BuildDiscordQuestInfoTable(id, "inaccurate-quest", questChange, questRef)
@@ -4979,7 +4986,7 @@ app.BuildSourceParent = function(group)
 	local keyValue = group[groupKey];
 	local things = specificSource and { group } or app.SearchForLink(groupKey .. ":" .. keyValue);
 	if things then
-		-- print("Found things",#things)
+		-- app.PrintDebug("Found Source things",#things)
 		local parents, parentKey, parent;
 		-- collect all possible parent groups for all instances of this Thing
 		for _,thing in pairs(things) do
@@ -5015,6 +5022,7 @@ app.BuildSourceParent = function(group)
 			end
 			-- Things tagged with many npcIDs should show all those NPCs as a Source
 			if thing.crs then
+				-- app.PrintDebug("thing.crs",#thing.crs)
 				if not parents then parents = {}; end
 				local parentNPC;
 				for _,npcID in ipairs(thing.crs) do
@@ -5047,7 +5055,7 @@ app.BuildSourceParent = function(group)
 		end
 		-- if there are valid parent groups for sources, merge them into a 'Source(s)' group
 		if parents then
-			-- print("Found parents",#parents)
+			-- app.PrintDebug("Found parents",#parents)
 			local sourceGroup = {
 				["text"] = L["SOURCES"],
 				["description"] = L["SOURCES_DESC"],
@@ -5874,20 +5882,29 @@ app.SearchForObject = function(field, id)
 	local fcache = SearchForField(field, id);
 	if fcache then
 		-- find a filter-match object first
-		local fcacheObj, firstMatch, fieldMatch;
+		local fcacheObj, keyMatch, fieldMatch, match, inFilter;
 		for i=1,#fcache,1 do
 			fcacheObj = fcache[i];
-			if fcacheObj.key == field then
-				firstMatch = firstMatch or fcacheObj;
-				if app.RecursiveGroupRequirementsFilter(fcacheObj) then
-					return fcacheObj;
+			inFilter = app.RecursiveGroupRequirementsFilter(fcacheObj);
+			-- field matching id
+			if fcacheObj[field] == id then
+				if fcacheObj.key == field then
+					-- with keyed-field matching key & current filters
+					if inFilter then
+						return fcacheObj;
+					end
+					keyMatch = inFilter and fcacheObj or keyMatch or fcacheObj;
+				else
+					-- with field matching id
+					fieldMatch = inFilter and fcacheObj or fieldMatch or fcacheObj;
 				end
+			-- basic group related to search
 			else
-				fieldMatch = fieldMatch or fcacheObj;
+				match = inFilter and fcacheObj or match or fcacheObj;
 			end
 		end
 		-- otherwise just find the first matching object
-		return firstMatch or fieldMatch or nil;
+		return keyMatch or fieldMatch or match or nil;
 	end
 end
 -- This method performs the SearchForField logic and returns a single version of the specific object by merging together all sources of the object
@@ -7959,6 +7976,7 @@ app.TryPopulateQuestRewards = function(questObject)
 				-- if app.DEBUG_PRINT then print("TryPopulateQuestRewards:found",questObject.questID,itemID) end
 
 				QuestHarvester.AllTheThingsProcessing = true;
+				QuestHarvester:SetOwner(UIParent, "ANCHOR_NONE");
 				QuestHarvester:SetQuestLogItem("reward", j, questObject.questID);
 				local link = select(2, QuestHarvester:GetItem());
 				QuestHarvester.AllTheThingsProcessing = false;
@@ -8488,7 +8506,11 @@ local fields = {
 			end
 		end
 	end,
-	["trackable"] = app.ReturnTrue,
+	["trackable"] = function(t)
+		-- don't show tracking for achievements if they have sub-groups and are within instances (still using achievements as headers under LFR...)
+		rawset(t, "trackable", not rawget(t, "g") or not GetRelativeValue(t, "instanceID"));
+		return rawget(t, "trackable");
+	end,
 	["saved"] = function(t)
 		local id = t.achievementID;
 		if app.CurrentCharacter.Achievements[id] then return true; end
@@ -14103,6 +14125,12 @@ function app.CompletionistItemCollectionHelper(sourceID, oldState)
 				-- This is okay since items of this type share their appearance regardless of the power of the item.
 				local name, link = GetItemInfo(sourceInfo.itemID);
 				print(format(L["ITEM_ID_ADDED_MISSING"], link or name or ("|cffff80ff|Htransmogappearance:" .. sourceID .. "|h[Source " .. sourceID .. "]|h|r"), sourceInfo.itemID));
+
+				-- Play a sound when a reportable error is found, if any sound setting is enabled
+				if app.Settings:GetTooltipSetting("Warn:Removed")
+				or app.Settings:GetTooltipSetting("Celebrate") then
+					app:PlayAudio(app.Settings.AUDIO_REMOVE_TABLE, "Removed");
+				end
 			end
 			Callback(app.PlayFanfare);
 			Callback(app.TakeScreenShot);
@@ -14214,6 +14242,12 @@ function app.CompletionistItemRemovalHelper(sourceID, oldState)
 				print(format(L["ITEM_ID_ADDED_MISSING"], link or name or ("|cffff80ff|Htransmogappearance:" .. sourceID .. "|h[Source " .. sourceID .. "]|h|r"), sourceInfo.itemID));
 			else
 				print(format(L["ITEM_ID_ADDED_MISSING"], "|cffff80ff|Htransmogappearance:" .. sourceID .. "|h[Source " .. sourceID .. "]|h|r", "???"));
+
+				-- Play a sound when a reportable error is found, if any sound setting is enabled
+				if app.Settings:GetTooltipSetting("Warn:Removed")
+				or app.Settings:GetTooltipSetting("Celebrate") then
+					app:PlayAudio(app.Settings.AUDIO_REMOVE_TABLE, "Removed");
+				end
 			end
 		end
 		-- If the item isn't in the list, then don't bother refreshing the data.
@@ -21152,7 +21186,7 @@ customWindowUpdates["WorldQuests"] = function(self, force, got)
 					local mapObject = app.CreateMapWithStyle(mapID);
 					local bounties = C_QuestLog_GetBountiesForMapID(pair[2]);
 					if bounties and #bounties > 0 then
-						for i,bounty in ipairs(bounties) do
+						for _,bounty in ipairs(bounties) do
 							local questObject = GetPopulatedQuestObject(bounty.questID);
 							NestObject(mapObject, questObject);
 						end

@@ -90,13 +90,6 @@ X: 345
 Y: 230
 W: 201
 H: 83
-Frame: AllTheThings-Window-Unsorted
-FrameLevel: 1
-Anchor: CENTER
-X: 0
-Y: 0
-W: 300
-H: 300
 Frame: TTG_ScoreFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -104,6 +97,13 @@ X: 371
 Y: 153
 W: 250
 H: 83
+Frame: AllTheThings-Window-Unsorted
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 300
+H: 300
 Frame: ST_Maze_Helper
 FrameLevel: 1
 Anchor: LEFT

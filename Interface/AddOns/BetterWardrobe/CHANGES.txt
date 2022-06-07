@@ -1,20 +1,13 @@
-tag f7c84ba25065f2839907434cce692d2ada55529f 3.15
+tag 68428ba743724e4af9340932652630765a40024f 3.15.3
 Author:	SLOKnightfall <SLOKnightfall@gmail.com>
-Date:	Wed Jun 1 18:00:06 2022 -0700
+Date:	Sun Jun 5 14:33:18 2022 -0700
 
--9.2.5 updates
+-Bugfixes
 
-commit 0e424d794a422d5e1c71c98cd65cf42053c50441
+commit 04b9bc1b9c6312c4f599e865cbd8f4b76b412526
 Author: SLOKnightfall <SLOKnightfall@gmail.com>
-Date:   Wed Jun 1 17:59:42 2022 -0700
+Date:   Sun Jun 5 14:32:03 2022 -0700
 
-    -TOC UPDATE
-    -First pass at 9.2.5 code CHANGES
-    -Bug fixes
-
-commit f1e5075da85c7541c89995b604fc1e7f3855e508
-Author: SLOKnightfall <SLOKnightfall@gmail.com>
-Date:   Wed Jun 1 11:21:44 2022 -0700
-
-    -Finally tracked down and fixed the "Dead Pixle"  issue #252
+    Fixed login error if there are substitutions  Issue #269
+    Fixed errors when trying to right click on an item.
 

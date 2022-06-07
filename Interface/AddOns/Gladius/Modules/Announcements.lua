@@ -4,7 +4,7 @@ if not Gladius then
 end
 local L = Gladius.L
 
--- Global Functions
+-- global functions
 local mathfloor = math.floor
 local strfind = string.find
 local string = string
@@ -30,8 +30,6 @@ local UnitName = UnitName
 local UNKNOWN = UNKNOWN
 local RAID_CLASS_COLORS = RAID_CLASS_COLORS
 
-local IsClassic = WOW_PROJECT_ID >= WOW_PROJECT_CLASSIC
-
 local Announcements = Gladius:NewModule("Announcements", false, false, {
 	announcements = {
 		drinks = true,
@@ -50,9 +48,7 @@ function Announcements:OnEnable()
 	self:RegisterEvent("UNIT_AURA")
 	self:RegisterEvent("UNIT_SPELLCAST_START")
 	self:RegisterEvent("UNIT_NAME_UPDATE")
-	if not IsClassic then
-		self:RegisterEvent("ARENA_PREP_OPPONENT_SPECIALIZATIONS")
-	end
+	self:RegisterEvent("ARENA_PREP_OPPONENT_SPECIALIZATIONS")
 	-- register custom events
 	--self:RegisterMessage("GLADIUS_SPEC_UPDATE")
 	-- Table holding messages to throttle
@@ -143,11 +139,11 @@ function Announcements:ARENA_PREP_OPPONENT_SPECIALIZATIONS(event, ...)
 	if not Gladius.db.announcements.spec then
 		return
 	end
-	for i = 1, GetNumArenaOpponentSpecs and GetNumArenaOpponentSpecs() or 0 do
+	for i = 1, GetNumArenaOpponentSpecs() do
 		--local prepFrame = _G["ArenaPrepFrame"..i]
 		--prepFrame.specPortrait = _G["ArenaPrepFrame"..i.."SpecPortrait"]
-		local specID = GetArenaOpponentSpec and GetArenaOpponentSpec(i)
-		if specID and specID > 0 then
+		local specID = GetArenaOpponentSpec(i)
+		if specID > 0 then
 			--local _, spec, _, specIcon, _, _, class = GetSpecializationInfoByID(specID)
 			local id, name, description, icon, role, class = GetSpecializationInfoByID(specID)
 			--[[if(class) then

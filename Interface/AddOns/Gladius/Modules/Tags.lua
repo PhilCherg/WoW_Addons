@@ -5,7 +5,7 @@ end
 local L = Gladius.L
 local LSM
 
--- Global functions
+-- Global Functions
 local loadstring = loadstring
 local pairs = pairs
 local strfind = string.find
