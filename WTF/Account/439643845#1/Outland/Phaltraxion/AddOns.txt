@@ -108,18 +108,18 @@ WorldQuestParty: enabled
 DejaCharacterStats: enabled
 Azeroth Auto Pilot: disabled
 XLoot: disabled
-Details: disabled
+Details: enabled
 ElvUI_EverySecondCounts: disabled
 Details_DmgRank: enabled
 Details_DpsTuning: enabled
-Details_EncounterDetails: disabled
-Details_RaidCheck: disabled
-Details_DataStorage: disabled
+Details_EncounterDetails: enabled
+Details_RaidCheck: enabled
+Details_DataStorage: enabled
 Details_TimeAttack: enabled
-Details_TinyThreat: disabled
-Details_Vanguard: disabled
+Details_TinyThreat: enabled
+Details_Vanguard: enabled
 Details_3DModelsPaths: enabled
-Details_Streamer: disabled
+Details_Streamer: enabled
 BagBrother: disabled
 Bagnon: disabled
 Bartender4: disabled
@@ -236,7 +236,7 @@ Grail-Reputations: disabled
 Grail-Rewards: enabled
 Grail-When: enabled
 AAP-Mekkatorque: disabled
-DoYouNeedThat: disabled
+DoYouNeedThat: enabled
 NPCScan: enabled
 DBM-EternalPalace: enabled
 AngryKeystones: disabled

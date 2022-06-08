@@ -1,4 +1,11 @@
 Version: 1
+Frame: DYNT
+FrameLevel: 1
+Anchor: TOPRIGHT
+X: -314
+Y: -99
+W: 380
+H: 200
 Frame: AllTheThings-Window-CurrentInstance
 FrameLevel: 1
 Anchor: BOTTOMLEFT
