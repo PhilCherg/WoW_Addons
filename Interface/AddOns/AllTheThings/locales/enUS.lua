@@ -934,6 +934,7 @@ app.L = {
 		[-21] = "Interface\\Icons\\achievement_pvp_h_12",									-- Captains
 		[-22] = app.asset("Category_Secrets"),												-- Secrets
 		[-23] = "Interface\\Icons\\item_maldraxxus_paragonchest_01",						-- WoD Common Dungeon Drop
+		[-24] = "Interface\\Icons\\Inv_misc_map02",											-- Maps
 		[-26] = app.asset("Category_WorldDrops"),											-- Drop
 		[-27] = "Interface\\Icons\\Achievement_Boss_Overlord_Wyrmthalak",					-- Lower (Blackrock Spire)
 		[-28] = "Interface\\Icons\\INV_Misc_Head_Dragon_01",								-- Upper (Blackrock Spire)
@@ -1254,6 +1255,7 @@ app.L = {
 		[-806] = "Interface\\Icons\\inv_belt_armor_waistoftime_d_01",						-- Waist of Time
 		[-807] = "Interface\\Icons\\inv_hivemind",											-- Hivemind
 		[-808] = 2998185,																	-- Bound Shadehound
+		[-809] = 3954409,																	-- Stored Wisdom Device
 	-- More Secrets are likely to come dont use IDs here
 	-- Chests
 		[-851] = "Interface\\Icons\\INV_Eng_Crate2",										-- Black Empire Cache (Is a placeholder since no ObjectID are assigned to chests!)
@@ -1457,7 +1459,8 @@ app.L = {
 		[-21] = "Captains",
 		[-22] = "Secrets",														-- Secrets
 		[-23] = "Common Dungeon Drop",											-- WoD Common Dungeon Drop
-		[-26] = "Drops",														-- Drops
+		[-24] = BRAWL_TOOLTIP_MAPS,												-- Maps
+ 		[-26] = "Drops",														-- Drops
 		[-27] = "Lower",														-- Lower (Blackrock Spire)
 		[-28] = "Upper",														-- Upper (Blackrock Spire)
 		[-31] = select(1,GetCategoryInfo(15268)),								-- Promotions
@@ -1784,6 +1787,7 @@ app.L = {
 		[-806] = "Waist of Time",												-- Waist of Time
 		[-807] = GetSpellInfo(261395),											-- The Hivemind
 		[-808] = GetSpellInfo(344577),											-- Bound Shadehound
+		[-809] = GetSpellInfo(373230),											-- Stored Wisdom Device
 	-- More Secrets are likely to come dont use IDs here
 	-- Chests
 		[-851] = "Black Empire Cache",											-- Black Empire Cache (Is a placeholder since no ObjectID are assigned to chests!)

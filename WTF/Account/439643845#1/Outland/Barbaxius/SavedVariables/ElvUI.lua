@@ -2,908 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"hahaha", -- [1]
-			"Silvarnn-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Silvarnn-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			821, -- [11]
-			"Player-3391-0C1F5F00", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
-			[51] = 1652360708,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [1]
-		{
-			"cocg wheel gang", -- [1]
-			"Demonscope-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Demonscope-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			822, -- [11]
-			"Player-3391-08986DA5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
-			[51] = 1652360734,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [2]
-		{
-			"spider gang this time???", -- [1]
-			"Silvarnn-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Silvarnn-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			823, -- [11]
-			"Player-3391-0C1F5F00", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
-			[51] = 1652360744,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [3]
-		{
-			"well.. this is my 1410 kill of this damn spider so im guessing no time soon", -- [1]
-			"Demonscope-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Demonscope-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			824, -- [11]
-			"Player-3391-08986DA5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
-			[51] = 1652360769,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [4]
-		{
-			"wtf?!", -- [1]
-			"Silvarnn-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Silvarnn-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			825, -- [11]
-			"Player-3391-0C1F5F00", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
-			[51] = 1652360775,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [5]
-		{
-			"yup", -- [1]
-			"Demonscope-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Demonscope-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			826, -- [11]
-			"Player-3391-08986DA5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
-			[51] = 1652360779,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [6]
-		{
-			"are you for real?", -- [1]
-			"Silvarnn-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Silvarnn-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			827, -- [11]
-			"Player-3391-0C1F5F00", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
-			[51] = 1652360783,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [7]
-		{
-			"i got wheel at 47 kc", -- [1]
-			"Silvarnn-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Silvarnn-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			828, -- [11]
-			"Player-3391-0C1F5F00", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
-			[51] = 1652360785,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [8]
-		{
-			"rarity sasy 333, wowhead is 800+ average, my mate got it on his 4th kill...", -- [1]
-			"Demonscope-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Demonscope-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			829, -- [11]
-			"Player-3391-08986DA5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
-			[51] = 1652360798,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [9]
-		{
-			"Bro you're so fcking unlucky wth", -- [1]
-			"Silvarnn-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Silvarnn-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			831, -- [11]
-			"Player-3391-0C1F5F00", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
-			[51] = 1652360810,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [10]
-		{
-			"you deserve it ", -- [1]
-			"Silvarnn-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Silvarnn-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			832, -- [11]
-			"Player-3391-0C1F5F00", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
-			[51] = 1652360812,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [11]
-		{
-			"i got deatcharger from rivendare or something ", -- [1]
-			"Silvarnn-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Silvarnn-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			833, -- [11]
-			"Player-3391-0C1F5F00", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
-			[51] = 1652360825,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [12]
-		{
-			"the spider mount", -- [1]
-			"Demonscope-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Demonscope-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			834, -- [11]
-			"Player-3391-08986DA5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
-			[51] = 1652360827,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [13]
-		{
-			"at 21 kc", -- [1]
-			"Silvarnn-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Silvarnn-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			835, -- [11]
-			"Player-3391-0C1F5F00", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
-			[51] = 1652360827,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [14]
-		{
-			"i gave it away to my friend tho", -- [1]
-			"Silvarnn-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Silvarnn-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			836, -- [11]
-			"Player-3391-0C1F5F00", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
-			[51] = 1652360832,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [15]
-		{
-			"he deserved it", -- [1]
-			"Silvarnn-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Silvarnn-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			837, -- [11]
-			"Player-3391-0C1F5F00", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
-			[51] = 1652360835,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [16]
-		{
-			"ouch", -- [1]
-			"Demonscope-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Demonscope-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			838, -- [11]
-			"Player-3391-08986DA5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
-			[51] = 1652360836,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [17]
-		{
-			"he was at 1.1k dry", -- [1]
-			"Silvarnn-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Silvarnn-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			839, -- [11]
-			"Player-3391-0C1F5F00", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
-			[51] = 1652360841,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [18]
-		{
-			"so yeah", -- [1]
-			"Silvarnn-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Silvarnn-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			840, -- [11]
-			"Player-3391-0C1F5F00", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
-			[51] = 1652360844,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [19]
-		{
-			"so u doing it again?", -- [1]
-			"Demonscope-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Demonscope-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			841, -- [11]
-			"Player-3391-08986DA5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
-			[51] = 1652360851,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [20]
-		{
-			"ofc! my friend is helping me. we farm \"horse\" everyday ", -- [1]
-			"Silvarnn-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Silvarnn-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			842, -- [11]
-			"Player-3391-0C1F5F00", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
-			[51] = 1652360867,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [21]
-		{
-			"1 hour a day", -- [1]
-			"Silvarnn-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Silvarnn-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			843, -- [11]
-			"Player-3391-0C1F5F00", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
-			[51] = 1652360869,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [22]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:15406:Player-1301-0C0EF5CF:1:5:12:22:4294967295:4294967295:4294967295:4294967295|h[Synthesized!]|h|r!", -- [1]
-			"Kitá-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kitá-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			844, -- [11]
-			"Player-1301-0C0EF5CF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaKitá|r",
-			[51] = 1652360870,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [23]
-		{
-			"6  years for headless horse mount =)", -- [1]
-			"Jessejade-Wildhammer", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Jessejade-Wildhammer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			845, -- [11]
-			"Player-1313-08FB53C2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Jessejade-Wildhammer|r",
-			[51] = 1652360873,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [24]
-		{
-			"good good ", -- [1]
-			"Demonscope-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Demonscope-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			846, -- [11]
-			"Player-3391-08986DA5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
-			[51] = 1652360875,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [25]
-		{
-			"how many kills though?", -- [1]
-			"Demonscope-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Demonscope-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			848, -- [11]
-			"Player-3391-08986DA5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
-			[51] = 1652360885,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [26]
-		{
-			"bro mounts in this game", -- [1]
-			"Silvarnn-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Silvarnn-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			849, -- [11]
-			"Player-3391-0C1F5F00", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
-			[51] = 1652360885,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [27]
-		{
-			"my reason to live", -- [1]
-			"Silvarnn-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Silvarnn-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			850, -- [11]
-			"Player-3391-0C1F5F00", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
-			[51] = 1652360887,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [28]
-		{
-			"ngl", -- [1]
-			"Silvarnn-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Silvarnn-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			851, -- [11]
-			"Player-3391-0C1F5F00", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
-			[51] = 1652360888,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [29]
-		{
-			"i got my wheel mount like 3 days ago", -- [1]
-			"Silvarnn-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Silvarnn-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			853, -- [11]
-			"Player-3391-0C1F5F00", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
-			[51] = 1652360902,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [30]
-		{
-			"i was so happy", -- [1]
-			"Silvarnn-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Silvarnn-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			854, -- [11]
-			"Player-3391-0C1F5F00", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
-			[51] = 1652360906,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [31]
-		{
-			"lucky i never got him =)", -- [1]
-			"Jessejade-Wildhammer", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Jessejade-Wildhammer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			855, -- [11]
-			"Player-1313-08FB53C2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Jessejade-Wildhammer|r",
-			[51] = 1652360920,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [32]
-		{
-			"yeah I think i got the wheel in my 6th go (Rusty)", -- [1]
-			"Demonscope-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Demonscope-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			856, -- [11]
-			"Player-3391-08986DA5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
-			[51] = 1652360922,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [33]
-		{
-			"oooo", -- [1]
-			"Silvarnn-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Silvarnn-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			858, -- [11]
-			"Player-3391-0C1F5F00", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
-			[51] = 1652360928,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [34]
-		{
-			"I'm about to finish bfa too (reverted) for flying", -- [1]
-			"Silvarnn-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Silvarnn-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			859, -- [11]
-			"Player-3391-0C1F5F00", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Silvarnn-Silvermoon|r",
-			[51] = 1652360942,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [35]
-		{
-			"u got this achev one? cos it was a pain in the ****", -- [1]
-			"Demonscope-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Demonscope-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			860, -- [11]
-			"Player-3391-08986DA5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
-			[51] = 1652360942,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [36]
-		{
-			"nice", -- [1]
-			"Demonscope-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Demonscope-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			861, -- [11]
-			"Player-3391-08986DA5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
-			[51] = 1652360949,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [37]
-		{
-			"<RTC> Arachnoid Harvester was last seen ~20 minutes ago", -- [1]
-			"Demonscope-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Demonscope-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			862, -- [11]
-			"Player-3391-08986DA5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
-			[51] = 1652360976,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [38]
-		{
-			"{rt8}A. Harvester{rt8}: 0s-18m 18s (WorldBossTimers:1652363276)", -- [1]
-			"Demonscope-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Demonscope-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			863, -- [11]
-			"Player-3391-08986DA5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Demonscope-Silvermoon|r",
-			[51] = 1652360978,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [39]
-		{
-			"<RTC> Arachnoid Harvester was last seen ~30 minutes ago", -- [1]
-			"Electroscope-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Electroscope-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			1233, -- [11]
-			"Player-3391-068AD85C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcElectroscope-Silvermoon|r",
-			[51] = 1652363062,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [40]
-		{
-			"{rt8}A. Harvester{rt8}: 0s-9m 55s (WorldBossTimers:1652364858)", -- [1]
-			"Electroscope-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Electroscope-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			1234, -- [11]
-			"Player-3391-068AD85C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcElectroscope-Silvermoon|r",
-			[51] = 1652363063,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [41]
-		{
 			"<RTC> Arachnoid Harvester was last seen ~36 minutes ago", -- [1]
 			"Electroscope-Silvermoon", -- [2]
 			"Common", -- [3]
@@ -924,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElectroscope-Silvermoon|r",
 			[51] = 1652363418,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [42]
+		}, -- [1]
 		{
 			"{rt8}A. Harvester{rt8}: 0s-3m 58s (WorldBossTimers:1652364858)", -- [1]
 			"Electroscope-Silvermoon", -- [2]
@@ -946,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElectroscope-Silvermoon|r",
 			[51] = 1652363420,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [43]
+		}, -- [2]
 		{
 			" ruK G Ruk'ka'ha ruK Ka Ag Ha  REGASNOGAH ", -- [1]
 			"Sheeva-Kazzak", -- [2]
@@ -968,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Sheeva-Kazzak|r",
 			[51] = 1652363469,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [44]
+		}, -- [3]
 		{
 			"looks like its going the full 50 mins, dont go for a piss, its about to spawn", -- [1]
 			"Electroscope-Silvermoon", -- [2]
@@ -990,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElectroscope-Silvermoon|r",
 			[51] = 1652363501,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [45]
+		}, -- [4]
 		{
 			"40 mins**", -- [1]
 			"Electroscope-Silvermoon", -- [2]
@@ -1012,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElectroscope-Silvermoon|r",
 			[51] = 1652363523,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [46]
+		}, -- [5]
 		{
 			"<RTC> Arachnoid Harvester was last seen ~38 minutes ago", -- [1]
 			"Electroscope-Silvermoon", -- [2]
@@ -1034,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElectroscope-Silvermoon|r",
 			[51] = 1652363539,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [47]
+		}, -- [6]
 		{
 			"{rt8}A. Harvester{rt8}: 0s-1m 57s (WorldBossTimers:1652364858)", -- [1]
 			"Electroscope-Silvermoon", -- [2]
@@ -1056,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElectroscope-Silvermoon|r",
 			[51] = 1652363541,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [48]
+		}, -- [7]
 		{
 			"<RTC> Arachnoid Harvester has died", -- [1]
 			"Electroscope-Silvermoon", -- [2]
@@ -1078,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElectroscope-Silvermoon|r",
 			[51] = 1652363614,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [49]
+		}, -- [8]
 		{
 			"goth'a l ogg mog golar ", -- [1]
 			"Gorefest-Runetotem", -- [2]
@@ -1100,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Gorefest-Runetotem|r",
 			[51] = 1652363614,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [50]
+		}, -- [9]
 		{
 			"{rt8}A. Harvester{rt8}: 19m 30s-39m 30s (WorldBossTimers:1652367185)", -- [1]
 			"Electroscope-Silvermoon", -- [2]
@@ -1122,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcElectroscope-Silvermoon|r",
 			[51] = 1652363615,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [51]
+		}, -- [10]
 		{
 			"<RTC> Arachnoid Harvester was last seen ~2 minutes ago", -- [1]
 			"Pallascope-Silvermoon", -- [2]
@@ -1144,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Pallascope-Silvermoon|r",
 			[51] = 1652363706,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [52]
+		}, -- [11]
 		{
 			"{rt8}A. Harvester{rt8}: 17m 57s-37m 57s (WorldBossTimers:1652367185)", -- [1]
 			"Pallascope-Silvermoon", -- [2]
@@ -1166,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Pallascope-Silvermoon|r",
 			[51] = 1652363707,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [53]
+		}, -- [12]
 		{
 			"<RTC> Arachnoid Harvester was last seen ~10 minutes ago", -- [1]
 			"Pallascope-Silvermoon", -- [2]
@@ -1188,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Pallascope-Silvermoon|r",
 			[51] = 1652364208,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [54]
+		}, -- [13]
 		{
 			"{rt8}A. Harvester{rt8}: 9m 36s-29m 36s (WorldBossTimers:1652367185)", -- [1]
 			"Pallascope-Silvermoon", -- [2]
@@ -1210,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Pallascope-Silvermoon|r",
 			[51] = 1652364209,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [55]
+		}, -- [14]
 		{
 			"{rt4}{rt4} Spots Open for EPIC-BG type (+) in chat {rt4}{rt4}", -- [1]
 			"Fado-Daggerspine", -- [2]
@@ -1232,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Fado-Daggerspine|r",
 			[51] = 1652964077,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
+		}, -- [15]
 		{
 			"Wartusk up", -- [1]
 			"Villtón-Outland", -- [2]
@@ -1254,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Villtón|r",
 			[51] = 1652964779,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
+		}, -- [16]
 		{
 			"iooo", -- [1]
 			"Iî-Sylvanas", -- [2]
@@ -1276,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Iî-Sylvanas|r",
 			[51] = 1653593227,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [58]
+		}, -- [17]
 		{
 			"how do you make so much money for that mount?", -- [1]
 			"Iî-Sylvanas", -- [2]
@@ -1298,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Iî-Sylvanas|r",
 			[51] = 1653593236,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [59]
+		}, -- [18]
 		{
 			"KA", -- [1]
 			"Shallows-Stormscale", -- [2]
@@ -1320,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shallows-Stormscale|r",
 			[51] = 1653593243,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [60]
+		}, -- [19]
 		{
 			"G", -- [1]
 			"Shallows-Stormscale", -- [2]
@@ -1342,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shallows-Stormscale|r",
 			[51] = 1653593246,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [61]
+		}, -- [20]
 		{
 			"N", -- [1]
 			"Shallows-Stormscale", -- [2]
@@ -1364,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shallows-Stormscale|r",
 			[51] = 1653593247,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [62]
+		}, -- [21]
 		{
 			"L", -- [1]
 			"Shallows-Stormscale", -- [2]
@@ -1386,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shallows-Stormscale|r",
 			[51] = 1653593249,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [63]
+		}, -- [22]
 		{
 			"A", -- [1]
 			"Shallows-Stormscale", -- [2]
@@ -1408,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shallows-Stormscale|r",
 			[51] = 1653593252,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [64]
+		}, -- [23]
 		{
 			"says something unintelligible.", -- [1]
 			"Shallows-Stormscale", -- [2]
@@ -1430,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shallows-Stormscale|r",
 			[51] = 1653593262,
 			[50] = "CHAT_MSG_EMOTE",
-		}, -- [65]
+		}, -- [24]
 		{
 			"IL", -- [1]
 			"Lillunkan-TwistingNether", -- [2]
@@ -1452,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaLillunkan-TwistingNether|r",
 			[51] = 1653593265,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [66]
+		}, -- [25]
 		{
 			"makogg", -- [1]
 			"Shallows-Stormscale", -- [2]
@@ -1474,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shallows-Stormscale|r",
 			[51] = 1653593267,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [67]
+		}, -- [26]
 		{
 			"hi", -- [1]
 			"Whet-C'Thun", -- [2]
@@ -1496,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcWhet-C'Thun|r",
 			[51] = 1653593347,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [68]
+		}, -- [27]
 		{
 			"hi", -- [1]
 			"Jilly-DunModr", -- [2]
@@ -1518,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Jilly-DunModr|r",
 			[51] = 1653593352,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [69]
+		}, -- [28]
 		{
 			"hey", -- [1]
 			"Gorgontd-Outland", -- [2]
@@ -1540,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edGorgontd|r",
 			[51] = 1653593364,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [70]
+		}, -- [29]
 		{
 			"o/", -- [1]
 			"Baaradir-Outland", -- [2]
@@ -1562,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Baaradir|r",
 			[51] = 1653593364,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [71]
+		}, -- [30]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15513:Player-1301-0A46735A:1:5:26:22:4294967295:4294967295:4294967295:4294967295|h[Curious Collections]|h|r!", -- [1]
 			"Phòbia-Outland", -- [2]
@@ -1584,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Phòbia|r",
 			[51] = 1653593397,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [72]
+		}, -- [31]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:1297:Player-1301-0B0D2B3F:1:5:26:22:4294967295:4294967295:4294967295:4294967295|h[Hadronox Denied]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1606,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1653593523,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [73]
+		}, -- [32]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:1860:Player-1301-0B0D2B3F:1:5:26:22:4294967295:4294967295:4294967295:4294967295|h[Gotta Go!]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1628,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1653593824,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [74]
+		}, -- [33]
 		{
 			"Rocket League is amazing to watch and only gets more impressive when you try do it yourself", -- [1]
 			"Hexen-Outland", -- [2]
@@ -1650,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Hexen|r",
 			[51] = 1653593854,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [34]
 		{
 			"chau", -- [1]
 			"Whet-C'Thun", -- [2]
@@ -1672,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcWhet-C'Thun|r",
 			[51] = 1653593858,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [76]
+		}, -- [35]
 		{
 			"e sports are not real sports", -- [1]
 			"Icexx-Outland", -- [2]
@@ -1694,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaIcexx|r",
 			[51] = 1653593861,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [36]
 		{
 			"its just sitting", -- [1]
 			"Icexx-Outland", -- [2]
@@ -1716,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaIcexx|r",
 			[51] = 1653593864,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [37]
 		{
 			"^ ", -- [1]
 			"Vten-Outland", -- [2]
@@ -1738,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Vten|r",
 			[51] = 1653593869,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [38]
 		{
 			"Sure", -- [1]
 			"Hexen-Outland", -- [2]
@@ -1760,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Hexen|r",
 			[51] = 1653593871,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [39]
 		{
 			"so you're saying only fatmen support it", -- [1]
 			"Vten-Outland", -- [2]
@@ -1782,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Vten|r",
 			[51] = 1653593884,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [40]
 		{
 			"But thats TV and Videogames too", -- [1]
 			"Hexen-Outland", -- [2]
@@ -1804,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Hexen|r",
 			[51] = 1653593884,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [41]
 		{
 			"So is rowing", -- [1]
 			"Galaord-Outland", -- [2]
@@ -1826,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edGalaord|r",
 			[51] = 1653593885,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [42]
 		{
 			"Gluttonous overgrowth 100%", -- [1]
 			"Paíned-Frostmane", -- [2]
@@ -1848,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPaíned-Frostmane|r",
 			[51] = 1654355297,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [43]
 		{
 			"Galirha zaubert |cff71d5ff|Hspell:20707:0|h[Seelenstein]|h|r -> Galirha", -- [1]
 			"Zâlivén-Malorne", -- [2]
@@ -1870,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Zâlivén-Malorne|r",
 			[51] = 1654355297,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [85]
+		}, -- [44]
 		{
 			"|cffffff00|Hworldmap:1970:5237:9351|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Paíned-Frostmane", -- [2]
@@ -1892,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPaíned-Frostmane|r",
 			[51] = 1654355303,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [45]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14304:Player-1301-0B0D2B3F:1:6:4:22:4294967295:4294967295:4294967295:4294967295|h[Explore Ardenweald]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1914,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1654355489,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [87]
+		}, -- [46]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14303:Player-1301-0B0D2B3F:1:6:4:22:4294967295:4294967295:4294967295:4294967295|h[Explore Bastion]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1936,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1654355489,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [88]
+		}, -- [47]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14305:Player-1301-0B0D2B3F:1:6:4:22:4294967295:4294967295:4294967295:4294967295|h[Explore Maldraxxus]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1958,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1654355489,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [89]
+		}, -- [48]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14306:Player-1301-0B0D2B3F:1:6:4:22:4294967295:4294967295:4294967295:4294967295|h[Explore Revendreth]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -1980,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1654355489,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [90]
+		}, -- [49]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14663:Player-1301-0B0D2B3F:1:6:4:22:4294967295:4294967295:4294967295:4294967295|h[Explore The Maw]|h|r!", -- [1]
 			"Barbaxius-Outland", -- [2]
@@ -2002,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBarbaxius|r",
 			[51] = 1654355489,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [91]
+		}, -- [50]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15650:Player-1301-09965295:1:6:5:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Streets of Wonder]|h|r!", -- [1]
 			"Trûpzîk-Outland", -- [2]
@@ -2024,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Trûpzîk|r",
 			[51] = 1654377780,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [92]
+		}, -- [51]
 		{
 			"pull", -- [1]
 			"Fervanis-Malfurion", -- [2]
@@ -2046,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Fervanis-Malfurion|r",
 			[51] = 1654378853,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [93]
+		}, -- [52]
 		{
 			"skin", -- [1]
 			"Fervanis-Malfurion", -- [2]
@@ -2068,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Fervanis-Malfurion|r",
 			[51] = 1654378954,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [94]
+		}, -- [53]
 		{
 			"skin!!!", -- [1]
 			"Кимдеел-Гордунни", -- [2]
@@ -2090,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Кимдеел-Гордунни|r",
 			[51] = 1654379041,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [95]
+		}, -- [54]
 		{
 			"skin", -- [1]
 			"Fervanis-Malfurion", -- [2]
@@ -2112,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Fervanis-Malfurion|r",
 			[51] = 1654379049,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [96]
+		}, -- [55]
 		{
 			"pull", -- [1]
 			"Fervanis-Malfurion", -- [2]
@@ -2134,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Fervanis-Malfurion|r",
 			[51] = 1654379095,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [97]
+		}, -- [56]
 		{
 			"skin", -- [1]
 			"Fervanis-Malfurion", -- [2]
@@ -2156,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Fervanis-Malfurion|r",
 			[51] = 1654379216,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [98]
+		}, -- [57]
 		{
 			"thx guy´s keep going", -- [1]
 			"Fervanis-Malfurion", -- [2]
@@ -2178,29 +1276,931 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Fervanis-Malfurion|r",
 			[51] = 1654379351,
 			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [58]
+		{
+			"We are selling |cff66bbff|Hjournal:1:2464:14|h[The Jailer]|h|r HC for 150K You'll get |cffffff00|Hachievement:15470:Player-1301-0C365BEE:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: The Jailer]|h|r, [Carcinized Zerethsteed] mount and a chance to get 272 loot. /w me", -- [1]
+			"Britty-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Britty-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			345, -- [11]
+			"Player-1301-0C365BEE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cBritty|r",
+			[51] = 1654694656,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [59]
+		{
+			"Private team selling M+15 to 22 ( Free armor stack ) ( Free Specific Key )  w for info KSM/KSH quick Runs ( Cheapest price )", -- [1]
+			"Mikäsa-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Mikäsa-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			395, -- [11]
+			"Player-1301-0C1CC9C4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Mikäsa|r",
+			[51] = 1654695209,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [60]
+		{
+			"inv plz", -- [1]
+			"Wendia-Ravencrest", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Wendia-Ravencrest", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			416, -- [11]
+			"Player-1329-09A64B33", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Wendia-Ravencrest|r",
+			[51] = 1654695357,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [61]
+		{
+			"inv plz", -- [1]
+			"Керберр-Гордунни", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Керберр-Гордунни", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			417, -- [11]
+			"Player-1602-09E4A71C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Керберр-Гордунни|r",
+			[51] = 1654695362,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [62]
+		{
+			"after time loot ", -- [1]
+			"Wendia-Ravencrest", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Wendia-Ravencrest", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			480, -- [11]
+			"Player-1329-09A64B33", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Wendia-Ravencrest|r",
+			[51] = 1654695527,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [63]
+		{
+			"hunter", -- [1]
+			"Wendia-Ravencrest", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Wendia-Ravencrest", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			503, -- [11]
+			"Player-1329-09A64B33", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Wendia-Ravencrest|r",
+			[51] = 1654695556,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [64]
+		{
+			"I set time for puull", -- [1]
+			"Wendia-Ravencrest", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Wendia-Ravencrest", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			507, -- [11]
+			"Player-1329-09A64B33", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Wendia-Ravencrest|r",
+			[51] = 1654695568,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [65]
+		{
+			"now skin", -- [1]
+			"Wendia-Ravencrest", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Wendia-Ravencrest", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			523, -- [11]
+			"Player-1329-09A64B33", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Wendia-Ravencrest|r",
+			[51] = 1654695578,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [66]
+		{
+			"plz ", -- [1]
+			"Wendia-Ravencrest", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Wendia-Ravencrest", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			604, -- [11]
+			"Player-1329-09A64B33", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Wendia-Ravencrest|r",
+			[51] = 1654695631,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [67]
+		{
+			"I set time ", -- [1]
+			"Wendia-Ravencrest", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Wendia-Ravencrest", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			622, -- [11]
+			"Player-1329-09A64B33", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Wendia-Ravencrest|r",
+			[51] = 1654695648,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [68]
+		{
+			"ok", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			652, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1654695662,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [69]
+		{
+			"hunter", -- [1]
+			"Wendia-Ravencrest", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Wendia-Ravencrest", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			658, -- [11]
+			"Player-1329-09A64B33", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Wendia-Ravencrest|r",
+			[51] = 1654695670,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [70]
+		{
+			"i will farm some of them downstairs in the meantime", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			660, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1654695675,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [71]
+		{
+			"Хантер напуливай нижнюю часть", -- [1]
+			"Совиус-Гордунни", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Совиус-Гордунни", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			681, -- [11]
+			"Player-1602-0310A071", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Совиус-Гордунни|r",
+			[51] = 1654695798,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [72]
+		{
+			"cyka blyat?", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			684, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1654695811,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [73]
+		{
+			"pull 150sec", -- [1]
+			"Wendia-Ravencrest", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Wendia-Ravencrest", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			907, -- [11]
+			"Player-1329-09A64B33", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Wendia-Ravencrest|r",
+			[51] = 1654695913,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [74]
+		{
+			"skin", -- [1]
+			"Wendia-Ravencrest", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Wendia-Ravencrest", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			970, -- [11]
+			"Player-1329-09A64B33", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Wendia-Ravencrest|r",
+			[51] = 1654696063,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [75]
+		{
+			"ty im done", -- [1]
+			"Barbaxius-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Barbaxius-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1126, -- [11]
+			"Player-1301-0B0D2B3F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBarbaxius|r",
+			[51] = 1654696106,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [76]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:8072:Player-1301-0C1D38C8:1:6:10:22:4294967295:4294967295:4294967295:4294967295|h[Pinnacle of Storms]|h|r!", -- [1]
+			"Havix-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Havix-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2252, -- [11]
+			"Player-1301-0C1D38C8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaHavix|r",
+			[51] = 1654873279,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [77]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:8067:Player-1301-0C1D38C8:1:6:10:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Lei Shen]|h|r!", -- [1]
+			"Havix-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Havix-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2253, -- [11]
+			"Player-1301-0C1D38C8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaHavix|r",
+			[51] = 1654873279,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [78]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:8068:Player-1301-0C1D38C8:1:6:10:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Ra-den]|h|r!", -- [1]
+			"Havix-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Havix-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2269, -- [11]
+			"Player-1301-0C1D38C8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaHavix|r",
+			[51] = 1654873400,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [79]
+		{
+			"|cffffd100|HclubFinder:ClubFinder-1-59423-1301-86054970|h[Guild: Foreign Exchange Trader]|h|r is actively looking for ALL new members in preperation for Dragonflight! Join now!", -- [1]
+			"Serída-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Serída-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2337, -- [11]
+			"Player-1301-0C34A607", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeSerída|r",
+			[51] = 1654873850,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [80]
+		{
+			"<Professional Team> || Offering Mythic+ 15-20 || Special Weekly Vault Offers || Good Discount For Multi Runs || Intime Guarantee || Accepting Gold Only || Whisper Me For More Info", -- [1]
+			"Reaw-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Reaw-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2342, -- [11]
+			"Player-1301-0C18062A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaReaw|r",
+			[51] = 1654873887,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [81]
+		{
+			"Private team selling M+15 to 22 ( Free armor stack ) ( Free Specific Key )  w for info KSM/KSH quick Runs ( Cheapest price )", -- [1]
+			"Mikäsa-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Mikäsa-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2343, -- [11]
+			"Player-1301-0C1CC9C4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Mikäsa|r",
+			[51] = 1654873900,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [82]
+		{
+			"|cffa335ee|Hitem:92426::::::::47:250:::::::::|h[Sealed Tome of the Lost Legion]|h|r", -- [1]
+			"Kött-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Kött-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2607, -- [11]
+			"Player-1301-07ABED4E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Kött|r",
+			[51] = 1654875657,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [83]
+		{
+			"ty bro", -- [1]
+			"Jazros-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Jazros-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2609, -- [11]
+			"Player-1301-0C33CE90", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edJazros|r",
+			[51] = 1654875686,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [84]
+		{
+			"thanks all", -- [1]
+			"Sebakdeg-Ravencrest", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Sebakdeg", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2688, -- [11]
+			"Player-1329-09C6A42A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Sebakdeg-Ravencrest|r",
+			[51] = 1654875986,
+			[50] = "CHAT_MSG_RAID_WARNING",
+		}, -- [85]
+		{
+			"{green} Get your Healthstones! {green}", -- [1]
+			"Kemtic-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kemtic-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1099, -- [11]
+			"Player-3391-0C31EA73", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Kemtic-Silvermoon|r",
+			[51] = 1655315915,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [86]
+		{
+			"{green} Get your Healthstones! {green}", -- [1]
+			"Kemtic-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kemtic-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1102, -- [11]
+			"Player-3391-0C31EA73", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Kemtic-Silvermoon|r",
+			[51] = 1655315918,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [87]
+		{
+			"{circle} Feast up! Get your Buff! {circle}", -- [1]
+			"Kemtic-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kemtic-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1105, -- [11]
+			"Player-3391-0C31EA73", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Kemtic-Silvermoon|r",
+			[51] = 1655315931,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [88]
+		{
+			"123 ", -- [1]
+			"Lollapol-Ravencrest", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lollapol-Ravencrest", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1109, -- [11]
+			"Player-1329-0666B41D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Lollapol-Ravencrest|r",
+			[51] = 1655315947,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [89]
+		{
+			"Sum possible?", -- [1]
+			"Lollapol-Ravencrest", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lollapol-Ravencrest", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1118, -- [11]
+			"Player-1329-0666B41D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Lollapol-Ravencrest|r",
+			[51] = 1655315972,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [90]
+		{
+			"Abgeschlossen Valinor getötet: 1/1", -- [1]
+			"Wildehíldé-Malygos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Wildehíldé-Malygos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1154, -- [11]
+			"Player-1098-0A6916C1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Wildehíldé-Malygos|r",
+			[51] = 1655312448,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [91]
+		{
+			"locks with 110k hp unbuffed jesus christ", -- [1]
+			"Felxprod-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Felxprod-Outland", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1249, -- [11]
+			"Player-1301-0B9B4C9C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Felxprod|r",
+			[51] = 1655316243,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"RSC > Knowféar is casting a Soul Well!", -- [1]
+			"Knowféar-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Knowféar-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1261, -- [11]
+			"Player-3391-0AEFC69C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edKnowféar-Silvermoon|r",
+			[51] = 1655316354,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [93]
+		{
+			"RSC > Drakina-LesClairvoyants is casting a Soul Well!", -- [1]
+			"Knowféar-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Knowféar-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1265, -- [11]
+			"Player-3391-0AEFC69C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edKnowféar-Silvermoon|r",
+			[51] = 1655316362,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [94]
+		{
+			"{rt1} Nammue has prepared a |cff71d5ff|Hspell:29893:482|h[Create Soulwell]|h|r. {rt1}", -- [1]
+			"Nammue-Drak'thul", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nammue-Drak'thul", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1272, -- [11]
+			"Player-1092-0A6286ED", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNammue-Drak'thul|r",
+			[51] = 1655316376,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [95]
+		{
+			"RSC > Nammue-Drak'thul is casting a Soul Well!", -- [1]
+			"Knowféar-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Knowféar-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1281, -- [11]
+			"Player-3391-0AEFC69C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edKnowféar-Silvermoon|r",
+			[51] = 1655316378,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [96]
+		{
+			"Lust Detector: Trapp cast |cff71d5ff|Hspell:80353:0|h[Time Warp]|h|r and increased +30% haste on party!!", -- [1]
+			"Knowféar-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Knowféar-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1289, -- [11]
+			"Player-3391-0AEFC69C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edKnowféar-Silvermoon|r",
+			[51] = 1655316390,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [97]
+		{
+			"RSC > Alphaulfric-Pozzodell'Eternità is casting a Soul Well!", -- [1]
+			"Knowféar-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Knowféar-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1293, -- [11]
+			"Player-3391-0AEFC69C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edKnowféar-Silvermoon|r",
+			[51] = 1655316395,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [98]
+		{
+			"Lust Detector: Janessandre cast |cff71d5ff|Hspell:32182:0|h[Heroism]|h|r and increased +30% haste on party!!", -- [1]
+			"Knowféar-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Knowféar-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1314, -- [11]
+			"Player-3391-0AEFC69C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edKnowféar-Silvermoon|r",
+			[51] = 1655316510,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/1 Famu up", -- [1]
-		"/i kite him", -- [2]
-		"/reload", -- [3]
-		"/cw Tecknitik-Wildhammer it can drop a rare mount", -- [4]
-		"/cw Venaxus-Wildhammer can i have it plz?", -- [5]
-		"/1 Konthrogz up", -- [6]
-		"/i i cant taunt him here", -- [7]
-		"/cw Tecknitik-Wildhammer i usually wait around 20-30min in worst case scenarios", -- [8]
-		"/raid omw", -- [9]
-		"/cw Tecknitik-Wildhammer hi, its a rate called Arachnoid Harvester", -- [10]
-		"/cw Cannabizy-Silvermoon can i have it plz?", -- [11]
-		"/i lol", -- [12]
-		"/inv Baaradir", -- [13]
-		"/inv Fionara", -- [14]
-		"/train", -- [15]
-		"/cat", -- [16]
-		"/cw Boukitos-Drek'Thar inv plz", -- [17]
-		"/p up here", -- [18]
-		"/p ty", -- [19]
-		"/wave", -- [20]
+		"/i i cant taunt him here", -- [1]
+		"/cw Tecknitik-Wildhammer i usually wait around 20-30min in worst case scenarios", -- [2]
+		"/raid omw", -- [3]
+		"/cw Tecknitik-Wildhammer hi, its a rate called Arachnoid Harvester", -- [4]
+		"/cw Cannabizy-Silvermoon can i have it plz?", -- [5]
+		"/i lol", -- [6]
+		"/inv Baaradir", -- [7]
+		"/inv Fionara", -- [8]
+		"/train", -- [9]
+		"/cat", -- [10]
+		"/cw Boukitos-Drek'Thar inv plz", -- [11]
+		"/p up here", -- [12]
+		"/p ty", -- [13]
+		"/wave", -- [14]
+		"/cw Wendia-Ravencrest inv plz", -- [15]
+		"/cw Керберр-Гордунни inv plz", -- [16]
+		"/s ok", -- [17]
+		"/s i will farm some of them downstairs in the meantime", -- [18]
+		"/p cyka blyat?", -- [19]
+		"/p ty im done", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }

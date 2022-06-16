@@ -1813,16 +1813,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tred'ova",
 		},
-		[36731] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-		},
 		[323138] = {
 			["school"] = 32,
 			["token"] = {
@@ -1839,6 +1829,13 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Netherstrand Longbow",
+		},
+		[320365] = {
+			["school"] = 40,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Surgeon Stitchflesh",
 		},
 		[36721] = {
 			["school"] = 4,
@@ -2113,12 +2110,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Devastation",
 		},
-		[320365] = {
-			["school"] = 40,
+		[36731] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Surgeon Stitchflesh",
 		},
 		[338003] = {
 			["school"] = 32,

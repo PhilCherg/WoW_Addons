@@ -86,14 +86,15 @@ Gladius2DB = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
 			["locked"] = true,
-			["x"] = {
-				["arena1"] = 848.4451208426035,
+			["y"] = {
+				["arena1"] = 602.9931360731716,
 			},
 			["announcements"] = {
 				["trinket"] = false,
 			},
-			["y"] = {
-				["arena1"] = 602.9931360731716,
+			["drTrackerAttachTo"] = "Frame",
+			["x"] = {
+				["arena1"] = 848.4451208426035,
 			},
 		},
 		["Tempgoddess - Outland"] = {

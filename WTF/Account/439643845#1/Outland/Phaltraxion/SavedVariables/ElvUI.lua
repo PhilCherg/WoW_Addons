@@ -2,1304 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14369:Player-1301-09D0C889:1:6:8:22:4294967295:4294967295:4294967295:4294967295|h[Plaguefall]|h|r!", -- [1]
-			"Phaltraxion-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Phaltraxion-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			214, -- [11]
-			"Player-1301-09D0C889", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Phaltraxion|r",
-			[51] = 1654636529,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [1]
-		{
-			"thanks all", -- [1]
-			"Kmonanslam-ShatteredHand", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kmonanslam-ShatteredHand", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			224, -- [11]
-			"Player-633-0AC23C87", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcKmonanslam-ShatteredHand|r",
-			[51] = 1654636538,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [2]
-		{
-			"Curse of Obliteration on Galathilion", -- [1]
-			"Galathilion-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Galathilion-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			262, -- [11]
-			"Player-3391-09D7B5CA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edGalathilion-Silvermoon|r",
-			[51] = 1654636706,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [3]
-		{
-			"1", -- [1]
-			"Galathilion-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Galathilion-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			264, -- [11]
-			"Player-3391-09D7B5CA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edGalathilion-Silvermoon|r",
-			[51] = 1654636711,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [4]
-		{
-			"3", -- [1]
-			"Galathilion-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Galathilion-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			267, -- [11]
-			"Player-3391-09D7B5CA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edGalathilion-Silvermoon|r",
-			[51] = 1654636726,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [5]
-		{
-			"2", -- [1]
-			"Galathilion-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Galathilion-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			268, -- [11]
-			"Player-3391-09D7B5CA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edGalathilion-Silvermoon|r",
-			[51] = 1654636727,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [6]
-		{
-			"big pull", -- [1]
-			"Phaltraxion-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Phaltraxion-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			326, -- [11]
-			"Player-1301-09D0C889", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Phaltraxion|r",
-			[51] = 1654637059,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [7]
-		{
-			"run up", -- [1]
-			"Phaltraxion-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Phaltraxion-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			327, -- [11]
-			"Player-1301-09D0C889", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Phaltraxion|r",
-			[51] = 1654637062,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [8]
-		{
-			"nvm we have no dmg", -- [1]
-			"Phaltraxion-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Phaltraxion-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			338, -- [11]
-			"Player-1301-09D0C889", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Phaltraxion|r",
-			[51] = 1654637130,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [9]
-		{
-			"gj", -- [1]
-			"Phaltraxion-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Phaltraxion-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			348, -- [11]
-			"Player-1301-09D0C889", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Phaltraxion|r",
-			[51] = 1654637246,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [10]
-		{
-			"aayy doing the most damage overall and i get kicked while the others are body pulling packs you can walk past #logic", -- [1]
-			"Solarnxs-Sylvanas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Solarnxs-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			357, -- [11]
-			"Player-1597-0F37126E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Solarnxs-Sylvanas|r",
-			[51] = 1654637355,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [11]
-		{
-			"asked?", -- [1]
-			"Solarnxs-Sylvanas", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Solarnxs-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			364, -- [11]
-			"Player-1597-0F37126E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Solarnxs-Sylvanas|r",
-			[51] = 1654637407,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [12]
-		{
-			"Stone Shattering Leap on Galathilion", -- [1]
-			"Galathilion-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Galathilion-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			372, -- [11]
-			"Player-3391-09D7B5CA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edGalathilion-Silvermoon|r",
-			[51] = 1654637444,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [13]
-		{
-			"3", -- [1]
-			"Galathilion-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Galathilion-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			373, -- [11]
-			"Player-3391-09D7B5CA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edGalathilion-Silvermoon|r",
-			[51] = 1654637446,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [14]
-		{
-			"2", -- [1]
-			"Galathilion-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Galathilion-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			374, -- [11]
-			"Player-3391-09D7B5CA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edGalathilion-Silvermoon|r",
-			[51] = 1654637447,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [15]
-		{
-			"1", -- [1]
-			"Galathilion-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Galathilion-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			375, -- [11]
-			"Player-3391-09D7B5CA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edGalathilion-Silvermoon|r",
-			[51] = 1654637448,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [16]
-		{
-			"now we have a mage that deals more dmg, pretty replacable huh xD", -- [1]
-			"Solarnxs-Sylvanas", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Solarnxs-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			383, -- [11]
-			"Player-1597-0F37126E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Solarnxs-Sylvanas|r",
-			[51] = 1654637477,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [17]
-		{
-			"Details!: Overall Damage Done for -- x -- x -- [9:29 EF]", -- [1]
-			"Solarnxs-Sylvanas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Solarnxs-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			397, -- [11]
-			"Player-1597-0F37126E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Solarnxs-Sylvanas|r",
-			[51] = 1654637544,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [18]
-		{
-			"1. Solarnxs ........ 704.4K (1.2k, 38.6%)", -- [1]
-			"Solarnxs-Sylvanas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Solarnxs-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			398, -- [11]
-			"Player-1597-0F37126E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Solarnxs-Sylvanas|r",
-			[51] = 1654637544,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [19]
-		{
-			"2. Zmaú ............ 570.0K (1.0k, 31.2%)", -- [1]
-			"Solarnxs-Sylvanas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Solarnxs-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			399, -- [11]
-			"Player-1597-0F37126E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Solarnxs-Sylvanas|r",
-			[51] = 1654637544,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [20]
-		{
-			"3. Phaltraxion ... 353.3K (621, 19.3%)", -- [1]
-			"Solarnxs-Sylvanas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Solarnxs-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			400, -- [11]
-			"Player-1597-0F37126E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Solarnxs-Sylvanas|r",
-			[51] = 1654637544,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [21]
-		{
-			"4. Galathilion ... 187.1K (328, 10.2%)", -- [1]
-			"Solarnxs-Sylvanas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Solarnxs-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			401, -- [11]
-			"Player-1597-0F37126E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Solarnxs-Sylvanas|r",
-			[51] = 1654637545,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [22]
-		{
-			"5. Rumpelstilz .. 11.4K (20, 0.6%)", -- [1]
-			"Solarnxs-Sylvanas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Solarnxs-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			402, -- [11]
-			"Player-1597-0F37126E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Solarnxs-Sylvanas|r",
-			[51] = 1654637545,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [23]
-		{
-			"sure the lock would be a better trade but whatever", -- [1]
-			"Solarnxs-Sylvanas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Solarnxs-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			406, -- [11]
-			"Player-1597-0F37126E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Solarnxs-Sylvanas|r",
-			[51] = 1654637556,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [24]
-		{
-			":P", -- [1]
-			"Solarnxs-Sylvanas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Solarnxs-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			407, -- [11]
-			"Player-1597-0F37126E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Solarnxs-Sylvanas|r",
-			[51] = 1654637556,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [25]
-		{
-			"he wasnt trolling tho", -- [1]
-			"Solarnxs-Sylvanas", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Solarnxs-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			409, -- [11]
-			"Player-1597-0F37126E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Solarnxs-Sylvanas|r",
-			[51] = 1654637565,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [26]
-		{
-			"you were", -- [1]
-			"Solarnxs-Sylvanas", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Solarnxs-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			410, -- [11]
-			"Player-1597-0F37126E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Solarnxs-Sylvanas|r",
-			[51] = 1654637567,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [27]
-		{
-			"how was I? ", -- [1]
-			"Solarnxs-Sylvanas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Solarnxs-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			412, -- [11]
-			"Player-1597-0F37126E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Solarnxs-Sylvanas|r",
-			[51] = 1654637572,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [28]
-		{
-			"i feigned death once when everyone died and accidentally pulled cuz i moved", -- [1]
-			"Solarnxs-Sylvanas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Solarnxs-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			415, -- [11]
-			"Player-1597-0F37126E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Solarnxs-Sylvanas|r",
-			[51] = 1654637589,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [29]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14370:Player-1301-09D0C889:1:6:8:22:4294967295:4294967295:4294967295:4294967295|h[Halls of Atonement]|h|r!", -- [1]
-			"Phaltraxion-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Phaltraxion-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			443, -- [11]
-			"Player-1301-09D0C889", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Phaltraxion|r",
-			[51] = 1654637720,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [30]
-		{
-			"Do you need |cff0070dd|Hitem:178824::::::::56:268::17:4:7217:6771:6652:7578:2:28:747:9:56:::::|h[Signet of the False Accuser]|h|r?", -- [1]
-			"Voidelaa-Ragnaros", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Voidelaa-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			451, -- [11]
-			"Player-3682-0AF686B2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaVoidelaa-Ragnaros|r",
-			[51] = 1654637725,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [31]
-		{
-			"Do you need |cff0070dd|Hitem:178829::::::::56:268::17:3:7217:6771:6652:2:28:747:9:58:::::|h[Nathrian Ferula]|h|r?", -- [1]
-			"Rumpelstilz-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Rumpelstilz-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			454, -- [11]
-			"Player-3391-0C33CB0B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeRumpelstilz-Silvermoon|r",
-			[51] = 1654637725,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [32]
-		{
-			"yea", -- [1]
-			"Rumpelstilz-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rumpelstilz-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			457, -- [11]
-			"Player-3391-0C33CB0B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeRumpelstilz-Silvermoon|r",
-			[51] = 1654637737,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [33]
-		{
-			"no thanks", -- [1]
-			"Voidelaa-Ragnaros", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Voidelaa-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			458, -- [11]
-			"Player-3682-0AF686B2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaVoidelaa-Ragnaros|r",
-			[51] = 1654637750,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [34]
-		{
-			"can i have plz :D", -- [1]
-			"Voidelaa-Ragnaros", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Voidelaa-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			459, -- [11]
-			"Player-3682-0AF686B2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaVoidelaa-Ragnaros|r",
-			[51] = 1654637764,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [35]
-		{
-			"Do you need |cff0070dd|Hitem:178741::::::::56:268::17:5:7217:8140:6771:6652:7578:2:28:747:9:54:::::|h[Risen Monstrosity Cuffs]|h|r?", -- [1]
-			"Hoobi-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Hoobi-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			560, -- [11]
-			"Player-3391-09EAC091", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Hoobi-Silvermoon|r",
-			[51] = 1654638224,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [36]
-		{
-			"nah", -- [1]
-			"Hoobi-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Hoobi-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			564, -- [11]
-			"Player-3391-09EAC091", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Hoobi-Silvermoon|r",
-			[51] = 1654638248,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [37]
-		{
-			"Throw Cleaver on Matilde", -- [1]
-			"Matilde-TheMaelstrom", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Matilde-TheMaelstrom", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			565, -- [11]
-			"Player-1596-0F369DE5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMatilde-TheMaelstrom|r",
-			[51] = 1654638264,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [38]
-		{
-			"Throw Cleaver on Adoreelune", -- [1]
-			"Adoreelune-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Adoreelune-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			576, -- [11]
-			"Player-3391-0B9EFBC9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Adoreelune-Silvermoon|r",
-			[51] = 1654638282,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [39]
-		{
-			"Throw Cleaver on Mythicfriend", -- [1]
-			"Mythicfriend-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mythicfriend-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			602, -- [11]
-			"Player-3391-0C3664CC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Mythicfriend-Silvermoon|r",
-			[51] = 1654638322,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [40]
-		{
-			"Embalming Ichor on Matilde", -- [1]
-			"Matilde-TheMaelstrom", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Matilde-TheMaelstrom", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			631, -- [11]
-			"Player-1596-0F369DE5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMatilde-TheMaelstrom|r",
-			[51] = 1654638430,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [41]
-		{
-			"Do you need |cff0070dd|Hitem:178744::::::::56:268::1:5:8134:6805:6652:1524:4785:1:28:747:::::|h[Freshly Embalmed Jerkin]|h|r?", -- [1]
-			"Adoreelune-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Adoreelune-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			646, -- [11]
-			"Player-3391-0B9EFBC9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Adoreelune-Silvermoon|r",
-			[51] = 1654638463,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [42]
-		{
-			"Frozen Binds on Adoreelune", -- [1]
-			"Adoreelune-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Adoreelune-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			656, -- [11]
-			"Player-3391-0B9EFBC9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Adoreelune-Silvermoon|r",
-			[51] = 1654638521,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [43]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14366:Player-1301-09D0C889:1:6:8:22:4294967295:4294967295:4294967295:4294967295|h[The Necrotic Wake]|h|r!", -- [1]
-			"Phaltraxion-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Phaltraxion-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			663, -- [11]
-			"Player-1301-09D0C889", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Phaltraxion|r",
-			[51] = 1654638543,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [44]
-		{
-			"TY", -- [1]
-			"Adoreelune-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Adoreelune-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			671, -- [11]
-			"Player-3391-0B9EFBC9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Adoreelune-Silvermoon|r",
-			[51] = 1654638548,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [45]
-		{
-			"ty", -- [1]
-			"Hoobi-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Hoobi-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			673, -- [11]
-			"Player-3391-09EAC091", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Hoobi-Silvermoon|r",
-			[51] = 1654638552,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [46]
-		{
-			"we re in combat", -- [1]
-			"Battlefists-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Battlefists-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			732, -- [11]
-			"Player-3391-0B779CB7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cBattlefists-Silvermoon|r",
-			[51] = 1654638960,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [47]
-		{
-			"para pack inc", -- [1]
-			"Yomì-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Yomì-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			735, -- [11]
-			"Player-3391-0AC0A6BB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Yomì-Silvermoon|r",
-			[51] = 1654638976,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [48]
-		{
-			"Volatile Acid on Morbíd", -- [1]
-			"Morbíd-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Morbíd-Ravencrest", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			832, -- [11]
-			"Player-1329-05B85B81", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMorbíd-Ravencrest|r",
-			[51] = 1654639334,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [49]
-		{
-			"Volatile Acid on Yomì", -- [1]
-			"Yomì-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Yomì-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			882, -- [11]
-			"Player-3391-0AC0A6BB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Yomì-Silvermoon|r",
-			[51] = 1654639405,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [50]
-		{
-			"Volatile Acid on Battlefists", -- [1]
-			"Battlefists-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Battlefists-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			914, -- [11]
-			"Player-3391-0B779CB7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cBattlefists-Silvermoon|r",
-			[51] = 1654639424,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [51]
-		{
-			"Volatile Acid on Morbíd", -- [1]
-			"Morbíd-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Morbíd-Ravencrest", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			925, -- [11]
-			"Player-1329-05B85B81", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMorbíd-Ravencrest|r",
-			[51] = 1654639440,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [52]
-		{
-			"Mind Link on Battlefists", -- [1]
-			"Battlefists-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Battlefists-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			947, -- [11]
-			"Player-3391-0B779CB7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cBattlefists-Silvermoon|r",
-			[51] = 1654639505,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [53]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14371:Player-1301-09D0C889:1:6:8:22:4294967295:4294967295:4294967295:4294967295|h[Mists of Tirna Scithe]|h|r!", -- [1]
-			"Phaltraxion-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Phaltraxion-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			952, -- [11]
-			"Player-1301-09D0C889", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Phaltraxion|r",
-			[51] = 1654639505,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [54]
-		{
-			"3", -- [1]
-			"Namrox-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Namrox-Ravencrest", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1124, -- [11]
-			"Player-1329-0951E098", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNamrox-Ravencrest|r",
-			[51] = 1654640339,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [55]
-		{
-			"2", -- [1]
-			"Namrox-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Namrox-Ravencrest", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1125, -- [11]
-			"Player-1329-0951E098", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNamrox-Ravencrest|r",
-			[51] = 1654640339,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [56]
-		{
-			"1", -- [1]
-			"Namrox-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Namrox-Ravencrest", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1126, -- [11]
-			"Player-1329-0951E098", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNamrox-Ravencrest|r",
-			[51] = 1654640340,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [57]
-		{
-			"Do you need |cff0070dd|Hitem:178934::::::::57:268::17:5:7217:8140:6771:6652:7578:2:28:747:9:56:::::|h[Fastened Venombarb Binds]|h|r?", -- [1]
-			"Cheeto-DefiasBrotherhood", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Cheeto-DefiasBrotherhood", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			1131, -- [11]
-			"Player-1096-06E74F44", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Cheeto-DefiasBrotherhood|r",
-			[51] = 1654640347,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [58]
-		{
-			"yes", -- [1]
-			"Cheeto-DefiasBrotherhood", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Cheeto-DefiasBrotherhood", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1139, -- [11]
-			"Player-1096-06E74F44", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Cheeto-DefiasBrotherhood|r",
-			[51] = 1654640374,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [59]
-		{
 			"Do you need |cff0070dd|Hitem:178769::::::::57:268::17:3:7217:6771:6652:2:28:747:9:58:::::|h[Infinitely Divisible Ooze]|h|r?", -- [1]
 			"Namrox-Ravencrest", -- [2]
 			"Common", -- [3]
@@ -1320,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNamrox-Ravencrest|r",
 			[51] = 1654640508,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [60]
+		}, -- [1]
 		{
 			"Do you need |cff0070dd|Hitem:178755::::::::57:268::17:4:7217:8140:6771:6652:2:28:747:9:57:::::|h[Blighted Margrave's Cloak]|h|r?", -- [1]
 			"Yomì-Silvermoon", -- [2]
@@ -1342,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Yomì-Silvermoon|r",
 			[51] = 1654640509,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [61]
+		}, -- [2]
 		{
 			"Curse of Obliteration on Yomì", -- [1]
 			"Yomì-Silvermoon", -- [2]
@@ -1364,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Yomì-Silvermoon|r",
 			[51] = 1654640921,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [62]
+		}, -- [3]
 		{
 			"3", -- [1]
 			"Yomì-Silvermoon", -- [2]
@@ -1386,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Yomì-Silvermoon|r",
 			[51] = 1654640924,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [63]
+		}, -- [4]
 		{
 			"2", -- [1]
 			"Yomì-Silvermoon", -- [2]
@@ -1408,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Yomì-Silvermoon|r",
 			[51] = 1654640925,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [64]
+		}, -- [5]
 		{
 			"1", -- [1]
 			"Yomì-Silvermoon", -- [2]
@@ -1430,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Yomì-Silvermoon|r",
 			[51] = 1654640926,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [65]
+		}, -- [6]
 		{
 			"3", -- [1]
 			"Yomì-Silvermoon", -- [2]
@@ -1452,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Yomì-Silvermoon|r",
 			[51] = 1654641011,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [66]
+		}, -- [7]
 		{
 			"2", -- [1]
 			"Yomì-Silvermoon", -- [2]
@@ -1474,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Yomì-Silvermoon|r",
 			[51] = 1654641012,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [67]
+		}, -- [8]
 		{
 			"1", -- [1]
 			"Yomì-Silvermoon", -- [2]
@@ -1496,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Yomì-Silvermoon|r",
 			[51] = 1654641013,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [68]
+		}, -- [9]
 		{
 			"3", -- [1]
 			"Yomì-Silvermoon", -- [2]
@@ -1518,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Yomì-Silvermoon|r",
 			[51] = 1654641075,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [69]
+		}, -- [10]
 		{
 			"2", -- [1]
 			"Yomì-Silvermoon", -- [2]
@@ -1540,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Yomì-Silvermoon|r",
 			[51] = 1654641076,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [70]
+		}, -- [11]
 		{
 			"1", -- [1]
 			"Yomì-Silvermoon", -- [2]
@@ -1562,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Yomì-Silvermoon|r",
 			[51] = 1654641077,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [71]
+		}, -- [12]
 		{
 			"3", -- [1]
 			"Yomì-Silvermoon", -- [2]
@@ -1584,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Yomì-Silvermoon|r",
 			[51] = 1654641160,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [72]
+		}, -- [13]
 		{
 			"2", -- [1]
 			"Yomì-Silvermoon", -- [2]
@@ -1606,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Yomì-Silvermoon|r",
 			[51] = 1654641161,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [73]
+		}, -- [14]
 		{
 			"1", -- [1]
 			"Yomì-Silvermoon", -- [2]
@@ -1628,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Yomì-Silvermoon|r",
 			[51] = 1654641162,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [74]
+		}, -- [15]
 		{
 			"Do you need |cff0070dd|Hitem:178827::::::::57:268::17:4:7217:6771:6652:7579:2:28:747:9:58:::::|h[Sin Stained Pendant]|h|r?", -- [1]
 			"Doty-Twilight'sHammer", -- [2]
@@ -1650,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDoty-Twilight'sHammer|r",
 			[51] = 1654641203,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [75]
+		}, -- [16]
 		{
 			"kinda |cff1eff00|Hitem:175741::::::::58:267::11:1:6707:2:9:55:28:1707:::::|h[Gormgris Gorget]|h|r :)", -- [1]
 			"Doty-Twilight'sHammer", -- [2]
@@ -1672,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDoty-Twilight'sHammer|r",
 			[51] = 1654641217,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [76]
+		}, -- [17]
 		{
 			"3", -- [1]
 			"Yomì-Silvermoon", -- [2]
@@ -1694,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Yomì-Silvermoon|r",
 			[51] = 1654641389,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [77]
+		}, -- [18]
 		{
 			"2", -- [1]
 			"Yomì-Silvermoon", -- [2]
@@ -1716,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Yomì-Silvermoon|r",
 			[51] = 1654641390,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [78]
+		}, -- [19]
 		{
 			"1", -- [1]
 			"Yomì-Silvermoon", -- [2]
@@ -1738,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Yomì-Silvermoon|r",
 			[51] = 1654641391,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [79]
+		}, -- [20]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14629:Player-1301-09D0C889:1:6:8:22:4294967295:4294967295:4294967295:4294967295|h[Gaining Respect]|h|r!", -- [1]
 			"Phaltraxion-Outland", -- [2]
@@ -1760,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Phaltraxion|r",
 			[51] = 1654641697,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [80]
+		}, -- [21]
 		{
 			"Good evening :3", -- [1]
 			"Delícat-Sylvanas", -- [2]
@@ -1782,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDelícat-Sylvanas|r",
 			[51] = 1654641787,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [81]
+		}, -- [22]
 		{
 			"anyone got the mists quest ?", -- [1]
 			"Nymrs-Stormscale", -- [2]
@@ -1804,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNymrs-Stormscale|r",
 			[51] = 1654641787,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [82]
+		}, -- [23]
 		{
 			"and good evening :D", -- [1]
 			"Nymrs-Stormscale", -- [2]
@@ -1826,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNymrs-Stormscale|r",
 			[51] = 1654641794,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [83]
+		}, -- [24]
 		{
 			"Interrupted Spirit Bolt on Drust Harvester", -- [1]
 			"Delícat-Sylvanas", -- [2]
@@ -1848,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDelícat-Sylvanas|r",
 			[51] = 1654641824,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [84]
+		}, -- [25]
 		{
 			"Interrupted Harvest Essence on Drust Harvester", -- [1]
 			"Delícat-Sylvanas", -- [2]
@@ -1870,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDelícat-Sylvanas|r",
 			[51] = 1654641854,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [85]
+		}, -- [26]
 		{
 			"Interrupted Bramblethorn Coat on Mistveil Shaper", -- [1]
 			"Delícat-Sylvanas", -- [2]
@@ -1892,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDelícat-Sylvanas|r",
 			[51] = 1654642083,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [86]
+		}, -- [27]
 		{
 			"3", -- [1]
 			"Nymrs-Stormscale", -- [2]
@@ -1914,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNymrs-Stormscale|r",
 			[51] = 1654642083,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [87]
+		}, -- [28]
 		{
 			"2", -- [1]
 			"Nymrs-Stormscale", -- [2]
@@ -1936,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNymrs-Stormscale|r",
 			[51] = 1654642084,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [88]
+		}, -- [29]
 		{
 			"1", -- [1]
 			"Nymrs-Stormscale", -- [2]
@@ -1958,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNymrs-Stormscale|r",
 			[51] = 1654642085,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [89]
+		}, -- [30]
 		{
 			"|cff1eff00|Hitem:182185::::::::54:71:::::::::|h[Shrieker Soul]|h|r", -- [1]
 			"Farjen-ArgentDawn", -- [2]
@@ -1980,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cFarjen-ArgentDawn|r",
 			[51] = 1654642256,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [90]
+		}, -- [31]
 		{
 			"what is it?", -- [1]
 			"Farjen-ArgentDawn", -- [2]
@@ -2002,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cFarjen-ArgentDawn|r",
 			[51] = 1654642260,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [91]
+		}, -- [32]
 		{
 			"a new form for your soulshape ability", -- [1]
 			"Nymrs-Stormscale", -- [2]
@@ -2024,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNymrs-Stormscale|r",
 			[51] = 1654642279,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [92]
+		}, -- [33]
 		{
 			"Volatile Acid on Yolera", -- [1]
 			"Yolera-Outland", -- [2]
@@ -2046,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Yolera|r",
 			[51] = 1654642279,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [93]
+		}, -- [34]
 		{
 			"Volatile Acid on Delícat", -- [1]
 			"Delícat-Sylvanas", -- [2]
@@ -2068,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDelícat-Sylvanas|r",
 			[51] = 1654642280,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [94]
+		}, -- [35]
 		{
 			"its just a skin for your soulshape form xD", -- [1]
 			"Delícat-Sylvanas", -- [2]
@@ -2090,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDelícat-Sylvanas|r",
 			[51] = 1654642280,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [95]
+		}, -- [36]
 		{
 			"nice thanks", -- [1]
 			"Farjen-ArgentDawn", -- [2]
@@ -2112,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cFarjen-ArgentDawn|r",
 			[51] = 1654642287,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [96]
+		}, -- [37]
 		{
 			"Volatile Acid on Nymrs", -- [1]
 			"Nymrs-Stormscale", -- [2]
@@ -2134,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNymrs-Stormscale|r",
 			[51] = 1654642295,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [97]
+		}, -- [38]
 		{
 			"Interrupted Stimulate Resistance on Spinemaw Staghorn", -- [1]
 			"Delícat-Sylvanas", -- [2]
@@ -2156,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDelícat-Sylvanas|r",
 			[51] = 1654642296,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [98]
+		}, -- [39]
 		{
 			"thank you", -- [1]
 			"Delícat-Sylvanas", -- [2]
@@ -2178,29 +880,1327 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDelícat-Sylvanas|r",
 			[51] = 1654642463,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [40]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:1556:Player-1301-09D0C889:1:6:8:22:4294967295:4294967295:4294967295:4294967295|h[25 Fish]|h|r!", -- [1]
+			"Phaltraxion-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phaltraxion-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1371, -- [11]
+			"Player-1301-09D0C889", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Phaltraxion|r",
+			[51] = 1654698881,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [41]
+		{
+			"Snitches get stitches tho, aren't people afraid for their well being?", -- [1]
+			"Vallum-Outland", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vallum-Outland", -- [5]
+			"AFK", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1399, -- [11]
+			"Player-1301-0C365F4C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Vallum|r",
+			[51] = 1654699241,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [42]
+		{
+			"someone has ah mount", -- [1]
+			"Smiilee-Silvermoon", -- [2]
+			"", -- [3]
+			"1. General - Oribos", -- [4]
+			"Smiilee-Silvermoon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Oribos", -- [9]
+			0, -- [10]
+			1413, -- [11]
+			"Player-3391-09CA2470", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Smiilee-Silvermoon|r",
+			[51] = 1654699303,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [43]
+		{
+			"anyone disconnected?", -- [1]
+			"Pashà-Outland", -- [2]
+			"", -- [3]
+			"1. General - Oribos", -- [4]
+			"Pashà-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Oribos", -- [9]
+			0, -- [10]
+			1416, -- [11]
+			"Player-1301-0C223EC2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcPashà|r",
+			[51] = 1654699342,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [44]
+		{
+			"only joel", -- [1]
+			"Mpampinos-Outland", -- [2]
+			"", -- [3]
+			"1. General - Oribos", -- [4]
+			"Mpampinos-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Oribos", -- [9]
+			0, -- [10]
+			1419, -- [11]
+			"Player-1301-0BF9833B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Mpampinos|r",
+			[51] = 1654699349,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [45]
+		{
+			"GZ", -- [1]
+			"Idesphuder-Eonar", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Idesphuder-Eonar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1430, -- [11]
+			"Player-1416-067ED643", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edIdesphuder-Eonar|r",
+			[51] = 1654699389,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [46]
+		{
+			"thx", -- [1]
+			"Kafarixa-BurningLegion", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kafarixa-BurningLegion", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1432, -- [11]
+			"Player-3713-0AC2FC0A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeKafarixa-BurningLegion|r",
+			[51] = 1654699395,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [47]
+		{
+			"epic lvlup indeed", -- [1]
+			"Glycerî-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Glycerî-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1443, -- [11]
+			"Player-3702-091BE4CE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaGlycerî-ArgentDawn|r",
+			[51] = 1654699452,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [48]
+		{
+			"Do you need |cff0070dd|Hitem:178736::::::::58:268::17:4:7217:6771:6652:7579:2:28:747:9:54:::::|h[Stitchflesh's Misplaced Signet]|h|r?", -- [1]
+			"Kafarixa-BurningLegion", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Kafarixa-BurningLegion", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			1471, -- [11]
+			"Player-3713-0AC2FC0A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeKafarixa-BurningLegion|r",
+			[51] = 1654699579,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [49]
+		{
+			"Embalming Ichor on Kafarixa", -- [1]
+			"Kafarixa-BurningLegion", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kafarixa-BurningLegion", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1571, -- [11]
+			"Player-3713-0AC2FC0A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeKafarixa-BurningLegion|r",
+			[51] = 1654700182,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [50]
+		{
+			"Meat Hook on Kafarixa", -- [1]
+			"Kafarixa-BurningLegion", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kafarixa-BurningLegion", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1574, -- [11]
+			"Player-3713-0AC2FC0A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeKafarixa-BurningLegion|r",
+			[51] = 1654700201,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [51]
+		{
+			"3", -- [1]
+			"Kafarixa-BurningLegion", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kafarixa-BurningLegion", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1575, -- [11]
+			"Player-3713-0AC2FC0A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeKafarixa-BurningLegion|r",
+			[51] = 1654700202,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [52]
+		{
+			"2", -- [1]
+			"Kafarixa-BurningLegion", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kafarixa-BurningLegion", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1576, -- [11]
+			"Player-3713-0AC2FC0A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeKafarixa-BurningLegion|r",
+			[51] = 1654700203,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [53]
+		{
+			"1", -- [1]
+			"Kafarixa-BurningLegion", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kafarixa-BurningLegion", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1577, -- [11]
+			"Player-3713-0AC2FC0A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeKafarixa-BurningLegion|r",
+			[51] = 1654700204,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [54]
+		{
+			"Frozen Binds on Kafarixa", -- [1]
+			"Kafarixa-BurningLegion", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kafarixa-BurningLegion", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1595, -- [11]
+			"Player-3713-0AC2FC0A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeKafarixa-BurningLegion|r",
+			[51] = 1654700274,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [55]
+		{
+			"gg", -- [1]
+			"Pupedjon-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Pupedjon-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1607, -- [11]
+			"Player-1301-0C35140C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Pupedjon|r",
+			[51] = 1654700308,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [56]
+		{
+			"thx no :)", -- [1]
+			"Kafarixa-BurningLegion", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kafarixa-BurningLegion", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1623, -- [11]
+			"Player-3713-0AC2FC0A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeKafarixa-BurningLegion|r",
+			[51] = 1654696866,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [57]
+		{
+			"Hello", -- [1]
+			"Revensia-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Revensia-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1670, -- [11]
+			"Player-3391-0C2D6CB0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeRevensia-Silvermoon|r",
+			[51] = 1654702274,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [58]
+		{
+			"tank", -- [1]
+			"Notridofme-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Notridofme-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1671, -- [11]
+			"Player-3391-0B3C0480", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Notridofme-Silvermoon|r",
+			[51] = 1654702274,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [59]
+		{
+			"stay till 60", -- [1]
+			"Notridofme-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Notridofme-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1672, -- [11]
+			"Player-3391-0B3C0480", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Notridofme-Silvermoon|r",
+			[51] = 1654702277,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [60]
+		{
+			"?", -- [1]
+			"Phaltraxion-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phaltraxion-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1673, -- [11]
+			"Player-1301-09D0C889", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Phaltraxion|r",
+			[51] = 1654702294,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [61]
+		{
+			"what?", -- [1]
+			"Phaltraxion-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phaltraxion-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1696, -- [11]
+			"Player-1301-09D0C889", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Phaltraxion|r",
+			[51] = 1654702315,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [62]
+		{
+			"yeah ill help run you to 60 if you want tank :0", -- [1]
+			"Notridofme-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Notridofme-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1720, -- [11]
+			"Player-3391-0B3C0480", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Notridofme-Silvermoon|r",
+			[51] = 1654702396,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [63]
+		{
+			":)", -- [1]
+			"Notridofme-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Notridofme-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1721, -- [11]
+			"Player-3391-0B3C0480", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Notridofme-Silvermoon|r",
+			[51] = 1654702399,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [64]
+		{
+			"sure", -- [1]
+			"Phaltraxion-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phaltraxion-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1725, -- [11]
+			"Player-1301-09D0C889", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Phaltraxion|r",
+			[51] = 1654702402,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [65]
+		{
+			"i need maybe 2 more dungeons max", -- [1]
+			"Phaltraxion-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phaltraxion-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1730, -- [11]
+			"Player-1301-09D0C889", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Phaltraxion|r",
+			[51] = 1654702411,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [66]
+		{
+			"np :)", -- [1]
+			"Notridofme-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Notridofme-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1736, -- [11]
+			"Player-3391-0B3C0480", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Notridofme-Silvermoon|r",
+			[51] = 1654702427,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [67]
+		{
+			"you mind if we keep doing this one?", -- [1]
+			"Phaltraxion-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phaltraxion-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1753, -- [11]
+			"Player-1301-09D0C889", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Phaltraxion|r",
+			[51] = 1654702470,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [68]
+		{
+			"need 20% for the quest to speed things upa", -- [1]
+			"Phaltraxion-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phaltraxion-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1759, -- [11]
+			"Player-1301-09D0C889", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Phaltraxion|r",
+			[51] = 1654702484,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [69]
+		{
+			"sure ", -- [1]
+			"Notridofme-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Notridofme-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1762, -- [11]
+			"Player-3391-0B3C0480", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Notridofme-Silvermoon|r",
+			[51] = 1654702494,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [70]
+		{
+			"great :D", -- [1]
+			"Phaltraxion-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phaltraxion-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1764, -- [11]
+			"Player-1301-09D0C889", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Phaltraxion|r",
+			[51] = 1654702500,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [71]
+		{
+			"Don't we need the random dung thingy for the huge exp bonus?", -- [1]
+			"Revensia-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Revensia-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1769, -- [11]
+			"Player-3391-0C2D6CB0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeRevensia-Silvermoon|r",
+			[51] = 1654702523,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [72]
+		{
+			"idk", -- [1]
+			"Phaltraxion-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phaltraxion-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1771, -- [11]
+			"Player-1301-09D0C889", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Phaltraxion|r",
+			[51] = 1654702533,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [73]
+		{
+			"yeah actually haha ", -- [1]
+			"Notridofme-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Notridofme-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1773, -- [11]
+			"Player-3391-0B3C0480", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Notridofme-Silvermoon|r",
+			[51] = 1654702539,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [74]
+		{
+			"oh well then np", -- [1]
+			"Phaltraxion-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phaltraxion-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1774, -- [11]
+			"Player-1301-09D0C889", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Phaltraxion|r",
+			[51] = 1654702545,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [75]
+		{
+			"lets do randoms", -- [1]
+			"Phaltraxion-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phaltraxion-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1776, -- [11]
+			"Player-1301-09D0C889", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Phaltraxion|r",
+			[51] = 1654702547,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [76]
+		{
+			"As we're below 60 so we only have 4/8 dungeons open for us, so it's still a 25% chance we'll get this one", -- [1]
+			"Revensia-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Revensia-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1784, -- [11]
+			"Player-3391-0C2D6CB0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeRevensia-Silvermoon|r",
+			[51] = 1654702581,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [77]
+		{
+			"yeah", -- [1]
+			"Phaltraxion-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phaltraxion-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1809, -- [11]
+			"Player-1301-09D0C889", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Phaltraxion|r",
+			[51] = 1654702608,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [78]
+		{
+			"Throw Cleaver on Revensia", -- [1]
+			"Revensia-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Revensia-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1821, -- [11]
+			"Player-3391-0C2D6CB0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeRevensia-Silvermoon|r",
+			[51] = 1654702645,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [79]
+		{
+			"Meat Hook on Revensia", -- [1]
+			"Revensia-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Revensia-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1847, -- [11]
+			"Player-3391-0C2D6CB0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeRevensia-Silvermoon|r",
+			[51] = 1654702701,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [80]
+		{
+			"3", -- [1]
+			"Revensia-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Revensia-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1848, -- [11]
+			"Player-3391-0C2D6CB0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeRevensia-Silvermoon|r",
+			[51] = 1654702702,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [81]
+		{
+			"2", -- [1]
+			"Revensia-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Revensia-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1849, -- [11]
+			"Player-3391-0C2D6CB0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeRevensia-Silvermoon|r",
+			[51] = 1654702703,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [82]
+		{
+			"1", -- [1]
+			"Revensia-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Revensia-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1850, -- [11]
+			"Player-3391-0C2D6CB0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeRevensia-Silvermoon|r",
+			[51] = 1654702704,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [83]
+		{
+			"Frozen Binds on Revensia", -- [1]
+			"Revensia-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Revensia-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1873, -- [11]
+			"Player-3391-0C2D6CB0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeRevensia-Silvermoon|r",
+			[51] = 1654702745,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [84]
+		{
+			"np", -- [1]
+			"Notridofme-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Notridofme-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1880, -- [11]
+			"Player-3391-0B3C0480", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Notridofme-Silvermoon|r",
+			[51] = 1654702762,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [85]
+		{
+			"Hello", -- [1]
+			"Revensia-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Revensia-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1892, -- [11]
+			"Player-3391-0C2D6CB0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeRevensia-Silvermoon|r",
+			[51] = 1654702850,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [86]
+		{
+			"heya", -- [1]
+			"Malthayn-Ravencrest", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Malthayn-Ravencrest", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1897, -- [11]
+			"Player-1329-09D13E53", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Malthayn-Ravencrest|r",
+			[51] = 1654702859,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [87]
+		{
+			"Let's cut from the left side next time", -- [1]
+			"Revensia-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Revensia-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1933, -- [11]
+			"Player-3391-0C2D6CB0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeRevensia-Silvermoon|r",
+			[51] = 1654702939,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [88]
+		{
+			"Fuck.", -- [1]
+			"Revensia-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Revensia-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1959, -- [11]
+			"Player-3391-0C2D6CB0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeRevensia-Silvermoon|r",
+			[51] = 1654702995,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [89]
+		{
+			"Ready for raiding I guess", -- [1]
+			"Revensia-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Revensia-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1960, -- [11]
+			"Player-3391-0C2D6CB0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeRevensia-Silvermoon|r",
+			[51] = 1654703001,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [90]
+		{
+			"lol", -- [1]
+			"Notridofme-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Notridofme-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1965, -- [11]
+			"Player-3391-0B3C0480", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Notridofme-Silvermoon|r",
+			[51] = 1654703034,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [91]
+		{
+			"Leap on Revensia", -- [1]
+			"Revensia-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Revensia-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2195, -- [11]
+			"Player-3391-0C2D6CB0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeRevensia-Silvermoon|r",
+			[51] = 1654703644,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [92]
+		{
+			"Haunting Fixation on Revensia", -- [1]
+			"Revensia-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Revensia-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2221, -- [11]
+			"Player-3391-0C2D6CB0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeRevensia-Silvermoon|r",
+			[51] = 1654703716,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [93]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14783:Player-1301-09D0C889:1:6:8:22:4294967295:4294967295:4294967295:4294967295|h[Level 60]|h|r!", -- [1]
+			"Phaltraxion-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phaltraxion-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2246, -- [11]
+			"Player-1301-09D0C889", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Phaltraxion|r",
+			[51] = 1654703775,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [94]
+		{
+			"ty", -- [1]
+			"Phaltraxion-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phaltraxion-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2252, -- [11]
+			"Player-1301-09D0C889", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Phaltraxion|r",
+			[51] = 1654703780,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [95]
+		{
+			"this will be the last for me", -- [1]
+			"Phaltraxion-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phaltraxion-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2253, -- [11]
+			"Player-1301-09D0C889", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Phaltraxion|r",
+			[51] = 1654703784,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [96]
+		{
+			"btw pala", -- [1]
+			"Phaltraxion-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phaltraxion-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2254, -- [11]
+			"Player-1301-09D0C889", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Phaltraxion|r",
+			[51] = 1654703786,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [97]
+		{
+			"you can sign up as tank and still play ret", -- [1]
+			"Phaltraxion-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phaltraxion-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2255, -- [11]
+			"Player-1301-09D0C889", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Phaltraxion|r",
+			[51] = 1654703792,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [98]
+		{
+			"to save time", -- [1]
+			"Phaltraxion-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phaltraxion-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2256, -- [11]
+			"Player-1301-09D0C889", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Phaltraxion|r",
+			[51] = 1654703793,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/s why dafaq do you caarewhat i do", -- [1]
-		"/reload", -- [2]
-		"i utre da mi pomognesh", -- [3]
-		"/s mate", -- [4]
-		"/calendar", -- [5]
-		"/s kys", -- [6]
-		"how about sega da si napravish shita", -- [7]
-		"/spit", -- [8]
-		"/raid keep ressing and running", -- [9]
-		"/raid this is how all groups kill it", -- [10]
-		"/i i overestimated our dps, mb", -- [11]
-		"/i big pull", -- [12]
-		"/i run up", -- [13]
-		"/i nvm we have no dmg", -- [14]
-		"/i gj", -- [15]
-		"/cw Solarnxs-Sylvanas asked?", -- [16]
-		"/cw Solarnxs-Sylvanas now we have a mage that deals more dmg, pretty replacable huh xD", -- [17]
-		"/cw Solarnxs-Sylvanas he wasnt trolling tho", -- [18]
-		"/cw Solarnxs-Sylvanas you were", -- [19]
-		"/cw Voidelaa-Ragnaros can i have plz :D", -- [20]
+		"/cw Solarnxs-Sylvanas now we have a mage that deals more dmg, pretty replacable huh xD", -- [1]
+		"/cw Solarnxs-Sylvanas he wasnt trolling tho", -- [2]
+		"/cw Solarnxs-Sylvanas you were", -- [3]
+		"/cw Voidelaa-Ragnaros can i have plz :D", -- [4]
+		"/s ?", -- [5]
+		"/i what?", -- [6]
+		"/i sure", -- [7]
+		"/i i need maybe 2 more dungeons max", -- [8]
+		"/i you mind if we keep doing this one?", -- [9]
+		"/i need 20% for the quest to speed things upa", -- [10]
+		"/i great :D", -- [11]
+		"/i idk", -- [12]
+		"/i oh well then np", -- [13]
+		"/i lets do randoms", -- [14]
+		"/i yeah", -- [15]
+		"/i ty", -- [16]
+		"/i this will be the last for me", -- [17]
+		"/i btw pala", -- [18]
+		"/i you can sign up as tank and still play ret", -- [19]
+		"/i to save time", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }

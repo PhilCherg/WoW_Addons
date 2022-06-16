@@ -1823,13 +1823,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Bloodwarder Marshal",
 		},
-		[320365] = {
-			["school"] = 40,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Surgeon Stitchflesh",
-		},
 		[36731] = {
 			["school"] = 4,
 			["type"] = "DEBUFF",
@@ -1847,6 +1840,13 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Ingra Maloch",
+		},
+		[320365] = {
+			["school"] = 40,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Surgeon Stitchflesh",
 		},
 		[36980] = {
 			["school"] = 1,

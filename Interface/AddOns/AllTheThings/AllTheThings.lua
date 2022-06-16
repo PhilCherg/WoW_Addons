@@ -2426,6 +2426,11 @@ local PrintQuestInfo = function(questID, new, info)
 		end
 		local chatMsg;
 		if not questRef or GetRelativeField(questRef, "text", L["UNSORTED_1"]) then
+			-- Play a sound when a reportable error is found, if any sound setting is enabled
+			if app.Settings:GetTooltipSetting("Warn:Removed")
+			or app.Settings:GetTooltipSetting("Celebrate") then
+				app:PlayAudio(app.Settings.AUDIO_REMOVE_TABLE, "Removed");
+			end
 			-- Linkify the output
 			local popupID = "quest-" .. questID .. questChange;
 			chatMsg = app:Linkify(questID .. " (Not in ATT " .. app.Version .. ")", app.Colors.ChatLinkError, "dialog:" .. popupID);
@@ -2435,6 +2440,11 @@ local PrintQuestInfo = function(questID, new, info)
 		else
 			-- give a chat output if the user has just interacted with a quest flagged as NYI
 			if GetRelativeField(questRef, "text", L["NEVER_IMPLEMENTED"]) then
+				-- Play a sound when a reportable error is found, if any sound setting is enabled
+				if app.Settings:GetTooltipSetting("Warn:Removed")
+				or app.Settings:GetTooltipSetting("Celebrate") then
+					app:PlayAudio(app.Settings.AUDIO_REMOVE_TABLE, "Removed");
+				end
 				-- Linkify the output
 				local popupID = "quest-" .. questID .. questChange;
 				chatMsg = app:Linkify(questID .. " [NYI] ATT " .. app.Version, app.Colors.ChatLinkError, "dialog:" .. popupID);
@@ -2463,6 +2473,7 @@ local PrintQuestInfo = function(questID, new, info)
 end
 local DirtyQuests = {};
 local CompletedQuests = setmetatable({}, {__newindex = function (t, key, value)
+	key = tonumber(key);
 	local total = rawget(t, "_TOTAL") or 0;
 	if value then
 		if not rawget(t, key) then
@@ -2476,6 +2487,7 @@ local CompletedQuests = setmetatable({}, {__newindex = function (t, key, value)
 		PrintQuestInfo(key);
 	elseif value == false then
 		rawset(t, "_TOTAL", total - 1);
+		rawset(DirtyQuests, key, true);
 		rawset(DirtyQuests, "DIRTY", true);
 		-- no need to actually set the key in the table since it's been marked as incomplete
 		-- and this meta function only triggers on NEW key assignments
@@ -4729,7 +4741,7 @@ app.SetSkipPurchases = function(level)
 	app.SkipPurchases[-1] = level;
 end
 -- Determines searches required for costs using this group
-local function DeterminePurchaseGroups(group)
+local function DeterminePurchaseGroups(group, depth)
 	-- do not fill purchases on certain items, can skip the skip though based on a level
 	local itemID = group.itemID;
 	local reqSkipLevel = itemID and app.SkipPurchases[itemID];
@@ -4743,15 +4755,21 @@ local function DeterminePurchaseGroups(group)
 		-- app.PrintDebug("DeterminePurchaseGroups",group.hash,"-collectibles",collectibles and #collectibles);
 		local groups = {};
 		local groupHash = group.hash;
-		local clone, hash;
+		local clone, hash, includeDepth;
 		for _,o in ipairs(collectibles) do
 			hash = o.hash;
-			-- don't add copies of this group if it matches the 'cost' group, or has already been used
-			if hash ~= groupHash and not included[hash] then
-				clone = CreateObject(o);
-				-- this logic shows the previous 'currency' icon next to Things which are nested as a cost... maybe too cluttered
-				-- clone.indicatorIcon = "Interface_Vendor";
-				tinsert(groups, clone);
+			-- don't add copies of this group if it matches the 'cost' group, or has already been added at a lower depth
+			-- technically this allows something to become nested at a high depth, and then multiple times at lower depths...
+			-- but hopefully that's ok and is a bit better for visibility than to exclude things
+			if hash ~= groupHash then
+				includeDepth = included[hash];
+				if not includeDepth or includeDepth >= depth then
+					included[hash] = depth;
+					clone = CreateObject(o);
+					-- this logic shows the previous 'currency' icon next to Things which are nested as a cost... maybe too cluttered
+					-- clone.indicatorIcon = "Interface_Vendor";
+					tinsert(groups, clone);
+				end
 			end
 		end
 		-- app.PrintDebug("DeterminePurchaseGroups",group.hash,"-final",groups and #groups);
@@ -4814,7 +4832,9 @@ local function DetermineCraftedGroups(group)
 	local groups = {};
 	local search;
 	for craftedItemID,_ in pairs(craftableItemIDs) do
+		-- never include crafted multiple times
 		if not included[craftedItemID] then
+			included[craftedItemID] = true;
 			-- Searches for a filter-matched crafted Item
 			search = app.SearchForObject("itemID",craftedItemID);
 			if search then
@@ -4847,29 +4867,14 @@ local function FillGroupsRecursive(group, depth)
 		if parent and parent.questID and parent.saved then return; end
 	end
 
+	-- increment depth if things are being nested
+	depth = (depth or 0) + 1;
 	local groups;
 	-- Determine Cost/Crafted/Symlink groups
 	groups = app.ArrayAppend(groups,
-		DeterminePurchaseGroups(group),
+		DeterminePurchaseGroups(group, depth),
 		DetermineCraftedGroups(group),
 		DetermineSymlinkGroups(group));
-
-	-- Prevent repeated nesting of anything dynamically nested
-	if groups then
-		-- increment depth if things are being nested
-		depth = (depth or 0) + 1;
-		-- block crafted items or currencies always, but allow other types to duplicate a few levels
-		if depth >= DuplicatePreventionLevel or group.currencyID then
-			for _,o in ipairs(groups) do
-				included[o.hash or ""] = depth;
-				included[o.itemID or 0] = depth;
-			end
-		else
-			for _,o in ipairs(groups) do
-				included[o.itemID or 0] = depth;
-			end
-		end
-	end
 
 	-- app.PrintDebug("MergeResults",group.hash,groups and #groups)
 	-- Adding the groups normally based on available-source priority
@@ -5635,8 +5640,9 @@ fieldConverters = {
 		if group.filterID == 102 or group.isToy then CacheField(group, "toyID", value); end
 		if not raw then
 			-- only cache the modItemID if it is not the same as the itemID
-			if (group.modItemID or value) ~= value then
-				CacheField(group, "itemID", group.modItemID);
+			local modItemID = group.modItemID;
+			if (modItemID or value) ~= value then
+				CacheField(group, "itemID", modItemID);
 			end
 		end
 		-- always cache the plain ItemID as a fallback for items which generate in-game with unaccounted-for modIDs (M+, etc.)
@@ -5881,26 +5887,31 @@ app.SearchForField = SearchForField;
 app.SearchForObject = function(field, id)
 	local fcache = SearchForField(field, id);
 	if fcache then
+		local count = #fcache;
+		-- quick escape for single cache results! hooray!
+		if count == 1 then
+			return fcache[1];
+		end
 		-- find a filter-match object first
-		local fcacheObj, keyMatch, fieldMatch, match, inFilter;
-		for i=1,#fcache,1 do
+		local fcacheObj, keyMatch, fieldMatch, match;
+		local Filter = app.RecursiveGroupRequirementsFilter;
+		for i=1,count,1 do
 			fcacheObj = fcache[i];
-			inFilter = app.RecursiveGroupRequirementsFilter(fcacheObj);
 			-- field matching id
 			if fcacheObj[field] == id then
 				if fcacheObj.key == field then
 					-- with keyed-field matching key & current filters
-					if inFilter then
+					if Filter(fcacheObj) then
 						return fcacheObj;
 					end
-					keyMatch = inFilter and fcacheObj or keyMatch or fcacheObj;
+					keyMatch = keyMatch or fcacheObj;
 				else
 					-- with field matching id
-					fieldMatch = inFilter and fcacheObj or fieldMatch or fcacheObj;
+					fieldMatch = fieldMatch or fcacheObj;
 				end
 			-- basic group related to search
 			else
-				match = inFilter and fcacheObj or match or fcacheObj;
+				match = match or fcacheObj;
 			end
 		end
 		-- otherwise just find the first matching object
@@ -6047,37 +6058,15 @@ local function SearchForMissingItemNames(group)
 	return arr;
 end
 -- Dynamically increments the progress for the parent heirarchy of each collectible search result
-local function UpdateSearchResults(searchResults, verifyCollectible)
-	-- print("UpdateSearchResults",searchResults and #searchResults,verifyCollectible)
+local function UpdateSearchResults(searchResults)
+	-- print("UpdateSearchResults",searchResults and #searchResults)
 	if searchResults then
 		-- Ad-hoc update system only needs to pass along updates to the results if the Main list is open
 		-- otherwise it only needs to refresh windows
 		if not app.Settings:GetTooltipSetting("Updates:AdHoc") or app:GetWindow("Prime"):IsVisible() then
-			-- Mark all results as marked. This prevents a double +1 on parents.
-			for i,result in ipairs(searchResults) do
-				-- print("result",result.text,result.visible,result.parent and result.parent.total)
-				if result.visible and result.parent and result.parent.total then
-					if not verifyCollectible or result.collectible then
-						-- print(".marked",result.text,verifyCollectible)
-						result.marked = true;
-					end
-				end
-			end
-
-			-- Only unmark and +1 marked search results.
-			for i,result in ipairs(searchResults) do
-				if result.marked then
-					result.marked = nil;
-					-- Every result has a total/progress now
-					-- print("Update self+parent",result.text,"=>",result.parent.text)
-					app.UpdateParentProgress(result, 1);
-					-- This is an item that has a relative set of groups
-					if result.g then
-						app.SetGroupVisibility(result.parent, result);
-					else
-						app.SetThingVisibility(result.parent, result);
-					end
-				end
+			local Update = app.DirectGroupUpdate;
+			for _,result in ipairs(searchResults) do
+				Update(result);
 			end
 		end
 
@@ -7339,6 +7328,7 @@ local ObjectFunctions = {
 		return t.name and app.TryColorizeName(t, t.name) or t.link;
 	end,
 };
+local objFunc;
 -- Creates a Base Object Table which will evaluate the provided set of 'fields' (each field value being a keyed function)
 app.BaseObjectFields = not app.__perf and function(fields, type)
 	-- if not type then app.PrintTable(fields); app.report("Every Object requires a Type!"); end
@@ -7346,8 +7336,8 @@ app.BaseObjectFields = not app.__perf and function(fields, type)
 
 	fields.__type = function() return type; end;
 	fields.__index = function(t, key)
-		_cache = rawget(fields, key) or rawget(ObjectFunctions, key);
-		if _cache then return _cache(t); end
+		objFunc = rawget(fields, key) or rawget(ObjectFunctions, key);
+		if objFunc then return objFunc(t); end
 		-- use default key value if existing
 		return rawget(ObjectDefaults, key);
 	end;
@@ -7368,11 +7358,13 @@ function(fields, type)
 	fields.__index = function(t, key)
 		local typeData, result = rawget(app.__perf, type);
 		local now = GetTimePreciseSec();
-		_cache = rawget(fields, key) or rawget(ObjectFunctions, key);
-		if _cache then
-			result = _cache(t);
+		objFunc = rawget(fields, key) or rawget(ObjectFunctions, key);
+		if objFunc then
+			result = objFunc(t);
+			key = tostring(key);
 		else
 			result = rawget(ObjectDefaults, key);
+			key = tostring(key).."_miss";
 		end
 		if typeData then
 			rawset(typeData, key, (rawget(typeData, key) or 0) + 1);
@@ -8133,6 +8125,11 @@ app.TryPopulateQuestRewards = function(questObject)
 					tinsert(nonItemNested, data);
 				end
 			end
+			-- Everything retrieved from API should not be related to another sourceParent
+			-- i.e. Threads of Fate Quest rewards which show up later under regular World Quests
+			for _,item in pairs(apiItems) do
+				item.sourceParent = nil;
+			end
 			NestObjects(questObject, nonItemNested, true);
 		end
 
@@ -8268,20 +8265,6 @@ local CustomCollectQuests = {
 	[65078] = 1,	-- Shadowlands - Covenant - Night Fae
 	[65079] = 1,	-- Shadowlands - Covenant - Necrolord
 };
-local QuestCompletionHelper = function(questID)
-	if questID then
-		-- Only increase progress for Quests as Collectible users.
-		if app.CollectibleQuests or app.CollectibleQuestsLocked then
-			-- Search ATT for the related quests.
-			local searchResults = SearchForField("questID", questID);
-			UpdateSearchResults(searchResults, true);
-		end
-		-- Certain quests being completed should trigger a refresh of the Custom Collect status of the character (i.e. Covenant Switches, Threads of Fate, etc.)
-		if CustomCollectQuests[questID] then
-			Callback(app.RefreshCustomCollectibility);
-		end
-	end
-end
 local function RefreshQuestCompletionState(questID)
 	-- print("QuestRefresh",questID)
 	if questID then
@@ -8290,12 +8273,17 @@ local function RefreshQuestCompletionState(questID)
 		QueryCompletedQuests();
 	end
 
-	for questID,_ in pairs(DirtyQuests) do
-		QuestCompletionHelper(tonumber(questID));
-	end
-	-- soft update if any quests were even completed to ensure visible changes occur
+	-- update if any quests were even completed to ensure visible changes occur
 	if DirtyQuests.DIRTY then
-		app:UpdateWindows();
+		local updateQuests = {};
+		for questID,_ in pairs(DirtyQuests) do
+			tinsert(updateQuests, questID);
+			-- Certain quests being completed should trigger a refresh of the Custom Collect status of the character (i.e. Covenant Switches, Threads of Fate, etc.)
+			if CustomCollectQuests[questID] then
+				Callback(app.RefreshCustomCollectibility);
+			end
+		end
+		UpdateRawIDs("questID", updateQuests);
 	end
 	-- re-register the criteria update event
 	app:RegisterEvent("CRITERIA_UPDATE");
@@ -8651,10 +8639,12 @@ local criteriaFields = {
 		if app.AccountWideAchievements then
 			local achievementID = t.achievementID;
 			-- cached account-wide credit, or API account-wide credit
-			if ATTAccountWideData.Achievements[achievementID] then return 2; end
-			local acctApiCredit = select(4, GetAchievementInfo(achievementID));
-			if acctApiCredit then
-				return 2;
+			if achievementID then
+				if ATTAccountWideData.Achievements[achievementID] then return 2; end
+				local acctApiCredit = select(4, GetAchievementInfo(achievementID));
+				if acctApiCredit then
+					return 2;
+				end
 			end
 		end
 	end,
@@ -9276,18 +9266,17 @@ app.events.PET_JOURNAL_PET_DELETED = function(petID)
 	-- print("PET_JOURNAL_PET_DELETED", petID,C_PetJournal.GetPetInfoByPetID(petID));
 
 	-- Check against all of the collected species for a species that is no longer 1/X
-	local atLeastOne = false;
-	for speciesID,collected in pairs(CollectedSpeciesHelper) do
+	local missing = {};
+	for speciesID,_ in pairs(CollectedSpeciesHelper) do
 		if C_PetJournal_GetNumCollectedInfo(speciesID) < 1 then
 			rawset(CollectedSpeciesHelper, speciesID, nil);
-			atLeastOne = true;
+			tinsert(missing, speciesID);
 		end
 	end
-	if atLeastOne then
+	if #missing > 0 then
 		app:PlayRemoveSound();
-		app:RefreshData(false, true);
-		-- wipe(searchCache); -- handled by refresh data
 	end
+	UpdateRawIDs("speciesID", missing);
 end
 
 local fields = {
@@ -9706,6 +9695,7 @@ local fields = {
 	["icon"] = function(t)
 		return app.DifficultyIcons[t.difficultyID];
 	end,
+	["trackable"] = app.ReturnTrue,
 	["saved"] = function(t)
 		return t.locks;
 	end,
@@ -10909,6 +10899,7 @@ local fields = {
 			return 1;
 		end
 	end,
+	["trackable"] = app.ReturnTrue,
 	["saved"] = function(t)
 		return t.locks;
 	end,
@@ -11917,6 +11908,34 @@ app.ImportRawLink = function(group, rawlink)
 		end
 	end
 end
+-- Adds necessary SourceID information for Item data into the Harvest variable
+app.SaveHarvestSource = function(data)
+	local s, itemID = data.s, data.itemID;
+	if s and itemID then
+		local item = AllTheThingsHarvestItems[itemID];
+		if not item then
+			item = {};
+			-- print("NEW SOURCE ID!",data.text,s,itemID);
+			AllTheThingsHarvestItems[itemID] = item;
+		end
+		local bonusID = data.bonusID;
+		if bonusID then
+			local bonuses = item.bonuses;
+			if not bonuses then
+				bonuses = {};
+				item.bonuses = bonuses;
+			end
+			bonuses[bonusID] = s;
+		else
+			local mods = item.mods;
+			if not mods then
+				mods = {};
+				item.mods = mods;
+			end
+			mods[data.modID or 0] = s;
+		end
+	end
+end
 -- Refines a set of items down to the most-accurate matches to the provided modItemID
 -- The sets of items will be returned based on their respective match depth to the given modItemID
 -- Ex: { [1] = { { ItemID }, { ItemID2 } }, [2] = { { ModID } }, [3] = { { BonusID } } }
@@ -12921,7 +12940,16 @@ end)();
 
 -- Spell Lib
 (function()
-local GetSpellInfo, GetSpellLink, IsSpellKnown, GetNumSpellTabs, GetSpellTabInfo = GetSpellInfo, GetSpellLink, IsSpellKnown, GetNumSpellTabs, GetSpellTabInfo
+local GetSpellInfo, GetSpellLink, IsSpellKnown, IsPlayerSpell, GetNumSpellTabs, GetSpellTabInfo =
+	  GetSpellInfo, GetSpellLink, IsSpellKnown, IsPlayerSpell, GetNumSpellTabs, GetSpellTabInfo
+
+-- Consolidates some spell checking since
+local IsSpellKnownHelper = function(spellID, rank, ignoreHigherRanks)
+    if IsPlayerSpell(spellID) or IsSpellKnown(spellID) or IsSpellKnown(spellID, true)
+        or IsSpellKnownOrOverridesKnown(spellID) or IsSpellKnownOrOverridesKnown(spellID, true) then
+        return true;
+    end
+end
 
 local SpellIDToSpellName = {};
 local SpellNameToSpellID;
@@ -13022,22 +13050,18 @@ local fields = {
 	end,
 	["trackable"] = app.ReturnTrue,
 	["saved"] = function(t)
-		if app.CurrentCharacter.Spells[t.spellID] then return true; end
-		if IsSpellKnown(t.spellID) then
-			app.CurrentCharacter.Spells[t.spellID] = 1;
-			ATTAccountWideData.Spells[t.spellID] = 1;
+		local spellID = t.spellID;
+		if app.CurrentCharacter.Spells[spellID] then return true; end
+		if IsSpellKnownHelper(spellID) then
+			app.CurrentCharacter.Spells[spellID] = 1;
+			ATTAccountWideData.Spells[spellID] = 1;
 			return true;
 		end
 	end,
 	["collectible"] = app.ReturnFalse,
 	["collected"] = function(t)
-		if app.CurrentCharacter.Spells[t.spellID] then return 1; end
+		if t.saved then return 1; end
 		if app.AccountWideRecipes and ATTAccountWideData.Spells[t.spellID] then return 2; end
-		if IsSpellKnown(t.spellID) then
-			app.CurrentCharacter.Spells[t.spellID] = 1;
-			ATTAccountWideData.Spells[t.spellID] = 1;
-			return 1;
-		end
 	end,
 	["specs"] = function(t)
 		if t.itemID then
@@ -13067,13 +13091,8 @@ local recipeFields = RawCloneData(fields, {
 		return app.CollectibleRecipes;
 	end,
 	["collected"] = function(t)
-		if app.CurrentCharacter.Spells[t.spellID] then return 1; end
+		if t.saved then return 1; end
 		if app.AccountWideRecipes and ATTAccountWideData.Spells[t.spellID] then return 2; end
-		if IsSpellKnown(t.spellID) then
-			app.CurrentCharacter.Spells[t.spellID] = 1;
-			ATTAccountWideData.Spells[t.spellID] = 1;
-			return 1;
-		end
 	end,
 	["b"] = function(t)
 		-- If not tracking Recipes Account-Wide, then pretend that every Recipe is BoP
@@ -13871,11 +13890,7 @@ end
 -- Specify 'followSource' to prioritize the Source Parent of a group over the direct Parent
 app.RecursiveFirstParentWithField = function(group, field, followSource)
 	if group then
-		if group[field] then
-			return group[field];
-		else
-			return app.RecursiveFirstParentWithField(followSource and group.sourceParent or group.parent, field);
-		end
+		return group[field] or app.RecursiveFirstParentWithField(followSource and group.sourceParent or group.parent, field);
 	end
 end
 -- Returns the first found recursive Parent of the group which meets the provided field and value combination
@@ -13906,12 +13921,13 @@ end
 -- Processing Functions
 local function SetGroupVisibility(parent, group)
 	-- if app.DEBUG_PRINT then print("SetGroupVisibility",group.key,group[group.key]) end
+	local forceShowParent;
 	-- If this group is forced to be shown due to contained groups being shown
 	if group.forceShow then
 		group.visible = true;
 		group.forceShow = nil;
 		-- Continue the forceShow visibility outward
-		parent.forceShow = true;
+		forceShowParent = true;
 		-- if app.DEBUG_PRINT then print("SetGroupVisibility.forceShow",group.progress,group.total,group.visible) end
 	-- If this group contains Things, show based on visibility filter
 	elseif group.total > 0 then
@@ -13920,20 +13936,24 @@ local function SetGroupVisibility(parent, group)
 		-- The group can still be trackable even if it isn't visible due to the total
 		if not group.visible and app.ShowTrackableThings(group) then
 			group.visible = not group.saved or app.GroupVisibilityFilter(group);
-			parent.forceShow = group.visible or parent.forceShow;
+			forceShowParent = group.visible;
 		end
 	-- If this group is trackable, then we should show it.
 	elseif app.ShowTrackableThings(group) then
 		group.visible = not group.saved or app.GroupVisibilityFilter(group);
-		parent.forceShow = group.visible or parent.forceShow;
+		forceShowParent = group.visible;
 		-- if app.DEBUG_PRINT then print("SetGroupVisibility.trackable",group.progress,group.total,group.visible) end
 	else
 		group.visible = app.DefaultGroupFilter();
 		-- if app.DEBUG_PRINT then print("SetGroupVisibility.default",group.progress,group.total,group.visible) end
 	end
+	if parent and forceShowParent then
+		parent.forceShow = forceShowParent;
+	end
 end
 local function SetThingVisibility(parent, group)
 	-- if app.DEBUG_PRINT then print("SetThingVisibility",group.key,group[group.key]) end
+	local forceShowParent;
 	if group.total > 0 then
 		-- If we've collected the item, use the "Show Collected Items" filter.
 		group.visible = group.progress < group.total or app.CollectedItemVisibilityFilter(group);
@@ -13941,15 +13961,18 @@ local function SetThingVisibility(parent, group)
 	elseif app.ShowTrackableThings(group) then
 		-- If this group is trackable, then we should show it.
 		group.visible = not group.saved or app.CollectedItemVisibilityFilter(group);
-		parent.forceShow = group.visible or parent.forceShow;
+		forceShowParent = group.visible;
 		-- if app.DEBUG_PRINT then print("SetThingVisibility.trackable",group.progress,group.total,group.visible) end
 	else
 		group.visible = app.DefaultThingFilter();
 		-- if app.DEBUG_PRINT then print("SetThingVisibility.default",group.progress,group.total,group.visible) end
 	end
+	if parent and forceShowParent then
+		parent.forceShow = forceShowParent;
+	end
 end
-local UpdateGroup, UpdateGroups;
-UpdateGroup = function(parent, group, window)
+local UpdateGroups;
+local function UpdateGroup(parent, group, window)
 	-- if group.key == "runeforgePowerID" and group[group.key] == 134 then app.DEBUG_PRINT = 134; end
 	-- if not app.DEBUG_PRINT and shouldLog then
 	-- 	app.DEBUG_PRINT = shouldLog;
@@ -14062,6 +14085,22 @@ UpdateGroups = function(parent, g, window)
 		end
 	end
 end
+-- Adjusts the progress/total of the group's parent chain
+local function AdjustParentProgress(group, progChange, totalChange)
+	-- rawget, .parent will default to sourceParent in some cases
+	local parent = group and not group.sourceIgnored and rawget(group, "parent");
+	if parent then
+		-- app.PrintDebug("APP:",parent.text)
+		-- app.PrintDebug("CUR:",parent.progress,parent.total)
+		-- app.PrintDebug("CHG:",progChange,totalChange)
+		parent.total = (parent.total or 0) + totalChange;
+		parent.progress = (parent.progress or 0) + progChange;
+		-- app.PrintDebug("END:",parent.progress,parent.total)
+		-- verify visibility of the group, always a 'group' since it is already a parent of another group
+		SetGroupVisibility(rawget(parent, "parent"), parent);
+		AdjustParentProgress(parent, progChange, totalChange);
+	end
+end
 local function UpdateParentProgress(group, change)
 	change = change or 1;
 	group.progress = group.progress + change;
@@ -14104,6 +14143,48 @@ local function TopLevelUpdateGroup(group, window)
 	if group.OnUpdate then group.OnUpdate(group); end
 end
 app.TopLevelUpdateGroup = TopLevelUpdateGroup;
+-- For directly applying the full Update operation at the specified group, and propagating the difference upwards in the parent hierarchy
+local function DirectGroupUpdate(group)
+	-- starting an update from a non-top-level group means we need to verify this group should even handle updates based on current filters first
+	local parent = rawget(group, "parent");
+	if parent and not app.RecursiveGroupRequirementsFilter(group) then
+		-- app.PrintDebug("DGU:Filtered",group.text,group.parent.text)
+		return;
+	end
+	local prevTotal, prevProg = group.total or 0, group.progress or 0;
+	group.total = 0;
+	group.progress = 0;
+	local ItemBindFilter = app.ItemBindFilter;
+	if ItemBindFilter ~= app.NoFilter and ItemBindFilter(group) then
+		app.ItemBindFilter = app.NoFilter;
+		UpdateGroups(group, group.g, window);
+		-- reapply the previous BoE filter
+		app.ItemBindFilter = ItemBindFilter;
+	else
+		UpdateGroups(group, group.g, window);
+	end
+	if group.collectible then
+		group.total = group.total + 1;
+		if group.collected then
+			group.progress = group.progress + 1;
+		end
+	end
+	if group.OnUpdate then group.OnUpdate(group); end
+	if parent then
+		if group.g then
+			SetGroupVisibility(parent, group);
+		else
+			SetThingVisibility(parent, group);
+		end
+	end
+	local progChange, totalChange = group.progress - prevProg, group.total - prevTotal;
+	-- Something to change
+	if progChange ~= 0 or totalChange ~= 0 then
+		AdjustParentProgress(group, progChange, totalChange);
+	end
+	-- app.PrintDebug("DGU:",group.text,window and window.Suffix,progChange,totalChange)
+end
+app.DirectGroupUpdate = DirectGroupUpdate;
 
 -- Helper Methods
 -- The following Helper Methods are used when you obtain a new appearance.
@@ -14383,7 +14464,7 @@ local function SetCustomCollectibility(key, func)
 	-- print("SetCustomCollectibility",key);
 	local result = func();
 	if result ~= nil then
-		-- print("saved",result);
+		-- app.PrintDebug("SetCustomCollectibility",key,result);
 		app.CurrentCharacter.CustomCollects[key] = result;
 	else
 		-- failed attempt to set the CC, try next frame
@@ -14756,6 +14837,8 @@ function app:CreateMiniListForGroup(group)
 			-- source without an item, try to generate the valid item link for it
 			if not group.itemID then
 				app.ImportRawLink(group, app.DetermineItemLink(group.s));
+				-- if we found a Item link, save it into ATTHarvestItems for ease of use (don't need to add Item, parse, Havrest, add harvest, parse)
+				app.SaveHarvestSource(group);
 			end
 			-- Attempt to get information about the source ID.
 			local sourceInfo = C_TransmogCollection_GetSourceInfo(group.s);
@@ -15183,27 +15266,7 @@ local function SetRowData(self, row, data)
 						artifact[data.isOffHand and 1 or 2] = s;
 						AllTheThingsArtifactsItems[data.artifactID] = artifact;
 					else
-						local item = AllTheThingsHarvestItems[data.itemID];
-						if not item then
-							item = {};
-						end
-						if data.bonusID then
-							local bonuses = item.bonuses;
-							if not bonuses then
-								bonuses = {};
-								item.bonuses = bonuses;
-							end
-							bonuses[data.bonusID] = s;
-						else
-							local mods = item.mods;
-							if not mods then
-								mods = {};
-								item.mods = mods;
-							end
-							mods[data.modID or 0] = s;
-						end
-						-- print("NEW SOURCE ID!",text,s);
-						AllTheThingsHarvestItems[data.itemID] = item;
+						app.SaveHarvestSource(data);
 					end
 				end
 			elseif success then
@@ -16746,6 +16809,20 @@ local function UpdateWindow(self, force, got)
 		end
 	end
 end
+-- Allows a Window to set the root data object to itself and link the Window to the root data
+local function SetData(self, data)
+	-- app.PrintDebug("Window:SetData",self.Suffix,data.text)
+	data.window = self;
+	self.data = data;
+end
+-- Allows a Window to build the groups hierarcy if it has .data
+local function BuildData(self)
+	local data = self.data;
+	if data then
+		-- app.PrintDebug("Window:BuildData",self.Suffix,data.text)
+		BuildGroups(data, data.g);
+	end
+end
 local backdrop = {
 	bgFile = "Interface/Tooltips/UI-Tooltip-Background",
 	edgeFile = "Interface/Tooltips/UI-Tooltip-Border",
@@ -16774,6 +16851,8 @@ function app:GetWindow(suffix, parent, onUpdate)
 		window.Update = onUpdate or app:CustomWindowUpdate(suffix) or UpdateWindow;
 		window.SetVisible = SetVisible;
 		window.StorePosition = StoreWindowPosition;
+		window.SetData = SetData;
+		window.BuildData = BuildData;
 
 		window:SetScript("OnMouseWheel", OnScrollBarMouseWheel);
 		window:SetScript("OnMouseDown", StartMovingOrSizing);
@@ -18600,8 +18679,8 @@ customWindowUpdates["CurrentInstance"] = function(self, force, got)
 						end
 					end
 
-					-- couldn't nest this thing using custom headers, try to use the key of the group to figure it out
-					if not nested and group then
+					-- couldn't nest this thing using a topheader header, try to use the key of the last nested group to figure out the topheader
+					if not topHeader and group then
 						groupKey = group.key;
 						typeHeaderID = nil;
 						-- determine the expected top header for this 'thing' based on its key
@@ -19508,6 +19587,8 @@ customWindowUpdates["RaidAssistant"] = function(self)
 						['description'] = L["RESET_INSTANCES_DESC"],
 						['visible'] = true,
 						['OnClick'] = function(row, button)
+							-- make sure the indicator icon is allowed to show
+							row.ref.trackable = true;
 							if IsAltKeyDown() then
 								row.ref.saved = not row.ref.saved;
 								Callback(self.Update, self);
@@ -21214,7 +21295,7 @@ customWindowUpdates["WorldQuests"] = function(self, force, got)
 				local numRandomDungeons = GetNumRandomDungeons();
 				-- print(numRandomDungeons,"numRandomDungeons");
 				if numRandomDungeons > 0 then
-					local groupFinder = { achID = 4476, text = DUNGEONS_BUTTON, collectible = false, g = {} };
+					local groupFinder = { achID = 4476, text = DUNGEONS_BUTTON, collectible = false, trackable = false, g = {} };
 					for index=1,numRandomDungeons,1 do
 						local dungeonID = GetLFGRandomDungeonInfo(index);
 						-- print("RandInfo",index,GetLFGRandomDungeonInfo(index));
@@ -23532,6 +23613,7 @@ app.events.TRANSMOG_COLLECTION_SOURCE_REMOVED = function(sourceID)
 	-- print("TRANSMOG_COLLECTION_SOURCE_REMOVED",sourceID)
 	local oldState = sourceID and ATTAccountWideData.Sources[sourceID];
 	if oldState then
+		local unlearnedSourceIDs = { sourceID };
 		local sourceInfo = C_TransmogCollection_GetSourceInfo(sourceID);
 		ATTAccountWideData.Sources[sourceID] = nil;
 
@@ -23551,6 +23633,7 @@ app.events.TRANSMOG_COLLECTION_SOURCE_REMOVED = function(sourceID)
 					if ATTAccountWideData.Sources[otherSourceID] then
 						local otherSourceInfo = C_TransmogCollection_GetSourceInfo(otherSourceID);
 						if not otherSourceInfo.isCollected and otherSourceInfo.categoryID == categoryID then
+							tinsert(unlearnedSourceIDs, otherSourceID);
 							ATTAccountWideData.Sources[otherSourceID] = nil;
 							shared = shared + 1;
 						end
@@ -23567,7 +23650,7 @@ app.events.TRANSMOG_COLLECTION_SOURCE_REMOVED = function(sourceID)
 		end
 
 		-- Refresh the Data and Cry!
-		app:RefreshData(false, true);
+		UpdateRawIDs("s", unlearnedSourceIDs);
 		Callback(app.PlayRemoveSound);
 		wipe(searchCache);
 		SendSocialMessage("S\t" .. sourceID .. "\t" .. oldState .. "\t0");

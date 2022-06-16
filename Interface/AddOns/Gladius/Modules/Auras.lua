@@ -5,7 +5,7 @@ end
 local L = Gladius.L
 local LSM
 
--- global functions
+-- Global functions
 local _G = _G
 local ceil = math.ceil
 local pairs = pairs

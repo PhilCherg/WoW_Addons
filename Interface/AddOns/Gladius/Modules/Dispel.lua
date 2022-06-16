@@ -7,7 +7,7 @@ end
 local L = Gladius.L
 local LSM
 
--- global functions
+-- Global functions
 local _G = _G
 local pairs = pairs
 local strfind = string.find
@@ -125,6 +125,9 @@ end
 end]]
 
 function Dispel:COMBAT_LOG_EVENT_UNFILTERED(event)
+	if not IsActiveBattlefieldArena() then
+		return
+	end
 	self:CombatLogEvent(event, CombatLogGetCurrentEventInfo())
 end
 
@@ -154,7 +157,7 @@ function Dispel:CombatLogEvent(event, timestamp, eventType, hideCaster, sourceGU
 end
 
 function Dispel:UpdateDispel(unit, duration)
-	if not unit or not duration then
+	if not unit or not self.frame[unit] or not duration then
 		return
 	end
 	-- grid style icon
@@ -335,7 +338,7 @@ function Dispel:Show(unit)
 			elseif unit == "arena3" then
 				dispellIcon = "Interface\\Icons\\spell_holy_purify"
 			elseif unit == "arena4" then
-				dispellIcon = "Interface\\Icons\\ability_shaman_cleansespirit"
+				dispellIcon = "Interface\\Icons\\spell_arcane_massdispel"
 			elseif unit == "arena5" then
 				dispellIcon = "Interface\\Icons\\spell_holy_removecurse"
 			end

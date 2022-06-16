@@ -1,6 +1,9 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0538,
+	["LastPlayerFullName"] = "Necrophagus-Outland",
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 188889,
@@ -88,9 +91,6 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178868::::::::60:267::35:5:7662:7359:6652:1560:6646::::::|h[Deathwalker's Promise]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Necrophagus-Outland",
 	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128941] = {

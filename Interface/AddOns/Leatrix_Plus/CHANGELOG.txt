@@ -1,3 +1,6 @@
+9.2.14 - 8th June 2022
+- Fixed an issue with 'Disable bag automation' ('System') which sometimes caused a taint error when sending mail.
+
 9.2.13 - 1st June 2022
 - Updated for game version 9.2.5.
 - For 'Mute game sounds' ('System'), the 'Mechstriders' and 'Mechsuits' settings will no longer mute footstep sounds.  There is a new setting called 'Mechsteps' that will mute footstep sounds for mechanical mounts.
